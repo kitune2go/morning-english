@@ -1,0 +1,248 @@
+[
+  {
+    "_no": 7,
+    "_generatedAt": "2026-04-30T22:10:00",
+    "sentence": "I review sentences that felt difficult yesterday, which helps me understand them more naturally than I did before.",
+    "phonetic": "アイ レビュー センテンシズ ザット フェルト ディフィカルト イエスタデイ, ウィッチ ヘルプス ミー アンダスタンド ゼム モア ナチュラリー ザン アイ ディド ビフォー",
+    "japaneseTranslation": "私は昨日難しく感じた文を復習している。それが以前よりも自然に理解する助けになる。",
+    "theme": "復習",
+    "coreVerb": "review",
+    "generateLayer": {
+      "phase1": { "sentence": "I review.", "translation": "私は復習する。" },
+      "phase2": { "sentence": "I review sentences every morning.", "translation": "私は毎朝文を復習する。", "addedChunks": "目的語(sentences)と時間(every morning)を追加" },
+      "phase3": { "sentence": "I review sentences because they felt difficult yesterday.", "translation": "昨日難しく感じたので文を復習する。", "connector": "because" },
+      "phase4": { "sentence": "I understand them more naturally than before.", "translation": "以前より自然にそれらを理解する。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I review sentences that felt difficult yesterday.", "translation": "昨日難しく感じた文を復習する。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I review", "function": "行動", "translation": "私は復習する" },
+        { "text": "sentences", "function": "対象", "translation": "文を" },
+        { "text": "that felt difficult", "function": "修飾", "translation": "難しく感じた" },
+        { "text": "yesterday", "function": "時間", "translation": "昨日" },
+        { "text": "which helps me understand", "function": "結果", "translation": "それが私が理解するのを助ける" },
+        { "text": "them more naturally", "function": "様態", "translation": "それらをより自然に" },
+        { "text": "than I did before", "function": "比較", "translation": "以前そうだったより" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I review / helps", "explanation": "習慣的な学習行動を表す現在形。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "時制", "name": "過去形", "where": "felt difficult", "explanation": "昨日の感覚なので過去形 felt を使う。", "rule": "feel の過去形 = felt" },
+        { "category": "関係詞", "name": "that", "where": "sentences that felt difficult", "explanation": "sentences を後ろから説明する。", "rule": "名詞 + that + 動詞句" },
+        { "category": "形容詞", "name": "difficult", "where": "felt difficult", "explanation": "feel/felt の後には状態を表す形容詞を置く。", "rule": "feel + 形容詞" },
+        { "category": "関係詞", "name": "which", "where": ", which helps", "explanation": "前文全体を受けて結果を足す。", "rule": "文 + , which + 動詞" },
+        { "category": "動詞パターン", "name": "help + O + V", "where": "helps me understand", "explanation": "help の後に目的語と原形動詞を置ける。", "rule": "help + O + V" },
+        { "category": "比較", "name": "more naturally than", "where": "more naturally than I did before", "explanation": "副詞 naturally の比較級。", "rule": "more + 副詞 + than" }
+      ],
+      "errors": [
+        { "wrong": "I review sentences that feels difficult yesterday.", "correct": "I review sentences that felt difficult yesterday.", "why": "yesterday があるので過去形 felt。sentences に対しても feels は不可。" },
+        { "wrong": "It helps me understanding them.", "correct": "It helps me understand them.", "why": "help + O + V の形なので understand を使う。" },
+        { "wrong": "I understand them more natural than before.", "correct": "I understand them more naturally than before.", "why": "understand を修飾するので形容詞 natural ではなく副詞 naturally。" }
+      ],
+      "variants": [
+        { "text": "I review difficult sentences.", "translation": "難しい文を復習する。" },
+        { "text": "Yesterday's difficulty becomes clearer today.", "translation": "昨日の難しさが今日は明確になる。" },
+        { "text": "Review helps me understand naturally.", "translation": "復習が自然な理解を助ける。" }
+      ],
+      "parseTree": "S(I) V(review) O(sentences) [Rel: that felt difficult yesterday], [Rel: which helps O(me) V(understand) O(them) [Adv: more naturally than I did before]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they felt difficult", "expanded": "since they felt difficult", "nuance": "理由を前提として示す" },
+        { "original": "because they felt difficult", "expanded": "as they felt difficult", "nuance": "やわらかい理由づけ" },
+        { "original": "because they felt difficult", "expanded": "due to the difficulty I felt yesterday", "nuance": "名詞句で原因を示す" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Sentences that felt difficult yesterday are reviewed by me.", "translation": "昨日難しく感じた文は私によって復習される。", "note": "be + 過去分詞" },
+        { "type": "分詞構文", "sentence": "Reviewing sentences from yesterday, I understand them more naturally.", "translation": "昨日の文を復習することで、より自然に理解する。", "note": "Reviewing で手段を示す" },
+        { "type": "名詞化", "sentence": "Reviewing difficult sentences improves my natural understanding.", "translation": "難しい文を復習することが自然な理解を高める。", "note": "動名詞を主語にする" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "review", "alternatives": ["revisit", "go over", "study again", "check"], "nuance": "review は復習、revisit は再訪、go over は確認し直す" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "Every morning, I review what felt difficult yesterday.", "translation": "毎朝、昨日難しく感じたものを復習する。" },
+          { "type": "It is ... that", "sentence": "It is review that turns difficulty into understanding.", "translation": "難しさを理解に変えるのは復習だ。" }
+        ],
+        "comparison": [
+          { "sentence": "I understand the sentences more naturally now than before.", "translation": "今は以前より自然にその文を理解している。" }
+        ],
+        "conditional": [
+          { "sentence": "If I review difficult sentences, they become easier to understand.", "translation": "難しい文を復習すれば、理解しやすくなる。" }
+        ],
+        "emphasis": [
+          { "sentence": "What helps me most is reviewing yesterday's difficult sentences.", "translation": "最も助けになるのは昨日難しかった文を復習することだ。" }
+        ],
+        "compression": [
+          { "sentence": "Review turns difficulty into understanding.", "translation": "復習は難しさを理解に変える。" },
+          { "sentence": "I review, then I understand.", "translation": "復習して、それから理解する。" }
+        ]
+      }
+    },
+    "scores": { "naturalness": 9, "clarity": 9, "flexibility": 8, "focus": 9, "efficiency": 9, "comment": "復習という学習行動に直結した文。過去形 felt と現在形 review の時間差を学べる。" }
+  },
+  {
+    "_no": 8,
+    "_generatedAt": "2026-04-30T22:11:00",
+    "sentence": "I choose words that match what I really mean, which makes my messages clearer than they were before.",
+    "phonetic": "アイ チューズ ワーズ ザット マッチ ワット アイ リアリー ミーン, ウィッチ メイクス マイ メッセージズ クリアラー ザン ゼイ ワー ビフォー",
+    "japaneseTranslation": "私は自分が本当に意味していることに合う言葉を選んでいる。それによって、以前よりもメッセージが明確になる。",
+    "theme": "表現",
+    "coreVerb": "choose",
+    "generateLayer": {
+      "phase1": { "sentence": "I choose.", "translation": "私は選ぶ。" },
+      "phase2": { "sentence": "I choose words carefully.", "translation": "私は慎重に言葉を選ぶ。", "addedChunks": "目的語(words)と様態(carefully)を追加" },
+      "phase3": { "sentence": "I choose words because I want to express meaning clearly.", "translation": "意味を明確に表現したいので言葉を選ぶ。", "connector": "because" },
+      "phase4": { "sentence": "My messages are clearer than before.", "translation": "私のメッセージは以前より明確だ。", "comparison": "clearer than" },
+      "phase5": { "sentence": "I choose words that match what I really mean.", "translation": "自分が本当に意味することに合う言葉を選ぶ。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I choose", "function": "行動", "translation": "私は選ぶ" },
+        { "text": "words", "function": "対象", "translation": "言葉を" },
+        { "text": "that match", "function": "修飾", "translation": "一致する" },
+        { "text": "what I really mean", "function": "内容", "translation": "私が本当に意味していることに" },
+        { "text": "which makes", "function": "結果", "translation": "それが〜にする" },
+        { "text": "my messages clearer", "function": "状態", "translation": "私のメッセージをより明確に" },
+        { "text": "than they were before", "function": "比較", "translation": "以前そうだったより" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I choose / match / makes", "explanation": "習慣や現在の方針を表す。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "関係詞", "name": "that", "where": "words that match", "explanation": "words を後ろから説明する。", "rule": "名詞 + that + 動詞句" },
+        { "category": "名詞節", "name": "what節", "where": "what I really mean", "explanation": "what は「〜すること」という名詞節を作る。", "rule": "what + 主語 + 動詞" },
+        { "category": "副詞", "name": "really", "where": "really mean", "explanation": "mean を強めて本当に意味する、というニュアンスを出す。", "rule": "副詞 + 動詞" },
+        { "category": "関係詞", "name": "which", "where": ", which makes", "explanation": "前文全体の結果を表す。", "rule": "文 + , which + 動詞" },
+        { "category": "使役", "name": "make + O + C", "where": "makes my messages clearer", "explanation": "目的語をある状態にする表現。", "rule": "make + O + 形容詞" },
+        { "category": "比較", "name": "clearer than", "where": "clearer than they were before", "explanation": "clear の比較級は clearer。", "rule": "比較級 + than" }
+      ],
+      "errors": [
+        { "wrong": "I choose words that matches my meaning.", "correct": "I choose words that match my meaning.", "why": "words は複数なので match にする。" },
+        { "wrong": "I choose words that match what I really means.", "correct": "I choose words that match what I really mean.", "why": "主語 I に対して mean を使う。" },
+        { "wrong": "It makes my messages more clear than before.", "correct": "It makes my messages clearer than before.", "why": "clear は短い形容詞なので clearer が基本。more clear も可能だが教材上は clearer。" }
+      ],
+      "variants": [
+        { "text": "I choose words carefully.", "translation": "慎重に言葉を選ぶ。" },
+        { "text": "Words shape meaning.", "translation": "言葉が意味を形作る。" },
+        { "text": "My messages become clearer.", "translation": "私のメッセージはより明確になる。" }
+      ],
+      "parseTree": "S(I) V(choose) O(words) [Rel: that match O(what I really mean)], [Rel: which makes O(my messages) C(clearer) [than they were before]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because I want clarity", "expanded": "since I want clarity", "nuance": "明確さを目的として前提化" },
+        { "original": "because I want clarity", "expanded": "as I want clarity", "nuance": "穏やかな理由" },
+        { "original": "because I want clarity", "expanded": "due to my need for clarity", "nuance": "名詞句で理由を示す" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Words that match my real meaning are chosen carefully.", "translation": "本当の意味に合う言葉が慎重に選ばれる。", "note": "受動態" },
+        { "type": "分詞構文", "sentence": "Choosing words carefully, I make my messages clearer.", "translation": "慎重に言葉を選ぶことで、メッセージを明確にする。", "note": "Choosing で手段を示す" },
+        { "type": "名詞化", "sentence": "Careful word choice makes my messages clearer.", "translation": "慎重な言葉選びがメッセージを明確にする。", "note": "choose を word choice に名詞化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "choose", "alternatives": ["select", "pick", "find", "shape"], "nuance": "choose は選ぶ、select はより意識的、pick は口語的、shape は形作る" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "Carefully, I choose words that match my meaning.", "translation": "慎重に、自分の意味に合う言葉を選ぶ。" },
+          { "type": "It is ... that", "sentence": "It is word choice that makes my message clearer.", "translation": "メッセージを明確にするのは言葉選びだ。" }
+        ],
+        "comparison": [
+          { "sentence": "My messages are clearer now than they were before.", "translation": "私のメッセージは今、以前より明確だ。" }
+        ],
+        "conditional": [
+          { "sentence": "If I choose words carefully, my message becomes clearer.", "translation": "慎重に言葉を選べば、メッセージは明確になる。" }
+        ],
+        "emphasis": [
+          { "sentence": "What makes communication clearer is choosing words that match meaning.", "translation": "コミュニケーションを明確にするのは、意味に合う言葉を選ぶことだ。" }
+        ],
+        "compression": [
+          { "sentence": "Better words make clearer messages.", "translation": "より良い言葉がより明確なメッセージを作る。" },
+          { "sentence": "Words carry meaning.", "translation": "言葉は意味を運ぶ。" }
+        ]
+      }
+    },
+    "scores": { "naturalness": 9, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 8, "comment": "言葉選びと意味伝達を結びつけた文。what節とmake構文を同時に学べる。" }
+  },
+  {
+    "_no": 9,
+    "_generatedAt": "2026-04-30T22:12:00",
+    "sentence": "I listen to stories that show different perspectives, which helps me think more flexibly than I usually do.",
+    "phonetic": "アイ リッスン トゥ ストーリーズ ザット ショウ ディファレント パースペクティヴズ, ウィッチ ヘルプス ミー シンク モア フレキシブリー ザン アイ ユージュアリー ドゥ",
+    "japaneseTranslation": "私は異なる視点を示してくれる物語を聞いている。それが普段よりも柔軟に考える助けになる。",
+    "theme": "視点",
+    "coreVerb": "listen",
+    "generateLayer": {
+      "phase1": { "sentence": "I listen.", "translation": "私は聞く。" },
+      "phase2": { "sentence": "I listen to stories every day.", "translation": "私は毎日物語を聞く。", "addedChunks": "対象(stories)と時間(every day)を追加" },
+      "phase3": { "sentence": "I listen to stories because they show different perspectives.", "translation": "異なる視点を示すので物語を聞く。", "connector": "because" },
+      "phase4": { "sentence": "I think more flexibly than usual.", "translation": "普段より柔軟に考える。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I listen to stories that show different perspectives.", "translation": "異なる視点を示す物語を聞く。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I listen to", "function": "行動", "translation": "私は聞く" },
+        { "text": "stories", "function": "対象", "translation": "物語を" },
+        { "text": "that show", "function": "修飾", "translation": "示す" },
+        { "text": "different perspectives", "function": "内容", "translation": "異なる視点を" },
+        { "text": "which helps me think", "function": "結果", "translation": "それが私が考えるのを助ける" },
+        { "text": "more flexibly", "function": "様態", "translation": "より柔軟に" },
+        { "text": "than I usually do", "function": "比較", "translation": "普段そうするより" }
+      ],
+      "grammarPoints": [
+        { "category": "句動詞", "name": "listen to", "where": "listen to stories", "explanation": "listen は対象を取るとき to が必要。", "rule": "listen to + 名詞" },
+        { "category": "時制", "name": "現在形", "where": "I listen / show / helps", "explanation": "習慣や現在の行動を示す。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "関係詞", "name": "that", "where": "stories that show", "explanation": "stories を後ろから説明する。", "rule": "名詞 + that + 動詞句" },
+        { "category": "形容詞", "name": "different", "where": "different perspectives", "explanation": "perspectives を前から修飾する。", "rule": "形容詞 + 名詞" },
+        { "category": "関係詞", "name": "which", "where": ", which helps", "explanation": "前文全体を受けて結果を表す。", "rule": "文 + , which + 動詞" },
+        { "category": "動詞パターン", "name": "help + O + V", "where": "helps me think", "explanation": "help の後に目的語と原形動詞を置ける。", "rule": "help + O + V" },
+        { "category": "比較", "name": "more flexibly than", "where": "more flexibly than I usually do", "explanation": "副詞 flexibly の比較級。", "rule": "more + 副詞 + than" }
+      ],
+      "errors": [
+        { "wrong": "I listen stories that show different perspectives.", "correct": "I listen to stories that show different perspectives.", "why": "listen は対象を取るとき to が必要。" },
+        { "wrong": "Stories that shows different perspectives help me.", "correct": "Stories that show different perspectives help me.", "why": "stories は複数なので show。" },
+        { "wrong": "I think more flexible than usual.", "correct": "I think more flexibly than usual.", "why": "think を修飾するので副詞 flexibly を使う。" }
+      ],
+      "variants": [
+        { "text": "I listen to different stories.", "translation": "異なる物語を聞く。" },
+        { "text": "Stories show new perspectives.", "translation": "物語は新しい視点を示す。" },
+        { "text": "I think more flexibly.", "translation": "より柔軟に考える。" }
+      ],
+      "parseTree": "S(I) V(listen to) O(stories) [Rel: that show O(different perspectives)], [Rel: which helps O(me) V(think) [Adv: more flexibly than I usually do]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they show perspectives", "expanded": "since they show perspectives", "nuance": "理由を前提として示す" },
+        { "original": "because they show perspectives", "expanded": "as they show perspectives", "nuance": "軽い理由づけ" },
+        { "original": "because they show perspectives", "expanded": "due to the perspectives they show", "nuance": "名詞句で原因を示す" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Stories that show different perspectives are listened to by me.", "translation": "異なる視点を示す物語は私によって聞かれる。", "note": "listen to の受動態では to が残る" },
+        { "type": "分詞構文", "sentence": "Listening to stories with different perspectives, I think more flexibly.", "translation": "異なる視点を持つ物語を聞くことで、より柔軟に考える。", "note": "Listening で手段を示す" },
+        { "type": "名詞化", "sentence": "Listening to diverse stories improves flexible thinking.", "translation": "多様な物語を聞くことが柔軟な思考を高める。", "note": "動名詞を主語にする" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "listen", "alternatives": ["hear", "follow", "take in", "pay attention to"], "nuance": "listen は意識して聞く、hear は聞こえる、take in は受け取る" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "Through stories, I learn to see different perspectives.", "translation": "物語を通して、異なる視点を見ることを学ぶ。" },
+          { "type": "It is ... that", "sentence": "It is stories that teach me flexible thinking.", "translation": "柔軟な思考を教えてくれるのは物語だ。" }
+        ],
+        "comparison": [
+          { "sentence": "I think more flexibly now than I usually do.", "translation": "今は普段より柔軟に考えている。" }
+        ],
+        "conditional": [
+          { "sentence": "If I listen to different stories, I can see more perspectives.", "translation": "異なる物語を聞けば、より多くの視点が見える。" }
+        ],
+        "emphasis": [
+          { "sentence": "What changes my thinking is listening to stories from different perspectives.", "translation": "私の考え方を変えるのは、異なる視点の物語を聞くことだ。" }
+        ],
+        "compression": [
+          { "sentence": "Stories widen my view.", "translation": "物語が視野を広げる。" },
+          { "sentence": "Different stories make flexible thinking.", "translation": "異なる物語が柔軟な思考を作る。" }
+        ]
+      }
+    },
+    "scores": { "naturalness": 9, "clarity": 9, "flexibility": 9, "focus": 8, "efficiency": 8, "comment": "物語と視点移動をつなぐ英文。listen to、that節、副詞比較を学べる。" }
+  }
+]
