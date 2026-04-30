@@ -11,6 +11,7 @@ morning-english/
   ├── index.html          ← アプリ本体（PCで開けば即動作）
   ├── manifest.json       ← PWA設定（ホーム画面追加用）
   ├── cards-index.json    ← 読み込むカードJSONの一覧
+  ├── cards-manifest.json ← 読み込むカードJSONの一覧（互換用）
   ├── cards.json          ← サンプル3枚（後で100枚に置き換え）
   ├── icon-192.svg        ← アプリアイコン
   ├── icon-512.svg        ← アプリアイコン（高解像度）
@@ -184,15 +185,24 @@ git push
 }
 ```
 
+`cards-manifest.json` を使う場合は、配列だけでもOKです。
+
+```json
+[
+  "cards.json",
+  "cards-extra-001.json"
+]
+```
+
 ### 3. GitHub Pagesへ反映
 
 ```bash
-git add cards-index.json cards-extra-001.json
+git add cards-index.json cards-manifest.json cards-extra-001.json
 git commit -m "Add extra cards"
 git push
 ```
 
-アプリは起動時に `cards-index.json` と各カードJSONを毎回確認します。`_no` が同じカードは重複追加されません。
+アプリは起動時に `cards-index.json` / `cards-manifest.json` と各カードJSONを毎回確認します。`_no` が同じカードは重複追加されません。
 
 ---
 

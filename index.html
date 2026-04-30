@@ -387,7 +387,7 @@ const fnColor = (f) => FN_HEX[f] || '#44403c';
 
 const STORAGE_KEY = 'cegplus-v2-data';
 const HISTORY_KEY = 'cegplus-v2-history';
-const CARD_INDEX_PATH = 'cards-index.json';
+const CARD_INDEX_PATHS = ['cards-index.json', 'cards-manifest.json'];
 const DEFAULT_CARD_FILES = ['cards.json'];
 
 // ─── State ─────────────────────────────────
@@ -485,12 +485,15 @@ async function loadCards() {
   const stored = loadFromStorage(STORAGE_KEY);
 
   try {
-    let cardFiles = DEFAULT_CARD_FILES;
-    try {
-      cardFiles = normalizeCardFileList(await fetchJsonFresh(CARD_INDEX_PATH));
-    } catch (e) {
-      // cards-index.json がない場合は従来通り cards.json のみ読む
+    const discoveredFiles = [];
+    for (const indexPath of CARD_INDEX_PATHS) {
+      try {
+        discoveredFiles.push(...normalizeCardFileList(await fetchJsonFresh(indexPath)));
+      } catch (e) {
+        // 一覧ファイルがない場合は無視して、見つかったものだけ使う
+      }
     }
+    const cardFiles = discoveredFiles.length ? [...new Set(discoveredFiles)] : DEFAULT_CARD_FILES;
 
     const fetchedLists = [];
     for (const file of cardFiles) {
