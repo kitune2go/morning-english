@@ -387,6 +387,8 @@ const fnColor = (f) => FN_HEX[f] || '#44403c';
 
 const STORAGE_KEY = 'cegplus-v2-data';
 const HISTORY_KEY = 'cegplus-v2-history';
+const CARD_INDEX_PATH = 'cards-index.json';
+const DEFAULT_CARD_FILES = ['cards.json'];
 
 // ─── State ─────────────────────────────────
 let allCards = [];   // 全カードデータ（cards.json の中身）
@@ -419,8 +421,11 @@ function saveToStorage(key, value) {
 // ─── Card selection ────────────────────────
 // 起動日からの経過日数で決定論的にカードを選ぶ
 function getCardIndexForDate(date) {
-  const meta = loadFromStorage('cegplus-v2-meta') || { startDate: getDateKey() };
-  if (!meta.startDate) { meta.startDate = getDateKey(); saveToStorage('cegplus-v2-meta', meta); }
+  let meta = loadFromStorage('cegplus-v2-meta');
+  if (!meta || !meta.startDate) {
+    meta = { startDate: getDateKey() };
+    saveToStorage('cegplus-v2-meta', meta);
+  }
 
   const start = new Date(meta.startDate);
   const target = new Date(date);
@@ -437,27 +442,79 @@ function loadDate(dateKey) {
 }
 
 // ─── Data loading ──────────────────────────
-async function loadCards() {
-  // 1. localStorage を試す
-  const stored = loadFromStorage(STORAGE_KEY);
-  if (stored && Array.isArray(stored) && stored.length > 0) {
-    allCards = stored;
-    return true;
-  }
+async function fetchJsonFresh(path) {
+  const separator = path.includes('?') ? '&' : '?';
+  const res = await fetch(`${path}${separator}v=${Date.now()}`, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`${path}: ${res.status}`);
+  return res.json();
+}
 
-  // 2. cards.json をfetch
+function normalizeCardFileList(indexData) {
+  const rawFiles = Array.isArray(indexData) ? indexData : indexData?.cards;
+  const files = Array.isArray(rawFiles) ? rawFiles : DEFAULT_CARD_FILES;
+  return [...new Set(files.filter(f => typeof f === 'string' && f.trim()).map(f => f.trim()))];
+}
+
+function cardIdentity(card) {
+  if (card && card._no != null && card._no !== '') return `no:${card._no}`;
+  if (card?.sentence) return `sentence:${card.sentence}|${card.coreVerb || ''}`;
+  return `json:${JSON.stringify(card)}`;
+}
+
+function mergeCardLists(...lists) {
+  const merged = [];
+  const seen = new Set();
+
+  lists.flat().forEach((card) => {
+    if (!card || typeof card !== 'object') return;
+    const key = cardIdentity(card);
+    if (seen.has(key)) return;
+    seen.add(key);
+    merged.push(card);
+  });
+
+  return merged.sort((a, b) => {
+    const an = Number(a._no);
+    const bn = Number(b._no);
+    if (Number.isFinite(an) && Number.isFinite(bn)) return an - bn;
+    return 0;
+  });
+}
+
+async function loadCards() {
+  const stored = loadFromStorage(STORAGE_KEY);
+
   try {
-    const res = await fetch('cards.json');
-    if (res.ok) {
-      const data = await res.json();
-      if (Array.isArray(data) && data.length > 0) {
-        allCards = data;
-        saveToStorage(STORAGE_KEY, allCards);
-        return true;
+    let cardFiles = DEFAULT_CARD_FILES;
+    try {
+      cardFiles = normalizeCardFileList(await fetchJsonFresh(CARD_INDEX_PATH));
+    } catch (e) {
+      // cards-index.json がない場合は従来通り cards.json のみ読む
+    }
+
+    const fetchedLists = [];
+    for (const file of cardFiles) {
+      try {
+        const data = await fetchJsonFresh(file);
+        if (Array.isArray(data)) fetchedLists.push(data);
+      } catch (e) {
+        console.warn('Card file skipped:', file, e);
       }
+    }
+
+    const fetchedCards = mergeCardLists(...fetchedLists);
+    if (fetchedCards.length > 0) {
+      allCards = mergeCardLists(fetchedCards, Array.isArray(stored) ? stored : []);
+      saveToStorage(STORAGE_KEY, allCards);
+      return true;
     }
   } catch (e) {
     // file://でCORS制限の場合あり、無視して次へ
+  }
+
+  if (stored && Array.isArray(stored) && stored.length > 0) {
+    allCards = stored;
+    return true;
   }
 
   return false;
