@@ -1,0 +1,271 @@
+[
+  {
+    "_no": 1,
+    "_generatedAt": "2026-04-29T10:00:00",
+    "sentence": "I create things that bring meaning to my life every day, which makes me feel more fulfilled than I was before.",
+    "phonetic": "アイ クリエイト シングス ザット ブリング ミーニング トゥ マイ ライフ エヴリ デイ, ウィッチ メイクス ミー フィール モア フルフィルド ザン アイ ワズ ビフォー",
+    "japaneseTranslation": "私は毎日、自分の人生に意味をもたらすものを創り出している。それが以前よりも自分を満たされた気持ちにさせてくれる。",
+    "theme": "創作",
+    "coreVerb": "create",
+    "generateLayer": {
+      "phase1": { "sentence": "I create.", "translation": "私は創る。" },
+      "phase2": { "sentence": "I create things every day.", "translation": "私は毎日ものを創る。", "addedChunks": "目的語(things)と時間(every day)を追加" },
+      "phase3": { "sentence": "I create things every day because it brings meaning to my life.", "translation": "人生に意味をもたらすから毎日創る。", "connector": "because" },
+      "phase4": { "sentence": "I create more things every day than I did before.", "translation": "以前より毎日多くを創る。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I create things that bring meaning to my life every day.", "translation": "人生に意味をもたらすものを毎日創る。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I create", "function": "行動", "translation": "私は創る" },
+        { "text": "things", "function": "対象", "translation": "ものを" },
+        { "text": "that bring meaning to my life", "function": "修飾", "translation": "人生に意味をもたらす" },
+        { "text": "every day", "function": "時間", "translation": "毎日" },
+        { "text": "which makes me feel", "function": "結果", "translation": "それが私を〜と感じさせる" },
+        { "text": "more fulfilled", "function": "状態", "translation": "より満たされた" },
+        { "text": "than I was before", "function": "比較", "translation": "以前の私より" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I create / bring / makes", "explanation": "習慣・継続的な行動を表す現在形。日常の繰り返しを表現するときに使う。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "関係詞", "name": "関係代名詞 that", "where": "things that bring meaning", "explanation": "先行詞 things を修飾する関係詞節。「〜するもの」と後ろから説明。", "rule": "名詞 + that + 動詞句" },
+        { "category": "関係詞", "name": "関係代名詞 which（非制限用法）", "where": ", which makes me feel", "explanation": "前文全体を受ける which。「そしてそれが〜」のニュアンス。", "rule": "文 + , which + 動詞" },
+        { "category": "比較", "name": "比較級 more ... than", "where": "more fulfilled than I was before", "explanation": "形容詞の比較級。3音節以上は more を使う。", "rule": "more + 形容詞 + than + 比較対象" },
+        { "category": "前置詞", "name": "to / before", "where": "to my life / before", "explanation": "to は方向「〜に」、before は時間「以前」", "rule": "前置詞 + 名詞" },
+        { "category": "副詞", "name": "副詞句 every day", "where": "every day", "explanation": "頻度を表す副詞句。文末に置くのが基本。", "rule": "every + 名詞" },
+        { "category": "知覚動詞", "name": "make + 目的語 + 原形", "where": "makes me feel", "explanation": "使役動詞 make は「〜させる」。後ろは原形不定詞。", "rule": "make + 目的語 + 動詞の原形" }
+      ],
+      "errors": [
+        { "wrong": "I am create things every day.", "correct": "I create things every day.", "why": "be動詞と一般動詞は同時に使えない。状態でなく習慣なのでcreate単独。" },
+        { "wrong": "I create things which bring meaning every day.", "correct": "I create things that bring meaning every day.", "why": "ここでは制限用法のためthat推奨。whichでも可だがthatの方が自然。" },
+        { "wrong": "I am more fulfilled than before me.", "correct": "I am more fulfilled than I was before.", "why": "比較対象は完全な節で表現するのが正確。before me ではなく I was before。" }
+      ],
+      "variants": [
+        { "text": "I create things every day.", "translation": "毎日ものを創っている。" },
+        { "text": "It brings meaning to my life.", "translation": "それが人生に意味をもたらす。" },
+        { "text": "I feel more fulfilled now.", "translation": "今はより満たされた気持ちだ。" }
+      ],
+      "parseTree": "S(I) V(create) O(things) [Rel: that bring meaning to my life] [Adv: every day], [Rel: which makes S(me) V(feel) C(more fulfilled) [than I was before]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because it brings meaning", "expanded": "since it brings meaning", "nuance": "since は理由が既知である場合に使う、よりフォーマル" },
+        { "original": "because it brings meaning", "expanded": "as it brings meaning", "nuance": "as はより緩やかな因果、副次的な理由" },
+        { "original": "because it brings meaning", "expanded": "due to the meaning it brings", "nuance": "due to は名詞句で原因を示す、文書的" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Things that bring meaning to my life are created by me every day.", "translation": "人生に意味をもたらすものは、私によって毎日創られている。", "note": "主語と目的語を入れ替え、be + 過去分詞" },
+        { "type": "分詞構文", "sentence": "Creating things that bring meaning to my life every day, I feel more fulfilled.", "translation": "毎日意味をもたらすものを創ることで、より満たされた気持ちだ。", "note": "主節の前に -ing で副詞的に表現" },
+        { "type": "名詞化", "sentence": "The creation of meaningful things every day fulfills me.", "translation": "毎日の意味あるものの創造が私を満たしてくれる。", "note": "動詞 create を名詞 creation にして主語化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "create", "alternatives": ["make", "produce", "craft", "build"], "nuance": "create は無から生み出すニュアンス、make は一般的、produce は量産的、craft は丁寧な手仕事、build は構築" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調 (倒置)", "sentence": "Every day I create things that bring meaning to my life.", "translation": "毎日、人生に意味をもたらすものを創っている。" },
+          { "type": "It is ... that", "sentence": "It is meaningful things that I create every day.", "translation": "私が毎日創るのは意味あるものだ。" }
+        ],
+        "comparison": [
+          { "sentence": "I create more meaningful things now than ever before.", "translation": "以前にも増して、より意味あるものを創っている。" }
+        ],
+        "conditional": [
+          { "sentence": "If I create things every day, I feel more fulfilled.", "translation": "毎日創れば、より満たされる。" },
+          { "sentence": "When I create something meaningful, my life feels richer.", "translation": "意味あるものを創るとき、人生がより豊かに感じる。" }
+        ],
+        "emphasis": [
+          { "sentence": "What I create every day brings meaning to my life.", "translation": "私が毎日創るものこそが人生に意味をもたらす。" }
+        ],
+        "compression": [
+          { "sentence": "Creating daily fulfills me deeply.", "translation": "毎日の創作が深く私を満たす。" },
+          { "sentence": "By creating meaningful things, I find fulfillment.", "translation": "意味あるものを創ることで、充実を見出す。" }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 8,
+      "flexibility": 9,
+      "focus": 8,
+      "efficiency": 7,
+      "comment": "創作と人生の意味を結びつける自然な英文。関係詞 that と which を組み合わせた構造で、後置修飾と結果節の両方を学べる教材的価値の高い文。"
+    }
+  },
+  {
+    "_no": 2,
+    "_generatedAt": "2026-04-29T10:01:00",
+    "sentence": "I read books that challenge my way of thinking every morning, which helps me grow more open-minded than I used to be.",
+    "phonetic": "アイ リード ブックス ザット チャレンジ マイ ウェイ オブ シンキング エヴリ モーニング, ウィッチ ヘルプス ミー グロウ モア オープンマインデッド ザン アイ ユーズドゥ ビー",
+    "japaneseTranslation": "毎朝、自分の考え方に挑戦してくる本を読んでいる。それが以前よりも柔軟な思考を育ててくれる。",
+    "theme": "学び",
+    "coreVerb": "read",
+    "generateLayer": {
+      "phase1": { "sentence": "I read.", "translation": "私は読む。" },
+      "phase2": { "sentence": "I read books every morning.", "translation": "毎朝本を読む。", "addedChunks": "目的語(books)と時間(every morning)を追加" },
+      "phase3": { "sentence": "I read books every morning because they challenge me.", "translation": "私に挑戦してくるから毎朝本を読む。", "connector": "because" },
+      "phase4": { "sentence": "I am more open-minded than I used to be.", "translation": "以前より柔軟な思考になった。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I read books that challenge my way of thinking every morning.", "translation": "考え方に挑戦してくる本を毎朝読む。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I read", "function": "行動", "translation": "私は読む" },
+        { "text": "books", "function": "対象", "translation": "本を" },
+        { "text": "that challenge my way of thinking", "function": "修飾", "translation": "考え方に挑戦してくる" },
+        { "text": "every morning", "function": "時間", "translation": "毎朝" },
+        { "text": "which helps me grow", "function": "結果", "translation": "それが私を育ててくれる" },
+        { "text": "more open-minded", "function": "状態", "translation": "より柔軟な思考に" },
+        { "text": "than I used to be", "function": "比較", "translation": "以前の私より" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I read / challenge / helps", "explanation": "習慣を表す現在形。every morning と組み合わせて反復行動を示す。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "時制", "name": "used to + 動詞原形", "where": "than I used to be", "explanation": "「以前は〜だった」という過去の習慣・状態を表す。", "rule": "used to + 動詞原形" },
+        { "category": "関係詞", "name": "関係代名詞 that", "where": "books that challenge", "explanation": "先行詞 books を修飾。", "rule": "名詞 + that + 動詞句" },
+        { "category": "関係詞", "name": "関係代名詞 which（継続用法）", "where": ", which helps me grow", "explanation": "前文全体を受ける用法。", "rule": "文 + , which + 動詞" },
+        { "category": "比較", "name": "比較級 more ... than", "where": "more open-minded than", "explanation": "ハイフンでつなぐ複合形容詞も more を使う。", "rule": "more + 形容詞 + than" },
+        { "category": "前置詞", "name": "of の用法", "where": "way of thinking", "explanation": "of は所有・関連を示す。way of -ing で「〜のしかた」。", "rule": "名詞 + of + 動名詞" },
+        { "category": "動名詞", "name": "動名詞 -ing", "where": "thinking", "explanation": "前置詞 of の後は名詞か動名詞。", "rule": "前置詞 + V-ing" }
+      ],
+      "errors": [
+        { "wrong": "I read books which challenges my way.", "correct": "I read books that challenge my way.", "why": "先行詞 books が複数なので動詞は challenge（s なし）。" },
+        { "wrong": "I am more open-minded than I used be.", "correct": "I am more open-minded than I used to be.", "why": "used to は to を省略しない。固定表現。" },
+        { "wrong": "I read books that challenge my thinking way.", "correct": "I read books that challenge my way of thinking.", "why": "thinking way より way of thinking が自然な英語表現。" }
+      ],
+      "variants": [
+        { "text": "I read every morning.", "translation": "毎朝読書している。" },
+        { "text": "These books challenge my thinking.", "translation": "これらの本は私の思考に挑戦してくる。" },
+        { "text": "I'm becoming more open-minded.", "translation": "より柔軟になってきている。" }
+      ],
+      "parseTree": "S(I) V(read) O(books) [Rel: that challenge O(my way of thinking)] [Adv: every morning], [Rel: which helps O(me) V(grow) C(more open-minded) [than I used to be]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they challenge me", "expanded": "since they challenge me", "nuance": "since は前提として知られた理由" },
+        { "original": "because they challenge me", "expanded": "as they challenge me", "nuance": "as は同時的・副次的なニュアンス" },
+        { "original": "because they challenge me", "expanded": "due to their challenging nature", "nuance": "due to は名詞句で原因を示す" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Books that challenge my way of thinking are read by me every morning.", "translation": "考え方に挑戦してくる本は、私によって毎朝読まれている。", "note": "be + 過去分詞 + by" },
+        { "type": "分詞構文", "sentence": "Reading books that challenge my way of thinking every morning, I grow more open-minded.", "translation": "毎朝考え方に挑戦してくる本を読むことで、より柔軟になる。", "note": "Reading で副詞的に主節に接続" },
+        { "type": "従属節先行", "sentence": "Because I read challenging books every morning, I have become more open-minded.", "translation": "毎朝挑戦的な本を読むので、より柔軟になった。", "note": "理由節を先頭に置く" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "challenge", "alternatives": ["question", "test", "push", "stretch"], "nuance": "challenge は正面から挑む、question は問いかける、test は試す、push は押し広げる、stretch は伸ばす" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調 (副詞句先頭)", "sentence": "Every morning, I read books that push my thinking.", "translation": "毎朝、思考を押し広げる本を読んでいる。" },
+          { "type": "It is ... that", "sentence": "It is challenging books that I read every morning.", "translation": "私が毎朝読むのは挑戦的な本だ。" }
+        ],
+        "comparison": [
+          { "sentence": "I read more challenging books now than I did a year ago.", "translation": "1年前より挑戦的な本を読んでいる。" }
+        ],
+        "conditional": [
+          { "sentence": "If I read challenging books, my mind grows.", "translation": "挑戦的な本を読めば、思考が育つ。" }
+        ],
+        "emphasis": [
+          { "sentence": "What I read every morning shapes how I think.", "translation": "毎朝読むものが、私の考え方を形作る。" }
+        ],
+        "compression": [
+          { "sentence": "By reading challenging books daily, I grow.", "translation": "挑戦的な本を毎日読むことで、私は成長する。" },
+          { "sentence": "Daily reading expands my mind.", "translation": "毎日の読書が私の思考を広げる。" }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "学びと成長を結びつけた汎用性の高い英文。way of thinking や used to be など実用的な表現が含まれており、会話でも応用しやすい構造。"
+    }
+  },
+  {
+    "_no": 3,
+    "_generatedAt": "2026-04-29T10:02:00",
+    "sentence": "I write down ideas that come to mind throughout the day, which helps me think more clearly than I could without notes.",
+    "phonetic": "アイ ライト ダウン アイディアズ ザット カム トゥ マインド スルーアウト ザ デイ, ウィッチ ヘルプス ミー シンク モア クリアリー ザン アイ クッド ウィザウト ノーツ",
+    "japaneseTranslation": "1日を通して思いつくアイデアを書き留めている。それがメモなしの場合よりも、明晰に考えるのを助けてくれる。",
+    "theme": "思考整理",
+    "coreVerb": "write",
+    "generateLayer": {
+      "phase1": { "sentence": "I write.", "translation": "私は書く。" },
+      "phase2": { "sentence": "I write down ideas throughout the day.", "translation": "1日中アイデアを書き留める。", "addedChunks": "目的語(ideas)と時間(throughout the day)を追加" },
+      "phase3": { "sentence": "I write down ideas because they come to mind.", "translation": "頭に浮かぶから書き留める。", "connector": "because" },
+      "phase4": { "sentence": "I think more clearly with notes than without them.", "translation": "メモがある方がより明晰に考えられる。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I write down ideas that come to mind throughout the day.", "translation": "1日中浮かぶアイデアを書き留める。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I write down", "function": "行動", "translation": "私は書き留める" },
+        { "text": "ideas", "function": "対象", "translation": "アイデアを" },
+        { "text": "that come to mind", "function": "修飾", "translation": "頭に浮かぶ" },
+        { "text": "throughout the day", "function": "時間", "translation": "1日を通して" },
+        { "text": "which helps me think", "function": "結果", "translation": "それが私が考えるのを助ける" },
+        { "text": "more clearly", "function": "様態", "translation": "より明晰に" },
+        { "text": "than I could without notes", "function": "比較", "translation": "メモなしの場合より" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I write / come / helps", "explanation": "習慣を表す現在形。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "句動詞", "name": "write down", "where": "write down ideas", "explanation": "down で「下に」=「書き記す」。down は副詞。", "rule": "動詞 + 副詞" },
+        { "category": "関係詞", "name": "関係代名詞 that", "where": "ideas that come", "explanation": "先行詞 ideas を修飾。", "rule": "名詞 + that + 動詞句" },
+        { "category": "関係詞", "name": "関係代名詞 which", "where": ", which helps", "explanation": "前文全体を受けて結果を導く。", "rule": "文 + , which + 動詞" },
+        { "category": "比較", "name": "比較級副詞 more clearly", "where": "more clearly", "explanation": "副詞の比較級。-ly で終わる副詞は more を使う。", "rule": "more + 副詞 + than" },
+        { "category": "前置詞", "name": "throughout / without", "where": "throughout the day / without notes", "explanation": "throughout は「〜全体を通じて」、without は「〜なしで」。", "rule": "前置詞 + 名詞" },
+        { "category": "助動詞", "name": "could（仮定）", "where": "than I could without notes", "explanation": "「もしメモなしなら考えられるであろう」という仮定法的用法。", "rule": "could + 動詞原形" }
+      ],
+      "errors": [
+        { "wrong": "I write down ideas which comes to mind.", "correct": "I write down ideas that come to mind.", "why": "ideas は複数なので動詞は come（s なし）。" },
+        { "wrong": "I think clearer than I could without notes.", "correct": "I think more clearly than I could without notes.", "why": "「考える」を修飾するのは副詞。clearer ではなく more clearly。" },
+        { "wrong": "I write ideas during all the day.", "correct": "I write ideas throughout the day.", "why": "「1日を通して」は throughout the day が自然。during all the day は不自然。" }
+      ],
+      "variants": [
+        { "text": "I write things down all day.", "translation": "1日中書き留めている。" },
+        { "text": "Ideas come to mind, and I capture them.", "translation": "アイデアが浮かんでは、それを捕まえる。" },
+        { "text": "Notes help me think clearly.", "translation": "メモが明晰な思考を助ける。" }
+      ],
+      "parseTree": "S(I) V(write down) O(ideas) [Rel: that come to mind] [Adv: throughout the day], [Rel: which helps O(me) V(think) [Adv: more clearly] [than I could without notes]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they come to mind", "expanded": "since they come to mind", "nuance": "より既知の理由" },
+        { "original": "because they come to mind", "expanded": "as they come to mind", "nuance": "緩やかな因果" },
+        { "original": "because they come to mind", "expanded": "owing to their fleeting nature", "nuance": "owing to は文書的な原因表現" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Ideas that come to mind throughout the day are written down by me.", "translation": "1日を通して浮かぶアイデアは、私によって書き留められる。", "note": "be + 過去分詞" },
+        { "type": "分詞構文", "sentence": "Writing down ideas throughout the day, I think more clearly.", "translation": "1日中アイデアを書き留めることで、より明晰に考えられる。", "note": "-ing 形で副詞的に" },
+        { "type": "名詞化", "sentence": "Writing down ideas helps clear thinking.", "translation": "アイデアを書き留めることが明晰な思考を助ける。", "note": "動名詞を主語化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "write down", "alternatives": ["jot down", "note", "record", "capture"], "nuance": "write down は一般的、jot down は素早く書き留める、note は記録する、record は正式に記録、capture は捕まえる" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調 (副詞句先頭)", "sentence": "Throughout the day, I capture every idea that comes to mind.", "translation": "1日を通じて、浮かぶアイデアをすべて捕まえる。" },
+          { "type": "It is ... that", "sentence": "It is fleeting ideas that I write down throughout the day.", "translation": "私が1日中書き留めるのは、つかの間のアイデアだ。" }
+        ],
+        "comparison": [
+          { "sentence": "I think more clearly with notes than I ever did before.", "translation": "メモがあることで、これまで以上に明晰に考えられる。" }
+        ],
+        "conditional": [
+          { "sentence": "If I write down my ideas, I can think more clearly.", "translation": "アイデアを書き留めれば、より明晰に考えられる。" },
+          { "sentence": "When I capture ideas immediately, I don't lose them.", "translation": "アイデアをすぐ捕まえれば、失わずに済む。" }
+        ],
+        "emphasis": [
+          { "sentence": "What helps me think clearly is writing down every idea.", "translation": "明晰に考えるのを助けてくれるのは、すべてのアイデアを書き留めることだ。" }
+        ],
+        "compression": [
+          { "sentence": "By writing ideas down, I sharpen my thinking.", "translation": "アイデアを書き留めることで、思考が鋭くなる。" },
+          { "sentence": "Daily note-taking clarifies my mind.", "translation": "毎日のメモが思考をクリアにする。" }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 8,
+      "efficiency": 8,
+      "comment": "思考整理という実用的なテーマを扱った文。write down という句動詞、関係詞 that/which の組み合わせ、副詞の比較級が一文に収まっており学習材料として充実。"
+    }
+  }
+]

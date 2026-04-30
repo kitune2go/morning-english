@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#b91c1c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="毎朝の英語">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.svg">
+<title>毎朝の英語 — CEG+ v2.0</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23FEF3C7'/%3E%3Crect x='15' y='15' width='70' height='70' fill='%23b91c1c' transform='rotate(6 50 50)'/%3E%3Ctext x='50' y='65' text-anchor='middle' fill='%23FEF3C7' font-family='serif' font-size='44' font-weight='bold' transform='rotate(6 50 50)'%3E朝%3C/text%3E%3C/svg%3E">
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    background: #FEF3C7;
+    color: #1c1917;
+    min-height: 100vh;
+    background-image: radial-gradient(circle, rgba(28,25,23,0.04) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  .serif { font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif; }
+  .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .container { max-width: 720px; margin: 0 auto; padding: 24px 16px 80px; }
+
+  /* ── Header ── */
+  header { border-bottom: 2px solid #1c1917; padding-bottom: 16px; margin-bottom: 16px; }
+  .header-top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+  .label-tiny { font-size: 10px; text-transform: uppercase; letter-spacing: 0.2em; color: #78716c; }
+  h1 { font-family: Georgia, "Hiragino Mincho ProN", serif; font-size: 30px; margin: 4px 0 0; }
+  .header-bottom { display: flex; align-items: center; justify-content: space-between; margin-top: 12px; flex-wrap: wrap; gap: 6px; }
+  .date-info { font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; color: #78716c; }
+  .num-info { font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; color: #b91c1c; }
+
+  /* ── Buttons ── */
+  .btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 8px 12px; border: 2px solid #1c1917; background: #ffffff; color: #1c1917;
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em;
+    cursor: pointer; transition: background 0.15s; font-family: inherit;
+  }
+  .btn:hover { background: #f5f5f4; }
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .btn-primary { background: #1c1917; color: #FEF3C7; }
+  .btn-primary:hover { background: #44403c; }
+  .btn-red { background: #b91c1c; color: #ffffff; border-color: #b91c1c; }
+  .btn-red:hover { background: #991b1b; }
+  .btn-indigo { background: #3730a3; color: #ffffff; border-color: #3730a3; }
+  .btn-indigo:hover { background: #312e81; }
+  .btn-emerald { background: #047857; color: #ffffff; border-color: #047857; }
+  .btn-icon { padding: 6px; }
+
+  /* ── Layer Tabs ── */
+  .tabs { display: flex; gap: 4px; margin-bottom: 20px; overflow-x: auto; padding-bottom: 4px; }
+  .tab {
+    padding: 6px 12px; border: 2px solid #d6d3d1; background: #ffffff; color: #57534e;
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em;
+    cursor: pointer; white-space: nowrap; font-family: inherit;
+  }
+  .tab.active { background: #1c1917; color: #FEF3C7; border-color: #1c1917; }
+
+  /* ── Hero card ── */
+  .hero {
+    border: 2px solid #1c1917; background: #ffffff; margin-bottom: 24px;
+    position: relative; padding: 24px;
+  }
+  .stamp {
+    position: absolute; top: -12px; right: -12px;
+    width: 48px; height: 48px; background: #b91c1c;
+    display: flex; align-items: center; justify-content: center;
+    transform: rotate(6deg); box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    color: #FEF3C7; font-size: 20px; font-family: serif;
+  }
+  .hero-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .tag-mini {
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em;
+    padding: 2px 8px; background: #1c1917; color: #FEF3C7;
+  }
+  .tag-mini.gray { background: transparent; color: #78716c; padding: 2px 0; }
+  .hero-sentence {
+    font-family: Georgia, "Hiragino Mincho ProN", serif; font-size: 22px;
+    line-height: 1.5; margin: 0; font-weight: bold;
+  }
+  .hero-phonetic { font-family: monospace; font-size: 11px; color: #78716c; margin: 8px 0 0; line-height: 1.5; }
+  .hero-trans { font-size: 13px; color: #57534e; margin: 16px 0 0; padding-left: 12px; border-left: 2px solid #d6d3d1; line-height: 1.6; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; padding-top: 16px; border-top: 1px solid #e7e5e4; }
+  .ml-auto { margin-left: auto; }
+
+  /* ── Layer header ── */
+  .layer-header {
+    color: #ffffff; padding: 8px 12px; margin: 16px 0 8px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .layer-header.red { background: #b91c1c; }
+  .layer-header.emerald { background: #065f46; }
+  .layer-header.indigo { background: #3730a3; }
+  .layer-header h2 { font-family: Georgia, "Hiragino Mincho ProN", serif; font-size: 14px; margin: 0; font-weight: bold; }
+  .layer-header .desc { font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em; opacity: 0.7; margin-left: auto; }
+
+  /* ── Section card ── */
+  .section { border: 2px solid #1c1917; background: #ffffff; margin-bottom: 12px; }
+  .section-header {
+    width: 100%; display: flex; align-items: center; justify-content: space-between;
+    padding: 16px; background: transparent; border: none; cursor: pointer; text-align: left; font-family: inherit;
+  }
+  .section-header:hover { background: #fafaf9; }
+  .section-title { font-family: Georgia, "Hiragino Mincho ProN", serif; font-size: 15px; font-weight: bold; }
+  .section-subtitle { font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em; color: #a8a29e; margin-top: 2px; }
+  .section-body { padding: 12px 16px 16px; border-top: 1px solid #e7e5e4; }
+  .section-body.hidden { display: none; }
+
+  /* ── Phase rows ── */
+  .phase-row { border: 1px solid #e7e5e4; padding: 10px; margin-bottom: 8px; }
+  .phase-meta { display: flex; align-items: flex-start; gap: 8px; }
+  .phase-label {
+    font-family: monospace; font-size: 10px; font-weight: bold; padding: 2px 6px;
+    background: #e7e5e4; color: #57534e; flex-shrink: 0;
+  }
+  .phase-label.l5 { background: #b91c1c; color: #ffffff; }
+  .phase-info { font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em; color: #78716c; margin-bottom: 4px; }
+  .phase-text { font-family: Georgia, "Hiragino Mincho ProN", serif; font-size: 14px; line-height: 1.4; }
+  .phase-trans { font-size: 11px; color: #78716c; margin-top: 2px; }
+
+  /* ── Chunks ── */
+  .chunk-row { display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid #f5f5f4; }
+  .chunk-row:last-child { border-bottom: none; }
+  .chunk-tag {
+    font-family: monospace; font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em;
+    padding: 2px 6px; color: #ffffff; flex-shrink: 0; margin-top: 4px;
+  }
+  .chunk-content { flex: 1; min-width: 0; }
+  .chunk-text { font-family: Georgia, "Hiragino Mincho ProN", serif; font-size: 15px; line-height: 1.4; }
+  .chunk-trans { font-size: 11px; color: #78716c; margin-top: 2px; }
+
+  /* ── Grammar ── */
+  .grammar-item { padding: 8px 0; border-bottom: 1px solid #f5f5f4; }
+  .grammar-item:last-child { border-bottom: none; }
+  .grammar-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin-bottom: 6px; }
+  .grammar-cat { font-family: monospace; font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em; color: #065f46; background: #ecfdf5; padding: 2px 6px; }
+  .grammar-name { font-family: Georgia, "Hiragino Mincho ProN", serif; font-size: 13px; font-weight: bold; }
+  .grammar-where { font-family: monospace; font-size: 11px; background: #f5f5f4; padding: 2px 8px; display: inline-block; margin-bottom: 6px; border: 1px solid #e7e5e4; }
+  .grammar-explain { font-size: 13px; color: #44403c; line-height: 1.6; }
+  .grammar-rule { font-family: monospace; font-size: 10px; color: #78716c; margin-top: 4px; line-height: 1.5; }
+
+  /* ── Errors ── */
+  .error-item { padding: 8px 0; border-bottom: 1px solid #f5f5f4; }
+  .error-item:last-child { border-bottom: none; }
+  .error-line { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
+  .error-mark.x { color: #b91c1c; font-weight: bold; }
+  .error-mark.v { color: #047857; font-weight: bold; }
+  .error-wrong { font-family: Georgia, serif; font-size: 13px; text-decoration: line-through; color: #78716c; }
+  .error-correct { font-family: Georgia, serif; font-size: 13px; }
+  .error-why { font-size: 11px; color: #57534e; margin-left: 20px; line-height: 1.6; }
+
+  /* ── Variants ── */
+  .variant-row { display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid #f5f5f4; }
+  .variant-row:last-child { border-bottom: none; }
+  .variant-num { font-family: monospace; font-size: 10px; color: #a8a29e; margin-top: 4px; flex-shrink: 0; }
+
+  /* ── Network ── */
+  .network-group { margin-bottom: 16px; }
+  .network-title {
+    font-family: monospace; font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em;
+    color: #3730a3; background: #eef2ff; padding: 2px 6px; display: inline-block; margin-bottom: 8px;
+  }
+  .network-item { border: 1px solid #e7e5e4; padding: 10px; margin-bottom: 6px; }
+  .network-type { font-family: monospace; font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em; color: #3730a3; margin-bottom: 4px; }
+  .network-content { display: flex; align-items: flex-start; gap: 8px; }
+  .network-text { flex: 1; }
+  .network-from {
+    font-family: monospace; font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em;
+    background: #f5f5f4; padding: 2px 6px; color: #57534e;
+  }
+  .network-to {
+    font-family: monospace; font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em;
+    background: #eef2ff; color: #3730a3; padding: 2px 6px;
+  }
+
+  /* ── Score ── */
+  .score-row { margin-bottom: 10px; }
+  .score-meta { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 4px; }
+  .score-label { font-family: monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; color: #44403c; }
+  .score-jp { font-size: 10px; color: #78716c; margin-left: 8px; }
+  .score-value { font-family: monospace; font-size: 12px; font-weight: bold; color: #b91c1c; }
+  .score-bar { height: 8px; background: #f5f5f4; border: 1px solid #e7e5e4; }
+  .score-fill { height: 100%; background: #b91c1c; transition: width 0.3s; }
+  .score-comment { padding: 12px 0 0; margin-top: 12px; border-top: 1px solid #e7e5e4; font-size: 12px; color: #44403c; line-height: 1.6; }
+
+  /* ── Modal ── */
+  .modal-bg {
+    position: fixed; inset: 0; background: rgba(28,25,23,0.6); backdrop-filter: blur(4px);
+    z-index: 50; display: flex; align-items: flex-end; justify-content: center; padding: 0;
+  }
+  @media (min-width: 640px) { .modal-bg { align-items: center; padding: 16px; } }
+  .modal {
+    background: #FEF3C7; border: 2px solid #1c1917; width: 100%;
+    max-height: 90vh; overflow-y: auto; display: flex; flex-direction: column;
+  }
+  @media (min-width: 640px) { .modal { max-width: 640px; max-height: 85vh; } }
+  .modal-header {
+    position: sticky; top: 0; background: #FEF3C7; border-bottom: 2px solid #1c1917;
+    padding: 16px; display: flex; align-items: center; justify-content: space-between; z-index: 10;
+  }
+  .modal-body { padding: 16px; }
+
+  /* ── Misc ── */
+  .empty-state { text-align: center; padding: 64px 16px; }
+  .empty-icon { font-size: 32px; color: #d6d3d1; margin-bottom: 12px; }
+  .loading { text-align: center; padding: 80px 16px; }
+  .pulse { animation: pulse 1.5s infinite; display: inline-block; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+  .speak-btn { background: transparent; border: none; color: #a8a29e; cursor: pointer; padding: 4px; }
+  .speak-btn:hover { color: #44403c; }
+  .speak-btn.speaking { color: #b91c1c; }
+  .icon { width: 14px; height: 14px; display: inline-block; vertical-align: middle; }
+  .footer { text-align: center; margin-top: 32px; padding-top: 24px; border-top: 1px solid #d6d3d1; }
+  .footer-line1 { font-family: monospace; font-size: 9px; text-transform: uppercase; letter-spacing: 0.2em; color: #a8a29e; }
+  .footer-line2 { font-family: Georgia, serif; font-style: italic; font-size: 12px; color: #a8a29e; margin-top: 4px; }
+
+  /* History list */
+  .history-card {
+    width: 100%; text-align: left; padding: 12px;
+    border: 2px solid #1c1917; background: #ffffff; cursor: pointer;
+    margin-bottom: 8px; font-family: inherit;
+  }
+  .history-card:hover { background: #fafaf9; }
+  .history-card.active { border-color: #b91c1c; }
+  .history-meta { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 4px; }
+  .history-date { font-family: monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; color: #78716c; }
+  .history-tags { display: flex; gap: 6px; align-items: center; }
+  .badge { font-family: monospace; font-size: 8px; text-transform: uppercase; letter-spacing: 0.15em; padding: 2px 5px; }
+  .badge.red { background: #b91c1c; color: #ffffff; }
+  .badge.green { color: #047857; }
+  .history-sentence { font-family: Georgia, "Hiragino Mincho ProN", serif; font-size: 13px; line-height: 1.4; margin-top: 2px; }
+  .history-extra { font-family: monospace; font-size: 9px; text-transform: uppercase; letter-spacing: 0.15em; color: #a8a29e; margin-top: 6px; }
+
+  /* Notice */
+  .notice {
+    border: 1px solid #b45309; background: rgba(245,158,11,0.1);
+    padding: 8px 12px; margin-bottom: 16px; display: flex; gap: 8px; align-items: flex-start;
+    font-size: 11px; color: #78350f; line-height: 1.6;
+  }
+  .notice.error { border-color: #b91c1c; background: #fef2f2; color: #7f1d1d; }
+  .notice strong { color: #92400e; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <header>
+    <div class="header-top">
+      <div>
+        <div class="label-tiny">CEG+ v2.0 — 15 Phases (Local)</div>
+        <h1>毎朝の英語</h1>
+      </div>
+      <button class="btn" id="btnHistory">📚 記録 <span id="historyCount"></span></button>
+    </div>
+    <div class="header-bottom">
+      <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+        <button class="btn btn-red" id="btnToday" style="display: none;">📅 今日に戻る</button>
+        <span class="date-info" id="dateInfo"></span>
+      </div>
+      <div class="num-info" id="numInfo"></div>
+    </div>
+  </header>
+
+  <!-- Layer tabs -->
+  <div class="tabs" id="tabs" style="display: none;">
+    <button class="tab active" data-layer="all">全層</button>
+    <button class="tab" data-layer="generate">⚡ 生成層</button>
+    <button class="tab" data-layer="explain">📖 理解層</button>
+    <button class="tab" data-layer="expand">🌐 拡張層</button>
+  </div>
+
+  <!-- Loading -->
+  <div id="loading" class="loading">
+    <div class="pulse" style="font-size: 36px;">✨</div>
+    <div class="label-tiny" style="margin-top: 16px;">カードを読み込み中…</div>
+  </div>
+
+  <!-- No data state -->
+  <div id="noData" class="notice error" style="display: none;">
+    <div>
+      <strong>カードデータがありません</strong><br>
+      <code>cards.json</code> をこのHTMLと同じフォルダに配置してください。
+      <br><br>
+      または「データ取込」ボタンから手動でJSONファイルを読み込めます。
+      <br><br>
+      <button class="btn btn-primary" id="btnImport">📂 データ取込</button>
+      <input type="file" id="fileInput" accept=".json" style="display: none;">
+    </div>
+  </div>
+
+  <!-- Main content (populated by JS) -->
+  <div id="content" style="display: none;"></div>
+
+  <div class="footer">
+    <div class="footer-line1">CEG+ v2.0 · Concept-Expression-Generation Plus</div>
+    <div class="footer-line2">― 意味から構造を生成し、構造を操作する ―</div>
+  </div>
+</div>
+
+<!-- History Modal -->
+<div class="modal-bg" id="historyModal" style="display: none;">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <div>
+        <div class="label-tiny">Library — 記録</div>
+        <h2 style="font-family: Georgia, serif; font-size: 18px; margin: 4px 0 0;">過去のカード</h2>
+      </div>
+      <button class="btn btn-icon" onclick="closeHistory()">✕</button>
+    </div>
+    <div class="modal-body" id="historyList"></div>
+  </div>
+</div>
+
+<!-- Image Preview Modal -->
+<div class="modal-bg" id="imageModal" style="display: none;">
+  <div class="modal" style="max-width: 480px;" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <div class="label-tiny">CARD IMAGE</div>
+      <button class="btn btn-icon" onclick="closeImage()">✕</button>
+    </div>
+    <div class="modal-body">
+      <img id="cardImage" style="width: 100%; border: 1px solid #d6d3d1;">
+      <div style="margin-top: 12px; padding: 12px; background: #FEF3C7; border: 1px solid #d6d3d1; font-size: 11px; line-height: 1.6;">
+        <div class="label-tiny">📱 保存方法</div>
+        <ul style="margin: 8px 0 0; padding-left: 16px;">
+          <li>iPhone: 画像を長押し →「写真に追加」</li>
+          <li>Android: 「ダウンロード」または画像長押し</li>
+        </ul>
+      </div>
+      <div style="display: flex; gap: 8px; margin-top: 12px;">
+        <button class="btn btn-primary" id="btnDownload" style="flex: 1; justify-content: center;">⬇ ダウンロード</button>
+        <button class="btn" onclick="closeImage()">閉じる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Manga Prompt Modal -->
+<div class="modal-bg" id="promptModal" style="display: none;">
+  <div class="modal" onclick="event.stopPropagation()">
+    <div class="modal-header" style="background: #3730a3; color: #ffffff; border-color: #1c1917;">
+      <div>
+        <div class="label-tiny" style="color: rgba(255,255,255,0.7);">For ChatGPT (DALL-E)</div>
+        <h2 style="font-family: Georgia, serif; font-size: 16px; margin: 4px 0 0; color: #ffffff;">漫画化プロンプト</h2>
+      </div>
+      <button class="btn btn-icon" style="background: transparent; color: #ffffff; border-color: transparent;" onclick="closePrompt()">✕</button>
+    </div>
+    <div style="background: #ffffff; border-bottom: 1px solid #d6d3d1; padding: 12px;">
+      <div class="label-tiny">📖 使い方</div>
+      <ol style="margin: 6px 0 0; padding-left: 20px; font-size: 11px; line-height: 1.7;">
+        <li>下のプロンプトを<strong>コピー</strong></li>
+        <li>ChatGPTを開いて<strong>貼り付け＆送信</strong></li>
+        <li>ChatGPTが7ページのマンガを順番に画像生成</li>
+      </ol>
+    </div>
+    <div class="modal-body" style="background: #fafaf9;">
+      <div style="border: 1px solid #a8a29e; background: #ffffff;">
+        <pre id="promptText" style="font-family: monospace; font-size: 11px; padding: 12px; margin: 0; white-space: pre-wrap; word-break: break-word; line-height: 1.6;"></pre>
+      </div>
+    </div>
+    <div style="border-top: 2px solid #1c1917; background: #ffffff; padding: 12px; display: flex; gap: 8px; flex-wrap: wrap;">
+      <button class="btn btn-indigo" id="btnCopy" style="flex: 1; justify-content: center;">📋 プロンプトをコピー</button>
+      <a class="btn" href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">↗ ChatGPTを開く</a>
+    </div>
+  </div>
+</div>
+
+<script>
+// ════════════════════════════════════════════════════════════
+// CEG+ v2.0 Local App
+// ════════════════════════════════════════════════════════════
+
+const FN_HEX = {
+  '行動': '#b91c1c', '対象': '#1c1917', '修飾': '#065f46', '時間': '#b45309',
+  '結果': '#3730a3', '比較': '#be123c', '接続': '#115e59', '場所': '#c2410c',
+  '目的': '#6b21a8', '理由': '#155e75', '様態': '#86198f', '内容': '#1e293b', '状態': '#5b21b6'
+};
+const fnColor = (f) => FN_HEX[f] || '#44403c';
+
+const STORAGE_KEY = 'cegplus-v2-data';
+const HISTORY_KEY = 'cegplus-v2-history';
+
+// ─── State ─────────────────────────────────
+let allCards = [];   // 全カードデータ（cards.json の中身）
+let currentCard = null;
+let currentIndex = 0;
+let activeLayer = 'all';
+let openSections = { generate: true, chunks: false, grammar: false, errors: false, variants: false, causal: false, shift: false, network: false, scores: false };
+let speechSupported = 'speechSynthesis' in window;
+let speakingId = null;
+let readCounts = {}; // {cardNo: count}
+
+// ─── Date helpers ──────────────────────────
+function getDateKey(d) {
+  const dt = d || new Date();
+  return `${dt.getFullYear()}-${String(dt.getMonth()+1).padStart(2,'0')}-${String(dt.getDate()).padStart(2,'0')}`;
+}
+function formatDateLong(d) {
+  const m = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+  return `${m[d.getMonth()]} ${String(d.getDate()).padStart(2,'0')} ${d.getFullYear()}`;
+}
+
+// ─── Storage helpers ───────────────────────
+function loadFromStorage(key) {
+  try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : null; } catch { return null; }
+}
+function saveToStorage(key, value) {
+  try { localStorage.setItem(key, JSON.stringify(value)); } catch (e) { console.error('Storage error:', e); }
+}
+
+// ─── Card selection ────────────────────────
+// 起動日からの経過日数で決定論的にカードを選ぶ
+function getCardIndexForDate(date) {
+  const meta = loadFromStorage('cegplus-v2-meta') || { startDate: getDateKey() };
+  if (!meta.startDate) { meta.startDate = getDateKey(); saveToStorage('cegplus-v2-meta', meta); }
+
+  const start = new Date(meta.startDate);
+  const target = new Date(date);
+  const days = Math.floor((target - start) / (1000*60*60*24));
+  return ((days % allCards.length) + allCards.length) % allCards.length;
+}
+
+function loadDate(dateKey) {
+  if (!allCards.length) return;
+  currentIndex = getCardIndexForDate(dateKey);
+  currentCard = allCards[currentIndex];
+  readCounts = loadFromStorage('cegplus-v2-reads') || {};
+  render();
+}
+
+// ─── Data loading ──────────────────────────
+async function loadCards() {
+  // 1. localStorage を試す
+  const stored = loadFromStorage(STORAGE_KEY);
+  if (stored && Array.isArray(stored) && stored.length > 0) {
+    allCards = stored;
+    return true;
+  }
+
+  // 2. cards.json をfetch
+  try {
+    const res = await fetch('cards.json');
+    if (res.ok) {
+      const data = await res.json();
+      if (Array.isArray(data) && data.length > 0) {
+        allCards = data;
+        saveToStorage(STORAGE_KEY, allCards);
+        return true;
+      }
+    }
+  } catch (e) {
+    // file://でCORS制限の場合あり、無視して次へ
+  }
+
+  return false;
+}
+
+async function importJsonFile(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+        if (!Array.isArray(data)) throw new Error('JSONは配列形式である必要があります');
+
+        // 既存データとマージ（_no で重複排除）
+        const existing = allCards || [];
+        const existingNos = new Set(existing.map(c => c._no).filter(Boolean));
+        const newOnes = data.filter(c => !c._no || !existingNos.has(c._no));
+        allCards = [...existing, ...newOnes];
+
+        saveToStorage(STORAGE_KEY, allCards);
+        resolve({ added: newOnes.length, total: allCards.length });
+      } catch (err) {
+        reject(err);
+      }
+    };
+    reader.onerror = () => reject(new Error('ファイル読み込みエラー'));
+    reader.readAsText(file);
+  });
+}
+
+// ─── Speech ────────────────────────────────
+function speak(text, id) {
+  if (!speechSupported) return;
+  window.speechSynthesis.cancel();
+  setTimeout(() => {
+    try {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US'; u.rate = 0.85;
+      const voices = window.speechSynthesis.getVoices();
+      const ev = voices.find(v => v.lang === 'en-US' && v.localService) ||
+                 voices.find(v => v.lang === 'en-US') ||
+                 voices.find(v => v.lang === 'en-GB') ||
+                 voices.find(v => v.lang && v.lang.toLowerCase().startsWith('en'));
+      if (ev) u.voice = ev;
+      u.onstart = () => { speakingId = id; updateSpeakIcons(); };
+      u.onend = () => { speakingId = null; updateSpeakIcons(); };
+      u.onerror = () => { speakingId = null; updateSpeakIcons(); };
+      window.speechSynthesis.speak(u);
+      setTimeout(() => { if (!window.speechSynthesis.speaking) { speakingId = null; updateSpeakIcons(); } }, Math.max(3000, text.length*100));
+    } catch (e) { speakingId = null; }
+  }, 80);
+}
+function updateSpeakIcons() {
+  document.querySelectorAll('.speak-btn').forEach(btn => {
+    btn.classList.toggle('speaking', btn.dataset.id === speakingId);
+  });
+}
+
+// ─── Render ────────────────────────────────
+function render() {
+  if (!currentCard) {
+    document.getElementById('content').style.display = 'none';
+    document.getElementById('tabs').style.display = 'none';
+    document.getElementById('noData').style.display = 'block';
+    return;
+  }
+
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('noData').style.display = 'none';
+  document.getElementById('content').style.display = 'block';
+  document.getElementById('tabs').style.display = 'flex';
+
+  // Header info
+  const today = new Date();
+  document.getElementById('dateInfo').textContent = formatDateLong(today);
+  document.getElementById('numInfo').textContent = `No.${currentCard._no || (currentIndex+1)}`;
+  document.getElementById('historyCount').textContent = allCards.length ? allCards.length : '';
+
+  const container = document.getElementById('content');
+  container.innerHTML = renderCardHTML(currentCard);
+
+  // Bind events
+  bindCardEvents();
+}
+
+function renderCardHTML(card) {
+  const c = card;
+  const readCount = readCounts[c._no] || 0;
+
+  let html = '';
+
+  // Hero
+  html += `
+    <div class="hero">
+      <div class="stamp">朝</div>
+      <div class="hero-tags">
+        <span class="tag-mini">Phase 6 · 完成文</span>
+        <span class="tag-mini gray">${escape(c.theme || '')} · ${escape(c.coreVerb || '')}</span>
+      </div>
+      <p class="hero-sentence serif">${escape(c.sentence || '')}</p>
+      ${c.phonetic ? `<p class="hero-phonetic">${escape(c.phonetic)}</p>` : ''}
+      <p class="hero-trans">${escape(c.japaneseTranslation || '')}</p>
+      <div class="hero-actions">
+        <button class="btn" data-act="speak" data-text="${escape(c.sentence)}" data-id="main">
+          🔊 <span>音声</span>
+        </button>
+        <button class="btn ${readCount>=3?'btn-emerald':''}" data-act="read">
+          音読 ${readCount}/3 ${readCount>=3?'✓':''}
+        </button>
+        <button class="btn btn-primary" data-act="image">⬇ 保存</button>
+        <button class="btn btn-indigo" data-act="manga">✨ 漫画化</button>
+        <button class="btn btn-red ml-auto" data-act="random">🎲 別カード</button>
+      </div>
+    </div>
+  `;
+
+  // GENERATE LAYER
+  if (activeLayer === 'all' || activeLayer === 'generate') {
+    html += `<div class="layer-header red"><span>⚡</span><h2>生成層</h2><span class="desc">GENERATE · Phase 1-6</span></div>`;
+    html += renderSection('generate', 'Phase 1→5 進化経路', 'Sentence Construction Path', renderPhases(c.generateLayer));
+  }
+
+  // EXPLAIN LAYER
+  if (activeLayer === 'all' || activeLayer === 'explain') {
+    html += `<div class="layer-header emerald"><span>📖</span><h2>理解層</h2><span class="desc">EXPLAIN · Phase 7-12</span></div>`;
+    html += renderSection('chunks', 'チャンク分解', 'Phase 7 · Decompose', renderChunks(c.explainLayer));
+    html += renderSection('grammar', '文法網羅解説', 'Phase 8 · Explain Grammar', renderGrammar(c.explainLayer?.grammarPoints));
+    html += renderSection('errors', 'デバッグ', 'Phase 9 · Debug', renderErrors(c.explainLayer?.errors));
+    html += renderSection('variants', '会話用 短文化', 'Phase 10 · Simplify', renderVariants(c.explainLayer?.variants));
+  }
+
+  // EXPAND LAYER
+  if (activeLayer === 'all' || activeLayer === 'expand') {
+    html += `<div class="layer-header indigo"><span>🌐</span><h2>拡張層</h2><span class="desc">EXPAND · Phase 13-15 ★ Core</span></div>`;
+    html += renderSection('causal', '接続展開', 'Phase 13 · Causal Expansion', renderCausal(c.expandLayer?.causalExpansion));
+    html += renderSection('shift', '構造展開', 'Phase 14 · Structural Shift', renderShift(c.expandLayer?.structuralShift));
+    html += renderSection('network', '表現ネットワーク', 'Phase 15 · Expression Network ★', renderNetwork(c.expandLayer?.expressionNetwork));
+  }
+
+  // SCORE
+  if (c.scores) {
+    html += renderSection('scores', 'CEG+評価', 'Score · 5 Dimensions', renderScores(c.scores));
+  }
+
+  return html;
+}
+
+function renderSection(key, title, subtitle, body) {
+  const isOpen = openSections[key];
+  return `
+    <div class="section">
+      <button class="section-header" data-section="${key}">
+        <div>
+          <div class="section-title">${title}</div>
+          <div class="section-subtitle">${subtitle}</div>
+        </div>
+        <span>${isOpen ? '▲' : '▼'}</span>
+      </button>
+      <div class="section-body ${isOpen ? '' : 'hidden'}">${body}</div>
+    </div>
+  `;
+}
+
+function renderPhases(g) {
+  if (!g) return '<div style="color: #a8a29e; font-size: 12px;">データなし</div>';
+  const rows = [
+    ['1', g.phase1, '核'],
+    ['2', g.phase2, '拡張', g.phase2?.addedChunks],
+    ['3', g.phase3, `接続: ${g.phase3?.connector || ''}`],
+    ['4', g.phase4, `比較: ${g.phase4?.comparison || ''}`],
+    ['5', g.phase5, `関係詞: ${g.phase5?.relativizer || ''}`]
+  ];
+  return rows.filter(r => r[1]).map(([lvl, p, label, extra]) => `
+    <div class="phase-row">
+      <div class="phase-meta">
+        <div class="phase-label ${lvl==='5'?'l5':''}">L${lvl}</div>
+        <div style="flex: 1; min-width: 0;">
+          <div class="phase-info">${escape(label)}${extra ? ` · ${escape(extra)}` : ''}</div>
+          <div class="phase-text serif">${escape(p.sentence)}</div>
+          <div class="phase-trans">${escape(p.translation)}</div>
+        </div>
+        <button class="speak-btn" data-act="speak" data-text="${escape(p.sentence)}" data-id="g-${lvl}">🔊</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderChunks(e) {
+  if (!e?.chunks) return '<div style="color: #a8a29e;">データなし</div>';
+  let html = e.chunks.map(c => `
+    <div class="chunk-row">
+      <span class="chunk-tag" style="background: ${fnColor(c.function)};">${escape(c.function)}</span>
+      <div class="chunk-content">
+        <div class="chunk-text">${escape(c.text)}</div>
+        <div class="chunk-trans">${escape(c.translation)}</div>
+      </div>
+    </div>
+  `).join('');
+  if (e.parseTree) {
+    html += `<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e7e5e4;">
+      <div class="label-tiny">Parse Tree (Phase 11)</div>
+      <div style="font-family: monospace; font-size: 11px; background: #f5f5f4; padding: 8px; margin-top: 4px;">${escape(e.parseTree)}</div>
+    </div>`;
+  }
+  return html;
+}
+
+function renderGrammar(items) {
+  if (!items) return '<div style="color: #a8a29e;">データなし</div>';
+  return items.map(g => `
+    <div class="grammar-item">
+      <div class="grammar-meta">
+        <span class="grammar-cat">${escape(g.category)}</span>
+        <span class="grammar-name serif">${escape(g.name)}</span>
+      </div>
+      <div class="grammar-where">${escape(g.where)}</div>
+      <div class="grammar-explain">${escape(g.explanation)}</div>
+      ${g.rule ? `<div class="grammar-rule">▸ ${escape(g.rule)}</div>` : ''}
+    </div>
+  `).join('');
+}
+
+function renderErrors(items) {
+  if (!items) return '<div style="color: #a8a29e;">データなし</div>';
+  return items.map(e => `
+    <div class="error-item">
+      <div class="error-line"><span class="error-mark x">✗</span><span class="error-wrong">${escape(e.wrong)}</span></div>
+      <div class="error-line"><span class="error-mark v">✓</span><span class="error-correct serif">${escape(e.correct)}</span></div>
+      <div class="error-why">${escape(e.why)}</div>
+    </div>
+  `).join('');
+}
+
+function renderVariants(items) {
+  if (!items) return '<div style="color: #a8a29e;">データなし</div>';
+  return items.map((v, i) => {
+    const text = typeof v === 'string' ? v : v.text;
+    const trans = typeof v === 'string' ? '' : v.translation;
+    return `
+      <div class="variant-row">
+        <span class="variant-num">${String(i+1).padStart(2,'0')}</span>
+        <div style="flex: 1;">
+          <div class="serif" style="font-size: 14px;">${escape(text)}</div>
+          ${trans ? `<div style="font-size: 11px; color: #78716c; margin-top: 2px;">${escape(trans)}</div>` : ''}
+        </div>
+        <button class="speak-btn" data-act="speak" data-text="${escape(text)}" data-id="v-${i}">🔊</button>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderCausal(items) {
+  if (!items) return '<div style="color: #a8a29e;">データなし</div>';
+  return items.map(c => `
+    <div class="network-item">
+      <div style="display: flex; gap: 6px; align-items: center; margin-bottom: 6px;">
+        <span class="network-from">FROM</span>
+        <span class="serif" style="font-size: 13px;">${escape(c.original)}</span>
+      </div>
+      <div style="display: flex; gap: 6px; align-items: center; margin-bottom: 6px;">
+        <span class="network-to">TO</span>
+        <span class="serif" style="font-size: 13px; font-weight: bold; color: #3730a3;">${escape(c.expanded)}</span>
+      </div>
+      ${c.nuance ? `<div style="font-size: 11px; color: #57534e; line-height: 1.6;">${escape(c.nuance)}</div>` : ''}
+    </div>
+  `).join('');
+}
+
+function renderShift(items) {
+  if (!items) return '<div style="color: #a8a29e;">データなし</div>';
+  return items.map((s, i) => `
+    <div class="network-item">
+      <div class="network-type" style="background: #3730a3; color: #fff; padding: 2px 6px; display: inline-block;">${escape(s.type)}</div>
+      <div class="serif" style="font-size: 14px; line-height: 1.4; margin-top: 6px;">${escape(s.sentence)}</div>
+      <div style="font-size: 11px; color: #78716c; margin-top: 2px;">${escape(s.translation)}</div>
+      ${s.note ? `<div style="font-family: monospace; font-size: 10px; color: #78716c; margin-top: 6px;">▸ ${escape(s.note)}</div>` : ''}
+      <button class="speak-btn" data-act="speak" data-text="${escape(s.sentence)}" data-id="s-${i}" style="margin-top: 6px;">🔊</button>
+    </div>
+  `).join('');
+}
+
+function renderNetwork(n) {
+  if (!n) return '<div style="color: #a8a29e;">データなし</div>';
+  let html = '';
+
+  if (n.vocabulary?.length) {
+    html += '<div class="network-group"><div class="network-title">語彙展開</div>';
+    n.vocabulary.forEach(v => {
+      html += `
+        <div class="network-item">
+          <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline;">
+            <span class="serif" style="font-size: 14px; font-weight: bold;">${escape(v.original)}</span>
+            <span style="color: #a8a29e;">→</span>
+            <span class="serif" style="font-size: 13px; color: #3730a3;">${(v.alternatives || []).map(escape).join(', ')}</span>
+          </div>
+          ${v.nuance ? `<div style="font-size: 11px; color: #57534e; margin-top: 6px; line-height: 1.6;">${escape(v.nuance)}</div>` : ''}
+        </div>
+      `;
+    });
+    html += '</div>';
+  }
+
+  const groups = [
+    ['文型展開', n.sentencePatterns, true],
+    ['比較展開', n.comparison, false],
+    ['条件展開', n.conditional, false],
+    ['強調構文', n.emphasis, false],
+    ['圧縮展開', n.compression, false]
+  ];
+
+  groups.forEach(([title, items, showType], gi) => {
+    if (!items?.length) return;
+    html += `<div class="network-group"><div class="network-title">${title}</div>`;
+    items.forEach((item, i) => {
+      html += `
+        <div class="network-item">
+          ${showType && item.type ? `<div class="network-type">${escape(item.type)}</div>` : ''}
+          <div class="network-content">
+            <div class="network-text">
+              <div class="serif" style="font-size: 13px; line-height: 1.4;">${escape(item.sentence)}</div>
+              ${item.translation ? `<div style="font-size: 11px; color: #78716c; margin-top: 2px;">${escape(item.translation)}</div>` : ''}
+            </div>
+            <button class="speak-btn" data-act="speak" data-text="${escape(item.sentence)}" data-id="n-${gi}-${i}">🔊</button>
+          </div>
+        </div>
+      `;
+    });
+    html += '</div>';
+  });
+
+  return html;
+}
+
+function renderScores(s) {
+  const labels = [
+    ['Naturalness', '自然さ', 'naturalness'],
+    ['Clarity', '明確さ', 'clarity'],
+    ['Flexibility', '可換性', 'flexibility'],
+    ['Focus', '焦点制御', 'focus'],
+    ['Efficiency', '簡潔さ', 'efficiency']
+  ];
+  let html = labels.map(([lbl, jp, key]) => {
+    const v = Number(s[key]) || 0;
+    return `
+      <div class="score-row">
+        <div class="score-meta">
+          <div><span class="score-label">${lbl}</span><span class="score-jp">${jp}</span></div>
+          <span class="score-value">${v}/10</span>
+        </div>
+        <div class="score-bar"><div class="score-fill" style="width: ${Math.max(0, Math.min(10, v))*10}%;"></div></div>
+      </div>
+    `;
+  }).join('');
+  if (s.comment) {
+    html += `<div class="score-comment"><div class="label-tiny">総評</div><div style="margin-top: 4px;">${escape(s.comment)}</div></div>`;
+  }
+  return html;
+}
+
+// ─── Event bindings ─────────────────────────
+function bindCardEvents() {
+  document.querySelectorAll('[data-section]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const key = btn.dataset.section;
+      openSections[key] = !openSections[key];
+      render();
+    });
+  });
+
+  document.querySelectorAll('[data-act]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const act = btn.dataset.act;
+      if (act === 'speak') speak(btn.dataset.text, btn.dataset.id);
+      else if (act === 'read') incRead();
+      else if (act === 'image') generateCardImage();
+      else if (act === 'manga') openPromptModal();
+      else if (act === 'random') showRandomCard();
+    });
+  });
+}
+
+function incRead() {
+  if (!currentCard) return;
+  const no = currentCard._no || currentIndex;
+  readCounts[no] = (readCounts[no] || 0) + 1;
+  saveToStorage('cegplus-v2-reads', readCounts);
+  render();
+}
+
+function showRandomCard() {
+  if (allCards.length <= 1) return;
+  let idx;
+  do { idx = Math.floor(Math.random() * allCards.length); } while (idx === currentIndex);
+  currentIndex = idx;
+  currentCard = allCards[idx];
+  render();
+}
+
+// ─── Image generation ──────────────────────
+async function generateCardImage() {
+  if (!currentCard) return;
+  const c = currentCard;
+  try {
+    const W = 800, PAD = 50, innerW = W - PAD*2, SCALE = 2;
+    const measure = document.createElement('canvas').getContext('2d');
+
+    const wrap = (text, font, maxW, isJP=false) => {
+      if (!text) return [];
+      measure.font = font;
+      const segs = isJP ? Array.from(text) : text.split(/\s+/).filter(Boolean);
+      const sep = isJP ? '' : ' ';
+      const lines = []; let cur = '';
+      for (const s of segs) {
+        const test = cur ? cur+sep+s : s;
+        if (measure.measureText(test).width > maxW && cur) { lines.push(cur); cur = s; }
+        else cur = test;
+      }
+      if (cur) lines.push(cur);
+      return lines;
+    };
+
+    const ops = []; let y = PAD + 10;
+    ops.push({ t:'text', text:'CEG+ v2.0 — DAILY CARD', font:'11px ui-monospace, monospace', x:PAD, y:y+12, color:'#78716c' });
+    ops.push({ t:'text', text:'毎朝の英語', font:'bold 32px Georgia, "Hiragino Mincho ProN", serif', x:PAD, y:y+50, color:'#1c1917' });
+    ops.push({ t:'text', text:formatDateLong(new Date()), font:'11px ui-monospace, monospace', x:W-PAD, y:y+12, color:'#78716c', align:'right' });
+    ops.push({ t:'text', text:`No.${c._no || (currentIndex+1)}`, font:'11px ui-monospace, monospace', x:W-PAD, y:y+30, color:'#b91c1c', align:'right' });
+    y += 80;
+    ops.push({ t:'line', x1:PAD, y1:y, x2:W-PAD, y2:y, color:'#1c1917', width:2 });
+    y += 30;
+
+    const heroStart = y, hpX = 20, hpY = 20;
+    let heroY = y + hpY;
+    ops.push({ t:'tag', text:'PHASE 6', x:PAD+hpX, y:heroY+12, bg:'#1c1917', color:'#FEF3C7', font:'bold 9px ui-monospace, monospace' });
+    ops.push({ t:'text', text:`${c.theme||''} · ${c.coreVerb||''}`, font:'10px ui-monospace, monospace', x:PAD+hpX+75, y:heroY+12, color:'#78716c' });
+    heroY += 28;
+
+    const sentLines = wrap(c.sentence||'', 'bold 21px Georgia, serif', innerW - hpX*2);
+    for (const ln of sentLines) { ops.push({ t:'text', text:ln, font:'bold 21px Georgia, serif', x:PAD+hpX, y:heroY+22, color:'#1c1917' }); heroY += 30; }
+    heroY += 6;
+
+    if (c.phonetic) {
+      const phLines = wrap(c.phonetic, '12px ui-monospace, monospace', innerW - hpX*2, true);
+      for (const ln of phLines) { ops.push({ t:'text', text:ln, font:'12px ui-monospace, monospace', x:PAD+hpX, y:heroY+14, color:'#a8a29e' }); heroY += 18; }
+      heroY += 6;
+    }
+
+    const transStart = heroY;
+    const transLines = wrap(c.japaneseTranslation||'', '13px "Hiragino Mincho ProN", serif', innerW - hpX*2 - 12, true);
+    for (const ln of transLines) { ops.push({ t:'text', text:ln, font:'13px "Hiragino Mincho ProN", serif', x:PAD+hpX+12, y:heroY+16, color:'#57534e' }); heroY += 20; }
+    ops.push({ t:'line', x1:PAD+hpX, y1:transStart+4, x2:PAD+hpX, y2:heroY, color:'#d6d3d1', width:2 });
+    heroY += hpY;
+    const heroH = heroY - heroStart;
+    ops.unshift({ t:'rect', x:PAD, y:heroStart, w:innerW, h:heroH, fill:'#ffffff', border:'#1c1917', borderWidth:2 });
+    y = heroY + 30;
+
+    // Phases
+    ops.push({ t:'text', text:'GENERATE — Phase 1→5', font:'bold 12px ui-monospace, monospace', x:PAD, y:y+12, color:'#1c1917' });
+    ops.push({ t:'line', x1:PAD, y1:y+22, x2:W-PAD, y2:y+22, color:'#d6d3d1', width:1 });
+    y += 38;
+    const phasesArr = [['L1', c.generateLayer?.phase1], ['L2', c.generateLayer?.phase2], ['L3', c.generateLayer?.phase3], ['L4', c.generateLayer?.phase4], ['L5', c.generateLayer?.phase5]];
+    for (const [lbl, p] of phasesArr) {
+      if (!p) continue;
+      ops.push({ t:'tag', text:lbl, x:PAD, y:y+11, bg:lbl==='L5'?'#b91c1c':'#78716c', color:'#ffffff', font:'bold 9px ui-monospace, monospace' });
+      const sl = wrap(p.sentence||'', '600 13px Georgia, serif', innerW - 50);
+      for (let i=0; i<sl.length; i++) ops.push({ t:'text', text:sl[i], font:'600 13px Georgia, serif', x:PAD+38, y:y+(i===0?14:14+i*16), color:'#1c1917' });
+      ops.push({ t:'text', text:p.translation||'', font:'11px "Hiragino Mincho ProN", serif', x:PAD+38, y:y+14+sl.length*16, color:'#78716c' });
+      y += 22 + sl.length*16;
+    }
+    y += 20;
+
+    // Chunks
+    ops.push({ t:'text', text:'EXPLAIN — チャンク', font:'bold 12px ui-monospace, monospace', x:PAD, y:y+12, color:'#1c1917' });
+    ops.push({ t:'line', x1:PAD, y1:y+22, x2:W-PAD, y2:y+22, color:'#d6d3d1', width:1 });
+    y += 38;
+    for (const ck of (c.explainLayer?.chunks||[])) {
+      ops.push({ t:'tag', text:ck.function||'', x:PAD, y:y+11, bg:fnColor(ck.function), color:'#ffffff', font:'bold 9px ui-monospace, monospace' });
+      ops.push({ t:'text', text:ck.text||'', font:'600 14px Georgia, serif', x:PAD+65, y:y+14, color:'#1c1917' });
+      ops.push({ t:'text', text:ck.translation||'', font:'11px "Hiragino Mincho ProN", serif', x:PAD+65, y:y+30, color:'#78716c' });
+      y += 42;
+    }
+    y += 20;
+
+    // Variants
+    ops.push({ t:'text', text:'CONVERSATIONS — 会話用', font:'bold 12px ui-monospace, monospace', x:PAD, y:y+12, color:'#1c1917' });
+    ops.push({ t:'line', x1:PAD, y1:y+22, x2:W-PAD, y2:y+22, color:'#d6d3d1', width:1 });
+    y += 38;
+    const variantsArr = (c.explainLayer?.variants||[]).map(v => typeof v==='string'?{text:v}:v);
+    for (let i=0; i<variantsArr.length; i++) {
+      const v = variantsArr[i];
+      ops.push({ t:'text', text:String(i+1).padStart(2,'0')+'.', font:'11px ui-monospace, monospace', x:PAD, y:y+14, color:'#a8a29e' });
+      ops.push({ t:'text', text:v.text||'', font:'600 14px Georgia, serif', x:PAD+30, y:y+14, color:'#1c1917' });
+      if (v.translation) { ops.push({ t:'text', text:v.translation, font:'11px "Hiragino Mincho ProN", serif', x:PAD+30, y:y+30, color:'#78716c' }); y += 42; }
+      else y += 28;
+    }
+    y += 20;
+
+    // Score
+    if (c.scores) {
+      ops.push({ t:'text', text:'SCORE — CEG+評価', font:'bold 12px ui-monospace, monospace', x:PAD, y:y+12, color:'#1c1917' });
+      ops.push({ t:'line', x1:PAD, y1:y+22, x2:W-PAD, y2:y+22, color:'#d6d3d1', width:1 });
+      y += 38;
+      const scoreLabels = [['Naturalness','naturalness'],['Clarity','clarity'],['Flexibility','flexibility'],['Focus','focus'],['Efficiency','efficiency']];
+      for (const [lbl, key] of scoreLabels) {
+        const v = Number(c.scores[key])||0;
+        ops.push({ t:'text', text:lbl, font:'11px ui-monospace, monospace', x:PAD, y:y+14, color:'#57534e' });
+        ops.push({ t:'text', text:`${v}/10`, font:'bold 12px ui-monospace, monospace', x:PAD+150, y:y+14, color:'#b91c1c' });
+        const barX = PAD+200, barW = innerW-220;
+        ops.push({ t:'rect', x:barX, y:y+5, w:barW, h:10, fill:'#f5f5f4' });
+        ops.push({ t:'rect', x:barX, y:y+5, w:Math.max(0,Math.min(10,v))/10*barW, h:10, fill:'#b91c1c' });
+        y += 24;
+      }
+      y += 10;
+    }
+
+    y += 10;
+    ops.push({ t:'line', x1:PAD, y1:y, x2:W-PAD, y2:y, color:'#d6d3d1', width:1 });
+    y += 22;
+    ops.push({ t:'text', text:'CEG+ v2.0 · Concept-Expression-Generation Plus', font:'10px ui-monospace, monospace', x:W/2, y:y, color:'#a8a29e', align:'center' });
+    y += 16;
+    ops.push({ t:'text', text:'― 意味から構造を生成し、構造を操作する ―', font:'italic 11px Georgia, serif', x:W/2, y:y, color:'#a8a29e', align:'center' });
+    y += PAD;
+
+    const H = y;
+    const canvas = document.createElement('canvas');
+    canvas.width = W*SCALE; canvas.height = H*SCALE;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(SCALE, SCALE);
+
+    ctx.fillStyle = '#FEF3C7'; ctx.fillRect(0,0,W,H);
+    ctx.fillStyle = 'rgba(28,25,23,0.04)';
+    for (let dx=10; dx<W; dx+=20) for (let dy=10; dy<H; dy+=20) { ctx.beginPath(); ctx.arc(dx,dy,1,0,Math.PI*2); ctx.fill(); }
+    ctx.strokeStyle = '#1c1917'; ctx.lineWidth = 2; ctx.strokeRect(15,15,W-30,H-30);
+
+    ctx.save();
+    ctx.translate(W-65, 65); ctx.rotate(0.12);
+    ctx.fillStyle = '#b91c1c'; ctx.fillRect(-22,-22,44,44);
+    ctx.fillStyle = '#FEF3C7'; ctx.font = 'bold 22px serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText('朝',0,0);
+    ctx.restore();
+
+    ctx.textBaseline = 'alphabetic';
+    for (const op of ops) {
+      if (op.t==='rect') {
+        if (op.fill) { ctx.fillStyle=op.fill; ctx.fillRect(op.x,op.y,op.w,op.h); }
+        if (op.border) { ctx.strokeStyle=op.border; ctx.lineWidth=op.borderWidth||1; ctx.strokeRect(op.x,op.y,op.w,op.h); }
+      } else if (op.t==='line') {
+        ctx.beginPath(); ctx.strokeStyle=op.color; ctx.lineWidth=op.width;
+        ctx.moveTo(op.x1,op.y1); ctx.lineTo(op.x2,op.y2); ctx.stroke();
+      } else if (op.t==='text') {
+        ctx.font=op.font; ctx.fillStyle=op.color; ctx.textAlign=op.align||'left'; ctx.fillText(op.text, op.x, op.y);
+      } else if (op.t==='tag') {
+        ctx.font=op.font; const tw=ctx.measureText(op.text).width;
+        ctx.fillStyle=op.bg; ctx.fillRect(op.x, op.y-10, tw+10, 14);
+        ctx.fillStyle=op.color; ctx.textAlign='left'; ctx.fillText(op.text, op.x+5, op.y);
+      }
+    }
+
+    const url = canvas.toDataURL('image/png');
+    document.getElementById('cardImage').src = url;
+    document.getElementById('imageModal').style.display = 'flex';
+    document.getElementById('btnDownload').onclick = () => {
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `cegplus-${getDateKey()}-no${c._no || currentIndex+1}.png`;
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    };
+  } catch (e) {
+    alert(`画像生成エラー: ${e.message}`);
+  }
+}
+
+// ─── Manga prompt ──────────────────────────
+function buildMangaPrompt() {
+  if (!currentCard) return '';
+  const c = currentCard;
+  const g = c.generateLayer || {};
+  const e = c.explainLayer || {};
+  const x = c.expandLayer || {};
+  const firstError = e.errors?.[0];
+  const firstShift = x.structuralShift?.[0];
+
+  const phaseList = [g.phase1, g.phase2, g.phase3, g.phase4, g.phase5]
+    .map((p, i) => p ? `- **L${i+1}**: \`${p.sentence}\`\n  ${p.translation}` : '')
+    .filter(Boolean).join('\n');
+  const chunkList = (e.chunks||[]).map((c, i) => `${i+1}. **[${c.function}]** \`${c.text}\` → ${c.translation}`).join('\n');
+  const grammarList = (e.grammarPoints||[]).slice(0,6).map((g,i) => `${i+1}. **${g.name}** (${g.category})\n   - 該当: \`${g.where}\`\n   - ${g.explanation}`).join('\n');
+  const errorList = (e.errors||[]).map(er => `- ✗ \`${er.wrong}\` → ✓ \`${er.correct}\`\n  理由: ${er.why}`).join('\n');
+
+  return `# CEG+ v2.0 学習マンガ 生成依頼
+
+あなたは英語学習マンガのクリエイターです。CEG+ v2.0メソッド（生成→理解→拡張の3層）の英文を、**7ページ構成・各3〜4コマ**の教育マンガとして可視化してください。
+
+## 元データ
+
+**完成文 (Phase 6)**: ${c.sentence}
+- **訳**: ${c.japaneseTranslation}
+- **読み**: ${c.phonetic||''}
+- **核動詞**: ${c.coreVerb}
+- **テーマ**: ${c.theme}
+
+## Phase 1→5 進化
+${phaseList}
+
+## チャンク構造
+${chunkList}
+
+## 文法ポイント
+${grammarList}
+
+## エラー
+${errorList}
+
+${firstShift ? `## 構造変換例\n- ${firstShift.type}: \`${firstShift.sentence}\`\n  ${firstShift.translation}` : ''}
+
+---
+
+## マンガ構成（7ページ・各3-4コマ）
+
+### Page 1：核生成 [生成層]
+焦点: \`${g.phase1?.sentence||''}\`
+シーン: 主人公が朝、机に向かう。「${c.theme}」と向き合う最小単位の文
+
+### Page 2：チャンク拡張 [生成層]
+焦点: \`${g.phase3?.sentence||''}\`
+シーン: 時間/対象/目的が積み重なって文が育つ可視化
+
+### Page 3：that の視覚化 [生成層]
+焦点: 名詞を後ろから説明する関係詞
+シーン: 名詞が箱、that以下が説明ラベル
+
+### Page 4：which / 完成文 [生成層]
+焦点: \`${c.sentence}\`
+シーン: which が前文を包む結果ラベル、完成文が華やかに完成
+
+### Page 5：比較・対比 [理解層]
+シーン: 過去 vs 現在の自己を並べる
+
+### Page 6：エラー修正 [理解層]
+焦点: ${firstError ? `\`${firstError.wrong}\` → \`${firstError.correct}\`` : 'デバッグ'}
+シーン: 文法バグを発見して修正するコミカルな演出
+
+### Page 7：構造変換 [拡張層]★核心
+焦点: ${firstShift ? `${firstShift.type}: \`${firstShift.sentence}\`` : '同じ意味を別構造で表現'}
+シーン: 同じ意味が別の構造に変換されるトランスフォーム演出
+
+---
+
+## ビジュアル仕様
+- ソフトな教育漫画 / クリアな線画 / 読みやすいレイアウト
+- 全ページ通して同じ学習者キャラクター
+- 各コマに英文と日本語訳を吹き出し/キャプション
+- 構造の可視化: 矢印・ラベル・色分け・箱で文法構造を物理表現
+
+## 進め方
+1. Page 1から1枚ずつ生成
+2. 各画像後に何を可視化したか日本語2-3行で説明
+3. 全7ページ後、簡潔な振り返りを1段落
+
+それでは Page 1 から開始してください。`;
+}
+
+function openPromptModal() {
+  document.getElementById('promptText').textContent = buildMangaPrompt();
+  document.getElementById('promptModal').style.display = 'flex';
+}
+function closePrompt() { document.getElementById('promptModal').style.display = 'none'; }
+
+// ─── History modal ─────────────────────────
+function openHistory() {
+  const list = document.getElementById('historyList');
+  if (!allCards.length) {
+    list.innerHTML = '<div class="empty-state"><div class="empty-icon">📚</div><div class="label-tiny">カードがまだありません</div></div>';
+  } else {
+    list.innerHTML = allCards.map((card, idx) => {
+      const reads = readCounts[card._no] || 0;
+      return `
+        <button class="history-card ${idx===currentIndex?'active':''}" onclick="selectCard(${idx})">
+          <div class="history-meta">
+            <div class="history-date">No.${card._no || idx+1}</div>
+            <div class="history-tags">
+              ${idx===currentIndex ? '<span class="badge red">CURRENT</span>' : ''}
+              ${reads>=3 ? '<span class="badge green">✓ 音読済</span>' : ''}
+            </div>
+          </div>
+          <div class="history-sentence">${escape(card.sentence||'')}</div>
+          <div class="history-extra">${escape(card.theme||'')} · ${escape(card.coreVerb||'')}</div>
+        </button>
+      `;
+    }).join('');
+  }
+  document.getElementById('historyModal').style.display = 'flex';
+}
+function closeHistory() { document.getElementById('historyModal').style.display = 'none'; }
+function selectCard(idx) {
+  currentIndex = idx;
+  currentCard = allCards[idx];
+  closeHistory();
+  render();
+}
+
+function closeImage() { document.getElementById('imageModal').style.display = 'none'; }
+
+// ─── Helpers ───────────────────────────────
+function escape(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, m => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m]));
+}
+
+// ─── Init ──────────────────────────────────
+async function init() {
+  // Speech voices warmup
+  if (speechSupported) {
+    window.speechSynthesis.getVoices();
+    window.speechSynthesis.addEventListener('voiceschanged', () => {});
+  }
+
+  const ok = await loadCards();
+  if (ok) {
+    loadDate(getDateKey());
+  } else {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('noData').style.display = 'block';
+  }
+
+  // Bind global events
+  document.getElementById('btnHistory').addEventListener('click', openHistory);
+  document.getElementById('historyModal').addEventListener('click', closeHistory);
+  document.getElementById('imageModal').addEventListener('click', closeImage);
+  document.getElementById('promptModal').addEventListener('click', closePrompt);
+
+  document.getElementById('btnImport').addEventListener('click', () => {
+    document.getElementById('fileInput').click();
+  });
+  document.getElementById('fileInput').addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    try {
+      const result = await importJsonFile(file);
+      alert(`データ読み込み成功！\n追加: ${result.added}枚 / 合計: ${result.total}枚`);
+      loadDate(getDateKey());
+    } catch (err) {
+      alert(`エラー: ${err.message}`);
+    }
+  });
+
+  document.getElementById('btnCopy').addEventListener('click', async () => {
+    const text = document.getElementById('promptText').textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+      const btn = document.getElementById('btnCopy');
+      btn.textContent = '✓ コピーしました';
+      btn.classList.add('btn-emerald');
+      setTimeout(() => {
+        btn.textContent = '📋 プロンプトをコピー';
+        btn.classList.remove('btn-emerald');
+      }, 2000);
+    } catch (e) {
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select(); document.execCommand('copy');
+      document.body.removeChild(ta);
+      alert('コピーしました');
+    }
+  });
+
+  // Tabs
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      activeLayer = tab.dataset.layer;
+      document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t === tab));
+      render();
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
