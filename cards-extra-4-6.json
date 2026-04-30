@@ -1,0 +1,248 @@
+[
+  {
+    "_no": 4,
+    "_generatedAt": "2026-04-30T21:40:00",
+    "sentence": "I observe small changes that happen around me every day, which helps me notice patterns more quickly than before.",
+    "phonetic": "アイ オブザーブ スモール チェンジズ ザット ハプン アラウンド ミー エヴリ デイ, ウィッチ ヘルプス ミー ノーティス パターンズ モア クイックリー ザン ビフォー",
+    "japaneseTranslation": "私は毎日、自分の周りで起こる小さな変化を観察している。それが以前よりも素早くパターンに気づく助けになる。",
+    "theme": "観察",
+    "coreVerb": "observe",
+    "generateLayer": {
+      "phase1": { "sentence": "I observe.", "translation": "私は観察する。" },
+      "phase2": { "sentence": "I observe small changes every day.", "translation": "私は毎日小さな変化を観察する。", "addedChunks": "目的語(small changes)と時間(every day)を追加" },
+      "phase3": { "sentence": "I observe small changes because they reveal patterns.", "translation": "パターンを明らかにするので小さな変化を観察する。", "connector": "because" },
+      "phase4": { "sentence": "I notice patterns more quickly than before.", "translation": "以前より素早くパターンに気づく。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I observe small changes that happen around me every day.", "translation": "毎日周りで起こる小さな変化を観察する。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I observe", "function": "行動", "translation": "私は観察する" },
+        { "text": "small changes", "function": "対象", "translation": "小さな変化を" },
+        { "text": "that happen around me", "function": "修飾", "translation": "私の周りで起こる" },
+        { "text": "every day", "function": "時間", "translation": "毎日" },
+        { "text": "which helps me notice", "function": "結果", "translation": "それが私が気づくのを助ける" },
+        { "text": "patterns", "function": "対象", "translation": "パターンに" },
+        { "text": "more quickly than before", "function": "比較", "translation": "以前より素早く" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I observe / happen / helps", "explanation": "習慣や継続的な行動を表す現在形。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "形容詞", "name": "small", "where": "small changes", "explanation": "名詞 changes を前から修飾する形容詞。", "rule": "形容詞 + 名詞" },
+        { "category": "関係詞", "name": "that", "where": "changes that happen", "explanation": "先行詞 changes を後ろから説明する。", "rule": "名詞 + that + 動詞句" },
+        { "category": "前置詞", "name": "around", "where": "around me", "explanation": "around は周囲・周辺を示す。", "rule": "around + 名詞" },
+        { "category": "関係詞", "name": "which", "where": ", which helps", "explanation": "前文全体を受けて結果を加える。", "rule": "文 + , which + 動詞" },
+        { "category": "動詞パターン", "name": "help + 目的語 + 動詞原形", "where": "helps me notice", "explanation": "help の後は目的語 + 動詞原形を置ける。", "rule": "help + O + V" },
+        { "category": "比較", "name": "more quickly than", "where": "more quickly than before", "explanation": "副詞 quickly の比較級。ly副詞は more を使う。", "rule": "more + 副詞 + than" }
+      ],
+      "errors": [
+        { "wrong": "I observe small changes that happens around me.", "correct": "I observe small changes that happen around me.", "why": "changes は複数なので happen にする。" },
+        { "wrong": "It helps me to noticing patterns.", "correct": "It helps me notice patterns.", "why": "help の後は notice または to notice。to noticing は不可。" },
+        { "wrong": "I notice patterns more quick than before.", "correct": "I notice patterns more quickly than before.", "why": "notice を修飾するので形容詞 quick ではなく副詞 quickly。" }
+      ],
+      "variants": [
+        { "text": "I observe small changes every day.", "translation": "毎日小さな変化を観察する。" },
+        { "text": "Small changes reveal patterns.", "translation": "小さな変化がパターンを明らかにする。" },
+        { "text": "I notice patterns more quickly now.", "translation": "今はより素早くパターンに気づく。" }
+      ],
+      "parseTree": "S(I) V(observe) O(small changes) [Rel: that happen around me] [Adv: every day], [Rel: which helps O(me) V(notice) O(patterns) [Adv: more quickly than before]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they reveal patterns", "expanded": "since they reveal patterns", "nuance": "since は理由を前提として示す" },
+        { "original": "because they reveal patterns", "expanded": "as they reveal patterns", "nuance": "as は軽い因果関係" },
+        { "original": "because they reveal patterns", "expanded": "due to the patterns they reveal", "nuance": "due to は名詞句で原因を示す" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Small changes that happen around me are observed by me every day.", "translation": "私の周りで起こる小さな変化は毎日観察される。", "note": "be + 過去分詞" },
+        { "type": "分詞構文", "sentence": "Observing small changes every day, I notice patterns more quickly.", "translation": "毎日小さな変化を観察することで、より素早くパターンに気づく。", "note": "Observing で副詞的に接続" },
+        { "type": "名詞化", "sentence": "Daily observation of small changes improves my pattern recognition.", "translation": "小さな変化の日々の観察が、私のパターン認識を高める。", "note": "observe を observation に名詞化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "observe", "alternatives": ["notice", "watch", "track", "monitor"], "nuance": "observe は注意深く見る、notice は気づく、track は追跡する、monitor は継続監視する" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "Every day, I observe small changes around me.", "translation": "毎日、周りの小さな変化を観察している。" },
+          { "type": "It is ... that", "sentence": "It is small changes that help me notice larger patterns.", "translation": "大きなパターンに気づかせるのは小さな変化だ。" }
+        ],
+        "comparison": [
+          { "sentence": "I notice patterns more quickly now than before.", "translation": "今は以前より素早くパターンに気づく。" }
+        ],
+        "conditional": [
+          { "sentence": "If I observe carefully, I notice patterns earlier.", "translation": "注意深く観察すれば、より早くパターンに気づく。" }
+        ],
+        "emphasis": [
+          { "sentence": "What helps me improve is observing small changes every day.", "translation": "私を成長させるのは、毎日小さな変化を観察することだ。" }
+        ],
+        "compression": [
+          { "sentence": "Small changes reveal patterns.", "translation": "小さな変化がパターンを明かす。" },
+          { "sentence": "Daily observation sharpens my mind.", "translation": "日々の観察が思考を研ぎ澄ます。" }
+        ]
+      }
+    },
+    "scores": { "naturalness": 9, "clarity": 9, "flexibility": 8, "focus": 9, "efficiency": 8, "comment": "観察からパターン認識へつなげる実用的な英文。日常・仕事・学習のどれにも応用しやすい構造。" }
+  },
+  {
+    "_no": 5,
+    "_generatedAt": "2026-04-30T21:41:00",
+    "sentence": "I practice phrases that sound useful in daily conversations, which makes speaking feel less stressful than it did before.",
+    "phonetic": "アイ プラクティス フレイジズ ザット サウンド ユースフル イン デイリー カンヴァセイションズ, ウィッチ メイクス スピーキング フィール レス ストレスフル ザン イット ディド ビフォー",
+    "japaneseTranslation": "私は日常会話で役立ちそうなフレーズを練習している。それによって、話すことが以前よりもストレスに感じにくくなる。",
+    "theme": "会話練習",
+    "coreVerb": "practice",
+    "generateLayer": {
+      "phase1": { "sentence": "I practice.", "translation": "私は練習する。" },
+      "phase2": { "sentence": "I practice phrases every day.", "translation": "私は毎日フレーズを練習する。", "addedChunks": "目的語(phrases)と時間(every day)を追加" },
+      "phase3": { "sentence": "I practice phrases because I want to speak more naturally.", "translation": "より自然に話したいのでフレーズを練習する。", "connector": "because" },
+      "phase4": { "sentence": "Speaking feels less stressful than before.", "translation": "話すことが以前よりストレスに感じにくい。", "comparison": "less ... than" },
+      "phase5": { "sentence": "I practice phrases that sound useful in daily conversations.", "translation": "日常会話で役立ちそうなフレーズを練習する。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I practice", "function": "行動", "translation": "私は練習する" },
+        { "text": "phrases", "function": "対象", "translation": "フレーズを" },
+        { "text": "that sound useful", "function": "修飾", "translation": "役立ちそうに聞こえる" },
+        { "text": "in daily conversations", "function": "場所", "translation": "日常会話で" },
+        { "text": "which makes speaking feel", "function": "結果", "translation": "それが話すことを〜と感じさせる" },
+        { "text": "less stressful", "function": "状態", "translation": "よりストレスが少なく" },
+        { "text": "than it did before", "function": "比較", "translation": "以前そうだったより" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I practice / sound / makes", "explanation": "習慣や現在の状態を表す。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "関係詞", "name": "that", "where": "phrases that sound useful", "explanation": "phrases を後ろから説明する。", "rule": "名詞 + that + 動詞句" },
+        { "category": "形容詞", "name": "useful", "where": "sound useful", "explanation": "sound の後に形容詞を置いて「〜に聞こえる」。", "rule": "sound + 形容詞" },
+        { "category": "前置詞", "name": "in", "where": "in daily conversations", "explanation": "会話という場面の中で、という意味。", "rule": "in + 名詞句" },
+        { "category": "関係詞", "name": "which", "where": ", which makes", "explanation": "前文全体を受けて結果を表す。", "rule": "文 + , which + 動詞" },
+        { "category": "動名詞", "name": "speaking", "where": "makes speaking feel", "explanation": "話すこと、という名詞的な働き。", "rule": "V-ing as noun" },
+        { "category": "比較", "name": "less ... than", "where": "less stressful than", "explanation": "少なさを比較する表現。", "rule": "less + 形容詞 + than" }
+      ],
+      "errors": [
+        { "wrong": "I practice phrases that sounds useful.", "correct": "I practice phrases that sound useful.", "why": "phrases は複数なので sound にする。" },
+        { "wrong": "Speaking feels fewer stressful than before.", "correct": "Speaking feels less stressful than before.", "why": "形容詞 stressful には fewer ではなく less を使う。" },
+        { "wrong": "It makes speaking to feel less stressful.", "correct": "It makes speaking feel less stressful.", "why": "make + O + 原形なので to feel ではなく feel。" }
+      ],
+      "variants": [
+        { "text": "I practice useful phrases.", "translation": "役立つフレーズを練習する。" },
+        { "text": "These phrases help me speak.", "translation": "これらのフレーズが話す助けになる。" },
+        { "text": "Speaking feels easier now.", "translation": "今は話すことがより楽に感じる。" }
+      ],
+      "parseTree": "S(I) V(practice) O(phrases) [Rel: that sound useful] [Prep: in daily conversations], [Rel: which makes S(speaking) V(feel) C(less stressful) [than it did before]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because I want to speak more naturally", "expanded": "since I want to speak more naturally", "nuance": "理由を前提として示す" },
+        { "original": "because I want to speak more naturally", "expanded": "as I want to speak more naturally", "nuance": "軽い理由づけ" },
+        { "original": "because I want to speak more naturally", "expanded": "due to my desire to speak more naturally", "nuance": "文書的な名詞句" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Useful phrases are practiced by me for daily conversations.", "translation": "日常会話のための役立つフレーズが私によって練習される。", "note": "受動態" },
+        { "type": "分詞構文", "sentence": "Practicing useful phrases, I feel less stressed when speaking.", "translation": "役立つフレーズを練習することで、話すときのストレスが減る。", "note": "Practicing で理由・手段を示す" },
+        { "type": "名詞化", "sentence": "The practice of useful phrases reduces my speaking stress.", "translation": "役立つフレーズの練習が、話すストレスを減らす。", "note": "practice を名詞化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "practice", "alternatives": ["repeat", "rehearse", "train", "review"], "nuance": "practice は練習一般、rehearse は本番前練習、review は復習" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "In daily conversations, useful phrases make speaking easier.", "translation": "日常会話では、役立つフレーズが話すことを楽にする。" },
+          { "type": "It is ... that", "sentence": "It is useful phrases that make speaking less stressful.", "translation": "話すストレスを減らすのは役立つフレーズだ。" }
+        ],
+        "comparison": [
+          { "sentence": "Speaking feels less stressful now than it did before.", "translation": "話すことは今、以前よりストレスが少ない。" }
+        ],
+        "conditional": [
+          { "sentence": "If I practice useful phrases, speaking feels easier.", "translation": "役立つフレーズを練習すれば、話すことが楽に感じる。" }
+        ],
+        "emphasis": [
+          { "sentence": "What reduces my stress is practicing phrases I can actually use.", "translation": "私のストレスを減らすのは、実際に使えるフレーズを練習することだ。" }
+        ],
+        "compression": [
+          { "sentence": "Useful phrases make speaking easier.", "translation": "役立つフレーズが話すことを楽にする。" },
+          { "sentence": "Practice lowers speaking stress.", "translation": "練習が会話のストレスを下げる。" }
+        ]
+      }
+    },
+    "scores": { "naturalness": 9, "clarity": 9, "flexibility": 8, "focus": 9, "efficiency": 9, "comment": "英会話学習に直結する実用的な英文。less stressful と make + O + 原形を同時に学べる。" }
+  },
+  {
+    "_no": 6,
+    "_generatedAt": "2026-04-30T21:42:00",
+    "sentence": "I build routines that support my learning after work, which helps me stay more consistent than I was last year.",
+    "phonetic": "アイ ビルド ルーティンズ ザット サポート マイ ラーニング アフター ワーク, ウィッチ ヘルプス ミー ステイ モア コンシステント ザン アイ ワズ ラスト イヤー",
+    "japaneseTranslation": "私は仕事の後に学習を支える習慣を作っている。それが去年の自分よりも継続的でいる助けになる。",
+    "theme": "習慣化",
+    "coreVerb": "build",
+    "generateLayer": {
+      "phase1": { "sentence": "I build.", "translation": "私は作る。" },
+      "phase2": { "sentence": "I build routines after work.", "translation": "仕事の後に習慣を作る。", "addedChunks": "目的語(routines)と時間(after work)を追加" },
+      "phase3": { "sentence": "I build routines because they support my learning.", "translation": "学習を支えるので習慣を作る。", "connector": "because" },
+      "phase4": { "sentence": "I stay more consistent than last year.", "translation": "去年より継続できている。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I build routines that support my learning after work.", "translation": "仕事の後に学習を支える習慣を作る。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I build", "function": "行動", "translation": "私は作る" },
+        { "text": "routines", "function": "対象", "translation": "習慣を" },
+        { "text": "that support my learning", "function": "修飾", "translation": "私の学習を支える" },
+        { "text": "after work", "function": "時間", "translation": "仕事の後に" },
+        { "text": "which helps me stay", "function": "結果", "translation": "それが私が〜でいるのを助ける" },
+        { "text": "more consistent", "function": "状態", "translation": "より継続的に" },
+        { "text": "than I was last year", "function": "比較", "translation": "去年の私より" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I build / support / helps", "explanation": "習慣や継続的な行動を表す。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "名詞", "name": "routines", "where": "build routines", "explanation": "routine は習慣・定型作業。複数形で複数の習慣。", "rule": "動詞 + 目的語" },
+        { "category": "関係詞", "name": "that", "where": "routines that support", "explanation": "routines を後ろから説明する。", "rule": "名詞 + that + 動詞句" },
+        { "category": "動名詞", "name": "learning", "where": "my learning", "explanation": "学ぶこと、という名詞的な働き。", "rule": "所有格 + V-ing" },
+        { "category": "前置詞", "name": "after", "where": "after work", "explanation": "時間の後を示す。", "rule": "after + 名詞" },
+        { "category": "動詞パターン", "name": "help + O + V", "where": "helps me stay", "explanation": "help の後に目的語と原形動詞を置ける。", "rule": "help + O + V" },
+        { "category": "比較", "name": "more ... than", "where": "more consistent than", "explanation": "consistent の比較級として more を使う。", "rule": "more + 形容詞 + than" }
+      ],
+      "errors": [
+        { "wrong": "I build routines that supports my learning.", "correct": "I build routines that support my learning.", "why": "routines は複数なので support にする。" },
+        { "wrong": "It helps me staying more consistent.", "correct": "It helps me stay more consistent.", "why": "help + O + V なので stay を使う。" },
+        { "wrong": "I am more consistent than last year me.", "correct": "I am more consistent than I was last year.", "why": "比較対象は節で表すと自然。last year me は不自然。" }
+      ],
+      "variants": [
+        { "text": "I build routines after work.", "translation": "仕事の後に習慣を作る。" },
+        { "text": "Routines support my learning.", "translation": "習慣が学習を支える。" },
+        { "text": "I stay more consistent now.", "translation": "今はより継続できている。" }
+      ],
+      "parseTree": "S(I) V(build) O(routines) [Rel: that support O(my learning)] [Adv: after work], [Rel: which helps O(me) V(stay) C(more consistent) [than I was last year]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they support my learning", "expanded": "since they support my learning", "nuance": "理由を前提化する" },
+        { "original": "because they support my learning", "expanded": "as they support my learning", "nuance": "緩やかな因果" },
+        { "original": "because they support my learning", "expanded": "due to their support for my learning", "nuance": "文書的な原因表現" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Routines that support my learning are built by me after work.", "translation": "私の学習を支える習慣は仕事の後に作られる。", "note": "受動態" },
+        { "type": "分詞構文", "sentence": "Building routines after work, I stay more consistent in my learning.", "translation": "仕事の後に習慣を作ることで、学習をより継続できる。", "note": "Building で手段を示す" },
+        { "type": "名詞化", "sentence": "The building of routines supports consistent learning.", "translation": "習慣を作ることが継続的な学習を支える。", "note": "build を building に名詞化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "build", "alternatives": ["create", "develop", "form", "establish"], "nuance": "build は構築、form は形成、establish は安定した仕組みとして確立する" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "After work, I build routines that support my learning.", "translation": "仕事の後、学習を支える習慣を作っている。" },
+          { "type": "It is ... that", "sentence": "It is routines that help me keep learning consistently.", "translation": "私が学び続けるのを助けるのは習慣だ。" }
+        ],
+        "comparison": [
+          { "sentence": "I am more consistent now than I was last year.", "translation": "私は今、去年より継続できている。" }
+        ],
+        "conditional": [
+          { "sentence": "If I build routines, I can keep learning after work.", "translation": "習慣を作れば、仕事の後でも学び続けられる。" }
+        ],
+        "emphasis": [
+          { "sentence": "What keeps me learning is the routine I build after work.", "translation": "私を学び続けさせるのは、仕事の後に作る習慣だ。" }
+        ],
+        "compression": [
+          { "sentence": "Routines keep me learning.", "translation": "習慣が私を学び続けさせる。" },
+          { "sentence": "After work, structure matters.", "translation": "仕事の後は、構造が大事だ。" }
+        ]
+      }
+    },
+    "scores": { "naturalness": 9, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 8, "comment": "習慣化と学習継続を結びつける自然な英文。仕事後の学習という実生活に接続しやすい。" }
+  }
+]
