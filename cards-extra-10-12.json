@@ -1,0 +1,146 @@
+[
+  {
+    "_no": 10,
+    "_generatedAt": "2026-05-01T00:00:00+09:00",
+    "sentence": "I organize notes that I collected during the week, which helps me find important ideas faster than before.",
+    "phonetic": "アイ オーガナイズ ノーツ ザット アイ コレクテッド デュアリング ザ ウィーク, ウィッチ ヘルプス ミー ファインド インポータント アイディアズ ファスター ザン ビフォー",
+    "japaneseTranslation": "私は一週間の間に集めたメモを整理し、それによって以前よりも速く重要なアイデアを見つけられる。",
+    "theme": "整理",
+    "coreVerb": "organize",
+    "generateLayer": {
+      "core": "I organize notes.",
+      "step1": "I organize notes during the week.",
+      "step2": "I organize notes that I collected during the week.",
+      "step3": "I organize notes that I collected during the week, which helps me find important ideas faster than before."
+    },
+    "explainLayer": {
+      "chunks": [
+        { "en": "I organize notes", "ja": "私はメモを整理する" },
+        { "en": "that I collected", "ja": "私が集めた" },
+        { "en": "during the week", "ja": "一週間の間に" },
+        { "en": "which helps me find", "ja": "それが私が見つける助けになる" },
+        { "en": "important ideas", "ja": "重要なアイデアを" },
+        { "en": "faster than before", "ja": "以前より速く" }
+      ],
+      "grammar": [
+        "I organize notes はSVO構造。",
+        "that I collected はnotesを修飾する関係詞節。",
+        "during the week は時間を表す副詞句。",
+        "which helps は前の内容全体を受ける非制限用法。",
+        "find important ideas はhelp + 人 + 動詞の原形。",
+        "faster than before は比較級。"
+      ]
+    },
+    "expandLayer": {
+      "variants": [
+        "I sort my notes so I can find ideas quickly.",
+        "Organizing notes helps me discover useful ideas faster.",
+        "When I organize my notes, important ideas become easier to find."
+      ],
+      "dialogue": "I just need to organize this first. The important parts will show up faster."
+    },
+    "scores": {
+      "naturalness": 5,
+      "clarity": 5,
+      "emotionalDepth": 3,
+      "structuralControl": 5,
+      "flexibility": 4
+    }
+  },
+  {
+    "_no": 11,
+    "_generatedAt": "2026-05-01T00:00:00+09:00",
+    "sentence": "I compare examples that look similar at first, which helps me understand small differences more clearly than before.",
+    "phonetic": "アイ コンペア イグザンプルズ ザット ルック シミラー アット ファースト, ウィッチ ヘルプス ミー アンダースタンド スモール ディファレンシズ モア クリアリー ザン ビフォー",
+    "japaneseTranslation": "私は最初は似て見える例を比較し、それによって以前よりも小さな違いを明確に理解できる。",
+    "theme": "比較",
+    "coreVerb": "compare",
+    "generateLayer": {
+      "core": "I compare examples.",
+      "step1": "I compare examples that look similar.",
+      "step2": "I compare examples that look similar at first.",
+      "step3": "I compare examples that look similar at first, which helps me understand small differences more clearly than before."
+    },
+    "explainLayer": {
+      "chunks": [
+        { "en": "I compare examples", "ja": "私は例を比較する" },
+        { "en": "that look similar", "ja": "似て見える" },
+        { "en": "at first", "ja": "最初は" },
+        { "en": "which helps me understand", "ja": "それが私の理解を助ける" },
+        { "en": "small differences", "ja": "小さな違いを" },
+        { "en": "more clearly than before", "ja": "以前より明確に" }
+      ],
+      "grammar": [
+        "I compare examples はSVO構造。",
+        "that look similar はexamplesを修飾する関係詞節。",
+        "look similar はlook + 形容詞。",
+        "at first は文脈上の時間・認識の起点。",
+        "which helps は前文全体を受ける。",
+        "more clearly than before は副詞の比較表現。"
+      ]
+    },
+    "expandLayer": {
+      "variants": [
+        "I compare similar examples to understand the difference.",
+        "Looking at similar examples helps me see small differences.",
+        "Small differences become clearer when I compare examples carefully."
+      ],
+      "dialogue": "They look the same at first, but the difference is hiding in the details."
+    },
+    "scores": {
+      "naturalness": 5,
+      "clarity": 5,
+      "emotionalDepth": 3,
+      "structuralControl": 5,
+      "flexibility": 5
+    }
+  },
+  {
+    "_no": 12,
+    "_generatedAt": "2026-05-01T00:00:00+09:00",
+    "sentence": "I imagine scenes that connect words with feelings, which makes each expression easier to remember than before.",
+    "phonetic": "アイ イマジン シーンズ ザット コネクト ワーズ ウィズ フィーリングズ, ウィッチ メイクス イーチ エクスプレッション イージアー トゥ リメンバー ザン ビフォー",
+    "japaneseTranslation": "私は言葉と感情を結びつける場面を想像し、それによって各表現を以前よりも覚えやすくしている。",
+    "theme": "想像",
+    "coreVerb": "imagine",
+    "generateLayer": {
+      "core": "I imagine scenes.",
+      "step1": "I imagine scenes that connect words.",
+      "step2": "I imagine scenes that connect words with feelings.",
+      "step3": "I imagine scenes that connect words with feelings, which makes each expression easier to remember than before."
+    },
+    "explainLayer": {
+      "chunks": [
+        { "en": "I imagine scenes", "ja": "私は場面を想像する" },
+        { "en": "that connect words", "ja": "言葉を結びつける" },
+        { "en": "with feelings", "ja": "感情と" },
+        { "en": "which makes", "ja": "それが〜にする" },
+        { "en": "each expression", "ja": "それぞれの表現を" },
+        { "en": "easier to remember than before", "ja": "以前より覚えやすく" }
+      ],
+      "grammar": [
+        "I imagine scenes はSVO構造。",
+        "that connect words with feelings はscenesを修飾。",
+        "connect A with B はAとBを結びつける。",
+        "which makes は前の内容全体の結果を示す。",
+        "make + O + C の構文。",
+        "easier to remember than before は比較級＋不定詞。"
+      ]
+    },
+    "expandLayer": {
+      "variants": [
+        "I remember expressions better when I connect them with feelings.",
+        "Imagining scenes makes English expressions easier to remember.",
+        "Words stay with me longer when they are connected to feelings."
+      ],
+      "dialogue": "If I can picture the scene, the words stay with me."
+    },
+    "scores": {
+      "naturalness": 5,
+      "clarity": 5,
+      "emotionalDepth": 4,
+      "structuralControl": 5,
+      "flexibility": 5
+    }
+  }
+]
