@@ -1,0 +1,80 @@
+[
+  {
+    "id": "LC019",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "workId": "convivium",
+    "chapter": 19,
+    "title": "深夜の風を人と勘違いする",
+    "jp": "センサーが何かを誤認しているのか、あるいは、深夜の風を、人と勘違いしているのかもしれなかった。",
+    "translationLiteral": "Perhaps the sensor was misrecognizing something, or perhaps it was mistaking the late-night wind for a person.",
+    "translationNatural": "Perhaps the sensor had mistaken something, or maybe it had taken the late-night wind for a person.",
+    "chunks": [
+      { "en": "Perhaps the sensor", "ja": "おそらくセンサーが" },
+      { "en": "had mistaken something", "ja": "何かを誤認していた" },
+      { "en": "or maybe", "ja": "あるいは" },
+      { "en": "it had taken", "ja": "それは〜と受け取っていた" },
+      { "en": "the late-night wind", "ja": "深夜の風を" },
+      { "en": "for a person", "ja": "人として" }
+    ],
+    "grammar": [
+      "Perhaps / maybe は推量を表す副詞。",
+      "had mistaken は過去完了で、誤認が先に起きていたことを示す。",
+      "take A for B は『AをBと間違える』。",
+      "late-night wind は名詞windを修飾する複合形容詞的表現。"
+    ],
+    "readingPoint": "無機的なセンサーが風を人と誤認する描写は、見えない気配や非記録の存在を最後にもう一度浮かび上がらせている。",
+    "keywords": ["sensor", "mistake", "wind", "presence"]
+  },
+  {
+    "id": "LC020",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "workId": "convivium",
+    "chapter": 20,
+    "title": "かすかな珈琲の香り",
+    "jp": "開いた瞬間、店内のかすかな珈琲の香りが、こちらまで届いた気がした。たぶん気のせいだった。",
+    "translationLiteral": "At the moment it opened, I felt that the faint smell of coffee from inside the store reached me. It was probably my imagination.",
+    "translationNatural": "For a moment, as the door opened, I thought I caught the faint smell of coffee from inside the store. It was probably only my imagination.",
+    "chunks": [
+      { "en": "For a moment", "ja": "一瞬" },
+      { "en": "as the door opened", "ja": "ドアが開いたとき" },
+      { "en": "I thought I caught", "ja": "私は捉えた気がした" },
+      { "en": "the faint smell of coffee", "ja": "かすかな珈琲の香りを" },
+      { "en": "from inside the store", "ja": "店内から" },
+      { "en": "It was probably only my imagination", "ja": "それはたぶん気のせいだった" }
+    ],
+    "grammar": [
+      "For a moment は短い時間を表す副詞句。",
+      "as the door opened は同時性を表す接続表現。",
+      "I thought I caught は『感じ取った気がした』という主観的認識を表す。",
+      "the faint smell of coffee は名詞句。",
+      "probably only my imagination は不確かさと自己修正を表す表現。"
+    ],
+    "readingPoint": "車内で消えたコーヒーの匂いが、駅の外で再びかすかに現れる。現実か気のせいか分からない感覚が、出来事の余韻をつないでいる。",
+    "keywords": ["coffee", "imagination", "afterimage", "scent"]
+  },
+  {
+    "id": "LC021",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "workId": "convivium",
+    "chapter": 21,
+    "title": "明日、また機械の前に立つ",
+    "jp": "明日、また機械の前に立つ。男もたぶん、同じだ。",
+    "translationLiteral": "Tomorrow, I will stand in front of a machine again. The man probably will, too.",
+    "translationNatural": "Tomorrow, I will stand before a machine again. Perhaps he will, too.",
+    "chunks": [
+      { "en": "Tomorrow", "ja": "明日" },
+      { "en": "I will stand", "ja": "私は立つだろう" },
+      { "en": "before a machine", "ja": "機械の前に" },
+      { "en": "again", "ja": "また" },
+      { "en": "Perhaps he will too", "ja": "たぶん彼もそうだろう" }
+    ],
+    "grammar": [
+      "will は未来の行為を表す助動詞。",
+      "stand before はやや文学的な『〜の前に立つ』。",
+      "again は反復を表す副詞。",
+      "Perhaps he will too は前文のstand before a machine againを省略して受ける表現。"
+    ],
+    "readingPoint": "物語は劇的に解決せず、同じ労働の明日へ戻っていく。だが、その明日は完全な孤独ではなく、どこかで同じように機械の前に立つ他者を含んでいる。",
+    "keywords": ["tomorrow", "machine", "work", "shared life"]
+  }
+]
