@@ -6,304 +6,41 @@
 <meta name="theme-color" content="#1c1917">
 <title>文学読解カード — CEG+ Literary</title>
 <style>
-  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-  html, body { margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-    background: #f5f0df;
-    color: #1c1917;
-    min-height: 100vh;
-    background-image: radial-gradient(circle, rgba(28,25,23,0.04) 1px, transparent 1px);
-    background-size: 20px 20px;
-  }
-  .container { max-width: 780px; margin: 0 auto; padding: 24px 16px 80px; }
-  header { border-bottom: 2px solid #1c1917; padding-bottom: 16px; margin-bottom: 16px; }
-  .label { font-size: 10px; text-transform: uppercase; letter-spacing: .18em; color: #78716c; }
-  h1 { font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: 30px; margin: 4px 0 0; }
-  .sub { font-size: 12px; color: #57534e; line-height: 1.7; margin-top: 8px; }
-  .nav, .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; align-items: center; }
-  .btn {
-    display: inline-flex; align-items: center; gap: 6px;
-    padding: 8px 12px; border: 2px solid #1c1917; background: #fff; color: #1c1917;
-    font-size: 10px; text-transform: uppercase; letter-spacing: .12em; text-decoration: none;
-    cursor: pointer; font-family: inherit;
-  }
-  .btn.primary { background: #1c1917; color: #f5f0df; }
-  .btn:hover { background: #e7e5e4; }
-  .btn.primary:hover { background: #44403c; }
-  .status { padding: 18px; border: 2px solid #1c1917; background: #fff; margin: 16px 0; font-size: 13px; line-height: 1.7; }
-  .select {
-    border: 2px solid #1c1917; background: #fff; padding: 8px 10px; font-size: 12px; flex: 1; min-width: 220px;
-  }
-  .work-box { border: 2px solid #1c1917; background:#fff; padding: 14px; margin: 16px 0; }
-  .work-title { font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: 20px; font-weight: 700; }
-  .work-desc { font-size: 12px; color:#57534e; line-height:1.7; margin-top: 6px; }
-  .card {
-    border: 2px solid #1c1917; background: #fff; margin: 14px 0; padding: 18px;
-    box-shadow: 4px 4px 0 rgba(28,25,23,.08);
-  }
-  .card-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
-  .chapter { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10px; letter-spacing: .15em; color: #b91c1c; }
-  .title { font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: 18px; font-weight: 700; margin-top: 3px; }
-  .id { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10px; color: #a8a29e; }
-  .scene-image-wrap { margin: 12px 0 16px; border: 2px solid #1c1917; background: #0c0a09; }
-  .scene-image { display: block; width: 100%; height: auto; max-height: 520px; object-fit: cover; }
-  .scene-caption { font-size: 12px; line-height: 1.7; color: #f5f0df; padding: 8px 10px; border-top: 1px solid rgba(245,240,223,.25); }
-  .image-prompt-box { margin: 8px 0 14px; border: 1px solid #d6d3d1; background: #fafaf9; }
-  .image-prompt-box summary { cursor: pointer; padding: 8px 10px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #57534e; }
-  .image-prompt-text { padding: 0 10px 10px; font-size: 12px; line-height: 1.7; color: #44403c; white-space: pre-wrap; }
-  .jp { font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: 17px; line-height: 1.8; padding: 12px; background: #fafaf9; border-left: 4px solid #1c1917; margin: 10px 0 14px; }
-  .en-main { font-family: Georgia, "Times New Roman", serif; font-size: 18px; line-height: 1.65; font-weight: 700; margin: 8px 0; }
-  .en-sub { font-size: 12px; color: #57534e; line-height: 1.7; margin: 6px 0 12px; }
-  .section-title { display: inline-block; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: #fff; background: #1c1917; padding: 4px 8px; margin: 12px 0 8px; }
-  .chunk { display: grid; grid-template-columns: 1fr; gap: 3px; padding: 8px 0; border-bottom: 1px solid #e7e5e4; }
-  .chunk:last-child { border-bottom: none; }
-  .chunk-en { font-family: Georgia, "Times New Roman", serif; font-size: 15px; }
-  .chunk-ja { font-size: 12px; color: #78716c; }
-  .grammar { margin: 0; padding-left: 20px; font-size: 13px; line-height: 1.8; }
-  .reading { font-size: 13px; line-height: 1.8; color: #44403c; padding: 12px; background: #fef3c7; border: 1px solid #d6d3d1; }
-  .keywords { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
-  .kw { font-size: 10px; padding: 3px 7px; background: #e7e5e4; color: #57534e; }
-  .speech-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 12px; }
-  .speak-btn { border-color: #57534e; background: #fafaf9; }
-  .speak-btn.speaking { background: #1c1917; color: #f5f0df; border-color: #1c1917; }
-  .footer { text-align: center; margin-top: 32px; padding-top: 20px; border-top: 1px solid #d6d3d1; color: #a8a29e; font-size: 11px; }
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html,body{margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;background:#f5f0df;color:#1c1917;min-height:100vh;background-image:radial-gradient(circle,rgba(28,25,23,.04) 1px,transparent 1px);background-size:20px 20px}.container{max-width:780px;margin:0 auto;padding:24px 16px 80px}header{border-bottom:2px solid #1c1917;padding-bottom:16px;margin-bottom:16px}.label{font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:#78716c}h1{font-family:Georgia,"Hiragino Mincho ProN","Yu Mincho",serif;font-size:30px;margin:4px 0 0}.sub{font-size:12px;color:#57534e;line-height:1.7;margin-top:8px}.nav,.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;align-items:center}.btn{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border:2px solid #1c1917;background:#fff;color:#1c1917;font-size:10px;text-transform:uppercase;letter-spacing:.12em;text-decoration:none;cursor:pointer;font-family:inherit}.btn.primary{background:#1c1917;color:#f5f0df}.btn:hover{background:#e7e5e4}.btn.primary:hover{background:#44403c}.status{padding:18px;border:2px solid #1c1917;background:#fff;margin:16px 0;font-size:13px;line-height:1.7}.select{border:2px solid #1c1917;background:#fff;padding:8px 10px;font-size:12px;flex:1;min-width:220px}.work-box{border:2px solid #1c1917;background:#fff;padding:14px;margin:16px 0}.work-title{font-family:Georgia,"Hiragino Mincho ProN","Yu Mincho",serif;font-size:20px;font-weight:700}.work-desc{font-size:12px;color:#57534e;line-height:1.7;margin-top:6px}.card{border:2px solid #1c1917;background:#fff;margin:14px 0;padding:18px;box-shadow:4px 4px 0 rgba(28,25,23,.08)}.card-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:12px}.chapter{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:10px;letter-spacing:.15em;color:#b91c1c}.title{font-family:Georgia,"Hiragino Mincho ProN","Yu Mincho",serif;font-size:18px;font-weight:700;margin-top:3px}.id{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:10px;color:#a8a29e}.scene-image-wrap{margin:12px 0 16px;border:2px solid #1c1917;background:#0c0a09}.scene-image{display:block;width:100%;height:auto;max-height:520px;object-fit:cover}.scene-caption{font-size:12px;line-height:1.7;color:#f5f0df;padding:8px 10px;border-top:1px solid rgba(245,240,223,.25)}.image-prompt-box{margin:8px 0 14px;border:1px solid #d6d3d1;background:#fafaf9}.image-prompt-box summary{cursor:pointer;padding:8px 10px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#57534e}.image-prompt-text{padding:0 10px 10px;font-size:12px;line-height:1.7;color:#44403c;white-space:pre-wrap}.jp{font-family:Georgia,"Hiragino Mincho ProN","Yu Mincho",serif;font-size:17px;line-height:1.8;padding:12px;background:#fafaf9;border-left:4px solid #1c1917;margin:10px 0 14px}.en-main{font-family:Georgia,"Times New Roman",serif;font-size:18px;line-height:1.65;font-weight:700;margin:8px 0}.en-sub{font-size:12px;color:#57534e;line-height:1.7;margin:6px 0 12px}.section-title{display:inline-block;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#fff;background:#1c1917;padding:4px 8px;margin:12px 0 8px}.chunk{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;padding:9px 0;border-bottom:1px solid #e7e5e4}.chunk:last-child{border-bottom:none}.chunk-en{font-family:Georgia,"Times New Roman",serif;font-size:15px}.chunk-ja{font-size:12px;color:#78716c;margin-top:3px}.chunk-actions{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}.chunk-btn{padding:5px 7px;border-width:1px;font-size:9px;letter-spacing:.08em}.grammar{margin:0;padding-left:20px;font-size:13px;line-height:1.8}.reading{font-size:13px;line-height:1.8;color:#44403c;padding:12px;background:#fef3c7;border:1px solid #d6d3d1}.keywords{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.kw{font-size:10px;padding:3px 7px;background:#e7e5e4;color:#57534e}.speech-row{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 12px}.speak-btn{border-color:#57534e;background:#fafaf9}.speak-btn.speaking{background:#1c1917;color:#f5f0df;border-color:#1c1917}.footer{text-align:center;margin-top:32px;padding-top:20px;border-top:1px solid #d6d3d1;color:#a8a29e;font-size:11px}@media(max-width:520px){.chunk{grid-template-columns:1fr}.chunk-actions{justify-content:flex-start}}
 </style>
 </head>
 <body>
 <div class="container">
-  <header>
-    <div class="label">CEG+ Literary Reading Protocol</div>
-    <h1>文学読解カード</h1>
-    <div class="sub">作品ごとに原文を英訳し、チャンク・文法・読解ポイントへ分解するビューです。</div>
-    <div class="nav">
-      <a class="btn" href="index.html">← 毎朝の英語</a>
-      <button class="btn primary" id="reloadBtn">↻ 再読み込み</button>
-      <button class="btn" id="stopSpeechBtn">■ 読み上げ停止</button>
-    </div>
-  </header>
-
-  <div id="status" class="status">文学カードを読み込み中…</div>
-
-  <div id="toolbar" class="toolbar" style="display:none;">
-    <select id="workSelect" class="select"></select>
-    <select id="chapterSelect" class="select"></select>
-    <button class="btn" id="showAllBtn">全Chapter</button>
-  </div>
-
-  <div id="workInfo" class="work-box" style="display:none;"></div>
-  <div id="content"></div>
-
-  <div class="footer">literature-works.json → 作品別manifest → 分割JSONを合流表示します。</div>
+<header>
+<div class="label">CEG+ Literary Reading Protocol</div>
+<h1>文学読解カード</h1>
+<div class="sub">作品ごとに原文を英訳し、チャンク・文法・読解ポイントへ分解するビューです。</div>
+<div class="nav"><a class="btn" href="index.html">← 毎朝の英語</a><button class="btn primary" id="reloadBtn">↻ 再読み込み</button><button class="btn" id="stopSpeechBtn">■ 読み上げ停止</button></div>
+</header>
+<div id="status" class="status">文学カードを読み込み中…</div>
+<div id="toolbar" class="toolbar" style="display:none;"><select id="workSelect" class="select"></select><select id="chapterSelect" class="select"></select><button class="btn" id="showAllBtn">全Chapter</button></div>
+<div id="workInfo" class="work-box" style="display:none;"></div>
+<div id="content"></div>
+<div class="footer">literature-works.json → 作品別manifest → 分割JSONを合流表示します。</div>
 </div>
-
 <script>
-let works = [];
-let currentWork = null;
-let allCards = [];
-let selectedChapter = 'all';
-let speakingButton = null;
-let speechTimer = null;
-
-async function fetchJson(path) {
-  const res = await fetch(path + '?v=' + Date.now(), { cache: 'no-store' });
-  if (!res.ok) throw new Error(path + ' を読み込めませんでした');
-  return await res.json();
-}
-
-async function loadLiterature() {
-  stopSpeech();
-  const status = document.getElementById('status');
-  const content = document.getElementById('content');
-  const toolbar = document.getElementById('toolbar');
-  const workInfo = document.getElementById('workInfo');
-  status.style.display = 'block';
-  status.textContent = '作品リストを読み込み中…';
-  content.innerHTML = '';
-  toolbar.style.display = 'none';
-  workInfo.style.display = 'none';
-
-  try {
-    works = await fetchJson('literature-works.json');
-    if (!Array.isArray(works) || works.length === 0) throw new Error('作品が登録されていません');
-    const savedWorkId = localStorage.getItem('literature-current-work');
-    currentWork = works.find(w => w.workId === savedWorkId) || works[0];
-    buildWorkSelect();
-    await loadCurrentWork();
-  } catch (err) {
-    console.error(err);
-    status.textContent = '読み込みエラー: ' + err.message;
-  }
-}
-
-async function loadCurrentWork() {
-  stopSpeech();
-  const status = document.getElementById('status');
-  const toolbar = document.getElementById('toolbar');
-  status.textContent = `『${currentWork.title}』を読み込み中…`;
-  selectedChapter = 'all';
-  localStorage.setItem('literature-current-work', currentWork.workId);
-
-  const manifest = await fetchJson(currentWork.manifest);
-  const groups = await Promise.all(manifest.map(file => fetchJson(file)));
-  allCards = groups.flat().sort((a, b) => Number(a.chapter) - Number(b.chapter));
-
-  status.textContent = `『${currentWork.title}』: ${allCards.length}件の文学カードを読み込みました。`;
-  toolbar.style.display = 'flex';
-  renderWorkInfo();
-  buildChapterSelect();
-  renderCards();
-}
-
-function buildWorkSelect() {
-  const sel = document.getElementById('workSelect');
-  sel.innerHTML = works.map(w => `<option value="${escapeHtml(w.workId)}">${escapeHtml(w.title)}</option>`).join('');
-  sel.value = currentWork.workId;
-}
-
-function buildChapterSelect() {
-  const sel = document.getElementById('chapterSelect');
-  sel.innerHTML = '<option value="all">全Chapter</option>' + allCards.map(c => {
-    return `<option value="${c.chapter}">Chapter ${String(c.chapter).padStart(3,'0')} — ${escapeHtml(c.title || '')}</option>`;
-  }).join('');
-  sel.value = selectedChapter;
-}
-
-function renderWorkInfo() {
-  const box = document.getElementById('workInfo');
-  box.style.display = 'block';
-  box.innerHTML = `
-    <div class="label">CURRENT WORK</div>
-    <div class="work-title">${escapeHtml(currentWork.title || '')}</div>
-    <div class="work-desc">${escapeHtml(currentWork.description || '')}</div>
-  `;
-}
-
-function renderCards() {
-  stopSpeech();
-  const content = document.getElementById('content');
-  const cards = selectedChapter === 'all' ? allCards : allCards.filter(c => String(c.chapter) === String(selectedChapter));
-  content.innerHTML = cards.map(renderCard).join('');
-}
-
-function renderCard(card) {
-  const chunks = (card.chunks || []).map(ch => `
-    <div class="chunk"><div class="chunk-en">${escapeHtml(ch.en || '')}</div><div class="chunk-ja">${escapeHtml(ch.ja || '')}</div></div>
-  `).join('');
-  const grammar = (card.grammar || []).map(g => `<li>${escapeHtml(g)}</li>`).join('');
-  const keywords = (card.keywords || []).map(k => `<span class="kw">${escapeHtml(k)}</span>`).join('');
-  const natural = escapeHtml(card.translationNatural || '');
-  const literal = escapeHtml(card.translationLiteral || '');
-  const speakTextValue = escapeAttr(card.translationNatural || card.translationLiteral || '');
-  const imageBlock = renderImageBlock(card);
-  return `
-    <article class="card">
-      <div class="card-head">
-        <div><div class="chapter">${escapeHtml(card.sourceTitle || currentWork.title || '')} · CHAPTER ${String(card.chapter).padStart(3,'0')}</div><div class="title">${escapeHtml(card.title || '')}</div></div>
-        <div class="id">${escapeHtml(card.id || '')}</div>
-      </div>
-      ${imageBlock}
-      <div class="section-title">Original</div><div class="jp">${escapeHtml(card.jp || '')}</div>
-      <div class="section-title">Natural Translation</div>
-      <div class="en-main">${natural}</div>
-      <div class="speech-row">
-        <button class="btn speak-btn" data-label="英語" onclick="speakText(this, '${speakTextValue}', 'en-US')">▶ 英語</button>
-        <button class="btn speak-btn" data-label="日本語" onclick="speakText(this, '${escapeAttr(card.jp || '')}', 'ja-JP')">▶ 日本語</button>
-      </div>
-      <div class="en-sub">Literal: ${literal}</div>
-      <div class="section-title">Chunks</div><div>${chunks}</div>
-      <div class="section-title">Grammar</div><ol class="grammar">${grammar}</ol>
-      <div class="section-title">Reading Point</div><div class="reading">${escapeHtml(card.readingPoint || '')}</div>
-      <div class="keywords">${keywords}</div>
-    </article>`;
-}
-
-function renderImageBlock(card) {
-  const imageUrl = card.imageUrl || card.image || '';
-  const caption = card.imageCaption || card.caption || '';
-  const prompt = card.imagePrompt || '';
-  let html = '';
-  if (imageUrl) {
-    html += `<div class="scene-image-wrap"><img class="scene-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(caption || card.title || 'scene image')}" loading="lazy">`;
-    if (caption) html += `<div class="scene-caption">${escapeHtml(caption)}</div>`;
-    html += `</div>`;
-  }
-  if (prompt) {
-    html += `<details class="image-prompt-box"><summary>Image Prompt</summary><div class="image-prompt-text">${escapeHtml(prompt)}</div></details>`;
-  }
-  return html;
-}
-
-function speakText(button, text, lang) {
-  if (!('speechSynthesis' in window)) {
-    alert('このブラウザは音声読み上げに対応していません。');
-    return;
-  }
-  const clean = String(text || '').trim();
-  if (!clean) return;
-
-  stopSpeech();
-
-  const utterance = new SpeechSynthesisUtterance(clean);
-  utterance.lang = lang || 'en-US';
-  utterance.rate = lang === 'ja-JP' ? 0.95 : 0.82;
-  utterance.pitch = 1;
-  utterance.onstart = () => {
-    speakingButton = button;
-    button.classList.add('speaking');
-    button.textContent = '■ ' + (button.dataset.label || (lang === 'ja-JP' ? '日本語' : '英語'));
-  };
-  utterance.onend = resetSpeakingButton;
-  utterance.onerror = resetSpeakingButton;
-
-  speechTimer = setTimeout(() => {
-    speechTimer = null;
-    window.speechSynthesis.speak(utterance);
-  }, 160);
-}
-
-function stopSpeech() {
-  if (speechTimer) {
-    clearTimeout(speechTimer);
-    speechTimer = null;
-  }
-  if ('speechSynthesis' in window) window.speechSynthesis.cancel();
-  resetSpeakingButton();
-}
-
-function resetSpeakingButton() {
-  if (speakingButton) {
-    const label = speakingButton.dataset.label || (speakingButton.textContent.includes('日本語') ? '日本語' : '英語');
-    speakingButton.classList.remove('speaking');
-    speakingButton.textContent = '▶ ' + label;
-    speakingButton = null;
-  }
-}
-
-function escapeHtml(str) {
-  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
-}
-function escapeAttr(str) {
-  return escapeHtml(str).replace(/\n/g, ' ');
-}
-
-document.getElementById('reloadBtn').addEventListener('click', loadLiterature);
-document.getElementById('stopSpeechBtn').addEventListener('click', stopSpeech);
-document.getElementById('showAllBtn').addEventListener('click', () => {
-  selectedChapter = 'all';
-  document.getElementById('chapterSelect').value = 'all';
-  renderCards();
-});
-document.getElementById('workSelect').addEventListener('change', async (e) => {
-  currentWork = works.find(w => w.workId === e.target.value) || works[0];
-  await loadCurrentWork();
-});
-document.getElementById('chapterSelect').addEventListener('change', (e) => {
-  selectedChapter = e.target.value;
-  renderCards();
-});
-
-loadLiterature();
+let works=[],currentWork=null,allCards=[],selectedChapter='all',speakingButton=null,speechTimer=null;
+async function fetchJson(path){const res=await fetch(path+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error(path+' を読み込めませんでした');return await res.json();}
+async function loadLiterature(){stopSpeech();const status=document.getElementById('status'),content=document.getElementById('content'),toolbar=document.getElementById('toolbar'),workInfo=document.getElementById('workInfo');status.style.display='block';status.textContent='作品リストを読み込み中…';content.innerHTML='';toolbar.style.display='none';workInfo.style.display='none';try{works=await fetchJson('literature-works.json');if(!Array.isArray(works)||works.length===0)throw new Error('作品が登録されていません');const savedWorkId=localStorage.getItem('literature-current-work');currentWork=works.find(w=>w.workId===savedWorkId)||works[0];buildWorkSelect();await loadCurrentWork();}catch(err){console.error(err);status.textContent='読み込みエラー: '+err.message;}}
+async function loadCurrentWork(){stopSpeech();const status=document.getElementById('status'),toolbar=document.getElementById('toolbar');status.textContent=`『${currentWork.title}』を読み込み中…`;selectedChapter='all';localStorage.setItem('literature-current-work',currentWork.workId);const manifest=await fetchJson(currentWork.manifest);const groups=await Promise.all(manifest.map(file=>fetchJson(file)));allCards=groups.flat().sort((a,b)=>Number(a.chapter)-Number(b.chapter));status.textContent=`『${currentWork.title}』: ${allCards.length}件の文学カードを読み込みました。`;toolbar.style.display='flex';renderWorkInfo();buildChapterSelect();renderCards();}
+function buildWorkSelect(){const sel=document.getElementById('workSelect');sel.innerHTML=works.map(w=>`<option value="${escapeHtml(w.workId)}">${escapeHtml(w.title)}</option>`).join('');sel.value=currentWork.workId;}
+function buildChapterSelect(){const sel=document.getElementById('chapterSelect');sel.innerHTML='<option value="all">全Chapter</option>'+allCards.map(c=>`<option value="${c.chapter}">Chapter ${String(c.chapter).padStart(3,'0')} — ${escapeHtml(c.title||'')}</option>`).join('');sel.value=selectedChapter;}
+function renderWorkInfo(){const box=document.getElementById('workInfo');box.style.display='block';box.innerHTML=`<div class="label">CURRENT WORK</div><div class="work-title">${escapeHtml(currentWork.title||'')}</div><div class="work-desc">${escapeHtml(currentWork.description||'')}</div>`;}
+function renderCards(){stopSpeech();const content=document.getElementById('content');const cards=selectedChapter==='all'?allCards:allCards.filter(c=>String(c.chapter)===String(selectedChapter));content.innerHTML=cards.map(renderCard).join('');}
+function renderChunk(ch,i){const en=ch.en||'',ja=ch.ja||'';return `<div class="chunk"><div><div class="chunk-en">${escapeHtml(en)}</div><div class="chunk-ja">${escapeHtml(ja)}</div></div><div class="chunk-actions"><button class="btn speak-btn chunk-btn" data-label="C${i+1} EN" onclick="speakText(this,'${escapeAttr(en)}','en-US')">▶ EN</button><button class="btn speak-btn chunk-btn" data-label="C${i+1} JA" onclick="speakText(this,'${escapeAttr(ja)}','ja-JP')">▶ JA</button></div></div>`;}
+function renderCard(card){const chunks=(card.chunks||[]).map(renderChunk).join('');const grammar=(card.grammar||[]).map(g=>`<li>${escapeHtml(g)}</li>`).join('');const keywords=(card.keywords||[]).map(k=>`<span class="kw">${escapeHtml(k)}</span>`).join('');const natural=escapeHtml(card.translationNatural||''),literal=escapeHtml(card.translationLiteral||''),speakTextValue=escapeAttr(card.translationNatural||card.translationLiteral||''),imageBlock=renderImageBlock(card);return `<article class="card"><div class="card-head"><div><div class="chapter">${escapeHtml(card.sourceTitle||currentWork.title||'')} · CHAPTER ${String(card.chapter).padStart(3,'0')}</div><div class="title">${escapeHtml(card.title||'')}</div></div><div class="id">${escapeHtml(card.id||'')}</div></div>${imageBlock}<div class="section-title">Original</div><div class="jp">${escapeHtml(card.jp||'')}</div><div class="section-title">Natural Translation</div><div class="en-main">${natural}</div><div class="speech-row"><button class="btn speak-btn" data-label="英語" onclick="speakText(this,'${speakTextValue}','en-US')">▶ 英語</button><button class="btn speak-btn" data-label="日本語" onclick="speakText(this,'${escapeAttr(card.jp||'')}','ja-JP')">▶ 日本語</button></div><div class="en-sub">Literal: ${literal}</div><div class="section-title">Chunks</div><div>${chunks}</div><div class="section-title">Grammar</div><ol class="grammar">${grammar}</ol><div class="section-title">Reading Point</div><div class="reading">${escapeHtml(card.readingPoint||'')}</div><div class="keywords">${keywords}</div></article>`;}
+function renderImageBlock(card){const imageUrl=card.imageUrl||card.image||'',caption=card.imageCaption||card.caption||'',prompt=card.imagePrompt||'';let html='';if(imageUrl){html+=`<div class="scene-image-wrap"><img class="scene-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(caption||card.title||'scene image')}" loading="lazy">`;if(caption)html+=`<div class="scene-caption">${escapeHtml(caption)}</div>`;html+='</div>';}if(prompt){html+=`<details class="image-prompt-box"><summary>Image Prompt</summary><div class="image-prompt-text">${escapeHtml(prompt)}</div></details>`;}return html;}
+function speakText(button,text,lang){if(!('speechSynthesis'in window)){alert('このブラウザは音声読み上げに対応していません。');return;}const clean=String(text||'').trim();if(!clean)return;stopSpeech();const utterance=new SpeechSynthesisUtterance(clean);utterance.lang=lang||'en-US';utterance.rate=lang==='ja-JP'?.95:.82;utterance.pitch=1;utterance.onstart=()=>{speakingButton=button;button.classList.add('speaking');button.textContent='■ '+(button.dataset.label||(lang==='ja-JP'?'日本語':'英語'));};utterance.onend=resetSpeakingButton;utterance.onerror=resetSpeakingButton;speechTimer=setTimeout(()=>{speechTimer=null;window.speechSynthesis.speak(utterance);},160);}
+function stopSpeech(){if(speechTimer){clearTimeout(speechTimer);speechTimer=null;}if('speechSynthesis'in window)window.speechSynthesis.cancel();resetSpeakingButton();}
+function resetSpeakingButton(){if(speakingButton){const label=speakingButton.dataset.label||'再生';speakingButton.classList.remove('speaking');if(label.includes('EN'))speakingButton.textContent='▶ EN';else if(label.includes('JA'))speakingButton.textContent='▶ JA';else speakingButton.textContent='▶ '+label;speakingButton=null;}}
+function escapeHtml(str){return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');}
+function escapeAttr(str){return escapeHtml(str).replace(/\n/g,' ');}
+document.getElementById('reloadBtn').addEventListener('click',loadLiterature);document.getElementById('stopSpeechBtn').addEventListener('click',stopSpeech);document.getElementById('showAllBtn').addEventListener('click',()=>{selectedChapter='all';document.getElementById('chapterSelect').value='all';renderCards();});document.getElementById('workSelect').addEventListener('change',async e=>{currentWork=works.find(w=>w.workId===e.target.value)||works[0];await loadCurrentWork();});document.getElementById('chapterSelect').addEventListener('change',e=>{selectedChapter=e.target.value;renderCards();});loadLiterature();
 </script>
 </body>
 </html>
