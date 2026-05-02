@@ -46,6 +46,12 @@
   .chapter { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10px; letter-spacing: .15em; color: #b91c1c; }
   .title { font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: 18px; font-weight: 700; margin-top: 3px; }
   .id { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10px; color: #a8a29e; }
+  .scene-image-wrap { margin: 12px 0 16px; border: 2px solid #1c1917; background: #0c0a09; }
+  .scene-image { display: block; width: 100%; height: auto; max-height: 520px; object-fit: cover; }
+  .scene-caption { font-size: 12px; line-height: 1.7; color: #f5f0df; padding: 8px 10px; border-top: 1px solid rgba(245,240,223,.25); }
+  .image-prompt-box { margin: 8px 0 14px; border: 1px solid #d6d3d1; background: #fafaf9; }
+  .image-prompt-box summary { cursor: pointer; padding: 8px 10px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #57534e; }
+  .image-prompt-text { padding: 0 10px 10px; font-size: 12px; line-height: 1.7; color: #44403c; white-space: pre-wrap; }
   .jp { font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: 17px; line-height: 1.8; padding: 12px; background: #fafaf9; border-left: 4px solid #1c1917; margin: 10px 0 14px; }
   .en-main { font-family: Georgia, "Times New Roman", serif; font-size: 18px; line-height: 1.65; font-weight: 700; margin: 8px 0; }
   .en-sub { font-size: 12px; color: #57534e; line-height: 1.7; margin: 6px 0 12px; }
@@ -189,12 +195,14 @@ function renderCard(card) {
   const natural = escapeHtml(card.translationNatural || '');
   const literal = escapeHtml(card.translationLiteral || '');
   const speakTextValue = escapeAttr(card.translationNatural || card.translationLiteral || '');
+  const imageBlock = renderImageBlock(card);
   return `
     <article class="card">
       <div class="card-head">
         <div><div class="chapter">${escapeHtml(card.sourceTitle || currentWork.title || '')} · CHAPTER ${String(card.chapter).padStart(3,'0')}</div><div class="title">${escapeHtml(card.title || '')}</div></div>
         <div class="id">${escapeHtml(card.id || '')}</div>
       </div>
+      ${imageBlock}
       <div class="section-title">Original</div><div class="jp">${escapeHtml(card.jp || '')}</div>
       <div class="section-title">Natural Translation</div>
       <div class="en-main">${natural}</div>
@@ -208,6 +216,22 @@ function renderCard(card) {
       <div class="section-title">Reading Point</div><div class="reading">${escapeHtml(card.readingPoint || '')}</div>
       <div class="keywords">${keywords}</div>
     </article>`;
+}
+
+function renderImageBlock(card) {
+  const imageUrl = card.imageUrl || card.image || '';
+  const caption = card.imageCaption || card.caption || '';
+  const prompt = card.imagePrompt || '';
+  let html = '';
+  if (imageUrl) {
+    html += `<div class="scene-image-wrap"><img class="scene-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(caption || card.title || 'scene image')}" loading="lazy">`;
+    if (caption) html += `<div class="scene-caption">${escapeHtml(caption)}</div>`;
+    html += `</div>`;
+  }
+  if (prompt) {
+    html += `<details class="image-prompt-box"><summary>Image Prompt</summary><div class="image-prompt-text">${escapeHtml(prompt)}</div></details>`;
+  }
+  return html;
 }
 
 function speakText(button, text, lang) {
