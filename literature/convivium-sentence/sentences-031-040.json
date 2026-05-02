@@ -1,0 +1,263 @@
+[
+  {
+    "id": "CV-S031",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 31,
+    "sentence": 31,
+    "title": "無人の儀式",
+    "jp": "一連の動作が、無人の儀式のように、整然と進行する。",
+    "translationLiteral": "A series of actions proceeds in order, like an unmanned ritual.",
+    "translationNatural": "The sequence unfolded with perfect order, like a ritual performed without people.",
+    "chunks": [
+      { "en": "The sequence", "ja": "一連の動作が" },
+      { "en": "unfolded", "ja": "進行した" },
+      { "en": "with perfect order", "ja": "整然と" },
+      { "en": "like a ritual", "ja": "儀式のように" },
+      { "en": "performed without people", "ja": "人なしで行われる" }
+    ],
+    "grammar": [
+      "The sequence unfolded はSV構造。",
+      "with perfect order は様態を表す前置詞句。",
+      "like a ritual は比喩表現。",
+      "performed without people はritualを修飾する過去分詞句。"
+    ],
+    "translationNote": "『無人の儀式』は unmanned ritual でも訳せるが、performed without people と展開すると英語として自然。",
+    "readingPoint": "人間の不在にもかかわらず、システムだけが秩序正しく動く。都市の自動化された儀式性が強く出ている。",
+    "keywords": ["ritual", "sequence", "system", "order"]
+  },
+  {
+    "id": "CV-S032",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 32,
+    "sentence": 32,
+    "title": "小さく息を吐く",
+    "jp": "そのとき、男が小さく息を吐いた。",
+    "translationLiteral": "At that moment, the man exhaled a little.",
+    "translationNatural": "Then the man let out a small breath.",
+    "chunks": [
+      { "en": "Then", "ja": "そのとき" },
+      { "en": "the man", "ja": "男が" },
+      { "en": "let out", "ja": "吐き出した" },
+      { "en": "a small breath", "ja": "小さな息を" }
+    ],
+    "grammar": [
+      "Then は場面の転換を示す副詞。",
+      "let out は息や声を外に出す表現。",
+      "a small breath は控えめな身体反応を表す名詞句。"
+    ],
+    "translationNote": "exhaled でも正しいが、let out a small breath の方が自然で身体感がある。",
+    "readingPoint": "それまで静止していた男が、ほとんど最小限の身体反応によって存在を示す。",
+    "keywords": ["breath", "man", "small gesture"]
+  },
+  {
+    "id": "CV-S033",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 33,
+    "sentence": 33,
+    "title": "ため息ではない",
+    "jp": "ため息ではなかった。",
+    "translationLiteral": "It was not a sigh.",
+    "translationNatural": "It was not a sigh.",
+    "chunks": [
+      { "en": "It was not", "ja": "それは〜ではなかった" },
+      { "en": "a sigh", "ja": "ため息" }
+    ],
+    "grammar": [
+      "It was not... は否定のSVC構造。",
+      "It は前文のbreathを受ける代名詞。",
+      "短文により、分類の否定が強調される。"
+    ],
+    "translationNote": "ここは原文の短さを保つため、英語でもそのまま短く訳す。",
+    "readingPoint": "単なる疲労や諦めに分類されることを拒み、息の意味を保留している。",
+    "keywords": ["sigh", "negation", "breath"]
+  },
+  {
+    "id": "CV-S034",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 34,
+    "sentence": 34,
+    "title": "安堵でもない",
+    "jp": "安堵でもなかった。",
+    "translationLiteral": "It was not relief either.",
+    "translationNatural": "Nor was it relief.",
+    "chunks": [
+      { "en": "Nor was it", "ja": "それは〜でもなかった" },
+      { "en": "relief", "ja": "安堵" }
+    ],
+    "grammar": [
+      "Nor was it... は前文の否定を受けた倒置表現。",
+      "relief は安堵・安心を表す名詞。",
+      "sigh と relief の両方を否定して、意味をまだ確定させない。"
+    ],
+    "translationNote": "It was not relief either でもよいが、Nor was it relief の方が文学的に締まる。",
+    "readingPoint": "息の意味はさらに分類不能なものとして残される。読者はその質感を探る方向へ導かれる。",
+    "keywords": ["relief", "nor", "uncertainty"]
+  },
+  {
+    "id": "CV-S035",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 35,
+    "sentence": 35,
+    "title": "その日の重さの蒸気",
+    "jp": "なんと言えばいいのか――一日の終わりに、肺の底から押し出される、その日の重さの蒸気のようなもの。",
+    "translationLiteral": "How should I put it — something like the steam of that day's weight, pushed out from the bottom of the lungs at the end of a day.",
+    "translationNatural": "How should I put it — it was like the vapor of the day's weight, pressed out from the bottom of the lungs at the end of the day.",
+    "chunks": [
+      { "en": "How should I put it", "ja": "なんと言えばいいのか" },
+      { "en": "it was like", "ja": "それは〜のようだった" },
+      { "en": "the vapor of the day's weight", "ja": "その日の重さの蒸気" },
+      { "en": "pressed out", "ja": "押し出された" },
+      { "en": "from the bottom of the lungs", "ja": "肺の底から" },
+      { "en": "at the end of the day", "ja": "一日の終わりに" }
+    ],
+    "grammar": [
+      "How should I put it は表現を探す定型句。",
+      "it was like... は比喩を導く構文。",
+      "the vapor of the day's weight は抽象名詞を比喩化した名詞句。",
+      "pressed out from... は過去分詞句で状態を補足する。"
+    ],
+    "translationNote": "『蒸気』は steam でもよいが、感情の気配として vapor を使うと抽象度が上がる。",
+    "readingPoint": "息が単なる呼吸ではなく、一日の労働や疲労が身体から抜ける現象として描かれている。",
+    "keywords": ["vapor", "weight", "lungs", "fatigue"]
+  },
+  {
+    "id": "CV-S036",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 36,
+    "sentence": 36,
+    "title": "身体の中にも知っている",
+    "jp": "私は自分の身体の中にも、それを知っている。",
+    "translationLiteral": "I know that inside my own body as well.",
+    "translationNatural": "I knew it in my own body, too.",
+    "chunks": [
+      { "en": "I knew it", "ja": "私はそれを知っていた" },
+      { "en": "in my own body", "ja": "自分の身体の中で" },
+      { "en": "too", "ja": "同じように" }
+    ],
+    "grammar": [
+      "I knew it はSVO構造。",
+      "in my own body は認識の場所を身体に置く表現。",
+      "too は男との共通性を示す。"
+    ],
+    "translationNote": "日本語の『身体の中にも』は、英語では in my own body とすると身体化された理解が出る。",
+    "readingPoint": "他者の息が、自分の身体記憶と結びつく。ここで共感は心理ではなく身体的認識として描かれる。",
+    "keywords": ["body", "recognition", "shared fatigue"]
+  },
+  {
+    "id": "CV-S037",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 37,
+    "sentence": 37,
+    "title": "同じものを吐く",
+    "jp": "同じものを、私も今、吐いていた。",
+    "translationLiteral": "The same thing, I too was now exhaling.",
+    "translationNatural": "I was breathing out the same thing then, too.",
+    "chunks": [
+      { "en": "I was breathing out", "ja": "私は吐き出していた" },
+      { "en": "the same thing", "ja": "同じものを" },
+      { "en": "then", "ja": "そのとき" },
+      { "en": "too", "ja": "私も" }
+    ],
+    "grammar": [
+      "was breathing out は過去進行形。",
+      "the same thing は男の息と同質のものを指す。",
+      "too は共通性を示す副詞。"
+    ],
+    "translationNote": "『吐いていた』は exhaling でもよいが、breathing out の方が柔らかく自然。",
+    "readingPoint": "男の息と自分の息が同質化され、無言の共有が身体レベルで成立する。",
+    "keywords": ["breathing", "same", "body"]
+  },
+  {
+    "id": "CV-S038",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 38,
+    "sentence": 38,
+    "title": "気づいたのか",
+    "jp": "男は気づいたのか、気づかなかったのか。",
+    "translationLiteral": "Whether the man noticed or did not notice.",
+    "translationNatural": "Whether the man noticed it or not, I could not tell.",
+    "chunks": [
+      { "en": "Whether the man", "ja": "男が〜かどうか" },
+      { "en": "noticed it", "ja": "それに気づいたのか" },
+      { "en": "or not", "ja": "あるいは気づかなかったのか" },
+      { "en": "I could not tell", "ja": "私には分からなかった" }
+    ],
+    "grammar": [
+      "Whether... or not は『〜かどうか』を表す。",
+      "noticed it は前の共有された息・気配を受ける。",
+      "I could not tell は判断不能を表す定型表現。"
+    ],
+    "translationNote": "原文は断片文だが、英語では I could not tell を補うと文として自然。",
+    "readingPoint": "共有が成立したかどうかは明示されない。分からなさが、むしろ非言語的な関係の余白を保つ。",
+    "keywords": ["notice", "uncertainty", "shared silence"]
+  },
+  {
+    "id": "CV-S039",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 39,
+    "sentence": 39,
+    "title": "視線は合わない",
+    "jp": "視線は合わなかった。",
+    "translationLiteral": "Our eyes did not meet.",
+    "translationNatural": "Our eyes did not meet.",
+    "chunks": [
+      { "en": "Our eyes", "ja": "私たちの視線は" },
+      { "en": "did not meet", "ja": "合わなかった" }
+    ],
+    "grammar": [
+      "Our eyes did not meet は視線が合わないことを表す定型表現。",
+      "did not + 動詞原形で過去の否定。",
+      "短文により、接触の不在が強調される。"
+    ],
+    "translationNote": "『視線が合う』は eyes meet と訳すのが自然。",
+    "readingPoint": "視線が合わないにもかかわらず、すでに何かが共有されている点が重要。",
+    "keywords": ["eyes", "not meet", "distance"]
+  },
+  {
+    "id": "CV-S040",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 40,
+    "sentence": 40,
+    "title": "何かが通過した",
+    "jp": "けれど、合わないままで、何かが通過した、と思った。",
+    "translationLiteral": "But, without meeting, I thought that something had passed.",
+    "translationNatural": "And yet, without our eyes ever meeting, I felt that something had passed between us.",
+    "chunks": [
+      { "en": "And yet", "ja": "それでも" },
+      { "en": "without our eyes ever meeting", "ja": "私たちの視線が一度も合わないまま" },
+      { "en": "I felt", "ja": "私は感じた" },
+      { "en": "that something had passed", "ja": "何かが通過したと" },
+      { "en": "between us", "ja": "私たちの間を" }
+    ],
+    "grammar": [
+      "And yet は逆接を表す接続表現。",
+      "without + 名詞 + 動名詞 は『〜しないまま』を表す。",
+      "I felt that... は内的認識を表す構文。",
+      "had passed は過去完了で、その瞬間にすでに起きた感覚を示す。",
+      "between us は二者間の関係を表す。"
+    ],
+    "translationNote": "『何かが通過した』は something had passed between us とすると、非言語的な交感が自然に表現できる。",
+    "readingPoint": "作品の核心に近い一文。視線も言葉もないまま、共在の感覚だけが通過する。",
+    "keywords": ["pass between", "without glance", "presence", "connection"]
+  }
+]
