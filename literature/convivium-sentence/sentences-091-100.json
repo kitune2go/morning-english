@@ -1,0 +1,251 @@
+[
+  {
+    "id": "CV-S091",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 91,
+    "sentence": 91,
+    "title": "それを返した",
+    "jp": "私もそれを返した。",
+    "translationLiteral": "I returned it, too.",
+    "translationNatural": "I returned it, too.",
+    "chunks": [
+      { "en": "I returned it", "ja": "私はそれを返した" },
+      { "en": "too", "ja": "私も同じように" }
+    ],
+    "grammar": [
+      "I returned it はSVO構造。",
+      "it は直前の視線・認識を受ける代名詞。",
+      "too は相手の行為への応答を表す副詞。"
+    ],
+    "translationNote": "『返した』は返答ではなく視線の返礼なので、returned it で最小限に訳している。",
+    "readingPoint": "会話でも会釈でもないが、相互承認は成立している。最小限の応答としての『返す』が重要。",
+    "keywords": ["return", "glance", "mutual recognition"]
+  },
+  {
+    "id": "CV-S092",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 92,
+    "sentence": 92,
+    "title": "扉が開く",
+    "jp": "扉が開く。",
+    "translationLiteral": "The doors open.",
+    "translationNatural": "The doors opened.",
+    "chunks": [
+      { "en": "The doors", "ja": "扉が" },
+      { "en": "opened", "ja": "開いた" }
+    ],
+    "grammar": [
+      "The doors opened はSV構造。",
+      "日本語の現在形を、英語の物語文では過去形にしている。",
+      "短文により、場面転換の切れ目が強調される。"
+    ],
+    "translationNote": "臨場感のある日本語現在形は、英語では物語時制に合わせて opened とした。",
+    "readingPoint": "共在の空間から降車へ向かう境界が開く。扉は物理的にも物語的にも区切りとして機能する。",
+    "keywords": ["doors", "open", "transition"]
+  },
+  {
+    "id": "CV-S093",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 93,
+    "sentence": 93,
+    "title": "降りる",
+    "jp": "降りる。",
+    "translationLiteral": "I get off.",
+    "translationNatural": "I stepped off.",
+    "chunks": [
+      { "en": "I stepped off", "ja": "私は降りた" }
+    ],
+    "grammar": [
+      "step off は乗り物から降りる動作を表す句動詞。",
+      "主語Iを補うことで英語の文として成立させている。",
+      "短文により、動作の簡潔さが保たれている。"
+    ],
+    "translationNote": "get off より stepped off の方が、足を踏み出す身体動作が出る。",
+    "readingPoint": "主人公が共有空間から離れる瞬間。関係はここで継続関係ではなく、一回性の出来事として閉じ始める。",
+    "keywords": ["step off", "departure", "body"]
+  },
+  {
+    "id": "CV-S094",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 94,
+    "sentence": 94,
+    "title": "後ろで扉が閉まる",
+    "jp": "後ろで扉が閉まる音がする。",
+    "translationLiteral": "Behind me, I hear the sound of the doors closing.",
+    "translationNatural": "Behind me, I heard the doors close.",
+    "chunks": [
+      { "en": "Behind me", "ja": "私の後ろで" },
+      { "en": "I heard", "ja": "私は聞いた" },
+      { "en": "the doors close", "ja": "扉が閉まるのを" }
+    ],
+    "grammar": [
+      "Behind me は場所を示す前置詞句。",
+      "heard + O + 動詞原形 は知覚動詞構文。",
+      "the doors close は聞いた出来事の内容を表す。"
+    ],
+    "translationNote": "the sound of the doors closing より heard the doors close の方が簡潔で自然。",
+    "readingPoint": "閉まる扉の音によって、車内との接続が物理的に切れる。視線の交差が終わったことを音が告げる。",
+    "keywords": ["behind", "doors", "sound"]
+  },
+  {
+    "id": "CV-S095",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 95,
+    "sentence": 95,
+    "title": "電車は走り去る",
+    "jp": "電車は走り去っていく。",
+    "translationLiteral": "The train runs away.",
+    "translationNatural": "The train pulled away.",
+    "chunks": [
+      { "en": "The train", "ja": "電車は" },
+      { "en": "pulled away", "ja": "走り去っていった" }
+    ],
+    "grammar": [
+      "pull away は乗り物が離れていくことを表す句動詞。",
+      "The train pulled away はSV構造。",
+      "run away は逃げる意味になりやすいため使わない。"
+    ],
+    "translationNote": "『走り去る』は直訳で run away にすると不自然なので、電車には pulled away が適切。",
+    "readingPoint": "共在の場そのものが遠ざかる。車両は出来事を乗せたまま、主人公から離れていく。",
+    "keywords": ["train", "pull away", "separation"]
+  },
+  {
+    "id": "CV-S096",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 96,
+    "sentence": 96,
+    "title": "男はまだ乗っている",
+    "jp": "男はまだ乗っている。",
+    "translationLiteral": "The man is still riding.",
+    "translationNatural": "The man was still on board.",
+    "chunks": [
+      { "en": "The man", "ja": "男は" },
+      { "en": "was still", "ja": "まだ〜だった" },
+      { "en": "on board", "ja": "乗っていた" }
+    ],
+    "grammar": [
+      "on board は乗り物に乗っている状態を表す。",
+      "still は状態の継続を表す副詞。",
+      "was により物語時制に合わせている。"
+    ],
+    "translationNote": "still riding より still on board の方が、車内に残っている状態が自然に表せる。",
+    "readingPoint": "主人公は降り、男はまだ車内にいる。共有された時間が分岐する。",
+    "keywords": ["man", "on board", "still"]
+  },
+  {
+    "id": "CV-S097",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 97,
+    "sentence": 97,
+    "title": "どこかの駅で降りる",
+    "jp": "どこかの駅で降りるのだろう。",
+    "translationLiteral": "He will probably get off at some station.",
+    "translationNatural": "He would probably get off somewhere.",
+    "chunks": [
+      { "en": "He would probably", "ja": "彼はたぶん〜だろう" },
+      { "en": "get off", "ja": "降りる" },
+      { "en": "somewhere", "ja": "どこかで" }
+    ],
+    "grammar": [
+      "would は過去時点から見た未来・推量。",
+      "probably は不確かさを表す副詞。",
+      "get off は乗り物から降りる句動詞。",
+      "somewhere は不特定の場所を表す。"
+    ],
+    "translationNote": "some station より somewhere の方が、知らない場所へ消えていく感覚が自然。",
+    "readingPoint": "男にも自分の生活圏と帰る場所があるはずだが、それは主人公には知られないまま残る。",
+    "keywords": ["somewhere", "get off", "unknown"]
+  },
+  {
+    "id": "CV-S098",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 98,
+    "sentence": 98,
+    "title": "その駅を知らない",
+    "jp": "私はその駅を知らない。",
+    "translationLiteral": "I do not know that station.",
+    "translationNatural": "I did not know where that would be.",
+    "chunks": [
+      { "en": "I did not know", "ja": "私は知らなかった" },
+      { "en": "where", "ja": "どこなのか" },
+      { "en": "that would be", "ja": "それが〜だろうか" }
+    ],
+    "grammar": [
+      "I did not know where... は間接疑問文。",
+      "that は男が降りる駅を受ける。",
+      "would be は推量される場所を表す。"
+    ],
+    "translationNote": "I did not know that station も直訳として可能だが、英語では where that would be の方が自然。",
+    "readingPoint": "相手の行き先は最後まで未知のまま。この知らなさが、相手を消費しない距離感になっている。",
+    "keywords": ["station", "unknown", "distance"]
+  },
+  {
+    "id": "CV-S099",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 99,
+    "sentence": 99,
+    "title": "夜の空気が冷たい",
+    "jp": "夜の空気が冷たかった。",
+    "translationLiteral": "The night air was cold.",
+    "translationNatural": "The night air was cold.",
+    "chunks": [
+      { "en": "The night air", "ja": "夜の空気は" },
+      { "en": "was cold", "ja": "冷たかった" }
+    ],
+    "grammar": [
+      "The night air was cold はSVC構造。",
+      "night air は名詞airをnightが修飾している。",
+      "cold は感覚的・物理的な冷たさを表す形容詞。"
+    ],
+    "translationNote": "非常に素直に訳せる文。短さを維持することで余韻が残る。",
+    "readingPoint": "車内の蛍光灯の冷たさから、外気の冷たさへ移る。場面が地下鉄内部から夜の街へ移動する。",
+    "keywords": ["night air", "cold", "outside"]
+  },
+  {
+    "id": "CV-S100",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 100,
+    "sentence": 100,
+    "title": "自動ドアが勝手に開閉する",
+    "jp": "駅の出口の向かいにあるコンビニの自動ドアが、誰も出入りしていないのに、何度か勝手に開いて閉じていた。",
+    "translationLiteral": "The automatic door of the convenience store across from the station exit opened and closed by itself several times, even though no one was going in or out.",
+    "translationNatural": "Across from the station exit, the convenience store's automatic door opened and closed several times on its own, though no one was entering or leaving.",
+    "chunks": [
+      { "en": "Across from the station exit", "ja": "駅の出口の向かいで" },
+      { "en": "the convenience store's automatic door", "ja": "コンビニの自動ドアが" },
+      { "en": "opened and closed", "ja": "開いて閉じた" },
+      { "en": "several times on its own", "ja": "何度か勝手に" },
+      { "en": "though no one was entering or leaving", "ja": "誰も出入りしていなかったのに" }
+    ],
+    "grammar": [
+      "Across from は『〜の向かいに』を表す前置詞句。",
+      "opened and closed は二つの動作の並列。",
+      "on its own は『ひとりでに・勝手に』。",
+      "though は逆接・譲歩を表す接続詞。",
+      "was entering or leaving は過去進行形の並列。"
+    ],
+    "translationNote": "『勝手に』は by itself でもよいが、on its own の方がやや柔らかく自然。",
+    "readingPoint": "人がいないのにドアだけが反応する。センサーによる誤認が、見えない気配や非記録の存在という主題を引き継ぐ。",
+    "keywords": ["automatic door", "sensor", "empty", "motion"]
+  }
+]
