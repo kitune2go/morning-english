@@ -1,0 +1,80 @@
+[
+  {
+    "id": "LC013",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "workId": "convivium",
+    "chapter": 13,
+    "title": "それだけのこと",
+    "jp": "それだけのことだった。それだけのことが、たぶん、今夜の私を救っていた。",
+    "translationLiteral": "That was all it was. That alone was probably saving me tonight.",
+    "translationNatural": "That was all it was. And perhaps that alone was what saved me tonight.",
+    "chunks": [
+      { "en": "That was all it was", "ja": "それだけのことだった" },
+      { "en": "And perhaps", "ja": "そしてたぶん" },
+      { "en": "that alone", "ja": "それだけが" },
+      { "en": "was what saved me", "ja": "私を救ったものだった" },
+      { "en": "tonight", "ja": "今夜" }
+    ],
+    "grammar": [
+      "That was all it was は『それ以上でも以下でもない』という限定表現。",
+      "perhaps は推量を表す副詞。",
+      "that alone は『それだけ』を強調する名詞句。",
+      "what saved me は名詞節で『私を救ったもの』を表す。"
+    ],
+    "readingPoint": "劇的な出来事ではなく、ただ同じ車両に居合わせたという事実だけが救いになる。作品の価値観が最も静かに凝縮された箇所。",
+    "keywords": ["small event", "rescue", "presence", "quiet salvation"]
+  },
+  {
+    "id": "LC014",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "workId": "convivium",
+    "chapter": 14,
+    "title": "コーヒーの匂いは消えていく",
+    "jp": "蓋を閉めて、ボトルを鞄に戻す。コーヒーの匂いは、一瞬で車両の空気に溶けて消えていった。",
+    "translationLiteral": "I close the lid and put the bottle back into my bag. The smell of coffee dissolved into the air of the train car and disappeared in an instant.",
+    "translationNatural": "I closed the lid and put the bottle back in my bag. The smell of coffee dissolved into the air of the train car and vanished in an instant.",
+    "chunks": [
+      { "en": "I closed the lid", "ja": "私は蓋を閉めた" },
+      { "en": "and put the bottle back", "ja": "そしてボトルを戻した" },
+      { "en": "in my bag", "ja": "鞄の中に" },
+      { "en": "The smell of coffee", "ja": "コーヒーの匂いは" },
+      { "en": "dissolved into the air", "ja": "空気に溶けた" },
+      { "en": "and vanished in an instant", "ja": "そして一瞬で消えた" }
+    ],
+    "grammar": [
+      "closed / put は過去形の連続動作。",
+      "put A back in B は『AをBに戻す』。",
+      "dissolved into は『〜に溶け込む』を表す。",
+      "vanished in an instant は短時間で消える動きを表す文学的表現。"
+    ],
+    "readingPoint": "匂いが車両の空気に溶ける描写は、個人的な感覚が共有空間へ拡散し、すぐに消えるはかなさを表している。",
+    "keywords": ["coffee", "air", "vanish", "transience"]
+  },
+  {
+    "id": "LC015",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "workId": "convivium",
+    "chapter": 15,
+    "title": "ただ、見たというだけの視線",
+    "jp": "視線が一瞬だけ合った。会釈ではなかった。微笑みでもなかった。ただ、見た、というだけの視線だった。",
+    "translationLiteral": "Our eyes met for only a moment. It was not a bow. It was not a smile. It was only a look that meant we had seen each other.",
+    "translationNatural": "Our eyes met for a single moment. It was not a nod, nor a smile. It was only a glance that said we had seen each other.",
+    "chunks": [
+      { "en": "Our eyes met", "ja": "私たちの視線が合った" },
+      { "en": "for a single moment", "ja": "一瞬だけ" },
+      { "en": "It was not a nod", "ja": "それは会釈ではなかった" },
+      { "en": "nor a smile", "ja": "微笑みでもなかった" },
+      { "en": "It was only a glance", "ja": "それはただの視線だった" },
+      { "en": "that said we had seen each other", "ja": "互いを見たと語るような" }
+    ],
+    "grammar": [
+      "Our eyes met は視線が合うことを表す定型表現。",
+      "for a single moment は時間の短さを示す副詞句。",
+      "not A, nor B は否定の並列。",
+      "a glance that said... は擬人的・文学的な関係詞表現。",
+      "we had seen each other は過去完了で、その一瞬の前提となる認識を示す。"
+    ],
+    "readingPoint": "ここでは視線が初めて明確に交わる。しかし、それは儀礼でも感情表現でもなく、ただ相互の存在を確認する最小限の接触として描かれている。",
+    "keywords": ["glance", "recognition", "minimal contact", "silence"]
+  }
+]
