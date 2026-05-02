@@ -1,0 +1,81 @@
+[
+  {
+    "id": "LC016",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "workId": "convivium",
+    "chapter": 16,
+    "title": "それを返した",
+    "jp": "私もそれを返した。",
+    "translationLiteral": "I returned it, too.",
+    "translationNatural": "I returned it, too.",
+    "chunks": [
+      { "en": "I returned it", "ja": "私もそれを返した" },
+      { "en": "too", "ja": "同じように" }
+    ],
+    "grammar": [
+      "I returned it はSVO構造。",
+      "it は前文の視線・最小限の認識を受ける代名詞。",
+      "too は相手の行為に対する応答を示す副詞。",
+      "短い文によって、過剰な感情表現ではなく、最小限の相互性が強調されている。"
+    ],
+    "readingPoint": "『返した』という一語が、会釈でも会話でもない相互承認を成立させている。ここでは言葉ではなく、反応そのものが関係を作っている。",
+    "keywords": ["response", "recognition", "minimal exchange", "silence"]
+  },
+  {
+    "id": "LC017",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "workId": "convivium",
+    "chapter": 17,
+    "title": "知らない駅",
+    "jp": "扉が開く。降りる。後ろで扉が閉まる音がする。電車は走り去っていく。男はまだ乗っている。どこかの駅で降りるのだろう。私はその駅を知らない。",
+    "translationLiteral": "The doors open. I get off. Behind me, I hear the doors close. The train runs away. The man is still on it. He will probably get off at some station. I do not know that station.",
+    "translationNatural": "The doors opened. I stepped off. Behind me, the doors closed, and the train pulled away. The man was still on board. He would probably get off somewhere. I did not know where.",
+    "chunks": [
+      { "en": "The doors opened", "ja": "扉が開いた" },
+      { "en": "I stepped off", "ja": "私は降りた" },
+      { "en": "Behind me", "ja": "私の後ろで" },
+      { "en": "the doors closed", "ja": "扉が閉まった" },
+      { "en": "the train pulled away", "ja": "電車は走り去った" },
+      { "en": "The man was still on board", "ja": "男はまだ乗っていた" },
+      { "en": "I did not know where", "ja": "私はどこかを知らなかった" }
+    ],
+    "grammar": [
+      "opened / stepped / closed / pulled は過去形の連続動作。",
+      "step off は乗り物から降りる動作を表す句動詞。",
+      "pull away は車両などが離れていく表現。",
+      "on board は乗り物に乗っている状態を表す。",
+      "I did not know where は場所情報の欠如を表す省略的な名詞節。"
+    ],
+    "readingPoint": "同じ車両で生じた接点は、降車とともに分離へ向かう。相手の降りる駅を知らないという事実が、共有された瞬間の一回性を強めている。",
+    "keywords": ["departure", "station", "separation", "unknown"]
+  },
+  {
+    "id": "LC018",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "workId": "convivium",
+    "chapter": 18,
+    "title": "家に向かって歩き始めた",
+    "jp": "夜の空気が冷たかった。駅の出口の向かいにあるコンビニの自動ドアが、誰も出入りしていないのに、何度か勝手に開いて閉じていた。私は家に向かって歩き始めた。",
+    "translationLiteral": "The night air was cold. The automatic door of the convenience store across from the station exit opened and closed by itself several times, even though no one was going in or out. I started walking toward home.",
+    "translationNatural": "The night air was cold. Across from the station exit, the convenience store’s automatic door opened and closed several times on its own, though no one was entering or leaving. I started walking home.",
+    "chunks": [
+      { "en": "The night air was cold", "ja": "夜の空気は冷たかった" },
+      { "en": "Across from the station exit", "ja": "駅の出口の向かいで" },
+      { "en": "the convenience store’s automatic door", "ja": "コンビニの自動ドアが" },
+      { "en": "opened and closed", "ja": "開いて閉じた" },
+      { "en": "several times on its own", "ja": "何度か勝手に" },
+      { "en": "though no one was entering or leaving", "ja": "誰も出入りしていなかったのに" },
+      { "en": "I started walking home", "ja": "私は家に向かって歩き始めた" }
+    ],
+    "grammar": [
+      "The night air was cold はSVC構造。",
+      "Across from は『〜の向かいに』を表す前置詞句。",
+      "opened and closed は二つの動作の並列。",
+      "on its own は『ひとりでに』を表す表現。",
+      "though は逆接・譲歩を表す接続詞。",
+      "start + 動名詞で『〜し始める』を表す。"
+    ],
+    "readingPoint": "最後の歩行は日常への帰還である。誰もいないのに開閉する自動ドアは、見えない気配を人として誤認する装置として、作品全体の主題を静かに反復している。",
+    "keywords": ["night air", "automatic door", "home", "return"]
+  }
+]
