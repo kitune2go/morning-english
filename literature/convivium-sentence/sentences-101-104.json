@@ -1,0 +1,107 @@
+[
+  {
+    "id": "CV-S101",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 101,
+    "sentence": 101,
+    "title": "深夜の風を人と勘違いする",
+    "jp": "センサーが何かを誤認しているのか、あるいは、深夜の風を、人と勘違いしているのかもしれなかった。",
+    "translationLiteral": "Perhaps the sensor was misrecognizing something, or perhaps it was mistaking the late-night wind for a person.",
+    "translationNatural": "Perhaps the sensor had mistaken something, or maybe it had taken the late-night wind for a person.",
+    "chunks": [
+      { "en": "Perhaps the sensor", "ja": "おそらくセンサーが" },
+      { "en": "had mistaken something", "ja": "何かを誤認していた" },
+      { "en": "or maybe", "ja": "あるいは" },
+      { "en": "it had taken", "ja": "それは〜と受け取っていた" },
+      { "en": "the late-night wind", "ja": "深夜の風を" },
+      { "en": "for a person", "ja": "人として" }
+    ],
+    "grammar": [
+      "Perhaps / maybe は推量を表す副詞。",
+      "had mistaken は過去完了で、誤認が先に起きていたことを示す。",
+      "take A for B は『AをBと間違える』。",
+      "late-night wind はwindを修飾する複合形容詞的表現。"
+    ],
+    "translationNote": "『人と勘違いしている』は mistake A for B / take A for B で表せる。ここでは文学的な柔らかさを出すため taken the late-night wind for a person とした。",
+    "readingPoint": "無機的なセンサーが風を人として誤認する描写は、記録されない気配や存在の余韻を最後にもう一度浮かび上がらせる。",
+    "keywords": ["sensor", "wind", "mistake", "presence"]
+  },
+  {
+    "id": "CV-S102",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 102,
+    "sentence": 102,
+    "title": "かすかな珈琲の香り",
+    "jp": "開いた瞬間、店内のかすかな珈琲の香りが、こちらまで届いた気がした。",
+    "translationLiteral": "At the moment it opened, I felt that the faint smell of coffee from inside the store reached me.",
+    "translationNatural": "For a moment, as the door opened, I thought I caught the faint smell of coffee from inside the store.",
+    "chunks": [
+      { "en": "For a moment", "ja": "一瞬" },
+      { "en": "as the door opened", "ja": "ドアが開いたとき" },
+      { "en": "I thought I caught", "ja": "私は捉えた気がした" },
+      { "en": "the faint smell of coffee", "ja": "かすかな珈琲の香りを" },
+      { "en": "from inside the store", "ja": "店内から" }
+    ],
+    "grammar": [
+      "For a moment は短い時間を表す副詞句。",
+      "as the door opened は同時性を表す接続表現。",
+      "I thought I caught は『感じ取った気がした』という主観的認識。",
+      "the faint smell of coffee は名詞句。"
+    ],
+    "translationNote": "『届いた気がした』は the smell reached me とも訳せるが、英語では I thought I caught the smell の方が自然で感覚的。",
+    "readingPoint": "車内で消えたコーヒーの匂いが、外のコンビニでかすかに回帰する。現実か気のせいか分からない余韻が残る。",
+    "keywords": ["coffee", "scent", "store", "impression"]
+  },
+  {
+    "id": "CV-S103",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 103,
+    "sentence": 103,
+    "title": "たぶん気のせい",
+    "jp": "たぶん気のせいだった。",
+    "translationLiteral": "It was probably my imagination.",
+    "translationNatural": "It was probably only my imagination.",
+    "chunks": [
+      { "en": "It was probably", "ja": "それはたぶん" },
+      { "en": "only my imagination", "ja": "ただの気のせいだった" }
+    ],
+    "grammar": [
+      "It は直前のコーヒーの香りを受ける。",
+      "probably は推量を表す副詞。",
+      "only my imagination は『ただの気のせい』に近い表現。"
+    ],
+    "translationNote": "『気のせい』は my imagination で自然に表せる。only を入れると自己修正のニュアンスが出る。",
+    "readingPoint": "出来事の確かさは揺らぐが、感覚の余韻は残る。この不確かさが作品の静かな終わり方を支えている。",
+    "keywords": ["imagination", "probably", "uncertainty"]
+  },
+  {
+    "id": "CV-S104",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 104,
+    "sentence": 104,
+    "title": "家に向かって歩き始める",
+    "jp": "私は家に向かって歩き始めた。",
+    "translationLiteral": "I began walking toward home.",
+    "translationNatural": "I started walking home.",
+    "chunks": [
+      { "en": "I started", "ja": "私は始めた" },
+      { "en": "walking home", "ja": "家に向かって歩くことを" }
+    ],
+    "grammar": [
+      "started + 動名詞で『〜し始めた』。",
+      "walk home は『家へ歩いて帰る』を表す自然な表現。",
+      "toward home より walking home の方が英語として簡潔。"
+    ],
+    "translationNote": "『家に向かって歩き始めた』は began walking toward home でも直訳できるが、自然英語では started walking home が滑らか。",
+    "readingPoint": "地下鉄の共在から日常の帰路へ戻る。物語は大きく解決せず、歩行という普通の動作に収束する。",
+    "keywords": ["home", "walking", "return"]
+  }
+]
