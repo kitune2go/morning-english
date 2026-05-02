@@ -1,0 +1,251 @@
+[
+  {
+    "id": "CV-S051",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 51,
+    "sentence": 51,
+    "title": "それだけのこと",
+    "jp": "それだけのことだった。",
+    "translationLiteral": "It was only that.",
+    "translationNatural": "That was all it was.",
+    "chunks": [
+      { "en": "That was", "ja": "それは〜だった" },
+      { "en": "all it was", "ja": "それだけのこと" }
+    ],
+    "grammar": [
+      "That was... は直前までの出来事を受けるSVC構造。",
+      "all it was は『それ以上ではない』という限定表現。",
+      "短文により、出来事の小ささと重さが同時に出ている。"
+    ],
+    "translationNote": "only that より That was all it was の方が、出来事を静かに閉じる英語として自然。",
+    "readingPoint": "共有された時間は劇的ではない。しかし、その小ささ自体が作品の価値を支えている。",
+    "keywords": ["only", "small event", "meaning"]
+  },
+  {
+    "id": "CV-S052",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 52,
+    "sentence": 52,
+    "title": "今夜の私を救う",
+    "jp": "それだけのことが、たぶん、今夜の私を救っていた。",
+    "translationLiteral": "That alone was probably saving me tonight.",
+    "translationNatural": "And perhaps that alone was what saved me tonight.",
+    "chunks": [
+      { "en": "And perhaps", "ja": "そしてたぶん" },
+      { "en": "that alone", "ja": "それだけが" },
+      { "en": "was what saved me", "ja": "私を救ったものだった" },
+      { "en": "tonight", "ja": "今夜" }
+    ],
+    "grammar": [
+      "perhaps は推量を表す副詞。",
+      "that alone は『それだけ』を強調する名詞句。",
+      "what saved me は名詞節。",
+      "tonight は時間を表す副詞。"
+    ],
+    "translationNote": "was saving me も可能だが、what saved me とすると救いの対象が名詞節として明確になる。",
+    "readingPoint": "記録されない小さな共在が、疲弊した主体を支える出来事として意味づけられる。",
+    "keywords": ["saved", "tonight", "quiet salvation"]
+  },
+  {
+    "id": "CV-S053",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 53,
+    "sentence": 53,
+    "title": "いいねを押す相手はいない",
+    "jp": "「いいね」を押す相手はいない。",
+    "translationLiteral": "There is no one to press Like.",
+    "translationNatural": "There was no one there to press Like.",
+    "chunks": [
+      { "en": "There was no one", "ja": "誰もいなかった" },
+      { "en": "there", "ja": "そこには" },
+      { "en": "to press Like", "ja": "いいねを押すための" }
+    ],
+    "grammar": [
+      "There was no one は存在の否定。",
+      "to press Like は不定詞で役割・可能性を表す。",
+      "Like はSNS上の機能名として大文字で処理している。"
+    ],
+    "translationNote": "『いいね』はSNS機能として Like と訳すのが自然。",
+    "readingPoint": "ここから出来事が情報空間に回収されないことが明確化される。",
+    "keywords": ["Like", "SNS", "absence"]
+  },
+  {
+    "id": "CV-S054",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 54,
+    "sentence": 54,
+    "title": "通知もボタンもない",
+    "jp": "ハッシュタグも、課金ボタンも、フォロー通知もない。",
+    "translationLiteral": "There are no hashtags, no payment buttons, and no follow notifications.",
+    "translationNatural": "No hashtags, no payment buttons, no follow notifications.",
+    "chunks": [
+      { "en": "No hashtags", "ja": "ハッシュタグもない" },
+      { "en": "no payment buttons", "ja": "課金ボタンもない" },
+      { "en": "no follow notifications", "ja": "フォロー通知もない" }
+    ],
+    "grammar": [
+      "No A, no B, no C は欠如の列挙。",
+      "名詞句だけで並べることで、情報空間の機能が不在であることを強調している。",
+      "payment buttons は課金導線の訳語として機能する。"
+    ],
+    "translationNote": "文にせず No... の反復で訳すと、原文の列挙リズムが保てる。",
+    "readingPoint": "出来事がSNS的な反応・収益化・関係管理の回路から外れていることを示す。",
+    "keywords": ["hashtag", "payment", "notification"]
+  },
+  {
+    "id": "CV-S055",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 55,
+    "sentence": 55,
+    "title": "誰も撮っていない",
+    "jp": "誰も私たちを撮っていない。",
+    "translationLiteral": "No one is filming us.",
+    "translationNatural": "No one was filming us.",
+    "chunks": [
+      { "en": "No one", "ja": "誰も" },
+      { "en": "was filming", "ja": "撮っていなかった" },
+      { "en": "us", "ja": "私たちを" }
+    ],
+    "grammar": [
+      "No one は否定を含む主語。",
+      "was filming は過去進行形。",
+      "us は主人公と男をまとめて受ける目的語。"
+    ],
+    "translationNote": "『撮っていない』は taking a picture よりも、記録化の文脈では filming が自然。",
+    "readingPoint": "視覚的記録の不在により、出来事は外部評価に回収されないまま残る。",
+    "keywords": ["filming", "record", "unseen"]
+  },
+  {
+    "id": "CV-S056",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 56,
+    "sentence": 56,
+    "title": "タイムラインに流れない",
+    "jp": "誰のタイムラインにも、これは流れない。",
+    "translationLiteral": "This will not flow on anyone's timeline.",
+    "translationNatural": "This would not appear on anyone's timeline.",
+    "chunks": [
+      { "en": "This would not appear", "ja": "これは現れないだろう" },
+      { "en": "on anyone's timeline", "ja": "誰のタイムラインにも" }
+    ],
+    "grammar": [
+      "would not appear は仮定的な否定の予測。",
+      "anyone's timeline は不特定の誰かのタイムライン。",
+      "appear on は媒体上に表示されることを表す。"
+    ],
+    "translationNote": "『流れない』は英語では flow より appear on a timeline が自然。",
+    "readingPoint": "出来事は情報流通の単位にならない。だからこそ、それは別種の実在性を持つ。",
+    "keywords": ["timeline", "appear", "unposted"]
+  },
+  {
+    "id": "CV-S057",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 57,
+    "sentence": 57,
+    "title": "アルゴリズムの視野の外",
+    "jp": "アルゴリズムの視野の外で、私たちはただ、同じ車両に乗り合わせている。",
+    "translationLiteral": "Outside the field of vision of the algorithm, we are simply riding together in the same train car.",
+    "translationNatural": "Outside the algorithm's field of vision, we were simply sharing the same train car.",
+    "chunks": [
+      { "en": "Outside the algorithm's field of vision", "ja": "アルゴリズムの視野の外で" },
+      { "en": "we were simply sharing", "ja": "私たちはただ共有していた" },
+      { "en": "the same train car", "ja": "同じ車両を" }
+    ],
+    "grammar": [
+      "Outside は範囲外を表す前置詞。",
+      "algorithm's field of vision は所有格を使った抽象表現。",
+      "were sharing は過去進行形。",
+      "simply は余計な意味づけを削ぎ落とす副詞。"
+    ],
+    "translationNote": "『乗り合わせている』は riding together でもよいが、共在を強調するため sharing the same train car とした。",
+    "readingPoint": "本作の批評性が明確になる。可視化・推薦・記録の外側で、ただ同じ場を共有する価値が描かれる。",
+    "keywords": ["algorithm", "visibility", "sharing"]
+  },
+  {
+    "id": "CV-S058",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 58,
+    "sentence": 58,
+    "title": "記録されない",
+    "jp": "これは記録されない。",
+    "translationLiteral": "This will not be recorded.",
+    "translationNatural": "This would not be recorded.",
+    "chunks": [
+      { "en": "This", "ja": "これは" },
+      { "en": "would not be recorded", "ja": "記録されないだろう" }
+    ],
+    "grammar": [
+      "would not be recorded は受動態の否定。",
+      "This は直前の出来事全体を受ける。",
+      "recorded は外部媒体への保存を示す。"
+    ],
+    "translationNote": "will not be recorded より would not be recorded の方が、語り手の内省的な推量に合う。",
+    "readingPoint": "記録されないことは欠落ではなく、作品内では価値の条件として扱われる。",
+    "keywords": ["record", "unrecorded", "event"]
+  },
+  {
+    "id": "CV-S059",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 59,
+    "sentence": 59,
+    "title": "再生されない",
+    "jp": "再生もされない。",
+    "translationLiteral": "It will not be replayed either.",
+    "translationNatural": "Nor would it be replayed.",
+    "chunks": [
+      { "en": "Nor would it", "ja": "それは〜でもないだろう" },
+      { "en": "be replayed", "ja": "再生される" }
+    ],
+    "grammar": [
+      "Nor would it... は前文の否定を受ける倒置表現。",
+      "be replayed は受動態。",
+      "recorded / replayed の対で、保存と再消費の不在を示す。"
+    ],
+    "translationNote": "It would not be replayed either でもよいが、Nor would it be replayed の方が文体的に引き締まる。",
+    "readingPoint": "出来事は再生可能なコンテンツにならない。一回性のまま消えていく。",
+    "keywords": ["replay", "unrepeatable", "event"]
+  },
+  {
+    "id": "CV-S060",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 60,
+    "sentence": 60,
+    "title": "明日には忘れている",
+    "jp": "明日には、たぶん私も忘れている。",
+    "translationLiteral": "By tomorrow, perhaps I too will have forgotten it.",
+    "translationNatural": "By tomorrow, I might have forgotten it too.",
+    "chunks": [
+      { "en": "By tomorrow", "ja": "明日には" },
+      { "en": "I might have forgotten", "ja": "私は忘れているかもしれない" },
+      { "en": "it too", "ja": "それも" }
+    ],
+    "grammar": [
+      "By tomorrow は未来時点の期限を表す。",
+      "might have forgotten は未来時点で完了している可能性を表す。",
+      "it は出来事全体を受ける。"
+    ],
+    "translationNote": "will have forgotten より might have forgotten の方が、たぶんという不確かさに合う。",
+    "readingPoint": "忘却される可能性があるにもかかわらず、出来事の意味は否定されない。ここが記録中心主義への反論になっている。",
+    "keywords": ["tomorrow", "forget", "memory"]
+  }
+]
