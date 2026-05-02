@@ -1,0 +1,267 @@
+[
+  {
+    "id": "CV-S001",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "終電の二本前",
+    "jp": "終電の二本前の電車に、私はいつも乗っている。",
+    "translationLiteral": "I always ride the train two before the last train.",
+    "translationNatural": "I usually take the train that comes two trains before the last.",
+    "chunks": [
+      { "en": "I usually take", "ja": "私はたいてい乗る" },
+      { "en": "the train", "ja": "その電車に" },
+      { "en": "that comes", "ja": "やって来る" },
+      { "en": "two trains before", "ja": "二本前に" },
+      { "en": "the last", "ja": "終電の" }
+    ],
+    "grammar": [
+      "I usually take はSVO構造。",
+      "usually は頻度を表す副詞。",
+      "that comes two trains before the last はthe trainを修飾する関係詞節。"
+    ],
+    "translationNote": "『終電の二本前』は英語では説明的に that comes two trains before the last とするのが自然。",
+    "readingPoint": "終電ではなく二本前という位置が、疲労しながらも生活を崩しきらない人物のリズムを示す。",
+    "keywords": ["train", "routine", "last train"]
+  },
+  {
+    "id": "CV-S002",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "混雑が引く時間",
+    "jp": "混雑が引いて、車両が半分くらい空になる時間。",
+    "translationLiteral": "The time when the crowd has gone down and the train car becomes about half empty.",
+    "translationNatural": "It is the time when the crowds have thinned out and the car is about half empty.",
+    "chunks": [
+      { "en": "It is the time", "ja": "それは時間である" },
+      { "en": "when the crowds have thinned out", "ja": "混雑が引いたときの" },
+      { "en": "and the car", "ja": "そして車両が" },
+      { "en": "is about half empty", "ja": "半分くらい空いている" }
+    ],
+    "grammar": [
+      "It is the time when... は時を説明する構文。",
+      "have thinned out は現在完了で、混雑が引いた結果の状態を表す。",
+      "about half empty は程度を表す表現。"
+    ],
+    "translationNote": "日本語は名詞句で止まっているが、英語では It is... と文に補うと読みやすい。",
+    "readingPoint": "混雑の後の空白が、作品全体の静けさの舞台を作る。",
+    "keywords": ["crowd", "empty", "time"]
+  },
+  {
+    "id": "CV-S003",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "ドア際の手すり",
+    "jp": "ドア際の手すりにもたれかかれば、誰の肩もぶつかってこない。",
+    "translationLiteral": "If I lean against the handrail by the door, no one's shoulder bumps into me.",
+    "translationNatural": "If I lean against the handrail by the door, no one's shoulder brushes against me.",
+    "chunks": [
+      { "en": "If I lean against", "ja": "もし私がもたれかかれば" },
+      { "en": "the handrail", "ja": "手すりに" },
+      { "en": "by the door", "ja": "ドア際の" },
+      { "en": "no one's shoulder", "ja": "誰の肩も" },
+      { "en": "brushes against me", "ja": "私にぶつかってこない" }
+    ],
+    "grammar": [
+      "If は条件を導く接続詞。",
+      "lean against は『〜にもたれる』。",
+      "no one's shoulder は否定を含む主語。",
+      "brush against は軽く接触するニュアンス。"
+    ],
+    "translationNote": "『ぶつかる』を bump ではなく brush against にすると、混雑時の肩の接触が自然に出る。",
+    "readingPoint": "身体の接触を避ける位置取りが、疲労と自己防衛を示している。",
+    "keywords": ["handrail", "door", "distance"]
+  },
+  {
+    "id": "CV-S004",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "座ると眠る",
+    "jp": "座席に座らないのは、座ると眠ってしまうからだ。",
+    "translationLiteral": "The reason I do not sit in a seat is that if I sit, I fall asleep.",
+    "translationNatural": "I avoid sitting down because I know I will fall asleep if I do.",
+    "chunks": [
+      { "en": "I avoid sitting down", "ja": "私は座ることを避ける" },
+      { "en": "because I know", "ja": "なぜなら分かっているから" },
+      { "en": "I will fall asleep", "ja": "眠ってしまうと" },
+      { "en": "if I do", "ja": "もしそうしたら" }
+    ],
+    "grammar": [
+      "avoid + 動名詞で『〜することを避ける』。",
+      "because は理由を表す接続詞。",
+      "if I do のdoはsit downを受ける代動詞。"
+    ],
+    "translationNote": "日本語の説明文を、英語では I avoid... because... と行動主体から組み直している。",
+    "readingPoint": "座らないという行動から、疲労と過去の失敗が間接的に示される。",
+    "keywords": ["avoid", "sleep", "fatigue"]
+  },
+  {
+    "id": "CV-S005",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 5,
+    "sentence": 5,
+    "title": "乗り過ごした記憶",
+    "jp": "乗り過ごしたことが、これまで何度かある。",
+    "translationLiteral": "There have been several times so far when I rode past my stop.",
+    "translationNatural": "I have missed my stop several times before.",
+    "chunks": [
+      { "en": "I have missed", "ja": "私は逃したことがある" },
+      { "en": "my stop", "ja": "自分の降りる駅を" },
+      { "en": "several times", "ja": "何度か" },
+      { "en": "before", "ja": "これまでに" }
+    ],
+    "grammar": [
+      "have missed は現在完了で経験を表す。",
+      "miss one's stop は『降りる駅を逃す』。",
+      "several times before は過去の反復経験。"
+    ],
+    "translationNote": "『乗り過ごす』は英語では miss my stop が自然。",
+    "readingPoint": "現在の行動が過去の経験によって形成されていることが分かる。",
+    "keywords": ["miss", "stop", "experience"]
+  },
+  {
+    "id": "CV-S006",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 6,
+    "sentence": 6,
+    "title": "冷たい蛍光灯",
+    "jp": "蛍光灯が冷たく、座席のプラスチックに白く反射している。",
+    "translationLiteral": "The fluorescent lights are cold and reflect white on the plastic seats.",
+    "translationNatural": "The fluorescent lights feel cold, reflecting white against the plastic seats.",
+    "chunks": [
+      { "en": "The fluorescent lights", "ja": "蛍光灯が" },
+      { "en": "feel cold", "ja": "冷たく感じられる" },
+      { "en": "reflecting white", "ja": "白く反射しながら" },
+      { "en": "against the plastic seats", "ja": "プラスチックの座席に" }
+    ],
+    "grammar": [
+      "feel + 形容詞で感覚を表す。",
+      "reflecting は分詞構文。",
+      "against は反射面を示す前置詞。"
+    ],
+    "translationNote": "蛍光灯そのものが冷たいのではなく、感覚として feel cold と訳す。",
+    "readingPoint": "視覚描写を通じて、車内の無機質さと心理的な冷たさが表れる。",
+    "keywords": ["fluorescent", "cold", "reflection"]
+  },
+  {
+    "id": "CV-S007",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 7,
+    "sentence": 7,
+    "title": "窓の外は黒い",
+    "jp": "窓の外は黒い。",
+    "translationLiteral": "Outside the window is black.",
+    "translationNatural": "Outside the window, everything is black.",
+    "chunks": [
+      { "en": "Outside the window", "ja": "窓の外は" },
+      { "en": "everything is black", "ja": "すべてが黒い" }
+    ],
+    "grammar": [
+      "Outside the window は場所を示す前置詞句。",
+      "everything is black はSVC構造。"
+    ],
+    "translationNote": "日本語の『黒い』だけでは英語で主語が不足するため everything を補う。",
+    "readingPoint": "視界の欠如が、深夜の地下鉄の閉じた感覚を強める。",
+    "keywords": ["window", "black", "night"]
+  },
+  {
+    "id": "CV-S008",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 8,
+    "sentence": 8,
+    "title": "地上に出ても",
+    "jp": "地下を走っているからというより、地上に出てもこの時間はもう何も見えないからだ。",
+    "translationLiteral": "It is not so much because we are running underground as because even if we come above ground, at this hour nothing can be seen anymore.",
+    "translationNatural": "It is less because we are underground than because, even above ground, there is nothing to see at this hour.",
+    "chunks": [
+      { "en": "It is less because", "ja": "それは〜だからというより" },
+      { "en": "we are underground", "ja": "私たちが地下にいるから" },
+      { "en": "than because", "ja": "むしろ〜だから" },
+      { "en": "even above ground", "ja": "地上に出ても" },
+      { "en": "there is nothing to see", "ja": "見るものが何もない" },
+      { "en": "at this hour", "ja": "この時間には" }
+    ],
+    "grammar": [
+      "less because A than because B は『AというよりBだから』。",
+      "even above ground は譲歩的な副詞句。",
+      "there is nothing to see は存在構文＋不定詞。",
+      "at this hour は時刻・時間帯を表す。"
+    ],
+    "translationNote": "『というより』のニュアンスは less A than B で処理している。",
+    "readingPoint": "暗さは地下という物理条件だけでなく、時間帯そのものに由来している。",
+    "keywords": ["underground", "above ground", "darkness"]
+  },
+  {
+    "id": "CV-S009",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 9,
+    "sentence": 9,
+    "title": "自動販売機の光",
+    "jp": "途中のいくつかの駅で、ホームの自動販売機だけが煌々と光っているのが、流れていく。",
+    "translationLiteral": "At several stations along the way, only the vending machines on the platforms are brightly shining as they flow past.",
+    "translationNatural": "At a few stations along the way, only the vending machines on the platforms pass by, glowing brightly.",
+    "chunks": [
+      { "en": "At a few stations", "ja": "いくつかの駅で" },
+      { "en": "along the way", "ja": "途中の" },
+      { "en": "only the vending machines", "ja": "自動販売機だけが" },
+      { "en": "on the platforms", "ja": "ホームの" },
+      { "en": "pass by", "ja": "流れていく" },
+      { "en": "glowing brightly", "ja": "煌々と光りながら" }
+    ],
+    "grammar": [
+      "At a few stations は場所を表す前置詞句。",
+      "only は限定を表す副詞。",
+      "pass by は視界を通過する表現。",
+      "glowing brightly は分詞句で状態を補足する。"
+    ],
+    "translationNote": "日本語の『流れていく』は風景が通過する感覚なので pass by と訳す。",
+    "readingPoint": "無人の駅で自販機だけが光る描写が、都市の自動化された孤独を表す。",
+    "keywords": ["vending machine", "platform", "glow"]
+  },
+  {
+    "id": "CV-S010",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 10,
+    "sentence": 10,
+    "title": "保温ボトル",
+    "jp": "私は鞄から保温ボトルを取り出した。",
+    "translationLiteral": "I took a heat-retaining bottle out of my bag.",
+    "translationNatural": "I took a thermos out of my bag.",
+    "chunks": [
+      { "en": "I took", "ja": "私は取り出した" },
+      { "en": "a thermos", "ja": "保温ボトルを" },
+      { "en": "out of my bag", "ja": "鞄から" }
+    ],
+    "grammar": [
+      "I took a thermos はSVO構造。",
+      "take A out of B は『BからAを取り出す』。",
+      "thermos は保温ボトルを表す自然な語。"
+    ],
+    "translationNote": "『保温ボトル』は説明的に heat-retaining bottle とも言えるが、自然英語では thermos が簡潔。",
+    "readingPoint": "個人的な持ち物が登場し、車内の無機的な描写から身体感覚へ移る。",
+    "keywords": ["thermos", "bag", "coffee"]
+  }
+]
