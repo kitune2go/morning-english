@@ -1,0 +1,149 @@
+[
+  {
+    "_no": 13,
+    "_generatedAt": "2026-05-02T00:00:00+09:00",
+    "sentence": "I explain ideas that seemed unclear at first, which helps me remember them more deeply than before.",
+    "phonetic": "アイ イクスプレイン アイディアズ ザット シームド アンクリア アット ファースト, ウィッチ ヘルプス ミー リメンバー ゼム モア ディープリー ザン ビフォー",
+    "japaneseTranslation": "私は最初は不明確に見えたアイデアを説明し、それによって以前よりも深く覚えられる。",
+    "theme": "説明",
+    "coreVerb": "explain",
+    "generateLayer": {
+      "core": "I explain ideas.",
+      "step1": "I explain ideas that seemed unclear.",
+      "step2": "I explain ideas that seemed unclear at first.",
+      "step3": "I explain ideas that seemed unclear at first, which helps me remember them more deeply than before."
+    },
+    "explainLayer": {
+      "chunks": [
+        { "en": "I explain ideas", "ja": "私はアイデアを説明する" },
+        { "en": "that seemed unclear", "ja": "不明確に見えた" },
+        { "en": "at first", "ja": "最初は" },
+        { "en": "which helps me remember", "ja": "それが私が覚える助けになる" },
+        { "en": "them", "ja": "それらを" },
+        { "en": "more deeply than before", "ja": "以前より深く" }
+      ],
+      "grammar": [
+        "I explain ideas はSVO構造。",
+        "that seemed unclear はideasを修飾する関係詞節。",
+        "seemed unclear はseem + 形容詞。",
+        "at first は認識の初期状態を表す副詞句。",
+        "which helps は前文全体の結果を受ける。",
+        "remember them は代名詞themでideasを受ける。",
+        "more deeply than before は副詞の比較表現。"
+      ]
+    },
+    "expandLayer": {
+      "variants": [
+        "Explaining unclear ideas helps me remember them better.",
+        "When I explain an idea, I understand it more deeply.",
+        "Ideas become clearer when I put them into words."
+      ],
+      "dialogue": "It was unclear at first, but explaining it makes it stay in my mind."
+    },
+    "scores": {
+      "naturalness": 5,
+      "clarity": 5,
+      "emotionalDepth": 3,
+      "structuralControl": 5,
+      "flexibility": 5
+    }
+  },
+  {
+    "_no": 14,
+    "_generatedAt": "2026-05-02T00:00:00+09:00",
+    "sentence": "I notice mistakes that appear in my writing, which helps me correct sentences more carefully than before.",
+    "phonetic": "アイ ノーティス ミステイクス ザット アピア イン マイ ライティング, ウィッチ ヘルプス ミー コレクト センテンシズ モア ケアフリー ザン ビフォー",
+    "japaneseTranslation": "私は自分の文章に現れる間違いに気づき、それによって以前よりも注意深く文を修正できる。",
+    "theme": "修正",
+    "coreVerb": "notice",
+    "generateLayer": {
+      "core": "I notice mistakes.",
+      "step1": "I notice mistakes in my writing.",
+      "step2": "I notice mistakes that appear in my writing.",
+      "step3": "I notice mistakes that appear in my writing, which helps me correct sentences more carefully than before."
+    },
+    "explainLayer": {
+      "chunks": [
+        { "en": "I notice mistakes", "ja": "私は間違いに気づく" },
+        { "en": "that appear", "ja": "現れる" },
+        { "en": "in my writing", "ja": "自分の文章の中に" },
+        { "en": "which helps me correct", "ja": "それが私の修正を助ける" },
+        { "en": "sentences", "ja": "文を" },
+        { "en": "more carefully than before", "ja": "以前より注意深く" }
+      ],
+      "grammar": [
+        "I notice mistakes はSVO構造。",
+        "that appear in my writing はmistakesを修飾する関係詞節。",
+        "appear は自動詞で『現れる』を表す。",
+        "in my writing は場所・範囲を表す前置詞句。",
+        "which helps me correct は前文全体の結果を示す。",
+        "help + 人 + 動詞の原形 の構文。",
+        "more carefully than before は副詞の比較表現。"
+      ]
+    },
+    "expandLayer": {
+      "variants": [
+        "Noticing mistakes helps me correct my writing carefully.",
+        "I improve my sentences by noticing small mistakes.",
+        "My writing gets better when I correct mistakes with care."
+      ],
+      "dialogue": "I found the mistake. Now I can make the sentence cleaner."
+    },
+    "scores": {
+      "naturalness": 5,
+      "clarity": 5,
+      "emotionalDepth": 3,
+      "structuralControl": 5,
+      "flexibility": 4
+    }
+  },
+  {
+    "_no": 15,
+    "_generatedAt": "2026-05-02T00:00:00+09:00",
+    "sentence": "I record phrases that I want to use later, which makes daily practice more useful than before.",
+    "phonetic": "アイ レコード フレイジズ ザット アイ ウォント トゥ ユーズ レイター, ウィッチ メイクス デイリー プラクティス モア ユースフル ザン ビフォー",
+    "japaneseTranslation": "私は後で使いたいフレーズを記録し、それによって日々の練習が以前よりも役に立つものになる。",
+    "theme": "記録",
+    "coreVerb": "record",
+    "generateLayer": {
+      "core": "I record phrases.",
+      "step1": "I record phrases that I want.",
+      "step2": "I record phrases that I want to use later.",
+      "step3": "I record phrases that I want to use later, which makes daily practice more useful than before."
+    },
+    "explainLayer": {
+      "chunks": [
+        { "en": "I record phrases", "ja": "私はフレーズを記録する" },
+        { "en": "that I want to use", "ja": "私が使いたい" },
+        { "en": "later", "ja": "後で" },
+        { "en": "which makes", "ja": "それが〜にする" },
+        { "en": "daily practice", "ja": "日々の練習を" },
+        { "en": "more useful than before", "ja": "以前より役に立つものに" }
+      ],
+      "grammar": [
+        "I record phrases はSVO構造。",
+        "that I want to use later はphrasesを修飾する関係詞節。",
+        "want to use はwant + to不定詞。",
+        "later は時を表す副詞。",
+        "which makes は前文全体の結果を表す。",
+        "make + O + C の構文。",
+        "more useful than before は形容詞の比較表現。"
+      ]
+    },
+    "expandLayer": {
+      "variants": [
+        "I save useful phrases so I can use them later.",
+        "Recording phrases makes my practice more practical.",
+        "Daily practice becomes more useful when I collect phrases I want to use."
+      ],
+      "dialogue": "I'll save this phrase. I might need it later."
+    },
+    "scores": {
+      "naturalness": 5,
+      "clarity": 5,
+      "emotionalDepth": 3,
+      "structuralControl": 5,
+      "flexibility": 4
+    }
+  }
+]
