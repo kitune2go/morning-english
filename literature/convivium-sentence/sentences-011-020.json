@@ -1,0 +1,273 @@
+[
+  {
+    "id": "CV-S011",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 11,
+    "sentence": 11,
+    "title": "コンビニのドリップコーヒー",
+    "jp": "コンビニのドリップコーヒーを移してきたものだ。",
+    "translationLiteral": "It was something into which I had transferred convenience-store drip coffee.",
+    "translationNatural": "I had poured convenience-store drip coffee into it before leaving.",
+    "chunks": [
+      { "en": "I had poured", "ja": "私は注いでおいた" },
+      { "en": "convenience-store drip coffee", "ja": "コンビニのドリップコーヒーを" },
+      { "en": "into it", "ja": "それの中に" },
+      { "en": "before leaving", "ja": "出る前に" }
+    ],
+    "grammar": [
+      "had poured は過去完了で、現在の場面より前の行為を示す。",
+      "pour A into B は『AをBに注ぐ』。",
+      "convenience-store drip coffee は名詞が連続してcoffeeを修飾している。",
+      "before leaving はbefore + 動名詞の省略的表現。"
+    ],
+    "translationNote": "日本語の『移してきた』は、英語では poured into it before leaving と行為と時点を補うと自然。",
+    "readingPoint": "コンビニのコーヒーという日常的な具体物が、深夜の車内に生活の質感を持ち込んでいる。",
+    "keywords": ["coffee", "thermos", "convenience store"]
+  },
+  {
+    "id": "CV-S012",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 12,
+    "sentence": 12,
+    "title": "焦げた草のような匂い",
+    "jp": "蓋を開けると、湯気と一緒に、すこし焦げた草のような匂いが立ちのぼる。",
+    "translationLiteral": "When I open the lid, a smell like slightly burned grass rises together with the steam.",
+    "translationNatural": "When I opened the lid, a faint smell like scorched grass rose with the steam.",
+    "chunks": [
+      { "en": "When I opened the lid", "ja": "蓋を開けると" },
+      { "en": "a faint smell", "ja": "かすかな匂いが" },
+      { "en": "like scorched grass", "ja": "焦げた草のような" },
+      { "en": "rose", "ja": "立ちのぼった" },
+      { "en": "with the steam", "ja": "湯気とともに" }
+    ],
+    "grammar": [
+      "When は時間を導く接続詞。",
+      "a faint smell は『かすかな匂い』という名詞句。",
+      "like scorched grass は比喩を表す前置詞句。",
+      "rose with the steam は同時に立ちのぼる動きを表す。"
+    ],
+    "translationNote": "『すこし焦げた草』は slightly burned grass でもよいが、文学的には scorched grass が締まる。",
+    "readingPoint": "香りの描写が、味覚ではなく労働者的な嗅覚や素材感を呼び出している。",
+    "keywords": ["steam", "smell", "scorched grass"]
+  },
+  {
+    "id": "CV-S013",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 13,
+    "sentence": 13,
+    "title": "香りでわかる",
+    "jp": "豆が古いのか、機械の温度がずれているのか。",
+    "translationLiteral": "Whether the beans are old, or whether the machine's temperature is off.",
+    "translationNatural": "Maybe the beans were old, or maybe the machine temperature was off.",
+    "chunks": [
+      { "en": "Maybe the beans", "ja": "もしかすると豆が" },
+      { "en": "were old", "ja": "古かったのかもしれない" },
+      { "en": "or maybe", "ja": "あるいは" },
+      { "en": "the machine temperature", "ja": "機械の温度が" },
+      { "en": "was off", "ja": "ずれていたのかもしれない" }
+    ],
+    "grammar": [
+      "Maybe は推量を表す副詞。",
+      "or maybe は別の可能性を提示する。",
+      "temperature was off は『温度が適正から外れている』という表現。",
+      "日本語の断片文を英語では推量文として補っている。"
+    ],
+    "translationNote": "『ずれている』は wrong よりも off が自然。設定値や感覚から外れているニュアンスが出る。",
+    "readingPoint": "細かな差異への感覚が、主人公の職人的な観察癖を示している。",
+    "keywords": ["beans", "temperature", "off"]
+  },
+  {
+    "id": "CV-S014",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 14,
+    "sentence": 14,
+    "title": "仕事柄の嗅覚",
+    "jp": "香りでわかる。",
+    "translationLiteral": "I can tell by the smell.",
+    "translationNatural": "I can tell from the smell.",
+    "chunks": [
+      { "en": "I can tell", "ja": "私は分かる" },
+      { "en": "from the smell", "ja": "匂いから" }
+    ],
+    "grammar": [
+      "can tell は『判断できる・分かる』。",
+      "from the smell は判断の根拠を表す前置詞句。",
+      "短文にすることで、確信と経験値が強調されている。"
+    ],
+    "translationNote": "by the smell も可能だが、from the smell は『匂いを手がかりに』という読解感が出る。",
+    "readingPoint": "匂いが単なる感覚ではなく、経験に基づく判断材料になっている。",
+    "keywords": ["smell", "judgment", "experience"]
+  },
+  {
+    "id": "CV-S015",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 15,
+    "sentence": 15,
+    "title": "わずかな差を嗅ぎ分ける",
+    "jp": "仕事柄、わずかな差を嗅ぎ分ける癖がついている。",
+    "translationLiteral": "Because of my work, I have developed a habit of sniffing out slight differences.",
+    "translationNatural": "Because of my work, I have developed a habit of detecting the smallest differences by smell.",
+    "chunks": [
+      { "en": "Because of my work", "ja": "仕事柄" },
+      { "en": "I have developed", "ja": "私は身につけている" },
+      { "en": "a habit", "ja": "癖を" },
+      { "en": "of detecting", "ja": "見分けるという" },
+      { "en": "the smallest differences", "ja": "ごく小さな差を" },
+      { "en": "by smell", "ja": "匂いによって" }
+    ],
+    "grammar": [
+      "Because of は理由を表す前置詞句。",
+      "have developed は現在完了で、過去から現在までに形成された習慣を示す。",
+      "a habit of -ing は『〜する癖』。",
+      "by smell は手段を表す。"
+    ],
+    "translationNote": "『嗅ぎ分ける』は sniff out も可能だが、ここでは自然な説明として detecting by smell を採用。",
+    "readingPoint": "身体化された職業的感覚が、車内での観察や男の手への反応につながっていく。",
+    "keywords": ["habit", "detect", "work"]
+  },
+  {
+    "id": "CV-S016",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 16,
+    "sentence": 16,
+    "title": "向かいの男",
+    "jp": "向かいの席に、一人の男が座っていた。",
+    "translationLiteral": "In the seat across from me, one man was sitting.",
+    "translationNatural": "A man was sitting in the seat across from me.",
+    "chunks": [
+      { "en": "A man", "ja": "一人の男が" },
+      { "en": "was sitting", "ja": "座っていた" },
+      { "en": "in the seat", "ja": "席に" },
+      { "en": "across from me", "ja": "私の向かいの" }
+    ],
+    "grammar": [
+      "A man was sitting は過去進行形。",
+      "in the seat は場所を示す前置詞句。",
+      "across from me は『私の向かいに』。",
+      "日本語の場所起点を、英語では主語起点に組み替えている。"
+    ],
+    "translationNote": "直訳では場所から始まるが、自然英語では A man を主語にする方が滑らか。",
+    "readingPoint": "ここで他者が導入され、車内の孤独な描写が共在の描写へ変わり始める。",
+    "keywords": ["man", "seat", "across"]
+  },
+  {
+    "id": "CV-S017",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 17,
+    "sentence": 17,
+    "title": "年齢の推量",
+    "jp": "四十代後半か、五十代に入ったあたりだろうか。",
+    "translationLiteral": "Was he in his late forties, or around the point of entering his fifties?",
+    "translationNatural": "He looked to be in his late forties, or perhaps just into his fifties.",
+    "chunks": [
+      { "en": "He looked to be", "ja": "彼は〜に見えた" },
+      { "en": "in his late forties", "ja": "四十代後半に" },
+      { "en": "or perhaps", "ja": "あるいはおそらく" },
+      { "en": "just into his fifties", "ja": "五十代に入ったばかりに" }
+    ],
+    "grammar": [
+      "look to be は外見からの推量を表す。",
+      "in his late forties は年齢帯の表現。",
+      "just into his fifties は五十代に入ったばかりのニュアンス。",
+      "perhaps は不確かさを示す。"
+    ],
+    "translationNote": "『だろうか』は疑問文にせず、He looked to be... perhaps... と観察の文にすると自然。",
+    "readingPoint": "年齢は断定されず、観察者の推量として提示される。距離感が保たれている。",
+    "keywords": ["age", "guess", "appearance"]
+  },
+  {
+    "id": "CV-S018",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 18,
+    "sentence": 18,
+    "title": "作業服とジャンパー",
+    "jp": "作業服の上に薄手のジャンパーを羽織っている。",
+    "translationLiteral": "He is wearing a light jacket over his work clothes.",
+    "translationNatural": "He wore a thin jacket over his work clothes.",
+    "chunks": [
+      { "en": "He wore", "ja": "彼は羽織っていた" },
+      { "en": "a thin jacket", "ja": "薄手のジャンパーを" },
+      { "en": "over his work clothes", "ja": "作業服の上に" }
+    ],
+    "grammar": [
+      "wore はwearの過去形。",
+      "a thin jacket は薄手の上着。",
+      "over his work clothes は重ね着の位置関係を表す。"
+    ],
+    "translationNote": "日本語の『ジャンパー』は英語では jumper ではなく jacket とするのが自然。",
+    "readingPoint": "服装によって、男の職業的背景が明示される。説明ではなく外見から情報が与えられている。",
+    "keywords": ["work clothes", "jacket", "labor"]
+  },
+  {
+    "id": "CV-S019",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 19,
+    "sentence": 19,
+    "title": "太い手の節",
+    "jp": "膝の上で両手を組んでいて、その手の節が太い。",
+    "translationLiteral": "He had both hands clasped on his knees, and the joints of those hands were thick.",
+    "translationNatural": "His hands were clasped on his knees, the joints thick and worn.",
+    "chunks": [
+      { "en": "His hands", "ja": "彼の両手は" },
+      { "en": "were clasped", "ja": "組まれていた" },
+      { "en": "on his knees", "ja": "膝の上で" },
+      { "en": "the joints", "ja": "その節は" },
+      { "en": "thick and worn", "ja": "太く、使い込まれていた" }
+    ],
+    "grammar": [
+      "were clasped は受動的な状態を表す。",
+      "on his knees は場所を表す前置詞句。",
+      "the joints thick and worn は独立的に状態を補足する描写。",
+      "worn は使い込まれた状態を示す形容詞。"
+    ],
+    "translationNote": "『手の節が太い』だけでなく、文脈上の労働の痕跡として worn を補うと文学的に自然。",
+    "readingPoint": "手の形状が、男の仕事や時間の蓄積を無言で示している。",
+    "keywords": ["hands", "joints", "worn"]
+  },
+  {
+    "id": "CV-S020",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 20,
+    "sentence": 20,
+    "title": "油の黒さ",
+    "jp": "爪のあいだに、何度洗っても落ちきらない油の黒さがある。",
+    "translationLiteral": "Between his nails, there is the blackness of oil that never fully comes off no matter how many times he washes.",
+    "translationNatural": "There was oil-darkness under his nails that never fully came off, no matter how many times he washed his hands.",
+    "chunks": [
+      { "en": "There was oil-darkness", "ja": "油の黒さがあった" },
+      { "en": "under his nails", "ja": "彼の爪の下に" },
+      { "en": "that never fully came off", "ja": "完全には落ちなかった" },
+      { "en": "no matter how many times", "ja": "何度であっても" },
+      { "en": "he washed his hands", "ja": "彼が手を洗っても" }
+    ],
+    "grammar": [
+      "There was は存在構文の過去形。",
+      "oil-darkness は文学的な複合名詞。",
+      "that never fully came off はoil-darknessを修飾する関係詞節。",
+      "no matter how many times は譲歩表現。"
+    ],
+    "translationNote": "oil-darkness は直訳的ではないが、『油の黒さ』の物質感を残すための文学的処理。",
+    "readingPoint": "油の黒さは労働が身体に残した痕跡であり、主人公が男に同種性を感じる入口になる。",
+    "keywords": ["oil", "nails", "labor"]
+  }
+]
