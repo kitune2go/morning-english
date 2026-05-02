@@ -1,0 +1,74 @@
+[
+  {
+    "id": "LC004",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 4,
+    "title": "焦げた草のような匂い",
+    "jp": "蓋を開けると、湯気と一緒に、すこし焦げた草のような匂いが立ちのぼる。",
+    "translationLiteral": "When I open the lid, a smell like slightly burned grass rises with the steam.",
+    "translationNatural": "When I open the lid, a faint smell like scorched grass rises with the steam.",
+    "chunks": [
+      { "en": "When I open the lid", "ja": "蓋を開けると" },
+      { "en": "a faint smell", "ja": "かすかな匂いが" },
+      { "en": "like scorched grass", "ja": "焦げた草のような" },
+      { "en": "rises", "ja": "立ちのぼる" },
+      { "en": "with the steam", "ja": "湯気とともに" }
+    ],
+    "grammar": [
+      "When は時間を導く接続詞。",
+      "a faint smell は『かすかな匂い』という名詞句。",
+      "like scorched grass は比喩を表す前置詞句。",
+      "rises with the steam は湯気と同時に立ちのぼる動きを表す。"
+    ],
+    "readingPoint": "コーヒーの香りを『焦げた草』と表現することで、単なる嗜好品ではなく、労働者的な嗅覚や素材感が立ち上がる。",
+    "keywords": ["coffee", "steam", "smell", "sensory detail"]
+  },
+  {
+    "id": "LC005",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 5,
+    "title": "油の黒さ",
+    "jp": "爪のあいだに、何度洗っても落ちきらない油の黒さがある。",
+    "translationLiteral": "There is a blackness of oil between his nails that does not fully come off no matter how many times he washes.",
+    "translationNatural": "There is oil-darkness under his nails that never fully comes off, no matter how many times he washes his hands.",
+    "chunks": [
+      { "en": "There is oil-darkness", "ja": "油の黒さがある" },
+      { "en": "under his nails", "ja": "彼の爪の下に" },
+      { "en": "that never fully comes off", "ja": "完全には落ちない" },
+      { "en": "no matter how many times", "ja": "何度であっても" },
+      { "en": "he washes his hands", "ja": "彼が手を洗っても" }
+    ],
+    "grammar": [
+      "There is は存在構文。",
+      "oil-darkness は文学的な複合名詞表現。",
+      "that never fully comes off はoil-darknessを修飾する関係詞節。",
+      "no matter how many times は譲歩表現。"
+    ],
+    "readingPoint": "手に残った油は、職業や生活の痕跡であり、語られない経歴を示す身体的な記号として機能している。",
+    "keywords": ["hands", "oil", "labor", "body"]
+  },
+  {
+    "id": "LC006",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 6,
+    "title": "視線のない通過",
+    "jp": "視線は合わなかった。けれど、合わないままで、何かが通過した、と思った。",
+    "translationLiteral": "Our eyes did not meet. Yet, without meeting, I thought something passed.",
+    "translationNatural": "Our eyes never met, and yet I felt something pass between us without a single glance.",
+    "chunks": [
+      { "en": "Our eyes never met", "ja": "私たちの目は合わなかった" },
+      { "en": "and yet", "ja": "それでも" },
+      { "en": "I felt something pass", "ja": "何かが通過したと感じた" },
+      { "en": "between us", "ja": "私たちの間を" },
+      { "en": "without a single glance", "ja": "一度の視線もなしに" }
+    ],
+    "grammar": [
+      "and yet は逆接を表す接続表現。",
+      "felt something pass はfeel + O + 原形動詞の構文。",
+      "between us は二者間の関係を表す。",
+      "without a single glance は欠如を強調する前置詞句。"
+    ],
+    "readingPoint": "この章が作品の核に近い。発話も視線もないが、同じ疲労や沈黙が共有されることで、非言語的な共在が成立している。",
+    "keywords": ["silence", "glance", "shared fatigue", "presence"]
+  }
+]
