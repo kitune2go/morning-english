@@ -1,0 +1,261 @@
+[
+  {
+    "id": "CV-S071",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 71,
+    "sentence": 71,
+    "title": "ペンチを置いて戻る",
+    "jp": "隣のラインの先輩が、何も言わず、私のところまで歩いてきて、私の機械を一目見て、ペンチを一本だけ私の作業台に置いて、また自分の持ち場に戻っていった。",
+    "translationLiteral": "A senior worker from the next line walked over to me without saying anything, looked once at my machine, placed a pair of pliers on my workbench, and returned to his own station.",
+    "translationNatural": "A senior worker from the next line walked over without saying anything, glanced at my machine, placed a pair of pliers on my workbench, and returned to his station.",
+    "chunks": [
+      { "en": "A senior worker from the next line", "ja": "隣のラインの先輩が" },
+      { "en": "walked over", "ja": "歩いてきた" },
+      { "en": "without saying anything", "ja": "何も言わずに" },
+      { "en": "glanced at my machine", "ja": "私の機械を一目見た" },
+      { "en": "placed a pair of pliers", "ja": "ペンチを一本置いた" },
+      { "en": "on my workbench", "ja": "私の作業台に" },
+      { "en": "and returned to his station", "ja": "そして自分の持ち場へ戻った" }
+    ],
+    "grammar": [
+      "A senior worker from the next line は詳しい主語を作る名詞句。",
+      "without saying anything は付帯状況を表す。",
+      "walked / glanced / placed / returned が連続動作として並列されている。",
+      "place A on B は『AをBに置く』という配置構文。"
+    ],
+    "translationNote": "『一目見て』は looked once でもよいが、glanced at の方が短い確認動作として自然。",
+    "readingPoint": "ここでは言葉ではなく、道具の配置によって支援が成立している。現場的な理解が、説明抜きで伝達される場面。",
+    "keywords": ["senior worker", "pliers", "workbench", "silent help"]
+  },
+  {
+    "id": "CV-S072",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 72,
+    "sentence": 72,
+    "title": "問題は片付いた",
+    "jp": "あのペンチで、その夜の問題は片付いた。",
+    "translationLiteral": "With those pliers, the problem of that night was settled.",
+    "translationNatural": "With those pliers, the problem that night was solved.",
+    "chunks": [
+      { "en": "With those pliers", "ja": "あのペンチで" },
+      { "en": "the problem", "ja": "問題は" },
+      { "en": "that night", "ja": "その夜の" },
+      { "en": "was solved", "ja": "解決した" }
+    ],
+    "grammar": [
+      "With those pliers は手段を表す前置詞句。",
+      "the problem that night はその夜に生じた問題を表す名詞句。",
+      "was solved は受動態。",
+      "those は記憶の中で特定された道具を指す。"
+    ],
+    "translationNote": "『片付いた』は was settled でもよいが、作業上の問題には was solved が自然。",
+    "readingPoint": "道具一つで問題が解決する。言葉ではなく適切な媒介物が意味を運んだことが示される。",
+    "keywords": ["pliers", "problem", "solved"]
+  },
+  {
+    "id": "CV-S073",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 73,
+    "sentence": 73,
+    "title": "先輩は何も言わない",
+    "jp": "先輩は何も言わなかった。",
+    "translationLiteral": "The senior worker did not say anything.",
+    "translationNatural": "He said nothing.",
+    "chunks": [
+      { "en": "He", "ja": "彼は" },
+      { "en": "said nothing", "ja": "何も言わなかった" }
+    ],
+    "grammar": [
+      "He said nothing はSVO構造。",
+      "nothing は否定を含む目的語。",
+      "短文にすることで沈黙の強さが出る。"
+    ],
+    "translationNote": "The senior worker did not say anything より He said nothing の方が簡潔で、沈黙が強く出る。",
+    "readingPoint": "支援は行われたが、説明も称賛もない。沈黙が関係の形式として機能している。",
+    "keywords": ["silence", "senior", "nothing"]
+  },
+  {
+    "id": "CV-S074",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 74,
+    "sentence": 74,
+    "title": "私も何も言わない",
+    "jp": "私も何も言わなかった。",
+    "translationLiteral": "I did not say anything either.",
+    "translationNatural": "I said nothing, either.",
+    "chunks": [
+      { "en": "I", "ja": "私も" },
+      { "en": "said nothing", "ja": "何も言わなかった" },
+      { "en": "either", "ja": "同じように" }
+    ],
+    "grammar": [
+      "I said nothing はSVO構造。",
+      "either は否定文で『〜もまた』を表す。",
+      "前文 He said nothing と対になる構造。"
+    ],
+    "translationNote": "私も、という相互性を either で処理している。",
+    "readingPoint": "助けた側だけでなく、助けられた側も沈黙を共有している。ここで無言の了解が成立する。",
+    "keywords": ["nothing", "either", "mutual silence"]
+  },
+  {
+    "id": "CV-S075",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 75,
+    "sentence": 75,
+    "title": "礼も説明も違う",
+    "jp": "礼を言うのも、説明するのも、たぶん違うことだった。",
+    "translationLiteral": "Saying thanks or explaining it was probably a different thing.",
+    "translationNatural": "Saying thank you or trying to explain it would probably have been the wrong thing to do.",
+    "chunks": [
+      { "en": "Saying thank you", "ja": "礼を言うことも" },
+      { "en": "or trying to explain it", "ja": "それを説明しようとすることも" },
+      { "en": "would probably have been", "ja": "たぶん〜だっただろう" },
+      { "en": "the wrong thing to do", "ja": "違うことだった" }
+    ],
+    "grammar": [
+      "Saying / trying は動名詞で主語を作っている。",
+      "would have been は仮定的な評価を表す。",
+      "the wrong thing to do は『すべきではないこと・違うこと』を表す。",
+      "or によって二つの行為が並列されている。"
+    ],
+    "translationNote": "『違うことだった』は different thing より the wrong thing to do の方が、場の倫理に合わない感覚を表せる。",
+    "readingPoint": "感謝や説明すら過剰になる関係がある。ここでは沈黙こそが適切な応答になっている。",
+    "keywords": ["thanks", "explain", "wrong thing"]
+  },
+  {
+    "id": "CV-S076",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 76,
+    "sentence": 76,
+    "title": "ペンチを介した何か",
+    "jp": "あの夜、私たちのあいだに通過したものは、ペンチを介したわずかな何かで、それ以上でも以下でもなかった。",
+    "translationLiteral": "That night, what passed between us was a small something through the pliers, nothing more and nothing less.",
+    "translationNatural": "That night, what passed between us was something small, carried through those pliers — nothing more, nothing less.",
+    "chunks": [
+      { "en": "That night", "ja": "あの夜" },
+      { "en": "what passed between us", "ja": "私たちのあいだに通過したものは" },
+      { "en": "was something small", "ja": "わずかな何かだった" },
+      { "en": "carried through those pliers", "ja": "あのペンチを介して運ばれた" },
+      { "en": "nothing more, nothing less", "ja": "それ以上でも以下でもない" }
+    ],
+    "grammar": [
+      "what passed between us は名詞節。",
+      "something small は不特定の小さな何かを表す。",
+      "carried through those pliers は過去分詞句でsomethingを補足する。",
+      "nothing more, nothing less は定型的な限定表現。"
+    ],
+    "translationNote": "『介した』は through で処理し、道具が媒介になったことを明示している。",
+    "readingPoint": "道具が単なる物ではなく、無言の理解を運ぶ媒介として機能している。現在の地下鉄での視線なき交感と対応する。",
+    "keywords": ["between us", "pliers", "mediated", "nothing more"]
+  },
+  {
+    "id": "CV-S077",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 77,
+    "sentence": 77,
+    "title": "そういうことがある",
+    "jp": "そういうことが、ある。",
+    "translationLiteral": "There are such things.",
+    "translationNatural": "Things like that happen.",
+    "chunks": [
+      { "en": "Things like that", "ja": "そういうことが" },
+      { "en": "happen", "ja": "起こる" }
+    ],
+    "grammar": [
+      "Things like that は前の出来事全体を受ける名詞句。",
+      "happen は出来事が起きることを表す自動詞。",
+      "短文により、経験則のような響きが出る。"
+    ],
+    "translationNote": "There are such things より Things like that happen の方が自然で口語的。",
+    "readingPoint": "この一文で、個別の記憶が人生の中にある一般的な出来事として位置づけられる。",
+    "keywords": ["happen", "things", "experience"]
+  },
+  {
+    "id": "CV-S078",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 78,
+    "sentence": 78,
+    "title": "そういうことしかない",
+    "jp": "そういうことしか、ない、とも言える。",
+    "translationLiteral": "It could also be said that there are only such things.",
+    "translationNatural": "You could even say that such things are all there is.",
+    "chunks": [
+      { "en": "You could even say", "ja": "そう言うことさえできる" },
+      { "en": "that such things", "ja": "そういうことが" },
+      { "en": "are all there is", "ja": "存在するすべてだと" }
+    ],
+    "grammar": [
+      "You could say は一般論としての『〜とも言える』。",
+      "even は踏み込んだ言い方であることを示す。",
+      "all there is は『存在するすべて』という定型表現。"
+    ],
+    "translationNote": "『しかない』の強さを all there is で表現している。",
+    "readingPoint": "本作の価値観がさらに押し出される。人を支えるものは、大きな制度や物語ではなく、こうした小さな非記録の接触なのかもしれない。",
+    "keywords": ["all there is", "small things", "existence"]
+  },
+  {
+    "id": "CV-S079",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 79,
+    "sentence": 79,
+    "title": "KPIに乗らないもの",
+    "jp": "KPIに乗らないもの。",
+    "translationLiteral": "Things that do not appear in KPIs.",
+    "translationNatural": "Things that never appear in KPIs.",
+    "chunks": [
+      { "en": "Things", "ja": "もの" },
+      { "en": "that never appear", "ja": "決して現れない" },
+      { "en": "in KPIs", "ja": "KPIに" }
+    ],
+    "grammar": [
+      "Things that... は関係詞節で名詞を修飾する構造。",
+      "never appear は決して現れないという強い否定。",
+      "in KPIs は評価指標の中に現れるかどうかを示す。"
+    ],
+    "translationNote": "『乗らない』は直訳せず appear in KPIs とするのが自然。",
+    "readingPoint": "ここから、測定・評価から漏れる価値の列挙が始まる。作品の制度批評的な層が前面に出る。",
+    "keywords": ["KPI", "measurement", "invisible value"]
+  },
+  {
+    "id": "CV-S080",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 80,
+    "sentence": 80,
+    "title": "投稿できないもの",
+    "jp": "投稿できないもの。",
+    "translationLiteral": "Things that cannot be posted.",
+    "translationNatural": "Things that cannot be posted.",
+    "chunks": [
+      { "en": "Things", "ja": "もの" },
+      { "en": "that cannot be posted", "ja": "投稿できない" }
+    ],
+    "grammar": [
+      "Things that... は関係詞節による名詞句。",
+      "cannot be posted は受動態の不可能表現。",
+      "前文の Things that never appear... と構造的に並列されている。"
+    ],
+    "translationNote": "投稿する媒体が明示されていないため、postを受動態で使い、一般化している。",
+    "readingPoint": "投稿できないものとは、単に技術的に投稿不能なものではなく、投稿した瞬間に質が変わってしまう種類の経験を指している。",
+    "keywords": ["posted", "unpostable", "experience"]
+  }
+]
