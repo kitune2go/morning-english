@@ -1,0 +1,254 @@
+[
+  {
+    "id": "CV-S081",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 81,
+    "sentence": 81,
+    "title": "記号化できないもの",
+    "jp": "記号化できないもの。",
+    "translationLiteral": "Things that cannot be symbolized.",
+    "translationNatural": "Things that cannot be turned into symbols.",
+    "chunks": [
+      { "en": "Things", "ja": "もの" },
+      { "en": "that cannot be turned into", "ja": "〜に変えられない" },
+      { "en": "symbols", "ja": "記号に" }
+    ],
+    "grammar": [
+      "Things that... は関係詞節による名詞句。",
+      "cannot be turned into は受動態の不可能表現。",
+      "symbols は記号・象徴を表す名詞。"
+    ],
+    "translationNote": "symbolized でも訳せるが、turned into symbols と展開すると英語学習上わかりやすい。",
+    "readingPoint": "価値が記号に変換されないことを示す。出来事が情報空間で扱える単位に変換されることへの抵抗がある。",
+    "keywords": ["symbols", "untranslatable", "value"]
+  },
+  {
+    "id": "CV-S082",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 82,
+    "sentence": 82,
+    "title": "徴税されないもの",
+    "jp": "徴税されないもの。",
+    "translationLiteral": "Things that are not taxed.",
+    "translationNatural": "Things that cannot be taxed.",
+    "chunks": [
+      { "en": "Things", "ja": "もの" },
+      { "en": "that cannot be taxed", "ja": "徴税され得ない" }
+    ],
+    "grammar": [
+      "Things that... は名詞句。",
+      "cannot be taxed は受動態の不可能表現。",
+      "taxed は制度によって価値を把握・徴収されることを含む。"
+    ],
+    "translationNote": "not taxed だと現状の非課税に寄るため、制度的に捕捉できない感じを出すなら cannot be taxed が適する。",
+    "readingPoint": "価値が制度や財政の回路に算入されないことを示している。測定不能性が制度外部性として現れる。",
+    "keywords": ["tax", "institution", "uncounted"]
+  },
+  {
+    "id": "CV-S083",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 83,
+    "sentence": 83,
+    "title": "誰の経済にも算入されないもの",
+    "jp": "誰の経済にも算入されないもの。",
+    "translationLiteral": "Things that are not counted in anyone's economy.",
+    "translationNatural": "Things that are counted in no one's economy.",
+    "chunks": [
+      { "en": "Things", "ja": "もの" },
+      { "en": "that are counted", "ja": "算入される" },
+      { "en": "in no one's economy", "ja": "誰の経済にもない" }
+    ],
+    "grammar": [
+      "Things that are counted は受動態を含む関係詞節。",
+      "no one's は『誰の〜でもない』を表す所有表現。",
+      "economy はここでは金銭的・制度的な価値計算の場を指す。"
+    ],
+    "translationNote": "not counted in anyone's economy でもよいが、counted in no one's economy の方が文体的に締まる。",
+    "readingPoint": "人を支える出来事が、どの経済主体の収支にも現れないという批評が提示される。",
+    "keywords": ["economy", "counted", "outside"]
+  },
+  {
+    "id": "CV-S084",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 84,
+    "sentence": 84,
+    "title": "人を立たせているもの",
+    "jp": "そういうものだけが、たぶん、本当に、人を立たせている。",
+    "translationLiteral": "Only such things, perhaps, truly keep people standing.",
+    "translationNatural": "Perhaps only things like that are what truly keep people standing.",
+    "chunks": [
+      { "en": "Perhaps only", "ja": "たぶん〜だけが" },
+      { "en": "things like that", "ja": "そういうものが" },
+      { "en": "are what truly keep", "ja": "本当に保っているものだ" },
+      { "en": "people standing", "ja": "人を立たせて" }
+    ],
+    "grammar": [
+      "Perhaps は推量を表す副詞。",
+      "only things like that は限定された主語。",
+      "what truly keep people standing は名詞節的な説明構造。",
+      "keep + O + C は『OをCの状態に保つ』。"
+    ],
+    "translationNote": "『人を立たせている』は keep people standing と訳すと、比喩と身体性の両方が残る。",
+    "readingPoint": "測定不能・投稿不能・制度外の小さな出来事こそが、人間の持続を支えるという作品の思想的結論。",
+    "keywords": ["standing", "support", "unmeasured value"]
+  },
+  {
+    "id": "CV-S085",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 85,
+    "sentence": 85,
+    "title": "私の駅に着く",
+    "jp": "電車が私の駅に着いた。",
+    "translationLiteral": "The train arrived at my station.",
+    "translationNatural": "The train arrived at my station.",
+    "chunks": [
+      { "en": "The train", "ja": "電車が" },
+      { "en": "arrived", "ja": "到着した" },
+      { "en": "at my station", "ja": "私の駅に" }
+    ],
+    "grammar": [
+      "The train arrived はSV構造。",
+      "at my station は到着地点を表す前置詞句。",
+      "my station は語り手が降りる駅を指す自然な表現。"
+    ],
+    "translationNote": "『私の駅』は my station で自然に表せる。",
+    "readingPoint": "共有された時間の終わりが近づく。移動の終点が、共在の終点にもなる。",
+    "keywords": ["station", "arrival", "ending"]
+  },
+  {
+    "id": "CV-S086",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 86,
+    "sentence": 86,
+    "title": "男は目を開けていた",
+    "jp": "立ち上がるとき、男はもう目を開けていた。",
+    "translationLiteral": "When I stood up, the man had already opened his eyes.",
+    "translationNatural": "When I stood up, the man already had his eyes open.",
+    "chunks": [
+      { "en": "When I stood up", "ja": "私が立ち上がるとき" },
+      { "en": "the man already had", "ja": "男はもう〜していた" },
+      { "en": "his eyes open", "ja": "目を開けて" }
+    ],
+    "grammar": [
+      "When は時間を導く接続詞。",
+      "stood up は立ち上がることを表す句動詞。",
+      "had his eyes open は状態を持っていることを表す構文。",
+      "already はその時点で既にそうだったことを示す。"
+    ],
+    "translationNote": "had opened his eyes より had his eyes open の方が、動作より状態に焦点が当たる。",
+    "readingPoint": "眠りと覚醒の中間にいた男が、別れの瞬間には目を開いている。視線の交差への準備が整う。",
+    "keywords": ["eyes", "stood up", "already"]
+  },
+  {
+    "id": "CV-S087",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 87,
+    "sentence": 87,
+    "title": "一瞬だけ合う視線",
+    "jp": "視線が一瞬だけ合った。",
+    "translationLiteral": "Our eyes met for only a moment.",
+    "translationNatural": "Our eyes met for a single moment.",
+    "chunks": [
+      { "en": "Our eyes met", "ja": "私たちの視線が合った" },
+      { "en": "for a single moment", "ja": "一瞬だけ" }
+    ],
+    "grammar": [
+      "Our eyes met は視線が合うことを表す定型表現。",
+      "for a single moment は短い時間の継続を表す。",
+      "single は一度きりであることを強調する。"
+    ],
+    "translationNote": "only a moment でもよいが、for a single moment の方が文学的で一回性が出る。",
+    "readingPoint": "これまで合わなかった視線が、降車直前に一瞬だけ交差する。非言語的な共在が最小の接触として現れる。",
+    "keywords": ["eyes met", "single moment", "recognition"]
+  },
+  {
+    "id": "CV-S088",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 88,
+    "sentence": 88,
+    "title": "会釈ではない",
+    "jp": "会釈ではなかった。",
+    "translationLiteral": "It was not a bow.",
+    "translationNatural": "It was not a nod.",
+    "chunks": [
+      { "en": "It was not", "ja": "それは〜ではなかった" },
+      { "en": "a nod", "ja": "会釈" }
+    ],
+    "grammar": [
+      "It was not... は否定のSVC構造。",
+      "It は直前の視線の交差を受ける。",
+      "a nod は軽い会釈に相当する自然な英語。"
+    ],
+    "translationNote": "bow は深いお辞儀にも聞こえるため、ここでは小さな会釈として nod が自然。",
+    "readingPoint": "視線の交差は社会的な挨拶ではない。儀礼として回収されることが否定される。",
+    "keywords": ["nod", "not", "gesture"]
+  },
+  {
+    "id": "CV-S089",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 89,
+    "sentence": 89,
+    "title": "微笑みでもない",
+    "jp": "微笑みでもなかった。",
+    "translationLiteral": "It was not a smile either.",
+    "translationNatural": "Nor was it a smile.",
+    "chunks": [
+      { "en": "Nor was it", "ja": "それは〜でもなかった" },
+      { "en": "a smile", "ja": "微笑み" }
+    ],
+    "grammar": [
+      "Nor was it... は前文の否定を受ける倒置表現。",
+      "a smile は感情表現としての微笑み。",
+      "not a nod / nor a smile の対で、視線の意味を限定している。"
+    ],
+    "translationNote": "It was not a smile either も可能だが、Nor was it a smile の方が前文との文体的連続性がある。",
+    "readingPoint": "それは親しみや好意を示す笑顔でもない。意味づけを最小限に抑える姿勢が続く。",
+    "keywords": ["smile", "nor", "minimal"]
+  },
+  {
+    "id": "CV-S090",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 90,
+    "sentence": 90,
+    "title": "ただ見たという視線",
+    "jp": "ただ、見た、というだけの視線だった。",
+    "translationLiteral": "It was only a gaze that meant simply, I saw.",
+    "translationNatural": "It was only a glance that said, simply, I saw you.",
+    "chunks": [
+      { "en": "It was only", "ja": "それはただ〜だけだった" },
+      { "en": "a glance", "ja": "視線" },
+      { "en": "that said", "ja": "〜と言うような" },
+      { "en": "simply", "ja": "ただ" },
+      { "en": "I saw you", "ja": "私はあなたを見た" }
+    ],
+    "grammar": [
+      "It was only... は限定を表すSVC構造。",
+      "a glance that said... は視線を擬人的に扱う関係詞節。",
+      "simply は意味を最小限に限定する副詞。",
+      "I saw you は相互承認の最小文として機能する。"
+    ],
+    "translationNote": "『見た、というだけ』は I saw you と補うことで、視線が相手の存在確認であることを明確にしている。",
+    "readingPoint": "挨拶でも笑顔でもなく、ただ相手を見たという最小限の相互承認。この作品の共在の倫理が凝縮されている。",
+    "keywords": ["glance", "I saw you", "recognition"]
+  }
+]
