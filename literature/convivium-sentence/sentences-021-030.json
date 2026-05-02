@@ -1,0 +1,261 @@
+[
+  {
+    "id": "CV-S021",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 21,
+    "sentence": 21,
+    "title": "自分の手にも知っている",
+    "jp": "私はそれを、自分の手にも知っている。",
+    "translationLiteral": "I know that in my own hands as well.",
+    "translationNatural": "I knew that same darkness in my own hands, too.",
+    "chunks": [
+      { "en": "I knew", "ja": "私は知っていた" },
+      { "en": "that same darkness", "ja": "その同じ黒さを" },
+      { "en": "in my own hands", "ja": "自分の手の中にも" },
+      { "en": "too", "ja": "同じように" }
+    ],
+    "grammar": [
+      "I knew は過去形で、観察から内的認識へ移る。",
+      "that same darkness は前文のoil-darknessを受ける名詞句。",
+      "in my own hands は身体上の場所を示す前置詞句。",
+      "too は男と自分の共通性を示す。"
+    ],
+    "translationNote": "日本語の『それ』は直前の油の黒さと労働の痕跡を含むため、英語では that same darkness と明示した。",
+    "readingPoint": "男の手の描写が、単なる観察ではなく、自分自身の身体記憶へ接続される。ここで他者性が共通性へ変わる。",
+    "keywords": ["hands", "recognition", "same", "labor"]
+  },
+  {
+    "id": "CV-S022",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 22,
+    "sentence": 22,
+    "title": "何も持っていない男",
+    "jp": "男は何も持っていなかった。",
+    "translationLiteral": "The man was not holding anything.",
+    "translationNatural": "The man had nothing with him.",
+    "chunks": [
+      { "en": "The man", "ja": "その男は" },
+      { "en": "had nothing", "ja": "何も持っていなかった" },
+      { "en": "with him", "ja": "身につけて" }
+    ],
+    "grammar": [
+      "The man had nothing はSVO構造。",
+      "nothing は否定を含む目的語。",
+      "with him は所持・携帯を表す前置詞句。"
+    ],
+    "translationNote": "『何も持っていなかった』は was holding nothing でもよいが、所持品のなさは had nothing with him が自然。",
+    "readingPoint": "持ち物の欠如が、男の存在をさらに剥き出しにする。情報端末や物語的な記号から切り離された存在として描かれる。",
+    "keywords": ["nothing", "man", "bare presence"]
+  },
+  {
+    "id": "CV-S023",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 23,
+    "sentence": 23,
+    "title": "鞄も本もスマートフォンも",
+    "jp": "鞄も、本も、スマートフォンも。",
+    "translationLiteral": "No bag, no book, no smartphone.",
+    "translationNatural": "No bag, no book, no smartphone.",
+    "chunks": [
+      { "en": "No bag", "ja": "鞄もない" },
+      { "en": "no book", "ja": "本もない" },
+      { "en": "no smartphone", "ja": "スマートフォンもない" }
+    ],
+    "grammar": [
+      "No A, no B, no C は欠如を列挙する省略構文。",
+      "主語と動詞を省くことで、観察の断片性が保たれている。",
+      "反復により、持ち物の不在が強調される。"
+    ],
+    "translationNote": "日本語の断片的な列挙に合わせ、英語でも完全な文にせず No... の反復で処理した。",
+    "readingPoint": "スマートフォンの不在は、情報空間への接続を持たない存在としての男を際立たせる。",
+    "keywords": ["bag", "book", "smartphone", "absence"]
+  },
+  {
+    "id": "CV-S024",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 24,
+    "sentence": 24,
+    "title": "ただの存在",
+    "jp": "膝の上の組まれた手と、揺れる車両の振動と、それに身体を委ねている、ただの存在。",
+    "translationLiteral": "The clasped hands on his knees, the vibration of the swaying train car, and a mere existence surrendering his body to it.",
+    "translationNatural": "Only the hands clasped on his knees, the vibration of the swaying car, and a body surrendered to it — a simple presence.",
+    "chunks": [
+      { "en": "Only the hands", "ja": "ただその手だけが" },
+      { "en": "clasped on his knees", "ja": "膝の上で組まれた" },
+      { "en": "the vibration", "ja": "振動と" },
+      { "en": "of the swaying car", "ja": "揺れる車両の" },
+      { "en": "a body surrendered to it", "ja": "それに委ねられた身体" },
+      { "en": "a simple presence", "ja": "ただの存在" }
+    ],
+    "grammar": [
+      "Only... によって、存在を構成する要素を限定している。",
+      "clasped on his knees はhandsを修飾する過去分詞句。",
+      "the vibration of... は所有・所属を表すof句。",
+      "surrendered to it は身体が振動に委ねられた状態を表す。",
+      "a simple presence は断片文として存在そのものを名詞化している。"
+    ],
+    "translationNote": "原文の名詞句の連なりを保つため、英語でも完全な文にせず、描写の断片性を残した。",
+    "readingPoint": "男は情報や所有物ではなく、手・振動・身体だけで構成される存在として描かれる。作品の非記号的な人間観が出ている。",
+    "keywords": ["presence", "body", "vibration", "hands"]
+  },
+  {
+    "id": "CV-S025",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 25,
+    "sentence": 25,
+    "title": "閉じても開いてもいない目",
+    "jp": "目は閉じてはいないが、開いてもいない。",
+    "translationLiteral": "His eyes were not closed, but they were not open either.",
+    "translationNatural": "His eyes were not closed, but they were not quite open either.",
+    "chunks": [
+      { "en": "His eyes", "ja": "彼の目は" },
+      { "en": "were not closed", "ja": "閉じてはいなかった" },
+      { "en": "but", "ja": "しかし" },
+      { "en": "not quite open either", "ja": "開いているとも言えなかった" }
+    ],
+    "grammar": [
+      "not A, but not B either は二つの状態のどちらでもないことを示す。",
+      "quite は完全性を弱める副詞。",
+      "either は否定文で『〜でもない』を示す。"
+    ],
+    "translationNote": "『開いてもいない』の曖昧さを出すため、not open より not quite open とした。",
+    "readingPoint": "睡眠と覚醒の中間にある目が、男の疲労と存在の曖昧さを表している。",
+    "keywords": ["eyes", "half-awake", "fatigue"]
+  },
+  {
+    "id": "CV-S026",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 26,
+    "sentence": 26,
+    "title": "中間の状態",
+    "jp": "中間の状態で、そこにいた。",
+    "translationLiteral": "He was there in an intermediate state.",
+    "translationNatural": "He was simply there, suspended somewhere in between.",
+    "chunks": [
+      { "en": "He was simply there", "ja": "彼はただそこにいた" },
+      { "en": "suspended", "ja": "宙づりにされたように" },
+      { "en": "somewhere in between", "ja": "何かの中間に" }
+    ],
+    "grammar": [
+      "He was there は存在を表す単純な文。",
+      "simply は『ただ』を表す副詞。",
+      "suspended は状態を補足する過去分詞。",
+      "somewhere in between は中間性を表す副詞句。"
+    ],
+    "translationNote": "intermediate state は直訳として正しいが、文学的には suspended somewhere in between が自然。",
+    "readingPoint": "男は明確な主体として何かをしているのではなく、状態として存在している。",
+    "keywords": ["in between", "suspended", "presence"]
+  },
+  {
+    "id": "CV-S027",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 27,
+    "sentence": 27,
+    "title": "次の駅に止まる",
+    "jp": "電車が次の駅に止まる。",
+    "translationLiteral": "The train stops at the next station.",
+    "translationNatural": "The train stopped at the next station.",
+    "chunks": [
+      { "en": "The train", "ja": "電車が" },
+      { "en": "stopped", "ja": "止まった" },
+      { "en": "at the next station", "ja": "次の駅に" }
+    ],
+    "grammar": [
+      "The train stopped はSV構造。",
+      "at the next station は場所を表す前置詞句。",
+      "物語文として過去形に統一している。"
+    ],
+    "translationNote": "日本語は現在形だが、英語の物語文では過去形 stopped が自然。",
+    "readingPoint": "車両の動きが、人物描写から儀式的な場面転換へ移る。",
+    "keywords": ["train", "station", "stop"]
+  },
+  {
+    "id": "CV-S028",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 28,
+    "sentence": 28,
+    "title": "誰も乗ってこない",
+    "jp": "誰も乗ってこない。",
+    "translationLiteral": "No one gets on.",
+    "translationNatural": "No one got on.",
+    "chunks": [
+      { "en": "No one", "ja": "誰も" },
+      { "en": "got on", "ja": "乗ってこなかった" }
+    ],
+    "grammar": [
+      "No one は否定を含む主語。",
+      "got on は乗り物に乗ることを表す句動詞。",
+      "短文にすることで無人感が強調される。"
+    ],
+    "translationNote": "物語の時制に合わせ、gets on ではなく got on にしている。",
+    "readingPoint": "人の出入りがないことで、車両が閉じた空間として保たれる。",
+    "keywords": ["no one", "get on", "empty"]
+  },
+  {
+    "id": "CV-S029",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 29,
+    "sentence": 29,
+    "title": "誰も降りない",
+    "jp": "誰も降りない。",
+    "translationLiteral": "No one gets off.",
+    "translationNatural": "No one got off.",
+    "chunks": [
+      { "en": "No one", "ja": "誰も" },
+      { "en": "got off", "ja": "降りなかった" }
+    ],
+    "grammar": [
+      "No one は否定を含む主語。",
+      "got off は乗り物から降りることを表す句動詞。",
+      "前文No one got onと対になる構造。"
+    ],
+    "translationNote": "No one got on / No one got off の対称構造で、駅に止まっても変化が起きない感覚を出している。",
+    "readingPoint": "乗る者も降りる者もいないことで、駅の停止が出来事ではなく無人の手続きになる。",
+    "keywords": ["no one", "get off", "stillness"]
+  },
+  {
+    "id": "CV-S030",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 30,
+    "sentence": 30,
+    "title": "再び加速する",
+    "jp": "アナウンスが流れ、扉が閉まり、発車のベルが鳴り、再び加速する。",
+    "translationLiteral": "The announcement plays, the doors close, the departure bell rings, and it accelerates again.",
+    "translationNatural": "The announcement played, the doors closed, the departure bell rang, and the train accelerated again.",
+    "chunks": [
+      { "en": "The announcement played", "ja": "アナウンスが流れた" },
+      { "en": "the doors closed", "ja": "扉が閉まった" },
+      { "en": "the departure bell rang", "ja": "発車のベルが鳴った" },
+      { "en": "and the train accelerated again", "ja": "そして電車は再び加速した" }
+    ],
+    "grammar": [
+      "played / closed / rang / accelerated は連続動作の過去形。",
+      "the departure bell は『発車のベル』。",
+      "again は反復を表す副詞。",
+      "主語を補って the train accelerated again としている。"
+    ],
+    "translationNote": "日本語では最後の主語が省略されているため、英語では the train を補って自然化した。",
+    "readingPoint": "一連の機械的手続きが無人の儀式のように進む。人間ではなくシステムが場面を駆動している。",
+    "keywords": ["announcement", "bell", "accelerate", "system"]
+  }
+]
