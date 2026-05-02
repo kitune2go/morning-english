@@ -1,0 +1,260 @@
+[
+  {
+    "id": "CV-S041",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 41,
+    "sentence": 41,
+    "title": "たぶん、こういうことだ",
+    "jp": "たぶん、こういうことだ。",
+    "translationLiteral": "Perhaps it is this kind of thing.",
+    "translationNatural": "Perhaps this was what it meant.",
+    "chunks": [
+      { "en": "Perhaps", "ja": "たぶん" },
+      { "en": "this was", "ja": "これは〜だった" },
+      { "en": "what it meant", "ja": "それが意味していたこと" }
+    ],
+    "grammar": [
+      "Perhaps は推量を表す副詞。",
+      "this was what... は『これが〜だった』という説明構文。",
+      "what it meant は名詞節で『それが意味していたこと』を表す。"
+    ],
+    "translationNote": "『こういうことだ』は this is it ではなく、文脈上の理解として this was what it meant と訳す。",
+    "readingPoint": "ここから観察された感覚が、主人公の内的な解釈へ移っていく。",
+    "keywords": ["perhaps", "meaning", "interpretation"]
+  },
+  {
+    "id": "CV-S042",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 42,
+    "sentence": 42,
+    "title": "今日、機械の前にいた",
+    "jp": "男も私も、今日、機械の前にいた。",
+    "translationLiteral": "Both the man and I had been in front of machines today.",
+    "translationNatural": "Both he and I had stood before machines that day.",
+    "chunks": [
+      { "en": "Both he and I", "ja": "男も私も" },
+      { "en": "had stood", "ja": "立っていた" },
+      { "en": "before machines", "ja": "機械の前に" },
+      { "en": "that day", "ja": "その日" }
+    ],
+    "grammar": [
+      "Both A and B は二者の共通性を表す。",
+      "had stood は過去完了で、電車内より前の一日を指す。",
+      "before machines は『機械の前に』をやや文学的に表す。"
+    ],
+    "translationNote": "『機械の前にいた』は was in front of machines でもよいが、stood before machines にすると労働の姿勢が出る。",
+    "readingPoint": "二人の共通性が、言葉ではなく労働経験によって結ばれる。",
+    "keywords": ["machine", "work", "shared day"]
+  },
+  {
+    "id": "CV-S043",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 43,
+    "sentence": 43,
+    "title": "違う機械、違う部品",
+    "jp": "違う機械、違う部品、違う製品だろう。",
+    "translationLiteral": "They were probably different machines, different parts, and different products.",
+    "translationNatural": "They were probably different machines, different parts, different products.",
+    "chunks": [
+      { "en": "They were probably", "ja": "それらはおそらく" },
+      { "en": "different machines", "ja": "違う機械" },
+      { "en": "different parts", "ja": "違う部品" },
+      { "en": "different products", "ja": "違う製品" }
+    ],
+    "grammar": [
+      "probably は推量を表す副詞。",
+      "different A, different B, different C は反復による列挙。",
+      "動詞を一度だけ置き、名詞句を並列することで原文のリズムを保っている。"
+    ],
+    "translationNote": "反復のリズムを残すため、自然英訳でもandを最小限にして列挙調にした。",
+    "readingPoint": "具体的な職場や製品は異なるが、労働の型は共通しているという方向へ向かう。",
+    "keywords": ["different", "machines", "products"]
+  },
+  {
+    "id": "CV-S044",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 44,
+    "sentence": 44,
+    "title": "同じ種類の疲労",
+    "jp": "それでも、同じ種類の疲労を、同じ種類の沈黙を、同じ種類の――言葉にならない何かを、私たちは共有している。",
+    "translationLiteral": "Even so, we share the same kind of fatigue, the same kind of silence, the same kind of something that cannot become words.",
+    "translationNatural": "Even so, we shared the same kind of fatigue, the same kind of silence, the same kind of something that would not become words.",
+    "chunks": [
+      { "en": "Even so", "ja": "それでも" },
+      { "en": "we shared", "ja": "私たちは共有していた" },
+      { "en": "the same kind of fatigue", "ja": "同じ種類の疲労を" },
+      { "en": "the same kind of silence", "ja": "同じ種類の沈黙を" },
+      { "en": "the same kind of something", "ja": "同じ種類の何かを" },
+      { "en": "that would not become words", "ja": "言葉にならない" }
+    ],
+    "grammar": [
+      "Even so は逆接的な接続表現。",
+      "we shared はSVO構造。",
+      "the same kind of... の反復が共通性を強調する。",
+      "that would not become words はsomethingを修飾する関係詞節。"
+    ],
+    "translationNote": "『言葉にならない』は cannot become words も可能だが、would not become words にすると、言葉化を拒む質感が出る。",
+    "readingPoint": "この作品の中心的な主題である、非言語的に共有される疲労と沈黙が明文化される。",
+    "keywords": ["fatigue", "silence", "wordless", "shared"]
+  },
+  {
+    "id": "CV-S045",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 45,
+    "sentence": 45,
+    "title": "互いの一日を知らない",
+    "jp": "互いの一日を知らない。",
+    "translationLiteral": "We do not know each other's day.",
+    "translationNatural": "We did not know each other's day.",
+    "chunks": [
+      { "en": "We did not know", "ja": "私たちは知らなかった" },
+      { "en": "each other's day", "ja": "互いの一日を" }
+    ],
+    "grammar": [
+      "We did not know は過去形の否定。",
+      "each other's は相互性を表す所有表現。",
+      "day はここでは出来事や経験全体を含む。"
+    ],
+    "translationNote": "『一日』は schedule ではなく day とすることで、経験の全体性を残している。",
+    "readingPoint": "共通性はあるが、具体的な人生や出来事は共有されていない。この距離感が重要。",
+    "keywords": ["day", "not know", "distance"]
+  },
+  {
+    "id": "CV-S046",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 46,
+    "sentence": 46,
+    "title": "名前も知らない",
+    "jp": "互いの名前も知らない。",
+    "translationLiteral": "We do not know each other's names either.",
+    "translationNatural": "We did not even know each other's names.",
+    "chunks": [
+      { "en": "We did not even know", "ja": "私たちは〜さえ知らなかった" },
+      { "en": "each other's names", "ja": "互いの名前を" }
+    ],
+    "grammar": [
+      "did not know は過去の否定。",
+      "even は『〜さえ』を表す強調副詞。",
+      "each other's names は相互的な所有を表す。"
+    ],
+    "translationNote": "『も』のニュアンスを even で処理し、距離の大きさを出した。",
+    "readingPoint": "名前という社会的識別子がなくても、共在は成立している。記号以前の関係性が示される。",
+    "keywords": ["name", "unknown", "anonymity"]
+  },
+  {
+    "id": "CV-S047",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 47,
+    "sentence": 47,
+    "title": "明日会っても気づかない",
+    "jp": "明日もう一度会っても、たぶん気づかない。",
+    "translationLiteral": "Even if we meet again tomorrow, we probably will not notice.",
+    "translationNatural": "Even if we saw each other again tomorrow, we probably would not notice.",
+    "chunks": [
+      { "en": "Even if", "ja": "たとえ〜しても" },
+      { "en": "we saw each other again", "ja": "私たちがもう一度会っても" },
+      { "en": "tomorrow", "ja": "明日" },
+      { "en": "we probably would not notice", "ja": "たぶん気づかないだろう" }
+    ],
+    "grammar": [
+      "Even if は譲歩的な条件を表す。",
+      "saw each other は互いに会うことを表す。",
+      "would not notice は仮定的な予測。",
+      "probably は不確かさを示す副詞。"
+    ],
+    "translationNote": "未来の仮定だが、英語では Even if we saw... would... と仮定法的に処理すると自然。",
+    "readingPoint": "この共在は継続的関係にはならない。一回限りだからこそ、記録されない価値として残る。",
+    "keywords": ["tomorrow", "notice", "passing encounter"]
+  },
+  {
+    "id": "CV-S048",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 48,
+    "sentence": 48,
+    "title": "同じ車両に乗っている",
+    "jp": "それでも、今、私たちは同じ車両に乗っている。",
+    "translationLiteral": "Even so, now, we are riding in the same train car.",
+    "translationNatural": "Even so, in that moment, we were in the same train car.",
+    "chunks": [
+      { "en": "Even so", "ja": "それでも" },
+      { "en": "in that moment", "ja": "その瞬間" },
+      { "en": "we were", "ja": "私たちはいた" },
+      { "en": "in the same train car", "ja": "同じ車両の中に" }
+    ],
+    "grammar": [
+      "Even so は逆接。",
+      "in that moment は特定の一瞬を示す副詞句。",
+      "we were in... は存在位置を表す。",
+      "the same train car は共有された物理空間を示す。"
+    ],
+    "translationNote": "『乗っている』は riding でもよいが、共在を強調するため were in the same train car とした。",
+    "readingPoint": "名前も履歴も知らない二人を結ぶのは、同じ車両という物理的な共在だけである。",
+    "keywords": ["same train car", "presence", "now"]
+  },
+  {
+    "id": "CV-S049",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 49,
+    "sentence": 49,
+    "title": "同じ蛍光灯の白さ",
+    "jp": "同じ蛍光灯の白さに照らされている。",
+    "translationLiteral": "We are being lit by the same whiteness of fluorescent lights.",
+    "translationNatural": "We were lit by the same white fluorescent light.",
+    "chunks": [
+      { "en": "We were lit", "ja": "私たちは照らされていた" },
+      { "en": "by the same", "ja": "同じ〜によって" },
+      { "en": "white fluorescent light", "ja": "白い蛍光灯の光" }
+    ],
+    "grammar": [
+      "were lit は受動態。",
+      "by the same... は共通の作用元を示す。",
+      "white fluorescent light は名詞lightを複数の語が修飾している。"
+    ],
+    "translationNote": "『白さ』を直訳して whiteness とするより、white fluorescent light とした方が自然。",
+    "readingPoint": "同じ光に照らされることで、二人は無言のうちに同じ場面内に置かれる。",
+    "keywords": ["fluorescent", "light", "same"]
+  },
+  {
+    "id": "CV-S050",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 50,
+    "sentence": 50,
+    "title": "同じ夜の終わり",
+    "jp": "同じ夜の終わりを、同じ電車の中で、過ごしている。",
+    "translationLiteral": "We are spending the same end of the night inside the same train.",
+    "translationNatural": "We were spending the same end of the night inside the same train.",
+    "chunks": [
+      { "en": "We were spending", "ja": "私たちは過ごしていた" },
+      { "en": "the same end of the night", "ja": "同じ夜の終わりを" },
+      { "en": "inside the same train", "ja": "同じ電車の中で" }
+    ],
+    "grammar": [
+      "were spending は過去進行形。",
+      "the same end of the night は共有された時間帯を表す名詞句。",
+      "inside the same train は物理的な共在の場所を示す。"
+    ],
+    "translationNote": "『夜の終わり』は end of the night と訳し、時間の終端としての感覚を保つ。",
+    "readingPoint": "ここで共有されるのは情報ではなく、時間と場所である。作品のコンヴィヴィウム性が静かに成立している。",
+    "keywords": ["night", "same train", "shared time"]
+  }
+]
