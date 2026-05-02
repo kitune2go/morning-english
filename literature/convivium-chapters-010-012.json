@@ -1,0 +1,77 @@
+[
+  {
+    "id": "LC010",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 10,
+    "title": "明日も機械の前に",
+    "jp": "明日、また機械の前に立つ。男もたぶん、同じだ。",
+    "translationLiteral": "Tomorrow, I will stand in front of a machine again. The man probably will, too.",
+    "translationNatural": "Tomorrow, I will stand before a machine again. Perhaps he will, too.",
+    "chunks": [
+      { "en": "Tomorrow", "ja": "明日" },
+      { "en": "I will stand", "ja": "私は立つだろう" },
+      { "en": "before a machine", "ja": "機械の前に" },
+      { "en": "again", "ja": "また" },
+      { "en": "perhaps he will too", "ja": "たぶん彼もそうだろう" }
+    ],
+    "grammar": [
+      "will は未来の行為を表す助動詞。",
+      "stand before はやや文学的な『〜の前に立つ』。",
+      "again は反復を表す副詞。",
+      "he will, too は前文のstand before a machine againを省略して受ける表現。"
+    ],
+    "readingPoint": "物語は劇的に解決しない。同じ種類の明日を持つ者同士の共在だけが、静かに残されている。",
+    "keywords": ["tomorrow", "machine", "shared life", "return"]
+  },
+  {
+    "id": "LC011",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 11,
+    "title": "起きたことは起きた",
+    "jp": "これは記録されない。再生もされない。明日には、たぶん私も忘れている。それでも、起きたことは起きた。",
+    "translationLiteral": "This will not be recorded. It will not be replayed. By tomorrow, perhaps even I will have forgotten it. Still, what happened happened.",
+    "translationNatural": "This will not be recorded or replayed. By tomorrow, I may have forgotten it, and yet what happened still happened.",
+    "chunks": [
+      { "en": "This will not be recorded", "ja": "これは記録されない" },
+      { "en": "or replayed", "ja": "あるいは再生されない" },
+      { "en": "By tomorrow", "ja": "明日には" },
+      { "en": "I may have forgotten it", "ja": "私はそれを忘れているかもしれない" },
+      { "en": "and yet", "ja": "それでも" },
+      { "en": "what happened still happened", "ja": "起きたことは確かに起きた" }
+    ],
+    "grammar": [
+      "will not be recorded は未来の受動態。",
+      "or replayed はrecordedと並列される省略表現。",
+      "may have forgotten は未来時点での完了可能性を表す。",
+      "and yet は逆接を表す。",
+      "what happened は名詞節。"
+    ],
+    "readingPoint": "記録や再生がなくても出来事の実在性は消えない、という本作の存在論的な主張が明確になる箇所。",
+    "keywords": ["record", "replay", "event", "existence"]
+  },
+  {
+    "id": "LC012",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 12,
+    "title": "深夜の風を人と勘違いする",
+    "jp": "センサーが何かを誤認しているのか、あるいは、深夜の風を、人と勘違いしているのかもしれなかった。",
+    "translationLiteral": "Perhaps the sensor was misrecognizing something, or perhaps it was mistaking the late-night wind for a person.",
+    "translationNatural": "Perhaps the sensor had mistaken something, or maybe it had taken the late-night wind for a person.",
+    "chunks": [
+      { "en": "Perhaps the sensor", "ja": "おそらくセンサーが" },
+      { "en": "had mistaken something", "ja": "何かを誤認していた" },
+      { "en": "or maybe", "ja": "あるいは" },
+      { "en": "it had taken", "ja": "それは〜と受け取っていた" },
+      { "en": "the late-night wind", "ja": "深夜の風を" },
+      { "en": "for a person", "ja": "人として" }
+    ],
+    "grammar": [
+      "Perhaps / maybe は推量を表す副詞。",
+      "had mistaken は過去完了で、誤認が先に起きていたことを示す。",
+      "take A for B は『AをBと間違える』。",
+      "late-night wind は形容詞的に名詞を修飾する複合表現。"
+    ],
+    "readingPoint": "無機的なセンサーが風を人と誤認する描写は、記録されない共在や気配の主題を、最後に静かに反復している。",
+    "keywords": ["sensor", "mistake", "wind", "presence"]
+  }
+]
