@@ -1,0 +1,257 @@
+[
+  {
+    "id": "CV-S061",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 61,
+    "sentence": 61,
+    "title": "起きたことは起きた",
+    "jp": "それでも、起きたことは起きた。",
+    "translationLiteral": "Even so, what happened happened.",
+    "translationNatural": "And yet, what happened still happened.",
+    "chunks": [
+      { "en": "And yet", "ja": "それでも" },
+      { "en": "what happened", "ja": "起きたことは" },
+      { "en": "still happened", "ja": "確かに起きた" }
+    ],
+    "grammar": [
+      "And yet は逆接を表す接続表現。",
+      "what happened は名詞節で『起きたこと』を表す。",
+      "still は記録や記憶の有無に関わらない実在性を強調する。"
+    ],
+    "translationNote": "直訳の what happened happened も力があるが、still を加えると『それでも起きた』という反論性が明確になる。",
+    "readingPoint": "記録も再生もされず、忘れられるかもしれない。それでも出来事の実在は消えないという作品の核心。",
+    "keywords": ["event", "happened", "existence"]
+  },
+  {
+    "id": "CV-S062",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 62,
+    "sentence": 62,
+    "title": "蓋を閉める",
+    "jp": "蓋を閉めて、ボトルを鞄に戻す。",
+    "translationLiteral": "I close the lid and return the bottle to my bag.",
+    "translationNatural": "I closed the lid and put the bottle back in my bag.",
+    "chunks": [
+      { "en": "I closed the lid", "ja": "私は蓋を閉めた" },
+      { "en": "and put the bottle back", "ja": "そしてボトルを戻した" },
+      { "en": "in my bag", "ja": "鞄の中に" }
+    ],
+    "grammar": [
+      "closed / put は過去形の連続動作。",
+      "put A back in B は『AをBに戻す』。",
+      "the lid / the bottle は既出の保温ボトルを受けている。"
+    ],
+    "translationNote": "『戻す』は return でもよいが、日常動作として put back が自然。",
+    "readingPoint": "小さな身体動作によって、内省の場面が再び日常の具体的な所作へ戻る。",
+    "keywords": ["lid", "bottle", "bag"]
+  },
+  {
+    "id": "CV-S063",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 63,
+    "sentence": 63,
+    "title": "匂いが空気に溶ける",
+    "jp": "コーヒーの匂いは、一瞬で車両の空気に溶けて消えていった。",
+    "translationLiteral": "The smell of coffee dissolved into the air of the train car and disappeared in an instant.",
+    "translationNatural": "The smell of coffee dissolved into the air of the train car and vanished in an instant.",
+    "chunks": [
+      { "en": "The smell of coffee", "ja": "コーヒーの匂いは" },
+      { "en": "dissolved into", "ja": "〜に溶け込んだ" },
+      { "en": "the air of the train car", "ja": "車両の空気に" },
+      { "en": "and vanished", "ja": "そして消えた" },
+      { "en": "in an instant", "ja": "一瞬で" }
+    ],
+    "grammar": [
+      "dissolved into は『〜に溶け込む』を表す。",
+      "vanished はdisappearedより文学的な『消えた』。",
+      "in an instant は短時間を表す副詞句。"
+    ],
+    "translationNote": "消える動作を vanished にすると、匂いのはかなさと余韻が出る。",
+    "readingPoint": "個人的な感覚が公共空間に溶け、すぐに消える。記録されない出来事の性質と響き合う。",
+    "keywords": ["coffee", "air", "vanish"]
+  },
+  {
+    "id": "CV-S064",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 64,
+    "sentence": 64,
+    "title": "次の駅に止まる",
+    "jp": "電車が、次の駅に止まる。",
+    "translationLiteral": "The train stops at the next station.",
+    "translationNatural": "The train stopped at the next station.",
+    "chunks": [
+      { "en": "The train", "ja": "電車が" },
+      { "en": "stopped", "ja": "止まった" },
+      { "en": "at the next station", "ja": "次の駅に" }
+    ],
+    "grammar": [
+      "The train stopped はSV構造。",
+      "at the next station は場所を表す前置詞句。",
+      "物語文の自然さを優先し、英語では過去形にしている。"
+    ],
+    "translationNote": "日本語の現在形は臨場感を出すが、英語の物語では stopped が自然。",
+    "readingPoint": "内省の流れが、駅への到着という物理的な時間進行に戻される。",
+    "keywords": ["train", "station", "stop"]
+  },
+  {
+    "id": "CV-S065",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 65,
+    "sentence": 65,
+    "title": "男は降りる気配がない",
+    "jp": "男は降りる気配がなかった。",
+    "translationLiteral": "The man showed no sign of getting off.",
+    "translationNatural": "The man showed no sign of getting off.",
+    "chunks": [
+      { "en": "The man", "ja": "男は" },
+      { "en": "showed no sign", "ja": "気配を見せなかった" },
+      { "en": "of getting off", "ja": "降りるという" }
+    ],
+    "grammar": [
+      "show no sign of -ing は『〜する気配がない』。",
+      "getting off は乗り物から降りることを表す句動詞。",
+      "of はsignの内容を説明する。"
+    ],
+    "translationNote": "『気配がない』は no sign of... が非常に自然。",
+    "readingPoint": "二人の共有時間はもう少しだけ続く。だが、終わりが近づいていることも同時に示される。",
+    "keywords": ["sign", "get off", "man"]
+  },
+  {
+    "id": "CV-S066",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 66,
+    "sentence": 66,
+    "title": "私もまだ二駅ある",
+    "jp": "私もまだ二駅ある。",
+    "translationLiteral": "I also still have two stations.",
+    "translationNatural": "I still had two stops to go, too.",
+    "chunks": [
+      { "en": "I still had", "ja": "私にはまだあった" },
+      { "en": "two stops", "ja": "二駅" },
+      { "en": "to go", "ja": "行くべき" },
+      { "en": "too", "ja": "私も" }
+    ],
+    "grammar": [
+      "have + 目的語 + to go は残り距離・残り行程を表す。",
+      "two stops は電車の駅数を表す自然な語。",
+      "too は男との状況の並行性を示す。"
+    ],
+    "translationNote": "『二駅ある』は two stations remain でもよいが、会話的・自然には two stops to go。",
+    "readingPoint": "主人公にもまだ少しだけ移動の余白があり、共在の時間が伸びる。",
+    "keywords": ["two stops", "to go", "still"]
+  },
+  {
+    "id": "CV-S067",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 67,
+    "sentence": 67,
+    "title": "彼が降りる駅を知らない",
+    "jp": "彼が降りる駅を、私は知らない。",
+    "translationLiteral": "I do not know the station where he will get off.",
+    "translationNatural": "I did not know where he would get off.",
+    "chunks": [
+      { "en": "I did not know", "ja": "私は知らなかった" },
+      { "en": "where", "ja": "どこで" },
+      { "en": "he would get off", "ja": "彼が降りるのか" }
+    ],
+    "grammar": [
+      "I did not know where... は間接疑問文。",
+      "would get off は過去時点から見た未来。",
+      "get off は乗り物から降りることを表す。"
+    ],
+    "translationNote": "『降りる駅』を the station where... と訳すより、where he would get off の方が自然。",
+    "readingPoint": "相手の目的地を知らないことが、関係の匿名性と一回性を保っている。",
+    "keywords": ["where", "get off", "unknown"]
+  },
+  {
+    "id": "CV-S068",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 68,
+    "sentence": 68,
+    "title": "知ることはない",
+    "jp": "たぶん、知ることはない。",
+    "translationLiteral": "Probably, I will never know.",
+    "translationNatural": "I probably never would.",
+    "chunks": [
+      { "en": "I probably", "ja": "私はたぶん" },
+      { "en": "never would", "ja": "決して知ることはないだろう" }
+    ],
+    "grammar": [
+      "probably は推量を表す副詞。",
+      "never would は前文のknowを省略して受ける。",
+      "省略により、静かな断念のニュアンスが出る。"
+    ],
+    "translationNote": "I probably never would は、I would probably never know の省略形として自然な文体。",
+    "readingPoint": "知らないままであることが、この関係の条件になっている。知識ではなく共在だけが残る。",
+    "keywords": ["never know", "probably", "anonymity"]
+  },
+  {
+    "id": "CV-S069",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 69,
+    "sentence": 69,
+    "title": "ずいぶん前のこと",
+    "jp": "ふと、ずいぶん前のことを思い出した。",
+    "translationLiteral": "Suddenly, I remembered something from a long time ago.",
+    "translationNatural": "Suddenly, I remembered something from a long time ago.",
+    "chunks": [
+      { "en": "Suddenly", "ja": "ふと" },
+      { "en": "I remembered", "ja": "私は思い出した" },
+      { "en": "something", "ja": "あることを" },
+      { "en": "from a long time ago", "ja": "ずいぶん前の" }
+    ],
+    "grammar": [
+      "Suddenly は突然・ふとを表す副詞。",
+      "remembered は過去形。",
+      "something from a long time ago は過去の記憶を表す名詞句。"
+    ],
+    "translationNote": "『ふと』は casually ではなく、記憶が突然浮かぶ文脈では suddenly が自然。",
+    "readingPoint": "現在の車内の出来事が、過去の工場での無言の支援の記憶を呼び起こす。",
+    "keywords": ["memory", "suddenly", "past"]
+  },
+  {
+    "id": "CV-S070",
+    "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "workId": "convivium-sentence",
+    "mode": "sentence-translation",
+    "chapter": 70,
+    "sentence": 70,
+    "title": "深夜の工場",
+    "jp": "深夜の工場で、機械の調整に手間取っていた夜があった。",
+    "translationLiteral": "There was a night when I was struggling with adjusting a machine in a factory late at night.",
+    "translationNatural": "There was a night, late in the factory, when I was struggling to adjust a machine.",
+    "chunks": [
+      { "en": "There was a night", "ja": "ある夜があった" },
+      { "en": "late in the factory", "ja": "深夜の工場で" },
+      { "en": "when I was struggling", "ja": "私が手間取っていた" },
+      { "en": "to adjust a machine", "ja": "機械を調整するのに" }
+    ],
+    "grammar": [
+      "There was a night は存在構文。",
+      "when I was struggling... はnightを修飾する関係副詞節。",
+      "struggle to do は『〜するのに苦労する』。",
+      "adjust a machine は機械を調整することを表す。"
+    ],
+    "translationNote": "『手間取っていた』は had trouble より struggling to adjust とすると、作業中の継続感が出る。",
+    "readingPoint": "現在の無言の共在が、過去の現場での無言の支援へ接続される。",
+    "keywords": ["factory", "machine", "adjust", "memory"]
+  }
+]
