@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1c1917">
+<title>文学読解カード — CEG+ Literary</title>
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    background: #f5f0df;
+    color: #1c1917;
+    min-height: 100vh;
+    background-image: radial-gradient(circle, rgba(28,25,23,0.04) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  .container { max-width: 780px; margin: 0 auto; padding: 24px 16px 80px; }
+  header { border-bottom: 2px solid #1c1917; padding-bottom: 16px; margin-bottom: 16px; }
+  .label { font-size: 10px; text-transform: uppercase; letter-spacing: .18em; color: #78716c; }
+  h1 { font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: 30px; margin: 4px 0 0; }
+  .sub { font-size: 12px; color: #57534e; line-height: 1.7; margin-top: 8px; }
+  .nav { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 8px 12px; border: 2px solid #1c1917; background: #fff; color: #1c1917;
+    font-size: 10px; text-transform: uppercase; letter-spacing: .12em; text-decoration: none;
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.active, .btn.primary { background: #1c1917; color: #f5f0df; }
+  .btn:hover { background: #e7e5e4; }
+  .btn.primary:hover { background: #44403c; }
+  .status { padding: 18px; border: 2px solid #1c1917; background: #fff; margin: 16px 0; font-size: 13px; }
+  .toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 16px 0; }
+  .select {
+    border: 2px solid #1c1917; background: #fff; padding: 8px 10px; font-size: 12px; flex: 1; min-width: 220px;
+  }
+  .card {
+    border: 2px solid #1c1917; background: #fff; margin: 14px 0; padding: 18px;
+    box-shadow: 4px 4px 0 rgba(28,25,23,.08);
+  }
+  .card-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
+  .chapter { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10px; letter-spacing: .15em; color: #b91c1c; }
+  .title { font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: 18px; font-weight: 700; margin-top: 3px; }
+  .id { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10px; color: #a8a29e; }
+  .jp {
+    font-family: Georgia, "Hiragino Mincho ProN", "Yu Mincho", serif;
+    font-size: 17px; line-height: 1.8; padding: 12px; background: #fafaf9; border-left: 4px solid #1c1917;
+    margin: 10px 0 14px;
+  }
+  .en-main {
+    font-family: Georgia, "Times New Roman", serif; font-size: 18px; line-height: 1.65; font-weight: 700;
+    margin: 8px 0;
+  }
+  .en-sub { font-size: 12px; color: #57534e; line-height: 1.7; margin: 6px 0 12px; }
+  .section-title {
+    display: inline-block; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: #fff; background: #1c1917;
+    padding: 4px 8px; margin: 12px 0 8px;
+  }
+  .chunk { display: grid; grid-template-columns: 1fr; gap: 3px; padding: 8px 0; border-bottom: 1px solid #e7e5e4; }
+  .chunk:last-child { border-bottom: none; }
+  .chunk-en { font-family: Georgia, "Times New Roman", serif; font-size: 15px; }
+  .chunk-ja { font-size: 12px; color: #78716c; }
+  .grammar { margin: 0; padding-left: 20px; font-size: 13px; line-height: 1.8; }
+  .reading {
+    font-size: 13px; line-height: 1.8; color: #44403c; padding: 12px; background: #fef3c7; border: 1px solid #d6d3d1;
+  }
+  .keywords { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+  .kw { font-size: 10px; padding: 3px 7px; background: #e7e5e4; color: #57534e; }
+  .footer { text-align: center; margin-top: 32px; padding-top: 20px; border-top: 1px solid #d6d3d1; color: #a8a29e; font-size: 11px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="label">CEG+ Literary Reading Protocol</div>
+    <h1>文学読解カード</h1>
+    <div class="sub">原文を英訳し、チャンク・文法・読解ポイントへ分解するビューです。</div>
+    <div class="nav">
+      <a class="btn" href="index.html">← 毎朝の英語</a>
+      <button class="btn primary" id="reloadBtn">↻ 再読み込み</button>
+    </div>
+  </header>
+
+  <div id="status" class="status">文学カードを読み込み中…</div>
+
+  <div id="toolbar" class="toolbar" style="display:none;">
+    <select id="chapterSelect" class="select"></select>
+    <button class="btn" id="showAllBtn">全表示</button>
+  </div>
+
+  <div id="content"></div>
+
+  <div class="footer">literature-manifest.json を読み込み、分割JSONを合流表示します。</div>
+</div>
+
+<script>
+let allCards = [];
+let selectedChapter = 'all';
+
+async function fetchJson(path) {
+  const res = await fetch(path + '?v=' + Date.now(), { cache: 'no-store' });
+  if (!res.ok) throw new Error(path + ' を読み込めませんでした');
+  return await res.json();
+}
+
+async function loadLiterature() {
+  const status = document.getElementById('status');
+  const content = document.getElementById('content');
+  const toolbar = document.getElementById('toolbar');
+  status.style.display = 'block';
+  status.textContent = '文学カードを読み込み中…';
+  content.innerHTML = '';
+  toolbar.style.display = 'none';
+
+  try {
+    const manifest = await fetchJson('literature-manifest.json');
+    const groups = await Promise.all(manifest.map(file => fetchJson(file)));
+    allCards = groups.flat().sort((a, b) => Number(a.chapter) - Number(b.chapter));
+    status.textContent = allCards.length + '件の文学カードを読み込みました。';
+    toolbar.style.display = 'flex';
+    buildSelect();
+    renderCards();
+  } catch (err) {
+    console.error(err);
+    status.textContent = '読み込みエラー: ' + err.message;
+  }
+}
+
+function buildSelect() {
+  const sel = document.getElementById('chapterSelect');
+  sel.innerHTML = '<option value="all">全Chapter</option>' + allCards.map(c => {
+    return `<option value="${c.chapter}">Chapter ${String(c.chapter).padStart(3,'0')} — ${escapeHtml(c.title || '')}</option>`;
+  }).join('');
+  sel.value = selectedChapter;
+}
+
+function renderCards() {
+  const content = document.getElementById('content');
+  const cards = selectedChapter === 'all' ? allCards : allCards.filter(c => String(c.chapter) === String(selectedChapter));
+  content.innerHTML = cards.map(renderCard).join('');
+}
+
+function renderCard(card) {
+  const chunks = (card.chunks || []).map(ch => `
+    <div class="chunk">
+      <div class="chunk-en">${escapeHtml(ch.en || '')}</div>
+      <div class="chunk-ja">${escapeHtml(ch.ja || '')}</div>
+    </div>
+  `).join('');
+  const grammar = (card.grammar || []).map(g => `<li>${escapeHtml(g)}</li>`).join('');
+  const keywords = (card.keywords || []).map(k => `<span class="kw">${escapeHtml(k)}</span>`).join('');
+
+  return `
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="chapter">CHAPTER ${String(card.chapter).padStart(3,'0')}</div>
+          <div class="title">${escapeHtml(card.title || '')}</div>
+        </div>
+        <div class="id">${escapeHtml(card.id || '')}</div>
+      </div>
+
+      <div class="section-title">Original</div>
+      <div class="jp">${escapeHtml(card.jp || '')}</div>
+
+      <div class="section-title">Natural Translation</div>
+      <div class="en-main">${escapeHtml(card.translationNatural || '')}</div>
+      <div class="en-sub">Literal: ${escapeHtml(card.translationLiteral || '')}</div>
+
+      <div class="section-title">Chunks</div>
+      <div>${chunks}</div>
+
+      <div class="section-title">Grammar</div>
+      <ol class="grammar">${grammar}</ol>
+
+      <div class="section-title">Reading Point</div>
+      <div class="reading">${escapeHtml(card.readingPoint || '')}</div>
+
+      <div class="keywords">${keywords}</div>
+    </article>
+  `;
+}
+
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+document.getElementById('reloadBtn').addEventListener('click', loadLiterature);
+document.getElementById('showAllBtn').addEventListener('click', () => {
+  selectedChapter = 'all';
+  document.getElementById('chapterSelect').value = 'all';
+  renderCards();
+});
+document.getElementById('chapterSelect').addEventListener('change', (e) => {
+  selectedChapter = e.target.value;
+  renderCards();
+});
+
+loadLiterature();
+</script>
+</body>
+</html>
