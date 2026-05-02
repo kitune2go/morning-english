@@ -58,6 +58,9 @@
   .reading { font-size: 13px; line-height: 1.8; color: #44403c; padding: 12px; background: #fef3c7; border: 1px solid #d6d3d1; }
   .keywords { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
   .kw { font-size: 10px; padding: 3px 7px; background: #e7e5e4; color: #57534e; }
+  .speech-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 12px; }
+  .speak-btn { border-color: #57534e; background: #fafaf9; }
+  .speak-btn.speaking { background: #1c1917; color: #f5f0df; border-color: #1c1917; }
   .footer { text-align: center; margin-top: 32px; padding-top: 20px; border-top: 1px solid #d6d3d1; color: #a8a29e; font-size: 11px; }
 </style>
 </head>
@@ -70,6 +73,7 @@
     <div class="nav">
       <a class="btn" href="index.html">← 毎朝の英語</a>
       <button class="btn primary" id="reloadBtn">↻ 再読み込み</button>
+      <button class="btn" id="stopSpeechBtn">■ 読み上げ停止</button>
     </div>
   </header>
 
@@ -92,6 +96,7 @@ let works = [];
 let currentWork = null;
 let allCards = [];
 let selectedChapter = 'all';
+let speakingButton = null;
 
 async function fetchJson(path) {
   const res = await fetch(path + '?v=' + Date.now(), { cache: 'no-store' });
@@ -100,6 +105,7 @@ async function fetchJson(path) {
 }
 
 async function loadLiterature() {
+  stopSpeech();
   const status = document.getElementById('status');
   const content = document.getElementById('content');
   const toolbar = document.getElementById('toolbar');
@@ -124,6 +130,7 @@ async function loadLiterature() {
 }
 
 async function loadCurrentWork() {
+  stopSpeech();
   const status = document.getElementById('status');
   const toolbar = document.getElementById('toolbar');
   status.textContent = `『${currentWork.title}』を読み込み中…`;
@@ -166,6 +173,7 @@ function renderWorkInfo() {
 }
 
 function renderCards() {
+  stopSpeech();
   const content = document.getElementById('content');
   const cards = selectedChapter === 'all' ? allCards : allCards.filter(c => String(c.chapter) === String(selectedChapter));
   content.innerHTML = cards.map(renderCard).join('');
@@ -177,6 +185,9 @@ function renderCard(card) {
   `).join('');
   const grammar = (card.grammar || []).map(g => `<li>${escapeHtml(g)}</li>`).join('');
   const keywords = (card.keywords || []).map(k => `<span class="kw">${escapeHtml(k)}</span>`).join('');
+  const natural = escapeHtml(card.translationNatural || '');
+  const literal = escapeHtml(card.translationLiteral || '');
+  const speakText = escapeAttr(card.translationNatural || card.translationLiteral || '');
   return `
     <article class="card">
       <div class="card-head">
@@ -184,7 +195,13 @@ function renderCard(card) {
         <div class="id">${escapeHtml(card.id || '')}</div>
       </div>
       <div class="section-title">Original</div><div class="jp">${escapeHtml(card.jp || '')}</div>
-      <div class="section-title">Natural Translation</div><div class="en-main">${escapeHtml(card.translationNatural || '')}</div><div class="en-sub">Literal: ${escapeHtml(card.translationLiteral || '')}</div>
+      <div class="section-title">Natural Translation</div>
+      <div class="en-main">${natural}</div>
+      <div class="speech-row">
+        <button class="btn speak-btn" onclick="speakText(this, '${speakText}', 'en-US')">▶ 英語</button>
+        <button class="btn speak-btn" onclick="speakText(this, '${escapeAttr(card.jp || '')}', 'ja-JP')">▶ 日本語</button>
+      </div>
+      <div class="en-sub">Literal: ${literal}</div>
       <div class="section-title">Chunks</div><div>${chunks}</div>
       <div class="section-title">Grammar</div><ol class="grammar">${grammar}</ol>
       <div class="section-title">Reading Point</div><div class="reading">${escapeHtml(card.readingPoint || '')}</div>
@@ -192,11 +209,51 @@ function renderCard(card) {
     </article>`;
 }
 
+function speakText(button, text, lang) {
+  if (!('speechSynthesis' in window)) {
+    alert('このブラウザは音声読み上げに対応していません。');
+    return;
+  }
+  const clean = String(text || '').trim();
+  if (!clean) return;
+  stopSpeech();
+  const utterance = new SpeechSynthesisUtterance(clean);
+  utterance.lang = lang || 'en-US';
+  utterance.rate = lang === 'ja-JP' ? 0.95 : 0.82;
+  utterance.pitch = 1;
+  utterance.onstart = () => {
+    speakingButton = button;
+    button.classList.add('speaking');
+    button.textContent = lang === 'ja-JP' ? '■ 日本語' : '■ 英語';
+  };
+  utterance.onend = resetSpeakingButton;
+  utterance.onerror = resetSpeakingButton;
+  window.speechSynthesis.speak(utterance);
+}
+
+function stopSpeech() {
+  if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+  resetSpeakingButton();
+}
+
+function resetSpeakingButton() {
+  if (speakingButton) {
+    const isJapanese = speakingButton.textContent.includes('日本語');
+    speakingButton.classList.remove('speaking');
+    speakingButton.textContent = isJapanese ? '▶ 日本語' : '▶ 英語';
+    speakingButton = null;
+  }
+}
+
 function escapeHtml(str) {
   return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
 }
+function escapeAttr(str) {
+  return escapeHtml(str).replace(/\n/g, ' ');
+}
 
 document.getElementById('reloadBtn').addEventListener('click', loadLiterature);
+document.getElementById('stopSpeechBtn').addEventListener('click', stopSpeech);
 document.getElementById('showAllBtn').addEventListener('click', () => {
   selectedChapter = 'all';
   document.getElementById('chapterSelect').value = 'all';
