@@ -4,5 +4,12 @@
     "title": "地下鉄のコンヴィヴィウム",
     "description": "地下鉄の車両で交差する、記録されない共在と労働の感覚を扱う短編。",
     "manifest": "literature/convivium/manifest.json"
+  },
+  {
+    "workId": "convivium-sentence",
+    "title": "地下鉄のコンヴィヴィウム｜全文翻訳",
+    "description": "日本語原文を文章単位で自然英訳・直訳・チャンク・文法・翻訳メモに分解する全文翻訳版。",
+    "manifest": "literature/convivium-sentence/manifest.json",
+    "mode": "sentence-translation"
   }
 ]
