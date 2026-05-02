@@ -1,0 +1,72 @@
+[
+  {
+    "id": "LC001",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 1,
+    "title": "終電の二本前",
+    "jp": "終電の二本前の電車に、私はいつも乗っている。",
+    "translationLiteral": "I always ride the train two before the last train.",
+    "translationNatural": "I usually take the train that comes two trains before the last.",
+    "chunks": [
+      { "en": "I usually take", "ja": "私はたいてい乗る" },
+      { "en": "the train", "ja": "その電車に" },
+      { "en": "that comes", "ja": "やって来る" },
+      { "en": "two trains before", "ja": "二本前に" },
+      { "en": "the last", "ja": "最終電車の" }
+    ],
+    "grammar": [
+      "I usually take はSVO構造。",
+      "usually は頻度を表す副詞。",
+      "the train that comes... は関係詞節でtrainを修飾。",
+      "two trains before the last は順序・位置関係を表す。"
+    ],
+    "readingPoint": "終電ではなく二本前という微妙な位置が、疲労しながらも生活を崩しきらない人物のリズムを示している。",
+    "keywords": ["train", "routine", "late night", "fatigue"]
+  },
+  {
+    "id": "LC002",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 2,
+    "title": "座らない理由",
+    "jp": "座席に座らないのは、座ると眠ってしまうからだ。",
+    "translationLiteral": "The reason I do not sit in a seat is that if I sit, I will fall asleep.",
+    "translationNatural": "I avoid sitting down because I know I will fall asleep if I do.",
+    "chunks": [
+      { "en": "I avoid sitting down", "ja": "私は座ることを避ける" },
+      { "en": "because I know", "ja": "なぜなら分かっているから" },
+      { "en": "I will fall asleep", "ja": "眠ってしまうと" },
+      { "en": "if I do", "ja": "もしそうしたら" }
+    ],
+    "grammar": [
+      "avoid + 動名詞で『〜することを避ける』。",
+      "because は理由を導く接続詞。",
+      "if I do のdoはsit downを受ける代動詞。",
+      "will fall asleep は未来・予測の表現。"
+    ],
+    "readingPoint": "座らないという動作が、経験から生まれた自己防衛として描かれている。人物の疲労は直接説明されず、行動から示される。",
+    "keywords": ["avoid", "sleep", "self-control", "commute"]
+  },
+  {
+    "id": "LC003",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 3,
+    "title": "冷たい蛍光灯",
+    "jp": "蛍光灯が冷たく、座席のプラスチックに白く反射している。",
+    "translationLiteral": "The fluorescent lights are cold and reflect white on the plastic seats.",
+    "translationNatural": "The fluorescent lights feel cold, reflecting white against the plastic seats.",
+    "chunks": [
+      { "en": "The fluorescent lights", "ja": "蛍光灯が" },
+      { "en": "feel cold", "ja": "冷たく感じられる" },
+      { "en": "reflecting white", "ja": "白く反射しながら" },
+      { "en": "against the plastic seats", "ja": "プラスチックの座席に" }
+    ],
+    "grammar": [
+      "feel + 形容詞で感覚を表す。",
+      "reflecting は分詞構文で同時進行の状態を示す。",
+      "against は反射面・接触面を示す前置詞。",
+      "物理描写を通じて心理的な冷たさも表現している。"
+    ],
+    "readingPoint": "車内の白い反射は単なる描写ではなく、都市の無機質さと深夜の孤独感を支える視覚的な装置になっている。",
+    "keywords": ["fluorescent", "cold", "reflection", "urban solitude"]
+  }
+]
