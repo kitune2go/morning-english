@@ -1,0 +1,75 @@
+[
+  {
+    "id": "LC007",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 7,
+    "title": "アルゴリズムの視野の外",
+    "jp": "アルゴリズムの視野の外で、私たちはただ、同じ車両に乗り合わせている。",
+    "translationLiteral": "Outside the view of the algorithm, we are simply riding together in the same train car.",
+    "translationNatural": "Outside the algorithm’s field of vision, we are simply sharing the same train car.",
+    "chunks": [
+      { "en": "Outside the algorithm’s field of vision", "ja": "アルゴリズムの視野の外で" },
+      { "en": "we are simply sharing", "ja": "私たちはただ共有している" },
+      { "en": "the same train car", "ja": "同じ車両を" }
+    ],
+    "grammar": [
+      "Outside は範囲の外側を表す前置詞。",
+      "the algorithm’s field of vision は所有格を用いた抽象表現。",
+      "are sharing は現在進行形で、その場における共在を表す。",
+      "simply は価値判断を削ぎ落とし、ただそこにある状態を強調する。"
+    ],
+    "readingPoint": "SNSやアルゴリズムによる可視化経済の外側で成立する、記録されない共在を示している。作品の批評性が明確になる章。",
+    "keywords": ["algorithm", "visibility", "sharing", "train car"]
+  },
+  {
+    "id": "LC008",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 8,
+    "title": "ペンチを一本だけ",
+    "jp": "隣のラインの先輩が、何も言わず、私のところまで歩いてきて、私の機械を一目見て、ペンチを一本だけ私の作業台に置いて、また自分の持ち場に戻っていった。",
+    "translationLiteral": "A senior worker from the next line came to me without saying anything, looked once at my machine, placed only one pair of pliers on my workbench, and returned to his own station.",
+    "translationNatural": "A senior worker from the next line walked over without saying anything, looked at my machine once, placed a pair of pliers on my workbench, and returned to his station.",
+    "chunks": [
+      { "en": "A senior worker from the next line", "ja": "隣のラインの先輩が" },
+      { "en": "walked over", "ja": "歩いてきた" },
+      { "en": "without saying anything", "ja": "何も言わずに" },
+      { "en": "looked at my machine once", "ja": "私の機械を一目見た" },
+      { "en": "placed a pair of pliers", "ja": "ペンチを一本置いた" },
+      { "en": "on my workbench", "ja": "私の作業台に" },
+      { "en": "and returned to his station", "ja": "そして自分の持ち場へ戻った" }
+    ],
+    "grammar": [
+      "A senior worker from the next line は主語を詳しく説明する名詞句。",
+      "without saying anything は付帯状況を表す。",
+      "looked / placed / returned が連続動作として並列されている。",
+      "place A on B は『AをBに置く』という配置構文。"
+    ],
+    "readingPoint": "言葉ではなく道具が意味を運ぶ場面。説明や称賛ではなく、適切な道具の配置によって支援が成立している。",
+    "keywords": ["pliers", "factory", "silent help", "workbench"]
+  },
+  {
+    "id": "LC009",
+    "sourceTitle": "地下鉄のコンヴィヴィウム",
+    "chapter": 9,
+    "title": "KPIに乗らないもの",
+    "jp": "KPIに乗らないもの。投稿できないもの。記号化できないもの。徴税されないもの。誰の経済にも算入されないもの。",
+    "translationLiteral": "Things that do not appear in KPIs. Things that cannot be posted. Things that cannot be symbolized. Things that are not taxed. Things that are counted in no one’s economy.",
+    "translationNatural": "Things that never appear in KPIs. Things that cannot be posted, symbolized, taxed, or counted in anyone’s economy.",
+    "chunks": [
+      { "en": "Things that never appear in KPIs", "ja": "KPIに決して現れないもの" },
+      { "en": "things that cannot be posted", "ja": "投稿できないもの" },
+      { "en": "symbolized", "ja": "記号化されないもの" },
+      { "en": "taxed", "ja": "徴税されないもの" },
+      { "en": "or counted", "ja": "あるいは算入されないもの" },
+      { "en": "in anyone’s economy", "ja": "誰の経済にも" }
+    ],
+    "grammar": [
+      "Things that... の反復により、抽象概念を列挙している。",
+      "cannot be + 過去分詞 は受動態の不可能表現。",
+      "posted, symbolized, taxed, or counted は並列構造。",
+      "anyone’s economy は制度的・経済的な算入範囲を表す。"
+    ],
+    "readingPoint": "作品の思想的中心。観測・投稿・記号化・課税・経済計算から漏れる価値を肯定している。",
+    "keywords": ["KPI", "unmeasured value", "economy", "invisibility"]
+  }
+]
