@@ -1,0 +1,269 @@
+[
+  {
+    "_no": 101,
+    "_generatedAt": "2026-05-03T10:00:00",
+    "sentence": "I observe patterns that appear in ordinary moments every morning, which helps me understand daily life more deeply than before.",
+    "phonetic": "アイ オブザーブ パターンズ ザット アピア イン オーディナリー モーメンツ エヴリ モーニング, ウィッチ ヘルプス ミー アンダースタンド デイリー ライフ モア ディープリー ザン ビフォー",
+    "japaneseTranslation": "私は毎朝、何気ない瞬間に現れるパターンを観察している。それが以前よりも日常生活を深く理解する助けになっている。",
+    "theme": "観察",
+    "coreVerb": "observe",
+    "generateLayer": {
+      "phase1": { "sentence": "I observe.", "translation": "私は観察する。" },
+      "phase2": { "sentence": "I observe patterns every morning.", "translation": "私は毎朝パターンを観察する。", "addedChunks": "目的語(patterns)と時間(every morning)を追加" },
+      "phase3": { "sentence": "I observe patterns because they appear in ordinary moments.", "translation": "何気ない瞬間に現れるので、私はパターンを観察する。", "connector": "because" },
+      "phase4": { "sentence": "I understand daily life more deeply than before.", "translation": "私は以前より日常生活を深く理解する。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I observe patterns that appear in ordinary moments every morning.", "translation": "私は毎朝、何気ない瞬間に現れるパターンを観察する。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I observe", "function": "行動", "translation": "私は観察する" },
+        { "text": "patterns", "function": "対象", "translation": "パターンを" },
+        { "text": "that appear in ordinary moments", "function": "修飾", "translation": "何気ない瞬間に現れる" },
+        { "text": "every morning", "function": "時間", "translation": "毎朝" },
+        { "text": "which helps me understand", "function": "結果", "translation": "それが私の理解を助ける" },
+        { "text": "daily life", "function": "対象", "translation": "日常生活を" },
+        { "text": "more deeply than before", "function": "比較", "translation": "以前より深く" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I observe / appear / helps", "explanation": "習慣的な観察行為を表す現在形。every morning と組み合わせて反復を示す。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "関係詞", "name": "関係代名詞 that", "where": "patterns that appear", "explanation": "patternsを後ろから説明する制限用法。", "rule": "名詞 + that + 動詞句" },
+        { "category": "関係詞", "name": "関係代名詞 which", "where": ", which helps", "explanation": "前文全体を受けて結果を表す。", "rule": "文 + , which + 動詞" },
+        { "category": "比較", "name": "more deeply than", "where": "more deeply than before", "explanation": "副詞deeplyの比較級。-ly副詞はmoreを使う。", "rule": "more + 副詞 + than" },
+        { "category": "前置詞", "name": "in", "where": "in ordinary moments", "explanation": "出来事が現れる場面・文脈を示す。", "rule": "in + 名詞句" },
+        { "category": "副詞", "name": "every morning", "where": "every morning", "explanation": "頻度・時間を表す副詞句。", "rule": "every + 時間名詞" },
+        { "category": "動詞パターン", "name": "help + O + 動詞原形", "where": "helps me understand", "explanation": "helpの後はto不定詞も原形も可能。ここでは簡潔に原形を使用。", "rule": "help + 目的語 + 動詞原形" }
+      ],
+      "errors": [
+        { "wrong": "I observe patterns which appears in ordinary moments.", "correct": "I observe patterns that appear in ordinary moments.", "why": "先行詞patternsは複数なのでappearにする。" },
+        { "wrong": "It helps me understanding daily life.", "correct": "It helps me understand daily life.", "why": "help + 目的語 の後は動詞原形が自然。" },
+        { "wrong": "more deep than before", "correct": "more deeply than before", "why": "understandを修飾するので形容詞deepではなく副詞deeplyを使う。" }
+      ],
+      "variants": [
+        { "text": "I observe small patterns every morning.", "translation": "私は毎朝、小さなパターンを観察する。" },
+        { "text": "Ordinary moments reveal patterns.", "translation": "何気ない瞬間がパターンを明かす。" },
+        { "text": "Observation deepens my understanding.", "translation": "観察が私の理解を深める。" }
+      ],
+      "parseTree": "S(I) V(observe) O(patterns) [Rel: that appear in ordinary moments] [Adv: every morning], [Rel: which helps O(me) V(understand) O(daily life) [Adv: more deeply than before]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they appear", "expanded": "since they appear", "nuance": "既知の理由として穏やかに示す" },
+        { "original": "because they appear", "expanded": "as they appear", "nuance": "同時性を帯びた理由" },
+        { "original": "because they appear", "expanded": "due to their appearance", "nuance": "名詞句で文書的に原因を示す" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Patterns that appear in ordinary moments are observed by me every morning.", "translation": "何気ない瞬間に現れるパターンは、私によって毎朝観察される。", "note": "対象を主語にした受動態" },
+        { "type": "分詞構文", "sentence": "Observing patterns in ordinary moments, I understand daily life more deeply.", "translation": "何気ない瞬間のパターンを観察することで、日常生活をより深く理解する。", "note": "Observingで副詞的に接続" },
+        { "type": "名詞化", "sentence": "The observation of ordinary patterns deepens my understanding of daily life.", "translation": "日常的なパターンの観察が、日常生活への理解を深める。", "note": "observeをobservationへ名詞化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "observe", "alternatives": ["notice", "watch", "detect", "recognize"], "nuance": "observeは意識的に観察、noticeは気づく、detectは検出する、recognizeは認識する" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "Every morning, I observe patterns in ordinary moments.", "translation": "毎朝、何気ない瞬間のパターンを観察している。" },
+          { "type": "What", "sentence": "What I observe every morning helps me understand life.", "translation": "私が毎朝観察するものが、人生の理解を助ける。" }
+        ],
+        "comparison": [
+          { "sentence": "I understand ordinary life more deeply now than I did before.", "translation": "今は以前より日常生活を深く理解している。" }
+        ],
+        "conditional": [
+          { "sentence": "If I observe carefully, ordinary moments become meaningful.", "translation": "注意深く観察すれば、何気ない瞬間が意味を持つ。" }
+        ],
+        "emphasis": [
+          { "sentence": "It is observation that turns ordinary moments into insight.", "translation": "何気ない瞬間を洞察に変えるのは観察である。" }
+        ],
+        "compression": [
+          { "sentence": "Observation makes daily life deeper.", "translation": "観察が日常を深くする。" },
+          { "sentence": "I notice patterns and understand more.", "translation": "パターンに気づき、より理解する。" }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "日常観察と読解力を接続するカード。関係詞thatとwhich、比較級副詞more deeplyを同時に練習できる。"
+    }
+  },
+  {
+    "_no": 102,
+    "_generatedAt": "2026-05-03T10:01:00",
+    "sentence": "I translate sentences that contain subtle feelings into English, which trains me to read context more carefully than before.",
+    "phonetic": "アイ トランスレイト センテンシズ ザット コンテイン サトル フィーリングズ イントゥ イングリッシュ, ウィッチ トレインズ ミー トゥ リード コンテクスト モア ケアフリー ザン ビフォー",
+    "japaneseTranslation": "私は微妙な感情を含む文を英語に訳している。それが以前よりも文脈を注意深く読む訓練になっている。",
+    "theme": "翻訳",
+    "coreVerb": "translate",
+    "generateLayer": {
+      "phase1": { "sentence": "I translate.", "translation": "私は翻訳する。" },
+      "phase2": { "sentence": "I translate sentences into English.", "translation": "私は文を英語に翻訳する。", "addedChunks": "目的語(sentences)と方向(into English)を追加" },
+      "phase3": { "sentence": "I translate sentences because they contain subtle feelings.", "translation": "微妙な感情を含むので、私は文を翻訳する。", "connector": "because" },
+      "phase4": { "sentence": "I read context more carefully than before.", "translation": "私は以前より文脈を注意深く読む。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I translate sentences that contain subtle feelings into English.", "translation": "私は微妙な感情を含む文を英語に翻訳する。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I translate", "function": "行動", "translation": "私は翻訳する" },
+        { "text": "sentences", "function": "対象", "translation": "文を" },
+        { "text": "that contain subtle feelings", "function": "修飾", "translation": "微妙な感情を含む" },
+        { "text": "into English", "function": "結果", "translation": "英語へ" },
+        { "text": "which trains me", "function": "結果", "translation": "それが私を鍛える" },
+        { "text": "to read context", "function": "目的", "translation": "文脈を読むように" },
+        { "text": "more carefully than before", "function": "比較", "translation": "以前より注意深く" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I translate / contain / trains", "explanation": "習慣・継続的な学習行為を表す現在形。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "関係詞", "name": "関係代名詞 that", "where": "sentences that contain", "explanation": "sentencesを後ろから説明する制限用法。", "rule": "名詞 + that + 動詞句" },
+        { "category": "関係詞", "name": "関係代名詞 which", "where": ", which trains me", "explanation": "前文全体を受けて結果を示す。", "rule": "文 + , which + 動詞" },
+        { "category": "比較", "name": "more carefully than", "where": "more carefully than before", "explanation": "副詞carefullyの比較級。", "rule": "more + 副詞 + than" },
+        { "category": "前置詞", "name": "into", "where": "into English", "explanation": "変換後の状態・言語を示す。", "rule": "translate A into B" },
+        { "category": "不定詞", "name": "to read", "where": "trains me to read", "explanation": "訓練の方向・目的を示す。", "rule": "train + O + to do" },
+        { "category": "副詞", "name": "carefully", "where": "read context more carefully", "explanation": "動詞readを修飾する副詞。", "rule": "動詞 + 副詞" }
+      ],
+      "errors": [
+        { "wrong": "I translate sentences to English.", "correct": "I translate sentences into English.", "why": "translate A into B が自然な型。" },
+        { "wrong": "which trains me read context", "correct": "which trains me to read context", "why": "train + O の後はto不定詞が必要。" },
+        { "wrong": "more careful than before", "correct": "more carefully than before", "why": "readを修飾するので形容詞carefulではなく副詞carefully。" }
+      ],
+      "variants": [
+        { "text": "I translate emotional sentences.", "translation": "感情を含む文を訳している。" },
+        { "text": "Translation trains my reading.", "translation": "翻訳は読解を鍛える。" },
+        { "text": "I read context carefully.", "translation": "文脈を注意深く読む。" }
+      ],
+      "parseTree": "S(I) V(translate) O(sentences) [Rel: that contain subtle feelings] [Prep: into English], [Rel: which trains O(me) [Inf: to read context] [Adv: more carefully than before]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they contain subtle feelings", "expanded": "since they contain subtle feelings", "nuance": "理由をややフォーマルに提示" },
+        { "original": "because they contain subtle feelings", "expanded": "as they contain subtle feelings", "nuance": "副次的な理由として自然" },
+        { "original": "because they contain subtle feelings", "expanded": "due to the subtle feelings they contain", "nuance": "文書的・分析的" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Sentences that contain subtle feelings are translated into English by me.", "translation": "微妙な感情を含む文は、私によって英語に翻訳される。", "note": "translate A into Bの受動態" },
+        { "type": "分詞構文", "sentence": "Translating sentences with subtle feelings, I learn to read context carefully.", "translation": "微妙な感情を含む文を翻訳することで、文脈を注意深く読むことを学ぶ。", "note": "Translatingで副詞的に接続" },
+        { "type": "名詞化", "sentence": "The translation of subtle feelings trains careful reading.", "translation": "微妙な感情の翻訳が、注意深い読解を鍛える。", "note": "translateをtranslationへ名詞化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "translate", "alternatives": ["render", "interpret", "express", "convert"], "nuance": "renderは訳出、interpretは解釈、expressは表現、convertは変換" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "Every day, I translate sentences that carry subtle feelings.", "translation": "毎日、微妙な感情を帯びた文を翻訳している。" },
+          { "type": "What", "sentence": "What I translate teaches me how context works.", "translation": "私が翻訳するものが、文脈の働きを教えてくれる。" }
+        ],
+        "comparison": [
+          { "sentence": "I read context more carefully now than I did before.", "translation": "今は以前より文脈を注意深く読んでいる。" }
+        ],
+        "conditional": [
+          { "sentence": "If I translate carefully, I notice hidden meaning.", "translation": "注意深く翻訳すれば、隠れた意味に気づく。" }
+        ],
+        "emphasis": [
+          { "sentence": "It is context that makes translation meaningful.", "translation": "翻訳を意味あるものにするのは文脈である。" }
+        ],
+        "compression": [
+          { "sentence": "Translation sharpens my reading.", "translation": "翻訳が読解を鋭くする。" },
+          { "sentence": "I translate, so I read better.", "translation": "翻訳するから、より読める。" }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "翻訳学習と読解力を結びつける実践的なカード。translate A into B、train O to do、比較級副詞をまとめて扱える。"
+    }
+  },
+  {
+    "_no": 103,
+    "_generatedAt": "2026-05-03T10:02:00",
+    "sentence": "I listen to phrases that sound natural in conversation, which helps me speak more smoothly than I could by memorizing rules alone.",
+    "phonetic": "アイ リスン トゥ フレイジズ ザット サウンド ナチュラル イン カンヴァセイション, ウィッチ ヘルプス ミー スピーク モア スムーズリー ザン アイ クッド バイ メモライジング ルールズ アローン",
+    "japaneseTranslation": "私は会話で自然に聞こえるフレーズを聞いている。それが、ルールだけを暗記する場合よりも滑らかに話す助けになっている。",
+    "theme": "会話",
+    "coreVerb": "listen",
+    "generateLayer": {
+      "phase1": { "sentence": "I listen.", "translation": "私は聞く。" },
+      "phase2": { "sentence": "I listen to phrases in conversation.", "translation": "私は会話の中のフレーズを聞く。", "addedChunks": "目的語(phrases)と場所(in conversation)を追加" },
+      "phase3": { "sentence": "I listen to phrases because they sound natural.", "translation": "自然に聞こえるので、私はフレーズを聞く。", "connector": "because" },
+      "phase4": { "sentence": "I speak more smoothly than by memorizing rules alone.", "translation": "ルールだけを暗記するより滑らかに話す。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I listen to phrases that sound natural in conversation.", "translation": "私は会話で自然に聞こえるフレーズを聞く。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I listen to", "function": "行動", "translation": "私は〜を聞く" },
+        { "text": "phrases", "function": "対象", "translation": "フレーズを" },
+        { "text": "that sound natural", "function": "修飾", "translation": "自然に聞こえる" },
+        { "text": "in conversation", "function": "場所", "translation": "会話の中で" },
+        { "text": "which helps me speak", "function": "結果", "translation": "それが話す助けになる" },
+        { "text": "more smoothly", "function": "様態", "translation": "より滑らかに" },
+        { "text": "than I could by memorizing rules alone", "function": "比較", "translation": "ルールだけを暗記する場合より" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I listen / sound / helps", "explanation": "習慣的なリスニング練習を表す現在形。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "句動詞", "name": "listen to", "where": "listen to phrases", "explanation": "listenは目的語を直接取らず、toを使う。", "rule": "listen to + 名詞" },
+        { "category": "関係詞", "name": "関係代名詞 that", "where": "phrases that sound", "explanation": "phrasesを後ろから修飾する。", "rule": "名詞 + that + 動詞句" },
+        { "category": "関係詞", "name": "関係代名詞 which", "where": ", which helps", "explanation": "前文全体を受ける結果のwhich。", "rule": "文 + , which + 動詞" },
+        { "category": "比較", "name": "more smoothly than", "where": "more smoothly than I could", "explanation": "副詞smoothlyの比較級。", "rule": "more + 副詞 + than" },
+        { "category": "動名詞", "name": "by + V-ing", "where": "by memorizing", "explanation": "手段を表すbyの後は動名詞。", "rule": "by + V-ing" },
+        { "category": "副詞", "name": "alone", "where": "rules alone", "explanation": "aloneは『それだけで』という限定を表す。", "rule": "名詞 + alone" }
+      ],
+      "errors": [
+        { "wrong": "I listen phrases that sound natural.", "correct": "I listen to phrases that sound natural.", "why": "listenは直接目的語を取らず、listen toにする。" },
+        { "wrong": "which helps me speaking smoothly", "correct": "which helps me speak smoothly", "why": "help + 目的語の後は動詞原形が自然。" },
+        { "wrong": "by memorize rules alone", "correct": "by memorizing rules alone", "why": "前置詞byの後は動名詞。" }
+      ],
+      "variants": [
+        { "text": "I listen to natural phrases.", "translation": "自然なフレーズを聞いている。" },
+        { "text": "Natural phrases help me speak.", "translation": "自然なフレーズが話す助けになる。" },
+        { "text": "Rules alone are not enough.", "translation": "ルールだけでは十分ではない。" }
+      ],
+      "parseTree": "S(I) V(listen to) O(phrases) [Rel: that sound natural] [Prep: in conversation], [Rel: which helps O(me) V(speak) [Adv: more smoothly] [than I could by memorizing rules alone]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they sound natural", "expanded": "since they sound natural", "nuance": "理由を落ち着いて提示" },
+        { "original": "because they sound natural", "expanded": "as they sound natural", "nuance": "緩やかな理由" },
+        { "original": "because they sound natural", "expanded": "due to their natural sound", "nuance": "名詞句で文書的" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Phrases that sound natural in conversation are listened to by me.", "translation": "会話で自然に聞こえるフレーズは、私によって聞かれる。", "note": "listen toの受動態ではtoを残す" },
+        { "type": "分詞構文", "sentence": "Listening to natural phrases, I speak more smoothly.", "translation": "自然なフレーズを聞くことで、より滑らかに話す。", "note": "Listeningで副詞的に接続" },
+        { "type": "名詞化", "sentence": "Listening to natural phrases improves my fluency.", "translation": "自然なフレーズを聞くことが流暢さを高める。", "note": "動名詞を主語化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "listen to", "alternatives": ["hear", "absorb", "imitate", "notice"], "nuance": "listen toは意識的に聞く、hearは聞こえる、absorbは吸収する、imitateは真似る、noticeは気づく" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "In conversation, I listen for phrases that sound natural.", "translation": "会話の中で、自然に聞こえるフレーズに耳を向ける。" },
+          { "type": "What", "sentence": "What I listen to shapes how I speak.", "translation": "私が聞くものが、話し方を形作る。" }
+        ],
+        "comparison": [
+          { "sentence": "I speak more smoothly now than I did when I only memorized rules.", "translation": "ルールだけを暗記していた頃より、今は滑らかに話せる。" }
+        ],
+        "conditional": [
+          { "sentence": "If I listen to natural phrases, I can speak more naturally.", "translation": "自然なフレーズを聞けば、より自然に話せる。" }
+        ],
+        "emphasis": [
+          { "sentence": "It is natural input that improves my speaking.", "translation": "私のスピーキングを向上させるのは自然なインプットである。" }
+        ],
+        "compression": [
+          { "sentence": "Natural input improves speech.", "translation": "自然なインプットが発話を改善する。" },
+          { "sentence": "I listen, then speak better.", "translation": "聞いて、それからよりよく話す。" }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 8,
+      "efficiency": 9,
+      "comment": "音声学習と会話力を接続するカード。listen to、sound natural、by memorizingなど、会話学習に直結する表現がまとまっている。"
+    }
+  }
+]
