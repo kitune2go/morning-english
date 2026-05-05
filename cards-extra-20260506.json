@@ -1,0 +1,269 @@
+[
+  {
+    "_no": 104,
+    "_generatedAt": "2026-05-06T10:00:00",
+    "sentence": "I compare ideas that seem similar at first, which helps me notice small differences more clearly than before.",
+    "phonetic": "アイ コンペア アイディアズ ザット シーム シミラー アット ファースト, ウィッチ ヘルプス ミー ノーティス スモール ディファレンシズ モア クリアリー ザン ビフォー",
+    "japaneseTranslation": "私は最初は似て見える考えを比較している。それが以前よりも小さな違いに明確に気づく助けになっている。",
+    "theme": "比較と思考",
+    "coreVerb": "compare",
+    "generateLayer": {
+      "phase1": { "sentence": "I compare.", "translation": "私は比較する。" },
+      "phase2": { "sentence": "I compare ideas every day.", "translation": "私は毎日考えを比較する。", "addedChunks": "目的語(ideas)と時間(every day)を追加" },
+      "phase3": { "sentence": "I compare ideas because they seem similar at first.", "translation": "最初は似て見えるので、私は考えを比較する。", "connector": "because" },
+      "phase4": { "sentence": "I notice small differences more clearly than before.", "translation": "私は以前より小さな違いに明確に気づく。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I compare ideas that seem similar at first.", "translation": "私は最初は似て見える考えを比較する。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I compare", "function": "行動", "translation": "私は比較する" },
+        { "text": "ideas", "function": "対象", "translation": "考えを" },
+        { "text": "that seem similar", "function": "修飾", "translation": "似て見える" },
+        { "text": "at first", "function": "時間", "translation": "最初は" },
+        { "text": "which helps me notice", "function": "結果", "translation": "それが私の気づきを助ける" },
+        { "text": "small differences", "function": "対象", "translation": "小さな違いに" },
+        { "text": "more clearly than before", "function": "比較", "translation": "以前より明確に" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I compare / seem / helps", "explanation": "習慣的な思考操作を表す現在形。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "関係詞", "name": "関係代名詞 that", "where": "ideas that seem similar", "explanation": "ideasを後ろから説明する制限用法。", "rule": "名詞 + that + 動詞句" },
+        { "category": "関係詞", "name": "関係代名詞 which", "where": ", which helps me notice", "explanation": "前文全体を受けて結果を表す。", "rule": "文 + , which + 動詞" },
+        { "category": "比較", "name": "more clearly than", "where": "more clearly than before", "explanation": "副詞clearlyの比較級。", "rule": "more + 副詞 + than" },
+        { "category": "前置詞", "name": "at first", "where": "at first", "explanation": "最初の時点を表す固定表現。", "rule": "at + 時点" },
+        { "category": "動詞パターン", "name": "help + O + 動詞原形", "where": "helps me notice", "explanation": "helpの後は目的語と動詞原形で自然に表せる。", "rule": "help + 目的語 + 動詞原形" },
+        { "category": "形容詞", "name": "similar", "where": "seem similar", "explanation": "seemの後に形容詞を置いて『〜のように見える』を表す。", "rule": "seem + 形容詞" }
+      ],
+      "errors": [
+        { "wrong": "I compare ideas that seems similar.", "correct": "I compare ideas that seem similar.", "why": "先行詞ideasは複数なのでseemにする。" },
+        { "wrong": "It helps me noticing differences.", "correct": "It helps me notice differences.", "why": "help + 目的語の後は動詞原形が自然。" },
+        { "wrong": "more clear than before", "correct": "more clearly than before", "why": "noticeを修飾するので形容詞clearではなく副詞clearlyを使う。" }
+      ],
+      "variants": [
+        { "text": "I compare similar ideas.", "translation": "似た考えを比較する。" },
+        { "text": "Small differences become visible.", "translation": "小さな違いが見えるようになる。" },
+        { "text": "Comparison sharpens my thinking.", "translation": "比較が思考を鋭くする。" }
+      ],
+      "parseTree": "S(I) V(compare) O(ideas) [Rel: that seem similar] [Adv: at first], [Rel: which helps O(me) V(notice) O(small differences) [Adv: more clearly than before]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they seem similar", "expanded": "since they seem similar", "nuance": "理由を落ち着いて示す" },
+        { "original": "because they seem similar", "expanded": "as they seem similar", "nuance": "緩やかな理由" },
+        { "original": "because they seem similar", "expanded": "due to their initial similarity", "nuance": "名詞句で分析的に表す" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Ideas that seem similar at first are compared carefully by me.", "translation": "最初は似て見える考えは、私によって注意深く比較される。", "note": "対象を主語化した受動態" },
+        { "type": "分詞構文", "sentence": "Comparing ideas that seem similar, I notice small differences more clearly.", "translation": "似て見える考えを比較することで、小さな違いにより明確に気づく。", "note": "Comparingで副詞的に接続" },
+        { "type": "名詞化", "sentence": "The comparison of similar ideas reveals small differences.", "translation": "似た考えの比較が小さな違いを明らかにする。", "note": "compareをcomparisonへ名詞化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "compare", "alternatives": ["contrast", "examine", "distinguish", "analyze"], "nuance": "compareは比較、contrastは差異を強調、examineは検討、distinguishは区別、analyzeは分析" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "At first, similar ideas can hide important differences.", "translation": "最初は、似た考えが重要な違いを隠すことがある。" },
+          { "type": "What", "sentence": "What I compare teaches me how ideas differ.", "translation": "私が比較するものが、考えの違い方を教えてくれる。" }
+        ],
+        "comparison": [
+          { "sentence": "I notice differences more clearly now than I did before.", "translation": "今は以前より違いに明確に気づく。" }
+        ],
+        "conditional": [
+          { "sentence": "If I compare carefully, hidden differences become visible.", "translation": "注意深く比較すれば、隠れた違いが見えるようになる。" }
+        ],
+        "emphasis": [
+          { "sentence": "It is comparison that reveals subtle differences.", "translation": "微妙な違いを明らかにするのは比較である。" }
+        ],
+        "compression": [
+          { "sentence": "Comparison reveals difference.", "translation": "比較が違いを明らかにする。" },
+          { "sentence": "I compare, then notice more.", "translation": "比較し、より多くに気づく。" }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "比較によって微細な差異を読む訓練になるカード。that節、which節、比較級副詞をまとめて扱える。"
+    }
+  },
+  {
+    "_no": 105,
+    "_generatedAt": "2026-05-06T10:01:00",
+    "sentence": "I rewrite sentences that feel unclear in simpler words, which makes my thoughts easier to share than before.",
+    "phonetic": "アイ リライト センテンシズ ザット フィール アンクリア イン シンプラー ワーズ, ウィッチ メイクス マイ ソーツ イージアー トゥ シェア ザン ビフォー",
+    "japaneseTranslation": "私は不明確に感じる文をより簡単な言葉で書き直している。それが以前よりも自分の考えを共有しやすくしてくれる。",
+    "theme": "言い換え",
+    "coreVerb": "rewrite",
+    "generateLayer": {
+      "phase1": { "sentence": "I rewrite.", "translation": "私は書き直す。" },
+      "phase2": { "sentence": "I rewrite sentences in simpler words.", "translation": "私は文をより簡単な言葉で書き直す。", "addedChunks": "目的語(sentences)と様態(in simpler words)を追加" },
+      "phase3": { "sentence": "I rewrite sentences because they feel unclear.", "translation": "不明確に感じるので、私は文を書き直す。", "connector": "because" },
+      "phase4": { "sentence": "My thoughts are easier to share than before.", "translation": "私の考えは以前より共有しやすい。", "comparison": "easier ... than" },
+      "phase5": { "sentence": "I rewrite sentences that feel unclear in simpler words.", "translation": "私は不明確に感じる文をより簡単な言葉で書き直す。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I rewrite", "function": "行動", "translation": "私は書き直す" },
+        { "text": "sentences", "function": "対象", "translation": "文を" },
+        { "text": "that feel unclear", "function": "修飾", "translation": "不明確に感じる" },
+        { "text": "in simpler words", "function": "様態", "translation": "より簡単な言葉で" },
+        { "text": "which makes my thoughts", "function": "結果", "translation": "それが私の考えを〜にする" },
+        { "text": "easier to share", "function": "状態", "translation": "共有しやすく" },
+        { "text": "than before", "function": "比較", "translation": "以前より" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I rewrite / feel / makes", "explanation": "習慣的な言い換え作業を表す。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "関係詞", "name": "関係代名詞 that", "where": "sentences that feel unclear", "explanation": "sentencesを後ろから修飾する。", "rule": "名詞 + that + 動詞句" },
+        { "category": "関係詞", "name": "関係代名詞 which", "where": ", which makes", "explanation": "前文全体を受ける結果のwhich。", "rule": "文 + , which + 動詞" },
+        { "category": "比較", "name": "easier than", "where": "easier to share than before", "explanation": "easyの比較級はeasier。", "rule": "比較級 + than" },
+        { "category": "前置詞", "name": "in", "where": "in simpler words", "explanation": "使用する表現手段を示す。", "rule": "in + 言語・言葉・表現" },
+        { "category": "不定詞", "name": "to share", "where": "easier to share", "explanation": "何がしやすいのかをto不定詞で説明する。", "rule": "形容詞 + to do" },
+        { "category": "動詞パターン", "name": "make + O + C", "where": "makes my thoughts easier", "explanation": "OをCの状態にする構文。", "rule": "make + 目的語 + 補語" }
+      ],
+      "errors": [
+        { "wrong": "I rewrite sentences that feels unclear.", "correct": "I rewrite sentences that feel unclear.", "why": "sentencesは複数なのでfeelにする。" },
+        { "wrong": "more easy to share", "correct": "easier to share", "why": "easyは短い形容詞なので比較級はeasier。" },
+        { "wrong": "make my thoughts to share easier", "correct": "makes my thoughts easier to share", "why": "make + O + C の語順にする。" }
+      ],
+      "variants": [
+        { "text": "I rewrite unclear sentences.", "translation": "不明確な文を書き直す。" },
+        { "text": "Simpler words help me share ideas.", "translation": "より簡単な言葉が考えの共有を助ける。" },
+        { "text": "Clear writing makes sharing easier.", "translation": "明確な文章が共有を容易にする。" }
+      ],
+      "parseTree": "S(I) V(rewrite) O(sentences) [Rel: that feel unclear] [Prep: in simpler words], [Rel: which makes O(my thoughts) C(easier to share) [than before]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they feel unclear", "expanded": "since they feel unclear", "nuance": "理由を自然に提示" },
+        { "original": "because they feel unclear", "expanded": "as they feel unclear", "nuance": "緩やかな理由" },
+        { "original": "because they feel unclear", "expanded": "due to their lack of clarity", "nuance": "名詞句で分析的" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Sentences that feel unclear are rewritten in simpler words by me.", "translation": "不明確に感じる文は、私によってより簡単な言葉で書き直される。", "note": "rewriteの受動態" },
+        { "type": "分詞構文", "sentence": "Rewriting unclear sentences in simpler words, I share my thoughts more easily.", "translation": "不明確な文をより簡単な言葉で書き直すことで、考えをより容易に共有する。", "note": "Rewritingで副詞的に接続" },
+        { "type": "名詞化", "sentence": "The rewriting of unclear sentences makes ideas easier to share.", "translation": "不明確な文の書き直しが、考えを共有しやすくする。", "note": "rewriteをrewritingへ名詞化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "rewrite", "alternatives": ["rephrase", "revise", "simplify", "clarify"], "nuance": "rewriteは書き直す、rephraseは言い換える、reviseは修正する、simplifyは単純化する、clarifyは明確化する" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "In simpler words, unclear sentences become easier to share.", "translation": "より簡単な言葉では、不明確な文が共有しやすくなる。" },
+          { "type": "What", "sentence": "What I rewrite becomes easier for others to understand.", "translation": "私が書き直すものは、他者にとって理解しやすくなる。" }
+        ],
+        "comparison": [
+          { "sentence": "My thoughts are easier to share now than they were before.", "translation": "私の考えは今、以前より共有しやすい。" }
+        ],
+        "conditional": [
+          { "sentence": "If I rewrite clearly, my ideas reach others more easily.", "translation": "明確に書き直せば、考えはより簡単に他者へ届く。" }
+        ],
+        "emphasis": [
+          { "sentence": "It is clarity that makes ideas shareable.", "translation": "考えを共有可能にするのは明確さである。" }
+        ],
+        "compression": [
+          { "sentence": "Clear words travel farther.", "translation": "明確な言葉は遠くまで届く。" },
+          { "sentence": "I rewrite to share better.", "translation": "よりよく共有するために書き直す。" }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "言い換えと明確化を扱うカード。rewrite, in simpler words, make O C の型が実用的。"
+    }
+  },
+  {
+    "_no": 106,
+    "_generatedAt": "2026-05-06T10:02:00",
+    "sentence": "I build routines that support steady learning each week, which helps me improve more consistently than sudden effort alone.",
+    "phonetic": "アイ ビルド ルーティーンズ ザット サポート ステディ ラーニング イーチ ウィーク, ウィッチ ヘルプス ミー インプルーヴ モア コンシステントリー ザン サドゥン エフォート アローン",
+    "japaneseTranslation": "私は毎週、安定した学習を支える習慣を作っている。それが急な努力だけよりも一貫して上達する助けになっている。",
+    "theme": "習慣化",
+    "coreVerb": "build",
+    "generateLayer": {
+      "phase1": { "sentence": "I build.", "translation": "私は作る。" },
+      "phase2": { "sentence": "I build routines each week.", "translation": "私は毎週習慣を作る。", "addedChunks": "目的語(routines)と時間(each week)を追加" },
+      "phase3": { "sentence": "I build routines because they support learning.", "translation": "学習を支えるので、私は習慣を作る。", "connector": "because" },
+      "phase4": { "sentence": "I improve more consistently than with sudden effort alone.", "translation": "急な努力だけより一貫して上達する。", "comparison": "more ... than" },
+      "phase5": { "sentence": "I build routines that support steady learning each week.", "translation": "私は毎週、安定した学習を支える習慣を作る。", "relativizer": "that" }
+    },
+    "explainLayer": {
+      "chunks": [
+        { "text": "I build", "function": "行動", "translation": "私は作る" },
+        { "text": "routines", "function": "対象", "translation": "習慣を" },
+        { "text": "that support steady learning", "function": "修飾", "translation": "安定した学習を支える" },
+        { "text": "each week", "function": "時間", "translation": "毎週" },
+        { "text": "which helps me improve", "function": "結果", "translation": "それが私の上達を助ける" },
+        { "text": "more consistently", "function": "様態", "translation": "より一貫して" },
+        { "text": "than sudden effort alone", "function": "比較", "translation": "急な努力だけより" }
+      ],
+      "grammarPoints": [
+        { "category": "時制", "name": "現在形", "where": "I build / support / helps", "explanation": "習慣形成と継続的な学習を表す現在形。", "rule": "主語 + 動詞の原形（三単現は -s）" },
+        { "category": "関係詞", "name": "関係代名詞 that", "where": "routines that support", "explanation": "routinesを後ろから説明する。", "rule": "名詞 + that + 動詞句" },
+        { "category": "関係詞", "name": "関係代名詞 which", "where": ", which helps", "explanation": "前文全体を受けて結果を表す。", "rule": "文 + , which + 動詞" },
+        { "category": "比較", "name": "more consistently than", "where": "more consistently than sudden effort alone", "explanation": "副詞consistentlyの比較級。", "rule": "more + 副詞 + than" },
+        { "category": "副詞", "name": "each week", "where": "each week", "explanation": "反復する時間単位を表す副詞句。", "rule": "each + 時間名詞" },
+        { "category": "動詞パターン", "name": "help + O + 動詞原形", "where": "helps me improve", "explanation": "helpの後に目的語と動詞原形を置く。", "rule": "help + O + V" },
+        { "category": "形容詞", "name": "steady", "where": "steady learning", "explanation": "learningを前から修飾し、安定した学習を表す。", "rule": "形容詞 + 名詞" }
+      ],
+      "errors": [
+        { "wrong": "routines that supports learning", "correct": "routines that support learning", "why": "routinesは複数なのでsupportにする。" },
+        { "wrong": "more consistent than effort", "correct": "more consistently than effort", "why": "improveを修飾するので副詞consistentlyを使う。" },
+        { "wrong": "helps me improving", "correct": "helps me improve", "why": "help + 目的語の後は動詞原形が自然。" }
+      ],
+      "variants": [
+        { "text": "I build learning routines.", "translation": "学習習慣を作る。" },
+        { "text": "Routines support steady progress.", "translation": "習慣が安定した進歩を支える。" },
+        { "text": "Sudden effort is not enough.", "translation": "急な努力だけでは十分ではない。" }
+      ],
+      "parseTree": "S(I) V(build) O(routines) [Rel: that support steady learning] [Adv: each week], [Rel: which helps O(me) V(improve) [Adv: more consistently] [than sudden effort alone]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        { "original": "because they support learning", "expanded": "since they support learning", "nuance": "既知の理由として穏やかに示す" },
+        { "original": "because they support learning", "expanded": "as they support learning", "nuance": "副次的な理由" },
+        { "original": "because they support learning", "expanded": "due to their support for steady learning", "nuance": "文書的・分析的" }
+      ],
+      "structuralShift": [
+        { "type": "受動態", "sentence": "Routines that support steady learning are built by me each week.", "translation": "安定した学習を支える習慣は、私によって毎週作られる。", "note": "buildの受動態" },
+        { "type": "分詞構文", "sentence": "Building routines each week, I improve more consistently.", "translation": "毎週習慣を作ることで、より一貫して上達する。", "note": "Buildingで副詞的に接続" },
+        { "type": "名詞化", "sentence": "The building of routines supports steady improvement.", "translation": "習慣作りが安定した上達を支える。", "note": "buildをbuildingへ名詞化" }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          { "original": "build", "alternatives": ["create", "develop", "form", "establish"], "nuance": "buildは構築、createは創る、developは育てる、formは形成、establishは定着させる" }
+        ],
+        "sentencePatterns": [
+          { "type": "強調", "sentence": "Each week, I build routines that make learning steady.", "translation": "毎週、学習を安定させる習慣を作っている。" },
+          { "type": "What", "sentence": "What I build each week supports how I learn.", "translation": "私が毎週作るものが、学び方を支えている。" }
+        ],
+        "comparison": [
+          { "sentence": "I improve more consistently now than I did with sudden effort alone.", "translation": "今は急な努力だけだった頃より、一貫して上達している。" }
+        ],
+        "conditional": [
+          { "sentence": "If I build routines, learning becomes easier to continue.", "translation": "習慣を作れば、学習は続けやすくなる。" }
+        ],
+        "emphasis": [
+          { "sentence": "It is routine that makes improvement steady.", "translation": "上達を安定させるのは習慣である。" }
+        ],
+        "compression": [
+          { "sentence": "Routines beat sudden effort.", "translation": "習慣は急な努力に勝る。" },
+          { "sentence": "Steady routines create steady progress.", "translation": "安定した習慣が安定した進歩を作る。" }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "習慣化と継続学習を扱うカード。routines, steady learning, more consistentlyなど、日々の学習に直結する語彙が入っている。"
+    }
+  }
+]
