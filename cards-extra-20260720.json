@@ -2,184 +2,208 @@
   {
     "_no": 107,
     "_generatedAt": "2026-07-20T13:50:00",
-    "sentence": "Handwriting leaves a physical trace of thought that polished digital text often hides.",
-    "phonetic": "ハンドライティング リーヴズ ア フィジカル トレイス オブ ソート ザット ポリッシュト デジタル テキスト オーフン ハイズ",
-    "japaneseTranslation": "手書きは、整えられたデジタル文章がしばしば隠してしまう思考の物理的な痕跡を残す。",
+    "sentence": "I preserve handwritten traces that reveal how my thoughts move across the page, which helps me understand my writing process more clearly than polished digital text does.",
+    "phonetic": "アイ プリザーヴ ハンドリトゥン トレイシズ ザット リヴィール ハウ マイ ソーツ ムーヴ アクロス ザ ペイジ, ウィッチ ヘルプス ミー アンダースタンド マイ ライティング プロセス モア クリアリー ザン ポリッシュト デジタル テキスト ダズ",
+    "japaneseTranslation": "私は、思考が紙面をどのように動いたかを示す手書きの痕跡を残している。それが、整えられたデジタル文章よりも明確に、自分の書く過程を理解する助けになっている。",
     "theme": "手書きの身体性",
-    "coreVerb": "leave",
+    "coreVerb": "preserve",
     "generateLayer": {
       "phase1": {
-        "sentence": "Handwriting leaves a trace.",
-        "translation": "手書きは痕跡を残す。"
+        "sentence": "I preserve.",
+        "translation": "私は残す。"
       },
       "phase2": {
-        "sentence": "Handwriting leaves a physical trace of thought.",
-        "translation": "手書きは思考の物理的な痕跡を残す。",
-        "addedChunks": "形容詞(physical)と前置詞句(of thought)を追加"
+        "sentence": "I preserve handwritten traces on the page.",
+        "translation": "私は紙面に手書きの痕跡を残す。",
+        "addedChunks": "目的語(handwritten traces)と場所(on the page)を追加"
       },
       "phase3": {
-        "sentence": "Handwriting matters because it leaves a physical trace of thought.",
-        "translation": "思考の物理的な痕跡を残すため、手書きには意味がある。",
+        "sentence": "I preserve handwritten traces because they reveal my thoughts.",
+        "translation": "思考を明らかにするので、私は手書きの痕跡を残す。",
         "connector": "because"
       },
       "phase4": {
-        "sentence": "Handwriting reveals more of the writing process than polished digital text.",
-        "translation": "手書きは整えられたデジタル文章よりも、書く過程を多く明らかにする。",
-        "comparison": "more ... than"
+        "sentence": "I understand my writing process more clearly than digital text shows it.",
+        "translation": "私はデジタル文章が示すよりも明確に、自分の書く過程を理解する。",
+        "comparison": "more clearly than"
       },
       "phase5": {
-        "sentence": "Handwriting leaves a physical trace of thought that digital text often hides.",
-        "translation": "手書きは、デジタル文章がしばしば隠す思考の物理的な痕跡を残す。",
+        "sentence": "I preserve handwritten traces that reveal how my thoughts move across the page.",
+        "translation": "私は、思考が紙面をどのように動いたかを示す手書きの痕跡を残す。",
         "relativizer": "that"
       }
     },
     "explainLayer": {
       "chunks": [
         {
-          "text": "Handwriting leaves",
+          "text": "I preserve",
           "function": "行動",
-          "translation": "手書きは残す"
+          "translation": "私は残す"
         },
         {
-          "text": "a physical trace",
+          "text": "handwritten traces",
           "function": "対象",
-          "translation": "物理的な痕跡を"
+          "translation": "手書きの痕跡を"
         },
         {
-          "text": "of thought",
-          "function": "内容",
-          "translation": "思考の"
-        },
-        {
-          "text": "that polished digital text",
+          "text": "that reveal",
           "function": "修飾",
-          "translation": "整えられたデジタル文章が"
+          "translation": "明らかにする"
         },
         {
-          "text": "often hides",
-          "function": "行動",
-          "translation": "しばしば隠す"
+          "text": "how my thoughts move across the page",
+          "function": "内容",
+          "translation": "思考が紙面をどう動くかを"
+        },
+        {
+          "text": "which helps me understand",
+          "function": "結果",
+          "translation": "それが私の理解を助ける"
+        },
+        {
+          "text": "my writing process",
+          "function": "対象",
+          "translation": "自分の書く過程を"
+        },
+        {
+          "text": "more clearly than polished digital text does",
+          "function": "比較",
+          "translation": "整えられたデジタル文章より明確に"
         }
       ],
       "grammarPoints": [
         {
           "category": "時制",
           "name": "現在形",
-          "where": "leaves / hides",
-          "explanation": "一般的な性質を表す現在形。",
-          "rule": "主語 + 現在形の動詞"
+          "where": "I preserve / reveal / helps",
+          "explanation": "習慣と一般的な働きを表す現在形。",
+          "rule": "主語 + 動詞の現在形"
         },
         {
           "category": "関係詞",
           "name": "関係代名詞 that",
-          "where": "trace ... that ... hides",
-          "explanation": "traceを後ろから説明し、hidesの目的語を兼ねる。",
-          "rule": "名詞 + that + 主語 + 動詞"
+          "where": "traces that reveal",
+          "explanation": "先行詞tracesを後ろから説明する。",
+          "rule": "名詞 + that + 動詞句"
         },
         {
-          "category": "動詞",
-          "name": "leave + O",
-          "where": "leaves a physical trace",
-          "explanation": "leaveは『去る』だけでなく『痕跡を残す』にも使える。",
-          "rule": "leave + 目的語"
+          "category": "関係詞",
+          "name": "関係代名詞 which（非制限用法）",
+          "where": ", which helps me understand",
+          "explanation": "前の節全体を受けて結果を付け加える。",
+          "rule": "文 + , which + 動詞"
         },
         {
-          "category": "頻度副詞",
-          "name": "often",
-          "where": "often hides",
-          "explanation": "一般動詞の前に置き、『しばしば』を表す。",
-          "rule": "主語 + often + 一般動詞"
+          "category": "比較",
+          "name": "more clearly than",
+          "where": "more clearly than polished digital text does",
+          "explanation": "副詞clearlyの比較級で理解の明確さを比べる。",
+          "rule": "more + 副詞 + than"
         },
         {
-          "category": "複合形容詞",
-          "name": "digital",
-          "where": "digital text",
-          "explanation": "媒体の性質を示してtextを修飾する。",
-          "rule": "形容詞 + 名詞"
+          "category": "間接疑問",
+          "name": "how + 主語 + 動詞",
+          "where": "how my thoughts move",
+          "explanation": "動き方という内容を名詞節として表す。",
+          "rule": "how + 主語 + 動詞"
+        },
+        {
+          "category": "前置詞",
+          "name": "across",
+          "where": "across the page",
+          "explanation": "紙面を横切る動き・広がりを表す。",
+          "rule": "across + 名詞"
+        },
+        {
+          "category": "動詞パターン",
+          "name": "help + O + 動詞原形",
+          "where": "helps me understand",
+          "explanation": "helpの後に目的語と動詞原形を置く。",
+          "rule": "help + 目的語 + 動詞原形"
         }
       ],
       "errors": [
         {
-          "wrong": "Handwriting leave a trace.",
-          "correct": "Handwriting leaves a trace.",
-          "why": "handwritingは不可算の単数扱いなのでleavesにする。"
+          "wrong": "I preserve traces that reveals my thoughts.",
+          "correct": "I preserve traces that reveal my thoughts.",
+          "why": "先行詞tracesは複数なのでrevealにする。"
         },
         {
-          "wrong": "a trace about thought",
-          "correct": "a trace of thought",
-          "why": "『思考の痕跡』はofで所有・内容の関係を表す。"
+          "wrong": "helps me to understanding",
+          "correct": "helps me understand",
+          "why": "help + 目的語の後は動詞原形が自然。"
         },
         {
-          "wrong": "text often hide",
-          "correct": "text often hides",
-          "why": "textはここでは不可算の単数扱い。"
+          "wrong": "more clear than digital text",
+          "correct": "more clearly than digital text",
+          "why": "understandを修飾するため副詞clearlyを使う。"
         }
       ],
       "variants": [
         {
-          "text": "Writing by hand records movement.",
-          "translation": "手で書くことは動きを記録する。"
+          "text": "Handwriting preserves movement.",
+          "translation": "手書きは動きを保存する。"
         },
         {
-          "text": "Digital text hides hesitation.",
-          "translation": "デジタル文章はためらいを隠す。"
+          "text": "The page records my hesitation.",
+          "translation": "紙面は私のためらいを記録する。"
         },
         {
-          "text": "A page preserves the act of writing.",
-          "translation": "一枚の紙は書く行為を保存する。"
+          "text": "Digital text often hides the writing process.",
+          "translation": "デジタル文章は書く過程をしばしば隠す。"
         }
       ],
-      "parseTree": "S(Handwriting) V(leaves) O(a physical trace) [Prep: of thought] [Rel: that S(polished digital text) Adv(often) V(hides)]"
+      "parseTree": "S(I) V(preserve) O(handwritten traces) [Rel: that reveal O(how my thoughts move across the page)], [Rel: which helps O(me) V(understand) O(my writing process) [Adv: more clearly than polished digital text does]]"
     },
     "expandLayer": {
       "causalExpansion": [
         {
-          "original": "because it leaves a physical trace",
-          "expanded": "since it preserves the movement of thought",
-          "nuance": "思考の運動を保存する点を強調"
+          "original": "because they reveal my thoughts",
+          "expanded": "since they preserve the movement of my thoughts",
+          "nuance": "思考の動きの保存を強調"
         },
         {
-          "original": "because it leaves a physical trace",
-          "expanded": "as the writer's movement remains visible",
-          "nuance": "書き手の動作が見えることを理由にする"
+          "original": "because they reveal my thoughts",
+          "expanded": "as the writing process remains visible",
+          "nuance": "過程が見えることを穏やかに示す"
         },
         {
-          "original": "because it leaves a physical trace",
-          "expanded": "due to the visible marks of the writing process",
+          "original": "because they reveal my thoughts",
+          "expanded": "due to their record of physical movement",
           "nuance": "名詞句で分析的に表す"
         }
       ],
       "structuralShift": [
         {
           "type": "受動態",
-          "sentence": "A physical trace of thought is left by handwriting.",
-          "translation": "思考の物理的な痕跡は手書きによって残される。",
-          "note": "traceを主語にした受動態"
+          "sentence": "Handwritten traces that reveal my thoughts are preserved on the page.",
+          "translation": "思考を明らかにする手書きの痕跡は紙面に保存される。",
+          "note": "対象を主語にした受動態"
         },
         {
           "type": "分詞構文",
-          "sentence": "Preserving movement and hesitation, handwriting records more than words.",
-          "translation": "動きとためらいを保存することで、手書きは言葉以上のものを記録する。",
-          "note": "Preservingで付加情報を示す"
+          "sentence": "Preserving handwritten traces, I can examine how my thoughts move.",
+          "translation": "手書きの痕跡を残すことで、思考の動きを調べられる。",
+          "note": "Preservingで手段を示す"
         },
         {
           "type": "名詞化",
-          "sentence": "The preservation of physical traces gives handwriting its value.",
-          "translation": "物理的痕跡の保存が手書きに価値を与える。",
+          "sentence": "The preservation of handwritten traces makes the writing process visible.",
+          "translation": "手書きの痕跡の保存が、書く過程を見えるものにする。",
           "note": "preserveをpreservationへ名詞化"
         }
       ],
       "expressionNetwork": {
         "vocabulary": [
           {
-            "original": "leave",
+            "original": "preserve",
             "alternatives": [
-              "preserve",
+              "keep",
               "retain",
               "record",
               "capture"
             ],
-            "nuance": "leaveは残す、preserveは保存する、retainは保持する、recordは記録する、captureは捉える"
+            "nuance": "preserveは状態を保って残す、keepは保持、retainは維持、recordは記録、captureは捉える"
           }
         ],
         "sentencePatterns": [
@@ -196,8 +220,8 @@
         ],
         "comparison": [
           {
-            "sentence": "Handwriting reveals more physical detail than typed text.",
-            "translation": "手書きはタイプされた文章より多くの身体的な細部を明らかにする。"
+            "sentence": "Handwriting reveals more of the process than typed text does.",
+            "translation": "手書きはタイプされた文章より多くの過程を明らかにする。"
           }
         ],
         "conditional": [
@@ -219,7 +243,7 @@
           },
           {
             "sentence": "The hand leaves evidence.",
-            "translation": "手は証拠を残す。"
+            "translation": "手は痕跡を残す。"
           }
         ]
       }
@@ -229,129 +253,148 @@
       "clarity": 9,
       "flexibility": 8,
       "focus": 9,
-      "efficiency": 9,
-      "comment": "手書きを情報だけでなく身体運動の痕跡として捉えるカード。leave a traceと関係代名詞thatを学べる。"
+      "efficiency": 8,
+      "comment": "手書きを身体運動の痕跡として捉えるカード。that節、which節、比較級副詞を一つの完成文で学べる。"
     }
   },
   {
     "_no": 108,
     "_generatedAt": "2026-07-20T13:51:00",
-    "sentence": "A tablet lets me keep handwritten notes without allowing sheets of paper to pile up around me.",
-    "phonetic": "ア タブレット レッツ ミー キープ ハンドリトゥン ノーツ ウィズアウト アラウイング シーツ オブ ペイパー トゥ パイル アップ アラウンド ミー",
-    "japaneseTranslation": "タブレットなら、紙を身の回りに積み上げることなく、手書きのノートを保存できる。",
+    "sentence": "I use a tablet that keeps my handwritten notes together without piles of paper, which makes my records easier to manage than loose sheets are.",
+    "phonetic": "アイ ユーズ ア タブレット ザット キープス マイ ハンドリトゥン ノーツ トゥゲザー ウィズアウト パイルズ オブ ペイパー, ウィッチ メイクス マイ レコーズ イージアー トゥ マネジ ザン ルース シーツ アー",
+    "japaneseTranslation": "私は、紙の山を作らずに手書きのノートを一か所にまとめられるタブレットを使っている。それにより、ばらばらの紙よりも記録を管理しやすくなる。",
     "theme": "タブレットによる記録",
-    "coreVerb": "keep",
+    "coreVerb": "use",
     "generateLayer": {
       "phase1": {
-        "sentence": "I keep notes.",
-        "translation": "私はノートを保存する。"
+        "sentence": "I use.",
+        "translation": "私は使う。"
       },
       "phase2": {
-        "sentence": "I keep handwritten notes on a tablet.",
-        "translation": "私はタブレットに手書きのノートを保存する。",
-        "addedChunks": "形容詞(handwritten)と場所(on a tablet)を追加"
+        "sentence": "I use a tablet for handwritten notes.",
+        "translation": "私は手書きのノートにタブレットを使う。",
+        "addedChunks": "目的語(a tablet)と目的(for handwritten notes)を追加"
       },
       "phase3": {
-        "sentence": "I use a tablet because I want to keep handwritten notes.",
-        "translation": "手書きのノートを保存したいので、私はタブレットを使う。",
+        "sentence": "I use a tablet because it prevents piles of paper.",
+        "translation": "紙の山を防げるので、私はタブレットを使う。",
         "connector": "because"
       },
       "phase4": {
-        "sentence": "A tablet takes up less space than piles of paper.",
-        "translation": "タブレットは紙の山より場所を取らない。",
-        "comparison": "less ... than"
+        "sentence": "My records are easier to manage than loose sheets are.",
+        "translation": "私の記録は、ばらばらの紙より管理しやすい。",
+        "comparison": "easier ... than"
       },
       "phase5": {
-        "sentence": "A tablet lets me keep notes without allowing paper to pile up.",
-        "translation": "タブレットなら、紙を積み上げずにノートを保存できる。",
-        "pattern": "let + O + V / without + -ing"
+        "sentence": "I use a tablet that keeps my handwritten notes together without piles of paper.",
+        "translation": "私は、紙の山を作らずに手書きのノートをまとめられるタブレットを使う。",
+        "relativizer": "that"
       }
     },
     "explainLayer": {
       "chunks": [
         {
-          "text": "A tablet lets me keep",
+          "text": "I use",
           "function": "行動",
-          "translation": "タブレットは私に保存させてくれる"
+          "translation": "私は使う"
         },
         {
-          "text": "handwritten notes",
+          "text": "a tablet",
           "function": "対象",
-          "translation": "手書きのノートを"
+          "translation": "タブレットを"
         },
         {
-          "text": "without allowing",
+          "text": "that keeps my handwritten notes together",
+          "function": "修飾",
+          "translation": "手書きのノートを一か所にまとめる"
+        },
+        {
+          "text": "without piles of paper",
           "function": "様態",
-          "translation": "〜させることなく"
+          "translation": "紙の山を作らずに"
         },
         {
-          "text": "sheets of paper",
-          "function": "対象",
-          "translation": "何枚もの紙を"
-        },
-        {
-          "text": "to pile up",
+          "text": "which makes my records",
           "function": "結果",
-          "translation": "積み上がらせる"
+          "translation": "それが私の記録を〜にする"
         },
         {
-          "text": "around me",
-          "function": "場所",
-          "translation": "私の身の回りに"
+          "text": "easier to manage",
+          "function": "状態",
+          "translation": "管理しやすく"
+        },
+        {
+          "text": "than loose sheets are",
+          "function": "比較",
+          "translation": "ばらばらの紙より"
         }
       ],
       "grammarPoints": [
         {
-          "category": "使役",
-          "name": "let + O + 動詞原形",
-          "where": "lets me keep",
-          "explanation": "人が何かをできるようにする、許すという構文。",
-          "rule": "let + 目的語 + 動詞原形"
+          "category": "時制",
+          "name": "現在形",
+          "where": "I use / keeps / makes",
+          "explanation": "習慣的な利用と一般的な機能を表す。",
+          "rule": "主語 + 動詞の現在形"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 that",
+          "where": "a tablet that keeps",
+          "explanation": "先行詞tabletを後ろから説明する。",
+          "rule": "名詞 + that + 動詞句"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 which（非制限用法）",
+          "where": ", which makes my records",
+          "explanation": "前節全体の結果を付け加える。",
+          "rule": "文 + , which + 動詞"
+        },
+        {
+          "category": "比較",
+          "name": "easier than",
+          "where": "easier to manage than loose sheets are",
+          "explanation": "easyの比較級easierで管理のしやすさを比べる。",
+          "rule": "比較級 + than + 比較対象"
         },
         {
           "category": "前置詞",
-          "name": "without + 動名詞",
-          "where": "without allowing",
-          "explanation": "『〜することなく』を表す。",
-          "rule": "without + 動詞-ing"
+          "name": "without + 名詞",
+          "where": "without piles of paper",
+          "explanation": "あるものがない状態を表す。",
+          "rule": "without + 名詞"
+        },
+        {
+          "category": "不定詞",
+          "name": "to manage",
+          "where": "easier to manage",
+          "explanation": "何をするのが容易かをto不定詞で示す。",
+          "rule": "形容詞 + to不定詞"
         },
         {
           "category": "動詞パターン",
-          "name": "allow + O + to do",
-          "where": "allowing sheets of paper to pile up",
-          "explanation": "目的語がある行為をする状態を許す。",
-          "rule": "allow + 目的語 + to不定詞"
-        },
-        {
-          "category": "句動詞",
-          "name": "pile up",
-          "where": "to pile up",
-          "explanation": "物が次第に積み重なることを表す。",
-          "rule": "pile up"
-        },
-        {
-          "category": "過去分詞",
-          "name": "handwritten",
-          "where": "handwritten notes",
-          "explanation": "handwriteの過去分詞が形容詞としてnotesを修飾する。",
-          "rule": "過去分詞 + 名詞"
+          "name": "make + O + C",
+          "where": "makes my records easier",
+          "explanation": "目的語をある状態にする構文。",
+          "rule": "make + 目的語 + 補語"
         }
       ],
       "errors": [
         {
-          "wrong": "lets me to keep notes",
-          "correct": "lets me keep notes",
-          "why": "letの後の動詞にはtoを付けない。"
+          "wrong": "a tablet that keep my notes",
+          "correct": "a tablet that keeps my notes",
+          "why": "先行詞tabletは単数なのでkeepsにする。"
         },
         {
-          "wrong": "without allow paper",
-          "correct": "without allowing paper",
-          "why": "前置詞withoutの後は動名詞にする。"
+          "wrong": "more easy to manage",
+          "correct": "easier to manage",
+          "why": "easyの比較級はeasier。"
         },
         {
-          "wrong": "papers pile up",
-          "correct": "sheets of paper pile up",
-          "why": "紙という素材のpaperは通常不可算なので、枚数はsheets of paperで表す。"
+          "wrong": "makes my records to be easier",
+          "correct": "makes my records easier",
+          "why": "make + O + Cでは補語の前にto beを置かない。"
         }
       ],
       "variants": [
@@ -364,42 +407,42 @@
           "translation": "デジタルノートは物理的な空間を節約する。"
         },
         {
-          "text": "My notes remain searchable and compact.",
-          "translation": "私のノートは検索可能でコンパクトなまま残る。"
+          "text": "My notes remain compact and organized.",
+          "translation": "私のノートはコンパクトで整理された状態を保つ。"
         }
       ],
-      "parseTree": "S(A tablet) V(lets) O(me) V(keep) O(handwritten notes) [Prep: without V-ing(allowing) O(sheets of paper) to V(pile up) Adv(around me)]"
+      "parseTree": "S(I) V(use) O(a tablet) [Rel: that keeps O(my handwritten notes) C(together) [Prep: without piles of paper]], [Rel: which makes O(my records) C(easier to manage) [than loose sheets are]]"
     },
     "expandLayer": {
       "causalExpansion": [
         {
-          "original": "because I want to avoid piles of paper",
-          "expanded": "since physical sheets quickly accumulate",
-          "nuance": "紙が増える性質を理由にする"
+          "original": "because it prevents piles of paper",
+          "expanded": "since it stores handwritten notes digitally",
+          "nuance": "デジタル保存を理由に示す"
         },
         {
-          "original": "because I want to avoid piles of paper",
-          "expanded": "as digital storage requires less physical space",
-          "nuance": "省スペース性を理由にする"
+          "original": "because it prevents piles of paper",
+          "expanded": "as loose sheets quickly accumulate",
+          "nuance": "紙が増える性質を穏やかに示す"
         },
         {
-          "original": "because I want to avoid piles of paper",
+          "original": "because it prevents piles of paper",
           "expanded": "due to the limited space available for paper records",
-          "nuance": "文書的な理由表現"
+          "nuance": "物理的空間の制約を文書的に表す"
         }
       ],
       "structuralShift": [
         {
           "type": "受動態",
-          "sentence": "Handwritten notes can be kept on a tablet without piles of paper.",
-          "translation": "手書きのノートは紙の山を作らずにタブレットへ保存できる。",
+          "sentence": "Handwritten notes are kept together on a tablet without piles of paper.",
+          "translation": "手書きのノートは紙の山を作らずにタブレットへまとめられる。",
           "note": "notesを主語にした受動態"
         },
         {
           "type": "分詞構文",
           "sentence": "Using a tablet, I preserve handwriting while saving physical space.",
-          "translation": "タブレットを使うことで、物理的な空間を節約しながら手書きを残す。",
-          "note": "Usingで手段を表す"
+          "translation": "タブレットを使うことで、空間を節約しながら手書きを残す。",
+          "note": "Usingで手段を示す"
         },
         {
           "type": "名詞化",
@@ -411,14 +454,14 @@
       "expressionNetwork": {
         "vocabulary": [
           {
-            "original": "keep",
+            "original": "use",
             "alternatives": [
-              "save",
-              "store",
-              "preserve",
-              "retain"
+              "employ",
+              "adopt",
+              "utilize",
+              "rely on"
             ],
-            "nuance": "keepは保つ、saveは保存する、storeは蓄える、preserveは状態を守る、retainは保持する"
+            "nuance": "useは一般的に使う、employは手段として用いる、adoptは取り入れる、utilizeは活用する、rely onは頼る"
           }
         ],
         "sentencePatterns": [
@@ -469,128 +512,147 @@
       "flexibility": 9,
       "focus": 9,
       "efficiency": 9,
-      "comment": "手書きとデジタル保存を両立する実用的な表現。let + O + V、without + -ing、pile upをまとめて学べる。"
+      "comment": "手書きとデジタル保存を両立するカード。that節、which節、make O C、比較級を一つの文で扱える。"
     }
   },
   {
     "_no": 109,
     "_generatedAt": "2026-07-20T13:52:00",
-    "sentence": "When my conversations grow too large to remember, a conceptual index turns them into a map I can revisit.",
-    "phonetic": "ウェン マイ カンヴァセイションズ グロウ トゥー ラージ トゥ リメンバー, ア コンセプチュアル インデックス ターンズ ゼム イントゥ ア マップ アイ キャン リヴィジット",
-    "japaneseTranslation": "対話が覚えきれないほど膨大になったとき、概念索引はそれらを再訪できる地図に変える。",
+    "sentence": "I build a conceptual index that organizes my growing conversations by theme, which makes forgotten ideas easier to revisit than a chronological archive does.",
+    "phonetic": "アイ ビルド ア コンセプチュアル インデックス ザット オーガナイゼズ マイ グロウイング カンヴァセイションズ バイ スィーム, ウィッチ メイクス フォーガトゥン アイディアズ イージアー トゥ リヴィジット ザン ア クロノロジカル アーカイヴ ダズ",
+    "japaneseTranslation": "私は、増え続ける対話をテーマ別に整理する概念索引を作っている。それにより、時系列だけの記録よりも、忘れていた考えを再訪しやすくなる。",
     "theme": "AI対話の概念索引",
-    "coreVerb": "turn",
+    "coreVerb": "build",
     "generateLayer": {
       "phase1": {
-        "sentence": "An index organizes conversations.",
-        "translation": "索引は対話を整理する。"
+        "sentence": "I build.",
+        "translation": "私は作る。"
       },
       "phase2": {
-        "sentence": "A conceptual index organizes large conversations.",
-        "translation": "概念索引は膨大な対話を整理する。",
-        "addedChunks": "形容詞(conceptual / large)を追加"
+        "sentence": "I build a conceptual index for my conversations.",
+        "translation": "私は対話のための概念索引を作る。",
+        "addedChunks": "目的語(a conceptual index)と目的(for my conversations)を追加"
       },
       "phase3": {
-        "sentence": "I need an index because I cannot remember every conversation.",
-        "translation": "すべての対話を覚えられないので、私は索引を必要とする。",
+        "sentence": "I build an index because my conversations keep growing.",
+        "translation": "対話が増え続けるので、私は索引を作る。",
         "connector": "because"
       },
       "phase4": {
-        "sentence": "A conceptual index is easier to revisit than a long chronological archive.",
-        "translation": "概念索引は長い時系列の記録より再訪しやすい。",
+        "sentence": "Forgotten ideas are easier to revisit than in a chronological archive.",
+        "translation": "忘れていた考えは、時系列の記録より再訪しやすい。",
         "comparison": "easier ... than"
       },
       "phase5": {
-        "sentence": "When conversations grow too large to remember, an index turns them into a map.",
-        "translation": "対話が覚えきれないほど膨大になると、索引がそれらを地図に変える。",
-        "connector": "when"
+        "sentence": "I build a conceptual index that organizes my growing conversations by theme.",
+        "translation": "私は、増え続ける対話をテーマ別に整理する概念索引を作る。",
+        "relativizer": "that"
       }
     },
     "explainLayer": {
       "chunks": [
         {
-          "text": "When my conversations",
-          "function": "時間",
-          "translation": "私の対話が〜するとき"
-        },
-        {
-          "text": "grow too large to remember",
-          "function": "状態",
-          "translation": "覚えきれないほど膨大になる"
-        },
-        {
-          "text": "a conceptual index turns",
+          "text": "I build",
           "function": "行動",
-          "translation": "概念索引が変える"
+          "translation": "私は作る"
         },
         {
-          "text": "them",
+          "text": "a conceptual index",
           "function": "対象",
-          "translation": "それらを"
+          "translation": "概念索引を"
         },
         {
-          "text": "into a map",
-          "function": "結果",
-          "translation": "地図へ"
-        },
-        {
-          "text": "I can revisit",
+          "text": "that organizes",
           "function": "修飾",
-          "translation": "私が再訪できる"
+          "translation": "整理する"
+        },
+        {
+          "text": "my growing conversations by theme",
+          "function": "様態",
+          "translation": "増え続ける対話をテーマ別に"
+        },
+        {
+          "text": "which makes forgotten ideas",
+          "function": "結果",
+          "translation": "それが忘れていた考えを〜にする"
+        },
+        {
+          "text": "easier to revisit",
+          "function": "状態",
+          "translation": "再訪しやすく"
+        },
+        {
+          "text": "than a chronological archive does",
+          "function": "比較",
+          "translation": "時系列の記録より"
         }
       ],
       "grammarPoints": [
         {
-          "category": "接続詞",
-          "name": "when",
-          "where": "When my conversations grow",
-          "explanation": "ある状態になった時点・条件を示す。",
-          "rule": "When + 主語 + 動詞, 主節"
-        },
-        {
-          "category": "変化動詞",
-          "name": "grow + 形容詞",
-          "where": "grow too large",
-          "explanation": "時間とともにある状態へ変化することを表す。",
-          "rule": "grow + 形容詞"
-        },
-        {
-          "category": "程度",
-          "name": "too ... to do",
-          "where": "too large to remember",
-          "explanation": "『〜すぎて…できない』を表す。",
-          "rule": "too + 形容詞 + to不定詞"
-        },
-        {
-          "category": "動詞パターン",
-          "name": "turn + O + into",
-          "where": "turns them into a map",
-          "explanation": "目的語を別の状態へ変える。",
-          "rule": "turn + 目的語 + into + 名詞"
+          "category": "時制",
+          "name": "現在形",
+          "where": "I build / organizes / makes",
+          "explanation": "継続的な整理と一般的な働きを表す。",
+          "rule": "主語 + 動詞の現在形"
         },
         {
           "category": "関係詞",
-          "name": "目的格関係代名詞の省略",
-          "where": "a map I can revisit",
-          "explanation": "mapとIの間にthatまたはwhichが省略されている。",
-          "rule": "名詞 + 主語 + 動詞"
+          "name": "関係代名詞 that",
+          "where": "index that organizes",
+          "explanation": "先行詞indexを後ろから説明する。",
+          "rule": "名詞 + that + 動詞句"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 which（非制限用法）",
+          "where": ", which makes forgotten ideas",
+          "explanation": "前節全体の結果を示す。",
+          "rule": "文 + , which + 動詞"
+        },
+        {
+          "category": "比較",
+          "name": "easier than",
+          "where": "easier to revisit than a chronological archive does",
+          "explanation": "再訪のしやすさを比較する。",
+          "rule": "比較級 + than + 比較対象"
+        },
+        {
+          "category": "前置詞",
+          "name": "by",
+          "where": "by theme",
+          "explanation": "分類の基準を示し、『テーマ別に』を表す。",
+          "rule": "by + 分類基準"
+        },
+        {
+          "category": "現在分詞",
+          "name": "growing",
+          "where": "growing conversations",
+          "explanation": "増え続けている状態を名詞の前から説明する。",
+          "rule": "現在分詞 + 名詞"
+        },
+        {
+          "category": "動詞パターン",
+          "name": "make + O + C",
+          "where": "makes forgotten ideas easier",
+          "explanation": "目的語をある状態に変える構文。",
+          "rule": "make + 目的語 + 補語"
         }
       ],
       "errors": [
         {
-          "wrong": "grow too much large",
-          "correct": "grow too large",
-          "why": "形容詞largeの程度はtooを直接前に置いて表す。"
+          "wrong": "an index that organize conversations",
+          "correct": "an index that organizes conversations",
+          "why": "先行詞indexは単数なのでorganizesにする。"
         },
         {
-          "wrong": "turns them to a map",
-          "correct": "turns them into a map",
-          "why": "『別のものへ変える』はturn O intoを使う。"
+          "wrong": "organizes conversations with theme",
+          "correct": "organizes conversations by theme",
+          "why": "分類基準にはbyを使う。"
         },
         {
-          "wrong": "a map which I can revisit it",
-          "correct": "a map which I can revisit",
-          "why": "関係代名詞whichが目的語を兼ねるためitは不要。"
+          "wrong": "makes ideas easier to revisiting",
+          "correct": "makes ideas easier to revisit",
+          "why": "形容詞easyの内容はto不定詞で表す。"
         }
       ],
       "variants": [
@@ -607,22 +669,22 @@
           "translation": "地図は膨大な記録を探索可能にする。"
         }
       ],
-      "parseTree": "[Adv: When S(my conversations) V(grow) C(too large to remember)], S(a conceptual index) V(turns) O(them) [Prep: into a map] [Rel omitted: that S(I) can V(revisit)]"
+      "parseTree": "S(I) V(build) O(a conceptual index) [Rel: that organizes O(my growing conversations) [Prep: by theme]], [Rel: which makes O(forgotten ideas) C(easier to revisit) [than a chronological archive does]]"
     },
     "expandLayer": {
       "causalExpansion": [
         {
-          "original": "because I cannot remember every conversation",
+          "original": "because my conversations keep growing",
           "expanded": "since chronological memory becomes unreliable at scale",
-          "nuance": "量の増大と記憶の限界を分析的に示す"
+          "nuance": "量の増大と記憶の限界を示す"
         },
         {
-          "original": "because I cannot remember every conversation",
+          "original": "because my conversations keep growing",
           "expanded": "as important ideas become buried in the archive",
-          "nuance": "重要概念が埋もれる点を理由にする"
+          "nuance": "重要な考えが埋もれる点を理由にする"
         },
         {
-          "original": "because I cannot remember every conversation",
+          "original": "because my conversations keep growing",
           "expanded": "due to the sheer volume of accumulated dialogue",
           "nuance": "蓄積量を名詞句で強調"
         }
@@ -630,15 +692,15 @@
       "structuralShift": [
         {
           "type": "受動態",
-          "sentence": "Large collections of conversations are turned into navigable maps by conceptual indexes.",
-          "translation": "膨大な対話の集合は、概念索引によって探索可能な地図へ変えられる。",
+          "sentence": "Growing conversations are organized by theme in a conceptual index.",
+          "translation": "増え続ける対話は概念索引の中でテーマ別に整理される。",
           "note": "conversationsを主語にした受動態"
         },
         {
           "type": "分詞構文",
           "sentence": "Grouping conversations by concept, I can revisit ideas across time.",
-          "translation": "対話を概念ごとにまとめることで、時間を越えて考えを再訪できる。",
-          "note": "Groupingで手段を表す"
+          "translation": "対話を概念別にまとめることで、時間を越えて考えを再訪できる。",
+          "note": "Groupingで手段を示す"
         },
         {
           "type": "名詞化",
@@ -650,14 +712,14 @@
       "expressionNetwork": {
         "vocabulary": [
           {
-            "original": "turn",
+            "original": "build",
             "alternatives": [
-              "transform",
-              "convert",
-              "reshape",
-              "organize"
+              "create",
+              "construct",
+              "develop",
+              "compile"
             ],
-            "nuance": "turnは変える、transformは大きく変容させる、convertは形式を変換する、reshapeは形を組み替える、organizeは整理する"
+            "nuance": "buildは構築、createは作成、constructは組み立て、developは育てる、compileは集めてまとめる"
           }
         ],
         "sentencePatterns": [
@@ -708,7 +770,7 @@
       "flexibility": 9,
       "focus": 10,
       "efficiency": 9,
-      "comment": "膨大なAI対話を概念索引によって再訪可能にするという今日の議論を表現したカード。too ... to、turn O into、関係代名詞の省略を学べる。"
+      "comment": "膨大なAI対話を概念索引によって再訪可能にするカード。that節、which節、比較級、make O Cを一つの完成文で学べる。"
     }
   }
 ]
