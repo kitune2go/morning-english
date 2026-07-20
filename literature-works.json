@@ -11,5 +11,12 @@
     "description": "日本語原文を文章単位で自然英訳・直訳・チャンク・文法・翻訳メモに分解する全文翻訳版。",
     "manifest": "literature/convivium-sentence/manifest.json",
     "mode": "sentence-translation"
+  },
+  {
+    "workId": "hand-and-sentence",
+    "title": "手を止めれば、文も止まる",
+    "description": "AIとの対話が眠っているあいだに英語カードへ変わり、翌朝の書写を通して昨日の思考が今日の身体へ移される短編。",
+    "manifest": "literature/hand-and-sentence/manifest.json",
+    "mode": "sentence-translation"
   }
 ]
