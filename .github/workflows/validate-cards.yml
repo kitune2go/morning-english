@@ -1,0 +1,26 @@
+name: Validate English cards
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "cards*.json"
+      - "card-template.json"
+      - "scripts/validate-cards.mjs"
+  pull_request:
+    paths:
+      - "cards*.json"
+      - "card-template.json"
+      - "scripts/validate-cards.mjs"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate card JSON
+        run: node scripts/validate-cards.mjs
