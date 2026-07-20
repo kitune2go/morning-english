@@ -7,11 +7,13 @@ on:
       - "cards*.json"
       - "card-template.json"
       - "scripts/validate-cards.mjs"
+      - ".github/workflows/validate-cards.yml"
   pull_request:
     paths:
       - "cards*.json"
       - "card-template.json"
       - "scripts/validate-cards.mjs"
+      - ".github/workflows/validate-cards.yml"
 
 permissions:
   contents: read
