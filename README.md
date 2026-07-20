@@ -116,6 +116,67 @@ scores
 状態
 ```
 
+
+### 厳格な生成規則
+
+毎朝の英語カードは、必ず [`card-template.json`](card-template.json) を原型として作成してください。既存カードを眺めて形式を推測したり、独自のキーを追加したりしないでください。
+
+#### JSON構造
+
+`generateLayer` の各Phaseは、以下のキーに固定します。
+
+| Phase | 必須キー |
+|---|---|
+| `phase1` | `sentence`, `translation` |
+| `phase2` | `sentence`, `translation`, `addedChunks` |
+| `phase3` | `sentence`, `translation`, `connector` |
+| `phase4` | `sentence`, `translation`, `comparison` |
+| `phase5` | `sentence`, `translation`, `relativizer` |
+
+`phase5.relativizer` は `"that"` に固定します。`pattern` や `connector` など、テンプレートにないキーを `phase5` へ追加してはいけません。
+
+#### 完成文の構造
+
+`sentence` は原則として、次の順序で組み立てます。
+
+```txt
+Phase 5の本文（that節を含む）
+, which による結果節
+than を使った比較表現
+```
+
+例：
+
+```txt
+I notice small changes that appear in daily life,
+which helps me understand myself more clearly than before.
+```
+
+完成文の先頭部分は、末尾の句読点を除いて `generateLayer.phase5.sentence` と一致させてください。
+
+#### 追加前後の検証
+
+カードを作成したら、GitHubへ書き込む前に次を実行します。
+
+```bash
+node scripts/validate-cards.mjs
+```
+
+検証内容：
+
+```txt
+card-template.json との全階層のキー・型比較
+未定義キーと不足キーの検出
+Phase 5 の relativizer: "that"
+完成文の that節 / , which節 / than比較
+Phase 5 と完成文の接続
+カード番号と読み込みファイルの重複
+スコア範囲とチャンク分類
+cards-index.json に登録された全カードのJSON解析
+```
+
+検証に失敗したカードは追加・登録しないでください。GitHub Actionsでも、カード関連ファイルの変更時に同じ検証が自動実行されます。
+
 ---
 
 ## 3. 文学版にカードを追加する場合
