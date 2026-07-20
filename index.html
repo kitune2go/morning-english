@@ -783,7 +783,7 @@ function renderPhases(g) {
 }
 
 function renderChunks(e) {
-  if (!e?.chunks) return '<div style="color: #a8a29e;">データなし</div>';
+  if (!Array.isArray(e?.chunks) || e.chunks.length === 0) return '<div style="color: #a8a29e;">データなし</div>';
   let html = e.chunks.map(c => `
     <div class="chunk-row">
       <span class="chunk-tag" style="background: ${fnColor(c.function)};">${escape(c.function)}</span>
@@ -925,7 +925,7 @@ function renderNetwork(n) {
     html += '</div>';
   });
 
-  return html;
+  return html || '<div style="color: #a8a29e;">データなし</div>';
 }
 
 function renderScores(s) {
