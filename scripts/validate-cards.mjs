@@ -127,7 +127,7 @@ if (!Array.isArray(templateData) || templateData.length !== 1) {
 const templateCard = Array.isArray(templateData) ? templateData[0] : null;
 const seenFiles = new Set();
 const seenNumbers = new Set();
-let previousNumber = -Infinity;
+let previousNumber = null;
 let totalCards = 0;
 
 if (Array.isArray(indexData.cards) && templateCard) {
@@ -152,11 +152,14 @@ if (Array.isArray(indexData.cards) && templateCard) {
       if (seenNumbers.has(card._no)) {
         errors.push(location + '._no: 番号が重複しています: ' + card._no);
       }
-      if (Number.isInteger(card._no) && card._no <= previousNumber) {
-        errors.push(location + '._no: cards-index.jsonの順序で昇順にしてください');
+      if (Number.isInteger(card._no)) {
+        const expectedNumber = previousNumber === null ? 1 : previousNumber + 1;
+        if (card._no !== expectedNumber) {
+          errors.push(location + '._no: 連番にしてください（期待: ' + expectedNumber + ', 実際: ' + card._no + '）');
+        }
+        previousNumber = card._no;
       }
       seenNumbers.add(card._no);
-      if (Number.isInteger(card._no)) previousNumber = card._no;
       totalCards += 1;
     });
   }
