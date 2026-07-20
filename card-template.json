@@ -1,0 +1,136 @@
+[
+  {
+    "_no": 0,
+    "_generatedAt": "YYYY-MM-DDTHH:mm:ss",
+    "sentence": "I use a subject that adds a clear detail, which makes the result easier to understand than before.",
+    "phonetic": "カタカナ発音",
+    "japaneseTranslation": "完成文の自然な日本語訳。",
+    "theme": "テーマ",
+    "coreVerb": "use",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I use.",
+        "translation": "私は使う。"
+      },
+      "phase2": {
+        "sentence": "I use a subject every day.",
+        "translation": "私は毎日ある対象を使う。",
+        "addedChunks": "目的語(subject)と時間(every day)を追加"
+      },
+      "phase3": {
+        "sentence": "I use a subject because it helps me.",
+        "translation": "役に立つので、私はある対象を使う。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "The result is easier to understand than before.",
+        "translation": "その結果は以前より理解しやすい。",
+        "comparison": "easier ... than"
+      },
+      "phase5": {
+        "sentence": "I use a subject that adds a clear detail.",
+        "translation": "私は明確な細部を加える対象を使う。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "I use",
+          "function": "行動",
+          "translation": "私は使う"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 that",
+          "where": "a subject that adds",
+          "explanation": "先行詞を後ろから説明する。",
+          "rule": "名詞 + that + 動詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "誤った英文",
+          "correct": "正しい英文",
+          "why": "修正理由。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "会話用の短い英文。",
+          "translation": "日本語訳。"
+        }
+      ],
+      "parseTree": "S(I) V(use) O(a subject) [Rel: that ...], [Rel: which ...] [than ...]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because ...",
+          "expanded": "since ...",
+          "nuance": "表現上のニュアンス。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "構造変換後の英文。",
+          "translation": "日本語訳。",
+          "note": "変換の説明。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "use",
+            "alternatives": [
+              "employ"
+            ],
+            "nuance": "語彙の違い。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "強調",
+            "sentence": "別の文型による英文。",
+            "translation": "日本語訳。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "比較表現を使った英文。",
+            "translation": "日本語訳。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "条件表現を使った英文。",
+            "translation": "日本語訳。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "強調表現を使った英文。",
+            "translation": "日本語訳。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "短く圧縮した英文。",
+            "translation": "日本語訳。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 0,
+      "clarity": 0,
+      "flexibility": 0,
+      "focus": 0,
+      "efficiency": 0,
+      "comment": "カード全体の評価。"
+    }
+  }
+]
