@@ -260,8 +260,8 @@
   {
     "_no": 108,
     "_generatedAt": "2026-07-20T13:51:00",
-    "sentence": "I use a tablet that keeps my handwritten notes together without piles of paper, which makes my records easier to manage than loose sheets are.",
-    "phonetic": "アイ ユーズ ア タブレット ザット キープス マイ ハンドリトゥン ノーツ トゥゲザー ウィズアウト パイルズ オブ ペイパー, ウィッチ メイクス マイ レコーズ イージアー トゥ マネジ ザン ルース シーツ アー",
+    "sentence": "I use a tablet that keeps my handwritten notes together without piles of paper, which makes my records easier to manage than they would be on loose sheets of paper.",
+    "phonetic": "アイ ユーズ ア タブレット ザット キープス マイ ハンドリトゥン ノーツ トゥゲザー ウィズアウト パイルズ オブ ペイパー, ウィッチ メイクス マイ レコーズ イージアー トゥ マネジ ザン ゼイ ウッド ビー オン ルース シーツ オブ ペイパー",
     "japaneseTranslation": "私は、紙の山を作らずに手書きのノートを一か所にまとめられるタブレットを使っている。それにより、ばらばらの紙よりも記録を管理しやすくなる。",
     "theme": "タブレットによる記録",
     "coreVerb": "use",
@@ -281,8 +281,8 @@
         "connector": "because"
       },
       "phase4": {
-        "sentence": "My records are easier to manage than loose sheets are.",
-        "translation": "私の記録は、ばらばらの紙より管理しやすい。",
+        "sentence": "My records are easier to manage on a tablet than they would be on loose sheets of paper.",
+        "translation": "私の記録は、ばらばらの紙に書く場合よりタブレットの方が管理しやすい。",
         "comparison": "easier ... than"
       },
       "phase5": {
@@ -324,9 +324,9 @@
           "translation": "管理しやすく"
         },
         {
-          "text": "than loose sheets are",
+          "text": "than they would be on loose sheets of paper",
           "function": "比較",
-          "translation": "ばらばらの紙より"
+          "translation": "ばらばらの紙に書く場合より"
         }
       ],
       "grammarPoints": [
@@ -354,7 +354,7 @@
         {
           "category": "比較",
           "name": "easier than",
-          "where": "easier to manage than loose sheets are",
+          "where": "easier to manage than they would be on loose sheets of paper",
           "explanation": "easyの比較級easierで管理のしやすさを比べる。",
           "rule": "比較級 + than + 比較対象"
         },
@@ -411,7 +411,7 @@
           "translation": "私のノートはコンパクトで整理された状態を保つ。"
         }
       ],
-      "parseTree": "S(I) V(use) O(a tablet) [Rel: that keeps O(my handwritten notes) C(together) [Prep: without piles of paper]], [Rel: which makes O(my records) C(easier to manage) [than loose sheets are]]"
+      "parseTree": "S(I) V(use) O(a tablet) [Rel: that keeps O(my handwritten notes) C(together) [Prep: without piles of paper]], [Rel: which makes O(my records) C(easier to manage) [than they would be on loose sheets of paper]]"
     },
     "expandLayer": {
       "causalExpansion": [
@@ -518,8 +518,8 @@
   {
     "_no": 109,
     "_generatedAt": "2026-07-20T13:52:00",
-    "sentence": "I build a conceptual index that organizes my growing conversations by theme, which makes forgotten ideas easier to revisit than a chronological archive does.",
-    "phonetic": "アイ ビルド ア コンセプチュアル インデックス ザット オーガナイゼズ マイ グロウイング カンヴァセイションズ バイ スィーム, ウィッチ メイクス フォーガトゥン アイディアズ イージアー トゥ リヴィジット ザン ア クロノロジカル アーカイヴ ダズ",
+    "sentence": "I build a conceptual index that organizes my growing conversations by theme, which makes forgotten ideas easier to revisit than they would be in a chronological archive.",
+    "phonetic": "アイ ビルド ア コンセプチュアル インデックス ザット オーガナイゼズ マイ グロウイング カンヴァセイションズ バイ スィーム, ウィッチ メイクス フォーガトゥン アイディアズ イージアー トゥ リヴィジット ザン ゼイ ウッド ビー イン ア クロノロジカル アーカイヴ",
     "japaneseTranslation": "私は、増え続ける対話をテーマ別に整理する概念索引を作っている。それにより、時系列だけの記録よりも、忘れていた考えを再訪しやすくなる。",
     "theme": "AI対話の概念索引",
     "coreVerb": "build",
@@ -539,8 +539,8 @@
         "connector": "because"
       },
       "phase4": {
-        "sentence": "Forgotten ideas are easier to revisit than in a chronological archive.",
-        "translation": "忘れていた考えは、時系列の記録より再訪しやすい。",
+        "sentence": "Forgotten ideas are easier to revisit in a conceptual index than they would be in a chronological archive.",
+        "translation": "忘れていた考えは、時系列の記録より概念索引の方が再訪しやすい。",
         "comparison": "easier ... than"
       },
       "phase5": {
@@ -582,9 +582,9 @@
           "translation": "再訪しやすく"
         },
         {
-          "text": "than a chronological archive does",
+          "text": "than they would be in a chronological archive",
           "function": "比較",
-          "translation": "時系列の記録より"
+          "translation": "時系列の記録の場合より"
         }
       ],
       "grammarPoints": [
@@ -612,7 +612,7 @@
         {
           "category": "比較",
           "name": "easier than",
-          "where": "easier to revisit than a chronological archive does",
+          "where": "easier to revisit than they would be in a chronological archive",
           "explanation": "再訪のしやすさを比較する。",
           "rule": "比較級 + than + 比較対象"
         },
@@ -669,7 +669,7 @@
           "translation": "地図は膨大な記録を探索可能にする。"
         }
       ],
-      "parseTree": "S(I) V(build) O(a conceptual index) [Rel: that organizes O(my growing conversations) [Prep: by theme]], [Rel: which makes O(forgotten ideas) C(easier to revisit) [than a chronological archive does]]"
+      "parseTree": "S(I) V(build) O(a conceptual index) [Rel: that organizes O(my growing conversations) [Prep: by theme]], [Rel: which makes O(forgotten ideas) C(easier to revisit) [than they would be in a chronological archive]]"
     },
     "expandLayer": {
       "causalExpansion": [
