@@ -507,7 +507,11 @@ async function loadCards() {
 
     const fetchedCards = mergeCardLists(...fetchedLists);
     if (fetchedCards.length > 0) {
-      allCards = mergeCardLists(fetchedCards, Array.isArray(stored) ? stored : []);
+      // 2026-07 migration: remove the obsolete No.101-109 copies after renumbering them to No.16-24.
+      const storedCards = Array.isArray(stored)
+        ? stored.filter((card) => !Number.isInteger(card?._no) || card._no < 101 || card._no > 109)
+        : [];
+      allCards = mergeCardLists(fetchedCards, storedCards);
       saveToStorage(STORAGE_KEY, allCards);
       return true;
     }
