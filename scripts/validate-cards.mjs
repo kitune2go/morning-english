@@ -127,8 +127,9 @@ if (!Array.isArray(templateData) || templateData.length !== 1) {
 const templateCard = Array.isArray(templateData) ? templateData[0] : null;
 const seenFiles = new Set();
 const seenNumbers = new Set();
-let previousNumber = null;
+let previousNumber = -Infinity;
 let totalCards = 0;
+const displayNumbers = new Set();
 
 if (Array.isArray(indexData.cards) && templateCard) {
   for (const file of indexData.cards) {
@@ -152,18 +153,49 @@ if (Array.isArray(indexData.cards) && templateCard) {
       if (seenNumbers.has(card._no)) {
         errors.push(location + '._no: 番号が重複しています: ' + card._no);
       }
-      if (Number.isInteger(card._no)) {
-        const expectedNumber = previousNumber === null ? 1 : previousNumber + 1;
-        if (card._no !== expectedNumber) {
-          errors.push(location + '._no: 連番にしてください（期待: ' + expectedNumber + ', 実際: ' + card._no + '）');
-        }
-        previousNumber = card._no;
+      if (Number.isInteger(card._no) && card._no <= previousNumber) {
+        errors.push(location + '._no: cards-index.jsonの順序で昇順にしてください');
       }
       seenNumbers.add(card._no);
+      if (Number.isInteger(card._no)) {
+        previousNumber = card._no;
+        displayNumbers.add(card._no);
+      }
       totalCards += 1;
     });
   }
 }
+
+const manifestData = await readJson('cards-manifest.json');
+if (!Array.isArray(manifestData) || manifestData.length === 0) {
+  errors.push('cards-manifest.json: 空でない配列にしてください');
+} else {
+  const manifestFiles = new Set();
+  for (const file of manifestData) {
+    if (manifestFiles.has(file)) {
+      errors.push('cards-manifest.json: 重複ファイルがあります: ' + file);
+      continue;
+    }
+    manifestFiles.add(file);
+
+    const cards = await readJson(file);
+    if (!Array.isArray(cards) || cards.length === 0) {
+      errors.push(file + ': 空でないカード配列にしてください');
+      continue;
+    }
+    cards.forEach((card) => {
+      if (Number.isInteger(card && card._no)) displayNumbers.add(card._no);
+    });
+  }
+}
+
+const orderedDisplayNumbers = [...displayNumbers].sort((a, b) => a - b);
+orderedDisplayNumbers.forEach((number, index) => {
+  const expectedNumber = index + 1;
+  if (number !== expectedNumber) {
+    errors.push('クライアント表示番号: 連番にしてください（期待: ' + expectedNumber + ', 実際: ' + number + '）');
+  }
+});
 
 if (errors.length > 0) {
   console.error('カード検証に失敗しました:\n\n' + errors.map((error) => '- ' + error).join('\n'));
