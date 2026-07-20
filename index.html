@@ -480,12 +480,66 @@ function cardIdentity(card) {
   return `json:${JSON.stringify(card)}`;
 }
 
+function normalizeCardForDisplay(card) {
+  if (!card || typeof card !== 'object') return card;
+
+  const generate = card.generateLayer || {};
+  const explain = card.explainLayer || {};
+  const expand = card.expandLayer || {};
+
+  // No.7-15 use the original compact schema. Convert it to the current display schema.
+  if (!generate.phase1 && (generate.core || generate.step1 || generate.step2 || generate.step3)) {
+    const grammarItems = explain.grammarPoints || explain.grammar || [];
+    const variants = explain.variants || expand.variants || [];
+
+    return {
+      ...card,
+      generateLayer: {
+        phase1: { sentence: generate.core || '', translation: '' },
+        phase2: { sentence: generate.step1 || generate.core || '', translation: '', addedChunks: '' },
+        phase3: { sentence: generate.step2 || generate.step1 || '', translation: '', connector: '' },
+        phase4: { sentence: generate.step3 || card.sentence || '', translation: card.japaneseTranslation || '', comparison: 'than' },
+        phase5: { sentence: generate.step3 || card.sentence || '', translation: card.japaneseTranslation || '', relativizer: 'that' }
+      },
+      explainLayer: {
+        chunks: (explain.chunks || []).map((chunk) => ({
+          text: chunk.text ?? chunk.en ?? '',
+          function: chunk.function ?? '内容',
+          translation: chunk.translation ?? chunk.ja ?? ''
+        })),
+        grammarPoints: grammarItems.map((item) => typeof item === 'string'
+          ? { category: '文法', name: '解説', where: '', explanation: item, rule: '' }
+          : item),
+        errors: explain.errors || [],
+        variants,
+        parseTree: explain.parseTree || ''
+      },
+      expandLayer: {
+        causalExpansion: expand.causalExpansion || [],
+        structuralShift: expand.structuralShift || [],
+        expressionNetwork: expand.expressionNetwork || {}
+      },
+      scores: {
+        naturalness: Number(card.scores?.naturalness) || 0,
+        clarity: Number(card.scores?.clarity) || 0,
+        flexibility: Number(card.scores?.flexibility) || 0,
+        focus: Number(card.scores?.focus ?? card.scores?.structuralControl) || 0,
+        efficiency: Number(card.scores?.efficiency ?? card.scores?.flexibility) || 0,
+        comment: card.scores?.comment || ''
+      }
+    };
+  }
+
+  return card;
+}
+
 function mergeCardLists(...lists) {
   const merged = [];
   const seen = new Set();
 
-  lists.flat().forEach((card) => {
-    if (!card || typeof card !== 'object') return;
+  lists.flat().forEach((rawCard) => {
+    if (!rawCard || typeof rawCard !== 'object') return;
+    const card = normalizeCardForDisplay(rawCard);
     const key = cardIdentity(card);
     if (seen.has(key)) return;
     seen.add(key);
@@ -749,7 +803,7 @@ function renderChunks(e) {
 }
 
 function renderGrammar(items) {
-  if (!items) return '<div style="color: #a8a29e;">データなし</div>';
+  if (!Array.isArray(items) || items.length === 0) return '<div style="color: #a8a29e;">データなし</div>';
   return items.map(g => `
     <div class="grammar-item">
       <div class="grammar-meta">
@@ -764,7 +818,7 @@ function renderGrammar(items) {
 }
 
 function renderErrors(items) {
-  if (!items) return '<div style="color: #a8a29e;">データなし</div>';
+  if (!Array.isArray(items) || items.length === 0) return '<div style="color: #a8a29e;">データなし</div>';
   return items.map(e => `
     <div class="error-item">
       <div class="error-line"><span class="error-mark x">✗</span><span class="error-wrong">${escape(e.wrong)}</span></div>
@@ -775,7 +829,7 @@ function renderErrors(items) {
 }
 
 function renderVariants(items) {
-  if (!items) return '<div style="color: #a8a29e;">データなし</div>';
+  if (!Array.isArray(items) || items.length === 0) return '<div style="color: #a8a29e;">データなし</div>';
   return items.map((v, i) => {
     const text = typeof v === 'string' ? v : v.text;
     const trans = typeof v === 'string' ? '' : v.translation;
@@ -793,7 +847,7 @@ function renderVariants(items) {
 }
 
 function renderCausal(items) {
-  if (!items) return '<div style="color: #a8a29e;">データなし</div>';
+  if (!Array.isArray(items) || items.length === 0) return '<div style="color: #a8a29e;">データなし</div>';
   return items.map(c => `
     <div class="network-item">
       <div style="display: flex; gap: 6px; align-items: center; margin-bottom: 6px;">
@@ -810,7 +864,7 @@ function renderCausal(items) {
 }
 
 function renderShift(items) {
-  if (!items) return '<div style="color: #a8a29e;">データなし</div>';
+  if (!Array.isArray(items) || items.length === 0) return '<div style="color: #a8a29e;">データなし</div>';
   return items.map((s, i) => `
     <div class="network-item">
       <div class="network-type" style="background: #3730a3; color: #fff; padding: 2px 6px; display: inline-block;">${escape(s.type)}</div>
