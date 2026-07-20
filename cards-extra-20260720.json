@@ -1,0 +1,714 @@
+[
+  {
+    "_no": 107,
+    "_generatedAt": "2026-07-20T13:50:00",
+    "sentence": "Handwriting leaves a physical trace of thought that polished digital text often hides.",
+    "phonetic": "ハンドライティング リーヴズ ア フィジカル トレイス オブ ソート ザット ポリッシュト デジタル テキスト オーフン ハイズ",
+    "japaneseTranslation": "手書きは、整えられたデジタル文章がしばしば隠してしまう思考の物理的な痕跡を残す。",
+    "theme": "手書きの身体性",
+    "coreVerb": "leave",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Handwriting leaves a trace.",
+        "translation": "手書きは痕跡を残す。"
+      },
+      "phase2": {
+        "sentence": "Handwriting leaves a physical trace of thought.",
+        "translation": "手書きは思考の物理的な痕跡を残す。",
+        "addedChunks": "形容詞(physical)と前置詞句(of thought)を追加"
+      },
+      "phase3": {
+        "sentence": "Handwriting matters because it leaves a physical trace of thought.",
+        "translation": "思考の物理的な痕跡を残すため、手書きには意味がある。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Handwriting reveals more of the writing process than polished digital text.",
+        "translation": "手書きは整えられたデジタル文章よりも、書く過程を多く明らかにする。",
+        "comparison": "more ... than"
+      },
+      "phase5": {
+        "sentence": "Handwriting leaves a physical trace of thought that digital text often hides.",
+        "translation": "手書きは、デジタル文章がしばしば隠す思考の物理的な痕跡を残す。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Handwriting leaves",
+          "function": "行動",
+          "translation": "手書きは残す"
+        },
+        {
+          "text": "a physical trace",
+          "function": "対象",
+          "translation": "物理的な痕跡を"
+        },
+        {
+          "text": "of thought",
+          "function": "内容",
+          "translation": "思考の"
+        },
+        {
+          "text": "that polished digital text",
+          "function": "修飾",
+          "translation": "整えられたデジタル文章が"
+        },
+        {
+          "text": "often hides",
+          "function": "行動",
+          "translation": "しばしば隠す"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時制",
+          "name": "現在形",
+          "where": "leaves / hides",
+          "explanation": "一般的な性質を表す現在形。",
+          "rule": "主語 + 現在形の動詞"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 that",
+          "where": "trace ... that ... hides",
+          "explanation": "traceを後ろから説明し、hidesの目的語を兼ねる。",
+          "rule": "名詞 + that + 主語 + 動詞"
+        },
+        {
+          "category": "動詞",
+          "name": "leave + O",
+          "where": "leaves a physical trace",
+          "explanation": "leaveは『去る』だけでなく『痕跡を残す』にも使える。",
+          "rule": "leave + 目的語"
+        },
+        {
+          "category": "頻度副詞",
+          "name": "often",
+          "where": "often hides",
+          "explanation": "一般動詞の前に置き、『しばしば』を表す。",
+          "rule": "主語 + often + 一般動詞"
+        },
+        {
+          "category": "複合形容詞",
+          "name": "digital",
+          "where": "digital text",
+          "explanation": "媒体の性質を示してtextを修飾する。",
+          "rule": "形容詞 + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Handwriting leave a trace.",
+          "correct": "Handwriting leaves a trace.",
+          "why": "handwritingは不可算の単数扱いなのでleavesにする。"
+        },
+        {
+          "wrong": "a trace about thought",
+          "correct": "a trace of thought",
+          "why": "『思考の痕跡』はofで所有・内容の関係を表す。"
+        },
+        {
+          "wrong": "text often hide",
+          "correct": "text often hides",
+          "why": "textはここでは不可算の単数扱い。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Writing by hand records movement.",
+          "translation": "手で書くことは動きを記録する。"
+        },
+        {
+          "text": "Digital text hides hesitation.",
+          "translation": "デジタル文章はためらいを隠す。"
+        },
+        {
+          "text": "A page preserves the act of writing.",
+          "translation": "一枚の紙は書く行為を保存する。"
+        }
+      ],
+      "parseTree": "S(Handwriting) V(leaves) O(a physical trace) [Prep: of thought] [Rel: that S(polished digital text) Adv(often) V(hides)]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because it leaves a physical trace",
+          "expanded": "since it preserves the movement of thought",
+          "nuance": "思考の運動を保存する点を強調"
+        },
+        {
+          "original": "because it leaves a physical trace",
+          "expanded": "as the writer's movement remains visible",
+          "nuance": "書き手の動作が見えることを理由にする"
+        },
+        {
+          "original": "because it leaves a physical trace",
+          "expanded": "due to the visible marks of the writing process",
+          "nuance": "名詞句で分析的に表す"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A physical trace of thought is left by handwriting.",
+          "translation": "思考の物理的な痕跡は手書きによって残される。",
+          "note": "traceを主語にした受動態"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Preserving movement and hesitation, handwriting records more than words.",
+          "translation": "動きとためらいを保存することで、手書きは言葉以上のものを記録する。",
+          "note": "Preservingで付加情報を示す"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The preservation of physical traces gives handwriting its value.",
+          "translation": "物理的痕跡の保存が手書きに価値を与える。",
+          "note": "preserveをpreservationへ名詞化"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "leave",
+            "alternatives": [
+              "preserve",
+              "retain",
+              "record",
+              "capture"
+            ],
+            "nuance": "leaveは残す、preserveは保存する、retainは保持する、recordは記録する、captureは捉える"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対比",
+            "sentence": "Digital text shows the result, while handwriting also shows the process.",
+            "translation": "デジタル文章は結果を示すが、手書きは過程も示す。"
+          },
+          {
+            "type": "What",
+            "sentence": "What handwriting preserves is the movement behind the words.",
+            "translation": "手書きが保存するのは、言葉の背後にある動きである。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Handwriting reveals more physical detail than typed text.",
+            "translation": "手書きはタイプされた文章より多くの身体的な細部を明らかにする。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If I write by hand, the path of my thought remains visible.",
+            "translation": "手で書けば、思考の道筋が見える形で残る。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the physical trace that makes handwriting distinctive.",
+            "translation": "手書きを特徴づけるのは物理的な痕跡である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Handwriting records thought in motion.",
+            "translation": "手書きは動いている思考を記録する。"
+          },
+          {
+            "sentence": "The hand leaves evidence.",
+            "translation": "手は証拠を残す。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "手書きを情報だけでなく身体運動の痕跡として捉えるカード。leave a traceと関係代名詞thatを学べる。"
+    }
+  },
+  {
+    "_no": 108,
+    "_generatedAt": "2026-07-20T13:51:00",
+    "sentence": "A tablet lets me keep handwritten notes without allowing sheets of paper to pile up around me.",
+    "phonetic": "ア タブレット レッツ ミー キープ ハンドリトゥン ノーツ ウィズアウト アラウイング シーツ オブ ペイパー トゥ パイル アップ アラウンド ミー",
+    "japaneseTranslation": "タブレットなら、紙を身の回りに積み上げることなく、手書きのノートを保存できる。",
+    "theme": "タブレットによる記録",
+    "coreVerb": "keep",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I keep notes.",
+        "translation": "私はノートを保存する。"
+      },
+      "phase2": {
+        "sentence": "I keep handwritten notes on a tablet.",
+        "translation": "私はタブレットに手書きのノートを保存する。",
+        "addedChunks": "形容詞(handwritten)と場所(on a tablet)を追加"
+      },
+      "phase3": {
+        "sentence": "I use a tablet because I want to keep handwritten notes.",
+        "translation": "手書きのノートを保存したいので、私はタブレットを使う。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A tablet takes up less space than piles of paper.",
+        "translation": "タブレットは紙の山より場所を取らない。",
+        "comparison": "less ... than"
+      },
+      "phase5": {
+        "sentence": "A tablet lets me keep notes without allowing paper to pile up.",
+        "translation": "タブレットなら、紙を積み上げずにノートを保存できる。",
+        "pattern": "let + O + V / without + -ing"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A tablet lets me keep",
+          "function": "行動",
+          "translation": "タブレットは私に保存させてくれる"
+        },
+        {
+          "text": "handwritten notes",
+          "function": "対象",
+          "translation": "手書きのノートを"
+        },
+        {
+          "text": "without allowing",
+          "function": "様態",
+          "translation": "〜させることなく"
+        },
+        {
+          "text": "sheets of paper",
+          "function": "対象",
+          "translation": "何枚もの紙を"
+        },
+        {
+          "text": "to pile up",
+          "function": "結果",
+          "translation": "積み上がらせる"
+        },
+        {
+          "text": "around me",
+          "function": "場所",
+          "translation": "私の身の回りに"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "使役",
+          "name": "let + O + 動詞原形",
+          "where": "lets me keep",
+          "explanation": "人が何かをできるようにする、許すという構文。",
+          "rule": "let + 目的語 + 動詞原形"
+        },
+        {
+          "category": "前置詞",
+          "name": "without + 動名詞",
+          "where": "without allowing",
+          "explanation": "『〜することなく』を表す。",
+          "rule": "without + 動詞-ing"
+        },
+        {
+          "category": "動詞パターン",
+          "name": "allow + O + to do",
+          "where": "allowing sheets of paper to pile up",
+          "explanation": "目的語がある行為をする状態を許す。",
+          "rule": "allow + 目的語 + to不定詞"
+        },
+        {
+          "category": "句動詞",
+          "name": "pile up",
+          "where": "to pile up",
+          "explanation": "物が次第に積み重なることを表す。",
+          "rule": "pile up"
+        },
+        {
+          "category": "過去分詞",
+          "name": "handwritten",
+          "where": "handwritten notes",
+          "explanation": "handwriteの過去分詞が形容詞としてnotesを修飾する。",
+          "rule": "過去分詞 + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "lets me to keep notes",
+          "correct": "lets me keep notes",
+          "why": "letの後の動詞にはtoを付けない。"
+        },
+        {
+          "wrong": "without allow paper",
+          "correct": "without allowing paper",
+          "why": "前置詞withoutの後は動名詞にする。"
+        },
+        {
+          "wrong": "papers pile up",
+          "correct": "sheets of paper pile up",
+          "why": "紙という素材のpaperは通常不可算なので、枚数はsheets of paperで表す。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I write by hand on a tablet.",
+          "translation": "私はタブレットに手書きする。"
+        },
+        {
+          "text": "Digital notes save physical space.",
+          "translation": "デジタルノートは物理的な空間を節約する。"
+        },
+        {
+          "text": "My notes remain searchable and compact.",
+          "translation": "私のノートは検索可能でコンパクトなまま残る。"
+        }
+      ],
+      "parseTree": "S(A tablet) V(lets) O(me) V(keep) O(handwritten notes) [Prep: without V-ing(allowing) O(sheets of paper) to V(pile up) Adv(around me)]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because I want to avoid piles of paper",
+          "expanded": "since physical sheets quickly accumulate",
+          "nuance": "紙が増える性質を理由にする"
+        },
+        {
+          "original": "because I want to avoid piles of paper",
+          "expanded": "as digital storage requires less physical space",
+          "nuance": "省スペース性を理由にする"
+        },
+        {
+          "original": "because I want to avoid piles of paper",
+          "expanded": "due to the limited space available for paper records",
+          "nuance": "文書的な理由表現"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Handwritten notes can be kept on a tablet without piles of paper.",
+          "translation": "手書きのノートは紙の山を作らずにタブレットへ保存できる。",
+          "note": "notesを主語にした受動態"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using a tablet, I preserve handwriting while saving physical space.",
+          "translation": "タブレットを使うことで、物理的な空間を節約しながら手書きを残す。",
+          "note": "Usingで手段を表す"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The digital storage of handwritten notes reduces paper clutter.",
+          "translation": "手書きノートのデジタル保存は紙の散乱を減らす。",
+          "note": "storeをstorageへ名詞化"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "keep",
+            "alternatives": [
+              "save",
+              "store",
+              "preserve",
+              "retain"
+            ],
+            "nuance": "keepは保つ、saveは保存する、storeは蓄える、preserveは状態を守る、retainは保持する"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対比",
+            "sentence": "I keep the feeling of handwriting while avoiding the bulk of paper.",
+            "translation": "紙のかさばりを避けながら、手書きの感覚を保つ。"
+          },
+          {
+            "type": "What",
+            "sentence": "What a tablet saves is not only data but also physical space.",
+            "translation": "タブレットが節約するのはデータだけでなく物理的な空間でもある。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A tablet is easier to organize than hundreds of loose pages.",
+            "translation": "タブレットは何百枚ものばらばらの紙より整理しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If I use a tablet, I can keep writing without storing more paper.",
+            "translation": "タブレットを使えば、紙を増やさずに書き続けられる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is portability that makes digital handwriting practical.",
+            "translation": "デジタル手書きを実用的にするのは携帯性である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Write by hand, store digitally.",
+            "translation": "手で書き、デジタルで保存する。"
+          },
+          {
+            "sentence": "Keep the notes, lose the clutter.",
+            "translation": "ノートを残し、散乱をなくす。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "手書きとデジタル保存を両立する実用的な表現。let + O + V、without + -ing、pile upをまとめて学べる。"
+    }
+  },
+  {
+    "_no": 109,
+    "_generatedAt": "2026-07-20T13:52:00",
+    "sentence": "When my conversations grow too large to remember, a conceptual index turns them into a map I can revisit.",
+    "phonetic": "ウェン マイ カンヴァセイションズ グロウ トゥー ラージ トゥ リメンバー, ア コンセプチュアル インデックス ターンズ ゼム イントゥ ア マップ アイ キャン リヴィジット",
+    "japaneseTranslation": "対話が覚えきれないほど膨大になったとき、概念索引はそれらを再訪できる地図に変える。",
+    "theme": "AI対話の概念索引",
+    "coreVerb": "turn",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "An index organizes conversations.",
+        "translation": "索引は対話を整理する。"
+      },
+      "phase2": {
+        "sentence": "A conceptual index organizes large conversations.",
+        "translation": "概念索引は膨大な対話を整理する。",
+        "addedChunks": "形容詞(conceptual / large)を追加"
+      },
+      "phase3": {
+        "sentence": "I need an index because I cannot remember every conversation.",
+        "translation": "すべての対話を覚えられないので、私は索引を必要とする。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A conceptual index is easier to revisit than a long chronological archive.",
+        "translation": "概念索引は長い時系列の記録より再訪しやすい。",
+        "comparison": "easier ... than"
+      },
+      "phase5": {
+        "sentence": "When conversations grow too large to remember, an index turns them into a map.",
+        "translation": "対話が覚えきれないほど膨大になると、索引がそれらを地図に変える。",
+        "connector": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When my conversations",
+          "function": "時間",
+          "translation": "私の対話が〜するとき"
+        },
+        {
+          "text": "grow too large to remember",
+          "function": "状態",
+          "translation": "覚えきれないほど膨大になる"
+        },
+        {
+          "text": "a conceptual index turns",
+          "function": "行動",
+          "translation": "概念索引が変える"
+        },
+        {
+          "text": "them",
+          "function": "対象",
+          "translation": "それらを"
+        },
+        {
+          "text": "into a map",
+          "function": "結果",
+          "translation": "地図へ"
+        },
+        {
+          "text": "I can revisit",
+          "function": "修飾",
+          "translation": "私が再訪できる"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続詞",
+          "name": "when",
+          "where": "When my conversations grow",
+          "explanation": "ある状態になった時点・条件を示す。",
+          "rule": "When + 主語 + 動詞, 主節"
+        },
+        {
+          "category": "変化動詞",
+          "name": "grow + 形容詞",
+          "where": "grow too large",
+          "explanation": "時間とともにある状態へ変化することを表す。",
+          "rule": "grow + 形容詞"
+        },
+        {
+          "category": "程度",
+          "name": "too ... to do",
+          "where": "too large to remember",
+          "explanation": "『〜すぎて…できない』を表す。",
+          "rule": "too + 形容詞 + to不定詞"
+        },
+        {
+          "category": "動詞パターン",
+          "name": "turn + O + into",
+          "where": "turns them into a map",
+          "explanation": "目的語を別の状態へ変える。",
+          "rule": "turn + 目的語 + into + 名詞"
+        },
+        {
+          "category": "関係詞",
+          "name": "目的格関係代名詞の省略",
+          "where": "a map I can revisit",
+          "explanation": "mapとIの間にthatまたはwhichが省略されている。",
+          "rule": "名詞 + 主語 + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "grow too much large",
+          "correct": "grow too large",
+          "why": "形容詞largeの程度はtooを直接前に置いて表す。"
+        },
+        {
+          "wrong": "turns them to a map",
+          "correct": "turns them into a map",
+          "why": "『別のものへ変える』はturn O intoを使う。"
+        },
+        {
+          "wrong": "a map which I can revisit it",
+          "correct": "a map which I can revisit",
+          "why": "関係代名詞whichが目的語を兼ねるためitは不要。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "An index gives structure to memory.",
+          "translation": "索引は記憶に構造を与える。"
+        },
+        {
+          "text": "Themes connect distant conversations.",
+          "translation": "テーマが離れた対話同士を結ぶ。"
+        },
+        {
+          "text": "A map makes a large archive navigable.",
+          "translation": "地図は膨大な記録を探索可能にする。"
+        }
+      ],
+      "parseTree": "[Adv: When S(my conversations) V(grow) C(too large to remember)], S(a conceptual index) V(turns) O(them) [Prep: into a map] [Rel omitted: that S(I) can V(revisit)]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because I cannot remember every conversation",
+          "expanded": "since chronological memory becomes unreliable at scale",
+          "nuance": "量の増大と記憶の限界を分析的に示す"
+        },
+        {
+          "original": "because I cannot remember every conversation",
+          "expanded": "as important ideas become buried in the archive",
+          "nuance": "重要概念が埋もれる点を理由にする"
+        },
+        {
+          "original": "because I cannot remember every conversation",
+          "expanded": "due to the sheer volume of accumulated dialogue",
+          "nuance": "蓄積量を名詞句で強調"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Large collections of conversations are turned into navigable maps by conceptual indexes.",
+          "translation": "膨大な対話の集合は、概念索引によって探索可能な地図へ変えられる。",
+          "note": "conversationsを主語にした受動態"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Grouping conversations by concept, I can revisit ideas across time.",
+          "translation": "対話を概念ごとにまとめることで、時間を越えて考えを再訪できる。",
+          "note": "Groupingで手段を表す"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The conceptual organization of dialogue makes memory navigable.",
+          "translation": "対話の概念的な整理が記憶を探索可能にする。",
+          "note": "organizeをorganizationへ名詞化"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "turn",
+            "alternatives": [
+              "transform",
+              "convert",
+              "reshape",
+              "organize"
+            ],
+            "nuance": "turnは変える、transformは大きく変容させる、convertは形式を変換する、reshapeは形を組み替える、organizeは整理する"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "比喩",
+            "sentence": "A conceptual index is a map of accumulated thought.",
+            "translation": "概念索引は蓄積された思考の地図である。"
+          },
+          {
+            "type": "What",
+            "sentence": "What I need is not another summary but a way back into the archive.",
+            "translation": "私が必要とするのは別の要約ではなく、記録へ戻るための道である。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A thematic index is more useful than a purely chronological list.",
+            "translation": "テーマ別索引は単なる時系列一覧より役に立つ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If conversations are indexed by concept, forgotten connections can reappear.",
+            "translation": "対話を概念別に索引化すれば、忘れていたつながりが再び現れる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is structure, not storage alone, that makes an archive usable.",
+            "translation": "記録を使えるものにするのは、保存だけでなく構造である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "An index turns memory into a map.",
+            "translation": "索引は記憶を地図に変える。"
+          },
+          {
+            "sentence": "Structure makes archives revisitable.",
+            "translation": "構造が記録を再訪可能にする。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 10,
+      "efficiency": 9,
+      "comment": "膨大なAI対話を概念索引によって再訪可能にするという今日の議論を表現したカード。too ... to、turn O into、関係代名詞の省略を学べる。"
+    }
+  }
+]
