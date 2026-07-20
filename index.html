@@ -433,11 +433,30 @@ function getCardIndexForDate(date) {
   return ((days % allCards.length) + allCards.length) % allCards.length;
 }
 
+function resetCardView() {
+  activeLayer = 'all';
+  openSections = {
+    generate: true,
+    chunks: true,
+    grammar: true,
+    errors: true,
+    variants: true,
+    causal: true,
+    shift: true,
+    network: true,
+    scores: true
+  };
+  document.querySelectorAll('.tab').forEach((tab) => {
+    tab.classList.toggle('active', tab.dataset.layer === 'all');
+  });
+}
+
 function loadDate(dateKey) {
   if (!allCards.length) return;
   currentIndex = getCardIndexForDate(dateKey);
   currentCard = allCards[currentIndex];
   readCounts = loadFromStorage('cegplus-v2-reads') || {};
+  resetCardView();
   render();
 }
 
@@ -1218,6 +1237,7 @@ function closeHistory() { document.getElementById('historyModal').style.display 
 function selectCard(idx) {
   currentIndex = idx;
   currentCard = allCards[idx];
+  resetCardView();
   closeHistory();
   render();
 }
