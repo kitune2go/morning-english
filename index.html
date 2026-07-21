@@ -593,7 +593,7 @@ async function loadCards() {
   }
 
   if (stored && Array.isArray(stored) && stored.length > 0) {
-    allCards = stored;
+    allCards = mergeCardLists(stored);
     return true;
   }
 
@@ -612,7 +612,7 @@ async function importJsonFile(file) {
         const existing = allCards || [];
         const existingNos = new Set(existing.map(c => c._no).filter(Boolean));
         const newOnes = data.filter(c => !c._no || !existingNos.has(c._no));
-        allCards = [...existing, ...newOnes];
+        allCards = mergeCardLists(existing, newOnes);
 
         saveToStorage(STORAGE_KEY, allCards);
         resolve({ added: newOnes.length, total: allCards.length });
@@ -681,7 +681,8 @@ function render() {
 }
 
 function renderCardHTML(card) {
-  const c = card;
+  // Always normalize at the final rendering boundary, including cached and imported cards.
+  const c = normalizeCardForDisplay(card);
   const readCount = readCounts[c._no] || 0;
 
   let html = '';
@@ -1169,7 +1170,7 @@ async function generateCardImage() {
 // ─── Manga prompt ──────────────────────────
 function buildMangaPrompt() {
   if (!currentCard) return '';
-  const c = currentCard;
+  const c = normalizeCardForDisplay(currentCard);
   const g = c.generateLayer || {};
   const e = c.explainLayer || {};
   const x = c.expandLayer || {};
