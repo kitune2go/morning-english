@@ -2,459 +2,197 @@
   {
     "_no": 25,
     "_generatedAt": "2026-07-21T07:34:00+09:00",
-    "sentence": "I keep drafts that show how my ideas develop, which makes my writing more deliberate than it would be if I copied polished answers.",
-    "phonetic": "アイ キープ ドラフツ ザット ショウ ハウ マイ アイディアズ ディヴェロップ, ウィッチ メイクス マイ ライティング モア デリバレット ザン イット ウッド ビ イフ アイ コピーッド ポリッシュト アンサーズ",
-    "japaneseTranslation": "私は自分の考えがどのように発展するかを示す下書きを残している。それによって、完成された答えをコピーする場合よりも意識的に文章を書ける。",
+    "sentence": "I keep drafts that show how my ideas develop, which makes my writing more thoughtful than simply copying polished answers.",
+    "phonetic": "アイ キープ ドラフツ ザット ショウ ハウ マイ アイディアズ ディヴェロップ、ウィッチ メイクス マイ ライティング モア ソートフル ザン シンプリー コピーイング ポリッシュト アンサーズ",
+    "japaneseTranslation": "私は、自分の考えがどう発展するかを示す下書きを残している。それによって、完成された答えをそのまま写すよりも、文章をよく考えて書けるようになる。",
     "theme": "執筆過程",
     "coreVerb": "keep",
     "generateLayer": {
-      "phase1": {
-        "sentence": "I keep drafts.",
-        "translation": "私は下書きを残す。"
-      },
-      "phase2": {
-        "sentence": "I keep drafts during the writing process.",
-        "translation": "私は執筆過程で下書きを残す。",
-        "addedChunks": "目的語(drafts)と時間(during the writing process)を追加"
-      },
-      "phase3": {
-        "sentence": "I keep drafts because the writing process matters.",
-        "translation": "執筆過程が重要なので、私は下書きを残す。",
-        "connector": "because"
-      },
-      "phase4": {
-        "sentence": "My writing is more deliberate than copied answers would make it.",
-        "translation": "私の文章は、答えをコピーする場合よりも意識的になる。",
-        "comparison": "more ... than"
-      },
-      "phase5": {
-        "sentence": "I keep drafts that show how my ideas develop.",
-        "translation": "私は自分の考えがどのように発展するかを示す下書きを残す。",
-        "relativizer": "that"
-      }
+      "phase1": {"sentence": "I keep drafts.", "translation": "私は下書きを残す。"},
+      "phase2": {"sentence": "I keep drafts during the writing process.", "translation": "私は執筆の過程で下書きを残す。", "addedChunks": "目的語(drafts)と時間(during the writing process)を追加"},
+      "phase3": {"sentence": "I keep drafts because they preserve my thinking.", "translation": "下書きが思考の過程を残すので、私は下書きを保管する。", "connector": "because"},
+      "phase4": {"sentence": "My writing becomes more thoughtful than copied answers.", "translation": "私の文章は、写した答えよりもよく考えられたものになる。", "comparison": "more ... than"},
+      "phase5": {"sentence": "I keep drafts that show how my ideas develop.", "translation": "私は、自分の考えがどう発展するかを示す下書きを残す。", "relativizer": "that"}
     },
     "explainLayer": {
       "chunks": [
-        {
-          "text": "I keep drafts",
-          "function": "行動",
-          "translation": "私は下書きを残す"
-        },
-        {
-          "text": "that show how my ideas develop",
-          "function": "修飾",
-          "translation": "考えがどう発展するかを示す"
-        },
-        {
-          "text": "which makes my writing more deliberate",
-          "function": "結果",
-          "translation": "それが文章をより意識的にする"
-        },
-        {
-          "text": "than it would be if I copied polished answers",
-          "function": "比較",
-          "translation": "完成済みの答えをコピーする場合より"
-        }
+        {"text": "I keep drafts", "function": "行動", "translation": "私は下書きを残す"},
+        {"text": "that show how my ideas develop", "function": "修飾", "translation": "自分の考えがどう発展するかを示す"},
+        {"text": "which makes my writing more thoughtful", "function": "結果", "translation": "それが私の文章をより熟考されたものにする"},
+        {"text": "than simply copying polished answers", "function": "比較", "translation": "完成された答えをそのまま写すより"}
       ],
       "grammarPoints": [
-        {
-          "category": "関係詞",
-          "name": "that節とwhich節",
-          "where": "drafts that show ... , which makes ...",
-          "explanation": "that節はdraftsを限定し、which節は前文全体の結果を示す。",
-          "rule": "名詞 + that節, which + 結果"
-        }
+        {"category": "時制", "name": "現在形", "where": "I keep / drafts show / which makes", "explanation": "習慣と一般的な結果を現在形で表す。", "rule": "主語 + 現在形"},
+        {"category": "関係詞", "name": "関係代名詞 that", "where": "drafts that show", "explanation": "draftsを後ろから限定する。", "rule": "名詞 + that + 動詞句"},
+        {"category": "間接疑問", "name": "how節", "where": "how my ideas develop", "explanation": "showの目的語として発展の仕方を表す。", "rule": "how + 主語 + 動詞"},
+        {"category": "関係詞", "name": "非制限用法の which", "where": ", which makes", "explanation": "前文全体の結果を付け加える。", "rule": "文, which + 動詞"},
+        {"category": "動詞パターン", "name": "make + O + C", "where": "makes my writing more thoughtful", "explanation": "my writingをmore thoughtfulな状態にする。", "rule": "make + 目的語 + 補語"},
+        {"category": "比較", "name": "more ... than", "where": "more thoughtful than", "explanation": "文章の熟慮度をコピー行為と比較する。", "rule": "more + 形容詞 + than"},
+        {"category": "動名詞", "name": "copying", "where": "than simply copying", "explanation": "行為を比較対象として示す。", "rule": "than + 動名詞句"}
       ],
       "errors": [
-        {
-          "wrong": "I keep drafts which shows my ideas develop.",
-          "correct": "I keep drafts that show how my ideas develop.",
-          "why": "先行詞draftsは複数なのでshowを使い、内容にはhow節を用いる。"
-        }
+        {"wrong": "I keep drafts that shows how my ideas develop.", "correct": "I keep drafts that show how my ideas develop.", "why": "先行詞draftsは複数なのでshowを使う。"},
+        {"wrong": "I keep drafts which makes my writing thoughtful than copying answers.", "correct": "I keep drafts, which make my writing more thoughtful than copying answers.", "why": "前文全体を受けるwhichの前にはカンマを置き、比較級にはmoreを付ける。"},
+        {"wrong": "I keep drafts that show how do my ideas develop.", "correct": "I keep drafts that show how my ideas develop.", "why": "間接疑問では主語＋動詞の語順にする。"}
       ],
       "variants": [
-        {
-          "text": "Drafts preserve the path of thought.",
-          "translation": "下書きは思考の道筋を残す。"
-        }
+        {"text": "I keep my drafts to track how my thinking changes.", "translation": "思考の変化を追うために下書きを残す。"},
+        {"text": "Drafts make the path of thought visible.", "translation": "下書きは思考の道筋を見えるようにする。"},
+        {"text": "I learn more from revising drafts than from copying final answers.", "translation": "完成回答を写すより、下書きを直す方が多く学べる。"}
       ],
-      "parseTree": "S(I) V(keep) O(drafts) [Rel: that show how my ideas develop], [Rel: which makes O(my writing) C(more deliberate) than ...]"
+      "parseTree": "S(I) V(keep) O(drafts) [Rel: that show O(how my ideas develop)], [Rel: which makes O(my writing) C(more thoughtful)] [than copying polished answers]"
     },
     "expandLayer": {
       "causalExpansion": [
-        {
-          "original": "because the writing process matters",
-          "expanded": "since drafting preserves the development of ideas",
-          "nuance": "下書きが思考の発展を保存する点を理由にする"
-        }
+        {"original": "because they preserve my thinking", "expanded": "since drafts record how my ideas change", "nuance": "理由を具体化する"},
+        {"original": "because they preserve my thinking", "expanded": "as they leave a visible record of revision", "nuance": "修正履歴を理由として示す"},
+        {"original": "because they preserve my thinking", "expanded": "because a visible process is easier to review", "nuance": "振り返り可能性を強調する"}
       ],
       "structuralShift": [
-        {
-          "type": "受動態",
-          "sentence": "The development of my ideas is preserved in successive drafts.",
-          "translation": "私の考えの発展は連続する下書きに保存される。",
-          "note": "draftsを保存媒体として捉え直す"
-        }
+        {"type": "受動態", "sentence": "The development of my ideas is recorded in successive drafts.", "translation": "考えの発展は連続する下書きに記録される。", "note": "発展過程を主語にする。"},
+        {"type": "分詞構文", "sentence": "Keeping my drafts, I can review how my ideas changed.", "translation": "下書きを残しておくことで、考えの変化を振り返れる。", "note": "Keepingで付帯状況を表す。"},
+        {"type": "名詞化", "sentence": "The preservation of drafts makes the writing process visible.", "translation": "下書きの保存が執筆過程を可視化する。", "note": "keepを名詞概念へ変える。"}
       ],
       "expressionNetwork": {
-        "vocabulary": [
-          {
-            "original": "deliberate",
-            "alternatives": [
-              "intentional",
-              "thoughtful",
-              "considered"
-            ],
-            "nuance": "deliberateは意識的、thoughtfulは熟慮された、consideredは検討を経た"
-          }
-        ],
-        "sentencePatterns": [
-          {
-            "type": "What",
-            "sentence": "What matters is the process that leads to the final text.",
-            "translation": "重要なのは完成文に至る過程である。"
-          }
-        ],
-        "comparison": [
-          {
-            "sentence": "A visible writing process teaches more than a copied final answer.",
-            "translation": "見える執筆過程は、コピーされた完成回答より多くを教える。"
-          }
-        ],
-        "conditional": [
-          {
-            "sentence": "If I preserve my drafts, I can review how my reasoning changed.",
-            "translation": "下書きを残せば、推論がどう変化したかを振り返れる。"
-          }
-        ],
-        "emphasis": [
-          {
-            "sentence": "It is the process that turns words into my own writing.",
-            "translation": "言葉を自分の文章に変えるのは過程である。"
-          }
-        ],
-        "compression": [
-          {
-            "sentence": "Drafts make thinking visible.",
-            "translation": "下書きは思考を可視化する。"
-          }
-        ]
+        "vocabulary": [{"original": "thoughtful", "alternatives": ["deliberate", "careful", "considered"], "nuance": "thoughtfulは熟考された、deliberateは意図的、consideredは検討を経た"}],
+        "sentencePatterns": [{"type": "What", "sentence": "What matters is the process that leads to the final text.", "translation": "重要なのは完成文に至る過程である。"}],
+        "comparison": [{"sentence": "Revising drafts teaches me more than copying polished answers.", "translation": "完成回答を写すより、下書きを直す方が多くを教えてくれる。"}],
+        "conditional": [{"sentence": "If I keep my drafts, I can see where my reasoning changed.", "translation": "下書きを残せば、推論がどこで変わったか確認できる。"}],
+        "emphasis": [{"sentence": "It is the revision process that turns borrowed language into my own writing.", "translation": "借りた言葉を自分の文章に変えるのは修正の過程である。"}],
+        "compression": [{"sentence": "Drafts make thinking visible.", "translation": "下書きは思考を可視化する。"}, {"sentence": "Keep the process, not only the result.", "translation": "結果だけでなく過程も残す。"}]
       }
     },
-    "scores": {
-      "naturalness": 9,
-      "clarity": 9,
-      "flexibility": 9,
-      "focus": 10,
-      "efficiency": 9,
-      "comment": "AI時代にも執筆過程を残す価値を、that節・which節・仮定を含む比較表現で学ぶカード。"
-    }
+    "scores": {"naturalness": 9, "clarity": 9, "flexibility": 9, "focus": 10, "efficiency": 9, "comment": "比較対象とwhich節の参照を明確にし、執筆過程の保存を自然な英語で扱う。"}
   },
   {
     "_no": 26,
     "_generatedAt": "2026-07-21T23:00:00+09:00",
-    "sentence": "I monitor conditions that combine extreme heat with high humidity, which helps me recognize a dangerous workplace earlier than I could by relying on endurance alone.",
-    "phonetic": "アイ モニター コンディションズ ザット コンバイン エクストリーム ヒート ウィズ ハイ ヒューミディティ, ウィッチ ヘルプス ミー レコグナイズ ア デインジャラス ワークプレイス アーリアー ザン アイ クッド バイ リライイング オン エンデュアランス アローン",
-    "japaneseTranslation": "私は猛暑と高湿度が重なる状態を監視している。それによって、我慢だけに頼る場合より早く危険な作業場だと認識できる。",
+    "sentence": "I monitor conditions that combine extreme heat with high humidity, which helps me identify workplace risk earlier than endurance alone would.",
+    "phonetic": "アイ モニター コンディションズ ザット コンバイン エクストリーム ヒート ウィズ ハイ ヒューミディティ、ウィッチ ヘルプス ミー アイデンティファイ ワークプレイス リスク アーリアー ザン エンデュアランス アローン ウッド",
+    "japaneseTranslation": "私は、猛暑と高湿度が重なる状態を監視している。それによって、我慢だけに頼る場合よりも早く職場の危険を特定できる。",
     "theme": "高温多湿の作業安全",
     "coreVerb": "monitor",
     "generateLayer": {
-      "phase1": {
-        "sentence": "I monitor conditions.",
-        "translation": "私は状態を監視する。"
-      },
-      "phase2": {
-        "sentence": "I monitor heat and humidity at work.",
-        "translation": "私は職場の暑さと湿度を監視する。",
-        "addedChunks": "対象(heat and humidity)と場所(at work)を追加"
-      },
-      "phase3": {
-        "sentence": "I monitor conditions because endurance cannot remove environmental risk.",
-        "translation": "我慢では環境リスクを除けないので、私は状態を監視する。",
-        "connector": "because"
-      },
-      "phase4": {
-        "sentence": "I recognize danger earlier than I could by relying on endurance alone.",
-        "translation": "私は我慢だけに頼る場合より早く危険を認識する。",
-        "comparison": "earlier than"
-      },
-      "phase5": {
-        "sentence": "I monitor conditions that combine extreme heat with high humidity.",
-        "translation": "私は猛暑と高湿度が重なる状態を監視する。",
-        "relativizer": "that"
-      }
+      "phase1": {"sentence": "I monitor conditions.", "translation": "私は状態を監視する。"},
+      "phase2": {"sentence": "I monitor heat and humidity at work.", "translation": "私は職場の暑さと湿度を監視する。", "addedChunks": "対象(heat and humidity)と場所(at work)を追加"},
+      "phase3": {"sentence": "I monitor conditions because endurance cannot remove heat risk.", "translation": "我慢では暑熱リスクをなくせないので、私は環境条件を監視する。", "connector": "because"},
+      "phase4": {"sentence": "I identify risk earlier than endurance alone would.", "translation": "我慢だけに頼る場合より早く危険を特定する。", "comparison": "earlier than"},
+      "phase5": {"sentence": "I monitor conditions that combine extreme heat with high humidity.", "translation": "私は、猛暑と高湿度が重なる状態を監視する。", "relativizer": "that"}
     },
     "explainLayer": {
       "chunks": [
-        {
-          "text": "I monitor conditions",
-          "function": "行動",
-          "translation": "私は状態を監視する"
-        },
-        {
-          "text": "that combine extreme heat with high humidity",
-          "function": "修飾",
-          "translation": "猛暑と高湿度が重なる"
-        },
-        {
-          "text": "which helps me recognize a dangerous workplace",
-          "function": "結果",
-          "translation": "それが危険な作業場の認識を助ける"
-        },
-        {
-          "text": "earlier than I could by relying on endurance alone",
-          "function": "比較",
-          "translation": "我慢だけに頼る場合より早く"
-        }
+        {"text": "I monitor conditions", "function": "行動", "translation": "私は環境条件を監視する"},
+        {"text": "that combine extreme heat with high humidity", "function": "修飾", "translation": "猛暑と高湿度が重なる"},
+        {"text": "which helps me identify workplace risk", "function": "結果", "translation": "それが職場の危険を特定する助けになる"},
+        {"text": "earlier than endurance alone would", "function": "比較", "translation": "我慢だけに頼る場合より早く"}
       ],
       "grammarPoints": [
-        {
-          "category": "比較",
-          "name": "earlier than",
-          "where": "earlier than I could ...",
-          "explanation": "危険を認識する時点を、我慢だけに頼る場合と比較する。",
-          "rule": "比較級 + than + 比較対象"
-        }
+        {"category": "時制", "name": "現在形", "where": "I monitor / conditions combine / which helps", "explanation": "継続的な安全管理と一般的な効果を表す。", "rule": "主語 + 現在形"},
+        {"category": "関係詞", "name": "関係代名詞 that", "where": "conditions that combine", "explanation": "監視対象となるconditionsを限定する。", "rule": "名詞 + that + 動詞句"},
+        {"category": "動詞パターン", "name": "combine A with B", "where": "combine extreme heat with high humidity", "explanation": "二つの条件が同時に重なることを表す。", "rule": "combine A with B"},
+        {"category": "関係詞", "name": "非制限用法の which", "where": ", which helps", "explanation": "前文全体を受けて安全上の効果を追加する。", "rule": "文, which + 動詞"},
+        {"category": "動詞パターン", "name": "help + O + 動詞原形", "where": "helps me identify", "explanation": "identifyすることを助ける構文。", "rule": "help + 目的語 + 動詞原形"},
+        {"category": "比較", "name": "earlier than", "where": "earlier than endurance alone would", "explanation": "危険を特定する時点を比較する。", "rule": "比較級 + than + 比較対象"},
+        {"category": "代用表現", "name": "wouldによる省略", "where": "endurance alone would", "explanation": "would identify riskを繰り返さず省略している。", "rule": "than + 主語 + 助動詞"}
       ],
       "errors": [
-        {
-          "wrong": "Heat is safe if workers are strong.",
-          "correct": "Heat can be dangerous even when workers are experienced.",
-          "why": "身体の慣れと環境リスクを混同しない表現にする。"
-        }
+        {"wrong": "I monitor conditions that combines heat with humidity.", "correct": "I monitor conditions that combine heat with humidity.", "why": "先行詞conditionsは複数なのでcombineを使う。"},
+        {"wrong": "This helps me to identifying workplace risk.", "correct": "This helps me identify workplace risk.", "why": "help + 目的語の後は動詞原形を使う。"},
+        {"wrong": "I identify risk more early than endurance alone would.", "correct": "I identify risk earlier than endurance alone would.", "why": "earlyの比較級はearlier。"}
       ],
       "variants": [
-        {
-          "text": "Endurance does not cancel heat risk.",
-          "translation": "我慢強さは暑熱リスクを打ち消さない。"
-        }
+        {"text": "I track heat and humidity before deciding whether work is safe.", "translation": "作業が安全か判断する前に暑さと湿度を追跡する。"},
+        {"text": "Measured conditions reveal risk better than toughness does.", "translation": "測定された環境条件は、根性より正確に危険を示す。"},
+        {"text": "I use environmental data instead of relying on endurance.", "translation": "我慢に頼らず環境データを使う。"}
       ],
-      "parseTree": "S(I) V(monitor) O(conditions) [Rel: that combine heat with humidity], [Rel: which helps O(me) V(recognize) O(a dangerous workplace) earlier than ...]"
+      "parseTree": "S(I) V(monitor) O(conditions) [Rel: that combine A with B], [Rel: which helps O(me) V(identify) O(workplace risk)] [earlier than endurance alone would]"
     },
     "expandLayer": {
       "causalExpansion": [
-        {
-          "original": "because endurance cannot remove environmental risk",
-          "expanded": "since heat and humidity affect the body regardless of determination",
-          "nuance": "意思の強さとは独立した身体影響を示す"
-        }
+        {"original": "because endurance cannot remove heat risk", "expanded": "since heat and humidity affect the body regardless of determination", "nuance": "意思とは独立した身体影響を示す"},
+        {"original": "because endurance cannot remove heat risk", "expanded": "as measured conditions are more reliable than toughness", "nuance": "測定値の信頼性を強調する"},
+        {"original": "because endurance cannot remove heat risk", "expanded": "because environmental danger remains even when workers feel accustomed to it", "nuance": "慣れと安全を区別する"}
       ],
       "structuralShift": [
-        {
-          "type": "名詞化",
-          "sentence": "The monitoring of heat and humidity supports earlier risk recognition.",
-          "translation": "暑さと湿度の監視は、より早いリスク認識を支える。",
-          "note": "monitorをmonitoringへ名詞化"
-        }
+        {"type": "受動態", "sentence": "Heat and humidity are monitored so that workplace risk can be identified early.", "translation": "職場の危険を早期に特定できるよう、暑さと湿度が監視される。", "note": "監視対象を主語にする。"},
+        {"type": "分詞構文", "sentence": "Monitoring heat and humidity, I can identify risk earlier.", "translation": "暑さと湿度を監視することで、危険をより早く特定できる。", "note": "Monitoringで手段を表す。"},
+        {"type": "名詞化", "sentence": "The monitoring of environmental conditions supports early risk detection.", "translation": "環境条件の監視は危険の早期発見を支える。", "note": "monitorをmonitoringへ名詞化する。"}
       ],
       "expressionNetwork": {
-        "vocabulary": [
-          {
-            "original": "monitor",
-            "alternatives": [
-              "measure",
-              "track",
-              "observe"
-            ],
-            "nuance": "monitorは継続監視、measureは測定、trackは推移の追跡"
-          }
-        ],
-        "sentencePatterns": [
-          {
-            "type": "強調",
-            "sentence": "Environmental conditions, not toughness, determine the level of heat risk.",
-            "translation": "暑熱リスクの程度を決めるのは、根性ではなく環境条件である。"
-          }
-        ],
-        "comparison": [
-          {
-            "sentence": "Measured conditions are more reliable than a worker's sense of endurance.",
-            "translation": "測定された環境条件は、作業者の我慢の感覚より信頼できる。"
-          }
-        ],
-        "conditional": [
-          {
-            "sentence": "If rest areas remain hot and humid, recovery may be limited.",
-            "translation": "休憩場所も高温多湿なら、回復が制限される可能性がある。"
-          }
-        ],
-        "emphasis": [
-          {
-            "sentence": "It is external cooling that reduces the environmental heat load.",
-            "translation": "環境の熱負荷を減らすのは外部からの冷却である。"
-          }
-        ],
-        "compression": [
-          {
-            "sentence": "Measure heat; do not guess safety.",
-            "translation": "暑さを測り、安全を推測で済ませない。"
-          }
-        ]
+        "vocabulary": [{"original": "monitor", "alternatives": ["measure", "track", "observe"], "nuance": "monitorは継続監視、measureは数値測定、trackは推移の追跡"}],
+        "sentencePatterns": [{"type": "強調", "sentence": "Environmental conditions, not toughness, determine heat risk.", "translation": "暑熱リスクを決めるのは根性ではなく環境条件である。"}],
+        "comparison": [{"sentence": "Measured conditions are more reliable than a worker's sense of endurance.", "translation": "測定された環境条件は、作業者の我慢の感覚より信頼できる。"}],
+        "conditional": [{"sentence": "If heat and humidity remain high, recovery may be limited even during breaks.", "translation": "暑さと湿度が高いままなら、休憩中でも回復が制限されることがある。"}],
+        "emphasis": [{"sentence": "It is external cooling that reduces the environmental heat load.", "translation": "環境の熱負荷を下げるのは外部からの冷却である。"}],
+        "compression": [{"sentence": "Measure heat; do not guess safety.", "translation": "暑さを測り、安全を推測で済ませない。"}, {"sentence": "Data beats endurance.", "translation": "データは我慢より有効だ。"}]
       }
     },
-    "scores": {
-      "naturalness": 9,
-      "clarity": 10,
-      "flexibility": 8,
-      "focus": 10,
-      "efficiency": 9,
-      "comment": "高温多湿を個人の鍛錬ではなく環境リスクとして判断するための実用的な安全英語カード。"
-    }
+    "scores": {"naturalness": 9, "clarity": 9, "flexibility": 8, "focus": 10, "efficiency": 9, "comment": "dangerous workplaceを避け、identify workplace riskとして対象を明確化した。"}
   },
   {
     "_no": 27,
     "_generatedAt": "2026-07-21T02:51:00+09:00",
-    "sentence": "I question concepts that sound academic without explaining much, which helps me distinguish useful frameworks from empty labels more carefully than before.",
-    "phonetic": "アイ クエスチョン コンセプツ ザット サウンド アカデミック ウィズアウト エクスプレイニング マッチ, ウィッチ ヘルプス ミー ディスティングウィッシュ ユースフル フレームワークス フロム エンプティ レイベルズ モア ケアフリー ザン ビフォー",
-    "japaneseTranslation": "私は、あまり説明していないのに学術的に聞こえる概念を問い直す。それによって以前より注意深く、有用な枠組みと空虚なラベルを区別できる。",
+    "sentence": "I question concepts that sound academic but explain little, which helps me distinguish useful frameworks from empty labels more carefully than before.",
+    "phonetic": "アイ クエスチョン コンセプツ ザット サウンド アカデミック バット エクスプレイン リトル、ウィッチ ヘルプス ミー ディスティングウィッシュ ユースフル フレームワークス フロム エンプティ レイベルズ モア ケアフリー ザン ビフォー",
+    "japaneseTranslation": "私は、学術的に聞こえてもほとんど説明しない概念を問い直す。それによって以前より注意深く、有用な枠組みと空虚なラベルを区別できる。",
     "theme": "概念の検証",
     "coreVerb": "question",
     "generateLayer": {
-      "phase1": {
-        "sentence": "I question concepts.",
-        "translation": "私は概念を問い直す。"
-      },
-      "phase2": {
-        "sentence": "I question academic-sounding concepts carefully.",
-        "translation": "私は学術的に聞こえる概念を注意深く問い直す。",
-        "addedChunks": "対象(academic-sounding concepts)と様態(carefully)を追加"
-      },
-      "phase3": {
-        "sentence": "I question concepts because impressive language can hide weak explanations.",
-        "translation": "印象的な言葉が弱い説明を隠すことがあるので、私は概念を問い直す。",
-        "connector": "because"
-      },
-      "phase4": {
-        "sentence": "I distinguish useful frameworks more carefully than before.",
-        "translation": "私は以前より注意深く有用な枠組みを見分ける。",
-        "comparison": "more carefully than"
-      },
-      "phase5": {
-        "sentence": "I question concepts that sound academic without explaining much.",
-        "translation": "私は、あまり説明していないのに学術的に聞こえる概念を問い直す。",
-        "relativizer": "that"
-      }
+      "phase1": {"sentence": "I question concepts.", "translation": "私は概念を問い直す。"},
+      "phase2": {"sentence": "I question academic-sounding concepts carefully.", "translation": "私は学術的に聞こえる概念を注意深く問い直す。", "addedChunks": "対象(academic-sounding concepts)と様態(carefully)を追加"},
+      "phase3": {"sentence": "I question concepts because impressive language can hide weak explanations.", "translation": "印象的な言葉が弱い説明を隠すことがあるので、私は概念を問い直す。", "connector": "because"},
+      "phase4": {"sentence": "I distinguish useful frameworks more carefully than before.", "translation": "私は以前より注意深く有用な枠組みを見分ける。", "comparison": "more carefully than"},
+      "phase5": {"sentence": "I question concepts that sound academic but explain little.", "translation": "私は、学術的に聞こえてもほとんど説明しない概念を問い直す。", "relativizer": "that"}
     },
     "explainLayer": {
       "chunks": [
-        {
-          "text": "I question concepts",
-          "function": "行動",
-          "translation": "私は概念を問い直す"
-        },
-        {
-          "text": "that sound academic without explaining much",
-          "function": "修飾",
-          "translation": "あまり説明せず学術的に聞こえる"
-        },
-        {
-          "text": "which helps me distinguish",
-          "function": "結果",
-          "translation": "それが見分ける助けになる"
-        },
-        {
-          "text": "useful frameworks from empty labels",
-          "function": "対象",
-          "translation": "有用な枠組みと空虚なラベルを"
-        },
-        {
-          "text": "more carefully than before",
-          "function": "比較",
-          "translation": "以前より注意深く"
-        }
+        {"text": "I question concepts", "function": "行動", "translation": "私は概念を問い直す"},
+        {"text": "that sound academic but explain little", "function": "修飾", "translation": "学術的に聞こえてもほとんど説明しない"},
+        {"text": "which helps me distinguish", "function": "結果", "translation": "それが区別する助けになる"},
+        {"text": "useful frameworks from empty labels", "function": "対象", "translation": "有用な枠組みと空虚なラベルを"},
+        {"text": "more carefully than before", "function": "比較", "translation": "以前より注意深く"}
       ],
       "grammarPoints": [
-        {
-          "category": "動詞パターン",
-          "name": "distinguish A from B",
-          "where": "distinguish useful frameworks from empty labels",
-          "explanation": "二つの対象を区別するときに使う基本構文。",
-          "rule": "distinguish A from B"
-        }
+        {"category": "時制", "name": "現在形", "where": "I question / concepts sound / explain / which helps", "explanation": "習慣的な検証行為と一般的な効果を表す。", "rule": "主語 + 現在形"},
+        {"category": "関係詞", "name": "関係代名詞 that", "where": "concepts that sound", "explanation": "conceptsを後ろから限定する。", "rule": "名詞 + that + 動詞句"},
+        {"category": "接続詞", "name": "but", "where": "sound academic but explain little", "explanation": "学術的な響きと説明力の乏しさを対比する。", "rule": "A but B"},
+        {"category": "関係詞", "name": "非制限用法の which", "where": ", which helps", "explanation": "前文全体がもたらす結果を表す。", "rule": "文, which + 動詞"},
+        {"category": "動詞パターン", "name": "distinguish A from B", "where": "distinguish useful frameworks from empty labels", "explanation": "二つの種類を区別する基本構文。", "rule": "distinguish A from B"},
+        {"category": "比較", "name": "more carefully than", "where": "more carefully than before", "explanation": "carefullyの程度を以前と比較する。", "rule": "more + 副詞 + than"},
+        {"category": "数量表現", "name": "little", "where": "explain little", "explanation": "説明する内容がほとんどないことを表す。", "rule": "動詞 + little"}
       ],
       "errors": [
-        {
-          "wrong": "It sounds academic, so it must be useful.",
-          "correct": "It may sound academic without offering a useful explanation.",
-          "why": "学術的な響きと説明力を同一視しない。"
-        }
+        {"wrong": "I question concepts that sounds academic.", "correct": "I question concepts that sound academic.", "why": "先行詞conceptsは複数なのでsoundを使う。"},
+        {"wrong": "I distinguish useful frameworks with empty labels.", "correct": "I distinguish useful frameworks from empty labels.", "why": "distinguishはA from Bの形を取る。"},
+        {"wrong": "I examine concepts more careful than before.", "correct": "I examine concepts more carefully than before.", "why": "動詞examineを修飾するので副詞carefullyを使う。"}
       ],
       "variants": [
-        {
-          "text": "A technical label is not automatically an explanation.",
-          "translation": "専門的なラベルが自動的に説明になるわけではない。"
-        }
+        {"text": "I test concepts by what they actually explain.", "translation": "概念は実際に何を説明するかで検証する。"},
+        {"text": "An academic tone is not the same as explanatory power.", "translation": "学術的な響きと説明力は同じではない。"},
+        {"text": "I separate useful models from impressive labels.", "translation": "有用なモデルと印象的なラベルを分けて考える。"}
       ],
-      "parseTree": "S(I) V(question) O(concepts) [Rel: that sound academic without explaining much], [Rel: which helps O(me) V(distinguish) O(A from B) more carefully than before]"
+      "parseTree": "S(I) V(question) O(concepts) [Rel: that sound academic but explain little], [Rel: which helps O(me) V(distinguish) O(A from B)] [more carefully than before]"
     },
     "expandLayer": {
       "causalExpansion": [
-        {
-          "original": "because impressive language can hide weak explanations",
-          "expanded": "since terminology can create authority without adding explanatory power",
-          "nuance": "専門用語が権威感だけを生む可能性を示す"
-        }
+        {"original": "because impressive language can hide weak explanations", "expanded": "since terminology can create authority without adding explanatory power", "nuance": "権威感と説明力を分ける"},
+        {"original": "because impressive language can hide weak explanations", "expanded": "as technical wording may conceal an unclear idea", "nuance": "表現の難しさが曖昧さを隠す点を示す"},
+        {"original": "because impressive language can hide weak explanations", "expanded": "because a label is useful only when it guides observation", "nuance": "観察を導く機能を基準にする"}
       ],
       "structuralShift": [
-        {
-          "type": "受動態",
-          "sentence": "Academic-sounding concepts should be tested by their explanatory power.",
-          "translation": "学術的に聞こえる概念は、その説明力によって検証されるべきだ。",
-          "note": "評価基準を主語側に移す"
-        }
+        {"type": "受動態", "sentence": "Academic-sounding concepts should be judged by what they explain.", "translation": "学術的に聞こえる概念は、何を説明するかで評価されるべきだ。", "note": "評価対象を主語にする。"},
+        {"type": "分詞構文", "sentence": "Questioning impressive labels, I focus on explanatory power.", "translation": "印象的なラベルを問い直しながら、説明力に注目する。", "note": "Questioningで同時進行の行為を表す。"},
+        {"type": "名詞化", "sentence": "The examination of concepts separates useful frameworks from empty labels.", "translation": "概念の検討が、有用な枠組みと空虚なラベルを分ける。", "note": "questionを名詞表現へ変える。"}
       ],
       "expressionNetwork": {
-        "vocabulary": [
-          {
-            "original": "question",
-            "alternatives": [
-              "examine",
-              "test",
-              "challenge"
-            ],
-            "nuance": "questionは問い直す、examineは検討、testは検証、challengeは異議を唱える"
-          }
-        ],
-        "sentencePatterns": [
-          {
-            "type": "What",
-            "sentence": "What matters is whether a concept explains a real pattern.",
-            "translation": "重要なのは、その概念が実際のパターンを説明するかどうかだ。"
-          }
-        ],
-        "comparison": [
-          {
-            "sentence": "A clear framework is more valuable than an impressive label.",
-            "translation": "明確な枠組みは、印象的なラベルより価値がある。"
-          }
-        ],
-        "conditional": [
-          {
-            "sentence": "If a concept cannot guide observation, it may be only a label.",
-            "translation": "概念が観察を導けないなら、単なるラベルかもしれない。"
-          }
-        ],
-        "emphasis": [
-          {
-            "sentence": "It is explanatory power that gives a concept value.",
-            "translation": "概念に価値を与えるのは説明力である。"
-          }
-        ],
-        "compression": [
-          {
-            "sentence": "Test concepts by what they explain.",
-            "translation": "概念は何を説明するかで検証する。"
-          }
-        ]
+        "vocabulary": [{"original": "question", "alternatives": ["examine", "test", "challenge"], "nuance": "questionは問い直す、examineは検討する、testは検証する、challengeは異議を唱える"}],
+        "sentencePatterns": [{"type": "What", "sentence": "What matters is whether a concept explains a real pattern.", "translation": "重要なのは、その概念が実際のパターンを説明するかどうかだ。"}],
+        "comparison": [{"sentence": "A clear framework is more useful than an impressive label.", "translation": "明確な枠組みは印象的なラベルより有用である。"}],
+        "conditional": [{"sentence": "If a concept cannot guide observation, it may be only a label.", "translation": "概念が観察を導けないなら、単なるラベルかもしれない。"}],
+        "emphasis": [{"sentence": "It is explanatory power that gives a concept value.", "translation": "概念に価値を与えるのは説明力である。"}],
+        "compression": [{"sentence": "Test concepts by what they explain.", "translation": "概念は何を説明するかで検証する。"}, {"sentence": "Sound is not substance.", "translation": "響きは中身ではない。"}]
       }
     },
-    "scores": {
-      "naturalness": 9,
-      "clarity": 9,
-      "flexibility": 9,
-      "focus": 10,
-      "efficiency": 9,
-      "comment": "学問風の語感と実際の説明力を分けて考える批判的読解のカード。"
-    }
+    "scores": {"naturalness": 9, "clarity": 9, "flexibility": 9, "focus": 10, "efficiency": 9, "comment": "without explaining muchの曖昧さを避け、but explain littleで主語と意味関係を明確化した。"}
   }
 ]
