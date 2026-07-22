@@ -1,0 +1,699 @@
+[
+  {
+    "_no": 28,
+    "_generatedAt": "2026-07-22T02:01:00+09:00",
+    "sentence": "I compare features that distinguish similar aircraft, which makes identification more reliable than guessing from a single shape.",
+    "phonetic": "アイ コンペア フィーチャーズ ザット ディスティングウィッシュ シミラー エアクラフト、ウィッチ メイクス アイデンティフィケイション モア リライアブル ザン ゲッシング フロム ア シングル シェイプ",
+    "japaneseTranslation": "私は似た航空機を見分ける特徴を比較する。それによって、一つの形だけから推測するよりも確実に機体を識別できる。",
+    "theme": "航空機の特徴識別",
+    "coreVerb": "compare",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I compare features.",
+        "translation": "私は特徴を比較する。"
+      },
+      "phase2": {
+        "sentence": "I compare visible aircraft features.",
+        "translation": "私は航空機の見える特徴を比較する。",
+        "addedChunks": "対象(visible aircraft features)を追加"
+      },
+      "phase3": {
+        "sentence": "I compare features because similar aircraft can share a general shape.",
+        "translation": "似た航空機は大まかな形が共通することがあるので、私は特徴を比較する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Identification is more reliable than guessing from one shape.",
+        "translation": "識別は一つの形から推測するより確実である。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "I compare features that distinguish similar aircraft.",
+        "translation": "私は似た航空機を見分ける特徴を比較する。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "I compare features",
+          "function": "行動",
+          "translation": "私は特徴を比較する"
+        },
+        {
+          "text": "that distinguish similar aircraft",
+          "function": "修飾",
+          "translation": "似た航空機を見分ける"
+        },
+        {
+          "text": "which makes identification more reliable",
+          "function": "結果",
+          "translation": "それが識別をより確実にする"
+        },
+        {
+          "text": "than guessing from a single shape",
+          "function": "比較",
+          "translation": "一つの形から推測するより"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時制",
+          "name": "現在形",
+          "where": "I compare / features distinguish / which makes",
+          "explanation": "普段行う識別手順と一般的な効果を表す。",
+          "rule": "主語 + 現在形"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 that",
+          "where": "features that distinguish",
+          "explanation": "比較するfeaturesの種類を後ろから限定する。",
+          "rule": "名詞 + that + 動詞句"
+        },
+        {
+          "category": "動詞",
+          "name": "distinguish",
+          "where": "distinguish similar aircraft",
+          "explanation": "特徴に基づいて似た対象を見分ける意味で使う。",
+          "rule": "distinguish + 目的語"
+        },
+        {
+          "category": "関係詞",
+          "name": "非制限用法の which",
+          "where": ", which makes",
+          "explanation": "特徴を比較する行為全体が生む結果を付け加える。",
+          "rule": "文, which + 動詞"
+        },
+        {
+          "category": "使役",
+          "name": "make + O + C",
+          "where": "makes identification more reliable",
+          "explanation": "identificationをmore reliableな状態にする。",
+          "rule": "make + 目的語 + 補語"
+        },
+        {
+          "category": "比較",
+          "name": "more reliable than",
+          "where": "more reliable than guessing",
+          "explanation": "複数特徴による識別と単一形状からの推測を比較する。",
+          "rule": "more + 形容詞 + than"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I compare features that distinguishes similar aircraft.",
+          "correct": "I compare features that distinguish similar aircraft.",
+          "why": "先行詞featuresは複数なのでdistinguishを使う。"
+        },
+        {
+          "wrong": "This makes identification more reliably.",
+          "correct": "This makes identification more reliable.",
+          "why": "make O Cの補語には形容詞reliableを使う。"
+        },
+        {
+          "wrong": "It is more reliable then guessing.",
+          "correct": "It is more reliable than guessing.",
+          "why": "比較にはthenではなくthanを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I check the wings, tail, and markings before identifying an aircraft.",
+          "translation": "機体を特定する前に翼、尾翼、標識を確認する。"
+        },
+        {
+          "text": "Several visual clues help me tell similar aircraft apart.",
+          "translation": "複数の視覚的手掛かりが似た航空機を見分ける助けになる。"
+        },
+        {
+          "text": "I avoid identifying an aircraft from its silhouette alone.",
+          "translation": "輪郭だけで航空機を特定することは避ける。"
+        }
+      ],
+      "parseTree": "S(I) V(compare) O(features) [Rel: that distinguish similar aircraft], [Rel: which makes O(identification) C(more reliable)] [than guessing from a single shape]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because similar aircraft can share a general shape",
+          "expanded": "since several models may look alike from one angle",
+          "nuance": "観察角度による類似を理由にする"
+        },
+        {
+          "original": "because similar aircraft can share a general shape",
+          "expanded": "as markings and proportions often provide stronger clues",
+          "nuance": "標識と比率の情報価値を示す"
+        },
+        {
+          "original": "because similar aircraft can share a general shape",
+          "expanded": "because a single silhouette can hide important differences",
+          "nuance": "輪郭だけでは差が隠れる点を強調する"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Similar aircraft are distinguished by comparing several visible features.",
+          "translation": "似た航空機は複数の見える特徴を比較することで区別される。",
+          "note": "識別対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Comparing the wings and tail, I narrow down the aircraft type.",
+          "translation": "翼と尾翼を比較しながら、私は機種を絞り込む。",
+          "note": "Comparingで同時に行う観察を表す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The comparison of several features improves aircraft identification.",
+          "translation": "複数特徴の比較は航空機識別を改善する。",
+          "note": "compareをcomparisonへ名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "distinguish",
+            "alternatives": [
+              "identify",
+              "differentiate",
+              "tell apart"
+            ],
+            "nuance": "distinguishは特徴から区別する、identifyは正体を特定する、tell apartは日常的に見分ける"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "方法",
+            "sentence": "I identify an aircraft by comparing several visible features.",
+            "translation": "私は複数の外見上の特徴を比較して機体を特定する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Several features are more reliable than one silhouette.",
+            "translation": "複数の特徴は一つの輪郭より信頼できる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the markings are unclear, I check the wing and tail shape.",
+            "translation": "標識が不鮮明なら、翼と尾翼の形を確認する。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the combination of features that supports identification.",
+            "translation": "識別を支えるのは特徴の組み合わせである。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Compare features before naming the aircraft.",
+            "translation": "機種を答える前に特徴を比較する。"
+          },
+          {
+            "sentence": "One shape is not enough.",
+            "translation": "一つの形だけでは足りない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "18語で比較対象とwhich節の参照が明確。航空機識別の基本姿勢を日常的な英語で表す。"
+    }
+  },
+  {
+    "_no": 29,
+    "_generatedAt": "2026-07-22T01:47:00+09:00",
+    "sentence": "I examine systems that spread medical costs across society, which reveals trade-offs more clearly than judging prices alone.",
+    "phonetic": "アイ イグザミン システムズ ザット スプレッド メディカル コスツ アクロス ソサイエティ、ウィッチ リヴィールズ トレイドオフス モア クリアリー ザン ジャッジング プライシズ アローン",
+    "japaneseTranslation": "私は医療費を社会全体に分散する制度を検討する。それによって、価格だけで判断するよりも制度上の得失が明確に見える。",
+    "theme": "医療制度の費用分担",
+    "coreVerb": "examine",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I examine systems.",
+        "translation": "私は制度を検討する。"
+      },
+      "phase2": {
+        "sentence": "I examine medical insurance systems.",
+        "translation": "私は医療保険制度を検討する。",
+        "addedChunks": "対象(medical insurance systems)を追加"
+      },
+      "phase3": {
+        "sentence": "I examine systems because payment rules affect access to care.",
+        "translation": "支払いの仕組みは医療へのアクセスに影響するので、私は制度を検討する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "The trade-offs are clearer than prices alone suggest.",
+        "translation": "制度上の得失は、価格だけが示すものより明確である。",
+        "comparison": "clearer than"
+      },
+      "phase5": {
+        "sentence": "I examine systems that spread medical costs across society.",
+        "translation": "私は医療費を社会全体に分散する制度を検討する。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "I examine systems",
+          "function": "行動",
+          "translation": "私は制度を検討する"
+        },
+        {
+          "text": "that spread medical costs across society",
+          "function": "修飾",
+          "translation": "医療費を社会全体に分散する"
+        },
+        {
+          "text": "which reveals trade-offs more clearly",
+          "function": "結果",
+          "translation": "それが制度上の得失をより明確に示す"
+        },
+        {
+          "text": "than judging prices alone",
+          "function": "比較",
+          "translation": "価格だけで判断するより"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時制",
+          "name": "現在形",
+          "where": "I examine / systems spread / which reveals",
+          "explanation": "一般的な分析方法とその効果を表す。",
+          "rule": "主語 + 現在形"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 that",
+          "where": "systems that spread",
+          "explanation": "検討対象となるsystemsを限定する。",
+          "rule": "名詞 + that + 動詞句"
+        },
+        {
+          "category": "動詞",
+          "name": "spread A across B",
+          "where": "spread medical costs across society",
+          "explanation": "費用を社会の広い範囲に分散することを表す。",
+          "rule": "spread A across B"
+        },
+        {
+          "category": "関係詞",
+          "name": "文全体を受ける which",
+          "where": ", which reveals",
+          "explanation": "制度を検討する行為全体の効果を示す。",
+          "rule": "文, which + 動詞"
+        },
+        {
+          "category": "比較",
+          "name": "more clearly than",
+          "where": "more clearly than judging",
+          "explanation": "得失が見える明確さを二つの判断方法で比較する。",
+          "rule": "more + 副詞 + than"
+        },
+        {
+          "category": "動名詞",
+          "name": "judging",
+          "where": "than judging prices alone",
+          "explanation": "比較対象となる判断行為を動名詞で表す。",
+          "rule": "than + 動名詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I examine systems that spreads medical costs.",
+          "correct": "I examine systems that spread medical costs.",
+          "why": "先行詞systemsは複数なのでspreadを使う。"
+        },
+        {
+          "wrong": "This reveals trade-offs more clear.",
+          "correct": "This reveals trade-offs more clearly.",
+          "why": "動詞revealsを修飾するので副詞clearlyを使う。"
+        },
+        {
+          "wrong": "I judge the system only from prices.",
+          "correct": "I judge the system only by its prices.",
+          "why": "判断基準には通常byを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I compare how different systems share medical costs.",
+          "translation": "異なる制度が医療費をどう分担するか比較する。"
+        },
+        {
+          "text": "Insurance affects both individual payments and access to care.",
+          "translation": "保険は個人負担と医療へのアクセスの両方に影響する。"
+        },
+        {
+          "text": "I look beyond the price of a single treatment.",
+          "translation": "私は一つの治療価格だけで判断しない。"
+        }
+      ],
+      "parseTree": "S(I) V(examine) O(systems) [Rel: that spread O(medical costs) across society], [Rel: which reveals O(trade-offs) more clearly] [than judging prices alone]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because payment rules affect access to care",
+          "expanded": "since insurance changes who pays and when",
+          "nuance": "支払主体と時点に注目する"
+        },
+        {
+          "original": "because payment rules affect access to care",
+          "expanded": "as shared funding can reduce some individual burdens",
+          "nuance": "共同負担が個人負担へ与える影響を示す"
+        },
+        {
+          "original": "because payment rules affect access to care",
+          "expanded": "because the price of one treatment cannot describe the whole system",
+          "nuance": "単一価格では制度全体を評価できない点を示す"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Medical costs are shared across society through insurance systems.",
+          "translation": "医療費は保険制度を通じて社会全体で分担される。",
+          "note": "費用を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Examining both access and cost, I can see the policy trade-offs.",
+          "translation": "アクセスと費用の両方を検討することで、政策上の得失が見える。",
+          "note": "Examiningで分析方法を表す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The examination of insurance systems clarifies how medical risk is shared.",
+          "translation": "保険制度の検討は医療リスクの分担方法を明確にする。",
+          "note": "examineをexaminationへ名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "spread",
+            "alternatives": [
+              "share",
+              "distribute",
+              "pool"
+            ],
+            "nuance": "spreadは広く分散する、shareは共同負担する、poolは資金をまとめて共有する"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "方法",
+            "sentence": "A public insurance system pools risk across a large population.",
+            "translation": "公的保険制度は大きな人口集団でリスクを共有する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Access and cost sharing matter more than the price of one treatment.",
+            "translation": "一つの治療価格より、アクセスと費用分担の方が重要である。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If coverage shrinks, more costs may shift to individual patients.",
+            "translation": "保障が縮小すれば、より多くの費用が患者個人へ移る可能性がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the distribution of risk that defines an insurance system.",
+            "translation": "保険制度を特徴づけるのはリスクの分配である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Insurance shares medical risk.",
+            "translation": "保険は医療リスクを共有する。"
+          },
+          {
+            "sentence": "Price alone cannot explain access.",
+            "translation": "価格だけではアクセスを説明できない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "17語で制度分析の視点を簡潔に表現。事実断定ではなく費用分担とアクセスの比較枠組みに限定した。"
+    }
+  },
+  {
+    "_no": 30,
+    "_generatedAt": "2026-07-22T00:47:00+09:00",
+    "sentence": "I compare scenarios that could move exchange rates, which makes my daily outlook more balanced than a single forecast would.",
+    "phonetic": "アイ コンペア シナリオズ ザット クッド ムーヴ エクスチェインジ レイツ、ウィッチ メイクス マイ デイリー アウトルック モア バランスト ザン ア シングル フォーキャスト ウッド",
+    "japaneseTranslation": "私は為替相場を動かし得る複数のシナリオを比較する。それによって、一つの予測だけに頼る場合よりも日々の見通しが均衡の取れたものになる。",
+    "theme": "為替見通しの不確実性",
+    "coreVerb": "compare",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I compare scenarios.",
+        "translation": "私はシナリオを比較する。"
+      },
+      "phase2": {
+        "sentence": "I compare several market scenarios.",
+        "translation": "私は複数の市場シナリオを比較する。",
+        "addedChunks": "数量(several)と対象(market scenarios)を追加"
+      },
+      "phase3": {
+        "sentence": "I compare scenarios because exchange rates can react to new information.",
+        "translation": "為替相場は新しい情報に反応し得るので、私はシナリオを比較する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "My outlook is more balanced than a single forecast would be.",
+        "translation": "私の見通しは一つの予測だけの場合より均衡が取れている。",
+        "comparison": "more balanced than"
+      },
+      "phase5": {
+        "sentence": "I compare scenarios that could move exchange rates.",
+        "translation": "私は為替相場を動かし得るシナリオを比較する。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "I compare scenarios",
+          "function": "行動",
+          "translation": "私はシナリオを比較する"
+        },
+        {
+          "text": "that could move exchange rates",
+          "function": "修飾",
+          "translation": "為替相場を動かし得る"
+        },
+        {
+          "text": "which makes my daily outlook more balanced",
+          "function": "結果",
+          "translation": "それが日々の見通しをより均衡の取れたものにする"
+        },
+        {
+          "text": "than a single forecast would",
+          "function": "比較",
+          "translation": "一つの予測だけの場合より"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時制",
+          "name": "現在形",
+          "where": "I compare / which makes",
+          "explanation": "日常的な分析方法とその効果を表す。",
+          "rule": "主語 + 現在形"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 that",
+          "where": "scenarios that could move",
+          "explanation": "比較するscenariosを後ろから限定する。",
+          "rule": "名詞 + that + 助動詞 + 動詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "could",
+          "where": "could move exchange rates",
+          "explanation": "相場を動かす可能性を断定せずに表す。",
+          "rule": "could + 動詞原形"
+        },
+        {
+          "category": "関係詞",
+          "name": "非制限用法の which",
+          "where": ", which makes",
+          "explanation": "複数シナリオを比較する行為全体の結果を表す。",
+          "rule": "文, which + 動詞"
+        },
+        {
+          "category": "使役",
+          "name": "make + O + C",
+          "where": "makes my daily outlook more balanced",
+          "explanation": "outlookをmore balancedな状態にする。",
+          "rule": "make + 目的語 + 補語"
+        },
+        {
+          "category": "比較",
+          "name": "more balanced than",
+          "where": "more balanced than a single forecast would",
+          "explanation": "複数シナリオと単一予測による見通しを比較する。",
+          "rule": "more + 形容詞 + than"
+        },
+        {
+          "category": "代用表現",
+          "name": "wouldによる省略",
+          "where": "a single forecast would",
+          "explanation": "would make my outlookを繰り返さずに省略する。",
+          "rule": "than + 主語 + 助動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I compare scenarios that could moves exchange rates.",
+          "correct": "I compare scenarios that could move exchange rates.",
+          "why": "助動詞couldの後は動詞原形moveを使う。"
+        },
+        {
+          "wrong": "This makes my outlook more balance.",
+          "correct": "This makes my outlook more balanced.",
+          "why": "補語には形容詞balancedを使う。"
+        },
+        {
+          "wrong": "My outlook is more balanced then one forecast.",
+          "correct": "My outlook is more balanced than one forecast.",
+          "why": "比較にはthenではなくthanを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I consider several possible paths for the exchange rate.",
+          "translation": "私は為替相場の複数の可能な経路を検討する。"
+        },
+        {
+          "text": "I treat each forecast as one scenario, not a certainty.",
+          "translation": "各予測を確実なものではなく一つのシナリオとして扱う。"
+        },
+        {
+          "text": "I update my outlook when market conditions change.",
+          "translation": "市場環境が変われば見通しを更新する。"
+        }
+      ],
+      "parseTree": "S(I) V(compare) O(scenarios) [Rel: that could move exchange rates], [Rel: which makes O(my daily outlook) C(more balanced)] [than a single forecast would]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because exchange rates can react to new information",
+          "expanded": "since interest-rate expectations may change quickly",
+          "nuance": "金利見通しの変化を理由にする"
+        },
+        {
+          "original": "because exchange rates can react to new information",
+          "expanded": "as political and economic signals can point in different directions",
+          "nuance": "複数要因の方向が一致しない場合を示す"
+        },
+        {
+          "original": "because exchange rates can react to new information",
+          "expanded": "because one forecast cannot cover every plausible outcome",
+          "nuance": "単一予測の限界を強調する"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Several market scenarios are compared before a daily outlook is formed.",
+          "translation": "日々の見通しを作る前に、複数の市場シナリオが比較される。",
+          "note": "分析対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Comparing several scenarios, I avoid relying on one prediction.",
+          "translation": "複数のシナリオを比較することで、一つの予測への依存を避ける。",
+          "note": "Comparingで分析方法を表す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The comparison of scenarios produces a more balanced market outlook.",
+          "translation": "シナリオの比較は、より均衡の取れた市場見通しを生む。",
+          "note": "compareをcomparisonへ名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "scenario",
+            "alternatives": [
+              "possibility",
+              "case",
+              "outcome"
+            ],
+            "nuance": "scenarioは条件付きの展開、possibilityは可能性、outcomeは結果を指す"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "方法",
+            "sentence": "I build an outlook by comparing several possible market paths.",
+            "translation": "私は複数の市場経路を比較して見通しを組み立てる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A range of scenarios is more useful than one confident prediction.",
+            "translation": "複数のシナリオは一つの自信満々な予測より有用である。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If interest-rate expectations change, exchange rates may react quickly.",
+            "translation": "金利見通しが変われば、為替相場は素早く反応することがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is uncertainty that makes scenario planning necessary.",
+            "translation": "シナリオ検討を必要にするのは不確実性である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Compare paths, not certainties.",
+            "translation": "確実性ではなく複数の経路を比べる。"
+          },
+          {
+            "sentence": "An outlook is not a promise.",
+            "translation": "見通しは約束ではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "19語で不確実性と比較対象を明確化。断定的な相場予想ではなくシナリオ思考を学ぶカード。"
+    }
+  }
+]
