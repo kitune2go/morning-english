@@ -1,0 +1,701 @@
+[
+  {
+    "_no": 31,
+    "_generatedAt": "2026-07-23T02:00:00+09:00",
+    "sentence": "I compare factors that could move the currency, which gives me a steadier outlook than blaming one headline.",
+    "phonetic": "アイ コンペア ファクターズ ザット クッド ムーヴ ザ カレンシー、ウィッチ ギヴズ ミー ア ステディア アウトルック ザン ブレイミング ワン ヘッドライン。",
+    "japaneseTranslation": "私は通貨を動かし得る複数の要因を比較する。それによって、一つの見出しだけを原因と考えるよりも安定した見通しを持てる。",
+    "theme": "相場を複数要因で読む",
+    "coreVerb": "compare",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I compare.",
+        "translation": "私は比較する。"
+      },
+      "phase2": {
+        "sentence": "I compare market factors each day.",
+        "translation": "私は毎日、市場の要因を比較する。",
+        "addedChunks": "目的語(market factors)と時間(each day)を追加"
+      },
+      "phase3": {
+        "sentence": "I compare market factors because prices have several causes.",
+        "translation": "価格には複数の原因があるので、私は市場の要因を比較する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "My outlook is steadier than a one-headline explanation.",
+        "translation": "私の見通しは、一つの見出しだけによる説明よりも安定している。",
+        "comparison": "steadier ... than"
+      },
+      "phase5": {
+        "sentence": "I compare factors that could move the currency.",
+        "translation": "私は通貨を動かし得る要因を比較する。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "I compare factors",
+          "function": "行動",
+          "translation": "私は複数の要因を比較する"
+        },
+        {
+          "text": "that could move the currency,",
+          "function": "修飾",
+          "translation": "通貨を動かし得る"
+        },
+        {
+          "text": "which gives me a steadier outlook",
+          "function": "結果",
+          "translation": "それによって私はより安定した見通しを持てる"
+        },
+        {
+          "text": "than blaming one headline",
+          "function": "比較",
+          "translation": "一つの見出しだけを原因と考えるよりも"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動詞",
+          "name": "compare A",
+          "where": "compare factors",
+          "explanation": "複数の要因を並べて検討することを表す。",
+          "rule": "compare + 複数名詞"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 that",
+          "where": "factors that could move",
+          "explanation": "that以下がfactorsを後ろから限定する。",
+          "rule": "名詞 + that + 動詞句"
+        },
+        {
+          "category": "助動詞",
+          "name": "可能性の could",
+          "where": "could move",
+          "explanation": "断定せず、動かす可能性があることを示す。",
+          "rule": "could + 動詞原形"
+        },
+        {
+          "category": "関係詞",
+          "name": "非制限用法 which",
+          "where": ", which gives me",
+          "explanation": "前の判断全体が生む結果を補足する。",
+          "rule": "文, which + 動詞"
+        },
+        {
+          "category": "授与表現",
+          "name": "give 人 物",
+          "where": "gives me a steadier outlook",
+          "explanation": "人に物や状態を与える構文。",
+          "rule": "give + 人 + 物"
+        },
+        {
+          "category": "比較",
+          "name": "比較級 than",
+          "where": "steadier ... than",
+          "explanation": "見通しの安定度を別の考え方と比較する。",
+          "rule": "比較級 + than + 名詞句または動名詞句"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞句の比較対象",
+          "where": "than blaming one headline",
+          "explanation": "blaming以下を一つの考え方として名詞的に扱う。",
+          "rule": "than + 動名詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I compare factors which could moves the currency.",
+          "correct": "I compare factors that could move the currency.",
+          "why": "助動詞couldの後ろは動詞原形moveにする。"
+        },
+        {
+          "wrong": "This give me a steadier outlook.",
+          "correct": "This gives me a steadier outlook.",
+          "why": "主語Thisが三人称単数なので動詞に-sが必要。"
+        },
+        {
+          "wrong": "My outlook is more steadier than before.",
+          "correct": "My outlook is steadier than before.",
+          "why": "比較級steadierにmoreを重ねない。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I look at several factors before judging a currency move.",
+          "translation": "私は通貨の動きを判断する前に複数の要因を見る。"
+        },
+        {
+          "text": "One headline rarely explains the whole market.",
+          "translation": "一つの見出しだけで市場全体を説明できることはほとんどない。"
+        },
+        {
+          "text": "Comparing causes gives me a more balanced view.",
+          "translation": "原因を比較すると、より均衡の取れた見方ができる。"
+        }
+      ],
+      "parseTree": "S(I) V(compare) O(factors [Rel: that could move the currency]), [Rel: which gives IO(me) O(a steadier outlook) than Gerund(blaming one headline)]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because prices have several causes",
+          "expanded": "since currency moves often reflect several forces at once",
+          "nuance": "複数要因が同時に働く点を明示する。"
+        },
+        {
+          "original": "because one headline can be misleading",
+          "expanded": "because a single headline may hide competing pressures",
+          "nuance": "単一情報の限界を控えめに述べる。"
+        },
+        {
+          "original": "because markets react to changing expectations",
+          "expanded": "as markets respond to shifts in policy, risk, and demand",
+          "nuance": "原因の種類を具体化する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Several factors are compared before the currency move is explained.",
+          "translation": "通貨の動きが説明される前に、複数の要因が比較される。",
+          "note": "分析手順を主役にする受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Comparing several factors, I avoid blaming one headline.",
+          "translation": "複数の要因を比較することで、私は一つの見出しだけを原因と考えずに済む。",
+          "note": "方法と結果を簡潔につなぐ。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "A comparison of market factors produces a steadier outlook.",
+          "translation": "市場要因の比較は、より安定した見通しを生む。",
+          "note": "compareをcomparisonに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "compare",
+            "alternatives": [
+              "examine",
+              "weigh",
+              "assess"
+            ],
+            "nuance": "compareは並べて比べる、weighは重要度を吟味する、assessは評価する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "判断前の手順",
+            "sentence": "Before I explain a currency move, I compare several possible causes.",
+            "translation": "通貨の動きを説明する前に、私は複数の可能な原因を比較する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A multi-factor view is steadier than a single-cause story.",
+            "translation": "複数要因の見方は、単一原因の物語より安定している。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If I rely on one headline, I may miss the larger trend.",
+            "translation": "一つの見出しに頼ると、より大きな傾向を見落とすかもしれない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is comparing causes before reaching a conclusion.",
+            "translation": "重要なのは、結論を出す前に原因を比較することだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Compare causes, not headlines.",
+            "translation": "見出しではなく原因を比べよう。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "複数要因で相場を見る姿勢を自然な比較文にした。動名詞句の比較はやや抽象的だが、参照関係は明確。"
+    }
+  },
+  {
+    "_no": 32,
+    "_generatedAt": "2026-07-23T02:00:00+09:00",
+    "sentence": "I question policies that restrict market exits, which burden local communities more heavily than shared national support would.",
+    "phonetic": "アイ クエスチョン ポリシーズ ザット リストリクト マーケット エグジッツ、ウィッチ バードゥン ローカル コミュニティーズ モア ヘヴィリー ザン シェアド ナショナル サポート ウッド。",
+    "japaneseTranslation": "私は市場からの退出を制限する政策に疑問を持つ。そうした政策は、国全体で支える場合よりも地域社会に重い負担を課す。",
+    "theme": "市場制約と地域負担",
+    "coreVerb": "question",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I question.",
+        "translation": "私は疑問を持つ。"
+      },
+      "phase2": {
+        "sentence": "I question some policies today.",
+        "translation": "私は今日、いくつかの政策に疑問を持つ。",
+        "addedChunks": "目的語(some policies)と時間(today)を追加"
+      },
+      "phase3": {
+        "sentence": "I question some policies because they shift costs locally.",
+        "translation": "費用を地域へ移すため、私はいくつかの政策に疑問を持つ。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Local communities carry more of the burden than the nation does.",
+        "translation": "地域社会は国全体よりも多くの負担を背負う。",
+        "comparison": "more ... than"
+      },
+      "phase5": {
+        "sentence": "I question policies that restrict market exits.",
+        "translation": "私は市場からの退出を制限する政策に疑問を持つ。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "I question policies",
+          "function": "行動",
+          "translation": "私は政策に疑問を持つ"
+        },
+        {
+          "text": "that restrict market exits,",
+          "function": "修飾",
+          "translation": "市場からの退出を制限する"
+        },
+        {
+          "text": "which burden local communities more heavily",
+          "function": "結果",
+          "translation": "そうした政策は地域社会により重い負担を課す"
+        },
+        {
+          "text": "than shared national support would",
+          "function": "比較",
+          "translation": "国全体で共同して支える場合よりも"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動詞",
+          "name": "question + 目的語",
+          "where": "question policies",
+          "explanation": "政策を当然視せず妥当性を問う。",
+          "rule": "question + 名詞"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 that",
+          "where": "policies that restrict",
+          "explanation": "どの政策かをthat以下で限定する。",
+          "rule": "名詞 + that + 動詞句"
+        },
+        {
+          "category": "語法",
+          "name": "restrict + 名詞",
+          "where": "restrict market exits",
+          "explanation": "行為や選択肢を制限することを表す。",
+          "rule": "restrict + 名詞"
+        },
+        {
+          "category": "関係詞",
+          "name": "非制限用法 which",
+          "where": ", which burden",
+          "explanation": "直前の複数名詞policiesを受け、結果を補足する。",
+          "rule": "複数名詞, which + 動詞原形"
+        },
+        {
+          "category": "副詞比較",
+          "name": "more heavily than",
+          "where": "more heavily than",
+          "explanation": "負担の重さを二つの仕組みの間で比較する。",
+          "rule": "more + 副詞 + than"
+        },
+        {
+          "category": "省略",
+          "name": "比較節の代用 would",
+          "where": "than shared national support would",
+          "explanation": "would burden local communitiesの重複部分を省略する。",
+          "rule": "than + 主語 + 助動詞"
+        },
+        {
+          "category": "複合形容詞",
+          "name": "shared national support",
+          "where": "shared national support",
+          "explanation": "国全体で分担される支援を簡潔に表す。",
+          "rule": "形容詞 + 形容詞 + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I question policies that restricts market exits.",
+          "correct": "I question policies that restrict market exits.",
+          "why": "thatの先行詞policiesが複数なのでrestrictに-sを付けない。"
+        },
+        {
+          "wrong": "These policies burden to local communities.",
+          "correct": "These policies burden local communities.",
+          "why": "burdenは他動詞なので目的語の前にtoを置かない。"
+        },
+        {
+          "wrong": "They burden communities more heavier than national support.",
+          "correct": "They burden communities more heavily than national support would.",
+          "why": "動詞burdenを修飾する副詞heavilyの比較級を使い、比較節の動作をwouldで示す。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Do not shift national costs entirely onto local communities.",
+          "translation": "国全体の費用を地域社会だけに移してはならない。"
+        },
+        {
+          "text": "Restrictions need support from the wider public.",
+          "translation": "制限には、より広い社会からの支援が必要だ。"
+        },
+        {
+          "text": "Local responsibility works better when costs are shared.",
+          "translation": "費用が分担されると、地域の責任はより機能しやすい。"
+        }
+      ],
+      "parseTree": "S(I) V(question) O(policies [Rel: that restrict market exits]), [Rel: which burden O(local communities) AdvComp(more heavily than shared national support would)]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because they shift costs locally",
+          "expanded": "because restrictions can leave local communities carrying national costs",
+          "nuance": "制限と費用移転の因果を具体化する。"
+        },
+        {
+          "original": "because responsibility needs resources",
+          "expanded": "since local responsibility is difficult without shared funding",
+          "nuance": "責任と財源の組み合わせを示す。"
+        },
+        {
+          "original": "because exit rules affect communities",
+          "expanded": "as limits on market exit can concentrate burdens in one place",
+          "nuance": "負担が一地域へ集中する点を表す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Local communities are burdened when market exits are restricted without shared support.",
+          "translation": "共同支援なしに市場退出が制限されると、地域社会が負担を負わされる。",
+          "note": "負担を受ける地域側を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Restricting market exits, the policy shifts more responsibility to local communities.",
+          "translation": "市場退出を制限することで、その政策は地域社会へより多くの責任を移す。",
+          "note": "政策の手段を分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The restriction of market exits increases the local burden.",
+          "translation": "市場退出の制限は地域の負担を増やす。",
+          "note": "restrictをrestrictionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "burden",
+            "alternatives": [
+              "load",
+              "pressure",
+              "strain"
+            ],
+            "nuance": "burdenは責任や費用を負わせる、strainは持続可能性を圧迫する感覚が強い。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "The policy limits market choice but leaves the cost to local communities.",
+            "translation": "その政策は市場の選択を制限する一方、費用を地域社会に残す。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Shared support is fairer than isolated local responsibility.",
+            "translation": "共同支援は、孤立した地域責任より公平だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the nation limits exits, it should share the resulting costs.",
+            "translation": "国が退出を制限するなら、その結果生じる費用を分担すべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the mismatch between control and responsibility that creates the burden.",
+            "translation": "負担を生むのは、統制と責任の不一致だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Shared rules require shared costs.",
+            "translation": "共同の規則には共同の負担が必要だ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "政策の統制主体と費用負担主体のずれを明確に表す。比較節のwouldは中級以上だが自然で参照も明確。"
+    }
+  },
+  {
+    "_no": 33,
+    "_generatedAt": "2026-07-23T02:00:00+09:00",
+    "sentence": "I distinguish rewards that attract players from genuine loyalty, which sustains communities longer than repeated promotions do.",
+    "phonetic": "アイ ディスティングウィッシュ リウォーズ ザット アトラクト プレイヤーズ フロム ジェニュイン ロイヤルティ、ウィッチ サステインズ コミュニティーズ ロンガー ザン リピーティッド プロモーションズ ドゥ。",
+    "japaneseTranslation": "私はプレイヤーを引きつける報酬と本物の愛着を区別する。本物の愛着は、繰り返される販促よりも長くコミュニティを支える。",
+    "theme": "報酬と愛着の区別",
+    "coreVerb": "distinguish",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I distinguish.",
+        "translation": "私は区別する。"
+      },
+      "phase2": {
+        "sentence": "I distinguish rewards from loyalty.",
+        "translation": "私は報酬と愛着を区別する。",
+        "addedChunks": "目的語(rewards)と比較対象(from loyalty)を追加"
+      },
+      "phase3": {
+        "sentence": "I distinguish rewards from loyalty because they create different behavior.",
+        "translation": "異なる行動を生むので、私は報酬と愛着を区別する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Genuine loyalty lasts longer than repeated promotions do.",
+        "translation": "本物の愛着は、繰り返される販促より長く続く。",
+        "comparison": "longer than ... do"
+      },
+      "phase5": {
+        "sentence": "I distinguish rewards that attract players from genuine loyalty.",
+        "translation": "私はプレイヤーを引きつける報酬と本物の愛着を区別する。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "I distinguish rewards",
+          "function": "行動",
+          "translation": "私は報酬を区別する"
+        },
+        {
+          "text": "that attract players",
+          "function": "修飾",
+          "translation": "プレイヤーを引きつける"
+        },
+        {
+          "text": "from genuine loyalty, which sustains communities",
+          "function": "対象",
+          "translation": "コミュニティを支える本物の愛着と"
+        },
+        {
+          "text": "longer than repeated promotions do",
+          "function": "比較",
+          "translation": "繰り返される販促よりも長く"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "語法",
+          "name": "distinguish A from B",
+          "where": "distinguish rewards ... from genuine loyalty",
+          "explanation": "二つの似て見えるものを区別する定型表現。",
+          "rule": "distinguish A from B"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞 that",
+          "where": "rewards that attract players",
+          "explanation": "どの報酬かをthat以下で限定する。",
+          "rule": "名詞 + that + 動詞句"
+        },
+        {
+          "category": "一致",
+          "name": "複数主語と動詞",
+          "where": "rewards that attract",
+          "explanation": "先行詞rewardsが複数なのでattractに-sを付けない。",
+          "rule": "複数主語 + 動詞原形"
+        },
+        {
+          "category": "関係詞",
+          "name": "非制限用法 which",
+          "where": "loyalty, which sustains",
+          "explanation": "直前のgenuine loyaltyを受け、その働きを補足する。",
+          "rule": "単数名詞, which + 三人称単数動詞"
+        },
+        {
+          "category": "一致",
+          "name": "不可算名詞と三単現",
+          "where": "loyalty ... sustains",
+          "explanation": "loyaltyを単数扱いし、sustainsを使う。",
+          "rule": "不可算名詞 + 動詞-s"
+        },
+        {
+          "category": "比較",
+          "name": "longer than",
+          "where": "longer than repeated promotions do",
+          "explanation": "コミュニティを支える期間を比較する。",
+          "rule": "比較級副詞 + than"
+        },
+        {
+          "category": "代動詞",
+          "name": "比較節の do",
+          "where": "than repeated promotions do",
+          "explanation": "sustain communitiesの反復をdoで避ける。",
+          "rule": "than + 主語 + do/does"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I distinguish rewards with genuine loyalty.",
+          "correct": "I distinguish rewards from genuine loyalty.",
+          "why": "distinguish A from Bでは区別の相手にfromを使う。"
+        },
+        {
+          "wrong": "Rewards that attracts players may be temporary.",
+          "correct": "Rewards that attract players may be temporary.",
+          "why": "先行詞Rewardsが複数なのでattractに-sを付けない。"
+        },
+        {
+          "wrong": "Genuine loyalty sustain communities longer.",
+          "correct": "Genuine loyalty sustains communities longer.",
+          "why": "不可算名詞loyaltyを単数扱いするため、動詞に-sが必要。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Player rewards are not the same as lasting loyalty.",
+          "translation": "プレイヤー向け報酬は、持続的な愛着と同じではない。"
+        },
+        {
+          "text": "Promotions attract attention, but trust keeps a community together.",
+          "translation": "販促は注目を集めるが、信頼がコミュニティを結びつける。"
+        },
+        {
+          "text": "A strong community needs more than repeated incentives.",
+          "translation": "強いコミュニティには、繰り返される誘因以上のものが必要だ。"
+        }
+      ],
+      "parseTree": "S(I) V(distinguish) O(rewards [Rel: that attract players]) from O(genuine loyalty [Rel: which sustains communities longer than repeated promotions do])"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because they create different behavior",
+          "expanded": "because short-term rewards and lasting loyalty motivate players differently",
+          "nuance": "二つの動機の時間軸を明示する。"
+        },
+        {
+          "original": "because promotions can fade quickly",
+          "expanded": "since promotional attention often disappears when the reward ends",
+          "nuance": "販促効果が終了時に薄れる因果を示す。"
+        },
+        {
+          "original": "because communities depend on trust",
+          "expanded": "as durable communities grow through trust and repeated participation",
+          "nuance": "愛着が育つ仕組みを具体化する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Players may be attracted by rewards, but communities are sustained by loyalty.",
+          "translation": "プレイヤーは報酬に引きつけられるかもしれないが、コミュニティは愛着によって支えられる。",
+          "note": "短期誘引と長期維持の主体を受動態で対照させる。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Attracting players quickly, rewards do not always create lasting loyalty.",
+          "translation": "報酬はプレイヤーを素早く引きつけるが、必ずしも持続的な愛着を生まない。",
+          "note": "短期効果を分詞構文で前置きする。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The distinction between rewards and loyalty improves community design.",
+          "translation": "報酬と愛着の区別は、コミュニティ設計を改善する。",
+          "note": "distinguishをdistinctionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "loyalty",
+            "alternatives": [
+              "trust",
+              "commitment",
+              "attachment"
+            ],
+            "nuance": "loyaltyは継続的な支持、trustは信頼、attachmentは感情的な愛着を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Rewards may attract players, whereas loyalty keeps them involved.",
+            "translation": "報酬はプレイヤーを引きつけるかもしれないが、愛着は参加を続けさせる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Trust supports a community longer than temporary rewards do.",
+            "translation": "信頼は一時的な報酬より長くコミュニティを支える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If rewards disappear, genuine loyalty may still remain.",
+            "translation": "報酬がなくなっても、本物の愛着は残るかもしれない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What sustains a community is loyalty, not constant promotion.",
+            "translation": "コミュニティを支えるのは、絶え間ない販促ではなく愛着だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Rewards attract; loyalty sustains.",
+            "translation": "報酬は引きつけ、愛着は支える。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "短期的な報酬と長期的な愛着を一文で対照化した。whichの先行詞は直前のloyaltyで明確。"
+    }
+  }
+]
