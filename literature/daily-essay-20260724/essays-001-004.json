@@ -1,0 +1,131 @@
+[
+  {
+    "id": "DE-20260724-001",
+    "sourceTitle": "言葉の季節が遅れてくる",
+    "workId": "daily-essay-20260724",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "涼しさの比喩",
+    "jp": "暑さが身体を焼くような日に、涼しげな食べ物の感想が流れてきた。香りが細胞を光らせるという言葉は、平穏な夏なら軽やかに読めたかもしれない。しかし、外気が機械も人も止めかねない温度へ達していると、その比喩は現実から一歩引いた飾りに見える。言葉の涼しさと身体の暑さが、同じ季節の中で別々に進んでいた。",
+    "translationLiteral": "On a day when the heat seemed to burn the body, an impression of a cool-looking dish appeared. Words saying that its fragrance made the cells shine might have sounded light in a peaceful summer. But when the outside air had reached a temperature that could stop both machines and people, the metaphor looked like an ornament one step removed from reality. The coolness of language and the heat of the body were moving separately within the same season.",
+    "translationNatural": "On a day hot enough to feel physically dangerous, I came across a lyrical description of a refreshing meal. In a gentler summer, the image of fragrance lighting up the body's cells might have felt playful. Under extreme heat, however, it seemed detached from what bodies and machines were actually enduring. Language and temperature occupied the same season, but not the same reality.",
+    "imageUrl": "",
+    "imageCaption": "灼熱の街と、涼しげな料理の言葉が並ぶ場面。",
+    "imagePrompt": "A quiet summer table with a refreshing citrus noodle dish in the foreground, while outside the window the city shimmers under extreme heat, literary editorial illustration, muted colors, no text",
+    "chunks": [
+      {"en": "On a day hot enough to feel physically dangerous", "ja": "身体的な危険を感じるほど暑い日に"},
+      {"en": "I came across a lyrical description of a refreshing meal", "ja": "涼しげな食事を詩的に描いた文章を目にした"},
+      {"en": "In a gentler summer, the image might have felt playful", "ja": "もっと穏やかな夏なら、その比喩は遊び心として読めただろう"},
+      {"en": "Under extreme heat, however, it seemed detached from reality", "ja": "しかし極端な暑さの下では、現実から離れて見えた"},
+      {"en": "Language and temperature occupied the same season, but not the same reality", "ja": "言葉と気温は同じ季節にありながら、同じ現実にはいなかった"}
+    ],
+    "grammar": [
+      "hot enough to feel ... は『〜と感じるほど十分に暑い』を表す enough to 構文。",
+      "come across は『偶然目にする』という句動詞。",
+      "might have felt は過去の反実的・控えめな推量を表す。",
+      "Under extreme heat は状況を示す前置詞句。",
+      "but not the same reality は対比を簡潔に示す省略表現。"
+    ],
+    "translationNote": "直訳では『細胞を光らせる』という比喩をそのまま残したが、自然訳では説明的になりすぎないよう the image of fragrance lighting up the body's cells とまとめた。『一歩引いた飾り』は detached from what ... were enduring とし、現実との距離を英語で明確にした。",
+    "readingPoint": "作品の導入では、詩的表現そのものを否定するのではなく、環境条件が変わると同じ比喩の受け取られ方も変わることを示す。違和感の原因は美文ではなく、言葉と身体が共有する現実のずれにある。",
+    "keywords": ["heat", "metaphor", "body", "summer", "distance"]
+  },
+  {
+    "id": "DE-20260724-002",
+    "sourceTitle": "言葉の季節が遅れてくる",
+    "workId": "daily-essay-20260724",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "暦の外側",
+    "jp": "違和感は一つの投稿に限らなかった。大暑という古い季節語は、本来なら一年の中の頂点を指すはずだった。ところが暑い期間そのものが長くなり、特別な一日ではなく日常の背景になっている。暦は季節を区切り続けるが、気候はその線を越えてしまった。名づけが残っているために、変化の大きさがかえって見えにくくなることがある。",
+    "translationLiteral": "The discomfort was not limited to one post. The old seasonal term Taisho was originally supposed to point to the peak within a year. Yet the hot period itself had become longer and had turned into the background of everyday life rather than a special day. The calendar continued to divide the seasons, but the climate had crossed those lines. Because the names remained, the scale of change could become harder to see.",
+    "translationNatural": "The problem went beyond a single piece of writing. Traditional seasonal terms once marked brief turning points in the year, but prolonged heat has turned an exceptional period into ordinary background. The calendar still draws clean boundaries; the climate no longer respects them. Sometimes an old name survives so neatly that it hides how much the thing itself has changed.",
+    "imageUrl": "",
+    "imageCaption": "古い暦の線を越えて伸びる夏の熱。",
+    "imagePrompt": "An old Japanese seasonal calendar with neat divisions, overlaid by a heat wave extending far beyond the marked summer period, conceptual editorial illustration, subtle paper texture, no text",
+    "chunks": [
+      {"en": "The problem went beyond a single piece of writing", "ja": "問題は一つの文章を越えていた"},
+      {"en": "Traditional seasonal terms once marked brief turning points", "ja": "伝統的な季節語は、かつて短い節目を示していた"},
+      {"en": "prolonged heat has turned an exceptional period into ordinary background", "ja": "長引く暑さが特別な期間を日常の背景へ変えた"},
+      {"en": "The calendar still draws clean boundaries", "ja": "暦は今も明確な境界を引く"},
+      {"en": "the climate no longer respects them", "ja": "しかし気候はもうその境界に従わない"},
+      {"en": "an old name can hide how much the thing itself has changed", "ja": "古い名前が、対象そのものの変化を隠すことがある"}
+    ],
+    "grammar": [
+      "go beyond は『〜を越える』を表す。",
+      "once marked は過去の習慣・状態を簡潔に示す。",
+      "turn A into B は『AをBへ変える』という構文。",
+      "no longer は『もはや〜ない』。",
+      "how much ... has changed は変化の程度を表す間接疑問節。"
+    ],
+    "translationNote": "『大暑』は固有の暦語だが、自然訳では読者に意味が伝わるよう traditional seasonal terms と一般化した。『日常の背景』は ordinary background とし、異常が常態化する感覚を保った。",
+    "readingPoint": "ここでは個別の美的表現への苛立ちが、暦と気候のずれという制度的な問題へ広がる。言葉は現実を整理するが、分類が古くなると変化を隠す側にも回る。",
+    "keywords": ["calendar", "climate", "season", "normalization", "naming"]
+  },
+  {
+    "id": "DE-20260724-003",
+    "sourceTitle": "言葉の季節が遅れてくる",
+    "workId": "daily-essay-20260724",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "定義が支えるもの",
+    "jp": "その一方で、言葉が現実に追いつく場面もあった。事実審と法律審、励起と緩和のような専門語は、最初こそ硬く見える。しかし、それぞれが何を扱い、何を扱わないかを丁寧に分けると、複雑な仕組みが急に見通せる。問題は難しい言葉にあるのではない。境界を曖昧にしたまま、雰囲気だけを借りることにある。",
+    "translationLiteral": "On the other hand, there were also moments when words caught up with reality. Technical terms such as fact-finding trials and legal review, or excitation and relaxation, looked rigid at first. However, when what each term handled and did not handle was carefully separated, complex systems suddenly became visible. The problem was not difficult language. It was borrowing only the atmosphere while leaving the boundaries unclear.",
+    "translationNatural": "Yet technical language can also bring reality into focus. Terms from law or physics may look forbidding at first, but they become useful once their scope and limits are made explicit. Complexity is not the real problem. Trouble begins when a word lends authority without defining what it includes and excludes.",
+    "imageUrl": "",
+    "imageCaption": "曖昧な霧の中から、定義によって構造が現れる。",
+    "imagePrompt": "Abstract conceptual illustration of legal pages and magnetic resonance waveforms emerging clearly from fog as boundaries are drawn, precise editorial style, dark ink and warm paper, no text",
+    "chunks": [
+      {"en": "Yet technical language can also bring reality into focus", "ja": "しかし専門語は現実に焦点を合わせることもできる"},
+      {"en": "Terms from law or physics may look forbidding at first", "ja": "法律や物理の用語は最初は近寄りがたく見えるかもしれない"},
+      {"en": "they become useful once their scope and limits are made explicit", "ja": "範囲と限界が明示されると役に立つ"},
+      {"en": "Complexity is not the real problem", "ja": "複雑さそのものが問題なのではない"},
+      {"en": "Trouble begins when a word lends authority without defining its boundaries", "ja": "境界を定めずに言葉が権威だけを貸すと問題が始まる"}
+    ],
+    "grammar": [
+      "bring A into focus は『Aを明確にする』という比喩表現。",
+      "may look ... at first は初見の印象を控えめに述べる。",
+      "once は『いったん〜すれば』という条件・時間を表す接続詞。",
+      "are made explicit は受動態で『明示される』。",
+      "when a word lends authority は問題が生じる条件を示す副詞節。"
+    ],
+    "translationNote": "具体例の列挙は自然訳で law or physics に圧縮し、主張を前面に出した。『雰囲気だけを借りる』は lends authority とし、専門語が内容以上の権威を与える働きを表した。",
+    "readingPoint": "第三章は転換点である。前半では古い言葉が現実を隠したが、ここでは正確な定義が現実を見えるようにする。言葉の価値は難易度ではなく、境界の明示にある。",
+    "keywords": ["definition", "scope", "law", "physics", "authority"]
+  },
+  {
+    "id": "DE-20260724-004",
+    "sourceTitle": "言葉の季節が遅れてくる",
+    "workId": "daily-essay-20260724",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "言葉を台帳に移す",
+    "jp": "夕方には、会話の中だけにあった手順を、リポジトリの説明書へ移した。どのファイルを作り、どの索引へ登録し、どう確認するかを書いておけば、別の対話や別のAIでも同じ作業を再現できる。記憶や気分に依存していた知識が、共有できる手順へ変わった。現実に追いつく言葉とは、きれいな比喩ではなく、次の人が同じ場所へ到達できる言葉なのかもしれない。",
+    "translationLiteral": "By evening, I moved the procedures that had existed only inside the conversation into the repository's instructions. If I wrote which file to create, which index to register it in, and how to check it, another conversation or another AI could reproduce the same work. Knowledge that had depended on memory and mood changed into a shareable procedure. Words that catch up with reality may not be beautiful metaphors, but words that allow the next person to reach the same place.",
+    "translationNatural": "By evening, the day's discussion had produced something more durable than another explanation. I moved the working procedure into the repository itself: what to create, where to register it, and how to verify the result. Once written there, the method no longer depended on one conversation or one model's memory. Perhaps language meets reality most fully when it lets someone else reproduce the path.",
+    "imageUrl": "",
+    "imageCaption": "会話の断片が、共有可能な手順書へ整理される。",
+    "imagePrompt": "A digital conversation transforming into a clean repository README and connected file index, symbolic editorial illustration, orderly lines replacing scattered speech bubbles, no logos, no text",
+    "chunks": [
+      {"en": "By evening, the day's discussion had produced something more durable", "ja": "夕方までに、その日の対話はより永続的なものを生んでいた"},
+      {"en": "I moved the working procedure into the repository itself", "ja": "作業手順をリポジトリそのものへ移した"},
+      {"en": "what to create, where to register it, and how to verify the result", "ja": "何を作り、どこへ登録し、どう結果を確認するか"},
+      {"en": "the method no longer depended on one conversation or one model's memory", "ja": "方法は一つの対話や一つのモデルの記憶に依存しなくなった"},
+      {"en": "language meets reality when it lets someone else reproduce the path", "ja": "他者が同じ道筋を再現できるとき、言葉は現実に届く"}
+    ],
+    "grammar": [
+      "had produced は夕方より前に成立した結果を示す過去完了。",
+      "what to create / where to register / how to verify は疑問詞＋to不定詞の並列。",
+      "no longer depended on は『もはや〜に依存しなかった』。",
+      "Perhaps は結論を断定せず提示する文副詞。",
+      "when it lets someone else reproduce ... は時・条件と使役構文 let + O + 動詞原形を含む。"
+    ],
+    "translationNote": "『台帳に移す』という発想は自然訳で move the working procedure into the repository itself と具体化した。末尾は『きれいな比喩ではなく』を直接対立させず、reproduce the path へ収束させ、作品全体の主題を静かに閉じた。",
+    "readingPoint": "結末では、言葉の評価基準が美しさから再現性へ移る。季節語、専門語、手順書はいずれも現実を切り分ける装置であり、その良し悪しは次の行為を支えられるかで測られる。",
+    "keywords": ["repository", "procedure", "memory", "reproducibility", "language"]
+  }
+]
