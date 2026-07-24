@@ -18,5 +18,12 @@
     "description": "AIとの対話が眠っているあいだに英語カードへ変わり、翌朝の書写を通して昨日の思考が今日の身体へ移される短編。",
     "manifest": "literature/hand-and-sentence/manifest.json",
     "mode": "sentence-translation"
+  },
+  {
+    "workId": "daily-essay-20260724",
+    "title": "言葉の季節が遅れてくる",
+    "description": "酷暑と季節語のずれ、専門語の定義、会話を再現可能な手順へ移す作業を通して、現実に届く言葉の条件を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260724/manifest.json",
+    "mode": "essay-translation"
   }
 ]
