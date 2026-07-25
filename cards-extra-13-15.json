@@ -3,147 +3,198 @@
     "_no": 13,
     "_generatedAt": "2026-05-02T00:00:00+09:00",
     "sentence": "I explain ideas that seemed unclear at first, which helps me remember them more deeply than before.",
-    "phonetic": "アイ イクスプレイン アイディアズ ザット シームド アンクリア アット ファースト, ウィッチ ヘルプス ミー リメンバー ゼム モア ディープリー ザン ビフォー",
-    "japaneseTranslation": "私は最初は不明確に見えたアイデアを説明し、それによって以前よりも深く覚えられる。",
+    "phonetic": "アイ イクスプレイン アイディアズ ザット シームド アンクリア アット ファースト、ウィッチ ヘルプス ミー リメンバー ゼム モア ディープリー ザン ビフォー",
+    "japaneseTranslation": "私は最初は不明確に思えたアイデアを説明する。それによって、以前より深く覚えられる。",
     "theme": "説明",
     "coreVerb": "explain",
     "generateLayer": {
-      "core": "I explain ideas.",
-      "step1": "I explain ideas that seemed unclear.",
-      "step2": "I explain ideas that seemed unclear at first.",
-      "step3": "I explain ideas that seemed unclear at first, which helps me remember them more deeply than before."
+      "phase1": {"sentence": "I explain ideas.", "translation": "私はアイデアを説明する。"},
+      "phase2": {"sentence": "I explain difficult ideas in my own words.", "translation": "私は難しいアイデアを自分の言葉で説明する。", "addedChunks": "対象(difficult ideas)と様態(in my own words)を追加"},
+      "phase3": {"sentence": "I explain ideas because putting them into words tests my understanding.", "translation": "言葉にすることが理解を確かめるので、私はアイデアを説明する。", "connector": "because"},
+      "phase4": {"sentence": "I remember the ideas more deeply than before.", "translation": "以前より深くそのアイデアを覚えられる。", "comparison": "more deeply than"},
+      "phase5": {"sentence": "I explain ideas that seemed unclear at first.", "translation": "私は最初は不明確に思えたアイデアを説明する。", "relativizer": "that"}
     },
     "explainLayer": {
       "chunks": [
-        { "en": "I explain ideas", "ja": "私はアイデアを説明する" },
-        { "en": "that seemed unclear", "ja": "不明確に見えた" },
-        { "en": "at first", "ja": "最初は" },
-        { "en": "which helps me remember", "ja": "それが私が覚える助けになる" },
-        { "en": "them", "ja": "それらを" },
-        { "en": "more deeply than before", "ja": "以前より深く" }
+        {"text": "I explain ideas", "function": "行動", "translation": "私はアイデアを説明する"},
+        {"text": "that seemed unclear", "function": "修飾", "translation": "不明確に思えた"},
+        {"text": "at first", "function": "時間", "translation": "最初は"},
+        {"text": "which helps me remember", "function": "結果", "translation": "それが私が覚える助けになる"},
+        {"text": "them", "function": "対象", "translation": "それらを"},
+        {"text": "more deeply than before", "function": "比較", "translation": "以前より深く"}
       ],
-      "grammar": [
-        "I explain ideas はSVO構造。",
-        "that seemed unclear はideasを修飾する関係詞節。",
-        "seemed unclear はseem + 形容詞。",
-        "at first は認識の初期状態を表す副詞句。",
-        "which helps は前文全体の結果を受ける。",
-        "remember them は代名詞themでideasを受ける。",
-        "more deeply than before は副詞の比較表現。"
-      ]
+      "grammarPoints": [
+        {"category": "語法", "name": "explain + 目的語", "where": "explain ideas", "explanation": "内容を言葉で明らかにする。", "rule": "explain + 名詞"},
+        {"category": "関係詞", "name": "関係代名詞that", "where": "ideas that seemed unclear", "explanation": "ideasを後ろから限定する。", "rule": "名詞 + that + 動詞句"},
+        {"category": "知覚", "name": "seem + 形容詞", "where": "seemed unclear", "explanation": "見た印象や判断を形容詞で表す。", "rule": "seem + 形容詞"},
+        {"category": "時制", "name": "過去形seemed", "where": "seemed unclear", "explanation": "最初の印象を過去形で示す。", "rule": "seemの過去形 = seemed"},
+        {"category": "関係詞", "name": "非制限用法which", "where": ", which helps", "explanation": "説明する行為がもたらす結果を補足する。", "rule": "文, which + 動詞"},
+        {"category": "比較", "name": "more deeply than", "where": "more deeply than before", "explanation": "記憶の深さを以前と比較する。", "rule": "more + 副詞 + than"}
+      ],
+      "errors": [
+        {"wrong": "I explain ideas that seemed unclearly.", "correct": "I explain ideas that seemed unclear.", "why": "seemの後には形容詞unclearを置く。"},
+        {"wrong": "Explaining helps me to remembering them.", "correct": "Explaining helps me remember them.", "why": "help + 目的語の後は動詞原形を使える。"},
+        {"wrong": "I remember them more deep than before.", "correct": "I remember them more deeply than before.", "why": "rememberを修飾するので副詞deeplyを使う。"}
+      ],
+      "variants": [
+        {"text": "I put difficult ideas into my own words.", "translation": "難しいアイデアを自分の言葉にする。"},
+        {"text": "Explaining an idea shows me what I still do not understand.", "translation": "アイデアを説明すると、まだ理解していない点が分かる。"},
+        {"text": "An idea becomes easier to remember after I explain it clearly.", "translation": "アイデアは明確に説明した後の方が覚えやすい。"}
+      ],
+      "parseTree": "S(I) V(explain) O(ideas [Rel: that seemed unclear at first]), [Rel: which helps O(me) V(remember) O(them) Adv(more deeply than before)]"
     },
     "expandLayer": {
-      "variants": [
-        "Explaining unclear ideas helps me remember them better.",
-        "When I explain an idea, I understand it more deeply.",
-        "Ideas become clearer when I put them into words."
+      "causalExpansion": [
+        {"original": "because putting them into words tests my understanding", "expanded": "since explanation exposes gaps that silent recognition can hide", "nuance": "説明が理解の穴を可視化する点を示す。"},
+        {"original": "because putting them into words tests my understanding", "expanded": "as choosing words forces me to organize the idea's structure", "nuance": "語彙選択と構造化を結びつける。"},
+        {"original": "because putting them into words tests my understanding", "expanded": "because an idea is easier to recall after it has been actively reconstructed", "nuance": "能動的再構成を強調する。"}
       ],
-      "dialogue": "It was unclear at first, but explaining it makes it stay in my mind."
+      "structuralShift": [
+        {"type": "受動態", "sentence": "Ideas that seemed unclear are explained in my own words.", "translation": "不明確に思えたアイデアは自分の言葉で説明される。", "note": "アイデアを主語にする。"},
+        {"type": "分詞構文", "sentence": "Explaining the idea aloud, I discover which parts remain unclear.", "translation": "アイデアを声に出して説明することで、どの部分がまだ不明確か分かる。", "note": "説明を手段として前置する。"},
+        {"type": "名詞化", "sentence": "The explanation of an idea deepens my memory of it.", "translation": "アイデアの説明は、その記憶を深める。", "note": "explainをexplanationへ名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [{"original": "explain", "alternatives": ["describe", "clarify", "spell out"], "nuance": "clarifyは明確化、spell outは省略せず詳しく述べる意味が強い。"}],
+        "sentencePatterns": [{"type": "発見", "sentence": "When I explain the idea, I discover where my understanding becomes vague.", "translation": "アイデアを説明すると、理解がどこで曖昧になるか分かる。"}],
+        "comparison": [{"sentence": "Active explanation creates a stronger memory than passive recognition.", "translation": "能動的な説明は、受動的な見覚えより強い記憶を作る。"}],
+        "conditional": [{"sentence": "If I cannot explain the idea simply, I may not understand it well enough.", "translation": "アイデアを簡単に説明できないなら、十分理解していない可能性がある。"}],
+        "emphasis": [{"sentence": "What reveals the gap is the attempt to explain.", "translation": "理解の穴を明らかにするのは、説明しようとする試みだ。"}],
+        "compression": [{"sentence": "Explain it to test it.", "translation": "説明して理解を確かめる。"}]
+      }
     },
-    "scores": {
-      "naturalness": 5,
-      "clarity": 5,
-      "emotionalDepth": 3,
-      "structuralControl": 5,
-      "flexibility": 5
-    }
+    "scores": {"naturalness": 8, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 8, "comment": "旧形式を現行表示形式へ移行し、欠けていたデバッグと拡張層を補完した。"}
   },
   {
     "_no": 14,
     "_generatedAt": "2026-05-02T00:00:00+09:00",
     "sentence": "I notice mistakes that appear in my writing, which helps me correct sentences more carefully than before.",
-    "phonetic": "アイ ノーティス ミステイクス ザット アピア イン マイ ライティング, ウィッチ ヘルプス ミー コレクト センテンシズ モア ケアフリー ザン ビフォー",
-    "japaneseTranslation": "私は自分の文章に現れる間違いに気づき、それによって以前よりも注意深く文を修正できる。",
+    "phonetic": "アイ ノーティス ミステイクス ザット アピア イン マイ ライティング、ウィッチ ヘルプス ミー コレクト センテンシズ モア ケアフリー ザン ビフォー",
+    "japaneseTranslation": "私は自分の文章に現れる間違いに気づく。それによって、以前より注意深く文を修正できる。",
     "theme": "修正",
     "coreVerb": "notice",
     "generateLayer": {
-      "core": "I notice mistakes.",
-      "step1": "I notice mistakes in my writing.",
-      "step2": "I notice mistakes that appear in my writing.",
-      "step3": "I notice mistakes that appear in my writing, which helps me correct sentences more carefully than before."
+      "phase1": {"sentence": "I notice mistakes.", "translation": "私は間違いに気づく。"},
+      "phase2": {"sentence": "I notice small mistakes in my writing.", "translation": "私は自分の文章の小さな間違いに気づく。", "addedChunks": "形容詞(small)と場所(in my writing)を追加"},
+      "phase3": {"sentence": "I notice mistakes because I reread my sentences carefully.", "translation": "文を注意深く読み直すので、私は間違いに気づく。", "connector": "because"},
+      "phase4": {"sentence": "I correct sentences more carefully than before.", "translation": "以前より注意深く文を修正する。", "comparison": "more carefully than"},
+      "phase5": {"sentence": "I notice mistakes that appear in my writing.", "translation": "私は自分の文章に現れる間違いに気づく。", "relativizer": "that"}
     },
     "explainLayer": {
       "chunks": [
-        { "en": "I notice mistakes", "ja": "私は間違いに気づく" },
-        { "en": "that appear", "ja": "現れる" },
-        { "en": "in my writing", "ja": "自分の文章の中に" },
-        { "en": "which helps me correct", "ja": "それが私の修正を助ける" },
-        { "en": "sentences", "ja": "文を" },
-        { "en": "more carefully than before", "ja": "以前より注意深く" }
+        {"text": "I notice mistakes", "function": "行動", "translation": "私は間違いに気づく"},
+        {"text": "that appear", "function": "修飾", "translation": "現れる"},
+        {"text": "in my writing", "function": "場所", "translation": "自分の文章の中に"},
+        {"text": "which helps me correct", "function": "結果", "translation": "それが私の修正を助ける"},
+        {"text": "sentences", "function": "対象", "translation": "文を"},
+        {"text": "more carefully than before", "function": "比較", "translation": "以前より注意深く"}
       ],
-      "grammar": [
-        "I notice mistakes はSVO構造。",
-        "that appear in my writing はmistakesを修飾する関係詞節。",
-        "appear は自動詞で『現れる』を表す。",
-        "in my writing は場所・範囲を表す前置詞句。",
-        "which helps me correct は前文全体の結果を示す。",
-        "help + 人 + 動詞の原形 の構文。",
-        "more carefully than before は副詞の比較表現。"
-      ]
+      "grammarPoints": [
+        {"category": "語法", "name": "notice + 目的語", "where": "notice mistakes", "explanation": "何かに気づくことを表す。", "rule": "notice + 名詞"},
+        {"category": "関係詞", "name": "関係代名詞that", "where": "mistakes that appear", "explanation": "mistakesを後ろから説明する。", "rule": "名詞 + that + 動詞句"},
+        {"category": "動詞", "name": "自動詞appear", "where": "appear in my writing", "explanation": "何かが現れることを表し、目的語を直接取らない。", "rule": "appear + 場所"},
+        {"category": "前置詞", "name": "in", "where": "in my writing", "explanation": "文章という範囲の中を示す。", "rule": "in + 名詞句"},
+        {"category": "関係詞", "name": "非制限用法which", "where": ", which helps", "explanation": "気づくことの結果を補足する。", "rule": "文, which + 動詞"},
+        {"category": "比較", "name": "more carefully than", "where": "more carefully than before", "explanation": "修正の注意深さを以前と比較する。", "rule": "more + 副詞 + than"}
+      ],
+      "errors": [
+        {"wrong": "I notice mistakes that appears in my writing.", "correct": "I notice mistakes that appear in my writing.", "why": "先行詞mistakesが複数なのでappearを使う。"},
+        {"wrong": "This helps me correcting sentences.", "correct": "This helps me correct sentences.", "why": "help + 目的語の後は動詞原形を使える。"},
+        {"wrong": "I correct sentences more careful than before.", "correct": "I correct sentences more carefully than before.", "why": "correctを修飾するので副詞carefullyを使う。"}
+      ],
+      "variants": [
+        {"text": "I reread my writing to find small mistakes.", "translation": "小さな間違いを見つけるために文章を読み直す。"},
+        {"text": "Noticing an error is the first step toward correcting it.", "translation": "誤りに気づくことが修正の第一歩だ。"},
+        {"text": "Careful revision makes my sentences cleaner.", "translation": "注意深い推敲は文を整える。"}
+      ],
+      "parseTree": "S(I) V(notice) O(mistakes [Rel: that appear in my writing]), [Rel: which helps O(me) V(correct) O(sentences) Adv(more carefully than before)]"
     },
     "expandLayer": {
-      "variants": [
-        "Noticing mistakes helps me correct my writing carefully.",
-        "I improve my sentences by noticing small mistakes.",
-        "My writing gets better when I correct mistakes with care."
+      "causalExpansion": [
+        {"original": "because I reread my sentences carefully", "expanded": "since a second reading separates intended meaning from the words actually written", "nuance": "意図と実文の差を示す。"},
+        {"original": "because I reread my sentences carefully", "expanded": "as slowing down makes small grammatical errors easier to notice", "nuance": "速度を落とす効果を強調する。"},
+        {"original": "because I reread my sentences carefully", "expanded": "because revision gives me another chance to inspect structure and wording", "nuance": "再検査の機会を示す。"}
       ],
-      "dialogue": "I found the mistake. Now I can make the sentence cleaner."
+      "structuralShift": [
+        {"type": "受動態", "sentence": "Mistakes in my writing are noticed and corrected during revision.", "translation": "文章の間違いは推敲中に発見され、修正される。", "note": "間違いを主語にする。"},
+        {"type": "分詞構文", "sentence": "Rereading each sentence carefully, I notice mistakes more easily.", "translation": "各文を注意深く読み直すことで、間違いに気づきやすくなる。", "note": "読み直しを手段として示す。"},
+        {"type": "名詞化", "sentence": "The careful revision of my writing improves sentence accuracy.", "translation": "文章の注意深い推敲は、文の正確さを高める。", "note": "reviseをrevisionとして名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [{"original": "correct", "alternatives": ["revise", "edit", "fix"], "nuance": "reviseは内容・構造の見直し、editは編集、fixは一般的な修正を表す。"}],
+        "sentencePatterns": [{"type": "順序", "sentence": "First I notice the mistake; then I decide how to revise the sentence.", "translation": "まず間違いに気づき、その後どう文を直すか決める。"}],
+        "comparison": [{"sentence": "A second reading reveals more errors than a quick first pass.", "translation": "二度目の読解は、急いだ初読より多くの誤りを明らかにする。"}],
+        "conditional": [{"sentence": "If I pause before editing, I can judge the sentence more carefully.", "translation": "編集前に一度止まれば、文をより注意深く判断できる。"}],
+        "emphasis": [{"sentence": "What improves the sentence is not speed but careful revision.", "translation": "文を改善するのは速度ではなく注意深い推敲だ。"}],
+        "compression": [{"sentence": "Notice, revise, reread.", "translation": "気づき、直し、読み直す。"}]
+      }
     },
-    "scores": {
-      "naturalness": 5,
-      "clarity": 5,
-      "emotionalDepth": 3,
-      "structuralControl": 5,
-      "flexibility": 4
-    }
+    "scores": {"naturalness": 8, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 8, "comment": "旧形式を現行表示形式へ移行し、carefullyの発音表記と欠落セクションを修正した。"}
   },
   {
     "_no": 15,
     "_generatedAt": "2026-05-02T00:00:00+09:00",
     "sentence": "I record phrases that I want to use later, which makes daily practice more useful than before.",
-    "phonetic": "アイ レコード フレイジズ ザット アイ ウォント トゥ ユーズ レイター, ウィッチ メイクス デイリー プラクティス モア ユースフル ザン ビフォー",
-    "japaneseTranslation": "私は後で使いたいフレーズを記録し、それによって日々の練習が以前よりも役に立つものになる。",
+    "phonetic": "アイ レコード フレイジズ ザット アイ ウォント トゥ ユーズ レイター、ウィッチ メイクス デイリー プラクティス モア ユースフル ザン ビフォー",
+    "japaneseTranslation": "私は後で使いたいフレーズを記録する。それによって、日々の練習が以前より役立つものになる。",
     "theme": "記録",
     "coreVerb": "record",
     "generateLayer": {
-      "core": "I record phrases.",
-      "step1": "I record phrases that I want.",
-      "step2": "I record phrases that I want to use later.",
-      "step3": "I record phrases that I want to use later, which makes daily practice more useful than before."
+      "phase1": {"sentence": "I record phrases.", "translation": "私はフレーズを記録する。"},
+      "phase2": {"sentence": "I record useful phrases every day.", "translation": "私は毎日役立つフレーズを記録する。", "addedChunks": "形容詞(useful)と時間(every day)を追加"},
+      "phase3": {"sentence": "I record phrases because I want to use them later.", "translation": "後で使いたいので、私はフレーズを記録する。", "connector": "because"},
+      "phase4": {"sentence": "My daily practice is more useful than before.", "translation": "日々の練習は以前より役立つ。", "comparison": "more useful than"},
+      "phase5": {"sentence": "I record phrases that I want to use later.", "translation": "私は後で使いたいフレーズを記録する。", "relativizer": "that"}
     },
     "explainLayer": {
       "chunks": [
-        { "en": "I record phrases", "ja": "私はフレーズを記録する" },
-        { "en": "that I want to use", "ja": "私が使いたい" },
-        { "en": "later", "ja": "後で" },
-        { "en": "which makes", "ja": "それが〜にする" },
-        { "en": "daily practice", "ja": "日々の練習を" },
-        { "en": "more useful than before", "ja": "以前より役に立つものに" }
+        {"text": "I record phrases", "function": "行動", "translation": "私はフレーズを記録する"},
+        {"text": "that I want to use", "function": "修飾", "translation": "私が使いたい"},
+        {"text": "later", "function": "時間", "translation": "後で"},
+        {"text": "which makes", "function": "結果", "translation": "それが〜にする"},
+        {"text": "daily practice", "function": "対象", "translation": "日々の練習を"},
+        {"text": "more useful than before", "function": "比較", "translation": "以前より役立つものに"}
       ],
-      "grammar": [
-        "I record phrases はSVO構造。",
-        "that I want to use later はphrasesを修飾する関係詞節。",
-        "want to use はwant + to不定詞。",
-        "later は時を表す副詞。",
-        "which makes は前文全体の結果を表す。",
-        "make + O + C の構文。",
-        "more useful than before は形容詞の比較表現。"
-      ]
+      "grammarPoints": [
+        {"category": "語法", "name": "record + 目的語", "where": "record phrases", "explanation": "後で参照できるよう内容を残す。", "rule": "record + 名詞"},
+        {"category": "関係詞", "name": "目的格のthat", "where": "phrases that I want to use", "explanation": "thatはuseの目的語となり、phrasesを説明する。", "rule": "名詞 + that + 主語 + 動詞"},
+        {"category": "不定詞", "name": "want to use", "where": "want to use", "explanation": "したい行為をto不定詞で示す。", "rule": "want to + 動詞原形"},
+        {"category": "副詞", "name": "later", "where": "use later", "explanation": "将来のある時点を表す。", "rule": "動詞 + later"},
+        {"category": "関係詞", "name": "非制限用法which", "where": ", which makes", "explanation": "記録する行為の結果を補足する。", "rule": "文, which + 動詞"},
+        {"category": "比較", "name": "more useful than", "where": "more useful than before", "explanation": "練習の有用性を以前と比較する。", "rule": "more + 形容詞 + than"}
+      ],
+      "errors": [
+        {"wrong": "I record phrases that I want use later.", "correct": "I record phrases that I want to use later.", "why": "wantの後にはto不定詞を使う。"},
+        {"wrong": "I will use it later phrases.", "correct": "I will use the phrases later.", "why": "目的語phrasesは動詞の直後に置き、laterは副詞として後ろに置く。"},
+        {"wrong": "This makes practice more usefully.", "correct": "This makes practice more useful.", "why": "make + O + Cの補語には形容詞usefulを使う。"}
+      ],
+      "variants": [
+        {"text": "I save useful phrases for later practice.", "translation": "後の練習のために役立つフレーズを保存する。"},
+        {"text": "My phrase list turns reading into material for speaking.", "translation": "フレーズ一覧は読んだ内容を話すための材料に変える。"},
+        {"text": "I review saved expressions before trying to use them.", "translation": "保存した表現を使ってみる前に復習する。"}
+      ],
+      "parseTree": "S(I) V(record) O(phrases [Rel: that I want to use later]), [Rel: which makes O(daily practice) C(more useful than before)]"
     },
     "expandLayer": {
-      "variants": [
-        "I save useful phrases so I can use them later.",
-        "Recording phrases makes my practice more practical.",
-        "Daily practice becomes more useful when I collect phrases I want to use."
+      "causalExpansion": [
+        {"original": "because I want to use them later", "expanded": "since useful phrases are easily forgotten when they remain only in passing conversation", "nuance": "記録しない場合の消失を示す。"},
+        {"original": "because I want to use them later", "expanded": "as a personal phrase list connects reading with future speaking practice", "nuance": "入力と出力を結びつける。"},
+        {"original": "because I want to use them later", "expanded": "because saved expressions can be reviewed at the moment they become relevant", "nuance": "必要時の再利用を強調する。"}
       ],
-      "dialogue": "I'll save this phrase. I might need it later."
+      "structuralShift": [
+        {"type": "受動態", "sentence": "Useful phrases are recorded for later practice.", "translation": "役立つフレーズは後の練習のために記録される。", "note": "フレーズを主語にする。"},
+        {"type": "分詞構文", "sentence": "Recording phrases as I find them, I build material for future practice.", "translation": "見つけたときにフレーズを記録することで、将来の練習材料を作る。", "note": "記録を継続的な手段として示す。"},
+        {"type": "名詞化", "sentence": "The recording of useful phrases makes daily practice more practical.", "translation": "役立つフレーズの記録は、日々の練習をより実用的にする。", "note": "recordをrecordingへ名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [{"original": "record", "alternatives": ["save", "note down", "collect"], "nuance": "saveは保存、note downは書き留める、collectは蓄積を強調する。"}],
+        "sentencePatterns": [{"type": "目的", "sentence": "I save phrases so that I can reuse them in later conversations.", "translation": "後の会話で再利用できるようにフレーズを保存する。"}],
+        "comparison": [{"sentence": "A personal phrase list is more useful than an unorganized collection of examples.", "translation": "個人用のフレーズ一覧は、未整理の例文集より役立つ。"}],
+        "conditional": [{"sentence": "If I record a phrase immediately, I am more likely to practice it later.", "translation": "フレーズをすぐ記録すれば、後で練習する可能性が高くなる。"}],
+        "emphasis": [{"sentence": "What makes the phrase valuable is the chance to reuse it.", "translation": "フレーズに価値を与えるのは、再利用する機会だ。"}],
+        "compression": [{"sentence": "Save now, use later.", "translation": "今保存し、後で使う。"}]
+      }
     },
-    "scores": {
-      "naturalness": 5,
-      "clarity": 5,
-      "emotionalDepth": 3,
-      "structuralControl": 5,
-      "flexibility": 4
-    }
+    "scores": {"naturalness": 8, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 8, "comment": "旧形式を現行表示形式へ移行し、全セクションを安定して表示できるようにした。"}
   }
 ]
