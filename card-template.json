@@ -2,52 +2,52 @@
   {
     "_no": 0,
     "_generatedAt": "YYYY-MM-DDTHH:mm:ss",
-    "sentence": "I use a subject that adds a clear detail, which makes the result easier to understand than before.",
+    "sentence": "I compare two explanations before choosing the clearer one. This helps me avoid conclusions based only on impressive wording.",
     "phonetic": "カタカナ発音",
     "japaneseTranslation": "完成文の自然な日本語訳。",
     "theme": "テーマ",
-    "coreVerb": "use",
+    "coreVerb": "compare",
     "generateLayer": {
       "phase1": {
-        "sentence": "I use.",
-        "translation": "私は使う。"
+        "sentence": "I compare.",
+        "translation": "私は比較する。"
       },
       "phase2": {
-        "sentence": "I use a subject every day.",
-        "translation": "私は毎日ある対象を使う。",
-        "addedChunks": "目的語(subject)と時間(every day)を追加"
+        "sentence": "I compare two explanations.",
+        "translation": "私は二つの説明を比較する。",
+        "addedChunks": "目的語(two explanations)を追加"
       },
       "phase3": {
-        "sentence": "I use a subject because it helps me.",
-        "translation": "役に立つので、私はある対象を使う。",
+        "sentence": "I compare them because wording can be misleading.",
+        "translation": "言い回しは誤解を招くことがあるので、私はそれらを比較する。",
         "connector": "because"
       },
       "phase4": {
-        "sentence": "The result is easier to understand than before.",
-        "translation": "その結果は以前より理解しやすい。",
-        "comparison": "easier ... than"
+        "sentence": "One explanation is clearer than the other.",
+        "translation": "一方の説明はもう一方より明確だ。",
+        "comparison": "clearer than"
       },
       "phase5": {
-        "sentence": "I use a subject that adds a clear detail.",
-        "translation": "私は明確な細部を加える対象を使う。",
-        "relativizer": "that"
+        "sentence": "I compare two explanations before choosing the clearer one.",
+        "translation": "私は、より明確な方を選ぶ前に二つの説明を比較する。",
+        "relativizer": "none"
       }
     },
     "explainLayer": {
       "chunks": [
         {
-          "text": "I use",
+          "text": "I compare",
           "function": "行動",
-          "translation": "私は使う"
+          "translation": "私は比較する"
         }
       ],
       "grammarPoints": [
         {
-          "category": "関係詞",
-          "name": "関係代名詞 that",
-          "where": "a subject that adds",
-          "explanation": "先行詞を後ろから説明する。",
-          "rule": "名詞 + that + 動詞句"
+          "category": "接続",
+          "name": "before + 動名詞",
+          "where": "before choosing",
+          "explanation": "ある行為より前に行うことを表す。",
+          "rule": "before + 動名詞"
         }
       ],
       "errors": [
@@ -63,7 +63,7 @@
           "translation": "日本語訳。"
         }
       ],
-      "parseTree": "S(I) V(use) O(a subject) [Rel: that ...], [Rel: which ...] [than ...]"
+      "parseTree": "S(I) V(compare) O(two explanations) [Adv: before choosing ...]."
     },
     "expandLayer": {
       "causalExpansion": [
@@ -84,16 +84,16 @@
       "expressionNetwork": {
         "vocabulary": [
           {
-            "original": "use",
+            "original": "compare",
             "alternatives": [
-              "employ"
+              "contrast"
             ],
             "nuance": "語彙の違い。"
           }
         ],
         "sentencePatterns": [
           {
-            "type": "強調",
+            "type": "対照",
             "sentence": "別の文型による英文。",
             "translation": "日本語訳。"
           }
