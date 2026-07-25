@@ -1,0 +1,134 @@
+[
+  {
+    "id": "DE-20260725-001",
+    "sourceTitle": "体裁が身体を追い越すとき",
+    "workId": "daily-essay-20260725",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "黒い布の規律",
+    "jp": "気温が危険な領域へ入っても、服装の規律だけは平常運転を続ける。黒い上着、長いズボン、肌を見せないこと。それらはかつて礼儀や統一感を支えたのだろう。しかし、暑さが身体の限界を直接試す日に、同じ規則は別の意味を帯びる。体裁を守ることが、安全を守ることより先に置かれた瞬間、服装は礼儀ではなく負荷になる。",
+    "translationLiteral": "Even when the temperature enters a dangerous range, the rules of dress continue to operate as usual. A black jacket, long trousers, and not showing skin may once have supported manners and uniformity. However, on a day when the heat directly tests the limits of the body, the same rules take on a different meaning. The moment maintaining appearances is placed before maintaining safety, clothing becomes a burden rather than etiquette.",
+    "translationNatural": "Dress codes often remain unchanged even when the weather becomes physically dangerous. Dark jackets, long trousers, and covered skin may once have signaled order and professionalism. Under extreme heat, however, the same rules impose a direct cost on the body. When appearance takes priority over safety, clothing stops functioning as etiquette and starts functioning as a burden.",
+    "imageUrl": "",
+    "imageCaption": "猛暑の街で、黒いスーツだけが規律正しく残る場面。",
+    "imagePrompt": "A lone office worker in a dark formal suit standing under oppressive summer heat, shimmering asphalt and harsh sunlight, restrained editorial illustration, no text",
+    "chunks": [
+      {"en": "Dress codes often remain unchanged", "ja": "服装規定はしばしば変わらないままである"},
+      {"en": "even when the weather becomes physically dangerous", "ja": "天候が身体的に危険になっても"},
+      {"en": "the same rules impose a direct cost on the body", "ja": "同じ規則が身体へ直接的な負担を課す"},
+      {"en": "When appearance takes priority over safety", "ja": "体裁が安全より優先されると"},
+      {"en": "clothing stops functioning as etiquette and starts functioning as a burden", "ja": "服装は礼儀としてではなく負荷として働き始める"}
+    ],
+    "grammar": [
+      "remain unchanged は『変わらないままである』を表す補語構文。",
+      "even when は『〜である時でさえ』という譲歩を表す。",
+      "impose a cost on ... は『〜に負担を課す』という表現。",
+      "take priority over ... は『〜より優先される』を意味する。",
+      "stop -ing and start -ing は機能の転換を対照的に示す。"
+    ],
+    "translationNote": "『平常運転を続ける』は直訳では operate as usual としたが、自然訳では remain unchanged と簡潔にした。『体裁』は appearance、『負荷』は burden とし、服装の象徴的意味が身体的負担へ反転する構造を明確にした。",
+    "readingPoint": "導入では、服装規範そのものを一律に否定せず、環境条件の変化によって同じ規則の機能が変わることを示す。問題は礼儀の存在ではなく、安全との優先順位である。",
+    "keywords": ["dress code", "heat", "safety", "appearance", "burden"]
+  },
+  {
+    "id": "DE-20260725-002",
+    "sourceTitle": "体裁が身体を追い越すとき",
+    "workId": "daily-essay-20260725",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "新しい名前の古い命令",
+    "jp": "そこで現れたのが、露出した脚を不快だと名づける新しい言葉だった。冗談めいた造語であっても、力の向きははっきりしている。暑さに合わせて服を軽くした側ではなく、それを見る側の不快感が中心に置かれる。新しい名前を与えられた瞬間、古い命令――肌を隠せ、場に合わせろ――が、あたかも新しい問題への対応であるかのように戻ってくる。",
+    "translationLiteral": "Then a new word appeared to name exposed legs as unpleasant. Even if it was a joking coinage, the direction of its force was clear. The discomfort of the viewer, rather than the person who had lightened their clothing to match the heat, was placed at the center. The moment a new name was given, the old command—cover your skin and fit the setting—returned as if it were a response to a new problem.",
+    "translationNatural": "A new label then appeared for the discomfort supposedly caused by visible legs. The term sounded playful, but its pressure moved in a familiar direction. Attention shifted away from the person adapting to extreme heat and toward the observer's sense of offense. With a fresh label, an old command—cover yourself and conform—returned disguised as a response to a new social problem.",
+    "imageUrl": "",
+    "imageCaption": "新しいラベルの下から、古い服装命令が姿を現す場面。",
+    "imagePrompt": "A modern blank label pasted over an old formal dress code notice, with summer heat visible outside, conceptual editorial illustration, no readable text",
+    "chunks": [
+      {"en": "A new label then appeared", "ja": "そこで新しいラベルが現れた"},
+      {"en": "for the discomfort supposedly caused by visible legs", "ja": "見える脚が引き起こすとされた不快感に対して"},
+      {"en": "its pressure moved in a familiar direction", "ja": "その圧力は見慣れた方向へ働いた"},
+      {"en": "Attention shifted away from the person adapting to extreme heat", "ja": "関心は猛暑に適応する人から逸れた"},
+      {"en": "an old command returned disguised as a response to a new social problem", "ja": "古い命令が新しい社会問題への対応を装って戻った"}
+    ],
+    "grammar": [
+      "supposedly caused by ... は『〜によって引き起こされるとされる』という距離を置いた表現。",
+      "move in a ... direction は圧力や議論の向きを比喩的に示す。",
+      "shift away from A toward B は焦点がAからBへ移ることを表す。",
+      "the person adapting ... の adapting は現在分詞でpersonを修飾する。",
+      "return disguised as ... は『〜を装って戻る』という比喩表現。"
+    ],
+    "translationNote": "個別の造語は英語へ直接移さず a new label と一般化した。『力の向き』は pressure moved in a familiar direction、『あたかも新しい問題への対応』は disguised as a response とし、名称の新しさと命令の古さの対比を保った。",
+    "readingPoint": "第二章では、造語を単なる冗談として処理せず、誰の不快感が制度の中心に置かれるかを見る。新語の新しさが、規範の古さを隠す仕組みが主題となる。",
+    "keywords": ["label", "discomfort", "conformity", "observer", "pressure"]
+  },
+  {
+    "id": "DE-20260725-003",
+    "sourceTitle": "体裁が身体を追い越すとき",
+    "workId": "daily-essay-20260725",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "不快と危険の非対称",
+    "jp": "不快と危険は、同じ重さではない。見た目への違和感は調整や対話の対象になり得るが、熱による体調悪化は身体に起きる出来事であり、意思だけでは消せない。それでも議論はしばしば、測定できる危険より、声にしやすい不快へ引き寄せられる。危険を中心に置けば、休憩、冷却、服装変更、責任の所在まで考えなければならない。不快だけを語れば、命令は短くて済む。",
+    "translationLiteral": "Discomfort and danger do not have the same weight. Unease about appearance can become a subject of adjustment and discussion, but physical decline caused by heat is an event that occurs in the body and cannot be erased by will alone. Even so, debate is often drawn toward discomfort that is easy to voice rather than danger that can be measured. If danger is placed at the center, one must consider breaks, cooling, changes in clothing, and even where responsibility lies. If only discomfort is discussed, the command can remain short.",
+    "translationNatural": "Discomfort and danger are not equivalent. A visual preference can be negotiated, but heat illness is a physical event that cannot be removed through attitude or endurance. Public discussion still tends to favor the complaint that is easiest to voice over the risk that is easiest to measure. Centering risk requires plans for cooling, rest, clothing, and responsibility. Centering discomfort requires only a brief command.",
+    "imageUrl": "",
+    "imageCaption": "片方の皿に不快感、もう片方に身体的危険が載る不均衡な天秤。",
+    "imagePrompt": "An unbalanced scale comparing a small symbol of social discomfort with a heavy symbol of physical heat danger, minimalist editorial illustration, no text",
+    "chunks": [
+      {"en": "Discomfort and danger are not equivalent", "ja": "不快と危険は同等ではない"},
+      {"en": "A visual preference can be negotiated", "ja": "見た目の好みは調整できる"},
+      {"en": "heat illness is a physical event", "ja": "熱による体調悪化は身体的な出来事である"},
+      {"en": "discussion tends to favor the complaint that is easiest to voice", "ja": "議論は最も声にしやすい不満を優先しがちである"},
+      {"en": "Centering risk requires plans for cooling, rest, clothing, and responsibility", "ja": "危険を中心に置けば冷却・休憩・服装・責任の計画が必要になる"},
+      {"en": "Centering discomfort requires only a brief command", "ja": "不快を中心に置けば短い命令だけで済む"}
+    ],
+    "grammar": [
+      "not equivalent は『同等ではない』という比較判断を表す。",
+      "can be negotiated は受動態で『調整・交渉できる』を示す。",
+      "cannot be removed through ... は手段をthroughで示す受動態。",
+      "tend to favor は『〜を優先しがちである』という傾向表現。",
+      "the complaint that is easiest to voice は最上級を含む関係節。",
+      "Centering ... は動名詞句を主語として用いる構文。"
+    ],
+    "translationNote": "『意思だけでは消せない』は attitude or endurance と具体化し、根性論との対比を英語で明確にした。末尾の二文は Centering risk / Centering discomfort と同じ構造にそろえ、制度対応の重さと命令の軽さを対照させた。",
+    "readingPoint": "ここが論理上の転換点である。服装の好き嫌いから、制度がなぜ不快を語りたがるのかへ焦点を移す。危険を認めれば具体策と責任が発生するため、不快の言語が選ばれやすいという非対称を示す。",
+    "keywords": ["danger", "discomfort", "heat illness", "responsibility", "measurement"]
+  },
+  {
+    "id": "DE-20260725-004",
+    "sourceTitle": "体裁が身体を追い越すとき",
+    "workId": "daily-essay-20260725",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "形式を通るだけの正しさ",
+    "jp": "その日の終わりには、英語カードを作る仕組みでも似た問題が見つかった。決められた関係詞と比較表現を入れれば検証を通るが、文の意味や専門内容が崩れていても止まらない。形式だけを測る規則は、黒い服を着ているかだけを見る規則に似ている。必要なのは、形を守ったかではなく、目的に届いたかを確かめることだ。安全も文章も、外見だけでは検証できない。",
+    "translationLiteral": "By the end of the day, a similar problem was found in the system that created English cards. If the required relative pronouns and comparisons were included, the cards passed validation, but the process did not stop even when the meaning or technical content had broken down. A rule that measures only form resembles a rule that looks only at whether someone is wearing dark clothes. What is needed is not to check whether the form was preserved, but whether the purpose was reached. Neither safety nor writing can be validated by appearance alone.",
+    "translationNatural": "The same pattern appeared later in an automated writing system. A card could pass validation by containing the required grammar, even when its meaning or technical explanation had collapsed. A rule that checks only form resembles a dress code that checks only appearance. Good validation must ask whether the work achieved its purpose, not merely whether it matched the template. Neither safety nor language can be judged from the surface alone.",
+    "imageUrl": "",
+    "imageCaption": "チェック済みの形式の奥で、意味の崩れが見落とされる場面。",
+    "imagePrompt": "A checklist showing every box marked while the structure behind it is visibly unstable, paired with a formal suit silhouette, conceptual editorial illustration, no readable text",
+    "chunks": [
+      {"en": "The same pattern appeared later in an automated writing system", "ja": "同じパターンが後に自動文章生成の仕組みに現れた"},
+      {"en": "A card could pass validation by containing the required grammar", "ja": "カードは必須文法を含むことで検証を通過できた"},
+      {"en": "even when its meaning or technical explanation had collapsed", "ja": "意味や専門的説明が崩れていても"},
+      {"en": "A rule that checks only form resembles a dress code that checks only appearance", "ja": "形式だけを見る規則は外見だけを見る服装規定に似ている"},
+      {"en": "Good validation must ask whether the work achieved its purpose", "ja": "良い検証は仕事が目的を達成したかを問わなければならない"},
+      {"en": "Neither safety nor language can be judged from the surface alone", "ja": "安全も言語も表面だけでは判断できない"}
+    ],
+    "grammar": [
+      "could pass ... by containing は『〜を含むことで通過できた』という手段表現。",
+      "even when は予想に反する状況を示す譲歩節。",
+      "had collapsed は過去完了で、検証時点より前に崩れていた状態を示す。",
+      "A rule that checks ... は関係代名詞thatがruleを修飾する。",
+      "ask whether ... は『〜かどうかを問う』という間接疑問。",
+      "Neither A nor B は二つをともに否定する構文。"
+    ],
+    "translationNote": "『決められた関係詞と比較表現』は自然訳で the required grammar とまとめ、個別仕様より問題の一般性を優先した。『目的に届いたか』は achieved its purpose、『外見だけ』は from the surface alone とし、服装規範との照応を残した。",
+    "readingPoint": "結末では、社会的な服装規範と技術的な検証規則を接続する。どちらも形式を測りやすい一方、目的や結果を見落とし得る。安全と文章を同じ命題で閉じることで、その日の対話を一つの主題へ収束させる。",
+    "keywords": ["validation", "form", "purpose", "automation", "surface"]
+  }
+]
