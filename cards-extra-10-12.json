@@ -3,144 +3,198 @@
     "_no": 10,
     "_generatedAt": "2026-05-01T00:00:00+09:00",
     "sentence": "I organize notes that I collected during the week, which helps me find important ideas faster than before.",
-    "phonetic": "アイ オーガナイズ ノーツ ザット アイ コレクテッド デュアリング ザ ウィーク, ウィッチ ヘルプス ミー ファインド インポータント アイディアズ ファスター ザン ビフォー",
-    "japaneseTranslation": "私は一週間の間に集めたメモを整理し、それによって以前よりも速く重要なアイデアを見つけられる。",
+    "phonetic": "アイ オーガナイズ ノーツ ザット アイ コレクテッド デュアリング ザ ウィーク、ウィッチ ヘルプス ミー ファインド インポータント アイディアズ ファスター ザン ビフォー",
+    "japaneseTranslation": "私は一週間の間に集めたメモを整理する。それによって、以前より速く重要なアイデアを見つけられる。",
     "theme": "整理",
     "coreVerb": "organize",
     "generateLayer": {
-      "core": "I organize notes.",
-      "step1": "I organize notes during the week.",
-      "step2": "I organize notes that I collected during the week.",
-      "step3": "I organize notes that I collected during the week, which helps me find important ideas faster than before."
+      "phase1": {"sentence": "I organize notes.", "translation": "私はメモを整理する。"},
+      "phase2": {"sentence": "I organize my notes every week.", "translation": "私は毎週メモを整理する。", "addedChunks": "所有(my)と時間(every week)を追加"},
+      "phase3": {"sentence": "I organize my notes because they contain useful ideas.", "translation": "役立つアイデアが含まれているので、私はメモを整理する。", "connector": "because"},
+      "phase4": {"sentence": "I can find important ideas faster than before.", "translation": "以前より速く重要なアイデアを見つけられる。", "comparison": "faster than"},
+      "phase5": {"sentence": "I organize notes that I collected during the week.", "translation": "私は一週間の間に集めたメモを整理する。", "relativizer": "that"}
     },
     "explainLayer": {
       "chunks": [
-        { "en": "I organize notes", "ja": "私はメモを整理する" },
-        { "en": "that I collected", "ja": "私が集めた" },
-        { "en": "during the week", "ja": "一週間の間に" },
-        { "en": "which helps me find", "ja": "それが私が見つける助けになる" },
-        { "en": "important ideas", "ja": "重要なアイデアを" },
-        { "en": "faster than before", "ja": "以前より速く" }
+        {"text": "I organize notes", "function": "行動", "translation": "私はメモを整理する"},
+        {"text": "that I collected", "function": "修飾", "translation": "私が集めた"},
+        {"text": "during the week", "function": "時間", "translation": "一週間の間に"},
+        {"text": "which helps me find", "function": "結果", "translation": "それが私が見つける助けになる"},
+        {"text": "important ideas", "function": "対象", "translation": "重要なアイデアを"},
+        {"text": "faster than before", "function": "比較", "translation": "以前より速く"}
       ],
-      "grammar": [
-        "I organize notes はSVO構造。",
-        "that I collected はnotesを修飾する関係詞節。",
-        "during the week は時間を表す副詞句。",
-        "which helps は前の内容全体を受ける非制限用法。",
-        "find important ideas はhelp + 人 + 動詞の原形。",
-        "faster than before は比較級。"
-      ]
+      "grammarPoints": [
+        {"category": "語法", "name": "organize + 目的語", "where": "organize notes", "explanation": "対象を整理することを表す。", "rule": "organize + 名詞"},
+        {"category": "関係詞", "name": "目的格のthat", "where": "notes that I collected", "explanation": "thatはcollectedの目的語となり、notesを説明する。", "rule": "名詞 + that + 主語 + 動詞"},
+        {"category": "時制", "name": "過去形collected", "where": "I collected", "explanation": "すでに集めたメモなので過去形を使う。", "rule": "collectの過去形 = collected"},
+        {"category": "前置詞", "name": "during", "where": "during the week", "explanation": "ある期間の途中で起きたことを示す。", "rule": "during + 期間"},
+        {"category": "関係詞", "name": "非制限用法which", "where": ", which helps", "explanation": "前の行為全体がもたらす結果を補足する。", "rule": "文, which + 動詞"},
+        {"category": "比較", "name": "faster than", "where": "faster than before", "explanation": "見つける速さを以前と比較する。", "rule": "比較級 + than"}
+      ],
+      "errors": [
+        {"wrong": "I organize notes that I collect last week.", "correct": "I organize notes that I collected last week.", "why": "last weekがあるので過去形collectedを使う。"},
+        {"wrong": "This helps me finding important ideas.", "correct": "This helps me find important ideas.", "why": "help + 目的語の後は動詞原形を使える。"},
+        {"wrong": "I find ideas more faster than before.", "correct": "I find ideas faster than before.", "why": "fasterにmoreを重ねない。"}
+      ],
+      "variants": [
+        {"text": "I sort my weekly notes.", "translation": "一週間分のメモを分類する。"},
+        {"text": "Organizing notes makes useful ideas easier to find.", "translation": "メモを整理すると役立つアイデアを見つけやすくなる。"},
+        {"text": "I review my notes before choosing the important points.", "translation": "重要な点を選ぶ前にメモを見直す。"}
+      ],
+      "parseTree": "S(I) V(organize) O(notes [Rel: that I collected during the week]), [Rel: which helps O(me) V(find) O(important ideas) Adv(faster than before)]"
     },
     "expandLayer": {
-      "variants": [
-        "I sort my notes so I can find ideas quickly.",
-        "Organizing notes helps me discover useful ideas faster.",
-        "When I organize my notes, important ideas become easier to find."
+      "causalExpansion": [
+        {"original": "because they contain useful ideas", "expanded": "since scattered notes can hide connections between ideas", "nuance": "整理する理由を関連性の発見として示す。"},
+        {"original": "because they contain useful ideas", "expanded": "as weekly review reveals which points matter most", "nuance": "重要度の判断を強調する。"},
+        {"original": "because they contain useful ideas", "expanded": "because grouping similar notes reduces the time needed to search", "nuance": "検索時間の短縮を示す。"}
       ],
-      "dialogue": "I just need to organize this first. The important parts will show up faster."
+      "structuralShift": [
+        {"type": "受動態", "sentence": "The notes I collected during the week are organized by topic.", "translation": "一週間の間に集めたメモは話題別に整理される。", "note": "メモを主語にする。"},
+        {"type": "分詞構文", "sentence": "Organizing my weekly notes, I can find important ideas faster.", "translation": "一週間分のメモを整理することで、重要なアイデアをより速く見つけられる。", "note": "手段を分詞構文で表す。"},
+        {"type": "名詞化", "sentence": "The organization of weekly notes makes important ideas easier to find.", "translation": "一週間分のメモの整理は、重要なアイデアを見つけやすくする。", "note": "organizeをorganizationへ名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [{"original": "organize", "alternatives": ["sort", "arrange", "classify"], "nuance": "sortは分類、arrangeは配置、classifyは基準に沿った分類を強調する。"}],
+        "sentencePatterns": [{"type": "目的", "sentence": "I organize my notes so that I can retrieve important ideas quickly.", "translation": "重要なアイデアをすぐ取り出せるようにメモを整理する。"}],
+        "comparison": [{"sentence": "Organized notes are easier to search than scattered notes.", "translation": "整理されたメモは散らばったメモより探しやすい。"}],
+        "conditional": [{"sentence": "If I organize my notes weekly, useful connections become easier to see.", "translation": "毎週メモを整理すれば、役立つつながりが見えやすくなる。"}],
+        "emphasis": [{"sentence": "What matters is not the number of notes but how they are organized.", "translation": "重要なのはメモの数ではなく、どう整理されているかだ。"}],
+        "compression": [{"sentence": "Organize first; find faster.", "translation": "まず整理し、より速く見つける。"}]
+      }
     },
-    "scores": {
-      "naturalness": 5,
-      "clarity": 5,
-      "emotionalDepth": 3,
-      "structuralControl": 5,
-      "flexibility": 4
-    }
+    "scores": {"naturalness": 8, "clarity": 9, "flexibility": 8, "focus": 9, "efficiency": 8, "comment": "旧形式を現行表示形式へ移行し、生成・理解・拡張の各層を欠落なく表示できるようにした。"}
   },
   {
     "_no": 11,
     "_generatedAt": "2026-05-01T00:00:00+09:00",
     "sentence": "I compare examples that look similar at first, which helps me understand small differences more clearly than before.",
-    "phonetic": "アイ コンペア イグザンプルズ ザット ルック シミラー アット ファースト, ウィッチ ヘルプス ミー アンダースタンド スモール ディファレンシズ モア クリアリー ザン ビフォー",
-    "japaneseTranslation": "私は最初は似て見える例を比較し、それによって以前よりも小さな違いを明確に理解できる。",
+    "phonetic": "アイ コンペア イグザンプルズ ザット ルック シミラー アット ファースト、ウィッチ ヘルプス ミー アンダースタンド スモール ディファレンシズ モア クリアリー ザン ビフォー",
+    "japaneseTranslation": "私は最初は似て見える例を比較する。それによって、以前より小さな違いを明確に理解できる。",
     "theme": "比較",
     "coreVerb": "compare",
     "generateLayer": {
-      "core": "I compare examples.",
-      "step1": "I compare examples that look similar.",
-      "step2": "I compare examples that look similar at first.",
-      "step3": "I compare examples that look similar at first, which helps me understand small differences more clearly than before."
+      "phase1": {"sentence": "I compare examples.", "translation": "私は例を比較する。"},
+      "phase2": {"sentence": "I compare similar examples carefully.", "translation": "私は似た例を注意深く比較する。", "addedChunks": "対象(similar examples)と様態(carefully)を追加"},
+      "phase3": {"sentence": "I compare examples because small differences matter.", "translation": "小さな違いが重要なので、私は例を比較する。", "connector": "because"},
+      "phase4": {"sentence": "I see the differences more clearly than before.", "translation": "以前より違いが明確に見える。", "comparison": "more clearly than"},
+      "phase5": {"sentence": "I compare examples that look similar at first.", "translation": "私は最初は似て見える例を比較する。", "relativizer": "that"}
     },
     "explainLayer": {
       "chunks": [
-        { "en": "I compare examples", "ja": "私は例を比較する" },
-        { "en": "that look similar", "ja": "似て見える" },
-        { "en": "at first", "ja": "最初は" },
-        { "en": "which helps me understand", "ja": "それが私の理解を助ける" },
-        { "en": "small differences", "ja": "小さな違いを" },
-        { "en": "more clearly than before", "ja": "以前より明確に" }
+        {"text": "I compare examples", "function": "行動", "translation": "私は例を比較する"},
+        {"text": "that look similar", "function": "修飾", "translation": "似て見える"},
+        {"text": "at first", "function": "時間", "translation": "最初は"},
+        {"text": "which helps me understand", "function": "結果", "translation": "それが私の理解を助ける"},
+        {"text": "small differences", "function": "対象", "translation": "小さな違いを"},
+        {"text": "more clearly than before", "function": "比較", "translation": "以前より明確に"}
       ],
-      "grammar": [
-        "I compare examples はSVO構造。",
-        "that look similar はexamplesを修飾する関係詞節。",
-        "look similar はlook + 形容詞。",
-        "at first は文脈上の時間・認識の起点。",
-        "which helps は前文全体を受ける。",
-        "more clearly than before は副詞の比較表現。"
-      ]
+      "grammarPoints": [
+        {"category": "語法", "name": "compare + 目的語", "where": "compare examples", "explanation": "複数の対象を比べる。", "rule": "compare + 名詞"},
+        {"category": "関係詞", "name": "関係代名詞that", "where": "examples that look similar", "explanation": "どの例かを後ろから限定する。", "rule": "名詞 + that + 動詞句"},
+        {"category": "知覚", "name": "look + 形容詞", "where": "look similar", "explanation": "見た印象を形容詞で表す。", "rule": "look + 形容詞"},
+        {"category": "副詞句", "name": "at first", "where": "at first", "explanation": "最初の印象を示す。", "rule": "at first"},
+        {"category": "関係詞", "name": "非制限用法which", "where": ", which helps", "explanation": "比較する行為の結果を補足する。", "rule": "文, which + 動詞"},
+        {"category": "比較", "name": "more clearly than", "where": "more clearly than before", "explanation": "理解の明確さを以前と比較する。", "rule": "more + 副詞 + than"}
+      ],
+      "errors": [
+        {"wrong": "I compare examples that looks similar.", "correct": "I compare examples that look similar.", "why": "先行詞examplesが複数なのでlookを使う。"},
+        {"wrong": "They look similarly at first.", "correct": "They look similar at first.", "why": "lookの後には状態を表す形容詞similarを置く。"},
+        {"wrong": "I understand differences more clear than before.", "correct": "I understand differences more clearly than before.", "why": "understandを修飾するので副詞clearlyを使う。"}
+      ],
+      "variants": [
+        {"text": "These examples look similar, but their details differ.", "translation": "これらの例は似て見えるが、細部は異なる。"},
+        {"text": "I compare similar cases to find the key difference.", "translation": "重要な違いを見つけるために似た事例を比較する。"},
+        {"text": "Small contrasts become visible when I place examples side by side.", "translation": "例を並べると小さな対比が見える。"}
+      ],
+      "parseTree": "S(I) V(compare) O(examples [Rel: that look similar at first]), [Rel: which helps O(me) V(understand) O(small differences) Adv(more clearly than before)]"
     },
     "expandLayer": {
-      "variants": [
-        "I compare similar examples to understand the difference.",
-        "Looking at similar examples helps me see small differences.",
-        "Small differences become clearer when I compare examples carefully."
+      "causalExpansion": [
+        {"original": "because small differences matter", "expanded": "since similar examples often differ in one decisive detail", "nuance": "決定的な差に焦点を当てる。"},
+        {"original": "because small differences matter", "expanded": "as comparison prevents a vague first impression from becoming a conclusion", "nuance": "第一印象の固定化を防ぐ。"},
+        {"original": "because small differences matter", "expanded": "because placing cases side by side exposes their structure", "nuance": "並置の効果を示す。"}
       ],
-      "dialogue": "They look the same at first, but the difference is hiding in the details."
+      "structuralShift": [
+        {"type": "受動態", "sentence": "Examples that look similar are compared to reveal small differences.", "translation": "似て見える例は、小さな違いを明らかにするために比較される。", "note": "例を主語にする。"},
+        {"type": "分詞構文", "sentence": "Comparing similar examples, I notice differences that were easy to miss.", "translation": "似た例を比較することで、見落としやすかった違いに気づく。", "note": "比較を手段として前置する。"},
+        {"type": "名詞化", "sentence": "The comparison of similar examples reveals small but important differences.", "translation": "似た例の比較は、小さいが重要な違いを明らかにする。", "note": "compareをcomparisonへ名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [{"original": "compare", "alternatives": ["contrast", "examine", "set side by side"], "nuance": "contrastは違いを強調し、examineは詳しい検討を表す。"}],
+        "sentencePatterns": [{"type": "対照", "sentence": "The examples look alike at first, but one detail changes the result.", "translation": "例は最初は似て見えるが、一つの細部が結果を変える。"}],
+        "comparison": [{"sentence": "Direct comparison is clearer than relying on memory alone.", "translation": "直接比較する方が、記憶だけに頼るより明確だ。"}],
+        "conditional": [{"sentence": "If I compare the examples side by side, the difference becomes easier to see.", "translation": "例を並べて比較すれば、違いが見えやすくなる。"}],
+        "emphasis": [{"sentence": "What matters is the detail that changes the interpretation.", "translation": "重要なのは解釈を変える細部だ。"}],
+        "compression": [{"sentence": "Similar surface, different structure.", "translation": "似た表面、異なる構造。"}]
+      }
     },
-    "scores": {
-      "naturalness": 5,
-      "clarity": 5,
-      "emotionalDepth": 3,
-      "structuralControl": 5,
-      "flexibility": 5
-    }
+    "scores": {"naturalness": 8, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 8, "comment": "旧形式を現行表示形式へ移行し、各セクションが欠けずに表示されるようにした。"}
   },
   {
     "_no": 12,
     "_generatedAt": "2026-05-01T00:00:00+09:00",
     "sentence": "I imagine scenes that connect words with feelings, which makes each expression easier to remember than before.",
-    "phonetic": "アイ イマジン シーンズ ザット コネクト ワーズ ウィズ フィーリングズ, ウィッチ メイクス イーチ エクスプレッション イージアー トゥ リメンバー ザン ビフォー",
-    "japaneseTranslation": "私は言葉と感情を結びつける場面を想像し、それによって各表現を以前よりも覚えやすくしている。",
+    "phonetic": "アイ イマジン シーンズ ザット コネクト ワーズ ウィズ フィーリングズ、ウィッチ メイクス イーチ エクスプレッション イージアー トゥ リメンバー ザン ビフォー",
+    "japaneseTranslation": "私は言葉と感情を結びつける場面を想像する。それによって、それぞれの表現を以前より覚えやすくできる。",
     "theme": "想像",
     "coreVerb": "imagine",
     "generateLayer": {
-      "core": "I imagine scenes.",
-      "step1": "I imagine scenes that connect words.",
-      "step2": "I imagine scenes that connect words with feelings.",
-      "step3": "I imagine scenes that connect words with feelings, which makes each expression easier to remember than before."
+      "phase1": {"sentence": "I imagine scenes.", "translation": "私は場面を想像する。"},
+      "phase2": {"sentence": "I imagine vivid scenes for new words.", "translation": "私は新しい言葉のために鮮明な場面を想像する。", "addedChunks": "形容詞(vivid)と目的(for new words)を追加"},
+      "phase3": {"sentence": "I imagine scenes because feelings make words memorable.", "translation": "感情が言葉を記憶に残しやすくするので、私は場面を想像する。", "connector": "because"},
+      "phase4": {"sentence": "The expressions are easier to remember than before.", "translation": "その表現は以前より覚えやすい。", "comparison": "easier than"},
+      "phase5": {"sentence": "I imagine scenes that connect words with feelings.", "translation": "私は言葉と感情を結びつける場面を想像する。", "relativizer": "that"}
     },
     "explainLayer": {
       "chunks": [
-        { "en": "I imagine scenes", "ja": "私は場面を想像する" },
-        { "en": "that connect words", "ja": "言葉を結びつける" },
-        { "en": "with feelings", "ja": "感情と" },
-        { "en": "which makes", "ja": "それが〜にする" },
-        { "en": "each expression", "ja": "それぞれの表現を" },
-        { "en": "easier to remember than before", "ja": "以前より覚えやすく" }
+        {"text": "I imagine scenes", "function": "行動", "translation": "私は場面を想像する"},
+        {"text": "that connect words", "function": "修飾", "translation": "言葉を結びつける"},
+        {"text": "with feelings", "function": "対象", "translation": "感情と"},
+        {"text": "which makes", "function": "結果", "translation": "それが〜にする"},
+        {"text": "each expression", "function": "対象", "translation": "それぞれの表現を"},
+        {"text": "easier to remember than before", "function": "比較", "translation": "以前より覚えやすく"}
       ],
-      "grammar": [
-        "I imagine scenes はSVO構造。",
-        "that connect words with feelings はscenesを修飾。",
-        "connect A with B はAとBを結びつける。",
-        "which makes は前の内容全体の結果を示す。",
-        "make + O + C の構文。",
-        "easier to remember than before は比較級＋不定詞。"
-      ]
+      "grammarPoints": [
+        {"category": "語法", "name": "imagine + 目的語", "where": "imagine scenes", "explanation": "心の中に場面を思い描く。", "rule": "imagine + 名詞"},
+        {"category": "関係詞", "name": "関係代名詞that", "where": "scenes that connect", "explanation": "scenesを後ろから説明する。", "rule": "名詞 + that + 動詞句"},
+        {"category": "語法", "name": "connect A with B", "where": "connect words with feelings", "explanation": "二つの要素を結びつける。", "rule": "connect A with B"},
+        {"category": "関係詞", "name": "非制限用法which", "where": ", which makes", "explanation": "想像する行為の結果を補足する。", "rule": "文, which + 動詞"},
+        {"category": "使役", "name": "make + O + C", "where": "makes each expression easier", "explanation": "目的語をeasierな状態にする。", "rule": "make + 目的語 + 形容詞"},
+        {"category": "不定詞", "name": "形容詞を補うto不定詞", "where": "easier to remember", "explanation": "何をするのが容易かを示す。", "rule": "形容詞 + to不定詞"}
+      ],
+      "errors": [
+        {"wrong": "I imagine scenes that connects words with feelings.", "correct": "I imagine scenes that connect words with feelings.", "why": "先行詞scenesが複数なのでconnectを使う。"},
+        {"wrong": "The scene connects words to feelings together.", "correct": "The scene connects words with feelings.", "why": "connect A with Bで十分なのでtogetherを重ねない。"},
+        {"wrong": "This makes expressions easier remembering.", "correct": "This makes expressions easier to remember.", "why": "easierの内容はto不定詞で補う。"}
+      ],
+      "variants": [
+        {"text": "I picture a scene for each new expression.", "translation": "新しい表現ごとに場面を思い浮かべる。"},
+        {"text": "Feelings give words a stronger place in memory.", "translation": "感情は言葉を記憶に強く残す。"},
+        {"text": "A vivid image can make an expression easier to recall.", "translation": "鮮明なイメージは表現を思い出しやすくする。"}
+      ],
+      "parseTree": "S(I) V(imagine) O(scenes [Rel: that connect O(words) with O(feelings)]), [Rel: which makes O(each expression) C(easier to remember than before)]"
     },
     "expandLayer": {
-      "variants": [
-        "I remember expressions better when I connect them with feelings.",
-        "Imagining scenes makes English expressions easier to remember.",
-        "Words stay with me longer when they are connected to feelings."
+      "causalExpansion": [
+        {"original": "because feelings make words memorable", "expanded": "since emotional associations give abstract words a concrete context", "nuance": "抽象語を具体的な状況へ結びつける。"},
+        {"original": "because feelings make words memorable", "expanded": "as a vivid scene provides more cues for later recall", "nuance": "想起の手掛かりを強調する。"},
+        {"original": "because feelings make words memorable", "expanded": "because words are easier to retrieve when they belong to a scene", "nuance": "場面と検索可能性の関係を示す。"}
       ],
-      "dialogue": "If I can picture the scene, the words stay with me."
+      "structuralShift": [
+        {"type": "受動態", "sentence": "Words are connected with feelings through imagined scenes.", "translation": "言葉は想像した場面を通して感情と結びつけられる。", "note": "言葉を主語にする。"},
+        {"type": "分詞構文", "sentence": "Imagining a vivid scene, I make each expression easier to remember.", "translation": "鮮明な場面を想像することで、それぞれの表現を覚えやすくする。", "note": "想像を手段として示す。"},
+        {"type": "名詞化", "sentence": "The imagination of meaningful scenes strengthens memory for expressions.", "translation": "意味のある場面の想像は、表現の記憶を強める。", "note": "imagineをimaginationへ名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [{"original": "imagine", "alternatives": ["picture", "visualize", "envision"], "nuance": "pictureは具体的な像、visualizeは視覚化、envisionは将来像まで含み得る。"}],
+        "sentencePatterns": [{"type": "手段", "sentence": "By connecting a phrase with a scene, I create more paths back to it.", "translation": "フレーズを場面と結びつけることで、思い出す経路を増やす。"}],
+        "comparison": [{"sentence": "A phrase in a vivid scene is easier to recall than an isolated phrase.", "translation": "鮮明な場面の中のフレーズは、孤立したフレーズより思い出しやすい。"}],
+        "conditional": [{"sentence": "If I can picture the situation, the expression stays with me longer.", "translation": "状況を思い浮かべられれば、その表現はより長く記憶に残る。"}],
+        "emphasis": [{"sentence": "What makes the expression memorable is the scene around it.", "translation": "表現を記憶に残すのは、その周囲の場面だ。"}],
+        "compression": [{"sentence": "Give the words a scene.", "translation": "言葉に場面を与える。"}]
+      }
     },
-    "scores": {
-      "naturalness": 5,
-      "clarity": 5,
-      "emotionalDepth": 4,
-      "structuralControl": 5,
-      "flexibility": 5
-    }
+    "scores": {"naturalness": 8, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 8, "comment": "旧形式を現行表示形式へ移行し、理解層と拡張層が完全に表示されるようにした。"}
   }
 ]
