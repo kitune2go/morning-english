@@ -1,6 +1,6 @@
 # morning-english
 
-CEG+ v2.0 English learning cards and literary reading cards.
+CEG+ v2.1 English learning cards and literary reading cards.
 
 このリポジトリには、主に2系統のカードがあります。
 
@@ -13,31 +13,13 @@ CEG+ v2.0 English learning cards and literary reading cards.
 
 ## 1. 毎朝の英語にカードを追加する場合
 
-毎朝の英語は `cards-index.json` が読み込みファイル一覧です。
-
-例：
-
-```json
-{
-  "cards": [
-    "cards.json",
-    "cards-extra-4-6.json",
-    "cards-extra-20260503.json"
-  ]
-}
-```
-
-新しいカードJSONを作っただけでは反映されません。必ず `cards-index.json` に登録してください。
-
-### 追加手順
+毎朝の英語は `cards-index.json` が読み込みファイル一覧です。新しいカードJSONを作成しただけでは反映されません。必ず `cards-index.json` の `cards` 配列へ登録してください。
 
 ```txt
-1. 新しいカードJSONを作成する
-   例：cards-extra-20260504.json
-
-2. cards-index.json の cards 配列にファイル名を追加する
-
-3. GitHub Pagesで確認する
+1. cards-extra-YYYYMMDD.json を作成
+2. cards-index.json にファイル名を追加
+3. node scripts/validate-cards.mjs を実行
+4. GitHub Pagesで確認
 ```
 
 確認URL：
@@ -46,31 +28,11 @@ CEG+ v2.0 English learning cards and literary reading cards.
 https://kitune2go.github.io/morning-english/index.html?v=数字
 ```
 
-キャッシュ回避のため、確認時は `?v=28` のように数字を増やしてください。
-
 ---
 
 ## 2. 毎朝の英語カードの基本形式
 
-カードファイルは配列形式です。
-
-```json
-[
-  {
-    "_no": 104,
-    "_generatedAt": "2026-05-04T10:00:00",
-    "sentence": "I notice small changes that appear in daily life, which helps me understand myself more clearly than before.",
-    "phonetic": "アイ ノーティス スモール チェンジズ ...",
-    "japaneseTranslation": "私は日常生活に現れる小さな変化に気づいている。それが以前よりも自分自身を明確に理解する助けになっている。",
-    "theme": "自己理解",
-    "coreVerb": "notice",
-    "generateLayer": {},
-    "explainLayer": {},
-    "expandLayer": {},
-    "scores": {}
-  }
-]
-```
+カードファイルは配列形式です。新規カードは必ず [`card-template.json`](card-template.json) のキー・階層・型を維持してください。
 
 主要項目：
 
@@ -88,42 +50,7 @@ expandLayer
 scores
 ```
 
-`explainLayer.chunks` は以下の形式です。
-
-```json
-{
-  "text": "I notice",
-  "function": "行動",
-  "translation": "私は気づく"
-}
-```
-
-よく使う `function`：
-
-```txt
-行動
-対象
-修飾
-時間
-結果
-比較
-接続
-場所
-目的
-理由
-様態
-内容
-状態
-```
-
-
-### 厳格な生成規則
-
-毎朝の英語カードは、必ず [`card-template.json`](card-template.json) を原型として作成してください。既存カードを眺めて形式を推測したり、独自のキーを追加したりしないでください。
-
-#### JSON構造
-
-`generateLayer` の各Phaseは、以下のキーに固定します。
+`generateLayer` の各Phaseで使うキーは固定です。
 
 | Phase | 必須キー |
 |---|---|
@@ -133,30 +60,83 @@ scores
 | `phase4` | `sentence`, `translation`, `comparison` |
 | `phase5` | `sentence`, `translation`, `relativizer` |
 
-`phase5.relativizer` は `"that"` に固定します。`pattern` や `connector` など、テンプレートにないキーを `phase5` へ追加してはいけません。
+キー名は固定ですが、**that / which / than を毎回使う必要はありません**。
 
-#### 完成文の構造
+- `phase3.connector`：使わない場合は `"none"`
+- `phase4.comparison`：比較を使わない場合は `"none"`
+- `phase5.relativizer`：関係詞を使わない場合は `"none"`
+- 関係詞を使う場合は `that`, `which`, `who`, `whom`, `whose`, `where`, `when` のいずれか
 
-`sentence` は原則として、次の順序で組み立てます。
+### 完成文の生成原則
+
+完成文は `generateLayer.phase5.sentence` を先頭部分として使います。ただし、同じテンプレート構文を機械的に繰り返してはいけません。
+
+避ける例：
 
 ```txt
-Phase 5の本文（that節を含む）
-, which による結果節
-than を使った比較表現
+Phase 5のthat節
+, whichによる結果節
+thanによる比較
 ```
+
+を題材に関係なく全カードへ押し込むこと。
+
+推奨：
+
+- 題材に合う文型を選ぶ
+- 一文が重くなる場合は二文に分ける
+- 原則35語以内
+- 主語、動作主体、代名詞の参照、比較対象を明確にする
+- 日本語訳と意味・時制・因果・比較を一致させる
+- 専門分野では内容の正確さを優先する
+
+3枚を同時生成する場合、完成文の主構造を少なくとも2種類以上に分けてください。
 
 例：
 
 ```txt
-I notice small changes that appear in daily life,
-which helps me understand myself more clearly than before.
+1枚目：分詞・時間節
+2枚目：while / whereasによる対照
+3枚目：比較文 + 独立した補足文
 ```
 
-完成文の先頭部分は、末尾の句読点を除いて `generateLayer.phase5.sentence` と一致させてください。
+---
 
-#### 追加前後の検証
+## 3. 内容量と品質基準
 
-カードを作成したら、GitHubへ書き込む前に次を実行します。
+No.34以降の新規カードでは、最低限次を満たしてください。
+
+```txt
+explainLayer.chunks：4〜7件
+grammarPoints：5件以上
+errors：3件以上
+variants：3件以上
+causalExpansion：3件以上
+structuralShift：3件以上
+```
+
+`expressionNetwork` の以下はすべて空にできません。
+
+```txt
+vocabulary
+sentencePatterns
+comparison
+conditional
+emphasis
+compression
+```
+
+`errors` には文法・語法・語順・一致など、**英語上の誤り**だけを入れてください。内容上の反論や事実訂正を入れてはいけません。
+
+`scores.naturalness` と `scores.clarity` は8以上を合格条件とします。ただし、欠点がある案へ機械的に9〜10点を付けてはいけません。基準未達なら英文を修正してから再評価してください。
+
+カタカナ発音は綴りの機械変換を避け、別の英単語に聞こえる表記を残さないでください。
+
+---
+
+## 4. 検証
+
+追加前に実行：
 
 ```bash
 node scripts/validate-cards.mjs
@@ -165,46 +145,65 @@ node scripts/validate-cards.mjs
 検証内容：
 
 ```txt
-card-template.json との全階層のキー・型比較
-未定義キーと不足キーの検出
-Phase 5 の relativizer: "that"
-完成文の that節 / , which節 / than比較
+card-template.json との全階層のキー・型一致
+未定義キーと不足キー
+phase5.relativizer の許可値と本文対応
 Phase 5 と完成文の接続
-カード番号と読み込みファイルの重複
-スコア範囲とチャンク分類
-cards-index.json に登録された全カードのJSON解析
+No.34以降の内容量
+完成文の語数
+naturalness / clarity
+発音の既知の誤変換
+カード番号とファイルの重複
+表示番号の連番
+スコア範囲
+チャンク分類
 ```
 
-検証に失敗したカードは追加・登録しないでください。GitHub Actionsでも、カード関連ファイルの変更時に同じ検証が自動実行されます。
+検証スクリプトはJSON構造と機械的に確認できる品質だけを扱います。英文の自然さ、専門内容の正確さ、日本語訳との意味一致は、書き込み前に別工程で必ず監査してください。
 
 ---
 
-## 3. 文学版にカードを追加する場合
+## 5. 文学版にカードを追加する場合
 
-文学版は作品ごとに manifest を持ちます。
-
-『地下鉄のコンヴィヴィウム｜全文翻訳』の作品ID：
-
-```txt
-convivium-sentence
-```
-
-manifest：
-
-```txt
-literature/convivium-sentence/manifest.json
-```
+文学版は作品ごとにmanifestを持ちます。
 
 例：
 
-```json
-[
-  "literature/convivium-sentence/sentences-001-010.json",
-  "literature/convivium-sentence/sentences-011-020.json"
-]
+```txt
+literature/convivium-sentence/manifest.json
+literature/daily-essay-YYYYMMDD/manifest.json
 ```
 
-文学版も、新しいカードJSONを作っただけでは反映されません。必ず作品の `manifest.json` に登録してください。
+新しいカードJSONを作成しただけでは反映されません。作品の `manifest.json` と、必要に応じて `literature-works.json` へ登録してください。
+
+文学版カードの基本項目：
+
+```txt
+id
+sourceTitle
+workId
+mode
+chapter
+sentence
+title
+jp
+translationLiteral
+translationNatural
+imageUrl
+imageCaption
+imagePrompt
+chunks
+grammar
+translationNote
+readingPoint
+keywords
+```
+
+画像なしで運用する場合：
+
+```json
+"imageUrl": ""
+```
 
 確認URL：
 
@@ -214,161 +213,37 @@ https://kitune2go.github.io/morning-english/literature.html?v=数字
 
 ---
 
-## 4. 文学版カードの基本形式
-
-```json
-{
-  "id": "CV-S105",
-  "sourceTitle": "地下鉄のコンヴィヴィウム｜全文翻訳",
-  "workId": "convivium-sentence",
-  "mode": "sentence-translation",
-  "chapter": 105,
-  "sentence": 105,
-  "title": "カードタイトル",
-  "jp": "日本語原文。",
-  "translationLiteral": "Literal English translation.",
-  "translationNatural": "Natural English translation.",
-  "imageUrl": "",
-  "imageCaption": "後で画像を貼る場合の説明。",
-  "imagePrompt": "画像生成用プロンプト。",
-  "chunks": [
-    { "en": "Natural chunk", "ja": "自然なチャンク訳" }
-  ],
-  "grammar": [
-    "文法説明。"
-  ],
-  "translationNote": "翻訳上の注意。",
-  "readingPoint": "読解ポイント。",
-  "keywords": ["keyword"]
-}
-```
-
-画像なしで運用する場合は、以下のようにします。
-
-```json
-"imageUrl": ""
-```
-
-`imagePrompt` と `imageCaption` は残して構いません。後で画像を追加するときに使えます。
-
----
-
-## 5. 文学版の現在の機能
-
-`literature.html` には以下の機能があります。
-
-```txt
-作品選択
-Chapter選択
-全文カード表示
-英語読み上げ
-日本語読み上げ
-チャンクごとの EN / JA 読み上げ
-画像表示枠
-Image Prompt 折りたたみ表示
-作品ごとのしおり機能
-```
-
-しおりはブラウザの `localStorage` に保存されます。GitHub側のデータ変更は不要です。
-
----
-
 ## 6. よくある失敗
 
-### 失敗1：カードJSONだけ作って index / manifest に登録しない
+### カードJSONだけ作って索引へ登録しない
 
 ```txt
-毎朝の英語 → cards-index.json に登録
-文学版 → literature/作品ID/manifest.json に登録
+毎朝の英語 → cards-index.json
+文学版 → 作品のmanifest.jsonとliterature-works.json
 ```
 
-### 失敗2：GitHub Pagesのキャッシュ
+### that / which / than を全カードへ強制する
 
-確認URLは必ず数字を上げます。
+構造条件を満たしても、英文の意味関係や比較対象が崩れていれば不合格です。文型は題材から選びます。
 
-```txt
-index.html?v=29
-literature.html?v=29
-```
+### GitHub Pagesのキャッシュ
 
-### 失敗3：文学版と毎朝の英語を混同する
+確認URLの `v` を更新してください。
 
-```txt
-毎朝の英語：cards-index.json
-文学版：literature/作品ID/manifest.json
-```
-
-### 失敗4：カード形式が違う
-
-毎朝の英語：
+### 文学版と毎朝の英語を混同する
 
 ```txt
-sentence
-japaneseTranslation
-generateLayer
-explainLayer
-expandLayer
-scores
-```
-
-文学版：
-
-```txt
-jp
-translationLiteral
-translationNatural
-chunks
-grammar
-readingPoint
+毎朝の英語：sentence / generateLayer / explainLayer / expandLayer
+文学版：jp / translationLiteral / translationNatural / chunks / grammar
 ```
 
 ---
 
-## 7. 依頼テンプレート
-
-### 毎朝の英語に追加したい場合
-
-```txt
-kitune2go/morning-english の毎朝の英語にカードを3枚追加してください。
-新規ファイル cards-extra-YYYYMMDD.json を作成し、
-cards-index.json に必ず登録してください。
-確認URLは index.html?v=数字 で出してください。
-```
-
-### 文学版に追加したい場合
-
-```txt
-kitune2go/morning-english の文学版にカードを追加してください。
-作品IDは convivium-sentence です。
-新規ファイルを literature/convivium-sentence/ に作成し、
-literature/convivium-sentence/manifest.json に必ず登録してください。
-確認URLは literature.html?v=数字 で出してください。
-```
-
----
-
-## 8. 現在の安全運用方針
+## 7. 現在の安全運用方針
 
 ```txt
 画像は当面なし
 imageUrl は空文字
 imagePrompt は残す
 本文カードと音声・しおりを優先
-画像は後から WebP / JPG を VSCode でPushして差し替え
-```
-
----
-
-## 9. 確認用URL
-
-毎朝の英語：
-
-```txt
-https://kitune2go.github.io/morning-english/index.html?v=数字
-```
-
-文学版：
-
-```txt
-https://kitune2go.github.io/morning-english/literature.html?v=数字
 ```
