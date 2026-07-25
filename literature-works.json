@@ -25,5 +25,12 @@
     "description": "酷暑と季節語のずれ、専門語の定義、会話を再現可能な手順へ移す作業を通して、現実に届く言葉の条件を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260724/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260725",
+    "title": "体裁が身体を追い越すとき",
+    "description": "暑さの中の服装規範と、形式だけを測る検証の限界を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260725/manifest.json",
+    "mode": "essay-translation"
   }
 ]
