@@ -2,228 +2,221 @@
   {
     "_no": 34,
     "_generatedAt": "2026-07-24T02:00:00+09:00",
-    "sentence": "I study signals that appear as excited spins relax, which makes MRI easier to understand than memorizing isolated terms.",
-    "phonetic": "アイ スタディ シグナルズ ザット アピア アズ エクサイティッド スピンズ リラックス、ウィッチ メイクス エムアールアイ イージア トゥ アンダースタンド ザン メモライジング アイソレイティッド タームズ。",
-    "japaneseTranslation": "私は励起されたスピンが緩和するときに現れる信号を学ぶ。それによって、用語をばらばらに暗記するよりもMRIを理解しやすくなる。",
-    "theme": "MRIの励起と緩和",
-    "coreVerb": "study",
+    "sentence": "MRI detects signals produced as excited hydrogen nuclei return toward equilibrium. Understanding this sequence is more useful than memorizing isolated terms.",
+    "phonetic": "エムアールアイ ディテクツ シグナルズ プロデュースト アズ エクサイティッド ハイドロジェン ニュークリアイ リターン トゥワード イークイリブリアム。アンダースタンディング ディス シークウェンス イズ モア ユースフル ザン メモライジング アイソレイティッド タームズ。",
+    "japaneseTranslation": "MRIは、励起された水素原子核が平衡状態へ戻る過程で生じる信号を検出する。この一連の流れを理解する方が、個別の用語を暗記するより有用だ。",
+    "theme": "MRI信号の生まれ方",
+    "coreVerb": "detect",
     "generateLayer": {
       "phase1": {
-        "sentence": "I study.",
-        "translation": "私は学ぶ。"
+        "sentence": "MRI detects signals.",
+        "translation": "MRIは信号を検出する。"
       },
       "phase2": {
-        "sentence": "I study MRI signals today.",
-        "translation": "私は今日、MRIの信号を学ぶ。",
-        "addedChunks": "目的語(MRI signals)と時間(today)を追加"
+        "sentence": "MRI detects changing signals during scanning.",
+        "translation": "MRIは撮像中に変化する信号を検出する。",
+        "addedChunks": "対象(changing signals)と時間(during scanning)を追加"
       },
       "phase3": {
-        "sentence": "I study MRI signals because they reveal relaxation.",
-        "translation": "緩和を示すので、私はMRIの信号を学ぶ。",
+        "sentence": "MRI detects signals because magnetization changes over time.",
+        "translation": "磁化が時間とともに変化するため、MRIは信号を検出する。",
         "connector": "because"
       },
       "phase4": {
-        "sentence": "The process is easier to understand than isolated terms.",
-        "translation": "その過程は、ばらばらの用語よりも理解しやすい。",
-        "comparison": "easier ... than"
+        "sentence": "Understanding the sequence is more useful than memorizing isolated terms.",
+        "translation": "一連の流れを理解する方が、個別の用語を暗記するより有用だ。",
+        "comparison": "more useful than"
       },
       "phase5": {
-        "sentence": "I study signals that appear as excited spins relax.",
-        "translation": "私は励起されたスピンが緩和するときに現れる信号を学ぶ。",
-        "relativizer": "that"
+        "sentence": "MRI detects signals produced as excited hydrogen nuclei return toward equilibrium.",
+        "translation": "MRIは、励起された水素原子核が平衡状態へ戻る過程で生じる信号を検出する。",
+        "relativizer": "none"
       }
     },
     "explainLayer": {
       "chunks": [
         {
-          "text": "I study signals",
+          "text": "MRI detects signals",
           "function": "行動",
-          "translation": "私は信号を学ぶ"
+          "translation": "MRIは信号を検出する"
         },
         {
-          "text": "that appear",
+          "text": "produced as excited hydrogen nuclei",
           "function": "修飾",
-          "translation": "現れる"
+          "translation": "励起された水素原子核によって生じる"
         },
         {
-          "text": "as excited spins relax,",
+          "text": "return toward equilibrium",
           "function": "時間",
-          "translation": "励起されたスピンが緩和するときに"
+          "translation": "平衡状態へ戻る過程で"
         },
         {
-          "text": "which makes MRI easier to understand",
-          "function": "結果",
-          "translation": "それによってMRIを理解しやすくなる"
+          "text": "Understanding this sequence",
+          "function": "対象",
+          "translation": "この一連の流れを理解することは"
         },
         {
-          "text": "than memorizing isolated terms",
+          "text": "is more useful than memorizing isolated terms",
           "function": "比較",
-          "translation": "用語をばらばらに暗記するよりも"
+          "translation": "個別の用語を暗記するより有用だ"
         }
       ],
       "grammarPoints": [
         {
-          "category": "動詞",
-          "name": "study + 目的語",
-          "where": "study signals",
-          "explanation": "対象を体系的に学ぶことを表す。",
-          "rule": "study + 名詞"
-        },
-        {
-          "category": "関係詞",
-          "name": "関係代名詞 that",
-          "where": "signals that appear",
-          "explanation": "どの信号かをthat以下で限定する。",
-          "rule": "名詞 + that + 動詞句"
-        },
-        {
-          "category": "接続詞",
-          "name": "同時進行の as",
-          "where": "as excited spins relax",
-          "explanation": "スピンが緩和する過程と信号の出現が同時であることを示す。",
-          "rule": "as + 主語 + 動詞"
+          "category": "時制",
+          "name": "現在形",
+          "where": "MRI detects / nuclei return",
+          "explanation": "MRIの一般的な仕組みを現在形で説明する。",
+          "rule": "主語 + 現在形"
         },
         {
           "category": "分詞",
-          "name": "過去分詞の形容詞用法",
-          "where": "excited spins",
-          "explanation": "excitedがspinsの状態を説明する。",
-          "rule": "過去分詞 + 名詞"
+          "name": "過去分詞 produced",
+          "where": "signals produced as ...",
+          "explanation": "producedがsignalsを後ろから修飾する。",
+          "rule": "名詞 + 過去分詞句"
         },
         {
-          "category": "関係詞",
-          "name": "非制限用法 which",
-          "where": ", which makes MRI",
-          "explanation": "前の学び方がもたらす結果を補足する。",
-          "rule": "文, which + 動詞"
+          "category": "接続詞",
+          "name": "時間・進行の as",
+          "where": "as excited hydrogen nuclei return",
+          "explanation": "二つの過程が並行することを表す。",
+          "rule": "as + 主語 + 動詞"
         },
         {
-          "category": "使役",
-          "name": "make O C",
-          "where": "makes MRI easier",
-          "explanation": "MRIをより理解しやすい状態にする構文。",
-          "rule": "make + 目的語 + 形容詞"
+          "category": "語法",
+          "name": "return toward",
+          "where": "return toward equilibrium",
+          "explanation": "ある状態へ向かって戻ることを表す。",
+          "rule": "return toward + 名詞"
+        },
+        {
+          "category": "動名詞",
+          "name": "Understandingを主語にする",
+          "where": "Understanding this sequence",
+          "explanation": "理解する行為全体を主語として扱う。",
+          "rule": "動名詞句 + 動詞"
         },
         {
           "category": "比較",
-          "name": "比較級 than",
-          "where": "easier ... than memorizing",
-          "explanation": "過程を学ぶ方法と用語暗記を比較する。",
-          "rule": "比較級 + than + 動名詞句"
+          "name": "more useful than",
+          "where": "more useful than memorizing",
+          "explanation": "二つの学習方法の有用性を比較する。",
+          "rule": "more + 形容詞 + than + 動名詞句"
         }
       ],
       "errors": [
         {
-          "wrong": "I study signals that appears during relaxation.",
-          "correct": "I study signals that appear during relaxation.",
-          "why": "先行詞signalsが複数なのでappearに-sを付けない。"
+          "wrong": "MRI detect signals during scanning.",
+          "correct": "MRI detects signals during scanning.",
+          "why": "MRIは単数扱いなので動詞に-sを付ける。"
         },
         {
-          "wrong": "Excited spins relaxes over time.",
-          "correct": "Excited spins relax over time.",
-          "why": "主語spinsが複数なので動詞はrelaxを使う。"
+          "wrong": "The signals are produce as nuclei return.",
+          "correct": "The signals are produced as nuclei return.",
+          "why": "受動態では過去分詞producedを使う。"
         },
         {
-          "wrong": "MRI becomes more easier to understand.",
-          "correct": "MRI becomes easier to understand.",
-          "why": "比較級easierにmoreを重ねない。"
+          "wrong": "It is more useful than memorize terms.",
+          "correct": "It is more useful than memorizing terms.",
+          "why": "行為を比較するときは動名詞を使う。"
         }
       ],
       "variants": [
         {
-          "text": "MRI signals emerge while excited spins return toward equilibrium.",
-          "translation": "MRI信号は、励起されたスピンが平衡へ戻る間に生じる。"
+          "text": "MRI records changes in signal as hydrogen nuclei move back toward equilibrium.",
+          "translation": "MRIは、水素原子核が平衡状態へ戻る際の信号変化を記録する。"
         },
         {
-          "text": "Understanding the process is better than memorizing labels.",
-          "translation": "過程を理解する方が、名称を暗記するよりよい。"
+          "text": "The signal reflects a process, not a list of disconnected terms.",
+          "translation": "その信号は、ばらばらな用語ではなく一つの過程を反映する。"
         },
         {
-          "text": "Excitation and relaxation explain where the signal comes from.",
-          "translation": "励起と緩和は、信号がどこから生じるかを説明する。"
+          "text": "Following the sequence from excitation to detection makes MRI easier to understand.",
+          "translation": "励起から検出までの流れを追うと、MRIを理解しやすくなる。"
         }
       ],
-      "parseTree": "S(I) V(study) O(signals [Rel: that appear [Adv: as excited spins relax]]), [Rel: which makes O(MRI) C(easier to understand) than Gerund(memorizing isolated terms)]"
+      "parseTree": "S(MRI) V(detects) O(signals [PastPart: produced [Adv: as excited hydrogen nuclei return toward equilibrium]]). S(Gerund: Understanding this sequence) V(is) C(more useful) than Gerund(memorizing isolated terms)."
     },
     "expandLayer": {
       "causalExpansion": [
         {
-          "original": "because they reveal relaxation",
-          "expanded": "because the signal changes as spins return toward equilibrium",
-          "nuance": "信号と緩和過程の関係を具体化する。"
+          "original": "because magnetization changes over time",
+          "expanded": "because excited nuclei create a changing measurable signal as they move toward equilibrium",
+          "nuance": "信号が時間変化する理由を具体化する。"
         },
         {
-          "original": "because MRI depends on changing magnetization",
-          "expanded": "since excitation and relaxation alter the measurable signal",
-          "nuance": "測定可能な変化に焦点を当てる。"
+          "original": "because the sequence connects the terms",
+          "expanded": "since excitation, signal change, and detection belong to one continuous process",
+          "nuance": "用語間の連続性を強調する。"
         },
         {
-          "original": "because the process links the terms",
-          "expanded": "as the sequence connects excitation, relaxation, and detection",
-          "nuance": "個別用語を一つの流れとして示す。"
+          "original": "because isolated definitions can hide the mechanism",
+          "expanded": "as memorized labels do not show how one stage leads to the next",
+          "nuance": "暗記と機構理解の違いを示す。"
         }
       ],
       "structuralShift": [
         {
           "type": "受動態",
-          "sentence": "MRI signals are detected as excited spins relax.",
-          "translation": "MRI信号は、励起されたスピンが緩和するときに検出される。",
-          "note": "検出される信号を主語にする受動態。"
+          "sentence": "Changing signals are detected as excited hydrogen nuclei return toward equilibrium.",
+          "translation": "励起された水素原子核が平衡状態へ戻る過程で、変化する信号が検出される。",
+          "note": "信号を主語にする。"
         },
         {
           "type": "分詞構文",
-          "sentence": "Relaxing toward equilibrium, the spins produce a changing signal.",
-          "translation": "平衡へ向かって緩和しながら、スピンは変化する信号を生む。",
-          "note": "同時進行する過程を分詞構文で示す。"
+          "sentence": "Returning toward equilibrium, the excited nuclei contribute to a changing signal.",
+          "translation": "平衡状態へ戻りながら、励起された原子核は変化する信号に寄与する。",
+          "note": "戻る過程を前置する。"
         },
         {
           "type": "名詞化",
-          "sentence": "The relaxation of excited spins produces measurable signals.",
-          "translation": "励起されたスピンの緩和は、測定可能な信号を生む。",
-          "note": "relaxをrelaxationに名詞化する。"
+          "sentence": "The return of excited nuclei toward equilibrium produces a measurable change in signal.",
+          "translation": "励起された原子核が平衡状態へ戻ることは、測定可能な信号変化を生じさせる。",
+          "note": "returnを名詞として使う。"
         }
       ],
       "expressionNetwork": {
         "vocabulary": [
           {
-            "original": "relax",
+            "original": "detect",
             "alternatives": [
-              "return",
-              "recover",
-              "settle"
+              "record",
+              "measure",
+              "receive"
             ],
-            "nuance": "relaxは磁気共鳴の専門語、returnは平衡へ戻る動きを平易に表す。"
+            "nuance": "detectは捉える、recordは記録する、measureは測る、receiveは受信を強調する。"
           }
         ],
         "sentencePatterns": [
           {
             "type": "過程説明",
-            "sentence": "As the spins relax, the measurable signal changes.",
-            "translation": "スピンが緩和するにつれて、測定可能な信号が変化する。"
+            "sentence": "First the nuclei are excited; then the changing signal is detected as they return toward equilibrium.",
+            "translation": "まず原子核が励起され、その後、平衡状態へ戻る過程で信号が検出される。"
           }
         ],
         "comparison": [
           {
-            "sentence": "A process model is clearer than a list of technical terms.",
-            "translation": "過程のモデルは、専門用語の一覧より明確だ。"
+            "sentence": "A process-based explanation is clearer than a list of separate definitions.",
+            "translation": "過程に基づく説明は、別々の定義の一覧より明確だ。"
           }
         ],
         "conditional": [
           {
-            "sentence": "If the spins are not excited, the same relaxation signal does not appear.",
-            "translation": "スピンが励起されなければ、同じ緩和信号は現れない。"
+            "sentence": "If the signal does not change over time, the scanner has less information to distinguish tissues.",
+            "translation": "信号が時間とともに変化しなければ、組織を区別する情報は少なくなる。"
           }
         ],
         "emphasis": [
           {
-            "sentence": "What matters is how excitation leads to a detectable signal.",
-            "translation": "重要なのは、励起がどのように検出可能な信号へつながるかだ。"
+            "sentence": "What matters is the sequence from excitation to detectable change.",
+            "translation": "重要なのは、励起から検出可能な変化までの流れだ。"
           }
         ],
         "compression": [
           {
-            "sentence": "Excite, relax, detect.",
-            "translation": "励起し、緩和し、検出する。"
+            "sentence": "Excitation changes the signal; MRI detects the change.",
+            "translation": "励起が信号を変え、MRIがその変化を検出する。"
           }
         ]
       }
@@ -234,191 +227,184 @@
       "flexibility": 8,
       "focus": 9,
       "efficiency": 8,
-      "comment": "MRIの概念を過程として理解する英文。専門語を含むため難度はあるが、因果と比較は明確。"
+      "comment": "専門語を一文へ詰め込まず、機構説明と学習上の比較を二文に分けた。"
     }
   },
   {
     "_no": 35,
     "_generatedAt": "2026-07-24T02:00:00+09:00",
-    "sentence": "I distinguish facts that lower courts examine from legal questions, which makes appellate roles clearer than treating every court alike.",
-    "phonetic": "アイ ディスティングウィッシュ ファクツ ザット ロウアー コーツ イグザミン フロム リーガル クエスチョンズ、ウィッチ メイクス アペレイト ロウルズ クリアラー ザン トリーティング エヴリ コート アライク。",
-    "japaneseTranslation": "私は下級審が審理する事実と法律上の問題を区別する。それによって、すべての裁判所を同じように扱うよりも上訴審の役割が明確になる。",
+    "sentence": "Trial and appellate courts may both examine facts, while the Supreme Court mainly reviews questions of law.",
+    "phonetic": "トライアル アンド アペレイト コーツ メイ ボウス イグザミン ファクツ、ワイル ザ スプリーム コート メインリー レビューズ クエスチョンズ オブ ロー。",
+    "japaneseTranslation": "第一審と控訴審はいずれも事実を審理し得る一方、最高裁判所は主として法律上の問題を審査する。",
     "theme": "事実審と法律審",
-    "coreVerb": "distinguish",
+    "coreVerb": "examine",
     "generateLayer": {
       "phase1": {
-        "sentence": "I distinguish.",
-        "translation": "私は区別する。"
+        "sentence": "Courts examine issues.",
+        "translation": "裁判所は争点を審理する。"
       },
       "phase2": {
-        "sentence": "I distinguish facts from legal questions.",
-        "translation": "私は事実と法律上の問題を区別する。",
-        "addedChunks": "目的語(facts)と比較対象(from legal questions)を追加"
+        "sentence": "Courts examine facts and legal questions.",
+        "translation": "裁判所は事実と法律上の問題を審理する。",
+        "addedChunks": "目的語(facts and legal questions)を具体化"
       },
       "phase3": {
-        "sentence": "I distinguish them because courts have different roles.",
-        "translation": "裁判所には異なる役割があるので、私は両者を区別する。",
+        "sentence": "The scope differs because each level has a different role.",
+        "translation": "各審級の役割が異なるため、審理の範囲も異なる。",
         "connector": "because"
       },
       "phase4": {
-        "sentence": "Appellate roles are clearer than a single model suggests.",
-        "translation": "上訴審の役割は、単一のモデルが示すよりも明確だ。",
-        "comparison": "clearer ... than"
+        "sentence": "A layered explanation is more accurate than a simple two-part division.",
+        "translation": "審級ごとの説明は、単純な二分法より正確だ。",
+        "comparison": "more accurate than"
       },
       "phase5": {
-        "sentence": "I distinguish facts that lower courts examine from legal questions.",
-        "translation": "私は下級審が審理する事実と法律上の問題を区別する。",
-        "relativizer": "that"
+        "sentence": "Trial and appellate courts may both examine facts, while the Supreme Court mainly reviews questions of law.",
+        "translation": "第一審と控訴審はいずれも事実を審理し得る一方、最高裁判所は主として法律上の問題を審査する。",
+        "relativizer": "none"
       }
     },
     "explainLayer": {
       "chunks": [
         {
-          "text": "I distinguish facts",
-          "function": "行動",
-          "translation": "私は事実を区別する"
-        },
-        {
-          "text": "that lower courts examine",
-          "function": "修飾",
-          "translation": "下級審が審理する"
-        },
-        {
-          "text": "from legal questions,",
+          "text": "Trial and appellate courts",
           "function": "対象",
-          "translation": "法律上の問題と"
+          "translation": "第一審と控訴審は"
         },
         {
-          "text": "which makes appellate roles clearer",
-          "function": "結果",
-          "translation": "それによって上訴審の役割が明確になる"
+          "text": "may both examine facts",
+          "function": "行動",
+          "translation": "いずれも事実を審理し得る"
         },
         {
-          "text": "than treating every court alike",
-          "function": "比較",
-          "translation": "すべての裁判所を同じように扱うよりも"
+          "text": "while",
+          "function": "接続",
+          "translation": "その一方で"
+        },
+        {
+          "text": "the Supreme Court mainly reviews",
+          "function": "行動",
+          "translation": "最高裁判所は主として審査する"
+        },
+        {
+          "text": "questions of law",
+          "function": "対象",
+          "translation": "法律上の問題を"
         }
       ],
       "grammarPoints": [
         {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may both examine",
+          "explanation": "断定を避け、制度上あり得る範囲を表す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "副詞",
+          "name": "both",
+          "where": "may both examine",
+          "explanation": "二種類の裁判所の双方にexamineがかかる。",
+          "rule": "助動詞 + both + 動詞"
+        },
+        {
+          "category": "接続詞",
+          "name": "対照の while",
+          "where": "while the Supreme Court",
+          "explanation": "前半と後半の役割を対照する。",
+          "rule": "文, while + 文"
+        },
+        {
+          "category": "副詞",
+          "name": "mainly",
+          "where": "mainly reviews",
+          "explanation": "主な機能として述べ、例外を排除しない。",
+          "rule": "mainly + 動詞"
+        },
+        {
           "category": "語法",
-          "name": "distinguish A from B",
-          "where": "distinguish facts ... from legal questions",
-          "explanation": "二種類の争点を区別する定型表現。",
-          "rule": "distinguish A from B"
+          "name": "review questions of law",
+          "where": "reviews questions of law",
+          "explanation": "法律問題を審査する法的表現。",
+          "rule": "review + questions of law"
         },
         {
-          "category": "関係詞",
-          "name": "関係代名詞 that",
-          "where": "facts that lower courts examine",
-          "explanation": "どの事実かをthat以下で限定する。",
-          "rule": "名詞 + that + 主語 + 動詞"
-        },
-        {
-          "category": "語順",
-          "name": "関係節内のSVO",
-          "where": "lower courts examine",
-          "explanation": "lower courtsが主語、examineが動詞で、目的語はthatが兼ねる。",
-          "rule": "that + 主語 + 動詞"
-        },
-        {
-          "category": "関係詞",
-          "name": "非制限用法 which",
-          "where": ", which makes",
-          "explanation": "区別する行為全体が生む結果を説明する。",
-          "rule": "文, which + 動詞"
-        },
-        {
-          "category": "使役",
-          "name": "make O C",
-          "where": "makes appellate roles clearer",
-          "explanation": "役割をより明確な状態にする構文。",
-          "rule": "make + 目的語 + 形容詞"
-        },
-        {
-          "category": "比較",
-          "name": "比較級 than",
-          "where": "clearer than",
-          "explanation": "二つの理解方法の明確さを比較する。",
-          "rule": "比較級 + than"
-        },
-        {
-          "category": "動名詞",
-          "name": "動名詞句の比較対象",
-          "where": "than treating every court alike",
-          "explanation": "裁判所を同一視する考え方を名詞的に扱う。",
-          "rule": "than + 動名詞句"
+          "category": "並列",
+          "name": "trial and appellate courts",
+          "where": "Trial and appellate courts",
+          "explanation": "二種類の裁判所を共通の述語につなげる。",
+          "rule": "A and B + 複数動詞"
         }
       ],
       "errors": [
         {
-          "wrong": "I distinguish facts to legal questions.",
-          "correct": "I distinguish facts from legal questions.",
-          "why": "distinguish A from Bでは区別の相手にfromを使う。"
+          "wrong": "Trial and appellate courts examines facts.",
+          "correct": "Trial and appellate courts examine facts.",
+          "why": "複数主語なのでexamineを使う。"
         },
         {
-          "wrong": "Facts that lower courts examines may be disputed.",
-          "correct": "Facts that lower courts examine may be disputed.",
-          "why": "関係節の主語lower courtsが複数なのでexamineに-sを付けない。"
+          "wrong": "The Supreme Court mainly review legal questions.",
+          "correct": "The Supreme Court mainly reviews legal questions.",
+          "why": "単数主語なのでreviewsとする。"
         },
         {
-          "wrong": "This makes appellate roles more clearer.",
-          "correct": "This makes appellate roles clearer.",
-          "why": "比較級clearerにmoreを重ねない。"
+          "wrong": "Appellate courts may examine to facts.",
+          "correct": "Appellate courts may examine facts.",
+          "why": "examineは他動詞なのでtoを置かない。"
         }
       ],
       "variants": [
         {
-          "text": "Lower courts examine facts, while higher courts often focus on legal issues.",
-          "translation": "下級審は事実を審理し、上級審はしばしば法律上の問題に重点を置く。"
+          "text": "An appeal does not always repeat the first trial from the beginning.",
+          "translation": "控訴が常に第一審を最初から繰り返すわけではない。"
         },
         {
-          "text": "Not every appeal repeats the entire trial.",
-          "translation": "すべての上訴が裁判全体を繰り返すわけではない。"
+          "text": "The scope of review depends on the court and the type of appeal.",
+          "translation": "審査範囲は裁判所と上訴の種類によって異なる。"
         },
         {
-          "text": "The role of a court depends on the stage of review.",
-          "translation": "裁判所の役割は審査の段階によって異なる。"
+          "text": "The Supreme Court usually focuses on legal interpretation rather than fresh fact-finding.",
+          "translation": "最高裁判所は通常、新たな事実認定より法律解釈に重点を置く。"
         }
       ],
-      "parseTree": "S(I) V(distinguish) O(facts [Rel: that lower courts examine]) from O(legal questions), [Rel: which makes O(appellate roles) C(clearer) than Gerund(treating every court alike)]"
+      "parseTree": "S(Trial and appellate courts) Modal(may) Adv(both) V(examine) O(facts), Conj(while) S(the Supreme Court) Adv(mainly) V(reviews) O(questions of law)."
     },
     "expandLayer": {
       "causalExpansion": [
         {
-          "original": "because courts have different roles",
-          "expanded": "because each level reviews a different part of the case",
-          "nuance": "審級ごとの対象の違いを具体化する。"
+          "original": "because each level has a different role",
+          "expanded": "because the scope of review changes with the stage and type of appeal",
+          "nuance": "上訴類型も関係することを示す。"
         },
         {
-          "original": "because facts and law require different review",
-          "expanded": "since factual findings and legal interpretation follow different standards",
-          "nuance": "審査基準の違いを示す。"
+          "original": "because fact-finding and legal review are not a simple binary",
+          "expanded": "since appellate courts may reconsider facts while the Supreme Court generally concentrates on law",
+          "nuance": "単純な二分法を避ける。"
         },
         {
-          "original": "because appeals are not complete retrials",
-          "expanded": "as appellate review usually has a narrower purpose than an initial trial",
-          "nuance": "上訴審の範囲を比較で示す。"
+          "original": "because procedural rules limit review",
+          "expanded": "as procedural rules define which issues each court may reconsider",
+          "nuance": "審査範囲が手続法で定まる点を示す。"
         }
       ],
       "structuralShift": [
         {
           "type": "受動態",
-          "sentence": "Facts are examined by lower courts, while legal questions are reviewed on appeal.",
-          "translation": "事実は下級審で審理され、法律上の問題は上訴で審査される。",
-          "note": "各対象に焦点を置く受動態。"
+          "sentence": "Facts may be examined at both the trial and appellate levels, while legal questions are mainly reviewed by the Supreme Court.",
+          "translation": "事実は第一審と控訴審の双方で審理され得る一方、法律上の問題は主として最高裁判所で審査される。",
+          "note": "審理対象を主語にする。"
         },
         {
           "type": "分詞構文",
-          "sentence": "Distinguishing facts from law, I can see why appellate roles differ.",
-          "translation": "事実と法律を区別することで、上訴審の役割が異なる理由が分かる。",
-          "note": "理解の方法を分詞構文で示す。"
+          "sentence": "Reviewing the system by level, we can avoid a false division between fact courts and law courts.",
+          "translation": "制度を審級ごとに見ることで、事実裁判所と法律裁判所という誤った二分を避けられる。",
+          "note": "分析方法を前置する。"
         },
         {
           "type": "名詞化",
-          "sentence": "The distinction between factual and legal review clarifies the court system.",
-          "translation": "事実審査と法律審査の区別は裁判制度を明確にする。",
-          "note": "distinguishをdistinctionに名詞化する。"
+          "sentence": "The examination of facts may continue on appeal, but legal review becomes central in the Supreme Court.",
+          "translation": "事実の審理は控訴審でも続き得るが、最高裁では法律審査が中心になる。",
+          "note": "examineとreviewを名詞化する。"
         }
       ],
       "expressionNetwork": {
@@ -430,276 +416,38 @@
               "consider",
               "determine"
             ],
-            "nuance": "examineは詳しく調べる、reviewは上級審の見直し、determineは認定する意味が強い。"
+            "nuance": "examineは詳しく審理する、reviewは見直す、determineは認定する意味が強い。"
           }
         ],
         "sentencePatterns": [
           {
             "type": "対照",
-            "sentence": "Lower courts examine evidence, whereas appellate courts review narrower issues.",
-            "translation": "下級審は証拠を審理する一方、上訴裁判所はより限定された問題を審査する。"
+            "sentence": "Appellate courts may revisit facts, whereas the Supreme Court generally concentrates on legal issues.",
+            "translation": "控訴審は事実を再検討し得る一方、最高裁は一般に法律問題へ集中する。"
           }
         ],
         "comparison": [
           {
-            "sentence": "A layered model is clearer than treating all courts as identical.",
-            "translation": "階層的なモデルは、すべての裁判所を同一視するより明確だ。"
+            "sentence": "A level-by-level account is more accurate than a simple fact-versus-law division.",
+            "translation": "審級ごとの説明は、事実対法律という単純な二分より正確だ。"
           }
         ],
         "conditional": [
           {
-            "sentence": "If the issue is purely legal, the focus of review changes.",
-            "translation": "問題が純粋に法律上のものなら、審査の焦点は変わる。"
+            "sentence": "If a dispute concerns only legal interpretation, the focus of review narrows.",
+            "translation": "争いが法律解釈だけに関するなら、審査の焦点は狭くなる。"
           }
         ],
         "emphasis": [
           {
-            "sentence": "What matters is whether the dispute concerns facts or law.",
-            "translation": "重要なのは、争いが事実に関するのか法律に関するのかだ。"
+            "sentence": "What matters is the scope of review allowed at each stage.",
+            "translation": "重要なのは、各段階で認められる審査範囲だ。"
           }
         ],
         "compression": [
           {
-            "sentence": "Facts below, law on review.",
-            "translation": "下級審では事実、上級審では法律を審査する。"
-          }
-        ]
-      }
-    },
-    "scores": {
-      "naturalness": 9,
-      "clarity": 9,
-      "flexibility": 8,
-      "focus": 9,
-      "efficiency": 8,
-      "comment": "審級の役割を簡潔に区別する教材。法制度には例外があるため一般化を控えた表現にしている。"
-    }
-  },
-  {
-    "_no": 36,
-    "_generatedAt": "2026-07-24T02:00:00+09:00",
-    "sentence": "Young people use platforms that older developers built, which shows that the creator base changes more slowly than media windows do.",
-    "phonetic": "ヤング ピープル ユーズ プラットフォームズ ザット オウルダー ディヴェロパーズ ビルト、ウィッチ ショウズ ザット ザ クリエイター ベイス チェンジズ モア スロウリー ザン メディア ウィンドウズ ドゥ。",
-    "japaneseTranslation": "若者は年上の開発者たちが作ったプラットフォームを使う。このことは、作り手の構成がメディアの窓口よりもゆっくり変化することを示す。",
-    "theme": "若者メディアの窓と作り手",
-    "coreVerb": "use",
-    "generateLayer": {
-      "phase1": {
-        "sentence": "Young people use platforms.",
-        "translation": "若者はプラットフォームを使う。"
-      },
-      "phase2": {
-        "sentence": "Young people use new platforms every day.",
-        "translation": "若者は毎日、新しいプラットフォームを使う。",
-        "addedChunks": "形容詞(new)と時間(every day)を追加"
-      },
-      "phase3": {
-        "sentence": "Young people use new platforms because media habits change.",
-        "translation": "メディア習慣が変わるので、若者は新しいプラットフォームを使う。",
-        "connector": "because"
-      },
-      "phase4": {
-        "sentence": "The creator base changes more slowly than media windows do.",
-        "translation": "作り手の構成は、メディアの窓口よりもゆっくり変化する。",
-        "comparison": "more slowly than ... do"
-      },
-      "phase5": {
-        "sentence": "Young people use platforms that older developers built.",
-        "translation": "若者は年上の開発者たちが作ったプラットフォームを使う。",
-        "relativizer": "that"
-      }
-    },
-    "explainLayer": {
-      "chunks": [
-        {
-          "text": "Young people use platforms",
-          "function": "行動",
-          "translation": "若者はプラットフォームを使う"
-        },
-        {
-          "text": "that older developers built,",
-          "function": "修飾",
-          "translation": "年上の開発者たちが作った"
-        },
-        {
-          "text": "which shows",
-          "function": "結果",
-          "translation": "このことは示す"
-        },
-        {
-          "text": "that the creator base changes more slowly",
-          "function": "内容",
-          "translation": "作り手の構成がよりゆっくり変化することを"
-        },
-        {
-          "text": "than media windows do",
-          "function": "比較",
-          "translation": "メディアの窓口の変化よりも"
-        }
-      ],
-      "grammarPoints": [
-        {
-          "category": "語法",
-          "name": "peopleの複数扱い",
-          "where": "Young people use",
-          "explanation": "peopleは複数名詞なので動詞はuseになる。",
-          "rule": "people + 動詞原形"
-        },
-        {
-          "category": "関係詞",
-          "name": "目的格のthat",
-          "where": "platforms that older developers built",
-          "explanation": "thatはbuiltの目的語で、platformsを説明する。",
-          "rule": "名詞 + that + 主語 + 動詞"
-        },
-        {
-          "category": "時制",
-          "name": "過去形 built",
-          "where": "developers built",
-          "explanation": "すでに作られたプラットフォームを過去形で表す。",
-          "rule": "buildの過去形 = built"
-        },
-        {
-          "category": "関係詞",
-          "name": "非制限用法 which",
-          "where": ", which shows",
-          "explanation": "前の文全体から導かれる意味を補足する。",
-          "rule": "文, which + 動詞"
-        },
-        {
-          "category": "名詞節",
-          "name": "show that節",
-          "where": "shows that the creator base changes",
-          "explanation": "何を示すのかをthat節で述べる。",
-          "rule": "show + that + 文"
-        },
-        {
-          "category": "副詞比較",
-          "name": "more slowly than",
-          "where": "more slowly than",
-          "explanation": "変化の速度を作り手とメディアの間で比較する。",
-          "rule": "more + 副詞 + than"
-        },
-        {
-          "category": "代動詞",
-          "name": "比較節のdo",
-          "where": "than media windows do",
-          "explanation": "changeの繰り返しをdoで避ける。",
-          "rule": "than + 主語 + do"
-        }
-      ],
-      "errors": [
-        {
-          "wrong": "Young people uses new platforms.",
-          "correct": "Young people use new platforms.",
-          "why": "peopleは複数名詞なのでuseに-sを付けない。"
-        },
-        {
-          "wrong": "Platforms that older developers builded are popular.",
-          "correct": "Platforms that older developers built are popular.",
-          "why": "buildの過去形は不規則変化のbuilt。"
-        },
-        {
-          "wrong": "The creator base change more slower than media do.",
-          "correct": "The creator base changes more slowly than media do.",
-          "why": "単数主語baseに合わせてchangesとし、動詞を修飾する副詞比較more slowlyを使う。"
-        }
-      ],
-      "variants": [
-        {
-          "text": "A new screen does not always mean a new generation of creators.",
-          "translation": "新しい画面が、必ずしも新しい世代の作り手を意味するわけではない。"
-        },
-        {
-          "text": "Media habits can change faster than ownership and design teams.",
-          "translation": "メディア習慣は、所有者や設計チームより速く変わり得る。"
-        },
-        {
-          "text": "The audience may be young even when the platform is built by older adults.",
-          "translation": "プラットフォームが年上の大人によって作られていても、利用者は若い場合がある。"
-        }
-      ],
-      "parseTree": "S(Young people) V(use) O(platforms [Rel: that older developers built]), [Rel: which shows O(that the creator base changes more slowly than media windows do)]"
-    },
-    "expandLayer": {
-      "causalExpansion": [
-        {
-          "original": "because media habits change",
-          "expanded": "because audiences can move to new platforms faster than institutions change",
-          "nuance": "利用者と組織の変化速度を対比する。"
-        },
-        {
-          "original": "because a new window can hide old ownership",
-          "expanded": "since a fresh interface may still be designed by an older generation",
-          "nuance": "見た目と作り手の世代を分ける。"
-        },
-        {
-          "original": "because technology and culture move differently",
-          "expanded": "as technical formats often change before creative authority does",
-          "nuance": "技術形式と権限構造の時間差を示す。"
-        }
-      ],
-      "structuralShift": [
-        {
-          "type": "受動態",
-          "sentence": "Many youth platforms are built by older developers.",
-          "translation": "多くの若者向けプラットフォームは、年上の開発者によって作られている。",
-          "note": "作られる側を主語にする受動態。"
-        },
-        {
-          "type": "分詞構文",
-          "sentence": "Using new platforms, young people may still enter spaces designed by older adults.",
-          "translation": "新しいプラットフォームを使いながらも、若者は年上の大人が設計した空間に入ることがある。",
-          "note": "利用と設計主体のずれを分詞構文で示す。"
-        },
-        {
-          "type": "名詞化",
-          "sentence": "The rapid change of media windows can hide slower generational change.",
-          "translation": "メディアの窓口の急速な変化は、より遅い世代交代を覆い隠し得る。",
-          "note": "changeを名詞化して二つの速度を比較する。"
-        }
-      ],
-      "expressionNetwork": {
-        "vocabulary": [
-          {
-            "original": "platform",
-            "alternatives": [
-              "medium",
-              "channel",
-              "interface"
-            ],
-            "nuance": "platformはサービス基盤、channelは情報経路、interfaceは接触面を強調する。"
-          }
-        ],
-        "sentencePatterns": [
-          {
-            "type": "譲歩",
-            "sentence": "Although the platform looks new, its creators may belong to an older generation.",
-            "translation": "そのプラットフォームが新しく見えても、作り手は上の世代かもしれない。"
-          }
-        ],
-        "comparison": [
-          {
-            "sentence": "Interfaces change faster than creative institutions do.",
-            "translation": "インターフェースは創作組織より速く変わる。"
-          }
-        ],
-        "conditional": [
-          {
-            "sentence": "If only the screen changes, media power may remain in the same hands.",
-            "translation": "画面だけが変わるなら、メディアの力は同じ人々の手に残るかもしれない。"
-          }
-        ],
-        "emphasis": [
-          {
-            "sentence": "What changed most was the window, not necessarily the creator.",
-            "translation": "最も変わったのは窓口であり、必ずしも作り手ではない。"
-          }
-        ],
-        "compression": [
-          {
-            "sentence": "New window, older builders.",
-            "translation": "新しい窓口、年上の作り手。"
+            "sentence": "Facts may continue on appeal; law dominates at the top.",
+            "translation": "事実審理は控訴でも続き得るが、最上級審では法律が中心になる。"
           }
         ]
       }
@@ -708,9 +456,241 @@
       "naturalness": 9,
       "clarity": 9,
       "flexibility": 9,
-      "focus": 8,
-      "efficiency": 8,
-      "comment": "メディアの見た目と制作主体の時間差を明確に表す。media windowsは比喩的だが、creator baseにより主体の構成変化は明確。"
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "下級審と上級審を単純に事実・法律へ二分せず、審級構造を慎重に表現した。"
+    }
+  },
+  {
+    "_no": 36,
+    "_generatedAt": "2026-07-24T02:00:00+09:00",
+    "sentence": "Young audiences move to new platforms faster than ownership and production structures change. A new interface does not automatically create new makers.",
+    "phonetic": "ヤング オーディエンシズ ムーヴ トゥ ニュー プラットフォームズ ファスター ザン オウナーシップ アンド プロダクション ストラクチャーズ チェインジ。ア ニュー インターフェイス ダズ ノット オートマティカリー クリエイト ニュー メイカーズ。",
+    "japaneseTranslation": "若い利用者は、所有や制作の構造が変わるより速く新しいプラットフォームへ移る。新しい接触画面が、作り手まで自動的に新しくするわけではない。",
+    "theme": "若者メディアの窓と作り手",
+    "coreVerb": "move",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Audiences move.",
+        "translation": "利用者は移動する。"
+      },
+      "phase2": {
+        "sentence": "Young audiences move to new platforms.",
+        "translation": "若い利用者は新しいプラットフォームへ移る。",
+        "addedChunks": "主語(Young audiences)と方向(to new platforms)を追加"
+      },
+      "phase3": {
+        "sentence": "Young audiences move because media habits change quickly.",
+        "translation": "メディア習慣が速く変わるため、若い利用者は移動する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Audiences move faster than ownership structures change.",
+        "translation": "利用者は、所有構造が変化するより速く移動する。",
+        "comparison": "faster than"
+      },
+      "phase5": {
+        "sentence": "Young audiences move to new platforms faster than ownership and production structures change.",
+        "translation": "若い利用者は、所有や制作の構造が変わるより速く新しいプラットフォームへ移る。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Young audiences move",
+          "function": "行動",
+          "translation": "若い利用者は移る"
+        },
+        {
+          "text": "to new platforms",
+          "function": "場所",
+          "translation": "新しいプラットフォームへ"
+        },
+        {
+          "text": "faster than",
+          "function": "比較",
+          "translation": "〜より速く"
+        },
+        {
+          "text": "ownership and production structures change",
+          "function": "対象",
+          "translation": "所有や制作の構造が変わるより"
+        },
+        {
+          "text": "A new interface does not automatically create new makers",
+          "function": "結果",
+          "translation": "新しい接触画面が作り手まで自動的に新しくするわけではない"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "比較",
+          "name": "faster than",
+          "where": "faster than ownership and production structures change",
+          "explanation": "二種類の変化速度を比較する。",
+          "rule": "比較級 + than + 主語 + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "move to",
+          "where": "move to new platforms",
+          "explanation": "別のサービスへ移ることを表す。",
+          "rule": "move to + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "ownership and production structures",
+          "where": "ownership and production structures",
+          "explanation": "所有構造と制作構造をandでまとめる。",
+          "rule": "A and B"
+        },
+        {
+          "category": "否定",
+          "name": "does not + 動詞原形",
+          "where": "does not automatically create",
+          "explanation": "現在形の否定を作る。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "副詞",
+          "name": "automatically",
+          "where": "automatically create",
+          "explanation": "自動的に成立するという推論を否定する。",
+          "rule": "副詞 + 動詞"
+        },
+        {
+          "category": "語彙",
+          "name": "interface",
+          "where": "A new interface",
+          "explanation": "媒体に接する画面や操作面を表す。",
+          "rule": "冠詞 + 形容詞 + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Young audiences moves to new platforms.",
+          "correct": "Young audiences move to new platforms.",
+          "why": "audiencesは複数なのでmoveを使う。"
+        },
+        {
+          "wrong": "Ownership structures changes slowly.",
+          "correct": "Ownership structures change slowly.",
+          "why": "structuresは複数なのでchangeを使う。"
+        },
+        {
+          "wrong": "A new interface does not automatically creates new makers.",
+          "correct": "A new interface does not automatically create new makers.",
+          "why": "does notの後は動詞原形を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A young audience does not guarantee a young production structure.",
+          "translation": "若い利用者層が、若い制作構造を保証するわけではない。"
+        },
+        {
+          "text": "Interfaces can change quickly while ownership remains stable.",
+          "translation": "所有構造が安定したままでも、インターフェースは速く変わり得る。"
+        },
+        {
+          "text": "The window may be new even when the institution behind it is old.",
+          "translation": "背後の組織が古くても、窓口だけは新しい場合がある。"
+        }
+      ],
+      "parseTree": "S(Young audiences) V(move) Adv(to new platforms) Comparative(faster than S(ownership and production structures) V(change)). S(A new interface) Aux(does not) Adv(automatically) V(create) O(new makers)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because media habits change quickly",
+          "expanded": "because users can adopt a new service before institutions reorganize themselves",
+          "nuance": "利用者と組織の時間差を示す。"
+        },
+        {
+          "original": "because interfaces are easier to replace than ownership structures",
+          "expanded": "since redesigning a screen is faster than changing who controls production",
+          "nuance": "表層と支配構造の変更コストを対比する。"
+        },
+        {
+          "original": "because audience identity and producer identity are separate",
+          "expanded": "as the age of users does not determine who designs the platform",
+          "nuance": "利用者と作り手を別集団として扱う。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "New platforms may be adopted by young audiences before ownership and production structures are changed.",
+          "translation": "所有や制作の構造が変わる前に、新しいプラットフォームが若い利用者に採用されることがある。",
+          "note": "媒体を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Moving quickly between platforms, young audiences can leave slower institutions behind.",
+          "translation": "プラットフォーム間を速く移動することで、若い利用者は変化の遅い組織を置き去りにできる。",
+          "note": "利用者の移動を前置する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Rapid audience migration does not guarantee generational change in ownership or production.",
+          "translation": "利用者の急速な移動は、所有や制作における世代交代を保証しない。",
+          "note": "moveをmigrationとして名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "platform",
+            "alternatives": [
+              "service",
+              "medium",
+              "channel",
+              "interface"
+            ],
+            "nuance": "platformは基盤、mediumは媒体、channelは経路、interfaceは接触面を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "譲歩",
+            "sentence": "Although the interface looks new, the institution behind it may remain unchanged.",
+            "translation": "インターフェースが新しく見えても、背後の組織は変わらないことがある。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Audience habits change faster than ownership structures do.",
+            "translation": "利用者の習慣は、所有構造より速く変化する。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If only the interface changes, control may remain in the same hands.",
+            "translation": "インターフェースだけが変わるなら、支配権は同じ人々の手に残り得る。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What changed first was the window, not necessarily the people behind it.",
+            "translation": "最初に変わったのは窓口であって、必ずしも背後の人々ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "New screen, old structure.",
+            "translation": "新しい画面、古い構造。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "media windowsやcreator baseを避け、利用者と制度構造の変化速度を直接比較した。"
     }
   }
 ]
