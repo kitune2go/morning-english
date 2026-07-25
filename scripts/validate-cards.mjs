@@ -8,6 +8,18 @@ const allowedChunkFunctions = new Set([
   '行動', '対象', '修飾', '時間', '結果', '比較', '接続',
   '場所', '目的', '理由', '様態', '内容', '状態'
 ]);
+const allowedRelativizers = new Set([
+  'that', 'which', 'who', 'whom', 'whose', 'where', 'when', 'none'
+]);
+const requiredExpressionGroups = [
+  'vocabulary', 'sentencePatterns', 'comparison',
+  'conditional', 'emphasis', 'compression'
+];
+const suspiciousPhonetics = [
+  ['コピーッド', 'copied の誤読候補'],
+  ['リライイング', 'relying の誤読候補'],
+  ['ケアフリー', 'carefully と carefree の混同候補']
+];
 
 async function readJson(relativePath) {
   try {
@@ -40,7 +52,9 @@ function validateShape(template, value, location) {
       return;
     }
     if (template.length > 0) {
-      value.forEach((item, index) => validateShape(template[0], item, location + '[' + index + ']'));
+      value.forEach((item, index) =>
+        validateShape(template[0], item, location + '[' + index + ']')
+      );
     }
     return;
   }
@@ -55,8 +69,22 @@ function validateShape(template, value, location) {
     if (extra.length > 0) errors.push(location + ': 未定義キー: ' + extra.join(', '));
 
     expectedKeys.forEach((key) => {
-      if (Object.hasOwn(value, key)) validateShape(template[key], value[key], location + '.' + key);
+      if (Object.hasOwn(value, key)) {
+        validateShape(template[key], value[key], location + '.' + key);
+      }
     });
+  }
+}
+
+function wordCount(text) {
+  return String(text).trim().split(/\s+/).filter(Boolean).length;
+}
+
+function requireArrayLength(value, min, max, location) {
+  if (!Array.isArray(value)) return;
+  if (value.length < min || (max !== null && value.length > max)) {
+    const range = max === null ? min + '件以上' : min + '〜' + max + '件';
+    errors.push(location + ': ' + range + 'にしてください（実際: ' + value.length + '件）');
   }
 }
 
@@ -68,26 +96,32 @@ function validateCard(card, location) {
     errors.push(location + '._generatedAt: 有効な日時文字列にしてください');
   }
 
-  const completed = card.sentence || '';
-  if (!/\bthat\b/i.test(completed)) {
-    errors.push(location + '.sentence: that節が必要です');
-  }
-  if (!/,\s*which\b/i.test(completed)) {
-    errors.push(location + '.sentence: 「, which」による結果節が必要です');
-  }
-  if (!/\bthan\b/i.test(completed)) {
-    errors.push(location + '.sentence: thanを使った比較表現が必要です');
-  }
+  const completed = String(card.sentence || '').trim();
+  if (!completed) errors.push(location + '.sentence: 空にできません');
 
   const phase5 = card.generateLayer && card.generateLayer.phase5;
-  if (!phase5 || phase5.relativizer !== 'that') {
-    errors.push(location + '.generateLayer.phase5.relativizer: "that" に固定してください');
+  const relativizer = phase5 && String(phase5.relativizer || '').toLowerCase();
+  if (!phase5 || !allowedRelativizers.has(relativizer)) {
+    errors.push(
+      location +
+      '.generateLayer.phase5.relativizer: that / which / who / whom / whose / where / when / none のいずれかにしてください'
+    );
   }
-  if (!phase5 || !/\bthat\b/i.test(phase5.sentence || '')) {
-    errors.push(location + '.generateLayer.phase5.sentence: that節が必要です');
+  if (phase5 && relativizer !== 'none') {
+    const pattern = new RegExp('\\b' + relativizer + '\\b', 'i');
+    if (!pattern.test(String(phase5.sentence || ''))) {
+      errors.push(
+        location +
+        '.generateLayer.phase5.sentence: relativizer "' +
+        relativizer +
+        '" が文中にありません'
+      );
+    }
   }
 
-  const phase5Base = phase5 ? String(phase5.sentence || '').replace(/[.!?]\s*$/, '') : '';
+  const phase5Base = phase5
+    ? String(phase5.sentence || '').replace(/[.!?]\s*$/, '')
+    : '';
   if (phase5Base && !completed.startsWith(phase5Base)) {
     errors.push(location + '.sentence: Phase 5の文を先頭部分として完成文を組み立ててください');
   }
@@ -104,7 +138,43 @@ function validateCard(card, location) {
   if (Array.isArray(chunks)) {
     chunks.forEach((chunk, index) => {
       if (!allowedChunkFunctions.has(chunk.function)) {
-        errors.push(location + '.explainLayer.chunks[' + index + '].function: 未定義の分類です: ' + chunk.function);
+        errors.push(
+          location +
+          '.explainLayer.chunks[' +
+          index +
+          '].function: 未定義の分類です: ' +
+          chunk.function
+        );
+      }
+    });
+  }
+
+  // No.34以降は、自動生成カードの内容量と最低品質も検査する。
+  if (Number.isInteger(card._no) && card._no >= 34) {
+    if (wordCount(completed) > 35) {
+      errors.push(location + '.sentence: 35語以内を目安に簡潔化してください');
+    }
+    if (scores.naturalness < 8 || scores.clarity < 8) {
+      errors.push(location + '.scores: naturalness と clarity は8以上にしてください');
+    }
+
+    requireArrayLength(card.explainLayer && card.explainLayer.chunks, 4, 7, location + '.explainLayer.chunks');
+    requireArrayLength(card.explainLayer && card.explainLayer.grammarPoints, 5, null, location + '.explainLayer.grammarPoints');
+    requireArrayLength(card.explainLayer && card.explainLayer.errors, 3, null, location + '.explainLayer.errors');
+    requireArrayLength(card.explainLayer && card.explainLayer.variants, 3, null, location + '.explainLayer.variants');
+    requireArrayLength(card.expandLayer && card.expandLayer.causalExpansion, 3, null, location + '.expandLayer.causalExpansion');
+    requireArrayLength(card.expandLayer && card.expandLayer.structuralShift, 3, null, location + '.expandLayer.structuralShift');
+
+    const network = card.expandLayer && card.expandLayer.expressionNetwork;
+    requiredExpressionGroups.forEach((key) => {
+      if (!network || !Array.isArray(network[key]) || network[key].length === 0) {
+        errors.push(location + '.expandLayer.expressionNetwork.' + key + ': 空にできません');
+      }
+    });
+
+    suspiciousPhonetics.forEach(([pattern, reason]) => {
+      if (String(card.phonetic || '').includes(pattern)) {
+        errors.push(location + '.phonetic: ' + reason + '（' + pattern + '）');
       }
     });
   }
@@ -193,12 +263,21 @@ const orderedDisplayNumbers = [...displayNumbers].sort((a, b) => a - b);
 orderedDisplayNumbers.forEach((number, index) => {
   const expectedNumber = index + 1;
   if (number !== expectedNumber) {
-    errors.push('クライアント表示番号: 連番にしてください（期待: ' + expectedNumber + ', 実際: ' + number + '）');
+    errors.push(
+      'クライアント表示番号: 連番にしてください（期待: ' +
+      expectedNumber +
+      ', 実際: ' +
+      number +
+      '）'
+    );
   }
 });
 
 if (errors.length > 0) {
-  console.error('カード検証に失敗しました:\n\n' + errors.map((error) => '- ' + error).join('\n'));
+  console.error(
+    'カード検証に失敗しました:\n\n' +
+    errors.map((error) => '- ' + error).join('\n')
+  );
   process.exit(1);
 }
 
