@@ -1,0 +1,240 @@
+[
+  {
+    "_no": 37,
+    "_generatedAt": "2026-07-25T02:00:00+09:00",
+    "sentence": "Workplaces should prioritize heat safety when formal clothing increases physical risk. A mocking label cannot justify rules that endanger workers.",
+    "phonetic": "ワークプレイシズ シュッド プライオリタイズ ヒート セイフティ ウェン フォーマル クロウズィング インクリーシズ フィズィカル リスク。ア モッキング レイベル キャナット ジャスティファイ ルールズ ザット エンデインジャー ワーカーズ。",
+    "japaneseTranslation": "職場は、フォーマルな服装が身体的な危険を増すとき、暑さへの安全対策を優先すべきだ。揶揄するような呼び名は、労働者を危険にさらす規則を正当化できない。",
+    "theme": "酷暑下の服装と安全",
+    "coreVerb": "prioritize",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Workplaces should prioritize safety.",
+        "translation": "職場は安全を優先すべきだ。"
+      },
+      "phase2": {
+        "sentence": "Workplaces should prioritize heat safety.",
+        "translation": "職場は暑さへの安全対策を優先すべきだ。",
+        "addedChunks": "heatを加えて安全対策の対象を具体化"
+      },
+      "phase3": {
+        "sentence": "Workplaces should prioritize heat safety because extreme heat can harm workers.",
+        "translation": "酷暑は労働者に害を与え得るので、職場は暑さへの安全対策を優先すべきだ。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Heat safety is more important than a rigid dress code.",
+        "translation": "暑さへの安全対策は、硬直した服装規定より重要だ。",
+        "comparison": "more important than"
+      },
+      "phase5": {
+        "sentence": "Workplaces should prioritize heat safety when formal clothing increases physical risk.",
+        "translation": "職場は、フォーマルな服装が身体的な危険を増すとき、暑さへの安全対策を優先すべきだ。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Workplaces should prioritize",
+          "function": "行動",
+          "translation": "職場は優先すべきだ"
+        },
+        {
+          "text": "heat safety",
+          "function": "対象",
+          "translation": "暑さへの安全対策を"
+        },
+        {
+          "text": "when formal clothing increases physical risk.",
+          "function": "時間",
+          "translation": "フォーマルな服装が身体的な危険を増すとき"
+        },
+        {
+          "text": "A mocking label cannot justify rules",
+          "function": "結果",
+          "translation": "揶揄するような呼び名は規則を正当化できない"
+        },
+        {
+          "text": "that endanger workers.",
+          "function": "修飾",
+          "translation": "労働者を危険にさらす"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "提案・義務のshould",
+          "where": "Workplaces should prioritize",
+          "explanation": "安全上望ましい方針を穏やかに示す。",
+          "rule": "should + 動詞原形"
+        },
+        {
+          "category": "動詞",
+          "name": "prioritize + 目的語",
+          "where": "prioritize heat safety",
+          "explanation": "何を優先するかを直接目的語で示す。",
+          "rule": "prioritize + 名詞"
+        },
+        {
+          "category": "接続詞",
+          "name": "状況を示すwhen節",
+          "where": "when formal clothing increases physical risk",
+          "explanation": "安全対策を優先すべき状況を示す。",
+          "rule": "when + 主語 + 動詞"
+        },
+        {
+          "category": "一致",
+          "name": "不可算名詞と三単現",
+          "where": "clothing increases",
+          "explanation": "clothingは不可算名詞で単数扱いするためincreasesを使う。",
+          "rule": "単数主語 + 動詞-s"
+        },
+        {
+          "category": "助動詞",
+          "name": "不可能を示すcannot",
+          "where": "cannot justify",
+          "explanation": "呼び名だけでは規則を正当化できないことを示す。",
+          "rule": "cannot + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "justify + 目的語",
+          "where": "justify rules",
+          "explanation": "規則に正当な理由を与えるという意味。",
+          "rule": "justify + 名詞"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞that",
+          "where": "rules that endanger workers",
+          "explanation": "どのような規則かをthat以下で限定する。",
+          "rule": "名詞 + that + 動詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Workplaces should prioritizes heat safety.",
+          "correct": "Workplaces should prioritize heat safety.",
+          "why": "助動詞shouldの後ろは動詞原形prioritizeにする。"
+        },
+        {
+          "wrong": "Formal clothings increase physical risk.",
+          "correct": "Formal clothing increases physical risk.",
+          "why": "clothingは通常不可算名詞なので複数形にせず、動詞は三単現increasesにする。"
+        },
+        {
+          "wrong": "A label cannot justify to dangerous rules.",
+          "correct": "A label cannot justify dangerous rules.",
+          "why": "justifyは他動詞なので目的語の前にtoを置かない。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Safety should come before appearance during extreme heat.",
+          "translation": "酷暑の間は、見た目より安全を優先すべきだ。"
+        },
+        {
+          "text": "Dress codes need to change when they increase health risks.",
+          "translation": "服装規定は、健康上の危険を増すときには変更する必要がある。"
+        },
+        {
+          "text": "Mocking workers does not make an unsafe rule reasonable.",
+          "translation": "労働者をからかっても、危険な規則が合理的になるわけではない。"
+        }
+      ],
+      "parseTree": "S(Workplaces) Aux(should) V(prioritize) O(heat safety) [Adv: when formal clothing increases physical risk]. S(A mocking label) Aux(cannot) V(justify) O(rules [Rel: that endanger workers])."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because extreme heat can harm workers",
+          "expanded": "because heavy formal clothing can increase heat strain during extremely hot weather",
+          "nuance": "服装と暑熱負担の関係を具体化する。"
+        },
+        {
+          "original": "because safety should guide workplace rules",
+          "expanded": "since workplace rules should reduce avoidable physical risks",
+          "nuance": "規則の目的を安全側から説明する。"
+        },
+        {
+          "original": "because ridicule does not remove danger",
+          "expanded": "as a mocking label changes social pressure but not the physical risk",
+          "nuance": "社会的な呼び名と身体的危険を分ける。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Heat safety should be prioritized when formal clothing increases physical risk.",
+          "translation": "フォーマルな服装が身体的な危険を増すとき、暑さへの安全対策が優先されるべきだ。",
+          "note": "安全対策を主語にした受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Increasing physical risk, rigid dress codes should be reconsidered during extreme heat.",
+          "translation": "身体的な危険を増すため、硬直した服装規定は酷暑時に見直されるべきだ。",
+          "note": "規則が生む結果を分詞構文で前置きする。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The prioritization of heat safety requires flexible dress rules.",
+          "translation": "暑さへの安全対策を優先するには、柔軟な服装規定が必要だ。",
+          "note": "prioritizeをprioritizationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "prioritize",
+            "alternatives": [
+              "put first",
+              "give priority to",
+              "favor"
+            ],
+            "nuance": "prioritizeは方針として優先する、put firstは日常的で直接的。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "条件と方針",
+            "sentence": "When clothing raises heat risk, workplaces should relax their dress codes.",
+            "translation": "服装が暑熱リスクを高めるとき、職場は服装規定を緩和すべきだ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Worker safety matters more than preserving a formal appearance.",
+            "translation": "労働者の安全は、フォーマルな外見を保つことより重要だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a dress rule increases heat strain, the rule should be revised.",
+            "translation": "服装規定が暑熱負担を増すなら、その規定は見直されるべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters most during extreme heat is physical safety.",
+            "translation": "酷暑時に最も重要なのは身体の安全だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Safety before dress codes.",
+            "translation": "服装規定より安全を優先。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "条件節と独立した評価文を使い、酷暑時の服装規範を安全の観点から簡潔に表した。mocking labelは具体語を一般化した表現。"
+    }
+  }
+]
