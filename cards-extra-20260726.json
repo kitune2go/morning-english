@@ -1,0 +1,471 @@
+[
+  {
+    "_no": 38,
+    "_generatedAt": "2026-07-26T02:00:00+09:00",
+    "sentence": "The slogan “One Hundred Million, All Middle Class” described a widespread self-image, not equal incomes. Similar survey answers can still hide major differences in living conditions.",
+    "phonetic": "ザ スローガン『ワン ハンドレッド ミリオン、オール ミドル クラス』ディスクライブド ア ワイドスプレッド セルフイメージ、ノット イークウォル インカムズ。シミラー サーヴェイ アンサーズ キャン スティル ハイド メイジャー ディファレンシズ イン リヴィング コンディションズ。",
+    "japaneseTranslation": "「一億総中流」という標語は、所得が平等だったことではなく、広く共有された自己認識を表していた。似たような調査回答でも、実際の生活条件にある大きな差を隠すことがある。",
+    "theme": "一億総中流という自己認識",
+    "coreVerb": "describe",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The slogan described a self-image.",
+        "translation": "その標語は自己認識を表していた。"
+      },
+      "phase2": {
+        "sentence": "The slogan described a widespread self-image.",
+        "translation": "その標語は広く共有された自己認識を表していた。",
+        "addedChunks": "widespreadを加えて共有範囲を明示"
+      },
+      "phase3": {
+        "sentence": "The slogan spread because many people identified with the middle class.",
+        "translation": "多くの人が中流層に自分を重ねたため、その標語は広まった。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Shared identity is not the same as equal income.",
+        "translation": "共有された帰属意識は、所得の平等と同じではない。",
+        "comparison": "not the same as"
+      },
+      "phase5": {
+        "sentence": "The slogan “One Hundred Million, All Middle Class” described a widespread self-image, not equal incomes.",
+        "translation": "「一億総中流」という標語は、所得が平等だったことではなく、広く共有された自己認識を表していた。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "The slogan “One Hundred Million, All Middle Class”",
+          "function": "対象",
+          "translation": "「一億総中流」という標語は"
+        },
+        {
+          "text": "described a widespread self-image,",
+          "function": "行動",
+          "translation": "広く共有された自己認識を表していた"
+        },
+        {
+          "text": "not equal incomes.",
+          "function": "比較",
+          "translation": "所得が平等だったことではなく"
+        },
+        {
+          "text": "Similar survey answers can still hide",
+          "function": "行動",
+          "translation": "似たような調査回答でも隠すことがある"
+        },
+        {
+          "text": "major differences in living conditions.",
+          "function": "対象",
+          "translation": "生活条件にある大きな差を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時制",
+          "name": "過去形described",
+          "where": "described a widespread self-image",
+          "explanation": "過去の社会的標語が表したものを述べる。",
+          "rule": "describeの過去形 = described"
+        },
+        {
+          "category": "語法",
+          "name": "describe + 目的語",
+          "where": "described a widespread self-image",
+          "explanation": "標語が何を表現したかを直接目的語で示す。",
+          "rule": "describe + 名詞"
+        },
+        {
+          "category": "対照",
+          "name": "A, not B",
+          "where": "a widespread self-image, not equal incomes",
+          "explanation": "自己認識と所得の平等を明確に区別する。",
+          "rule": "A, not B"
+        },
+        {
+          "category": "助動詞",
+          "name": "可能性のcan",
+          "where": "can still hide",
+          "explanation": "調査回答が差を隠し得ることを示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "副詞",
+          "name": "stillの位置",
+          "where": "can still hide",
+          "explanation": "助動詞と動詞の間に置き、なお起こり得ることを表す。",
+          "rule": "助動詞 + still + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "differences in",
+          "where": "differences in living conditions",
+          "explanation": "どの領域に差があるかをinで示す。",
+          "rule": "difference(s) in + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "The slogan describe a widespread self-image.",
+          "correct": "The slogan described a widespread self-image.",
+          "why": "過去の標語について述べるので過去形describedを使う。"
+        },
+        {
+          "wrong": "Similar answers can hides social differences.",
+          "correct": "Similar answers can hide social differences.",
+          "why": "助動詞canの後ろは動詞原形hideにする。"
+        },
+        {
+          "wrong": "There were major differences of living conditions.",
+          "correct": "There were major differences in living conditions.",
+          "why": "生活条件という領域の差にはdifferences inを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A shared label does not prove that everyone had the same income.",
+          "translation": "共有された呼び名は、全員の所得が同じだったことを証明しない。"
+        },
+        {
+          "text": "Middle-class identification and economic equality are different claims.",
+          "translation": "中流意識と経済的平等は異なる主張だ。"
+        },
+        {
+          "text": "Survey categories can simplify unequal living conditions.",
+          "translation": "調査上の分類は、不平等な生活条件を単純化することがある。"
+        }
+      ],
+      "parseTree": "S(The slogan “One Hundred Million, All Middle Class”) V(described) O(a widespread self-image), Contrast(not equal incomes). S(Similar survey answers) Aux(can) Adv(still) V(hide) O(major differences in living conditions)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because many people identified with the middle class",
+          "expanded": "because social identity can spread even when incomes remain unequal",
+          "nuance": "自己認識と所得分布が一致しない可能性を示す。"
+        },
+        {
+          "original": "because surveys compress complex lives",
+          "expanded": "since a single survey category can group together households with very different resources",
+          "nuance": "回答区分が差を圧縮する仕組みを具体化する。"
+        },
+        {
+          "original": "because identity is relative",
+          "expanded": "as people often judge their position by comparing themselves with nearby groups",
+          "nuance": "中流意識が相対評価から生じる面を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A widespread middle-class self-image was expressed by the slogan.",
+          "translation": "広く共有された中流の自己認識が、その標語によって表現された。",
+          "note": "自己認識を主語にする受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Grouping different households together, the survey category can hide inequality.",
+          "translation": "異なる世帯を一括りにすることで、その調査区分は不平等を隠し得る。",
+          "note": "分類方法と結果を分詞構文でつなぐ。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The description of society as middle class did not establish income equality.",
+          "translation": "社会を中流と表現することは、所得の平等を証明しなかった。",
+          "note": "describeをdescriptionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "self-image",
+            "alternatives": [
+              "self-perception",
+              "social identity",
+              "sense of status"
+            ],
+            "nuance": "self-imageは自己像、social identityは集団への帰属意識を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "The slogan described how people saw themselves, not how income was distributed.",
+            "translation": "その標語が表したのは人々の自己認識であり、所得の分布ではなかった。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A common survey answer is broader than a precise economic category.",
+            "translation": "共通する調査回答は、厳密な経済区分より広い。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If most people choose the same label, economic differences may still remain.",
+            "translation": "大多数が同じ呼び名を選んでも、経済的な差は残り得る。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the slogan captured was a shared perception, not equal wealth.",
+            "translation": "その標語が捉えたのは、富の平等ではなく共有された認識だった。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Shared identity, unequal incomes.",
+            "translation": "共有された意識、平等ではない所得。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "歴史的標語を自己認識と所得分布に分けて説明した。標語の英訳は説明的だが、対照関係は明確。"
+    }
+  },
+  {
+    "_no": 39,
+    "_generatedAt": "2026-07-26T02:00:00+09:00",
+    "sentence": "Governments often describe wars as self-defense, so the label alone cannot prove that force is necessary or justified. Historical context and evidence still matter.",
+    "phonetic": "ガヴァメンツ オーフン ディスクライブ ウォーズ アズ セルフディフェンス、ソウ ザ レイベル アローン キャナット プルーヴ ザット フォース イズ ネセサリー オア ジャスティファイド。ヒストリカル コンテクスト アンド エヴィデンス スティル マター。",
+    "japaneseTranslation": "政府は戦争を自衛だと説明することが多い。したがって、その呼び名だけでは武力行使が必要または正当だったことを証明できない。歴史的文脈と証拠がなお重要である。",
+    "theme": "自衛という名目の検証",
+    "coreVerb": "describe",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Governments describe wars.",
+        "translation": "政府は戦争を説明する。"
+      },
+      "phase2": {
+        "sentence": "Governments describe wars as self-defense.",
+        "translation": "政府は戦争を自衛だと説明する。",
+        "addedChunks": "as self-defenseを加えて説明上の位置づけを明示"
+      },
+      "phase3": {
+        "sentence": "Governments describe wars as self-defense because leaders may present force as necessary.",
+        "translation": "指導者が武力を必要なものとして示すことがあるため、政府は戦争を自衛だと説明する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Evidence is more reliable than a label alone.",
+        "translation": "証拠は呼び名だけより信頼できる。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "Governments often describe wars as self-defense, so the label alone cannot prove that force is necessary or justified.",
+        "translation": "政府は戦争を自衛だと説明することが多いため、その呼び名だけでは武力行使が必要または正当だったことを証明できない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Governments often describe wars as self-defense,",
+          "function": "行動",
+          "translation": "政府は戦争を自衛だと説明することが多い"
+        },
+        {
+          "text": "so the label alone cannot prove",
+          "function": "結果",
+          "translation": "したがって、その呼び名だけでは証明できない"
+        },
+        {
+          "text": "that force is necessary or justified.",
+          "function": "内容",
+          "translation": "武力行使が必要または正当だったことを"
+        },
+        {
+          "text": "Historical context and evidence",
+          "function": "対象",
+          "translation": "歴史的文脈と証拠が"
+        },
+        {
+          "text": "still matter.",
+          "function": "状態",
+          "translation": "なお重要である"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "頻度副詞",
+          "name": "oftenの位置",
+          "where": "Governments often describe",
+          "explanation": "一般動詞describeの前に置き、頻度を表す。",
+          "rule": "主語 + often + 一般動詞"
+        },
+        {
+          "category": "語法",
+          "name": "describe A as B",
+          "where": "describe wars as self-defense",
+          "explanation": "AをBとして説明・位置づける表現。",
+          "rule": "describe A as B"
+        },
+        {
+          "category": "接続",
+          "name": "結果を示すso",
+          "where": "so the label alone cannot prove",
+          "explanation": "前文の事実から導く判断を示す。",
+          "rule": "文, so + 文"
+        },
+        {
+          "category": "助動詞",
+          "name": "cannot + 動詞原形",
+          "where": "cannot prove",
+          "explanation": "呼び名だけでは証明できないことを表す。",
+          "rule": "cannot + 動詞原形"
+        },
+        {
+          "category": "名詞節",
+          "name": "prove that節",
+          "where": "prove that force is necessary",
+          "explanation": "何を証明できないのかをthat節で示す。",
+          "rule": "prove + that + 文"
+        },
+        {
+          "category": "並列",
+          "name": "A or B",
+          "where": "necessary or justified",
+          "explanation": "必要性と正当性という二つの評価を並列する。",
+          "rule": "形容詞 + or + 形容詞"
+        },
+        {
+          "category": "動詞",
+          "name": "matterの複数一致",
+          "where": "context and evidence still matter",
+          "explanation": "二つの名詞をandで結ぶ複数主語なのでmatterを使う。",
+          "rule": "A and B + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Governments often describes wars as self-defense.",
+          "correct": "Governments often describe wars as self-defense.",
+          "why": "主語Governmentsが複数なのでdescribeに-sを付けない。"
+        },
+        {
+          "wrong": "The label cannot proves that force was necessary.",
+          "correct": "The label cannot prove that force was necessary.",
+          "why": "助動詞cannotの後ろは動詞原形proveにする。"
+        },
+        {
+          "wrong": "Historical context and evidence still matters.",
+          "correct": "Historical context and evidence still matter.",
+          "why": "andで結ばれた複数主語なのでmatterを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "The phrase self-defense does not settle the historical argument.",
+          "translation": "自衛という言葉だけでは、歴史上の論争に決着はつかない。"
+        },
+        {
+          "text": "Claims about necessary force require evidence and context.",
+          "translation": "必要な武力だったという主張には、証拠と文脈が必要だ。"
+        },
+        {
+          "text": "A political label should not replace historical examination.",
+          "translation": "政治的な呼び名を歴史的検証の代わりにしてはならない。"
+        }
+      ],
+      "parseTree": "S(Governments) Adv(often) V(describe) O(wars) C(as self-defense), so S(the label alone) Aux(cannot) V(prove) O(that force is necessary or justified). S(Historical context and evidence) Adv(still) V(matter)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because labels can hide different motives",
+          "expanded": "because the same label can be used for conflicts with very different causes",
+          "nuance": "同じ呼称が異なる戦争に使われ得る点を示す。"
+        },
+        {
+          "original": "because necessity requires evidence",
+          "expanded": "since claims of necessity must be tested against available alternatives and records",
+          "nuance": "必要性の判断材料を具体化する。"
+        },
+        {
+          "original": "because historical judgment depends on context",
+          "expanded": "as intentions, decisions, and consequences must be examined together",
+          "nuance": "歴史的評価の複数要素を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Wars are often described as self-defense by governments.",
+          "translation": "戦争は政府によって自衛だと説明されることが多い。",
+          "note": "説明される戦争を主語にした受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Relying on the label alone, we may overlook conflicting evidence.",
+          "translation": "呼び名だけに頼ると、相反する証拠を見落とすかもしれない。",
+          "note": "判断方法と危険を分詞構文でつなぐ。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The examination of historical evidence is necessary before judging a claim of self-defense.",
+          "translation": "自衛という主張を判断する前に、歴史的証拠の検討が必要だ。",
+          "note": "examineをexaminationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "describe",
+            "alternatives": [
+              "present",
+              "portray",
+              "characterize"
+            ],
+            "nuance": "describeは説明する、portrayとcharacterizeは特定の性質を強調して描く。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "因果",
+            "sentence": "Because political labels can be misleading, historical claims require evidence.",
+            "translation": "政治的な呼び名は誤解を招き得るため、歴史上の主張には証拠が必要だ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Evidence is more informative than a label by itself.",
+            "translation": "証拠は呼び名だけより多くの情報を与える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If self-defense is claimed, the necessity of force should still be examined.",
+            "translation": "自衛が主張されても、武力の必要性はなお検討されるべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is the evidence behind the claim.",
+            "translation": "重要なのは、その主張を支える証拠だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Labels claim; evidence tests.",
+            "translation": "呼び名は主張し、証拠が検証する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "自衛という語の使用と個別戦争の正当性判断を分離した。特定の政治的結論を断定せず、検証手順に焦点を置く。"
+    }
+  }
+]
