@@ -1,0 +1,695 @@
+[
+  {
+    "_no": 40,
+    "_generatedAt": "2026-07-27T02:00:00+09:00",
+    "sentence": "A browser can display detailed 3D scenes, but high visual quality depends on models, textures, lighting, and performance working together.",
+    "phonetic": "ア ブラウザー キャン ディスプレイ ディテイルド スリーディー シーンズ、バット ハイ ヴィジュアル クオリティ ディペンズ オン モデルズ、テクスチャーズ、ライティング、アンド パフォーマンス ワーキング トゥゲザー。",
+    "japaneseTranslation": "ブラウザーは精細な3D場面を表示できるが、高い映像品質はモデル、テクスチャ、照明、性能が連携することに左右される。",
+    "theme": "WebGL画質と制作工程",
+    "coreVerb": "depend",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Visual quality depends on several elements.",
+        "translation": "映像品質はいくつもの要素に左右される。"
+      },
+      "phase2": {
+        "sentence": "Visual quality depends on models and lighting.",
+        "translation": "映像品質はモデルと照明に左右される。",
+        "addedChunks": "models and lightingを加えて主要要素を具体化"
+      },
+      "phase3": {
+        "sentence": "Visual quality depends on the whole pipeline because a renderer cannot replace unfinished assets.",
+        "translation": "レンダラーは未完成の素材を補えないため、映像品質は制作工程全体に左右される。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A complete pipeline is more effective than one visual trick.",
+        "translation": "完成された制作工程は、単一の視覚的な工夫より効果的だ。",
+        "comparison": "more effective than"
+      },
+      "phase5": {
+        "sentence": "A browser can display detailed 3D scenes, but high visual quality depends on models, textures, lighting, and performance working together.",
+        "translation": "ブラウザーは精細な3D場面を表示できるが、高い映像品質はモデル、テクスチャ、照明、性能が連携することに左右される。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A browser can display",
+          "function": "行動",
+          "translation": "ブラウザーは表示できる"
+        },
+        {
+          "text": "detailed 3D scenes,",
+          "function": "対象",
+          "translation": "精細な3D場面を"
+        },
+        {
+          "text": "but high visual quality depends on",
+          "function": "接続",
+          "translation": "しかし高い映像品質は〜に左右される"
+        },
+        {
+          "text": "models, textures, lighting, and performance",
+          "function": "対象",
+          "translation": "モデル、テクスチャ、照明、性能に"
+        },
+        {
+          "text": "working together.",
+          "function": "様態",
+          "translation": "それらが連携することで"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can + 動詞原形",
+          "where": "can display",
+          "explanation": "ブラウザーに可能な動作を表し、canの後ろには動詞原形を置く。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "形容詞",
+          "name": "過去分詞形の形容詞",
+          "where": "detailed 3D scenes",
+          "explanation": "detailedがscenesを修飾し、細部まで作られた場面を表す。",
+          "rule": "形容詞 + 名詞"
+        },
+        {
+          "category": "接続",
+          "name": "対照のbut",
+          "where": "scenes, but high visual quality",
+          "explanation": "表示能力と、高品質を実現するための条件を対照する。",
+          "rule": "文, but + 文"
+        },
+        {
+          "category": "語法",
+          "name": "depend on",
+          "where": "depends on models",
+          "explanation": "結果が何に左右されるかをonの後ろに示す。",
+          "rule": "depend on + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "名詞の列挙",
+          "where": "models, textures, lighting, and performance",
+          "explanation": "同じ役割を持つ四つの要素をandで並列する。",
+          "rule": "A, B, C, and D"
+        },
+        {
+          "category": "分詞",
+          "name": "現在分詞による補足",
+          "where": "performance working together",
+          "explanation": "working togetherが直前の列挙全体の連携状態を補足する。",
+          "rule": "名詞句 + 現在分詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A browser can displays detailed 3D scenes.",
+          "correct": "A browser can display detailed 3D scenes.",
+          "why": "助動詞canの後ろは動詞原形displayにする。"
+        },
+        {
+          "wrong": "High visual quality depend on good assets.",
+          "correct": "High visual quality depends on good assets.",
+          "why": "主語qualityが単数なので現在形の動詞に-sを付ける。"
+        },
+        {
+          "wrong": "Visual quality depends of models and lighting.",
+          "correct": "Visual quality depends on models and lighting.",
+          "why": "「〜に左右される」はdepend onであり、前置詞ofは使わない。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Good WebGL graphics require strong assets as well as efficient rendering.",
+          "translation": "優れたWebGL映像には、効率的な描画だけでなく質の高い素材も必要だ。"
+        },
+        {
+          "text": "A powerful renderer cannot make unfinished models look complete.",
+          "translation": "強力なレンダラーでも、未完成のモデルを完成品のようには見せられない。"
+        },
+        {
+          "text": "Visual quality comes from the pipeline, not from a single setting.",
+          "translation": "映像品質は、単一の設定ではなく制作工程全体から生まれる。"
+        }
+      ],
+      "parseTree": "S(A browser) Aux(can) V(display) O(detailed 3D scenes), Conj(but) S(high visual quality) V(depends on) O(models, textures, lighting, and performance) Participle(working together)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because each stage affects the final image",
+          "expanded": "because weak models or textures remain visible even when the renderer is advanced",
+          "nuance": "描画機能だけでは素材の弱点を隠せないことを具体化する。"
+        },
+        {
+          "original": "because real-time graphics have a performance budget",
+          "expanded": "since every light, material, and polygon adds work that the device must complete each frame",
+          "nuance": "リアルタイム描画の性能制約を説明する。"
+        },
+        {
+          "original": "because consistency matters",
+          "expanded": "as matching models, textures, and lighting creates a more convincing scene than isolated detail",
+          "nuance": "個別の精細さより全体の整合性を重視する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "High visual quality is produced by models, textures, lighting, and performance working together.",
+          "translation": "高い映像品質は、モデル、テクスチャ、照明、性能の連携によって生み出される。",
+          "note": "品質を主語にし、制作要素をbyで示す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Combining strong assets with efficient rendering, developers can create convincing browser scenes.",
+          "translation": "質の高い素材と効率的な描画を組み合わせることで、開発者は説得力のあるブラウザー場面を作れる。",
+          "note": "制作方法を文頭の分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The coordination of assets, lighting, and performance determines the final visual quality.",
+          "translation": "素材、照明、性能の連携が最終的な映像品質を決める。",
+          "note": "coordinateをcoordinationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "visual quality",
+            "alternatives": [
+              "image quality",
+              "graphical fidelity",
+              "visual polish"
+            ],
+            "nuance": "image qualityは一般的で、graphical fidelityは再現性、visual polishは仕上がりを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "A browser can render a complex scene, but polished graphics require a complete production pipeline.",
+            "translation": "ブラウザーは複雑な場面を描画できるが、磨かれた映像には完成された制作工程が必要だ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Balanced assets and lighting matter more than one expensive effect.",
+            "translation": "均衡の取れた素材と照明は、一つの高負荷な効果より重要だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If one stage is weak, the final scene may still look unfinished.",
+            "translation": "一つの工程が弱ければ、最終的な場面は未完成に見えることがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What determines the result is how well the whole pipeline works together.",
+            "translation": "結果を決めるのは、制作工程全体がどれだけうまく連携するかだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Better pipeline, better picture.",
+            "translation": "制作工程が良ければ、映像も良くなる。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "WebGLの能力と完成映像の品質条件を明確に分けた。要素の列挙は長めだが、因果関係と主語は明確。"
+    }
+  },
+  {
+    "_no": 41,
+    "_generatedAt": "2026-07-27T02:00:00+09:00",
+    "sentence": "When I map chord tones around each shape, I stop counting every note from C and navigate the fretboard more directly.",
+    "phonetic": "ウェン アイ マップ コード トーンズ アラウンド イーチ シェイプ、アイ ストップ カウンティング エヴリ ノート フロム シー アンド ナヴィゲイト ザ フレットボード モア ダイレクトリー。",
+    "japaneseTranslation": "各フォームの周りにコードトーンを配置して把握すると、すべての音をCから数えるのをやめ、指板をより直接的にたどれるようになる。",
+    "theme": "コードトーンと指板把握",
+    "coreVerb": "map",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I map chord tones.",
+        "translation": "私はコードトーンを配置して把握する。"
+      },
+      "phase2": {
+        "sentence": "I map chord tones around each shape.",
+        "translation": "私は各フォームの周りにコードトーンを配置して把握する。",
+        "addedChunks": "around each shapeを加えて指板上の基準を明示"
+      },
+      "phase3": {
+        "sentence": "I map chord tones because they anchor the harmony.",
+        "translation": "コードトーンは和声の基準になるため、私はそれらを配置して把握する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "This method is faster than counting every note from C.",
+        "translation": "この方法は、すべての音をCから数えるより速い。",
+        "comparison": "faster than"
+      },
+      "phase5": {
+        "sentence": "When I map chord tones around each shape, I stop counting every note from C and navigate the fretboard more directly.",
+        "translation": "各フォームの周りにコードトーンを配置して把握すると、すべての音をCから数えるのをやめ、指板をより直接的にたどれるようになる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When I map chord tones",
+          "function": "時間",
+          "translation": "私がコードトーンを配置して把握すると"
+        },
+        {
+          "text": "around each shape,",
+          "function": "場所",
+          "translation": "各フォームの周りに"
+        },
+        {
+          "text": "I stop counting every note from C",
+          "function": "行動",
+          "translation": "私はすべての音をCから数えるのをやめ"
+        },
+        {
+          "text": "and navigate the fretboard",
+          "function": "行動",
+          "translation": "そして指板をたどる"
+        },
+        {
+          "text": "more directly.",
+          "function": "様態",
+          "translation": "より直接的に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "whenによる状況節",
+          "where": "When I map chord tones",
+          "explanation": "ある練習方法を行うときに生じる変化を示す。",
+          "rule": "When + 主語 + 動詞, 主語 + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "map A around B",
+          "where": "map chord tones around each shape",
+          "explanation": "AをBの周囲に位置づけて把握するという空間関係を表す。",
+          "rule": "map A around B"
+        },
+        {
+          "category": "限定詞",
+          "name": "each + 単数名詞",
+          "where": "each shape",
+          "explanation": "フォームを一つずつ捉えるため、eachの後ろは単数形にする。",
+          "rule": "each + 単数名詞"
+        },
+        {
+          "category": "動名詞",
+          "name": "stop + 動名詞",
+          "where": "stop counting",
+          "explanation": "続けていた行為をやめる意味ではstopの後ろに動名詞を置く。",
+          "rule": "stop + 動名詞"
+        },
+        {
+          "category": "並列",
+          "name": "動詞の並列",
+          "where": "stop counting ... and navigate",
+          "explanation": "同じ主語Iに対する二つの変化をandで結ぶ。",
+          "rule": "V1 ... and V2 ..."
+        },
+        {
+          "category": "比較",
+          "name": "比較級の副詞",
+          "where": "more directly",
+          "explanation": "navigateという動作の方法をdirectlyの比較級で修飾する。",
+          "rule": "動詞 + more + 副詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I map chord tones around each shapes.",
+          "correct": "I map chord tones around each shape.",
+          "why": "eachの後ろには単数名詞shapeを置く。"
+        },
+        {
+          "wrong": "I stop to count every note from C.",
+          "correct": "I stop counting every note from C.",
+          "why": "「数えることをやめる」はstop countingであり、stop to countは「数えるために立ち止まる」という別の意味になる。"
+        },
+        {
+          "wrong": "I navigate the fretboard more direct.",
+          "correct": "I navigate the fretboard more directly.",
+          "why": "動詞navigateを修飾するので形容詞directではなく副詞directlyを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Chord tones give me landmarks across the fretboard.",
+          "translation": "コードトーンは指板全体で目印を与えてくれる。"
+        },
+        {
+          "text": "I use each chord shape as a local map of the key.",
+          "translation": "私は各コードフォームを、そのキーの局所的な地図として使う。"
+        },
+        {
+          "text": "Thinking in chord tones is quicker than naming every note first.",
+          "translation": "コードトーンで考える方が、最初にすべての音名を言うより速い。"
+        }
+      ],
+      "parseTree": "AdvClause(When S(I) V(map) O(chord tones) Adv(around each shape)), S(I) V1(stop counting) O(every note from C) Conj(and) V2(navigate) O(the fretboard) Adv(more directly)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because chord tones reveal the harmony",
+          "expanded": "because roots, thirds, and fifths show where a phrase can settle against the current chord",
+          "nuance": "和声上の着地点を具体的な音程で説明する。"
+        },
+        {
+          "original": "because shapes reduce mental calculation",
+          "expanded": "since a familiar shape provides nearby reference points without restarting from C",
+          "nuance": "音名の逐次数え上げを省ける理由を示す。"
+        },
+        {
+          "original": "because the map moves with the chord",
+          "expanded": "as the same interval relationships can be recognized from a new root position",
+          "nuance": "フォームの移動可能性を強調する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Chord tones can be mapped around each familiar shape.",
+          "translation": "コードトーンは、各なじみのあるフォームの周りに配置して把握できる。",
+          "note": "学習対象を主語にした受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using chord tones as landmarks, I navigate the fretboard without counting from C.",
+          "translation": "コードトーンを目印として使うことで、私はCから数えずに指板をたどる。",
+          "note": "手段を文頭の分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The mapping of chord tones makes fretboard navigation more direct.",
+          "translation": "コードトーンの配置把握は、指板の移動をより直接的にする。",
+          "note": "mapとnavigateをmappingとnavigationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "map",
+            "alternatives": [
+              "locate",
+              "plot",
+              "visualize"
+            ],
+            "nuance": "locateは位置を見つける、plotは配置する、visualizeは頭の中で見えるようにする意味を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "時間・条件",
+            "sentence": "Once I see the chord tones, the surrounding scale notes become easier to place.",
+            "translation": "コードトーンが見えれば、周囲のスケール音をより配置しやすくなる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A chord-tone map is faster to use than counting every fret from a fixed note.",
+            "translation": "コードトーンの地図は、固定した音から各フレットを数えるより素早く使える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If I know the chord shape, I can find nearby target tones quickly.",
+            "translation": "コードフォームが分かれば、近くの目標音をすぐ見つけられる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What guides me across the fretboard is the harmony, not a chain of note names.",
+            "translation": "指板上で私を導くのは、音名の連鎖ではなく和声だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Chord tones become fretboard landmarks.",
+            "translation": "コードトーンが指板の目印になる。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "when節と動詞の並列で練習方法から得られる変化を簡潔に示した。mapは比喩的だが、指板学習の文脈では自然。"
+    }
+  },
+  {
+    "_no": 42,
+    "_generatedAt": "2026-07-27T02:00:00+09:00",
+    "sentence": "Quoting an admired expert can replace evaluation with borrowed approval, so I check the claim before praising the speaker.",
+    "phonetic": "クォウティング アン アドマイアド エクスパート キャン リプレイス イヴァリュエイション ウィズ ボロウド アプルーヴァル、ソウ アイ チェック ザ クレイム ビフォア プレイジング ザ スピーカー。",
+    "japaneseTranslation": "敬愛する専門家を引用することは、評価を借り物の承認に置き換えかねない。だから私は、話し手を称賛する前に主張を確かめる。",
+    "theme": "引用と評価の分離",
+    "coreVerb": "check",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I check a claim.",
+        "translation": "私は主張を確かめる。"
+      },
+      "phase2": {
+        "sentence": "I check a claim before praising the speaker.",
+        "translation": "私は話し手を称賛する前に主張を確かめる。",
+        "addedChunks": "before praising the speakerを加えて確認の順序を明示"
+      },
+      "phase3": {
+        "sentence": "I check a claim because authority can influence judgment.",
+        "translation": "権威は判断に影響し得るため、私は主張を確かめる。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Evidence is more reliable than borrowed approval.",
+        "translation": "証拠は借り物の承認より信頼できる。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "Quoting an admired expert can replace evaluation with borrowed approval, so I check the claim before praising the speaker.",
+        "translation": "敬愛する専門家を引用することは、評価を借り物の承認に置き換えかねない。だから私は、話し手を称賛する前に主張を確かめる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Quoting an admired expert",
+          "function": "行動",
+          "translation": "敬愛する専門家を引用することは"
+        },
+        {
+          "text": "can replace evaluation",
+          "function": "対象",
+          "translation": "評価を置き換えかねない"
+        },
+        {
+          "text": "with borrowed approval,",
+          "function": "結果",
+          "translation": "借り物の承認に"
+        },
+        {
+          "text": "so I check the claim",
+          "function": "接続",
+          "translation": "だから私は主張を確かめる"
+        },
+        {
+          "text": "before praising the speaker.",
+          "function": "時間",
+          "translation": "話し手を称賛する前に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞句の主語",
+          "where": "Quoting an admired expert",
+          "explanation": "引用するという行為全体を文の主語として扱う。",
+          "rule": "動名詞句 + 動詞"
+        },
+        {
+          "category": "分詞",
+          "name": "過去分詞の形容詞用法",
+          "where": "an admired expert",
+          "explanation": "admiredがexpertを修飾し、敬愛されている専門家を表す。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "可能性のcan",
+          "where": "can replace",
+          "explanation": "引用が評価を置き換える可能性を断定しすぎずに示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "replace A with B",
+          "where": "replace evaluation with borrowed approval",
+          "explanation": "AがBに置き換わる関係を表す。",
+          "rule": "replace A with B"
+        },
+        {
+          "category": "接続",
+          "name": "結果を示すso",
+          "where": "so I check the claim",
+          "explanation": "前半の危険を受けて取る行動を示す。",
+          "rule": "文, so + 文"
+        },
+        {
+          "category": "動名詞",
+          "name": "before + 動名詞",
+          "where": "before praising the speaker",
+          "explanation": "称賛より先に確認するという順序を表す。",
+          "rule": "before + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Quoting an expert can replaces careful evaluation.",
+          "correct": "Quoting an expert can replace careful evaluation.",
+          "why": "助動詞canの後ろは動詞原形replaceにする。"
+        },
+        {
+          "wrong": "Borrowed approval can replace evaluation to a judgment.",
+          "correct": "Borrowed approval can replace evaluation with a judgment.",
+          "why": "「AをBに置き換える」はreplace A with Bを使う。"
+        },
+        {
+          "wrong": "I check the claim before to praise the speaker.",
+          "correct": "I check the claim before praising the speaker.",
+          "why": "前置詞beforeの後ろで行為を表すときは動名詞praisingを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A respected name does not remove the need to examine the claim.",
+          "translation": "尊敬される名前があっても、主張を検討する必要はなくならない。"
+        },
+        {
+          "text": "I separate my admiration for the speaker from my judgment of the idea.",
+          "translation": "私は話し手への敬意と、考えに対する判断を分ける。"
+        },
+        {
+          "text": "Quotations can support an argument, but they cannot evaluate it for me.",
+          "translation": "引用は議論を支えられるが、私の代わりにそれを評価することはできない。"
+        }
+      ],
+      "parseTree": "GerundSubject(Quoting an admired expert) Aux(can) V(replace) O(evaluation) Comp(with borrowed approval), Conj(so) S(I) V(check) O(the claim) Adv(before praising the speaker)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because admiration can influence judgment",
+          "expanded": "because respect for a speaker can make a familiar claim feel stronger before its evidence is examined",
+          "nuance": "人物への敬意が内容評価へ移る過程を具体化する。"
+        },
+        {
+          "original": "because quotations carry social authority",
+          "expanded": "since a famous name can signal approval even when the quoted words do not settle the issue",
+          "nuance": "引用の社会的効果と論証力を分ける。"
+        },
+        {
+          "original": "because checking the claim restores the order of evaluation",
+          "expanded": "as examining reasons first keeps praise from becoming a substitute for judgment",
+          "nuance": "検討を先に置く意義を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Evaluation can be replaced by borrowed approval when an admired expert is quoted.",
+          "translation": "敬愛する専門家が引用されると、評価が借り物の承認に置き換えられることがある。",
+          "note": "評価される対象を主語にした受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Separating the claim from the speaker, I can judge the evidence more fairly.",
+          "translation": "主張を話し手から切り分けることで、私は証拠をより公平に判断できる。",
+          "note": "判断の前提となる操作を分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The separation of admiration from evaluation improves critical judgment.",
+          "translation": "敬意と評価を分けることは、批判的判断を改善する。",
+          "note": "separateとevaluateをseparationとevaluationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "borrowed approval",
+            "alternatives": [
+              "secondhand approval",
+              "borrowed authority",
+              "reflected prestige"
+            ],
+            "nuance": "borrowed authorityは権威の借用、reflected prestigeは人物の威信が内容に反射することを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "I may admire the speaker while still questioning the claim.",
+            "translation": "私は話し手を敬愛しながらも、その主張には疑問を持てる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Direct evidence is more useful than admiration alone.",
+            "translation": "直接的な証拠は、敬意だけより役に立つ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a quotation impresses me, I examine the claim before accepting it.",
+            "translation": "引用に感銘を受けたら、受け入れる前にその主張を検討する。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What deserves evaluation is the claim itself, not merely the name attached to it.",
+            "translation": "評価すべきなのは主張そのものであり、そこに付いた名前だけではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Admire the speaker; test the claim.",
+            "translation": "話し手は敬い、主張は検証する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "引用者への敬意と主張の評価を分離した。borrowed approvalは比喩的だが、後続の確認行動によって意味は明確。"
+    }
+  }
+]
