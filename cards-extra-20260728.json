@@ -1,0 +1,695 @@
+[
+  {
+    "_no": 43,
+    "_generatedAt": "2026-07-28T02:00:00+09:00",
+    "sentence": "After an earthquake, early reports are often incomplete, so I separate confirmed damage from causes that investigators are still examining.",
+    "phonetic": "アフター アン アースクウェイク、アーリー リポーツ アー オーフン インコンプリート、ソウ アイ セパレイト コンファームド ダメージ フロム コーズィズ ザット インヴェスティゲイターズ アー スティル イグザミニング。",
+    "japaneseTranslation": "地震の後、初期報告は不完全なことが多いので、私は確認済みの被害と、調査員がまだ調べている原因を分ける。",
+    "theme": "地震直後の情報確認",
+    "coreVerb": "separate",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I separate facts from guesses.",
+        "translation": "私は事実と推測を分ける。"
+      },
+      "phase2": {
+        "sentence": "I separate confirmed damage from possible causes.",
+        "translation": "私は確認済みの被害と考えられる原因を分ける。",
+        "addedChunks": "confirmed damageとpossible causesを加えて区別の対象を具体化"
+      },
+      "phase3": {
+        "sentence": "I separate them because early reports are often incomplete.",
+        "translation": "初期報告は不完全なことが多いため、私はそれらを分ける。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Confirmed information is more reliable than early speculation.",
+        "translation": "確認済みの情報は初期の推測より信頼できる。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "After an earthquake, early reports are often incomplete, so I separate confirmed damage from causes that investigators are still examining.",
+        "translation": "地震の後、初期報告は不完全なことが多いので、私は確認済みの被害と、調査員がまだ調べている原因を分ける。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "After an earthquake,",
+          "function": "時間",
+          "translation": "地震の後"
+        },
+        {
+          "text": "early reports are often incomplete,",
+          "function": "状態",
+          "translation": "初期報告は不完全なことが多い"
+        },
+        {
+          "text": "so I separate confirmed damage",
+          "function": "結果",
+          "translation": "そのため私は確認済みの被害を分ける"
+        },
+        {
+          "text": "from causes",
+          "function": "対象",
+          "translation": "原因から"
+        },
+        {
+          "text": "that investigators are still examining.",
+          "function": "修飾",
+          "translation": "調査員がまだ調べている"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "前置詞",
+          "name": "after + 名詞",
+          "where": "After an earthquake",
+          "explanation": "出来事の後という時間関係を示す。",
+          "rule": "after + 名詞"
+        },
+        {
+          "category": "頻度副詞",
+          "name": "oftenの位置",
+          "where": "are often incomplete",
+          "explanation": "be動詞の後ろにoftenを置き、よくある状態を表す。",
+          "rule": "be動詞 + often + 補語"
+        },
+        {
+          "category": "接続",
+          "name": "結果を示すso",
+          "where": "so I separate",
+          "explanation": "初期報告が不完全だという理由から取る行動を示す。",
+          "rule": "文, so + 文"
+        },
+        {
+          "category": "語法",
+          "name": "separate A from B",
+          "where": "separate confirmed damage from causes",
+          "explanation": "確認された事柄と未確定の原因を区別する。",
+          "rule": "separate A from B"
+        },
+        {
+          "category": "関係節",
+          "name": "目的格のthat",
+          "where": "causes that investigators are still examining",
+          "explanation": "調査中であるcausesをthat以下で限定する。",
+          "rule": "名詞 + that + 主語 + 動詞"
+        },
+        {
+          "category": "進行形",
+          "name": "現在進行形",
+          "where": "are still examining",
+          "explanation": "原因の調査が現在も続いていることを表す。",
+          "rule": "be動詞 + still + 動詞-ing"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Early reports is often incomplete.",
+          "correct": "Early reports are often incomplete.",
+          "why": "主語reportsが複数なのでbe動詞はareを使う。"
+        },
+        {
+          "wrong": "I separate confirmed damage with possible causes.",
+          "correct": "I separate confirmed damage from possible causes.",
+          "why": "「AとBを分ける」はseparate A from Bを使う。"
+        },
+        {
+          "wrong": "The causes that investigators is examining remain uncertain.",
+          "correct": "The causes that investigators are examining remain uncertain.",
+          "why": "関係節の主語investigatorsが複数なのでareを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I treat early damage reports and explanations as separate kinds of information.",
+          "translation": "私は初期の被害報告と説明を別種の情報として扱う。"
+        },
+        {
+          "text": "A confirmed event does not automatically confirm its cause.",
+          "translation": "出来事が確認されても、その原因まで自動的に確認されたことにはならない。"
+        },
+        {
+          "text": "I wait for investigators to distinguish evidence from speculation.",
+          "translation": "私は調査員が証拠と推測を区別するのを待つ。"
+        }
+      ],
+      "parseTree": "Adv(After an earthquake), S(early reports) V(are) Adv(often) C(incomplete), Conj(so) S(I) V(separate) O(confirmed damage) Comp(from causes [Rel: that investigators are still examining])."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because early reports are incomplete",
+          "expanded": "because initial reports may describe visible damage before investigators know what caused it",
+          "nuance": "被害確認と原因特定の時間差を示す。"
+        },
+        {
+          "original": "because different claims have different evidence",
+          "expanded": "since a verified location or injury does not by itself verify an explanation",
+          "nuance": "確認済み事実から原因を推定しすぎない。"
+        },
+        {
+          "original": "because investigations change over time",
+          "expanded": "as later inspections can correct or refine the first public account",
+          "nuance": "初報が更新される可能性を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Confirmed damage should be separated from causes that are still being examined.",
+          "translation": "確認済みの被害は、まだ調査中の原因と分けられるべきだ。",
+          "note": "区別される対象を主語にした受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Recognizing that early reports are incomplete, I avoid treating speculation as fact.",
+          "translation": "初期報告が不完全だと認識し、私は推測を事実として扱うことを避ける。",
+          "note": "判断の前提を分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The separation of confirmed damage from possible causes improves accuracy.",
+          "translation": "確認済みの被害と考えられる原因を分けることは、正確さを高める。",
+          "note": "separateをseparationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "confirmed",
+            "alternatives": [
+              "verified",
+              "established",
+              "substantiated"
+            ],
+            "nuance": "verifiedは検証済み、establishedは事実として確立、substantiatedは証拠で裏づけられたことを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "因果",
+            "sentence": "Because the investigation is continuing, the cause remains uncertain.",
+            "translation": "調査が続いているため、原因はまだ確定していない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A verified report is more dependable than an early rumor.",
+            "translation": "検証済みの報告は、初期のうわさより信頼できる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the cause is still under investigation, I describe it as uncertain.",
+            "translation": "原因がまだ調査中なら、私は未確定だと表現する。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What is confirmed is the damage, not necessarily its cause.",
+            "translation": "確認されているのは被害であり、必ずしもその原因ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Confirm the damage; reserve the cause.",
+            "translation": "被害は確認し、原因の判断は保留する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "災害直後の初報を、確認済み被害と調査中の原因へ分けた。関係節の参照先もcausesで明確。"
+    }
+  },
+  {
+    "_no": 44,
+    "_generatedAt": "2026-07-28T02:00:00+09:00",
+    "sentence": "Visible damage does not reveal why an explosion occurred; investigators compare witness accounts, physical evidence, and equipment records before naming a cause.",
+    "phonetic": "ヴィジブル ダメージ ダズ ノット リヴィール ワイ アン イクスプロージョン オカード；インヴェスティゲイターズ コンペア ウィットネス アカウンツ、フィジカル エヴィデンス、アンド イクイップメント レコーズ ビフォア ネイミング ア コーズ。",
+    "japaneseTranslation": "目に見える被害だけでは、なぜ爆発が起きたかは分からない。調査員は原因を特定する前に、目撃証言、物的証拠、設備記録を比較する。",
+    "theme": "爆発原因と証拠の区別",
+    "coreVerb": "compare",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Investigators compare evidence.",
+        "translation": "調査員は証拠を比較する。"
+      },
+      "phase2": {
+        "sentence": "Investigators compare accounts, evidence, and records.",
+        "translation": "調査員は証言、証拠、記録を比較する。",
+        "addedChunks": "accounts, evidence, and recordsを加えて調査資料を具体化"
+      },
+      "phase3": {
+        "sentence": "Investigators compare them because damage alone does not reveal the cause.",
+        "translation": "被害だけでは原因が分からないため、調査員はそれらを比較する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Several sources are more informative than one visible clue.",
+        "translation": "複数の資料は、一つの目に見える手掛かりより多くの情報を与える。",
+        "comparison": "more informative than"
+      },
+      "phase5": {
+        "sentence": "Visible damage does not reveal why an explosion occurred; investigators compare witness accounts, physical evidence, and equipment records before naming a cause.",
+        "translation": "目に見える被害だけでは、なぜ爆発が起きたかは分からない。調査員は原因を特定する前に、目撃証言、物的証拠、設備記録を比較する。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Visible damage does not reveal",
+          "function": "行動",
+          "translation": "目に見える被害だけでは明らかにならない"
+        },
+        {
+          "text": "why an explosion occurred;",
+          "function": "内容",
+          "translation": "なぜ爆発が起きたかは"
+        },
+        {
+          "text": "investigators compare",
+          "function": "行動",
+          "translation": "調査員は比較する"
+        },
+        {
+          "text": "witness accounts, physical evidence, and equipment records",
+          "function": "対象",
+          "translation": "目撃証言、物的証拠、設備記録を"
+        },
+        {
+          "text": "before naming a cause.",
+          "function": "時間",
+          "translation": "原因を特定する前に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "否定",
+          "name": "does not + 動詞原形",
+          "where": "does not reveal",
+          "explanation": "単数主語damageに対する現在形の否定を表す。",
+          "rule": "単数主語 + does not + 動詞原形"
+        },
+        {
+          "category": "名詞節",
+          "name": "間接疑問のwhy節",
+          "where": "why an explosion occurred",
+          "explanation": "何が明らかにならないのかを、疑問詞の後ろを平叙文語順にして示す。",
+          "rule": "why + 主語 + 動詞"
+        },
+        {
+          "category": "時制",
+          "name": "過去形occurred",
+          "where": "an explosion occurred",
+          "explanation": "すでに起きた出来事を過去形で表す。",
+          "rule": "occurの過去形 = occurred"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "occurred; investigators",
+          "explanation": "意味が密接な二つの独立節を接続詞なしで結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "並列",
+          "name": "三項目の列挙",
+          "where": "accounts, physical evidence, and equipment records",
+          "explanation": "調査で比較する三種類の資料を同じ文法上の役割で並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "動名詞",
+          "name": "before + 動名詞",
+          "where": "before naming a cause",
+          "explanation": "原因特定より先に資料を比較する順序を示す。",
+          "rule": "before + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Visible damage does not reveals the cause.",
+          "correct": "Visible damage does not reveal the cause.",
+          "why": "does notの後ろは動詞原形revealにする。"
+        },
+        {
+          "wrong": "The report explains why did the explosion occur.",
+          "correct": "The report explains why the explosion occurred.",
+          "why": "間接疑問では疑問文語順にせず、主語the explosionを動詞occurredの前に置く。"
+        },
+        {
+          "wrong": "Investigators compare evidence before name a cause.",
+          "correct": "Investigators compare evidence before naming a cause.",
+          "why": "前置詞beforeの後ろで行為を表すときは動名詞namingを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Investigators need more than visible damage to identify a cause.",
+          "translation": "調査員が原因を特定するには、目に見える被害以上の情報が必要だ。"
+        },
+        {
+          "text": "Witness statements and equipment records may support different parts of the investigation.",
+          "translation": "目撃証言と設備記録は、調査の異なる部分を支えることがある。"
+        },
+        {
+          "text": "A cause should be named only after the available evidence has been compared.",
+          "translation": "原因は、利用可能な証拠を比較した後に特定されるべきだ。"
+        }
+      ],
+      "parseTree": "S(Visible damage) Aux(does not) V(reveal) O(why an explosion occurred); S(investigators) V(compare) O(witness accounts, physical evidence, and equipment records) Adv(before naming a cause)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because damage alone is ambiguous",
+          "expanded": "because similar visible damage can result from different mechanical, electrical, or human causes",
+          "nuance": "外見だけから単一原因を選べない理由を示す。"
+        },
+        {
+          "original": "because sources answer different questions",
+          "expanded": "since witness accounts describe events while records and physical evidence preserve other details",
+          "nuance": "資料ごとの役割の違いを説明する。"
+        },
+        {
+          "original": "because comparison exposes inconsistencies",
+          "expanded": "as comparing timelines and physical traces can reveal where an early explanation does not fit",
+          "nuance": "複数資料を照合する価値を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Witness accounts, physical evidence, and equipment records are compared before a cause is named.",
+          "translation": "原因が特定される前に、目撃証言、物的証拠、設備記録が比較される。",
+          "note": "調査資料と原因を主語にした受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Comparing several sources, investigators test possible explanations for the explosion.",
+          "translation": "複数の資料を比較し、調査員は爆発について考えられる説明を検証する。",
+          "note": "調査手段を分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The comparison of evidence should precede the identification of a cause.",
+          "translation": "証拠の比較は、原因の特定に先行すべきだ。",
+          "note": "compareとidentifyをcomparisonとidentificationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "evidence",
+            "alternatives": [
+              "proof",
+              "findings",
+              "material traces"
+            ],
+            "nuance": "evidenceは判断材料全般、proofは決定的な証明、findingsは調査結果を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Damage shows what happened, whereas evidence may explain why it happened.",
+            "translation": "被害は何が起きたかを示す一方、証拠はなぜ起きたかを説明し得る。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A consistent timeline is more useful than a single dramatic image.",
+            "translation": "整合した時系列は、一枚の衝撃的な画像より役に立つ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the records conflict with a witness account, investigators examine the difference.",
+            "translation": "記録が目撃証言と食い違えば、調査員はその差を調べる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is whether the explanation fits all available evidence.",
+            "translation": "重要なのは、その説明が利用可能な証拠すべてに合うかどうかだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Damage is visible; causes require evidence.",
+            "translation": "被害は見えるが、原因には証拠が必要だ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "被害の外観と原因調査を二つの独立節で分けた。セミコロンを含むが、因果の飛躍はなく一読で理解できる。"
+    }
+  },
+  {
+    "_no": 45,
+    "_generatedAt": "2026-07-28T02:00:00+09:00",
+    "sentence": "Several recent disasters can make a region feel less safe, but long-term records are needed to determine whether the risk has actually increased.",
+    "phonetic": "セヴェラル リーセント ディザスターズ キャン メイク ア リージョン フィール レス セイフ、バット ロングターム レコーズ アー ニーディド トゥ ディターミン ウェザー ザ リスク ハズ アクチュアリー インクリースト。",
+    "japaneseTranslation": "最近いくつかの災害が起きると、その地域が以前より安全でないように感じられる。しかし、危険が実際に増したかを判断するには長期的な記録が必要だ。",
+    "theme": "災害増加の印象と長期記録",
+    "coreVerb": "determine",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I examine long-term records.",
+        "translation": "私は長期的な記録を調べる。"
+      },
+      "phase2": {
+        "sentence": "I examine long-term records of regional disasters.",
+        "translation": "私は地域災害の長期的な記録を調べる。",
+        "addedChunks": "of regional disastersを加えて記録の対象を明示"
+      },
+      "phase3": {
+        "sentence": "I examine them because recent events can shape perception.",
+        "translation": "最近の出来事は認識を形づくり得るため、私はそれらを調べる。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Long-term records are more reliable than a recent impression.",
+        "translation": "長期的な記録は、最近の印象より信頼できる。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "Several recent disasters can make a region feel less safe, but long-term records are needed to determine whether the risk has actually increased.",
+        "translation": "最近いくつかの災害が起きると、その地域が以前より安全でないように感じられる。しかし、危険が実際に増したかを判断するには長期的な記録が必要だ。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Several recent disasters can make",
+          "function": "行動",
+          "translation": "最近いくつかの災害が〜させ得る"
+        },
+        {
+          "text": "a region feel less safe,",
+          "function": "状態",
+          "translation": "その地域が以前より安全でないように感じられる"
+        },
+        {
+          "text": "but long-term records are needed",
+          "function": "接続",
+          "translation": "しかし長期的な記録が必要だ"
+        },
+        {
+          "text": "to determine",
+          "function": "目的",
+          "translation": "判断するために"
+        },
+        {
+          "text": "whether the risk has actually increased.",
+          "function": "内容",
+          "translation": "危険が実際に増したかどうかを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "数量",
+          "name": "several + 複数名詞",
+          "where": "Several recent disasters",
+          "explanation": "数件の出来事を表すため、severalの後ろに複数形を置く。",
+          "rule": "several + 複数名詞"
+        },
+        {
+          "category": "使役",
+          "name": "make + 目的語 + 動詞原形",
+          "where": "make a region feel",
+          "explanation": "出来事が地域への感じ方を変えることを表す。",
+          "rule": "make + O + 動詞原形"
+        },
+        {
+          "category": "比較",
+          "name": "less + 形容詞",
+          "where": "feel less safe",
+          "explanation": "安全だと感じる程度が下がることを表す。",
+          "rule": "less + 形容詞"
+        },
+        {
+          "category": "接続",
+          "name": "対照のbut",
+          "where": "but long-term records",
+          "explanation": "最近の印象と、判断に必要な長期記録を対照する。",
+          "rule": "文, but + 文"
+        },
+        {
+          "category": "受動態",
+          "name": "be needed",
+          "where": "records are needed",
+          "explanation": "判断に必要とされる資料を主語にする。",
+          "rule": "be動詞 + 過去分詞"
+        },
+        {
+          "category": "名詞節",
+          "name": "whether節",
+          "where": "whether the risk has actually increased",
+          "explanation": "危険が増えたかどうかという判断内容を示す。",
+          "rule": "whether + 主語 + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Several recent disaster can shape perception.",
+          "correct": "Several recent disasters can shape perception.",
+          "why": "severalの後ろは複数名詞disastersにする。"
+        },
+        {
+          "wrong": "Recent events can make a region feels less safe.",
+          "correct": "Recent events can make a region feel less safe.",
+          "why": "使役動詞makeの目的語の後ろは動詞原形feelにする。"
+        },
+        {
+          "wrong": "Records are needed to determine whether has the risk increased.",
+          "correct": "Records are needed to determine whether the risk has increased.",
+          "why": "間接疑問のwhether節では疑問文語順にせず、主語the riskを助動詞hasの前に置く。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Recent events can change perception without proving a long-term trend.",
+          "translation": "最近の出来事は、長期的な傾向を証明しなくても認識を変え得る。"
+        },
+        {
+          "text": "I compare current disasters with consistent historical records.",
+          "translation": "私は現在の災害を一貫した過去の記録と比較する。"
+        },
+        {
+          "text": "A cluster of events may be real even when the broader trend is unclear.",
+          "translation": "より大きな傾向が不明でも、出来事の集中自体は現実に起こり得る。"
+        }
+      ],
+      "parseTree": "S(Several recent disasters) Aux(can) V(make) O(a region) C(feel less safe), Conj(but) S(long-term records) V(are needed) Inf(to determine) O(whether the risk has actually increased)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because recent events are vivid",
+          "expanded": "because several memorable disasters in a short period can dominate our sense of regional risk",
+          "nuance": "最近の出来事が印象を強める仕組みを示す。"
+        },
+        {
+          "original": "because trends require a stable comparison",
+          "expanded": "since changes in reporting, population, and observation periods can alter raw counts",
+          "nuance": "単純な件数比較の注意点を示す。"
+        },
+        {
+          "original": "because risk has several dimensions",
+          "expanded": "as frequency, severity, exposure, and preparedness may change in different directions",
+          "nuance": "危険の増減を単一尺度で断定しない。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A region may be perceived as less safe after several recent disasters.",
+          "translation": "最近いくつかの災害が起きると、その地域は以前より安全でないと認識されることがある。",
+          "note": "地域への認識を受動態で表す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Comparing recent events with long-term records, researchers can test whether risk has increased.",
+          "translation": "最近の出来事と長期記録を比較することで、研究者は危険が増えたかを検証できる。",
+          "note": "検証方法を分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The determination of a long-term trend requires consistent records.",
+          "translation": "長期的な傾向の判断には、一貫した記録が必要だ。",
+          "note": "determineをdeterminationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "risk",
+            "alternatives": [
+              "danger",
+              "hazard",
+              "exposure"
+            ],
+            "nuance": "riskは発生可能性と影響、hazardは危険要因、exposureは危険にさらされる度合いを示す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Recent disasters shape public perception, whereas long-term records test the trend.",
+            "translation": "最近の災害は人々の認識を形づくる一方、長期記録は傾向を検証する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A decade of consistent data is more informative than a few memorable events.",
+            "translation": "一貫した10年分のデータは、記憶に残る数件の出来事より多くの情報を与える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If reporting methods changed, raw event counts may not be directly comparable.",
+            "translation": "報告方法が変わったなら、出来事の単純件数は直接比較できないことがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What must be tested is the long-term change in risk, not the strength of a recent impression.",
+            "translation": "検証すべきなのは長期的な危険の変化であり、最近の印象の強さではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Recent events shape impressions; records test trends.",
+            "translation": "最近の出来事は印象をつくり、記録が傾向を検証する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "最近の印象と長期傾向を対照し、危険増加の判断に必要な資料を明示した。専門的断定を避けつつ比較尺度を揃えている。"
+    }
+  }
+]
