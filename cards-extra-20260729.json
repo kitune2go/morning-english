@@ -1,0 +1,695 @@
+[
+  {
+    "_no": 46,
+    "_generatedAt": "2026-07-29T02:00:00+09:00",
+    "sentence": "Near the source of a shallow inland earthquake, strong shaking can arrive before the warning reaches people because detection, analysis, and transmission all take time.",
+    "phonetic": "ニア ザ ソース オブ ア シャロウ インランド アースクウェイク、ストロング シェイキング キャン アライヴ ビフォア ザ ウォーニング リーチズ ピープル ビコーズ ディテクション、アナリシス、アンド トランスミッション オール テイク タイム。",
+    "japaneseTranslation": "浅い内陸地震の震源近くでは、検知、解析、伝達のすべてに時間がかかるため、警報が人々に届く前に強い揺れが到達することがある。",
+    "theme": "内陸地震と緊急地震速報",
+    "coreVerb": "reach",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The warning reaches people.",
+        "translation": "警報が人々に届く。"
+      },
+      "phase2": {
+        "sentence": "The warning reaches people before strong shaking.",
+        "translation": "警報が強い揺れより先に人々へ届く。",
+        "addedChunks": "before strong shakingを加えて到達順序を明示"
+      },
+      "phase3": {
+        "sentence": "The warning may arrive late because detection and analysis take time.",
+        "translation": "検知と解析に時間がかかるため、警報が遅れて届くことがある。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "The available warning time is shorter near the source than farther away.",
+        "translation": "利用できる警告時間は、遠方より震源近くの方が短い。",
+        "comparison": "shorter ... than"
+      },
+      "phase5": {
+        "sentence": "Near the source of a shallow inland earthquake, strong shaking can arrive before the warning reaches people because detection, analysis, and transmission all take time.",
+        "translation": "浅い内陸地震の震源近くでは、検知、解析、伝達のすべてに時間がかかるため、警報が人々に届く前に強い揺れが到達することがある。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Near the source of a shallow inland earthquake,",
+          "function": "場所",
+          "translation": "浅い内陸地震の震源近くでは"
+        },
+        {
+          "text": "strong shaking can arrive",
+          "function": "行動",
+          "translation": "強い揺れが到達することがある"
+        },
+        {
+          "text": "before the warning reaches people",
+          "function": "時間",
+          "translation": "警報が人々に届く前に"
+        },
+        {
+          "text": "because detection, analysis, and transmission",
+          "function": "理由",
+          "translation": "検知、解析、伝達のすべてが"
+        },
+        {
+          "text": "all take time.",
+          "function": "状態",
+          "translation": "時間を必要とするため"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "前置詞",
+          "name": "near + 名詞",
+          "where": "Near a shallow inland earthquake",
+          "explanation": "震源に近い場所という空間的条件を示す。",
+          "rule": "near + 名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "可能性のcan",
+          "where": "can arrive",
+          "explanation": "速報が間に合わない場合があるという可能性を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "接続",
+          "name": "beforeによる時間節",
+          "where": "before the warning reaches people",
+          "explanation": "強い揺れと警報到達の順序を示す。",
+          "rule": "before + 主語 + 動詞"
+        },
+        {
+          "category": "接続",
+          "name": "理由を示すbecause",
+          "where": "because detection, analysis, and transmission",
+          "explanation": "速報が遅れ得る仕組み上の理由を示す。",
+          "rule": "because + 主語 + 動詞"
+        },
+        {
+          "category": "並列",
+          "name": "三つの名詞の並列",
+          "where": "detection, analysis, and transmission",
+          "explanation": "速報に必要な三工程を同じ役割で並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "一致",
+          "name": "複数主語とtake",
+          "where": "detection, analysis, and transmission all take",
+          "explanation": "andで結ばれた複数主語なので動詞はtakeを使う。",
+          "rule": "複数主語 + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Strong shaking can arrives before the warning.",
+          "correct": "Strong shaking can arrive before the warning.",
+          "why": "助動詞canの後ろは動詞原形arriveにする。"
+        },
+        {
+          "wrong": "The warning reach people after several seconds.",
+          "correct": "The warning reaches people after several seconds.",
+          "why": "単数主語warningの現在形なのでreachesにする。"
+        },
+        {
+          "wrong": "Detection, analysis, and transmission takes time.",
+          "correct": "Detection, analysis, and transmission take time.",
+          "why": "三つの名詞をandで結んだ複数主語なのでtakeを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "An early warning cannot always outrun strong shaking near the source.",
+          "translation": "震源近くでは、早期警報が必ずしも強い揺れより先に届くとは限らない。"
+        },
+        {
+          "text": "The system detects the first waves before estimating the stronger shaking.",
+          "translation": "システムは強い揺れを推定する前に最初の地震波を検知する。"
+        },
+        {
+          "text": "People close to the source may receive little or no warning time.",
+          "translation": "震源近くの人々には警告の猶予がほとんど、または全くないことがある。"
+        }
+      ],
+      "parseTree": "Adv(Near the source of a shallow inland earthquake), S(strong shaking) Aux(can) V(arrive) Adv(before the warning reaches people) AdvClause(because S(detection, analysis, and transmission) Adv(all) V(take) O(time))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because processing takes time",
+          "expanded": "because sensors must detect the first waves before computers estimate the source and expected shaking",
+          "nuance": "検知から推定までの工程を具体化する。"
+        },
+        {
+          "original": "because transmission is not instantaneous",
+          "expanded": "since the warning must travel through communication systems before it reaches each device",
+          "nuance": "解析後にも伝達時間が必要なことを示す。"
+        },
+        {
+          "original": "because the source is close",
+          "expanded": "as strong waves have only a short distance to travel to nearby communities",
+          "nuance": "震源距離が猶予時間を短くする理由を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Very little warning time may be available near a shallow inland earthquake.",
+          "translation": "浅い内陸地震の震源近くでは、利用できる警告時間がごく短いことがある。",
+          "note": "警告時間を主語にした受動的表現。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Requiring detection, analysis, and transmission, the warning system cannot always reach nearby people first.",
+          "translation": "検知、解析、伝達を必要とするため、警報システムは必ずしも震源近くの人々へ先に届かない。",
+          "note": "必要な工程を分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The detection and transmission of an alert require several processing steps.",
+          "translation": "警報の検知と伝達には、いくつもの処理段階が必要だ。",
+          "note": "detectとtransmitをdetectionとtransmissionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "warning",
+            "alternatives": [
+              "alert",
+              "early warning",
+              "emergency notice"
+            ],
+            "nuance": "alertは短い警告、early warningは事前性、emergency noticeは緊急通知を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "因果",
+            "sentence": "Because the source is nearby, strong shaking may arrive almost immediately.",
+            "translation": "震源が近いため、強い揺れがほぼ直ちに到達することがある。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Warning time is generally shorter near the source than in distant areas.",
+            "translation": "警告時間は一般に、遠方より震源近くの方が短い。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the earthquake is shallow and nearby, the alert may not arrive first.",
+            "translation": "地震が浅く近ければ、警報が先に届かないことがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What limits the warning is the time required to detect, analyze, and transmit it.",
+            "translation": "警報を制限するのは、検知、解析、伝達に必要な時間だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Near the source, shaking may beat the alert.",
+            "translation": "震源近くでは、揺れが警報より先に来ることがある。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "気象庁が示す速報の原理的限界を、震源距離と処理工程に分けて表した。列挙はあるが主語と因果関係は明確。"
+    }
+  },
+  {
+    "_no": 47,
+    "_generatedAt": "2026-07-29T02:00:00+09:00",
+    "sentence": "Reusable personality modules need defined inputs and outputs; without a shared data contract, their traits blur together inside one language model.",
+    "phonetic": "リユーザブル パーソナリティ モジュールズ ニード ディファインド インプッツ アンド アウトプッツ；ウィズアウト ア シェアド データ コントラクト、ゼア トレイツ ブラー トゥゲザー インサイド ワン ラングウィッジ モデル。",
+    "japaneseTranslation": "再利用可能な人格モジュールには、定義された入力と出力が必要だ。共有されたデータ契約がなければ、それぞれの特性は一つの言語モデル内で混ざり合ってしまう。",
+    "theme": "人格モジュールとデータ契約",
+    "coreVerb": "define",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Modules need interfaces.",
+        "translation": "モジュールにはインターフェースが必要だ。"
+      },
+      "phase2": {
+        "sentence": "Reusable modules need defined inputs and outputs.",
+        "translation": "再利用可能なモジュールには定義された入力と出力が必要だ。",
+        "addedChunks": "defined inputs and outputsを加えて境界条件を具体化"
+      },
+      "phase3": {
+        "sentence": "Modules need interfaces because their behavior must remain separable.",
+        "translation": "振る舞いを分離可能に保つ必要があるため、モジュールにはインターフェースが必要だ。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A typed interface is clearer than an informal prompt.",
+        "translation": "型のあるインターフェースは、非形式的なプロンプトより明確だ。",
+        "comparison": "clearer than"
+      },
+      "phase5": {
+        "sentence": "Reusable personality modules need defined inputs and outputs; without a shared data contract, their traits blur together inside one language model.",
+        "translation": "再利用可能な人格モジュールには、定義された入力と出力が必要だ。共有されたデータ契約がなければ、それぞれの特性は一つの言語モデル内で混ざり合ってしまう。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Reusable personality modules need",
+          "function": "行動",
+          "translation": "再利用可能な人格モジュールには必要だ"
+        },
+        {
+          "text": "defined inputs and outputs;",
+          "function": "対象",
+          "translation": "定義された入力と出力が"
+        },
+        {
+          "text": "without a shared data contract,",
+          "function": "状態",
+          "translation": "共有されたデータ契約がなければ"
+        },
+        {
+          "text": "their traits blur together",
+          "function": "結果",
+          "translation": "それぞれの特性は混ざり合う"
+        },
+        {
+          "text": "inside one language model.",
+          "function": "場所",
+          "translation": "一つの言語モデル内で"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "形容詞",
+          "name": "reusableの前置修飾",
+          "where": "Reusable personality modules",
+          "explanation": "繰り返し利用できるという性質をmodulesに加える。",
+          "rule": "形容詞 + 名詞"
+        },
+        {
+          "category": "分詞",
+          "name": "過去分詞defined",
+          "where": "defined inputs and outputs",
+          "explanation": "あらかじめ仕様が定められた入力と出力を表す。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "inputs and outputs",
+          "where": "inputs and outputs",
+          "explanation": "インターフェースの二方向をandで並列する。",
+          "rule": "A and B"
+        },
+        {
+          "category": "前置詞",
+          "name": "withoutによる条件",
+          "where": "without a shared data contract",
+          "explanation": "契約が存在しない条件を簡潔に表す。",
+          "rule": "without + 名詞句"
+        },
+        {
+          "category": "所有格",
+          "name": "theirの参照",
+          "where": "their traits",
+          "explanation": "複数名詞personality modulesを受け、それぞれの特性を示す。",
+          "rule": "複数名詞 → their"
+        },
+        {
+          "category": "句動詞",
+          "name": "blur together",
+          "where": "traits blur together",
+          "explanation": "複数の特性の境界が不明確になり混ざることを表す。",
+          "rule": "blur together"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Reusable modules needs defined inputs.",
+          "correct": "Reusable modules need defined inputs.",
+          "why": "主語modulesが複数なので動詞はneedを使う。"
+        },
+        {
+          "wrong": "Each module need a clear interface.",
+          "correct": "Each module needs a clear interface.",
+          "why": "each moduleは単数扱いなのでneedsにする。"
+        },
+        {
+          "wrong": "Without a contract, their traits blurs together.",
+          "correct": "Without a contract, their traits blur together.",
+          "why": "主語traitsが複数なのでblurを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A module becomes reusable when its boundaries are explicit.",
+          "translation": "モジュールは境界が明示されると再利用可能になる。"
+        },
+        {
+          "text": "Personality traits cannot remain independent without a common interface.",
+          "translation": "共通インターフェースがなければ、人格特性は独立したまま保てない。"
+        },
+        {
+          "text": "Defining the data flow matters more than naming separate traits.",
+          "translation": "別々の特性に名前を付けることより、データの流れを定義することが重要だ。"
+        }
+      ],
+      "parseTree": "S(Reusable personality modules) V(need) O(defined inputs and outputs); Adv(without a shared data contract), S(their traits) V(blur together) Adv(inside one language model)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because boundaries enable reuse",
+          "expanded": "because a module can be replaced safely only when its expected input and output remain stable",
+          "nuance": "交換可能性と契約の関係を具体化する。"
+        },
+        {
+          "original": "because prompts share one context",
+          "expanded": "since instructions placed in the same language-model context can influence one another",
+          "nuance": "独立モジュールのように見えても相互干渉する理由を示す。"
+        },
+        {
+          "original": "because types constrain composition",
+          "expanded": "as a shared schema specifies what information may move between components",
+          "nuance": "自由な組み合わせを支える制約の役割を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Inputs and outputs must be defined before personality modules can be reused.",
+          "translation": "人格モジュールを再利用する前に、入力と出力が定義されなければならない。",
+          "note": "定義される対象を主語にした受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Sharing one unstructured context, personality traits tend to influence one another.",
+          "translation": "一つの非構造化コンテキストを共有すると、人格特性は互いに影響しやすい。",
+          "note": "共有条件を分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The definition of a data contract supports modular composition.",
+          "translation": "データ契約の定義は、モジュール式の合成を支える。",
+          "note": "defineをdefinitionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "data contract",
+            "alternatives": [
+              "interface specification",
+              "schema",
+              "input-output agreement"
+            ],
+            "nuance": "schemaはデータ構造、interface specificationは接続規則全体、agreementは役割の合意を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "条件",
+            "sentence": "Without explicit interfaces, separate traits behave like overlapping instructions.",
+            "translation": "明示的なインターフェースがなければ、別々の特性は重なった指示のように振る舞う。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A defined schema is easier to test than a loose collection of prompts.",
+            "translation": "定義されたスキーマは、緩いプロンプトの集合よりテストしやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If every module follows the same contract, components can be exchanged more safely.",
+            "translation": "各モジュールが同じ契約に従えば、構成要素をより安全に交換できる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What makes modularity possible is the contract between components.",
+            "translation": "モジュール化を可能にするのは、構成要素間の契約だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Clear contracts keep modules separate.",
+            "translation": "明確な契約がモジュールを分離して保つ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "人格モジュールの問題を、名称ではなく入出力契約の欠如として説明した。技術比喩を使うが、二文の論理関係は明確。"
+    }
+  },
+  {
+    "_no": 48,
+    "_generatedAt": "2026-07-29T02:00:00+09:00",
+    "sentence": "A binary classification may look objective even when its categories merely turn a personal reaction into a verdict about someone else.",
+    "phonetic": "ア バイナリー クラシフィケイション メイ ルック オブジェクティヴ イーヴン ウェン イッツ カテゴリーズ ミアリー ターン ア パーソナル リアクション イントゥ ア ヴァーディクト アバウト サムワン エルス。",
+    "japaneseTranslation": "二値分類は、そのカテゴリーが個人的な反応を他人についての判定に変えているだけでも、客観的に見えることがある。",
+    "theme": "二値分類と感想の客観化",
+    "coreVerb": "turn",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A classification looks objective.",
+        "translation": "分類は客観的に見える。"
+      },
+      "phase2": {
+        "sentence": "A binary classification may look objective.",
+        "translation": "二値分類は客観的に見えることがある。",
+        "addedChunks": "binaryとmayを加えて分類形式と可能性を明示"
+      },
+      "phase3": {
+        "sentence": "A classification may look objective because categories hide personal judgment.",
+        "translation": "カテゴリーが個人的判断を隠すため、分類は客観的に見えることがある。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A measured claim is more precise than a personal verdict.",
+        "translation": "測定された主張は、個人的な判定より精密だ。",
+        "comparison": "more precise than"
+      },
+      "phase5": {
+        "sentence": "A binary classification may look objective even when its categories merely turn a personal reaction into a verdict about someone else.",
+        "translation": "二値分類は、そのカテゴリーが個人的な反応を他人についての判定に変えているだけでも、客観的に見えることがある。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A binary classification may look objective",
+          "function": "状態",
+          "translation": "二値分類は客観的に見えることがある"
+        },
+        {
+          "text": "even when its categories",
+          "function": "接続",
+          "translation": "そのカテゴリーが〜する場合でさえ"
+        },
+        {
+          "text": "merely turn",
+          "function": "行動",
+          "translation": "単に変えている"
+        },
+        {
+          "text": "a personal reaction into a verdict",
+          "function": "結果",
+          "translation": "個人的な反応を判定に"
+        },
+        {
+          "text": "about someone else.",
+          "function": "対象",
+          "translation": "他人についての"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "可能性のmay",
+          "where": "may look objective",
+          "explanation": "常にそうだと断定せず、客観的に見える場合があることを表す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "連結動詞",
+          "name": "look + 形容詞",
+          "where": "look objective",
+          "explanation": "外見上どのように映るかを形容詞objectiveで表す。",
+          "rule": "look + 形容詞"
+        },
+        {
+          "category": "譲歩",
+          "name": "even when",
+          "where": "even when its categories",
+          "explanation": "後半の条件でも前半の見かけが成立することを強調する。",
+          "rule": "even when + 主語 + 動詞"
+        },
+        {
+          "category": "所有格",
+          "name": "itsの参照",
+          "where": "its categories",
+          "explanation": "単数名詞classificationを受け、その分類に属するカテゴリーを示す。",
+          "rule": "単数の物・概念 → its"
+        },
+        {
+          "category": "副詞",
+          "name": "merelyの位置",
+          "where": "merely turn",
+          "explanation": "行為が「単に〜するだけ」であることを動詞の前で限定する。",
+          "rule": "merely + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "turn A into B",
+          "where": "turn a personal reaction into a verdict",
+          "explanation": "個人的反応が他人への判定へ変換されることを表す。",
+          "rule": "turn A into B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A binary classification may looks objective.",
+          "correct": "A binary classification may look objective.",
+          "why": "助動詞mayの後ろは動詞原形lookにする。"
+        },
+        {
+          "wrong": "Its categories turns a reaction into a verdict.",
+          "correct": "Its categories turn a reaction into a verdict.",
+          "why": "主語categoriesが複数なのでturnを使う。"
+        },
+        {
+          "wrong": "The label turns a reaction to a verdict.",
+          "correct": "The label turns a reaction into a verdict.",
+          "why": "「AをBに変える」はturn A into Bを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A neat label can hide the personal judgment behind it.",
+          "translation": "整ったラベルは、その背後にある個人的判断を隠し得る。"
+        },
+        {
+          "text": "Dividing people into two types does not make the standard objective.",
+          "translation": "人々を二種類に分けても、その基準が客観的になるわけではない。"
+        },
+        {
+          "text": "A reaction becomes misleading when it is presented as a fact about another person.",
+          "translation": "反応を他人についての事実として示すと、誤解を招くものになる。"
+        }
+      ],
+      "parseTree": "S(A binary classification) Aux(may) V(look) C(objective) AdvClause(even when S(its categories) Adv(merely) V(turn) O(a personal reaction) Comp(into a verdict about someone else))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because categories appear systematic",
+          "expanded": "because a two-part scheme can resemble a formal test even when no measured standard supports it",
+          "nuance": "形式の整然さと基準の客観性を分ける。"
+        },
+        {
+          "original": "because the speaker disappears from the sentence",
+          "expanded": "since the label presents a personal reaction as if it were a property of the other person",
+          "nuance": "感情の主体が省かれる効果を示す。"
+        },
+        {
+          "original": "because verdicts close discussion",
+          "expanded": "as a fixed category can replace further observation with an immediate conclusion",
+          "nuance": "分類が検討を終わらせる働きを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A personal reaction may be presented as an objective verdict through binary classification.",
+          "translation": "個人的な反応が、二値分類によって客観的な判定として示されることがある。",
+          "note": "提示される反応を主語にした受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Dividing people into two types, the speaker may conceal a personal standard.",
+          "translation": "人々を二種類に分けることで、話者は個人的な基準を隠すことがある。",
+          "note": "分類行為を分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The conversion of a reaction into a verdict creates a false appearance of objectivity.",
+          "translation": "反応を判定へ変換することは、客観性の誤った外観を生む。",
+          "note": "convertをconversionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "verdict",
+            "alternatives": [
+              "judgment",
+              "ruling",
+              "conclusion"
+            ],
+            "nuance": "verdictは決定的な判定、judgmentは一般的評価、conclusionは検討後の結論を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "譲歩",
+            "sentence": "Even if a label sounds neutral, its standard may remain personal.",
+            "translation": "ラベルが中立的に聞こえても、その基準は個人的なままかもしれない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A defined measure is more objective than an unexamined reaction.",
+            "translation": "定義された尺度は、検討されていない反応より客観的だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a category depends only on preference, it should not be treated as a fact.",
+            "translation": "カテゴリーが好みにしか依存しないなら、事実として扱うべきではない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What looks like classification may actually be personal approval or disapproval.",
+            "translation": "分類に見えるものが、実際には個人的な承認や不承認である場合がある。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "A label can disguise a reaction as a verdict.",
+            "translation": "ラベルは反応を判定に見せかけ得る。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "二値分類の形式と判断基準の客観性を分離した。抽象度は高いが、turn A into Bによって変換過程を具体的に示している。"
+    }
+  }
+]
