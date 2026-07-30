@@ -1,0 +1,716 @@
+[
+  {
+    "_no": 49,
+    "_generatedAt": "2026-07-30T02:00:00+09:00",
+    "sentence": "When documenting a new band saw, I record every manual adjustment, lubrication point, and reset procedure before operators begin regular work.",
+    "phonetic": "ウェン ドキュメンティング ア ニュー バンド ソー、アイ レコード エヴリ マニュアル アジャストメント、ルーブリケイション ポイント、アンド リセット プロシージャー ビフォア オペレイターズ ビギン レギュラー ワーク。",
+    "japaneseTranslation": "新しいバンドソーについて文書化するとき、私は作業者が通常作業を始める前に、手動調整、給脂箇所、復旧手順をすべて記録する。",
+    "theme": "バンドソーの操作・保全記録",
+    "coreVerb": "record",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I record procedures.",
+        "translation": "私は手順を記録する。"
+      },
+      "phase2": {
+        "sentence": "I record adjustments and maintenance procedures.",
+        "translation": "私は調整方法と保全手順を記録する。",
+        "addedChunks": "adjustments and maintenance proceduresを加えて記録対象を具体化"
+      },
+      "phase3": {
+        "sentence": "I record them because operators need repeatable instructions.",
+        "translation": "作業者には再現可能な指示が必要なので、私はそれらを記録する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Written instructions are more reliable than memory alone.",
+        "translation": "書かれた指示は、記憶だけより信頼できる。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "When documenting a new band saw, I record every manual adjustment, lubrication point, and reset procedure before operators begin regular work.",
+        "translation": "新しいバンドソーについて文書化するとき、私は作業者が通常作業を始める前に、手動調整、給脂箇所、復旧手順をすべて記録する。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When documenting a new band saw,",
+          "function": "時間",
+          "translation": "新しいバンドソーについて文書化するとき"
+        },
+        {
+          "text": "I record",
+          "function": "行動",
+          "translation": "私は記録する"
+        },
+        {
+          "text": "every manual adjustment, lubrication point, and reset procedure",
+          "function": "対象",
+          "translation": "手動調整、給脂箇所、復旧手順をすべて"
+        },
+        {
+          "text": "before operators begin",
+          "function": "時間",
+          "translation": "作業者が始める前に"
+        },
+        {
+          "text": "regular work.",
+          "function": "対象",
+          "translation": "通常作業を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "when + 動名詞",
+          "where": "When documenting",
+          "explanation": "主節と同じ主語Iを省略し、文書化する場面を簡潔に示す。",
+          "rule": "when + 動詞-ing"
+        },
+        {
+          "category": "限定詞",
+          "name": "every + 単数名詞",
+          "where": "every manual adjustment",
+          "explanation": "個々の調整を漏れなく記録する意味で、everyの後ろに単数名詞を置く。",
+          "rule": "every + 単数名詞"
+        },
+        {
+          "category": "並列",
+          "name": "三項目の列挙",
+          "where": "adjustment, lubrication point, and reset procedure",
+          "explanation": "三種類の記録対象を同じ文法上の役割で並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "複合名詞",
+          "name": "lubrication point",
+          "where": "lubrication point",
+          "explanation": "給脂する場所を名詞同士の組み合わせで表す。",
+          "rule": "名詞 + 名詞"
+        },
+        {
+          "category": "接続",
+          "name": "beforeによる時間節",
+          "where": "before operators begin",
+          "explanation": "記録を通常作業より先に行う順序を示す。",
+          "rule": "before + 主語 + 動詞"
+        },
+        {
+          "category": "一致",
+          "name": "複数主語とbegin",
+          "where": "operators begin",
+          "explanation": "主語operatorsが複数なので動詞はbeginを使う。",
+          "rule": "複数主語 + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I records every adjustment.",
+          "correct": "I record every adjustment.",
+          "why": "主語Iの現在形では動詞に-sを付けない。"
+        },
+        {
+          "wrong": "I record every manual adjustments.",
+          "correct": "I record every manual adjustment.",
+          "why": "everyの後ろは単数名詞adjustmentにする。"
+        },
+        {
+          "wrong": "Before operators begins work, I check the machine.",
+          "correct": "Before operators begin work, I check the machine.",
+          "why": "主語operatorsが複数なのでbeginを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I turn the delivery demonstration into a repeatable operating guide.",
+          "translation": "私は納入時の実演を、再現可能な操作ガイドに変える。"
+        },
+        {
+          "text": "The guide lists adjustments, lubrication points, and recovery steps.",
+          "translation": "そのガイドには調整、給脂箇所、復旧手順が記載されている。"
+        },
+        {
+          "text": "Operators review the documented checks before using the machine alone.",
+          "translation": "作業者は一人で機械を使う前に、文書化された確認事項を見直す。"
+        }
+      ],
+      "parseTree": "AdvClause(When documenting a new band saw), S(I) V(record) O(every manual adjustment, lubrication point, and reset procedure) AdvClause(before S(operators) V(begin) O(regular work))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because demonstrations are temporary",
+          "expanded": "because details shown during delivery can be forgotten once regular production begins",
+          "nuance": "実演だけでは知識が残りにくい理由を示す。"
+        },
+        {
+          "original": "because manual settings vary",
+          "expanded": "since guide positions and pressure settings may need adjustment for different materials",
+          "nuance": "材料ごとに再確認が必要な項目を示す。"
+        },
+        {
+          "original": "because recovery steps affect downtime",
+          "expanded": "as a clear reset procedure helps operators respond consistently after a protective trip",
+          "nuance": "異常復旧手順を記録する実務的価値を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Every adjustment, lubrication point, and reset procedure is recorded before regular operation begins.",
+          "translation": "通常運転が始まる前に、すべての調整、給脂箇所、復旧手順が記録される。",
+          "note": "記録対象を主語にした受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reviewing the delivery demonstration, I convert each operation into a written check.",
+          "translation": "納入時の実演を見直し、私は各操作を書面上の確認項目へ変える。",
+          "note": "文書化の手順を分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The documentation of operating and maintenance steps supports consistent training.",
+          "translation": "操作・保全手順の文書化は、一貫した教育を支える。",
+          "note": "documentをdocumentationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "record",
+            "alternatives": [
+              "document",
+              "log",
+              "write down"
+            ],
+            "nuance": "documentは体系的な文書化、logは時系列記録、write downは単純な書き留めを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "時間",
+            "sentence": "Before the machine enters regular use, each manual setting is documented.",
+            "translation": "機械が通常使用に入る前に、各手動設定が文書化される。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A written reset procedure is easier to follow than an operator's memory.",
+            "translation": "書かれた復旧手順は、作業者の記憶より従いやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a protective device trips, operators follow the documented recovery steps.",
+            "translation": "保護装置が作動したら、作業者は文書化された復旧手順に従う。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What must be preserved is the operating knowledge demonstrated during delivery.",
+            "translation": "保存すべきなのは、納入時に実演された操作知識だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Demonstrate once; document for reuse.",
+            "translation": "一度実演し、再利用のために文書化する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "実機講習を再現可能な手順へ変える目的を明確にした。列挙は長めだが、対象はいずれも操作・保全項目で統一されている。"
+    }
+  },
+  {
+    "_no": 50,
+    "_generatedAt": "2026-07-30T02:00:00+09:00",
+    "sentence": "A manufacturing process can guarantee only the dimensions it controls; later assembly must address variation outside that controlled scope.",
+    "phonetic": "ア マニュファクチャリング プロセス キャン ギャランティー オンリー ザ ディメンションズ イット コントロールズ；レイター アセンブリー マスト アドレス ヴェアリエイション アウトサイド ザット コントロールド スコープ。",
+    "japaneseTranslation": "製造工程が保証できるのは、その工程が管理する寸法だけである。その管理範囲外のばらつきは、後工程の組立で対処しなければならない。",
+    "theme": "工程能力と保証範囲",
+    "coreVerb": "guarantee",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A process controls dimensions.",
+        "translation": "工程は寸法を管理する。"
+      },
+      "phase2": {
+        "sentence": "A process controls selected dimensions from fixed reference points.",
+        "translation": "工程は固定した基準点から選定された寸法を管理する。",
+        "addedChunks": "selected dimensions from fixed reference pointsを加えて管理範囲を明示"
+      },
+      "phase3": {
+        "sentence": "A process defines its scope because not every dimension is controlled at one stage.",
+        "translation": "すべての寸法が一工程で管理されるわけではないため、工程は範囲を定める。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A defined guarantee is clearer than a vague promise of overall accuracy.",
+        "translation": "定義された保証は、全体精度についての曖昧な約束より明確だ。",
+        "comparison": "clearer than"
+      },
+      "phase5": {
+        "sentence": "A manufacturing process can guarantee only the dimensions it controls; later assembly must address variation outside that controlled scope.",
+        "translation": "製造工程が保証できるのは、その工程が管理する寸法だけである。その管理範囲外のばらつきは、後工程の組立で対処しなければならない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A manufacturing process can guarantee",
+          "function": "行動",
+          "translation": "製造工程は保証できる"
+        },
+        {
+          "text": "only the dimensions it controls;",
+          "function": "対象",
+          "translation": "その工程が管理する寸法だけを"
+        },
+        {
+          "text": "later assembly must address",
+          "function": "行動",
+          "translation": "後工程の組立は対処しなければならない"
+        },
+        {
+          "text": "variation",
+          "function": "対象",
+          "translation": "ばらつきに"
+        },
+        {
+          "text": "outside that controlled scope.",
+          "function": "場所",
+          "translation": "その管理範囲外にある"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can + 動詞原形",
+          "where": "can guarantee",
+          "explanation": "工程が保証可能な範囲を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "限定",
+          "name": "onlyの位置",
+          "where": "only the dimensions",
+          "explanation": "保証対象を管理している寸法に限定する。",
+          "rule": "only + 名詞句"
+        },
+        {
+          "category": "関係節",
+          "name": "目的格関係詞の省略",
+          "where": "the dimensions it controls",
+          "explanation": "dimensionsとit controlsの間で目的格のthatまたはwhichが省略されている。",
+          "rule": "名詞 + 主語 + 動詞"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "controls; later assembly",
+          "explanation": "工程の保証範囲と後工程の役割という密接な二つの独立節を結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "助動詞",
+          "name": "義務のmust",
+          "where": "must address",
+          "explanation": "後工程で対処する必要性を表す。",
+          "rule": "must + 動詞原形"
+        },
+        {
+          "category": "前置詞",
+          "name": "outside + 名詞",
+          "where": "outside that controlled scope",
+          "explanation": "工程が管理する範囲の外側にあるばらつきを示す。",
+          "rule": "outside + 名詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A process can guarantees every dimension.",
+          "correct": "A process can guarantee every dimension.",
+          "why": "助動詞canの後ろは動詞原形guaranteeにする。"
+        },
+        {
+          "wrong": "The process guarantee the dimensions it controls.",
+          "correct": "The process guarantees the dimensions it controls.",
+          "why": "単数主語processの現在形なのでguaranteesにする。"
+        },
+        {
+          "wrong": "Later assembly must addresses the variation.",
+          "correct": "Later assembly must address the variation.",
+          "why": "助動詞mustの後ろは動詞原形addressにする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "The inspection plan should state which dimensions the process actually controls.",
+          "translation": "検査計画には、その工程が実際に管理する寸法を明記すべきだ。"
+        },
+        {
+          "text": "Overall product accuracy may depend on later fitting and installation.",
+          "translation": "製品全体の精度は、後工程の擦り合わせや据付に依存することがある。"
+        },
+        {
+          "text": "A clear scope prevents a process check from becoming an unlimited guarantee.",
+          "translation": "明確な範囲設定は、工程内検査が無制限の保証になることを防ぐ。"
+        }
+      ],
+      "parseTree": "S(A manufacturing process) Aux(can) V(guarantee) Adv(only) O(the dimensions [Rel: it controls]); S(later assembly) Aux(must) V(address) O(variation) Adv(outside that controlled scope)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "because each stage has limited controls",
+          "expanded": "because a cutting or drilling stage measures certain features from its own fixed references",
+          "nuance": "工程ごとに基準と測定対象が異なることを示す。"
+        },
+        {
+          "original": "because assembly absorbs some variation",
+          "expanded": "since fitting, leveling, or adjustment may determine the final installed position",
+          "nuance": "最終精度が後工程でも形成されることを説明する。"
+        },
+        {
+          "original": "because an unlimited guarantee is misleading",
+          "expanded": "as claiming control over unmeasured features confuses process capability with final-product responsibility",
+          "nuance": "工程能力と最終保証の混同を避ける。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Only dimensions controlled by the process can be guaranteed at that stage.",
+          "translation": "その段階で保証できるのは、工程によって管理された寸法だけだ。",
+          "note": "保証される寸法を主語にした受動態。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using fixed reference points, the process verifies selected dimensions consistently.",
+          "translation": "固定した基準点を使うことで、工程は選定した寸法を一貫して確認する。",
+          "note": "測定方法を分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The definition of the guarantee scope separates process control from assembly responsibility.",
+          "translation": "保証範囲の定義は、工程管理と組立責任を分ける。",
+          "note": "defineとguaranteeを名詞句へ変換する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "guarantee",
+            "alternatives": [
+              "verify",
+              "assure",
+              "certify"
+            ],
+            "nuance": "verifyは確認、assureは確実性の提供、certifyは正式な証明を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "限定",
+            "sentence": "What the process guarantees is limited to the features it measures and controls.",
+            "translation": "その工程が保証するものは、測定し管理する形状に限られる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A defined tolerance is more useful than a general promise of accuracy.",
+            "translation": "定義された公差は、精度についての一般的な約束より有用だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a dimension is critical, its reference and inspection method should be specified.",
+            "translation": "寸法が重要なら、その基準と検査方法を指定すべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the controlled dimension, not the entire product, that this stage can verify.",
+            "translation": "この工程で確認できるのは製品全体ではなく、管理された寸法だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Control defines the guarantee.",
+            "translation": "管理範囲が保証を定める。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "工程内保証と後工程責任を明確に分けた。controlled scopeは測定・管理できる範囲を指し、比較対象のずれはない。"
+    }
+  },
+  {
+    "_no": 51,
+    "_generatedAt": "2026-07-30T02:00:00+09:00",
+    "sentence": "Repeating one useful sentence aloud builds fluency more reliably than trying to master several difficult skills at once.",
+    "phonetic": "リピーティング ワン ユースフル センテンス アラウド ビルズ フルーエンシー モア リライアブリー ザン トライイング トゥ マスター セヴェラル ディフィカルト スキルズ アット ワンス。",
+    "japaneseTranslation": "役に立つ一文を声に出して繰り返すことは、難しい技能をいくつも一度に身につけようとするより、確実に流暢さを育てる。",
+    "theme": "一文音読と習慣の再起動",
+    "coreVerb": "repeat",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I repeat a sentence.",
+        "translation": "私は一文を繰り返す。"
+      },
+      "phase2": {
+        "sentence": "I repeat one useful sentence aloud.",
+        "translation": "私は役に立つ一文を声に出して繰り返す。",
+        "addedChunks": "目的語(one useful sentence)と副詞(aloud)を追加"
+      },
+      "phase3": {
+        "sentence": "I repeat it because small practice is easier to restart.",
+        "translation": "小さな練習のほうが再開しやすいので、私はそれを繰り返す。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "One clear sentence is easier to repeat than several difficult exercises.",
+        "translation": "明確な一文は、難しい練習をいくつも行うより繰り返しやすい。",
+        "comparison": "easier ... than"
+      },
+      "phase5": {
+        "sentence": "Repeating one useful sentence aloud builds fluency more reliably than trying to master several difficult skills at once.",
+        "translation": "役に立つ一文を声に出して繰り返すことは、難しい技能をいくつも一度に身につけようとするより、確実に流暢さを育てる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Repeating one useful sentence aloud",
+          "function": "行動",
+          "translation": "役に立つ一文を声に出して繰り返すことは"
+        },
+        {
+          "text": "builds fluency",
+          "function": "結果",
+          "translation": "流暢さを育てる"
+        },
+        {
+          "text": "more reliably than",
+          "function": "比較",
+          "translation": "〜より確実に"
+        },
+        {
+          "text": "trying to master several difficult skills",
+          "function": "比較",
+          "translation": "難しい技能をいくつも身につけようとすること"
+        },
+        {
+          "text": "at once.",
+          "function": "時間",
+          "translation": "一度に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞句を主語にする",
+          "where": "Repeating one useful sentence aloud",
+          "explanation": "Repeatingからaloudまでの動名詞句全体が、文の主語として働いています。",
+          "rule": "動詞の-ing形を名詞として用いると、行為そのものを主語にできます。"
+        },
+        {
+          "category": "限定表現",
+          "name": "one＋単数名詞",
+          "where": "one useful sentence",
+          "explanation": "oneの後ろでは可算名詞sentenceを単数形にします。",
+          "rule": "one＋形容詞＋単数可算名詞の語順を取ります。"
+        },
+        {
+          "category": "副詞",
+          "name": "aloudで発声を表す",
+          "where": "aloud",
+          "explanation": "aloudはrepeatを修飾し、黙読ではなく声に出すことを示します。",
+          "rule": "aloudは通常、動詞の後ろに置いて「声に出して」を表します。"
+        },
+        {
+          "category": "主語と動詞の一致",
+          "name": "動名詞主語には単数動詞",
+          "where": "builds",
+          "explanation": "動名詞句を一つの行為として扱うため、現在形はbuildsになります。",
+          "rule": "単数扱いの動名詞主語には三人称単数形の動詞を使います。"
+        },
+        {
+          "category": "比較",
+          "name": "more＋副詞＋than",
+          "where": "more reliably than",
+          "explanation": "流暢さを育てる確実さを、二つの練習方法の間で比較しています。",
+          "rule": "長い副詞の比較級はmore＋副詞＋thanで作ります。"
+        },
+        {
+          "category": "不定詞",
+          "name": "try to do",
+          "where": "trying to master",
+          "explanation": "try to masterは「身につけようと努力する」という試みを表します。",
+          "rule": "try to doは、ある行為を達成しようと試みる意味です。"
+        },
+        {
+          "category": "数量表現",
+          "name": "several＋複数名詞",
+          "where": "several difficult skills",
+          "explanation": "severalは複数を示すため、skillはskillsになります。",
+          "rule": "severalの後ろには複数形の可算名詞を置きます。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Repeating one useful sentence aloud build fluency.",
+          "correct": "Repeating one useful sentence aloud builds fluency.",
+          "why": "動名詞句の主語は単数扱いなので、現在形の動詞には-sが必要です。"
+        },
+        {
+          "wrong": "I try to master several difficult skill at once.",
+          "correct": "I try to master several difficult skills at once.",
+          "why": "severalの後ろの可算名詞は複数形にします。"
+        },
+        {
+          "wrong": "Repeating one sentence builds fluency more reliable than studying many skills.",
+          "correct": "Repeating one sentence builds fluency more reliably than studying many skills.",
+          "why": "buildsを修飾する語には形容詞reliableではなく副詞reliablyを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Practicing one practical sentence aloud can steadily improve fluency.",
+          "translation": "実用的な一文を声に出して練習すると、流暢さを着実に伸ばせる。"
+        },
+        {
+          "text": "A short daily repetition is easier to sustain than an ambitious study plan.",
+          "translation": "短い毎日の反復は、意欲的すぎる学習計画より続けやすい。"
+        },
+        {
+          "text": "Start with one sentence you can use, then add another after the habit feels stable.",
+          "translation": "使える一文から始め、習慣が安定したら次の一文を加えよう。"
+        }
+      ],
+      "parseTree": "[S [NP Repeating one useful sentence aloud] [VP builds [NP fluency] [AdvP more reliably] [PP than [GerP trying to master several difficult skills at once]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Repeating one useful sentence aloud builds fluency.",
+          "expanded": "Repeating one useful sentence aloud builds fluency because frequent retrieval makes the wording easier to produce.",
+          "nuance": "反復が発話の取り出しやすさにつながる理由をbecause節で加えています。"
+        },
+        {
+          "original": "One sentence is easier to repeat.",
+          "expanded": "Since the task is small, one sentence is easier to repeat on a busy day.",
+          "nuance": "課題が小さいことを理由として先に示しています。"
+        },
+        {
+          "original": "I practice one sentence.",
+          "expanded": "I practice one sentence, so restarting the habit requires less effort.",
+          "nuance": "短い練習から習慣再開の負担軽減へ結果をつないでいます。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "One useful sentence is repeated aloud until it becomes easy to say.",
+          "translation": "役に立つ一文は、言いやすくなるまで声に出して繰り返される。",
+          "note": "練習者ではなく、反復される文に焦点を移しています。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Repeating the sentence aloud, I make its rhythm easier to recall.",
+          "translation": "その文を声に出して繰り返すことで、私はリズムを思い出しやすくする。",
+          "note": "同時に行う練習を-ing句で簡潔に示しています。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Regular repetition of one useful sentence supports steady gains in fluency.",
+          "translation": "役に立つ一文の定期的な反復は、流暢さの着実な向上を支える。",
+          "note": "repeatをrepetition、gainを名詞として用い、説明調にしています。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "repeat",
+            "alternatives": [
+              "practice",
+              "rehearse",
+              "say again"
+            ],
+            "nuance": "practiceは練習全般、rehearseは本番を意識した反復、say againは日常的な言い直しです。"
+          },
+          {
+            "original": "fluency",
+            "alternatives": [
+              "ease of speaking",
+              "smooth delivery",
+              "automaticity"
+            ],
+            "nuance": "ease of speakingは平易、smooth deliveryは滑らかな話し方、automaticityは自動化を強調します。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "動名詞主語",
+            "sentence": "Reviewing one phrase each morning keeps the habit manageable.",
+            "translation": "毎朝一つの表現を復習すると、習慣を無理なく保てる。"
+          },
+          {
+            "type": "命令文＋then",
+            "sentence": "Choose one useful sentence, then repeat it until the rhythm feels natural.",
+            "translation": "役に立つ一文を選び、リズムが自然に感じられるまで繰り返そう。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "One focused repetition is easier to begin than a long, complicated routine.",
+            "translation": "一つに絞った反復は、長く複雑な習慣より始めやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the sentence is useful in daily life, you are more likely to remember it.",
+            "translation": "その文が日常で役立つなら、覚えられる可能性が高くなる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters most is repeating the sentence consistently, not choosing a perfect sentence.",
+            "translation": "最も大切なのは完璧な文を選ぶことではなく、継続して繰り返すことだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "One sentence, repeated daily, can restart a speaking habit.",
+            "translation": "一文を毎日繰り返せば、話す習慣を再開できる。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "動名詞主語と比較構文が練習方法の違いを明確に示す。比較対象が長いため、音読ではthanの前後を区切ると理解しやすい。"
+    }
+  }
+]
