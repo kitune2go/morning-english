@@ -1,0 +1,758 @@
+[
+  {
+    "_no": 52,
+    "_generatedAt": "2026-07-31T02:00:00+09:00",
+    "sentence": "Separating mesh generation from texturing clarifies the workflow; Blender renders the assembled asset after the geometry and materials are prepared.",
+    "phonetic": "セパレイティング メッシュ ジェネレイション フロム テクスチャリング クラリファイズ ザ ワークフロー；ブレンダー レンダーズ ジ アセンブルド アセット アフター ザ ジオメトリー アンド マテリアルズ アー プリペアド。",
+    "japaneseTranslation": "メッシュ生成とテクスチャリングを分けると工程が明確になる。Blenderは、形状とマテリアルの準備が整った後に、組み立て済みのアセットをレンダリングする。",
+    "theme": "3D制作工程の分離",
+    "coreVerb": "separate",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I separate the steps.",
+        "translation": "私は工程を分ける。"
+      },
+      "phase2": {
+        "sentence": "I separate mesh generation from texturing.",
+        "translation": "私はメッシュ生成とテクスチャリングを分ける。",
+        "addedChunks": "mesh generation from texturingを追加して分離対象を具体化"
+      },
+      "phase3": {
+        "sentence": "I separate the steps because each stage needs different work.",
+        "translation": "各段階で必要な作業が異なるので、私は工程を分ける。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A staged workflow is clearer than doing everything at once.",
+        "translation": "段階的な工程は、すべてを一度に行うより明確だ。",
+        "comparison": "clearer than"
+      },
+      "phase5": {
+        "sentence": "Separating mesh generation from texturing clarifies the workflow; Blender renders the assembled asset after the geometry and materials are prepared.",
+        "translation": "メッシュ生成とテクスチャリングを分けると工程が明確になる。Blenderは、形状とマテリアルの準備が整った後に、組み立て済みのアセットをレンダリングする。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Separating mesh generation from texturing",
+          "function": "行動",
+          "translation": "メッシュ生成とテクスチャリングを分けると"
+        },
+        {
+          "text": "clarifies the workflow;",
+          "function": "結果",
+          "translation": "工程が明確になる"
+        },
+        {
+          "text": "Blender renders",
+          "function": "行動",
+          "translation": "Blenderはレンダリングする"
+        },
+        {
+          "text": "the assembled asset",
+          "function": "対象",
+          "translation": "組み立て済みのアセットを"
+        },
+        {
+          "text": "after the geometry and materials are prepared.",
+          "function": "時間",
+          "translation": "形状とマテリアルの準備が整った後に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞句を主語にする",
+          "where": "Separating mesh generation from texturing",
+          "explanation": "Separatingからtexturingまでが一つの行為を表す主語です。",
+          "rule": "動詞-ing句は名詞として主語にできる。"
+        },
+        {
+          "category": "語法",
+          "name": "separate A from B",
+          "where": "Separating mesh generation from texturing",
+          "explanation": "二つの制作工程を分けることを表します。",
+          "rule": "separate A from Bで「AをBから分ける」。"
+        },
+        {
+          "category": "一致",
+          "name": "動名詞主語と単数動詞",
+          "where": "clarifies",
+          "explanation": "動名詞句全体を単数扱いするためclarifiesを使います。",
+          "rule": "単数扱いの主語には三人称単数形を使う。"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロンで独立節を接続",
+          "where": "workflow; Blender",
+          "explanation": "内容の近い二つの独立節をセミコロンで結んでいます。",
+          "rule": "完全な文同士はセミコロンで接続できる。"
+        },
+        {
+          "category": "過去分詞",
+          "name": "過去分詞による名詞修飾",
+          "where": "the assembled asset",
+          "explanation": "assembledがassetを修飾し、組み立て済みの状態を示します。",
+          "rule": "過去分詞は受け身・完了の意味で名詞を修飾できる。"
+        },
+        {
+          "category": "接続",
+          "name": "afterによる時間節",
+          "where": "after the geometry and materials are prepared",
+          "explanation": "レンダリングより先に準備が完了する順序を示します。",
+          "rule": "after + 主語 + 動詞で後先関係を表す。"
+        },
+        {
+          "category": "受動態",
+          "name": "be prepared",
+          "where": "are prepared",
+          "explanation": "形状とマテリアルが準備される側なので受動態です。",
+          "rule": "be動詞 + 過去分詞で受動態を作る。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I separate mesh generation with texturing.",
+          "correct": "I separate mesh generation from texturing.",
+          "why": "二つを分ける場合はseparate A from Bを使います。"
+        },
+        {
+          "wrong": "Separating the steps clarify the workflow.",
+          "correct": "Separating the steps clarifies the workflow.",
+          "why": "動名詞句の主語は単数扱いなのでclarifiesにします。"
+        },
+        {
+          "wrong": "The geometry and materials is prepared.",
+          "correct": "The geometry and materials are prepared.",
+          "why": "andで結ばれた複数主語なのでareを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I build the geometry first and add materials in a separate stage.",
+          "translation": "私は最初に形状を作り、別の段階でマテリアルを加える。"
+        },
+        {
+          "text": "Blender receives the finished geometry and materials before rendering begins.",
+          "translation": "レンダリング開始前に、Blenderへ完成した形状とマテリアルを渡す。"
+        },
+        {
+          "text": "A modular workflow lets each production step be checked independently.",
+          "translation": "工程を分けると、各制作段階を個別に確認できる。"
+        }
+      ],
+      "parseTree": "S(GerP: Separating A from B) V(clarifies) O(the workflow); S(Blender) V(renders) O(the assembled asset) AdvClause(after S(the geometry and materials) V(are prepared))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The workflow is divided.",
+          "expanded": "The workflow is divided because geometry and materials can be prepared and checked separately.",
+          "nuance": "分離する理由をbecause節で示す。"
+        },
+        {
+          "original": "Blender renders the asset.",
+          "expanded": "After both parts are prepared, Blender renders the assembled asset.",
+          "nuance": "準備完了から描画への順序を前置する。"
+        },
+        {
+          "original": "The stages are clear.",
+          "expanded": "The stages are clear, so a problem can be traced to geometry, materials, or rendering.",
+          "nuance": "工程分離から問題箇所の特定へ結果をつなぐ。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Mesh generation and texturing are handled as separate stages.",
+          "translation": "メッシュ生成とテクスチャリングは別々の段階として扱われる。",
+          "note": "工程を主語にして運用方法へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Preparing the geometry first, the team adds materials before rendering.",
+          "translation": "最初に形状を準備し、チームはレンダリング前にマテリアルを加える。",
+          "note": "先に行う作業を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The separation of geometry creation and texturing improves workflow clarity.",
+          "translation": "形状作成とテクスチャリングの分離は、工程の明確さを高める。",
+          "note": "separateとclearを名詞化して説明調にする。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "separate",
+            "alternatives": [
+              "divide",
+              "split",
+              "decouple"
+            ],
+            "nuance": "divideは一般的な分割、splitは作業の振り分け、decoupleは依存関係を弱める技術的表現。"
+          },
+          {
+            "original": "assemble",
+            "alternatives": [
+              "combine",
+              "integrate",
+              "put together"
+            ],
+            "nuance": "combineは結合、integrateは一体化、put togetherは口語的な組み立てを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "順序",
+            "sentence": "First prepare the mesh; then add materials and render the asset.",
+            "translation": "まずメッシュを準備し、その後マテリアルを加えてアセットを描画する。"
+          },
+          {
+            "type": "対照",
+            "sentence": "Geometry defines the form, while materials define its visible surface.",
+            "translation": "形状は形を決め、マテリアルは見える表面を決める。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A staged workflow is easier to inspect than a single opaque process.",
+            "translation": "段階的な工程は、一体化して見えにくい工程より確認しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the mesh is ready, texturing can proceed without rebuilding the geometry.",
+            "translation": "メッシュが準備済みなら、形状を作り直さずにテクスチャリングを進められる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not doing everything at once but defining a clear handoff between stages.",
+            "translation": "大切なのはすべてを一度に行うことではなく、段階間の受け渡しを明確にすることだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Build the mesh, add materials, then render.",
+            "translation": "メッシュを作り、マテリアルを加え、それから描画する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "工程の分離と最終描画の順序が明確で、特定のPC性能を保証しない表現にした。二つの独立節を含むため、音読ではセミコロンで区切るとよい。"
+    }
+  },
+  {
+    "_no": 53,
+    "_generatedAt": "2026-07-31T02:00:00+09:00",
+    "sentence": "Distinguishing fairness from consent clarifies the issue: selection criteria may be subjective, while meaningful consent requires the ability to refuse without penalty.",
+    "phonetic": "ディスティングウィッシング フェアネス フロム コンセント クラリファイズ ジ イシュー：セレクション クライテリア メイ ビー サブジェクティヴ、ワイル ミーニングフル コンセント リクワイアズ ジ アビリティ トゥ リフューズ ウィズアウト ペナルティ。",
+    "japaneseTranslation": "公正さと同意を区別すると問題が明確になる。選抜基準は主観的な場合がある一方、意味のある同意には、不利益を受けずに断れることが必要である。",
+    "theme": "選抜の公正さと同意の区別",
+    "coreVerb": "distinguish",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I distinguish two questions.",
+        "translation": "私は二つの問いを区別する。"
+      },
+      "phase2": {
+        "sentence": "I distinguish fairness from consent.",
+        "translation": "私は公正さと同意を区別する。",
+        "addedChunks": "fairness from consentを追加して区別する二つの軸を示す"
+      },
+      "phase3": {
+        "sentence": "I distinguish them because they require different tests.",
+        "translation": "異なる検証が必要なので、私はそれらを区別する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Consent is easier to test than the fairness of subjective selection.",
+        "translation": "同意は、主観的な選抜の公正さより検証しやすい。",
+        "comparison": "easier to test than"
+      },
+      "phase5": {
+        "sentence": "Distinguishing fairness from consent clarifies the issue: selection criteria may be subjective, while meaningful consent requires the ability to refuse without penalty.",
+        "translation": "公正さと同意を区別すると問題が明確になる。選抜基準は主観的な場合がある一方、意味のある同意には、不利益を受けずに断れることが必要である。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Distinguishing fairness from consent",
+          "function": "行動",
+          "translation": "公正さと同意を区別すると"
+        },
+        {
+          "text": "clarifies the issue:",
+          "function": "結果",
+          "translation": "問題が明確になる"
+        },
+        {
+          "text": "selection criteria may be subjective,",
+          "function": "状態",
+          "translation": "選抜基準は主観的な場合がある一方"
+        },
+        {
+          "text": "while meaningful consent requires",
+          "function": "接続",
+          "translation": "意味のある同意には必要である"
+        },
+        {
+          "text": "the ability to refuse without penalty.",
+          "function": "内容",
+          "translation": "不利益を受けずに断れることが"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞句を主語にする",
+          "where": "Distinguishing fairness from consent",
+          "explanation": "二つの概念を区別する行為全体が主語です。",
+          "rule": "動詞-ing句は名詞として主語にできる。"
+        },
+        {
+          "category": "語法",
+          "name": "distinguish A from B",
+          "where": "Distinguishing fairness from consent",
+          "explanation": "公正さと同意を別の評価軸として扱います。",
+          "rule": "distinguish A from Bで「AとBを区別する」。"
+        },
+        {
+          "category": "一致",
+          "name": "動名詞主語と単数動詞",
+          "where": "clarifies",
+          "explanation": "動名詞句全体を単数扱いするためclarifiesを使います。",
+          "rule": "単数主語には三人称単数形を使う。"
+        },
+        {
+          "category": "助動詞",
+          "name": "mayで可能性を限定する",
+          "where": "may be subjective",
+          "explanation": "すべての選抜基準が主観的だと断定せず、可能性として述べます。",
+          "rule": "may + 動詞原形で可能性を表す。"
+        },
+        {
+          "category": "接続",
+          "name": "whileによる対照",
+          "where": "while meaningful consent requires",
+          "explanation": "選抜基準の性質と同意の要件を対照させます。",
+          "rule": "while + 節で二つの事柄を対照できる。"
+        },
+        {
+          "category": "不定詞",
+          "name": "ability to do",
+          "where": "the ability to refuse",
+          "explanation": "to refuseがabilityの具体的な内容を示します。",
+          "rule": "ability to doで「〜する能力・可能性」。"
+        },
+        {
+          "category": "前置詞",
+          "name": "without＋名詞",
+          "where": "without penalty",
+          "explanation": "断る際に不利益が伴わない条件を示します。",
+          "rule": "without + 名詞で「〜なしに」。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "We must distinguish fairness with consent.",
+          "correct": "We must distinguish fairness from consent.",
+          "why": "二つを区別する語法はdistinguish A from Bです。"
+        },
+        {
+          "wrong": "Selection criteria may subjective.",
+          "correct": "Selection criteria may be subjective.",
+          "why": "形容詞subjectiveの前にbe動詞の原形が必要です。"
+        },
+        {
+          "wrong": "Meaningful consent require the ability to refuse.",
+          "correct": "Meaningful consent requires the ability to refuse.",
+          "why": "単数主語consentの現在形なのでrequiresにします。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Fair selection and voluntary agreement are related, but they are not the same question.",
+          "translation": "公正な選抜と自発的な同意は関係するが、同じ問いではない。"
+        },
+        {
+          "text": "A subjective decision can still be examined for coercion or retaliation.",
+          "translation": "主観的な判断でも、強制や報復の有無は検討できる。"
+        },
+        {
+          "text": "Ask separately whether the choice was fair and whether refusal was genuinely possible.",
+          "translation": "選択が公正だったか、断ることが本当に可能だったかを分けて問おう。"
+        }
+      ],
+      "parseTree": "S(GerP: Distinguishing A from B) V(clarifies) O(the issue): S(selection criteria) Modal(may) V(be) C(subjective), while S(meaningful consent) V(requires) O(the ability to refuse without penalty)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The questions are different.",
+          "expanded": "The questions are different because fairness evaluates selection, whereas consent evaluates freedom to choose.",
+          "nuance": "二つの軸が異なる理由を明示する。"
+        },
+        {
+          "original": "Consent requires a real choice.",
+          "expanded": "Consent requires a real choice, so refusal must not trigger retaliation.",
+          "nuance": "選択の自由から不利益の不存在へ結果をつなぐ。"
+        },
+        {
+          "original": "The distinction matters.",
+          "expanded": "Since one judgment may be uncertain, separating the axes prevents uncertainty from hiding a clearer consent problem.",
+          "nuance": "一方の不確実性が他方の検討を妨げる危険を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Fairness and consent should be evaluated as separate questions.",
+          "translation": "公正さと同意は、別々の問いとして評価されるべきだ。",
+          "note": "評価対象を主語にして原則を示す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Separating the two axes, we can examine each claim more precisely.",
+          "translation": "二つの軸を分けることで、各主張をより正確に検討できる。",
+          "note": "区別する行為を-ing句で前置する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The distinction between fairness and consent improves the clarity of the analysis.",
+          "translation": "公正さと同意の区別は、分析の明確さを高める。",
+          "note": "distinguishとclearを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "fairness",
+            "alternatives": [
+              "equity",
+              "impartiality",
+              "procedural justice"
+            ],
+            "nuance": "equityは事情に応じた公平、impartialityは偏りのなさ、procedural justiceは手続の公正を強調する。"
+          },
+          {
+            "original": "consent",
+            "alternatives": [
+              "agreement",
+              "permission",
+              "voluntary choice"
+            ],
+            "nuance": "agreementは合意一般、permissionは許可、voluntary choiceは自発性を明示する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Fairness asks how a person was selected, while consent asks whether the person could freely refuse.",
+            "translation": "公正さは選ばれ方を問い、同意は自由に断れたかを問う。"
+          },
+          {
+            "type": "二問分離",
+            "sentence": "Was the decision fair, and was the agreement voluntary?",
+            "translation": "その判断は公正だったか、そして合意は自発的だったか。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "The absence of retaliation is easier to observe than the fairness of a subjective preference.",
+            "translation": "報復がないことは、主観的な好みの公正さより観察しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If refusal carries a penalty, the apparent agreement may not be meaningfully voluntary.",
+            "translation": "断ると不利益があるなら、表面上の合意は意味のある自発的なものではない可能性がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "The key question is not merely whether someone agreed, but whether refusal was genuinely safe.",
+            "translation": "重要なのは単に同意したかではなく、断ることが本当に安全だったかだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Judge fairness and consent on separate axes.",
+            "translation": "公正さと同意を別々の軸で判断する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "二つの評価軸を一文で明確に分離した。内容を一般化しつつ、すべての裁量的選抜を不公正と断定しないようmayを用いた。"
+    }
+  },
+  {
+    "_no": 54,
+    "_generatedAt": "2026-07-31T02:00:00+09:00",
+    "sentence": "When a child is learning to walk, “Come on, you can do it” sounds encouraging when it is said in a warm, playful voice.",
+    "phonetic": "ウェン ア チャイルド イズ ラーニング トゥ ウォーク、「カム オン、ユー キャン ドゥー イット」サウンズ エンカリジング ウェン イット イズ セッド イン ア ウォーム、プレイフル ヴォイス。",
+    "japaneseTranslation": "子どもが歩く練習をしているとき、「ほら、できるよ」は、温かく楽しげな声で言えば励ましとして聞こえる。",
+    "theme": "歩き始める子どもへの英語の励まし",
+    "coreVerb": "encourage",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I encourage the child.",
+        "translation": "私はその子を励ます。"
+      },
+      "phase2": {
+        "sentence": "I encourage the child with a short phrase.",
+        "translation": "私は短い言葉でその子を励ます。",
+        "addedChunks": "with a short phraseを追加して励まし方を示す"
+      },
+      "phase3": {
+        "sentence": "I say it gently because my tone shapes the meaning.",
+        "translation": "声の調子が意味を左右するので、私は優しく言う。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A warm invitation sounds gentler than a sharp command.",
+        "translation": "温かい呼びかけは、強い命令より優しく聞こえる。",
+        "comparison": "gentler than"
+      },
+      "phase5": {
+        "sentence": "When a child is learning to walk, “Come on, you can do it” sounds encouraging when it is said in a warm, playful voice.",
+        "translation": "子どもが歩く練習をしているとき、「ほら、できるよ」は、温かく楽しげな声で言えば励ましとして聞こえる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When a child is learning to walk,",
+          "function": "時間",
+          "translation": "子どもが歩く練習をしているとき"
+        },
+        {
+          "text": "“Come on, you can do it”",
+          "function": "内容",
+          "translation": "「ほら、できるよ」は"
+        },
+        {
+          "text": "sounds encouraging",
+          "function": "状態",
+          "translation": "励ましとして聞こえる"
+        },
+        {
+          "text": "when it is said",
+          "function": "時間",
+          "translation": "それが言われるとき"
+        },
+        {
+          "text": "in a warm, playful voice.",
+          "function": "様態",
+          "translation": "温かく楽しげな声で"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "whenによる状況節",
+          "where": "When a child is learning to walk",
+          "explanation": "励ましが使われる具体的な場面を示します。",
+          "rule": "when + 主語 + 動詞で時や状況を表す。"
+        },
+        {
+          "category": "進行形",
+          "name": "be learning to do",
+          "where": "is learning to walk",
+          "explanation": "歩く技能を身につけている途中であることを表します。",
+          "rule": "be + 動詞-ingで進行中の動作を表す。"
+        },
+        {
+          "category": "呼びかけ",
+          "name": "Come onの励まし用法",
+          "where": "Come on",
+          "explanation": "ここでは急かす命令ではなく、相手を後押しする短い呼びかけです。",
+          "rule": "Come onは文脈と声の調子により励まし・促しを表す。"
+        },
+        {
+          "category": "助動詞",
+          "name": "canで可能性・能力を示す",
+          "where": "you can do it",
+          "explanation": "相手にはできると伝えて自信を支えます。",
+          "rule": "can + 動詞原形で能力や可能性を表す。"
+        },
+        {
+          "category": "連結動詞",
+          "name": "sound＋形容詞",
+          "where": "sounds encouraging",
+          "explanation": "聞き手が受ける印象を形容詞encouragingで表します。",
+          "rule": "sound + 形容詞で「〜に聞こえる」。"
+        },
+        {
+          "category": "受動態",
+          "name": "be said",
+          "where": "it is said",
+          "explanation": "発言者よりも、その表現がどのように言われるかに焦点を置きます。",
+          "rule": "be動詞 + 過去分詞で受動態を作る。"
+        },
+        {
+          "category": "前置詞",
+          "name": "in＋voiceで声の調子を表す",
+          "where": "in a warm, playful voice",
+          "explanation": "言葉を発する声の性質を示します。",
+          "rule": "in a ... voiceで「〜な声で」。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A child is learning walk.",
+          "correct": "A child is learning to walk.",
+          "why": "learnの後ろで身につける行為を示す場合はto不定詞を使います。"
+        },
+        {
+          "wrong": "You can to do it.",
+          "correct": "You can do it.",
+          "why": "助動詞canの後ろはtoを付けず動詞原形を置きます。"
+        },
+        {
+          "wrong": "The phrase sounds encouragingly.",
+          "correct": "The phrase sounds encouraging.",
+          "why": "連結動詞soundの後ろには印象を表す形容詞encouragingを置きます。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Come on, one more step—you've got this.",
+          "translation": "ほら、あと一歩。きっとできるよ。"
+        },
+        {
+          "text": "That's it! Keep going!",
+          "translation": "そう、その調子！続けて！"
+        },
+        {
+          "text": "Take your time; I'm right here.",
+          "translation": "ゆっくりでいいよ。ここにいるからね。"
+        }
+      ],
+      "parseTree": "AdvClause(When S(a child) V(is learning) Inf(to walk)), Quote(“Come on, you can do it”) V(sounds) C(encouraging) AdvClause(when S(it) V(is said) PP(in a warm, playful voice))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The phrase sounds encouraging.",
+          "expanded": "The phrase sounds encouraging because the speaker's warm tone signals support rather than pressure.",
+          "nuance": "同じ言葉でも声の調子が解釈を変える理由を示す。"
+        },
+        {
+          "original": "I say, “You can do it.”",
+          "expanded": "I say, “You can do it,” so the child hears confidence as well as instruction.",
+          "nuance": "発話が伝える心理的な支えを結果として加える。"
+        },
+        {
+          "original": "Tone matters.",
+          "expanded": "Since “Come on” can sound impatient in another context, a playful voice matters here.",
+          "nuance": "文脈による意味の変化をsince節で説明する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The child is encouraged with a short phrase and a warm voice.",
+          "translation": "その子は短い言葉と温かい声で励まされる。",
+          "note": "励まされる子どもに焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Smiling warmly, the caregiver says, “Come on, you can do it.”",
+          "translation": "温かくほほ笑みながら、養育者は「ほら、できるよ」と言う。",
+          "note": "声以外の様子を-ing句で加える。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Gentle encouragement can make early practice feel safer.",
+          "translation": "優しい励ましは、初期の練習をより安心できるものにし得る。",
+          "note": "encourageをencouragementに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "encouraging",
+            "alternatives": [
+              "supportive",
+              "reassuring",
+              "motivating"
+            ],
+            "nuance": "supportiveは支える姿勢、reassuringは安心、motivatingは意欲を高める点を強調する。"
+          },
+          {
+            "original": "playful",
+            "alternatives": [
+              "cheerful",
+              "lighthearted",
+              "gentle"
+            ],
+            "nuance": "cheerfulは明るさ、lightheartedは気軽さ、gentleは穏やかさを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "励まし",
+            "sentence": "You can do it—take one more step.",
+            "translation": "できるよ。あと一歩進んでみよう。"
+          },
+          {
+            "type": "進行への反応",
+            "sentence": "That's it; you're doing great.",
+            "translation": "そう、その調子。上手にできているよ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A warm “Come on” sounds more supportive than the same words spoken impatiently.",
+            "translation": "温かい「ほら」は、同じ言葉をいら立って言うより支えになるように聞こえる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the child looks uncertain, slow down and use a reassuring voice.",
+            "translation": "子どもが不安そうなら、急がず安心させる声を使おう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the tone, not only the words, that makes the phrase encouraging.",
+            "translation": "その言葉を励ましにするのは、言葉だけでなく声の調子だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Warm tone, simple words: “You can do it.”",
+            "translation": "温かい声と簡単な言葉。「できるよ」。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "Come onの意味が声の調子と場面で変わる点を、子どもの歩行練習という具体例で示した。引用句と二つのwhen節があるが、参照先は明確である。"
+    }
+  }
+]
