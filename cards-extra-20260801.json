@@ -1,0 +1,737 @@
+[
+  {
+    "_no": 55,
+    "_generatedAt": "2026-08-01T02:00:00+09:00",
+    "sentence": "When local hardware lacks a capable GPU, I offload heavy image-to-3D computation to a cloud service and use Blender for inspection and editing.",
+    "phonetic": "ウェン ローカル ハードウェア ラックス ア ケイパブル ジーピーユー、アイ オフロード ヘヴィ イメージ トゥ スリーディー コンピュテイション トゥ ア クラウド サービス アンド ユーズ ブレンダー フォー インスペクション アンド エディティング。",
+    "japaneseTranslation": "ローカルの機器に十分なGPUがないとき、私は負荷の大きいImage-to-3D計算をクラウドサービスへ移し、Blenderは確認と編集に使う。",
+    "theme": "外部GPUを使う3D制作",
+    "coreVerb": "offload",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I offload the computation.",
+        "translation": "私は計算処理を外部へ移す。"
+      },
+      "phase2": {
+        "sentence": "I offload heavy computation to a cloud service.",
+        "translation": "私は負荷の大きい計算をクラウドサービスへ移す。",
+        "addedChunks": "heavyとto a cloud serviceを追加して負荷と移行先を示す"
+      },
+      "phase3": {
+        "sentence": "I offload it because my local computer lacks a capable GPU.",
+        "translation": "ローカルPCに十分なGPUがないので、私はそれを外部へ移す。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Cloud computation is more practical than forcing the full workload onto weak local hardware.",
+        "translation": "クラウド計算は、弱いローカル機器へ全負荷を押しつけるより実用的だ。",
+        "comparison": "more practical than"
+      },
+      "phase5": {
+        "sentence": "When local hardware lacks a capable GPU, I offload heavy image-to-3D computation to a cloud service and use Blender for inspection and editing.",
+        "translation": "ローカルの機器に十分なGPUがないとき、私は負荷の大きいImage-to-3D計算をクラウドサービスへ移し、Blenderは確認と編集に使う。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When local hardware lacks a capable GPU,",
+          "function": "時間",
+          "translation": "ローカルの機器に十分なGPUがないとき"
+        },
+        {
+          "text": "I offload",
+          "function": "行動",
+          "translation": "私は外部へ移す"
+        },
+        {
+          "text": "heavy image-to-3D computation to a cloud service",
+          "function": "対象",
+          "translation": "負荷の大きいImage-to-3D計算をクラウドサービスへ"
+        },
+        {
+          "text": "and use Blender",
+          "function": "行動",
+          "translation": "そしてBlenderを使う"
+        },
+        {
+          "text": "for inspection and editing.",
+          "function": "目的",
+          "translation": "確認と編集のために"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "whenによる条件・状況節",
+          "where": "When local hardware lacks a capable GPU",
+          "explanation": "外部計算を使う状況を先に示します。",
+          "rule": "when + 節で時や状況を表す。"
+        },
+        {
+          "category": "一致",
+          "name": "不可算扱いのhardwareとlacks",
+          "where": "hardware lacks",
+          "explanation": "hardwareを集合的な単数として扱いlacksを使います。",
+          "rule": "単数主語の現在形には-sを付ける。"
+        },
+        {
+          "category": "形容詞",
+          "name": "capableによるGPUの修飾",
+          "where": "a capable GPU",
+          "explanation": "必要な処理をこなせる性能があることを表します。",
+          "rule": "形容詞は名詞の前で性質を示せる。"
+        },
+        {
+          "category": "前置詞",
+          "name": "offload A to B",
+          "where": "offload heavy image-to-3D computation to a cloud service",
+          "explanation": "負荷の高い処理と、その移行先を示します。",
+          "rule": "offload A to Bで「AをBへ移して負担させる」。"
+        },
+        {
+          "category": "並列",
+          "name": "sendとuseの並列",
+          "where": "offload ... and use",
+          "explanation": "主語Iが行う二つの動作をandで結びます。",
+          "rule": "同じ主語の動詞はandで並列できる。"
+        },
+        {
+          "category": "目的",
+          "name": "for＋名詞",
+          "where": "for inspection and editing",
+          "explanation": "Blenderを使う目的を二つの名詞で示します。",
+          "rule": "for + 名詞で目的・用途を表す。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "My computer lack a capable GPU.",
+          "correct": "My computer lacks a capable GPU.",
+          "why": "単数主語computerの現在形なのでlacksにします。"
+        },
+        {
+          "wrong": "I offload the computation at a cloud service.",
+          "correct": "I offload the computation to a cloud service.",
+          "why": "処理の移行先には方向を表すtoを使います。"
+        },
+        {
+          "wrong": "I use Blender for inspect and edit.",
+          "correct": "I use Blender for inspection and editing.",
+          "why": "前置詞forの後ろには名詞または動名詞を置きます。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I offload the demanding reconstruction step to a remote GPU.",
+          "translation": "私は負荷の高い再構築工程を遠隔GPUへ移す。"
+        },
+        {
+          "text": "My local computer handles review work while the cloud performs the heavy calculation.",
+          "translation": "クラウドが重い計算を行う間、ローカルPCは確認作業を担当する。"
+        },
+        {
+          "text": "Blender remains the editing tool even when another service generates the model.",
+          "translation": "別サービスがモデルを生成しても、Blenderは編集ツールとして使い続ける。"
+        }
+      ],
+      "parseTree": "AdvClause(When S(local hardware) V(lacks) O(a capable GPU)), S(I) V(offload) O(heavy computation) PP(to a cloud service) and V(use) O(Blender) PP(for inspection and editing)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "I use cloud computation.",
+          "expanded": "I use cloud computation because image-to-3D reconstruction can require hardware that my computer does not have.",
+          "nuance": "外部計算を選ぶ理由を示す。"
+        },
+        {
+          "original": "The cloud performs the heavy step.",
+          "expanded": "Since the cloud performs the heavy step, the local computer can focus on inspection and editing.",
+          "nuance": "役割分担の結果を示す。"
+        },
+        {
+          "original": "I keep Blender in the workflow.",
+          "expanded": "I keep Blender in the workflow so that generated geometry can still be checked and corrected.",
+          "nuance": "Blenderを残す目的を加える。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Heavy image-to-3D computation is sent to a cloud service.",
+          "translation": "負荷の大きいImage-to-3D計算はクラウドサービスへ送られる。",
+          "note": "計算処理を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using a remote GPU, I reserve the local computer for inspection and editing.",
+          "translation": "遠隔GPUを使い、私はローカルPCを確認と編集に回す。",
+          "note": "手段を-ing句で前置する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The offloading of heavy computation reduces dependence on local GPU power.",
+          "translation": "重い計算の外部移行は、ローカルGPU性能への依存を減らす。",
+          "note": "offloadを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "offload",
+            "alternatives": [
+              "transfer",
+              "send",
+              "submit"
+            ],
+            "nuance": "offloadは負荷移行、transferは転送、sendは一般的な送信、submitはサービスへの投入を表す。"
+          },
+          {
+            "original": "capable",
+            "alternatives": [
+              "powerful",
+              "suitable",
+              "adequate"
+            ],
+            "nuance": "powerfulは高性能、suitableは用途適合、adequateは最低限十分を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "役割分担",
+            "sentence": "The cloud generates the model, while Blender handles inspection and editing.",
+            "translation": "クラウドがモデルを生成し、Blenderが確認と編集を担う。"
+          },
+          {
+            "type": "条件",
+            "sentence": "When the local GPU is insufficient, the demanding step moves to remote hardware.",
+            "translation": "ローカルGPUが不十分なとき、負荷の高い工程を遠隔機器へ移す。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Remote GPU computation can be more practical than replacing an entire computer for one task.",
+            "translation": "一つの作業のためにPC全体を買い替えるより、遠隔GPU計算のほうが実用的な場合がある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the cloud service exports a usable mesh, Blender can handle the later review.",
+            "translation": "クラウドサービスが利用可能なメッシュを書き出せれば、その後の確認はBlenderで行える。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What moves to the cloud is the heavy calculation, not every part of the workflow.",
+            "translation": "クラウドへ移すのは重い計算であり、工程全体ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Compute remotely; inspect and edit locally.",
+            "translation": "遠隔で計算し、ローカルで確認・編集する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "計算場所と作業場所を明確に分けた。クラウドサービスの性能や料金は個別に異なるため、可能性を超えた保証はしていない。"
+    }
+  },
+  {
+    "_no": 56,
+    "_generatedAt": "2026-08-01T02:00:00+09:00",
+    "sentence": "Three-view drawings constrain visible proportions, but image-to-3D reconstruction still needs explicit rules for surfaces that none of the reference images show.",
+    "phonetic": "スリービュー ドローイングズ コンストレイン ヴィジブル プロポーションズ、バット イメージ トゥ スリーディー リコンストラクション スティル ニーズ イクスプリシット ルールズ フォー サーフィシズ ザット ナン オヴ ザ リファレンス イメージズ ショウ。",
+    "japaneseTranslation": "三面図は見える部分の比率を制約するが、Image-to-3Dの再構築には、どの参照画像にも写っていない面を扱う明示的な規則がなお必要である。",
+    "theme": "三面図に写らない形状の補完",
+    "coreVerb": "constrain",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Drawings constrain the model.",
+        "translation": "図面はモデルを制約する。"
+      },
+      "phase2": {
+        "sentence": "Three-view drawings constrain visible proportions.",
+        "translation": "三面図は見える部分の比率を制約する。",
+        "addedChunks": "Three-viewとvisible proportionsを追加して資料と制約対象を具体化"
+      },
+      "phase3": {
+        "sentence": "They constrain the model, but some surfaces remain unseen.",
+        "translation": "図面はモデルを制約するが、一部の面は見えないまま残る。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Three views provide more constraints than a single image.",
+        "translation": "三面図は一枚の画像より多くの制約を与える。",
+        "comparison": "more constraints than"
+      },
+      "phase5": {
+        "sentence": "Three-view drawings constrain visible proportions, but image-to-3D reconstruction still needs explicit rules for surfaces that none of the reference images show.",
+        "translation": "三面図は見える部分の比率を制約するが、Image-to-3Dの再構築には、どの参照画像にも写っていない面を扱う明示的な規則がなお必要である。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Three-view drawings constrain",
+          "function": "行動",
+          "translation": "三面図は制約する"
+        },
+        {
+          "text": "visible proportions,",
+          "function": "対象",
+          "translation": "見える部分の比率を"
+        },
+        {
+          "text": "but image-to-3D reconstruction still needs",
+          "function": "接続",
+          "translation": "しかしImage-to-3Dの再構築にはなお必要である"
+        },
+        {
+          "text": "explicit rules for surfaces",
+          "function": "対象",
+          "translation": "面を扱う明示的な規則が"
+        },
+        {
+          "text": "that none of the reference images show.",
+          "function": "修飾",
+          "translation": "どの参照画像にも写っていない"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "複合形容詞",
+          "name": "three-viewによる名詞修飾",
+          "where": "Three-view drawings",
+          "explanation": "三つの方向を持つ図面という意味でdrawingsを修飾します。",
+          "rule": "複数語をハイフンで結んで形容詞として使える。"
+        },
+        {
+          "category": "語法",
+          "name": "constrain＋目的語",
+          "where": "constrain visible proportions",
+          "explanation": "見える比率に条件を与えることを表します。",
+          "rule": "constrain Aで「Aを制約する」。"
+        },
+        {
+          "category": "接続",
+          "name": "butによる対照",
+          "where": "but image-to-3D reconstruction still needs",
+          "explanation": "三面図の有用性と残る不足情報を対照させます。",
+          "rule": "butで逆接の独立節を結ぶ。"
+        },
+        {
+          "category": "副詞",
+          "name": "stillで残る必要性を示す",
+          "where": "still needs",
+          "explanation": "三面図があっても規則が必要な状態が残ることを示します。",
+          "rule": "stillは継続や予想に反する残存を表す。"
+        },
+        {
+          "category": "関係詞",
+          "name": "thatによる制限用法",
+          "where": "surfaces that none of the reference images show",
+          "explanation": "どの面を指すかを関係節で限定します。",
+          "rule": "先行詞 + that + 節で名詞を限定する。"
+        },
+        {
+          "category": "数量表現",
+          "name": "none of＋複数名詞",
+          "where": "none of the reference images",
+          "explanation": "参照画像のいずれにも該当しないことを表します。",
+          "rule": "none of the + 複数名詞で「どれも〜ない」。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Three-view drawings constrains the model.",
+          "correct": "Three-view drawings constrain the model.",
+          "why": "主語drawingsが複数なので動詞はconstrainです。"
+        },
+        {
+          "wrong": "The reconstruction needs rules to unseen surfaces.",
+          "correct": "The reconstruction needs rules for unseen surfaces.",
+          "why": "対象に適用する規則はrules forと表します。"
+        },
+        {
+          "wrong": "surfaces what none of the images show",
+          "correct": "surfaces that none of the images show",
+          "why": "名詞surfacesを限定する関係代名詞にはthatを使えますがwhatは使えません。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Multiple views reduce ambiguity, but they do not reveal every surface.",
+          "translation": "複数の視点は曖昧さを減らすが、すべての面を明らかにはしない。"
+        },
+        {
+          "text": "The reconstruction system must infer geometry that is hidden in every reference.",
+          "translation": "再構築システムは、すべての参照で隠れた形状を推定しなければならない。"
+        },
+        {
+          "text": "Define symmetry, thickness, and continuity rules before generating the missing geometry.",
+          "translation": "欠けた形状を生成する前に、対称性、厚み、連続性の規則を定めよう。"
+        }
+      ],
+      "parseTree": "S(Three-view drawings) V(constrain) O(visible proportions), but S(image-to-3D reconstruction) Adv(still) V(needs) O(explicit rules for surfaces [RelClause(that none of the reference images show)])."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Rules are needed.",
+          "expanded": "Rules are needed because no finite set of views exposes every point on a three-dimensional surface.",
+          "nuance": "未観測領域が残る理由を示す。"
+        },
+        {
+          "original": "The system infers missing geometry.",
+          "expanded": "Since hidden surfaces are not directly observed, the system must infer their shape from explicit assumptions.",
+          "nuance": "推定が必要になる因果を示す。"
+        },
+        {
+          "original": "Three views reduce ambiguity.",
+          "expanded": "Three views reduce ambiguity, so visible proportions can be checked from several directions.",
+          "nuance": "三面図の利点を結果として示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Visible proportions are constrained by three-view drawings.",
+          "translation": "見える部分の比率は三面図によって制約される。",
+          "note": "制約される対象へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using three reference views, the system estimates the visible geometry first.",
+          "translation": "三つの参照図を使い、システムはまず見える形状を推定する。",
+          "note": "使用資料を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The explicit definition of inference rules improves consistency in hidden regions.",
+          "translation": "推定規則の明示的な定義は、隠れた領域の一貫性を高める。",
+          "note": "defineをdefinitionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "constrain",
+            "alternatives": [
+              "limit",
+              "bound",
+              "restrict"
+            ],
+            "nuance": "limitは範囲制限、boundは上下限、restrictは自由度を狭める意味が強い。"
+          },
+          {
+            "original": "infer",
+            "alternatives": [
+              "estimate",
+              "reconstruct",
+              "deduce"
+            ],
+            "nuance": "estimateは概算、reconstructは形状復元、deduceは根拠からの推論を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "逆接",
+            "sentence": "The front view defines width, but it does not reveal the back surface.",
+            "translation": "正面図は幅を定めるが、背面は示さない。"
+          },
+          {
+            "type": "関係節",
+            "sentence": "The system must invent geometry that no camera observed.",
+            "translation": "システムはどのカメラも観測していない形状を補わなければならない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Three views constrain proportions more strongly than one image does.",
+            "translation": "三面図は一枚の画像より強く比率を制約する。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If two views disagree, the workflow needs a rule for choosing the controlling reference.",
+            "translation": "二つの図が食い違うなら、どちらを基準にするかという規則が必要になる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What remains uncertain is the geometry outside every visible projection.",
+            "translation": "不確かなまま残るのは、すべての投影で見えない形状だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Views constrain; rules complete the unseen geometry.",
+            "translation": "図が制約し、規則が見えない形状を補う。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "三面図の利点を認めながら、未観測面には推定規則が必要だと限定した。専門内容を一文で扱うため語彙密度はやや高い。"
+    }
+  },
+  {
+    "_no": 57,
+    "_generatedAt": "2026-08-01T02:00:00+09:00",
+    "sentence": "Progress does not disappear when one practice session is missed; restarting with a smaller task keeps a brief lapse from becoming a full stop.",
+    "phonetic": "プログレス ダズ ノット ディサピア ウェン ワン プラクティス セッション イズ ミスト；リスターティング ウィズ ア スモーラー タスク キープス ア ブリーフ ラプス フロム ビカミング ア フル ストップ。",
+    "japaneseTranslation": "練習を一回休んでも、進歩が消えるわけではない。より小さな課題で再開すれば、短い中断が完全な停止になるのを防げる。",
+    "theme": "中断後の小さな再開",
+    "coreVerb": "restart",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I restart.",
+        "translation": "私は再開する。"
+      },
+      "phase2": {
+        "sentence": "I restart with a smaller task.",
+        "translation": "私はより小さな課題で再開する。",
+        "addedChunks": "with a smaller taskを追加して再開方法を示す"
+      },
+      "phase3": {
+        "sentence": "I restart because one missed session does not erase my progress.",
+        "translation": "一回休んでも進歩は消えないので、私は再開する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A small restart is easier than rebuilding the entire routine.",
+        "translation": "小さな再開は、習慣全体を作り直すより簡単だ。",
+        "comparison": "easier than"
+      },
+      "phase5": {
+        "sentence": "Progress does not disappear when one practice session is missed; restarting with a smaller task keeps a brief lapse from becoming a full stop.",
+        "translation": "練習を一回休んでも、進歩が消えるわけではない。より小さな課題で再開すれば、短い中断が完全な停止になるのを防げる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Progress does not disappear",
+          "function": "状態",
+          "translation": "進歩が消えるわけではない"
+        },
+        {
+          "text": "when one practice session is missed;",
+          "function": "時間",
+          "translation": "練習を一回休んでも"
+        },
+        {
+          "text": "restarting with a smaller task",
+          "function": "行動",
+          "translation": "より小さな課題で再開すれば"
+        },
+        {
+          "text": "keeps a brief lapse",
+          "function": "結果",
+          "translation": "短い中断が"
+        },
+        {
+          "text": "from becoming a full stop.",
+          "function": "結果",
+          "translation": "完全な停止になるのを防ぐ"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "否定",
+          "name": "does not＋動詞原形",
+          "where": "does not disappear",
+          "explanation": "進歩が消えるという考えを否定します。",
+          "rule": "does notの後ろは動詞原形にする。"
+        },
+        {
+          "category": "接続",
+          "name": "whenによる状況節",
+          "where": "when one practice session is missed",
+          "explanation": "練習を休んだ場面を示します。",
+          "rule": "when + 節で時や状況を表す。"
+        },
+        {
+          "category": "受動態",
+          "name": "be missed",
+          "where": "is missed",
+          "explanation": "練習回が実施されなかったことに焦点を置きます。",
+          "rule": "be動詞 + 過去分詞で受動態を作る。"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞句を主語にする",
+          "where": "restarting with a smaller task",
+          "explanation": "小さな課題で再開する行為全体が第二節の主語です。",
+          "rule": "動詞-ing句は主語にできる。"
+        },
+        {
+          "category": "比較級",
+          "name": "smallerによる相対的な縮小",
+          "where": "a smaller task",
+          "explanation": "以前の課題より負担の小さいものを示します。",
+          "rule": "短い形容詞には-erを付けて比較級を作る。"
+        },
+        {
+          "category": "語法",
+          "name": "keep A from doing",
+          "where": "keeps a brief lapse from becoming",
+          "explanation": "短い中断が完全停止へ変わるのを防ぐ意味です。",
+          "rule": "keep A from doingで「Aが〜するのを防ぐ」。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Progress does not disappears.",
+          "correct": "Progress does not disappear.",
+          "why": "does notの後ろは動詞原形disappearにします。"
+        },
+        {
+          "wrong": "One practice session were missed.",
+          "correct": "One practice session was missed.",
+          "why": "単数主語sessionにはwasを使います。"
+        },
+        {
+          "wrong": "A small task keeps a lapse to become a full stop.",
+          "correct": "A small task keeps a lapse from becoming a full stop.",
+          "why": "「〜するのを防ぐ」はkeep A from doingで表します。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Missing one day is a pause, not the end of the routine.",
+          "translation": "一日休むことは一時停止であり、習慣の終わりではない。"
+        },
+        {
+          "text": "Restart with the smallest task you can complete today.",
+          "translation": "今日完了できる最小の課題から再開しよう。"
+        },
+        {
+          "text": "A brief return preserves continuity better than waiting for perfect motivation.",
+          "translation": "完璧な意欲を待つより、短くても戻るほうが継続性を保てる。"
+        }
+      ],
+      "parseTree": "S(Progress) Aux(does not) V(disappear) AdvClause(when S(one practice session) V(is missed)); S(GerP: restarting with a smaller task) V(keeps) O(a brief lapse) PP(from becoming a full stop)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "I restart with a smaller task.",
+          "expanded": "I restart with a smaller task because lowering the threshold makes action easier.",
+          "nuance": "課題を小さくする理由を示す。"
+        },
+        {
+          "original": "One missed session is a pause.",
+          "expanded": "Since previous practice is not erased, one missed session is only a pause.",
+          "nuance": "過去の積み重ねが残る点を理由にする。"
+        },
+        {
+          "original": "I return briefly.",
+          "expanded": "I return briefly, so the routine keeps a place in the next day.",
+          "nuance": "短い再開から継続への結果を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The routine is restarted with a smaller task after one missed session.",
+          "translation": "一回休んだ後、より小さな課題で習慣が再開される。",
+          "note": "習慣を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Choosing a smaller task, I return without waiting for perfect motivation.",
+          "translation": "より小さな課題を選び、私は完璧な意欲を待たずに戻る。",
+          "note": "再開前の選択を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "A small restart prevents the conversion of a brief lapse into a complete stop.",
+          "translation": "小さな再開は、短い中断が完全停止へ変わることを防ぐ。",
+          "note": "becomeをconversionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "restart",
+            "alternatives": [
+              "resume",
+              "return to",
+              "pick up"
+            ],
+            "nuance": "resumeは中断後の再開、return toは戻ること、pick upは口語的な再開を表す。"
+          },
+          {
+            "original": "lapse",
+            "alternatives": [
+              "pause",
+              "break",
+              "interruption"
+            ],
+            "nuance": "lapseは一時的な途切れ、pauseは意図的停止、interruptionは外的な中断にも使う。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "A, not B",
+            "sentence": "A missed day is a pause, not proof of failure.",
+            "translation": "休んだ一日は一時停止であり、失敗の証拠ではない。"
+          },
+          {
+            "type": "命令文",
+            "sentence": "Make the next step smaller and begin again.",
+            "translation": "次の一歩を小さくして、もう一度始めよう。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A five-minute restart is better than postponing the routine indefinitely.",
+            "translation": "五分の再開は、習慣をいつまでも先延ばしにするよりよい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the full routine feels heavy, complete only its smallest part.",
+            "translation": "習慣全体が重く感じるなら、最小の部分だけを終えよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What preserves the habit is returning, not maintaining a perfect streak.",
+            "translation": "習慣を守るのは完璧な連続記録ではなく、戻ることだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Miss once; restart small.",
+            "translation": "一度休んでも、小さく再開する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "中断を失敗と断定せず、再開の行動へ焦点を移した。二つの独立節と比喩的なfull stopを含むため、説明なしでは少し抽象度がある。"
+    }
+  }
+]
