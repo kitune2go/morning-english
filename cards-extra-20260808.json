@@ -1,0 +1,737 @@
+[
+  {
+    "_no": 58,
+    "_generatedAt": "2026-08-08T02:00:00+09:00",
+    "sentence": "Using a dictionary alongside conversation makes new words easier to picture because definitions, examples, and pronunciation are organized in one place.",
+    "phonetic": "ユージング ア ディクショナリー アロングサイド カンヴァセイション メイクス ニュー ワーズ イージア トゥ ピクチャー ビコーズ デフィニションズ、イグザンプルズ、アンド プロナンシエイション アー オーガナイズド イン ワン プレイス。",
+    "japaneseTranslation": "会話と一緒に辞書を使うと、新しい単語をイメージしやすくなる。定義、用例、発音が一か所に整理されているからである。",
+    "theme": "辞書を併用する構造的学習",
+    "coreVerb": "use",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I use a dictionary.",
+        "translation": "私は辞書を使う。"
+      },
+      "phase2": {
+        "sentence": "I use a dictionary alongside conversation.",
+        "translation": "私は会話と一緒に辞書を使う。",
+        "addedChunks": "alongside conversationを加えて辞書を使う場面を示す"
+      },
+      "phase3": {
+        "sentence": "I use it because organized information helps me remember words.",
+        "translation": "整理された情報は単語を覚える助けになるので、私は辞書を使う。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A structured entry is easier to review than an isolated translation.",
+        "translation": "構造化された項目は、単独の訳語より復習しやすい。",
+        "comparison": "easier to review than"
+      },
+      "phase5": {
+        "sentence": "Using a dictionary alongside conversation makes new words easier to picture because definitions, examples, and pronunciation are organized in one place.",
+        "translation": "会話と一緒に辞書を使うと、新しい単語をイメージしやすくなる。定義、用例、発音が一か所に整理されているからである。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Using a dictionary alongside conversation",
+          "function": "行動",
+          "translation": "会話と一緒に辞書を使うと"
+        },
+        {
+          "text": "makes new words",
+          "function": "対象",
+          "translation": "新しい単語を"
+        },
+        {
+          "text": "easier to picture",
+          "function": "結果",
+          "translation": "イメージしやすくする"
+        },
+        {
+          "text": "because definitions, examples, and pronunciation are organized",
+          "function": "理由",
+          "translation": "定義、用例、発音が整理されているから"
+        },
+        {
+          "text": "in one place.",
+          "function": "場所",
+          "translation": "一か所に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞句を主語にする",
+          "where": "Using a dictionary alongside conversation",
+          "explanation": "辞書を併用する行為全体が文の主語です。",
+          "rule": "動詞-ing句は名詞として主語にできる。"
+        },
+        {
+          "category": "前置詞",
+          "name": "alongsideによる併用",
+          "where": "alongside conversation",
+          "explanation": "会話練習と並行して辞書を使うことを表します。",
+          "rule": "alongside + 名詞で「〜と並んで・併用して」。"
+        },
+        {
+          "category": "使役",
+          "name": "make O C",
+          "where": "makes new words easier",
+          "explanation": "new wordsをeasierな状態にする構造です。",
+          "rule": "make + 目的語 + 形容詞で状態変化を表す。"
+        },
+        {
+          "category": "不定詞",
+          "name": "形容詞＋to不定詞",
+          "where": "easier to picture",
+          "explanation": "何をしやすいのかをto pictureで補います。",
+          "rule": "形容詞 + to doで行為のしやすさを表す。"
+        },
+        {
+          "category": "接続",
+          "name": "becauseによる理由",
+          "where": "because definitions, examples, and pronunciation are organized",
+          "explanation": "辞書が理解を助ける理由を示します。",
+          "rule": "because + 節で理由を表す。"
+        },
+        {
+          "category": "受動態",
+          "name": "be organized",
+          "where": "are organized",
+          "explanation": "情報が整理されている状態に焦点を置きます。",
+          "rule": "be動詞 + 過去分詞で受動態を作る。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Using a dictionary make words easier.",
+          "correct": "Using a dictionary makes words easier.",
+          "why": "動名詞句の主語は単数扱いなのでmakesにします。"
+        },
+        {
+          "wrong": "A dictionary makes words easier picture.",
+          "correct": "A dictionary makes words easier to picture.",
+          "why": "easierの内容を示すto不定詞が必要です。"
+        },
+        {
+          "wrong": "Definitions and examples is organized.",
+          "correct": "Definitions and examples are organized.",
+          "why": "andで結ばれた複数主語なのでareを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I check the definition, pronunciation, and examples before using a new word.",
+          "translation": "新しい単語を使う前に、定義、発音、用例を確認する。"
+        },
+        {
+          "text": "A dictionary entry gives several clues that a translation alone cannot provide.",
+          "translation": "辞書項目は、訳語だけでは得られない複数の手掛かりを与える。"
+        },
+        {
+          "text": "Conversation gives context, while the dictionary supplies structure.",
+          "translation": "会話は文脈を与え、辞書は構造を与える。"
+        }
+      ],
+      "parseTree": "S(GerP: Using a dictionary alongside conversation) V(makes) O(new words) C(easier to picture) AdvClause(because S(definitions, examples, and pronunciation) V(are organized) PP(in one place))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "I use a dictionary.",
+          "expanded": "I use a dictionary because a single entry connects meaning, sound, grammar, and examples.",
+          "nuance": "辞書の構造が役立つ理由を示す。"
+        },
+        {
+          "original": "The word becomes easier to picture.",
+          "expanded": "Since several kinds of information appear together, the word becomes easier to picture.",
+          "nuance": "情報のまとまりから理解への因果を示す。"
+        },
+        {
+          "original": "Conversation provides context.",
+          "expanded": "Conversation provides context, so the dictionary entry can be linked to an actual use.",
+          "nuance": "会話と辞書の役割を結果でつなぐ。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "New words are supported by definitions, examples, and pronunciation notes.",
+          "translation": "新しい単語は、定義、用例、発音情報によって支えられる。",
+          "note": "学習対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Checking the dictionary entry, I connect the spoken word with its meaning and use.",
+          "translation": "辞書項目を確認し、私は話された単語を意味と用法に結び付ける。",
+          "note": "確認行為を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The organization of lexical information supports clearer understanding.",
+          "translation": "語彙情報の整理は、より明確な理解を支える。",
+          "note": "organizeをorganizationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "picture",
+            "alternatives": [
+              "visualize",
+              "grasp",
+              "form a mental image of"
+            ],
+            "nuance": "visualizeは視覚化、graspは理解、form a mental image ofは心像形成を明示する。"
+          },
+          {
+            "original": "organized",
+            "alternatives": [
+              "structured",
+              "arranged",
+              "grouped"
+            ],
+            "nuance": "structuredは体系性、arrangedは配置、groupedは分類を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "役割分担",
+            "sentence": "Conversation supplies context, while a dictionary supplies organized detail.",
+            "translation": "会話は文脈を与え、辞書は整理された詳細を与える。"
+          },
+          {
+            "type": "手順",
+            "sentence": "Hear the word, check the entry, and return to the conversation.",
+            "translation": "単語を聞き、辞書項目を確認し、会話へ戻る。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A full dictionary entry is more informative than a single translated word.",
+            "translation": "完全な辞書項目は、一つの訳語より情報量が多い。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a word remains vague, check its examples and pronunciation.",
+            "translation": "単語が曖昧なままなら、用例と発音を確認しよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What helps most is the relationship among the pieces of information, not one definition alone.",
+            "translation": "最も役立つのは一つの定義だけでなく、情報同士の関係である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Use conversation for context and a dictionary for structure.",
+            "translation": "文脈には会話を、構造には辞書を使う。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "辞書と会話の役割を補完関係として示した。列挙とbecause節を含むため少し長いが、因果関係は明確である。"
+    }
+  },
+  {
+    "_no": 59,
+    "_generatedAt": "2026-08-08T02:00:00+09:00",
+    "sentence": "Simultaneous interpreting combines listening, prediction, translation, and speaking in real time; adding live transcription creates another stream of work to manage.",
+    "phonetic": "サイマルテイニアス インタープリティング コンバインズ リスニング、プリディクション、トランスレイション、アンド スピーキング イン リアル タイム；アディング ライヴ トランスクリプション クリエイツ アナザー ストリーム オヴ ワーク トゥ マネージ。",
+    "japaneseTranslation": "同時通訳は、聞き取り、予測、翻訳、発話をリアルタイムで組み合わせる。そこへ文字起こしを同時に加えると、管理すべき作業の流れがもう一つ増える。",
+    "theme": "同時通訳の並行処理",
+    "coreVerb": "combine",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Interpreting combines skills.",
+        "translation": "通訳は複数の技能を組み合わせる。"
+      },
+      "phase2": {
+        "sentence": "Simultaneous interpreting combines listening and speaking.",
+        "translation": "同時通訳は聞き取りと発話を組み合わせる。",
+        "addedChunks": "Simultaneousとlistening and speakingを加えて種類と技能を具体化"
+      },
+      "phase3": {
+        "sentence": "It combines them because the message must continue without a long pause.",
+        "translation": "長く止めずに内容を伝え続ける必要があるので、それらを組み合わせる。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Simultaneous interpreting demands more coordination than translating a finished transcript.",
+        "translation": "同時通訳は、完成した文字起こしを翻訳するより多くの調整を要する。",
+        "comparison": "more coordination than"
+      },
+      "phase5": {
+        "sentence": "Simultaneous interpreting combines listening, prediction, translation, and speaking in real time; adding live transcription creates another stream of work to manage.",
+        "translation": "同時通訳は、聞き取り、予測、翻訳、発話をリアルタイムで組み合わせる。そこへ文字起こしを同時に加えると、管理すべき作業の流れがもう一つ増える。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Simultaneous interpreting combines",
+          "function": "行動",
+          "translation": "同時通訳は組み合わせる"
+        },
+        {
+          "text": "listening, prediction, translation, and speaking",
+          "function": "対象",
+          "translation": "聞き取り、予測、翻訳、発話を"
+        },
+        {
+          "text": "in real time;",
+          "function": "時間",
+          "translation": "リアルタイムで"
+        },
+        {
+          "text": "adding live transcription creates",
+          "function": "結果",
+          "translation": "文字起こしを同時に加えると増える"
+        },
+        {
+          "text": "another stream of work to manage.",
+          "function": "対象",
+          "translation": "管理すべき作業の流れがもう一つ"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞の名詞用法",
+          "where": "Simultaneous interpreting",
+          "explanation": "interpretingは通訳という活動を名詞として表します。",
+          "rule": "動詞-ing形は活動名として使える。"
+        },
+        {
+          "category": "一致",
+          "name": "単数主語とcombines",
+          "where": "interpreting combines",
+          "explanation": "活動全体を単数扱いするためcombinesを使います。",
+          "rule": "単数主語の現在形には-sを付ける。"
+        },
+        {
+          "category": "並列",
+          "name": "四項目の列挙",
+          "where": "listening, prediction, translation, and speaking",
+          "explanation": "同時に調整する四つの処理を同じ役割で並べます。",
+          "rule": "A, B, C, and Dの形で並列する。"
+        },
+        {
+          "category": "前置詞",
+          "name": "in real time",
+          "where": "in real time",
+          "explanation": "遅れを最小限にして進行することを表す定型表現です。",
+          "rule": "in real timeで「リアルタイムで」。"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロンによる接続",
+          "where": "time; adding",
+          "explanation": "関連する二つの独立節を結びます。",
+          "rule": "完全な文同士はセミコロンで接続できる。"
+        },
+        {
+          "category": "不定詞",
+          "name": "to manageによる後置修飾",
+          "where": "work to manage",
+          "explanation": "どのような作業かを、管理すべき作業として限定します。",
+          "rule": "名詞 + to不定詞で用途・必要性を補足する。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Simultaneous interpreting combine several skills.",
+          "correct": "Simultaneous interpreting combines several skills.",
+          "why": "単数主語interpretingの現在形なのでcombinesにします。"
+        },
+        {
+          "wrong": "The interpreter listens, predicts, translates, and speaking.",
+          "correct": "The interpreter listens, predicts, translates, and speaks.",
+          "why": "並列する動詞の形をすべて三人称単数形にそろえます。"
+        },
+        {
+          "wrong": "Transcription creates another work stream manage.",
+          "correct": "Transcription creates another work stream to manage.",
+          "why": "管理すべき対象を表すto不定詞が必要です。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "An interpreter listens to one idea while speaking the previous one.",
+          "translation": "通訳者は一つの考えを聞きながら、その前の考えを話す。"
+        },
+        {
+          "text": "Live transcription adds a second output channel to an already demanding task.",
+          "translation": "ライブ文字起こしは、すでに負荷の高い作業へ第二の出力経路を加える。"
+        },
+        {
+          "text": "Reducing the speaking speed gives both human and AI interpreters more processing time.",
+          "translation": "話す速度を落とすと、人間とAIの通訳者の双方に処理時間が増える。"
+        }
+      ],
+      "parseTree": "S(Simultaneous interpreting) V(combines) O(listening, prediction, translation, and speaking) PP(in real time); S(GerP: adding live transcription) V(creates) O(another stream of work to manage)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Interpreting requires coordination.",
+          "expanded": "Interpreting requires coordination because comprehension and speech overlap in time.",
+          "nuance": "調整が必要な理由を示す。"
+        },
+        {
+          "original": "Transcription adds work.",
+          "expanded": "Since transcription creates a separate written output, it adds another task to monitor.",
+          "nuance": "文字出力が負荷を増やす因果を示す。"
+        },
+        {
+          "original": "Slower speech can help.",
+          "expanded": "Slower speech can help, so the interpreter gains more time to predict and reformulate.",
+          "nuance": "速度調整の効果を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Several language processes are coordinated in real time during simultaneous interpreting.",
+          "translation": "同時通訳では複数の言語処理がリアルタイムで調整される。",
+          "note": "処理自体へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Listening to the current sentence, the interpreter speaks the previous idea.",
+          "translation": "現在の文を聞きながら、通訳者は一つ前の考えを話す。",
+          "note": "重なる二つの動作を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The addition of live transcription increases the need for task coordination.",
+          "translation": "ライブ文字起こしの追加は、作業調整の必要性を高める。",
+          "note": "addとcoordinateを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "combine",
+            "alternatives": [
+              "coordinate",
+              "integrate",
+              "synchronize"
+            ],
+            "nuance": "coordinateは調整、integrateは統合、synchronizeは時間的な同期を強調する。"
+          },
+          {
+            "original": "stream",
+            "alternatives": [
+              "channel",
+              "process",
+              "workflow"
+            ],
+            "nuance": "channelは出力経路、processは処理、workflowは作業全体の流れを示す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "同時進行",
+            "sentence": "While one sentence is being heard, the previous idea is being spoken.",
+            "translation": "一つの文を聞いている間に、その前の考えが話される。"
+          },
+          {
+            "type": "追加",
+            "sentence": "Transcription not only records the speech but also creates another output to check.",
+            "translation": "文字起こしは発話を記録するだけでなく、確認すべき出力も増やす。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Interpreting live speech requires faster coordination than translating a completed text.",
+            "translation": "生の発話を通訳するには、完成した文章の翻訳より速い調整が必要だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the speaker slows down, the interpreter has more time to preserve meaning and structure.",
+            "translation": "話者が速度を落とせば、通訳者は意味と構造を保つ時間を増やせる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What makes the task difficult is the overlap of comprehension, reformulation, and delivery.",
+            "translation": "作業を難しくするのは、理解、言い換え、発話が重なることだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Listen, predict, translate, speak—and keep pace.",
+            "translation": "聞き、予測し、訳し、話し、速度を保つ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "同時通訳を単なる翻訳ではなく時間的に重なる処理として示した。列挙が多く語彙密度も高いため、音読ではセミコロンで明確に区切る必要がある。"
+    }
+  },
+  {
+    "_no": 60,
+    "_generatedAt": "2026-08-08T02:00:00+09:00",
+    "sentence": "When employers cannot provide all required training and workers cannot bear the full cost, public funding can lower barriers to reskilling without tying education to one company.",
+    "phonetic": "ウェン エンプロイヤーズ キャノット プロヴァイド オール リクワイアド トレイニング アンド ワーカーズ キャノット ベア ザ フル コスト、パブリック ファンディング キャン ロウアー バリアーズ トゥ リスキリング ウィズアウト タイイング エデュケイション トゥ ワン カンパニー。",
+    "japaneseTranslation": "雇用主が必要な訓練をすべて提供できず、働く人も費用全額を負担できないとき、公的資金は、教育を一社に結び付けずにリスキリングへの障壁を下げられる。",
+    "theme": "リスキリング費用の分担",
+    "coreVerb": "lower",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Funding lowers barriers.",
+        "translation": "資金は障壁を下げる。"
+      },
+      "phase2": {
+        "sentence": "Public funding lowers barriers to reskilling.",
+        "translation": "公的資金はリスキリングへの障壁を下げる。",
+        "addedChunks": "Publicとto reskillingを加えて資金の種類と対象を示す"
+      },
+      "phase3": {
+        "sentence": "It lowers barriers because training costs can be difficult to bear alone.",
+        "translation": "訓練費用を単独で負担するのは難しい場合があるため、障壁を下げる。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Shared funding can be more accessible than making one worker or employer pay the full cost.",
+        "translation": "費用の共同負担は、一人の労働者または一社の雇用主に全額を負わせるより利用しやすい場合がある。",
+        "comparison": "more accessible than"
+      },
+      "phase5": {
+        "sentence": "When employers cannot provide all required training and workers cannot bear the full cost, public funding can lower barriers to reskilling without tying education to one company.",
+        "translation": "雇用主が必要な訓練をすべて提供できず、働く人も費用全額を負担できないとき、公的資金は、教育を一社に結び付けずにリスキリングへの障壁を下げられる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When employers cannot provide all required training",
+          "function": "時間",
+          "translation": "雇用主が必要な訓練をすべて提供できず"
+        },
+        {
+          "text": "and workers cannot bear the full cost,",
+          "function": "接続",
+          "translation": "働く人も費用全額を負担できないとき"
+        },
+        {
+          "text": "public funding can lower",
+          "function": "行動",
+          "translation": "公的資金は下げられる"
+        },
+        {
+          "text": "barriers to reskilling",
+          "function": "対象",
+          "translation": "リスキリングへの障壁を"
+        },
+        {
+          "text": "without tying education to one company.",
+          "function": "様態",
+          "translation": "教育を一社に結び付けずに"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "whenによる条件・状況節",
+          "where": "When employers cannot provide ...",
+          "explanation": "公的支援が役立つ状況を示します。",
+          "rule": "when + 節で時や状況を表す。"
+        },
+        {
+          "category": "並列",
+          "name": "二つのcannot節",
+          "where": "employers cannot ... and workers cannot ...",
+          "explanation": "企業側と個人側の制約を同じ形で並べます。",
+          "rule": "同じ構造の節はandで並列できる。"
+        },
+        {
+          "category": "助動詞",
+          "name": "cannot＋動詞原形",
+          "where": "cannot provide / cannot bear",
+          "explanation": "提供や負担が難しいことを表します。",
+          "rule": "助動詞cannotの後ろは動詞原形にする。"
+        },
+        {
+          "category": "語法",
+          "name": "bear the cost",
+          "where": "bear the full cost",
+          "explanation": "費用を引き受けて負担する意味です。",
+          "rule": "bear + costで「費用を負担する」。"
+        },
+        {
+          "category": "語法",
+          "name": "lower barriers to",
+          "where": "lower barriers to reskilling",
+          "explanation": "リスキリングを妨げる条件を軽減することを表します。",
+          "rule": "lower barriers to + 名詞で「〜への障壁を下げる」。"
+        },
+        {
+          "category": "動名詞",
+          "name": "without＋動名詞",
+          "where": "without tying education to one company",
+          "explanation": "一社へ教育を固定しない方法を示します。",
+          "rule": "without + 動詞-ingで「〜せずに」。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Employers cannot provides all training.",
+          "correct": "Employers cannot provide all training.",
+          "why": "助動詞cannotの後ろは動詞原形provideにします。"
+        },
+        {
+          "wrong": "Workers cannot bear for the full cost.",
+          "correct": "Workers cannot bear the full cost.",
+          "why": "bearは他動詞なので費用の前にforは不要です。"
+        },
+        {
+          "wrong": "Funding can lower barriers of reskilling.",
+          "correct": "Funding can lower barriers to reskilling.",
+          "why": "「〜への障壁」はbarriers toで表します。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Training costs can be shared among workers, employers, and public institutions.",
+          "translation": "訓練費用は、働く人、雇用主、公的機関の間で分担できる。"
+        },
+        {
+          "text": "Portable education allows people to use new skills beyond one workplace.",
+          "translation": "持ち運べる教育は、一つの職場を越えて新しい技能を使えるようにする。"
+        },
+        {
+          "text": "Public support can expand access without requiring every company to build its own school.",
+          "translation": "公的支援は、すべての企業に独自の学校を作らせずに学習機会を広げられる。"
+        }
+      ],
+      "parseTree": "AdvClause(When S(employers) Modal(cannot) V(provide) O(all required training) and S(workers) Modal(cannot) V(bear) O(the full cost)), S(public funding) Modal(can) V(lower) O(barriers to reskilling) PP(without tying education to one company)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Public funding lowers barriers.",
+          "expanded": "Public funding lowers barriers because neither workers nor employers may be able to carry the full training cost alone.",
+          "nuance": "費用分担が必要になる理由を示す。"
+        },
+        {
+          "original": "Training should be portable.",
+          "expanded": "Since workers may change jobs, training should remain useful beyond one employer.",
+          "nuance": "教育を一社へ固定しない理由を示す。"
+        },
+        {
+          "original": "Shared funding expands access.",
+          "expanded": "Shared funding expands access, so more people can retrain before a job change becomes urgent.",
+          "nuance": "費用分担から学習機会への結果を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The cost of reskilling can be shared by workers, employers, and public institutions.",
+          "translation": "リスキリング費用は、働く人、雇用主、公的機関で分担できる。",
+          "note": "費用を主語にして分担構造を示す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reducing the individual burden, public funding can widen access to training.",
+          "translation": "個人負担を減らすことで、公的資金は訓練へのアクセスを広げられる。",
+          "note": "手段を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The public financing of portable training can support broader participation in reskilling.",
+          "translation": "持ち運べる訓練への公的資金提供は、より広いリスキリング参加を支え得る。",
+          "note": "financeとparticipateを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "funding",
+            "alternatives": [
+              "financing",
+              "support",
+              "subsidy"
+            ],
+            "nuance": "financingは資金調達、supportは支援一般、subsidyは補助金を表す。"
+          },
+          {
+            "original": "barrier",
+            "alternatives": [
+              "obstacle",
+              "constraint",
+              "entry cost"
+            ],
+            "nuance": "obstacleは一般的障害、constraintは制約、entry costは参加時の費用を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "費用分担",
+            "sentence": "Workers contribute time, employers contribute workplace knowledge, and public institutions contribute funding.",
+            "translation": "働く人は時間を、雇用主は職場知識を、公的機関は資金を提供する。"
+          },
+          {
+            "type": "目的",
+            "sentence": "Training should build skills that remain useful across employers.",
+            "translation": "訓練は雇用主を越えて役立つ技能を育てるべきだ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Shared funding may reach more learners than a system based entirely on individual payment.",
+            "translation": "費用分担は、個人負担だけの制度より多くの学習者へ届く可能性がある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If training benefits the wider labor market, its cost need not fall on one company alone.",
+            "translation": "訓練が労働市場全体に利益をもたらすなら、その費用を一社だけが負う必要はない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "The goal is not free training by itself but wider access to portable skills.",
+            "translation": "目的は無償訓練それ自体ではなく、持ち運べる技能へのアクセス拡大だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Share the cost; keep the skills portable.",
+            "translation": "費用を分担し、技能を持ち運べるようにする。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "企業と個人の双方に限界がある場合を条件として示し、公的資金の効果はcanで可能性に限定した。政策論のため応用範囲には制度差がある。"
+    }
+  }
+]
