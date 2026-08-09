@@ -1,0 +1,187 @@
+[
+  {
+    "id": "DE-20260809-001",
+    "sourceTitle": "終わらせないための完了",
+    "workId": "daily-essay-20260809",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "一覧から消えた仕事",
+    "jp": "文学版の更新が、タスクの一覧から消えていた。削除されたのではない。設定も時刻も残ったまま、ただ無効になっていた。目に見えない停止は、故障よりも静かである。仕組みは壊れた音を立てず、次の日の仕事だけを手放す。続くはずのものが途切れたとき、最初に確かめるべきなのは成果物ではなく、明日へ渡す動作がまだ生きているかどうかだった。",
+    "translationLiteral": "The literature update had disappeared from the task list. It had not been deleted. Its settings and time remained, but it had simply been disabled. An invisible stop is quieter than a failure. The system makes no sound of breaking; it only lets go of the next day's work. When something meant to continue is interrupted, the first thing to check is not the output but whether the action that carries the work into tomorrow is still alive.",
+    "translationNatural": "The literature update had vanished from the task list, yet it had not been deleted. Its settings and schedule were still intact; only the task itself had been disabled. Silent suspension is harder to notice than an obvious failure because nothing appears to break. When a recurring process stops, the first question is not whether yesterday's output exists, but whether the mechanism that carries the work into tomorrow is still running.",
+    "imageUrl": "",
+    "imageCaption": "予定表の中で、一つの継続タスクだけが音もなく薄れている場面。",
+    "imagePrompt": "A quiet calendar interface with one recurring task fading almost invisibly while its settings remain intact, restrained editorial illustration, muted colors, no readable text",
+    "chunks": [
+      {
+        "en": "The literature update had vanished from the task list,",
+        "ja": "文学版の更新がタスク一覧から消えていたが"
+      },
+      {
+        "en": "yet it had not been deleted.",
+        "ja": "削除されたわけではなかった"
+      },
+      {
+        "en": "Its settings and schedule were still intact;",
+        "ja": "設定と実行予定はそのまま残っており"
+      },
+      {
+        "en": "only the task itself had been disabled.",
+        "ja": "タスクそのものだけが無効になっていた"
+      },
+      {
+        "en": "Silent suspension is harder to notice than an obvious failure",
+        "ja": "静かな停止は明白な故障より気づきにくい"
+      },
+      {
+        "en": "because nothing appears to break.",
+        "ja": "何も壊れたように見えないからだ"
+      },
+      {
+        "en": "When a recurring process stops, the first question is not whether yesterday's output exists, but whether the mechanism that carries the work into tomorrow is still running.",
+        "ja": "継続処理が止まったとき問うべきは昨日の成果ではなく、仕事を明日へ運ぶ仕組みがまだ動いているかである"
+      }
+    ],
+    "grammar": [
+      "had vanished と had not been deleted は過去完了で、発見時点より前に起きていた状態を示す。",
+      "yet は前半の「消えた」と後半の「削除されていない」を対照させる接続詞。",
+      "only the task itself の itself は、設定や予定ではなくタスク本体だけだと限定する強意用法。",
+      "harder to notice than ... は比較級で、静かな停止と明白な故障の気づきやすさを比較する。",
+      "not whether A, but whether B は、確認すべき問いをAからBへ置き換える対照構文。"
+    ],
+    "translationNote": "「目に見えない停止」は literal では an invisible stop としたが、natural では運用上の一時停止を明確にする silent suspension とした。「明日へ渡す動作」は carries the work into tomorrow と動作主体を補い、継続性の比喩を保った。",
+    "readingPoint": "導入では、削除ではなく無効化という静かな断絶を描く。成果物の有無から、次回へ仕事を引き渡す仕組みの生死へ視点を移し、作品全体の問いを置く。",
+    "keywords": [
+      "recurring task",
+      "suspension",
+      "continuity",
+      "schedule",
+      "tomorrow"
+    ]
+  },
+  {
+    "id": "DE-20260809-002",
+    "sourceTitle": "終わらせないための完了",
+    "workId": "daily-essay-20260809",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "成功が止めたもの",
+    "jp": "原因は失敗ではなく、成功の解釈にあった。一日分の作品を登録したあと、同じ内容の重複を避けようとして、自動化そのものが停止されていた。しかし日次の仕事では、今日の完了は全体の終了を意味しない。日付が変われば対象も変わる。同じ日の二重登録を防ぐ規則と、翌日の実行まで閉じる判断は別物である。成功を終止符として扱うと、継続のための仕組みほど行儀よく消えてしまう。",
+    "translationLiteral": "The cause lay not in failure but in the interpretation of success. After one day's work had been registered, the automation itself had been stopped to avoid registering the same content twice. Yet in daily work, today's completion does not mean the end of the whole process. When the date changes, the target changes as well. A rule that prevents duplicate registration on the same day is different from a decision that closes even the next day's run. If success is treated as a full stop, the very system built for continuity disappears obediently.",
+    "translationNatural": "The problem came from misreading success, not from failure. Once a single day's essay had been registered, the entire automation was stopped in the name of avoiding duplicates. But completion has two different scales: one run can finish while the recurring process remains open. Preventing a second entry for the same date is a local safeguard; canceling the next day's run is a lifecycle decision. When those levels are confused, the system designed to preserve continuity becomes the thing that ends it.",
+    "imageUrl": "",
+    "imageCaption": "一日分の完了印が、先の日付まで誤って閉じてしまう場面。",
+    "imagePrompt": "A single completed date on a calendar casting a long closing bar across all future dates, conceptual editorial illustration, clean geometry, no readable text",
+    "chunks": [
+      {
+        "en": "The problem came from misreading success, not from failure.",
+        "ja": "問題は失敗ではなく成功の読み違いから生じた"
+      },
+      {
+        "en": "Once a single day's essay had been registered,",
+        "ja": "一日分のエッセイが登録されると"
+      },
+      {
+        "en": "the entire automation was stopped in the name of avoiding duplicates.",
+        "ja": "重複回避の名目で自動化全体が停止された"
+      },
+      {
+        "en": "But completion has two different scales:",
+        "ja": "しかし完了には二つの異なる尺度がある"
+      },
+      {
+        "en": "one run can finish while the recurring process remains open.",
+        "ja": "一回の実行が終わっても継続処理は開いたままでよい"
+      },
+      {
+        "en": "Preventing a second entry for the same date is a local safeguard; canceling the next day's run is a lifecycle decision.",
+        "ja": "同日二重登録の防止は局所的な保護であり、翌日の実行取消しはライフサイクル上の判断である"
+      },
+      {
+        "en": "When those levels are confused, the system designed to preserve continuity becomes the thing that ends it.",
+        "ja": "その階層を混同すると、継続を守る仕組みが継続を終わらせるものになる"
+      }
+    ],
+    "grammar": [
+      "not from failure は、from misreading success と対照を作る省略表現。",
+      "Once ... had been registered は過去完了の受動態を含み、登録完了後の判断を示す。",
+      "in the name of -ing は「〜を名目として」という理由づけへの距離を表す。",
+      "one run can finish while ... remains open の while は二つの状態の両立を示す。",
+      "designed to preserve continuity は過去分詞句で system を後置修飾する。",
+      "becomes the thing that ends it の it は直前の continuity を指す。"
+    ],
+    "translationNote": "「成功の解釈」は natural で misreading success とし、単なる理解ではなく誤読だったことを前面に出した。「今日の完了は全体の終了ではない」は completion has two different scales と再構成し、実行単位と継続処理の階層差を明確にした。",
+    "readingPoint": "展開部では、停止を単なる操作ミスではなく、完了の尺度を混同した設計判断として捉える。同日重複の防止と継続タスクの寿命を切り分け、主題を技術的かつ一般的な問題へ広げる。",
+    "keywords": [
+      "success",
+      "completion",
+      "duplicate",
+      "lifecycle",
+      "continuity"
+    ]
+  },
+  {
+    "id": "DE-20260809-003",
+    "sourceTitle": "終わらせないための完了",
+    "workId": "daily-essay-20260809",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "停止条件を書く",
+    "jp": "再開するとき、必要だったのは励ましではなく、停止条件の文章だった。正常に終わった日も、題材が足りない日も、同じ日付がすでに登録されていた日も、その回だけを閉じて次の日を残す。品質に届かなければ書き込まず、それでも予定は消さない。止めてよいのは、止めてほしいと明示されたときだけにする。継続とは毎日うまくいくことではない。うまくいかなかった日を、翌日の可能性まで失う理由にしないことである。",
+    "translationLiteral": "When the task was restarted, what was needed was not encouragement but a written condition for stopping. On a day that ended normally, a day without enough material, or a day whose date had already been registered, only that run should be closed and the next day should be left in place. If the work failed to meet the quality standard, nothing should be written, but the schedule should still not disappear. Stopping should be allowed only when a clear request to stop has been made. Continuity does not mean that every day goes well. It means not using a day that went badly as a reason to lose the possibility of the next day.",
+    "translationNatural": "Restarting the task required a stopping rule, not a motivational speech. A successful run, a day with too little material, or a duplicate date should close only the current attempt and leave the next one intact. Work that fails the quality check should not be published, but the schedule should survive. The recurring task should stop only in response to an explicit request. Continuity is not a record of perfect days; it is the decision not to let one imperfect day erase the possibility of tomorrow.",
+    "imageUrl": "",
+    "imageCaption": "今日の扉だけを閉じ、明日の扉は開いたまま残す仕組み。",
+    "imagePrompt": "A sequence of simple doors labeled only by abstract day markers, today's door gently closed while tomorrow's remains open and lit, restrained literary editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Restarting the task required a stopping rule, not a motivational speech.",
+        "ja": "タスクの再開に必要だったのは励ましではなく停止規則だった"
+      },
+      {
+        "en": "A successful run, a day with too little material, or a duplicate date",
+        "ja": "成功した実行、題材の少ない日、または日付の重複は"
+      },
+      {
+        "en": "should close only the current attempt and leave the next one intact.",
+        "ja": "現在の試行だけを閉じ、次回は無傷で残すべきである"
+      },
+      {
+        "en": "Work that fails the quality check should not be published,",
+        "ja": "品質検査に落ちた作品は公開すべきではないが"
+      },
+      {
+        "en": "but the schedule should survive.",
+        "ja": "予定は生き残るべきである"
+      },
+      {
+        "en": "The recurring task should stop only in response to an explicit request.",
+        "ja": "継続タスクは明示的な依頼に応じる場合だけ停止すべきである"
+      },
+      {
+        "en": "Continuity is not a record of perfect days; it is the decision not to let one imperfect day erase the possibility of tomorrow.",
+        "ja": "継続とは完全な日の記録ではなく、不完全な一日で明日の可能性を消さないという決定である"
+      }
+    ],
+    "grammar": [
+      "required A, not B は必要なものを対照的に限定する構文。",
+      "A, B, or C は三つの停止理由候補を並列する。",
+      "should close ... and leave ... は二つの動作を同じ助動詞の下で並列する。",
+      "Work that fails ... の that 節は Work を修飾する関係節。",
+      "only in response to ... は停止を許す条件を限定する副詞句。",
+      "not to let A erase B は let を使った使役構文で、「AにBを消させない」を表す。"
+    ],
+    "translationNote": "「励ましではなく、停止条件の文章」は a stopping rule, not a motivational speech とし、運用規則と気分的支援を対照させた。「次の日を残す」は leave the next one intact、「予定は消さない」は the schedule should survive と訳し、継続を生存の比喩で統一した。",
+    "readingPoint": "結末では、再発防止の具体的な停止条件を示しつつ、継続の定義を言い換える。毎日の成功ではなく、不成功を次回の剥奪へ拡大しないこととして捉え、明日を残す余韻で閉じる。",
+    "keywords": [
+      "stopping rule",
+      "quality check",
+      "explicit request",
+      "recurrence",
+      "tomorrow"
+    ]
+  }
+]
