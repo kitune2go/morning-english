@@ -32,5 +32,12 @@
     "description": "暑さの中の服装規範と、形式だけを測る検証の限界を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260725/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260809",
+    "title": "終わらせないための完了",
+    "description": "一日分の成功を継続処理の終了と取り違えた停止から、明日を残すための停止条件を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260809/manifest.json",
+    "mode": "essay-translation"
   }
 ]
