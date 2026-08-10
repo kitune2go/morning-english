@@ -1,0 +1,250 @@
+[
+  {
+    "id": "DE-20260810-001",
+    "sourceTitle": "帳簿の外で払うもの",
+    "workId": "daily-essay-20260810",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "同じ給付、違う入口",
+    "jp": "制度の名前が全国で同じでも、利用できる量まで同じとは限らない。給付の条件が等しく書かれていても、ある地域には事業所と人手があり、別の地域では週に一度の支援さえ細い入口になる。ここで差を作るのは権利の文言ではなく、定員、距離、働く人の数である。紙の上では同じ一単位でも、生活の側では待ち時間や移動や諦めを含んだ、まったく異なる重さを持つ。",
+    "translationLiteral": "Even if a system has the same name nationwide, the amount that can actually be used is not necessarily equal. Even when the conditions for benefits are written equally, one region has providers and workers, while in another region even support once a week becomes a narrow entrance. What creates the difference here is not the wording of the right but capacity, distance, and the number of people who work. The same unit on paper carries a completely different weight in daily life, including waiting time, travel, and resignation.",
+    "translationNatural": "A nationwide benefit does not guarantee nationwide access. Eligibility may be written in equal terms, yet actual support depends on local capacity, distance, and staffing. In one region, services are available; in another, even an occasional visit may be difficult to secure. The unit recorded by the system looks identical on paper, but its weight in daily life changes with the waiting, travel, and compromises required to receive it.",
+    "imageUrl": "",
+    "imageCaption": "同じ給付券の先に、広い入口と細い入口が分かれている場面。",
+    "imagePrompt": "Two people holding identical public benefit vouchers facing two very different service entrances, one accessible and one distant and narrow, restrained editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "A nationwide benefit does not guarantee nationwide access.",
+        "ja": "全国一律の給付は全国一律の利用可能性を保証しない"
+      },
+      {
+        "en": "Eligibility may be written in equal terms,",
+        "ja": "受給資格は等しい条件で書かれていても"
+      },
+      {
+        "en": "yet actual support depends on local capacity, distance, and staffing.",
+        "ja": "実際の支援は地域の定員、距離、人員に左右される"
+      },
+      {
+        "en": "In one region, services are available;",
+        "ja": "ある地域ではサービスを利用できるが"
+      },
+      {
+        "en": "in another, even an occasional visit may be difficult to secure.",
+        "ja": "別の地域では時折の訪問さえ確保しにくい場合がある"
+      },
+      {
+        "en": "The unit recorded by the system looks identical on paper,",
+        "ja": "制度が記録する単位は紙の上では同じに見えるが"
+      },
+      {
+        "en": "but its weight in daily life changes with the waiting, travel, and compromises required to receive it.",
+        "ja": "生活上の重さは受給に必要な待機、移動、妥協によって変わる"
+      }
+    ],
+    "grammar": [
+      "does not guarantee は「必ずしも実現を保証しない」という因果の切断を示す。",
+      "may be written は助動詞を伴う受動態で、制度上の記述を表す。",
+      "yet は形式的平等と実際の供給条件を対照させる。",
+      "depends on A, B, and C は三つの供給条件を並列する。",
+      "required to receive it は過去分詞句で waiting, travel, and compromises を説明する。"
+    ],
+    "translationNote": "「同じ給付、違う入口」という比喩を、natural では benefit と access の対照に置き換えた。「週に一度」は会話の問題意識を一般化して an occasional visit とし、地域差の構造を強調した。",
+    "readingPoint": "導入では、給付条件の平等と利用可能性の平等を切り分ける。制度の単位から生活上の待機・移動へ視線を移し、帳簿に表れない費用という主題を準備する。",
+    "keywords": [
+      "benefit",
+      "access",
+      "regional inequality",
+      "capacity",
+      "staffing"
+    ]
+  },
+  {
+    "id": "DE-20260810-002",
+    "sourceTitle": "帳簿の外で払うもの",
+    "workId": "daily-essay-20260810",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "家族へ移る請求書",
+    "jp": "支援が足りないとき、必要な世話まで消えるわけではない。制度が引き受けなかった時間は、家族の予定の中へ移される。仕事を調整し、離れた場所へ通い、足りない回数を埋める。その労力に請求書が付かなければ、行政の支出には現れにくい。しかし、費用が計上されないことと、費用が存在しないことは同じではない。公的な帳簿が軽くなった分だけ、私的な一日が重くなる。",
+    "translationLiteral": "When support is insufficient, the necessary care does not disappear. The time that the system did not take on is moved into the family's schedule. They adjust work, travel to a distant place, and fill the missing visits. If no invoice is attached to that labor, it is unlikely to appear in public expenditure. However, a cost not being recorded is not the same as a cost not existing. To the extent that the public ledger becomes lighter, the private day becomes heavier.",
+    "translationNatural": "When formal support falls short, the need for care remains. The missing hours are transferred into family schedules, where they become adjustments to work, repeated travel, and unpaid substitution for services that were unavailable. Because this labor produces no invoice, it is easy to omit from the public account. But an unrecorded cost is still a cost. What disappears from the institutional ledger returns as weight inside an ordinary day.",
+    "imageUrl": "",
+    "imageCaption": "公的な帳簿から消えた時間が、家族の一日の予定表へ移される場面。",
+    "imagePrompt": "Hours lifting off a sparse public ledger and settling heavily onto a family calendar filled with travel and care duties, conceptual editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "When formal support falls short,",
+        "ja": "制度的支援が不足すると"
+      },
+      {
+        "en": "the need for care remains.",
+        "ja": "介護の必要性は残る"
+      },
+      {
+        "en": "The missing hours are transferred into family schedules,",
+        "ja": "不足した時間は家族の予定へ移され"
+      },
+      {
+        "en": "where they become adjustments to work, repeated travel, and unpaid substitution for services that were unavailable.",
+        "ja": "仕事の調整、繰り返す移動、利用できなかったサービスの無償代替になる"
+      },
+      {
+        "en": "Because this labor produces no invoice,",
+        "ja": "この労働は請求書を生まないため"
+      },
+      {
+        "en": "it is easy to omit from the public account.",
+        "ja": "公的会計から省かれやすい"
+      },
+      {
+        "en": "But an unrecorded cost is still a cost. What disappears from the institutional ledger returns as weight inside an ordinary day.",
+        "ja": "しかし未記録の費用も費用であり、制度の帳簿から消えたものは日常の重さとして戻る"
+      }
+    ],
+    "grammar": [
+      "When ... falls short は「〜が不足すると」という条件・時を示す。",
+      "are transferred into は受動態で、負担の移動を表す。",
+      "where they become ... の where は family schedules を受ける関係副詞。",
+      "services that were unavailable は関係節で services を限定する。",
+      "Because ... は請求書がないことと非計上の因果関係を示す。",
+      "What disappears ... は what 節を主語にした名詞節。"
+    ],
+    "translationNote": "「家族の予定の中へ移される」は transferred into family schedules と受動態を維持した。natural では「足りない回数を埋める」を unpaid substitution と抽象化し、制度支出の減少が無償労働への移転であることを明確にした。",
+    "readingPoint": "第二章では、地域差が生む不足を家族負担へ接続する。請求書の有無と費用の有無を分け、公的会計の外に出た時間が私生活の重さとして残ることを示す。",
+    "keywords": [
+      "family care",
+      "unpaid labor",
+      "externalization",
+      "public account",
+      "time"
+    ]
+  },
+  {
+    "id": "DE-20260810-003",
+    "sourceTitle": "帳簿の外で払うもの",
+    "workId": "daily-essay-20260810",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "理念と配達",
+    "jp": "憲法は、健康で文化的な最低限度の生活を権利として掲げ、国に社会福祉と社会保障の向上を求めている。その文言は制度の向きを定めるが、文章だけで近所に事業所が建つわけでも、働く人が配置されるわけでもない。理念を空文にしないためには、予算、定員、交通、人員という配達の仕組みが要る。権利は入口に掲げた看板だけでは届かない。最後の一人まで運ばれて、初めて生活の中で効力を持つ。",
+    "translationLiteral": "The Constitution presents the right to maintain the minimum standards of wholesome and cultured living and asks the state to improve social welfare and social security. That wording determines the direction of the system, but text alone does not build a provider nearby or assign workers. To keep the principle from becoming empty words, a delivery mechanism of budgets, capacity, transportation, and personnel is needed. A right does not arrive through a sign placed at the entrance alone. Only when it is carried to the last person does it gain force in daily life.",
+    "translationNatural": "The Constitution recognizes a right to minimum standards of wholesome and cultured living and directs the state to advance social welfare and social security. Such language sets a destination, but it does not by itself create nearby services or staff them. A principle reaches daily life only through delivery systems: budgets, capacity, transportation, and workers. Rights cannot remain signs above an entrance. They acquire practical force only when institutions carry them across the final distance.",
+    "imageUrl": "",
+    "imageCaption": "権利と書かれた入口から、生活の場所まで続く未完成の配送路。",
+    "imagePrompt": "A dignified institutional gateway leading to an incomplete delivery route toward distant homes, symbols of budget, transport, capacity, and workers along the path, editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "The Constitution recognizes a right to minimum standards of wholesome and cultured living",
+        "ja": "憲法は健康で文化的な最低限度の生活への権利を認め"
+      },
+      {
+        "en": "and directs the state to advance social welfare and social security.",
+        "ja": "国に社会福祉と社会保障の向上を求める"
+      },
+      {
+        "en": "Such language sets a destination,",
+        "ja": "そのような文言は目的地を定めるが"
+      },
+      {
+        "en": "but it does not by itself create nearby services or staff them.",
+        "ja": "それ自体で近隣サービスを作ったり人員を配置したりはしない"
+      },
+      {
+        "en": "A principle reaches daily life only through delivery systems:",
+        "ja": "理念は配達の仕組みを通じてのみ生活へ届く"
+      },
+      {
+        "en": "budgets, capacity, transportation, and workers.",
+        "ja": "すなわち予算、定員、交通、働く人である"
+      },
+      {
+        "en": "Rights cannot remain signs above an entrance. They acquire practical force only when institutions carry them across the final distance.",
+        "ja": "権利は入口の看板のままでは足りず、制度が最後の距離を運ぶとき実際の効力を得る"
+      }
+    ],
+    "grammar": [
+      "recognizes A and directs B は二つの述語を並列する。",
+      "to advance は direct A to do の不定詞で、国へ向けた働きかけを表す。",
+      "by itself は「それだけでは」という限定を加える。",
+      "create ... or staff them は否定文中の or で二つの未実現動作を結ぶ。",
+      "only through は理念が届くための手段を限定する。",
+      "only when は実際の効力が生じる条件を示す。"
+    ],
+    "translationNote": "憲法25条の趣旨は公式本文に沿わせつつ、直訳の asks the state を natural では directs the state として規範的な方向づけを示した。「配達」は delivery systems、「最後の一人まで運ぶ」は carry them across the final distance とし、理念と実装の距離を一つの比喩で結んだ。",
+    "readingPoint": "ここが転換点である。家族負担の観察から、権利を生活へ届ける制度設計へ視野を広げる。理念を否定せず、理念が実効性を持つための中間装置を問う。",
+    "keywords": [
+      "Constitution",
+      "Article 25",
+      "social welfare",
+      "delivery",
+      "practical force"
+    ]
+  },
+  {
+    "id": "DE-20260810-004",
+    "sourceTitle": "帳簿の外で払うもの",
+    "workId": "daily-essay-20260810",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "費用は移動する",
+    "jp": "外部化という言葉は、費用が制度の外へ出たことを示すだけで、消滅を意味しない。家族が無償で担えば市場価格は付かず、支出の数字も増えない。それでも時間は使われ、移動があり、別の仕事や休息が押しのけられる。市場に現れたものだけを価値や負担として数えれば、帳簿は整っても生活の総額を誤る。必要なのは、誰が支払ったかだけでなく、誰の一日へ請求が移されたかを見ることである。",
+    "translationLiteral": "The word externalization only shows that a cost has moved outside the system; it does not mean that the cost has disappeared. If a family takes it on without pay, no market price is attached and the expenditure figure does not rise. Even so, time is used, travel occurs, and other work or rest is pushed aside. If only what appears in the market is counted as value or burden, the ledger may be orderly while the total cost of life is mistaken. What is necessary is to see not only who paid, but into whose day the bill was moved.",
+    "translationNatural": "Externalization does not eliminate a cost; it relocates it. When families supply care without pay, neither a market price nor a public expenditure necessarily appears. Time is still consumed, travel is still required, and other work or rest is displaced. An account that recognizes only market transactions may balance while misrepresenting the total burden on life. The final question is therefore not simply who paid money, but whose day received the bill.",
+    "imageUrl": "",
+    "imageCaption": "消えたように見える請求書が、別の人の一日の中へ差し込まれる場面。",
+    "imagePrompt": "A bill sliding out of a balanced institutional ledger and reappearing inside another person's daily calendar, minimalist conceptual editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Externalization does not eliminate a cost;",
+        "ja": "外部化は費用を消さず"
+      },
+      {
+        "en": "it relocates it.",
+        "ja": "別の場所へ移す"
+      },
+      {
+        "en": "When families supply care without pay,",
+        "ja": "家族が無償で介護を担うと"
+      },
+      {
+        "en": "neither a market price nor a public expenditure necessarily appears.",
+        "ja": "市場価格も公的支出も必ずしも現れない"
+      },
+      {
+        "en": "Time is still consumed, travel is still required, and other work or rest is displaced.",
+        "ja": "それでも時間は使われ、移動が必要となり、別の仕事や休息が押しのけられる"
+      },
+      {
+        "en": "An account that recognizes only market transactions may balance while misrepresenting the total burden on life.",
+        "ja": "市場取引だけを認識する会計は、生活上の総負担を誤って示しながら帳尻を合わせ得る"
+      },
+      {
+        "en": "The final question is therefore not simply who paid money, but whose day received the bill.",
+        "ja": "最後に問うべきは誰が金銭を払ったかだけでなく、誰の一日が請求を受けたかである"
+      }
+    ],
+    "grammar": [
+      "does not A; it B は消滅と移動を対照させる。",
+      "neither A nor B は市場価格と公的支出の双方を否定する。",
+      "necessarily は否定文と組み合わさり「必ずしも〜ない」を表す。",
+      "is consumed / is required / is displaced は三つの受動態を並列する。",
+      "that recognizes ... は関係節で An account を修飾する。",
+      "may balance while misrepresenting ... は帳尻の一致と実態の誤表示が同時に起こり得ることを示す。",
+      "not simply A, but B は問いの焦点を支払者から負担先へ移す。"
+    ],
+    "translationNote": "「費用は移動する」を natural の冒頭で relocates it と簡潔に定式化した。「生活の総額」は monetary total と誤解されないよう the total burden on life とし、「誰の一日へ請求が移されたか」は whose day received the bill という擬人化を保った。",
+    "readingPoint": "結末では、前章までの地域差、家族負担、権利の実装を外部化という一語へ収束させる。金銭支出だけでなく、一日の時間を受取先とする請求書を示し、静かな余韻で閉じる。",
+    "keywords": [
+      "externalization",
+      "cost",
+      "market price",
+      "ledger",
+      "unpaid care"
+    ]
+  }
+]
