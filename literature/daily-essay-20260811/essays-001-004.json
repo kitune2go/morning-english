@@ -1,0 +1,243 @@
+[
+  {
+    "id": "DE-20260811-001",
+    "sourceTitle": "社会にはコミット履歴がない",
+    "workId": "daily-essay-20260811",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "発生源のない変更",
+    "jp": "コードの変更なら、誰がいつ何を加えたかを履歴から辿れる。ところが社会運動は、最初の一行を書いた人を確定できないまま広がり、いつしか既成事実として人の振る舞いを変える。発生源が曖昧だからといって、作用まで曖昧なわけではない。むしろ作者の見えない変更ほど、誰の提案だったかより、どの経路を通って習慣や規範になったかを調べる必要がある。",
+    "translationLiteral": "With a change to code, we can trace from the history who added what and when. Social movements, however, spread without our being able to identify the person who wrote the first line, and before long they change people's behavior as an established fact. Just because their source is unclear does not mean their effects are unclear. Indeed, the less visible the author of a change is, the more necessary it becomes to investigate not whose proposal it was but the route by which it became a habit or norm.",
+    "translationNatural": "Code changes usually leave a record of who added what and when. Social movements are different: they can spread without a traceable first author and eventually alter ordinary behavior as an established fact. An unclear origin does not make their effects unclear. The less visible the author is, the more important it becomes to examine the route by which a proposal turned into a habit or norm.",
+    "imageUrl": "",
+    "imageCaption": "都市へ広がる名のない変化と、その脇に残る明確なコード履歴。",
+    "imagePrompt": "An anonymous social change spreading through a city beside a precise sequence of code revisions, restrained conceptual editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Code changes usually leave a record of who added what and when.",
+        "ja": "コードの変更には、誰がいつ何を加えたかという記録が通常残る"
+      },
+      {
+        "en": "Social movements are different:",
+        "ja": "社会運動はそれとは異なり"
+      },
+      {
+        "en": "they can spread without a traceable first author",
+        "ja": "追跡できる最初の作者がいなくても広がり得る"
+      },
+      {
+        "en": "and eventually alter ordinary behavior as an established fact.",
+        "ja": "やがて既成事実として日常の振る舞いを変える"
+      },
+      {
+        "en": "An unclear origin does not make their effects unclear.",
+        "ja": "発生源が不明確でも、その作用まで不明確になるわけではない"
+      },
+      {
+        "en": "The less visible the author is, the more important it becomes to examine the route by which a proposal turned into a habit or norm.",
+        "ja": "作者が見えないほど、提案が習慣や規範へ変わった経路を調べることが重要になる"
+      }
+    ],
+    "grammar": [
+      "who added what and when は三つの疑問語を並べた間接疑問で、record の内容を示す。",
+      "without a traceable first author は前置詞句で、発生源を特定できない条件を表す。",
+      "alter A as B は「AをBとして変える」という作用と位置づけを結ぶ。",
+      "The less A, the more B は比例比較で、作者の不可視性と経路調査の必要性を対応させる。",
+      "by which は関係代名詞を前置詞の後に置き、proposal が norm へ変わる route を説明する。"
+    ],
+    "translationNote": "literal は「最初の一行」「作者の見えない変更」というコードの比喩を保った。natural では冒頭を Code changes usually leave a record と簡潔にし、「誰の提案かより経路」を比較構文と by which 節で自然に組み直した。",
+    "readingPoint": "導入では、コードなら追跡できる変更者が社会運動では見えにくいという対照を置く。起源の不明確さを作用の不在と混同せず、作品全体の問いを「誰か」から「どの経路か」へ移す。",
+    "keywords": [
+      "social movement",
+      "origin",
+      "behavior",
+      "norm",
+      "provenance"
+    ]
+  },
+  {
+    "id": "DE-20260811-002",
+    "sourceTitle": "社会にはコミット履歴がない",
+    "workId": "daily-essay-20260811",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "影響力の通り道",
+    "jp": "社会を変えるとは、抽象的な空気を動かすことではなく、人が行動する条件を変えることだ。その仕事は市場の価格、行政の運用、政治の決定、法律の強制など、異なる手続きによって担われる。経路が違っても、どれも影響力の行使である。だから善意や反権力という看板だけでは足りない。誰が決め、誰が従い、異議をどこへ戻せるのかまで見なければ、変更の責任は霧の中に残る。",
+    "translationLiteral": "To change society is not to move an abstract atmosphere but to change the conditions under which people act. This work is carried by different procedures, such as market prices, administrative operations, political decisions, and legal coercion. Even if the routes differ, all of them are exercises of influence. Therefore, signs reading good intentions or anti-power are not enough. Unless we look as far as who decides, who follows, and where an objection can be returned, responsibility for the change remains in the fog.",
+    "translationNatural": "Changing society means changing the conditions under which people act, not merely shifting an abstract mood. Markets, administrative practice, political decisions, and law carry that influence through different procedures. The routes differ, but each one exercises power. Good intentions or an anti-authority label are therefore not enough; responsibility remains obscure unless we can identify who makes the decision, who must comply, and where an objection can reenter the process.",
+    "imageUrl": "",
+    "imageCaption": "市場、行政、政治、法律を通って人の行動条件へ届く複数の経路。",
+    "imagePrompt": "Several distinct routes labeled only by visual symbols for markets, administration, politics, and law converging on everyday human behavior, sober editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Changing society means changing the conditions under which people act,",
+        "ja": "社会を変えるとは、人が行動する条件を変えることであり"
+      },
+      {
+        "en": "not merely shifting an abstract mood.",
+        "ja": "抽象的な空気を動かすだけではない"
+      },
+      {
+        "en": "Markets, administrative practice, political decisions, and law carry that influence through different procedures.",
+        "ja": "市場、行政実務、政治的決定、法律は、異なる手続きを通じてその影響力を運ぶ"
+      },
+      {
+        "en": "The routes differ, but each one exercises power.",
+        "ja": "経路は異なるが、どれも力を行使する"
+      },
+      {
+        "en": "Good intentions or an anti-authority label are therefore not enough;",
+        "ja": "したがって善意や反権力という看板だけでは足りず"
+      },
+      {
+        "en": "responsibility remains obscure",
+        "ja": "責任は曖昧なまま残る"
+      },
+      {
+        "en": "unless we can identify who makes the decision, who must comply, and where an objection can reenter the process.",
+        "ja": "誰が決め、誰が従い、異議が手続きのどこへ戻れるかを特定できない限り"
+      }
+    ],
+    "grammar": [
+      "means changing は mean の目的語に動名詞を置き、「〜することを意味する」と定義する。",
+      "under which は前置詞＋関係代名詞で conditions を修飾し、人が行動する制度的条件を示す。",
+      "not merely は前の定義を限定し、抽象的な雰囲気の変化だけではないと対照する。",
+      "each one exercises は単数主語 each one に三人称単数の動詞を対応させる。",
+      "unless は責任を明確にするための必要条件を導く。",
+      "who ..., who ..., and where ... は三つの間接疑問を並列し、決定・服従・異議の経路を分解する。"
+    ],
+    "translationNote": "literal は「空気を動かす」「看板」「霧」を残して日本語の像を追った。natural では「影響力の行使」を exercises power と明示し、「異議を戻す」を where an objection can reenter the process として、修正手続きへの再参加という意味を補った。",
+    "readingPoint": "展開では、社会変化を人の行動条件の変更として定義し、市場・行政・政治・法律を影響力の経路として並べる。反権力という自己記述だけで責任を免れないことを示し、次章の変更履歴へつなぐ。",
+    "keywords": [
+      "influence",
+      "procedure",
+      "administration",
+      "politics",
+      "accountability"
+    ]
+  },
+  {
+    "id": "DE-20260811-003",
+    "sourceTitle": "社会にはコミット履歴がない",
+    "workId": "daily-essay-20260811",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "履歴を持つ制作",
+    "jp": "対照的に、創作の作業では変更の来歴を残せる。漫画、ギター練習、三次元制作の自動化は、それぞれリポジトリへ移され、画像の差し替えも練習項目の追加も、思いつきではなく一つの変更として記録された。公開ページが見せるのは現在の形だが、その背後には何を直したかという履歴がある。記録は創作を硬くするためではない。昨日の意図を忘れても、次の修正を始められる場所を残すためにある。",
+    "translationLiteral": "In contrast, in creative work the provenance of changes can be retained. Comics, guitar practice, and automation for three-dimensional production were each moved into repositories, and both the replacement of images and the addition of practice items were recorded not as ideas but as individual changes. A published page shows the current form, but behind it is a history of what was corrected. The record does not exist to harden creative work. It exists to leave a place where the next revision can begin even if yesterday's intention is forgotten.",
+    "translationNatural": "Creative work offers a useful contrast because its changes can retain a traceable history. Comics, guitar exercises, and automation for three-dimensional production were placed in repositories, where replacing an image or adding a practice item became a recorded change rather than a passing intention. A public page displays the current result, while the history behind it preserves what was revised. The record does not constrain creativity; it leaves a place from which the next revision can begin after yesterday's intention has faded.",
+    "imageUrl": "",
+    "imageCaption": "漫画、ギター練習、三次元制作が別々の履歴を持ち、公開ページへ続く制作机。",
+    "imagePrompt": "A creative desk with separate repositories for comics, guitar exercises, and three-dimensional automation, visible revision trails leading to a public page, refined editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Creative work offers a useful contrast because its changes can retain a traceable history.",
+        "ja": "創作は変更の来歴を追えるため、有用な対照を示す"
+      },
+      {
+        "en": "Comics, guitar exercises, and automation for three-dimensional production were placed in repositories,",
+        "ja": "漫画、ギター練習、三次元制作の自動化はリポジトリに置かれ"
+      },
+      {
+        "en": "where replacing an image or adding a practice item became a recorded change rather than a passing intention.",
+        "ja": "そこで画像の差し替えや練習項目の追加は、一時の思いつきではなく記録された変更になった"
+      },
+      {
+        "en": "A public page displays the current result,",
+        "ja": "公開ページは現在の結果を見せる一方"
+      },
+      {
+        "en": "while the history behind it preserves what was revised.",
+        "ja": "その背後の履歴は何が修正されたかを残す"
+      },
+      {
+        "en": "The record does not constrain creativity;",
+        "ja": "記録は創造性を縛るのではなく"
+      },
+      {
+        "en": "it leaves a place from which the next revision can begin after yesterday's intention has faded.",
+        "ja": "昨日の意図が薄れた後でも次の修正を始められる場所を残す"
+      }
+    ],
+    "grammar": [
+      "because は創作が社会変化との対照になる理由を導く。",
+      "were placed は受動態で、三つの制作物がリポジトリへ移された事実を示す。",
+      "where は repositories を受ける関係副詞で、その中で変更が記録されることを説明する。",
+      "replacing ... or adding ... は二つの動名詞句を主語として並列する。",
+      "rather than は passing intention と recorded change を対照させる。",
+      "what was revised は間接疑問の名詞節で preserves の目的語になる。",
+      "from which は place を受け、次の修正が始まる起点を表す。"
+    ],
+    "translationNote": "literal は「来歴」「現在の形」「創作を硬くする」を逐語的に追った。natural では provenance を traceable history と平易に言い換え、「思いつき」を passing intention、「始められる場所」を from which の関係節で自然な制作継続の表現へ整えた。",
+    "readingPoint": "ここが作品の転換点である。追跡しにくい社会変化から、実際に履歴化された漫画・ギター練習・三次元制作へ視線を移す。記録を固定化ではなく、次の修正を可能にする足場として捉える。",
+    "keywords": [
+      "repository",
+      "creative work",
+      "revision",
+      "history",
+      "continuity"
+    ]
+  },
+  {
+    "id": "DE-20260811-004",
+    "sourceTitle": "社会にはコミット履歴がない",
+    "workId": "daily-essay-20260811",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "戻せる変更",
+    "jp": "もちろん、社会全体を一つのリポジトリにはできない。人の行動には、名も付かず、合意も記録されないまま定着する変化がある。それでもコミット履歴の比喩は役に立つ。問うべきなのは唯一の発案者を捕まえることではなく、変更がどこから入り、誰の行動を変え、どの手続きなら修正できるかである。完全な来歴を残せないなら、せめて異議と修正の入口を消さないこと。それが社会に残せる最小の履歴なのだ。",
+    "translationLiteral": "Of course, society as a whole cannot be made into a single repository. Some changes in human behavior take root without being named and without consent being recorded. Even so, the metaphor of a commit history is useful. What we should ask is not how to catch the one originator, but where the change entered, whose behavior it changed, and through which procedure it can be revised. If a complete provenance cannot be kept, at least we should not erase the entrance for objection and revision. That is the smallest history society can keep.",
+    "translationNatural": "Society cannot be reduced to a single repository. Some changes in human behavior acquire no name and take hold without any record of consent. The metaphor of a commit history is still useful, however. The task is not to capture one original author, but to ask where a change entered, whose behavior it altered, and which procedure can revise it. When complete provenance is impossible, keeping an entrance open for objection and correction may be the smallest history a society can preserve.",
+    "imageUrl": "",
+    "imageCaption": "完全な履歴のない社会に、異議と修正の入口だけが開いている場面。",
+    "imagePrompt": "An incomplete civic history with many missing origins, yet a clearly open doorway for objection and revision, quiet minimalist editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Society cannot be reduced to a single repository.",
+        "ja": "社会を一つのリポジトリに還元することはできない"
+      },
+      {
+        "en": "Some changes in human behavior acquire no name and take hold without any record of consent.",
+        "ja": "人の行動の変化には名も付かず、合意の記録なしに定着するものがある"
+      },
+      {
+        "en": "The metaphor of a commit history is still useful, however.",
+        "ja": "それでもコミット履歴の比喩は役に立つ"
+      },
+      {
+        "en": "The task is not to capture one original author,",
+        "ja": "必要なのは唯一の発案者を捕まえることではなく"
+      },
+      {
+        "en": "but to ask where a change entered, whose behavior it altered, and which procedure can revise it.",
+        "ja": "変更がどこから入り、誰の行動を変え、どの手続きなら修正できるかを問うことである"
+      },
+      {
+        "en": "When complete provenance is impossible, keeping an entrance open for objection and correction may be the smallest history a society can preserve.",
+        "ja": "完全な来歴を残せないとき、異議と修正の入口を開いておくことが社会に残せる最小の履歴かもしれない"
+      }
+    ],
+    "grammar": [
+      "cannot be reduced to は受動態で、「単一のものへ還元できない」と限界を示す。",
+      "acquire no name and take hold は二つの動詞を並列し、無名のまま定着する過程を表す。",
+      "without any record of は記録が存在しない条件を示す前置詞句である。",
+      "not to A, but to B は課題の焦点を発案者の特定から経路の検証へ移す。",
+      "where ..., whose ..., and which ... は場所・影響対象・修正手続きの三点を並列する間接疑問。",
+      "keeping an entrance open は動名詞句が may be の主語となる。",
+      "a society can preserve は関係代名詞が省略された節で the smallest history を修飾する。"
+    ],
+    "translationNote": "literal は「捕まえる」「入口を消さない」という日本語の動作を保った。natural では cannot be reduced で比喩の限界を明示し、「入口を消さない」を keeping an entrance open と肯定形へ変え、異議と修正の可能性を結末に残した。",
+    "readingPoint": "結末では、社会に完全な変更履歴を求める不可能性を認める。そのうえで、起源の特定よりも影響経路と修正可能性を問うという最小条件へ収束させ、異議の入口を余韻として残す。",
+    "keywords": [
+      "commit history",
+      "provenance",
+      "objection",
+      "correction",
+      "accountability"
+    ]
+  }
+]
