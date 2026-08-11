@@ -1,0 +1,737 @@
+[
+  {
+    "_no": 61,
+    "_generatedAt": "2026-08-09T02:00:00+09:00",
+    "sentence": "Ken’s life did not change, but noticing the smell of coffee, the sound of rain, a sleeping cat, and a stranger’s laughter made the same days feel slightly different.",
+    "phonetic": "ケンズ ライフ ディド ノット チェインジ、バット ノウティシング ザ スメル オヴ コーフィー、ザ サウンド オヴ レイン、ア スリーピング キャット、アンド ア ストレインジャーズ ラフター メイド ザ セイム デイズ フィール スライトリー ディファレント。",
+    "japaneseTranslation": "ケンの生活は変わらなかったが、コーヒーの香り、雨の音、眠る猫、見知らぬ人の笑い声に気づくことで、同じ日々が少し違って感じられた。",
+    "theme": "小さな変化への気づき",
+    "coreVerb": "notice",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Ken notices small things.",
+        "translation": "ケンは小さなものに気づく。"
+      },
+      "phase2": {
+        "sentence": "Ken notices coffee, rain, and a sleeping cat.",
+        "translation": "ケンはコーヒーや雨、眠る猫に気づく。",
+        "addedChunks": "coffee, rain, and a sleeping catを加えて気づいた対象を具体化"
+      },
+      "phase3": {
+        "sentence": "Ken notices them because a brief encounter has changed his attention.",
+        "translation": "短い出会いによって注意の向きが変わったので、ケンはそれらに気づく。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "The same days feel richer than they did before.",
+        "translation": "同じ日々が以前より豊かに感じられる。",
+        "comparison": "richer than"
+      },
+      "phase5": {
+        "sentence": "Ken’s life did not change, but noticing the smell of coffee, the sound of rain, a sleeping cat, and a stranger’s laughter made the same days feel slightly different.",
+        "translation": "ケンの生活は変わらなかったが、コーヒーの香り、雨の音、眠る猫、見知らぬ人の笑い声に気づくことで、同じ日々が少し違って感じられた。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Ken’s life did not change,",
+          "function": "状態",
+          "translation": "ケンの生活は変わらなかったが"
+        },
+        {
+          "text": "but noticing the smell of coffee,",
+          "function": "接続",
+          "translation": "コーヒーの香りに気づくことで"
+        },
+        {
+          "text": "the sound of rain, a sleeping cat, and a stranger’s laughter",
+          "function": "対象",
+          "translation": "雨の音、眠る猫、見知らぬ人の笑い声にも"
+        },
+        {
+          "text": "made the same days feel",
+          "function": "結果",
+          "translation": "同じ日々を感じさせた"
+        },
+        {
+          "text": "slightly different.",
+          "function": "状態",
+          "translation": "少し違うものとして"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "所有格",
+          "name": "固有名詞の所有格",
+          "where": "Ken’s life",
+          "explanation": "Kenに’sを付けて「ケンの生活」を表します。",
+          "rule": "人名 + ’s + 名詞で所有・関係を示す。"
+        },
+        {
+          "category": "時制",
+          "name": "did not＋動詞原形",
+          "where": "did not change",
+          "explanation": "生活が変化しなかったことを過去形で述べます。",
+          "rule": "過去の否定はdid not + 動詞原形。"
+        },
+        {
+          "category": "接続",
+          "name": "butによる対照",
+          "where": "but noticing",
+          "explanation": "生活は変わらない一方、見え方は変わったという対照を作ります。",
+          "rule": "butで逆向きの内容を接続する。"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞句を主語にする",
+          "where": "noticing the smell of coffee, the sound of rain, a sleeping cat, and a stranger’s laughter",
+          "explanation": "複数の小さなものに気づく行為全体が第二節の主語です。",
+          "rule": "動詞-ing句は名詞として主語にできる。"
+        },
+        {
+          "category": "使役",
+          "name": "make O do",
+          "where": "made the same days feel",
+          "explanation": "気づきによって同じ日々が違って感じられる結果を示します。",
+          "rule": "make + 目的語 + 動詞原形で「Oに〜させる」。"
+        },
+        {
+          "category": "副詞",
+          "name": "slightlyによる程度",
+          "where": "slightly different",
+          "explanation": "大きな変化ではなく、わずかな違いであることを示します。",
+          "rule": "slightly + 形容詞で「少し〜」。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Ken’s life did not changed.",
+          "correct": "Ken’s life did not change.",
+          "why": "did notの後ろは過去形ではなく動詞原形にします。"
+        },
+        {
+          "wrong": "Noticing small things make the days different.",
+          "correct": "Noticing small things makes the days different.",
+          "why": "動名詞句の主語は単数扱いなのでmakesを使います。"
+        },
+        {
+          "wrong": "The details made the days felt different.",
+          "correct": "The details made the days feel different.",
+          "why": "make O doの後ろは動詞原形feelです。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Nothing major changed, but the ordinary details became easier to notice.",
+          "translation": "大きな変化はなかったが、日常の細部に気づきやすくなった。"
+        },
+        {
+          "text": "A brief encounter changed where Ken directed his attention.",
+          "translation": "短い出会いが、ケンの注意を向ける先を変えた。"
+        },
+        {
+          "text": "The world looked slightly different even though his routine stayed the same.",
+          "translation": "日課は同じままでも、世界が少し違って見えた。"
+        }
+      ],
+      "parseTree": "S(Ken’s life) Aux(did not) V(change), but S(GerP: noticing the smell of coffee, the sound of rain, a sleeping cat, and a stranger’s laughter) V(made) O(the same days) C(feel slightly different)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Ken notices small details.",
+          "expanded": "Ken notices small details because a quiet encounter has redirected his attention.",
+          "nuance": "出会いから注意の変化への因果を示す。"
+        },
+        {
+          "original": "The days feel different.",
+          "expanded": "Since familiar details now stand out, the same days feel slightly different.",
+          "nuance": "細部への気づきを理由として加える。"
+        },
+        {
+          "original": "His routine stays the same.",
+          "expanded": "His routine stays the same, so the change appears in perception rather than events.",
+          "nuance": "出来事ではなく知覚が変わったことを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Ordinary details are noticed more clearly after the encounter.",
+          "translation": "その出会いの後、日常の細部がより明確に気づかれる。",
+          "note": "気づかれる対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Noticing the rain and the sleeping cat, Ken sees familiar days differently.",
+          "translation": "雨や眠る猫に気づき、ケンは見慣れた日々を違って見る。",
+          "note": "気づく行為を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "A change in attention gives ordinary life a different texture.",
+          "translation": "注意の変化が日常生活に異なる手触りを与える。",
+          "note": "changeを名詞として用いる。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "notice",
+            "alternatives": [
+              "observe",
+              "become aware of",
+              "pick up on"
+            ],
+            "nuance": "observeは意識的観察、become aware ofは認識の成立、pick up onは細部への口語的な気づき。"
+          },
+          {
+            "original": "slightly",
+            "alternatives": [
+              "a little",
+              "subtly",
+              "to a small degree"
+            ],
+            "nuance": "a littleは日常的、subtlyは微妙な変化、to a small degreeは説明的。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "His circumstances remained the same, but his attention moved.",
+            "translation": "状況は同じままだったが、注意の向きが変わった。"
+          },
+          {
+            "type": "譲歩",
+            "sentence": "Even though nothing dramatic happened, ordinary details gained meaning.",
+            "translation": "劇的な出来事はなくても、日常の細部が意味を帯びた。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "The familiar street felt more vivid than it had before.",
+            "translation": "見慣れた通りが以前より鮮やかに感じられた。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If you notice one ordinary sound, the whole scene may feel different.",
+            "translation": "日常の音に一つ気づけば、場面全体が違って感じられるかもしれない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What changed was not Ken’s routine but the direction of his attention.",
+            "translation": "変わったのはケンの日課ではなく、注意の向きだった。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "The days stayed the same; his attention did not.",
+            "translation": "日々は同じだったが、注意は同じではなかった。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "短編の出来事を要約せず、生活の変化と知覚の変化をbutで分離した。列挙は長いが、主語と結果は明確である。"
+    }
+  },
+  {
+    "_no": 62,
+    "_generatedAt": "2026-08-09T02:00:00+09:00",
+    "sentence": "Politeness ceases to be fair when it changes with a visitor’s age, gender, or appearance; respectful service should not depend on how powerful someone seems.",
+    "phonetic": "ポライトネス シーシズ トゥ ビー フェア ウェン イット チェインジズ ウィズ ア ヴィジターズ エイジ、ジェンダー、オア アピアランス；リスペクトフル サーヴィス シュッド ノット ディペンド オン ハウ パワフル サムワン シームズ。",
+    "japaneseTranslation": "丁寧さは、来訪者の年齢、性別、外見によって変わると公正ではなくなる。敬意ある接遇は、相手がどれほど強そうに見えるかに左右されるべきではない。",
+    "theme": "相手によって変わる接遇",
+    "coreVerb": "depend",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Service should be respectful.",
+        "translation": "接遇は敬意あるものであるべきだ。"
+      },
+      "phase2": {
+        "sentence": "Service should be respectful to every visitor.",
+        "translation": "接遇はすべての来訪者に対して敬意あるものであるべきだ。",
+        "addedChunks": "to every visitorを加えて接遇の対象を明示"
+      },
+      "phase3": {
+        "sentence": "Politeness becomes unfair when it changes with appearance.",
+        "translation": "丁寧さは外見によって変わると不公正になる。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "Consistent service is fairer than selective politeness.",
+        "translation": "一貫した接遇は、選択的な丁寧さより公正である。",
+        "comparison": "fairer than"
+      },
+      "phase5": {
+        "sentence": "Politeness ceases to be fair when it changes with a visitor’s age, gender, or appearance; respectful service should not depend on how powerful someone seems.",
+        "translation": "丁寧さは、来訪者の年齢、性別、外見によって変わると公正ではなくなる。敬意ある接遇は、相手がどれほど強そうに見えるかに左右されるべきではない。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Politeness ceases to be fair",
+          "function": "結果",
+          "translation": "丁寧さは公正ではなくなる"
+        },
+        {
+          "text": "when it changes",
+          "function": "時間",
+          "translation": "それが変わると"
+        },
+        {
+          "text": "with a visitor’s age, gender, or appearance;",
+          "function": "対象",
+          "translation": "来訪者の年齢、性別、外見によって"
+        },
+        {
+          "text": "respectful service should not depend",
+          "function": "行動",
+          "translation": "敬意ある接遇は左右されるべきではない"
+        },
+        {
+          "text": "on how powerful someone seems.",
+          "function": "内容",
+          "translation": "相手がどれほど強そうに見えるかに"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "語法",
+          "name": "cease to do",
+          "where": "ceases to be fair",
+          "explanation": "相手によって態度が変わると、公正な状態ではなくなることを表します。",
+          "rule": "cease to doで「〜しなくなる」。"
+        },
+        {
+          "category": "接続",
+          "name": "whenによる条件的状況",
+          "where": "when it changes",
+          "explanation": "丁寧さが相手によって変わる場合を示します。",
+          "rule": "when + 節は時だけでなく状況条件も表せる。"
+        },
+        {
+          "category": "並列",
+          "name": "A, B, or C",
+          "where": "age, gender, or appearance",
+          "explanation": "態度を変える三つの基準を同じ役割で並べます。",
+          "rule": "選択肢はA, B, or Cで並列できる。"
+        },
+        {
+          "category": "助動詞",
+          "name": "should notによる規範",
+          "where": "should not depend",
+          "explanation": "依存すべきでないという判断を示します。",
+          "rule": "should not + 動詞原形で「〜すべきでない」。"
+        },
+        {
+          "category": "間接疑問",
+          "name": "how＋形容詞",
+          "where": "how powerful someone seems",
+          "explanation": "相手がどの程度強そうに見えるかを名詞節にします。",
+          "rule": "how + 形容詞 + 主語 + 動詞で程度を表す名詞節を作る。"
+        },
+        {
+          "category": "一致",
+          "name": "単数主語とceases",
+          "where": "Politeness ceases",
+          "explanation": "抽象名詞Politenessを単数扱いしてceasesを使います。",
+          "rule": "単数主語の現在形には-sを付ける。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Politeness cease to be fair.",
+          "correct": "Politeness ceases to be fair.",
+          "why": "単数主語Politenessの現在形なのでceasesにします。"
+        },
+        {
+          "wrong": "Service should not depends on appearance.",
+          "correct": "Service should not depend on appearance.",
+          "why": "助動詞shouldの後ろは動詞原形dependです。"
+        },
+        {
+          "wrong": "It depends how powerful does someone seem.",
+          "correct": "It depends on how powerful someone seems.",
+          "why": "depend onが必要で、間接疑問では疑問文の語順にしません。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Respect should not increase merely because a visitor looks intimidating.",
+          "translation": "来訪者が威圧的に見えるというだけで、敬意が増えるべきではない。"
+        },
+        {
+          "text": "Selective politeness reveals a hierarchy that consistent manners would hide.",
+          "translation": "選択的な丁寧さは、一貫した礼儀なら表れない序列を露呈する。"
+        },
+        {
+          "text": "Public service must apply the same standard to people who look different.",
+          "translation": "公共サービスは、外見の異なる人々へ同じ基準を適用しなければならない。"
+        }
+      ],
+      "parseTree": "S(Politeness) V(ceases) Inf(to be) C(fair) AdvClause(when S(it) V(changes) PP(with a visitor’s age, gender, or appearance)); S(respectful service) Modal(should not) V(depend) PP(on NounClause(how powerful someone seems))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Politeness becomes unfair.",
+          "expanded": "Politeness becomes unfair because it is distributed according to perceived power.",
+          "nuance": "態度の差と権力認識の因果を示す。"
+        },
+        {
+          "original": "Visitors notice the difference.",
+          "expanded": "Since the standard changes from person to person, visitors can notice the difference.",
+          "nuance": "基準の不一致から観察可能性を説明する。"
+        },
+        {
+          "original": "Consistent service matters.",
+          "expanded": "Consistent service matters, so respect is not treated as a reward for appearing powerful.",
+          "nuance": "一貫性が必要な結果を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Respect should be offered according to a consistent standard.",
+          "translation": "敬意は一貫した基準に従って示されるべきだ。",
+          "note": "敬意を受ける側ではなく基準に焦点を置く。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Judging visitors by appearance, a worker may reproduce an unfair hierarchy.",
+          "translation": "来訪者を外見で判断すると、職員は不公正な序列を再生産しかねない。",
+          "note": "判断行為を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Consistency in public service protects equal treatment.",
+          "translation": "公共サービスの一貫性は平等な取扱いを守る。",
+          "note": "consistentをconsistencyに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "politeness",
+            "alternatives": [
+              "courtesy",
+              "respect",
+              "civility"
+            ],
+            "nuance": "courtesyは礼儀作法、respectは敬意、civilityは公共的な節度を強調する。"
+          },
+          {
+            "original": "depend on",
+            "alternatives": [
+              "be shaped by",
+              "vary with",
+              "hinge on"
+            ],
+            "nuance": "be shaped byは影響、vary withは連動、hinge onは強い依存を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "規範",
+            "sentence": "The standard should remain the same regardless of appearance.",
+            "translation": "外見にかかわらず、基準は同じであるべきだ。"
+          },
+          {
+            "type": "条件",
+            "sentence": "When manners change with perceived power, they reveal unequal treatment.",
+            "translation": "礼儀が相手の強さの認識によって変わると、不平等な取扱いが表れる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Equal treatment is more reliable than courtesy offered selectively.",
+            "translation": "平等な取扱いは、選択的に示される丁寧さより信頼できる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If respect depends on appearance, the service standard is not equal.",
+            "translation": "敬意が外見に左右されるなら、その接遇基準は平等ではない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is the consistency of the standard, not the strength of the visitor.",
+            "translation": "重要なのは基準の一貫性であり、来訪者の強そうな外見ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Respect everyone by the same standard.",
+            "translation": "すべての人に同じ基準で敬意を示す。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "具体的な窓口観察を一般化し、年齢・性別・外見による態度差を一文で整理した。後半の間接疑問は学習価値が高い。"
+    }
+  },
+  {
+    "_no": 63,
+    "_generatedAt": "2026-08-09T02:00:00+09:00",
+    "sentence": "Turning a creative idea into a scheduled task preserves its structure because the original mood may not return after the details are forgotten.",
+    "phonetic": "ターニング ア クリエイティヴ アイディア イントゥ ア スケジュールド タスク プリザーヴズ イッツ ストラクチャー ビコーズ ジ オリジナル ムード メイ ノット リターン アフター ザ ディテイルズ アー フォーガトゥン。",
+    "japaneseTranslation": "創作の着想を予定されたタスクへ変えると、その構造を保存できる。細部を忘れたあとでは、最初の気分が戻ってこないことがあるからだ。",
+    "theme": "創作を記録可能な工程へ移す",
+    "coreVerb": "preserve",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I preserve an idea.",
+        "translation": "私は着想を保存する。"
+      },
+      "phase2": {
+        "sentence": "I preserve a creative idea in a scheduled task.",
+        "translation": "私は創作の着想を予定されたタスクに保存する。",
+        "addedChunks": "creativeとin a scheduled taskを加えて着想の種類と保存先を示す"
+      },
+      "phase3": {
+        "sentence": "I preserve it because the original mood may not return.",
+        "translation": "最初の気分が戻らないことがあるので、私はそれを保存する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A written task is easier to resume than a forgotten impulse.",
+        "translation": "書かれたタスクは、忘れた衝動より再開しやすい。",
+        "comparison": "easier to resume than"
+      },
+      "phase5": {
+        "sentence": "Turning a creative idea into a scheduled task preserves its structure because the original mood may not return after the details are forgotten.",
+        "translation": "創作の着想を予定されたタスクへ変えると、その構造を保存できる。細部を忘れたあとでは、最初の気分が戻ってこないことがあるからだ。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Turning a creative idea",
+          "function": "行動",
+          "translation": "創作の着想を変えることは"
+        },
+        {
+          "text": "into a scheduled task",
+          "function": "結果",
+          "translation": "予定されたタスクへ"
+        },
+        {
+          "text": "preserves its structure",
+          "function": "結果",
+          "translation": "その構造を保存する"
+        },
+        {
+          "text": "because the original mood may not return",
+          "function": "理由",
+          "translation": "最初の気分が戻らないことがあるから"
+        },
+        {
+          "text": "after the details are forgotten.",
+          "function": "時間",
+          "translation": "細部を忘れたあとでは"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞句を主語にする",
+          "where": "Turning a creative idea into a scheduled task",
+          "explanation": "着想をタスクへ変える行為全体が主語です。",
+          "rule": "動詞-ing句は単数扱いの主語にできる。"
+        },
+        {
+          "category": "語法",
+          "name": "turn A into B",
+          "where": "Turning a creative idea into a scheduled task",
+          "explanation": "着想を実行可能なタスクへ変換することを表します。",
+          "rule": "turn A into Bで「AをBへ変える」。"
+        },
+        {
+          "category": "一致",
+          "name": "動名詞主語とpreserves",
+          "where": "preserves its structure",
+          "explanation": "動名詞句を単数扱いしてpreservesを使います。",
+          "rule": "単数主語の現在形には-sを付ける。"
+        },
+        {
+          "category": "接続",
+          "name": "becauseによる理由",
+          "where": "because the original mood may not return",
+          "explanation": "記録する必要がある理由を示します。",
+          "rule": "because + 節で理由を表す。"
+        },
+        {
+          "category": "助動詞",
+          "name": "may notによる可能性",
+          "where": "may not return",
+          "explanation": "気分が必ず戻らないとは断定せず、戻らない可能性を示します。",
+          "rule": "may not + 動詞原形で否定の可能性を表す。"
+        },
+        {
+          "category": "受動態",
+          "name": "are forgotten",
+          "where": "the details are forgotten",
+          "explanation": "誰が忘れるかより、細部が記憶から失われた状態に焦点を置きます。",
+          "rule": "be動詞 + 過去分詞で受動態を作る。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Turning an idea into a task preserve it.",
+          "correct": "Turning an idea into a task preserves it.",
+          "why": "動名詞句の主語は単数扱いなのでpreservesにします。"
+        },
+        {
+          "wrong": "I turned the idea to a task.",
+          "correct": "I turned the idea into a task.",
+          "why": "変換を表す定型はturn A into Bです。"
+        },
+        {
+          "wrong": "The mood may not returns.",
+          "correct": "The mood may not return.",
+          "why": "助動詞mayの後ろは動詞原形returnです。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Write the next step while the intention is still clear.",
+          "translation": "意図がまだ明確なうちに次の手順を書こう。"
+        },
+        {
+          "text": "A task preserves the shape of an idea after its emotional force fades.",
+          "translation": "タスクは、感情的な勢いが薄れたあとも着想の形を保存する。"
+        },
+        {
+          "text": "Recording the sequence makes it possible to continue without recreating the mood.",
+          "translation": "順序を記録すれば、気分を再現せずに続きを作れる。"
+        }
+      ],
+      "parseTree": "S(GerP: Turning a creative idea into a scheduled task) V(preserves) O(its structure) AdvClause(because S(the original mood) Modal(may not) V(return) AdvClause(after S(the details) V(are forgotten)))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "I schedule the idea.",
+          "expanded": "I schedule the idea because memory preserves less detail than a written task does.",
+          "nuance": "記憶の限界を記録理由として示す。"
+        },
+        {
+          "original": "The structure remains.",
+          "expanded": "Since the sequence is written down, the structure remains after the mood fades.",
+          "nuance": "記録から構造保存への因果を示す。"
+        },
+        {
+          "original": "I can continue later.",
+          "expanded": "The task preserves the next step, so I can continue later without rebuilding the idea.",
+          "nuance": "保存から再開可能性への結果を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The structure of the idea is preserved in a scheduled task.",
+          "translation": "着想の構造は予定されたタスクの中に保存される。",
+          "note": "保存される対象へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Writing down the sequence, I separate the idea from its temporary mood.",
+          "translation": "順序を書き留め、私は着想を一時的な気分から切り離す。",
+          "note": "記録行為を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The preservation of structure supports later continuation.",
+          "translation": "構造の保存は後日の継続を支える。",
+          "note": "preserveをpreservationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "preserve",
+            "alternatives": [
+              "retain",
+              "record",
+              "keep intact"
+            ],
+            "nuance": "retainは保持、recordは記録行為、keep intactは損なわず残すことを強調する。"
+          },
+          {
+            "original": "mood",
+            "alternatives": [
+              "state of mind",
+              "creative impulse",
+              "emotional tone"
+            ],
+            "nuance": "state of mindは心理状態、creative impulseは創作衝動、emotional toneは感情的な調子。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "理由",
+            "sentence": "Record the structure because inspiration is temporary.",
+            "translation": "ひらめきは一時的なので、構造を記録しよう。"
+          },
+          {
+            "type": "時間",
+            "sentence": "Before the details fade, turn the idea into a sequence of tasks.",
+            "translation": "細部が薄れる前に、着想を一連のタスクへ変えよう。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A scheduled step is easier to recover than an unrecorded intention.",
+            "translation": "予定された手順は、記録されていない意図より取り戻しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the mood does not return, the written structure can still guide the work.",
+            "translation": "気分が戻らなくても、書かれた構造は作業を導ける。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What must be preserved is the next step, not the temporary excitement.",
+            "translation": "保存すべきなのは一時的な高揚ではなく、次の手順である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Schedule the idea before the mood fades.",
+            "translation": "気分が薄れる前に着想を予定へ移す。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "創作の気分を美化せず、再開に必要な構造を保存するという実務的な因果へまとめた。because節とafter節の参照も明確である。"
+    }
+  }
+]
