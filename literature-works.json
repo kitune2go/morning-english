@@ -46,5 +46,12 @@
     "description": "介護供給の地域差と家族への負担転嫁、権利を生活へ届ける実装を通して、制度外へ移された費用を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260810/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260811",
+    "title": "社会にはコミット履歴がない",
+    "description": "発生源を特定しにくい社会運動と、変更履歴を残すGitHub上の創作を対照し、影響力・責任・修正手続きの所在を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260811/manifest.json",
+    "mode": "essay-translation"
   }
 ]
