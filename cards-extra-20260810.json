@@ -1,0 +1,737 @@
+[
+  {
+    "_no": 64,
+    "_generatedAt": "2026-08-10T02:00:00+09:00",
+    "sentence": "People usually acquire natural language through repeated use, while programming becomes harder when layers of formal structure exceed what one person can track.",
+    "phonetic": "ピープル ユージュアリー アクワイア ナチュラル ラングウィッジ スルー リピーティッド ユース、ワイル プログラミング ビカムズ ハーダー ウェン レイヤーズ オヴ フォーマル ストラクチャー イクシード ワット ワン パーソン キャン トラック。",
+    "japaneseTranslation": "人は通常、繰り返し使うことで自然言語を身につける。一方、形式的な構造の層が一人で追える範囲を超えると、プログラミングは難しくなる。",
+    "theme": "自然な言語習得と構造過多",
+    "coreVerb": "acquire",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "People acquire language.",
+        "translation": "人は言語を身につける。"
+      },
+      "phase2": {
+        "sentence": "People acquire natural language through repeated use.",
+        "translation": "人は繰り返し使うことで自然言語を身につける。",
+        "addedChunks": "naturalとthrough repeated useを加えて言語の種類と習得方法を示す"
+      },
+      "phase3": {
+        "sentence": "Programming becomes harder when formal structures accumulate.",
+        "translation": "形式的な構造が積み重なると、プログラミングは難しくなる。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "Repeated use is more intuitive than memorizing isolated rules.",
+        "translation": "繰り返し使うことは、孤立した規則を暗記するより直感的である。",
+        "comparison": "more intuitive than"
+      },
+      "phase5": {
+        "sentence": "People usually acquire natural language through repeated use, while programming becomes harder when layers of formal structure exceed what one person can track.",
+        "translation": "人は通常、繰り返し使うことで自然言語を身につける。一方、形式的な構造の層が一人で追える範囲を超えると、プログラミングは難しくなる。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "People usually acquire natural language",
+          "function": "行動",
+          "translation": "人は通常、自然言語を身につける"
+        },
+        {
+          "text": "through repeated use,",
+          "function": "様態",
+          "translation": "繰り返し使うことで"
+        },
+        {
+          "text": "while programming becomes harder",
+          "function": "比較",
+          "translation": "一方、プログラミングは難しくなる"
+        },
+        {
+          "text": "when layers of formal structure exceed",
+          "function": "時間",
+          "translation": "形式的構造の層が超えると"
+        },
+        {
+          "text": "what one person can track.",
+          "function": "対象",
+          "translation": "一人で追える範囲を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "語法",
+          "name": "acquire＋目的語",
+          "where": "acquire natural language",
+          "explanation": "学習や使用を通じて言語能力を身につけることを表します。",
+          "rule": "acquire Aで「Aを獲得する・身につける」。"
+        },
+        {
+          "category": "前置詞",
+          "name": "throughによる手段",
+          "where": "through repeated use",
+          "explanation": "繰り返し使うことが習得の経路であると示します。",
+          "rule": "through + 名詞で過程・手段を表す。"
+        },
+        {
+          "category": "接続",
+          "name": "whileによる対照",
+          "where": "while programming becomes harder",
+          "explanation": "自然言語の習得とプログラミングの難化を対照させます。",
+          "rule": "whileは同時進行だけでなく対照も表せる。"
+        },
+        {
+          "category": "比較級",
+          "name": "become＋比較級",
+          "where": "becomes harder",
+          "explanation": "構造の増加に伴って難しさが増すことを示します。",
+          "rule": "become + 形容詞で状態変化を表す。"
+        },
+        {
+          "category": "接続",
+          "name": "whenによる条件",
+          "where": "when layers of formal structure exceed",
+          "explanation": "難しさが増す条件を示します。",
+          "rule": "when + 節で時・状況条件を表す。"
+        },
+        {
+          "category": "名詞節",
+          "name": "what節を目的語にする",
+          "where": "what one person can track",
+          "explanation": "一人が追跡できる範囲全体をwhat節で表します。",
+          "rule": "what + 主語 + 動詞で「〜するもの・範囲」を表す名詞節を作る。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "People acquires language through use.",
+          "correct": "People acquire language through use.",
+          "why": "Peopleは複数主語なので動詞はacquireです。"
+        },
+        {
+          "wrong": "Programming become harder.",
+          "correct": "Programming becomes harder.",
+          "why": "活動名programmingは単数扱いなのでbecomesにします。"
+        },
+        {
+          "wrong": "The structure exceeds that one person can track.",
+          "correct": "The structure exceeds what one person can track.",
+          "why": "先行詞なしで「追える範囲」を表すにはwhat節を使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Natural language grows through use before its rules are fully explained.",
+          "translation": "自然言語は、規則が十分に説明される前から使用を通じて育つ。"
+        },
+        {
+          "text": "Programming becomes difficult when too many formal layers must be tracked at once.",
+          "translation": "多すぎる形式層を同時に追わなければならないと、プログラミングは難しくなる。"
+        },
+        {
+          "text": "A structured reference helps when the network of rules exceeds memory.",
+          "translation": "規則のネットワークが記憶を超えるとき、構造化された参照資料が役立つ。"
+        }
+      ],
+      "parseTree": "S(People) Adv(usually) V(acquire) O(natural language) PP(through repeated use), while S(programming) V(becomes) C(harder) AdvClause(when S(layers of formal structure) V(exceed) O(NounClause(what one person can track)))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "People acquire language through use.",
+          "expanded": "People acquire language through use because repeated contexts connect forms with meaning.",
+          "nuance": "使用から意味形成への因果を示す。"
+        },
+        {
+          "original": "Programming becomes harder.",
+          "expanded": "Since formal layers accumulate, programming becomes harder to hold in working memory.",
+          "nuance": "構造の蓄積を難化の理由にする。"
+        },
+        {
+          "original": "References become useful.",
+          "expanded": "The network exceeds individual memory, so structured references become useful.",
+          "nuance": "認知限界から参照資料の必要性への結果を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Natural language is acquired through repeated use in meaningful contexts.",
+          "translation": "自然言語は意味のある文脈で繰り返し使うことによって身につけられる。",
+          "note": "習得される言語へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using language repeatedly, people connect patterns with meaning.",
+          "translation": "言語を繰り返し使い、人はパターンを意味と結び付ける。",
+          "note": "習得方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The accumulation of formal layers increases cognitive load.",
+          "translation": "形式的な層の蓄積は認知負荷を増やす。",
+          "note": "accumulateをaccumulationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "acquire",
+            "alternatives": [
+              "learn",
+              "pick up",
+              "develop"
+            ],
+            "nuance": "learnは一般的、pick upは自然な習得、developは時間をかけた能力形成を表す。"
+          },
+          {
+            "original": "track",
+            "alternatives": [
+              "follow",
+              "keep in mind",
+              "monitor"
+            ],
+            "nuance": "followは順序を追う、keep in mindは記憶保持、monitorは継続的監視を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Natural language is absorbed through use, while formal systems often require explicit tracking.",
+            "translation": "自然言語は使用を通じて吸収される一方、形式体系は明示的な追跡を必要としやすい。"
+          },
+          {
+            "type": "条件",
+            "sentence": "When the number of rules grows, a reference becomes more important.",
+            "translation": "規則の数が増えると、参照資料がより重要になる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Repeated contextual use is easier to retain than a list of isolated rules.",
+            "translation": "文脈の中で繰り返し使うことは、孤立した規則の一覧より記憶に残りやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a formal system exceeds working memory, divide it into named layers.",
+            "translation": "形式体系が作業記憶を超えるなら、名前を付けた層へ分割しよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What creates difficulty is not language itself but the number of structures that must be tracked.",
+            "translation": "難しさを生むのは言語そのものではなく、追跡すべき構造の数である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Use builds language; excess structure builds difficulty.",
+            "translation": "使用が言語を育て、過剰な構造が難しさを育てる。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "自然言語とプログラミングを能力の優劣ではなく、使用による習得と追跡すべき構造量の差として対照化した。"
+    }
+  },
+  {
+    "_no": 65,
+    "_generatedAt": "2026-08-10T02:00:00+09:00",
+    "sentence": "Effort can deserve respect without becoming a measure of quality; once suffering becomes evidence of merit, spectators begin judging the person instead of the result.",
+    "phonetic": "エフォート キャン ディザーヴ リスペクト ウィズアウト ビカミング ア メジャー オヴ クオリティ；ワンス サファリング ビカムズ エヴィデンス オヴ メリット、スペクテイターズ ビギン ジャッジング ザ パーソン インステッド オヴ ザ リザルト。",
+    "japaneseTranslation": "努力は、品質の尺度にならなくても敬意に値し得る。苦労が価値の証拠になると、観客は結果ではなく人そのものを審査し始める。",
+    "theme": "苦労と成果評価の分離",
+    "coreVerb": "judge",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Spectators judge the result.",
+        "translation": "観客は結果を評価する。"
+      },
+      "phase2": {
+        "sentence": "Spectators judge the result instead of the person.",
+        "translation": "観客は人ではなく結果を評価する。",
+        "addedChunks": "instead of the personを加えて評価対象を限定"
+      },
+      "phase3": {
+        "sentence": "Judgment becomes personal once suffering is treated as merit.",
+        "translation": "苦労が価値として扱われると、評価は人格へ向かう。",
+        "connector": "once"
+      },
+      "phase4": {
+        "sentence": "A visible result is clearer than a story of suffering.",
+        "translation": "目に見える結果は、苦労の物語より明確である。",
+        "comparison": "clearer than"
+      },
+      "phase5": {
+        "sentence": "Effort can deserve respect without becoming a measure of quality; once suffering becomes evidence of merit, spectators begin judging the person instead of the result.",
+        "translation": "努力は、品質の尺度にならなくても敬意に値し得る。苦労が価値の証拠になると、観客は結果ではなく人そのものを審査し始める。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Effort can deserve respect",
+          "function": "状態",
+          "translation": "努力は敬意に値し得る"
+        },
+        {
+          "text": "without becoming a measure of quality;",
+          "function": "様態",
+          "translation": "品質の尺度にならなくても"
+        },
+        {
+          "text": "once suffering becomes evidence of merit,",
+          "function": "時間",
+          "translation": "苦労が価値の証拠になると"
+        },
+        {
+          "text": "spectators begin judging the person",
+          "function": "行動",
+          "translation": "観客は人そのものを審査し始める"
+        },
+        {
+          "text": "instead of the result.",
+          "function": "比較",
+          "translation": "結果ではなく"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "canによる可能性",
+          "where": "can deserve respect",
+          "explanation": "努力が敬意に値する可能性を認めます。",
+          "rule": "can + 動詞原形で可能性・能力を表す。"
+        },
+        {
+          "category": "語法",
+          "name": "deserve＋名詞",
+          "where": "deserve respect",
+          "explanation": "努力が敬意を受けるに値することを表します。",
+          "rule": "deserve + 名詞で「〜に値する」。"
+        },
+        {
+          "category": "前置詞",
+          "name": "without＋動名詞",
+          "where": "without becoming",
+          "explanation": "品質尺度になることなしに敬意を認められると示します。",
+          "rule": "without + 動名詞で「〜せずに」。"
+        },
+        {
+          "category": "接続",
+          "name": "onceによる条件",
+          "where": "once suffering becomes evidence",
+          "explanation": "苦労が価値の証拠として扱われ始めた時点を示します。",
+          "rule": "once + 節で「いったん〜すると」。"
+        },
+        {
+          "category": "語法",
+          "name": "begin＋動名詞",
+          "where": "begin judging",
+          "explanation": "評価対象が人格へ移り始めることを表します。",
+          "rule": "begin + 動名詞またはto不定詞で開始を表す。"
+        },
+        {
+          "category": "前置詞",
+          "name": "instead ofによる置換",
+          "where": "instead of the result",
+          "explanation": "本来見るべき結果の代わりに人を見てしまうことを示します。",
+          "rule": "instead of + 名詞で「〜の代わりに」。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Effort can deserves respect.",
+          "correct": "Effort can deserve respect.",
+          "why": "助動詞canの後ろは動詞原形deserveです。"
+        },
+        {
+          "wrong": "without become a measure",
+          "correct": "without becoming a measure",
+          "why": "前置詞withoutの後ろは動名詞にします。"
+        },
+        {
+          "wrong": "Spectators begin judge the person.",
+          "correct": "Spectators begin judging the person.",
+          "why": "beginの後ろには動名詞judgingを置けます。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Respecting effort does not require using it as proof of quality.",
+          "translation": "努力を尊重することは、それを品質の証明として使うことを必要としない。"
+        },
+        {
+          "text": "A painful process may explain the work, but it does not automatically improve the result.",
+          "translation": "苦しい過程は作品を説明し得るが、結果を自動的に良くするわけではない。"
+        },
+        {
+          "text": "When spectators score suffering, evaluation shifts from performance to character.",
+          "translation": "観客が苦労を採点すると、評価は成果から人格へ移る。"
+        }
+      ],
+      "parseTree": "S(Effort) Modal(can) V(deserve) O(respect) PP(without becoming a measure of quality); AdvClause(once S(suffering) V(becomes) C(evidence of merit)), S(spectators) V(begin judging) O(the person) PP(instead of the result)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The judgment becomes personal.",
+          "expanded": "The judgment becomes personal because suffering is treated as evidence about character.",
+          "nuance": "苦労評価から人格評価への因果を示す。"
+        },
+        {
+          "original": "Effort deserves respect.",
+          "expanded": "Since effort may involve real discipline, it can deserve respect without proving quality.",
+          "nuance": "尊重と品質証明を分離する。"
+        },
+        {
+          "original": "The result loses attention.",
+          "expanded": "Spectators focus on the person, so the result receives less attention.",
+          "nuance": "人格への焦点が成果を隠す結果を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Effort can be respected without being used as a quality score.",
+          "translation": "努力は品質点として使われなくても尊重され得る。",
+          "note": "尊重される努力へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Treating suffering as merit, spectators turn observation into judgment.",
+          "translation": "苦労を価値として扱い、観客は観察を審査へ変える。",
+          "note": "評価の前提を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The separation of effort from quality protects clearer evaluation.",
+          "translation": "努力と品質の分離は、より明確な評価を守る。",
+          "note": "separateをseparationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "effort",
+            "alternatives": [
+              "work",
+              "discipline",
+              "exertion"
+            ],
+            "nuance": "workは行為一般、disciplineは継続的鍛錬、exertionは身体的・精神的な力の投入を強調する。"
+          },
+          {
+            "original": "merit",
+            "alternatives": [
+              "value",
+              "virtue",
+              "worthiness"
+            ],
+            "nuance": "valueは価値一般、virtueは道徳的長所、worthinessは評価に値する性質。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "分離",
+            "sentence": "Respect the effort, but evaluate the result by its own standard.",
+            "translation": "努力は尊重しつつ、結果はそれ自体の基準で評価する。"
+          },
+          {
+            "type": "転換",
+            "sentence": "Once suffering becomes a score, the spectator moves into the judge’s seat.",
+            "translation": "苦労が点数になると、観客は審査員席へ移る。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A result-based standard is clearer than a judgment based on personal hardship.",
+            "translation": "結果に基づく基準は、個人の苦労に基づく判断より明確である。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If effort becomes the score, people with less visible hardship may be underrated.",
+            "translation": "努力そのものが点数になると、苦労が見えにくい人は過小評価されかねない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What should be judged is the result, not the amount of visible suffering.",
+            "translation": "評価されるべきなのは結果であり、目に見える苦労の量ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Respect effort; measure results.",
+            "translation": "努力は尊重し、結果を測る。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "努力への敬意を否定せず、品質尺度として使うことだけを切り離した。セミコロン後のonce節で評価対象の転換を示している。"
+    }
+  },
+  {
+    "_no": 66,
+    "_generatedAt": "2026-08-10T02:00:00+09:00",
+    "sentence": "A benefit may be defined nationally, but real access depends on local staff, capacity, and distance, so equal rules can still produce unequal support.",
+    "phonetic": "ア ベネフィット メイ ビ ディファインド ナショナリー、バット リアル アクセス ディペンズ オン ローカル スタッフ、キャパシティ、アンド ディスタンス、ソー イークウォル ルールズ キャン スティル プロデュース アニークウォル サポート。",
+    "japaneseTranslation": "給付は全国一律に定義されていても、実際の利用可能性は地域の人員、定員、距離に左右される。そのため、同じ規則でも不平等な支援を生み得る。",
+    "theme": "全国制度と地域供給の差",
+    "coreVerb": "depend",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Access depends on supply.",
+        "translation": "利用可能性は供給に左右される。"
+      },
+      "phase2": {
+        "sentence": "Real access depends on local staff and capacity.",
+        "translation": "実際の利用可能性は地域の人員と定員に左右される。",
+        "addedChunks": "real、local staff and capacityを加えて利用条件を具体化"
+      },
+      "phase3": {
+        "sentence": "Access differs because local supply is uneven.",
+        "translation": "地域の供給が均一でないため、利用可能性は異なる。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A nearby service is easier to use than a distant entitlement.",
+        "translation": "近くのサービスは、遠くにある給付資格より利用しやすい。",
+        "comparison": "easier to use than"
+      },
+      "phase5": {
+        "sentence": "A benefit may be defined nationally, but real access depends on local staff, capacity, and distance, so equal rules can still produce unequal support.",
+        "translation": "給付は全国一律に定義されていても、実際の利用可能性は地域の人員、定員、距離に左右される。そのため、同じ規則でも不平等な支援を生み得る。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A benefit may be defined nationally,",
+          "function": "状態",
+          "translation": "給付は全国一律に定義されていても"
+        },
+        {
+          "text": "but real access depends",
+          "function": "接続",
+          "translation": "実際の利用可能性は左右される"
+        },
+        {
+          "text": "on local staff, capacity, and distance,",
+          "function": "対象",
+          "translation": "地域の人員、定員、距離に"
+        },
+        {
+          "text": "so equal rules can still produce",
+          "function": "結果",
+          "translation": "そのため同じ規則でも生み得る"
+        },
+        {
+          "text": "unequal support.",
+          "function": "結果",
+          "translation": "不平等な支援を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "mayを伴う受動態",
+          "where": "may be defined",
+          "explanation": "給付が全国レベルで定義される場合を断定しすぎず示します。",
+          "rule": "may + be + 過去分詞で受動の可能性を表す。"
+        },
+        {
+          "category": "副詞",
+          "name": "nationallyによる範囲",
+          "where": "defined nationally",
+          "explanation": "定義が全国単位で行われることを示します。",
+          "rule": "副詞は動詞の方法・範囲を修飾できる。"
+        },
+        {
+          "category": "接続",
+          "name": "butによる対照",
+          "where": "but real access depends",
+          "explanation": "制度上の定義と実際の利用可能性を対照させます。",
+          "rule": "butで逆向きの独立節を結ぶ。"
+        },
+        {
+          "category": "語法",
+          "name": "depend on",
+          "where": "depends on local staff, capacity, and distance",
+          "explanation": "利用可能性を左右する条件を示します。",
+          "rule": "depend on Aで「Aに左右される」。"
+        },
+        {
+          "category": "接続",
+          "name": "soによる結果",
+          "where": "so equal rules can still produce",
+          "explanation": "地域条件の差から不平等な結果が生じることを示します。",
+          "rule": "so + 節で結果を表す。"
+        },
+        {
+          "category": "副詞",
+          "name": "stillによる予想外の残存",
+          "where": "can still produce",
+          "explanation": "規則が同じでも不平等が残り得ることを強調します。",
+          "rule": "stillは条件に反して状態が残ることを表す。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Access depend on local staff.",
+          "correct": "Access depends on local staff.",
+          "why": "単数主語Accessの現在形なのでdependsにします。"
+        },
+        {
+          "wrong": "A benefit may defined nationally.",
+          "correct": "A benefit may be defined nationally.",
+          "why": "受動態にはbe + 過去分詞が必要です。"
+        },
+        {
+          "wrong": "Equal rules can produces unequal support.",
+          "correct": "Equal rules can produce unequal support.",
+          "why": "助動詞canの後ろは動詞原形produceです。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Formal eligibility does not guarantee that a nearby provider has space.",
+          "translation": "形式的な受給資格は、近隣の事業所に空きがあることを保証しない。"
+        },
+        {
+          "text": "The same national rule can yield different outcomes across regions.",
+          "translation": "同じ全国規則でも、地域によって異なる結果になり得る。"
+        },
+        {
+          "text": "Access is shaped not only by rights but also by workers, transport, and available places.",
+          "translation": "利用可能性は権利だけでなく、人員、交通、空きにも形作られる。"
+        }
+      ],
+      "parseTree": "S(A benefit) Modal(may) V(be defined) Adv(nationally), but S(real access) V(depends) PP(on local staff, capacity, and distance), so S(equal rules) Modal(can) Adv(still) V(produce) O(unequal support)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Access differs by region.",
+          "expanded": "Access differs by region because provider capacity and travel distance are uneven.",
+          "nuance": "地域差の供給側要因を示す。"
+        },
+        {
+          "original": "Equal rules yield unequal support.",
+          "expanded": "Since implementation depends on local resources, equal rules can yield unequal support.",
+          "nuance": "形式的平等から結果差への因果を示す。"
+        },
+        {
+          "original": "Families fill the gap.",
+          "expanded": "Local services cannot cover every need, so families often fill the remaining gap.",
+          "nuance": "供給不足が私的負担へ移る結果を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Access is constrained by local staffing, capacity, and distance.",
+          "translation": "利用可能性は地域の人員、定員、距離によって制約される。",
+          "note": "制約される利用可能性へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Depending on local supply, the same benefit reaches households unevenly.",
+          "translation": "地域供給に左右され、同じ給付でも世帯へ不均等に届く。",
+          "note": "依存条件を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The national definition of a benefit does not ensure equal delivery.",
+          "translation": "給付の全国的な定義は、平等な提供を保証しない。",
+          "note": "defineをdefinitionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "access",
+            "alternatives": [
+              "availability",
+              "practical access",
+              "ability to obtain"
+            ],
+            "nuance": "availabilityは供給の存在、practical accessは実際の利用可能性、ability to obtainは入手能力を明示する。"
+          },
+          {
+            "original": "capacity",
+            "alternatives": [
+              "available places",
+              "service volume",
+              "provider capacity"
+            ],
+            "nuance": "available placesは空き枠、service volumeは提供量、provider capacityは事業者の処理能力。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "形式と実態",
+            "sentence": "The rule is national, but delivery remains local.",
+            "translation": "規則は全国的だが、提供は地域に残る。"
+          },
+          {
+            "type": "因果",
+            "sentence": "Local shortages reduce access, so formal equality does not ensure equal support.",
+            "translation": "地域の不足が利用可能性を下げるため、形式的平等は平等な支援を保証しない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A service with nearby capacity is more usable than an entitlement without a provider.",
+            "translation": "近くに定員のあるサービスは、事業者のいない受給資格より利用しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If local staff are scarce, a national benefit may remain difficult to use.",
+            "translation": "地域の人員が不足していれば、全国制度の給付でも利用しにくいままになり得る。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What determines practical access is delivery capacity, not eligibility alone.",
+            "translation": "実際の利用可能性を決めるのは提供能力であり、受給資格だけではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Equal rules do not guarantee equal access.",
+            "translation": "同じ規則は同じ利用可能性を保証しない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "全国制度と地域実装をbutで分離し、staff・capacity・distanceの三要素から結果の不平等へsoで接続した。"
+    }
+  }
+]
