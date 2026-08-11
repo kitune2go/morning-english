@@ -1,0 +1,252 @@
+[
+  {
+    "_no": 67,
+    "_generatedAt": "2026-08-11T02:00:00+09:00",
+    "sentence": "Being in the same age group as famous activists does not prove that someone joined their movement. A generation includes many people whose political choices differed.",
+    "phonetic": "ビーイング イン ザ セイム エイジ グループ アズ フェイマス アクティヴィスツ ダズ ノット プルーヴ ザット サムワン ジョインド ゼア ムーヴメント。ア ジェネレイション インクルーズ メニー ピープル フーズ ポリティカル チョイシズ ディファード。",
+    "japaneseTranslation": "著名な活動家たちと同じ年代に属していても、その運動に参加した証明にはならない。一つの世代には、異なる政治的選択をした多くの人々が含まれる。",
+    "theme": "世代と政治参加の区別",
+    "coreVerb": "prove",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Generations include differences.",
+        "translation": "世代は内部に違いを含む。"
+      },
+      "phase2": {
+        "sentence": "A generation includes people with different political choices.",
+        "translation": "一つの世代には異なる政治的選択をした人々が含まれる。",
+        "addedChunks": "people with different political choicesを加えて世代内部の多様性を示す"
+      },
+      "phase3": {
+        "sentence": "Age does not prove participation because people make different choices.",
+        "translation": "人々は異なる選択をするので、年齢だけでは参加を証明できない。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A generational label is broader than a record of participation.",
+        "translation": "世代というラベルは、参加記録より範囲が広い。",
+        "comparison": "broader than"
+      },
+      "phase5": {
+        "sentence": "Being in the same age group as famous activists does not prove that someone joined their movement. A generation includes many people whose political choices differed.",
+        "translation": "著名な活動家たちと同じ年代に属していても、その運動に参加した証明にはならない。一つの世代には、異なる政治的選択をした多くの人々が含まれる。",
+        "relativizer": "whose"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {"text": "Being in the same age group as famous activists", "function": "状態", "translation": "著名な活動家たちと同じ年代に属していても"},
+        {"text": "does not prove", "function": "行動", "translation": "証明にはならない"},
+        {"text": "that someone joined their movement.", "function": "内容", "translation": "その人が運動に参加したことの"},
+        {"text": "A generation includes many people", "function": "状態", "translation": "一つの世代には多くの人々が含まれる"},
+        {"text": "whose political choices differed.", "function": "修飾", "translation": "政治的選択が異なっていた"}
+      ],
+      "grammarPoints": [
+        {"category": "動名詞", "name": "動名詞句を主語にする", "where": "Being in the same age group as famous activists", "explanation": "同じ年代に属すること全体を文の主語にします。", "rule": "動詞-ing句は名詞として主語にできる。"},
+        {"category": "一致", "name": "動名詞句とdoes", "where": "does not prove", "explanation": "動名詞句を単数扱いし、doesを使います。", "rule": "単数主語の否定はdoes not + 動詞原形。"},
+        {"category": "名詞節", "name": "prove that節", "where": "prove that someone joined", "explanation": "何を証明しないのかをthat節で示します。", "rule": "prove that + 節で証明内容を表す。"},
+        {"category": "時制", "name": "joinedの過去形", "where": "someone joined their movement", "explanation": "過去の運動への参加を過去形で表します。", "rule": "過去の完了した行為には過去形を使う。"},
+        {"category": "関係詞", "name": "所有格whose", "where": "people whose political choices differed", "explanation": "人々と、その人々の政治的選択を結びます。", "rule": "whose + 名詞で先行詞の所有・所属関係を示す。"},
+        {"category": "語法", "name": "differの自動詞用法", "where": "choices differed", "explanation": "複数の選択が互いに異なったことを表します。", "rule": "A and B differ / choices differで差異を表す。"}
+      ],
+      "errors": [
+        {"wrong": "Being in the same age group do not prove participation.", "correct": "Being in the same age group does not prove participation.", "why": "動名詞句の主語は単数扱いなのでdoesを使います。"},
+        {"wrong": "It does not prove someone joined their movement.", "correct": "It does not prove that someone joined their movement.", "why": "証明内容を明確に導くthatを置くのが自然です。"},
+        {"wrong": "people who political choices differed", "correct": "people whose political choices differed", "why": "political choicesとの所有関係にはwhoseが必要です。"}
+      ],
+      "variants": [
+        {"text": "Being part of a generation does not reveal a person's political history.", "translation": "ある世代に属することだけでは、その人の政治的経歴は分からない。"},
+        {"text": "A visible minority can shape the image of an entire age group.", "translation": "目立つ少数派が、年代全体のイメージを形作ることがある。"},
+        {"text": "Ask whether a person participated instead of inferring it from age.", "translation": "年齢から推測せず、その人が参加したかを確かめよう。"}
+      ],
+      "parseTree": "S(GerP: Being in the same age group as famous activists) Aux(does not) V(prove) O(ThatClause: that someone joined their movement). S(A generation) V(includes) O(many people) RelClause(whose political choices differed)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {"original": "Age does not prove participation.", "expanded": "Age does not prove participation because people within the same generation made different choices.", "nuance": "世代内部の差を理由として明示する。"},
+        {"original": "The label can mislead us.", "expanded": "A famous minority may represent the period in memory, so the generational label can mislead us.", "nuance": "記憶上の代表性から誤推論への因果を示す。"},
+        {"original": "Participation requires evidence.", "expanded": "Since birth year shows only age, participation requires separate historical evidence.", "nuance": "年齢情報の限界から証拠の必要性を導く。"}
+      ],
+      "structuralShift": [
+        {"type": "受動態", "sentence": "Political participation cannot be established by age alone.", "translation": "政治参加は年齢だけでは立証できない。", "note": "立証される参加へ焦点を移す。"},
+        {"type": "分詞構文", "sentence": "Sharing a birth period, people still followed different political paths.", "translation": "同じ時代に生まれていても、人々は異なる政治的経路をたどった。", "note": "共有条件を-ing句で示す。"},
+        {"type": "名詞化", "sentence": "The distinction between generation and participation prevents false inference.", "translation": "世代と参加の区別は誤った推論を防ぐ。", "note": "distinguishをdistinctionに名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {"original": "generation", "alternatives": ["age group", "cohort", "generation"], "nuance": "age groupは年代、cohortは共通時期を持つ集団、generationは歴史的・文化的まとまりも含む。"}
+        ],
+        "sentencePatterns": [
+          {"type": "区別", "sentence": "Belonging to an age group is one fact; participating in a movement is another.", "translation": "ある年代に属することと、運動へ参加することは別の事実である。"}
+        ],
+        "comparison": [
+          {"sentence": "A generation is more diverse than its most visible activists suggest.", "translation": "一つの世代は、最も目立つ活動家から受ける印象より多様である。"}
+        ],
+        "conditional": [
+          {"sentence": "If participation is unknown, age should not be used as a substitute for evidence.", "translation": "参加の有無が不明なら、年齢を証拠の代わりに使うべきではない。"}
+        ],
+        "emphasis": [
+          {"sentence": "What age establishes is a time period, not a political commitment.", "translation": "年齢が示すのは時期であり、政治的関与ではない。"}
+        ],
+        "compression": [
+          {"sentence": "Same generation, different choices.", "translation": "同じ世代でも、選択は異なる。"}
+        ]
+      }
+    },
+    "scores": {"naturalness": 9, "clarity": 9, "flexibility": 8, "focus": 9, "efficiency": 8, "comment": "世代ラベルと実際の参加を二文で分離した。whose節は先行詞が明確だが、歴史的適用には個人別の証拠が必要である。"}
+  },
+  {
+    "_no": 68,
+    "_generatedAt": "2026-08-11T02:00:00+09:00",
+    "sentence": "Economic growth may weaken some grievances, but it cannot explain a movement's decline by itself: organizations, institutions, and public trust also change over time.",
+    "phonetic": "エコノミック グロウス メイ ウィークン サム グリーヴァンシズ、バット イット キャノット イクスプレイン ア ムーヴメンツ ディクライン バイ イットセルフ：オーガナイゼイションズ、インスティテューションズ、アンド パブリック トラスト オールソー チェインジ オーヴァ タイム。",
+    "japaneseTranslation": "経済成長によって一部の不満が弱まることはあり得るが、それだけで運動の退潮を説明することはできない。組織、制度、社会的信頼も時間とともに変化する。",
+    "theme": "運動退潮を複合要因で考える",
+    "coreVerb": "explain",
+    "generateLayer": {
+      "phase1": {"sentence": "Conditions change.", "translation": "条件は変化する。"},
+      "phase2": {"sentence": "Economic and political conditions change over time.", "translation": "経済的・政治的条件は時間とともに変化する。", "addedChunks": "economic and politicalとover timeを加えて条件と時間軸を具体化"},
+      "phase3": {"sentence": "A movement may decline because several conditions change together.", "translation": "複数の条件が同時に変わるため、運動が退潮することがある。", "connector": "because"},
+      "phase4": {"sentence": "A multi-causal explanation is stronger than a single-cause story.", "translation": "複合要因による説明は、単一原因の物語より強い。", "comparison": "stronger than"},
+      "phase5": {"sentence": "Economic growth may weaken some grievances, but it cannot explain a movement's decline by itself: organizations, institutions, and public trust also change over time.", "translation": "経済成長によって一部の不満が弱まることはあり得るが、それだけで運動の退潮を説明することはできない。組織、制度、社会的信頼も時間とともに変化する。", "relativizer": "none"}
+    },
+    "explainLayer": {
+      "chunks": [
+        {"text": "Economic growth may weaken", "function": "行動", "translation": "経済成長は弱めることがある"},
+        {"text": "some grievances,", "function": "対象", "translation": "一部の不満を"},
+        {"text": "but it cannot explain a movement's decline by itself:", "function": "接続", "translation": "しかしそれだけで運動の退潮は説明できない"},
+        {"text": "organizations, institutions, and public trust", "function": "対象", "translation": "組織、制度、社会的信頼も"},
+        {"text": "also change over time.", "function": "時間", "translation": "時間とともに変化する"}
+      ],
+      "grammarPoints": [
+        {"category": "助動詞", "name": "mayによる限定", "where": "may weaken", "explanation": "経済成長の効果を可能性として示し、断定を避けます。", "rule": "may + 動詞原形で可能性を表す。"},
+        {"category": "語法", "name": "weaken＋目的語", "where": "weaken some grievances", "explanation": "不満の強さを弱めることを表します。", "rule": "weaken Aで「Aを弱める」。"},
+        {"category": "接続", "name": "butによる対照", "where": "but it cannot explain", "explanation": "一部への影響を認めつつ、単一原因説を制限します。", "rule": "butで逆向きの内容を結ぶ。"},
+        {"category": "所有格", "name": "movement's decline", "where": "a movement's decline", "explanation": "運動に生じる退潮を所有格で表します。", "rule": "名詞's + 名詞で所属・関係を示す。"},
+        {"category": "代名詞", "name": "by itself", "where": "by itself", "explanation": "経済成長という一要因だけではないことを示します。", "rule": "by itselfで「それだけで・単独で」。"},
+        {"category": "句読法", "name": "コロンによる説明", "where": "itself: organizations", "explanation": "単一原因で足りない理由を後半の列挙で展開します。", "rule": "コロンは前内容の説明・具体化を導く。"}
+      ],
+      "errors": [
+        {"wrong": "Economic growth may weakens grievances.", "correct": "Economic growth may weaken grievances.", "why": "助動詞mayの後ろは動詞原形weakenです。"},
+        {"wrong": "It cannot explains the decline.", "correct": "It cannot explain the decline.", "why": "助動詞cannotの後ろは動詞原形explainです。"},
+        {"wrong": "Organizations and institutions also changes.", "correct": "Organizations and institutions also change.", "why": "andで結ばれた複数主語なのでchangeを使います。"}
+      ],
+      "variants": [
+        {"text": "Prosperity may reduce some pressures without ending political conflict.", "translation": "豊かさは一部の圧力を弱めても、政治的対立を終わらせるとは限らない。"},
+        {"text": "Movements decline when their organizations, opportunities, and public support change.", "translation": "運動は、組織、機会、社会的支持が変化すると退潮することがある。"},
+        {"text": "No single variable explains every stage of a movement's history.", "translation": "一つの変数だけで運動史の全段階を説明することはできない。"}
+      ],
+      "parseTree": "S(Economic growth) Modal(may) V(weaken) O(some grievances), but S(it) Modal(cannot) V(explain) O(a movement's decline) Adv(by itself): S(organizations, institutions, and public trust) Adv(also) V(change) Adv(over time)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {"original": "Some grievances weaken.", "expanded": "Some grievances may weaken because economic security changes people's immediate priorities.", "nuance": "経済条件から優先順位への限定的因果を示す。"},
+        {"original": "Organizations lose momentum.", "expanded": "When organizations fragment or lose members, collective action becomes harder to sustain.", "nuance": "組織変化から継続困難への因果を示す。"},
+        {"original": "Public support changes.", "expanded": "Tactics and institutions change, so public trust may rise or fall independently of prosperity.", "nuance": "信頼が経済だけに依存しないことを示す。"}
+      ],
+      "structuralShift": [
+        {"type": "受動態", "sentence": "A movement's decline cannot be explained by prosperity alone.", "translation": "運動の退潮は豊かさだけでは説明できない。", "note": "説明される退潮へ焦点を移す。"},
+        {"type": "分詞構文", "sentence": "Changing together, economic, organizational, and institutional conditions reshape a movement.", "translation": "経済・組織・制度の条件は同時に変化しながら、運動を作り変える。", "note": "条件の同時変化を-ing句で示す。"},
+        {"type": "名詞化", "sentence": "The decline of a movement requires a multi-causal explanation.", "translation": "運動の退潮には複合要因による説明が必要である。", "note": "declineを名詞として主題化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {"original": "decline", "alternatives": ["loss of momentum", "retreat", "diminishment"], "nuance": "loss of momentumは勢いの低下、retreatは後退、diminishmentは規模や強度の縮小を示す。"}
+        ],
+        "sentencePatterns": [
+          {"type": "限定と補足", "sentence": "Economic change matters, but it is only one part of the explanation.", "translation": "経済変化は重要だが、説明の一部にすぎない。"}
+        ],
+        "comparison": [
+          {"sentence": "A layered explanation is more reliable than a story built around one cause.", "translation": "層を重ねた説明は、一原因を中心にした物語より信頼できる。"}
+        ],
+        "conditional": [
+          {"sentence": "If an explanation fits every outcome, it may be too broad to test.", "translation": "どんな結果にも当てはまる説明なら、検証するには広すぎる可能性がある。"}
+        ],
+        "emphasis": [
+          {"sentence": "What needs explanation is not only why grievances faded but also why organizations lost their capacity to mobilize.", "translation": "説明すべきなのは不満が弱まった理由だけでなく、組織が動員力を失った理由でもある。"}
+        ],
+        "compression": [
+          {"sentence": "Prosperity matters, but causes multiply.", "translation": "豊かさは影響するが、原因は複数ある。"}
+        ]
+      }
+    },
+    "scores": {"naturalness": 9, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 8, "comment": "経済成長の影響をmayで限定し、コロン後に非経済要因を示した。特定の運動への適用には個別史料が必要である。"}
+  },
+  {
+    "_no": 69,
+    "_generatedAt": "2026-08-11T02:00:00+09:00",
+    "sentence": "When production moves across borders, job losses can cluster in particular regions even if national growth continues. National figures may hide those local costs.",
+    "phonetic": "ウェン プロダクション ムーヴズ アクロス ボーダーズ、ジョブ ロセズ キャン クラスター イン パーティキュラー リージョンズ イーヴン イフ ナショナル グロウス コンティニューズ。ナショナル フィギャーズ メイ ハイド ゾウズ ローカル コスツ。",
+    "japaneseTranslation": "生産が国境を越えて移動すると、国全体の成長が続いていても、雇用喪失が特定地域に集中することがある。全国値は、そうした地域の費用を隠す場合がある。",
+    "theme": "産業移動と地域に集中する費用",
+    "coreVerb": "cluster",
+    "generateLayer": {
+      "phase1": {"sentence": "Job losses cluster.", "translation": "雇用喪失は集中する。"},
+      "phase2": {"sentence": "Job losses can cluster in particular regions.", "translation": "雇用喪失は特定地域に集中することがある。", "addedChunks": "canとin particular regionsを加えて可能性と場所を示す"},
+      "phase3": {"sentence": "Job losses can cluster when production moves across borders.", "translation": "生産が国境を越えて移動すると、雇用喪失が集中することがある。", "connector": "when"},
+      "phase4": {"sentence": "Local employment can fall faster than national output.", "translation": "地域雇用は国全体の生産より速く低下することがある。", "comparison": "faster than"},
+      "phase5": {"sentence": "When production moves across borders, job losses can cluster in particular regions even if national growth continues. National figures may hide those local costs.", "translation": "生産が国境を越えて移動すると、国全体の成長が続いていても、雇用喪失が特定地域に集中することがある。全国値は、そうした地域の費用を隠す場合がある。", "relativizer": "when"}
+    },
+    "explainLayer": {
+      "chunks": [
+        {"text": "When production moves across borders,", "function": "時間", "translation": "生産が国境を越えて移動すると"},
+        {"text": "job losses can cluster", "function": "行動", "translation": "雇用喪失が集中することがある"},
+        {"text": "in particular regions", "function": "場所", "translation": "特定地域に"},
+        {"text": "even if national growth continues.", "function": "接続", "translation": "国全体の成長が続いていても"},
+        {"text": "National figures may hide those local costs.", "function": "結果", "translation": "全国値はそうした地域の費用を隠す場合がある"}
+      ],
+      "grammarPoints": [
+        {"category": "接続", "name": "whenによる状況節", "where": "When production moves across borders", "explanation": "産業移動が起きる状況を先に示します。", "rule": "when + 節で時・状況条件を表す。"},
+        {"category": "語法", "name": "move across borders", "where": "moves across borders", "explanation": "生産活動が国境を越えて移ることを表します。", "rule": "move across + 境界で越境移動を表す。"},
+        {"category": "助動詞", "name": "canによる可能性", "where": "can cluster", "explanation": "地域集中を常に起こる結果ではなく可能性として示します。", "rule": "can + 動詞原形で可能性を表す。"},
+        {"category": "語法", "name": "cluster in", "where": "cluster in particular regions", "explanation": "損失が特定の場所にまとまることを表します。", "rule": "cluster in + 場所で「〜に集中する」。"},
+        {"category": "譲歩", "name": "even if節", "where": "even if national growth continues", "explanation": "全国成長と地域損失が両立し得ることを示します。", "rule": "even if + 節で仮定的な譲歩を表す。"},
+        {"category": "指示詞", "name": "thoseによる照応", "where": "those local costs", "explanation": "前文で述べた地域的な雇用喪失を受けます。", "rule": "those + 複数名詞で既出の対象を指す。"}
+      ],
+      "errors": [
+        {"wrong": "Production move across borders.", "correct": "Production moves across borders.", "why": "不可算名詞productionは単数扱いなのでmovesにします。"},
+        {"wrong": "Job losses can clusters in regions.", "correct": "Job losses can cluster in regions.", "why": "助動詞canの後ろは動詞原形clusterです。"},
+        {"wrong": "even national growth continues", "correct": "even if national growth continues", "why": "譲歩条件を導くにはeven ifが必要です。"}
+      ],
+      "variants": [
+        {"text": "National growth can coexist with severe job losses in one industrial region.", "translation": "国全体の成長は、一つの工業地域での深刻な雇用喪失と同時に起こり得る。"},
+        {"text": "Industrial transition creates gains and losses in different places.", "translation": "産業転換は異なる場所に利益と損失を生む。"},
+        {"text": "Regional data reveal costs that national averages can conceal.", "translation": "地域データは、全国平均が隠し得る費用を明らかにする。"}
+      ],
+      "parseTree": "AdvClause(When S(production) V(moves) PP(across borders)), S(job losses) Modal(can) V(cluster) PP(in particular regions) AdvClause(even if national growth continues). S(National figures) Modal(may) V(hide) O(those local costs)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {"original": "Job losses cluster locally.", "expanded": "Job losses cluster locally because factories and supplier networks are geographically concentrated.", "nuance": "産業集積から損失集中への因果を示す。"},
+        {"original": "National growth continues.", "expanded": "Other sectors may expand, so national growth can continue while one region contracts.", "nuance": "部門差から全国値と地域値の乖離を示す。"},
+        {"original": "Averages hide costs.", "expanded": "Regional losses are offset elsewhere in the aggregate, so national averages may hide local costs.", "nuance": "集計による相殺を理由として示す。"}
+      ],
+      "structuralShift": [
+        {"type": "受動態", "sentence": "Local employment can be reduced when production is moved elsewhere.", "translation": "生産が別の場所へ移されると、地域雇用が減ることがある。", "note": "移される生産と減らされる雇用へ焦点を移す。"},
+        {"type": "分詞構文", "sentence": "Moving across borders, production can leave concentrated employment losses behind.", "translation": "国境を越えて移動することで、生産は集中した雇用喪失を後に残し得る。", "note": "生産移動を-ing句で示す。"},
+        {"type": "名詞化", "sentence": "The relocation of production can concentrate regional employment losses.", "translation": "生産の移転は地域の雇用喪失を集中させることがある。", "note": "relocateをrelocationに名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {"original": "cluster", "alternatives": ["concentrate", "accumulate", "be localized"], "nuance": "concentrateは集中、accumulateは蓄積、be localizedは場所が限定されることを示す。"}
+        ],
+        "sentencePatterns": [
+          {"type": "全国と地域", "sentence": "The national economy may grow while an industrial region loses jobs.", "translation": "国全体の経済が成長する一方で、ある工業地域は雇用を失うことがある。"}
+        ],
+        "comparison": [
+          {"sentence": "Regional employment may deteriorate faster than national output figures suggest.", "translation": "地域雇用は、国全体の生産統計が示すより速く悪化することがある。"}
+        ],
+        "conditional": [
+          {"sentence": "If production is geographically concentrated, its relocation can hit one region especially hard.", "translation": "生産が地理的に集中していれば、その移転は一地域へ特に大きな打撃を与え得る。"}
+        ],
+        "emphasis": [
+          {"sentence": "What national figures conceal is where the losses occur.", "translation": "全国値が隠すのは、損失がどこで生じるかである。"}
+        ],
+        "compression": [
+          {"sentence": "Growth is national; losses can be local.", "translation": "成長は全国値でも、損失は地域に集中し得る。"}
+        ]
+      }
+    },
+    "scores": {"naturalness": 9, "clarity": 9, "flexibility": 8, "focus": 9, "efficiency": 9, "comment": "when節とeven if節で全国成長と地域損失の併存を示した。因果はcanとmayで可能性に限定している。"}
+  }
+]
