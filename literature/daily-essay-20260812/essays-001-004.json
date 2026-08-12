@@ -1,0 +1,248 @@
+[
+  {
+    "id": "DE-20260812-001",
+    "sourceTitle": "証明を置く場所",
+    "workId": "daily-essay-20260812",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "現在形の肩書き",
+    "jp": "肩書きは短いのに、時制を多く含む。「かつて演じた」「任期中に務めた」と「いまその役にある」は同じではない。過去の仕事を経歴として示すことはできても、現在形のプロフィールへ置けば、読み手は継続中の資格や権限まで受け取りかねない。名乗ったという出来事は確かに残る。けれど、その内容が今も有効かどうかは、名乗りとは別の場所で確かめなければならない。",
+    "translationLiteral": "A title is short, yet it contains many tenses. “Having once played a role,” “having served during a fixed term,” and “being in that role now” are not the same. Past work can be shown as experience, but if it is placed in a profile written in the present tense, readers may take it to include a continuing qualification or authority. The event of having used the title certainly remains. Whether its content is still valid, however, must be verified somewhere other than in the title itself.",
+    "translationNatural": "A title may be brief, but it carries a tense. Having once played a role or served a fixed term is different from holding that position now. Past work belongs in a record of experience; presented as a current profile, it may imply an active qualification or authority. The act of making a claim remains a fact, but the claim's present validity must be verified elsewhere.",
+    "imageUrl": "",
+    "imageCaption": "過去の役職を示す名札が、現在形の長い影を落としている場面。",
+    "imagePrompt": "A small badge representing a past role casting a long present-tense shadow, restrained conceptual editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "A title may be brief, but it carries a tense.",
+        "ja": "肩書きは短くても、時制を帯びている"
+      },
+      {
+        "en": "Having once played a role or served a fixed term",
+        "ja": "かつて役を演じたり任期を務めたりしたことは"
+      },
+      {
+        "en": "is different from holding that position now.",
+        "ja": "いまその地位にあることとは異なる"
+      },
+      {
+        "en": "Past work belongs in a record of experience;",
+        "ja": "過去の仕事は経歴の記録に属するが"
+      },
+      {
+        "en": "presented as a current profile, it may imply an active qualification or authority.",
+        "ja": "現在のプロフィールとして示されると、現役の資格や権限を含意しかねない"
+      },
+      {
+        "en": "The act of making a claim remains a fact, but the claim's present validity must be verified elsewhere.",
+        "ja": "名乗った行為は事実として残るが、その現在の有効性は別の場所で検証しなければならない"
+      }
+    ],
+    "grammar": [
+      "may be brief, but ... は譲歩を含む対照で、短さと時制の重さを並べる。",
+      "Having once played ... or served ... は二つの動名詞句を主語としてまとめる。",
+      "is different from holding ... は different from の後に動名詞を置き、過去の経験と現在の在職を区別する。",
+      "presented as a current profile は過去分詞による省略節で、Past work が現在形で提示される条件を示す。",
+      "may imply は断定を避けつつ、読み手に生じ得る含意を表す。",
+      "must be verified は受動態で、現在の有効性には別途検証が必要だと示す。"
+    ],
+    "translationNote": "literal は三つの時制表現と「名乗ったという出来事」を順に追った。natural では「肩書きは時制を含む」を carries a tense と凝縮し、「受け取りかねない」を may imply として、意図ではなく表示が生む含意に焦点を合わせた。",
+    "readingPoint": "導入では、過去の職歴と現在の肩書きを時制の問題として切り分ける。名乗りという出来事は残っても、その内容の現行性は自動的に保証されないという作品全体の問いを置く。",
+    "keywords": [
+      "title",
+      "tense",
+      "profile",
+      "experience",
+      "validity"
+    ]
+  },
+  {
+    "id": "DE-20260812-002",
+    "sourceTitle": "証明を置く場所",
+    "workId": "daily-essay-20260812",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "達成の二つの層",
+    "jp": "ある場所に立ったことと、そこで期待された水準を満たしたことも違う。番号を得た、舞台に出た、役を演じた——それらは観測できる事実だが、達成の中には後から測られる基準がある。自称は明日変えられる。事象は起きた後に消せない。だから肩書きを自由にするには、かえって証明を名乗りの外へ置く必要がある。再現できる行為や残された成果が担保なら、看板は看板として軽くなる。",
+    "translationLiteral": "Having stood in a certain place and having met the standard expected there are also different. Receiving a number, appearing on a stage, and playing a role are observable facts, but achievement includes a standard by which it is measured afterward. A self-description can be changed tomorrow. An event cannot be erased after it has occurred. Therefore, to make a title free, it is instead necessary to place its proof outside the act of naming. If repeatable actions or remaining results serve as collateral, a sign becomes light enough to be only a sign.",
+    "translationNatural": "Reaching a position is not the same as meeting the standard expected there. Receiving a number, appearing on a stage, or playing a role can all be observed, yet each achievement may still be judged against standards applied afterward. A self-description can be changed tomorrow; an event cannot be undone once it has occurred. That is why a title can remain flexible only when its evidence lies elsewhere. When repeatable actions or durable results provide the proof, the label can stay light enough to change.",
+    "imageUrl": "",
+    "imageCaption": "舞台へ立った事実と、その後に測られる達成水準が二層に分かれた場面。",
+    "imagePrompt": "A person visibly reaching a stage while a separate transparent scale measures the standard achieved afterward, thoughtful editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Reaching a position is not the same as meeting the standard expected there.",
+        "ja": "ある地位に到達することは、そこで期待される水準を満たすことと同じではない"
+      },
+      {
+        "en": "Receiving a number, appearing on a stage, or playing a role",
+        "ja": "番号を得ること、舞台に出ること、役を演じることは"
+      },
+      {
+        "en": "can all be observed, yet each achievement may still be judged against standards applied afterward.",
+        "ja": "すべて観測できるが、個々の達成は後から適用される基準によってなお評価され得る"
+      },
+      {
+        "en": "A self-description can be changed tomorrow; an event cannot be undone once it has occurred.",
+        "ja": "自称は明日変えられるが、起きた事象を元に戻すことはできない"
+      },
+      {
+        "en": "That is why a title can remain flexible only when its evidence lies elsewhere.",
+        "ja": "だからこそ肩書きは、証拠が別の場所にあるときだけ柔軟でいられる"
+      },
+      {
+        "en": "When repeatable actions or durable results provide the proof,",
+        "ja": "再現可能な行為や残る成果が証明を与えれば"
+      },
+      {
+        "en": "the label can stay light enough to change.",
+        "ja": "看板は変更できるほど軽く保てる"
+      }
+    ],
+    "grammar": [
+      "is not the same as は、場所への到達と期待水準の達成を明確に区別する。",
+      "Receiving ..., appearing ..., or playing ... は三つの動名詞句を並列する。",
+      "may still be judged against は受動態で、観測済みの達成にも事後の評価基準が適用され得ることを示す。",
+      "cannot be undone は受動態で、発生済みの事象の不可逆性を表す。",
+      "once it has occurred は現在完了を用い、「いったん起きた後」という完了条件を示す。",
+      "only when は、肩書きが柔軟でいられる条件を限定する。",
+      "light enough to change は enough to 構文で、変更可能性を保てる軽さを表す。"
+    ],
+    "translationNote": "literal は「場所に立つ」「看板が軽くなる」という比喩を維持した。natural では「達成の中の基準」を achievement also contains criteria と明示し、「担保」は金融語を避けて carry the proof とし、名乗りと証拠の役割分担を自然にした。",
+    "readingPoint": "第二章では、達成を「その場所に到達した事実」と「そこで水準を満たした評価」に分ける。名乗りを重く固定するのではなく、観測可能な行為や成果の側へ証明を移す。",
+    "keywords": [
+      "achievement",
+      "standard",
+      "event",
+      "evidence",
+      "label"
+    ]
+  },
+  {
+    "id": "DE-20260812-003",
+    "sourceTitle": "証明を置く場所",
+    "workId": "daily-essay-20260812",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "停止条件のない努力",
+    "jp": "しかし、証明を行為の側へ移すと別の罠が現れる。頑張っていることを示すために過程まで絶えず中継し、休んだ瞬間に自分が消えるような構図である。続けた日数が名になれば、停止は単なる休息ではなく、自己紹介の破綻になる。必要なのは意志の追加ではなく停止条件だ。どこまで行けば今日は終わりかを先に決めなければ、継続は成果を作る方法から存在を証明する儀式へ変わる。",
+    "translationLiteral": "However, when proof is moved to the side of action, another trap appears. It is a structure in which even the process is constantly broadcast in order to show that one is trying, and the self seems to disappear at the moment of rest. If the number of continued days becomes a name, stopping is not mere rest but a collapse of one's self-introduction. What is needed is not additional will but a stopping condition. Unless the point at which today ends is decided in advance, continuation changes from a method for making results into a ritual for proving existence.",
+    "translationNatural": "Moving proof from a label to an action creates another trap. To demonstrate effort, a person may begin broadcasting the entire process, until a pause seems to erase the identity being presented. When the number of consecutive days becomes a name, stopping no longer feels like rest; it feels like a collapse of that identity. What is missing then is not more willpower but a stopping condition. Unless the day's endpoint is defined in advance, persistence can turn from a way of producing results into a ritual of proving one's existence.",
+    "imageUrl": "",
+    "imageCaption": "連続日数を映し続ける画面の横に、使われない停止ボタンが残る場面。",
+    "imagePrompt": "A screen continuously broadcasting a growing count of days beside an unused but clearly visible stop button, subtle conceptual editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Moving proof from a label to an action creates another trap.",
+        "ja": "証明を肩書きから行為へ移すと、別の罠が生まれる"
+      },
+      {
+        "en": "To demonstrate effort, a person may begin broadcasting the entire process,",
+        "ja": "努力を示すため、人は過程全体を中継し始めることがあり"
+      },
+      {
+        "en": "until a pause seems to erase the identity being presented.",
+        "ja": "ついには休止が提示中の自己像を消すように思えてくる"
+      },
+      {
+        "en": "When the number of consecutive days becomes a name, stopping no longer feels like rest; it feels like a collapse of that identity.",
+        "ja": "連続日数が名になると、停止は休息ではなく、その自己像の崩壊のように感じられる"
+      },
+      {
+        "en": "What is missing then is not more willpower but a stopping condition.",
+        "ja": "そこで不足しているのは意志の追加ではなく停止条件である"
+      },
+      {
+        "en": "Unless the day's endpoint is defined in advance, persistence can turn from a way of producing results into a ritual of proving one's existence.",
+        "ja": "一日の終点を先に定めなければ、継続は成果を作る方法から存在証明の儀式へ変わり得る"
+      }
+    ],
+    "grammar": [
+      "Moving proof ... は動名詞句を主語にし、証明の置き場所を変える行為を表す。",
+      "To demonstrate effort は目的を示す不定詞句である。",
+      "may begin broadcasting は可能性の助動詞と begin -ing を組み合わせ、過程の中継が始まり得ることを示す。",
+      "until は中継が進んだ結果、休止の意味まで変わる到達点を導く。",
+      "no longer A; it feels like B は、休息から自己像の崩壊への意味変化を対照する。",
+      "not more willpower but a stopping condition は not A but B で不足物を入れ替える。",
+      "Unless ... is defined は受動態を伴う条件節で、継続が儀式化しないための条件を示す。",
+      "turn from A into B は、方法から儀式への変質を表す。"
+    ],
+    "translationNote": "literal は「行為の側」「自分が消える」「自己紹介の破綻」を残した。natural では主語を a person と補い、「休んだ瞬間」を until a pause と連続過程の到達点に変え、自己紹介は the identity being presented と文脈に即して言い換えた。",
+    "readingPoint": "ここが転換点である。証明を行為へ置くことにも、過程を中継し続けなければ自分を保てないという危険がある。努力不足ではなく停止条件の欠如を問題にし、結末の身体的な比喩を準備する。",
+    "keywords": [
+      "effort",
+      "broadcasting",
+      "identity",
+      "stopping condition",
+      "persistence"
+    ]
+  },
+  {
+    "id": "DE-20260812-004",
+    "sourceTitle": "証明を置く場所",
+    "workId": "daily-essay-20260812",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "筋肉痛の外で",
+    "jp": "筋力トレーニングの問いは、この問題を身体の側から言い直していた。二千回という回数も、筋肉痛の強さも、それだけでは効果の証明にならない。フォーム、負荷、回復、続けられる頻度が組み合わさって、初めて身体は変わる。年齢は休まず進むが、練習まで時計のように動く必要はない。止まる日を含んでも次の一回へ戻れること。証明をそこへ置けば、継続は監視ではなく設計になる。",
+    "translationLiteral": "Questions about strength training restated this problem from the side of the body. Neither a count of two thousand repetitions nor the intensity of muscle soreness proves an effect by itself. Only when form, load, recovery, and a sustainable frequency are combined does the body change. Age advances without resting, but practice does not have to move like a clock. What matters is being able to return to the next repetition even with days of stopping included. If proof is placed there, continuation becomes not surveillance but design.",
+    "translationNatural": "Questions about strength training restated the same problem in bodily terms. Neither two thousand repetitions nor severe muscle soreness is, by itself, proof that a workout is effective. Change comes from the combination of form, load, recovery, and a frequency that can be sustained. Age advances without a rest day, but practice need not behave like a clock. The better proof is the ability to return for the next repetition even after a pause. When proof is placed there, persistence becomes a design rather than a form of self-surveillance.",
+    "imageUrl": "",
+    "imageCaption": "回数計と筋肉痛の印の外側に、負荷・回復・再開を結ぶ循環が見える場面。",
+    "imagePrompt": "A training counter and soreness symbol beside a balanced cycle of form, load, recovery, and return, calm conceptual editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Questions about strength training restated the same problem in bodily terms.",
+        "ja": "筋力トレーニングの問いは、同じ問題を身体の言葉で言い直した"
+      },
+      {
+        "en": "Neither two thousand repetitions nor severe muscle soreness is, by itself, proof that a workout is effective.",
+        "ja": "二千回の反復も強い筋肉痛も、それ自体では運動が有効だという証明にならない"
+      },
+      {
+        "en": "Change comes from the combination of form, load, recovery, and a frequency that can be sustained.",
+        "ja": "変化はフォーム、負荷、回復、維持できる頻度の組み合わせから生じる"
+      },
+      {
+        "en": "Age advances without a rest day,",
+        "ja": "年齢は休まず進むが"
+      },
+      {
+        "en": "but practice need not behave like a clock.",
+        "ja": "練習まで時計のように動く必要はない"
+      },
+      {
+        "en": "The better proof is the ability to return for the next repetition even after a pause.",
+        "ja": "より良い証明は、休止の後でも次の一回へ戻れることである"
+      },
+      {
+        "en": "When proof is placed there, persistence becomes a design rather than a form of self-surveillance.",
+        "ja": "そこに証明を置けば、継続は自己監視ではなく設計になる"
+      }
+    ],
+    "grammar": [
+      "restated A in B terms は、同じ問題を別の観点の言葉で表し直す構文である。",
+      "Neither A nor B is proof は二つの候補をともに否定し、近接する単数名詞 soreness に is を一致させる。",
+      "by itself は挿入句として「それ自体では」という限定を加える。",
+      "proof that a workout is effective の that 節は proof の具体的内容を示す同格節である。",
+      "a frequency that can be sustained は関係節と受動態で、継続可能な頻度を説明する。",
+      "need not は「〜する必要はない」を簡潔に表す助動詞用法である。",
+      "the ability to return は不定詞が ability の内容を示す。",
+      "even after a pause は、休止を含んでも再開できるという譲歩を加える。",
+      "rather than は design と self-surveillance を対照させる。"
+    ],
+    "translationNote": "literal は「身体の側」「初めて身体は変わる」「止まる日を含む」を日本語の順序で追った。natural では逆接条件を combination という名詞句へ整理し、「証明」を the ability to return と具体化して、回数や痛みから再開可能性へ焦点を移した。",
+    "readingPoint": "結末では、肩書きと努力の議論をトレーニングへ移す。回数や痛みという目立つ指標を退け、回復を含む再開可能性を証明の置き場所にすることで、継続を自己監視から設計へ変える。",
+    "keywords": [
+      "strength training",
+      "recovery",
+      "soreness",
+      "return",
+      "self-surveillance"
+    ]
+  }
+]
