@@ -1,0 +1,707 @@
+[
+  {
+    "_no": 70,
+    "_generatedAt": "2026-08-13T02:00:00+09:00",
+    "sentence": "Choose the relative word according to the role needed in the clause: who for a person, where for a place, and when for a time.",
+    "phonetic": "チューズ ザ レラティヴ ワード アコーディング トゥ ザ ロール ニーディド イン ザ クローズ：フー フォー ア パーソン、ウェア フォー ア プレイス、アンド ウェン フォー ア タイム。",
+    "japaneseTranslation": "節の中で必要とされる役割に応じて関係詞を選ぼう。人ならwho、場所ならwhere、時間ならwhenを使う。",
+    "theme": "意味役割に応じた関係詞の選択",
+    "coreVerb": "choose",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Choose a relative word.",
+        "translation": "関係詞を選ぼう。"
+      },
+      "phase2": {
+        "sentence": "Choose a relative word by its role.",
+        "translation": "役割に応じて関係詞を選ぼう。",
+        "addedChunks": "by its roleを加えて選択基準を示す"
+      },
+      "phase3": {
+        "sentence": "Choose who for a person, where for a place, and when for a time.",
+        "translation": "人ならwho、場所ならwhere、時間ならwhenを選ぼう。",
+        "connector": "none"
+      },
+      "phase4": {
+        "sentence": "Meaning is more useful than the noun alone when choosing a relative word.",
+        "translation": "関係詞を選ぶときは、名詞だけより意味の方が役に立つ。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "Choose the relative word according to the role needed in the clause: who for a person, where for a place, and when for a time.",
+        "translation": "節の中で必要とされる役割に応じて関係詞を選ぼう。人ならwho、場所ならwhere、時間ならwhenを使う。",
+        "relativizer": "who"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Choose the relative word",
+          "function": "行動",
+          "translation": "関係詞を選ぼう"
+        },
+        {
+          "text": "according to the role",
+          "function": "様態",
+          "translation": "役割に応じて"
+        },
+        {
+          "text": "needed in the clause:",
+          "function": "修飾",
+          "translation": "節の中で必要とされる"
+        },
+        {
+          "text": "who for a person, where for a place,",
+          "function": "内容",
+          "translation": "人ならwho、場所ならwhere"
+        },
+        {
+          "text": "and when for a time.",
+          "function": "内容",
+          "translation": "そして時間ならwhen"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "命令文",
+          "name": "動詞原形で始まる指示",
+          "where": "Choose",
+          "explanation": "学習上の判断手順を簡潔に指示します。",
+          "rule": "命令文は主語youを省き、動詞原形で始める。"
+        },
+        {
+          "category": "語法",
+          "name": "according to",
+          "where": "according to the role",
+          "explanation": "役割を選択基準として示します。",
+          "rule": "according to + 名詞で「〜に応じて」。"
+        },
+        {
+          "category": "関係節",
+          "name": "過去分詞による後置修飾",
+          "where": "the role needed in the clause",
+          "explanation": "needed in the clauseがroleを後ろから修飾します。",
+          "rule": "過去分詞句は名詞を後ろから修飾できる。"
+        },
+        {
+          "category": "句読法",
+          "name": "コロンによる具体化",
+          "where": "clause: who",
+          "explanation": "前半のroleを後半の三例で具体化します。",
+          "rule": "コロンは説明や列挙を導く。"
+        },
+        {
+          "category": "省略",
+          "name": "who for a person",
+          "where": "who for a person",
+          "explanation": "chooseを繰り返さず、対応だけを短く示しています。",
+          "rule": "並列部分では共通する動詞を省略できる。"
+        },
+        {
+          "category": "並列",
+          "name": "A, B, and C",
+          "where": "who ..., where ..., and when ...",
+          "explanation": "人・場所・時間の三つの対応を同じ形で並べます。",
+          "rule": "三項目はカンマとandで並列する。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Choose who to a person.",
+          "correct": "Choose who for a person.",
+          "why": "用途・対応を示すここでは前置詞forを使います。"
+        },
+        {
+          "wrong": "where for a time",
+          "correct": "when for a time",
+          "why": "時間を受ける関係副詞はwhenです。"
+        },
+        {
+          "wrong": "the role the clause need",
+          "correct": "the role the clause needs",
+          "why": "主語the clauseは三人称単数なのでneedsにします。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Use who for people, where for places, and when for times.",
+          "translation": "人にはwho、場所にはwhere、時間にはwhenを使う。"
+        },
+        {
+          "text": "Ask what role the clause needs before choosing a relative word.",
+          "translation": "関係詞を選ぶ前に、節がどの役割を必要としているか考えよう。"
+        },
+        {
+          "text": "The antecedent matters, but the clause's missing role determines the form.",
+          "translation": "先行詞も重要だが、形を決めるのは節で欠けている役割である。"
+        }
+      ],
+      "parseTree": "Imperative V(Choose) O(the relative word) PP(according to the role [past-participle modifier: needed in the clause]): list(who for a person, where for a place, and when for a time)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Choose by role.",
+          "expanded": "Choose by role because person, place, and time require different relative forms.",
+          "nuance": "選択基準の理由をbecauseで明示する。"
+        },
+        {
+          "original": "Check the clause.",
+          "expanded": "Check the clause first, since the missing function may not match the noun's surface form.",
+          "nuance": "節内機能を先に見る理由を示す。"
+        },
+        {
+          "original": "Use when for time.",
+          "expanded": "Use when when the antecedent marks a time and the clause needs a time expression.",
+          "nuance": "先行詞と節内機能の両条件を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A relative word should be chosen according to the role needed by the clause.",
+          "translation": "関係詞は節が必要とする役割に従って選ばれるべきだ。",
+          "note": "選ぶ人ではなく選択基準へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Looking at the clause's missing role, choose who, where, or when.",
+          "translation": "節で欠けている役割を見て、who、where、whenのいずれかを選ぼう。",
+          "note": "判断の前提を-ing句にする。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The choice of a relative word depends on the role required by the clause.",
+          "translation": "関係詞の選択は、節が必要とする役割に依存する。",
+          "note": "chooseをchoiceに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "role",
+            "alternatives": [
+              "function",
+              "semantic role",
+              "clause position"
+            ],
+            "nuance": "functionは文法上の働き、semantic roleは意味上の役割、clause positionは節内の位置に焦点を置く。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対応列挙",
+            "sentence": "Use who for a person, where for a place, and when for a time.",
+            "translation": "人にはwho、場所にはwhere、時間にはwhenを使う。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "The clause's function is more informative than the antecedent alone.",
+            "translation": "節の機能は、先行詞だけを見るより多くの情報を与える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the clause needs a place expression, where may be appropriate.",
+            "translation": "節が場所表現を必要とするなら、whereが適切な場合がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What determines the form is the role required inside the clause.",
+            "translation": "形を決めるのは、節の中で必要とされる役割である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Match the relative word to the role.",
+            "translation": "関係詞を役割に合わせよう。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "コロンと省略を使って三つの対応を簡潔に整理した。実際の選択では先行詞だけでなく節内で欠ける役割も確認する必要がある。"
+    }
+  },
+  {
+    "_no": 71,
+    "_generatedAt": "2026-08-13T02:00:00+09:00",
+    "sentence": "A workout can be effective without causing soreness; gradual progress in load, control, or repetitions is a more useful sign than pain alone.",
+    "phonetic": "ア ワークアウト キャン ビー イフェクティヴ ウィザウト コージング ソアネス；グラジュアル プログレス イン ロード、コントロール、オア レペティションズ イズ ア モア ユースフル サイン ザン ペイン アローン。",
+    "japaneseTranslation": "筋肉痛を起こさなくても、トレーニングは効果的であり得る。負荷、動作の制御、反復回数の段階的な向上は、痛みだけより有用な目安である。",
+    "theme": "筋肉痛とトレーニング効果の区別",
+    "coreVerb": "progress",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A workout can be effective.",
+        "translation": "トレーニングは効果的であり得る。"
+      },
+      "phase2": {
+        "sentence": "A workout can be effective without soreness.",
+        "translation": "筋肉痛がなくてもトレーニングは効果的であり得る。",
+        "addedChunks": "without sorenessを加えて筋肉痛が必須でないことを示す"
+      },
+      "phase3": {
+        "sentence": "A workout can be effective without causing soreness.",
+        "translation": "筋肉痛を起こさなくても、トレーニングは効果的であり得る。",
+        "connector": "without"
+      },
+      "phase4": {
+        "sentence": "Gradual progress is a more useful sign than pain alone.",
+        "translation": "段階的な向上は、痛みだけより有用な目安である。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "A workout can be effective without causing soreness; gradual progress in load, control, or repetitions is a more useful sign than pain alone.",
+        "translation": "筋肉痛を起こさなくても、トレーニングは効果的であり得る。負荷、動作の制御、反復回数の段階的な向上は、痛みだけより有用な目安である。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A workout can be effective",
+          "function": "状態",
+          "translation": "トレーニングは効果的であり得る"
+        },
+        {
+          "text": "without causing soreness;",
+          "function": "接続",
+          "translation": "筋肉痛を起こさなくても"
+        },
+        {
+          "text": "gradual progress",
+          "function": "対象",
+          "translation": "段階的な向上は"
+        },
+        {
+          "text": "in load, control, or repetitions",
+          "function": "修飾",
+          "translation": "負荷、動作の制御、反復回数における"
+        },
+        {
+          "text": "is a more useful sign than pain alone.",
+          "function": "比較",
+          "translation": "痛みだけより有用な目安である"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "canによる可能性",
+          "where": "can be effective",
+          "explanation": "すべての運動を断定せず、効果があり得ることを示します。",
+          "rule": "can + 動詞原形で可能性を表す。"
+        },
+        {
+          "category": "語法",
+          "name": "effectiveの補語用法",
+          "where": "be effective",
+          "explanation": "be動詞の後ろでトレーニングの性質を説明します。",
+          "rule": "be + 形容詞で状態・性質を表す。"
+        },
+        {
+          "category": "前置詞",
+          "name": "without + 動名詞",
+          "where": "without causing soreness",
+          "explanation": "筋肉痛を起こさないまま効果があり得ることを表します。",
+          "rule": "without + -ingで「〜せずに」。"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "soreness; gradual progress",
+          "explanation": "密接に関係する二つの独立節を接続詞なしで結びます。",
+          "rule": "セミコロンは関連する独立節を結ぶ。"
+        },
+        {
+          "category": "語法",
+          "name": "progress in",
+          "where": "progress in load, control, or repetitions",
+          "explanation": "向上が見られる領域をinで示します。",
+          "rule": "progress in + 名詞で「〜における進歩」。"
+        },
+        {
+          "category": "比較",
+          "name": "more ... than",
+          "where": "more useful sign than pain alone",
+          "explanation": "段階的な向上と痛みだけを、目安としての有用性で比較します。",
+          "rule": "more + 形容詞 + thanで比較級を作る。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A workout can effective.",
+          "correct": "A workout can be effective.",
+          "why": "形容詞effectiveの前にはbe動詞が必要で、canの後ろはbeを使います。"
+        },
+        {
+          "wrong": "without cause soreness",
+          "correct": "without causing soreness",
+          "why": "前置詞withoutの後ろには動名詞causingを置きます。"
+        },
+        {
+          "wrong": "Progress are a useful sign.",
+          "correct": "Progress is a useful sign.",
+          "why": "不可算名詞progressは単数扱いなのでisを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Soreness is not required for a workout to produce useful adaptations.",
+          "translation": "有用な適応を生むために筋肉痛は必須ではない。"
+        },
+        {
+          "text": "Track improvements in technique, load, and repetitions instead of chasing pain.",
+          "translation": "痛みを追うのではなく、技術、負荷、反復回数の向上を記録しよう。"
+        },
+        {
+          "text": "A session may work even when you feel little soreness the next day.",
+          "translation": "翌日に筋肉痛をほとんど感じなくても、その運動は効果を上げている場合がある。"
+        }
+      ],
+      "parseTree": "S(A workout) Modal(can) V(be) C(effective) PP(without causing soreness); S(gradual progress in load, control, or repetitions) V(is) C(a more useful sign than pain alone)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Soreness is not required.",
+          "expanded": "Soreness is not required because muscular adaptation can occur without noticeable exercise-induced damage.",
+          "nuance": "筋肉痛を効果の必須条件にしない理由を示す。"
+        },
+        {
+          "original": "Track progress.",
+          "expanded": "Track load and repetitions because repeated improvements show changes across sessions.",
+          "nuance": "単日の痛みより継続的記録を見る理由を示す。"
+        },
+        {
+          "original": "Control matters.",
+          "expanded": "Controlled movement matters because better technique can increase the intended muscle's contribution and reduce unwanted momentum.",
+          "nuance": "動作制御を評価軸に加える理由を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Training progress should be judged by performance and control, not by soreness alone.",
+          "translation": "トレーニングの進歩は、筋肉痛だけでなく動作能力と制御によって判断されるべきだ。",
+          "note": "判断される進歩へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Tracking load, control, and repetitions, you can evaluate progress without chasing soreness.",
+          "translation": "負荷、動作の制御、反復回数を記録すれば、筋肉痛を追わずに進歩を評価できる。",
+          "note": "記録という方法を-ing句で前置する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The absence of soreness does not prove the absence of adaptation.",
+          "translation": "筋肉痛がないことは、適応がないことの証明にはならない。",
+          "note": "absentをabsenceに名詞化して対照する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "soreness",
+            "alternatives": [
+              "muscle tenderness",
+              "post-workout discomfort",
+              "delayed-onset soreness"
+            ],
+            "nuance": "tendernessは圧痛、discomfortは広い不快感、delayed-onset sorenessは遅れて現れる筋肉痛を指す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "非必須条件",
+            "sentence": "A useful workout does not have to leave you sore.",
+            "translation": "有用なトレーニングで必ず筋肉痛になる必要はない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Consistent performance gains are more informative than soreness after one session.",
+            "translation": "一回の運動後の筋肉痛より、継続的な能力向上の方が多くを教えてくれる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If your technique and workload improve gradually, the program may be working even without soreness.",
+            "translation": "技術と負荷が徐々に向上しているなら、筋肉痛がなくてもプログラムは機能している可能性がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters most is sustainable progress, not pain for its own sake.",
+            "translation": "最も重要なのは持続可能な進歩であり、痛みそのものではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Progress matters more than soreness.",
+            "translation": "筋肉痛より進歩が重要だ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "筋肉痛を効果の必要条件から外し、複数回にわたる負荷・制御・反復回数の進歩を目安として提示した。個別の痛みや負傷は別途評価が必要である。"
+    }
+  },
+  {
+    "_no": 72,
+    "_generatedAt": "2026-08-13T02:00:00+09:00",
+    "sentence": "A noble-metal-free method produced a 3.5-inch gallium oxide crystal, which could reduce reliance on costly iridium. Scaling the process for mass production remains a separate challenge.",
+    "phonetic": "ア ノーブルメタルフリー メソッド プロデュースト ア スリー ポイント ファイヴ インチ ガリウム オキサイド クリスタル、ウィッチ クッド リデュース リライアンス オン コストリー イリディアム。スケイリング ザ プロセス フォー マス プロダクション リメインズ ア セパレート チャレンジ。",
+    "japaneseTranslation": "貴金属を使わない手法によって3.5インチの酸化ガリウム結晶が作製され、高価なイリジウムへの依存を減らせる可能性がある。その工程を量産規模へ拡大することは、別の課題として残る。",
+    "theme": "酸化ガリウム結晶の低コスト化と量産課題",
+    "coreVerb": "produce",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The method produced a crystal.",
+        "translation": "その手法は結晶を作製した。"
+      },
+      "phase2": {
+        "sentence": "The method produced a 3.5-inch gallium oxide crystal.",
+        "translation": "その手法は3.5インチの酸化ガリウム結晶を作製した。",
+        "addedChunks": "3.5-inchとgallium oxideを加えて寸法と材料を具体化"
+      },
+      "phase3": {
+        "sentence": "The method produced the crystal without using noble metals.",
+        "translation": "その手法は貴金属を使わずに結晶を作製した。",
+        "connector": "without"
+      },
+      "phase4": {
+        "sentence": "The new method may rely less on costly iridium than conventional methods do.",
+        "translation": "新しい手法は従来法より高価なイリジウムへの依存を減らせる可能性がある。",
+        "comparison": "less ... than"
+      },
+      "phase5": {
+        "sentence": "A noble-metal-free method produced a 3.5-inch gallium oxide crystal, which could reduce reliance on costly iridium. Scaling the process for mass production remains a separate challenge.",
+        "translation": "貴金属を使わない手法によって3.5インチの酸化ガリウム結晶が作製され、高価なイリジウムへの依存を減らせる可能性がある。その工程を量産規模へ拡大することは、別の課題として残る。",
+        "relativizer": "which"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A noble-metal-free method produced",
+          "function": "行動",
+          "translation": "貴金属を使わない手法が作製した"
+        },
+        {
+          "text": "a 3.5-inch gallium oxide crystal,",
+          "function": "対象",
+          "translation": "3.5インチの酸化ガリウム結晶を"
+        },
+        {
+          "text": "which could reduce reliance",
+          "function": "結果",
+          "translation": "それによって依存を減らせる可能性がある"
+        },
+        {
+          "text": "on costly iridium.",
+          "function": "対象",
+          "translation": "高価なイリジウムへの"
+        },
+        {
+          "text": "Scaling the process for mass production",
+          "function": "行動",
+          "translation": "その工程を量産規模へ拡大することは"
+        },
+        {
+          "text": "remains a separate challenge.",
+          "function": "状態",
+          "translation": "別の課題として残る"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "複合形容詞",
+          "name": "noble-metal-free",
+          "where": "A noble-metal-free method",
+          "explanation": "貴金属を使わないという性質を一語相当でmethodに付けます。",
+          "rule": "名詞を前から修飾する複合語はハイフンで結ぶことがある。"
+        },
+        {
+          "category": "複合形容詞",
+          "name": "3.5-inch",
+          "where": "a 3.5-inch ... crystal",
+          "explanation": "寸法を名詞の前に置くためinchを単数形にします。",
+          "rule": "数値-単位を形容詞として使うとき単位は通常単数形。"
+        },
+        {
+          "category": "語法",
+          "name": "produce + 目的語",
+          "where": "produced a ... crystal",
+          "explanation": "手法によって結晶を作製したことを表します。",
+          "rule": "produce Aで「Aを生産・作製する」。"
+        },
+        {
+          "category": "関係節",
+          "name": "非制限用法which",
+          "where": "which could reduce reliance",
+          "explanation": "前の成果全体に、期待される効果を補足します。",
+          "rule": "カンマ + whichで先行内容への補足を加える。"
+        },
+        {
+          "category": "助動詞",
+          "name": "couldによる可能性",
+          "where": "could reduce",
+          "explanation": "費用低減効果を確定せず、可能性として示します。",
+          "rule": "could + 動詞原形で控えめな可能性を表す。"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞主語",
+          "where": "Scaling the process",
+          "explanation": "工程を拡大する行為全体を文の主語にします。",
+          "rule": "動名詞句は名詞相当として主語になれる。"
+        },
+        {
+          "category": "語法",
+          "name": "remain + 名詞補語",
+          "where": "remains a separate challenge",
+          "explanation": "量産化が引き続き別課題であることを表します。",
+          "rule": "remain + 補語で状態の継続を表す。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "a 3.5-inches crystal",
+          "correct": "a 3.5-inch crystal",
+          "why": "名詞を前から修飾する単位表現ではinchを単数形にします。"
+        },
+        {
+          "wrong": "which could reduces reliance",
+          "correct": "which could reduce reliance",
+          "why": "助動詞couldの後ろは動詞原形reduceです。"
+        },
+        {
+          "wrong": "Scaling the process remain a challenge.",
+          "correct": "Scaling the process remains a challenge.",
+          "why": "動名詞句主語は単数扱いなのでremainsにします。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Researchers grew a 3.5-inch gallium oxide crystal without noble-metal components.",
+          "translation": "研究者らは貴金属部材を使わず、3.5インチの酸化ガリウム結晶を育成した。"
+        },
+        {
+          "text": "The method may lower dependence on iridium, but commercial scaling still requires further work.",
+          "translation": "この手法はイリジウムへの依存を減らせる可能性があるが、商用規模への拡大にはなお追加の取り組みが必要だ。"
+        },
+        {
+          "text": "A laboratory-scale achievement does not by itself establish mass-production readiness.",
+          "translation": "研究規模での成果だけでは、量産準備が整ったことにはならない。"
+        }
+      ],
+      "parseTree": "S(A noble-metal-free method) V(produced) O(a 3.5-inch gallium oxide crystal), RelativeClause(which Modal(could) V(reduce) O(reliance on costly iridium)). GerundSubject(Scaling the process for mass production) V(remains) C(a separate challenge)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The method avoids noble metals.",
+          "expanded": "Because the method avoids noble-metal crucibles and components, it may reduce reliance on costly iridium.",
+          "nuance": "部材の変更から依存低減への可能性を示す。"
+        },
+        {
+          "original": "The crystal reached 3.5 inches.",
+          "expanded": "Automatic diameter control helped the growing crystal reach a practical 3.5-inch diameter.",
+          "nuance": "発表で示された径制御との関係を説明する。"
+        },
+        {
+          "original": "Scaling remains a challenge.",
+          "expanded": "A successful crystal does not guarantee mass production, so process stability and throughput still need to be demonstrated.",
+          "nuance": "研究成果と量産準備を分けて考える。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A 3.5-inch gallium oxide crystal was produced without noble-metal components.",
+          "translation": "3.5インチの酸化ガリウム結晶が貴金属部材を使わずに作製された。",
+          "note": "作製された結晶へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Avoiding noble-metal components, the method could reduce reliance on iridium.",
+          "translation": "貴金属部材を避けることで、この手法はイリジウムへの依存を減らせる可能性がある。",
+          "note": "方法上の特徴を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The reduction of iridium use could lower a major material-cost barrier.",
+          "translation": "イリジウム使用量の削減は、主要な材料費障壁を下げる可能性がある。",
+          "note": "reduceをreductionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "scale",
+            "alternatives": [
+              "expand",
+              "increase throughput",
+              "commercialize"
+            ],
+            "nuance": "expandは規模拡大、increase throughputは処理量増加、commercializeは事業化全体を指す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "成果と留保",
+            "sentence": "The crystal was produced successfully, but mass-production readiness has not yet been established.",
+            "translation": "結晶の作製には成功したが、量産準備が整ったとはまだ確立されていない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "The new method may require less iridium than conventional crystal-growth methods.",
+            "translation": "新手法は従来の結晶育成法より少ないイリジウムで済む可能性がある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the process scales reliably, it could lower a barrier to wider gallium oxide use.",
+            "translation": "工程を安定して拡大できれば、酸化ガリウムの普及を妨げる障壁を下げられる可能性がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What has been demonstrated is crystal growth without noble-metal components, not full commercial production.",
+            "translation": "実証されたのは貴金属部材を使わない結晶育成であり、完全な商用量産ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "The crystal is larger; mass production is next.",
+            "translation": "結晶は大型化した。次は量産である。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "公表済みの3.5インチ作製と貴金属不使用を述べ、couldと独立文でコスト効果および量産化を未確定事項として分離した。"
+    }
+  }
+]
