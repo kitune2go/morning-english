@@ -53,5 +53,12 @@
     "description": "発生源を特定しにくい社会運動と、変更履歴を残すGitHub上の創作を対照し、影響力・責任・修正手続きの所在を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260811/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260812",
+    "title": "証明を置く場所",
+    "description": "過去の肩書きと現在形、達成事実と評価水準、停止条件のない努力、筋力トレーニングの回復を通して、証明をどこへ置くかを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260812/manifest.json",
+    "mode": "essay-translation"
   }
 ]
