@@ -1,0 +1,248 @@
+[
+  {
+    "id": "DE-20260813-001",
+    "sourceTitle": "並列の中心には一人いる",
+    "workId": "daily-essay-20260813",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "増えた窓",
+    "jp": "漫画を進め、筋力トレーニングのアプリを組み、三次元制作の自動化を探る。仕事は一つずつ増えたのではなく、それぞれが別の窓を開いた。窓の向こうには会話、コード、画像、設計書があり、どれも途中の続きを要求する。並列化は手を増やすが、現在地まで複製してはくれない。作業が増えたとき最初に失われるのは時間ではなく、自分が何を待たせているかという地図なのだ。",
+    "translationLiteral": "Advancing a comic, building a strength-training app, and exploring automation for three-dimensional production: the work did not simply increase one item at a time; each task opened a separate window. Beyond the windows were conversations, code, images, and design documents, all demanding that their unfinished work be continued. Parallelization increases the number of hands, but it does not duplicate awareness of the current position. When work increases, the first thing lost is not time but the map of what one has left waiting.",
+    "translationNatural": "Comics, a strength-training app, and automation for three-dimensional production each opened a different window. Beyond those windows were conversations, code, images, and design documents, all asking to be continued. Parallel work can multiply hands, but it does not duplicate awareness of the current state. When projects proliferate, the first thing to disappear is often not time itself, but the map of what has been left waiting.",
+    "imageUrl": "",
+    "imageCaption": "漫画、アプリ、三次元制作へ開いた複数の窓と、その中央で薄くなる現在地の地図。",
+    "imagePrompt": "A desk surrounded by separate windows for comics, a training app, and three-dimensional automation, with a fading project map at the center, restrained editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Comics, a strength-training app, and automation for three-dimensional production each opened a different window.",
+        "ja": "漫画、筋力トレーニングのアプリ、三次元制作の自動化は、それぞれ別の窓を開いた"
+      },
+      {
+        "en": "Beyond those windows were conversations, code, images, and design documents,",
+        "ja": "窓の向こうには会話、コード、画像、設計書があり"
+      },
+      {
+        "en": "all asking to be continued.",
+        "ja": "どれも続きを求めていた"
+      },
+      {
+        "en": "Parallel work can multiply hands, but it does not duplicate awareness of the current state.",
+        "ja": "並列作業は手を増やせるが、現在地の認識までは複製しない"
+      },
+      {
+        "en": "When projects proliferate, the first thing to disappear is often not time itself,",
+        "ja": "プロジェクトが増殖すると、最初に消えるのは時間そのものではなく"
+      },
+      {
+        "en": "but the map of what has been left waiting.",
+        "ja": "何を待たせているかを示す地図である"
+      }
+    ],
+    "grammar": [
+      "A, B, and C each opened ... は三つの主語要素に each を対応させ、個別に窓が開くことを示す。",
+      "Beyond those windows were ... は場所句を先頭に置いた倒置で、窓の向こう側の内容を導入する。",
+      "all asking ... は分詞句で conversations, code, images, and design documents の状態を補足する。",
+      "ask to be continued は受動不定詞を用い、作業が誰かによる継続を待つことを表す。",
+      "can A, but does not B は手の増加と現在地認識の非複製を対照する。",
+      "When projects proliferate は作業が増えた状況を示す時・条件節である。",
+      "not A, but B は失われるものを時間から地図へ言い換える。"
+    ],
+    "translationNote": "literal は「窓を開く」「現在地」「待たせている地図」という比喩を日本語の順序で追った。natural では冒頭の三つの作業を主語へまとめ、proliferate で単なる件数増加よりも枝分かれして増える感覚を表した。",
+    "readingPoint": "導入では、複数の制作が同時に開いたことで、時間より先に現在地の地図が失われるという問題を置く。並列化を速度の話だけにせず、状態認識の負担として捉える。",
+    "keywords": [
+      "parallel work",
+      "projects",
+      "current state",
+      "attention",
+      "map"
+    ]
+  },
+  {
+    "id": "DE-20260813-002",
+    "sourceTitle": "並列の中心には一人いる",
+    "workId": "daily-essay-20260813",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "引き継げる現在",
+    "jp": "そこで必要になったのは、完成品ではなく途中を保存する場所だった。リポジトリへコードを置くだけでは、なぜその形になり、何を試し、何を退けたかまでは伝わらない。現在地、確認点、採用しなかった知識を文書にすれば、別の道具や別の会話も同じ地点から始められる。進捗とは、作業量の総計ではない。次に手を取る者が、同じ失敗を繰り返さず一歩目を選べる状態のことである。",
+    "translationLiteral": "What became necessary was a place to preserve not the finished product but the middle of the work. Merely placing code in a repository does not communicate why it took that form, what was tried, or what was rejected. If the current position, checkpoints, and knowledge not adopted are documented, another tool or another conversation can begin from the same point. Progress is not the total amount of work. It is a state in which the next one to take up the task can choose a first step without repeating the same failure.",
+    "translationNatural": "What needed saving was not only the finished product, but the work in progress. A repository can hold code without explaining why it took its present form, what was tested, or what was rejected. Documents for the current status, checkpoints, and rejected knowledge allow another tool or conversation to resume from the same point. Progress is not the sum of completed labor. It is a state in which the next worker can choose a first step without repeating the same failure.",
+    "imageUrl": "",
+    "imageCaption": "現在地、確認点、退けた知識が記された地図を、次の作業者へ手渡す場面。",
+    "imagePrompt": "A project map showing current status, checkpoints, and rejected paths being handed to the next worker, precise but warm editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "What needed saving was not only the finished product, but the work in progress.",
+        "ja": "保存すべきだったのは完成品だけでなく、進行中の作業だった"
+      },
+      {
+        "en": "A repository can hold code",
+        "ja": "リポジトリはコードを保持できるが"
+      },
+      {
+        "en": "without explaining why it took its present form, what was tested, or what was rejected.",
+        "ja": "なぜ現在の形になり、何が試され、何が退けられたかまでは説明しない"
+      },
+      {
+        "en": "Documents for the current status, checkpoints, and rejected knowledge allow another tool or conversation to resume from the same point.",
+        "ja": "現在地、確認点、退けた知識の文書は、別の道具や会話が同じ地点から再開することを可能にする"
+      },
+      {
+        "en": "Progress is not the sum of completed labor.",
+        "ja": "進捗は完了した作業量の総計ではない"
+      },
+      {
+        "en": "It is a state in which the next worker can choose a first step without repeating the same failure.",
+        "ja": "次の作業者が同じ失敗を繰り返さず、最初の一歩を選べる状態である"
+      }
+    ],
+    "grammar": [
+      "What needed saving は what 節を主語にし、「保存する必要があったもの」を示す。",
+      "not only A, but B は完成品に加えて作業途中も保存対象だと焦点を広げる。",
+      "without explaining はコードを保持できても文脈までは説明しないという不足を表す。",
+      "why ..., what ..., or what ... は理由・試行・棄却を三つの間接疑問として並列する。",
+      "allow A to do は文書が別の道具や会話の再開を可能にする構文である。",
+      "a state in which ... は前置詞＋関係代名詞で、progress の具体的な状態を説明する。",
+      "without repeating は次の一歩を選ぶ際に避けられる反復を示す。"
+    ],
+    "translationNote": "literal は「途中を保存する場所」「次に手を取る者」を保った。natural では the work in progress と the next worker に置き換え、CURRENT STATUS、CHECKPOINTS、REJECTED KNOWLEDGE に相当する三項目を一般読者にも通じる形で並べた。",
+    "readingPoint": "第二章では、並列作業の混乱に対する最初の答えを状態文書に求める。進捗を作業量ではなく、別の作業者が失敗を反復せず再開できる状態として定義し直す。",
+    "keywords": [
+      "repository",
+      "handoff",
+      "current status",
+      "checkpoints",
+      "rejected knowledge"
+    ]
+  },
+  {
+    "id": "DE-20260813-003",
+    "sourceTitle": "並列の中心には一人いる",
+    "workId": "daily-essay-20260813",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "仕事を小包にする",
+    "jp": "道具ごとの得意を分けると、並列はようやく形を持つ。対話で問いをほどく役、画像を作る役、実装して検査する役が、同じ会話へ押し込まれずに済むからだ。その間を運ぶのが、変更の目的と差分を束ねたプルリクエストである。仕事を人やAIへ丸ごと渡すのではなく、確認できる小包にする。指揮するとは全部を自分で行うことではない。小包の宛先と受取条件を決めることである。",
+    "translationLiteral": "When the strengths of each tool are separated, parallel work finally takes shape. This is because the role that untangles questions through dialogue, the role that creates images, and the role that implements and tests do not have to be pushed into the same conversation. What carries work between them is a pull request that bundles the purpose of a change with its diff. Instead of handing all the work to a person or an AI, it is made into a parcel that can be checked. To direct does not mean doing everything oneself. It means deciding the parcel's destination and its conditions of receipt.",
+    "translationNatural": "Parallelism becomes workable only when each tool is given the kind of task it handles well. One tool can clarify the question, another can make images, and another can implement and test without forcing every activity into a single conversation. A pull request carries the purpose of a change and its diff from one tool to the next. Instead of handing an entire project to a person or an AI, the work is packed into a reviewable parcel. Coordination means deciding where that parcel goes and what counts as acceptance.",
+    "imageUrl": "",
+    "imageCaption": "問い、画像、実装を別々に担う道具の間を、確認可能な小包が移動する場面。",
+    "imagePrompt": "Different tools handling questions, images, and implementation while a reviewable parcel moves between them, clean conceptual editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Parallelism becomes workable only when each tool is given the kind of task it handles well.",
+        "ja": "各道具に得意な種類の仕事が与えられて初めて、並列化は機能する"
+      },
+      {
+        "en": "One tool can clarify the question, another can make images,",
+        "ja": "ある道具は問いを明確にし、別の道具は画像を作り"
+      },
+      {
+        "en": "and another can implement and test without forcing every activity into a single conversation.",
+        "ja": "さらに別の道具は、すべてを一つの会話へ押し込まず実装と検査を行える"
+      },
+      {
+        "en": "A pull request carries the purpose of a change and its diff from one tool to the next.",
+        "ja": "プルリクエストは、変更の目的と差分を一つの道具から次へ運ぶ"
+      },
+      {
+        "en": "Instead of handing an entire project to a person or an AI,",
+        "ja": "プロジェクト全体を人やAIへ渡す代わりに"
+      },
+      {
+        "en": "the work is packed into a reviewable parcel.",
+        "ja": "仕事を確認可能な小包へまとめる"
+      },
+      {
+        "en": "Coordination means deciding where that parcel goes and what counts as acceptance.",
+        "ja": "指揮とは、小包の宛先と何を受取条件とするかを決めることである"
+      }
+    ],
+    "grammar": [
+      "becomes workable は抽象的な parallelism が実際に運用可能になる変化を表す。",
+      "only when は並列化が機能する条件を限定する。",
+      "is given は受動態で、各道具に適切な仕事が割り当てられることを示す。",
+      "One ..., another ..., and another ... は三つの役割を対応させる並列構文である。",
+      "from one tool to the next は、目的と差分が役割間を移動する経路を示す。",
+      "Instead of -ing は仕事全体を丸投げする方法との対照を導く。",
+      "is packed into は受動態で、仕事が確認可能な単位へ整えられることを表す。",
+      "where ... and what ... は宛先と受取条件を二つの間接疑問として並べる。"
+    ],
+    "translationNote": "literal は「問いをほどく」「小包」「受取条件」という像を保った。natural では道具を主語にした反復構文で役割分担を明確にし、「確認できる」を reviewable、「指揮する」を Coordination として個人の支配より調整機能を強調した。",
+    "readingPoint": "転換点では、単なる状態共有から実際の分業へ進む。対話・画像・実装を別々の役割にし、プルリクエストを目的と差分を運ぶ小包として描くことで、並列作業へ形を与える。",
+    "keywords": [
+      "division of labor",
+      "pull request",
+      "AI tools",
+      "review",
+      "coordination"
+    ]
+  },
+  {
+    "id": "DE-20260813-004",
+    "sourceTitle": "並列の中心には一人いる",
+    "workId": "daily-essay-20260813",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "一人分の今日",
+    "jp": "それでも、道具が並列に動いても、今日を生きる身体は一つしかない。運動と英語の写経、少しのギターを終えた一方で、三次元制作は停滞した。これは全体の失敗ではなく、選択が記録された一日の形である。「今日何をするか」という一覧は、すべてを進める命令ではない。進めないものを明日に置くための境界線だ。並列の中心に必要なのは、さらに多くの窓ではなく、一人分の今日を閉じられる順序なのである。",
+    "translationLiteral": "Even so, although tools may move in parallel, there is only one body living today. Exercise, English transcription, and a little guitar were completed, while three-dimensional production remained stalled. This is not a failure of the whole but the shape of a day in which choices were recorded. A list called “What to do today” is not an order to advance everything. It is a boundary for placing what will not be advanced with tomorrow. What is needed at the center of parallel work is not still more windows but an order in which one person's day can be closed.",
+    "translationNatural": "Even when tools run in parallel, only one body lives the day. Exercise, English transcription, and a little guitar were completed, while three-dimensional work remained stalled. That is not a failure of the whole system; it is the shape of a day in which choices became visible. A list titled “What should I do today?” is not an order to advance everything. It is a boundary that carries unfinished work safely into tomorrow. What the center of parallel work needs is not another window, but an order in which one person's day can come to a close.",
+    "imageUrl": "",
+    "imageCaption": "複数の作業窓の中央で、一日の一覧を閉じる一人分の机と身体。",
+    "imagePrompt": "A single person calmly closing a daily task list at the center of many active project windows, quiet evening editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Even when tools run in parallel, only one body lives the day.",
+        "ja": "道具が並列に動いても、その日を生きる身体は一つだけである"
+      },
+      {
+        "en": "Exercise, English transcription, and a little guitar were completed, while three-dimensional work remained stalled.",
+        "ja": "運動、英語の写経、少しのギターは完了した一方、三次元制作は停滞した"
+      },
+      {
+        "en": "That is not a failure of the whole system;",
+        "ja": "それは全体の失敗ではなく"
+      },
+      {
+        "en": "it is the shape of a day in which choices became visible.",
+        "ja": "選択が見える形になった一日の姿である"
+      },
+      {
+        "en": "A list titled “What should I do today?” is not an order to advance everything.",
+        "ja": "「今日何をするか」と題した一覧は、すべてを進める命令ではない"
+      },
+      {
+        "en": "It is a boundary that carries unfinished work safely into tomorrow.",
+        "ja": "それは未完の仕事を安全に明日へ運ぶ境界線である"
+      },
+      {
+        "en": "What the center of parallel work needs is not another window, but an order in which one person's day can come to a close.",
+        "ja": "並列作業の中心に必要なのは別の窓ではなく、一人分の今日を閉じられる順序である"
+      }
+    ],
+    "grammar": [
+      "Even when は道具が並列に動く場合でも身体は一つだという譲歩を導く。",
+      "only one body は数を限定し、道具の複数性と身体の単一性を対照する。",
+      "were completed, while ... remained は完了した日課と停滞した制作を while で並べる。",
+      "a day in which ... は前置詞＋関係代名詞で、その一日の具体的な性質を説明する。",
+      "A list titled ... の titled は過去分詞で list の名称を示す。",
+      "a boundary that carries ... は関係節で boundary の機能を説明し、未完作業を明日へ運ぶ比喩を作る。",
+      "What ... needs は what 節を主語にし、並列作業の中心に必要なものを焦点化する。",
+      "not A, but B は必要なものを新しい窓から一日の順序へ移す。"
+    ],
+    "translationNote": "literal は「今日を生きる身体」「明日に置く」「一日を閉じる」を保った。natural では「選択が記録された」を choices became visible として日報的な響きを避け、「明日に置く」を carries unfinished work safely into tomorrow と動きのある比喩へ言い換えた。",
+    "readingPoint": "結末では、AIや道具が並列化されても、人間の注意と身体は一日を一度にしか生きられないと確認する。未完を失敗にせず、明日へ安全に残す順序を作品の静かな答えにする。",
+    "keywords": [
+      "daily planning",
+      "attention",
+      "unfinished work",
+      "priority",
+      "closure"
+    ]
+  }
+]
