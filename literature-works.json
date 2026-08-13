@@ -60,5 +60,12 @@
     "description": "過去の肩書きと現在形、達成事実と評価水準、停止条件のない努力、筋力トレーニングの回復を通して、証明をどこへ置くかを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260812/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260813",
+    "title": "並列の中心には一人いる",
+    "description": "並列化した制作、状態文書による引き継ぎ、AIごとの役割分担、日々の優先順位を通して、多数の作業を一人分の今日へ収める方法を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260813/manifest.json",
+    "mode": "essay-translation"
   }
 ]
