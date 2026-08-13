@@ -1,0 +1,695 @@
+[
+  {
+    "_no": 73,
+    "_generatedAt": "2026-08-14T02:00:00+09:00",
+    "sentence": "When too many projects run in parallel, keep one visible queue and assign each project a single next action. A shorter active list makes daily choices easier.",
+    "phonetic": "ウェン トゥー メニー プロジェクツ ラン イン パラレル、キープ ワン ヴィジブル キュー アンド アサイン イーチ プロジェクト ア シングル ネクスト アクション。ア ショーター アクティヴ リスト メイクス デイリー チョイシズ イージア。",
+    "japaneseTranslation": "あまりに多くのプロジェクトが並行して進むときは、一つの見える一覧にまとめ、各プロジェクトへ次の行動を一つずつ割り当てよう。稼働中の一覧を短くすると、毎日の選択が容易になる。",
+    "theme": "並列作業を見える一覧で整理する",
+    "coreVerb": "assign",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Assign a next action.",
+        "translation": "次の行動を割り当てよう。"
+      },
+      "phase2": {
+        "sentence": "Assign each project a next action.",
+        "translation": "各プロジェクトに次の行動を割り当てよう。",
+        "addedChunks": "each projectを加えて割り当て先を明確化"
+      },
+      "phase3": {
+        "sentence": "When projects run in parallel, assign each one a next action.",
+        "translation": "プロジェクトが並行して進むときは、それぞれに次の行動を割り当てよう。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "A short active list is easier to manage than a crowded one.",
+        "translation": "短い稼働中一覧は、混雑した一覧より管理しやすい。",
+        "comparison": "easier than"
+      },
+      "phase5": {
+        "sentence": "When too many projects run in parallel, keep one visible queue and assign each project a single next action. A shorter active list makes daily choices easier.",
+        "translation": "あまりに多くのプロジェクトが並行して進むときは、一つの見える一覧にまとめ、各プロジェクトへ次の行動を一つずつ割り当てよう。稼働中の一覧を短くすると、毎日の選択が容易になる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When too many projects run in parallel,",
+          "function": "時間",
+          "translation": "あまりに多くのプロジェクトが並行して進むときは"
+        },
+        {
+          "text": "keep one visible queue",
+          "function": "行動",
+          "translation": "一つの見える一覧にまとめ"
+        },
+        {
+          "text": "and assign each project a single next action.",
+          "function": "行動",
+          "translation": "各プロジェクトへ次の行動を一つずつ割り当てよう"
+        },
+        {
+          "text": "A shorter active list",
+          "function": "対象",
+          "translation": "より短い稼働中一覧は"
+        },
+        {
+          "text": "makes daily choices easier.",
+          "function": "結果",
+          "translation": "毎日の選択を容易にする"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "whenによる状況節",
+          "where": "When too many projects run in parallel",
+          "explanation": "作業整理が必要になる状況を先に示します。",
+          "rule": "when + 節で時または状況を表す。"
+        },
+        {
+          "category": "数量",
+          "name": "too many",
+          "where": "too many projects",
+          "explanation": "適切な範囲を超える数を表します。",
+          "rule": "too many + 複数名詞で「多すぎる」。"
+        },
+        {
+          "category": "語法",
+          "name": "run in parallel",
+          "where": "projects run in parallel",
+          "explanation": "複数の作業が同時進行することを表します。",
+          "rule": "run in parallelで「並行して進む」。"
+        },
+        {
+          "category": "命令文",
+          "name": "動詞の並列",
+          "where": "keep ... and assign ...",
+          "explanation": "二つの指示をandで同じ階層に並べます。",
+          "rule": "動詞原形 A and Bで命令を並列する。"
+        },
+        {
+          "category": "授与構文",
+          "name": "assign A B",
+          "where": "assign each project a single next action",
+          "explanation": "各プロジェクトに次の行動を与える構造です。",
+          "rule": "assign + 人・対象 + 物で「対象に物を割り当てる」。"
+        },
+        {
+          "category": "使役",
+          "name": "make O C",
+          "where": "makes daily choices easier",
+          "explanation": "短い一覧が選択を容易にする結果を表します。",
+          "rule": "make + 目的語 + 形容詞で「OをCにする」。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Too many project run in parallel.",
+          "correct": "Too many projects run in parallel.",
+          "why": "manyの後ろは複数名詞projectsを使います。"
+        },
+        {
+          "wrong": "Assign each project with a next action.",
+          "correct": "Assign each project a next action.",
+          "why": "この授与構文ではassignの後ろに対象と割当物を直接置けます。"
+        },
+        {
+          "wrong": "A shorter list make choices easier.",
+          "correct": "A shorter list makes choices easier.",
+          "why": "単数主語A shorter listに合わせてmakesを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Put every project in one queue and define its next step.",
+          "translation": "すべてのプロジェクトを一つの一覧に置き、次の手順を定めよう。"
+        },
+        {
+          "text": "Limit today's active work before adding another task.",
+          "translation": "別の作業を加える前に、今日動かす仕事を絞ろう。"
+        },
+        {
+          "text": "A visible queue turns vague pressure into concrete choices.",
+          "translation": "見える一覧は、漠然とした圧力を具体的な選択へ変える。"
+        }
+      ],
+      "parseTree": "AdvClause(When S(too many projects) V(run) PP(in parallel)), Imperative V(keep) O(one visible queue) and V(assign) IO(each project) DO(a single next action). S(A shorter active list) V(makes) O(daily choices) C(easier)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Keep one queue.",
+          "expanded": "Keep one queue because scattered lists hide conflicts and duplicate work.",
+          "nuance": "一覧を統合する理由を示す。"
+        },
+        {
+          "original": "Choose one next action.",
+          "expanded": "Choose one next action so each project can restart without another planning session.",
+          "nuance": "再開時の判断負荷を減らす因果を示す。"
+        },
+        {
+          "original": "Shorten the active list.",
+          "expanded": "Shorten the active list because fewer simultaneous choices reduce daily switching.",
+          "nuance": "同時進行数と切替負荷の関係を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Each project should be assigned one clear next action.",
+          "translation": "各プロジェクトには明確な次の行動を一つ割り当てるべきだ。",
+          "note": "割り当てられるプロジェクトへ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using one visible queue, you can coordinate several projects more easily.",
+          "translation": "一つの見える一覧を使えば、複数のプロジェクトをより容易に調整できる。",
+          "note": "手段を-ing句で前置する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The assignment of one next action reduces uncertainty.",
+          "translation": "次の行動を一つ割り当てることは不確実性を減らす。",
+          "note": "assignをassignmentに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "queue",
+            "alternatives": [
+              "task list",
+              "work board",
+              "backlog"
+            ],
+            "nuance": "task listは単純な一覧、work boardは状態を見せる盤面、backlogは未処理項目の集合を指す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "状況と指示",
+            "sentence": "When work becomes crowded, reduce the number of active items.",
+            "translation": "仕事が混み合ったら、稼働中の項目数を減らそう。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "One shared queue is easier to scan than several private lists.",
+            "translation": "一つの共有一覧は、複数の個別一覧より確認しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a project has no next action, move it out of today's active set.",
+            "translation": "次の行動がないプロジェクトは、今日の稼働対象から外そう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not the number of projects but the clarity of the next choice.",
+            "translation": "重要なのはプロジェクト数ではなく、次の選択の明確さである。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "One queue, one next action per project.",
+            "translation": "一覧は一つ、次の行動は各案件に一つ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "時間節と二つの命令、独立した結果文で実行手順を整理した。queueは作業管理上の比喩として自然だが、具体的なツール名は限定していない。"
+    }
+  },
+  {
+    "_no": 74,
+    "_generatedAt": "2026-08-14T02:00:00+09:00",
+    "sentence": "Use chat to clarify goals and review outputs, while coding agents handle repository-wide changes that require tests and repeated edits.",
+    "phonetic": "ユーズ チャット トゥ クラリファイ ゴールズ アンド リヴュー アウトプッツ、ワイル コーディング エイジェンツ ハンドル リポジトリワイド チェインジズ ザット リクワイア テスツ アンド リピーティド エディッツ。",
+    "japaneseTranslation": "目標の明確化と成果物のレビューにはチャットを使い、テストや反復修正を要するリポジトリ全体の変更はコーディングエージェントに担当させよう。",
+    "theme": "対話作業と実装作業の分業",
+    "coreVerb": "handle",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Use the right tool.",
+        "translation": "適切な道具を使おう。"
+      },
+      "phase2": {
+        "sentence": "Use chat to clarify goals.",
+        "translation": "目標を明確にするためにチャットを使おう。",
+        "addedChunks": "to clarify goalsを加えて目的を示す"
+      },
+      "phase3": {
+        "sentence": "Use chat to clarify goals, while coding agents implement changes.",
+        "translation": "チャットで目標を明確にする一方、コーディングエージェントに変更を実装させよう。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "Repository-wide implementation needs more repeated checking than a short discussion.",
+        "translation": "リポジトリ全体の実装は、短い対話より反復確認を多く必要とする。",
+        "comparison": "more ... than"
+      },
+      "phase5": {
+        "sentence": "Use chat to clarify goals and review outputs, while coding agents handle repository-wide changes that require tests and repeated edits.",
+        "translation": "目標の明確化と成果物のレビューにはチャットを使い、テストや反復修正を要するリポジトリ全体の変更はコーディングエージェントに担当させよう。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Use chat",
+          "function": "行動",
+          "translation": "チャットを使おう"
+        },
+        {
+          "text": "to clarify goals and review outputs,",
+          "function": "目的",
+          "translation": "目標を明確にし成果物をレビューするために"
+        },
+        {
+          "text": "while coding agents handle",
+          "function": "接続",
+          "translation": "一方でコーディングエージェントには担当させる"
+        },
+        {
+          "text": "repository-wide changes",
+          "function": "対象",
+          "translation": "リポジトリ全体の変更を"
+        },
+        {
+          "text": "that require tests and repeated edits.",
+          "function": "修飾",
+          "translation": "テストや反復修正を要する"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "命令文",
+          "name": "Useで始まる指示",
+          "where": "Use chat",
+          "explanation": "道具の選択を直接提案します。",
+          "rule": "命令文は動詞原形で始める。"
+        },
+        {
+          "category": "不定詞",
+          "name": "目的のto不定詞",
+          "where": "to clarify goals and review outputs",
+          "explanation": "チャットを使う目的を二つ示します。",
+          "rule": "to + 動詞原形で目的を表せる。"
+        },
+        {
+          "category": "並列",
+          "name": "clarify and review",
+          "where": "clarify goals and review outputs",
+          "explanation": "二つの目的動作をandで並べます。",
+          "rule": "同じ文法機能の動詞句をandで並列する。"
+        },
+        {
+          "category": "接続",
+          "name": "whileによる役割対照",
+          "where": "while coding agents handle",
+          "explanation": "チャットとコーディング担当の役割を対照します。",
+          "rule": "while + 節で同時進行または対照を示す。"
+        },
+        {
+          "category": "複合形容詞",
+          "name": "repository-wide",
+          "where": "repository-wide changes",
+          "explanation": "変更がリポジトリ全体に及ぶことを示します。",
+          "rule": "名詞を前から修飾する複合語をハイフンで結ぶ。"
+        },
+        {
+          "category": "関係節",
+          "name": "thatによる制限用法",
+          "where": "changes that require tests",
+          "explanation": "どの変更を指すかを必要条件で限定します。",
+          "rule": "先行詞 + that + 動詞で制限用法の関係節を作る。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Use chat for clarify goals.",
+          "correct": "Use chat to clarify goals.",
+          "why": "目的を表すにはto不定詞を使い、clarifyは原形にします。"
+        },
+        {
+          "wrong": "while coding agents handles changes",
+          "correct": "while coding agents handle changes",
+          "why": "複数主語coding agentsにはhandleを使います。"
+        },
+        {
+          "wrong": "changes that requires tests",
+          "correct": "changes that require tests",
+          "why": "関係詞thatの先行詞changesは複数なのでrequireを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Discuss the goal in chat, then send implementation work to a coding agent.",
+          "translation": "チャットで目標を話し合い、その後に実装作業をコーディングエージェントへ渡そう。"
+        },
+        {
+          "text": "Keep framing and review conversational; automate repeated repository edits.",
+          "translation": "構想とレビューは対話的に行い、反復するリポジトリ編集は自動化しよう。"
+        },
+        {
+          "text": "Choose the workspace according to the kind of output you need.",
+          "translation": "必要な成果物の種類に応じて作業場所を選ぼう。"
+        }
+      ],
+      "parseTree": "Imperative V(Use) O(chat) Inf(to clarify goals and review outputs), while S(coding agents) V(handle) O(repository-wide changes [RelativeClause(that require tests and repeated edits)])."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Use chat for goals.",
+          "expanded": "Use chat for goals because conversation makes assumptions and trade-offs easier to surface.",
+          "nuance": "対話が構想整理に向く理由を示す。"
+        },
+        {
+          "original": "Use agents for implementation.",
+          "expanded": "Use coding agents for implementation because they can inspect files, edit repeatedly, and run checks in sequence.",
+          "nuance": "実装担当へ渡す理由を工程で示す。"
+        },
+        {
+          "original": "Review the output.",
+          "expanded": "Review the output before merging so a successful tool run is not mistaken for a correct result.",
+          "nuance": "実行成功と成果品質を分ける。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Repository-wide changes should be handled by a coding agent when repeated edits and tests are required.",
+          "translation": "反復修正とテストが必要な場合、リポジトリ全体の変更はコーディングエージェントが担当すべきだ。",
+          "note": "担当される変更へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Clarifying the goal in chat, you can hand a cleaner task to the coding agent.",
+          "translation": "チャットで目標を明確にすれば、より整理された作業をコーディングエージェントへ渡せる。",
+          "note": "先行する整理を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "A clear division of work improves both implementation and review.",
+          "translation": "明確な分業は実装とレビューの両方を改善する。",
+          "note": "divideをdivisionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "handle",
+            "alternatives": [
+              "manage",
+              "implement",
+              "take care of"
+            ],
+            "nuance": "manageは管理全般、implementは実装、take care ofは口語的な担当を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "役割対照",
+            "sentence": "Chat frames the problem, while coding agents execute the file-level work.",
+            "translation": "チャットは問題を整理し、コーディングエージェントはファイル単位の作業を実行する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A repository-wide change needs more verification than a quick explanation.",
+            "translation": "リポジトリ全体の変更は、短い説明より多くの検証を必要とする。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the task requires repeated edits and tests, move it to a coding workflow.",
+            "translation": "反復修正とテストが必要なら、コーディング用の工程へ移そう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What determines the workspace is the output, not the popularity of the tool.",
+            "translation": "作業場所を決めるのは成果物であり、道具の人気ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Frame in chat; implement in code.",
+            "translation": "チャットで構想し、コードで実装する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "whileで二つの作業空間を役割別に対照した。特定製品の能力を断定せず、作業特性に基づく運用原則として表現している。"
+    }
+  },
+  {
+    "_no": 75,
+    "_generatedAt": "2026-08-14T02:00:00+09:00",
+    "sentence": "Long-running stories accumulate expectations as they unfold, so delayed resolutions make each new chapter carry earlier promises as well as its own plot.",
+    "phonetic": "ロングラニング ストーリーズ アキュームレイト エクスペクテイションズ アズ ゼイ アンフォールド、ソウ ディレイド レゾリューションズ メイク イーチ ニュー チャプター キャリー アーリア プロミシズ アズ ウェル アズ イツ オウン プロット。",
+    "japaneseTranslation": "長期にわたる物語は展開するにつれて期待を蓄積するため、解決が遅れると、新しい各章は自身の筋書きだけでなく以前からの約束も背負うことになる。",
+    "theme": "長期作品に蓄積する期待",
+    "coreVerb": "accumulate",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Stories accumulate expectations.",
+        "translation": "物語は期待を蓄積する。"
+      },
+      "phase2": {
+        "sentence": "Long-running stories accumulate expectations over time.",
+        "translation": "長期にわたる物語は時間とともに期待を蓄積する。",
+        "addedChunks": "Long-runningとover timeを加えて期間を具体化"
+      },
+      "phase3": {
+        "sentence": "Stories accumulate expectations as they unfold.",
+        "translation": "物語は展開するにつれて期待を蓄積する。",
+        "connector": "as"
+      },
+      "phase4": {
+        "sentence": "A delayed resolution carries more accumulated pressure than an early one.",
+        "translation": "遅れた解決は、早い解決より多くの蓄積した圧力を背負う。",
+        "comparison": "more ... than"
+      },
+      "phase5": {
+        "sentence": "Long-running stories accumulate expectations as they unfold, so delayed resolutions make each new chapter carry earlier promises as well as its own plot.",
+        "translation": "長期にわたる物語は展開するにつれて期待を蓄積するため、解決が遅れると、新しい各章は自身の筋書きだけでなく以前からの約束も背負うことになる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Long-running stories accumulate expectations",
+          "function": "行動",
+          "translation": "長期にわたる物語は期待を蓄積する"
+        },
+        {
+          "text": "as they unfold,",
+          "function": "時間",
+          "translation": "展開するにつれて"
+        },
+        {
+          "text": "so delayed resolutions make",
+          "function": "結果",
+          "translation": "そのため遅れた解決は"
+        },
+        {
+          "text": "each new chapter carry earlier promises",
+          "function": "内容",
+          "translation": "新しい各章に以前からの約束を背負わせる"
+        },
+        {
+          "text": "as well as its own plot.",
+          "function": "接続",
+          "translation": "自身の筋書きだけでなく"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "複合形容詞",
+          "name": "long-running",
+          "where": "Long-running stories",
+          "explanation": "長期間続くという性質をstoriesに付けます。",
+          "rule": "複合形容詞を名詞の前に置くときハイフンで結ぶことがある。"
+        },
+        {
+          "category": "語法",
+          "name": "accumulate + 目的語",
+          "where": "accumulate expectations",
+          "explanation": "期待が時間とともに積み上がることを表します。",
+          "rule": "accumulate Aで「Aを蓄積する」。"
+        },
+        {
+          "category": "接続",
+          "name": "asによる進行",
+          "where": "as they unfold",
+          "explanation": "物語の展開と期待の蓄積が並行して進むことを示します。",
+          "rule": "as + 節で「〜するにつれて」。"
+        },
+        {
+          "category": "接続",
+          "name": "soによる結果",
+          "where": "so delayed resolutions",
+          "explanation": "前半の蓄積から後半の負担へつなぎます。",
+          "rule": "独立節, so + 独立節で結果を示す。"
+        },
+        {
+          "category": "使役",
+          "name": "make O do",
+          "where": "make each new chapter carry",
+          "explanation": "遅れた解決が各章へ負担を負わせる構造です。",
+          "rule": "make + 目的語 + 動詞原形で「Oに〜させる」。"
+        },
+        {
+          "category": "追加",
+          "name": "as well as",
+          "where": "as well as its own plot",
+          "explanation": "以前からの約束に加えて自身の筋書きも含むことを示します。",
+          "rule": "A as well as Bで「BだけでなくAも」。"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Stories accumulates expectations.",
+          "correct": "Stories accumulate expectations.",
+          "why": "複数主語Storiesにはaccumulateを使います。"
+        },
+        {
+          "wrong": "as they unfolds",
+          "correct": "as they unfold",
+          "why": "主語theyに合わせて動詞はunfoldにします。"
+        },
+        {
+          "wrong": "make each chapter carries promises",
+          "correct": "make each chapter carry promises",
+          "why": "使役makeの目的語の後ろは動詞原形carryです。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Every unresolved promise adds weight to the chapters that follow.",
+          "translation": "未解決の約束はどれも、後に続く章へ重みを加える。"
+        },
+        {
+          "text": "A long series must satisfy both its current plot and years of accumulated expectation.",
+          "translation": "長期シリーズは、現在の筋書きと長年蓄積した期待の両方を満たさなければならない。"
+        },
+        {
+          "text": "Delay can turn anticipation into pressure on future installments.",
+          "translation": "遅延は期待感を、将来の各回にかかる圧力へ変えることがある。"
+        }
+      ],
+      "parseTree": "S(Long-running stories) V(accumulate) O(expectations) AdvClause(as they unfold), so S(delayed resolutions) V(make) O(each new chapter) C(carry earlier promises as well as its own plot)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Expectations accumulate.",
+          "expanded": "Expectations accumulate because each new mystery invites predictions about a later resolution.",
+          "nuance": "謎の提示から期待形成への因果を示す。"
+        },
+        {
+          "original": "Resolutions are delayed.",
+          "expanded": "When resolutions are delayed, readers carry earlier questions into every new chapter.",
+          "nuance": "未解決要素が次章へ持ち越される過程を示す。"
+        },
+        {
+          "original": "New chapters carry pressure.",
+          "expanded": "New chapters carry more pressure because they must advance the present plot and address older promises.",
+          "nuance": "現在と過去の二重負担を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Expectations are accumulated by years of unresolved promises.",
+          "translation": "期待は、何年にもわたる未解決の約束によって蓄積される。",
+          "note": "蓄積される期待へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Carrying earlier promises, each new chapter must also advance its own plot.",
+          "translation": "以前からの約束を背負いながら、新しい各章は自身の筋書きも進めなければならない。",
+          "note": "持ち越された負担を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The accumulation of expectations increases the burden on later chapters.",
+          "translation": "期待の蓄積は、後の章にかかる負担を増やす。",
+          "note": "accumulateをaccumulationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "unfold",
+            "alternatives": [
+              "develop",
+              "progress",
+              "play out"
+            ],
+            "nuance": "developは発展、progressは進行、play outは出来事が最後まで展開する様子を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "蓄積と結果",
+            "sentence": "Promises accumulate over time, so later chapters face a heavier burden.",
+            "translation": "約束は時間とともに蓄積するため、後の章ほど重い負担に直面する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A late resolution carries more expectation than the same answer delivered early.",
+            "translation": "遅い解決は、同じ答えを早く示す場合より多くの期待を背負う。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a story postpones too many answers, anticipation may become frustration.",
+            "translation": "物語があまりに多くの答えを先送りすると、期待感が不満へ変わる場合がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What later chapters inherit is not only the plot but also the audience's accumulated expectations.",
+            "translation": "後の章が受け継ぐのは筋書きだけでなく、観客が蓄積してきた期待でもある。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Long stories compound expectations.",
+            "translation": "長い物語は期待を複利的に増やす。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "as節とso節、使役構文を一文に統合した。期待を金融用語そのものとして断定せず、時間とともに蓄積する負担の比喩として扱っている。"
+    }
+  }
+]
