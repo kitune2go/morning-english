@@ -67,5 +67,12 @@
     "description": "並列化した制作、状態文書による引き継ぎ、AIごとの役割分担、日々の優先順位を通して、多数の作業を一人分の今日へ収める方法を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260813/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260814",
+    "title": "文は口の中で並び直される",
+    "description": "難文への戸惑いから、時間表現ごとのチャンク練習、過去完了の反復、内言語の音声化へ進み、英文が声の中で組み直される過程を描く日次エッセイ。",
+    "manifest": "literature/daily-essay-20260814/manifest.json",
+    "mode": "essay-translation"
   }
 ]
