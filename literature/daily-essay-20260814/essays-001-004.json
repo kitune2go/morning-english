@@ -1,0 +1,248 @@
+[
+  {
+    "id": "DE-20260814-001",
+    "sourceTitle": "文は口の中で並び直される",
+    "workId": "daily-essay-20260814",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "地獄になった一文",
+    "jp": "難しい英文を前にすると、知らない単語だけが壁になるのではない。主語がどこで、時間がどこに置かれ、どの節が何を説明しているのか、その並び全体が見えなくなる。単語を一つずつ日本語へ替えても、文の骨組みは戻ってこない。理解できないという言葉が、ついには「地獄」という比喩に変わったのは、意味より先に順序を見失っていたからだった。",
+    "translationLiteral": "When facing a difficult English sentence, unfamiliar words are not the only wall. The entire arrangement becomes invisible: where the subject is, where time is placed, and which clause explains what. Even if each word is replaced with Japanese one by one, the skeleton of the sentence does not return. The word “incomprehensible” finally changed into the metaphor of “hell” because the order had been lost before the meaning.",
+    "translationNatural": "Unfamiliar words are not the only barrier to understanding a difficult English sentence. The whole arrangement can disappear: where the subject begins, where time is placed, and which clause explains what. Replacing each word with Japanese does not restore the sentence's frame. The difficulty turned into the metaphor of “hell” because the order had been lost before the meaning could settle.",
+    "imageUrl": "",
+    "imageCaption": "単語は読めても骨組みの見えない英文が、迷路のように広がる場面。",
+    "imagePrompt": "An English sentence whose individual words remain visible while its grammatical frame dissolves into a maze, restrained literary editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Unfamiliar words are not the only barrier to understanding a difficult English sentence.",
+        "ja": "難しい英文を理解する障害は、知らない単語だけではない"
+      },
+      {
+        "en": "The whole arrangement can disappear:",
+        "ja": "並び全体が見えなくなることがある"
+      },
+      {
+        "en": "where the subject begins, where time is placed, and which clause explains what.",
+        "ja": "主語がどこから始まり、時間がどこに置かれ、どの節が何を説明するかという並びである"
+      },
+      {
+        "en": "Replacing each word with Japanese does not restore the sentence's frame.",
+        "ja": "各単語を日本語へ替えても、文の骨組みは戻らない"
+      },
+      {
+        "en": "The difficulty turned into the metaphor of “hell”",
+        "ja": "その難しさは「地獄」という比喩に変わった"
+      },
+      {
+        "en": "because the order had been lost before the meaning could settle.",
+        "ja": "意味が定まる前に語順を見失っていたからである"
+      }
+    ],
+    "grammar": [
+      "not the only barrier to understanding は「理解への唯一の障害ではない」と限定を外し、to の後に動名詞を置く。",
+      "The whole arrangement can disappear は助動詞 can で、語順全体が見えなくなる可能性を表す。",
+      "where ..., where ..., and which ... は主語・時間・節の役割を三つの間接疑問として並列する。",
+      "Replacing each word ... は動名詞句を主語にし、逐語置換という方法を示す。",
+      "does not restore は逐語訳だけでは骨組みを復元できないことを現在形で述べる。",
+      "turned into は difficulty が metaphor へ変わる比喩的な変化を表す。",
+      "because ... before ... は原因節の中に時間関係を置き、意味より先に順序を失ったことを示す。"
+    ],
+    "translationNote": "literal は「壁」「骨組み」「地獄」という三つの像を日本語の順序で追った。natural では「その並び全体」を The whole arrangement と先に提示し、before the meaning could settle で、意味理解より語順把握が先に崩れた関係を自然にした。",
+    "readingPoint": "導入では、難しさを語彙不足だけで説明せず、主語・時間・修飾関係を含む並び全体の消失として描く。「地獄」という発言を誇張せず、次章で文を小さく分ける必要へつなげる。",
+    "keywords": [
+      "word order",
+      "sentence structure",
+      "clause",
+      "difficulty",
+      "metaphor"
+    ]
+  },
+  {
+    "id": "DE-20260814-002",
+    "sourceTitle": "文は口の中で並び直される",
+    "workId": "daily-essay-20260814",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "時間を先に置く",
+    "jp": "そこで文は、小さな塊へ戻された。「朝に」「仕事のあとで」「昨夜」「正午までに」「週末には」。時間の足場を一つ置き、その後ろへ「コーヒーを飲む」「家へ帰る」「映画を見た」「もう疲れていた」「少し長く眠る」をつなぐ。長い説明を覚えるのではなく、時間、主語、動作の順に机へ並べる。チャンクは訳の単位である前に、口が次の言葉を探すための足場になった。",
+    "translationLiteral": "So the sentence was returned to small chunks: “in the morning,” “after work,” “last night,” “by noon,” and “on weekends.” One foothold of time was placed, and behind it were connected “drink coffee,” “go home,” “watched a movie,” “was already tired,” and “sleep a little longer.” Rather than memorizing a long explanation, time, subject, and action were arranged on the desk in that order. Before being a unit of translation, a chunk became a foothold from which the mouth could search for the next words.",
+    "translationNatural": "So the sentence was returned to smaller blocks: “in the morning,” “after work,” “last night,” “by noon,” and “on weekends.” One time phrase was placed first, followed by a subject and an action—drinking coffee, going home, watching a movie, already being tired, or sleeping a little longer. The exercise was not to memorize a long explanation, but to arrange time, subject, and action in sequence. A chunk became more than a unit of translation; it became a foothold from which the mouth could find the next words.",
+    "imageUrl": "",
+    "imageCaption": "時間、主語、動作の小さな札を机上で順番に並べ、口へ渡していく場面。",
+    "imagePrompt": "Small cards for time, subject, and action being arranged in sequence on a desk and passed toward a speaking mouth, calm educational editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "So the sentence was returned to smaller blocks:",
+        "ja": "そこで文は、より小さな塊へ戻された"
+      },
+      {
+        "en": "“in the morning,” “after work,” “last night,” “by noon,” and “on weekends.”",
+        "ja": "「朝に」「仕事のあとで」「昨夜」「正午までに」「週末には」という塊である"
+      },
+      {
+        "en": "One time phrase was placed first, followed by a subject and an action—drinking coffee, going home, watching a movie, already being tired, or sleeping a little longer.",
+        "ja": "時間表現を先に置き、その後へ主語と、コーヒーを飲む・帰宅する・映画を見る・疲れている・少し長く眠るという動作や状態を続けた"
+      },
+      {
+        "en": "The exercise was not to memorize a long explanation,",
+        "ja": "練習の目的は長い説明を覚えることではなく"
+      },
+      {
+        "en": "but to arrange time, subject, and action in sequence.",
+        "ja": "時間、主語、動作を順番に並べることだった"
+      },
+      {
+        "en": "A chunk became more than a unit of translation;",
+        "ja": "チャンクは翻訳単位以上のものになり"
+      },
+      {
+        "en": "it became a foothold from which the mouth could find the next words.",
+        "ja": "口が次の言葉を見つけるための足場になった"
+      }
+    ],
+    "grammar": [
+      "was returned to は受動態で、複雑な文を小さな単位へ戻す操作を表す。",
+      "A, B, C, D, and E は五つの時間表現を同じ文法的位置に並べる。",
+      "was placed first, followed by ... は受動態と過去分詞句で配置の順序を示す。",
+      "drinking ..., going ..., watching ..., being ..., or sleeping ... は動名詞句を並列する。",
+      "not to A, but to B は練習の目的を暗記から配列へ移す。",
+      "more than はチャンクが翻訳単位だけにとどまらないことを示す。",
+      "from which は foothold を受ける前置詞＋関係代名詞で、次の言葉を探す起点を表す。"
+    ],
+    "translationNote": "literal は時間表現と動作を引用のまま対応させ、「机へ並べる」「口の足場」を保持した。natural では followed by で配置順を一本化し、訳の単位を超えるという転換を more than とセミコロンで明確にした。",
+    "readingPoint": "展開では、実際に反復した時間表現と短文を素材に、文を時間・主語・動作の塊へ分ける。チャンクを読解技法から発話の足場へ変えることが、この章の役割である。",
+    "keywords": [
+      "chunks",
+      "time phrase",
+      "subject",
+      "action",
+      "speaking"
+    ]
+  },
+  {
+    "id": "DE-20260814-003",
+    "sourceTitle": "文は口の中で並び直される",
+    "workId": "daily-essay-20260814",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "忘れたことを覚える",
+    "jp": "もっと長い文では、翌日までに「それをもう忘れていた」と言うため、時刻、主語、完了、動作、対象を何度も置き直した。already が出ても forgotten が続かず、綴りを書けば文字が一つ余る。それでも、切れた場所から戻り、最後に about it までつないだ。忘れたことを表す文を、忘れながら覚える。間違いは文の外へ落ちる失敗ではなく、次に必要な塊の位置を示す印になった。",
+    "translationLiteral": "In the longer sentence, in order to say “by the next day, I had already forgotten about it,” time, subject, completion, action, and object were placed again and again. Even when already appeared, forgotten did not follow, and when its spelling was written, one letter was left over. Even so, the speaker returned from the place where the sentence broke and finally connected it through about it. A sentence expressing forgetting was learned while being forgotten. A mistake became not a failure that fell outside the sentence but a mark showing the position of the next necessary chunk.",
+    "translationNatural": "In the longer sentence, the goal was to say, “By the next day, I had already forgotten about it.” The time phrase, subject, perfect form, action, and object had to be placed again and again. Already would appear, but forgotten would not follow; when the word was written, an extra letter slipped in. Each break became a point of return until about it finally joined the sentence. Learning how to speak of forgetting required forgetting along the way. The mistakes marked the location of the next missing chunk.",
+    "imageUrl": "",
+    "imageCaption": "途切れた英文の位置へ戻りながら、最後の about it まで塊をつなぐ場面。",
+    "imagePrompt": "A broken chain of spoken English chunks being reconnected from each point of hesitation until the final phrase fits, intimate literary editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "In the longer sentence, the goal was to say, “By the next day, I had already forgotten about it.”",
+        "ja": "より長い文では、「翌日までに、私はそれをもう忘れていた」と言うことが目標だった"
+      },
+      {
+        "en": "The time phrase, subject, perfect form, action, and object had to be placed again and again.",
+        "ja": "時間表現、主語、完了形、動作、対象を何度も置き直す必要があった"
+      },
+      {
+        "en": "Already would appear, but forgotten would not follow;",
+        "ja": "already は出ても forgotten が続かず"
+      },
+      {
+        "en": "when the word was written, an extra letter slipped in.",
+        "ja": "単語を書くと余分な文字が入り込んだ"
+      },
+      {
+        "en": "Each break became a point of return until about it finally joined the sentence.",
+        "ja": "途切れた場所は戻る地点となり、最後に about it が文へ加わった"
+      },
+      {
+        "en": "Learning how to speak of forgetting required forgetting along the way.",
+        "ja": "忘却を語る方法を学ぶには、途中で忘れることも必要だった"
+      },
+      {
+        "en": "The mistakes marked the location of the next missing chunk.",
+        "ja": "間違いは次に欠けている塊の位置を示した"
+      }
+    ],
+    "grammar": [
+      "the goal was to say は不定詞で練習の目標内容を示す。",
+      "had already forgotten は能動態の過去完了で、翌日という過去の基準時より前に忘れたことを表す。",
+      "had to be placed は義務を示す had to と受動態を組み合わせる。",
+      "would appear / would not follow は過去の反復的な出来事を would で表す。",
+      "when the word was written は受動態を含む時間節で、綴りの場面を導く。",
+      "until は途切れと再開が続き、最後の塊が加わる到達点を示す。",
+      "Learning how to ... は動名詞句を主語にし、忘却を語る学習を表す。",
+      "marked the location of は間違いを位置情報として捉える比喩を作る。"
+    ],
+    "translationNote": "literal は already、forgotten、about it の出現順と「文字が一つ余る」をそのまま追った。natural では元の英文を間接話法へ変え、個々の中断を Each break とまとめ、「忘れながら覚える」の逆説を forgetting along the way と自然に保った。",
+    "readingPoint": "転換点では、誤りを正解からの脱落ではなく、次のチャンクが欠けた位置を知らせる印として読み替える。忘却を表す英文そのものを忘れながら反復した事実が、作品の比喩と練習記録を同時に担う。",
+    "keywords": [
+      "past perfect",
+      "forgetting",
+      "repetition",
+      "spelling",
+      "error"
+    ]
+  },
+  {
+    "id": "DE-20260814-004",
+    "sourceTitle": "文は口の中で並び直される",
+    "workId": "daily-essay-20260814",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "内言語にも声を",
+    "jp": "反復の終わりに残ったのは、正解を頭の中で完成させてから話すという順序への疑いだった。迷っている音、探している単語、言い直す途中まで口に出せば、内側に隠れていた並び方が耳へ返ってくる。声は完成文の発表だけに使うものではない。考えがどこで止まったかを聞くための道具でもある。文は理解のあとに発声されるだけでなく、発声されながら口の中で並び直されていく。",
+    "translationLiteral": "What remained at the end of repetition was doubt about the order of completing the correct answer in the head before speaking. If hesitant sounds, words being searched for, and even the middle of self-correction are spoken aloud, the arrangement hidden inside returns to the ear. The voice is not something used only to present a completed sentence. It is also a tool for hearing where thought stopped. A sentence is not only voiced after understanding; it is rearranged in the mouth while being voiced.",
+    "translationNatural": "What remained after the repetitions was a doubt about the rule that a sentence must be completed in the mind before it is spoken. If hesitation, searching for words, and self-correction are all voiced, the hidden order returns through the ear. The voice is not only for presenting a finished sentence; it is also a tool for hearing where thought stopped. A sentence is not merely spoken after it is understood. It is rearranged in the mouth while understanding is still taking shape.",
+    "imageUrl": "",
+    "imageCaption": "未完成の言葉を口に出すと、その並びが耳から戻って文になっていく場面。",
+    "imagePrompt": "Unfinished spoken fragments leaving a mouth, returning through the ear, and gradually arranging themselves into a sentence, quiet poetic editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "What remained after the repetitions was a doubt about the rule that a sentence must be completed in the mind before it is spoken.",
+        "ja": "反復のあとに残ったのは、文は話す前に頭の中で完成していなければならないという規則への疑いだった"
+      },
+      {
+        "en": "If hesitation, searching for words, and self-correction are all voiced,",
+        "ja": "ためらい、単語を探す過程、言い直しをすべて声に出せば"
+      },
+      {
+        "en": "the hidden order returns through the ear.",
+        "ja": "隠れていた語順が耳を通って戻ってくる"
+      },
+      {
+        "en": "The voice is not only for presenting a finished sentence;",
+        "ja": "声は完成文を発表するためだけのものではなく"
+      },
+      {
+        "en": "it is also a tool for hearing where thought stopped.",
+        "ja": "思考がどこで止まったかを聞く道具でもある"
+      },
+      {
+        "en": "A sentence is not merely spoken after it is understood. It is rearranged in the mouth while understanding is still taking shape.",
+        "ja": "文は理解後に発声されるだけでなく、理解が形になる途中で口の中に並び直される"
+      }
+    ],
+    "grammar": [
+      "What remained ... was ... は what 節を主語にし、反復後に残った認識を焦点化する。",
+      "the rule that ... の that 節は rule の具体的内容を示す同格節である。",
+      "must be completed / is spoken は受動態で、文を完成してから発声するという想定順序を示す。",
+      "If A, B, and C are all voiced は三つの未完成過程を並列し、すべて声に出す条件を作る。",
+      "not only A; also B は声の用途を発表から自己観察へ広げる。",
+      "where thought stopped は hearing の目的語になる間接疑問である。",
+      "not merely ... after ... は理解後の発声だけではないと限定を外す。",
+      "while understanding is still taking shape は理解が形成中であることを示す進行的な時間節である。"
+    ],
+    "translationNote": "literal は「頭の中で完成させる」「耳へ返る」「口の中で並び直す」という方向を維持した。natural では「迷っている音」を hesitation、「探している単語」を word-searching と名詞化し、結末を while understanding is still taking shape として理解と発声の同時進行へ整えた。",
+    "readingPoint": "結末では、内言語まで声に出すという対話上の発見を、発音練習以上のものとして捉える。声を完成品の発表手段から、思考の停止位置を聞き取る道具へ変え、題名の像へ静かに戻る。",
+    "keywords": [
+      "inner speech",
+      "voice",
+      "self-correction",
+      "word order",
+      "understanding"
+    ]
+  }
+]
