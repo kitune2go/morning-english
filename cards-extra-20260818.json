@@ -1,0 +1,450 @@
+[
+  {
+    "_no": 84,
+    "_generatedAt": "2026-08-19T01:58:00+09:00",
+    "sentence": "When I try to play everything with downstrokes, my picking hand starts to tense up, so I need to reduce unnecessary force.",
+    "phonetic": "ウェン アイ トライ トゥ プレイ エヴリシング ウィズ ダウンストロークス、マイ ピッキング ハンド スターツ トゥ テンス アップ、ソウ アイ ニード トゥ リデュース アンネセサリー フォース。",
+    "japaneseTranslation": "すべてをダウンストロークで弾こうとするとピッキングする手が力み始めるので、余計な力を減らす必要がある。",
+    "theme": "ダウンピッキングで力まないための英語表現",
+    "coreVerb": "reduce",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I reduce force.",
+        "translation": "私は力を減らす。"
+      },
+      "phase2": {
+        "sentence": "I reduce unnecessary force.",
+        "translation": "私は余計な力を減らす。",
+        "addedChunks": "unnecessaryを加えて減らす対象を具体化する"
+      },
+      "phase3": {
+        "sentence": "I reduce unnecessary force because my hand starts to tense up.",
+        "translation": "手が力み始めるので、私は余計な力を減らす。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A relaxed motion is more efficient than forcing every stroke.",
+        "translation": "力を込めて毎回弾くより、リラックスした動きの方が効率的だ。",
+        "comparison": "more efficient than"
+      },
+      "phase5": {
+        "sentence": "When I try to play everything with downstrokes, my picking hand starts to tense up, so I need to reduce unnecessary force.",
+        "translation": "すべてをダウンストロークで弾こうとするとピッキングする手が力み始めるので、余計な力を減らす必要がある。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When I try to play everything with downstrokes,",
+          "function": "時間",
+          "translation": "すべてをダウンストロークで弾こうとすると"
+        },
+        {
+          "text": "my picking hand",
+          "function": "対象",
+          "translation": "私のピッキングする手が"
+        },
+        {
+          "text": "starts to tense up,",
+          "function": "状態",
+          "translation": "力み始める"
+        },
+        {
+          "text": "so I need to reduce",
+          "function": "結果",
+          "translation": "そのため私は減らす必要がある"
+        },
+        {
+          "text": "unnecessary force.",
+          "function": "内容",
+          "translation": "余計な力を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "when + 節",
+          "where": "When I try to play ...",
+          "explanation": "ある動作をするときに起こることを表します。",
+          "rule": "when + 主語 + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "try to + 動詞原形",
+          "where": "try to play",
+          "explanation": "何かをしようと試みることを表します。",
+          "rule": "try to + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "start to + 動詞原形",
+          "where": "starts to tense up",
+          "explanation": "動作や状態の開始を表します。",
+          "rule": "start to + 動詞原形"
+        },
+        {
+          "category": "句動詞",
+          "name": "tense up",
+          "where": "tense up",
+          "explanation": "身体や筋肉が緊張して力むことを表します。",
+          "rule": "tense up = 力む／緊張する"
+        },
+        {
+          "category": "接続",
+          "name": "soによる結果",
+          "where": "so I need to reduce",
+          "explanation": "前の状況から生じる結果や対応を示します。",
+          "rule": "節, so 節"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "My picking hand start to tense up.",
+          "correct": "My picking hand starts to tense up.",
+          "why": "handは単数主語なのでstartsを使います。"
+        },
+        {
+          "wrong": "I need reduce unnecessary force.",
+          "correct": "I need to reduce unnecessary force.",
+          "why": "needの後ろで動作を表すときはto不定詞を使います。"
+        },
+        {
+          "wrong": "I try playing everything with downstrokes, so my hand tenses.",
+          "correct": "I try to play everything with downstrokes, so my hand starts to tense up.",
+          "why": "ここでは『〜しようとする』なのでtry toが自然で、tense upで身体的な力みを明確に表せます。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "My hand gets tense when I force every downstroke.",
+          "translation": "すべてのダウンストロークに力を入れると手が緊張する。"
+        },
+        {
+          "text": "I can play faster if I keep the motion small and relaxed.",
+          "translation": "動きを小さくリラックスさせれば、より速く弾ける。"
+        },
+        {
+          "text": "The goal is not to hit harder but to waste less motion.",
+          "translation": "目的は強く当てることではなく、無駄な動きを減らすことだ。"
+        }
+      ],
+      "parseTree": "AdvClause(When S(I) V(try) Inf(to play everything with downstrokes)), S(my picking hand) V(starts) Inf(to tense up), Conj(so) S(I) V(need) Inf(to reduce unnecessary force)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "My picking hand starts to tense up.",
+          "expanded": "My picking hand starts to tense up because I use more force than the motion requires.",
+          "nuance": "力みが生じる理由をbecause節で示します。"
+        },
+        {
+          "original": "I reduce unnecessary force.",
+          "expanded": "I reduce unnecessary force so that the motion stays smooth at higher speeds.",
+          "nuance": "力を抜く目的をso thatで示します。"
+        },
+        {
+          "original": "I keep the motion relaxed.",
+          "expanded": "I keep the motion relaxed, so my forearm is less likely to tighten during repeated strokes.",
+          "nuance": "リラックスした動作の結果を示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Unnecessary force should be reduced when repeated downstrokes make the hand tense.",
+          "translation": "連続するダウンストロークで手が力むときは、余計な力を減らすべきだ。",
+          "note": "forceを主語にして改善対象を強調します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using less force, I can keep the picking motion smoother and more relaxed.",
+          "translation": "力を減らすことで、ピッキング動作をより滑らかでリラックスした状態に保てる。",
+          "note": "手段をUsingで圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Reduction of unnecessary tension improves the efficiency of repeated picking motions.",
+          "translation": "不要な緊張を減らすことは、反復ピッキング動作の効率を高める。",
+          "note": "reduceをreductionに名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "tense up",
+            "alternatives": [
+              "tighten up",
+              "get tense",
+              "stiffen"
+            ],
+            "nuance": "tense upは自然な身体的緊張、tighten upは筋肉が締まる感覚、stiffenは硬くなることを強く表します。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "原因と対策",
+            "sentence": "When the hand starts to tighten, I reduce the force and shorten the motion.",
+            "translation": "手が力み始めたら、力を減らして動きを短くする。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A small relaxed stroke is more sustainable than a hard exaggerated one.",
+            "translation": "小さくリラックスしたストロークの方が、強く大きなストロークより持続しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If my forearm tightens, I slow down until the motion feels easy again.",
+            "translation": "前腕が力んだら、動きが再び楽に感じるまで速度を落とす。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is efficient motion, not maximum force on every stroke.",
+            "translation": "重要なのは効率的な動きであり、毎回最大の力を入れることではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Less force, smaller motion, less tension.",
+            "translation": "力を減らし、動きを小さくし、力みを減らす。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "当日のギター練習で出た『ダウンピッキングで力んでくる』という実感を、when節とsoによる原因・対策の文に整理した。"
+    }
+  },
+  {
+    "_no": 85,
+    "_generatedAt": "2026-08-19T01:58:00+09:00",
+    "sentence": "I moved the MorningEnglish task out of Work so that its daily update would not depend on the same usage limit as my heavier projects.",
+    "phonetic": "アイ ムーヴド ザ モーニング イングリッシュ タスク アウト オブ ワーク ソウ ザット イッツ デイリー アップデイト ウッド ノット ディペンド オン ザ セイム ユーセージ リミット アズ マイ ヘヴィアー プロジェクツ。",
+    "japaneseTranslation": "重いプロジェクトと同じ利用上限に日次更新が依存しないように、MorningEnglishのタスクをWorkの外へ移した。",
+    "theme": "自動化タスクの依存関係を分離する",
+    "coreVerb": "move",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I moved the task.",
+        "translation": "私はタスクを移した。"
+      },
+      "phase2": {
+        "sentence": "I moved the MorningEnglish task out of Work.",
+        "translation": "私はMorningEnglishのタスクをWorkの外へ移した。",
+        "addedChunks": "out of Workを加えて移動元を示す"
+      },
+      "phase3": {
+        "sentence": "I moved the task out of Work so that it could run independently.",
+        "translation": "独立して実行できるように、そのタスクをWorkの外へ移した。",
+        "connector": "so that"
+      },
+      "phase4": {
+        "sentence": "A separate task is safer than sharing the same usage limit with heavy projects.",
+        "translation": "重いプロジェクトと同じ利用上限を共有するより、タスクを分ける方が安全だ。",
+        "comparison": "safer than"
+      },
+      "phase5": {
+        "sentence": "I moved the MorningEnglish task out of Work so that its daily update would not depend on the same usage limit as my heavier projects.",
+        "translation": "重いプロジェクトと同じ利用上限に日次更新が依存しないように、MorningEnglishのタスクをWorkの外へ移した。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "I moved the MorningEnglish task",
+          "function": "行動",
+          "translation": "私はMorningEnglishのタスクを移した"
+        },
+        {
+          "text": "out of Work",
+          "function": "場所",
+          "translation": "Workの外へ"
+        },
+        {
+          "text": "so that its daily update",
+          "function": "目的",
+          "translation": "その日次更新が〜するように"
+        },
+        {
+          "text": "would not depend on the same usage limit",
+          "function": "状態",
+          "translation": "同じ利用上限に依存しないように"
+        },
+        {
+          "text": "as my heavier projects.",
+          "function": "比較",
+          "translation": "私のより重いプロジェクトと同じ"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時制",
+          "name": "moveの過去形",
+          "where": "moved",
+          "explanation": "すでに完了した移動を表します。",
+          "rule": "move → moved"
+        },
+        {
+          "category": "句動詞",
+          "name": "move A out of B",
+          "where": "moved ... out of Work",
+          "explanation": "AをBの外へ移すことを表します。",
+          "rule": "move A out of B"
+        },
+        {
+          "category": "目的",
+          "name": "so that + 節",
+          "where": "so that its daily update ...",
+          "explanation": "前半の行動の目的を節で説明します。",
+          "rule": "so that + 主語 + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "depend on",
+          "where": "depend on the same usage limit",
+          "explanation": "何かに依存するという意味です。",
+          "rule": "depend on + 名詞"
+        },
+        {
+          "category": "比較",
+          "name": "the same ... as",
+          "where": "the same usage limit as my heavier projects",
+          "explanation": "同じ対象・条件を共有することを表します。",
+          "rule": "the same + 名詞 + as"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I moved the task outside from Work.",
+          "correct": "I moved the task out of Work.",
+          "why": "移動元から外へ出す場合はmove A out of Bが自然です。"
+        },
+        {
+          "wrong": "The update depends of the same usage limit.",
+          "correct": "The update depends on the same usage limit.",
+          "why": "dependは前置詞onを伴います。"
+        },
+        {
+          "wrong": "I moved the task so that it not depend on Work.",
+          "correct": "I moved the task so that it would not depend on Work.",
+          "why": "過去の目的を表す文脈ではwould not dependが自然です。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I separated the daily task from the heavier workflow.",
+          "translation": "日次タスクをより重いワークフローから分離した。"
+        },
+        {
+          "text": "The automation now runs independently of the projects that use more resources.",
+          "translation": "その自動化は今では、より多くのリソースを使うプロジェクトから独立して動く。"
+        },
+        {
+          "text": "I wanted to avoid one workload blocking an unrelated daily update.",
+          "translation": "一つの作業負荷が無関係な日次更新を止める状況を避けたかった。"
+        }
+      ],
+      "parseTree": "S(I) V(moved) O(the MorningEnglish task) PP(out of Work) AdvClause(so that S(its daily update) Aux(would not) V(depend) PP(on the same usage limit as my heavier projects))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "I moved the task out of Work.",
+          "expanded": "I moved the task out of Work because a heavy project had exhausted the shared usage limit.",
+          "nuance": "タスクを分離した直接の理由をbecauseで示します。"
+        },
+        {
+          "original": "The daily update runs separately.",
+          "expanded": "The daily update runs separately so that unrelated heavy work is less likely to block it.",
+          "nuance": "分離運用の目的を示します。"
+        },
+        {
+          "original": "I separated the workloads.",
+          "expanded": "I separated the workloads, so one resource-heavy workflow no longer determines whether the daily task can run.",
+          "nuance": "依存関係を切る効果をsoで示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The MorningEnglish task was moved out of Work to separate it from the heavier workflow.",
+          "translation": "MorningEnglishのタスクは、重いワークフローから分離するためにWorkの外へ移された。",
+          "note": "taskを主語にして変更対象を強調します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Separating the daily task from Work, I reduced its dependence on the heavier projects.",
+          "translation": "日次タスクをWorkから分けることで、重いプロジェクトへの依存を減らした。",
+          "note": "手段をSeparatingで圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Separation of the workloads reduces the risk of an unrelated resource limit blocking the daily update.",
+          "translation": "作業負荷の分離によって、無関係な利用上限が日次更新を止めるリスクを減らせる。",
+          "note": "separateをseparationに名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "move",
+            "alternatives": [
+              "separate",
+              "decouple",
+              "detach"
+            ],
+            "nuance": "moveは位置変更、separateは分離、decoupleは依存関係を切る技術的表現、detachは取り外す語感です。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "依存関係",
+            "sentence": "The daily task now runs separately from the resource-heavy workflow.",
+            "translation": "日次タスクは現在、リソースを多く使うワークフローとは別に動く。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A decoupled task is more reliable than one tied to the same resource limit as heavy projects.",
+            "translation": "重いプロジェクトと同じ利用上限に結びついたタスクより、分離されたタスクの方が信頼性が高い。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the workloads share the same limit, a heavy project can interfere with the daily task.",
+            "translation": "作業負荷が同じ上限を共有すると、重いプロジェクトが日次タスクに干渉することがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What I wanted to remove was the unnecessary dependency between unrelated workloads.",
+            "translation": "取り除きたかったのは、無関係な作業負荷同士の不要な依存関係だった。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Separate workloads, reduce shared failure points.",
+            "translation": "作業負荷を分け、共有する障害点を減らす。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "当日のMorningEnglish移行作業を、so thatによる目的表現とdepend onの語法に整理した。"
+    }
+  }
+]
