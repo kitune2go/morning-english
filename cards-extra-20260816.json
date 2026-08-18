@@ -1,0 +1,659 @@
+[
+  {
+    "_no": 78,
+    "_generatedAt": "2026-08-18T12:30:00+09:00",
+    "sentence": "I can store the dataset in Google Drive and run the inference in Colab instead of buying an expensive computer.",
+    "phonetic": "アイ キャン ストア ザ データセット イン グーグル ドライブ アンド ラン ジ インファレンス イン コラブ インステッド オブ バイイング アン イクスペンシヴ コンピューター。",
+    "japaneseTranslation": "私は高価なコンピューターを買う代わりに、データセットをGoogle Driveへ保存し、Colabで推論を実行できる。",
+    "theme": "クラウドを使って高価なローカル計算機を代替する",
+    "coreVerb": "run",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "I run the inference.",
+        "translation": "私は推論を実行する。"
+      },
+      "phase2": {
+        "sentence": "I run the inference in Colab.",
+        "translation": "私はColabで推論を実行する。",
+        "addedChunks": "in Colabを加えて実行場所を示す"
+      },
+      "phase3": {
+        "sentence": "I store the dataset in Google Drive and run the inference in Colab.",
+        "translation": "私はデータセットをGoogle Driveに保存し、Colabで推論を実行する。",
+        "connector": "and"
+      },
+      "phase4": {
+        "sentence": "Cloud inference can be cheaper than buying a powerful computer.",
+        "translation": "クラウド推論は高性能なコンピューターを買うより安く済むことがある。",
+        "comparison": "cheaper than"
+      },
+      "phase5": {
+        "sentence": "I can store the dataset in Google Drive and run the inference in Colab instead of buying an expensive computer.",
+        "translation": "私は高価なコンピューターを買う代わりに、データセットをGoogle Driveへ保存し、Colabで推論を実行できる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "I can store the dataset",
+          "function": "行動",
+          "translation": "私はデータセットを保存できる"
+        },
+        {
+          "text": "in Google Drive",
+          "function": "場所",
+          "translation": "Google Driveに"
+        },
+        {
+          "text": "and run the inference in Colab",
+          "function": "行動",
+          "translation": "そしてColabで推論を実行できる"
+        },
+        {
+          "text": "instead of buying an expensive computer.",
+          "function": "比較",
+          "translation": "高価なコンピューターを買う代わりに"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can + 動詞原形",
+          "where": "can store / run",
+          "explanation": "可能・選択肢を表します。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "store + 目的語",
+          "where": "store the dataset",
+          "explanation": "データを保存するという他動詞の用法です。",
+          "rule": "store + 名詞"
+        },
+        {
+          "category": "前置詞",
+          "name": "in + サービス名",
+          "where": "in Google Drive / in Colab",
+          "explanation": "保存先や実行環境を示します。",
+          "rule": "in + 場所・環境"
+        },
+        {
+          "category": "等位接続",
+          "name": "andで動作を並列",
+          "where": "store ... and run ...",
+          "explanation": "同じ主語に対する二つの動作を並べます。",
+          "rule": "V1 and V2"
+        },
+        {
+          "category": "語法",
+          "name": "instead of + 動名詞",
+          "where": "instead of buying",
+          "explanation": "ある選択肢の代わりに別の手段を取ることを表します。",
+          "rule": "instead of + 名詞 / 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I can storing the dataset in Google Drive.",
+          "correct": "I can store the dataset in Google Drive.",
+          "why": "canの後ろは動詞原形です。"
+        },
+        {
+          "wrong": "I run the inference on Colab instead to buy a computer.",
+          "correct": "I run the inference in Colab instead of buying a computer.",
+          "why": "instead ofの後ろには名詞または動名詞を置きます。"
+        },
+        {
+          "wrong": "I can store the dataset and running the inference.",
+          "correct": "I can store the dataset and run the inference.",
+          "why": "canに続く並列動詞は同じ原形にそろえます。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I keep the data in Google Drive and use Colab for inference.",
+          "translation": "私はデータをGoogle Driveに置き、推論にはColabを使う。"
+        },
+        {
+          "text": "Instead of buying new hardware, I can move the heavy computation to Colab.",
+          "translation": "新しいハードウェアを買う代わりに、重い計算をColabへ移せる。"
+        },
+        {
+          "text": "Cloud tools let me separate storage from computation.",
+          "translation": "クラウドツールを使えば、保存と計算を分離できる。"
+        }
+      ],
+      "parseTree": "S(I) Aux(can) V(store) O(the dataset) PP(in Google Drive) Conj(and) V(run) O(the inference) PP(in Colab) PP(instead of buying an expensive computer)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "I can run the inference in Colab.",
+          "expanded": "I can run the inference in Colab because my local computer has limited memory.",
+          "nuance": "クラウド実行を選ぶ理由をbecause節で示します。"
+        },
+        {
+          "original": "I store the dataset in Google Drive.",
+          "expanded": "I store the dataset in Google Drive so that the files remain available from different devices.",
+          "nuance": "保存先を分ける目的をso thatで示します。"
+        },
+        {
+          "original": "I use cloud tools.",
+          "expanded": "I use cloud tools, so I can postpone buying more powerful hardware.",
+          "nuance": "クラウド利用の結果をsoで示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The dataset can be stored in Google Drive while the inference is run in Colab.",
+          "translation": "データセットはGoogle Driveに保存し、推論はColabで実行できる。",
+          "note": "保存対象と処理を主語側へ移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using Google Drive for storage, I can run the inference separately in Colab.",
+          "translation": "保存にGoogle Driveを使いながら、推論はColabで別に実行できる。",
+          "note": "手段をUsingで圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Cloud storage and remote inference reduce my need for expensive local hardware.",
+          "translation": "クラウド保存と遠隔推論によって、高価なローカル機材の必要性を減らせる。",
+          "note": "storeとinferの内容を名詞句で表します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "run",
+            "alternatives": [
+              "execute",
+              "perform",
+              "carry out"
+            ],
+            "nuance": "runは計算処理に自然で、executeは技術的、performは一般的です。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "手段の対照",
+            "sentence": "I keep the files in Drive while Colab handles the computation.",
+            "translation": "ファイルはDriveに置き、計算はColabに任せる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Using Colab can cost less than buying a high-end computer.",
+            "translation": "Colabを使う方が高性能PCを買うより安く済むことがある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the local machine is too weak, I can move the inference to Colab.",
+            "translation": "ローカル機が非力なら、推論をColabへ移せる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What I need locally is access to the data, not necessarily a powerful GPU.",
+            "translation": "ローカルで必要なのはデータへのアクセスであり、必ずしも高性能GPUではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Drive stores the data; Colab does the heavy work.",
+            "translation": "Driveがデータを保存し、Colabが重い処理を担う。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "8月16日のクラウド計算構想を、instead ofと動詞並列の練習に整理した。"
+    }
+  },
+  {
+    "_no": 79,
+    "_generatedAt": "2026-08-18T12:30:00+09:00",
+    "sentence": "A prison sentence punishes a violation of law, but atonement to victims is a separate question.",
+    "phonetic": "ア プリズン センテンス パニッシズ ア ヴァイオレイション オブ ロー、バット アトーンメント トゥ ヴィクティムズ イズ ア セパレート クエスチョン。",
+    "japaneseTranslation": "懲役刑は法違反を罰するものだが、被害者への贖罪は別の問題である。",
+    "theme": "刑罰と被害者への贖罪を区別して表現する",
+    "coreVerb": "punish",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A prison sentence punishes.",
+        "translation": "懲役刑は罰する。"
+      },
+      "phase2": {
+        "sentence": "A prison sentence punishes a violation of law.",
+        "translation": "懲役刑は法違反を罰する。",
+        "addedChunks": "a violation of lawを加えて罰の対象を示す"
+      },
+      "phase3": {
+        "sentence": "A prison sentence punishes a violation of law, but atonement is different.",
+        "translation": "懲役刑は法違反を罰するが、贖罪は別である。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Legal punishment is narrower than full atonement to victims.",
+        "translation": "法的な刑罰は、被害者への全面的な贖罪より範囲が狭い。",
+        "comparison": "narrower than"
+      },
+      "phase5": {
+        "sentence": "A prison sentence punishes a violation of law, but atonement to victims is a separate question.",
+        "translation": "懲役刑は法違反を罰するものだが、被害者への贖罪は別の問題である。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A prison sentence",
+          "function": "対象",
+          "translation": "懲役刑は"
+        },
+        {
+          "text": "punishes a violation of law,",
+          "function": "行動",
+          "translation": "法違反を罰する"
+        },
+        {
+          "text": "but atonement to victims",
+          "function": "接続",
+          "translation": "しかし被害者への贖罪は"
+        },
+        {
+          "text": "is a separate question.",
+          "function": "状態",
+          "translation": "別の問題である"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "語法",
+          "name": "punish + 対象",
+          "where": "punishes a violation of law",
+          "explanation": "何を罰するかを直接目的語で示します。",
+          "rule": "punish + 名詞"
+        },
+        {
+          "category": "名詞句",
+          "name": "a violation of law",
+          "where": "a violation of law",
+          "explanation": "lawをofで結び、法違反というまとまりを作ります。",
+          "rule": "名詞 + of + 名詞"
+        },
+        {
+          "category": "接続",
+          "name": "butによる対照",
+          "where": "but atonement ...",
+          "explanation": "前半と後半が同じではないことを明示します。",
+          "rule": "節, but 節"
+        },
+        {
+          "category": "語法",
+          "name": "atonement to + 人",
+          "where": "atonement to victims",
+          "explanation": "誰に対する償いかを示す表現です。",
+          "rule": "atonement to + 人"
+        },
+        {
+          "category": "補語",
+          "name": "be + a separate question",
+          "where": "is a separate question",
+          "explanation": "主語を別の論点として位置づけます。",
+          "rule": "S + be + 名詞補語"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A prison sentence punish a violation of law.",
+          "correct": "A prison sentence punishes a violation of law.",
+          "why": "単数主語sentenceに合わせてpunishesとします。"
+        },
+        {
+          "wrong": "Atonement for victims are a separate question.",
+          "correct": "Atonement to victims is a separate question.",
+          "why": "atonementはここでは不可算的な単数扱いで、isを使います。"
+        },
+        {
+          "wrong": "A prison sentence punishes law, but atonement is same.",
+          "correct": "A prison sentence punishes a violation of law, but atonement is different.",
+          "why": "punish lawでは対象関係が不自然で、sameには冠詞や補語構造も必要です。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Legal punishment and personal atonement are not the same thing.",
+          "translation": "法的な刑罰と個人的な贖罪は同じものではない。"
+        },
+        {
+          "text": "Serving a sentence does not automatically repair the harm done to victims.",
+          "translation": "刑期を務めても、被害者に与えた損害が自動的に回復するわけではない。"
+        },
+        {
+          "text": "The law can impose punishment, while reconciliation belongs to a different process.",
+          "translation": "法は刑罰を科せるが、和解は別の過程に属する。"
+        }
+      ],
+      "parseTree": "S(A prison sentence) V(punishes) O(a violation of law), Conj(but) S(atonement to victims) V(is) C(a separate question)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "A prison sentence punishes a violation of law.",
+          "expanded": "A prison sentence punishes a violation of law because the legal system responds to prohibited conduct.",
+          "nuance": "刑罰が法違反に対応する理由を補います。"
+        },
+        {
+          "original": "Atonement is a separate question.",
+          "expanded": "Atonement is a separate question because victims may still live with lasting harm.",
+          "nuance": "贖罪が別問題になる理由を示します。"
+        },
+        {
+          "original": "The two are different.",
+          "expanded": "The two are different, so completing a sentence does not by itself settle every moral or personal issue.",
+          "nuance": "区別から導かれる結論をsoで示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A violation of law is punished through the criminal sentence.",
+          "translation": "法違反は刑事上の刑によって罰せられる。",
+          "note": "違反を主語にして刑罰の対象を強調します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Having served a sentence, a person may still face questions of atonement.",
+          "translation": "刑期を務め終えても、その人にはなお贖罪の問題が残りうる。",
+          "note": "刑期終了を先行動作として表します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Punishment for illegality and atonement to victims belong to different categories.",
+          "translation": "違法行為への刑罰と被害者への贖罪は異なるカテゴリーに属する。",
+          "note": "punishをpunishmentに名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "punish",
+            "alternatives": [
+              "penalize",
+              "sanction",
+              "impose a penalty on"
+            ],
+            "nuance": "punishは一般的、penalizeは違反への不利益、sanctionは制度的な制裁の語感があります。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "The sentence addresses the offense, whereas atonement addresses the relationship to those harmed.",
+            "translation": "刑は犯罪行為に対応する一方、贖罪は被害を受けた人との関係に向き合う。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A legal sentence is more limited than the broader process of atonement.",
+            "translation": "法的な刑は、より広い贖罪の過程より限定的である。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If punishment and atonement are treated as identical, an important distinction is lost.",
+            "translation": "刑罰と贖罪を同一視すると、重要な区別が失われる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the sentence settles is the legal penalty, not every question of atonement.",
+            "translation": "刑が決着させるのは法的なペナルティであって、贖罪に関するすべての問題ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Punishment is legal; atonement is a separate issue.",
+            "translation": "刑罰は法的なもので、贖罪は別の問題だ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "8月16日に議論した刑罰と贖罪の区別を、butによる対照として整理した。"
+    }
+  },
+  {
+    "_no": 80,
+    "_generatedAt": "2026-08-18T12:30:00+09:00",
+    "sentence": "I want the system to interpret a three-view drawing and divide the character into parts even when the dimensions are not fully reliable.",
+    "phonetic": "アイ ウォント ザ システム トゥ インタープリット ア スリー ビュー ドローイング アンド ディヴァイド ザ キャラクター イントゥ パーツ イーヴン ウェン ザ ディメンションズ アー ノット フリー リライアブル。",
+    "japaneseTranslation": "寸法が完全には信頼できない場合でも、システムに三面図を解釈させ、キャラクターをパーツへ分割してほしい。",
+    "theme": "不完全な三面図を意訳して3D制作のパーツへ分解する",
+    "coreVerb": "interpret",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The system interprets the drawing.",
+        "translation": "システムは図を解釈する。"
+      },
+      "phase2": {
+        "sentence": "The system interprets a three-view drawing.",
+        "translation": "システムは三面図を解釈する。",
+        "addedChunks": "a three-view drawingを加えて対象を具体化する"
+      },
+      "phase3": {
+        "sentence": "The system interprets the drawing even when some dimensions are uncertain.",
+        "translation": "寸法の一部が不確かでも、システムは図を解釈する。",
+        "connector": "even when"
+      },
+      "phase4": {
+        "sentence": "Semantic interpretation can be more useful than trusting every dimension literally.",
+        "translation": "意味的な解釈は、すべての寸法を文字どおり信頼するより有用な場合がある。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "I want the system to interpret a three-view drawing and divide the character into parts even when the dimensions are not fully reliable.",
+        "translation": "寸法が完全には信頼できない場合でも、システムに三面図を解釈させ、キャラクターをパーツへ分割してほしい。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "I want the system",
+          "function": "対象",
+          "translation": "私はシステムに"
+        },
+        {
+          "text": "to interpret a three-view drawing",
+          "function": "行動",
+          "translation": "三面図を解釈させ"
+        },
+        {
+          "text": "and divide the character into parts",
+          "function": "行動",
+          "translation": "キャラクターをパーツへ分割させたい"
+        },
+        {
+          "text": "even when the dimensions are not fully reliable.",
+          "function": "接続",
+          "translation": "寸法が完全には信頼できない場合でも"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "構文",
+          "name": "want + 人/物 + to不定詞",
+          "where": "want the system to interpret",
+          "explanation": "誰に何をしてほしいかを表します。",
+          "rule": "want + O + to + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "interpret + 目的語",
+          "where": "interpret a three-view drawing",
+          "explanation": "資料を意味的に読み取ることを表します。",
+          "rule": "interpret + 名詞"
+        },
+        {
+          "category": "語法",
+          "name": "divide A into B",
+          "where": "divide the character into parts",
+          "explanation": "AをBという複数の部分へ分割する表現です。",
+          "rule": "divide A into B"
+        },
+        {
+          "category": "接続",
+          "name": "even when",
+          "where": "even when the dimensions ...",
+          "explanation": "条件が不利でも主節が成立することを強調します。",
+          "rule": "even when + 節"
+        },
+        {
+          "category": "副詞",
+          "name": "not fully",
+          "where": "not fully reliable",
+          "explanation": "完全には〜でないという部分否定を作ります。",
+          "rule": "not fully + 形容詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "I want the system interpret the drawing.",
+          "correct": "I want the system to interpret the drawing.",
+          "why": "want + Oの後ろにはto不定詞を置きます。"
+        },
+        {
+          "wrong": "The system divides the character to parts.",
+          "correct": "The system divides the character into parts.",
+          "why": "分割結果にはdivide A into Bを使います。"
+        },
+        {
+          "wrong": "Even when the dimensions is uncertain, the system interprets it.",
+          "correct": "Even when the dimensions are uncertain, the system interprets the drawing.",
+          "why": "dimensionsは複数なのでareを使い、itの参照も明確にします。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "The model should infer structure from the drawing instead of copying every measurement literally.",
+          "translation": "モデルはすべての寸法を文字どおり写すのではなく、図から構造を推論すべきだ。"
+        },
+        {
+          "text": "I can provide a three-view image, but some measurements may be approximate.",
+          "translation": "三面図画像は渡せるが、一部の寸法は概算かもしれない。"
+        },
+        {
+          "text": "The first step is to interpret the character and split it into meaningful parts.",
+          "translation": "最初の工程は、キャラクターを解釈して意味のあるパーツへ分けることだ。"
+        }
+      ],
+      "parseTree": "S(I) V(want) O(the system) Inf(to interpret a three-view drawing and divide the character into parts) AdvClause(even when the dimensions are not fully reliable)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The system interprets the drawing.",
+          "expanded": "The system interprets the drawing because some dimensions are only approximate.",
+          "nuance": "意味的解釈が必要な理由を示します。"
+        },
+        {
+          "original": "The system divides the character into parts.",
+          "expanded": "The system divides the character into parts so that later generators can handle them separately.",
+          "nuance": "パーツ分割の目的をso thatで示します。"
+        },
+        {
+          "original": "The dimensions are uncertain.",
+          "expanded": "The dimensions are uncertain, so literal reconstruction may produce the wrong structure.",
+          "nuance": "寸法不確実性の結果を説明します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The three-view drawing is interpreted before the character is divided into parts.",
+          "translation": "キャラクターをパーツに分ける前に、三面図が解釈される。",
+          "note": "処理対象を主語にします。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Interpreting the drawing semantically, the system can infer useful parts despite uncertain dimensions.",
+          "translation": "図を意味的に解釈することで、寸法が不確かでも有用なパーツを推論できる。",
+          "note": "解釈手段をInterpretingで圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Interpretation of the drawing comes before part decomposition.",
+          "translation": "図の解釈はパーツ分解より先に来る。",
+          "note": "interpretとdivideの内容を名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "interpret",
+            "alternatives": [
+              "infer",
+              "read",
+              "make sense of"
+            ],
+            "nuance": "interpretは意味を読み取る、inferは不足情報から推論する、make sense ofは口語的です。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "処理順序",
+            "sentence": "First interpret the drawing; then decompose the character into parts.",
+            "translation": "まず図を解釈し、その後キャラクターをパーツへ分解する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Semantic interpretation may be safer than literal measurement copying.",
+            "translation": "意味的な解釈は、寸法の文字どおりのコピーより安全な場合がある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the dimensions are uncertain, the system should rely more on visual structure.",
+            "translation": "寸法が不確かなら、システムは視覚的構造をより重視すべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters first is the structure, not perfect numerical accuracy.",
+            "translation": "まず重要なのは構造であり、完全な数値精度ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Interpret first, decompose second.",
+            "translation": "まず解釈し、その次に分解する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "8月16日の三面図からの意訳・パーツ分解方針を、want O to Vとeven whenで教材化した。"
+    }
+  }
+]
