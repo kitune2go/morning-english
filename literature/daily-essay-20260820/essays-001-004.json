@@ -1,0 +1,140 @@
+[
+  {
+    "id": "DE-20260820-001",
+    "sourceTitle": "完成の手前にある網目",
+    "workId": "daily-essay-20260820",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "小さく終わるもの",
+    "jp": "腹筋と腕立てとプランクを終え、ギターにも少し触れた。回数や時間が短くても、身体を動かしたことには明確な終点がある。ところが、その横で進んでいる三次元制作には、終わりの輪郭がなかなか見えない。今日済んだことを数えた直後に、「これは本当に終わるのだろうか」という疑問が現れた。完了の実感と長期作業への不安が、同じ一日の中に並んでいた。",
+    "translationLiteral": "After finishing abdominal exercises, push-ups, and a plank, I also touched the guitar for a while. Even if the repetitions and time were short, moving the body had a clear endpoint. Beside that, however, the outline of an ending was difficult to see in the three-dimensional production that was progressing. Immediately after counting what had been completed today, the question appeared: “Will this really end?” A sense of completion and anxiety about long work stood side by side in the same day.",
+    "translationNatural": "I finished some abdominal exercises, push-ups, and a plank, then spent a little time with the guitar. These small practices had visible endpoints, even when they were brief. The 3D project beside them offered no such clear horizon. As soon as I counted what was done, another question surfaced: would the longer work ever be finished? Completion and uncertainty occupied the same day.",
+    "imageUrl": "",
+    "imageCaption": "小さな運動の完了印と、終点の見えない三次元の網目が同じ机に並ぶ。",
+    "imagePrompt": "A quiet desk where completed exercise marks and a guitar pick sit beside an unfinished three-dimensional wireframe extending beyond view, restrained literary editorial illustration, no readable text",
+    "chunks": [
+      {"en": "I finished some abdominal exercises, push-ups, and a plank, then spent a little time with the guitar.", "ja": "腹筋、腕立て、プランクを終え、そのあとギターにも少し時間を使った"},
+      {"en": "These small practices had visible endpoints, even when they were brief.", "ja": "短い練習でも、そこには見える終点があった"},
+      {"en": "The 3D project beside them offered no such clear horizon.", "ja": "一方、その隣の3D制作には同じような明確な終点が見えなかった"},
+      {"en": "As soon as I counted what was done, another question surfaced:", "ja": "済んだことを数えるとすぐ、別の疑問が浮かんだ"},
+      {"en": "would the longer work ever be finished?", "ja": "長い作業はいつか本当に終わるのだろうか"},
+      {"en": "Completion and uncertainty occupied the same day.", "ja": "完了と不確かさが同じ一日を占めていた"}
+    ],
+    "grammar": [
+      "finished A, B, and C, then spent ... は完了した練習と次の行動を時系列で並べる。",
+      "even when they were brief は、短さを認めつつ visible endpoints という主張を保つ譲歩節である。",
+      "no such clear horizon の such は、直前の visible endpoints に相当する明確さを受ける。",
+      "As soon as は、一つの確認の直後に別の疑問が現れたことを示す時間表現である。",
+      "would ... ever be finished は過去の時点に浮かんだ疑問を、受動態を含む間接疑問として表す。",
+      "occupied the same day は、相反する感覚が同時に存在したことを空間的な比喩で示す。"
+    ],
+    "translationNote": "literal は「終点の輪郭」「横で進む」「同じ一日に並ぶ」という日本語の配置を追った。natural では身体の課題を small practices、長期制作の終点を horizon と置き換え、短い完了と長い不安の対照を二つの段落的な流れへ整えた。",
+    "readingPoint": "導入では、実施できた筋トレとギターを確かな小完了として置き、その直後に3D制作の長期化への不安を出す。達成から不安へ移る一日の気分が、作品全体の出発点になる。",
+    "keywords": ["practice", "completion", "3D project", "uncertainty", "duration"]
+  },
+  {
+    "id": "DE-20260820-002",
+    "sourceTitle": "完成の手前にある網目",
+    "workId": "daily-essay-20260820",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "終わらない形",
+    "jp": "三次元制作が長く感じられるのは、目の前に形が現れても、それだけでは完成と呼べないからでもある。生成された像は一見よくできている。それでも、どうしてこれほど精度よく見えるのか、裏側では何をしているのかという疑問が残る。「終わるのか」という焦りは、やがて「どう作っているのか」へ向きを変えた。時間の長さを責める視線が、工程を調べる視線へ少しずつ移っていった。",
+    "translationLiteral": "Three-dimensional production can feel long because even when a shape appears before the eyes, that alone cannot be called completion. The generated image looks well made at first glance. Even so, questions remain about why it looks so accurate and what is being done behind it. The impatience of “Will it end?” eventually changed direction toward “How is it made?” The gaze blaming the length of time gradually shifted into a gaze examining the process.",
+    "translationNatural": "A 3D project can feel endless because the appearance of a shape is not the same as completion. The generated result may already look remarkably precise, yet it still raises questions about what happens underneath. Gradually, “Will this ever end?” turned into “How does this actually work?” Impatience with the duration gave way to curiosity about the process.",
+    "imageUrl": "",
+    "imageCaption": "完成して見える三次元像の表面が開き、その下の工程へ視線が移る。",
+    "imagePrompt": "A polished three-dimensional form opening gently to reveal layers of process beneath its surface, curiosity replacing impatience, refined literary editorial illustration, no readable text",
+    "chunks": [
+      {"en": "A 3D project can feel endless", "ja": "3D制作は終わりがないように感じられることがある"},
+      {"en": "because the appearance of a shape is not the same as completion.", "ja": "形が現れることと完成することは同じではないからだ"},
+      {"en": "The generated result may already look remarkably precise,", "ja": "生成結果はすでに驚くほど精密に見えるかもしれない"},
+      {"en": "yet it still raises questions about what happens underneath.", "ja": "それでも、その下で何が起きているのかという疑問が残る"},
+      {"en": "Gradually, “Will this ever end?” turned into “How does this actually work?”", "ja": "次第に「これは終わるのか」が「実際にはどう動くのか」へ変わった"},
+      {"en": "Impatience with the duration gave way to curiosity about the process.", "ja": "時間への焦りは工程への好奇心に道を譲った"}
+    ],
+    "grammar": [
+      "can feel endless は、客観的に無限だと断定せず、主観的な長さの感覚を表す。",
+      "because A is not the same as B は、形の出現と完成を区別する理由節である。",
+      "may already look ... yet ... は、外見上の完成度を認めながら未解明の工程を対照する。",
+      "what happens underneath は about の目的語になる間接疑問である。",
+      "turned into は疑問の内容が焦りから仕組みへの関心へ変化したことを示す。",
+      "gave way to は、ある感情が別の態度へ次第に置き換わることを表す。"
+    ],
+    "translationNote": "literal は「時間を責める視線」と「工程を調べる視線」を gaze の反復で保持した。natural では外見上の形と完成を appearance と completion で対照し、最後を gave way to でまとめて、焦りから好奇心への気分の転換を自然に示した。",
+    "readingPoint": "展開では、長期化への不安をそのまま停滞の証拠にせず、完成らしく見える生成結果の裏側を問う視線へ変える。この方向転換が、次章のリトポロジーという見えにくい工程へ導く。",
+    "keywords": ["appearance", "completion", "process", "impatience", "curiosity"]
+  },
+  {
+    "id": "DE-20260820-003",
+    "sourceTitle": "完成の手前にある網目",
+    "workId": "daily-essay-20260820",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "表面を編み直す",
+    "jp": "そこで目に留まったのが、生成された形の網目を整え直すリトポロジーだった。見た目が似ていることと、その形を後から扱いやすいことは同じではない。表面の下には、どこをどうつなぎ、どの流れを残すかという地味な選択がある。完成品だけを見れば消えてしまう仕事だが、形を使い続けるには欠かせない。長く見えた制作時間は、何も起きていない空白ではなく、網目を編み直す時間として見え始めた。",
+    "translationLiteral": "What then caught the eye was retopology, the work of arranging again the mesh of a generated shape. Resembling the intended appearance and being easy to handle afterward are not the same thing. Beneath the surface are quiet choices about what to connect, how to connect it, and which flow to preserve. This work disappears when only the finished product is seen, but it is indispensable for continuing to use the shape. The production time that had looked long began to appear not as an empty interval in which nothing happened, but as time spent reweaving the mesh.",
+    "translationNatural": "That question led to retopology: reorganizing the mesh beneath a generated form. Looking right is not the same as being easy to work with later. Under the surface lie modest decisions about connections and flow. They vanish from view in the finished object, yet they help the form remain usable. What had seemed like empty waiting began to look like time spent reweaving the mesh.",
+    "imageUrl": "",
+    "imageCaption": "滑らかな形の下で、乱れた網目が使える流れへ静かに編み直されていく。",
+    "imagePrompt": "Beneath a smooth generated 3D form, an irregular wire mesh is carefully reorganized into clean flowing topology, subtle technical literary illustration, no readable text",
+    "chunks": [
+      {"en": "That question led to retopology:", "ja": "その疑問はリトポロジーへつながった"},
+      {"en": "reorganizing the mesh beneath a generated form.", "ja": "生成された形の下にある網目を組み直す工程である"},
+      {"en": "Looking right is not the same as being easy to work with later.", "ja": "正しく見えることと、後で扱いやすいことは同じではない"},
+      {"en": "Under the surface lie modest decisions about connections and flow.", "ja": "表面の下には接続と流れをめぐる地道な判断がある"},
+      {"en": "They vanish from view in the finished object, yet they help the form remain usable.", "ja": "その判断は完成品では見えなくなるが、形を使える状態に保つ"},
+      {"en": "What had seemed like empty waiting began to look like time spent reweaving the mesh.", "ja": "空白の待ち時間に見えたものが、網目を編み直す時間に見え始めた"}
+    ],
+    "grammar": [
+      "led to は疑問が次の調査対象へ導いた因果を簡潔に表す。",
+      "reorganizing ... はコロンの後で retopology の内容を動名詞句として説明する。",
+      "Looking right / being easy ... は二つの動名詞句を主語相当として比較する。",
+      "Under the surface lie ... は場所表現を前置した倒置で、隠れた判断の存在を強調する。",
+      "vanish ..., yet ... は見えなくなることと機能を支えることを対照する。",
+      "help the form remain usable は help + 目的語 + 動詞原形で、利用可能な状態の維持を表す。",
+      "What had seemed ... began to look ... は過去完了と began to を使い、見方の変化を示す。"
+    ],
+    "translationNote": "literal は retopology を「網目を整え直す仕事」と説明し、「何も起きていない空白ではない」という否定構造も残した。natural では定義をコロン後の動名詞句へ圧縮し、見えない判断を connections and flow とまとめ、結末の「編み直す」比喩を reweaving で保持した。",
+    "readingPoint": "転換点では、対話に現れたリトポロジーへの関心を、制作時間の再解釈へつなげる。表面上の精度だけでなく、後から扱える形へ整える見えない工程があると知ることで、不安だった時間に具体的な中身が生まれる。",
+    "keywords": ["retopology", "mesh", "surface", "workflow", "usability"]
+  },
+  {
+    "id": "DE-20260820-004",
+    "sourceTitle": "完成の手前にある網目",
+    "workId": "daily-essay-20260820",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "信頼の継ぎ目",
+    "jp": "同じ日、創作者はしばしばキャラクターの大きな部分を背負い、そのぶん期待を裏切ったときの視線も厳しくなる、という文章を読んだ。ここでも、見える像と、それを支える見えない関係は分かれていない。作品の表面が滑らかでも、継ぎ目の扱いが信頼を左右する。ただし、信頼は完成時に一度だけ貼られる印ではない。短い練習や地道な修正と同じように、使われ、見直され、少しずつ編み直されるものなのだろう。",
+    "translationLiteral": "On the same day, I read a passage saying that creators often carry a large part of a character, and that the gaze becomes correspondingly severe when they betray expectations. Here too, the visible image and the invisible relationships supporting it are not separate. Even if the surface of a work is smooth, the handling of its seams influences trust. Trust, however, is not a mark attached only once at completion. Like brief practice and steady correction, it may be something that is used, reviewed, and gradually rewoven.",
+    "translationNatural": "That same day, I read that creators often carry much of a character's public presence, so disappointment can quickly harden a once-warm gaze. Again, the visible image could not be separated from the relationships beneath it. A polished surface did not erase the importance of its seams. Trust was not a seal applied once at completion; like practice and revision, it had to be tested, reconsidered, and quietly rewoven over time.",
+    "imageUrl": "",
+    "imageCaption": "完成したキャラクター像の背後で、細い継ぎ目が人と作品の信頼を支えている。",
+    "imagePrompt": "A polished fictional character silhouette supported from behind by delicate visible seams connecting creator, work, and audience, understated literary editorial illustration, no readable text",
+    "chunks": [
+      {"en": "That same day, I read that creators often carry much of a character's public presence,", "ja": "同じ日、創作者はキャラクターの公的な存在感の多くを背負うという文章を読んだ"},
+      {"en": "so disappointment can quickly harden a once-warm gaze.", "ja": "そのため失望は、それまで温かかった視線をすぐ厳しくしうる"},
+      {"en": "Again, the visible image could not be separated from the relationships beneath it.", "ja": "ここでも、見える像はその下の関係から切り離せなかった"},
+      {"en": "A polished surface did not erase the importance of its seams.", "ja": "磨かれた表面も継ぎ目の重要性を消しはしなかった"},
+      {"en": "Trust was not a seal applied once at completion;", "ja": "信頼は完成時に一度だけ貼られる印ではなく"},
+      {"en": "like practice and revision, it had to be tested, reconsidered, and quietly rewoven over time.", "ja": "練習や修正と同じく、試され、見直され、時間をかけて静かに編み直される必要があった"}
+    ],
+    "grammar": [
+      "I read that ... は that 節で読んだ文章の内容を示す。",
+      "so disappointment can ... は前半の状況から生じうる結果を so でつなぐ。",
+      "a once-warm gaze の once-warm は、以前は温かかった視線が変化することを簡潔に表す。",
+      "could not be separated from は受動態で、像と関係を切り離せないことを述べる。",
+      "did not erase は、表面の完成度が継ぎ目の重要性を無効にしないことを過去形で示す。",
+      "a seal applied once ... は過去分詞 applied が seal を後ろから修飾する。",
+      "had to be tested, reconsidered, and ... rewoven は三つの受動態を並列し、信頼の継続的な更新を表す。"
+    ],
+    "translationNote": "literal は「キャラクターを背負う」「視線が厳しくなる」という元の論理を直接追い、結末を推量の may be で抑えた。natural では温かい視線から厳しい視線への変化を harden a once-warm gaze と凝縮し、3Dの網目と日々の練習を seams と rewoven で静かに結び直した。",
+    "readingPoint": "結末では、創作者とキャラクターをめぐる期待の議論を、前章までの表面と網目の比喩へ接続する。信頼を一度の完成判定ではなく、練習や修正のように継続して扱われるものとして置き、断定を避けた余韻で閉じる。",
+    "keywords": ["creator", "character", "expectation", "trust", "seams", "revision"]
+  }
+]
