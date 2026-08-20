@@ -74,5 +74,12 @@
     "description": "難文への戸惑いから、時間表現ごとのチャンク練習、過去完了の反復、内言語の音声化へ進み、英文が声の中で組み直される過程を描く日次エッセイ。",
     "manifest": "literature/daily-essay-20260814/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260820",
+    "title": "完成の手前にある網目",
+    "description": "短い運動とギターの完了、長期化する3D制作への不安、リトポロジーへの好奇心、創作者とキャラクターをめぐる信頼を通して、完成品の手前にある見えない工程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260820/manifest.json",
+    "mode": "essay-translation"
   }
 ]
