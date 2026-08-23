@@ -81,5 +81,12 @@
     "description": "短い運動とギターの完了、長期化する3D制作への不安、リトポロジーへの好奇心、創作者とキャラクターをめぐる信頼を通して、完成品の手前にある見えない工程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260820/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260823",
+    "title": "空白が話し始める",
+    "description": "飲食店で耳にしたドラマ談義、声優とアイドルをめぐる古い販売規範、公演中止の曖昧な説明、低予算3D制作の工程記録を通して、空白へ置くべき情報の違いを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260823/manifest.json",
+    "mode": "essay-translation"
   }
 ]
