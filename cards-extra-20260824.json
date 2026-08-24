@@ -1,0 +1,710 @@
+[
+  {
+    "_no": 91,
+    "_generatedAt": "2026-08-25T02:05:00+09:00",
+    "sentence": "When several AI tools take on different implementation and review tasks, a common manifest keeps the project's overall state visible even if no single conversation contains the whole picture.",
+    "phonetic": "ウェン セヴラル エーアイ トゥールズ テイク オン ディファレント インプリメンテイション アンド リヴュー タスクス、ア コモン マニフェスト キープス ザ プロジェクツ オーヴァーオール ステイト ヴィズィブル、イーヴン イフ ノウ シングル カンヴァセイション コンテインズ ザ ホウル ピクチャー。",
+    "japaneseTranslation": "複数のAIツールが実装とレビューの異なる作業を分担するとき、どの一つの対話にも全体像が含まれていなくても、共通のmanifestがプロジェクト全体の状態を見えるように保つ。",
+    "theme": "複数AIの作業を共有manifestで俯瞰する",
+    "coreVerb": "keep",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A manifest keeps the state visible.",
+        "translation": "manifestは状態を見えるように保つ。"
+      },
+      "phase2": {
+        "sentence": "A common manifest keeps the project's state visible.",
+        "translation": "共通のmanifestはプロジェクトの状態を見えるように保つ。",
+        "addedChunks": "commonとproject'sを加えて共有範囲を明確にする"
+      },
+      "phase3": {
+        "sentence": "When several AI tools take on different tasks, a common manifest keeps the state visible.",
+        "translation": "複数のAIツールが異なる作業を分担するとき、共通のmanifestが状態を見えるように保つ。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "A common manifest gives a clearer overview than separate chat histories.",
+        "translation": "共通のmanifestは、別々の対話履歴より明確な全体像を与える。",
+        "comparison": "clearer than"
+      },
+      "phase5": {
+        "sentence": "When several AI tools take on different implementation and review tasks, a common manifest keeps the project's overall state visible even if no single conversation contains the whole picture.",
+        "translation": "複数のAIツールが実装とレビューの異なる作業を分担するとき、どの一つの対話にも全体像が含まれていなくても、共通のmanifestがプロジェクト全体の状態を見えるように保つ。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When several AI tools",
+          "function": "時間",
+          "translation": "複数のAIツールが〜するとき"
+        },
+        {
+          "text": "take on different implementation and review tasks,",
+          "function": "行動",
+          "translation": "実装とレビューの異なる作業を分担する"
+        },
+        {
+          "text": "a common manifest keeps",
+          "function": "行動",
+          "translation": "共通のmanifestが保つ"
+        },
+        {
+          "text": "the project's overall state visible",
+          "function": "状態",
+          "translation": "プロジェクト全体の状態を見えるように"
+        },
+        {
+          "text": "even if no single conversation",
+          "function": "接続",
+          "translation": "どの一つの対話にも〜なくても"
+        },
+        {
+          "text": "contains the whole picture.",
+          "function": "内容",
+          "translation": "全体像が含まれている"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "when + 節",
+          "where": "When several AI tools ...",
+          "explanation": "複数ツールが分担する状況を示す。",
+          "rule": "When + 節, 主節"
+        },
+        {
+          "category": "語法",
+          "name": "take on + 仕事",
+          "where": "take on different implementation and review tasks",
+          "explanation": "異なる作業を引き受けることを表す。",
+          "rule": "take on + 名詞句"
+        },
+        {
+          "category": "使役",
+          "name": "keep O C",
+          "where": "keeps the project's overall state visible",
+          "explanation": "目的語をある状態に保つ。",
+          "rule": "keep + 目的語 + 形容詞"
+        },
+        {
+          "category": "所有格",
+          "name": "project's",
+          "where": "the project's overall state",
+          "explanation": "状態がプロジェクトに属することを示す。",
+          "rule": "名詞's + 名詞"
+        },
+        {
+          "category": "譲歩",
+          "name": "even if",
+          "where": "even if no single conversation ...",
+          "explanation": "条件が成立しても主節の結果が変わらないことを示す。",
+          "rule": "even if + 節"
+        },
+        {
+          "category": "限定",
+          "name": "no + 単数名詞",
+          "where": "no single conversation",
+          "explanation": "一つとして該当しないことを強調する。",
+          "rule": "no + 単数可算名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Several AI tools shares the work.",
+          "correct": "Several AI tools share the work.",
+          "why": "複数主語toolsには動詞原形shareを使う。"
+        },
+        {
+          "wrong": "A manifest keeps visible the state.",
+          "correct": "A manifest keeps the state visible.",
+          "why": "keep O Cでは目的語the stateを補語visibleの前に置く。"
+        },
+        {
+          "wrong": "Even if no conversation contain it.",
+          "correct": "Even if no conversation contains it.",
+          "why": "単数主語conversationに現在形containsを一致させる。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A shared manifest lets every AI tool work from the same project state.",
+          "translation": "共有manifestにより、どのAIツールも同じプロジェクト状態を基に作業できる。"
+        },
+        {
+          "text": "Separate chats become easier to coordinate when their decisions are recorded in one place.",
+          "translation": "別々の対話での決定を一か所に記録すると、連携しやすくなる。"
+        },
+        {
+          "text": "The manifest preserves the overview that individual conversations may lack.",
+          "translation": "manifestは、個々の対話には欠けることがある全体像を保つ。"
+        }
+      ],
+      "parseTree": "AdvClause(When S(several AI tools) V(take on) O(different implementation and review tasks)), S(a common manifest) V(keeps) O(the project's overall state) C(visible) AdvClause(even if S(no single conversation) V(contains) O(the whole picture))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "A common manifest keeps the state visible.",
+          "expanded": "A common manifest keeps the state visible because it records decisions outside individual chats.",
+          "nuance": "全体像を保てる理由を加える。"
+        },
+        {
+          "original": "Several AI tools take on different tasks.",
+          "expanded": "Several AI tools take on different tasks, so each tool needs a reliable handoff.",
+          "nuance": "分担から引き継ぎの必要性へつなぐ。"
+        },
+        {
+          "original": "No single conversation contains the whole picture.",
+          "expanded": "No single conversation contains the whole picture; therefore, the manifest becomes the shared reference.",
+          "nuance": "情報分散から共通参照の役割を導く。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The project's overall state is kept visible by a common manifest.",
+          "translation": "プロジェクト全体の状態は共通のmanifestによって見える状態に保たれる。",
+          "note": "状態を主語にして管理対象へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Sharing implementation and review, several AI tools rely on a common manifest.",
+          "translation": "実装とレビューを分担しながら、複数のAIツールは共通のmanifestに頼る。",
+          "note": "同時に行われる分担を分詞で圧縮する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The visibility of the overall project state depends on a common manifest.",
+          "translation": "プロジェクト全体の状態が見えることは共通のmanifestにかかっている。",
+          "note": "visibleをvisibilityへ名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "visible",
+            "alternatives": [
+              "clear",
+              "traceable",
+              "accessible"
+            ],
+            "nuance": "visibleは見える状態、traceableは経緯を追えることを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "譲歩",
+            "sentence": "Even if the chats are separate, the manifest can connect their decisions.",
+            "translation": "対話が別々でも、manifestはその決定をつなげられる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A shared manifest is more reliable than memory alone for tracking project state.",
+            "translation": "プロジェクト状態の追跡には、共有manifestの方が記憶だけより確実だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If every tool updates the manifest, the next handoff becomes easier.",
+            "translation": "各ツールがmanifestを更新すれば、次の引き継ぎは容易になる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What keeps the project coherent is the shared record, not any single chat.",
+            "translation": "プロジェクトの一貫性を保つのは、個々の対話ではなく共有記録だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "One manifest connects many AI workflows.",
+            "translation": "一つのmanifestが複数のAI工程をつなぐ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "分散した対話と共有記録の役割を明確にした。譲歩節を含むため音読難度はやや高い。"
+    }
+  },
+  {
+    "_no": 92,
+    "_generatedAt": "2026-08-25T02:06:00+09:00",
+    "sentence": "Unfamiliar GitHub terms become easier to remember when each term is linked to the action it describes, rather than to another technical label.",
+    "phonetic": "アンファミリア ギットハブ タームズ ビカム イーズィア トゥ リメンバー、ウェン イーチ ターム イズ リンクト トゥ ジ アクション イット ディスクライブズ、ラザー ザン トゥ アナザー テクニカル レイベル。",
+    "japaneseTranslation": "GitHubの不慣れな用語は、別の専門的な呼び名ではなく、それぞれが表す操作と結び付けると覚えやすくなる。",
+    "theme": "GitHub用語を操作へ翻訳して覚える",
+    "coreVerb": "link",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Terms become easier to remember.",
+        "translation": "用語は覚えやすくなる。"
+      },
+      "phase2": {
+        "sentence": "Unfamiliar GitHub terms become easier to remember.",
+        "translation": "GitHubの不慣れな用語は覚えやすくなる。",
+        "addedChunks": "Unfamiliar GitHubを加えて対象を限定する"
+      },
+      "phase3": {
+        "sentence": "GitHub terms become easier to remember when they are linked to actions.",
+        "translation": "GitHub用語は操作と結び付けると覚えやすくなる。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "An action is easier to remember than another technical label.",
+        "translation": "操作は、別の専門的な呼び名より覚えやすい。",
+        "comparison": "easier than"
+      },
+      "phase5": {
+        "sentence": "Unfamiliar GitHub terms become easier to remember when each term is linked to the action it describes, rather than to another technical label.",
+        "translation": "GitHubの不慣れな用語は、別の専門的な呼び名ではなく、それぞれが表す操作と結び付けると覚えやすくなる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Unfamiliar GitHub terms",
+          "function": "対象",
+          "translation": "GitHubの不慣れな用語は"
+        },
+        {
+          "text": "become easier to remember",
+          "function": "状態",
+          "translation": "覚えやすくなる"
+        },
+        {
+          "text": "when each term is linked",
+          "function": "接続",
+          "translation": "各用語が結び付けられると"
+        },
+        {
+          "text": "to the action it describes,",
+          "function": "対象",
+          "translation": "それが表す操作に"
+        },
+        {
+          "text": "rather than",
+          "function": "比較",
+          "translation": "〜ではなく"
+        },
+        {
+          "text": "to another technical label.",
+          "function": "対象",
+          "translation": "別の専門的な呼び名に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "補語",
+          "name": "become + 形容詞",
+          "where": "become easier",
+          "explanation": "状態の変化を表す。",
+          "rule": "become + 形容詞"
+        },
+        {
+          "category": "比較",
+          "name": "比較級 + to不定詞",
+          "where": "easier to remember",
+          "explanation": "ある行為のしやすさを表す。",
+          "rule": "比較級 + to + 動詞原形"
+        },
+        {
+          "category": "接続",
+          "name": "when + 節",
+          "where": "when each term is linked ...",
+          "explanation": "覚えやすくなる条件を示す。",
+          "rule": "when + 節"
+        },
+        {
+          "category": "受動態",
+          "name": "be linked to",
+          "where": "is linked to the action",
+          "explanation": "二つのものが関連付けられることを表す。",
+          "rule": "be linked to + 名詞"
+        },
+        {
+          "category": "関係節",
+          "name": "目的格関係詞の省略",
+          "where": "the action it describes",
+          "explanation": "the action that it describesのthatが省略されている。",
+          "rule": "先行詞 + 主語 + 動詞"
+        },
+        {
+          "category": "比較",
+          "name": "rather than",
+          "where": "rather than to another technical label",
+          "explanation": "選ばない対照項を示す。",
+          "rule": "A rather than B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Terms becomes easier to remember.",
+          "correct": "Terms become easier to remember.",
+          "why": "複数主語termsにはbecomeを使う。"
+        },
+        {
+          "wrong": "Each term are linked to an action.",
+          "correct": "Each term is linked to an action.",
+          "why": "each termは単数扱いなのでisを使う。"
+        },
+        {
+          "wrong": "The action it describe is clear.",
+          "correct": "The action it describes is clear.",
+          "why": "関係節内の主語itに動詞describesを一致させる。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "I remember GitHub vocabulary by connecting each term to a concrete operation.",
+          "translation": "各用語を具体的な操作と結び付けてGitHubの語彙を覚える。"
+        },
+        {
+          "text": "Technical words make more sense when I can picture what they do.",
+          "translation": "何をするか思い描けると、専門用語は理解しやすくなる。"
+        },
+        {
+          "text": "Translate the command into an action before memorizing its name.",
+          "translation": "名称を暗記する前に、コマンドを操作へ置き換えて理解しよう。"
+        }
+      ],
+      "parseTree": "S(Unfamiliar GitHub terms) V(become) C(easier to remember) AdvClause(when S(each term) V(is linked) PP(to the action [relative clause: it describes])) Contrast(rather than to another technical label)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The terms become easier to remember.",
+          "expanded": "The terms become easier to remember because concrete actions give them context.",
+          "nuance": "記憶しやすくなる理由を加える。"
+        },
+        {
+          "original": "Each term is linked to an action.",
+          "expanded": "Each term is linked to an action, so the vocabulary becomes less abstract.",
+          "nuance": "関連付けの結果を示す。"
+        },
+        {
+          "original": "Another label is not enough.",
+          "expanded": "Another label is not enough since it may add terminology without adding meaning.",
+          "nuance": "用語を重ねるだけでは不十分な理由を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Each unfamiliar term is remembered more easily when it is connected to an action.",
+          "translation": "不慣れな各用語は、操作と結び付けると覚えやすくなる。",
+          "note": "学習対象のtermを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Linked to concrete actions, GitHub terms become easier to remember.",
+          "translation": "具体的な操作と結び付けると、GitHub用語は覚えやすくなる。",
+          "note": "条件を過去分詞で圧縮する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The connection between terms and actions improves recall.",
+          "translation": "用語と操作の結び付きは記憶を改善する。",
+          "note": "linkをconnectionとして名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "unfamiliar",
+            "alternatives": [
+              "new",
+              "unknown",
+              "opaque"
+            ],
+            "nuance": "unfamiliarは接した経験が少ないこと、opaqueは意味が見えにくいことを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "手段",
+            "sentence": "I learn each term by matching it with a concrete action.",
+            "translation": "各用語を具体的な操作と対応させて学ぶ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A concrete action is easier to recall than an isolated label.",
+            "translation": "具体的な操作は、単独の呼び名より思い出しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If I can explain what a term does, I am more likely to remember it.",
+            "translation": "用語が何をするか説明できれば、覚えられる可能性が高まる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the action, not the label, that anchors the meaning.",
+            "translation": "意味を定着させるのは呼び名ではなく操作だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Learn the action behind the term.",
+            "translation": "用語の背後にある操作を学ぼう。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "専門語を別の専門語で置き換えず、具体的操作へ接続する学び方を自然な比較構造で示した。"
+    }
+  },
+  {
+    "_no": 93,
+    "_generatedAt": "2026-08-25T02:07:00+09:00",
+    "sentence": "A slow production method can retain artistic value even when it is no longer mainstream; however, a seven-year schedule still increases financial and coordination risks.",
+    "phonetic": "ア スロウ プロダクション メソッド キャン リテイン アーティスティック ヴァリュー、イーヴン ウェン イット イズ ノウ ロンガー メインストリーム。ハウエヴァー、ア セヴン イヤー スケジュール スティル インクリーシズ ファイナンシャル アンド コオーディネイション リスクス。",
+    "japaneseTranslation": "時間のかかる制作手法は、主流でなくなっても芸術的価値を保ちうる。しかし、7年に及ぶ制作日程は、それでも資金面と調整面のリスクを高める。",
+    "theme": "長期制作の芸術的価値と事業リスクを分ける",
+    "coreVerb": "retain",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A method retains value.",
+        "translation": "手法は価値を保つ。"
+      },
+      "phase2": {
+        "sentence": "A slow production method can retain artistic value.",
+        "translation": "時間のかかる制作手法は芸術的価値を保ちうる。",
+        "addedChunks": "slow productionとartisticを加え、手法と価値の種類を限定する"
+      },
+      "phase3": {
+        "sentence": "A slow production method can retain artistic value even when it is no longer mainstream.",
+        "translation": "時間のかかる制作手法は、主流でなくなっても芸術的価値を保ちうる。",
+        "connector": "even when"
+      },
+      "phase4": {
+        "sentence": "A seven-year production carries greater risk than a shorter schedule.",
+        "translation": "7年に及ぶ制作は、より短い日程より大きなリスクを伴う。",
+        "comparison": "greater than"
+      },
+      "phase5": {
+        "sentence": "A slow production method can retain artistic value even when it is no longer mainstream.",
+        "translation": "時間のかかる制作手法は、主流でなくなっても芸術的価値を保ちうる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A slow production method",
+          "function": "対象",
+          "translation": "時間のかかる制作手法は"
+        },
+        {
+          "text": "can retain artistic value",
+          "function": "行動",
+          "translation": "芸術的価値を保ちうる"
+        },
+        {
+          "text": "even when it is no longer mainstream;",
+          "function": "接続",
+          "translation": "主流でなくなっても"
+        },
+        {
+          "text": "however,",
+          "function": "接続",
+          "translation": "しかし"
+        },
+        {
+          "text": "a seven-year schedule still increases",
+          "function": "行動",
+          "translation": "7年に及ぶ制作日程は、それでも高める"
+        },
+        {
+          "text": "financial and coordination risks.",
+          "function": "対象",
+          "translation": "資金面と調整面のリスクを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can retain",
+          "explanation": "価値を保つ可能性を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "譲歩",
+          "name": "even when",
+          "where": "even when it is no longer mainstream",
+          "explanation": "状況が変わっても価値が残る対照を示す。",
+          "rule": "even when + 節"
+        },
+        {
+          "category": "状態",
+          "name": "no longer",
+          "where": "no longer mainstream",
+          "explanation": "以前はそうだったが現在は違うことを表す。",
+          "rule": "be no longer + 補語"
+        },
+        {
+          "category": "接続",
+          "name": "セミコロン + however",
+          "where": "; however,",
+          "explanation": "独立節同士を強い対照で結ぶ。",
+          "rule": "独立節; however, 独立節"
+        },
+        {
+          "category": "複合形容詞",
+          "name": "seven-year",
+          "where": "a seven-year schedule",
+          "explanation": "年数を名詞の前から修飾し、yearを単数形にする。",
+          "rule": "数詞-year + 名詞"
+        },
+        {
+          "category": "一致",
+          "name": "三人称単数現在",
+          "where": "schedule still increases",
+          "explanation": "単数主語scheduleにincreasesを一致させる。",
+          "rule": "単数主語 + 動詞-s"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A slow method can retains value.",
+          "correct": "A slow method can retain value.",
+          "why": "canの後ろは動詞原形retainを使う。"
+        },
+        {
+          "wrong": "It is no longer a mainstream.",
+          "correct": "It is no longer mainstream.",
+          "why": "mainstreamを形容詞として使う場合は冠詞aを置かない。"
+        },
+        {
+          "wrong": "A seven-years schedule increases risk.",
+          "correct": "A seven-year schedule increases risk.",
+          "why": "複合形容詞seven-yearではyearを単数形にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A demanding technique may remain artistically important without remaining commercially dominant.",
+          "translation": "手間のかかる技法は、商業的主流でなくても芸術的に重要であり続けることがある。"
+        },
+        {
+          "text": "Long schedules add costs and make coordination harder, even when the final work is highly valued.",
+          "translation": "完成作が高く評価されても、長い日程は費用を増やし調整を難しくする。"
+        },
+        {
+          "text": "Cultural value and production viability should be judged separately.",
+          "translation": "文化的価値と制作の実現可能性は分けて判断すべきだ。"
+        }
+      ],
+      "parseTree": "S(A slow production method) Aux(can) V(retain) O(artistic value) AdvClause(even when S(it) V(is) C(no longer mainstream)); Conj(however), S(a seven-year schedule) Adv(still) V(increases) O(financial and coordination risks)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The method can retain artistic value.",
+          "expanded": "The method can retain artistic value because audiences may prize its distinctive texture.",
+          "nuance": "価値が残る理由を可能性表現で示す。"
+        },
+        {
+          "original": "The schedule increases financial risk.",
+          "expanded": "The schedule increases financial risk since costs continue before revenue arrives.",
+          "nuance": "長期化が資金リスクへつながる経路を示す。"
+        },
+        {
+          "original": "Coordination risks increase.",
+          "expanded": "Coordination risks increase, so teams need durable records and handoff plans.",
+          "nuance": "人員変化に備える結果を加える。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Artistic value can be retained even after a method leaves the mainstream.",
+          "translation": "手法が主流を離れた後でも、芸術的価値は保たれうる。",
+          "note": "artistic valueを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Requiring seven years of work, the production carries substantial coordination risk.",
+          "translation": "7年の作業を要するため、その制作は大きな調整リスクを伴う。",
+          "note": "長期化の条件を現在分詞でまとめる。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The retention of artistic value does not guarantee commercial viability.",
+          "translation": "芸術的価値の保持は、商業的な実現可能性を保証しない。",
+          "note": "retainをretentionへ名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "retain",
+            "alternatives": [
+              "preserve",
+              "maintain",
+              "keep"
+            ],
+            "nuance": "retainは失わず保つ、preserveは保護して残す含みが強い。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "The technique may be culturally valuable, whereas the production model may be financially fragile.",
+            "translation": "その技法には文化的価値がある一方、制作モデルは資金面でもろい場合がある。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A seven-year schedule is harder to finance than a shorter production cycle.",
+            "translation": "7年の日程は、より短い制作周期より資金調達が難しい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If production takes many years, staff changes can complicate coordination.",
+            "translation": "制作に何年もかかれば、人員交代が調整を複雑にしうる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What threatens the project is not the technique itself but the accumulated production risk.",
+            "translation": "プロジェクトを脅かすのは技法そのものではなく、蓄積する制作リスクだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Artistic value can outlast commercial dominance.",
+            "translation": "芸術的価値は商業的優位より長く残りうる。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "芸術的価値と事業上の実現可能性を混同せず、譲歩と対照を二段階で示した。"
+    }
+  }
+]
