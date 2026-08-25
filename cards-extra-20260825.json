@@ -1,0 +1,705 @@
+[
+  {
+    "_no": 94,
+    "_generatedAt": "2026-08-26T02:04:00+09:00",
+    "sentence": "Publishing information about training data can improve transparency, but it does not by itself untangle fragmented ownership or identify every licensing route.",
+    "phonetic": "パブリシング インフォメイション アバウト トレイニング デイタ キャン インプルーヴ トランスペアレンシー、バット イット ダズ ノット バイ イットセルフ アンテングル フラグメンティッド オーナーシップ オア アイデンティファイ エヴリ ライセンシング ルート。",
+    "japaneseTranslation": "学習データに関する情報の公開は透明性を高めうるが、それだけで分散した権利関係を解きほぐしたり、すべての許諾経路を特定したりできるわけではない。",
+    "theme": "生成AIの透明性と権利処理を区別する",
+    "coreVerb": "improve",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Disclosure improves transparency.",
+        "translation": "情報公開は透明性を高める。"
+      },
+      "phase2": {
+        "sentence": "Publishing information about training data can improve transparency.",
+        "translation": "学習データに関する情報の公開は透明性を高めうる。",
+        "addedChunks": "about training dataとcanを加えて対象と可能性を示す"
+      },
+      "phase3": {
+        "sentence": "Publishing information can improve transparency, but it cannot resolve every rights issue.",
+        "translation": "情報公開は透明性を高めうるが、すべての権利問題を解決できるわけではない。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Detailed disclosure is more useful than a vague assurance.",
+        "translation": "詳しい情報公開は、曖昧な保証より有用だ。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "Publishing information about training data can improve transparency, but it does not by itself untangle fragmented ownership or identify every licensing route.",
+        "translation": "学習データに関する情報の公開は透明性を高めうるが、それだけで分散した権利関係を解きほぐしたり、すべての許諾経路を特定したりできるわけではない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Publishing information about training data",
+          "function": "行動",
+          "translation": "学習データに関する情報を公開することは"
+        },
+        {
+          "text": "can improve transparency,",
+          "function": "結果",
+          "translation": "透明性を高めうる"
+        },
+        {
+          "text": "but it does not by itself",
+          "function": "接続",
+          "translation": "しかし、それだけでは〜しない"
+        },
+        {
+          "text": "untangle fragmented ownership",
+          "function": "対象",
+          "translation": "分散した権利関係を解きほぐす"
+        },
+        {
+          "text": "or identify every licensing route.",
+          "function": "対象",
+          "translation": "あるいは、すべての許諾経路を特定する"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "主語",
+          "name": "動名詞句主語",
+          "where": "Publishing information about training data",
+          "explanation": "情報を公開する行為全体を主語にする。",
+          "rule": "動名詞句 + 単数扱いの動詞"
+        },
+        {
+          "category": "前置詞",
+          "name": "information about",
+          "where": "information about training data",
+          "explanation": "情報が何に関するものかを示す。",
+          "rule": "information about + 名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can improve",
+          "explanation": "透明性向上の可能性を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "対照",
+          "name": "but",
+          "where": "but it does not ...",
+          "explanation": "透明性向上と権利処理の限界を対照させる。",
+          "rule": "独立節, but 独立節"
+        },
+        {
+          "category": "強調",
+          "name": "by itself",
+          "where": "does not by itself",
+          "explanation": "それ単独では不十分であることを強調する。",
+          "rule": "by oneself / itself"
+        },
+        {
+          "category": "並列",
+          "name": "orによる動詞並列",
+          "where": "untangle ... or identify ...",
+          "explanation": "否定の及ぶ二つの動作を並列する。",
+          "rule": "not + 動詞A + or + 動詞B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Publishing information improve transparency.",
+          "correct": "Publishing information improves transparency.",
+          "why": "動名詞句主語は単数扱いなのでimprovesを使う。"
+        },
+        {
+          "wrong": "It does not untangles the rights.",
+          "correct": "It does not untangle the rights.",
+          "why": "does notの後ろは動詞原形untangleを使う。"
+        },
+        {
+          "wrong": "Every licensing routes are clear.",
+          "correct": "Every licensing route is clear.",
+          "why": "everyの後ろは単数名詞と単数動詞を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Greater transparency can clarify how data is handled without settling every ownership question.",
+          "translation": "透明性の向上はデータの扱いを明確にできるが、すべての所有権問題を決着させるわけではない。"
+        },
+        {
+          "text": "Disclosure helps, but licensing may remain difficult when many rights holders are involved.",
+          "translation": "情報公開は役立つが、多数の権利者が関わると許諾は難しいままの場合がある。"
+        },
+        {
+          "text": "Knowing the data source is not the same as knowing who can grant permission.",
+          "translation": "データの出所を知ることと、誰が許諾できるかを知ることは同じではない。"
+        }
+      ],
+      "parseTree": "S(GerundPhrase: Publishing information about training data) Aux(can) V(improve) O(transparency), Conj(but) S(it) Aux(does not) Adv(by itself) V(untangle) O(fragmented ownership) Conj(or) V(identify) O(every licensing route)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Disclosure can improve transparency.",
+          "expanded": "Disclosure can improve transparency because users gain more information about data practices.",
+          "nuance": "透明性が高まる理由を示す。"
+        },
+        {
+          "original": "Rights may remain fragmented.",
+          "expanded": "Rights may remain fragmented, so identifying the correct licensor can still take time.",
+          "nuance": "権利分散から許諾先探索の難しさへつなぐ。"
+        },
+        {
+          "original": "Disclosure is not sufficient.",
+          "expanded": "Disclosure is not sufficient since information alone cannot create missing permissions.",
+          "nuance": "公開だけでは許諾を代替できないことを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Transparency can be improved by publishing information about training data.",
+          "translation": "透明性は、学習データに関する情報を公開することで高められうる。",
+          "note": "transparencyを主語にして効果へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Providing more information, AI companies can make their data practices easier to examine.",
+          "translation": "より多くの情報を提供することで、AI企業はデータ運用を検証しやすくできる。",
+          "note": "情報提供を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The disclosure of training-data practices does not guarantee the resolution of licensing issues.",
+          "translation": "学習データ運用の開示は、許諾問題の解決を保証しない。",
+          "note": "publishとresolveを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "untangle",
+            "alternatives": [
+              "clarify",
+              "sort out",
+              "resolve"
+            ],
+            "nuance": "untangleは絡み合った関係をほどく比喩、resolveは問題を最終的に解決する語。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "限界",
+            "sentence": "Disclosure reveals the process without automatically resolving the rights.",
+            "translation": "情報公開は過程を明らかにするが、自動的に権利問題を解決するわけではない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Specific data information is more useful than a general claim of compliance.",
+            "translation": "具体的なデータ情報は、一般的な順守表明より有用だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If ownership is fragmented, disclosure may not reveal a single licensing contact.",
+            "translation": "所有権が分散していれば、情報公開をしても単一の許諾窓口は分からない場合がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What disclosure provides is visibility, not permission itself.",
+            "translation": "情報公開が与えるのは可視性であって、許諾そのものではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Transparency helps; permission still matters.",
+            "translation": "透明性は役立つが、許諾はなお必要だ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "政策の目的を認めつつ、透明性と権利処理を混同しない。rightsが抽象語なので語彙難度はやや高い。"
+    }
+  },
+  {
+    "_no": 95,
+    "_generatedAt": "2026-08-26T02:05:00+09:00",
+    "sentence": "Technical skill alone does not create a distinctive musical world; a consistent mood and viewpoint can matter more than flawless execution.",
+    "phonetic": "テクニカル スキル アローン ダズ ノット クリエイト ア ディスティンクティヴ ミュージカル ワールド。ア コンシステント ムード アンド ヴューポイント キャン マター モア ザン フローレス エクセキューション。",
+    "japaneseTranslation": "技術力だけでは独自の音楽世界は生まれない。一貫した雰囲気と視点は、完璧な演奏以上に重要になりうる。",
+    "theme": "演奏技術と作品世界の魅力を分ける",
+    "coreVerb": "matter",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Skill does not create a world.",
+        "translation": "技術だけでは世界は生まれない。"
+      },
+      "phase2": {
+        "sentence": "Technical skill alone does not create a distinctive musical world.",
+        "translation": "技術力だけでは独自の音楽世界は生まれない。",
+        "addedChunks": "aloneとdistinctive musicalを加えて対比の焦点を明確にする"
+      },
+      "phase3": {
+        "sentence": "Technical skill matters, but mood and viewpoint also shape the music.",
+        "translation": "技術は重要だが、雰囲気と視点も音楽を形作る。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "A coherent musical world can matter more than flawless execution.",
+        "translation": "一貫した音楽世界は、完璧な演奏以上に重要になりうる。",
+        "comparison": "more than"
+      },
+      "phase5": {
+        "sentence": "Technical skill alone does not create a distinctive musical world; a consistent mood and viewpoint can matter more than flawless execution.",
+        "translation": "技術力だけでは独自の音楽世界は生まれない。一貫した雰囲気と視点は、完璧な演奏以上に重要になりうる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Technical skill alone",
+          "function": "対象",
+          "translation": "技術力だけでは"
+        },
+        {
+          "text": "does not create",
+          "function": "行動",
+          "translation": "生み出さない"
+        },
+        {
+          "text": "a distinctive musical world;",
+          "function": "対象",
+          "translation": "独自の音楽世界を"
+        },
+        {
+          "text": "a consistent mood and viewpoint",
+          "function": "対象",
+          "translation": "一貫した雰囲気と視点は"
+        },
+        {
+          "text": "can matter more than",
+          "function": "比較",
+          "translation": "〜以上に重要になりうる"
+        },
+        {
+          "text": "flawless execution.",
+          "function": "対象",
+          "translation": "完璧な演奏より"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "限定",
+          "name": "alone",
+          "where": "Technical skill alone",
+          "explanation": "技術力だけに範囲を限定する。",
+          "rule": "名詞句 + alone"
+        },
+        {
+          "category": "否定",
+          "name": "does not + 動詞原形",
+          "where": "does not create",
+          "explanation": "単数主語skillの現在形を否定する。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "冠詞",
+          "name": "a + 可算名詞",
+          "where": "a distinctive musical world",
+          "explanation": "一つの独自な作品世界を表す。",
+          "rule": "a + 形容詞 + 単数可算名詞"
+        },
+        {
+          "category": "接続",
+          "name": "セミコロン",
+          "where": "world; a consistent mood ...",
+          "explanation": "意味の近い二つの独立節を結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can matter",
+          "explanation": "重要になりうる可能性を示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "比較",
+          "name": "more than",
+          "where": "matter more than flawless execution",
+          "explanation": "重要度の比較対象を明示する。",
+          "rule": "動詞 + more than + 名詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Technical skill alone do not create it.",
+          "correct": "Technical skill alone does not create it.",
+          "why": "単数主語skillにはdoes notを使う。"
+        },
+        {
+          "wrong": "It does not creates a musical world.",
+          "correct": "It does not create a musical world.",
+          "why": "does notの後ろは動詞原形createを使う。"
+        },
+        {
+          "wrong": "Mood can matters more than technique.",
+          "correct": "Mood can matter more than technique.",
+          "why": "canの後ろは動詞原形matterを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A recognizable artistic identity may matter more than technical perfection.",
+          "translation": "認識できるほど明確な芸術的個性は、技術的な完璧さ以上に重要な場合がある。"
+        },
+        {
+          "text": "Strong musicianship cannot replace a missing point of view.",
+          "translation": "高い演奏力でも、欠けている視点を埋めることはできない。"
+        },
+        {
+          "text": "Listeners may remember the atmosphere even when the performance is not flawless.",
+          "translation": "演奏が完璧でなくても、聴き手は雰囲気を覚えていることがある。"
+        }
+      ],
+      "parseTree": "S(Technical skill alone) Aux(does not) V(create) O(a distinctive musical world); S(a consistent mood and viewpoint) Aux(can) V(matter) Comp(more than flawless execution)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Mood can matter.",
+          "expanded": "Mood can matter because it gives separate songs a recognizable identity.",
+          "nuance": "雰囲気が重要になる理由を示す。"
+        },
+        {
+          "original": "Technical skill is not enough.",
+          "expanded": "Technical skill is not enough, so artists also need a point of view.",
+          "nuance": "技術以外の要素へ結論をつなぐ。"
+        },
+        {
+          "original": "The musical world feels coherent.",
+          "expanded": "The musical world feels coherent since the mood and viewpoint remain consistent.",
+          "nuance": "一貫性が生まれる理由を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A distinctive musical world cannot be created by technical skill alone.",
+          "translation": "独自の音楽世界は技術力だけでは生み出せない。",
+          "note": "musical worldを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Maintaining a consistent mood, an artist can build a distinctive musical world.",
+          "translation": "一貫した雰囲気を保つことで、アーティストは独自の音楽世界を築ける。",
+          "note": "手段を現在分詞で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The consistency of mood can outweigh technical perfection.",
+          "translation": "雰囲気の一貫性は技術的な完璧さを上回りうる。",
+          "note": "consistentをconsistencyへ名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "distinctive",
+            "alternatives": [
+              "unique",
+              "recognizable",
+              "characteristic"
+            ],
+            "nuance": "distinctiveは他と区別できる特徴、uniqueは唯一性を強く示す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "The playing may be simple, whereas the artistic identity is highly refined.",
+            "translation": "演奏は簡素でも、芸術的個性は高度に洗練されている場合がある。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A coherent atmosphere can be more memorable than technical display.",
+            "translation": "一貫した雰囲気は、技巧の誇示より記憶に残ることがある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the viewpoint fades, better technique may not preserve the original appeal.",
+            "translation": "視点が薄れれば、技術が向上しても元の魅力を保てない場合がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What defines the music is not skill alone but the world built around it.",
+            "translation": "音楽を特徴づけるのは技術だけでなく、その周囲に築かれた世界だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Identity can outweigh perfection.",
+            "translation": "個性は完璧さを上回りうる。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "主観的な好みを普遍的事実にせず、作品評価で使える比較表現へ整理した。"
+    }
+  },
+  {
+    "_no": 96,
+    "_generatedAt": "2026-08-26T02:06:00+09:00",
+    "sentence": "A public confrontation may draw attention while leaving the underlying grievance unexplained, especially when symbolic gestures replace direct discussion.",
+    "phonetic": "ア パブリック コンフロンテイション メイ ドロー アテンション ワイル リーヴィング ジ アンダーライイング グリーヴァンス アンエクスプレインド、エスペシャリー ウェン シンボリック ジェスチャーズ リプレイス ダイレクト ディスカッション。",
+    "japaneseTranslation": "公の場での対立は、根底にある不満を説明しないまま注目を集めることがある。特に、象徴的な行為が直接の話し合いに取って代わるときはそうなりやすい。",
+    "theme": "公的な衝突と説明を区別する",
+    "coreVerb": "replace",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A confrontation draws attention.",
+        "translation": "対立は注目を集める。"
+      },
+      "phase2": {
+        "sentence": "A public confrontation may draw attention.",
+        "translation": "公の場での対立は注目を集めることがある。",
+        "addedChunks": "publicとmayを加えて場面と可能性を示す"
+      },
+      "phase3": {
+        "sentence": "A confrontation may draw attention while leaving the grievance unexplained.",
+        "translation": "対立は、不満を説明しないまま注目を集めることがある。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "Direct discussion explains more than symbolic gestures do.",
+        "translation": "直接の話し合いは、象徴的な行為より多くを説明する。",
+        "comparison": "more than"
+      },
+      "phase5": {
+        "sentence": "A public confrontation may draw attention while leaving the underlying grievance unexplained, especially when symbolic gestures replace direct discussion.",
+        "translation": "公の場での対立は、根底にある不満を説明しないまま注目を集めることがある。特に、象徴的な行為が直接の話し合いに取って代わるときはそうなりやすい。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A public confrontation",
+          "function": "対象",
+          "translation": "公の場での対立は"
+        },
+        {
+          "text": "may draw attention",
+          "function": "行動",
+          "translation": "注目を集めることがある"
+        },
+        {
+          "text": "while leaving",
+          "function": "接続",
+          "translation": "〜を残したまま"
+        },
+        {
+          "text": "the underlying grievance unexplained,",
+          "function": "状態",
+          "translation": "根底にある不満を説明されない状態に"
+        },
+        {
+          "text": "especially when symbolic gestures",
+          "function": "接続",
+          "translation": "特に象徴的な行為が〜するとき"
+        },
+        {
+          "text": "replace direct discussion.",
+          "function": "行動",
+          "translation": "直接の話し合いに取って代わる"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may draw",
+          "explanation": "起こりうる結果を断定せず表す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "draw attention",
+          "where": "draw attention",
+          "explanation": "注目を集めるという定型表現。",
+          "rule": "draw + attention"
+        },
+        {
+          "category": "接続",
+          "name": "while + 動名詞",
+          "where": "while leaving",
+          "explanation": "主節と同時に続く別の状態を示す。",
+          "rule": "while + -ing"
+        },
+        {
+          "category": "使役",
+          "name": "leave O C",
+          "where": "leaving the underlying grievance unexplained",
+          "explanation": "目的語を説明されない状態に残す。",
+          "rule": "leave + 目的語 + 過去分詞"
+        },
+        {
+          "category": "修飾",
+          "name": "especially when",
+          "where": "especially when symbolic gestures ...",
+          "explanation": "特に当てはまる状況を示す。",
+          "rule": "especially when + 節"
+        },
+        {
+          "category": "語法",
+          "name": "replace A",
+          "where": "replace direct discussion",
+          "explanation": "主語が目的語に取って代わることを表す。",
+          "rule": "A replaces B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A confrontation may draws attention.",
+          "correct": "A confrontation may draw attention.",
+          "why": "mayの後ろは動詞原形drawを使う。"
+        },
+        {
+          "wrong": "It leaves unexplained the grievance.",
+          "correct": "It leaves the grievance unexplained.",
+          "why": "leave O Cでは目的語を補語unexplainedの前に置く。"
+        },
+        {
+          "wrong": "Symbolic gestures replaces discussion.",
+          "correct": "Symbolic gestures replace discussion.",
+          "why": "複数主語gesturesには動詞原形replaceを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A dramatic gesture can become the story even when the original dispute remains unclear.",
+          "translation": "元の争いが不明なままでも、劇的な行為そのものが物語になることがある。"
+        },
+        {
+          "text": "Public spectacle may amplify a conflict without explaining its cause.",
+          "translation": "公的な見せ場は、原因を説明せずに対立を増幅する場合がある。"
+        },
+        {
+          "text": "Direct explanation resolves more than symbolic retaliation.",
+          "translation": "直接の説明は、象徴的な報復より多くのことを解決する。"
+        }
+      ],
+      "parseTree": "S(A public confrontation) Aux(may) V(draw) O(attention) AdvClause(while V-ing(leaving) O(the underlying grievance) C(unexplained)), AdvClause(especially when S(symbolic gestures) V(replace) O(direct discussion))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The confrontation draws attention.",
+          "expanded": "The confrontation draws attention because public conflict is visually dramatic.",
+          "nuance": "注目が集まる理由を示す。"
+        },
+        {
+          "original": "The grievance remains unexplained.",
+          "expanded": "The grievance remains unexplained, so observers may focus on the gesture instead of the cause.",
+          "nuance": "説明不足が注目先を変える結果を示す。"
+        },
+        {
+          "original": "Symbolic gestures replace discussion.",
+          "expanded": "Symbolic gestures replace discussion when neither side explains the dispute directly.",
+          "nuance": "置き換えが生じる条件を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The underlying grievance may be left unexplained by a public confrontation.",
+          "translation": "根底にある不満は、公の場での対立によって説明されないまま残ることがある。",
+          "note": "grievanceを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Drawing public attention, the confrontation can obscure the original grievance.",
+          "translation": "公の注目を集めることで、その対立は元の不満を見えにくくすることがある。",
+          "note": "同時に生じる効果を現在分詞で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The replacement of discussion with symbolic gestures weakens explanation.",
+          "translation": "話し合いを象徴的な行為で置き換えることは説明を弱める。",
+          "note": "replaceをreplacementへ名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "grievance",
+            "alternatives": [
+              "complaint",
+              "resentment",
+              "dispute"
+            ],
+            "nuance": "grievanceは根拠があると感じている不満、resentmentは感情としての恨みを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "同時進行",
+            "sentence": "The scene becomes more dramatic while the cause becomes less clear.",
+            "translation": "場面が劇的になる一方で、原因は分かりにくくなる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Direct discussion is more informative than a symbolic clash.",
+            "translation": "直接の話し合いは象徴的な衝突より多くの情報を与える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If neither side explains the grievance, the spectacle may define the event.",
+            "translation": "どちらも不満を説明しなければ、見せ場が出来事全体を規定してしまうことがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What attracts attention is the confrontation, not the unresolved cause behind it.",
+            "translation": "注目を集めるのは対立であり、その背後の未解決の原因ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Spectacle can replace explanation.",
+            "translation": "見せ場が説明に取って代わることがある。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 8,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "事件固有の人物評価を避け、注目と説明のずれを一般化した。grievanceは抽象度が高いためclarityを8とした。"
+    }
+  }
+]
