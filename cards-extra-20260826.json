@@ -1,0 +1,700 @@
+[
+  {
+    "_no": 97,
+    "_generatedAt": "2026-08-27T02:01:00+09:00",
+    "sentence": "Automation can reduce routine errors, but a damaged system still needs human judgment because its assumptions may no longer hold.",
+    "phonetic": "オートメイション キャン リデュース ルーティーン エラーズ、バット ア ダメジド システム スティル ニーズ ヒューマン ジャッジメント ビコーズ イッツ アサンプションズ メイ ノー ロンガー ホールド。",
+    "japaneseTranslation": "自動化は日常的なミスを減らせるが、壊れたシステムにはなお人間の判断が必要だ。前提がもはや成り立たない可能性があるからだ。",
+    "theme": "自動化の平常運転と異常時判断を分ける",
+    "coreVerb": "need",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Automation reduces errors.",
+        "translation": "自動化はミスを減らす。"
+      },
+      "phase2": {
+        "sentence": "Automation can reduce routine errors.",
+        "translation": "自動化は日常的なミスを減らせる。",
+        "addedChunks": "canとroutineを加え、効果の範囲を限定する"
+      },
+      "phase3": {
+        "sentence": "Automation can reduce routine errors, but failures still require judgment.",
+        "translation": "自動化は日常的なミスを減らせるが、障害時にはなお判断が必要だ。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Recovery may require more judgment than normal operation does.",
+        "translation": "復旧には通常運転より多くの判断が必要な場合がある。",
+        "comparison": "more judgment than"
+      },
+      "phase5": {
+        "sentence": "Automation can reduce routine errors, but a damaged system still needs human judgment because its assumptions may no longer hold.",
+        "translation": "自動化は日常的なミスを減らせるが、壊れたシステムにはなお人間の判断が必要だ。前提がもはや成り立たない可能性があるからだ。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Automation can reduce routine errors,",
+          "function": "行動",
+          "translation": "自動化は日常的なミスを減らせる"
+        },
+        {
+          "text": "but a damaged system",
+          "function": "接続",
+          "translation": "しかし壊れたシステムには"
+        },
+        {
+          "text": "still needs human judgment",
+          "function": "行動",
+          "translation": "なお人間の判断が必要だ"
+        },
+        {
+          "text": "because its assumptions",
+          "function": "理由",
+          "translation": "その前提が"
+        },
+        {
+          "text": "may no longer hold.",
+          "function": "状態",
+          "translation": "もはや成り立たない可能性があるからだ"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can reduce",
+          "explanation": "自動化の効果を可能性として示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "対照",
+          "name": "but",
+          "where": "but a damaged system",
+          "explanation": "平常時の利点と異常時の必要を対照させる。",
+          "rule": "独立節, but 独立節"
+        },
+        {
+          "category": "分詞",
+          "name": "過去分詞の形容詞用法",
+          "where": "a damaged system",
+          "explanation": "損傷した状態のシステムを表す。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "副詞",
+          "name": "still",
+          "where": "still needs",
+          "explanation": "自動化後にも必要性が残ることを示す。",
+          "rule": "still + 一般動詞"
+        },
+        {
+          "category": "理由",
+          "name": "because",
+          "where": "because its assumptions ...",
+          "explanation": "人間の判断が必要な理由を示す。",
+          "rule": "because + 節"
+        },
+        {
+          "category": "変化",
+          "name": "no longer",
+          "where": "may no longer hold",
+          "explanation": "以前の前提が現在は成立しない可能性を表す。",
+          "rule": "may no longer + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Automation can reduces errors.",
+          "correct": "Automation can reduce errors.",
+          "why": "canの後ろは動詞原形を使う。"
+        },
+        {
+          "wrong": "A damaged system still need judgment.",
+          "correct": "A damaged system still needs judgment.",
+          "why": "単数主語systemにはneedsを使う。"
+        },
+        {
+          "wrong": "Its assumptions may no longer holds.",
+          "correct": "Its assumptions may no longer hold.",
+          "why": "mayの後ろは動詞原形holdを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Automation handles repetition well, whereas recovery often requires human interpretation.",
+          "translation": "自動化は反復処理に強い一方、復旧には人間の解釈が必要なことが多い。"
+        },
+        {
+          "text": "A reliable process still needs an escalation path for unusual failures.",
+          "translation": "信頼できる工程にも、異常な障害のためのエスカレーション経路が必要だ。"
+        },
+        {
+          "text": "When system assumptions fail, operators must reassess the situation rather than repeat the normal procedure.",
+          "translation": "システムの前提が崩れたら、作業者は通常手順を繰り返すのではなく状況を再評価しなければならない。"
+        }
+      ],
+      "parseTree": "S(Automation) Aux(can) V(reduce) O(routine errors), Conj(but) S(a damaged system) Adv(still) V(needs) O(human judgment) AdvClause(because S(its assumptions) Aux(may) Adv(no longer) V(hold))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Automation reduces routine errors.",
+          "expanded": "Automation reduces routine errors because it applies the same rule consistently.",
+          "nuance": "平常時に誤りが減る理由を示す。"
+        },
+        {
+          "original": "The system is damaged.",
+          "expanded": "The system is damaged, so normal outputs may no longer be trustworthy.",
+          "nuance": "損傷から出力への影響を示す。"
+        },
+        {
+          "original": "Human judgment is needed.",
+          "expanded": "Human judgment is needed since unusual failures can violate the system's assumptions.",
+          "nuance": "異常時に判断が必要な理由を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Routine errors can be reduced through automation.",
+          "translation": "日常的なミスは自動化によって減らせる。",
+          "note": "errorsを主語にして効果へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Losing its original assumptions, the system may require human intervention.",
+          "translation": "元の前提を失うと、そのシステムには人間の介入が必要になる場合がある。",
+          "note": "前提の喪失を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "System damage creates a need for human judgment.",
+          "translation": "システムの損傷は人間の判断の必要性を生む。",
+          "note": "damageとneedを名詞として用いる。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "hold",
+            "alternatives": [
+              "remain valid",
+              "apply",
+              "stay true"
+            ],
+            "nuance": "holdは前提や規則が成り立つことを簡潔に表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Automation is strongest in normal operation, whereas people become crucial during recovery.",
+            "translation": "自動化は通常運転で最も強く、人は復旧時に重要になる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Exception handling requires more context than routine processing does.",
+            "translation": "例外処理には定型処理より多くの文脈が必要だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the operating assumptions change, the automated rule may produce the wrong result.",
+            "translation": "運用上の前提が変われば、自動化された規則は誤った結果を出すことがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the damaged system needs is reassessment, not blind repetition.",
+            "translation": "壊れたシステムに必要なのは再評価であり、盲目的な反復ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Automate routines; escalate exceptions.",
+            "translation": "定型は自動化し、例外は上位判断へ回す。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "平常運転と異常時を明確に分けた。assumptionsは抽象語だがbecause節で参照関係は明確。"
+    }
+  },
+  {
+    "_no": 98,
+    "_generatedAt": "2026-08-27T02:02:00+09:00",
+    "sentence": "Leaving school does not end learning; access to time, money, and guidance often shapes which skills a young person can develop.",
+    "phonetic": "リーヴィング スクール ダズ ノット エンド ラーニング。アクセス トゥ タイム、マニー、アンド ガイダンス オーフン シェイプス ウィッチ スキルズ ア ヤング パーソン キャン ディヴェロップ。",
+    "japaneseTranslation": "学校を離れても学びが終わるわけではない。時間・お金・指導へのアクセスが、若者がどの技能を伸ばせるかを左右することが多い。",
+    "theme": "学校外学習と家庭資源の影響を考える",
+    "coreVerb": "shape",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Learning continues.",
+        "translation": "学びは続く。"
+      },
+      "phase2": {
+        "sentence": "Learning can continue outside school.",
+        "translation": "学びは学校の外でも続けられる。",
+        "addedChunks": "outside schoolを加えて学習場所を広げる"
+      },
+      "phase3": {
+        "sentence": "Learning can continue outside school, but resources affect the options.",
+        "translation": "学びは学校の外でも続けられるが、資源が選択肢に影響する。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Guidance may matter as much as available time.",
+        "translation": "指導は、利用できる時間と同じくらい重要な場合がある。",
+        "comparison": "as much as"
+      },
+      "phase5": {
+        "sentence": "Leaving school does not end learning; access to time, money, and guidance often shapes which skills a young person can develop.",
+        "translation": "学校を離れても学びが終わるわけではない。時間・お金・指導へのアクセスが、若者がどの技能を伸ばせるかを左右することが多い。",
+        "relativizer": "which"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Leaving school",
+          "function": "行動",
+          "translation": "学校を離れることは"
+        },
+        {
+          "text": "does not end learning;",
+          "function": "結果",
+          "translation": "学びを終わらせるわけではない"
+        },
+        {
+          "text": "access to time, money, and guidance",
+          "function": "対象",
+          "translation": "時間・お金・指導へのアクセスが"
+        },
+        {
+          "text": "often shapes",
+          "function": "行動",
+          "translation": "しばしば左右する"
+        },
+        {
+          "text": "which skills",
+          "function": "内容",
+          "translation": "どの技能を"
+        },
+        {
+          "text": "a young person can develop.",
+          "function": "内容",
+          "translation": "若者が伸ばせるかを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "主語",
+          "name": "動名詞句主語",
+          "where": "Leaving school",
+          "explanation": "学校を離れる行為全体を主語にする。",
+          "rule": "動名詞句 + 単数動詞"
+        },
+        {
+          "category": "否定",
+          "name": "does not end",
+          "where": "does not end learning",
+          "explanation": "学校を離れることと学習終了を同一視しない。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "接続",
+          "name": "セミコロン",
+          "where": "learning; access",
+          "explanation": "関連する二つの独立節を結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "前置詞",
+          "name": "access to",
+          "where": "access to time, money, and guidance",
+          "explanation": "利用できる対象を列挙する。",
+          "rule": "access to + 名詞"
+        },
+        {
+          "category": "頻度",
+          "name": "often",
+          "where": "often shapes",
+          "explanation": "すべての場合ではなく、頻繁な傾向として示す。",
+          "rule": "often + 一般動詞"
+        },
+        {
+          "category": "名詞節",
+          "name": "which + 名詞",
+          "where": "which skills a young person can develop",
+          "explanation": "伸ばせる技能の選択範囲を名詞節で表す。",
+          "rule": "which + 名詞 + 主語 + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Leaving school do not end learning.",
+          "correct": "Leaving school does not end learning.",
+          "why": "動名詞句主語は単数扱いなのでdoesを使う。"
+        },
+        {
+          "wrong": "Access for guidance shapes choices.",
+          "correct": "Access to guidance shapes choices.",
+          "why": "accessは前置詞toと組み合わせる。"
+        },
+        {
+          "wrong": "Which skills can a young person develop is shaped by resources.",
+          "correct": "Which skills a young person can develop is shaped by resources.",
+          "why": "埋め込み疑問では疑問文語順にしない。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "School attendance and skill development are related, but they are not identical.",
+          "translation": "学校への出席と技能の発達は関係するが、同一ではない。"
+        },
+        {
+          "text": "Independent learning becomes easier when a student has time, equipment, and informed support.",
+          "translation": "時間、機材、適切な支援があれば、自主学習は容易になる。"
+        },
+        {
+          "text": "Two students outside school may face very different opportunities because their resources differ.",
+          "translation": "学校外にいる二人の生徒でも、資源が異なれば直面する機会は大きく違いうる。"
+        }
+      ],
+      "parseTree": "S(GerundPhrase: Leaving school) Aux(does not) V(end) O(learning); S(access to time, money, and guidance) Adv(often) V(shapes) O(NounClause: which skills a young person can develop)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Learning can continue outside school.",
+          "expanded": "Learning can continue outside school because practice is not confined to a classroom.",
+          "nuance": "学校外でも学べる理由を示す。"
+        },
+        {
+          "original": "Resources shape options.",
+          "expanded": "Resources shape options, so equally motivated students may reach different opportunities.",
+          "nuance": "資源差から機会差へつなぐ。"
+        },
+        {
+          "original": "Guidance matters.",
+          "expanded": "Guidance matters since it helps learners choose effective practice and avoid dead ends.",
+          "nuance": "指導が有効な理由を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A young person's learning options are shaped by available time, money, and guidance.",
+          "translation": "若者の学習選択肢は、利用できる時間・お金・指導によって形作られる。",
+          "note": "learning optionsを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Given enough support, a learner can develop skills outside school.",
+          "translation": "十分な支援があれば、学習者は学校外でも技能を伸ばせる。",
+          "note": "条件を過去分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Resource availability influences skill development outside school.",
+          "translation": "利用可能な資源は学校外での技能発達に影響する。",
+          "note": "availableとdevelopを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "shape",
+            "alternatives": [
+              "influence",
+              "determine",
+              "constrain"
+            ],
+            "nuance": "shapeは方向づける語で、determineほど完全な決定を意味しない。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "区別",
+            "sentence": "Leaving school changes the setting, not the human capacity to learn.",
+            "translation": "学校を離れることで変わるのは環境であり、人間の学習能力ではない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Reliable guidance can be more valuable than extra practice without direction.",
+            "translation": "信頼できる指導は、方向性のない追加練習より価値がある場合がある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If time and equipment are scarce, independent study becomes harder to sustain.",
+            "translation": "時間と機材が乏しければ、自主学習の継続は難しくなる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What differs is often access to opportunity, not willingness to learn.",
+            "translation": "異なるのは学ぶ意欲ではなく、機会へのアクセスであることが多い。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Learning continues; access shapes its path.",
+            "translation": "学びは続くが、アクセスがその道筋を形作る。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "不登校を能力不足と同一視せず、資源の影響も決定論ではなくoftenで限定した。"
+    }
+  },
+  {
+    "_no": 99,
+    "_generatedAt": "2026-08-27T02:03:00+09:00",
+    "sentence": "When deadlines outrun shared understanding, teams may implement a workable idea only halfway, creating more follow-up work than the original task would have required.",
+    "phonetic": "ウェン デッドラインズ アウトラン シェアド アンダースタンディング、チームズ メイ インプリメント ア ワーカブル アイディア オンリー ハーフウェイ、クリエイティング モア フォローアップ ワーク ザン ジ オリジナル タスク ウド ハヴ リクワイアド。",
+    "japaneseTranslation": "納期が共通理解の形成より先走ると、チームは実行可能な案を途中までしか実装できず、元の作業だけなら必要だった以上の後続作業を生むことがある。",
+    "theme": "納期圧力と中途半端な実装の連鎖を捉える",
+    "coreVerb": "implement",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Teams implement an idea.",
+        "translation": "チームは案を実装する。"
+      },
+      "phase2": {
+        "sentence": "Teams may implement a workable idea only halfway.",
+        "translation": "チームは実行可能な案を途中までしか実装できないことがある。",
+        "addedChunks": "may、workable、only halfwayを加えて可能性と未完了を示す"
+      },
+      "phase3": {
+        "sentence": "Teams may stop halfway when deadlines outrun understanding.",
+        "translation": "納期が理解より先走ると、チームは途中で止まることがある。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "A rushed implementation can create more work than a careful plan does.",
+        "translation": "急いだ実装は、慎重な計画より多くの作業を生むことがある。",
+        "comparison": "more work than"
+      },
+      "phase5": {
+        "sentence": "When deadlines outrun shared understanding, teams may implement a workable idea only halfway, creating more follow-up work than the original task would have required.",
+        "translation": "納期が共通理解の形成より先走ると、チームは実行可能な案を途中までしか実装できず、元の作業だけなら必要だった以上の後続作業を生むことがある。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When deadlines outrun shared understanding,",
+          "function": "時間",
+          "translation": "納期が共通理解の形成より先走ると"
+        },
+        {
+          "text": "teams may implement",
+          "function": "行動",
+          "translation": "チームは実装することがある"
+        },
+        {
+          "text": "a workable idea only halfway,",
+          "function": "様態",
+          "translation": "実行可能な案を途中までしか"
+        },
+        {
+          "text": "creating more follow-up work",
+          "function": "結果",
+          "translation": "より多くの後続作業を生み"
+        },
+        {
+          "text": "than the original task would have required.",
+          "function": "比較",
+          "translation": "元の作業だけなら必要だった以上に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "条件",
+          "name": "when節",
+          "where": "When deadlines outrun shared understanding",
+          "explanation": "問題が起こりやすい状況を示す。",
+          "rule": "When + 主語 + 動詞, 主節"
+        },
+        {
+          "category": "比喩",
+          "name": "outrun",
+          "where": "deadlines outrun shared understanding",
+          "explanation": "納期の進行が理解形成を追い越すことを表す。",
+          "rule": "A outruns B"
+        },
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may implement",
+          "explanation": "常に起こると断定せず可能性を示す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "限定",
+          "name": "only halfway",
+          "where": "only halfway",
+          "explanation": "実装が途中までに限定されることを示す。",
+          "rule": "only + 程度副詞"
+        },
+        {
+          "category": "分詞",
+          "name": "結果の現在分詞",
+          "where": "creating more follow-up work",
+          "explanation": "中途半端な実装から生じる結果を補足する。",
+          "rule": ", creating ..."
+        },
+        {
+          "category": "比較",
+          "name": "more ... than",
+          "where": "more follow-up work than ...",
+          "explanation": "後続作業と元の作業に必要だった作業量を同じ尺度で比べる。",
+          "rule": "more + 名詞 + than + 比較対象"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When deadlines outruns understanding, teams rush.",
+          "correct": "When deadlines outrun understanding, teams rush.",
+          "why": "複数主語deadlinesにはoutrunを使う。"
+        },
+        {
+          "wrong": "Teams may implements the idea halfway.",
+          "correct": "Teams may implement the idea halfway.",
+          "why": "mayの後ろは動詞原形を使う。"
+        },
+        {
+          "wrong": "It creates more works than expected.",
+          "correct": "It creates more work than expected.",
+          "why": "workを作業量の意味で使う場合は不可算名詞。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Urgency without shared context often shifts work from implementation to repair.",
+          "translation": "共通文脈のない緊急性は、作業を実装から修復へ移しがちだ。"
+        },
+        {
+          "text": "A quick answer may save minutes now while costing hours later.",
+          "translation": "素早い回答は今の数分を節約しても、後で数時間を費やすことがある。"
+        },
+        {
+          "text": "Before promising a deadline, teams should confirm the scope and the required standard.",
+          "translation": "納期を約束する前に、チームは範囲と必要基準を確認すべきだ。"
+        }
+      ],
+      "parseTree": "AdvClause(When S(deadlines) V(outrun) O(shared understanding)), S(teams) Aux(may) V(implement) O(a workable idea) Adv(only halfway), ParticipleClause(creating O(more follow-up work) Comp(than the original task would have required))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The deadline outruns understanding.",
+          "expanded": "The deadline outruns understanding because the team begins before the scope is clear.",
+          "nuance": "理解不足が生じる理由を示す。"
+        },
+        {
+          "original": "Implementation stops halfway.",
+          "expanded": "Implementation stops halfway, so later workers must reconstruct the missing context.",
+          "nuance": "未完了から追加作業へつなぐ。"
+        },
+        {
+          "original": "Follow-up work increases.",
+          "expanded": "Follow-up work increases since a rushed solution creates defects and unanswered questions.",
+          "nuance": "後続作業が増える理由を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A workable idea may be implemented only halfway under deadline pressure.",
+          "translation": "実行可能な案が、納期圧力の下で途中までしか実装されない場合がある。",
+          "note": "ideaを主語にして未完了へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Rushing before the scope is clear, teams can create avoidable follow-up work.",
+          "translation": "範囲が明確になる前に急ぐと、チームは避けられたはずの後続作業を生むことがある。",
+          "note": "原因を現在分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Premature implementation increases the burden of later correction.",
+          "translation": "早すぎる実装は後の修正負担を増やす。",
+          "note": "implementとcorrectを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "outrun",
+            "alternatives": [
+              "move ahead of",
+              "outpace",
+              "get ahead of"
+            ],
+            "nuance": "outrunは理解形成より納期が先行する動きを比喩的に表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "因果",
+            "sentence": "The scope remains unclear, so a fast implementation becomes difficult to finish correctly.",
+            "translation": "範囲が不明なため、素早い実装を正しく完成させるのは難しくなる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Clarifying the scope first is cheaper than repairing an incomplete implementation later.",
+            "translation": "最初に範囲を明確にする方が、後で不完全な実装を直すより低コストだ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the team cannot explain the requirement, it should not promise the delivery date yet.",
+            "translation": "チームが要件を説明できないなら、まだ納期を約束すべきではない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What creates the delay is not care but unshared context.",
+            "translation": "遅れを生むのは慎重さではなく、共有されていない文脈だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Rushed scope creates rework.",
+            "translation": "急いだ範囲設定は手戻りを生む。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "比喩と分詞構文を含むが、主体・因果・比較尺度は明確。情報量が多いためefficiencyは8。"
+    }
+  }
+]
