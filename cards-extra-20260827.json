@@ -1,0 +1,200 @@
+[
+  {
+    "_no": 100,
+    "_generatedAt": "2026-08-28T02:00:00+09:00",
+    "sentence": "A passenger drone may fly with several rotors, but its real safety test begins when a motor, sensor, or power system fails.",
+    "phonetic": "ア パッセンジャー ドローン メイ フライ ウィズ セヴラル ローターズ、バット イッツ リアル セイフティ テスト ビギンズ ウェン ア モーター、センサー、オア パワー システム フェイルズ。",
+    "japaneseTranslation": "有人ドローンは複数のローターで飛べるが、本当の安全性試験は、モーター、センサー、または電源系統が故障したときに始まる。",
+    "theme": "有人ドローンの安全性を故障時設計から考える",
+    "coreVerb": "fail",
+    "generateLayer": {
+      "phase1": {"sentence": "A drone flies.", "translation": "ドローンは飛ぶ。"},
+      "phase2": {"sentence": "A passenger drone may fly with several rotors.", "translation": "有人ドローンは複数のローターで飛べる。", "addedChunks": "passenger、may、with several rotorsを追加"},
+      "phase3": {"sentence": "A passenger drone may fly, but safety depends on failure handling.", "translation": "有人ドローンは飛べるが、安全性は故障時対応に左右される。", "connector": "but"},
+      "phase4": {"sentence": "Failure handling matters more than normal flight alone.", "translation": "故障時対応は通常飛行だけより重要だ。", "comparison": "more than"},
+      "phase5": {"sentence": "A passenger drone may fly with several rotors, but its real safety test begins when a motor, sensor, or power system fails.", "translation": "有人ドローンは複数のローターで飛べるが、本当の安全性試験は、モーター、センサー、または電源系統が故障したときに始まる。", "relativizer": "when"}
+    },
+    "explainLayer": {
+      "chunks": [
+        {"text": "A passenger drone may fly", "function": "行動", "translation": "有人ドローンは飛べる"},
+        {"text": "with several rotors,", "function": "様態", "translation": "複数のローターで"},
+        {"text": "but its real safety test begins", "function": "接続", "translation": "しかし本当の安全性試験は始まる"},
+        {"text": "when a motor, sensor,", "function": "時間", "translation": "モーターやセンサーが"},
+        {"text": "or power system fails.", "function": "状態", "translation": "または電源系統が故障したときに"}
+      ],
+      "grammarPoints": [
+        {"category": "名詞修飾", "name": "passenger + 名詞", "where": "passenger drone", "explanation": "人を運ぶ用途のドローンを表す。", "rule": "名詞 + 名詞"},
+        {"category": "助動詞", "name": "may", "where": "may fly", "explanation": "能力や可能性を断定せず示す。", "rule": "may + 動詞原形"},
+        {"category": "手段", "name": "with", "where": "with several rotors", "explanation": "飛行に使う構成要素を示す。", "rule": "with + 名詞句"},
+        {"category": "対照", "name": "but", "where": "but its real safety test", "explanation": "飛行可能性と安全性評価を対照させる。", "rule": "独立節, but 独立節"},
+        {"category": "時間", "name": "when節", "where": "when a motor ... fails", "explanation": "安全性が問われる状況を示す。", "rule": "when + 主語 + 動詞"},
+        {"category": "一致", "name": "単数主語とfails", "where": "a motor, sensor, or power system fails", "explanation": "orで結ばれた単数候補を一つの故障事象として扱う。", "rule": "単数主語 + 三単現s"}
+      ],
+      "errors": [
+        {"wrong": "A passenger drone may flies.", "correct": "A passenger drone may fly.", "why": "mayの後ろは動詞原形を使う。"},
+        {"wrong": "Its safety test begin when a motor fails.", "correct": "Its safety test begins when a motor fails.", "why": "単数主語testにはbeginsを使う。"},
+        {"wrong": "When a motor will fail, the system responds.", "correct": "When a motor fails, the system responds.", "why": "一般的な条件を表すwhen節では通常現在形を使う。"}
+      ],
+      "variants": [
+        {"text": "A vehicle is not truly safe until its failure modes are understood.", "translation": "故障モードが理解されるまで、乗り物が本当に安全とはいえない。"},
+        {"text": "Multiple rotors can support control, but they do not remove every single point of failure.", "translation": "複数ローターは制御を支えうるが、あらゆる単一障害点をなくすわけではない。"},
+        {"text": "Emergency descent and occupant protection deserve as much attention as normal flight.", "translation": "緊急降下と乗員保護は、通常飛行と同程度の注意に値する。"}
+      ],
+      "parseTree": "S(A passenger drone) Aux(may) V(fly) Adv(with several rotors), Conj(but) S(its real safety test) V(begins) AdvClause(when S(a motor, sensor, or power system) V(fails))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {"original": "Failure handling matters.", "expanded": "Failure handling matters because passengers cannot simply step away from an airborne vehicle.", "nuance": "乗員保護が必要な理由を示す。"},
+        {"original": "A component fails.", "expanded": "A component fails, so the remaining systems must preserve control or enable a safe descent.", "nuance": "故障から必要な応答へつなぐ。"},
+        {"original": "The safety test begins.", "expanded": "The safety test begins when normal assumptions stop applying.", "nuance": "平常時と異常時の境界を示す。"}
+      ],
+      "structuralShift": [
+        {"type": "受動態", "sentence": "Passenger safety is tested most clearly during a system failure.", "translation": "乗員の安全性はシステム故障時に最も明確に試される。", "note": "safetyを主語にする。"},
+        {"type": "分詞構文", "sentence": "Losing a motor or sensor, the aircraft must still remain controllable.", "translation": "モーターやセンサーを失っても、機体はなお制御可能でなければならない。", "note": "故障条件を分詞句で示す。"},
+        {"type": "名詞化", "sentence": "Reliable failure management is central to passenger-drone safety.", "translation": "信頼できる故障管理は有人ドローンの安全性の中核だ。", "note": "failとmanageを名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [{"original": "fail", "alternatives": ["malfunction", "break down", "lose power"], "nuance": "failは部品や系統が機能しなくなることを広く表す。"}],
+        "sentencePatterns": [{"type": "対照", "sentence": "Normal flight proves capability, whereas controlled failure proves resilience.", "translation": "通常飛行は能力を示すが、制御された故障試験は回復力を示す。"}],
+        "comparison": [{"sentence": "A safe descent may be more important than continued flight after a serious failure.", "translation": "重大故障後は、飛行継続より安全な降下の方が重要な場合がある。"}],
+        "conditional": [{"sentence": "If one critical system fails, another system should preserve a safe outcome.", "translation": "重要系統が一つ故障したら、別の系統が安全な結果を維持すべきだ。"}],
+        "emphasis": [{"sentence": "What matters is not only whether the aircraft flies, but how it fails.", "translation": "重要なのは機体が飛ぶかだけでなく、どう故障するかだ。"}],
+        "compression": [{"sentence": "Flight shows function; failure shows safety.", "translation": "飛行は機能を示し、故障は安全性を示す。"}]
+      }
+    },
+    "scores": {"naturalness": 9, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 9, "comment": "通常飛行と故障時安全を分離し、具体的な故障対象も明示した。"}
+  },
+  {
+    "_no": 101,
+    "_generatedAt": "2026-08-28T02:01:00+09:00",
+    "sentence": "When access to a fictional character is sold through tokens that represent limited conversation time, conversation becomes a metered service, even if the exchange feels personal.",
+    "phonetic": "ウェン アクセス トゥ ア フィクショナル キャラクター イズ ソールド スルー トークンズ ザット レプリゼント リミティッド カンヴァセイション タイム、カンヴァセイション ビカムズ ア ミータード サービス、イーヴン イフ ジ エクスチェインジ フィールズ パーソナル。",
+    "japaneseTranslation": "架空のキャラクターへのアクセスが時間制トークンで販売されると、やり取りが個人的に感じられても、会話は従量制サービスになる。",
+    "theme": "キャラクター対話のトークン化をサービス構造から捉える",
+    "coreVerb": "become",
+    "generateLayer": {
+      "phase1": {"sentence": "Conversation becomes a service.", "translation": "会話はサービスになる。"},
+      "phase2": {"sentence": "Conversation becomes a metered service.", "translation": "会話は従量制サービスになる。", "addedChunks": "meteredを追加して利用量に応じた課金を示す"},
+      "phase3": {"sentence": "Conversation becomes a service when access is sold.", "translation": "アクセスが販売されると、会話はサービスになる。", "connector": "when"},
+      "phase4": {"sentence": "Timed access is more measurable than an open-ended exchange.", "translation": "時間制アクセスは、終わりを定めない交流より計測しやすい。", "comparison": "more measurable than"},
+      "phase5": {"sentence": "When access to a fictional character is sold through tokens that represent limited conversation time, conversation becomes a metered service, even if the exchange feels personal.", "translation": "架空のキャラクターへのアクセスが時間制トークンで販売されると、やり取りが個人的に感じられても、会話は従量制サービスになる。", "relativizer": "when"}
+    },
+    "explainLayer": {
+      "chunks": [
+        {"text": "When access to a fictional character", "function": "時間", "translation": "架空のキャラクターへのアクセスが"},
+        {"text": "is sold through tokens", "function": "状態", "translation": "トークンを通じて販売されると"},
+        {"text": "that represent limited conversation time,", "function": "修飾", "translation": "限られた会話時間を表す"},
+        {"text": "conversation becomes", "function": "行動", "translation": "会話は変わる"},
+        {"text": "a metered service,", "function": "結果", "translation": "従量制サービスへ"},
+        {"text": "even if the exchange still feels personal.", "function": "接続", "translation": "やり取りがなお個人的に感じられても"}
+      ],
+      "grammarPoints": [
+        {"category": "時間", "name": "when節", "where": "When access ... is sold", "explanation": "サービス構造が変わる条件を示す。", "rule": "When + 主語 + 動詞, 主節"},
+        {"category": "前置詞", "name": "access to", "where": "access to a fictional character", "explanation": "接触や利用の対象をtoで示す。", "rule": "access to + 名詞"},
+        {"category": "受動態", "name": "is sold", "where": "is sold through tokens", "explanation": "販売されるアクセスを中心に述べる。", "rule": "be + 過去分詞"},
+        {"category": "関係節", "name": "that", "where": "tokens that represent limited conversation time", "explanation": "トークンが表す利用量を限定する。", "rule": "名詞 + that + 動詞"},
+        {"category": "補語", "name": "become + 名詞", "where": "becomes a metered service", "explanation": "性質や分類の変化を表す。", "rule": "become + 補語"},
+        {"category": "譲歩", "name": "even if", "where": "even if the exchange ...", "explanation": "個人的な感覚が結論を変えないことを示す。", "rule": "even if + 節"},
+        {"category": "知覚", "name": "feel + 形容詞", "where": "feels personal", "explanation": "やり取りが与える印象を表す。", "rule": "feel + 形容詞"}
+      ],
+      "errors": [
+        {"wrong": "Access sells through tokens.", "correct": "Access is sold through tokens.", "why": "アクセスが販売されることを表すため受動態を使う。"},
+        {"wrong": "Conversation become a service.", "correct": "Conversation becomes a service.", "why": "単数主語conversationにはbecomesを使う。"},
+        {"wrong": "Even if the exchange still feel personal.", "correct": "Even if the exchange still feels personal.", "why": "単数主語exchangeにはfeelsを使う。"}
+      ],
+      "variants": [
+        {"text": "Selling minutes of interaction turns attention into a countable product.", "translation": "交流の分数を売ることは、注目を数えられる商品へ変える。"},
+        {"text": "The emotional tone may remain intimate even when the billing model is transactional.", "translation": "課金モデルが取引的でも、感情的な調子は親密なままの場合がある。"},
+        {"text": "A token does not merely enable access; it defines how much interaction the buyer receives.", "translation": "トークンは単にアクセスを可能にするだけでなく、購入者が得る交流量を定める。"}
+      ],
+      "parseTree": "AdvClause(When S(access to a fictional character) Aux(is) V(sold) Adv(in timed tokens)), S(conversation) V(becomes) C(a metered service), AdvClause(even if S(the exchange) Adv(still) V(feels) C(personal))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {"original": "Conversation becomes metered.", "expanded": "Conversation becomes metered because each token represents a limited amount of access.", "nuance": "従量化の仕組みを示す。"},
+        {"original": "The exchange feels personal.", "expanded": "The exchange feels personal, so users may focus on intimacy rather than billing.", "nuance": "体験と料金構造のずれを示す。"},
+        {"original": "Access is sold.", "expanded": "Access is sold in fixed units since the provider must allocate computing time and service capacity.", "nuance": "固定単位で売る運用上の理由を示す。"}
+      ],
+      "structuralShift": [
+        {"type": "受動態", "sentence": "A limited amount of conversation is purchased with each token.", "translation": "各トークンで限られた量の会話が購入される。", "note": "conversationを主語にする。"},
+        {"type": "分詞構文", "sentence": "Selling interaction by time, the provider converts attention into a measurable service.", "translation": "交流を時間単位で売ることで、提供者は注目を測定可能なサービスへ変える。", "note": "販売方法を分詞句で示す。"},
+        {"type": "名詞化", "sentence": "The tokenization of access makes conversational limits explicit.", "translation": "アクセスのトークン化は会話の上限を明示する。", "note": "tokenizeを名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [{"original": "metered", "alternatives": ["usage-based", "time-limited", "pay-per-use"], "nuance": "meteredは使用量を測って課金する構造を表す。"}],
+        "sentencePatterns": [{"type": "譲歩", "sentence": "Although the interaction feels personal, its duration is determined commercially.", "translation": "交流が個人的に感じられても、その時間は商業的に決められる。"}],
+        "comparison": [{"sentence": "Tokenized conversation is easier to price than open-ended access.", "translation": "トークン化された会話は、無制限のアクセスより価格を付けやすい。"}],
+        "conditional": [{"sentence": "If every minute requires a token, silence also consumes part of the purchased access.", "translation": "一分ごとにトークンが必要なら、沈黙も購入したアクセスの一部を消費する。"}],
+        "emphasis": [{"sentence": "What is being priced is access, not affection itself.", "translation": "価格が付けられているのはアクセスであり、愛情そのものではない。"}],
+        "compression": [{"sentence": "Tokens turn attention into inventory.", "translation": "トークンは注目を在庫へ変える。"}]
+      }
+    },
+    "scores": {"naturalness": 9, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 9, "comment": "感情的体験と課金構造を混同せず、従量制という変化を簡潔に示した。"}
+  },
+  {
+    "_no": 102,
+    "_generatedAt": "2026-08-28T02:02:00+09:00",
+    "sentence": "Commercial platforms seek attention by placing content in public view; therefore, “just ignore it” does not fully address criticism of unwanted exposure.",
+    "phonetic": "コマーシャル プラットフォームズ シーク アテンション バイ プレイシング コンテント イン パブリック ヴュー。ゼアフォア、ジャスト イグノア イット ダズ ノット フリィ アドレス クリティシズム オヴ アンウォンティッド エクスポージャー。",
+    "japaneseTranslation": "商業プラットフォームはコンテンツを公の視界に置いて注目を求める。したがって、「ただ無視すればよい」では、望まない露出への批判に十分答えられない。",
+    "theme": "商業的露出と見ない自由の非対称性を考える",
+    "coreVerb": "seek",
+    "generateLayer": {
+      "phase1": {"sentence": "Platforms seek attention.", "translation": "プラットフォームは注目を求める。"},
+      "phase2": {"sentence": "Commercial platforms seek attention in public view.", "translation": "商業プラットフォームは公の視界で注目を求める。", "addedChunks": "commercialとin public viewを追加"},
+      "phase3": {"sentence": "Platforms seek attention, so audiences encounter promoted content.", "translation": "プラットフォームが注目を求めるため、受け手は宣伝された内容に接する。", "connector": "so"},
+      "phase4": {"sentence": "Promoted content is harder to avoid than privately shared content.", "translation": "宣伝された内容は、私的に共有された内容より避けにくい。", "comparison": "harder to avoid than"},
+      "phase5": {"sentence": "Commercial platforms seek attention by placing content in public view; therefore, “just ignore it” does not fully address criticism of unwanted exposure.", "translation": "商業プラットフォームはコンテンツを公の視界に置いて注目を求める。したがって、「ただ無視すればよい」では、望まない露出への批判に十分答えられない。", "relativizer": "none"}
+    },
+    "explainLayer": {
+      "chunks": [
+        {"text": "Commercial platforms seek attention", "function": "行動", "translation": "商業プラットフォームは注目を求める"},
+        {"text": "by placing content", "function": "様態", "translation": "コンテンツを置くことによって"},
+        {"text": "in public view;", "function": "場所", "translation": "公の視界に"},
+        {"text": "therefore, “just ignore it”", "function": "結果", "translation": "したがって「ただ無視すればよい」では"},
+        {"text": "does not fully address criticism", "function": "行動", "translation": "批判に十分答えられない"},
+        {"text": "of unwanted exposure.", "function": "対象", "translation": "望まない露出への"}
+      ],
+      "grammarPoints": [
+        {"category": "語法", "name": "seek + 名詞", "where": "seek attention", "explanation": "得ようとする対象を直接目的語に取る。", "rule": "seek + 目的語"},
+        {"category": "手段", "name": "by + 動名詞", "where": "by placing content", "explanation": "注目を得る手段を示す。", "rule": "by + 動名詞"},
+        {"category": "場所", "name": "in public view", "where": "in public view", "explanation": "不特定多数の目に入りうる状態を表す。", "rule": "in + 名詞句"},
+        {"category": "接続", "name": "セミコロン", "where": "public view; therefore", "explanation": "因果関係のある二つの独立節を結ぶ。", "rule": "独立節; 接続副詞, 独立節"},
+        {"category": "結果", "name": "therefore", "where": "therefore", "explanation": "前文から導く結論を明示する。", "rule": "therefore, + 節"},
+        {"category": "否定", "name": "does not fully address", "where": "does not fully address", "explanation": "全く無意味とはせず、対応として不十分だと限定する。", "rule": "does not + 副詞 + 動詞原形"}
+      ],
+      "errors": [
+        {"wrong": "Platforms seeks attention.", "correct": "Platforms seek attention.", "why": "複数主語platformsにはseekを使う。"},
+        {"wrong": "They seek attention by place content publicly.", "correct": "They seek attention by placing content publicly.", "why": "前置詞byの後ろは動名詞を使う。"},
+        {"wrong": "Therefore “ignore it” do not answer the criticism.", "correct": "Therefore, “ignore it” does not answer the criticism.", "why": "thereforeの後にカンマを置き、引用句を単数主語としてdoesを使う。"}
+      ],
+      "variants": [
+        {"text": "Audiences can avoid some content, but platforms also design systems to capture attention.", "translation": "受け手は一部の内容を避けられるが、プラットフォーム側も注目を捉える仕組みを設計している。"},
+        {"text": "Visibility is not accidental when promotion is part of the business model.", "translation": "宣伝が事業モデルの一部なら、可視性は偶然ではない。"},
+        {"text": "The ability to scroll past content does not erase the fact that it was deliberately placed before the viewer.", "translation": "スクロールして通り過ぎられることは、その内容が意図的に閲覧者の前へ置かれた事実を消さない。"}
+      ],
+      "parseTree": "S(Commercial platforms) V(seek) O(attention) Adv(by placing content in public view); ConjAdv(therefore), S(“just ignore it”) Aux(does not) Adv(fully) V(answer) O(criticism of unwanted exposure)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {"original": "Platforms seek attention.", "expanded": "Platforms seek attention because visibility supports advertising, sales, or user growth.", "nuance": "商業的露出の動機を示す。"},
+        {"original": "Content enters public view.", "expanded": "Content enters public view, so people may encounter it without actively searching for it.", "nuance": "露出から偶発的接触へつなぐ。"},
+        {"original": "Ignoring is an incomplete answer.", "expanded": "Ignoring is an incomplete answer since distribution is partly controlled by the platform and promoter.", "nuance": "責任が受け手だけにない理由を示す。"}
+      ],
+      "structuralShift": [
+        {"type": "受動態", "sentence": "Content is deliberately placed before audiences to attract attention.", "translation": "コンテンツは注目を集めるため、意図的に受け手の前へ置かれる。", "note": "contentを主語にする。"},
+        {"type": "分詞構文", "sentence": "Seeking broad exposure, commercial platforms push content beyond its existing audience.", "translation": "広い露出を求め、商業プラットフォームは既存の受け手の外へコンテンツを押し出す。", "note": "目的を分詞句で示す。"},
+        {"type": "名詞化", "sentence": "Commercial promotion increases involuntary exposure.", "translation": "商業的宣伝は非自発的な露出を増やす。", "note": "promoteとexposeを名詞化する。"}
+      ],
+      "expressionNetwork": {
+        "vocabulary": [{"original": "exposure", "alternatives": ["visibility", "reach", "public display"], "nuance": "exposureは望むか否かにかかわらず目に触れる状態を表せる。"}],
+        "sentencePatterns": [{"type": "対照", "sentence": "Viewers can look away, whereas platforms can choose how widely content is distributed.", "translation": "閲覧者は目をそらせる一方、プラットフォームは配信範囲を選べる。"}],
+        "comparison": [{"sentence": "Public promotion creates more incidental contact than private sharing does.", "translation": "公の宣伝は、私的共有より多くの偶発的接触を生む。"}],
+        "conditional": [{"sentence": "If a platform recommends content widely, it shares responsibility for the resulting exposure.", "translation": "プラットフォームが内容を広く推薦するなら、その露出について責任の一部を負う。"}],
+        "emphasis": [{"sentence": "What matters is not only the option to ignore content, but also the decision to distribute it.", "translation": "重要なのは内容を無視できることだけでなく、それを配信する決定でもある。"}],
+        "compression": [{"sentence": "Promotion creates exposure; scrolling does not undo it.", "translation": "宣伝は露出を生み、スクロールしてもその事実は消えない。"}]
+      }
+    },
+    "scores": {"naturalness": 9, "clarity": 9, "flexibility": 9, "focus": 9, "efficiency": 9, "comment": "受け手の回避可能性を否定せず、配信側の能動性との非対称性を明確にした。"}
+  }
+]
