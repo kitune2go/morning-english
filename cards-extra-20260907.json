@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 113,
+    "_generatedAt": "2026-09-09T02:04:00+09:00",
+    "sentence": "A market argument sounds inconsistent when success is credited to competition but failure is defended as culture that deserves protection.",
+    "phonetic": "ア マーケット アーギュメント サウンズ インコンシステント ウェン サクセス イズ クレディティッド トゥ コンペティション バット フェイリャー イズ ディフェンディッド アズ カルチャー ザット ディザーヴズ プロテクション。",
+    "japaneseTranslation": "成功は競争の成果とされる一方、失敗は保護に値する文化として擁護されるなら、その市場論は一貫性を欠いて聞こえる。",
+    "theme": "成功時と不振時で変わる市場擁護の原理",
+    "coreVerb": "sound",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The argument sounds inconsistent.",
+        "translation": "その議論は一貫性を欠いて聞こえる。"
+      },
+      "phase2": {
+        "sentence": "A market argument sounds inconsistent.",
+        "translation": "市場についての議論は一貫性を欠いて聞こえる。",
+        "addedChunks": "marketを追加して議論の領域を限定"
+      },
+      "phase3": {
+        "sentence": "The argument sounds inconsistent because its standards change.",
+        "translation": "基準が変わるため、その議論は一貫性を欠いて聞こえる。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Success receives less protection than failure in this argument.",
+        "translation": "この議論では、成功は失敗ほど保護を受けない。",
+        "comparison": "less than"
+      },
+      "phase5": {
+        "sentence": "A market argument sounds inconsistent when success is credited to competition but failure is defended as culture that deserves protection.",
+        "translation": "成功は競争の成果とされる一方、失敗は保護に値する文化として擁護されるなら、その市場論は一貫性を欠いて聞こえる。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A market argument",
+          "function": "対象",
+          "translation": "市場についての議論は"
+        },
+        {
+          "text": "sounds inconsistent",
+          "function": "状態",
+          "translation": "一貫性を欠いて聞こえる"
+        },
+        {
+          "text": "when success is credited to competition",
+          "function": "時間",
+          "translation": "成功が競争の成果とされる一方"
+        },
+        {
+          "text": "but failure is defended",
+          "function": "接続",
+          "translation": "失敗は擁護される"
+        },
+        {
+          "text": "as culture",
+          "function": "様態",
+          "translation": "文化として"
+        },
+        {
+          "text": "that deserves protection.",
+          "function": "修飾",
+          "translation": "保護に値する"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "知覚",
+          "name": "sound + 形容詞",
+          "where": "sounds inconsistent",
+          "explanation": "議論が与える印象を表す。",
+          "rule": "sound + 形容詞"
+        },
+        {
+          "category": "状況",
+          "name": "when節",
+          "where": "when success is credited",
+          "explanation": "不整合が現れる条件を示す。",
+          "rule": "when + 節"
+        },
+        {
+          "category": "受動態",
+          "name": "be credited to",
+          "where": "is credited to competition",
+          "explanation": "成功の原因が競争に帰属されることを示す。",
+          "rule": "be credited to + 名詞"
+        },
+        {
+          "category": "対照",
+          "name": "but",
+          "where": "but failure is defended",
+          "explanation": "成功と失敗に適用される説明を対照させる。",
+          "rule": "節 + but + 節"
+        },
+        {
+          "category": "受動態",
+          "name": "be defended as",
+          "where": "is defended as culture",
+          "explanation": "失敗が文化という名目で擁護されることを示す。",
+          "rule": "be defended as + 名詞"
+        },
+        {
+          "category": "関係節",
+          "name": "that",
+          "where": "culture that deserves protection",
+          "explanation": "保護に値する文化へ意味を限定する。",
+          "rule": "名詞 + that + 動詞"
+        },
+        {
+          "category": "一致",
+          "name": "cultureとdeserves",
+          "where": "that deserves protection",
+          "explanation": "先行詞cultureが単数なのでdeservesを使う。",
+          "rule": "単数主語 + 三単現s"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "The argument sounds inconsistently.",
+          "correct": "The argument sounds inconsistent.",
+          "why": "soundの補語には形容詞inconsistentを使う。"
+        },
+        {
+          "wrong": "Success is credited for competition.",
+          "correct": "Success is credited to competition.",
+          "why": "原因への帰属にはbe credited toを使う。"
+        },
+        {
+          "wrong": "Culture that deserve protection is defended.",
+          "correct": "Culture that deserves protection is defended.",
+          "why": "単数先行詞cultureを受ける動詞にはdeservesを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "The principle changes when market success ends.",
+          "translation": "市場での成功が終わると、掲げられる原理が変わる。"
+        },
+        {
+          "text": "Competition explains the gains, while cultural value is invoked to protect the losses.",
+          "translation": "利益は競争で説明される一方、損失を守るため文化的価値が持ち出される。"
+        },
+        {
+          "text": "A consistent policy must explain why the same field deserves both market freedom and selective protection.",
+          "translation": "一貫した政策は、同じ領域が市場の自由と選択的保護の両方に値する理由を説明しなければならない。"
+        }
+      ],
+      "parseTree": "S(A market argument) V(sounds) C(inconsistent) AdvClause(when S(success) V(is credited) Adv(to competition) Conj(but) S(failure) V(is defended) C(as culture) RelClause(that deserves protection))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The argument sounds inconsistent.",
+          "expanded": "The argument sounds inconsistent because it changes standards after the outcome changes.",
+          "nuance": "結果後に基準が変わることを示す。"
+        },
+        {
+          "original": "Success is attributed to competition.",
+          "expanded": "Success is attributed to competition, so winners appear to validate the market.",
+          "nuance": "成功が市場の正当化へ使われる流れを示す。"
+        },
+        {
+          "original": "Failure is defended as culture.",
+          "expanded": "Failure is defended as culture since cultural value can support a claim for protection.",
+          "nuance": "文化的価値が保護要求を支えることを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Different standards are applied to market success and market failure.",
+          "translation": "市場での成功と失敗には異なる基準が適用される。",
+          "note": "standardsを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Changing its principle after the outcome, the argument loses consistency.",
+          "translation": "結果の後で原理を変えることで、その議論は一貫性を失う。",
+          "note": "基準変更を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The selective protection of failure weakens the consistency of the market claim.",
+          "translation": "失敗の選択的保護は市場論の一貫性を弱める。",
+          "note": "protectとconsistentを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "inconsistent",
+            "alternatives": [
+              "contradictory",
+              "uneven",
+              "selective"
+            ],
+            "nuance": "inconsistentは二つの主張に同じ原理が適用されていないことを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "The market receives credit for success, whereas culture becomes the defense against failure.",
+            "translation": "成功の功績は市場に与えられる一方、失敗への防御には文化が使われる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A rule applied before the outcome is more credible than one chosen afterward.",
+            "translation": "結果前から適用される規則は、結果後に選ばれる規則より信頼できる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If cultural value justifies protection, that principle should be stated before market failure occurs.",
+            "translation": "文化的価値が保護を正当化するなら、その原理は市場で失敗する前から示されるべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What changes is not the field itself but the principle used to defend it.",
+            "translation": "変わるのは領域そのものではなく、それを擁護するために使われる原理だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Success invokes markets; failure invokes culture.",
+            "translation": "成功は市場を、失敗は文化を持ち出す。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "価値判断を一般化せず、同じ議論内で基準が切り替わる場合に限定した。"
+    }
+  }
+]
