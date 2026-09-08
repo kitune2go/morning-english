@@ -88,5 +88,12 @@
     "description": "飲食店で耳にしたドラマ談義、声優とアイドルをめぐる古い販売規範、公演中止の曖昧な説明、低予算3D制作の工程記録を通して、空白へ置くべき情報の違いを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260823/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260908",
+    "title": "世界は記述を待っていない",
+    "description": "記述以前からある世界、気づきによる関係の可視化、身近には現れない流行、現実の配置を無視する総動員的な物語を通して、存在と観測のずれを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260908/manifest.json",
+    "mode": "essay-translation"
   }
 ]
