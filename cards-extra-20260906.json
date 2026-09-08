@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 112,
+    "_generatedAt": "2026-09-09T02:03:00+09:00",
+    "sentence": "Brief, unrelated posts can repeatedly interrupt working memory; replacing passive scrolling with purposeful conversation may preserve attention more effectively.",
+    "phonetic": "ブリーフ、アンリレイティッド ポウスツ キャン リピーティッドリー インタラプト ワーキング メモリー。リプレイシング パッシヴ スクローリング ウィズ パーパスフル カンヴァセイション メイ プリザーヴ アテンション モア イフェクティヴリー。",
+    "japaneseTranslation": "短く無関係な投稿は作業記憶を繰り返し中断しうる。受動的なスクロールを目的のある対話に置き換えれば、注意をより効果的に保てる可能性がある。",
+    "theme": "SNSの断片閲覧を目的ある対話へ置き換える",
+    "coreVerb": "preserve",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Posts interrupt memory.",
+        "translation": "投稿は記憶を中断する。"
+      },
+      "phase2": {
+        "sentence": "Brief, unrelated posts can interrupt working memory.",
+        "translation": "短く無関係な投稿は作業記憶を中断しうる。",
+        "addedChunks": "brief、unrelated、workingを追加"
+      },
+      "phase3": {
+        "sentence": "Posts interrupt working memory, so attention must restart.",
+        "translation": "投稿が作業記憶を中断するため、注意を立て直す必要がある。",
+        "connector": "so"
+      },
+      "phase4": {
+        "sentence": "Purposeful conversation may preserve attention better than passive scrolling.",
+        "translation": "目的のある対話は、受動的なスクロールより注意を保ちやすい可能性がある。",
+        "comparison": "better than"
+      },
+      "phase5": {
+        "sentence": "Brief, unrelated posts can repeatedly interrupt working memory; replacing passive scrolling with purposeful conversation may preserve attention more effectively.",
+        "translation": "短く無関係な投稿は作業記憶を繰り返し中断しうる。受動的なスクロールを目的のある対話に置き換えれば、注意をより効果的に保てる可能性がある。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Brief, unrelated posts",
+          "function": "対象",
+          "translation": "短く無関係な投稿は"
+        },
+        {
+          "text": "can repeatedly interrupt",
+          "function": "行動",
+          "translation": "繰り返し中断しうる"
+        },
+        {
+          "text": "working memory;",
+          "function": "対象",
+          "translation": "作業記憶を"
+        },
+        {
+          "text": "replacing passive scrolling",
+          "function": "行動",
+          "translation": "受動的なスクロールを置き換えることは"
+        },
+        {
+          "text": "with purposeful conversation",
+          "function": "様態",
+          "translation": "目的のある対話に"
+        },
+        {
+          "text": "may preserve attention more effectively.",
+          "function": "結果",
+          "translation": "注意をより効果的に保てる可能性がある"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "形容詞",
+          "name": "並列形容詞",
+          "where": "Brief, unrelated posts",
+          "explanation": "二つの性質をカンマで並べてpostsを修飾する。",
+          "rule": "形容詞, 形容詞 + 名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can repeatedly interrupt",
+          "explanation": "起こりうる影響を示す。",
+          "rule": "can + 副詞 + 動詞原形"
+        },
+        {
+          "category": "頻度",
+          "name": "repeatedly",
+          "where": "repeatedly interrupt",
+          "explanation": "中断が一度ではなく反復することを示す。",
+          "rule": "副詞 + 動詞"
+        },
+        {
+          "category": "接続",
+          "name": "セミコロン",
+          "where": "working memory; replacing",
+          "explanation": "関連する独立節を接続する。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "主語",
+          "name": "動名詞句主語",
+          "where": "replacing passive scrolling with purposeful conversation",
+          "explanation": "置換という行為全体を主語にする。",
+          "rule": "動名詞句 + 単数動詞"
+        },
+        {
+          "category": "置換",
+          "name": "replace A with B",
+          "where": "replacing passive scrolling with purposeful conversation",
+          "explanation": "AをBへ置き換えることを示す。",
+          "rule": "replace A with B"
+        },
+        {
+          "category": "比較",
+          "name": "比較級副詞",
+          "where": "more effectively",
+          "explanation": "注意を保つ方法の効果を比較する。",
+          "rule": "more + 副詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Brief posts can interrupts memory.",
+          "correct": "Brief posts can interrupt memory.",
+          "why": "canの後ろは動詞原形を使う。"
+        },
+        {
+          "wrong": "Replace scrolling to conversation may help.",
+          "correct": "Replacing scrolling with conversation may help.",
+          "why": "主語には動名詞を使い、置換先はwithで示す。"
+        },
+        {
+          "wrong": "Purposeful conversation may preserves attention.",
+          "correct": "Purposeful conversation may preserve attention.",
+          "why": "mayの後ろは動詞原形を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Each new post asks working memory to load a different context.",
+          "translation": "新しい投稿のたびに、作業記憶は別の文脈を読み込む必要がある。"
+        },
+        {
+          "text": "A focused exchange gives attention one thread to follow.",
+          "translation": "焦点の定まった対話は、注意に一つの追跡すべき筋道を与える。"
+        },
+        {
+          "text": "Reducing random input may make it easier to return to unfinished work.",
+          "translation": "無作為な入力を減らせば、未完の作業へ戻りやすくなる可能性がある。"
+        }
+      ],
+      "parseTree": "S(Brief, unrelated posts) Aux(can) Adv(repeatedly) V(interrupt) O(working memory); S(Gerund phrase: replacing passive scrolling with purposeful conversation) Aux(may) V(preserve) O(attention) Adv(more effectively)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Unrelated posts interrupt memory.",
+          "expanded": "Unrelated posts interrupt memory because each item introduces a new context.",
+          "nuance": "各項目が新しい文脈を持ち込むことを示す。"
+        },
+        {
+          "original": "Attention restarts repeatedly.",
+          "expanded": "Attention restarts repeatedly, so the original task becomes harder to retain.",
+          "nuance": "反復中断から保持困難へつなぐ。"
+        },
+        {
+          "original": "Purposeful conversation may help.",
+          "expanded": "Purposeful conversation may help since successive turns can remain on one topic.",
+          "nuance": "対話が一つの話題を維持できることを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Working memory can be interrupted by a rapid sequence of unrelated posts.",
+          "translation": "作業記憶は無関係な投稿の速い連続によって中断されうる。",
+          "note": "working memoryを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Replacing random input with a focused exchange, a user may retain one context longer.",
+          "translation": "無作為な入力を焦点ある対話へ置き換えることで、利用者は一つの文脈をより長く保てる可能性がある。",
+          "note": "置換を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The reduction of context switching may improve attentional continuity.",
+          "translation": "文脈切替の減少は注意の連続性を改善しうる。",
+          "note": "reduceとcontinueを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "preserve",
+            "alternatives": [
+              "maintain",
+              "retain",
+              "sustain"
+            ],
+            "nuance": "preserveは失われやすい注意を保護して残す含みがある。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Passive scrolling fragments context, whereas purposeful conversation can maintain a single thread.",
+            "translation": "受動的なスクロールは文脈を断片化する一方、目的ある対話は一つの筋道を維持しうる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A coherent exchange may demand less context switching than a feed of unrelated posts.",
+            "translation": "一貫した対話は、無関係な投稿のフィードより文脈切替が少なくて済む可能性がある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If opening a feed repeatedly breaks concentration, replace the cue with a focused activity.",
+            "translation": "フィードを開くたび集中が切れるなら、そのきっかけを焦点ある活動へ置き換えよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What drains attention is not only screen time but repeated context switching.",
+            "translation": "注意を消耗させるのは画面時間だけでなく、反復する文脈切替だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "One thread preserves context.",
+            "translation": "一つの筋道が文脈を保つ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "因果を断定せずcanとmayで限定し、SNS閲覧と目的ある対話の違いを文脈切替として表した。"
+    }
+  }
+]
