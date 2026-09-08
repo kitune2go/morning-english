@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 114,
+    "_generatedAt": "2026-09-09T02:05:00+09:00",
+    "sentence": "Insight often occurs when a previously vague relationship becomes describable; the world existed before the description, but the description makes that relationship available to thought.",
+    "phonetic": "インサイト オーフン オカーズ ウェン ア プリーヴィアスリー ヴェイグ リレイションシップ ビカムズ ディスクライバブル。ザ ワールド イグジステッド ビフォー ザ ディスクリプション、バット ザ ディスクリプション メイクス ザット リレイションシップ アヴェイラブル トゥ ソート。",
+    "japaneseTranslation": "気づきは、それまで曖昧だった関係が記述可能になったときに起こることが多い。世界は記述以前から存在したが、記述はその関係を思考の対象にする。",
+    "theme": "気づきを未記述の関係の記述可能化として捉える",
+    "coreVerb": "occur",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Insight occurs.",
+        "translation": "気づきは起こる。"
+      },
+      "phase2": {
+        "sentence": "Insight often occurs when a relationship becomes describable.",
+        "translation": "関係が記述可能になると、気づきが起こることが多い。",
+        "addedChunks": "oftenとwhen節を追加"
+      },
+      "phase3": {
+        "sentence": "Insight occurs because description makes a relationship explicit.",
+        "translation": "記述が関係を明示するため、気づきが起こる。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Description changes thought more directly than it changes the world.",
+        "translation": "記述は世界そのものより、思考を直接的に変える。",
+        "comparison": "more directly than"
+      },
+      "phase5": {
+        "sentence": "Insight often occurs when a previously vague relationship becomes describable; the world existed before the description, but the description makes that relationship available to thought.",
+        "translation": "気づきは、それまで曖昧だった関係が記述可能になったときに起こることが多い。世界は記述以前から存在したが、記述はその関係を思考の対象にする。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Insight often occurs",
+          "function": "行動",
+          "translation": "気づきは起こることが多い"
+        },
+        {
+          "text": "when a previously vague relationship",
+          "function": "時間",
+          "translation": "それまで曖昧だった関係が"
+        },
+        {
+          "text": "becomes describable;",
+          "function": "状態",
+          "translation": "記述可能になったときに"
+        },
+        {
+          "text": "the world existed before the description,",
+          "function": "時間",
+          "translation": "世界は記述以前から存在した"
+        },
+        {
+          "text": "but the description makes that relationship",
+          "function": "接続",
+          "translation": "しかし記述はその関係を"
+        },
+        {
+          "text": "available to thought.",
+          "function": "結果",
+          "translation": "思考の対象にする"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "頻度",
+          "name": "often",
+          "where": "often occurs",
+          "explanation": "すべての気づきではなく一般的傾向として限定する。",
+          "rule": "often + 一般動詞"
+        },
+        {
+          "category": "時間",
+          "name": "when節",
+          "where": "when a ... relationship becomes describable",
+          "explanation": "気づきが生じる契機を示す。",
+          "rule": "when + 主語 + 動詞"
+        },
+        {
+          "category": "変化",
+          "name": "become + 形容詞",
+          "where": "becomes describable",
+          "explanation": "記述できない状態からできる状態への変化を表す。",
+          "rule": "become + 形容詞"
+        },
+        {
+          "category": "時制",
+          "name": "過去形existed",
+          "where": "the world existed before the description",
+          "explanation": "記述に先立つ存在を過去の関係として示す。",
+          "rule": "主語 + 過去形"
+        },
+        {
+          "category": "対照",
+          "name": "but",
+          "where": "but the description makes",
+          "explanation": "存在の先行と認識上の利用可能性を対照させる。",
+          "rule": "独立節, but 独立節"
+        },
+        {
+          "category": "使役",
+          "name": "make O C",
+          "where": "makes that relationship available",
+          "explanation": "関係を思考可能な状態にすることを表す。",
+          "rule": "make + 目的語 + 形容詞"
+        },
+        {
+          "category": "前置詞句",
+          "name": "available to",
+          "where": "available to thought",
+          "explanation": "何にとって利用可能かをtoで示す。",
+          "rule": "available to + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Insight often occur when relations become clear.",
+          "correct": "Insight often occurs when relations become clear.",
+          "why": "単数主語insightにはoccursを使う。"
+        },
+        {
+          "wrong": "A relationship becomes describably.",
+          "correct": "A relationship becomes describable.",
+          "why": "becomeの補語には形容詞describableを使う。"
+        },
+        {
+          "wrong": "The description makes the relationship availability.",
+          "correct": "The description makes the relationship available.",
+          "why": "make O Cの補語には形容詞availableを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Naming a relationship can make an old fact newly thinkable.",
+          "translation": "関係に名前を付けると、古くからある事実を新しく思考できるようになる。"
+        },
+        {
+          "text": "Discovery may concern a new description rather than a newly created reality.",
+          "translation": "発見は、新しく作られた現実ではなく、新しい記述に関わる場合がある。"
+        },
+        {
+          "text": "A concept does not create the world, but it can reorganize our access to it.",
+          "translation": "概念は世界を作らないが、世界への認識上の接近を組み替えうる。"
+        }
+      ],
+      "parseTree": "S(Insight) Adv(often) V(occurs) AdvClause(when a previously vague relationship becomes describable); S(the world) V(existed) Adv(before the description), Conj(but) S(the description) V(makes) O(that relationship) C(available to thought)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "A relationship becomes describable.",
+          "expanded": "A relationship becomes describable because a concept provides stable terms for it.",
+          "nuance": "概念が安定した語を与えることを示す。"
+        },
+        {
+          "original": "The relationship becomes explicit.",
+          "expanded": "The relationship becomes explicit, so it can be compared, questioned, and shared.",
+          "nuance": "明示化から検討可能性へつなぐ。"
+        },
+        {
+          "original": "Description changes thought.",
+          "expanded": "Description changes thought since language reorganizes which distinctions can be maintained.",
+          "nuance": "言語が区別を保持する働きを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A previously vague relationship can be made explicit through description.",
+          "translation": "それまで曖昧だった関係は、記述によって明示されうる。",
+          "note": "relationshipを受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Giving the relationship a stable form, description makes it available for thought.",
+          "translation": "関係に安定した形を与えることで、記述はそれを思考可能にする。",
+          "note": "記述の作用を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The describability of a relationship enables conceptual recognition.",
+          "translation": "関係の記述可能性は概念的認識を可能にする。",
+          "note": "describableとrecognizeを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "describable",
+            "alternatives": [
+              "expressible",
+              "articulable",
+              "nameable"
+            ],
+            "nuance": "describableは関係を言葉や記号で明示できる状態を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Reality precedes description, whereas explicit thought may depend on description.",
+            "translation": "現実は記述に先行する一方、明示的思考は記述に依存する場合がある。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A named relation is easier to examine than a vague impression.",
+            "translation": "名付けられた関係は、曖昧な印象より検討しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a relation cannot yet be described, people may notice its effects without sharing the same concept.",
+            "translation": "関係をまだ記述できなければ、人々は同じ概念を共有せずにその影響だけ気づく場合がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What is created is not the world itself but a stable way of referring to it.",
+            "translation": "作られるのは世界そのものではなく、それを指し示す安定した方法だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "The fact precedes its description.",
+            "translation": "事実はその記述に先行する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "存在論と認識論を二文節で区別した。抽象度が高いためflexibilityとefficiencyは8とした。"
+    }
+  }
+]
