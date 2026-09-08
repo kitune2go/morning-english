@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 111,
+    "_generatedAt": "2026-09-09T02:02:00+09:00",
+    "sentence": "Reading notation, keeping time, and producing clean notes are related skills, but practicing them separately can reduce cognitive load before they are combined.",
+    "phonetic": "リーディング ノーテイション、キーピング タイム、アンド プロデューシング クリーン ノーツ アー リレイティッド スキルズ、バット プラクティシング ゼム セパレトリー キャン リデュース コグニティヴ ロード ビフォー ゼイ アー コンバインド。",
+    "japaneseTranslation": "譜読み、リズムの維持、きれいな音を出すことは関連する技能だが、組み合わせる前に別々に練習すれば認知負荷を減らせる。",
+    "theme": "譜読み・リズム・演奏を分けて練習する",
+    "coreVerb": "reduce",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The skills are related.",
+        "translation": "それらの技能は関連している。"
+      },
+      "phase2": {
+        "sentence": "Reading notation, keeping time, and producing clean notes are related skills.",
+        "translation": "譜読み、リズムの維持、きれいな音を出すことは関連する技能だ。",
+        "addedChunks": "三つの動名詞句を主語として追加"
+      },
+      "phase3": {
+        "sentence": "The skills are related, but they can be practiced separately.",
+        "translation": "技能は関連しているが、別々に練習できる。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Separate practice can be easier than combining every skill at once.",
+        "translation": "別々の練習は、すべての技能を一度に組み合わせるより容易になりうる。",
+        "comparison": "easier than"
+      },
+      "phase5": {
+        "sentence": "Reading notation, keeping time, and producing clean notes are related skills, but practicing them separately can reduce cognitive load before they are combined.",
+        "translation": "譜読み、リズムの維持、きれいな音を出すことは関連する技能だが、組み合わせる前に別々に練習すれば認知負荷を減らせる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Reading notation, keeping time,",
+          "function": "行動",
+          "translation": "譜読みとリズムの維持"
+        },
+        {
+          "text": "and producing clean notes",
+          "function": "行動",
+          "translation": "そしてきれいな音を出すことは"
+        },
+        {
+          "text": "are related skills,",
+          "function": "状態",
+          "translation": "関連する技能だ"
+        },
+        {
+          "text": "but practicing them separately",
+          "function": "接続",
+          "translation": "しかしそれらを別々に練習すれば"
+        },
+        {
+          "text": "can reduce cognitive load",
+          "function": "結果",
+          "translation": "認知負荷を減らせる"
+        },
+        {
+          "text": "before they are combined.",
+          "function": "時間",
+          "translation": "それらを組み合わせる前に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "主語",
+          "name": "動名詞句の並列",
+          "where": "Reading notation, keeping time, and producing clean notes",
+          "explanation": "三つの行為を並列の主語にする。",
+          "rule": "動名詞句, 動名詞句, and 動名詞句"
+        },
+        {
+          "category": "一致",
+          "name": "複数主語とare",
+          "where": "are related skills",
+          "explanation": "並列された三技能を複数として扱う。",
+          "rule": "複数主語 + are"
+        },
+        {
+          "category": "対照",
+          "name": "but",
+          "where": "but practicing them separately",
+          "explanation": "技能の関連性と練習方法の分離を対照させる。",
+          "rule": "独立節, but 独立節"
+        },
+        {
+          "category": "指示",
+          "name": "them",
+          "where": "practicing them separately",
+          "explanation": "先行する三技能をまとめて受ける。",
+          "rule": "他動詞 + 目的格代名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can reduce",
+          "explanation": "認知負荷を減らせる可能性を示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "時間",
+          "name": "before節",
+          "where": "before they are combined",
+          "explanation": "技能統合より前の段階を示す。",
+          "rule": "before + 主語 + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Reading notation and keeping time is related skills.",
+          "correct": "Reading notation and keeping time are related skills.",
+          "why": "並列された二つの動名詞句は複数主語なのでareを使う。"
+        },
+        {
+          "wrong": "Practicing them separate can help.",
+          "correct": "Practicing them separately can help.",
+          "why": "動詞practicingを修飾するため副詞separatelyを使う。"
+        },
+        {
+          "wrong": "Before they combined, practice them alone.",
+          "correct": "Before they are combined, practice them separately.",
+          "why": "受動の意味にはare combinedが必要。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Practice rhythm alone before adding difficult fingering.",
+          "translation": "難しい運指を加える前に、リズムだけを練習しよう。"
+        },
+        {
+          "text": "Separating tasks can reveal whether the problem lies in reading, timing, or technique.",
+          "translation": "課題を分ければ、問題が譜読み、タイミング、技術のどこにあるか分かりやすくなる。"
+        },
+        {
+          "text": "After each skill becomes stable, combine them in short passages.",
+          "translation": "各技能が安定したら、短い楽句で組み合わせよう。"
+        }
+      ],
+      "parseTree": "S(Gerund phrases: Reading notation, keeping time, and producing clean notes) V(are) C(related skills), Conj(but) S(Gerund phrase: practicing them separately) Aux(can) V(reduce) O(cognitive load) AdvClause(before they are combined)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Separate practice reduces cognitive load.",
+          "expanded": "Separate practice reduces cognitive load because the learner monitors fewer variables at once.",
+          "nuance": "一度に監視する要素が減る理由を示す。"
+        },
+        {
+          "original": "The skills are isolated.",
+          "expanded": "The skills are isolated, so the source of an error becomes easier to identify.",
+          "nuance": "分離から診断の容易さへつなぐ。"
+        },
+        {
+          "original": "The skills are combined later.",
+          "expanded": "The skills are combined later since fluent performance ultimately requires coordination.",
+          "nuance": "最終的に統合する必要を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Each skill can be practiced separately before the full passage is attempted.",
+          "translation": "曲全体へ挑戦する前に、各技能を別々に練習できる。",
+          "note": "skillを受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reducing the number of simultaneous tasks, separate practice frees attention for correction.",
+          "translation": "同時課題の数を減らすことで、分離練習は修正に使う注意を確保する。",
+          "note": "手段を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Task separation can improve error diagnosis during music practice.",
+          "translation": "課題の分離は音楽練習中の誤りの診断を改善しうる。",
+          "note": "separateとdiagnoseを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "reduce",
+            "alternatives": [
+              "lower",
+              "decrease",
+              "lighten"
+            ],
+            "nuance": "reduce cognitive loadは処理すべき情報量を減らすことを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "段階",
+            "sentence": "First isolate the skills; then integrate them in a short phrase.",
+            "translation": "まず技能を分離し、その後短い楽句で統合する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Practicing one variable at a time is easier to diagnose than practicing everything together.",
+            "translation": "一要素ずつ練習する方が、すべてを一緒に練習するより問題を診断しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the rhythm collapses without fingering, timing should be practiced on its own.",
+            "translation": "運指なしでもリズムが崩れるなら、タイミングを単独で練習すべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not permanent separation but deliberate recombination.",
+            "translation": "重要なのは永久に分けることではなく、意図的に再統合することだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Separate, stabilize, then combine.",
+            "translation": "分け、安定させ、それから組み合わせる。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "三技能を分離する理由と、後で統合する必要を一文内で明確にした。"
+    }
+  }
+]
