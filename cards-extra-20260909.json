@@ -1,0 +1,717 @@
+[
+  {
+    "_no": 115,
+    "_generatedAt": "2026-09-10T02:02:00+09:00",
+    "sentence": "When chord changes are hard to hear, note the bass movement, melodic resting points, and changes in tension before assigning chord names.",
+    "phonetic": "ウェン コード チェインジズ アー ハード トゥ ヒア、ノート ザ ベイス ムーヴメント、メロディック レスティング ポインツ、アンド チェインジズ イン テンション ビフォー アサイニング コード ネイムズ。",
+    "japaneseTranslation": "コードの変化を聞き取りにくいときは、コード名を当てる前に、ベースの動き、旋律の落ち着く位置、緊張感の変化を書き留めよう。",
+    "theme": "コードチェンジを複数の手掛かりから探す",
+    "coreVerb": "note",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Note the clues.",
+        "translation": "手掛かりを書き留めよう。"
+      },
+      "phase2": {
+        "sentence": "Note the bass movement and melodic resting points.",
+        "translation": "ベースの動きと旋律の落ち着く位置を書き留めよう。",
+        "addedChunks": "bass movementとmelodic resting pointsを追加"
+      },
+      "phase3": {
+        "sentence": "Note the clues when chord changes are hard to hear.",
+        "translation": "コードの変化を聞き取りにくいときは、手掛かりを書き留めよう。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "Bass movement may be easier to hear than the complete chord.",
+        "translation": "ベースの動きは、コード全体より聞き取りやすい場合がある。",
+        "comparison": "easier than"
+      },
+      "phase5": {
+        "sentence": "When chord changes are hard to hear, note the bass movement, melodic resting points, and changes in tension before assigning chord names.",
+        "translation": "コードの変化を聞き取りにくいときは、コード名を当てる前に、ベースの動き、旋律の落ち着く位置、緊張感の変化を書き留めよう。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When chord changes",
+          "function": "時間",
+          "translation": "コードの変化を"
+        },
+        {
+          "text": "are hard to hear,",
+          "function": "状態",
+          "translation": "聞き取りにくいときは"
+        },
+        {
+          "text": "note the bass movement,",
+          "function": "行動",
+          "translation": "ベースの動きを書き留めよう"
+        },
+        {
+          "text": "melodic resting points,",
+          "function": "対象",
+          "translation": "旋律の落ち着く位置と"
+        },
+        {
+          "text": "and changes in tension",
+          "function": "対象",
+          "translation": "緊張感の変化を"
+        },
+        {
+          "text": "before assigning chord names.",
+          "function": "時間",
+          "translation": "コード名を当てる前に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時間",
+          "name": "when節",
+          "where": "When chord changes are hard to hear",
+          "explanation": "助言が必要になる状況を示す。",
+          "rule": "When + 節, 命令文"
+        },
+        {
+          "category": "難易",
+          "name": "hard to + 動詞",
+          "where": "hard to hear",
+          "explanation": "聞き取ることの難しさを表す。",
+          "rule": "hard to + 動詞原形"
+        },
+        {
+          "category": "命令",
+          "name": "動詞原形で始まる命令文",
+          "where": "note the bass movement",
+          "explanation": "学習手順を直接示す。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "並列",
+          "name": "三つの名詞句",
+          "where": "the bass movement, melodic resting points, and changes in tension",
+          "explanation": "観察する三種類の手掛かりを並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "前置詞",
+          "name": "change in",
+          "where": "changes in tension",
+          "explanation": "何が変化するかをinで示す。",
+          "rule": "change in + 名詞"
+        },
+        {
+          "category": "時間",
+          "name": "before + 動名詞",
+          "where": "before assigning chord names",
+          "explanation": "コード名の判断より前の作業を示す。",
+          "rule": "before + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When chord changes is hard to hear, note the bass.",
+          "correct": "When chord changes are hard to hear, note the bass.",
+          "why": "複数主語chord changesにはareを使う。"
+        },
+        {
+          "wrong": "Note to the bass movement.",
+          "correct": "Note the bass movement.",
+          "why": "noteを『書き留める』の意味で使う場合は目的語を直接取る。"
+        },
+        {
+          "wrong": "Before assign chord names, listen again.",
+          "correct": "Before assigning chord names, listen again.",
+          "why": "前置詞beforeの後ろは動名詞にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Mark the bass note first, then test which chords fit the melody.",
+          "translation": "最初にベース音を記し、その後どのコードが旋律に合うか試そう。"
+        },
+        {
+          "text": "A change in harmony may coincide with a new bass note or a shift in melodic tension.",
+          "translation": "和声の変化は、新しいベース音や旋律の緊張感の移動と重なる場合がある。"
+        },
+        {
+          "text": "Do not force a chord name until several audible clues agree.",
+          "translation": "複数の聴覚的手掛かりが一致するまで、コード名を無理に決めないようにしよう。"
+        }
+      ],
+      "parseTree": "AdvClause(When S(chord changes) V(are) C(hard to hear)), Imperative V(note) O(the bass movement, melodic resting points, and changes in tension) Adv(before assigning chord names)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Bass movement provides a clue.",
+          "expanded": "Bass movement provides a clue because the lowest note often helps define the harmonic foundation.",
+          "nuance": "低音が和声の土台を示す場合が多いことを説明する。"
+        },
+        {
+          "original": "Resting points are marked.",
+          "expanded": "Resting points are marked, so stable melody notes can be compared with candidate chords.",
+          "nuance": "旋律音と候補コードの照合へつなぐ。"
+        },
+        {
+          "original": "Chord names are assigned later.",
+          "expanded": "Chord names are assigned later since premature labels can bias subsequent listening.",
+          "nuance": "早すぎる命名が聴取を偏らせうることを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Bass movement and melodic resting points should be noted before the chord is named.",
+          "translation": "コード名を付ける前に、ベースの動きと旋律の落ち着く位置を記録すべきだ。",
+          "note": "観察対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Listening for changes in tension, the transcriber can narrow the harmonic possibilities.",
+          "translation": "緊張感の変化を聞くことで、採譜者は和声の候補を絞れる。",
+          "note": "探索手段を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The identification of chord changes begins with the collection of audible clues.",
+          "translation": "コード変化の特定は、聞き取れる手掛かりの収集から始まる。",
+          "note": "identifyとcollectを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "assign",
+            "alternatives": [
+              "name",
+              "label",
+              "identify"
+            ],
+            "nuance": "assign a chord nameは観察後にコード名を割り当てることを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "手順",
+            "sentence": "Collect the clues first; test a chord name afterward.",
+            "translation": "まず手掛かりを集め、その後コード名を試す。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A bass change is sometimes easier to detect than a full harmonic change.",
+            "translation": "ベースの変化は、和声全体の変化より検出しやすい場合がある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the bass and melody support different candidates, replay the transition slowly.",
+            "translation": "ベースと旋律が異なる候補を示すなら、変わり目をゆっくり再生しよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters first is the audible evidence, not the theoretical label.",
+            "translation": "最初に重要なのは理論上の名称ではなく、聞き取れる証拠だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Hear clues before naming chords.",
+            "translation": "コード名を付ける前に手掛かりを聞こう。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "単一の音だけでコードを断定せず、複数の聴覚的手掛かりを集める順序として表現した。"
+    }
+  },
+  {
+    "_no": 116,
+    "_generatedAt": "2026-09-10T02:03:00+09:00",
+    "sentence": "A hydraulic cylinder may complete its stroke under a light load even when pressure is too low for reliable clamping; movement alone does not prove adequate holding force.",
+    "phonetic": "ア ハイドローリック シリンダー メイ コンプリート イッツ ストローク アンダー ア ライト ロード イーヴン ウェン プレッシャー イズ トゥー ロウ フォー リライアブル クランピング。ムーヴメント アローン ダズ ノット プルーヴ アデクウェット ホールディング フォース。",
+    "japaneseTranslation": "油圧シリンダーは負荷が小さければ、確実なクランプには圧力不足でもストロークを完了する場合がある。動くだけでは十分な保持力を証明できない。",
+    "theme": "油圧シリンダーの動作確認と保持力確認を分ける",
+    "coreVerb": "prove",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The cylinder moves.",
+        "translation": "シリンダーは動く。"
+      },
+      "phase2": {
+        "sentence": "The hydraulic cylinder may complete its stroke.",
+        "translation": "油圧シリンダーはストロークを完了する場合がある。",
+        "addedChunks": "hydraulic、may、complete its strokeを追加"
+      },
+      "phase3": {
+        "sentence": "The cylinder may move even when pressure is low.",
+        "translation": "圧力が低くても、シリンダーは動く場合がある。",
+        "connector": "even when"
+      },
+      "phase4": {
+        "sentence": "Holding force requires more evidence than movement alone.",
+        "translation": "保持力の確認には、動作だけより多くの証拠が必要だ。",
+        "comparison": "more evidence than"
+      },
+      "phase5": {
+        "sentence": "A hydraulic cylinder may complete its stroke under a light load even when pressure is too low for reliable clamping; movement alone does not prove adequate holding force.",
+        "translation": "油圧シリンダーは負荷が小さければ、確実なクランプには圧力不足でもストロークを完了する場合がある。動くだけでは十分な保持力を証明できない。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A hydraulic cylinder may complete its stroke",
+          "function": "行動",
+          "translation": "油圧シリンダーはストロークを完了する場合がある"
+        },
+        {
+          "text": "under a light load",
+          "function": "状態",
+          "translation": "負荷が小さければ"
+        },
+        {
+          "text": "even when pressure is too low",
+          "function": "接続",
+          "translation": "圧力が低すぎる場合でも"
+        },
+        {
+          "text": "for reliable clamping;",
+          "function": "目的",
+          "translation": "確実なクランプには"
+        },
+        {
+          "text": "movement alone does not prove",
+          "function": "行動",
+          "translation": "動くだけでは証明できない"
+        },
+        {
+          "text": "adequate holding force.",
+          "function": "対象",
+          "translation": "十分な保持力を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may complete",
+          "explanation": "常に起こるとは限らない可能性を示す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "負荷",
+          "name": "under + 名詞",
+          "where": "under a light load",
+          "explanation": "小さな負荷条件を示す。",
+          "rule": "under + 名詞句"
+        },
+        {
+          "category": "譲歩",
+          "name": "even when",
+          "where": "even when pressure is too low",
+          "explanation": "低圧でも動作しうる条件を示す。",
+          "rule": "even when + 節"
+        },
+        {
+          "category": "程度",
+          "name": "too ... for",
+          "where": "too low for reliable clamping",
+          "explanation": "目的に対して不足する程度を表す。",
+          "rule": "too + 形容詞 + for + 名詞"
+        },
+        {
+          "category": "限定",
+          "name": "名詞 + alone",
+          "where": "movement alone",
+          "explanation": "動作だけを判断材料として限定する。",
+          "rule": "名詞 + alone"
+        },
+        {
+          "category": "否定",
+          "name": "does not prove",
+          "where": "does not prove adequate holding force",
+          "explanation": "動作確認から保持力を断定できないことを示す。",
+          "rule": "does not + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "The cylinder may completes its stroke.",
+          "correct": "The cylinder may complete its stroke.",
+          "why": "mayの後ろは動詞原形を使う。"
+        },
+        {
+          "wrong": "Pressure is too low to reliable clamping.",
+          "correct": "Pressure is too low for reliable clamping.",
+          "why": "名詞句reliable clampingの前にはforを使う。"
+        },
+        {
+          "wrong": "Movement alone do not prove holding force.",
+          "correct": "Movement alone does not prove holding force.",
+          "why": "単数主語movementにはdoesを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Check pressure at the cylinder under the intended load, not only during free movement.",
+          "translation": "無負荷の動作時だけでなく、想定負荷をかけてシリンダー部の圧力を確認しよう。"
+        },
+        {
+          "text": "Slow or inconsistent motion can justify checking pressure, leakage, flow, and air in the circuit.",
+          "translation": "遅い、または不安定な動作があれば、回路の圧力、漏れ、流量、空気混入を確認する根拠になる。"
+        },
+        {
+          "text": "A position change confirms travel, whereas a pressure reading helps evaluate available force.",
+          "translation": "位置変化は移動を確認し、圧力値は利用可能な力の評価に役立つ。"
+        }
+      ],
+      "parseTree": "S(A hydraulic cylinder) Aux(may) V(complete) O(its stroke) Adv(under a light load) AdvClause(even when pressure is too low for reliable clamping); S(movement alone) Aux(does not) V(prove) O(adequate holding force)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The cylinder moves under little load.",
+          "expanded": "The cylinder moves under little load because only a small force is required to overcome that load.",
+          "nuance": "小負荷なら必要な力が小さいことを示す。"
+        },
+        {
+          "original": "Pressure may be inadequate for clamping.",
+          "expanded": "Pressure may be inadequate for clamping, so the material can remain insufficiently secured.",
+          "nuance": "圧力不足から固定不足へつなぐ。"
+        },
+        {
+          "original": "Pressure should be checked at the cylinder.",
+          "expanded": "Pressure should be checked at the cylinder since line losses and circuit conditions can affect delivered pressure.",
+          "nuance": "供給元だけでなく作動部で確認する理由を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Adequate holding force cannot be confirmed by visible movement alone.",
+          "translation": "十分な保持力は目に見える動作だけでは確認できない。",
+          "note": "holding forceを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Moving under little load, the cylinder may appear normal without delivering the required clamping force.",
+          "translation": "小負荷で動くため、必要なクランプ力を出していなくてもシリンダーは正常に見える場合がある。",
+          "note": "誤認が生じる条件を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Pressure measurement under load provides stronger evidence of clamping capacity.",
+          "translation": "負荷時の圧力測定は、クランプ能力についてより強い証拠を与える。",
+          "note": "measureとclampを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "adequate",
+            "alternatives": [
+              "sufficient",
+              "required",
+              "acceptable"
+            ],
+            "nuance": "adequateは用途に必要な水準を満たすことを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "区別",
+            "sentence": "Travel confirms motion, while pressure under load helps confirm force.",
+            "translation": "ストロークは動作を、負荷時圧力は力の確認を助ける。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A pressure reading under load is more informative than unloaded movement alone.",
+            "translation": "負荷時の圧力値は、無負荷の動作だけより多くの情報を与える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the roller must secure material, verify the specified pressure and holding performance before relying on it.",
+            "translation": "ローラーで材料を固定する必要があるなら、使用前に指定圧力と保持性能を確認しよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What must be confirmed is clamping force, not merely cylinder travel.",
+            "translation": "確認すべきなのはシリンダーの移動だけでなく、クランプ力だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Movement is not proof of force.",
+            "translation": "動作は力の証明ではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "小負荷時の移動可能性に限定し、実機の保持力は圧力・負荷条件で別途確認すべきことを明確にした。"
+    }
+  },
+  {
+    "_no": 117,
+    "_generatedAt": "2026-09-10T02:04:00+09:00",
+    "sentence": "A policy does not operate through design alone; it also depends on people and institutions that continue to carry it out.",
+    "phonetic": "ア ポリシー ダズ ノット オペレイト スルー デザイン アローン。イット オールソー ディペンズ オン ピープル アンド インスティテューションズ ザット コンティニュー トゥ キャリー イット アウト。",
+    "japaneseTranslation": "政策は設計だけでは作動しない。それを実行し続ける人々と制度にも依存する。",
+    "theme": "政策の成立を設計と実行主体に分けて考える",
+    "coreVerb": "depend",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A policy operates.",
+        "translation": "政策は作動する。"
+      },
+      "phase2": {
+        "sentence": "A policy does not operate through design alone.",
+        "translation": "政策は設計だけでは作動しない。",
+        "addedChunks": "does not、through design aloneを追加"
+      },
+      "phase3": {
+        "sentence": "A policy operates because people carry it out.",
+        "translation": "人々が実行するため、政策は作動する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Implementation matters as much as policy design.",
+        "translation": "実施は政策設計と同じくらい重要だ。",
+        "comparison": "as much as"
+      },
+      "phase5": {
+        "sentence": "A policy does not operate through design alone; it also depends on people and institutions that continue to carry it out.",
+        "translation": "政策は設計だけでは作動しない。それを実行し続ける人々と制度にも依存する。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A policy does not operate",
+          "function": "行動",
+          "translation": "政策は作動しない"
+        },
+        {
+          "text": "through design alone;",
+          "function": "様態",
+          "translation": "設計だけでは"
+        },
+        {
+          "text": "it also depends",
+          "function": "行動",
+          "translation": "それはさらに依存する"
+        },
+        {
+          "text": "on people and institutions",
+          "function": "対象",
+          "translation": "人々と制度に"
+        },
+        {
+          "text": "that continue",
+          "function": "修飾",
+          "translation": "継続して"
+        },
+        {
+          "text": "to carry it out.",
+          "function": "行動",
+          "translation": "それを実行する"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "否定",
+          "name": "does not operate",
+          "where": "does not operate",
+          "explanation": "単数主語policyの否定文を作る。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "手段",
+          "name": "through",
+          "where": "through design",
+          "explanation": "作動を支える経路や手段を表す。",
+          "rule": "through + 名詞"
+        },
+        {
+          "category": "限定",
+          "name": "alone",
+          "where": "design alone",
+          "explanation": "設計だけに限定する読みを示す。",
+          "rule": "名詞 + alone"
+        },
+        {
+          "category": "接続",
+          "name": "セミコロン",
+          "where": "alone; it also depends",
+          "explanation": "密接に関連する独立節を結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "語法",
+          "name": "depend on",
+          "where": "depends on people and institutions",
+          "explanation": "依存する対象をonで示す。",
+          "rule": "depend on + 名詞"
+        },
+        {
+          "category": "関係節",
+          "name": "that",
+          "where": "institutions that continue",
+          "explanation": "実行を継続する主体を修飾する。",
+          "rule": "名詞 + that + 動詞"
+        },
+        {
+          "category": "句動詞",
+          "name": "carry out",
+          "where": "carry it out",
+          "explanation": "政策を実行することを表す。",
+          "rule": "carry + 目的格代名詞 + out"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A policy do not operate alone.",
+          "correct": "A policy does not operate alone.",
+          "why": "単数主語policyにはdoesを使う。"
+        },
+        {
+          "wrong": "It depends of institutions.",
+          "correct": "It depends on institutions.",
+          "why": "dependは前置詞onと組み合わせる。"
+        },
+        {
+          "wrong": "People carry out it.",
+          "correct": "People carry it out.",
+          "why": "代名詞目的語は句動詞carry outの間に置く。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A written rule becomes effective only when organizations repeatedly apply it.",
+          "translation": "書かれた規則は、組織が繰り返し適用して初めて実効性を持つ。"
+        },
+        {
+          "text": "Poor implementation can weaken a sound design, while continued participation can sustain a flawed one.",
+          "translation": "実施が悪ければ良い設計も弱まり、参加が続けば欠陥ある設計も維持されうる。"
+        },
+        {
+          "text": "To evaluate a policy, examine both its formal plan and the actors who reproduce it.",
+          "translation": "政策を評価するには、正式な計画とそれを再生産する主体の両方を調べよう。"
+        }
+      ],
+      "parseTree": "S(A policy) Aux(does not) V(operate) Adv(through design alone); S(it) Adv(also) V(depends) Adv(on people and institutions) RelClause(that continue to carry it out)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "People carry out the policy.",
+          "expanded": "People carry out the policy because institutions assign roles, resources, and authority.",
+          "nuance": "制度が実行条件を与えることを示す。"
+        },
+        {
+          "original": "Participation continues.",
+          "expanded": "Participation continues, so the policy remains active despite weaknesses in its design.",
+          "nuance": "参加継続から政策の存続へつなぐ。"
+        },
+        {
+          "original": "Implementation stops.",
+          "expanded": "Implementation stops, and the written design alone cannot produce the intended outcome.",
+          "nuance": "実行停止時に設計だけでは結果が出ないことを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A policy is sustained by the people and institutions that repeatedly implement it.",
+          "translation": "政策は、それを繰り返し実施する人々と制度によって維持される。",
+          "note": "policyを受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Continuing to enact the policy, participants keep its procedures in operation.",
+          "translation": "政策を実行し続けることで、参加者はその手続きを作動状態に保つ。",
+          "note": "継続的実行を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Policy implementation depends on institutional participation.",
+          "translation": "政策の実施は制度的参加に依存する。",
+          "note": "implementとparticipateを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "carry out",
+            "alternatives": [
+              "implement",
+              "execute",
+              "put into practice"
+            ],
+            "nuance": "carry outは計画や政策を実際の行為へ移すことを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "必要条件",
+            "sentence": "Design specifies the policy, but repeated implementation makes it operative.",
+            "translation": "設計は政策を規定するが、反復的な実施がそれを作動させる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Institutional participation may matter more than formal elegance when a policy is put into practice.",
+            "translation": "政策を実行する際、制度的参加は形式上の美しさより重要な場合がある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If organizations stop applying a rule, its written existence may have little practical effect.",
+            "translation": "組織が規則の適用をやめれば、書面上存在していても実際の効果は小さくなりうる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What keeps a policy alive is continued enactment, not design alone.",
+            "translation": "政策を存続させるのは設計だけでなく、継続的な実行だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Policies require participants.",
+            "translation": "政策には実行主体が要る。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "政策設計の重要性を否定せず、作動条件として継続的な実行主体を追加した。"
+    }
+  }
+]
