@@ -95,5 +95,12 @@
     "description": "記述以前からある世界、気づきによる関係の可視化、身近には現れない流行、現実の配置を無視する総動員的な物語を通して、存在と観測のずれを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260908/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260909",
+    "title": "動けば足りるわけではない",
+    "description": "油圧装置の動作と保持力、複雑な経路の負荷確認、耳コピにおける旋律と和声、政策を運ぶ実行主体を通して、入力の痕跡と仕事の成立を分けて考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260909/manifest.json",
+    "mode": "essay-translation"
   }
 ]
