@@ -102,5 +102,12 @@
     "description": "油圧装置の動作と保持力、複雑な経路の負荷確認、耳コピにおける旋律と和声、政策を運ぶ実行主体を通して、入力の痕跡と仕事の成立を分けて考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260909/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260910",
+    "title": "入口の外にも道はある",
+    "description": "文学の入口、AI時代の数学者育成、開戦を知る位置、市場規制の経路依存を通して、入口や制度が人へ位置を割り当てる作用を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260910/manifest.json",
+    "mode": "essay-translation"
   }
 ]
