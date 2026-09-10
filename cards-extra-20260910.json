@@ -1,0 +1,731 @@
+[
+  {
+    "_no": 118,
+    "_generatedAt": "2026-09-11T02:02:00+09:00",
+    "sentence": "The existence of a market does not by itself make that market legitimate; regulation must also consider harms, rights, and the consequences of changing the current rules.",
+    "phonetic": "ジ イグズィステンス オブ ア マーケット ダズ ノット バイ イットセルフ メイク ザット マーケット レジティメット。レギュレイション マスト オールソー コンシダー ハームズ、ライツ、アンド ザ コンセクウェンシズ オブ チェインジング ザ カレント ルールズ。",
+    "japaneseTranslation": "市場が存在するという事実だけで、その市場が正当になるわけではない。規制は、害、権利、そして現行ルールを変える結果も考慮しなければならない。",
+    "theme": "市場の存在と正当性を区別する",
+    "coreVerb": "consider",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A market exists.",
+        "translation": "市場が存在する。"
+      },
+      "phase2": {
+        "sentence": "A market can exist without being legitimate.",
+        "translation": "市場は正当でなくても存在しうる。",
+        "addedChunks": "canとwithout being legitimateを追加"
+      },
+      "phase3": {
+        "sentence": "A market can exist, but its existence does not establish legitimacy.",
+        "translation": "市場は存在しうるが、その存在が正当性を確立するわけではない。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Legitimacy requires more than proof that transactions occur.",
+        "translation": "正当性には、取引が行われているという証拠以上のものが必要だ。",
+        "comparison": "more than"
+      },
+      "phase5": {
+        "sentence": "The existence of a market does not by itself make that market legitimate; regulation must also consider harms, rights, and the consequences of changing the current rules.",
+        "translation": "市場が存在するという事実だけで、その市場が正当になるわけではない。規制は、害、権利、そして現行ルールを変える結果も考慮しなければならない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "The existence of a market",
+          "function": "主語",
+          "translation": "市場が存在するという事実は"
+        },
+        {
+          "text": "does not by itself make",
+          "function": "行動",
+          "translation": "それだけでは〜にしない"
+        },
+        {
+          "text": "that market legitimate;",
+          "function": "結果",
+          "translation": "その市場を正当なものに"
+        },
+        {
+          "text": "regulation must also consider",
+          "function": "行動",
+          "translation": "規制はさらに考慮しなければならない"
+        },
+        {
+          "text": "harms, rights,",
+          "function": "対象",
+          "translation": "害と権利を"
+        },
+        {
+          "text": "and the consequences of changing the current rules.",
+          "function": "対象",
+          "translation": "そして現行ルールを変える結果を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "名詞化",
+          "name": "the existence of",
+          "where": "The existence of a market",
+          "explanation": "市場が存在することを名詞句として主語にする。",
+          "rule": "the + 名詞 + of + 名詞"
+        },
+        {
+          "category": "否定",
+          "name": "does not make",
+          "where": "does not ... make",
+          "explanation": "単数主語existenceの否定文を作る。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "限定",
+          "name": "by itself",
+          "where": "by itself",
+          "explanation": "存在という事実だけでは足りないことを示す。",
+          "rule": "by + 再帰代名詞"
+        },
+        {
+          "category": "補語",
+          "name": "make O C",
+          "where": "make that market legitimate",
+          "explanation": "市場を正当な状態にするという結果を表す。",
+          "rule": "make + 目的語 + 形容詞"
+        },
+        {
+          "category": "接続",
+          "name": "セミコロン",
+          "where": "legitimate; regulation",
+          "explanation": "対照的で密接な二つの独立節を結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "助動詞",
+          "name": "must",
+          "where": "must also consider",
+          "explanation": "規制判断に必要な考慮事項を示す。",
+          "rule": "must + 動詞原形"
+        },
+        {
+          "category": "動名詞",
+          "name": "of + 動名詞",
+          "where": "of changing the current rules",
+          "explanation": "どの行為の結果かを示す。",
+          "rule": "consequences of + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "The existence of a market do not make it legitimate.",
+          "correct": "The existence of a market does not make it legitimate.",
+          "why": "主語existenceは単数なのでdoesを使う。"
+        },
+        {
+          "wrong": "Its existence makes the market to be legitimate.",
+          "correct": "Its existence makes the market legitimate.",
+          "why": "make O Cでは形容詞補語の前にto beを置かない。"
+        },
+        {
+          "wrong": "Regulation must considers harms and rights.",
+          "correct": "Regulation must consider harms and rights.",
+          "why": "mustの後ろは動詞原形にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Existing demand is evidence of activity, not automatic proof of legitimacy.",
+          "translation": "既存の需要は活動の証拠だが、正当性の自動的な証明ではない。"
+        },
+        {
+          "text": "Legal reform should compare the costs of change with the costs of keeping current rules.",
+          "translation": "法改正では、変更のコストと現行ルールを維持するコストを比較すべきだ。"
+        },
+        {
+          "text": "A legal gray area can support transactions without settling whether they should be accepted.",
+          "translation": "法的な曖昧領域は取引を支えうるが、それを受容すべきかまでは決めない。"
+        }
+      ],
+      "parseTree": "S(The existence of a market) Aux(does not) Adv(by itself) V(make) O(that market) C(legitimate); S(regulation) Aux(must) Adv(also) V(consider) O(harms, rights, and the consequences of changing the current rules)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The market exists.",
+          "expanded": "The market exists because buyers and sellers continue to participate under the current rules.",
+          "nuance": "市場の成立条件を参加の継続として説明する。"
+        },
+        {
+          "original": "Existence does not establish legitimacy.",
+          "expanded": "Existence does not establish legitimacy, since regular transactions can still involve harm or unequal rights.",
+          "nuance": "取引の継続と規範的評価を分ける。"
+        },
+        {
+          "original": "Reform has consequences.",
+          "expanded": "Reform has consequences, so lawmakers should compare a proposed change with continued operation under existing rules.",
+          "nuance": "変更案だけでなく現状維持も比較対象にする。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A market is not made legitimate merely by its continued existence.",
+          "translation": "市場は、存続しているだけで正当になるわけではない。",
+          "note": "marketを受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Considering harms and rights, regulators can evaluate more than market activity.",
+          "translation": "害と権利を考慮することで、規制当局は市場活動以上のものを評価できる。",
+          "note": "考慮の手段を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The evaluation of legitimacy requires an assessment of regulatory consequences.",
+          "translation": "正当性の評価には、規制がもたらす結果の査定が必要だ。",
+          "note": "evaluateとassessを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "legitimate",
+            "alternatives": [
+              "justified",
+              "lawful",
+              "socially acceptable"
+            ],
+            "nuance": "legitimateは合法性だけでなく、正当と認められるかも含みうる。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "区別",
+            "sentence": "A market may be active without being legitimate.",
+            "translation": "市場は正当でなくても活発でありうる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Evidence of transactions is narrower than evidence of social legitimacy.",
+            "translation": "取引の証拠は、社会的正当性の証拠より範囲が狭い。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If rules change, compare the new harms with those produced by the current system.",
+            "translation": "ルールを変えるなら、新たな害を現行制度が生む害と比較しよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What market activity proves is participation, not legitimacy.",
+            "translation": "市場活動が証明するのは参加であり、正当性ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Existence is not legitimacy.",
+            "translation": "存在は正当性ではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "市場の事実記述と規範判断を分け、制度変更と現状維持の双方に結果があることを一文に収めた。"
+    }
+  },
+  {
+    "_no": 119,
+    "_generatedAt": "2026-09-11T02:02:00+09:00",
+    "sentence": "Even if AI solves many intermediate problems first, mathematicians may remain essential for framing physical questions, checking proofs, and connecting isolated results to broader theories.",
+    "phonetic": "イーヴン イフ エーアイ ソルヴズ メニー インターミーディエット プロブレムズ ファースト、マセマティシャンズ メイ リメイン エセンシャル フォー フレイミング フィジカル クウェスチョンズ、チェッキング プルーフス、アンド コネクティング アイソレイティッド リザルツ トゥ ブローダー セオリーズ。",
+    "japaneseTranslation": "たとえAIが多くの中間的な問題を先に解いても、物理的な問いを組み立て、証明を確認し、個別の結果をより広い理論へ結び付けるうえで、数学者はなお不可欠かもしれない。",
+    "theme": "AIが先に解く時代の数学者の役割を分けて考える",
+    "coreVerb": "remain",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Mathematicians remain important.",
+        "translation": "数学者は重要であり続ける。"
+      },
+      "phase2": {
+        "sentence": "Mathematicians may remain important for framing questions.",
+        "translation": "数学者は問いを組み立てるうえで重要であり続けるかもしれない。",
+        "addedChunks": "mayとfor framing questionsを追加"
+      },
+      "phase3": {
+        "sentence": "Mathematicians may remain important even if AI solves problems first.",
+        "translation": "AIが先に問題を解いても、数学者は重要であり続けるかもしれない。",
+        "connector": "even if"
+      },
+      "phase4": {
+        "sentence": "Framing a useful question can matter as much as solving an isolated problem.",
+        "translation": "有用な問いを組み立てることは、個別の問題を解くことと同じくらい重要な場合がある。",
+        "comparison": "as much as"
+      },
+      "phase5": {
+        "sentence": "Even if AI solves many intermediate problems first, mathematicians may remain essential for framing physical questions, checking proofs, and connecting isolated results to broader theories.",
+        "translation": "たとえAIが多くの中間的な問題を先に解いても、物理的な問いを組み立て、証明を確認し、個別の結果をより広い理論へ結び付けるうえで、数学者はなお不可欠かもしれない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Even if AI solves",
+          "function": "譲歩",
+          "translation": "たとえAIが解いても"
+        },
+        {
+          "text": "many intermediate problems first,",
+          "function": "対象",
+          "translation": "多くの中間的な問題を先に"
+        },
+        {
+          "text": "mathematicians may remain essential",
+          "function": "状態",
+          "translation": "数学者はなお不可欠かもしれない"
+        },
+        {
+          "text": "for framing physical questions,",
+          "function": "目的",
+          "translation": "物理的な問いを組み立てるうえで"
+        },
+        {
+          "text": "checking proofs,",
+          "function": "目的",
+          "translation": "証明を確認し"
+        },
+        {
+          "text": "and connecting isolated results to broader theories.",
+          "function": "目的",
+          "translation": "個別の結果をより広い理論へ結び付けるうえで"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "譲歩",
+          "name": "even if",
+          "where": "Even if AI solves",
+          "explanation": "AIが先に解く場合でも主節が成り立つ可能性を示す。",
+          "rule": "Even if + 節, 主節"
+        },
+        {
+          "category": "語順",
+          "name": "first",
+          "where": "solves ... first",
+          "explanation": "AIが先に解く順序を示す。",
+          "rule": "動詞 + 目的語 + first"
+        },
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may remain",
+          "explanation": "将来の役割を断定せず可能性として述べる。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "補語",
+          "name": "remain + 形容詞",
+          "where": "remain essential",
+          "explanation": "不可欠な状態が続く可能性を表す。",
+          "rule": "remain + 形容詞"
+        },
+        {
+          "category": "目的",
+          "name": "for + 動名詞",
+          "where": "for framing physical questions",
+          "explanation": "不可欠となりうる用途を示す。",
+          "rule": "for + 動名詞"
+        },
+        {
+          "category": "並列",
+          "name": "三つの動名詞句",
+          "where": "framing ..., checking ..., and connecting ...",
+          "explanation": "数学者の三つの役割を並列する。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "語法",
+          "name": "connect A to B",
+          "where": "connecting isolated results to broader theories",
+          "explanation": "個別成果と理論の結び付きを表す。",
+          "rule": "connect A to B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Even if AI will solve the problem first, mathematicians remain useful.",
+          "correct": "Even if AI solves the problem first, mathematicians remain useful.",
+          "why": "未来の条件を表すeven if節では通常現在形を使う。"
+        },
+        {
+          "wrong": "Mathematicians may remains essential.",
+          "correct": "Mathematicians may remain essential.",
+          "why": "mayの後ろは動詞原形にする。"
+        },
+        {
+          "wrong": "They connect results with broader theories.",
+          "correct": "They connect results to broader theories.",
+          "why": "結果を理論へ結び付ける方向を表すときはconnect A to Bが明確。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Fast problem solving does not replace the work of choosing which problems matter.",
+          "translation": "高速な問題解決は、どの問題が重要かを選ぶ仕事を置き換えない。"
+        },
+        {
+          "text": "Human researchers may focus more on interpretation when AI produces candidate proofs.",
+          "translation": "AIが証明候補を生み出すとき、人間の研究者は解釈により集中するかもしれない。"
+        },
+        {
+          "text": "A result becomes more useful when it is checked and placed within a larger theory.",
+          "translation": "結果は、検証され、より大きな理論の中に置かれると、さらに有用になる。"
+        }
+      ],
+      "parseTree": "AdvClause(Even if S(AI) V(solves) O(many intermediate problems) Adv(first)), S(mathematicians) Aux(may) V(remain) C(essential) Adv(for framing physical questions, checking proofs, and connecting isolated results to broader theories)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Mathematicians frame questions.",
+          "expanded": "Mathematicians frame questions because a solvable problem is not automatically a scientifically useful one.",
+          "nuance": "解けることと科学的価値を区別する。"
+        },
+        {
+          "original": "Proofs are checked.",
+          "expanded": "Proofs are checked, so hidden assumptions and invalid steps are more likely to be found.",
+          "nuance": "検証が必要な理由を示す。"
+        },
+        {
+          "original": "Results are connected to theories.",
+          "expanded": "Results are connected to broader theories since isolated answers need interpretation to inform physical inquiry.",
+          "nuance": "個別解から物理的理解への橋渡しを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "AI-generated proofs may still need to be checked and interpreted by mathematicians.",
+          "translation": "AIが生成した証明も、数学者による確認と解釈が必要な場合がある。",
+          "note": "proofsを受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Framing physical questions, mathematicians determine where formal results may be useful.",
+          "translation": "物理的な問いを組み立てることで、数学者は形式的な結果がどこで役立つかを判断する。",
+          "note": "役割を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The verification and interpretation of results remain possible human contributions.",
+          "translation": "結果の検証と解釈は、人間が担いうる貢献として残る。",
+          "note": "verifyとinterpretを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "frame",
+            "alternatives": [
+              "formulate",
+              "define",
+              "pose"
+            ],
+            "nuance": "frameは問いの範囲や見方を組み立てることを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "譲歩",
+            "sentence": "Even if discovery accelerates, interpretation may remain difficult.",
+            "translation": "発見が加速しても、解釈は難しいままかもしれない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A well-framed question may be as valuable as a rapid answer.",
+            "translation": "よく組み立てられた問いは、素早い答えと同じくらい価値があるかもしれない。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If AI proposes a proof, researchers must still test its assumptions and relevance.",
+            "translation": "AIが証明を提案するなら、研究者はその前提と関連性をなお検証しなければならない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What may remain human is the work of framing and interpretation.",
+            "translation": "人間の仕事として残りうるのは、問いの設定と解釈だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Solutions still need context.",
+            "translation": "解にはなお文脈が必要だ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 8,
+      "efficiency": 8,
+      "comment": "AIの能力を固定的に断定せず、数学者が担いうる役割を問いの設定・検証・理論接続に限定して示した。"
+    }
+  },
+  {
+    "_no": 120,
+    "_generatedAt": "2026-09-11T02:02:00+09:00",
+    "sentence": "Public enthusiasm for war cannot be inferred from slogans alone, because people at different distances from decision-making may understand an approaching conflict very differently.",
+    "phonetic": "パブリック エンスージアズム フォー ウォー キャノット ビー インファード フロム スローガンズ アローン、ビコーズ ピープル アット ディファレント ディスタンシズ フロム ディシジョン メイキング メイ アンダースタンド アン アプローチング コンフリクト ヴェリー ディファレントリー。",
+    "japaneseTranslation": "戦争に対する大衆の熱狂を標語だけから推論することはできない。意思決定からの距離が異なる人々は、近づく紛争を大きく異なる形で理解している可能性があるからだ。",
+    "theme": "開戦への態度を意思決定からの距離で読む",
+    "coreVerb": "infer",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Slogans reveal attitudes.",
+        "translation": "標語は態度を示す。"
+      },
+      "phase2": {
+        "sentence": "Slogans alone do not reveal every public attitude.",
+        "translation": "標語だけでは大衆のあらゆる態度は分からない。",
+        "addedChunks": "alone、do not、every public attitudeを追加"
+      },
+      "phase3": {
+        "sentence": "Slogans are limited because people have different information.",
+        "translation": "人々が異なる情報を持つため、標語から分かることには限界がある。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "People near decision-making may understand the risk more clearly than distant observers.",
+        "translation": "意思決定に近い人は、遠い観察者より危険を明確に理解している場合がある。",
+        "comparison": "more clearly than"
+      },
+      "phase5": {
+        "sentence": "Public enthusiasm for war cannot be inferred from slogans alone, because people at different distances from decision-making may understand an approaching conflict very differently.",
+        "translation": "戦争に対する大衆の熱狂を標語だけから推論することはできない。意思決定からの距離が異なる人々は、近づく紛争を大きく異なる形で理解している可能性があるからだ。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Public enthusiasm for war",
+          "function": "主語",
+          "translation": "戦争に対する大衆の熱狂は"
+        },
+        {
+          "text": "cannot be inferred",
+          "function": "行動",
+          "translation": "推論することができない"
+        },
+        {
+          "text": "from slogans alone,",
+          "function": "根拠",
+          "translation": "標語だけからは"
+        },
+        {
+          "text": "because people",
+          "function": "理由",
+          "translation": "なぜなら人々は"
+        },
+        {
+          "text": "at different distances from decision-making",
+          "function": "修飾",
+          "translation": "意思決定から異なる距離にいて"
+        },
+        {
+          "text": "may understand an approaching conflict very differently.",
+          "function": "行動",
+          "translation": "近づく紛争を大きく異なる形で理解している可能性がある"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "語法",
+          "name": "enthusiasm for",
+          "where": "enthusiasm for war",
+          "explanation": "熱狂の対象をforで示す。",
+          "rule": "enthusiasm for + 名詞"
+        },
+        {
+          "category": "受動態",
+          "name": "cannot be inferred",
+          "where": "cannot be inferred",
+          "explanation": "推論できない対象を主語にする。",
+          "rule": "cannot be + 過去分詞"
+        },
+        {
+          "category": "起点",
+          "name": "infer from",
+          "where": "inferred from slogans",
+          "explanation": "推論の根拠をfromで示す。",
+          "rule": "infer A from B"
+        },
+        {
+          "category": "限定",
+          "name": "alone",
+          "where": "slogans alone",
+          "explanation": "標語だけを根拠とする場合に限定する。",
+          "rule": "名詞 + alone"
+        },
+        {
+          "category": "理由",
+          "name": "because節",
+          "where": "because people ...",
+          "explanation": "単純な推論が難しい理由を示す。",
+          "rule": "主節, because + 節"
+        },
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may understand",
+          "explanation": "認識差を可能性として述べる。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "分詞",
+          "name": "現在分詞の形容詞用法",
+          "where": "an approaching conflict",
+          "explanation": "近づいている紛争を表す。",
+          "rule": "現在分詞 + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Enthusiasm to war cannot be inferred.",
+          "correct": "Enthusiasm for war cannot be inferred.",
+          "why": "enthusiasmの対象には通常forを使う。"
+        },
+        {
+          "wrong": "It cannot inferred from slogans.",
+          "correct": "It cannot be inferred from slogans.",
+          "why": "受動態にはbe動詞が必要。"
+        },
+        {
+          "wrong": "People may understands the conflict differently.",
+          "correct": "People may understand the conflict differently.",
+          "why": "mayの後ろは動詞原形にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A loud public slogan does not show how widely its message was understood or believed.",
+          "translation": "声高な公的標語だけでは、その内容がどれほど広く理解され、信じられたかは分からない。"
+        },
+        {
+          "text": "Proximity to decision-making can affect what information a person receives.",
+          "translation": "意思決定への近さは、その人が受け取る情報に影響しうる。"
+        },
+        {
+          "text": "Historical claims about public opinion should distinguish expression, knowledge, and coercion.",
+          "translation": "大衆意見に関する歴史的主張では、表明、知識、強制を区別すべきだ。"
+        }
+      ],
+      "parseTree": "S(Public enthusiasm for war) Aux(cannot) V(be inferred) Adv(from slogans alone), Subordinator(because) S(people at different distances from decision-making) Aux(may) V(understand) O(an approaching conflict) Adv(very differently)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Slogans are incomplete evidence.",
+          "expanded": "Slogans are incomplete evidence because public expression can differ from private knowledge or belief.",
+          "nuance": "表明と内的認識を区別する。"
+        },
+        {
+          "original": "People receive different information.",
+          "expanded": "People receive different information, so their understanding of an approaching conflict may vary.",
+          "nuance": "情報差から認識差へつなぐ。"
+        },
+        {
+          "original": "Decision-making is distant.",
+          "expanded": "Decision-making is distant from many citizens, which can limit their knowledge of the timing and scale of a conflict.",
+          "nuance": "距離が具体的な情報制約になりうることを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "能動態",
+          "sentence": "Historians cannot infer public enthusiasm from slogans alone.",
+          "translation": "歴史家は標語だけから大衆の熱狂を推論できない。",
+          "note": "推論主体を明示する。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Relying only on slogans, an analyst may exaggerate the uniformity of public opinion.",
+          "translation": "標語だけに頼ると、分析者は大衆意見の均一性を誇張する可能性がある。",
+          "note": "不十分な方法を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The interpretation of public attitudes requires attention to access to information.",
+          "translation": "大衆の態度の解釈には、情報へのアクセスに注意する必要がある。",
+          "note": "interpretを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "infer",
+            "alternatives": [
+              "deduce",
+              "conclude",
+              "derive"
+            ],
+            "nuance": "inferは限られた証拠から判断を導くことを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "根拠の限定",
+            "sentence": "Public opinion cannot be reconstructed from one kind of evidence alone.",
+            "translation": "大衆意見は一種類の証拠だけから再構成できない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Private understanding may be less uniform than public slogans suggest.",
+            "translation": "私的な理解は、公的標語が示唆するほど一様ではないかもしれない。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If citizens lacked reliable information, apparent enthusiasm may not show informed support.",
+            "translation": "市民に信頼できる情報がなかったなら、表面的な熱狂は情報に基づく支持を示さないかもしれない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not only what people said, but also what they knew.",
+            "translation": "重要なのは人々が何を言ったかだけでなく、何を知っていたかだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Slogans are not full public opinion.",
+            "translation": "標語は大衆意見の全体ではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "特定時代の全市民を断定せず、標語という証拠の限界と意思決定への距離による認識差に焦点を絞った。"
+    }
+  }
+]
