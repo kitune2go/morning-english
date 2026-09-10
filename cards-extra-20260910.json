@@ -37,7 +37,7 @@
       "chunks": [
         {
           "text": "The existence of a market",
-          "function": "主語",
+          "function": "内容",
           "translation": "市場が存在するという事実は"
         },
         {
@@ -523,7 +523,7 @@
       "chunks": [
         {
           "text": "Public enthusiasm for war",
-          "function": "主語",
+          "function": "内容",
           "translation": "戦争に対する大衆の熱狂は"
         },
         {
@@ -533,7 +533,7 @@
         },
         {
           "text": "from slogans alone,",
-          "function": "根拠",
+          "function": "修飾",
           "translation": "標語だけからは"
         },
         {
