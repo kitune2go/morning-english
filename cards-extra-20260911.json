@@ -1,0 +1,731 @@
+[
+  {
+    "_no": 121,
+    "_generatedAt": "2026-09-12T01:57:50+09:00",
+    "sentence": "Bracing the abdomen creates an isometric contraction without visible movement, while controlled exercise through a comfortable range trains the muscles as joint positions change.",
+    "phonetic": "ブレイシング ジ アブドメン クリエイツ アン アイソメトリック コントラクション ウィズアウト ヴィズィブル ムーヴメント、ワイル コントロールド エクササイズィズ スルー ア カムフォタブル レインジ トレイン ザ マスルズ アクロス チェインジング ジョイント ポジションズ。",
+    "japaneseTranslation": "腹部に力を入れると、目に見える動きを伴わない等尺性収縮が起こる。一方、無理のない範囲で制御して動く運動は、関節位置が変化するなかで筋肉を鍛える。",
+    "theme": "静止した腹部収縮と動きを伴う運動を区別する",
+    "coreVerb": "train",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The muscles contract.",
+        "translation": "筋肉が収縮する。"
+      },
+      "phase2": {
+        "sentence": "Bracing the abdomen makes the muscles contract.",
+        "translation": "腹部に力を入れると筋肉が収縮する。",
+        "addedChunks": "Bracing the abdomenとmakesを追加"
+      },
+      "phase3": {
+        "sentence": "The muscles contract even though the joint does not move.",
+        "translation": "関節が動かなくても筋肉は収縮する。",
+        "connector": "even though"
+      },
+      "phase4": {
+        "sentence": "Dynamic exercise uses a wider range of positions than a static hold.",
+        "translation": "動的運動は静止保持より広い範囲の姿勢を使う。",
+        "comparison": "a wider range than"
+      },
+      "phase5": {
+        "sentence": "Bracing the abdomen creates an isometric contraction without visible movement, while controlled exercise through a comfortable range trains the muscles as joint positions change.",
+        "translation": "腹部に力を入れると、目に見える動きを伴わない等尺性収縮が起こる。一方、無理のない範囲で制御して動く運動は、関節位置が変化するなかで筋肉を鍛える。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Bracing the abdomen",
+          "function": "行動",
+          "translation": "腹部に力を入れると"
+        },
+        {
+          "text": "creates an isometric contraction",
+          "function": "結果",
+          "translation": "等尺性収縮が起こる"
+        },
+        {
+          "text": "without visible movement,",
+          "function": "様態",
+          "translation": "目に見える動きを伴わず"
+        },
+        {
+          "text": "while controlled exercise",
+          "function": "接続",
+          "translation": "一方、制御された運動は"
+        },
+        {
+          "text": "through a comfortable range",
+          "function": "修飾",
+          "translation": "無理のない範囲で"
+        },
+        {
+          "text": "trains the muscles as joint positions change.",
+          "function": "行動",
+          "translation": "関節位置が変化するなかで筋肉を鍛える"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞主語",
+          "where": "Bracing the abdomen",
+          "explanation": "腹部を固める行為を主語にする。",
+          "rule": "動名詞句 + 単数動詞"
+        },
+        {
+          "category": "一致",
+          "name": "三人称単数",
+          "where": "creates",
+          "explanation": "動名詞主語に単数動詞を合わせる。",
+          "rule": "単数主語 + 動詞-s"
+        },
+        {
+          "category": "語彙",
+          "name": "create + 名詞",
+          "where": "creates an isometric contraction",
+          "explanation": "収縮を生じさせることを表す。",
+          "rule": "create + 目的語"
+        },
+        {
+          "category": "付帯",
+          "name": "without + 名詞",
+          "where": "without visible movement",
+          "explanation": "外から見える動きがない状態を示す。",
+          "rule": "without + 名詞句"
+        },
+        {
+          "category": "対照",
+          "name": "while",
+          "where": "while controlled exercises",
+          "explanation": "静的収縮と動的運動を対照する。",
+          "rule": "節, while + 節"
+        },
+        {
+          "category": "範囲",
+          "name": "through + 名詞",
+          "where": "through a comfortable range",
+          "explanation": "運動する範囲を示す。",
+          "rule": "through + 名詞句"
+        },
+        {
+          "category": "変化",
+          "name": "as節",
+          "where": "as joint positions change",
+          "explanation": "運動中に関節位置が変化することを表す。",
+          "rule": "as + 主語 + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Bracing the abdomen create a contraction.",
+          "correct": "Bracing the abdomen creates a contraction.",
+          "why": "動名詞句を単数主語として扱い、createsを使う。"
+        },
+        {
+          "wrong": "The muscles contract without move.",
+          "correct": "The muscles contract without movement.",
+          "why": "前置詞withoutの後ろには名詞を置く。"
+        },
+        {
+          "wrong": "Controlled exercise train the muscles.",
+          "correct": "Controlled exercise trains the muscles.",
+          "why": "不可算の総称として使うexerciseには単数動詞trainsを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Tightening the abdomen without moving is a form of isometric exercise.",
+          "translation": "動かずに腹部を締めることは、等尺性運動の一種だ。"
+        },
+        {
+          "text": "A static brace can train the muscles even when no joint movement is visible.",
+          "translation": "関節の動きが見えなくても、静止保持は筋肉を鍛えられる。"
+        },
+        {
+          "text": "Controlled movement adds changing positions to the muscular effort.",
+          "translation": "制御された動きは、筋肉の力発揮に位置の変化を加える。"
+        }
+      ],
+      "parseTree": "S(Bracing the abdomen) V(creates) O(an isometric contraction) Adv(without visible movement), Conj(while) S(controlled exercise through a comfortable range) V(trains) O(the muscles) AdvClause(as joint positions change)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The abdomen is braced.",
+          "expanded": "The abdomen is braced, so its muscles generate tension even without visible joint movement.",
+          "nuance": "静止していても張力が生じることを説明する。"
+        },
+        {
+          "original": "The range stays comfortable.",
+          "expanded": "The range stays comfortable because forcing a painful position is not required for ordinary training.",
+          "nuance": "無理な可動域を前提にしない。"
+        },
+        {
+          "original": "Positions change.",
+          "expanded": "Positions change during controlled movement, allowing the muscles to work at more than one joint angle.",
+          "nuance": "動的運動が複数の角度を含むことを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The abdominal muscles can be trained through both static bracing and controlled movement.",
+          "translation": "腹筋は静止保持と制御された動きの両方で鍛えられる。",
+          "note": "musclesを受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Holding the trunk still, a person can create muscular tension without visible movement.",
+          "translation": "体幹を静止させたままでも、目に見える動きなしに筋緊張を生み出せる。",
+          "note": "静止条件を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Abdominal bracing produces tension, whereas controlled movement changes joint position.",
+          "translation": "腹部の固定は張力を生み、制御された動きは関節位置を変える。",
+          "note": "braceを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "brace",
+            "alternatives": [
+              "tighten",
+              "engage",
+              "stabilize"
+            ],
+            "nuance": "braceは体幹を固めて安定させる含みがある。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Static holds create tension, while dynamic exercises add movement.",
+            "translation": "静止保持は張力を生み、動的運動は動きを加える。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A dynamic repetition uses more joint positions than a single static hold.",
+            "translation": "動的な反復は、一つの静止保持より多くの関節位置を使う。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a movement causes pain, reduce the range and seek appropriate guidance.",
+            "translation": "動きで痛みが出るなら、可動域を狭め、適切な助言を求めよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is muscular tension, not visible movement alone.",
+            "translation": "重要なのは目に見える動きだけでなく、筋肉の張力だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Static bracing still contracts muscle.",
+            "translation": "静止保持でも筋肉は収縮する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "静止収縮にも運動効果がある点を認めつつ、動的運動との違いを関節位置の変化として限定的に説明した。"
+    }
+  },
+  {
+    "_no": 122,
+    "_generatedAt": "2026-09-12T01:57:50+09:00",
+    "sentence": "AI agents can work with fewer approvals when each task has a clear scope, automated tests, and explicit limits on actions that could cause harm.",
+    "phonetic": "エーアイ エイジェンツ キャン ワーク ウィズ フューアー アプルーヴァルズ ウェン イーチ タスク ハズ ア クリア スコープ、オートメイティッド テスツ、アンド イクスプリシット リミッツ オン アクションズ ザット クッド コーズ ハーム。",
+    "japaneseTranslation": "各タスクに明確な範囲、自動テスト、そして害を生じうる操作への明示的な制限があれば、AIエージェントは承認回数を減らして作業できる。",
+    "theme": "AIエージェントの自律性を範囲・テスト・権限で支える",
+    "coreVerb": "work",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "AI agents work.",
+        "translation": "AIエージェントが作業する。"
+      },
+      "phase2": {
+        "sentence": "AI agents can work with fewer approvals.",
+        "translation": "AIエージェントは承認回数を減らして作業できる。",
+        "addedChunks": "canとwith fewer approvalsを追加"
+      },
+      "phase3": {
+        "sentence": "AI agents can work more independently when tasks are clearly scoped.",
+        "translation": "タスクの範囲が明確なら、AIエージェントはより自律的に作業できる。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "Automated tests provide faster feedback than repeated manual checks.",
+        "translation": "自動テストは反復的な手動確認より速くフィードバックを返す。",
+        "comparison": "faster than"
+      },
+      "phase5": {
+        "sentence": "AI agents can work with fewer approvals when each task has a clear scope, automated tests, and explicit limits on actions that could cause harm.",
+        "translation": "各タスクに明確な範囲、自動テスト、そして害を生じうる操作への明示的な制限があれば、AIエージェントは承認回数を減らして作業できる。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "AI agents can work",
+          "function": "行動",
+          "translation": "AIエージェントは作業できる"
+        },
+        {
+          "text": "with fewer approvals",
+          "function": "様態",
+          "translation": "承認回数を減らして"
+        },
+        {
+          "text": "when each task has",
+          "function": "時間",
+          "translation": "各タスクに〜があるとき"
+        },
+        {
+          "text": "a clear scope, automated tests,",
+          "function": "対象",
+          "translation": "明確な範囲と自動テストが"
+        },
+        {
+          "text": "and explicit limits on actions",
+          "function": "対象",
+          "translation": "そして操作への明示的な制限が"
+        },
+        {
+          "text": "that could cause harm.",
+          "function": "修飾",
+          "translation": "害を生じうる"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can work",
+          "explanation": "作業可能性を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "比較",
+          "name": "fewer + 可算名詞",
+          "where": "fewer approvals",
+          "explanation": "承認の回数が少ないことを表す。",
+          "rule": "fewer + 複数可算名詞"
+        },
+        {
+          "category": "条件",
+          "name": "when節",
+          "where": "when each task has",
+          "explanation": "自律的作業が成立する条件を示す。",
+          "rule": "主節 + when + 節"
+        },
+        {
+          "category": "所有",
+          "name": "have + 目的語",
+          "where": "each task has",
+          "explanation": "タスクに備わる条件を列挙する。",
+          "rule": "主語 + have + 目的語"
+        },
+        {
+          "category": "並列",
+          "name": "三つの名詞句",
+          "where": "a clear scope, automated tests, and explicit limits",
+          "explanation": "必要な三条件を並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "前置詞",
+          "name": "limits on",
+          "where": "limits on actions",
+          "explanation": "制限される操作をonで示す。",
+          "rule": "limits on + 名詞"
+        },
+        {
+          "category": "関係節",
+          "name": "that",
+          "where": "actions that could cause harm",
+          "explanation": "制限対象となる操作を修飾する。",
+          "rule": "名詞 + that + 助動詞 + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "AI agents can works independently.",
+          "correct": "AI agents can work independently.",
+          "why": "canの後ろは動詞原形にする。"
+        },
+        {
+          "wrong": "Agents need less approvals.",
+          "correct": "Agents need fewer approvals.",
+          "why": "数えられるapprovalsにはfewerを使う。"
+        },
+        {
+          "wrong": "Each tasks have a clear scope.",
+          "correct": "Each task has a clear scope.",
+          "why": "eachの後ろは単数名詞にし、動詞もhasにする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Define the task boundary before allowing an agent to continue unattended.",
+          "translation": "エージェントを無人で継続させる前に、タスク境界を定めよう。"
+        },
+        {
+          "text": "Tests can replace some approval steps by detecting failures automatically.",
+          "translation": "テストは失敗を自動検出し、一部の承認手順を置き換えられる。"
+        },
+        {
+          "text": "Risky operations should remain behind explicit permission checks.",
+          "translation": "危険な操作には明示的な権限確認を残すべきだ。"
+        }
+      ],
+      "parseTree": "S(AI agents) Aux(can) V(work) Adv(with fewer approvals) AdvClause(when S(each task) V(has) O(a clear scope, automated tests, and explicit limits on actions RelClause(that could cause harm)))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The scope is clear.",
+          "expanded": "The scope is clear, so the agent can distinguish required work from unrelated changes.",
+          "nuance": "自律実行に境界が必要な理由を示す。"
+        },
+        {
+          "original": "Tests run automatically.",
+          "expanded": "Tests run automatically because rapid feedback can expose regressions without a manual review at every step.",
+          "nuance": "承認の一部を検査へ置き換える。"
+        },
+        {
+          "original": "Risky actions are limited.",
+          "expanded": "Risky actions are limited, reducing the chance that unattended work causes irreversible harm.",
+          "nuance": "自律性と安全制限を両立させる。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Some approval steps can be replaced by automated tests and explicit boundaries.",
+          "translation": "一部の承認手順は、自動テストと明示的な境界で置き換えられる。",
+          "note": "approval stepsを受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Working within a defined scope, an agent can complete routine steps without repeated confirmation.",
+          "translation": "定められた範囲内で作業することで、エージェントは定型手順を反復確認なしに完了できる。",
+          "note": "自律作業の条件を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Task definition and automated verification support safer agent autonomy.",
+          "translation": "タスク定義と自動検証は、より安全なエージェントの自律性を支える。",
+          "note": "defineとverifyを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "scope",
+            "alternatives": [
+              "boundary",
+              "remit",
+              "defined area"
+            ],
+            "nuance": "scopeは実行してよい仕事の範囲を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "条件",
+            "sentence": "Agents can proceed independently when boundaries and checks are explicit.",
+            "translation": "境界と検査が明示されていれば、エージェントは自律的に進める。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Automated checks are more scalable than approval at every minor step.",
+            "translation": "自動検査は、小さな手順ごとの承認より拡張しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If an action is irreversible, require explicit authorization before execution.",
+            "translation": "操作が取り消せないなら、実行前に明示的な許可を求めよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What enables autonomy is a reliable control system, not the absence of rules.",
+            "translation": "自律性を可能にするのは規則の欠如ではなく、信頼できる制御系だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Boundaries make autonomy safer.",
+            "translation": "境界が自律性を安全にする。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "承認を単純に廃止するのではなく、範囲・テスト・危険操作の権限制限を自律実行の条件として示した。"
+    }
+  },
+  {
+    "_no": 123,
+    "_generatedAt": "2026-09-12T01:57:50+09:00",
+    "sentence": "When a policy debate mixes rights, legal duties, and market incentives, separating those questions helps reveal the benefits protected by the rules and the people who bear their costs.",
+    "phonetic": "ウェン ア ポリシー ディベイト ミクスィズ ライツ、リーガル デューティーズ、アンド マーケット インセンティヴズ、セパレイティング ゾウズ クウェスチョンズ ヘルプス リヴィール ザ ベネフィッツ プロテクティッド バイ ザ ルールズ アンド ザ ピープル フー ベア ゼア コスツ。",
+    "japaneseTranslation": "政策論争で権利、法的義務、市場の誘因が混同されているとき、それらの問いを分けると、ルールが守る便益と、その費用を負担する人々が見えやすくなる。",
+    "theme": "制度論で権利・義務・市場誘因を分ける",
+    "coreVerb": "reveal",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Questions are mixed.",
+        "translation": "問いが混同されている。"
+      },
+      "phase2": {
+        "sentence": "A policy debate mixes several questions.",
+        "translation": "政策論争はいくつかの問いを混同する。",
+        "addedChunks": "A policy debateとseveral questionsを追加"
+      },
+      "phase3": {
+        "sentence": "Separate the questions when a debate mixes rights and duties.",
+        "translation": "論争が権利と義務を混同しているときは、問いを分けよう。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "Separating the questions is clearer than treating them as one issue.",
+        "translation": "問いを分ける方が、それらを一つの問題として扱うより明確だ。",
+        "comparison": "clearer than"
+      },
+      "phase5": {
+        "sentence": "When a policy debate mixes rights, legal duties, and market incentives, separating those questions helps reveal the benefits protected by the rules and the people who bear their costs.",
+        "translation": "政策論争で権利、法的義務、市場の誘因が混同されているとき、それらの問いを分けると、ルールが守る便益と、その費用を負担する人々が見えやすくなる。",
+        "relativizer": "who"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When a policy debate mixes",
+          "function": "時間",
+          "translation": "政策論争が混同しているとき"
+        },
+        {
+          "text": "rights, legal duties, and market incentives,",
+          "function": "対象",
+          "translation": "権利、法的義務、市場の誘因を"
+        },
+        {
+          "text": "separating those questions",
+          "function": "行動",
+          "translation": "それらの問いを分けることは"
+        },
+        {
+          "text": "helps reveal the benefits",
+          "function": "結果",
+          "translation": "便益を見えやすくする"
+        },
+        {
+          "text": "protected by the rules",
+          "function": "修飾",
+          "translation": "ルールによって守られる"
+        },
+        {
+          "text": "and the people who bear their costs.",
+          "function": "対象",
+          "translation": "そしてその費用を負担する人々を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "条件",
+          "name": "when節",
+          "where": "When a policy debate mixes",
+          "explanation": "問いの分離が必要になる状況を示す。",
+          "rule": "When + 節, 主節"
+        },
+        {
+          "category": "一致",
+          "name": "三人称単数",
+          "where": "debate mixes",
+          "explanation": "単数主語debateにmixesを合わせる。",
+          "rule": "単数主語 + 動詞-s"
+        },
+        {
+          "category": "並列",
+          "name": "三つの名詞句",
+          "where": "rights, legal duties, and market incentives",
+          "explanation": "混同される三領域を並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞主語",
+          "where": "separating those questions",
+          "explanation": "問いを分ける行為を主語にする。",
+          "rule": "動名詞句 + 単数動詞"
+        },
+        {
+          "category": "語法",
+          "name": "help + 動詞原形",
+          "where": "helps reveal",
+          "explanation": "分離が理解を助けることを表す。",
+          "rule": "help + 動詞原形"
+        },
+        {
+          "category": "分詞",
+          "name": "過去分詞による後置修飾",
+          "where": "benefits protected by the rules",
+          "explanation": "ルールが守る便益を修飾する。",
+          "rule": "名詞 + 過去分詞句"
+        },
+        {
+          "category": "関係節",
+          "name": "who",
+          "where": "people who bear their costs",
+          "explanation": "費用を負担する人々を説明する。",
+          "rule": "people + who + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A policy debate mix several questions.",
+          "correct": "A policy debate mixes several questions.",
+          "why": "単数主語debateにはmixesを使う。"
+        },
+        {
+          "wrong": "Separating the questions help reveal the costs.",
+          "correct": "Separating the questions helps reveal the costs.",
+          "why": "動名詞句主語は単数としてhelpsを使う。"
+        },
+        {
+          "wrong": "The people which bear the costs.",
+          "correct": "The people who bear the costs.",
+          "why": "人を先行詞とする主格関係代名詞にはwhoを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Rights, duties, and incentives answer different policy questions.",
+          "translation": "権利、義務、誘因は、それぞれ異なる政策上の問いに答える。"
+        },
+        {
+          "text": "A rule can impose a limit while protecting a benefit for compliant participants.",
+          "translation": "ルールは制限を課す一方で、従う参加者の便益を守りうる。"
+        },
+        {
+          "text": "Policy analysis should identify both the beneficiaries and the cost bearers.",
+          "translation": "政策分析では、受益者と費用負担者の双方を特定すべきだ。"
+        }
+      ],
+      "parseTree": "AdvClause(When S(a policy debate) V(mixes) O(rights, legal duties, and market incentives)), S(separating those questions) V(helps reveal) O(the benefits ParticipleClause(protected by the rules) and the people RelClause(who bear their costs))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The questions are separated.",
+          "expanded": "The questions are separated because rights, duties, and incentives require different kinds of evidence.",
+          "nuance": "論点ごとに必要な証拠が違うことを示す。"
+        },
+        {
+          "original": "Rules protect benefits.",
+          "expanded": "Rules protect benefits, so compliance may serve people beyond the person who follows the rule.",
+          "nuance": "遵守による便益が他者にも及びうることを示す。"
+        },
+        {
+          "original": "Costs are identified.",
+          "expanded": "Costs are identified, allowing the debate to distinguish private gains from burdens shifted to others.",
+          "nuance": "私的利益と外部負担を分ける。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Rights, duties, and incentives should be examined as separate policy questions.",
+          "translation": "権利、義務、誘因は、別々の政策上の問いとして検討すべきだ。",
+          "note": "三領域を受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Separating the issues, analysts can identify who gains and who pays.",
+          "translation": "論点を分けることで、分析者は誰が利益を得て誰が支払うかを特定できる。",
+          "note": "分析手段を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The separation of policy questions improves the identification of benefits and costs.",
+          "translation": "政策上の問いを分離すると、便益と費用を特定しやすくなる。",
+          "note": "separateとidentifyを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "bear costs",
+            "alternatives": [
+              "pay the costs",
+              "shoulder the burden",
+              "absorb the expense"
+            ],
+            "nuance": "bear costsは金銭以外の負担も引き受ける表現。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "分類",
+            "sentence": "Rights concern protection, duties concern obligations, and incentives concern behavior.",
+            "translation": "権利は保護、義務は責務、誘因は行動に関わる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A separated analysis is more precise than a debate that treats every concern as a rights claim.",
+            "translation": "論点を分けた分析は、あらゆる懸念を権利主張として扱う議論より精密だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a rule imposes costs, identify whose benefits justify those costs.",
+            "translation": "ルールが費用を課すなら、誰の便益がその費用を正当化するのか特定しよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not only the restriction, but also the benefit it protects.",
+            "translation": "重要なのは制限だけでなく、それが守る便益でもある。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Separate rights, duties, and incentives.",
+            "translation": "権利、義務、誘因を分けよう。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "敏感な個別制度への結論を避け、論争を整理するための一般的な分析手順に限定した。"
+    }
+  }
+]
