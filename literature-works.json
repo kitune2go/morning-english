@@ -109,5 +109,12 @@
     "description": "文学の入口、AI時代の数学者育成、開戦を知る位置、市場規制の経路依存を通して、入口や制度が人へ位置を割り当てる作用を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260910/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260911",
+    "title": "空白は代替にならない",
+    "description": "静止収縮と動的運動、AI開発の承認と自律性、旧来の雇用モデルを撤去した後の空席、法の線引きが守る便益を通して、削除後の支えを設計する必要を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260911/manifest.json",
+    "mode": "essay-translation"
   }
 ]
