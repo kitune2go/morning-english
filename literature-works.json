@@ -116,5 +116,12 @@
     "description": "静止収縮と動的運動、AI開発の承認と自律性、旧来の雇用モデルを撤去した後の空席、法の線引きが守る便益を通して、削除後の支えを設計する必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260911/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260912",
+    "title": "顔が育つと魔法も重くなる",
+    "description": "長期映画シリーズにおける俳優の成長、原作と映像の速度差、後半の面白さが変わった感覚を通して、物語への入口が時間とともに移動することを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260912/manifest.json",
+    "mode": "essay-translation"
   }
 ]
