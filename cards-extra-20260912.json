@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 124,
+    "_generatedAt": "2026-09-13T01:57:37+09:00",
+    "sentence": "An adaptation can preserve the main plot while changing the experience, because compressed explanations and fewer inner thoughts alter the pace, tone, and sense of character growth.",
+    "phonetic": "アン アダプテイション キャン プリザーヴ ザ メイン プロット ワイル チェインジング ジ イクスピアリエンス、ビコーズ コンプレスト イクスプラネイションズ アンド フューアー インナー ソーツ オルター ザ ペイス、トーン、アンド センス オブ キャラクター グロウス。",
+    "japaneseTranslation": "映像化作品は主要な筋を保ちながらも、鑑賞体験を変えうる。説明の圧縮と内面描写の減少が、テンポ、雰囲気、人物の成長の感じ方を変えるからだ。",
+    "theme": "同じ物語でも映像化によって印象が変わる理由を説明する",
+    "coreVerb": "alter",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Adaptations change stories.",
+        "translation": "映像化作品は物語を変える。"
+      },
+      "phase2": {
+        "sentence": "An adaptation can preserve the main plot.",
+        "translation": "映像化作品は主要な筋を保つことができる。",
+        "addedChunks": "canとpreserve the main plotを追加"
+      },
+      "phase3": {
+        "sentence": "An adaptation can preserve the plot while changing the experience.",
+        "translation": "映像化作品は筋を保ちながら、鑑賞体験を変えうる。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "A film usually shows fewer inner thoughts than a novel.",
+        "translation": "映画は通常、小説より内面の思考を示す量が少ない。",
+        "comparison": "fewer than"
+      },
+      "phase5": {
+        "sentence": "An adaptation can preserve the main plot while changing the experience, because compressed explanations and fewer inner thoughts alter the pace, tone, and sense of character growth.",
+        "translation": "映像化作品は主要な筋を保ちながらも、鑑賞体験を変えうる。説明の圧縮と内面描写の減少が、テンポ、雰囲気、人物の成長の感じ方を変えるからだ。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "An adaptation can preserve",
+          "function": "行動",
+          "translation": "映像化作品は保つことができる"
+        },
+        {
+          "text": "the main plot",
+          "function": "対象",
+          "translation": "主要な筋を"
+        },
+        {
+          "text": "while changing the experience,",
+          "function": "接続",
+          "translation": "鑑賞体験を変えながら"
+        },
+        {
+          "text": "because compressed explanations",
+          "function": "理由",
+          "translation": "説明の圧縮と"
+        },
+        {
+          "text": "and fewer inner thoughts alter",
+          "function": "行動",
+          "translation": "内面描写の減少が変えるからだ"
+        },
+        {
+          "text": "the pace, tone, and sense of character growth.",
+          "function": "対象",
+          "translation": "テンポ、雰囲気、人物の成長の感じ方を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can preserve",
+          "explanation": "筋を維持できる可能性を示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "preserve + 目的語",
+          "where": "preserve the main plot",
+          "explanation": "主要な筋を維持することを表す。",
+          "rule": "preserve + 名詞"
+        },
+        {
+          "category": "同時進行",
+          "name": "while + 動名詞",
+          "where": "while changing the experience",
+          "explanation": "筋を保つ一方で体験を変えることを示す。",
+          "rule": "while + 動名詞"
+        },
+        {
+          "category": "理由",
+          "name": "because節",
+          "where": "because compressed explanations ... alter",
+          "explanation": "印象が変わる理由を後ろの節で説明する。",
+          "rule": "主節, because + 節"
+        },
+        {
+          "category": "分詞",
+          "name": "過去分詞の形容詞用法",
+          "where": "compressed explanations",
+          "explanation": "圧縮された説明を表す。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "比較",
+          "name": "fewer + 複数名詞",
+          "where": "fewer inner thoughts",
+          "explanation": "内面描写の数や量が少ないことを表す。",
+          "rule": "fewer + 複数可算名詞"
+        },
+        {
+          "category": "並列",
+          "name": "三つの名詞句",
+          "where": "the pace, tone, and sense of character growth",
+          "explanation": "変化する三つの要素を並べる。",
+          "rule": "A, B, and C"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "An adaptation can preserves the plot.",
+          "correct": "An adaptation can preserve the plot.",
+          "why": "canの後ろは動詞原形にする。"
+        },
+        {
+          "wrong": "It preserves the plot while changes the experience.",
+          "correct": "It preserves the plot while changing the experience.",
+          "why": "主節と同じ主語を省略したwhileの後ろでは動名詞を使える。"
+        },
+        {
+          "wrong": "Less inner thoughts alter the tone.",
+          "correct": "Fewer inner thoughts alter the tone.",
+          "why": "数えられる複数名詞thoughtsにはfewerを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A faithful plot does not always produce the same emotional experience.",
+          "translation": "筋に忠実でも、必ずしも同じ感情的体験になるとは限らない。"
+        },
+        {
+          "text": "Removing inner narration can make a character seem less complex on screen.",
+          "translation": "内面の語りを省くと、映像では人物が単純に見える場合がある。"
+        },
+        {
+          "text": "As actors grow older, visual changes can make a long series feel different.",
+          "translation": "俳優が成長すると、外見の変化によって長期シリーズの印象が変わる場合がある。"
+        }
+      ],
+      "parseTree": "S(An adaptation) Aux(can) V(preserve) O(the main plot) Adv(while changing the experience), Subordinator(because) S(compressed explanations and fewer inner thoughts) V(alter) O(the pace, tone, and sense of character growth)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Explanations are compressed.",
+          "expanded": "Explanations are compressed because a film has less time than a long novel to present background and motives.",
+          "nuance": "媒体の時間制約と省略を結び付ける。"
+        },
+        {
+          "original": "Inner thoughts are reduced.",
+          "expanded": "Inner thoughts are reduced, so viewers may infer motives mainly from dialogue and performance.",
+          "nuance": "内面描写の減少が受け取り方を変えることを示す。"
+        },
+        {
+          "original": "The experience changes.",
+          "expanded": "The experience changes since pacing and tone depend on more than the sequence of major events.",
+          "nuance": "筋の一致だけでは体験が一致しない理由を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The main plot may be preserved even when explanations and inner thoughts are compressed.",
+          "translation": "説明や内面描写が圧縮されても、主要な筋は維持される場合がある。",
+          "note": "main plotを受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Compressing background and inner narration, a film can change how character growth feels.",
+          "translation": "背景説明と内面の語りを圧縮することで、映画は人物の成長の感じ方を変えうる。",
+          "note": "印象変化の手段を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The compression of exposition can alter the perception of pace and character development.",
+          "translation": "説明の圧縮は、テンポと人物成長の受け止め方を変えうる。",
+          "note": "compressとperceiveを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "adaptation",
+            "alternatives": [
+              "screen version",
+              "film version",
+              "adapted work"
+            ],
+            "nuance": "adaptationは原作を別の媒体へ作り替えた作品を広く指す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "譲歩的対照",
+            "sentence": "The events remain similar, but the viewing experience changes.",
+            "translation": "出来事は似たままでも、鑑賞体験は変わる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A novel can provide more inner narration than a film of limited length.",
+            "translation": "小説は、上映時間が限られた映画より多くの内面描写を提示できる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If an adaptation removes too much context, later events may feel less convincing.",
+            "translation": "映像化で文脈を削りすぎると、後の出来事に説得力を感じにくくなる場合がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What changes is not only the plot, but also the way the audience experiences it.",
+            "translation": "変わるのは筋だけでなく、観客がそれを体験する仕方でもある。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "The plot survives; the experience shifts.",
+            "translation": "筋は残るが、体験は変わる。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "特定作品の改変を断定せず、同じ主要展開でも媒体上の圧縮によって印象が変わる仕組みを自然な一文で示した。"
+    }
+  }
+]
