@@ -1,0 +1,110 @@
+[
+  {
+    "id": "DE-20260912-001",
+    "sourceTitle": "顔が育つと魔法も重くなる",
+    "workId": "daily-essay-20260912",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "大きくなる顔",
+    "jp": "少年たちの顔がまだ小さかった頃、魔法学校はそれだけで未知の場所に見えた。ところが、出演者が成長して輪郭も声も変わると、同じ廊下や制服まで少し重く映り始める。物語の設定が変わっただけではない。現実の身体が作品の時間を追い越さず、毎作きちんと連れてきたのである。中の人が大きくなることは、登場人物の成長を説明する以上に、魔法の世界から幼さが失われたことを画面へ刻んでいた。",
+    "translationLiteral": "When the boys' faces were still small, the school of magic looked like an unknown place for that reason alone. Yet as the performers grew and their features and voices changed, even the same corridors and uniforms began to appear slightly heavier. It was not only the story's setting that had changed. Their real bodies did not outrun the work's passage of time; they carried it faithfully into each film. The growth of the people inside the roles did more than explain the characters' development: it inscribed the loss of childhood on the magical world.",
+    "translationNatural": "When the actors still had children's faces, the school of magic felt unknown simply because they were discovering it. As their features sharpened and their voices changed, the same corridors and uniforms began to feel heavier. The shift did not belong to the plot alone. Their real bodies carried time from one film into the next. The actors' growth made the characters' development visible, but it also marked the moment when childhood began to leave the magical world.",
+    "imageUrl": "",
+    "imageCaption": "同じ魔法学校の廊下を、成長した顔と声が以前より重い時間へ変えていく。",
+    "imagePrompt": "The same enchanted school corridor seen across several years, young faces gradually maturing as the atmosphere grows heavier, elegant cinematic literary illustration, no recognizable characters, no readable text",
+    "chunks": [
+      {"en": "When the actors still had children's faces, the school of magic felt unknown simply because they were discovering it.", "ja": "俳優たちがまだ子どもの顔をしていた頃、彼ら自身が発見の途中にいたため魔法学校は未知に感じられた"},
+      {"en": "As their features sharpened and their voices changed,", "ja": "顔立ちがはっきりし、声が変わるにつれて"},
+      {"en": "the same corridors and uniforms began to feel heavier.", "ja": "同じ廊下や制服が以前より重く感じられ始めた"},
+      {"en": "The shift did not belong to the plot alone.", "ja": "変化は物語の筋だけに属するものではなかった"},
+      {"en": "Their real bodies carried time from one film into the next.", "ja": "現実の身体が作品から次の作品へ時間を運んだ"},
+      {"en": "The actors' growth made the characters' development visible,", "ja": "俳優の成長は登場人物の発達を見えるものにしたが"},
+      {"en": "but it also marked the moment when childhood began to leave the magical world.", "ja": "同時に幼さが魔法世界を去り始める時点も刻んだ"}
+    ],
+    "grammar": [
+      "When ... still had ... は、初期作品を振り返る時間節である。",
+      "simply because は理由を限定し、未知に感じた要因を示す。",
+      "As A changed, B began ... は二つの変化が並行して進むことを表す。",
+      "began to feel は見え方の変化が始まったことを示す。",
+      "did not belong to A alone は変化の原因を筋書きだけに限定しない。",
+      "from one film into the next は連作をまたぐ時間の移動を表す。",
+      "made A visible, but ... also marked B は二つの作用を対照的に並べる。"
+    ],
+    "translationNote": "literal は「現実の身体が作品の時間を運ぶ」「幼さが失われる」という像を保った。natural では未知性の理由を because they were discovering it と補い、視聴者と登場人物の発見を重ねた。「中の人」は actors と自然化し、最後を childhood began to leave として喪失を緩やかな変化として表した。",
+    "readingPoint": "導入では、面白さの変化を筋書きだけでなく、俳優の身体が刻む時間として捉える。同じ舞台が重く見え始める感覚から、成長によって作品の入口が変わるという主題を立てる。",
+    "keywords": ["actors", "growth", "childhood", "magic school", "film series", "time"]
+  },
+  {
+    "id": "DE-20260912-002",
+    "sourceTitle": "顔が育つと魔法も重くなる",
+    "workId": "daily-essay-20260912",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "同じ展開、違う速度",
+    "jp": "原作と映画は、大筋が同じでも同じ速度では進まない。小説は人物の迷い、授業の寄り道、脇役の時間を抱えたまま進めるが、映画は限られた上映時間の中で出来事を一本の線へ圧縮する。省かれた場面が筋を変えなくても、世界に滞在する長さは変わる。展開が違うかと問うとき、知りたいのは事件の順番だけではないのだろう。魔法の世界を歩く余白が、どこで短くなったかも含まれている。",
+    "translationLiteral": "Even when the broad outline is the same, a novel and its film do not move at the same speed. A novel can proceed while carrying a character's hesitation, detours through lessons, and time spent with minor figures, whereas a film compresses events into a single line within its limited running time. Even if omitted scenes do not change the plot, they change how long we remain in the world. When we ask whether the development differs, we probably want to know more than the order of events. The question also includes where the space for walking through the magical world became shorter.",
+    "translationNatural": "A novel and its film adaptation can follow the same broad plot without moving at the same pace. Prose has room for hesitation, classroom detours, and time with minor characters; a film must compress events into a limited running time. An omitted scene may leave the plot intact while shortening our stay in the world. Asking whether the story changed is therefore about more than the order of events. It is also a question of where the adaptation removed the time to wander.",
+    "imageUrl": "",
+    "imageCaption": "小説の曲がり道が、映画の上映時間の中で一本の速い道へ圧縮される。",
+    "imagePrompt": "A winding literary path of classrooms, side characters, and hesitation compressed into a straight cinematic timeline, sophisticated editorial illustration, no recognizable franchise imagery, no readable text",
+    "chunks": [
+      {"en": "A novel and its film adaptation can follow the same broad plot without moving at the same pace.", "ja": "小説と映画版は同じ大筋を追いながら、異なる速度で進みうる"},
+      {"en": "Prose has room for hesitation, classroom detours, and time with minor characters;", "ja": "散文には迷い、授業の寄り道、脇役と過ごす時間を置く余地があるが"},
+      {"en": "a film must compress events into a limited running time.", "ja": "映画は出来事を限られた上映時間へ圧縮しなければならない"},
+      {"en": "An omitted scene may leave the plot intact", "ja": "省略された場面は筋書きを保ったまま"},
+      {"en": "while shortening our stay in the world.", "ja": "その世界に滞在する時間を短くすることがある"},
+      {"en": "Asking whether the story changed is therefore about more than the order of events.", "ja": "物語が変わったかという問いは、出来事の順序以上のものを含む"},
+      {"en": "It is also a question of where the adaptation removed the time to wander.", "ja": "それは映像化がどこで歩き回る時間を削ったかという問いでもある"}
+    ],
+    "grammar": [
+      "can follow A without doing B は、Aを保ちながらBしない可能性を示す。",
+      "has room for A, B, and C は文章が収容できる三要素を並列する。",
+      "must compress A into B は、出来事を上映時間へ圧縮する必要を表す。",
+      "may leave A intact は「Aを損なわず残す可能性」を示す。",
+      "while shortening は筋の維持と滞在時間の短縮が同時に起こることを表す。",
+      "Asking whether ... は動名詞句を主語にする。",
+      "more than the order ... は問いの範囲が順序だけではないことを示す。"
+    ],
+    "translationNote": "literal は「一本の線へ圧縮する」「世界に滞在する長さ」「歩く余白」を順に保持した。natural では原作を prose、映画化を adaptation とし、媒体差へ焦点を合わせた。最後は removed the time to wander として、削られるのが事件ではなく世界に寄り道する時間だと自然に表現した。",
+    "readingPoint": "展開では、原作と映画の違いを筋書きの一致だけで測らない。省略が物語世界への滞在時間を変えると示し、初期作品に感じた未知性が映像の速度によっても変わることを説明する。",
+    "keywords": ["novel", "film adaptation", "pace", "omission", "running time", "world"]
+  },
+  {
+    "id": "DE-20260912-003",
+    "sourceTitle": "顔が育つと魔法も重くなる",
+    "workId": "daily-essay-20260912",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "面白さの置き場所",
+    "jp": "後半が面白くなくなったという感覚は、単純な採点ではない。物語は成長とともに危険や対立へ重心を移し、映画は長くなる原作を速く運び、俳優の身体は幼い冒険が戻らないことを示す。三つの変化が同時に進めば、最初に好きだった入口は見えにくくなる。だから面白さが消えたというより、面白さを置いていた場所が作品の中から少しずつ移動した、と考えることもできる。成長は続きを作るが、同じ続きを約束はしない。",
+    "translationLiteral": "The feeling that the later installments became less interesting is not a simple score. As the story grows, it shifts its center of gravity toward danger and conflict; the films carry the lengthening books more quickly; and the actors' bodies show that the early adventure will not return. When these three changes proceed together, the entrance we first loved becomes harder to see. Thus, rather than saying that the interest disappeared, we can think that the place where we had located it gradually moved out of the work. Growth creates a continuation, but it does not promise the same continuation.",
+    "translationNatural": "Saying that the later films feel less enjoyable is not merely a rating. The story shifts toward danger and conflict, the adaptation moves through expanding material more quickly, and the actors' bodies make clear that the earliest adventure cannot return. Together, these changes obscure the doorway through which we first entered. Perhaps the pleasure did not simply vanish; the place where we had found it gradually moved. Growth produces a sequel, but it cannot promise that the sequel will feel the same.",
+    "imageUrl": "",
+    "imageCaption": "最初に入った明るい扉が、物語と俳優の成長の奥で少しずつ見えにくくなる。",
+    "imagePrompt": "A bright doorway from an early magical adventure gradually receding as the story, its actors, and its cinematic pace mature, reflective literary illustration, no recognizable characters, no readable text",
+    "chunks": [
+      {"en": "Saying that the later films feel less enjoyable is not merely a rating.", "ja": "後半の映画が面白くないと感じることは、単なる採点ではない"},
+      {"en": "The story shifts toward danger and conflict,", "ja": "物語は危険と対立へ重心を移し"},
+      {"en": "the adaptation moves through expanding material more quickly,", "ja": "映像化は増える素材をより速く進み"},
+      {"en": "and the actors' bodies make clear that the earliest adventure cannot return.", "ja": "俳優の身体は最初の冒険が戻らないことを明らかにする"},
+      {"en": "Together, these changes obscure the doorway through which we first entered.", "ja": "これらの変化が重なり、最初に入った扉を見えにくくする"},
+      {"en": "Perhaps the pleasure did not simply vanish; the place where we had found it gradually moved.", "ja": "面白さは消えたのではなく、それを見つけていた場所が移ったのかもしれない"},
+      {"en": "Growth produces a sequel, but it cannot promise that the sequel will feel the same.", "ja": "成長は続きを生むが、その続きが同じように感じられるとは約束しない"}
+    ],
+    "grammar": [
+      "Saying that ... は動名詞句を主語にし、感想を述べる行為自体を扱う。",
+      "shift toward は重心や方向が移ることを表す。",
+      "make clear that ... は that 節の内容を明確にする使役表現である。",
+      "Together は三つの変化をまとめ、合成された作用を示す。",
+      "through which we first entered は前置詞＋関係代名詞で入口を修飾する。",
+      "the place where we had found it は過去完了で、以前に面白さを見いだした場所を示す。",
+      "cannot promise that ... は、成長が保証できない内容を that 節で示す。"
+    ],
+    "translationNote": "literal は「重心」「最初に好きだった入口」「面白さを置いていた場所」という日本語の比喩を維持した。natural では評価を rating、入口を doorway とし、三つの変化を Together で結んだ。最後は same continuation を sequel will feel the same へ直し、作品の継続と受け手の感触の違いを明確にした。",
+    "readingPoint": "結末では、後半への違和感を作品の単純な劣化判定から解放する。物語、映像化、俳優の成長が入口を移動させたと捉え、続編は同じ感触を再生しないという静かな余韻で閉じる。",
+    "keywords": ["later films", "growth", "conflict", "doorway", "pleasure", "sequel"]
+  }
+]
