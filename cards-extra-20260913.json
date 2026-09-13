@@ -1,0 +1,731 @@
+[
+  {
+    "_no": 125,
+    "_generatedAt": "2026-09-14T02:00:59+09:00",
+    "sentence": "Before describing a relationship as fraudulent, specify what was falsely represented, how the other person relied on it, and what loss allegedly followed.",
+    "phonetic": "ビフォー ディスクライビング ア リレイションシップ アズ フロージュレント、スペスィファイ ワット ワズ フォールスリー レプリゼンティッド、ハウ ジ アザー パーソン リライド オン イット、アンド ワット ロス アレジェドリー フォロード。",
+    "japaneseTranslation": "ある関係を詐欺的だと述べる前に、何が虚偽表示され、相手がそれをどう信頼し、どのような損失が生じたとされるのかを明示しよう。",
+    "theme": "詐欺性を論じる前に詐称・信頼・損失を特定する",
+    "coreVerb": "specify",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Specify the claim.",
+        "translation": "主張を明示しよう。"
+      },
+      "phase2": {
+        "sentence": "Specify what was represented.",
+        "translation": "何が表示されたのかを明示しよう。",
+        "addedChunks": "what was representedを追加"
+      },
+      "phase3": {
+        "sentence": "Specify the claim before describing the relationship as fraudulent.",
+        "translation": "関係を詐欺的だと述べる前に、主張を明示しよう。",
+        "connector": "before"
+      },
+      "phase4": {
+        "sentence": "Specific evidence is more useful than a broad accusation.",
+        "translation": "具体的な証拠は、広い非難より有用だ。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "Before describing a relationship as fraudulent, specify what was falsely represented, how the other person relied on it, and what loss allegedly followed.",
+        "translation": "ある関係を詐欺的だと述べる前に、何が虚偽表示され、相手がそれをどう信頼し、どのような損失が生じたとされるのかを明示しよう。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Before describing a relationship as fraudulent,",
+          "function": "時間",
+          "translation": "ある関係を詐欺的だと述べる前に"
+        },
+        {
+          "text": "specify what was falsely represented,",
+          "function": "行動",
+          "translation": "何が虚偽表示されたのかを明示しよう"
+        },
+        {
+          "text": "how the other person",
+          "function": "内容",
+          "translation": "相手がどのように"
+        },
+        {
+          "text": "relied on it,",
+          "function": "行動",
+          "translation": "それを信頼したのか"
+        },
+        {
+          "text": "and what loss",
+          "function": "対象",
+          "translation": "そしてどのような損失が"
+        },
+        {
+          "text": "allegedly followed.",
+          "function": "結果",
+          "translation": "生じたとされるのか"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時間",
+          "name": "before + 動名詞",
+          "where": "Before describing",
+          "explanation": "評価を下す前に行う確認を示す。",
+          "rule": "before + 動名詞"
+        },
+        {
+          "category": "語法",
+          "name": "describe A as B",
+          "where": "describing a relationship as fraudulent",
+          "explanation": "関係を詐欺的なものとして述べることを表す。",
+          "rule": "describe + 目的語 + as + 補語"
+        },
+        {
+          "category": "命令",
+          "name": "動詞原形で始まる命令文",
+          "where": "specify",
+          "explanation": "分析手順を直接提示する。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "名詞節",
+          "name": "what節",
+          "where": "what was falsely represented",
+          "explanation": "虚偽だったとされる内容を表す。",
+          "rule": "what + 受動態"
+        },
+        {
+          "category": "受動態",
+          "name": "was + 過去分詞",
+          "where": "was falsely represented",
+          "explanation": "表示された内容に焦点を置く。",
+          "rule": "be + 過去分詞"
+        },
+        {
+          "category": "名詞節",
+          "name": "how節",
+          "where": "how the other person relied on it",
+          "explanation": "相手の信頼の仕方を表す。",
+          "rule": "how + 主語 + 動詞"
+        },
+        {
+          "category": "副詞",
+          "name": "allegedly",
+          "where": "allegedly followed",
+          "explanation": "損失の発生を確定事実として断定しない。",
+          "rule": "副詞 + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Before describe it as fraudulent, specify the claim.",
+          "correct": "Before describing it as fraudulent, specify the claim.",
+          "why": "前置詞beforeの後ろは動名詞にする。"
+        },
+        {
+          "wrong": "Specify what did the person represent.",
+          "correct": "Specify what the person represented.",
+          "why": "間接疑問では疑問文語順にしない。"
+        },
+        {
+          "wrong": "Explain how did the other person rely on it.",
+          "correct": "Explain how the other person relied on it.",
+          "why": "how節も主語と動詞の通常語順にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Identify the alleged false statement before judging the entire relationship.",
+          "translation": "関係全体を判断する前に、虚偽とされる発言を特定しよう。"
+        },
+        {
+          "text": "Disappointment alone does not explain what was misrepresented.",
+          "translation": "失望だけでは、何が虚偽表示されたのか説明できない。"
+        },
+        {
+          "text": "A careful account separates the promise, the reliance, and the claimed loss.",
+          "translation": "慎重な説明は、約束、信頼、主張される損失を分ける。"
+        }
+      ],
+      "parseTree": "Adv(Before describing a relationship as fraudulent), Imperative V(specify) O(NounClause(what was falsely represented), NounClause(how the other person relied on it), and NounClause(what loss allegedly followed))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The representation is identified.",
+          "expanded": "The representation is identified because a general feeling of deception does not show which statement was false.",
+          "nuance": "感覚的な非難と具体的表示を分ける。"
+        },
+        {
+          "original": "Reliance is examined.",
+          "expanded": "Reliance is examined, so the analysis can show how the alleged statement affected a decision.",
+          "nuance": "表示と意思決定の関係を確認する。"
+        },
+        {
+          "original": "The loss is described.",
+          "expanded": "The loss is described since a failed expectation and a demonstrable loss are not always identical.",
+          "nuance": "期待外れと損失を同一視しない。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The alleged false representation should be identified before the relationship is classified.",
+          "translation": "関係を分類する前に、虚偽とされる表示を特定すべきだ。",
+          "note": "representationを受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Separating representation, reliance, and loss, an analyst can avoid a vague accusation.",
+          "translation": "表示、信頼、損失を分けることで、分析者は曖昧な非難を避けられる。",
+          "note": "分析手順を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The identification of a false representation precedes any careful classification of fraud.",
+          "translation": "慎重に詐欺性を分類するには、まず虚偽表示を特定する必要がある。",
+          "note": "identifyとclassifyを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "fraudulent",
+            "alternatives": [
+              "deceptive",
+              "misleading",
+              "based on misrepresentation"
+            ],
+            "nuance": "fraudulentは強い評価語なので、具体的根拠とともに使う。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "手順",
+            "sentence": "First identify the representation; then examine reliance and loss.",
+            "translation": "まず表示内容を特定し、その後で信頼と損失を調べよう。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A specific allegation is easier to test than a general claim of deception.",
+            "translation": "具体的な申立ては、一般的な欺瞞の主張より検証しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If no false representation can be identified, use a more precise description of the dispute.",
+            "translation": "虚偽表示を特定できないなら、争いをより正確な言葉で説明しよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What must be specified is the alleged false representation.",
+            "translation": "明示すべきなのは、虚偽とされる表示だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Name the false claim first.",
+            "translation": "まず虚偽の主張を特定しよう。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "法的結論を断定せず、詐欺性を検討する際の事実整理を詐称・信頼・損失の三点に限定した。"
+    }
+  },
+  {
+    "_no": 126,
+    "_generatedAt": "2026-09-14T02:00:59+09:00",
+    "sentence": "An exit-cost analysis becomes more useful when it separates entry, dependency, and exit, while also testing whether intent or structure better explains the constraint.",
+    "phonetic": "アン エグジット コスト アナリシス ビカムズ モア ユースフル ウェン イット セパレイツ エントリー、ディペンデンシー、アンド エグジット、ワイル オールソー テスティング ウェザー インテント オア ストラクチャー ベター イクスプレインズ ザ コンストレイント。",
+    "japaneseTranslation": "退出費用の分析は、入口・依存・出口を分け、さらに制約をよりよく説明するのが意図なのか構造なのかを検証すると、より有用になる。",
+    "theme": "退出費用を入口・依存・出口・反証に分けて分析する",
+    "coreVerb": "separate",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The analysis separates costs.",
+        "translation": "分析は費用を分ける。"
+      },
+      "phase2": {
+        "sentence": "The analysis separates entry, dependency, and exit.",
+        "translation": "分析は入口、依存、出口を分ける。",
+        "addedChunks": "entry, dependency, and exitを追加"
+      },
+      "phase3": {
+        "sentence": "The analysis improves when it separates the stages.",
+        "translation": "分析は段階を分けると改善する。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "A structured explanation is more useful than a single label.",
+        "translation": "構造化された説明は、単一のラベルより有用だ。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "An exit-cost analysis becomes more useful when it separates entry, dependency, and exit, while also testing whether intent or structure better explains the constraint.",
+        "translation": "退出費用の分析は、入口・依存・出口を分け、さらに制約をよりよく説明するのが意図なのか構造なのかを検証すると、より有用になる。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "An exit-cost analysis becomes more useful",
+          "function": "結果",
+          "translation": "退出費用の分析はより有用になる"
+        },
+        {
+          "text": "when it separates",
+          "function": "時間",
+          "translation": "それが分けるとき"
+        },
+        {
+          "text": "entry, dependency, and exit,",
+          "function": "対象",
+          "translation": "入口、依存、出口を"
+        },
+        {
+          "text": "while also testing",
+          "function": "接続",
+          "translation": "同時に検証しながら"
+        },
+        {
+          "text": "whether intent or structure",
+          "function": "内容",
+          "translation": "意図と構造のどちらが"
+        },
+        {
+          "text": "better explains the constraint.",
+          "function": "行動",
+          "translation": "制約をよりよく説明するかを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "変化",
+          "name": "become + 形容詞",
+          "where": "becomes more useful",
+          "explanation": "分析の有用性が高まることを表す。",
+          "rule": "become + 形容詞"
+        },
+        {
+          "category": "比較",
+          "name": "比較級 more",
+          "where": "more useful",
+          "explanation": "分解後の分析が以前より有用になることを表す。",
+          "rule": "more + 形容詞"
+        },
+        {
+          "category": "条件",
+          "name": "when節",
+          "where": "when it separates",
+          "explanation": "有用性が高まる条件を示す。",
+          "rule": "主節 + when + 節"
+        },
+        {
+          "category": "並列",
+          "name": "三つの名詞",
+          "where": "entry, dependency, and exit",
+          "explanation": "分析する三段階を並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "同時進行",
+          "name": "while + 動名詞",
+          "where": "while also testing",
+          "explanation": "段階分解と説明仮説の検証を同時に行う。",
+          "rule": "while + 動名詞"
+        },
+        {
+          "category": "名詞節",
+          "name": "whether A or B",
+          "where": "whether intent or structure",
+          "explanation": "二つの説明候補を比較する。",
+          "rule": "whether A or B + 動詞"
+        },
+        {
+          "category": "比較",
+          "name": "副詞比較級 better",
+          "where": "better explains",
+          "explanation": "どちらの説明力が高いかを示す。",
+          "rule": "better + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "The analysis become more useful.",
+          "correct": "The analysis becomes more useful.",
+          "why": "単数主語analysisにはbecomesを使う。"
+        },
+        {
+          "wrong": "It separates entry, dependency, or exit.",
+          "correct": "It separates entry, dependency, and exit.",
+          "why": "三項目すべてを扱うためandで並列する。"
+        },
+        {
+          "wrong": "It tests whether intent or structure explain the constraint.",
+          "correct": "It tests whether intent or structure better explains the constraint.",
+          "why": "A or Bを一つの選択肢集合として扱う文脈では単数動詞explainsが自然。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Map how a person enters, becomes dependent, and attempts to leave.",
+          "translation": "人がどう入り、依存し、退出を試みるかを整理しよう。"
+        },
+        {
+          "text": "A high switching cost does not automatically prove deliberate control.",
+          "translation": "高い切替費用が、意図的な支配を自動的に証明するわけではない。"
+        },
+        {
+          "text": "Counterevidence helps distinguish ordinary dependence from a blocked exit.",
+          "translation": "反証は、通常の依存と封鎖された出口を区別する助けになる。"
+        }
+      ],
+      "parseTree": "S(An exit-cost analysis) V(becomes) C(more useful) AdvClause(when S(it) V(separates) O(entry, dependency, and exit), Adv(while also testing NounClause(whether intent or structure better explains the constraint)))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The stages are separated.",
+          "expanded": "The stages are separated because easy entry and difficult exit create different kinds of dependence.",
+          "nuance": "入口と出口の非対称性を示す。"
+        },
+        {
+          "original": "Intent is tested.",
+          "expanded": "Intent is tested, so structural friction is not automatically treated as deliberate control.",
+          "nuance": "意図認定の過剰を避ける。"
+        },
+        {
+          "original": "Counterevidence is included.",
+          "expanded": "Counterevidence is included since an available alternative may weaken the claim that exit is blocked.",
+          "nuance": "反証可能性を分析に組み込む。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Entry, dependency, and exit should be examined separately before a constraint is classified.",
+          "translation": "制約を分類する前に、入口、依存、出口を別々に調べるべきだ。",
+          "note": "三段階を受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Testing alternative explanations, the analyst can distinguish intent from structure.",
+          "translation": "別の説明を検証することで、分析者は意図と構造を区別できる。",
+          "note": "反証手順を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The separation of stages improves the evaluation of exit costs.",
+          "translation": "段階の分離は、退出費用の評価を改善する。",
+          "note": "separateとevaluateを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "constraint",
+            "alternatives": [
+              "restriction",
+              "barrier",
+              "limitation"
+            ],
+            "nuance": "constraintは行動可能性を狭める条件を広く表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "分析枠組み",
+            "sentence": "Separate entry conditions from exit barriers before assigning a label.",
+            "translation": "ラベルを付ける前に、参入条件と退出障壁を分けよう。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A staged analysis is more informative than a single claim of control.",
+            "translation": "段階別の分析は、単一の支配主張より多くの情報を与える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If realistic alternatives remain available, describe the switching cost before claiming that exit is blocked.",
+            "translation": "現実的な代替手段が残るなら、出口が封鎖されていると主張する前に切替費用を説明しよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not only entry, but also the practical cost of leaving.",
+            "translation": "重要なのは入口だけでなく、退出にかかる実際の費用だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Map entry, dependence, and exit.",
+            "translation": "入口、依存、出口を整理しよう。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "EXIT COST Botの中核を一つのラベル判定ではなく、段階分解と代替説明の検証として表現した。"
+    }
+  },
+  {
+    "_no": 127,
+    "_generatedAt": "2026-09-14T02:00:59+09:00",
+    "sentence": "A public repository can contain client code, but secret API keys must remain in a protected backend and never appear in files that users can download.",
+    "phonetic": "ア パブリック リポジトリー キャン コンテイン クライアント コード、バット シークレット エーピーアイ キーズ マスト リメイン イン ア プロテクティッド バックエンド アンド ネヴァー アピア イン ファイルズ ザット ユーザーズ キャン ダウンロード。",
+    "japaneseTranslation": "公開リポジトリにクライアントコードを置くことはできるが、秘密のAPIキーは保護されたバックエンドに置き、利用者がダウンロードできるファイルには決して含めてはならない。",
+    "theme": "公開コードと秘密のAPIキーを分離する",
+    "coreVerb": "remain",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The key remains private.",
+        "translation": "キーは非公開のままにする。"
+      },
+      "phase2": {
+        "sentence": "The API key remains on the server.",
+        "translation": "APIキーはサーバーに置いたままにする。",
+        "addedChunks": "APIとon the serverを追加"
+      },
+      "phase3": {
+        "sentence": "The code can be public, but the API key must remain private.",
+        "translation": "コードは公開できるが、APIキーは非公開にしなければならない。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "A backend is safer than client code for storing a secret key.",
+        "translation": "秘密鍵の保存には、バックエンドの方がクライアントコードより安全だ。",
+        "comparison": "safer than"
+      },
+      "phase5": {
+        "sentence": "A public repository can contain client code, but secret API keys must remain in a protected backend and never appear in files that users can download.",
+        "translation": "公開リポジトリにクライアントコードを置くことはできるが、秘密のAPIキーは保護されたバックエンドに置き、利用者がダウンロードできるファイルには決して含めてはならない。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A public repository can contain",
+          "function": "行動",
+          "translation": "公開リポジトリには置くことができる"
+        },
+        {
+          "text": "client code,",
+          "function": "対象",
+          "translation": "クライアントコードを"
+        },
+        {
+          "text": "but secret API keys",
+          "function": "接続",
+          "translation": "しかし秘密のAPIキーは"
+        },
+        {
+          "text": "must remain in a protected backend",
+          "function": "場所",
+          "translation": "保護されたバックエンドに置き"
+        },
+        {
+          "text": "and never appear in files",
+          "function": "行動",
+          "translation": "ファイルには決して含めず"
+        },
+        {
+          "text": "that users can download.",
+          "function": "修飾",
+          "translation": "利用者がダウンロードできる"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can contain",
+          "explanation": "公開リポジトリにコードを置けることを示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "対照",
+          "name": "but",
+          "where": "but secret API keys",
+          "explanation": "公開可能なコードと保護すべき秘密を対照する。",
+          "rule": "節, but + 節"
+        },
+        {
+          "category": "助動詞",
+          "name": "must",
+          "where": "must remain",
+          "explanation": "秘密鍵を隔離する必要性を示す。",
+          "rule": "must + 動詞原形"
+        },
+        {
+          "category": "状態",
+          "name": "remain + 場所句",
+          "where": "remain in a protected backend",
+          "explanation": "キーをバックエンド側に置き続けることを表す。",
+          "rule": "remain + 前置詞句"
+        },
+        {
+          "category": "並列",
+          "name": "andで結ぶ動詞句",
+          "where": "remain ... and never appear",
+          "explanation": "安全な配置と禁止事項を並べる。",
+          "rule": "動詞句 + and + 動詞句"
+        },
+        {
+          "category": "分詞",
+          "name": "過去分詞の形容詞用法",
+          "where": "protected backend",
+          "explanation": "保護されたバックエンドを表す。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "関係節",
+          "name": "that",
+          "where": "files that users can download",
+          "explanation": "利用者が取得できるファイルを説明する。",
+          "rule": "名詞 + that + 節"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A public repository can contains client code.",
+          "correct": "A public repository can contain client code.",
+          "why": "canの後ろは動詞原形にする。"
+        },
+        {
+          "wrong": "API keys must remains private.",
+          "correct": "API keys must remain private.",
+          "why": "mustの後ろは動詞原形にする。"
+        },
+        {
+          "wrong": "Files that users can download them.",
+          "correct": "Files that users can download.",
+          "why": "関係代名詞thatが目的語なので、重複するthemを置かない。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Route API requests through a backend that keeps the key outside the browser.",
+          "translation": "ブラウザの外にキーを保持するバックエンドを通じてAPI要求を送ろう。"
+        },
+        {
+          "text": "Environment variables can keep secrets out of committed source files.",
+          "translation": "環境変数を使えば、コミットするソースファイルから秘密情報を外せる。"
+        },
+        {
+          "text": "If a key is exposed, revoke it and create a replacement immediately.",
+          "translation": "キーが漏えいしたら、直ちに失効させて新しいものへ交換しよう。"
+        }
+      ],
+      "parseTree": "S(A public repository) Aux(can) V(contain) O(client code), Conj(but) S(secret API keys) Aux(must) V(remain) Adv(in a protected backend) and Adv(never) V(appear) Adv(in files RelClause(that users can download))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The key stays on the server.",
+          "expanded": "The key stays on the server because browser code can be inspected and downloaded by users.",
+          "nuance": "クライアント側へ置けない理由を示す。"
+        },
+        {
+          "original": "Requests pass through a backend.",
+          "expanded": "Requests pass through a backend, so the backend can authenticate without exposing the key to the browser.",
+          "nuance": "安全な要求経路を説明する。"
+        },
+        {
+          "original": "An exposed key is rotated.",
+          "expanded": "An exposed key is rotated immediately since removing it from visible code does not invalidate copied credentials.",
+          "nuance": "漏えい後は削除だけでなく失効が必要と示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Secret API keys must be stored outside client-side code.",
+          "translation": "秘密のAPIキーはクライアント側コードの外に保存しなければならない。",
+          "note": "keysを受動態の主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Keeping the key on a backend, the application can make authenticated requests without exposing it.",
+          "translation": "キーをバックエンドに保持することで、アプリはキーを公開せずに認証済み要求を行える。",
+          "note": "安全な配置を分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The separation of public code and private credentials reduces exposure risk.",
+          "translation": "公開コードと非公開認証情報を分離すると、漏えいリスクが下がる。",
+          "note": "separateとexposeを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "credential",
+            "alternatives": [
+              "API key",
+              "secret token",
+              "authentication secret"
+            ],
+            "nuance": "credentialはAPIキーやトークンなど認証に用いる秘密情報の総称。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Publish the code, but protect the credentials.",
+            "translation": "コードは公開しても、認証情報は保護しよう。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Server-side storage is safer than embedding a secret in browser code.",
+            "translation": "サーバー側保存は、ブラウザコードに秘密を埋め込むより安全だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If users can download the code, assume they can read every embedded key.",
+            "translation": "利用者がコードをダウンロードできるなら、埋め込まれたすべてのキーを読めると考えよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What must remain private is the credential, not necessarily the application code.",
+            "translation": "非公開にすべきなのは、必ずしもアプリのコードではなく認証情報だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Keep secrets off the client.",
+            "translation": "秘密情報をクライアント側に置かない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "公開リポジトリ自体を問題にせず、利用者が取得できるクライアントコードと秘密鍵の配置を明確に分離した。"
+    }
+  }
+]
