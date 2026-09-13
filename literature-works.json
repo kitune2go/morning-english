@@ -123,5 +123,12 @@
     "description": "長期映画シリーズにおける俳優の成長、原作と映像の速度差、後半の面白さが変わった感覚を通して、物語への入口が時間とともに移動することを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260912/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260913",
+    "title": "出口から意図を決めつけない",
+    "description": "交際目的の食い違い、ロマンス詐欺の成立条件、退出費用を測る道具、公開コードと秘密鍵を通して、意図の断定より先に構造と境界を記述する日次エッセイ。",
+    "manifest": "literature/daily-essay-20260913/manifest.json",
+    "mode": "essay-translation"
   }
 ]
