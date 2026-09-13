@@ -1,0 +1,142 @@
+[
+  {
+    "id": "DE-20260913-001",
+    "sourceTitle": "出口から意図を決めつけない",
+    "workId": "daily-essay-20260913",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "名前が先に走る",
+    "jp": "関係の目的が食い違う場面では、短い呼び名が判断を急がせる。身体だけを求める人は悪い、と言えば話は簡単になる。しかし、同じ目的を互いに明かして出会う場まで、同じ言葉で覆うことはできない。問題は欲望の種類だけでなく、相手に何を告げ、どの約束を成立させたかにある。目的を持つことと、別の目的を装うことの間には、似た外見からは見えにくい境界がある。",
+    "translationLiteral": "When the purposes of a relationship do not match, a short label hastens judgment. The matter becomes simple if we say that a person seeking only physical intimacy is bad. Yet we cannot cover with the same word even a place where people meet after openly declaring that shared purpose. The issue lies not only in the kind of desire, but also in what was told to the other person and what promise was established. Between having a purpose and pretending to have another one, there is a boundary that is difficult to see from similar appearances.",
+    "translationNatural": "When two people want different things from a relationship, a convenient label can rush the verdict. It seems simple to condemn anyone seeking only physical intimacy. Yet the same label does not fit a meeting place where both sides openly share that aim. The issue is not desire alone, but what each person disclosed and what agreement their words created. Having a purpose is different from disguising it, even when the two look similar from outside.",
+    "imageUrl": "",
+    "imageCaption": "同じ形に見える二つの関係を、告げられた目的と隠された目的の細い境界が分ける。",
+    "imagePrompt": "Two visually similar paths of human connection separated by a thin boundary, one openly signposted and one partly concealed, restrained literary editorial illustration, anonymous figures, no readable text",
+    "chunks": [
+      {"en": "When two people want different things from a relationship, a convenient label can rush the verdict.", "ja": "二人が関係に異なるものを求めると、便利な呼び名が判断を急がせることがある"},
+      {"en": "It seems simple to condemn anyone seeking only physical intimacy.", "ja": "身体的な親密さだけを求める人を非難すれば、話は単純に見える"},
+      {"en": "Yet the same label does not fit a meeting place where both sides openly share that aim.", "ja": "しかし双方がその目的を公に共有する出会いの場には同じ呼び名は当てはまらない"},
+      {"en": "The issue is not desire alone, but what each person disclosed and what agreement their words created.", "ja": "問題は欲望だけでなく、各人が何を明かし、その言葉がどんな合意を作ったかにある"},
+      {"en": "Having a purpose is different from disguising it,", "ja": "目的を持つことと、それを偽装することは異なる"},
+      {"en": "even when the two look similar from outside.", "ja": "外から二つが似て見える場合でさえ"}
+    ],
+    "grammar": [
+      "When A, B can ... は、目的の不一致が判断を早める条件を示す。",
+      "anyone seeking ... は現在分詞 seeking が anyone を後置修飾する。",
+      "where both sides ... は関係副詞節で meeting place の性質を説明する。",
+      "not A alone, but B は判断材料を欲望から開示と合意へ広げる。",
+      "what each person disclosed と what agreement ... は二つの名詞節を並列する。",
+      "even when は外見が似る場合にも区別が成り立つことを強調する。"
+    ],
+    "translationNote": "literal は「呼び名が判断を急がせる」「約束を成立させる」「別の目的を装う」という論理を順に残した。natural では short label を convenient label として、便利さと粗さを同時に示した。「場」は meeting place と一般化し、最後は disguising it によって目的そのものではなく隠し方が問題だと明確にした。",
+    "readingPoint": "導入では、関係の善悪を目的だけで決める素朴な見方を置き、合意と詐称の区別へ焦点を移す。似た外見の下に異なる条件があることを、以後の分析の入口にする。",
+    "keywords": ["relationship", "purpose", "disclosure", "agreement", "label", "disguise"]
+  },
+  {
+    "id": "DE-20260913-002",
+    "sourceTitle": "出口から意図を決めつけない",
+    "workId": "daily-essay-20260913",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "詐欺という重い語",
+    "jp": "恋愛に詐欺という重い語を置くなら、失望の大きさだけでは足りない。身分、好意、将来の約束のどれが偽られ、その偽りが信頼をどう動かし、金銭や行動の損失へどう結びついたのかを確かめる必要がある。演じられた人格を愛することも、期待した関係が終わることも、それだけで同じ事件にはならない。誰が傷ついたかを軽く見ず、同時に、何が詐称されたかを曖昧にしないことが要る。",
+    "translationLiteral": "If we place the heavy word fraud on romance, the size of disappointment alone is not enough. We need to determine which of identity, affection, or a promise of the future was falsified, how that falsehood moved trust, and how it led to a loss of money or action. Loving a performed persona and seeing an expected relationship end do not, by themselves, become the same incident. We must not make light of who was hurt, while at the same time refusing to leave unclear what was misrepresented.",
+    "translationNatural": "Calling a romantic encounter fraudulent requires more than measuring disappointment. We need to identify what was false—identity, affection, or a promise about the future—then trace how the falsehood secured trust and led to financial loss or consequential action. Loving a performed persona is not automatically the same as being deceived, nor is the end of an expected relationship. The hurt matters, but so does precision about what was misrepresented.",
+    "imageUrl": "",
+    "imageCaption": "失望から詐称、信頼、損失へ、重い言葉を置く前に因果の線を一本ずつたどる。",
+    "imagePrompt": "A careful chain linking a cracked promise, trust, and material loss, with separate paths for disappointment and deception, sober literary editorial illustration, no readable text",
+    "chunks": [
+      {"en": "Calling a romantic encounter fraudulent requires more than measuring disappointment.", "ja": "恋愛上の出会いを詐欺と呼ぶには、失望を測る以上のことが必要である"},
+      {"en": "We need to identify what was false—identity, affection, or a promise about the future—then trace how the falsehood secured trust and led to financial loss or consequential action.", "ja": "身分、好意、将来の約束の何が偽りだったかを特定し、その偽りがどう信頼を得て金銭的損失や重大な行動へつながったかをたどる"},
+      {"en": "Loving a performed persona is not automatically the same as being deceived,", "ja": "演じられた人格を愛することは、自動的に欺かれることと同じではない"},
+      {"en": "nor is the end of an expected relationship.", "ja": "期待した関係が終わることも同様である"},
+      {"en": "The hurt matters, but so does precision about what was misrepresented.", "ja": "傷つきは重要だが、何が詐称されたかを正確にすることも同じく重要である"}
+    ],
+    "grammar": [
+      "Calling A B は動名詞句を主語にし、AをBと呼ぶ行為を扱う。",
+      "requires more than -ing は単一の基準では不足することを示す。",
+      "what was false は疑問詞節で特定すべき偽りを表す。",
+      "how A secured B and led to C は信頼獲得から損失までの因果を並列する。",
+      "not automatically the same as は二つの事柄が直ちに同一ではないと限定する。",
+      "nor is ... は倒置によって前文の否定を別の事例へ引き継ぐ。",
+      "but so does precision は matters の意味を precision にも適用する倒置表現である。"
+    ],
+    "translationNote": "literal は重い語を「置く」という比喩と、詐称から信頼、損失へ進む順序を保った。natural では fraud を fraudulent として calling A B の形に整え、「行動の損失」は consequential action とし、偽りによって取らされた重大な行動を表した。結びは so does precision で傷つきと定義の正確さを対等に置いた。",
+    "readingPoint": "展開では、第一枚の合意と詐称の区別を、詐欺という語の成立条件へ進める。感情を否定せずに因果を分解することで、傷つきへの配慮と概念の精度を両立させる。",
+    "keywords": ["fraud", "misrepresentation", "trust", "loss", "persona", "precision"]
+  },
+  {
+    "id": "DE-20260913-003",
+    "sourceTitle": "出口から意図を決めつけない",
+    "workId": "daily-essay-20260913",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "退出費用を測る",
+    "jp": "ここで問いは、相手の胸中を当てることから、関係の構造を測ることへ向きを変えた。入口で何が約束されたか。時間、金銭、評判はどれほど一か所へ依存したか。去ろうとしたとき、何を失うのか。さらに、その負担を弱める反証はあるか。退出費用を測る小さな道具は、すべてを支配と名づけるためではない。意図を推測する前に、留まらせる仕組みを分解して表示するためにある。",
+    "translationLiteral": "Here the question changed direction, from guessing what was in the other person's heart to measuring the structure of the relationship. What was promised at the entrance? How much did time, money, and reputation depend on one place? When one tried to leave, what would be lost? Further, was there counterevidence that weakened that burden? A small tool for measuring exit costs is not for naming everything domination. It exists to break down and display the mechanisms that make someone stay before inferring intention.",
+    "translationNatural": "At this point, the inquiry turns from guessing another person's motives to measuring the structure of the relationship. What was promised at the entrance? How concentrated were time, money, and reputation? What would leaving put at risk, and what evidence might reduce that estimate? A tool for examining exit costs should not label every bond as domination. Its task is to display the forces that keep someone in place before it speculates about intent.",
+    "imageUrl": "",
+    "imageCaption": "入口、依存、出口、反証の四つの窓が、見えない拘束を断罪ではなく構造として映す。",
+    "imagePrompt": "A quiet analytical instrument with four symbolic windows for entrance, dependence, exit, and counterevidence, revealing invisible forces without judging anonymous people, literary editorial illustration, no readable text",
+    "chunks": [
+      {"en": "At this point, the inquiry turns from guessing another person's motives to measuring the structure of the relationship.", "ja": "ここで問いは、他人の動機を推測することから関係構造を測ることへ転じる"},
+      {"en": "What was promised at the entrance?", "ja": "入口で何が約束されたのか"},
+      {"en": "How concentrated were time, money, and reputation?", "ja": "時間、金銭、評判はどれほど集中していたのか"},
+      {"en": "What would leaving put at risk, and what evidence might reduce that estimate?", "ja": "去ることで何が危険にさらされ、どんな証拠がその見積もりを弱めるのか"},
+      {"en": "A tool for examining exit costs should not label every bond as domination.", "ja": "退出費用を調べる道具は、すべての関係を支配と呼ぶべきではない"},
+      {"en": "Its task is to display the forces that keep someone in place", "ja": "その役割は人をその場に留める力を表示することであり"},
+      {"en": "before it speculates about intent.", "ja": "意図を推測するのはその後である"}
+    ],
+    "grammar": [
+      "turns from A to B は問いの方向転換を示す。",
+      "How concentrated were ...? は程度を尋ねる疑問文で、依存の集中を測る。",
+      "What would leaving put at risk? は動名詞 leaving を主語にした仮定的な問いである。",
+      "might reduce は反証が見積もりを弱める可能性を控えめに示す。",
+      "should not label A as B はAをBと決めつけるべきでないことを表す。",
+      "the forces that keep someone in place は関係代名詞節が forces を修飾する。",
+      "before it speculates は構造表示を意図推測より先に置く順序を示す。"
+    ],
+    "translationNote": "literal は入口、依存、出口、反証という質問の順序と「留まらせる仕組み」を保持した。natural では依存を concentrated と表し、一か所への資源集中として読みやすくした。「負担を弱める反証」は evidence might reduce that estimate として、結論ではなく評価値を修正する証拠だと示した。",
+    "readingPoint": "転換では、人の内面を裁く議論から、観察可能な構造を測る道具へ移る。反証欄を含めることで、分析が万能な支配判定にならないための歯止めも作品内に置く。",
+    "keywords": ["exit cost", "entrance", "dependence", "counterevidence", "structure", "intent"]
+  },
+  {
+    "id": "DE-20260913-004",
+    "sourceTitle": "出口から意図を決めつけない",
+    "workId": "daily-essay-20260913",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "見せるもの、隠すもの",
+    "jp": "その道具を公開する段になると、別の境界が現れた。問いの設計やコードは見せられる。検証の履歴も共有できる。だが、外部サービスへ通じる鍵まで公開場所に置けば、透明性は安全性を壊してしまう。鍵はサーバー側に残し、利用者から届く入力だけを必要な処理へ渡す。すべてを見せることが誠実なのではない。判断とは、隠された意図を言い当てることより、見せるべき構造と守るべき境界を明記することに近い。",
+    "translationLiteral": "When it came time to publish the tool, another boundary appeared. The design of its questions and its code could be shown. The history of verification could also be shared. But if even the key leading to an external service were placed in a public location, transparency would destroy safety. The key should remain on the server side, and only the input arriving from users should be passed to the necessary process. Showing everything is not what honesty means. Judgment is closer to specifying the structure that should be shown and the boundary that should be protected than to correctly guessing a hidden intention.",
+    "translationNatural": "Publishing the tool reveals another kind of boundary. Its questions, code, and testing history can be open, but a key that grants access to an external service cannot. The key must remain on the server, which passes only the necessary user input to the service. Openness does not mean exposing everything. Good judgment is less about guessing a hidden motive than about documenting the structure that others should inspect and the boundary that still needs protection.",
+    "imageUrl": "",
+    "imageCaption": "開かれた設計図の脇で、外部へ通じる一本の鍵だけが守られた境界の内側に残る。",
+    "imagePrompt": "An open blueprint and visible testing trail beside a single protected key kept behind a clear boundary, elegant literary editorial illustration, digital but human, no readable text",
+    "chunks": [
+      {"en": "Publishing the tool reveals another kind of boundary.", "ja": "道具を公開すると、別の種類の境界が見えてくる"},
+      {"en": "Its questions, code, and testing history can be open,", "ja": "質問、コード、検証履歴は公開できるが"},
+      {"en": "but a key that grants access to an external service cannot.", "ja": "外部サービスへのアクセスを許す鍵は公開できない"},
+      {"en": "The key must remain on the server, which passes only the necessary user input to the service.", "ja": "鍵はサーバーに残し、サーバーは必要な利用者入力だけをサービスへ渡す"},
+      {"en": "Openness does not mean exposing everything.", "ja": "開放性はすべてを露出することではない"},
+      {"en": "Good judgment is less about guessing a hidden motive", "ja": "よい判断は隠れた動機を推測することよりも"},
+      {"en": "than about documenting the structure that others should inspect and the boundary that still needs protection.", "ja": "他者が検査すべき構造と、なお守るべき境界を記述することに近い"}
+    ],
+    "grammar": [
+      "Publishing the tool は動名詞句を主語にし、公開という行為を扱う。",
+      "can be open, but ... cannot は公開可能なものと不可能なものを対照する。",
+      "that grants access ... は関係代名詞節で key の機能を説明する。",
+      "must remain は鍵を置く場所について強い必要性を示す。",
+      "which passes ... は非制限用法で server の役割を補足する。",
+      "does not mean -ing は概念を過度に広げる解釈を否定する。",
+      "less about A than about B は判断の重心を動機推測から構造記述へ移す。"
+    ],
+    "translationNote": "literal は「透明性が安全性を壊す」という対立と、見せる構造、守る境界の対句を残した。natural では外部サービスへ通じる鍵を a key that grants access と機能で説明し、サーバーの役割を which 節で補った。結語は less about A than about B により、意図の断定より検査可能性を優先する作品全体の重心を示した。",
+    "readingPoint": "結末では、関係分析で得た境界の考え方を実装へ移す。透明性にも公開してよいものと守るべきものがあると示し、意図の断定ではなく、検査できる構造の記述を静かな結論にする。",
+    "keywords": ["open source", "API key", "server", "transparency", "safety", "judgment"]
+  }
+]
