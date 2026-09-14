@@ -1,0 +1,483 @@
+[
+  {
+    "_generatedAt": "2026-09-15T01:57:30+09:00",
+    "_no": 128,
+    "coreVerb": "establish",
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "expanded": "because a declaration and its later fulfillment are different questions",
+          "nuance": "表明と履行を別の論点として理由を明示する。",
+          "original": "but it cannot guarantee continued performance"
+        },
+        {
+          "expanded": "since circumstances and conduct can change over time",
+          "nuance": "時間経過で事情や行為が変わりうることを補う。",
+          "original": "later actions must be evaluated separately"
+        },
+        {
+          "expanded": "so that the initial statement does not become an unlimited guarantee",
+          "nuance": "当初の言葉を無制限の保証にしない目的を示す。",
+          "original": "from the original declaration"
+        }
+      ],
+      "expressionNetwork": {
+        "comparison": [
+          {
+            "sentence": "Later conduct is a more reliable basis for evaluation than the original declaration alone.",
+            "translation": "その後の行為は、当初の表明だけよりも信頼できる評価根拠だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Initial consent does not guarantee continued performance.",
+            "translation": "当初の合意は継続的な履行を保証しない。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If later actions depart from the stated purpose, the original agreement should be reassessed.",
+            "translation": "その後の行為が表明された目的から外れるなら、当初の合意を再評価すべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What requires separate evaluation is the conduct that follows the declaration.",
+            "translation": "別に評価する必要があるのは、表明の後に続く行為だ。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "sentence": "A declaration may begin an agreement, whereas continued performance depends on later conduct.",
+            "translation": "表明は合意を始めうる一方、継続的な履行はその後の行為に左右される。",
+            "type": "対照"
+          }
+        ],
+        "vocabulary": [
+          {
+            "alternatives": [
+              "declared aim",
+              "expressed intention"
+            ],
+            "nuance": "statedは明示済みであること、declaredは公的な表明、expressedは言語化に焦点を置く。",
+            "original": "stated purpose"
+          }
+        ]
+      },
+      "structuralShift": [
+        {
+          "note": "agreementを主語にして成立の結果を前面に出す。",
+          "sentence": "An initial agreement can be established by a stated purpose, but later conduct still requires separate evaluation.",
+          "translation": "明示された目的によって当初の合意は成立しうるが、その後の行為にはなお別の評価が必要だ。",
+          "type": "受動態"
+        },
+        {
+          "note": "完了形の分詞構文で先行する成立を示す。",
+          "sentence": "Having established an initial agreement, the parties must still evaluate later actions separately.",
+          "translation": "当初の合意を成立させた後でも、当事者はその後の行為を別に評価しなければならない。",
+          "type": "分詞構文"
+        },
+        {
+          "note": "establishとcontinueを名詞化して論点を圧縮する。",
+          "sentence": "The establishment of an initial agreement does not ensure the continuation of performance.",
+          "translation": "当初の合意の成立は、履行の継続を確実にするものではない。",
+          "type": "名詞化"
+        }
+      ]
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "function": "内容",
+          "text": "A stated purpose",
+          "translation": "明示された目的は"
+        },
+        {
+          "function": "行動",
+          "text": "can establish an initial agreement,",
+          "translation": "当初の合意を成立させうる"
+        },
+        {
+          "function": "接続",
+          "text": "but it cannot guarantee continued performance;",
+          "translation": "しかし継続的な履行までは保証できない"
+        },
+        {
+          "function": "内容",
+          "text": "later actions",
+          "translation": "その後の行為は"
+        },
+        {
+          "function": "様態",
+          "text": "must be evaluated separately from the original declaration.",
+          "translation": "当初の表明とは分けて評価されなければならない"
+        }
+      ],
+      "errors": [
+        {
+          "correct": "A stated purpose can establish an agreement.",
+          "why": "助動詞canの後は動詞原形を使う。",
+          "wrong": "A stated purpose can establishes an agreement."
+        },
+        {
+          "correct": "It cannot guarantee continued performance.",
+          "why": "guaranteeの目的語にはここでは名詞句continued performanceを置くのが自然。",
+          "wrong": "It cannot guarantee to continue performance."
+        },
+        {
+          "correct": "Later actions must be evaluated separately.",
+          "why": "受動態にはbe動詞が必要。",
+          "wrong": "Later actions must evaluated separately."
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "修飾",
+          "explanation": "statedがpurposeを修飾し、表明された目的という意味を作る。",
+          "name": "過去分詞による前置修飾",
+          "rule": "過去分詞 + 名詞",
+          "where": "stated purpose"
+        },
+        {
+          "category": "助動詞",
+          "explanation": "目的の表明が合意を成立させる可能性を示す。",
+          "name": "可能性のcan",
+          "rule": "can + 動詞原形",
+          "where": "can establish"
+        },
+        {
+          "category": "冠詞",
+          "explanation": "母音音で始まるinitialの前にanを置く。",
+          "name": "不定冠詞と形容詞",
+          "rule": "an + 母音音で始まる語",
+          "where": "an initial agreement"
+        },
+        {
+          "category": "接続",
+          "explanation": "成立可能性と保証不可能性を対照させる。",
+          "name": "対照のbut",
+          "rule": "節, but 節",
+          "where": "but it cannot guarantee"
+        },
+        {
+          "category": "助動詞",
+          "explanation": "その後の評価が必要であることを表す。",
+          "name": "義務のmust",
+          "rule": "must + 動詞原形",
+          "where": "must be evaluated"
+        },
+        {
+          "category": "態",
+          "explanation": "行為を評価される対象として述べる。",
+          "name": "助動詞を伴う受動態",
+          "rule": "must be + 過去分詞",
+          "where": "must be evaluated"
+        },
+        {
+          "category": "前置詞",
+          "explanation": "二つの評価対象を切り分ける。",
+          "name": "separately from",
+          "rule": "separately from + 名詞",
+          "where": "separately from the original declaration"
+        }
+      ],
+      "parseTree": "S(A stated purpose) Aux(can) V(establish) O(an initial agreement), Conj(but) S(it) Aux(cannot) V(guarantee) O(continued performance); S(later actions) Aux(must) Vpass(be evaluated) Adv(separately from the original declaration).",
+      "variants": [
+        {
+          "text": "A declared aim may create an initial agreement, but later conduct still needs separate evaluation.",
+          "translation": "表明された目的は当初の合意を生みうるが、その後の行為はなお別に評価する必要がある。"
+        },
+        {
+          "text": "An initial agreement does not guarantee that the same purpose will keep being honored.",
+          "translation": "当初の合意は、同じ目的が守られ続けることを保証しない。"
+        },
+        {
+          "text": "Judge later conduct on its own instead of treating the original declaration as a permanent guarantee.",
+          "translation": "当初の表明を永続的な保証とみなさず、その後の行為はそれ自体で判断しよう。"
+        }
+      ]
+    },
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A purpose can establish an agreement.",
+        "translation": "目的は合意を成立させうる。"
+      },
+      "phase2": {
+        "addedChunks": "過去分詞statedと形容詞initialを追加",
+        "sentence": "A stated purpose can establish an initial agreement.",
+        "translation": "明示された目的は当初の合意を成立させうる。"
+      },
+      "phase3": {
+        "connector": "but",
+        "sentence": "A stated purpose can establish an agreement, but it cannot guarantee performance.",
+        "translation": "明示された目的は合意を成立させうるが、履行を保証することはできない。"
+      },
+      "phase4": {
+        "comparison": "separate from",
+        "sentence": "Later actions require a separate evaluation from the original declaration.",
+        "translation": "その後の行為には、当初の表明とは別の評価が必要だ。"
+      },
+      "phase5": {
+        "relativizer": "none",
+        "sentence": "A stated purpose can establish an initial agreement, but it cannot guarantee continued performance;",
+        "translation": "明示された目的は当初の合意を成立させうるが、継続的な履行までは保証できない。"
+      }
+    },
+    "japaneseTranslation": "明示された目的は当初の合意を成立させうるが、継続的な履行までは保証できない。その後の行為は、当初の表明とは分けて評価されなければならない。",
+    "phonetic": "ア ステイティッド パーパス キャン エスタブリッシュ アン イニシャル アグリーメント、バット イット キャナット ギャランティー コンティニュード パフォーマンス；レイター アクションズ マスト ビ イヴァリュエイティッド セパレトリー フロム ジ オリジナル デクラレイション。",
+    "scores": {
+      "clarity": 9,
+      "comment": "対照と受動態で論点は明確。抽象名詞が多いため、会話ではvariantsの短い形が使いやすい。",
+      "efficiency": 8,
+      "flexibility": 8,
+      "focus": 9,
+      "naturalness": 9
+    },
+    "sentence": "A stated purpose can establish an initial agreement, but it cannot guarantee continued performance; later actions must be evaluated separately from the original declaration.",
+    "theme": "目的の表明と継続的な履行を分けて評価する"
+  },
+  {
+    "_generatedAt": "2026-09-15T01:57:30+09:00",
+    "_no": 129,
+    "coreVerb": "prevent",
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "expanded": "because some browser APIs use an empty sink ID for the default output",
+          "nuance": "空文字が既定出力を示す実装上の理由を補う。",
+          "original": "represents the browser’s default output route"
+        },
+        {
+          "expanded": "since the route resolver discards its known default meaning",
+          "nuance": "判定器が既知の意味を失う因果を示す。",
+          "original": "treating it as unknown"
+        },
+        {
+          "expanded": "so the saved result cannot be matched to the active route",
+          "nuance": "保存結果と現在経路を照合できない結果を示す。",
+          "original": "prevents valid calibration results from being recognized"
+        }
+      ],
+      "expressionNetwork": {
+        "comparison": [
+          {
+            "sentence": "A stable default-route identifier is safer than labeling every empty sink ID as unknown.",
+            "translation": "安定した既定経路の識別子は、空のsink IDをすべて不明とするより安全だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Do not mistake the default route for an unknown one.",
+            "translation": "既定経路を不明な経路と取り違えてはいけない。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If an empty sink ID denotes the default output, the resolver should return a known route key.",
+            "translation": "空のsink IDが既定出力を示すなら、判定器は既知の経路キーを返すべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What breaks calibration is not the empty ID itself but its classification as unknown.",
+            "translation": "校正を壊すのは空のID自体ではなく、それを不明と分類することだ。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "sentence": "When the resolver maps the empty ID to the default route, saved calibration remains usable.",
+            "translation": "判定器が空のIDを既定経路へ対応付けると、保存済みの校正を利用し続けられる。",
+            "type": "条件と結果"
+          }
+        ],
+        "vocabulary": [
+          {
+            "alternatives": [
+              "classify as unknown",
+              "mark as unresolved"
+            ],
+            "nuance": "treatは処理上の扱い、classifyは分類、markは状態ラベルの付与に焦点を置く。",
+            "original": "treat as unknown"
+          }
+        ]
+      },
+      "structuralShift": [
+        {
+          "note": "結果を主語にして不具合の影響を前面に出す。",
+          "sentence": "Valid calibration results are not recognized when an empty default sink ID is classified as unknown.",
+          "translation": "空の既定sink IDが不明と分類されると、有効な校正結果は認識されない。",
+          "type": "受動態"
+        },
+        {
+          "note": "過去分詞句で誤分類の条件を圧縮する。",
+          "sentence": "Treated as unknown, the empty default sink ID no longer matches valid calibration results.",
+          "translation": "不明として扱われると、空の既定sink IDは有効な校正結果と一致しなくなる。",
+          "type": "分詞構文"
+        },
+        {
+          "note": "classifyとrejectを名詞化して因果を簡潔に示す。",
+          "sentence": "Misclassification of the default route causes the rejection of valid calibration results.",
+          "translation": "既定経路の誤分類は、有効な校正結果の排除を引き起こす。",
+          "type": "名詞化"
+        }
+      ]
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "function": "時間",
+          "text": "When an empty sink ID",
+          "translation": "空のsink IDが"
+        },
+        {
+          "function": "状態",
+          "text": "represents the browser’s default output route,",
+          "translation": "ブラウザーの既定の出力経路を表す場合"
+        },
+        {
+          "function": "行動",
+          "text": "treating it as unknown",
+          "translation": "それを不明として扱うことは"
+        },
+        {
+          "function": "結果",
+          "text": "prevents valid calibration results",
+          "translation": "有効な校正結果を妨げる"
+        },
+        {
+          "function": "結果",
+          "text": "from being recognized.",
+          "translation": "認識されることを"
+        }
+      ],
+      "errors": [
+        {
+          "correct": "When an empty sink ID represents the route",
+          "why": "単数主語an empty sink IDにはrepresentsを使う。",
+          "wrong": "When an empty sink ID represent the route"
+        },
+        {
+          "correct": "Treating it as unknown prevents valid results.",
+          "why": "動名詞句主語は単数扱いなのでpreventsが必要。",
+          "wrong": "Treating it as unknown prevent valid results."
+        },
+        {
+          "correct": "prevents valid results from being recognized",
+          "why": "preventはA from -ingの形を取る。",
+          "wrong": "prevents valid results to be recognized"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "explanation": "特定の実行条件をwhen節で示す。",
+          "name": "条件を表すwhen",
+          "rule": "When + S + V, S + V",
+          "where": "When an empty sink ID represents"
+        },
+        {
+          "category": "冠詞",
+          "explanation": "emptyが母音音で始まるためanを用いる。",
+          "name": "母音音の前のan",
+          "rule": "an + 母音音で始まる語",
+          "where": "an empty sink ID"
+        },
+        {
+          "category": "所有格",
+          "explanation": "ブラウザーに属する既定経路を表す。",
+          "name": "名詞の所有格",
+          "rule": "名詞’s + 名詞",
+          "where": "the browser’s default output route"
+        },
+        {
+          "category": "動名詞",
+          "explanation": "扱うという行為全体を文の主語にする。",
+          "name": "動名詞句の主語",
+          "rule": "動名詞句 + 単数動詞",
+          "where": "treating it as unknown"
+        },
+        {
+          "category": "補語",
+          "explanation": "対象をある分類として扱う。",
+          "name": "treat A as B",
+          "rule": "treat + 目的語 + as + 補語",
+          "where": "treating it as unknown"
+        },
+        {
+          "category": "一致",
+          "explanation": "動名詞句を単数としてpreventsを使う。",
+          "name": "動名詞主語と三人称単数",
+          "rule": "動名詞句 + 動詞の三人称単数形",
+          "where": "treating ... prevents"
+        },
+        {
+          "category": "語法",
+          "explanation": "Aがある状態になることを妨げる。",
+          "name": "prevent A from -ing",
+          "rule": "prevent + A + from + 動名詞",
+          "where": "prevents valid calibration results from being recognized"
+        },
+        {
+          "category": "態",
+          "explanation": "結果が認識される側であることを示す。",
+          "name": "動名詞の受動態",
+          "rule": "being + 過去分詞",
+          "where": "from being recognized"
+        }
+      ],
+      "parseTree": "Adv[When S(an empty sink ID) V(represents) O(the browser’s default output route)], S(Gerund: treating it as unknown) V(prevents) O(valid calibration results) Comp(from being recognized).",
+      "variants": [
+        {
+          "text": "Map an empty sink ID to the known default route so valid calibration can be restored.",
+          "translation": "空のsink IDを既知の既定経路に対応付け、有効な校正を復元できるようにしよう。"
+        },
+        {
+          "text": "If an empty ID means the default output, labeling it unknown hides valid calibration data.",
+          "translation": "空のIDが既定出力を意味するなら、不明と分類すると有効な校正データが隠れる。"
+        },
+        {
+          "text": "The browser’s default route should be recognized even when its sink ID is empty.",
+          "translation": "sink IDが空でも、ブラウザーの既定経路は認識されるべきだ。"
+        }
+      ]
+    },
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The route is recognized.",
+        "translation": "その経路は認識される。"
+      },
+      "phase2": {
+        "addedChunks": "形容詞defaultとoutputを追加",
+        "sentence": "The default output route is recognized.",
+        "translation": "既定の出力経路が認識される。"
+      },
+      "phase3": {
+        "connector": "but",
+        "sentence": "The route is valid, but the code treats it as unknown.",
+        "translation": "その経路は有効だが、コードはそれを不明として扱う。"
+      },
+      "phase4": {
+        "comparison": "more useful than",
+        "sentence": "A known default route is more useful than an unknown label.",
+        "translation": "既知の既定経路は、不明というラベルより有用だ。"
+      },
+      "phase5": {
+        "relativizer": "when",
+        "sentence": "When an empty sink ID represents the browser’s default output route,",
+        "translation": "空のsink IDがブラウザーの既定の出力経路を表す場合、"
+      }
+    },
+    "japaneseTranslation": "空のsink IDがブラウザーの既定の出力経路を表す場合、それを不明として扱うと、有効な校正結果が認識されなくなる。",
+    "phonetic": "ウェン アン エンプティー シンク アイディー レプリゼンツ ザ ブラウザーズ デフォルト アウトプット ルート、トリーティング イット アズ アンノウン プリヴェンツ ヴァリッド キャリブレイション リザルツ フロム ビーイング レコグナイズド。",
+    "scores": {
+      "clarity": 9,
+      "comment": "技術的な因果を一文で明確に表現。sink IDはAPI用語なので、一般会話ではvariantsの言い換えが理解しやすい。",
+      "efficiency": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "naturalness": 9
+    },
+    "sentence": "When an empty sink ID represents the browser’s default output route, treating it as unknown prevents valid calibration results from being recognized.",
+    "theme": "既定の音声出力経路を既知の値として判定する"
+  }
+]
