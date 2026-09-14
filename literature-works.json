@@ -130,5 +130,12 @@
     "description": "交際目的の食い違い、ロマンス詐欺の成立条件、退出費用を測る道具、公開コードと秘密鍵を通して、意図の断定より先に構造と境界を記述する日次エッセイ。",
     "manifest": "literature/daily-essay-20260913/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260914",
+    "title": "表示のあとで機械は動く",
+    "description": "目的表示と履行、既定の音声経路、AIを使う主体、巨大技術の維持と結果負担を通して、表示名の先に続く作用経路を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260914/manifest.json",
+    "mode": "essay-translation"
   }
 ]
