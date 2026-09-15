@@ -1,0 +1,727 @@
+[
+  {
+    "_generatedAt": "2026-09-16T02:02:24+09:00",
+    "_no": 130,
+    "coreVerb": "prove",
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "expanded": "because the artist can choose where uncertainty is allowed",
+          "nuance": "不確定性を置く位置自体が選択可能だと示す。",
+          "original": "chance can remain part of an artistic design"
+        },
+        {
+          "expanded": "since performers still select timing, tone, and response",
+          "nuance": "即興中にも選択が続く理由を補う。",
+          "original": "improvisation does not prove that the music lacks intention"
+        },
+        {
+          "expanded": "so that performers can respond to one another in the moment",
+          "nuance": "未決定部分が相互反応を可能にする目的を示す。",
+          "original": "some notes are left undecided"
+        }
+      ],
+      "expressionNetwork": {
+        "comparison": [
+          {
+            "sentence": "Structured improvisation contains more deliberate choice than unconstrained random output.",
+            "translation": "構造化された即興には、制約のない無作為な出力より多くの意図的選択が含まれる。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Indeterminacy can be designed.",
+            "translation": "不確定性は設計できる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If musicians choose the constraints deliberately, chance can express rather than erase their design.",
+            "translation": "演奏者が制約を意図的に選ぶなら、偶然性は設計を消すのでなく表現しうる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not whether every note was fixed, but how uncertainty was framed.",
+            "translation": "重要なのは全音が固定されていたかではなく、不確定性がどう枠づけられたかだ。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "sentence": "Although the exact notes are not fixed, the boundaries of the performance may still be carefully designed.",
+            "translation": "正確な音が固定されていなくても、演奏の境界は入念に設計されている場合がある。",
+            "type": "譲歩"
+          }
+        ],
+        "vocabulary": [
+          {
+            "alternatives": [
+              "kept open",
+              "not predetermined"
+            ],
+            "nuance": "left undecidedは未決定の状態、kept openは選択肢の維持、not predeterminedは事前決定の不在を強調する。",
+            "original": "left undecided"
+          }
+        ]
+      },
+      "structuralShift": [
+        {
+          "note": "偶然性の境界を主語にして設計可能性を強調する。",
+          "sentence": "The boundaries of chance can be designed even when individual notes are not predetermined.",
+          "translation": "個々の音が事前に決められていなくても、偶然性の境界は設計できる。",
+          "type": "受動態"
+        },
+        {
+          "note": "同時進行する未決定と設計を分詞句で結ぶ。",
+          "sentence": "Leaving some notes undecided, a musician can still follow a deliberate artistic framework.",
+          "translation": "一部の音を未決定にしながらも、演奏者は意図的な芸術的枠組みに従える。",
+          "type": "分詞構文"
+        },
+        {
+          "note": "useとabsenceで論点を名詞化する。",
+          "sentence": "The use of improvisation does not demonstrate an absence of artistic intention.",
+          "translation": "即興の使用は、芸術的意図の不在を示すものではない。",
+          "type": "名詞化"
+        }
+      ]
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "function": "接続",
+          "text": "Even when some notes are left undecided,",
+          "translation": "一部の音を決めずに残しても"
+        },
+        {
+          "function": "状態",
+          "text": "chance can remain",
+          "translation": "偶然性はあり続けうる"
+        },
+        {
+          "function": "内容",
+          "text": "part of an artistic design;",
+          "translation": "芸術的な設計の一部として"
+        },
+        {
+          "function": "行動",
+          "text": "improvisation does not prove",
+          "translation": "即興であることは証明しない"
+        },
+        {
+          "function": "内容",
+          "text": "that the music lacks intention or philosophy.",
+          "translation": "その音楽に意図や哲学がないことを"
+        }
+      ],
+      "errors": [
+        {
+          "correct": "Even when some notes are left undecided",
+          "why": "notesは複数であり、受動態にはare leftが必要。",
+          "wrong": "Even when some notes leaves undecided"
+        },
+        {
+          "correct": "Improvisation does not prove that",
+          "why": "does notの後は動詞原形を使う。",
+          "wrong": "Improvisation does not proves that"
+        },
+        {
+          "correct": "The music lacks intention.",
+          "why": "単数扱いのmusicにはlacksを用いる。",
+          "wrong": "The music lack intention."
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "explanation": "条件が成立しても結論が変わらないことを示す。",
+          "name": "譲歩のeven when",
+          "rule": "Even when + S + V, S + V",
+          "where": "Even when some notes are left undecided"
+        },
+        {
+          "category": "態",
+          "explanation": "音を未決定の状態にしておくことを受動態で表す。",
+          "name": "受動態",
+          "rule": "be + 過去分詞",
+          "where": "are left undecided"
+        },
+        {
+          "category": "補語",
+          "explanation": "undecidedがnotesの状態を説明する。",
+          "name": "leave O Cの受動形",
+          "rule": "O be left + 補語",
+          "where": "notes are left undecided"
+        },
+        {
+          "category": "助動詞",
+          "explanation": "偶然性が設計内に存在しうることを示す。",
+          "name": "可能性のcan",
+          "rule": "can + 動詞原形",
+          "where": "chance can remain"
+        },
+        {
+          "category": "否定",
+          "explanation": "単数主語improvisationにdoes notを用いる。",
+          "name": "一般動詞の否定",
+          "rule": "does not + 動詞原形",
+          "where": "does not prove"
+        },
+        {
+          "category": "名詞節",
+          "explanation": "何を証明しないのかをthat節で示す。",
+          "name": "that節を目的語に取るprove",
+          "rule": "prove that + S + V",
+          "where": "prove that the music lacks"
+        },
+        {
+          "category": "一致",
+          "explanation": "不可算名詞musicを単数としてlacksを使う。",
+          "name": "三人称単数現在",
+          "rule": "単数主語 + 動詞-s",
+          "where": "the music lacks"
+        },
+        {
+          "category": "並列",
+          "explanation": "二つの欠如候補を同じ文法位置に置く。",
+          "name": "orによる名詞の並列",
+          "rule": "名詞 + or + 名詞",
+          "where": "intention or philosophy"
+        }
+      ],
+      "parseTree": "Adv(Even when S(some notes) Vpass(are left) C(undecided)), S(chance) Aux(can) V(remain) C(part of an artistic design); S(improvisation) Aux(does not) V(prove) O(that S(the music) V(lacks) O(intention or philosophy)).",
+      "variants": [
+        {
+          "text": "Leaving some notes open can itself be an artistic choice.",
+          "translation": "一部の音を未決定にしておくこと自体が芸術的な選択になりうる。"
+        },
+        {
+          "text": "Improvisation changes how decisions are made; it does not remove intention from music.",
+          "translation": "即興は意思決定の仕方を変えるが、音楽から意図を取り除くわけではない。"
+        },
+        {
+          "text": "Chance can serve a design when the artist deliberately chooses its boundaries.",
+          "translation": "芸術家が境界を意図的に選ぶなら、偶然性は設計に役立ちうる。"
+        }
+      ]
+    },
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Improvisation does not prove absence.",
+        "translation": "即興は不在を証明しない。"
+      },
+      "phase2": {
+        "addedChunks": "目的語an absence of intentionを追加",
+        "sentence": "Improvisation does not prove an absence of intention.",
+        "translation": "即興は意図の不在を証明しない。"
+      },
+      "phase3": {
+        "connector": "but",
+        "sentence": "Some notes are undecided, but the music can still have intention.",
+        "translation": "一部の音は未決定だが、その音楽にはなお意図がありうる。"
+      },
+      "phase4": {
+        "comparison": "more deliberate than",
+        "sentence": "Designed uncertainty is more deliberate than random output without constraints.",
+        "translation": "設計された不確定性は、制約のない無作為な出力より意図的だ。"
+      },
+      "phase5": {
+        "relativizer": "when",
+        "sentence": "Even when some notes are left undecided, chance can remain part of an artistic design;",
+        "translation": "一部の音を決めずに残しても、偶然性は芸術的な設計の一部でありうる。"
+      }
+    },
+    "japaneseTranslation": "一部の音を決めずに残しても、偶然性は芸術的な設計の一部でありうる。即興であることは、その音楽に意図や哲学がない証明にはならない。",
+    "phonetic": "イーヴン ウェン サム ノーツ アー レフト アンディサイディッド、チャンス キャン リメイン パート オヴ アン アーティスティック デザイン；インプロヴィゼイション ダズ ノット プルーヴ ザット ザ ミュージック ラックス インテンション オア フィロソフィー。",
+    "scores": {
+      "clarity": 9,
+      "comment": "譲歩とthat節で論点は明確。philosophyは広い語なので、具体例ではintentionやframeworkへの言い換えが有効。",
+      "efficiency": 8,
+      "flexibility": 9,
+      "focus": 9,
+      "naturalness": 9
+    },
+    "sentence": "Even when some notes are left undecided, chance can remain part of an artistic design; improvisation does not prove that the music lacks intention or philosophy.",
+    "theme": "偶然性を設計思想の欠如と混同しない"
+  },
+  {
+    "_generatedAt": "2026-09-16T02:02:24+09:00",
+    "_no": 131,
+    "coreVerb": "make",
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "expanded": "because cached states can avoid recomputing the same prefix",
+          "nuance": "同じ接頭部の再計算を省ける理由を示す。",
+          "original": "make repeated context processing much faster"
+        },
+        {
+          "expanded": "since decoding still performs new inference step by step",
+          "nuance": "新規生成には逐次推論が残ることを補う。",
+          "original": "does not necessarily make the model generate new tokens equally fast"
+        },
+        {
+          "expanded": "so benchmark numbers do not combine two different stages",
+          "nuance": "異なる工程の数値を混同しない目的を示す。",
+          "original": "separate context processing from generation"
+        }
+      ],
+      "expressionNetwork": {
+        "comparison": [
+          {
+            "sentence": "A cached prompt may load far faster than an uncached one, even when both models decode at similar speeds.",
+            "translation": "両モデルのdecode速度が近くても、キャッシュ済みプロンプトは未キャッシュよりはるかに速く読み込める場合がある。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Faster prefill does not guarantee faster decoding.",
+            "translation": "速いprefillが速いdecodeを保証するわけではない。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the prompt prefix is reused, caching can reduce the work required before generation begins.",
+            "translation": "プロンプトの接頭部を再利用するなら、キャッシュは生成開始前に必要な処理を減らせる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is repeated context processing—not every step of generation—that the cache accelerates most directly.",
+            "translation": "キャッシュが最も直接高速化するのは、生成の全工程ではなく繰り返す文脈処理だ。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "sentence": "Caching reduces repeated prefill work, whereas decoding still creates new tokens sequentially.",
+            "translation": "キャッシュは繰り返すprefill処理を減らす一方、decodeはなお新しいトークンを順次生成する。",
+            "type": "対照"
+          }
+        ],
+        "vocabulary": [
+          {
+            "alternatives": [
+              "prefix caching",
+              "context-cache reuse"
+            ],
+            "nuance": "prompt cachingは一般名、prefix cachingは共通接頭部、context-cache reuseは保存状態の再利用に焦点を置く。",
+            "original": "prompt caching"
+          }
+        ]
+      },
+      "structuralShift": [
+        {
+          "note": "文脈処理を主語にして受ける効果を強調する。",
+          "sentence": "Repeated context processing can be accelerated by prompt caching, while new-token generation may remain unchanged.",
+          "translation": "繰り返す文脈処理はプロンプトキャッシュで高速化できる一方、新規トークン生成は変わらない場合がある。",
+          "type": "受動態"
+        },
+        {
+          "note": "再利用を手段として分詞句にまとめる。",
+          "sentence": "Reusing cached context, the system can shorten prefill time without equally accelerating token generation.",
+          "translation": "キャッシュ済み文脈を再利用することで、システムはトークン生成を同程度に速めずにprefill時間を短縮できる。",
+          "type": "分詞構文"
+        },
+        {
+          "note": "reuseとincreaseで工程差を名詞化する。",
+          "sentence": "Prompt-cache reuse reduces context-processing time but does not guarantee an equal increase in generation speed.",
+          "translation": "プロンプトキャッシュの再利用は文脈処理時間を減らすが、生成速度の同等の向上は保証しない。",
+          "type": "名詞化"
+        }
+      ]
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "function": "内容",
+          "text": "Prompt caching",
+          "translation": "プロンプトキャッシュは"
+        },
+        {
+          "function": "行動",
+          "text": "can make repeated context processing",
+          "translation": "繰り返す文脈処理を"
+        },
+        {
+          "function": "比較",
+          "text": "much faster,",
+          "translation": "大幅に高速化できる"
+        },
+        {
+          "function": "接続",
+          "text": "but it does not necessarily make the model",
+          "translation": "しかし必ずしもモデルに"
+        },
+        {
+          "function": "結果",
+          "text": "generate new tokens equally fast.",
+          "translation": "新しいトークンを同じように速く生成させるとは限らない"
+        }
+      ],
+      "errors": [
+        {
+          "correct": "Prompt caching can make processing faster.",
+          "why": "助動詞canの後は動詞原形を使う。",
+          "wrong": "Prompt caching can makes processing faster."
+        },
+        {
+          "correct": "It does not necessarily make the model faster.",
+          "why": "does notの後も動詞原形を使う。",
+          "wrong": "It does not necessarily makes the model faster."
+        },
+        {
+          "correct": "make the model generate new tokens",
+          "why": "能動態の使役makeでは目的格補語にtoなし不定詞を用いる。",
+          "wrong": "make the model to generate new tokens"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "explanation": "高速化できる可能性を示す。",
+          "name": "可能性のcan",
+          "rule": "can + 動詞原形",
+          "where": "can make"
+        },
+        {
+          "category": "使役",
+          "explanation": "目的語をfasterという状態にする。",
+          "name": "make O C",
+          "rule": "make + O + 形容詞",
+          "where": "make repeated context processing much faster"
+        },
+        {
+          "category": "比較",
+          "explanation": "muchが比較級fasterを強める。",
+          "name": "比較級の強調",
+          "rule": "much + 比較級",
+          "where": "much faster"
+        },
+        {
+          "category": "接続",
+          "explanation": "文脈処理と新規生成の速度差を対照させる。",
+          "name": "対照のbut",
+          "rule": "節, but 節",
+          "where": "but it does not necessarily"
+        },
+        {
+          "category": "部分否定",
+          "explanation": "常にそうなるわけではないという限定を表す。",
+          "name": "not necessarily",
+          "rule": "not necessarily + 動詞",
+          "where": "does not necessarily make"
+        },
+        {
+          "category": "使役",
+          "explanation": "モデルにgenerateさせる使役構文。",
+          "name": "make O do",
+          "rule": "make + O + 動詞原形",
+          "where": "make the model generate"
+        },
+        {
+          "category": "副詞",
+          "explanation": "別の速度と同程度に速くという意味を加える。",
+          "name": "equally fast",
+          "rule": "動詞 + equally + 副詞",
+          "where": "generate new tokens equally fast"
+        }
+      ],
+      "parseTree": "S(Prompt caching) Aux(can) V(make) O(repeated context processing) C(much faster), Conj(but) S(it) Aux(does not) Adv(necessarily) V(make) O(the model) C(generate new tokens equally fast).",
+      "variants": [
+        {
+          "text": "A prompt cache can accelerate repeated prefill without increasing decoding speed by the same amount.",
+          "translation": "プロンプトキャッシュは、decode速度を同じ幅で上げずに、繰り返すprefillを高速化できる。"
+        },
+        {
+          "text": "Fast cache hits do not mean that every newly generated token arrives just as quickly.",
+          "translation": "高速なキャッシュヒットは、新しく生成される全トークンも同じ速さで届くことを意味しない。"
+        },
+        {
+          "text": "Separate context-loading speed from token-generation speed when evaluating a local model.",
+          "translation": "ローカルモデルを評価するときは、文脈読込速度とトークン生成速度を分けよう。"
+        }
+      ]
+    },
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Caching saves work.",
+        "translation": "キャッシュは処理を省く。"
+      },
+      "phase2": {
+        "addedChunks": "目的語repeated context processingを追加",
+        "sentence": "Prompt caching saves repeated context processing.",
+        "translation": "プロンプトキャッシュは繰り返す文脈処理を省く。"
+      },
+      "phase3": {
+        "connector": "but",
+        "sentence": "Caching speeds up prefill, but generation remains separate.",
+        "translation": "キャッシュはprefillを高速化するが、生成は別の処理として残る。"
+      },
+      "phase4": {
+        "comparison": "faster than",
+        "sentence": "Cached prefill can be faster than uncached context processing.",
+        "translation": "キャッシュ済みprefillは、未キャッシュの文脈処理より速くなりうる。"
+      },
+      "phase5": {
+        "relativizer": "none",
+        "sentence": "Prompt caching can make repeated context processing much faster,",
+        "translation": "プロンプトキャッシュは、繰り返す文脈処理を大幅に高速化できる。"
+      }
+    },
+    "japaneseTranslation": "プロンプトキャッシュは、繰り返す文脈処理を大幅に高速化できるが、モデルによる新しいトークンの生成まで同じように速くするとは限らない。",
+    "phonetic": "プロンプト キャッシング キャン メイク リピーティッド コンテクスト プロセッシング マッチ ファスター、バット イット ダズ ノット ネセサリリー メイク ザ モデル ジェネレイト ニュー トークンズ イークワリー ファスト。",
+    "scores": {
+      "clarity": 9,
+      "comment": "二つの速度指標を一文で区別できている。技術会話ではprefillとdecodingの用語を使うvariantsがより精密。",
+      "efficiency": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "naturalness": 9
+    },
+    "sentence": "Prompt caching can make repeated context processing much faster, but it does not necessarily make the model generate new tokens equally fast.",
+    "theme": "prompt cachingのprefill高速化と生成速度を区別する"
+  },
+  {
+    "_generatedAt": "2026-09-16T02:02:24+09:00",
+    "_no": 132,
+    "coreVerb": "remain",
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "expanded": "because the claim itself has not been examined",
+          "nuance": "元の主張が検討されていないという理由を示す。",
+          "original": "the original disagreement remains unresolved"
+        },
+        {
+          "expanded": "since attention shifts from the argument to the speaker’s attributed motive",
+          "nuance": "注意が論旨から推定動機へ移る因果を示す。",
+          "original": "criticism is recast as gender bias"
+        },
+        {
+          "expanded": "so that argument quality and possible bias can be assessed separately",
+          "nuance": "論旨と偏見を別々に評価する目的を示す。",
+          "original": "examine the claim itself"
+        }
+      ],
+      "expressionNetwork": {
+        "comparison": [
+          {
+            "sentence": "Direct analysis of the claim resolves more than assigning a label to the disagreement.",
+            "translation": "主張を直接分析する方が、意見の相違にラベルを付けるより多くを解決する。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "A label does not resolve an argument.",
+            "translation": "ラベルは議論を解決しない。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the criticism contains gender bias, identify the biased inference as well as the disputed claim.",
+            "translation": "批判にジェンダー偏見が含まれるなら、争点となる主張とともに偏った推論を特定しよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What remains unanswered is the argument itself.",
+            "translation": "答えられないまま残るのは、議論そのものだ。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "sentence": "Evaluate the argument on its merits before deciding whether bias influenced the criticism.",
+            "translation": "偏見が批判に影響したか判断する前に、議論を内容そのものに基づいて評価しよう。",
+            "type": "手順"
+          }
+        ],
+        "vocabulary": [
+          {
+            "alternatives": [
+              "reframe as",
+              "classify as"
+            ],
+            "nuance": "recastは意味づけの変更、reframeは枠組みの変更、classifyは分類操作を強調する。",
+            "original": "recast as"
+          }
+        ]
+      },
+      "structuralShift": [
+        {
+          "note": "claimを主語にして未応答の状態を強調する。",
+          "sentence": "The original claim is left unanswered when criticism is classified only as gender bias.",
+          "translation": "批判がジェンダー偏見とのみ分類されると、元の主張は答えられないまま残る。",
+          "type": "受動態"
+        },
+        {
+          "note": "recastingを原因となる行為として前置する。",
+          "sentence": "Recasting criticism as gender bias without examining the claim, a respondent leaves the disagreement unresolved.",
+          "translation": "主張を検討せず批判をジェンダー偏見として捉え直すことで、応答者は意見の相違を未解決のままにする。",
+          "type": "分詞構文"
+        },
+        {
+          "note": "replaceとresolveを名詞化して構造を圧縮する。",
+          "sentence": "The replacement of claim analysis with an identity label prevents resolution of the disagreement.",
+          "translation": "主張分析を属性ラベルで置き換えることは、意見の相違の解決を妨げる。",
+          "type": "名詞化"
+        }
+      ]
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "function": "時間",
+          "text": "When criticism of an argument",
+          "translation": "ある議論への批判が"
+        },
+        {
+          "function": "状態",
+          "text": "is recast as gender bias",
+          "translation": "ジェンダー偏見として捉え直されると"
+        },
+        {
+          "function": "様態",
+          "text": "without examining the claim itself,",
+          "translation": "主張そのものを検討せずに"
+        },
+        {
+          "function": "内容",
+          "text": "the original disagreement",
+          "translation": "元の意見の相違は"
+        },
+        {
+          "function": "状態",
+          "text": "remains unresolved.",
+          "translation": "解決されないまま残る"
+        }
+      ],
+      "errors": [
+        {
+          "correct": "Criticism of an argument is recast",
+          "why": "不可算名詞criticismを単数としてisを用いる。",
+          "wrong": "Criticism of an argument are recast"
+        },
+        {
+          "correct": "without examining the claim",
+          "why": "前置詞withoutの後は動名詞を使う。",
+          "wrong": "without examine the claim"
+        },
+        {
+          "correct": "The disagreement remains unresolved.",
+          "why": "単数主語disagreementにはremainsを用いる。",
+          "wrong": "The disagreement remain unresolved."
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "explanation": "ある処理が行われた場合の結果を示す。",
+          "name": "条件を表すwhen",
+          "rule": "When + S + V, S + V",
+          "where": "When criticism of an argument is recast"
+        },
+        {
+          "category": "前置詞",
+          "explanation": "何に対する批判かをofで示す。",
+          "name": "criticism of",
+          "rule": "criticism of + 名詞",
+          "where": "criticism of an argument"
+        },
+        {
+          "category": "態",
+          "explanation": "批判が捉え直される側であることを示す。",
+          "name": "受動態",
+          "rule": "be + 過去分詞",
+          "where": "is recast"
+        },
+        {
+          "category": "補語",
+          "explanation": "AをBとして捉え直す構文の受動態。",
+          "name": "recast A as Bの受動形",
+          "rule": "A be recast as B",
+          "where": "is recast as gender bias"
+        },
+        {
+          "category": "前置詞",
+          "explanation": "検討しないまま行うことを表す。",
+          "name": "without + 動名詞",
+          "rule": "without + 動名詞",
+          "where": "without examining"
+        },
+        {
+          "category": "強調",
+          "explanation": "ラベルではなく主張そのものを強調する。",
+          "name": "再帰代名詞の強調用法",
+          "rule": "名詞 + itself",
+          "where": "the claim itself"
+        },
+        {
+          "category": "補語",
+          "explanation": "未解決という状態が続くことを表す。",
+          "name": "remain + 形容詞",
+          "rule": "remain + 形容詞",
+          "where": "remains unresolved"
+        },
+        {
+          "category": "一致",
+          "explanation": "単数主語disagreementにremainsを用いる。",
+          "name": "三人称単数現在",
+          "rule": "単数主語 + 動詞-s",
+          "where": "disagreement remains"
+        }
+      ],
+      "parseTree": "Adv(When S(criticism of an argument) Vpass(is recast) C(as gender bias) Adv(without examining the claim itself)), S(the original disagreement) V(remains) C(unresolved).",
+      "variants": [
+        {
+          "text": "Calling a criticism biased does not answer the argument by itself.",
+          "translation": "批判を偏っていると呼ぶだけでは、その議論への答えにはならない。"
+        },
+        {
+          "text": "Examine the claim first, then determine whether gender bias also shaped the criticism.",
+          "translation": "まず主張を検討し、そのうえでジェンダー偏見も批判に影響したか判断しよう。"
+        },
+        {
+          "text": "A dispute remains unresolved when an identity label replaces analysis of the actual claim.",
+          "translation": "属性ラベルが実際の主張の分析に取って代わると、論争は未解決のまま残る。"
+        }
+      ]
+    },
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The disagreement remains.",
+        "translation": "意見の相違が残る。"
+      },
+      "phase2": {
+        "addedChunks": "形容詞originalと補語unresolvedを追加",
+        "sentence": "The original disagreement remains unresolved.",
+        "translation": "元の意見の相違は未解決のまま残る。"
+      },
+      "phase3": {
+        "connector": "but",
+        "sentence": "The label changes, but the disagreement remains unresolved.",
+        "translation": "ラベルは変わるが、意見の相違は未解決のまま残る。"
+      },
+      "phase4": {
+        "comparison": "more useful than",
+        "sentence": "Examining the claim is more useful than replacing the issue with a label.",
+        "translation": "主張を検討する方が、論点をラベルで置き換えるより有用だ。"
+      },
+      "phase5": {
+        "relativizer": "when",
+        "sentence": "When criticism of an argument is recast as gender bias without examining the claim itself,",
+        "translation": "主張そのものを検討せずに、ある議論への批判がジェンダー偏見として捉え直されると、"
+      }
+    },
+    "japaneseTranslation": "主張そのものを検討せずに、ある議論への批判がジェンダー偏見として捉え直されると、元の意見の相違は解決されないまま残る。",
+    "phonetic": "ウェン クリティシズム オヴ アン アーギュメント イズ リキャスト アズ ジェンダー バイアス ウィズアウト イグザミニング ザ クレイム イットセルフ、ジ オリジナル ディサグリーメント リメインズ アンリゾルヴド。",
+    "scores": {
+      "clarity": 9,
+      "comment": "条件と結果が明確で、偏見の可能性自体は否定していない。実例ではclaimとbiasの根拠を別々に示す必要がある。",
+      "efficiency": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "naturalness": 9
+    },
+    "sentence": "When criticism of an argument is recast as gender bias without examining the claim itself, the original disagreement remains unresolved.",
+    "theme": "論旨への批判と属性に基づく偏見を切り分ける"
+  }
+]
