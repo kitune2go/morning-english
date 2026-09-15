@@ -137,5 +137,12 @@
     "description": "目的表示と履行、既定の音声経路、AIを使う主体、巨大技術の維持と結果負担を通して、表示名の先に続く作用経路を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260914/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260915",
+    "title": "決めなかった音にも設計はある",
+    "description": "幼少期の演奏技巧、AI音楽に対する「哲学」の評価、ジャズ即興の制約、生成後の選択と責任を通して、未決定性と設計の関係を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260915/manifest.json",
+    "mode": "essay-translation"
   }
 ]
