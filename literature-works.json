@@ -144,5 +144,12 @@
     "description": "幼少期の演奏技巧、AI音楽に対する「哲学」の評価、ジャズ即興の制約、生成後の選択と責任を通して、未決定性と設計の関係を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260915/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260916",
+    "title": "出口を空ける人は目立たない",
+    "description": "友人の多さ、内集団の義理、危機時に塞がる退路、目立つ救援と見えない予防を通して、善意を出口の開放から考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260916/manifest.json",
+    "mode": "essay-translation"
   }
 ]
