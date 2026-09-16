@@ -1,0 +1,497 @@
+[
+  {
+    "_generatedAt": "2026-09-17T02:02:27+09:00",
+    "_no": 133,
+    "coreVerb": "guarantee",
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "expanded": "because loyalty is visible through repeated support for insiders",
+          "nuance": "内集団への支援が観察されやすい理由を示す。",
+          "original": "make someone seem dependable"
+        },
+        {
+          "expanded": "since loyalty and risk assessment rely on different abilities",
+          "nuance": "義理と危険判断が異なる能力であることを補う。",
+          "original": "does not guarantee sound judgment"
+        },
+        {
+          "expanded": "so hesitation or group pressure can increase the harm",
+          "nuance": "ためらいや集団圧力が被害を広げうる結果を示す。",
+          "original": "when danger requires people to leave quickly"
+        }
+      ],
+      "expressionNetwork": {
+        "comparison": [
+          {
+            "sentence": "Recognizing a dangerous exit condition is more important than preserving an image of group solidarity.",
+            "translation": "危険な退出条件を認識することは、集団の結束という印象を守ることより重要だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Loyalty is not risk judgment.",
+            "translation": "義理堅さは危険判断ではない。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the safest action is to leave, loyalty should not be used to delay the group.",
+            "translation": "最も安全な行動が退出なら、義理を理由に集団を引き止めるべきではない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What loyalty demonstrates is commitment to the group, not accuracy in judging every risk.",
+            "translation": "義理堅さが示すのは集団への献身であり、あらゆる危険判断の正確さではない。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "sentence": "Someone can be loyal to insiders while remaining poor at evaluating external danger.",
+            "translation": "内集団に義理堅くても、外部の危険を評価するのが苦手な場合がある。",
+            "type": "対照"
+          }
+        ],
+        "vocabulary": [
+          {
+            "alternatives": [
+              "good judgment",
+              "reliable decision-making"
+            ],
+            "nuance": "sound judgmentは妥当性、good judgmentは一般的な良識、reliable decision-makingは再現性を強調する。",
+            "original": "sound judgment"
+          }
+        ]
+      },
+      "structuralShift": [
+        {
+          "note": "印象と判断を受動態で対照させる。",
+          "sentence": "A dependable image can be created by group loyalty, but sound judgment is not guaranteed.",
+          "translation": "頼もしい印象は集団への義理堅さによって生まれうるが、適切な判断は保証されない。",
+          "type": "受動態"
+        },
+        {
+          "note": "印象を分詞句にして判断との差を示す。",
+          "sentence": "Appearing dependable within the group, a person may still misjudge when others should leave.",
+          "translation": "集団内で頼もしく見えても、その人は他者が立ち去るべき時を誤って判断する場合がある。",
+          "type": "分詞構文"
+        },
+        {
+          "note": "loyaltyとjudgmentを名詞化して命題を圧縮する。",
+          "sentence": "In-group loyalty is not evidence of reliable emergency judgment.",
+          "translation": "内集団への忠誠は、信頼できる緊急時判断の証拠ではない。",
+          "type": "名詞化"
+        }
+      ]
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "function": "内容",
+          "text": "Loyalty within a group",
+          "translation": "集団内での義理堅さは"
+        },
+        {
+          "function": "結果",
+          "text": "can make someone seem dependable,",
+          "translation": "その人を頼もしく見せることがある"
+        },
+        {
+          "function": "接続",
+          "text": "but it does not guarantee sound judgment",
+          "translation": "しかし適切な判断を保証しない"
+        },
+        {
+          "text": "when danger requires people to leave",
+          "function": "時間",
+          "translation": "危険によって人々が立ち去る必要があるとき"
+        },
+        {
+          "text": "quickly.",
+          "function": "様態",
+          "translation": "速やかに"
+        }
+      ],
+      "errors": [
+        {
+          "correct": "Loyalty can make someone seem dependable.",
+          "why": "canの後は動詞原形を使い、印象にはseemを加える。",
+          "wrong": "Loyalty can makes someone dependable."
+        },
+        {
+          "correct": "It does not guarantee sound judgment.",
+          "why": "does notの後は動詞原形を使う。",
+          "wrong": "It does not guarantees sound judgment."
+        },
+        {
+          "correct": "Danger requires people to leave quickly.",
+          "why": "require Oの後にはto不定詞を置く。",
+          "wrong": "Danger requires people leave quickly."
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "前置詞",
+          "explanation": "義理堅さが働く集団の内部を示す。",
+          "name": "withinによる範囲",
+          "rule": "within + 名詞",
+          "where": "within a group"
+        },
+        {
+          "category": "助動詞",
+          "explanation": "印象を生みうる可能性を表す。",
+          "name": "可能性のcan",
+          "rule": "can + 動詞原形",
+          "where": "can make"
+        },
+        {
+          "category": "使役",
+          "explanation": "someoneにseemさせる構造を取る。",
+          "name": "make O do",
+          "rule": "make + O + 動詞原形",
+          "where": "make someone seem"
+        },
+        {
+          "category": "補語",
+          "explanation": "頼もしく見える状態を表す。",
+          "name": "seem + 形容詞",
+          "rule": "seem + 形容詞",
+          "where": "seem dependable"
+        },
+        {
+          "category": "接続",
+          "explanation": "印象と判断力を対照させる。",
+          "name": "対照のbut",
+          "rule": "節, but 節",
+          "where": "but it does not guarantee"
+        },
+        {
+          "category": "否定",
+          "explanation": "単数主語itの一般動詞を否定する。",
+          "name": "does not + 動詞原形",
+          "rule": "does not + 動詞原形",
+          "where": "does not guarantee"
+        },
+        {
+          "category": "接続",
+          "explanation": "危険時という条件を示す。",
+          "name": "時・条件のwhen",
+          "rule": "when + S + V",
+          "where": "when danger requires"
+        },
+        {
+          "category": "語法",
+          "explanation": "人々に立ち去る必要があることを示す。",
+          "name": "require O to do",
+          "rule": "require + O + to不定詞",
+          "where": "requires people to leave"
+        }
+      ],
+      "parseTree": "S(Loyalty within a group) Aux(can) V(make) O(someone) C(seem dependable), Conj(but) S(it) Aux(does not) V(guarantee) O(sound judgment) Adv(when S(danger) V(requires) O(people) C(to leave quickly)).",
+      "variants": [
+        {
+          "text": "Being loyal to friends does not automatically make someone good at judging danger.",
+          "translation": "友人に義理堅いことが、危険を適切に判断できることを自動的に意味するわけではない。"
+        },
+        {
+          "text": "A person may be dependable within a group yet make poor decisions during an emergency.",
+          "translation": "集団内では頼れる人でも、緊急時には判断を誤ることがある。"
+        },
+        {
+          "text": "Separate in-group loyalty from the ability to recognize when everyone should leave.",
+          "translation": "集団内の義理堅さと、全員が立ち去るべき時を認識する力を分けよう。"
+        }
+      ]
+    },
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Loyalty does not guarantee judgment.",
+        "translation": "義理堅さは判断力を保証しない。"
+      },
+      "phase2": {
+        "addedChunks": "groupとsoundを追加",
+        "sentence": "Group loyalty does not guarantee sound judgment.",
+        "translation": "集団への忠誠は適切な判断を保証しない。"
+      },
+      "phase3": {
+        "connector": "but",
+        "sentence": "Loyalty builds trust, but it does not guarantee judgment.",
+        "translation": "義理堅さは信頼を築くが、判断力を保証しない。"
+      },
+      "phase4": {
+        "comparison": "more than",
+        "sentence": "Sound judgment matters more than a dependable image during danger.",
+        "translation": "危険時には、頼もしい印象より適切な判断の方が重要だ。"
+      },
+      "phase5": {
+        "relativizer": "none",
+        "sentence": "Loyalty within a group can make someone seem dependable,",
+        "translation": "集団内での義理堅さは、その人を頼もしく見せることがある。"
+      }
+    },
+    "japaneseTranslation": "集団内での義理堅さは、その人を頼もしく見せることがある。しかし、危険によって人々が速やかに立ち去る必要があるとき、適切な判断まで保証するものではない。",
+    "phonetic": "ロイヤルティ ウィズイン ア グループ キャン メイク サムワン スィーム ディペンダブル、バット イット ダズ ノット ギャランティー サウンド ジャッジメント ウェン デインジャー リクワイアズ ピープル トゥ リーヴ クイックリー。",
+    "scores": {
+      "clarity": 9,
+      "comment": "印象と能力を明確に分離している。loyaltyの対象や危険の種類は文脈で補う必要がある。",
+      "efficiency": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "naturalness": 9
+    },
+    "sentence": "Loyalty within a group can make someone seem dependable, but it does not guarantee sound judgment when danger requires people to leave quickly.",
+    "theme": "集団内の義理堅さと危機時の判断力を分ける"
+  },
+  {
+    "_generatedAt": "2026-09-17T02:02:27+09:00",
+    "_no": 134,
+    "coreVerb": "protect",
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "expanded": "because successful prevention often leaves no dramatic event to observe",
+          "nuance": "予防の成功が目立つ事件を残さない理由を示す。",
+          "original": "may attract less attention"
+        },
+        {
+          "expanded": "since a usable exit lets people act before rescue becomes necessary",
+          "nuance": "救援が必要になる前に行動できる因果を示す。",
+          "original": "quiet prevention can protect more people"
+        },
+        {
+          "expanded": "so that delay and crowd pressure do not compound the danger",
+          "nuance": "遅延と集団圧力による危険増幅を避ける目的を示す。",
+          "original": "before a crisis escalates"
+        }
+      ],
+      "expressionNetwork": {
+        "comparison": [
+          {
+            "sentence": "Keeping an exit usable can protect more people than performing a dramatic intervention after it is blocked.",
+            "translation": "退出経路を使える状態に保つ方が、塞がれた後に劇的な介入をするより多くの人を守りうる。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Prevention is quieter than rescue.",
+            "translation": "予防は救援より静かだ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If people can leave early, the situation may never require a heroic rescue.",
+            "translation": "人々が早く退出できれば、状況は英雄的救援を必要とする段階に至らないかもしれない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What deserves attention is the open exit that made the rescue unnecessary.",
+            "translation": "注目に値するのは、救援を不要にした開かれた退出経路だ。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "sentence": "Preventive work is less visible than rescue, yet it may stop the emergency from forming.",
+            "translation": "予防作業は救援より目立たないが、緊急事態の発生自体を止める場合がある。",
+            "type": "比較と逆接"
+          }
+        ],
+        "vocabulary": [
+          {
+            "alternatives": [
+              "unobtrusive prevention",
+              "low-visibility safety work"
+            ],
+            "nuance": "quietは目立たなさ、unobtrusiveは邪魔にならない性質、low-visibilityは評価されにくさを強調する。",
+            "original": "quiet prevention"
+          }
+        ]
+      },
+      "structuralShift": [
+        {
+          "note": "守られる人々を主語にして予防効果を強調する。",
+          "sentence": "More people may be protected when a safe exit is quietly kept open before the crisis escalates.",
+          "translation": "危機が深刻化する前に安全な退出経路が静かに確保されれば、より多くの人が守られうる。",
+          "type": "受動態"
+        },
+        {
+          "note": "予防行動を分詞句で前置する。",
+          "sentence": "Keeping the exit open, a quiet organizer may prevent the need for a dramatic rescue.",
+          "translation": "退出経路を開けておくことで、目立たない運営者は劇的な救援の必要を防げる場合がある。",
+          "type": "分詞構文"
+        },
+        {
+          "note": "keepとinterveneを名詞化して関係を圧縮する。",
+          "sentence": "Preservation of a clear exit can reduce the need for visible crisis intervention.",
+          "translation": "明確な退出経路の確保は、目に見える危機介入の必要を減らしうる。",
+          "type": "名詞化"
+        }
+      ]
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "function": "内容",
+          "text": "Someone who keeps an exit open",
+          "translation": "退出経路を開けておく人は"
+        },
+        {
+          "function": "比較",
+          "text": "may attract less attention",
+          "translation": "より少ない注目しか集めないかもしれない"
+        },
+        {
+          "function": "比較",
+          "text": "than a dramatic rescuer,",
+          "translation": "劇的な救援者よりも"
+        },
+        {
+          "function": "接続",
+          "text": "yet quiet prevention can protect more people",
+          "translation": "それでも目立たない予防はより多くの人を守りうる"
+        },
+        {
+          "function": "時間",
+          "text": "before a crisis escalates.",
+          "translation": "危機が深刻化する前に"
+        }
+      ],
+      "errors": [
+        {
+          "correct": "Someone who keeps an exit open",
+          "why": "先行詞someoneは単数なのでkeepsを使う。",
+          "wrong": "Someone who keep an exit open"
+        },
+        {
+          "correct": "may attract less attention",
+          "why": "助動詞mayの後は動詞原形を使う。",
+          "wrong": "may attracts less attention"
+        },
+        {
+          "correct": "before a crisis escalates",
+          "why": "単数主語a crisisにはescalatesを用いる。",
+          "wrong": "before a crisis escalate"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "関係詞",
+          "explanation": "who以下がsomeoneの行動を説明する。",
+          "name": "主格のwho",
+          "rule": "人 + who + 動詞",
+          "where": "Someone who keeps an exit open"
+        },
+        {
+          "category": "補語",
+          "explanation": "exitをopenの状態に保つ。",
+          "name": "keep O C",
+          "rule": "keep + O + 形容詞",
+          "where": "keeps an exit open"
+        },
+        {
+          "category": "助動詞",
+          "explanation": "注目度について断定を避ける。",
+          "name": "可能性のmay",
+          "rule": "may + 動詞原形",
+          "where": "may attract"
+        },
+        {
+          "category": "比較",
+          "explanation": "二者が集める注目の量を比較する。",
+          "name": "less A than B",
+          "rule": "less + 名詞 + than",
+          "where": "less attention than a dramatic rescuer"
+        },
+        {
+          "category": "接続",
+          "explanation": "前半と異なる評価軸を導入する。",
+          "name": "逆接のyet",
+          "rule": "節, yet 節",
+          "where": "yet quiet prevention"
+        },
+        {
+          "category": "助動詞",
+          "explanation": "予防が人を守りうることを示す。",
+          "name": "可能性のcan",
+          "rule": "can + 動詞原形",
+          "where": "can protect"
+        },
+        {
+          "category": "比較",
+          "explanation": "守られる人数が多いことを表す。",
+          "name": "more + 複数名詞",
+          "rule": "more + 複数名詞",
+          "where": "more people"
+        },
+        {
+          "category": "接続",
+          "explanation": "危機が深刻化するより前の時間関係を示す。",
+          "name": "before節",
+          "rule": "before + S + V",
+          "where": "before a crisis escalates"
+        },
+        {
+          "category": "一致",
+          "explanation": "単数主語crisisにescalatesを用いる。",
+          "name": "三人称単数現在",
+          "rule": "単数主語 + 動詞-s",
+          "where": "a crisis escalates"
+        }
+      ],
+      "parseTree": "S(Someone Rel[who V(keeps) O(an exit) C(open)]) Aux(may) V(attract) O(less attention than a dramatic rescuer), Conj(yet) S(quiet prevention) Aux(can) V(protect) O(more people) Adv(before S(a crisis) V(escalates)).",
+      "variants": [
+        {
+          "text": "Keeping the exit clear may prevent more harm than arriving later as a visible rescuer.",
+          "translation": "退出経路を空けておく方が、後から目立つ救援者として現れるより多くの被害を防ぐ場合がある。"
+        },
+        {
+          "text": "Quiet preventive work often receives less credit because success looks like nothing happened.",
+          "translation": "静かな予防作業は、成功すると何も起きなかったように見えるため、評価されにくいことが多い。"
+        },
+        {
+          "text": "Do not confuse visible crisis response with the less visible work of preserving a safe exit.",
+          "translation": "目に見える危機対応と、安全な退出経路を保つ目立たない作業を混同してはいけない。"
+        }
+      ]
+    },
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Prevention protects people.",
+        "translation": "予防は人々を守る。"
+      },
+      "phase2": {
+        "addedChunks": "形容詞quietと比較表現moreを追加",
+        "sentence": "Quiet prevention protects more people.",
+        "translation": "目立たない予防はより多くの人を守る。"
+      },
+      "phase3": {
+        "connector": "yet",
+        "sentence": "Rescue attracts attention, yet prevention protects people.",
+        "translation": "救援は注目を集めるが、予防は人々を守る。"
+      },
+      "phase4": {
+        "comparison": "more attention than",
+        "sentence": "A dramatic rescuer attracts more attention than someone who keeps an exit open.",
+        "translation": "劇的な救援者は、退出経路を開けておく人より注目を集める。"
+      },
+      "phase5": {
+        "relativizer": "who",
+        "sentence": "Someone who keeps an exit open may attract less attention than a dramatic rescuer,",
+        "translation": "退出経路を開けておく人は、劇的な救援者ほど注目を集めないかもしれない。"
+      }
+    },
+    "japaneseTranslation": "退出経路を開けておく人は、劇的な救援者ほど注目を集めないかもしれない。それでも、目立たない予防は、危機が深刻化する前により多くの人を守りうる。",
+    "phonetic": "サムワン フー キープス アン エグズィット オープン メイ アトラクト レス アテンション ザン ア ドラマティック レスキューアー、イェット クワイエット プリヴェンション キャン プロテクト モア ピープル ビフォー ア クライシス エスカレイツ。",
+    "scores": {
+      "clarity": 9,
+      "comment": "予防と救援の可視性の差を比較で明確にした。人数への効果は状況依存なのでmayとcanで断定を避けている。",
+      "efficiency": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "naturalness": 9
+    },
+    "sentence": "Someone who keeps an exit open may attract less attention than a dramatic rescuer, yet quiet prevention can protect more people before a crisis escalates.",
+    "theme": "目立つ救援より静かな退出確保を評価する"
+  }
+]
