@@ -1,0 +1,734 @@
+[
+  {
+    "_generatedAt": "2026-09-18T01:58:38+09:00",
+    "_no": 135,
+    "coreVerb": "prove",
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "expanded": "because criticism can be published, performed, and sold",
+          "nuance": "批判も複数の市場経路を通る理由を示す。",
+          "original": "can circulate as a product"
+        },
+        {
+          "expanded": "since distribution and validity use different standards",
+          "nuance": "流通と妥当性が別基準であることを補う。",
+          "original": "does not automatically prove that the criticism is false"
+        },
+        {
+          "expanded": "so the audience should examine both incentives and arguments",
+          "nuance": "動機と論旨を分けて検討する必要を示す。",
+          "original": "commercial success"
+        }
+      ],
+      "expressionNetwork": {
+        "comparison": [
+          {
+            "sentence": "The strength of the reasoning matters more than the popularity of the product.",
+            "translation": "論理の強さは、商品の人気より重要だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Profit does not refute criticism.",
+            "translation": "利益は批判を反証しない。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a critique earns money, examine the incentive without treating profit as a refutation.",
+            "translation": "批判が収益を得るなら、その利益を反証とみなさず動機を検討しよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What sales demonstrate is demand, not the truth or falsity of the argument.",
+            "translation": "売上が示すのは需要であり、議論の真偽ではない。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "sentence": "A critique may succeed commercially while remaining logically independent of that success.",
+            "translation": "批判は商業的に成功しても、その成功とは論理的に独立している場合がある。",
+            "type": "対照"
+          }
+        ],
+        "vocabulary": [
+          {
+            "alternatives": [
+              "market success",
+              "sales performance"
+            ],
+            "nuance": "commercial successは収益面全般、market successは市場受容、sales performanceは売上実績に焦点を置く。",
+            "original": "commercial success"
+          }
+        ]
+      },
+      "structuralShift": [
+        {
+          "note": "販売と反証を受動態で分離する。",
+          "sentence": "Market criticism can be sold without its claims being disproved.",
+          "translation": "市場批判は、その主張が反証されなくても販売されうる。",
+          "type": "受動態"
+        },
+        {
+          "note": "流通状態を分詞句で示す。",
+          "sentence": "Circulating as a product, market criticism may still present a valid argument.",
+          "translation": "商品として流通しながらも、市場批判は妥当な議論を提示する場合がある。",
+          "type": "分詞構文"
+        },
+        {
+          "note": "commercializeとinvalidを名詞化する。",
+          "sentence": "The commercialization of criticism does not establish the invalidity of its claims.",
+          "translation": "批判の商品化は、その主張の無効性を確定しない。",
+          "type": "名詞化"
+        }
+      ]
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "function": "行動",
+          "text": "Market criticism can circulate",
+          "translation": "市場批判は流通しうる"
+        },
+        {
+          "function": "様態",
+          "text": "as a product,",
+          "translation": "商品として"
+        },
+        {
+          "function": "接続",
+          "text": "but its commercial success",
+          "translation": "しかしその商業的成功は"
+        },
+        {
+          "function": "行動",
+          "text": "does not automatically prove",
+          "translation": "自動的に証明するわけではない"
+        },
+        {
+          "function": "内容",
+          "text": "that the criticism is false or harmless.",
+          "translation": "批判が誤りまたは無害であることを"
+        }
+      ],
+      "errors": [
+        {
+          "correct": "Market criticism can circulate as a product.",
+          "why": "canの後は動詞原形を使う。",
+          "wrong": "Market criticism can circulates as a product."
+        },
+        {
+          "correct": "Its commercial success does not prove the claim.",
+          "why": "単数主語successにはdoesを使う。",
+          "wrong": "Its commercial success do not prove the claim."
+        },
+        {
+          "correct": "prove that the criticism is false",
+          "why": "内容を明確に導くにはthat節を用いる。",
+          "wrong": "prove the criticism is false"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "explanation": "商品として流通しうる可能性を示す。",
+          "name": "可能性のcan",
+          "rule": "can + 動詞原形",
+          "where": "can circulate"
+        },
+        {
+          "category": "前置詞",
+          "explanation": "どのような形で流通するかを示す。",
+          "name": "asによる役割",
+          "rule": "as + 名詞",
+          "where": "as a product"
+        },
+        {
+          "category": "接続",
+          "explanation": "流通可能性と真偽判定を対照させる。",
+          "name": "対照のbut",
+          "rule": "節, but 節",
+          "where": "but its commercial success"
+        },
+        {
+          "category": "所有格",
+          "explanation": "market criticismの商業的成功を示す。",
+          "name": "its + 名詞",
+          "rule": "its + 名詞",
+          "where": "its commercial success"
+        },
+        {
+          "category": "否定",
+          "explanation": "単数主語successの一般動詞を否定する。",
+          "name": "does not + 動詞原形",
+          "rule": "does not + 動詞原形",
+          "where": "does not automatically prove"
+        },
+        {
+          "category": "副詞",
+          "explanation": "成功から結論が自動的に出るわけではないと限定する。",
+          "name": "automatically",
+          "rule": "副詞 + 動詞",
+          "where": "automatically prove"
+        },
+        {
+          "category": "名詞節",
+          "explanation": "証明される内容をthat節で示す。",
+          "name": "prove that節",
+          "rule": "prove that + S + V",
+          "where": "prove that the criticism is false"
+        },
+        {
+          "category": "並列",
+          "explanation": "二つの形容詞を同じ位置で並べる。",
+          "name": "orによる補語の並列",
+          "rule": "形容詞 + or + 形容詞",
+          "where": "false or harmless"
+        }
+      ],
+      "parseTree": "S(Market criticism) Aux(can) V(circulate) C(as a product), Conj(but) S(its commercial success) Aux(does not) Adv(automatically) V(prove) O(that S(the criticism) V(is) C(false or harmless)).",
+      "variants": [
+        {
+          "text": "A criticism does not become false simply because it sells well.",
+          "translation": "批判は、よく売れたというだけで誤りになるわけではない。"
+        },
+        {
+          "text": "Commercial circulation and argumentative validity are separate questions.",
+          "translation": "商業的流通と議論の妥当性は別の問題だ。"
+        },
+        {
+          "text": "Judge a market critique by its reasoning, not only by the revenue it generates.",
+          "translation": "市場批判は、それが生む収益だけでなく論理によって判断しよう。"
+        }
+      ]
+    },
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Success does not prove falsehood.",
+        "translation": "成功は誤りを証明しない。"
+      },
+      "phase2": {
+        "addedChunks": "commercialとthat節を追加",
+        "sentence": "Commercial success does not prove that criticism is false.",
+        "translation": "商業的成功は、批判が誤りだと証明しない。"
+      },
+      "phase3": {
+        "connector": "but",
+        "sentence": "Criticism can be sold, but sales do not settle its truth.",
+        "translation": "批判は売れるが、売上はその真偽を決めない。"
+      },
+      "phase4": {
+        "comparison": "more than",
+        "sentence": "The argument matters more than its sales figures.",
+        "translation": "その議論は売上数字より重要だ。"
+      },
+      "phase5": {
+        "relativizer": "none",
+        "sentence": "Market criticism can circulate as a product,",
+        "translation": "市場批判は商品として流通しうる。"
+      }
+    },
+    "japaneseTranslation": "市場批判は商品として流通しうるが、その商業的成功だけで、批判が誤りであることや無害であることが自動的に証明されるわけではない。",
+    "phonetic": "マーケット クリティシズム キャン サーキュレイト アズ ア プロダクト、バット イッツ コマーシャル サクセス ダズ ノット オートマティカリー プルーヴ ザット ザ クリティシズム イズ フォールス オア ハームレス。",
+    "scores": {
+      "clarity": 9,
+      "comment": "商品化と真偽を短く分離できている。harmlessは影響評価の語なので、用途によってinvalidへの置換も有効。",
+      "efficiency": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "naturalness": 9
+    },
+    "sentence": "Market criticism can circulate as a product, but its commercial success does not automatically prove that the criticism is false or harmless.",
+    "theme": "市場批判の商品化と批判内容の妥当性を分ける"
+  },
+  {
+    "_generatedAt": "2026-09-18T01:58:38+09:00",
+    "_no": 136,
+    "coreVerb": "spread",
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "expanded": "because these forms lower the barrier of the original language",
+          "nuance": "原語の障壁を下げる理由を示す。",
+          "original": "reaches readers through translation and performance"
+        },
+        {
+          "expanded": "since audiences can repeat phrases, scenes, and styles",
+          "nuance": "言葉や場面の反復が影響を運ぶことを補う。",
+          "original": "cultural influence can spread"
+        },
+        {
+          "expanded": "so reception can precede formal scholarship",
+          "nuance": "受容が正式な学習に先行する結果を示す。",
+          "original": "before most people study the original language"
+        }
+      ],
+      "expressionNetwork": {
+        "comparison": [
+          {
+            "sentence": "A performed translation may reach a broader audience than an untranslated edition.",
+            "translation": "上演される翻訳は、未翻訳版より広い観客に届く場合がある。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Reception can precede direct study.",
+            "translation": "受容は直接研究に先行しうる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a translation is widely performed, its phrases may become familiar before the source is read.",
+            "translation": "翻訳が広く上演されれば、原典が読まれる前にその言い回しが親しまれる場合がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What spreads first may be the adapted performance rather than the original wording.",
+            "translation": "最初に広がるのは、原文の言い回しではなく翻案された上演かもしれない。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "sentence": "A work enters another culture through translators, performers, publishers, and audiences.",
+            "translation": "作品は翻訳者、演者、出版社、観客を通して別の文化へ入る。",
+            "type": "経路"
+          }
+        ],
+        "vocabulary": [
+          {
+            "alternatives": [
+              "cultural impact",
+              "cultural transmission"
+            ],
+            "nuance": "influenceは広い作用、impactは強い効果、transmissionは伝達過程に焦点を置く。",
+            "original": "cultural influence"
+          }
+        ]
+      },
+      "structuralShift": [
+        {
+          "note": "作品を受容される側として述べる。",
+          "sentence": "Foreign literature can be received through translation and performance before its original language is widely studied.",
+          "translation": "外国文学は、原語が広く学ばれる前に翻訳と上演を通して受容されうる。",
+          "type": "受動態"
+        },
+        {
+          "note": "到達経路を分詞句で前置する。",
+          "sentence": "Reaching audiences through translation and performance, a foreign work may influence culture before formal study begins.",
+          "translation": "翻訳と上演を通して観客に届くことで、外国作品は正式な学習が始まる前に文化へ影響しうる。",
+          "type": "分詞構文"
+        },
+        {
+          "note": "translateとperformを名詞化する。",
+          "sentence": "The translation and performance of foreign literature enable cultural influence before direct study of the source.",
+          "translation": "外国文学の翻訳と上演は、原典の直接研究より前に文化的影響を可能にする。",
+          "type": "名詞化"
+        }
+      ]
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "function": "時間",
+          "text": "When foreign literature reaches readers",
+          "translation": "外国文学が読者に届くと"
+        },
+        {
+          "function": "様態",
+          "text": "through translation and performance,",
+          "translation": "翻訳と上演を通じて"
+        },
+        {
+          "function": "結果",
+          "text": "cultural influence can spread",
+          "translation": "文化的影響が広がりうる"
+        },
+        {
+          "function": "時間",
+          "text": "before most people study",
+          "translation": "多くの人が学ぶより先に"
+        },
+        {
+          "function": "対象",
+          "text": "the original language or historical context.",
+          "translation": "原語または歴史的背景を"
+        }
+      ],
+      "errors": [
+        {
+          "correct": "Foreign literature reaches readers.",
+          "why": "literatureは単数扱いなのでreachesを使う。",
+          "wrong": "Foreign literature reach readers."
+        },
+        {
+          "correct": "through translation and performance",
+          "why": "前置詞throughの後には名詞を置く。",
+          "wrong": "through translate and performance"
+        },
+        {
+          "correct": "before most people study the language",
+          "why": "peopleは複数なのでstudyを使う。",
+          "wrong": "before most people studies the language"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "explanation": "文化が届く条件をwhen節で示す。",
+          "name": "条件を表すwhen",
+          "rule": "When + S + V, S + V",
+          "where": "When foreign literature reaches readers"
+        },
+        {
+          "category": "一致",
+          "explanation": "不可算名詞literatureを単数としてreachesを使う。",
+          "name": "三人称単数現在",
+          "rule": "単数主語 + 動詞-s",
+          "where": "literature reaches"
+        },
+        {
+          "category": "前置詞",
+          "explanation": "受容の経路を表す。",
+          "name": "throughによる手段",
+          "rule": "through + 名詞",
+          "where": "through translation and performance"
+        },
+        {
+          "category": "並列",
+          "explanation": "二つの経路を同じ位置に置く。",
+          "name": "andによる名詞並列",
+          "rule": "名詞 + and + 名詞",
+          "where": "translation and performance"
+        },
+        {
+          "category": "助動詞",
+          "explanation": "影響が広がりうることを示す。",
+          "name": "可能性のcan",
+          "rule": "can + 動詞原形",
+          "where": "can spread"
+        },
+        {
+          "category": "接続",
+          "explanation": "学習より先に起こることを示す。",
+          "name": "before節",
+          "rule": "before + S + V",
+          "where": "before most people study"
+        },
+        {
+          "category": "限定詞",
+          "explanation": "大多数を一般的に示す。",
+          "name": "most + 複数名詞",
+          "rule": "most + 複数名詞",
+          "where": "most people"
+        },
+        {
+          "category": "並列",
+          "explanation": "二つの学習対象を並べる。",
+          "name": "orによる目的語並列",
+          "rule": "名詞句 + or + 名詞句",
+          "where": "the original language or historical context"
+        }
+      ],
+      "parseTree": "Adv(When S(foreign literature) V(reaches) O(readers) Adv(through translation and performance)), S(cultural influence) Aux(can) V(spread) Adv(before S(most people) V(study) O(the original language or historical context)).",
+      "variants": [
+        {
+          "text": "Translation and performance can spread a work before audiences learn its original language.",
+          "translation": "翻訳と上演は、観客が原語を学ぶ前に作品を広めうる。"
+        },
+        {
+          "text": "Many readers encounter foreign literature through adapted forms rather than the original text.",
+          "translation": "多くの読者は原文ではなく翻案された形を通して外国文学に出会う。"
+        },
+        {
+          "text": "Cultural influence often arrives through mediation, not direct access to the source.",
+          "translation": "文化的影響は、原典への直接接触ではなく媒介を通して届くことが多い。"
+        }
+      ]
+    },
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Influence can spread.",
+        "translation": "影響は広がりうる。"
+      },
+      "phase2": {
+        "addedChunks": "culturalとthrough translationを追加",
+        "sentence": "Cultural influence can spread through translation.",
+        "translation": "文化的影響は翻訳を通じて広がりうる。"
+      },
+      "phase3": {
+        "connector": "so",
+        "sentence": "Few readers know the original language, so translation carries the work.",
+        "translation": "原語を知る読者は少ないため、翻訳が作品を運ぶ。"
+      },
+      "phase4": {
+        "comparison": "more people than",
+        "sentence": "A performed translation may reach more people than an untranslated text.",
+        "translation": "上演される翻訳は、未翻訳の文章より多くの人に届く場合がある。"
+      },
+      "phase5": {
+        "relativizer": "when",
+        "sentence": "When foreign literature reaches readers through translation and performance,",
+        "translation": "外国文学が翻訳と上演を通じて読者に届くと、"
+      }
+    },
+    "japaneseTranslation": "外国文学が翻訳と上演を通じて読者に届くと、多くの人が原語や歴史的背景を学ぶより先に、文化的影響が広がりうる。",
+    "phonetic": "ウェン フォーリン リタラチャー リーチズ リーダーズ スルー トランスレイション アンド パフォーマンス、カルチュラル インフルエンス キャン スプレッド ビフォー モウスト ピープル スタディ ジ オリジナル ラングウィッジ オア ヒストリカル コンテクスト。",
+    "scores": {
+      "clarity": 9,
+      "comment": "受容経路と正式学習の時間差を明確にした。foreign literatureは広い語なので、実例では作品名を補うと焦点が上がる。",
+      "efficiency": 8,
+      "flexibility": 9,
+      "focus": 9,
+      "naturalness": 9
+    },
+    "sentence": "When foreign literature reaches readers through translation and performance, cultural influence can spread before most people study the original language or historical context.",
+    "theme": "翻訳と上演を文化受容の経路として捉える"
+  },
+  {
+    "_generatedAt": "2026-09-18T01:58:38+09:00",
+    "_no": 137,
+    "coreVerb": "carry",
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "expanded": "because listeners can repeat a short refrain without reading a long argument",
+          "nuance": "長い議論を読まずに反復できる理由を示す。",
+          "original": "carry political language farther"
+        },
+        {
+          "expanded": "since recurring sound patterns support recall",
+          "nuance": "反復する音型が想起を支えることを補う。",
+          "original": "rhythm makes the message easier to remember"
+        },
+        {
+          "expanded": "so the message can move from one audience to another",
+          "nuance": "上演可能性が別の観客へ伝達する結果を示す。",
+          "original": "easier to perform"
+        }
+      ],
+      "expressionNetwork": {
+        "comparison": [
+          {
+            "sentence": "A catchy refrain is easier to repeat collectively than a long analytical essay.",
+            "translation": "覚えやすいリフレインは、長い分析的論考より集団で反復しやすい。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Rhythm carries repeatable language.",
+            "translation": "リズムは反復可能な言葉を運ぶ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a message fits a repeated rhythm, audiences may remember it after a single performance.",
+            "translation": "メッセージが反復リズムに合えば、観客は一度の上演後にも覚えている場合がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What extends the message is its repeatability, not merely its length.",
+            "translation": "メッセージを広げるのは、単なる短さではなく反復可能性だ。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "sentence": "Repetition increases recall, so a short political phrase can travel through performance.",
+            "translation": "反復は想起を高めるため、短い政治的表現は上演を通して伝わりうる。",
+            "type": "因果"
+          }
+        ],
+        "vocabulary": [
+          {
+            "alternatives": [
+              "chorus",
+              "recurring line"
+            ],
+            "nuance": "refrainは反復句全般、chorusは楽曲のサビ、recurring lineは繰り返す一行を指す。",
+            "original": "refrain"
+          }
+        ]
+      },
+      "structuralShift": [
+        {
+          "note": "political languageを主語にする。",
+          "sentence": "Political language can be carried widely by a refrain that is easy to remember and perform.",
+          "translation": "政治的な言葉は、覚えて演じやすいリフレインによって広く運ばれうる。",
+          "type": "受動態"
+        },
+        {
+          "note": "手段を分詞句で前置する。",
+          "sentence": "Using rhythm and repetition, a refrain can make a political message easier to recall.",
+          "translation": "リズムと反復を使うことで、リフレインは政治的メッセージを思い出しやすくできる。",
+          "type": "分詞構文"
+        },
+        {
+          "note": "rememberとperformを名詞化する。",
+          "sentence": "The memorability and performability of a refrain can extend the reach of political language.",
+          "translation": "リフレインの記憶しやすさと上演しやすさは、政治的な言葉の到達範囲を広げうる。",
+          "type": "名詞化"
+        }
+      ]
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "function": "内容",
+          "text": "A repeated refrain",
+          "translation": "反復されるリフレインは"
+        },
+        {
+          "function": "行動",
+          "text": "can carry political language",
+          "translation": "政治的な言葉を運びうる"
+        },
+        {
+          "function": "比較",
+          "text": "farther than a formal essay",
+          "translation": "形式的な論考より遠くまで"
+        },
+        {
+          "function": "理由",
+          "text": "because rhythm makes the message",
+          "translation": "リズムがメッセージを"
+        },
+        {
+          "function": "結果",
+          "text": "easier to remember and perform.",
+          "translation": "覚え、演じやすくするため"
+        }
+      ],
+      "errors": [
+        {
+          "correct": "A repeated refrain can carry language.",
+          "why": "canの後は動詞原形を使う。",
+          "wrong": "A repeated refrain can carries language."
+        },
+        {
+          "correct": "farther than a formal essay",
+          "why": "比較にはthanを使い、thenと区別する。",
+          "wrong": "farther then a formal essay"
+        },
+        {
+          "correct": "Rhythm makes the message easier to remember.",
+          "why": "make O Cでは補語に形容詞の比較級easierを使う。",
+          "wrong": "Rhythm makes the message easily to remember."
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "修飾",
+          "explanation": "repeatedがrefrainを修飾する。",
+          "name": "過去分詞による前置修飾",
+          "rule": "過去分詞 + 名詞",
+          "where": "repeated refrain"
+        },
+        {
+          "category": "助動詞",
+          "explanation": "言葉を運びうる可能性を示す。",
+          "name": "可能性のcan",
+          "rule": "can + 動詞原形",
+          "where": "can carry"
+        },
+        {
+          "category": "比較",
+          "explanation": "到達範囲を論考と比較する。",
+          "name": "farther than",
+          "rule": "比較級 + than",
+          "where": "farther than a formal essay"
+        },
+        {
+          "category": "接続",
+          "explanation": "前半の理由を導く。",
+          "name": "理由のbecause",
+          "rule": "because + S + V",
+          "where": "because rhythm makes"
+        },
+        {
+          "category": "使役",
+          "explanation": "メッセージをより容易な状態にする。",
+          "name": "make O C",
+          "rule": "make + O + 形容詞",
+          "where": "makes the message easier"
+        },
+        {
+          "category": "比較",
+          "explanation": "easyの比較級で容易さの増加を表す。",
+          "name": "形容詞の比較級",
+          "rule": "形容詞-er",
+          "where": "easier"
+        },
+        {
+          "category": "不定詞",
+          "explanation": "何をするのが容易かを示す。",
+          "name": "形容詞を補うto不定詞",
+          "rule": "形容詞 + to不定詞",
+          "where": "easier to remember"
+        },
+        {
+          "category": "並列",
+          "explanation": "二つの行為を同じtoに結びつける。",
+          "name": "動詞原形の並列",
+          "rule": "to + 動詞 and 動詞",
+          "where": "remember and perform"
+        }
+      ],
+      "parseTree": "S(A repeated refrain) Aux(can) V(carry) O(political language) Adv(farther than a formal essay) Adv(because S(rhythm) V(makes) O(the message) C(easier to remember and perform)).",
+      "variants": [
+        {
+          "text": "A memorable chorus can spread a political phrase beyond the audience of a formal essay.",
+          "translation": "覚えやすいコーラスは、政治的な言葉を形式的な論考の読者層より広く伝えうる。"
+        },
+        {
+          "text": "Rhythm and repetition turn an argument into language that people can recall and perform.",
+          "translation": "リズムと反復は、議論を人々が思い出して演じられる言葉へ変える。"
+        },
+        {
+          "text": "A short refrain may carry an idea farther because listeners can repeat it together.",
+          "translation": "短いリフレインは、聞き手が一緒に反復できるため、考えをより遠くへ運ぶ場合がある。"
+        }
+      ]
+    },
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A refrain carries language.",
+        "translation": "リフレインは言葉を運ぶ。"
+      },
+      "phase2": {
+        "addedChunks": "repeatedとpoliticalを追加",
+        "sentence": "A repeated refrain carries political language.",
+        "translation": "反復されるリフレインは政治的な言葉を運ぶ。"
+      },
+      "phase3": {
+        "connector": "because",
+        "sentence": "A refrain spreads because rhythm supports memory.",
+        "translation": "リフレインは、リズムが記憶を支えるため広がる。"
+      },
+      "phase4": {
+        "comparison": "farther than",
+        "sentence": "A refrain can travel farther than a formal essay.",
+        "translation": "リフレインは形式的な論考より遠くまで伝わりうる。"
+      },
+      "phase5": {
+        "relativizer": "none",
+        "sentence": "A repeated refrain can carry political language farther than a formal essay",
+        "translation": "反復されるリフレインは、形式的な論考より遠くまで政治的な言葉を運びうる。"
+      }
+    },
+    "japaneseTranslation": "反復されるリフレインは、形式的な論考より遠くまで政治的な言葉を運びうる。なぜなら、リズムによってメッセージを覚え、演じることが容易になるからだ。",
+    "phonetic": "ア リピーティッド リフレイン キャン キャリー ポリティカル ラングウィッジ ファーザー ザン ア フォーマル エッセイ ビコーズ リズム メイクス ザ メッセージ イージアー トゥ リメンバー アンド パフォーム。",
+    "scores": {
+      "clarity": 9,
+      "comment": "比較とbecause節で伝播の仕組みを簡潔に示した。到達範囲は媒体と観客に左右されるためcanで限定している。",
+      "efficiency": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "naturalness": 9
+    },
+    "sentence": "A repeated refrain can carry political language farther than a formal essay because rhythm makes the message easier to remember and perform.",
+    "theme": "反復とリズムが政治的言葉を広げる仕組みを捉える"
+  }
+]
