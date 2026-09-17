@@ -151,5 +151,12 @@
     "description": "友人の多さ、内集団の義理、危機時に塞がる退路、目立つ救援と見えない予防を通して、善意を出口の開放から考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260916/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260917",
+    "title": "言葉は売られながら遠くへ行く",
+    "description": "オッペケペー節の反復、翻訳と上演、市場批判の商品化、政治語を運ぶリズムを通して、言葉が変形と矛盾を引き受けながら広がる過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260917/manifest.json",
+    "mode": "essay-translation"
   }
 ]
