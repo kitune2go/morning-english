@@ -1,0 +1,191 @@
+[
+  {
+    "id": "DE-20260918-001",
+    "sourceTitle": "数字は鏡のままではいられない",
+    "workId": "daily-essay-20260918",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "別々の窓に映る会社",
+    "jp": "同じ組織にいても、部署が違えば見ている数字は違う。売上を追う窓、費用を抑える窓、遅れや不具合を数える窓は、それぞれ現実の一部を鮮明にする。しかし、数字が精密になるほど、窓の外側は見えにくくなることもある。一方の改善が他方の負担として現れるとき、誰も嘘をついていないのに、会議には食い違う会社像が並ぶ。共通の表を作るだけでは足りない。数字どうしの因果を翻訳する仕事が要る。",
+    "translationLiteral": "Even within the same organization, different departments look at different numbers. Windows that follow sales, restrain costs, or count delays and defects each make one part of reality clear. Yet as numbers become more precise, what lies outside each window can become harder to see. When one side's improvement appears as another side's burden, conflicting images of the company line up in a meeting even though no one is lying. Making a shared table is not enough. The causal relations among the numbers must also be translated.",
+    "translationNatural": "Departments inside one organization often inhabit different numerical worlds. Sales, costs, delays, and defects each illuminate a slice of reality while pushing other consequences out of view. An improvement on one dashboard may reappear as a burden on another, so honest reports can still produce incompatible portraits of the same company. A common table will not resolve that gap unless someone translates the causal links between the figures.",
+    "imageUrl": "",
+    "imageCaption": "同じ建物の各窓に異なる数字が浮かび、一つの会社が複数の輪郭へ分かれて見える。",
+    "imagePrompt": "An organization seen through several office windows, each window revealing different abstract metrics and a different outline of the same company, refined literary editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Departments inside one organization often inhabit different numerical worlds.",
+        "ja": "同じ組織の部署が異なる数字の世界に住むことがある"
+      },
+      {
+        "en": "Sales, costs, delays, and defects each illuminate a slice of reality",
+        "ja": "売上、費用、遅れ、不具合はそれぞれ現実の一部を照らす"
+      },
+      {
+        "en": "while pushing other consequences out of view.",
+        "ja": "その一方で別の結果を視界の外へ押し出す"
+      },
+      {
+        "en": "An improvement on one dashboard may reappear as a burden on another,",
+        "ja": "一つの指標上の改善が別の指標では負担として再び現れることがある"
+      },
+      {
+        "en": "so honest reports can still produce incompatible portraits of the same company.",
+        "ja": "そのため誠実な報告でも同じ会社について両立しない像を作りうる"
+      },
+      {
+        "en": "A common table will not resolve that gap unless someone translates the causal links between the figures.",
+        "ja": "誰かが数字間の因果を翻訳しない限り、共通表だけでは隔たりは埋まらない"
+      }
+    ],
+    "grammar": [
+      "inside one organization は共通の所属の内側に差異があることを示す。",
+      "each illuminate は複数項目を受けながら、各項目が一部分を照らす作用を表す。",
+      "while -ing は可視化と不可視化が同時に起こる対照を作る。",
+      "may reappear as は改善が別の場所で負担の形を取る可能性を示す。",
+      "so は指標のずれから会社像の不一致へ至る結果を接続する。",
+      "can still produce は報告が誠実でも不一致が残りうることを表す。",
+      "unless は因果関係の翻訳を、隔たりを埋めるための必要条件として置く。"
+    ],
+    "translationNote": "literal は部署ごとの数字を「窓」とする比喩と、会議に複数の会社像が並ぶ構造を保った。natural では windows を numerical worlds と dashboard に分け、英語として自然な管理指標の語彙へ置き換えた。「誰も嘘をついていない」は honest reports と圧縮し、不一致が悪意ではなく視野の差から生じる点を残した。",
+    "readingPoint": "導入では、数字を中立な共通語ではなく、部署ごとに異なる視界を作る窓として置く。問題をデータ不足ではなく、指標間の因果が翻訳されていないことへ移す。",
+    "keywords": [
+      "organization",
+      "metrics",
+      "dashboard",
+      "causality",
+      "departments",
+      "translation"
+    ]
+  },
+  {
+    "id": "DE-20260918-002",
+    "sourceTitle": "数字は鏡のままではいられない",
+    "workId": "daily-essay-20260918",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "見張られている間だけ整う",
+    "jp": "数字の食い違いを、叱責の強さで揃えようとする統制がある。上司が見ている間は報告が早まり、机も手順も整う。しかし、視線が外れた瞬間に元へ戻るなら、変わったのは仕事ではなく、監視への反応だけだ。恐れは短い時間なら秩序を作れるが、判断の理由までは共有しない。人が自分で異常を見つけ、声を上げ、修正できる仕組みがなければ、静かな職場は健全さではなく、叱られないための沈黙かもしれない。",
+    "translationLiteral": "There is a form of control that tries to align conflicting numbers through the force of reprimand. While a supervisor is watching, reports become faster and desks and procedures become orderly. But if everything returns to its former state the moment the gaze leaves, it is not the work that changed but only the response to surveillance. Fear can create order for a short time, yet it does not share the reasons for judgment. Without a system in which people can find abnormalities, speak up, and correct them themselves, a quiet workplace may be silence for avoiding blame rather than evidence of health.",
+    "translationNatural": "Some managers try to reconcile conflicting numbers by intensifying reprimands. Reports arrive faster and procedures look orderly while authority is visibly watching. Yet if the order disappears with the gaze, the work itself has not changed; only behavior under surveillance has. Fear can impose short-term discipline, but it cannot distribute judgment. Without channels for noticing problems, speaking up, and correcting them, workplace silence may signal avoidance rather than health.",
+    "imageUrl": "",
+    "imageCaption": "監視の光が当たる場所だけ整列し、その光が離れた場所では手順がほどけていく。",
+    "imagePrompt": "A workplace becoming orderly only inside a narrow beam of supervisory light while procedures loosen outside it, subtle literary editorial illustration, no recognizable faces, no readable text",
+    "chunks": [
+      {
+        "en": "Some managers try to reconcile conflicting numbers by intensifying reprimands.",
+        "ja": "一部の管理者は叱責を強めることで食い違う数字を揃えようとする"
+      },
+      {
+        "en": "Reports arrive faster and procedures look orderly while authority is visibly watching.",
+        "ja": "権威の視線が見える間は報告が早まり手順も整って見える"
+      },
+      {
+        "en": "Yet if the order disappears with the gaze,",
+        "ja": "しかし視線とともに秩序が消えるなら"
+      },
+      {
+        "en": "the work itself has not changed; only behavior under surveillance has.",
+        "ja": "仕事自体は変わらず、監視下の行動だけが変わったのである"
+      },
+      {
+        "en": "Fear can impose short-term discipline, but it cannot distribute judgment.",
+        "ja": "恐れは短期的な規律を課せても判断力を分配できない"
+      },
+      {
+        "en": "Without channels for noticing problems, speaking up, and correcting them,",
+        "ja": "問題の発見、発言、修正のための経路がなければ"
+      },
+      {
+        "en": "workplace silence may signal avoidance rather than health.",
+        "ja": "職場の沈黙は健全さより回避を示すかもしれない"
+      }
+    ],
+    "grammar": [
+      "try to reconcile A by -ing は食い違いを揃えようとする手段を示す。",
+      "while authority is ... watching は秩序が監視中に限られる時間条件を置く。",
+      "if the order disappears は観察された秩序を判定する仮定条件である。",
+      "has not changed; only ... has は現在完了の反復を省略し、変化した対象だけを対照する。",
+      "can impose ..., but cannot ... は短期的効果と能力形成の限界を分ける。",
+      "Without channels for A, B, and C は三つの行為を可能にする制度の不在を示す。",
+      "rather than は沈黙が示す二つの解釈を対比する。"
+    ],
+    "translationNote": "literal は「視線が外れる」「叱られないための沈黙」という像を追った。natural では authority is visibly watching として人物ではなく権威の可視性を主語にし、「判断の理由を共有しない」を cannot distribute judgment と、現場へ判断能力が渡らない意味に組み替えた。",
+    "readingPoint": "展開では、異なる数字を力で揃える試みへ移る。見かけの秩序と仕事の変化を区別し、監視が行動を一時的に整えても、異常を判断し修正する力を組織へ残さないことを示す。",
+    "keywords": [
+      "surveillance",
+      "reprimand",
+      "discipline",
+      "judgment",
+      "silence",
+      "management"
+    ]
+  },
+  {
+    "id": "DE-20260918-003",
+    "sourceTitle": "数字は鏡のままではいられない",
+    "workId": "daily-essay-20260918",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "名前を付けたあとに生まれる敵",
+    "jp": "分類は、すでにある違いへ名前を付けるだけだと思われやすい。だが境界線を引けば、内側の人は似ているものとして扱われ、外側の人には同じ性質がまとめて帰される。やがて説明のための箱が、警戒や敵意の宛先になる。数字も叱責もカテゴリーも、現実を写したあとで止まらない。人は測られ方に合わせて動き、見られ方を守り、名付けられた集団として応答する。鏡だと思った道具が舞台装置になるとき、観測者もまた場面の一部になる。",
+    "translationLiteral": "Classification is easily thought to do no more than give names to differences that already exist. But once a boundary is drawn, people inside it are treated as similar, and those outside it are assigned the same traits together. Eventually, a box made for explanation becomes a destination for suspicion and hostility. Numbers, reprimands, and categories do not stop after reflecting reality. People move according to how they are measured, defend how they are seen, and respond as the group they have been named. When a tool thought to be a mirror becomes stage equipment, the observer also becomes part of the scene.",
+    "translationNatural": "Categories seem to name differences that already exist, but drawing a boundary also reorganizes the people around it. Those inside are treated as alike, while those outside are assigned shared traits. A box built for explanation can then become a target for suspicion and hostility. Metrics, reprimands, and labels do not merely reflect reality: people adapt to measurement, defend an assigned image, and answer as members of a named group. Once the mirror becomes a stage, the observer is already part of the scene.",
+    "imageUrl": "",
+    "imageCaption": "分類のために引かれた線が舞台の境界へ変わり、観測者を含む全員の立ち位置を作り直す。",
+    "imagePrompt": "A simple classificatory line transforming into the edge of a stage and rearranging abstract human silhouettes including the observer, thoughtful literary editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Categories seem to name differences that already exist,",
+        "ja": "カテゴリーはすでにある違いへ名前を付けるように見えるが"
+      },
+      {
+        "en": "but drawing a boundary also reorganizes the people around it.",
+        "ja": "境界を引くことは周囲の人々を再配置もする"
+      },
+      {
+        "en": "Those inside are treated as alike, while those outside are assigned shared traits.",
+        "ja": "内側は同類として扱われ、外側には共通の性質が割り当てられる"
+      },
+      {
+        "en": "A box built for explanation can then become a target for suspicion and hostility.",
+        "ja": "説明用の箱が疑念と敵意の標的になりうる"
+      },
+      {
+        "en": "Metrics, reprimands, and labels do not merely reflect reality:",
+        "ja": "指標、叱責、ラベルは現実を映すだけではない"
+      },
+      {
+        "en": "people adapt to measurement, defend an assigned image, and answer as members of a named group.",
+        "ja": "人は測定へ適応し、割り当てられた像を守り、名付けられた集団の成員として応答する"
+      },
+      {
+        "en": "Once the mirror becomes a stage, the observer is already part of the scene.",
+        "ja": "鏡が舞台になった時点で、観測者もすでに場面の一部である"
+      }
+    ],
+    "grammar": [
+      "seem to name は分類が中立に見えるという第一印象を距離を置いて示す。",
+      "drawing a boundary は動名詞句を主語にして、線引きそのものの作用を表す。",
+      "Those inside / those outside は境界の両側を対照する代名詞表現である。",
+      "while は内側への同質化と外側への属性付与を並置する。",
+      "built for explanation は過去分詞句で box の本来の目的を修飾する。",
+      "do not merely reflect は作用を反映だけに限定する見方を否定する。",
+      "adapt, defend, and answer は分類後に生じる三つの応答を並列する。",
+      "Once は鏡が舞台へ変わった時点で観測者の位置も変わることを示す。"
+    ],
+    "translationNote": "literal は「説明のための箱」「鏡が舞台装置になる」という比喩をそのまま追った。natural では assigned shared traits として、外集団への一括した属性付与を明示した。最後の stage は分類が現実を記述するだけでなく、人の立場と応答を演出する作用を短く表す。",
+    "readingPoint": "結末では、部署の数字と監視型統制をカテゴリー化へ接続する。三者を、現実の鏡として始まりながら行動を変える装置としてまとめ、観測する側も結果から外には立てないという余韻で閉じる。",
+    "keywords": [
+      "classification",
+      "boundary",
+      "hostility",
+      "metrics",
+      "labels",
+      "observer"
+    ]
+  }
+]
