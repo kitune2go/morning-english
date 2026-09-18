@@ -1,0 +1,705 @@
+[
+  {
+    "_no": 138,
+    "_generatedAt": "2026-09-19T01:59:59+09:00",
+    "sentence": "When sales, operations, and investors optimize different metrics, an organization can report improvement while the physical process becomes harder to maintain.",
+    "phonetic": "ウェン セイルズ、オペレイションズ、アンド インヴェスターズ オプティマイズ ディファレント メトリクス、アン オーガナイゼイション キャン リポート インプルーヴメント ワイル ザ フィジカル プロセス ビカムズ ハーダー トゥ メインテイン。",
+    "japaneseTranslation": "営業、現場、投資家が異なる指標を最適化すると、組織は改善を報告できても、実際の工程は維持しにくくなりえます。",
+    "theme": "部署ごとに異なる指標と現場の維持可能性",
+    "coreVerb": "optimize",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Sales teams track revenue.",
+        "translation": "営業部門は売上を追います。"
+      },
+      "phase2": {
+        "sentence": "Sales teams and operations track different metrics.",
+        "translation": "営業部門と現場は異なる指標を追います。",
+        "addedChunks": "具体化"
+      },
+      "phase3": {
+        "sentence": "When departments track different metrics, they may disagree.",
+        "translation": "部門が異なる指標を追うと、意見が食い違うことがあります。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "When departments optimize different metrics, reported improvement may hide operational strain.",
+        "translation": "部門が異なる指標を最適化すると、報告上の改善が現場の負担を隠すことがあります。",
+        "comparison": "none"
+      },
+      "phase5": {
+        "sentence": "When sales, operations, and investors optimize different metrics,",
+        "translation": "営業、現場、投資家が異なる指標を最適化すると、",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When sales, operations, and investors",
+          "function": "時間",
+          "translation": "営業、現場、投資家が"
+        },
+        {
+          "text": "optimize different metrics,",
+          "function": "行動",
+          "translation": "異なる指標を最適化すると、"
+        },
+        {
+          "text": "an organization can report improvement",
+          "function": "結果",
+          "translation": "組織は改善を報告できても、"
+        },
+        {
+          "text": "while the physical process",
+          "function": "接続",
+          "translation": "一方で実際の工程は"
+        },
+        {
+          "text": "becomes harder to maintain.",
+          "function": "状態",
+          "translation": "維持しにくくなりえます。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続詞",
+          "name": "when節",
+          "where": "When sales, operations, and investors...",
+          "explanation": "条件・状況を先に示します。",
+          "rule": "When + 主語 + 動詞, 主節"
+        },
+        {
+          "category": "並列",
+          "name": "A, B, and C",
+          "where": "sales, operations, and investors",
+          "explanation": "三つの主体を並列します。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "語法",
+          "name": "optimize",
+          "where": "optimize different metrics",
+          "explanation": "目的語を取り「最適化する」を表します。",
+          "rule": "optimize + 名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can report",
+          "explanation": "可能性を控えめに示します。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "接続詞",
+          "name": "while",
+          "where": "while the physical process...",
+          "explanation": "報告と現場の対照を示します。",
+          "rule": "主節 + while + 節"
+        },
+        {
+          "category": "比較級",
+          "name": "harder to",
+          "where": "harder to maintain",
+          "explanation": "維持の難しさが増すことを表します。",
+          "rule": "become + 比較級 + to不定詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When sales optimize different metric",
+          "correct": "When sales optimizes different metrics",
+          "why": "salesを部門機能として単数扱いにし、metricsを複数にします。"
+        },
+        {
+          "wrong": "an organization can reports improvement",
+          "correct": "an organization can report improvement",
+          "why": "助動詞canの後は動詞原形です。"
+        },
+        {
+          "wrong": "the process becomes harder maintaining",
+          "correct": "the process becomes harder to maintain",
+          "why": "harderの後はto不定詞が自然です。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Different departments may report progress even as the underlying process becomes less sustainable.",
+          "translation": "異なる部門は、基盤となる工程の持続可能性が下がる中でも、進展を報告することがあります。"
+        },
+        {
+          "text": "A shared dashboard does not guarantee a shared definition of improvement.",
+          "translation": "共通のダッシュボードがあっても、改善の定義まで共通になるとは限りません。"
+        },
+        {
+          "text": "Operational strain can grow while headline metrics improve.",
+          "translation": "主要指標が改善する一方で、現場の負担は増えることがあります。"
+        }
+      ],
+      "parseTree": "[S [Theme 部署ごとに異なる指標と現場の維持可能性] [CoreVerb optimize] [Contrast/Cause structured in the completed sentence]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Different groups optimize different metrics.",
+          "expanded": "Because each group is rewarded for a different result, they may optimize locally rather than improve the whole process.",
+          "nuance": "評価される成果が異なると局所最適が起こりうることを示します。"
+        },
+        {
+          "original": "The organization reports improvement.",
+          "expanded": "The organization reports improvement because its headline metric rises, even though maintenance work becomes harder.",
+          "nuance": "報告値と保守負担のずれを明示します。"
+        },
+        {
+          "original": "The process becomes harder to maintain.",
+          "expanded": "As engineering knowledge leaves the workplace, the process can become harder to maintain despite stronger sales figures.",
+          "nuance": "工学知識の減少を断定せず、可能性として因果に加えます。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Improvement can be reported even while the physical process becomes harder to maintain.",
+          "translation": "実際の工程が維持しにくくなる一方でも、改善は報告されえます。",
+          "note": "報告主体より報告という行為に焦点を移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Optimizing different metrics, departments may overlook strain elsewhere in the organization.",
+          "translation": "異なる指標を最適化することで、部門は組織内の別の場所の負担を見落とすことがあります。",
+          "note": "条件を分詞句で圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Metric fragmentation can conceal declining operational maintainability.",
+          "translation": "指標の分断は、現場の保守性低下を隠すことがあります。",
+          "note": "節を名詞句へ圧縮します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "optimize",
+            "alternatives": [
+              "improve",
+              "maximize",
+              "prioritize"
+            ],
+            "nuance": "optimizeは制約下で最適化する意味で、単なる改善より分析的です。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "One metric can improve while another part of the system deteriorates.",
+            "translation": "一つの指標が改善する一方で、システムの別部分が悪化することがあります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Shared measures are more useful than isolated departmental targets when coordination matters.",
+            "translation": "連携が重要なとき、共通指標は孤立した部門目標より有用です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If teams compare definitions before results, they can detect hidden trade-offs earlier.",
+            "translation": "チームが結果より先に定義を比べれば、隠れたトレードオフを早く見つけられます。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not one rising number but whether the whole process remains workable.",
+            "translation": "重要なのは一つの数字の上昇ではなく、工程全体が機能し続けるかです。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Divergent metrics can mask operational decline.",
+            "translation": "異なる指標は現場の悪化を覆い隠すことがあります。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "主張の範囲を助動詞で抑え、対照または因果の主体を明確にした。"
+    }
+  },
+  {
+    "_no": 139,
+    "_generatedAt": "2026-09-19T01:59:59+09:00",
+    "sentence": "Strict discipline may suppress visible mistakes without changing the underlying behavior; once supervision disappears, the same behavior can return.",
+    "phonetic": "ストリクト ディサプリン メイ サプレス ヴィジブル ミステイクス ウィズアウト チェインジング ジ アンダーライイング ビヘイヴィア；ワンス スーパーヴィジョン ディサピアーズ、ザ セイム ビヘイヴィア キャン リターン。",
+    "japaneseTranslation": "厳しい統制は、根底の行動を変えないまま目に見える失敗を抑えることがあります。監視がなくなると、同じ行動が戻ることがあります。",
+    "theme": "監視下の統制と行動変容の違い",
+    "coreVerb": "suppress",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Discipline suppresses mistakes.",
+        "translation": "統制は失敗を抑えます。"
+      },
+      "phase2": {
+        "sentence": "Strict discipline may suppress visible mistakes.",
+        "translation": "厳しい統制は目に見える失敗を抑えることがあります。",
+        "addedChunks": "具体化"
+      },
+      "phase3": {
+        "sentence": "Strict discipline may suppress mistakes without changing behavior.",
+        "translation": "厳しい統制は、行動を変えずに失敗を抑えることがあります。",
+        "connector": "without"
+      },
+      "phase4": {
+        "sentence": "Strict discipline may suppress visible mistakes without changing the underlying behavior.",
+        "translation": "厳しい統制は、根底の行動を変えずに目に見える失敗を抑えることがあります。",
+        "comparison": "none"
+      },
+      "phase5": {
+        "sentence": "Strict discipline may suppress visible mistakes without changing the underlying behavior;",
+        "translation": "厳しい統制は、根底の行動を変えずに目に見える失敗を抑えることがあります。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Strict discipline may suppress",
+          "function": "行動",
+          "translation": "厳しい統制は抑えることがあります"
+        },
+        {
+          "text": "visible mistakes",
+          "function": "対象",
+          "translation": "目に見える失敗を"
+        },
+        {
+          "text": "without changing",
+          "function": "様態",
+          "translation": "変えないまま"
+        },
+        {
+          "text": "the underlying behavior;",
+          "function": "対象",
+          "translation": "根底の行動を。"
+        },
+        {
+          "text": "once supervision disappears,",
+          "function": "時間",
+          "translation": "監視がなくなると、"
+        },
+        {
+          "text": "the same behavior can return.",
+          "function": "結果",
+          "translation": "同じ行動が戻ることがあります。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may suppress",
+          "explanation": "一般化を避け、可能性として述べます。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "suppress",
+          "where": "suppress visible mistakes",
+          "explanation": "表面に出る行動を抑える意味です。",
+          "rule": "suppress + 名詞"
+        },
+        {
+          "category": "前置詞",
+          "name": "without",
+          "where": "without changing",
+          "explanation": "「〜せずに」を動名詞で表します。",
+          "rule": "without + -ing"
+        },
+        {
+          "category": "形容詞",
+          "name": "underlying",
+          "where": "the underlying behavior",
+          "explanation": "表面の失敗と根底の行動を区別します。",
+          "rule": "underlying + 名詞"
+        },
+        {
+          "category": "接続詞",
+          "name": "once",
+          "where": "once supervision disappears",
+          "explanation": "監視が消えた後の条件を示します。",
+          "rule": "once + 主語 + 動詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can return",
+          "explanation": "再発の可能性を示します。",
+          "rule": "can + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "may suppresses visible mistakes",
+          "correct": "may suppress visible mistakes",
+          "why": "助動詞mayの後は動詞原形です。"
+        },
+        {
+          "wrong": "without change the behavior",
+          "correct": "without changing the behavior",
+          "why": "前置詞withoutの後は動名詞です。"
+        },
+        {
+          "wrong": "once supervision disappear",
+          "correct": "once supervision disappears",
+          "why": "単数主語supervisionに三単現の-sが必要です。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Fear can reduce mistakes in public without building better judgment in private.",
+          "translation": "恐れは、人に見られる場での失敗を減らしても、見られない場での判断力を育てないことがあります。"
+        },
+        {
+          "text": "Compliance under observation is not the same as lasting behavioral change.",
+          "translation": "監視下の服従は、持続的な行動変容と同じではありません。"
+        },
+        {
+          "text": "Training works better when learners understand the reason behind a rule.",
+          "translation": "学習者が規則の理由を理解すると、訓練はより効果的に働きます。"
+        }
+      ],
+      "parseTree": "[S [Theme 監視下の統制と行動変容の違い] [CoreVerb suppress] [Contrast/Cause structured in the completed sentence]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Strict discipline suppresses mistakes.",
+          "expanded": "Because people fear immediate punishment, strict discipline may suppress mistakes that observers can see.",
+          "nuance": "即時の罰への恐れを中間因果として示します。"
+        },
+        {
+          "original": "The behavior does not change.",
+          "expanded": "If learners only avoid detection, the underlying behavior may remain unchanged.",
+          "nuance": "発覚回避と行動変容を区別します。"
+        },
+        {
+          "original": "The behavior returns.",
+          "expanded": "Once supervision disappears, the behavior can return because the learner has not developed an alternative response.",
+          "nuance": "代替行動が形成されていない場合の再発を説明します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Visible mistakes may be suppressed without the underlying behavior being changed.",
+          "translation": "根底の行動が変えられないまま、目に見える失敗だけが抑えられることがあります。",
+          "note": "統制主体を背景化します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Fearing punishment, learners may comply only while they are watched.",
+          "translation": "罰を恐れて、学習者は見られている間だけ従うことがあります。",
+          "note": "理由を分詞句に圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Behavioral suppression does not guarantee lasting change.",
+          "translation": "行動の抑制は持続的な変化を保証しません。",
+          "note": "動作を名詞化して一般原則にします。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "suppress",
+            "alternatives": [
+              "restrain",
+              "discourage",
+              "conceal"
+            ],
+            "nuance": "suppressは行動の出現を押さえる語で、原因の除去までは含みません。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "区別",
+            "sentence": "Temporary compliance is not the same as durable learning.",
+            "translation": "一時的な服従は持続的な学習と同じではありません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Explanation often produces more durable learning than intimidation alone.",
+            "translation": "説明は、威圧だけの場合より持続的な学習を生みやすいことがあります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If supervision is the only control, unwanted behavior may return when observers leave.",
+            "translation": "監視が唯一の統制なら、観察者が去ると望ましくない行動が戻ることがあります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What changes behavior is not fear alone but a workable alternative.",
+            "translation": "行動を変えるのは恐れだけではなく、実行可能な代替手段です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Surveillance can create compliance without learning.",
+            "translation": "監視は学習を伴わない服従を生むことがあります。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 8,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "主張の範囲を助動詞で抑え、対照または因果の主体を明確にした。"
+    }
+  },
+  {
+    "_no": 140,
+    "_generatedAt": "2026-09-19T01:59:59+09:00",
+    "sentence": "Categories do not merely redirect existing hostility; they can generate new hostility by giving people a ready-made target.",
+    "phonetic": "カテゴリーズ ドゥ ノット ミアリー リダイレクト イグズィスティング ホスティリティ；ゼイ キャン ジェネレイト ニュー ホスティリティ バイ ギヴィング ピープル ア レディメイド ターゲット。",
+    "japaneseTranslation": "カテゴリーは既存の敵意の向きを変えるだけではありません。人々に出来合いの標的を与えることで、新しい敵意を生み出すことがあります。",
+    "theme": "カテゴリー化が新しい敵意を生む作用",
+    "coreVerb": "generate",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Categories redirect hostility.",
+        "translation": "カテゴリーは敵意の向きを変えます。"
+      },
+      "phase2": {
+        "sentence": "Categories can redirect existing hostility.",
+        "translation": "カテゴリーは既存の敵意の向きを変えることがあります。",
+        "addedChunks": "具体化"
+      },
+      "phase3": {
+        "sentence": "Categories do not merely redirect existing hostility.",
+        "translation": "カテゴリーは既存の敵意の向きを変えるだけではありません。",
+        "connector": "not merely"
+      },
+      "phase4": {
+        "sentence": "Categories do not merely redirect hostility; they can generate it.",
+        "translation": "カテゴリーは敵意の向きを変えるだけでなく、それを生み出すことがあります。",
+        "comparison": "none"
+      },
+      "phase5": {
+        "sentence": "Categories do not merely redirect existing hostility;",
+        "translation": "カテゴリーは既存の敵意の向きを変えるだけではありません。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Categories do not merely redirect",
+          "function": "行動",
+          "translation": "カテゴリーは向きを変えるだけではありません"
+        },
+        {
+          "text": "existing hostility;",
+          "function": "対象",
+          "translation": "既存の敵意の。"
+        },
+        {
+          "text": "they can generate",
+          "function": "行動",
+          "translation": "カテゴリーは生み出すことがあります"
+        },
+        {
+          "text": "new hostility",
+          "function": "対象",
+          "translation": "新しい敵意を"
+        },
+        {
+          "text": "by giving people",
+          "function": "様態",
+          "translation": "人々に与えることで"
+        },
+        {
+          "text": "a ready-made target.",
+          "function": "対象",
+          "translation": "出来合いの標的を。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "否定",
+          "name": "not merely",
+          "where": "do not merely redirect",
+          "explanation": "「単に〜するだけではない」と範囲を限定します。",
+          "rule": "do not merely + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "redirect",
+          "where": "redirect existing hostility",
+          "explanation": "既存のものの向きを変える意味です。",
+          "rule": "redirect + 名詞"
+        },
+        {
+          "category": "代名詞",
+          "name": "they",
+          "where": "they can generate",
+          "explanation": "categoriesを受け、主体を明確に保ちます。",
+          "rule": "複数名詞 + they"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can generate",
+          "explanation": "必然ではなく可能性を表します。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "前置詞",
+          "name": "by",
+          "where": "by giving",
+          "explanation": "手段を動名詞で示します。",
+          "rule": "by + -ing"
+        },
+        {
+          "category": "授与構文",
+          "name": "give O O",
+          "where": "giving people a ready-made target",
+          "explanation": "人に標的を与える構造です。",
+          "rule": "give + 人 + 物"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Categories does not merely redirect",
+          "correct": "Categories do not merely redirect",
+          "why": "複数主語Categoriesにはdoを使います。"
+        },
+        {
+          "wrong": "they can generates new hostility",
+          "correct": "they can generate new hostility",
+          "why": "助動詞canの後は動詞原形です。"
+        },
+        {
+          "wrong": "by give people a target",
+          "correct": "by giving people a target",
+          "why": "前置詞byの後は動名詞です。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A label can create a conflict where no personal dispute existed before.",
+          "translation": "ラベルは、以前には個人的な争いがなかった場所に対立を生むことがあります。"
+        },
+        {
+          "text": "Group boundaries can organize attention and supply an object for resentment.",
+          "translation": "集団の境界は注意を整理し、憤りの対象を与えることがあります。"
+        },
+        {
+          "text": "Shared stereotypes allow strangers to repeat the same grievance without sharing the same experience.",
+          "translation": "共通の固定観念があると、同じ経験を共有しない人々も同じ不満を繰り返せます。"
+        }
+      ],
+      "parseTree": "[S [Theme カテゴリー化が新しい敵意を生む作用] [CoreVerb generate] [Contrast/Cause structured in the completed sentence]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Categories redirect hostility.",
+          "expanded": "Categories can redirect hostility because they identify who supposedly belongs on the other side.",
+          "nuance": "カテゴリーが対立相手を指示する過程を加えます。"
+        },
+        {
+          "original": "Categories generate hostility.",
+          "expanded": "By supplying a ready-made target, categories can generate hostility even without a prior personal conflict.",
+          "nuance": "個人的対立が先行しない場合を明示します。"
+        },
+        {
+          "original": "People share a grievance.",
+          "expanded": "When a label compresses many differences into one group, strangers can repeat a grievance as if they shared one experience.",
+          "nuance": "ラベルによる差異の圧縮を因果として示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "New hostility can be generated when people are given a ready-made target.",
+          "translation": "人々に出来合いの標的が与えられると、新しい敵意が生み出されることがあります。",
+          "note": "行為者より生成過程に焦点を移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Given a ready-made target, people may adopt hostility they did not previously feel.",
+          "translation": "出来合いの標的を与えられると、人々は以前には感じていなかった敵意を抱くことがあります。",
+          "note": "条件を過去分詞句に圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Categorization can produce the generation of new hostility.",
+          "translation": "カテゴリー化は新しい敵意の生成をもたらすことがあります。",
+          "note": "動作を名詞化して分析語にします。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "generate",
+            "alternatives": [
+              "create",
+              "produce",
+              "foster"
+            ],
+            "nuance": "generateは仕組みが結果を生む過程を分析的に表します。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "追加",
+            "sentence": "Labels do more than describe groups; they can shape relations between them.",
+            "translation": "ラベルは集団を記述するだけでなく、集団間の関係を形作ることがあります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A ready-made category can spread hostility faster than a private grievance can.",
+            "translation": "出来合いのカテゴリーは、個人的な不満より速く敵意を広げることがあります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a label supplies an enemy, people may adopt a conflict they did not previously have.",
+            "translation": "ラベルが敵を用意すると、人々は以前にはなかった対立を取り込むことがあります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the ready-made target that turns an abstract label into a social conflict.",
+            "translation": "抽象的なラベルを社会的対立へ変えるのは、出来合いの標的です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Categories can manufacture hostility.",
+            "translation": "カテゴリーは敵意を作り出すことがあります。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 8,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "主張の範囲を助動詞で抑え、対照または因果の主体を明確にした。"
+    }
+  }
+]
