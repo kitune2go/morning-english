@@ -158,5 +158,12 @@
     "description": "オッペケペー節の反復、翻訳と上演、市場批判の商品化、政治語を運ぶリズムを通して、言葉が変形と矛盾を引き受けながら広がる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260917/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260918",
+    "title": "数字は鏡のままではいられない",
+    "description": "部署ごとに異なる指標、監視下でだけ効く叱責型統制、敵意の宛先を作るカテゴリー化を通して、測定や分類が現実を映すだけでなく行動と関係を作り替える過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260918/manifest.json",
+    "mode": "essay-translation"
   }
 ]
