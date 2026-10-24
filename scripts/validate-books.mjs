@@ -175,7 +175,7 @@ if(scriptMatch){
         "unchecking latest bookmark removes it but preserves other chapter bookmarks");
       check(!model.validParagraph(1,0)&&!model.validParagraph(2,3)&&!model.validParagraph(4,1),
         "invalid paragraph bookmarks are rejected");
-      check(nodes.chapterList.innerHTML.includes("段落 3 から再開")&&rerenders===0,
+      check(nodes.chapterList.innerHTML.includes("段落 3から再開")&&rerenders===0,
         "bookmarked chapters stay visible without rerendering reading notes");
     }catch(err){check(false,"paragraph bookmarks test: "+err.message);}
   }
