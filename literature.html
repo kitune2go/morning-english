@@ -54,6 +54,15 @@
 .word-meaning{font-size:13px;color:#292524;line-height:1.6;min-width:0;overflow-wrap:anywhere;flex:1 1 112px}
 .word-meaning.unlisted{color:#78716c;font-size:11px;flex:0 1 auto;background:#f1f0ec;border-radius:3px;padding:1px 5px}
 .word-usage{font-size:11px;color:#57534e;margin:3px 0 0;line-height:1.6;overflow-wrap:anywhere}
+.word-kind{font-size:10px;white-space:nowrap;border-radius:3px;padding:1px 5px;background:#e7e5e4;color:#57534e}
+.word-kind.context{background:#d6efe2;color:#14532d}
+.phrase-section{margin:10px 0 12px;padding:11px;background:#f0f7f1;border-left:3px solid #39765d}
+.phrase-heading{font-size:12px;font-weight:700;color:#14532d;margin-bottom:7px}
+.phrase-line{border-top:1px solid #cce1d1;padding:7px 0;line-height:1.6}
+.phrase-en{font-size:13px;font-family:Georgia,serif;font-weight:700;overflow-wrap:anywhere}
+.phrase-ja{font-size:12px;color:#14532d}
+.phrase-note{font-size:11px;color:#57534e}
+.gloss-disclaimer{font-size:11px;color:#57534e;line-height:1.7}
 .word-ask{font-family:inherit;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;max-width:100%;font-size:11px;font-weight:600;line-height:1.4;color:#285746!important;background:#fff;border:1px solid #8ba99a;border-radius:4px;text-decoration:none!important;padding:5px 8px;white-space:normal;overflow-wrap:anywhere;cursor:pointer}
 .word-ask:hover{background:#e7f1e9}
 .word-ask:focus-visible{outline:2px solid #14532d;outline-offset:2px}
@@ -86,12 +95,14 @@ const BOOKMARK_KEY='literature-bookmarks-v1';
 
 const READER_PROGRESS_KEY='literature-chapter-progress-v1';
 const askDrafts=new Map();
-let wordGlossary=new Map();
+let wordGlossary=new Map(),contextGlossary={};
 async function loadSharedGlossary(){
   try{
     const files=await Promise.all(["books/happy-prince/lexicon.json","books/happy-prince/extended-glossary.json","literature/essay-glossary-abcdef.json","literature/essay-glossary-ghijkl.json","literature/essay-glossary-mnopqr.json","literature/essay-glossary-stuv.json","literature/essay-glossary-wxyz.json","literature/essay-glossary-custom.json"].map(fetchJson));
     wordGlossary=new Map(files.flat().filter(x=>x&&typeof x.word==='string').map(x=>[x.word.toLowerCase().replace(/’/g,"'"),x]));
   }catch(err){console.warn('英和辞典を読み込めませんでした。単語の質問リンクは利用できます。',err);wordGlossary=new Map();}
+  try{const data=await fetchJson('literature/essay-context-glossary.json');contextGlossary=data&&typeof data==='object'&&!Array.isArray(data)?data:{};}
+  catch(err){console.warn('文脈別単語帳を読み込めませんでした。一般辞典で表示します。',err);contextGlossary={};}
 }
 function readProgressStore(){
   try{const data=JSON.parse(localStorage.getItem(READER_PROGRESS_KEY)||'{}');return data&&typeof data==='object'&&!Array.isArray(data)?data:{};}catch{return {};}
@@ -184,14 +195,18 @@ function speakButton(label,text,lang,extraClass=''){return `<button class="btn s
 
 function renderChunk(ch,i,card){
   const en=ch.en||'',ja=ch.ja||'';
+  const context=(contextGlossary[card.id]||[])[i]||{},contextWords=context.words||{};
   const question='このチャンク内の全単語について、原文の語順で一語ずつ品詞・この文脈での意味・活用を教えてください。';
   const wordLink=askChatUrl(card,question,en);
-  const tokens=en.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[];
+  const tokens=en.match(/[\\p{L}]+(?:['’\\-][\\p{L}]+)*/gu)||[];
   const words=tokens.map(token=>{
-    const info=wordGlossary.get(token.toLowerCase().replace(/’/g,"'"));
+    const key=token.toLowerCase().replace(/’/g,"'");
+    const isContext=Object.prototype.hasOwnProperty.call(contextWords,key);
+    const info=isContext?contextWords[key]:wordGlossary.get(key);
     const word=escapeHtml(token);
-    if(info){
+    if(info&&typeof info.ja==='string'){
       return '<div class="word-line"><div class="word-head"><strong class="word-en" lang="en">'+word+'</strong>'+
+        '<span class="word-kind'+(isContext?' context':'')+'">'+(isContext?'文脈訳':'一般語義')+'</span>'+
         '<span class="word-meaning" lang="ja">'+escapeHtml(info.ja)+'</span></div>'+
         (info.note?'<p class="word-usage" lang="ja">'+escapeHtml(info.note)+'</p>':'')+'</div>';
     }
@@ -201,8 +216,15 @@ function renderChunk(ch,i,card){
       '<a class="word-ask" href="'+escapeAttr(link)+'" target="_blank" rel="noopener noreferrer" aria-label="'+escapeAttr(token)+'の意味をChatGPTに質問">意味を質問 ↗</a>'+
       '</div></div>';
   }).join('');
-  const wordPanel='<details class="chunk-gloss"><summary>全単語（'+tokens.length+'語）の意味・用法</summary>'+
-    '<p class="gloss-disclaimer">英和辞典の一般的な意味を表示しています。文脈による意味の違いは質問リンクで確認できます。</p><div class="chunk-words">'+words+'</div></details>';
+  const phrases=Array.isArray(context.phrases)?context.phrases:[];
+  const phrasePanel=phrases.length?'<div class="phrase-section"><div class="phrase-heading">このチャンクの重要表現（'+phrases.length+'件）</div>'+
+    phrases.map(p=>'<div class="phrase-line"><div class="phrase-en" lang="en">'+escapeHtml(p.en)+'</div>'+
+      '<div class="phrase-ja" lang="ja">'+escapeHtml(p.ja)+'</div>'+
+      (p.note?'<div class="phrase-note" lang="ja">'+escapeHtml(p.note)+'</div>':'')+'</div>').join('')+'</div>':'';
+  const contextualCount=tokens.filter(t=>Object.prototype.hasOwnProperty.call(contextWords,t.toLowerCase().replace(/’/g,"'"))).length;
+  const wordPanel='<details class="chunk-gloss"><summary>文脈単語帳（'+tokens.length+'語・文脈訳'+contextualCount+'語）</summary>'+
+    '<p class="gloss-disclaimer">「文脈訳」はこの文章に合わせた意味、「一般語義」は辞典による参考訳です。単語だけで訳が決まらない表現は下の重要表現を参照してください。</p>'+
+    phrasePanel+'<div class="chunk-words">'+words+'</div></details>';
   return '<div class="chunk"><div><div class="chunk-en">'+escapeHtml(en)+'</div><div class="chunk-ja">'+escapeHtml(ja)+'</div>'+
     wordPanel+'<a class="chunk-question" href="'+escapeAttr(wordLink)+'" target="_blank" rel="noopener noreferrer">↗ このチャンクの全単語をチャッピーに質問</a></div>'+
     '<div class="chunk-actions">'+speakButton('EN',en,'en-US','chunk-btn')+speakButton('JA',ja,'ja-JP','chunk-btn')+'</div></div>';
