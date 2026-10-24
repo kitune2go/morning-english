@@ -284,25 +284,61 @@ if(litMatch){
   check(start>=0&&end>start,"chunk renderer exists for glossary layout test");
   if(start>=0&&end>start){
     try{
-      const chunkFn=new Function('wordGlossary','askChatUrl','escapeHtml','escapeAttr','speakButton',
+      const chunkFn=new Function('wordGlossary','contextGlossary','askChatUrl','escapeHtml','escapeAttr','speakButton',
         source.slice(start,end)+'\nreturn renderChunk;');
       const glossary=new Map([['inside',{ja:'内側に',note:'前置詞、位置を示す'}]]);
-      const render=chunkFn(glossary,()=>'https://chatgpt.com/?prompt=example',
+      const render=chunkFn(glossary,{},()=>'https://chatgpt.com/?prompt=example',
         x=>String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;'),
         x=>String(x),()=>'<button>▶</button>');
       const output=render({en:'Departments inside different organizations',ja:'複数の組織内の部署'},0,{id:'example'});
       check(output.includes('<strong class="word-en" lang="en">Departments</strong>')&&
         output.includes('意味を質問 ↗')&&output.includes('<span class="word-meaning unlisted" lang="ja">未登録</span>'),
         "unknown words show a distinct compact button instead of oversized inline hyperlinks");
-      check(output.includes('内側に')&&output.includes('前置詞、位置を示す'),
+      check(output.includes('内側に')&&output.includes('前置詞、位置を示す')&&output.includes('一般語義'),
         "dictionary words show meaning and note in separate, wrapping lines");
-      check(output.includes('全単語（4語）')&&
+      check(output.includes('文脈単語帳（4語・文脈訳0語）')&&
         (output.match(/class="word-line"/g)||[]).length===4,
         "word list retains the full original token order");
     }catch(e){check(false,"mobile glossary rendering test: "+e.message);}
   }
 }
 
+
+// Contextual senses must be tied to the actual card/chunk, not just to a dictionary headword.
+const contextPath=path.join(root,"literature/essay-context-glossary.json");
+check(fs.existsSync(contextPath),"contextual vocabulary file exists");
+if(fs.existsSync(contextPath)){
+  const context=JSON.parse(fs.readFileSync(contextPath,"utf8"));
+  const cardLookup=new Map();
+  for(const w of dailyWorks){
+    const manifests=JSON.parse(fs.readFileSync(path.join(root,w.manifest),"utf8"));
+    for(const source of manifests){
+      for(const card of JSON.parse(fs.readFileSync(path.join(root,source),"utf8")))
+        cardLookup.set(card.id,card);
+    }
+  }
+  for(const [id,chunkList] of Object.entries(context)){
+    const card=cardLookup.get(id);
+    check(!!card,"context annotations refer to an existing card: "+id);
+    if(!card)continue;
+    check(Array.isArray(chunkList)&&chunkList.length<=card.chunks.length,"context matches chunk structure: "+id);
+    if(!Array.isArray(chunkList))continue;
+    chunkList.forEach((chunk,i)=>{
+      if(!chunk)return;
+      const source=card.chunks[i]?.en||"";
+      const tokens=new Set((source.match(/[\\p{L}]+(?:['’\\-][\\p{L}]+)*/gu)||[]).map(t=>t.toLowerCase().replace(/’/g,"'")));
+      for(const [word,definition] of Object.entries(chunk.words||{})){
+        check(tokens.has(word),"contextual word exists in its chunk: "+id+"/"+i+"/"+word);
+        check(typeof definition.ja==="string"&&definition.ja.trim().length>0,"contextual Japanese meaning: "+id+"/"+i+"/"+word);
+      }
+      for(const phrase of chunk.phrases||[]){
+        check(typeof phrase.en==="string"&&source.toLowerCase().includes(phrase.en.toLowerCase()),"phrase exists in its chunk: "+id+"/"+i+"/"+phrase.en);
+        check(typeof phrase.ja==="string"&&phrase.ja.trim().length>0&&typeof phrase.note==="string"&&phrase.note.trim().length>0,
+          "phrase has a contextual translation and grammar note: "+id+"/"+i);
+      }
+    });
+  }
+}
 
 // Ensure every token in all *current* daily dialogue essays has a Japanese meaning.
 // Regenerate coverage dynamically from the registered essay manifests, not from a stale index.
