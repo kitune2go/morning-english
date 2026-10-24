@@ -47,6 +47,22 @@ for(const b of works){
         if(Array.isArray(detail.chunks)){
           check(detail.chunks.every(x=>typeof x.en==="string"&&x.en.trim()&&typeof x.ja==="string"&&x.ja.trim()&&typeof x.role==="string"&&x.role.trim()),label+"chunk fields");
           check(detail.chunks.map(x=>x.en).join("")===d.paragraphs[pi],label+"chunks must reconstruct original paragraph verbatim");
+          if(b.id==="happy-prince"){
+            for(const [ci,chunk] of detail.chunks.entries()){
+              const field=label+"chunk "+(ci+1)+": ";
+              check(typeof chunk.ja==="string"&&chunk.ja.trim().length>0&&!chunk.ja.includes("語句："),field+"must contain a natural Japanese translation");
+              check(typeof chunk.hint==="string"&&chunk.hint.trim().length>0,field+"retain reading hint");
+              const tokens=chunk.en.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[];
+              check(Array.isArray(chunk.words)&&chunk.words.length===tokens.length,field+"all word tokens must be glossed");
+              if(Array.isArray(chunk.words)){
+                chunk.words.forEach((w,wi)=>{
+                  check(w.word===tokens[wi],field+"word "+(wi+1)+" must match source order");
+                  check(typeof w.ja==="string"&&w.ja.trim().length>0,field+"word "+(wi+1)+" meaning");
+                  check(typeof w.note==="string"&&w.note.trim().length>0,field+"word "+(wi+1)+" usage explanation");
+                });
+              }
+            }
+          }
         }
         if(Array.isArray(detail.expressions))check(detail.expressions.every(x=>typeof x.en==="string"&&x.en&&typeof x.ja==="string"&&x.ja),label+"phrase explanation fields");
         if(Array.isArray(detail.vocabulary))check(detail.vocabulary.every(x=>typeof x.word==="string"&&x.word&&typeof x.ja==="string"&&x.ja&&typeof x.note==="string"&&x.note),label+"vocabulary meaning and usage note");
