@@ -1613,5 +1613,1245 @@
     "word": "nile",
     "ja": "ナイル川",
     "note": "河川名"
+  },
+  {
+    "word": "no",
+    "ja": "いいえ・一つも〜ない",
+    "note": "否定語"
+  },
+  {
+    "word": "nobody",
+    "ja": "誰も〜ない",
+    "note": "人を表す否定代名詞"
+  },
+  {
+    "word": "noon",
+    "ja": "正午",
+    "note": "昼の12時"
+  },
+  {
+    "word": "north",
+    "ja": "北・北の",
+    "note": "方角"
+  },
+  {
+    "word": "not",
+    "ja": "〜ではない",
+    "note": "否定の副詞"
+  },
+  {
+    "word": "note",
+    "ja": "メモ・書き留める",
+    "note": "make a note of で記録する"
+  },
+  {
+    "word": "nothing",
+    "ja": "何も〜ない",
+    "note": "事物の否定代名詞"
+  },
+  {
+    "word": "now",
+    "ja": "今・もう",
+    "note": "現在時点"
+  },
+  {
+    "word": "of",
+    "ja": "〜の・〜からなる",
+    "note": "所属・材料を表す"
+  },
+  {
+    "word": "off",
+    "ja": "離れて・去って",
+    "note": "be off to で出発する"
+  },
+  {
+    "word": "old",
+    "ja": "古い・年老いた",
+    "note": "年齢や時間"
+  },
+  {
+    "word": "on",
+    "ja": "〜の上に・〜で",
+    "note": "接触・時間の前置詞"
+  },
+  {
+    "word": "once",
+    "ja": "一度・かつて",
+    "note": "once more でもう一度"
+  },
+  {
+    "word": "one",
+    "ja": "一つ・一人・ある",
+    "note": "数字と代名詞"
+  },
+  {
+    "word": "only",
+    "ja": "ただ〜だけ",
+    "note": "範囲の限定"
+  },
+  {
+    "word": "open",
+    "ja": "開いた・開く",
+    "note": "窓の状態"
+  },
+  {
+    "word": "opened",
+    "ja": "開いた",
+    "note": "open の過去形"
+  },
+  {
+    "word": "or",
+    "ja": "または",
+    "note": "選択肢の接続"
+  },
+  {
+    "word": "ordered",
+    "ja": "命じた・注文した",
+    "note": "order の過去形"
+  },
+  {
+    "word": "other",
+    "ja": "ほかの・もう一方の",
+    "note": "区別を示す"
+  },
+  {
+    "word": "our",
+    "ja": "私たちの",
+    "note": "所有格"
+  },
+  {
+    "word": "out",
+    "ja": "外へ・外に",
+    "note": "方向を示す"
+  },
+  {
+    "word": "outside",
+    "ja": "外に・外側で",
+    "note": "位置"
+  },
+  {
+    "word": "over",
+    "ja": "〜を越えて・上に",
+    "note": "通過・位置"
+  },
+  {
+    "word": "painted",
+    "ja": "彩色された",
+    "note": "paint の過去分詞"
+  },
+  {
+    "word": "pale",
+    "ja": "淡い・青白い",
+    "note": "色の強さ"
+  },
+  {
+    "word": "palm-tree",
+    "ja": "ヤシの木",
+    "note": "樹木"
+  },
+  {
+    "word": "palm-trees",
+    "ja": "ヤシの木々",
+    "note": "複数形"
+  },
+  {
+    "word": "papers",
+    "ja": "紙・書類",
+    "note": "paper の複数形"
+  },
+  {
+    "word": "passed",
+    "ja": "通った・通過した",
+    "note": "pass の過去形"
+  },
+  {
+    "word": "passing",
+    "ja": "通りかかっている",
+    "note": "pass の現在分詞"
+  },
+  {
+    "word": "past",
+    "ja": "〜を通り過ぎて・過去",
+    "note": "場所・時間"
+  },
+  {
+    "word": "people",
+    "ja": "人々",
+    "note": "複数として扱う集合名詞"
+  },
+  {
+    "word": "personal",
+    "ja": "個人的な",
+    "note": "本人に関わる"
+  },
+  {
+    "word": "pink",
+    "ja": "ピンク色の",
+    "note": "色"
+  },
+  {
+    "word": "place",
+    "ja": "場所・位置",
+    "note": "put up there の位置にも関連"
+  },
+  {
+    "word": "play",
+    "ja": "劇・演劇・遊ぶ",
+    "note": "戯曲では名詞"
+  },
+  {
+    "word": "played",
+    "ja": "遊んだ・演奏した",
+    "note": "play の過去形"
+  },
+  {
+    "word": "pluck",
+    "ja": "引き抜く",
+    "note": "pluck out で抜き取る"
+  },
+  {
+    "word": "point",
+    "ja": "要点・地点",
+    "note": "come to the point で本題に入る"
+  },
+  {
+    "word": "poor",
+    "ja": "貧しい・かわいそうな",
+    "note": "経済状態や同情"
+  },
+  {
+    "word": "power",
+    "ja": "力・能力",
+    "note": "力強さ"
+  },
+  {
+    "word": "prepared",
+    "ja": "準備した",
+    "note": "prepare の過去形"
+  },
+  {
+    "word": "priests",
+    "ja": "神官たち",
+    "note": "priest の複数形"
+  },
+  {
+    "word": "prince’s",
+    "ja": "王子の",
+    "note": "Prince の所有格"
+  },
+  {
+    "word": "public",
+    "ja": "公共の",
+    "note": "公衆の"
+  },
+  {
+    "word": "put",
+    "ja": "置く・泊まる",
+    "note": "put up で宿泊する。活用形は同じ"
+  },
+  {
+    "word": "putting",
+    "ja": "入れている・置いている",
+    "note": "put の現在分詞"
+  },
+  {
+    "word": "quarrelling",
+    "ja": "言い争っている",
+    "note": "quarrel の現在分詞"
+  },
+  {
+    "word": "queen’s",
+    "ja": "女王の",
+    "note": "Queen の所有格"
+  },
+  {
+    "word": "quite",
+    "ja": "かなり・すっかり・まったく",
+    "note": "程度の副詞"
+  },
+  {
+    "word": "rain",
+    "ja": "雨",
+    "note": "雨が降ること"
+  },
+  {
+    "word": "raining",
+    "ja": "雨が降っている",
+    "note": "rain の現在分詞"
+  },
+  {
+    "word": "ran",
+    "ja": "走った・延びていた",
+    "note": "run の過去形"
+  },
+  {
+    "word": "rare",
+    "ja": "珍しい・希少な",
+    "note": "宝石の価値"
+  },
+  {
+    "word": "ready",
+    "ja": "用意できた・完成した",
+    "note": "ready in time は時間に間に合う"
+  },
+  {
+    "word": "really",
+    "ja": "本当に",
+    "note": "強調"
+  },
+  {
+    "word": "red",
+    "ja": "赤い",
+    "note": "色"
+  },
+  {
+    "word": "redder",
+    "ja": "より赤い",
+    "note": "red の比較級"
+  },
+  {
+    "word": "reeds",
+    "ja": "葦たち・葦の茂み",
+    "note": "Reed の複数形"
+  },
+  {
+    "word": "remarkable",
+    "ja": "注目すべき・珍しい",
+    "note": "驚きを表す形容詞"
+  },
+  {
+    "word": "rich",
+    "ja": "裕福な人々・豊かな",
+    "note": "the rich で「富裕層」"
+  },
+  {
+    "word": "right",
+    "ja": "正しい・右",
+    "note": "価値判断・方向"
+  },
+  {
+    "word": "river",
+    "ja": "川",
+    "note": "水路"
+  },
+  {
+    "word": "roof",
+    "ja": "屋根",
+    "note": "建築物の上部"
+  },
+  {
+    "word": "room",
+    "ja": "部屋",
+    "note": "空間"
+  },
+  {
+    "word": "rose",
+    "ja": "昇った",
+    "note": "rise の過去形。花のバラも同形"
+  },
+  {
+    "word": "round",
+    "ja": "周囲に・ぐるぐると",
+    "note": "位置・循環"
+  },
+  {
+    "word": "rows",
+    "ja": "列",
+    "note": "row の複数形"
+  },
+  {
+    "word": "running",
+    "ja": "流れている・走っている",
+    "note": "run の現在分詞"
+  },
+  {
+    "word": "sad",
+    "ja": "悲しい",
+    "note": "感情"
+  },
+  {
+    "word": "said",
+    "ja": "言った",
+    "note": "say の過去形"
+  },
+  {
+    "word": "sail",
+    "ja": "船で渡る・航行する",
+    "note": "水上の移動"
+  },
+  {
+    "word": "sank",
+    "ja": "沈んだ・陥った",
+    "note": "sink の過去形"
+  },
+  {
+    "word": "sans-souci",
+    "ja": "サン・スーシ（憂いなき）",
+    "note": "宮殿名。フランス語で「憂いなし」"
+  },
+  {
+    "word": "sapphire",
+    "ja": "サファイア",
+    "note": "宝石"
+  },
+  {
+    "word": "sat",
+    "ja": "座った・止まっていた",
+    "note": "sit の過去形"
+  },
+  {
+    "word": "saw",
+    "ja": "見た",
+    "note": "see の過去形"
+  },
+  {
+    "word": "sea",
+    "ja": "海",
+    "note": "広い海"
+  },
+  {
+    "word": "seamstresses",
+    "ja": "お針子たち",
+    "note": "seamstress の複数形"
+  },
+  {
+    "word": "seated",
+    "ja": "座っている",
+    "note": "seat の過去分詞形容詞"
+  },
+  {
+    "word": "second",
+    "ja": "二番目の",
+    "note": "順序"
+  },
+  {
+    "word": "see",
+    "ja": "見る・見える",
+    "note": "視覚で捉える"
+  },
+  {
+    "word": "seen",
+    "ja": "見たことがある",
+    "note": "see の過去分詞"
+  },
+  {
+    "word": "sell",
+    "ja": "売る",
+    "note": "商品を交換する"
+  },
+  {
+    "word": "set",
+    "ja": "据える・置く",
+    "note": "set up で据え付ける。活用形同じ"
+  },
+  {
+    "word": "shall",
+    "ja": "〜するだろう・〜しましょう",
+    "note": "約束・提案に使う助動詞"
+  },
+  {
+    "word": "she",
+    "ja": "彼女は",
+    "note": "三人称女性主格"
+  },
+  {
+    "word": "shines",
+    "ja": "輝く",
+    "note": "shine 三人称単数"
+  },
+  {
+    "word": "ships",
+    "ja": "船たち",
+    "note": "ship の複数形"
+  },
+  {
+    "word": "shoes",
+    "ja": "靴",
+    "note": "shoe の複数形"
+  },
+  {
+    "word": "shook",
+    "ja": "振った",
+    "note": "shake の過去形"
+  },
+  {
+    "word": "should",
+    "ja": "〜すべき・〜だろう",
+    "note": "義務・予期の助動詞"
+  },
+  {
+    "word": "shouted",
+    "ja": "叫んだ",
+    "note": "shout の過去形"
+  },
+  {
+    "word": "side",
+    "ja": "側・側面",
+    "note": "〜のそば"
+  },
+  {
+    "word": "silent",
+    "ja": "静かな・口を閉じた",
+    "note": "音がない"
+  },
+  {
+    "word": "silver",
+    "ja": "銀・銀色の",
+    "note": "金属・色"
+  },
+  {
+    "word": "sing",
+    "ja": "歌う",
+    "note": "声を出して歌う"
+  },
+  {
+    "word": "single",
+    "ja": "一つの・たった一つの",
+    "note": "not a single で一つもない"
+  },
+  {
+    "word": "sits",
+    "ja": "座っている",
+    "note": "sit の三人称単数"
+  },
+  {
+    "word": "sitting",
+    "ja": "座っている",
+    "note": "sit の現在分詞"
+  },
+  {
+    "word": "six",
+    "ja": "六",
+    "note": "数字"
+  },
+  {
+    "word": "sky",
+    "ja": "空",
+    "note": "天"
+  },
+  {
+    "word": "sleeps",
+    "ja": "眠る",
+    "note": "sleep の三人称単数"
+  },
+  {
+    "word": "sleepy",
+    "ja": "眠い",
+    "note": "sleep から派生"
+  },
+  {
+    "word": "slept",
+    "ja": "眠った",
+    "note": "sleep の過去形"
+  },
+  {
+    "word": "slowly",
+    "ja": "ゆっくり",
+    "note": "slow の副詞"
+  },
+  {
+    "word": "snake",
+    "ja": "ヘビ",
+    "note": "爬虫類"
+  },
+  {
+    "word": "snow",
+    "ja": "雪",
+    "note": "降雪"
+  },
+  {
+    "word": "so",
+    "ja": "だから・それほど・とても",
+    "note": "結果・程度"
+  },
+  {
+    "word": "softly",
+    "ja": "静かに・柔らかく",
+    "note": "声や動作の様子"
+  },
+  {
+    "word": "some",
+    "ja": "いくらかの・ある",
+    "note": "不特定の量"
+  },
+  {
+    "word": "something",
+    "ja": "何か",
+    "note": "事柄を指す"
+  },
+  {
+    "word": "sons",
+    "ja": "息子たち",
+    "note": "son の複数"
+  },
+  {
+    "word": "soon",
+    "ja": "まもなく",
+    "note": "近い未来"
+  },
+  {
+    "word": "sound",
+    "ja": "音",
+    "note": "聴覚で聞くもの"
+  },
+  {
+    "word": "sounded",
+    "ja": "音がした",
+    "note": "sound の過去形"
+  },
+  {
+    "word": "spring",
+    "ja": "春",
+    "note": "季節"
+  },
+  {
+    "word": "square",
+    "ja": "広場・四角形",
+    "note": "街の広場"
+  },
+  {
+    "word": "stand",
+    "ja": "立つ",
+    "note": "姿勢を表す"
+  },
+  {
+    "word": "stands",
+    "ja": "立っている",
+    "note": "stand 三人称単数"
+  },
+  {
+    "word": "star",
+    "ja": "星",
+    "note": "天体"
+  },
+  {
+    "word": "stars",
+    "ja": "星々",
+    "note": "star の複数形"
+  },
+  {
+    "word": "starting",
+    "ja": "出発し始めている",
+    "note": "start 現在分詞"
+  },
+  {
+    "word": "stay",
+    "ja": "とどまる・泊まる",
+    "note": "移動せず残る"
+  },
+  {
+    "word": "stayed",
+    "ja": "とどまった",
+    "note": "stay の過去形"
+  },
+  {
+    "word": "staying",
+    "ja": "滞在している",
+    "note": "stay の現在分詞"
+  },
+  {
+    "word": "still",
+    "ja": "まだ・それでも",
+    "note": "継続・譲歩"
+  },
+  {
+    "word": "stood",
+    "ja": "立っていた",
+    "note": "stand の過去形。倒置文に出る"
+  },
+  {
+    "word": "stopped",
+    "ja": "止まった",
+    "note": "stop の過去形"
+  },
+  {
+    "word": "stories",
+    "ja": "物語・話",
+    "note": "story の複数形"
+  },
+  {
+    "word": "strange",
+    "ja": "奇妙な・見知らぬ",
+    "note": "strange lands では未知の"
+  },
+  {
+    "word": "stranger",
+    "ja": "見知らぬ人・旅人",
+    "note": "strange に関連"
+  },
+  {
+    "word": "street",
+    "ja": "通り・街路",
+    "note": "道路"
+  },
+  {
+    "word": "streets",
+    "ja": "通り・街路",
+    "note": "street の複数形"
+  },
+  {
+    "word": "student’s",
+    "ja": "学生の",
+    "note": "student 所有格"
+  },
+  {
+    "word": "summer",
+    "ja": "夏",
+    "note": "季節"
+  },
+  {
+    "word": "sun",
+    "ja": "太陽",
+    "note": "天体"
+  },
+  {
+    "word": "swallows",
+    "ja": "ツバメたち",
+    "note": "swallow の複数形"
+  },
+  {
+    "word": "sword",
+    "ja": "剣",
+    "note": "武器"
+  },
+  {
+    "word": "table",
+    "ja": "テーブル",
+    "note": "家具"
+  },
+  {
+    "word": "take",
+    "ja": "取る・運ぶ",
+    "note": "持っていく"
+  },
+  {
+    "word": "talk",
+    "ja": "話す",
+    "note": "言葉で会話する"
+  },
+  {
+    "word": "talking",
+    "ja": "話している",
+    "note": "talk 現在分詞"
+  },
+  {
+    "word": "tall",
+    "ja": "背の高い・高い",
+    "note": "形容詞"
+  },
+  {
+    "word": "tell",
+    "ja": "話す・伝える",
+    "note": "情報を述べる"
+  },
+  {
+    "word": "temple",
+    "ja": "神殿",
+    "note": "宗教施設"
+  },
+  {
+    "word": "than",
+    "ja": "〜より",
+    "note": "比較級に続く"
+  },
+  {
+    "word": "thank",
+    "ja": "感謝する",
+    "note": "Thank you でありがとう"
+  },
+  {
+    "word": "that",
+    "ja": "それ・〜ということ・〜するもの",
+    "note": "指示詞・接続詞・関係代名詞"
+  },
+  {
+    "word": "the",
+    "ja": "その・あの",
+    "note": "既出・特定の対象を示す定冠詞"
+  },
+  {
+    "word": "their",
+    "ja": "彼らの・彼女らの",
+    "note": "三人称複数所有格"
+  },
+  {
+    "word": "them",
+    "ja": "彼らを・彼女らに",
+    "note": "三人称複数目的格"
+  },
+  {
+    "word": "themselves",
+    "ja": "彼ら自身",
+    "note": "複数の再帰代名詞"
+  },
+  {
+    "word": "there",
+    "ja": "そこに・〜がある",
+    "note": "there is の形式主語"
+  },
+  {
+    "word": "they",
+    "ja": "彼らは・彼女らは",
+    "note": "三人称複数主格"
+  },
+  {
+    "word": "thin",
+    "ja": "薄い・痩せた",
+    "note": "厚み・体型の形容"
+  },
+  {
+    "word": "thing",
+    "ja": "もの・こと",
+    "note": "事物"
+  },
+  {
+    "word": "things",
+    "ja": "ものごと・物",
+    "note": "things 複数形"
+  },
+  {
+    "word": "think",
+    "ja": "考える・思う",
+    "note": "思考"
+  },
+  {
+    "word": "thinking",
+    "ja": "考えること・考えている",
+    "note": "think の現在分詞"
+  },
+  {
+    "word": "third",
+    "ja": "三番目の",
+    "note": "序数"
+  },
+  {
+    "word": "this",
+    "ja": "これ・この",
+    "note": "近いものを指す"
+  },
+  {
+    "word": "those",
+    "ja": "あれら・それら",
+    "note": "those you have given away で譲ったもの"
+  },
+  {
+    "word": "though",
+    "ja": "〜だけれども",
+    "note": "譲歩"
+  },
+  {
+    "word": "thousand",
+    "ja": "千",
+    "note": "数字"
+  },
+  {
+    "word": "threw",
+    "ja": "投げた",
+    "note": "throw の過去形"
+  },
+  {
+    "word": "through",
+    "ja": "〜を通り抜けて",
+    "note": "通過の前置詞"
+  },
+  {
+    "word": "throw",
+    "ja": "投げる",
+    "note": "物を放つ"
+  },
+  {
+    "word": "throwing",
+    "ja": "投げている",
+    "note": "throw 現在分詞"
+  },
+  {
+    "word": "till",
+    "ja": "〜まで",
+    "note": "時間的限界 until に近い"
+  },
+  {
+    "word": "time",
+    "ja": "時間・時",
+    "note": "時間の長さ・時刻"
+  },
+  {
+    "word": "tire",
+    "ja": "飽きる・疲れさせる",
+    "note": "tire of で飽きる"
+  },
+  {
+    "word": "tired",
+    "ja": "疲れた・飽きた",
+    "note": "tire の過去分詞"
+  },
+  {
+    "word": "to",
+    "ja": "〜へ・〜するために",
+    "note": "前置詞または不定詞の印"
+  },
+  {
+    "word": "to-morrow",
+    "ja": "明日",
+    "note": "古い綴り、現代は tomorrow"
+  },
+  {
+    "word": "to-night",
+    "ja": "今夜",
+    "note": "古い綴り、現代は tonight"
+  },
+  {
+    "word": "told",
+    "ja": "話した・伝えた",
+    "note": "tell の過去形"
+  },
+  {
+    "word": "too",
+    "ja": "あまりに・〜もまた",
+    "note": "程度や追加"
+  },
+  {
+    "word": "top",
+    "ja": "上・頂上",
+    "note": "on top of で〜の上に"
+  },
+  {
+    "word": "touching",
+    "ja": "触れている",
+    "note": "touch の現在分詞"
+  },
+  {
+    "word": "tower",
+    "ja": "塔",
+    "note": "高い建物"
+  },
+  {
+    "word": "town",
+    "ja": "町・街",
+    "note": "都市より小規模"
+  },
+  {
+    "word": "tried",
+    "ja": "試みた・努力した",
+    "note": "try の過去形"
+  },
+  {
+    "word": "try",
+    "ja": "試みる",
+    "note": "attempt に近い"
+  },
+  {
+    "word": "trying",
+    "ja": "しようとしている",
+    "note": "try の現在分詞"
+  },
+  {
+    "word": "twenty",
+    "ja": "二十",
+    "note": "数字"
+  },
+  {
+    "word": "two",
+    "ja": "二つ・二人",
+    "note": "数字"
+  },
+  {
+    "word": "under",
+    "ja": "〜の下に",
+    "note": "位置"
+  },
+  {
+    "word": "university",
+    "ja": "大学",
+    "note": "高等教育機関"
+  },
+  {
+    "word": "up",
+    "ja": "上へ・起きて",
+    "note": "方向・完了を示す副詞"
+  },
+  {
+    "word": "use",
+    "ja": "役に立つこと・使う",
+    "note": "What is the use of ... は「何の役に立つか」"
+  },
+  {
+    "word": "used",
+    "ja": "以前は〜した・使った",
+    "note": "used to は過去の習慣"
+  },
+  {
+    "word": "very",
+    "ja": "とても",
+    "note": "程度の強調"
+  },
+  {
+    "word": "visited",
+    "ja": "訪れた",
+    "note": "visit の過去形"
+  },
+  {
+    "word": "voice",
+    "ja": "声",
+    "note": "発話の音"
+  },
+  {
+    "word": "wait",
+    "ja": "待つ",
+    "note": "時間を過ごす"
+  },
+  {
+    "word": "waited",
+    "ja": "待った・待たれている",
+    "note": "wait の過去分詞"
+  },
+  {
+    "word": "walk",
+    "ja": "歩く",
+    "note": "歩行"
+  },
+  {
+    "word": "walking",
+    "ja": "歩いている",
+    "note": "walk の現在分詞"
+  },
+  {
+    "word": "wall",
+    "ja": "壁",
+    "note": "仕切り"
+  },
+  {
+    "word": "war",
+    "ja": "戦争",
+    "note": "at war with で戦争をしている"
+  },
+  {
+    "word": "warm",
+    "ja": "暖かい",
+    "note": "温度・心理"
+  },
+  {
+    "word": "was",
+    "ja": "〜だった・いた",
+    "note": "be 動詞の過去単数"
+  },
+  {
+    "word": "watched",
+    "ja": "見守った",
+    "note": "watch の過去形"
+  },
+  {
+    "word": "watches",
+    "ja": "見守る",
+    "note": "watch の三人称単数"
+  },
+  {
+    "word": "watching",
+    "ja": "見ている",
+    "note": "watch の現在分詞"
+  },
+  {
+    "word": "water",
+    "ja": "水",
+    "note": "液体"
+  },
+  {
+    "word": "water’s",
+    "ja": "水の",
+    "note": "water 所有格"
+  },
+  {
+    "word": "we",
+    "ja": "私たちは",
+    "note": "一人称複数主格"
+  },
+  {
+    "word": "wear",
+    "ja": "身につける",
+    "note": "衣類を着る"
+  },
+  {
+    "word": "weeks",
+    "ja": "週間",
+    "note": "week の複数"
+  },
+  {
+    "word": "well",
+    "ja": "よく・上手に",
+    "note": "方法・程度"
+  },
+  {
+    "word": "went",
+    "ja": "行った",
+    "note": "go の過去形"
+  },
+  {
+    "word": "were",
+    "ja": "〜だった・いた",
+    "note": "be 動詞の過去複数"
+  },
+  {
+    "word": "what",
+    "ja": "何・〜すること",
+    "note": "疑問詞・関係詞"
+  },
+  {
+    "word": "when",
+    "ja": "いつ・〜するとき",
+    "note": "疑問・時間"
+  },
+  {
+    "word": "whenever",
+    "ja": "〜するたびに",
+    "note": "時を表す接続詞"
+  },
+  {
+    "word": "where",
+    "ja": "どこ・〜する場所",
+    "note": "場所の疑問・関係副詞"
+  },
+  {
+    "word": "wherever",
+    "ja": "どこで〜しても",
+    "note": "場所の無条件"
+  },
+  {
+    "word": "which",
+    "ja": "どれ・〜するもの",
+    "note": "疑問・関係代名詞"
+  },
+  {
+    "word": "while",
+    "ja": "〜している間・一方で",
+    "note": "時間・対照"
+  },
+  {
+    "word": "white",
+    "ja": "白い",
+    "note": "色"
+  },
+  {
+    "word": "why",
+    "ja": "なぜ",
+    "note": "理由を尋ねる"
+  },
+  {
+    "word": "wife",
+    "ja": "妻",
+    "note": "婚姻関係"
+  },
+  {
+    "word": "will",
+    "ja": "〜するだろう・〜するつもり",
+    "note": "未来・意思"
+  },
+  {
+    "word": "wind",
+    "ja": "風",
+    "note": "空気の動き"
+  },
+  {
+    "word": "windows",
+    "ja": "窓たち",
+    "note": "window の複数"
+  },
+  {
+    "word": "wings",
+    "ja": "翼",
+    "note": "wing 複数"
+  },
+  {
+    "word": "winter",
+    "ja": "冬",
+    "note": "季節"
+  },
+  {
+    "word": "wished",
+    "ja": "望んだ",
+    "note": "wish の過去形"
+  },
+  {
+    "word": "with",
+    "ja": "〜と一緒に・〜を用いて",
+    "note": "同行・手段・所持"
+  },
+  {
+    "word": "woman",
+    "ja": "女性",
+    "note": "成人女性"
+  },
+  {
+    "word": "woman’s",
+    "ja": "女性の",
+    "note": "woman 所有格"
+  },
+  {
+    "word": "women",
+    "ja": "女性たち",
+    "note": "woman の複数"
+  },
+  {
+    "word": "words",
+    "ja": "単語・言葉",
+    "note": "word 複数"
+  },
+  {
+    "word": "wore",
+    "ja": "着ていた",
+    "note": "wear の過去形"
+  },
+  {
+    "word": "workmen",
+    "ja": "労働者たち",
+    "note": "workman の複数形"
+  },
+  {
+    "word": "world",
+    "ja": "世界",
+    "note": "全世界"
+  },
+  {
+    "word": "would",
+    "ja": "〜だろう・〜するつもりだった",
+    "note": "will の過去・仮定"
+  },
+  {
+    "word": "write",
+    "ja": "書く",
+    "note": "文章を書く"
+  },
+  {
+    "word": "wrote",
+    "ja": "書いた",
+    "note": "write の過去形"
+  },
+  {
+    "word": "years",
+    "ja": "年",
+    "note": "year の複数形"
+  },
+  {
+    "word": "yellow",
+    "ja": "黄色の",
+    "note": "色"
+  },
+  {
+    "word": "yet",
+    "ja": "それでも・まだ",
+    "note": "逆接・時間"
+  },
+  {
+    "word": "you",
+    "ja": "あなたは・あなたを",
+    "note": "二人称主格・目的格"
+  },
+  {
+    "word": "young",
+    "ja": "若い",
+    "note": "年齢"
+  },
+  {
+    "word": "your",
+    "ja": "あなたの",
+    "note": "二人称所有格"
   }
 ]
