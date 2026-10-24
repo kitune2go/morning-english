@@ -303,5 +303,75 @@ if(litMatch){
   }
 }
 
+
+// Ensure every token in all *current* daily dialogue essays has a Japanese meaning.
+// Regenerate coverage dynamically from the registered essay manifests, not from a stale index.
+const essayGlossaryPaths=[
+  "books/happy-prince/lexicon.json",
+  "books/happy-prince/extended-glossary.json",
+  "literature/essay-glossary-abcdef.json",
+  "literature/essay-glossary-ghijkl.json",
+  "literature/essay-glossary-mnopqr.json",
+  "literature/essay-glossary-stuv.json",
+  "literature/essay-glossary-wxyz.json",
+  "literature/essay-glossary-custom.json"
+];
+const glossaryWords=new Map();
+for(const file of essayGlossaryPaths){
+  const full=path.join(root,file);
+  check(fs.existsSync(full),"essay glossary exists: "+file);
+  if(!fs.existsSync(full))continue;
+  const records=JSON.parse(fs.readFileSync(full,"utf8"));
+  check(Array.isArray(records)&&records.length>0,"essay glossary contains records: "+file);
+  const local=new Set();
+  for(const entry of records){
+    const key=typeof entry.word==="string"?entry.word.toLowerCase().replace(/’/g,"'"):"";
+    check(!!key&&!local.has(key),"valid unique glossary headword "+file+" / "+key);
+    local.add(key);
+    check(typeof entry.ja==="string"&&/[\u3040-\u30ff\u3400-\u9fff]/u.test(entry.ja)&&
+      !/未登録|意味を質問/.test(entry.ja),"Japanese glossary translation: "+file+" / "+key);
+    check(typeof entry.note==="string"&&entry.note.trim().length>0,
+      "Japanese glossary usage note: "+file+" / "+key);
+    glossaryWords.set(key,entry);
+  }
+}
+const dailyTokenForms=new Set();
+let dailyTokens=0,dailyCards=0;
+for(const w of dailyWorks){
+  const manifestPath=path.join(root,w.manifest);
+  check(fs.existsSync(manifestPath),"daily essay manifest exists: "+w.workId);
+  if(!fs.existsSync(manifestPath))continue;
+  const chapters=JSON.parse(fs.readFileSync(manifestPath,"utf8"));
+  for(const file of chapters){
+    const full=path.join(root,file);
+    check(fs.existsSync(full),"daily essay source exists: "+file);
+    if(!fs.existsSync(full))continue;
+    const cards=JSON.parse(fs.readFileSync(full,"utf8"));
+    for(const card of cards){
+      dailyCards++;
+      for(const chunk of card.chunks||[]){
+        const tokens=(chunk.en||"").match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[];
+        for(const word of tokens){
+          dailyTokens++;
+          dailyTokenForms.add(word.toLowerCase().replace(/’/g,"'"));
+        }
+      }
+    }
+  }
+}
+const missingGlosses=[...dailyTokenForms].filter(word=>!glossaryWords.has(word)).sort();
+check(missingGlosses.length===0,
+  "all daily essay words have Japanese definitions; missing: "+missingGlosses.join(", "));
+check(dailyWorks.length>=23&&dailyCards>=88&&dailyTokens>=6314,
+  "all 23 existing daily essays and 88 chapters are indexed in coverage validation");
+check(litHtml.includes("literature/essay-glossary-custom.json")&&
+  litHtml.includes("literature/essay-glossary-mnopqr.json"),
+  "literary reader loads complete supplemental glossary");
+check(litHtml.includes("https://github.com/kujirahand/EJDict"),
+  "literary reader attributes the CC0 glossary provider");
+console.log("Daily essay glossary coverage: "+dailyWorks.length+" works, "+dailyCards+
+  " chapters, "+dailyTokens+" tokens, "+dailyTokenForms.size+
+  " unique word forms, "+missingGlosses.length+" missing definitions");
+
 if(failures)process.exit(1);
 console.log("Book validation passed");
