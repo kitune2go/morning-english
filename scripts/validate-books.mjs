@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from "node:fs";
 import path from "node:path";
+import vm from "node:vm";
 const root=path.resolve(import.meta.dirname,"..");
 const file=(p)=>JSON.parse(fs.readFileSync(path.join(root,p),"utf8"));
 let failures=0;
@@ -71,5 +72,35 @@ for(const b of works){
   }
   console.log(b.id+": "+days.length+" sessions, "+paras+" paragraphs, "+words+" words; translations "+days.filter(x=>x.jp.length).length+" sessions");
 }
+
+// Regression checks for per-paragraph ChatGPT question links.
+const readerHtml=fs.readFileSync(path.join(root,"books.html"),"utf8");
+const scriptMatch=readerHtml.match(/<script>([\s\S]*?)<\/script>/);
+check(!!scriptMatch,"book reader must have an inline script");
+if(scriptMatch){
+  try{new vm.Script(scriptMatch[1],{filename:"books.html inline script"});}
+  catch(err){check(false,"book reader JavaScript syntax: "+err.message);}
+  for(const control of ["data-ask-link","data-ask-copy","data-ask-input"]){
+    check(readerHtml.includes(control),"reader must expose "+control);
+  }
+  const code=scriptMatch[1];
+  const start=code.indexOf("function askPrompt("),end=code.indexOf("async function copyAskPrompt(",start);
+  check(start>=0&&end>start,"reader prompt and URL functions exist");
+  if(start>=0&&end>start){
+    try{
+      const functions=new Function("book","current","getDay",code.slice(start,end)+"\nreturn {askPrompt,askUrl};");
+      const example=functions({title:"The Happy Prince",author:"Oscar Wilde"},7,()=>({paragraphs:["First paragraph.","He said something unusual."]}));
+      const link=example.askUrl(1,"What does unusual mean?");
+      check(link.startsWith("https://chatgpt.com/?prompt="),"link uses ChatGPT prompt URL");
+      const prompt=decodeURIComponent(link.split("?prompt=")[1]);
+      check(prompt.includes("The Happy Prince")&&prompt.includes("Oscar Wilde"),"prompt includes work metadata");
+      check(prompt.includes("Day 7")&&prompt.includes("段落 2"),"prompt includes paragraph location");
+      check(prompt.includes("He said something unusual."),"prompt includes complete paragraph");
+      check(prompt.includes("What does unusual mean?"),"prompt includes custom question");
+      check(example.askPrompt(0).includes("First paragraph."),"default prompt contains paragraph without custom question");
+    }catch(err){check(false,"reader prompt test: "+err.message);}
+  }
+}
+
 if(failures)process.exit(1);
 console.log("Book validation passed");

@@ -80,6 +80,17 @@ progress{width:100%;height:12px;accent-color:#317265}
 .vocab-note{display:block;font-size:11px;color:#65746e;margin-top:3px}
 
 .paragraph-actions{margin:5px 0 0;text-align:right}
+
+.ask-tools{margin:12px 0 8px;border:1px solid #d7e4de;background:#f3f8f5;padding:12px;border-radius:9px}
+.ask-tools>label{display:block;font-size:12px;font-weight:700;margin-bottom:6px;color:#355a50}
+.ask-input{display:block;width:100%;padding:10px;border:1px solid #aabbb0;border-radius:6px;background:#fff;font:inherit;font-size:14px;line-height:1.5;color:var(--ink);min-height:41px}
+.ask-input:focus{outline:2px solid #61887a;outline-offset:2px}
+.ask-buttons{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}
+.ask-buttons .btn{font-size:12px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
+.ask-help{color:var(--muted);font-size:11px;line-height:1.6;margin:7px 0 0}
+.ask-feedback{color:#225b42;font-size:12px;min-height:1.5em;margin:4px 0 0}
+@media(max-width:560px){.ask-buttons .btn{flex:1}}
+
 .tiny{font-size:11px;padding:4px 8px;min-height:28px;border-color:var(--line)}
 .jp{background:#f0f3ed;border-left:3px solid #6e9989;padding:12px;font-size:14px;line-height:1.85;margin:9px 0}
 .section{margin-top:22px}
@@ -156,6 +167,7 @@ footer{margin-top:24px;color:var(--muted);font-size:12px;border-top:1px solid va
 const $ = (id) => document.getElementById(id);
 const STORAGE_KEY = "morningenglish-books-progress-v1";
 let catalog = [], book = null, sessions = [], current = 1, showJp = false, showNotes = true, speechRun = 0;
+const askDrafts = new Map();
 const safe = (s) => String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
 function readStore(){
   try{const v=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");return v&&typeof v==="object"&&!Array.isArray(v)?v:{};}catch{return {};}
@@ -204,6 +216,38 @@ function showStatus(msg,error){
 function hideStatus(){$("status").classList.add("hidden");}
 function validDay(n){return Number.isInteger(n)&&n>=1&&n<=sessions.length;}
 function getDay(){return sessions[current-1];}
+
+function askDraftKey(paragraphIndex){
+  return book.id+":"+current+":"+paragraphIndex;
+}
+function askPrompt(paragraphIndex, question=""){
+  const paragraph=getDay().paragraphs[paragraphIndex];
+  const place=book.title+"（"+book.author+"） / Day "+current+" / 段落 "+(paragraphIndex+1);
+  const userQuestion=String(question||"").trim();
+  const request=userQuestion
+    ?"質問したいこと：\n"+userQuestion+"\n\nこの質問を最優先して、必要なら語句の意味、構文、語順、文脈、自然な和訳を説明してください。"
+    :"この段落の難しい表現や構文を教えてください。特に慣用句、倒置、修飾関係、古い語法があれば取り上げ、自然な日本語訳と短い例文で説明してください。";
+  return "英語の原書を読んでいます。以下の作品・箇所について、日本語で説明してください。\n\n"
+    +"作品・位置："+place+"\n\n英文：\n"+paragraph+"\n\n"+request
+    +"\n\nまず質問への答えを示し、必要な場合だけ補足してください。";
+}
+function askUrl(paragraphIndex,question=""){
+  return "https://chatgpt.com/?prompt="+encodeURIComponent(askPrompt(paragraphIndex,question));
+}
+async function copyAskPrompt(paragraphIndex,question){
+  const content=askPrompt(paragraphIndex,question);
+  if(navigator.clipboard?.writeText){
+    try{await navigator.clipboard.writeText(content);return true;}catch(e){/* fallback */}
+  }
+  const temp=document.createElement("textarea");
+  temp.value=content;temp.readOnly=true;temp.style.position="fixed";temp.style.left="-9999px";
+  document.body.appendChild(temp);temp.select();
+  let ok=false;
+  try{ok=document.execCommand("copy");}catch(e){ok=false;}
+  temp.remove();
+  return ok;
+}
+
 function render(){
   if(!book||!sessions.length)return;
   const data=getDay(),st=bookState(),translated=data.jp&&data.jp.length===data.paragraphs.length;
@@ -252,7 +296,18 @@ function render(){
         '<h4>重要表現・構文</h4><ul class="focus-list">'+expressions+'</ul>'+
         '<h4>段落内の単語・熟語</h4><div class="word-list">'+vocabulary+'</div></details>';
     }
-    return '<section class="text-block"><div class="paragraph-number">PARAGRAPH '+String(i+1).padStart(2,"0")+'</div><p class="paragraph" lang="en">'+safe(p)+'</p><div class="paragraph-actions"><button class="btn tiny" data-read-index="'+i+'" type="button" aria-label="段落'+(i+1)+'を英語で読む">▶ この段落</button></div>'+jp+detailsHtml+"</section>";
+    const draft=askDrafts.get(askDraftKey(i))||"";
+    const queryId="ask-"+safe(book.id)+"-"+current+"-"+i;
+    const askBox='<div class="ask-tools">'+
+      '<label for="'+queryId+'">この段落をチャッピーに質問する</label>'+
+      '<input class="ask-input" type="text" id="'+queryId+'" data-ask-input="'+i+'" maxlength="400" value="'+safe(draft)+'" placeholder="例：for eyes はどんな構文？（未入力でも質問できます）">'+
+      '<div class="ask-buttons">'+
+      '<a class="btn primary" data-ask-link="'+i+'" href="'+safe(askUrl(i,draft))+'" target="_blank" rel="noopener noreferrer">↗ チャッピーに質問</a>'+
+      '<button class="btn" data-ask-copy="'+i+'" type="button">質問文をコピー</button>'+
+      '</div>'+
+      '<p class="ask-help">作品名・Day・段落番号・英文を自動で含めます。リンク先では内容を確認して送信してください。入力欄に質問を書くと、その内容を優先します。</p>'+
+      '<div class="ask-feedback" data-ask-feedback="'+i+'" role="status" aria-live="polite"></div></div>';
+    return '<section class="text-block"><div class="paragraph-number">PARAGRAPH '+String(i+1).padStart(2,"0")+'</div><p class="paragraph" lang="en">'+safe(p)+'</p><div class="paragraph-actions"><button class="btn tiny" data-read-index="'+i+'" type="button" aria-label="段落'+(i+1)+'を英語で読む">▶ この段落</button></div>'+askBox+jp+detailsHtml+"</section>";
   }).join("");
   const chunks=paragraphDetails?"":(data.chunks||[]).length?'<section class="section"><h3>チャンク分解</h3><ul class="chunks">'+data.chunks.map(x=>'<li><div class="chunk-en">'+safe(x.en)+'</div><div class="chunk-ja">'+safe(x.ja)+'</div></li>').join("")+"</ul></section>":"";
   const grammar=(data.grammar||[]).length?'<section class="section"><h3>この回の追加文法ポイント</h3><ol class="grammar">'+data.grammar.map(x=>"<li>"+safe(x)+"</li>").join("")+"</ol></section>":"";
@@ -302,7 +357,38 @@ $("toggleJp").addEventListener("click",()=>{showJp=!showJp;render();});
 $("toggleNotes").addEventListener("click",()=>{showNotes=!showNotes;render();});
 $("readAll").addEventListener("click",()=>{if(sessions.length)speakParagraphs(getDay().paragraphs);});
 $("stopAudio").addEventListener("click",stopSpeech);
-$("textContent").addEventListener("click",(e)=>{
+$("textContent").addEventListener("input",(e)=>{
+  const input=e.target.closest("[data-ask-input]");
+  if(!input)return;
+  const i=Number(input.dataset.askInput);
+  if(!Number.isInteger(i)||i<0||i>=getDay().paragraphs.length)return;
+  askDrafts.set(askDraftKey(i),input.value);
+  const link=input.closest(".ask-tools")?.querySelector("[data-ask-link]");
+  if(link)link.href=askUrl(i,input.value);
+  const feedback=input.closest(".ask-tools")?.querySelector("[data-ask-feedback]");
+  if(feedback)feedback.textContent="";
+});
+$("textContent").addEventListener("click",async(e)=>{
+  const copy=e.target.closest("[data-ask-copy]");
+  if(copy){
+    const i=Number(copy.dataset.askCopy);
+    if(!Number.isInteger(i)||i<0||i>=getDay().paragraphs.length)return;
+    const area=copy.closest(".ask-tools");
+    const question=area?.querySelector("[data-ask-input]")?.value||"";
+    const feedback=area?.querySelector("[data-ask-feedback]");
+    const result=await copyAskPrompt(i,question);
+    if(feedback)feedback.textContent=result?"質問文をコピーしました。ChatGPTに貼り付けて送信できます。":"自動コピーできませんでした。ChatGPTへのリンクをご利用ください。";
+    return;
+  }
+  const link=e.target.closest("[data-ask-link]");
+  if(link){
+    const i=Number(link.dataset.askLink);
+    if(Number.isInteger(i)&&i>=0&&i<getDay().paragraphs.length){
+      const q=link.closest(".ask-tools")?.querySelector("[data-ask-input]")?.value||"";
+      link.href=askUrl(i,q);
+    }
+    return;
+  }
   const chunk=e.target.closest("[data-read-chunk]");
   if(chunk){
     const [pi,ci]=chunk.dataset.readChunk.split(":").map(Number);
