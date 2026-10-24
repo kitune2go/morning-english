@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 142,
+    "_generatedAt": "2026-10-25T01:56:11+09:00",
+    "sentence": "Even when delivery is advertised as free, moving many small packages still requires time, physical effort, parking space, and paid labor.",
+    "phonetic": "イーヴン ウェン デリヴァリー イズ アドヴァタイズド アズ フリー、ムーヴィング メニー スモール パッキジズ スティル リクワイアズ タイム、フィジカル エフォート、パーキング スペイス、アンド ペイド レイバー。",
+    "japaneseTranslation": "配送が無料と宣伝されていても、多数の小さな荷物を運ぶには、時間、身体的労力、駐車場所、そして有償の労働が依然として必要です。",
+    "theme": "送料無料表示の背後に残る物流労働",
+    "coreVerb": "require",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Delivery requires labor.",
+        "translation": "配送には労働が必要です。"
+      },
+      "phase2": {
+        "sentence": "Moving packages requires time and labor.",
+        "translation": "荷物を運ぶには時間と労働が必要です。",
+        "addedChunks": "time and labor"
+      },
+      "phase3": {
+        "sentence": "Even when delivery is free, moving packages requires labor.",
+        "translation": "配送が無料でも、荷物を運ぶには労働が必要です。",
+        "connector": "even when"
+      },
+      "phase4": {
+        "sentence": "Moving many small packages requires more handling than moving one large load.",
+        "translation": "多数の小さな荷物を運ぶ方が、一つの大きな荷を運ぶより多くの取り扱いが必要です。",
+        "comparison": "more ... than"
+      },
+      "phase5": {
+        "sentence": "Even when delivery is advertised as free,",
+        "translation": "配送が無料と宣伝されていても、",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Even when delivery",
+          "function": "時間",
+          "translation": "配送が"
+        },
+        {
+          "text": "is advertised as free,",
+          "function": "状態",
+          "translation": "無料と宣伝されていても、"
+        },
+        {
+          "text": "moving many small packages",
+          "function": "行動",
+          "translation": "多数の小さな荷物を運ぶには、"
+        },
+        {
+          "text": "still requires time,",
+          "function": "結果",
+          "translation": "依然として時間が必要です"
+        },
+        {
+          "text": "physical effort, parking space,",
+          "function": "対象",
+          "translation": "身体的労力と駐車場所、"
+        },
+        {
+          "text": "and paid labor.",
+          "function": "対象",
+          "translation": "そして有償の労働が。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続詞",
+          "name": "even when",
+          "where": "Even when delivery...",
+          "explanation": "譲歩を含む条件を示します。",
+          "rule": "Even when + 主語 + 動詞, 主節"
+        },
+        {
+          "category": "受動態",
+          "name": "is advertised",
+          "where": "delivery is advertised",
+          "explanation": "配送がどう宣伝されるかに焦点を置きます。",
+          "rule": "be + 過去分詞"
+        },
+        {
+          "category": "語法",
+          "name": "as free",
+          "where": "advertised as free",
+          "explanation": "「無料として宣伝される」を表します。",
+          "rule": "advertise A as B"
+        },
+        {
+          "category": "動名詞主語",
+          "name": "moving",
+          "where": "moving many small packages",
+          "explanation": "行為全体を主語にします。",
+          "rule": "-ing句 + 単数動詞"
+        },
+        {
+          "category": "副詞",
+          "name": "still",
+          "where": "still requires",
+          "explanation": "表示に反して必要性が残ることを示します。",
+          "rule": "still + 動詞"
+        },
+        {
+          "category": "主語動詞一致",
+          "name": "requires",
+          "where": "moving ... requires",
+          "explanation": "動名詞句を単数扱いにします。",
+          "rule": "動名詞句 + 三単現"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Even when delivery advertise as free",
+          "correct": "Even when delivery is advertised as free",
+          "why": "受動態にはbe動詞が必要です。"
+        },
+        {
+          "wrong": "moving packages still require time",
+          "correct": "moving packages still requires time",
+          "why": "動名詞句主語は単数扱いです。"
+        },
+        {
+          "wrong": "requires for paid labor",
+          "correct": "requires paid labor",
+          "why": "requireは目的語を直接取ります。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Free shipping changes who pays, not whether transportation consumes resources.",
+          "translation": "送料無料は誰が払うかを変えるだけで、輸送が資源を使う事実は変えません。"
+        },
+        {
+          "text": "A simple tap can hide the time and labor needed for the last mile.",
+          "translation": "簡単なタップ操作は、ラストワンマイルに必要な時間と労働を隠すことがあります。"
+        },
+        {
+          "text": "Boxes do not reach a doorstep without vehicles, space, scheduling, and human effort.",
+          "translation": "荷物は、車両、場所、日程調整、人の労力なしに玄関へ届きません。"
+        }
+      ],
+      "parseTree": "[AdvCl Even when [NP delivery] [VP is advertised as free]], [S [GerundP moving many small packages] [VP still requires [NP time, physical effort, parking space, and paid labor]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Delivery is advertised as free.",
+          "expanded": "Delivery may be advertised as free because its cost is included elsewhere in the transaction.",
+          "nuance": "費用が別の場所に含まれる可能性を示します。"
+        },
+        {
+          "original": "Moving packages requires labor.",
+          "expanded": "Moving packages requires labor because each item must be sorted, loaded, transported, and handed over.",
+          "nuance": "物流工程を因果として展開します。"
+        },
+        {
+          "original": "Small packages create handling work.",
+          "expanded": "When orders are divided into many small packages, repeated stops and handoffs increase the work.",
+          "nuance": "個数増加が反復作業を増やすことを示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Time and paid labor are still required even when delivery is advertised as free.",
+          "translation": "配送が無料と宣伝されても、時間と有償労働は依然として必要です。",
+          "note": "必要資源を主語へ移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Advertised as free, delivery can appear costless while workers still bear physical demands.",
+          "translation": "無料と宣伝されることで、作業者が身体的負担を負っていても配送は無コストに見えます。",
+          "note": "広告上の状態を分詞句で圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The invisibility of delivery costs does not eliminate logistical labor.",
+          "translation": "配送費用が見えないことは、物流労働をなくしません。",
+          "note": "見えにくさを名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "require",
+            "alternatives": [
+              "need",
+              "demand",
+              "depend on"
+            ],
+            "nuance": "requireは、工程成立に不可欠な条件を明確に示します。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "譲歩",
+            "sentence": "Even when a service looks free, someone must absorb its cost.",
+            "translation": "サービスが無料に見えても、誰かがその費用を負担しなければなりません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Many small deliveries require more stops than one consolidated shipment.",
+            "translation": "多数の小口配送は、一つにまとめた配送より多くの停車を必要とします。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If delivery fees disappear from the receipt, labor costs do not disappear from the system.",
+            "translation": "領収書から配送料が消えても、システムから人件費が消えるわけではありません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the price label, not the labor, that becomes invisible.",
+            "translation": "見えなくなるのは労働ではなく価格表示です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Free shipping is not labor-free shipping.",
+            "translation": "送料無料は、労働不要の配送ではありません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "譲歩節と動名詞主語の接続が自然で、必要資源の列挙も具体的。"
+    }
+  }
+]
