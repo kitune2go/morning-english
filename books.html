@@ -327,16 +327,16 @@ function toggleChapterRead(day){
   updateState({completed:[...completed].sort((a,b)=>a-b)});
   render();
 }
-function renderChapterIndex(completed){
+function renderChapterIndex(completed,state=bookState()){
   $("daySelect").innerHTML=sessions.map(d=>'<option value="'+d.day+'">'+(completed.has(d.day)?"✓ ":"○ ")+"Day "+String(d.day).padStart(2,"0")+" — "+safe(d.title)+'</option>').join("");
   $("daySelect").value=String(current);
   $("chapterIndexCount").textContent="（"+completed.size+" / "+sessions.length+" 回 既読）";
   $("chapterList").innerHTML=sessions.map(d=>{
-    const read=completed.has(d.day),active=d.day===current,day=String(d.day).padStart(2,"0");
+    const read=completed.has(d.day),active=d.day===current,day=String(d.day).padStart(2,"0"),mark=paragraphMarkFor(d.day,state);
     return '<div class="chapter-entry'+(read?" read":"")+(active?" current":"")+'">'+
       '<button type="button" class="chapter-go" data-go-day="'+d.day+'"'+(active?' aria-current="page"':"")+' aria-label="Day '+day+" "+safe(d.title)+'を読む">'+
       '<span class="chapter-go-name">'+(read?"✓ ":"○ ")+"Day "+day+" — "+safe(d.title)+'</span>'+
-      '<span class="chapter-go-state">'+(active?"閲覧中 · ":"")+(read?"既読":"未読")+' · '+d.wordCount+'語</span></button>'+
+      '<span class="chapter-go-state">'+(active?"閲覧中 · ":"")+(read?"既読":"未読")+' · '+d.wordCount+'語'+(mark?' · <span class="bookmark-note">↪ 段落 '+mark+'から再開</span>':"")+'</span></button>'+
       '<button type="button" class="chapter-read" data-toggle-chapter="'+d.day+'" aria-pressed="'+read+'" aria-label="Day '+day+(read?"の既読を解除":"を既読にする")+'">'+(read?"✓ 既読":"既読にする")+'</button></div>';
   }).join("");
 }
@@ -380,7 +380,7 @@ function render(){
   $("reader").hidden=false;
   $("bookSelect").value=book.id;
   const completed=completedDaySet(st);
-  renderChapterIndex(completed);
+  renderChapterIndex(completed,st);
   $("bookTitle").textContent=book.titleJa?book.title+" — "+book.titleJa:book.title;
   $("bookMeta").textContent=book.author+" ・ "+sessions.length+"回構成";
   $("bookDescription").textContent=book.description||"";
@@ -435,7 +435,9 @@ function render(){
       '</div>'+
       '<p class="ask-help">作品名・Day・段落番号・英文を自動で含めます。リンク先では内容を確認して送信してください。入力欄に質問を書くと、その内容を優先します。</p>'+
       '<div class="ask-feedback" data-ask-feedback="'+i+'" role="status" aria-live="polite"></div></div>';
-    return '<section class="text-block"><div class="paragraph-number">PARAGRAPH '+String(i+1).padStart(2,"0")+'</div><p class="paragraph" lang="en">'+safe(p)+'</p><div class="paragraph-actions"><button class="btn tiny" data-read-index="'+i+'" type="button" aria-label="段落'+(i+1)+'を英語で読む">▶ この段落</button></div>'+askBox+jp+detailsHtml+"</section>";
+    const marked=paragraphMarkFor(current,st)===i+1;
+    const bookButton='<button class="btn tiny paragraph-bookmark" data-mark-paragraph="'+(i+1)+'" type="button" aria-pressed="'+marked+'" aria-label="段落'+(i+1)+'を再開位置に'+(marked?'指定済み。解除する':'指定する')+'">'+(marked?'✓ しおり済み（解除）':'□ ここから再開')+'</button>';
+    return '<section class="text-block'+(marked?' bookmarked':'')+'" id="reader-paragraph-'+(i+1)+'"><div class="paragraph-number">PARAGRAPH '+String(i+1).padStart(2,"0")+'</div><p class="paragraph" lang="en">'+safe(p)+'</p><div class="paragraph-actions"><button class="btn tiny" data-read-index="'+i+'" type="button" aria-label="段落'+(i+1)+'を英語で読む">▶ この段落</button>'+bookButton+'</div>'+askBox+jp+detailsHtml+"</section>";
   }).join("");
   const chunks=paragraphDetails?"":(data.chunks||[]).length?'<section class="section"><h3>チャンク分解</h3><ul class="chunks">'+data.chunks.map(x=>'<li><div class="chunk-en">'+safe(x.en)+'</div><div class="chunk-ja">'+safe(x.ja)+'</div></li>').join("")+"</ul></section>":"";
   const grammar=(data.grammar||[]).length?'<section class="section"><h3>この回の追加文法ポイント</h3><ol class="grammar">'+data.grammar.map(x=>"<li>"+safe(x)+"</li>").join("")+"</ol></section>":"";
@@ -444,15 +446,17 @@ function render(){
   const more=translated?"":'<p class="muted section">この回の段落対訳は未登録です。全文チャンク・重要表現・語彙解説は各段落に付いています。</p>';
   $("notesArea").innerHTML=showNotes?chunks+grammar+words+reading+more:"";
   $("notesArea").classList.toggle("hidden",!showNotes);
+  syncBookmarkUi(st);
 }
-function changeDay(n){
+function changeDay(n,paragraph=null){
   if(!validDay(n))return;
   stopSpeech();
   current=n;
   showJp=false;
   updateState({lastDay:n});
   render();
-  window.scrollTo({top:0,behavior:"smooth"});
+  if(validParagraph(n,paragraph))scheduleParagraphJump(n,paragraph);
+  else window.scrollTo({top:0,behavior:"smooth"});
 }
 async function loadBook(id){
   const chosen=catalog.find(x=>x.id===id);
@@ -463,12 +467,13 @@ async function loadBook(id){
   if(!Array.isArray(d)||d.length===0||!d.every((x,i)=>x.day===i+1&&Array.isArray(x.paragraphs)&&x.paragraphs.length))throw new Error("本文データの形式が不正です");
   book=chosen;
   sessions=d;
-  const saved=bookState();
-  current=validDay(saved.lastDay)?saved.lastDay:1;
+  const saved=bookState(),resume=resumeMark(saved);
+  current=resume?resume.day:(validDay(saved.lastDay)?saved.lastDay:1);
   showJp=false;
   $("bookSelect").value=book.id;
   render();
   hideStatus();
+  if(resume)scheduleParagraphJump(resume.day,resume.paragraph);
 }
 async function init(){
   try{
@@ -478,18 +483,19 @@ async function init(){
     await loadBook(catalog[0].id);
   }catch(e){console.error(e);showStatus("読書データを読み込めませんでした: "+e.message,true);}
 }
-$("daySelect").addEventListener("change",(e)=>changeDay(Number(e.target.value)));
+$("daySelect").addEventListener("change",(e)=>{const day=Number(e.target.value);changeDay(day,paragraphMarkFor(day));});
 $("chapterList").addEventListener("click",(event)=>{
   const toggle=event.target.closest("[data-toggle-chapter]");
   if(toggle){toggleChapterRead(Number(toggle.dataset.toggleChapter));return;}
   const target=event.target.closest("[data-go-day]");
-  if(target)changeDay(Number(target.dataset.goDay));
+  if(target){const day=Number(target.dataset.goDay);changeDay(day,paragraphMarkFor(day));}
 });
 $("bookSelect").addEventListener("change",async(e)=>{try{await loadBook(e.target.value);}catch(err){showStatus(err.message,true);}});
 $("toggleJp").addEventListener("click",()=>{showJp=!showJp;render();});
 $("toggleNotes").addEventListener("click",()=>{showNotes=!showNotes;render();});
 $("readAll").addEventListener("click",()=>{if(sessions.length)speakParagraphs(getDay().paragraphs);});
 $("stopAudio").addEventListener("click",stopSpeech);
+$("jumpToResume").addEventListener("click",jumpToResume);
 $("textContent").addEventListener("input",(e)=>{
   const input=e.target.closest("[data-ask-input]");
   if(!input)return;
@@ -502,6 +508,8 @@ $("textContent").addEventListener("input",(e)=>{
   if(feedback)feedback.textContent="";
 });
 $("textContent").addEventListener("click",async(e)=>{
+  const mark=e.target.closest("[data-mark-paragraph]");
+  if(mark){toggleParagraphMark(current,Number(mark.dataset.markParagraph));return;}
   const copy=e.target.closest("[data-ask-copy]");
   if(copy){
     const i=Number(copy.dataset.askCopy);
