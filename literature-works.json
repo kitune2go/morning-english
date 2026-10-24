@@ -167,6 +167,20 @@
     "mode": "essay-translation"
   },
   {
+    "workId": "daily-essay-20260919",
+    "title": "「もう一つ」の外側で休む",
+    "description": "営業歌の「もう一件」、制作を続ける反復、故障と加齢が重なる競技者、試合数への疑問を通して、成果を求める「もう一つ」が身体の限界を見失う過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260919/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260920",
+    "title": "帳簿は降りた人を数えない",
+    "description": "反抗の商品化、遊びへの値札、市場からの片側だけの不参加、現場安全への責任転嫁を通して、制度の帳簿が記録しない負担と退出を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260920/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
     "workId": "daily-essay-20261023",
     "title": "人の顔をした設計図",
     "description": "叱責、陣営、噂話に吸い寄せられる職場の説明から、通路・権限・工程といった構造の問題を取り出す日次エッセイ。",
