@@ -1,0 +1,1607 @@
+[
+  {
+    "word": "above",
+    "ja": "上方に",
+    "note": "前置詞・副詞。位置を示す"
+  },
+  {
+    "word": "column",
+    "ja": "柱",
+    "note": "像などを載せる円柱"
+  },
+  {
+    "word": "statue",
+    "ja": "像",
+    "note": "彫像、人物をかたどった造形物"
+  },
+  {
+    "word": "gilded",
+    "ja": "金箔を貼られた",
+    "note": "gild の過去分詞"
+  },
+  {
+    "word": "leaves",
+    "ja": "薄片・葉",
+    "note": "ここでは金箔の「一枚一枚」"
+  },
+  {
+    "word": "sapphires",
+    "ja": "サファイア",
+    "note": "宝石 sapphire の複数形"
+  },
+  {
+    "word": "ruby",
+    "ja": "ルビー",
+    "note": "赤い宝石"
+  },
+  {
+    "word": "glowed",
+    "ja": "光り輝いた",
+    "note": "glow の過去形"
+  },
+  {
+    "word": "sword-hilt",
+    "ja": "剣の柄",
+    "note": "sword は剣、hilt は握る部分"
+  },
+  {
+    "word": "admired",
+    "ja": "称賛された",
+    "note": "admire の過去分詞"
+  },
+  {
+    "word": "indeed",
+    "ja": "実に・確かに",
+    "note": "直前の表現を強調"
+  },
+  {
+    "word": "weathercock",
+    "ja": "風見鶏",
+    "note": "風向きを示す飾り"
+  },
+  {
+    "word": "remarked",
+    "ja": "述べた",
+    "note": "会話文に添える発話動詞"
+  },
+  {
+    "word": "Councillors",
+    "ja": "市議会議員たち",
+    "note": "councillor の複数形"
+  },
+  {
+    "word": "reputation",
+    "ja": "評判・名声",
+    "note": "gain a reputation で「評判を得る」"
+  },
+  {
+    "word": "artistic",
+    "ja": "芸術的な",
+    "note": "artistic tastes は芸術的な趣味"
+  },
+  {
+    "word": "tastes",
+    "ja": "好み・趣味",
+    "note": "ここでは食べ物の「味」ではない"
+  },
+  {
+    "word": "useful",
+    "ja": "有用な",
+    "note": "有用性の尺度として使われる"
+  },
+  {
+    "word": "fearing",
+    "ja": "恐れて",
+    "note": "分詞句で理由・同時進行を説明"
+  },
+  {
+    "word": "lest",
+    "ja": "〜しないように",
+    "note": "硬い書き言葉の接続詞"
+  },
+  {
+    "word": "unpractical",
+    "ja": "実際的でない",
+    "note": "現在は impractical が一般的"
+  },
+  {
+    "word": "sensible",
+    "ja": "分別のある",
+    "note": "sensitive「敏感」と区別"
+  },
+  {
+    "word": "crying",
+    "ja": "泣いている",
+    "note": "cry の進行形・動名詞"
+  },
+  {
+    "word": "dreams",
+    "ja": "夢",
+    "note": "dream の複数形"
+  },
+  {
+    "word": "muttered",
+    "ja": "つぶやいた",
+    "note": "小声で不明瞭に言う"
+  },
+  {
+    "word": "disappointed",
+    "ja": "落胆した",
+    "note": "disappoint の過去分詞形容詞"
+  },
+  {
+    "word": "gazed",
+    "ja": "じっと見つめた",
+    "note": "gaze at ... で「〜を見つめる」"
+  },
+  {
+    "word": "wonderful",
+    "ja": "すばらしい",
+    "note": "wonder「驚き」に由来"
+  },
+  {
+    "word": "angel",
+    "ja": "天使",
+    "note": "比喩的な容姿の描写"
+  },
+  {
+    "word": "Charity",
+    "ja": "慈善",
+    "note": "慈善活動・慈善学校の文脈"
+  },
+  {
+    "word": "cathedral",
+    "ja": "大聖堂",
+    "note": "司教座のある大きな教会"
+  },
+  {
+    "word": "scarlet",
+    "ja": "鮮やかな赤色の",
+    "note": "色彩を示す形容詞"
+  },
+  {
+    "word": "cloaks",
+    "ja": "外套・マント",
+    "note": "cloak の複数形"
+  },
+  {
+    "word": "pinafores",
+    "ja": "エプロン形の上着",
+    "note": "当時の子どもの衣服"
+  },
+  {
+    "word": "Mathematical",
+    "ja": "数学の",
+    "note": "Mathematical Master は数学教師"
+  },
+  {
+    "word": "Master",
+    "ja": "教師・師",
+    "note": "ここでは男性教師の呼称"
+  },
+  {
+    "word": "know",
+    "ja": "知っている",
+    "note": "how do you know で「なぜ分かる」"
+  },
+  {
+    "word": "frowned",
+    "ja": "眉をひそめた",
+    "note": "frown の過去形"
+  },
+  {
+    "word": "severe",
+    "ja": "厳しい",
+    "note": "人の表情・態度に使う"
+  },
+  {
+    "word": "approve",
+    "ja": "認める・賛成する",
+    "note": "approve of ... で「〜をよしとする」"
+  },
+  {
+    "word": "Swallow",
+    "ja": "ツバメ",
+    "note": "鳥の名前。動詞では「飲み込む」"
+  },
+  {
+    "word": "Egypt",
+    "ja": "エジプト",
+    "note": "ツバメの渡りの目的地"
+  },
+  {
+    "word": "Reed",
+    "ja": "葦（アシ）",
+    "note": "水辺に生える細長い植物"
+  },
+  {
+    "word": "moth",
+    "ja": "蛾",
+    "note": "蝶に似た昆虫"
+  },
+  {
+    "word": "slender",
+    "ja": "ほっそりした",
+    "note": "細く優美な姿の形容"
+  },
+  {
+    "word": "waist",
+    "ja": "腰",
+    "note": "細い胴の部分"
+  },
+  {
+    "word": "attracted",
+    "ja": "惹きつけられた",
+    "note": "attract「魅了する」の過去分詞"
+  },
+  {
+    "word": "bow",
+    "ja": "お辞儀",
+    "note": "make a bow で「お辞儀する」"
+  },
+  {
+    "word": "ripples",
+    "ja": "さざ波・波紋",
+    "note": "ripple の複数形"
+  },
+  {
+    "word": "courtship",
+    "ja": "求愛",
+    "note": "恋愛・結婚に向かう働きかけ"
+  },
+  {
+    "word": "ridiculous",
+    "ja": "ばかげた",
+    "note": "否定的評価の形容詞"
+  },
+  {
+    "word": "attachment",
+    "ja": "愛着・恋愛関係",
+    "note": "ここでは恋心"
+  },
+  {
+    "word": "twittered",
+    "ja": "さえずった",
+    "note": "小鳥の鳴き声"
+  },
+  {
+    "word": "relations",
+    "ja": "親戚",
+    "note": "ここでは人間関係でなく親族"
+  },
+  {
+    "word": "autumn",
+    "ja": "秋",
+    "note": "英国式の一般的な季節語"
+  },
+  {
+    "word": "lonely",
+    "ja": "寂しい",
+    "note": "ひとりで心細い状態"
+  },
+  {
+    "word": "lady-love",
+    "ja": "恋人の女性",
+    "note": "古風な複合名詞"
+  },
+  {
+    "word": "conversation",
+    "ja": "会話",
+    "note": "have no conversation で話が合わない"
+  },
+  {
+    "word": "coquette",
+    "ja": "浮気っぽい女",
+    "note": "古風な女性像を示す語"
+  },
+  {
+    "word": "flirting",
+    "ja": "戯れている・色目を使う",
+    "note": "flirt with ... は人以外にも比喩的に使う"
+  },
+  {
+    "word": "graceful",
+    "ja": "優雅な",
+    "note": "動作の美しさ"
+  },
+  {
+    "word": "curtseys",
+    "ja": "女性の礼のお辞儀",
+    "note": "curtsy の複数形"
+  },
+  {
+    "word": "admit",
+    "ja": "認める",
+    "note": "譲歩して事実を受け入れる"
+  },
+  {
+    "word": "domestic",
+    "ja": "家庭的な",
+    "note": "家や家庭を好む"
+  },
+  {
+    "word": "consequently",
+    "ja": "したがって",
+    "note": "結論・結果を導く副詞"
+  },
+  {
+    "word": "travelling",
+    "ja": "旅行すること",
+    "note": "英国式綴り。米国式 traveling"
+  },
+  {
+    "word": "attached",
+    "ja": "愛着がある・結びついた",
+    "note": "be attached to で「〜を離れがたく思う」"
+  },
+  {
+    "word": "trifling",
+    "ja": "もてあそぶ",
+    "note": "trifle with ... で軽く扱う"
+  },
+  {
+    "word": "Pyramids",
+    "ja": "ピラミッド",
+    "note": "エジプトの古代建造物"
+  },
+  {
+    "word": "preparations",
+    "ja": "準備",
+    "note": "make preparations で「準備する」"
+  },
+  {
+    "word": "position",
+    "ja": "場所・位置",
+    "note": "寝場所を探す文脈"
+  },
+  {
+    "word": "plenty",
+    "ja": "たっぷり",
+    "note": "plenty of ... で「十分な〜」"
+  },
+  {
+    "word": "fresh",
+    "ja": "新鮮な",
+    "note": "空気の形容"
+  },
+  {
+    "word": "alighted",
+    "ja": "降り立った",
+    "note": "鳥が止まり木に降りる動作"
+  },
+  {
+    "word": "golden",
+    "ja": "金色の",
+    "note": "gold から派生した形容詞"
+  },
+  {
+    "word": "bedroom",
+    "ja": "寝室",
+    "note": "ツバメが像の足元を寝室に見立てる"
+  },
+  {
+    "word": "wing",
+    "ja": "翼",
+    "note": "鳥の体の一部"
+  },
+  {
+    "word": "drop",
+    "ja": "水滴・しずく",
+    "note": "rain drop などの液体のしずく"
+  },
+  {
+    "word": "curious",
+    "ja": "不思議な",
+    "note": "話者の驚きを表す"
+  },
+  {
+    "word": "climate",
+    "ja": "気候",
+    "note": "長期的な気象傾向"
+  },
+  {
+    "word": "dreadful",
+    "ja": "ひどい・恐ろしい",
+    "note": "程度の強い悪い評価"
+  },
+  {
+    "word": "selfishness",
+    "ja": "身勝手さ",
+    "note": "selfish の名詞形"
+  },
+  {
+    "word": "chimney-pot",
+    "ja": "煙突の先端部分",
+    "note": "暖炉の煙を出す筒"
+  },
+  {
+    "word": "determined",
+    "ja": "決心した",
+    "note": "determine to ... で〜すると決める"
+  },
+  {
+    "word": "tears",
+    "ja": "涙",
+    "note": "tear（裂く）とは発音が異なる"
+  },
+  {
+    "word": "cheeks",
+    "ja": "頬",
+    "note": "cheek の複数形"
+  },
+  {
+    "word": "moonlight",
+    "ja": "月明かり",
+    "note": "moon + light"
+  },
+  {
+    "word": "pity",
+    "ja": "哀れみ・同情",
+    "note": "be filled with pity で同情する"
+  },
+  {
+    "word": "weeping",
+    "ja": "泣いている",
+    "note": "weep の進行形。cry より文語的"
+  },
+  {
+    "word": "drenched",
+    "ja": "びしょ濡れにした",
+    "note": "drench はすっかり濡らす"
+  },
+  {
+    "word": "alive",
+    "ja": "生きて",
+    "note": "be alive で「生きている」"
+  },
+  {
+    "word": "human",
+    "ja": "人間の",
+    "note": "human heart で人間の心臓"
+  },
+  {
+    "word": "sorrow",
+    "ja": "悲しみ",
+    "note": "悲哀を表す名詞"
+  },
+  {
+    "word": "companions",
+    "ja": "仲間たち",
+    "note": "一緒に時間を過ごす人"
+  },
+  {
+    "word": "lofty",
+    "ja": "非常に高い",
+    "note": "文学的な高いの表現"
+  },
+  {
+    "word": "beyond",
+    "ja": "〜の向こうに",
+    "note": "位置や限界の先を表す"
+  },
+  {
+    "word": "courtiers",
+    "ja": "廷臣たち",
+    "note": "宮廷に仕える人たち"
+  },
+  {
+    "word": "pleasure",
+    "ja": "快楽・楽しみ",
+    "note": "happiness「幸福」と区別される"
+  },
+  {
+    "word": "ugliness",
+    "ja": "醜さ",
+    "note": "ugly の名詞形"
+  },
+  {
+    "word": "Misery",
+    "ja": "悲惨・窮乏",
+    "note": "Mystery「謎」と音を響かせる"
+  },
+  {
+    "word": "lead",
+    "ja": "鉛",
+    "note": "金属の鉛。動詞 lead と読みが異なる"
+  },
+  {
+    "word": "weep",
+    "ja": "泣く",
+    "note": "少し文語的な「泣く」"
+  },
+  {
+    "word": "solid",
+    "ja": "無垢の・中まで詰まった",
+    "note": "solid gold は純金"
+  },
+  {
+    "word": "polite",
+    "ja": "礼儀正しい",
+    "note": "社交上の慎み"
+  },
+  {
+    "word": "remarks",
+    "ja": "発言・コメント",
+    "note": "make remarks で口にする"
+  },
+  {
+    "word": "musical",
+    "ja": "音楽的な・美しい響きの",
+    "note": "ここでは声の響き"
+  },
+  {
+    "word": "worn",
+    "ja": "疲れ切った・やつれた",
+    "note": "wear の過去分詞"
+  },
+  {
+    "word": "coarse",
+    "ja": "荒れた・粗い",
+    "note": "肌の状態の描写"
+  },
+  {
+    "word": "pricked",
+    "ja": "針で刺された",
+    "note": "prick の過去分詞"
+  },
+  {
+    "word": "needle",
+    "ja": "縫い針",
+    "note": "裁縫に使う針"
+  },
+  {
+    "word": "seamstress",
+    "ja": "お針子",
+    "note": "服を縫う職業の女性"
+  },
+  {
+    "word": "embroidering",
+    "ja": "刺繍している",
+    "note": "embroider の進行形"
+  },
+  {
+    "word": "passion-flowers",
+    "ja": "トケイソウ",
+    "note": "花の名前"
+  },
+  {
+    "word": "satin",
+    "ja": "サテン・繻子",
+    "note": "光沢のある布地"
+  },
+  {
+    "word": "gown",
+    "ja": "ドレス",
+    "note": "正装の衣服"
+  },
+  {
+    "word": "maids-of-honour",
+    "ja": "女官たち",
+    "note": "女王に仕える女性たち"
+  },
+  {
+    "word": "Court-ball",
+    "ja": "宮廷舞踏会",
+    "note": "宮廷で開かれる舞踏会"
+  },
+  {
+    "word": "fever",
+    "ja": "熱病・熱",
+    "note": "高い体温を伴う病"
+  },
+  {
+    "word": "oranges",
+    "ja": "オレンジ",
+    "note": "病気の子が求める果物"
+  },
+  {
+    "word": "fastened",
+    "ja": "固定された",
+    "note": "fasten「留める」の過去分詞"
+  },
+  {
+    "word": "pedestal",
+    "ja": "台座",
+    "note": "像を据える部分"
+  },
+  {
+    "word": "messenger",
+    "ja": "使者",
+    "note": "伝言や品物を運ぶ人"
+  },
+  {
+    "word": "thirsty",
+    "ja": "喉が渇いた",
+    "note": "thirst「渇き」の形容詞"
+  },
+  {
+    "word": "lotus-flowers",
+    "ja": "蓮の花",
+    "note": "ナイル沿岸の情景に登場"
+  },
+  {
+    "word": "tomb",
+    "ja": "墓・墓所",
+    "note": "埋葬のための場所"
+  },
+  {
+    "word": "coffin",
+    "ja": "棺",
+    "note": "遺体を入れる箱"
+  },
+  {
+    "word": "wrapped",
+    "ja": "包まれた",
+    "note": "wrap の過去分詞"
+  },
+  {
+    "word": "linen",
+    "ja": "亜麻布・リネン",
+    "note": "布の素材"
+  },
+  {
+    "word": "embalmed",
+    "ja": "防腐処理をされた",
+    "note": "遺体保存の技術"
+  },
+  {
+    "word": "spices",
+    "ja": "香料",
+    "note": "香りを持つ植物性の材料"
+  },
+  {
+    "word": "jade",
+    "ja": "翡翠",
+    "note": "緑色の宝石"
+  },
+  {
+    "word": "withered",
+    "ja": "しおれた",
+    "note": "生気を失った植物の形容"
+  },
+  {
+    "word": "rude",
+    "ja": "無礼な",
+    "note": "言動に礼儀がない"
+  },
+  {
+    "word": "miller",
+    "ja": "製粉業者",
+    "note": "穀物を粉にする仕事"
+  },
+  {
+    "word": "stones",
+    "ja": "石",
+    "note": "throw stones at ... で石を投げる"
+  },
+  {
+    "word": "agility",
+    "ja": "敏捷さ",
+    "note": "素早く動ける能力"
+  },
+  {
+    "word": "disrespect",
+    "ja": "無礼",
+    "note": "敬意の欠如"
+  },
+  {
+    "word": "sorry",
+    "ja": "気の毒に思う",
+    "note": "ここでは謝罪より同情"
+  },
+  {
+    "word": "beak",
+    "ja": "くちばし",
+    "note": "鳥の口"
+  },
+  {
+    "word": "roofs",
+    "ja": "屋根",
+    "note": "roof の複数形"
+  },
+  {
+    "word": "marble",
+    "ja": "大理石",
+    "note": "彫像や建築に使う石"
+  },
+  {
+    "word": "sculptured",
+    "ja": "彫刻された",
+    "note": "sculpture の動詞的用法"
+  },
+  {
+    "word": "palace",
+    "ja": "宮殿",
+    "note": "君主の住居"
+  },
+  {
+    "word": "balcony",
+    "ja": "バルコニー",
+    "note": "建物から張り出す場所"
+  },
+  {
+    "word": "lover",
+    "ja": "恋人",
+    "note": "愛する相手"
+  },
+  {
+    "word": "State-ball",
+    "ja": "公式舞踏会",
+    "note": "王宮の儀礼的行事"
+  },
+  {
+    "word": "embroidered",
+    "ja": "刺繍された",
+    "note": "embroider の過去分詞"
+  },
+  {
+    "word": "lazy",
+    "ja": "怠惰な",
+    "note": "行為の価値判断"
+  },
+  {
+    "word": "lanterns",
+    "ja": "ランタン・灯火",
+    "note": "小型の灯り"
+  },
+  {
+    "word": "masts",
+    "ja": "帆柱",
+    "note": "船のマスト"
+  },
+  {
+    "word": "Ghetto",
+    "ja": "ゲットー",
+    "note": "歴史的にはユダヤ人の居住区"
+  },
+  {
+    "word": "bargaining",
+    "ja": "値段交渉している",
+    "note": "bargain の進行形"
+  },
+  {
+    "word": "weighing",
+    "ja": "量っている",
+    "note": "weigh の進行形"
+  },
+  {
+    "word": "copper",
+    "ja": "銅",
+    "note": "金属の一種"
+  },
+  {
+    "word": "scales",
+    "ja": "天秤・秤",
+    "note": "重さを量る道具"
+  },
+  {
+    "word": "tossing",
+    "ja": "寝返りを打つ",
+    "note": "病床で身をよじる"
+  },
+  {
+    "word": "feverishly",
+    "ja": "熱にうなされて",
+    "note": "fever の副詞形"
+  },
+  {
+    "word": "thimble",
+    "ja": "指ぬき",
+    "note": "縫い針から指を守る道具"
+  },
+  {
+    "word": "fanning",
+    "ja": "あおいでいる",
+    "note": "fan の動詞用法"
+  },
+  {
+    "word": "forehead",
+    "ja": "額",
+    "note": "顔の上部"
+  },
+  {
+    "word": "slumber",
+    "ja": "眠り",
+    "note": "sleep より文学的"
+  },
+  {
+    "word": "gently",
+    "ja": "優しく",
+    "note": "gentle の副詞形"
+  },
+  {
+    "word": "action",
+    "ja": "行い",
+    "note": "good action は善行"
+  },
+  {
+    "word": "phenomenon",
+    "ja": "現象",
+    "note": "単数形。複数 phenomena"
+  },
+  {
+    "word": "Ornithology",
+    "ja": "鳥類学",
+    "note": "鳥についての学問"
+  },
+  {
+    "word": "Professor",
+    "ja": "教授",
+    "note": "大学などの教員"
+  },
+  {
+    "word": "newspaper",
+    "ja": "新聞",
+    "note": "local newspaper で地方紙"
+  },
+  {
+    "word": "quoted",
+    "ja": "引用した",
+    "note": "quote の過去形"
+  },
+  {
+    "word": "understand",
+    "ja": "理解する",
+    "note": "難解な言葉を読む場面"
+  },
+  {
+    "word": "spirits",
+    "ja": "気分",
+    "note": "in high spirits で上機嫌"
+  },
+  {
+    "word": "prospect",
+    "ja": "見込み・予想",
+    "note": "将来への期待"
+  },
+  {
+    "word": "monuments",
+    "ja": "記念碑",
+    "note": "公共の歴史的建造物"
+  },
+  {
+    "word": "steeple",
+    "ja": "教会の尖塔",
+    "note": "church steeple"
+  },
+  {
+    "word": "Sparrows",
+    "ja": "スズメたち",
+    "note": "sparrow の複数形"
+  },
+  {
+    "word": "chirruped",
+    "ja": "さえずった",
+    "note": "小鳥の高い声"
+  },
+  {
+    "word": "distinguished",
+    "ja": "立派な・目立った",
+    "note": "称賛の形容詞"
+  },
+  {
+    "word": "commissions",
+    "ja": "頼まれ事",
+    "note": "ここでは報酬の「歩合」ではない"
+  },
+  {
+    "word": "Cataract",
+    "ja": "大滝・急流",
+    "note": "地理では滝、医学では白内障"
+  },
+  {
+    "word": "river-horse",
+    "ja": "カバ",
+    "note": "古風な呼称"
+  },
+  {
+    "word": "couches",
+    "ja": "横たわる",
+    "note": "couch を動詞として使用"
+  },
+  {
+    "word": "bulrushes",
+    "ja": "ガマなどの水草",
+    "note": "湿地帯の植物"
+  },
+  {
+    "word": "granite",
+    "ja": "花崗岩",
+    "note": "硬い岩石"
+  },
+  {
+    "word": "throne",
+    "ja": "玉座",
+    "note": "王や神が座る椅子"
+  },
+  {
+    "word": "Memnon",
+    "ja": "メムノン",
+    "note": "エジプトの古代の王に関する名称"
+  },
+  {
+    "word": "utters",
+    "ja": "発する",
+    "note": "声や言葉を出す"
+  },
+  {
+    "word": "beryls",
+    "ja": "ベリル・緑柱石",
+    "note": "鉱物の一種"
+  },
+  {
+    "word": "roar",
+    "ja": "咆哮",
+    "note": "動物の大きな鳴き声"
+  },
+  {
+    "word": "garret",
+    "ja": "屋根裏部屋",
+    "note": "安価で狭い居室"
+  },
+  {
+    "word": "leaning",
+    "ja": "身を乗り出している",
+    "note": "lean over ..."
+  },
+  {
+    "word": "desk",
+    "ja": "机",
+    "note": "執筆する場所"
+  },
+  {
+    "word": "tumbler",
+    "ja": "コップ",
+    "note": "取っ手のないグラス"
+  },
+  {
+    "word": "bunch",
+    "ja": "一束",
+    "note": "a bunch of ..."
+  },
+  {
+    "word": "violets",
+    "ja": "スミレ",
+    "note": "花の名前"
+  },
+  {
+    "word": "crisp",
+    "ja": "縮れた",
+    "note": "髪の毛の質感を表す"
+  },
+  {
+    "word": "pomegranate",
+    "ja": "ザクロ",
+    "note": "赤い果実"
+  },
+  {
+    "word": "dreamy",
+    "ja": "夢見がちな",
+    "note": "夢想的な表情を表す"
+  },
+  {
+    "word": "Director",
+    "ja": "支配人・監督",
+    "note": "この場面は劇場の責任者"
+  },
+  {
+    "word": "Theatre",
+    "ja": "劇場",
+    "note": "英国式綴り。米国式 theater"
+  },
+  {
+    "word": "grate",
+    "ja": "暖炉の火格子",
+    "note": "燃焼部の金属格子"
+  },
+  {
+    "word": "hunger",
+    "ja": "飢え",
+    "note": "食べ物がないこと"
+  },
+  {
+    "word": "faint",
+    "ja": "衰弱した",
+    "note": "気を失いそうな状態"
+  },
+  {
+    "word": "jeweller",
+    "ja": "宝石商",
+    "note": "英国式綴り。米国式 jeweler"
+  },
+  {
+    "word": "firewood",
+    "ja": "薪",
+    "note": "燃料用の木材"
+  },
+  {
+    "word": "plucked",
+    "ja": "引き抜いた",
+    "note": "pluck out で抜き取る"
+  },
+  {
+    "word": "command",
+    "ja": "命じる",
+    "note": "権威をもって指示する"
+  },
+  {
+    "word": "student",
+    "ja": "学生",
+    "note": "学んでいる人"
+  },
+  {
+    "word": "darted",
+    "ja": "素早く飛び込んだ",
+    "note": "dart は急に動く"
+  },
+  {
+    "word": "buried",
+    "ja": "うずめていた",
+    "note": "bury one's head in one's hands"
+  },
+  {
+    "word": "flutter",
+    "ja": "羽ばたき",
+    "note": "小刻みに羽が動くこと"
+  },
+  {
+    "word": "appreciated",
+    "ja": "評価された",
+    "note": "appreciate の受動態"
+  },
+  {
+    "word": "admirer",
+    "ja": "支持者・称賛者",
+    "note": "admire する人"
+  },
+  {
+    "word": "harbour",
+    "ja": "港",
+    "note": "英国式綴り。米国式 harbor"
+  },
+  {
+    "word": "vessel",
+    "ja": "船",
+    "note": "ship のやや硬い言い方"
+  },
+  {
+    "word": "sailors",
+    "ja": "船乗りたち",
+    "note": "sailor の複数形"
+  },
+  {
+    "word": "hauling",
+    "ja": "引っ張り上げている",
+    "note": "haul は力を使って引く"
+  },
+  {
+    "word": "chests",
+    "ja": "大箱・収納箱",
+    "note": "ここでは胸ではなく箱"
+  },
+  {
+    "word": "hold",
+    "ja": "船倉",
+    "note": "船内の貨物室"
+  },
+  {
+    "word": "ropes",
+    "ja": "ロープ",
+    "note": "rope の複数形"
+  },
+  {
+    "word": "Heave a-hoy",
+    "ja": "よいしょ、引き上げろ",
+    "note": "船乗りの掛け声"
+  },
+  {
+    "word": "minded",
+    "ja": "気にした",
+    "note": "mind の過去形"
+  },
+  {
+    "word": "bid",
+    "ja": "告げる",
+    "note": "bid farewell/good-bye で別れを告げる"
+  },
+  {
+    "word": "chill",
+    "ja": "身にしみる冷たさ",
+    "note": "chill snow で冷たい雪"
+  },
+  {
+    "word": "crocodiles",
+    "ja": "ワニ",
+    "note": "大型の爬虫類"
+  },
+  {
+    "word": "mud",
+    "ja": "泥",
+    "note": "湿った土"
+  },
+  {
+    "word": "lazily",
+    "ja": "ものうげに・怠惰に",
+    "note": "lazy の副詞"
+  },
+  {
+    "word": "Baalbec",
+    "ja": "バールベック",
+    "note": "中東の古代神殿都市の名"
+  },
+  {
+    "word": "doves",
+    "ja": "ハトたち",
+    "note": "平和や愛の象徴にもなる"
+  },
+  {
+    "word": "cooing",
+    "ja": "クークーと鳴いている",
+    "note": "ハトの声"
+  },
+  {
+    "word": "jewels",
+    "ja": "宝石類",
+    "note": "jewel の複数形"
+  },
+  {
+    "word": "matches",
+    "ja": "マッチ",
+    "note": "火を付ける道具"
+  },
+  {
+    "word": "gutter",
+    "ja": "側溝",
+    "note": "道端の排水溝"
+  },
+  {
+    "word": "spoiled",
+    "ja": "だめになった",
+    "note": "ぬれて使い物にならない"
+  },
+  {
+    "word": "stockings",
+    "ja": "靴下",
+    "note": "長めの脚用衣服"
+  },
+  {
+    "word": "bare",
+    "ja": "むき出しの",
+    "note": "覆われていない"
+  },
+  {
+    "word": "blind",
+    "ja": "目が見えない",
+    "note": "blind now で「今は失明している」"
+  },
+  {
+    "word": "swooped",
+    "ja": "急降下した",
+    "note": "鳥が滑り込むように動く"
+  },
+  {
+    "word": "slipped",
+    "ja": "そっと滑り込ませた",
+    "note": "slip into は中に滑り込ませる"
+  },
+  {
+    "word": "palm",
+    "ja": "手のひら",
+    "note": "樹木のヤシと同形"
+  },
+  {
+    "word": "lovely",
+    "ja": "すてきな",
+    "note": "好意的な評価"
+  },
+  {
+    "word": "shoulder",
+    "ja": "肩",
+    "note": "鳥の止まる場所"
+  },
+  {
+    "word": "ibises",
+    "ja": "トキ類",
+    "note": "水辺に暮らす鳥"
+  },
+  {
+    "word": "banks",
+    "ja": "川岸",
+    "note": "金融機関ではない"
+  },
+  {
+    "word": "Sphinx",
+    "ja": "スフィンクス",
+    "note": "古代エジプトの像"
+  },
+  {
+    "word": "desert",
+    "ja": "砂漠",
+    "note": "アクセントで dessert（デザート）と区別"
+  },
+  {
+    "word": "merchants",
+    "ja": "商人たち",
+    "note": "売買を行う人"
+  },
+  {
+    "word": "camels",
+    "ja": "ラクダ",
+    "note": "砂漠で使われる動物"
+  },
+  {
+    "word": "amber",
+    "ja": "琥珀",
+    "note": "樹脂の化石"
+  },
+  {
+    "word": "beads",
+    "ja": "ビーズ・数珠玉",
+    "note": "装飾品の粒"
+  },
+  {
+    "word": "ebony",
+    "ja": "黒檀",
+    "note": "黒く硬い木材"
+  },
+  {
+    "word": "worships",
+    "ja": "崇拝する",
+    "note": "神聖な存在を拝む"
+  },
+  {
+    "word": "crystal",
+    "ja": "水晶",
+    "note": "透明な鉱物"
+  },
+  {
+    "word": "pygmies",
+    "ja": "小柄な人々",
+    "note": "歴史的表現で、現代は文脈に注意"
+  },
+  {
+    "word": "butterflies",
+    "ja": "蝶",
+    "note": "butterfly の複数形"
+  },
+  {
+    "word": "marvellous",
+    "ja": "驚くべき",
+    "note": "英国式綴り。米国式 marvelous"
+  },
+  {
+    "word": "suffering",
+    "ja": "苦しみ",
+    "note": "身体的・社会的な困難"
+  },
+  {
+    "word": "Mystery",
+    "ja": "謎",
+    "note": "ここでは Misery と韻を踏む"
+  },
+  {
+    "word": "beggars",
+    "ja": "物乞いの人々",
+    "note": "beggar の複数形"
+  },
+  {
+    "word": "lanes",
+    "ja": "小道・路地",
+    "note": "狭い通り"
+  },
+  {
+    "word": "starving",
+    "ja": "飢えた",
+    "note": "starve の進行・形容詞"
+  },
+  {
+    "word": "listlessly",
+    "ja": "元気なく",
+    "note": "活力を失った状態"
+  },
+  {
+    "word": "archway",
+    "ja": "アーチ型の通路",
+    "note": "弓形の構造"
+  },
+  {
+    "word": "wandered",
+    "ja": "あてもなく歩いた",
+    "note": "wander の過去形"
+  },
+  {
+    "word": "Watchman",
+    "ja": "見張り番",
+    "note": "夜警や警備の人物"
+  },
+  {
+    "word": "covered",
+    "ja": "覆われた",
+    "note": "be covered with ..."
+  },
+  {
+    "word": "living",
+    "ja": "生きている人々",
+    "note": "the living で生者たち"
+  },
+  {
+    "word": "picked",
+    "ja": "つまみ取った",
+    "note": "pick off で取り除く"
+  },
+  {
+    "word": "dull",
+    "ja": "くすんだ",
+    "note": "光沢がなくなった"
+  },
+  {
+    "word": "grey",
+    "ja": "灰色の",
+    "note": "英国式綴り。米国式 gray"
+  },
+  {
+    "word": "rosier",
+    "ja": "血色がよくなった",
+    "note": "rosy の比較級"
+  },
+  {
+    "word": "bread",
+    "ja": "パン",
+    "note": "生活を支える食べ物"
+  },
+  {
+    "word": "frost",
+    "ja": "霜・厳寒",
+    "note": "凍るほどの冷え込み"
+  },
+  {
+    "word": "glistening",
+    "ja": "きらきら光る",
+    "note": "光を反射して輝く"
+  },
+  {
+    "word": "icicles",
+    "ja": "氷柱",
+    "note": "屋根などから垂れる氷"
+  },
+  {
+    "word": "daggers",
+    "ja": "短剣",
+    "note": "dagger の複数形"
+  },
+  {
+    "word": "eaves",
+    "ja": "軒先",
+    "note": "屋根の端"
+  },
+  {
+    "word": "furs",
+    "ja": "毛皮",
+    "note": "防寒の衣服"
+  },
+  {
+    "word": "skated",
+    "ja": "スケートをした",
+    "note": "skate の過去形"
+  },
+  {
+    "word": "colder",
+    "ja": "より寒い",
+    "note": "cold の比較級"
+  },
+  {
+    "word": "crumbs",
+    "ja": "パンくず",
+    "note": "小さく砕けたかけら"
+  },
+  {
+    "word": "baker",
+    "ja": "パン屋",
+    "note": "パンを焼く職業の人"
+  },
+  {
+    "word": "flapping",
+    "ja": "羽ばたかせる",
+    "note": "翼を上下に動かす"
+  },
+  {
+    "word": "strength",
+    "ja": "力",
+    "note": "残された体力"
+  },
+  {
+    "word": "murmured",
+    "ja": "ささやいた",
+    "note": "低い声で言った"
+  },
+  {
+    "word": "kiss",
+    "ja": "口づけする",
+    "note": "名詞・動詞両用"
+  },
+  {
+    "word": "lips",
+    "ja": "唇",
+    "note": "lip の複数形"
+  },
+  {
+    "word": "Death",
+    "ja": "死",
+    "note": "擬人化されている"
+  },
+  {
+    "word": "Sleep",
+    "ja": "眠り",
+    "note": "Death の兄弟として擬人化"
+  },
+  {
+    "word": "dead",
+    "ja": "死んだ",
+    "note": "die の結果状態"
+  },
+  {
+    "word": "crack",
+    "ja": "割れる音・亀裂",
+    "note": "ひびが入るときの音"
+  },
+  {
+    "word": "leaden",
+    "ja": "鉛製の",
+    "note": "lead「鉛」から派生"
+  },
+  {
+    "word": "snapped",
+    "ja": "ぽきりと折れた",
+    "note": "snap は急に折れる"
+  },
+  {
+    "word": "dreadfully",
+    "ja": "ひどく",
+    "note": "強い程度を示す副詞"
+  },
+  {
+    "word": "Mayor",
+    "ja": "市長",
+    "note": "市の行政責任者"
+  },
+  {
+    "word": "shabby",
+    "ja": "みすぼらしい",
+    "note": "外観が古びた・貧相な"
+  },
+  {
+    "word": "agreed",
+    "ja": "同意した",
+    "note": "agree with で賛成する"
+  },
+  {
+    "word": "fallen",
+    "ja": "落ちた",
+    "note": "fall の過去分詞"
+  },
+  {
+    "word": "beggar",
+    "ja": "物乞い",
+    "note": "作品内での身分差の比喩"
+  },
+  {
+    "word": "actually",
+    "ja": "実際に",
+    "note": "驚き・強調にも使う"
+  },
+  {
+    "word": "proclamation",
+    "ja": "布告・お触れ",
+    "note": "公式に公表する命令"
+  },
+  {
+    "word": "Clerk",
+    "ja": "書記",
+    "note": "Town Clerk は町の書記官"
+  },
+  {
+    "word": "suggestion",
+    "ja": "提案",
+    "note": "suggest の名詞形"
+  },
+  {
+    "word": "pulled",
+    "ja": "引き倒した",
+    "note": "pull down で取り壊す"
+  },
+  {
+    "word": "melted",
+    "ja": "溶かした",
+    "note": "melt の過去形"
+  },
+  {
+    "word": "furnace",
+    "ja": "炉",
+    "note": "金属を高温で溶かす設備"
+  },
+  {
+    "word": "Corporation",
+    "ja": "自治体組織",
+    "note": "市の法人組織・行政機関"
+  },
+  {
+    "word": "decide",
+    "ja": "決める",
+    "note": "what to do with ... と共起"
+  },
+  {
+    "word": "quarrelled",
+    "ja": "口論した",
+    "note": "英国式綴り。米国式 quarreled"
+  },
+  {
+    "word": "overseer",
+    "ja": "監督者",
+    "note": "工場・作業者を見守る人"
+  },
+  {
+    "word": "foundry",
+    "ja": "鋳造工場",
+    "note": "溶けた金属を鋳型へ入れる工場"
+  },
+  {
+    "word": "dust-heap",
+    "ja": "ごみの山",
+    "note": "ほこりやごみの堆積"
+  },
+  {
+    "word": "precious",
+    "ja": "貴重な・尊い",
+    "note": "金銭的価値だけでない"
+  },
+  {
+    "word": "Angels",
+    "ja": "天使たち",
+    "note": "Angel の複数形"
+  },
+  {
+    "word": "rightly",
+    "ja": "正しく・適切に",
+    "note": "right の副詞"
+  },
+  {
+    "word": "chosen",
+    "ja": "選んだ",
+    "note": "choose の過去分詞"
+  },
+  {
+    "word": "Paradise",
+    "ja": "楽園・天国",
+    "note": "宗教的な至福の場所"
+  },
+  {
+    "word": "evermore",
+    "ja": "永遠に",
+    "note": "for evermore は古風な表現"
+  },
+  {
+    "word": "praise",
+    "ja": "称賛する・讃える",
+    "note": "賞賛や崇敬の言葉を述べる"
+  },
+  {
+    "word": "prince",
+    "ja": "王子",
+    "note": "作品の像の名前"
+  },
+  {
+    "word": "who",
+    "ja": "誰・〜する人",
+    "note": "疑問詞、または関係代名詞"
+  },
+  {
+    "word": "then",
+    "ja": "それから・そのとき",
+    "note": "時間のつながりを示す"
+  },
+  {
+    "word": "always",
+    "ja": "いつも・ずっと",
+    "note": "ここでは永続的な約束にも使う"
+  }
+]
