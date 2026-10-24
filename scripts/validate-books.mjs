@@ -100,10 +100,10 @@ if(scriptMatch){
       const saved={completed:[1,"2",2,999,"garbage"]};
       const node=id=>nodes[id]??(nodes[id]={});
       let renderCount=0;
-      const make=new Function("sessions","current","bookState","validDay","updateState","render","$","safe",
+      const make=new Function("sessions","current","bookState","validDay","updateState","render","$","safe","paragraphMarkFor",
         code.slice(progressStart,progressEnd)+"\nreturn {completedDaySet,toggleChapterRead,renderChapterIndex};");
       const model=make(days,2,()=>saved,n=>Number.isInteger(n)&&n>=1&&n<=days.length,
-        patch=>Object.assign(saved,patch),()=>renderCount++,node,x=>String(x).replace(/</g,"&lt;"));
+        patch=>Object.assign(saved,patch),()=>renderCount++,node,x=>String(x).replace(/</g,"&lt;"),()=>null);
       let completed=model.completedDaySet();
       check([...completed].sort().join(",")==="1,2","legacy read chapters preserved and invalid/duplicate values removed");
       model.renderChapterIndex(completed);
@@ -121,6 +121,65 @@ if(scriptMatch){
       check(renderCount===2&&saved.completed.join(",")==="1,3","invalid chapter does not alter read progress");
     }catch(err){check(false,"chapter read regression test: "+err.message);}
   }
+
+  // Bookmark regression: previous chapter completion must survive; paragraph resume remains independent.
+  for(const elementId of ["resumeBar","resumeLabel","jumpToResume"]){
+    check(readerHtml.includes('id="'+elementId+'"'),"resume UI includes "+elementId);
+  }
+  check(readerHtml.includes('data-mark-paragraph'),"each paragraph has bookmark controls");
+  check(readerHtml.includes('id="reader-paragraph-'),"each paragraph is an accessible scroll destination");
+  check(code.includes("if(resume)scheduleParagraphJump(resume.day,resume.paragraph)"),
+    "opening saved book schedules an automatic jump to the bookmarked paragraph");
+  const markStart=code.indexOf("function validParagraph(");
+  const markEnd=code.indexOf("function askDraftKey(",markStart);
+  check(markStart>=0&&markEnd>markStart,"paragraph bookmark logic exists");
+  if(markStart>=0&&markEnd>markStart){
+    try{
+      const days=[{day:1,paragraphs:["A","B","C"]},{day:2,paragraphs:["D","E"]}];
+      const state={lastDay:1,completed:[1],paragraphMarks:{},resume:null};
+      const scrolled=[],changed=[],nodes={
+        resumeBar:{hidden:true},resumeLabel:{textContent:""},
+        daySelect:{},chapterIndexCount:{},chapterList:{},
+        textContent:{querySelectorAll:()=>[]},
+        "reader-paragraph-2":{scrollIntoView:opts=>scrolled.push(opts)}
+      };
+      let rerenders=0,frames=0;
+      const modelFactory=new Function("sessions","current","bookState","updateState","completedDaySet","renderChapterIndex",
+        "$","requestAnimationFrame","changeDay","validDay","book","safe",
+        code.slice(markStart,markEnd)+
+          "\nreturn {validParagraph,paragraphMarkFor,resumeMark,toggleParagraphMark,scrollToParagraph,scheduleParagraphJump,jumpToResume};");
+      const model=modelFactory(days,1,()=>state,patch=>Object.assign(state,patch),
+        ()=>new Set(state.completed),()=>{},
+        id=>nodes[id]||null,
+        callback=>{frames++;callback();},
+        (day,paragraph)=>changed.push([day,paragraph]),
+        day=>Number.isInteger(day)&&day>=1&&day<=days.length,
+        {id:"test-book"},x=>String(x).replace(/</g,"&lt;"));
+      check(model.resumeMark()===null&&model.paragraphMarkFor(1)===null,"legacy progress has no phantom bookmark");
+      model.toggleParagraphMark(1,2);
+      check(state.completed.join(",")==="1"&&state.paragraphMarks[1]===2&&state.resume.day===1&&state.resume.paragraph===2,
+        "mark paragraph without changing chapter completed status");
+      check(model.paragraphMarkFor(1)===2,"saved paragraph is retrievable after state reload");
+      model.scheduleParagraphJump(1,2);
+      check(frames===2&&scrolled.length===1&&scrolled[0].block==="start","bookmark auto-scroll targets exact paragraph");
+      model.toggleParagraphMark(1,3);
+      check(state.paragraphMarks[1]===3&&state.resume.paragraph===3,"changing bookmark moves chapter checkpoint");
+      model.toggleParagraphMark(2,1);
+      check(state.paragraphMarks[1]===3&&state.paragraphMarks[2]===1&&state.resume.day===2,
+        "each chapter keeps its own bookmark and latest resume points to last marked");
+      model.jumpToResume();
+      check(changed.length===1&&changed[0][0]===2&&changed[0][1]===1,
+        "resume navigates to bookmarked chapter and paragraph");
+      model.toggleParagraphMark(2,1);
+      check(state.paragraphMarks[1]===3&&state.paragraphMarks[2]===undefined&&model.resumeMark()===null,
+        "unchecking latest bookmark removes it but preserves other chapter bookmarks");
+      check(!model.validParagraph(1,0)&&!model.validParagraph(2,3)&&!model.validParagraph(4,1),
+        "invalid paragraph bookmarks are rejected");
+      check(nodes.chapterList.innerHTML.includes("段落 3から再開")&&rerenders===0,
+        "bookmarked chapters stay visible without rerendering reading notes");
+    }catch(err){check(false,"paragraph bookmarks test: "+err.message);}
+  }
+
   const start=code.indexOf("function askPrompt("),end=code.indexOf("async function copyAskPrompt(",start);
   check(start>=0&&end>start,"reader prompt and URL functions exist");
   if(start>=0&&end>start){
