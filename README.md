@@ -247,3 +247,20 @@ imageUrl は空文字
 imagePrompt は残す
 本文カードと音声・しおりを優先
 ```
+
+---
+
+## 8. 洋書読書（Books）
+
+入口：`books.html`（`index.html` と `literature.html` にリンクあり）
+
+- `books-manifest.json` に作品を登録し、各作品の `data` に分割された読書データJSONを指定します。
+- 初期教材は Oscar Wilde『The Happy Prince（幸福な王子）』全文。21回・85段落・3,471語を段落単位で収録しています。原文はProject Gutenberg eBook #902（GITenbergテキスト）に基づきます。
+- 冒頭Day 1〜3には段落対訳・チャンク・文法解説・読解ポイントがあり、Day 4〜21には原文と語彙補助があります。**Day 4以降の全文和訳は未登録**であり、自動生成・外部翻訳サービス送信もしていません。
+- 日本語訳は初期状態で非表示です。段落・全体のブラウザーTTS音声、速度選択、しおりに相当する前回閲覧位置、読了進捗を備えます。
+- 閲覧位置と既読状態は`localStorage`に作品別保存。ブラウザー/端末間の同期、日付による閲覧制限、通知の自動配信は行いません。
+- `node scripts/validate-books.mjs` でmanifest/連番/本文/単語数/対訳対応を検査します。`.github/workflows/validate-books.yml` にCIを登録しています。
+
+閲覧URL：`https://kitune2go.github.io/morning-english/books.html`
+
+**新作登録方法：** `books/slug/days.json` を作り、`books-manifest.json` に `id/title/titleJa/author/description/data/sourceUrl` を登録。日次データは `{day,title,wordCount,paragraphs,jp,chunks,grammar,vocabulary,readingPoint}`。翻訳がない日は`jp: []`とします。著作権・原文の利用条件は作品ごとに確認してください。

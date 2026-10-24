@@ -1,0 +1,30 @@
+name: Validate English books
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "books/**"
+      - "books-manifest.json"
+      - "books.html"
+      - "scripts/validate-books.mjs"
+      - ".github/workflows/validate-books.yml"
+  pull_request:
+    paths:
+      - "books/**"
+      - "books-manifest.json"
+      - "books.html"
+      - "scripts/validate-books.mjs"
+      - ".github/workflows/validate-books.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate book data
+        run: node scripts/validate-books.mjs
