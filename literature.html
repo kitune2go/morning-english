@@ -153,8 +153,45 @@ function renderWorkInfo(){const box=document.getElementById('workInfo');box.styl
 function updateBookmarkToolbar(){const jump=document.getElementById('bookmarkJumpBtn'),clear=document.getElementById('bookmarkClearBtn');if(!jump||!clear)return;const bm=getBookmarkedCard();jump.disabled=!bm;clear.disabled=!bm;jump.textContent=bm?`🔖 ${bm.id}へ`:'🔖 しおりへ';renderWorkInfo();}
 function renderCards(){stopSpeech();const content=document.getElementById('content');const cards=selectedChapter==='all'?allCards:allCards.filter(c=>String(c.chapter)===String(selectedChapter));content.innerHTML=cards.map(renderCard).join('');renderProgress();}
 function speakButton(label,text,lang,extraClass=''){return `<button class="btn speak-btn speech-action ${extraClass}" data-label="${escapeAttr(label)}" data-lang="${escapeAttr(lang)}" data-speak-text="${escapeAttr(text)}">▶ ${escapeHtml(label)}</button>`;}
-function renderChunk(ch,i){const en=ch.en||'',ja=ch.ja||'';return `<div class="chunk"><div><div class="chunk-en">${escapeHtml(en)}</div><div class="chunk-ja">${escapeHtml(ja)}</div></div><div class="chunk-actions">${speakButton('EN',en,'en-US','chunk-btn')}${speakButton('JA',ja,'ja-JP','chunk-btn')}</div></div>`;}
-function renderCard(card){const chunks=(card.chunks||[]).map(renderChunk).join('');const grammar=(card.grammar||[]).map(g=>`<li>${escapeHtml(g)}</li>`).join('');const keywords=(card.keywords||[]).map(k=>`<span class="kw">${escapeHtml(k)}</span>`).join('');const natural=escapeHtml(card.translationNatural||''),literal=escapeHtml(card.translationLiteral||''),imageBlock=renderImageBlock(card);const isBm=getBookmarkId()===card.id;return `<article class="card ${isBm?'bookmarked':''}" id="card-${escapeAttr(card.id||'')}"><div class="card-head"><div><div class="chapter">${escapeHtml(card.sourceTitle||currentWork.title||'')} · CHAPTER ${String(card.chapter).padStart(3,'0')}</div><div class="title">${escapeHtml(card.title||'')}</div></div><div class="idbox"><div class="id">${escapeHtml(card.id||'')}</div><button class="btn bookmark-btn ${isBm?'active':''}" onclick="toggleBookmark('${escapeAttr(card.id||'')}')">${isBm?'🔖 しおり中':'🔖 しおり'}</button></div></div>${imageBlock}<div class="section-title">Original</div><div class="jp">${escapeHtml(card.jp||'')}</div><div class="section-title">Natural Translation</div><div class="en-main">${natural}</div><div class="speech-row">${speakButton('英語',card.translationNatural||card.translationLiteral||'','en-US')}${speakButton('日本語',card.jp||'','ja-JP')}</div><div class="en-sub">Literal: ${literal}</div><div class="section-title">Chunks</div><div>${chunks}</div><div class="section-title">Grammar</div><ol class="grammar">${grammar}</ol><div class="section-title">Reading Point</div><div class="reading">${escapeHtml(card.readingPoint||'')}</div><div class="keywords">${keywords}</div></article>`;}
+
+function renderChunk(ch,i,card){
+  const en=ch.en||'',ja=ch.ja||'';
+  const question='このチャンク内の全単語について、原文の語順で一語ずつ品詞・この文脈での意味・活用を教えてください。';
+  const wordLink=askChatUrl(card,question,en);
+  return '<div class="chunk"><div><div class="chunk-en">'+escapeHtml(en)+'</div><div class="chunk-ja">'+escapeHtml(ja)+'</div>'+
+    '<a class="chunk-question" href="'+escapeAttr(wordLink)+'" target="_blank" rel="noopener noreferrer">↗ このチャンクの全単語をチャッピーに質問</a></div>'+
+    '<div class="chunk-actions">'+speakButton('EN',en,'en-US','chunk-btn')+speakButton('JA',ja,'ja-JP','chunk-btn')+'</div></div>';
+}
+function renderCard(card){
+  const chunks=(card.chunks||[]).map((ch,i)=>renderChunk(ch,i,card)).join('');
+  const grammar=(card.grammar||[]).map(g=>'<li>'+escapeHtml(g)+'</li>').join('');
+  const keywords=(card.keywords||[]).map(k=>'<span class="kw">'+escapeHtml(k)+'</span>').join('');
+  const natural=escapeHtml(card.translationNatural||''),literal=escapeHtml(card.translationLiteral||''),imageBlock=renderImageBlock(card);
+  const isBm=getBookmarkId()===card.id,isRead=readChapterSet().has(card.id),id=escapeAttr(card.id||'');
+  const draftKey=currentWork.workId+':'+card.id;
+  const draft=askDrafts.get(draftKey)||'';
+  const askBlock='<details class="ask-panel"><summary>チャッピーにこのChapterの表現を質問</summary>'+
+    '<label for="ask-'+id+'">質問したいこと（未入力でも質問できます）</label>'+
+    '<input id="ask-'+id+'" type="text" data-ask-input="'+id+'" maxlength="400" value="'+escapeAttr(draft)+'" placeholder="例：この文の while はどんな働き？">'+
+    '<div class="toolbar"><a class="btn primary" data-ask-link="'+id+'" href="'+escapeAttr(askChatUrl(card,draft))+'" target="_blank" rel="noopener noreferrer">↗ チャッピーに質問</a>'+
+    '<button class="btn" type="button" data-ask-copy="'+id+'">質問文をコピー</button></div>'+
+    '<p class="help">作品名・Chapter・英文・日本語原文を含む質問文が開きます。アプリで引き継がれない場合はコピーを使ってください。</p>'+
+    '<p class="feedback" data-ask-feedback="'+id+'" aria-live="polite"></p></details>';
+  return '<article class="card'+(isBm?' bookmarked':'')+(isRead?' read-card':'')+'" id="card-'+id+'">'+
+    '<div class="card-head"><div><div class="chapter">'+escapeHtml(card.sourceTitle||currentWork.title||'')+
+    ' · CHAPTER '+String(card.chapter).padStart(3,'0')+(isRead?' · ✓ 既読':'')+'</div><div class="title">'+escapeHtml(card.title||'')+'</div></div>'+
+    '<div class="idbox"><div class="id">'+id+'</div><div class="card-status-actions">'+
+    '<button class="btn read-btn" type="button" data-read-card="'+id+'" aria-pressed="'+isRead+'">'+(isRead?'✓ 既読（解除）':'○ 既読にする')+'</button>'+
+    '<button class="btn bookmark-btn'+(isBm?' active':'')+'" type="button" data-bookmark-card="'+id+'" aria-pressed="'+isBm+'">'+(isBm?'🔖 読みかけ（解除）':'🔖 ここから再開')+'</button></div></div></div>'+
+    imageBlock+'<div class="section-title">Original</div><div class="jp">'+escapeHtml(card.jp||'')+'</div>'+
+    '<div class="section-title">Natural Translation</div><div class="en-main">'+natural+'</div>'+
+    '<div class="speech-row">'+speakButton('英語',card.translationNatural||card.translationLiteral||'','en-US')+
+    speakButton('日本語',card.jp||'','ja-JP')+'</div><div class="en-sub">Literal: '+literal+'</div>'+
+    askBlock+'<div class="section-title">Chunks</div><div>'+chunks+'</div>'+
+    '<div class="section-title">Grammar</div><ol class="grammar">'+grammar+'</ol>'+
+    '<div class="section-title">Reading Point</div><div class="reading">'+escapeHtml(card.readingPoint||'')+'</div>'+
+    '<div class="keywords">'+keywords+'</div></article>';
+}
 function toggleBookmark(cardId){if(getBookmarkId()===cardId){setBookmarkId('');}else{setBookmarkId(cardId);}renderCards();setTimeout(()=>scrollToCard(cardId),40);}
 function jumpToBookmark(){const bm=getBookmarkedCard();if(!bm)return;openChapter(bm.id);}
 function clearBookmark(){setBookmarkId('');renderCards();}
@@ -166,7 +203,48 @@ function stopSpeech(){if(speechTimer){clearTimeout(speechTimer);speechTimer=null
 function resetSpeakingButton(){if(speakingButton){const label=speakingButton.dataset.label||'再生';speakingButton.classList.remove('speaking');speakingButton.textContent='▶ '+label;speakingButton=null;}}
 function escapeHtml(str){return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');}
 function escapeAttr(str){return escapeHtml(str).replace(/\n/g,' ');}
-document.getElementById('reloadBtn').addEventListener('click',loadLiterature);document.getElementById('stopSpeechBtn').addEventListener('click',stopSpeech);document.getElementById('showAllBtn').addEventListener('click',()=>{selectedChapter='all';document.getElementById('chapterSelect').value='all';renderCards();});document.getElementById('bookmarkJumpBtn').addEventListener('click',jumpToBookmark);document.getElementById('bookmarkClearBtn').addEventListener('click',clearBookmark);document.getElementById('workSelect').addEventListener('change',async e=>{currentWork=works.find(w=>w.workId===e.target.value)||works[0];await loadCurrentWork();});document.getElementById('chapterSelect').addEventListener('change',e=>{selectedChapter=e.target.value;renderCards();});document.getElementById('content').addEventListener('click',e=>{const btn=e.target.closest('.speech-action');if(btn){e.preventDefault();speakFromButton(btn);}});loadLiterature();
+document.getElementById('reloadBtn').addEventListener('click',loadLiterature);document.getElementById('stopSpeechBtn').addEventListener('click',stopSpeech);document.getElementById('showAllBtn').addEventListener('click',()=>{selectedChapter='all';document.getElementById('chapterSelect').value='all';renderCards();});document.getElementById('bookmarkJumpBtn').addEventListener('click',jumpToBookmark);document.getElementById('bookmarkClearBtn').addEventListener('click',clearBookmark);document.getElementById('workSelect').addEventListener('change',async e=>{currentWork=works.find(w=>w.workId===e.target.value)||works[0];await loadCurrentWork();});document.getElementById('chapterSelect').addEventListener('change',e=>{selectedChapter=e.target.value;renderCards();});
+document.getElementById('chapterList').addEventListener('click',event=>{
+  const read=event.target.closest('[data-read-card]');
+  if(read){toggleChapterRead(read.dataset.readCard);return;}
+  const jump=event.target.closest('[data-open-chapter]');
+  if(jump)openChapter(jump.dataset.openChapter);
+});
+document.getElementById('content').addEventListener('input',event=>{
+  const input=event.target.closest('[data-ask-input]');if(!input)return;
+  const card=allCards.find(c=>c.id===input.dataset.askInput);if(!card)return;
+  askDrafts.set(currentWork.workId+':'+card.id,input.value);
+  const panel=input.closest('.ask-panel');
+  const link=panel?.querySelector('[data-ask-link]');
+  if(link)link.href=askChatUrl(card,input.value);
+  const feedback=panel?.querySelector('[data-ask-feedback]');
+  if(feedback)feedback.textContent='';
+});
+document.getElementById('content').addEventListener('click',async event=>{
+  const read=event.target.closest('[data-read-card]');
+  if(read){toggleChapterRead(read.dataset.readCard);return;}
+  const bookmark=event.target.closest('[data-bookmark-card]');
+  if(bookmark){toggleBookmark(bookmark.dataset.bookmarkCard);return;}
+  const copy=event.target.closest('[data-ask-copy]');
+  if(copy){
+    const card=allCards.find(c=>c.id===copy.dataset.askCopy);if(!card)return;
+    const panel=copy.closest('.ask-panel');
+    const question=panel.querySelector('[data-ask-input]').value;
+    const result=await copyReadingQuestion(card,question);
+    const feedback=panel.querySelector('[data-ask-feedback]');
+    if(feedback)feedback.textContent=result?'質問文をコピーしました':'コピーできませんでした。質問リンクをお使いください。';
+    return;
+  }
+  const ask=event.target.closest('[data-ask-link]');
+  if(ask){
+    const card=allCards.find(c=>c.id===ask.dataset.askLink);
+    if(card)ask.href=askChatUrl(card,ask.closest('.ask-panel')?.querySelector('[data-ask-input]')?.value||'');
+    return;
+  }
+  const speak=event.target.closest('.speech-action');
+  if(speak){event.preventDefault();speakFromButton(speak);}
+});
+loadLiterature();
 </script>
 </body>
 </html>
