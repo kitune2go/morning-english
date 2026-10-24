@@ -84,6 +84,43 @@ if(scriptMatch){
     check(readerHtml.includes(control),"reader must expose "+control);
   }
   const code=scriptMatch[1];
+  for(const elementId of ["chapterIndex","chapterList","chapterIndexCount","dayReadStatus"]){
+    check(readerHtml.includes('id="'+elementId+'"'),"reader includes "+elementId);
+  }
+  for(const action of ["data-go-day","data-toggle-chapter"]){
+    check(readerHtml.includes(action),"reader includes "+action);
+  }
+  const progressStart=code.indexOf("function completedDaySet(");
+  const progressEnd=code.indexOf("function askDraftKey(",progressStart);
+  check(progressStart!==-1&&progressEnd>progressStart,"chapter read logic exists");
+  if(progressStart!==-1&&progressEnd>progressStart){
+    try{
+      const days=[{day:1,title:"Part One",wordCount:120},{day:2,title:"Part Two",wordCount:200},{day:3,title:"Part Three",wordCount:90}];
+      const nodes={};
+      const saved={completed:[1,"2",2,999,"garbage"]};
+      const node=id=>nodes[id]??(nodes[id]={});
+      let renderCount=0;
+      const make=new Function("sessions","current","bookState","validDay","updateState","render","$","safe",
+        code.slice(progressStart,progressEnd)+"\nreturn {completedDaySet,toggleChapterRead,renderChapterIndex};");
+      const model=make(days,2,()=>saved,n=>Number.isInteger(n)&&n>=1&&n<=days.length,
+        patch=>Object.assign(saved,patch),()=>renderCount++,node,x=>String(x).replace(/</g,"&lt;"));
+      let completed=model.completedDaySet();
+      check([...completed].sort().join(",")==="1,2","legacy read chapters preserved and invalid/duplicate values removed");
+      model.renderChapterIndex(completed);
+      check(nodes.daySelect.innerHTML.includes("✓ Day 01")&&nodes.daySelect.innerHTML.includes("○ Day 03"),
+        "chapter picker shows read/unread badges");
+      check(nodes.daySelect.value==="2"&&nodes.chapterList.innerHTML.includes('aria-current="page"'),
+        "current chapter stays selected");
+      check(nodes.chapterList.innerHTML.includes('aria-pressed="true"')&&nodes.chapterList.innerHTML.includes('aria-pressed="false"'),
+        "chapter index has accessible read toggles");
+      model.toggleChapterRead(3);
+      check(saved.completed.join(",")==="1,2,3"&&renderCount===1,"marking one chapter persists and rerenders");
+      model.toggleChapterRead(2);
+      check(saved.completed.join(",")==="1,3"&&renderCount===2,"unmarking a chapter persists and rerenders");
+      model.toggleChapterRead(99);
+      check(renderCount===2&&saved.completed.join(",")==="1,3","invalid chapter does not alter read progress");
+    }catch(err){check(false,"chapter read regression test: "+err.message);}
+  }
   const start=code.indexOf("function askPrompt("),end=code.indexOf("async function copyAskPrompt(",start);
   check(start>=0&&end>start,"reader prompt and URL functions exist");
   if(start>=0&&end>start){
