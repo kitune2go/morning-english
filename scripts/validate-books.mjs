@@ -267,5 +267,41 @@ if(litMatch){
   }
 }
 
+
+// Avoid the mobile glossary overlap regression reported on a narrow Android browser.
+if(litMatch){
+  const source=litMatch[1];
+  check(litHtml.includes('.word-head{display:flex;align-items:baseline;flex-wrap:wrap'),
+    "mobile vocabulary rows must wrap instead of using fixed/intrinsic grid columns");
+  check(litHtml.includes('overflow-wrap:anywhere')&&litHtml.includes('.word-ask{'),
+    "long vocabulary, meanings and question buttons must wrap without overlap");
+  check(!litHtml.includes('grid-template-columns:60px minmax(0,1fr)'),
+    "old cramped glossary grid must not be used");
+  check(!litHtml.includes('共通語彙辞典には未登録'),
+    "unknown word labels must not repeat a full sentence on every row");
+  const start=source.indexOf('function renderChunk(');
+  const end=source.indexOf('function renderCard(',start);
+  check(start>=0&&end>start,"chunk renderer exists for glossary layout test");
+  if(start>=0&&end>start){
+    try{
+      const chunkFn=new Function('wordGlossary','askChatUrl','escapeHtml','escapeAttr','speakButton',
+        source.slice(start,end)+'\nreturn renderChunk;');
+      const glossary=new Map([['inside',{ja:'内側に',note:'前置詞、位置を示す'}]]);
+      const render=chunkFn(glossary,()=>'https://chatgpt.com/?prompt=example',
+        x=>String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;'),
+        x=>String(x),()=>'<button>▶</button>');
+      const output=render({en:'Departments inside different organizations',ja:'複数の組織内の部署'},0,{id:'example'});
+      check(output.includes('<strong class="word-en" lang="en">Departments</strong>')&&
+        output.includes('意味を質問 ↗')&&output.includes('<span class="word-meaning unlisted" lang="ja">未登録</span>'),
+        "unknown words show a distinct compact button instead of oversized inline hyperlinks");
+      check(output.includes('内側に')&&output.includes('前置詞、位置を示す'),
+        "dictionary words show meaning and note in separate, wrapping lines");
+      check(output.includes('全単語（4語）')&&
+        (output.match(/class="word-line"/g)||[]).length===4,
+        "word list retains the full original token order");
+    }catch(e){check(false,"mobile glossary rendering test: "+e.message);}
+  }
+}
+
 if(failures)process.exit(1);
 console.log("Book validation passed");
