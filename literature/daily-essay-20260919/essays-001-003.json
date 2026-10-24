@@ -1,0 +1,178 @@
+[
+  {
+    "id": "DE-20260919-001",
+    "sourceTitle": "「もう一つ」の外側で休む",
+    "workId": "daily-essay-20260919",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "最後の一件は最後にならない",
+    "jp": "「あと一件」と繰り返す営業の歌には、前へ進む勢いと、終わりを先送りする仕掛けが同居している。契約が取れれば一日は完成するはずなのに、達成した瞬間、次の一件が新しい不足として現れる。反復は人を励ますリズムになるが、同時に、立ち止まる理由を消してしまう。努力が続くのは意志が強いからだけではない。終点を示さない言葉が、働く身体を次の拍へ運び続けるからでもある。",
+    "translationLiteral": "In a sales song that repeats “one more deal,” the force to move forward and a device for postponing the end exist together. A day should be complete once the contract is won, yet the moment it is achieved, the next deal appears as a new lack. Repetition becomes a rhythm that encourages people, but at the same time it erases the reason to stop. Effort continues not only because the will is strong. It also continues because words without an endpoint keep carrying the working body into the next beat.",
+    "translationNatural": "The phrase “one more deal” contains both momentum and postponement. Success is supposed to complete the day, yet each completed task immediately creates another shortfall. Repetition can encourage a worker while quietly removing the permission to stop. Effort continues not only through willpower, but also through language that carries the body into the next beat without naming an end.",
+    "imageUrl": "",
+    "imageCaption": "完了印の先に同じ伝票がもう一枚現れ、働く身体を次の拍へ押し出す。",
+    "imagePrompt": "A completed sales slip followed by one more identical slip, rhythmically pulling a working silhouette toward the next beat, restrained literary editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "The phrase “one more deal” contains both momentum and postponement.",
+        "ja": "「もう一件」という言葉には勢いと先送りの両方が含まれる。"
+      },
+      {
+        "en": "Success is supposed to complete the day, yet each completed task immediately creates another shortfall.",
+        "ja": "成功が一日を完成させるはずなのに、完了した仕事はすぐ次の不足を作る。"
+      },
+      {
+        "en": "Repetition can encourage a worker while quietly removing the permission to stop.",
+        "ja": "反復は働く人を励ます一方、立ち止まる許可を静かに奪いうる。"
+      },
+      {
+        "en": "Effort continues not only through willpower,",
+        "ja": "努力は意志の力だけで続くのではなく、"
+      },
+      {
+        "en": "but also through language that carries the body into the next beat without naming an end.",
+        "ja": "終わりを名付けず身体を次の拍へ運ぶ言葉によっても続く。"
+      }
+    ],
+    "grammar": [
+      "both A and B は一つの表現に勢いと先送りが共存することを示す。",
+      "be supposed to は期待される完了を表す。",
+      "yet は完了の期待と新しい不足の発生を対照する。",
+      "while -ing は励ましと停止許可の消失が同時に起こることを示す。",
+      "not only A, but also B は努力を支える二つの要因を並列する。",
+      "without -ing は終点を示さないまま続く状態を表す。"
+    ],
+    "translationNote": "literal は営業歌の「一件」と拍の比喩を保ち、natural は device を避けて momentum and postponement と簡潔に対置した。「立ち止まる理由」は permission to stop として、個人の弱さではなく言葉が許可を消す作用へ寄せた。",
+    "readingPoint": "導入。明るい反復句の内側に、達成しても不足が再生産される構造を見る。「もう一つ」という言葉を、作品全体を貫く圧力の単位として置く。",
+    "keywords": [
+      "repetition",
+      "sales",
+      "momentum",
+      "work",
+      "willpower",
+      "ending"
+    ]
+  },
+  {
+    "id": "DE-20260919-002",
+    "sourceTitle": "「もう一つ」の外側で休む",
+    "workId": "daily-essay-20260919",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "成績表に残らない重なり",
+    "jp": "競技者の不調を一つの原因で説明したくなる。年齢なのか、故障なのか、練習不足なのか。しかし身体では、過去の損傷、回復に使える時間、加齢、試合の連続が別々に並んではいない。それらは同じ日に重なり、成績という一つの数字へ押し込まれる。数字が落ちると、本人の努力まで減ったように見える。けれど成績表が示すのは結果であって、身体が支払った内訳ではない。説明を急ぐほど、重なった負荷は見えなくなる。",
+    "translationLiteral": "We want to explain an athlete's poor performance with a single cause. Is it age, injury, or insufficient training? In the body, however, past damage, time available for recovery, aging, and a succession of games do not stand separately. They overlap on the same day and are pressed into one number called performance. When the number falls, even the athlete's effort appears to have declined. Yet a score sheet shows the result, not the details of what the body paid. The more quickly we explain, the less visible the accumulated load becomes.",
+    "translationNatural": "A decline in performance invites a single explanation: age, injury, or inadequate training. The body does not experience these factors separately. Old damage, limited recovery time, aging, and repeated games converge in one result. When the number falls, effort can appear to have fallen with it. But a score records the outcome, not the full cost paid by the body; the faster we settle on one cause, the more of that burden disappears.",
+    "imageUrl": "",
+    "imageCaption": "一つの成績数字の背後で、故障、回復時間、加齢、連戦の線が重なっている。",
+    "imagePrompt": "A single performance number casting a shadow made of overlapping lines for injury, recovery time, age, and repeated games, thoughtful editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "A decline in performance invites a single explanation: age, injury, or inadequate training.",
+        "ja": "成績の低下は、加齢、故障、練習不足という単一の説明を誘う。"
+      },
+      {
+        "en": "The body does not experience these factors separately.",
+        "ja": "身体はこれらの要因を別々には経験しない。"
+      },
+      {
+        "en": "Old damage, limited recovery time, aging, and repeated games converge in one result.",
+        "ja": "過去の損傷、限られた回復時間、加齢、連戦は一つの結果へ収束する。"
+      },
+      {
+        "en": "When the number falls, effort can appear to have fallen with it.",
+        "ja": "数字が落ちると、努力も一緒に落ちたように見えることがある。"
+      },
+      {
+        "en": "But a score records the outcome, not the full cost paid by the body;",
+        "ja": "しかし成績は結果を記録するだけで、身体が払った費用の全体は記録しない。"
+      },
+      {
+        "en": "the faster we settle on one cause, the more of that burden disappears.",
+        "ja": "一つの原因へ急いで決着するほど、その負担は見えなくなる。"
+      }
+    ],
+    "grammar": [
+      "invite a single explanation は結果が単純な説明を誘うことを表す。",
+      "does not experience A separately は複数要因が身体内で分離できないことを示す。",
+      "A, B, C, and D converge は四要因を並列して一つの結果へ集める。",
+      "When S V は数字の低下を知覚変化の条件にする。",
+      "appear to have fallen は完了不定詞で、努力もすでに低下したように見えることを表す。",
+      "not A, but B の省略形で outcome と full cost を対照する。",
+      "the faster ..., the more ... は説明を急ぐほど負担が不可視化される比例構文。"
+    ],
+    "translationNote": "literal は「身体が支払った内訳」と原因の重なりを詳しく追った。natural は converge in one result として成績への圧縮を明示し、最後を比較級の相関構文でまとめた。努力不足を事実として断定せず、数字からそう見える危険だけを残した。",
+    "readingPoint": "展開。営業の反復から競技する身体へ移り、成果の数字が複数の負荷を一つへ圧縮することを示す。原因探しの速さそのものが、身体の履歴を消す転換点になる。",
+    "keywords": [
+      "performance",
+      "injury",
+      "recovery",
+      "aging",
+      "training",
+      "burden"
+    ]
+  },
+  {
+    "id": "DE-20260919-003",
+    "sourceTitle": "「もう一つ」の外側で休む",
+    "workId": "daily-essay-20260919",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "試合数の外にある記録",
+    "jp": "選手の限界が見えたなら、次に問うべきは根性ではなく、競技の設計かもしれない。試合が多いほど記録も興行も増えるが、回復の時間は同じ速度では増えない。「もう一試合」は観客には一晩でも、身体には前の試合を抱えた翌日である。休むことを個人の判断だけに任せれば、出場しない選手だけが不足を引き受ける。限界は敗北ではない。制度が数える成果の外側に、身体が次の日へ戻るための時間を置き直す境界である。",
+    "translationLiteral": "If an athlete's limit has become visible, the next question may be the design of the competition rather than determination. More games increase records and business, but recovery time does not increase at the same speed. “One more game” is one evening for a spectator, but for the body it is the next day carrying the previous game. If rest is left only to individual choice, only the athlete who does not play bears the shortage. A limit is not defeat. It is a boundary for placing, outside the achievements counted by the system, the time the body needs to return to the next day.",
+    "translationNatural": "Once human limits become visible, the design of competition deserves scrutiny. More games create more records and revenue, but they do not create recovery time. For a spectator, one more game is an evening; for the body, it is another day carrying the accumulated weight of previous games. If rest remains an individual choice, the athlete who stops must bear the loss alone. A limit is not a defeat but a boundary where a system must make room for recovery.",
+    "imageUrl": "",
+    "imageCaption": "連続する試合日程の外側に、身体が回復するための白い一日が残されている。",
+    "imagePrompt": "A dense sequence of competition dates interrupted by one quiet blank day where an athlete's body can recover, poetic editorial illustration, no readable numbers or text",
+    "chunks": [
+      {
+        "en": "Once human limits become visible, the design of competition deserves scrutiny.",
+        "ja": "人間の限界が見えたなら、競技の設計を吟味すべきである。"
+      },
+      {
+        "en": "More games create more records and revenue, but they do not create recovery time.",
+        "ja": "試合が増えれば記録と収益は増えるが、回復時間は生まれない。"
+      },
+      {
+        "en": "For a spectator, one more game is an evening;",
+        "ja": "観客にとって、もう一試合は一晩だが、"
+      },
+      {
+        "en": "for the body, it is another day carrying the accumulated weight of previous games.",
+        "ja": "身体にとっては過去の試合の重みを積み重ねて運ぶもう一日である。"
+      },
+      {
+        "en": "If rest remains an individual choice, the athlete who stops must bear the loss alone.",
+        "ja": "休養が個人の判断のままなら、止まる選手だけが損失を負う。"
+      },
+      {
+        "en": "A limit is not a defeat but a boundary where a system must make room for recovery.",
+        "ja": "限界は敗北ではなく、制度が回復の余地を作るべき境界である。"
+      }
+    ],
+    "grammar": [
+      "Once S V は限界が可視化された後の判断を示す。",
+      "deserve scrutiny は詳しく検討する価値があることを表す。",
+      "more A create more B は試合数と記録・収益の増加を対応させる。",
+      "but は成果の増加と回復時間の不増加を対照する。",
+      "For A ...; for B ... は観客と身体の時間感覚を並列比較する。",
+      "the athlete who stops は関係詞節で休養を選ぶ選手を限定する。",
+      "not A but B は限界を敗北から制度設計の境界へ定義し直す。",
+      "where は boundary を修飾し、制度が行動すべき場所を示す。"
+    ],
+    "translationNote": "literal は「前の試合を抱えた翌日」と、出場しない個人だけが不足を負う構造を保った。natural は興行を revenue とし、結末を make room for recovery と自然な英語へ圧縮した。「限界」は能力の欠如ではなく、制度が休養を配置する境界として訳した。",
+    "readingPoint": "余韻。個人の根性や自己管理から競技制度の設計へ視点を移す。「もう一つ」を止める境界を置くことが、明日も身体を戻す条件だと結ぶ。",
+    "keywords": [
+      "human limits",
+      "competition",
+      "recovery",
+      "games",
+      "rest",
+      "design"
+    ]
+  }
+]
