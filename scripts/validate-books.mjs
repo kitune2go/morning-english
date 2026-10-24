@@ -198,5 +198,74 @@ if(scriptMatch){
   }
 }
 
+
+// Daily dialogue essay: preserve existing literary source cards and test reader controls.
+const litHtml=fs.readFileSync(path.join(root,"literature.html"),"utf8");
+const litMatch=litHtml.match(/<script>([\s\S]*?)<\/script>/);
+check(!!litMatch,"literary reader must contain its client script");
+const dailyWorks=JSON.parse(fs.readFileSync(path.join(root,"literature-works.json"),"utf8")).filter(w=>/^daily-essay-\d{8}$/.test(w.workId));
+check(dailyWorks.length>0,"daily dialogue essay works exist");
+if(dailyWorks.length){
+  const first=dailyWorks[0];
+  const manifest=JSON.parse(fs.readFileSync(path.join(root,first.manifest),"utf8"));
+  check(manifest.length>0,"daily essay has registered JSON files");
+  const cards=manifest.flatMap(p=>JSON.parse(fs.readFileSync(path.join(root,p),"utf8")));
+  check(cards.length>0,"daily essay has readable chapter cards");
+  check(cards.every(c=>typeof c.id==="string"&&c.jp&&c.translationNatural&&Array.isArray(c.chunks)&&c.chunks.length>0),
+    "daily essay retains source, translation and annotated chunks");
+}
+if(litMatch){
+  const source=litMatch[1];
+  try{new vm.Script(source,{filename:"literature.html inline script"});}
+  catch(e){check(false,"literary reader JS syntax: "+e.message);}
+  for(const elementId of ["readingProgress","progressCount","readProgressBar","chapterIndex","chapterList"]){
+    check(litHtml.includes('id="'+elementId+'"'),"literary reader includes "+elementId);
+  }
+  for(const action of ["data-read-card","data-open-chapter","data-bookmark-card","data-ask-link","data-ask-copy","data-ask-input"]){
+    check(litHtml.includes(action),"literary reader includes "+action);
+  }
+  check(source.includes("if(currentWork.mode==='essay-translation'&&resume)"),
+    "previous literary bookmarks automatically restore essay reading position");
+  const start=source.indexOf("const READER_PROGRESS_KEY=");
+  const end=source.indexOf("async function copyReadingQuestion(",start);
+  check(start>=0&&end>start,"reading progress and essay question helpers exist");
+  if(start>=0&&end>start){
+    try{
+      const saved={};
+      const storage={
+        getItem:k=>saved[k]||null,
+        setItem:(k,v)=>{saved[k]=v;}
+      };
+      const essay={workId:"daily-essay-20260724",title:"言葉の季節が遅れてくる",mode:"essay-translation"};
+      const cards=[
+        {id:"DE-1",chapter:1,title:"First",translationNatural:"A bird flies.",jp:"鳥が飛ぶ。"},
+        {id:"DE-2",chapter:2,title:"Second",translationNatural:"The sun rises.",jp:"太陽が昇る。"}
+      ];
+      let selectCalls=0,renderCalls=0;
+      const helpers=new Function("localStorage","currentWork","allCards","buildChapterSelect","renderCards","getBookmarkedCard",
+        "selectedChapter","document","requestAnimationFrame","scrollToCard","fetchJson",
+        source.slice(start,end)+"\nreturn {readChapterSet,toggleChapterRead,askPrompt,askChatUrl};");
+      const api=helpers(storage,essay,cards,()=>selectCalls++,()=>renderCalls++,()=>null,"all",{},()=>{},()=>{},()=>{});
+      check(api.readChapterSet().size===0,"essay starts without completed chapters");
+      api.toggleChapterRead("DE-1");
+      check(api.readChapterSet().has("DE-1")&&selectCalls===1&&renderCalls===1,
+        "chapter completion is independently persisted and refreshes the view");
+      api.toggleChapterRead("DE-1");
+      check(api.readChapterSet().size===0,"reading check can be removed");
+      api.toggleChapterRead("invalid");
+      check(selectCalls===2&&renderCalls===2,"unknown chapter cannot change progress");
+      const url=api.askChatUrl(cards[1],"What does rises mean?");
+      check(url.startsWith("https://chatgpt.com/?prompt="),"essay questions use unauthenticated ChatGPT links");
+      const prompt=decodeURIComponent(url.split("?prompt=")[1]);
+      check(prompt.includes(essay.title)&&prompt.includes("Chapter 2")&&prompt.includes("The sun rises."),
+        "essay question includes work, chapter and English passage");
+      check(prompt.includes("太陽が昇る")&&prompt.includes("What does rises mean?"),
+        "essay question includes Japanese original and custom question");
+      check(prompt.includes("\n\n"),"essay question uses readable line breaks");
+      check(!url.includes("api_key")&&!url.includes("Bearer"),"essay link does not expose API credentials");
+    }catch(e){check(false,"daily essay reader behavior: "+e.message);}
+  }
+}
+
 if(failures)process.exit(1);
 console.log("Book validation passed");
