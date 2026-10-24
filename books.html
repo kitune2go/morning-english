@@ -41,6 +41,30 @@ progress{width:100%;height:12px;accent-color:#317265}
 .paragraph{font:normal clamp(18px,2.8vw,21px)/1.88 Georgia,"Times New Roman",serif;letter-spacing:.008em;margin:0 0 8px}
 .text-block{padding:16px 0;border-bottom:1px solid #e1e5df}
 .text-block:last-child{border:0}
+
+.paragraph-number{font:700 11px/1.4 ui-monospace,monospace;letter-spacing:.1em;color:var(--accent);margin-bottom:8px}
+.paragraph-help{margin:14px 0 5px;border:1px solid var(--line);background:#f4f7f2;border-radius:9px;padding:10px 12px}
+.paragraph-help>summary{font-size:13px;font-weight:700;cursor:pointer;color:var(--ink);padding:3px 0}
+.paragraph-help>summary:focus-visible{outline:2px solid var(--accent)}
+.paragraph-help>summary .counts{font-size:11px;font-weight:normal;color:var(--muted);margin-left:6px}
+.paragraph-help[open]>summary{border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:10px}
+.help-intro{font-size:12px;color:var(--muted);margin:7px 0}
+.paragraph-summary{font-size:13px;background:#e9f0e9;border-left:3px solid #6e9989;padding:9px 11px;margin:9px 0}
+.chunk-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 9px;padding:9px 0;border-bottom:1px dashed var(--line)}
+.chunk-row:last-child{border-bottom:0}
+.chunk-en{font:600 16px/1.55 Georgia,"Times New Roman",serif;white-space:pre-wrap;overflow-wrap:anywhere}
+.chunk-role{font-size:11px;color:var(--accent);margin:3px 0}
+.chunk-hint{grid-column:1/-1;color:#52645f;font-size:12px;line-height:1.7}
+.focus-list{list-style:none;margin:8px 0;padding:0}
+.focus-list li{padding:7px 0;border-bottom:1px dashed var(--line);font-size:13px}
+.focus-list li:last-child{border:0}
+.focus-en{font:600 15px/1.6 Georgia,serif;margin-right:8px}
+.focus-ja{color:var(--muted)}
+.paragraph-help h4{font-size:13px;margin:17px 0 6px;border-top:1px solid var(--line);padding-top:9px}
+.paragraph-help .word-list{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.paragraph-help .word{background:#fff}
+.vocab-note{display:block;font-size:11px;color:#65746e;margin-top:3px}
+
 .paragraph-actions{margin:5px 0 0;text-align:right}
 .tiny{font-size:11px;padding:4px 8px;min-height:28px;border-color:var(--line)}
 .jp{background:#f0f3ed;border-left:3px solid #6e9989;padding:12px;font-size:14px;line-height:1.85;margin:9px 0}
@@ -179,7 +203,7 @@ function render(){
   $("sourceLink").href=book.sourceUrl;
   $("dayLabel").textContent="DAY "+String(current).padStart(2,"0")+" / "+String(sessions.length).padStart(2,"0");
   $("dayTitle").textContent=data.title;
-  $("dayMeta").textContent=data.wordCount+" words / "+data.paragraphs.length+" paragraphs"+(translated?" / 段落対訳あり":" / 原文と語彙解説");
+  $("dayMeta").textContent=data.wordCount+" words / "+data.paragraphs.length+" paragraphs / 全段落チャンク・語彙解説"+(translated?" / 段落対訳あり":"");
   $("toggleJp").disabled=!translated;
   $("toggleJp").setAttribute("aria-pressed",String(showJp&&translated));
   $("toggleJp").textContent=!translated?"この回の和訳は準備中":showJp?"日本語訳を隠す":"日本語訳を表示";
@@ -193,15 +217,29 @@ function render(){
   $("completeDay").textContent=st.completed.includes(current)?"✓ 読了済み（解除）":"✓ 読了にする";
   $("prevDay").disabled=current===1;
   $("nextDay").disabled=current===sessions.length;
+  const paragraphDetails=Array.isArray(data.paragraphDetails)&&data.paragraphDetails.length===data.paragraphs.length?data.paragraphDetails:null;
   $("textContent").innerHTML=data.paragraphs.map((p,i)=>{
     const jp=translated&&showJp?'<div class="jp" lang="ja">'+safe(data.jp[i])+'</div>':"";
-    return '<section class="text-block"><p class="paragraph">'+safe(p)+'</p><div class="paragraph-actions"><button class="btn tiny" data-read-index="'+i+'" type="button" aria-label="段落'+(i+1)+'を英語で読む">▶ この段落</button></div>'+jp+"</section>";
+    let detailsHtml="";
+    const detail=paragraphDetails&&paragraphDetails[i];
+    if(showNotes&&detail){
+      const chunkHtml=detail.chunks.map((c,j)=>'<li class="chunk-row"><div><div class="session-label">CHUNK '+String(j+1).padStart(2,"0")+' / '+detail.chunks.length+'</div><div class="chunk-en" lang="en">'+safe(c.en)+'</div><div class="chunk-role" lang="ja">'+safe(c.role)+'</div></div><button class="btn tiny" data-read-chunk="'+i+':'+j+'" type="button" aria-label="チャンク'+(j+1)+'を英語で読む">▶</button><div class="chunk-hint" lang="ja">'+safe(c.ja)+'</div></li>').join("");
+      const expressions=(detail.expressions||[]).map(x=>'<li><span class="focus-en" lang="en">'+safe(x.en)+'</span><span class="focus-ja" lang="ja">'+safe(x.ja)+'</span></li>').join("");
+      const vocabulary=(detail.vocabulary||[]).map(x=>'<div class="word"><strong lang="en">'+safe(x.word)+'</strong><span lang="ja">'+safe(x.ja)+'</span><span class="vocab-note" lang="ja">'+safe(x.note||"")+'</span></div>').join("");
+      detailsHtml='<details class="paragraph-help" open><summary>段落'+(i+1)+'のチャンク・単語解説<span class="counts">'+detail.chunks.length+'チャンク / '+detail.vocabulary.length+'語</span></summary>'+
+        '<p class="help-intro" lang="ja">英文の全語を順番に分割しています。各行の日本語は逐語訳ではなく、語句・構文を読む手掛かりです。</p>'+
+        '<p class="paragraph-summary" lang="ja">'+safe(detail.summary)+'</p>'+
+        '<h4>全文チャンク分解</h4><ol class="chunks">'+chunkHtml+'</ol>'+
+        '<h4>重要表現・構文</h4><ul class="focus-list">'+expressions+'</ul>'+
+        '<h4>段落内の単語・熟語</h4><div class="word-list">'+vocabulary+'</div></details>';
+    }
+    return '<section class="text-block"><div class="paragraph-number">PARAGRAPH '+String(i+1).padStart(2,"0")+'</div><p class="paragraph" lang="en">'+safe(p)+'</p><div class="paragraph-actions"><button class="btn tiny" data-read-index="'+i+'" type="button" aria-label="段落'+(i+1)+'を英語で読む">▶ この段落</button></div>'+jp+detailsHtml+"</section>";
   }).join("");
-  const chunks=(data.chunks||[]).length?'<section class="section"><h3>チャンク分解</h3><ul class="chunks">'+data.chunks.map(x=>'<li><div class="chunk-en">'+safe(x.en)+'</div><div class="chunk-ja">'+safe(x.ja)+'</div></li>').join("")+"</ul></section>":"";
-  const grammar=(data.grammar||[]).length?'<section class="section"><h3>文法・構文</h3><ol class="grammar">'+data.grammar.map(x=>"<li>"+safe(x)+"</li>").join("")+"</ol></section>":"";
-  const words=(data.vocabulary||[]).length?'<section class="section"><h3>重要語彙</h3><div class="word-list">'+data.vocabulary.map(x=>'<div class="word"><strong>'+safe(x.word)+'</strong><span>'+safe(x.ja)+'</span></div>').join("")+"</div></section>":"";
-  const reading=data.readingPoint?'<section class="section"><h3>読解ポイント</h3><div class="note">'+safe(data.readingPoint)+'</div></section>':"";
-  const more=translated?"":'<p class="muted section">この回の段落対訳・詳しい文法解説は未登録です。原文と語彙補助で読み進められます。</p>';
+  const chunks=paragraphDetails?"":(data.chunks||[]).length?'<section class="section"><h3>チャンク分解</h3><ul class="chunks">'+data.chunks.map(x=>'<li><div class="chunk-en">'+safe(x.en)+'</div><div class="chunk-ja">'+safe(x.ja)+'</div></li>').join("")+"</ul></section>":"";
+  const grammar=(data.grammar||[]).length?'<section class="section"><h3>この回の追加文法ポイント</h3><ol class="grammar">'+data.grammar.map(x=>"<li>"+safe(x)+"</li>").join("")+"</ol></section>":"";
+  const words=paragraphDetails?"":(data.vocabulary||[]).length?'<section class="section"><h3>重要語彙</h3><div class="word-list">'+data.vocabulary.map(x=>'<div class="word"><strong>'+safe(x.word)+'</strong><span>'+safe(x.ja)+'</span></div>').join("")+"</div></section>":"";
+  const reading=data.readingPoint?'<section class="section"><h3>この回の読解ポイント</h3><div class="note">'+safe(data.readingPoint)+'</div></section>':"";
+  const more=translated?"":'<p class="muted section">この回の段落対訳は未登録です。全文チャンク・重要表現・語彙解説は各段落に付いています。</p>';
   $("notesArea").innerHTML=showNotes?chunks+grammar+words+reading+more:"";
   $("notesArea").classList.toggle("hidden",!showNotes);
 }
@@ -246,6 +284,13 @@ $("toggleNotes").addEventListener("click",()=>{showNotes=!showNotes;render();});
 $("readAll").addEventListener("click",()=>{if(sessions.length)speakParagraphs(getDay().paragraphs);});
 $("stopAudio").addEventListener("click",stopSpeech);
 $("textContent").addEventListener("click",(e)=>{
+  const chunk=e.target.closest("[data-read-chunk]");
+  if(chunk){
+    const [pi,ci]=chunk.dataset.readChunk.split(":").map(Number);
+    const item=getDay().paragraphDetails?.[pi]?.chunks?.[ci];
+    if(item?.en)speakParagraphs([item.en]);
+    return;
+  }
   const btn=e.target.closest("[data-read-index]");
   if(!btn)return;
   const p=getDay().paragraphs[Number(btn.dataset.readIndex)];

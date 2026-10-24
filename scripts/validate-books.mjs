@@ -33,6 +33,25 @@ for(const b of works){
     check(Array.isArray(d.jp)&&(d.jp.length===0||d.jp.length===d.paragraphs.length),prefix+"translation aligns to all paragraphs or none");
     check(Array.isArray(d.chunks)&&Array.isArray(d.grammar)&&Array.isArray(d.vocabulary),prefix+"annotation arrays");
     check(d.vocabulary.every(x=>typeof x.word==="string"&&typeof x.ja==="string"),prefix+"vocabulary entries");
+    const requireParagraphDetails=b.id==="happy-prince";
+    const details=d.paragraphDetails;
+    if(requireParagraphDetails)check(Array.isArray(details),prefix+"paragraph details must exist");
+    if(Array.isArray(details)){
+      check(details.length===d.paragraphs.length,prefix+"paragraph annotation count");
+      details.forEach((detail,pi)=>{
+        const label=prefix+"paragraph "+(pi+1)+": ";
+        check(typeof detail.summary==="string"&&detail.summary.trim().length>0,label+"reading guide");
+        check(Array.isArray(detail.chunks)&&detail.chunks.length>0,label+"chunks");
+        check(Array.isArray(detail.expressions)&&detail.expressions.length>0,label+"phrase explanations");
+        check(Array.isArray(detail.vocabulary)&&detail.vocabulary.length>0,label+"vocabulary notes");
+        if(Array.isArray(detail.chunks)){
+          check(detail.chunks.every(x=>typeof x.en==="string"&&x.en.trim()&&typeof x.ja==="string"&&x.ja.trim()&&typeof x.role==="string"&&x.role.trim()),label+"chunk fields");
+          check(detail.chunks.map(x=>x.en).join("")===d.paragraphs[pi],label+"chunks must reconstruct original paragraph verbatim");
+        }
+        if(Array.isArray(detail.expressions))check(detail.expressions.every(x=>typeof x.en==="string"&&x.en&&typeof x.ja==="string"&&x.ja),label+"phrase explanation fields");
+        if(Array.isArray(detail.vocabulary))check(detail.vocabulary.every(x=>typeof x.word==="string"&&x.word&&typeof x.ja==="string"&&x.ja&&typeof x.note==="string"&&x.note),label+"vocabulary meaning and usage note");
+      });
+    }
   }
   console.log(b.id+": "+days.length+" sessions, "+paras+" paragraphs, "+words+" words; translations "+days.filter(x=>x.jp.length).length+" sessions");
 }
