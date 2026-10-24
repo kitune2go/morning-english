@@ -78,7 +78,7 @@
 <details class="chapter-index" id="chapterIndex"><summary>Chapter一覧・既読管理</summary><div class="chapter-list" id="chapterList"></div></details>
 </div>
 <div id="content"></div>
-<div class="footer">literature-works.json → 作品別manifest → 分割JSONを合流表示します。</div>
+<div class="footer">英和辞典：<a href="https://github.com/kujirahand/EJDict" target="_blank" rel="noopener noreferrer">ejdict-hand（CC0）</a>・作品用補足辞典<br>literature-works.json → 作品別manifest → 分割JSONを合流表示します。</div>
 </div>
 <script>
 let works=[],currentWork=null,allCards=[],selectedChapter='all',speakingButton=null,speechTimer=null;
@@ -89,9 +89,9 @@ const askDrafts=new Map();
 let wordGlossary=new Map();
 async function loadSharedGlossary(){
   try{
-    const files=await Promise.all(['books/happy-prince/lexicon.json','books/happy-prince/extended-glossary.json'].map(fetchJson));
+    const files=await Promise.all(["books/happy-prince/lexicon.json","books/happy-prince/extended-glossary.json","literature/essay-glossary-abcdef.json","literature/essay-glossary-ghijkl.json","literature/essay-glossary-mnopqr.json","literature/essay-glossary-stuv.json","literature/essay-glossary-wxyz.json","literature/essay-glossary-custom.json"].map(fetchJson));
     wordGlossary=new Map(files.flat().filter(x=>x&&typeof x.word==='string').map(x=>[x.word.toLowerCase().replace(/’/g,"'"),x]));
-  }catch(err){console.warn('共通語彙辞典を読み込めませんでした。単語の質問リンクは利用できます。',err);wordGlossary=new Map();}
+  }catch(err){console.warn('英和辞典を読み込めませんでした。単語の質問リンクは利用できます。',err);wordGlossary=new Map();}
 }
 function readProgressStore(){
   try{const data=JSON.parse(localStorage.getItem(READER_PROGRESS_KEY)||'{}');return data&&typeof data==='object'&&!Array.isArray(data)?data:{};}catch{return {};}
@@ -202,7 +202,7 @@ function renderChunk(ch,i,card){
       '</div></div>';
   }).join('');
   const wordPanel='<details class="chunk-gloss"><summary>全単語（'+tokens.length+'語）の意味・用法</summary>'+
-    '<p class="gloss-disclaimer">共通辞典の意味を表示しています。「未登録」は右のボタンから文脈付きで質問できます。</p><div class="chunk-words">'+words+'</div></details>';
+    '<p class="gloss-disclaimer">英和辞典の一般的な意味を表示しています。文脈による意味の違いは質問リンクで確認できます。</p><div class="chunk-words">'+words+'</div></details>';
   return '<div class="chunk"><div><div class="chunk-en">'+escapeHtml(en)+'</div><div class="chunk-ja">'+escapeHtml(ja)+'</div>'+
     wordPanel+'<a class="chunk-question" href="'+escapeAttr(wordLink)+'" target="_blank" rel="noopener noreferrer">↗ このチャンクの全単語をチャッピーに質問</a></div>'+
     '<div class="chunk-actions">'+speakButton('EN',en,'en-US','chunk-btn')+speakButton('JA',ja,'ja-JP','chunk-btn')+'</div></div>';
