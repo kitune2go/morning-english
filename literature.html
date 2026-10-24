@@ -198,7 +198,7 @@ function renderChunk(ch,i,card){
   const context=(contextGlossary[card.id]||[])[i]||{},contextWords=context.words||{};
   const question='このチャンク内の全単語について、原文の語順で一語ずつ品詞・この文脈での意味・活用を教えてください。';
   const wordLink=askChatUrl(card,question,en);
-  const tokens=en.match(/[\\p{L}]+(?:['’\\-][\\p{L}]+)*/gu)||[];
+  const tokens=en.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[];
   const words=tokens.map(token=>{
     const key=token.toLowerCase().replace(/’/g,"'");
     const isContext=Object.prototype.hasOwnProperty.call(contextWords,key);
