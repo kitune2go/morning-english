@@ -40,17 +40,24 @@
 @media(max-width:520px){.chapter-list{grid-template-columns:minmax(0,1fr)}.card-status-actions{justify-content:flex-start}.ask-panel .btn{flex:1;justify-content:center}}
 
 
-.chunk-gloss{margin:9px 0 4px;border:1px solid #d6d3d1;background:#fffdf7;padding:7px}
-.chunk-gloss>summary{cursor:pointer;font-size:11px;color:#254f3c;font-weight:700}
-.chunk-words{margin-top:8px}
-.word-line{display:grid;grid-template-columns:minmax(70px,1fr) minmax(110px,2fr);gap:5px 9px;padding:6px 0;border-bottom:1px solid #e7e5e4;line-height:1.6}
+/* The word list uses wrapping flex rows rather than intrinsic-width grid tracks.
+   Long vocabulary and links must never overlap at narrow Android viewport widths. */
+.chunk-gloss{margin:9px 0 4px;border:1px solid #d6d3d1;background:#fffdf7;padding:9px;min-width:0;max-width:100%}
+.chunk-gloss>summary{cursor:pointer;font-size:12px;color:#254f3c;font-weight:700;line-height:1.6}
+.chunk-words{margin-top:8px;min-width:0}
+.word-line{padding:10px 0;border-bottom:1px solid #e7e5e4;line-height:1.55;min-width:0;max-width:100%;overflow-wrap:anywhere}
 .word-line:last-child{border-bottom:0}
-.word-en{font-family:Georgia,serif;font-weight:700;font-size:13px}
-.word-meaning{font-size:12px}
-.word-usage{grid-column:2;font-size:11px;color:#57534e}
-.word-usage a{color:#14532d}
-.gloss-disclaimer{font-size:10px;color:#57534e;margin:5px 0}
-@media(max-width:520px){.word-line{grid-template-columns:60px minmax(0,1fr)}}
+.word-head{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;min-width:0}
+.word-en{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:17px;line-height:1.4;overflow-wrap:anywhere;min-width:0;max-width:100%}
+.word-meaning{font-size:13px;color:#292524;line-height:1.6;min-width:0;overflow-wrap:anywhere;flex:1 1 112px}
+.word-meaning.unlisted{color:#78716c;font-size:11px;flex:0 1 auto;background:#f1f0ec;border-radius:3px;padding:1px 5px}
+.word-usage{font-size:11px;color:#57534e;margin:3px 0 0;line-height:1.6;overflow-wrap:anywhere}
+.word-ask{font-family:inherit;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;max-width:100%;font-size:11px;font-weight:600;line-height:1.4;color:#285746!important;background:#fff;border:1px solid #8ba99a;border-radius:4px;text-decoration:none!important;padding:5px 8px;white-space:normal;overflow-wrap:anywhere;cursor:pointer}
+.word-ask:hover{background:#e7f1e9}
+.word-ask:focus-visible{outline:2px solid #14532d;outline-offset:2px}
+.gloss-disclaimer{font-size:11px;line-height:1.7;color:#57534e;margin:5px 0}
+.chunk-question{max-width:100%;white-space:normal;overflow-wrap:anywhere;color:#285746!important;text-decoration:none!important;border-radius:4px;font-size:11px;line-height:1.6}
+@media(max-width:520px){.chunk-gloss{padding:9px 10px}.word-head{gap:4px 8px}.word-meaning:not(.unlisted){flex-basis:110px}.word-ask{font-size:10px;padding:5px 7px}}
 </style>
 </head>
 <body>
@@ -180,14 +187,20 @@ function renderChunk(ch,i,card){
   const tokens=en.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[];
   const words=tokens.map(token=>{
     const info=wordGlossary.get(token.toLowerCase().replace(/’/g,"'"));
+    const word=escapeHtml(token);
+    if(info){
+      return '<div class="word-line"><div class="word-head"><strong class="word-en" lang="en">'+word+'</strong>'+
+        '<span class="word-meaning" lang="ja">'+escapeHtml(info.ja)+'</span></div>'+
+        (info.note?'<p class="word-usage" lang="ja">'+escapeHtml(info.note)+'</p>':'')+'</div>';
+    }
     const link=askChatUrl(card,'次の英単語について、品詞・この文章での意味・語形変化を具体的に説明してください：'+token,en);
-    return '<div class="word-line"><span class="word-en">'+escapeHtml(token)+'</span>'+
-      (info?'<span class="word-meaning">'+escapeHtml(info.ja)+'</span><span class="word-usage">'+escapeHtml(info.note||'')+'</span>':
-      '<span class="word-meaning"><a href="'+escapeAttr(link)+'" target="_blank" rel="noopener noreferrer">この文での意味を質問 ↗</a></span>'+
-      '<span class="word-usage">共通語彙辞典には未登録</span>')+'</div>';
+    return '<div class="word-line"><div class="word-head"><strong class="word-en" lang="en">'+word+'</strong>'+
+      '<span class="word-meaning unlisted" lang="ja">未登録</span>'+
+      '<a class="word-ask" href="'+escapeAttr(link)+'" target="_blank" rel="noopener noreferrer" aria-label="'+escapeAttr(token)+'の意味をChatGPTに質問">意味を質問 ↗</a>'+
+      '</div></div>';
   }).join('');
   const wordPanel='<details class="chunk-gloss"><summary>全単語（'+tokens.length+'語）の意味・用法</summary>'+
-    '<p class="gloss-disclaimer">辞典収録語には一般的な意味を表示します。未登録語や文脈特有の意味はChatGPTへ質問できます。</p><div class="chunk-words">'+words+'</div></details>';
+    '<p class="gloss-disclaimer">共通辞典の意味を表示しています。「未登録」は右のボタンから文脈付きで質問できます。</p><div class="chunk-words">'+words+'</div></details>';
   return '<div class="chunk"><div><div class="chunk-en">'+escapeHtml(en)+'</div><div class="chunk-ja">'+escapeHtml(ja)+'</div>'+
     wordPanel+'<a class="chunk-question" href="'+escapeAttr(wordLink)+'" target="_blank" rel="noopener noreferrer">↗ このチャンクの全単語をチャッピーに質問</a></div>'+
     '<div class="chunk-actions">'+speakButton('EN',en,'en-US','chunk-btn')+speakButton('JA',ja,'ja-JP','chunk-btn')+'</div></div>';
