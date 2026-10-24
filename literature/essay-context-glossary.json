@@ -464,5 +464,617 @@
         }
       ]
     }
+  ],
+  "DE-20261024-001": [
+    {
+      "words": {
+        "old": {
+          "ja": "昔からの"
+        },
+        "story": {
+          "ja": "物語"
+        },
+        "begin": {
+          "ja": "始まる"
+        },
+        "sending": {
+          "ja": "連れていく"
+        },
+        "reader": {
+          "ja": "読者"
+        },
+        "high": {
+          "ja": "はるか上へ"
+        },
+        "above": {
+          "ja": "～の上方に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "high above a city",
+          "ja": "街のはるか上空へ",
+          "note": "位置を示す副詞句が物語冒頭に置かれる例を論じる"
+        }
+      ]
+    },
+    {
+      "words": {
+        "place": {
+          "ja": "場所を表す表現"
+        },
+        "appears": {
+          "ja": "現れる"
+        },
+        "first": {
+          "ja": "先に"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "subject": {
+          "ja": "文法上の主語"
+        },
+        "waits": {
+          "ja": "後で現れる"
+        },
+        "later": {
+          "ja": "後方で"
+        },
+        "sentence": {
+          "ja": "英文"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the subject waits until later",
+          "ja": "主語が文の後ろまで現れない",
+          "note": "主語の遅延と倒置を人の動きになぞらえた表現"
+        }
+      ]
+    },
+    {
+      "words": {
+        "translating": {
+          "ja": "翻訳すること"
+        },
+        "familiar": {
+          "ja": "見覚えのある"
+        },
+        "sequence": {
+          "ja": "語順"
+        },
+        "leave": {
+          "ja": "～のままにする"
+        },
+        "scene": {
+          "ja": "情景"
+        },
+        "invisible": {
+          "ja": "頭に浮かばない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "leave the scene invisible",
+          "ja": "情景を思い浮かべられないままにする",
+          "note": "leave O C＝OをCの状態にしておく"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "ひとたび～すると"
+        },
+        "grammatical": {
+          "ja": "文法上の"
+        },
+        "structure": {
+          "ja": "構造"
+        },
+        "focus": {
+          "ja": "輪郭・焦点"
+        },
+        "golden": {
+          "ja": "金色の"
+        },
+        "statue": {
+          "ja": "像"
+        },
+        "rise": {
+          "ja": "そびえ立つように見える"
+        },
+        "distant": {
+          "ja": "遠くの"
+        },
+        "sky": {
+          "ja": "空"
+        }
+      },
+      "phrases": [
+        {
+          "en": "comes into focus",
+          "ja": "はっきり見えてくる",
+          "note": "焦点が合うという比喩"
+        },
+        {
+          "en": "rise into the distant sky",
+          "ja": "遠い空へそびえ立つように見える",
+          "note": "像が動くのでなく頭の中で情景が立ち上がる比喩"
+        }
+      ]
+    }
+  ],
+  "DE-20261024-002": [
+    {
+      "words": {
+        "authentication": {
+          "ja": "認証"
+        },
+        "checks": {
+          "ja": "確認する"
+        },
+        "enter": {
+          "ja": "アクセスできる"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "data": {
+          "ja": "データ"
+        },
+        "entry": {
+          "ja": "内部への進入"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what happens to data after entry",
+          "ja": "認証を通過した後でデータがどう処理されるか",
+          "note": "認証と処理結果の安全性を区別する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "program": {
+          "ja": "プログラム"
+        },
+        "receives": {
+          "ja": "受け取る"
+        },
+        "input": {
+          "ja": "入力データ"
+        },
+        "transforms": {
+          "ja": "変換する"
+        },
+        "passes": {
+          "ja": "引き渡す"
+        },
+        "process": {
+          "ja": "別の処理プロセス"
+        }
+      },
+      "phrases": [
+        {
+          "en": "passes it to another process",
+          "ja": "別の処理へデータを渡す",
+          "note": "pass A to B＝AをBへ渡す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "error": {
+          "ja": "不具合・誤り"
+        },
+        "anywhere": {
+          "ja": "どの箇所でも"
+        },
+        "path": {
+          "ja": "処理経路"
+        },
+        "produce": {
+          "ja": "引き起こす"
+        },
+        "behavior": {
+          "ja": "動作"
+        },
+        "gate": {
+          "ja": "認証の入口"
+        },
+        "designed": {
+          "ja": "設計された"
+        },
+        "anticipate": {
+          "ja": "予測・想定する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the gate was never designed to anticipate",
+          "ja": "認証の入口が想定していなかった",
+          "note": "gate は認証機構の比喩。was designed to は目的を表す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "physical": {
+          "ja": "物理的な"
+        },
+        "virtual": {
+          "ja": "仮想的な"
+        },
+        "layers": {
+          "ja": "処理の層"
+        },
+        "security": {
+          "ja": "情報セキュリティ"
+        },
+        "depends": {
+          "ja": "依存する"
+        },
+        "knowing": {
+          "ja": "把握すること"
+        },
+        "trusts": {
+          "ja": "信頼する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "depends on knowing",
+          "ja": "把握していることに依存する",
+          "note": "depend on の後ろに動名詞が来る"
+        }
+      ]
+    },
+    {
+      "words": {
+        "verifying": {
+          "ja": "検証すること"
+        },
+        "key": {
+          "ja": "認証用の鍵"
+        },
+        "understanding": {
+          "ja": "理解すること"
+        },
+        "room": {
+          "ja": "内部の仕組み（部屋の比喩）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not the same as",
+          "ja": "～と同じことではない",
+          "note": "be the same as の否定形"
+        }
+      ]
+    }
+  ],
+  "DE-20261024-003": [
+    {
+      "words": {
+        "history": {
+          "ja": "歴史"
+        },
+        "offers": {
+          "ja": "提示する"
+        },
+        "entrances": {
+          "ja": "理解への入口"
+        },
+        "disguised": {
+          "ja": "姿を装った"
+        },
+        "official": {
+          "ja": "公式の"
+        },
+        "names": {
+          "ja": "名称"
+        },
+        "documents": {
+          "ja": "文書"
+        }
+      },
+      "phrases": [
+        {
+          "en": "entrances disguised as official names and documents",
+          "ja": "公式名称や文書に姿を変えた入口",
+          "note": "disguised as ～ は過去分詞の後置修飾"
+        }
+      ]
+    },
+    {
+      "words": {
+        "declaration": {
+          "ja": "宣言"
+        },
+        "independence": {
+          "ja": "独立"
+        },
+        "state": {
+          "ja": "国家"
+        },
+        "claimed": {
+          "ja": "主張した"
+        },
+        "automatically": {
+          "ja": "それだけで"
+        },
+        "controlled": {
+          "ja": "実際に支配していた"
+        },
+        "decisions": {
+          "ja": "意思決定"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not automatically who controlled its decisions",
+          "ja": "決定権を実際に誰が握っていたかまでは示さない",
+          "note": "独立の名目と権力の実態を区別する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "understand": {
+          "ja": "理解する"
+        },
+        "manchukuo": {
+          "ja": "満洲国"
+        },
+        "compare": {
+          "ja": "照合する"
+        },
+        "founding": {
+          "ja": "建国時の"
+        },
+        "language": {
+          "ja": "公式の説明・文言"
+        },
+        "exercise": {
+          "ja": "行使"
+        },
+        "power": {
+          "ja": "権力"
+        },
+        "external": {
+          "ja": "外部の"
+        },
+        "investigations": {
+          "ja": "調査"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the exercise of power",
+          "ja": "実際の権力行使",
+          "note": "exercise は運動でなく権力を実際に使うこと"
+        }
+      ]
+    },
+    {
+      "words": {
+        "neither": {
+          "ja": "どちらも～ない"
+        },
+        "literal": {
+          "ja": "文字通りの"
+        },
+        "acceptance": {
+          "ja": "受容"
+        },
+        "nor": {
+          "ja": "～もまたない"
+        },
+        "dismissal": {
+          "ja": "切り捨て"
+        },
+        "sufficient": {
+          "ja": "十分な"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Neither literal acceptance nor simple dismissal",
+          "ja": "文字通り受け入れることも単純に否定することも",
+          "note": "neither A nor B＝AもBも～ない"
+        }
+      ]
+    },
+    {
+      "words": {
+        "held": {
+          "ja": "握っていた"
+        },
+        "brush": {
+          "ja": "筆（実権の象徴）"
+        },
+        "inside": {
+          "ja": "内側で"
+        },
+        "frame": {
+          "ja": "額縁（国家形式の比喩）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "who held the brush inside the frame",
+          "ja": "額縁の内側で誰が筆を握っていたか",
+          "note": "誰が国家運営の実権を持っていたかを問う比喩"
+        }
+      ]
+    }
+  ],
+  "DE-20261024-004": [
+    {
+      "words": {
+        "difficult": {
+          "ja": "難解な"
+        },
+        "paragraph": {
+          "ja": "段落"
+        },
+        "failure": {
+          "ja": "読解の失敗"
+        },
+        "simply": {
+          "ja": "ただ～というだけで"
+        },
+        "understood": {
+          "ja": "理解された"
+        },
+        "once": {
+          "ja": "一度で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "simply because",
+          "ja": "ただ～だからという理由だけで",
+          "note": "否定文中で理由への短絡を退ける"
+        }
+      ]
+    },
+    {
+      "words": {
+        "question": {
+          "ja": "質問・疑問点"
+        },
+        "beside": {
+          "ja": "そばに"
+        },
+        "text": {
+          "ja": "本文"
+        },
+        "bookmark": {
+          "ja": "しおり"
+        },
+        "stopping": {
+          "ja": "読みかけの"
+        },
+        "point": {
+          "ja": "位置"
+        },
+        "tomorrow's": {
+          "ja": "翌日の"
+        },
+        "reader": {
+          "ja": "読む自分"
+        },
+        "return": {
+          "ja": "戻る"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a place to return",
+          "ja": "戻って再開する場所",
+          "note": "この文脈の return は読書を再開すること"
+        }
+      ]
+    },
+    {
+      "words": {
+        "link": {
+          "ja": "質問リンク"
+        },
+        "grammar": {
+          "ja": "文法"
+        },
+        "identify": {
+          "ja": "特定する"
+        },
+        "difficulty": {
+          "ja": "読解上の難点"
+        },
+        "merely": {
+          "ja": "単に"
+        },
+        "supplying": {
+          "ja": "与えること"
+        },
+        "answer": {
+          "ja": "答え"
+        }
+      },
+      "phrases": [
+        {
+          "en": "instead of merely supplying an answer",
+          "ja": "ただ答えを与えるだけでなく",
+          "note": "instead of の後ろは動名詞 supplying"
+        }
+      ]
+    },
+    {
+      "words": {
+        "word": {
+          "ja": "単語の"
+        },
+        "order": {
+          "ja": "語順"
+        },
+        "processing": {
+          "ja": "処理の"
+        },
+        "paths": {
+          "ja": "経路"
+        },
+        "official": {
+          "ja": "公式の"
+        },
+        "titles": {
+          "ja": "名称"
+        },
+        "entrances": {
+          "ja": "理解への入口"
+        },
+        "complete": {
+          "ja": "完全な"
+        },
+        "explanations": {
+          "ja": "説明"
+        }
+      },
+      "phrases": [
+        {
+          "en": "rather than complete explanations",
+          "ja": "完結した説明ではなく",
+          "note": "rather than は対比を表す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "remember": {
+          "ja": "覚えている"
+        },
+        "stopped": {
+          "ja": "読みかけで止めた"
+        },
+        "door": {
+          "ja": "学び直す入口"
+        },
+        "still": {
+          "ja": "依然として"
+        },
+        "there": {
+          "ja": "そこに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the door will still be there tomorrow",
+          "ja": "翌日にも学習再開の入口は残っている",
+          "note": "door は再開可能性を表す比喩"
+        }
+      ]
+    }
   ]
 }
