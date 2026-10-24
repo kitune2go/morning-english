@@ -65,6 +65,18 @@ progress{width:100%;height:12px;accent-color:#317265}
 .text-block:last-child{border:0}
 
 .paragraph-number{font:700 11px/1.4 ui-monospace,monospace;letter-spacing:.1em;color:var(--accent);margin-bottom:8px}
+.text-block.bookmarked{background:#f4faf5;border-left:3px solid #4b8b70;padding-left:12px;padding-right:9px;margin-left:-15px;border-radius:6px}
+.paragraph-bookmark{margin-left:8px;border-color:#8cad9c}
+.paragraph-bookmark[aria-pressed="true"]{background:#dbeee1;border-color:#4c9474;color:#235942;font-weight:700}
+.paragraph-bookmark:focus-visible{outline:2px solid #335f4a;outline-offset:2px}
+.resume-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#e7f2e9;border:1px solid #a1c5ad;border-radius:9px;padding:9px 11px;margin:12px 0;color:#245c43;font-size:13px}
+.resume-bar[hidden]{display:none}
+.resume-bar .btn{min-height:33px;font-size:12px}
+.resume-bar strong{flex:1}
+.chapter-entry .chapter-go-state .bookmark-note{color:#2c7855;font-weight:700}
+.text-block{scroll-margin-top:16px}
+@media(max-width:500px){.text-block.bookmarked{margin-left:0;padding-left:9px}.paragraph-bookmark{margin-left:5px}}
+
 .paragraph-help{margin:14px 0 5px;border:1px solid var(--line);background:#f4f7f2;border-radius:9px;padding:10px 12px}
 .paragraph-help>summary{font-size:13px;font-weight:700;cursor:pointer;color:var(--ink);padding:3px 0}
 .paragraph-help>summary:focus-visible{outline:2px solid var(--accent)}
@@ -157,11 +169,15 @@ footer{margin-top:24px;color:var(--muted);font-size:12px;border-top:1px solid va
     <div class="select-row"><label for="daySelect">読む回</label><select id="daySelect"></select></div>
     <details id="chapterIndex" class="chapter-index">
       <summary>チャプター一覧・既読管理 <span id="chapterIndexCount" class="muted"></span></summary>
-      <p class="chapter-index-hint">章を選んで移動できます。右側の「既読にする」を押すと読了を記録し、もう一度押すと解除できます。</p>
+      <p class="chapter-index-hint">章を選ぶと、しおりのある回はその段落へ移動します。右側の「既読」はチャプター全体の読了管理です。</p>
       <div id="chapterList" class="chapter-grid"></div>
     </details>
     <progress id="progress" max="1" value="0" aria-label="読書進捗"></progress>
     <div class="progress-meta"><span id="progressText">0 / 0 回</span><span id="wordStats"></span></div>
+    <div class="resume-bar" id="resumeBar" hidden>
+      <strong id="resumeLabel">読みかけの位置</strong>
+      <button class="btn" id="jumpToResume" type="button">↪ 読みかけの段落へ</button>
+    </div>
   </section>
   <article class="reader" id="reader" hidden>
     <div class="session-label" id="dayLabel"></div>
@@ -202,7 +218,7 @@ function readStore(){
 function writeStore(data){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(data));}catch{}}
 function bookState(){
   const s=readStore()[book.id];
-  return s&&typeof s==="object"?{lastDay:Number(s.lastDay)||1,completed:Array.isArray(s.completed)?s.completed:[]}:{lastDay:1,completed:[]};
+  return s&&typeof s==="object"?{lastDay:Number(s.lastDay)||1,completed:Array.isArray(s.completed)?s.completed:[],paragraphMarks:s.paragraphMarks&&typeof s.paragraphMarks==="object"&&!Array.isArray(s.paragraphMarks)?s.paragraphMarks:{},resume:s.resume&&typeof s.resume==="object"&&!Array.isArray(s.resume)?s.resume:null}:{lastDay:1,completed:[],paragraphMarks:{},resume:null};
 }
 function updateState(patch){
   const all=readStore(),s=bookState();
@@ -243,6 +259,62 @@ function showStatus(msg,error){
 function hideStatus(){$("status").classList.add("hidden");}
 function validDay(n){return Number.isInteger(n)&&n>=1&&n<=sessions.length;}
 function getDay(){return sessions[current-1];}
+
+function validParagraph(day,paragraph){
+  return validDay(day)&&Number.isInteger(paragraph)&&paragraph>=1&&paragraph<=sessions[day-1].paragraphs.length;
+}
+function paragraphMarkFor(day,state=bookState()){
+  const mark=Number(state.paragraphMarks?.[day]);
+  return validParagraph(day,mark)?mark:null;
+}
+function resumeMark(state=bookState()){
+  const day=Number(state.resume?.day),paragraph=Number(state.resume?.paragraph);
+  return validParagraph(day,paragraph)&&paragraphMarkFor(day,state)===paragraph?{day,paragraph}:null;
+}
+function scrollToParagraph(day,paragraph,behavior="auto"){
+  if(!validParagraph(day,paragraph)||current!==day)return false;
+  const target=$("reader-paragraph-"+paragraph);
+  if(!target)return false;
+  target.scrollIntoView({behavior,block:"start"});
+  return true;
+}
+function scheduleParagraphJump(day,paragraph){
+  if(!validParagraph(day,paragraph))return;
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+    if(book&&current===day)scrollToParagraph(day,paragraph);
+  }));
+}
+function syncBookmarkUi(state=bookState()){
+  const latest=resumeMark(state);
+  $("resumeBar").hidden=!latest;
+  $("resumeLabel").textContent=latest?"読みかけ：Day "+String(latest.day).padStart(2,"0")+" ／ 段落 "+latest.paragraph:"";
+  const mark=paragraphMarkFor(current,state);
+  $("textContent").querySelectorAll("[data-mark-paragraph]").forEach(button=>{
+    const paragraph=Number(button.dataset.markParagraph),active=mark===paragraph;
+    button.setAttribute("aria-pressed",String(active));
+    button.textContent=active?"✓ しおり済み（解除）":"□ ここから再開";
+    button.closest(".text-block")?.classList.toggle("bookmarked",active);
+  });
+}
+function toggleParagraphMark(day,paragraph){
+  if(!validParagraph(day,paragraph))return;
+  const st=bookState(),marks={...st.paragraphMarks};
+  const removing=paragraphMarkFor(day,st)===paragraph;
+  if(removing)delete marks[day];else marks[day]=paragraph;
+  const latest=resumeMark(st);
+  const resume=removing?(latest?.day===day?null:st.resume):{day,paragraph};
+  updateState({paragraphMarks:marks,resume,lastDay:day});
+  const updated=bookState();
+  renderChapterIndex(completedDaySet(updated),updated);
+  syncBookmarkUi(updated);
+}
+function jumpToResume(){
+  const latest=resumeMark();
+  if(!latest)return;
+  if(current===latest.day)scrollToParagraph(latest.day,latest.paragraph,"smooth");
+  else changeDay(latest.day,latest.paragraph);
+}
+
 
 function completedDaySet(state=bookState()){
   return new Set((Array.isArray(state.completed)?state.completed:[])
