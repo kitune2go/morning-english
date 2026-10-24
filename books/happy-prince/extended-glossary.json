@@ -1,0 +1,1617 @@
+[
+  {
+    "word": "a",
+    "ja": "一つの・ある",
+    "note": "不定冠詞。数や初出のものに付く"
+  },
+  {
+    "word": "a-hoy",
+    "ja": "よいしょ",
+    "note": "船乗りの掛け声 Heave a-hoy"
+  },
+  {
+    "word": "about",
+    "ja": "〜について・周囲に",
+    "note": "話題・位置を示す"
+  },
+  {
+    "word": "across",
+    "ja": "〜を横切って・向こう側に",
+    "note": "前置詞"
+  },
+  {
+    "word": "added",
+    "ja": "付け加えた",
+    "note": "add の過去形"
+  },
+  {
+    "word": "afraid",
+    "ja": "怖い・心配で",
+    "note": "I'm afraid that は「〜と心配だ」"
+  },
+  {
+    "word": "after",
+    "ja": "〜のあとで",
+    "note": "時を表す"
+  },
+  {
+    "word": "ago",
+    "ja": "〜前に",
+    "note": "基準は現在・文中の時点"
+  },
+  {
+    "word": "ah",
+    "ja": "ああ",
+    "note": "驚き・嘆きの間投詞"
+  },
+  {
+    "word": "air",
+    "ja": "空気",
+    "note": "新鮮な空気 fresh air"
+  },
+  {
+    "word": "alas",
+    "ja": "ああ・悲しいかな",
+    "note": "嘆きの間投詞"
+  },
+  {
+    "word": "all",
+    "ja": "すべて・全部の",
+    "note": "範囲を強調"
+  },
+  {
+    "word": "allowed",
+    "ja": "許された",
+    "note": "allow の過去分詞"
+  },
+  {
+    "word": "also",
+    "ja": "〜もまた",
+    "note": "追加を表す"
+  },
+  {
+    "word": "although",
+    "ja": "〜だけれども",
+    "note": "譲歩を示す接続詞"
+  },
+  {
+    "word": "am",
+    "ja": "〜である",
+    "note": "be 動詞の一人称現在"
+  },
+  {
+    "word": "among",
+    "ja": "〜の間に・〜に囲まれて",
+    "note": "複数の中で"
+  },
+  {
+    "word": "an",
+    "ja": "一つの・ある",
+    "note": "母音で始まる音の前の不定冠詞"
+  },
+  {
+    "word": "and",
+    "ja": "そして・〜と",
+    "note": "並列・連結"
+  },
+  {
+    "word": "another",
+    "ja": "もう一つの・別の",
+    "note": "追加の一つ"
+  },
+  {
+    "word": "another’s",
+    "ja": "別の人の",
+    "note": "another の所有格"
+  },
+  {
+    "word": "answered",
+    "ja": "答えた",
+    "note": "answer の過去形"
+  },
+  {
+    "word": "any",
+    "ja": "何か・いくつかの",
+    "note": "疑問・否定文では「何も」"
+  },
+  {
+    "word": "anything",
+    "ja": "何でも・何か",
+    "note": "否定文で「何も〜ない」"
+  },
+  {
+    "word": "are",
+    "ja": "〜である・いる",
+    "note": "be 動詞の現在複数・二人称"
+  },
+  {
+    "word": "arms",
+    "ja": "腕",
+    "note": "arm の複数形"
+  },
+  {
+    "word": "arrived",
+    "ja": "到着した",
+    "note": "arrive の過去形"
+  },
+  {
+    "word": "art",
+    "ja": "美術・芸術",
+    "note": "Art Professor は美術教授"
+  },
+  {
+    "word": "as",
+    "ja": "〜として・〜のように・〜するとき",
+    "note": "比較・理由・時間"
+  },
+  {
+    "word": "ask",
+    "ja": "尋ねる・頼む",
+    "note": "質問・依頼をする"
+  },
+  {
+    "word": "asked",
+    "ja": "尋ねた・頼んだ",
+    "note": "ask の過去形"
+  },
+  {
+    "word": "asking",
+    "ja": "尋ねている・求めている",
+    "note": "ask の現在分詞"
+  },
+  {
+    "word": "asleep",
+    "ja": "眠っている",
+    "note": "fall asleep で「眠り込む」"
+  },
+  {
+    "word": "at",
+    "ja": "〜に・〜で",
+    "note": "時刻・場所・対象を示す"
+  },
+  {
+    "word": "away",
+    "ja": "離れて・去って",
+    "note": "移動・距離を表す"
+  },
+  {
+    "word": "back",
+    "ja": "戻って・後方へ",
+    "note": "復帰・方向を表す"
+  },
+  {
+    "word": "baker’s",
+    "ja": "パン屋の",
+    "note": "baker の所有格"
+  },
+  {
+    "word": "bath",
+    "ja": "入浴・水浴び",
+    "note": "have a bath で水浴びする"
+  },
+  {
+    "word": "be",
+    "ja": "〜である・いる",
+    "note": "動詞の原形"
+  },
+  {
+    "word": "beaks",
+    "ja": "くちばし",
+    "note": "beak の複数形"
+  },
+  {
+    "word": "beat",
+    "ja": "殴る・打つ",
+    "note": "beat は現在形と過去形が同じ"
+  },
+  {
+    "word": "beautiful",
+    "ja": "美しい",
+    "note": "美しさを表す形容詞"
+  },
+  {
+    "word": "because",
+    "ja": "なぜなら・〜なので",
+    "note": "理由を導く接続詞"
+  },
+  {
+    "word": "bed",
+    "ja": "ベッド・寝床",
+    "note": "眠るための場所"
+  },
+  {
+    "word": "been",
+    "ja": "〜であった・いた",
+    "note": "be の過去分詞"
+  },
+  {
+    "word": "before",
+    "ja": "〜の前に",
+    "note": "時間的な前後関係"
+  },
+  {
+    "word": "began",
+    "ja": "始めた",
+    "note": "begin の過去形"
+  },
+  {
+    "word": "beginning",
+    "ja": "始めている",
+    "note": "begin の現在分詞"
+  },
+  {
+    "word": "behind",
+    "ja": "後ろに・後に残って",
+    "note": "stay behind"
+  },
+  {
+    "word": "below",
+    "ja": "下に・下方の",
+    "note": "位置を示す"
+  },
+  {
+    "word": "beside",
+    "ja": "〜のそばに",
+    "note": "近接を示す前置詞"
+  },
+  {
+    "word": "besides",
+    "ja": "その上・〜に加えて",
+    "note": "補足を示す"
+  },
+  {
+    "word": "better",
+    "ja": "より良い・回復して",
+    "note": "bad/good の比較級の一つ"
+  },
+  {
+    "word": "between",
+    "ja": "〜の間に",
+    "note": "二者の間を示す"
+  },
+  {
+    "word": "big",
+    "ja": "大きい",
+    "note": "large に近い"
+  },
+  {
+    "word": "bird",
+    "ja": "鳥",
+    "note": "小鳥も含む"
+  },
+  {
+    "word": "birds",
+    "ja": "鳥たち",
+    "note": "bird の複数形"
+  },
+  {
+    "word": "bird’s",
+    "ja": "鳥の",
+    "note": "bird の所有格"
+  },
+  {
+    "word": "bit",
+    "ja": "小片・少し",
+    "note": "a bit of ... は少量・かけら"
+  },
+  {
+    "word": "black",
+    "ja": "黒い",
+    "note": "色"
+  },
+  {
+    "word": "blew",
+    "ja": "吹いた",
+    "note": "blow の過去形"
+  },
+  {
+    "word": "blue",
+    "ja": "青い",
+    "note": "色"
+  },
+  {
+    "word": "boy",
+    "ja": "男の子",
+    "note": "少年"
+  },
+  {
+    "word": "boys",
+    "ja": "男の子たち",
+    "note": "boy の複数"
+  },
+  {
+    "word": "boy’s",
+    "ja": "男の子の",
+    "note": "boy の所有格"
+  },
+  {
+    "word": "bridge",
+    "ja": "橋",
+    "note": "川に架かる"
+  },
+  {
+    "word": "bright",
+    "ja": "明るい・輝く",
+    "note": "光や色を表す"
+  },
+  {
+    "word": "bring",
+    "ja": "持ってくる",
+    "note": "話し手の側へ運ぶ"
+  },
+  {
+    "word": "broke",
+    "ja": "壊れた",
+    "note": "break の過去形"
+  },
+  {
+    "word": "broken",
+    "ja": "壊れた",
+    "note": "break の過去分詞"
+  },
+  {
+    "word": "brother",
+    "ja": "兄弟",
+    "note": "血縁・比喩的な関係"
+  },
+  {
+    "word": "brought",
+    "ja": "持ってきた",
+    "note": "bring の過去・過去分詞"
+  },
+  {
+    "word": "brown",
+    "ja": "茶色の",
+    "note": "髪の色など"
+  },
+  {
+    "word": "building",
+    "ja": "建てている",
+    "note": "build の現在分詞"
+  },
+  {
+    "word": "but",
+    "ja": "しかし・〜を除いて",
+    "note": "逆接、nothing but で「〜だけ」"
+  },
+  {
+    "word": "buy",
+    "ja": "買う",
+    "note": "対価を支払って得る"
+  },
+  {
+    "word": "by",
+    "ja": "〜によって・〜のそばで",
+    "note": "受動態・手段・位置"
+  },
+  {
+    "word": "called",
+    "ja": "呼んだ",
+    "note": "call の過去形"
+  },
+  {
+    "word": "came",
+    "ja": "来た",
+    "note": "come の過去形"
+  },
+  {
+    "word": "can",
+    "ja": "〜できる",
+    "note": "能力・可能性を示す助動詞"
+  },
+  {
+    "word": "cannot",
+    "ja": "〜できない",
+    "note": "can not の一語形"
+  },
+  {
+    "word": "can’t",
+    "ja": "〜できない",
+    "note": "cannot の短縮形"
+  },
+  {
+    "word": "caps",
+    "ja": "帽子",
+    "note": "cap の複数形"
+  },
+  {
+    "word": "cared",
+    "ja": "気にかけた",
+    "note": "care の過去形"
+  },
+  {
+    "word": "carry",
+    "ja": "運ぶ・持つ",
+    "note": "持ち運ぶ"
+  },
+  {
+    "word": "catch",
+    "ja": "捕らえる",
+    "note": "魚を捕るなど"
+  },
+  {
+    "word": "certainly",
+    "ja": "確かに・もちろん",
+    "note": "強い確信"
+  },
+  {
+    "word": "chain",
+    "ja": "鎖・首飾りの鎖",
+    "note": "連続した輪"
+  },
+  {
+    "word": "chest",
+    "ja": "胸・箱",
+    "note": "文脈で意味が異なる"
+  },
+  {
+    "word": "children",
+    "ja": "子どもたち",
+    "note": "child の複数形"
+  },
+  {
+    "word": "children’s",
+    "ja": "子どもたちの",
+    "note": "children の所有格"
+  },
+  {
+    "word": "chose",
+    "ja": "選んだ",
+    "note": "choose の過去形"
+  },
+  {
+    "word": "church",
+    "ja": "教会",
+    "note": "キリスト教の礼拝所"
+  },
+  {
+    "word": "city",
+    "ja": "都市・街",
+    "note": "大きな街"
+  },
+  {
+    "word": "clean",
+    "ja": "清潔な・真っ白な",
+    "note": "汚れていない"
+  },
+  {
+    "word": "clear",
+    "ja": "澄んだ・はっきりした",
+    "note": "星空の形容"
+  },
+  {
+    "word": "cloud",
+    "ja": "雲",
+    "note": "空の水滴の集まり"
+  },
+  {
+    "word": "cold",
+    "ja": "寒い・冷たい",
+    "note": "気温など"
+  },
+  {
+    "word": "come",
+    "ja": "来る",
+    "note": "come away で一緒に去る"
+  },
+  {
+    "word": "company",
+    "ja": "同伴・仲間",
+    "note": "in company with で一緒に"
+  },
+  {
+    "word": "continued",
+    "ja": "続けた",
+    "note": "continue の過去形"
+  },
+  {
+    "word": "cool",
+    "ja": "涼しい・ひんやりする",
+    "note": "温度の快さ"
+  },
+  {
+    "word": "corner",
+    "ja": "隅・角",
+    "note": "部屋の隅"
+  },
+  {
+    "word": "could",
+    "ja": "〜できた・できるだろう",
+    "note": "can の過去形・仮定表現"
+  },
+  {
+    "word": "course",
+    "ja": "道筋・当然",
+    "note": "of course で「もちろん」"
+  },
+  {
+    "word": "cried",
+    "ja": "叫んだ・泣いた",
+    "note": "cry の過去形。文脈で区別"
+  },
+  {
+    "word": "cry",
+    "ja": "叫ぶ・泣く",
+    "note": "声や涙を出す"
+  },
+  {
+    "word": "dance",
+    "ja": "踊り・舞踏",
+    "note": "名詞・動詞"
+  },
+  {
+    "word": "dancing",
+    "ja": "踊り・踊っている",
+    "note": "dance の現在分詞"
+  },
+  {
+    "word": "dark",
+    "ja": "暗い",
+    "note": "光が弱い"
+  },
+  {
+    "word": "day",
+    "ja": "日・昼間",
+    "note": "時間単位"
+  },
+  {
+    "word": "daytime",
+    "ja": "昼間",
+    "note": "in the daytime"
+  },
+  {
+    "word": "dear",
+    "ja": "愛しい・親愛なる",
+    "note": "呼びかけ、Dear Prince"
+  },
+  {
+    "word": "delicious",
+    "ja": "心地よい・おいしい",
+    "note": "眠りには比喩的に使用"
+  },
+  {
+    "word": "did",
+    "ja": "した",
+    "note": "do の過去形"
+  },
+  {
+    "word": "die",
+    "ja": "死ぬ",
+    "note": "生命を終える"
+  },
+  {
+    "word": "died",
+    "ja": "死んだ",
+    "note": "die の過去形"
+  },
+  {
+    "word": "do",
+    "ja": "する・行う",
+    "note": "代動詞・疑問文の助動詞にもなる"
+  },
+  {
+    "word": "does",
+    "ja": "する",
+    "note": "do の三人称単数"
+  },
+  {
+    "word": "done",
+    "ja": "した・なされた",
+    "note": "do の過去分詞"
+  },
+  {
+    "word": "don’t",
+    "ja": "〜しない",
+    "note": "do not の短縮形"
+  },
+  {
+    "word": "door",
+    "ja": "扉・戸口",
+    "note": "入口"
+  },
+  {
+    "word": "down",
+    "ja": "下へ・下に",
+    "note": "方向を示す"
+  },
+  {
+    "word": "dreaming",
+    "ja": "夢を見ている",
+    "note": "dream の現在分詞"
+  },
+  {
+    "word": "dress",
+    "ja": "ドレス・服",
+    "note": "衣服"
+  },
+  {
+    "word": "drink",
+    "ja": "飲む",
+    "note": "水などを飲む"
+  },
+  {
+    "word": "each",
+    "ja": "それぞれ・一つ一つの",
+    "note": "個別を強調"
+  },
+  {
+    "word": "early",
+    "ja": "早く・早い",
+    "note": "時間が早い"
+  },
+  {
+    "word": "easy",
+    "ja": "簡単な",
+    "note": "難しくない"
+  },
+  {
+    "word": "edge",
+    "ja": "端・縁",
+    "note": "水辺や物の端"
+  },
+  {
+    "word": "enjoyed",
+    "ja": "楽しんだ",
+    "note": "enjoy の過去形"
+  },
+  {
+    "word": "enough",
+    "ja": "十分な・十分に",
+    "note": "必要量を満たす"
+  },
+  {
+    "word": "enter",
+    "ja": "入る",
+    "note": "建物や場所の中に入る"
+  },
+  {
+    "word": "europe",
+    "ja": "ヨーロッパ",
+    "note": "地名"
+  },
+  {
+    "word": "evening",
+    "ja": "夕方・夜の初め",
+    "note": "時間帯"
+  },
+  {
+    "word": "every",
+    "ja": "すべての・毎〜",
+    "note": "各々を含む"
+  },
+  {
+    "word": "everybody",
+    "ja": "みんな・誰もが",
+    "note": "すべての人"
+  },
+  {
+    "word": "everything",
+    "ja": "すべてのこと",
+    "note": "物事の全体"
+  },
+  {
+    "word": "eye",
+    "ja": "目",
+    "note": "視覚器官"
+  },
+  {
+    "word": "eyes",
+    "ja": "両目・目",
+    "note": "eye の複数形"
+  },
+  {
+    "word": "face",
+    "ja": "顔・表面",
+    "note": "顔の描写"
+  },
+  {
+    "word": "faces",
+    "ja": "顔たち・顔",
+    "note": "face の複数形"
+  },
+  {
+    "word": "fact",
+    "ja": "事実",
+    "note": "in fact は「実際のところ」"
+  },
+  {
+    "word": "fall",
+    "ja": "落ちる",
+    "note": "転落する"
+  },
+  {
+    "word": "family",
+    "ja": "家族・一族",
+    "note": "血縁関係の人々"
+  },
+  {
+    "word": "famous",
+    "ja": "有名な",
+    "note": "be famous for で〜で知られる"
+  },
+  {
+    "word": "far",
+    "ja": "遠く・非常に",
+    "note": "far too で強調"
+  },
+  {
+    "word": "father",
+    "ja": "父親",
+    "note": "親族"
+  },
+  {
+    "word": "feed",
+    "ja": "餌を与える",
+    "note": "food を与える動詞"
+  },
+  {
+    "word": "feel",
+    "ja": "感じる・気がする",
+    "note": "身体感覚・心理"
+  },
+  {
+    "word": "feet",
+    "ja": "足",
+    "note": "foot の複数形"
+  },
+  {
+    "word": "fell",
+    "ja": "落ちた・陥った",
+    "note": "fall の過去形"
+  },
+  {
+    "word": "felt",
+    "ja": "感じた",
+    "note": "feel の過去形"
+  },
+  {
+    "word": "filled",
+    "ja": "満たされた",
+    "note": "fill の過去分詞"
+  },
+  {
+    "word": "finally",
+    "ja": "ついに・最後に",
+    "note": "時間の終わり"
+  },
+  {
+    "word": "fine",
+    "ja": "上質な・美しい",
+    "note": "品質がよい"
+  },
+  {
+    "word": "finish",
+    "ja": "終える・完成させる",
+    "note": "戯曲を書く文脈"
+  },
+  {
+    "word": "fire",
+    "ja": "火",
+    "note": "暖炉の火"
+  },
+  {
+    "word": "flat",
+    "ja": "平らな",
+    "note": "凹凸がない"
+  },
+  {
+    "word": "flew",
+    "ja": "飛んだ",
+    "note": "fly の過去形"
+  },
+  {
+    "word": "fly",
+    "ja": "飛ぶ",
+    "note": "鳥の移動"
+  },
+  {
+    "word": "flying",
+    "ja": "飛んでいる",
+    "note": "fly の現在分詞"
+  },
+  {
+    "word": "food",
+    "ja": "食べ物",
+    "note": "栄養となるもの"
+  },
+  {
+    "word": "for",
+    "ja": "〜のために・〜なので・〜の間",
+    "note": "前置詞、理由を示す接続詞"
+  },
+  {
+    "word": "forget",
+    "ja": "忘れる",
+    "note": "記憶を失う"
+  },
+  {
+    "word": "found",
+    "ja": "見つけた",
+    "note": "find の過去形"
+  },
+  {
+    "word": "friends",
+    "ja": "友人・仲間たち",
+    "note": "friend の複数形"
+  },
+  {
+    "word": "from",
+    "ja": "〜から",
+    "note": "出発点・材料・起源"
+  },
+  {
+    "word": "full",
+    "ja": "いっぱいの・満ちた",
+    "note": "be full of ..."
+  },
+  {
+    "word": "gain",
+    "ja": "得る・獲得する",
+    "note": "名声を得る"
+  },
+  {
+    "word": "games",
+    "ja": "遊び・ゲーム",
+    "note": "game の複数形"
+  },
+  {
+    "word": "garden",
+    "ja": "庭",
+    "note": "植物を育てる土地"
+  },
+  {
+    "word": "gates",
+    "ja": "門",
+    "note": "gate の複数形"
+  },
+  {
+    "word": "get",
+    "ja": "得る・〜になる・入る",
+    "note": "get in は入る"
+  },
+  {
+    "word": "getting",
+    "ja": "得つつある・〜になりつつある",
+    "note": "get の現在分詞"
+  },
+  {
+    "word": "girl",
+    "ja": "少女・女の子",
+    "note": "女性の子ども"
+  },
+  {
+    "word": "give",
+    "ja": "与える",
+    "note": "物や気持ちを渡す"
+  },
+  {
+    "word": "given",
+    "ja": "与えた・与えられた",
+    "note": "give の過去分詞"
+  },
+  {
+    "word": "glad",
+    "ja": "うれしい",
+    "note": "喜びを表す"
+  },
+  {
+    "word": "glass",
+    "ja": "ガラス",
+    "note": "素材"
+  },
+  {
+    "word": "go",
+    "ja": "行く",
+    "note": "移動"
+  },
+  {
+    "word": "god",
+    "ja": "神",
+    "note": "God は一神教の神を指す"
+  },
+  {
+    "word": "going",
+    "ja": "行こうとしている",
+    "note": "go の現在分詞"
+  },
+  {
+    "word": "gold",
+    "ja": "金・黄金",
+    "note": "貴金属"
+  },
+  {
+    "word": "gold-fish",
+    "ja": "金色の魚",
+    "note": "複合語。現在一般に goldfish"
+  },
+  {
+    "word": "gone",
+    "ja": "去った・行ってしまった",
+    "note": "go の過去分詞"
+  },
+  {
+    "word": "good",
+    "ja": "良い",
+    "note": "品質・道徳的評価"
+  },
+  {
+    "word": "good-bye",
+    "ja": "さようなら",
+    "note": "別れの挨拶"
+  },
+  {
+    "word": "great",
+    "ja": "大きな・偉大な",
+    "note": "大きさ・重要性"
+  },
+  {
+    "word": "green",
+    "ja": "緑色の",
+    "note": "色"
+  },
+  {
+    "word": "grew",
+    "ja": "育った・〜になった",
+    "note": "grow の過去形"
+  },
+  {
+    "word": "had",
+    "ja": "持っていた・〜していた",
+    "note": "have の過去。過去完了にも用いる"
+  },
+  {
+    "word": "hair",
+    "ja": "髪",
+    "note": "頭髪"
+  },
+  {
+    "word": "hall",
+    "ja": "大広間",
+    "note": "建物の広い室内"
+  },
+  {
+    "word": "hand",
+    "ja": "手",
+    "note": "hand の単数形"
+  },
+  {
+    "word": "hands",
+    "ja": "両手・手",
+    "note": "hands 複数形"
+  },
+  {
+    "word": "hanging",
+    "ja": "吊り下がっている",
+    "note": "hang の現在分詞"
+  },
+  {
+    "word": "happiness",
+    "ja": "幸せ・幸福",
+    "note": "happy の名詞形"
+  },
+  {
+    "word": "happy",
+    "ja": "幸福な・うれしい",
+    "note": "幸福な王子の呼称"
+  },
+  {
+    "word": "hard",
+    "ja": "厳しい・硬い",
+    "note": "厳しい霜 hard frost"
+  },
+  {
+    "word": "has",
+    "ja": "持っている・〜した",
+    "note": "have の三人称単数"
+  },
+  {
+    "word": "have",
+    "ja": "持つ・〜した",
+    "note": "所有・完了の助動詞"
+  },
+  {
+    "word": "having",
+    "ja": "持つこと・持っている",
+    "note": "have の現在分詞"
+  },
+  {
+    "word": "he",
+    "ja": "彼は",
+    "note": "三人称男性の主格"
+  },
+  {
+    "word": "head",
+    "ja": "頭",
+    "note": "身体の部位"
+  },
+  {
+    "word": "hear",
+    "ja": "聞く",
+    "note": "音を聴覚で捉える"
+  },
+  {
+    "word": "heard",
+    "ja": "聞いた",
+    "note": "hear の過去形"
+  },
+  {
+    "word": "heart",
+    "ja": "心臓・心",
+    "note": "身体器官と心情"
+  },
+  {
+    "word": "heave",
+    "ja": "引き上げる",
+    "note": "船員の掛け声"
+  },
+  {
+    "word": "held",
+    "ja": "開いた・持った",
+    "note": "hold の過去形"
+  },
+  {
+    "word": "her",
+    "ja": "彼女の・彼女を",
+    "note": "所有格・目的格"
+  },
+  {
+    "word": "here",
+    "ja": "ここに",
+    "note": "話し手の場所"
+  },
+  {
+    "word": "high",
+    "ja": "高い・高く",
+    "note": "高さを示す"
+  },
+  {
+    "word": "him",
+    "ja": "彼を・彼に",
+    "note": "三人称男性の目的格"
+  },
+  {
+    "word": "himself",
+    "ja": "彼自身・自分で",
+    "note": "再帰代名詞"
+  },
+  {
+    "word": "his",
+    "ja": "彼の",
+    "note": "所有格"
+  },
+  {
+    "word": "hit",
+    "ja": "ぶつかる・当てる",
+    "note": "石を命中させる"
+  },
+  {
+    "word": "hole",
+    "ja": "穴",
+    "note": "物に空いた孔"
+  },
+  {
+    "word": "home",
+    "ja": "家・故郷",
+    "note": "住む場所"
+  },
+  {
+    "word": "honey-cakes",
+    "ja": "蜂蜜菓子",
+    "note": "蜜を使った焼き菓子"
+  },
+  {
+    "word": "hope",
+    "ja": "望む・希望する",
+    "note": "願望"
+  },
+  {
+    "word": "hopped",
+    "ja": "ぴょんと飛び込んだ",
+    "note": "hop の過去形"
+  },
+  {
+    "word": "house",
+    "ja": "家・住宅",
+    "note": "住居"
+  },
+  {
+    "word": "houses",
+    "ja": "家々",
+    "note": "house の複数形"
+  },
+  {
+    "word": "how",
+    "ja": "どう・なんと",
+    "note": "方法・程度の疑問、感嘆"
+  },
+  {
+    "word": "hung",
+    "ja": "吊り下がった",
+    "note": "hang の過去形"
+  },
+  {
+    "word": "hungry",
+    "ja": "空腹の",
+    "note": "飢えの状態"
+  },
+  {
+    "word": "i",
+    "ja": "私は",
+    "note": "一人称主格"
+  },
+  {
+    "word": "ice",
+    "ja": "氷",
+    "note": "凍った水"
+  },
+  {
+    "word": "if",
+    "ja": "もし〜なら・〜かどうか",
+    "note": "条件・間接疑問"
+  },
+  {
+    "word": "ill",
+    "ja": "病気の",
+    "note": "体調が悪い"
+  },
+  {
+    "word": "in",
+    "ja": "〜の中に・〜で",
+    "note": "場所・時間の前置詞"
+  },
+  {
+    "word": "india",
+    "ja": "インド",
+    "note": "国名"
+  },
+  {
+    "word": "inside",
+    "ja": "内側に・内部の",
+    "note": "内と外を区別"
+  },
+  {
+    "word": "into",
+    "ja": "〜の中へ",
+    "note": "方向を伴う前置詞"
+  },
+  {
+    "word": "is",
+    "ja": "〜である・いる",
+    "note": "be 動詞三人称単数"
+  },
+  {
+    "word": "issue",
+    "ja": "発行する・布告する",
+    "note": "issue a proclamation で布告する"
+  },
+  {
+    "word": "it",
+    "ja": "それは・それを",
+    "note": "三人称単数の代名詞"
+  },
+  {
+    "word": "its",
+    "ja": "その・それの",
+    "note": "it の所有格"
+  },
+  {
+    "word": "itself",
+    "ja": "それ自体",
+    "note": "it の再帰代名詞"
+  },
+  {
+    "word": "jewel",
+    "ja": "宝石",
+    "note": "jewel の単数形"
+  },
+  {
+    "word": "jews",
+    "ja": "ユダヤ人たち",
+    "note": "歴史的な集団への言及"
+  },
+  {
+    "word": "joy",
+    "ja": "喜び",
+    "note": "感情"
+  },
+  {
+    "word": "just",
+    "ja": "ちょうど・ただ〜だけ",
+    "note": "程度や時点の強調"
+  },
+  {
+    "word": "keep",
+    "ja": "保つ・防ぐ",
+    "note": "keep off で遠ざける"
+  },
+  {
+    "word": "king",
+    "ja": "王",
+    "note": "君主"
+  },
+  {
+    "word": "kissed",
+    "ja": "口づけした",
+    "note": "kiss の過去形"
+  },
+  {
+    "word": "knew",
+    "ja": "知っていた・悟った",
+    "note": "know の過去形"
+  },
+  {
+    "word": "knows",
+    "ja": "知っている",
+    "note": "know の三人称単数"
+  },
+  {
+    "word": "laid",
+    "ja": "置いた",
+    "note": "lay の過去形"
+  },
+  {
+    "word": "lake",
+    "ja": "湖",
+    "note": "内陸の水域"
+  },
+  {
+    "word": "lands",
+    "ja": "国々・土地",
+    "note": "land の複数形"
+  },
+  {
+    "word": "large",
+    "ja": "大きい",
+    "note": "大きさの形容"
+  },
+  {
+    "word": "last",
+    "ja": "最後の・前の",
+    "note": "時系列の位置"
+  },
+  {
+    "word": "lasted",
+    "ja": "続いた",
+    "note": "last の過去形"
+  },
+  {
+    "word": "laughed",
+    "ja": "笑った",
+    "note": "laugh の過去形"
+  },
+  {
+    "word": "laughing",
+    "ja": "笑いながら",
+    "note": "laugh の現在分詞"
+  },
+  {
+    "word": "lay",
+    "ja": "横たわる・あった",
+    "note": "lie の過去形、lay は「置く」の現在形でもある"
+  },
+  {
+    "word": "leaf",
+    "ja": "葉・薄片",
+    "note": "金箔を一枚数えるときの語"
+  },
+  {
+    "word": "leave",
+    "ja": "去る・離れる",
+    "note": "場所から去る"
+  },
+  {
+    "word": "led",
+    "ja": "先導した",
+    "note": "lead の過去形"
+  },
+  {
+    "word": "left",
+    "ja": "去った・残された",
+    "note": "leave の過去分詞。方向の左もある"
+  },
+  {
+    "word": "let",
+    "ja": "〜させる・許す",
+    "note": "let は活用形同じ"
+  },
+  {
+    "word": "letter",
+    "ja": "手紙",
+    "note": "書面"
+  },
+  {
+    "word": "lie",
+    "ja": "横たわる",
+    "note": "嘘をつく lie と同形"
+  },
+  {
+    "word": "like",
+    "ja": "〜のように・好きだ",
+    "note": "前置詞・動詞"
+  },
+  {
+    "word": "liked",
+    "ja": "好んだ",
+    "note": "like の過去形"
+  },
+  {
+    "word": "lions",
+    "ja": "ライオンたち",
+    "note": "lion の複数"
+  },
+  {
+    "word": "little",
+    "ja": "小さな・少し",
+    "note": "量・大きさ"
+  },
+  {
+    "word": "litttle",
+    "ja": "少し（誤植）",
+    "note": "原文の litttle は little の誤植"
+  },
+  {
+    "word": "lived",
+    "ja": "暮らした・生きた",
+    "note": "live の過去形"
+  },
+  {
+    "word": "lives",
+    "ja": "暮らしている",
+    "note": "live の三人称単数"
+  },
+  {
+    "word": "local",
+    "ja": "地元の・地方の",
+    "note": "場所の限定"
+  },
+  {
+    "word": "long",
+    "ja": "長い・長く",
+    "note": "時間・距離"
+  },
+  {
+    "word": "longer",
+    "ja": "もっと長く・これ以上",
+    "note": "比較級"
+  },
+  {
+    "word": "look",
+    "ja": "見る・見える",
+    "note": "look at, look like に注目"
+  },
+  {
+    "word": "looked",
+    "ja": "見た・見えた",
+    "note": "look の過去形"
+  },
+  {
+    "word": "looking",
+    "ja": "見ている",
+    "note": "look の現在分詞"
+  },
+  {
+    "word": "looks",
+    "ja": "見える・見ている",
+    "note": "look 三人称単数"
+  },
+  {
+    "word": "loud",
+    "ja": "大きな音の",
+    "note": "音の強さ"
+  },
+  {
+    "word": "louder",
+    "ja": "より大きな音の",
+    "note": "loud の比較級"
+  },
+  {
+    "word": "love",
+    "ja": "愛・愛する",
+    "note": "名詞・動詞"
+  },
+  {
+    "word": "loved",
+    "ja": "愛した",
+    "note": "love の過去形"
+  },
+  {
+    "word": "loveliest",
+    "ja": "最も美しい",
+    "note": "lovely の最上級"
+  },
+  {
+    "word": "low",
+    "ja": "低い・小さい",
+    "note": "声や高さを形容"
+  },
+  {
+    "word": "lying",
+    "ja": "横たわっている",
+    "note": "lie の現在分詞"
+  },
+  {
+    "word": "made",
+    "ja": "作った・させた",
+    "note": "make の過去形"
+  },
+  {
+    "word": "make",
+    "ja": "作る・〜にする",
+    "note": "使役にも用いる"
+  },
+  {
+    "word": "making",
+    "ja": "作ること・楽しんでいる",
+    "note": "make の現在分詞"
+  },
+  {
+    "word": "man",
+    "ja": "男・男性",
+    "note": "人"
+  },
+  {
+    "word": "many",
+    "ja": "たくさんの",
+    "note": "可算名詞を修飾"
+  },
+  {
+    "word": "mark",
+    "ja": "しるし・印",
+    "note": "mark of disrespect"
+  },
+  {
+    "word": "mast",
+    "ja": "マスト・帆柱",
+    "note": "船の柱"
+  },
+  {
+    "word": "match-girl",
+    "ja": "マッチ売りの少女",
+    "note": "複合名詞"
+  },
+  {
+    "word": "me",
+    "ja": "私を・私に",
+    "note": "一人称目的格"
+  },
+  {
+    "word": "meeting",
+    "ja": "会議",
+    "note": "集会"
+  },
+  {
+    "word": "melt",
+    "ja": "溶ける・溶かす",
+    "note": "金属に対して使う"
+  },
+  {
+    "word": "men",
+    "ja": "男性たち",
+    "note": "man の複数形"
+  },
+  {
+    "word": "merely",
+    "ja": "単に・〜にすぎない",
+    "note": "程度を限定"
+  },
+  {
+    "word": "merry",
+    "ja": "陽気な",
+    "note": "make merry で楽しく過ごす"
+  },
+  {
+    "word": "met",
+    "ja": "出会った",
+    "note": "meet の過去形"
+  },
+  {
+    "word": "metal",
+    "ja": "金属",
+    "note": "物質"
+  },
+  {
+    "word": "miller’s",
+    "ja": "製粉業者の",
+    "note": "miller の所有格"
+  },
+  {
+    "word": "moment",
+    "ja": "瞬間",
+    "note": "at that moment"
+  },
+  {
+    "word": "money",
+    "ja": "お金",
+    "note": "貨幣"
+  },
+  {
+    "word": "moon",
+    "ja": "月",
+    "note": "天体"
+  },
+  {
+    "word": "more",
+    "ja": "もっと・より多く",
+    "note": "比較級"
+  },
+  {
+    "word": "morning",
+    "ja": "朝",
+    "note": "時間帯"
+  },
+  {
+    "word": "most",
+    "ja": "最も・大部分の",
+    "note": "最上級"
+  },
+  {
+    "word": "mother",
+    "ja": "母親",
+    "note": "親族"
+  },
+  {
+    "word": "mountains",
+    "ja": "山々",
+    "note": "mountain の複数"
+  },
+  {
+    "word": "move",
+    "ja": "動く",
+    "note": "位置を変える"
+  },
+  {
+    "word": "much",
+    "ja": "とても・多くの",
+    "note": "程度・量"
+  },
+  {
+    "word": "must",
+    "ja": "〜しなければならない",
+    "note": "義務・強い推量"
+  },
+  {
+    "word": "my",
+    "ja": "私の",
+    "note": "一人称所有格"
+  },
+  {
+    "word": "myself",
+    "ja": "私自身",
+    "note": "一人称再帰代名詞"
+  },
+  {
+    "word": "neck",
+    "ja": "首",
+    "note": "身体部位"
+  },
+  {
+    "word": "nest",
+    "ja": "巣",
+    "note": "鳥の住処"
+  },
+  {
+    "word": "never",
+    "ja": "決して〜ない・一度も〜ない",
+    "note": "強い否定"
+  },
+  {
+    "word": "next",
+    "ja": "次の・来〜",
+    "note": "順序・時間"
+  },
+  {
+    "word": "night",
+    "ja": "夜",
+    "note": "時間帯"
+  },
+  {
+    "word": "night-time",
+    "ja": "夜間",
+    "note": "夜の時間帯"
+  },
+  {
+    "word": "nile",
+    "ja": "ナイル川",
+    "note": "河川名"
+  }
+]
