@@ -1,0 +1,186 @@
+[
+  {
+    "id": "DE-20260920-001",
+    "sourceTitle": "帳簿は降りた人を数えない",
+    "workId": "daily-essay-20260920",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "反抗にも値札が付く",
+    "jp": "反抗は市場の外から叫んでいるように見える。だが録音され、配信され、席や衣装や物語へ分けられれば、それも売上の列に並ぶ。反抗が消えたのではない。買える形へ変換され、商品どうしの序列の中へ戻されたのである。そこでは、抵抗の強ささえ希少性や話題性として値付けされる。市場は批判を否定しなくてもよい。批判が通る道に料金所を置けば、その言葉を残したまま収益へ接続できる。",
+    "translationLiteral": "Rebellion appears to be shouting from outside the market. Yet once it is recorded, distributed, and divided into seats, costumes, and stories, it too lines up in the revenue column. Rebellion has not disappeared. It has been converted into a purchasable form and returned to a hierarchy among commodities. There, even the force of resistance is priced as scarcity or attention. The market does not need to deny criticism. By placing a tollgate on the road criticism travels, it can connect the words to revenue while leaving them intact.",
+    "translationNatural": "Rebellion may appear to speak from outside the market, yet recording and distribution can place it inside a sales ledger. It has not vanished; it has been converted into something purchasable and ranked among other goods. Even resistance can acquire a price through scarcity and attention. A market need not silence criticism if it can charge for the route the criticism uses.",
+    "imageUrl": "",
+    "imageCaption": "市場の外から伸びた反抗の声が、料金所を通って帳簿の一行へ変わる。",
+    "imagePrompt": "A rebellious voice traveling from outside a market through a symbolic tollgate and becoming a line in a ledger, sharp literary editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Rebellion may appear to speak from outside the market,",
+        "ja": "反抗は市場の外から語っているように見えるかもしれないが、"
+      },
+      {
+        "en": "yet recording and distribution can place it inside a sales ledger.",
+        "ja": "録音と流通はそれを売上帳簿の内側へ置きうる。"
+      },
+      {
+        "en": "It has not vanished; it has been converted into something purchasable and ranked among other goods.",
+        "ja": "反抗は消えたのではなく、買えるものへ変換され、他の商品と並べて順位付けされた。"
+      },
+      {
+        "en": "Even resistance can acquire a price through scarcity and attention.",
+        "ja": "抵抗さえ希少性や注目を通じて価格を持ちうる。"
+      },
+      {
+        "en": "A market need not silence criticism",
+        "ja": "市場は批判を沈黙させる必要がない。"
+      },
+      {
+        "en": "if it can charge for the route the criticism uses.",
+        "ja": "批判が通る経路から料金を取れるなら。"
+      }
+    ],
+    "grammar": [
+      "may appear to は外見上の位置と実際の位置を区別する。",
+      "yet は市場外の印象と帳簿への組込みを対照する。",
+      "place A inside B は反抗を売上帳簿へ配置する比喩である。",
+      "has not vanished; has been converted は現在完了で消滅否定と変換を対置する。",
+      "ranked among は他の商品との序列へ入れられる受動表現。",
+      "through scarcity and attention は値付けの手段を示す。",
+      "need not は否定する必要がないことを表す。",
+      "if は収益化できる場合の条件を置く。"
+    ],
+    "translationNote": "literal は席・衣装・物語への分解と料金所の比喩まで保持した。natural は細部を sales ledger と route にまとめ、反抗が消えるのではなく購入可能な形式へ変わる点を中心にした。silence と charge を対照し、市場の吸収が反論とは別の作用だと示した。",
+    "readingPoint": "導入。反抗と市場を単純な外部／内部に分けず、流通経路が反抗を商品へ変換することを見る。帳簿は批判の意味を消さずに、収益だけを記録できる。",
+    "keywords": [
+      "rebellion",
+      "market",
+      "commodity",
+      "scarcity",
+      "ledger",
+      "criticism"
+    ]
+  },
+  {
+    "id": "DE-20260920-002",
+    "sourceTitle": "帳簿は降りた人を数えない",
+    "workId": "daily-essay-20260920",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "遊ばない人にも請求は残る",
+    "jp": "遊びに値札が付き、希少な道具や参加権が取引されると、参加しないことが自由な退出に見えてくる。しかし、買わない人が競争から降りても、時間、広告、他者との比較、制度を支える負担まで消えるとは限らない。取得をやめることと、請求から外れることは違う。しかも、声を上げずに離れた人は、需要の減少としては数えられても、何が苦しかったのかまでは記帳されない。不参加は静かだが、制度への同意とは限らない。",
+    "translationLiteral": "When play receives a price tag and rare tools or rights to participate are traded, not participating begins to look like free exit. Yet even if a person who does not buy steps down from the competition, time, advertising, comparison with others, and the burden of supporting the system do not necessarily disappear. Stopping acquisition and escaping the bill are different. Moreover, a person who leaves without raising a voice may be counted as reduced demand, but what was painful is not entered in the ledger. Nonparticipation is quiet, but it is not necessarily consent to the system.",
+    "translationNatural": "Once play is priced and access becomes tradable, refusal can look like a clean exit. But declining to buy does not necessarily remove time pressure, advertising, comparison, or the costs that keep the system running. Stopping purchases is not the same as escaping the bill. A silent departure may appear in the data as weaker demand, while the reason for leaving remains unrecorded. Nonparticipation is quiet, but quiet is not consent.",
+    "imageUrl": "",
+    "imageCaption": "遊びの売場から離れる人の背後に、消えない請求書と記録されない理由が残る。",
+    "imagePrompt": "A person walking away from a marketplace of games while an unpaid symbolic bill and an empty ledger line remain behind, quiet editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Once play is priced and access becomes tradable, refusal can look like a clean exit.",
+        "ja": "遊びに価格が付き参加権が取引可能になると、拒否がきれいな退出に見える。"
+      },
+      {
+        "en": "But declining to buy does not necessarily remove time pressure, advertising, comparison, or the costs that keep the system running.",
+        "ja": "しかし買わなくても、時間の圧力、広告、比較、制度維持費が必ず消えるわけではない。"
+      },
+      {
+        "en": "Stopping purchases is not the same as escaping the bill.",
+        "ja": "購入をやめることと請求から逃れることは同じではない。"
+      },
+      {
+        "en": "A silent departure may appear in the data as weaker demand,",
+        "ja": "静かな退出は需要減少としてデータに現れるかもしれないが、"
+      },
+      {
+        "en": "while the reason for leaving remains unrecorded.",
+        "ja": "退出理由は記録されないまま残る。"
+      },
+      {
+        "en": "Nonparticipation is quiet, but quiet is not consent.",
+        "ja": "不参加は静かだが、静けさは同意ではない。"
+      }
+    ],
+    "grammar": [
+      "Once S V は値付けと取引可能化が成立した後の見え方を示す。",
+      "declining to buy は動名詞句で買わない選択を主語にする。",
+      "does not necessarily は必然的な結果ではないことを表す。",
+      "A is not the same as B は取得停止と請求離脱を区別する。",
+      "may appear as はデータ上の見え方を限定する。",
+      "while は観測される需要減と記録されない理由を対照する。",
+      "remains unrecorded は理由が未記録の状態に残ることを示す。",
+      "quiet is not consent は同じ語を反復して沈黙と同意を切り分ける。"
+    ],
+    "translationNote": "literal は取得から降りても制度負担が残る非対称性を列挙した。natural は refusal、clean exit、bill で退出の見かけと残存負担を簡潔にした。「要求なき不参加」は silent departure とし、需要統計に現れても理由が記録されない差を明示した。",
+    "readingPoint": "展開。市場が記録するのは購入と需要であり、退出理由や残る負担ではない。不参加を同意や完全なExitと読み替えないため、帳簿の外側を見る。",
+    "keywords": [
+      "nonparticipation",
+      "exit",
+      "demand",
+      "consent",
+      "cost",
+      "play"
+    ]
+  },
+  {
+    "id": "DE-20260920-003",
+    "sourceTitle": "帳簿は降りた人を数えない",
+    "workId": "daily-essay-20260920",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "注意だけでは梁を支えられない",
+    "jp": "事故のあとでは、現場の注意不足が語られやすい。作業者が危険を察知し、止める力を持つことは必要だ。けれど、計画変更の再計算、作業手順の確認、立入禁止、上下作業の分離まで、個人の用心へまとめて渡すことはできない。注意は最後の防壁にはなれても、設計審査の代わりにはならない。責任を現場へ外部化すれば、制度の帳簿は軽くなるが、荷重は消えない。記録から除かれた重さは、誰かの身体に残る。",
+    "translationLiteral": "After an accident, a lack of attention at the worksite is easily discussed. Workers need the power to notice danger and stop. Yet recalculation after plan changes, confirmation of work procedures, restricted entry, and separation of work above and below cannot all be handed over to individual caution. Attention can be the last barrier, but it cannot replace design review. If responsibility is externalized to the worksite, the system's ledger becomes lighter, but the load does not disappear. Weight removed from the record remains in someone's body.",
+    "translationNatural": "After an accident, attention often shifts quickly to the worker. Workers do need the authority to detect danger and stop the job, but personal caution cannot replace recalculation, procedure review, restricted access, or separation of work areas. Awareness may serve as a final barrier; it is not a substitute for design review. Moving responsibility downward makes the institutional ledger look lighter without reducing the load. Weight erased from the record remains on a body.",
+    "imageUrl": "",
+    "imageCaption": "軽くなった帳簿の下で、記録から消された荷重を一人の身体が支えている。",
+    "imagePrompt": "An institutional ledger becoming visually lighter while a worker silhouette below still supports the full structural load, sober safety editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "After an accident, attention often shifts quickly to the worker.",
+        "ja": "事故後、注意はすぐ作業者へ向かいがちである。"
+      },
+      {
+        "en": "Workers do need the authority to detect danger and stop the job,",
+        "ja": "作業者には危険を察知して仕事を止める権限が必要だが、"
+      },
+      {
+        "en": "but personal caution cannot replace recalculation, procedure review, restricted access, or separation of work areas.",
+        "ja": "個人の用心は再計算、手順確認、立入制限、作業区域の分離を代替できない。"
+      },
+      {
+        "en": "Awareness may serve as a final barrier; it is not a substitute for design review.",
+        "ja": "注意は最後の防壁にはなりうるが、設計審査の代わりではない。"
+      },
+      {
+        "en": "Moving responsibility downward makes the institutional ledger look lighter without reducing the load.",
+        "ja": "責任を下へ移すと制度の帳簿は軽く見えるが、荷重は減らない。"
+      },
+      {
+        "en": "Weight erased from the record remains on a body.",
+        "ja": "記録から消された重さは身体に残る。"
+      }
+    ],
+    "grammar": [
+      "After an accident は議論が変化する時間的な起点を示す。",
+      "shift to は注意の向かう先が作業者へ移ることを表す。",
+      "do need は助動詞 do で必要性を強調する。",
+      "cannot replace は個人注意では制度的措置を代替できないことを示す。",
+      "may serve as は限定された役割の可能性を表す。",
+      "not a substitute for は代替関係を明確に否定する。",
+      "make A look B は責任移転が帳簿を軽く見せる使役構文。",
+      "without -ing は見かけの軽減が実際の荷重減少を伴わないことを示す。",
+      "erased from the record は過去分詞句で weight を修飾する。"
+    ],
+    "translationNote": "literal は安全対策を具体的に列挙し、帳簿と荷重の対照を保った。natural は workers do need として現場の停止権限を肯定した上で、personal caution cannot replace と制度的責任の代替不可を明確にした。最後はbodyを無冠詞ではなくa bodyとし、負担が具体的な誰かへ残る余韻を作った。",
+    "readingPoint": "転換と余韻。市場から降りた人の未記録負担を、現場へ移された安全責任へ接続する。帳簿を軽くする操作は重さそのものを消さず、最後には身体が引き受けると結ぶ。",
+    "keywords": [
+      "safety",
+      "responsibility",
+      "design review",
+      "worker",
+      "load",
+      "externalization"
+    ]
+  }
+]
