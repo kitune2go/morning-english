@@ -104,12 +104,12 @@
           },
           {
             "en": "for eyes he had two bright sapphires, ",
-            "role": "理由・条件・対照などの接続",
+            "role": "対象・目的などを示す句",
             "ja": "for eyes＝目の部分には ／ 語句：sapphires＝サファイア"
           },
           {
             "en": "and a large red ruby glowed on his sword-hilt.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：ruby＝ルビー、glowed＝光り輝いた、sword-hilt＝剣の柄"
           }
         ],
@@ -200,7 +200,7 @@
           },
           {
             "en": "for having artistic tastes; ",
-            "role": "理由・条件・対照などの接続",
+            "role": "対象・目的などを示す句",
             "ja": "語句：artistic＝芸術的な、tastes＝好み・趣味"
           },
           {
@@ -296,17 +296,17 @@
         "chunks": [
           {
             "en": "“Why can’t you be like the Happy Prince?” ",
-            "role": "意味のまとまり",
+            "role": "疑問文・会話",
             "ja": "語句：prince＝王子"
           },
           {
             "en": "asked a sensible mother of her little boy who was crying ",
-            "role": "意味のまとまり",
+            "role": "発話と話者",
             "ja": "語句：sensible＝分別のある、who＝誰・〜する人、crying＝泣いている"
           },
           {
             "en": "for the moon. “The Happy Prince never dreams of crying for anything.”",
-            "role": "理由・条件・対照などの接続",
+            "role": "理由を導く接続詞",
             "ja": "never dreams of＝〜など思いもしない ／ 語句：prince＝王子、crying＝泣いている、dreams＝夢"
           }
         ],
@@ -358,7 +358,7 @@
           },
           {
             "en": "who is quite happy,” ",
-            "role": "前の名詞・内容の修飾",
+            "role": "関係詞・修飾節",
             "ja": "語句：who＝誰・〜する人"
           },
           {
@@ -425,12 +425,12 @@
           },
           {
             "en": "as they came out of the cathedral in their bright scarlet cloaks ",
-            "role": "理由・条件・対照などの接続",
+            "role": "比較・理由・時間などの接続",
             "ja": "as they came out＝出てきたとき ／ 語句：cathedral＝大聖堂、scarlet＝鮮やかな赤色の、cloaks＝外套・マント"
           },
           {
             "en": "and their clean white pinafores.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：pinafores＝エプロン形の上着"
           }
         ],
@@ -482,7 +482,7 @@
         "chunks": [
           {
             "en": "“How do you know?” ",
-            "role": "意味のまとまり",
+            "role": "疑問文・会話",
             "ja": "How do you know＝なぜ分かるのか ／ 語句：know＝知っている"
           },
           {
@@ -604,12 +604,12 @@
           },
           {
             "en": "and the Mathematical Master frowned and looked very severe, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：Mathematical＝数学の、Master＝教師・師、frowned＝眉をひそめた"
           },
           {
             "en": "for he did not approve of children dreaming.",
-            "role": "理由・条件・対照などの接続",
+            "role": "理由を導く接続詞",
             "ja": "did not approve of＝〜を好まなかった ／ 語句：approve＝認める・賛成する"
           }
         ],
@@ -661,7 +661,7 @@
         "chunks": [
           {
             "en": "One night there flew over the city a little Swallow. ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "there flew over the city＝街の上を飛んでいった（倒置） ／ 語句：Swallow＝ツバメ"
           },
           {
@@ -671,12 +671,12 @@
           },
           {
             "en": "but he had stayed behind, ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "had stayed behind＝あとに残っていた（過去完了）"
           },
           {
             "en": "for he was in love with the most beautiful Reed. ",
-            "role": "理由・条件・対照などの接続",
+            "role": "理由を導く接続詞",
             "ja": "語句：Reed＝葦（アシ）"
           },
           {
@@ -686,17 +686,17 @@
           },
           {
             "en": "as he was flying down the river after a big yellow moth, ",
-            "role": "理由・条件・対照などの接続",
+            "role": "比較・理由・時間などの接続",
             "ja": "語句：moth＝蛾"
           },
           {
             "en": "and had been so attracted by her slender waist ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "so attracted by＝それほど魅了されたので ／ 語句：attracted＝惹きつけられた、slender＝ほっそりした、waist＝腰"
           },
           {
             "en": "that he had stopped to talk to her.",
-            "role": "前の名詞・内容の修飾",
+            "role": "that節・指示語",
             "ja": "前後のチャンクにつなげて読む"
           }
         ],
@@ -757,7 +757,7 @@
         "chunks": [
           {
             "en": "“Shall I love you?” ",
-            "role": "意味のまとまり",
+            "role": "疑問文・会話",
             "ja": "会話文。発話者と引用範囲を確認"
           },
           {
@@ -767,12 +767,12 @@
           },
           {
             "en": "and the Reed made him a low bow. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：Reed＝葦（アシ）、bow＝お辞儀"
           },
           {
             "en": "So he flew round and round her, ",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "round and round＝ぐるぐると"
           },
           {
@@ -848,12 +848,12 @@
           },
           {
             "en": "and indeed the river was quite full of Reeds. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：indeed＝実に・確かに"
           },
           {
             "en": "Then, when the autumn came they all flew away.",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "when the autumn came＝秋になると ／ 語句：then＝それから・そのとき、autumn＝秋"
           }
         ],
@@ -989,12 +989,12 @@
         "chunks": [
           {
             "en": "After they had gone he felt lonely, ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "語句：lonely＝寂しい"
           },
           {
             "en": "and began to tire of his lady-love. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "began to tire of＝〜に飽き始めた ／ 語句：lady-love＝恋人の女性"
           },
           {
@@ -1004,17 +1004,17 @@
           },
           {
             "en": "“and I am afraid that she is a coquette, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：coquette＝浮気っぽい女"
           },
           {
             "en": "for she is always flirting with the wind.” ",
-            "role": "理由・条件・対照などの接続",
+            "role": "理由を導く接続詞",
             "ja": "語句：flirting＝戯れている・色目を使う"
           },
           {
             "en": "And certainly, whenever the wind blew, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "whenever the wind blew＝風が吹くたびに"
           },
           {
@@ -1029,7 +1029,7 @@
           },
           {
             "en": "and my wife, consequently, should love travelling also.”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "consequently＝それゆえ ／ 語句：travelling＝旅行すること、consequently＝したがって"
           }
         ],
@@ -1115,7 +1115,7 @@
         "chunks": [
           {
             "en": "“Will you come away with me?” ",
-            "role": "意味のまとまり",
+            "role": "疑問文・会話",
             "ja": "come away with me＝私と一緒に旅に出る"
           },
           {
@@ -1125,7 +1125,7 @@
           },
           {
             "en": "but the Reed shook her head, ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "語句：Reed＝葦（アシ）"
           },
           {
@@ -1199,17 +1199,17 @@
         "chunks": [
           {
             "en": "All day long he flew, ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "All day long＝一日じゅう"
           },
           {
             "en": "and at night-time he arrived at the city. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
             "en": "“Where shall I put up?” ",
-            "role": "前の名詞・内容の修飾",
+            "role": "疑問文・会話",
             "ja": "put up＝宿泊する"
           },
           {
@@ -1245,7 +1245,7 @@
         "chunks": [
           {
             "en": "Then he saw the statue on the tall column.",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "the statue on the tall column＝高い柱の上の像 ／ 語句：then＝それから・そのとき、statue＝像、column＝柱"
           }
         ],
@@ -1288,7 +1288,7 @@
           },
           {
             "en": "So he alighted just between the feet of the Happy Prince.",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "alighted＝降り立った ／ 語句：alighted＝降り立った、prince＝王子"
           }
         ],
@@ -1379,12 +1379,12 @@
           },
           {
             "en": "and he prepared to go to sleep; ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：Sleep＝眠り"
           },
           {
             "en": "but just as he was putting his head under his wing a ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "just as＝ちょうど〜したとき ／ 語句：wing＝翼"
           },
           {
@@ -1414,7 +1414,7 @@
           },
           {
             "en": "but that was merely her selfishness.”",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "語句：selfishness＝身勝手さ"
           }
         ],
@@ -1490,7 +1490,7 @@
         "chunks": [
           {
             "en": "Then another drop fell.",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "another drop fell＝もう一滴落ちた ／ 語句：then＝それから・そのとき、drop＝水滴・しずく"
           }
         ],
@@ -1523,7 +1523,7 @@
           },
           {
             "en": "if it cannot keep the rain off?” ",
-            "role": "理由・条件・対照などの接続",
+            "role": "条件・仮定",
             "ja": "keep the rain off＝雨を防ぐ"
           },
           {
@@ -1533,7 +1533,7 @@
           },
           {
             "en": "and he determined to fly away.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "determined to＝〜しようと決心した ／ 語句：determined＝決心した"
           }
         ],
@@ -1574,12 +1574,12 @@
         "chunks": [
           {
             "en": "But before he had opened his wings, a third drop fell, ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "before he had opened his wings＝羽を広げるより前に ／ 語句：drop＝水滴・しずく"
           },
           {
             "en": "and he looked up, and saw—Ah! what did he see?",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "looked up＝見上げた"
           }
         ],
@@ -1611,7 +1611,7 @@
           },
           {
             "en": "and tears were running down his golden cheeks. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：tears＝涙、golden＝金色の、cheeks＝頬"
           },
           {
@@ -1621,7 +1621,7 @@
           },
           {
             "en": "that the little Swallow was filled with pity.",
-            "role": "前の名詞・内容の修飾",
+            "role": "that節・指示語",
             "ja": "filled with pity＝哀れみの気持ちで満たされた ／ 語句：Swallow＝ツバメ、pity＝哀れみ・同情"
           }
         ],
@@ -1682,7 +1682,7 @@
         "chunks": [
           {
             "en": "“Who are you?” he said.",
-            "role": "前の名詞・内容の修飾",
+            "role": "疑問文・会話",
             "ja": "Who are you＝あなたは誰ですか ／ 語句：who＝誰・〜する人"
           }
         ],
@@ -1766,12 +1766,12 @@
         "chunks": [
           {
             "en": "“Why are you weeping then?” ",
-            "role": "意味のまとまり",
+            "role": "疑問文・会話",
             "ja": "Why are you weeping＝なぜ泣いているのか ／ 語句：weeping＝泣いている、then＝それから・そのとき"
           },
           {
             "en": "asked the Swallow; “you have quite drenched me.”",
-            "role": "意味のまとまり",
+            "role": "発話と話者",
             "ja": "quite drenched me＝私をすっかり濡らしてしまった ／ 語句：Swallow＝ツバメ、drenched＝びしょ濡れにした"
           }
         ],
@@ -1813,7 +1813,7 @@
         "chunks": [
           {
             "en": "“When I was alive and had a human heart,” answered the statue, ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "語句：alive＝生きて、human＝人間の"
           },
           {
@@ -1823,22 +1823,22 @@
           },
           {
             "en": "for I lived in the Palace of Sans-Souci, ",
-            "role": "理由・条件・対照などの接続",
+            "role": "理由を導く接続詞",
             "ja": "語句：palace＝宮殿"
           },
           {
             "en": "where sorrow is not allowed to enter. ",
-            "role": "前の名詞・内容の修飾",
+            "role": "関係詞・修飾節",
             "ja": "語句：sorrow＝悲しみ"
           },
           {
             "en": "In the daytime I played with my companions in the garden, ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "語句：companions＝仲間たち"
           },
           {
             "en": "and in the evening I led the dance in the Great Hall. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -1848,7 +1848,7 @@
           },
           {
             "en": "but I never cared to ask what lay beyond it, ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "what lay beyond it＝壁の向こうに何があるのか ／ 語句：beyond＝〜の向こうに"
           },
           {
@@ -1863,32 +1863,32 @@
           },
           {
             "en": "if pleasure be happiness. So I lived, and so I died. ",
-            "role": "理由・条件・対照などの接続",
+            "role": "条件・仮定",
             "ja": "語句：pleasure＝快楽・楽しみ"
           },
           {
             "en": "And now that I am dead they have set me up here ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
             "en": "so high that I can see all the ugliness ",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "語句：ugliness＝醜さ"
           },
           {
             "en": "and all the misery of my city, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：Misery＝悲惨・窮乏"
           },
           {
             "en": "and though my heart is made of lead yet I cannot chose ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "対照や譲歩のつながりに注目"
           },
           {
             "en": "but weep.”",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "対照や譲歩のつながりに注目"
           }
         ],
@@ -1974,7 +1974,7 @@
         "chunks": [
           {
             "en": "“What! is he not solid gold?” said the Swallow to himself. ",
-            "role": "発話と話者",
+            "role": "疑問文・会話",
             "ja": "solid gold＝純金製 ／ 語句：solid＝無垢の・中まで詰まった、Swallow＝ツバメ"
           },
           {
@@ -2088,7 +2088,7 @@
           },
           {
             "en": "and through it I can see a woman seated at a table. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -2108,7 +2108,7 @@
           },
           {
             "en": "for the loveliest of the Queen’s maids-of-honour to wear at the next ",
-            "role": "理由・条件・対照などの接続",
+            "role": "理由を導く接続詞",
             "ja": "語句：maids-of-honour＝女官たち"
           },
           {
@@ -2133,7 +2133,7 @@
           },
           {
             "en": "so he is crying. ",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "語句：crying＝泣いている"
           },
           {
@@ -2143,7 +2143,7 @@
           },
           {
             "en": "will you not bring her the ruby out of my sword-hilt? ",
-            "role": "意味のまとまり",
+            "role": "疑問文・会話",
             "ja": "語句：sword-hilt＝剣の柄"
           },
           {
@@ -2274,7 +2274,7 @@
           },
           {
             "en": "and talking to the large lotus-flowers. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：lotus-flowers＝蓮の花"
           },
           {
@@ -2299,7 +2299,7 @@
           },
           {
             "en": "and his hands are like withered leaves.”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "like withered leaves＝枯葉のような ／ 語句：withered＝しおれた"
           }
         ],
@@ -2395,7 +2395,7 @@
           },
           {
             "en": "and be my messenger? ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "be my messenger＝私の使いになって ／ 語句：messenger＝使者"
           },
           {
@@ -2457,7 +2457,7 @@
           },
           {
             "en": "who were always throwing stones at me. ",
-            "role": "前の名詞・内容の修飾",
+            "role": "関係詞・修飾節",
             "ja": "were always throwing stones＝いつも石を投げていた ／ 語句：who＝誰・〜する人、always＝いつも・ずっと、stones＝石"
           },
           {
@@ -2477,7 +2477,7 @@
           },
           {
             "en": "but still, it was a mark of disrespect.”",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "mark of disrespect＝無礼のしるし ／ 語句：disrespect＝無礼"
           }
         ],
@@ -2575,12 +2575,12 @@
         "chunks": [
           {
             "en": "But the Happy Prince looked so sad ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "語句：prince＝王子"
           },
           {
             "en": "that the little Swallow was sorry. ",
-            "role": "前の名詞・内容の修飾",
+            "role": "that節・指示語",
             "ja": "語句：Swallow＝ツバメ、sorry＝気の毒に思う"
           },
           {
@@ -2590,12 +2590,12 @@
           },
           {
             "en": "“but I will stay with you for one night, ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "対照や譲歩のつながりに注目"
           },
           {
             "en": "and be your messenger.”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "be your messenger＝あなたの使いになる ／ 語句：messenger＝使者"
           }
         ],
@@ -2665,12 +2665,12 @@
         "chunks": [
           {
             "en": "So the Swallow picked out the great ruby from the Prince’s sword, ",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "picked out＝取り出した ／ 語句：Swallow＝ツバメ、picked＝つまみ取った、ruby＝ルビー"
           },
           {
             "en": "and flew away with it in his beak over the roofs of ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "in his beak＝くちばしにくわえて ／ 語句：beak＝くちばし、roofs＝屋根"
           },
           {
@@ -2732,7 +2732,7 @@
           },
           {
             "en": "where the white marble angels were sculptured. ",
-            "role": "前の名詞・内容の修飾",
+            "role": "関係詞・修飾節",
             "ja": "語句：marble＝大理石、Angels＝天使たち、sculptured＝彫刻された"
           },
           {
@@ -2752,7 +2752,7 @@
           },
           {
             "en": "“and how wonderful is the power of love!”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "power of love＝愛の力 ／ 語句：wonderful＝すばらしい"
           }
         ],
@@ -2828,7 +2828,7 @@
           },
           {
             "en": "but the seamstresses are so lazy.”",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "so lazy＝とても怠け者だ ／ 語句：lazy＝怠惰な"
           }
         ],
@@ -2913,7 +2913,7 @@
           },
           {
             "en": "and saw the lanterns hanging to the masts of the ships. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：lanterns＝ランタン・灯火"
           },
           {
@@ -2923,17 +2923,17 @@
           },
           {
             "en": "and saw the old Jews bargaining with each other, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：bargaining＝値段交渉している"
           },
           {
             "en": "and weighing out money in copper scales. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：weighing＝量っている、copper＝銅、scales＝天秤・秤"
           },
           {
             "en": "At last he came to the poor house and looked in. ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -2943,7 +2943,7 @@
           },
           {
             "en": "and the mother had fallen asleep, she was so tired. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -2953,12 +2953,12 @@
           },
           {
             "en": "and laid the great ruby on the table beside the woman’s thimble. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：thimble＝指ぬき"
           },
           {
             "en": "Then he flew gently round the bed, ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -2973,7 +2973,7 @@
           },
           {
             "en": "and he sank into a delicious slumber.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：slumber＝眠り"
           }
         ],
@@ -3059,12 +3059,12 @@
         "chunks": [
           {
             "en": "Then the Swallow flew back to the Happy Prince, ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "語句：then＝それから・そのとき、Swallow＝ツバメ、prince＝王子"
           },
           {
             "en": "and told him what he had done. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "what he had done＝自分がしてきたこと"
           },
           {
@@ -3074,7 +3074,7 @@
           },
           {
             "en": "although it is so cold.”",
-            "role": "理由・条件・対照などの接続",
+            "role": "譲歩・対比",
             "ja": "although it is so cold＝とても寒いのに"
           }
         ],
@@ -3121,12 +3121,12 @@
         "chunks": [
           {
             "en": "“That is because you have done a good action,” said the Prince. ",
-            "role": "前の名詞・内容の修飾",
+            "role": "that節・指示語",
             "ja": "a good action＝よい行い ／ 語句：action＝行い、prince＝王子"
           },
           {
             "en": "And the little Swallow began to think, and then he fell asleep. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "fell asleep＝眠り込んだ ／ 語句：Swallow＝ツバメ、then＝それから・そのとき"
           },
           {
@@ -3209,12 +3209,12 @@
         "chunks": [
           {
             "en": "When day broke he flew down to the river ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "When day broke＝夜が明けたとき"
           },
           {
             "en": "and had a bath. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -3234,7 +3234,7 @@
           },
           {
             "en": "And he wrote a long letter about it to the local newspaper. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：newspaper＝新聞"
           },
           {
@@ -3310,7 +3310,7 @@
           },
           {
             "en": "and he was in high spirits at the prospect. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "in high spirits＝上機嫌で ／ at the prospect＝その見込みに ／ 語句：spirits＝気分、prospect＝見込み・予想"
           },
           {
@@ -3320,7 +3320,7 @@
           },
           {
             "en": "and sat a long time on top of the church steeple. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：steeple＝教会の尖塔"
           },
           {
@@ -3401,12 +3401,12 @@
         "chunks": [
           {
             "en": "When the moon rose he flew back to the Happy Prince. ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "語句：prince＝王子"
           },
           {
             "en": "“Have you any commissions for Egypt?” he cried; “I am just starting.”",
-            "role": "発話と話者",
+            "role": "疑問文・会話",
             "ja": "Have you any commissions＝何か用事はありますか ／ just starting＝今まさに出発するところ ／ 語句：commissions＝頼まれ事、Egypt＝エジプト"
           }
         ],
@@ -3448,7 +3448,7 @@
           },
           {
             "en": "“will you not stay with me one night longer?”",
-            "role": "意味のまとまり",
+            "role": "疑問文・会話",
             "ja": "one night longer＝もう一晩長く ／ will you not stay＝残ってくれないか"
           }
         ],
@@ -3532,7 +3532,7 @@
           },
           {
             "en": "and on a great granite throne sits the God Memnon. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：granite＝花崗岩、throne＝玉座、Memnon＝メムノン"
           },
           {
@@ -3542,17 +3542,17 @@
           },
           {
             "en": "and when the morning star shines he utters one cry of joy, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "utters one cry of joy＝喜びの声を一声発する ／ 語句：utters＝発する"
           },
           {
             "en": "and then he is silent. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
             "en": "At noon the yellow lions come down to the water’s edge to ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -3562,7 +3562,7 @@
           },
           {
             "en": "and their roar is louder than the roar of the cataract.”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "their roar is louder than＝そのほえる声は〜より大きい ／ 語句：Cataract＝大滝・急流、roar＝咆哮"
           }
         ],
@@ -3663,7 +3663,7 @@
           },
           {
             "en": "and in a tumbler by his side there is a bunch of ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：tumbler＝コップ、bunch＝一束"
           },
           {
@@ -3673,12 +3673,12 @@
           },
           {
             "en": "and his lips are red as a pomegranate, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：pomegranate＝ザクロ"
           },
           {
             "en": "and he has large and dreamy eyes. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：dreamy＝夢見がちな"
           },
           {
@@ -3688,12 +3688,12 @@
           },
           {
             "en": "for the Director of the Theatre, ",
-            "role": "理由・条件・対照などの接続",
+            "role": "理由を導く接続詞",
             "ja": "語句：Director＝支配人・監督、Theatre＝劇場"
           },
           {
             "en": "but he is too cold to write any more. ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "対照や譲歩のつながりに注目"
           },
           {
@@ -3703,7 +3703,7 @@
           },
           {
             "en": "and hunger has made him faint.”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "hunger has made him faint＝空腹で衰弱している ／ 語句：hunger＝飢え"
           }
         ],
@@ -3846,7 +3846,7 @@
           },
           {
             "en": "who really had a good heart. “Shall I take him another ruby?”",
-            "role": "前の名詞・内容の修飾",
+            "role": "疑問文・会話",
             "ja": "Shall I take him another ruby＝別のルビーを運ぼうか ／ 語句：who＝誰・〜する人、ruby＝ルビー"
           }
         ],
@@ -3898,7 +3898,7 @@
           },
           {
             "en": "which were brought out of India a thousand years ago. ",
-            "role": "前の名詞・内容の修飾",
+            "role": "関係詞・修飾節",
             "ja": "関係詞・疑問詞の役割を前後の文から確認"
           },
           {
@@ -3913,7 +3913,7 @@
           },
           {
             "en": "and finish his play.”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "会話文。発話者と引用範囲を確認"
           }
         ],
@@ -3969,7 +3969,7 @@
           },
           {
             "en": "and he began to weep.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "began to weep＝泣き始めた ／ 語句：weep＝泣く"
           }
         ],
@@ -4039,12 +4039,12 @@
         "chunks": [
           {
             "en": "So the Swallow plucked out the Prince’s eye, ",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "語句：Swallow＝ツバメ、plucked＝引き抜いた、prince＝王子"
           },
           {
             "en": "and flew away to the student’s garret. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：student＝学生、garret＝屋根裏部屋"
           },
           {
@@ -4054,7 +4054,7 @@
           },
           {
             "en": "as there was a hole in the roof. ",
-            "role": "理由・条件・対照などの接続",
+            "role": "比較・理由・時間などの接続",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -4069,12 +4069,12 @@
           },
           {
             "en": "so he did not hear the flutter of the bird’s wings, ",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "語句：flutter＝羽ばたき"
           },
           {
             "en": "and when he looked up he found the beautiful sapphire lying on ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "found ... lying＝〜が置かれているのを見つけた"
           },
           {
@@ -4230,7 +4230,7 @@
           },
           {
             "en": "and watched the sailors hauling big chests out of the hold with ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "hauling big chests＝大きな箱を引き上げている ／ out of the hold＝船倉から ／ 語句：sailors＝船乗りたち、hauling＝引っ張り上げている、chests＝大箱・収納箱"
           },
           {
@@ -4250,7 +4250,7 @@
           },
           {
             "en": "and when the moon rose he flew back to the Happy Prince.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：prince＝王子"
           }
         ],
@@ -4368,7 +4368,7 @@
           },
           {
             "en": "“will you not stay with me one night longer?”",
-            "role": "意味のまとまり",
+            "role": "疑問文・会話",
             "ja": "stay with me one night longer＝もう一晩一緒にいて"
           }
         ],
@@ -4438,7 +4438,7 @@
           },
           {
             "en": "“and the chill snow will soon be here. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：chill＝身にしみる冷たさ"
           },
           {
@@ -4448,7 +4448,7 @@
           },
           {
             "en": "and the crocodiles lie in the mud and look lazily about them. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：crocodiles＝ワニ、mud＝泥、lazily＝ものうげに・怠惰に"
           },
           {
@@ -4458,12 +4458,12 @@
           },
           {
             "en": "and the pink and white doves are watching them, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：doves＝ハトたち"
           },
           {
             "en": "and cooing to each other. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：cooing＝クークーと鳴いている"
           },
           {
@@ -4473,7 +4473,7 @@
           },
           {
             "en": "and next spring I will bring you back two beautiful jewels in ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：jewels＝宝石類"
           },
           {
@@ -4488,7 +4488,7 @@
           },
           {
             "en": "and the sapphire shall be as blue as the great sea.”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "as blue as the great sea＝大海のように青い"
           }
         ],
@@ -4589,7 +4589,7 @@
           },
           {
             "en": "and they are all spoiled. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：spoiled＝だめになった"
           },
           {
@@ -4599,7 +4599,7 @@
           },
           {
             "en": "if she does not bring home some money, and she is crying. ",
-            "role": "理由・条件・対照などの接続",
+            "role": "条件・仮定",
             "ja": "bring home some money＝お金を家に持ち帰る ／ 語句：crying＝泣いている"
           },
           {
@@ -4614,7 +4614,7 @@
           },
           {
             "en": "and her father will not beat her.”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "会話文。発話者と引用範囲を確認"
           }
         ],
@@ -4709,12 +4709,12 @@
           },
           {
             "en": "“but I cannot pluck out your eye. ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "pluck out your eye＝目を引き抜く"
           },
           {
             "en": "You would be quite blind then.”",
-            "role": "意味のまとまり",
+            "role": "主語・叙述",
             "ja": "quite blind＝完全に目が見えない ／ 語句：blind＝目が見えない、then＝それから・そのとき"
           }
         ],
@@ -4784,12 +4784,12 @@
         "chunks": [
           {
             "en": "So he plucked out the Prince’s other eye, ",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "語句：plucked＝引き抜いた、prince＝王子"
           },
           {
             "en": "and darted down with it. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "darted down＝さっと急降下した ／ 語句：darted＝素早く飛び込んだ"
           },
           {
@@ -4799,7 +4799,7 @@
           },
           {
             "en": "and slipped the jewel into the palm of her hand. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "slipped the jewel into＝宝石をそっと入れた ／ 語句：slipped＝そっと滑り込ませた、palm＝手のひら"
           },
           {
@@ -4809,7 +4809,7 @@
           },
           {
             "en": "and she ran home, laughing.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           }
         ],
@@ -4870,7 +4870,7 @@
         "chunks": [
           {
             "en": "Then the Swallow came back to the Prince. ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "語句：then＝それから・そのとき、Swallow＝ツバメ、prince＝王子"
           },
           {
@@ -4880,7 +4880,7 @@
           },
           {
             "en": "“so I will stay with you always.”",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "stay with you always＝いつまでもあなたと一緒にいる ／ 語句：always＝いつも・ずっと"
           }
         ],
@@ -4932,7 +4932,7 @@
           },
           {
             "en": "“you must go away to Egypt.”",
-            "role": "意味のまとまり",
+            "role": "主語・叙述",
             "ja": "must go away to Egypt＝エジプトへ行かなければならない ／ 語句：Egypt＝エジプト"
           }
         ],
@@ -4970,7 +4970,7 @@
           },
           {
             "en": "and he slept at the Prince’s feet.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "slept at the Prince’s feet＝王子の足元で眠った ／ 語句：prince＝王子"
           }
         ],
@@ -5028,7 +5028,7 @@
           },
           {
             "en": "and told him stories of what he had seen in strange lands. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -5038,12 +5038,12 @@
           },
           {
             "en": "who stand in long rows on the banks of the Nile, ",
-            "role": "前の名詞・内容の修飾",
+            "role": "関係詞・修飾節",
             "ja": "語句：banks＝川岸"
           },
           {
             "en": "and catch gold-fish in their beaks; ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -5053,7 +5053,7 @@
           },
           {
             "en": "and lives in the desert, and knows everything; ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：desert＝砂漠"
           },
           {
@@ -5063,7 +5063,7 @@
           },
           {
             "en": "and carry amber beads in their hands; ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：amber＝琥珀"
           },
           {
@@ -5073,7 +5073,7 @@
           },
           {
             "en": "who is as black as ebony, and worships a large crystal; ",
-            "role": "前の名詞・内容の修飾",
+            "role": "関係詞・修飾節",
             "ja": "語句：worships＝崇拝する、crystal＝水晶"
           },
           {
@@ -5083,22 +5083,22 @@
           },
           {
             "en": "and has twenty priests to feed it with honey-cakes; ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "feed it with honey-cakes＝それに蜂蜜菓子を与える"
           },
           {
             "en": "and of the pygmies ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：pygmies＝小柄な人々"
           },
           {
             "en": "who sail over a big lake on large flat leaves, ",
-            "role": "前の名詞・内容の修飾",
+            "role": "関係詞・修飾節",
             "ja": "関係詞・疑問詞の役割を前後の文から確認"
           },
           {
             "en": "and are always at war with the butterflies.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "at war with＝〜と戦争中である ／ 語句：butterflies＝蝶"
           }
         ],
@@ -5224,12 +5224,12 @@
           },
           {
             "en": "but more marvellous than anything is the suffering of men ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "more marvellous than anything＝何にもまして驚くべき ／ 語句：marvellous＝驚くべき、suffering＝苦しみ"
           },
           {
             "en": "and of women. There is no Mystery so great as Misery. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "There is no Mystery so great as Misery＝惨めさほど大きな謎はない ／ 語句：Mystery＝謎、Misery＝悲惨・窮乏"
           },
           {
@@ -5239,7 +5239,7 @@
           },
           {
             "en": "and tell me what you see there.”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "会話文。発話者と引用範囲を確認"
           }
         ],
@@ -5291,17 +5291,17 @@
         "chunks": [
           {
             "en": "So the Swallow flew over the great city, ",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "語句：Swallow＝ツバメ"
           },
           {
             "en": "and saw the rich making merry in their beautiful houses, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "the rich making merry＝金持ちが陽気に楽しんでいる"
           },
           {
             "en": "while the beggars were sitting at the gates. ",
-            "role": "理由・条件・対照などの接続",
+            "role": "譲歩・対比",
             "ja": "while the beggars were sitting＝その一方で物乞いは座っていた ／ 語句：beggars＝物乞いの人々"
           },
           {
@@ -5311,7 +5311,7 @@
           },
           {
             "en": "and saw the white faces of starving children looking out listlessly at ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：starving＝飢えた、listlessly＝元気なく"
           },
           {
@@ -5341,7 +5341,7 @@
           },
           {
             "en": "and they wandered out into the rain.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：wandered＝あてもなく歩いた"
           }
         ],
@@ -5407,7 +5407,7 @@
         "chunks": [
           {
             "en": "Then he flew back and told the Prince what he had seen.",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "what he had seen＝見てきたことを ／ 語句：then＝それから・そのとき、prince＝王子"
           }
         ],
@@ -5440,12 +5440,12 @@
           },
           {
             "en": "“you must take it off, leaf by leaf, ",
-            "role": "意味のまとまり",
+            "role": "主語・叙述",
             "ja": "leaf by leaf＝金箔を一枚ずつ"
           },
           {
             "en": "and give it to my poor; ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "give it to my poor＝貧しい人々に与える"
           },
           {
@@ -5542,12 +5542,12 @@
           },
           {
             "en": "and the children’s faces grew rosier, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "grew rosier＝頬に赤みが増した ／ 語句：rosier＝血色がよくなった"
           },
           {
             "en": "and they laughed and played games in the street. ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "前後のチャンクにつなげて読む"
           },
           {
@@ -5613,7 +5613,7 @@
         "chunks": [
           {
             "en": "Then the snow came, and after the snow came the frost. ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "語句：then＝それから・そのとき、frost＝霜・厳寒"
           },
           {
@@ -5638,7 +5638,7 @@
           },
           {
             "en": "and the little boys wore scarlet caps and skated on the ice.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：scarlet＝鮮やかな赤色の、skated＝スケートをした"
           }
         ],
@@ -5719,7 +5719,7 @@
           },
           {
             "en": "but he would not leave the Prince, he loved him too well. ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "too well＝あまりにも深く ／ 語句：prince＝王子"
           },
           {
@@ -5729,12 +5729,12 @@
           },
           {
             "en": "when the baker was not looking ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "語句：baker＝パン屋"
           },
           {
             "en": "and tried to keep himself warm by flapping his wings.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "by flapping his wings＝羽を羽ばたかせて ／ 語句：flapping＝羽ばたかせる"
           }
         ],
@@ -5795,7 +5795,7 @@
         "chunks": [
           {
             "en": "But at last he knew that he was going to die. ",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "going to die＝死のうとしている"
           },
           {
@@ -5904,7 +5904,7 @@
           },
           {
             "en": "but you must kiss me on the lips, for I love you.”",
-            "role": "時・場面の展開",
+            "role": "逆接・対比",
             "ja": "on the lips＝唇に ／ for I love you＝なぜならあなたを愛しているから ／ 語句：kiss＝口づけする、lips＝唇"
           }
         ],
@@ -6011,12 +6011,12 @@
         "chunks": [
           {
             "en": "And he kissed the Happy Prince on the lips, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：prince＝王子、lips＝唇"
           },
           {
             "en": "and fell down dead at his feet.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "fell down dead＝落ちてそのまま死んだ ／ at his feet＝その足元で ／ 語句：dead＝死んだ"
           }
         ],
@@ -6053,12 +6053,12 @@
         "chunks": [
           {
             "en": "At that moment a curious crack sounded inside the statue, ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "語句：curious＝不思議な、crack＝割れる音・亀裂、statue＝像"
           },
           {
             "en": "as if something had broken. ",
-            "role": "理由・条件・対照などの接続",
+            "role": "比較・理由・時間などの接続",
             "ja": "as if something had broken＝何かが壊れたかのように"
           },
           {
@@ -6129,7 +6129,7 @@
         "chunks": [
           {
             "en": "Early the next morning the Mayor was walking in the square below ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "語句：Mayor＝市長"
           },
           {
@@ -6139,7 +6139,7 @@
           },
           {
             "en": "As they passed the column he looked up at the statue: ",
-            "role": "理由・条件・対照などの接続",
+            "role": "比較・理由・時間などの接続",
             "ja": "語句：column＝柱、statue＝像"
           },
           {
@@ -6206,7 +6206,7 @@
           },
           {
             "en": "and they went up to look at it.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "went up to look at it＝それを見に近づいた"
           }
         ],
@@ -6301,7 +6301,7 @@
           },
           {
             "en": "and he is golden no longer,” said the Mayor in fact, ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "no longer＝もはや〜ではない ／ 語句：golden＝金色の、Mayor＝市長"
           },
           {
@@ -6385,7 +6385,7 @@
         "chunks": [
           {
             "en": "“And here is actually a dead bird at his feet!” ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：actually＝実際に、dead＝死んだ"
           },
           {
@@ -6400,12 +6400,12 @@
           },
           {
             "en": "that birds are not to be allowed to die here.” ",
-            "role": "前の名詞・内容の修飾",
+            "role": "that節・指示語",
             "ja": "are not to be allowed to＝〜することを許されない"
           },
           {
             "en": "And the Town Clerk made a note of the suggestion.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "made a note of＝書き留めた ／ 語句：Clerk＝書記、suggestion＝提案"
           }
         ],
@@ -6461,12 +6461,12 @@
         "chunks": [
           {
             "en": "So they pulled down the statue of the Happy Prince. ",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "pulled down the statue＝像を取り壊した ／ 語句：pulled＝引き倒した、statue＝像、prince＝王子"
           },
           {
             "en": "“As he is no longer beautiful he is no longer useful,” ",
-            "role": "理由・条件・対照などの接続",
+            "role": "比較・理由・時間などの接続",
             "ja": "no longer beautiful＝もはや美しくない ／ no longer useful＝もはや役に立たない ／ 語句：useful＝有用な"
           },
           {
@@ -6522,12 +6522,12 @@
         "chunks": [
           {
             "en": "Then they melted the statue in a furnace, ",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "melted the statue＝像を溶かした ／ 語句：then＝それから・そのとき、melted＝溶かした、statue＝像"
           },
           {
             "en": "and the Mayor held a meeting of the Corporation to decide what ",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "語句：Mayor＝市長、Corporation＝自治体組織、decide＝決める"
           },
           {
@@ -6542,7 +6542,7 @@
           },
           {
             "en": "“and it shall be a statue of myself.”",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "a statue of myself＝私自身の像 ／ 語句：statue＝像"
           }
         ],
@@ -6608,7 +6608,7 @@
           },
           {
             "en": "When I last heard of them they were quarrelling still.",
-            "role": "時・場面の展開",
+            "role": "時間・場面",
             "ja": "quarrelling still＝まだ口論している"
           }
         ],
@@ -6702,12 +6702,12 @@
           },
           {
             "en": "So they threw it on a dust-heap ",
-            "role": "時・場面の展開",
+            "role": "結果・場面展開",
             "ja": "dust-heap＝ごみの山 ／ 語句：dust-heap＝ごみの山"
           },
           {
             "en": "where the dead Swallow was also lying.",
-            "role": "前の名詞・内容の修飾",
+            "role": "関係詞・修飾節",
             "ja": "語句：dead＝死んだ、Swallow＝ツバメ"
           }
         ],
@@ -6778,7 +6778,7 @@
           },
           {
             "en": "and the Angel brought Him the leaden heart and the dead bird.",
-            "role": "時・場面の展開",
+            "role": "並列・追加",
             "ja": "the leaden heart and the dead bird＝鉛の心臓と死んだ鳥 ／ 語句：angel＝天使、leaden＝鉛製の、dead＝死んだ"
           }
         ],
@@ -6830,12 +6830,12 @@
           },
           {
             "en": "“for in my garden of Paradise this little bird shall sing ",
-            "role": "理由・条件・対照などの接続",
+            "role": "対象・目的などを示す句",
             "ja": "語句：Paradise＝楽園・天国"
           },
           {
             "en": "for evermore, and in my city of gold the Happy Prince shall ",
-            "role": "理由・条件・対照などの接続",
+            "role": "対象・目的などを示す句",
             "ja": "for evermore＝永遠に ／ 語句：evermore＝永遠に、prince＝王子"
           },
           {
