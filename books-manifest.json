@@ -1,0 +1,12 @@
+[
+  {
+    "id": "happy-prince",
+    "title": "The Happy Prince",
+    "titleJa": "幸福な王子",
+    "author": "Oscar Wilde",
+    "description": "1888年刊の短編童話。原文を全21回に分割。冒頭3回は段落対訳と文法・チャンク解説付き。以後は語彙補助付きの原文読書。",
+    "data": "books/happy-prince/days.json",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/902",
+    "source": "Project Gutenberg eBook #902 / 1910 David Nutt edition (via GITenberg)"
+  }
+]
