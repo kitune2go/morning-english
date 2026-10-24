@@ -100,10 +100,10 @@ if(scriptMatch){
       const saved={completed:[1,"2",2,999,"garbage"]};
       const node=id=>nodes[id]??(nodes[id]={});
       let renderCount=0;
-      const make=new Function("sessions","current","bookState","validDay","updateState","render","$","safe",
+      const make=new Function("sessions","current","bookState","validDay","updateState","render","$","safe","paragraphMarkFor",
         code.slice(progressStart,progressEnd)+"\nreturn {completedDaySet,toggleChapterRead,renderChapterIndex};");
       const model=make(days,2,()=>saved,n=>Number.isInteger(n)&&n>=1&&n<=days.length,
-        patch=>Object.assign(saved,patch),()=>renderCount++,node,x=>String(x).replace(/</g,"&lt;"));
+        patch=>Object.assign(saved,patch),()=>renderCount++,node,x=>String(x).replace(/</g,"&lt;"),()=>null);
       let completed=model.completedDaySet();
       check([...completed].sort().join(",")==="1,2","legacy read chapters preserved and invalid/duplicate values removed");
       model.renderChapterIndex(completed);
@@ -139,21 +139,22 @@ if(scriptMatch){
       const state={lastDay:1,completed:[1],paragraphMarks:{},resume:null};
       const scrolled=[],changed=[],nodes={
         resumeBar:{hidden:true},resumeLabel:{textContent:""},
+        daySelect:{},chapterIndexCount:{},chapterList:{},
         textContent:{querySelectorAll:()=>[]},
         "reader-paragraph-2":{scrollIntoView:opts=>scrolled.push(opts)}
       };
-      let rerenders=0,chapterRefreshes=0,frames=0;
+      let rerenders=0,frames=0;
       const modelFactory=new Function("sessions","current","bookState","updateState","completedDaySet","renderChapterIndex",
-        "$","requestAnimationFrame","changeDay","validDay","book",
+        "$","requestAnimationFrame","changeDay","validDay","book","safe",
         code.slice(markStart,markEnd)+
           "\nreturn {validParagraph,paragraphMarkFor,resumeMark,toggleParagraphMark,scrollToParagraph,scheduleParagraphJump,jumpToResume};");
       const model=modelFactory(days,1,()=>state,patch=>Object.assign(state,patch),
-        ()=>new Set(state.completed),()=>chapterRefreshes++,
+        ()=>new Set(state.completed),()=>{},
         id=>nodes[id]||null,
         callback=>{frames++;callback();},
         (day,paragraph)=>changed.push([day,paragraph]),
         day=>Number.isInteger(day)&&day>=1&&day<=days.length,
-        {id:"test-book"});
+        {id:"test-book"},x=>String(x).replace(/</g,"&lt;"));
       check(model.resumeMark()===null&&model.paragraphMarkFor(1)===null,"legacy progress has no phantom bookmark");
       model.toggleParagraphMark(1,2);
       check(state.completed.join(",")==="1"&&state.paragraphMarks[1]===2&&state.resume.day===1&&state.resume.paragraph===2,
@@ -174,7 +175,8 @@ if(scriptMatch){
         "unchecking latest bookmark removes it but preserves other chapter bookmarks");
       check(!model.validParagraph(1,0)&&!model.validParagraph(2,3)&&!model.validParagraph(4,1),
         "invalid paragraph bookmarks are rejected");
-      check(chapterRefreshes===4&&rerenders===0,"bookmark updates do not rerender expanded reading notes");
+      check(nodes.chapterList.innerHTML.includes("段落 3 から再開")&&rerenders===0,
+        "bookmarked chapters stay visible without rerendering reading notes");
     }catch(err){check(false,"paragraph bookmarks test: "+err.message);}
   }
 
