@@ -82,7 +82,444 @@
         "ja": "つぶやいた"
       }
     ],
-    "readingPoint": "誰も王子の内面を知らず、像の外観や『幸福』という名称だけで判断している。評判と実情のずれに注目。"
+    "readingPoint": "誰も王子の内面を知らず、像の外観や『幸福』という名称だけで判断している。評判と実情のずれに注目。",
+    "paragraphDetails": [
+      {
+        "summary": "像の外観が華麗に描かれる。冒頭は場所を先に置く倒置。",
+        "chunks": [
+          {
+            "en": "HIGH above the city, on a tall column, ",
+            "role": "意味のまとまり",
+            "ja": "High above＝街のはるか上に ／ 語句：above＝上方に、column＝柱"
+          },
+          {
+            "en": "stood the statue of the Happy Prince. ",
+            "role": "意味のまとまり",
+            "ja": "stood the statue＝像が立っていた（場所を先行させた倒置） ／ 語句：statue＝像、prince＝王子"
+          },
+          {
+            "en": "He was gilded all over with thin leaves of fine gold, ",
+            "role": "主語・叙述",
+            "ja": "語句：gilded＝金箔を貼られた、leaves＝薄片・葉"
+          },
+          {
+            "en": "for eyes he had two bright sapphires, ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "for eyes＝目の部分には ／ 語句：sapphires＝サファイア"
+          },
+          {
+            "en": "and a large red ruby glowed on his sword-hilt.",
+            "role": "時・場面の展開",
+            "ja": "語句：ruby＝ルビー、glowed＝光り輝いた、sword-hilt＝剣の柄"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "High above",
+            "ja": "街のはるか上に"
+          },
+          {
+            "en": "stood the statue",
+            "ja": "像が立っていた（場所を先行させた倒置）"
+          },
+          {
+            "en": "for eyes",
+            "ja": "目の部分には"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "above",
+            "ja": "上方に",
+            "note": "前置詞・副詞。位置を示す"
+          },
+          {
+            "word": "column",
+            "ja": "柱",
+            "note": "像などを載せる円柱"
+          },
+          {
+            "word": "statue",
+            "ja": "像",
+            "note": "彫像、人物をかたどった造形物"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "gilded",
+            "ja": "金箔を貼られた",
+            "note": "gild の過去分詞"
+          },
+          {
+            "word": "leaves",
+            "ja": "薄片・葉",
+            "note": "ここでは金箔の「一枚一枚」"
+          },
+          {
+            "word": "sapphires",
+            "ja": "サファイア",
+            "note": "宝石 sapphire の複数形"
+          },
+          {
+            "word": "ruby",
+            "ja": "ルビー",
+            "note": "赤い宝石"
+          },
+          {
+            "word": "glowed",
+            "ja": "光り輝いた",
+            "note": "glow の過去形"
+          },
+          {
+            "word": "sword-hilt",
+            "ja": "剣の柄",
+            "note": "sword は剣、hilt は握る部分"
+          }
+        ]
+      },
+      {
+        "summary": "市議会議員は像を称賛しつつ、実用性を気にして体裁を保とうとする。",
+        "chunks": [
+          {
+            "en": "He was very much admired indeed. ",
+            "role": "主語・叙述",
+            "ja": "語句：admired＝称賛された、indeed＝実に・確かに"
+          },
+          {
+            "en": "“He is as beautiful as a weathercock,” ",
+            "role": "主語・叙述",
+            "ja": "as beautiful as＝〜と同じくらい美しい ／ 語句：weathercock＝風見鶏"
+          },
+          {
+            "en": "remarked one of the Town Councillors who wished to gain a reputation ",
+            "role": "発話と話者",
+            "ja": "gain a reputation＝評判を得る ／ 語句：remarked＝述べた、Councillors＝市議会議員たち、reputation＝評判・名声"
+          },
+          {
+            "en": "for having artistic tastes; ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "語句：artistic＝芸術的な、tastes＝好み・趣味"
+          },
+          {
+            "en": "“only not quite so useful,” he added, ",
+            "role": "意味のまとまり",
+            "ja": "語句：useful＝有用な"
+          },
+          {
+            "en": "fearing lest people should think him unpractical, which he really was not.",
+            "role": "意味のまとまり",
+            "ja": "fearing lest＝〜しないかと恐れて ／ 語句：fearing＝恐れて、lest＝〜しないように、unpractical＝実際的でない"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "as beautiful as",
+            "ja": "〜と同じくらい美しい"
+          },
+          {
+            "en": "gain a reputation",
+            "ja": "評判を得る"
+          },
+          {
+            "en": "fearing lest",
+            "ja": "〜しないかと恐れて"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "admired",
+            "ja": "称賛された",
+            "note": "admire の過去分詞"
+          },
+          {
+            "word": "indeed",
+            "ja": "実に・確かに",
+            "note": "直前の表現を強調"
+          },
+          {
+            "word": "weathercock",
+            "ja": "風見鶏",
+            "note": "風向きを示す飾り"
+          },
+          {
+            "word": "remarked",
+            "ja": "述べた",
+            "note": "会話文に添える発話動詞"
+          },
+          {
+            "word": "Councillors",
+            "ja": "市議会議員たち",
+            "note": "councillor の複数形"
+          },
+          {
+            "word": "reputation",
+            "ja": "評判・名声",
+            "note": "gain a reputation で「評判を得る」"
+          },
+          {
+            "word": "artistic",
+            "ja": "芸術的な",
+            "note": "artistic tastes は芸術的な趣味"
+          },
+          {
+            "word": "tastes",
+            "ja": "好み・趣味",
+            "note": "ここでは食べ物の「味」ではない"
+          },
+          {
+            "word": "useful",
+            "ja": "有用な",
+            "note": "有用性の尺度として使われる"
+          },
+          {
+            "word": "fearing",
+            "ja": "恐れて",
+            "note": "分詞句で理由・同時進行を説明"
+          },
+          {
+            "word": "lest",
+            "ja": "〜しないように",
+            "note": "硬い書き言葉の接続詞"
+          },
+          {
+            "word": "unpractical",
+            "ja": "実際的でない",
+            "note": "現在は impractical が一般的"
+          }
+        ]
+      },
+      {
+        "summary": "母親は泣く子どもを王子の像と比較する。",
+        "chunks": [
+          {
+            "en": "“Why can’t you be like the Happy Prince?” ",
+            "role": "意味のまとまり",
+            "ja": "語句：prince＝王子"
+          },
+          {
+            "en": "asked a sensible mother of her little boy who was crying ",
+            "role": "意味のまとまり",
+            "ja": "語句：sensible＝分別のある、who＝誰・〜する人、crying＝泣いている"
+          },
+          {
+            "en": "for the moon. “The Happy Prince never dreams of crying for anything.”",
+            "role": "理由・条件・対照などの接続",
+            "ja": "never dreams of＝〜など思いもしない ／ 語句：prince＝王子、crying＝泣いている、dreams＝夢"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "crying for the moon",
+            "ja": "手に入らないものを欲しがる"
+          },
+          {
+            "en": "never dreams of",
+            "ja": "〜など思いもしない"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "sensible",
+            "ja": "分別のある",
+            "note": "sensitive「敏感」と区別"
+          },
+          {
+            "word": "who",
+            "ja": "誰・〜する人",
+            "note": "疑問詞、または関係代名詞"
+          },
+          {
+            "word": "crying",
+            "ja": "泣いている",
+            "note": "cry の進行形・動名詞"
+          },
+          {
+            "word": "dreams",
+            "ja": "夢",
+            "note": "dream の複数形"
+          }
+        ]
+      },
+      {
+        "summary": "失意の男は幸福な人が存在すると信じて像を見つめる。",
+        "chunks": [
+          {
+            "en": "“I am glad there is some one in the world ",
+            "role": "主語・叙述",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "who is quite happy,” ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "語句：who＝誰・〜する人"
+          },
+          {
+            "en": "muttered a disappointed man as he gazed at the wonderful statue.",
+            "role": "発話と話者",
+            "ja": "muttered＝小声でつぶやいた ／ as he gazed at＝〜をじっと見つめながら ／ 語句：muttered＝つぶやいた、disappointed＝落胆した、gazed＝じっと見つめた"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "muttered",
+            "ja": "小声でつぶやいた"
+          },
+          {
+            "en": "as he gazed at",
+            "ja": "〜をじっと見つめながら"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "who",
+            "ja": "誰・〜する人",
+            "note": "疑問詞、または関係代名詞"
+          },
+          {
+            "word": "muttered",
+            "ja": "つぶやいた",
+            "note": "小声で不明瞭に言う"
+          },
+          {
+            "word": "disappointed",
+            "ja": "落胆した",
+            "note": "disappoint の過去分詞形容詞"
+          },
+          {
+            "word": "gazed",
+            "ja": "じっと見つめた",
+            "note": "gaze at ... で「〜を見つめる」"
+          },
+          {
+            "word": "wonderful",
+            "ja": "すばらしい",
+            "note": "wonder「驚き」に由来"
+          },
+          {
+            "word": "statue",
+            "ja": "像",
+            "note": "彫像、人物をかたどった造形物"
+          }
+        ]
+      },
+      {
+        "summary": "慈善学校の子どもたちは像を天使にたとえる。",
+        "chunks": [
+          {
+            "en": "“He looks just like an angel,” ",
+            "role": "主語・叙述",
+            "ja": "just like an angel＝まるで天使のように ／ 語句：angel＝天使"
+          },
+          {
+            "en": "said the Charity Children ",
+            "role": "発話と話者",
+            "ja": "語句：Charity＝慈善"
+          },
+          {
+            "en": "as they came out of the cathedral in their bright scarlet cloaks ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "as they came out＝出てきたとき ／ 語句：cathedral＝大聖堂、scarlet＝鮮やかな赤色の、cloaks＝外套・マント"
+          },
+          {
+            "en": "and their clean white pinafores.",
+            "role": "時・場面の展開",
+            "ja": "語句：pinafores＝エプロン形の上着"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "just like an angel",
+            "ja": "まるで天使のように"
+          },
+          {
+            "en": "as they came out",
+            "ja": "出てきたとき"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "angel",
+            "ja": "天使",
+            "note": "比喩的な容姿の描写"
+          },
+          {
+            "word": "Charity",
+            "ja": "慈善",
+            "note": "慈善活動・慈善学校の文脈"
+          },
+          {
+            "word": "cathedral",
+            "ja": "大聖堂",
+            "note": "司教座のある大きな教会"
+          },
+          {
+            "word": "scarlet",
+            "ja": "鮮やかな赤色の",
+            "note": "色彩を示す形容詞"
+          },
+          {
+            "word": "cloaks",
+            "ja": "外套・マント",
+            "note": "cloak の複数形"
+          },
+          {
+            "word": "pinafores",
+            "ja": "エプロン形の上着",
+            "note": "当時の子どもの衣服"
+          }
+        ]
+      },
+      {
+        "summary": "数学の教師が、見たこともないのになぜ分かるのかと問い返す。",
+        "chunks": [
+          {
+            "en": "“How do you know?” ",
+            "role": "意味のまとまり",
+            "ja": "How do you know＝なぜ分かるのか ／ 語句：know＝知っている"
+          },
+          {
+            "en": "said the Mathematical Master, “you have never seen one.”",
+            "role": "発話と話者",
+            "ja": "have never seen＝一度も見たことがない ／ 語句：Mathematical＝数学の、Master＝教師・師"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "How do you know",
+            "ja": "なぜ分かるのか"
+          },
+          {
+            "en": "have never seen",
+            "ja": "一度も見たことがない"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "know",
+            "ja": "知っている",
+            "note": "how do you know で「なぜ分かる」"
+          },
+          {
+            "word": "Mathematical",
+            "ja": "数学の",
+            "note": "Mathematical Master は数学教師"
+          },
+          {
+            "word": "Master",
+            "ja": "教師・師",
+            "note": "ここでは男性教師の呼称"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 2,
@@ -155,7 +592,324 @@
         "ja": "さえずった"
       }
     ],
-    "readingPoint": "ツバメの恋が少し滑稽に描かれる。語り手の距離感や、恋愛を金銭で評価する仲間の発言に注目。"
+    "readingPoint": "ツバメの恋が少し滑稽に描かれる。語り手の距離感や、恋愛を金銭で評価する仲間の発言に注目。",
+    "paragraphDetails": [
+      {
+        "summary": "子どもたちは夢で見たと答え、先生は夢を快く思わない。",
+        "chunks": [
+          {
+            "en": "“Ah! but we have, in our dreams,” answered the children; ",
+            "role": "発話と話者",
+            "ja": "in our dreams＝夢の中で ／ 語句：dreams＝夢"
+          },
+          {
+            "en": "and the Mathematical Master frowned and looked very severe, ",
+            "role": "時・場面の展開",
+            "ja": "語句：Mathematical＝数学の、Master＝教師・師、frowned＝眉をひそめた"
+          },
+          {
+            "en": "for he did not approve of children dreaming.",
+            "role": "理由・条件・対照などの接続",
+            "ja": "did not approve of＝〜を好まなかった ／ 語句：approve＝認める・賛成する"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "in our dreams",
+            "ja": "夢の中で"
+          },
+          {
+            "en": "did not approve of",
+            "ja": "〜を好まなかった"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "dreams",
+            "ja": "夢",
+            "note": "dream の複数形"
+          },
+          {
+            "word": "Mathematical",
+            "ja": "数学の",
+            "note": "Mathematical Master は数学教師"
+          },
+          {
+            "word": "Master",
+            "ja": "教師・師",
+            "note": "ここでは男性教師の呼称"
+          },
+          {
+            "word": "frowned",
+            "ja": "眉をひそめた",
+            "note": "frown の過去形"
+          },
+          {
+            "word": "severe",
+            "ja": "厳しい",
+            "note": "人の表情・態度に使う"
+          },
+          {
+            "word": "approve",
+            "ja": "認める・賛成する",
+            "note": "approve of ... で「〜をよしとする」"
+          }
+        ]
+      },
+      {
+        "summary": "仲間に遅れて残ったツバメが、葦に恋をした経緯を語る。",
+        "chunks": [
+          {
+            "en": "One night there flew over the city a little Swallow. ",
+            "role": "時・場面の展開",
+            "ja": "there flew over the city＝街の上を飛んでいった（倒置） ／ 語句：Swallow＝ツバメ"
+          },
+          {
+            "en": "His friends had gone away to Egypt six weeks before, ",
+            "role": "主語・叙述",
+            "ja": "語句：Egypt＝エジプト"
+          },
+          {
+            "en": "but he had stayed behind, ",
+            "role": "時・場面の展開",
+            "ja": "had stayed behind＝あとに残っていた（過去完了）"
+          },
+          {
+            "en": "for he was in love with the most beautiful Reed. ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "語句：Reed＝葦（アシ）"
+          },
+          {
+            "en": "He had met her early in the spring ",
+            "role": "主語・叙述",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "as he was flying down the river after a big yellow moth, ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "語句：moth＝蛾"
+          },
+          {
+            "en": "and had been so attracted by her slender waist ",
+            "role": "時・場面の展開",
+            "ja": "so attracted by＝それほど魅了されたので ／ 語句：attracted＝惹きつけられた、slender＝ほっそりした、waist＝腰"
+          },
+          {
+            "en": "that he had stopped to talk to her.",
+            "role": "前の名詞・内容の修飾",
+            "ja": "前後のチャンクにつなげて読む"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "there flew over the city",
+            "ja": "街の上を飛んでいった（倒置）"
+          },
+          {
+            "en": "had stayed behind",
+            "ja": "あとに残っていた（過去完了）"
+          },
+          {
+            "en": "so attracted by",
+            "ja": "それほど魅了されたので"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "Egypt",
+            "ja": "エジプト",
+            "note": "ツバメの渡りの目的地"
+          },
+          {
+            "word": "Reed",
+            "ja": "葦（アシ）",
+            "note": "水辺に生える細長い植物"
+          },
+          {
+            "word": "moth",
+            "ja": "蛾",
+            "note": "蝶に似た昆虫"
+          },
+          {
+            "word": "attracted",
+            "ja": "惹きつけられた",
+            "note": "attract「魅了する」の過去分詞"
+          },
+          {
+            "word": "slender",
+            "ja": "ほっそりした",
+            "note": "細く優美な姿の形容"
+          },
+          {
+            "word": "waist",
+            "ja": "腰",
+            "note": "細い胴の部分"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメの求愛が滑稽な身ぶりとして描かれる。",
+        "chunks": [
+          {
+            "en": "“Shall I love you?” ",
+            "role": "意味のまとまり",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "said the Swallow, who liked to come to the point at once, ",
+            "role": "発話と話者",
+            "ja": "come to the point＝単刀直入に言う ／ 語句：Swallow＝ツバメ、who＝誰・〜する人"
+          },
+          {
+            "en": "and the Reed made him a low bow. ",
+            "role": "時・場面の展開",
+            "ja": "語句：Reed＝葦（アシ）、bow＝お辞儀"
+          },
+          {
+            "en": "So he flew round and round her, ",
+            "role": "時・場面の展開",
+            "ja": "round and round＝ぐるぐると"
+          },
+          {
+            "en": "touching the water with his wings, and making silver ripples. ",
+            "role": "意味のまとまり",
+            "ja": "making silver ripples＝銀色の波紋を作りながら ／ 語句：ripples＝さざ波・波紋"
+          },
+          {
+            "en": "This was his courtship, and it lasted all through the summer.",
+            "role": "意味のまとまり",
+            "ja": "語句：courtship＝求愛"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "come to the point",
+            "ja": "単刀直入に言う"
+          },
+          {
+            "en": "round and round",
+            "ja": "ぐるぐると"
+          },
+          {
+            "en": "making silver ripples",
+            "ja": "銀色の波紋を作りながら"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "who",
+            "ja": "誰・〜する人",
+            "note": "疑問詞、または関係代名詞"
+          },
+          {
+            "word": "Reed",
+            "ja": "葦（アシ）",
+            "note": "水辺に生える細長い植物"
+          },
+          {
+            "word": "bow",
+            "ja": "お辞儀",
+            "note": "make a bow で「お辞儀する」"
+          },
+          {
+            "word": "ripples",
+            "ja": "さざ波・波紋",
+            "note": "ripple の複数形"
+          },
+          {
+            "word": "courtship",
+            "ja": "求愛",
+            "note": "恋愛・結婚に向かう働きかけ"
+          }
+        ]
+      },
+      {
+        "summary": "仲間たちは恋をばかにし、秋には渡っていく。",
+        "chunks": [
+          {
+            "en": "“It is a ridiculous attachment,” twittered the other Swallows; ",
+            "role": "意味のまとまり",
+            "ja": "ridiculous attachment＝ばかげた恋愛関係 ／ 語句：ridiculous＝ばかげた、attachment＝愛着・恋愛関係、twittered＝さえずった"
+          },
+          {
+            "en": "“she has no money, and far too many relations”; ",
+            "role": "主語・叙述",
+            "ja": "far too many＝あまりにも多すぎる ／ 語句：relations＝親戚"
+          },
+          {
+            "en": "and indeed the river was quite full of Reeds. ",
+            "role": "時・場面の展開",
+            "ja": "語句：indeed＝実に・確かに"
+          },
+          {
+            "en": "Then, when the autumn came they all flew away.",
+            "role": "時・場面の展開",
+            "ja": "when the autumn came＝秋になると ／ 語句：then＝それから・そのとき、autumn＝秋"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "ridiculous attachment",
+            "ja": "ばかげた恋愛関係"
+          },
+          {
+            "en": "far too many",
+            "ja": "あまりにも多すぎる"
+          },
+          {
+            "en": "when the autumn came",
+            "ja": "秋になると"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "ridiculous",
+            "ja": "ばかげた",
+            "note": "否定的評価の形容詞"
+          },
+          {
+            "word": "attachment",
+            "ja": "愛着・恋愛関係",
+            "note": "ここでは恋心"
+          },
+          {
+            "word": "twittered",
+            "ja": "さえずった",
+            "note": "小鳥の鳴き声"
+          },
+          {
+            "word": "relations",
+            "ja": "親戚",
+            "note": "ここでは人間関係でなく親族"
+          },
+          {
+            "word": "indeed",
+            "ja": "実に・確かに",
+            "note": "直前の表現を強調"
+          },
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          },
+          {
+            "word": "autumn",
+            "ja": "秋",
+            "note": "英国式の一般的な季節語"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 3,
@@ -228,7 +982,355 @@
         "ja": "舞い降りた"
       }
     ],
-    "readingPoint": "ツバメの自分勝手な解釈と、葦の土地への愛着がすれ違う。王子の像との出会いが転機となる。"
+    "readingPoint": "ツバメの自分勝手な解釈と、葦の土地への愛着がすれ違う。王子の像との出会いが転機となる。",
+    "paragraphDetails": [
+      {
+        "summary": "残されたツバメは葦への情熱が冷めた理由を並べる。",
+        "chunks": [
+          {
+            "en": "After they had gone he felt lonely, ",
+            "role": "時・場面の展開",
+            "ja": "語句：lonely＝寂しい"
+          },
+          {
+            "en": "and began to tire of his lady-love. ",
+            "role": "時・場面の展開",
+            "ja": "began to tire of＝〜に飽き始めた ／ 語句：lady-love＝恋人の女性"
+          },
+          {
+            "en": "“She has no conversation,” he said, ",
+            "role": "発話と話者",
+            "ja": "語句：conversation＝会話"
+          },
+          {
+            "en": "“and I am afraid that she is a coquette, ",
+            "role": "時・場面の展開",
+            "ja": "語句：coquette＝浮気っぽい女"
+          },
+          {
+            "en": "for she is always flirting with the wind.” ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "語句：flirting＝戯れている・色目を使う"
+          },
+          {
+            "en": "And certainly, whenever the wind blew, ",
+            "role": "時・場面の展開",
+            "ja": "whenever the wind blew＝風が吹くたびに"
+          },
+          {
+            "en": "the Reed made the most graceful curtseys. ",
+            "role": "主語・叙述",
+            "ja": "語句：Reed＝葦（アシ）、graceful＝優雅な、curtseys＝女性の礼のお辞儀"
+          },
+          {
+            "en": "“I admit that she is domestic,” he continued, “but I love travelling, ",
+            "role": "発話と話者",
+            "ja": "語句：admit＝認める、domestic＝家庭的な、travelling＝旅行すること"
+          },
+          {
+            "en": "and my wife, consequently, should love travelling also.”",
+            "role": "時・場面の展開",
+            "ja": "consequently＝それゆえ ／ 語句：travelling＝旅行すること、consequently＝したがって"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "began to tire of",
+            "ja": "〜に飽き始めた"
+          },
+          {
+            "en": "whenever the wind blew",
+            "ja": "風が吹くたびに"
+          },
+          {
+            "en": "consequently",
+            "ja": "それゆえ"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "lonely",
+            "ja": "寂しい",
+            "note": "ひとりで心細い状態"
+          },
+          {
+            "word": "lady-love",
+            "ja": "恋人の女性",
+            "note": "古風な複合名詞"
+          },
+          {
+            "word": "conversation",
+            "ja": "会話",
+            "note": "have no conversation で話が合わない"
+          },
+          {
+            "word": "coquette",
+            "ja": "浮気っぽい女",
+            "note": "古風な女性像を示す語"
+          },
+          {
+            "word": "flirting",
+            "ja": "戯れている・色目を使う",
+            "note": "flirt with ... は人以外にも比喩的に使う"
+          },
+          {
+            "word": "Reed",
+            "ja": "葦（アシ）",
+            "note": "水辺に生える細長い植物"
+          },
+          {
+            "word": "graceful",
+            "ja": "優雅な",
+            "note": "動作の美しさ"
+          },
+          {
+            "word": "curtseys",
+            "ja": "女性の礼のお辞儀",
+            "note": "curtsy の複数形"
+          },
+          {
+            "word": "admit",
+            "ja": "認める",
+            "note": "譲歩して事実を受け入れる"
+          },
+          {
+            "word": "domestic",
+            "ja": "家庭的な",
+            "note": "家や家庭を好む"
+          },
+          {
+            "word": "travelling",
+            "ja": "旅行すること",
+            "note": "英国式綴り。米国式 traveling"
+          },
+          {
+            "word": "consequently",
+            "ja": "したがって",
+            "note": "結論・結果を導く副詞"
+          }
+        ]
+      },
+      {
+        "summary": "葦は故郷への愛着ゆえに旅への誘いを断る。",
+        "chunks": [
+          {
+            "en": "“Will you come away with me?” ",
+            "role": "意味のまとまり",
+            "ja": "come away with me＝私と一緒に旅に出る"
+          },
+          {
+            "en": "he said finally to her; ",
+            "role": "発話と話者",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "but the Reed shook her head, ",
+            "role": "時・場面の展開",
+            "ja": "語句：Reed＝葦（アシ）"
+          },
+          {
+            "en": "she was so attached to her home.",
+            "role": "主語・叙述",
+            "ja": "attached to her home＝住み慣れた土地に愛着がある ／ 語句：attached＝愛着がある・結びついた"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "come away with me",
+            "ja": "私と一緒に旅に出る"
+          },
+          {
+            "en": "attached to her home",
+            "ja": "住み慣れた土地に愛着がある"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Reed",
+            "ja": "葦（アシ）",
+            "note": "水辺に生える細長い植物"
+          },
+          {
+            "word": "attached",
+            "ja": "愛着がある・結びついた",
+            "note": "be attached to で「〜を離れがたく思う」"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは相手が自分をもてあそんだと非難して飛び去る。",
+        "chunks": [
+          {
+            "en": "“You have been trifling with me,” he cried. ",
+            "role": "発話と話者",
+            "ja": "trifling with me＝私をもてあそんでいた ／ 語句：trifling＝もてあそぶ"
+          },
+          {
+            "en": "“I am off to the Pyramids. Good-bye!” and he flew away.",
+            "role": "主語・叙述",
+            "ja": "I am off to＝〜へ出発するところだ ／ 語句：Pyramids＝ピラミッド"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "trifling with me",
+            "ja": "私をもてあそんでいた"
+          },
+          {
+            "en": "I am off to",
+            "ja": "〜へ出発するところだ"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "trifling",
+            "ja": "もてあそぶ",
+            "note": "trifle with ... で軽く扱う"
+          },
+          {
+            "word": "Pyramids",
+            "ja": "ピラミッド",
+            "note": "エジプトの古代建造物"
+          }
+        ]
+      },
+      {
+        "summary": "旅立ったツバメが夜の街に到着し、宿を探す。",
+        "chunks": [
+          {
+            "en": "All day long he flew, ",
+            "role": "時・場面の展開",
+            "ja": "All day long＝一日じゅう"
+          },
+          {
+            "en": "and at night-time he arrived at the city. ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "“Where shall I put up?” ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "put up＝宿泊する"
+          },
+          {
+            "en": "he said; “I hope the town has made preparations.”",
+            "role": "発話と話者",
+            "ja": "made preparations＝準備を整えた ／ 語句：preparations＝準備"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "All day long",
+            "ja": "一日じゅう"
+          },
+          {
+            "en": "put up",
+            "ja": "宿泊する"
+          },
+          {
+            "en": "made preparations",
+            "ja": "準備を整えた"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "preparations",
+            "ja": "準備",
+            "note": "make preparations で「準備する」"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメの目に高い柱の王子の像が入る。",
+        "chunks": [
+          {
+            "en": "Then he saw the statue on the tall column.",
+            "role": "時・場面の展開",
+            "ja": "the statue on the tall column＝高い柱の上の像 ／ 語句：then＝それから・そのとき、statue＝像、column＝柱"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "the statue on the tall column",
+            "ja": "高い柱の上の像"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          },
+          {
+            "word": "statue",
+            "ja": "像",
+            "note": "彫像、人物をかたどった造形物"
+          },
+          {
+            "word": "column",
+            "ja": "柱",
+            "note": "像などを載せる円柱"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは王子の像の足元を宿に決める。",
+        "chunks": [
+          {
+            "en": "“I will put up there,” he cried; ",
+            "role": "発話と話者",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "“it is a fine position, with plenty of fresh air.” ",
+            "role": "意味のまとまり",
+            "ja": "plenty of fresh air＝新鮮な空気がたっぷり ／ 語句：position＝場所・位置、plenty＝たっぷり、fresh＝新鮮な"
+          },
+          {
+            "en": "So he alighted just between the feet of the Happy Prince.",
+            "role": "時・場面の展開",
+            "ja": "alighted＝降り立った ／ 語句：alighted＝降り立った、prince＝王子"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "plenty of fresh air",
+            "ja": "新鮮な空気がたっぷり"
+          },
+          {
+            "en": "alighted",
+            "ja": "降り立った"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "position",
+            "ja": "場所・位置",
+            "note": "寝場所を探す文脈"
+          },
+          {
+            "word": "plenty",
+            "ja": "たっぷり",
+            "note": "plenty of ... で「十分な〜」"
+          },
+          {
+            "word": "fresh",
+            "ja": "新鮮な",
+            "note": "空気の形容"
+          },
+          {
+            "word": "alighted",
+            "ja": "降り立った",
+            "note": "鳥が止まり木に降りる動作"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 4,
@@ -260,7 +1362,368 @@
         "ja": "煙突の先端"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "ツバメは雨だと思った水滴に驚き、葦のことも思い出す。",
+        "chunks": [
+          {
+            "en": "“I have a golden bedroom,” ",
+            "role": "主語・叙述",
+            "ja": "語句：golden＝金色の、bedroom＝寝室"
+          },
+          {
+            "en": "he said softly to himself as he looked round, ",
+            "role": "発話と話者",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "and he prepared to go to sleep; ",
+            "role": "時・場面の展開",
+            "ja": "語句：Sleep＝眠り"
+          },
+          {
+            "en": "but just as he was putting his head under his wing a ",
+            "role": "時・場面の展開",
+            "ja": "just as＝ちょうど〜したとき ／ 語句：wing＝翼"
+          },
+          {
+            "en": "large drop of water fell on him. “What a curious thing!” ",
+            "role": "意味のまとまり",
+            "ja": "語句：drop＝水滴・しずく、curious＝不思議な"
+          },
+          {
+            "en": "he cried; “there is not a single cloud in the sky, ",
+            "role": "発話と話者",
+            "ja": "not a single cloud＝雲ひとつない"
+          },
+          {
+            "en": "the stars are quite clear and bright, and yet it is raining. ",
+            "role": "主語・叙述",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "The climate in the north of Europe is really dreadful. ",
+            "role": "主語・叙述",
+            "ja": "語句：climate＝気候、dreadful＝ひどい・恐ろしい"
+          },
+          {
+            "en": "The Reed used to like the rain, ",
+            "role": "主語・叙述",
+            "ja": "used to like＝以前は好んでいた ／ 語句：Reed＝葦（アシ）"
+          },
+          {
+            "en": "but that was merely her selfishness.”",
+            "role": "時・場面の展開",
+            "ja": "語句：selfishness＝身勝手さ"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "just as",
+            "ja": "ちょうど〜したとき"
+          },
+          {
+            "en": "not a single cloud",
+            "ja": "雲ひとつない"
+          },
+          {
+            "en": "used to like",
+            "ja": "以前は好んでいた"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "golden",
+            "ja": "金色の",
+            "note": "gold から派生した形容詞"
+          },
+          {
+            "word": "bedroom",
+            "ja": "寝室",
+            "note": "ツバメが像の足元を寝室に見立てる"
+          },
+          {
+            "word": "Sleep",
+            "ja": "眠り",
+            "note": "Death の兄弟として擬人化"
+          },
+          {
+            "word": "wing",
+            "ja": "翼",
+            "note": "鳥の体の一部"
+          },
+          {
+            "word": "drop",
+            "ja": "水滴・しずく",
+            "note": "rain drop などの液体のしずく"
+          },
+          {
+            "word": "curious",
+            "ja": "不思議な",
+            "note": "話者の驚きを表す"
+          },
+          {
+            "word": "climate",
+            "ja": "気候",
+            "note": "長期的な気象傾向"
+          },
+          {
+            "word": "dreadful",
+            "ja": "ひどい・恐ろしい",
+            "note": "程度の強い悪い評価"
+          },
+          {
+            "word": "Reed",
+            "ja": "葦（アシ）",
+            "note": "水辺に生える細長い植物"
+          },
+          {
+            "word": "selfishness",
+            "ja": "身勝手さ",
+            "note": "selfish の名詞形"
+          }
+        ]
+      },
+      {
+        "summary": "二滴目の水が落ち、異変が続く。",
+        "chunks": [
+          {
+            "en": "Then another drop fell.",
+            "role": "時・場面の展開",
+            "ja": "another drop fell＝もう一滴落ちた ／ 語句：then＝それから・そのとき、drop＝水滴・しずく"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "another drop fell",
+            "ja": "もう一滴落ちた"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          },
+          {
+            "word": "drop",
+            "ja": "水滴・しずく",
+            "note": "rain drop などの液体のしずく"
+          }
+        ]
+      },
+      {
+        "summary": "像が雨よけにならないなら煙突に移ろう、とツバメは考える。",
+        "chunks": [
+          {
+            "en": "“What is the use of a statue ",
+            "role": "意味のまとまり",
+            "ja": "What is the use of＝〜に何の役に立つのか ／ 語句：statue＝像"
+          },
+          {
+            "en": "if it cannot keep the rain off?” ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "keep the rain off＝雨を防ぐ"
+          },
+          {
+            "en": "he said; “I must look for a good chimney-pot,” ",
+            "role": "発話と話者",
+            "ja": "語句：chimney-pot＝煙突の先端部分"
+          },
+          {
+            "en": "and he determined to fly away.",
+            "role": "時・場面の展開",
+            "ja": "determined to＝〜しようと決心した ／ 語句：determined＝決心した"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "What is the use of",
+            "ja": "〜に何の役に立つのか"
+          },
+          {
+            "en": "keep the rain off",
+            "ja": "雨を防ぐ"
+          },
+          {
+            "en": "determined to",
+            "ja": "〜しようと決心した"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "statue",
+            "ja": "像",
+            "note": "彫像、人物をかたどった造形物"
+          },
+          {
+            "word": "chimney-pot",
+            "ja": "煙突の先端部分",
+            "note": "暖炉の煙を出す筒"
+          },
+          {
+            "word": "determined",
+            "ja": "決心した",
+            "note": "determine to ... で〜すると決める"
+          }
+        ]
+      },
+      {
+        "summary": "三滴目が落ち、見上げたツバメが何かを発見する。",
+        "chunks": [
+          {
+            "en": "But before he had opened his wings, a third drop fell, ",
+            "role": "時・場面の展開",
+            "ja": "before he had opened his wings＝羽を広げるより前に ／ 語句：drop＝水滴・しずく"
+          },
+          {
+            "en": "and he looked up, and saw—Ah! what did he see?",
+            "role": "時・場面の展開",
+            "ja": "looked up＝見上げた"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "before he had opened his wings",
+            "ja": "羽を広げるより前に"
+          },
+          {
+            "en": "looked up",
+            "ja": "見上げた"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "drop",
+            "ja": "水滴・しずく",
+            "note": "rain drop などの液体のしずく"
+          }
+        ]
+      },
+      {
+        "summary": "水滴は王子の涙だった。ツバメは像の美しさと悲しみに心を動かされる。",
+        "chunks": [
+          {
+            "en": "The eyes of the Happy Prince were filled with tears, ",
+            "role": "主語・叙述",
+            "ja": "filled with tears＝涙でいっぱいになった ／ 語句：prince＝王子、tears＝涙"
+          },
+          {
+            "en": "and tears were running down his golden cheeks. ",
+            "role": "時・場面の展開",
+            "ja": "語句：tears＝涙、golden＝金色の、cheeks＝頬"
+          },
+          {
+            "en": "His face was so beautiful in the moonlight ",
+            "role": "主語・叙述",
+            "ja": "語句：moonlight＝月明かり"
+          },
+          {
+            "en": "that the little Swallow was filled with pity.",
+            "role": "前の名詞・内容の修飾",
+            "ja": "filled with pity＝哀れみの気持ちで満たされた ／ 語句：Swallow＝ツバメ、pity＝哀れみ・同情"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "filled with tears",
+            "ja": "涙でいっぱいになった"
+          },
+          {
+            "en": "so beautiful ... that",
+            "ja": "とても美しいので〜"
+          },
+          {
+            "en": "filled with pity",
+            "ja": "哀れみの気持ちで満たされた"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "tears",
+            "ja": "涙",
+            "note": "tear（裂く）とは発音が異なる"
+          },
+          {
+            "word": "golden",
+            "ja": "金色の",
+            "note": "gold から派生した形容詞"
+          },
+          {
+            "word": "cheeks",
+            "ja": "頬",
+            "note": "cheek の複数形"
+          },
+          {
+            "word": "moonlight",
+            "ja": "月明かり",
+            "note": "moon + light"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "pity",
+            "ja": "哀れみ・同情",
+            "note": "be filled with pity で同情する"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメが正体を尋ねる。",
+        "chunks": [
+          {
+            "en": "“Who are you?” he said.",
+            "role": "前の名詞・内容の修飾",
+            "ja": "Who are you＝あなたは誰ですか ／ 語句：who＝誰・〜する人"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "Who are you",
+            "ja": "あなたは誰ですか"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "who",
+            "ja": "誰・〜する人",
+            "note": "疑問詞、または関係代名詞"
+          }
+        ]
+      },
+      {
+        "summary": "王子は自分が幸福な王子だと名乗る。",
+        "chunks": [
+          {
+            "en": "“I am the Happy Prince.”",
+            "role": "主語・叙述",
+            "ja": "I am the Happy Prince＝私は幸福な王子だ ／ 語句：prince＝王子"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "I am the Happy Prince",
+            "ja": "私は幸福な王子だ"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 5,
@@ -296,7 +1759,268 @@
         "ja": "悲惨"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "ツバメは名前と涙の矛盾を問いただす。",
+        "chunks": [
+          {
+            "en": "“Why are you weeping then?” ",
+            "role": "意味のまとまり",
+            "ja": "Why are you weeping＝なぜ泣いているのか ／ 語句：weeping＝泣いている、then＝それから・そのとき"
+          },
+          {
+            "en": "asked the Swallow; “you have quite drenched me.”",
+            "role": "意味のまとまり",
+            "ja": "quite drenched me＝私をすっかり濡らしてしまった ／ 語句：Swallow＝ツバメ、drenched＝びしょ濡れにした"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "Why are you weeping",
+            "ja": "なぜ泣いているのか"
+          },
+          {
+            "en": "quite drenched me",
+            "ja": "私をすっかり濡らしてしまった"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "weeping",
+            "ja": "泣いている",
+            "note": "weep の進行形。cry より文語的"
+          },
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "drenched",
+            "ja": "びしょ濡れにした",
+            "note": "drench はすっかり濡らす"
+          }
+        ]
+      },
+      {
+        "summary": "王子は生前の享楽と死後に見える街の苦しみを対比する。",
+        "chunks": [
+          {
+            "en": "“When I was alive and had a human heart,” answered the statue, ",
+            "role": "時・場面の展開",
+            "ja": "語句：alive＝生きて、human＝人間の"
+          },
+          {
+            "en": "“I did not know what tears were, ",
+            "role": "主語・叙述",
+            "ja": "did not know what tears were＝涙というものを知らなかった ／ 語句：tears＝涙"
+          },
+          {
+            "en": "for I lived in the Palace of Sans-Souci, ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "語句：palace＝宮殿"
+          },
+          {
+            "en": "where sorrow is not allowed to enter. ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "語句：sorrow＝悲しみ"
+          },
+          {
+            "en": "In the daytime I played with my companions in the garden, ",
+            "role": "時・場面の展開",
+            "ja": "語句：companions＝仲間たち"
+          },
+          {
+            "en": "and in the evening I led the dance in the Great Hall. ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "Round the garden ran a very lofty wall, ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "but I never cared to ask what lay beyond it, ",
+            "role": "時・場面の展開",
+            "ja": "what lay beyond it＝壁の向こうに何があるのか ／ 語句：beyond＝〜の向こうに"
+          },
+          {
+            "en": "everything about me was so beautiful. ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "My courtiers called me the Happy Prince, and happy indeed I was, ",
+            "role": "意味のまとまり",
+            "ja": "語句：courtiers＝廷臣たち、indeed＝実に・確かに"
+          },
+          {
+            "en": "if pleasure be happiness. So I lived, and so I died. ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "語句：pleasure＝快楽・楽しみ"
+          },
+          {
+            "en": "And now that I am dead they have set me up here ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "so high that I can see all the ugliness ",
+            "role": "時・場面の展開",
+            "ja": "語句：ugliness＝醜さ"
+          },
+          {
+            "en": "and all the misery of my city, ",
+            "role": "時・場面の展開",
+            "ja": "語句：Misery＝悲惨・窮乏"
+          },
+          {
+            "en": "and though my heart is made of lead yet I cannot chose ",
+            "role": "時・場面の展開",
+            "ja": "対照や譲歩のつながりに注目"
+          },
+          {
+            "en": "but weep.”",
+            "role": "時・場面の展開",
+            "ja": "対照や譲歩のつながりに注目"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "did not know what tears were",
+            "ja": "涙というものを知らなかった"
+          },
+          {
+            "en": "what lay beyond it",
+            "ja": "壁の向こうに何があるのか"
+          },
+          {
+            "en": "cannot chose but weep",
+            "ja": "泣かずにはいられない（原文の綴り）"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "alive",
+            "ja": "生きて",
+            "note": "be alive で「生きている」"
+          },
+          {
+            "word": "human",
+            "ja": "人間の",
+            "note": "human heart で人間の心臓"
+          },
+          {
+            "word": "tears",
+            "ja": "涙",
+            "note": "tear（裂く）とは発音が異なる"
+          },
+          {
+            "word": "palace",
+            "ja": "宮殿",
+            "note": "君主の住居"
+          },
+          {
+            "word": "sorrow",
+            "ja": "悲しみ",
+            "note": "悲哀を表す名詞"
+          },
+          {
+            "word": "companions",
+            "ja": "仲間たち",
+            "note": "一緒に時間を過ごす人"
+          },
+          {
+            "word": "beyond",
+            "ja": "〜の向こうに",
+            "note": "位置や限界の先を表す"
+          },
+          {
+            "word": "courtiers",
+            "ja": "廷臣たち",
+            "note": "宮廷に仕える人たち"
+          },
+          {
+            "word": "indeed",
+            "ja": "実に・確かに",
+            "note": "直前の表現を強調"
+          },
+          {
+            "word": "pleasure",
+            "ja": "快楽・楽しみ",
+            "note": "happiness「幸福」と区別される"
+          },
+          {
+            "word": "ugliness",
+            "ja": "醜さ",
+            "note": "ugly の名詞形"
+          },
+          {
+            "word": "Misery",
+            "ja": "悲惨・窮乏",
+            "note": "Mystery「謎」と音を響かせる"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは金無垢の像ではないことを知る。",
+        "chunks": [
+          {
+            "en": "“What! is he not solid gold?” said the Swallow to himself. ",
+            "role": "発話と話者",
+            "ja": "solid gold＝純金製 ／ 語句：solid＝無垢の・中まで詰まった、Swallow＝ツバメ"
+          },
+          {
+            "en": "He was too polite to make any personal remarks out loud.",
+            "role": "主語・叙述",
+            "ja": "too polite to＝礼儀正しすぎて〜できない ／ out loud＝声に出して ／ 語句：polite＝礼儀正しい、remarks＝発言・コメント"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "solid gold",
+            "ja": "純金製"
+          },
+          {
+            "en": "too polite to",
+            "ja": "礼儀正しすぎて〜できない"
+          },
+          {
+            "en": "out loud",
+            "ja": "声に出して"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "solid",
+            "ja": "無垢の・中まで詰まった",
+            "note": "solid gold は純金"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "polite",
+            "ja": "礼儀正しい",
+            "note": "社交上の慎み"
+          },
+          {
+            "word": "remarks",
+            "ja": "発言・コメント",
+            "note": "make remarks で口にする"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 6,
@@ -342,7 +2066,170 @@
         "ja": "熱病"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "王子は病気の子を抱える縫い子の窮状を語り、ルビーを届けてほしいと頼む。",
+        "chunks": [
+          {
+            "en": "“Far away,” continued the statue in a low musical voice, ",
+            "role": "発話と話者",
+            "ja": "語句：musical＝音楽的な・美しい響きの"
+          },
+          {
+            "en": "“far away in a little street there is a poor house. ",
+            "role": "意味のまとまり",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "One of the windows is open, ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "and through it I can see a woman seated at a table. ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "Her face is thin and worn, and she has coarse, red hands, ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "all pricked by the needle, for she is a seamstress. ",
+            "role": "意味のまとまり",
+            "ja": "all pricked by the needle＝針で刺し傷だらけ ／ 語句：pricked＝針で刺された、seamstress＝お針子"
+          },
+          {
+            "en": "She is embroidering passion-flowers on a satin gown ",
+            "role": "主語・叙述",
+            "ja": "語句：embroidering＝刺繍している、passion-flowers＝トケイソウ"
+          },
+          {
+            "en": "for the loveliest of the Queen’s maids-of-honour to wear at the next ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "語句：maids-of-honour＝女官たち"
+          },
+          {
+            "en": "Court-ball. In a bed in the corner of the room her little ",
+            "role": "意味のまとまり",
+            "ja": "語句：Court-ball＝宮廷舞踏会"
+          },
+          {
+            "en": "boy is lying ill. ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "He has a fever, and is asking for oranges. ",
+            "role": "主語・叙述",
+            "ja": "語句：oranges＝オレンジ"
+          },
+          {
+            "en": "His mother has nothing to give him but river water, ",
+            "role": "主語・叙述",
+            "ja": "has nothing to give him but＝〜しか与えるものがない"
+          },
+          {
+            "en": "so he is crying. ",
+            "role": "時・場面の展開",
+            "ja": "語句：crying＝泣いている"
+          },
+          {
+            "en": "Swallow, Swallow, little Swallow, ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "will you not bring her the ruby out of my sword-hilt? ",
+            "role": "意味のまとまり",
+            "ja": "語句：sword-hilt＝剣の柄"
+          },
+          {
+            "en": "My feet are fastened to this pedestal and I cannot move.”",
+            "role": "意味のまとまり",
+            "ja": "fastened to this pedestal＝この台座に固定されている ／ 語句：fastened＝固定された、pedestal＝台座"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "all pricked by the needle",
+            "ja": "針で刺し傷だらけ"
+          },
+          {
+            "en": "has nothing to give him but",
+            "ja": "〜しか与えるものがない"
+          },
+          {
+            "en": "fastened to this pedestal",
+            "ja": "この台座に固定されている"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "musical",
+            "ja": "音楽的な・美しい響きの",
+            "note": "ここでは声の響き"
+          },
+          {
+            "word": "pricked",
+            "ja": "針で刺された",
+            "note": "prick の過去分詞"
+          },
+          {
+            "word": "seamstress",
+            "ja": "お針子",
+            "note": "服を縫う職業の女性"
+          },
+          {
+            "word": "embroidering",
+            "ja": "刺繍している",
+            "note": "embroider の進行形"
+          },
+          {
+            "word": "passion-flowers",
+            "ja": "トケイソウ",
+            "note": "花の名前"
+          },
+          {
+            "word": "maids-of-honour",
+            "ja": "女官たち",
+            "note": "女王に仕える女性たち"
+          },
+          {
+            "word": "Court-ball",
+            "ja": "宮廷舞踏会",
+            "note": "宮廷で開かれる舞踏会"
+          },
+          {
+            "word": "oranges",
+            "ja": "オレンジ",
+            "note": "病気の子が求める果物"
+          },
+          {
+            "word": "crying",
+            "ja": "泣いている",
+            "note": "cry の進行形・動名詞"
+          },
+          {
+            "word": "sword-hilt",
+            "ja": "剣の柄",
+            "note": "sword は剣、hilt は握る部分"
+          },
+          {
+            "word": "fastened",
+            "ja": "固定された",
+            "note": "fasten「留める」の過去分詞"
+          },
+          {
+            "word": "pedestal",
+            "ja": "台座",
+            "note": "像を据える部分"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 7,
@@ -370,7 +2257,288 @@
         "ja": "敏捷さ"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "ツバメはエジプトにいる仲間と豪華な王の墓を思い描く。",
+        "chunks": [
+          {
+            "en": "“I am waited for in Egypt,” said the Swallow. ",
+            "role": "発話と話者",
+            "ja": "I am waited for＝私の到着が待たれている（受動態） ／ 語句：Egypt＝エジプト、Swallow＝ツバメ"
+          },
+          {
+            "en": "“My friends are flying up and down the Nile, ",
+            "role": "意味のまとまり",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "and talking to the large lotus-flowers. ",
+            "role": "時・場面の展開",
+            "ja": "語句：lotus-flowers＝蓮の花"
+          },
+          {
+            "en": "Soon they will go to sleep in the tomb of the great ",
+            "role": "意味のまとまり",
+            "ja": "語句：Sleep＝眠り、tomb＝墓・墓所"
+          },
+          {
+            "en": "King. The King is there himself in his painted coffin. ",
+            "role": "意味のまとまり",
+            "ja": "語句：coffin＝棺"
+          },
+          {
+            "en": "He is wrapped in yellow linen, and embalmed with spices. ",
+            "role": "主語・叙述",
+            "ja": "embalmed with spices＝香料で防腐処理された ／ 語句：wrapped＝包まれた、linen＝亜麻布・リネン、embalmed＝防腐処理をされた"
+          },
+          {
+            "en": "Round his neck is a chain of pale green jade, ",
+            "role": "意味のまとまり",
+            "ja": "語句：jade＝翡翠"
+          },
+          {
+            "en": "and his hands are like withered leaves.”",
+            "role": "時・場面の展開",
+            "ja": "like withered leaves＝枯葉のような ／ 語句：withered＝しおれた"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "I am waited for",
+            "ja": "私の到着が待たれている（受動態）"
+          },
+          {
+            "en": "embalmed with spices",
+            "ja": "香料で防腐処理された"
+          },
+          {
+            "en": "like withered leaves",
+            "ja": "枯葉のような"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Egypt",
+            "ja": "エジプト",
+            "note": "ツバメの渡りの目的地"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "lotus-flowers",
+            "ja": "蓮の花",
+            "note": "ナイル沿岸の情景に登場"
+          },
+          {
+            "word": "Sleep",
+            "ja": "眠り",
+            "note": "Death の兄弟として擬人化"
+          },
+          {
+            "word": "tomb",
+            "ja": "墓・墓所",
+            "note": "埋葬のための場所"
+          },
+          {
+            "word": "coffin",
+            "ja": "棺",
+            "note": "遺体を入れる箱"
+          },
+          {
+            "word": "wrapped",
+            "ja": "包まれた",
+            "note": "wrap の過去分詞"
+          },
+          {
+            "word": "linen",
+            "ja": "亜麻布・リネン",
+            "note": "布の素材"
+          },
+          {
+            "word": "embalmed",
+            "ja": "防腐処理をされた",
+            "note": "遺体保存の技術"
+          },
+          {
+            "word": "spices",
+            "ja": "香料",
+            "note": "香りを持つ植物性の材料"
+          },
+          {
+            "word": "jade",
+            "ja": "翡翠",
+            "note": "緑色の宝石"
+          },
+          {
+            "word": "withered",
+            "ja": "しおれた",
+            "note": "生気を失った植物の形容"
+          }
+        ]
+      },
+      {
+        "summary": "王子がひと晩だけ使者になってほしいと頼む。",
+        "chunks": [
+          {
+            "en": "“Swallow, Swallow, little Swallow,” said the Prince, ",
+            "role": "発話と話者",
+            "ja": "語句：Swallow＝ツバメ、prince＝王子"
+          },
+          {
+            "en": "“will you not stay with me for one night, ",
+            "role": "意味のまとまり",
+            "ja": "stay with me for one night＝一晩いっしょにいて"
+          },
+          {
+            "en": "and be my messenger? ",
+            "role": "時・場面の展開",
+            "ja": "be my messenger＝私の使いになって ／ 語句：messenger＝使者"
+          },
+          {
+            "en": "The boy is so thirsty, and the mother so sad.”",
+            "role": "主語・叙述",
+            "ja": "語句：thirsty＝喉が渇いた"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "stay with me for one night",
+            "ja": "一晩いっしょにいて"
+          },
+          {
+            "en": "be my messenger",
+            "ja": "私の使いになって"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "messenger",
+            "ja": "使者",
+            "note": "伝言や品物を運ぶ人"
+          },
+          {
+            "word": "thirsty",
+            "ja": "喉が渇いた",
+            "note": "thirst「渇き」の形容詞"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは子どもが嫌いだという理由を以前の経験で説明する。",
+        "chunks": [
+          {
+            "en": "“I don’t think I like boys,” answered the Swallow. ",
+            "role": "発話と話者",
+            "ja": "語句：Swallow＝ツバメ"
+          },
+          {
+            "en": "“Last summer, when I was staying on the river, ",
+            "role": "意味のまとまり",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "there were two rude boys, the miller’s sons, ",
+            "role": "意味のまとまり",
+            "ja": "語句：rude＝無礼な、miller＝製粉業者"
+          },
+          {
+            "en": "who were always throwing stones at me. ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "were always throwing stones＝いつも石を投げていた ／ 語句：who＝誰・〜する人、always＝いつも・ずっと、stones＝石"
+          },
+          {
+            "en": "They never hit me, of course; ",
+            "role": "主語・叙述",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "we swallows fly far too well for that, and besides, ",
+            "role": "主語・叙述",
+            "ja": "条件・理由の関係に注目"
+          },
+          {
+            "en": "I come of a family famous for its agility; ",
+            "role": "主語・叙述",
+            "ja": "famous for its agility＝敏捷さで知られる ／ 語句：agility＝敏捷さ"
+          },
+          {
+            "en": "but still, it was a mark of disrespect.”",
+            "role": "時・場面の展開",
+            "ja": "mark of disrespect＝無礼のしるし ／ 語句：disrespect＝無礼"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "were always throwing stones",
+            "ja": "いつも石を投げていた"
+          },
+          {
+            "en": "famous for its agility",
+            "ja": "敏捷さで知られる"
+          },
+          {
+            "en": "mark of disrespect",
+            "ja": "無礼のしるし"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "rude",
+            "ja": "無礼な",
+            "note": "言動に礼儀がない"
+          },
+          {
+            "word": "miller",
+            "ja": "製粉業者",
+            "note": "穀物を粉にする仕事"
+          },
+          {
+            "word": "who",
+            "ja": "誰・〜する人",
+            "note": "疑問詞、または関係代名詞"
+          },
+          {
+            "word": "always",
+            "ja": "いつも・ずっと",
+            "note": "ここでは永続的な約束にも使う"
+          },
+          {
+            "word": "stones",
+            "ja": "石",
+            "note": "throw stones at ... で石を投げる"
+          },
+          {
+            "word": "agility",
+            "ja": "敏捷さ",
+            "note": "素早く動ける能力"
+          },
+          {
+            "word": "disrespect",
+            "ja": "無礼",
+            "note": "敬意の欠如"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 8,
@@ -400,7 +2568,308 @@
         "ja": "お針子たち"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "王子の悲しみを見て、ツバメは一晩だけ協力すると約束する。",
+        "chunks": [
+          {
+            "en": "But the Happy Prince looked so sad ",
+            "role": "時・場面の展開",
+            "ja": "語句：prince＝王子"
+          },
+          {
+            "en": "that the little Swallow was sorry. ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "語句：Swallow＝ツバメ、sorry＝気の毒に思う"
+          },
+          {
+            "en": "“It is very cold here,” he said; ",
+            "role": "発話と話者",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "“but I will stay with you for one night, ",
+            "role": "時・場面の展開",
+            "ja": "対照や譲歩のつながりに注目"
+          },
+          {
+            "en": "and be your messenger.”",
+            "role": "時・場面の展開",
+            "ja": "be your messenger＝あなたの使いになる ／ 語句：messenger＝使者"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "looked so sad that",
+            "ja": "あまりに悲しそうだったので"
+          },
+          {
+            "en": "be your messenger",
+            "ja": "あなたの使いになる"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "sorry",
+            "ja": "気の毒に思う",
+            "note": "ここでは謝罪より同情"
+          },
+          {
+            "word": "messenger",
+            "ja": "使者",
+            "note": "伝言や品物を運ぶ人"
+          }
+        ]
+      },
+      {
+        "summary": "王子がツバメに感謝する。",
+        "chunks": [
+          {
+            "en": "“Thank you, little Swallow,” said the Prince.",
+            "role": "発話と話者",
+            "ja": "Thank you, little Swallow＝ありがとう、小さなツバメ ／ 語句：Swallow＝ツバメ、prince＝王子"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "Thank you, little Swallow",
+            "ja": "ありがとう、小さなツバメ"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメが剣のルビーを抜き、くわえて飛び去る。",
+        "chunks": [
+          {
+            "en": "So the Swallow picked out the great ruby from the Prince’s sword, ",
+            "role": "時・場面の展開",
+            "ja": "picked out＝取り出した ／ 語句：Swallow＝ツバメ、picked＝つまみ取った、ruby＝ルビー"
+          },
+          {
+            "en": "and flew away with it in his beak over the roofs of ",
+            "role": "時・場面の展開",
+            "ja": "in his beak＝くちばしにくわえて ／ 語句：beak＝くちばし、roofs＝屋根"
+          },
+          {
+            "en": "the town.",
+            "role": "主語・叙述",
+            "ja": "前後のチャンクにつなげて読む"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "picked out",
+            "ja": "取り出した"
+          },
+          {
+            "en": "in his beak",
+            "ja": "くちばしにくわえて"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "picked",
+            "ja": "つまみ取った",
+            "note": "pick off で取り除く"
+          },
+          {
+            "word": "ruby",
+            "ja": "ルビー",
+            "note": "赤い宝石"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "beak",
+            "ja": "くちばし",
+            "note": "鳥の口"
+          },
+          {
+            "word": "roofs",
+            "ja": "屋根",
+            "note": "roof の複数形"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは大聖堂と宮殿を通り、恋人たちの幸福そうな会話を聞く。",
+        "chunks": [
+          {
+            "en": "He passed by the cathedral tower, ",
+            "role": "主語・叙述",
+            "ja": "passed by＝〜のそばを通った ／ 語句：cathedral＝大聖堂"
+          },
+          {
+            "en": "where the white marble angels were sculptured. ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "語句：marble＝大理石、Angels＝天使たち、sculptured＝彫刻された"
+          },
+          {
+            "en": "He passed by the palace and heard the sound of dancing. ",
+            "role": "主語・叙述",
+            "ja": "passed by＝〜のそばを通った ／ 語句：palace＝宮殿"
+          },
+          {
+            "en": "A beautiful girl came out on the balcony with her lover. ",
+            "role": "主語・叙述",
+            "ja": "came out on the balcony＝バルコニーへ出てきた ／ 語句：balcony＝バルコニー、lover＝恋人"
+          },
+          {
+            "en": "“How wonderful the stars are,” he said to her, ",
+            "role": "発話と話者",
+            "ja": "語句：wonderful＝すばらしい"
+          },
+          {
+            "en": "“and how wonderful is the power of love!”",
+            "role": "時・場面の展開",
+            "ja": "power of love＝愛の力 ／ 語句：wonderful＝すばらしい"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "passed by",
+            "ja": "〜のそばを通った"
+          },
+          {
+            "en": "came out on the balcony",
+            "ja": "バルコニーへ出てきた"
+          },
+          {
+            "en": "power of love",
+            "ja": "愛の力"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "cathedral",
+            "ja": "大聖堂",
+            "note": "司教座のある大きな教会"
+          },
+          {
+            "word": "marble",
+            "ja": "大理石",
+            "note": "彫像や建築に使う石"
+          },
+          {
+            "word": "Angels",
+            "ja": "天使たち",
+            "note": "Angel の複数形"
+          },
+          {
+            "word": "sculptured",
+            "ja": "彫刻された",
+            "note": "sculpture の動詞的用法"
+          },
+          {
+            "word": "palace",
+            "ja": "宮殿",
+            "note": "君主の住居"
+          },
+          {
+            "word": "balcony",
+            "ja": "バルコニー",
+            "note": "建物から張り出す場所"
+          },
+          {
+            "word": "lover",
+            "ja": "恋人",
+            "note": "愛する相手"
+          },
+          {
+            "word": "wonderful",
+            "ja": "すばらしい",
+            "note": "wonder「驚き」に由来"
+          }
+        ]
+      },
+      {
+        "summary": "娘は舞踏会のドレスが間に合うかを心配し、縫い子たちを怠け者と決めつける。",
+        "chunks": [
+          {
+            "en": "“I hope my dress will be ready in time for the State-ball,” ",
+            "role": "主語・叙述",
+            "ja": "ready in time＝時間に間に合って ／ 語句：State-ball＝公式舞踏会"
+          },
+          {
+            "en": "she answered; “I have ordered passion-flowers to be embroidered on it; ",
+            "role": "発話と話者",
+            "ja": "ordered ... to be embroidered＝刺繍するよう注文した ／ 語句：passion-flowers＝トケイソウ、embroidered＝刺繍された"
+          },
+          {
+            "en": "but the seamstresses are so lazy.”",
+            "role": "時・場面の展開",
+            "ja": "so lazy＝とても怠け者だ ／ 語句：lazy＝怠惰な"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "ready in time",
+            "ja": "時間に間に合って"
+          },
+          {
+            "en": "ordered ... to be embroidered",
+            "ja": "刺繍するよう注文した"
+          },
+          {
+            "en": "so lazy",
+            "ja": "とても怠け者だ"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "State-ball",
+            "ja": "公式舞踏会",
+            "note": "王宮の儀礼的行事"
+          },
+          {
+            "word": "passion-flowers",
+            "ja": "トケイソウ",
+            "note": "花の名前"
+          },
+          {
+            "word": "embroidered",
+            "ja": "刺繍された",
+            "note": "embroider の過去分詞"
+          },
+          {
+            "word": "lazy",
+            "ja": "怠惰な",
+            "note": "行為の価値判断"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 9,
@@ -432,7 +2901,279 @@
         "ja": "値段交渉をしている"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "ツバメは貧家でルビーを置き、熱に苦しむ子どもを羽であおいで眠らせる。",
+        "chunks": [
+          {
+            "en": "He passed over the river, ",
+            "role": "主語・叙述",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "and saw the lanterns hanging to the masts of the ships. ",
+            "role": "時・場面の展開",
+            "ja": "語句：lanterns＝ランタン・灯火"
+          },
+          {
+            "en": "He passed over the Ghetto, ",
+            "role": "主語・叙述",
+            "ja": "語句：Ghetto＝ゲットー"
+          },
+          {
+            "en": "and saw the old Jews bargaining with each other, ",
+            "role": "時・場面の展開",
+            "ja": "語句：bargaining＝値段交渉している"
+          },
+          {
+            "en": "and weighing out money in copper scales. ",
+            "role": "時・場面の展開",
+            "ja": "語句：weighing＝量っている、copper＝銅、scales＝天秤・秤"
+          },
+          {
+            "en": "At last he came to the poor house and looked in. ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "The boy was tossing feverishly on his bed, ",
+            "role": "主語・叙述",
+            "ja": "tossing feverishly＝熱にうなされて寝返りを打つ ／ 語句：tossing＝寝返りを打つ、feverishly＝熱にうなされて"
+          },
+          {
+            "en": "and the mother had fallen asleep, she was so tired. ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "In he hopped, ",
+            "role": "意味のまとまり",
+            "ja": "In he hopped＝中へぴょんと飛び込んだ（倒置）"
+          },
+          {
+            "en": "and laid the great ruby on the table beside the woman’s thimble. ",
+            "role": "時・場面の展開",
+            "ja": "語句：thimble＝指ぬき"
+          },
+          {
+            "en": "Then he flew gently round the bed, ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "fanning the boy’s forehead with his wings. ",
+            "role": "意味のまとまり",
+            "ja": "語句：fanning＝あおいでいる、forehead＝額"
+          },
+          {
+            "en": "“How cool I feel,” said the boy, “I must be getting better”; ",
+            "role": "発話と話者",
+            "ja": "getting better＝回復してきている"
+          },
+          {
+            "en": "and he sank into a delicious slumber.",
+            "role": "時・場面の展開",
+            "ja": "語句：slumber＝眠り"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "tossing feverishly",
+            "ja": "熱にうなされて寝返りを打つ"
+          },
+          {
+            "en": "In he hopped",
+            "ja": "中へぴょんと飛び込んだ（倒置）"
+          },
+          {
+            "en": "getting better",
+            "ja": "回復してきている"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "lanterns",
+            "ja": "ランタン・灯火",
+            "note": "小型の灯り"
+          },
+          {
+            "word": "Ghetto",
+            "ja": "ゲットー",
+            "note": "歴史的にはユダヤ人の居住区"
+          },
+          {
+            "word": "bargaining",
+            "ja": "値段交渉している",
+            "note": "bargain の進行形"
+          },
+          {
+            "word": "weighing",
+            "ja": "量っている",
+            "note": "weigh の進行形"
+          },
+          {
+            "word": "copper",
+            "ja": "銅",
+            "note": "金属の一種"
+          },
+          {
+            "word": "scales",
+            "ja": "天秤・秤",
+            "note": "重さを量る道具"
+          },
+          {
+            "word": "tossing",
+            "ja": "寝返りを打つ",
+            "note": "病床で身をよじる"
+          },
+          {
+            "word": "feverishly",
+            "ja": "熱にうなされて",
+            "note": "fever の副詞形"
+          },
+          {
+            "word": "thimble",
+            "ja": "指ぬき",
+            "note": "縫い針から指を守る道具"
+          },
+          {
+            "word": "fanning",
+            "ja": "あおいでいる",
+            "note": "fan の動詞用法"
+          },
+          {
+            "word": "forehead",
+            "ja": "額",
+            "note": "顔の上部"
+          },
+          {
+            "word": "slumber",
+            "ja": "眠り",
+            "note": "sleep より文学的"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは善行の後、寒いはずなのに温かさを感じる。",
+        "chunks": [
+          {
+            "en": "Then the Swallow flew back to the Happy Prince, ",
+            "role": "時・場面の展開",
+            "ja": "語句：then＝それから・そのとき、Swallow＝ツバメ、prince＝王子"
+          },
+          {
+            "en": "and told him what he had done. ",
+            "role": "時・場面の展開",
+            "ja": "what he had done＝自分がしてきたこと"
+          },
+          {
+            "en": "“It is curious,” he remarked, “but I feel quite warm now, ",
+            "role": "発話と話者",
+            "ja": "語句：curious＝不思議な、remarked＝述べた"
+          },
+          {
+            "en": "although it is so cold.”",
+            "role": "理由・条件・対照などの接続",
+            "ja": "although it is so cold＝とても寒いのに"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "what he had done",
+            "ja": "自分がしてきたこと"
+          },
+          {
+            "en": "although it is so cold",
+            "ja": "とても寒いのに"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "curious",
+            "ja": "不思議な",
+            "note": "話者の驚きを表す"
+          },
+          {
+            "word": "remarked",
+            "ja": "述べた",
+            "note": "会話文に添える発話動詞"
+          }
+        ]
+      },
+      {
+        "summary": "王子はその温かさを善行によるものだと説明する。",
+        "chunks": [
+          {
+            "en": "“That is because you have done a good action,” said the Prince. ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "a good action＝よい行い ／ 語句：action＝行い、prince＝王子"
+          },
+          {
+            "en": "And the little Swallow began to think, and then he fell asleep. ",
+            "role": "時・場面の展開",
+            "ja": "fell asleep＝眠り込んだ ／ 語句：Swallow＝ツバメ、then＝それから・そのとき"
+          },
+          {
+            "en": "Thinking always made him sleepy.",
+            "role": "意味のまとまり",
+            "ja": "語句：always＝いつも・ずっと"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "a good action",
+            "ja": "よい行い"
+          },
+          {
+            "en": "fell asleep",
+            "ja": "眠り込んだ"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "action",
+            "ja": "行い",
+            "note": "good action は善行"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          },
+          {
+            "word": "always",
+            "ja": "いつも・ずっと",
+            "note": "ここでは永続的な約束にも使う"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 10,
@@ -461,7 +3202,280 @@
         "ja": "現象"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "冬のツバメの発見を鳥類学教授が新聞に書くが、難解な文章だった。",
+        "chunks": [
+          {
+            "en": "When day broke he flew down to the river ",
+            "role": "時・場面の展開",
+            "ja": "When day broke＝夜が明けたとき"
+          },
+          {
+            "en": "and had a bath. ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "“What a remarkable phenomenon,” ",
+            "role": "意味のまとまり",
+            "ja": "remarkable phenomenon＝注目すべき現象 ／ 語句：phenomenon＝現象"
+          },
+          {
+            "en": "said the Professor of Ornithology as he was passing over the bridge. ",
+            "role": "発話と話者",
+            "ja": "語句：Professor＝教授、Ornithology＝鳥類学"
+          },
+          {
+            "en": "“A swallow in winter!” ",
+            "role": "主語・叙述",
+            "ja": "語句：Swallow＝ツバメ"
+          },
+          {
+            "en": "And he wrote a long letter about it to the local newspaper. ",
+            "role": "時・場面の展開",
+            "ja": "語句：newspaper＝新聞"
+          },
+          {
+            "en": "Every one quoted it, ",
+            "role": "意味のまとまり",
+            "ja": "語句：quoted＝引用した"
+          },
+          {
+            "en": "it was full of so many words that they could not understand.",
+            "role": "意味のまとまり",
+            "ja": "full of so many words＝難しい言葉でいっぱい ／ 語句：understand＝理解する"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "When day broke",
+            "ja": "夜が明けたとき"
+          },
+          {
+            "en": "remarkable phenomenon",
+            "ja": "注目すべき現象"
+          },
+          {
+            "en": "full of so many words",
+            "ja": "難しい言葉でいっぱい"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "phenomenon",
+            "ja": "現象",
+            "note": "単数形。複数 phenomena"
+          },
+          {
+            "word": "Professor",
+            "ja": "教授",
+            "note": "大学などの教員"
+          },
+          {
+            "word": "Ornithology",
+            "ja": "鳥類学",
+            "note": "鳥についての学問"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "newspaper",
+            "ja": "新聞",
+            "note": "local newspaper で地方紙"
+          },
+          {
+            "word": "quoted",
+            "ja": "引用した",
+            "note": "quote の過去形"
+          },
+          {
+            "word": "understand",
+            "ja": "理解する",
+            "note": "難解な言葉を読む場面"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメはエジプトへの旅に胸を躍らせて街を見物する。",
+        "chunks": [
+          {
+            "en": "“To-night I go to Egypt,” said the Swallow, ",
+            "role": "発話と話者",
+            "ja": "語句：Egypt＝エジプト、Swallow＝ツバメ"
+          },
+          {
+            "en": "and he was in high spirits at the prospect. ",
+            "role": "時・場面の展開",
+            "ja": "in high spirits＝上機嫌で ／ at the prospect＝その見込みに ／ 語句：spirits＝気分、prospect＝見込み・予想"
+          },
+          {
+            "en": "He visited all the public monuments, ",
+            "role": "主語・叙述",
+            "ja": "語句：monuments＝記念碑"
+          },
+          {
+            "en": "and sat a long time on top of the church steeple. ",
+            "role": "時・場面の展開",
+            "ja": "語句：steeple＝教会の尖塔"
+          },
+          {
+            "en": "Wherever he went the Sparrows chirruped, and said to each other, ",
+            "role": "発話と話者",
+            "ja": "Wherever he went＝どこへ行っても ／ 語句：Sparrows＝スズメたち、chirruped＝さえずった"
+          },
+          {
+            "en": "“What a distinguished stranger!” so he enjoyed himself very much.",
+            "role": "意味のまとまり",
+            "ja": "語句：distinguished＝立派な・目立った"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "in high spirits",
+            "ja": "上機嫌で"
+          },
+          {
+            "en": "at the prospect",
+            "ja": "その見込みに"
+          },
+          {
+            "en": "Wherever he went",
+            "ja": "どこへ行っても"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Egypt",
+            "ja": "エジプト",
+            "note": "ツバメの渡りの目的地"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "spirits",
+            "ja": "気分",
+            "note": "in high spirits で上機嫌"
+          },
+          {
+            "word": "prospect",
+            "ja": "見込み・予想",
+            "note": "将来への期待"
+          },
+          {
+            "word": "monuments",
+            "ja": "記念碑",
+            "note": "公共の歴史的建造物"
+          },
+          {
+            "word": "steeple",
+            "ja": "教会の尖塔",
+            "note": "church steeple"
+          },
+          {
+            "word": "Sparrows",
+            "ja": "スズメたち",
+            "note": "sparrow の複数形"
+          },
+          {
+            "word": "chirruped",
+            "ja": "さえずった",
+            "note": "小鳥の高い声"
+          },
+          {
+            "word": "distinguished",
+            "ja": "立派な・目立った",
+            "note": "称賛の形容詞"
+          }
+        ]
+      },
+      {
+        "summary": "月が昇ると、ツバメは王子にエジプトへの用事がないか尋ねる。",
+        "chunks": [
+          {
+            "en": "When the moon rose he flew back to the Happy Prince. ",
+            "role": "時・場面の展開",
+            "ja": "語句：prince＝王子"
+          },
+          {
+            "en": "“Have you any commissions for Egypt?” he cried; “I am just starting.”",
+            "role": "発話と話者",
+            "ja": "Have you any commissions＝何か用事はありますか ／ just starting＝今まさに出発するところ ／ 語句：commissions＝頼まれ事、Egypt＝エジプト"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "Have you any commissions",
+            "ja": "何か用事はありますか"
+          },
+          {
+            "en": "just starting",
+            "ja": "今まさに出発するところ"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "commissions",
+            "ja": "頼まれ事",
+            "note": "ここでは報酬の「歩合」ではない"
+          },
+          {
+            "word": "Egypt",
+            "ja": "エジプト",
+            "note": "ツバメの渡りの目的地"
+          }
+        ]
+      },
+      {
+        "summary": "王子はもう一晩だけ残れないかと懇願する。",
+        "chunks": [
+          {
+            "en": "“Swallow, Swallow, little Swallow,” said the Prince, ",
+            "role": "発話と話者",
+            "ja": "語句：Swallow＝ツバメ、prince＝王子"
+          },
+          {
+            "en": "“will you not stay with me one night longer?”",
+            "role": "意味のまとまり",
+            "ja": "one night longer＝もう一晩長く ／ will you not stay＝残ってくれないか"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "one night longer",
+            "ja": "もう一晩長く"
+          },
+          {
+            "en": "will you not stay",
+            "ja": "残ってくれないか"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 11,
@@ -496,7 +3510,281 @@
         "ja": "屋根裏部屋"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "ツバメは仲間が待つエジプトの雄大な景色を語る。",
+        "chunks": [
+          {
+            "en": "“I am waited for in Egypt,” answered the Swallow. ",
+            "role": "発話と話者",
+            "ja": "語句：Egypt＝エジプト、Swallow＝ツバメ"
+          },
+          {
+            "en": "“To-morrow my friends will fly up to the Second Cataract. ",
+            "role": "意味のまとまり",
+            "ja": "Second Cataract＝ナイル川の第二急流 ／ 語句：Cataract＝大滝・急流"
+          },
+          {
+            "en": "The river-horse couches there among the bulrushes, ",
+            "role": "主語・叙述",
+            "ja": "語句：river-horse＝カバ、couches＝横たわる、bulrushes＝ガマなどの水草"
+          },
+          {
+            "en": "and on a great granite throne sits the God Memnon. ",
+            "role": "時・場面の展開",
+            "ja": "語句：granite＝花崗岩、throne＝玉座、Memnon＝メムノン"
+          },
+          {
+            "en": "All night long he watches the stars, ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "and when the morning star shines he utters one cry of joy, ",
+            "role": "時・場面の展開",
+            "ja": "utters one cry of joy＝喜びの声を一声発する ／ 語句：utters＝発する"
+          },
+          {
+            "en": "and then he is silent. ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "At noon the yellow lions come down to the water’s edge to ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "drink. They have eyes like green beryls, ",
+            "role": "意味のまとまり",
+            "ja": "語句：beryls＝ベリル・緑柱石"
+          },
+          {
+            "en": "and their roar is louder than the roar of the cataract.”",
+            "role": "時・場面の展開",
+            "ja": "their roar is louder than＝そのほえる声は〜より大きい ／ 語句：Cataract＝大滝・急流、roar＝咆哮"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "Second Cataract",
+            "ja": "ナイル川の第二急流"
+          },
+          {
+            "en": "utters one cry of joy",
+            "ja": "喜びの声を一声発する"
+          },
+          {
+            "en": "their roar is louder than",
+            "ja": "そのほえる声は〜より大きい"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Egypt",
+            "ja": "エジプト",
+            "note": "ツバメの渡りの目的地"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "Cataract",
+            "ja": "大滝・急流",
+            "note": "地理では滝、医学では白内障"
+          },
+          {
+            "word": "river-horse",
+            "ja": "カバ",
+            "note": "古風な呼称"
+          },
+          {
+            "word": "couches",
+            "ja": "横たわる",
+            "note": "couch を動詞として使用"
+          },
+          {
+            "word": "bulrushes",
+            "ja": "ガマなどの水草",
+            "note": "湿地帯の植物"
+          },
+          {
+            "word": "granite",
+            "ja": "花崗岩",
+            "note": "硬い岩石"
+          },
+          {
+            "word": "throne",
+            "ja": "玉座",
+            "note": "王や神が座る椅子"
+          },
+          {
+            "word": "Memnon",
+            "ja": "メムノン",
+            "note": "エジプトの古代の王に関する名称"
+          },
+          {
+            "word": "utters",
+            "ja": "発する",
+            "note": "声や言葉を出す"
+          },
+          {
+            "word": "beryls",
+            "ja": "ベリル・緑柱石",
+            "note": "鉱物の一種"
+          },
+          {
+            "word": "roar",
+            "ja": "咆哮",
+            "note": "動物の大きな鳴き声"
+          }
+        ]
+      },
+      {
+        "summary": "王子は寒さと飢えで劇を仕上げられない若者を見つける。",
+        "chunks": [
+          {
+            "en": "“Swallow, Swallow, little Swallow,” said the Prince, ",
+            "role": "発話と話者",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "“far away across the city I see a young man in a ",
+            "role": "意味のまとまり",
+            "ja": "far away across the city＝街の向こうの遠い場所に"
+          },
+          {
+            "en": "garret. He is leaning over a desk covered with papers, ",
+            "role": "意味のまとまり",
+            "ja": "語句：garret＝屋根裏部屋、leaning＝身を乗り出している、covered＝覆われた"
+          },
+          {
+            "en": "and in a tumbler by his side there is a bunch of ",
+            "role": "時・場面の展開",
+            "ja": "語句：tumbler＝コップ、bunch＝一束"
+          },
+          {
+            "en": "withered violets. His hair is brown and crisp, ",
+            "role": "意味のまとまり",
+            "ja": "語句：withered＝しおれた、violets＝スミレ"
+          },
+          {
+            "en": "and his lips are red as a pomegranate, ",
+            "role": "時・場面の展開",
+            "ja": "語句：pomegranate＝ザクロ"
+          },
+          {
+            "en": "and he has large and dreamy eyes. ",
+            "role": "時・場面の展開",
+            "ja": "語句：dreamy＝夢見がちな"
+          },
+          {
+            "en": "He is trying to finish a play ",
+            "role": "主語・叙述",
+            "ja": "trying to finish a play＝戯曲を書き上げようとしている"
+          },
+          {
+            "en": "for the Director of the Theatre, ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "語句：Director＝支配人・監督、Theatre＝劇場"
+          },
+          {
+            "en": "but he is too cold to write any more. ",
+            "role": "時・場面の展開",
+            "ja": "対照や譲歩のつながりに注目"
+          },
+          {
+            "en": "There is no fire in the grate, ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "and hunger has made him faint.”",
+            "role": "時・場面の展開",
+            "ja": "hunger has made him faint＝空腹で衰弱している ／ 語句：hunger＝飢え"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "far away across the city",
+            "ja": "街の向こうの遠い場所に"
+          },
+          {
+            "en": "trying to finish a play",
+            "ja": "戯曲を書き上げようとしている"
+          },
+          {
+            "en": "hunger has made him faint",
+            "ja": "空腹で衰弱している"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "garret",
+            "ja": "屋根裏部屋",
+            "note": "安価で狭い居室"
+          },
+          {
+            "word": "leaning",
+            "ja": "身を乗り出している",
+            "note": "lean over ..."
+          },
+          {
+            "word": "covered",
+            "ja": "覆われた",
+            "note": "be covered with ..."
+          },
+          {
+            "word": "tumbler",
+            "ja": "コップ",
+            "note": "取っ手のないグラス"
+          },
+          {
+            "word": "bunch",
+            "ja": "一束",
+            "note": "a bunch of ..."
+          },
+          {
+            "word": "withered",
+            "ja": "しおれた",
+            "note": "生気を失った植物の形容"
+          },
+          {
+            "word": "violets",
+            "ja": "スミレ",
+            "note": "花の名前"
+          },
+          {
+            "word": "pomegranate",
+            "ja": "ザクロ",
+            "note": "赤い果実"
+          },
+          {
+            "word": "dreamy",
+            "ja": "夢見がちな",
+            "note": "夢想的な表情を表す"
+          },
+          {
+            "word": "Director",
+            "ja": "支配人・監督",
+            "note": "この場面は劇場の責任者"
+          },
+          {
+            "word": "Theatre",
+            "ja": "劇場",
+            "note": "英国式綴り。米国式 theater"
+          },
+          {
+            "word": "hunger",
+            "ja": "飢え",
+            "note": "食べ物がないこと"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 12,
@@ -546,7 +3834,323 @@
         "ja": "屋根裏部屋"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "ツバメは再び一晩残り、別のルビーを届けようかと尋ねる。",
+        "chunks": [
+          {
+            "en": "“I will wait with you one night longer,” said the Swallow, ",
+            "role": "発話と話者",
+            "ja": "one night longer＝もう一晩 ／ 語句：Swallow＝ツバメ"
+          },
+          {
+            "en": "who really had a good heart. “Shall I take him another ruby?”",
+            "role": "前の名詞・内容の修飾",
+            "ja": "Shall I take him another ruby＝別のルビーを運ぼうか ／ 語句：who＝誰・〜する人、ruby＝ルビー"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "one night longer",
+            "ja": "もう一晩"
+          },
+          {
+            "en": "Shall I take him another ruby",
+            "ja": "別のルビーを運ぼうか"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "who",
+            "ja": "誰・〜する人",
+            "note": "疑問詞、または関係代名詞"
+          },
+          {
+            "word": "ruby",
+            "ja": "ルビー",
+            "note": "赤い宝石"
+          }
+        ]
+      },
+      {
+        "summary": "王子は残るサファイアの目を一つ抜いて青年に届けるよう頼む。",
+        "chunks": [
+          {
+            "en": "“Alas! I have no ruby now,” said the Prince; ",
+            "role": "発話と話者",
+            "ja": "語句：ruby＝ルビー、prince＝王子"
+          },
+          {
+            "en": "“my eyes are all that I have left. ",
+            "role": "意味のまとまり",
+            "ja": "all that I have left＝残っているもののすべて"
+          },
+          {
+            "en": "They are made of rare sapphires, ",
+            "role": "主語・叙述",
+            "ja": "語句：sapphires＝サファイア"
+          },
+          {
+            "en": "which were brought out of India a thousand years ago. ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "関係詞・疑問詞の役割を前後の文から確認"
+          },
+          {
+            "en": "Pluck out one of them and take it to him. ",
+            "role": "意味のまとまり",
+            "ja": "Pluck out one of them＝一つを引き抜いて"
+          },
+          {
+            "en": "He will sell it to the jeweller, and buy food and firewood, ",
+            "role": "主語・叙述",
+            "ja": "buy food and firewood＝食べ物と薪を買う ／ 語句：jeweller＝宝石商、firewood＝薪"
+          },
+          {
+            "en": "and finish his play.”",
+            "role": "時・場面の展開",
+            "ja": "会話文。発話者と引用範囲を確認"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "all that I have left",
+            "ja": "残っているもののすべて"
+          },
+          {
+            "en": "Pluck out one of them",
+            "ja": "一つを引き抜いて"
+          },
+          {
+            "en": "buy food and firewood",
+            "ja": "食べ物と薪を買う"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "ruby",
+            "ja": "ルビー",
+            "note": "赤い宝石"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "sapphires",
+            "ja": "サファイア",
+            "note": "宝石 sapphire の複数形"
+          },
+          {
+            "word": "jeweller",
+            "ja": "宝石商",
+            "note": "英国式綴り。米国式 jeweler"
+          },
+          {
+            "word": "firewood",
+            "ja": "薪",
+            "note": "燃料用の木材"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは王子の目を奪うことを拒み、泣き出す。",
+        "chunks": [
+          {
+            "en": "“Dear Prince,” said the Swallow, “I cannot do that”; ",
+            "role": "発話と話者",
+            "ja": "I cannot do that＝そんなことはできない ／ 語句：prince＝王子、Swallow＝ツバメ"
+          },
+          {
+            "en": "and he began to weep.",
+            "role": "時・場面の展開",
+            "ja": "began to weep＝泣き始めた ／ 語句：weep＝泣く"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "I cannot do that",
+            "ja": "そんなことはできない"
+          },
+          {
+            "en": "began to weep",
+            "ja": "泣き始めた"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "weep",
+            "ja": "泣く",
+            "note": "少し文語的な「泣く」"
+          }
+        ]
+      },
+      {
+        "summary": "王子は自分の命令に従うよう言う。",
+        "chunks": [
+          {
+            "en": "“Swallow, Swallow, little Swallow,” said the Prince, “do as I command you.”",
+            "role": "発話と話者",
+            "ja": "do as I command you＝私の命じるとおりにしなさい ／ 語句：Swallow＝ツバメ、prince＝王子、command＝命じる"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "do as I command you",
+            "ja": "私の命じるとおりにしなさい"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "command",
+            "ja": "命じる",
+            "note": "権威をもって指示する"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメがサファイアを青年の部屋へ運び、気づかれないまま置く。",
+        "chunks": [
+          {
+            "en": "So the Swallow plucked out the Prince’s eye, ",
+            "role": "時・場面の展開",
+            "ja": "語句：Swallow＝ツバメ、plucked＝引き抜いた、prince＝王子"
+          },
+          {
+            "en": "and flew away to the student’s garret. ",
+            "role": "時・場面の展開",
+            "ja": "語句：student＝学生、garret＝屋根裏部屋"
+          },
+          {
+            "en": "It was easy enough to get in, ",
+            "role": "意味のまとまり",
+            "ja": "get in＝中へ入る"
+          },
+          {
+            "en": "as there was a hole in the roof. ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "Through this he darted, and came into the room. ",
+            "role": "意味のまとまり",
+            "ja": "語句：darted＝素早く飛び込んだ"
+          },
+          {
+            "en": "The young man had his head buried in his hands, ",
+            "role": "主語・叙述",
+            "ja": "had his head buried in his hands＝頭を両手にうずめていた ／ 語句：buried＝うずめていた"
+          },
+          {
+            "en": "so he did not hear the flutter of the bird’s wings, ",
+            "role": "時・場面の展開",
+            "ja": "語句：flutter＝羽ばたき"
+          },
+          {
+            "en": "and when he looked up he found the beautiful sapphire lying on ",
+            "role": "時・場面の展開",
+            "ja": "found ... lying＝〜が置かれているのを見つけた"
+          },
+          {
+            "en": "the withered violets.",
+            "role": "主語・叙述",
+            "ja": "語句：withered＝しおれた、violets＝スミレ"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "get in",
+            "ja": "中へ入る"
+          },
+          {
+            "en": "had his head buried in his hands",
+            "ja": "頭を両手にうずめていた"
+          },
+          {
+            "en": "found ... lying",
+            "ja": "〜が置かれているのを見つけた"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "plucked",
+            "ja": "引き抜いた",
+            "note": "pluck out で抜き取る"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "student",
+            "ja": "学生",
+            "note": "学んでいる人"
+          },
+          {
+            "word": "garret",
+            "ja": "屋根裏部屋",
+            "note": "安価で狭い居室"
+          },
+          {
+            "word": "darted",
+            "ja": "素早く飛び込んだ",
+            "note": "dart は急に動く"
+          },
+          {
+            "word": "buried",
+            "ja": "うずめていた",
+            "note": "bury one's head in one's hands"
+          },
+          {
+            "word": "flutter",
+            "ja": "羽ばたき",
+            "note": "小刻みに羽が動くこと"
+          },
+          {
+            "word": "withered",
+            "ja": "しおれた",
+            "note": "生気を失った植物の形容"
+          },
+          {
+            "word": "violets",
+            "ja": "スミレ",
+            "note": "花の名前"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 13,
@@ -567,7 +4171,227 @@
         "ja": "ツバメ"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "青年は宝石を支援者からの贈り物だと思い、執筆を再開する。",
+        "chunks": [
+          {
+            "en": "“I am beginning to be appreciated,” he cried; ",
+            "role": "発話と話者",
+            "ja": "beginning to be appreciated＝評価され始めている ／ 語句：appreciated＝評価された"
+          },
+          {
+            "en": "“this is from some great admirer. ",
+            "role": "意味のまとまり",
+            "ja": "some great admirer＝立派な支持者 ／ 語句：admirer＝支持者・称賛者"
+          },
+          {
+            "en": "Now I can finish my play,” and he looked quite happy.",
+            "role": "意味のまとまり",
+            "ja": "会話文。発話者と引用範囲を確認"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "beginning to be appreciated",
+            "ja": "評価され始めている"
+          },
+          {
+            "en": "some great admirer",
+            "ja": "立派な支持者"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "appreciated",
+            "ja": "評価された",
+            "note": "appreciate の受動態"
+          },
+          {
+            "word": "admirer",
+            "ja": "支持者・称賛者",
+            "note": "admire する人"
+          }
+        ]
+      },
+      {
+        "summary": "港のツバメは船乗りたちの仕事を眺めるが、旅立ちの声は無視される。",
+        "chunks": [
+          {
+            "en": "The next day the Swallow flew down to the harbour. ",
+            "role": "主語・叙述",
+            "ja": "語句：Swallow＝ツバメ、harbour＝港"
+          },
+          {
+            "en": "He sat on the mast of a large vessel ",
+            "role": "主語・叙述",
+            "ja": "語句：vessel＝船"
+          },
+          {
+            "en": "and watched the sailors hauling big chests out of the hold with ",
+            "role": "時・場面の展開",
+            "ja": "hauling big chests＝大きな箱を引き上げている ／ out of the hold＝船倉から ／ 語句：sailors＝船乗りたち、hauling＝引っ張り上げている、chests＝大箱・収納箱"
+          },
+          {
+            "en": "ropes. “Heave a-hoy!” they shouted as each chest came up. ",
+            "role": "発話と話者",
+            "ja": "語句：ropes＝ロープ、Heave a-hoy＝よいしょ、引き上げろ"
+          },
+          {
+            "en": "“I am going to Egypt”! ",
+            "role": "主語・叙述",
+            "ja": "語句：Egypt＝エジプト"
+          },
+          {
+            "en": "cried the Swallow, but nobody minded, ",
+            "role": "発話と話者",
+            "ja": "but nobody minded＝しかし誰も気にしなかった ／ 語句：Swallow＝ツバメ、minded＝気にした"
+          },
+          {
+            "en": "and when the moon rose he flew back to the Happy Prince.",
+            "role": "時・場面の展開",
+            "ja": "語句：prince＝王子"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "hauling big chests",
+            "ja": "大きな箱を引き上げている"
+          },
+          {
+            "en": "out of the hold",
+            "ja": "船倉から"
+          },
+          {
+            "en": "but nobody minded",
+            "ja": "しかし誰も気にしなかった"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "harbour",
+            "ja": "港",
+            "note": "英国式綴り。米国式 harbor"
+          },
+          {
+            "word": "vessel",
+            "ja": "船",
+            "note": "ship のやや硬い言い方"
+          },
+          {
+            "word": "sailors",
+            "ja": "船乗りたち",
+            "note": "sailor の複数形"
+          },
+          {
+            "word": "hauling",
+            "ja": "引っ張り上げている",
+            "note": "haul は力を使って引く"
+          },
+          {
+            "word": "chests",
+            "ja": "大箱・収納箱",
+            "note": "ここでは胸ではなく箱"
+          },
+          {
+            "word": "hold",
+            "ja": "船倉",
+            "note": "船内の貨物室"
+          },
+          {
+            "word": "ropes",
+            "ja": "ロープ",
+            "note": "rope の複数形"
+          },
+          {
+            "word": "Heave a-hoy",
+            "ja": "よいしょ、引き上げろ",
+            "note": "船乗りの掛け声"
+          },
+          {
+            "word": "Egypt",
+            "ja": "エジプト",
+            "note": "ツバメの渡りの目的地"
+          },
+          {
+            "word": "minded",
+            "ja": "気にした",
+            "note": "mind の過去形"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは王子に別れを告げに来たと言う。",
+        "chunks": [
+          {
+            "en": "“I am come to bid you good-bye,” he cried.",
+            "role": "発話と話者",
+            "ja": "bid you good-bye＝あなたに別れを告げる ／ I am come＝私は来た（古風な完了表現） ／ 語句：bid＝告げる"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "bid you good-bye",
+            "ja": "あなたに別れを告げる"
+          },
+          {
+            "en": "I am come",
+            "ja": "私は来た（古風な完了表現）"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "bid",
+            "ja": "告げる",
+            "note": "bid farewell/good-bye で別れを告げる"
+          }
+        ]
+      },
+      {
+        "summary": "王子はもう一晩だけ滞在を願う。",
+        "chunks": [
+          {
+            "en": "“Swallow, Swallow, little Swallow,” said the Prince, ",
+            "role": "発話と話者",
+            "ja": "語句：Swallow＝ツバメ、prince＝王子"
+          },
+          {
+            "en": "“will you not stay with me one night longer?”",
+            "role": "意味のまとまり",
+            "ja": "stay with me one night longer＝もう一晩一緒にいて"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "stay with me one night longer",
+            "ja": "もう一晩一緒にいて"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 14,
@@ -602,7 +4426,251 @@
         "ja": "ヤシの木"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "ツバメは冬の到来を恐れつつ、来春には宝石を返すと約束する。",
+        "chunks": [
+          {
+            "en": "“It is winter,” answered the Swallow, ",
+            "role": "発話と話者",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "“and the chill snow will soon be here. ",
+            "role": "時・場面の展開",
+            "ja": "語句：chill＝身にしみる冷たさ"
+          },
+          {
+            "en": "In Egypt the sun is warm on the green palm-trees, ",
+            "role": "意味のまとまり",
+            "ja": "語句：Egypt＝エジプト、palm＝手のひら"
+          },
+          {
+            "en": "and the crocodiles lie in the mud and look lazily about them. ",
+            "role": "時・場面の展開",
+            "ja": "語句：crocodiles＝ワニ、mud＝泥、lazily＝ものうげに・怠惰に"
+          },
+          {
+            "en": "My companions are building a nest in the Temple of Baalbec, ",
+            "role": "意味のまとまり",
+            "ja": "語句：companions＝仲間たち、Baalbec＝バールベック"
+          },
+          {
+            "en": "and the pink and white doves are watching them, ",
+            "role": "時・場面の展開",
+            "ja": "語句：doves＝ハトたち"
+          },
+          {
+            "en": "and cooing to each other. ",
+            "role": "時・場面の展開",
+            "ja": "語句：cooing＝クークーと鳴いている"
+          },
+          {
+            "en": "Dear Prince, I must leave you, but I will never forget you, ",
+            "role": "意味のまとまり",
+            "ja": "対照や譲歩のつながりに注目"
+          },
+          {
+            "en": "and next spring I will bring you back two beautiful jewels in ",
+            "role": "時・場面の展開",
+            "ja": "語句：jewels＝宝石類"
+          },
+          {
+            "en": "place of those you have given away. ",
+            "role": "意味のまとまり",
+            "ja": "given away＝人に譲った"
+          },
+          {
+            "en": "The ruby shall be redder than a red rose, ",
+            "role": "主語・叙述",
+            "ja": "語句：ruby＝ルビー"
+          },
+          {
+            "en": "and the sapphire shall be as blue as the great sea.”",
+            "role": "時・場面の展開",
+            "ja": "as blue as the great sea＝大海のように青い"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "in place of",
+            "ja": "〜の代わりに"
+          },
+          {
+            "en": "given away",
+            "ja": "人に譲った"
+          },
+          {
+            "en": "as blue as the great sea",
+            "ja": "大海のように青い"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "chill",
+            "ja": "身にしみる冷たさ",
+            "note": "chill snow で冷たい雪"
+          },
+          {
+            "word": "Egypt",
+            "ja": "エジプト",
+            "note": "ツバメの渡りの目的地"
+          },
+          {
+            "word": "palm",
+            "ja": "手のひら",
+            "note": "樹木のヤシと同形"
+          },
+          {
+            "word": "crocodiles",
+            "ja": "ワニ",
+            "note": "大型の爬虫類"
+          },
+          {
+            "word": "mud",
+            "ja": "泥",
+            "note": "湿った土"
+          },
+          {
+            "word": "lazily",
+            "ja": "ものうげに・怠惰に",
+            "note": "lazy の副詞"
+          },
+          {
+            "word": "companions",
+            "ja": "仲間たち",
+            "note": "一緒に時間を過ごす人"
+          },
+          {
+            "word": "Baalbec",
+            "ja": "バールベック",
+            "note": "中東の古代神殿都市の名"
+          },
+          {
+            "word": "doves",
+            "ja": "ハトたち",
+            "note": "平和や愛の象徴にもなる"
+          },
+          {
+            "word": "cooing",
+            "ja": "クークーと鳴いている",
+            "note": "ハトの声"
+          },
+          {
+            "word": "jewels",
+            "ja": "宝石類",
+            "note": "jewel の複数形"
+          },
+          {
+            "word": "ruby",
+            "ja": "ルビー",
+            "note": "赤い宝石"
+          }
+        ]
+      },
+      {
+        "summary": "王子は溝にマッチを落とした少女を助けるため、もう一方の目も差し出す。",
+        "chunks": [
+          {
+            "en": "“In the square below,” said the Happy Prince, ",
+            "role": "発話と話者",
+            "ja": "語句：prince＝王子"
+          },
+          {
+            "en": "“there stands a little match-girl. ",
+            "role": "意味のまとまり",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "She has let her matches fall in the gutter, ",
+            "role": "主語・叙述",
+            "ja": "let her matches fall＝マッチを落としてしまった ／ 語句：matches＝マッチ、gutter＝側溝"
+          },
+          {
+            "en": "and they are all spoiled. ",
+            "role": "時・場面の展開",
+            "ja": "語句：spoiled＝だめになった"
+          },
+          {
+            "en": "Her father will beat her ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "if she does not bring home some money, and she is crying. ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "bring home some money＝お金を家に持ち帰る ／ 語句：crying＝泣いている"
+          },
+          {
+            "en": "She has no shoes or stockings, and her little head is bare. ",
+            "role": "主語・叙述",
+            "ja": "語句：stockings＝靴下、bare＝むき出しの"
+          },
+          {
+            "en": "Pluck out my other eye, and give it to her, ",
+            "role": "意味のまとまり",
+            "ja": "Pluck out my other eye＝もう片方の目を抜いて"
+          },
+          {
+            "en": "and her father will not beat her.”",
+            "role": "時・場面の展開",
+            "ja": "会話文。発話者と引用範囲を確認"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "let her matches fall",
+            "ja": "マッチを落としてしまった"
+          },
+          {
+            "en": "bring home some money",
+            "ja": "お金を家に持ち帰る"
+          },
+          {
+            "en": "Pluck out my other eye",
+            "ja": "もう片方の目を抜いて"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "matches",
+            "ja": "マッチ",
+            "note": "火を付ける道具"
+          },
+          {
+            "word": "gutter",
+            "ja": "側溝",
+            "note": "道端の排水溝"
+          },
+          {
+            "word": "spoiled",
+            "ja": "だめになった",
+            "note": "ぬれて使い物にならない"
+          },
+          {
+            "word": "crying",
+            "ja": "泣いている",
+            "note": "cry の進行形・動名詞"
+          },
+          {
+            "word": "stockings",
+            "ja": "靴下",
+            "note": "長めの脚用衣服"
+          },
+          {
+            "word": "bare",
+            "ja": "むき出しの",
+            "note": "覆われていない"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 15,
@@ -629,7 +4697,308 @@
         "ja": "引き抜いた"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "ツバメは王子が完全に盲目になると心配する。",
+        "chunks": [
+          {
+            "en": "“I will stay with you one night longer,” said the Swallow, ",
+            "role": "発話と話者",
+            "ja": "語句：Swallow＝ツバメ"
+          },
+          {
+            "en": "“but I cannot pluck out your eye. ",
+            "role": "時・場面の展開",
+            "ja": "pluck out your eye＝目を引き抜く"
+          },
+          {
+            "en": "You would be quite blind then.”",
+            "role": "意味のまとまり",
+            "ja": "quite blind＝完全に目が見えない ／ 語句：blind＝目が見えない、then＝それから・そのとき"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "pluck out your eye",
+            "ja": "目を引き抜く"
+          },
+          {
+            "en": "quite blind",
+            "ja": "完全に目が見えない"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "blind",
+            "ja": "目が見えない",
+            "note": "blind now で「今は失明している」"
+          },
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          }
+        ]
+      },
+      {
+        "summary": "王子は先ほどと同様、命令を守るよう求める。",
+        "chunks": [
+          {
+            "en": "“Swallow, Swallow, little Swallow,” said the Prince, “do as I command you.”",
+            "role": "発話と話者",
+            "ja": "do as I command you＝私の言うとおりにしなさい ／ 語句：Swallow＝ツバメ、prince＝王子、command＝命じる"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "do as I command you",
+            "ja": "私の言うとおりにしなさい"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "command",
+            "ja": "命じる",
+            "note": "権威をもって指示する"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは二つ目のサファイアを少女に渡し、少女はガラスと思って喜ぶ。",
+        "chunks": [
+          {
+            "en": "So he plucked out the Prince’s other eye, ",
+            "role": "時・場面の展開",
+            "ja": "語句：plucked＝引き抜いた、prince＝王子"
+          },
+          {
+            "en": "and darted down with it. ",
+            "role": "時・場面の展開",
+            "ja": "darted down＝さっと急降下した ／ 語句：darted＝素早く飛び込んだ"
+          },
+          {
+            "en": "He swooped past the match-girl, ",
+            "role": "主語・叙述",
+            "ja": "語句：swooped＝急降下した"
+          },
+          {
+            "en": "and slipped the jewel into the palm of her hand. ",
+            "role": "時・場面の展開",
+            "ja": "slipped the jewel into＝宝石をそっと入れた ／ 語句：slipped＝そっと滑り込ませた、palm＝手のひら"
+          },
+          {
+            "en": "“What a lovely bit of glass,” cried the little girl; ",
+            "role": "発話と話者",
+            "ja": "a lovely bit of glass＝きれいなガラスのかけら ／ 語句：lovely＝すてきな"
+          },
+          {
+            "en": "and she ran home, laughing.",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "darted down",
+            "ja": "さっと急降下した"
+          },
+          {
+            "en": "slipped the jewel into",
+            "ja": "宝石をそっと入れた"
+          },
+          {
+            "en": "a lovely bit of glass",
+            "ja": "きれいなガラスのかけら"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "plucked",
+            "ja": "引き抜いた",
+            "note": "pluck out で抜き取る"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "darted",
+            "ja": "素早く飛び込んだ",
+            "note": "dart は急に動く"
+          },
+          {
+            "word": "swooped",
+            "ja": "急降下した",
+            "note": "鳥が滑り込むように動く"
+          },
+          {
+            "word": "slipped",
+            "ja": "そっと滑り込ませた",
+            "note": "slip into は中に滑り込ませる"
+          },
+          {
+            "word": "palm",
+            "ja": "手のひら",
+            "note": "樹木のヤシと同形"
+          },
+          {
+            "word": "lovely",
+            "ja": "すてきな",
+            "note": "好意的な評価"
+          }
+        ]
+      },
+      {
+        "summary": "盲目になった王子に、ツバメはずっとそばにいると宣言する。",
+        "chunks": [
+          {
+            "en": "Then the Swallow came back to the Prince. ",
+            "role": "時・場面の展開",
+            "ja": "語句：then＝それから・そのとき、Swallow＝ツバメ、prince＝王子"
+          },
+          {
+            "en": "“You are blind now,” he said, ",
+            "role": "発話と話者",
+            "ja": "You are blind now＝あなたは今目が見えない ／ 語句：blind＝目が見えない"
+          },
+          {
+            "en": "“so I will stay with you always.”",
+            "role": "時・場面の展開",
+            "ja": "stay with you always＝いつまでもあなたと一緒にいる ／ 語句：always＝いつも・ずっと"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "You are blind now",
+            "ja": "あなたは今目が見えない"
+          },
+          {
+            "en": "stay with you always",
+            "ja": "いつまでもあなたと一緒にいる"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "blind",
+            "ja": "目が見えない",
+            "note": "blind now で「今は失明している」"
+          },
+          {
+            "word": "always",
+            "ja": "いつも・ずっと",
+            "note": "ここでは永続的な約束にも使う"
+          }
+        ]
+      },
+      {
+        "summary": "王子はそれでもツバメにエジプトへ行けと言う。",
+        "chunks": [
+          {
+            "en": "“No, little Swallow,” said the poor Prince, ",
+            "role": "発話と話者",
+            "ja": "語句：Swallow＝ツバメ、prince＝王子"
+          },
+          {
+            "en": "“you must go away to Egypt.”",
+            "role": "意味のまとまり",
+            "ja": "must go away to Egypt＝エジプトへ行かなければならない ／ 語句：Egypt＝エジプト"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "must go away to Egypt",
+            "ja": "エジプトへ行かなければならない"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "Egypt",
+            "ja": "エジプト",
+            "note": "ツバメの渡りの目的地"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは残ると決め、王子の足元で眠る。",
+        "chunks": [
+          {
+            "en": "“I will stay with you always,” said the Swallow, ",
+            "role": "発話と話者",
+            "ja": "語句：always＝いつも・ずっと、Swallow＝ツバメ"
+          },
+          {
+            "en": "and he slept at the Prince’s feet.",
+            "role": "時・場面の展開",
+            "ja": "slept at the Prince’s feet＝王子の足元で眠った ／ 語句：prince＝王子"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "slept at the Prince’s feet",
+            "ja": "王子の足元で眠った"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "always",
+            "ja": "いつも・ずっと",
+            "note": "ここでは永続的な約束にも使う"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 16,
@@ -647,7 +5016,170 @@
         "ja": "トキ"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "ツバメはナイル川や砂漠で見た不思議な存在の物語を語る。",
+        "chunks": [
+          {
+            "en": "All the next day he sat on the Prince’s shoulder, ",
+            "role": "意味のまとまり",
+            "ja": "語句：shoulder＝肩"
+          },
+          {
+            "en": "and told him stories of what he had seen in strange lands. ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "He told him of the red ibises, ",
+            "role": "主語・叙述",
+            "ja": "語句：ibises＝トキ類"
+          },
+          {
+            "en": "who stand in long rows on the banks of the Nile, ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "語句：banks＝川岸"
+          },
+          {
+            "en": "and catch gold-fish in their beaks; ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "of the Sphinx, who is as old as the world itself, ",
+            "role": "意味のまとまり",
+            "ja": "as old as the world itself＝世界そのものと同じくらい古い ／ 語句：Sphinx＝スフィンクス"
+          },
+          {
+            "en": "and lives in the desert, and knows everything; ",
+            "role": "時・場面の展開",
+            "ja": "語句：desert＝砂漠"
+          },
+          {
+            "en": "of the merchants, who walk slowly by the side of their camels, ",
+            "role": "意味のまとまり",
+            "ja": "語句：merchants＝商人たち、camels＝ラクダ"
+          },
+          {
+            "en": "and carry amber beads in their hands; ",
+            "role": "時・場面の展開",
+            "ja": "語句：amber＝琥珀"
+          },
+          {
+            "en": "of the King of the Mountains of the Moon, ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "who is as black as ebony, and worships a large crystal; ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "語句：worships＝崇拝する、crystal＝水晶"
+          },
+          {
+            "en": "of the great green snake that sleeps in a palm-tree, ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "and has twenty priests to feed it with honey-cakes; ",
+            "role": "時・場面の展開",
+            "ja": "feed it with honey-cakes＝それに蜂蜜菓子を与える"
+          },
+          {
+            "en": "and of the pygmies ",
+            "role": "時・場面の展開",
+            "ja": "語句：pygmies＝小柄な人々"
+          },
+          {
+            "en": "who sail over a big lake on large flat leaves, ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "関係詞・疑問詞の役割を前後の文から確認"
+          },
+          {
+            "en": "and are always at war with the butterflies.",
+            "role": "時・場面の展開",
+            "ja": "at war with＝〜と戦争中である ／ 語句：butterflies＝蝶"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "as old as the world itself",
+            "ja": "世界そのものと同じくらい古い"
+          },
+          {
+            "en": "at war with",
+            "ja": "〜と戦争中である"
+          },
+          {
+            "en": "feed it with honey-cakes",
+            "ja": "それに蜂蜜菓子を与える"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "shoulder",
+            "ja": "肩",
+            "note": "鳥の止まる場所"
+          },
+          {
+            "word": "ibises",
+            "ja": "トキ類",
+            "note": "水辺に暮らす鳥"
+          },
+          {
+            "word": "banks",
+            "ja": "川岸",
+            "note": "金融機関ではない"
+          },
+          {
+            "word": "Sphinx",
+            "ja": "スフィンクス",
+            "note": "古代エジプトの像"
+          },
+          {
+            "word": "desert",
+            "ja": "砂漠",
+            "note": "アクセントで dessert（デザート）と区別"
+          },
+          {
+            "word": "merchants",
+            "ja": "商人たち",
+            "note": "売買を行う人"
+          },
+          {
+            "word": "camels",
+            "ja": "ラクダ",
+            "note": "砂漠で使われる動物"
+          },
+          {
+            "word": "amber",
+            "ja": "琥珀",
+            "note": "樹脂の化石"
+          },
+          {
+            "word": "worships",
+            "ja": "崇拝する",
+            "note": "神聖な存在を拝む"
+          },
+          {
+            "word": "crystal",
+            "ja": "水晶",
+            "note": "透明な鉱物"
+          },
+          {
+            "word": "pygmies",
+            "ja": "小柄な人々",
+            "note": "歴史的表現で、現代は文脈に注意"
+          },
+          {
+            "word": "butterflies",
+            "ja": "蝶",
+            "note": "butterfly の複数形"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 17,
@@ -680,7 +5212,286 @@
         "ja": "悲惨"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "王子は異国の驚異よりも人間の苦しみこそ重大だと語る。",
+        "chunks": [
+          {
+            "en": "“Dear little Swallow,” said the Prince, “you tell me of marvellous things, ",
+            "role": "発話と話者",
+            "ja": "語句：Swallow＝ツバメ、prince＝王子、marvellous＝驚くべき"
+          },
+          {
+            "en": "but more marvellous than anything is the suffering of men ",
+            "role": "時・場面の展開",
+            "ja": "more marvellous than anything＝何にもまして驚くべき ／ 語句：marvellous＝驚くべき、suffering＝苦しみ"
+          },
+          {
+            "en": "and of women. There is no Mystery so great as Misery. ",
+            "role": "時・場面の展開",
+            "ja": "There is no Mystery so great as Misery＝惨めさほど大きな謎はない ／ 語句：Mystery＝謎、Misery＝悲惨・窮乏"
+          },
+          {
+            "en": "Fly over my city, little Swallow, ",
+            "role": "意味のまとまり",
+            "ja": "語句：Swallow＝ツバメ"
+          },
+          {
+            "en": "and tell me what you see there.”",
+            "role": "時・場面の展開",
+            "ja": "会話文。発話者と引用範囲を確認"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "more marvellous than anything",
+            "ja": "何にもまして驚くべき"
+          },
+          {
+            "en": "There is no Mystery so great as Misery",
+            "ja": "惨めさほど大きな謎はない"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "marvellous",
+            "ja": "驚くべき",
+            "note": "英国式綴り。米国式 marvelous"
+          },
+          {
+            "word": "suffering",
+            "ja": "苦しみ",
+            "note": "身体的・社会的な困難"
+          },
+          {
+            "word": "Mystery",
+            "ja": "謎",
+            "note": "ここでは Misery と韻を踏む"
+          },
+          {
+            "word": "Misery",
+            "ja": "悲惨・窮乏",
+            "note": "Mystery「謎」と音を響かせる"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは貧富の格差を目撃し、橋の下で寒さに震える少年たちが追い払われる。",
+        "chunks": [
+          {
+            "en": "So the Swallow flew over the great city, ",
+            "role": "時・場面の展開",
+            "ja": "語句：Swallow＝ツバメ"
+          },
+          {
+            "en": "and saw the rich making merry in their beautiful houses, ",
+            "role": "時・場面の展開",
+            "ja": "the rich making merry＝金持ちが陽気に楽しんでいる"
+          },
+          {
+            "en": "while the beggars were sitting at the gates. ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "while the beggars were sitting＝その一方で物乞いは座っていた ／ 語句：beggars＝物乞いの人々"
+          },
+          {
+            "en": "He flew into dark lanes, ",
+            "role": "主語・叙述",
+            "ja": "語句：lanes＝小道・路地"
+          },
+          {
+            "en": "and saw the white faces of starving children looking out listlessly at ",
+            "role": "時・場面の展開",
+            "ja": "語句：starving＝飢えた、listlessly＝元気なく"
+          },
+          {
+            "en": "the black streets. ",
+            "role": "主語・叙述",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "Under the archway of a bridge two little boys were lying in ",
+            "role": "意味のまとまり",
+            "ja": "語句：archway＝アーチ型の通路"
+          },
+          {
+            "en": "one another’s arms to try and keep themselves warm. ",
+            "role": "意味のまとまり",
+            "ja": "to try and keep themselves warm＝体を温めようとして"
+          },
+          {
+            "en": "“How hungry we are!” they said. ",
+            "role": "発話と話者",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "“You must not lie here,” shouted the Watchman, ",
+            "role": "発話と話者",
+            "ja": "語句：Watchman＝見張り番"
+          },
+          {
+            "en": "and they wandered out into the rain.",
+            "role": "時・場面の展開",
+            "ja": "語句：wandered＝あてもなく歩いた"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "the rich making merry",
+            "ja": "金持ちが陽気に楽しんでいる"
+          },
+          {
+            "en": "while the beggars were sitting",
+            "ja": "その一方で物乞いは座っていた"
+          },
+          {
+            "en": "to try and keep themselves warm",
+            "ja": "体を温めようとして"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "beggars",
+            "ja": "物乞いの人々",
+            "note": "beggar の複数形"
+          },
+          {
+            "word": "lanes",
+            "ja": "小道・路地",
+            "note": "狭い通り"
+          },
+          {
+            "word": "starving",
+            "ja": "飢えた",
+            "note": "starve の進行・形容詞"
+          },
+          {
+            "word": "listlessly",
+            "ja": "元気なく",
+            "note": "活力を失った状態"
+          },
+          {
+            "word": "archway",
+            "ja": "アーチ型の通路",
+            "note": "弓形の構造"
+          },
+          {
+            "word": "Watchman",
+            "ja": "見張り番",
+            "note": "夜警や警備の人物"
+          },
+          {
+            "word": "wandered",
+            "ja": "あてもなく歩いた",
+            "note": "wander の過去形"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは見た光景を王子に報告する。",
+        "chunks": [
+          {
+            "en": "Then he flew back and told the Prince what he had seen.",
+            "role": "時・場面の展開",
+            "ja": "what he had seen＝見てきたことを ／ 語句：then＝それから・そのとき、prince＝王子"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "what he had seen",
+            "ja": "見てきたことを"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          }
+        ]
+      },
+      {
+        "summary": "王子は自分の金箔を剝がし、貧しい人々に配るよう命じる。",
+        "chunks": [
+          {
+            "en": "“I am covered with fine gold,” said the Prince, ",
+            "role": "発話と話者",
+            "ja": "語句：covered＝覆われた、prince＝王子"
+          },
+          {
+            "en": "“you must take it off, leaf by leaf, ",
+            "role": "意味のまとまり",
+            "ja": "leaf by leaf＝金箔を一枚ずつ"
+          },
+          {
+            "en": "and give it to my poor; ",
+            "role": "時・場面の展開",
+            "ja": "give it to my poor＝貧しい人々に与える"
+          },
+          {
+            "en": "the living always think that gold can make them happy.”",
+            "role": "主語・叙述",
+            "ja": "gold can make them happy＝金は人を幸福にできる ／ 語句：living＝生きている人々、always＝いつも・ずっと"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "leaf by leaf",
+            "ja": "金箔を一枚ずつ"
+          },
+          {
+            "en": "give it to my poor",
+            "ja": "貧しい人々に与える"
+          },
+          {
+            "en": "gold can make them happy",
+            "ja": "金は人を幸福にできる"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "covered",
+            "ja": "覆われた",
+            "note": "be covered with ..."
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "living",
+            "ja": "生きている人々",
+            "note": "the living で生者たち"
+          },
+          {
+            "word": "always",
+            "ja": "いつも・ずっと",
+            "note": "ここでは永続的な約束にも使う"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 18,
@@ -709,7 +5520,343 @@
         "ja": "くすんだ"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "金箔を届けた結果、王子は灰色になる一方、子どもたちは元気を取り戻す。",
+        "chunks": [
+          {
+            "en": "Leaf after leaf of the fine gold the Swallow picked off, ",
+            "role": "意味のまとまり",
+            "ja": "Leaf after leaf＝一枚また一枚と ／ 語句：Swallow＝ツバメ、picked＝つまみ取った"
+          },
+          {
+            "en": "till the Happy Prince looked quite dull and grey. ",
+            "role": "意味のまとまり",
+            "ja": "語句：prince＝王子、dull＝くすんだ、grey＝灰色の"
+          },
+          {
+            "en": "Leaf after leaf of the fine gold he brought to the poor, ",
+            "role": "意味のまとまり",
+            "ja": "Leaf after leaf＝一枚また一枚と"
+          },
+          {
+            "en": "and the children’s faces grew rosier, ",
+            "role": "時・場面の展開",
+            "ja": "grew rosier＝頬に赤みが増した ／ 語句：rosier＝血色がよくなった"
+          },
+          {
+            "en": "and they laughed and played games in the street. ",
+            "role": "時・場面の展開",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "“We have bread now!” they cried.",
+            "role": "発話と話者",
+            "ja": "We have bread now＝もうパンがある ／ 語句：bread＝パン"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "Leaf after leaf",
+            "ja": "一枚また一枚と"
+          },
+          {
+            "en": "grew rosier",
+            "ja": "頬に赤みが増した"
+          },
+          {
+            "en": "We have bread now",
+            "ja": "もうパンがある"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "picked",
+            "ja": "つまみ取った",
+            "note": "pick off で取り除く"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "dull",
+            "ja": "くすんだ",
+            "note": "光沢がなくなった"
+          },
+          {
+            "word": "grey",
+            "ja": "灰色の",
+            "note": "英国式綴り。米国式 gray"
+          },
+          {
+            "word": "rosier",
+            "ja": "血色がよくなった",
+            "note": "rosy の比較級"
+          },
+          {
+            "word": "bread",
+            "ja": "パン",
+            "note": "生活を支える食べ物"
+          }
+        ]
+      },
+      {
+        "summary": "厳しい寒波で街が凍り、銀色の氷柱や毛皮姿の人々が描かれる。",
+        "chunks": [
+          {
+            "en": "Then the snow came, and after the snow came the frost. ",
+            "role": "時・場面の展開",
+            "ja": "語句：then＝それから・そのとき、frost＝霜・厳寒"
+          },
+          {
+            "en": "The streets looked as if they were made of silver, ",
+            "role": "主語・叙述",
+            "ja": "as if they were made of silver＝まるで銀でできたように"
+          },
+          {
+            "en": "they were so bright and glistening; ",
+            "role": "主語・叙述",
+            "ja": "語句：glistening＝きらきら光る"
+          },
+          {
+            "en": "long icicles like crystal daggers hung down from the eaves of the ",
+            "role": "意味のまとまり",
+            "ja": "icicles like crystal daggers＝水晶の短剣のような氷柱 ／ hung down from the eaves＝軒先から垂れ下がった ／ 語句：icicles＝氷柱、crystal＝水晶、daggers＝短剣"
+          },
+          {
+            "en": "houses, everybody went about in furs, ",
+            "role": "意味のまとまり",
+            "ja": "語句：furs＝毛皮"
+          },
+          {
+            "en": "and the little boys wore scarlet caps and skated on the ice.",
+            "role": "時・場面の展開",
+            "ja": "語句：scarlet＝鮮やかな赤色の、skated＝スケートをした"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "as if they were made of silver",
+            "ja": "まるで銀でできたように"
+          },
+          {
+            "en": "icicles like crystal daggers",
+            "ja": "水晶の短剣のような氷柱"
+          },
+          {
+            "en": "hung down from the eaves",
+            "ja": "軒先から垂れ下がった"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          },
+          {
+            "word": "frost",
+            "ja": "霜・厳寒",
+            "note": "凍るほどの冷え込み"
+          },
+          {
+            "word": "glistening",
+            "ja": "きらきら光る",
+            "note": "光を反射して輝く"
+          },
+          {
+            "word": "icicles",
+            "ja": "氷柱",
+            "note": "屋根などから垂れる氷"
+          },
+          {
+            "word": "crystal",
+            "ja": "水晶",
+            "note": "透明な鉱物"
+          },
+          {
+            "word": "daggers",
+            "ja": "短剣",
+            "note": "dagger の複数形"
+          },
+          {
+            "word": "eaves",
+            "ja": "軒先",
+            "note": "屋根の端"
+          },
+          {
+            "word": "furs",
+            "ja": "毛皮",
+            "note": "防寒の衣服"
+          },
+          {
+            "word": "scarlet",
+            "ja": "鮮やかな赤色の",
+            "note": "色彩を示す形容詞"
+          },
+          {
+            "word": "skated",
+            "ja": "スケートをした",
+            "note": "skate の過去形"
+          }
+        ]
+      },
+      {
+        "summary": "寒さに弱ったツバメはパンくずを食べ、羽ばたいて温まろうとする。",
+        "chunks": [
+          {
+            "en": "The poor little Swallow grew colder and colder, ",
+            "role": "主語・叙述",
+            "ja": "colder and colder＝ますます寒く ／ 語句：Swallow＝ツバメ、colder＝より寒い"
+          },
+          {
+            "en": "but he would not leave the Prince, he loved him too well. ",
+            "role": "時・場面の展開",
+            "ja": "too well＝あまりにも深く ／ 語句：prince＝王子"
+          },
+          {
+            "en": "He picked up crumbs outside the baker’s door ",
+            "role": "主語・叙述",
+            "ja": "語句：picked＝つまみ取った、crumbs＝パンくず、baker＝パン屋"
+          },
+          {
+            "en": "when the baker was not looking ",
+            "role": "時・場面の展開",
+            "ja": "語句：baker＝パン屋"
+          },
+          {
+            "en": "and tried to keep himself warm by flapping his wings.",
+            "role": "時・場面の展開",
+            "ja": "by flapping his wings＝羽を羽ばたかせて ／ 語句：flapping＝羽ばたかせる"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "colder and colder",
+            "ja": "ますます寒く"
+          },
+          {
+            "en": "too well",
+            "ja": "あまりにも深く"
+          },
+          {
+            "en": "by flapping his wings",
+            "ja": "羽を羽ばたかせて"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "colder",
+            "ja": "より寒い",
+            "note": "cold の比較級"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "picked",
+            "ja": "つまみ取った",
+            "note": "pick off で取り除く"
+          },
+          {
+            "word": "crumbs",
+            "ja": "パンくず",
+            "note": "小さく砕けたかけら"
+          },
+          {
+            "word": "baker",
+            "ja": "パン屋",
+            "note": "パンを焼く職業の人"
+          },
+          {
+            "word": "flapping",
+            "ja": "羽ばたかせる",
+            "note": "翼を上下に動かす"
+          }
+        ]
+      },
+      {
+        "summary": "死期を悟ったツバメは、最後に王子の手に口づけしたいと願う。",
+        "chunks": [
+          {
+            "en": "But at last he knew that he was going to die. ",
+            "role": "時・場面の展開",
+            "ja": "going to die＝死のうとしている"
+          },
+          {
+            "en": "He had just strength to fly up to the Prince’s shoulder once ",
+            "role": "主語・叙述",
+            "ja": "just strength to＝〜するだけの力しかない ／ 語句：strength＝力、prince＝王子、shoulder＝肩"
+          },
+          {
+            "en": "more. “Good-bye, dear Prince!” ",
+            "role": "意味のまとまり",
+            "ja": "語句：prince＝王子"
+          },
+          {
+            "en": "he murmured, “will you let me kiss your hand?”",
+            "role": "主語・叙述",
+            "ja": "kiss your hand＝あなたの手に口づけする ／ 語句：murmured＝ささやいた、kiss＝口づけする"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "going to die",
+            "ja": "死のうとしている"
+          },
+          {
+            "en": "just strength to",
+            "ja": "〜するだけの力しかない"
+          },
+          {
+            "en": "kiss your hand",
+            "ja": "あなたの手に口づけする"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "strength",
+            "ja": "力",
+            "note": "残された体力"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "shoulder",
+            "ja": "肩",
+            "note": "鳥の止まる場所"
+          },
+          {
+            "word": "murmured",
+            "ja": "ささやいた",
+            "note": "低い声で言った"
+          },
+          {
+            "word": "kiss",
+            "ja": "口づけする",
+            "note": "名詞・動詞両用"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 19,
@@ -740,7 +5887,378 @@
         "ja": "鉛製の"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "王子はツバメを愛しているので唇に口づけしてほしいと頼む。",
+        "chunks": [
+          {
+            "en": "“I am glad that you are going to Egypt at last, ",
+            "role": "主語・叙述",
+            "ja": "語句：Egypt＝エジプト"
+          },
+          {
+            "en": "little Swallow,” said the Prince, “you have stayed too long here; ",
+            "role": "発話と話者",
+            "ja": "too long here＝ここにあまりに長く ／ 語句：Swallow＝ツバメ、prince＝王子"
+          },
+          {
+            "en": "but you must kiss me on the lips, for I love you.”",
+            "role": "時・場面の展開",
+            "ja": "on the lips＝唇に ／ for I love you＝なぜならあなたを愛しているから ／ 語句：kiss＝口づけする、lips＝唇"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "too long here",
+            "ja": "ここにあまりに長く"
+          },
+          {
+            "en": "on the lips",
+            "ja": "唇に"
+          },
+          {
+            "en": "for I love you",
+            "ja": "なぜならあなたを愛しているから"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Egypt",
+            "ja": "エジプト",
+            "note": "ツバメの渡りの目的地"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "kiss",
+            "ja": "口づけする",
+            "note": "名詞・動詞両用"
+          },
+          {
+            "word": "lips",
+            "ja": "唇",
+            "note": "lip の複数形"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメの行き先はエジプトではなく死だと明かされる。",
+        "chunks": [
+          {
+            "en": "“It is not to Egypt that I am going,” said the Swallow. ",
+            "role": "発話と話者",
+            "ja": "It is not to Egypt that＝行き先がエジプトではないことを強調 ／ 語句：Egypt＝エジプト、Swallow＝ツバメ"
+          },
+          {
+            "en": "“I am going to the House of Death. ",
+            "role": "主語・叙述",
+            "ja": "House of Death＝死の家 ／ 語句：Death＝死"
+          },
+          {
+            "en": "Death is the brother of Sleep, is he not?”",
+            "role": "意味のまとまり",
+            "ja": "is he not＝そうではないか（付加疑問） ／ 語句：Death＝死、Sleep＝眠り"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "It is not to Egypt that",
+            "ja": "行き先がエジプトではないことを強調"
+          },
+          {
+            "en": "House of Death",
+            "ja": "死の家"
+          },
+          {
+            "en": "is he not",
+            "ja": "そうではないか（付加疑問）"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Egypt",
+            "ja": "エジプト",
+            "note": "ツバメの渡りの目的地"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          },
+          {
+            "word": "Death",
+            "ja": "死",
+            "note": "擬人化されている"
+          },
+          {
+            "word": "Sleep",
+            "ja": "眠り",
+            "note": "Death の兄弟として擬人化"
+          }
+        ]
+      },
+      {
+        "summary": "ツバメは王子に口づけし、足元に落ちて死ぬ。",
+        "chunks": [
+          {
+            "en": "And he kissed the Happy Prince on the lips, ",
+            "role": "時・場面の展開",
+            "ja": "語句：prince＝王子、lips＝唇"
+          },
+          {
+            "en": "and fell down dead at his feet.",
+            "role": "時・場面の展開",
+            "ja": "fell down dead＝落ちてそのまま死んだ ／ at his feet＝その足元で ／ 語句：dead＝死んだ"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "fell down dead",
+            "ja": "落ちてそのまま死んだ"
+          },
+          {
+            "en": "at his feet",
+            "ja": "その足元で"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "lips",
+            "ja": "唇",
+            "note": "lip の複数形"
+          },
+          {
+            "word": "dead",
+            "ja": "死んだ",
+            "note": "die の結果状態"
+          }
+        ]
+      },
+      {
+        "summary": "像の中で鉛の心臓が二つに割れる。語り手は寒さが原因だと言い添える。",
+        "chunks": [
+          {
+            "en": "At that moment a curious crack sounded inside the statue, ",
+            "role": "時・場面の展開",
+            "ja": "語句：curious＝不思議な、crack＝割れる音・亀裂、statue＝像"
+          },
+          {
+            "en": "as if something had broken. ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "as if something had broken＝何かが壊れたかのように"
+          },
+          {
+            "en": "The fact is that the leaden heart had snapped right in two. ",
+            "role": "主語・叙述",
+            "ja": "snapped right in two＝真っ二つに折れた ／ 語句：leaden＝鉛製の、snapped＝ぽきりと折れた"
+          },
+          {
+            "en": "It certainly was a dreadfully hard frost.",
+            "role": "意味のまとまり",
+            "ja": "dreadfully hard frost＝ひどく厳しい霜 ／ 語句：dreadfully＝ひどく、frost＝霜・厳寒"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "as if something had broken",
+            "ja": "何かが壊れたかのように"
+          },
+          {
+            "en": "snapped right in two",
+            "ja": "真っ二つに折れた"
+          },
+          {
+            "en": "dreadfully hard frost",
+            "ja": "ひどく厳しい霜"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "curious",
+            "ja": "不思議な",
+            "note": "話者の驚きを表す"
+          },
+          {
+            "word": "crack",
+            "ja": "割れる音・亀裂",
+            "note": "ひびが入るときの音"
+          },
+          {
+            "word": "statue",
+            "ja": "像",
+            "note": "彫像、人物をかたどった造形物"
+          },
+          {
+            "word": "leaden",
+            "ja": "鉛製の",
+            "note": "lead「鉛」から派生"
+          },
+          {
+            "word": "snapped",
+            "ja": "ぽきりと折れた",
+            "note": "snap は急に折れる"
+          },
+          {
+            "word": "dreadfully",
+            "ja": "ひどく",
+            "note": "強い程度を示す副詞"
+          },
+          {
+            "word": "frost",
+            "ja": "霜・厳寒",
+            "note": "凍るほどの冷え込み"
+          }
+        ]
+      },
+      {
+        "summary": "翌朝、市長が議員と像を見に来て、みすぼらしさを嘆く。",
+        "chunks": [
+          {
+            "en": "Early the next morning the Mayor was walking in the square below ",
+            "role": "時・場面の展開",
+            "ja": "語句：Mayor＝市長"
+          },
+          {
+            "en": "in company with the Town Councillors. ",
+            "role": "意味のまとまり",
+            "ja": "in company with＝〜と一緒に ／ 語句：Councillors＝市議会議員たち"
+          },
+          {
+            "en": "As they passed the column he looked up at the statue: ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "語句：column＝柱、statue＝像"
+          },
+          {
+            "en": "“Dear me! how shabby the Happy Prince looks!” he said.",
+            "role": "発話と話者",
+            "ja": "how shabby＝なんとみすぼらしい ／ 語句：shabby＝みすぼらしい、prince＝王子"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "in company with",
+            "ja": "〜と一緒に"
+          },
+          {
+            "en": "how shabby",
+            "ja": "なんとみすぼらしい"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Mayor",
+            "ja": "市長",
+            "note": "市の行政責任者"
+          },
+          {
+            "word": "Councillors",
+            "ja": "市議会議員たち",
+            "note": "councillor の複数形"
+          },
+          {
+            "word": "column",
+            "ja": "柱",
+            "note": "像などを載せる円柱"
+          },
+          {
+            "word": "statue",
+            "ja": "像",
+            "note": "彫像、人物をかたどった造形物"
+          },
+          {
+            "word": "shabby",
+            "ja": "みすぼらしい",
+            "note": "外観が古びた・貧相な"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          }
+        ]
+      },
+      {
+        "summary": "議員たちは市長の意見をそのまま繰り返して同調する。",
+        "chunks": [
+          {
+            "en": "“How shabby indeed!” ",
+            "role": "意味のまとまり",
+            "ja": "語句：shabby＝みすぼらしい、indeed＝実に・確かに"
+          },
+          {
+            "en": "cried the Town Councillors, who always agreed with the Mayor; ",
+            "role": "発話と話者",
+            "ja": "always agreed with＝いつも〜に同意した ／ 語句：Councillors＝市議会議員たち、who＝誰・〜する人、always＝いつも・ずっと"
+          },
+          {
+            "en": "and they went up to look at it.",
+            "role": "時・場面の展開",
+            "ja": "went up to look at it＝それを見に近づいた"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "always agreed with",
+            "ja": "いつも〜に同意した"
+          },
+          {
+            "en": "went up to look at it",
+            "ja": "それを見に近づいた"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "shabby",
+            "ja": "みすぼらしい",
+            "note": "外観が古びた・貧相な"
+          },
+          {
+            "word": "indeed",
+            "ja": "実に・確かに",
+            "note": "直前の表現を強調"
+          },
+          {
+            "word": "Councillors",
+            "ja": "市議会議員たち",
+            "note": "councillor の複数形"
+          },
+          {
+            "word": "who",
+            "ja": "誰・〜する人",
+            "note": "疑問詞、または関係代名詞"
+          },
+          {
+            "word": "always",
+            "ja": "いつも・ずっと",
+            "note": "ここでは永続的な約束にも使う"
+          },
+          {
+            "word": "agreed",
+            "ja": "同意した",
+            "note": "agree with で賛成する"
+          },
+          {
+            "word": "Mayor",
+            "ja": "市長",
+            "note": "市の行政責任者"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 20,
@@ -771,7 +6289,353 @@
         "ja": "炉"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "市長は宝石も金箔もない像を物乞い同然だと見なす。",
+        "chunks": [
+          {
+            "en": "“The ruby has fallen out of his sword, his eyes are gone, ",
+            "role": "主語・叙述",
+            "ja": "語句：ruby＝ルビー、fallen＝落ちた"
+          },
+          {
+            "en": "and he is golden no longer,” said the Mayor in fact, ",
+            "role": "時・場面の展開",
+            "ja": "no longer＝もはや〜ではない ／ 語句：golden＝金色の、Mayor＝市長"
+          },
+          {
+            "en": "“he is litttle better than a beggar!”",
+            "role": "主語・叙述",
+            "ja": "litttle better than＝〜と大差ない ／ litttle＝原文の誤植（little） ／ 語句：beggar＝物乞い"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "no longer",
+            "ja": "もはや〜ではない"
+          },
+          {
+            "en": "litttle better than",
+            "ja": "〜と大差ない"
+          },
+          {
+            "en": "litttle",
+            "ja": "原文の誤植（little）"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "ruby",
+            "ja": "ルビー",
+            "note": "赤い宝石"
+          },
+          {
+            "word": "fallen",
+            "ja": "落ちた",
+            "note": "fall の過去分詞"
+          },
+          {
+            "word": "golden",
+            "ja": "金色の",
+            "note": "gold から派生した形容詞"
+          },
+          {
+            "word": "Mayor",
+            "ja": "市長",
+            "note": "市の行政責任者"
+          },
+          {
+            "word": "beggar",
+            "ja": "物乞い",
+            "note": "作品内での身分差の比喩"
+          }
+        ]
+      },
+      {
+        "summary": "議員たちが市長の評価を復唱する。",
+        "chunks": [
+          {
+            "en": "“Little better than a beggar,” said the Town Councillors.",
+            "role": "発話と話者",
+            "ja": "Little better than a beggar＝物乞いと大差ない ／ 語句：beggar＝物乞い、Councillors＝市議会議員たち"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "Little better than a beggar",
+            "ja": "物乞いと大差ない"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "beggar",
+            "ja": "物乞い",
+            "note": "作品内での身分差の比喩"
+          },
+          {
+            "word": "Councillors",
+            "ja": "市議会議員たち",
+            "note": "councillor の複数形"
+          }
+        ]
+      },
+      {
+        "summary": "市長は死んだ鳥を見て、鳥がそこで死ぬことを禁じるお触れを提案する。",
+        "chunks": [
+          {
+            "en": "“And here is actually a dead bird at his feet!” ",
+            "role": "時・場面の展開",
+            "ja": "語句：actually＝実際に、dead＝死んだ"
+          },
+          {
+            "en": "continued the Mayor. ",
+            "role": "発話と話者",
+            "ja": "語句：Mayor＝市長"
+          },
+          {
+            "en": "“We must really issue a proclamation ",
+            "role": "主語・叙述",
+            "ja": "issue a proclamation＝布告を出す ／ 語句：proclamation＝布告・お触れ"
+          },
+          {
+            "en": "that birds are not to be allowed to die here.” ",
+            "role": "前の名詞・内容の修飾",
+            "ja": "are not to be allowed to＝〜することを許されない"
+          },
+          {
+            "en": "And the Town Clerk made a note of the suggestion.",
+            "role": "時・場面の展開",
+            "ja": "made a note of＝書き留めた ／ 語句：Clerk＝書記、suggestion＝提案"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "issue a proclamation",
+            "ja": "布告を出す"
+          },
+          {
+            "en": "are not to be allowed to",
+            "ja": "〜することを許されない"
+          },
+          {
+            "en": "made a note of",
+            "ja": "書き留めた"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "actually",
+            "ja": "実際に",
+            "note": "驚き・強調にも使う"
+          },
+          {
+            "word": "dead",
+            "ja": "死んだ",
+            "note": "die の結果状態"
+          },
+          {
+            "word": "Mayor",
+            "ja": "市長",
+            "note": "市の行政責任者"
+          },
+          {
+            "word": "proclamation",
+            "ja": "布告・お触れ",
+            "note": "公式に公表する命令"
+          },
+          {
+            "word": "Clerk",
+            "ja": "書記",
+            "note": "Town Clerk は町の書記官"
+          },
+          {
+            "word": "suggestion",
+            "ja": "提案",
+            "note": "suggest の名詞形"
+          }
+        ]
+      },
+      {
+        "summary": "大学の美術教授は美しくない像は役に立たないと判断する。",
+        "chunks": [
+          {
+            "en": "So they pulled down the statue of the Happy Prince. ",
+            "role": "時・場面の展開",
+            "ja": "pulled down the statue＝像を取り壊した ／ 語句：pulled＝引き倒した、statue＝像、prince＝王子"
+          },
+          {
+            "en": "“As he is no longer beautiful he is no longer useful,” ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "no longer beautiful＝もはや美しくない ／ no longer useful＝もはや役に立たない ／ 語句：useful＝有用な"
+          },
+          {
+            "en": "said the Art Professor at the University.",
+            "role": "発話と話者",
+            "ja": "語句：Professor＝教授"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "pulled down the statue",
+            "ja": "像を取り壊した"
+          },
+          {
+            "en": "no longer beautiful",
+            "ja": "もはや美しくない"
+          },
+          {
+            "en": "no longer useful",
+            "ja": "もはや役に立たない"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "pulled",
+            "ja": "引き倒した",
+            "note": "pull down で取り壊す"
+          },
+          {
+            "word": "statue",
+            "ja": "像",
+            "note": "彫像、人物をかたどった造形物"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "useful",
+            "ja": "有用な",
+            "note": "有用性の尺度として使われる"
+          },
+          {
+            "word": "Professor",
+            "ja": "教授",
+            "note": "大学などの教員"
+          }
+        ]
+      },
+      {
+        "summary": "像は溶かされ、誰を新しい像にするかをめぐって市長が自分を推す。",
+        "chunks": [
+          {
+            "en": "Then they melted the statue in a furnace, ",
+            "role": "時・場面の展開",
+            "ja": "melted the statue＝像を溶かした ／ 語句：then＝それから・そのとき、melted＝溶かした、statue＝像"
+          },
+          {
+            "en": "and the Mayor held a meeting of the Corporation to decide what ",
+            "role": "時・場面の展開",
+            "ja": "語句：Mayor＝市長、Corporation＝自治体組織、decide＝決める"
+          },
+          {
+            "en": "was to be done with the metal. ",
+            "role": "意味のまとまり",
+            "ja": "前後のチャンクにつなげて読む"
+          },
+          {
+            "en": "“We must have another statue, of course,” he said, ",
+            "role": "発話と話者",
+            "ja": "語句：statue＝像"
+          },
+          {
+            "en": "“and it shall be a statue of myself.”",
+            "role": "時・場面の展開",
+            "ja": "a statue of myself＝私自身の像 ／ 語句：statue＝像"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "melted the statue",
+            "ja": "像を溶かした"
+          },
+          {
+            "en": "what was to be done with",
+            "ja": "それをどう処理すべきか"
+          },
+          {
+            "en": "a statue of myself",
+            "ja": "私自身の像"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "then",
+            "ja": "それから・そのとき",
+            "note": "時間のつながりを示す"
+          },
+          {
+            "word": "melted",
+            "ja": "溶かした",
+            "note": "melt の過去形"
+          },
+          {
+            "word": "statue",
+            "ja": "像",
+            "note": "彫像、人物をかたどった造形物"
+          },
+          {
+            "word": "furnace",
+            "ja": "炉",
+            "note": "金属を高温で溶かす設備"
+          },
+          {
+            "word": "Mayor",
+            "ja": "市長",
+            "note": "市の行政責任者"
+          },
+          {
+            "word": "Corporation",
+            "ja": "自治体組織",
+            "note": "市の法人組織・行政機関"
+          },
+          {
+            "word": "decide",
+            "ja": "決める",
+            "note": "what to do with ... と共起"
+          }
+        ]
+      },
+      {
+        "summary": "議員もそれぞれ自分の像がよいと言い、口論が続く。",
+        "chunks": [
+          {
+            "en": "“Of myself,” said each of the Town Councillors, and they quarrelled. ",
+            "role": "発話と話者",
+            "ja": "each of the Town Councillors＝議員の一人ひとり ／ 語句：Councillors＝市議会議員たち、quarrelled＝口論した"
+          },
+          {
+            "en": "When I last heard of them they were quarrelling still.",
+            "role": "時・場面の展開",
+            "ja": "quarrelling still＝まだ口論している"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "each of the Town Councillors",
+            "ja": "議員の一人ひとり"
+          },
+          {
+            "en": "quarrelling still",
+            "ja": "まだ口論している"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "Councillors",
+            "ja": "市議会議員たち",
+            "note": "councillor の複数形"
+          },
+          {
+            "word": "quarrelled",
+            "ja": "口論した",
+            "note": "英国式綴り。米国式 quarreled"
+          }
+        ]
+      }
+    ]
   },
   {
     "day": 21,
@@ -811,6 +6675,222 @@
         "ja": "楽園"
       }
     ],
-    "readingPoint": ""
+    "readingPoint": "",
+    "paragraphDetails": [
+      {
+        "summary": "鉛の心臓だけは炉で溶けず、死んだツバメのそばに捨てられる。",
+        "chunks": [
+          {
+            "en": "“What a strange thing!” ",
+            "role": "意味のまとまり",
+            "ja": "会話文。発話者と引用範囲を確認"
+          },
+          {
+            "en": "said the overseer of the workmen at the foundry. ",
+            "role": "発話と話者",
+            "ja": "語句：overseer＝監督者、foundry＝鋳造工場"
+          },
+          {
+            "en": "“This broken lead heart will not melt in the furnace. ",
+            "role": "意味のまとまり",
+            "ja": "will not melt＝どうしても溶けない ／ 語句：lead＝鉛、furnace＝炉"
+          },
+          {
+            "en": "We must throw it away.” ",
+            "role": "主語・叙述",
+            "ja": "throw it away＝捨てる"
+          },
+          {
+            "en": "So they threw it on a dust-heap ",
+            "role": "時・場面の展開",
+            "ja": "dust-heap＝ごみの山 ／ 語句：dust-heap＝ごみの山"
+          },
+          {
+            "en": "where the dead Swallow was also lying.",
+            "role": "前の名詞・内容の修飾",
+            "ja": "語句：dead＝死んだ、Swallow＝ツバメ"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "will not melt",
+            "ja": "どうしても溶けない"
+          },
+          {
+            "en": "throw it away",
+            "ja": "捨てる"
+          },
+          {
+            "en": "dust-heap",
+            "ja": "ごみの山"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "overseer",
+            "ja": "監督者",
+            "note": "工場・作業者を見守る人"
+          },
+          {
+            "word": "foundry",
+            "ja": "鋳造工場",
+            "note": "溶けた金属を鋳型へ入れる工場"
+          },
+          {
+            "word": "lead",
+            "ja": "鉛",
+            "note": "金属の鉛。動詞 lead と読みが異なる"
+          },
+          {
+            "word": "furnace",
+            "ja": "炉",
+            "note": "金属を高温で溶かす設備"
+          },
+          {
+            "word": "dust-heap",
+            "ja": "ごみの山",
+            "note": "ほこりやごみの堆積"
+          },
+          {
+            "word": "dead",
+            "ja": "死んだ",
+            "note": "die の結果状態"
+          },
+          {
+            "word": "Swallow",
+            "ja": "ツバメ",
+            "note": "鳥の名前。動詞では「飲み込む」"
+          }
+        ]
+      },
+      {
+        "summary": "神は天使に街で最も貴い二つのものを持ってくるよう命じる。",
+        "chunks": [
+          {
+            "en": "“Bring me the two most precious things in the city,” ",
+            "role": "意味のまとまり",
+            "ja": "two most precious things＝最も貴い二つのもの ／ 語句：precious＝貴重な・尊い"
+          },
+          {
+            "en": "said God to one of His Angels; ",
+            "role": "発話と話者",
+            "ja": "語句：Angels＝天使たち"
+          },
+          {
+            "en": "and the Angel brought Him the leaden heart and the dead bird.",
+            "role": "時・場面の展開",
+            "ja": "the leaden heart and the dead bird＝鉛の心臓と死んだ鳥 ／ 語句：angel＝天使、leaden＝鉛製の、dead＝死んだ"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "two most precious things",
+            "ja": "最も貴い二つのもの"
+          },
+          {
+            "en": "the leaden heart and the dead bird",
+            "ja": "鉛の心臓と死んだ鳥"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "precious",
+            "ja": "貴重な・尊い",
+            "note": "金銭的価値だけでない"
+          },
+          {
+            "word": "Angels",
+            "ja": "天使たち",
+            "note": "Angel の複数形"
+          },
+          {
+            "word": "angel",
+            "ja": "天使",
+            "note": "比喩的な容姿の描写"
+          },
+          {
+            "word": "leaden",
+            "ja": "鉛製の",
+            "note": "lead「鉛」から派生"
+          },
+          {
+            "word": "dead",
+            "ja": "死んだ",
+            "note": "die の結果状態"
+          }
+        ]
+      },
+      {
+        "summary": "神はその選択を認め、王子とツバメが楽園で報われると告げる。",
+        "chunks": [
+          {
+            "en": "“You have rightly chosen,” said God, ",
+            "role": "発話と話者",
+            "ja": "rightly chosen＝正しく選んだ ／ 語句：rightly＝正しく・適切に、chosen＝選んだ"
+          },
+          {
+            "en": "“for in my garden of Paradise this little bird shall sing ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "語句：Paradise＝楽園・天国"
+          },
+          {
+            "en": "for evermore, and in my city of gold the Happy Prince shall ",
+            "role": "理由・条件・対照などの接続",
+            "ja": "for evermore＝永遠に ／ 語句：evermore＝永遠に、prince＝王子"
+          },
+          {
+            "en": "praise me.”",
+            "role": "意味のまとまり",
+            "ja": "語句：praise＝称賛する・讃える"
+          }
+        ],
+        "expressions": [
+          {
+            "en": "rightly chosen",
+            "ja": "正しく選んだ"
+          },
+          {
+            "en": "for evermore",
+            "ja": "永遠に"
+          },
+          {
+            "en": "shall praise me",
+            "ja": "私を讃えるだろう"
+          }
+        ],
+        "vocabulary": [
+          {
+            "word": "rightly",
+            "ja": "正しく・適切に",
+            "note": "right の副詞"
+          },
+          {
+            "word": "chosen",
+            "ja": "選んだ",
+            "note": "choose の過去分詞"
+          },
+          {
+            "word": "Paradise",
+            "ja": "楽園・天国",
+            "note": "宗教的な至福の場所"
+          },
+          {
+            "word": "evermore",
+            "ja": "永遠に",
+            "note": "for evermore は古風な表現"
+          },
+          {
+            "word": "prince",
+            "ja": "王子",
+            "note": "作品の像の名前"
+          },
+          {
+            "word": "praise",
+            "ja": "称賛する・讃える",
+            "note": "賞賛や崇敬の言葉を述べる"
+          }
+        ]
+      }
+    ]
   }
 ]
