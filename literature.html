@@ -42,6 +42,8 @@
 
 /* The word list uses wrapping flex rows rather than intrinsic-width grid tracks.
    Long vocabulary and links must never overlap at narrow Android viewport widths. */
+.chunk>div{min-width:0;max-width:100%}
+.chunk-en,.chunk-ja{overflow-wrap:anywhere}
 .chunk-gloss{margin:9px 0 4px;border:1px solid #d6d3d1;background:#fffdf7;padding:9px;min-width:0;max-width:100%}
 .chunk-gloss>summary{cursor:pointer;font-size:12px;color:#254f3c;font-weight:700;line-height:1.6}
 .chunk-words{margin-top:8px;min-width:0}
