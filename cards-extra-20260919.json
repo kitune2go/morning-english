@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 141,
+    "_generatedAt": "2026-10-25T01:56:11+09:00",
+    "sentence": "A manager can frame pressure as guidance, but talk of growth does not erase an employee's lack of real choice.",
+    "phonetic": "ア マネジャー キャン フレイム プレッシャー アズ ガイダンス、バット トーク オヴ グロウス ダズ ノット イレイス アン エンプロイーズ ラック オヴ リアル チョイス。",
+    "japaneseTranslation": "管理者は圧力を指導として見せることができますが、成長について語っても、従業員に実質的な選択肢がないことは消えません。",
+    "theme": "指導や成長の言葉で包まれた圧力",
+    "coreVerb": "frame",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A manager applies pressure.",
+        "translation": "管理者は圧力をかけます。"
+      },
+      "phase2": {
+        "sentence": "A manager can frame pressure as guidance.",
+        "translation": "管理者は圧力を指導として見せることができます。",
+        "addedChunks": "as guidance"
+      },
+      "phase3": {
+        "sentence": "A manager can frame pressure as guidance, but choice may remain limited.",
+        "translation": "管理者は圧力を指導として見せられますが、選択肢は限られたままかもしれません。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Talk of growth does not make limited choice less important.",
+        "translation": "成長について語っても、限られた選択肢の重要性は下がりません。",
+        "comparison": "none"
+      },
+      "phase5": {
+        "sentence": "A manager can frame pressure as guidance,",
+        "translation": "管理者は圧力を指導として見せることができますが、",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A manager can frame",
+          "function": "行動",
+          "translation": "管理者は見せることができます"
+        },
+        {
+          "text": "pressure as guidance,",
+          "function": "対象",
+          "translation": "圧力を指導として、"
+        },
+        {
+          "text": "but talk of growth",
+          "function": "接続",
+          "translation": "しかし成長について語っても、"
+        },
+        {
+          "text": "does not erase",
+          "function": "行動",
+          "translation": "消すことはありません"
+        },
+        {
+          "text": "an employee's lack",
+          "function": "対象",
+          "translation": "従業員に欠けていることを"
+        },
+        {
+          "text": "of real choice.",
+          "function": "内容",
+          "translation": "実質的な選択肢が。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can frame",
+          "explanation": "能力ではなく、そう見せることが可能だという意味です。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "frame A as B",
+          "where": "frame pressure as guidance",
+          "explanation": "AをBという枠組みで提示する表現です。",
+          "rule": "frame + A + as + B"
+        },
+        {
+          "category": "接続詞",
+          "name": "but",
+          "where": "but talk of growth",
+          "explanation": "前半の見せ方と後半の実態を対照させます。",
+          "rule": "節, but + 節"
+        },
+        {
+          "category": "不可算名詞",
+          "name": "talk of",
+          "where": "talk of growth",
+          "explanation": "ここでtalkは「語ること・言説」の意味です。",
+          "rule": "talk of + 名詞"
+        },
+        {
+          "category": "三単現",
+          "name": "does not erase",
+          "where": "talk ... does not erase",
+          "explanation": "主語talkに合わせてdoesを使います。",
+          "rule": "単数主語 + does not + 動詞原形"
+        },
+        {
+          "category": "所有格",
+          "name": "employee's lack",
+          "where": "an employee's lack",
+          "explanation": "誰に選択肢がないのかを明示します。",
+          "rule": "名詞's + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A manager can frames pressure",
+          "correct": "A manager can frame pressure",
+          "why": "助動詞canの後は動詞原形です。"
+        },
+        {
+          "wrong": "frame pressure for guidance",
+          "correct": "frame pressure as guidance",
+          "why": "「AをBとして見せる」はframe A as Bです。"
+        },
+        {
+          "wrong": "talk of growth do not erase",
+          "correct": "talk of growth does not erase",
+          "why": "単数扱いのtalkにはdoesを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Pressure does not become voluntary simply because it is described as support.",
+          "translation": "圧力は支援と表現されただけで、自発的なものにはなりません。"
+        },
+        {
+          "text": "Language about development can hide how little room an employee has to refuse.",
+          "translation": "育成を語る言葉は、従業員に拒否の余地がほとんどないことを隠しえます。"
+        },
+        {
+          "text": "Guidance requires room to question a request, not just positive wording.",
+          "translation": "指導には、前向きな言い回しだけでなく、要求へ疑問を示せる余地が必要です。"
+        }
+      ],
+      "parseTree": "[S [NP A manager] [VP can frame [NP pressure] [PP as guidance]]] [, but] [S [NP talk of growth] [VP does not erase [NP an employee's lack of real choice]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "A manager frames pressure as guidance.",
+          "expanded": "A manager may frame pressure as guidance because supportive language makes a demand sound voluntary.",
+          "nuance": "支援的な言葉が要求を自発的に見せる因果を加えます。"
+        },
+        {
+          "original": "Talk of growth does not erase limited choice.",
+          "expanded": "Even when growth is mentioned, limited choice remains if refusal carries a penalty.",
+          "nuance": "拒否への不利益がある場合を条件として明示します。"
+        },
+        {
+          "original": "The employee lacks real choice.",
+          "expanded": "The employee may lack real choice because the manager controls evaluation, assignments, or promotion.",
+          "nuance": "権限差が選択を狭める可能性を示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Pressure can be framed as guidance without giving the employee a real choice.",
+          "translation": "従業員に実質的な選択肢を与えないまま、圧力を指導として見せることができます。",
+          "note": "管理者を背景化し、表現の操作に焦点を移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Calling the demand guidance, a manager may make pressure sound supportive.",
+          "translation": "要求を指導と呼ぶことで、管理者は圧力を支援的に聞こえさせることがあります。",
+          "note": "呼び方を分詞句に圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The reframing of pressure does not create genuine consent.",
+          "translation": "圧力の言い換えは、真の同意を生みません。",
+          "note": "frameを名詞化して構造を分析します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "frame",
+            "alternatives": [
+              "present",
+              "portray",
+              "cast"
+            ],
+            "nuance": "frameは、同じ事実を特定の見方で提示する含みがあります。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "A as B",
+            "sentence": "The supervisor presented the demand as an opportunity.",
+            "translation": "上司はその要求を機会として提示しました。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Real consent matters more than encouraging language.",
+            "translation": "励ます言葉よりも、実質的な同意の方が重要です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If refusal brings punishment, the request is not fully voluntary.",
+            "translation": "拒否に罰が伴うなら、その要求は完全に自発的ではありません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is whether the employee can safely say no.",
+            "translation": "重要なのは、従業員が安全に断れるかどうかです。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Positive wording cannot create consent.",
+            "translation": "前向きな表現だけでは同意は生まれません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "frame A as Bとbutの対照が自然で、圧力と選択肢の主体も明確。"
+    }
+  }
+]
