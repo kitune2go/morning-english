@@ -36,6 +36,28 @@ main{padding-top:18px}
 .select-row select{flex:1;min-width:180px}
 progress{width:100%;height:12px;accent-color:#317265}
 .progress-meta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-top:6px;font-size:12px;color:var(--muted)}
+
+.chapter-index{margin:13px 0 10px;background:#f8faf7;border:1px solid var(--line);border-radius:9px;padding:10px 12px}
+.chapter-index>summary{cursor:pointer;font-size:13px;font-weight:700;padding:3px 0}
+.chapter-index>summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.chapter-index-hint{font-size:12px;color:var(--muted);margin:7px 0}
+.chapter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:8px;margin:10px 0 4px}
+.chapter-entry{display:flex;align-items:stretch;min-width:0;border:1px solid var(--line);border-radius:7px;background:#fff;overflow:hidden}
+.chapter-entry.current{border-color:#4a8474;box-shadow:0 0 0 1px #4a8474}
+.chapter-entry.read{background:#f0f7f2}
+.chapter-go{min-width:0;flex:1;background:transparent;color:var(--ink);border:0;padding:9px 10px;text-align:left;cursor:pointer;font:inherit}
+.chapter-go:hover{background:#eaf0eb}
+.chapter-go:focus-visible,.chapter-read:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}
+.chapter-go-name{display:block;font-size:12px;font-weight:700;line-height:1.45;overflow-wrap:anywhere}
+.chapter-go-state{display:block;color:var(--muted);font-size:11px;line-height:1.5}
+.chapter-read{width:78px;flex:0 0 78px;background:#fff;border:0;border-left:1px solid var(--line);color:var(--ink);font:700 12px/1.4 inherit;cursor:pointer}
+.chapter-read[aria-pressed=true]{background:#d9eae4;color:#205d4c}
+.chapter-read:hover{background:#e2eee6}
+.day-heading{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.day-read-status{padding:2px 9px;border-radius:99px;border:1px solid var(--line);color:var(--muted);font-size:12px}
+.day-read-status.read{border-color:#73a68c;background:#e2f1e7;color:#23583e}
+@media(max-width:420px){.chapter-grid{grid-template-columns:minmax(0,1fr)}.chapter-read{width:72px;flex-basis:72px}}
+
 .session-label{color:var(--accent);font:700 11px/1.4 ui-monospace,monospace;letter-spacing:.12em}
 .summary{font-size:12px;color:var(--muted);margin-bottom:12px}
 .paragraph{font:normal clamp(18px,2.8vw,21px)/1.88 Georgia,"Times New Roman",serif;letter-spacing:.008em;margin:0 0 8px}
@@ -133,12 +155,17 @@ footer{margin-top:24px;color:var(--muted);font-size:12px;border-top:1px solid va
     <p class="meta" id="bookMeta"></p>
     <p class="muted" id="bookDescription"></p>
     <div class="select-row"><label for="daySelect">読む回</label><select id="daySelect"></select></div>
+    <details id="chapterIndex" class="chapter-index">
+      <summary>チャプター一覧・既読管理 <span id="chapterIndexCount" class="muted"></span></summary>
+      <p class="chapter-index-hint">章を選んで移動できます。右側の「既読にする」を押すと読了を記録し、もう一度押すと解除できます。</p>
+      <div id="chapterList" class="chapter-grid"></div>
+    </details>
     <progress id="progress" max="1" value="0" aria-label="読書進捗"></progress>
     <div class="progress-meta"><span id="progressText">0 / 0 回</span><span id="wordStats"></span></div>
   </section>
   <article class="reader" id="reader" hidden>
     <div class="session-label" id="dayLabel"></div>
-    <h2 id="dayTitle"></h2>
+    <div class="day-heading"><h2 id="dayTitle"></h2><span id="dayReadStatus" class="day-read-status">未読</span></div>
     <p class="summary" id="dayMeta"></p>
     <div class="actions">
       <button class="btn" id="toggleJp" type="button" aria-pressed="false">日本語訳を表示</button>
@@ -217,6 +244,32 @@ function hideStatus(){$("status").classList.add("hidden");}
 function validDay(n){return Number.isInteger(n)&&n>=1&&n<=sessions.length;}
 function getDay(){return sessions[current-1];}
 
+function completedDaySet(state=bookState()){
+  return new Set((Array.isArray(state.completed)?state.completed:[])
+    .map(Number).filter(validDay));
+}
+function toggleChapterRead(day){
+  if(!validDay(day))return;
+  const completed=completedDaySet();
+  if(completed.has(day))completed.delete(day);else completed.add(day);
+  updateState({completed:[...completed].sort((a,b)=>a-b)});
+  render();
+}
+function renderChapterIndex(completed){
+  $("daySelect").innerHTML=sessions.map(d=>'<option value="'+d.day+'">'+(completed.has(d.day)?"✓ ":"○ ")+"Day "+String(d.day).padStart(2,"0")+" — "+safe(d.title)+'</option>').join("");
+  $("daySelect").value=String(current);
+  $("chapterIndexCount").textContent="（"+completed.size+" / "+sessions.length+" 回 既読）";
+  $("chapterList").innerHTML=sessions.map(d=>{
+    const read=completed.has(d.day),active=d.day===current,day=String(d.day).padStart(2,"0");
+    return '<div class="chapter-entry'+(read?" read":"")+(active?" current":"")+'">'+
+      '<button type="button" class="chapter-go" data-go-day="'+d.day+'"'+(active?' aria-current="page"':"")+' aria-label="Day '+day+" "+safe(d.title)+'を読む">'+
+      '<span class="chapter-go-name">'+(read?"✓ ":"○ ")+"Day "+day+" — "+safe(d.title)+'</span>'+
+      '<span class="chapter-go-state">'+(active?"閲覧中 · ":"")+(read?"既読":"未読")+' · '+d.wordCount+'語</span></button>'+
+      '<button type="button" class="chapter-read" data-toggle-chapter="'+d.day+'" aria-pressed="'+read+'" aria-label="Day '+day+(read?"の既読を解除":"を既読にする")+'">'+(read?"✓ 既読":"既読にする")+'</button></div>';
+  }).join("");
+}
+
+
 function askDraftKey(paragraphIndex){
   return book.id+":"+current+":"+paragraphIndex;
 }
@@ -254,25 +307,28 @@ function render(){
   $("controls").hidden=false;
   $("reader").hidden=false;
   $("bookSelect").value=book.id;
-  $("daySelect").value=String(current);
+  const completed=completedDaySet(st);
+  renderChapterIndex(completed);
   $("bookTitle").textContent=book.titleJa?book.title+" — "+book.titleJa:book.title;
   $("bookMeta").textContent=book.author+" ・ "+sessions.length+"回構成";
   $("bookDescription").textContent=book.description||"";
   $("sourceLink").href=book.sourceUrl;
   $("dayLabel").textContent="DAY "+String(current).padStart(2,"0")+" / "+String(sessions.length).padStart(2,"0");
   $("dayTitle").textContent=data.title;
+  $("dayReadStatus").textContent=completed.has(current)?"✓ 既読":"未読";
+  $("dayReadStatus").classList.toggle("read",completed.has(current));
   $("dayMeta").textContent=data.wordCount+" words / "+data.paragraphs.length+" paragraphs / 全チャンク和訳・全単語解説"+(translated?" / 段落対訳あり":"");
   $("toggleJp").disabled=!translated;
   $("toggleJp").setAttribute("aria-pressed",String(showJp&&translated));
   $("toggleJp").textContent=!translated?"この回の和訳は準備中":showJp?"日本語訳を隠す":"日本語訳を表示";
   $("toggleNotes").setAttribute("aria-pressed",String(showNotes));
   $("toggleNotes").textContent=showNotes?"解説を隠す":"解説を表示";
-  const completed=st.completed.filter(x=>validDay(x)).length;
   $("progress").max=sessions.length;
-  $("progress").value=completed;
-  $("progressText").textContent=completed+" / "+sessions.length+" 回 読了";
+  $("progress").value=completed.size;
+  $("progressText").textContent=completed.size+" / "+sessions.length+" 回 既読";
   $("wordStats").textContent=sessions.reduce((sum,x)=>sum+x.wordCount,0)+"語 / 全文";
-  $("completeDay").textContent=st.completed.includes(current)?"✓ 読了済み（解除）":"✓ 読了にする";
+  $("completeDay").textContent=completed.has(current)?"✓ 既読済み（解除）":"✓ この回を既読にする";
+  $("completeDay").setAttribute("aria-pressed",String(completed.has(current)));
   $("prevDay").disabled=current===1;
   $("nextDay").disabled=current===sessions.length;
   const paragraphDetails=Array.isArray(data.paragraphDetails)&&data.paragraphDetails.length===data.paragraphs.length?data.paragraphDetails:null;
@@ -338,7 +394,6 @@ async function loadBook(id){
   const saved=bookState();
   current=validDay(saved.lastDay)?saved.lastDay:1;
   showJp=false;
-  $("daySelect").innerHTML=sessions.map(x=>'<option value="'+x.day+'">Day '+String(x.day).padStart(2,"0")+" — "+safe(x.title)+"</option>").join("");
   $("bookSelect").value=book.id;
   render();
   hideStatus();
@@ -352,6 +407,12 @@ async function init(){
   }catch(e){console.error(e);showStatus("読書データを読み込めませんでした: "+e.message,true);}
 }
 $("daySelect").addEventListener("change",(e)=>changeDay(Number(e.target.value)));
+$("chapterList").addEventListener("click",(event)=>{
+  const toggle=event.target.closest("[data-toggle-chapter]");
+  if(toggle){toggleChapterRead(Number(toggle.dataset.toggleChapter));return;}
+  const target=event.target.closest("[data-go-day]");
+  if(target)changeDay(Number(target.dataset.goDay));
+});
 $("bookSelect").addEventListener("change",async(e)=>{try{await loadBook(e.target.value);}catch(err){showStatus(err.message,true);}});
 $("toggleJp").addEventListener("click",()=>{showJp=!showJp;render();});
 $("toggleNotes").addEventListener("click",()=>{showNotes=!showNotes;render();});
@@ -403,12 +464,7 @@ $("textContent").addEventListener("click",async(e)=>{
 });
 $("prevDay").addEventListener("click",()=>changeDay(current-1));
 $("nextDay").addEventListener("click",()=>changeDay(current+1));
-$("completeDay").addEventListener("click",()=>{
-  const st=bookState(),completed=new Set(st.completed);
-  if(completed.has(current))completed.delete(current);else completed.add(current);
-  updateState({completed:Array.from(completed).sort((a,b)=>a-b)});
-  render();
-});
+$("completeDay").addEventListener("click",()=>toggleChapterRead(current));
 document.addEventListener("visibilitychange",()=>{if(document.hidden)stopSpeech();});
 init();
 </script>
