@@ -55,6 +55,20 @@ progress{width:100%;height:12px;accent-color:#317265}
 .chunk-en{font:600 16px/1.55 Georgia,"Times New Roman",serif;white-space:pre-wrap;overflow-wrap:anywhere}
 .chunk-role{font-size:11px;color:var(--accent);margin:3px 0}
 .chunk-hint{grid-column:1/-1;color:#52645f;font-size:12px;line-height:1.7}
+
+.chunk-hint{font-size:14px;color:#253f39;font-weight:600;padding:8px 10px;border-left:3px solid #6e9989;background:#e8f1eb;border-radius:0 5px 5px 0}
+.chunk-lex{grid-column:1/-1;border:1px solid #e0e8e1;border-radius:6px;background:#fffdf8;margin-top:3px;padding:5px 8px}
+.chunk-lex summary{cursor:pointer;font-size:12px;color:#43675b;font-weight:700}
+.chunk-lex summary:hover{color:#193332}
+.chunk-lex[open] summary{padding-bottom:8px;border-bottom:1px solid #e5e9e5;margin-bottom:6px}
+.gloss-row{display:grid;grid-template-columns:minmax(80px,1fr) minmax(130px,2fr);gap:6px 10px;border-bottom:1px solid #f0eee8;padding:7px 2px;font-size:12px;line-height:1.6}
+.gloss-row:last-child{border-bottom:0}
+.gloss-word{font:600 15px/1.5 Georgia,serif;color:#193332;overflow-wrap:anywhere}
+.gloss-meaning{color:#273e36}
+.gloss-usage{grid-column:2/-1;color:#65746e;font-size:11px;margin-top:-5px}
+.chunk-extra{grid-column:1/-1;color:#627169;font-size:11px;line-height:1.7}
+@media(max-width:440px){.gloss-row{grid-template-columns:minmax(55px,1fr) minmax(120px,2fr);gap:5px}}
+
 .focus-list{list-style:none;margin:8px 0;padding:0}
 .focus-list li{padding:7px 0;border-bottom:1px dashed var(--line);font-size:13px}
 .focus-list li:last-child{border:0}
@@ -203,7 +217,7 @@ function render(){
   $("sourceLink").href=book.sourceUrl;
   $("dayLabel").textContent="DAY "+String(current).padStart(2,"0")+" / "+String(sessions.length).padStart(2,"0");
   $("dayTitle").textContent=data.title;
-  $("dayMeta").textContent=data.wordCount+" words / "+data.paragraphs.length+" paragraphs / 全段落チャンク・語彙解説"+(translated?" / 段落対訳あり":"");
+  $("dayMeta").textContent=data.wordCount+" words / "+data.paragraphs.length+" paragraphs / 全チャンク和訳・全単語解説"+(translated?" / 段落対訳あり":"");
   $("toggleJp").disabled=!translated;
   $("toggleJp").setAttribute("aria-pressed",String(showJp&&translated));
   $("toggleJp").textContent=!translated?"この回の和訳は準備中":showJp?"日本語訳を隠す":"日本語訳を表示";
@@ -223,13 +237,18 @@ function render(){
     let detailsHtml="";
     const detail=paragraphDetails&&paragraphDetails[i];
     if(showNotes&&detail){
-      const chunkHtml=detail.chunks.map((c,j)=>'<li class="chunk-row"><div><div class="session-label">CHUNK '+String(j+1).padStart(2,"0")+' / '+detail.chunks.length+'</div><div class="chunk-en" lang="en">'+safe(c.en)+'</div><div class="chunk-role" lang="ja">'+safe(c.role)+'</div></div><button class="btn tiny" data-read-chunk="'+i+':'+j+'" type="button" aria-label="チャンク'+(j+1)+'を英語で読む">▶</button><div class="chunk-hint" lang="ja">'+safe(c.ja)+'</div></li>').join("");
+      const chunkHtml=detail.chunks.map((c,j)=>{
+        const fullGloss=Array.isArray(c.words)?c.words:[];
+        const glossary=fullGloss.map(w=>'<div class="gloss-row"><span class="gloss-word" lang="en">'+safe(w.word)+'</span><span class="gloss-meaning" lang="ja">'+safe(w.ja)+'</span><span class="gloss-usage" lang="ja">'+safe(w.note)+'</span></div>').join("");
+        const wordPanel='<details class="chunk-lex"><summary>このチャンクの全単語（'+fullGloss.length+'語）の意味と用法</summary><div>'+glossary+'</div></details>';
+        return '<li class="chunk-row"><div><div class="session-label">CHUNK '+String(j+1).padStart(2,"0")+' / '+detail.chunks.length+'</div><div class="chunk-en" lang="en">'+safe(c.en)+'</div><div class="chunk-role" lang="ja">'+safe(c.role)+'</div></div><button class="btn tiny" data-read-chunk="'+i+':'+j+'" type="button" aria-label="チャンク'+(j+1)+'を英語で読む">▶</button><div class="chunk-hint" lang="ja"><strong>日本語訳：</strong>'+safe(c.ja)+'</div>'+wordPanel+(c.hint?'<div class="chunk-extra" lang="ja">構文・読解の補足：'+safe(c.hint)+'</div>':"")+'</li>';
+      }).join("");
       const expressions=(detail.expressions||[]).map(x=>'<li><span class="focus-en" lang="en">'+safe(x.en)+'</span><span class="focus-ja" lang="ja">'+safe(x.ja)+'</span></li>').join("");
       const vocabulary=(detail.vocabulary||[]).map(x=>'<div class="word"><strong lang="en">'+safe(x.word)+'</strong><span lang="ja">'+safe(x.ja)+'</span><span class="vocab-note" lang="ja">'+safe(x.note||"")+'</span></div>').join("");
       detailsHtml='<details class="paragraph-help" open><summary>段落'+(i+1)+'のチャンク・単語解説<span class="counts">'+detail.chunks.length+'チャンク / '+detail.vocabulary.length+'語</span></summary>'+
-        '<p class="help-intro" lang="ja">英文の全語を順番に分割しています。各行の日本語は逐語訳ではなく、語句・構文を読む手掛かりです。</p>'+
+        '<p class="help-intro" lang="ja">各チャンクには対応する日本語訳を収録しました。「このチャンクの全単語」を開くと、冠詞・前置詞なども含め、全単語の意味と用法を原文の順番で確認できます。</p>'+
         '<p class="paragraph-summary" lang="ja">'+safe(detail.summary)+'</p>'+
-        '<h4>全文チャンク分解</h4><ol class="chunks">'+chunkHtml+'</ol>'+
+        '<h4>全文チャンク分解・日本語訳・全単語の解説</h4><ol class="chunks">'+chunkHtml+'</ol>'+
         '<h4>重要表現・構文</h4><ul class="focus-list">'+expressions+'</ul>'+
         '<h4>段落内の単語・熟語</h4><div class="word-list">'+vocabulary+'</div></details>';
     }
