@@ -1,0 +1,155 @@
+[
+  {
+    "id": "DE-20261023-001",
+    "sourceTitle": "人の顔をした設計図",
+    "workId": "daily-essay-20261023",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "原因に顔をつける",
+    "jp": "誰かが怒鳴った、誰かが味方についた、誰かが裏で悪口を言った。そう聞けば、話はたちまち人物の物語になる。顔と名前には輪郭があるから、不満を置く場所として都合がよい。しかし、声の大きさが問題の大きさと一致するとは限らない。仕事が滞る理由を一人の性格に結びつけると、説明は短くなる。短くなった分だけ、仕事の順序や責任の境界は文章から消えていく。",
+    "translationLiteral": "Someone shouted, someone took a side, and someone spoke badly behind another person's back. Once we hear this, the story quickly becomes about people. Faces and names have clear outlines, so they make convenient places to put dissatisfaction. Yet the loudness of a voice does not necessarily match the size of a problem. If we connect the reason work stalls to one person's character, the explanation becomes shorter. As it becomes shorter, the order of work and the boundaries of responsibility disappear from the account.",
+    "translationNatural": "A raised voice, a chosen side, and a whispered complaint can turn an organizational problem into a story about personalities. Faces are easy to recognize, so frustration quickly finds someone to attach itself to. But the loudest person is not necessarily the source of the largest defect. When an explanation shrinks to someone's character, the sequence of tasks and the borders of responsibility fade from sight.",
+    "imageUrl": "",
+    "imageCaption": "図面の上に人物の影が重なり、工程の線が影の下へ消えている。",
+    "imagePrompt": "A technical process diagram obscured by shadows of human silhouettes, contemplative editorial illustration, no words",
+    "chunks": [
+      {
+        "en": "A raised voice, a chosen side, and a whispered complaint can turn an organizational problem into a story about personalities.",
+        "ja": "怒鳴り声、陣営選び、陰口は組織の問題を人物の物語に変えうる。"
+      },
+      {
+        "en": "Faces are easy to recognize, so frustration quickly finds someone to attach itself to.",
+        "ja": "顔は見分けやすいので、不満はすぐに誰かへ貼り付く。"
+      },
+      {
+        "en": "But the loudest person is not necessarily the source of the largest defect.",
+        "ja": "しかし最も声の大きい人が最大の欠陥の原因とは限らない。"
+      },
+      {
+        "en": "When an explanation shrinks to someone's character, the sequence of tasks and the borders of responsibility fade from sight.",
+        "ja": "説明が誰かの性格へ縮むと、工程の順序や責任の境界が見えなくなる。"
+      }
+    ],
+    "grammar": [
+      "can turn A into B は出来事の説明が人物中心へ変換される可能性を表す。",
+      "so は顔が認識しやすいことと不満の帰属の因果を結ぶ。",
+      "not necessarily は一見もっともらしい因果を断定しない表現。",
+      "When は一般的な条件を示し、shrink to は説明を狭める比喩。"
+    ],
+    "translationNote": "直訳では人物列挙と『文章から消える』を保ち、自然訳は organizational problem と borders of responsibility に整理した。『声の大きさ』は loudest person として因果の飛躍への警告を保った。",
+    "readingPoint": "導入。顔の見える人間関係へ原因を押し込むことで、制度の説明が短縮されてしまう。",
+    "keywords": [
+      "personality",
+      "responsibility",
+      "organization",
+      "frustration",
+      "attribution"
+    ]
+  },
+  {
+    "id": "DE-20261023-002",
+    "sourceTitle": "人の顔をした設計図",
+    "workId": "daily-essay-20261023",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "線の引かれていない通路",
+    "jp": "通路に車両と人が同時に入る。指示は複数の場所から届き、どちらを先に処理すべきかは現場の判断に預けられる。そこで事故や遅延が起これば、最後に動いた人へ問いが向かいやすい。けれども、床に引かれていない線や、決められていない優先順位は、注意深い人が一人増えただけでは生まれない。設備と権限の配置そのものが、働く人に選択を強いている。欠陥はしばしば、誰の顔もしていない。",
+    "translationLiteral": "Vehicles and people enter the same passage. Instructions arrive from several places, and the worker on site must decide which to handle first. If an accident or delay happens, the person who acted last is easily questioned. Yet an unmarked line on the floor and an undefined order of priority do not appear merely because another careful person joins. The arrangement of equipment and authority itself forces workers to make choices. Defects often have no face at all.",
+    "translationNatural": "People and vehicles may share a passage whose boundaries have never been marked. Instructions arrive from several directions, leaving the worker to invent a priority that management has not defined. When something goes wrong, attention often falls on the last person who acted. Yet caution cannot paint missing lines or distribute authority on its own. A design defect may have no human face at all.",
+    "imageUrl": "",
+    "imageCaption": "床の白線が途中で途切れ、人と台車が同じ交差点に向かう。",
+    "imagePrompt": "An industrial passage with unfinished safety lines and intersecting routes, editorial line illustration, no text",
+    "chunks": [
+      {
+        "en": "People and vehicles may share a passage whose boundaries have never been marked.",
+        "ja": "人と車両が、境界の示されていない通路を共有することがある。"
+      },
+      {
+        "en": "Instructions arrive from several directions, leaving the worker to invent a priority that management has not defined.",
+        "ja": "指示が複数方面から来て、管理側が定めていない優先順位を現場が作ることになる。"
+      },
+      {
+        "en": "When something goes wrong, attention often falls on the last person who acted.",
+        "ja": "問題が起こると、最後に動いた人へ視線が集まりやすい。"
+      },
+      {
+        "en": "Yet caution cannot paint missing lines or distribute authority on its own.",
+        "ja": "しかし注意深さだけでは、引かれていない線を描いたり権限を配分したりできない。"
+      },
+      {
+        "en": "A design defect may have no human face at all.",
+        "ja": "設計上の欠陥には、そもそも人間の顔がない場合がある。"
+      }
+    ],
+    "grammar": [
+      "whose boundaries have never been marked は関係代名詞 whose と現在完了受動態。",
+      "leaving the worker to ... は結果を補足する分詞構文。",
+      "When something goes wrong は一般条件の時間節。",
+      "cannot ... on its own は個人の努力の限界を表す。"
+    ],
+    "translationNote": "literal は通路・指示・優先順位を逐語的に展開し、natural は現場が管理上の未決定を肩代わりする関係を leaving 構文に圧縮した。design defect で人の性格ではない原因を明確にした。",
+    "readingPoint": "展開。歩車分離と指示系統を例に、問題の単位を個人から設計へ移す。",
+    "keywords": [
+      "passage",
+      "priority",
+      "authority",
+      "design defect",
+      "safety"
+    ]
+  },
+  {
+    "id": "DE-20261023-003",
+    "sourceTitle": "人の顔をした設計図",
+    "workId": "daily-essay-20261023",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "人がいなくなったあとも",
+    "jp": "十年も同じ人の悪口を言えば、いつか問題が解消するような気になるかもしれない。けれど、その人が席を離れても、通路は広くならず、材料は予定より早く届かず、誰が決定するかも自動では明らかにならない。人の交代は、仕組みを変える機会にはなるが、変更そのものではない。必要なのは誰が悪かったかという最終判決よりも、何を変えれば次の人が同じ選択を強いられずに済むかという図面だ。空席の前で、ようやく線を引き直すことができる。",
+    "translationLiteral": "After criticizing the same person for ten years, people may feel as though the problem will eventually disappear. But even if that person leaves, the passage will not widen, materials will not arrive earlier than scheduled, and decision-making authority will not become clear on its own. Replacing a person can create an opportunity to change a system, but it is not the change itself. What is needed is less a final verdict on who was at fault than a drawing of what should change so the next worker need not face the same forced choice. At the empty seat, the lines can finally be redrawn.",
+    "translationNatural": "After years of blaming the same person, a workplace may begin to confuse their departure with a solution. But an empty chair does not widen a passage, speed up supplies, or clarify who has the authority to decide. Replacing a person can open a chance to redesign the work, but it is not redesign itself. A better question is what must change so that the next worker does not inherit the same impossible choice. Only then can the lines be drawn again.",
+    "imageUrl": "",
+    "imageCaption": "誰も座っていない椅子の横で、消えない通路図に新しい線を引く手。",
+    "imagePrompt": "An empty office chair beside an industrial floor plan as a hand redraws routes, literary editorial illustration, no letters",
+    "chunks": [
+      {
+        "en": "After years of blaming the same person, a workplace may begin to confuse their departure with a solution.",
+        "ja": "何年も同じ人を責めるうち、その人が去ることを解決と取り違える職場もある。"
+      },
+      {
+        "en": "But an empty chair does not widen a passage, speed up supplies, or clarify who has the authority to decide.",
+        "ja": "しかし空席は通路を広げず、納入を早めず、決定権の所在を明確にもしない。"
+      },
+      {
+        "en": "Replacing a person can open a chance to redesign the work, but it is not redesign itself.",
+        "ja": "人の交代は仕事を設計し直す機会にはなるが、設計変更そのものではない。"
+      },
+      {
+        "en": "A better question is what must change so that the next worker does not inherit the same impossible choice.",
+        "ja": "次の働き手が同じ無理な選択を受け継がないためには何を変えるべきか、それがよりよい問いだ。"
+      },
+      {
+        "en": "Only then can the lines be drawn again.",
+        "ja": "そのとき初めて線を引き直せる。"
+      }
+    ],
+    "grammar": [
+      "After years of -ing は長い期間の反復を背景に置く。",
+      "confuse A with B はAとBを取り違える。",
+      "does not A, B, or C は否定を三つの作用に掛ける。",
+      "so that + 主語 + 動詞 は目的・結果を示す。",
+      "Only then can ... は副詞句を先頭に出した強調倒置。"
+    ],
+    "translationNote": "literal は材料・通路・権限を明示し、natural は empty chair と impossible choice の対比で論点を締めた。Only then で最後の条件を強調した。",
+    "readingPoint": "結末。責任追及と再発防止を区別し、人物の退場を制度変更と取り違えない視点へ至る。",
+    "keywords": [
+      "redesign",
+      "succession",
+      "blame",
+      "process",
+      "prevention"
+    ]
+  }
+]

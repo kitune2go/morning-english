@@ -1,0 +1,210 @@
+[
+  {
+    "id": "DE-20261024-001",
+    "sourceTitle": "扉は内側を説明しない",
+    "workId": "daily-essay-20261024",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "文は高い場所から始まる",
+    "jp": "昔の物語を原語で開くと、最初の一語が思いがけない場所へ読者を連れていく。街のはるか上にある像を描く一文では、場所の説明が先に現れ、主語はあとから姿を見せる。知っている単語だけを順に置き換えても、その景色はなかなか立ち上がらない。どの語がどの語にかかり、なぜ順序が入れ替わるのか。問いは一つの段落から生まれ、文の骨組みが見えると、ようやく金色の像が遠くの空に立つ。",
+    "translationLiteral": "Opening an old story in its original language, a reader can be carried somewhere unexpected by the first word. In a sentence describing a statue high above the city, the place comes first, and the subject appears later. Simply replacing familiar words in order does not easily bring the scene to life. Which word modifies which, and why has the order changed? These questions arise from one paragraph. Only when the structure becomes visible does the golden statue finally stand against the distant sky.",
+    "translationNatural": "An old story can begin by sending its reader high above a city. The place appears first, while the subject waits until later in the sentence. Translating each familiar word in sequence may still leave the scene invisible. Once the grammatical structure comes into focus, a golden statue seems to rise into the distant sky.",
+    "imageUrl": "",
+    "imageCaption": "英語の一文が街の上に弧を描き、その終わりに金色の像が姿を現す。",
+    "imagePrompt": "A high golden statue above a Victorian city emerging from abstract sentence shapes, editorial watercolor illustration, no readable text",
+    "chunks": [
+      {
+        "en": "An old story can begin by sending its reader high above a city.",
+        "ja": "古い物語は、読者を街のはるか上へ連れていくところから始まることがある。"
+      },
+      {
+        "en": "The place appears first, while the subject waits until later in the sentence.",
+        "ja": "場所が先に示され、主語は文の後方で姿を現す。"
+      },
+      {
+        "en": "Translating each familiar word in sequence may still leave the scene invisible.",
+        "ja": "知っている単語を順に訳しても、景色が見えないままのことがある。"
+      },
+      {
+        "en": "Once the grammatical structure comes into focus, a golden statue seems to rise into the distant sky.",
+        "ja": "文の文法的な構造が見えると、金色の像が遠い空に立ち上がるように感じられる。"
+      }
+    ],
+    "grammar": [
+      "begin by -ing は動作の開始方法を示す。",
+      "while は二つの要素の現れる時点・位置を対照する。",
+      "may still leave A B はAをBの状態のまま残しうる。",
+      "Once S V は条件が成立してからの変化を示す。"
+    ],
+    "translationNote": "literal は語順と修飾関係への質問を明示し、natural は place/subject と grammatical structure に集中させた。読解によって景色が見える比喩は維持した。",
+    "readingPoint": "導入。ワイルド『幸福な王子』の英文の倒置を手掛かりに、理解は単語の置換ではなく構造の把握から始まると描く。",
+    "keywords": [
+      "inversion",
+      "subject",
+      "structure",
+      "translation",
+      "reading"
+    ]
+  },
+  {
+    "id": "DE-20261024-002",
+    "sourceTitle": "扉は内側を説明しない",
+    "workId": "daily-essay-20261024",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "通された入力の行き先",
+    "jp": "通信の入口には認証がある。誰から来た要求なのか、許された操作なのかを調べ、門の向こうへ通す。しかし、そこを通過したデータが内部で安全に扱われるとは限らない。プログラムは入力を読み、変換し、別の処理へ渡す。その途中の小さな誤りが、入口では想定していなかった働きを生むことがある。サーバーを何台に分け、仮想化しても、どの層が何を信頼し、どこへ渡すかという問いは残る。鍵を確かめることと、部屋の構造を知ることは違う。",
+    "translationLiteral": "There is authentication at the entrance to communication. It checks who sent a request and whether the operation is permitted before letting it through. Yet data that passes the gate is not guaranteed to be handled safely inside. Programs read input, transform it, and pass it to other processes. A small error along that path may cause behavior the entrance never anticipated. However many servers or virtual layers are used, the question remains: what does each layer trust, and where does it send the data? Checking the key and knowing the room's structure are different things.",
+    "translationNatural": "Authentication checks who may enter, but it cannot guarantee what happens to data after entry. A program receives input, transforms it, and passes it to another process. An error anywhere along that path can produce behavior the gate was never designed to anticipate. Even across physical and virtual layers, security depends on knowing what each layer trusts. Verifying a key is not the same as understanding the room.",
+    "imageUrl": "",
+    "imageCaption": "一つ目の門を通った光が、複数の機械室と見えない経路へ分岐していく。",
+    "imagePrompt": "A secured gateway leading into layered server rooms with branching abstract data paths, refined editorial illustration, no letters",
+    "chunks": [
+      {
+        "en": "Authentication checks who may enter, but it cannot guarantee what happens to data after entry.",
+        "ja": "認証は誰が入れるかを調べるが、入ったあとのデータ処理までは保証しない。"
+      },
+      {
+        "en": "A program receives input, transforms it, and passes it to another process.",
+        "ja": "プログラムは入力を受け取り、変換し、別の処理へ渡す。"
+      },
+      {
+        "en": "An error anywhere along that path can produce behavior the gate was never designed to anticipate.",
+        "ja": "その経路上の誤りは、入口が予想する設計ではなかった動きを生みうる。"
+      },
+      {
+        "en": "Even across physical and virtual layers, security depends on knowing what each layer trusts.",
+        "ja": "物理層や仮想層をまたいでも、安全は各層が何を信頼するかの把握に依存する。"
+      },
+      {
+        "en": "Verifying a key is not the same as understanding the room.",
+        "ja": "鍵を確かめることは部屋を理解することとは違う。"
+      }
+    ],
+    "grammar": [
+      "who may enter は check の目的語となる間接疑問文。",
+      "but は認証の機能と限界を対比する。",
+      "after entry は入場後という時間範囲を限定する。",
+      "anywhere along that path は経路のどこでも起こりうることを示す。",
+      "depends on -ing は条件の依存関係を表す。",
+      "not the same as は二つの概念の区別を示す。"
+    ],
+    "translationNote": "literal は通信から内部処理までの経路を段階的にたどる。natural は authentication と processing を対置し、最後の『鍵と部屋』の比喩で要点を圧縮した。具体的な脆弱性名や被害は断定していない。",
+    "readingPoint": "展開。認証が通した正規の要求でも、その後のプログラム解釈や層間の信頼境界には別の問題があると気づく。",
+    "keywords": [
+      "authentication",
+      "input",
+      "trust boundary",
+      "virtualization",
+      "security"
+    ]
+  },
+  {
+    "id": "DE-20261024-003",
+    "sourceTitle": "扉は内側を説明しない",
+    "workId": "daily-essay-20261024",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "独立と書かれた額縁",
+    "jp": "歴史の資料にも、扉に似たものがある。国家の名、建国宣言、条約の形式は、その出来事を理解する入口になる。しかし、独立と書かれていることと、政策や軍事を自ら決められることは同じではない。満洲国の成立をめぐる資料を読むときも、宣言した側の言葉、実際に働いた権力、外部の調査や評価を分けて見る必要がある。一つの資料を否定するだけでも、文字通り受け入れるだけでも足りない。額縁の内側で誰が筆を握っていたのかを問う。",
+    "translationLiteral": "Historical documents also have something like an entrance. A state's name, a founding declaration, and the form of a treaty provide a starting point for understanding an event. But having the word independence written down is not the same as being able to decide policy and military affairs independently. When reading documents on the creation of Manchukuo, it is necessary to distinguish the declaring side's words, the power that operated in practice, and outside investigations and judgments. Neither rejecting one document nor accepting it literally is enough. We must ask who held the brush inside the frame.",
+    "translationNatural": "History also offers entrances disguised as official names and documents. A declaration of independence tells us what a state claimed, not automatically who controlled its decisions. To understand Manchukuo, one must compare the founding language with the exercise of power and with external investigations. Neither literal acceptance nor simple dismissal is sufficient. The question is who held the brush inside the frame.",
+    "imageUrl": "",
+    "imageCaption": "独立とだけ書かれた額縁の背後に、幾本もの手が伸びる。",
+    "imagePrompt": "A formal declaration framed on a wall with overlapping shadows of hands behind it, restrained historical editorial illustration, no legible lettering",
+    "chunks": [
+      {
+        "en": "History also offers entrances disguised as official names and documents.",
+        "ja": "歴史にも、公式名称や文書の形をした入口がある。"
+      },
+      {
+        "en": "A declaration of independence tells us what a state claimed, not automatically who controlled its decisions.",
+        "ja": "独立宣言が示すのは国家が何を主張したかであって、決定を誰が支配したかではない。"
+      },
+      {
+        "en": "To understand Manchukuo, one must compare the founding language with the exercise of power and with external investigations.",
+        "ja": "満洲国を理解するには、建国時の言葉、実際の権力行使、外部の調査を照合する必要がある。"
+      },
+      {
+        "en": "Neither literal acceptance nor simple dismissal is sufficient.",
+        "ja": "文字通りの受容でも、単純な否定でも十分ではない。"
+      },
+      {
+        "en": "The question is who held the brush inside the frame.",
+        "ja": "問うべきは額縁の内側で誰が筆を握っていたかだ。"
+      }
+    ],
+    "grammar": [
+      "disguised as は『〜に見せかけた』を表す過去分詞による後置修飾。",
+      "what a state claimed は tell の目的語となる名詞節。",
+      "not automatically は宣言と実態の機械的な同一視を避ける。",
+      "To understand は目的の不定詞。",
+      "Neither A nor B は二つの選択肢をともに否定する。"
+    ],
+    "translationNote": "literal は資料を三層に分けて検討する方法を詳述し、natural は a declaration tells us what a state claimed とまとめた。額縁と筆の比喩によって、名目と決定権の差を保った。",
+    "readingPoint": "転換。構文やプログラムで見た『入口と内部』の差を、建国文書と実効的な支配という歴史資料の読み分けへ広げる。",
+    "keywords": [
+      "declaration",
+      "independence",
+      "Manchukuo",
+      "evidence",
+      "authority"
+    ]
+  },
+  {
+    "id": "DE-20261024-004",
+    "sourceTitle": "扉は内側を説明しない",
+    "workId": "daily-essay-20261024",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "段落の横に残す問い",
+    "jp": "難しい文章を一度で飲み込めないことは、読み手の敗北ではない。分からなかった段落の横に問いを置き、読みかけの場所に印を残せば、次の日の自分は同じ入口から入り直せる。文法を尋ねるためのリンクも、ただ答えを受け取る装置ではなく、疑問を特定するための小さな道具になる。語順、処理経路、国家の名目。それぞれの入口は、内部の構造を説明してはくれない。けれど、どこで立ち止まったかを覚えておけば、その扉は翌日も開ける。",
+    "translationLiteral": "Not understanding a difficult passage on the first reading is not a reader's defeat. If we leave a question beside the unclear paragraph and mark the place where we stopped, tomorrow's self can enter from the same point. A link for asking about grammar is not merely a device for receiving an answer; it is a small tool for identifying a question. Word order, processing paths, and a state's formal title: none of these entrances explains the structure behind it. But if we remember where we paused, we can open the door again tomorrow.",
+    "translationNatural": "A difficult paragraph does not become a failure simply because it cannot be understood at once. A question beside the text and a bookmark at the stopping point give tomorrow's reader a place to return. A link to ask about grammar can help identify the difficulty instead of merely supplying an answer. Word order, processing paths, and official titles are all entrances rather than complete explanations. If we remember where we stopped, the door will still be there tomorrow.",
+    "imageUrl": "",
+    "imageCaption": "開かれた本の余白に小さな疑問符としおりがあり、窓の外は翌朝へ明るくなっていく。",
+    "imagePrompt": "An open old book with a simple bookmark and small handwritten question mark in the margin, morning window light, editorial watercolor illustration, no readable passage",
+    "chunks": [
+      {
+        "en": "A difficult paragraph does not become a failure simply because it cannot be understood at once.",
+        "ja": "難しい段落は、一度で理解できないからといって失敗にはならない。"
+      },
+      {
+        "en": "A question beside the text and a bookmark at the stopping point give tomorrow's reader a place to return.",
+        "ja": "本文の横の質問と読みかけ地点の印は、翌日の読者に戻る場所を与える。"
+      },
+      {
+        "en": "A link to ask about grammar can help identify the difficulty instead of merely supplying an answer.",
+        "ja": "文法を質問するリンクは、答えを渡すだけでなく難点の特定に役立つ。"
+      },
+      {
+        "en": "Word order, processing paths, and official titles are all entrances rather than complete explanations.",
+        "ja": "語順、処理経路、公式名称はどれも完全な説明ではなく入口だ。"
+      },
+      {
+        "en": "If we remember where we stopped, the door will still be there tomorrow.",
+        "ja": "どこで止まったか覚えていれば、扉は翌日もそこにある。"
+      }
+    ],
+    "grammar": [
+      "simply because は『ただ〜という理由だけで』。",
+      "A and B give C D は複合主語と二重目的語の形。",
+      "instead of -ing は代替される動作を示す。",
+      "rather than は『〜ではなく』という対比。",
+      "If S V, S will V は現実的な条件節。"
+    ],
+    "translationNote": "literal は読書ページの段落質問と再開地点の具体性を保ち、natural は question と bookmark を一対にして簡潔にした。最後の door は作品全体の入口の比喩を回収する。",
+    "readingPoint": "余韻。構文・セキュリティ・歴史の複数の入口を経たあと、質問リンクと段落しおりという具体的な読書行為へ戻る。",
+    "keywords": [
+      "bookmark",
+      "paragraph",
+      "question",
+      "reading",
+      "continuity"
+    ]
+  }
+]

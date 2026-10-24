@@ -165,5 +165,19 @@
     "description": "部署ごとに異なる指標、監視下でだけ効く叱責型統制、敵意の宛先を作るカテゴリー化を通して、測定や分類が現実を映すだけでなく行動と関係を作り替える過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260918/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261023",
+    "title": "人の顔をした設計図",
+    "description": "叱責、陣営、噂話に吸い寄せられる職場の説明から、通路・権限・工程といった構造の問題を取り出す日次エッセイ。",
+    "manifest": "literature/daily-essay-20261023/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261024",
+    "title": "扉は内側を説明しない",
+    "description": "英語原書の語順、サーバーの認証と実行、国家の名目と実態、読書のしおりと質問を通して、入口から内部の構造を読み解く日次エッセイ。",
+    "manifest": "literature/daily-essay-20261024/manifest.json",
+    "mode": "essay-translation"
   }
 ]
