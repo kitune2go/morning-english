@@ -326,7 +326,7 @@ if(fs.existsSync(contextPath)){
     chunkList.forEach((chunk,i)=>{
       if(!chunk)return;
       const source=card.chunks[i]?.en||"";
-      const tokens=new Set((source.match(/[\\p{L}]+(?:['’\\-][\\p{L}]+)*/gu)||[]).map(t=>t.toLowerCase().replace(/’/g,"'")));
+      const tokens=new Set((source.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[]).map(t=>t.toLowerCase().replace(/’/g,"'")));
       for(const [word,definition] of Object.entries(chunk.words||{})){
         check(tokens.has(word),"contextual word exists in its chunk: "+id+"/"+i+"/"+word);
         check(typeof definition.ja==="string"&&definition.ja.trim().length>0,"contextual Japanese meaning: "+id+"/"+i+"/"+word);
