@@ -1,0 +1,173 @@
+[
+  {
+    "id": "DE-20260922-001",
+    "sourceTitle": "意味は出来事のあとに住み着く",
+    "workId": "daily-essay-20260922",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "像は目的を保存しない",
+    "jp": "大きな観音像は、建てられた年と材料を長く保つ。しかし、なぜそこに立つのかという答えまで同じ形で保存するわけではない。建立時の祈り、観光の目印、地域の記憶、奇妙に見える巨大建築。時代が変わるたび、同じ像へ別の説明が寄せられる。技術は像を倒れにくくできても、目的を固定することはできない。祭りが意味を持って始まるのではなく、反復されるうちに意味を与えるなら、像もまた立ち続けることで解釈を呼び込む。",
+    "translationLiteral": "A large statue of Kannon preserves its year of construction and its materials for a long time. But it does not preserve the answer to why it stands there in the same form. The original prayer, a tourist landmark, local memory, or a strangely seen giant structure: as eras change, different explanations gather around the same statue. Technology can keep it from falling, but cannot fix its purpose. If a festival does not begin by possessing meaning but gives meaning through repetition, a statue also invites interpretation by continuing to stand.",
+    "translationNatural": "A monument can preserve its materials and date without preserving a single purpose. Prayer, tourism, memory, and strangeness gather around the same structure as time passes. Engineering may keep a statue standing, but it cannot freeze its meaning. Like a festival repeated before its explanation is settled, the monument acquires new purposes simply by remaining in place.",
+    "imageUrl": "",
+    "imageCaption": "同じ石像の周囲を、祈り、観光、記憶を示す異なる影が時代ごとに巡る。",
+    "imagePrompt": "A timeless monumental statue surrounded by changing shadows of prayer, tourism, and memory across eras, contemplative editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "A monument can preserve its materials and date without preserving a single purpose.",
+        "ja": "記念物は材料と年代を保存できても、一つの目的まで保存するとは限らない。"
+      },
+      {
+        "en": "Prayer, tourism, memory, and strangeness gather around the same structure as time passes.",
+        "ja": "祈り、観光、記憶、奇妙さが、時間とともに同じ構造物の周囲へ集まる。"
+      },
+      {
+        "en": "Engineering may keep a statue standing, but it cannot freeze its meaning.",
+        "ja": "工学は像を立たせ続けられても、意味を凍結できない。"
+      },
+      {
+        "en": "Like a festival repeated before its explanation is settled,",
+        "ja": "説明が定まる前から反復される祭りのように、"
+      },
+      {
+        "en": "the monument acquires new purposes simply by remaining in place.",
+        "ja": "記念物はそこに残り続けるだけで新しい目的を得る。"
+      }
+    ],
+    "grammar": [
+      "without -ing は材料保存と目的保存の非同一性を示す。",
+      "as time passes は時間変化に伴う解釈の増加を表す。",
+      "may A, but cannot B は物理的維持と意味固定を対照する。",
+      "Like A は祭りと記念物を比較する。",
+      "before は説明確定より反復が先行することを示す。",
+      "by -ing は目的獲得の仕方を表す。"
+    ],
+    "translationNote": "literal は観音像と祭りの議論を明示的につないだ。natural は monument と engineering を用いて固有名詞を一般化し、物理的な保存と意味の変化を対照した。",
+    "readingPoint": "導入。古い巨大像の耐久性への驚きから、残る物体と変わる目的を分ける。意味は建立時に封印されず、反復の中で後から住み着く。",
+    "keywords": [
+      "monument",
+      "purpose",
+      "repetition",
+      "festival",
+      "interpretation",
+      "engineering"
+    ]
+  },
+  {
+    "id": "DE-20260922-002",
+    "sourceTitle": "意味は出来事のあとに住み着く",
+    "workId": "daily-essay-20260922",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "群衆は正しさの証明ではない",
+    "jp": "街路を埋める人の数は、社会に不満や切迫があることを示す。しかし、群衆が存在することと、その主張が正しいこと、政治を実際に動かせることは別である。戦前の抗議も、現代の退陣要求も、海外都市の大規模デモも、起きたという事実だけでは結果を保証しない。人数を見て結論へ急ぐと、誰が決定権を持ち、要求がどの経路を通り、どこで止められたかが消える。声量は現象の大きさであって、因果の完成ではない。",
+    "translationLiteral": "The number of people filling a street shows that dissatisfaction or urgency exists in society. But the existence of a crowd, the correctness of its claims, and its ability to move politics are different things. Prewar protests, modern demands for resignation, and large demonstrations in overseas cities do not guarantee an outcome merely because they happened. If we hurry from head counts to conclusions, we lose sight of who held decision-making power, which route the demand traveled, and where it was stopped. Volume is the size of a phenomenon, not a completed causal chain.",
+    "translationNatural": "A crowd in the street proves that dissatisfaction exists, but not that every claim is correct. Nor does visibility guarantee political effect. When numbers become the conclusion, decision-making power and institutional routes disappear from view. A demonstration is an event that demands interpretation, not a completed explanation of what caused change.",
+    "imageUrl": "",
+    "imageCaption": "大きな群衆の影の先で、細い要求経路が複数の閉じた扉へ分かれている。",
+    "imagePrompt": "A large street crowd casting a shadow toward narrow institutional paths and closed doors, analytical editorial illustration, no signs or text",
+    "chunks": [
+      {
+        "en": "A crowd in the street proves that dissatisfaction exists, but not that every claim is correct.",
+        "ja": "街路の群衆は不満の存在を示すが、すべての主張の正しさまでは証明しない。"
+      },
+      {
+        "en": "Nor does visibility guarantee political effect.",
+        "ja": "可視性が政治的効果を保証するわけでもない。"
+      },
+      {
+        "en": "When numbers become the conclusion, decision-making power and institutional routes disappear from view.",
+        "ja": "人数が結論になると、決定権と制度的経路が見えなくなる。"
+      },
+      {
+        "en": "A demonstration is an event that demands interpretation,",
+        "ja": "デモは解釈を必要とする出来事であり、"
+      },
+      {
+        "en": "not a completed explanation of what caused change.",
+        "ja": "何が変化を起こしたかについての完成した説明ではない。"
+      }
+    ],
+    "grammar": [
+      "prove that は群衆が証明できる範囲を示す。",
+      "but not that は証明範囲の限界を対照する。",
+      "Nor does ... は否定を追加する倒置。",
+      "When S V は人数が結論化される条件を示す。",
+      "disappear from view は不可視化を表す。",
+      "that demands interpretation は event を修飾する関係詞節。",
+      "not A はデモを完成した因果説明と同一視しない。"
+    ],
+    "translationNote": "literal は戦前・現代・海外の例と、要求が通る経路まで詳しく残した。natural は固有の政治状況を一般化し、crowd、visibility、political effect の三段階を分けた。",
+    "readingPoint": "展開。出来事が目立つほど、その存在を正しさや効果と混同しやすい。像に付く後世の説明と同じく、群衆にも因果の物語が後から貼られる。",
+    "keywords": [
+      "demonstration",
+      "crowd",
+      "visibility",
+      "causality",
+      "power",
+      "interpretation"
+    ]
+  },
+  {
+    "id": "DE-20260922-003",
+    "sourceTitle": "意味は出来事のあとに住み着く",
+    "workId": "daily-essay-20260922",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "告白を罰に変えない",
+    "jp": "意味が後から作られるなら、報告を受け取る制度は、その意味の行き先を設計できる。危険や失敗を話した人がすぐ処罰される場所では、次の人は沈黙を学ぶ。告解が秘密と赦しによって語る入口を守ったように、安全報告も非懲罰と秘密保持によって事実を組織の学習へ運べる。ただし、赦しは責任の消去ではない。個人を吊るす結論へ急がず、設備、手順、権限へ原因を戻す。そのとき告白は弱さの記録ではなく、次の事故を減らす資料になる。",
+    "translationLiteral": "If meaning is created afterward, a system receiving a report can design where that meaning goes. In a place where the person who speaks about danger or failure is punished immediately, the next person learns silence. Just as confession protected the entrance to speech through secrecy and forgiveness, safety reporting can carry facts into organizational learning through non-punishment and confidentiality. Forgiveness, however, is not the erasure of responsibility. Instead of rushing to the conclusion of hanging an individual, the system returns causes to equipment, procedures, and authority. Then confession becomes not a record of weakness but material for reducing the next accident.",
+    "translationNatural": "A reporting system shapes what a disclosed failure will mean. If speaking leads immediately to punishment, the next person learns silence. Confidentiality and non-punitive reporting can carry facts toward organizational learning. This does not erase responsibility; it moves inquiry from a single person back to equipment, procedure, and authority. A confession can then become material for preventing the next accident.",
+    "imageUrl": "",
+    "imageCaption": "暗い告白の箱から出た小さな光が、処罰台ではなく設備図と手順書へ向かう。",
+    "imagePrompt": "A small light emerging from a confidential report box and moving toward equipment diagrams and procedures instead of a punishment platform, sober editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "A reporting system shapes what a disclosed failure will mean.",
+        "ja": "報告制度は、開示された失敗がどんな意味を持つかを形作る。"
+      },
+      {
+        "en": "If speaking leads immediately to punishment, the next person learns silence.",
+        "ja": "話すことがすぐ処罰につながれば、次の人は沈黙を学ぶ。"
+      },
+      {
+        "en": "Confidentiality and non-punitive reporting can carry facts toward organizational learning.",
+        "ja": "秘密保持と非懲罰的な報告は、事実を組織学習へ運びうる。"
+      },
+      {
+        "en": "This does not erase responsibility;",
+        "ja": "これは責任を消すことではなく、"
+      },
+      {
+        "en": "it moves inquiry from a single person back to equipment, procedure, and authority.",
+        "ja": "調査を一人の人物から設備、手順、権限へ戻す。"
+      },
+      {
+        "en": "A confession can then become material for preventing the next accident.",
+        "ja": "そのとき告白は次の事故を防ぐ資料になりうる。"
+      }
+    ],
+    "grammar": [
+      "what ... will mean は shapes の目的語となる名詞節。",
+      "If S V, S V は処罰と沈黙学習の条件関係を示す。",
+      "can carry A toward B は事実を学習へ運ぶ可能性を表す。",
+      "does not erase は非懲罰と免責を区別する。",
+      "move A from B back to C は調査対象の移動を表す。",
+      "can then become は制度条件が整った後の変化を示す。",
+      "for preventing は資料の目的を示す。"
+    ],
+    "translationNote": "literal は告解の秘密・赦しと安全報告の非懲罰性を対応させた。natural は宗教的断定を避け、reporting system が意味の行き先を設計するという制度論へ整理した。",
+    "readingPoint": "転換と余韻。意味が後から付くことを受動的な変化で終わらせず、報告を処罰ではなく学習へ接続する設計可能性へ変える。",
+    "keywords": [
+      "reporting",
+      "confidentiality",
+      "non-punitive",
+      "learning",
+      "responsibility",
+      "safety"
+    ]
+  }
+]
