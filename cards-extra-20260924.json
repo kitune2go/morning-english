@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 144,
+    "_generatedAt": "2026-10-26T02:00:13+09:00",
+    "sentence": "AI can reproduce a result without inheriting the effort behind it, so effort alone can no longer serve as reliable evidence of value.",
+    "phonetic": "エーアイ キャン リープロデュース ア リザルト ウィズアウト インヘリティング ジ エフォート ビハインド イット、ソー エフォート アローン キャン ノー ロンガー サーヴ アズ リライアブル エヴィデンス オヴ ヴァリュー。",
+    "japaneseTranslation": "AIは、その結果の背後にある努力を引き継がずに結果を再現できます。そのため、努力だけでは価値の確かな証拠として、もはや機能できません。",
+    "theme": "AIが努力と価値の結び付きを弱める仕組み",
+    "coreVerb": "reproduce",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "AI reproduces a result.",
+        "translation": "AIは結果を再現します。"
+      },
+      "phase2": {
+        "sentence": "AI can reproduce a result without the original effort.",
+        "translation": "AIは元の努力なしに結果を再現できます。",
+        "addedChunks": "without the original effort"
+      },
+      "phase3": {
+        "sentence": "AI can reproduce a result without inheriting the effort behind it.",
+        "translation": "AIは、その結果の背後にある努力を引き継がずに結果を再現できます。",
+        "connector": "without"
+      },
+      "phase4": {
+        "sentence": "Effort is less reliable than output as evidence of what a system can produce.",
+        "translation": "仕組みが何を生み出せるかの証拠として、努力は出力より確かではありません。",
+        "comparison": "less ... than"
+      },
+      "phase5": {
+        "sentence": "AI can reproduce a result without inheriting the effort behind it,",
+        "translation": "AIは、その結果の背後にある努力を引き継がずに結果を再現できます。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "AI can reproduce",
+          "function": "行動",
+          "translation": "AIは再現できます"
+        },
+        {
+          "text": "a result",
+          "function": "対象",
+          "translation": "結果を"
+        },
+        {
+          "text": "without inheriting",
+          "function": "様態",
+          "translation": "引き継がずに"
+        },
+        {
+          "text": "the effort behind it,",
+          "function": "修飾",
+          "translation": "その結果の背後にある努力を、"
+        },
+        {
+          "text": "so effort alone can no longer serve",
+          "function": "結果",
+          "translation": "そのため努力だけでは、もはや機能できません"
+        },
+        {
+          "text": "as reliable evidence of value.",
+          "function": "内容",
+          "translation": "価値の確かな証拠として。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can reproduce",
+          "explanation": "AIに可能な動作を表します。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "reproduce",
+          "where": "reproduce a result",
+          "explanation": "結果を再現するという他動詞用法です。",
+          "rule": "reproduce + 名詞"
+        },
+        {
+          "category": "前置詞",
+          "name": "without",
+          "where": "without inheriting",
+          "explanation": "「〜せずに」を動名詞で表します。",
+          "rule": "without + -ing"
+        },
+        {
+          "category": "前置詞句",
+          "name": "behind it",
+          "where": "the effort behind it",
+          "explanation": "itはresultを指し、その背後の努力を修飾します。",
+          "rule": "名詞 + behind + 代名詞"
+        },
+        {
+          "category": "接続詞",
+          "name": "so",
+          "where": "so effort alone...",
+          "explanation": "前半から導かれる結果を示します。",
+          "rule": "節, so + 節"
+        },
+        {
+          "category": "副詞句",
+          "name": "no longer",
+          "where": "can no longer serve",
+          "explanation": "以前の役割が続かないことを示します。",
+          "rule": "助動詞 + no longer + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "serve as",
+          "where": "serve as reliable evidence",
+          "explanation": "「〜として機能する」を表します。",
+          "rule": "serve as + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "AI can reproduces a result",
+          "correct": "AI can reproduce a result",
+          "why": "助動詞canの後は動詞原形です。"
+        },
+        {
+          "wrong": "without inherit the effort",
+          "correct": "without inheriting the effort",
+          "why": "前置詞withoutの後は動名詞です。"
+        },
+        {
+          "wrong": "effort can no longer serves as evidence",
+          "correct": "effort can no longer serve as evidence",
+          "why": "助動詞canの後はserveの原形です。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A machine can match an output without repeating the human history that produced it.",
+          "translation": "機械は、その出力を生んだ人間の履歴を繰り返さずに、出力を再現できます。"
+        },
+        {
+          "text": "When results become easy to reproduce, effort loses some of its power as a signal of value.",
+          "translation": "結果を容易に再現できるようになると、努力は価値の指標としての力を一部失います。"
+        },
+        {
+          "text": "Value needs more than a record of time spent when tools can compress production.",
+          "translation": "道具が制作時間を圧縮できるとき、価値には費やした時間の記録以上のものが必要です。"
+        }
+      ],
+      "parseTree": "[S [NP AI] [VP can reproduce [NP a result] [PP without inheriting the effort behind it]]], [so] [S [NP effort alone] [VP can no longer serve [PP as reliable evidence of value]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "AI reproduces a result.",
+          "expanded": "AI can reproduce a result because it processes current inputs rather than inheriting a worker's full history.",
+          "nuance": "現在の入力処理と人間の履歴を区別します。"
+        },
+        {
+          "original": "Effort loses evidential power.",
+          "expanded": "Effort loses evidential power when similar outputs can be produced with very different amounts of labor.",
+          "nuance": "労働量と出力が一致しない条件を示します。"
+        },
+        {
+          "original": "Society needs more than one measure of value.",
+          "expanded": "Because money cannot recognize every kind of contribution, society needs several non-exclusive ways to judge value.",
+          "nuance": "単一の換算基準では捉えきれない理由を加えます。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A result can be reproduced without the effort behind it being inherited.",
+          "translation": "結果は、その背後の努力が引き継がれなくても再現できます。",
+          "note": "AIを背景化して再現可能性に焦点を移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reproducing the same result with less labor, AI weakens effort as evidence of value.",
+          "translation": "より少ない労働で同じ結果を再現することで、AIは価値の証拠としての努力を弱めます。",
+          "note": "原因を分詞句へ圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The reproducibility of results weakens the link between effort and value.",
+          "translation": "結果の再現可能性は、努力と価値の結び付きを弱めます。",
+          "note": "reproduceを名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "reproduce",
+            "alternatives": [
+              "replicate",
+              "recreate",
+              "match"
+            ],
+            "nuance": "reproduceは、同じ結果をもう一度生み出す意味で、工程の同一性までは要求しません。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "結果",
+            "sentence": "X can do A without doing B, so C can no longer serve as D.",
+            "translation": "XはBをせずにAができるため、CはDとして機能しにくくなります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Observable output is easier to verify than invisible effort.",
+            "translation": "観察できる出力は、見えない努力より確認しやすいものです。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the same result requires less labor, time spent becomes a weaker measure of value.",
+            "translation": "同じ結果に必要な労働が減れば、費やした時間は価値の弱い尺度になります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What AI changes is not only speed but the evidential meaning of effort.",
+            "translation": "AIが変えるのは速度だけでなく、努力が持つ証拠としての意味です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Reproducibility separates effort from value.",
+            "translation": "再現可能性は努力と価値を切り離します。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "without節とso節の因果が明確で、effort・result・valueの関係も曖昧でない。"
+    }
+  }
+]
