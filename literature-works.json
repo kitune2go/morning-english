@@ -193,5 +193,26 @@
     "description": "英語原書の語順、サーバーの認証と実行、国家の名目と実態、読書のしおりと質問を通して、入口から内部の構造を読み解く日次エッセイ。",
     "manifest": "literature/daily-essay-20261024/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261025",
+    "title": "耳は売場を通らずに作り始める",
+    "description": "ブラウザ上の作曲、音源分離後の同期ずれ、AIによる音楽と3D制作を通して、消費者が制作側へ移るとき商品の価値がどこへ移るかを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261025/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260921",
+    "title": "笑顔はカットの時刻を知っている",
+    "description": "放送前のカウント、視聴率やスポンサーに測られる出演者、名前と顔の商品化、カット後の静けさを通して、画面用の人格が時間割に従って働く様子を描く日次エッセイ。",
+    "manifest": "literature/daily-essay-20260921/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260922",
+    "title": "意味は出来事のあとに住み着く",
+    "description": "古い観音像の目的変化、デモと正しさの距離、告白と安全報告の制度設計を通して、出来事の意味が後から反復・評価・運用によって作られる過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260922/manifest.json",
+    "mode": "essay-translation"
   }
 ]
