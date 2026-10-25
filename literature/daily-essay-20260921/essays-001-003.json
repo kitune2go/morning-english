@@ -1,0 +1,166 @@
+[
+  {
+    "id": "DE-20260921-001",
+    "sourceTitle": "笑顔はカットの時刻を知っている",
+    "workId": "daily-essay-20260921",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "五秒前に笑顔が始まる",
+    "jp": "画面の中の笑顔は、気分だけで始まるわけではない。五、四、三、二と合図が縮み、最後の一秒が消えた場所で表情が完成する。都会的な歌に英語のフレーズとラップを重ねれば、軽さと速度が生まれるが、その背後では秒単位の役割が人を動かしている。放送は自然な瞬間を映すように見えて、実際には開始時刻を正確に知る身体を求める。笑顔は感情である前に、間に合わなければならない仕事になる。",
+    "translationLiteral": "A smile on screen does not begin from feeling alone. As the cue contracts—five, four, three, two—the expression is completed where the final second disappears. When English phrases and rap are layered over an urban song, lightness and speed appear, but behind them roles measured in seconds move people. A broadcast appears to show a natural moment, yet it requires a body that knows the exact starting time. Before it is an emotion, the smile becomes work that must be on time.",
+    "translationNatural": "An on-screen smile does not begin with feeling alone. As the countdown shortens, the expression must be ready at the missing final second. Music can sound light and spontaneous, while the body behind it follows a schedule measured in seconds. Before a smile becomes emotion, it has already become punctual labor.",
+    "imageUrl": "",
+    "imageCaption": "消えていくカウントの先で、画面用の笑顔が一瞬だけ正確に点灯する。",
+    "imagePrompt": "A television performer preparing a precise smile as an abstract countdown fades, sleek urban editorial illustration, no readable numbers",
+    "chunks": [
+      {
+        "en": "An on-screen smile does not begin with feeling alone.",
+        "ja": "画面上の笑顔は感情だけで始まるのではない。"
+      },
+      {
+        "en": "As the countdown shortens, the expression must be ready at the missing final second.",
+        "ja": "カウントが短くなるにつれ、最後の一秒が消えた地点で表情は完成していなければならない。"
+      },
+      {
+        "en": "Music can sound light and spontaneous,",
+        "ja": "音楽は軽く自然発生的に聞こえても、"
+      },
+      {
+        "en": "while the body behind it follows a schedule measured in seconds.",
+        "ja": "その背後の身体は秒単位で測られた予定に従う。"
+      },
+      {
+        "en": "Before a smile becomes emotion, it has already become punctual labor.",
+        "ja": "笑顔が感情になる前に、それは時間厳守の労働になっている。"
+      }
+    ],
+    "grammar": [
+      "does not begin with は起点を否定する。",
+      "As S V はカウント変化と準備を同時に示す。",
+      "must be ready は放送前の必要条件を表す。",
+      "while は自然な印象と管理された身体を対照する。",
+      "measured in seconds は schedule を修飾する過去分詞句。",
+      "Before S V は感情より先に労働化する順序を示す。"
+    ],
+    "translationNote": "literal はカウントダウンと都会的な楽曲の軽さを詳しく保持した。natural は punctual labor を用い、自然に見える笑顔が秒単位の仕事でもあるという対照を前面に出した。",
+    "readingPoint": "導入。英日歌唱とラップの軽快さの奥に、放送時刻へ身体を合わせる労働を置く。笑顔を性格ではなく時間制御された動作として見る。",
+    "keywords": [
+      "countdown",
+      "broadcast",
+      "smile",
+      "timing",
+      "labor"
+    ]
+  },
+  {
+    "id": "DE-20260921-002",
+    "sourceTitle": "笑顔はカットの時刻を知っている",
+    "workId": "daily-essay-20260921",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "名前と顔の在庫",
+    "jp": "放送に乗ると、名前と顔は本人を示すだけでなく、番組が運ぶ商品になる。視聴率、スポンサー、好感度、投稿の反応は、それぞれ別の数字で同じ人物を測る。笑顔は親しみとして読まれ、短い発言は話題として切り出され、失敗は炎上の単位へ変換される。本人は一人でも、帳簿の中では複数の価値に分割される。売れたか、外されたかという判定が続くほど、画面に出ていない時間まで商品の管理に含まれていく。",
+    "translationLiteral": "Once someone is broadcast, a name and face do more than identify a person; they become goods carried by the program. Ratings, sponsors, favorability, and reactions to posts measure the same person with different numbers. A smile is read as familiarity, a short remark is cut out as a topic, and a mistake is converted into a unit of outrage. Although the person is one, the ledger divides them into several values. As judgments of success or removal continue, even time outside the screen is included in product management.",
+    "translationNatural": "On air, a name and a face do more than identify a person; they become goods measured by ratings, sponsors, favorability, and online reaction. A smile becomes familiarity, a remark becomes a topic, and a mistake becomes outrage. The person remains one, but the ledger divides that life into several values. Eventually, even time off screen enters the management of the product.",
+    "imageUrl": "",
+    "imageCaption": "一つの顔が、視聴率や好感度を示す複数の無記名メーターへ分割されて映る。",
+    "imagePrompt": "One performer's face reflected across several unlabeled broadcast meters and screens, restrained urban editorial art, no text",
+    "chunks": [
+      {
+        "en": "On air, a name and a face do more than identify a person;",
+        "ja": "放送中、名前と顔は人物を示す以上の働きをし、"
+      },
+      {
+        "en": "they become goods measured by ratings, sponsors, favorability, and online reaction.",
+        "ja": "視聴率、スポンサー、好感度、オンライン反応で測られる商品になる。"
+      },
+      {
+        "en": "A smile becomes familiarity, a remark becomes a topic, and a mistake becomes outrage.",
+        "ja": "笑顔は親しみに、発言は話題に、失敗は炎上に変わる。"
+      },
+      {
+        "en": "The person remains one, but the ledger divides that life into several values.",
+        "ja": "人物は一人のままだが、帳簿はその生活を複数の価値へ分割する。"
+      },
+      {
+        "en": "Eventually, even time off screen enters the management of the product.",
+        "ja": "やがて画面外の時間まで商品の管理へ入る。"
+      }
+    ],
+    "grammar": [
+      "do more than は単なる識別以上の作用を示す。",
+      "measured by は goods を修飾する受動表現。",
+      "A becomes B の反復は人格が指標へ変換される過程を示す。",
+      "but は一人の人物と複数の評価値を対照する。",
+      "divide A into B は生活の分割を表す。",
+      "even は画面外まで管理が及ぶ意外性を強調する。"
+    ],
+    "translationNote": "literal は視聴率から炎上までの変換を一段ずつ追った。natural は become の反復で、顔・発言・失敗が別々の商品指標へ変わる速度を出した。life を用い、管理対象が出演時間だけではない点を示した。",
+    "readingPoint": "展開。放送時刻に合わせた笑顔が、複数の指標によって分解・管理される。人物の統一性と商品帳簿の分割を対置する。",
+    "keywords": [
+      "on air",
+      "ratings",
+      "sponsor",
+      "favorability",
+      "commodity",
+      "persona"
+    ]
+  },
+  {
+    "id": "DE-20260921-003",
+    "sourceTitle": "笑顔はカットの時刻を知っている",
+    "workId": "daily-essay-20260921",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "カットの後ろに残る声",
+    "jp": "番組の終わりには「カット」がある。音楽も笑顔もそこで止められるが、役割から本人へ戻る時刻まで同じように決まるとは限らない。誰が売れ、誰が外されたかという比較は、放送が終わったあとも続く。表では華やかな掛け合いが成立していても、裏側の孤独は画面に必要な情報ではない。だから最後の合図は終了であると同時に境界になる。切られたのは映像だけなのか、演じていた人格なのか。その答えのない無音が残る。",
+    "translationLiteral": "A program ends with the word “cut.” Music and smiles can be stopped there, but the time for returning from a role to oneself is not necessarily fixed in the same way. Comparisons over who sold and who was dropped continue after the broadcast ends. Even when a glamorous exchange works on screen, loneliness behind it is not information the screen needs. The final cue is therefore both an ending and a boundary. Was only the image cut, or was the performed persona cut as well? An unanswered silence remains.",
+    "translationNatural": "A program can end on the word “cut,” but a performed role may not end at the same moment. Judgments about who succeeded and who was dropped continue after the broadcast. The bright exchange belongs on screen; the loneliness behind it does not. The final cue is therefore both an ending and a boundary. What remains is the silence between the person and the persona.",
+    "imageUrl": "",
+    "imageCaption": "消灯したスタジオに、本人と画面上の輪郭のあいだだけが薄く残る。",
+    "imagePrompt": "A darkened television studio after the final cue, with a faint gap between a person and their screen persona, cinematic editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "A program can end on the word “cut,” but a performed role may not end at the same moment.",
+        "ja": "番組は「カット」で終われても、演じられた役割が同時に終わるとは限らない。"
+      },
+      {
+        "en": "Judgments about who succeeded and who was dropped continue after the broadcast.",
+        "ja": "誰が売れ、誰が外されたかという判定は放送後も続く。"
+      },
+      {
+        "en": "The bright exchange belongs on screen; the loneliness behind it does not.",
+        "ja": "華やかな掛け合いは画面に属するが、その裏の孤独は属さない。"
+      },
+      {
+        "en": "The final cue is therefore both an ending and a boundary.",
+        "ja": "ゆえに最後の合図は終了であると同時に境界でもある。"
+      },
+      {
+        "en": "What remains is the silence between the person and the persona.",
+        "ja": "残るのは本人と演じられた人格の間の無音である。"
+      }
+    ],
+    "grammar": [
+      "can end は番組終了の可能性・仕組みを示す。",
+      "but は放送の終了と役割の持続を対照する。",
+      "who succeeded / who was dropped は判断内容を示す名詞節。",
+      "after は放送終了後という時間範囲を示す。",
+      "both A and B は合図の二つの機能を並列する。",
+      "What remains は主語となる名詞節。"
+    ],
+    "translationNote": "literal は『役割から本人へ戻る時刻』と問いの形を保った。natural は person/persona の対置へ収束させ、カット後にも評価が続くため終わりきらない感覚を短い最終文へ残した。",
+    "readingPoint": "余韻。放送用の人格を止める合図が、本人をただちに自由にするわけではない。音が止まったあとに残る評価と沈黙で作品を閉じる。",
+    "keywords": [
+      "cut",
+      "persona",
+      "broadcast",
+      "silence",
+      "loneliness",
+      "evaluation"
+    ]
+  }
+]
