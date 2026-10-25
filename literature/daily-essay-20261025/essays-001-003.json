@@ -1,0 +1,162 @@
+[
+  {
+    "id": "DE-20261025-001",
+    "sourceTitle": "耳は売場を通らずに作り始める",
+    "workId": "daily-essay-20261025",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "聴き手が制作席へ移る",
+    "jp": "音楽をめぐる議論は、しばしばプロの現場でAIが使えるかという問いから始まる。だが、聴き手が欲しい曲を自分で作り、自分だけで楽しむなら、変化は仕事の奪い合いより静かに進む。購入者だった人が、粗くても望む音を生成できる場所へ移るからだ。そこでは新しい競争相手が市場へ入るのではない。消費者が制作席へ座り、売場を通らず欲求を満たし始める。",
+    "translationLiteral": "Discussions about music often begin with the question of whether AI can be used in professional work. But if listeners create the songs they want and enjoy them by themselves, the change proceeds more quietly than a struggle over jobs. People who used to be buyers move to a place where they can generate the sounds they want, even if the results are rough. A new competitor does not enter the market; the consumer sits in the producer's chair and begins satisfying desire without passing through the shop.",
+    "translationNatural": "Debates about AI music often begin with its usefulness in professional production. A quieter change occurs when listeners generate the songs they want for themselves. The market does not merely gain a new competitor; a former consumer moves into the producer's chair and satisfies desire without visiting the shop.",
+    "imageUrl": "",
+    "imageCaption": "売場の手前で立ち止まった聴き手が、向きを変えて小さな制作卓へ座る。",
+    "imagePrompt": "A music listener turning away from a record shop and sitting at a small home production desk, quiet editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Debates about AI music often begin with its usefulness in professional production.",
+        "ja": "AI音楽の議論は、プロ制作で役立つかという問いから始まりがちだ。"
+      },
+      {
+        "en": "A quieter change occurs when listeners generate the songs they want for themselves.",
+        "ja": "より静かな変化は、聴き手が欲しい曲を自分で生成するときに起こる。"
+      },
+      {
+        "en": "The market does not merely gain a new competitor;",
+        "ja": "市場に新しい競争相手が加わるだけではなく、"
+      },
+      {
+        "en": "a former consumer moves into the producer's chair and satisfies desire without visiting the shop.",
+        "ja": "かつての消費者が制作席へ移り、売場を通らず欲求を満たす。"
+      }
+    ],
+    "grammar": [
+      "begin with は議論の出発点を示す。",
+      "when S V は静かな変化が起こる条件を示す。",
+      "the songs they want は関係代名詞が省略された修飾節。",
+      "not merely A; B は単なる競争相手の追加ではない転換を強調する。",
+      "without -ing は売場を経由しない行為を表す。"
+    ],
+    "translationNote": "literal は「仕事の奪い合いより静か」と粗い生成物でも欲求を満たす点を残した。natural は former consumer と producer's chair を対置し、市場競争ではなく消費者の役割移動として簡潔に組み直した。",
+    "readingPoint": "導入。AIがプロの仕事を置き換えるという見慣れた図から、聴き手自身が市場を経由しなくなる変化へ視点をずらす。",
+    "keywords": [
+      "AI music",
+      "consumer",
+      "producer",
+      "market exit",
+      "generation"
+    ]
+  },
+  {
+    "id": "DE-20261025-002",
+    "sourceTitle": "耳は売場を通らずに作り始める",
+    "workId": "daily-essay-20261025",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "分けた音はまだ合奏ではない",
+    "jp": "しかし、作れることと、すぐ使えることは同じではない。一曲を歌、ベース、ドラムへ分けても、シーケンサーへ載せ直した瞬間にノイズや時間のずれが現れる。音を別々に取り出す処理は成功しても、それぞれが同じ拍を共有するとは限らない。自動化は面倒を消すというより、面倒の置き場所を変える。分離の次には同期、生成の次には選別が待ち、聴く人は制作側の判断まで引き受ける。",
+    "translationLiteral": "However, being able to make something is not the same as being able to use it immediately. Even if one song is separated into vocals, bass, and drums, noise and timing drift appear the moment the parts are placed back on a sequencer. The separation may succeed, but the parts do not necessarily share the same beat. Automation changes the location of the trouble rather than erasing it. Synchronization waits after separation, selection waits after generation, and the listener takes on the judgments of production.",
+    "translationNatural": "Being able to generate sound is not the same as having something ready to use. A system may separate a song into stems, yet noise and timing drift can appear when those parts return to a sequencer. Automation does not erase the work so much as move it: synchronization follows separation, and selection follows generation.",
+    "imageUrl": "",
+    "imageCaption": "分離された三本の音の線が、同じ拍へ戻ろうとして少しずつずれている。",
+    "imagePrompt": "Three separated audio wave lines trying to align on one sequencer grid but drifting slightly apart, refined editorial illustration, no readable labels",
+    "chunks": [
+      {
+        "en": "Being able to generate sound is not the same as having something ready to use.",
+        "ja": "音を生成できることは、すぐ使えるものを得ることとは同じではない。"
+      },
+      {
+        "en": "A system may separate a song into stems,",
+        "ja": "システムは一曲を複数のステムへ分離できても、"
+      },
+      {
+        "en": "yet noise and timing drift can appear when those parts return to a sequencer.",
+        "ja": "そのパートをシーケンサーへ戻すとノイズや時間のずれが現れうる。"
+      },
+      {
+        "en": "Automation does not erase the work so much as move it:",
+        "ja": "自動化は作業を消すというより、場所を移す。"
+      },
+      {
+        "en": "synchronization follows separation, and selection follows generation.",
+        "ja": "分離のあとに同期が続き、生成のあとに選別が続く。"
+      }
+    ],
+    "grammar": [
+      "Being able to ... は動名詞句を主語にする。",
+      "not the same as は二つの状態を区別する。",
+      "may separate A into B は分離可能性を表す。",
+      "yet は分離成功と同期不良を対照する。",
+      "when はずれが現れる時点を示す。",
+      "not A so much as B はAよりむしろBという比較を作る。",
+      "A follows B は工程の順序を表す。"
+    ],
+    "translationNote": "literal は実際に生じたノイズ、同期ずれ、選別作業を順に追った。natural は not ... so much as ... を使い、自動化が仕事を消すのでなく移動させるという論点へ圧縮した。",
+    "readingPoint": "展開。制作権が広がる明るさの裏側に、同期・選別・品質判断という新しい作業が現れる。消費者は道具だけでなく工程も受け取る。",
+    "keywords": [
+      "stem separation",
+      "sequencer",
+      "noise",
+      "timing",
+      "automation",
+      "selection"
+    ]
+  },
+  {
+    "id": "DE-20261025-003",
+    "sourceTitle": "耳は売場を通らずに作り始める",
+    "workId": "daily-essay-20261025",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "売れるのは面倒の残り",
+    "jp": "同じ変化は、形の決まった三次元データにも近づいている。仕様として説明できるものを生成機が十分きれいに作れるなら、完成ファイルの希少性は薄くなる。こだわりやセンスが消えるわけではないが、それだけで以前の価格を守れるとは限らない。残る価値は、後処理、整合、選択、やり直しの手間を誰かの代わりに引き受けることだろう。作れる時代には、作品そのものより、面倒から完成までの短い道が商品になる。",
+    "translationLiteral": "The same change is approaching three-dimensional data with defined forms. If a generator can make things that can be described as specifications cleanly enough, the scarcity of the finished file weakens. Care and taste do not disappear, but they may not protect the previous price by themselves. The remaining value may be taking on the labor of cleanup, consistency, selection, and revision for someone else. In an age when things can be made, the short path from trouble to completion becomes the product more than the work itself.",
+    "translationNatural": "The same shift is reaching three-dimensional assets that can be described by specifications. If generation becomes reliable, the scarcity of a finished file will weaken. Taste and care will remain, but they may not preserve the old price by themselves. Value moves toward cleanup, consistency, selection, and revision— toward the shorter path that saves another person from unfinished work.",
+    "imageUrl": "",
+    "imageCaption": "完成した模型よりも、その手前の荒れた工程を整える細い道だけが明るく残る。",
+    "imagePrompt": "A polished 3D object beside a rough unfinished workflow, with a narrow illuminated path of cleanup and revision between them, editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "The same shift is reaching three-dimensional assets that can be described by specifications.",
+        "ja": "同じ変化は、仕様で説明できる三次元資産にも届きつつある。"
+      },
+      {
+        "en": "If generation becomes reliable, the scarcity of a finished file will weaken.",
+        "ja": "生成が信頼できるものになれば、完成ファイルの希少性は弱まる。"
+      },
+      {
+        "en": "Taste and care will remain, but they may not preserve the old price by themselves.",
+        "ja": "センスや丁寧さは残るが、それだけで以前の価格を守れるとは限らない。"
+      },
+      {
+        "en": "Value moves toward cleanup, consistency, selection, and revision—",
+        "ja": "価値は後処理、整合、選別、修正へ移り、"
+      },
+      {
+        "en": "toward the shorter path that saves another person from unfinished work.",
+        "ja": "誰かを未完成の作業から救う、より短い経路へ移る。"
+      }
+    ],
+    "grammar": [
+      "that can be described は assets を修飾する関係詞節。",
+      "If S V, S will V は将来の現実的な条件を示す。",
+      "may not preserve は価格維持の不確実性を表す。",
+      "by themselves はセンスと丁寧さだけでは足りないことを示す。",
+      "move toward は価値の移動方向を表す。",
+      "that saves ... は path を修飾する関係詞節。"
+    ],
+    "translationNote": "literal は『面倒から完成までの短い道』という結論まで論理を追った。natural は finished file の希少性と cleanup 等へ移る価値を対照し、convenience という抽象語にせず具体的な作業名を残した。",
+    "readingPoint": "余韻。音楽で見た制作側への移動を3Dデータへ広げ、AI時代に売れるものを完成品ではなく未完了を減らす経路として捉え直す。",
+    "keywords": [
+      "3D assets",
+      "scarcity",
+      "cleanup",
+      "revision",
+      "value",
+      "convenience"
+    ]
+  }
+]
