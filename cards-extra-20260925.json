@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 145,
+    "_generatedAt": "2026-10-26T02:00:13+09:00",
+    "sentence": "An operating system sits between applications and hardware, managing processes, memory, files, devices, networks, and permissions through a shared set of interfaces.",
+    "phonetic": "アン オペレイティング システム シッツ ビトウィーン アプリケイションズ アンド ハードウェア、マネジング プロセシズ、メモリー、ファイルズ、デヴァイシズ、ネットワークス、アンド パーミッションズ スルー ア シェアド セット オヴ インターフェイシズ。",
+    "japaneseTranslation": "OSはアプリケーションとハードウェアの間に位置し、共通のインターフェース群を通じて、プロセス、メモリ、ファイル、デバイス、ネットワーク、権限を管理します。",
+    "theme": "OSがアプリとハードウェアを仲介する仕組み",
+    "coreVerb": "manage",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "An operating system manages hardware.",
+        "translation": "OSはハードウェアを管理します。"
+      },
+      "phase2": {
+        "sentence": "An operating system sits between applications and hardware.",
+        "translation": "OSはアプリケーションとハードウェアの間に位置します。",
+        "addedChunks": "between applications and hardware"
+      },
+      "phase3": {
+        "sentence": "An operating system sits between applications and hardware, managing resources.",
+        "translation": "OSはアプリケーションとハードウェアの間に位置し、資源を管理します。",
+        "connector": "none"
+      },
+      "phase4": {
+        "sentence": "An operating system gives applications more consistent access than direct hardware control does.",
+        "translation": "OSは、ハードウェアを直接制御する場合より一貫したアクセスをアプリケーションへ提供します。",
+        "comparison": "more ... than"
+      },
+      "phase5": {
+        "sentence": "An operating system sits between applications and hardware,",
+        "translation": "OSはアプリケーションとハードウェアの間に位置し、",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "An operating system sits",
+          "function": "状態",
+          "translation": "OSは位置します"
+        },
+        {
+          "text": "between applications and hardware,",
+          "function": "場所",
+          "translation": "アプリケーションとハードウェアの間に、"
+        },
+        {
+          "text": "managing processes, memory,",
+          "function": "行動",
+          "translation": "プロセスとメモリを管理し、"
+        },
+        {
+          "text": "files, devices, networks,",
+          "function": "対象",
+          "translation": "ファイル、デバイス、ネットワーク、"
+        },
+        {
+          "text": "and permissions",
+          "function": "対象",
+          "translation": "そして権限を"
+        },
+        {
+          "text": "through a shared set of interfaces.",
+          "function": "様態",
+          "translation": "共通のインターフェース群を通じて。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "冠詞",
+          "name": "an",
+          "where": "An operating system",
+          "explanation": "母音で始まる発音の単数名詞にanを使います。",
+          "rule": "an + 母音で始まる単数名詞"
+        },
+        {
+          "category": "前置詞",
+          "name": "between",
+          "where": "between applications and hardware",
+          "explanation": "二つの層の間を表します。",
+          "rule": "between A and B"
+        },
+        {
+          "category": "分詞構文",
+          "name": "managing",
+          "where": "managing processes...",
+          "explanation": "OSが同時に行う管理を現在分詞で補足します。",
+          "rule": "主節, -ing句"
+        },
+        {
+          "category": "並列",
+          "name": "名詞列挙",
+          "where": "processes, memory, files...",
+          "explanation": "管理対象を同じ文法上の位置に並べます。",
+          "rule": "A, B, C, and D"
+        },
+        {
+          "category": "語法",
+          "name": "through",
+          "where": "through a shared set",
+          "explanation": "手段・経路を表します。",
+          "rule": "through + 名詞句"
+        },
+        {
+          "category": "過去分詞修飾",
+          "name": "shared",
+          "where": "a shared set of interfaces",
+          "explanation": "複数の利用者や機能に共通する集合を表します。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "数量表現",
+          "name": "a set of",
+          "where": "a set of interfaces",
+          "explanation": "複数要素からなる一組を表します。",
+          "rule": "a set of + 複数名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "An operating system sit between",
+          "correct": "An operating system sits between",
+          "why": "単数主語に三単現の-sが必要です。"
+        },
+        {
+          "wrong": "between applications to hardware",
+          "correct": "between applications and hardware",
+          "why": "betweenはA and Bの形を取ります。"
+        },
+        {
+          "wrong": "managing process, memory and permissions",
+          "correct": "managing processes, memory, and permissions",
+          "why": "数えられる一般項目processは複数形が自然です。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "The operating system translates application requests into operations that hardware can perform.",
+          "translation": "OSはアプリケーションの要求を、ハードウェアが実行できる操作へ変換します。"
+        },
+        {
+          "text": "Applications use system calls instead of controlling every device directly.",
+          "translation": "アプリケーションは各デバイスを直接制御する代わりに、システムコールを使います。"
+        },
+        {
+          "text": "A common interface lets different programs request resources in a consistent way.",
+          "translation": "共通インターフェースにより、異なるプログラムが一貫した方法で資源を要求できます。"
+        }
+      ],
+      "parseTree": "[S [NP An operating system] [VP sits [PP between applications and hardware]]], [PartP managing [NP processes, memory, files, devices, networks, and permissions] [PP through a shared set of interfaces]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "The operating system sits between applications and hardware.",
+          "expanded": "The operating system sits between them because applications need controlled access to hardware resources.",
+          "nuance": "仲介層が必要な理由を加えます。"
+        },
+        {
+          "original": "The operating system manages processes.",
+          "expanded": "It manages processes so several programs can share CPU time without directly scheduling one another.",
+          "nuance": "プロセス管理の目的を具体化します。"
+        },
+        {
+          "original": "Applications use shared interfaces.",
+          "expanded": "Applications use shared interfaces because each device may require different low-level instructions.",
+          "nuance": "デバイス差を吸収する因果を示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Processes, memory, files, and devices are managed by the operating system.",
+          "translation": "プロセス、メモリ、ファイル、デバイスはOSによって管理されます。",
+          "note": "管理対象を主語に移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Providing shared interfaces, the operating system separates applications from hardware details.",
+          "translation": "共通インターフェースを提供することで、OSはアプリケーションをハードウェアの詳細から分離します。",
+          "note": "手段を分詞句で示します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Operating-system mediation gives applications controlled access to hardware.",
+          "translation": "OSによる仲介は、アプリケーションにハードウェアへの制御されたアクセスを与えます。",
+          "note": "sits betweenをmediationとして名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "manage",
+            "alternatives": [
+              "control",
+              "coordinate",
+              "allocate"
+            ],
+            "nuance": "manageは、複数の資源を継続的に調整する広い意味を持ちます。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "位置＋機能",
+            "sentence": "X sits between A and B, managing C.",
+            "translation": "XはAとBの間に位置し、Cを管理します。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A shared interface is more stable than direct device-specific control.",
+            "translation": "共通インターフェースは、デバイス固有の直接制御より安定しています。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If every application controlled hardware directly, conflicts would be harder to prevent.",
+            "translation": "各アプリがハードウェアを直接制御すると、競合を防ぎにくくなります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the operating system provides is controlled access, not unlimited access.",
+            "translation": "OSが提供するのは無制限のアクセスではなく、制御されたアクセスです。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "The OS mediates software and hardware.",
+            "translation": "OSはソフトウェアとハードウェアを仲介します。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 8,
+      "efficiency": 8,
+      "comment": "分詞構文で機能を自然に追加。列挙が長いためfocusとefficiencyは8。"
+    }
+  }
+]
