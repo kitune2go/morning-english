@@ -1,0 +1,602 @@
+[
+  {
+    "word": "usefulness",
+    "ja": "有用性・実用性",
+    "pos": "名詞",
+    "lemma": "useful",
+    "form": "useful + -ness（形容詞から名詞）",
+    "note": "useful + -ness（形容詞から名詞）"
+  },
+  {
+    "word": "quieter",
+    "ja": "より静かな",
+    "pos": "形容詞・比較級",
+    "lemma": "quiet",
+    "form": "quiet → quieter（比較級）",
+    "note": "quiet → quieter（比較級）"
+  },
+  {
+    "word": "occurs",
+    "ja": "起こる",
+    "pos": "動詞・三人称単数現在",
+    "lemma": "occur",
+    "form": "occur → occurs",
+    "note": "occur → occurs"
+  },
+  {
+    "word": "listeners",
+    "ja": "聴き手たち",
+    "pos": "名詞・複数形",
+    "lemma": "listener",
+    "form": "listener → listeners",
+    "note": "listener → listeners"
+  },
+  {
+    "word": "songs",
+    "ja": "曲（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "song",
+    "form": "song → songs",
+    "note": "song → songs"
+  },
+  {
+    "word": "competitor",
+    "ja": "競争相手",
+    "pos": "名詞",
+    "lemma": "competitor",
+    "form": "",
+    "note": "competitor：この文章での意味"
+  },
+  {
+    "word": "former",
+    "ja": "かつての・以前の",
+    "pos": "形容詞",
+    "lemma": "former",
+    "form": "",
+    "note": "former：この文章での意味"
+  },
+  {
+    "word": "consumer",
+    "ja": "消費者",
+    "pos": "名詞",
+    "lemma": "consumer",
+    "form": "",
+    "note": "consumer：この文章での意味"
+  },
+  {
+    "word": "producer's",
+    "ja": "制作者の",
+    "pos": "名詞・所有格",
+    "lemma": "producer",
+    "form": "producer + 's（所有格）",
+    "note": "producer + 's（所有格）"
+  },
+  {
+    "word": "satisfies",
+    "ja": "満たす",
+    "pos": "動詞・三人称単数現在",
+    "lemma": "satisfy",
+    "form": "satisfy → satisfies（y を ies に変更）",
+    "note": "satisfy → satisfies（y を ies に変更）"
+  },
+  {
+    "word": "visiting",
+    "ja": "訪れること",
+    "pos": "動名詞",
+    "lemma": "visit",
+    "form": "visit → visiting（without の後）",
+    "note": "visit → visiting（without の後）"
+  },
+  {
+    "word": "shop",
+    "ja": "店・売場",
+    "pos": "名詞",
+    "lemma": "shop",
+    "form": "",
+    "note": "shop：この文章での意味"
+  },
+  {
+    "word": "stems",
+    "ja": "分離された音声トラック（ステム）",
+    "pos": "名詞・複数形",
+    "lemma": "stem",
+    "form": "stem → stems（音楽制作）",
+    "note": "stem → stems（音楽制作）"
+  },
+  {
+    "word": "noise",
+    "ja": "雑音・ノイズ",
+    "pos": "名詞",
+    "lemma": "noise",
+    "form": "",
+    "note": "noise：この文章での意味"
+  },
+  {
+    "word": "drift",
+    "ja": "タイミングのずれ",
+    "pos": "名詞",
+    "lemma": "drift",
+    "form": "",
+    "note": "drift：この文章での意味"
+  },
+  {
+    "word": "parts",
+    "ja": "分離したパート",
+    "pos": "名詞・複数形",
+    "lemma": "part",
+    "form": "part → parts",
+    "note": "part → parts"
+  },
+  {
+    "word": "sequencer",
+    "ja": "シーケンサー（音楽の打ち込み・再生装置）",
+    "pos": "名詞",
+    "lemma": "sequencer",
+    "form": "",
+    "note": "sequencer：この文章での意味"
+  },
+  {
+    "word": "synchronization",
+    "ja": "同期・タイミングを合わせること",
+    "pos": "名詞",
+    "lemma": "synchronize",
+    "form": "synchronize → synchronization",
+    "note": "synchronize → synchronization"
+  },
+  {
+    "word": "follows",
+    "ja": "後に続く",
+    "pos": "動詞・三人称単数現在",
+    "lemma": "follow",
+    "form": "follow → follows",
+    "note": "follow → follows"
+  },
+  {
+    "word": "separation",
+    "ja": "分離",
+    "pos": "名詞",
+    "lemma": "separate",
+    "form": "separate → separation",
+    "note": "separate → separation"
+  },
+  {
+    "word": "assets",
+    "ja": "制作素材・3Dアセット",
+    "pos": "名詞・複数形",
+    "lemma": "asset",
+    "form": "asset → assets",
+    "note": "asset → assets"
+  },
+  {
+    "word": "described",
+    "ja": "記述された",
+    "pos": "動詞・過去分詞",
+    "lemma": "describe",
+    "form": "describe → described（受動態）",
+    "note": "describe → described（受動態）"
+  },
+  {
+    "word": "specifications",
+    "ja": "仕様・規格",
+    "pos": "名詞・複数形",
+    "lemma": "specification",
+    "form": "specification → specifications",
+    "note": "specification → specifications"
+  },
+  {
+    "word": "scarcity",
+    "ja": "希少性",
+    "pos": "名詞",
+    "lemma": "scarce",
+    "form": "scarce → scarcity",
+    "note": "scarce → scarcity"
+  },
+  {
+    "word": "file",
+    "ja": "ファイル・完成データ",
+    "pos": "名詞",
+    "lemma": "file",
+    "form": "",
+    "note": "file：この文章での意味"
+  },
+  {
+    "word": "taste",
+    "ja": "審美眼・好み",
+    "pos": "名詞",
+    "lemma": "taste",
+    "form": "",
+    "note": "taste：この文章での意味"
+  },
+  {
+    "word": "cleanup",
+    "ja": "後処理・修正作業",
+    "pos": "名詞",
+    "lemma": "cleanup",
+    "form": "",
+    "note": "cleanup：この文章での意味"
+  },
+  {
+    "word": "consistency",
+    "ja": "一貫性・整合性",
+    "pos": "名詞",
+    "lemma": "consistent",
+    "form": "consistent → consistency",
+    "note": "consistent → consistency"
+  },
+  {
+    "word": "shorter",
+    "ja": "より短い",
+    "pos": "形容詞・比較級",
+    "lemma": "short",
+    "form": "short → shorter",
+    "note": "short → shorter"
+  },
+  {
+    "word": "saves",
+    "ja": "省く・節約する",
+    "pos": "動詞・三人称単数現在",
+    "lemma": "save",
+    "form": "save → saves",
+    "note": "save → saves"
+  },
+  {
+    "word": "microphone",
+    "ja": "マイク",
+    "pos": "名詞",
+    "lemma": "microphone",
+    "form": "",
+    "note": "microphone：この文章での意味"
+  },
+  {
+    "word": "gratitude",
+    "ja": "感謝",
+    "pos": "名詞",
+    "lemma": "gratitude",
+    "form": "",
+    "note": "gratitude：この文章での意味"
+  },
+  {
+    "word": "continuing",
+    "ja": "継続する",
+    "pos": "形容詞的現在分詞",
+    "lemma": "continue",
+    "form": "continue → continuing",
+    "note": "continue → continuing"
+  },
+  {
+    "word": "perfectly",
+    "ja": "完全に・まったく",
+    "pos": "副詞",
+    "lemma": "perfect",
+    "form": "perfect → perfectly",
+    "note": "perfect → perfectly"
+  },
+  {
+    "word": "sincere",
+    "ja": "誠実な・本心からの",
+    "pos": "形容詞",
+    "lemma": "sincere",
+    "form": "",
+    "note": "sincere：この文章での意味"
+  },
+  {
+    "word": "performer's",
+    "ja": "出演者の",
+    "pos": "名詞・所有格",
+    "lemma": "performer",
+    "form": "performer + 's（所有格）",
+    "note": "performer + 's（所有格）"
+  },
+  {
+    "word": "job",
+    "ja": "仕事・出演機会",
+    "pos": "名詞",
+    "lemma": "job",
+    "form": "",
+    "note": "job：この文章での意味"
+  },
+  {
+    "word": "industry's",
+    "ja": "産業の",
+    "pos": "名詞・所有格",
+    "lemma": "industry",
+    "form": "industry + 's（所有格）",
+    "note": "industry + 's（所有格）"
+  },
+  {
+    "word": "retained",
+    "ja": "保持された・国内に残った",
+    "pos": "過去分詞",
+    "lemma": "retain",
+    "form": "retain → retained",
+    "note": "retain → retained"
+  },
+  {
+    "word": "ledgers",
+    "ja": "帳簿（比喩的に別々の勘定）",
+    "pos": "名詞・複数形",
+    "lemma": "ledger",
+    "form": "ledger → ledgers",
+    "note": "ledger → ledgers"
+  },
+  {
+    "word": "smile",
+    "ja": "笑顔",
+    "pos": "名詞",
+    "lemma": "smile",
+    "form": "",
+    "note": "smile：この文章での意味"
+  },
+  {
+    "word": "intellectual",
+    "ja": "知的な",
+    "pos": "形容詞",
+    "lemma": "intellectual",
+    "form": "intellectual property で「知的財産」",
+    "note": "intellectual property で「知的財産」"
+  },
+  {
+    "word": "property",
+    "ja": "財産・権利",
+    "pos": "名詞",
+    "lemma": "property",
+    "form": "intellectual property で「知的財産」",
+    "note": "intellectual property で「知的財産」"
+  },
+  {
+    "word": "ultimately",
+    "ja": "最終的に",
+    "pos": "副詞",
+    "lemma": "ultimate",
+    "form": "ultimate → ultimately",
+    "note": "ultimate → ultimately"
+  },
+  {
+    "word": "reside",
+    "ja": "所在する・帰属する",
+    "pos": "動詞",
+    "lemma": "reside",
+    "form": "",
+    "note": "reside：この文章での意味"
+  },
+  {
+    "word": "brighter",
+    "ja": "より明るい",
+    "pos": "形容詞・比較級",
+    "lemma": "bright",
+    "form": "bright → brighter",
+    "note": "bright → brighter"
+  },
+  {
+    "word": "accounts",
+    "ja": "勘定・帳簿",
+    "pos": "名詞・複数形",
+    "lemma": "account",
+    "form": "account → accounts",
+    "note": "account → accounts"
+  },
+  {
+    "word": "foreign-made",
+    "ja": "外国で制作された",
+    "pos": "複合形容詞",
+    "lemma": "foreign-made",
+    "form": "foreign + made",
+    "note": "foreign + made"
+  },
+  {
+    "word": "game",
+    "ja": "ゲーム",
+    "pos": "名詞",
+    "lemma": "game",
+    "form": "",
+    "note": "game：この文章での意味"
+  },
+  {
+    "word": "mainly",
+    "ja": "主として",
+    "pos": "副詞",
+    "lemma": "main",
+    "form": "main → mainly",
+    "note": "main → mainly"
+  },
+  {
+    "word": "japan's",
+    "ja": "日本の",
+    "pos": "固有名詞・所有格",
+    "lemma": "Japan",
+    "form": "Japan + 's（所有格）",
+    "note": "Japan + 's（所有格）"
+  },
+  {
+    "word": "cross-border",
+    "ja": "国境を越えた",
+    "pos": "複合形容詞",
+    "lemma": "cross-border",
+    "form": "cross + border",
+    "note": "cross + border"
+  },
+  {
+    "word": "fees",
+    "ja": "報酬・支払手数料",
+    "pos": "名詞・複数形",
+    "lemma": "fee",
+    "form": "fee → fees",
+    "note": "fee → fees"
+  },
+  {
+    "word": "inward",
+    "ja": "国内へ・内向きに",
+    "pos": "副詞",
+    "lemma": "inward",
+    "form": "",
+    "note": "inward：この文章での意味"
+  },
+  {
+    "word": "ownership",
+    "ja": "所有権・事業の支配権",
+    "pos": "名詞",
+    "lemma": "own",
+    "form": "own → ownership",
+    "note": "own → ownership"
+  },
+  {
+    "word": "separately",
+    "ja": "別々に",
+    "pos": "副詞",
+    "lemma": "separate",
+    "form": "separate → separately",
+    "note": "separate → separately"
+  },
+  {
+    "word": "anniversaries",
+    "ja": "周年記念行事",
+    "pos": "名詞・複数形",
+    "lemma": "anniversary",
+    "form": "anniversary → anniversaries",
+    "note": "anniversary → anniversaries"
+  },
+  {
+    "word": "wealthier",
+    "ja": "より豊かな",
+    "pos": "形容詞・比較級",
+    "lemma": "wealthy",
+    "form": "wealthy → wealthier",
+    "note": "wealthy → wealthier"
+  },
+  {
+    "word": "payments",
+    "ja": "支払い・決済",
+    "pos": "名詞・複数形",
+    "lemma": "payment",
+    "form": "payment → payments",
+    "note": "payment → payments"
+  },
+  {
+    "word": "median",
+    "ja": "中央値の",
+    "pos": "形容詞",
+    "lemma": "median",
+    "form": "median income（所得中央値）",
+    "note": "median income（所得中央値）"
+  },
+  {
+    "word": "income",
+    "ja": "所得・収入",
+    "pos": "名詞",
+    "lemma": "income",
+    "form": "",
+    "note": "income：この文章での意味"
+  },
+  {
+    "word": "thinner",
+    "ja": "より弱い・縮小した",
+    "pos": "形容詞・比較級",
+    "lemma": "thin",
+    "form": "thin → thinner（二重子音）",
+    "note": "thin → thinner（二重子音）"
+  },
+  {
+    "word": "headline",
+    "ja": "見出し上の・表面上の",
+    "pos": "形容詞的名詞",
+    "lemma": "headline",
+    "form": "headline totals（見出し上の総額）",
+    "note": "headline totals（見出し上の総額）"
+  },
+  {
+    "word": "totals",
+    "ja": "合計値・総額",
+    "pos": "名詞・複数形",
+    "lemma": "total",
+    "form": "total → totals",
+    "note": "total → totals"
+  },
+  {
+    "word": "suggest",
+    "ja": "示唆する",
+    "pos": "動詞",
+    "lemma": "suggest",
+    "form": "",
+    "note": "suggest：この文章での意味"
+  },
+  {
+    "word": "averages",
+    "ja": "平均値",
+    "pos": "名詞・複数形",
+    "lemma": "average",
+    "form": "average → averages",
+    "note": "average → averages"
+  },
+  {
+    "word": "buoyant",
+    "ja": "好調な・高水準を保つ",
+    "pos": "形容詞",
+    "lemma": "buoyant",
+    "form": "",
+    "note": "buoyant：この文章での意味"
+  },
+  {
+    "word": "include",
+    "ja": "含む",
+    "pos": "動詞",
+    "lemma": "include",
+    "form": "",
+    "note": "include：この文章での意味"
+  },
+  {
+    "word": "closest",
+    "ja": "最も近い",
+    "pos": "形容詞・最上級",
+    "lemma": "close",
+    "form": "close → closest",
+    "note": "close → closest"
+  },
+  {
+    "word": "capital",
+    "ja": "資本・資金",
+    "pos": "名詞",
+    "lemma": "capital",
+    "form": "",
+    "note": "capital：この文章での意味"
+  },
+  {
+    "word": "middle",
+    "ja": "中間層の・中位の",
+    "pos": "形容詞",
+    "lemma": "middle",
+    "form": "",
+    "note": "middle：この文章での意味"
+  },
+  {
+    "word": "wallet",
+    "ja": "財布・購買余力（比喩）",
+    "pos": "名詞",
+    "lemma": "wallet",
+    "form": "",
+    "note": "wallet：この文章での意味"
+  },
+  {
+    "word": "survives",
+    "ja": "存続する",
+    "pos": "動詞・三人称単数現在",
+    "lemma": "survive",
+    "form": "survive → survives",
+    "note": "survive → survives"
+  },
+  {
+    "word": "products",
+    "ja": "商品（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "product",
+    "form": "product → products",
+    "note": "product → products"
+  },
+  {
+    "word": "afford",
+    "ja": "購入する余裕がある",
+    "pos": "動詞",
+    "lemma": "afford",
+    "form": "",
+    "note": "afford：この文章での意味"
+  }
+]
