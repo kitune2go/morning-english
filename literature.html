@@ -98,7 +98,7 @@ const askDrafts=new Map();
 let wordGlossary=new Map(),contextGlossary={};
 async function loadSharedGlossary(){
   try{
-    const files=await Promise.all(["books/happy-prince/lexicon.json","books/happy-prince/extended-glossary.json","literature/essay-glossary-abcdef.json","literature/essay-glossary-ghijkl.json","literature/essay-glossary-mnopqr.json","literature/essay-glossary-stuv.json","literature/essay-glossary-wxyz.json","literature/essay-glossary-custom.json","literature/essay-glossary-recent.json"].map(fetchJson));
+    const files=await Promise.all(["books/happy-prince/lexicon.json","books/happy-prince/extended-glossary.json","literature/essay-glossary-abcdef.json","literature/essay-glossary-ghijkl.json","literature/essay-glossary-mnopqr.json","literature/essay-glossary-stuv.json","literature/essay-glossary-wxyz.json","literature/essay-glossary-custom.json","literature/essay-glossary-recent.json","literature/essay-glossary-legacy-gapfill.json"].map(fetchJson));
     wordGlossary=new Map(files.flat().filter(x=>x&&typeof x.word==='string').map(x=>[x.word.toLowerCase().replace(/’/g,"'"),x]));
   }catch(err){console.warn('英和辞典を読み込めませんでした。単語の質問リンクは利用できます。',err);wordGlossary=new Map();}
   try{const data=await fetchJson('literature/essay-context-glossary.json');contextGlossary=data&&typeof data==='object'&&!Array.isArray(data)?data:{};}
