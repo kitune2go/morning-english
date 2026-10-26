@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 148,
+    "_generatedAt": "2026-10-27T01:59:41+09:00",
+    "sentence": "Permission to perform in public does not grant priority over shared space; musical benefits may stay local while noise costs spread to others.",
+    "phonetic": "パーミッション トゥ パフォーム イン パブリック ダズ ノット グラント プライオリティ オーヴァー シェアド スペイス；ミュージカル ベネフィッツ メイ ステイ ローカル ワイル ノイズ コスツ スプレッド トゥ アザーズ。",
+    "japaneseTranslation": "公共の場で演奏する許可は、共有空間での優先権まで与えるものではありません。音楽の便益は参加者の周囲にとどまる一方、騒音の費用は他の人へ広がることがあります。",
+    "theme": "公共演奏の許可と共有空間での優先権",
+    "coreVerb": "grant",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Permission allows performance.",
+        "translation": "許可は演奏を認めます。"
+      },
+      "phase2": {
+        "sentence": "Permission allows performance in public.",
+        "translation": "許可は公共の場での演奏を認めます。",
+        "addedChunks": "in public"
+      },
+      "phase3": {
+        "sentence": "Permission does not grant priority over shared space.",
+        "translation": "許可は共有空間での優先権を与えません。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "Musical benefits may be more local than noise costs.",
+        "translation": "音楽の便益は、騒音の費用より局所的なことがあります。",
+        "comparison": "more ... than"
+      },
+      "phase5": {
+        "sentence": "Permission to perform in public does not grant priority over shared space;",
+        "translation": "公共の場で演奏する許可は、共有空間での優先権まで与えるものではありません。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Permission to perform in public",
+          "function": "内容",
+          "translation": "公共の場で演奏する許可は"
+        },
+        {
+          "text": "does not grant priority",
+          "function": "行動",
+          "translation": "優先権を与えません"
+        },
+        {
+          "text": "over shared space;",
+          "function": "場所",
+          "translation": "共有空間に対する、"
+        },
+        {
+          "text": "musical benefits may stay local",
+          "function": "状態",
+          "translation": "音楽の便益は周囲にとどまることがあります"
+        },
+        {
+          "text": "while noise costs",
+          "function": "接続",
+          "translation": "一方で騒音の費用は"
+        },
+        {
+          "text": "spread to others.",
+          "function": "結果",
+          "translation": "他の人へ広がります。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "不定詞",
+          "name": "to perform",
+          "where": "Permission to perform",
+          "explanation": "どの行為への許可かを説明します。",
+          "rule": "permission to + 動詞"
+        },
+        {
+          "category": "一般表現",
+          "name": "in public",
+          "where": "perform in public",
+          "explanation": "公共の場での行為を表します。",
+          "rule": "in public"
+        },
+        {
+          "category": "三単現否定",
+          "name": "does not grant",
+          "where": "Permission ... does not grant",
+          "explanation": "単数主語にdoes notを使います。",
+          "rule": "単数主語 + does not + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "grant",
+          "where": "grant priority",
+          "explanation": "権利や地位を与える意味です。",
+          "rule": "grant + 名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may stay local",
+          "explanation": "便益の分布を可能性として述べます。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "接続詞",
+          "name": "while",
+          "where": "while noise costs...",
+          "explanation": "便益と費用の分布を対照させます。",
+          "rule": "節 + while + 節"
+        },
+        {
+          "category": "語法",
+          "name": "spread to",
+          "where": "spread to others",
+          "explanation": "影響が他者へ及ぶことを表します。",
+          "rule": "spread to + 対象"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Permission does not grants priority",
+          "correct": "Permission does not grant priority",
+          "why": "does notの後は動詞原形です。"
+        },
+        {
+          "wrong": "priority on shared space",
+          "correct": "priority over shared space",
+          "why": "支配・優先の範囲にはpriority overが自然です。"
+        },
+        {
+          "wrong": "noise costs spreads to others",
+          "correct": "noise costs spread to others",
+          "why": "複数主語costsにはspreadを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Being allowed to play does not require everyone nearby to become an audience.",
+          "translation": "演奏を許されていても、周囲の全員が観客になる義務はありません。"
+        },
+        {
+          "text": "A public performance can create private enjoyment and public disturbance at the same time.",
+          "translation": "公共演奏は、私的な楽しみと公共の迷惑を同時に生むことがあります。"
+        },
+        {
+          "text": "Venues internalize sound costs through walls, tickets, schedules, and agreements.",
+          "translation": "会場は、防音、入場券、時間設定、合意によって音の費用を内部化します。"
+        }
+      ],
+      "parseTree": "[S [NP Permission to perform in public] [VP does not grant [NP priority] [PP over shared space]]]; [S [NP musical benefits] [VP may stay local]] [while] [S [NP noise costs] [VP spread to others]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Permission allows performance.",
+          "expanded": "Permission allows performance because an authority has accepted the activity under stated conditions.",
+          "nuance": "許可が条件付きであることを示します。"
+        },
+        {
+          "original": "Permission does not create priority.",
+          "expanded": "It does not create priority because other people retain claims to the same shared space.",
+          "nuance": "他者の利用権が残ることを因果に加えます。"
+        },
+        {
+          "original": "Noise costs spread.",
+          "expanded": "Noise costs spread because sound reaches people who did not choose to participate.",
+          "nuance": "非参加者へ費用が及ぶ理由を示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Priority over shared space is not granted merely because a performance is permitted.",
+          "translation": "演奏が許可されただけで、共有空間での優先権が与えられるわけではありません。",
+          "note": "優先権を主語へ移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reaching nonparticipants, sound can impose costs beyond the performing group.",
+          "translation": "非参加者へ届くことで、音は演奏集団の外にも費用を課すことがあります。",
+          "note": "拡散を分詞句で示します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Permission for performance does not entail priority in shared space.",
+          "translation": "演奏の許可は、共有空間での優先権を伴いません。",
+          "note": "動詞句を名詞中心の表現へ変えます。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "grant",
+            "alternatives": [
+              "give",
+              "confer",
+              "authorize"
+            ],
+            "nuance": "grantは、権利や地位を正式に与える文脈で使います。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "許可と権利の区別",
+            "sentence": "Permission to do X does not grant priority over Y.",
+            "translation": "Xをする許可は、Yでの優先権を与えません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Sound costs can travel farther than musical benefits.",
+            "translation": "騒音の費用は、音楽の便益より遠くへ届くことがあります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If listeners cannot opt out, organizers should reduce the external cost.",
+            "translation": "聞き手が離脱できないなら、主催者は外部費用を減らすべきです。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What permission authorizes is the act, not control over everyone nearby.",
+            "translation": "許可が認めるのは行為であり、周囲の全員への支配ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Permission is not priority.",
+            "translation": "許可は優先権ではありません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "許可と優先権、便益と費用の二つの区別を短く明確に示している。"
+    }
+  }
+]
