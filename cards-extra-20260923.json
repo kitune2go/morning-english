@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 147,
+    "_generatedAt": "2026-10-27T01:59:41+09:00",
+    "sentence": "Large redevelopment converts expected future rent into present construction, but its sunk costs, contracts, and stakeholders can narrow a city's future choices.",
+    "phonetic": "ラージ リディヴェロップメント コンヴァーツ イクスペクティッド フューチャー レント イントゥ プレゼント コンストラクション、バット イッツ サンク コスツ、コントラクツ、アンド ステイクホルダーズ キャン ナロウ ア シティーズ フューチャー チョイシズ。",
+    "japaneseTranslation": "大規模再開発は、将来期待される賃料を現在の建設へ転換しますが、埋没費用、契約、利害関係者が都市の将来の選択肢を狭めることがあります。",
+    "theme": "再開発が将来の選択肢へ与える退出費用",
+    "coreVerb": "narrow",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Redevelopment creates buildings.",
+        "translation": "再開発は建物を作ります。"
+      },
+      "phase2": {
+        "sentence": "Large redevelopment uses expected future rent.",
+        "translation": "大規模再開発は期待される将来賃料を使います。",
+        "addedChunks": "expected future rent"
+      },
+      "phase3": {
+        "sentence": "Large redevelopment converts future rent into present construction.",
+        "translation": "大規模再開発は将来賃料を現在の建設へ転換します。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Changing course becomes harder than starting construction.",
+        "translation": "方向転換は建設開始より難しくなります。",
+        "comparison": "harder than"
+      },
+      "phase5": {
+        "sentence": "Large redevelopment converts expected future rent into present construction,",
+        "translation": "大規模再開発は、将来期待される賃料を現在の建設へ転換しますが、",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Large redevelopment converts",
+          "function": "行動",
+          "translation": "大規模再開発は転換します"
+        },
+        {
+          "text": "expected future rent",
+          "function": "対象",
+          "translation": "将来期待される賃料を"
+        },
+        {
+          "text": "into present construction,",
+          "function": "結果",
+          "translation": "現在の建設へ、"
+        },
+        {
+          "text": "but its sunk costs, contracts, and stakeholders",
+          "function": "接続",
+          "translation": "しかし埋没費用、契約、利害関係者が"
+        },
+        {
+          "text": "can narrow",
+          "function": "行動",
+          "translation": "狭めることがあります"
+        },
+        {
+          "text": "a city's future choices.",
+          "function": "対象",
+          "translation": "都市の将来の選択肢を。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "語法",
+          "name": "convert A into B",
+          "where": "converts expected future rent into present construction",
+          "explanation": "AをBへ転換する表現です。",
+          "rule": "convert A into B"
+        },
+        {
+          "category": "過去分詞修飾",
+          "name": "expected",
+          "where": "expected future rent",
+          "explanation": "期待される賃料を修飾します。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "接続詞",
+          "name": "but",
+          "where": "but its sunk costs...",
+          "explanation": "現在の建設と将来の制約を対照させます。",
+          "rule": "節, but + 節"
+        },
+        {
+          "category": "所有格",
+          "name": "its",
+          "where": "its sunk costs",
+          "explanation": "itsはredevelopmentを指します。",
+          "rule": "所有格 + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "A, B, and C",
+          "where": "sunk costs, contracts, and stakeholders",
+          "explanation": "三つの制約要因を並べます。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can narrow",
+          "explanation": "必然ではなく可能性として述べます。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "所有格",
+          "name": "city's",
+          "where": "a city's future choices",
+          "explanation": "選択肢の主体が都市であることを示します。",
+          "rule": "名詞's + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "converts rent to present construction",
+          "correct": "converts rent into present construction",
+          "why": "変化の結果にはconvert A into Bが自然です。"
+        },
+        {
+          "wrong": "its sunk costs can narrows choices",
+          "correct": "its sunk costs can narrow choices",
+          "why": "canの後は動詞原形です。"
+        },
+        {
+          "wrong": "a city future choices",
+          "correct": "a city's future choices",
+          "why": "所有関係にはcity'sを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Redevelopment can finance today's buildings with claims on tomorrow's income.",
+          "translation": "再開発は、明日の所得への請求権で今日の建物を資金調達できます。"
+        },
+        {
+          "text": "Physical investment and long contracts can make later reversal expensive.",
+          "translation": "物理的投資と長期契約は、後の方向転換を高くつくものにします。"
+        },
+        {
+          "text": "A reversible lease may preserve more future options than permanent construction.",
+          "translation": "可逆的な借地は、恒久建築より多くの将来選択肢を残すことがあります。"
+        }
+      ],
+      "parseTree": "[S [NP Large redevelopment] [VP converts [NP expected future rent] [PP into present construction]]], [but] [S [NP its sunk costs, contracts, and stakeholders] [VP can narrow [NP a city's future choices]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Redevelopment begins now.",
+          "expanded": "Redevelopment can begin now because investors value expected future rent as a present financial claim.",
+          "nuance": "将来収益が現在の資金調達を支える過程を示します。"
+        },
+        {
+          "original": "Exit costs rise.",
+          "expanded": "Exit costs rise because buildings, contracts, and financing cannot be reversed without loss.",
+          "nuance": "撤回が高くつく理由を加えます。"
+        },
+        {
+          "original": "Future choices narrow.",
+          "expanded": "Future choices may narrow when many stakeholders acquire claims on the same project.",
+          "nuance": "利害関係者の増加と選択制約を結び付けます。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Expected future rent is converted into present construction by large redevelopment.",
+          "translation": "期待される将来賃料は、大規模再開発によって現在の建設へ転換されます。",
+          "note": "転換される対象へ焦点を移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Embedding costs and contracts in the city, redevelopment can make reversal expensive.",
+          "translation": "都市に費用と契約を埋め込むことで、再開発は方向転換を高くつくものにします。",
+          "note": "制約形成を分詞句で示します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The financialization of future rent can reduce urban reversibility.",
+          "translation": "将来賃料の金融化は、都市の可逆性を下げることがあります。",
+          "note": "convertを金融化という名詞へ展開します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "narrow",
+            "alternatives": [
+              "limit",
+              "constrain",
+              "reduce"
+            ],
+            "nuance": "narrowは、選択肢を完全に消すのでなく幅を狭める意味です。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "転換と制約",
+            "sentence": "X converts A into B, but C can narrow D.",
+            "translation": "XはAをBへ転換しますが、CがDを狭めることがあります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Temporary use is often more reversible than permanent construction.",
+            "translation": "暫定利用は恒久建築より可逆的なことが多いものです。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If expected rent falls, a heavily committed project may still be difficult to stop.",
+            "translation": "期待賃料が下がっても、深くコミットした事業は停止困難なことがあります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What redevelopment fixes is not only concrete but also contracts and claims.",
+            "translation": "再開発が固定するのはコンクリートだけでなく、契約と請求権です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Construction can mortgage future choice.",
+            "translation": "建設は将来の選択肢を担保に取ることがあります。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 8,
+      "efficiency": 8,
+      "comment": "金融と都市選択の関係を一文で示すため列挙は長いが、主体と因果は明確。"
+    }
+  }
+]
