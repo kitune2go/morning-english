@@ -214,5 +214,26 @@
     "description": "古い観音像の目的変化、デモと正しさの距離、告白と安全報告の制度設計を通して、出来事の意味が後から反復・評価・運用によって作られる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260922/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260923",
+    "title": "先取りされた未来は動けない",
+    "description": "再開発された都市景観、国際大会の施設、就職氷河期の履歴を通して、将来の需要や評価を先取りして固定する仕組みが後の選択肢を狭める過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260923/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260925",
+    "title": "街の本文から脚注が落ちる",
+    "description": "都市インフラの寿命、成功譚の背後へ追いやられる損失、最後の移動を支える身体を通して、街が自らを語るときに省かれる負担を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260925/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261026",
+    "title": "笑顔の向こうへ利益は流れる",
+    "description": "ゲームや音楽の宣伝、海外IPへのローカライズ、貿易収支と所得中央値を通して、表向きの成功と利益が残る場所のずれを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261026/manifest.json",
+    "mode": "essay-translation"
   }
 ]
