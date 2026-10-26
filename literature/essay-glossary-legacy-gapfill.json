@@ -1,0 +1,1578 @@
+[
+  {
+    "word": "accumulated",
+    "ja": "蓄積された",
+    "pos": "過去分詞",
+    "lemma": "accumulate",
+    "form": "accumulate → accumulated",
+    "note": "accumulate → accumulated（過去分詞）"
+  },
+  {
+    "word": "accumulates",
+    "ja": "蓄積する",
+    "pos": "三人称単数現在",
+    "lemma": "accumulate",
+    "form": "accumulate → accumulates",
+    "note": "accumulate → accumulates（三人称単数現在）"
+  },
+  {
+    "word": "acquires",
+    "ja": "獲得する・身につける",
+    "pos": "三人称単数現在",
+    "lemma": "acquire",
+    "form": "acquire → acquires",
+    "note": "acquire → acquires（三人称単数現在）"
+  },
+  {
+    "word": "advertising",
+    "ja": "広告・宣伝",
+    "pos": "名詞・動名詞",
+    "lemma": "advertise",
+    "form": "advertise → advertising",
+    "note": "advertise → advertising（名詞・動名詞）"
+  },
+  {
+    "word": "aging",
+    "ja": "高齢化・老化",
+    "pos": "名詞・動名詞",
+    "lemma": "age",
+    "form": "age → aging",
+    "note": "age → aging（名詞・動名詞）"
+  },
+  {
+    "word": "ahead",
+    "ja": "先に・前方に",
+    "pos": "副詞",
+    "lemma": "ahead",
+    "form": "",
+    "note": "副詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "amid",
+    "ja": "〜のただ中に",
+    "pos": "前置詞",
+    "lemma": "amid",
+    "form": "",
+    "note": "前置詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "architecture",
+    "ja": "建築・構造設計",
+    "pos": "名詞",
+    "lemma": "architecture",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "areas",
+    "ja": "地域・領域",
+    "pos": "名詞・複数形",
+    "lemma": "area",
+    "form": "area → areas",
+    "note": "area → areas（名詞・複数形）"
+  },
+  {
+    "word": "athlete",
+    "ja": "競技選手",
+    "pos": "名詞",
+    "lemma": "athlete",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "autobiography",
+    "ja": "自伝",
+    "pos": "名詞",
+    "lemma": "autobiography",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "bad",
+    "ja": "悪い・好ましくない",
+    "pos": "形容詞",
+    "lemma": "bad",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "bear",
+    "ja": "負担する・耐える／クマ",
+    "pos": "動詞・名詞",
+    "lemma": "bear",
+    "form": "",
+    "note": "動詞・名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "broadcast",
+    "ja": "放送する・放送",
+    "pos": "動詞・名詞",
+    "lemma": "broadcast",
+    "form": "",
+    "note": "動詞・名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "building's",
+    "ja": "建物の",
+    "pos": "名詞・所有格",
+    "lemma": "building",
+    "form": "building → building's",
+    "note": "building → building's（名詞・所有格）"
+  },
+  {
+    "word": "buildings",
+    "ja": "建物（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "building",
+    "form": "building → buildings",
+    "note": "building → buildings（名詞・複数形）"
+  },
+  {
+    "word": "celebrated",
+    "ja": "祝われた・著名な",
+    "pos": "過去分詞・形容詞",
+    "lemma": "celebrate",
+    "form": "celebrate → celebrated",
+    "note": "celebrate → celebrated（過去分詞・形容詞）"
+  },
+  {
+    "word": "charge",
+    "ja": "料金・負担／請求する",
+    "pos": "名詞・動詞",
+    "lemma": "charge",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "cities",
+    "ja": "都市（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "city",
+    "form": "city → cities",
+    "note": "city → cities（名詞・複数形）"
+  },
+  {
+    "word": "city's",
+    "ja": "都市の",
+    "pos": "名詞・所有格",
+    "lemma": "city",
+    "form": "city → city's",
+    "note": "city → city's（名詞・所有格）"
+  },
+  {
+    "word": "comparison",
+    "ja": "比較・対照",
+    "pos": "名詞",
+    "lemma": "comparison",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "competition",
+    "ja": "競争",
+    "pos": "名詞",
+    "lemma": "competition",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "conclusion",
+    "ja": "結論",
+    "pos": "名詞",
+    "lemma": "conclusion",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "confession",
+    "ja": "告白・自白",
+    "pos": "名詞",
+    "lemma": "confession",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "confident",
+    "ja": "自信がある",
+    "pos": "形容詞",
+    "lemma": "confident",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "confidentiality",
+    "ja": "秘密保持・機密性",
+    "pos": "名詞",
+    "lemma": "confidentiality",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "construction",
+    "ja": "建設・構築",
+    "pos": "名詞",
+    "lemma": "construction",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "contains",
+    "ja": "含む",
+    "pos": "三人称単数現在",
+    "lemma": "contain",
+    "form": "contain → contains",
+    "note": "contain → contains（三人称単数現在）"
+  },
+  {
+    "word": "continues",
+    "ja": "続く・続ける",
+    "pos": "三人称単数現在",
+    "lemma": "continue",
+    "form": "continue → continues",
+    "note": "continue → continues（三人称単数現在）"
+  },
+  {
+    "word": "converge",
+    "ja": "収束する・一点に集まる",
+    "pos": "動詞",
+    "lemma": "converge",
+    "form": "",
+    "note": "動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "converted",
+    "ja": "変換された・転換した",
+    "pos": "過去形・過去分詞",
+    "lemma": "convert",
+    "form": "convert → converted",
+    "note": "convert → converted（過去形・過去分詞）"
+  },
+  {
+    "word": "correct",
+    "ja": "正しい・訂正する",
+    "pos": "形容詞・動詞",
+    "lemma": "correct",
+    "form": "",
+    "note": "形容詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "countdown",
+    "ja": "秒読み・カウントダウン",
+    "pos": "名詞",
+    "lemma": "countdown",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "crews",
+    "ja": "作業員・乗組員たち",
+    "pos": "名詞・複数形",
+    "lemma": "crew",
+    "form": "crew → crews",
+    "note": "crew → crews（名詞・複数形）"
+  },
+  {
+    "word": "cue",
+    "ja": "合図・きっかけ",
+    "pos": "名詞",
+    "lemma": "cue",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "cut",
+    "ja": "削減する・切る／削減",
+    "pos": "動詞・名詞",
+    "lemma": "cut",
+    "form": "",
+    "note": "動詞・名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "damage",
+    "ja": "損害・損傷／傷つける",
+    "pos": "名詞・動詞",
+    "lemma": "damage",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "deal",
+    "ja": "取引・扱うこと",
+    "pos": "名詞・動詞",
+    "lemma": "deal",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "decline",
+    "ja": "低下する・衰退／辞退する",
+    "pos": "動詞・名詞",
+    "lemma": "decline",
+    "form": "",
+    "note": "動詞・名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "declining",
+    "ja": "減少する・低下している",
+    "pos": "現在分詞",
+    "lemma": "decline",
+    "form": "decline → declining",
+    "note": "decline → declining（現在分詞）"
+  },
+  {
+    "word": "defeat",
+    "ja": "敗北・打ち負かす",
+    "pos": "名詞・動詞",
+    "lemma": "defeat",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "demand",
+    "ja": "需要・要求／求める",
+    "pos": "名詞・動詞",
+    "lemma": "demand",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "demands",
+    "ja": "要求・需要（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "demand",
+    "form": "demand → demands",
+    "note": "demand → demands（名詞・複数形）"
+  },
+  {
+    "word": "demonstration",
+    "ja": "実演・デモンストレーション／抗議行動",
+    "pos": "名詞",
+    "lemma": "demonstration",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "depend",
+    "ja": "依存する・左右される",
+    "pos": "動詞",
+    "lemma": "depend",
+    "form": "",
+    "note": "動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "deserves",
+    "ja": "〜に値する",
+    "pos": "三人称単数現在",
+    "lemma": "deserve",
+    "form": "deserve → deserves",
+    "note": "deserve → deserves（三人称単数現在）"
+  },
+  {
+    "word": "detect",
+    "ja": "発見する・検出する",
+    "pos": "動詞",
+    "lemma": "detect",
+    "form": "",
+    "note": "動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "differently",
+    "ja": "異なる方法で",
+    "pos": "副詞",
+    "lemma": "different",
+    "form": "different → differently",
+    "note": "different → differently（副詞）"
+  },
+  {
+    "word": "disaster",
+    "ja": "災害・惨事",
+    "pos": "名詞",
+    "lemma": "disaster",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "displacement",
+    "ja": "移動・立ち退き・置換",
+    "pos": "名詞",
+    "lemma": "displacement",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "dissatisfaction",
+    "ja": "不満",
+    "pos": "名詞",
+    "lemma": "dissatisfaction",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "district",
+    "ja": "地区・地域",
+    "pos": "名詞",
+    "lemma": "district",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "divides",
+    "ja": "分割する・分ける",
+    "pos": "三人称単数現在",
+    "lemma": "divide",
+    "form": "divide → divides",
+    "note": "divide → divides（三人称単数現在）"
+  },
+  {
+    "word": "downward",
+    "ja": "下向きの・下方へ",
+    "pos": "形容詞・副詞",
+    "lemma": "downward",
+    "form": "",
+    "note": "形容詞・副詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "dropped",
+    "ja": "落ちた・下がった",
+    "pos": "過去形・過去分詞",
+    "lemma": "drop",
+    "form": "drop → dropped",
+    "note": "drop → dropped（過去形・過去分詞）"
+  },
+  {
+    "word": "economy",
+    "ja": "経済",
+    "pos": "名詞",
+    "lemma": "economy",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "editorial",
+    "ja": "編集上の・論説",
+    "pos": "形容詞・名詞",
+    "lemma": "editorial",
+    "form": "",
+    "note": "形容詞・名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "encourage",
+    "ja": "促す・励ます",
+    "pos": "動詞",
+    "lemma": "encourage",
+    "form": "",
+    "note": "動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "ending",
+    "ja": "結末・終わること",
+    "pos": "名詞・動名詞",
+    "lemma": "end",
+    "form": "end → ending",
+    "note": "end → ending（名詞・動名詞）"
+  },
+  {
+    "word": "engineering",
+    "ja": "工学・技術設計",
+    "pos": "名詞",
+    "lemma": "engineering",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "equipment",
+    "ja": "設備・装備",
+    "pos": "名詞",
+    "lemma": "equipment",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "erased",
+    "ja": "消された・消去した",
+    "pos": "過去形・過去分詞",
+    "lemma": "erase",
+    "form": "erase → erased",
+    "note": "erase → erased（過去形・過去分詞）"
+  },
+  {
+    "word": "escaping",
+    "ja": "逃れること・逃れている",
+    "pos": "動名詞・現在分詞",
+    "lemma": "escape",
+    "form": "escape → escaping",
+    "note": "escape → escaping（動名詞・現在分詞）"
+  },
+  {
+    "word": "evacuation",
+    "ja": "避難",
+    "pos": "名詞",
+    "lemma": "evacuation",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "exchange",
+    "ja": "交換・交流／交換する",
+    "pos": "名詞・動詞",
+    "lemma": "exchange",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "expression",
+    "ja": "表現・言い回し",
+    "pos": "名詞",
+    "lemma": "expression",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "factors",
+    "ja": "要因・要素（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "factor",
+    "form": "factor → factors",
+    "note": "factor → factors（名詞・複数形）"
+  },
+  {
+    "word": "facts",
+    "ja": "事実（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "fact",
+    "form": "fact → facts",
+    "note": "fact → facts（名詞・複数形）"
+  },
+  {
+    "word": "faith",
+    "ja": "信頼・信仰",
+    "pos": "名詞",
+    "lemma": "faith",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "familiarity",
+    "ja": "親しみ・精通",
+    "pos": "名詞",
+    "lemma": "familiarity",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "favorability",
+    "ja": "好感度・好意的評価",
+    "pos": "名詞",
+    "lemma": "favorability",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "façade",
+    "ja": "建物の正面・見かけ",
+    "pos": "名詞",
+    "lemma": "façade",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "feeling",
+    "ja": "感覚・感情",
+    "pos": "名詞・動名詞",
+    "lemma": "feel",
+    "form": "feel → feeling",
+    "note": "feel → feeling（名詞・動名詞）"
+  },
+  {
+    "word": "festival",
+    "ja": "祭り・催し",
+    "pos": "名詞",
+    "lemma": "festival",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "flexibility",
+    "ja": "柔軟性",
+    "pos": "名詞",
+    "lemma": "flexibility",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "footnotes",
+    "ja": "脚注（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "footnote",
+    "form": "footnote → footnotes",
+    "note": "footnote → footnotes（名詞・複数形）"
+  },
+  {
+    "word": "forecast",
+    "ja": "予測・予報／予測する",
+    "pos": "名詞・動詞",
+    "lemma": "forecast",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "foresight",
+    "ja": "先見の明・予見",
+    "pos": "名詞",
+    "lemma": "foresight",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "freeze",
+    "ja": "凍結する・停止する",
+    "pos": "動詞",
+    "lemma": "freeze",
+    "form": "",
+    "note": "動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "gaps",
+    "ja": "格差・隙間・隔たり",
+    "pos": "名詞・複数形",
+    "lemma": "gap",
+    "form": "gap → gaps",
+    "note": "gap → gaps（名詞・複数形）"
+  },
+  {
+    "word": "gather",
+    "ja": "集める・集まる",
+    "pos": "動詞",
+    "lemma": "gather",
+    "form": "",
+    "note": "動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "goods",
+    "ja": "商品・財貨",
+    "pos": "名詞・複数扱い",
+    "lemma": "goods",
+    "form": "",
+    "note": "名詞・複数扱い。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "happen",
+    "ja": "起こる",
+    "pos": "動詞",
+    "lemma": "happen",
+    "form": "",
+    "note": "動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "hardening",
+    "ja": "硬化・厳格化している",
+    "pos": "動名詞・現在分詞",
+    "lemma": "harden",
+    "form": "harden → hardening",
+    "note": "harden → hardening（動名詞・現在分詞）"
+  },
+  {
+    "word": "hiring",
+    "ja": "雇用・採用",
+    "pos": "名詞・動名詞",
+    "lemma": "hire",
+    "form": "hire → hiring",
+    "note": "hire → hiring（名詞・動名詞）"
+  },
+  {
+    "word": "housing",
+    "ja": "住宅・住居",
+    "pos": "名詞",
+    "lemma": "housing",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "immediately",
+    "ja": "ただちに",
+    "pos": "副詞",
+    "lemma": "immediately",
+    "form": "",
+    "note": "副詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "inadequate",
+    "ja": "不十分な",
+    "pos": "形容詞",
+    "lemma": "inadequate",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "inclusion",
+    "ja": "包含・参加させること",
+    "pos": "名詞",
+    "lemma": "inclusion",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "inefficient",
+    "ja": "非効率的な",
+    "pos": "形容詞",
+    "lemma": "inefficient",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "injury",
+    "ja": "けが・負傷",
+    "pos": "名詞",
+    "lemma": "injury",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "insecure",
+    "ja": "不安定な・不安を感じる",
+    "pos": "形容詞",
+    "lemma": "insecure",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "international",
+    "ja": "国際的な",
+    "pos": "形容詞",
+    "lemma": "international",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "interpretation",
+    "ja": "解釈",
+    "pos": "名詞",
+    "lemma": "interpretation",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "invites",
+    "ja": "招く・誘発する",
+    "pos": "三人称単数現在",
+    "lemma": "invite",
+    "form": "invite → invites",
+    "note": "invite → invites（三人称単数現在）"
+  },
+  {
+    "word": "judgments",
+    "ja": "判断・評価（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "judgment",
+    "form": "judgment → judgments",
+    "note": "judgment → judgments（名詞・複数形）"
+  },
+  {
+    "word": "lack",
+    "ja": "不足・欠如／欠く",
+    "pos": "名詞・動詞",
+    "lemma": "lack",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "land",
+    "ja": "土地・上陸する",
+    "pos": "名詞・動詞",
+    "lemma": "land",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "leads",
+    "ja": "導く・つながる",
+    "pos": "三人称単数現在",
+    "lemma": "lead",
+    "form": "lead → leads",
+    "note": "lead → leads（三人称単数現在）"
+  },
+  {
+    "word": "learns",
+    "ja": "学ぶ・身につける",
+    "pos": "三人称単数現在",
+    "lemma": "learn",
+    "form": "learn → learns",
+    "note": "learn → learns（三人称単数現在）"
+  },
+  {
+    "word": "lifespan",
+    "ja": "寿命・存続期間",
+    "pos": "名詞",
+    "lemma": "lifespan",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "lighter",
+    "ja": "より軽い・明るい",
+    "pos": "形容詞・比較級",
+    "lemma": "light",
+    "form": "light → lighter",
+    "note": "light → lighter（形容詞・比較級）"
+  },
+  {
+    "word": "lodging",
+    "ja": "宿泊施設・宿泊",
+    "pos": "名詞",
+    "lemma": "lodging",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "logistics",
+    "ja": "物流・兵站・段取り",
+    "pos": "名詞",
+    "lemma": "logistics",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "loneliness",
+    "ja": "孤独・孤独感",
+    "pos": "名詞",
+    "lemma": "loneliness",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "longing",
+    "ja": "強い憧れ・切望",
+    "pos": "名詞・動名詞",
+    "lemma": "long",
+    "form": "long → longing",
+    "note": "long → longing（名詞・動名詞）"
+  },
+  {
+    "word": "losses",
+    "ja": "損失（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "loss",
+    "form": "loss → losses",
+    "note": "loss → losses（名詞・複数形）"
+  },
+  {
+    "word": "main",
+    "ja": "主な・主要な",
+    "pos": "形容詞",
+    "lemma": "main",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "maintenance",
+    "ja": "保守・維持",
+    "pos": "名詞",
+    "lemma": "maintenance",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "materials",
+    "ja": "材料・資料",
+    "pos": "名詞・複数形",
+    "lemma": "material",
+    "form": "material → materials",
+    "note": "material → materials（名詞・複数形）"
+  },
+  {
+    "word": "matter",
+    "ja": "問題・事柄／重要である",
+    "pos": "名詞・動詞",
+    "lemma": "matter",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "mile",
+    "ja": "マイル（距離単位）",
+    "pos": "名詞",
+    "lemma": "mile",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "mistaken",
+    "ja": "誤った・勘違いした",
+    "pos": "過去分詞・形容詞",
+    "lemma": "mistake",
+    "form": "mistake → mistaken",
+    "note": "mistake → mistaken（過去分詞・形容詞）"
+  },
+  {
+    "word": "monument",
+    "ja": "記念碑・記念建造物",
+    "pos": "名詞",
+    "lemma": "monument",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "naming",
+    "ja": "名前を付けること",
+    "pos": "動名詞",
+    "lemma": "name",
+    "form": "name → naming",
+    "note": "name → naming（動名詞）"
+  },
+  {
+    "word": "narrow",
+    "ja": "狭い／狭める",
+    "pos": "形容詞・動詞",
+    "lemma": "narrow",
+    "form": "",
+    "note": "形容詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "non-punitive",
+    "ja": "懲罰を伴わない",
+    "pos": "形容詞",
+    "lemma": "non-punitive",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "nonparticipation",
+    "ja": "不参加",
+    "pos": "名詞",
+    "lemma": "nonparticipation",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "on-screen",
+    "ja": "画面上の",
+    "pos": "形容詞",
+    "lemma": "on-screen",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "online",
+    "ja": "オンラインの・オンラインで",
+    "pos": "形容詞・副詞",
+    "lemma": "online",
+    "form": "",
+    "note": "形容詞・副詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "options",
+    "ja": "選択肢（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "option",
+    "form": "option → options",
+    "note": "option → options（名詞・複数形）"
+  },
+  {
+    "word": "outcome",
+    "ja": "結果・帰結",
+    "pos": "名詞",
+    "lemma": "outcome",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "outline",
+    "ja": "概要・輪郭／概説する",
+    "pos": "名詞・動詞",
+    "lemma": "outline",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "outlive",
+    "ja": "〜より長く存続する",
+    "pos": "動詞",
+    "lemma": "outlive",
+    "form": "",
+    "note": "動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "outrage",
+    "ja": "強い憤り・憤激",
+    "pos": "名詞",
+    "lemma": "outrage",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "permission",
+    "ja": "許可",
+    "pos": "名詞",
+    "lemma": "permission",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "placement",
+    "ja": "配置・設置・紹介",
+    "pos": "名詞",
+    "lemma": "placement",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "plan",
+    "ja": "計画・計画する",
+    "pos": "名詞・動詞",
+    "lemma": "plan",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "postponement",
+    "ja": "延期",
+    "pos": "名詞",
+    "lemma": "postponement",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "prayer",
+    "ja": "祈り・祈祷",
+    "pos": "名詞",
+    "lemma": "prayer",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "prediction",
+    "ja": "予測",
+    "pos": "名詞",
+    "lemma": "prediction",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "previous",
+    "ja": "以前の・先行する",
+    "pos": "形容詞",
+    "lemma": "previous",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "priced",
+    "ja": "価格が設定された",
+    "pos": "過去分詞",
+    "lemma": "price",
+    "form": "price → priced",
+    "note": "price → priced（過去分詞）"
+  },
+  {
+    "word": "punctual",
+    "ja": "時間を守る・定刻の",
+    "pos": "形容詞",
+    "lemma": "punctual",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "punishment",
+    "ja": "処罰・罰",
+    "pos": "名詞",
+    "lemma": "punishment",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "purchasable",
+    "ja": "購入可能な",
+    "pos": "形容詞",
+    "lemma": "purchase",
+    "form": "purchase → purchasable",
+    "note": "purchase → purchasable（形容詞）"
+  },
+  {
+    "word": "purchases",
+    "ja": "購入（複数）・購入する",
+    "pos": "名詞・複数形／動詞",
+    "lemma": "purchase",
+    "form": "purchase → purchases",
+    "note": "purchase → purchases（名詞・複数形／動詞）"
+  },
+  {
+    "word": "purposes",
+    "ja": "目的（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "purpose",
+    "form": "purpose → purposes",
+    "note": "purpose → purposes（名詞・複数形）"
+  },
+  {
+    "word": "quiet",
+    "ja": "静かな・静けさ",
+    "pos": "形容詞・名詞",
+    "lemma": "quiet",
+    "form": "",
+    "note": "形容詞・名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "ranked",
+    "ja": "順位付けされた",
+    "pos": "過去分詞",
+    "lemma": "rank",
+    "form": "rank → ranked",
+    "note": "rank → ranked（過去分詞）"
+  },
+  {
+    "word": "ratings",
+    "ja": "評価・格付け（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "rating",
+    "form": "rating → ratings",
+    "note": "rating → ratings（名詞・複数形）"
+  },
+  {
+    "word": "reaction",
+    "ja": "反応",
+    "pos": "名詞",
+    "lemma": "reaction",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "reason",
+    "ja": "理由・推論する",
+    "pos": "名詞・動詞",
+    "lemma": "reason",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "recalculation",
+    "ja": "再計算",
+    "pos": "名詞",
+    "lemma": "recalculation",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "recording",
+    "ja": "記録・録音すること",
+    "pos": "名詞・動名詞",
+    "lemma": "record",
+    "form": "record → recording",
+    "note": "record → recording（名詞・動名詞）"
+  },
+  {
+    "word": "records",
+    "ja": "記録（複数）／記録する",
+    "pos": "名詞・複数形／動詞",
+    "lemma": "record",
+    "form": "record → records",
+    "note": "record → records（名詞・複数形／動詞）"
+  },
+  {
+    "word": "redevelopment",
+    "ja": "再開発",
+    "pos": "名詞",
+    "lemma": "redevelopment",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "reducing",
+    "ja": "減らすこと・削減している",
+    "pos": "動名詞・現在分詞",
+    "lemma": "reduce",
+    "form": "reduce → reducing",
+    "note": "reduce → reducing（動名詞・現在分詞）"
+  },
+  {
+    "word": "refusal",
+    "ja": "拒否",
+    "pos": "名詞",
+    "lemma": "refusal",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "remaining",
+    "ja": "残っている",
+    "pos": "現在分詞・形容詞",
+    "lemma": "remain",
+    "form": "remain → remaining",
+    "note": "remain → remaining（現在分詞・形容詞）"
+  },
+  {
+    "word": "remark",
+    "ja": "発言・指摘／述べる",
+    "pos": "名詞・動詞",
+    "lemma": "remark",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "remove",
+    "ja": "取り除く・撤去する",
+    "pos": "動詞",
+    "lemma": "remove",
+    "form": "",
+    "note": "動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "renewal",
+    "ja": "更新・再生",
+    "pos": "名詞",
+    "lemma": "renewal",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "reporting",
+    "ja": "報道・報告",
+    "pos": "名詞・動名詞",
+    "lemma": "report",
+    "form": "report → reporting",
+    "note": "report → reporting（名詞・動名詞）"
+  },
+  {
+    "word": "resistance",
+    "ja": "抵抗・耐性",
+    "pos": "名詞",
+    "lemma": "resistance",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "restricted",
+    "ja": "制限された",
+    "pos": "過去分詞・形容詞",
+    "lemma": "restrict",
+    "form": "restrict → restricted",
+    "note": "restrict → restricted（過去分詞・形容詞）"
+  },
+  {
+    "word": "review",
+    "ja": "見直し・レビュー／検討する",
+    "pos": "名詞・動詞",
+    "lemma": "review",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "revived",
+    "ja": "復活した・再生された",
+    "pos": "過去形・過去分詞",
+    "lemma": "revive",
+    "form": "revive → revived",
+    "note": "revive → revived（過去形・過去分詞）"
+  },
+  {
+    "word": "roads",
+    "ja": "道路（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "road",
+    "form": "road → roads",
+    "note": "road → roads（名詞・複数形）"
+  },
+  {
+    "word": "rooms",
+    "ja": "部屋（複数）・余地",
+    "pos": "名詞・複数形",
+    "lemma": "room",
+    "form": "room → rooms",
+    "note": "room → rooms（名詞・複数形）"
+  },
+  {
+    "word": "roughness",
+    "ja": "粗さ・粗削りであること",
+    "pos": "名詞",
+    "lemma": "roughness",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "résumé",
+    "ja": "履歴書",
+    "pos": "名詞",
+    "lemma": "résumé",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "score",
+    "ja": "得点・点数／採点する",
+    "pos": "名詞・動詞",
+    "lemma": "score",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "scrutiny",
+    "ja": "綿密な検証・精査",
+    "pos": "名詞",
+    "lemma": "scrutiny",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "seconds",
+    "ja": "秒（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "second",
+    "form": "second → seconds",
+    "note": "second → seconds（名詞・複数形）"
+  },
+  {
+    "word": "serve",
+    "ja": "役立つ・提供する",
+    "pos": "動詞",
+    "lemma": "serve",
+    "form": "",
+    "note": "動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "settled",
+    "ja": "決着した・落ち着いた",
+    "pos": "過去形・過去分詞",
+    "lemma": "settle",
+    "form": "settle → settled",
+    "note": "settle → settled（過去形・過去分詞）"
+  },
+  {
+    "word": "shapes",
+    "ja": "形作る・形（複数）",
+    "pos": "動詞・三人称単数／名詞",
+    "lemma": "shape",
+    "form": "shape → shapes",
+    "note": "shape → shapes（動詞・三人称単数／名詞）"
+  },
+  {
+    "word": "shortens",
+    "ja": "短くする・短縮する",
+    "pos": "三人称単数現在",
+    "lemma": "shorten",
+    "form": "shorten → shortens",
+    "note": "shorten → shortens（三人称単数現在）"
+  },
+  {
+    "word": "shortfall",
+    "ja": "不足額・不足分",
+    "pos": "名詞",
+    "lemma": "shortfall",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "spectator",
+    "ja": "観客・傍観者",
+    "pos": "名詞",
+    "lemma": "spectator",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "sponsors",
+    "ja": "支援者・スポンサー（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "sponsor",
+    "form": "sponsor → sponsors",
+    "note": "sponsor → sponsors（名詞・複数形）"
+  },
+  {
+    "word": "spontaneous",
+    "ja": "自発的な・自然発生的な",
+    "pos": "形容詞",
+    "lemma": "spontaneous",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "stations",
+    "ja": "駅・拠点（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "station",
+    "form": "station → stations",
+    "note": "station → stations（名詞・複数形）"
+  },
+  {
+    "word": "story's",
+    "ja": "物語の",
+    "pos": "名詞・所有格",
+    "lemma": "story",
+    "form": "story → story's",
+    "note": "story → story's（名詞・所有格）"
+  },
+  {
+    "word": "strangeness",
+    "ja": "奇妙さ",
+    "pos": "名詞",
+    "lemma": "strangeness",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "stretch",
+    "ja": "伸ばす・広がる範囲",
+    "pos": "動詞・名詞",
+    "lemma": "stretch",
+    "form": "",
+    "note": "動詞・名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "structures",
+    "ja": "構造・建造物（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "structure",
+    "form": "structure → structures",
+    "note": "structure → structures（名詞・複数形）"
+  },
+  {
+    "word": "succeeded",
+    "ja": "成功した・引き継いだ",
+    "pos": "過去形・過去分詞",
+    "lemma": "succeed",
+    "form": "succeed → succeeded",
+    "note": "succeed → succeeded（過去形・過去分詞）"
+  },
+  {
+    "word": "supposed",
+    "ja": "〜と考えられている・〜のはずの",
+    "pos": "過去分詞・形容詞",
+    "lemma": "suppose",
+    "form": "suppose → supposed",
+    "note": "suppose → supposed（過去分詞・形容詞）"
+  },
+  {
+    "word": "taller",
+    "ja": "より高い",
+    "pos": "形容詞・比較級",
+    "lemma": "tall",
+    "form": "tall → taller",
+    "note": "tall → taller（形容詞・比較級）"
+  },
+  {
+    "word": "temporary",
+    "ja": "一時的な",
+    "pos": "形容詞",
+    "lemma": "temporary",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "topic",
+    "ja": "話題・主題",
+    "pos": "名詞",
+    "lemma": "topic",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "tourism",
+    "ja": "観光業・観光",
+    "pos": "名詞",
+    "lemma": "tourism",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "tradable",
+    "ja": "取引可能な",
+    "pos": "形容詞",
+    "lemma": "trade",
+    "form": "trade → tradable",
+    "note": "trade → tradable（形容詞）"
+  },
+  {
+    "word": "type",
+    "ja": "種類・型／入力する",
+    "pos": "名詞・動詞",
+    "lemma": "type",
+    "form": "",
+    "note": "名詞・動詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "urban",
+    "ja": "都市の",
+    "pos": "形容詞",
+    "lemma": "urban",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "uses",
+    "ja": "用途・使用する",
+    "pos": "名詞・複数形／動詞",
+    "lemma": "use",
+    "form": "use → uses",
+    "note": "use → uses（名詞・複数形／動詞）"
+  },
+  {
+    "word": "vacant",
+    "ja": "空いている・空席の",
+    "pos": "形容詞",
+    "lemma": "vacant",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "values",
+    "ja": "価値観（複数）・価値／評価する",
+    "pos": "名詞・複数形／動詞",
+    "lemma": "value",
+    "form": "value → values",
+    "note": "value → values（名詞・複数形／動詞）"
+  },
+  {
+    "word": "vast",
+    "ja": "広大な・非常に大きな",
+    "pos": "形容詞",
+    "lemma": "vast",
+    "form": "",
+    "note": "形容詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "venue",
+    "ja": "会場・開催地",
+    "pos": "名詞",
+    "lemma": "venue",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "venues",
+    "ja": "会場・開催地（複数）",
+    "pos": "名詞・複数形",
+    "lemma": "venue",
+    "form": "venue → venues",
+    "note": "venue → venues（名詞・複数形）"
+  },
+  {
+    "word": "violence",
+    "ja": "暴力",
+    "pos": "名詞",
+    "lemma": "violence",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "visibility",
+    "ja": "視認性・見えやすさ",
+    "pos": "名詞",
+    "lemma": "visibility",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "waterfront",
+    "ja": "水辺・臨海地域",
+    "pos": "名詞",
+    "lemma": "waterfront",
+    "form": "",
+    "note": "名詞。文中の用法によって訳語を選ぶ。"
+  },
+  {
+    "word": "weaker",
+    "ja": "より弱い",
+    "pos": "形容詞・比較級",
+    "lemma": "weak",
+    "form": "weak → weaker",
+    "note": "weak → weaker（形容詞・比較級）"
+  }
+]
