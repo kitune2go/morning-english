@@ -98,7 +98,7 @@ const askDrafts=new Map();
 let wordGlossary=new Map(),contextGlossary={};
 async function loadSharedGlossary(){
   try{
-    const files=await Promise.all(["books/happy-prince/lexicon.json","books/happy-prince/extended-glossary.json","literature/essay-glossary-abcdef.json","literature/essay-glossary-ghijkl.json","literature/essay-glossary-mnopqr.json","literature/essay-glossary-stuv.json","literature/essay-glossary-wxyz.json","literature/essay-glossary-custom.json"].map(fetchJson));
+    const files=await Promise.all(["books/happy-prince/lexicon.json","books/happy-prince/extended-glossary.json","literature/essay-glossary-abcdef.json","literature/essay-glossary-ghijkl.json","literature/essay-glossary-mnopqr.json","literature/essay-glossary-stuv.json","literature/essay-glossary-wxyz.json","literature/essay-glossary-custom.json","literature/essay-glossary-recent.json"].map(fetchJson));
     wordGlossary=new Map(files.flat().filter(x=>x&&typeof x.word==='string').map(x=>[x.word.toLowerCase().replace(/’/g,"'"),x]));
   }catch(err){console.warn('英和辞典を読み込めませんでした。単語の質問リンクは利用できます。',err);wordGlossary=new Map();}
   try{const data=await fetchJson('literature/essay-context-glossary.json');contextGlossary=data&&typeof data==='object'&&!Array.isArray(data)?data:{};}
@@ -193,6 +193,55 @@ function updateBookmarkToolbar(){const jump=document.getElementById('bookmarkJum
 function renderCards(){stopSpeech();const content=document.getElementById('content');const cards=selectedChapter==='all'?allCards:allCards.filter(c=>String(c.chapter)===String(selectedChapter));content.innerHTML=cards.map(renderCard).join('');renderProgress();}
 function speakButton(label,text,lang,extraClass=''){return `<button class="btn speak-btn speech-action ${extraClass}" data-label="${escapeAttr(label)}" data-lang="${escapeAttr(lang)}" data-speak-text="${escapeAttr(text)}">▶ ${escapeHtml(label)}</button>`;}
 
+// Context comes first, then exact entries; only unknown forms use cautious lemma lookup.
+function normalizedWord(word){return String(word).toLowerCase().replace(/’/g,"'");}
+function lemmaCandidates(word){
+  const candidates=[];
+  const add=(base,description)=>{if(base&&base!==word&&!candidates.some(x=>x.base===base))candidates.push({base,description});};
+  if(word.endsWith("'s"))add(word.slice(0,-2),"所有格");
+  if(word.endsWith("ies")&&word.length>4)add(word.slice(0,-3)+"y","複数形または三人称単数形");
+  if(word.endsWith("ier")&&word.length>4)add(word.slice(0,-3)+"y","比較級");
+  if(word.endsWith("iest")&&word.length>5)add(word.slice(0,-4)+"y","最上級");
+  if(word.endsWith("ing")&&word.length>5){
+    add(word.slice(0,-3),"現在分詞または動名詞");
+    add(word.slice(0,-3)+"e","現在分詞または動名詞");
+  }
+  if(word.endsWith("ed")&&word.length>4){
+    add(word.slice(0,-2),"過去形または過去分詞");
+    add(word.slice(0,-1),"過去形または過去分詞");
+  }
+  if(word.endsWith("es")&&word.length>3){
+    add(word.slice(0,-2),"複数形または三人称単数形");
+    add(word.slice(0,-1),"複数形または三人称単数形");
+  }else if(word.endsWith("s")&&word.length>2)add(word.slice(0,-1),"複数形または三人称単数形");
+  if(word.endsWith("er")&&word.length>4)add(word.slice(0,-2),"比較級の可能性");
+  if(word.endsWith("est")&&word.length>5)add(word.slice(0,-3),"最上級の可能性");
+  return candidates;
+}
+function resolveWordGloss(token,contextWords){
+  const key=normalizedWord(token);
+  const context=Object.prototype.hasOwnProperty.call(contextWords,key)?contextWords[key]:null;
+  const exact=wordGlossary.get(key);
+  if(context&&typeof context.ja==='string')return {info:{...(exact||{}),...context},kind:'文脈訳'};
+  if(exact&&typeof exact.ja==='string')return {info:exact,kind:'一般語義'};
+  for(const candidate of lemmaCandidates(key)){
+    const base=wordGlossary.get(candidate.base);
+    if(base&&typeof base.ja==='string'){
+      return {info:{...base,lemma:candidate.base,form:base.form||candidate.description,
+        note:base.note?.includes('英和辞典の一般的な語義')?'推定した原形を参照。本文の品詞・意味は要確認。':base.note},
+        kind:'原形参照'};
+    }
+  }
+  return null;
+}
+function glossDetail(info,key){
+  const parts=[];
+  if(info.pos)parts.push('品詞：'+info.pos);
+  if(info.lemma&&normalizedWord(info.lemma)!==key)parts.push('原形：'+info.lemma);
+  if(info.form)parts.push('語形：'+info.form);
+  return parts.length?'<p class="word-usage" lang="ja">'+escapeHtml(parts.join(' ／ '))+'</p>':'';
+}
+
 function renderChunk(ch,i,card){
   const en=ch.en||'',ja=ch.ja||'';
   const context=(contextGlossary[card.id]||[])[i]||{},contextWords=context.words||{};
@@ -201,14 +250,15 @@ function renderChunk(ch,i,card){
   const tokens=en.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[];
   const words=tokens.map(token=>{
     const key=token.toLowerCase().replace(/’/g,"'");
-    const isContext=Object.prototype.hasOwnProperty.call(contextWords,key);
-    const info=isContext?contextWords[key]:wordGlossary.get(key);
+    const entry=resolveWordGloss(token,contextWords);
     const word=escapeHtml(token);
-    if(info&&typeof info.ja==='string'){
+    if(entry){
+      const info=entry.info,isContext=entry.kind==='文脈訳';
       return '<div class="word-line"><div class="word-head"><strong class="word-en" lang="en">'+word+'</strong>'+
-        '<span class="word-kind'+(isContext?' context':'')+'">'+(isContext?'文脈訳':'一般語義')+'</span>'+
+        '<span class="word-kind'+(isContext?' context':'')+'">'+entry.kind+'</span>'+
         '<span class="word-meaning" lang="ja">'+escapeHtml(info.ja)+'</span></div>'+
-        (info.note?'<p class="word-usage" lang="ja">'+escapeHtml(info.note)+'</p>':'')+'</div>';
+        glossDetail(info,key)+
+        (info.note&&info.note!==info.form?'<p class="word-usage" lang="ja">'+escapeHtml(info.note)+'</p>':'')+'</div>';
     }
     const link=askChatUrl(card,'次の英単語について、品詞・この文章での意味・語形変化を具体的に説明してください：'+token,en);
     return '<div class="word-line"><div class="word-head"><strong class="word-en" lang="en">'+word+'</strong>'+
