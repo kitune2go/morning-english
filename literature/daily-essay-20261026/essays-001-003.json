@@ -1,0 +1,162 @@
+[
+  {
+    "id": "DE-20261026-001",
+    "sourceTitle": "笑顔の向こうへ利益は流れる",
+    "workId": "daily-essay-20261026",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "マイクの前の成功",
+    "jp": "マイクの前では、作品が続く喜びと、支えてくれた人への感謝が語られる。その言葉が偽りだとは限らない。しかし、出演者に仕事が生まれたことと、国内の産業に利益が残ることは別の勘定である。笑顔は個人の成功を映せても、開発元、知的財産、運営収益がどこへ流れるかまでは映さない。明るい声を聞くほど、その背後の帳簿も開きたくなる。",
+    "translationLiteral": "In front of the microphone, people speak of the joy that a work continues and their gratitude to those who supported it. Those words are not necessarily false. However, the creation of work for a performer and the retention of profit in domestic industry belong to separate accounts. A smile can show individual success, but it does not show where the developer, intellectual property, and operating revenue are located. The brighter the voice sounds, the more one wants to open the ledger behind it.",
+    "translationNatural": "At the microphone, gratitude and the joy of a continuing project may be perfectly sincere. Yet a performer's new job and an industry's retained profit belong to different ledgers. A smile can display personal success without revealing where development, intellectual property, and operating revenue ultimately reside. The brighter the voice, the more necessary it becomes to inspect the accounts behind it.",
+    "imageUrl": "",
+    "imageCaption": "明るいマイクの背後で、見えない帳簿の線が国外へ伸びている。",
+    "imagePrompt": "A bright studio microphone and smiling silhouette in front, with faint ledger lines flowing beyond the frame behind them, restrained editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "At the microphone, gratitude and the joy of a continuing project may be perfectly sincere.",
+        "ja": "マイクの前で語られる感謝や作品継続の喜びは、まったく誠実かもしれない。"
+      },
+      {
+        "en": "Yet a performer's new job and an industry's retained profit belong to different ledgers.",
+        "ja": "しかし、出演者の新しい仕事と産業に残る利益は、別の帳簿に属する。"
+      },
+      {
+        "en": "A smile can display personal success without revealing where development, intellectual property, and operating revenue ultimately reside.",
+        "ja": "笑顔は個人の成功を示せても、開発・知的財産・運営収益が最終的にどこへ残るかは明かさない。"
+      },
+      {
+        "en": "The brighter the voice, the more necessary it becomes to inspect the accounts behind it.",
+        "ja": "声が明るいほど、その背後の勘定を調べる必要は増す。"
+      }
+    ],
+    "grammar": [
+      "may be は誠実さを断定せず可能性として示す。",
+      "Yet は個人の成功と産業収益を対照する。",
+      "belong to different ledgers は二つの評価軸を比喩的に分ける。",
+      "without -ing は笑顔が明かさない情報を示す。",
+      "where S V は revealing の目的語となる名詞節。",
+      "The 比較級, the 比較級 は声の明るさと検証必要性の連動を表す。"
+    ],
+    "translationNote": "literal は発言の誠実さを否定せず、個人の仕事と国内産業の利益を別勘定として追った。natural は retained profit と ultimately reside を用い、感情の真偽ではなく利益の帰着先へ焦点を移した。",
+    "readingPoint": "導入。宣伝の言葉をただ欺瞞と切り捨てず、その言葉が映せる成功の範囲と、映せない収益構造を分ける。",
+    "keywords": [
+      "microphone",
+      "gratitude",
+      "performer",
+      "retained profit",
+      "ledger",
+      "revenue"
+    ]
+  },
+  {
+    "id": "DE-20261026-002",
+    "sourceTitle": "笑顔の向こうへ利益は流れる",
+    "workId": "daily-essay-20261026",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "市場を使う声",
+    "jp": "海外で作られたゲームに日本語の声が加わると、それは日本人が海外で活躍した話にも見える。けれども、日本語が主に国内市場へ入るための鍵として使われるなら、働き手の越境と市場攻略は同じではない。出演料は国内へ入っても、作品の所有権と継続的な収益が外へ残ることはある。市場が賑わうことと、その市場を育てる力が国内に積み上がることを、同じ拍手で数えてはいけない。",
+    "translationLiteral": "When Japanese voices are added to a game made abroad, it can look like a story of Japanese workers succeeding overseas. But if Japanese is used mainly as a key for entering the domestic market, the worker's crossing of borders and the capture of a market are not the same thing. Performance fees may enter the country while ownership of the work and continuing revenue remain outside. A lively market and the accumulation of domestic capacity to develop that market should not be counted with the same applause.",
+    "translationNatural": "Adding Japanese voices to a foreign-made game can look like overseas success. But if the language mainly serves as a key to Japan's market, a performer's cross-border work is not the same as domestic industrial growth. Fees may flow inward while ownership and recurring revenue remain elsewhere. Market activity and the capacity retained at home must therefore be counted separately.",
+    "imageUrl": "",
+    "imageCaption": "日本語の吹き出しが入口を開く一方、所有権と継続収益の矢印は別方向へ伸びる。",
+    "imagePrompt": "A Japanese speech bubble opening a market gate while arrows labeled only by abstract symbols for ownership and recurring revenue flow in another direction, editorial illustration, no readable words",
+    "chunks": [
+      {
+        "en": "Adding Japanese voices to a foreign-made game can look like overseas success.",
+        "ja": "海外製ゲームに日本語音声を加えることは、海外での成功のように見える。"
+      },
+      {
+        "en": "But if the language mainly serves as a key to Japan's market,",
+        "ja": "しかし、その言語が主に日本市場への鍵として働くなら、"
+      },
+      {
+        "en": "a performer's cross-border work is not the same as domestic industrial growth.",
+        "ja": "出演者の越境的な仕事は、国内産業の成長と同じではない。"
+      },
+      {
+        "en": "Fees may flow inward while ownership and recurring revenue remain elsewhere.",
+        "ja": "出演料は国内へ流れても、所有権と継続収益は別の場所に残りうる。"
+      },
+      {
+        "en": "Market activity and the capacity retained at home must therefore be counted separately.",
+        "ja": "したがって、市場の活況と国内に残る能力は別々に数えなければならない。"
+      }
+    ],
+    "grammar": [
+      "Adding ... は動名詞句を主語にする。",
+      "can look like は外見上の評価を示す。",
+      "if S V は条件を置き、言語の役割を限定する。",
+      "not the same as は越境労働と産業成長を区別する。",
+      "while は出演料の流入と所有権の所在を対照する。",
+      "must be counted は評価方法の必要性を受動態で示す。"
+    ],
+    "translationNote": "literal は『市場攻略』という強い表現と拍手の比喩を残した。natural は cross-border work と industrial growth を対置し、所有権と recurring revenue の所在地を簡潔に明示した。",
+    "readingPoint": "展開。個人の国際的な仕事を否定せず、それが国内の所有・開発能力・継続収益に直結するとは限らないことを示す。",
+    "keywords": [
+      "localization",
+      "ownership",
+      "recurring revenue",
+      "domestic market",
+      "industrial capacity"
+    ]
+  },
+  {
+    "id": "DE-20261026-003",
+    "sourceTitle": "笑顔の向こうへ利益は流れる",
+    "workId": "daily-essay-20261026",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "中央値の低い客席",
+    "jp": "大きな売上や華やかな周年は、客席の暮らしまで豊かにした証拠にはならない。輸入や海外サービスへの支払いが積み重なり、所得の中央値が下がるなら、国内市場は見かけより細くなる。平均や総額は、資本に近い側の余裕を含んだまま上を向くことがある。しかし中央にいる人の財布が軽くなれば、拍手を続ける力も弱る。市場を守るとは商品を売り続けることではなく、買える生活を残すことでもある。",
+    "translationLiteral": "Large sales and splendid anniversaries do not prove that life in the audience has also become richer. If payments for imports and overseas services accumulate while median income falls, the domestic market becomes thinner than it appears. Averages and totals can point upward while still including the comfort of those close to capital. But when the wallet of the person in the middle grows lighter, the ability to keep applauding also weakens. Protecting a market means not only continuing to sell products but also preserving a life in which people can buy them.",
+    "translationNatural": "Large sales and bright anniversaries do not prove that the audience has grown wealthier. When overseas payments rise while median income falls, the domestic market may be thinner than headline totals suggest. Averages can remain buoyant because they include those closest to capital; the middle person's wallet tells a different story. A market survives not only through products to sell, but through lives that can still afford them.",
+    "imageUrl": "",
+    "imageCaption": "華やかな舞台の下で、中央の客席だけが薄い財布を開いている。",
+    "imagePrompt": "A bright anniversary stage above an audience, with the central seat quietly opening a nearly empty wallet, subtle editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Large sales and bright anniversaries do not prove that the audience has grown wealthier.",
+        "ja": "大きな売上や華やかな周年は、観客が豊かになった証明にはならない。"
+      },
+      {
+        "en": "When overseas payments rise while median income falls,",
+        "ja": "海外への支払いが増える一方で所得中央値が下がると、"
+      },
+      {
+        "en": "the domestic market may be thinner than headline totals suggest.",
+        "ja": "国内市場は見出しの総額が示すより細いかもしれない。"
+      },
+      {
+        "en": "Averages can remain buoyant because they include those closest to capital; the middle person's wallet tells a different story.",
+        "ja": "平均は資本に近い人々を含むため高く保たれうるが、中央の人の財布は別の物語を語る。"
+      },
+      {
+        "en": "A market survives not only through products to sell, but through lives that can still afford them.",
+        "ja": "市場は売る商品だけでなく、それをまだ買える暮らしによっても存続する。"
+      }
+    ],
+    "grammar": [
+      "do not prove that は総額から生活水準を直結させない。",
+      "When と while は海外支払い増と中央値低下を同時に示す。",
+      "thinner than は市場の実質を見出し総額と比較する。",
+      "because は平均が高く見える理由を示す。",
+      "not only A, but B は商品と購買可能な生活を並列する。",
+      "that can still afford them は lives を修飾する関係詞節。"
+    ],
+    "translationNote": "literal は『拍手を続ける力』まで市場参加の持続性として描いた。natural は headline totals と middle person's wallet を対照し、中央値が国内需要を測る意味を自然な英語へ整理した。",
+    "readingPoint": "転換と余韻。利益の帰着先を追う視線を、最後に購買者の生活へ戻す。市場の存続条件を供給側だけでなく需要側から捉え直す。",
+    "keywords": [
+      "median income",
+      "domestic market",
+      "purchasing power",
+      "averages",
+      "capital",
+      "affordability"
+    ]
+  }
+]
