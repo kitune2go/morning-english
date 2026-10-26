@@ -1,0 +1,167 @@
+[
+  {
+    "id": "DE-20260925-001",
+    "sourceTitle": "街の本文から脚注が落ちる",
+    "workId": "daily-essay-20260925",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "建物は計画より長く立つ",
+    "jp": "都市の建物は、建てた人の計画より長く立つ。完成した瞬間には権威や成長の象徴でも、年月が過ぎれば補修、更新、避難、安全という別の問いを抱える。外観が同じでも、内部の設備と、それを維持する人の条件は古くなる。建築は完成の日に終わらない。未来へ残すとは、形を保存することだけではなく、使い続ける費用と危険を誰が引き受けるかを決め直すことである。",
+    "translationLiteral": "Urban buildings stand longer than the plans of the people who built them. At completion they may symbolize authority or growth, but as years pass they hold different questions of repair, renewal, evacuation, and safety. Even if the exterior remains the same, the equipment inside and the conditions of the people maintaining it grow old. Architecture does not end on the day of completion. Leaving it to the future means not only preserving its form but deciding again who will bear the cost and danger of continued use.",
+    "translationNatural": "City buildings often outlive the plans that produced them. A structure celebrated as authority or growth at completion eventually accumulates questions of repair, renewal, evacuation, and safety. Its façade may remain familiar while equipment and working conditions age inside. Architecture is not finished when construction ends. To preserve a building is also to decide who will carry the cost and risk of keeping it usable.",
+    "imageUrl": "",
+    "imageCaption": "変わらない外壁の内側で、配管と避難経路と作業者だけが年を重ねている。",
+    "imagePrompt": "An unchanged civic building facade cut away to reveal aging pipes, evacuation routes, and maintenance workers inside, quiet editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "City buildings often outlive the plans that produced them.",
+        "ja": "都市の建物は、それを生んだ計画より長く残ることが多い。"
+      },
+      {
+        "en": "A structure celebrated as authority or growth at completion eventually accumulates questions of repair, renewal, evacuation, and safety.",
+        "ja": "完成時に権威や成長として祝われた建物も、やがて補修・更新・避難・安全の問題を蓄える。"
+      },
+      {
+        "en": "Its façade may remain familiar while equipment and working conditions age inside.",
+        "ja": "外観は見慣れたままでも、内部の設備と労働条件は古くなる。"
+      },
+      {
+        "en": "Architecture is not finished when construction ends.",
+        "ja": "建築は工事が終わったときに完了するのではない。"
+      },
+      {
+        "en": "To preserve a building is also to decide who will carry the cost and risk of keeping it usable.",
+        "ja": "建物を保存することは、使える状態を保つ費用と危険を誰が負うか決めることでもある。"
+      }
+    ],
+    "grammar": [
+      "outlive は計画より建物の寿命が長いことを一語で表す。",
+      "that produced them は plans を修飾する。",
+      "celebrated as は完成時の評価を過去分詞で補う。",
+      "while は外観と内部の老朽化を対照する。",
+      "when は完成と見なされる時点を示す。",
+      "To preserve ... is ... は不定詞句を主語にする。"
+    ],
+    "translationNote": "literal は『未来へ残す』を誰が費用と危険を負うかという再決定まで追った。natural は outlive と keeping it usable を用い、建物の寿命と維持責任を簡潔に結んだ。",
+    "readingPoint": "導入。都市の象徴を完成時の姿ではなく、その後に積み上がる保守と安全の時間から見る。",
+    "keywords": [
+      "infrastructure",
+      "maintenance",
+      "safety",
+      "lifespan",
+      "working conditions",
+      "risk"
+    ]
+  },
+  {
+    "id": "DE-20260925-002",
+    "sourceTitle": "街の本文から脚注が落ちる",
+    "workId": "daily-essay-20260925",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "成功だけが本文になる",
+    "jp": "街が自分の歴史を語るとき、再開発、文化、成功した人物は本文に置かれやすい。その一方で、追い出された人、災害の混乱で傷つけられた人、建設や物流を支えた人の損失は脚注へ送られる。脚注があるだけ誠実だとも言えるが、本文の歩調はほとんど乱れない。他人の損失を小さな文字へ押し込み、自分の成功だけを大きく語るなら、都市の自伝は記録であると同時に編集でもある。",
+    "translationLiteral": "When a city tells its own history, redevelopment, culture, and successful people are easily placed in the main text. Meanwhile, the losses of people who were displaced, people harmed in the confusion of disaster, and people who supported construction and logistics are sent to footnotes. One might say it is honest merely to have footnotes, yet the pace of the main text is hardly disturbed. If the city pushes other people's losses into small type and speaks loudly only of its own success, its autobiography is both a record and an act of editing.",
+    "translationNatural": "A city's autobiography tends to place redevelopment, culture, and celebrated lives in the main text. Displacement, violence amid disaster, and the labor behind construction and logistics are more easily reduced to footnotes. Their inclusion may look honest, yet the story's confident pace remains intact. When other people's losses appear only in small type, urban history becomes not just a record but an editorial decision.",
+    "imageUrl": "",
+    "imageCaption": "大きな文字の都市史の下で、小さな脚注だけが人々の損失を抱えている。",
+    "imagePrompt": "A grand city history book with large triumphant paragraphs and tiny footnotes carrying silhouettes of displaced workers and residents, editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "A city's autobiography tends to place redevelopment, culture, and celebrated lives in the main text.",
+        "ja": "都市の自伝は、再開発・文化・称賛される人生を本文へ置きがちだ。"
+      },
+      {
+        "en": "Displacement, violence amid disaster, and the labor behind construction and logistics are more easily reduced to footnotes.",
+        "ja": "立ち退き、災害時の暴力、建設や物流を支えた労働は脚注へ縮小されやすい。"
+      },
+      {
+        "en": "Their inclusion may look honest, yet the story's confident pace remains intact.",
+        "ja": "それらを含めることは誠実に見えても、物語の自信に満ちた歩調は崩れない。"
+      },
+      {
+        "en": "When other people's losses appear only in small type,",
+        "ja": "他人の損失が小さな文字にしか現れないとき、"
+      },
+      {
+        "en": "urban history becomes not just a record but an editorial decision.",
+        "ja": "都市史は単なる記録ではなく、編集上の決定になる。"
+      }
+    ],
+    "grammar": [
+      "tend to は本文化されやすい傾向を示す。",
+      "are reduced to は損失が脚注へ縮小される受動態。",
+      "may A, yet B は見かけの誠実さと物語の継続を対照する。",
+      "When S V は編集性が明らかになる条件を示す。",
+      "not just A but B は記録と編集判断を重ねる。",
+      "behind は表面に出ない支えを位置関係で表す。"
+    ],
+    "translationNote": "literal は街が自分の成功を大きく語る主体性を残した。natural は autobiography と editorial decision を軸に、何を本文にし何を脚注にするかが歴史叙述そのものだと整理した。",
+    "readingPoint": "展開。物理的な建物の維持から、都市が自らを正当化する物語の維持へ移る。省略も歴史の一部である。",
+    "keywords": [
+      "urban history",
+      "footnote",
+      "displacement",
+      "labor",
+      "autobiography",
+      "editing"
+    ]
+  },
+  {
+    "id": "DE-20260925-003",
+    "sourceTitle": "街の本文から脚注が落ちる",
+    "workId": "daily-essay-20260925",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "最後の一歩は人が運ぶ",
+    "jp": "巨大な駅や道路や通信網が整っても、最後の区間では誰かの足と手が働く。荷物を玄関へ運ぶ人、古い設備を点検する人、混乱の中で避難を支える人は、都市の図面では細い線にしか見えない。だが、その線が切れれば大きな仕組みも届かない。街の本当の寿命は、象徴的な建物の年数だけでは測れない。最後の一歩を担う人を、本文へ戻し続けられる長さでも測られる。",
+    "translationLiteral": "Even when huge stations, roads, and communication networks are complete, someone's feet and hands work in the final section. The people who carry packages to doors, inspect old equipment, and support evacuation amid confusion appear only as thin lines on the city's plans. But if those lines break, the large system cannot reach its destination. The true lifespan of a city cannot be measured only by the age of symbolic buildings. It is also measured by how long the people carrying the final step can continue to be returned to the main text.",
+    "translationNatural": "Even the largest stations, roads, and networks depend on human hands at the final stretch. Delivery workers, maintenance crews, and people supporting evacuation may appear as thin lines on a city plan, but the whole system fails to arrive when those lines break. A city's lifespan is not measured only by its monuments. It also depends on how long the people carrying the last mile remain visible in the main text.",
+    "imageUrl": "",
+    "imageCaption": "巨大な都市網の最後の細い線を、一人の作業者が手でつないでいる。",
+    "imagePrompt": "A vast urban network narrowing into one final thin line held together by a maintenance worker's hands, dignified editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Even the largest stations, roads, and networks depend on human hands at the final stretch.",
+        "ja": "最大級の駅・道路・通信網でさえ、最後の区間では人の手に依存する。"
+      },
+      {
+        "en": "Delivery workers, maintenance crews, and people supporting evacuation may appear as thin lines on a city plan,",
+        "ja": "配達員、保守作業員、避難を支える人々は都市計画上の細い線に見えるかもしれないが、"
+      },
+      {
+        "en": "but the whole system fails to arrive when those lines break.",
+        "ja": "その線が切れると、仕組み全体が届かなくなる。"
+      },
+      {
+        "en": "A city's lifespan is not measured only by its monuments.",
+        "ja": "都市の寿命は記念的建築物だけで測られない。"
+      },
+      {
+        "en": "It also depends on how long the people carrying the last mile remain visible in the main text.",
+        "ja": "最後の区間を担う人々がどれだけ長く本文に見え続けるかにも依存する。"
+      }
+    ],
+    "grammar": [
+      "Even は巨大インフラにも例外がないことを強調する。",
+      "depend on は最終区間の人的依存を示す。",
+      "supporting evacuation は people を現在分詞で修飾する。",
+      "may A, but B は図面上の小ささと実際の重要性を対照する。",
+      "when those lines break は機能停止の条件を示す。",
+      "how long S V は depends on の目的語となる名詞節。"
+    ],
+    "translationNote": "literal は『本文へ戻し続ける』という歴史叙述の比喩を保持した。natural は last mile と remain visible を使い、物流・保守・避難を前カードの本文と脚注の構図へ戻した。",
+    "readingPoint": "転換と余韻。都市の大きさを支える細い人的経路へ焦点を戻し、維持する人を可視化できる期間を街の寿命として捉える。",
+    "keywords": [
+      "last mile",
+      "maintenance",
+      "delivery",
+      "evacuation",
+      "visibility",
+      "urban lifespan"
+    ]
+  }
+]
