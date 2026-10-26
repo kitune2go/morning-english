@@ -17,7 +17,7 @@ const tokens=(s)=>(String(s).match(TOKEN_REGEX)||[]).map(normalize);
 
 const glossaryPaths=[
   'books/happy-prince/lexicon.json','books/happy-prince/extended-glossary.json',
-  ...['abcdef','ghijkl','mnopqr','stuv','wxyz','custom','recent']
+  ...['abcdef','ghijkl','mnopqr','stuv','wxyz','custom','recent','legacy-gapfill']
      .map(s=>'literature/essay-glossary-'+s+'.json')
 ];
 const glossary=new Map();
