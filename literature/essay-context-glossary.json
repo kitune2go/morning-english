@@ -1076,5 +1076,1463 @@
         }
       ]
     }
+  ],
+  "DE-20261025-001": [
+    {
+      "words": {
+        "usefulness": {
+          "ja": "有用性・実用性",
+          "pos": "名詞",
+          "lemma": "useful",
+          "form": "useful + -ness（形容詞から名詞）",
+          "note": "useful + -ness（形容詞から名詞）"
+        },
+        "debates": {
+          "ja": "AI音楽についての議論"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "begin": {
+          "ja": "始まる"
+        },
+        "its": {
+          "ja": "AI音楽の"
+        },
+        "professional": {
+          "ja": "プロの制作現場における"
+        },
+        "production": {
+          "ja": "制作・製作"
+        }
+      },
+      "phrases": [
+        {
+          "en": "begin with",
+          "ja": "〜から始まる",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "its usefulness in professional production",
+          "ja": "プロの制作現場におけるAI音楽の実用性",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "quieter": {
+          "ja": "より静かな",
+          "pos": "形容詞・比較級",
+          "lemma": "quiet",
+          "form": "quiet → quieter（比較級）",
+          "note": "quiet → quieter（比較級）"
+        },
+        "occurs": {
+          "ja": "起こる",
+          "pos": "動詞・三人称単数現在",
+          "lemma": "occur",
+          "form": "occur → occurs",
+          "note": "occur → occurs"
+        },
+        "listeners": {
+          "ja": "聴き手たち",
+          "pos": "名詞・複数形",
+          "lemma": "listener",
+          "form": "listener → listeners",
+          "note": "listener → listeners"
+        },
+        "songs": {
+          "ja": "曲（複数）",
+          "pos": "名詞・複数形",
+          "lemma": "song",
+          "form": "song → songs",
+          "note": "song → songs"
+        },
+        "change": {
+          "ja": "変化"
+        },
+        "when": {
+          "ja": "〜するときに"
+        },
+        "generate": {
+          "ja": "自ら生成する"
+        },
+        "want": {
+          "ja": "自分が欲しい"
+        },
+        "themselves": {
+          "ja": "聴き手自身のために"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the songs they want",
+          "ja": "自分たちが欲しい曲",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "for themselves",
+          "ja": "自分自身のために",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "competitor": {
+          "ja": "競争相手",
+          "pos": "名詞",
+          "lemma": "competitor",
+          "form": "",
+          "note": "competitor：この文章での意味"
+        },
+        "market": {
+          "ja": "音楽市場"
+        },
+        "does": {
+          "ja": "単に〜するのではない"
+        },
+        "merely": {
+          "ja": "単に〜だけ"
+        },
+        "gain": {
+          "ja": "得る・迎える"
+        },
+        "new": {
+          "ja": "新たな"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not merely gain",
+          "ja": "単に新しい競争相手を得るだけではない",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "former": {
+          "ja": "かつての・以前の",
+          "pos": "形容詞",
+          "lemma": "former",
+          "form": "",
+          "note": "former：この文章での意味"
+        },
+        "consumer": {
+          "ja": "消費者",
+          "pos": "名詞",
+          "lemma": "consumer",
+          "form": "",
+          "note": "consumer：この文章での意味"
+        },
+        "producer's": {
+          "ja": "制作者の",
+          "pos": "名詞・所有格",
+          "lemma": "producer",
+          "form": "producer + 's（所有格）",
+          "note": "producer + 's（所有格）"
+        },
+        "satisfies": {
+          "ja": "満たす",
+          "pos": "動詞・三人称単数現在",
+          "lemma": "satisfy",
+          "form": "satisfy → satisfies（y を ies に変更）",
+          "note": "satisfy → satisfies（y を ies に変更）"
+        },
+        "visiting": {
+          "ja": "訪れること",
+          "pos": "動名詞",
+          "lemma": "visit",
+          "form": "visit → visiting（without の後）",
+          "note": "visit → visiting（without の後）"
+        },
+        "shop": {
+          "ja": "店・売場",
+          "pos": "名詞",
+          "lemma": "shop",
+          "form": "",
+          "note": "shop：この文章での意味"
+        },
+        "moves": {
+          "ja": "立場を移す"
+        },
+        "chair": {
+          "ja": "制作側の立場を表す椅子"
+        },
+        "desire": {
+          "ja": "音楽への欲求"
+        },
+        "without": {
+          "ja": "〜することなく"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a former consumer",
+          "ja": "以前は購入者だった人",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "into the producer's chair",
+          "ja": "制作する側の立場へ",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "without visiting the shop",
+          "ja": "販売市場を介さずに",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261025-002": [
+    {
+      "words": {
+        "being": {
+          "ja": "〜であること"
+        },
+        "able": {
+          "ja": "できる"
+        },
+        "generate": {
+          "ja": "生成する"
+        },
+        "sound": {
+          "ja": "音を"
+        },
+        "having": {
+          "ja": "手元にあること"
+        },
+        "ready": {
+          "ja": "すぐ使える状態"
+        }
+      },
+      "phrases": [
+        {
+          "en": "being able to",
+          "ja": "〜できること",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "not the same as",
+          "ja": "〜と同じではない",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "ready to use",
+          "ja": "実用できる状態",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "stems": {
+          "ja": "分離された音声トラック（ステム）",
+          "pos": "名詞・複数形",
+          "lemma": "stem",
+          "form": "stem → stems（音楽制作）",
+          "note": "stem → stems（音楽制作）"
+        },
+        "system": {
+          "ja": "音声処理システム"
+        },
+        "separate": {
+          "ja": "分離する"
+        },
+        "song": {
+          "ja": "楽曲"
+        }
+      },
+      "phrases": [
+        {
+          "en": "separate a song into stems",
+          "ja": "一曲を複数の音声トラックへ分離する",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "noise": {
+          "ja": "雑音・ノイズ",
+          "pos": "名詞",
+          "lemma": "noise",
+          "form": "",
+          "note": "noise：この文章での意味"
+        },
+        "drift": {
+          "ja": "タイミングのずれ",
+          "pos": "名詞",
+          "lemma": "drift",
+          "form": "",
+          "note": "drift：この文章での意味"
+        },
+        "parts": {
+          "ja": "分離したパート",
+          "pos": "名詞・複数形",
+          "lemma": "part",
+          "form": "part → parts",
+          "note": "part → parts"
+        },
+        "sequencer": {
+          "ja": "シーケンサー（音楽の打ち込み・再生装置）",
+          "pos": "名詞",
+          "lemma": "sequencer",
+          "form": "",
+          "note": "sequencer：この文章での意味"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "timing": {
+          "ja": "タイミング"
+        },
+        "can": {
+          "ja": "〜することがある"
+        },
+        "appear": {
+          "ja": "表面化する"
+        },
+        "return": {
+          "ja": "再配置する・戻す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "timing drift",
+          "ja": "各パートのタイミングのずれ",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "return to a sequencer",
+          "ja": "シーケンサーへ再配置される",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "automation": {
+          "ja": "自動化"
+        },
+        "erase": {
+          "ja": "無くす"
+        },
+        "work": {
+          "ja": "手間・作業"
+        },
+        "as": {
+          "ja": "〜ほどには"
+        },
+        "move": {
+          "ja": "工程を移す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not so much A as B",
+          "ja": "AというよりむしろB",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "does not erase the work",
+          "ja": "作業自体を無くすわけではない",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "synchronization": {
+          "ja": "同期・タイミングを合わせること",
+          "pos": "名詞",
+          "lemma": "synchronize",
+          "form": "synchronize → synchronization",
+          "note": "synchronize → synchronization"
+        },
+        "follows": {
+          "ja": "後に続く",
+          "pos": "動詞・三人称単数現在",
+          "lemma": "follow",
+          "form": "follow → follows",
+          "note": "follow → follows"
+        },
+        "separation": {
+          "ja": "分離",
+          "pos": "名詞",
+          "lemma": "separate",
+          "form": "separate → separation",
+          "note": "separate → separation"
+        },
+        "selection": {
+          "ja": "選別"
+        },
+        "generation": {
+          "ja": "生成工程"
+        }
+      },
+      "phrases": [
+        {
+          "en": "synchronization follows separation",
+          "ja": "分離後に同期作業が続く",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "selection follows generation",
+          "ja": "生成後に選別が続く",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261025-003": [
+    {
+      "words": {
+        "assets": {
+          "ja": "制作素材・3Dアセット",
+          "pos": "名詞・複数形",
+          "lemma": "asset",
+          "form": "asset → assets",
+          "note": "asset → assets"
+        },
+        "described": {
+          "ja": "記述された",
+          "pos": "動詞・過去分詞",
+          "lemma": "describe",
+          "form": "describe → described（受動態）",
+          "note": "describe → described（受動態）"
+        },
+        "specifications": {
+          "ja": "仕様・規格",
+          "pos": "名詞・複数形",
+          "lemma": "specification",
+          "form": "specification → specifications",
+          "note": "specification → specifications"
+        },
+        "same": {
+          "ja": "同じような"
+        },
+        "shift": {
+          "ja": "構造変化"
+        },
+        "reaching": {
+          "ja": "波及している"
+        },
+        "three-dimensional": {
+          "ja": "三次元の"
+        },
+        "can": {
+          "ja": "〜できる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "three-dimensional assets",
+          "ja": "3D制作素材",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "described by specifications",
+          "ja": "仕様で規定できる",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "scarcity": {
+          "ja": "希少性",
+          "pos": "名詞",
+          "lemma": "scarce",
+          "form": "scarce → scarcity",
+          "note": "scarce → scarcity"
+        },
+        "file": {
+          "ja": "ファイル・完成データ",
+          "pos": "名詞",
+          "lemma": "file",
+          "form": "",
+          "note": "file：この文章での意味"
+        },
+        "if": {
+          "ja": "もし"
+        },
+        "generation": {
+          "ja": "生成"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "reliable": {
+          "ja": "安定して信頼できる"
+        },
+        "finished": {
+          "ja": "完成済みの"
+        },
+        "will": {
+          "ja": "〜するだろう"
+        },
+        "weaken": {
+          "ja": "弱くなる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "scarcity of a finished file",
+          "ja": "完成データそのものの希少性",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "taste": {
+          "ja": "審美眼・好み",
+          "pos": "名詞",
+          "lemma": "taste",
+          "form": "",
+          "note": "taste：この文章での意味"
+        },
+        "care": {
+          "ja": "手間をかけた品質管理"
+        },
+        "remain": {
+          "ja": "残る"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "preserve": {
+          "ja": "維持する"
+        },
+        "old": {
+          "ja": "従来の"
+        },
+        "price": {
+          "ja": "販売価格"
+        },
+        "themselves": {
+          "ja": "それ自体では"
+        }
+      },
+      "phrases": [
+        {
+          "en": "taste and care",
+          "ja": "審美眼と丁寧な仕上げ",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "by themselves",
+          "ja": "それ自体だけでは",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "cleanup": {
+          "ja": "後処理・修正作業",
+          "pos": "名詞",
+          "lemma": "cleanup",
+          "form": "",
+          "note": "cleanup：この文章での意味"
+        },
+        "consistency": {
+          "ja": "一貫性・整合性",
+          "pos": "名詞",
+          "lemma": "consistent",
+          "form": "consistent → consistency",
+          "note": "consistent → consistency"
+        },
+        "value": {
+          "ja": "商品価値"
+        },
+        "moves": {
+          "ja": "移っていく"
+        },
+        "toward": {
+          "ja": "〜へ"
+        },
+        "selection": {
+          "ja": "取捨選択"
+        },
+        "revision": {
+          "ja": "修正・改訂"
+        }
+      },
+      "phrases": [
+        {
+          "en": "value moves toward",
+          "ja": "価値の源泉が〜へ移る",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "shorter": {
+          "ja": "より短い",
+          "pos": "形容詞・比較級",
+          "lemma": "short",
+          "form": "short → shorter",
+          "note": "short → shorter"
+        },
+        "saves": {
+          "ja": "省く・節約する",
+          "pos": "動詞・三人称単数現在",
+          "lemma": "save",
+          "form": "save → saves",
+          "note": "save → saves"
+        },
+        "path": {
+          "ja": "工程・道筋"
+        },
+        "another": {
+          "ja": "他の"
+        },
+        "person": {
+          "ja": "利用者"
+        },
+        "from": {
+          "ja": "〜を免れさせて"
+        },
+        "unfinished": {
+          "ja": "未完成の"
+        },
+        "work": {
+          "ja": "後始末が必要な作業"
+        }
+      },
+      "phrases": [
+        {
+          "en": "saves another person from",
+          "ja": "別の利用者に〜をさせずに済ませる",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261026-001": [
+    {
+      "words": {
+        "microphone": {
+          "ja": "マイク",
+          "pos": "名詞",
+          "lemma": "microphone",
+          "form": "",
+          "note": "microphone：この文章での意味"
+        },
+        "gratitude": {
+          "ja": "感謝",
+          "pos": "名詞",
+          "lemma": "gratitude",
+          "form": "",
+          "note": "gratitude：この文章での意味"
+        },
+        "continuing": {
+          "ja": "継続する",
+          "pos": "形容詞的現在分詞",
+          "lemma": "continue",
+          "form": "continue → continuing",
+          "note": "continue → continuing"
+        },
+        "perfectly": {
+          "ja": "完全に・まったく",
+          "pos": "副詞",
+          "lemma": "perfect",
+          "form": "perfect → perfectly",
+          "note": "perfect → perfectly"
+        },
+        "sincere": {
+          "ja": "誠実な・本心からの",
+          "pos": "形容詞",
+          "lemma": "sincere",
+          "form": "",
+          "note": "sincere：この文章での意味"
+        },
+        "at": {
+          "ja": "〜の前で"
+        },
+        "joy": {
+          "ja": "喜び"
+        },
+        "project": {
+          "ja": "継続する作品・企画"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "be": {
+          "ja": "〜である"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may be perfectly sincere",
+          "ja": "まったく本心からの言葉かもしれない",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "performer's": {
+          "ja": "出演者の",
+          "pos": "名詞・所有格",
+          "lemma": "performer",
+          "form": "performer + 's（所有格）",
+          "note": "performer + 's（所有格）"
+        },
+        "job": {
+          "ja": "仕事・出演機会",
+          "pos": "名詞",
+          "lemma": "job",
+          "form": "",
+          "note": "job：この文章での意味"
+        },
+        "industry's": {
+          "ja": "産業の",
+          "pos": "名詞・所有格",
+          "lemma": "industry",
+          "form": "industry + 's（所有格）",
+          "note": "industry + 's（所有格）"
+        },
+        "retained": {
+          "ja": "保持された・国内に残った",
+          "pos": "過去分詞",
+          "lemma": "retain",
+          "form": "retain → retained",
+          "note": "retain → retained"
+        },
+        "ledgers": {
+          "ja": "帳簿（比喩的に別々の勘定）",
+          "pos": "名詞・複数形",
+          "lemma": "ledger",
+          "form": "ledger → ledgers",
+          "note": "ledger → ledgers"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "new": {
+          "ja": "新しい"
+        },
+        "profit": {
+          "ja": "産業に残る利益"
+        },
+        "belong": {
+          "ja": "属する"
+        },
+        "different": {
+          "ja": "異なる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "retained profit",
+          "ja": "国内産業に残る利益",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "belong to different ledgers",
+          "ja": "別勘定として扱うべきである",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "smile": {
+          "ja": "笑顔",
+          "pos": "名詞",
+          "lemma": "smile",
+          "form": "",
+          "note": "smile：この文章での意味"
+        },
+        "intellectual": {
+          "ja": "知的な",
+          "pos": "形容詞",
+          "lemma": "intellectual",
+          "form": "intellectual property で「知的財産」",
+          "note": "intellectual property で「知的財産」"
+        },
+        "property": {
+          "ja": "財産・権利",
+          "pos": "名詞",
+          "lemma": "property",
+          "form": "intellectual property で「知的財産」",
+          "note": "intellectual property で「知的財産」"
+        },
+        "ultimately": {
+          "ja": "最終的に",
+          "pos": "副詞",
+          "lemma": "ultimate",
+          "form": "ultimate → ultimately",
+          "note": "ultimate → ultimately"
+        },
+        "reside": {
+          "ja": "所在する・帰属する",
+          "pos": "動詞",
+          "lemma": "reside",
+          "form": "",
+          "note": "reside：この文章での意味"
+        },
+        "display": {
+          "ja": "示す"
+        },
+        "personal": {
+          "ja": "個人の"
+        },
+        "success": {
+          "ja": "成功"
+        },
+        "without": {
+          "ja": "〜せずに"
+        },
+        "revealing": {
+          "ja": "明らかにすること"
+        },
+        "where": {
+          "ja": "どこに"
+        },
+        "development": {
+          "ja": "開発主体"
+        },
+        "operating": {
+          "ja": "運営から得られる"
+        },
+        "revenue": {
+          "ja": "売上・収益"
+        }
+      },
+      "phrases": [
+        {
+          "en": "intellectual property",
+          "ja": "知的財産・IP",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "operating revenue",
+          "ja": "運営による収益",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "ultimately reside",
+          "ja": "最終的に帰属する",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "brighter": {
+          "ja": "より明るい",
+          "pos": "形容詞・比較級",
+          "lemma": "bright",
+          "form": "bright → brighter",
+          "note": "bright → brighter"
+        },
+        "accounts": {
+          "ja": "勘定・帳簿",
+          "pos": "名詞・複数形",
+          "lemma": "account",
+          "form": "account → accounts",
+          "note": "account → accounts"
+        },
+        "voice": {
+          "ja": "声"
+        },
+        "more": {
+          "ja": "ますます"
+        },
+        "necessary": {
+          "ja": "必要な"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "inspect": {
+          "ja": "精査する"
+        },
+        "behind": {
+          "ja": "背後にある"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the brighter ..., the more ...",
+          "ja": "明るければ明るいほど、ますます〜",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "inspect the accounts",
+          "ja": "収益の帳簿を検証する",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261026-002": [
+    {
+      "words": {
+        "foreign-made": {
+          "ja": "外国で制作された",
+          "pos": "複合形容詞",
+          "lemma": "foreign-made",
+          "form": "foreign + made",
+          "note": "foreign + made"
+        },
+        "game": {
+          "ja": "ゲーム",
+          "pos": "名詞",
+          "lemma": "game",
+          "form": "",
+          "note": "game：この文章での意味"
+        },
+        "adding": {
+          "ja": "追加すること"
+        },
+        "japanese": {
+          "ja": "日本語による"
+        },
+        "voices": {
+          "ja": "声優による音声"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "look": {
+          "ja": "〜に見える"
+        },
+        "overseas": {
+          "ja": "海外での"
+        },
+        "success": {
+          "ja": "成功"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Japanese voices",
+          "ja": "日本語版の声優出演",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "look like overseas success",
+          "ja": "海外で活躍しているように見える",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "mainly": {
+          "ja": "主として",
+          "pos": "副詞",
+          "lemma": "main",
+          "form": "main → mainly",
+          "note": "main → mainly"
+        },
+        "japan's": {
+          "ja": "日本の",
+          "pos": "固有名詞・所有格",
+          "lemma": "Japan",
+          "form": "Japan + 's（所有格）",
+          "note": "Japan + 's（所有格）"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "if": {
+          "ja": "もし"
+        },
+        "language": {
+          "ja": "日本語版"
+        },
+        "serves": {
+          "ja": "機能する"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "key": {
+          "ja": "参入するための鍵"
+        },
+        "market": {
+          "ja": "市場"
+        }
+      },
+      "phrases": [
+        {
+          "en": "serves as a key to Japan's market",
+          "ja": "日本市場へ参入するための鍵として機能する",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "performer's": {
+          "ja": "出演者の",
+          "pos": "名詞・所有格",
+          "lemma": "performer",
+          "form": "performer + 's（所有格）",
+          "note": "performer + 's（所有格）"
+        },
+        "cross-border": {
+          "ja": "国境を越えた",
+          "pos": "複合形容詞",
+          "lemma": "cross-border",
+          "form": "cross + border",
+          "note": "cross + border"
+        },
+        "work": {
+          "ja": "出演・仕事"
+        },
+        "same": {
+          "ja": "同じ"
+        },
+        "as": {
+          "ja": "〜と"
+        },
+        "domestic": {
+          "ja": "国内の"
+        },
+        "industrial": {
+          "ja": "産業上の"
+        },
+        "growth": {
+          "ja": "成長"
+        }
+      },
+      "phrases": [
+        {
+          "en": "cross-border work",
+          "ja": "海外案件での仕事",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "domestic industrial growth",
+          "ja": "国内産業全体の成長",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "fees": {
+          "ja": "報酬・支払手数料",
+          "pos": "名詞・複数形",
+          "lemma": "fee",
+          "form": "fee → fees",
+          "note": "fee → fees"
+        },
+        "inward": {
+          "ja": "国内へ・内向きに",
+          "pos": "副詞",
+          "lemma": "inward",
+          "form": "",
+          "note": "inward：この文章での意味"
+        },
+        "ownership": {
+          "ja": "所有権・事業の支配権",
+          "pos": "名詞",
+          "lemma": "own",
+          "form": "own → ownership",
+          "note": "own → ownership"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "flow": {
+          "ja": "資金が流れる"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "recurring": {
+          "ja": "継続的な"
+        },
+        "revenue": {
+          "ja": "運営収益"
+        },
+        "remain": {
+          "ja": "残る"
+        },
+        "elsewhere": {
+          "ja": "海外など別の場所に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "flow inward",
+          "ja": "国内に報酬が入る",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "recurring revenue",
+          "ja": "継続的に生じる収益",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "retained": {
+          "ja": "保持された",
+          "pos": "過去分詞",
+          "lemma": "retain",
+          "form": "retain → retained",
+          "note": "retain → retained"
+        },
+        "separately": {
+          "ja": "別々に",
+          "pos": "副詞",
+          "lemma": "separate",
+          "form": "separate → separately",
+          "note": "separate → separately"
+        },
+        "market": {
+          "ja": "市場での"
+        },
+        "activity": {
+          "ja": "活動・取引"
+        },
+        "capacity": {
+          "ja": "生産・開発能力"
+        },
+        "home": {
+          "ja": "国内"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "therefore": {
+          "ja": "したがって"
+        },
+        "counted": {
+          "ja": "勘定に入れられる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "retained at home",
+          "ja": "国内に残った",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "counted separately",
+          "ja": "別勘定で評価される",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261026-003": [
+    {
+      "words": {
+        "anniversaries": {
+          "ja": "周年記念行事",
+          "pos": "名詞・複数形",
+          "lemma": "anniversary",
+          "form": "anniversary → anniversaries",
+          "note": "anniversary → anniversaries"
+        },
+        "wealthier": {
+          "ja": "より豊かな",
+          "pos": "形容詞・比較級",
+          "lemma": "wealthy",
+          "form": "wealthy → wealthier",
+          "note": "wealthy → wealthier"
+        },
+        "large": {
+          "ja": "巨額の"
+        },
+        "sales": {
+          "ja": "売上高"
+        },
+        "bright": {
+          "ja": "華やかな"
+        },
+        "do": {
+          "ja": "〜しない"
+        },
+        "prove": {
+          "ja": "証明する"
+        },
+        "audience": {
+          "ja": "消費者層"
+        },
+        "grown": {
+          "ja": "〜になった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "grown wealthier",
+          "ja": "以前より豊かになった",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "payments": {
+          "ja": "支払い・決済",
+          "pos": "名詞・複数形",
+          "lemma": "payment",
+          "form": "payment → payments",
+          "note": "payment → payments"
+        },
+        "median": {
+          "ja": "中央値の",
+          "pos": "形容詞",
+          "lemma": "median",
+          "form": "median income（所得中央値）",
+          "note": "median income（所得中央値）"
+        },
+        "income": {
+          "ja": "所得・収入",
+          "pos": "名詞",
+          "lemma": "income",
+          "form": "",
+          "note": "income：この文章での意味"
+        },
+        "when": {
+          "ja": "〜するとき"
+        },
+        "overseas": {
+          "ja": "海外への"
+        },
+        "rise": {
+          "ja": "増加する"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "falls": {
+          "ja": "下がる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "overseas payments rise",
+          "ja": "海外向け支払額が増える",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "median income falls",
+          "ja": "所得中央値が下がる",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "thinner": {
+          "ja": "より弱い・縮小した",
+          "pos": "形容詞・比較級",
+          "lemma": "thin",
+          "form": "thin → thinner（二重子音）",
+          "note": "thin → thinner（二重子音）"
+        },
+        "headline": {
+          "ja": "見出し上の・表面上の",
+          "pos": "形容詞的名詞",
+          "lemma": "headline",
+          "form": "headline totals（見出し上の総額）",
+          "note": "headline totals（見出し上の総額）"
+        },
+        "totals": {
+          "ja": "合計値・総額",
+          "pos": "名詞・複数形",
+          "lemma": "total",
+          "form": "total → totals",
+          "note": "total → totals"
+        },
+        "suggest": {
+          "ja": "示す",
+          "pos": "動詞",
+          "lemma": "suggest",
+          "form": "",
+          "note": "suggest：この文章での意味"
+        },
+        "domestic": {
+          "ja": "国内の"
+        },
+        "market": {
+          "ja": "市場"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "than": {
+          "ja": "〜より"
+        }
+      },
+      "phrases": [
+        {
+          "en": "thinner than headline totals suggest",
+          "ja": "見出しに出る総額から想像するより弱い",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "averages": {
+          "ja": "平均値",
+          "pos": "名詞・複数形",
+          "lemma": "average",
+          "form": "average → averages",
+          "note": "average → averages"
+        },
+        "buoyant": {
+          "ja": "好調な・高水準を保つ",
+          "pos": "形容詞",
+          "lemma": "buoyant",
+          "form": "",
+          "note": "buoyant：この文章での意味"
+        },
+        "include": {
+          "ja": "含む",
+          "pos": "動詞",
+          "lemma": "include",
+          "form": "",
+          "note": "include：この文章での意味"
+        },
+        "closest": {
+          "ja": "最も近い",
+          "pos": "形容詞・最上級",
+          "lemma": "close",
+          "form": "close → closest",
+          "note": "close → closest"
+        },
+        "capital": {
+          "ja": "資本・資金",
+          "pos": "名詞",
+          "lemma": "capital",
+          "form": "",
+          "note": "capital：この文章での意味"
+        },
+        "middle": {
+          "ja": "中間層の・中位の",
+          "pos": "形容詞",
+          "lemma": "middle",
+          "form": "",
+          "note": "middle：この文章での意味"
+        },
+        "wallet": {
+          "ja": "財布・購買余力（比喩）",
+          "pos": "名詞",
+          "lemma": "wallet",
+          "form": "",
+          "note": "wallet：この文章での意味"
+        },
+        "can": {
+          "ja": "〜し得る"
+        },
+        "remain": {
+          "ja": "維持される"
+        },
+        "because": {
+          "ja": "なぜなら"
+        },
+        "those": {
+          "ja": "人々"
+        },
+        "to": {
+          "ja": "〜に"
+        },
+        "person's": {
+          "ja": "人の"
+        },
+        "tells": {
+          "ja": "物語る"
+        },
+        "different": {
+          "ja": "異なる"
+        },
+        "story": {
+          "ja": "実情"
+        }
+      },
+      "phrases": [
+        {
+          "en": "closest to capital",
+          "ja": "資本を最も多く持つ層",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "middle person's wallet",
+          "ja": "中位層の家計・購買余力",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "survives": {
+          "ja": "存続する",
+          "pos": "動詞・三人称単数現在",
+          "lemma": "survive",
+          "form": "survive → survives",
+          "note": "survive → survives"
+        },
+        "products": {
+          "ja": "商品（複数）",
+          "pos": "名詞・複数形",
+          "lemma": "product",
+          "form": "product → products",
+          "note": "product → products"
+        },
+        "afford": {
+          "ja": "購入する余裕がある",
+          "pos": "動詞",
+          "lemma": "afford",
+          "form": "",
+          "note": "afford：この文章での意味"
+        },
+        "market": {
+          "ja": "市場"
+        },
+        "not": {
+          "ja": "〜だけではない"
+        },
+        "only": {
+          "ja": "のみ"
+        },
+        "through": {
+          "ja": "〜によって"
+        },
+        "sell": {
+          "ja": "売る"
+        },
+        "lives": {
+          "ja": "暮らし・生活"
+        },
+        "still": {
+          "ja": "今なお"
+        },
+        "them": {
+          "ja": "それらを"
+        }
+      },
+      "phrases": [
+        {
+          "en": "afford them",
+          "ja": "それらの商品を購入できる余裕がある",
+          "note": "この文章の意味・構文に合わせて読む。"
+        },
+        {
+          "en": "not only A, but B",
+          "ja": "AだけでなくBも",
+          "note": "この文章の意味・構文に合わせて読む。"
+        }
+      ]
+    }
   ]
 }
