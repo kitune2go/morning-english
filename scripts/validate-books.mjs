@@ -279,7 +279,7 @@ if(litMatch){
     "old cramped glossary grid must not be used");
   check(!litHtml.includes('共通語彙辞典には未登録'),
     "unknown word labels must not repeat a full sentence on every row");
-  const start=source.indexOf('function renderChunk(');
+  const start=source.indexOf('function normalizedWord(');
   const end=source.indexOf('function renderCard(',start);
   check(start>=0&&end>start,"chunk renderer exists for glossary layout test");
   if(start>=0&&end>start){
@@ -350,7 +350,9 @@ const essayGlossaryPaths=[
   "literature/essay-glossary-mnopqr.json",
   "literature/essay-glossary-stuv.json",
   "literature/essay-glossary-wxyz.json",
-  "literature/essay-glossary-custom.json"
+  "literature/essay-glossary-custom.json",
+  "literature/essay-glossary-recent.json",
+  "literature/essay-glossary-legacy-gapfill.json"
 ];
 const glossaryWords=new Map();
 for(const file of essayGlossaryPaths){
