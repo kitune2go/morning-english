@@ -1,0 +1,165 @@
+[
+  {
+    "id": "DE-20260923-001",
+    "sourceTitle": "先取りされた未来は動けない",
+    "workId": "daily-essay-20260923",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "空白を埋めた輪郭",
+    "jp": "久しぶりに見る湾岸の景色は、記憶よりも高く、整っていた。大きな会場と新しいビルが連なり、遠目には一つの完成した都市に見える。けれど、整いすぎた輪郭の前では、以前そこにあった空白や雑味を思い出したくなる。空き地は非効率に見えるが、用途を決めない余地でもある。未来のために建てたものが増えるほど、未来自身が選び直せる場所は少なくなる。",
+    "translationLiteral": "The waterfront seen after a long time was taller and more orderly than remembered. Large venues and new buildings continued in a row, appearing from a distance as one completed city. Yet before a shape that was too orderly, one wanted to remember the blanks and roughness that had once been there. An empty lot looks inefficient, but it is also space whose use has not been decided. The more things are built for the future, the fewer places the future itself has to choose again.",
+    "translationNatural": "The waterfront had grown taller and more orderly than memory. New towers and a vast venue made the district look complete from a distance. Yet the polished outline revived a longing for the gaps and roughness that once remained there. Vacant land may look inefficient, but it also preserves an undecided use. The more we build for the future, the less room that future has to change its mind.",
+    "imageUrl": "",
+    "imageCaption": "整った湾岸の輪郭の隅に、用途未定の小さな空地だけが残っている。",
+    "imagePrompt": "A polished waterfront skyline and large arena, with one small undecided vacant lot remaining at the edge, contemplative editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "The waterfront had grown taller and more orderly than memory.",
+        "ja": "湾岸は記憶より高く、整然としていた。"
+      },
+      {
+        "en": "New towers and a vast venue made the district look complete from a distance.",
+        "ja": "新しい高層建築と巨大会場が、遠目には地区を完成形に見せた。"
+      },
+      {
+        "en": "Yet the polished outline revived a longing for the gaps and roughness that once remained there.",
+        "ja": "しかし磨かれた輪郭は、かつて残っていた空白や雑味への懐かしさを呼び戻した。"
+      },
+      {
+        "en": "Vacant land may look inefficient, but it also preserves an undecided use.",
+        "ja": "空地は非効率に見えても、用途未定の余地を保存する。"
+      },
+      {
+        "en": "The more we build for the future, the less room that future has to change its mind.",
+        "ja": "未来のために建てるほど、その未来が考え直せる余地は減る。"
+      }
+    ],
+    "grammar": [
+      "had grown は記憶との比較時点までの変化を表す。",
+      "make O C は地区を完成形に見せる。",
+      "that once remained there は gaps and roughness を修飾する。",
+      "may A, but B は非効率という見方に別の価値を重ねる。",
+      "The more ..., the less ... は建設量と選択余地の反比例を示す。"
+    ],
+    "translationNote": "literal は都市の『空白』を用途未決定の空間として説明した。natural は change its mind と擬人化し、未来の再選択可能性が減る逆説を読みやすくした。",
+    "readingPoint": "導入。完成した都市景観への感嘆から、空白が持っていた未決定性へ視線を反転させる。",
+    "keywords": [
+      "waterfront",
+      "redevelopment",
+      "vacant land",
+      "future",
+      "option value"
+    ]
+  },
+  {
+    "id": "DE-20260923-002",
+    "sourceTitle": "先取りされた未来は動けない",
+    "workId": "daily-essay-20260923",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "需要を先に固める",
+    "jp": "国際大会の会場や選手村は、まだ来ていない需要へ先回りして作られる。成功すれば先見の明と呼ばれ、外れれば維持費と空室が残る。仮設、再利用、短期間の宿泊施設という案が繰り返し現れるのは、予測の誤りを建物の寿命まで背負わないためだ。未来を信じることと、未来を一つの形へ固定することは違う。柔らかな計画は、弱気ではなく外れた後にも動ける強さである。",
+    "translationLiteral": "Venues and athletes' villages for international events are made in advance for demand that has not yet arrived. If they succeed, they are called foresight; if they miss, maintenance costs and vacancies remain. Proposals for temporary structures, reuse, and short-term lodging repeatedly appear so that an error in prediction does not have to be carried for the life of a building. Believing in the future is different from fixing the future into one form. A flexible plan is not timidity but the strength to move even after the forecast fails.",
+    "translationNatural": "International events build venues and housing ahead of demand that has not yet arrived. A correct forecast becomes foresight; a wrong one leaves maintenance costs and empty rooms. Temporary structures and reusable lodging matter because they keep a mistaken prediction from hardening into a building's full lifespan. Flexibility is not a lack of faith in the future. It is the ability to move after the future chooses differently.",
+    "imageUrl": "",
+    "imageCaption": "予測線の先に建物が固まり、その脇に再利用できる小さな仮設構造が残る。",
+    "imagePrompt": "A forecast line hardening into a massive stadium, beside a small modular reusable structure that can move, editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "International events build venues and housing ahead of demand that has not yet arrived.",
+        "ja": "国際大会は、まだ到来していない需要に先立って会場や宿泊施設を建てる。"
+      },
+      {
+        "en": "A correct forecast becomes foresight; a wrong one leaves maintenance costs and empty rooms.",
+        "ja": "当たった予測は先見の明となり、外れた予測は維持費と空室を残す。"
+      },
+      {
+        "en": "Temporary structures and reusable lodging matter because they keep a mistaken prediction from hardening into a building's full lifespan.",
+        "ja": "仮設や再利用可能な宿泊施設は、誤った予測が建物の寿命全体へ固まるのを防ぐため重要だ。"
+      },
+      {
+        "en": "Flexibility is not a lack of faith in the future.",
+        "ja": "柔軟性は未来への信頼不足ではない。"
+      },
+      {
+        "en": "It is the ability to move after the future chooses differently.",
+        "ja": "未来が別の選択をした後にも動ける能力である。"
+      }
+    ],
+    "grammar": [
+      "ahead of は需要到来より前であることを示す。",
+      "that has not yet arrived は demand を修飾する現在完了の関係節。",
+      "A; B は当たりと外れの結果を対照する。",
+      "because は仮設が重要な理由を示す。",
+      "keep A from -ing は予測が固定化するのを防ぐ。",
+      "after S V は計画変更が必要になる時点を示す。"
+    ],
+    "translationNote": "literal は仮設・再利用・短期宿泊という具体案を保持した。natural は hardening into a building's full lifespan と表現し、予測が固定資産へ変わる危険を一つの像へまとめた。",
+    "readingPoint": "展開。都市の空白から大会施設へ移り、未来需要の先取りが長期の維持責任へ変わる仕組みを示す。",
+    "keywords": [
+      "forecast",
+      "venue",
+      "maintenance",
+      "temporary structure",
+      "flexibility",
+      "lifespan"
+    ]
+  },
+  {
+    "id": "DE-20260923-003",
+    "sourceTitle": "先取りされた未来は動けない",
+    "workId": "daily-essay-20260923",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "履歴書という固定資産",
+    "jp": "同じ固定は、建物ではなく人の履歴にも起きる。就職の入口が細かった時期に非正規へ入った人は、その最初の配置を能力の証明として長く読まれてしまう。景気という外部条件で始まった遅れが、年月を経るほど本人の履歴へ固着するのだ。都市なら再開発と呼ばれる更新も、人には簡単に与えられない。未来の選択肢を守るには、入口の結果を一生分の評価へ変えない仕組みが要る。",
+    "translationLiteral": "The same fixation occurs not in buildings but in people's histories. A person who entered nonregular work when the entrance to employment was narrow continues to have that first placement read as proof of ability. A delay that began from the external condition of the economy adheres more firmly to the person's record as years pass. An update called redevelopment for a city is not easily given to a person. Protecting future options requires a system that does not turn the result at the entrance into a lifetime evaluation.",
+    "translationNatural": "The same hardening can happen to a résumé. People who entered insecure work when hiring gates were narrow may have that first placement read for years as evidence of ability. A delay caused by the economy gradually becomes attached to the individual. Cities are offered redevelopment; people are rarely granted such a clean revision. Preserving future options requires a system that does not turn one bad entrance into a lifetime verdict.",
+    "imageUrl": "",
+    "imageCaption": "都市の建物は建て替えられるが、一枚の履歴書には最初の配置が消えずに残る。",
+    "imagePrompt": "A city building being renovated beside a resume where the first line remains permanently embossed, sober editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "The same hardening can happen to a résumé.",
+        "ja": "同じ固定化は履歴書にも起こりうる。"
+      },
+      {
+        "en": "People who entered insecure work when hiring gates were narrow may have that first placement read for years as evidence of ability.",
+        "ja": "採用の入口が狭い時期に不安定就労へ入った人は、最初の配置を能力の証拠として何年も読まれうる。"
+      },
+      {
+        "en": "A delay caused by the economy gradually becomes attached to the individual.",
+        "ja": "景気によって生じた遅れが、徐々に個人へ貼り付く。"
+      },
+      {
+        "en": "Cities are offered redevelopment; people are rarely granted such a clean revision.",
+        "ja": "都市には再開発が与えられるが、人に同じようなきれいな改訂はめったに与えられない。"
+      },
+      {
+        "en": "Preserving future options requires a system that does not turn one bad entrance into a lifetime verdict.",
+        "ja": "未来の選択肢を守るには、一度の悪い入口を生涯の評決へ変えない制度が必要だ。"
+      }
+    ],
+    "grammar": [
+      "can happen to は固定化が及ぶ対象を示す。",
+      "who entered ... は People を修飾する関係詞節。",
+      "have O 過去分詞 は最初の配置が読まれる状態を表す。",
+      "caused by は delay の原因を過去分詞で補足する。",
+      "are offered / are granted は都市と人への扱いを受動態で対照する。",
+      "that does not turn A into B は system を修飾し、避ける変換を示す。"
+    ],
+    "translationNote": "literal は景気による遅れが個人の履歴へ固着する因果を明示した。natural は résumé、revision、verdict を使い、建物の固定資産と人の履歴の固定化を同じ語感で結んだ。",
+    "readingPoint": "転換と余韻。固定資産の議論を雇用履歴へ移し、未来を選び直せる余地が人にも必要だと結ぶ。",
+    "keywords": [
+      "résumé",
+      "hiring gate",
+      "insecure work",
+      "redevelopment",
+      "lifetime verdict",
+      "future options"
+    ]
+  }
+]
