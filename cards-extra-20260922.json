@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 146,
+    "_generatedAt": "2026-10-27T01:59:41+09:00",
+    "sentence": "A monument can preserve its materials and date without preserving a single purpose; repeated use and interpretation give it new meanings over time.",
+    "phonetic": "ア モニュメント キャン プリザーヴ イッツ マテリアルズ アンド デイト ウィズアウト プリザーヴィング ア シングル パーパス；リピーティッド ユース アンド インタープリテイション ギヴ イット ニュー ミーニングズ オーヴァー タイム。",
+    "japaneseTranslation": "記念物は材料と年代を保存できても、単一の目的まで保存するとは限りません。反復される利用と解釈が、時間とともに新しい意味を与えます。",
+    "theme": "記念物が保存する物質と変化する意味",
+    "coreVerb": "preserve",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A monument preserves materials.",
+        "translation": "記念物は材料を保存します。"
+      },
+      "phase2": {
+        "sentence": "A monument can preserve its materials and date.",
+        "translation": "記念物は材料と年代を保存できます。",
+        "addedChunks": "materials and date"
+      },
+      "phase3": {
+        "sentence": "A monument can preserve materials without preserving one purpose.",
+        "translation": "記念物は、一つの目的を保存せずに材料を保存できます。",
+        "connector": "without"
+      },
+      "phase4": {
+        "sentence": "Its meaning changes more easily than its physical structure.",
+        "translation": "その意味は物理的構造より変わりやすいものです。",
+        "comparison": "more ... than"
+      },
+      "phase5": {
+        "sentence": "A monument can preserve its materials and date without preserving a single purpose;",
+        "translation": "記念物は材料と年代を保存できても、単一の目的まで保存するとは限りません。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A monument can preserve",
+          "function": "行動",
+          "translation": "記念物は保存できます"
+        },
+        {
+          "text": "its materials and date",
+          "function": "対象",
+          "translation": "材料と年代を"
+        },
+        {
+          "text": "without preserving a single purpose;",
+          "function": "様態",
+          "translation": "単一の目的まで保存することなく、"
+        },
+        {
+          "text": "repeated use and interpretation",
+          "function": "行動",
+          "translation": "反復される利用と解釈が"
+        },
+        {
+          "text": "give it new meanings",
+          "function": "結果",
+          "translation": "それに新しい意味を与えます"
+        },
+        {
+          "text": "over time.",
+          "function": "時間",
+          "translation": "時間とともに。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can preserve",
+          "explanation": "保存可能性を表します。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "所有格",
+          "name": "its",
+          "where": "its materials and date",
+          "explanation": "itsはmonumentを指します。",
+          "rule": "所有格 + 名詞"
+        },
+        {
+          "category": "前置詞",
+          "name": "without",
+          "where": "without preserving",
+          "explanation": "「〜せずに」を動名詞で表します。",
+          "rule": "without + -ing"
+        },
+        {
+          "category": "形容詞",
+          "name": "single",
+          "where": "a single purpose",
+          "explanation": "一つに固定された目的を強調します。",
+          "rule": "a single + 単数名詞"
+        },
+        {
+          "category": "並列主語",
+          "name": "A and B",
+          "where": "repeated use and interpretation",
+          "explanation": "二つの作用を主語として並べます。",
+          "rule": "A and B + 複数動詞"
+        },
+        {
+          "category": "授与構文",
+          "name": "give O O",
+          "where": "give it new meanings",
+          "explanation": "記念物に意味を与える構造です。",
+          "rule": "give + 人・物 + 物"
+        },
+        {
+          "category": "時間表現",
+          "name": "over time",
+          "where": "over time",
+          "explanation": "徐々に変化することを示します。",
+          "rule": "over time"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A monument can preserves materials",
+          "correct": "A monument can preserve materials",
+          "why": "canの後は動詞原形です。"
+        },
+        {
+          "wrong": "without preserve a purpose",
+          "correct": "without preserving a purpose",
+          "why": "withoutの後は動名詞です。"
+        },
+        {
+          "wrong": "use and interpretation gives it meaning",
+          "correct": "use and interpretation give it meaning",
+          "why": "andで結ばれた複数主語にはgiveを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Engineering can keep a statue standing, but it cannot freeze its interpretation.",
+          "translation": "工学は像を立たせ続けられますが、解釈を固定することはできません。"
+        },
+        {
+          "text": "The same structure can serve prayer, tourism, memory, or local identity at different times.",
+          "translation": "同じ構造物が、時代ごとに祈り、観光、記憶、地域の象徴として機能しえます。"
+        },
+        {
+          "text": "Repeated use can create a purpose that the original builders did not plan.",
+          "translation": "反復利用は、当初の建設者が計画しなかった目的を生むことがあります。"
+        }
+      ],
+      "parseTree": "[S [NP A monument] [VP can preserve [NP its materials and date] [PP without preserving a single purpose]]]; [S [NP repeated use and interpretation] [VP give [NP it] [NP new meanings] [PP over time]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "A monument preserves materials.",
+          "expanded": "A monument preserves materials because engineering protects its physical structure from collapse.",
+          "nuance": "物質的保存の理由を加えます。"
+        },
+        {
+          "original": "Its purpose changes.",
+          "expanded": "Its purpose changes as later communities use the structure for tourism, memory, worship, or identity.",
+          "nuance": "後世の利用が意味を変える過程を示します。"
+        },
+        {
+          "original": "Repetition creates meaning.",
+          "expanded": "When a practice is repeated before its explanation is settled, repetition itself can stabilize a new meaning.",
+          "nuance": "反復と意味形成の関係を明示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "New meanings are given to a monument as communities continue to use it.",
+          "translation": "共同体が記念物を使い続ける中で、新しい意味が与えられます。",
+          "note": "意味を主語に移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Remaining in place, the monument invites new interpretations over time.",
+          "translation": "その場に残り続けることで、記念物は時間とともに新しい解釈を招きます。",
+          "note": "存続を分詞句で示します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The preservation of material does not guarantee the preservation of purpose.",
+          "translation": "物質の保存は、目的の保存を保証しません。",
+          "note": "preserveを名詞化して対照します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "preserve",
+            "alternatives": [
+              "maintain",
+              "retain",
+              "conserve"
+            ],
+            "nuance": "preserveは、時間による損失から守る含みを持ちます。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "譲歩",
+            "sentence": "X can preserve A without preserving B.",
+            "translation": "XはAを保存できてもBを保存するとは限りません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A structure is often easier to preserve than its original meaning.",
+            "translation": "構造物は、元の意味より保存しやすいことがあります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If later communities reuse a monument, its purpose may change without its form changing.",
+            "translation": "後の共同体が記念物を再利用すると、形が変わらなくても目的は変わりえます。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What remains fixed is the structure, not necessarily its interpretation.",
+            "translation": "固定されて残るのは構造であり、必ずしも解釈ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Structures endure; purposes migrate.",
+            "translation": "構造は残り、目的は移り変わります。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "セミコロンで物質的保存と意味形成を分け、因果を詰め込みすぎていない。"
+    }
+  }
+]
