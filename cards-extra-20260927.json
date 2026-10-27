@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 149,
+    "_generatedAt": "2026-10-28T01:58:33+09:00",
+    "sentence": "Science can describe symptoms and outcomes, but deciding what counts as a disease also involves social meanings, institutions, and the allocation of resources.",
+    "phonetic": "サイエンス キャン ディスクライブ シンプトムズ アンド アウトカムズ、バット ディサイディング ワット カウンツ アズ ア ディジーズ オールソウ インヴォルヴズ ソーシャル ミーニングズ、インスティテューションズ、アンド ジ アロケイション オヴ リソーシズ。",
+    "japaneseTranslation": "科学は症状と結果を記述できますが、何を病気とみなすかを決めることには、社会的意味、制度、資源配分も関わります。",
+    "theme": "科学的記述と疾病分類の制度判断",
+    "coreVerb": "describe",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Science describes symptoms.",
+        "translation": "科学は症状を記述します。"
+      },
+      "phase2": {
+        "sentence": "Science describes symptoms and outcomes.",
+        "translation": "科学は症状と結果を記述します。",
+        "addedChunks": "and outcomes"
+      },
+      "phase3": {
+        "sentence": "Science can describe evidence, but classification requires a decision.",
+        "translation": "科学は証拠を記述できますが、分類には判断が必要です。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Scientific evidence is more measurable than social meaning.",
+        "translation": "科学的証拠は社会的意味より測定しやすいものです。",
+        "comparison": "more ... than"
+      },
+      "phase5": {
+        "sentence": "Science can describe symptoms and outcomes, but deciding what counts as a disease",
+        "translation": "科学は症状と結果を記述できますが、何を病気とみなすかを決めることには",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Science can describe",
+          "function": "行動",
+          "translation": "科学は記述できます"
+        },
+        {
+          "text": "symptoms and outcomes,",
+          "function": "対象",
+          "translation": "症状と結果を、"
+        },
+        {
+          "text": "but deciding",
+          "function": "接続",
+          "translation": "しかし決めることには"
+        },
+        {
+          "text": "what counts as a disease",
+          "function": "内容",
+          "translation": "何が病気とみなされるかを"
+        },
+        {
+          "text": "also involves social meanings, institutions,",
+          "function": "状態",
+          "translation": "社会的意味や制度も関わり、"
+        },
+        {
+          "text": "and the allocation of resources.",
+          "function": "対象",
+          "translation": "さらに資源配分も関わります。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can describe",
+          "explanation": "科学が可能にする記述の範囲を示します。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "並列",
+          "name": "A and B",
+          "where": "symptoms and outcomes",
+          "explanation": "記述対象を並列します。",
+          "rule": "名詞 + and + 名詞"
+        },
+        {
+          "category": "接続詞",
+          "name": "but",
+          "where": "..., but deciding ...",
+          "explanation": "科学的記述と分類判断を対照させます。",
+          "rule": "節 + but + 節"
+        },
+        {
+          "category": "動名詞",
+          "name": "deciding",
+          "where": "deciding what counts...",
+          "explanation": "「決めること」を主語にします。",
+          "rule": "動名詞句 + 動詞"
+        },
+        {
+          "category": "名詞節",
+          "name": "what counts as",
+          "where": "what counts as a disease",
+          "explanation": "何が病気として扱われるかを一まとまりで表します。",
+          "rule": "what + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "count as",
+          "where": "counts as a disease",
+          "explanation": "ある分類に該当するとみなす表現です。",
+          "rule": "count as + 名詞"
+        },
+        {
+          "category": "三単現",
+          "name": "involves",
+          "where": "deciding ... involves",
+          "explanation": "動名詞句を単数主語として扱います。",
+          "rule": "単数主語 + 動詞s"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Science can describes symptoms.",
+          "correct": "Science can describe symptoms.",
+          "why": "助動詞canの後は動詞原形です。"
+        },
+        {
+          "wrong": "what count as a disease",
+          "correct": "what counts as a disease",
+          "why": "whatが主語となる節では単数扱いのcountsが必要です。"
+        },
+        {
+          "wrong": "deciding ... involve institutions",
+          "correct": "deciding ... involves institutions",
+          "why": "動名詞句主語には三単現のinvolvesを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Evidence can describe a condition without deciding its social status.",
+          "translation": "証拠は、その社会的な位置づけを決めずに状態を記述できます。"
+        },
+        {
+          "text": "Medical categories combine observation with institutional judgment.",
+          "translation": "医学的分類は、観察と制度的判断を組み合わせます。"
+        },
+        {
+          "text": "Resource allocation begins after a condition is classified.",
+          "translation": "資源配分は、状態が分類された後に始まります。"
+        }
+      ],
+      "parseTree": "[S [NP Science] [VP can describe [NP symptoms and outcomes]]], but [S [NP deciding [CP what counts as a disease]] [VP also involves [NP social meanings, institutions, and the allocation of resources]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Science can describe symptoms.",
+          "expanded": "Science can describe symptoms because observation and measurement produce evidence about a condition.",
+          "nuance": "記述を支える証拠の由来を示します。"
+        },
+        {
+          "original": "Classification requires judgment.",
+          "expanded": "Classification requires judgment because evidence alone does not determine every institutional boundary.",
+          "nuance": "境界設定が記述だけでは完結しない理由を示します。"
+        },
+        {
+          "original": "Resource allocation is involved.",
+          "expanded": "Resource allocation is involved because categories affect who receives treatment, support, or funding.",
+          "nuance": "分類と制度的配分の接続を示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Symptoms and outcomes can be described scientifically, while disease categories are also shaped institutionally.",
+          "translation": "症状と結果は科学的に記述できますが、疾病分類は制度的にも形作られます。",
+          "note": "記述対象と分類を主語へ移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Drawing on scientific evidence, institutions decide how conditions are classified and supported.",
+          "translation": "科学的証拠を用いながら、制度は状態をどう分類し支援するかを決めます。",
+          "note": "証拠の利用を分詞句で示します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The classification of disease involves social meaning and resource allocation as well as scientific description.",
+          "translation": "疾病の分類には、科学的記述だけでなく社会的意味と資源配分も関わります。",
+          "note": "decideをclassificationへ名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "describe",
+            "alternatives": [
+              "document",
+              "characterize",
+              "record"
+            ],
+            "nuance": "describeは特徴を言葉で示し、documentは証拠として記録する響きがあります。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "記述と判断の区別",
+            "sentence": "X can describe the evidence, but deciding Y also involves Z.",
+            "translation": "Xは証拠を記述できますが、Yを決めることにはZも関わります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Scientific evidence is easier to measure than social meaning.",
+            "translation": "科学的証拠は社会的意味より測定しやすいものです。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a category changes, access to treatment and support may change as well.",
+            "translation": "分類が変われば、治療や支援へのアクセスも変わることがあります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What science describes is not identical to what institutions classify.",
+            "translation": "科学が記述するものは、制度が分類するものと同一ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Description is not classification.",
+            "translation": "記述は分類ではありません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "記述・分類・配分の三層を23語に収めたため情報量は多いが、対照関係は明確である。"
+    }
+  }
+]
