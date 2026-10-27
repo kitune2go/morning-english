@@ -598,5 +598,877 @@
     "lemma": "afford",
     "form": "",
     "note": "afford：この文章での意味"
+  },
+  {
+    "word": "accept",
+    "ja": "受け入れる",
+    "pos": "語句",
+    "lemma": "accept",
+    "form": "",
+    "note": "accept：この文脈では「受け入れる」"
+  },
+  {
+    "word": "adjustable",
+    "ja": "調整可能な",
+    "pos": "語句",
+    "lemma": "adjustable",
+    "form": "",
+    "note": "adjustable：この文脈では「調整可能な」"
+  },
+  {
+    "word": "admission",
+    "ja": "入場料・入場",
+    "pos": "語句",
+    "lemma": "admission",
+    "form": "",
+    "note": "admission：この文脈では「入場料・入場」"
+  },
+  {
+    "word": "advantage",
+    "ja": "優位性・利点",
+    "pos": "語句",
+    "lemma": "advantage",
+    "form": "",
+    "note": "advantage：この文脈では「優位性・利点」"
+  },
+  {
+    "word": "allows",
+    "ja": "可能にする",
+    "pos": "語句",
+    "lemma": "allows",
+    "form": "",
+    "note": "allows：この文脈では「可能にする」"
+  },
+  {
+    "word": "asks",
+    "ja": "問いかける",
+    "pos": "語句",
+    "lemma": "asks",
+    "form": "",
+    "note": "asks：この文脈では「問いかける」"
+  },
+  {
+    "word": "bearers",
+    "ja": "担い手",
+    "pos": "語句",
+    "lemma": "bearers",
+    "form": "",
+    "note": "bearers：この文脈では「担い手」"
+  },
+  {
+    "word": "beneficiaries",
+    "ja": "利益を受ける人々",
+    "pos": "語句",
+    "lemma": "beneficiaries",
+    "form": "",
+    "note": "beneficiaries：この文脈では「利益を受ける人々」"
+  },
+  {
+    "word": "boundaryless",
+    "ja": "境界のない",
+    "pos": "語句",
+    "lemma": "boundaryless",
+    "form": "",
+    "note": "boundaryless：この文脈では「境界のない」"
+  },
+  {
+    "word": "breaks",
+    "ja": "壊す・分断する",
+    "pos": "語句",
+    "lemma": "breaks",
+    "form": "",
+    "note": "breaks：この文脈では「壊す・分断する」"
+  },
+  {
+    "word": "button",
+    "ja": "ボタン",
+    "pos": "語句",
+    "lemma": "button",
+    "form": "",
+    "note": "button：この文脈では「ボタン」"
+  },
+  {
+    "word": "bystander",
+    "ja": "居合わせた人・傍観者",
+    "pos": "語句",
+    "lemma": "bystander",
+    "form": "",
+    "note": "bystander：この文脈では「居合わせた人・傍観者」"
+  },
+  {
+    "word": "cage",
+    "ja": "囲い・檻",
+    "pos": "語句",
+    "lemma": "cage",
+    "form": "",
+    "note": "cage：この文脈では「囲い・檻」"
+  },
+  {
+    "word": "camera",
+    "ja": "カメラ・視点",
+    "pos": "語句",
+    "lemma": "camera",
+    "form": "",
+    "note": "camera：この文脈では「カメラ・視点」"
+  },
+  {
+    "word": "campaign",
+    "ja": "運動・キャンペーン",
+    "pos": "語句",
+    "lemma": "campaign",
+    "form": "",
+    "note": "campaign：この文脈では「運動・キャンペーン」"
+  },
+  {
+    "word": "case",
+    "ja": "事例・場合",
+    "pos": "語句",
+    "lemma": "case",
+    "form": "",
+    "note": "case：この文脈では「事例・場合」"
+  },
+  {
+    "word": "celebration",
+    "ja": "祝福・称賛",
+    "pos": "語句",
+    "lemma": "celebration",
+    "form": "",
+    "note": "celebration：この文脈では「祝福・称賛」"
+  },
+  {
+    "word": "ceremony",
+    "ja": "儀式",
+    "pos": "語句",
+    "lemma": "ceremony",
+    "form": "",
+    "note": "ceremony：この文脈では「儀式」"
+  },
+  {
+    "word": "certification",
+    "ja": "認定",
+    "pos": "語句",
+    "lemma": "certification",
+    "form": "",
+    "note": "certification：この文脈では「認定」"
+  },
+  {
+    "word": "clarity",
+    "ja": "明瞭さ",
+    "pos": "語句",
+    "lemma": "clarity",
+    "form": "",
+    "note": "clarity：この文脈では「明瞭さ」"
+  },
+  {
+    "word": "cleaning",
+    "ja": "清掃",
+    "pos": "語句",
+    "lemma": "cleaning",
+    "form": "",
+    "note": "cleaning：この文脈では「清掃」"
+  },
+  {
+    "word": "closer",
+    "ja": "より近くへ",
+    "pos": "語句",
+    "lemma": "closer",
+    "form": "",
+    "note": "closer：この文脈では「より近くへ」"
+  },
+  {
+    "word": "commitment",
+    "ja": "関与・約束",
+    "pos": "語句",
+    "lemma": "commitment",
+    "form": "",
+    "note": "commitment：この文脈では「関与・約束」"
+  },
+  {
+    "word": "compensate",
+    "ja": "補う",
+    "pos": "語句",
+    "lemma": "compensate",
+    "form": "",
+    "note": "compensate：この文脈では「補う」"
+  },
+  {
+    "word": "complaints",
+    "ja": "苦情",
+    "pos": "語句",
+    "lemma": "complaints",
+    "form": "",
+    "note": "complaints：この文脈では「苦情」"
+  },
+  {
+    "word": "completes",
+    "ja": "完了させる",
+    "pos": "語句",
+    "lemma": "completes",
+    "form": "",
+    "note": "completes：この文脈では「完了させる」"
+  },
+  {
+    "word": "computation",
+    "ja": "計算",
+    "pos": "語句",
+    "lemma": "computation",
+    "form": "",
+    "note": "computation：この文脈では「計算」"
+  },
+  {
+    "word": "contain",
+    "ja": "含む・内包する",
+    "pos": "語句",
+    "lemma": "contain",
+    "form": "",
+    "note": "contain：この文脈では「含む・内包する」"
+  },
+  {
+    "word": "contest",
+    "ja": "競争・大会",
+    "pos": "語句",
+    "lemma": "contest",
+    "form": "",
+    "note": "contest：この文脈では「競争・大会」"
+  },
+  {
+    "word": "contradicts",
+    "ja": "矛盾する",
+    "pos": "語句",
+    "lemma": "contradicts",
+    "form": "",
+    "note": "contradicts：この文脈では「矛盾する」"
+  },
+  {
+    "word": "convenience",
+    "ja": "都合・便利さ",
+    "pos": "語句",
+    "lemma": "convenience",
+    "form": "",
+    "note": "convenience：この文脈では「都合・便利さ」"
+  },
+  {
+    "word": "convert",
+    "ja": "換算する・変換する",
+    "pos": "語句",
+    "lemma": "convert",
+    "form": "",
+    "note": "convert：この文脈では「換算する・変換する」"
+  },
+  {
+    "word": "counting",
+    "ja": "数えること",
+    "pos": "語句",
+    "lemma": "counting",
+    "form": "",
+    "note": "counting：この文脈では「数えること」"
+  },
+  {
+    "word": "cpu",
+    "ja": "中央処理装置",
+    "pos": "語句",
+    "lemma": "cpu",
+    "form": "",
+    "note": "cpu：この文脈では「中央処理装置」"
+  },
+  {
+    "word": "credible",
+    "ja": "信頼できる",
+    "pos": "語句",
+    "lemma": "credible",
+    "form": "",
+    "note": "credible：この文脈では「信頼できる」"
+  },
+  {
+    "word": "diagram",
+    "ja": "図・案内図",
+    "pos": "語句",
+    "lemma": "diagram",
+    "form": "",
+    "note": "diagram：この文脈では「図・案内図」"
+  },
+  {
+    "word": "digital",
+    "ja": "デジタルの",
+    "pos": "語句",
+    "lemma": "digital",
+    "form": "",
+    "note": "digital：この文脈では「デジタルの」"
+  },
+  {
+    "word": "dimensions",
+    "ja": "寸法",
+    "pos": "語句",
+    "lemma": "dimensions",
+    "form": "",
+    "note": "dimensions：この文脈では「寸法」"
+  },
+  {
+    "word": "employer",
+    "ja": "雇用者",
+    "pos": "語句",
+    "lemma": "employer",
+    "form": "",
+    "note": "employer：この文脈では「雇用者」"
+  },
+  {
+    "word": "enjoyment",
+    "ja": "楽しさ・享受",
+    "pos": "語句",
+    "lemma": "enjoyment",
+    "form": "",
+    "note": "enjoyment：この文脈では「楽しさ・享受」"
+  },
+  {
+    "word": "entering",
+    "ja": "入ること",
+    "pos": "語句",
+    "lemma": "entering",
+    "form": "",
+    "note": "entering：この文脈では「入ること」"
+  },
+  {
+    "word": "expands",
+    "ja": "拡大する",
+    "pos": "語句",
+    "lemma": "expands",
+    "form": "",
+    "note": "expands：この文脈では「拡大する」"
+  },
+  {
+    "word": "fatigue",
+    "ja": "疲労",
+    "pos": "語句",
+    "lemma": "fatigue",
+    "form": "",
+    "note": "fatigue：この文脈では「疲労」"
+  },
+  {
+    "word": "fifty-two",
+    "ja": "五十二の",
+    "pos": "語句",
+    "lemma": "fifty-two",
+    "form": "",
+    "note": "fifty-two：この文脈では「五十二の」"
+  },
+  {
+    "word": "flange",
+    "ja": "フランジ・張り出し部",
+    "pos": "語句",
+    "lemma": "flange",
+    "form": "",
+    "note": "flange：この文脈では「フランジ・張り出し部」"
+  },
+  {
+    "word": "floor",
+    "ja": "床・現場",
+    "pos": "語句",
+    "lemma": "floor",
+    "form": "",
+    "note": "floor：この文脈では「床・現場」"
+  },
+  {
+    "word": "footing",
+    "ja": "足場・基礎",
+    "pos": "語句",
+    "lemma": "footing",
+    "form": "",
+    "note": "footing：この文脈では「足場・基礎」"
+  },
+  {
+    "word": "friendship",
+    "ja": "友情",
+    "pos": "語句",
+    "lemma": "friendship",
+    "form": "",
+    "note": "friendship：この文脈では「友情」"
+  },
+  {
+    "word": "functionality",
+    "ja": "機能性",
+    "pos": "語句",
+    "lemma": "functionality",
+    "form": "",
+    "note": "functionality：この文脈では「機能性」"
+  },
+  {
+    "word": "gained",
+    "ja": "得られた",
+    "pos": "語句",
+    "lemma": "gained",
+    "form": "",
+    "note": "gained：この文脈では「得られた」"
+  },
+  {
+    "word": "gathers",
+    "ja": "集める",
+    "pos": "語句",
+    "lemma": "gathers",
+    "form": "",
+    "note": "gathers：この文脈では「集める」"
+  },
+  {
+    "word": "harsher",
+    "ja": "より厳しい",
+    "pos": "語句",
+    "lemma": "harsher",
+    "form": "",
+    "note": "harsher：この文脈では「より厳しい」"
+  },
+  {
+    "word": "hesitates",
+    "ja": "ためらう",
+    "pos": "語句",
+    "lemma": "hesitates",
+    "form": "",
+    "note": "hesitates：この文脈では「ためらう」"
+  },
+  {
+    "word": "hundred",
+    "ja": "百の",
+    "pos": "語句",
+    "lemma": "hundred",
+    "form": "",
+    "note": "hundred：この文脈では「百の」"
+  },
+  {
+    "word": "imagine",
+    "ja": "想像する",
+    "pos": "語句",
+    "lemma": "imagine",
+    "form": "",
+    "note": "imagine：この文脈では「想像する」"
+  },
+  {
+    "word": "inferiority",
+    "ja": "劣等感",
+    "pos": "語句",
+    "lemma": "inferiority",
+    "form": "",
+    "note": "inferiority：この文脈では「劣等感」"
+  },
+  {
+    "word": "insufficient",
+    "ja": "不十分な",
+    "pos": "語句",
+    "lemma": "insufficient",
+    "form": "",
+    "note": "insufficient：この文脈では「不十分な」"
+  },
+  {
+    "word": "judge",
+    "ja": "判定する",
+    "pos": "語句",
+    "lemma": "judge",
+    "form": "",
+    "note": "judge：この文脈では「判定する」"
+  },
+  {
+    "word": "laziness",
+    "ja": "怠惰",
+    "pos": "語句",
+    "lemma": "laziness",
+    "form": "",
+    "note": "laziness：この文脈では「怠惰」"
+  },
+  {
+    "word": "limitation",
+    "ja": "制約・限界",
+    "pos": "語句",
+    "lemma": "limitation",
+    "form": "",
+    "note": "limitation：この文脈では「制約・限界」"
+  },
+  {
+    "word": "listen",
+    "ja": "聴く",
+    "pos": "語句",
+    "lemma": "listen",
+    "form": "",
+    "note": "listen：この文脈では「聴く」"
+  },
+  {
+    "word": "losing",
+    "ja": "敗北すること",
+    "pos": "語句",
+    "lemma": "losing",
+    "form": "",
+    "note": "losing：この文脈では「敗北すること」"
+  },
+  {
+    "word": "lower",
+    "ja": "下部の",
+    "pos": "語句",
+    "lemma": "lower",
+    "form": "",
+    "note": "lower：この文脈では「下部の」"
+  },
+  {
+    "word": "lower-left",
+    "ja": "左下の",
+    "pos": "語句",
+    "lemma": "lower-left",
+    "form": "",
+    "note": "lower-left：この文脈では「左下の」"
+  },
+  {
+    "word": "maximize",
+    "ja": "最大化する",
+    "pos": "語句",
+    "lemma": "maximize",
+    "form": "",
+    "note": "maximize：この文脈では「最大化する」"
+  },
+  {
+    "word": "misleading",
+    "ja": "誤解を招く",
+    "pos": "語句",
+    "lemma": "misleading",
+    "form": "",
+    "note": "misleading：この文脈では「誤解を招く」"
+  },
+  {
+    "word": "narrowing",
+    "ja": "狭めること",
+    "pos": "語句",
+    "lemma": "narrowing",
+    "form": "",
+    "note": "narrowing：この文脈では「狭めること」"
+  },
+  {
+    "word": "negotiate",
+    "ja": "交渉する",
+    "pos": "語句",
+    "lemma": "negotiate",
+    "form": "",
+    "note": "negotiate：この文脈では「交渉する」"
+  },
+  {
+    "word": "obligation",
+    "ja": "義務",
+    "pos": "語句",
+    "lemma": "obligation",
+    "form": "",
+    "note": "obligation：この文脈では「義務」"
+  },
+  {
+    "word": "operator",
+    "ja": "操作者",
+    "pos": "語句",
+    "lemma": "operator",
+    "form": "",
+    "note": "operator：この文脈では「操作者」"
+  },
+  {
+    "word": "opponent",
+    "ja": "対戦相手",
+    "pos": "語句",
+    "lemma": "opponent",
+    "form": "",
+    "note": "opponent：この文脈では「対戦相手」"
+  },
+  {
+    "word": "orientation",
+    "ja": "向き・方向設定",
+    "pos": "語句",
+    "lemma": "orientation",
+    "form": "",
+    "note": "orientation：この文脈では「向き・方向設定」"
+  },
+  {
+    "word": "piano",
+    "ja": "ピアノ",
+    "pos": "語句",
+    "lemma": "piano",
+    "form": "",
+    "note": "piano：この文脈では「ピアノ」"
+  },
+  {
+    "word": "players",
+    "ja": "演奏者・競技者",
+    "pos": "語句",
+    "lemma": "players",
+    "form": "",
+    "note": "players：この文脈では「演奏者・競技者」"
+  },
+  {
+    "word": "prepares",
+    "ja": "準備する",
+    "pos": "語句",
+    "lemma": "prepares",
+    "form": "",
+    "note": "prepares：この文脈では「準備する」"
+  },
+  {
+    "word": "pride",
+    "ja": "誇り",
+    "pos": "語句",
+    "lemma": "pride",
+    "form": "",
+    "note": "pride：この文脈では「誇り」"
+  },
+  {
+    "word": "prize",
+    "ja": "賞・見返り",
+    "pos": "語句",
+    "lemma": "prize",
+    "form": "",
+    "note": "prize：この文脈では「賞・見返り」"
+  },
+  {
+    "word": "purification",
+    "ja": "浄化",
+    "pos": "語句",
+    "lemma": "purification",
+    "form": "",
+    "note": "purification：この文脈では「浄化」"
+  },
+  {
+    "word": "push",
+    "ja": "押す・後ろへ延ばす",
+    "pos": "語句",
+    "lemma": "push",
+    "form": "",
+    "note": "push：この文脈では「押す・後ろへ延ばす」"
+  },
+  {
+    "word": "rate",
+    "ja": "割合・速度",
+    "pos": "語句",
+    "lemma": "rate",
+    "form": "",
+    "note": "rate：この文脈では「割合・速度」"
+  },
+  {
+    "word": "rebuild",
+    "ja": "作り直す",
+    "pos": "語句",
+    "lemma": "rebuild",
+    "form": "",
+    "note": "rebuild：この文脈では「作り直す」"
+  },
+  {
+    "word": "reference",
+    "ja": "基準・参照点",
+    "pos": "語句",
+    "lemma": "reference",
+    "form": "",
+    "note": "reference：この文脈では「基準・参照点」"
+  },
+  {
+    "word": "reflection",
+    "ja": "反省・内省",
+    "pos": "語句",
+    "lemma": "reflection",
+    "form": "",
+    "note": "reflection：この文脈では「反省・内省」"
+  },
+  {
+    "word": "renegotiate",
+    "ja": "再交渉する",
+    "pos": "語句",
+    "lemma": "renegotiate",
+    "form": "",
+    "note": "renegotiate：この文脈では「再交渉する」"
+  },
+  {
+    "word": "resemble",
+    "ja": "似ている",
+    "pos": "語句",
+    "lemma": "resemble",
+    "form": "",
+    "note": "resemble：この文脈では「似ている」"
+  },
+  {
+    "word": "respect",
+    "ja": "尊重する",
+    "pos": "語句",
+    "lemma": "respect",
+    "form": "",
+    "note": "respect：この文脈では「尊重する」"
+  },
+  {
+    "word": "rotate",
+    "ja": "回転させる",
+    "pos": "語句",
+    "lemma": "rotate",
+    "form": "",
+    "note": "rotate：この文脈では「回転させる」"
+  },
+  {
+    "word": "shallow",
+    "ja": "浅い",
+    "pos": "語句",
+    "lemma": "shallow",
+    "form": "",
+    "note": "shallow：この文脈では「浅い」"
+  },
+  {
+    "word": "silently",
+    "ja": "静かに",
+    "pos": "語句",
+    "lemma": "silently",
+    "form": "",
+    "note": "silently：この文脈では「静かに」"
+  },
+  {
+    "word": "society's",
+    "ja": "社会の",
+    "pos": "語句",
+    "lemma": "society's",
+    "form": "",
+    "note": "society's：この文脈では「社会の」"
+  },
+  {
+    "word": "soundproofing",
+    "ja": "防音",
+    "pos": "語句",
+    "lemma": "soundproofing",
+    "form": "",
+    "note": "soundproofing：この文脈では「防音」"
+  },
+  {
+    "word": "stain",
+    "ja": "汚点",
+    "pos": "語句",
+    "lemma": "stain",
+    "form": "",
+    "note": "stain：この文脈では「汚点」"
+  },
+  {
+    "word": "structural",
+    "ja": "構造用の",
+    "pos": "語句",
+    "lemma": "structural",
+    "form": "",
+    "note": "structural：この文脈では「構造用の」"
+  },
+  {
+    "word": "thirty",
+    "ja": "三十の",
+    "pos": "語句",
+    "lemma": "thirty",
+    "form": "",
+    "note": "thirty：この文脈では「三十の」"
+  },
+  {
+    "word": "thirty-millimeter",
+    "ja": "三十ミリメートルの",
+    "pos": "語句",
+    "lemma": "thirty-millimeter",
+    "form": "",
+    "note": "thirty-millimeter：この文脈では「三十ミリメートルの」"
+  },
+  {
+    "word": "tournament",
+    "ja": "大会",
+    "pos": "語句",
+    "lemma": "tournament",
+    "form": "",
+    "note": "tournament：この文脈では「大会」"
+  },
+  {
+    "word": "unpriced",
+    "ja": "価格に算入されない",
+    "pos": "語句",
+    "lemma": "unpriced",
+    "form": "",
+    "note": "unpriced：この文脈では「価格に算入されない」"
+  },
+  {
+    "word": "upper",
+    "ja": "上部の",
+    "pos": "語句",
+    "lemma": "upper",
+    "form": "",
+    "note": "upper：この文脈では「上部の」"
+  },
+  {
+    "word": "users",
+    "ja": "利用者",
+    "pos": "語句",
+    "lemma": "users",
+    "form": "",
+    "note": "users：この文脈では「利用者」"
+  },
+  {
+    "word": "victory",
+    "ja": "勝利",
+    "pos": "語句",
+    "lemma": "victory",
+    "form": "",
+    "note": "victory：この文脈では「勝利」"
+  },
+  {
+    "word": "views",
+    "ja": "表示・視点",
+    "pos": "語句",
+    "lemma": "views",
+    "form": "",
+    "note": "views：この文脈では「表示・視点」"
+  },
+  {
+    "word": "volume",
+    "ja": "音量",
+    "pos": "語句",
+    "lemma": "volume",
+    "form": "",
+    "note": "volume：この文脈では「音量」"
+  },
+  {
+    "word": "walls",
+    "ja": "壁",
+    "pos": "語句",
+    "lemma": "walls",
+    "form": "",
+    "note": "walls：この文脈では「壁」"
+  },
+  {
+    "word": "weak",
+    "ja": "弱い",
+    "pos": "語句",
+    "lemma": "weak",
+    "form": "",
+    "note": "weak：この文脈では「弱い」"
+  },
+  {
+    "word": "web",
+    "ja": "ウェブ・形鋼の腹板",
+    "pos": "語句",
+    "lemma": "web",
+    "form": "",
+    "note": "web：この文脈では「ウェブ・形鋼の腹板」"
+  },
+  {
+    "word": "width",
+    "ja": "幅",
+    "pos": "語句",
+    "lemma": "width",
+    "form": "",
+    "note": "width：この文脈では「幅」"
+  },
+  {
+    "word": "winners",
+    "ja": "勝者たち",
+    "pos": "語句",
+    "lemma": "winners",
+    "form": "",
+    "note": "winners：この文脈では「勝者たち」"
+  },
+  {
+    "word": "y-axis",
+    "ja": "Y軸",
+    "pos": "語句",
+    "lemma": "y-axis",
+    "form": "",
+    "note": "y-axis：この文脈では「Y軸」"
+  },
+  {
+    "word": "zoning",
+    "ja": "用途・区域分け",
+    "pos": "語句",
+    "lemma": "zoning",
+    "form": "",
+    "note": "zoning：この文脈では「用途・区域分け」"
   }
 ]
