@@ -1,0 +1,159 @@
+[
+  {
+    "id": "DE-20260926-001",
+    "sourceTitle": "音は許可証の外へ漏れる",
+    "workId": "daily-essay-20260926",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "弾いてよい場所",
+    "jp": "公共空間に置かれたピアノは、弾いてよいという許可を形にしている。けれど、その許可は周囲の人へ、足を止めて聴く義務や、長い演奏を黙って受け入れる義務まで配らない。演奏者には舞台でも、通行人には移動の途中である。同じ床を共有しても、同じ目的を共有しているとは限らない。「弾いてよい」という事実から、「邪魔してはならない」という規範を自動的に導くことはできない。",
+    "translationLiteral": "A piano placed in public space gives form to permission to play. Yet that permission does not distribute to people nearby a duty to stop and listen or silently accept a long performance. It may be a stage to the performer, but it is part of a journey to the passerby. Sharing the same floor does not mean sharing the same purpose. From the fact that one may play, the norm that others must not interfere cannot be derived automatically.",
+    "translationNatural": "A public piano makes permission to play visible, but it does not impose a duty on everyone nearby to stop, listen, or silently accept a long performance. The same floor can be a stage for the player and merely a passage for someone else. Shared space does not guarantee a shared purpose. Permission for one action cannot automatically become an obligation for every bystander.",
+    "imageUrl": "",
+    "imageCaption": "一台の公共ピアノを中心に、演奏者の舞台と通行人の動線が別々に伸びる。",
+    "imagePrompt": "A public piano at the center, with one path forming a stage and another continuing as pedestrian passage, thoughtful editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "A public piano makes permission to play visible, but it does not impose a duty on everyone nearby to stop, listen, or silently accept a long performance.",
+        "ja": "公共ピアノは演奏許可を見える形にするが、周囲の全員へ立ち止まり、聴き、長い演奏を黙って受け入れる義務を課さない。"
+      },
+      {
+        "en": "The same floor can be a stage for the player and merely a passage for someone else.",
+        "ja": "同じ床が、演奏者には舞台であり、別の人には単なる通路でありうる。"
+      },
+      {
+        "en": "Shared space does not guarantee a shared purpose.",
+        "ja": "共有空間は目的の共有を保証しない。"
+      },
+      {
+        "en": "Permission for one action cannot automatically become an obligation for every bystander.",
+        "ja": "一つの行為への許可が、すべての居合わせた人の義務へ自動的に変わることはない。"
+      }
+    ],
+    "grammar": [
+      "make O C は許可を可視化する。",
+      "but は許可と周囲の義務を対照する。",
+      "impose a duty on A to do はAへ行為義務を課す。",
+      "can be A and B は同じ床の異なる役割を示す。",
+      "does not guarantee は共有空間から目的共有を導かない。",
+      "cannot become は許可から義務への自動変換を否定する。"
+    ],
+    "translationNote": "literal は『である』から『べし』を導けない論理を明示した。natural は permission と obligation を対置し、演奏者と通行人の異なる目的を簡潔に整理した。",
+    "readingPoint": "導入。公共ピアノの許可を、周囲の受忍義務と切り離す。共有空間に複数の目的が併存することを置く。",
+    "keywords": [
+      "public piano",
+      "permission",
+      "obligation",
+      "bystander",
+      "shared space"
+    ]
+  },
+  {
+    "id": "DE-20260926-002",
+    "sourceTitle": "音は許可証の外へ漏れる",
+    "workId": "daily-essay-20260926",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "楽しさの外部",
+    "jp": "音楽の楽しさは演奏者と観客の輪の内側に集まりやすいが、音量と占有時間は輪の外へ広がる。費用も同じで、防音、警備、清掃、苦情対応を誰が負うかが曖昧なら、楽しさだけが私的に回収され、負担は公共へ残る。ライブハウスが壁と入場料と時間割を持つのは、音楽を閉じ込めるためだけではない。楽しむ人と費用を負う人の範囲を、できるだけ近づけるためでもある。",
+    "translationLiteral": "The enjoyment of music tends to gather inside the circle of performers and audience, but volume and occupied time spread outside the circle. Costs are similar: if it is unclear who bears soundproofing, security, cleaning, and complaint handling, only the enjoyment is privately collected while the burden remains public. A live house has walls, admission fees, and a schedule not merely to confine music. It also brings the range of people who enjoy it as close as possible to the range of people who bear the cost.",
+    "translationNatural": "Musical enjoyment gathers inside a circle of players and listeners, while volume, occupied time, and practical costs travel beyond it. If responsibility for soundproofing, security, cleaning, and complaints is unclear, pleasure remains private while the burden becomes public. A music venue uses walls, admission, and schedules not simply to contain sound, but to bring beneficiaries and cost bearers closer together.",
+    "imageUrl": "",
+    "imageCaption": "演奏の輪から楽しさは内側へ集まり、音と費用の波だけが外へ広がる。",
+    "imagePrompt": "A circle of musicians and listeners holding warm light inside while sound waves and cost symbols spread outside, editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Musical enjoyment gathers inside a circle of players and listeners, while volume, occupied time, and practical costs travel beyond it.",
+        "ja": "音楽の楽しさは演奏者と聴衆の輪に集まる一方、音量、占有時間、実務費用は外へ移動する。"
+      },
+      {
+        "en": "If responsibility for soundproofing, security, cleaning, and complaints is unclear,",
+        "ja": "防音、警備、清掃、苦情対応の責任が曖昧なら、"
+      },
+      {
+        "en": "pleasure remains private while the burden becomes public.",
+        "ja": "楽しさは私的なまま、負担は公共のものになる。"
+      },
+      {
+        "en": "A music venue uses walls, admission, and schedules not simply to contain sound,",
+        "ja": "音楽会場は、単に音を閉じ込めるためだけでなく、壁、入場料、時間割を使い、"
+      },
+      {
+        "en": "but to bring beneficiaries and cost bearers closer together.",
+        "ja": "利益を受ける人と費用を負う人を近づける。"
+      }
+    ],
+    "grammar": [
+      "while は楽しさの内在化と負担の外部化を対照する。",
+      "If S V は責任が曖昧な場合の結果を示す。",
+      "remain C / become C は状態の維持と変化を並べる。",
+      "not simply A, but B は会場設計の目的を修正する。",
+      "bring A and B closer together は二者の範囲を近づける。"
+    ],
+    "translationNote": "literal は防音・警備・清掃・苦情対応の具体費用を残した。natural は beneficiaries と cost bearers を対置し、楽しさと負担の範囲を揃える会場設計の意味を明示した。",
+    "readingPoint": "展開。許可の論理から費用と騒音の外部化へ移り、専用会場や時間設定を境界調整の装置として読む。",
+    "keywords": [
+      "externality",
+      "soundproofing",
+      "public burden",
+      "music venue",
+      "cost bearer"
+    ]
+  },
+  {
+    "id": "DE-20260926-003",
+    "sourceTitle": "音は許可証の外へ漏れる",
+    "workId": "daily-essay-20260926",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "境界を残す自由",
+    "jp": "ゾーニングは、表現を弱めるための檻に見えることがある。しかし、どこで何を行うかを区切ることは、境界設定の権利を社会に残す取引でもある。自由を守ろうとして戦線を無限に広げれば、あらゆる場所で同じ表現を優先せよという要求に変わり、異なる利用者の自由を削る。境界のない勝利は、次の規制を強く招きやすい。長く続く自由は、音を最大化する自由ではなく、音を置く場所を交渉し直せる自由である。",
+    "translationLiteral": "Zoning can look like a cage intended to weaken expression. However, dividing where and what may be done is also a bargain that leaves society the right to set boundaries. If the front line is expanded without limit in order to protect freedom, it becomes a demand that the same expression be prioritized everywhere, reducing the freedom of different users. A victory without boundaries easily invites stronger regulation next. Freedom that lasts is not freedom to maximize sound but freedom to renegotiate where sound is placed.",
+    "translationNatural": "Zoning can resemble a cage, yet it can also preserve society's ability to negotiate boundaries. When a campaign for freedom expands into every space, it may become a demand that one form of expression always take priority, narrowing the freedom of other users. A boundaryless victory often invites a harsher rule afterward. Durable freedom is not the right to maximize sound everywhere, but the ability to renegotiate where sound belongs.",
+    "imageUrl": "",
+    "imageCaption": "壊された境界線の先に新しい高い壁が立ち、手前には動かせる小さな仕切りが残る。",
+    "imagePrompt": "A flexible movable boundary in the foreground and a tall rigid wall rising beyond a destroyed border, symbolic editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "Zoning can resemble a cage, yet it can also preserve society's ability to negotiate boundaries.",
+        "ja": "ゾーニングは檻に見えても、社会が境界を交渉する能力を保存しうる。"
+      },
+      {
+        "en": "When a campaign for freedom expands into every space,",
+        "ja": "自由を求める運動があらゆる空間へ広がると、"
+      },
+      {
+        "en": "it may become a demand that one form of expression always take priority, narrowing the freedom of other users.",
+        "ja": "一つの表現を常に優先せよという要求へ変わり、他の利用者の自由を狭めうる。"
+      },
+      {
+        "en": "A boundaryless victory often invites a harsher rule afterward.",
+        "ja": "境界のない勝利は、その後により厳しい規則を招きやすい。"
+      },
+      {
+        "en": "Durable freedom is not the right to maximize sound everywhere, but the ability to renegotiate where sound belongs.",
+        "ja": "持続する自由とは、どこでも音を最大化する権利ではなく、音を置く場所を再交渉できる能力である。"
+      }
+    ],
+    "grammar": [
+      "can resemble A, yet B は檻の外見と境界交渉機能を対照する。",
+      "When S V は運動が全空間へ広がった場合を示す。",
+      "a demand that S V は demand の内容を同格節で示す。",
+      "narrowing ... は結果を表す分詞構文。",
+      "not A, but B は持続する自由の定義を修正する。",
+      "where sound belongs は renegotiate の目的となる名詞節。"
+    ],
+    "translationNote": "literal は『戦線の無限拡大』と次の規制を招く逆説を追った。natural は durable freedom と renegotiate を用い、ゾーニングを自由の否定ではなく境界を更新できる条件として表した。",
+    "readingPoint": "転換と余韻。公共演奏の個別問題から、自由を長く残すための境界設計へ広げる。",
+    "keywords": [
+      "zoning",
+      "boundary",
+      "freedom",
+      "regulation",
+      "renegotiation"
+    ]
+  }
+]
