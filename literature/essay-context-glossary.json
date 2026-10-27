@@ -2534,5 +2534,281 @@
         }
       ]
     }
+  ],
+  "DE-20261027-001": [
+    {
+      "words": {
+        "structural": {
+          "ja": "構造用の",
+          "pos": "語句",
+          "lemma": "structural",
+          "form": "",
+          "note": "structural：この文脈では「構造用の」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A structural profile contains one point that must remain still.",
+          "ja": "形鋼断面には、動かずに残るべき一点がある。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "flange": {
+          "ja": "フランジ",
+          "pos": "語句",
+          "lemma": "flange",
+          "form": "",
+          "note": "flange：この文脈では「フランジ」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Views of the upper flange, lower flange, and web may change, but the machine origin cannot move with convenience.",
+          "ja": "上フランジ、下フランジ、ウェブの見え方は変えられても、機械原点を都合で動かすことはできない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "reference": {
+          "ja": "基準点",
+          "pos": "語句",
+          "lemma": "reference",
+          "form": "",
+          "note": "reference：この文脈では「基準点」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "We can rotate a drawing for clarity; if we rotate its reference as well, the same hole appears in a different place.",
+          "ja": "見やすさのために図は回せるが、基準まで回すと同じ穴が別の位置に現れる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "limitation": {
+          "ja": "制約",
+          "pos": "語句",
+          "lemma": "limitation",
+          "form": "",
+          "note": "limitation：この文脈では「制約」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The fixed lower-left point is not a limitation.",
+          "ja": "固定された左下の点は制約ではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "footing": {
+          "ja": "足場",
+          "pos": "語句",
+          "lemma": "footing",
+          "form": "",
+          "note": "footing：この文脈では「足場」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It is the stable footing that makes every other view adjustable.",
+          "ja": "それは他のすべての表示を変更可能にする安定した足場である。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261027-002": [
+    {
+      "words": {
+        "orientation": {
+          "ja": "方向設定",
+          "pos": "語句",
+          "lemma": "orientation",
+          "form": "",
+          "note": "orientation：この文脈では「方向設定」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Orientation work places the real object, the guide diagram, and the 3D view in the same field of attention.",
+          "ja": "向きの確認では、現物、案内図、3D表示が同じ注意領域に置かれる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "compensate": {
+          "ja": "補う",
+          "pos": "語句",
+          "lemma": "compensate",
+          "form": "",
+          "note": "compensate：この文脈では「補う」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A correct camera cannot compensate for a Y-axis arrow that contradicts its button;",
+          "ja": "正しいカメラでも、ボタンと矛盾するY軸矢印は補えず、",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "hesitates": {
+          "ja": "ためらう",
+          "pos": "語句",
+          "lemma": "hesitates",
+          "form": "",
+          "note": "hesitates：この文脈では「ためらう」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the operator hesitates, and repeated hesitation invites error.",
+          "ja": "操作者はためらい、その反復が誤りを招く。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "rebuild": {
+          "ja": "作り直す",
+          "pos": "語句",
+          "lemma": "rebuild",
+          "form": "",
+          "note": "rebuild：この文脈では「作り直す」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The answer is not to rebuild the working 3D view.",
+          "ja": "解決は、正常な3D表示を作り直すことではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "misleading": {
+          "ja": "誤解を招く",
+          "pos": "語句",
+          "lemma": "misleading",
+          "form": "",
+          "note": "misleading：この文脈では「誤解を招く」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Good correction protects what is already right and moves only the misleading arrow.",
+          "ja": "良い修正は、すでに正しい部分を守り、誤解を招く矢印だけを動かす。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261027-003": [
+    {
+      "words": {
+        "ceremony": {
+          "ja": "儀式",
+          "pos": "語句",
+          "lemma": "ceremony",
+          "form": "",
+          "note": "ceremony：この文脈では「儀式」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Fifty-two passing checks do not make testing a ceremony for counting success.",
+          "ja": "五十二件の合格があっても、試験は成功を数える儀式にはならない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "boundary": {
+          "ja": "境界条件",
+          "pos": "語句",
+          "lemma": "boundary",
+          "form": "",
+          "note": "boundary：この文脈では「境界条件」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A defect that appeared at a thirty-millimeter face width revealed a boundary condition hidden by ordinary dimensions.",
+          "ja": "面幅三十ミリで現れた不具合は、通常寸法に隠れた境界条件を明らかにした。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "functionality": {
+          "ja": "機能性",
+          "pos": "語句",
+          "lemma": "functionality",
+          "form": "",
+          "note": "functionality：この文脈では「機能性」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Broad functionality is not the same as correctness at the edge.",
+          "ja": "広い範囲で機能することと、端でも正しいことは同じではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "stain": {
+          "ja": "汚点",
+          "pos": "語句",
+          "lemma": "stain",
+          "form": "",
+          "note": "stain：この文脈では「汚点」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "One failed case may push completion farther away, but it is not a stain on the result.",
+          "ja": "一件の不合格は完成を遠ざけても、結果の汚点ではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "asks": {
+          "ja": "問いかける",
+          "pos": "語句",
+          "lemma": "asks",
+          "form": "",
+          "note": "asks：この文脈では「問いかける」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It is the last question the drawing asks before entering the shop floor.",
+          "ja": "それは図面が現場へ入る前に投げかける最後の質問である。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
   ]
 }
