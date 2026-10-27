@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 150,
+    "_generatedAt": "2026-10-28T01:58:33+09:00",
+    "sentence": "A temporary policy can harden into a permanent structure when institutions lack a clear path for review, reversal, or expiration.",
+    "phonetic": "ア テンポラリー ポリシー キャン ハーデン イントゥ ア パーマネント ストラクチャー ウェン インスティテューションズ ラック ア クリア パス フォー リヴュー、リヴァーサル、オア エクスパレイション。",
+    "japaneseTranslation": "暫定的な政策は、制度に見直し・撤回・失効へ向かう明確な経路がないと、恒久的な構造へ固まることがあります。",
+    "theme": "暫定制度が恒久化する条件",
+    "coreVerb": "harden",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A policy hardens.",
+        "translation": "政策が固まります。"
+      },
+      "phase2": {
+        "sentence": "A temporary policy can harden.",
+        "translation": "暫定的な政策が固まることがあります。",
+        "addedChunks": "temporary / can"
+      },
+      "phase3": {
+        "sentence": "A temporary policy can harden when review is absent.",
+        "translation": "見直しがなければ、暫定的な政策が固まることがあります。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "A reversible policy is safer than a permanent default.",
+        "translation": "可逆的な政策は恒久的な既定路線より安全です。",
+        "comparison": "safer than"
+      },
+      "phase5": {
+        "sentence": "A temporary policy can harden into a permanent structure when institutions lack a clear path",
+        "translation": "暫定的な政策は、制度に明確な経路がないと恒久的な構造へ固まることがあります",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A temporary policy",
+          "function": "内容",
+          "translation": "暫定的な政策は"
+        },
+        {
+          "text": "can harden",
+          "function": "行動",
+          "translation": "固まることがあります"
+        },
+        {
+          "text": "into a permanent structure",
+          "function": "結果",
+          "translation": "恒久的な構造へ"
+        },
+        {
+          "text": "when institutions lack",
+          "function": "接続",
+          "translation": "制度に欠けているとき"
+        },
+        {
+          "text": "a clear path for review, reversal,",
+          "function": "対象",
+          "translation": "見直しや撤回への明確な経路が"
+        },
+        {
+          "text": "or expiration.",
+          "function": "対象",
+          "translation": "または失効への経路が。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "冠詞",
+          "name": "a temporary policy",
+          "where": "A temporary policy",
+          "explanation": "特定されていない一つの政策を表します。",
+          "rule": "a + 単数可算名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can harden",
+          "explanation": "恒久化の可能性を断定せず示します。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "変化表現",
+          "name": "harden into",
+          "where": "harden into a permanent structure",
+          "explanation": "ある状態が別の固定的な形へ変わることを表します。",
+          "rule": "harden into + 名詞"
+        },
+        {
+          "category": "接続詞",
+          "name": "when",
+          "where": "when institutions lack",
+          "explanation": "恒久化が起きやすい条件を導きます。",
+          "rule": "主節 + when + 節"
+        },
+        {
+          "category": "語法",
+          "name": "lack",
+          "where": "institutions lack a clear path",
+          "explanation": "必要なものを持たない状態を他動詞で表します。",
+          "rule": "lack + 目的語"
+        },
+        {
+          "category": "前置詞",
+          "name": "path for",
+          "where": "a path for review",
+          "explanation": "何のための経路かを示します。",
+          "rule": "path for + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "A, B, or C",
+          "where": "review, reversal, or expiration",
+          "explanation": "三つの可逆化手段をorで並べます。",
+          "rule": "A, B, or C"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A temporary policy can hardens.",
+          "correct": "A temporary policy can harden.",
+          "why": "canの後は動詞原形です。"
+        },
+        {
+          "wrong": "harden to a permanent structure",
+          "correct": "harden into a permanent structure",
+          "why": "変化の結果にはintoが自然です。"
+        },
+        {
+          "wrong": "institutions lacks a clear path",
+          "correct": "institutions lack a clear path",
+          "why": "複数主語institutionsにはlackを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Temporary measures become durable when nobody defines an exit.",
+          "translation": "出口を誰も定めないと、暫定措置は長期化します。"
+        },
+        {
+          "text": "A sunset clause keeps a policy open to expiration.",
+          "translation": "サンセット条項は、政策が失効する余地を保ちます。"
+        },
+        {
+          "text": "Review makes institutions more reversible.",
+          "translation": "見直しは制度をより可逆的にします。"
+        }
+      ],
+      "parseTree": "[S [NP A temporary policy] [VP can harden [PP into a permanent structure] [Adv when [S [NP institutions] [VP lack [NP a clear path for review, reversal, or expiration]]]]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "A policy can harden.",
+          "expanded": "A policy can harden because organizations build routines, contracts, and expectations around it.",
+          "nuance": "恒久化を支える蓄積を示します。"
+        },
+        {
+          "original": "Institutions need review.",
+          "expanded": "Institutions need review because temporary conditions may disappear while the rule remains.",
+          "nuance": "環境変化と規則の残存を対比します。"
+        },
+        {
+          "original": "An exit path matters.",
+          "expanded": "An exit path matters because reversal becomes harder after interests and procedures accumulate.",
+          "nuance": "時間とともに退出費用が上がる理由を示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A temporary policy may be turned into a permanent structure when no exit path is defined.",
+          "translation": "出口が定められないと、暫定政策が恒久的な構造へ変えられることがあります。",
+          "note": "政策が受ける変化を前面に出します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Lacking a review process, institutions may preserve temporary measures indefinitely.",
+          "translation": "見直し手続きを欠くことで、制度は暫定措置を無期限に残すことがあります。",
+          "note": "条件を分詞句へ圧縮します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The absence of review, reversal, and expiration encourages institutional hardening.",
+          "translation": "見直し・撤回・失効の欠如は、制度の硬直化を促します。",
+          "note": "lackとhardenを名詞中心に変えます。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "harden",
+            "alternatives": [
+              "solidify",
+              "become entrenched",
+              "become permanent"
+            ],
+            "nuance": "hardenは徐々に固まる過程、become entrenchedは既得権や慣行への深い定着を強調します。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "暫定措置の恒久化",
+            "sentence": "A temporary X can harden into Y when Z is absent.",
+            "translation": "Zがないと、暫定的なXがYへ固まることがあります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A policy with an exit path is more reversible than one without review.",
+            "translation": "出口のある政策は、見直しのない政策より可逆的です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If institutions schedule review, temporary measures are less likely to become permanent.",
+            "translation": "制度が見直しを予定すれば、暫定措置は恒久化しにくくなります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the missing exit path that turns delay into permanence.",
+            "translation": "遅延を恒久化へ変えるのは、出口の欠如です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Temporary can become permanent.",
+            "translation": "暫定は恒久になり得ます。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "制度の硬直化を一つの条件文で明確に表し、review・reversal・expirationの並列も自然である。"
+    }
+  }
+]
