@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 151,
+    "_generatedAt": "2026-10-28T01:58:33+09:00",
+    "sentence": "A decline in reading rarely has a single cause; media, prices, local access, attention, and market structure all shape the result.",
+    "phonetic": "ア ディクライン イン リーディング レアリー ハズ ア シングル コーズ；メディア、プライシズ、ローカル アクセス、アテンション、アンド マーケット ストラクチャー オール シェイプ ザ リザルト。",
+    "japaneseTranslation": "読書の減少に単一の原因しかないことはまれです。媒体、価格、地域でのアクセス、注意力、市場構造のすべてが結果を形作ります。",
+    "theme": "読書減少を単一原因で説明しない",
+    "coreVerb": "shape",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Many factors shape reading.",
+        "translation": "多くの要因が読書を形作ります。"
+      },
+      "phase2": {
+        "sentence": "Many social factors shape reading habits.",
+        "translation": "多くの社会的要因が読書習慣を形作ります。",
+        "addedChunks": "social / habits"
+      },
+      "phase3": {
+        "sentence": "Reading declines because several conditions change together.",
+        "translation": "複数の条件が同時に変わるため、読書は減少します。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Local access may matter more than a single cultural explanation.",
+        "translation": "地域でのアクセスは、単一の文化的説明より重要なことがあります。",
+        "comparison": "more ... than"
+      },
+      "phase5": {
+        "sentence": "A decline in reading rarely has a single cause;",
+        "translation": "読書の減少に単一の原因しかないことはまれです。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A decline in reading",
+          "function": "内容",
+          "translation": "読書の減少には"
+        },
+        {
+          "text": "rarely has",
+          "function": "様態",
+          "translation": "めったにありません"
+        },
+        {
+          "text": "a single cause;",
+          "function": "対象",
+          "translation": "単一の原因が。"
+        },
+        {
+          "text": "media, prices, local access,",
+          "function": "対象",
+          "translation": "媒体、価格、地域でのアクセス、"
+        },
+        {
+          "text": "attention, and market structure",
+          "function": "対象",
+          "translation": "注意力、市場構造が"
+        },
+        {
+          "text": "all shape the result.",
+          "function": "結果",
+          "translation": "すべて結果を形作ります。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "名詞句",
+          "name": "a decline in",
+          "where": "A decline in reading",
+          "explanation": "ある活動の減少を表します。",
+          "rule": "a decline in + 名詞"
+        },
+        {
+          "category": "頻度副詞",
+          "name": "rarely",
+          "where": "rarely has",
+          "explanation": "単一原因である頻度が低いことを示します。",
+          "rule": "主語 + rarely + 動詞"
+        },
+        {
+          "category": "三単現",
+          "name": "has",
+          "where": "A decline ... has",
+          "explanation": "単数主語declineにhasを使います。",
+          "rule": "単数主語 + has"
+        },
+        {
+          "category": "句読法",
+          "name": "semicolon",
+          "where": "a single cause; media...",
+          "explanation": "密接に関連する二つの独立節を結びます。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "並列",
+          "name": "A, B, C, D, and E",
+          "where": "media, prices, local access, attention, and market structure",
+          "explanation": "複数の要因を同じ文法上の位置に並べます。",
+          "rule": "A, B, C, D, and E"
+        },
+        {
+          "category": "強調",
+          "name": "all",
+          "where": "all shape",
+          "explanation": "列挙した要因がすべて作用することを明示します。",
+          "rule": "複数主語 + all + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "shape",
+          "where": "shape the result",
+          "explanation": "複数の要因が結果の形を作ることを表します。",
+          "rule": "shape + 目的語"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A decline in reading rarely have a single cause.",
+          "correct": "A decline in reading rarely has a single cause.",
+          "why": "単数主語declineにはhasを使います。"
+        },
+        {
+          "wrong": "media and prices shapes the result",
+          "correct": "media and prices shape the result",
+          "why": "複数主語にはshapeを使います。"
+        },
+        {
+          "wrong": "a decline of reading",
+          "correct": "a decline in reading",
+          "why": "活動や数量の減少には通常decline inを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Work is one influence on reading, not a complete explanation.",
+          "translation": "仕事は読書への一つの影響であり、完全な説明ではありません。"
+        },
+        {
+          "text": "Book access differs by price, place, and medium.",
+          "translation": "本へのアクセスは、価格、場所、媒体によって異なります。"
+        },
+        {
+          "text": "Changes in attention interact with changes in the market.",
+          "translation": "注意力の変化は、市場の変化と相互作用します。"
+        }
+      ],
+      "parseTree": "[S [NP A decline in reading] [VP rarely has [NP a single cause]]]; [S [NP media, prices, local access, attention, and market structure] [Adv all] [VP shape [NP the result]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Reading has multiple causes.",
+          "expanded": "Reading has multiple causes because access, cost, media, and attention change under different conditions.",
+          "nuance": "要因が条件ごとに変化することを示します。"
+        },
+        {
+          "original": "Price shapes the result.",
+          "expanded": "Price shapes the result because higher costs can reduce access for some readers.",
+          "nuance": "価格とアクセスの因果を限定的に示します。"
+        },
+        {
+          "original": "Market structure matters.",
+          "expanded": "Market structure matters because distribution and local availability affect which books readers can encounter.",
+          "nuance": "市場構造が接触機会を変える経路を示します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Reading habits are shaped by media, prices, local access, attention, and market structure.",
+          "translation": "読書習慣は、媒体、価格、地域でのアクセス、注意力、市場構造によって形作られます。",
+          "note": "結果側を主語へ移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Looking beyond work alone, we can see several conditions that influence reading.",
+          "translation": "仕事だけに目を向けずに見ると、読書へ影響する複数の条件が見えます。",
+          "note": "分析視点を分詞句で導きます。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The explanation of declining reading requires attention to access, cost, media, and markets.",
+          "translation": "読書減少の説明には、アクセス、費用、媒体、市場への注意が必要です。",
+          "note": "explainをexplanationへ名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "shape",
+            "alternatives": [
+              "influence",
+              "affect",
+              "determine in part"
+            ],
+            "nuance": "shapeは結果の形成過程を示し、determineより断定が弱い表現です。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "多因子説明",
+            "sentence": "A change in X rarely has a single cause; A, B, and C all shape the result.",
+            "translation": "Xの変化に単一原因しかないことはまれで、A・B・Cがすべて結果を形作ります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A multi-factor explanation is more precise than blaming work alone.",
+            "translation": "多因子の説明は、仕事だけを原因にする説明より正確です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If local access improves, reading may rise even when work hours do not change.",
+            "translation": "地域でのアクセスが改善すれば、労働時間が変わらなくても読書が増えることがあります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the interaction of several conditions that shapes reading habits.",
+            "translation": "読書習慣を形作るのは、複数の条件の相互作用です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Reading decline is multi-causal.",
+            "translation": "読書減少は多因子的です。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "単一原因を避ける主張と要因列挙が明瞭で、応用しやすい構文である。"
+    }
+  }
+]
