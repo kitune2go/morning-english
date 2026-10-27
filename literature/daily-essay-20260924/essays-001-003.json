@@ -1,0 +1,166 @@
+[
+  {
+    "id": "DE-20260924-001",
+    "sourceTitle": "努力の値札を誰が貼る",
+    "workId": "daily-essay-20260924",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "努力を換金する窓口",
+    "jp": "努力は、それだけでは勝利にも貨幣にもならない。大会、会社、学校、物語の読者など、誰かが成果として認める窓口を通ったとき、初めて価値へ換えられる。友情・努力・勝利という順序が強く見えた時代には、その窓口が安定しているように思えた。けれど、勝者だけが努力の証明を受け取るなら、敗者の時間は同じ量でも未換金のまま残る。努力の尊さと、努力が報われる制度は別の話である。",
+    "translationLiteral": "Effort does not become victory or money by itself. Only when it passes through a counter where someone—such as a tournament, company, school, or reader of a story—recognizes it as an achievement is it converted into value. In an era when the order of friendship, effort, and victory looked strong, that counter seemed stable. But if only winners receive proof of effort, the time of losers remains unconverted even in the same quantity. The dignity of effort and a system that rewards effort are separate matters.",
+    "translationNatural": "Effort does not convert itself into victory or money. It needs an authority—a tournament, employer, school, or audience—to recognize an outcome and attach value to it. When friendship, effort, and victory appeared to form a reliable sequence, that authority seemed stable. Yet if only winners receive certification, equal hours on the losing side remain unpriced. Respect for effort is not the same as a system that rewards it.",
+    "imageUrl": "",
+    "imageCaption": "長い努力の列が窓口へ並ぶが、勝者の券だけに価格が印字される。",
+    "imagePrompt": "A long line of effort tickets at a valuation counter, with only the winner's ticket receiving a price, restrained editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Effort does not convert itself into victory or money.",
+        "ja": "努力は自力で勝利や貨幣へ変わらない。"
+      },
+      {
+        "en": "It needs an authority—a tournament, employer, school, or audience—to recognize an outcome and attach value to it.",
+        "ja": "結果を認定して価値を付ける大会、雇用者、学校、観客などの審級が必要である。"
+      },
+      {
+        "en": "When friendship, effort, and victory appeared to form a reliable sequence, that authority seemed stable.",
+        "ja": "友情・努力・勝利が確かな順序に見えたとき、その審級も安定して見えた。"
+      },
+      {
+        "en": "Yet if only winners receive certification, equal hours on the losing side remain unpriced.",
+        "ja": "しかし勝者だけが認定を受けるなら、敗者側の同じ時間は値が付かないまま残る。"
+      },
+      {
+        "en": "Respect for effort is not the same as a system that rewards it.",
+        "ja": "努力への敬意と、努力を報いる制度は同じではない。"
+      }
+    ],
+    "grammar": [
+      "convert A into B は努力が価値へ変換される関係を示す。",
+      "need O to do は審級に必要な役割を示す。",
+      "When S V は審級が安定して見えた条件を置く。",
+      "if only winners ... は認定が偏る条件を示す。",
+      "remain unpriced は値付けされない状態の継続を表す。",
+      "not the same as は倫理的尊重と制度的報酬を区別する。"
+    ],
+    "translationNote": "literal は『窓口』と『未換金』の比喩をそのまま追った。natural は authority、certification、unpriced を用い、努力の価値が第三者の認定制度に依存する構造を明示した。",
+    "readingPoint": "導入。努力そのものを否定せず、努力が社会的価値へ換えられるまでに必要な認定者を可視化する。",
+    "keywords": [
+      "effort",
+      "authority",
+      "recognition",
+      "winner",
+      "reward system",
+      "unpriced"
+    ]
+  },
+  {
+    "id": "DE-20260924-002",
+    "sourceTitle": "努力の値札を誰が貼る",
+    "workId": "daily-essay-20260924",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "十万時間と三十秒",
+    "jp": "デジタルの盤上では、十万時間の蓄積が三十秒の計算に負けることがある。相手が人間なら、同じ疲労や練習を想像して友情を結ぶこともできる。だがCPUは努力を誇らず、勝利を喜びもせず、ただ処理を終える。そこでは敗北が人格の劣等を証明するわけではないのに、古い採点表だけが本人へ残る。機械が崩したのは努力ではなく、時間を費やせば優位へ換金できるという交換率である。",
+    "translationLiteral": "On a digital board, an accumulation of one hundred thousand hours may lose to thirty seconds of computation. If the opponent is human, one can imagine the same fatigue and practice and form friendship. But a CPU does not boast of effort or rejoice in victory; it simply finishes processing. Defeat there does not prove inferiority of character, yet only the old scorecard remains with the person. What the machine destroyed was not effort but the exchange rate according to which time spent could be converted into advantage.",
+    "translationNatural": "On a digital field, a hundred thousand hours of practice can lose to thirty seconds of computation. A human opponent allows us to imagine shared fatigue and perhaps friendship; a CPU simply completes the process without pride or celebration. Such a defeat does not prove personal inferiority. What the machine breaks is not effort itself, but the old exchange rate between time spent and advantage gained.",
+    "imageUrl": "",
+    "imageCaption": "膨大な練習時間の砂時計の隣で、CPUの短い計算線が先に終点へ着く。",
+    "imagePrompt": "A vast hourglass of practice beside a short CPU computation line reaching the finish first, reflective editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "On a digital field, a hundred thousand hours of practice can lose to thirty seconds of computation.",
+        "ja": "デジタルの場では、十万時間の練習が三十秒の計算に負けうる。"
+      },
+      {
+        "en": "A human opponent allows us to imagine shared fatigue and perhaps friendship;",
+        "ja": "人間の相手なら、共有された疲労や友情を想像できるが、"
+      },
+      {
+        "en": "a CPU simply completes the process without pride or celebration.",
+        "ja": "CPUは誇りも祝福もなく処理を終えるだけだ。"
+      },
+      {
+        "en": "Such a defeat does not prove personal inferiority.",
+        "ja": "その敗北は人格的な劣等を証明しない。"
+      },
+      {
+        "en": "What the machine breaks is not effort itself, but the old exchange rate between time spent and advantage gained.",
+        "ja": "機械が壊すのは努力そのものではなく、費やした時間と得られる優位の古い交換率である。"
+      }
+    ],
+    "grammar": [
+      "can lose to は意外な敗北の可能性を示す。",
+      "allow O to do は人間相手が可能にする想像を表す。",
+      "without A or B は誇りと祝福の両方の欠如を示す。",
+      "does not prove は敗北から人格評価を導かない。",
+      "What S V は文全体の主語となる名詞節。",
+      "not A, but B は壊される対象を努力から交換率へ修正する。"
+    ],
+    "translationNote": "literal はCPUの無感情さと古い採点表まで残した。natural は exchange rate を中心に据え、AIが努力を無価値にするのでなく、時間と優位の換算関係を変えると訳した。",
+    "readingPoint": "展開。努力を認定する窓口の外側から、機械が従来の努力と勝利の交換率を壊す場面へ移る。",
+    "keywords": [
+      "CPU",
+      "computation",
+      "practice",
+      "defeat",
+      "exchange rate",
+      "advantage"
+    ]
+  },
+  {
+    "id": "DE-20260924-003",
+    "sourceTitle": "努力の値札を誰が貼る",
+    "workId": "daily-essay-20260924",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "敗北を内側へ戻さない",
+    "jp": "交換率が崩れた後も、集団は努力の物語を守ろうとする。負けた理由を制度や相手の変化に求めず、信心が足りない、総括が甘い、仲間の覚悟が弱いと内側へ返せば、物語そのものは傷つかない。だが、その純化は次の敗北を準備する。降りる人を怠け者と呼ぶ前に、競技の採点者と賞品がまだ存在するかを確かめたい。努力から逃げることと、壊れた換金所から退出することは同じではない。",
+    "translationLiteral": "Even after the exchange rate collapses, a group tries to protect its story of effort. If it returns the reason for defeat inward—saying faith was insufficient, reflection was weak, or comrades lacked resolve—instead of looking to the system or changes in the opponent, the story itself remains unharmed. But that purification prepares the next defeat. Before calling those who leave lazy, we should check whether the judge and prize of the competition still exist. Escaping effort and exiting a broken exchange counter are not the same.",
+    "translationNatural": "Even after the exchange rate fails, a group may defend its story of effort by sending every defeat inward: faith was insufficient, reflection was shallow, commitment was weak. The story survives, but the purification prepares another loss. Before calling departure laziness, we should ask whether the contest still has a credible judge or prize. Avoiding effort is not the same as leaving a broken market for effort.",
+    "imageUrl": "",
+    "imageCaption": "壊れた換金所の前で、退出する人の背中へだけ責任の矢印が戻される。",
+    "imagePrompt": "A broken effort exchange booth, with arrows of blame turned inward toward a person leaving, sober editorial illustration, no readable text",
+    "chunks": [
+      {
+        "en": "Even after the exchange rate fails, a group may defend its story of effort by sending every defeat inward:",
+        "ja": "交換率が壊れた後でも、集団は敗北をすべて内側へ送ることで努力の物語を守りうる。"
+      },
+      {
+        "en": "faith was insufficient, reflection was shallow, commitment was weak.",
+        "ja": "信心が足りない、反省が浅い、覚悟が弱い、と。"
+      },
+      {
+        "en": "The story survives, but the purification prepares another loss.",
+        "ja": "物語は生き残るが、その純化が次の敗北を準備する。"
+      },
+      {
+        "en": "Before calling departure laziness, we should ask whether the contest still has a credible judge or prize.",
+        "ja": "退出を怠惰と呼ぶ前に、その競技に信頼できる審判や賞品がまだあるか問うべきだ。"
+      },
+      {
+        "en": "Avoiding effort is not the same as leaving a broken market for effort.",
+        "ja": "努力を避けることと、壊れた努力市場を離れることは同じではない。"
+      }
+    ],
+    "grammar": [
+      "Even after は崩壊後も続く行為を強調する。",
+      "by -ing は物語を守る手段を示す。",
+      "A was ..., B was ... は内部責任の列挙を作る。",
+      "Before -ing は批判より先に行う確認を示す。",
+      "whether S V は ask の目的語となる名詞節。",
+      "not the same as は怠惰と退出を区別する。"
+    ],
+    "translationNote": "literal は『信心不足』『総括』『換金所』の語感を残した。natural は purification と credible judge or prize を使い、敗北を内部化する物語の自己保存と退出判断を明確にした。",
+    "readingPoint": "転換と余韻。努力を守るための内部責任化を批判し、退出を怠惰ではなく制度評価として読み直す。",
+    "keywords": [
+      "internal blame",
+      "purification",
+      "departure",
+      "credible judge",
+      "effort market"
+    ]
+  }
+]
