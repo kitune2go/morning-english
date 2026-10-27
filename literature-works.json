@@ -235,5 +235,26 @@
     "description": "ゲームや音楽の宣伝、海外IPへのローカライズ、貿易収支と所得中央値を通して、表向きの成功と利益が残る場所のずれを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261026/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261027",
+    "title": "原点を守れば図は回せる",
+    "description": "形鋼加工の固定原点、表示方向の修正、52項目の試験で見つかった境界値の不具合を通して、基準を守ることが変更と検証を可能にする過程を描く日次エッセイ。",
+    "manifest": "literature/daily-essay-20261027/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260924",
+    "title": "努力の値札を誰が貼る",
+    "description": "友情・努力・勝利の物語、AIやCPUとの非対称、敗北後に内部へ向かう責任追及を通して、努力の価値を認定する審級が崩れた後を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260924/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260926",
+    "title": "音は許可証の外へ漏れる",
+    "description": "公共空間の演奏、楽しさと騒音・費用の非対称、ゾーニングと表現の自由を通して、許可された行為から周囲の受忍義務は自動的に生まれないことを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260926/manifest.json",
+    "mode": "essay-translation"
   }
 ]
