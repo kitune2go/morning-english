@@ -374,7 +374,15 @@
       "Her. Was there no difference between your life and mine, then? I am Zeus's son, and it is well known how I toiled, cleansing the earth, conquering monsters, and chastising men of violence. Whereas you are a root-grubber and a quack; I dare say you have your use for doctoring sick men, but you never did a bold deed in your life.",
       "Asc. That comes well from you, whose burns I healed, when you came up all singed not so long ago; between the tunic and the flames, your body was half consumed. Anyhow, it would be enough to mention that I was never a slave like you, never combed wool in Lydia, masquerading in a purple shawl and being slippered by an Omphale, never killed my wife and children in a fit of the spleen. Her. If you don't stop being rude, I shall soon show you that immortality is not much good. I will take you up and pitch you head over heels out of Heaven, and Apollo himself shall never mend your broken crown. Zeus. Cease, I say, and let us hear ourselves speak, or I will send you both away from table. Heracles, Asclepius died before you, and has the right to a better place."
     ],
-    "jp": [],
+    "jp": [
+      "ゼウス「アスクレピオス、ヘラクレス、いい加減に喧嘩をやめろ。まるで人間ではないか。神々の食卓でそんな振る舞いは見苦しいぞ。」",
+      "ヘラクレス「ゼウス、この薬屋風情を私より上座に座らせるのか？」",
+      "アスクレピオス「もちろんさ。私の方が格上なのだから。」",
+      "ヘラクレス「何を根拠に、この愚か者め。おまえが不敬なことをしてゼウスの雷に頭を砕かれ、哀れみだけで不死を取り戻せたからか？」",
+      "アスクレピオス「火で死んだことを持ち出すのかい？　自分だってオイテ山で焼け死んだのを忘れたようだね。」",
+      "ヘラクレス「私とおまえの生き方が同じだったとでもいうのか？　私はゼウスの子だ。大地を清め、怪物を征服し、乱暴者を懲らしめるために働いたことは誰でも知っている。一方、おまえは薬草の根を掘る藪医者だ。病人を治す役には立つかもしれんが、勇敢なことなど一度もしていない。」",
+      "アスクレピオス「よく言うよ。ついこの前、火傷だらけになって上がってきたおまえを治したのは私だろう。毒の衣と炎のせいで身体は半分焼けていた。しかも私は、おまえのように奴隷になったことも、リュディアで紫の肩掛けを着て羊毛を梳いたことも、オンパレに履物で叩かれたことも、癇癪を起こして妻子を殺したこともない。――ヘラクレス『それ以上無礼を言えば、不死など役に立たぬと教えてやる。頭から天界の外へ投げ出してやる。アポロンにだって割れた頭は直せんぞ。』――ゼウス『やめろと言っている！　静かに話もできんではないか。続けるなら二人とも食卓から追い出す。ヘラクレスよ、アスクレピオスの方が先に死んだのだから、上座に座る権利がある。』」"
+    ],
     "chunks": [],
     "grammar": [],
     "vocabulary": [],
@@ -399,7 +407,21 @@
       "Ap. He was learning to throw the quoit, and I was throwing with him. I had just sent my quoit up into the air as usual, when jealous Zephyr (damned be he above all winds! he had long been in love with Hyacinth, though Hyacinth would have nothing to say to him)--Zephyr came blustering down from Taygetus, and dashed the quoit upon the child's head; blood flowed from the wound in streams, and in one moment all was over. My first thought was of revenge; I lodged an arrow in Zephyr, and pursued his flight to the mountain. As for the child, I buried him at Amyclae, on the fatal spot; and from his blood I have caused a flower to spring up, sweetest, fairest of flowers, inscribed with letters of woe.--Is my grief unreasonable?",
       "Her. It is, Apollo. You knew that you had set your heart upon a mortal: grieve not then for his mortality."
     ],
-    "jp": [],
+    "jp": [
+      "ヘルメス「どうしてそんなに悲しそうなんだ、アポロン？」",
+      "アポロン「ああ、ヘルメス、愛する人のことだ！」",
+      "ヘルメス「そりゃ大変だ。まだダプネの件を引きずっているのか？」",
+      "アポロン「いや。愛するラコニアの青年、オイバロスの息子を悼んでいる。」",
+      "ヘルメス「ヒュアキントスか？　まさか死んだのか？」",
+      "アポロン「死んだ。」",
+      "ヘルメス「誰が殺したんだ？　あんな美しい子を殺すなんて、どんな非情なやつだ？」",
+      "アポロン「この私の手で起きたことだ。」",
+      "ヘルメス「気でも狂ったのか！」",
+      "アポロン「違う。事故だった。」",
+      "ヘルメス「何があったんだ？」",
+      "アポロン「彼に円盤投げを教え、一緒に練習していた。私がいつものように円盤を空に投げると、嫉妬に狂った西風ゼピュロスが――あいつは以前から彼に恋をして、拒まれていたのだ――タイゲトス山から吹き下ろし、円盤を彼の頭に叩きつけた。傷から血がほとばしり、あっという間にすべてが終わった。私はすぐに復讐を考え、ゼピュロスに矢を放ち、山まで追いかけた。青年は死の場所アミュクライに埋葬し、流れた血から最も美しい花を咲かせた。花には悲しみの文字を刻んである。これでも私の嘆きは道理に反するか？」",
+      "ヘルメス「反するよ。相手が死すべき人間だと知って愛したのだろう。ならば人間が死んだからと悲しみ続けるものじゃない。」"
+    ],
     "chunks": [],
     "grammar": [],
     "vocabulary": [],
@@ -421,7 +443,18 @@
       "Her. Oh, he sees, yes; but what can he do? he knows what a martial young fellow it is; so he holds his tongue. He talks of inventing a net, though, to take them in the act with.",
       "Ap. Ah, all I know is, I would not mind being taken in that act."
     ],
-    "jp": [],
+    "jp": [
+      "ヘルメス「足が不自由で鍛冶屋のあいつが、アプロディテとカリスという二人の絶世の美女を妻にするとはね！」",
+      "アポロン「運がいいんだよ、それだけさ。しかしよく一緒に暮らせるものだ。汗を流し、身体を曲げて炉に向かい、顔は煤だらけなのに、二人とも抱きしめ、口づけし、一緒に眠るのだから。」",
+      "ヘルメス「腹が立つし羨ましいよ！　アポロン、君は髪を伸ばして竪琴を弾き、美貌を誇れる。私だって丈夫で、琴くらい弾ける。それなのに夜になると二人とも独り寝だ。」",
+      "アポロン「私の恋はいつも失敗さ。ダプネとヒュアキントスに夢中だったが、ダプネには木になる方がましだと嫌われ、ヒュアキントスは私の円盤で死んだ。残されたのは二人にちなむ葉と花の冠だけ。」",
+      "ヘルメス「実は昔、私とアプロディテも……いや、自慢はよそう。」",
+      "アポロン「知っているよ。ヘルマプロディトスが生まれたわけだな。でも、なぜアプロディテとカリスは互いに嫉妬しないんだ？」",
+      "ヘルメス「一人はレムノス島での妻、もう一人は天上での妻だから。それにアプロディテが本当に好きなのはアレスだ。鍛冶屋のことなど気にもしていない。」",
+      "アポロン「ヘパイストスは気づいていると思うか？」",
+      "ヘルメス「もちろん気づいている。でも相手は若く勇ましい軍神だ。どうにもできず黙っている。ただ、密会の現場で二人を捕まえる網を考案中だそうだ。」",
+      "アポロン「いやあ、私なら、そんな現場で捕まっても一向に構わないがね。」"
+    ],
     "chunks": [],
     "grammar": [],
     "vocabulary": [],
@@ -439,7 +472,14 @@
       "Hera. His playing, madam!--excuse a smile;--why, if the Muses had not favoured him, his contest with Marsyas would have cost him his skin; poor Marsyas was shamefully used on that occasion; 'twas a judicial murder.--As for your charming daughter, when Actaeon once caught sight of her charms, she had to set the dogs upon him, for fear he should tell all he knew: I forbear to ask where the innocent child picked up her knowledge of obstetrics.",
       "Leto. You set no small value on yourself, madam, because you are the wife of Zeus, and share his throne; you may insult whom you please. But there will be tears presently, when the next bull or swan sets out on his travels, and you are left neglected."
     ],
-    "jp": [],
+    "jp": [
+      "ヘラ「ゼウスにお産みになったお子様たちのこと、お祝い申し上げますわ、奥様。」",
+      "レト「まあ、奥様。誰もがヘパイストスのような息子を持てるわけではありませんものね。」",
+      "ヘラ「私の息子は足が悪くても役には立ちます。腕の良い鍛冶屋で、天界をすっかり立派にし、アプロディテに見初められて今も愛されています。ところがお宅の二人ときたら！　娘は男勝りの野蛮人。スキュティアでよそ者を殺して食べているという話も隠しようがない。息子アポロンは弓、竪琴、医術、予言と賢そうに装っているけれど、デルポイやクラロスやディンデュモスの神託所は人を騙す商売でしょう。誰にも分からない曖昧な答えを出せば、どちらに転んでも当たりと言える。騙されたがる愚か者から金を取っているけれど、まともな人には口先だけと見抜かれているわ。あの予言者は、愛する青年を円盤で殺すことも、あれほど美しい髪を持ちながらダプネに逃げられることも見通せなかった。あなたのお子様とニオベの子たち、どちらがましか分からないわね。」",
+      "レト「ええ、うちの子たちは人殺しと詐欺師ですとも。あなたが二人を見るだけで嫌な顔をなさるのは知っていますわ。娘の美貌を褒められるのも、息子の演奏を讃えられるのも我慢ならないのでしょう？」",
+      "ヘラ「演奏ですって？　笑わせないでくださいな。ムーサたちが味方しなければ、マルシュアスとの競演で皮を剥がされるのは息子さんの方だったでしょう。あのときのマルシュアスはひどい目に遭った。裁判に名を借りた殺人よ。お嬢様だって、アクタイオンに姿を見られたら、秘密を話されないよう犬に襲わせたのでしょう。ご立派な処女が、いったいどこで産婆術を覚えたのかしら。」",
+      "レト「ゼウスの妻で王座を分け合っているからといって、ずいぶんな自信ですこと。誰でも好きなだけ侮辱しておいでなさい。でもまた雄牛や白鳥が恋の旅に出れば、あなたは捨て置かれて泣くことになるでしょうね。」"
+    ],
     "chunks": [],
     "grammar": [],
     "vocabulary": [],
@@ -455,7 +495,12 @@
       "Hera. I suppose you will tell me next, that the invention of wine is very much to his credit; though you see for yourself how drunken men stagger about and misbehave themselves; one would think the liquor had made them mad. Look at Icarius, the first to whom he gave the vine: beaten to death with mattocks by his own boon companions!",
       "Zeus. Pooh, nonsense. That is not Dionysus's fault, nor the wine's fault; it comes of the immoderate use of it. Men will drink their wine neat, and drink too much of it. Taken in moderation, it engenders cheerfulness and benevolence. Dionysus is not likely to treat any of his guests as Icarius was treated.--No; I see what it is:--you are jealous, my love; you can't forget about Semele, and so you must disparage the noble achievements of her son."
     ],
-    "jp": [],
+    "jp": [
+      "ヘラ「ゼウス、私ならあんな息子は恥ずかしくてたまらないわ。女のように柔弱で酒浸り。髪をリボンで結んで、狂った女たちに混じって笛や太鼓やシンバルに合わせて踊る。まるで本人まで女の一人みたい。父親にちっとも似ていない。」",
+      "ゼウス「ところがそのリボン姿の女々しい息子は、リュディアを征服し、トラキアを服従させ、トモロスの民を魅了しただけではない。女のような軍勢を率いてインドまで遠征し、象を捕らえ、国土を制し、王を虜にした。その間ずっと踊り、酒に酔い、霊感に満ち、酒神の杖と蔦を手放さなかった。儀式を馬鹿にする者は葡萄のつるで縛られたり、実の母に小鹿と間違われて引き裂かれたりする。これほど男らしく、ゼウスの息子にふさわしい業績があるかね。もちろん娯楽も好きだが、酔ってこれほど強いのだから、素面ならどんな恐ろしい男になるか想像できるだろう。」",
+      "ヘラ「今度は葡萄酒を発明したのも立派な功績だと言うんでしょう？　酔っぱらいがふらつき、乱暴し、気でも狂ったようになるのを見ているくせに。最初に葡萄を授けられたイカリオスなんて、飲み仲間に鍬で殴り殺されたじゃない。」",
+      "ゼウス「くだらん。それはディオニュソスや酒の責任ではなく、飲み方を誤ったせいだ。原酒を大量に飲むからいけない。適量なら陽気で人に親切になる。ディオニュソスが客人をイカリオスのように扱うはずもない。分かったぞ、ヘラ。おまえはセメレへの嫉妬を忘れられず、その息子の立派な業績をけなしているのだな。」"
+    ],
     "chunks": [],
     "grammar": [],
     "vocabulary": [],
@@ -478,7 +523,19 @@
       "Eros. In hunting stags and fawns; she is so fleet, she catches them up, or else shoots them; she can think of nothing else. Her brother, now, though he is an archer too, and draws a good arrow--",
       "Aph. I know, child, you have hit him often enough."
     ],
-    "jp": [],
+    "jp": [
+      "アプロディテ「エロス、おまえはゼウスやポセイドン、レア、アポロン、実の母親にまで勝ってきたのに、どうしてアテナだけは例外なの？　あの女には松明の火も矢も効かず、手練手管も尽きるのね。」",
+      "エロス「怖いんだよ、母さん。あの恐ろしい目つき！　男みたいだし、それ以上に怖い。矢をつがえて近づくと、兜の羽飾りをひと振りするだけで震えて弓を落としてしまう。」",
+      "アプロディテ「アレスの方がもっと怖そうなのに、おまえはあの神の武装を解いて征服したでしょう。」",
+      "エロス「アレスはむしろ僕を歓迎して呼び寄せる。でもアテナはいつも睨みつけるんだ。一度、松明を持って偶然近くを飛んだだけで、『近づいたら父に誓って槍で刺すか、足をつかんでタルタロスへ放り込むか、素手で引き裂いてやる』と怒鳴られた。そんな怖いことを次々と言うし、不機嫌な顔をしているし、胸には蛇の髪を持つ恐ろしい顔まで付けている。あのお化けが一番怖くて、見たらすぐ逃げるよ。」",
+      "アプロディテ「アテナとゴルゴンが怖いのね。ゼウスの雷は平気なのに。では、なぜムーサたちも放っておくの？　あの女たちも兜を振り、ゴルゴンの首を突き出すのかしら？」",
+      "エロス「母さん、あの人たちの前では恥ずかしいんだ。気高くて、いつも学び、詩や曲を作っている。僕はそばで演奏を聞くのが好きなんだ。」",
+      "アプロディテ「それなら気高いから許しておきましょう。でも、アルテミスを狙わないのはなぜ？」",
+      "エロス「まず捕まえられないよ。いつも遠くの山を走っている。それに、もう心を奪われているんだ。」",
+      "アプロディテ「誰に？」",
+      "エロス「鹿や小鹿を狩ることにさ。足が速くて、追いつくか弓で射るかして、それしか頭にない。兄のアポロンは、同じ弓の名手だけれど――」",
+      "アプロディテ「知っているわ。あの子には何度も矢を当てたものね。」"
+    ],
     "chunks": [],
     "grammar": [],
     "vocabulary": [],
