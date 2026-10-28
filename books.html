@@ -389,7 +389,8 @@ function render(){
   $("dayTitle").textContent=data.title;
   $("dayReadStatus").textContent=completed.has(current)?"✓ 既読":"未読";
   $("dayReadStatus").classList.toggle("read",completed.has(current));
-  $("dayMeta").textContent=data.wordCount+" words / "+data.paragraphs.length+" paragraphs / 全チャンク和訳・全単語解説"+(translated?" / 段落対訳あり":"");
+  const richDetails=Array.isArray(data.paragraphDetails)&&data.paragraphDetails.length===data.paragraphs.length;
+  $("dayMeta").textContent=data.wordCount+" words / "+data.paragraphs.length+" paragraphs"+(richDetails?" / 全チャンク和訳・全単語解説":translated?" / 段落対訳あり":" / 日本語対訳未登録");
   $("toggleJp").disabled=!translated;
   $("toggleJp").setAttribute("aria-pressed",String(showJp&&translated));
   $("toggleJp").textContent=!translated?"この回の和訳は準備中":showJp?"日本語訳を隠す":"日本語訳を表示";
