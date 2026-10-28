@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 152,
+    "_generatedAt": "2026-10-29T01:56:36+09:00",
+    "sentence": "Being senior may create informal influence, but it does not automatically grant the right to command others.",
+    "phonetic": "ビーイング シーニア メイ クリエイト インフォーマル インフルエンス、バット イット ダズ ノット オートマティカリー グラント ザ ライト トゥ コマンド アザーズ。",
+    "japaneseTranslation": "先輩であることは非公式な影響力を生むことがありますが、それだけで他者へ命令する権利が自動的に与えられるわけではありません。",
+    "theme": "先輩という事実と命令権の区別",
+    "coreVerb": "grant",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Seniority creates influence.",
+        "translation": "先輩という立場は影響力を生みます。"
+      },
+      "phase2": {
+        "sentence": "Seniority may create informal influence.",
+        "translation": "先輩という立場は非公式な影響力を生むことがあります。",
+        "addedChunks": "may / informal"
+      },
+      "phase3": {
+        "sentence": "Seniority may create influence, but influence is not authority.",
+        "translation": "先輩という立場は影響力を生むことがありますが、影響力は権限ではありません。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Formal authority is stronger than informal influence.",
+        "translation": "公式な権限は非公式な影響力より強いものです。",
+        "comparison": "stronger than"
+      },
+      "phase5": {
+        "sentence": "Being senior may create informal influence, but it does not automatically grant",
+        "translation": "先輩であることは非公式な影響力を生むことがありますが、それだけで自動的に与えられるわけではありません",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Being senior",
+          "function": "内容",
+          "translation": "先輩であることは"
+        },
+        {
+          "text": "may create informal influence,",
+          "function": "結果",
+          "translation": "非公式な影響力を生むことがありますが、"
+        },
+        {
+          "text": "but it does not automatically grant",
+          "function": "接続",
+          "translation": "しかしそれだけで自動的には与えません"
+        },
+        {
+          "text": "the right",
+          "function": "対象",
+          "translation": "権利を"
+        },
+        {
+          "text": "to command",
+          "function": "目的",
+          "translation": "命令するための"
+        },
+        {
+          "text": "others.",
+          "function": "対象",
+          "translation": "他者へ。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "Being senior",
+          "where": "Being senior",
+          "explanation": "「先輩であること」を文の主語にします。",
+          "rule": "Being + 補語"
+        },
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may create",
+          "explanation": "影響力が生じる可能性を示します。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "接続詞",
+          "name": "but",
+          "where": "..., but it ...",
+          "explanation": "影響力の存在と命令権の不存在を対照させます。",
+          "rule": "節 + but + 節"
+        },
+        {
+          "category": "三単現否定",
+          "name": "does not grant",
+          "where": "it does not ... grant",
+          "explanation": "単数主語itの否定を表します。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "副詞",
+          "name": "automatically",
+          "where": "does not automatically grant",
+          "explanation": "自動的な権利発生を否定します。",
+          "rule": "助動詞相当 + 副詞 + 動詞"
+        },
+        {
+          "category": "不定詞",
+          "name": "the right to command",
+          "where": "right to command",
+          "explanation": "どのような権利かを不定詞で説明します。",
+          "rule": "the right to + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "command",
+          "where": "command others",
+          "explanation": "commandは目的語を直接取ります。",
+          "rule": "command + 人"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Being senior may creates influence.",
+          "correct": "Being senior may create influence.",
+          "why": "mayの後は動詞原形です。"
+        },
+        {
+          "wrong": "it does not grants the right",
+          "correct": "it does not grant the right",
+          "why": "does notの後は動詞原形です。"
+        },
+        {
+          "wrong": "the right for command others",
+          "correct": "the right to command others",
+          "why": "権利の内容はthe right to + 動詞で表します。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Informal influence is not the same as formal authority.",
+          "translation": "非公式な影響力は公式な権限と同じではありません。"
+        },
+        {
+          "text": "Experience can earn respect without creating a right to command.",
+          "translation": "経験は尊敬を得ることがありますが、命令権を生むわけではありません。"
+        },
+        {
+          "text": "A senior member may advise others, but authority needs a separate basis.",
+          "translation": "先輩は助言できても、権限には別の根拠が必要です。"
+        }
+      ],
+      "parseTree": "[S [NP Being senior] [VP may create [NP informal influence]]], but [S [NP it] [VP does not automatically grant [NP the right [TP to command others]]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Seniority creates influence.",
+          "expanded": "Seniority can create influence because experience and group expectations affect how others respond.",
+          "nuance": "影響力が生じる社会的経路を示します。"
+        },
+        {
+          "original": "Influence is not authority.",
+          "expanded": "Influence is not authority because informal pressure does not establish a formal right to command.",
+          "nuance": "事実上の力と制度上の権限を分けます。"
+        },
+        {
+          "original": "Authority needs a basis.",
+          "expanded": "Authority needs a basis because commands require an assigned role, rule, or agreement.",
+          "nuance": "権限の根拠を具体化します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A right to command others is not automatically granted by seniority.",
+          "translation": "他者へ命令する権利は、先輩であることだけで自動的に与えられません。",
+          "note": "権利を主語へ移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Having more experience, a senior member may influence others without holding formal authority.",
+          "translation": "より多くの経験を持つことで、先輩は公式権限なしに他者へ影響することがあります。",
+          "note": "経験を分詞句で示します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The distinction between senior influence and formal authority prevents informal power from becoming an assumed right.",
+          "translation": "先輩の影響力と公式権限の区別は、非公式な力が当然の権利になることを防ぎます。",
+          "note": "distinguishをdistinctionへ名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "grant",
+            "alternatives": [
+              "give",
+              "confer",
+              "authorize"
+            ],
+            "nuance": "grantは権利や権限を正式に与える文脈に向きます。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "影響力と権限の区別",
+            "sentence": "X may create influence, but it does not grant the right to Y.",
+            "translation": "Xは影響力を生むことがありますが、Yする権利を与えません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Informal influence can be less visible than formal authority.",
+            "translation": "非公式な影響力は公式権限より見えにくいことがあります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If authority is not formally assigned, seniority alone should not justify commands.",
+            "translation": "権限が正式に割り当てられていないなら、先輩であることだけで命令を正当化すべきではありません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What seniority may create is influence, not an automatic right.",
+            "translation": "先輩という立場が生み得るのは影響力であり、自動的な権利ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Seniority is not authority.",
+            "translation": "先輩であることは権限ではありません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "影響力と権限を17語で明確に分離し、職場や文化集団へ応用しやすい。"
+    }
+  }
+]
