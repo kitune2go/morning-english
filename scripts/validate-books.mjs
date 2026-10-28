@@ -464,7 +464,7 @@ if(lucianBook?.glossaryData){
       }
       check(paragraphs===238,"Lucian 238 dialogue paragraphs after restoring lost lines and speaker turns");
       check(chunks>=400,"Lucian has useful clause-level chunks");
-      check(tokens>8500,"Lucian token count matches full translation corpus");
+      check(tokens===8612,"Lucian 8,612 full-source tokens");
       check(forms.size===1752&&lookup.size===1752,"All 1,752 unique forms are glossed");
       check(complete>0&&pending>0,"Short chunks have verified translations; longer chunks reference their full paragraph");
       check(textDays.every(day=>day.jp.length===day.paragraphs.length),"All 19 Lucian dialogues have complete Japanese paragraph translations");
