@@ -1,0 +1,157 @@
+[
+  {
+    "id": "DE-20260928-001",
+    "sourceTitle": "手を動かした者だけが主体ではない",
+    "workId": "daily-essay-20260928",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "振り込んだ指",
+    "jp": "詐欺の送金画面で、最後にボタンを押すのは被害者自身である。その一場面だけを切り取れば、金を動かした主体は明白に見える。だが、虚偽の身分、切迫した物語、考える時間を奪う指示が選択肢を組み立てていた。法律が結果を加害者へ帰属させるのは、指の動きより先に意思決定の通路を設計したからだ。見える操作と、操作を生んだ因果は同じではない。",
+    "translationLiteral": "On a fraud transfer screen, the victim is the person who finally presses the button. If only that scene is cut out, the subject who moved the money looks obvious. But a false identity, an urgent story, and instructions that take away time to think had assembled the choices. The law attributes the result to the offender because the offender designed the path of decision before the finger moved. The visible operation and the cause that produced it are not the same.",
+    "translationNatural": "In a fraud case, the victim may be the person who physically presses the transfer button. That visible act does not tell the whole causal story. A false identity, manufactured urgency, and instructions that remove time for reflection have already shaped the available choices. Responsibility follows the person who designed that path, not merely the finger that completed the transaction.",
+    "imageUrl": "",
+    "imageCaption": "振り込んだ指を象徴する、人物と構造の距離を示す場面。",
+    "imagePrompt": "Editorial literary illustration for \"振り込んだ指\", symbolic scene showing visible actors and hidden structures, restrained colors, no readable text",
+    "chunks": [
+      {
+        "en": "In a fraud case, the victim may be the person who physically presses the transfer button.",
+        "ja": "詐欺事件では、物理的に送金ボタンを押すのは被害者かもしれない。"
+      },
+      {
+        "en": "That visible act does not tell the whole causal story.",
+        "ja": "その見える行為だけでは因果の全体は分からない。"
+      },
+      {
+        "en": "A false identity, manufactured urgency, and instructions that remove time for reflection have already shaped the available choices.",
+        "ja": "偽の身分、作られた緊急性、考える時間を奪う指示が、すでに選択肢を形作っている。"
+      },
+      {
+        "en": "Responsibility follows the person who designed that path, not merely the finger that completed the transaction.",
+        "ja": "責任は取引を完了した指だけでなく、その経路を設計した者へ帰属する。"
+      }
+    ],
+    "grammar": [
+      "may be は目に見える直接行為者を限定的に示す。",
+      "does not tell は外形だけでは因果を説明できないことを表す。",
+      "that remove ... は instructions を修飾する。",
+      "have already shaped は操作前に選択肢が形成済みであることを示す現在完了。",
+      "not merely A は責任帰属を直接操作より広く捉える。"
+    ],
+    "translationNote": "literal は指が動く前に意思決定経路が設計されたという因果を保った。natural は causal story と responsibility follows を用い、操作主体と責任主体の違いを明確にした。",
+    "readingPoint": "導入。最も見える動作と、結果を生んだ因果主体を切り分ける。",
+    "keywords": [
+      "fraud",
+      "visible act",
+      "causal story",
+      "responsibility",
+      "decision path"
+    ]
+  },
+  {
+    "id": "DE-20260928-002",
+    "sourceTitle": "手を動かした者だけが主体ではない",
+    "workId": "daily-essay-20260928",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "壇上にいる代表",
+    "jp": "国家の記念式典では、壇上の政治家が国民を代表して過去を語る。けれど、招かれず参加もできない人々にとって、その「私たち」は遠い。代表は全員の身体を一つに集める魔法ではなく、発言権を一時的に預かる制度である。式典が閉じるほど、代表者の声は国民全体の声に見えやすくなる。誰が話したかだけでなく、誰が席を持たず、誰の沈黙が同意として数えられたかを見なければならない。",
+    "translationLiteral": "At a national commemoration, politicians on the stage speak about the past as representatives of the people. But for people who are not invited and cannot participate, that 'we' is distant. Representation is not magic that gathers everyone's bodies into one; it is an institution that temporarily holds speaking authority. The more closed the ceremony is, the easier the representative's voice looks like the voice of the whole people. We must see not only who spoke but who had no seat and whose silence was counted as consent.",
+    "translationNatural": "At a national commemoration, officials on stage speak in the name of the public. Yet the word “we” can sound distant to people who were neither invited nor able to participate. Representation is not magic that fuses every citizen into one body; it is a temporary arrangement of speaking authority. The more closed the ceremony becomes, the easier it is to mistake one official voice for the voice of everyone. We should ask who lacked a seat and whose silence was counted as consent.",
+    "imageUrl": "",
+    "imageCaption": "壇上にいる代表を象徴する、人物と構造の距離を示す場面。",
+    "imagePrompt": "Editorial literary illustration for \"壇上にいる代表\", symbolic scene showing visible actors and hidden structures, restrained colors, no readable text",
+    "chunks": [
+      {
+        "en": "At a national commemoration, officials on stage speak in the name of the public.",
+        "ja": "国家の記念式典では、壇上の公人が国民の名で語る。"
+      },
+      {
+        "en": "Yet the word “we” can sound distant to people who were neither invited nor able to participate.",
+        "ja": "しかし招かれず参加もできなかった人々には、その「私たち」は遠く響き得る。"
+      },
+      {
+        "en": "Representation is not magic that fuses every citizen into one body; it is a temporary arrangement of speaking authority.",
+        "ja": "代表とは全市民を一つの身体に融合する魔法ではなく、発言権を一時的に配置する制度である。"
+      },
+      {
+        "en": "The more closed the ceremony becomes, the easier it is to mistake one official voice for the voice of everyone.",
+        "ja": "式典が閉鎖的になるほど、一人の公的な声を全員の声と取り違えやすい。"
+      },
+      {
+        "en": "We should ask who lacked a seat and whose silence was counted as consent.",
+        "ja": "誰に席がなく、誰の沈黙が同意として数えられたかを問うべきだ。"
+      }
+    ],
+    "grammar": [
+      "in the name of は代表して語ることを示す。",
+      "neither A nor B は招待も参加もなかったことを並列否定する。",
+      "not A; it is B は代表の誤解を否定し制度として再定義する。",
+      "The more ..., the easier ... は閉鎖性と誤認の相関を示す。",
+      "who lacked / whose silence ... は問うべき二点を名詞節で並べる。"
+    ],
+    "translationNote": "literal は『席を持たない者』と沈黙の同意化を保持した。natural は speaking authority を一時的配置として表し、代表制を人格の同一化から切り離した。",
+    "readingPoint": "展開。責任帰属の問題を、誰が集団の声として数えられるかという代表の問題へ広げる。",
+    "keywords": [
+      "commemoration",
+      "representation",
+      "speaking authority",
+      "public voice",
+      "consent"
+    ]
+  },
+  {
+    "id": "DE-20260928-003",
+    "sourceTitle": "手を動かした者だけが主体ではない",
+    "workId": "daily-essay-20260928",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "増幅器は善悪を選ばない",
+    "jp": "AIは善人だけに力を貸す道具ではない。丁寧な研究者の探索を速める一方で、詐欺師の文章、狂信者の宣伝、攻撃者の試行回数も増やせる。機械が意思を持たないから安全なのではなく、誰の意図でも増幅できるから設計が要る。入力した人だけを責任主体にすれば、利用を可能にした権限、制限、配布の構造が見えなくなる。増幅器に倫理を期待するより、誰へ何をどこまで増幅させるかを決める制度が必要である。",
+    "translationLiteral": "AI is not a tool that lends power only to good people. While it speeds the search of a careful researcher, it can also increase the writing of a fraudster, the propaganda of a fanatic, and the number of trials by an attacker. It is not safe because the machine has no will; design is needed because it can amplify anyone's intention. If only the person who entered the prompt is treated as the responsible subject, the structure of permissions, limits, and distribution that enabled use disappears. Rather than expect ethics from an amplifier, institutions must decide whom to amplify, what to amplify, and how far.",
+    "translationNatural": "AI does not empower only the well-intentioned. It can accelerate careful research, but it can also multiply fraudulent messages, fanatic propaganda, and an attacker's attempts. The absence of machine intention is not a guarantee of safety; a neutral amplifier can serve any human purpose. Responsibility therefore includes the permissions, limits, and distribution systems that make amplification possible. Ethics must govern who gains power, for what task, and to what extent.",
+    "imageUrl": "",
+    "imageCaption": "増幅器は善悪を選ばないを象徴する、人物と構造の距離を示す場面。",
+    "imagePrompt": "Editorial literary illustration for \"増幅器は善悪を選ばない\", symbolic scene showing visible actors and hidden structures, restrained colors, no readable text",
+    "chunks": [
+      {
+        "en": "AI does not empower only the well-intentioned.",
+        "ja": "AIは善意の人だけを強くするのではない。"
+      },
+      {
+        "en": "It can accelerate careful research, but it can also multiply fraudulent messages, fanatic propaganda, and an attacker's attempts.",
+        "ja": "慎重な研究を速める一方、詐欺文、狂信的宣伝、攻撃者の試行も増やせる。"
+      },
+      {
+        "en": "The absence of machine intention is not a guarantee of safety; a neutral amplifier can serve any human purpose.",
+        "ja": "機械に意図がないことは安全の保証ではなく、中立な増幅器はどんな人間の目的にも使われ得る。"
+      },
+      {
+        "en": "Responsibility therefore includes the permissions, limits, and distribution systems that make amplification possible.",
+        "ja": "したがって責任には、増幅を可能にする権限・制限・配布の仕組みも含まれる。"
+      },
+      {
+        "en": "Ethics must govern who gains power, for what task, and to what extent.",
+        "ja": "倫理は、誰が何のためにどこまで力を得るかを統御しなければならない。"
+      }
+    ],
+    "grammar": [
+      "not ... only は対象が善意の人に限られないことを示す。",
+      "can A, but can also B は有益・有害な増幅を対照する。",
+      "not A; B は安全保証の否定と増幅器の性質を結ぶ。",
+      "that make ... possible は systems を修飾する。",
+      "who / for what / to what extent は主体・目的・範囲を並列する。"
+    ],
+    "translationNote": "literal は悪人・狂人を含む誰でも強化される論点と、入力者だけではない責任構造を追った。natural は neutral amplifier を中心比喩にし、permissions, limits, distribution を制度責任としてまとめた。",
+    "readingPoint": "転換と余韻。直接行為者と代表者の問題を、善悪を選ばず能力を増幅する技術の配布設計へ着地させる。",
+    "keywords": [
+      "AI",
+      "amplifier",
+      "machine intention",
+      "permissions",
+      "responsibility"
+    ]
+  }
+]
