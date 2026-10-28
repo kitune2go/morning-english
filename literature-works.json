@@ -256,5 +256,26 @@
     "description": "公共空間の演奏、楽しさと騒音・費用の非対称、ゾーニングと表現の自由を通して、許可された行為から周囲の受忍義務は自動的に生まれないことを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260926/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260927",
+    "title": "役割は境界を越えると戦線になる",
+    "description": "庭木処分の負担、疾病分類の政治性、運動が敵を増やす過程を通して、正当な役割が境界を失うと費用と戦線を拡張することを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260927/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260928",
+    "title": "手を動かした者だけが主体ではない",
+    "description": "詐欺の振込操作、国家式典の代表、善悪を選ばないAIを通して、目に見える行為者と結果を設計・帰属させる主体の違いを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260928/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261028",
+    "title": "舞台に立つ者と鍵を持つ者",
+    "description": "神々の風刺、海外企業のIPと上流利益、法人承継を通して、表に立つ人物と制度・所有を動かす主体のずれを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261028/manifest.json",
+    "mode": "essay-translation"
   }
 ]
