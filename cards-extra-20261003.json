@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 154,
+    "_generatedAt": "2026-10-29T01:56:36+09:00",
+    "sentence": "Law is not written into the world itself, yet much of everyday life takes place inside arrangements shaped by legal rules.",
+    "phonetic": "ロー イズ ノット リトゥン イントゥ ザ ワールド イットセルフ、イェット マッチ オヴ エヴリデイ ライフ テイクス プレイス インサイド アレンジメンツ シェイプト バイ リーガル ルールズ。",
+    "japaneseTranslation": "法は世界そのものに書き込まれているわけではありません。それでも日常生活の多くは、法的規則によって形作られた仕組みの中で営まれています。",
+    "theme": "自然に見える生活を形作る法",
+    "coreVerb": "shape",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Law shapes life.",
+        "translation": "法は生活を形作ります。"
+      },
+      "phase2": {
+        "sentence": "Legal rules shape everyday life.",
+        "translation": "法的規則は日常生活を形作ります。",
+        "addedChunks": "legal / everyday"
+      },
+      "phase3": {
+        "sentence": "Law is constructed, yet it shapes ordinary life.",
+        "translation": "法は作られたものですが、それでも日常生活を形作ります。",
+        "connector": "yet"
+      },
+      "phase4": {
+        "sentence": "Legal arrangements are less visible than their effects.",
+        "translation": "法的な仕組みは、その効果より見えにくいものです。",
+        "comparison": "less ... than"
+      },
+      "phase5": {
+        "sentence": "Law is not written into the world itself, yet much of everyday life",
+        "translation": "法は世界そのものに書き込まれているわけではありません。それでも日常生活の多くは",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Law is not written",
+          "function": "状態",
+          "translation": "法は書き込まれていません"
+        },
+        {
+          "text": "into the world itself,",
+          "function": "場所",
+          "translation": "世界そのものへ、"
+        },
+        {
+          "text": "yet much of everyday life",
+          "function": "接続",
+          "translation": "それでも日常生活の多くは"
+        },
+        {
+          "text": "takes place",
+          "function": "行動",
+          "translation": "営まれています"
+        },
+        {
+          "text": "inside arrangements",
+          "function": "場所",
+          "translation": "仕組みの中で"
+        },
+        {
+          "text": "shaped by legal rules.",
+          "function": "修飾",
+          "translation": "法的規則によって形作られた。"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "受動態",
+          "name": "is not written",
+          "where": "Law is not written",
+          "explanation": "法が自然界へ書き込まれているという状態を否定します。",
+          "rule": "be + not + 過去分詞"
+        },
+        {
+          "category": "再帰代名詞",
+          "name": "itself",
+          "where": "the world itself",
+          "explanation": "世界そのものを強調します。",
+          "rule": "名詞 + itself"
+        },
+        {
+          "category": "接続詞",
+          "name": "yet",
+          "where": "..., yet much ...",
+          "explanation": "前半と両立する意外な後半を導きます。",
+          "rule": "節 + yet + 節"
+        },
+        {
+          "category": "数量表現",
+          "name": "much of",
+          "where": "much of everyday life",
+          "explanation": "不可算的に捉えた生活の大部分を示します。",
+          "rule": "much of + 名詞"
+        },
+        {
+          "category": "慣用表現",
+          "name": "take place",
+          "where": "takes place",
+          "explanation": "出来事や活動が起きることを表します。",
+          "rule": "take place"
+        },
+        {
+          "category": "前置詞",
+          "name": "inside",
+          "where": "inside arrangements",
+          "explanation": "制度的な枠組みの内部を比喩的に表します。",
+          "rule": "inside + 名詞"
+        },
+        {
+          "category": "過去分詞修飾",
+          "name": "shaped by",
+          "where": "arrangements shaped by legal rules",
+          "explanation": "どのような仕組みかを後ろから説明します。",
+          "rule": "名詞 + 過去分詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Law is not write into the world.",
+          "correct": "Law is not written into the world.",
+          "why": "受動態には過去分詞writtenが必要です。"
+        },
+        {
+          "wrong": "much of everyday life take place",
+          "correct": "much of everyday life takes place",
+          "why": "主語を単数扱いにしてtakesを使います。"
+        },
+        {
+          "wrong": "arrangements shape by legal rules",
+          "correct": "arrangements shaped by legal rules",
+          "why": "受け身の修飾には過去分詞shapedを使います。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Social rules can feel natural after their origins disappear from view.",
+          "translation": "社会的規則は、その起源が見えなくなると自然なものに感じられることがあります。"
+        },
+        {
+          "text": "Everyday choices often occur inside legal and institutional boundaries.",
+          "translation": "日常の選択は、法的・制度的境界の中で行われることがよくあります。"
+        },
+        {
+          "text": "Institutions shape ordinary life even when people do not notice them.",
+          "translation": "制度は、人が気づかないときでも日常生活を形作ります。"
+        }
+      ],
+      "parseTree": "[S [NP Law] [VP is not written [PP into the world itself]]], yet [S [NP much of everyday life] [VP takes place [PP inside arrangements [PartP shaped by legal rules]]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Law shapes life.",
+          "expanded": "Law shapes life because rights, duties, contracts, and procedures organize ordinary choices.",
+          "nuance": "法が生活へ作用する具体的経路を示します。"
+        },
+        {
+          "original": "Law can appear natural.",
+          "expanded": "Law can appear natural because its historical construction becomes invisible in routine practice.",
+          "nuance": "作られた仕組みが自然に見える理由を示します。"
+        },
+        {
+          "original": "Life occurs inside arrangements.",
+          "expanded": "Life occurs inside arrangements because institutions define ownership, responsibility, and permissible action.",
+          "nuance": "制度的枠組みの内容を具体化します。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Everyday life is organized by arrangements that have been shaped through legal rules.",
+          "translation": "日常生活は、法的規則を通じて形作られた仕組みによって組織されています。",
+          "note": "日常生活を受動態の主語へ移します。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Shaping rights and duties, legal rules organize much of everyday life.",
+          "translation": "権利と義務を形作ることで、法的規則は日常生活の多くを組織します。",
+          "note": "法の作用を分詞句で示します。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The legal organization of everyday life can make constructed arrangements appear natural.",
+          "translation": "日常生活の法的な組織化は、作られた仕組みを自然に見せることがあります。",
+          "note": "organizeをorganizationへ名詞化します。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "shape",
+            "alternatives": [
+              "structure",
+              "organize",
+              "form"
+            ],
+            "nuance": "shapeは形成過程を示し、structureは要素の配置、organizeは運用上の秩序を強調します。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "人工性と日常性の対照",
+            "sentence": "X is not written into the world, yet life takes place inside arrangements shaped by X.",
+            "translation": "Xは世界に書き込まれていませんが、生活はXに形作られた仕組みの中で営まれます。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Legal rules are often less visible than the routines they produce.",
+            "translation": "法的規則は、それが生む日常習慣より見えにくいことがよくあります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the history of an institution is forgotten, its rules may appear natural.",
+            "translation": "制度の歴史が忘れられると、その規則は自然なものに見えることがあります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is through ordinary arrangements that law becomes part of daily life.",
+            "translation": "法が日常生活の一部になるのは、日々の仕組みを通じてです。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Law becomes ordinary infrastructure.",
+            "translation": "法は日常のインフラになります。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "法の人工性と日常への浸透を対照的に表せているが、arrangementsという抽象語の理解が必要である。"
+    }
+  }
+]
