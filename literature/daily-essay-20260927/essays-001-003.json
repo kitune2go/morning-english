@@ -1,0 +1,157 @@
+[
+  {
+    "id": "DE-20260927-001",
+    "sourceTitle": "役割は境界を越えると戦線になる",
+    "workId": "daily-essay-20260927",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "切った枝は消えない",
+    "jp": "庭木を切れば、景色は軽くなる。けれど枝そのものは消えず、燃やせない住宅地では処分の費用として地面に残る。業者へ頼むにも三十万、五十万円という見積もりは簡単に受け入れられない。庭を整えるという小さな役割が、近隣への煙、運搬、家計へ境界を越えて広がる。作業の終わりを切断の瞬間に置けば、残された枝は誰かの負担として見えなくなる。",
+    "translationLiteral": "When garden trees are cut, the view becomes lighter. But the branches do not disappear, and in a residential area where they cannot be burned, they remain on the ground as disposal costs. Even asking a contractor can bring estimates of three hundred thousand or five hundred thousand yen, which cannot be accepted easily. The small role of arranging a garden expands across boundaries into smoke for neighbors, transport, and the household budget. If the end of the work is placed at the moment of cutting, the remaining branches become invisible as someone else's burden.",
+    "translationNatural": "Cutting a garden tree makes the view feel lighter, but the branches do not vanish. In a dense neighborhood where burning is impossible, they remain as transport, disposal, and household costs. A contractor's estimate of several hundred thousand yen cannot be treated as a minor detail. If we declare the job finished at the cut, the branches merely cross a boundary and reappear as someone else's burden.",
+    "imageUrl": "",
+    "imageCaption": "切った枝は消えないを象徴する、人物と構造の距離を示す場面。",
+    "imagePrompt": "Editorial literary illustration for \"切った枝は消えない\", symbolic scene showing visible actors and hidden structures, restrained colors, no readable text",
+    "chunks": [
+      {
+        "en": "Cutting a garden tree makes the view feel lighter, but the branches do not vanish.",
+        "ja": "庭木を切れば景色は軽くなるが、枝は消えない。"
+      },
+      {
+        "en": "In a dense neighborhood where burning is impossible, they remain as transport, disposal, and household costs.",
+        "ja": "燃やせない住宅密集地では、枝は運搬・処分・家計の費用として残る。"
+      },
+      {
+        "en": "A contractor's estimate of several hundred thousand yen cannot be treated as a minor detail.",
+        "ja": "数十万円の業者見積もりは小さな問題として扱えない。"
+      },
+      {
+        "en": "If we declare the job finished at the cut, the branches merely cross a boundary and reappear as someone else's burden.",
+        "ja": "切断時点で作業終了とすれば、枝は境界を越えて別の誰かの負担として現れるだけだ。"
+      }
+    ],
+    "grammar": [
+      "動名詞 Cutting ... が主語になる。",
+      "where burning is impossible は neighborhood を修飾する。",
+      "remain as は別の形で残ることを表す。",
+      "cannot be treated は受動態で評価不能を示す。",
+      "If ... は終了点の設定が生む結果を示す。"
+    ],
+    "translationNote": "literal は金額と近隣・運搬・家計への拡張を追った。natural は枝が消えず費用へ姿を変える流れを中心に、作業境界の設定を someone else's burden へ結んだ。",
+    "readingPoint": "導入。物理的に切ることと、負担まで処理することの差を示す。",
+    "keywords": [
+      "garden tree",
+      "disposal",
+      "contractor",
+      "boundary",
+      "burden"
+    ]
+  },
+  {
+    "id": "DE-20260927-002",
+    "sourceTitle": "役割は境界を越えると戦線になる",
+    "workId": "daily-essay-20260927",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "病名を置く場所",
+    "jp": "医学は身体の変化を測り、症状の関連を記述できる。だが、どこからを病気と呼び、誰へ治療や支援を配るかは測定だけでは決まらない。分類には生活、制度、予算、価値判断が入り込む。科学的な記述へ政治的な決定を混ぜることと、政治的な決定を科学の名で隠すことは違う。必要なのは分類を捨てることではなく、その線を誰が何のために引いたのかを見えるようにすることだ。",
+    "translationLiteral": "Medicine can measure changes in the body and describe relations among symptoms. But measurement alone cannot decide from where something is called a disease or to whom treatment and support are distributed. Life, institutions, budgets, and value judgments enter classification. Mixing a political decision into a scientific description differs from hiding a political decision under the name of science. What is needed is not to discard classification but to make visible who drew the line and for what purpose.",
+    "translationNatural": "Medicine can measure bodily change and describe patterns among symptoms. Measurement alone, however, cannot decide where illness begins or who receives treatment and support. Classification also carries institutions, budgets, and judgments about value. The task is not to abandon categories. It is to show who drew each boundary, for what purpose, and with what consequences.",
+    "imageUrl": "",
+    "imageCaption": "病名を置く場所を象徴する、人物と構造の距離を示す場面。",
+    "imagePrompt": "Editorial literary illustration for \"病名を置く場所\", symbolic scene showing visible actors and hidden structures, restrained colors, no readable text",
+    "chunks": [
+      {
+        "en": "Medicine can measure bodily change and describe patterns among symptoms.",
+        "ja": "医学は身体変化を測り、症状間のパターンを記述できる。"
+      },
+      {
+        "en": "Measurement alone, however, cannot decide where illness begins or who receives treatment and support.",
+        "ja": "しかし測定だけでは、病気がどこから始まり誰が治療や支援を受けるかを決められない。"
+      },
+      {
+        "en": "Classification also carries institutions, budgets, and judgments about value.",
+        "ja": "分類は制度、予算、価値判断も運び込む。"
+      },
+      {
+        "en": "The task is not to abandon categories.",
+        "ja": "課題はカテゴリーを捨てることではない。"
+      },
+      {
+        "en": "It is to show who drew each boundary, for what purpose, and with what consequences.",
+        "ja": "誰が何の目的で各境界を引き、どんな結果を生むのかを示すことである。"
+      }
+    ],
+    "grammar": [
+      "can A and B は二つの医学的能力を並列する。",
+      "where illness begins / who receives ... は decide の目的語となる名詞節。",
+      "not to abandon は課題でない行為を否定する。",
+      "It is to show ... は課題を肯定側から定義する。",
+      "who / for what / with what は主体・目的・結果を並列する。"
+    ],
+    "translationNote": "literal は科学記述と政治決定を明示的に区別した。natural は classification carries ... という表現で、分類へ制度や価値が入り込むことを簡潔に示した。",
+    "readingPoint": "展開。物理的な処分境界から、疾病を定義する制度的境界へ移る。",
+    "keywords": [
+      "medicine",
+      "measurement",
+      "classification",
+      "value judgment",
+      "boundary"
+    ]
+  },
+  {
+    "id": "DE-20260927-003",
+    "sourceTitle": "役割は境界を越えると戦線になる",
+    "workId": "daily-essay-20260927",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "狼のあとに狐が来る",
+    "jp": "狼から村を守る役割には、はっきりした終わりがある。ところが勝利の後も組織を残すには、新しい脅威が必要になる。狐が敵になり、兎が疑われ、やがて監視に従わない村人まで戦線へ入る。最初の正当性が強いほど、拡張は使命の継続に見えやすい。「まだ負けていない」という言葉は敗北を否定するだけでなく、終わる条件を消す。役割が境界を失うと、守るための運動は敵を生産する装置へ変わる。",
+    "translationLiteral": "The role of protecting a village from wolves has a clear ending. But to keep the organization after victory, a new threat becomes necessary. Foxes become enemies, rabbits are suspected, and eventually villagers who do not obey surveillance enter the front line. The stronger the original legitimacy, the easier expansion looks like a continuation of the mission. The words 'we have not lost yet' do not merely deny defeat; they erase the condition for ending. When a role loses its boundary, a movement for protection changes into a device that produces enemies.",
+    "translationNatural": "Defending a village from wolves has a visible end. Preserving the organization after victory, however, requires another threat: first the fox, then the rabbit, and finally any villager who resists surveillance. Strong initial legitimacy can make each expansion look like faithful continuity. Saying “we have not lost” does more than deny defeat; it removes the condition for stopping. Once a role loses its boundary, protection can become a machine for producing enemies.",
+    "imageUrl": "",
+    "imageCaption": "狼のあとに狐が来るを象徴する、人物と構造の距離を示す場面。",
+    "imagePrompt": "Editorial literary illustration for \"狼のあとに狐が来る\", symbolic scene showing visible actors and hidden structures, restrained colors, no readable text",
+    "chunks": [
+      {
+        "en": "Defending a village from wolves has a visible end.",
+        "ja": "狼から村を守る役割には目に見える終わりがある。"
+      },
+      {
+        "en": "Preserving the organization after victory, however, requires another threat: first the fox, then the rabbit, and finally any villager who resists surveillance.",
+        "ja": "しかし勝利後も組織を維持するには別の脅威が必要となり、狐、兎、最後には監視へ抵抗する村人まで敵になる。"
+      },
+      {
+        "en": "Strong initial legitimacy can make each expansion look like faithful continuity.",
+        "ja": "強い当初の正当性は、拡張を忠実な継続のように見せ得る。"
+      },
+      {
+        "en": "Saying “we have not lost” does more than deny defeat; it removes the condition for stopping.",
+        "ja": "「まだ負けていない」と言うことは敗北を否定する以上に、停止条件を取り除く。"
+      },
+      {
+        "en": "Once a role loses its boundary, protection can become a machine for producing enemies.",
+        "ja": "役割が境界を失えば、保護は敵を生産する機械になり得る。"
+      }
+    ],
+    "grammar": [
+      "Defending ... は動名詞主語。",
+      "requires A: first B ... は必要条件と列挙をコロンで結ぶ。",
+      "make O look like C は拡張を継続のように見せる。",
+      "does more than は単なる否定以上の作用を示す。",
+      "Once は境界喪失後の転換条件を導く。"
+    ],
+    "translationNote": "literal は狼・狐・兎・村人へ広がる寓話の順序を保持した。natural は preservation of the organization と stopping condition を前面に出し、戦線拡張の制度的動機を明確にした。",
+    "readingPoint": "転換と余韻。庭と疾病分類の境界問題を、終わらない運動が敵を増やす寓話へ収束させる。",
+    "keywords": [
+      "legitimacy",
+      "mission",
+      "surveillance",
+      "stopping condition",
+      "enemy production"
+    ]
+  }
+]
