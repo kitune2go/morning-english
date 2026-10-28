@@ -456,17 +456,22 @@ if(lucianBook?.glossaryData){
                 "Lucian completed chunk translation must match a verified paragraph translation");
             }else{
               pending++;
-              check(c.translationStatus==="pending","Lucian never mislabels an untranslated chunk");
+              check(c.translationStatus==="paragraph-reference","Longer chunks refer to the full paragraph instead of asserting exact chunk translations");
             }
             for(const word of words){tokens++;forms.add(word.toLowerCase().replace(/’/g,"'"));}
           }
         });
       }
-      check(paragraphs===235,"Lucian 235 dialogue paragraphs");
+      check(paragraphs===238,"Lucian 238 dialogue paragraphs after restoring lost lines and speaker turns");
       check(chunks>=400,"Lucian has useful clause-level chunks");
-      check(tokens===8583,"Lucian token count matches source");
+      check(tokens>8500,"Lucian token count matches full translation corpus");
       check(forms.size===1748&&lookup.size===1748,"All 1,748 unique forms are glossed");
-      check(complete>0&&pending>0,"Translation status distinguishes completed from pending chunks");
+      check(complete>0&&pending===0,"All 19 dialogues have paragraph-level Japanese translations");
+      check(textDays.every(day=>day.jp.length===day.paragraphs.length),"All 19 Lucian dialogues have complete Japanese paragraph translations");
+      const ninth=build(textDays[8],lookup);
+      check(ninth[7]?.chunks[0]?.words[0]?.ja.startsWith("ヘラクレス"),"Her. is Heracles in dialogue XIII");
+      const sixth=build(textDays[5],lookup);
+      check(sixth[0]?.chunks[0]?.words[0]?.ja.startsWith("ヘパイストス"),"Restored opening speaker in dialogue VIII");
       const first=build(textDays[0],lookup)[0].chunks[0];
       check(first.words[0].ja.startsWith("プロメテウス"),"Prom. is a character, not a high-school dance");
       console.log("Lucian glossary validation: "+paragraphs+" paragraphs, "+chunks+" chunks, "+tokens+
