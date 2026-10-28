@@ -436,7 +436,13 @@ if(lucianBook?.glossaryData){
       const build=new Function(source.slice(start,end)+"\nreturn buildDialogueParagraphDetails;")();
       let paragraphs=0,chunks=0,tokens=0,complete=0,pending=0;
       const forms=new Set();
+      check(!!lucianBook.chunkTranslationBase,"Lucian chapter-level chunk translation directory is configured");
       for(const day of textDays){
+        const path=lucianBook.chunkTranslationBase+"/day-"+String(day.day).padStart(2,"0")+".json";
+        const alignment=file(path);
+        check(alignment.day===day.day&&alignment.paragraphs.length===day.paragraphs.length,
+          "Lucian Day "+day.day+" aligned translation data exists");
+        day.chunkTranslations=alignment.paragraphs;
         const details=build(day,lookup);
         check(details.length===day.paragraphs.length,"Lucian Day "+day.day+" paragraph coverage");
         details.forEach((detail,i)=>{
@@ -445,28 +451,26 @@ if(lucianBook?.glossaryData){
             "Lucian Day "+day.day+" paragraph "+(i+1)+" exact source reconstruction");
           check(detail.summary&&detail.expressions.length>0&&detail.vocabulary.length>0,
             "Lucian Day "+day.day+" paragraph "+(i+1)+" reading notes");
-          for(const c of detail.chunks){
+          check(day.chunkTranslations[i].length===detail.chunks.length,
+            "Lucian Day "+day.day+" paragraph "+(i+1)+" exact chunk alignment");
+          for(const [ci,c] of detail.chunks.entries()){
             chunks++;
+            check(c.translationStatus==="complete"&&c.ja===day.chunkTranslations[i][ci]&&c.ja.trim().length>0,
+              "Lucian Day "+day.day+" paragraph "+(i+1)+" chunk "+(ci+1)+" has its exact Japanese translation");
             const words=c.en.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[];
             check(c.words.length===words.length&&c.words.every((w,j)=>w.word===words[j]&&w.ja&&w.note),
               "Lucian Day "+day.day+" paragraph "+(i+1)+" full token glossary");
-            if(c.translationStatus==="complete"){
-              complete++;
-              check(day.jp.length===day.paragraphs.length&&c.en===day.paragraphs[i]&&c.ja===day.jp[i],
-                "Lucian completed chunk translation must match a verified paragraph translation");
-            }else{
-              pending++;
-              check(c.translationStatus==="paragraph-reference","Longer chunks refer to the full paragraph instead of asserting exact chunk translations");
-            }
+            if(c.translationStatus==="complete")complete++;
+            else pending++;
             for(const word of words){tokens++;forms.add(word.toLowerCase().replace(/’/g,"'"));}
           }
         });
       }
       check(paragraphs===238,"Lucian 238 dialogue paragraphs after restoring lost lines and speaker turns");
-      check(chunks>=400,"Lucian has useful clause-level chunks");
+      check(chunks===585,"Lucian has exactly 585 translated English chunks");
       check(tokens===8612,"Lucian 8,612 full-source tokens");
       check(forms.size===1752&&lookup.size===1752,"All 1,752 unique forms are glossed");
-      check(complete>0&&pending>0,"Short chunks have verified translations; longer chunks reference their full paragraph");
+      check(complete===585&&pending===0,"All 585 chunks have explicit aligned Japanese translations");
       check(textDays.every(day=>day.jp.length===day.paragraphs.length),"All 19 Lucian dialogues have complete Japanese paragraph translations");
       const ninth=build(textDays[8],lookup);
       check(ninth[7]?.chunks[0]?.words[0]?.ja.startsWith("ヘラクレス"),"Her. is Heracles in dialogue XIII");
