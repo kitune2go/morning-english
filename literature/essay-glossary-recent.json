@@ -1470,5 +1470,773 @@
     "lemma": "zoning",
     "form": "",
     "note": "zoning：この文脈では「用途・区域分け」"
+  },
+  {
+    "word": "abandon",
+    "ja": "捨てる",
+    "pos": "語句",
+    "lemma": "abandon",
+    "form": "",
+    "note": "abandon：この文脈では「捨てる」"
+  },
+  {
+    "word": "actor",
+    "ja": "行為者・俳優",
+    "pos": "語句",
+    "lemma": "actor",
+    "form": "",
+    "note": "actor：この文脈では「行為者・俳優」"
+  },
+  {
+    "word": "amplification",
+    "ja": "増幅",
+    "pos": "語句",
+    "lemma": "amplification",
+    "form": "",
+    "note": "amplification：この文脈では「増幅」"
+  },
+  {
+    "word": "amplifier",
+    "ja": "増幅器",
+    "pos": "語句",
+    "lemma": "amplifier",
+    "form": "",
+    "note": "amplifier：この文脈では「増幅器」"
+  },
+  {
+    "word": "attacker's",
+    "ja": "攻撃者の",
+    "pos": "語句",
+    "lemma": "attacker's",
+    "form": "",
+    "note": "attacker's：この文脈では「攻撃者の」"
+  },
+  {
+    "word": "attempts",
+    "ja": "試行",
+    "pos": "語句",
+    "lemma": "attempts",
+    "form": "",
+    "note": "attempts：この文脈では「試行」"
+  },
+  {
+    "word": "bank",
+    "ja": "銀行",
+    "pos": "語句",
+    "lemma": "bank",
+    "form": "",
+    "note": "bank：この文脈では「銀行」"
+  },
+  {
+    "word": "branches",
+    "ja": "枝",
+    "pos": "語句",
+    "lemma": "branches",
+    "form": "",
+    "note": "branches：この文脈では「枝」"
+  },
+  {
+    "word": "burning",
+    "ja": "燃やすこと",
+    "pos": "語句",
+    "lemma": "burning",
+    "form": "",
+    "note": "burning：この文脈では「燃やすこと」"
+  },
+  {
+    "word": "careful",
+    "ja": "慎重な",
+    "pos": "語句",
+    "lemma": "careful",
+    "form": "",
+    "note": "careful：この文脈では「慎重な」"
+  },
+  {
+    "word": "chief",
+    "ja": "長・主神",
+    "pos": "語句",
+    "lemma": "chief",
+    "form": "",
+    "note": "chief：この文脈では「長・主神」"
+  },
+  {
+    "word": "citizen",
+    "ja": "市民",
+    "pos": "語句",
+    "lemma": "citizen",
+    "form": "",
+    "note": "citizen：この文脈では「市民」"
+  },
+  {
+    "word": "classification",
+    "ja": "分類",
+    "pos": "語句",
+    "lemma": "classification",
+    "form": "",
+    "note": "classification：この文脈では「分類」"
+  },
+  {
+    "word": "closed",
+    "ja": "閉鎖的な",
+    "pos": "語句",
+    "lemma": "closed",
+    "form": "",
+    "note": "closed：この文脈では「閉鎖的な」"
+  },
+  {
+    "word": "clouds",
+    "ja": "雲",
+    "pos": "語句",
+    "lemma": "clouds",
+    "form": "",
+    "note": "clouds：この文脈では「雲」"
+  },
+  {
+    "word": "comic",
+    "ja": "喜劇的な",
+    "pos": "語句",
+    "lemma": "comic",
+    "form": "",
+    "note": "comic：この文脈では「喜劇的な」"
+  },
+  {
+    "word": "commemoration",
+    "ja": "記念式典",
+    "pos": "語句",
+    "lemma": "commemoration",
+    "form": "",
+    "note": "commemoration：この文脈では「記念式典」"
+  },
+  {
+    "word": "contractor's",
+    "ja": "業者の",
+    "pos": "語句",
+    "lemma": "contractor's",
+    "form": "",
+    "note": "contractor's：この文脈では「業者の」"
+  },
+  {
+    "word": "controls",
+    "ja": "支配する",
+    "pos": "語句",
+    "lemma": "controls",
+    "form": "",
+    "note": "controls：この文脈では「支配する」"
+  },
+  {
+    "word": "cross",
+    "ja": "越える",
+    "pos": "語句",
+    "lemma": "cross",
+    "form": "",
+    "note": "cross：この文脈では「越える」"
+  },
+  {
+    "word": "cultural",
+    "ja": "文化的な",
+    "pos": "語句",
+    "lemma": "cultural",
+    "form": "",
+    "note": "cultural：この文脈では「文化的な」"
+  },
+  {
+    "word": "cutting",
+    "ja": "切ること",
+    "pos": "語句",
+    "lemma": "cutting",
+    "form": "",
+    "note": "cutting：この文脈では「切ること」"
+  },
+  {
+    "word": "declare",
+    "ja": "宣言する",
+    "pos": "語句",
+    "lemma": "declare",
+    "form": "",
+    "note": "declare：この文脈では「宣言する」"
+  },
+  {
+    "word": "defending",
+    "ja": "守ること",
+    "pos": "語句",
+    "lemma": "defending",
+    "form": "",
+    "note": "defending：この文脈では「守ること」"
+  },
+  {
+    "word": "dense",
+    "ja": "密集した",
+    "pos": "語句",
+    "lemma": "dense",
+    "form": "",
+    "note": "dense：この文脈では「密集した」"
+  },
+  {
+    "word": "deny",
+    "ja": "否定する",
+    "pos": "語句",
+    "lemma": "deny",
+    "form": "",
+    "note": "deny：この文脈では「否定する」"
+  },
+  {
+    "word": "detail",
+    "ja": "細部・小さな問題",
+    "pos": "語句",
+    "lemma": "detail",
+    "form": "",
+    "note": "detail：この文脈では「細部・小さな問題」"
+  },
+  {
+    "word": "dialogue",
+    "ja": "対話",
+    "pos": "語句",
+    "lemma": "dialogue",
+    "form": "",
+    "note": "dialogue：この文脈では「対話」"
+  },
+  {
+    "word": "dies",
+    "ja": "亡くなる",
+    "pos": "語句",
+    "lemma": "dies",
+    "form": "",
+    "note": "dies：この文脈では「亡くなる」"
+  },
+  {
+    "word": "dignity",
+    "ja": "威厳",
+    "pos": "語句",
+    "lemma": "dignity",
+    "form": "",
+    "note": "dignity：この文脈では「威厳」"
+  },
+  {
+    "word": "disposal",
+    "ja": "処分",
+    "pos": "語句",
+    "lemma": "disposal",
+    "form": "",
+    "note": "disposal：この文脈では「処分」"
+  },
+  {
+    "word": "divine",
+    "ja": "神の",
+    "pos": "語句",
+    "lemma": "divine",
+    "form": "",
+    "note": "divine：この文脈では「神の」"
+  },
+  {
+    "word": "else's",
+    "ja": "ほかの人の",
+    "pos": "語句",
+    "lemma": "else's",
+    "form": "",
+    "note": "else's：この文脈では「ほかの人の」"
+  },
+  {
+    "word": "empower",
+    "ja": "力を与える",
+    "pos": "語句",
+    "lemma": "empower",
+    "form": "",
+    "note": "empower：この文脈では「力を与える」"
+  },
+  {
+    "word": "enemies",
+    "ja": "敵",
+    "pos": "語句",
+    "lemma": "enemies",
+    "form": "",
+    "note": "enemies：この文脈では「敵」"
+  },
+  {
+    "word": "expansion",
+    "ja": "拡張",
+    "pos": "語句",
+    "lemma": "expansion",
+    "form": "",
+    "note": "expansion：この文脈では「拡張」"
+  },
+  {
+    "word": "exposes",
+    "ja": "明らかにする",
+    "pos": "語句",
+    "lemma": "exposes",
+    "form": "",
+    "note": "exposes：この文脈では「明らかにする」"
+  },
+  {
+    "word": "extent",
+    "ja": "程度・範囲",
+    "pos": "語句",
+    "lemma": "extent",
+    "form": "",
+    "note": "extent：この文脈では「程度・範囲」"
+  },
+  {
+    "word": "faithful",
+    "ja": "忠実な",
+    "pos": "語句",
+    "lemma": "faithful",
+    "form": "",
+    "note": "faithful：この文脈では「忠実な」"
+  },
+  {
+    "word": "fanatic",
+    "ja": "狂信的な",
+    "pos": "語句",
+    "lemma": "fanatic",
+    "form": "",
+    "note": "fanatic：この文脈では「狂信的な」"
+  },
+  {
+    "word": "finger",
+    "ja": "指",
+    "pos": "語句",
+    "lemma": "finger",
+    "form": "",
+    "note": "finger：この文脈では「指」"
+  },
+  {
+    "word": "fox",
+    "ja": "狐",
+    "pos": "語句",
+    "lemma": "fox",
+    "form": "",
+    "note": "fox：この文脈では「狐」"
+  },
+  {
+    "word": "fraud",
+    "ja": "詐欺",
+    "pos": "語句",
+    "lemma": "fraud",
+    "form": "",
+    "note": "fraud：この文脈では「詐欺」"
+  },
+  {
+    "word": "fuses",
+    "ja": "融合させる",
+    "pos": "語句",
+    "lemma": "fuses",
+    "form": "",
+    "note": "fuses：この文脈では「融合させる」"
+  },
+  {
+    "word": "gains",
+    "ja": "得る",
+    "pos": "語句",
+    "lemma": "gains",
+    "form": "",
+    "note": "gains：この文脈では「得る」"
+  },
+  {
+    "word": "gods",
+    "ja": "神々",
+    "pos": "語句",
+    "lemma": "gods",
+    "form": "",
+    "note": "gods：この文脈では「神々」"
+  },
+  {
+    "word": "govern",
+    "ja": "統御する",
+    "pos": "語句",
+    "lemma": "govern",
+    "form": "",
+    "note": "govern：この文脈では「統御する」"
+  },
+  {
+    "word": "heirs",
+    "ja": "相続人",
+    "pos": "語句",
+    "lemma": "heirs",
+    "form": "",
+    "note": "heirs：この文脈では「相続人」"
+  },
+  {
+    "word": "highly",
+    "ja": "非常に・強く",
+    "pos": "語句",
+    "lemma": "highly",
+    "form": "",
+    "note": "highly：この文脈では「非常に・強く」"
+  },
+  {
+    "word": "household",
+    "ja": "家庭の・家財の",
+    "pos": "語句",
+    "lemma": "household",
+    "form": "",
+    "note": "household：この文脈では「家庭の・家財の」"
+  },
+  {
+    "word": "interests",
+    "ja": "持分・権益",
+    "pos": "語句",
+    "lemma": "interests",
+    "form": "",
+    "note": "interests：この文脈では「持分・権益」"
+  },
+  {
+    "word": "invited",
+    "ja": "招かれた",
+    "pos": "語句",
+    "lemma": "invited",
+    "form": "",
+    "note": "invited：この文脈では「招かれた」"
+  },
+  {
+    "word": "jealous",
+    "ja": "嫉妬する",
+    "pos": "語句",
+    "lemma": "jealous",
+    "form": "",
+    "note": "jealous：この文脈では「嫉妬する」"
+  },
+  {
+    "word": "joke",
+    "ja": "冗談",
+    "pos": "語句",
+    "lemma": "joke",
+    "form": "",
+    "note": "joke：この文脈では「冗談」"
+  },
+  {
+    "word": "lacked",
+    "ja": "持っていなかった",
+    "pos": "語句",
+    "lemma": "lacked",
+    "form": "",
+    "note": "lacked：この文脈では「持っていなかった」"
+  },
+  {
+    "word": "loses",
+    "ja": "失う",
+    "pos": "語句",
+    "lemma": "loses",
+    "form": "",
+    "note": "loses：この文脈では「失う」"
+  },
+  {
+    "word": "manufactured",
+    "ja": "作り出された",
+    "pos": "語句",
+    "lemma": "manufactured",
+    "form": "",
+    "note": "manufactured：この文脈では「作り出された」"
+  },
+  {
+    "word": "medicine",
+    "ja": "医学",
+    "pos": "語句",
+    "lemma": "medicine",
+    "form": "",
+    "note": "medicine：この文脈では「医学」"
+  },
+  {
+    "word": "messages",
+    "ja": "メッセージ",
+    "pos": "語句",
+    "lemma": "messages",
+    "form": "",
+    "note": "messages：この文脈では「メッセージ」"
+  },
+  {
+    "word": "myth",
+    "ja": "神話",
+    "pos": "語句",
+    "lemma": "myth",
+    "form": "",
+    "note": "myth：この文脈では「神話」"
+  },
+  {
+    "word": "nameplate",
+    "ja": "看板・銘板",
+    "pos": "語句",
+    "lemma": "nameplate",
+    "form": "",
+    "note": "nameplate：この文脈では「看板・銘板」"
+  },
+  {
+    "word": "national",
+    "ja": "国家の",
+    "pos": "語句",
+    "lemma": "national",
+    "form": "",
+    "note": "national：この文脈では「国家の」"
+  },
+  {
+    "word": "neighborhood",
+    "ja": "住宅地・近隣",
+    "pos": "語句",
+    "lemma": "neighborhood",
+    "form": "",
+    "note": "neighborhood：この文脈では「住宅地・近隣」"
+  },
+  {
+    "word": "officials",
+    "ja": "公人・当局者",
+    "pos": "語句",
+    "lemma": "officials",
+    "form": "",
+    "note": "officials：この文脈では「公人・当局者」"
+  },
+  {
+    "word": "operations",
+    "ja": "運営・業務",
+    "pos": "語句",
+    "lemma": "operations",
+    "form": "",
+    "note": "operations：この文脈では「運営・業務」"
+  },
+  {
+    "word": "overworked",
+    "ja": "酷使された",
+    "pos": "語句",
+    "lemma": "overworked",
+    "form": "",
+    "note": "overworked：この文脈では「酷使された」"
+  },
+  {
+    "word": "owner-manager",
+    "ja": "所有者兼経営者",
+    "pos": "語句",
+    "lemma": "owner-manager",
+    "form": "",
+    "note": "owner-manager：この文脈では「所有者兼経営者」"
+  },
+  {
+    "word": "owns",
+    "ja": "所有する",
+    "pos": "語句",
+    "lemma": "owns",
+    "form": "",
+    "note": "owns：この文脈では「所有する」"
+  },
+  {
+    "word": "participate",
+    "ja": "参加する",
+    "pos": "語句",
+    "lemma": "participate",
+    "form": "",
+    "note": "participate：この文脈では「参加する」"
+  },
+  {
+    "word": "presses",
+    "ja": "押す",
+    "pos": "語句",
+    "lemma": "presses",
+    "form": "",
+    "note": "presses：この文脈では「押す」"
+  },
+  {
+    "word": "promotion",
+    "ja": "宣伝",
+    "pos": "語句",
+    "lemma": "promotion",
+    "form": "",
+    "note": "promotion：この文脈では「宣伝」"
+  },
+  {
+    "word": "propaganda",
+    "ja": "宣伝・プロパガンダ",
+    "pos": "語句",
+    "lemma": "propaganda",
+    "form": "",
+    "note": "propaganda：この文脈では「宣伝・プロパガンダ」"
+  },
+  {
+    "word": "rabbit",
+    "ja": "兎",
+    "pos": "語句",
+    "lemma": "rabbit",
+    "form": "",
+    "note": "rabbit：この文脈では「兎」"
+  },
+  {
+    "word": "representation",
+    "ja": "代表・代表制",
+    "pos": "語句",
+    "lemma": "representation",
+    "form": "",
+    "note": "representation：この文脈では「代表・代表制」"
+  },
+  {
+    "word": "research",
+    "ja": "研究",
+    "pos": "語句",
+    "lemma": "research",
+    "form": "",
+    "note": "research：この文脈では「研究」"
+  },
+  {
+    "word": "resides",
+    "ja": "所在する",
+    "pos": "語句",
+    "lemma": "resides",
+    "form": "",
+    "note": "resides：この文脈では「所在する」"
+  },
+  {
+    "word": "resists",
+    "ja": "抵抗する",
+    "pos": "語句",
+    "lemma": "resists",
+    "form": "",
+    "note": "resists：この文脈では「抵抗する」"
+  },
+  {
+    "word": "seat",
+    "ja": "席・参加枠",
+    "pos": "語句",
+    "lemma": "seat",
+    "form": "",
+    "note": "seat：この文脈では「席・参加枠」"
+  },
+  {
+    "word": "shaped",
+    "ja": "形作った",
+    "pos": "語句",
+    "lemma": "shaped",
+    "form": "",
+    "note": "shaped：この文脈では「形作った」"
+  },
+  {
+    "word": "shares",
+    "ja": "株式",
+    "pos": "語句",
+    "lemma": "shares",
+    "form": "",
+    "note": "shares：この文脈では「株式」"
+  },
+  {
+    "word": "spouse",
+    "ja": "配偶者",
+    "pos": "語句",
+    "lemma": "spouse",
+    "form": "",
+    "note": "spouse：この文脈では「配偶者」"
+  },
+  {
+    "word": "stays",
+    "ja": "とどまる",
+    "pos": "語句",
+    "lemma": "stays",
+    "form": "",
+    "note": "stays：この文脈では「とどまる」"
+  },
+  {
+    "word": "symptoms",
+    "ja": "症状",
+    "pos": "語句",
+    "lemma": "symptoms",
+    "form": "",
+    "note": "symptoms：この文脈では「症状」"
+  },
+  {
+    "word": "threat",
+    "ja": "脅威",
+    "pos": "語句",
+    "lemma": "threat",
+    "form": "",
+    "note": "threat：この文脈では「脅威」"
+  },
+  {
+    "word": "transfer",
+    "ja": "送金",
+    "pos": "語句",
+    "lemma": "transfer",
+    "form": "",
+    "note": "transfer：この文脈では「送金」"
+  },
+  {
+    "word": "transport",
+    "ja": "運搬",
+    "pos": "語句",
+    "lemma": "transport",
+    "form": "",
+    "note": "transport：この文脈では「運搬」"
+  },
+  {
+    "word": "treatment",
+    "ja": "治療",
+    "pos": "語句",
+    "lemma": "treatment",
+    "form": "",
+    "note": "treatment：この文脈では「治療」"
+  },
+  {
+    "word": "tree",
+    "ja": "木",
+    "pos": "語句",
+    "lemma": "tree",
+    "form": "",
+    "note": "tree：この文脈では「木」"
+  },
+  {
+    "word": "urgency",
+    "ja": "緊急性",
+    "pos": "語句",
+    "lemma": "urgency",
+    "form": "",
+    "note": "urgency：この文脈では「緊急性」"
+  },
+  {
+    "word": "vanishes",
+    "ja": "消える",
+    "pos": "語句",
+    "lemma": "vanishes",
+    "form": "",
+    "note": "vanishes：この文脈では「消える」"
+  },
+  {
+    "word": "victim",
+    "ja": "被害者",
+    "pos": "語句",
+    "lemma": "victim",
+    "form": "",
+    "note": "victim：この文脈では「被害者」"
+  },
+  {
+    "word": "village",
+    "ja": "村",
+    "pos": "語句",
+    "lemma": "village",
+    "form": "",
+    "note": "village：この文脈では「村」"
+  },
+  {
+    "word": "villager",
+    "ja": "村人",
+    "pos": "語句",
+    "lemma": "villager",
+    "form": "",
+    "note": "villager：この文脈では「村人」"
+  },
+  {
+    "word": "well-intentioned",
+    "ja": "善意の",
+    "pos": "語句",
+    "lemma": "well-intentioned",
+    "form": "",
+    "note": "well-intentioned：この文脈では「善意の」"
+  },
+  {
+    "word": "wolves",
+    "ja": "狼",
+    "pos": "語句",
+    "lemma": "wolves",
+    "form": "",
+    "note": "wolves：この文脈では「狼」"
+  },
+  {
+    "word": "yen",
+    "ja": "円",
+    "pos": "語句",
+    "lemma": "yen",
+    "form": "",
+    "note": "yen：この文脈では「円」"
   }
 ]
