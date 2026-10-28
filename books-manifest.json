@@ -14,10 +14,11 @@
     "title": "Dialogues of the Gods",
     "titleJa": "神々の対話",
     "author": "Lucian of Samosata / English: H. W. Fowler & F. G. Fowler (1905)",
-    "description": "ルキアノス『神々の対話』。ファウラー兄弟による1905年英訳に収められた全19篇（省略7篇は別底本が必要）。原文の欠けた1発言を復元し、全19篇・238発言に日本語全訳を収録。全文をチャンクに分け、1,752種類の語形に辞書訳・用法の注記。チャンクごとの独立した自然な対訳は未校正のため、折りたたみ式の段落全訳を参照してください。",
+    "description": "ルキアノス『神々の対話』。1905年ファウラー兄弟訳に収められた全19篇・238発言を収録。**全585チャンクに独自の日本語対訳**と、1,752種類の語形に語義・用法の注記を登録。各チャンクの直下で対訳と単語解説を確認できます。底本未収録の原集7篇は対象外。",
     "data": "books/lucian-dialogues-of-the-gods/days.json",
     "sourceUrl": "https://www.gutenberg.org/ebooks/6327",
     "source": "The Works of Lucian of Samosata, Vol. I, trans. H. W. Fowler & F. G. Fowler, Clarendon Press, 1905; Project Gutenberg eBook #6327 (GITenberg text). Omitted in this edition: IV, V, IX, X, XVII, XXII, XXIII.",
-    "glossaryData": "books/lucian-dialogues-of-the-gods/glossary.json"
+    "glossaryData": "books/lucian-dialogues-of-the-gods/glossary.json",
+    "chunkTranslationBase": "books/lucian-dialogues-of-the-gods/chunk-translations"
   }
 ]
