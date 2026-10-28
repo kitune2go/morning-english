@@ -403,7 +403,14 @@ function buildDialogueParagraphDetails(day,glossary){
   const tokenRe=/[\p{L}]+(?:['’\-][\p{L}]+)*/gu;
   return day.paragraphs.map((paragraph,pi)=>{
     const parts=splitDialogueChunks(paragraph);
-    const wordFor=word=>{
+    const speakers={Prom:"プロメテウス",Zeus:"ゼウス",Eros:"エロス",Her:"ヘルメス",Ap:"アポロン",
+      Hera:"ヘラ",Par:"パリス",Herm:"ヘルメス",Heph:"ヘパイストス",Ath:"アテナ",
+      Asc:"アスクレピオス",Leto:"レト",Sel:"セレネ",Ar:"アレス",Ma:"マイア",
+      Hel:"ヘリオス",Aph:"アプロディテ"};
+    const wordFor=(word,index,context)=>{
+      const spoken=context.match(/^([A-Za-z]+)\.(?:\s|$)/);
+      if(index===0&&((spoken&&spoken[1]===word)||(!spoken&&word==="Aph"&&/^Aph Assuredly/.test(context)))&&speakers[word])
+        return {word,ja:speakers[word]+"（話者名）",note:"対話の発言者を示す略記。通常の英単語の意味ではありません。"};
       const key=word.toLowerCase().replace(/’/g,"'");
       const entry=glossary.get(key);
       if(!entry)throw new Error("単語訳未登録: "+word);
@@ -417,9 +424,9 @@ function buildDialogueParagraphDetails(day,glossary){
           :"和訳準備中。各単語の文脈上の意味を確認してください。",
       translationStatus:hasTranslation&&parts.length===1?"complete":"pending",
       hint:"原文を意味のまとまりで分割。話者と修飾語の係り先を確認してください。",
-      words:(en.match(tokenRe)||[]).map(wordFor)
+      words:(en.match(tokenRe)||[]).map((word,i)=>wordFor(word,i,en))
     }));
-    const allWords=(paragraph.match(tokenRe)||[]).map(wordFor);
+    const allWords=(paragraph.match(tokenRe)||[]).map((word,i)=>wordFor(word,i,paragraph));
     const distinct=[...new Map(allWords.filter(w=>w.word.length>=4).map(w=>[w.word.toLowerCase(),w])).values()];
     const important=(distinct.length?distinct:allWords).slice(0,4);
     const firstChunk=parts[0].trim();
