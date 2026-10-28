@@ -260,7 +260,29 @@
       "Ap. And by way of payment he stole--",
       "Heph. Well thought on; I must go and get them; you may be right about the baby-linen."
     ],
-    "jp": [],
+    "jp": [
+      "ヘパイストス「アポロン、マイアの赤ん坊を見たかい？　誰にでもにこにこして、なんとも可愛らしい。きっと立派な子になるぞ。」",
+      "アポロン「あの赤ん坊が立派な子だって？　いたずらにかけちゃ、年寄りのイアペトスだってあいつの前では若造さ。」",
+      "ヘパイストス「生まれたばかりじゃないか。いったい何ができるっていうんだ？」",
+      "アポロン「ポセイドンに聞いてみろ。三叉の矛を盗まれた。アレスにも聞け。鞘から剣が消えて仰天していた。私だって弓矢を取られたんだぞ。」",
+      "ヘパイストス「まさか！　まだまともに歩けもしない、おくるみの中の赤ん坊だろう？」",
+      "アポロン「近くに寄ってきたら、君にも分かるさ。」",
+      "ヘパイストス「もう近くに来たことがあるぞ。」",
+      "アポロン「それで？　道具は全部あるか？　なくなった物は？」",
+      "ヘパイストス「もちろん、なくなった物なんてない。」",
+      "アポロン「念のため調べた方がいい。」",
+      "ヘパイストス「ゼウスよ！　私のやっとこはどこだ？」",
+      "アポロン「おくるみの中を探せば見つかるさ。」",
+      "ヘパイストス「そんな盗み上手なのか？　母親の胎内でこそ泥の稽古でもしたのかと思うほどだな。」",
+      "アポロン「しかも、ものすごく口の達者なおしゃべりだ。本人は我々の使い走りになるつもりらしい。昨日はエロスに勝負を挑み、足を払ってたちまち投げ倒した。皆の拍手が終わらないうちに、祝福の抱擁をくれたアプロディテの帯を盗み、ゼウスが笑い終わるより早く王笏まで持ち去った。雷霆も、重すぎず熱くなければ盗んでいただろうよ。」",
+      "ヘパイストス「聞くかぎり、たいした気概のある子だ。」",
+      "アポロン「気概だけじゃない。あの年でも音楽の才がある。」",
+      "ヘパイストス「どうして分かる？」",
+      "アポロン「どこかで死んだ亀を拾ってきて、甲羅で楽器を作ったんだ。角と横木を取り付け、糸巻きと駒を据えて、古株の竪琴弾きの私まで羨ましくなるほど美しく奏でた。マイアの話では夜も天界にじっとしていない。冥府をあちこち嗅ぎ回るそうだ。きっと泥棒の仕事だろう。翼も一対持っているし、魔法の杖まで作った。その杖で魂を整列させ、死者を送り届けるんだ。」",
+      "ヘパイストス「ああ、その杖なら私がおもちゃとして与えた。」",
+      "アポロン「そのお礼に盗んだ物は――」",
+      "ヘパイストス「そうだ！　取り返しに行かねば。おくるみの中だという君の言葉は正しいかもしれん。」"
+    ],
     "chunks": [],
     "grammar": [],
     "vocabulary": [],
@@ -269,8 +291,9 @@
   {
     "day": 6,
     "title": "対話 VIII｜ヘパイストスとゼウス（アテナ誕生）",
-    "wordCount": 275,
+    "wordCount": 304,
     "paragraphs": [
+      "Heph. What are your orders, Zeus? You sent for me, and here I am; with such an edge to my axe as would cleave a stone at one blow.",
       "Zeus. Ah; that's right, Hephaestus. Just split my head in half, will you?",
       "Heph. You think I am mad, perhaps?--Seriously, now, what can I do for you?",
       "Zeus. What I say: crack my skull. Any insubordination, now, and you shall taste my resentment; it will not be the first time. Come, a good lusty stroke, and quick about it. I am in the pangs of travail; my brain is in a whirl.",
@@ -281,7 +304,18 @@
       "Heph. That is all I want. You can leave the rest to me. I'll carry her off this moment.",
       "Zeus. Well, if you think it so easy. But I am sure it is a hopeless case."
     ],
-    "jp": [],
+    "jp": [
+      "ヘパイストス「どんな御用です、ゼウス？　お呼びと聞いて参りました。石も一撃で割れそうな、よく切れる斧を持ってきましたよ。」",
+      "ゼウス「よし、ちょうどいい。私の頭を真っ二つに割ってくれないか？」",
+      "ヘパイストス「私が正気でないとお思いで？　冗談はさておき、何をいたしましょう？」",
+      "ゼウス「言ったとおりだ。頭蓋骨を割れ。逆らえばただではおかん。前にも思い知らせたはずだ。さあ、力いっぱい、早くやれ。産みの苦しみで頭の中がぐるぐるしている！」",
+      "ヘパイストス「ただでは済みませんよ。斧は鋭利ですし、産婆としてはずいぶん荒っぽい道具です。」",
+      "ゼウス「構わん、打ち割れ。心配はいらん。考えがあってのことだ。」",
+      "ヘパイストス「ううむ、気が進みませんが命令とあらば……。おや、これは何だ？　甲冑に身を固めた娘が出てきた！　冗談ではありませんね、ゼウス。脳膜の下でこんな大娘が、鎧まで着けて育っていたのでは、機嫌が悪くなるのも当然です。まるで兵舎を頭の上に載せていたようなものだ。しかも元気なこと！　盾と槍を振るって戦いの舞を踊っています。神がかりのようだ。おまけに大層美しく、数分のうちに結婚適齢期になった。灰色の目も兜によく似合う。出産を手伝った報酬として、この娘をいただきたい。」",
+      "ゼウス「それは無理だ。娘は生涯処女でいると決めている。私自身は反対しないのだがな。」",
+      "ヘパイストス「それだけ聞けば十分です。後は私にお任せを。今すぐ連れて行きましょう。」",
+      "ゼウス「簡単にできると思うなら試してみるがいい。しかし望みはないと思うぞ。」"
+    ],
     "chunks": [],
     "grammar": [],
     "vocabulary": [],
@@ -297,7 +331,12 @@
       "Aph. Well now, what a naughty boy! he gets his own mother into all sorts of scrapes; I must go down, now to Ida for Anchises of Troy, now to Lebanon for my Assyrian stripling;--mine? no, he put Persephone in love with him too, and so robbed me of half my darling. I have told him many a time that if he would not behave himself I would break his artillery for him, and clip his wings; and before now I have smacked his little behind with my slipper. It is no use; he is frightened and cries for a minute or two, and then forgets all about it. But tell me, is Endymion handsome? That is always a comfort in our humiliation.",
       "Sel. Most handsome, I think, my dear; you should see him when he has spread out his cloak on the rock and is asleep; his javelins in his left hand, just slipping from his grasp, the right arm bent upwards, making a bright frame to the face, and he breathing softly in helpless slumber. Then I come noiselessly down, treading on tiptoe not to wake and startle him--but there, you know all about it; why tell you the rest? I am dying of love, that is all."
     ],
-    "jp": [],
+    "jp": [
+      "アプロディテ「セレネ、あなたについて妙な噂を聞いたわ。車でカリアの上空を通るとき、野外で狩人の姿のまま眠っているエンデュミオンを見つめて立ち止まるんですって。時には車から降りて、彼のところへ行くそうね。」",
+      "セレネ「ああ、アプロディテ。あなたの息子に聞いてちょうだい。全部あの子のせいなのよ。」",
+      "アプロディテ「本当に困った悪戯っ子ね。実の母親までひどい目に遭わせるの。トロイアのアンキセスに会うためイダ山へ行かされたかと思えば、アッシリアの美少年を求めてレバノンへ行かされる。その子は私だけの恋人だった？　いいえ、ペルセポネまで惚れさせたものだから、半分奪われてしまった。言うことを聞かなければ弓矢を壊して翼を切ると何度も叱ったし、履物で小さなお尻を叩いたこともある。でも無駄ね。ちょっと泣いて怯えたかと思えば、すぐ忘れてしまう。それでエンデュミオンは美男子なの？　散々な目に遭っても、相手が美しいなら少しは慰めになるわ。」",
+      "セレネ「それはもう美しいのよ。岩の上に外套を広げて眠る姿を見てほしいわ。左手には今にも滑り落ちそうな投槍、右腕は上へ曲げて顔を縁取り、何も知らずに静かな寝息を立てている。私は驚かせて起こさないよう、そっと爪先立ちで降りていくの。でも、もう分かっているでしょう？　これ以上言う必要もないわ。とにかく恋い焦がれて死にそうなのよ。」"
+    ],
     "chunks": [],
     "grammar": [],
     "vocabulary": [],
@@ -312,7 +351,11 @@
       "Eros. Be under no alarm, mother; I understand lions perfectly by this time. I get on to their backs every now and then, and take hold of their manes, and ride them about; and when I put my hand into their mouths, they only lick it, and let me take it out again. Besides, how is Rhea going to have time to attend to me? She is too busy with Attis. And I see no harm in just pointing out beautiful things to people; they can leave them alone;--it is nothing to do with me. And how would you like it if Ares were not in love with you, or you with him?",
       "Aph. Masterful boy! always the last word! But you will remember this some day."
     ],
-    "jp": [],
+    "jp": [
+      "アプロディテ「おまえ、少しは自分のしていることを考えなさい。地上で人間に悪さをさせ、互いに傷つけ合わせるだけでも十分ひどいのに、今日は神々の話よ。ゼウスには気の向くまま次々と変身させ、セレネを空から引きずり下ろし、ヘリオスにはクリュメネのそばで道草をさせて、太陽の車を出すのまで忘れさせる。自分の母親への悪戯なら大目に見てもらえると知っているのでしょう。でもレアはどうなの？　あれだけ多くの神々を産んだ老女が、プリュギアの若者に恋するよう仕向けるとは！　おまえのせいですっかり正気を失い、獅子を車につないで、同じく狂ったコリュバンテスたちとイダ山中を走り回り、アッティスを呼び叫んでいる。連中は腕を剣で切りつけ、髪を振り乱して山を駆け、角笛、太鼓、シンバルを鳴らすものだから山全体が大騒ぎよ。母さんは心配なの。レアが正気を失ったとき、いやむしろ正気に戻ったとき、あの連中に命じておまえを八つ裂きにするか、獅子の餌にするかもしれない。無茶をしすぎよ！」",
+      "エロス「心配しないで、母さん。獅子の扱いならもう慣れっこだよ。背中に乗って鬣をつかんで駆け回るし、口に手を入れたって舐めるだけで噛まない。それにレアが僕を構っている暇なんかある？　アッティスに夢中じゃないか。僕はただ美しいものを教えているだけで、好きになるかどうかは本人の自由だよ。それを僕のせいにするのはおかしい。アレスが母さんに恋していなかったら、母さんだって嫌だろう？」",
+      "アプロディテ「本当に生意気な子！　必ず最後に言い返すんだから。でもいつかこの話を思い出すでしょうね。」"
+    ],
     "chunks": [],
     "grammar": [],
     "vocabulary": [],
