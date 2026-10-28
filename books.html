@@ -403,7 +403,7 @@ function buildDialogueParagraphDetails(day,glossary){
   const tokenRe=/[\p{L}]+(?:['’\-][\p{L}]+)*/gu;
   return day.paragraphs.map((paragraph,pi)=>{
     const parts=splitDialogueChunks(paragraph);
-    const speakers={Prom:"プロメテウス",Zeus:"ゼウス",Eros:"エロス",Her:"ヘルメス",Ap:"アポロン",
+    const speakers={Prom:"プロメテウス",Zeus:"ゼウス",Eros:"エロス",Her:day.day===9?"ヘラクレス":"ヘルメス",Ap:"アポロン",
       Hera:"ヘラ",Par:"パリス",Herm:"ヘルメス",Heph:"ヘパイストス",Ath:"アテナ",
       Asc:"アスクレピオス",Leto:"レト",Sel:"セレネ",Ar:"アレス",Ma:"マイア",
       Hel:"ヘリオス",Aph:"アプロディテ"};
@@ -418,11 +418,10 @@ function buildDialogueParagraphDetails(day,glossary){
     };
     const chunks=parts.map((en,index)=>({
       en,role:index===0?"発言の導入・主題":"発言の続き・意味のまとまり",
-      ja:hasTranslation&&parts.length===1
-        ?day.jp[pi]
-        :hasTranslation?"この部分の個別対訳は未校正です。段落全体の日本語訳を表示してください。"
-          :"和訳準備中。各単語の文脈上の意味を確認してください。",
-      translationStatus:hasTranslation&&parts.length===1?"complete":"pending",
+      ja:hasTranslation&&parts.length===1?day.jp[pi]
+        :hasTranslation?"段落全体の日本語訳をご参照ください（この部分だけの訳は未校正）。"
+        :"段落訳準備中。",
+      translationStatus:hasTranslation?(parts.length===1?"complete":"paragraph-reference"):"pending",
       hint:"原文を意味のまとまりで分割。話者と修飾語の係り先を確認してください。",
       words:(en.match(tokenRe)||[]).map((word,i)=>wordFor(word,i,en))
     }));
@@ -431,7 +430,8 @@ function buildDialogueParagraphDetails(day,glossary){
     const important=(distinct.length?distinct:allWords).slice(0,4);
     const firstChunk=parts[0].trim();
     return {
-      summary:(hasTranslation?"段落対訳あり。":"英語原文を先行収録。")+"各チャンクと全単語の語義を照合できます。"+(day.readingPoint||""),
+      summary:(hasTranslation?"段落全体の対訳あり。":"英文先行公開。")+"チャンクごとの単語は原文順で、辞書の語義・用法を確認できます。"+(day.readingPoint||""),
+      paragraphTranslation:hasTranslation?day.jp[pi]:"",
       chunks,
       expressions:[{en:firstChunk,ja:"この段落の導入部分。次の発言との関係を確かめる。"}],
       vocabulary:important.map(x=>({word:x.word,ja:x.ja,note:x.note}))
@@ -480,13 +480,14 @@ function render(){
         const fullGloss=Array.isArray(c.words)?c.words:[];
         const glossary=fullGloss.map(w=>'<div class="gloss-row"><span class="gloss-word" lang="en">'+safe(w.word)+'</span><span class="gloss-meaning" lang="ja">'+safe(w.ja)+'</span><span class="gloss-usage" lang="ja">'+safe(w.note)+'</span></div>').join("");
         const wordPanel='<details class="chunk-lex"><summary>このチャンクの全単語（'+fullGloss.length+'語）の意味と用法</summary><div>'+glossary+'</div></details>';
-        return '<li class="chunk-row"><div><div class="session-label">CHUNK '+String(j+1).padStart(2,"0")+' / '+detail.chunks.length+'</div><div class="chunk-en" lang="en">'+safe(c.en)+'</div><div class="chunk-role" lang="ja">'+safe(c.role)+'</div></div><button class="btn tiny" data-read-chunk="'+i+':'+j+'" type="button" aria-label="チャンク'+(j+1)+'を英語で読む">▶</button><div class="chunk-hint" lang="ja"><strong>'+(c.translationStatus==='pending'?'翻訳状況：':'日本語訳：')+'</strong>'+safe(c.ja)+'</div>'+wordPanel+(c.hint?'<div class="chunk-extra" lang="ja">構文・読解の補足：'+safe(c.hint)+'</div>':"")+'</li>';
+        return '<li class="chunk-row"><div><div class="session-label">CHUNK '+String(j+1).padStart(2,"0")+' / '+detail.chunks.length+'</div><div class="chunk-en" lang="en">'+safe(c.en)+'</div><div class="chunk-role" lang="ja">'+safe(c.role)+'</div></div><button class="btn tiny" data-read-chunk="'+i+':'+j+'" type="button" aria-label="チャンク'+(j+1)+'を英語で読む">▶</button><div class="chunk-hint" lang="ja"><strong>'+(c.translationStatus==='complete'?'日本語訳：':c.translationStatus==='paragraph-reference'?'段落訳を参照：':'翻訳状況：')+'</strong>'+safe(c.ja)+'</div>'+wordPanel+(c.hint?'<div class="chunk-extra" lang="ja">構文・読解の補足：'+safe(c.hint)+'</div>':"")+'</li>';
       }).join("");
       const expressions=(detail.expressions||[]).map(x=>'<li><span class="focus-en" lang="en">'+safe(x.en)+'</span><span class="focus-ja" lang="ja">'+safe(x.ja)+'</span></li>').join("");
       const vocabulary=(detail.vocabulary||[]).map(x=>'<div class="word"><strong lang="en">'+safe(x.word)+'</strong><span lang="ja">'+safe(x.ja)+'</span><span class="vocab-note" lang="ja">'+safe(x.note||"")+'</span></div>').join("");
       detailsHtml='<details class="paragraph-help" open><summary>段落'+(i+1)+'のチャンク・単語解説<span class="counts">'+detail.chunks.length+'チャンク / '+detail.vocabulary.length+'語</span></summary>'+
-        '<p class="help-intro" lang="ja">'+(book.glossaryData?'英文を意味のまとまりに分け、冠詞・前置詞・固有名詞を含む全単語の訳語を原文順に表示します。訳語は辞書の一般語義も含むため、文脈と照合してください。チャンク単位の和訳は未校正の部分があります。':'各チャンクには対応する日本語訳を収録しました。「このチャンクの全単語」を開くと、冠詞・前置詞なども含め、全単語の意味と用法を原文の順番で確認できます。')+'</p>'+
+        '<p class="help-intro" lang="ja">'+(book.glossaryData?'本文を意味のまとまりに分割し、冠詞・前置詞・固有名詞を含む全単語の訳語を原文順に表示します。辞書の一般語義は文脈に合わない場合があります。各発言の日本語全訳は折りたたみ表示、チャンク単位の精密な対応訳は未校正です。':'各チャンクには対応する日本語訳を収録しました。「このチャンクの全単語」を開くと、冠詞・前置詞なども含め、全単語の意味と用法を原文の順番で確認できます。')+'</p>'+
         '<p class="paragraph-summary" lang="ja">'+safe(detail.summary)+'</p>'+
+        (book.glossaryData&&detail.paragraphTranslation?'<details class="paragraph-translation"><summary>この発言の日本語全訳を表示</summary><p class="jp" lang="ja">'+safe(detail.paragraphTranslation)+'</p></details>':'')+
         '<h4>全文チャンク分解・日本語訳・全単語の解説</h4><ol class="chunks">'+chunkHtml+'</ol>'+
         '<h4>重要表現・構文</h4><ul class="focus-list">'+expressions+'</ul>'+
         '<h4>段落内の単語・熟語</h4><div class="word-list">'+vocabulary+'</div></details>';
