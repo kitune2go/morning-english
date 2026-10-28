@@ -430,7 +430,7 @@ function buildDialogueParagraphDetails(day,glossary){
     const important=(distinct.length?distinct:allWords).slice(0,4);
     const firstChunk=parts[0].trim();
     return {
-      summary:(hasTranslation?"段落全体の対訳あり。":"英文先行公開。")+"チャンクごとの単語は原文順で、辞書の語義・用法を確認できます。"+(day.readingPoint||""),
+      summary:(hasTranslation?"この発言には日本語全訳があります。":"英文先行公開。")+"英文はチャンクで区切り、全単語を原文順に確認できます。",
       paragraphTranslation:hasTranslation?day.jp[pi]:"",
       chunks,
       expressions:[{en:firstChunk,ja:"この段落の導入部分。次の発言との関係を確かめる。"}],
