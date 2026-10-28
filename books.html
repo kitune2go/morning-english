@@ -373,6 +373,72 @@ async function copyAskPrompt(paragraphIndex,question){
   return ok;
 }
 
+
+function splitDialogueChunks(paragraph){
+  const count=s=>(s.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[]).length;
+  const boundary=[...paragraph.matchAll(/[,;:!?](?:["'”])?\s+|\.(?:["'”])?\s+(?=[A-Z])/g)]
+    .map(m=>m.index+m[0].length);
+  const output=[];
+  let from=0;
+  while(from<paragraph.length){
+    const remaining=paragraph.slice(from);
+    if(count(remaining)<=24){output.push(remaining);break;}
+    const candidates=boundary.filter(x=>x>from&&count(paragraph.slice(from,x))>=9&&count(paragraph.slice(from,x))<=24);
+    let to;
+    if(candidates.length)to=candidates.reduce((best,x)=>Math.abs(count(paragraph.slice(from,x))-16)<Math.abs(count(paragraph.slice(from,best))-16)?x:best,candidates[0]);
+    else {
+      const ws=[...remaining.matchAll(/\S+\s*/g)];
+      const token=ws[Math.min(19,ws.length-1)];
+      to=from+token.index+token[0].length;
+    }
+    if(to<=from)throw new Error("チャンク分解に失敗しました");
+    output.push(paragraph.slice(from,to));
+    from=to;
+  }
+  if(output.join("")!==paragraph)throw new Error("チャンク分解の原文一致に失敗しました");
+  return output;
+}
+function buildDialogueParagraphDetails(day,glossary){
+  const hasTranslation=Array.isArray(day.jp)&&day.jp.length===day.paragraphs.length;
+  const tokenRe=/[\p{L}]+(?:['’\-][\p{L}]+)*/gu;
+  return day.paragraphs.map((paragraph,pi)=>{
+    const parts=splitDialogueChunks(paragraph);
+    const speakers={Prom:"プロメテウス",Zeus:"ゼウス",Eros:"エロス",Her:day.day===9?"ヘラクレス":"ヘルメス",Ap:"アポロン",
+      Hera:"ヘラ",Par:"パリス",Herm:"ヘルメス",Heph:"ヘパイストス",Ath:"アテナ",
+      Asc:"アスクレピオス",Leto:"レト",Sel:"セレネ",Ar:"アレス",Ma:"マイア",
+      Hel:"ヘリオス",Aph:"アプロディテ"};
+    const wordFor=(word,index,context)=>{
+      const spoken=context.match(/^([A-Za-z]+)\.(?:\s|$)/);
+      if(index===0&&((spoken&&spoken[1]===word)||(!spoken&&word==="Aph"&&/^Aph Assuredly/.test(context)))&&speakers[word])
+        return {word,ja:speakers[word]+"（話者名）",note:"対話の発言者を示す略記。通常の英単語の意味ではありません。"};
+      const key=word.toLowerCase().replace(/’/g,"'");
+      const entry=glossary.get(key);
+      if(!entry)throw new Error("単語訳未登録: "+word);
+      return {word,ja:entry.ja,note:entry.note};
+    };
+    const chunks=parts.map((en,index)=>({
+      en,role:index===0?"発言の導入・主題":"発言の続き・意味のまとまり",
+      ja:hasTranslation&&parts.length===1?day.jp[pi]
+        :hasTranslation?"段落全体の日本語訳をご参照ください（この部分だけの訳は未校正）。"
+        :"段落訳準備中。",
+      translationStatus:hasTranslation?(parts.length===1?"complete":"paragraph-reference"):"pending",
+      hint:"原文を意味のまとまりで分割。話者と修飾語の係り先を確認してください。",
+      words:(en.match(tokenRe)||[]).map((word,i)=>wordFor(word,i,en))
+    }));
+    const allWords=(paragraph.match(tokenRe)||[]).map((word,i)=>wordFor(word,i,paragraph));
+    const distinct=[...new Map(allWords.filter(w=>w.word.length>=4).map(w=>[w.word.toLowerCase(),w])).values()];
+    const important=(distinct.length?distinct:allWords).slice(0,4);
+    const firstChunk=parts[0].trim();
+    return {
+      summary:(hasTranslation?"この発言には日本語全訳があります。":"英文先行公開。")+"英文はチャンクで区切り、全単語を原文順に確認できます。",
+      paragraphTranslation:hasTranslation?day.jp[pi]:"",
+      chunks,
+      expressions:[{en:firstChunk,ja:"この段落の導入部分。次の発言との関係を確かめる。"}],
+      vocabulary:important.map(x=>({word:x.word,ja:x.ja,note:x.note}))
+    };
+  });
+}
+
 function render(){
   if(!book||!sessions.length)return;
   const data=getDay(),st=bookState(),translated=data.jp&&data.jp.length===data.paragraphs.length;
@@ -390,7 +456,7 @@ function render(){
   $("dayReadStatus").textContent=completed.has(current)?"✓ 既読":"未読";
   $("dayReadStatus").classList.toggle("read",completed.has(current));
   const richDetails=Array.isArray(data.paragraphDetails)&&data.paragraphDetails.length===data.paragraphs.length;
-  $("dayMeta").textContent=data.wordCount+" words / "+data.paragraphs.length+" paragraphs"+(richDetails?" / 全チャンク和訳・全単語解説":translated?" / 段落対訳あり":" / 日本語対訳未登録");
+  $("dayMeta").textContent=data.wordCount+" words / "+data.paragraphs.length+" paragraphs"+(book.glossaryData?" / チャンク分解・全単語辞書訳"+(translated?" / 段落対訳あり":" / 段落対訳は準備中"):richDetails?" / 全チャンク和訳・全単語解説":translated?" / 段落対訳あり":" / 日本語対訳未登録");
   $("toggleJp").disabled=!translated;
   $("toggleJp").setAttribute("aria-pressed",String(showJp&&translated));
   $("toggleJp").textContent=!translated?"この回の和訳は準備中":showJp?"日本語訳を隠す":"日本語訳を表示";
@@ -414,13 +480,14 @@ function render(){
         const fullGloss=Array.isArray(c.words)?c.words:[];
         const glossary=fullGloss.map(w=>'<div class="gloss-row"><span class="gloss-word" lang="en">'+safe(w.word)+'</span><span class="gloss-meaning" lang="ja">'+safe(w.ja)+'</span><span class="gloss-usage" lang="ja">'+safe(w.note)+'</span></div>').join("");
         const wordPanel='<details class="chunk-lex"><summary>このチャンクの全単語（'+fullGloss.length+'語）の意味と用法</summary><div>'+glossary+'</div></details>';
-        return '<li class="chunk-row"><div><div class="session-label">CHUNK '+String(j+1).padStart(2,"0")+' / '+detail.chunks.length+'</div><div class="chunk-en" lang="en">'+safe(c.en)+'</div><div class="chunk-role" lang="ja">'+safe(c.role)+'</div></div><button class="btn tiny" data-read-chunk="'+i+':'+j+'" type="button" aria-label="チャンク'+(j+1)+'を英語で読む">▶</button><div class="chunk-hint" lang="ja"><strong>日本語訳：</strong>'+safe(c.ja)+'</div>'+wordPanel+(c.hint?'<div class="chunk-extra" lang="ja">構文・読解の補足：'+safe(c.hint)+'</div>':"")+'</li>';
+        return '<li class="chunk-row"><div><div class="session-label">CHUNK '+String(j+1).padStart(2,"0")+' / '+detail.chunks.length+'</div><div class="chunk-en" lang="en">'+safe(c.en)+'</div><div class="chunk-role" lang="ja">'+safe(c.role)+'</div></div><button class="btn tiny" data-read-chunk="'+i+':'+j+'" type="button" aria-label="チャンク'+(j+1)+'を英語で読む">▶</button><div class="chunk-hint" lang="ja"><strong>'+(c.translationStatus==='complete'?'日本語訳：':c.translationStatus==='paragraph-reference'?'段落訳を参照：':'翻訳状況：')+'</strong>'+safe(c.ja)+'</div>'+wordPanel+(c.hint?'<div class="chunk-extra" lang="ja">構文・読解の補足：'+safe(c.hint)+'</div>':"")+'</li>';
       }).join("");
       const expressions=(detail.expressions||[]).map(x=>'<li><span class="focus-en" lang="en">'+safe(x.en)+'</span><span class="focus-ja" lang="ja">'+safe(x.ja)+'</span></li>').join("");
       const vocabulary=(detail.vocabulary||[]).map(x=>'<div class="word"><strong lang="en">'+safe(x.word)+'</strong><span lang="ja">'+safe(x.ja)+'</span><span class="vocab-note" lang="ja">'+safe(x.note||"")+'</span></div>').join("");
       detailsHtml='<details class="paragraph-help" open><summary>段落'+(i+1)+'のチャンク・単語解説<span class="counts">'+detail.chunks.length+'チャンク / '+detail.vocabulary.length+'語</span></summary>'+
-        '<p class="help-intro" lang="ja">各チャンクには対応する日本語訳を収録しました。「このチャンクの全単語」を開くと、冠詞・前置詞なども含め、全単語の意味と用法を原文の順番で確認できます。</p>'+
+        '<p class="help-intro" lang="ja">'+(book.glossaryData?'本文を意味のまとまりに分割し、冠詞・前置詞・固有名詞を含む全単語の訳語を原文順に表示します。辞書の一般語義は文脈に合わない場合があります。各発言の日本語全訳は折りたたみ表示、チャンク単位の精密な対応訳は未校正です。':'各チャンクには対応する日本語訳を収録しました。「このチャンクの全単語」を開くと、冠詞・前置詞なども含め、全単語の意味と用法を原文の順番で確認できます。')+'</p>'+
         '<p class="paragraph-summary" lang="ja">'+safe(detail.summary)+'</p>'+
+        (book.glossaryData&&detail.paragraphTranslation?'<details class="paragraph-translation"><summary>この発言の日本語全訳を表示</summary><p class="jp" lang="ja">'+safe(detail.paragraphTranslation)+'</p></details>':'')+
         '<h4>全文チャンク分解・日本語訳・全単語の解説</h4><ol class="chunks">'+chunkHtml+'</ol>'+
         '<h4>重要表現・構文</h4><ul class="focus-list">'+expressions+'</ul>'+
         '<h4>段落内の単語・熟語</h4><div class="word-list">'+vocabulary+'</div></details>';
@@ -466,6 +533,12 @@ async function loadBook(id){
   showStatus("『"+chosen.title+"』を読み込み中です…");
   const d=await loadJson(chosen.data);
   if(!Array.isArray(d)||d.length===0||!d.every((x,i)=>x.day===i+1&&Array.isArray(x.paragraphs)&&x.paragraphs.length))throw new Error("本文データの形式が不正です");
+  if(chosen.glossaryData){
+    const lex=await loadJson(chosen.glossaryData);
+    if(!Array.isArray(lex))throw new Error("単語辞書の形式が不正です");
+    const glossary=new Map(lex.map(x=>[x.word.toLowerCase(),x]));
+    d.forEach(day=>{day.paragraphDetails=buildDialogueParagraphDetails(day,glossary);});
+  }
   book=chosen;
   sessions=d;
   const saved=bookState(),resume=resumeMark(saved);

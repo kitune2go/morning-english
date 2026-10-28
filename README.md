@@ -279,7 +279,7 @@ imagePrompt は残す
 
 閲覧URL：`https://kitune2go.github.io/morning-english/books.html`
 
-**収録作品：ルキアノス『神々の対話』** — `books/lucian-dialogues-of-the-gods/days.json` にファウラー兄弟による1905年英訳19篇（I, II, III, VI, VII, VIII, XI–XVI, XVIII–XXI, XXIV–XXVI）を対話単位で収録。**原集26篇中、IV・V・IX・X・XVII・XXII・XXIII の7篇は当時の英訳が省略**しており、本教材も未収録です。**Day 1〜4に日本語対訳・選択語彙・文法説明**を登録し、Day 5〜19は現時点で英文と読解ポイントのみ（和訳は未整備）。一部の改行・イタリック記号は読書表示に合わせて正規化しています。著作権が存続する現代日本語訳は転載していません。
+**収録作品：ルキアノス『神々の対話』** — ファウラー兄弟による1905年英訳に収録された**全19篇・238発言の日本語全訳**を追加。原文の第VIII篇冒頭の欠落を復元し、第XIII篇の連結された3話者の発言を分離。語彙辞書は全文1,748種類の語形を網羅（一般語義はCC0のEJDict等から取得）。各段落は意味のまとまりへ分割し、全単語と用法メモを表示できます。**チャンクごとの逐語的な日本語対応訳は未校正**なので、詳細パネルの「この発言の日本語全訳を表示」から内容を照合してください。元のギリシア語作品26篇のうち、1905年英訳の底本に含まれない7篇（IV・V・IX・X・XVII・XXII・XXIII）は収録外であり、本教材は原集全26篇の翻訳ではありません。
 
 **新作登録方法：** `books/slug/days.json` を作り、`books-manifest.json` に `id/title/titleJa/author/description/data/sourceUrl` を登録。日次データは `{day,title,wordCount,paragraphs,jp,chunks,grammar,vocabulary,readingPoint,paragraphDetails}`。翻訳がない日は`jp: []`とします。著作権・原文の利用条件は作品ごとに確認してください。
 
