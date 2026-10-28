@@ -1,0 +1,153 @@
+[
+  {
+    "id": "DE-20261028-001",
+    "sourceTitle": "舞台に立つ者と鍵を持つ者",
+    "workId": "daily-essay-20261028",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "神々が食卓へ降りる",
+    "jp": "神々の威厳は、雲の上に置かれているあいだは揺らがない。けれど対話劇の扉を開ければ、そこには浮気を責める妻、雑用を押しつけられる使者、会議を仕切れない主神がいる。笑いが剥がすのは神話そのものではなく、肩書きと実際の働きの距離である。高い名を持つ者が、必ずしも場を支配しているとは限らない。舞台の中央は、権力の所在地を保証しない。",
+    "translationLiteral": "The dignity of the gods does not shake while it is placed above the clouds. But when the door of a dialogue is opened, there are a wife blaming infidelity, a messenger burdened with errands, and a chief god unable to manage a meeting. What laughter strips away is not myth itself but the distance between titles and actual work. A person with a lofty name does not necessarily control the scene. The center of the stage does not guarantee the location of power.",
+    "translationNatural": "Divine dignity looks secure as long as it stays above the clouds. Open the door to a comic dialogue, however, and the gods become a jealous spouse, an overworked messenger, and a chief who cannot run his own meeting. The joke does not destroy the myth; it exposes the distance between a title and the work behind it. Standing at center stage does not prove where power actually resides.",
+    "imageUrl": "",
+    "imageCaption": "神々が食卓へ降りるを象徴する、人物と構造の距離を示す場面。",
+    "imagePrompt": "Editorial literary illustration for \"神々が食卓へ降りる\", symbolic scene showing visible actors and hidden structures, restrained colors, no readable text",
+    "chunks": [
+      {
+        "en": "Divine dignity looks secure as long as it stays above the clouds.",
+        "ja": "神の威厳は雲の上にあるかぎり安定して見える。"
+      },
+      {
+        "en": "Open the door to a comic dialogue, however, and the gods become a jealous spouse, an overworked messenger, and a chief who cannot run his own meeting.",
+        "ja": "しかし喜劇的対話の扉を開けば、神々は嫉妬する配偶者、酷使される使者、自分の会議さえ仕切れない主神になる。"
+      },
+      {
+        "en": "The joke does not destroy the myth; it exposes the distance between a title and the work behind it.",
+        "ja": "冗談は神話を壊すのではなく、肩書きと背後の働きの距離を露出させる。"
+      },
+      {
+        "en": "Standing at center stage does not prove where power actually resides.",
+        "ja": "舞台中央に立つことは、権力の実際の所在を証明しない。"
+      }
+    ],
+    "grammar": [
+      "as long as は条件・継続範囲を示す。",
+      "Open ... and ... は命令形を条件として結果を導く。",
+      "who cannot ... は chief を修飾する関係詞節。",
+      "not A; B は否定と再定義をセミコロンで結ぶ。",
+      "where power actually resides は prove の目的語となる間接疑問節。"
+    ],
+    "translationNote": "literal は神々の具体的な所帯臭さを順に保持した。natural は comic dialogue と center stage を用い、風刺が肩書きと実務の距離を可視化する働きへ焦点を絞った。",
+    "readingPoint": "導入。神話的権威を日常の役割へ降ろし、可視性と権力の所在を分ける。",
+    "keywords": [
+      "divine dignity",
+      "comic dialogue",
+      "title",
+      "actual work",
+      "power"
+    ]
+  },
+  {
+    "id": "DE-20261028-002",
+    "sourceTitle": "舞台に立つ者と鍵を持つ者",
+    "workId": "daily-essay-20261028",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "声は近く、所有は遠い",
+    "jp": "ゲームの画面では、日本語の声が人物をこちら側へ引き寄せる。同じ役を別の言語の俳優が演じれば、作品は国境を越えて身近になる。しかし、親しさと所有は別の帳簿に載る。声が国内で収録され、宣伝が国内で広がっても、知的財産と継続収益の鍵を海外企業が握ることはある。表に現れる声を数えるだけでは、誰が作品を育て、誰のもとへ利益が戻るのかは見えない。",
+    "translationLiteral": "On a game screen, a Japanese voice draws a character toward our side. When actors in different languages play the same role, the work becomes familiar across borders. Yet familiarity and ownership are entered in different ledgers. Even if voices are recorded domestically and promotion spreads domestically, a foreign company may hold the keys to intellectual property and recurring revenue. Counting only the voices that appear does not show who grows the work or to whom profit returns.",
+    "translationNatural": "A Japanese voice can make a game character feel close, while another actor carries the same role across a different language. Yet cultural closeness and ownership belong to separate ledgers. Local recording and promotion may be highly visible even when a foreign company controls the intellectual property and recurring revenue. If we count only the voices on screen, we miss both who owns the structure and where the profit returns.",
+    "imageUrl": "",
+    "imageCaption": "声は近く、所有は遠いを象徴する、人物と構造の距離を示す場面。",
+    "imagePrompt": "Editorial literary illustration for \"声は近く、所有は遠い\", symbolic scene showing visible actors and hidden structures, restrained colors, no readable text",
+    "chunks": [
+      {
+        "en": "A Japanese voice can make a game character feel close, while another actor carries the same role across a different language.",
+        "ja": "日本語の声はゲームの人物を身近にし、別の俳優は同じ役を異なる言語へ運ぶ。"
+      },
+      {
+        "en": "Yet cultural closeness and ownership belong to separate ledgers.",
+        "ja": "しかし文化的な近さと所有は別々の帳簿に属する。"
+      },
+      {
+        "en": "Local recording and promotion may be highly visible even when a foreign company controls the intellectual property and recurring revenue.",
+        "ja": "国内収録や宣伝が目立っていても、海外企業が知的財産と継続収益を支配することがある。"
+      },
+      {
+        "en": "If we count only the voices on screen, we miss both who owns the structure and where the profit returns.",
+        "ja": "画面上の声だけを数えれば、構造の所有者と利益の帰着先の両方を見落とす。"
+      }
+    ],
+    "grammar": [
+      "make O C は人物を身近に感じさせる作用を表す。",
+      "while は二つの声の役割を対照・並行させる。",
+      "even when は可視性と所有のずれを示す。",
+      "both A and B は二つの見落としを並列する。",
+      "who owns / where profit returns はそれぞれ主体と帰着先を示す名詞節。"
+    ],
+    "translationNote": "literal は国内で見える活動と国外にある権利を帳簿の比喩で追った。natural は cultural closeness と ownership を明確に分け、声優の可視性だけから産業構造を判断できない点を自然な英語へ整理した。",
+    "readingPoint": "展開。舞台の中心と権力のずれを、文化的親近感とIP所有・収益帰属のずれへ広げる。",
+    "keywords": [
+      "cultural closeness",
+      "ownership",
+      "intellectual property",
+      "recurring revenue",
+      "profit"
+    ]
+  },
+  {
+    "id": "DE-20261028-003",
+    "sourceTitle": "舞台に立つ者と鍵を持つ者",
+    "workId": "daily-essay-20261028",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "会社は相続されない",
+    "jp": "経営者が亡くなったとき、会社そのものが遺品のように箱へ入るわけではない。相続の対象になるのは株式や持分であり、法人は別の主体として残る。だが、所有者と経営者が一人に重なっていた会社では、その人が消えた瞬間に決裁と運営の回路が止まり得る。看板も口座も残っているのに、鍵を回す手がない。制度は人格を分けても、実務は一人へ集中していた。その空白が、所有と作用の違いを最後にはっきり見せる。",
+    "translationLiteral": "When an owner-manager dies, the company itself is not put into a box like an inherited belonging. What is inherited is shares or an ownership interest, while the corporation remains as a separate person. But in a company where owner and manager overlapped in one person, the circuits of decision and operation can stop the moment that person disappears. The sign and bank account remain, yet there is no hand to turn the key. The law separated personalities, but practice had concentrated them in one person. That vacancy finally shows the difference between ownership and action.",
+    "translationNatural": "When an owner-manager dies, the company itself is not inherited like a household object. Shares or ownership interests pass to heirs, while the corporation remains a separate legal person. Still, if ownership and management were concentrated in one individual, decisions and operations can freeze when that person disappears. The nameplate and bank account may remain, yet no hand turns the key. The vacancy reveals the final distinction: an institution can survive on paper while its capacity to act vanishes.",
+    "imageUrl": "",
+    "imageCaption": "会社は相続されないを象徴する、人物と構造の距離を示す場面。",
+    "imagePrompt": "Editorial literary illustration for \"会社は相続されない\", symbolic scene showing visible actors and hidden structures, restrained colors, no readable text",
+    "chunks": [
+      {
+        "en": "When an owner-manager dies, the company itself is not inherited like a household object.",
+        "ja": "所有者兼経営者が亡くなっても、会社そのものが家財のように相続されるわけではない。"
+      },
+      {
+        "en": "Shares or ownership interests pass to heirs, while the corporation remains a separate legal person.",
+        "ja": "株式や持分は相続人へ移る一方、法人は別の法的主体として残る。"
+      },
+      {
+        "en": "Still, if ownership and management were concentrated in one individual, decisions and operations can freeze when that person disappears.",
+        "ja": "それでも所有と経営が一人に集中していれば、その人が消えたとき決裁と運営は止まり得る。"
+      },
+      {
+        "en": "The nameplate and bank account may remain, yet no hand turns the key.",
+        "ja": "看板と銀行口座は残っても、鍵を回す手がない。"
+      },
+      {
+        "en": "The vacancy reveals the final distinction: an institution can survive on paper while its capacity to act vanishes.",
+        "ja": "その空白は、制度が紙の上で存続しても行為能力は消え得るという最後の区別を示す。"
+      }
+    ],
+    "grammar": [
+      "When は出来事の時点を導く。",
+      "while は株式の移転と法人の存続を対照する。",
+      "if ... were concentrated は集中していた条件を示す。",
+      "may remain, yet ... は形式的存続と実務停止を逆接する。",
+      "while its capacity ... vanishes は制度存続と作用消失を同時対照する。"
+    ],
+    "translationNote": "literal は『鍵を回す手』と制度人格・実務集中の対比を保持した。natural は legal person と capacity to act を用い、法人の存続と会社機能の停止を区別した。",
+    "readingPoint": "転換と余韻。見える人物と見えない所有構造の話を、制度が残っても作用主体が消える空白へ着地させる。",
+    "keywords": [
+      "corporation",
+      "inheritance",
+      "ownership interest",
+      "management",
+      "capacity to act"
+    ]
+  }
+]
