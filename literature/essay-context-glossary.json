@@ -2810,5 +2810,245 @@
         }
       ]
     }
+  ],
+  "DE-20261028-001": [
+    {
+      "words": {
+        "dignity": {
+          "ja": "威厳",
+          "pos": "語句",
+          "lemma": "dignity",
+          "form": "",
+          "note": "dignity：この作品では「威厳」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Divine dignity looks secure as long as it stays above the clouds.",
+          "ja": "神の威厳は雲の上にあるかぎり安定して見える。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "dialogue": {
+          "ja": "風刺的な対話劇",
+          "pos": "語句",
+          "lemma": "dialogue",
+          "form": "",
+          "note": "dialogue：この作品では「風刺的な対話劇」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Open the door to a comic dialogue, however, and the gods become a jealous spouse, an overworked messenger, and a chief who cannot run his own meeting.",
+          "ja": "しかし喜劇的対話の扉を開けば、神々は嫉妬する配偶者、酷使される使者、自分の会議さえ仕切れない主神になる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "exposes": {
+          "ja": "露わにする",
+          "pos": "語句",
+          "lemma": "exposes",
+          "form": "",
+          "note": "exposes：この作品では「露わにする」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The joke does not destroy the myth; it exposes the distance between a title and the work behind it.",
+          "ja": "冗談は神話を壊すのではなく、肩書きと背後の働きの距離を露出させる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "power": {
+          "ja": "権力",
+          "pos": "語句",
+          "lemma": "power",
+          "form": "",
+          "note": "power：この作品では「権力」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Standing at center stage does not prove where power actually resides.",
+          "ja": "舞台中央に立つことは、権力の実際の所在を証明しない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261028-002": [
+    {
+      "words": {
+        "voice": {
+          "ja": "声・吹き替え",
+          "pos": "語句",
+          "lemma": "voice",
+          "form": "",
+          "note": "voice：この作品では「声・吹き替え」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A Japanese voice can make a game character feel close, while another actor carries the same role across a different language.",
+          "ja": "日本語の声はゲームの人物を身近にし、別の俳優は同じ役を異なる言語へ運ぶ。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "ownership": {
+          "ja": "所有権",
+          "pos": "語句",
+          "lemma": "ownership",
+          "form": "",
+          "note": "ownership：この作品では「所有権」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet cultural closeness and ownership belong to separate ledgers.",
+          "ja": "しかし文化的な近さと所有は別々の帳簿に属する。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "controls": {
+          "ja": "支配する",
+          "pos": "語句",
+          "lemma": "controls",
+          "form": "",
+          "note": "controls：この作品では「支配する」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Local recording and promotion may be highly visible even when a foreign company controls the intellectual property and recurring revenue.",
+          "ja": "国内収録や宣伝が目立っていても、海外企業が知的財産と継続収益を支配することがある。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "profit": {
+          "ja": "利益",
+          "pos": "語句",
+          "lemma": "profit",
+          "form": "",
+          "note": "profit：この作品では「利益」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "If we count only the voices on screen, we miss both who owns the structure and where the profit returns.",
+          "ja": "画面上の声だけを数えれば、構造の所有者と利益の帰着先の両方を見落とす。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261028-003": [
+    {
+      "words": {
+        "owner-manager": {
+          "ja": "所有者兼経営者",
+          "pos": "語句",
+          "lemma": "owner-manager",
+          "form": "",
+          "note": "owner-manager：この作品では「所有者兼経営者」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When an owner-manager dies, the company itself is not inherited like a household object.",
+          "ja": "所有者兼経営者が亡くなっても、会社そのものが家財のように相続されるわけではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "shares": {
+          "ja": "株式",
+          "pos": "語句",
+          "lemma": "shares",
+          "form": "",
+          "note": "shares：この作品では「株式」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Shares or ownership interests pass to heirs, while the corporation remains a separate legal person.",
+          "ja": "株式や持分は相続人へ移る一方、法人は別の法的主体として残る。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "ownership": {
+          "ja": "所有",
+          "pos": "語句",
+          "lemma": "ownership",
+          "form": "",
+          "note": "ownership：この作品では「所有」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Still, if ownership and management were concentrated in one individual, decisions and operations can freeze when that person disappears.",
+          "ja": "それでも所有と経営が一人に集中していれば、その人が消えたとき決裁と運営は止まり得る。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "nameplate": {
+          "ja": "会社の看板",
+          "pos": "語句",
+          "lemma": "nameplate",
+          "form": "",
+          "note": "nameplate：この作品では「会社の看板」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The nameplate and bank account may remain, yet no hand turns the key.",
+          "ja": "看板と銀行口座は残っても、鍵を回す手がない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "vacancy": {
+          "ja": "担い手の空白",
+          "pos": "語句",
+          "lemma": "vacancy",
+          "form": "",
+          "note": "vacancy：この作品では「担い手の空白」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The vacancy reveals the final distinction: an institution can survive on paper while its capacity to act vanishes.",
+          "ja": "その空白は、制度が紙の上で存続しても行為能力は消え得るという最後の区別を示す。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
   ]
 }
