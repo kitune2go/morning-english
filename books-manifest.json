@@ -14,7 +14,7 @@
     "title": "Dialogues of the Gods",
     "titleJa": "神々の対話",
     "author": "Lucian of Samosata / English: H. W. Fowler & F. G. Fowler (1905)",
-    "description": "古代ギリシアの神々が夫婦喧嘩・嫉妬・雑務をめぐって言い争う諷刺対話集。1905年のファウラー兄弟英訳の収録19篇を掲載（原集26篇のうち7篇は底本が省略）。全19篇の英文をチャンクに分解し、全1,748種類の語形に英和辞典・神話固有名詞の語義と用法注記を収録。Day 1〜4には段落対訳あり。Day 5〜19の段落対訳およびチャンク単位の日本語訳は未完成。",
+    "description": "ルキアノス『神々の対話』。ファウラー兄弟による1905年英訳に収められた全19篇（省略7篇は別底本が必要）。原文の欠けた1発言を復元し、全19篇・238発言に日本語全訳を収録。全文をチャンクに分け、1,748種類の語形に辞書訳・用法の注記。チャンクごとの独立した自然な対訳は未校正のため、折りたたみ式の段落全訳を参照してください。",
     "data": "books/lucian-dialogues-of-the-gods/days.json",
     "sourceUrl": "https://www.gutenberg.org/ebooks/6327",
     "source": "The Works of Lucian of Samosata, Vol. I, trans. H. W. Fowler & F. G. Fowler, Clarendon Press, 1905; Project Gutenberg eBook #6327 (GITenberg text). Omitted in this edition: IV, V, IX, X, XVII, XXII, XXIII.",
