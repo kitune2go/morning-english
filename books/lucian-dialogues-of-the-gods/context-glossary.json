@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "day": 1,
+      "paragraph": 2,
+      "token": 50,
+      "word": "stole",
+      "ja": "盗んだ",
+      "note": "steal（盗む）の過去形。you stole our fire＝おまえは我々の火を盗んだ。"
+    },
+    {
+      "day": 1,
+      "paragraph": 4,
+      "token": 1,
+      "word": "tis",
+      "ja": "〜である・〜だ",
+      "note": "古風な省略形 'tis＝it is。音階名 ti（シ）ではない。"
+    },
+    {
+      "day": 1,
+      "paragraph": 11,
+      "token": 3,
+      "word": "bound",
+      "ja": "テティスを訪ねに向かうところ",
+      "note": "be bound on a visit to＝〜へ訪ねに行こうとしている。"
+    },
+    {
+      "day": 2,
+      "paragraph": 6,
+      "token": 6,
+      "word": "hyacinth",
+      "ja": "ヒュアキントス（神話の美青年）",
+      "note": "アポロンに愛された美青年ヒュアキントス。植物のヒヤシンスの名の由来でもある。"
+    },
+    {
+      "day": 2,
+      "paragraph": 7,
+      "token": 6,
+      "word": "anyhow",
+      "ja": "それでも・とにかく・いずれにせよ",
+      "note": "話を切り替える・前の話に関係なく述べる副詞。本文では「どうしても」ではない。"
+    },
+    {
+      "day": 2,
+      "paragraph": 10,
+      "token": 7,
+      "word": "being",
+      "ja": "恋をしていること／恋しているので",
+      "note": "being in love＝恋していること、恋しているので。"
+    },
+    {
+      "day": 3,
+      "paragraph": 5,
+      "token": 31,
+      "word": "charge",
+      "ja": "責任・管理・担当",
+      "note": "in charge (of)＝（〜を）担当・管理して。料金・請求ではない。"
+    },
+    {
+      "day": 4,
+      "paragraph": 8,
+      "token": 68,
+      "word": "tis",
+      "ja": "〜である・〜だ",
+      "note": "古風な省略形 'tis＝it is。音階名 ti（シ）ではない。"
+    },
+    {
+      "day": 4,
+      "paragraph": 9,
+      "token": 5,
+      "word": "master",
+      "ja": "支配者",
+      "note": "make himself master of you＝あなたを支配するようになる。"
+    },
+    {
+      "day": 4,
+      "paragraph": 10,
+      "token": 50,
+      "word": "even",
+      "ja": "〜でさえ・〜も・までも",
+      "note": "強調の副詞。even at night＝夜でさえ、even with＝〜を加えてさえ。"
+    },
+    {
+      "day": 4,
+      "paragraph": 12,
+      "token": 17,
+      "word": "lies",
+      "ja": "横たわっている・寝ている",
+      "note": "lie（横たわる）の三人称単数現在。he lies awake＝彼は眠れず横になっている。"
+    },
+    {
+      "day": 4,
+      "paragraph": 12,
+      "token": 25,
+      "word": "being",
+      "ja": "恋をしていること／恋しているので",
+      "note": "being in love＝恋していること、恋しているので。"
+    },
+    {
+      "day": 4,
+      "paragraph": 12,
+      "token": 38,
+      "word": "twill",
+      "ja": "〜するだろう",
+      "note": "古風な省略形 'twill＝it will。織物の twill ではない。"
+    },
+    {
+      "day": 4,
+      "paragraph": 17,
+      "token": 39,
+      "word": "may",
+      "ja": "〜かもしれない・〜することがありうる",
+      "note": "助動詞 may。推量・可能性を表す。"
+    },
+    {
+      "day": 5,
+      "paragraph": 4,
+      "token": 4,
+      "word": "stole",
+      "ja": "盗んだ",
+      "note": "steal（盗む）の過去形。you stole our fire＝おまえは我々の火を盗んだ。"
+    },
+    {
+      "day": 5,
+      "paragraph": 18,
+      "token": 45,
+      "word": "even",
+      "ja": "〜でさえ・〜も・までも",
+      "note": "強調の副詞。even at night＝夜でさえ、even with＝〜を加えてさえ。"
+    },
+    {
+      "day": 5,
+      "paragraph": 20,
+      "token": 7,
+      "word": "stole",
+      "ja": "盗んだ",
+      "note": "steal（盗む）の過去形。you stole our fire＝おまえは我々の火を盗んだ。"
+    },
+    {
+      "day": 5,
+      "paragraph": 21,
+      "token": 11,
+      "word": "may",
+      "ja": "〜かもしれない・〜することがありうる",
+      "note": "助動詞 may。推量・可能性を表す。"
+    },
+    {
+      "day": 6,
+      "paragraph": 5,
+      "token": 5,
+      "word": "may",
+      "ja": "〜かもしれない・〜することがありうる",
+      "note": "助動詞 may。推量・可能性を表す。"
+    },
+    {
+      "day": 6,
+      "paragraph": 7,
+      "token": 102,
+      "word": "even",
+      "ja": "〜でさえ・〜も・までも",
+      "note": "強調の副詞。even at night＝夜でさえ、even with＝〜を加えてさえ。"
+    },
+    {
+      "day": 6,
+      "paragraph": 9,
+      "token": 10,
+      "word": "rest",
+      "ja": "残り",
+      "note": "the rest＝残り。"
+    },
+    {
+      "day": 7,
+      "paragraph": 1,
+      "token": 11,
+      "word": "car",
+      "ja": "車・戦車（神の乗り物）",
+      "note": "セレネや太陽神が操る天空の車・戦車。現代の自動車・電車ではない。"
+    },
+    {
+      "day": 7,
+      "paragraph": 4,
+      "token": 79,
+      "word": "rest",
+      "ja": "残り",
+      "note": "the rest＝残り。"
+    },
+    {
+      "day": 8,
+      "paragraph": 1,
+      "token": 92,
+      "word": "rhea",
+      "ja": "レア（ギリシア神話の女神）",
+      "note": "ゼウスの母レア。南米産の鳥レア（rhea）ではない。"
+    },
+    {
+      "day": 8,
+      "paragraph": 1,
+      "token": 204,
+      "word": "rhea",
+      "ja": "レア（ギリシア神話の女神）",
+      "note": "ゼウスの母レア。南米産の鳥レア（rhea）ではない。"
+    },
+    {
+      "day": 8,
+      "paragraph": 2,
+      "token": 56,
+      "word": "rhea",
+      "ja": "レア（ギリシア神話の女神）",
+      "note": "ゼウスの母レア。南米産の鳥レア（rhea）ではない。"
+    },
+    {
+      "day": 9,
+      "paragraph": 4,
+      "token": 8,
+      "word": "bolt",
+      "ja": "雷霆・雷撃",
+      "note": "ゼウスが放つ雷の一撃。締結部品のボルトではない。"
+    },
+    {
+      "day": 9,
+      "paragraph": 7,
+      "token": 31,
+      "word": "anyhow",
+      "ja": "それでも・とにかく・いずれにせよ",
+      "note": "話を切り替える・前の話に関係なく述べる副詞。本文では「どうしても」ではない。"
+    },
+    {
+      "day": 9,
+      "paragraph": 7,
+      "token": 57,
+      "word": "being",
+      "ja": "履物を履かせられて",
+      "note": "being slippered＝履物を履かせられること（受動態）。"
+    },
+    {
+      "day": 9,
+      "paragraph": 8,
+      "token": 5,
+      "word": "being",
+      "ja": "無礼な態度を取ること",
+      "note": "being rude＝失礼な振る舞いをすること。"
+    },
+    {
+      "day": 10,
+      "paragraph": 5,
+      "token": 1,
+      "word": "hyacinth",
+      "ja": "ヒュアキントス（神話の美青年）",
+      "note": "アポロンに愛された美青年ヒュアキントス。植物のヒヤシンスの名の由来でもある。"
+    },
+    {
+      "day": 10,
+      "paragraph": 12,
+      "token": 42,
+      "word": "hyacinth",
+      "ja": "ヒュアキントス（神話の美青年）",
+      "note": "アポロンに愛された美青年ヒュアキントス。植物のヒヤシンスの名の由来でもある。"
+    },
+    {
+      "day": 10,
+      "paragraph": 12,
+      "token": 44,
+      "word": "hyacinth",
+      "ja": "ヒュアキントス（神話の美青年）",
+      "note": "アポロンに愛された美青年ヒュアキントス。植物のヒヤシンスの名の由来でもある。"
+    },
+    {
+      "day": 10,
+      "paragraph": 12,
+      "token": 125,
+      "word": "fairest",
+      "ja": "最も美しい",
+      "note": "fair（美しい）の最上級。美の審判の文脈。品評会（fair）ではない。"
+    },
+    {
+      "day": 11,
+      "paragraph": 3,
+      "token": 14,
+      "word": "may",
+      "ja": "〜してもよい・〜できる",
+      "note": "助動詞 may。許可・可能を表す。"
+    },
+    {
+      "day": 11,
+      "paragraph": 4,
+      "token": 8,
+      "word": "hyacinth",
+      "ja": "ヒュアキントス（神話の美青年）",
+      "note": "アポロンに愛された美青年ヒュアキントス。植物のヒヤシンスの名の由来でもある。"
+    },
+    {
+      "day": 11,
+      "paragraph": 4,
+      "token": 18,
+      "word": "being",
+      "ja": "姿を変えられること",
+      "note": "being turned into a tree＝木の姿に変えられること。"
+    },
+    {
+      "day": 11,
+      "paragraph": 10,
+      "token": 10,
+      "word": "being",
+      "ja": "捕らえられる・見つかること",
+      "note": "being taken in that act＝その行為の最中に見つかること。"
+    },
+    {
+      "day": 12,
+      "paragraph": 3,
+      "token": 3,
+      "word": "may",
+      "ja": "〜かもしれない・〜することがありうる",
+      "note": "助動詞 may。推量・可能性を表す。"
+    },
+    {
+      "day": 12,
+      "paragraph": 3,
+      "token": 148,
+      "word": "being",
+      "ja": "だまされること",
+      "note": "being imposed upon＝付け込まれる・だまされること。"
+    },
+    {
+      "day": 12,
+      "paragraph": 5,
+      "token": 10,
+      "word": "muses",
+      "ja": "ムーサたち（詩歌・芸術の女神）",
+      "note": "Muse の複数形。アポロンの演奏に味方する女神たち。museum ではない。"
+    },
+    {
+      "day": 12,
+      "paragraph": 6,
+      "token": 21,
+      "word": "may",
+      "ja": "〜してもよい・〜できる",
+      "note": "助動詞 may。許可・可能を表す。"
+    },
+    {
+      "day": 13,
+      "paragraph": 2,
+      "token": 1,
+      "word": "anyhow",
+      "ja": "それでも・とにかく・いずれにせよ",
+      "note": "話を切り替える・前の話に関係なく述べる副詞。本文では「どうしても」ではない。"
+    },
+    {
+      "day": 13,
+      "paragraph": 2,
+      "token": 95,
+      "word": "bound",
+      "ja": "葡萄のつるで縛られている",
+      "note": "be bound with＝〜で縛られる。"
+    },
+    {
+      "day": 13,
+      "paragraph": 2,
+      "token": 143,
+      "word": "may",
+      "ja": "〜してもよい・〜できる",
+      "note": "助動詞 may。許可・可能を表す。"
+    },
+    {
+      "day": 14,
+      "paragraph": 1,
+      "token": 15,
+      "word": "rhea",
+      "ja": "レア（ギリシア神話の女神）",
+      "note": "ゼウスの母レア。南米産の鳥レア（rhea）ではない。"
+    },
+    {
+      "day": 14,
+      "paragraph": 5,
+      "token": 31,
+      "word": "muses",
+      "ja": "ムーサたち（詩歌・芸術の女神）",
+      "note": "Muse の複数形。アポロンの演奏に味方する女神たち。museum ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 1,
+      "token": 28,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 3,
+      "token": 17,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 3,
+      "token": 21,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 4,
+      "token": 22,
+      "word": "tis",
+      "ja": "〜である・〜だ",
+      "note": "古風な省略形 'tis＝it is。音階名 ti（シ）ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 5,
+      "token": 20,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 12,
+      "token": 13,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 20,
+      "token": 61,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 26,
+      "token": 4,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 29,
+      "token": 93,
+      "word": "bore",
+      "ja": "運んだ・運び去った",
+      "note": "bear（運ぶ・持ち去る）の過去形。bore him off＝彼を連れ去った。"
+    },
+    {
+      "day": 15,
+      "paragraph": 30,
+      "token": 5,
+      "word": "may",
+      "ja": "いったい〜なのだろう",
+      "note": "who may you be?＝いったいどなたですか。疑問の助動詞。"
+    },
+    {
+      "day": 15,
+      "paragraph": 30,
+      "token": 15,
+      "word": "dames",
+      "ja": "婦人たち・ご婦人方",
+      "note": "dame の複数形。パリスが三女神を指して言う。ダム（dam）ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 31,
+      "token": 2,
+      "word": "dames",
+      "ja": "婦人たち・ご婦人方",
+      "note": "dame の複数形。パリスが三女神を指して言う。ダム（dam）ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 31,
+      "token": 4,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 32,
+      "token": 72,
+      "word": "tis",
+      "ja": "〜である・〜だ",
+      "note": "古風な省略形 'tis＝it is。音階名 ti（シ）ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 32,
+      "token": 88,
+      "word": "may",
+      "ja": "〜かもしれない・〜することがありうる",
+      "note": "助動詞 may。推量・可能性を表す。"
+    },
+    {
+      "day": 15,
+      "paragraph": 32,
+      "token": 176,
+      "word": "tis",
+      "ja": "〜である・〜だ",
+      "note": "古風な省略形 'tis＝it is。音階名 ti（シ）ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 33,
+      "token": 4,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 40,
+      "token": 5,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 42,
+      "token": 2,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 44,
+      "token": 36,
+      "word": "may",
+      "ja": "〜かもしれない・〜することがありうる",
+      "note": "助動詞 may。推量・可能性を表す。"
+    },
+    {
+      "day": 15,
+      "paragraph": 48,
+      "token": 32,
+      "word": "tis",
+      "ja": "〜である・〜だ",
+      "note": "古風な省略形 'tis＝it is。音階名 ti（シ）ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 51,
+      "token": 26,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 53,
+      "token": 3,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 53,
+      "token": 12,
+      "word": "fairest",
+      "ja": "最も美しい",
+      "note": "fair（美しい）の最上級。美の審判の文脈。品評会（fair）ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 55,
+      "token": 25,
+      "word": "paris",
+      "ja": "パリス（トロイアの王子）",
+      "note": "ギリシア神話のパリス。パリスの審判の審判者。フランスの首都ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 55,
+      "token": 93,
+      "word": "lot",
+      "ja": "たくさん（a lot of）",
+      "note": "a lot of cows＝たくさんの牛。単独の lot（くじ）ではない。"
+    },
+    {
+      "day": 15,
+      "paragraph": 63,
+      "token": 25,
+      "word": "rest",
+      "ja": "そのほかのこと",
+      "note": "for the rest＝残ることについては。"
+    },
+    {
+      "day": 15,
+      "paragraph": 67,
+      "token": 44,
+      "word": "may",
+      "ja": "〜してもよい・〜できる",
+      "note": "助動詞 may。許可・可能を表す。"
+    },
+    {
+      "day": 16,
+      "paragraph": 1,
+      "token": 115,
+      "word": "even",
+      "ja": "〜でさえ・〜も・までも",
+      "note": "強調の副詞。even at night＝夜でさえ、even with＝〜を加えてさえ。"
+    },
+    {
+      "day": 16,
+      "paragraph": 3,
+      "token": 104,
+      "word": "bolt",
+      "ja": "雷霆・雷撃",
+      "note": "ゼウスが放つ雷の一撃。締結部品のボルトではない。"
+    },
+    {
+      "day": 17,
+      "paragraph": 3,
+      "token": 239,
+      "word": "argos",
+      "ja": "アルゴス（ギリシアの地名）",
+      "note": "ダナエを探しに訪れる土地・都市アルゴス。船のアルゴ号（Argo）ではない。"
+    },
+    {
+      "day": 17,
+      "paragraph": 3,
+      "token": 277,
+      "word": "being",
+      "ja": "売られること",
+      "note": "being sold＝売られること（受動態）。"
+    },
+    {
+      "day": 17,
+      "paragraph": 3,
+      "token": 282,
+      "word": "master",
+      "ja": "主人",
+      "note": "a new master＝新しい主人。"
+    },
+    {
+      "day": 17,
+      "paragraph": 4,
+      "token": 20,
+      "word": "argos",
+      "ja": "アルゴス（ギリシアの地名）",
+      "note": "ダナエを探しに訪れる土地・都市アルゴス。船のアルゴ号（Argo）ではない。"
+    },
+    {
+      "day": 18,
+      "paragraph": 1,
+      "token": 18,
+      "word": "car",
+      "ja": "車・戦車（神の乗り物）",
+      "note": "セレネや太陽神が操る天空の車・戦車。現代の自動車・電車ではない。"
+    },
+    {
+      "day": 18,
+      "paragraph": 4,
+      "token": 91,
+      "word": "charge",
+      "ja": "責任・管理・担当",
+      "note": "in charge (of)＝（〜を）担当・管理して。料金・請求ではない。"
+    },
+    {
+      "day": 18,
+      "paragraph": 4,
+      "token": 141,
+      "word": "being",
+      "ja": "投げ出されること",
+      "note": "being thrown out＝外へ投げ出されること（受動態）。"
+    },
+    {
+      "day": 18,
+      "paragraph": 5,
+      "token": 74,
+      "word": "car",
+      "ja": "車・戦車（神の乗り物）",
+      "note": "セレネや太陽神が操る天空の車・戦車。現代の自動車・電車ではない。"
+    },
+    {
+      "day": 19,
+      "paragraph": 1,
+      "token": 11,
+      "word": "castor",
+      "ja": "カストル（神話の双子の一人）",
+      "note": "ポルックスと対になる双子カストル。ここでは caster の異綴りではない。"
+    },
+    {
+      "day": 19,
+      "paragraph": 2,
+      "token": 3,
+      "word": "castor",
+      "ja": "カストル（神話の双子の一人）",
+      "note": "ポルックスと対になる双子カストル。ここでは caster の異綴りではない。"
+    },
+    {
+      "day": 19,
+      "paragraph": 4,
+      "token": 31,
+      "word": "castor",
+      "ja": "カストル（神話の双子の一人）",
+      "note": "ポルックスと対になる双子カストル。ここでは caster の異綴りではない。"
+    },
+    {
+      "day": 19,
+      "paragraph": 5,
+      "token": 37,
+      "word": "castor",
+      "ja": "カストル（神話の双子の一人）",
+      "note": "ポルックスと対になる双子カストル。ここでは caster の異綴りではない。"
+    },
+    {
+      "day": 19,
+      "paragraph": 5,
+      "token": 39,
+      "word": "castor",
+      "ja": "カストル（神話の双子の一人）",
+      "note": "ポルックスと対になる双子カストル。ここでは caster の異綴りではない。"
+    }
+  ]
+}
