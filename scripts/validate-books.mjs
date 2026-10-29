@@ -426,6 +426,10 @@ if(lucianBook?.glossaryData){
       "Lucian vocabulary has a Japanese meaning and a note: "+key);
     lookup.set(key,entry);
   }
+  // Regression: "us" in "to vex us" is the object pronoun, never the U.S. abbreviation.
+  const usEntry=lookup.get("us");
+  check(!!usEntry&&usEntry.ja.includes("私たち")&&!/United States|合衆国/i.test(usEntry.ja),
+    "Lucian us must mean first-person plural object pronoun, not United States");
   check(textDays.length===19,"Lucian consists of 19 dialogues from the English source edition");
   const source=scriptMatch?.[1]||"";
   const start=source.indexOf("function splitDialogueChunks(");
