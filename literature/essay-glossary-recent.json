@@ -2238,5 +2238,957 @@
     "lemma": "yen",
     "form": "",
     "note": "yen：この文脈では「円」"
+  },
+  {
+    "word": "adjusting",
+    "ja": "調整すること",
+    "pos": "語句",
+    "lemma": "adjusting",
+    "form": "",
+    "note": "adjusting：この文脈では「調整すること」"
+  },
+  {
+    "word": "ancient",
+    "ja": "古くからの",
+    "pos": "語句",
+    "lemma": "ancient",
+    "form": "",
+    "note": "ancient：この文脈では「古くからの」"
+  },
+  {
+    "word": "anecdotes",
+    "ja": "逸話",
+    "pos": "語句",
+    "lemma": "anecdotes",
+    "form": "",
+    "note": "anecdotes：この文脈では「逸話」"
+  },
+  {
+    "word": "archive",
+    "ja": "圧縮ファイル",
+    "pos": "語句",
+    "lemma": "archive",
+    "form": "",
+    "note": "archive：この文脈では「圧縮ファイル」"
+  },
+  {
+    "word": "arguments",
+    "ja": "議論",
+    "pos": "語句",
+    "lemma": "arguments",
+    "form": "",
+    "note": "arguments：この文脈では「議論」"
+  },
+  {
+    "word": "blueprint",
+    "ja": "設計図",
+    "pos": "語句",
+    "lemma": "blueprint",
+    "form": "",
+    "note": "blueprint：この文脈では「設計図」"
+  },
+  {
+    "word": "blunt",
+    "ja": "率直な",
+    "pos": "語句",
+    "lemma": "blunt",
+    "form": "",
+    "note": "blunt：この文脈では「率直な」"
+  },
+  {
+    "word": "books",
+    "ja": "書物",
+    "pos": "語句",
+    "lemma": "books",
+    "form": "",
+    "note": "books：この文脈では「書物」"
+  },
+  {
+    "word": "borrowed",
+    "ja": "借りた",
+    "pos": "語句",
+    "lemma": "borrowed",
+    "form": "",
+    "note": "borrowed：この文脈では「借りた」"
+  },
+  {
+    "word": "buddhist",
+    "ja": "仏教の",
+    "pos": "語句",
+    "lemma": "buddhist",
+    "form": "",
+    "note": "buddhist：この文脈では「仏教の」"
+  },
+  {
+    "word": "category",
+    "ja": "分類",
+    "pos": "語句",
+    "lemma": "category",
+    "form": "",
+    "note": "category：この文脈では「分類」"
+  },
+  {
+    "word": "causation",
+    "ja": "因果関係",
+    "pos": "語句",
+    "lemma": "causation",
+    "form": "",
+    "note": "causation：この文脈では「因果関係」"
+  },
+  {
+    "word": "checking",
+    "ja": "確認すること",
+    "pos": "語句",
+    "lemma": "checking",
+    "form": "",
+    "note": "checking：この文脈では「確認すること」"
+  },
+  {
+    "word": "checklist",
+    "ja": "チェック項目",
+    "pos": "語句",
+    "lemma": "checklist",
+    "form": "",
+    "note": "checklist：この文脈では「チェック項目」"
+  },
+  {
+    "word": "chinese",
+    "ja": "漢文・中国語",
+    "pos": "語句",
+    "lemma": "chinese",
+    "form": "",
+    "note": "chinese：この文脈では「漢文・中国語」"
+  },
+  {
+    "word": "cinemas",
+    "ja": "映画館",
+    "pos": "語句",
+    "lemma": "cinemas",
+    "form": "",
+    "note": "cinemas：この文脈では「映画館」"
+  },
+  {
+    "word": "classical",
+    "ja": "古典の",
+    "pos": "語句",
+    "lemma": "classical",
+    "form": "",
+    "note": "classical：この文脈では「古典の」"
+  },
+  {
+    "word": "classifying",
+    "ja": "分類すること",
+    "pos": "語句",
+    "lemma": "classifying",
+    "form": "",
+    "note": "classifying：この文脈では「分類すること」"
+  },
+  {
+    "word": "coherence",
+    "ja": "一貫性",
+    "pos": "語句",
+    "lemma": "coherence",
+    "form": "",
+    "note": "coherence：この文脈では「一貫性」"
+  },
+  {
+    "word": "concept",
+    "ja": "概念",
+    "pos": "語句",
+    "lemma": "concept",
+    "form": "",
+    "note": "concept：この文脈では「概念」"
+  },
+  {
+    "word": "concepts",
+    "ja": "概念",
+    "pos": "語句",
+    "lemma": "concepts",
+    "form": "",
+    "note": "concepts：この文脈では「概念」"
+  },
+  {
+    "word": "connection",
+    "ja": "接続",
+    "pos": "語句",
+    "lemma": "connection",
+    "form": "",
+    "note": "connection：この文脈では「接続」"
+  },
+  {
+    "word": "criteria",
+    "ja": "基準",
+    "pos": "語句",
+    "lemma": "criteria",
+    "form": "",
+    "note": "criteria：この文脈では「基準」"
+  },
+  {
+    "word": "decorative",
+    "ja": "装飾的な",
+    "pos": "語句",
+    "lemma": "decorative",
+    "form": "",
+    "note": "decorative：この文脈では「装飾的な」"
+  },
+  {
+    "word": "definition",
+    "ja": "定義",
+    "pos": "語句",
+    "lemma": "definition",
+    "form": "",
+    "note": "definition：この文脈では「定義」"
+  },
+  {
+    "word": "demanding",
+    "ja": "要求すること",
+    "pos": "語句",
+    "lemma": "demanding",
+    "form": "",
+    "note": "demanding：この文脈では「要求すること」"
+  },
+  {
+    "word": "department",
+    "ja": "百貨店",
+    "pos": "語句",
+    "lemma": "department",
+    "form": "",
+    "note": "department：この文脈では「百貨店」"
+  },
+  {
+    "word": "depth",
+    "ja": "奥行き",
+    "pos": "語句",
+    "lemma": "depth",
+    "form": "",
+    "note": "depth：この文脈では「奥行き」"
+  },
+  {
+    "word": "detects",
+    "ja": "検出する",
+    "pos": "語句",
+    "lemma": "detects",
+    "form": "",
+    "note": "detects：この文脈では「検出する」"
+  },
+  {
+    "word": "diagnosis",
+    "ja": "診断",
+    "pos": "語句",
+    "lemma": "diagnosis",
+    "form": "",
+    "note": "diagnosis：この文脈では「診断」"
+  },
+  {
+    "word": "diagnostic-sounding",
+    "ja": "診断めいた",
+    "pos": "語句",
+    "lemma": "diagnostic-sounding",
+    "form": "",
+    "note": "diagnostic-sounding：この文脈では「診断めいた」"
+  },
+  {
+    "word": "dimension",
+    "ja": "寸法",
+    "pos": "語句",
+    "lemma": "dimension",
+    "form": "",
+    "note": "dimension：この文脈では「寸法」"
+  },
+  {
+    "word": "disappointments",
+    "ja": "失望",
+    "pos": "語句",
+    "lemma": "disappointments",
+    "form": "",
+    "note": "disappointments：この文脈では「失望」"
+  },
+  {
+    "word": "earns",
+    "ja": "得る",
+    "pos": "語句",
+    "lemma": "earns",
+    "form": "",
+    "note": "earns：この文脈では「得る」"
+  },
+  {
+    "word": "emergency",
+    "ja": "非常時の",
+    "pos": "語句",
+    "lemma": "emergency",
+    "form": "",
+    "note": "emergency：この文脈では「非常時の」"
+  },
+  {
+    "word": "encountered",
+    "ja": "出会った",
+    "pos": "語句",
+    "lemma": "encountered",
+    "form": "",
+    "note": "encountered：この文脈では「出会った」"
+  },
+  {
+    "word": "entertainment",
+    "ja": "娯楽",
+    "pos": "語句",
+    "lemma": "entertainment",
+    "form": "",
+    "note": "entertainment：この文脈では「娯楽」"
+  },
+  {
+    "word": "establishing",
+    "ja": "確定すること",
+    "pos": "語句",
+    "lemma": "establishing",
+    "form": "",
+    "note": "establishing：この文脈では「確定すること」"
+  },
+  {
+    "word": "exhaustion",
+    "ja": "疲労",
+    "pos": "語句",
+    "lemma": "exhaustion",
+    "form": "",
+    "note": "exhaustion：この文脈では「疲労」"
+  },
+  {
+    "word": "fashionable",
+    "ja": "流行している",
+    "pos": "語句",
+    "lemma": "fashionable",
+    "form": "",
+    "note": "fashionable：この文脈では「流行している」"
+  },
+  {
+    "word": "fast",
+    "ja": "素早い",
+    "pos": "語句",
+    "lemma": "fast",
+    "form": "",
+    "note": "fast：この文脈では「素早い」"
+  },
+  {
+    "word": "festivals",
+    "ja": "祭り",
+    "pos": "語句",
+    "lemma": "festivals",
+    "form": "",
+    "note": "festivals：この文脈では「祭り」"
+  },
+  {
+    "word": "finding",
+    "ja": "研究結果",
+    "pos": "語句",
+    "lemma": "finding",
+    "form": "",
+    "note": "finding：この文脈では「研究結果」"
+  },
+  {
+    "word": "function",
+    "ja": "機能する",
+    "pos": "語句",
+    "lemma": "function",
+    "form": "",
+    "note": "function：この文脈では「機能する」"
+  },
+  {
+    "word": "generations",
+    "ja": "世代",
+    "pos": "語句",
+    "lemma": "generations",
+    "form": "",
+    "note": "generations：この文脈では「世代」"
+  },
+  {
+    "word": "genuine",
+    "ja": "本物の",
+    "pos": "語句",
+    "lemma": "genuine",
+    "form": "",
+    "note": "genuine：この文脈では「本物の」"
+  },
+  {
+    "word": "giving",
+    "ja": "与えること",
+    "pos": "語句",
+    "lemma": "giving",
+    "form": "",
+    "note": "giving：この文脈では「与えること」"
+  },
+  {
+    "word": "glamorous",
+    "ja": "華やかな",
+    "pos": "語句",
+    "lemma": "glamorous",
+    "form": "",
+    "note": "glamorous：この文脈では「華やかな」"
+  },
+  {
+    "word": "hypothesis",
+    "ja": "仮説",
+    "pos": "語句",
+    "lemma": "hypothesis",
+    "form": "",
+    "note": "hypothesis：この文脈では「仮説」"
+  },
+  {
+    "word": "inspection",
+    "ja": "検査",
+    "pos": "語句",
+    "lemma": "inspection",
+    "form": "",
+    "note": "inspection：この文脈では「検査」"
+  },
+  {
+    "word": "intimidation",
+    "ja": "威圧",
+    "pos": "語句",
+    "lemma": "intimidation",
+    "form": "",
+    "note": "intimidation：この文脈では「威圧」"
+  },
+  {
+    "word": "itinerary",
+    "ja": "旅程",
+    "pos": "語句",
+    "lemma": "itinerary",
+    "form": "",
+    "note": "itinerary：この文脈では「旅程」"
+  },
+  {
+    "word": "learn",
+    "ja": "学ぶ",
+    "pos": "語句",
+    "lemma": "learn",
+    "form": "",
+    "note": "learn：この文脈では「学ぶ」"
+  },
+  {
+    "word": "literary",
+    "ja": "文学の",
+    "pos": "語句",
+    "lemma": "literary",
+    "form": "",
+    "note": "literary：この文脈では「文学の」"
+  },
+  {
+    "word": "live",
+    "ja": "生きる",
+    "pos": "語句",
+    "lemma": "live",
+    "form": "",
+    "note": "live：この文脈では「生きる」"
+  },
+  {
+    "word": "loop",
+    "ja": "循環",
+    "pos": "語句",
+    "lemma": "loop",
+    "form": "",
+    "note": "loop：この文脈では「循環」"
+  },
+  {
+    "word": "mistranslated",
+    "ja": "誤訳された",
+    "pos": "語句",
+    "lemma": "mistranslated",
+    "form": "",
+    "note": "mistranslated：この文脈では「誤訳された」"
+  },
+  {
+    "word": "modern",
+    "ja": "近代の",
+    "pos": "語句",
+    "lemma": "modern",
+    "form": "",
+    "note": "modern：この文脈では「近代の」"
+  },
+  {
+    "word": "narrative",
+    "ja": "物語",
+    "pos": "語句",
+    "lemma": "narrative",
+    "form": "",
+    "note": "narrative：この文脈では「物語」"
+  },
+  {
+    "word": "neighboring",
+    "ja": "隣接する",
+    "pos": "語句",
+    "lemma": "neighboring",
+    "form": "",
+    "note": "neighboring：この文脈では「隣接する」"
+  },
+  {
+    "word": "nothingness",
+    "ja": "無・虚無",
+    "pos": "語句",
+    "lemma": "nothingness",
+    "form": "",
+    "note": "nothingness：この文脈では「無・虚無」"
+  },
+  {
+    "word": "offer",
+    "ja": "与える",
+    "pos": "語句",
+    "lemma": "offer",
+    "form": "",
+    "note": "offer：この文脈では「与える」"
+  },
+  {
+    "word": "omits",
+    "ja": "省く",
+    "pos": "語句",
+    "lemma": "omits",
+    "form": "",
+    "note": "omits：この文脈では「省く」"
+  },
+  {
+    "word": "opens",
+    "ja": "開く",
+    "pos": "語句",
+    "lemma": "opens",
+    "form": "",
+    "note": "opens：この文脈では「開く」"
+  },
+  {
+    "word": "pain",
+    "ja": "苦しみ",
+    "pos": "語句",
+    "lemma": "pain",
+    "form": "",
+    "note": "pain：この文脈では「苦しみ」"
+  },
+  {
+    "word": "playable",
+    "ja": "遊べる",
+    "pos": "語句",
+    "lemma": "playable",
+    "form": "",
+    "note": "playable：この文脈では「遊べる」"
+  },
+  {
+    "word": "poem",
+    "ja": "詩",
+    "pos": "語句",
+    "lemma": "poem",
+    "form": "",
+    "note": "poem：この文脈では「詩」"
+  },
+  {
+    "word": "poet",
+    "ja": "詩人",
+    "pos": "語句",
+    "lemma": "poet",
+    "form": "",
+    "note": "poet：この文脈では「詩人」"
+  },
+  {
+    "word": "poetry",
+    "ja": "詩",
+    "pos": "語句",
+    "lemma": "poetry",
+    "form": "",
+    "note": "poetry：この文脈では「詩」"
+  },
+  {
+    "word": "poets",
+    "ja": "詩人たち",
+    "pos": "語句",
+    "lemma": "poets",
+    "form": "",
+    "note": "poets：この文脈では「詩人たち」"
+  },
+  {
+    "word": "post",
+    "ja": "投稿",
+    "pos": "語句",
+    "lemma": "post",
+    "form": "",
+    "note": "post：この文脈では「投稿」"
+  },
+  {
+    "word": "prettier",
+    "ja": "より美しく",
+    "pos": "語句",
+    "lemma": "prettier",
+    "form": "",
+    "note": "prettier：この文脈では「より美しく」"
+  },
+  {
+    "word": "pronoun",
+    "ja": "代名詞",
+    "pos": "語句",
+    "lemma": "pronoun",
+    "form": "",
+    "note": "pronoun：この文脈では「代名詞」"
+  },
+  {
+    "word": "protecting",
+    "ja": "守ること",
+    "pos": "語句",
+    "lemma": "protecting",
+    "form": "",
+    "note": "protecting：この文脈では「守ること」"
+  },
+  {
+    "word": "psychological",
+    "ja": "心理学の",
+    "pos": "語句",
+    "lemma": "psychological",
+    "form": "",
+    "note": "psychological：この文脈では「心理学の」"
+  },
+  {
+    "word": "recent",
+    "ja": "最近の",
+    "pos": "語句",
+    "lemma": "recent",
+    "form": "",
+    "note": "recent：この文脈では「最近の」"
+  },
+  {
+    "word": "recital",
+    "ja": "朗読会",
+    "pos": "語句",
+    "lemma": "recital",
+    "form": "",
+    "note": "recital：この文脈では「朗読会」"
+  },
+  {
+    "word": "recognizing",
+    "ja": "認識すること",
+    "pos": "語句",
+    "lemma": "recognizing",
+    "form": "",
+    "note": "recognizing：この文脈では「認識すること」"
+  },
+  {
+    "word": "regional",
+    "ja": "地方の",
+    "pos": "語句",
+    "lemma": "regional",
+    "form": "",
+    "note": "regional：この文脈では「地方の」"
+  },
+  {
+    "word": "reject",
+    "ja": "退ける",
+    "pos": "語句",
+    "lemma": "reject",
+    "form": "",
+    "note": "reject：この文脈では「退ける」"
+  },
+  {
+    "word": "relief",
+    "ja": "安堵",
+    "pos": "語句",
+    "lemma": "relief",
+    "form": "",
+    "note": "relief：この文脈では「安堵」"
+  },
+  {
+    "word": "reorganize",
+    "ja": "組み替える",
+    "pos": "語句",
+    "lemma": "reorganize",
+    "form": "",
+    "note": "reorganize：この文脈では「組み替える」"
+  },
+  {
+    "word": "repeatability",
+    "ja": "再現性",
+    "pos": "語句",
+    "lemma": "repeatability",
+    "form": "",
+    "note": "repeatability：この文脈では「再現性」"
+  },
+  {
+    "word": "replies",
+    "ja": "返事",
+    "pos": "語句",
+    "lemma": "replies",
+    "form": "",
+    "note": "replies：この文脈では「返事」"
+  },
+  {
+    "word": "reproducible",
+    "ja": "再現可能な",
+    "pos": "語句",
+    "lemma": "reproducible",
+    "form": "",
+    "note": "reproducible：この文脈では「再現可能な」"
+  },
+  {
+    "word": "reshape",
+    "ja": "作り直す",
+    "pos": "語句",
+    "lemma": "reshape",
+    "form": "",
+    "note": "reshape：この文脈では「作り直す」"
+  },
+  {
+    "word": "residents",
+    "ja": "住民",
+    "pos": "語句",
+    "lemma": "residents",
+    "form": "",
+    "note": "residents：この文脈では「住民」"
+  },
+  {
+    "word": "responses",
+    "ja": "反応",
+    "pos": "語句",
+    "lemma": "responses",
+    "form": "",
+    "note": "responses：この文脈では「反応」"
+  },
+  {
+    "word": "rests",
+    "ja": "依拠する",
+    "pos": "語句",
+    "lemma": "rests",
+    "form": "",
+    "note": "rests：この文脈では「依拠する」"
+  },
+  {
+    "word": "reviewing",
+    "ja": "見直すこと",
+    "pos": "語句",
+    "lemma": "reviewing",
+    "form": "",
+    "note": "reviewing：この文脈では「見直すこと」"
+  },
+  {
+    "word": "revisable",
+    "ja": "修正可能な",
+    "pos": "語句",
+    "lemma": "revisable",
+    "form": "",
+    "note": "revisable：この文脈では「修正可能な」"
+  },
+  {
+    "word": "rigor",
+    "ja": "厳密さ",
+    "pos": "語句",
+    "lemma": "rigor",
+    "form": "",
+    "note": "rigor：この文脈では「厳密さ」"
+  },
+  {
+    "word": "scale",
+    "ja": "尺度",
+    "pos": "語句",
+    "lemma": "scale",
+    "form": "",
+    "note": "scale：この文脈では「尺度」"
+  },
+  {
+    "word": "scattered",
+    "ja": "散らばった",
+    "pos": "語句",
+    "lemma": "scattered",
+    "form": "",
+    "note": "scattered：この文脈では「散らばった」"
+  },
+  {
+    "word": "schooling",
+    "ja": "教育",
+    "pos": "語句",
+    "lemma": "schooling",
+    "form": "",
+    "note": "schooling：この文脈では「教育」"
+  },
+  {
+    "word": "shopping",
+    "ja": "商店街の",
+    "pos": "語句",
+    "lemma": "shopping",
+    "form": "",
+    "note": "shopping：この文脈では「商店街の」"
+  },
+  {
+    "word": "sightseeing",
+    "ja": "観光",
+    "pos": "語句",
+    "lemma": "sightseeing",
+    "form": "",
+    "note": "sightseeing：この文脈では「観光」"
+  },
+  {
+    "word": "silences",
+    "ja": "黙らせる",
+    "pos": "語句",
+    "lemma": "silences",
+    "form": "",
+    "note": "silences：この文脈では「黙らせる」"
+  },
+  {
+    "word": "skilled",
+    "ja": "熟達した",
+    "pos": "語句",
+    "lemma": "skilled",
+    "form": "",
+    "note": "skilled：この文脈では「熟達した」"
+  },
+  {
+    "word": "sometimes",
+    "ja": "時には",
+    "pos": "語句",
+    "lemma": "sometimes",
+    "form": "",
+    "note": "sometimes：この文脈では「時には」"
+  },
+  {
+    "word": "spending",
+    "ja": "費やすこと",
+    "pos": "語句",
+    "lemma": "spending",
+    "form": "",
+    "note": "spending：この文脈では「費やすこと」"
+  },
+  {
+    "word": "stitch",
+    "ja": "縫い合わせる",
+    "pos": "語句",
+    "lemma": "stitch",
+    "form": "",
+    "note": "stitch：この文脈では「縫い合わせる」"
+  },
+  {
+    "word": "stores",
+    "ja": "店舗・百貨店",
+    "pos": "語句",
+    "lemma": "stores",
+    "form": "",
+    "note": "stores：この文脈では「店舗・百貨店」"
+  },
+  {
+    "word": "subjects",
+    "ja": "対象者",
+    "pos": "語句",
+    "lemma": "subjects",
+    "form": "",
+    "note": "subjects：この文脈では「対象者」"
+  },
+  {
+    "word": "submission",
+    "ja": "服従",
+    "pos": "語句",
+    "lemma": "submission",
+    "form": "",
+    "note": "submission：この文脈では「服従」"
+  },
+  {
+    "word": "supervisor",
+    "ja": "監督者",
+    "pos": "語句",
+    "lemma": "supervisor",
+    "form": "",
+    "note": "supervisor：この文脈では「監督者」"
+  },
+  {
+    "word": "surrounding",
+    "ja": "取り巻く",
+    "pos": "語句",
+    "lemma": "surrounding",
+    "form": "",
+    "note": "surrounding：この文脈では「取り巻く」"
+  },
+  {
+    "word": "teaches",
+    "ja": "教える",
+    "pos": "語句",
+    "lemma": "teaches",
+    "form": "",
+    "note": "teaches：この文脈では「教える」"
+  },
+  {
+    "word": "tendencies",
+    "ja": "傾向",
+    "pos": "語句",
+    "lemma": "tendencies",
+    "form": "",
+    "note": "tendencies：この文脈では「傾向」"
+  },
+  {
+    "word": "texture",
+    "ja": "手触り",
+    "pos": "語句",
+    "lemma": "texture",
+    "form": "",
+    "note": "texture：この文脈では「手触り」"
+  },
+  {
+    "word": "tour",
+    "ja": "ツアー",
+    "pos": "語句",
+    "lemma": "tour",
+    "form": "",
+    "note": "tour：この文脈では「ツアー」"
+  },
+  {
+    "word": "traditions",
+    "ja": "伝統",
+    "pos": "語句",
+    "lemma": "traditions",
+    "form": "",
+    "note": "traditions：この文脈では「伝統」"
+  },
+  {
+    "word": "unfold",
+    "ja": "広げる",
+    "pos": "語句",
+    "lemma": "unfold",
+    "form": "",
+    "note": "unfold：この文脈では「広げる」"
+  },
+  {
+    "word": "unlike",
+    "ja": "〜とは違って",
+    "pos": "語句",
+    "lemma": "unlike",
+    "form": "",
+    "note": "unlike：この文脈では「〜とは違って」"
+  },
+  {
+    "word": "viral",
+    "ja": "拡散した",
+    "pos": "語句",
+    "lemma": "viral",
+    "form": "",
+    "note": "viral：この文脈では「拡散した」"
+  },
+  {
+    "word": "vocabulary",
+    "ja": "語彙",
+    "pos": "語句",
+    "lemma": "vocabulary",
+    "form": "",
+    "note": "vocabulary：この文脈では「語彙」"
+  },
+  {
+    "word": "withdraw",
+    "ja": "退く",
+    "pos": "語句",
+    "lemma": "withdraw",
+    "form": "",
+    "note": "withdraw：この文脈では「退く」"
+  },
+  {
+    "word": "writers",
+    "ja": "作家たち",
+    "pos": "語句",
+    "lemma": "writers",
+    "form": "",
+    "note": "writers：この文脈では「作家たち」"
+  },
+  {
+    "word": "yourself",
+    "ja": "自分自身",
+    "pos": "語句",
+    "lemma": "yourself",
+    "form": "",
+    "note": "yourself：この文脈では「自分自身」"
   }
 ]
