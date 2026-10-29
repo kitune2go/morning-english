@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 156,
+    "_generatedAt": "2026-10-30T02:02:44+09:00",
+    "sentence": "AI depends on chips, memory, computation, and heat management; difficulty explaining a system does not prove that the system is impossible to explain.",
+    "phonetic": "エーアイ ディペンズ オン チップス、メモリー、コンピュテイション、アンド ヒート マネジメント；ディフィカルティ エクスプレイニング ア システム ダズ ノット プルーヴ ザット ザ システム イズ インポッシブル トゥ エクスプレイン。",
+    "japaneseTranslation": "AIは半導体、記憶、計算、熱管理に依存しています。あるシステムを説明するのが難しいことは、そのシステムが説明不可能だと証明するものではありません。",
+    "theme": "AIの物理基盤と説明限界を区別する",
+    "coreVerb": "prove",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "AI depends.",
+        "translation": "AIは依存する。"
+      },
+      "phase2": {
+        "sentence": "AI depends on physical resources.",
+        "translation": "AIは物理的資源に依存する。",
+        "addedChunks": "前置詞句(on physical resources)を追加"
+      },
+      "phase3": {
+        "sentence": "AI is physical because it depends on chips and computation.",
+        "translation": "AIは半導体と計算に依存するため物理的だ。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Explaining AI is harder than listing its physical components.",
+        "translation": "AIを説明することは、その物理的構成要素を列挙するより難しい。",
+        "comparison": "harder than"
+      },
+      "phase5": {
+        "sentence": "AI depends on chips, memory, computation, and heat management; difficulty explaining a system does not prove",
+        "translation": "AIは半導体、記憶、計算、熱管理に依存している。あるシステムを説明する難しさは、証明するものではない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "AI depends on",
+          "function": "行動",
+          "translation": "AIは〜に依存する"
+        },
+        {
+          "text": "chips, memory, computation, and heat management",
+          "function": "対象",
+          "translation": "半導体、記憶、計算、熱管理に"
+        },
+        {
+          "text": "difficulty explaining a system",
+          "function": "内容",
+          "translation": "あるシステムを説明する難しさは"
+        },
+        {
+          "text": "does not prove",
+          "function": "行動",
+          "translation": "証明しない"
+        },
+        {
+          "text": "that the system is impossible",
+          "function": "対象",
+          "translation": "そのシステムが不可能だと"
+        },
+        {
+          "text": "to explain",
+          "function": "修飾",
+          "translation": "説明することが"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "語法",
+          "name": "depend on",
+          "where": "depends on chips",
+          "explanation": "依存先を前置詞onで示す。",
+          "rule": "depend on + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "列挙のand",
+          "where": "chips, memory, computation, and heat management",
+          "explanation": "四つの物理的要素・運用条件を並列する。",
+          "rule": "A, B, C, and D"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "management; difficulty",
+          "explanation": "密接に関係する独立節を接続する。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "名詞句",
+          "name": "difficulty + -ing",
+          "where": "difficulty explaining a system",
+          "explanation": "ある行為の難しさを表す。",
+          "rule": "difficulty + 動名詞"
+        },
+        {
+          "category": "否定",
+          "name": "does not + 原形",
+          "where": "does not prove",
+          "explanation": "三人称単数の現在形を否定する。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "名詞節",
+          "name": "that節",
+          "where": "that the system is impossible",
+          "explanation": "proveの内容をthat節で示す。",
+          "rule": "prove that + 節"
+        },
+        {
+          "category": "不定詞",
+          "name": "形容詞 + to不定詞",
+          "where": "impossible to explain",
+          "explanation": "何をすることが不可能なのかを補う。",
+          "rule": "形容詞 + to + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "AI depends of chips and memory.",
+          "correct": "AI depends on chips and memory.",
+          "why": "dependの依存先にはonを使う。"
+        },
+        {
+          "wrong": "Difficulty to explain a system do not prove anything.",
+          "correct": "Difficulty explaining a system does not prove anything.",
+          "why": "difficultyの後は動名詞が自然で、単数主語にはdoesを使う。"
+        },
+        {
+          "wrong": "The system is impossible explaining.",
+          "correct": "The system is impossible to explain.",
+          "why": "impossibleの後はto不定詞で内容を補う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "AI runs on physical infrastructure.",
+          "translation": "AIは物理的な基盤の上で動く。"
+        },
+        {
+          "text": "A hard explanation is not the same as an impossible explanation.",
+          "translation": "説明が難しいことと、説明不可能であることは同じではない。"
+        },
+        {
+          "text": "Uncertainty does not establish impossibility.",
+          "translation": "不確かさは不可能性を立証しない。"
+        }
+      ],
+      "parseTree": "S(AI) V(depends) [Prep(on) O(chips, memory, computation, and heat)]; S(difficulty explaining a system) Aux(does not) V(prove) O([that S(the system) V(is) C(impossible to explain)])."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "does not prove that",
+          "expanded": "therefore cannot establish that",
+          "nuance": "thereforeを加え、前半との推論関係を明示する。"
+        },
+        {
+          "original": "does not prove that",
+          "expanded": "which does not mean that",
+          "nuance": "観察から結論への飛躍を柔らかく否定する。"
+        },
+        {
+          "original": "does not prove that",
+          "expanded": "so we should not conclude that",
+          "nuance": "証拠不足から導かれる実践的注意へ言い換える。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The impossibility of explaining the system is not proved by our present difficulty.",
+          "translation": "そのシステムが説明不可能だということは、現在の難しさによって証明されない。",
+          "note": "結論側を主語にして証明の不足へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Depending on physical resources, AI remains a material process.",
+          "translation": "物理的資源に依存しているため、AIは物質的な過程であり続ける。",
+          "note": "依存関係を-ing句で理由として示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The difficulty of explanation is not evidence of impossibility.",
+          "translation": "説明の難しさは不可能性の証拠ではない。",
+          "note": "explainとimpossibleを名詞化して対照を圧縮する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "prove",
+            "alternatives": [
+              "demonstrate",
+              "establish",
+              "show"
+            ],
+            "nuance": "proveは結論を確定する強い語。demonstrateは実証、establishは根拠を固め、showはより広い提示。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "区別",
+            "sentence": "Not being able to explain a system yet is different from showing that it cannot be explained.",
+            "translation": "まだ説明できないことは、説明不可能だと示すこととは異なる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A complex system may be harder to explain than its components are to list.",
+            "translation": "複雑なシステムは、構成要素を列挙するより説明する方が難しいことがある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If an explanation is incomplete, we should identify the missing step before declaring impossibility.",
+            "translation": "説明が不完全なら、不可能だと宣言する前に欠けた段階を特定すべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is whether impossibility has been demonstrated, not whether explanation is difficult.",
+            "translation": "重要なのは説明が難しいかではなく、不可能性が実証されたかどうかだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Explanatory difficulty is not impossibility.",
+            "translation": "説明の難しさは不可能性ではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 8,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "物理基盤と認識上の限界をセミコロンで対照した文。difficulty explainingは自然だが、前半の列挙が技術的で会話用途は限られるためflexibilityとefficiencyを8とした。"
+    }
+  }
+]
