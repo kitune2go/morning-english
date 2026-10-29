@@ -281,6 +281,8 @@ imagePrompt は残す
 
 **収録作品：ルキアノス『神々の対話』** — ファウラー兄弟の1905年英訳に収録された19篇・238発言・585チャンクに**チャンク単位の日本語対訳を全件登録**。対訳は章ごとに `books/lucian-dialogues-of-the-gods/chunk-translations/day-NN.json` に保管し、`books.html` の「解説を表示」で各英文の直下に対応訳・全単語と用法メモを表示します。段落全体の日本語訳も従来どおり利用できます。全1,752種類の語形を網羅する辞書は一般的な語義も含むため、読み取りの際は文脈に照らしてください。英語原文の復元と原集26篇中7篇の未収録という制約は従来どおりです。
 
+**『神々の対話』の文脈別単語訳：** `books/lucian-dialogues-of-the-gods/context-glossary.json` は、`day`（対話篇番号・1始まり）、`paragraph`（発言番号・1始まり）、`token`（発言全文の英単語位置・0始まり）で語義を特定します。読書画面はこの訳を `glossary.json` の一般語義より優先表示します。チャンク間で単語番号はリセットしません。2026-10-29の監査で多義語・神話固有名詞など24語の延べ90出現に文脈訳を追加し、基本辞書30項目も校正しました。`node scripts/validate-books.mjs` は出現位置・語形・優先表示・全チャンクの原文復元を検証します。未注釈語の訳は引き続き校正対象です。
+
 **新作登録方法：** `books/slug/days.json` を作り、`books-manifest.json` に `id/title/titleJa/author/description/data/sourceUrl` を登録。日次データは `{day,title,wordCount,paragraphs,jp,chunks,grammar,vocabulary,readingPoint,paragraphDetails}`。翻訳がない日は`jp: []`とします。著作権・原文の利用条件は作品ごとに確認してください。
 
 ### 全段落注釈のデータ設計
