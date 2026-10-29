@@ -430,6 +430,55 @@ if(lucianBook?.glossaryData){
   const usEntry=lookup.get("us");
   check(!!usEntry&&usEntry.ja.includes("私たち")&&!/United States|合衆国/i.test(usEntry.ja),
     "Lucian us must mean first-person plural object pronoun, not United States");
+  // Every audited word occurrence must have an explicit, position-checked context gloss.
+  const contextPath=lucianBook.contextGlossaryData;
+  check(!!contextPath,"Lucian has a contextual glossary dataset");
+  const contextData=contextPath?file(contextPath):{schemaVersion:0,entries:[]};
+  check(contextData.schemaVersion===1&&Array.isArray(contextData.entries),"Lucian context glossary schema is valid");
+  const contextLookup=new Map();
+  const auditedWords=new Set([
+    "may","even","being","lies","bore","stole","tis","twill","paris","rhea",
+    "castor","hyacinth","muses","argos","dames","fairest","car","bolt","lot",
+    "rest","bound","master","charge","anyhow"
+  ]);
+  const tokenReLucian=/[\p{L}]+(?:['’\-][\p{L}]+)*/gu;
+  for(const item of contextData.entries||[]){
+    const key=item.day+":"+item.paragraph+":"+item.token;
+    check(!contextLookup.has(key),"Lucian contextual meaning unique index "+key);
+    const paragraph=textDays[item.day-1]?.paragraphs?.[item.paragraph-1];
+    const token=typeof paragraph==="string"?(paragraph.match(tokenReLucian)||[])[item.token]:undefined;
+    check(token?.toLowerCase().replace(/’/g,"'")===item.word&&auditedWords.has(item.word),
+      "Lucian contextual meaning matches original token "+key);
+    check(typeof item.ja==="string"&&item.ja.length>0&&typeof item.note==="string"&&item.note.length>0,
+      "Lucian contextual meaning has translation and usage "+key);
+    contextLookup.set(key,item);
+  }
+  let expectedContextCount=0;
+  for(const day of textDays){
+    for(const [pi,paragraph] of day.paragraphs.entries()){
+      for(const [ti,token] of (paragraph.match(tokenReLucian)||[]).entries()){
+        if(!auditedWords.has(token.toLowerCase().replace(/’/g,"'")))continue;
+        expectedContextCount++;
+        check(contextLookup.has(day.day+":"+(pi+1)+":"+ti),
+          "Lucian audited word has a contextual meaning "+day.day+":"+(pi+1)+":"+ti);
+      }
+    }
+  }
+  check(expectedContextCount===90&&contextLookup.size===90&&auditedWords.size===24,
+    "Lucian all 90 occurrences of the 24 audited words are annotated");
+  const baselineGlosses={
+    may:"〜かもしれない", even:"〜でさえ", being:"〜であること", lies:"横たわっている",
+    bore:"運んだ", stole:"盗んだ", tis:"〜である", twill:"〜するだろう",
+    paris:"パリス", rhea:"レア", castor:"カストル", hyacinth:"ヒュアキントス",
+    muses:"ムーサ", argos:"アルゴス", dames:"婦人", fairest:"最も美しい",
+    car:"車", bolt:"雷霆", lot:"たくさん", rest:"残り", bound:"〜へ向かう",
+    master:"主人", charge:"責任", anyhow:"それでも"
+  };
+  for(const [word,expected] of Object.entries(baselineGlosses)){
+    check(lookup.get(word)?.ja.startsWith(expected),"Lucian corrected base meaning "+word);
+  }
+  check(lookup.get("ap")?.ja.startsWith("アポロン")&&lookup.get("par")?.ja.startsWith("パリス")&&
+    lookup.get("prom")?.ja.startsWith("プロメテウス"),"Lucian speaker abbreviations avoid dictionary false friends");
   check(textDays.length===19,"Lucian consists of 19 dialogues from the English source edition");
   const source=scriptMatch?.[1]||"";
   const start=source.indexOf("function splitDialogueChunks(");
@@ -447,12 +496,18 @@ if(lucianBook?.glossaryData){
         check(alignment.day===day.day&&alignment.paragraphs.length===day.paragraphs.length,
           "Lucian Day "+day.day+" aligned translation data exists");
         day.chunkTranslations=alignment.paragraphs;
-        const details=build(day,lookup);
+        const details=build(day,lookup,contextLookup);
         check(details.length===day.paragraphs.length,"Lucian Day "+day.day+" paragraph coverage");
         details.forEach((detail,i)=>{
           paragraphs++;
           check(detail.chunks.length>0&&detail.chunks.map(c=>c.en).join("")===day.paragraphs[i],
             "Lucian Day "+day.day+" paragraph "+(i+1)+" exact source reconstruction");
+          const flatWords=detail.chunks.flatMap(c=>c.words);
+          flatWords.forEach((w,ti)=>{
+            const override=contextLookup.get(day.day+":"+(i+1)+":"+ti);
+            if(override)check(w.ja===override.ja&&w.note===override.note,
+              "Lucian reader prioritizes contextual translation "+day.day+":"+(i+1)+":"+ti);
+          });
           check(detail.summary&&detail.expressions.length>0&&detail.vocabulary.length>0,
             "Lucian Day "+day.day+" paragraph "+(i+1)+" reading notes");
           check(day.chunkTranslations[i].length===detail.chunks.length,
@@ -476,11 +531,11 @@ if(lucianBook?.glossaryData){
       check(forms.size===1752&&lookup.size===1752,"All 1,752 unique forms are glossed");
       check(complete===585&&pending===0,"All 585 chunks have explicit aligned Japanese translations");
       check(textDays.every(day=>day.jp.length===day.paragraphs.length),"All 19 Lucian dialogues have complete Japanese paragraph translations");
-      const ninth=build(textDays[8],lookup);
+      const ninth=build(textDays[8],lookup,contextLookup);
       check(ninth[7]?.chunks[0]?.words[0]?.ja.startsWith("ヘラクレス"),"Her. is Heracles in dialogue XIII");
-      const sixth=build(textDays[5],lookup);
+      const sixth=build(textDays[5],lookup,contextLookup);
       check(sixth[0]?.chunks[0]?.words[0]?.ja.startsWith("ヘパイストス"),"Restored opening speaker in dialogue VIII");
-      const first=build(textDays[0],lookup)[0].chunks[0];
+      const first=build(textDays[0],lookup,contextLookup)[0].chunks[0];
       check(first.words[0].ja.startsWith("プロメテウス"),"Prom. is a character, not a high-school dance");
       console.log("Lucian glossary validation: "+paragraphs+" paragraphs, "+chunks+" chunks, "+tokens+
         " glossed tokens, "+forms.size+" forms; "+complete+" complete and "+pending+" pending chunk translations");

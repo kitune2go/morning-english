@@ -398,7 +398,7 @@ function splitDialogueChunks(paragraph){
   if(output.join("")!==paragraph)throw new Error("チャンク分解の原文一致に失敗しました");
   return output;
 }
-function buildDialogueParagraphDetails(day,glossary){
+function buildDialogueParagraphDetails(day,glossary,contextGlossary=new Map()){
   const hasTranslation=Array.isArray(day.jp)&&day.jp.length===day.paragraphs.length;
   const tokenRe=/[\p{L}]+(?:['’\-][\p{L}]+)*/gu;
   return day.paragraphs.map((paragraph,pi)=>{
@@ -410,24 +410,36 @@ function buildDialogueParagraphDetails(day,glossary){
       Hera:"ヘラ",Par:"パリス",Herm:"ヘルメス",Heph:"ヘパイストス",Ath:"アテナ",
       Asc:"アスクレピオス",Leto:"レト",Sel:"セレネ",Ar:"アレス",Ma:"マイア",
       Hel:"ヘリオス",Aph:"アプロディテ"};
-    const wordFor=(word,index,context)=>{
+    const wordFor=(word,index,context,absoluteIndex=index)=>{
       const spoken=context.match(/^([A-Za-z]+)\.(?:\s|$)/);
       if(index===0&&((spoken&&spoken[1]===word)||(!spoken&&word==="Aph"&&/^Aph Assuredly/.test(context)))&&speakers[word])
         return {word,ja:speakers[word]+"（話者名）",note:"対話の発言者を示す略記。通常の英単語の意味ではありません。"};
       const key=word.toLowerCase().replace(/’/g,"'");
+      const contextual=contextGlossary.get(day.day+":"+(pi+1)+":"+absoluteIndex);
+      if(contextual){
+        if(contextual.word!==key)throw new Error("文脈訳の単語位置が本文と一致しません: "+key);
+        return {word,ja:contextual.ja,note:contextual.note};
+      }
       const entry=glossary.get(key);
       if(!entry)throw new Error("単語訳未登録: "+word);
       return {word,ja:entry.ja,note:entry.note};
     };
-    const chunks=parts.map((en,index)=>({
-      en,role:index===0?"発言の導入・主題":"発言の続き・意味のまとまり",
-      ja:aligned?.[index]||(hasTranslation&&parts.length===1?day.jp[pi]
-        :hasTranslation?"段落全体の日本語訳をご参照ください（この部分だけの訳は未校正）。"
-        :"段落訳準備中。"),
-      translationStatus:aligned?"complete":hasTranslation?(parts.length===1?"complete":"paragraph-reference"):"pending",
-      hint:"原文を意味のまとまりで分割。話者と修飾語の係り先を確認してください。",
-      words:(en.match(tokenRe)||[]).map((word,i)=>wordFor(word,i,en))
-    }));
+    // 文脈訳の位置は発言全文を通した0始まりの単語番号。チャンク境界ではリセットしない。
+    let wordOffset=0;
+    const chunks=parts.map((en,index)=>{
+      const chunkWords=en.match(tokenRe)||[];
+      const words=chunkWords.map((word,i)=>wordFor(word,i,en,wordOffset+i));
+      wordOffset+=chunkWords.length;
+      return {
+        en,role:index===0?"発言の導入・主題":"発言の続き・意味のまとまり",
+        ja:aligned?.[index]||(hasTranslation&&parts.length===1?day.jp[pi]
+          :hasTranslation?"段落全体の日本語訳をご参照ください（この部分だけの訳は未校正）。"
+          :"段落訳準備中。"),
+        translationStatus:aligned?"complete":hasTranslation?(parts.length===1?"complete":"paragraph-reference"):"pending",
+        hint:"原文を意味のまとまりで分割。話者と修飾語の係り先を確認してください。",
+        words
+      };
+    });
     const allWords=(paragraph.match(tokenRe)||[]).map((word,i)=>wordFor(word,i,paragraph));
     const distinct=[...new Map(allWords.filter(w=>w.word.length>=4).map(w=>[w.word.toLowerCase(),w])).values()];
     const important=(distinct.length?distinct:allWords).slice(0,4);
@@ -537,13 +549,22 @@ async function loadBook(id){
   const d=await loadJson(chosen.data);
   if(!Array.isArray(d)||d.length===0||!d.every((x,i)=>x.day===i+1&&Array.isArray(x.paragraphs)&&x.paragraphs.length))throw new Error("本文データの形式が不正です");
   if(chosen.glossaryData){
-    const [lex,allTranslations]=await Promise.all([
+    const [lex,allTranslations,contextData]=await Promise.all([
       loadJson(chosen.glossaryData),
       chosen.chunkTranslationBase?Promise.all(d.map(day=>
-        loadJson(chosen.chunkTranslationBase+"/day-"+String(day.day).padStart(2,"0")+".json"))):Promise.resolve(null)
+        loadJson(chosen.chunkTranslationBase+"/day-"+String(day.day).padStart(2,"0")+".json"))):Promise.resolve(null),
+      chosen.contextGlossaryData?loadJson(chosen.contextGlossaryData):Promise.resolve({schemaVersion:1,entries:[]})
     ]);
     if(!Array.isArray(lex))throw new Error("単語辞書の形式が不正です");
+    if(contextData?.schemaVersion!==1||!Array.isArray(contextData.entries))
+      throw new Error("文脈訳データの形式が不正です");
     const glossary=new Map(lex.map(x=>[x.word.toLowerCase(),x]));
+    const contextGlossary=new Map();
+    for(const x of contextData.entries){
+      const key=x.day+":"+x.paragraph+":"+x.token;
+      if(contextGlossary.has(key))throw new Error("文脈訳の単語位置が重複しています: "+key);
+      contextGlossary.set(key,x);
+    }
     d.forEach((day,i)=>{
       if(allTranslations){
         const translation=allTranslations[i];
@@ -551,7 +572,7 @@ async function loadBook(id){
           throw new Error("Day "+day.day+" のチャンク対訳データが一致しません");
         day.chunkTranslations=translation.paragraphs;
       }
-      day.paragraphDetails=buildDialogueParagraphDetails(day,glossary);
+      day.paragraphDetails=buildDialogueParagraphDetails(day,glossary,contextGlossary);
     });
   }
   book=chosen;
