@@ -277,5 +277,26 @@
     "description": "神々の風刺、海外企業のIPと上流利益、法人承継を通して、表に立つ人物と制度・所有を動かす主体のずれを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261028/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260929",
+    "title": "朗読のあとに地図をひらく",
+    "description": "仏教語から近代詩へ続く言葉の旅程、文脈を欠いた文学ツアー、消えていく地方都市の記憶を通して、朗読後に開くべき地図を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20260929/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20260930",
+    "title": "診断名は物語を先に書く",
+    "description": "流行する心理用語、分類と自己理解の循環、相関を因果へ束ねる物語を通して、診断名を修正可能な仮説として扱う日次エッセイ。",
+    "manifest": "literature/daily-essay-20260930/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261029",
+    "title": "強い声では橋は架からない",
+    "description": "短評という非常口、威圧と技術的厳密さの違い、翻訳・音声・ZIPの検品を通して、強い声より修正と検査がものを現実にする過程を描く日次エッセイ。",
+    "manifest": "literature/daily-essay-20261029/manifest.json",
+    "mode": "essay-translation"
   }
 ]
