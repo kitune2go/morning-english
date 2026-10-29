@@ -441,7 +441,7 @@ if(lucianBook?.glossaryData){
     "castor","hyacinth","muses","argos","dames","fairest","car","bolt","lot",
     "rest","bound","master","charge","anyhow"
   ]);
-  const tokenReLucian=/[\\p{L}]+(?:['’\\-][\\p{L}]+)*/gu;
+  const tokenReLucian=/[\p{L}]+(?:['’\-][\p{L}]+)*/gu;
   for(const item of contextData.entries||[]){
     const key=item.day+":"+item.paragraph+":"+item.token;
     check(!contextLookup.has(key),"Lucian contextual meaning unique index "+key);
