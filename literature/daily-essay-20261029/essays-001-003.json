@@ -1,0 +1,80 @@
+[
+  {
+    "id": "DE-20261029-001",
+    "sourceTitle": "強い声では橋は架からない",
+    "workId": "daily-essay-20261029",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "短評は非常口になれる",
+    "jp": "長い批評を書いても、相手も制度も動かないときがある。その無力感の前では、「この人はだめだ」という短い評が、議論というより非常口として働く。共有された常識を確かめ、これ以上そこへ時間を渡さないための合図である。だが、非常口は建物の設計図ではない。短評が有用であることと、理由を説明しなくてよいことは同じではない。退くための言葉を、理解した証拠にしてはいけない。",
+    "translationLiteral": "There are times when neither the other person nor the institution moves even after a long critique is written. Faced with that powerlessness, a short verdict such as 'this person is no good' works less as an argument than as an emergency exit. It confirms shared judgment and signals that no more time should be given there. But an emergency exit is not a blueprint of the building. The usefulness of a short verdict is not the same as freedom from explaining reasons. Words for withdrawing must not become proof of understanding.",
+    "translationNatural": "Sometimes a long critique changes neither its target nor the institution around it. In that frustration, a blunt verdict can function less as an argument than as an emergency exit: a signal to stop spending attention. Yet an exit is not a blueprint. A short judgment may be useful without being a sufficient explanation. Language that helps us withdraw should not be mistaken for evidence that we understand the structure.",
+    "imageUrl": "",
+    "imageCaption": "長い議論の部屋から出る非常口と、残された設計図。",
+    "imagePrompt": "Editorial literary illustration of an emergency exit beside an unfinished blueprint in a room of endless debate, restrained colors, no readable text",
+    "chunks": [
+      {"en": "Sometimes a long critique changes neither its target nor the institution around it.", "ja": "長い批評が対象も周囲の制度も変えないことがある。"},
+      {"en": "In that frustration, a blunt verdict can function less as an argument than as an emergency exit: a signal to stop spending attention.", "ja": "その苛立ちの中で、率直な断定は議論より非常口、つまり注意を費やすのをやめる合図として働き得る。"},
+      {"en": "Yet an exit is not a blueprint.", "ja": "しかし出口は設計図ではない。"},
+      {"en": "A short judgment may be useful without being a sufficient explanation.", "ja": "短い判断は十分な説明でなくても有用であり得る。"},
+      {"en": "Language that helps us withdraw should not be mistaken for evidence that we understand the structure.", "ja": "退く助けになる言葉を、構造を理解した証拠と取り違えてはならない。"}
+    ],
+    "grammar": ["neither A nor B は変化しない二対象を並列する。", "less as A than as B は議論より非常口としての役割を強調する。", "a signal to stop はコロン後で emergency exit の意味を説明する同格表現。", "without being は有用性と説明の十分性を切り分ける。", "that helps us withdraw は Language を修飾する関係節。", "be mistaken for はAをBと取り違える受動表現。"],
+    "translationNote": "literal は『だめだ』という短評を非常口として扱う論理を保持した。natural は固有の論争相手を外し、attention と blueprint の対比で短評の効用と限界を独立した文章へ整えた。",
+    "readingPoint": "導入。強い一言を全面否定せず、退出の道具と構造説明を分ける。",
+    "keywords": ["critique", "verdict", "emergency exit", "blueprint", "attention"]
+  },
+  {
+    "id": "DE-20261029-002",
+    "sourceTitle": "強い声では橋は架からない",
+    "workId": "daily-essay-20261029",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "威圧は寸法を測れない",
+    "jp": "ものづくりには厳しさが要る、と言われることがある。けれど必要なのは、人を黙らせる強さではなく、寸法の誤差を見つけ、危険な工程を止め、同じ結果をもう一度作れる厳密さである。威圧は返事を早くし、監督者の前だけ現場を整えて見せるかもしれない。しかし、恐怖は不具合の報告を遅らせる。技術上の権限が守るべきなのは人格への服従ではなく、安全と再現性だ。",
+    "translationLiteral": "People sometimes say that making things requires toughness. Yet what is needed is not the strength to silence people but the rigor to find dimensional errors, stop dangerous processes, and reproduce the same result. Intimidation may produce quick answers and make a workplace look orderly only in front of a supervisor. Fear, however, delays reports of defects. Technical authority should protect safety and reproducibility, not submission to a personality.",
+    "translationNatural": "Making things does require discipline, but not the kind that silences people. Real rigor detects a bad dimension, stops an unsafe process, and makes the result reproducible. Intimidation may produce fast replies and temporary order whenever a supervisor is watching. It also teaches workers to hide defects. Technical authority earns legitimacy by protecting safety and repeatability, not by demanding personal submission.",
+    "imageUrl": "",
+    "imageCaption": "大声の監督者の影を離れ、測定器と安全停止装置が現場を支える。",
+    "imagePrompt": "Editorial industrial illustration contrasting an intimidating supervisor's shadow with measuring tools, safety controls, and careful workers, no readable text",
+    "chunks": [
+      {"en": "Making things does require discipline, but not the kind that silences people.", "ja": "ものづくりには規律が必要だが、人を黙らせる種類のものではない。"},
+      {"en": "Real rigor detects a bad dimension, stops an unsafe process, and makes the result reproducible.", "ja": "本当の厳密さは寸法不良を見つけ、危険な工程を止め、結果を再現可能にする。"},
+      {"en": "Intimidation may produce fast replies and temporary order whenever a supervisor is watching.", "ja": "威圧は監督者が見ている間だけ、素早い返事と一時的な秩序を生むかもしれない。"},
+      {"en": "It also teaches workers to hide defects.", "ja": "それは同時に、作業者へ不具合を隠すことも教える。"},
+      {"en": "Technical authority earns legitimacy by protecting safety and repeatability, not by demanding personal submission.", "ja": "技術上の権限は人格的服従を求めることではなく、安全と再現性を守ることで正当性を得る。"}
+    ],
+    "grammar": ["does require は助動詞 do による強調。", "the kind that silences people は discipline の種類を限定する関係節。", "detects, stops, and makes は厳密さの働きを三つ並列する。", "whenever は監視される条件が繰り返されることを示す。", "teach O to do は作業者に隠蔽を学習させる構文。", "by A, not by B は正当性を得る二つの方法を対比する。"],
+    "translationNote": "literal はヤクザ性への反論を技術権限と人格服従の区別として訳した。natural は discipline と rigor を使い分け、恐怖が品質情報を消す因果を明示した。",
+    "readingPoint": "展開。短評の強い声から製造現場の威圧へ移り、厳しさの中身を測定・停止・再現性として定義し直す。",
+    "keywords": ["discipline", "rigor", "intimidation", "defects", "repeatability"]
+  },
+  {
+    "id": "DE-20261029-003",
+    "sourceTitle": "強い声では橋は架からない",
+    "workId": "daily-essay-20261029",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "魔法のあとに検品がある",
+    "jp": "画面の中で遊べるものが動くと、それは魔法のように見える。だが実際の制作は、代名詞の誤訳を一つ直し、ほかの訳も見直し、声のモデルや音を調整し、最後に本当にZIPになっているか確かめる作業の連続である。「できた」と言う声より、開けるファイルのほうが強い。ものを現実にするのは威勢ではなく、修正を受け入れ、成果物を検査し、他人が使える形で渡す手順だ。橋は号令で架からず、接続を確かめたあとに残る。",
+    "translationLiteral": "When something playable moves on a screen, it looks like magic. Actual production, however, is a sequence of correcting one mistranslated pronoun, reviewing the other translations, adjusting a voice model and sound, and finally checking whether the result is truly a ZIP file. A file that opens is stronger than a voice saying it is done. What makes things real is not bravado but a procedure that accepts corrections, inspects the artifact, and hands it over in a form others can use. A bridge is not built by commands; it remains after connections are checked.",
+    "translationNatural": "A playable scene on a screen can look like magic. The work behind it is less glamorous: correcting one mistranslated pronoun, reviewing the neighboring lines, adjusting voices and sound, and checking whether the promised archive actually opens. A working file carries more authority than the claim that the job is done. Things become real through correction, inspection, and delivery in a form another person can use. A bridge is built only after every connection has been tested.",
+    "imageUrl": "",
+    "imageCaption": "魔法のような画面の背後で、翻訳・音声・圧縮ファイルを順に検品する作業台。",
+    "imagePrompt": "Editorial literary illustration of a magical playable screen above a practical workbench for translation, audio, archive checking, and connection testing, no readable text",
+    "chunks": [
+      {"en": "A playable scene on a screen can look like magic.", "ja": "画面上の遊べる場面は魔法のように見える。"},
+      {"en": "The work behind it is less glamorous: correcting one mistranslated pronoun, reviewing the neighboring lines, adjusting voices and sound, and checking whether the promised archive actually opens.", "ja": "背後の作業はもっと地味で、代名詞の誤訳を直し、周辺の行を見直し、声と音を調整し、約束した圧縮ファイルが本当に開くか確かめる。"},
+      {"en": "A working file carries more authority than the claim that the job is done.", "ja": "実際に動くファイルは、仕事が終わったという主張より強い権威を持つ。"},
+      {"en": "Things become real through correction, inspection, and delivery in a form another person can use.", "ja": "物は、修正・検査・他人が使える形での受け渡しを通して現実になる。"},
+      {"en": "A bridge is built only after every connection has been tested.", "ja": "橋はすべての接続が試されたあとで初めて架かる。"}
+    ],
+    "grammar": ["playable は scene を修飾し『遊べる』を表す形容詞。", "less glamorous の後のコロンは地味な作業の具体例を導く。", "correcting, reviewing, adjusting, and checking は制作工程を動名詞で並列する。", "whether は圧縮ファイルが開くかどうかを示す名詞節。", "more A than B は成果物と完了宣言の権威を比較する。", "has been tested は完了済みの検査を示す現在完了受動態。"],
+    "translationNote": "literal は翻訳修正、音声調整、ZIP確認という実際の作業順を保持した。natural は archive actually opens と working file を用い、完成宣言より検証可能な成果物を重く見る結末へ整えた。",
+    "readingPoint": "転換と余韻。批評と威圧の『強い声』を、修正・検品・受け渡しという静かな制作手順へ反転させ、題名の橋へ着地する。",
+    "keywords": ["artifact", "correction", "inspection", "delivery", "connection"]
+  }
+]
