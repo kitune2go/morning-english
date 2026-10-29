@@ -1,0 +1,79 @@
+[
+  {
+    "id": "DE-20260930-001",
+    "sourceTitle": "診断名は物語を先に書く",
+    "workId": "daily-essay-20260930",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "流行語が鏡になる",
+    "jp": "心理学の言葉が流行すると、昨日まで性格や失敗と呼ばれていたものに、新しい名札が付く。回避型、蛙化、アダルトチルドレン。言葉は苦しさを説明する助けにもなるが、短い投稿の中では、研究も診断基準も異なる概念が一つの物語へ縫い合わされやすい。鏡を得た安心は本物でも、その鏡が正確とは限らない。自分に似た項目があることと、診断が成立することは別である。",
+    "translationLiteral": "When psychological language becomes fashionable, new labels are attached to what was called personality or failure until yesterday. Avoidant, sudden loss of attraction, adult child. Words can help explain pain, but in a short post, concepts with different research and diagnostic criteria are easily sewn into one story. The relief of gaining a mirror may be real, yet the mirror is not necessarily accurate. Finding an item that resembles oneself is different from meeting a diagnosis.",
+    "translationNatural": "When psychological terms become fashionable, ordinary traits and disappointments quickly acquire diagnostic-sounding names. A label can offer genuine relief by giving pain a mirror. Yet a short viral post may stitch together concepts that come from different research traditions and use different criteria. Recognizing yourself in a checklist is not the same as establishing a diagnosis.",
+    "imageUrl": "",
+    "imageCaption": "流行する心理用語が鏡のように並び、人が自分の像を探す場面。",
+    "imagePrompt": "Editorial literary illustration of fashionable psychological labels arranged like mirrors around a reader, thoughtful and restrained, no readable text",
+    "chunks": [
+      {"en": "When psychological terms become fashionable, ordinary traits and disappointments quickly acquire diagnostic-sounding names.", "ja": "心理学用語が流行すると、普通の性向や失望が診断めいた名前をすぐに得る。"},
+      {"en": "A label can offer genuine relief by giving pain a mirror.", "ja": "名札は苦しみに鏡を与え、本物の安堵をもたらし得る。"},
+      {"en": "Yet a short viral post may stitch together concepts that come from different research traditions and use different criteria.", "ja": "しかし短い拡散投稿は、異なる研究伝統と基準を持つ概念を縫い合わせることがある。"},
+      {"en": "Recognizing yourself in a checklist is not the same as establishing a diagnosis.", "ja": "チェック項目に自分を見つけることと、診断を確定することは同じではない。"}
+    ],
+    "grammar": ["When は用語の流行と命名の変化を結ぶ。", "diagnostic-sounding は『診断めいた』を表す複合形容詞。", "by giving は安堵を与える手段を示す。", "that come ... and use ... は concepts を二つの動詞で修飾する。", "A is not the same as B は類似と診断成立を区別する。"],
+    "translationNote": "literal は具体的な流行語と鏡の比喩を保持した。natural は固有の俗語を列挙せず diagnostic-sounding names とし、苦痛の承認と診断の妥当性を分けた。",
+    "readingPoint": "導入。心理語が助けになる側面を認めつつ、流行語と診断基準の距離を置く。",
+    "keywords": ["psychological terms", "label", "viral post", "criteria", "diagnosis"]
+  },
+  {
+    "id": "DE-20260930-002",
+    "sourceTitle": "診断名は物語を先に書く",
+    "workId": "daily-essay-20260930",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "分類された人が分類を変える",
+    "jp": "人を分類する言葉は、石を分類する言葉とは違う。名を与えられた人は、その説明を読み、自分の過去を並べ替え、同じ名を持つ人の語りを学ぶ。やがて行動や自己紹介が変わり、その変化を見た社会は、分類の意味をさらに書き換える。概念は人を説明し、人もまた概念を作り直す。この循環を忘れると、昨日生まれた説明が、昔から人の内部に眠っていた自然種のように見えてしまう。",
+    "translationLiteral": "Words that classify people differ from words that classify stones. A person given a name reads its explanation, rearranges the past, and learns the stories of others with the same name. Behavior and self-description eventually change, and society, seeing that change, rewrites the meaning of the category again. A concept explains people, and people remake the concept. If this loop is forgotten, an explanation born yesterday looks like a natural kind that had always slept inside people.",
+    "translationNatural": "Classifying people is unlike classifying stones. People can read the category applied to them, reorganize their memories around it, and learn how others use the same name. Their responses then alter the evidence on which the category rests. The concept shapes its subjects, while the subjects reshape the concept. Forgetting this loop makes a recent description look like an ancient fact hidden inside the person.",
+    "imageUrl": "",
+    "imageCaption": "分類名と自己理解が互いを書き換える循環。",
+    "imagePrompt": "Editorial conceptual illustration of a label and a human silhouette repeatedly reshaping each other in a loop, minimal and reflective, no readable text",
+    "chunks": [
+      {"en": "Classifying people is unlike classifying stones.", "ja": "人を分類することは石を分類することとは違う。"},
+      {"en": "People can read the category applied to them, reorganize their memories around it, and learn how others use the same name.", "ja": "人は自分に適用された分類を読み、それに沿って記憶を組み替え、他者が同じ名をどう使うか学べる。"},
+      {"en": "Their responses then alter the evidence on which the category rests.", "ja": "その反応は、分類が依拠する証拠そのものを変える。"},
+      {"en": "The concept shapes its subjects, while the subjects reshape the concept.", "ja": "概念は対象者を形作り、対象者も概念を作り直す。"},
+      {"en": "Forgetting this loop makes a recent description look like an ancient fact hidden inside the person.", "ja": "この循環を忘れると、新しい説明が人の内部に隠れた古い事実のように見える。"}
+    ],
+    "grammar": ["unlike は人と石の分類を対照する。", "applied to them は category を修飾する過去分詞句。", "reorganize, and learn は can read に続く動詞の並列。", "on which は evidence と rests を結ぶ前置詞付き関係詞。", "while は概念と対象者の相互作用を対照的に並べる。", "make O C は説明を古い事実のように見せる作用を表す。"],
+    "translationNote": "literal は分類と人の相互作用を時系列で追った。natural は looping effect を固有名で断定せず、evidence 自体が反応によって変わる仕組みを平明に説明した。",
+    "readingPoint": "展開。誤診の問題から一段進み、分類が観察対象を変える循環へ視点を移す。",
+    "keywords": ["classification", "memory", "evidence", "loop", "concept"]
+  },
+  {
+    "id": "DE-20260930-003",
+    "sourceTitle": "診断名は物語を先に書く",
+    "workId": "daily-essay-20260930",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "因果は語りの中で太くなる",
+    "jp": "人は、離れた出来事のあいだに線を引く。幼い頃の家庭、現在の恋愛、仕事の疲れ、誰かの研究結果。それらを並べると、ばらばらの傾向は一つの原因から続く物語に見え始める。物語は生活を理解するために必要だが、順序よく語れたことは因果の証明ではない。診断名を捨てる必要も、すぐ信じる必要もない。線を引いた手を覚えておけば、物語は檻ではなく、書き直せる仮説として残る。",
+    "translationLiteral": "People draw lines between distant events: childhood family life, present relationships, fatigue from work, and someone's research result. Once arranged, separate tendencies begin to look like a story continuing from one cause. Stories are necessary for understanding life, but being able to tell events in order is not proof of causation. We need neither discard a diagnostic name nor believe it immediately. If we remember the hand that drew the line, the story remains not a cage but a revisable hypothesis.",
+    "translationNatural": "We are skilled at drawing lines between distant events: childhood, romance, exhaustion, and a research finding encountered online. Once arranged, scattered tendencies begin to resemble a single causal story. Narrative helps us live with complexity, but coherence is not evidence of causation. We do not have to reject every label or accept one at once. If we remember that someone drew the line, the story can remain a revisable hypothesis rather than a cage.",
+    "imageUrl": "",
+    "imageCaption": "離れた出来事を結ぶ線が、仮説にも檻にもなり得る場面。",
+    "imagePrompt": "Editorial literary illustration of scattered life events connected by a hand-drawn line that could become either a hypothesis or a cage, no readable text",
+    "chunks": [
+      {"en": "We are skilled at drawing lines between distant events: childhood, romance, exhaustion, and a research finding encountered online.", "ja": "私たちは幼少期、恋愛、疲労、オンラインで出会った研究結果など離れた出来事を結ぶのが得意だ。"},
+      {"en": "Once arranged, scattered tendencies begin to resemble a single causal story.", "ja": "並べられると、散らばった傾向は一つの因果物語に似てくる。"},
+      {"en": "Narrative helps us live with complexity, but coherence is not evidence of causation.", "ja": "物語は複雑さと生きる助けになるが、筋が通ることは因果の証拠ではない。"},
+      {"en": "We do not have to reject every label or accept one at once.", "ja": "すべての名札を退ける必要も、すぐ受け入れる必要もない。"},
+      {"en": "If we remember that someone drew the line, the story can remain a revisable hypothesis rather than a cage.", "ja": "誰かが線を引いたことを覚えていれば、物語は檻ではなく修正可能な仮説として残れる。"}
+    ],
+    "grammar": ["be skilled at -ing は行為への熟達を表す。", "encountered online は finding を修飾する過去分詞句。", "Once arranged は出来事が並べられた後を示す省略された受動節。", "A is not evidence of B は一貫性と因果証明を区別する。", "do not have to A or B は二つの極端を同時に退ける。", "rather than は hypothesis と cage を対比する。"],
+    "translationNote": "literal は『線を引く手』と檻の比喩を保持した。natural は coherence と causation を対置し、語りの有用性を認めながら証明とは区別する語調へ整えた。",
+    "readingPoint": "転換と余韻。分類批判を物語一般の働きへ広げ、診断名を捨てるか信じるかの二択ではなく、修正可能性へ着地する。",
+    "keywords": ["narrative", "causation", "coherence", "label", "hypothesis"]
+  }
+]
