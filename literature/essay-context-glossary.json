@@ -3050,5 +3050,281 @@
         }
       ]
     }
+  ],
+"DE-20261029-001": [
+    {
+      "words": {
+        "critique": {
+          "ja": "批評",
+          "pos": "語句",
+          "lemma": "critique",
+          "form": "",
+          "note": "critique：この作品では「批評」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Sometimes a long critique changes neither its target nor the institution around it.",
+          "ja": "長い批評が対象も周囲の制度も変えないことがある。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "verdict": {
+          "ja": "断定",
+          "pos": "語句",
+          "lemma": "verdict",
+          "form": "",
+          "note": "verdict：この作品では「断定」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "In that frustration, a blunt verdict can function less as an argument than as an emergency exit: a signal to stop spending attention.",
+          "ja": "その苛立ちの中で、率直な断定は議論より非常口、つまり注意を費やすのをやめる合図として働き得る。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "blueprint": {
+          "ja": "設計図",
+          "pos": "語句",
+          "lemma": "blueprint",
+          "form": "",
+          "note": "blueprint：この作品では「設計図」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet an exit is not a blueprint.",
+          "ja": "しかし出口は設計図ではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "judgment": {
+          "ja": "判断",
+          "pos": "語句",
+          "lemma": "judgment",
+          "form": "",
+          "note": "judgment：この作品では「判断」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A short judgment may be useful without being a sufficient explanation.",
+          "ja": "短い判断は十分な説明でなくても有用であり得る。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "structure": {
+          "ja": "構造",
+          "pos": "語句",
+          "lemma": "structure",
+          "form": "",
+          "note": "structure：この作品では「構造」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Language that helps us withdraw should not be mistaken for evidence that we understand the structure.",
+          "ja": "退く助けになる言葉を、構造を理解した証拠と取り違えてはならない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261029-002": [
+    {
+      "words": {
+        "discipline": {
+          "ja": "規律",
+          "pos": "語句",
+          "lemma": "discipline",
+          "form": "",
+          "note": "discipline：この作品では「規律」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Making things does require discipline, but not the kind that silences people.",
+          "ja": "ものづくりには規律が必要だが、人を黙らせる種類のものではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "rigor": {
+          "ja": "厳密さ",
+          "pos": "語句",
+          "lemma": "rigor",
+          "form": "",
+          "note": "rigor：この作品では「厳密さ」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Real rigor detects a bad dimension, stops an unsafe process, and makes the result reproducible.",
+          "ja": "本当の厳密さは寸法不良を見つけ、危険な工程を止め、結果を再現可能にする。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "intimidation": {
+          "ja": "威圧",
+          "pos": "語句",
+          "lemma": "intimidation",
+          "form": "",
+          "note": "Intimidation：この作品では「威圧」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Intimidation may produce fast replies and temporary order whenever a supervisor is watching.",
+          "ja": "威圧は監督者が見ている間だけ、素早い返事と一時的な秩序を生むかもしれない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "defects": {
+          "ja": "不具合",
+          "pos": "語句",
+          "lemma": "defects",
+          "form": "",
+          "note": "defects：この作品では「不具合」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It also teaches workers to hide defects.",
+          "ja": "それは同時に、作業者へ不具合を隠すことも教える。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "legitimacy": {
+          "ja": "正当性",
+          "pos": "語句",
+          "lemma": "legitimacy",
+          "form": "",
+          "note": "legitimacy：この作品では「正当性」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Technical authority earns legitimacy by protecting safety and repeatability, not by demanding personal submission.",
+          "ja": "技術上の権限は人格的服従を求めることではなく、安全と再現性を守ることで正当性を得る。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261029-003": [
+    {
+      "words": {
+        "playable": {
+          "ja": "遊べる",
+          "pos": "語句",
+          "lemma": "playable",
+          "form": "",
+          "note": "playable：この作品では「遊べる」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A playable scene on a screen can look like magic.",
+          "ja": "画面上の遊べる場面は魔法のように見える。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "archive": {
+          "ja": "圧縮ファイル",
+          "pos": "語句",
+          "lemma": "archive",
+          "form": "",
+          "note": "archive：この作品では「圧縮ファイル」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The work behind it is less glamorous: correcting one mistranslated pronoun, reviewing the neighboring lines, adjusting voices and sound, and checking whether the promised archive actually opens.",
+          "ja": "背後の作業はもっと地味で、代名詞の誤訳を直し、周辺の行を見直し、声と音を調整し、約束した圧縮ファイルが本当に開くか確かめる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "authority": {
+          "ja": "権威",
+          "pos": "語句",
+          "lemma": "authority",
+          "form": "",
+          "note": "authority：この作品では「権威」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A working file carries more authority than the claim that the job is done.",
+          "ja": "実際に動くファイルは、仕事が終わったという主張より強い権威を持つ。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "delivery": {
+          "ja": "受け渡し",
+          "pos": "語句",
+          "lemma": "delivery",
+          "form": "",
+          "note": "delivery：この作品では「受け渡し」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Things become real through correction, inspection, and delivery in a form another person can use.",
+          "ja": "物は、修正・検査・他人が使える形での受け渡しを通して現実になる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "connection": {
+          "ja": "接続",
+          "pos": "語句",
+          "lemma": "connection",
+          "form": "",
+          "note": "connection：この作品では「接続」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A bridge is built only after every connection has been tested.",
+          "ja": "橋はすべての接続が試されたあとで初めて架かる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
   ]
 }
