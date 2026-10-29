@@ -1,0 +1,78 @@
+[
+  {
+    "id": "DE-20260929-001",
+    "sourceTitle": "朗読のあとに地図をひらく",
+    "workId": "daily-essay-20260929",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "一文字にも旅程がある",
+    "jp": "「無」という一文字は、最初から近代詩の机に置かれていたわけではない。仏教語は漢文とともに渡り、寺子屋や読書を経て、日本語の思考へ沈んでいった。その長い旅程の先で、詩人は虚無を自分の夜として書く。言葉の意味は辞書の枠だけで生まれない。誰が運び、どこで読み替え、どの時代の不安に触れたかという経路が、一文字の奥行きを作る。",
+    "translationLiteral": "The single character for nothingness was not placed on the desk of modern poetry from the beginning. Buddhist terms traveled with classical Chinese, passed through schools and reading, and sank into Japanese thought. At the end of that long route, a poet wrote emptiness as his own night. Meaning is not born only inside a dictionary. The route of who carried a word, where it was reread, and which age's anxiety it touched gives depth to one character.",
+    "translationNatural": "Even a single character has an itinerary. The idea of nothingness traveled through Buddhist vocabulary, classical Chinese, schooling, and generations of reading before it reached modern poetry. There, a poet could turn an inherited term into the texture of his own night. A word gains depth not only from definition, but from the people, institutions, and anxieties that have carried it.",
+    "imageUrl": "",
+    "imageCaption": "一文字が時代と読者のあいだを渡る道筋。",
+    "imagePrompt": "Editorial literary illustration of one written character traveling through schools, books, and generations toward a poet's desk, restrained colors, no readable text",
+    "chunks": [
+      {"en": "Even a single character has an itinerary.", "ja": "一文字にも旅程がある。"},
+      {"en": "The idea of nothingness traveled through Buddhist vocabulary, classical Chinese, schooling, and generations of reading before it reached modern poetry.", "ja": "無の観念は仏教語、漢文、教育、幾世代もの読書を通って近代詩へ届いた。"},
+      {"en": "There, a poet could turn an inherited term into the texture of his own night.", "ja": "そこで詩人は受け継いだ語を自分の夜の手触りへ変えられた。"},
+      {"en": "A word gains depth not only from definition, but from the people, institutions, and anxieties that have carried it.", "ja": "言葉は定義だけでなく、それを運んだ人、制度、不安からも奥行きを得る。"}
+    ],
+    "grammar": ["before は長い伝来の後に近代詩へ届く時間関係を示す。", "turn A into B は受け継いだ語を個人的な表現へ変える。", "not only A, but B は定義と伝達経路を対比する。", "that have carried it は anxieties までをまとめて修飾する現在完了の関係節。"],
+    "translationNote": "literal は『無』の伝来経路を順に保持した。natural は character と itinerary を冒頭に置き、個別の制度名を英語圏でも追いやすい文化的経路へ組み直した。",
+    "readingPoint": "導入。文学作品を孤立した名札ではなく、語が時代を渡る経路として読む視点を置く。",
+    "keywords": ["itinerary", "nothingness", "Buddhist vocabulary", "modern poetry", "inheritance"]
+  },
+  {
+    "id": "DE-20260929-002",
+    "sourceTitle": "朗読のあとに地図をひらく",
+    "workId": "daily-essay-20260929",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "朗読だけが残る部屋",
+    "jp": "文学ツアーで詩が朗読される。声はよく響くのに、作者が誰と交わり、何を読み、どの作品へ返事を書いたのかは語られない。代わりに近況や墓参りの話が置かれると、文学は土地へ貼る飾り札になる。作品を難しく説明する必要はない。ただ、詩人と詩人のあいだに一本の線を引くだけで、朗読は観光の余興から、言葉が生まれた場所を歩く経験へ変わる。",
+    "translationLiteral": "A poem is read aloud on a literary tour. The voice carries well, yet no one explains whom the writer met, what he read, or which works he answered. When recent news and stories of visiting graves take their place, literature becomes a decorative label attached to a place. The guide need not explain the work with difficulty. Drawing even one line between poets can turn a recitation from tourist entertainment into an experience of walking through the place where language was made.",
+    "translationNatural": "A poem can fill a room and still arrive without its map. If a literary tour omits the writers, books, and arguments surrounding the work, local anecdotes begin to replace context. Literature then becomes a decorative label for a destination. One clear line between two poets would be enough to turn a recital from sightseeing entertainment into a walk through the conditions that made the words possible.",
+    "imageUrl": "",
+    "imageCaption": "朗読の声だけが響き、作品を結ぶ地図が空白のまま残る部屋。",
+    "imagePrompt": "Editorial literary illustration of a poetry recital in a room with an unfinished map connecting writers and books, quiet documentary mood, no readable text",
+    "chunks": [
+      {"en": "A poem can fill a room and still arrive without its map.", "ja": "詩は部屋を満たしても、地図を伴わずに届くことがある。"},
+      {"en": "If a literary tour omits the writers, books, and arguments surrounding the work, local anecdotes begin to replace context.", "ja": "文学ツアーが作品を囲む作家、書物、論争を省けば、土地の逸話が文脈に取って代わり始める。"},
+      {"en": "Literature then becomes a decorative label for a destination.", "ja": "すると文学は目的地に貼る飾り札になる。"},
+      {"en": "One clear line between two poets would be enough to turn a recital from sightseeing entertainment into a walk through the conditions that made the words possible.", "ja": "二人の詩人のあいだに明瞭な線を一本引くだけで、朗読は観光の余興から、言葉を可能にした条件を歩く経験へ変わる。"}
+    ],
+    "grammar": ["can ... and still ... は両立しにくい二状態を並べる。", "If ... omits は省略がもたらす結果を示す条件節。", "begin to replace は置換が進行し始めることを表す。", "would be enough to turn A from B into C は小さな追加が経験の性質を変える仮定を示す。", "that made ... possible は conditions を修飾する関係節。"],
+    "translationNote": "literal は朗読、近況、墓参りという具体的な欠落感を保持した。natural は map と line を通底する比喩にし、文脈不足を観光批判だけでなく読解経路の欠如として示した。",
+    "readingPoint": "展開。言葉の旅程という導入を、実際の文学ツアーで失われた接続へ移す。",
+    "keywords": ["recital", "literary tour", "context", "anecdote", "sightseeing"]
+  },
+  {
+    "id": "DE-20260929-003",
+    "sourceTitle": "朗読のあとに地図をひらく",
+    "workId": "daily-essay-20260929",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "街も作品の一部だった",
+    "jp": "文脈を失うのは文学だけではない。かつて映画館や百貨店があり、商店街や祭りが人を結んだ地方都市でも、建物が消えるたびに、何を見て育ったかを説明する手がかりが減っていく。東京の成功や衰退の尺度だけでは、その空白は測れない。記憶は昔を美化するためではなく、いま残る場所が何を引き継ぎ、何を失ったのかを読む地図になる。朗読のあとに必要なのは、その地図をひらく時間なのだ。",
+    "translationLiteral": "Literature is not the only thing that loses context. In a regional city where cinemas and department stores once stood and shopping streets and festivals connected people, each vanished building removes a clue to what shaped those who grew up there. That absence cannot be measured only by the scale of Tokyo's success and decline. Memory is not for beautifying the past; it becomes a map for reading what present places inherited and lost. What is needed after the recital is time to open that map.",
+    "translationNatural": "Cities lose context too. When cinemas, department stores, shopping streets, and local festivals disappear, a regional city also loses evidence of what once shaped its residents. A scale borrowed from the capital cannot measure that absence. Memory matters not because it makes the past prettier, but because it maps what the present has inherited and what it can no longer explain. After the recital, the real work is to unfold that map.",
+    "imageUrl": "",
+    "imageCaption": "消えた映画館や商店街の痕跡を地図として読み直す街。",
+    "imagePrompt": "Editorial literary illustration of a regional city map layered with vanished cinema, department store, shopping street, and festival traces, reflective mood, no readable text",
+    "chunks": [
+      {"en": "Cities lose context too.", "ja": "街もまた文脈を失う。"},
+      {"en": "When cinemas, department stores, shopping streets, and local festivals disappear, a regional city also loses evidence of what once shaped its residents.", "ja": "映画館、百貨店、商店街、地域の祭りが消えると、地方都市は住民をかつて形作ったものの証拠も失う。"},
+      {"en": "A scale borrowed from the capital cannot measure that absence.", "ja": "首都から借りた尺度では、その欠落を測れない。"},
+      {"en": "Memory matters not because it makes the past prettier, but because it maps what the present has inherited and what it can no longer explain.", "ja": "記憶が重要なのは過去を美化するからではなく、現在が何を受け継ぎ、何を説明できなくなったかを地図にするからだ。"},
+      {"en": "After the recital, the real work is to unfold that map.", "ja": "朗読のあとに残る本当の仕事は、その地図をひらくことだ。"}
+    ],
+    "grammar": ["When は都市施設の消失と証拠の喪失を結ぶ。", "what once shaped its residents は evidence of の内容を示す名詞節。", "borrowed from the capital は scale を修飾する過去分詞句。", "not because A, but because B は記憶の役割を否定と再定義で示す。", "what ... inherited / what ... explain は maps の目的語となる並列名詞節。"],
+    "translationNote": "literal は前橋での具体的記憶を一般化しつつ、東京中心の尺度への違和感を残した。natural は evidence と map を使い、懐古ではなく現在を読む資料としての記憶を明確にした。",
+    "readingPoint": "転換と余韻。作品間の文脈から街の生活史へ広げ、朗読後に地図を開くという題へ戻る。",
+    "keywords": ["regional city", "memory", "evidence", "absence", "inheritance"]
+  }
+]
