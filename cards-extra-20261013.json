@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 157,
+    "_generatedAt": "2026-10-30T02:02:44+09:00",
+    "sentence": "Even when a social description is accurate, it cannot determine what should count as a solution without an additional value judgment.",
+    "phonetic": "イーヴン ウェン ア ソーシャル ディスクリプション イズ アキュレット、イット キャノット ディターミン ワット シュッド カウント アズ ア ソリューション ウィズアウト アン アディショナル ヴァリュー ジャッジメント。",
+    "japaneseTranslation": "社会についての記述が正確であっても、追加の価値判断なしに、何を解決とみなすべきかを決定することはできません。",
+    "theme": "正しい社会記述から処方箋は自動的に出ない",
+    "coreVerb": "determine",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Descriptions explain.",
+        "translation": "記述は説明する。"
+      },
+      "phase2": {
+        "sentence": "Social descriptions explain observed patterns.",
+        "translation": "社会についての記述は観察されたパターンを説明する。",
+        "addedChunks": "目的語(observed patterns)を追加"
+      },
+      "phase3": {
+        "sentence": "Descriptions cannot choose solutions because solutions require values.",
+        "translation": "解決策には価値判断が必要なので、記述だけでは解決策を選べない。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "An accurate description is more reliable than a vague impression.",
+        "translation": "正確な記述は曖昧な印象より信頼できる。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "Even when a social description is accurate, it cannot determine what should count as a solution",
+        "translation": "社会についての記述が正確であっても、それは何を解決とみなすべきかを決定できない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Even when a social description is accurate",
+          "function": "接続",
+          "translation": "社会についての記述が正確であっても"
+        },
+        {
+          "text": "it cannot determine",
+          "function": "行動",
+          "translation": "それは決定できない"
+        },
+        {
+          "text": "what should count",
+          "function": "対象",
+          "translation": "何がみなされるべきかを"
+        },
+        {
+          "text": "as a solution",
+          "function": "内容",
+          "translation": "解決として"
+        },
+        {
+          "text": "without",
+          "function": "接続",
+          "translation": "〜なしには"
+        },
+        {
+          "text": "an additional value judgment",
+          "function": "内容",
+          "translation": "追加の価値判断"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "譲歩",
+          "name": "even when",
+          "where": "Even when a social description is accurate",
+          "explanation": "条件が成立しても主節の結論は変わらないことを示す。",
+          "rule": "Even when + 節, 主節"
+        },
+        {
+          "category": "助動詞",
+          "name": "cannot",
+          "where": "it cannot determine",
+          "explanation": "能力または論理的可能性がないことを表す。",
+          "rule": "cannot + 動詞原形"
+        },
+        {
+          "category": "名詞節",
+          "name": "what節",
+          "where": "what should count as a solution",
+          "explanation": "「何を〜とみなすべきか」という内容をdetermineの目的語にする。",
+          "rule": "what + 主語 + 動詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "should",
+          "where": "what should count",
+          "explanation": "何を解決と認めるべきかという規範的判断を表す。",
+          "rule": "should + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "count as",
+          "where": "count as a solution",
+          "explanation": "ある分類・資格としてみなされることを表す。",
+          "rule": "count as + 名詞"
+        },
+        {
+          "category": "前置詞",
+          "name": "without + 名詞",
+          "where": "without an additional value judgment",
+          "explanation": "必要な条件が欠けていることを示す。",
+          "rule": "without + 名詞句"
+        },
+        {
+          "category": "代名詞",
+          "name": "itの照応",
+          "where": "it cannot determine",
+          "explanation": "直前のa social descriptionを受ける。",
+          "rule": "単数名詞 → it"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Even a description is accurate, it cannot choose values.",
+          "correct": "Even when a description is accurate, it cannot choose values.",
+          "why": "譲歩条件を表すにはeven whenのような接続詞が必要。"
+        },
+        {
+          "wrong": "It cannot determines what counts.",
+          "correct": "It cannot determine what counts.",
+          "why": "助動詞cannotの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "What should count for a solution?",
+          "correct": "What should count as a solution?",
+          "why": "「〜とみなされる」はcount asを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Accurate description does not automatically produce a prescription.",
+          "translation": "正確な記述から処方箋が自動的に生まれるわけではない。"
+        },
+        {
+          "text": "Evidence can describe a condition without defining the goal.",
+          "translation": "証拠は目標を定義せずに状態を記述できる。"
+        },
+        {
+          "text": "Choosing a solution requires a separate judgment about values.",
+          "translation": "解決策を選ぶには、価値についての別の判断が必要だ。"
+        }
+      ],
+      "parseTree": "[Adv: Even when S(a social description) V(is) C(accurate)], S(it) Aux(cannot) V(determine) O([what Aux(should) V(count) C(as a solution)]) [Adv: without an additional value judgment]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "without an additional value judgment",
+          "expanded": "because choosing a solution requires an additional value judgment",
+          "nuance": "必要条件を明示的な理由節へ展開する。"
+        },
+        {
+          "original": "without an additional value judgment",
+          "expanded": "since facts alone do not define the desired outcome",
+          "nuance": "記述と目標設定の違いを理由として補う。"
+        },
+        {
+          "original": "without an additional value judgment",
+          "expanded": "therefore, a separate value judgment is required",
+          "nuance": "否定条件を結果文へ置き換える。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "What counts as a solution cannot be determined by description alone.",
+          "translation": "何を解決とみなすかは、記述だけでは決定できない。",
+          "note": "what節を主語にして決定対象を焦点化する。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Describing the observed pattern accurately, a researcher may still leave the goal unsettled.",
+          "translation": "観察されたパターンを正確に記述しても、研究者は目標を未決定のまま残すことがある。",
+          "note": "記述行為を-ing句へ移し、残る判断を主節に置く。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Accurate description does not eliminate the need for value judgment.",
+          "translation": "正確な記述は価値判断の必要性をなくさない。",
+          "note": "describeとjudgeの概念を名詞化して簡潔に対照する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "determine",
+            "alternatives": [
+              "decide",
+              "establish",
+              "define"
+            ],
+            "nuance": "determineは根拠に基づく決定。decideは選択、establishは確立、defineは境界設定に重点がある。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "事実と価値",
+            "sentence": "A description tells us what is observed, whereas a value judgment tells us what should change.",
+            "translation": "記述は何が観察されたかを示し、価値判断は何を変えるべきかを示す。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "An accurate diagnosis is more informative than an impression, but it is not a complete prescription.",
+            "translation": "正確な診断は印象より情報量が多いが、完全な処方箋ではない。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If people disagree about the goal, the same evidence may support different policies.",
+            "translation": "目標について意見が異なれば、同じ証拠が異なる政策を支えることがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What evidence cannot choose for us is the value that a solution should protect.",
+            "translation": "証拠が私たちに代わって選べないのは、解決策が守るべき価値だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Description is not prescription.",
+            "translation": "記述は処方ではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "事実記述と規範判断の境界を一文で明確に示す。what節とwithout句が学習価値を持つ一方、抽象語が多いためflexibilityを8とした。"
+    }
+  }
+]
