@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 155,
+    "_generatedAt": "2026-10-30T02:02:44+09:00",
+    "sentence": "When suicide risk is involved, emotional support and physical barriers address different points of failure, so prevention can be stronger when both are available.",
+    "phonetic": "ウェン スーサイド リスク イズ インヴォルヴド、イモーショナル サポート アンド フィジカル バリアーズ アドレス ディファレント ポインツ オヴ フェイリャー、ソウ プリヴェンション キャン ビー ストロンガー ウェン ボウス アー アヴェイラブル。",
+    "japaneseTranslation": "自殺の危険が関わる場合、心理的支援と物理的な障壁は異なる失敗点に対処するため、両方が利用できると予防はより強くなり得ます。",
+    "theme": "心理的支援と物理的予防を別層で組み合わせる",
+    "coreVerb": "address",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Support helps.",
+        "translation": "支援は役立つ。"
+      },
+      "phase2": {
+        "sentence": "Emotional support and physical barriers help.",
+        "translation": "心理的支援と物理的な障壁は役立つ。",
+        "addedChunks": "主語(emotional support and physical barriers)を具体化"
+      },
+      "phase3": {
+        "sentence": "They help because they address different points of failure.",
+        "translation": "異なる失敗点に対処するため、それらは役立つ。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Emotional support addresses a different point of failure from physical barriers.",
+        "translation": "心理的支援は、物理的な障壁とは異なる失敗点に対処する。",
+        "comparison": "different from"
+      },
+      "phase5": {
+        "sentence": "When suicide risk is involved, emotional support and physical barriers address different points of failure",
+        "translation": "自殺の危険が関わる場合、心理的支援と物理的な障壁は異なる失敗点に対処する。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When suicide risk is involved",
+          "function": "時間",
+          "translation": "自殺の危険が関わる場合"
+        },
+        {
+          "text": "emotional support",
+          "function": "内容",
+          "translation": "心理的支援と"
+        },
+        {
+          "text": "and physical barriers",
+          "function": "接続",
+          "translation": "物理的な障壁は"
+        },
+        {
+          "text": "address different points of failure",
+          "function": "行動",
+          "translation": "異なる失敗点に対処する"
+        },
+        {
+          "text": "so prevention can be stronger",
+          "function": "結果",
+          "translation": "そのため予防はより強くなり得る"
+        },
+        {
+          "text": "when both are available",
+          "function": "時間",
+          "translation": "両方が利用できるとき"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "whenによる条件節",
+          "where": "When suicide risk is involved",
+          "explanation": "危険が関わる状況を条件として先に示す。",
+          "rule": "When + 主語 + 動詞, 主節"
+        },
+        {
+          "category": "受動態",
+          "name": "be involved",
+          "where": "risk is involved",
+          "explanation": "riskが状況に関係していることを受動態で表す。",
+          "rule": "be + 過去分詞"
+        },
+        {
+          "category": "並列",
+          "name": "A and B",
+          "where": "emotional support and physical barriers",
+          "explanation": "二つの対策を同じ主語として並べる。",
+          "rule": "名詞句 + and + 名詞句"
+        },
+        {
+          "category": "語法",
+          "name": "address + 目的語",
+          "where": "address different points of failure",
+          "explanation": "addressは問題や論点に対処するという他動詞。",
+          "rule": "address + 名詞"
+        },
+        {
+          "category": "接続",
+          "name": "soによる結果",
+          "where": "so prevention can be stronger",
+          "explanation": "前半を理由として、断定を避けた結果を導く。",
+          "rule": "節, so + 節"
+        },
+        {
+          "category": "助動詞",
+          "name": "canによる可能性",
+          "where": "can be stronger",
+          "explanation": "予防が強くなる可能性を示し、一般化を抑える。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "代名詞",
+          "name": "both",
+          "where": "when both are available",
+          "explanation": "直前の二つの対策をまとめて受ける。",
+          "rule": "both + 複数動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When suicide risk involves, support is important.",
+          "correct": "When suicide risk is involved, support is important.",
+          "why": "involveをこの意味で使うときはriskを受動態にする。"
+        },
+        {
+          "wrong": "Emotional support address different failures.",
+          "correct": "Emotional support addresses different failures.",
+          "why": "単数主語supportに三単現の-sが必要。"
+        },
+        {
+          "wrong": "Both is available.",
+          "correct": "Both are available.",
+          "why": "bothは複数扱いなのでareを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Support and barriers solve different parts of the problem.",
+          "translation": "支援と障壁は問題の異なる部分に対処する。"
+        },
+        {
+          "text": "Prevention is stronger when both measures are available.",
+          "translation": "両方の対策が利用できると、予防はより強くなる。"
+        },
+        {
+          "text": "Emotional care cannot replace physical safeguards.",
+          "translation": "心理的ケアは物理的な安全策の代わりにはならない。"
+        }
+      ],
+      "parseTree": "[Adv: When S(suicide risk) V(is involved)], S(emotional support and physical barriers) V(address) O(different points of failure), so S(prevention) V(works) Adv(best) [Adv: when S(both) V(are available)]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "so prevention can be stronger",
+          "expanded": "therefore, prevention can be stronger",
+          "nuance": "thereforeは論理的で書き言葉寄り。"
+        },
+        {
+          "original": "so prevention can be stronger",
+          "expanded": "which may make prevention more robust",
+          "nuance": "mayを使い、因果を控えめに示す。"
+        },
+        {
+          "original": "so prevention can be stronger",
+          "expanded": "as a result, prevention may become more robust",
+          "nuance": "結果を独立句として明示する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Different points of failure are addressed by emotional support and physical barriers.",
+          "translation": "異なる失敗点は心理的支援と物理的な障壁によって対処される。",
+          "note": "目的語を主語に移して対処対象を焦点化する。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Addressing different points of failure, the two measures strengthen prevention together.",
+          "translation": "異なる失敗点に対処することで、二つの対策は一緒に予防を強める。",
+          "note": "原因・手段を-ing句へ圧縮する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The combination of emotional support and physical barriers strengthens prevention.",
+          "translation": "心理的支援と物理的な障壁の組み合わせが予防を強める。",
+          "note": "combineの概念をcombinationとして主語化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "address",
+            "alternatives": [
+              "tackle",
+              "respond to",
+              "deal with"
+            ],
+            "nuance": "addressは問題へ焦点を当てる中立表現。tackleは積極性が強く、respond toは対応、deal withは一般的。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "対照",
+            "sentence": "Emotional support responds to distress, whereas barriers restrict physical access.",
+            "translation": "心理的支援は苦痛に応じる一方、障壁は物理的な接近を制限する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Using both measures is more comprehensive than relying on either one alone.",
+            "translation": "両方の対策を使う方が、どちらか一方だけに頼るより包括的だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If only one layer is available, a different point of failure may remain exposed.",
+            "translation": "一つの層しか利用できなければ、別の失敗点が無防備なまま残ることがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the combination of different safeguards that makes prevention more robust.",
+            "translation": "予防をより強固にするのは、異なる安全策の組み合わせだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Layered safeguards address different risks.",
+            "translation": "多層的な安全策は異なる危険に対処する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 8,
+      "flexibility": 8,
+      "focus": 8,
+      "efficiency": 8,
+      "comment": "二種類の対策を競合関係にせず、異なる失敗点へ対応する層として整理した文。canで一般化を抑えたが、points of failureは抽象度がやや高いためclarityを8とした。"
+    }
+  }
+]
