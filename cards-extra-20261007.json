@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 160,
+    "_generatedAt": "2026-10-31T02:15:00+09:00",
+    "sentence": "When authority and evaluation remain at the center while responsibility and training costs move outward, an organization may weaken its own capacity to reproduce skills.",
+    "phonetic": "ウェン オーソリティ アンド イヴァリュエーション リメイン アット ザ センター ワイル リスポンサビリティ アンド トレイニング コスツ ムーヴ アウトワード、アン オーガナイゼーション メイ ウィークン イッツ オウン キャパシティ トゥ リプロデュース スキルズ。",
+    "japaneseTranslation": "権限と評価が中心に残る一方で、責任と育成費用が外側へ移ると、組織は技能を再生産する自らの能力を弱めることがあります。",
+    "theme": "権限と育成責任の偏りが技能継承を弱める",
+    "coreVerb": "weaken",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "An organization weakens.",
+        "translation": "組織は弱くなる。"
+      },
+      "phase2": {
+        "sentence": "An organization weakens its capacity.",
+        "translation": "組織は自らの能力を弱める。",
+        "addedChunks": "目的語(its capacity)を追加"
+      },
+      "phase3": {
+        "sentence": "An organization may weaken because training costs move outward.",
+        "translation": "育成費用が外側へ移るため、組織は弱体化することがある。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Authority remains more centralized than responsibility.",
+        "translation": "権限は責任より中央に集中したままだ。",
+        "comparison": "more centralized than"
+      },
+      "phase5": {
+        "sentence": "When authority and evaluation remain at the center while responsibility and training costs move outward",
+        "translation": "権限と評価が中心に残る一方で、責任と育成費用が外側へ移ると。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When authority and evaluation",
+          "function": "接続",
+          "translation": "権限と評価が〜するとき"
+        },
+        {
+          "text": "remain at the center",
+          "function": "場所",
+          "translation": "中心に残る"
+        },
+        {
+          "text": "while responsibility and training costs",
+          "function": "接続",
+          "translation": "一方で責任と育成費用が"
+        },
+        {
+          "text": "move outward",
+          "function": "行動",
+          "translation": "外側へ移る"
+        },
+        {
+          "text": "an organization may weaken its own capacity",
+          "function": "結果",
+          "translation": "組織は自らの能力を弱めることがある"
+        },
+        {
+          "text": "to reproduce skills",
+          "function": "目的",
+          "translation": "技能を再生産するための"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "条件",
+          "name": "when節",
+          "where": "When authority and evaluation remain ...",
+          "explanation": "ある配置が成立する場合の結果を導く。",
+          "rule": "When + 現在形, 主節"
+        },
+        {
+          "category": "並列",
+          "name": "名詞の並列",
+          "where": "authority and evaluation",
+          "explanation": "二つの中心的機能を同じ主語として結ぶ。",
+          "rule": "A and B"
+        },
+        {
+          "category": "語法",
+          "name": "remain at",
+          "where": "remain at the center",
+          "explanation": "ある位置・状態にとどまることを表す。",
+          "rule": "remain + 前置詞句"
+        },
+        {
+          "category": "対照",
+          "name": "while節",
+          "where": "while responsibility and training costs move outward",
+          "explanation": "二つの方向が同時に対照的に進むことを示す。",
+          "rule": "while + 節"
+        },
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may weaken",
+          "explanation": "断定を避け、起こりうる結果を表す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "再帰的所有",
+          "name": "its own",
+          "where": "its own capacity",
+          "explanation": "組織自身が持つ能力であることを強調する。",
+          "rule": "所有格 + own + 名詞"
+        },
+        {
+          "category": "不定詞",
+          "name": "capacity to do",
+          "where": "capacity to reproduce skills",
+          "explanation": "能力の具体的内容をto不定詞で説明する。",
+          "rule": "capacity to + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When authority remain at the center",
+          "correct": "When authority remains at the center",
+          "why": "単数不可算名詞authorityに現在形の三単現-sが必要。"
+        },
+        {
+          "wrong": "while responsibility move outward",
+          "correct": "while responsibility moves outward",
+          "why": "単数主語responsibilityにはmovesを使う。"
+        },
+        {
+          "wrong": "may weakens its capacity",
+          "correct": "may weaken its capacity",
+          "why": "助動詞mayの後は動詞原形を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Centralized authority can coexist with outsourced responsibility.",
+          "translation": "中央集権的な権限は、外部化された責任と共存しうる。"
+        },
+        {
+          "text": "An organization loses continuity when it stops bearing the cost of training successors.",
+          "translation": "組織は後継者育成の費用を負わなくなると継続性を失う。"
+        },
+        {
+          "text": "Keeping evaluation inside while pushing training outside can erode skill transfer.",
+          "translation": "評価を内部に残しつつ育成を外へ押し出すと、技能移転が損なわれうる。"
+        }
+      ],
+      "parseTree": "[Adv: When S(authority and evaluation) V(remain) [Adv: at the center] while S(responsibility and training costs) V(move) Adv(outward)], S(an organization) Aux(may) V(weaken) O(its own capacity [Inf: to reproduce skills])."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "may weaken its own capacity to reproduce skills",
+          "expanded": "because fewer resources remain for training successors",
+          "nuance": "後継者育成資源が減るという理由を補う。"
+        },
+        {
+          "original": "responsibility and training costs move outward",
+          "expanded": "since the center no longer bears the full cost of reproduction",
+          "nuance": "中心が再生産費用を負わない構造を明示する。"
+        },
+        {
+          "original": "authority and evaluation remain at the center",
+          "expanded": "therefore, decision power becomes separated from the cost of maintaining expertise",
+          "nuance": "権限と維持費用の分離という帰結を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "An organization's capacity to reproduce skills may be weakened when training costs are pushed outward.",
+          "translation": "育成費用が外へ押し出されると、組織の技能再生産能力は弱められることがある。",
+          "note": "capacityを主語にして損なわれる側を焦点化する。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Retaining authority at the center, an organization may still externalize responsibility and training costs.",
+          "translation": "権限を中心に保持しながら、組織は責任と育成費用を外部化することがある。",
+          "note": "同時に起きる配置を-ing句で表す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The separation of authority from training responsibility can reduce the reproduction of skills.",
+          "translation": "権限と育成責任の分離は、技能の再生産を減らしうる。",
+          "note": "separateとreproduceを名詞化して関係を圧縮する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "reproduce",
+            "alternatives": [
+              "maintain",
+              "transmit",
+              "renew"
+            ],
+            "nuance": "reproduceは技能を次世代に再び生み出すこと、maintainは維持、transmitは伝達、renewは更新に重点がある。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "配置の対照",
+            "sentence": "Authority stays inside, whereas the costs of maintaining expertise are transferred outside.",
+            "translation": "権限は内部に残る一方、専門性維持の費用は外へ移される。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "An organization is more durable when decision makers also bear training costs.",
+            "translation": "意思決定者が育成費用も負うとき、組織はより持続的である。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If no actor funds apprenticeship, specialized skills may disappear between generations.",
+            "translation": "誰も徒弟育成へ資金を出さなければ、専門技能は世代間で消えることがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What weakens the organization is the separation of authority from responsibility.",
+            "translation": "組織を弱めるのは権限と責任の分離である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Authority without training costs erodes continuity.",
+            "translation": "育成費用を伴わない権限は継続性を損なう。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "権限・評価と責任・育成費用の流れを対照させ、技能継承への影響をmayで慎重に述べた。概念密度が高いためflexibilityとefficiencyを8とした。"
+    }
+  }
+]
