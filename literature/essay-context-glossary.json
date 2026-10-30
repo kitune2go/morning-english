@@ -3326,5 +3326,263 @@
         }
       ]
     }
+  ],
+"DE-20261030-001": [
+    {
+      "words": {
+        "machining": {
+          "ja": "機械加工",
+          "pos": "語句",
+          "lemma": "machining",
+          "form": "",
+          "note": "machining：この作品では「機械加工」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "In a machining lesson, dimensions and point coordinates can evolve into separate input systems until a valid bore value no longer appears as a hole.",
+          "ja": "加工教材では寸法と点座標が別の入力系へ育ち、正しい内径値が穴として現れなくなることがある。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "diagonal": {
+          "ja": "斜線",
+          "pos": "語句",
+          "lemma": "diagonal",
+          "form": "",
+          "note": "diagonal：この作品では「斜線」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A stray diagonal line and a reversed section view may look like calculation errors, yet the deeper problem is a mismatch of references.",
+          "ja": "余分な斜線と逆向きの断面は計算ミスに見えても、深い問題は基準の不一致にある。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "origin": {
+          "ja": "原点",
+          "pos": "語句",
+          "lemma": "origin",
+          "form": "",
+          "note": "origin：この作品では「原点」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Repair begins by making every process describe the same point from the same origin and orientation.",
+          "ja": "修正は、すべての工程が同じ原点と向きから同じ点を表すようにすることから始まる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "coordinate": {
+          "ja": "座標系",
+          "pos": "語句",
+          "lemma": "coordinates",
+          "form": "",
+          "note": "coordinates：この作品では「座標系」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Correct numbers cannot produce the correct shape when the coordinate systems disagree.",
+          "ja": "座標系が食い違えば、正しい数字も正しい形を作れない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261030-002": [
+    {
+      "words": {
+        "emotion": {
+          "ja": "感情",
+          "pos": "語句",
+          "lemma": "emotion",
+          "form": "",
+          "note": "emotion：この作品では「感情」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Football disputes are never only about emotion.",
+          "ja": "サッカーの争いは感情だけの問題ではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "ledgers": {
+          "ja": "複数の利害帳簿",
+          "pos": "語句",
+          "lemma": "ledgers",
+          "form": "",
+          "note": "ledgers：この作品では「複数の利害帳簿」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A single decision can affect promotion, revenue sharing, attendance, and contracts, so one whistle moves several ledgers at once.",
+          "ja": "一つの判定が昇格、収益分配、観客、契約へ影響するため、一本の笛が複数の帳簿を同時に動かす。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "clubs": {
+          "ja": "クラブ",
+          "pos": "語句",
+          "lemma": "clubs",
+          "form": "",
+          "note": "clubs：この作品では「クラブ」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "More clubs may widen regional access without creating equal growth in money or attention.",
+          "ja": "クラブ増加は地域の入口を広げても、金や注目を同じだけ増やすとは限らない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "exceptions": {
+          "ja": "特例",
+          "pos": "語句",
+          "lemma": "exceptions",
+          "form": "",
+          "note": "exceptions：この作品では「特例」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When exceptions or mid-competition rule changes appear, the reference point of the contest itself seems to shift.",
+          "ja": "特例や競争途中のルール変更が現れると、競争自体の基準点が動いたように見える。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "allocate": {
+          "ja": "配分する",
+          "pos": "語句",
+          "lemma": "allocate",
+          "form": "",
+          "note": "allocate：この作品では「配分する」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Rules are not just boundary lines; they are coordinates that allocate routes to value.",
+          "ja": "規則は境界線であるだけでなく、価値へ至る経路を配分する座標でもある。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261030-003": [
+    {
+      "words": {
+        "tier": {
+          "ja": "リーグ階層",
+          "pos": "語句",
+          "lemma": "tier",
+          "form": "",
+          "note": "tier：この作品では「リーグ階層」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "J2 and the English second tier share a label, not a scale.",
+          "ja": "J2とイングランド二部は名札を共有しても、尺度は共有しない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "concentrations": {
+          "ja": "資金と才能の密度",
+          "pos": "語句",
+          "lemma": "concentrations",
+          "form": "",
+          "note": "concentrations：この作品では「資金と才能の密度」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Population, media rights, player markets, history, and movement between divisions shape very different concentrations of money and talent.",
+          "ja": "人口、放映権、選手市場、歴史、昇降格が、資金と才能の大きく異なる密度を作る。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "drawings": {
+          "ja": "図面",
+          "pos": "語句",
+          "lemma": "drawings",
+          "form": "",
+          "note": "drawings：この作品では「図面」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Placing the two names side by side is like comparing identical numbers taken from different drawings.",
+          "ja": "二つの名前を横に置くだけでは、別の図面から取った同じ数字を比べるようなものだ。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "coordinate": {
+          "ja": "基準座標",
+          "pos": "語句",
+          "lemma": "coordinate",
+          "form": "",
+          "note": "coordinate：この作品では「基準座標」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A serious comparison must reconstruct the coordinate system behind each league.",
+          "ja": "真剣な比較には、各リーグの背後にある座標系の再構築が必要だ。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "ruler": {
+          "ja": "比較尺度",
+          "pos": "語句",
+          "lemma": "ruler",
+          "form": "",
+          "note": "ruler：この作品では「比較尺度」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The task is not merely to apply one ruler, but to ask what made that ruler meaningful.",
+          "ja": "仕事は一つの物差しを当てることではなく、何がその物差しを意味あるものにしたかを問うことだ。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
   ]
 }
