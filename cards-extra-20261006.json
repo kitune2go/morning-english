@@ -1,0 +1,240 @@
+[
+  {
+    "_no": 159,
+    "_generatedAt": "2026-10-31T02:15:00+09:00",
+    "sentence": "A market can absorb criticism directed at it, turning the language of rebellion into another product for ranking, sharing, and sale.",
+    "phonetic": "ア マーケット キャン アブゾーブ クリティシズム ディレクテッド アット イット、ターニング ザ ランゲージ オブ リベリオン イントゥ アナザー プロダクト フォー ランキング、シェアリング、アンド セイル。",
+    "japaneseTranslation": "市場は自らに向けられた批判を取り込み、反逆の言葉を、順位付け・共有・販売の対象となる別の商品へ変えることがあります。",
+    "theme": "市場批判が商品化される仕組みを捉える",
+    "coreVerb": "absorb",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A market absorbs.",
+        "translation": "市場は取り込む。"
+      },
+      "phase2": {
+        "sentence": "A market absorbs criticism.",
+        "translation": "市場は批判を取り込む。",
+        "addedChunks": "目的語(criticism)を追加"
+      },
+      "phase3": {
+        "sentence": "A market absorbs criticism because attention can be monetized.",
+        "translation": "注目は収益化できるので、市場は批判を取り込む。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Rebellious language can travel farther as a product than as an isolated complaint.",
+        "translation": "反逆的な言葉は、孤立した不満としてより商品としての方が遠くへ届きうる。",
+        "comparison": "farther ... than"
+      },
+      "phase5": {
+        "sentence": "A market can absorb criticism directed at it",
+        "translation": "市場は自らに向けられた批判を取り込むことがある。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A market can absorb",
+          "function": "行動",
+          "translation": "市場は取り込むことがある"
+        },
+        {
+          "text": "criticism directed at it",
+          "function": "対象",
+          "translation": "自らに向けられた批判を"
+        },
+        {
+          "text": "turning the language of rebellion",
+          "function": "行動",
+          "translation": "反逆の言葉を変えて"
+        },
+        {
+          "text": "into another product",
+          "function": "結果",
+          "translation": "別の商品へ"
+        },
+        {
+          "text": "for ranking, sharing, and sale",
+          "function": "目的",
+          "translation": "順位付け・共有・販売の対象として"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can absorb",
+          "explanation": "能力だけでなく起こりうる可能性を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "absorb + 目的語",
+          "where": "absorb criticism",
+          "explanation": "外部のものを内部へ取り込む比喩的用法。",
+          "rule": "absorb + 名詞"
+        },
+        {
+          "category": "分詞",
+          "name": "過去分詞修飾",
+          "where": "criticism directed at it",
+          "explanation": "criticismが向けられる受動関係を表す。",
+          "rule": "名詞 + 過去分詞句"
+        },
+        {
+          "category": "代名詞",
+          "name": "itの照応",
+          "where": "directed at it",
+          "explanation": "itは単数名詞a marketを受ける。",
+          "rule": "単数名詞 → it"
+        },
+        {
+          "category": "分詞",
+          "name": "結果を示す-ing",
+          "where": "turning the language ...",
+          "explanation": "前節の作用から生じる変化を補足する。",
+          "rule": ", -ing ..."
+        },
+        {
+          "category": "語法",
+          "name": "turn A into B",
+          "where": "turning ... into another product",
+          "explanation": "AをBへ変えることを表す。",
+          "rule": "turn A into B"
+        },
+        {
+          "category": "並列",
+          "name": "動名詞の三項並列",
+          "where": "ranking, sharing, and sale",
+          "explanation": "関連する用途を同じ文法階層で並べる。",
+          "rule": "A, B, and C"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A market can absorbs criticism.",
+          "correct": "A market can absorb criticism.",
+          "why": "助動詞canの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "criticism directing at it",
+          "correct": "criticism directed at it",
+          "why": "criticismは向けられる側なので過去分詞を使う。"
+        },
+        {
+          "wrong": "turning rebellion language to a product",
+          "correct": "turning the language of rebellion into a product",
+          "why": "変化を表すturnはturn A into Bの形を取る。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Markets can package their own critics as products.",
+          "translation": "市場は自らへの批判者を商品として包装できる。"
+        },
+        {
+          "text": "Rebellious language may become inventory once platforms rank and sell attention.",
+          "translation": "プラットフォームが注目を順位付けして売ると、反逆の言葉も在庫になりうる。"
+        },
+        {
+          "text": "Commercial circulation can spread criticism while also turning it into merchandise.",
+          "translation": "商業的流通は批判を広める一方、それを商品にも変えうる。"
+        }
+      ],
+      "parseTree": "S(A market) Aux(can) V(absorb) O(criticism [Part: directed at it]), [Part: turning O(the language of rebellion) C(into another product) [Adv: for ranking, sharing, and sale]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "turning the language of rebellion into another product",
+          "expanded": "because platforms can monetize the attention that criticism attracts",
+          "nuance": "批判が集める注目の収益化を理由として補う。"
+        },
+        {
+          "original": "can absorb criticism directed at it",
+          "expanded": "since opposition can also generate demand and circulation",
+          "nuance": "反対意見も需要と流通を生む点を示す。"
+        },
+        {
+          "original": "for ranking, sharing, and sale",
+          "expanded": "therefore, criticism may circulate through the same system it attacks",
+          "nuance": "批判が批判対象の仕組みを通るという帰結を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Criticism directed at a market can be absorbed and sold by that same market.",
+          "translation": "市場に向けられた批判は、その同じ市場に取り込まれ、売られうる。",
+          "note": "criticismを主語にして商品化される側へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Monetizing attention, a platform can package rebellious language as a product.",
+          "translation": "注目を収益化することで、プラットフォームは反逆的な言葉を商品として包装できる。",
+          "note": "収益化の仕組みを-ing句で前置する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The commercialization of criticism does not erase the criticism itself.",
+          "translation": "批判の商品化は、批判そのものを消し去るわけではない。",
+          "note": "commercializeを名詞化し、内容の妥当性と流通形態を分ける。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "absorb",
+            "alternatives": [
+              "incorporate",
+              "appropriate",
+              "commodify"
+            ],
+            "nuance": "absorbは取り込む、incorporateは組み込む、appropriateは横取りする含み、commodifyは商品へ変える点を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "両立",
+            "sentence": "A platform may amplify criticism even as it profits from the criticism's circulation.",
+            "translation": "プラットフォームは批判の流通から利益を得ながら、その批判を増幅することがある。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Commercial packaging may spread a slogan farther than private discussion does.",
+            "translation": "商業的な包装は私的な議論より標語を遠くへ広げることがある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If attention can be sold, even anti-market language may acquire a price.",
+            "translation": "注目を売れるなら、反市場的な言葉にさえ価格が付くことがある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the market captures is not agreement but attention.",
+            "translation": "市場が捕らえるのは同意ではなく注目である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Markets can sell rebellion.",
+            "translation": "市場は反逆を売ることができる。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "市場批判の商品化を、批判内容の否定と混同せずcanで可能性として表した。分詞修飾とturn A into Bが実用的だが、抽象主語のためflexibilityを8とした。"
+    }
+  }
+]
