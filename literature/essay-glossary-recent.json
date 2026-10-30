@@ -3190,5 +3190,877 @@
     "lemma": "yourself",
     "form": "",
     "note": "yourself：この文脈では「自分自身」"
+  },
+  {
+    "word": "absorbed",
+    "ja": "引き受けた",
+    "pos": "語句",
+    "lemma": "absorbed",
+    "form": "",
+    "note": "absorbed：この文脈では「引き受けた」"
+  },
+  {
+    "word": "accommodation",
+    "ja": "合理的配慮",
+    "pos": "語句",
+    "lemma": "accommodation",
+    "form": "",
+    "note": "accommodation：この文脈では「合理的配慮」"
+  },
+  {
+    "word": "accusation",
+    "ja": "非難",
+    "pos": "語句",
+    "lemma": "accusation",
+    "form": "",
+    "note": "accusation：この文脈では「非難」"
+  },
+  {
+    "word": "affect",
+    "ja": "影響する",
+    "pos": "語句",
+    "lemma": "affect",
+    "form": "",
+    "note": "affect：この文脈では「影響する」"
+  },
+  {
+    "word": "alley",
+    "ja": "ボウリング場",
+    "pos": "語句",
+    "lemma": "alley",
+    "form": "",
+    "note": "alley：この文脈では「ボウリング場」"
+  },
+  {
+    "word": "allocate",
+    "ja": "配分する",
+    "pos": "語句",
+    "lemma": "allocate",
+    "form": "",
+    "note": "allocate：この文脈では「配分する」"
+  },
+  {
+    "word": "apply",
+    "ja": "当てはめる",
+    "pos": "語句",
+    "lemma": "apply",
+    "form": "",
+    "note": "apply：この文脈では「当てはめる」"
+  },
+  {
+    "word": "attendance",
+    "ja": "観客動員",
+    "pos": "語句",
+    "lemma": "attendance",
+    "form": "",
+    "note": "attendance：この文脈では「観客動員」"
+  },
+  {
+    "word": "blurred",
+    "ja": "曖昧な",
+    "pos": "語句",
+    "lemma": "blurred",
+    "form": "",
+    "note": "blurred：この文脈では「曖昧な」"
+  },
+  {
+    "word": "bore",
+    "ja": "内径・穴",
+    "pos": "語句",
+    "lemma": "bore",
+    "form": "",
+    "note": "bore：この文脈では「内径・穴」"
+  },
+  {
+    "word": "bowling",
+    "ja": "ボウリング",
+    "pos": "語句",
+    "lemma": "bowling",
+    "form": "",
+    "note": "bowling：この文脈では「ボウリング」"
+  },
+  {
+    "word": "calculation",
+    "ja": "計算",
+    "pos": "語句",
+    "lemma": "calculation",
+    "form": "",
+    "note": "calculation：この文脈では「計算」"
+  },
+  {
+    "word": "clubs",
+    "ja": "クラブ",
+    "pos": "語句",
+    "lemma": "clubs",
+    "form": "",
+    "note": "clubs：この文脈では「クラブ」"
+  },
+  {
+    "word": "commanding",
+    "ja": "命令すること",
+    "pos": "語句",
+    "lemma": "commanding",
+    "form": "",
+    "note": "commanding：この文脈では「命令すること」"
+  },
+  {
+    "word": "communities",
+    "ja": "共同体",
+    "pos": "語句",
+    "lemma": "communities",
+    "form": "",
+    "note": "communities：この文脈では「共同体」"
+  },
+  {
+    "word": "community",
+    "ja": "共同体",
+    "pos": "語句",
+    "lemma": "community",
+    "form": "",
+    "note": "community：この文脈では「共同体」"
+  },
+  {
+    "word": "comparing",
+    "ja": "比較すること",
+    "pos": "語句",
+    "lemma": "comparing",
+    "form": "",
+    "note": "comparing：この文脈では「比較すること」"
+  },
+  {
+    "word": "concentrations",
+    "ja": "集中・密度",
+    "pos": "語句",
+    "lemma": "concentrations",
+    "form": "",
+    "note": "concentrations：この文脈では「集中・密度」"
+  },
+  {
+    "word": "contracts",
+    "ja": "契約",
+    "pos": "語句",
+    "lemma": "contracts",
+    "form": "",
+    "note": "contracts：この文脈では「契約」"
+  },
+  {
+    "word": "coordinate",
+    "ja": "座標",
+    "pos": "語句",
+    "lemma": "coordinate",
+    "form": "",
+    "note": "coordinate：この文脈では「座標」"
+  },
+  {
+    "word": "coordinates",
+    "ja": "座標",
+    "pos": "語句",
+    "lemma": "coordinates",
+    "form": "",
+    "note": "coordinates：この文脈では「座標」"
+  },
+  {
+    "word": "creating",
+    "ja": "生み出すこと",
+    "pos": "語句",
+    "lemma": "creating",
+    "form": "",
+    "note": "creating：この文脈では「生み出すこと」"
+  },
+  {
+    "word": "deeper",
+    "ja": "より深い",
+    "pos": "語句",
+    "lemma": "deeper",
+    "form": "",
+    "note": "deeper：この文脈では「より深い」"
+  },
+  {
+    "word": "depression",
+    "ja": "鬱",
+    "pos": "語句",
+    "lemma": "depression",
+    "form": "",
+    "note": "depression：この文脈では「鬱」"
+  },
+  {
+    "word": "determine",
+    "ja": "決定する",
+    "pos": "語句",
+    "lemma": "determine",
+    "form": "",
+    "note": "determine：この文脈では「決定する」"
+  },
+  {
+    "word": "diagonal",
+    "ja": "斜めの",
+    "pos": "語句",
+    "lemma": "diagonal",
+    "form": "",
+    "note": "diagonal：この文脈では「斜めの」"
+  },
+  {
+    "word": "disagree",
+    "ja": "食い違う",
+    "pos": "語句",
+    "lemma": "disagree",
+    "form": "",
+    "note": "disagree：この文脈では「食い違う」"
+  },
+  {
+    "word": "discrimination",
+    "ja": "差別",
+    "pos": "語句",
+    "lemma": "discrimination",
+    "form": "",
+    "note": "discrimination：この文脈では「差別」"
+  },
+  {
+    "word": "disputes",
+    "ja": "争い",
+    "pos": "語句",
+    "lemma": "disputes",
+    "form": "",
+    "note": "disputes：この文脈では「争い」"
+  },
+  {
+    "word": "divisions",
+    "ja": "部門・リーグ階層",
+    "pos": "語句",
+    "lemma": "divisions",
+    "form": "",
+    "note": "divisions：この文脈では「部門・リーグ階層」"
+  },
+  {
+    "word": "drawings",
+    "ja": "図面",
+    "pos": "語句",
+    "lemma": "drawings",
+    "form": "",
+    "note": "drawings：この文脈では「図面」"
+  },
+  {
+    "word": "economic",
+    "ja": "経済の",
+    "pos": "語句",
+    "lemma": "economic",
+    "form": "",
+    "note": "economic：この文脈では「経済の」"
+  },
+  {
+    "word": "endurance",
+    "ja": "忍耐",
+    "pos": "語句",
+    "lemma": "endurance",
+    "form": "",
+    "note": "endurance：この文脈では「忍耐」"
+  },
+  {
+    "word": "environment",
+    "ja": "環境",
+    "pos": "語句",
+    "lemma": "environment",
+    "form": "",
+    "note": "environment：この文脈では「環境」"
+  },
+  {
+    "word": "errors",
+    "ja": "誤り",
+    "pos": "語句",
+    "lemma": "errors",
+    "form": "",
+    "note": "errors：この文脈では「誤り」"
+  },
+  {
+    "word": "evolve",
+    "ja": "発展する",
+    "pos": "語句",
+    "lemma": "evolve",
+    "form": "",
+    "note": "evolve：この文脈では「発展する」"
+  },
+  {
+    "word": "exceptions",
+    "ja": "特例",
+    "pos": "語句",
+    "lemma": "exceptions",
+    "form": "",
+    "note": "exceptions：この文脈では「特例」"
+  },
+  {
+    "word": "exits",
+    "ja": "出口",
+    "pos": "語句",
+    "lemma": "exits",
+    "form": "",
+    "note": "exits：この文脈では「出口」"
+  },
+  {
+    "word": "face-to-face",
+    "ja": "対面の",
+    "pos": "語句",
+    "lemma": "face-to-face",
+    "form": "",
+    "note": "face-to-face：この文脈では「対面の」"
+  },
+  {
+    "word": "fewer",
+    "ja": "より少ない",
+    "pos": "語句",
+    "lemma": "fewer",
+    "form": "",
+    "note": "fewer：この文脈では「より少ない」"
+  },
+  {
+    "word": "five",
+    "ja": "五つの",
+    "pos": "語句",
+    "lemma": "five",
+    "form": "",
+    "note": "five：この文脈では「五つの」"
+  },
+  {
+    "word": "football",
+    "ja": "サッカー",
+    "pos": "語句",
+    "lemma": "football",
+    "form": "",
+    "note": "football：この文脈では「サッカー」"
+  },
+  {
+    "word": "generational",
+    "ja": "世代の",
+    "pos": "語句",
+    "lemma": "generational",
+    "form": "",
+    "note": "generational：この文脈では「世代の」"
+  },
+  {
+    "word": "gossip",
+    "ja": "噂",
+    "pos": "語句",
+    "lemma": "gossip",
+    "form": "",
+    "note": "gossip：この文脈では「噂」"
+  },
+  {
+    "word": "improved",
+    "ja": "改善した",
+    "pos": "語句",
+    "lemma": "improved",
+    "form": "",
+    "note": "improved：この文脈では「改善した」"
+  },
+  {
+    "word": "inconvenience",
+    "ja": "不便",
+    "pos": "語句",
+    "lemma": "inconvenience",
+    "form": "",
+    "note": "inconvenience：この文脈では「不便」"
+  },
+  {
+    "word": "indicator",
+    "ja": "指標",
+    "pos": "語句",
+    "lemma": "indicator",
+    "form": "",
+    "note": "indicator：この文脈では「指標」"
+  },
+  {
+    "word": "instability",
+    "ja": "不安定さ",
+    "pos": "語句",
+    "lemma": "instability",
+    "form": "",
+    "note": "instability：この文脈では「不安定さ」"
+  },
+  {
+    "word": "invitation",
+    "ja": "誘い",
+    "pos": "語句",
+    "lemma": "invitation",
+    "form": "",
+    "note": "invitation：この文脈では「誘い」"
+  },
+  {
+    "word": "isolation",
+    "ja": "孤立",
+    "pos": "語句",
+    "lemma": "isolation",
+    "form": "",
+    "note": "isolation：この文脈では「孤立」"
+  },
+  {
+    "word": "j",
+    "ja": "Jリーグの",
+    "pos": "語句",
+    "lemma": "j",
+    "form": "",
+    "note": "j：この文脈では「Jリーグの」"
+  },
+  {
+    "word": "kings",
+    "ja": "王たち",
+    "pos": "語句",
+    "lemma": "kings",
+    "form": "",
+    "note": "kings：この文脈では「王たち」"
+  },
+  {
+    "word": "lane",
+    "ja": "レーン",
+    "pos": "語句",
+    "lemma": "lane",
+    "form": "",
+    "note": "lane：この文脈では「レーン」"
+  },
+  {
+    "word": "laws",
+    "ja": "法",
+    "pos": "語句",
+    "lemma": "laws",
+    "form": "",
+    "note": "laws：この文脈では「法」"
+  },
+  {
+    "word": "league",
+    "ja": "リーグ",
+    "pos": "語句",
+    "lemma": "league",
+    "form": "",
+    "note": "league：この文脈では「リーグ」"
+  },
+  {
+    "word": "legends",
+    "ja": "伝説",
+    "pos": "語句",
+    "lemma": "legends",
+    "form": "",
+    "note": "legends：この文脈では「伝説」"
+  },
+  {
+    "word": "lesson",
+    "ja": "教材",
+    "pos": "語句",
+    "lemma": "lesson",
+    "form": "",
+    "note": "lesson：この文脈では「教材」"
+  },
+  {
+    "word": "machining",
+    "ja": "機械加工",
+    "pos": "語句",
+    "lemma": "machining",
+    "form": "",
+    "note": "machining：この文脈では「機械加工」"
+  },
+  {
+    "word": "meaningful",
+    "ja": "意味のある",
+    "pos": "語句",
+    "lemma": "meaningful",
+    "form": "",
+    "note": "meaningful：この文脈では「意味のある」"
+  },
+  {
+    "word": "meant",
+    "ja": "意図された",
+    "pos": "語句",
+    "lemma": "meant",
+    "form": "",
+    "note": "meant：この文脈では「意図された」"
+  },
+  {
+    "word": "media",
+    "ja": "メディア・放映",
+    "pos": "語句",
+    "lemma": "media",
+    "form": "",
+    "note": "media：この文脈では「メディア・放映」"
+  },
+  {
+    "word": "metric",
+    "ja": "指標",
+    "pos": "語句",
+    "lemma": "metric",
+    "form": "",
+    "note": "metric：この文脈では「指標」"
+  },
+  {
+    "word": "mid-competition",
+    "ja": "競争途中の",
+    "pos": "語句",
+    "lemma": "mid-competition",
+    "form": "",
+    "note": "mid-competition：この文脈では「競争途中の」"
+  },
+  {
+    "word": "moral",
+    "ja": "道徳的な",
+    "pos": "語句",
+    "lemma": "moral",
+    "form": "",
+    "note": "moral：この文脈では「道徳的な」"
+  },
+  {
+    "word": "newcomers",
+    "ja": "新しく入る人々",
+    "pos": "語句",
+    "lemma": "newcomers",
+    "form": "",
+    "note": "newcomers：この文脈では「新しく入る人々」"
+  },
+  {
+    "word": "norms",
+    "ja": "規範",
+    "pos": "語句",
+    "lemma": "norms",
+    "form": "",
+    "note": "norms：この文脈では「規範」"
+  },
+  {
+    "word": "obstructed",
+    "ja": "妨げられた",
+    "pos": "語句",
+    "lemma": "obstructed",
+    "form": "",
+    "note": "obstructed：この文脈では「妨げられた」"
+  },
+  {
+    "word": "oppressive",
+    "ja": "抑圧的な",
+    "pos": "語句",
+    "lemma": "oppressive",
+    "form": "",
+    "note": "oppressive：この文脈では「抑圧的な」"
+  },
+  {
+    "word": "patience",
+    "ja": "忍耐",
+    "pos": "語句",
+    "lemma": "patience",
+    "form": "",
+    "note": "patience：この文脈では「忍耐」"
+  },
+  {
+    "word": "placing",
+    "ja": "並べること",
+    "pos": "語句",
+    "lemma": "placing",
+    "form": "",
+    "note": "placing：この文脈では「並べること」"
+  },
+  {
+    "word": "praising",
+    "ja": "褒めること",
+    "pos": "語句",
+    "lemma": "praising",
+    "form": "",
+    "note": "praising：この文脈では「褒めること」"
+  },
+  {
+    "word": "reconstruct",
+    "ja": "再構築する",
+    "pos": "語句",
+    "lemma": "reconstruct",
+    "form": "",
+    "note": "reconstruct：この文脈では「再構築する」"
+  },
+  {
+    "word": "redelivery",
+    "ja": "再配達",
+    "pos": "語句",
+    "lemma": "redelivery",
+    "form": "",
+    "note": "redelivery：この文脈では「再配達」"
+  },
+  {
+    "word": "references",
+    "ja": "基準",
+    "pos": "語句",
+    "lemma": "references",
+    "form": "",
+    "note": "references：この文脈では「基準」"
+  },
+  {
+    "word": "reflecting",
+    "ja": "映すこと",
+    "pos": "語句",
+    "lemma": "reflecting",
+    "form": "",
+    "note": "reflecting：この文脈では「映すこと」"
+  },
+  {
+    "word": "renting",
+    "ja": "借りること",
+    "pos": "語句",
+    "lemma": "renting",
+    "form": "",
+    "note": "renting：この文脈では「借りること」"
+  },
+  {
+    "word": "replaces",
+    "ja": "置き換える",
+    "pos": "語句",
+    "lemma": "replaces",
+    "form": "",
+    "note": "replaces：この文脈では「置き換える」"
+  },
+  {
+    "word": "restraint",
+    "ja": "抑制",
+    "pos": "語句",
+    "lemma": "restraint",
+    "form": "",
+    "note": "restraint：この文脈では「抑制」"
+  },
+  {
+    "word": "reversed",
+    "ja": "逆向きの",
+    "pos": "語句",
+    "lemma": "reversed",
+    "form": "",
+    "note": "reversed：この文脈では「逆向きの」"
+  },
+  {
+    "word": "ruler",
+    "ja": "物差し",
+    "pos": "語句",
+    "lemma": "ruler",
+    "form": "",
+    "note": "ruler：この文脈では「物差し」"
+  },
+  {
+    "word": "seats",
+    "ja": "席",
+    "pos": "語句",
+    "lemma": "seats",
+    "form": "",
+    "note": "seats：この文脈では「席」"
+  },
+  {
+    "word": "section",
+    "ja": "断面",
+    "pos": "語句",
+    "lemma": "section",
+    "form": "",
+    "note": "section：この文脈では「断面」"
+  },
+  {
+    "word": "senior",
+    "ja": "先輩の",
+    "pos": "語句",
+    "lemma": "senior",
+    "form": "",
+    "note": "senior：この文脈では「先輩の」"
+  },
+  {
+    "word": "sent",
+    "ja": "送られた",
+    "pos": "語句",
+    "lemma": "sent",
+    "form": "",
+    "note": "sent：この文脈では「送られた」"
+  },
+  {
+    "word": "serious",
+    "ja": "真剣な",
+    "pos": "語句",
+    "lemma": "serious",
+    "form": "",
+    "note": "serious：この文脈では「真剣な」"
+  },
+  {
+    "word": "setting",
+    "ja": "環境・設定",
+    "pos": "語句",
+    "lemma": "setting",
+    "form": "",
+    "note": "setting：この文脈では「環境・設定」"
+  },
+  {
+    "word": "sharpness",
+    "ja": "鋭さ",
+    "pos": "語句",
+    "lemma": "sharpness",
+    "form": "",
+    "note": "sharpness：この文脈では「鋭さ」"
+  },
+  {
+    "word": "shedding",
+    "ja": "捨てること",
+    "pos": "語句",
+    "lemma": "shedding",
+    "form": "",
+    "note": "shedding：この文脈では「捨てること」"
+  },
+  {
+    "word": "sideways",
+    "ja": "横へ",
+    "pos": "語句",
+    "lemma": "sideways",
+    "form": "",
+    "note": "sideways：この文脈では「横へ」"
+  },
+  {
+    "word": "skill",
+    "ja": "技能",
+    "pos": "語句",
+    "lemma": "skill",
+    "form": "",
+    "note": "skill：この文脈では「技能」"
+  },
+  {
+    "word": "societies",
+    "ja": "社会",
+    "pos": "語句",
+    "lemma": "societies",
+    "form": "",
+    "note": "societies：この文脈では「社会」"
+  },
+  {
+    "word": "solitude",
+    "ja": "孤独",
+    "pos": "語句",
+    "lemma": "solitude",
+    "form": "",
+    "note": "solitude：この文脈では「孤独」"
+  },
+  {
+    "word": "states",
+    "ja": "国家",
+    "pos": "語句",
+    "lemma": "states",
+    "form": "",
+    "note": "states：この文脈では「国家」"
+  },
+  {
+    "word": "stone",
+    "ja": "石",
+    "pos": "語句",
+    "lemma": "stone",
+    "form": "",
+    "note": "stone：この文脈では「石」"
+  },
+  {
+    "word": "strangers",
+    "ja": "知らない者同士",
+    "pos": "語句",
+    "lemma": "strangers",
+    "form": "",
+    "note": "strangers：この文脈では「知らない者同士」"
+  },
+  {
+    "word": "stray",
+    "ja": "余分な",
+    "pos": "語句",
+    "lemma": "stray",
+    "form": "",
+    "note": "stray：この文脈では「余分な」"
+  },
+  {
+    "word": "succession",
+    "ja": "交代・継承",
+    "pos": "語句",
+    "lemma": "succession",
+    "form": "",
+    "note": "succession：この文脈では「交代・継承」"
+  },
+  {
+    "word": "surrendering",
+    "ja": "手放すこと",
+    "pos": "語句",
+    "lemma": "surrendering",
+    "form": "",
+    "note": "surrendering：この文脈では「手放すこと」"
+  },
+  {
+    "word": "taken",
+    "ja": "取られた",
+    "pos": "語句",
+    "lemma": "taken",
+    "form": "",
+    "note": "taken：この文脈では「取られた」"
+  },
+  {
+    "word": "targets",
+    "ja": "目標",
+    "pos": "語句",
+    "lemma": "targets",
+    "form": "",
+    "note": "targets：この文脈では「目標」"
+  },
+  {
+    "word": "tendency",
+    "ja": "傾向",
+    "pos": "語句",
+    "lemma": "tendency",
+    "form": "",
+    "note": "tendency：この文脈では「傾向」"
+  },
+  {
+    "word": "tier",
+    "ja": "階層",
+    "pos": "語句",
+    "lemma": "tier",
+    "form": "",
+    "note": "tier：この文脈では「階層」"
+  },
+  {
+    "word": "trait",
+    "ja": "特性",
+    "pos": "語句",
+    "lemma": "trait",
+    "form": "",
+    "note": "trait：この文脈では「特性」"
+  },
+  {
+    "word": "travels",
+    "ja": "広がる",
+    "pos": "語句",
+    "lemma": "travels",
+    "form": "",
+    "note": "travels：この文脈では「広がる」"
+  },
+  {
+    "word": "valid",
+    "ja": "有効な",
+    "pos": "語句",
+    "lemma": "valid",
+    "form": "",
+    "note": "valid：この文脈では「有効な」"
+  },
+  {
+    "word": "volatility",
+    "ja": "変動性",
+    "pos": "語句",
+    "lemma": "volatility",
+    "form": "",
+    "note": "volatility：この文脈では「変動性」"
+  },
+  {
+    "word": "ways",
+    "ja": "方法",
+    "pos": "語句",
+    "lemma": "ways",
+    "form": "",
+    "note": "ways：この文脈では「方法」"
+  },
+  {
+    "word": "whistle",
+    "ja": "笛",
+    "pos": "語句",
+    "lemma": "whistle",
+    "form": "",
+    "note": "whistle：この文脈では「笛」"
+  },
+  {
+    "word": "yield",
+    "ja": "譲る",
+    "pos": "語句",
+    "lemma": "yield",
+    "form": "",
+    "note": "yield：この文脈では「譲る」"
   }
 ]
