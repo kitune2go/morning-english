@@ -1,0 +1,78 @@
+[
+  {
+    "id": "DE-20261002-001",
+    "sourceTitle": "出口のない席から立ち上がる",
+    "workId": "daily-essay-20261002",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "三年待っても席は空かない",
+    "jp": "「石の上にも三年」は、耐えれば順番が来るという約束に聞こえる。けれど、上の世代が席を占めたまま退出規則もなく、年齢だけが命令権になる場所では、三年は移動の準備ではなく待機の延長になる。社会全体が中年化しても、新しい人へ役割が渡るとは限らない。忍耐を徳として数える前に、誰が席を譲り、どの条件で次の人が入れるのかという出口と交代の仕組みを確かめる必要がある。",
+    "translationLiteral": "The proverb about sitting on a stone for three years sounds like a promise that one's turn will come through endurance. But where older people keep their seats, no exit rule exists, and age alone becomes authority, three years extend waiting rather than prepare movement. Even if society grows older as a whole, roles do not necessarily pass to newcomers. Before counting patience as virtue, we must check who yields a seat and under what conditions the next person can enter.",
+    "translationNatural": "The promise behind “three years on a stone” is that endurance will eventually bring a turn. But if senior people keep their seats, no exit rule exists, and age itself grants authority, waiting produces only more waiting. An aging society does not automatically transfer roles to newcomers. Before praising patience, we should ask who must yield, when succession begins, and how the next person is allowed to enter.",
+    "imageUrl": "",
+    "imageCaption": "長く座り続ける人の後ろで、順番を待つ列だけが伸びる。",
+    "imagePrompt": "Editorial illustration of senior figures occupying fixed seats while a queue grows behind them, no exit rule visible, restrained colors, no readable text",
+    "chunks": [
+      {"en": "The promise behind “three years on a stone” is that endurance will eventually bring a turn.", "ja": "「石の上にも三年」の背後には、耐えればいつか順番が来るという約束がある。"},
+      {"en": "But if senior people keep their seats, no exit rule exists, and age itself grants authority, waiting produces only more waiting.", "ja": "しかし先輩が席を守り、退出規則がなく、年齢自体が権限を与えるなら、待機はさらに待機を生むだけだ。"},
+      {"en": "An aging society does not automatically transfer roles to newcomers.", "ja": "高齢化した社会が自動的に新しい人へ役割を渡すわけではない。"},
+      {"en": "Before praising patience, we should ask who must yield, when succession begins, and how the next person is allowed to enter.", "ja": "忍耐を褒める前に、誰が譲り、いつ交代が始まり、次の人がどう入れるかを問うべきだ。"}
+    ],
+    "grammar": ["that endurance ... は promise の内容を示す同格のthat節。", "if は三つの制度条件を並列して結果へ導く。", "waiting produces ... は動名詞主語。", "does not automatically transfer は高齢化と交代を切り離す。", "who / when / how は ask の目的語となる並列間接疑問節。"],
+    "translationNote": "literal は石、席、退出規則の比喩を保持した。natural は succession を補い、個人の忍耐より交代制度の有無が順番を決める論理を明確にした。",
+    "readingPoint": "導入。忍耐の格言を、出口と役割交代を欠く制度の問題へ反転させる。",
+    "keywords": ["endurance", "exit rule", "authority", "succession", "newcomers"]
+  },
+  {
+    "id": "DE-20261002-002",
+    "sourceTitle": "出口のない席から立ち上がる",
+    "workId": "daily-essay-20261002",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "一人分のレーンを借りる",
+    "jp": "順番を待つ列から、いったん横へ出る方法もある。鬱を経たあと、一人でボウリング場へ行き、五ゲーム分のレーンを借りる。誰かに誘われる必要も、団体の予定へ自分を合わせる必要もない。点数が高くなくても、投げればピンは倒れ、時間は自分の手へ戻る。「孤独力」は孤立を美化する言葉ではない。共有された席が空かないとき、自分で小さな競技と回復の場所を作る技術である。",
+    "translationLiteral": "There is also a way to step aside from the line for one's turn. After depression, one goes alone to a bowling alley and rents a lane for five games. There is no need to be invited or fit oneself to a group's schedule. Even without a high score, pins fall when the ball is thrown, and time returns to one's hands. The power of solitude does not glorify isolation. It is a technique for making a small contest and a place of recovery when shared seats do not open.",
+    "translationNatural": "Sometimes the only way out of a waiting line is to step sideways. Going alone to a bowling alley after depression and renting a lane for five games requires neither an invitation nor a group schedule. The score may be modest, but each throw produces a visible result and returns time to your own hands. Solitude here is not a celebration of isolation; it is the skill of building a small place for play and recovery when the common seats remain occupied.",
+    "imageUrl": "",
+    "imageCaption": "混雑した待機列の横に、一人分だけ開いたボウリングレーン。",
+    "imagePrompt": "Editorial literary illustration of a person stepping sideways from a long waiting line into a single quiet bowling lane, restorative mood, no readable text",
+    "chunks": [
+      {"en": "Sometimes the only way out of a waiting line is to step sideways.", "ja": "待ち列から出る唯一の方法が、横へ一歩出ることの場合もある。"},
+      {"en": "Going alone to a bowling alley after depression and renting a lane for five games requires neither an invitation nor a group schedule.", "ja": "鬱を経て一人でボウリング場へ行き五ゲームのレーンを借りるには、誘いも団体予定も要らない。"},
+      {"en": "The score may be modest, but each throw produces a visible result and returns time to your own hands.", "ja": "点数は控えめでも、一投ごとに見える結果が生まれ、時間が自分の手へ戻る。"},
+      {"en": "Solitude here is not a celebration of isolation; it is the skill of building a small place for play and recovery when the common seats remain occupied.", "ja": "ここでの孤独は孤立の賛美ではなく、共有席が埋まったとき遊びと回復の小さな場所を作る技術だ。"}
+    ],
+    "grammar": ["the only way ... is to do は出口となる行為を定義する。", "Going ... and renting ... は二つの動名詞句が主語。", "neither A nor B は不要な二条件を並列する。", "may be A, but B は控えめな点数と確かな効果を対照する。", "the skill of building は孤独力を具体的行為として説明する。", "when は共有席が埋まる条件を示す。"],
+    "translationNote": "literal は鬱、五ゲーム、孤独力という具体性を保持した。natural は step sideways と returns time を軸に、孤独を性格ではなく回復場所を自作する技能として訳した。",
+    "readingPoint": "展開。制度の席が空くのを待つ話から、自分で小さな出口を作る身体的経験へ移る。",
+    "keywords": ["waiting line", "bowling", "solitude", "play", "recovery"]
+  },
+  {
+    "id": "DE-20261002-003",
+    "sourceTitle": "出口のない席から立ち上がる",
+    "workId": "daily-essay-20261002",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "噂より遅い規則を持つ",
+    "jp": "大きな社会では、顔を知らない相手との争いを裁く仕組みが要る。神、王、国家、法は、正しさの根拠を外部へ置き、村の外まで規範を運ぶ技術でもあった。ところがSNSは、村の噂が持つ速さと鋭さだけを広げ、同じ場所で暮らし続ける人々の抑制を失いやすい。出口のない共同体も、出口しかない孤立も苦しい。必要なのは、噂より遅くても、知らない者同士が距離を保ったまま異議を申し立てられる規則である。",
+    "translationLiteral": "A large society needs a mechanism for judging disputes between strangers. Gods, kings, states, and laws also served as technologies that placed the basis of right outside individuals and carried norms beyond the village. Social media, however, expands only the speed and sharpness of village gossip while easily losing the restraint of people who must continue living together. A community without an exit and isolation with nothing but exits are both painful. What is needed is a rule that lets strangers object while keeping distance, even if it moves more slowly than rumor.",
+    "translationNatural": "Large societies need ways to settle disputes among strangers. Gods, kings, states, and laws have all carried norms beyond the reach of face-to-face communities. Social media often preserves the speed and sharpness of village gossip while shedding the restraint that comes from having to live together afterward. A community with no exit is oppressive, but a world made only of exits is lonely. We need rules that move more slowly than rumor and still let strangers object without surrendering distance.",
+    "imageUrl": "",
+    "imageCaption": "高速な噂の流れと、距離を保って異議を述べられる遅い規則。",
+    "imagePrompt": "Editorial conceptual illustration contrasting a fast stream of village gossip with a slower public rule that lets strangers speak at a safe distance, no readable text",
+    "chunks": [
+      {"en": "Large societies need ways to settle disputes among strangers.", "ja": "大きな社会には、知らない者同士の争いを裁く方法が要る。"},
+      {"en": "Gods, kings, states, and laws have all carried norms beyond the reach of face-to-face communities.", "ja": "神、王、国家、法は、対面共同体の届かない場所まで規範を運んできた。"},
+      {"en": "Social media often preserves the speed and sharpness of village gossip while shedding the restraint that comes from having to live together afterward.", "ja": "SNSは村の噂の速さと鋭さを残す一方、その後も共に暮らすことから生まれる抑制を失いやすい。"},
+      {"en": "A community with no exit is oppressive, but a world made only of exits is lonely.", "ja": "出口のない共同体は抑圧的だが、出口だけの世界は孤独だ。"},
+      {"en": "We need rules that move more slowly than rumor and still let strangers object without surrendering distance.", "ja": "噂より遅くても、知らない者が距離を手放さず異議を述べられる規則が必要だ。"}
+    ],
+    "grammar": ["ways to settle は disputes を処理する方法を表す不定詞。", "have carried は長期にわたる規範伝達を示す現在完了。", "while shedding は保持と喪失を同時対照する分詞句。", "that comes from ... は restraint を修飾する関係節。", "with no exit / made only of exits は二つの極端な世界を対比する。", "without surrendering は距離を保つ条件を示す。"],
+    "translationNote": "literal は神・王・国家・法、村の噂、出口の両極を保持した。natural は face-to-face communities と afterward を補い、SNSで失われる抑制の由来を自然な英語で明示した。",
+    "readingPoint": "転換と余韻。個人が横へ出る出口から、陌生人同士が退出と異議の両方を持てる公共規則へ広げる。",
+    "keywords": ["strangers", "norms", "gossip", "restraint", "rules"]
+  }
+]
