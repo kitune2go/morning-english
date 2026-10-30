@@ -298,5 +298,26 @@
     "description": "短評という非常口、威圧と技術的厳密さの違い、翻訳・音声・ZIPの検品を通して、強い声より修正と検査がものを現実にする過程を描く日次エッセイ。",
     "manifest": "literature/daily-essay-20261029/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261001",
+    "title": "名札が目標になると暮らしが曲がる",
+    "description": "最後の一マイル指標、心理的な分類、世代名と雇用制度を通して、現実を説明する名札が目標や責任へ変わる作用を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261001/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261002",
+    "title": "出口のない席から立ち上がる",
+    "description": "順番を止める先輩席、一人で借りるボウリングレーン、噂より遅い公共規則を通して、退出と交代の仕組みを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261002/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261030",
+    "title": "同じ線でも座標系が違う",
+    "description": "旋盤教材の原点と向き、サッカーのルールと利益配分、国内外二部リーグの比較を通して、数字や序列を読む基準座標を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261030/manifest.json",
+    "mode": "essay-translation"
   }
 ]
