@@ -1,0 +1,79 @@
+[
+  {
+    "id": "DE-20261030-001",
+    "sourceTitle": "同じ線でも座標系が違う",
+    "workId": "daily-essay-20261030",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "穴は入力欄の外に消える",
+    "jp": "旋盤教材の画面では、寸法入力と点座標入力が別々に育ち、内径の数値を入れても穴として現れないことがある。斜めの線が残り、断面図は図面と逆を向く。計算が間違っているとは限らない。入力欄、工程、表示方向が違う座標系を見ているのだ。修正とは機能を増やすことではなく、同じ点を同じ基準へ戻すことから始まる。工程で切り替えられても、原点と向きが共有されなければ、正しい数字は正しい形にならない。",
+    "translationLiteral": "In a lathe teaching screen, dimension input and point-coordinate input may grow separately, so an entered bore value does not appear as a hole. A diagonal line remains and the cross-section faces opposite the drawing. The calculation is not necessarily wrong. The input fields, process, and display orientation are looking at different coordinate systems. Correction begins not by adding functions but by returning the same point to the same reference. Even if operations can be switched by process, correct numbers do not become a correct shape unless origin and orientation are shared.",
+    "translationNatural": "In a machining lesson, dimensions and point coordinates can evolve into separate input systems until a valid bore value no longer appears as a hole. A stray diagonal line and a reversed section view may look like calculation errors, yet the deeper problem is a mismatch of references. Repair begins by making every process describe the same point from the same origin and orientation. Correct numbers cannot produce the correct shape when the coordinate systems disagree.",
+    "imageUrl": "",
+    "imageCaption": "同じ内径点を別々の原点と向きから描き、穴が消える教材画面。",
+    "imagePrompt": "Editorial technical illustration of one bore point plotted from conflicting origins and orientations, causing a missing hole and reversed section view, no readable text",
+    "chunks": [
+      {"en": "In a machining lesson, dimensions and point coordinates can evolve into separate input systems until a valid bore value no longer appears as a hole.", "ja": "加工教材では寸法と点座標が別の入力系へ育ち、正しい内径値が穴として現れなくなることがある。"},
+      {"en": "A stray diagonal line and a reversed section view may look like calculation errors, yet the deeper problem is a mismatch of references.", "ja": "余分な斜線と逆向きの断面は計算ミスに見えても、深い問題は基準の不一致にある。"},
+      {"en": "Repair begins by making every process describe the same point from the same origin and orientation.", "ja": "修正は、すべての工程が同じ原点と向きから同じ点を表すようにすることから始まる。"},
+      {"en": "Correct numbers cannot produce the correct shape when the coordinate systems disagree.", "ja": "座標系が食い違えば、正しい数字も正しい形を作れない。"}
+    ],
+    "grammar": ["until は分離が穴の消失へ至る過程を示す。", "no longer は以前は可能だった表示が失われたことを表す。", "may look like A, yet B は表面上の誤りと根本原因を対照する。", "begin by -ing は修正の最初の方法を示す。", "make O do は各工程に同一点を記述させる。", "when は座標系不一致の条件を示す。"],
+    "translationNote": "literal は内径、斜線、逆向き断面、工程切替を保持した。natural は mismatch of references に集約し、UI不具合を同じ基準を共有できない問題として読めるよう整えた。",
+    "readingPoint": "導入。正しい数字だけでは形が成立せず、共通の原点と向きが必要だと示す。",
+    "keywords": ["machining", "bore", "coordinates", "origin", "orientation"]
+  },
+  {
+    "id": "DE-20261030-002",
+    "sourceTitle": "同じ線でも座標系が違う",
+    "workId": "daily-essay-20261030",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "笛が鳴る場所には金が流れる",
+    "jp": "サッカーの抗議や処分は、感情だけで大きくなるのではない。判定の向こうに昇格、配分金、観客、選手の契約があり、一つの笛が複数の帳簿を動かすから揉める。チーム数を増やせば地域の入口は広がるが、収益と注目が同じ割合で増えるとは限らない。そこで特例や途中のルール変更が入れば、競争の原点まで動いたように見える。規則は白線ではなく、誰がどの利益へ到達できるかを定める座標でもある。",
+    "translationLiteral": "Protests and penalties in football do not grow from emotion alone. They intensify because promotion, distributions, spectators, and player contracts lie beyond a decision, so one whistle moves several ledgers. Increasing the number of teams widens regional entry, but revenue and attention do not necessarily rise at the same rate. If exceptions or midstream rule changes are introduced, even the origin of competition seems to move. A rule is not merely a white line; it is also a coordinate that determines who can reach which benefit.",
+    "translationNatural": "Football disputes are never only about emotion. A single decision can affect promotion, revenue sharing, attendance, and contracts, so one whistle moves several ledgers at once. More clubs may widen regional access without creating equal growth in money or attention. When exceptions or mid-competition rule changes appear, the reference point of the contest itself seems to shift. Rules are not just boundary lines; they are coordinates that allocate routes to value.",
+    "imageUrl": "",
+    "imageCaption": "一本の笛から、昇格・収益・観客・契約の帳簿へ線が伸びる。",
+    "imagePrompt": "Editorial sports illustration of one referee whistle connected to ledgers for promotion, revenue, attendance, and contracts, analytical mood, no readable text",
+    "chunks": [
+      {"en": "Football disputes are never only about emotion.", "ja": "サッカーの争いは感情だけの問題ではない。"},
+      {"en": "A single decision can affect promotion, revenue sharing, attendance, and contracts, so one whistle moves several ledgers at once.", "ja": "一つの判定が昇格、収益分配、観客、契約へ影響するため、一本の笛が複数の帳簿を同時に動かす。"},
+      {"en": "More clubs may widen regional access without creating equal growth in money or attention.", "ja": "クラブ増加は地域の入口を広げても、金や注目を同じだけ増やすとは限らない。"},
+      {"en": "When exceptions or mid-competition rule changes appear, the reference point of the contest itself seems to shift.", "ja": "特例や競争途中のルール変更が現れると、競争自体の基準点が動いたように見える。"},
+      {"en": "Rules are not just boundary lines; they are coordinates that allocate routes to value.", "ja": "規則は境界線であるだけでなく、価値へ至る経路を配分する座標でもある。"}
+    ],
+    "grammar": ["never only は単一原因への還元を強く否定する。", "can affect A, B, C, and D は判定の影響先を並列する。", "so は帳簿が動く因果を示す。", "without creating は入口拡大と収益増加を切り分ける。", "When は特例と基準点移動を結ぶ。", "that allocate ... は coordinates を修飾する関係詞節。"],
+    "translationNote": "literal は昇格・配分金・観客・契約と白線の比喩を保持した。natural は revenue sharing と routes to value を使い、ルールが利益経路を配る制度である点を明確にした。",
+    "readingPoint": "展開。機械の座標系から競技の制度座標へ移り、ルール変更への不信を利害配分として読む。",
+    "keywords": ["football", "decision", "revenue sharing", "rule change", "value"]
+  },
+  {
+    "id": "DE-20261030-003",
+    "sourceTitle": "同じ線でも座標系が違う",
+    "workId": "daily-essay-20261030",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "二部という名前は強さを測らない",
+    "jp": "J2とイングランド二部は、どちらも「二部」と呼ばれる。だが、同じ階層名は同じ競技水準を保証しない。人口、放映権、選手市場、歴史、上位リーグとの往来が違えば、二部に集まる資金と選手の密度も変わる。ラベルだけを横に並べる比較は、異なる図面の同じ番号を測るようなものだ。必要なのは序列名ではなく、そのリーグを支える座標系である。比較とは同じ物差しを当てることではなく、物差しが何を基準に作られたかを確かめる仕事だ。",
+    "translationLiteral": "J2 and England's second division are both called second tier. Yet the same hierarchical name does not guarantee the same playing level. If population, broadcast rights, player markets, history, and movement to the top league differ, the density of money and players gathered in the second tier also changes. Comparing labels side by side is like measuring the same number on different drawings. What is needed is not the rank name but the coordinate system supporting each league. Comparison is not applying one ruler; it is checking what reference made the ruler.",
+    "translationNatural": "J2 and the English second tier share a label, not a scale. Population, media rights, player markets, history, and movement between divisions shape very different concentrations of money and talent. Placing the two names side by side is like comparing identical numbers taken from different drawings. A serious comparison must reconstruct the coordinate system behind each league. The task is not merely to apply one ruler, but to ask what made that ruler meaningful.",
+    "imageUrl": "",
+    "imageCaption": "同じ「二部」の札を持ちながら、異なる縮尺と資源密度で描かれた二つのリーグ。",
+    "imagePrompt": "Editorial analytical illustration of two football second divisions sharing one label but drawn on different scales with different resource density, no readable text",
+    "chunks": [
+      {"en": "J2 and the English second tier share a label, not a scale.", "ja": "J2とイングランド二部は名札を共有しても、尺度は共有しない。"},
+      {"en": "Population, media rights, player markets, history, and movement between divisions shape very different concentrations of money and talent.", "ja": "人口、放映権、選手市場、歴史、昇降格が、資金と才能の大きく異なる密度を作る。"},
+      {"en": "Placing the two names side by side is like comparing identical numbers taken from different drawings.", "ja": "二つの名前を横に置くだけでは、別の図面から取った同じ数字を比べるようなものだ。"},
+      {"en": "A serious comparison must reconstruct the coordinate system behind each league.", "ja": "真剣な比較には、各リーグの背後にある座標系の再構築が必要だ。"},
+      {"en": "The task is not merely to apply one ruler, but to ask what made that ruler meaningful.", "ja": "仕事は一つの物差しを当てることではなく、何がその物差しを意味あるものにしたかを問うことだ。"}
+    ],
+    "grammar": ["share A, not B は名札と尺度を対比する。", "A, B, C, and D shape ... は複数要因を主語として並列する。", "taken from different drawings は numbers を修飾する過去分詞句。", "must reconstruct は比較に必要な義務を示す。", "not merely A, but B は単純測定から基準検討へ論点を移す。", "what made ... meaningful は ask の目的語となる名詞節。"],
+    "translationNote": "literal は二部という同じ序列名と異なる図面の比喩を保持した。natural は share a label, not a scale と簡潔に置き、比較前に資源密度と制度背景を再構築する必要を示した。",
+    "readingPoint": "転換と余韻。機械と制度で動いた基準点を、国際比較の物差しへ広げ、比較そのものの設計を問い直す。",
+    "keywords": ["second tier", "scale", "media rights", "talent", "comparison"]
+  }
+]
