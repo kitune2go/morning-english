@@ -1,0 +1,77 @@
+[
+  {
+    "id": "DE-20261001-001",
+    "sourceTitle": "名札が目標になると暮らしが曲がる",
+    "workId": "daily-essay-20261001",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "最後の一マイルが目的になる",
+    "jp": "「最後の一マイル」という言葉は、本来、荷物が人へ届くまでの不便を見つけるためのものだった。だが、速さや件数が目標になると、指標は利用者の利益を映す鏡ではなく、現場を追い立てる号令へ変わる。測りやすい距離だけが短くなり、待機、再配達、疲労は帳簿の外へ押し出される。良い指標は成果を代行しない。数字が上がったとき、誰の暮らしが本当に軽くなったかを問い返すためにある。",
+    "translationLiteral": "The phrase last one mile originally existed to find the inconvenience before a package reached a person. But when speed and volume become goals, the metric changes from a mirror of user benefit into an order that drives the workplace. Only the measurable distance becomes shorter, while waiting, redelivery, and fatigue are pushed outside the ledger. A good metric does not substitute for the outcome. It exists to ask whose life truly became lighter when the number rose.",
+    "translationNatural": "The last mile was meant to name the inconvenience between a service and the person it should reach. Once speed and volume become targets, however, the metric stops reflecting benefit and starts commanding labor. The measured distance shrinks while waiting, redelivery, and exhaustion move off the ledger. A useful indicator never replaces the outcome; it asks whose life actually became easier when the number improved.",
+    "imageUrl": "",
+    "imageCaption": "短くなる配送距離の外側へ、待機と疲労が押し出される図。",
+    "imagePrompt": "Editorial illustration of a last-mile metric shortening on a dashboard while waiting, redelivery, and worker fatigue fall outside the ledger, no readable text",
+    "chunks": [
+      {"en": "The last mile was meant to name the inconvenience between a service and the person it should reach.", "ja": "最後の一マイルは、サービスと届くべき人の間の不便を名づけるためのものだった。"},
+      {"en": "Once speed and volume become targets, however, the metric stops reflecting benefit and starts commanding labor.", "ja": "しかし速度と件数が目標になると、指標は便益を映すのをやめ、労働へ命令し始める。"},
+      {"en": "The measured distance shrinks while waiting, redelivery, and exhaustion move off the ledger.", "ja": "測定される距離が縮む一方、待機、再配達、疲労は帳簿の外へ移る。"},
+      {"en": "A useful indicator never replaces the outcome; it asks whose life actually became easier when the number improved.", "ja": "有用な指標は成果の代わりにならず、数字が改善したとき誰の生活が本当に楽になったかを問う。"}
+    ],
+    "grammar": ["was meant to は本来の目的を表す受動表現。", "Once は条件が成立した後の変化を導く。", "stop -ing and start -ing は作用の転換を示す。", "while は距離の短縮と費用の外部化を対照する。", "whose life ... は asks の目的語となる間接疑問節。"],
+    "translationNote": "literal は目的化した指標と帳簿外の負担を順に保持した。natural は reflecting と commanding を対置し、指標が現実を測る側から労働を動かす側へ変わる点を明確にした。",
+    "readingPoint": "導入。人を助けるための名札が、現場を追う目標へ反転する瞬間を示す。",
+    "keywords": ["last mile", "metric", "target", "labor", "ledger"]
+  },
+  {
+    "id": "DE-20261001-002",
+    "sourceTitle": "名札が目標になると暮らしが曲がる",
+    "workId": "daily-essay-20261001",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "性格が診断名を着る",
+    "jp": "心理学の言葉も、便利な名札として広がる。発達障害、回避、コンプレックス。だが、人の振る舞いは特性だけで決まらず、環境との組み合わせで困難にも適応にもなる。流行語が説明を急ぐと、境界の曖昧な傾向まで本人の欠陥や道徳的責任へ変換される。配慮と差別を分けるには、名札を貼る前に、どの場面で何が妨げられ、環境を変えると何が動くのかを見なければならない。",
+    "translationLiteral": "Psychological language also spreads as convenient labels: developmental disorder, avoidance, complex. Yet behavior is not decided by traits alone; combined with an environment, a trait can become either difficulty or adaptation. When fashionable terms rush explanation, even tendencies with unclear boundaries are converted into personal defects or moral responsibility. To distinguish accommodation from discrimination, we must ask what is blocked in which situation and what changes when the environment changes.",
+    "translationNatural": "Psychological language also travels through convenient labels. Yet a trait does not determine a life by itself; its effects depend on the environment around it. When fashionable terms promise explanations too quickly, a blurred tendency can harden into a personal defect or a moral accusation. Before deciding whether a response is accommodation or discrimination, we should ask what is obstructed, where it happens, and whether changing the setting changes the difficulty.",
+    "imageUrl": "",
+    "imageCaption": "同じ特性が環境によって困難にも適応にも見える場面。",
+    "imagePrompt": "Editorial conceptual illustration of one human trait producing different outcomes in two environments, labels floating nearby, restrained colors, no readable text",
+    "chunks": [
+      {"en": "Psychological language also travels through convenient labels.", "ja": "心理学の言葉も便利な名札を通って広がる。"},
+      {"en": "Yet a trait does not determine a life by itself; its effects depend on the environment around it.", "ja": "しかし特性だけで人生は決まらず、その作用は周囲の環境に左右される。"},
+      {"en": "When fashionable terms promise explanations too quickly, a blurred tendency can harden into a personal defect or a moral accusation.", "ja": "流行語が説明を急ぐと、曖昧な傾向が個人の欠陥や道徳的非難へ固まり得る。"},
+      {"en": "Before deciding whether a response is accommodation or discrimination, we should ask what is obstructed, where it happens, and whether changing the setting changes the difficulty.", "ja": "対応が配慮か差別か決める前に、何がどこで妨げられ、環境変更で困難が変わるかを問うべきだ。"}
+    ],
+    "grammar": ["by itself は特性単独では決まらないことを示す。", "depend on は作用が環境に依存することを表す。", "When は流行語の約束と分類固定の条件を結ぶ。", "harden into は曖昧な傾向が固定的評価へ変わる。", "whether A or B は配慮と差別の選択肢を示す。", "what / where / whether は ask の目的語となる並列名詞節。"],
+    "translationNote": "literal は特性と環境の積、配慮と差別の境界を追った。natural は harden into を使い、流行語が傾向を固定的な道徳評価へ変える作用を表した。",
+    "readingPoint": "展開。数値目標の問題を、人を分類する心理的名札へ移し、環境との関係を取り戻す。",
+    "keywords": ["psychological label", "trait", "environment", "accommodation", "discrimination"]
+  },
+  {
+    "id": "DE-20261001-003",
+    "sourceTitle": "名札が目標になると暮らしが曲がる",
+    "workId": "daily-essay-20261001",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "世代名の外に普通の生活がある",
+    "jp": "雇用制度は景気の揺れを非正規労働へ移し、社会はその結果を世代名でまとめる。氷河期、若者文化、Z世代。名は傾向を話す入口にはなるが、一人ひとりが失った余裕や、選べなかった経路までは保存しない。伝説や成功者だけを記録すれば、普通の生活は統計の背景へ沈む。必要なのは新しい世代名ではなく、制度が誰へ変動を渡し、どんな日常がその費用を引き受けたかを残すことだ。",
+    "translationLiteral": "Employment systems transfer economic fluctuation to nonregular labor, and society gathers the result under generational names: the employment ice age, youth culture, Generation Z. A name can be an entrance to discussing a tendency, but it does not preserve each person's lost margin or unavailable paths. If only legends and winners are recorded, ordinary life sinks into the background of statistics. What is needed is not another generational name but a record of whom the system handed volatility to and which daily lives absorbed its cost.",
+    "translationNatural": "Labor systems often shift economic volatility onto insecure workers, and public language later compresses the result into a generational label. Such names can open a discussion, but they cannot preserve the choices each person lost. When history records only legends and winners, ordinary lives disappear behind the statistics. We need fewer new labels and better records of where instability was sent and whose daily life absorbed the cost.",
+    "imageUrl": "",
+    "imageCaption": "世代名の大きな見出しの背後に沈む無数の普通の生活。",
+    "imagePrompt": "Editorial illustration of large generational labels above many ordinary lives fading behind statistical charts, sober documentary mood, no readable text",
+    "chunks": [
+      {"en": "Labor systems often shift economic volatility onto insecure workers, and public language later compresses the result into a generational label.", "ja": "雇用制度は景気変動を不安定な労働者へ移し、社会の言葉は後から結果を世代名へ圧縮する。"},
+      {"en": "Such names can open a discussion, but they cannot preserve the choices each person lost.", "ja": "その名は議論を開けても、一人ひとりが失った選択肢を保存できない。"},
+      {"en": "When history records only legends and winners, ordinary lives disappear behind the statistics.", "ja": "歴史が伝説と勝者だけを記録すると、普通の生活は統計の背後へ消える。"},
+      {"en": "We need fewer new labels and better records of where instability was sent and whose daily life absorbed the cost.", "ja": "必要なのは新しい名札を減らし、不安定さがどこへ送られ、誰の日常が費用を負ったかをよりよく記録することだ。"}
+    ],
+    "grammar": ["shift A onto B は変動を労働者へ移す。", "compress A into B は結果を世代名へ圧縮する。", "the choices each person lost は関係代名詞が省略された名詞句。", "When は記録の偏りと生活の不可視化を結ぶ。", "where / whose は records of の内容を示す並列名詞節。"],
+    "translationNote": "literal は非正規雇用、世代名、普通の生活の記録を保持した。natural は public language later compresses とし、制度結果が後から短い世代像へ変わる時間差を明確にした。",
+    "readingPoint": "転換と余韻。指標と診断名の批判を世代論へ広げ、分類より生活の記録を残す方向へ結ぶ。",
+    "keywords": ["volatility", "insecure workers", "generation", "ordinary lives", "records"]
+  }
+]
