@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 158,
+    "_generatedAt": "2026-10-31T02:15:00+09:00",
+    "sentence": "A greeting does not necessarily express submission; it often acts as an acknowledgment, confirming that a channel of communication is open.",
+    "phonetic": "ア グリーティング ダズ ノット ネセサリリー エクスプレス サブミッション；イット オーフン アクツ アズ アン アクナリジメント、コンファーミング ザット ア チャネル オブ コミュニケーション イズ オープン。",
+    "japaneseTranslation": "挨拶は必ずしも服従を表すものではなく、多くの場合、意思疎通の経路が開いていることを確認する応答として機能します。",
+    "theme": "挨拶を服従ではなく接続確認として捉える",
+    "coreVerb": "act",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A greeting acts.",
+        "translation": "挨拶は機能する。"
+      },
+      "phase2": {
+        "sentence": "A greeting acts as an acknowledgment.",
+        "translation": "挨拶は応答確認として機能する。",
+        "addedChunks": "補語(as an acknowledgment)を追加"
+      },
+      "phase3": {
+        "sentence": "A greeting confirms contact because it acts as an acknowledgment.",
+        "translation": "挨拶は応答確認として機能するので、接触を確認する。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A greeting is more like an acknowledgment than an act of submission.",
+        "translation": "挨拶は服従行為というより応答確認に近い。",
+        "comparison": "more like A than B"
+      },
+      "phase5": {
+        "sentence": "A greeting does not necessarily express submission; it often acts as an acknowledgment",
+        "translation": "挨拶は必ずしも服従を表すものではなく、多くの場合、応答確認として機能する。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A greeting",
+          "function": "内容",
+          "translation": "挨拶は"
+        },
+        {
+          "text": "does not necessarily express submission",
+          "function": "行動",
+          "translation": "必ずしも服従を表さない"
+        },
+        {
+          "text": "it often acts",
+          "function": "行動",
+          "translation": "それは多くの場合機能する"
+        },
+        {
+          "text": "as an acknowledgment",
+          "function": "内容",
+          "translation": "応答確認として"
+        },
+        {
+          "text": "confirming that a channel of communication",
+          "function": "修飾",
+          "translation": "意思疎通の経路が"
+        },
+        {
+          "text": "is open",
+          "function": "状態",
+          "translation": "開いていることを確認して"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "限定",
+          "name": "not necessarily",
+          "where": "does not necessarily express",
+          "explanation": "全面否定ではなく「必ずしも〜ではない」という部分否定を表す。",
+          "rule": "do not necessarily + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "express + 名詞",
+          "where": "express submission",
+          "explanation": "態度や意味を外に示すことを表す。",
+          "rule": "express + 名詞"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "submission; it",
+          "explanation": "関連の深い二つの独立節を接続する。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "語法",
+          "name": "act as",
+          "where": "acts as an acknowledgment",
+          "explanation": "ある役割を果たすことを表す。",
+          "rule": "act as + 名詞"
+        },
+        {
+          "category": "分詞",
+          "name": "付帯状況の-ing",
+          "where": "confirming that ...",
+          "explanation": "前の節の働きを補足説明する。",
+          "rule": ", -ing ..."
+        },
+        {
+          "category": "名詞節",
+          "name": "that節",
+          "where": "that a channel of communication is open",
+          "explanation": "confirmingの内容を示す。",
+          "rule": "that + 完全文"
+        },
+        {
+          "category": "連語",
+          "name": "a channel of communication",
+          "where": "a channel of communication",
+          "explanation": "意思疎通が成立する経路を表す。",
+          "rule": "a channel of + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A greeting does not necessarily expresses submission.",
+          "correct": "A greeting does not necessarily express submission.",
+          "why": "助動詞doesの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "It acts an acknowledgment.",
+          "correct": "It acts as an acknowledgment.",
+          "why": "役割を表すactには前置詞asが必要。"
+        },
+        {
+          "wrong": "confirming a channel of communication is open",
+          "correct": "confirming that a channel of communication is open",
+          "why": "内容を導くthatを入れると節の境界が明確になる。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A greeting often serves as a simple acknowledgment of contact.",
+          "translation": "挨拶は、しばしば接触を確認する単純な応答として働く。"
+        },
+        {
+          "text": "Saying hello can confirm that communication is possible without signaling submission.",
+          "translation": "挨拶は、服従を示さずに意思疎通が可能だと確認できる。"
+        },
+        {
+          "text": "A greeting may function more like a handshake between systems than a declaration of rank.",
+          "translation": "挨拶は序列の宣言よりも、システム間のハンドシェイクに近く機能することがある。"
+        }
+      ],
+      "parseTree": "S(A greeting) Aux(does) Neg(not necessarily) V(express) O(submission); S(it) Adv(often) V(acts) C(as an acknowledgment), [Part: confirming O(that S(a channel of communication) V(is) C(open))]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "confirming that a channel of communication is open",
+          "expanded": "because it confirms that a channel of communication is open",
+          "nuance": "分詞句を理由節へ展開する。"
+        },
+        {
+          "original": "acts as an acknowledgment",
+          "expanded": "since the speaker first needs to establish contact",
+          "nuance": "接続確認が先に必要だという理由を補う。"
+        },
+        {
+          "original": "does not necessarily express submission",
+          "expanded": "therefore, politeness alone should not be read as submission",
+          "nuance": "部分否定から解釈上の帰結を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "An open channel of communication is often confirmed by a greeting.",
+          "translation": "開かれた意思疎通の経路は、しばしば挨拶によって確認される。",
+          "note": "確認される対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Confirming that contact is possible, a greeting can begin an exchange without signaling submission.",
+          "translation": "接触可能だと確認しながら、挨拶は服従を示さずにやり取りを始められる。",
+          "note": "確認の働きを-ing句へ置く。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "A greeting provides acknowledgment of contact rather than proof of submission.",
+          "translation": "挨拶は服従の証明ではなく、接触の確認を与える。",
+          "note": "acknowledgeとsubmitの概念を名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "acknowledgment",
+            "alternatives": [
+              "confirmation",
+              "recognition",
+              "response"
+            ],
+            "nuance": "acknowledgmentは受け取ったことの確認、confirmationは事実確認、recognitionは認知、responseは返答に重点がある。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "役割の対照",
+            "sentence": "A greeting marks the start of contact, whereas submission concerns a relationship of authority.",
+            "translation": "挨拶は接触の開始を示す一方、服従は権威関係に関わる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A greeting is closer to a network acknowledgment than to a pledge of obedience.",
+            "translation": "挨拶は服従の誓約よりネットワークの応答確認に近い。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If no greeting is exchanged, people may be unsure whether the channel is open.",
+            "translation": "挨拶が交わされなければ、意思疎通の経路が開いているか不確かになりうる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What a greeting first establishes is contact, not rank.",
+            "translation": "挨拶が最初に確立するのは序列ではなく接触である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Greeting is acknowledgment, not submission.",
+            "translation": "挨拶は服従ではなく応答確認だ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "日常語を通信の比喩で明確に整理した。セミコロンと分詞句が学習価値を持つ一方、acknowledgmentの抽象度を考慮してflexibilityとefficiencyを8とした。"
+    }
+  }
+]
