@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 162,
+    "_generatedAt": "2026-11-01T02:16:00+09:00",
+    "sentence": "When a worker leaves after an injury, rumors about motivation can distract attention from the documented accident and the safety conditions that surrounded it.",
+    "phonetic": "ウェン ア ワーカー リーヴズ アフター アン インジャリー、ルーマーズ アバウト モティヴェイション キャン ディストラクト アテンション フロム ザ ドキュメンティッド アクシデント アンド ザ セイフティ コンディションズ ザット サラウンディッド イット。",
+    "japaneseTranslation": "労働者が負傷後に退職すると、動機についての噂が、記録された事故や、その事故を取り巻いていた安全条件から注意をそらすことがあります。",
+    "theme": "労災の事実と退職者への動機推定を分ける",
+    "coreVerb": "distract",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Rumors distract.",
+        "translation": "噂は注意をそらす。"
+      },
+      "phase2": {
+        "sentence": "Rumors distract attention.",
+        "translation": "噂は注意をそらす。",
+        "addedChunks": "目的語(attention)を追加"
+      },
+      "phase3": {
+        "sentence": "Rumors distract attention because they shift the topic to motivation.",
+        "translation": "噂は話題を動機へ移すので、注意をそらす。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A documented accident is more relevant to safety than an unverified motive is.",
+        "translation": "安全確認には、未確認の動機より記録された事故の方が重要だ。",
+        "comparison": "more relevant than"
+      },
+      "phase5": {
+        "sentence": "When a worker leaves after an injury, rumors about motivation can distract attention from the documented accident and the safety conditions that surrounded it.",
+        "translation": "労働者が負傷後に退職すると、動機についての噂が、記録された事故とそれを取り巻いた安全条件から注意をそらすことがある。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When a worker leaves",
+          "function": "接続",
+          "translation": "労働者が退職すると"
+        },
+        {
+          "text": "after an injury",
+          "function": "時間",
+          "translation": "負傷後に"
+        },
+        {
+          "text": "rumors about motivation",
+          "function": "内容",
+          "translation": "動機についての噂が"
+        },
+        {
+          "text": "can distract attention",
+          "function": "行動",
+          "translation": "注意をそらすことがある"
+        },
+        {
+          "text": "from the documented accident and the safety conditions",
+          "function": "対象",
+          "translation": "記録された事故と安全条件から"
+        },
+        {
+          "text": "that surrounded it",
+          "function": "修飾",
+          "translation": "その事故を取り巻いていた"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "条件",
+          "name": "when節",
+          "where": "When a worker leaves",
+          "explanation": "ある状況が起きた際の一般的な結果を導く。",
+          "rule": "When + 現在形, 主節"
+        },
+        {
+          "category": "時間",
+          "name": "after + 名詞",
+          "where": "after an injury",
+          "explanation": "負傷より後であることを示す。",
+          "rule": "after + 名詞"
+        },
+        {
+          "category": "前置詞",
+          "name": "about",
+          "where": "rumors about motivation",
+          "explanation": "噂が何についてのものかを示す。",
+          "rule": "rumor about + 名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can distract",
+          "explanation": "起こりうる作用を示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "distract A from B",
+          "where": "distract attention from",
+          "explanation": "注意をBからそらすことを表す。",
+          "rule": "distract A from B"
+        },
+        {
+          "category": "過去分詞",
+          "name": "documented",
+          "where": "the documented accident",
+          "explanation": "記録されたという受動的な性質を表す。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "関係詞",
+          "name": "that",
+          "where": "conditions that surrounded it",
+          "explanation": "safety conditionsを後ろから説明する。",
+          "rule": "名詞 + that + 動詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Rumors can distract attention to the accident.",
+          "correct": "Rumors can distract attention from the accident.",
+          "why": "注意をそらす対象にはfromを使う。"
+        },
+        {
+          "wrong": "When a worker leave after an injury",
+          "correct": "When a worker leaves after an injury",
+          "why": "単数主語a workerには三単現-sが必要。"
+        },
+        {
+          "wrong": "the conditions which surrounded to it",
+          "correct": "the conditions that surrounded it",
+          "why": "surroundは他動詞なので前置詞toを置かない。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Speculation about motive can obscure the facts of a workplace injury.",
+          "translation": "動機についての憶測は、労災の事実を見えにくくすることがある。"
+        },
+        {
+          "text": "The first question after an accident should concern evidence and safety conditions.",
+          "translation": "事故後の最初の問いは、証拠と安全条件に向けるべきだ。"
+        },
+        {
+          "text": "Judging an absent worker does not explain how the accident occurred.",
+          "translation": "不在の労働者を裁いても、事故がどう起きたかは説明できない。"
+        }
+      ],
+      "parseTree": "[Adv: When S(a worker) V(leaves) [Adv: after an injury]], S(rumors [Prep: about motivation]) Aux(can) V(distract) O(attention) [Prep: from the documented accident and the safety conditions [Rel: that V(surrounded) O(it)]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "can distract attention",
+          "expanded": "because speculation is easier to repeat than a technical investigation",
+          "nuance": "憶測が技術調査より反復されやすい理由を補う。"
+        },
+        {
+          "original": "from the documented accident",
+          "expanded": "since the conversation shifts from evidence to personality",
+          "nuance": "証拠から人格評価へ話題が移る過程を示す。"
+        },
+        {
+          "original": "the safety conditions that surrounded it",
+          "expanded": "therefore, records and conditions should be reviewed before motives are inferred",
+          "nuance": "動機推定より記録確認を先に置く帰結を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Attention can be diverted from a documented accident by rumors about motivation.",
+          "translation": "記録された事故からの注意は、動機についての噂によってそらされうる。",
+          "note": "attentionを主語にして影響を受ける側を示す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Focusing on an absent worker's motive, coworkers may overlook the conditions surrounding the accident.",
+          "translation": "不在の労働者の動機に注目すると、同僚は事故を取り巻く条件を見落とすことがある。",
+          "note": "噂への注目を-ing句で前置する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The replacement of investigation with speculation weakens workplace learning.",
+          "translation": "調査を憶測で置き換えることは、職場の学習を弱める。",
+          "note": "replaceとspeculateを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "distract",
+            "alternatives": [
+              "divert",
+              "deflect",
+              "draw away"
+            ],
+            "nuance": "distractは注意を散らす、divertは方向転換、deflectは批判や焦点をかわす、draw awayは引き離す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "優先順位",
+            "sentence": "Evidence should be examined before motivation is inferred.",
+            "translation": "動機を推定する前に証拠を調べるべきだ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A recorded hazard is more useful for prevention than an unverified rumor.",
+            "translation": "記録された危険要因は、未確認の噂より予防に役立つ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a workplace reviews the accident record, it can discuss prevention without judging the worker.",
+            "translation": "職場が事故記録を確認すれば、労働者を裁かずに予防を議論できる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What requires investigation is the accident, not the worker's imagined motive.",
+            "translation": "調査が必要なのは事故であって、想像された労働者の動機ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Investigate hazards before motives.",
+            "translation": "動機より先に危険要因を調べよ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "労災の記録と退職者への人格推定を混同せず、安全確認へ焦点を戻す。関係詞節まで含むためやや長く、flexibilityとefficiencyを8とした。"
+    }
+  }
+]
