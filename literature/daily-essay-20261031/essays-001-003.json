@@ -1,0 +1,81 @@
+[
+  {
+    "id": "DE-20261031-001",
+    "sourceTitle": "素材は遊ばれる場所で部品になる",
+    "workId": "daily-essay-20261031",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "画像は保存されるだけでは歩かない",
+    "jp": "一枚の画像をドット化しても、それだけではゲームの素材にならない。輪郭、色、透明部分、向き、基準位置をデータとして持ち、別の場面で呼び戻せて初めて、組み合わせて遊べる。欲しかったのは画像加工の終点ではなく、画像生成からアニメ化、再生確認、部分修正へ続く入口だった。素材は美しく保存されるだけでは足りない。次の操作が触れられる形で残っていなければならない。完成品を作る道具より、完成後も動かせる制作環境が求められていた。",
+    "translationLiteral": "Turning one image into pixel art does not by itself make it a game asset. Only when its outline, colors, transparency, direction, and reference position are stored as data and can be recalled in another scene can it be combined and played with. What was wanted was not the endpoint of image processing, but an entrance from image generation to animation, playback checking, and partial correction. It is not enough for an asset to be stored beautifully. It must remain in a form that the next operation can touch. What was needed was not a tool that makes a finished product, but a production environment in which it can still be moved after completion.",
+    "translationNatural": "Pixelating an image does not automatically turn it into a playable asset. The picture becomes reusable only when its outline, palette, transparency, orientation, and anchor point survive as data that another scene can call. The real goal was never a single finished conversion. It was a path from generation to animation, playback, inspection, and local repair. A useful tool should not merely preserve a beautiful result; it should leave the result open to the next action. The desired product was therefore a production environment, not just an image processor.",
+    "imageUrl": "",
+    "imageCaption": "一枚絵が輪郭・色・透明・基準点のデータへ分かれ、再び場面へ呼び出される。",
+    "imagePrompt": "Editorial pixel-art production diagram showing one image becoming reusable data layers for outline palette transparency orientation and anchor point, no readable text",
+    "chunks": [
+      {"en": "Pixelating an image does not automatically turn it into a playable asset.", "ja": "画像をドット化しても、自動的に遊べる素材になるわけではない。"},
+      {"en": "The picture becomes reusable only when its outline, palette, transparency, orientation, and anchor point survive as data that another scene can call.", "ja": "輪郭・配色・透明・向き・基準点が別場面から呼べるデータとして残るとき、画像は再利用可能になる。"},
+      {"en": "The real goal was never a single finished conversion. It was a path from generation to animation, playback, inspection, and local repair.", "ja": "本当の目的は一度きりの変換ではなく、生成からアニメ化・再生・検査・部分修正へ続く道だった。"},
+      {"en": "A useful tool should not merely preserve a beautiful result; it should leave the result open to the next action.", "ja": "役立つ道具は美しい結果を保存するだけでなく、次の操作へ開いておくべきだ。"},
+      {"en": "The desired product was therefore a production environment, not just an image processor.", "ja": "求められていたのは単なる画像加工器ではなく、制作環境だった。"}
+    ],
+    "grammar": ["turn A into B は画像を素材へ変換することを表す。", "only when は再利用可能になる必要条件を示す。", "that another scene can call は data を修飾する関係詞節。", "from A to B, C, and D は制作工程を並列する。", "not merely A; B は保存から次操作への開放へ重点を移す。", "therefore は前の要件から制作環境という結論を導く。"],
+    "translationNote": "literal はドット化、透明部分、基準位置、再生確認、部分修正を保持した。natural では anchor point と local repair を使い、単発変換ではなく再編集可能な工程が目的だったことを明確にした。",
+    "readingPoint": "導入。画像を完成品ではなく、後続操作から呼び出せるデータとして捉え直す。",
+    "keywords": ["pixel art", "asset", "data", "animation", "production environment"]
+  },
+  {
+    "id": "DE-20261031-002",
+    "sourceTitle": "素材は遊ばれる場所で部品になる",
+    "workId": "daily-essay-20261031",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "十二コマの外側で帽子が切れる",
+    "jp": "歩行を十二コマに増やしても、足や帽子が枠から切れ、隣のコマが混ざれば、動きは豊かにならない。枚数は増えても、各コマが一人の全身を保てていないからだ。必要なのは自動で再生する速さだけではなく、接地、沈み、すれ違いといった姿勢を見分け、欠けた部分を直せることだった。アニメーションは静止画の束ではない。前後の差を使いながら、同じ人物が同じ身体を保つ約束である。切り抜きの精度は見栄えではなく、連続性を守る土台になる。",
+    "translationLiteral": "Even if a walk cycle is increased to twelve frames, the movement does not become richer when feet or a hat are cut by the frame and neighboring frames mix in. The number increases, but each frame fails to preserve one complete body. What was needed was not only automatic playback speed, but the ability to distinguish poses such as contact, lowering, and passing, and to repair missing parts. Animation is not a bundle of still images. It is a promise that the same person keeps the same body while differences between frames create motion. Cropping accuracy is not decoration but the foundation of continuity.",
+    "translationNatural": "More frames do not guarantee better motion. A twelve-frame walk cycle still fails when a foot or hat is cropped away, or when part of the neighboring frame leaks into the image. Each frame must preserve one complete character while expressing a distinct phase such as contact, compression, or passing. Playback alone cannot repair broken continuity. Animation is a sequence of differences held together by a stronger promise: the same character must keep the same body from frame to frame. Precise cropping is therefore structural, not cosmetic.",
+    "imageUrl": "",
+    "imageCaption": "十二コマの歩行列で、欠けた帽子と混入した隣コマが連続性を崩す。",
+    "imagePrompt": "Pixel animation contact sheet with twelve walk frames, showing the problem of cropped feet hats and neighboring-frame contamination, technical editorial style, no readable text",
+    "chunks": [
+      {"en": "More frames do not guarantee better motion.", "ja": "コマ数を増やしても、より良い動きは保証されない。"},
+      {"en": "A twelve-frame walk cycle still fails when a foot or hat is cropped away, or when part of the neighboring frame leaks into the image.", "ja": "十二コマの歩行でも、足や帽子が切れたり隣のコマが混ざったりすれば失敗する。"},
+      {"en": "Each frame must preserve one complete character while expressing a distinct phase such as contact, compression, or passing.", "ja": "各コマは接地・沈み・すれ違いなど別々の段階を示しながら、一人の全身を保たなければならない。"},
+      {"en": "Playback alone cannot repair broken continuity.", "ja": "再生するだけでは壊れた連続性は直せない。"},
+      {"en": "Animation is a sequence of differences held together by a stronger promise: the same character must keep the same body from frame to frame.", "ja": "アニメーションは差異の連続だが、同じ人物がコマごとに同じ身体を保つという約束で結ばれている。"},
+      {"en": "Precise cropping is therefore structural, not cosmetic.", "ja": "したがって正確な切り抜きは見栄えではなく構造の問題だ。"}
+    ],
+    "grammar": ["do not guarantee は数量増加と品質向上を切り分ける。", "when A, or when B は失敗条件を並列する。", "while -ing は全身保持と姿勢差の同時実現を示す。", "such as は歩行姿勢の具体例を挙げる。", "held together は sequence を修飾する過去分詞句。", "not A は cropping を cosmetic ではなく structural と再定義する。"],
+    "translationNote": "literal の足・帽子・隣コマ混入と接地・沈み・すれ違いを保持した。natural は continuity と from frame to frame を中心に据え、切り抜き精度が人物同一性を守る構造条件だとした。",
+    "readingPoint": "展開。素材数の増加から、各コマが同一人物の全身を保つという連続性の条件へ視点を移す。",
+    "keywords": ["walk cycle", "cropping", "continuity", "frames", "character"]
+  },
+  {
+    "id": "DE-20261031-003",
+    "sourceTitle": "素材は遊ばれる場所で部品になる",
+    "workId": "daily-essay-20261031",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "道具箱は舞台になって初めて一つになる",
+    "jp": "キャラクター、背景、口パク、歩行、物理設定、ステージ制作。別々のツールを集めるだけでは、制作環境は増えた機能の一覧で終わる。素材を登録し、呼び出し、組み合わせ、再生し、気になる部分へ戻れるとき、道具箱は舞台になる。だから全機能統合版という要求は、ボタンを一画面へ詰めることではなかった。作ったものが次の作業へ渡り、プロジェクトとして残り、また遊び直せることだった。統合とは機能の合計ではない。作品が道具の境界を越えて流れ続ける経路である。",
+    "translationLiteral": "Characters, backgrounds, lip sync, walking, physics settings, and stage building remain only a list of added functions if their separate tools are merely collected. A toolbox becomes a stage when assets can be registered, recalled, combined, played, and returned to for correction. Thus, asking for an all-features integrated version did not mean packing buttons onto one screen. It meant that what was made could pass to the next task, remain as a project, and be played with again. Integration is not the sum of functions. It is a route along which a work continues to flow across the boundaries of tools.",
+    "translationNatural": "Characters, backgrounds, lip sync, walk cycles, physics, and stage design do not become a studio simply because their tools share a folder. The collection becomes a stage only when assets can be registered, recalled, combined, played, revised, and saved as one continuing project. An all-in-one version is therefore not a crowded screen full of buttons. It is a route that lets each result become the input to the next task without losing its history. Integration is not the sum of features; it is the continuity of the work as it crosses the borders between tools.",
+    "imageUrl": "",
+    "imageCaption": "別々の制作道具を、素材と履歴が流れる一本の舞台がつないでいる。",
+    "imagePrompt": "Editorial pixel-art studio illustration connecting character background lip sync walk cycle physics and stage design tools through one continuous project pipeline, no readable text",
+    "chunks": [
+      {"en": "Characters, backgrounds, lip sync, walk cycles, physics, and stage design do not become a studio simply because their tools share a folder.", "ja": "キャラクター、背景、口パク、歩行、物理、ステージ設計は、道具が同じフォルダにあるだけでは制作室にならない。"},
+      {"en": "The collection becomes a stage only when assets can be registered, recalled, combined, played, revised, and saved as one continuing project.", "ja": "素材を登録・呼出・結合・再生・修正し、一つの継続プロジェクトとして保存できるとき、道具の集合は舞台になる。"},
+      {"en": "An all-in-one version is therefore not a crowded screen full of buttons.", "ja": "したがって全機能版とは、ボタンで混雑した画面ではない。"},
+      {"en": "It is a route that lets each result become the input to the next task without losing its history.", "ja": "それは履歴を失わず、各成果を次の作業の入力へ変える経路である。"},
+      {"en": "Integration is not the sum of features; it is the continuity of the work as it crosses the borders between tools.", "ja": "統合は機能の合計ではなく、作品が道具の境界を越えるときに保たれる連続性である。"}
+    ],
+    "grammar": ["simply because は同じフォルダにあることだけでは不十分だと示す。", "only when は制作環境になる必要条件を導く。", "can be registered ... and saved は受動態の動作を並列する。", "let O do は経路が成果を次の入力へ変えさせる。", "without -ing は履歴を失わない条件を示す。", "not A; it is B は統合を機能数から連続性へ再定義する。"],
+    "translationNote": "literal は全機能統合版、素材登録、再生、部分修正、プロジェクト保存を保持した。natural は share a folder と continuing project を対置し、統合をUIの密集ではなく履歴を保つ工程として訳した。",
+    "readingPoint": "転換と余韻。個別素材の問題から制作環境全体へ広げ、統合を機能数ではなく作品の連続性として結ぶ。",
+    "keywords": ["studio", "integration", "assets", "project", "continuity"]
+  }
+]
