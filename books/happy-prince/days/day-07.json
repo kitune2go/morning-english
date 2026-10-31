@@ -1,0 +1,1214 @@
+{
+  "day": 7,
+  "title": "エジプトへの誘い",
+  "wordCount": 169,
+  "paragraphs": [
+    "“I am waited for in Egypt,” said the Swallow. “My friends are flying up and down the Nile, and talking to the large lotus-flowers. Soon they will go to sleep in the tomb of the great King. The King is there himself in his painted coffin. He is wrapped in yellow linen, and embalmed with spices. Round his neck is a chain of pale green jade, and his hands are like withered leaves.”",
+    "“Swallow, Swallow, little Swallow,” said the Prince, “will you not stay with me for one night, and be my messenger? The boy is so thirsty, and the mother so sad.”",
+    "“I don’t think I like boys,” answered the Swallow. “Last summer, when I was staying on the river, there were two rude boys, the miller’s sons, who were always throwing stones at me. They never hit me, of course; we swallows fly far too well for that, and besides, I come of a family famous for its agility; but still, it was a mark of disrespect.”"
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "withered",
+      "ja": "しおれた"
+    },
+    {
+      "word": "agility",
+      "ja": "敏捷さ"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "ツバメはエジプトにいる仲間と豪華な王の墓を思い描く。",
+      "chunks": [
+        {
+          "en": "“I am waited for in Egypt,” said the Swallow. ",
+          "role": "発話と話者",
+          "ja": "「エジプトでは皆が私を待っている」とツバメは言った。",
+          "hint": "I am waited for＝私の到着が待たれている（受動態） ／ 語句：Egypt＝エジプト、Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "waited",
+              "ja": "待った・待たれている",
+              "note": "wait の過去分詞"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "Egypt",
+              "ja": "エジプト",
+              "note": "ツバメの渡りの目的地"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            }
+          ]
+        },
+        {
+          "en": "“My friends are flying up and down the Nile, ",
+          "role": "意味のまとまり",
+          "ja": "「仲間たちはナイル川をあちこち飛び回り、",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "My",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "friends",
+              "ja": "友人・仲間たち",
+              "note": "friend の複数形"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "flying",
+              "ja": "飛んでいる",
+              "note": "fly の現在分詞"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "down",
+              "ja": "下へ・下に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Nile",
+              "ja": "ナイル川",
+              "note": "河川名"
+            }
+          ]
+        },
+        {
+          "en": "and talking to the large lotus-flowers. ",
+          "role": "並列・追加",
+          "ja": "大きな蓮の花に話しかけている。",
+          "hint": "語句：lotus-flowers＝蓮の花",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "talking",
+              "ja": "話している",
+              "note": "talk 現在分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "large",
+              "ja": "大きい",
+              "note": "大きさの形容"
+            },
+            {
+              "word": "lotus-flowers",
+              "ja": "蓮の花",
+              "note": "ナイル沿岸の情景に登場"
+            }
+          ]
+        },
+        {
+          "en": "Soon they will go to sleep in the tomb of the great ",
+          "role": "意味のまとまり",
+          "ja": "やがて彼らは偉大な王の墓で眠るだろう。",
+          "hint": "語句：Sleep＝眠り、tomb＝墓・墓所",
+          "words": [
+            {
+              "word": "Soon",
+              "ja": "まもなく",
+              "note": "近い未来"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "go",
+              "ja": "行く",
+              "note": "移動"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "sleep",
+              "ja": "眠り",
+              "note": "Death の兄弟として擬人化"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "tomb",
+              "ja": "墓・墓所",
+              "note": "埋葬のための場所"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "great",
+              "ja": "大きな・偉大な",
+              "note": "大きさ・重要性"
+            }
+          ]
+        },
+        {
+          "en": "King. The King is there himself in his painted coffin. ",
+          "role": "意味のまとまり",
+          "ja": "王自身も絵の描かれた棺の中にいる。",
+          "hint": "語句：coffin＝棺",
+          "words": [
+            {
+              "word": "King",
+              "ja": "王",
+              "note": "君主"
+            },
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "King",
+              "ja": "王",
+              "note": "君主"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "there",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "himself",
+              "ja": "彼自身・自分で",
+              "note": "再帰代名詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "painted",
+              "ja": "彩色された",
+              "note": "paint の過去分詞"
+            },
+            {
+              "word": "coffin",
+              "ja": "棺",
+              "note": "遺体を入れる箱"
+            }
+          ]
+        },
+        {
+          "en": "He is wrapped in yellow linen, and embalmed with spices. ",
+          "role": "主語・叙述",
+          "ja": "黄色い亜麻布に包まれ、香料で防腐処理されている。",
+          "hint": "embalmed with spices＝香料で防腐処理された ／ 語句：wrapped＝包まれた、linen＝亜麻布・リネン、embalmed＝防腐処理をされた",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "wrapped",
+              "ja": "包まれた",
+              "note": "wrap の過去分詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "yellow",
+              "ja": "黄色の",
+              "note": "色"
+            },
+            {
+              "word": "linen",
+              "ja": "亜麻布・リネン",
+              "note": "布の素材"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "embalmed",
+              "ja": "防腐処理をされた",
+              "note": "遺体保存の技術"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "spices",
+              "ja": "香料",
+              "note": "香りを持つ植物性の材料"
+            }
+          ]
+        },
+        {
+          "en": "Round his neck is a chain of pale green jade, ",
+          "role": "意味のまとまり",
+          "ja": "首には淡い緑の翡翠の首飾りがあり、",
+          "hint": "語句：jade＝翡翠",
+          "words": [
+            {
+              "word": "Round",
+              "ja": "周囲に・ぐるぐると",
+              "note": "位置・循環"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "neck",
+              "ja": "首",
+              "note": "身体部位"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "chain",
+              "ja": "鎖・首飾りの鎖",
+              "note": "連続した輪"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "pale",
+              "ja": "淡い・青白い",
+              "note": "色の強さ"
+            },
+            {
+              "word": "green",
+              "ja": "緑色の",
+              "note": "色"
+            },
+            {
+              "word": "jade",
+              "ja": "翡翠",
+              "note": "緑色の宝石"
+            }
+          ]
+        },
+        {
+          "en": "and his hands are like withered leaves.”",
+          "role": "並列・追加",
+          "ja": "手は枯葉のようだ」",
+          "hint": "like withered leaves＝枯葉のような ／ 語句：withered＝しおれた",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "hands",
+              "ja": "両手・手",
+              "note": "hands 複数形"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "like",
+              "ja": "〜のように・好きだ",
+              "note": "前置詞・動詞"
+            },
+            {
+              "word": "withered",
+              "ja": "しおれた",
+              "note": "生気を失った植物の形容"
+            },
+            {
+              "word": "leaves",
+              "ja": "薄片・葉",
+              "note": "ここでは金箔の「一枚一枚」"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "I am waited for",
+          "ja": "私の到着が待たれている（受動態）"
+        },
+        {
+          "en": "embalmed with spices",
+          "ja": "香料で防腐処理された"
+        },
+        {
+          "en": "like withered leaves",
+          "ja": "枯葉のような"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Egypt",
+          "ja": "エジプト",
+          "note": "ツバメの渡りの目的地"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "lotus-flowers",
+          "ja": "蓮の花",
+          "note": "ナイル沿岸の情景に登場"
+        },
+        {
+          "word": "Sleep",
+          "ja": "眠り",
+          "note": "Death の兄弟として擬人化"
+        },
+        {
+          "word": "tomb",
+          "ja": "墓・墓所",
+          "note": "埋葬のための場所"
+        },
+        {
+          "word": "coffin",
+          "ja": "棺",
+          "note": "遺体を入れる箱"
+        },
+        {
+          "word": "wrapped",
+          "ja": "包まれた",
+          "note": "wrap の過去分詞"
+        },
+        {
+          "word": "linen",
+          "ja": "亜麻布・リネン",
+          "note": "布の素材"
+        },
+        {
+          "word": "embalmed",
+          "ja": "防腐処理をされた",
+          "note": "遺体保存の技術"
+        },
+        {
+          "word": "spices",
+          "ja": "香料",
+          "note": "香りを持つ植物性の材料"
+        },
+        {
+          "word": "jade",
+          "ja": "翡翠",
+          "note": "緑色の宝石"
+        },
+        {
+          "word": "withered",
+          "ja": "しおれた",
+          "note": "生気を失った植物の形容"
+        }
+      ]
+    },
+    {
+      "summary": "王子がひと晩だけ使者になってほしいと頼む。",
+      "chunks": [
+        {
+          "en": "“Swallow, Swallow, little Swallow,” said the Prince, ",
+          "role": "発話と話者",
+          "ja": "「ツバメよ、ツバメよ、小さなツバメよ」と王子は言った。",
+          "hint": "語句：Swallow＝ツバメ、prince＝王子",
+          "words": [
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "“will you not stay with me for one night, ",
+          "role": "意味のまとまり",
+          "ja": "「もう一晩だけ一緒にいてくれないか。",
+          "hint": "stay with me for one night＝一晩いっしょにいて",
+          "words": [
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "stay",
+              "ja": "とどまる・泊まる",
+              "note": "移動せず残る"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "night",
+              "ja": "夜",
+              "note": "時間帯"
+            }
+          ]
+        },
+        {
+          "en": "and be my messenger? ",
+          "role": "並列・追加",
+          "ja": "そして私の使者になってくれないか？",
+          "hint": "be my messenger＝私の使いになって ／ 語句：messenger＝使者",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "messenger",
+              "ja": "使者",
+              "note": "伝言や品物を運ぶ人"
+            }
+          ]
+        },
+        {
+          "en": "The boy is so thirsty, and the mother so sad.”",
+          "role": "主語・叙述",
+          "ja": "少年はとても喉が渇き、母親は悲しんでいる」",
+          "hint": "語句：thirsty＝喉が渇いた",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "boy",
+              "ja": "男の子",
+              "note": "少年"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "thirsty",
+              "ja": "喉が渇いた",
+              "note": "thirst「渇き」の形容詞"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "mother",
+              "ja": "母親",
+              "note": "親族"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "sad",
+              "ja": "悲しい",
+              "note": "感情"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "stay with me for one night",
+          "ja": "一晩いっしょにいて"
+        },
+        {
+          "en": "be my messenger",
+          "ja": "私の使いになって"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "messenger",
+          "ja": "使者",
+          "note": "伝言や品物を運ぶ人"
+        },
+        {
+          "word": "thirsty",
+          "ja": "喉が渇いた",
+          "note": "thirst「渇き」の形容詞"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメは子どもが嫌いだという理由を以前の経験で説明する。",
+      "chunks": [
+        {
+          "en": "“I don’t think I like boys,” answered the Swallow. ",
+          "role": "発話と話者",
+          "ja": "「子どもは好きではないと思う」とツバメは答えた。",
+          "hint": "語句：Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "don’t",
+              "ja": "〜しない",
+              "note": "do not の短縮形"
+            },
+            {
+              "word": "think",
+              "ja": "考える・思う",
+              "note": "思考"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "like",
+              "ja": "〜のように・好きだ",
+              "note": "前置詞・動詞"
+            },
+            {
+              "word": "boys",
+              "ja": "男の子たち",
+              "note": "boy の複数"
+            },
+            {
+              "word": "answered",
+              "ja": "答えた",
+              "note": "answer の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            }
+          ]
+        },
+        {
+          "en": "“Last summer, when I was staying on the river, ",
+          "role": "意味のまとまり",
+          "ja": "「去年の夏、私が川に滞在していたとき、",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "Last",
+              "ja": "最後の・前の",
+              "note": "時系列の位置"
+            },
+            {
+              "word": "summer",
+              "ja": "夏",
+              "note": "季節"
+            },
+            {
+              "word": "when",
+              "ja": "いつ・〜するとき",
+              "note": "疑問・時間"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "staying",
+              "ja": "滞在している",
+              "note": "stay の現在分詞"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "river",
+              "ja": "川",
+              "note": "水路"
+            }
+          ]
+        },
+        {
+          "en": "there were two rude boys, the miller’s sons, ",
+          "role": "意味のまとまり",
+          "ja": "無礼な二人の少年がいた。製粉業者の息子たちだ。",
+          "hint": "語句：rude＝無礼な、miller＝製粉業者",
+          "words": [
+            {
+              "word": "there",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "were",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去複数"
+            },
+            {
+              "word": "two",
+              "ja": "二つ・二人",
+              "note": "数字"
+            },
+            {
+              "word": "rude",
+              "ja": "無礼な",
+              "note": "言動に礼儀がない"
+            },
+            {
+              "word": "boys",
+              "ja": "男の子たち",
+              "note": "boy の複数"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "miller’s",
+              "ja": "製粉業者の",
+              "note": "miller の所有格"
+            },
+            {
+              "word": "sons",
+              "ja": "息子たち",
+              "note": "son の複数"
+            }
+          ]
+        },
+        {
+          "en": "who were always throwing stones at me. ",
+          "role": "関係詞・修飾節",
+          "ja": "彼らはいつも私に石を投げてきた。",
+          "hint": "were always throwing stones＝いつも石を投げていた ／ 語句：who＝誰・〜する人、always＝いつも・ずっと、stones＝石",
+          "words": [
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "were",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去複数"
+            },
+            {
+              "word": "always",
+              "ja": "いつも・ずっと",
+              "note": "ここでは永続的な約束にも使う"
+            },
+            {
+              "word": "throwing",
+              "ja": "投げている",
+              "note": "throw 現在分詞"
+            },
+            {
+              "word": "stones",
+              "ja": "石",
+              "note": "throw stones at ... で石を投げる"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            }
+          ]
+        },
+        {
+          "en": "They never hit me, of course; ",
+          "role": "主語・叙述",
+          "ja": "もちろん当たったことはない。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "They",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "never",
+              "ja": "決して〜ない・一度も〜ない",
+              "note": "強い否定"
+            },
+            {
+              "word": "hit",
+              "ja": "ぶつかる・当てる",
+              "note": "石を命中させる"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "course",
+              "ja": "道筋・当然",
+              "note": "of course で「もちろん」"
+            }
+          ]
+        },
+        {
+          "en": "we swallows fly far too well for that, and besides, ",
+          "role": "主語・叙述",
+          "ja": "私たちツバメはあまりにも飛ぶのが上手だからね。それに、",
+          "hint": "条件・理由の関係に注目",
+          "words": [
+            {
+              "word": "we",
+              "ja": "私たちは",
+              "note": "一人称複数主格"
+            },
+            {
+              "word": "swallows",
+              "ja": "ツバメたち",
+              "note": "swallow の複数形"
+            },
+            {
+              "word": "fly",
+              "ja": "飛ぶ",
+              "note": "鳥の移動"
+            },
+            {
+              "word": "far",
+              "ja": "遠く・非常に",
+              "note": "far too で強調"
+            },
+            {
+              "word": "too",
+              "ja": "あまりに・〜もまた",
+              "note": "程度や追加"
+            },
+            {
+              "word": "well",
+              "ja": "よく・上手に",
+              "note": "方法・程度"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "besides",
+              "ja": "その上・〜に加えて",
+              "note": "補足を示す"
+            }
+          ]
+        },
+        {
+          "en": "I come of a family famous for its agility; ",
+          "role": "主語・叙述",
+          "ja": "私は敏捷さで有名な一族の出身だからね。",
+          "hint": "famous for its agility＝敏捷さで知られる ／ 語句：agility＝敏捷さ",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "come",
+              "ja": "来る",
+              "note": "come away で一緒に去る"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "family",
+              "ja": "家族・一族",
+              "note": "血縁関係の人々"
+            },
+            {
+              "word": "famous",
+              "ja": "有名な",
+              "note": "be famous for で〜で知られる"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "its",
+              "ja": "その・それの",
+              "note": "it の所有格"
+            },
+            {
+              "word": "agility",
+              "ja": "敏捷さ",
+              "note": "素早く動ける能力"
+            }
+          ]
+        },
+        {
+          "en": "but still, it was a mark of disrespect.”",
+          "role": "逆接・対比",
+          "ja": "でもやはり、あれは無礼のしるしだった」",
+          "hint": "mark of disrespect＝無礼のしるし ／ 語句：disrespect＝無礼",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "still",
+              "ja": "まだ・それでも",
+              "note": "継続・譲歩"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "mark",
+              "ja": "しるし・印",
+              "note": "mark of disrespect"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "disrespect",
+              "ja": "無礼",
+              "note": "敬意の欠如"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "were always throwing stones",
+          "ja": "いつも石を投げていた"
+        },
+        {
+          "en": "famous for its agility",
+          "ja": "敏捷さで知られる"
+        },
+        {
+          "en": "mark of disrespect",
+          "ja": "無礼のしるし"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "rude",
+          "ja": "無礼な",
+          "note": "言動に礼儀がない"
+        },
+        {
+          "word": "miller",
+          "ja": "製粉業者",
+          "note": "穀物を粉にする仕事"
+        },
+        {
+          "word": "who",
+          "ja": "誰・〜する人",
+          "note": "疑問詞、または関係代名詞"
+        },
+        {
+          "word": "always",
+          "ja": "いつも・ずっと",
+          "note": "ここでは永続的な約束にも使う"
+        },
+        {
+          "word": "stones",
+          "ja": "石",
+          "note": "throw stones at ... で石を投げる"
+        },
+        {
+          "word": "agility",
+          "ja": "敏捷さ",
+          "note": "素早く動ける能力"
+        },
+        {
+          "word": "disrespect",
+          "ja": "無礼",
+          "note": "敬意の欠如"
+        }
+      ]
+    }
+  ]
+}
