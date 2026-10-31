@@ -1,0 +1,850 @@
+{
+  "day": 13,
+  "title": "詩人の喜び",
+  "wordCount": 114,
+  "paragraphs": [
+    "“I am beginning to be appreciated,” he cried; “this is from some great admirer. Now I can finish my play,” and he looked quite happy.",
+    "The next day the Swallow flew down to the harbour. He sat on the mast of a large vessel and watched the sailors hauling big chests out of the hold with ropes. “Heave a-hoy!” they shouted as each chest came up. “I am going to Egypt”! cried the Swallow, but nobody minded, and when the moon rose he flew back to the Happy Prince.",
+    "“I am come to bid you good-bye,” he cried.",
+    "“Swallow, Swallow, little Swallow,” said the Prince, “will you not stay with me one night longer?”"
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "青年は宝石を支援者からの贈り物だと思い、執筆を再開する。",
+      "chunks": [
+        {
+          "en": "“I am beginning to be appreciated,” he cried; ",
+          "role": "発話と話者",
+          "ja": "「ようやく評価され始めたぞ」と彼は叫んだ。",
+          "hint": "beginning to be appreciated＝評価され始めている ／ 語句：appreciated＝評価された",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "beginning",
+              "ja": "始めている",
+              "note": "begin の現在分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "appreciated",
+              "ja": "評価された",
+              "note": "appreciate の受動態"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "cried",
+              "ja": "叫んだ・泣いた",
+              "note": "cry の過去形。文脈で区別"
+            }
+          ]
+        },
+        {
+          "en": "“this is from some great admirer. ",
+          "role": "意味のまとまり",
+          "ja": "「きっと熱心な支持者からの贈り物だ。",
+          "hint": "some great admirer＝立派な支持者 ／ 語句：admirer＝支持者・称賛者",
+          "words": [
+            {
+              "word": "this",
+              "ja": "これ・この",
+              "note": "近いものを指す"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "from",
+              "ja": "〜から",
+              "note": "出発点・材料・起源"
+            },
+            {
+              "word": "some",
+              "ja": "いくらかの・ある",
+              "note": "不特定の量"
+            },
+            {
+              "word": "great",
+              "ja": "大きな・偉大な",
+              "note": "大きさ・重要性"
+            },
+            {
+              "word": "admirer",
+              "ja": "支持者・称賛者",
+              "note": "admire する人"
+            }
+          ]
+        },
+        {
+          "en": "Now I can finish my play,” and he looked quite happy.",
+          "role": "意味のまとまり",
+          "ja": "これで戯曲を仕上げられる」と言い、すっかり幸せそうだった。",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "Now",
+              "ja": "今・もう",
+              "note": "現在時点"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "can",
+              "ja": "〜できる",
+              "note": "能力・可能性を示す助動詞"
+            },
+            {
+              "word": "finish",
+              "ja": "終える・完成させる",
+              "note": "戯曲を書く文脈"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "play",
+              "ja": "劇・演劇・遊ぶ",
+              "note": "戯曲では名詞"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "looked",
+              "ja": "見た・見えた",
+              "note": "look の過去形"
+            },
+            {
+              "word": "quite",
+              "ja": "かなり・すっかり・まったく",
+              "note": "程度の副詞"
+            },
+            {
+              "word": "happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "beginning to be appreciated",
+          "ja": "評価され始めている"
+        },
+        {
+          "en": "some great admirer",
+          "ja": "立派な支持者"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "appreciated",
+          "ja": "評価された",
+          "note": "appreciate の受動態"
+        },
+        {
+          "word": "admirer",
+          "ja": "支持者・称賛者",
+          "note": "admire する人"
+        }
+      ]
+    },
+    {
+      "summary": "港のツバメは船乗りたちの仕事を眺めるが、旅立ちの声は無視される。",
+      "chunks": [
+        {
+          "en": "The next day the Swallow flew down to the harbour. ",
+          "role": "主語・叙述",
+          "ja": "翌日、ツバメは港へ飛んでいった。",
+          "hint": "語句：Swallow＝ツバメ、harbour＝港",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "next",
+              "ja": "次の・来〜",
+              "note": "順序・時間"
+            },
+            {
+              "word": "day",
+              "ja": "日・昼間",
+              "note": "時間単位"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "down",
+              "ja": "下へ・下に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "harbour",
+              "ja": "港",
+              "note": "英国式綴り。米国式 harbor"
+            }
+          ]
+        },
+        {
+          "en": "He sat on the mast of a large vessel ",
+          "role": "主語・叙述",
+          "ja": "大きな船のマストに止まり、",
+          "hint": "語句：vessel＝船",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "sat",
+              "ja": "座った・止まっていた",
+              "note": "sit の過去形"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "mast",
+              "ja": "マスト・帆柱",
+              "note": "船の柱"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "large",
+              "ja": "大きい",
+              "note": "大きさの形容"
+            },
+            {
+              "word": "vessel",
+              "ja": "船",
+              "note": "ship のやや硬い言い方"
+            }
+          ]
+        },
+        {
+          "en": "and watched the sailors hauling big chests out of the hold with ",
+          "role": "並列・追加",
+          "ja": "船乗りたちが船倉から大箱を引っ張り出すのを眺めた。",
+          "hint": "hauling big chests＝大きな箱を引き上げている ／ out of the hold＝船倉から ／ 語句：sailors＝船乗りたち、hauling＝引っ張り上げている、chests＝大箱・収納箱",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "watched",
+              "ja": "見守った",
+              "note": "watch の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "sailors",
+              "ja": "船乗りたち",
+              "note": "sailor の複数形"
+            },
+            {
+              "word": "hauling",
+              "ja": "引っ張り上げている",
+              "note": "haul は力を使って引く"
+            },
+            {
+              "word": "big",
+              "ja": "大きい",
+              "note": "large に近い"
+            },
+            {
+              "word": "chests",
+              "ja": "大箱・収納箱",
+              "note": "ここでは胸ではなく箱"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "hold",
+              "ja": "船倉",
+              "note": "船内の貨物室"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            }
+          ]
+        },
+        {
+          "en": "ropes. “Heave a-hoy!” they shouted as each chest came up. ",
+          "role": "発話と話者",
+          "ja": "ロープで。「よいしょ！」と、箱が上がるたび彼らは叫んだ。",
+          "hint": "語句：ropes＝ロープ、Heave a-hoy＝よいしょ、引き上げろ",
+          "words": [
+            {
+              "word": "ropes",
+              "ja": "ロープ",
+              "note": "rope の複数形"
+            },
+            {
+              "word": "Heave",
+              "ja": "引き上げる",
+              "note": "船員の掛け声"
+            },
+            {
+              "word": "a-hoy",
+              "ja": "よいしょ",
+              "note": "船乗りの掛け声 Heave a-hoy"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "shouted",
+              "ja": "叫んだ",
+              "note": "shout の過去形"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "each",
+              "ja": "それぞれ・一つ一つの",
+              "note": "個別を強調"
+            },
+            {
+              "word": "chest",
+              "ja": "胸・箱",
+              "note": "文脈で意味が異なる"
+            },
+            {
+              "word": "came",
+              "ja": "来た",
+              "note": "come の過去形"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            }
+          ]
+        },
+        {
+          "en": "“I am going to Egypt”! ",
+          "role": "主語・叙述",
+          "ja": "「僕はエジプトへ行くんだ！」",
+          "hint": "語句：Egypt＝エジプト",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "going",
+              "ja": "行こうとしている",
+              "note": "go の現在分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "Egypt",
+              "ja": "エジプト",
+              "note": "ツバメの渡りの目的地"
+            }
+          ]
+        },
+        {
+          "en": "cried the Swallow, but nobody minded, ",
+          "role": "発話と話者",
+          "ja": "ツバメは叫んだが、誰も気にせず、",
+          "hint": "but nobody minded＝しかし誰も気にしなかった ／ 語句：Swallow＝ツバメ、minded＝気にした",
+          "words": [
+            {
+              "word": "cried",
+              "ja": "叫んだ・泣いた",
+              "note": "cry の過去形。文脈で区別"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "nobody",
+              "ja": "誰も〜ない",
+              "note": "人を表す否定代名詞"
+            },
+            {
+              "word": "minded",
+              "ja": "気にした",
+              "note": "mind の過去形"
+            }
+          ]
+        },
+        {
+          "en": "and when the moon rose he flew back to the Happy Prince.",
+          "role": "並列・追加",
+          "ja": "月が昇ると彼は幸福な王子のもとへ戻った。",
+          "hint": "語句：prince＝王子",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "when",
+              "ja": "いつ・〜するとき",
+              "note": "疑問・時間"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "moon",
+              "ja": "月",
+              "note": "天体"
+            },
+            {
+              "word": "rose",
+              "ja": "昇った",
+              "note": "rise の過去形。花のバラも同形"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "back",
+              "ja": "戻って・後方へ",
+              "note": "復帰・方向を表す"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "hauling big chests",
+          "ja": "大きな箱を引き上げている"
+        },
+        {
+          "en": "out of the hold",
+          "ja": "船倉から"
+        },
+        {
+          "en": "but nobody minded",
+          "ja": "しかし誰も気にしなかった"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "harbour",
+          "ja": "港",
+          "note": "英国式綴り。米国式 harbor"
+        },
+        {
+          "word": "vessel",
+          "ja": "船",
+          "note": "ship のやや硬い言い方"
+        },
+        {
+          "word": "sailors",
+          "ja": "船乗りたち",
+          "note": "sailor の複数形"
+        },
+        {
+          "word": "hauling",
+          "ja": "引っ張り上げている",
+          "note": "haul は力を使って引く"
+        },
+        {
+          "word": "chests",
+          "ja": "大箱・収納箱",
+          "note": "ここでは胸ではなく箱"
+        },
+        {
+          "word": "hold",
+          "ja": "船倉",
+          "note": "船内の貨物室"
+        },
+        {
+          "word": "ropes",
+          "ja": "ロープ",
+          "note": "rope の複数形"
+        },
+        {
+          "word": "Heave a-hoy",
+          "ja": "よいしょ、引き上げろ",
+          "note": "船乗りの掛け声"
+        },
+        {
+          "word": "Egypt",
+          "ja": "エジプト",
+          "note": "ツバメの渡りの目的地"
+        },
+        {
+          "word": "minded",
+          "ja": "気にした",
+          "note": "mind の過去形"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメは王子に別れを告げに来たと言う。",
+      "chunks": [
+        {
+          "en": "“I am come to bid you good-bye,” he cried.",
+          "role": "発話と話者",
+          "ja": "「お別れを言いに来ました」と彼は叫んだ。",
+          "hint": "bid you good-bye＝あなたに別れを告げる ／ I am come＝私は来た（古風な完了表現） ／ 語句：bid＝告げる",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "come",
+              "ja": "来る",
+              "note": "come away で一緒に去る"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "bid",
+              "ja": "告げる",
+              "note": "bid farewell/good-bye で別れを告げる"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "good-bye",
+              "ja": "さようなら",
+              "note": "別れの挨拶"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "cried",
+              "ja": "叫んだ・泣いた",
+              "note": "cry の過去形。文脈で区別"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "bid you good-bye",
+          "ja": "あなたに別れを告げる"
+        },
+        {
+          "en": "I am come",
+          "ja": "私は来た（古風な完了表現）"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "bid",
+          "ja": "告げる",
+          "note": "bid farewell/good-bye で別れを告げる"
+        }
+      ]
+    },
+    {
+      "summary": "王子はもう一晩だけ滞在を願う。",
+      "chunks": [
+        {
+          "en": "“Swallow, Swallow, little Swallow,” said the Prince, ",
+          "role": "発話と話者",
+          "ja": "「ツバメよ、ツバメよ、小さなツバメよ」と王子は言った。",
+          "hint": "語句：Swallow＝ツバメ、prince＝王子",
+          "words": [
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "“will you not stay with me one night longer?”",
+          "role": "疑問文・会話",
+          "ja": "「もう一晩、私と一緒にいてくれないか？」",
+          "hint": "stay with me one night longer＝もう一晩一緒にいて",
+          "words": [
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "stay",
+              "ja": "とどまる・泊まる",
+              "note": "移動せず残る"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "night",
+              "ja": "夜",
+              "note": "時間帯"
+            },
+            {
+              "word": "longer",
+              "ja": "もっと長く・これ以上",
+              "note": "比較級"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "stay with me one night longer",
+          "ja": "もう一晩一緒にいて"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        }
+      ]
+    }
+  ]
+}
