@@ -1,0 +1,1289 @@
+{
+  "day": 20,
+  "title": "像の取り壊し",
+  "wordCount": 171,
+  "paragraphs": [
+    "“The ruby has fallen out of his sword, his eyes are gone, and he is golden no longer,” said the Mayor in fact, “he is litttle better than a beggar!”",
+    "“Little better than a beggar,” said the Town Councillors.",
+    "“And here is actually a dead bird at his feet!” continued the Mayor. “We must really issue a proclamation that birds are not to be allowed to die here.” And the Town Clerk made a note of the suggestion.",
+    "So they pulled down the statue of the Happy Prince. “As he is no longer beautiful he is no longer useful,” said the Art Professor at the University.",
+    "Then they melted the statue in a furnace, and the Mayor held a meeting of the Corporation to decide what was to be done with the metal. “We must have another statue, of course,” he said, “and it shall be a statue of myself.”",
+    "“Of myself,” said each of the Town Councillors, and they quarrelled. When I last heard of them they were quarrelling still."
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "ruby",
+      "ja": "ルビー"
+    },
+    {
+      "word": "councillors",
+      "ja": "市議会議員"
+    },
+    {
+      "word": "furnace",
+      "ja": "炉"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "市長は宝石も金箔もない像を物乞い同然だと見なす。",
+      "chunks": [
+        {
+          "en": "“The ruby has fallen out of his sword, his eyes are gone, ",
+          "role": "主語・叙述",
+          "ja": "「剣からルビーが抜け、両目もなくなり、",
+          "hint": "語句：ruby＝ルビー、fallen＝落ちた",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "ruby",
+              "ja": "ルビー",
+              "note": "赤い宝石"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "fallen",
+              "ja": "落ちた",
+              "note": "fall の過去分詞"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "sword",
+              "ja": "剣",
+              "note": "武器"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "eyes",
+              "ja": "両目・目",
+              "note": "eye の複数形"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "gone",
+              "ja": "去った・行ってしまった",
+              "note": "go の過去分詞"
+            }
+          ]
+        },
+        {
+          "en": "and he is golden no longer,” said the Mayor in fact, ",
+          "role": "並列・追加",
+          "ja": "もう金色でもない」と市長は実際に言った。",
+          "hint": "no longer＝もはや〜ではない ／ 語句：golden＝金色の、Mayor＝市長",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "golden",
+              "ja": "金色の",
+              "note": "gold から派生した形容詞"
+            },
+            {
+              "word": "no",
+              "ja": "いいえ・一つも〜ない",
+              "note": "否定語"
+            },
+            {
+              "word": "longer",
+              "ja": "もっと長く・これ以上",
+              "note": "比較級"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Mayor",
+              "ja": "市長",
+              "note": "市の行政責任者"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "fact",
+              "ja": "事実",
+              "note": "in fact は「実際のところ」"
+            }
+          ]
+        },
+        {
+          "en": "“he is litttle better than a beggar!”",
+          "role": "主語・叙述",
+          "ja": "「物乞い同然だ！」",
+          "hint": "litttle better than＝〜と大差ない ／ litttle＝原文の誤植（little） ／ 語句：beggar＝物乞い",
+          "words": [
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "litttle",
+              "ja": "少し（誤植）",
+              "note": "原文の litttle は little の誤植"
+            },
+            {
+              "word": "better",
+              "ja": "より良い・回復して",
+              "note": "bad/good の比較級の一つ"
+            },
+            {
+              "word": "than",
+              "ja": "〜より",
+              "note": "比較級に続く"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "beggar",
+              "ja": "物乞い",
+              "note": "作品内での身分差の比喩"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "no longer",
+          "ja": "もはや〜ではない"
+        },
+        {
+          "en": "litttle better than",
+          "ja": "〜と大差ない"
+        },
+        {
+          "en": "litttle",
+          "ja": "原文の誤植（little）"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "ruby",
+          "ja": "ルビー",
+          "note": "赤い宝石"
+        },
+        {
+          "word": "fallen",
+          "ja": "落ちた",
+          "note": "fall の過去分詞"
+        },
+        {
+          "word": "golden",
+          "ja": "金色の",
+          "note": "gold から派生した形容詞"
+        },
+        {
+          "word": "Mayor",
+          "ja": "市長",
+          "note": "市の行政責任者"
+        },
+        {
+          "word": "beggar",
+          "ja": "物乞い",
+          "note": "作品内での身分差の比喩"
+        }
+      ]
+    },
+    {
+      "summary": "議員たちが市長の評価を復唱する。",
+      "chunks": [
+        {
+          "en": "“Little better than a beggar,” said the Town Councillors.",
+          "role": "発話と話者",
+          "ja": "「物乞い同然だ」と市議会議員たちが言った。",
+          "hint": "Little better than a beggar＝物乞いと大差ない ／ 語句：beggar＝物乞い、Councillors＝市議会議員たち",
+          "words": [
+            {
+              "word": "Little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "better",
+              "ja": "より良い・回復して",
+              "note": "bad/good の比較級の一つ"
+            },
+            {
+              "word": "than",
+              "ja": "〜より",
+              "note": "比較級に続く"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "beggar",
+              "ja": "物乞い",
+              "note": "作品内での身分差の比喩"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Town",
+              "ja": "町・街",
+              "note": "都市より小規模"
+            },
+            {
+              "word": "Councillors",
+              "ja": "市議会議員たち",
+              "note": "councillor の複数形"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "Little better than a beggar",
+          "ja": "物乞いと大差ない"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "beggar",
+          "ja": "物乞い",
+          "note": "作品内での身分差の比喩"
+        },
+        {
+          "word": "Councillors",
+          "ja": "市議会議員たち",
+          "note": "councillor の複数形"
+        }
+      ]
+    },
+    {
+      "summary": "市長は死んだ鳥を見て、鳥がそこで死ぬことを禁じるお触れを提案する。",
+      "chunks": [
+        {
+          "en": "“And here is actually a dead bird at his feet!” ",
+          "role": "並列・追加",
+          "ja": "「しかも実際に足元には死んだ鳥までいる！」",
+          "hint": "語句：actually＝実際に、dead＝死んだ",
+          "words": [
+            {
+              "word": "And",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "here",
+              "ja": "ここに",
+              "note": "話し手の場所"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "actually",
+              "ja": "実際に",
+              "note": "驚き・強調にも使う"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "dead",
+              "ja": "死んだ",
+              "note": "die の結果状態"
+            },
+            {
+              "word": "bird",
+              "ja": "鳥",
+              "note": "小鳥も含む"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "feet",
+              "ja": "足",
+              "note": "foot の複数形"
+            }
+          ]
+        },
+        {
+          "en": "continued the Mayor. ",
+          "role": "発話と話者",
+          "ja": "市長は続けた。",
+          "hint": "語句：Mayor＝市長",
+          "words": [
+            {
+              "word": "continued",
+              "ja": "続けた",
+              "note": "continue の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Mayor",
+              "ja": "市長",
+              "note": "市の行政責任者"
+            }
+          ]
+        },
+        {
+          "en": "“We must really issue a proclamation ",
+          "role": "主語・叙述",
+          "ja": "「本当に布告を出さねばならない。",
+          "hint": "issue a proclamation＝布告を出す ／ 語句：proclamation＝布告・お触れ",
+          "words": [
+            {
+              "word": "We",
+              "ja": "私たちは",
+              "note": "一人称複数主格"
+            },
+            {
+              "word": "must",
+              "ja": "〜しなければならない",
+              "note": "義務・強い推量"
+            },
+            {
+              "word": "really",
+              "ja": "本当に",
+              "note": "強調"
+            },
+            {
+              "word": "issue",
+              "ja": "発行する・布告する",
+              "note": "issue a proclamation で布告する"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "proclamation",
+              "ja": "布告・お触れ",
+              "note": "公式に公表する命令"
+            }
+          ]
+        },
+        {
+          "en": "that birds are not to be allowed to die here.” ",
+          "role": "that節・指示語",
+          "ja": "鳥がここで死ぬことを禁止するという布告を」",
+          "hint": "are not to be allowed to＝〜することを許されない",
+          "words": [
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "birds",
+              "ja": "鳥たち",
+              "note": "bird の複数形"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "allowed",
+              "ja": "許された",
+              "note": "allow の過去分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "die",
+              "ja": "死ぬ",
+              "note": "生命を終える"
+            },
+            {
+              "word": "here",
+              "ja": "ここに",
+              "note": "話し手の場所"
+            }
+          ]
+        },
+        {
+          "en": "And the Town Clerk made a note of the suggestion.",
+          "role": "並列・追加",
+          "ja": "そして市の書記官が提案を書き留めた。",
+          "hint": "made a note of＝書き留めた ／ 語句：Clerk＝書記、suggestion＝提案",
+          "words": [
+            {
+              "word": "And",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Town",
+              "ja": "町・街",
+              "note": "都市より小規模"
+            },
+            {
+              "word": "Clerk",
+              "ja": "書記",
+              "note": "Town Clerk は町の書記官"
+            },
+            {
+              "word": "made",
+              "ja": "作った・させた",
+              "note": "make の過去形"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "note",
+              "ja": "メモ・書き留める",
+              "note": "make a note of で記録する"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "suggestion",
+              "ja": "提案",
+              "note": "suggest の名詞形"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "issue a proclamation",
+          "ja": "布告を出す"
+        },
+        {
+          "en": "are not to be allowed to",
+          "ja": "〜することを許されない"
+        },
+        {
+          "en": "made a note of",
+          "ja": "書き留めた"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "actually",
+          "ja": "実際に",
+          "note": "驚き・強調にも使う"
+        },
+        {
+          "word": "dead",
+          "ja": "死んだ",
+          "note": "die の結果状態"
+        },
+        {
+          "word": "Mayor",
+          "ja": "市長",
+          "note": "市の行政責任者"
+        },
+        {
+          "word": "proclamation",
+          "ja": "布告・お触れ",
+          "note": "公式に公表する命令"
+        },
+        {
+          "word": "Clerk",
+          "ja": "書記",
+          "note": "Town Clerk は町の書記官"
+        },
+        {
+          "word": "suggestion",
+          "ja": "提案",
+          "note": "suggest の名詞形"
+        }
+      ]
+    },
+    {
+      "summary": "大学の美術教授は美しくない像は役に立たないと判断する。",
+      "chunks": [
+        {
+          "en": "So they pulled down the statue of the Happy Prince. ",
+          "role": "結果・場面展開",
+          "ja": "こうして人々は幸福な王子の像を取り壊した。",
+          "hint": "pulled down the statue＝像を取り壊した ／ 語句：pulled＝引き倒した、statue＝像、prince＝王子",
+          "words": [
+            {
+              "word": "So",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "pulled",
+              "ja": "引き倒した",
+              "note": "pull down で取り壊す"
+            },
+            {
+              "word": "down",
+              "ja": "下へ・下に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "“As he is no longer beautiful he is no longer useful,” ",
+          "role": "比較・理由・時間などの接続",
+          "ja": "「美しくなくなった以上、役にも立たない」と",
+          "hint": "no longer beautiful＝もはや美しくない ／ no longer useful＝もはや役に立たない ／ 語句：useful＝有用な",
+          "words": [
+            {
+              "word": "As",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "no",
+              "ja": "いいえ・一つも〜ない",
+              "note": "否定語"
+            },
+            {
+              "word": "longer",
+              "ja": "もっと長く・これ以上",
+              "note": "比較級"
+            },
+            {
+              "word": "beautiful",
+              "ja": "美しい",
+              "note": "美しさを表す形容詞"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "no",
+              "ja": "いいえ・一つも〜ない",
+              "note": "否定語"
+            },
+            {
+              "word": "longer",
+              "ja": "もっと長く・これ以上",
+              "note": "比較級"
+            },
+            {
+              "word": "useful",
+              "ja": "有用な",
+              "note": "有用性の尺度として使われる"
+            }
+          ]
+        },
+        {
+          "en": "said the Art Professor at the University.",
+          "role": "発話と話者",
+          "ja": "大学の美術教授は言った。",
+          "hint": "語句：Professor＝教授",
+          "words": [
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Art",
+              "ja": "美術・芸術",
+              "note": "Art Professor は美術教授"
+            },
+            {
+              "word": "Professor",
+              "ja": "教授",
+              "note": "大学などの教員"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "University",
+              "ja": "大学",
+              "note": "高等教育機関"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "pulled down the statue",
+          "ja": "像を取り壊した"
+        },
+        {
+          "en": "no longer beautiful",
+          "ja": "もはや美しくない"
+        },
+        {
+          "en": "no longer useful",
+          "ja": "もはや役に立たない"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "pulled",
+          "ja": "引き倒した",
+          "note": "pull down で取り壊す"
+        },
+        {
+          "word": "statue",
+          "ja": "像",
+          "note": "彫像、人物をかたどった造形物"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "useful",
+          "ja": "有用な",
+          "note": "有用性の尺度として使われる"
+        },
+        {
+          "word": "Professor",
+          "ja": "教授",
+          "note": "大学などの教員"
+        }
+      ]
+    },
+    {
+      "summary": "像は溶かされ、誰を新しい像にするかをめぐって市長が自分を推す。",
+      "chunks": [
+        {
+          "en": "Then they melted the statue in a furnace, ",
+          "role": "時間・場面",
+          "ja": "それから彼らは像を炉で溶かし、",
+          "hint": "melted the statue＝像を溶かした ／ 語句：then＝それから・そのとき、melted＝溶かした、statue＝像",
+          "words": [
+            {
+              "word": "Then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "melted",
+              "ja": "溶かした",
+              "note": "melt の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "furnace",
+              "ja": "炉",
+              "note": "金属を高温で溶かす設備"
+            }
+          ]
+        },
+        {
+          "en": "and the Mayor held a meeting of the Corporation to decide what ",
+          "role": "並列・追加",
+          "ja": "市長は市当局の会議を開いて決めようとした。",
+          "hint": "語句：Mayor＝市長、Corporation＝自治体組織、decide＝決める",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Mayor",
+              "ja": "市長",
+              "note": "市の行政責任者"
+            },
+            {
+              "word": "held",
+              "ja": "開いた・持った",
+              "note": "hold の過去形"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "meeting",
+              "ja": "会議",
+              "note": "集会"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Corporation",
+              "ja": "自治体組織",
+              "note": "市の法人組織・行政機関"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "decide",
+              "ja": "決める",
+              "note": "what to do with ... と共起"
+            },
+            {
+              "word": "what",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            }
+          ]
+        },
+        {
+          "en": "was to be done with the metal. ",
+          "role": "意味のまとまり",
+          "ja": "その金属をどう処分するかを。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "done",
+              "ja": "した・なされた",
+              "note": "do の過去分詞"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "metal",
+              "ja": "金属",
+              "note": "物質"
+            }
+          ]
+        },
+        {
+          "en": "“We must have another statue, of course,” he said, ",
+          "role": "発話と話者",
+          "ja": "「もちろん別の像が必要だ」と市長は言い、",
+          "hint": "語句：statue＝像",
+          "words": [
+            {
+              "word": "We",
+              "ja": "私たちは",
+              "note": "一人称複数主格"
+            },
+            {
+              "word": "must",
+              "ja": "〜しなければならない",
+              "note": "義務・強い推量"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "another",
+              "ja": "もう一つの・別の",
+              "note": "追加の一つ"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "course",
+              "ja": "道筋・当然",
+              "note": "of course で「もちろん」"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            }
+          ]
+        },
+        {
+          "en": "“and it shall be a statue of myself.”",
+          "role": "並列・追加",
+          "ja": "「私自身の像にしよう」",
+          "hint": "a statue of myself＝私自身の像 ／ 語句：statue＝像",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "shall",
+              "ja": "〜するだろう・〜しましょう",
+              "note": "約束・提案に使う助動詞"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "myself",
+              "ja": "私自身",
+              "note": "一人称再帰代名詞"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "melted the statue",
+          "ja": "像を溶かした"
+        },
+        {
+          "en": "what was to be done with",
+          "ja": "それをどう処理すべきか"
+        },
+        {
+          "en": "a statue of myself",
+          "ja": "私自身の像"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "then",
+          "ja": "それから・そのとき",
+          "note": "時間のつながりを示す"
+        },
+        {
+          "word": "melted",
+          "ja": "溶かした",
+          "note": "melt の過去形"
+        },
+        {
+          "word": "statue",
+          "ja": "像",
+          "note": "彫像、人物をかたどった造形物"
+        },
+        {
+          "word": "furnace",
+          "ja": "炉",
+          "note": "金属を高温で溶かす設備"
+        },
+        {
+          "word": "Mayor",
+          "ja": "市長",
+          "note": "市の行政責任者"
+        },
+        {
+          "word": "Corporation",
+          "ja": "自治体組織",
+          "note": "市の法人組織・行政機関"
+        },
+        {
+          "word": "decide",
+          "ja": "決める",
+          "note": "what to do with ... と共起"
+        }
+      ]
+    },
+    {
+      "summary": "議員もそれぞれ自分の像がよいと言い、口論が続く。",
+      "chunks": [
+        {
+          "en": "“Of myself,” said each of the Town Councillors, and they quarrelled. ",
+          "role": "発話と話者",
+          "ja": "「私自身の像に」と議員たちもそれぞれ言い、口論になった。",
+          "hint": "each of the Town Councillors＝議員の一人ひとり ／ 語句：Councillors＝市議会議員たち、quarrelled＝口論した",
+          "words": [
+            {
+              "word": "Of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "myself",
+              "ja": "私自身",
+              "note": "一人称再帰代名詞"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "each",
+              "ja": "それぞれ・一つ一つの",
+              "note": "個別を強調"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Town",
+              "ja": "町・街",
+              "note": "都市より小規模"
+            },
+            {
+              "word": "Councillors",
+              "ja": "市議会議員たち",
+              "note": "councillor の複数形"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "quarrelled",
+              "ja": "口論した",
+              "note": "英国式綴り。米国式 quarreled"
+            }
+          ]
+        },
+        {
+          "en": "When I last heard of them they were quarrelling still.",
+          "role": "時間・場面",
+          "ja": "私が最後に聞いたときも彼らはまだ口論していた。",
+          "hint": "quarrelling still＝まだ口論している",
+          "words": [
+            {
+              "word": "When",
+              "ja": "いつ・〜するとき",
+              "note": "疑問・時間"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "last",
+              "ja": "最後の・前の",
+              "note": "時系列の位置"
+            },
+            {
+              "word": "heard",
+              "ja": "聞いた",
+              "note": "hear の過去形"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "them",
+              "ja": "彼らを・彼女らに",
+              "note": "三人称複数目的格"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "were",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去複数"
+            },
+            {
+              "word": "quarrelling",
+              "ja": "言い争っている",
+              "note": "quarrel の現在分詞"
+            },
+            {
+              "word": "still",
+              "ja": "まだ・それでも",
+              "note": "継続・譲歩"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "each of the Town Councillors",
+          "ja": "議員の一人ひとり"
+        },
+        {
+          "en": "quarrelling still",
+          "ja": "まだ口論している"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Councillors",
+          "ja": "市議会議員たち",
+          "note": "councillor の複数形"
+        },
+        {
+          "word": "quarrelled",
+          "ja": "口論した",
+          "note": "英国式綴り。米国式 quarreled"
+        }
+      ]
+    }
+  ]
+}
