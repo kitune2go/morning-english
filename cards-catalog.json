@@ -955,6 +955,174 @@
       "coreVerb": "alter",
       "theme": "同じ物語でも映像化によって印象が変わる理由を説明する",
       "_sourceFile": "cards-extra-20260912.json"
+    },
+    {
+      "_no": 125,
+      "sentence": "Before describing a relationship as fraudulent, specify what was falsely represented, how the other person relied on it, and what loss allegedly followed.",
+      "coreVerb": "specify",
+      "theme": "詐欺性を論じる前に詐称・信頼・損失を特定する",
+      "_sourceFile": "cards-extra-20260913.json"
+    },
+    {
+      "_no": 126,
+      "sentence": "An exit-cost analysis becomes more useful when it separates entry, dependency, and exit, while also testing whether intent or structure better explains the constraint.",
+      "coreVerb": "separate",
+      "theme": "退出費用を入口・依存・出口・反証に分けて分析する",
+      "_sourceFile": "cards-extra-20260913.json"
+    },
+    {
+      "_no": 127,
+      "sentence": "A public repository can contain client code, but secret API keys must remain in a protected backend and never appear in files that users can download.",
+      "coreVerb": "remain",
+      "theme": "公開コードと秘密のAPIキーを分離する",
+      "_sourceFile": "cards-extra-20260913.json"
+    },
+    {
+      "_no": 128,
+      "sentence": "A stated purpose can establish an initial agreement, but it cannot guarantee continued performance; later actions must be evaluated separately from the original declaration.",
+      "coreVerb": "establish",
+      "theme": "目的の表明と継続的な履行を分けて評価する",
+      "_sourceFile": "cards-extra-20260914.json"
+    },
+    {
+      "_no": 129,
+      "sentence": "When an empty sink ID represents the browser’s default output route, treating it as unknown prevents valid calibration results from being recognized.",
+      "coreVerb": "prevent",
+      "theme": "既定の音声出力経路を既知の値として判定する",
+      "_sourceFile": "cards-extra-20260914.json"
+    },
+    {
+      "_no": 130,
+      "sentence": "Even when some notes are left undecided, chance can remain part of an artistic design; improvisation does not prove that the music lacks intention or philosophy.",
+      "coreVerb": "prove",
+      "theme": "偶然性を設計思想の欠如と混同しない",
+      "_sourceFile": "cards-extra-20260915.json"
+    },
+    {
+      "_no": 131,
+      "sentence": "Prompt caching can make repeated context processing much faster, but it does not necessarily make the model generate new tokens equally fast.",
+      "coreVerb": "make",
+      "theme": "prompt cachingのprefill高速化と生成速度を区別する",
+      "_sourceFile": "cards-extra-20260915.json"
+    },
+    {
+      "_no": 132,
+      "sentence": "When criticism of an argument is recast as gender bias without examining the claim itself, the original disagreement remains unresolved.",
+      "coreVerb": "remain",
+      "theme": "論旨への批判と属性に基づく偏見を切り分ける",
+      "_sourceFile": "cards-extra-20260915.json"
+    },
+    {
+      "_no": 133,
+      "sentence": "Loyalty within a group can make someone seem dependable, but it does not guarantee sound judgment when danger requires people to leave quickly.",
+      "coreVerb": "guarantee",
+      "theme": "集団内の義理堅さと危機時の判断力を分ける",
+      "_sourceFile": "cards-extra-20260916.json"
+    },
+    {
+      "_no": 134,
+      "sentence": "Someone who keeps an exit open may attract less attention than a dramatic rescuer, yet quiet prevention can protect more people before a crisis escalates.",
+      "coreVerb": "protect",
+      "theme": "目立つ救援より静かな退出確保を評価する",
+      "_sourceFile": "cards-extra-20260916.json"
+    },
+    {
+      "_no": 135,
+      "sentence": "Market criticism can circulate as a product, but its commercial success does not automatically prove that the criticism is false or harmless.",
+      "coreVerb": "prove",
+      "theme": "市場批判の商品化と批判内容の妥当性を分ける",
+      "_sourceFile": "cards-extra-20260917.json"
+    },
+    {
+      "_no": 136,
+      "sentence": "When foreign literature reaches readers through translation and performance, cultural influence can spread before most people study the original language or historical context.",
+      "coreVerb": "spread",
+      "theme": "翻訳と上演を文化受容の経路として捉える",
+      "_sourceFile": "cards-extra-20260917.json"
+    },
+    {
+      "_no": 137,
+      "sentence": "A repeated refrain can carry political language farther than a formal essay because rhythm makes the message easier to remember and perform.",
+      "coreVerb": "carry",
+      "theme": "反復とリズムが政治的言葉を広げる仕組みを捉える",
+      "_sourceFile": "cards-extra-20260917.json"
+    },
+    {
+      "_no": 138,
+      "sentence": "When sales, operations, and investors optimize different metrics, an organization can report improvement while the physical process becomes harder to maintain.",
+      "coreVerb": "optimize",
+      "theme": "部署ごとに異なる指標と現場の維持可能性",
+      "_sourceFile": "cards-extra-20260918.json"
+    },
+    {
+      "_no": 139,
+      "sentence": "Strict discipline may suppress visible mistakes without changing the underlying behavior; once supervision disappears, the same behavior can return.",
+      "coreVerb": "suppress",
+      "theme": "監視下の統制と行動変容の違い",
+      "_sourceFile": "cards-extra-20260918.json"
+    },
+    {
+      "_no": 140,
+      "sentence": "Categories do not merely redirect existing hostility; they can generate new hostility by giving people a ready-made target.",
+      "coreVerb": "generate",
+      "theme": "カテゴリー化が新しい敵意を生む作用",
+      "_sourceFile": "cards-extra-20260918.json"
+    },
+    {
+      "_no": 141,
+      "sentence": "A manager can frame pressure as guidance, but talk of growth does not erase an employee's lack of real choice.",
+      "coreVerb": "frame",
+      "theme": "指導や成長の言葉で包まれた圧力",
+      "_sourceFile": "cards-extra-20260919.json"
+    },
+    {
+      "_no": 142,
+      "sentence": "Even when delivery is advertised as free, moving many small packages still requires time, physical effort, parking space, and paid labor.",
+      "coreVerb": "require",
+      "theme": "送料無料表示の背後に残る物流労働",
+      "_sourceFile": "cards-extra-20260920.json"
+    },
+    {
+      "_no": 143,
+      "sentence": "A performer may appear spontaneous on screen, while ratings, sponsors, scripts, editing, and social-media reactions shape what the audience sees.",
+      "coreVerb": "shape",
+      "theme": "自然に見える出演を形作るメディアの条件",
+      "_sourceFile": "cards-extra-20260921.json"
+    },
+    {
+      "_no": 144,
+      "sentence": "AI can reproduce a result without inheriting the effort behind it, so effort alone can no longer serve as reliable evidence of value.",
+      "coreVerb": "reproduce",
+      "theme": "AIが努力と価値の結び付きを弱める仕組み",
+      "_sourceFile": "cards-extra-20260924.json"
+    },
+    {
+      "_no": 145,
+      "sentence": "An operating system sits between applications and hardware, managing processes, memory, files, devices, networks, and permissions through a shared set of interfaces.",
+      "coreVerb": "manage",
+      "theme": "OSがアプリとハードウェアを仲介する仕組み",
+      "_sourceFile": "cards-extra-20260925.json"
+    },
+    {
+      "_no": 146,
+      "sentence": "A monument can preserve its materials and date without preserving a single purpose; repeated use and interpretation give it new meanings over time.",
+      "coreVerb": "preserve",
+      "theme": "記念物が保存する物質と変化する意味",
+      "_sourceFile": "cards-extra-20260922.json"
+    },
+    {
+      "_no": 147,
+      "sentence": "Large redevelopment converts expected future rent into present construction, but its sunk costs, contracts, and stakeholders can narrow a city's future choices.",
+      "coreVerb": "narrow",
+      "theme": "再開発が将来の選択肢へ与える退出費用",
+      "_sourceFile": "cards-extra-20260923.json"
+    },
+    {
+      "_no": 148,
+      "sentence": "Permission to perform in public does not grant priority over shared space; musical benefits may stay local while noise costs spread to others.",
+      "coreVerb": "grant",
+      "theme": "公共演奏の許可と共有空間での優先権",
+      "_sourceFile": "cards-extra-20260926.json"
     }
   ]
 }
