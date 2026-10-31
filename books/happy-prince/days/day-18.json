@@ -1,0 +1,1378 @@
+{
+  "day": 18,
+  "title": "金箔の贈り物",
+  "wordCount": 190,
+  "paragraphs": [
+    "Leaf after leaf of the fine gold the Swallow picked off, till the Happy Prince looked quite dull and grey. Leaf after leaf of the fine gold he brought to the poor, and the children’s faces grew rosier, and they laughed and played games in the street. “We have bread now!” they cried.",
+    "Then the snow came, and after the snow came the frost. The streets looked as if they were made of silver, they were so bright and glistening; long icicles like crystal daggers hung down from the eaves of the houses, everybody went about in furs, and the little boys wore scarlet caps and skated on the ice.",
+    "The poor little Swallow grew colder and colder, but he would not leave the Prince, he loved him too well. He picked up crumbs outside the baker’s door when the baker was not looking and tried to keep himself warm by flapping his wings.",
+    "But at last he knew that he was going to die. He had just strength to fly up to the Prince’s shoulder once more. “Good-bye, dear Prince!” he murmured, “will you let me kiss your hand?”"
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "scarlet",
+      "ja": "深紅の"
+    },
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "dull",
+      "ja": "くすんだ"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "金箔を届けた結果、王子は灰色になる一方、子どもたちは元気を取り戻す。",
+      "chunks": [
+        {
+          "en": "Leaf after leaf of the fine gold the Swallow picked off, ",
+          "role": "意味のまとまり",
+          "ja": "ツバメは金箔を一枚また一枚と剥がし、",
+          "hint": "Leaf after leaf＝一枚また一枚と ／ 語句：Swallow＝ツバメ、picked＝つまみ取った",
+          "words": [
+            {
+              "word": "Leaf",
+              "ja": "葉・薄片",
+              "note": "金箔を一枚数えるときの語"
+            },
+            {
+              "word": "after",
+              "ja": "〜のあとで",
+              "note": "時を表す"
+            },
+            {
+              "word": "leaf",
+              "ja": "葉・薄片",
+              "note": "金箔を一枚数えるときの語"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "fine",
+              "ja": "上質な・美しい",
+              "note": "品質がよい"
+            },
+            {
+              "word": "gold",
+              "ja": "金・黄金",
+              "note": "貴金属"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "picked",
+              "ja": "つまみ取った",
+              "note": "pick off で取り除く"
+            },
+            {
+              "word": "off",
+              "ja": "離れて・去って",
+              "note": "be off to で出発する"
+            }
+          ]
+        },
+        {
+          "en": "till the Happy Prince looked quite dull and grey. ",
+          "role": "意味のまとまり",
+          "ja": "とうとう幸福な王子はすっかりくすんだ灰色になった。",
+          "hint": "語句：prince＝王子、dull＝くすんだ、grey＝灰色の",
+          "words": [
+            {
+              "word": "till",
+              "ja": "〜まで",
+              "note": "時間的限界 until に近い"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "looked",
+              "ja": "見た・見えた",
+              "note": "look の過去形"
+            },
+            {
+              "word": "quite",
+              "ja": "かなり・すっかり・まったく",
+              "note": "程度の副詞"
+            },
+            {
+              "word": "dull",
+              "ja": "くすんだ",
+              "note": "光沢がなくなった"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "grey",
+              "ja": "灰色の",
+              "note": "英国式綴り。米国式 gray"
+            }
+          ]
+        },
+        {
+          "en": "Leaf after leaf of the fine gold he brought to the poor, ",
+          "role": "意味のまとまり",
+          "ja": "金箔を一枚また一枚、貧しい人々のもとへ運ぶと、",
+          "hint": "Leaf after leaf＝一枚また一枚と",
+          "words": [
+            {
+              "word": "Leaf",
+              "ja": "葉・薄片",
+              "note": "金箔を一枚数えるときの語"
+            },
+            {
+              "word": "after",
+              "ja": "〜のあとで",
+              "note": "時を表す"
+            },
+            {
+              "word": "leaf",
+              "ja": "葉・薄片",
+              "note": "金箔を一枚数えるときの語"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "fine",
+              "ja": "上質な・美しい",
+              "note": "品質がよい"
+            },
+            {
+              "word": "gold",
+              "ja": "金・黄金",
+              "note": "貴金属"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "brought",
+              "ja": "持ってきた",
+              "note": "bring の過去・過去分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "poor",
+              "ja": "貧しい・かわいそうな",
+              "note": "経済状態や同情"
+            }
+          ]
+        },
+        {
+          "en": "and the children’s faces grew rosier, ",
+          "role": "並列・追加",
+          "ja": "子どもたちの頬には赤みが戻り、",
+          "hint": "grew rosier＝頬に赤みが増した ／ 語句：rosier＝血色がよくなった",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "children’s",
+              "ja": "子どもたちの",
+              "note": "children の所有格"
+            },
+            {
+              "word": "faces",
+              "ja": "顔たち・顔",
+              "note": "face の複数形"
+            },
+            {
+              "word": "grew",
+              "ja": "育った・〜になった",
+              "note": "grow の過去形"
+            },
+            {
+              "word": "rosier",
+              "ja": "血色がよくなった",
+              "note": "rosy の比較級"
+            }
+          ]
+        },
+        {
+          "en": "and they laughed and played games in the street. ",
+          "role": "並列・追加",
+          "ja": "街路で笑いながら遊ぶようになった。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "laughed",
+              "ja": "笑った",
+              "note": "laugh の過去形"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "played",
+              "ja": "遊んだ・演奏した",
+              "note": "play の過去形"
+            },
+            {
+              "word": "games",
+              "ja": "遊び・ゲーム",
+              "note": "game の複数形"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "street",
+              "ja": "通り・街路",
+              "note": "道路"
+            }
+          ]
+        },
+        {
+          "en": "“We have bread now!” they cried.",
+          "role": "発話と話者",
+          "ja": "「もうパンがあるよ！」と子どもたちは叫んだ。",
+          "hint": "We have bread now＝もうパンがある ／ 語句：bread＝パン",
+          "words": [
+            {
+              "word": "We",
+              "ja": "私たちは",
+              "note": "一人称複数主格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "bread",
+              "ja": "パン",
+              "note": "生活を支える食べ物"
+            },
+            {
+              "word": "now",
+              "ja": "今・もう",
+              "note": "現在時点"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "cried",
+              "ja": "叫んだ・泣いた",
+              "note": "cry の過去形。文脈で区別"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "Leaf after leaf",
+          "ja": "一枚また一枚と"
+        },
+        {
+          "en": "grew rosier",
+          "ja": "頬に赤みが増した"
+        },
+        {
+          "en": "We have bread now",
+          "ja": "もうパンがある"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "picked",
+          "ja": "つまみ取った",
+          "note": "pick off で取り除く"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "dull",
+          "ja": "くすんだ",
+          "note": "光沢がなくなった"
+        },
+        {
+          "word": "grey",
+          "ja": "灰色の",
+          "note": "英国式綴り。米国式 gray"
+        },
+        {
+          "word": "rosier",
+          "ja": "血色がよくなった",
+          "note": "rosy の比較級"
+        },
+        {
+          "word": "bread",
+          "ja": "パン",
+          "note": "生活を支える食べ物"
+        }
+      ]
+    },
+    {
+      "summary": "厳しい寒波で街が凍り、銀色の氷柱や毛皮姿の人々が描かれる。",
+      "chunks": [
+        {
+          "en": "Then the snow came, and after the snow came the frost. ",
+          "role": "時間・場面",
+          "ja": "やがて雪が降り、そのあと霜が降りた。",
+          "hint": "語句：then＝それから・そのとき、frost＝霜・厳寒",
+          "words": [
+            {
+              "word": "Then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "snow",
+              "ja": "雪",
+              "note": "降雪"
+            },
+            {
+              "word": "came",
+              "ja": "来た",
+              "note": "come の過去形"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "after",
+              "ja": "〜のあとで",
+              "note": "時を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "snow",
+              "ja": "雪",
+              "note": "降雪"
+            },
+            {
+              "word": "came",
+              "ja": "来た",
+              "note": "come の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "frost",
+              "ja": "霜・厳寒",
+              "note": "凍るほどの冷え込み"
+            }
+          ]
+        },
+        {
+          "en": "The streets looked as if they were made of silver, ",
+          "role": "主語・叙述",
+          "ja": "街路はまるで銀でできているかのように見え、",
+          "hint": "as if they were made of silver＝まるで銀でできたように",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "streets",
+              "ja": "通り・街路",
+              "note": "street の複数形"
+            },
+            {
+              "word": "looked",
+              "ja": "見た・見えた",
+              "note": "look の過去形"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "if",
+              "ja": "もし〜なら・〜かどうか",
+              "note": "条件・間接疑問"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "were",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去複数"
+            },
+            {
+              "word": "made",
+              "ja": "作った・させた",
+              "note": "make の過去形"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "silver",
+              "ja": "銀・銀色の",
+              "note": "金属・色"
+            }
+          ]
+        },
+        {
+          "en": "they were so bright and glistening; ",
+          "role": "主語・叙述",
+          "ja": "とても明るくきらきらしていた。",
+          "hint": "語句：glistening＝きらきら光る",
+          "words": [
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "were",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去複数"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "bright",
+              "ja": "明るい・輝く",
+              "note": "光や色を表す"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "glistening",
+              "ja": "きらきら光る",
+              "note": "光を反射して輝く"
+            }
+          ]
+        },
+        {
+          "en": "long icicles like crystal daggers hung down from the eaves of the ",
+          "role": "意味のまとまり",
+          "ja": "水晶の短剣のような長いつららが軒先から垂れ下がり、",
+          "hint": "icicles like crystal daggers＝水晶の短剣のような氷柱 ／ hung down from the eaves＝軒先から垂れ下がった ／ 語句：icicles＝氷柱、crystal＝水晶、daggers＝短剣",
+          "words": [
+            {
+              "word": "long",
+              "ja": "長い・長く",
+              "note": "時間・距離"
+            },
+            {
+              "word": "icicles",
+              "ja": "氷柱",
+              "note": "屋根などから垂れる氷"
+            },
+            {
+              "word": "like",
+              "ja": "〜のように・好きだ",
+              "note": "前置詞・動詞"
+            },
+            {
+              "word": "crystal",
+              "ja": "水晶",
+              "note": "透明な鉱物"
+            },
+            {
+              "word": "daggers",
+              "ja": "短剣",
+              "note": "dagger の複数形"
+            },
+            {
+              "word": "hung",
+              "ja": "吊り下がった",
+              "note": "hang の過去形"
+            },
+            {
+              "word": "down",
+              "ja": "下へ・下に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "from",
+              "ja": "〜から",
+              "note": "出発点・材料・起源"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "eaves",
+              "ja": "軒先",
+              "note": "屋根の端"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            }
+          ]
+        },
+        {
+          "en": "houses, everybody went about in furs, ",
+          "role": "意味のまとまり",
+          "ja": "家々では誰もが毛皮をまとい、",
+          "hint": "語句：furs＝毛皮",
+          "words": [
+            {
+              "word": "houses",
+              "ja": "家々",
+              "note": "house の複数形"
+            },
+            {
+              "word": "everybody",
+              "ja": "みんな・誰もが",
+              "note": "すべての人"
+            },
+            {
+              "word": "went",
+              "ja": "行った",
+              "note": "go の過去形"
+            },
+            {
+              "word": "about",
+              "ja": "〜について・周囲に",
+              "note": "話題・位置を示す"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "furs",
+              "ja": "毛皮",
+              "note": "防寒の衣服"
+            }
+          ]
+        },
+        {
+          "en": "and the little boys wore scarlet caps and skated on the ice.",
+          "role": "並列・追加",
+          "ja": "少年たちは深紅の帽子で氷の上を滑っていた。",
+          "hint": "語句：scarlet＝鮮やかな赤色の、skated＝スケートをした",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "boys",
+              "ja": "男の子たち",
+              "note": "boy の複数"
+            },
+            {
+              "word": "wore",
+              "ja": "着ていた",
+              "note": "wear の過去形"
+            },
+            {
+              "word": "scarlet",
+              "ja": "鮮やかな赤色の",
+              "note": "色彩を示す形容詞"
+            },
+            {
+              "word": "caps",
+              "ja": "帽子",
+              "note": "cap の複数形"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "skated",
+              "ja": "スケートをした",
+              "note": "skate の過去形"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "ice",
+              "ja": "氷",
+              "note": "凍った水"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "as if they were made of silver",
+          "ja": "まるで銀でできたように"
+        },
+        {
+          "en": "icicles like crystal daggers",
+          "ja": "水晶の短剣のような氷柱"
+        },
+        {
+          "en": "hung down from the eaves",
+          "ja": "軒先から垂れ下がった"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "then",
+          "ja": "それから・そのとき",
+          "note": "時間のつながりを示す"
+        },
+        {
+          "word": "frost",
+          "ja": "霜・厳寒",
+          "note": "凍るほどの冷え込み"
+        },
+        {
+          "word": "glistening",
+          "ja": "きらきら光る",
+          "note": "光を反射して輝く"
+        },
+        {
+          "word": "icicles",
+          "ja": "氷柱",
+          "note": "屋根などから垂れる氷"
+        },
+        {
+          "word": "crystal",
+          "ja": "水晶",
+          "note": "透明な鉱物"
+        },
+        {
+          "word": "daggers",
+          "ja": "短剣",
+          "note": "dagger の複数形"
+        },
+        {
+          "word": "eaves",
+          "ja": "軒先",
+          "note": "屋根の端"
+        },
+        {
+          "word": "furs",
+          "ja": "毛皮",
+          "note": "防寒の衣服"
+        },
+        {
+          "word": "scarlet",
+          "ja": "鮮やかな赤色の",
+          "note": "色彩を示す形容詞"
+        },
+        {
+          "word": "skated",
+          "ja": "スケートをした",
+          "note": "skate の過去形"
+        }
+      ]
+    },
+    {
+      "summary": "寒さに弱ったツバメはパンくずを食べ、羽ばたいて温まろうとする。",
+      "chunks": [
+        {
+          "en": "The poor little Swallow grew colder and colder, ",
+          "role": "主語・叙述",
+          "ja": "かわいそうな小さなツバメはますます寒くなったが、",
+          "hint": "colder and colder＝ますます寒く ／ 語句：Swallow＝ツバメ、colder＝より寒い",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "poor",
+              "ja": "貧しい・かわいそうな",
+              "note": "経済状態や同情"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "grew",
+              "ja": "育った・〜になった",
+              "note": "grow の過去形"
+            },
+            {
+              "word": "colder",
+              "ja": "より寒い",
+              "note": "cold の比較級"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "colder",
+              "ja": "より寒い",
+              "note": "cold の比較級"
+            }
+          ]
+        },
+        {
+          "en": "but he would not leave the Prince, he loved him too well. ",
+          "role": "逆接・対比",
+          "ja": "深く王子を愛していたので、離れようとはしなかった。",
+          "hint": "too well＝あまりにも深く ／ 語句：prince＝王子",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "would",
+              "ja": "〜だろう・〜するつもりだった",
+              "note": "will の過去・仮定"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "leave",
+              "ja": "去る・離れる",
+              "note": "場所から去る"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "loved",
+              "ja": "愛した",
+              "note": "love の過去形"
+            },
+            {
+              "word": "him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "too",
+              "ja": "あまりに・〜もまた",
+              "note": "程度や追加"
+            },
+            {
+              "word": "well",
+              "ja": "よく・上手に",
+              "note": "方法・程度"
+            }
+          ]
+        },
+        {
+          "en": "He picked up crumbs outside the baker’s door ",
+          "role": "主語・叙述",
+          "ja": "彼はパン屋の戸口の外でパンくずを拾い、",
+          "hint": "語句：picked＝つまみ取った、crumbs＝パンくず、baker＝パン屋",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "picked",
+              "ja": "つまみ取った",
+              "note": "pick off で取り除く"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            },
+            {
+              "word": "crumbs",
+              "ja": "パンくず",
+              "note": "小さく砕けたかけら"
+            },
+            {
+              "word": "outside",
+              "ja": "外に・外側で",
+              "note": "位置"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "baker’s",
+              "ja": "パン屋の",
+              "note": "baker の所有格"
+            },
+            {
+              "word": "door",
+              "ja": "扉・戸口",
+              "note": "入口"
+            }
+          ]
+        },
+        {
+          "en": "when the baker was not looking ",
+          "role": "時間・場面",
+          "ja": "パン屋が見ていない隙に、",
+          "hint": "語句：baker＝パン屋",
+          "words": [
+            {
+              "word": "when",
+              "ja": "いつ・〜するとき",
+              "note": "疑問・時間"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "baker",
+              "ja": "パン屋",
+              "note": "パンを焼く職業の人"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "looking",
+              "ja": "見ている",
+              "note": "look の現在分詞"
+            }
+          ]
+        },
+        {
+          "en": "and tried to keep himself warm by flapping his wings.",
+          "role": "並列・追加",
+          "ja": "翼を羽ばたかせて体を温めようとした。",
+          "hint": "by flapping his wings＝羽を羽ばたかせて ／ 語句：flapping＝羽ばたかせる",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "tried",
+              "ja": "試みた・努力した",
+              "note": "try の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "keep",
+              "ja": "保つ・防ぐ",
+              "note": "keep off で遠ざける"
+            },
+            {
+              "word": "himself",
+              "ja": "彼自身・自分で",
+              "note": "再帰代名詞"
+            },
+            {
+              "word": "warm",
+              "ja": "暖かい",
+              "note": "温度・心理"
+            },
+            {
+              "word": "by",
+              "ja": "〜によって・〜のそばで",
+              "note": "受動態・手段・位置"
+            },
+            {
+              "word": "flapping",
+              "ja": "羽ばたかせる",
+              "note": "翼を上下に動かす"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "wings",
+              "ja": "翼",
+              "note": "wing 複数"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "colder and colder",
+          "ja": "ますます寒く"
+        },
+        {
+          "en": "too well",
+          "ja": "あまりにも深く"
+        },
+        {
+          "en": "by flapping his wings",
+          "ja": "羽を羽ばたかせて"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "colder",
+          "ja": "より寒い",
+          "note": "cold の比較級"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "picked",
+          "ja": "つまみ取った",
+          "note": "pick off で取り除く"
+        },
+        {
+          "word": "crumbs",
+          "ja": "パンくず",
+          "note": "小さく砕けたかけら"
+        },
+        {
+          "word": "baker",
+          "ja": "パン屋",
+          "note": "パンを焼く職業の人"
+        },
+        {
+          "word": "flapping",
+          "ja": "羽ばたかせる",
+          "note": "翼を上下に動かす"
+        }
+      ]
+    },
+    {
+      "summary": "死期を悟ったツバメは、最後に王子の手に口づけしたいと願う。",
+      "chunks": [
+        {
+          "en": "But at last he knew that he was going to die. ",
+          "role": "逆接・対比",
+          "ja": "しかしついに自分が死ぬと悟った。",
+          "hint": "going to die＝死のうとしている",
+          "words": [
+            {
+              "word": "But",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "last",
+              "ja": "最後の・前の",
+              "note": "時系列の位置"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "knew",
+              "ja": "知っていた・悟った",
+              "note": "know の過去形"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "going",
+              "ja": "行こうとしている",
+              "note": "go の現在分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "die",
+              "ja": "死ぬ",
+              "note": "生命を終える"
+            }
+          ]
+        },
+        {
+          "en": "He had just strength to fly up to the Prince’s shoulder once ",
+          "role": "主語・叙述",
+          "ja": "王子の肩へもう一度飛び上がるだけの力しか残っていなかった。",
+          "hint": "just strength to＝〜するだけの力しかない ／ 語句：strength＝力、prince＝王子、shoulder＝肩",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "just",
+              "ja": "ちょうど・ただ〜だけ",
+              "note": "程度や時点の強調"
+            },
+            {
+              "word": "strength",
+              "ja": "力",
+              "note": "残された体力"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "fly",
+              "ja": "飛ぶ",
+              "note": "鳥の移動"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince’s",
+              "ja": "王子の",
+              "note": "Prince の所有格"
+            },
+            {
+              "word": "shoulder",
+              "ja": "肩",
+              "note": "鳥の止まる場所"
+            },
+            {
+              "word": "once",
+              "ja": "一度・かつて",
+              "note": "once more でもう一度"
+            }
+          ]
+        },
+        {
+          "en": "more. “Good-bye, dear Prince!” ",
+          "role": "意味のまとまり",
+          "ja": "「もう一度だけ。さようなら、王子さま！」",
+          "hint": "語句：prince＝王子",
+          "words": [
+            {
+              "word": "more",
+              "ja": "もっと・より多く",
+              "note": "比較級"
+            },
+            {
+              "word": "Good-bye",
+              "ja": "さようなら",
+              "note": "別れの挨拶"
+            },
+            {
+              "word": "dear",
+              "ja": "愛しい・親愛なる",
+              "note": "呼びかけ、Dear Prince"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "he murmured, “will you let me kiss your hand?”",
+          "role": "主語・叙述",
+          "ja": "彼はささやいた。「あなたの手に口づけしてもよいですか？」",
+          "hint": "kiss your hand＝あなたの手に口づけする ／ 語句：murmured＝ささやいた、kiss＝口づけする",
+          "words": [
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "murmured",
+              "ja": "ささやいた",
+              "note": "低い声で言った"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "let",
+              "ja": "〜させる・許す",
+              "note": "let は活用形同じ"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "kiss",
+              "ja": "口づけする",
+              "note": "名詞・動詞両用"
+            },
+            {
+              "word": "your",
+              "ja": "あなたの",
+              "note": "二人称所有格"
+            },
+            {
+              "word": "hand",
+              "ja": "手",
+              "note": "hand の単数形"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "going to die",
+          "ja": "死のうとしている"
+        },
+        {
+          "en": "just strength to",
+          "ja": "〜するだけの力しかない"
+        },
+        {
+          "en": "kiss your hand",
+          "ja": "あなたの手に口づけする"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "strength",
+          "ja": "力",
+          "note": "残された体力"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "shoulder",
+          "ja": "肩",
+          "note": "鳥の止まる場所"
+        },
+        {
+          "word": "murmured",
+          "ja": "ささやいた",
+          "note": "低い声で言った"
+        },
+        {
+          "word": "kiss",
+          "ja": "口づけする",
+          "note": "名詞・動詞両用"
+        }
+      ]
+    }
+  ]
+}
