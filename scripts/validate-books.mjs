@@ -290,7 +290,12 @@ if(litMatch){
       const render=chunkFn(glossary,{},()=>'https://chatgpt.com/?prompt=example',
         x=>String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;'),
         x=>String(x),()=>'<button>▶</button>');
-      const output=render({en:'Departments inside different organizations',ja:'複数の組織内の部署'},0,{id:'example'});
+      const placeholder=render({en:'Departments inside different organizations',ja:'複数の組織内の部署'},0,{id:'example'});
+      check(placeholder.includes('data-gloss-card="example"')&&
+        placeholder.includes('文脈単語帳（開くと読み込みます）')&&
+        !placeholder.includes('class="word-line"'),
+        "collapsed glossary defers expensive word rendering until opened");
+      const output=render({en:'Departments inside different organizations',ja:'複数の組織内の部署'},0,{id:'example'},true);
       check(output.includes('<strong class="word-en" lang="en">Departments</strong>')&&
         output.includes('意味を質問 ↗')&&output.includes('<span class="word-meaning unlisted" lang="ja">未登録</span>'),
         "unknown words show a distinct compact button instead of oversized inline hyperlinks");
