@@ -1,0 +1,43 @@
+name: Refresh reading indexes
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "cards-index.json"
+      - "cards.json"
+      - "cards-extra-*.json"
+      - "books/happy-prince/days.json"
+      - "books-manifest.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-reading-indexes-main
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Generate compact card and book indexes
+        run: node scripts/build-lazy-indexes.mjs
+      - name: Commit generated indexes if changed
+        run: |
+          git add cards-catalog.json books/happy-prince/days-index.json books/happy-prince/days/
+          if git diff --cached --quiet; then
+            echo "Reading indexes already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update generated reading indexes"
+          git pull --rebase origin main
+          git push origin HEAD:main
