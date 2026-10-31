@@ -391,6 +391,9 @@ const STORAGE_KEY = 'cegplus-v2-data';
 const HISTORY_KEY = 'cegplus-v2-history';
 const CARD_INDEX_PATHS = ['cards-index.json', 'cards-manifest.json'];
 const DEFAULT_CARD_FILES = ['cards.json'];
+const CARD_CATALOG_PATH = 'cards-catalog.json';
+const cardFilePromises = new Map();
+let selectionToken = 0;
 
 // ─── State ─────────────────────────────────
 let allCards = [];   // 全カードデータ（cards.json の中身）
@@ -453,19 +456,54 @@ function resetCardView() {
   });
 }
 
-function loadDate(dateKey) {
+async function loadDate(dateKey) {
   if (!allCards.length) return;
-  currentIndex = getCardIndexForDate(dateKey);
-  currentCard = allCards[currentIndex];
   readCounts = loadFromStorage('cegplus-v2-reads') || {};
-  resetCardView();
-  render();
+  await showCardAt(getCardIndexForDate(dateKey), true);
+}
+
+async function ensureCardLoaded(index) {
+  const entry = allCards[index];
+  if (!entry || !entry._sourceFile || entry.explainLayer) return entry;
+  const path = entry._sourceFile;
+  if (!cardFilePromises.has(path)) {
+    cardFilePromises.set(path, fetchJsonFresh(path, false).catch(error => {
+      cardFilePromises.delete(path);
+      throw error;
+    }));
+  }
+  const rows = await cardFilePromises.get(path);
+  if (!Array.isArray(rows)) throw new Error('カードデータの形式が不正です: ' + path);
+  const fullCard = rows.find(card => cardIdentity(card) === cardIdentity(entry));
+  if (!fullCard) throw new Error('索引に対応するカードが見つかりません: ' + path);
+  const loaded = { ...normalizeCardForDisplay(fullCard), _sourceFile: path };
+  allCards[index] = loaded;
+  return loaded;
+}
+
+async function showCardAt(index, resetView = false) {
+  if (!allCards.length || !allCards[index]) return;
+  const token = ++selectionToken;
+  currentIndex = index;
+  try {
+    const card = await ensureCardLoaded(index);
+    if (token !== selectionToken) return;
+    currentCard = card;
+    if (resetView) resetCardView();
+    render();
+  } catch (error) {
+    console.error('カードを読み込めませんでした', error);
+    if (token === selectionToken) {
+      document.getElementById('loading').style.display = 'block';
+      document.getElementById('loading').textContent = 'カードの読み込みに失敗しました。通信状態を確認してページを再読み込みしてください。';
+    }
+  }
 }
 
 // ─── Data loading ──────────────────────────
-async function fetchJsonFresh(path) {
-  const separator = path.includes('?') ? '&' : '?';
-  const res = await fetch(`${path}${separator}v=${Date.now()}`, { cache: 'no-store' });
+async function fetchJsonFresh(path, metadata = true) {
+  // Index files are revalidated. Versioned card files reuse the browser's HTTP cache.
+  const res = await fetch(path, { cache: metadata ? 'no-cache' : 'default' });
   if (!res.ok) throw new Error(`${path}: ${res.status}`);
   return res.json();
 }
@@ -556,50 +594,72 @@ function mergeCardLists(...lists) {
   });
 }
 
+// Lightweight metadata is sufficient for navigation. Fetch full lesson data on selection.
 async function loadCards() {
   const stored = loadFromStorage(STORAGE_KEY);
-
+  const existing = Array.isArray(stored) ? stored : [];
+  let cardFiles = DEFAULT_CARD_FILES;
   try {
     const discoveredFiles = [];
     for (const indexPath of CARD_INDEX_PATHS) {
       try {
         discoveredFiles.push(...normalizeCardFileList(await fetchJsonFresh(indexPath)));
-      } catch (e) {
-        // 一覧ファイルがない場合は無視して、見つかったものだけ使う
+      } catch (error) {
+        console.warn('Card index skipped:', indexPath, error);
       }
     }
-    const cardFiles = discoveredFiles.length ? [...new Set(discoveredFiles)] : DEFAULT_CARD_FILES;
-
-    const fetchedLists = [];
-    for (const file of cardFiles) {
-      try {
-        const data = await fetchJsonFresh(file);
-        if (Array.isArray(data)) fetchedLists.push(data);
-      } catch (e) {
-        console.warn('Card file skipped:', file, e);
-      }
+    if (discoveredFiles.length) cardFiles = [...new Set(discoveredFiles)];
+    const catalog = await fetchJsonFresh(CARD_CATALOG_PATH);
+    if (!Array.isArray(catalog?.cards)) throw new Error('カード索引が不正です');
+    const activeFiles = new Set(cardFiles);
+    const indexedCards = catalog.cards.filter(card => activeFiles.has(card._sourceFile));
+    const indexedFiles = new Set(indexedCards.map(card => card._sourceFile));
+    const newFiles = cardFiles.filter(path => !indexedFiles.has(path));
+    // Files created by the daily automation are discovered even before the catalog is rebuilt.
+    const freshCards = [];
+    for (let i = 0; i < newFiles.length; i += 6) {
+      const loaded = await Promise.all(newFiles.slice(i, i + 6).map(async path => {
+        try {
+          const cards = await fetchJsonFresh(path, false);
+          if (!Array.isArray(cards)) throw new Error('JSON must be an array');
+          cardFilePromises.set(path, Promise.resolve(cards));
+          return cards.map(card => ({ ...normalizeCardForDisplay(card), _sourceFile: path }));
+        } catch (error) {
+          console.warn('New card file skipped:', path, error);
+          return [];
+        }
+      }));
+      freshCards.push(...loaded.flat());
     }
-
-    const fetchedCards = mergeCardLists(...fetchedLists);
-    if (fetchedCards.length > 0) {
-      // 2026-07 migration: remove the obsolete No.101-109 copies after renumbering them to No.16-24.
-      const storedCards = Array.isArray(stored)
-        ? stored.filter((card) => !Number.isInteger(card?._no) || card._no < 101 || card._no > 109)
-        : [];
-      allCards = mergeCardLists(fetchedCards, storedCards);
-      saveToStorage(STORAGE_KEY, allCards);
+    const indexedIds = new Set([...indexedCards, ...freshCards].map(cardIdentity));
+    // Preserve user-imported lessons; old server-side copies can be removed from localStorage.
+    const imported = existing.filter(card => card && !indexedIds.has(cardIdentity(card))
+      && (!Number.isInteger(card._no) || card._no < 101 || card._no > 109));
+    allCards = mergeCardLists(indexedCards, freshCards, imported);
+    if (allCards.length) {
+      saveToStorage(STORAGE_KEY, imported);
       return true;
     }
-  } catch (e) {
-    // file://でCORS制限の場合あり、無視して次へ
+  } catch (error) {
+    console.warn('Lightweight card catalog unavailable; using the fallback loader.', error);
   }
 
-  if (stored && Array.isArray(stored) && stored.length > 0) {
-    allCards = mergeCardLists(stored);
-    return true;
+  // Backward-compatible fallback if the compact catalog has not been deployed yet.
+  const fetchedLists = [];
+  for (let i = 0; i < cardFiles.length; i += 6) {
+    const loaded = await Promise.all(cardFiles.slice(i, i + 6).map(async path => {
+      try {
+        const cards = await fetchJsonFresh(path, false);
+        return Array.isArray(cards) ? cards.map(card => ({ ...card, _sourceFile: path })) : [];
+      } catch (error) {
+        console.warn('Card file skipped:', path, error);
+        return [];
+      }
+    }));
+    fetchedLists.push(...loaded);
   }
-
-  return false;
+  allCards = mergeCardLists(...fetchedLists, existing);
+  return allCards.length > 0;
 }
 
 async function importJsonFile(file) {
@@ -991,9 +1051,7 @@ function showRandomCard() {
   if (allCards.length <= 1) return;
   let idx;
   do { idx = Math.floor(Math.random() * allCards.length); } while (idx === currentIndex);
-  currentIndex = idx;
-  currentCard = allCards[idx];
-  render();
+  showCardAt(idx);
 }
 
 // ─── Image generation ──────────────────────
@@ -1292,11 +1350,8 @@ function openHistory() {
 }
 function closeHistory() { document.getElementById('historyModal').style.display = 'none'; }
 function selectCard(idx) {
-  currentIndex = idx;
-  currentCard = allCards[idx];
-  resetCardView();
   closeHistory();
-  render();
+  showCardAt(idx, true);
 }
 
 function closeImage() { document.getElementById('imageModal').style.display = 'none'; }
