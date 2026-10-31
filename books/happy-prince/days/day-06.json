@@ -1,0 +1,987 @@
+{
+  "day": 6,
+  "title": "縫い子の窓",
+  "wordCount": 146,
+  "paragraphs": [
+    "“Far away,” continued the statue in a low musical voice, “far away in a little street there is a poor house. One of the windows is open, and through it I can see a woman seated at a table. Her face is thin and worn, and she has coarse, red hands, all pricked by the needle, for she is a seamstress. She is embroidering passion-flowers on a satin gown for the loveliest of the Queen’s maids-of-honour to wear at the next Court-ball. In a bed in the corner of the room her little boy is lying ill. He has a fever, and is asking for oranges. His mother has nothing to give him but river water, so he is crying. Swallow, Swallow, little Swallow, will you not bring her the ruby out of my sword-hilt? My feet are fastened to this pedestal and I cannot move.”"
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "ruby",
+      "ja": "ルビー"
+    },
+    {
+      "word": "sword-hilt",
+      "ja": "剣の柄"
+    },
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "pedestal",
+      "ja": "台座"
+    },
+    {
+      "word": "seamstress",
+      "ja": "お針子"
+    },
+    {
+      "word": "embroidering",
+      "ja": "刺繍している"
+    },
+    {
+      "word": "maids-of-honour",
+      "ja": "女官"
+    },
+    {
+      "word": "fever",
+      "ja": "熱病"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "王子は病気の子を抱える縫い子の窮状を語り、ルビーを届けてほしいと頼む。",
+      "chunks": [
+        {
+          "en": "“Far away,” continued the statue in a low musical voice, ",
+          "role": "発話と話者",
+          "ja": "「遠くに」と像は低く音楽のような声で続けた。",
+          "hint": "語句：musical＝音楽的な・美しい響きの",
+          "words": [
+            {
+              "word": "Far",
+              "ja": "遠く・非常に",
+              "note": "far too で強調"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            },
+            {
+              "word": "continued",
+              "ja": "続けた",
+              "note": "continue の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "low",
+              "ja": "低い・小さい",
+              "note": "声や高さを形容"
+            },
+            {
+              "word": "musical",
+              "ja": "音楽的な・美しい響きの",
+              "note": "ここでは声の響き"
+            },
+            {
+              "word": "voice",
+              "ja": "声",
+              "note": "発話の音"
+            }
+          ]
+        },
+        {
+          "en": "“far away in a little street there is a poor house. ",
+          "role": "意味のまとまり",
+          "ja": "「遠い細い通りに貧しい家がある。",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "far",
+              "ja": "遠く・非常に",
+              "note": "far too で強調"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "street",
+              "ja": "通り・街路",
+              "note": "道路"
+            },
+            {
+              "word": "there",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "poor",
+              "ja": "貧しい・かわいそうな",
+              "note": "経済状態や同情"
+            },
+            {
+              "word": "house",
+              "ja": "家・住宅",
+              "note": "住居"
+            }
+          ]
+        },
+        {
+          "en": "One of the windows is open, ",
+          "role": "意味のまとまり",
+          "ja": "窓が一つ開いていて、",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "One",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "windows",
+              "ja": "窓たち",
+              "note": "window の複数"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "open",
+              "ja": "開いた・開く",
+              "note": "窓の状態"
+            }
+          ]
+        },
+        {
+          "en": "and through it I can see a woman seated at a table. ",
+          "role": "並列・追加",
+          "ja": "そこからテーブルに座る女性が見える。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "through",
+              "ja": "〜を通り抜けて",
+              "note": "通過の前置詞"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "can",
+              "ja": "〜できる",
+              "note": "能力・可能性を示す助動詞"
+            },
+            {
+              "word": "see",
+              "ja": "見る・見える",
+              "note": "視覚で捉える"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "woman",
+              "ja": "女性",
+              "note": "成人女性"
+            },
+            {
+              "word": "seated",
+              "ja": "座っている",
+              "note": "seat の過去分詞形容詞"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "table",
+              "ja": "テーブル",
+              "note": "家具"
+            }
+          ]
+        },
+        {
+          "en": "Her face is thin and worn, and she has coarse, red hands, ",
+          "role": "意味のまとまり",
+          "ja": "顔は痩せて疲れ、手は赤く荒れていて、",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "Her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "face",
+              "ja": "顔・表面",
+              "note": "顔の描写"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "thin",
+              "ja": "薄い・痩せた",
+              "note": "厚み・体型の形容"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "worn",
+              "ja": "疲れ切った・やつれた",
+              "note": "wear の過去分詞"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "coarse",
+              "ja": "荒れた・粗い",
+              "note": "肌の状態の描写"
+            },
+            {
+              "word": "red",
+              "ja": "赤い",
+              "note": "色"
+            },
+            {
+              "word": "hands",
+              "ja": "両手・手",
+              "note": "hands 複数形"
+            }
+          ]
+        },
+        {
+          "en": "all pricked by the needle, for she is a seamstress. ",
+          "role": "意味のまとまり",
+          "ja": "どこも針で刺されている。彼女はお針子だからだ。",
+          "hint": "all pricked by the needle＝針で刺し傷だらけ ／ 語句：pricked＝針で刺された、seamstress＝お針子",
+          "words": [
+            {
+              "word": "all",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "pricked",
+              "ja": "針で刺された",
+              "note": "prick の過去分詞"
+            },
+            {
+              "word": "by",
+              "ja": "〜によって・〜のそばで",
+              "note": "受動態・手段・位置"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "needle",
+              "ja": "縫い針",
+              "note": "裁縫に使う針"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "seamstress",
+              "ja": "お針子",
+              "note": "服を縫う職業の女性"
+            }
+          ]
+        },
+        {
+          "en": "She is embroidering passion-flowers on a satin gown ",
+          "role": "主語・叙述",
+          "ja": "彼女はサテンのドレスにトケイソウの刺繍をしている。",
+          "hint": "語句：embroidering＝刺繍している、passion-flowers＝トケイソウ",
+          "words": [
+            {
+              "word": "She",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "embroidering",
+              "ja": "刺繍している",
+              "note": "embroider の進行形"
+            },
+            {
+              "word": "passion-flowers",
+              "ja": "トケイソウ",
+              "note": "花の名前"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "satin",
+              "ja": "サテン・繻子",
+              "note": "光沢のある布地"
+            },
+            {
+              "word": "gown",
+              "ja": "ドレス",
+              "note": "正装の衣服"
+            }
+          ]
+        },
+        {
+          "en": "for the loveliest of the Queen’s maids-of-honour to wear at the next ",
+          "role": "理由を導く接続詞",
+          "ja": "それは女王に仕える最も美しい女官が次の",
+          "hint": "語句：maids-of-honour＝女官たち",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "loveliest",
+              "ja": "最も美しい",
+              "note": "lovely の最上級"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Queen’s",
+              "ja": "女王の",
+              "note": "Queen の所有格"
+            },
+            {
+              "word": "maids-of-honour",
+              "ja": "女官たち",
+              "note": "女王に仕える女性たち"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "wear",
+              "ja": "身につける",
+              "note": "衣類を着る"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "next",
+              "ja": "次の・来〜",
+              "note": "順序・時間"
+            }
+          ]
+        },
+        {
+          "en": "Court-ball. In a bed in the corner of the room her little ",
+          "role": "意味のまとまり",
+          "ja": "宮廷舞踏会で着るものだ。部屋の隅の寝台には彼女の小さな",
+          "hint": "語句：Court-ball＝宮廷舞踏会",
+          "words": [
+            {
+              "word": "Court-ball",
+              "ja": "宮廷舞踏会",
+              "note": "宮廷で開かれる舞踏会"
+            },
+            {
+              "word": "In",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "bed",
+              "ja": "ベッド・寝床",
+              "note": "眠るための場所"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "corner",
+              "ja": "隅・角",
+              "note": "部屋の隅"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "room",
+              "ja": "部屋",
+              "note": "空間"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            }
+          ]
+        },
+        {
+          "en": "boy is lying ill. ",
+          "role": "意味のまとまり",
+          "ja": "息子が病気で寝ている。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "boy",
+              "ja": "男の子",
+              "note": "少年"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "lying",
+              "ja": "横たわっている",
+              "note": "lie の現在分詞"
+            },
+            {
+              "word": "ill",
+              "ja": "病気の",
+              "note": "体調が悪い"
+            }
+          ]
+        },
+        {
+          "en": "He has a fever, and is asking for oranges. ",
+          "role": "主語・叙述",
+          "ja": "熱があり、オレンジを欲しがっている。",
+          "hint": "語句：oranges＝オレンジ",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "fever",
+              "ja": "熱病・熱",
+              "note": "高い体温を伴う病"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "asking",
+              "ja": "尋ねている・求めている",
+              "note": "ask の現在分詞"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "oranges",
+              "ja": "オレンジ",
+              "note": "病気の子が求める果物"
+            }
+          ]
+        },
+        {
+          "en": "His mother has nothing to give him but river water, ",
+          "role": "主語・叙述",
+          "ja": "母親には川の水しか与えるものがなく、",
+          "hint": "has nothing to give him but＝〜しか与えるものがない",
+          "words": [
+            {
+              "word": "His",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "mother",
+              "ja": "母親",
+              "note": "親族"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "nothing",
+              "ja": "何も〜ない",
+              "note": "事物の否定代名詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "give",
+              "ja": "与える",
+              "note": "物や気持ちを渡す"
+            },
+            {
+              "word": "him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "river",
+              "ja": "川",
+              "note": "水路"
+            },
+            {
+              "word": "water",
+              "ja": "水",
+              "note": "液体"
+            }
+          ]
+        },
+        {
+          "en": "so he is crying. ",
+          "role": "結果・場面展開",
+          "ja": "だから息子は泣いている。",
+          "hint": "語句：crying＝泣いている",
+          "words": [
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "crying",
+              "ja": "泣いている",
+              "note": "cry の進行形・動名詞"
+            }
+          ]
+        },
+        {
+          "en": "Swallow, Swallow, little Swallow, ",
+          "role": "意味のまとまり",
+          "ja": "ツバメよ、ツバメよ、小さなツバメよ。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            }
+          ]
+        },
+        {
+          "en": "will you not bring her the ruby out of my sword-hilt? ",
+          "role": "疑問文・会話",
+          "ja": "私の剣の柄にあるルビーを彼女に届けてくれないか？",
+          "hint": "語句：sword-hilt＝剣の柄",
+          "words": [
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "bring",
+              "ja": "持ってくる",
+              "note": "話し手の側へ運ぶ"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "ruby",
+              "ja": "ルビー",
+              "note": "赤い宝石"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "sword-hilt",
+              "ja": "剣の柄",
+              "note": "sword は剣、hilt は握る部分"
+            }
+          ]
+        },
+        {
+          "en": "My feet are fastened to this pedestal and I cannot move.”",
+          "role": "意味のまとまり",
+          "ja": "私の両足はこの台座に固定されていて動けないのだ」",
+          "hint": "fastened to this pedestal＝この台座に固定されている ／ 語句：fastened＝固定された、pedestal＝台座",
+          "words": [
+            {
+              "word": "My",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "feet",
+              "ja": "足",
+              "note": "foot の複数形"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "fastened",
+              "ja": "固定された",
+              "note": "fasten「留める」の過去分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "this",
+              "ja": "これ・この",
+              "note": "近いものを指す"
+            },
+            {
+              "word": "pedestal",
+              "ja": "台座",
+              "note": "像を据える部分"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "cannot",
+              "ja": "〜できない",
+              "note": "can not の一語形"
+            },
+            {
+              "word": "move",
+              "ja": "動く",
+              "note": "位置を変える"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "all pricked by the needle",
+          "ja": "針で刺し傷だらけ"
+        },
+        {
+          "en": "has nothing to give him but",
+          "ja": "〜しか与えるものがない"
+        },
+        {
+          "en": "fastened to this pedestal",
+          "ja": "この台座に固定されている"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "musical",
+          "ja": "音楽的な・美しい響きの",
+          "note": "ここでは声の響き"
+        },
+        {
+          "word": "pricked",
+          "ja": "針で刺された",
+          "note": "prick の過去分詞"
+        },
+        {
+          "word": "seamstress",
+          "ja": "お針子",
+          "note": "服を縫う職業の女性"
+        },
+        {
+          "word": "embroidering",
+          "ja": "刺繍している",
+          "note": "embroider の進行形"
+        },
+        {
+          "word": "passion-flowers",
+          "ja": "トケイソウ",
+          "note": "花の名前"
+        },
+        {
+          "word": "maids-of-honour",
+          "ja": "女官たち",
+          "note": "女王に仕える女性たち"
+        },
+        {
+          "word": "Court-ball",
+          "ja": "宮廷舞踏会",
+          "note": "宮廷で開かれる舞踏会"
+        },
+        {
+          "word": "oranges",
+          "ja": "オレンジ",
+          "note": "病気の子が求める果物"
+        },
+        {
+          "word": "crying",
+          "ja": "泣いている",
+          "note": "cry の進行形・動名詞"
+        },
+        {
+          "word": "sword-hilt",
+          "ja": "剣の柄",
+          "note": "sword は剣、hilt は握る部分"
+        },
+        {
+          "word": "fastened",
+          "ja": "固定された",
+          "note": "fasten「留める」の過去分詞"
+        },
+        {
+          "word": "pedestal",
+          "ja": "台座",
+          "note": "像を据える部分"
+        }
+      ]
+    }
+  ]
+}
