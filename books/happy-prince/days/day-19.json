@@ -1,0 +1,1324 @@
+{
+  "day": 19,
+  "title": "最後の別れ",
+  "wordCount": 173,
+  "paragraphs": [
+    "“I am glad that you are going to Egypt at last, little Swallow,” said the Prince, “you have stayed too long here; but you must kiss me on the lips, for I love you.”",
+    "“It is not to Egypt that I am going,” said the Swallow. “I am going to the House of Death. Death is the brother of Sleep, is he not?”",
+    "And he kissed the Happy Prince on the lips, and fell down dead at his feet.",
+    "At that moment a curious crack sounded inside the statue, as if something had broken. The fact is that the leaden heart had snapped right in two. It certainly was a dreadfully hard frost.",
+    "Early the next morning the Mayor was walking in the square below in company with the Town Councillors. As they passed the column he looked up at the statue: “Dear me! how shabby the Happy Prince looks!” he said.",
+    "“How shabby indeed!” cried the Town Councillors, who always agreed with the Mayor; and they went up to look at it."
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "councillors",
+      "ja": "市議会議員"
+    },
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "leaden",
+      "ja": "鉛製の"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "王子はツバメを愛しているので唇に口づけしてほしいと頼む。",
+      "chunks": [
+        {
+          "en": "“I am glad that you are going to Egypt at last, ",
+          "role": "主語・叙述",
+          "ja": "「ついにエジプトへ行くのだね、うれしいよ。",
+          "hint": "語句：Egypt＝エジプト",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "glad",
+              "ja": "うれしい",
+              "note": "喜びを表す"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "going",
+              "ja": "行こうとしている",
+              "note": "go の現在分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "Egypt",
+              "ja": "エジプト",
+              "note": "ツバメの渡りの目的地"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "last",
+              "ja": "最後の・前の",
+              "note": "時系列の位置"
+            }
+          ]
+        },
+        {
+          "en": "little Swallow,” said the Prince, “you have stayed too long here; ",
+          "role": "発話と話者",
+          "ja": "小さなツバメよ」と王子は言った。「君はあまりに長くここにいた。",
+          "hint": "too long here＝ここにあまりに長く ／ 語句：Swallow＝ツバメ、prince＝王子",
+          "words": [
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "stayed",
+              "ja": "とどまった",
+              "note": "stay の過去形"
+            },
+            {
+              "word": "too",
+              "ja": "あまりに・〜もまた",
+              "note": "程度や追加"
+            },
+            {
+              "word": "long",
+              "ja": "長い・長く",
+              "note": "時間・距離"
+            },
+            {
+              "word": "here",
+              "ja": "ここに",
+              "note": "話し手の場所"
+            }
+          ]
+        },
+        {
+          "en": "but you must kiss me on the lips, for I love you.”",
+          "role": "逆接・対比",
+          "ja": "でも手ではなく唇に口づけしておくれ。君を愛しているから」",
+          "hint": "on the lips＝唇に ／ for I love you＝なぜならあなたを愛しているから ／ 語句：kiss＝口づけする、lips＝唇",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "must",
+              "ja": "〜しなければならない",
+              "note": "義務・強い推量"
+            },
+            {
+              "word": "kiss",
+              "ja": "口づけする",
+              "note": "名詞・動詞両用"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "lips",
+              "ja": "唇",
+              "note": "lip の複数形"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "love",
+              "ja": "愛・愛する",
+              "note": "名詞・動詞"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "too long here",
+          "ja": "ここにあまりに長く"
+        },
+        {
+          "en": "on the lips",
+          "ja": "唇に"
+        },
+        {
+          "en": "for I love you",
+          "ja": "なぜならあなたを愛しているから"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Egypt",
+          "ja": "エジプト",
+          "note": "ツバメの渡りの目的地"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "kiss",
+          "ja": "口づけする",
+          "note": "名詞・動詞両用"
+        },
+        {
+          "word": "lips",
+          "ja": "唇",
+          "note": "lip の複数形"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメの行き先はエジプトではなく死だと明かされる。",
+      "chunks": [
+        {
+          "en": "“It is not to Egypt that I am going,” said the Swallow. ",
+          "role": "発話と話者",
+          "ja": "「私が行くのはエジプトではありません」とツバメは言った。",
+          "hint": "It is not to Egypt that＝行き先がエジプトではないことを強調 ／ 語句：Egypt＝エジプト、Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "It",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "Egypt",
+              "ja": "エジプト",
+              "note": "ツバメの渡りの目的地"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "going",
+              "ja": "行こうとしている",
+              "note": "go の現在分詞"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            }
+          ]
+        },
+        {
+          "en": "“I am going to the House of Death. ",
+          "role": "主語・叙述",
+          "ja": "「私は死の家へ向かうのです。",
+          "hint": "House of Death＝死の家 ／ 語句：Death＝死",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "going",
+              "ja": "行こうとしている",
+              "note": "go の現在分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "House",
+              "ja": "家・住宅",
+              "note": "住居"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "Death",
+              "ja": "死",
+              "note": "擬人化されている"
+            }
+          ]
+        },
+        {
+          "en": "Death is the brother of Sleep, is he not?”",
+          "role": "意味のまとまり",
+          "ja": "死は眠りの兄弟なのでしょう？」",
+          "hint": "is he not＝そうではないか（付加疑問） ／ 語句：Death＝死、Sleep＝眠り",
+          "words": [
+            {
+              "word": "Death",
+              "ja": "死",
+              "note": "擬人化されている"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "brother",
+              "ja": "兄弟",
+              "note": "血縁・比喩的な関係"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "Sleep",
+              "ja": "眠り",
+              "note": "Death の兄弟として擬人化"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "It is not to Egypt that",
+          "ja": "行き先がエジプトではないことを強調"
+        },
+        {
+          "en": "House of Death",
+          "ja": "死の家"
+        },
+        {
+          "en": "is he not",
+          "ja": "そうではないか（付加疑問）"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Egypt",
+          "ja": "エジプト",
+          "note": "ツバメの渡りの目的地"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "Death",
+          "ja": "死",
+          "note": "擬人化されている"
+        },
+        {
+          "word": "Sleep",
+          "ja": "眠り",
+          "note": "Death の兄弟として擬人化"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメは王子に口づけし、足元に落ちて死ぬ。",
+      "chunks": [
+        {
+          "en": "And he kissed the Happy Prince on the lips, ",
+          "role": "並列・追加",
+          "ja": "そしてツバメは幸福な王子の唇に口づけし、",
+          "hint": "語句：prince＝王子、lips＝唇",
+          "words": [
+            {
+              "word": "And",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "kissed",
+              "ja": "口づけした",
+              "note": "kiss の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "lips",
+              "ja": "唇",
+              "note": "lip の複数形"
+            }
+          ]
+        },
+        {
+          "en": "and fell down dead at his feet.",
+          "role": "並列・追加",
+          "ja": "彼の足元に落ちて死んだ。",
+          "hint": "fell down dead＝落ちてそのまま死んだ ／ at his feet＝その足元で ／ 語句：dead＝死んだ",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "fell",
+              "ja": "落ちた・陥った",
+              "note": "fall の過去形"
+            },
+            {
+              "word": "down",
+              "ja": "下へ・下に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "dead",
+              "ja": "死んだ",
+              "note": "die の結果状態"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "feet",
+              "ja": "足",
+              "note": "foot の複数形"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "fell down dead",
+          "ja": "落ちてそのまま死んだ"
+        },
+        {
+          "en": "at his feet",
+          "ja": "その足元で"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "lips",
+          "ja": "唇",
+          "note": "lip の複数形"
+        },
+        {
+          "word": "dead",
+          "ja": "死んだ",
+          "note": "die の結果状態"
+        }
+      ]
+    },
+    {
+      "summary": "像の中で鉛の心臓が二つに割れる。語り手は寒さが原因だと言い添える。",
+      "chunks": [
+        {
+          "en": "At that moment a curious crack sounded inside the statue, ",
+          "role": "時間・場面",
+          "ja": "その瞬間、像の内部から奇妙なひび割れの音がした。",
+          "hint": "語句：curious＝不思議な、crack＝割れる音・亀裂、statue＝像",
+          "words": [
+            {
+              "word": "At",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "moment",
+              "ja": "瞬間",
+              "note": "at that moment"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "curious",
+              "ja": "不思議な",
+              "note": "話者の驚きを表す"
+            },
+            {
+              "word": "crack",
+              "ja": "割れる音・亀裂",
+              "note": "ひびが入るときの音"
+            },
+            {
+              "word": "sounded",
+              "ja": "音がした",
+              "note": "sound の過去形"
+            },
+            {
+              "word": "inside",
+              "ja": "内側に・内部の",
+              "note": "内と外を区別"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            }
+          ]
+        },
+        {
+          "en": "as if something had broken. ",
+          "role": "比較・理由・時間などの接続",
+          "ja": "まるで何かが壊れたかのようだった。",
+          "hint": "as if something had broken＝何かが壊れたかのように",
+          "words": [
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "if",
+              "ja": "もし〜なら・〜かどうか",
+              "note": "条件・間接疑問"
+            },
+            {
+              "word": "something",
+              "ja": "何か",
+              "note": "事柄を指す"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "broken",
+              "ja": "壊れた",
+              "note": "break の過去分詞"
+            }
+          ]
+        },
+        {
+          "en": "The fact is that the leaden heart had snapped right in two. ",
+          "role": "主語・叙述",
+          "ja": "実は鉛の心臓が真っ二つに裂けたのだ。",
+          "hint": "snapped right in two＝真っ二つに折れた ／ 語句：leaden＝鉛製の、snapped＝ぽきりと折れた",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "fact",
+              "ja": "事実",
+              "note": "in fact は「実際のところ」"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "leaden",
+              "ja": "鉛製の",
+              "note": "lead「鉛」から派生"
+            },
+            {
+              "word": "heart",
+              "ja": "心臓・心",
+              "note": "身体器官と心情"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "snapped",
+              "ja": "ぽきりと折れた",
+              "note": "snap は急に折れる"
+            },
+            {
+              "word": "right",
+              "ja": "正しい・右",
+              "note": "価値判断・方向"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "two",
+              "ja": "二つ・二人",
+              "note": "数字"
+            }
+          ]
+        },
+        {
+          "en": "It certainly was a dreadfully hard frost.",
+          "role": "意味のまとまり",
+          "ja": "それほど恐ろしく厳しい霜だったのは確かだ。",
+          "hint": "dreadfully hard frost＝ひどく厳しい霜 ／ 語句：dreadfully＝ひどく、frost＝霜・厳寒",
+          "words": [
+            {
+              "word": "It",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "certainly",
+              "ja": "確かに・もちろん",
+              "note": "強い確信"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "dreadfully",
+              "ja": "ひどく",
+              "note": "強い程度を示す副詞"
+            },
+            {
+              "word": "hard",
+              "ja": "厳しい・硬い",
+              "note": "厳しい霜 hard frost"
+            },
+            {
+              "word": "frost",
+              "ja": "霜・厳寒",
+              "note": "凍るほどの冷え込み"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "as if something had broken",
+          "ja": "何かが壊れたかのように"
+        },
+        {
+          "en": "snapped right in two",
+          "ja": "真っ二つに折れた"
+        },
+        {
+          "en": "dreadfully hard frost",
+          "ja": "ひどく厳しい霜"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "curious",
+          "ja": "不思議な",
+          "note": "話者の驚きを表す"
+        },
+        {
+          "word": "crack",
+          "ja": "割れる音・亀裂",
+          "note": "ひびが入るときの音"
+        },
+        {
+          "word": "statue",
+          "ja": "像",
+          "note": "彫像、人物をかたどった造形物"
+        },
+        {
+          "word": "leaden",
+          "ja": "鉛製の",
+          "note": "lead「鉛」から派生"
+        },
+        {
+          "word": "snapped",
+          "ja": "ぽきりと折れた",
+          "note": "snap は急に折れる"
+        },
+        {
+          "word": "dreadfully",
+          "ja": "ひどく",
+          "note": "強い程度を示す副詞"
+        },
+        {
+          "word": "frost",
+          "ja": "霜・厳寒",
+          "note": "凍るほどの冷え込み"
+        }
+      ]
+    },
+    {
+      "summary": "翌朝、市長が議員と像を見に来て、みすぼらしさを嘆く。",
+      "chunks": [
+        {
+          "en": "Early the next morning the Mayor was walking in the square below ",
+          "role": "時間・場面",
+          "ja": "翌朝早く、市長が下の広場を歩いていた。",
+          "hint": "語句：Mayor＝市長",
+          "words": [
+            {
+              "word": "Early",
+              "ja": "早く・早い",
+              "note": "時間が早い"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "next",
+              "ja": "次の・来〜",
+              "note": "順序・時間"
+            },
+            {
+              "word": "morning",
+              "ja": "朝",
+              "note": "時間帯"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Mayor",
+              "ja": "市長",
+              "note": "市の行政責任者"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "walking",
+              "ja": "歩いている",
+              "note": "walk の現在分詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "square",
+              "ja": "広場・四角形",
+              "note": "街の広場"
+            },
+            {
+              "word": "below",
+              "ja": "下に・下方の",
+              "note": "位置を示す"
+            }
+          ]
+        },
+        {
+          "en": "in company with the Town Councillors. ",
+          "role": "意味のまとまり",
+          "ja": "市議会議員たちと一緒に。",
+          "hint": "in company with＝〜と一緒に ／ 語句：Councillors＝市議会議員たち",
+          "words": [
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "company",
+              "ja": "同伴・仲間",
+              "note": "in company with で一緒に"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Town",
+              "ja": "町・街",
+              "note": "都市より小規模"
+            },
+            {
+              "word": "Councillors",
+              "ja": "市議会議員たち",
+              "note": "councillor の複数形"
+            }
+          ]
+        },
+        {
+          "en": "As they passed the column he looked up at the statue: ",
+          "role": "比較・理由・時間などの接続",
+          "ja": "一同が柱のそばを通ったとき、市長は像を見上げた。",
+          "hint": "語句：column＝柱、statue＝像",
+          "words": [
+            {
+              "word": "As",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "passed",
+              "ja": "通った・通過した",
+              "note": "pass の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "column",
+              "ja": "柱",
+              "note": "像などを載せる円柱"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "looked",
+              "ja": "見た・見えた",
+              "note": "look の過去形"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            }
+          ]
+        },
+        {
+          "en": "“Dear me! how shabby the Happy Prince looks!” he said.",
+          "role": "発話と話者",
+          "ja": "「おやまあ、幸福な王子はなんとみすぼらしい姿だ！」と言った。",
+          "hint": "how shabby＝なんとみすぼらしい ／ 語句：shabby＝みすぼらしい、prince＝王子",
+          "words": [
+            {
+              "word": "Dear",
+              "ja": "愛しい・親愛なる",
+              "note": "呼びかけ、Dear Prince"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "how",
+              "ja": "どう・なんと",
+              "note": "方法・程度の疑問、感嘆"
+            },
+            {
+              "word": "shabby",
+              "ja": "みすぼらしい",
+              "note": "外観が古びた・貧相な"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "looks",
+              "ja": "見える・見ている",
+              "note": "look 三人称単数"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "in company with",
+          "ja": "〜と一緒に"
+        },
+        {
+          "en": "how shabby",
+          "ja": "なんとみすぼらしい"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Mayor",
+          "ja": "市長",
+          "note": "市の行政責任者"
+        },
+        {
+          "word": "Councillors",
+          "ja": "市議会議員たち",
+          "note": "councillor の複数形"
+        },
+        {
+          "word": "column",
+          "ja": "柱",
+          "note": "像などを載せる円柱"
+        },
+        {
+          "word": "statue",
+          "ja": "像",
+          "note": "彫像、人物をかたどった造形物"
+        },
+        {
+          "word": "shabby",
+          "ja": "みすぼらしい",
+          "note": "外観が古びた・貧相な"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        }
+      ]
+    },
+    {
+      "summary": "議員たちは市長の意見をそのまま繰り返して同調する。",
+      "chunks": [
+        {
+          "en": "“How shabby indeed!” ",
+          "role": "意味のまとまり",
+          "ja": "「本当にみすぼらしい！」",
+          "hint": "語句：shabby＝みすぼらしい、indeed＝実に・確かに",
+          "words": [
+            {
+              "word": "How",
+              "ja": "どう・なんと",
+              "note": "方法・程度の疑問、感嘆"
+            },
+            {
+              "word": "shabby",
+              "ja": "みすぼらしい",
+              "note": "外観が古びた・貧相な"
+            },
+            {
+              "word": "indeed",
+              "ja": "実に・確かに",
+              "note": "直前の表現を強調"
+            }
+          ]
+        },
+        {
+          "en": "cried the Town Councillors, who always agreed with the Mayor; ",
+          "role": "発話と話者",
+          "ja": "市長にはいつも賛同する市議会議員たちが叫び、",
+          "hint": "always agreed with＝いつも〜に同意した ／ 語句：Councillors＝市議会議員たち、who＝誰・〜する人、always＝いつも・ずっと",
+          "words": [
+            {
+              "word": "cried",
+              "ja": "叫んだ・泣いた",
+              "note": "cry の過去形。文脈で区別"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Town",
+              "ja": "町・街",
+              "note": "都市より小規模"
+            },
+            {
+              "word": "Councillors",
+              "ja": "市議会議員たち",
+              "note": "councillor の複数形"
+            },
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "always",
+              "ja": "いつも・ずっと",
+              "note": "ここでは永続的な約束にも使う"
+            },
+            {
+              "word": "agreed",
+              "ja": "同意した",
+              "note": "agree with で賛成する"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Mayor",
+              "ja": "市長",
+              "note": "市の行政責任者"
+            }
+          ]
+        },
+        {
+          "en": "and they went up to look at it.",
+          "role": "並列・追加",
+          "ja": "近づいて像を見た。",
+          "hint": "went up to look at it＝それを見に近づいた",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "went",
+              "ja": "行った",
+              "note": "go の過去形"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "look",
+              "ja": "見る・見える",
+              "note": "look at, look like に注目"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "always agreed with",
+          "ja": "いつも〜に同意した"
+        },
+        {
+          "en": "went up to look at it",
+          "ja": "それを見に近づいた"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "shabby",
+          "ja": "みすぼらしい",
+          "note": "外観が古びた・貧相な"
+        },
+        {
+          "word": "indeed",
+          "ja": "実に・確かに",
+          "note": "直前の表現を強調"
+        },
+        {
+          "word": "Councillors",
+          "ja": "市議会議員たち",
+          "note": "councillor の複数形"
+        },
+        {
+          "word": "who",
+          "ja": "誰・〜する人",
+          "note": "疑問詞、または関係代名詞"
+        },
+        {
+          "word": "always",
+          "ja": "いつも・ずっと",
+          "note": "ここでは永続的な約束にも使う"
+        },
+        {
+          "word": "agreed",
+          "ja": "同意した",
+          "note": "agree with で賛成する"
+        },
+        {
+          "word": "Mayor",
+          "ja": "市長",
+          "note": "市の行政責任者"
+        }
+      ]
+    }
+  ]
+}
