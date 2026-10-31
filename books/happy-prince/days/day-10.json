@@ -1,0 +1,1131 @@
+{
+  "day": 10,
+  "title": "ツバメのためらい",
+  "wordCount": 155,
+  "paragraphs": [
+    "When day broke he flew down to the river and had a bath. “What a remarkable phenomenon,” said the Professor of Ornithology as he was passing over the bridge. “A swallow in winter!” And he wrote a long letter about it to the local newspaper. Every one quoted it, it was full of so many words that they could not understand.",
+    "“To-night I go to Egypt,” said the Swallow, and he was in high spirits at the prospect. He visited all the public monuments, and sat a long time on top of the church steeple. Wherever he went the Sparrows chirruped, and said to each other, “What a distinguished stranger!” so he enjoyed himself very much.",
+    "When the moon rose he flew back to the Happy Prince. “Have you any commissions for Egypt?” he cried; “I am just starting.”",
+    "“Swallow, Swallow, little Swallow,” said the Prince, “will you not stay with me one night longer?”"
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "ornithology",
+      "ja": "鳥類学"
+    },
+    {
+      "word": "phenomenon",
+      "ja": "現象"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "冬のツバメの発見を鳥類学教授が新聞に書くが、難解な文章だった。",
+      "chunks": [
+        {
+          "en": "When day broke he flew down to the river ",
+          "role": "時間・場面",
+          "ja": "夜が明けると彼は川に下り、",
+          "hint": "When day broke＝夜が明けたとき",
+          "words": [
+            {
+              "word": "When",
+              "ja": "いつ・〜するとき",
+              "note": "疑問・時間"
+            },
+            {
+              "word": "day",
+              "ja": "日・昼間",
+              "note": "時間単位"
+            },
+            {
+              "word": "broke",
+              "ja": "壊れた",
+              "note": "break の過去形"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "down",
+              "ja": "下へ・下に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "river",
+              "ja": "川",
+              "note": "水路"
+            }
+          ]
+        },
+        {
+          "en": "and had a bath. ",
+          "role": "並列・追加",
+          "ja": "水浴びをした。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "bath",
+              "ja": "入浴・水浴び",
+              "note": "have a bath で水浴びする"
+            }
+          ]
+        },
+        {
+          "en": "“What a remarkable phenomenon,” ",
+          "role": "意味のまとまり",
+          "ja": "「なんという珍しい現象だろう」と",
+          "hint": "remarkable phenomenon＝注目すべき現象 ／ 語句：phenomenon＝現象",
+          "words": [
+            {
+              "word": "What",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "remarkable",
+              "ja": "注目すべき・珍しい",
+              "note": "驚きを表す形容詞"
+            },
+            {
+              "word": "phenomenon",
+              "ja": "現象",
+              "note": "単数形。複数 phenomena"
+            }
+          ]
+        },
+        {
+          "en": "said the Professor of Ornithology as he was passing over the bridge. ",
+          "role": "発話と話者",
+          "ja": "橋を渡っていた鳥類学の教授が言った。",
+          "hint": "語句：Professor＝教授、Ornithology＝鳥類学",
+          "words": [
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Professor",
+              "ja": "教授",
+              "note": "大学などの教員"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "Ornithology",
+              "ja": "鳥類学",
+              "note": "鳥についての学問"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "passing",
+              "ja": "通りかかっている",
+              "note": "pass の現在分詞"
+            },
+            {
+              "word": "over",
+              "ja": "〜を越えて・上に",
+              "note": "通過・位置"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "bridge",
+              "ja": "橋",
+              "note": "川に架かる"
+            }
+          ]
+        },
+        {
+          "en": "“A swallow in winter!” ",
+          "role": "主語・叙述",
+          "ja": "「冬にツバメがいる！」",
+          "hint": "語句：Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "A",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "winter",
+              "ja": "冬",
+              "note": "季節"
+            }
+          ]
+        },
+        {
+          "en": "And he wrote a long letter about it to the local newspaper. ",
+          "role": "並列・追加",
+          "ja": "そしてその件について地元紙に長い手紙を書いた。",
+          "hint": "語句：newspaper＝新聞",
+          "words": [
+            {
+              "word": "And",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "wrote",
+              "ja": "書いた",
+              "note": "write の過去形"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "long",
+              "ja": "長い・長く",
+              "note": "時間・距離"
+            },
+            {
+              "word": "letter",
+              "ja": "手紙",
+              "note": "書面"
+            },
+            {
+              "word": "about",
+              "ja": "〜について・周囲に",
+              "note": "話題・位置を示す"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "local",
+              "ja": "地元の・地方の",
+              "note": "場所の限定"
+            },
+            {
+              "word": "newspaper",
+              "ja": "新聞",
+              "note": "local newspaper で地方紙"
+            }
+          ]
+        },
+        {
+          "en": "Every one quoted it, ",
+          "role": "意味のまとまり",
+          "ja": "誰もがそれを引用したが、",
+          "hint": "語句：quoted＝引用した",
+          "words": [
+            {
+              "word": "Every",
+              "ja": "すべての・毎〜",
+              "note": "各々を含む"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "quoted",
+              "ja": "引用した",
+              "note": "quote の過去形"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            }
+          ]
+        },
+        {
+          "en": "it was full of so many words that they could not understand.",
+          "role": "意味のまとまり",
+          "ja": "理解できない難しい言葉があまりに多かった。",
+          "hint": "full of so many words＝難しい言葉でいっぱい ／ 語句：understand＝理解する",
+          "words": [
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "full",
+              "ja": "いっぱいの・満ちた",
+              "note": "be full of ..."
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "many",
+              "ja": "たくさんの",
+              "note": "可算名詞を修飾"
+            },
+            {
+              "word": "words",
+              "ja": "単語・言葉",
+              "note": "word 複数"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "could",
+              "ja": "〜できた・できるだろう",
+              "note": "can の過去形・仮定表現"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "understand",
+              "ja": "理解する",
+              "note": "難解な言葉を読む場面"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "When day broke",
+          "ja": "夜が明けたとき"
+        },
+        {
+          "en": "remarkable phenomenon",
+          "ja": "注目すべき現象"
+        },
+        {
+          "en": "full of so many words",
+          "ja": "難しい言葉でいっぱい"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "phenomenon",
+          "ja": "現象",
+          "note": "単数形。複数 phenomena"
+        },
+        {
+          "word": "Professor",
+          "ja": "教授",
+          "note": "大学などの教員"
+        },
+        {
+          "word": "Ornithology",
+          "ja": "鳥類学",
+          "note": "鳥についての学問"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "newspaper",
+          "ja": "新聞",
+          "note": "local newspaper で地方紙"
+        },
+        {
+          "word": "quoted",
+          "ja": "引用した",
+          "note": "quote の過去形"
+        },
+        {
+          "word": "understand",
+          "ja": "理解する",
+          "note": "難解な言葉を読む場面"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメはエジプトへの旅に胸を躍らせて街を見物する。",
+      "chunks": [
+        {
+          "en": "“To-night I go to Egypt,” said the Swallow, ",
+          "role": "発話と話者",
+          "ja": "「今夜はエジプトに行く」とツバメは言い、",
+          "hint": "語句：Egypt＝エジプト、Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "To-night",
+              "ja": "今夜",
+              "note": "古い綴り、現代は tonight"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "go",
+              "ja": "行く",
+              "note": "移動"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "Egypt",
+              "ja": "エジプト",
+              "note": "ツバメの渡りの目的地"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            }
+          ]
+        },
+        {
+          "en": "and he was in high spirits at the prospect. ",
+          "role": "並列・追加",
+          "ja": "その見通しに上機嫌だった。",
+          "hint": "in high spirits＝上機嫌で ／ at the prospect＝その見込みに ／ 語句：spirits＝気分、prospect＝見込み・予想",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "high",
+              "ja": "高い・高く",
+              "note": "高さを示す"
+            },
+            {
+              "word": "spirits",
+              "ja": "気分",
+              "note": "in high spirits で上機嫌"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "prospect",
+              "ja": "見込み・予想",
+              "note": "将来への期待"
+            }
+          ]
+        },
+        {
+          "en": "He visited all the public monuments, ",
+          "role": "主語・叙述",
+          "ja": "彼はあらゆる公共の記念碑を訪れ、",
+          "hint": "語句：monuments＝記念碑",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "visited",
+              "ja": "訪れた",
+              "note": "visit の過去形"
+            },
+            {
+              "word": "all",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "public",
+              "ja": "公共の",
+              "note": "公衆の"
+            },
+            {
+              "word": "monuments",
+              "ja": "記念碑",
+              "note": "公共の歴史的建造物"
+            }
+          ]
+        },
+        {
+          "en": "and sat a long time on top of the church steeple. ",
+          "role": "並列・追加",
+          "ja": "教会の尖塔の上に長い間座っていた。",
+          "hint": "語句：steeple＝教会の尖塔",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "sat",
+              "ja": "座った・止まっていた",
+              "note": "sit の過去形"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "long",
+              "ja": "長い・長く",
+              "note": "時間・距離"
+            },
+            {
+              "word": "time",
+              "ja": "時間・時",
+              "note": "時間の長さ・時刻"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "top",
+              "ja": "上・頂上",
+              "note": "on top of で〜の上に"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "church",
+              "ja": "教会",
+              "note": "キリスト教の礼拝所"
+            },
+            {
+              "word": "steeple",
+              "ja": "教会の尖塔",
+              "note": "church steeple"
+            }
+          ]
+        },
+        {
+          "en": "Wherever he went the Sparrows chirruped, and said to each other, ",
+          "role": "発話と話者",
+          "ja": "どこへ行ってもスズメたちはさえずり、互いに言った。",
+          "hint": "Wherever he went＝どこへ行っても ／ 語句：Sparrows＝スズメたち、chirruped＝さえずった",
+          "words": [
+            {
+              "word": "Wherever",
+              "ja": "どこで〜しても",
+              "note": "場所の無条件"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "went",
+              "ja": "行った",
+              "note": "go の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Sparrows",
+              "ja": "スズメたち",
+              "note": "sparrow の複数形"
+            },
+            {
+              "word": "chirruped",
+              "ja": "さえずった",
+              "note": "小鳥の高い声"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "each",
+              "ja": "それぞれ・一つ一つの",
+              "note": "個別を強調"
+            },
+            {
+              "word": "other",
+              "ja": "ほかの・もう一方の",
+              "note": "区別を示す"
+            }
+          ]
+        },
+        {
+          "en": "“What a distinguished stranger!” so he enjoyed himself very much.",
+          "role": "意味のまとまり",
+          "ja": "「なんて立派な旅人だろう！」そこで彼は大いに満足した。",
+          "hint": "語句：distinguished＝立派な・目立った",
+          "words": [
+            {
+              "word": "What",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "distinguished",
+              "ja": "立派な・目立った",
+              "note": "称賛の形容詞"
+            },
+            {
+              "word": "stranger",
+              "ja": "見知らぬ人・旅人",
+              "note": "strange に関連"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "enjoyed",
+              "ja": "楽しんだ",
+              "note": "enjoy の過去形"
+            },
+            {
+              "word": "himself",
+              "ja": "彼自身・自分で",
+              "note": "再帰代名詞"
+            },
+            {
+              "word": "very",
+              "ja": "とても",
+              "note": "程度の強調"
+            },
+            {
+              "word": "much",
+              "ja": "とても・多くの",
+              "note": "程度・量"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "in high spirits",
+          "ja": "上機嫌で"
+        },
+        {
+          "en": "at the prospect",
+          "ja": "その見込みに"
+        },
+        {
+          "en": "Wherever he went",
+          "ja": "どこへ行っても"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Egypt",
+          "ja": "エジプト",
+          "note": "ツバメの渡りの目的地"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "spirits",
+          "ja": "気分",
+          "note": "in high spirits で上機嫌"
+        },
+        {
+          "word": "prospect",
+          "ja": "見込み・予想",
+          "note": "将来への期待"
+        },
+        {
+          "word": "monuments",
+          "ja": "記念碑",
+          "note": "公共の歴史的建造物"
+        },
+        {
+          "word": "steeple",
+          "ja": "教会の尖塔",
+          "note": "church steeple"
+        },
+        {
+          "word": "Sparrows",
+          "ja": "スズメたち",
+          "note": "sparrow の複数形"
+        },
+        {
+          "word": "chirruped",
+          "ja": "さえずった",
+          "note": "小鳥の高い声"
+        },
+        {
+          "word": "distinguished",
+          "ja": "立派な・目立った",
+          "note": "称賛の形容詞"
+        }
+      ]
+    },
+    {
+      "summary": "月が昇ると、ツバメは王子にエジプトへの用事がないか尋ねる。",
+      "chunks": [
+        {
+          "en": "When the moon rose he flew back to the Happy Prince. ",
+          "role": "時間・場面",
+          "ja": "月が昇ると彼は幸福な王子のところへ戻った。",
+          "hint": "語句：prince＝王子",
+          "words": [
+            {
+              "word": "When",
+              "ja": "いつ・〜するとき",
+              "note": "疑問・時間"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "moon",
+              "ja": "月",
+              "note": "天体"
+            },
+            {
+              "word": "rose",
+              "ja": "昇った",
+              "note": "rise の過去形。花のバラも同形"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "back",
+              "ja": "戻って・後方へ",
+              "note": "復帰・方向を表す"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "“Have you any commissions for Egypt?” he cried; “I am just starting.”",
+          "role": "疑問文・会話",
+          "ja": "「エジプトへ何か用事はありますか？」と叫んだ。「ちょうど出発するところです」",
+          "hint": "Have you any commissions＝何か用事はありますか ／ just starting＝今まさに出発するところ ／ 語句：commissions＝頼まれ事、Egypt＝エジプト",
+          "words": [
+            {
+              "word": "Have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "any",
+              "ja": "何か・いくつかの",
+              "note": "疑問・否定文では「何も」"
+            },
+            {
+              "word": "commissions",
+              "ja": "頼まれ事",
+              "note": "ここでは報酬の「歩合」ではない"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "Egypt",
+              "ja": "エジプト",
+              "note": "ツバメの渡りの目的地"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "cried",
+              "ja": "叫んだ・泣いた",
+              "note": "cry の過去形。文脈で区別"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "just",
+              "ja": "ちょうど・ただ〜だけ",
+              "note": "程度や時点の強調"
+            },
+            {
+              "word": "starting",
+              "ja": "出発し始めている",
+              "note": "start 現在分詞"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "Have you any commissions",
+          "ja": "何か用事はありますか"
+        },
+        {
+          "en": "just starting",
+          "ja": "今まさに出発するところ"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "commissions",
+          "ja": "頼まれ事",
+          "note": "ここでは報酬の「歩合」ではない"
+        },
+        {
+          "word": "Egypt",
+          "ja": "エジプト",
+          "note": "ツバメの渡りの目的地"
+        }
+      ]
+    },
+    {
+      "summary": "王子はもう一晩だけ残れないかと懇願する。",
+      "chunks": [
+        {
+          "en": "“Swallow, Swallow, little Swallow,” said the Prince, ",
+          "role": "発話と話者",
+          "ja": "「ツバメよ、ツバメよ、小さなツバメよ」と王子は言った。",
+          "hint": "語句：Swallow＝ツバメ、prince＝王子",
+          "words": [
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "“will you not stay with me one night longer?”",
+          "role": "疑問文・会話",
+          "ja": "「もう一晩、私と一緒にいてくれないか？」",
+          "hint": "one night longer＝もう一晩長く ／ will you not stay＝残ってくれないか",
+          "words": [
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "stay",
+              "ja": "とどまる・泊まる",
+              "note": "移動せず残る"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "night",
+              "ja": "夜",
+              "note": "時間帯"
+            },
+            {
+              "word": "longer",
+              "ja": "もっと長く・これ以上",
+              "note": "比較級"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "one night longer",
+          "ja": "もう一晩長く"
+        },
+        {
+          "en": "will you not stay",
+          "ja": "残ってくれないか"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        }
+      ]
+    }
+  ]
+}
