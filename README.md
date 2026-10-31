@@ -304,3 +304,8 @@ imagePrompt は残す
 - 洋書版：`books-manifest.json` の `dayIndex` / `dayBase` がある作品は、軽量な章索引と閲覧中のDayだけを読み込みます。『幸福な王子』は21日分に分割。ルキアノスのチャンク対訳も現在のDay単位で読み込みます。
 - 手動でカード・『幸福な王子』本文を更新した場合、コミット前に `node scripts/build-lazy-indexes.mjs` を実行して生成ファイルを同期してください。
 - 検証：`node scripts/build-lazy-indexes.mjs --check`（自動CIにも組み込み）。既読・しおりは従来のブラウザ保存キーを継続して使います。
+
+
+### 日次更新時の軽量索引自動同期
+
+`.github/workflows/refresh-reading-indexes.yml` は `main` の `cards-index.json`、`cards-extra-*.json`、洋書の元データ等への変更を検出し、`cards-catalog.json` と分割した洋書データを自動再生成してコミットします。手動実行も可能です。GitHub Actionsが持つ `GITHUB_TOKEN` によるコミットだけでは通常、新しいPagesビルドは起動しないため、生成索引の公開反映は次の通常コミットによるPagesデプロイ時になります。その間も画面側が索引未収録の新規カードファイルを検出します。
