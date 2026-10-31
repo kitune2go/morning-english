@@ -4062,5 +4062,813 @@
     "lemma": "yield",
     "form": "",
     "note": "yield：この文脈では「譲る」"
+  },
+  {
+    "word": "accepting",
+    "ja": "引き受けること",
+    "pos": "語句",
+    "lemma": "accepting",
+    "form": "",
+    "note": "accepting：この文脈では「引き受けること」"
+  },
+  {
+    "word": "accumulate",
+    "ja": "蓄積する",
+    "pos": "語句",
+    "lemma": "accumulate",
+    "form": "",
+    "note": "accumulate：この文脈では「蓄積する」"
+  },
+  {
+    "word": "admiring",
+    "ja": "感嘆して眺めること",
+    "pos": "語句",
+    "lemma": "admiring",
+    "form": "",
+    "note": "admiring：この文脈では「感嘆して眺めること」"
+  },
+  {
+    "word": "all-in-one",
+    "ja": "一体型の・全機能統合の",
+    "pos": "語句",
+    "lemma": "all-in-one",
+    "form": "",
+    "note": "all-in-one：この文脈では「一体型の・全機能統合の」"
+  },
+  {
+    "word": "anchor",
+    "ja": "基準点・アンカーポイント",
+    "pos": "語句",
+    "lemma": "anchor",
+    "form": "",
+    "note": "anchor：この文脈では「基準点・アンカーポイント」"
+  },
+  {
+    "word": "animation",
+    "ja": "アニメーション",
+    "pos": "語句",
+    "lemma": "animation",
+    "form": "",
+    "note": "animation：この文脈では「アニメーション」"
+  },
+  {
+    "word": "asset",
+    "ja": "資産・素材",
+    "pos": "語句",
+    "lemma": "asset",
+    "form": "",
+    "note": "asset：この文脈では「資産・素材」"
+  },
+  {
+    "word": "b",
+    "ja": "ビタミンB群のB",
+    "pos": "語句",
+    "lemma": "b",
+    "form": "",
+    "note": "b：この文脈では「ビタミンB群のB」"
+  },
+  {
+    "word": "backgrounds",
+    "ja": "背景（複数）",
+    "pos": "語句",
+    "lemma": "backgrounds",
+    "form": "",
+    "note": "backgrounds：この文脈では「背景（複数）」"
+  },
+  {
+    "word": "beriberi",
+    "ja": "脚気",
+    "pos": "語句",
+    "lemma": "beriberi",
+    "form": "",
+    "note": "beriberi：この文脈では「脚気」"
+  },
+  {
+    "word": "blame",
+    "ja": "非難",
+    "pos": "語句",
+    "lemma": "blame",
+    "form": "",
+    "note": "blame：この文脈では「非難」"
+  },
+  {
+    "word": "buttons",
+    "ja": "ボタン（複数）",
+    "pos": "語句",
+    "lemma": "buttons",
+    "form": "",
+    "note": "buttons：この文脈では「ボタン（複数）」"
+  },
+  {
+    "word": "call",
+    "ja": "呼び出す",
+    "pos": "語句",
+    "lemma": "call",
+    "form": "",
+    "note": "call：この文脈では「呼び出す」"
+  },
+  {
+    "word": "century",
+    "ja": "世紀",
+    "pos": "語句",
+    "lemma": "century",
+    "form": "",
+    "note": "century：この文脈では「世紀」"
+  },
+  {
+    "word": "collection",
+    "ja": "集合・収集物",
+    "pos": "語句",
+    "lemma": "collection",
+    "form": "",
+    "note": "collection：この文脈では「集合・収集物」"
+  },
+  {
+    "word": "combined",
+    "ja": "組み合わされた",
+    "pos": "語句",
+    "lemma": "combined",
+    "form": "",
+    "note": "combined：この文脈では「組み合わされた」"
+  },
+  {
+    "word": "comparisons",
+    "ja": "比較（複数）",
+    "pos": "語句",
+    "lemma": "comparisons",
+    "form": "",
+    "note": "comparisons：この文脈では「比較（複数）」"
+  },
+  {
+    "word": "compression",
+    "ja": "圧縮・沈み",
+    "pos": "語句",
+    "lemma": "compression",
+    "form": "",
+    "note": "compression：この文脈では「圧縮・沈み」"
+  },
+  {
+    "word": "conceal",
+    "ja": "隠す",
+    "pos": "語句",
+    "lemma": "conceal",
+    "form": "",
+    "note": "conceal：この文脈では「隠す」"
+  },
+  {
+    "word": "contact",
+    "ja": "接地・接触",
+    "pos": "語句",
+    "lemma": "contact",
+    "form": "",
+    "note": "contact：この文脈では「接地・接触」"
+  },
+  {
+    "word": "conversion",
+    "ja": "変換",
+    "pos": "語句",
+    "lemma": "conversion",
+    "form": "",
+    "note": "conversion：この文脈では「変換」"
+  },
+  {
+    "word": "cosmetic",
+    "ja": "見た目だけの・表面的な",
+    "pos": "語句",
+    "lemma": "cosmetic",
+    "form": "",
+    "note": "cosmetic：この文脈では「見た目だけの・表面的な」"
+  },
+  {
+    "word": "credit",
+    "ja": "貸方・信用",
+    "pos": "語句",
+    "lemma": "credit",
+    "form": "",
+    "note": "credit：この文脈では「貸方・信用」"
+  },
+  {
+    "word": "cropped",
+    "ja": "切り取られた",
+    "pos": "語句",
+    "lemma": "cropped",
+    "form": "",
+    "note": "cropped：この文脈では「切り取られた」"
+  },
+  {
+    "word": "cropping",
+    "ja": "切り抜き",
+    "pos": "語句",
+    "lemma": "cropping",
+    "form": "",
+    "note": "cropping：この文脈では「切り抜き」"
+  },
+  {
+    "word": "crowded",
+    "ja": "混雑した",
+    "pos": "語句",
+    "lemma": "crowded",
+    "form": "",
+    "note": "crowded：この文脈では「混雑した」"
+  },
+  {
+    "word": "cultivated",
+    "ja": "耕作された",
+    "pos": "語句",
+    "lemma": "cultivated",
+    "form": "",
+    "note": "cultivated：この文脈では「耕作された」"
+  },
+  {
+    "word": "cuts",
+    "ja": "切る・切断する",
+    "pos": "語句",
+    "lemma": "cuts",
+    "form": "",
+    "note": "cuts：この文脈では「切る・切断する」"
+  },
+  {
+    "word": "cycle",
+    "ja": "周期・一連の動き",
+    "pos": "語句",
+    "lemma": "cycle",
+    "form": "",
+    "note": "cycle：この文脈では「周期・一連の動き」"
+  },
+  {
+    "word": "cycles",
+    "ja": "周期・一連の動き（複数）",
+    "pos": "語句",
+    "lemma": "cycles",
+    "form": "",
+    "note": "cycles：この文脈では「周期・一連の動き（複数）」"
+  },
+  {
+    "word": "debit",
+    "ja": "借方",
+    "pos": "語句",
+    "lemma": "debit",
+    "form": "",
+    "note": "debit：この文脈では「借方」"
+  },
+  {
+    "word": "debt",
+    "ja": "債務",
+    "pos": "語句",
+    "lemma": "debt",
+    "form": "",
+    "note": "debt：この文脈では「債務」"
+  },
+  {
+    "word": "declined",
+    "ja": "減少した",
+    "pos": "語句",
+    "lemma": "declined",
+    "form": "",
+    "note": "declined：この文脈では「減少した」"
+  },
+  {
+    "word": "defense",
+    "ja": "防衛",
+    "pos": "語句",
+    "lemma": "defense",
+    "form": "",
+    "note": "defense：この文脈では「防衛」"
+  },
+  {
+    "word": "deserve",
+    "ja": "値する",
+    "pos": "語句",
+    "lemma": "deserve",
+    "form": "",
+    "note": "deserve：この文脈では「値する」"
+  },
+  {
+    "word": "desired",
+    "ja": "望まれた",
+    "pos": "語句",
+    "lemma": "desired",
+    "form": "",
+    "note": "desired：この文脈では「望まれた」"
+  },
+  {
+    "word": "diets",
+    "ja": "食事内容（複数）",
+    "pos": "語句",
+    "lemma": "diets",
+    "form": "",
+    "note": "diets：この文脈では「食事内容（複数）」"
+  },
+  {
+    "word": "disappeared",
+    "ja": "消えた",
+    "pos": "語句",
+    "lemma": "disappeared",
+    "form": "",
+    "note": "disappeared：この文脈では「消えた」"
+  },
+  {
+    "word": "dismiss",
+    "ja": "退ける",
+    "pos": "語句",
+    "lemma": "dismiss",
+    "form": "",
+    "note": "dismiss：この文脈では「退ける」"
+  },
+  {
+    "word": "distinct",
+    "ja": "明確に異なる",
+    "pos": "語句",
+    "lemma": "distinct",
+    "form": "",
+    "note": "distinct：この文脈では「明確に異なる」"
+  },
+  {
+    "word": "especially",
+    "ja": "特に",
+    "pos": "語句",
+    "lemma": "especially",
+    "form": "",
+    "note": "especially：この文脈では「特に」"
+  },
+  {
+    "word": "exploration",
+    "ja": "探索",
+    "pos": "語句",
+    "lemma": "exploration",
+    "form": "",
+    "note": "exploration：この文脈では「探索」"
+  },
+  {
+    "word": "expressing",
+    "ja": "表現しながら",
+    "pos": "語句",
+    "lemma": "expressing",
+    "form": "",
+    "note": "expressing：この文脈では「表現しながら」"
+  },
+  {
+    "word": "fastening",
+    "ja": "固定すること",
+    "pos": "語句",
+    "lemma": "fastening",
+    "form": "",
+    "note": "fastening：この文脈では「固定すること」"
+  },
+  {
+    "word": "fields",
+    "ja": "田畑・分野（複数）",
+    "pos": "語句",
+    "lemma": "fields",
+    "form": "",
+    "note": "fields：この文脈では「田畑・分野（複数）」"
+  },
+  {
+    "word": "folder",
+    "ja": "フォルダ",
+    "pos": "語句",
+    "lemma": "folder",
+    "form": "",
+    "note": "folder：この文脈では「フォルダ」"
+  },
+  {
+    "word": "foot",
+    "ja": "足",
+    "pos": "語句",
+    "lemma": "foot",
+    "form": "",
+    "note": "foot：この文脈では「足」"
+  },
+  {
+    "word": "fragment",
+    "ja": "断片",
+    "pos": "語句",
+    "lemma": "fragment",
+    "form": "",
+    "note": "fragment：この文脈では「断片」"
+  },
+  {
+    "word": "frames",
+    "ja": "コマ・フレーム（複数）",
+    "pos": "語句",
+    "lemma": "frames",
+    "form": "",
+    "note": "frames：この文脈では「コマ・フレーム（複数）」"
+  },
+  {
+    "word": "futuristic",
+    "ja": "未来的な",
+    "pos": "語句",
+    "lemma": "futuristic",
+    "form": "",
+    "note": "futuristic：この文脈では「未来的な」"
+  },
+  {
+    "word": "groups",
+    "ja": "集団（複数）",
+    "pos": "語句",
+    "lemma": "groups",
+    "form": "",
+    "note": "groups：この文脈では「集団（複数）」"
+  },
+  {
+    "word": "hat",
+    "ja": "帽子",
+    "pos": "語句",
+    "lemma": "hat",
+    "form": "",
+    "note": "hat：この文脈では「帽子」"
+  },
+  {
+    "word": "healthy",
+    "ja": "健全な",
+    "pos": "語句",
+    "lemma": "healthy",
+    "form": "",
+    "note": "healthy：この文脈では「健全な」"
+  },
+  {
+    "word": "histories",
+    "ja": "履歴（複数）",
+    "pos": "語句",
+    "lemma": "histories",
+    "form": "",
+    "note": "histories：この文脈では「履歴（複数）」"
+  },
+  {
+    "word": "imbalance",
+    "ja": "不均衡",
+    "pos": "語句",
+    "lemma": "imbalance",
+    "form": "",
+    "note": "imbalance：この文脈では「不均衡」"
+  },
+  {
+    "word": "improve",
+    "ja": "改善する",
+    "pos": "語句",
+    "lemma": "improve",
+    "form": "",
+    "note": "improve：この文脈では「改善する」"
+  },
+  {
+    "word": "incomplete",
+    "ja": "未完成の",
+    "pos": "語句",
+    "lemma": "incomplete",
+    "form": "",
+    "note": "incomplete：この文脈では「未完成の」"
+  },
+  {
+    "word": "infrastructure",
+    "ja": "インフラ・社会基盤",
+    "pos": "語句",
+    "lemma": "infrastructure",
+    "form": "",
+    "note": "infrastructure：この文脈では「インフラ・社会基盤」"
+  },
+  {
+    "word": "integration",
+    "ja": "統合",
+    "pos": "語句",
+    "lemma": "integration",
+    "form": "",
+    "note": "integration：この文脈では「統合」"
+  },
+  {
+    "word": "inventing",
+    "ja": "作り上げること・創作すること",
+    "pos": "語句",
+    "lemma": "inventing",
+    "form": "",
+    "note": "inventing：この文脈では「作り上げること・創作すること」"
+  },
+  {
+    "word": "investigate",
+    "ja": "調査する",
+    "pos": "語句",
+    "lemma": "investigate",
+    "form": "",
+    "note": "investigate：この文脈では「調査する」"
+  },
+  {
+    "word": "leaks",
+    "ja": "漏れ込む",
+    "pos": "語句",
+    "lemma": "leaks",
+    "form": "",
+    "note": "leaks：この文脈では「漏れ込む」"
+  },
+  {
+    "word": "lip",
+    "ja": "唇・口パクの口",
+    "pos": "語句",
+    "lemma": "lip",
+    "form": "",
+    "note": "lip：この文脈では「唇・口パクの口」"
+  },
+  {
+    "word": "manageable",
+    "ja": "扱いやすい",
+    "pos": "語句",
+    "lemma": "manageable",
+    "form": "",
+    "note": "manageable：この文脈では「扱いやすい」"
+  },
+  {
+    "word": "mature",
+    "ja": "成熟する",
+    "pos": "語句",
+    "lemma": "mature",
+    "form": "",
+    "note": "mature：この文脈では「成熟する」"
+  },
+  {
+    "word": "membership",
+    "ja": "所属・会員資格",
+    "pos": "語句",
+    "lemma": "membership",
+    "form": "",
+    "note": "membership：この文脈では「所属・会員資格」"
+  },
+  {
+    "word": "nature",
+    "ja": "自然",
+    "pos": "語句",
+    "lemma": "nature",
+    "form": "",
+    "note": "nature：この文脈では「自然」"
+  },
+  {
+    "word": "operators",
+    "ja": "運営者（複数）",
+    "pos": "語句",
+    "lemma": "operators",
+    "form": "",
+    "note": "operators：この文脈では「運営者（複数）」"
+  },
+  {
+    "word": "organized",
+    "ja": "組織された・構成された",
+    "pos": "語句",
+    "lemma": "organized",
+    "form": "",
+    "note": "organized：この文脈では「組織された・構成された」"
+  },
+  {
+    "word": "outputs",
+    "ja": "出力（複数）",
+    "pos": "語句",
+    "lemma": "outputs",
+    "form": "",
+    "note": "outputs：この文脈では「出力（複数）」"
+  },
+  {
+    "word": "palette",
+    "ja": "配色・パレット",
+    "pos": "語句",
+    "lemma": "palette",
+    "form": "",
+    "note": "palette：この文脈では「配色・パレット」"
+  },
+  {
+    "word": "phase",
+    "ja": "段階",
+    "pos": "語句",
+    "lemma": "phase",
+    "form": "",
+    "note": "phase：この文脈では「段階」"
+  },
+  {
+    "word": "pixelating",
+    "ja": "画像をピクセル化すること",
+    "pos": "語句",
+    "lemma": "pixelating",
+    "form": "",
+    "note": "pixelating：この文脈では「画像をピクセル化すること」"
+  },
+  {
+    "word": "playback",
+    "ja": "再生",
+    "pos": "語句",
+    "lemma": "playback",
+    "form": "",
+    "note": "playback：この文脈では「再生」"
+  },
+  {
+    "word": "portable",
+    "ja": "持ち運べる",
+    "pos": "語句",
+    "lemma": "portable",
+    "form": "",
+    "note": "portable：この文脈では「持ち運べる」"
+  },
+  {
+    "word": "processor",
+    "ja": "処理装置・プロセッサ",
+    "pos": "語句",
+    "lemma": "processor",
+    "form": "",
+    "note": "processor：この文脈では「処理装置・プロセッサ」"
+  },
+  {
+    "word": "properties",
+    "ja": "知的財産・所有物（複数）",
+    "pos": "語句",
+    "lemma": "properties",
+    "form": "",
+    "note": "properties：この文脈では「知的財産・所有物（複数）」"
+  },
+  {
+    "word": "protocol",
+    "ja": "手順・規格",
+    "pos": "語句",
+    "lemma": "protocol",
+    "form": "",
+    "note": "protocol：この文脈では「手順・規格」"
+  },
+  {
+    "word": "recalled",
+    "ja": "呼び戻された",
+    "pos": "語句",
+    "lemma": "recalled",
+    "form": "",
+    "note": "recalled：この文脈では「呼び戻された」"
+  },
+  {
+    "word": "recover",
+    "ja": "取り戻す",
+    "pos": "語句",
+    "lemma": "recover",
+    "form": "",
+    "note": "recover：この文脈では「取り戻す」"
+  },
+  {
+    "word": "rejecting",
+    "ja": "退けること",
+    "pos": "語句",
+    "lemma": "rejecting",
+    "form": "",
+    "note": "rejecting：この文脈では「退けること」"
+  },
+  {
+    "word": "remedy",
+    "ja": "対策・治療法",
+    "pos": "語句",
+    "lemma": "remedy",
+    "form": "",
+    "note": "remedy：この文脈では「対策・治療法」"
+  },
+  {
+    "word": "repairs",
+    "ja": "修繕（複数）",
+    "pos": "語句",
+    "lemma": "repairs",
+    "form": "",
+    "note": "repairs：この文脈では「修繕（複数）」"
+  },
+  {
+    "word": "retreat",
+    "ja": "撤退",
+    "pos": "語句",
+    "lemma": "retreat",
+    "form": "",
+    "note": "retreat：この文脈では「撤退」"
+  },
+  {
+    "word": "saved",
+    "ja": "保存された",
+    "pos": "語句",
+    "lemma": "saved",
+    "form": "",
+    "note": "saved：この文脈では「保存された」"
+  },
+  {
+    "word": "scaffolding",
+    "ja": "足場・仮設の支え",
+    "pos": "語句",
+    "lemma": "scaffolding",
+    "form": "",
+    "note": "scaffolding：この文脈では「足場・仮設の支え」"
+  },
+  {
+    "word": "screenshot",
+    "ja": "スクリーンショット",
+    "pos": "語句",
+    "lemma": "screenshot",
+    "form": "",
+    "note": "screenshot：この文脈では「スクリーンショット」"
+  },
+  {
+    "word": "self-evident",
+    "ja": "自明の",
+    "pos": "語句",
+    "lemma": "self-evident",
+    "form": "",
+    "note": "self-evident：この文脈では「自明の」"
+  },
+  {
+    "word": "send",
+    "ja": "送る",
+    "pos": "語句",
+    "lemma": "send",
+    "form": "",
+    "note": "send：この文脈では「送る」"
+  },
+  {
+    "word": "seniority",
+    "ja": "先輩権・年功",
+    "pos": "語句",
+    "lemma": "seniority",
+    "form": "",
+    "note": "seniority：この文脈では「先輩権・年功」"
+  },
+  {
+    "word": "standardizing",
+    "ja": "規格化すること",
+    "pos": "語句",
+    "lemma": "standardizing",
+    "form": "",
+    "note": "standardizing：この文脈では「規格化すること」"
+  },
+  {
+    "word": "studio",
+    "ja": "制作環境・スタジオ",
+    "pos": "語句",
+    "lemma": "studio",
+    "form": "",
+    "note": "studio：この文脈では「制作環境・スタジオ」"
+  },
+  {
+    "word": "suburban",
+    "ja": "郊外の",
+    "pos": "語句",
+    "lemma": "suburban",
+    "form": "",
+    "note": "suburban：この文脈では「郊外の」"
+  },
+  {
+    "word": "supplied",
+    "ja": "与えた・供給した",
+    "pos": "語句",
+    "lemma": "supplied",
+    "form": "",
+    "note": "supplied：この文脈では「与えた・供給した」"
+  },
+  {
+    "word": "sync",
+    "ja": "同期・口パク同期",
+    "pos": "語句",
+    "lemma": "sync",
+    "form": "",
+    "note": "sync：この文脈では「同期・口パク同期」"
+  },
+  {
+    "word": "truth",
+    "ja": "真実",
+    "pos": "語句",
+    "lemma": "truth",
+    "form": "",
+    "note": "truth：この文脈では「真実」"
+  },
+  {
+    "word": "twelve-frame",
+    "ja": "十二コマの",
+    "pos": "語句",
+    "lemma": "twelve-frame",
+    "form": "",
+    "note": "twelve-frame：この文脈では「十二コマの」"
+  },
+  {
+    "word": "unclassified",
+    "ja": "分類されていない",
+    "pos": "語句",
+    "lemma": "unclassified",
+    "form": "",
+    "note": "unclassified：この文脈では「分類されていない」"
+  },
+  {
+    "word": "vacancies",
+    "ja": "空室・空き（複数）",
+    "pos": "語句",
+    "lemma": "vacancies",
+    "form": "",
+    "note": "vacancies：この文脈では「空室・空き（複数）」"
+  },
+  {
+    "word": "version",
+    "ja": "版・バージョン",
+    "pos": "語句",
+    "lemma": "version",
+    "form": "",
+    "note": "version：この文脈では「版・バージョン」"
+  },
+  {
+    "word": "vitamin",
+    "ja": "ビタミン",
+    "pos": "語句",
+    "lemma": "vitamin",
+    "form": "",
+    "note": "vitamin：この文脈では「ビタミン」"
   }
 ]
