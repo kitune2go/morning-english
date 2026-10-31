@@ -1,0 +1,805 @@
+{
+  "day": 21,
+  "title": "残された心",
+  "wordCount": 102,
+  "paragraphs": [
+    "“What a strange thing!” said the overseer of the workmen at the foundry. “This broken lead heart will not melt in the furnace. We must throw it away.” So they threw it on a dust-heap where the dead Swallow was also lying.",
+    "“Bring me the two most precious things in the city,” said God to one of His Angels; and the Angel brought Him the leaden heart and the dead bird.",
+    "“You have rightly chosen,” said God, “for in my garden of Paradise this little bird shall sing for evermore, and in my city of gold the Happy Prince shall praise me.”"
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "leaden",
+      "ja": "鉛製の"
+    },
+    {
+      "word": "furnace",
+      "ja": "炉"
+    },
+    {
+      "word": "foundry",
+      "ja": "鋳造工場"
+    },
+    {
+      "word": "overseer",
+      "ja": "監督者"
+    },
+    {
+      "word": "paradise",
+      "ja": "楽園"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "鉛の心臓だけは炉で溶けず、死んだツバメのそばに捨てられる。",
+      "chunks": [
+        {
+          "en": "“What a strange thing!” ",
+          "role": "意味のまとまり",
+          "ja": "「なんと奇妙なことだ！」と",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "What",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "strange",
+              "ja": "奇妙な・見知らぬ",
+              "note": "strange lands では未知の"
+            },
+            {
+              "word": "thing",
+              "ja": "もの・こと",
+              "note": "事物"
+            }
+          ]
+        },
+        {
+          "en": "said the overseer of the workmen at the foundry. ",
+          "role": "発話と話者",
+          "ja": "鋳造工場の作業監督者は言った。",
+          "hint": "語句：overseer＝監督者、foundry＝鋳造工場",
+          "words": [
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "overseer",
+              "ja": "監督者",
+              "note": "工場・作業者を見守る人"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "workmen",
+              "ja": "労働者たち",
+              "note": "workman の複数形"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "foundry",
+              "ja": "鋳造工場",
+              "note": "溶けた金属を鋳型へ入れる工場"
+            }
+          ]
+        },
+        {
+          "en": "“This broken lead heart will not melt in the furnace. ",
+          "role": "意味のまとまり",
+          "ja": "「この割れた鉛の心臓は炉の中でも溶けない。",
+          "hint": "will not melt＝どうしても溶けない ／ 語句：lead＝鉛、furnace＝炉",
+          "words": [
+            {
+              "word": "This",
+              "ja": "これ・この",
+              "note": "近いものを指す"
+            },
+            {
+              "word": "broken",
+              "ja": "壊れた",
+              "note": "break の過去分詞"
+            },
+            {
+              "word": "lead",
+              "ja": "鉛",
+              "note": "金属の鉛。動詞 lead と読みが異なる"
+            },
+            {
+              "word": "heart",
+              "ja": "心臓・心",
+              "note": "身体器官と心情"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "melt",
+              "ja": "溶ける・溶かす",
+              "note": "金属に対して使う"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "furnace",
+              "ja": "炉",
+              "note": "金属を高温で溶かす設備"
+            }
+          ]
+        },
+        {
+          "en": "We must throw it away.” ",
+          "role": "主語・叙述",
+          "ja": "捨ててしまわねば」",
+          "hint": "throw it away＝捨てる",
+          "words": [
+            {
+              "word": "We",
+              "ja": "私たちは",
+              "note": "一人称複数主格"
+            },
+            {
+              "word": "must",
+              "ja": "〜しなければならない",
+              "note": "義務・強い推量"
+            },
+            {
+              "word": "throw",
+              "ja": "投げる",
+              "note": "物を放つ"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            }
+          ]
+        },
+        {
+          "en": "So they threw it on a dust-heap ",
+          "role": "結果・場面展開",
+          "ja": "そこで彼らはごみの山へそれを投げ捨てた。",
+          "hint": "dust-heap＝ごみの山 ／ 語句：dust-heap＝ごみの山",
+          "words": [
+            {
+              "word": "So",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "threw",
+              "ja": "投げた",
+              "note": "throw の過去形"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "dust-heap",
+              "ja": "ごみの山",
+              "note": "ほこりやごみの堆積"
+            }
+          ]
+        },
+        {
+          "en": "where the dead Swallow was also lying.",
+          "role": "関係詞・修飾節",
+          "ja": "そこには死んだツバメも横たわっていた。",
+          "hint": "語句：dead＝死んだ、Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "where",
+              "ja": "どこ・〜する場所",
+              "note": "場所の疑問・関係副詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "dead",
+              "ja": "死んだ",
+              "note": "die の結果状態"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "also",
+              "ja": "〜もまた",
+              "note": "追加を表す"
+            },
+            {
+              "word": "lying",
+              "ja": "横たわっている",
+              "note": "lie の現在分詞"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "will not melt",
+          "ja": "どうしても溶けない"
+        },
+        {
+          "en": "throw it away",
+          "ja": "捨てる"
+        },
+        {
+          "en": "dust-heap",
+          "ja": "ごみの山"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "overseer",
+          "ja": "監督者",
+          "note": "工場・作業者を見守る人"
+        },
+        {
+          "word": "foundry",
+          "ja": "鋳造工場",
+          "note": "溶けた金属を鋳型へ入れる工場"
+        },
+        {
+          "word": "lead",
+          "ja": "鉛",
+          "note": "金属の鉛。動詞 lead と読みが異なる"
+        },
+        {
+          "word": "furnace",
+          "ja": "炉",
+          "note": "金属を高温で溶かす設備"
+        },
+        {
+          "word": "dust-heap",
+          "ja": "ごみの山",
+          "note": "ほこりやごみの堆積"
+        },
+        {
+          "word": "dead",
+          "ja": "死んだ",
+          "note": "die の結果状態"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        }
+      ]
+    },
+    {
+      "summary": "神は天使に街で最も貴い二つのものを持ってくるよう命じる。",
+      "chunks": [
+        {
+          "en": "“Bring me the two most precious things in the city,” ",
+          "role": "意味のまとまり",
+          "ja": "「街で最も尊い二つのものを持ってきなさい」と",
+          "hint": "two most precious things＝最も貴い二つのもの ／ 語句：precious＝貴重な・尊い",
+          "words": [
+            {
+              "word": "Bring",
+              "ja": "持ってくる",
+              "note": "話し手の側へ運ぶ"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "two",
+              "ja": "二つ・二人",
+              "note": "数字"
+            },
+            {
+              "word": "most",
+              "ja": "最も・大部分の",
+              "note": "最上級"
+            },
+            {
+              "word": "precious",
+              "ja": "貴重な・尊い",
+              "note": "金銭的価値だけでない"
+            },
+            {
+              "word": "things",
+              "ja": "ものごと・物",
+              "note": "things 複数形"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "city",
+              "ja": "都市・街",
+              "note": "大きな街"
+            }
+          ]
+        },
+        {
+          "en": "said God to one of His Angels; ",
+          "role": "発話と話者",
+          "ja": "神は天使の一人に言った。",
+          "hint": "語句：Angels＝天使たち",
+          "words": [
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "God",
+              "ja": "神",
+              "note": "God は一神教の神を指す"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "His",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "Angels",
+              "ja": "天使たち",
+              "note": "Angel の複数形"
+            }
+          ]
+        },
+        {
+          "en": "and the Angel brought Him the leaden heart and the dead bird.",
+          "role": "並列・追加",
+          "ja": "そして天使は鉛の心臓と死んだ鳥を神のもとへ運んだ。",
+          "hint": "the leaden heart and the dead bird＝鉛の心臓と死んだ鳥 ／ 語句：angel＝天使、leaden＝鉛製の、dead＝死んだ",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Angel",
+              "ja": "天使",
+              "note": "比喩的な容姿の描写"
+            },
+            {
+              "word": "brought",
+              "ja": "持ってきた",
+              "note": "bring の過去・過去分詞"
+            },
+            {
+              "word": "Him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "leaden",
+              "ja": "鉛製の",
+              "note": "lead「鉛」から派生"
+            },
+            {
+              "word": "heart",
+              "ja": "心臓・心",
+              "note": "身体器官と心情"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "dead",
+              "ja": "死んだ",
+              "note": "die の結果状態"
+            },
+            {
+              "word": "bird",
+              "ja": "鳥",
+              "note": "小鳥も含む"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "two most precious things",
+          "ja": "最も貴い二つのもの"
+        },
+        {
+          "en": "the leaden heart and the dead bird",
+          "ja": "鉛の心臓と死んだ鳥"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "precious",
+          "ja": "貴重な・尊い",
+          "note": "金銭的価値だけでない"
+        },
+        {
+          "word": "Angels",
+          "ja": "天使たち",
+          "note": "Angel の複数形"
+        },
+        {
+          "word": "angel",
+          "ja": "天使",
+          "note": "比喩的な容姿の描写"
+        },
+        {
+          "word": "leaden",
+          "ja": "鉛製の",
+          "note": "lead「鉛」から派生"
+        },
+        {
+          "word": "dead",
+          "ja": "死んだ",
+          "note": "die の結果状態"
+        }
+      ]
+    },
+    {
+      "summary": "神はその選択を認め、王子とツバメが楽園で報われると告げる。",
+      "chunks": [
+        {
+          "en": "“You have rightly chosen,” said God, ",
+          "role": "発話と話者",
+          "ja": "「正しく選んだ」と神は言った。",
+          "hint": "rightly chosen＝正しく選んだ ／ 語句：rightly＝正しく・適切に、chosen＝選んだ",
+          "words": [
+            {
+              "word": "You",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "rightly",
+              "ja": "正しく・適切に",
+              "note": "right の副詞"
+            },
+            {
+              "word": "chosen",
+              "ja": "選んだ",
+              "note": "choose の過去分詞"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "God",
+              "ja": "神",
+              "note": "God は一神教の神を指す"
+            }
+          ]
+        },
+        {
+          "en": "“for in my garden of Paradise this little bird shall sing ",
+          "role": "対象・目的などを示す句",
+          "ja": "「なぜなら、私の楽園の庭ではこの小鳥が歌い続けるからだ。",
+          "hint": "語句：Paradise＝楽園・天国",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "garden",
+              "ja": "庭",
+              "note": "植物を育てる土地"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "Paradise",
+              "ja": "楽園・天国",
+              "note": "宗教的な至福の場所"
+            },
+            {
+              "word": "this",
+              "ja": "これ・この",
+              "note": "近いものを指す"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "bird",
+              "ja": "鳥",
+              "note": "小鳥も含む"
+            },
+            {
+              "word": "shall",
+              "ja": "〜するだろう・〜しましょう",
+              "note": "約束・提案に使う助動詞"
+            },
+            {
+              "word": "sing",
+              "ja": "歌う",
+              "note": "声を出して歌う"
+            }
+          ]
+        },
+        {
+          "en": "for evermore, and in my city of gold the Happy Prince shall ",
+          "role": "対象・目的などを示す句",
+          "ja": "永遠に。そして黄金の街では幸福な王子が",
+          "hint": "for evermore＝永遠に ／ 語句：evermore＝永遠に、prince＝王子",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "evermore",
+              "ja": "永遠に",
+              "note": "for evermore は古風な表現"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "city",
+              "ja": "都市・街",
+              "note": "大きな街"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "gold",
+              "ja": "金・黄金",
+              "note": "貴金属"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "shall",
+              "ja": "〜するだろう・〜しましょう",
+              "note": "約束・提案に使う助動詞"
+            }
+          ]
+        },
+        {
+          "en": "praise me.”",
+          "role": "意味のまとまり",
+          "ja": "私を讃えるのだから」",
+          "hint": "語句：praise＝称賛する・讃える",
+          "words": [
+            {
+              "word": "praise",
+              "ja": "称賛する・讃える",
+              "note": "賞賛や崇敬の言葉を述べる"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "rightly chosen",
+          "ja": "正しく選んだ"
+        },
+        {
+          "en": "for evermore",
+          "ja": "永遠に"
+        },
+        {
+          "en": "shall praise me",
+          "ja": "私を讃えるだろう"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "rightly",
+          "ja": "正しく・適切に",
+          "note": "right の副詞"
+        },
+        {
+          "word": "chosen",
+          "ja": "選んだ",
+          "note": "choose の過去分詞"
+        },
+        {
+          "word": "Paradise",
+          "ja": "楽園・天国",
+          "note": "宗教的な至福の場所"
+        },
+        {
+          "word": "evermore",
+          "ja": "永遠に",
+          "note": "for evermore は古風な表現"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "praise",
+          "ja": "称賛する・讃える",
+          "note": "賞賛や崇敬の言葉を述べる"
+        }
+      ]
+    }
+  ]
+}
