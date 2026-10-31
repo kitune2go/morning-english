@@ -1123,6 +1123,111 @@
       "coreVerb": "grant",
       "theme": "公共演奏の許可と共有空間での優先権",
       "_sourceFile": "cards-extra-20260926.json"
+    },
+    {
+      "_no": 149,
+      "sentence": "Science can describe symptoms and outcomes, but deciding what counts as a disease also involves social meanings, institutions, and the allocation of resources.",
+      "coreVerb": "describe",
+      "theme": "科学的記述と疾病分類の制度判断",
+      "_sourceFile": "cards-extra-20260927.json"
+    },
+    {
+      "_no": 150,
+      "sentence": "A temporary policy can harden into a permanent structure when institutions lack a clear path for review, reversal, or expiration.",
+      "coreVerb": "harden",
+      "theme": "暫定制度が恒久化する条件",
+      "_sourceFile": "cards-extra-20260928.json"
+    },
+    {
+      "_no": 151,
+      "sentence": "A decline in reading rarely has a single cause; media, prices, local access, attention, and market structure all shape the result.",
+      "coreVerb": "shape",
+      "theme": "読書減少を単一原因で説明しない",
+      "_sourceFile": "cards-extra-20260929.json"
+    },
+    {
+      "_no": 152,
+      "sentence": "Being senior may create informal influence, but it does not automatically grant the right to command others.",
+      "coreVerb": "grant",
+      "theme": "先輩という事実と命令権の区別",
+      "_sourceFile": "cards-extra-20260930.json"
+    },
+    {
+      "_no": 153,
+      "sentence": "When a measure becomes a target, people may improve the displayed number while shifting hidden costs outside the measurement.",
+      "coreVerb": "shift",
+      "theme": "指標の目標化で外へ移る費用",
+      "_sourceFile": "cards-extra-20261001.json"
+    },
+    {
+      "_no": 154,
+      "sentence": "Law is not written into the world itself, yet much of everyday life takes place inside arrangements shaped by legal rules.",
+      "coreVerb": "shape",
+      "theme": "自然に見える生活を形作る法",
+      "_sourceFile": "cards-extra-20261003.json"
+    },
+    {
+      "_no": 155,
+      "sentence": "When suicide risk is involved, emotional support and physical barriers address different points of failure, so prevention can be stronger when both are available.",
+      "coreVerb": "address",
+      "theme": "心理的支援と物理的予防を別層で組み合わせる",
+      "_sourceFile": "cards-extra-20261002.json"
+    },
+    {
+      "_no": 156,
+      "sentence": "AI depends on chips, memory, computation, and heat management; difficulty explaining a system does not prove that the system is impossible to explain.",
+      "coreVerb": "prove",
+      "theme": "AIの物理基盤と説明限界を区別する",
+      "_sourceFile": "cards-extra-20261012.json"
+    },
+    {
+      "_no": 157,
+      "sentence": "Even when a social description is accurate, it cannot determine what should count as a solution without an additional value judgment.",
+      "coreVerb": "determine",
+      "theme": "正しい社会記述から処方箋は自動的に出ない",
+      "_sourceFile": "cards-extra-20261013.json"
+    },
+    {
+      "_no": 158,
+      "sentence": "A greeting does not necessarily express submission; it often acts as an acknowledgment, confirming that a channel of communication is open.",
+      "coreVerb": "act",
+      "theme": "挨拶を服従ではなく接続確認として捉える",
+      "_sourceFile": "cards-extra-20261004.json"
+    },
+    {
+      "_no": 159,
+      "sentence": "A market can absorb criticism directed at it, turning the language of rebellion into another product for ranking, sharing, and sale.",
+      "coreVerb": "absorb",
+      "theme": "市場批判が商品化される仕組みを捉える",
+      "_sourceFile": "cards-extra-20261006.json"
+    },
+    {
+      "_no": 160,
+      "sentence": "When authority and evaluation remain at the center while responsibility and training costs move outward, an organization may weaken its own capacity to reproduce skills.",
+      "coreVerb": "weaken",
+      "theme": "権限と育成責任の偏りが技能継承を弱める",
+      "_sourceFile": "cards-extra-20261007.json"
+    },
+    {
+      "_no": 161,
+      "sentence": "A disability neither defines a person's character nor grants moral virtue; it describes a condition that may interact with social barriers.",
+      "coreVerb": "define",
+      "theme": "障害と人格評価を切り分ける",
+      "_sourceFile": "cards-extra-20261005.json"
+    },
+    {
+      "_no": 162,
+      "sentence": "When a worker leaves after an injury, rumors about motivation can distract attention from the documented accident and the safety conditions that surrounded it.",
+      "coreVerb": "distract",
+      "theme": "労災の事実と退職者への動機推定を分ける",
+      "_sourceFile": "cards-extra-20261008.json"
+    },
+    {
+      "_no": 163,
+      "sentence": "A tradition does not become safe merely because its risks are familiar; repeated accidents still require explicit rules, reliable records, and clear responsibility.",
+      "coreVerb": "require",
+      "theme": "伝統への慣れと安全性を区別する",
+      "_sourceFile": "cards-extra-20261010.json"
     }
   ]
 }
