@@ -95,7 +95,11 @@ const BOOKMARK_KEY='literature-bookmarks-v1';
 
 const READER_PROGRESS_KEY='literature-chapter-progress-v1';
 const askDrafts=new Map();
-let wordGlossary=new Map(),contextGlossary={};
+let wordGlossary=new Map(),contextGlossary={},glossaryPromise=null;
+function ensureSharedGlossary(){
+  if(!glossaryPromise)glossaryPromise=loadSharedGlossary().catch(err=>{glossaryPromise=null;throw err;});
+  return glossaryPromise;
+}
 async function loadSharedGlossary(){
   try{
     const files=await Promise.all(["books/happy-prince/lexicon.json","books/happy-prince/extended-glossary.json","literature/essay-glossary-abcdef.json","literature/essay-glossary-ghijkl.json","literature/essay-glossary-mnopqr.json","literature/essay-glossary-stuv.json","literature/essay-glossary-wxyz.json","literature/essay-glossary-custom.json","literature/essay-glossary-recent.json","literature/essay-glossary-legacy-gapfill.json"].map(fetchJson));
@@ -178,14 +182,14 @@ async function copyReadingQuestion(card,question){
   input.remove();return ok;
 }
 
-async function fetchJson(path){const res=await fetch(path+'?v='+Date.now(),{cache:'no-store'});if(!res.ok)throw new Error(path+' を読み込めませんでした');return await res.json();}
+async function fetchJson(path){const metadata=path==='literature-works.json'||path.endsWith('/manifest.json');const res=await fetch(path,{cache:metadata?'no-cache':'default'});if(!res.ok)throw new Error(path+' を読み込めませんでした');return await res.json();}
 function loadBookmarks(){try{return JSON.parse(localStorage.getItem(BOOKMARK_KEY)||'{}');}catch{return {};}}
 function saveBookmarks(map){localStorage.setItem(BOOKMARK_KEY,JSON.stringify(map));}
 function getBookmarkId(){if(!currentWork)return'';return loadBookmarks()[currentWork.workId]||'';}
 function setBookmarkId(cardId){const map=loadBookmarks();if(cardId)map[currentWork.workId]=cardId;else delete map[currentWork.workId];saveBookmarks(map);updateBookmarkToolbar();}
 function getBookmarkedCard(){const id=getBookmarkId();return allCards.find(c=>c.id===id)||null;}
-async function loadLiterature(){stopSpeech();const status=document.getElementById('status'),content=document.getElementById('content'),toolbar=document.getElementById('toolbar'),workInfo=document.getElementById('workInfo');status.style.display='block';status.textContent='作品リストを読み込み中…';content.innerHTML='';toolbar.style.display='none';workInfo.style.display='none';try{works=await fetchJson('literature-works.json');await loadSharedGlossary();if(!Array.isArray(works)||works.length===0)throw new Error('作品が登録されていません');const savedWorkId=localStorage.getItem('literature-current-work');currentWork=works.find(w=>w.workId===savedWorkId)||works[0];buildWorkSelect();await loadCurrentWork();}catch(err){console.error(err);status.textContent='読み込みエラー: '+err.message;}}
-async function loadCurrentWork(){stopSpeech();const status=document.getElementById('status'),toolbar=document.getElementById('toolbar');status.textContent=`『${currentWork.title}』を読み込み中…`;selectedChapter='all';localStorage.setItem('literature-current-work',currentWork.workId);const manifest=await fetchJson(currentWork.manifest);const groups=await Promise.all(manifest.map(file=>fetchJson(file)));allCards=groups.flat().sort((a,b)=>Number(a.chapter)-Number(b.chapter));status.textContent=`『${currentWork.title}』: ${allCards.length}件の文学カードを読み込みました。`;toolbar.style.display='flex';const resume=getBookmarkedCard();if(currentWork.mode==='essay-translation'&&resume)selectedChapter=String(resume.chapter);renderWorkInfo();buildChapterSelect();updateBookmarkToolbar();renderCards();if(currentWork.mode==='essay-translation'&&resume)requestAnimationFrame(()=>requestAnimationFrame(()=>scrollToCard(resume.id,'auto')));}
+async function loadLiterature(){stopSpeech();const status=document.getElementById('status'),content=document.getElementById('content'),toolbar=document.getElementById('toolbar'),workInfo=document.getElementById('workInfo');status.style.display='block';status.textContent='作品リストを読み込み中…';content.innerHTML='';toolbar.style.display='none';workInfo.style.display='none';try{works=await fetchJson('literature-works.json');if(!Array.isArray(works)||works.length===0)throw new Error('作品が登録されていません');const savedWorkId=localStorage.getItem('literature-current-work');currentWork=works.find(w=>w.workId===savedWorkId)||works[0];buildWorkSelect();await loadCurrentWork();}catch(err){console.error(err);status.textContent='読み込みエラー: '+err.message;}}
+async function loadCurrentWork(){stopSpeech();const status=document.getElementById('status'),toolbar=document.getElementById('toolbar');status.textContent=`『${currentWork.title}』を読み込み中…`;selectedChapter='all';localStorage.setItem('literature-current-work',currentWork.workId);const manifest=await fetchJson(currentWork.manifest);const groups=await Promise.all(manifest.map(file=>fetchJson(file)));allCards=groups.flat().sort((a,b)=>Number(a.chapter)-Number(b.chapter));if(allCards.length>1)selectedChapter=String(allCards[0].chapter);status.textContent=`『${currentWork.title}』: ${allCards.length}件の文学カードを読み込みました。`;toolbar.style.display='flex';const resume=getBookmarkedCard();if(currentWork.mode==='essay-translation'&&resume)selectedChapter=String(resume.chapter);renderWorkInfo();buildChapterSelect();updateBookmarkToolbar();renderCards();if(currentWork.mode==='essay-translation'&&resume)requestAnimationFrame(()=>requestAnimationFrame(()=>scrollToCard(resume.id,'auto')));}
 function buildWorkSelect(){const sel=document.getElementById('workSelect');sel.innerHTML=works.map(w=>`<option value="${escapeHtml(w.workId)}">${escapeHtml(w.title)}</option>`).join('');sel.value=currentWork.workId;}
 function buildChapterSelect(){const sel=document.getElementById('chapterSelect'),completed=readChapterSet();sel.innerHTML='<option value="all">全Chapter</option>'+allCards.map(c=>`<option value="${c.chapter}">${completed.has(c.id)?'✓ ':'○ '}Chapter ${String(c.chapter).padStart(3,'0')} — ${escapeHtml(c.title||'')}</option>`).join('');sel.value=selectedChapter;}
 function renderWorkInfo(){const box=document.getElementById('workInfo');box.style.display='block';const bm=getBookmarkedCard();box.innerHTML=`<div class="label">CURRENT WORK</div><div class="work-title">${escapeHtml(currentWork.title||'')}</div><div class="work-desc">${escapeHtml(currentWork.description||'')}</div>${bm?`<div class="work-desc">🔖 しおり: ${escapeHtml(bm.id)} — ${escapeHtml(bm.title||'')}</div>`:''}`;}
@@ -242,8 +246,16 @@ function glossDetail(info,key){
   return parts.length?'<p class="word-usage" lang="ja">'+escapeHtml(parts.join(' ／ '))+'</p>':'';
 }
 
-function renderChunk(ch,i,card){
+function renderChunk(ch,i,card,withWords=false){
   const en=ch.en||'',ja=ch.ja||'';
+  if(!withWords){
+    // Do not tokenize every word in every chapter until the learner opens its glossary.
+    return '<div class="chunk"><div><div class="chunk-en">'+escapeHtml(en)+'</div><div class="chunk-ja">'+escapeHtml(ja)+'</div>'+
+      '<details class="chunk-gloss" data-gloss-card="'+escapeAttr(card.id)+'" data-gloss-index="'+i+'"><summary>文脈単語帳（開くと読み込みます）</summary>'+
+      '<p class="gloss-disclaimer">単語の意味を読み込んでいます…</p></details>'+
+      '<a class="chunk-question" href="'+escapeAttr(askChatUrl(card,'このチャンク内の全単語について、原文の語順で一語ずつ品詞・この文脈での意味・活用を教えてください。',en))+'" target="_blank" rel="noopener noreferrer">↗ このチャンクの全単語をチャッピーに質問</a></div>'+
+      '<div class="chunk-actions">'+speakButton('EN',en,'en-US','chunk-btn')+speakButton('JA',ja,'ja-JP','chunk-btn')+'</div></div>';
+  }
   const context=(contextGlossary[card.id]||[])[i]||{},contextWords=context.words||{};
   const question='このチャンク内の全単語について、原文の語順で一語ずつ品詞・この文脈での意味・活用を教えてください。';
   const wordLink=askChatUrl(card,question,en);
@@ -327,6 +339,30 @@ document.getElementById('chapterList').addEventListener('click',event=>{
   const jump=event.target.closest('[data-open-chapter]');
   if(jump)openChapter(jump.dataset.openChapter);
 });
+// Lazy dictionary: only the glossary the reader opens is rendered.
+document.getElementById('content').addEventListener('toggle',async event=>{
+  const details=event.target;
+  if(!(details instanceof HTMLDetailsElement)||!details.matches('.chunk-gloss[data-gloss-card]')||!details.open||details.dataset.loaded)return;
+  const card=allCards.find(c=>c.id===details.dataset.glossCard),index=Number(details.dataset.glossIndex);
+  if(!card||!Number.isInteger(index)||!card.chunks?.[index])return;
+  details.dataset.loaded='loading';
+  try{
+    await ensureSharedGlossary();
+    if(!details.isConnected||!details.open||!currentWork)return;
+    const temporary=document.createElement('div');
+    temporary.innerHTML=renderChunk(card.chunks[index],index,card,true);
+    const replacement=temporary.querySelector('.chunk-gloss');
+    if(!replacement)return;
+    replacement.open=true;
+    replacement.dataset.loaded='true';
+    details.replaceWith(replacement);
+  }catch(error){
+    console.error('単語辞書の読み込みに失敗しました',error);
+    details.dataset.loaded='';
+    const paragraph=details.querySelector('.gloss-disclaimer');
+    if(paragraph)paragraph.textContent='単語辞書の読み込みに失敗しました。閉じて開き直すと再試行できます。';
+  }
+},true);
 document.getElementById('content').addEventListener('input',event=>{
   const input=event.target.closest('[data-ask-input]');if(!input)return;
   const card=allCards.find(c=>c.id===input.dataset.askInput);if(!card)return;
