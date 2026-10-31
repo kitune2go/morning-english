@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "files": [
+    "cards.json",
+    "cards-extra-4-6.json",
+    "cards-extra-7-9.json",
+    "cards-extra-10-12.json",
+    "cards-extra-13-15.json",
+    "cards-extra-20260503.json",
+    "cards-extra-20260506.json",
+    "cards-extra-20260720.json",
+    "cards-extra-20260721.json",
+    "cards-extra-20260722.json",
+    "cards-extra-20260723.json",
+    "cards-extra-20260724.json",
+    "cards-extra-20260725.json",
+    "cards-extra-20260726.json",
+    "cards-extra-20260727.json",
+    "cards-extra-20260728.json",
+    "cards-extra-20260729.json",
+    "cards-extra-20260730.json",
+    "cards-extra-20260731.json",
+    "cards-extra-20260801.json",
+    "cards-extra-20260808.json",
+    "cards-extra-20260809.json",
+    "cards-extra-20260810.json",
+    "cards-extra-20260811.json",
+    "cards-extra-20260812.json",
+    "cards-extra-20260813.json",
+    "cards-extra-20260814.json",
+    "cards-extra-20260815.json",
+    "cards-extra-20260816.json",
+    "cards-extra-20260817.json",
+    "cards-extra-20260818.json",
+    "cards-extra-20260819.json",
+    "cards-extra-20260820.json",
+    "cards-extra-20260821.json",
+    "cards-extra-20260822.json",
+    "cards-extra-20260823.json",
+    "cards-extra-20260824.json",
+    "cards-extra-20260825.json",
+    "cards-extra-20260826.json",
+    "cards-extra-20260827.json",
+    "cards-extra-20260828.json",
+    "cards-extra-20260829.json",
+    "cards-extra-20260830.json",
+    "cards-extra-20260831.json",
+    "cards-extra-20260901.json",
+    "cards-extra-20260902.json",
+    "cards-extra-20260903.json",
+    "cards-extra-20260904.json",
+    "cards-extra-20260905.json",
+    "cards-extra-20260906.json",
+    "cards-extra-20260907.json",
+    "cards-extra-20260908.json",
+    "cards-extra-20260909.json",
+    "cards-extra-20260910.json",
+    "cards-extra-20260911.json",
+    "cards-extra-20260912.json",
+    "cards-extra-20260913.json",
+    "cards-extra-20260914.json",
+    "cards-extra-20260915.json",
+    "cards-extra-20260916.json",
+    "cards-extra-20260917.json",
+    "cards-extra-20260918.json",
+    "cards-extra-20260919.json",
+    "cards-extra-20260920.json",
+    "cards-extra-20260921.json",
+    "cards-extra-20260924.json",
+    "cards-extra-20260925.json",
+    "cards-extra-20260922.json",
+    "cards-extra-20260923.json",
+    "cards-extra-20260926.json",
+    "cards-extra-20260927.json",
+    "cards-extra-20260928.json",
+    "cards-extra-20260929.json",
+    "cards-extra-20260930.json",
+    "cards-extra-20261001.json",
+    "cards-extra-20261003.json",
+    "cards-extra-20261002.json",
+    "cards-extra-20261012.json",
+    "cards-extra-20261013.json",
+    "cards-extra-20261004.json",
+    "cards-extra-20261006.json",
+    "cards-extra-20261007.json",
+    "cards-extra-20261005.json",
+    "cards-extra-20261008.json",
+    "cards-extra-20261010.json"
+  ],
+  "cards": [
+    {
+      "_no": 1,
+      "sentence": "I create things that bring meaning to my life every day, which makes me feel more fulfilled than I was before.",
+      "coreVerb": "create",
+      "theme": "創作",
+      "_sourceFile": "cards.json"
+    },
+    {
+      "_no": 2,
+      "sentence": "I read books that challenge my way of thinking every morning, which helps me grow more open-minded than I used to be.",
+      "coreVerb": "read",
+      "theme": "学び",
+      "_sourceFile": "cards.json"
+    },
+    {
+      "_no": 3,
+      "sentence": "I write down ideas that come to mind throughout the day, which helps me think more clearly than I could without notes.",
+      "coreVerb": "write",
+      "theme": "思考整理",
+      "_sourceFile": "cards.json"
+    },
+    {
+      "_no": 4,
+      "sentence": "I observe small changes that happen around me every day, which helps me notice patterns more quickly than before.",
+      "coreVerb": "observe",
+      "theme": "観察",
+      "_sourceFile": "cards-extra-4-6.json"
+    },
+    {
+      "_no": 5,
+      "sentence": "I practice phrases that sound useful in daily conversations, which makes speaking feel less stressful than it did before.",
+      "coreVerb": "practice",
+      "theme": "会話練習",
+      "_sourceFile": "cards-extra-4-6.json"
+    },
+    {
+      "_no": 6,
+      "sentence": "I build routines that support my learning after work, which helps me stay more consistent than I was last year.",
+      "coreVerb": "build",
+      "theme": "習慣化",
+      "_sourceFile": "cards-extra-4-6.json"
+    },
+    {
+      "_no": 7,
+      "sentence": "I review sentences that felt difficult yesterday, which helps me understand them more naturally than I did before.",
+      "coreVerb": "review",
+      "theme": "復習",
+      "_sourceFile": "cards-extra-7-9.json"
+    },
+    {
+      "_no": 8,
+      "sentence": "I choose words that match what I really mean, which makes my messages clearer than they were before.",
+      "coreVerb": "choose",
+      "theme": "表現",
+      "_sourceFile": "cards-extra-7-9.json"
+    },
+    {
+      "_no": 9,
+      "sentence": "I listen to stories that show different perspectives, which helps me think more flexibly than I usually do.",
+      "coreVerb": "listen",
+      "theme": "視点",
+      "_sourceFile": "cards-extra-7-9.json"
+    },
+    {
+      "_no": 10,
+      "sentence": "I organize notes that I collected during the week, which helps me find important ideas faster than before.",
+      "coreVerb": "organize",
+      "theme": "整理",
+      "_sourceFile": "cards-extra-10-12.json"
+    },
+    {
+      "_no": 11,
+      "sentence": "I compare examples that look similar at first, which helps me understand small differences more clearly than before.",
+      "coreVerb": "compare",
+      "theme": "比較",
+      "_sourceFile": "cards-extra-10-12.json"
+    },
+    {
+      "_no": 12,
+      "sentence": "I imagine scenes that connect words with feelings, which makes each expression easier to remember than before.",
+      "coreVerb": "imagine",
+      "theme": "想像",
+      "_sourceFile": "cards-extra-10-12.json"
+    },
+    {
+      "_no": 13,
+      "sentence": "I explain ideas that seemed unclear at first, which helps me remember them more deeply than before.",
+      "coreVerb": "explain",
+      "theme": "説明",
+      "_sourceFile": "cards-extra-13-15.json"
+    },
+    {
+      "_no": 14,
+      "sentence": "I notice mistakes that appear in my writing, which helps me correct sentences more carefully than before.",
+      "coreVerb": "notice",
+      "theme": "修正",
+      "_sourceFile": "cards-extra-13-15.json"
+    },
+    {
+      "_no": 15,
+      "sentence": "I record phrases that I want to use later, which makes daily practice more useful than before.",
+      "coreVerb": "record",
+      "theme": "記録",
+      "_sourceFile": "cards-extra-13-15.json"
+    },
+    {
+      "_no": 16,
+      "sentence": "I observe patterns that appear in ordinary moments every morning, which helps me understand daily life more deeply than before.",
+      "coreVerb": "observe",
+      "theme": "観察",
+      "_sourceFile": "cards-extra-20260503.json"
+    },
+    {
+      "_no": 17,
+      "sentence": "I translate sentences that contain subtle feelings into English, which trains me to read context more carefully than before.",
+      "coreVerb": "translate",
+      "theme": "翻訳",
+      "_sourceFile": "cards-extra-20260503.json"
+    },
+    {
+      "_no": 18,
+      "sentence": "I listen to phrases that sound natural in conversation, which helps me speak more smoothly than I could by memorizing rules alone.",
+      "coreVerb": "listen",
+      "theme": "会話",
+      "_sourceFile": "cards-extra-20260503.json"
+    },
+    {
+      "_no": 19,
+      "sentence": "I compare ideas that seem similar at first, which helps me notice small differences more clearly than before.",
+      "coreVerb": "compare",
+      "theme": "比較と思考",
+      "_sourceFile": "cards-extra-20260506.json"
+    },
+    {
+      "_no": 20,
+      "sentence": "I rewrite sentences that feel unclear in simpler words, which makes my thoughts easier to share than before.",
+      "coreVerb": "rewrite",
+      "theme": "言い換え",
+      "_sourceFile": "cards-extra-20260506.json"
+    },
+    {
+      "_no": 21,
+      "sentence": "I build routines that support steady learning each week, which helps me improve more consistently than sudden effort alone.",
+      "coreVerb": "build",
+      "theme": "習慣化",
+      "_sourceFile": "cards-extra-20260506.json"
+    },
+    {
+      "_no": 22,
+      "sentence": "I preserve handwritten traces that reveal how my thoughts move across the page, which helps me understand my writing process more clearly than polished digital text does.",
+      "coreVerb": "preserve",
+      "theme": "手書きの身体性",
+      "_sourceFile": "cards-extra-20260720.json"
+    },
+    {
+      "_no": 23,
+      "sentence": "I use a tablet that keeps my handwritten notes together without piles of paper, which makes my records easier to manage than they would be on loose sheets of paper.",
+      "coreVerb": "use",
+      "theme": "タブレットによる記録",
+      "_sourceFile": "cards-extra-20260720.json"
+    },
+    {
+      "_no": 24,
+      "sentence": "I build a conceptual index that organizes my growing conversations by theme, which makes forgotten ideas easier to revisit than they would be in a chronological archive.",
+      "coreVerb": "build",
+      "theme": "AI対話の概念索引",
+      "_sourceFile": "cards-extra-20260720.json"
+    },
+    {
+      "_no": 25,
+      "sentence": "I keep drafts that show how my ideas develop, which makes my writing more thoughtful than simply copying polished answers.",
+      "coreVerb": "keep",
+      "theme": "執筆過程",
+      "_sourceFile": "cards-extra-20260721.json"
+    },
+    {
+      "_no": 26,
+      "sentence": "I monitor conditions that combine extreme heat with high humidity, which helps me identify workplace risk earlier than endurance alone would.",
+      "coreVerb": "monitor",
+      "theme": "高温多湿の作業安全",
+      "_sourceFile": "cards-extra-20260721.json"
+    },
+    {
+      "_no": 27,
+      "sentence": "I question concepts that sound academic but explain little, which helps me distinguish useful frameworks from empty labels more carefully than before.",
+      "coreVerb": "question",
+      "theme": "概念の検証",
+      "_sourceFile": "cards-extra-20260721.json"
+    },
+    {
+      "_no": 28,
+      "sentence": "I compare features that distinguish similar aircraft, which makes identification more reliable than guessing from a single shape.",
+      "coreVerb": "compare",
+      "theme": "航空機の特徴識別",
+      "_sourceFile": "cards-extra-20260722.json"
+    },
+    {
+      "_no": 29,
+      "sentence": "I examine systems that spread medical costs across society, which reveals trade-offs more clearly than judging prices alone.",
+      "coreVerb": "examine",
+      "theme": "医療制度の費用分担",
+      "_sourceFile": "cards-extra-20260722.json"
+    },
+    {
+      "_no": 30,
+      "sentence": "I compare scenarios that could move exchange rates, which makes my daily outlook more balanced than a single forecast would.",
+      "coreVerb": "compare",
+      "theme": "為替見通しの不確実性",
+      "_sourceFile": "cards-extra-20260722.json"
+    },
+    {
+      "_no": 31,
+      "sentence": "I compare factors that could move the currency, which gives me a steadier outlook than blaming one headline.",
+      "coreVerb": "compare",
+      "theme": "相場を複数要因で読む",
+      "_sourceFile": "cards-extra-20260723.json"
+    },
+    {
+      "_no": 32,
+      "sentence": "I question policies that restrict market exits, which burden local communities more heavily than shared national support would.",
+      "coreVerb": "question",
+      "theme": "市場制約と地域負担",
+      "_sourceFile": "cards-extra-20260723.json"
+    },
+    {
+      "_no": 33,
+      "sentence": "I distinguish rewards that attract players from genuine loyalty, which sustains communities longer than repeated promotions do.",
+      "coreVerb": "distinguish",
+      "theme": "報酬と愛着の区別",
+      "_sourceFile": "cards-extra-20260723.json"
+    },
+    {
+      "_no": 34,
+      "sentence": "MRI detects changing signals as excited hydrogen nuclei return toward equilibrium. Understanding this sequence is more useful than memorizing isolated terms.",
+      "coreVerb": "detect",
+      "theme": "MRI信号の生まれ方",
+      "_sourceFile": "cards-extra-20260724.json"
+    },
+    {
+      "_no": 35,
+      "sentence": "Courts of first and second instance may both examine facts, while Japan's Supreme Court mainly reviews questions of law.",
+      "coreVerb": "examine",
+      "theme": "事実審と法律審",
+      "_sourceFile": "cards-extra-20260724.json"
+    },
+    {
+      "_no": 36,
+      "sentence": "Young audiences move to new platforms faster than ownership and production structures change. A new interface does not automatically produce a new generation of creators.",
+      "coreVerb": "move",
+      "theme": "若者メディアの窓と作り手",
+      "_sourceFile": "cards-extra-20260724.json"
+    },
+    {
+      "_no": 37,
+      "sentence": "Workplaces should prioritize heat safety when formal clothing increases physical risk. A mocking label cannot justify rules that endanger workers.",
+      "coreVerb": "prioritize",
+      "theme": "酷暑下の服装と安全",
+      "_sourceFile": "cards-extra-20260725.json"
+    },
+    {
+      "_no": 38,
+      "sentence": "The slogan “One Hundred Million, All Middle Class” described a widespread self-image, not equal incomes. Similar survey answers can still hide major differences in living conditions.",
+      "coreVerb": "describe",
+      "theme": "一億総中流という自己認識",
+      "_sourceFile": "cards-extra-20260726.json"
+    },
+    {
+      "_no": 39,
+      "sentence": "Governments often describe wars as self-defense, so the label alone cannot prove that force is necessary or justified. Historical context and evidence still matter.",
+      "coreVerb": "describe",
+      "theme": "自衛という名目の検証",
+      "_sourceFile": "cards-extra-20260726.json"
+    }
+  ]
+}
