@@ -34,17 +34,26 @@ main{padding-top:18px}
 .select-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:13px 0}
 .select-row label{font-size:12px;color:var(--muted)}
 .select-row select{flex:1;min-width:180px}
+.select-row #bookSelect{border-left:5px solid #a2462e;border-color:#c38d77;background:#fff2e9;font-weight:700}
+.select-row #daySelect{border-left:5px solid #247663;border-color:#73a797;background:#e5f4ef;font-weight:700}
+.reading-location{padding:9px 12px;margin:0 0 13px;border-left:5px solid #247663;border-radius:6px;background:#e5f4ef;color:#185241;font-size:13px;font-weight:700;line-height:1.6;overflow-wrap:anywhere}
 progress{width:100%;height:12px;accent-color:#317265}
 .progress-meta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-top:6px;font-size:12px;color:var(--muted)}
 
 .chapter-index{margin:13px 0 10px;background:#f8faf7;border:1px solid var(--line);border-radius:9px;padding:10px 12px}
 .chapter-index>summary{cursor:pointer;font-size:13px;font-weight:700;padding:3px 0}
 .chapter-index>summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.chapter-index[open]{background:#eff5fc;border-color:#7c9fca}
+.chapter-index[open]>summary{color:#244e79}
+.chapter-index[open]>summary::after{content:"開いています";float:right;font-size:11px;color:#244e79;margin-left:8px}
 .chapter-index-hint{font-size:12px;color:var(--muted);margin:7px 0}
 .chapter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:8px;margin:10px 0 4px}
 .chapter-entry{display:flex;align-items:stretch;min-width:0;border:1px solid var(--line);border-radius:7px;background:#fff;overflow:hidden}
 .chapter-entry.current{border-color:#4a8474;box-shadow:0 0 0 1px #4a8474}
 .chapter-entry.read{background:#f0f7f2}
+.chapter-entry.current,.chapter-entry.read.current{border-color:#247663;border-left:5px solid #247663;background:#d9eee7;box-shadow:0 0 0 1px #247663}
+.chapter-entry.current .chapter-go-state{color:#185241;font-weight:700}
+.chapter-entry.current .chapter-go-name::before{content:"▶ ";color:#185241}
 .chapter-go{min-width:0;flex:1;background:transparent;color:var(--ink);border:0;padding:9px 10px;text-align:left;cursor:pointer;font:inherit}
 .chapter-go:hover{background:#eaf0eb}
 .chapter-go:focus-visible,.chapter-read:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}
@@ -81,7 +90,14 @@ progress{width:100%;height:12px;accent-color:#317265}
 .paragraph-help>summary{font-size:13px;font-weight:700;cursor:pointer;color:var(--ink);padding:3px 0}
 .paragraph-help>summary:focus-visible{outline:2px solid var(--accent)}
 .paragraph-help>summary .counts{font-size:11px;font-weight:normal;color:var(--muted);margin-left:6px}
-.paragraph-help[open]>summary{border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:10px}
+.paragraph-help[open]{border-color:#7c9fca;background:#f6f9fd;border-left:4px solid #4c7cad}
+.paragraph-help[open]>summary{border-bottom:1px solid #b6cde5;padding:7px 9px 10px;margin:-3px -6px 10px;background:#e7f0fa;color:#244e79;border-radius:5px}
+.paragraph-help[open]>summary::after{content:"開いています";float:right;font-size:11px;font-weight:700;margin-left:8px}
+.paragraph-translation{border:1px solid var(--line);border-radius:6px;padding:7px 10px;margin:9px 0;background:#fff}
+.paragraph-translation>summary{cursor:pointer;font-size:12px;font-weight:700}
+.paragraph-translation[open]{border-color:#c09b50;background:#fff6e6}
+.paragraph-translation[open]>summary{color:#7b5314}
+.paragraph-translation[open]>summary::after{content:"開いています";float:right;font-size:11px;margin-left:8px}
 .help-intro{font-size:12px;color:var(--muted);margin:7px 0}
 .paragraph-summary{font-size:13px;background:#e9f0e9;border-left:3px solid #6e9989;padding:9px 11px;margin:9px 0}
 .chunk-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 9px;padding:9px 0;border-bottom:1px dashed var(--line)}
@@ -94,7 +110,9 @@ progress{width:100%;height:12px;accent-color:#317265}
 .chunk-lex{grid-column:1/-1;border:1px solid #e0e8e1;border-radius:6px;background:#fffdf8;margin-top:3px;padding:5px 8px}
 .chunk-lex summary{cursor:pointer;font-size:12px;color:#43675b;font-weight:700}
 .chunk-lex summary:hover{color:#193332}
-.chunk-lex[open] summary{padding-bottom:8px;border-bottom:1px solid #e5e9e5;margin-bottom:6px}
+.chunk-lex[open]{background:#f5f0fc;border-color:#9a83bd}
+.chunk-lex[open] summary{padding:5px 6px 8px;border-bottom:1px solid #c8b7e0;margin-bottom:6px;background:#ebe3f7;color:#593d7d;border-radius:4px}
+.chunk-lex[open] summary::after{content:"開いています";float:right;font-size:11px;margin-left:8px}
 .gloss-row{display:grid;grid-template-columns:minmax(80px,1fr) minmax(130px,2fr);gap:6px 10px;border-bottom:1px solid #f0eee8;padding:7px 2px;font-size:12px;line-height:1.6}
 .gloss-row:last-child{border-bottom:0}
 .gloss-word{font:600 15px/1.5 Georgia,serif;color:#193332;overflow-wrap:anywhere}
@@ -180,6 +198,7 @@ footer{margin-top:24px;color:var(--muted);font-size:12px;border-top:1px solid va
     </div>
   </section>
   <article class="reader" id="reader" hidden>
+    <div class="reading-location" id="readingLocation" role="status" aria-live="polite"></div>
     <div class="session-label" id="dayLabel"></div>
     <div class="day-heading"><h2 id="dayTitle"></h2><span id="dayReadStatus" class="day-read-status">未読</span></div>
     <p class="summary" id="dayMeta"></p>
@@ -451,6 +470,7 @@ function render(){
   const completed=completedDaySet(st);
   renderChapterIndex(completed,st);
   $("bookTitle").textContent=book.titleJa?book.title+" — "+book.titleJa:book.title;
+  $("readingLocation").textContent="閲覧中："+(book.titleJa||book.title)+" ／ Day "+String(current).padStart(2,"0")+" — "+data.title;
   $("bookMeta").textContent=book.author+" ・ "+sessions.length+"回構成";
   $("bookDescription").textContent=book.description||"";
   $("sourceLink").href=book.sourceUrl;
