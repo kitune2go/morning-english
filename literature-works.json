@@ -319,5 +319,26 @@
     "description": "旋盤教材の原点と向き、サッカーのルールと利益配分、国内外二部リーグの比較を通して、数字や序列を読む基準座標を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261030/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261003",
+    "title": "切り口は元の海を語らない",
+    "description": "自然化された制度、スクリーンショット、分類規格を通して、切り取られた結果から生成履歴と失われた関係へ戻る方法を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261003/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261004",
+    "title": "完成したものから維持が始まる",
+    "description": "成功の帳簿、脚気対策と仮説、巨大IPとインフラの更新を通して、完成後に始まる維持・修正・終了の責任を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261004/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261031",
+    "title": "素材は遊ばれる場所で部品になる",
+    "description": "画像のデータ化、歩行コマの連続性、制作ツールの全機能統合を通して、素材が再編集可能な制作環境へ渡される条件を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261031/manifest.json",
+    "mode": "essay-translation"
   }
 ]
