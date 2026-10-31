@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 161,
+    "_generatedAt": "2026-11-01T02:16:00+09:00",
+    "sentence": "A disability neither defines a person's character nor grants moral virtue; it describes a condition that may interact with social barriers.",
+    "phonetic": "ア ディサビリティ ニーザー ディファインズ ア パーソンズ キャラクター ノア グランツ モラル ヴァーチュー；イット ディスクライブズ ア コンディション ザット メイ インタラクト ウィズ ソーシャル バリアーズ。",
+    "japaneseTranslation": "障害は人の人格を決めるものでも、道徳的な美徳を与えるものでもありません。それは、社会的障壁と影響し合うことのある状態を記述します。",
+    "theme": "障害と人格評価を切り分ける",
+    "coreVerb": "define",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A disability describes.",
+        "translation": "障害は記述する。"
+      },
+      "phase2": {
+        "sentence": "A disability describes a condition.",
+        "translation": "障害は一つの状態を記述する。",
+        "addedChunks": "目的語(a condition)を追加"
+      },
+      "phase3": {
+        "sentence": "A disability describes a condition, but it does not define character.",
+        "translation": "障害は状態を記述するが、人格を決めない。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Social barriers may shape experience more directly than moral labels do.",
+        "translation": "社会的障壁は道徳的なラベルより直接的に経験を形作ることがある。",
+        "comparison": "more directly than"
+      },
+      "phase5": {
+        "sentence": "A disability neither defines a person's character nor grants moral virtue; it describes a condition that may interact with social barriers.",
+        "translation": "障害は人の人格を決めるものでも道徳的な美徳を与えるものでもなく、社会的障壁と影響し合うことのある状態を記述する。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A disability",
+          "function": "内容",
+          "translation": "障害は"
+        },
+        {
+          "text": "neither defines",
+          "function": "行動",
+          "translation": "決めるものでもなく"
+        },
+        {
+          "text": "a person's character",
+          "function": "対象",
+          "translation": "人の人格を"
+        },
+        {
+          "text": "nor grants moral virtue",
+          "function": "接続",
+          "translation": "道徳的な美徳を与えるものでもない"
+        },
+        {
+          "text": "it describes a condition",
+          "function": "行動",
+          "translation": "それは状態を記述する"
+        },
+        {
+          "text": "that may interact with social barriers",
+          "function": "修飾",
+          "translation": "社会的障壁と影響し合うことのある"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "相関接続",
+          "name": "neither A nor B",
+          "where": "neither defines ... nor grants ...",
+          "explanation": "二つの判断をともに否定する。",
+          "rule": "neither A nor B"
+        },
+        {
+          "category": "所有格",
+          "name": "person's",
+          "where": "a person's character",
+          "explanation": "人に属する人格を表す。",
+          "rule": "名詞's + 名詞"
+        },
+        {
+          "category": "語法",
+          "name": "grant + 目的語",
+          "where": "grants moral virtue",
+          "explanation": "何かを与えるという意味を表す。",
+          "rule": "grant + 名詞"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "virtue; it",
+          "explanation": "関連する独立節を明確に区切る。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "関係詞",
+          "name": "that",
+          "where": "a condition that may interact",
+          "explanation": "conditionを後ろから限定する。",
+          "rule": "名詞 + that + 動詞句"
+        },
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may interact",
+          "explanation": "起こりうる関係を断定せず示す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "interact with",
+          "where": "interact with social barriers",
+          "explanation": "相互に影響する対象をwithで示す。",
+          "rule": "interact with + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A disability neither define nor grants character.",
+          "correct": "A disability neither defines character nor grants virtue.",
+          "why": "単数主語に合わせ、並列する動詞の形もそろえる。"
+        },
+        {
+          "wrong": "It describes a condition who may interact with barriers.",
+          "correct": "It describes a condition that may interact with barriers.",
+          "why": "物・状態を先行詞にする制限用法ではthatを使う。"
+        },
+        {
+          "wrong": "A disability interacts to social barriers.",
+          "correct": "A disability interacts with social barriers.",
+          "why": "interactは前置詞withを取る。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Disability does not determine personality or moral worth.",
+          "translation": "障害は人格や道徳的価値を決定しない。"
+        },
+        {
+          "text": "A physical condition may be shaped by the barriers around it.",
+          "translation": "身体的状態は周囲の障壁に影響されることがある。"
+        },
+        {
+          "text": "Removing a barrier can improve access without rewriting a person's character.",
+          "translation": "障壁を取り除けば、人格を書き換えずに利用可能性を改善できる。"
+        }
+      ],
+      "parseTree": "S(A disability) [Correlative: neither V(defines) O(a person's character) nor V(grants) O(moral virtue)]; S(it) V(describes) O(a condition [Rel: that Aux(may) V(interact) [Prep: with social barriers]])."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "may interact with social barriers",
+          "expanded": "because the surrounding environment can increase or reduce practical limitations",
+          "nuance": "環境が実際の制約を変える理由を補う。"
+        },
+        {
+          "original": "neither defines a person's character nor grants moral virtue",
+          "expanded": "since character cannot be inferred from a physical condition",
+          "nuance": "身体状態から人格を推論できないことを理由にする。"
+        },
+        {
+          "original": "describes a condition",
+          "expanded": "therefore, moral praise and contempt require separate evidence",
+          "nuance": "記述と人格評価を分ける帰結を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A person's character cannot be defined by disability alone.",
+          "translation": "人の人格は障害だけによって決められない。",
+          "note": "characterを主語にして決定されない側を焦点化する。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Interacting with social barriers, a condition may create different practical limits in different environments.",
+          "translation": "社会的障壁と影響し合うことで、同じ状態でも環境ごとに異なる実際的制約を生みうる。",
+          "note": "環境との相互作用を-ing句へ移す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The separation of disability from moral judgment prevents both contempt and idealization.",
+          "translation": "障害と道徳判断の分離は、蔑視と美化の両方を防ぐ。",
+          "note": "separateとjudgeを名詞化して論点を圧縮する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "define",
+            "alternatives": [
+              "determine",
+              "describe",
+              "characterize"
+            ],
+            "nuance": "defineは境界や本質を決める、determineは結果を左右する、describeは状態を述べる、characterizeは特徴づける。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "二重否定",
+            "sentence": "A condition can affect experience without determining moral worth.",
+            "translation": "状態は道徳的価値を決めずに経験へ影響しうる。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Social access is more relevant to participation than moral praise is.",
+            "translation": "社会参加には道徳的称賛より利用可能性の方が直接関係する。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a barrier is removed, participation may improve even though the condition remains.",
+            "translation": "障壁が取り除かれれば、状態が残っていても参加は改善しうる。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What disability describes is a condition, not a complete personality.",
+            "translation": "障害が記述するのは状態であって、人格全体ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Disability is not character.",
+            "translation": "障害は人格ではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "蔑視と美化を同時に退け、状態記述と人格評価を明確に分離した。neither...norと関係詞節が学習価値を持つが、抽象語が多いためflexibilityとefficiencyを8とした。"
+    }
+  }
+]
