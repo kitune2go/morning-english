@@ -1,0 +1,240 @@
+[
+  {
+    "_no": 163,
+    "_generatedAt": "2026-11-01T02:16:00+09:00",
+    "sentence": "A tradition does not become safe merely because its risks are familiar; repeated accidents still require explicit rules, reliable records, and clear responsibility.",
+    "phonetic": "ア トラディション ダズ ノット ビカム セイフ ミアリー ビコーズ イッツ リスクス アー ファミリア；リピーティッド アクシデンツ スティル リクワイア イクスプリシット ルールズ、リライアブル レコーズ、アンド クリア リスポンサビリティ。",
+    "japaneseTranslation": "危険がよく知られているというだけで、伝統が安全になるわけではありません。事故が繰り返されるなら、明示的な規則、信頼できる記録、明確な責任がなお必要です。",
+    "theme": "伝統への慣れと安全性を区別する",
+    "coreVerb": "require",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Accidents require action.",
+        "translation": "事故には対応が必要だ。"
+      },
+      "phase2": {
+        "sentence": "Repeated accidents require clear rules.",
+        "translation": "繰り返される事故には明確な規則が必要だ。",
+        "addedChunks": "主語修飾(repeated)と目的語(clear rules)を追加"
+      },
+      "phase3": {
+        "sentence": "A tradition is not safe because people know its risks.",
+        "translation": "人々が危険を知っているからといって、伝統が安全なわけではない。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Reliable records are more useful than familiarity alone.",
+        "translation": "信頼できる記録は、単なる慣れより役に立つ。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "A tradition does not become safe merely because its risks are familiar",
+        "translation": "危険がよく知られているというだけで、伝統が安全になるわけではない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A tradition",
+          "function": "内容",
+          "translation": "伝統は"
+        },
+        {
+          "text": "does not become safe",
+          "function": "状態",
+          "translation": "安全になるわけではない"
+        },
+        {
+          "text": "merely because its risks are familiar",
+          "function": "理由",
+          "translation": "危険がよく知られているというだけでは"
+        },
+        {
+          "text": "repeated accidents still require",
+          "function": "行動",
+          "translation": "繰り返される事故にはなお必要だ"
+        },
+        {
+          "text": "explicit rules, reliable records, and clear responsibility",
+          "function": "対象",
+          "translation": "明示的な規則、信頼できる記録、明確な責任が"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "変化",
+          "name": "become + 形容詞",
+          "where": "become safe",
+          "explanation": "状態の変化を表す。",
+          "rule": "become + 形容詞"
+        },
+        {
+          "category": "限定",
+          "name": "merely because",
+          "where": "merely because its risks are familiar",
+          "explanation": "理由がそれだけでは十分でないことを強調する。",
+          "rule": "merely because + 節"
+        },
+        {
+          "category": "所有格",
+          "name": "its",
+          "where": "its risks",
+          "explanation": "traditionに伴う危険を指す。",
+          "rule": "単数名詞 → its"
+        },
+        {
+          "category": "補語",
+          "name": "familiar",
+          "where": "risks are familiar",
+          "explanation": "危険がよく知られた状態を表す。",
+          "rule": "be + 形容詞"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "familiar; repeated accidents",
+          "explanation": "対照的だが関連する独立節を結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "過去分詞",
+          "name": "repeated",
+          "where": "repeated accidents",
+          "explanation": "繰り返された事故を修飾する。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "三項並列",
+          "where": "rules, records, and responsibility",
+          "explanation": "必要な三要素を同じ階層で並べる。",
+          "rule": "A, B, and C"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A tradition does not becomes safe.",
+          "correct": "A tradition does not become safe.",
+          "why": "doesの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "because its risks is familiar",
+          "correct": "because its risks are familiar",
+          "why": "複数主語risksにはareを使う。"
+        },
+        {
+          "wrong": "Repeated accidents requires clear rules.",
+          "correct": "Repeated accidents require clear rules.",
+          "why": "複数主語accidentsには動詞原形requireを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Familiar danger is still danger.",
+          "translation": "慣れた危険も危険である。"
+        },
+        {
+          "text": "Tradition cannot replace documented safety controls.",
+          "translation": "伝統は記録された安全管理の代わりにはならない。"
+        },
+        {
+          "text": "Repeated accidents call for rules, records, and accountable decisions.",
+          "translation": "繰り返される事故には、規則・記録・説明可能な判断が求められる。"
+        }
+      ],
+      "parseTree": "S(A tradition) Aux(does) Neg(not) V(become) C(safe) [Adv: merely because S(its risks) V(are) C(familiar)]; S(repeated accidents) Adv(still) V(require) O(explicit rules, reliable records, and clear responsibility)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "does not become safe merely because its risks are familiar",
+          "expanded": "because familiarity can normalize danger without reducing it",
+          "nuance": "慣れが危険を減らさず正常化する理由を補う。"
+        },
+        {
+          "original": "repeated accidents still require explicit rules",
+          "expanded": "since repetition indicates that informal caution is insufficient",
+          "nuance": "反復が非公式な注意の不足を示すと説明する。"
+        },
+        {
+          "original": "reliable records, and clear responsibility",
+          "expanded": "therefore, each accident should produce traceable changes",
+          "nuance": "事故を追跡可能な改善へ結ぶ帰結を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Safety cannot be established merely by making a risk familiar.",
+          "translation": "危険を身近にするだけでは安全は確立されない。",
+          "note": "safetyを主語にして確立される側へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Treating familiar risk as harmless, an organization may repeat preventable accidents.",
+          "translation": "慣れた危険を無害と扱うと、組織は防げる事故を繰り返すことがある。",
+          "note": "誤った扱いを-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The normalization of risk does not provide evidence of safety.",
+          "translation": "危険の正常化は安全の証拠にならない。",
+          "note": "normalizeを名詞化して簡潔に対照する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "familiar",
+            "alternatives": [
+              "well-known",
+              "routine",
+              "normalized"
+            ],
+            "nuance": "familiarは見慣れた、well-knownは広く知られた、routineは日常化、normalizedは当然視された含みを持つ。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "必要条件",
+            "sentence": "Known risk still requires active control.",
+            "translation": "既知の危険にも能動的な管理が必要だ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A reliable accident record is more protective than confidence based on habit.",
+            "translation": "信頼できる事故記録は、習慣に基づく自信より安全に役立つ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If accidents repeat, the safety system should be revised rather than defended as tradition.",
+            "translation": "事故が繰り返されるなら、伝統として擁護せず安全制度を改めるべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What makes an activity safer is control, not familiarity.",
+            "translation": "活動をより安全にするのは慣れではなく管理である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Familiar risk is not safety.",
+            "translation": "慣れた危険は安全ではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "伝統の価値を否定せず、危険への慣れと安全性を分離した。because節と三項並列は明確だが、制度的文脈に寄るためflexibilityを8とした。"
+    }
+  }
+]
