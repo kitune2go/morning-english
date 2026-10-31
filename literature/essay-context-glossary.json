@@ -3584,5 +3584,299 @@
         }
       ]
     }
+  ],
+  "DE-20261031-001": [
+    {
+      "words": {
+        "pixelating": {
+          "ja": "画像をドット化する",
+          "pos": "語句",
+          "lemma": "pixelating",
+          "form": "",
+          "note": "pixelating：この作品では「画像をドット化する」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Pixelating an image does not automatically turn it into a playable asset.",
+          "ja": "画像をドット化しても、自動的に遊べる素材になるわけではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "anchor": {
+          "ja": "基準点",
+          "pos": "語句",
+          "lemma": "anchor",
+          "form": "",
+          "note": "anchor：この作品では「基準点」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The picture becomes reusable only when its outline, palette, transparency, orientation, and anchor point survive as data that another scene can call.",
+          "ja": "輪郭・配色・透明・向き・基準点が別場面から呼べるデータとして残るとき、画像は再利用可能になる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "playback": {
+          "ja": "再生確認",
+          "pos": "語句",
+          "lemma": "playback",
+          "form": "",
+          "note": "playback：この作品では「再生確認」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The real goal was never a single finished conversion. It was a path from generation to animation, playback, inspection, and local repair.",
+          "ja": "本当の目的は一度きりの変換ではなく、生成からアニメ化・再生・検査・部分修正へ続く道だった。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "preserve": {
+          "ja": "保持する",
+          "pos": "語句",
+          "lemma": "preserve",
+          "form": "",
+          "note": "preserve：この作品では「保持する」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A useful tool should not merely preserve a beautiful result; it should leave the result open to the next action.",
+          "ja": "役立つ道具は美しい結果を保存するだけでなく、次の操作へ開いておくべきだ。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "environment": {
+          "ja": "制作環境",
+          "pos": "語句",
+          "lemma": "environment",
+          "form": "",
+          "note": "environment：この作品では「制作環境」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The desired product was therefore a production environment, not just an image processor.",
+          "ja": "求められていたのは単なる画像加工器ではなく、制作環境だった。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261031-002": [
+    {
+      "words": {
+        "frames": {
+          "ja": "アニメーションのコマ",
+          "pos": "語句",
+          "lemma": "frames",
+          "form": "",
+          "note": "frames：この作品では「アニメーションのコマ」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "More frames do not guarantee better motion.",
+          "ja": "コマ数を増やしても、より良い動きは保証されない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "cropped": {
+          "ja": "枠外で切り取られた",
+          "pos": "語句",
+          "lemma": "cropped",
+          "form": "",
+          "note": "cropped：この作品では「枠外で切り取られた」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A twelve-frame walk cycle still fails when a foot or hat is cropped away, or when part of the neighboring frame leaks into the image.",
+          "ja": "十二コマの歩行でも、足や帽子が切れたり隣のコマが混ざったりすれば失敗する。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "compression": {
+          "ja": "歩行中の沈み姿勢",
+          "pos": "語句",
+          "lemma": "compression",
+          "form": "",
+          "note": "compression：この作品では「歩行中の沈み姿勢」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Each frame must preserve one complete character while expressing a distinct phase such as contact, compression, or passing.",
+          "ja": "各コマは接地・沈み・すれ違いなど別々の段階を示しながら、一人の全身を保たなければならない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "continuity": {
+          "ja": "動きの連続性",
+          "pos": "語句",
+          "lemma": "continuity",
+          "form": "",
+          "note": "continuity：この作品では「動きの連続性」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Playback alone cannot repair broken continuity.",
+          "ja": "再生するだけでは壊れた連続性は直せない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "character": {
+          "ja": "同じキャラクター",
+          "pos": "語句",
+          "lemma": "character",
+          "form": "",
+          "note": "character：この作品では「同じキャラクター」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Animation is a sequence of differences held together by a stronger promise: the same character must keep the same body from frame to frame.",
+          "ja": "アニメーションは差異の連続だが、同じ人物がコマごとに同じ身体を保つという約束で結ばれている。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "structural": {
+          "ja": "構造上の",
+          "pos": "語句",
+          "lemma": "structural",
+          "form": "",
+          "note": "structural：この作品では「構造上の」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Precise cropping is therefore structural, not cosmetic.",
+          "ja": "したがって正確な切り抜きは見栄えではなく構造の問題だ。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261031-003": [
+    {
+      "words": {
+        "backgrounds": {
+          "ja": "背景素材",
+          "pos": "語句",
+          "lemma": "backgrounds",
+          "form": "",
+          "note": "backgrounds：この作品では「背景素材」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Characters, backgrounds, lip sync, walk cycles, physics, and stage design do not become a studio simply because their tools share a folder.",
+          "ja": "キャラクター、背景、口パク、歩行、物理、ステージ設計は、道具が同じフォルダにあるだけでは制作室にならない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "assets": {
+          "ja": "制作素材",
+          "pos": "語句",
+          "lemma": "assets",
+          "form": "",
+          "note": "assets：この作品では「制作素材」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The collection becomes a stage only when assets can be registered, recalled, combined, played, revised, and saved as one continuing project.",
+          "ja": "素材を登録・呼出・結合・再生・修正し、一つの継続プロジェクトとして保存できるとき、道具の集合は舞台になる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "all-in-one": {
+          "ja": "全機能統合の",
+          "pos": "語句",
+          "lemma": "all-in-one",
+          "form": "",
+          "note": "all-in-one：この作品では「全機能統合の」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "An all-in-one version is therefore not a crowded screen full of buttons.",
+          "ja": "したがって全機能版とは、ボタンで混雑した画面ではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "history": {
+          "ja": "制作履歴",
+          "pos": "語句",
+          "lemma": "history",
+          "form": "",
+          "note": "history：この作品では「制作履歴」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It is a route that lets each result become the input to the next task without losing its history.",
+          "ja": "それは履歴を失わず、各成果を次の作業の入力へ変える経路である。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "integration": {
+          "ja": "機能間の統合",
+          "pos": "語句",
+          "lemma": "integration",
+          "form": "",
+          "note": "integration：この作品では「機能間の統合」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Integration is not the sum of features; it is the continuity of the work as it crosses the borders between tools.",
+          "ja": "統合は機能の合計ではなく、作品が道具の境界を越えるときに保たれる連続性である。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
   ]
 }
