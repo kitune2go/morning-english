@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>読書字幕 — UIデモ</title>
+<style>
+:root{color-scheme:light;--ink:#163b34;--mute:#6b7771;--paper:#f8f6ef;--green:#e5f3ec;--line:#d6ded8;--violet:#ede6f6}
+*{box-sizing:border-box}
+body{margin:0;background:#e9eae5;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans',Meiryo,sans-serif;line-height:1.55}
+.main{max-width:600px;margin:0 auto;padding:15px}
+nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:13px}
+.brand{font-size:19px;font-weight:800;letter-spacing:-.04em}.mode{font-size:11px;border:1px solid #cbab81;color:#7b5726;border-radius:20px;padding:4px 9px;background:#fff7e9}
+.hint{font-size:12px;color:#56655f;margin-bottom:15px}
+.phone{border:2px solid #253f38;border-radius:20px;overflow:hidden;background:var(--paper);min-height:70vh;box-shadow:0 10px 38px #223e321d;display:flex;flex-direction:column}
+.booktoolbar{padding:10px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;font-size:11px;color:#777369}
+.book{padding:26px 25px 40px;flex:1;min-height:295px;font-family:Georgia,'Times New Roman',serif;color:#2e2a24}
+.book h2{text-align:center;font-size:19px;font-weight:normal;margin-bottom:26px}.book p{font-size:20px;line-height:1.85;margin:0 0 20px}
+.panel{background:#eaf5ef;box-shadow:0 -8px 18px #1e48331f;border-top:4px solid #2e7e66;min-height:230px}
+.bar{display:flex;align-items:center;gap:7px;padding:8px 12px;border-bottom:1px solid #c8ddd0}
+.bar strong{flex:1;font-size:12px;white-space:nowrap}
+button{font:inherit;font-weight:700;cursor:pointer;background:#fff;border:1px solid #bbd2c5;color:#205746;padding:6px 10px;border-radius:7px;font-size:12px}
+button.primary{background:#266d58;color:#fff;border-color:#266d58}button:focus-visible{outline:3px solid #8bb7ff;outline-offset:2px}
+.content{padding:8px 16px 14px;max-height:365px;overflow-y:auto}.subhead{font-size:10px;font-weight:800;letter-spacing:.1em;color:#2c7962;margin:9px 0}.en{font-family:Georgia,serif;font-size:13px;margin:0 0 4px;color:#53645e}.ja{font-size:16px;font-weight:600;margin:0 0 12px;color:#163f32}
+.wordbox{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}.word{border:1px solid #b7a8cb;background:var(--violet);border-radius:8px;padding:5px 9px;font-size:11px;color:#5e4773}.word b{font-size:12px;display:block}
+.note{margin:11px 0 0;color:#646f68;font-size:11px}
+.minimized .content{display:none}.minimized .panel{min-height:0}.minimized .bar{border-bottom:0}
+.bottom{display:flex;justify-content:space-between;align-items:center;margin-top:12px;gap:8px}.bottom p{font-size:11px;color:#59665e;margin:0}
+@media(max-width:420px){.main{padding:8px}.phone{border-radius:12px}.book{padding:17px 18px}.book p{font-size:18px}.bar{padding:6px}.bar button{padding:6px 7px}}
+</style>
+</head>
+<body>
+<div class="main">
+<nav><span class="brand">読書字幕 <span aria-hidden="true">◈</span></span><span class="mode">画面デモ（実際のKindle連携ではありません）</span></nav>
+<p class="hint">本を読みながら、下部パネルに日本語字幕と単語の意味を表示するUIの確認用です。原文・訳文はデモ用の例文です。</p>
+<div class="phone" id="phone">
+  <div class="booktoolbar"><span>ENGLISH READER / SAMPLE</span><span id="pageLabel">PAGE 01 / 02</span></div>
+  <section class="book"><h2>THE OLD BOOK</h2><p id="bookText"></p></section>
+  <section class="panel" aria-label="日本語字幕パネル">
+    <div class="bar"><strong>EN → JA　読書字幕</strong><button class="primary" id="read">読取</button><button id="fold">縮小</button><button id="next">次頁</button></div>
+    <div class="content" id="content" aria-live="polite"></div>
+  </section>
+</div>
+<div class="bottom"><p>サンプル2ページを切り替えて表示を確認できます。</p><button id="reset">最初に戻す</button></div>
+</div>
+<script>
+'use strict';
+const pages=[
+ {text:'The child opened the old book. A quiet light filled the room. She wondered what stories it held.',
+  segments:[['The child opened the old book.','子どもは古い本を開いた。'],['A quiet light filled the room.','静かな光が部屋を満たした。'],['She wondered what stories it held.','そこにはどんな物語が収められているのだろう、と彼女は思った。']],
+  words:[['opened','開いた'],['quiet','静かな'],['filled','満たした'],['wondered','〜だろうかと思った'],['stories','物語']]},
+ {text:'Outside, the rain had stopped. The streets glimmered in the evening light. She decided to read one more page.',
+  segments:[['Outside, the rain had stopped.','外では雨がやんでいた。'],['The streets glimmered in the evening light.','通りは夕暮れの光にきらめいていた。'],['She decided to read one more page.','彼女はもう1ページだけ読むことにした。']],
+  words:[['outside','外では'],['stopped','やんだ'],['glimmered','きらめいた'],['evening','夕暮れ'],['decided','決めた']]}
+];
+let page=0,folded=false;
+const $=s=>document.getElementById(s);
+function render(translate=true){
+ const p=pages[page];$('bookText').textContent=p.text;$('pageLabel').textContent='PAGE 0'+(page+1)+' / 02';
+ $('content').replaceChildren();
+ if(!translate){$('content').textContent='読取ボタンを押すと、ここに日本語字幕と単語の意味を表示します。';return;}
+ const cap=document.createElement('div');cap.className='subhead';cap.textContent='SENTENCE SUBTITLES';$('content').appendChild(cap);
+ for(const [en,ja] of p.segments){const e=document.createElement('p');e.className='en';e.textContent=en;const j=document.createElement('p');j.className='ja';j.textContent=ja;$('content').append(e,j)}
+ const cap2=document.createElement('div');cap2.className='subhead';cap2.textContent='VOCABULARY / WORD WISE';$('content').appendChild(cap2);
+ const words=document.createElement('div');words.className='wordbox';
+ for(const [en,ja] of p.words){const s=document.createElement('span');s.className='word';const b=document.createElement('b');b.textContent=en;s.append(b,document.createTextNode(ja));words.appendChild(s)}
+ $('content').appendChild(words);
+ const note=document.createElement('p');note.className='note';note.textContent='Android版では、利用者の許可を受けた画面の英文をOCRで読み取り、端末内翻訳します。';$('content').appendChild(note);
+}
+$('read').onclick=()=>render(true);
+$('fold').onclick=()=>{folded=!folded;$('phone').classList.toggle('minimized',folded);$('fold').textContent=folded?'展開':'縮小';};
+$('next').onclick=()=>{page=(page+1)%pages.length;render(false);};
+$('reset').onclick=()=>{page=0;folded=false;$('phone').classList.remove('minimized');$('fold').textContent='縮小';render(true)};
+render(true);
+</script>
+</body>
+</html>
