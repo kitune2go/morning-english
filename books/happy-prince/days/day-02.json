@@ -1,0 +1,1388 @@
+{
+  "day": 2,
+  "title": "ツバメの恋",
+  "wordCount": 187,
+  "paragraphs": [
+    "“Ah! but we have, in our dreams,” answered the children; and the Mathematical Master frowned and looked very severe, for he did not approve of children dreaming.",
+    "One night there flew over the city a little Swallow. His friends had gone away to Egypt six weeks before, but he had stayed behind, for he was in love with the most beautiful Reed. He had met her early in the spring as he was flying down the river after a big yellow moth, and had been so attracted by her slender waist that he had stopped to talk to her.",
+    "“Shall I love you?” said the Swallow, who liked to come to the point at once, and the Reed made him a low bow. So he flew round and round her, touching the water with his wings, and making silver ripples. This was his courtship, and it lasted all through the summer.",
+    "“It is a ridiculous attachment,” twittered the other Swallows; “she has no money, and far too many relations”; and indeed the river was quite full of Reeds. Then, when the autumn came they all flew away."
+  ],
+  "jp": [
+    "「ああ、でも僕たちは夢の中で見たんだよ」と子供たちが答えた。数学の先生は顔をしかめ、ひどく厳しい表情になった。子供が夢を見ることを認めていなかったからだ。",
+    "ある晩、一羽の小さなツバメが街の上を飛んでいった。仲間は六週間前にエジプトへ旅立っていたが、ツバメは美しい葦に恋をして、ひとり残っていたのだ。春先、川に沿って大きな黄色い蛾を追って飛んでいたとき、そのほっそりした腰に惹かれ、立ち止まって話しかけたのだった。",
+    "「君を愛してもいいかい？」と、単刀直入なツバメは言った。葦は深々とお辞儀をした。ツバメはその周りをぐるぐる飛び、翼を水に触れさせて銀色の波紋を作った。それが求愛で、夏の間じゅう続いた。",
+    "「ばかげた恋だ」とほかのツバメたちはさえずった。「彼女にはお金がないし、親戚も多すぎる」。確かに川には葦がびっしり生えていた。やがて秋が来ると、仲間たちはみな飛び去った。"
+  ],
+  "chunks": [
+    {
+      "en": "there flew over the city a little Swallow",
+      "ja": "街の上を一羽のツバメが飛んだ（倒置）"
+    },
+    {
+      "en": "had gone away to Egypt",
+      "ja": "エジプトへすでに旅立っていた（過去完了）"
+    },
+    {
+      "en": "had been so attracted by her slender waist",
+      "ja": "彼女のほっそりした腰に強く惹かれていた"
+    },
+    {
+      "en": "Shall I love you?",
+      "ja": "君を愛してもいいかい？"
+    },
+    {
+      "en": "all through the summer",
+      "ja": "夏の間ずっと"
+    }
+  ],
+  "grammar": [
+    "One night there flew ... は動詞が主語に先行する文学的な倒置。",
+    "had gone / had stayed / had met は物語内の基準時点より前を表す過去完了。",
+    "so ... that ... は「とても〜なので…」という結果構文。",
+    "making silver ripples は直前の動作の結果を表す分詞句。",
+    "far too many は too many を far で強調している。"
+  ],
+  "vocabulary": [
+    {
+      "word": "frowned",
+      "ja": "顔をしかめた"
+    },
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "reed",
+      "ja": "葦（アシ）"
+    },
+    {
+      "word": "moth",
+      "ja": "蛾（ガ）"
+    },
+    {
+      "word": "courtship",
+      "ja": "求愛"
+    },
+    {
+      "word": "twittered",
+      "ja": "さえずった"
+    }
+  ],
+  "readingPoint": "ツバメの恋が少し滑稽に描かれる。語り手の距離感や、恋愛を金銭で評価する仲間の発言に注目。",
+  "paragraphDetails": [
+    {
+      "summary": "子どもたちは夢で見たと答え、先生は夢を快く思わない。",
+      "chunks": [
+        {
+          "en": "“Ah! but we have, in our dreams,” answered the children; ",
+          "role": "発話と話者",
+          "ja": "「ああ、でも夢の中で見たんです」と子どもたちは答えた。",
+          "hint": "in our dreams＝夢の中で ／ 語句：dreams＝夢",
+          "words": [
+            {
+              "word": "Ah",
+              "ja": "ああ",
+              "note": "驚き・嘆きの間投詞"
+            },
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "we",
+              "ja": "私たちは",
+              "note": "一人称複数主格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "our",
+              "ja": "私たちの",
+              "note": "所有格"
+            },
+            {
+              "word": "dreams",
+              "ja": "夢",
+              "note": "dream の複数形"
+            },
+            {
+              "word": "answered",
+              "ja": "答えた",
+              "note": "answer の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "children",
+              "ja": "子どもたち",
+              "note": "child の複数形"
+            }
+          ]
+        },
+        {
+          "en": "and the Mathematical Master frowned and looked very severe, ",
+          "role": "並列・追加",
+          "ja": "すると数学の先生は眉をひそめ、とても厳しい顔をした。",
+          "hint": "語句：Mathematical＝数学の、Master＝教師・師、frowned＝眉をひそめた",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Mathematical",
+              "ja": "数学の",
+              "note": "Mathematical Master は数学教師"
+            },
+            {
+              "word": "Master",
+              "ja": "教師・師",
+              "note": "ここでは男性教師の呼称"
+            },
+            {
+              "word": "frowned",
+              "ja": "眉をひそめた",
+              "note": "frown の過去形"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "looked",
+              "ja": "見た・見えた",
+              "note": "look の過去形"
+            },
+            {
+              "word": "very",
+              "ja": "とても",
+              "note": "程度の強調"
+            },
+            {
+              "word": "severe",
+              "ja": "厳しい",
+              "note": "人の表情・態度に使う"
+            }
+          ]
+        },
+        {
+          "en": "for he did not approve of children dreaming.",
+          "role": "理由を導く接続詞",
+          "ja": "子どもが夢を見ることをよしとしなかったからだ。",
+          "hint": "did not approve of＝〜を好まなかった ／ 語句：approve＝認める・賛成する",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "did",
+              "ja": "した",
+              "note": "do の過去形"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "approve",
+              "ja": "認める・賛成する",
+              "note": "approve of ... で「〜をよしとする」"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "children",
+              "ja": "子どもたち",
+              "note": "child の複数形"
+            },
+            {
+              "word": "dreaming",
+              "ja": "夢を見ている",
+              "note": "dream の現在分詞"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "in our dreams",
+          "ja": "夢の中で"
+        },
+        {
+          "en": "did not approve of",
+          "ja": "〜を好まなかった"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "dreams",
+          "ja": "夢",
+          "note": "dream の複数形"
+        },
+        {
+          "word": "Mathematical",
+          "ja": "数学の",
+          "note": "Mathematical Master は数学教師"
+        },
+        {
+          "word": "Master",
+          "ja": "教師・師",
+          "note": "ここでは男性教師の呼称"
+        },
+        {
+          "word": "frowned",
+          "ja": "眉をひそめた",
+          "note": "frown の過去形"
+        },
+        {
+          "word": "severe",
+          "ja": "厳しい",
+          "note": "人の表情・態度に使う"
+        },
+        {
+          "word": "approve",
+          "ja": "認める・賛成する",
+          "note": "approve of ... で「〜をよしとする」"
+        }
+      ]
+    },
+    {
+      "summary": "仲間に遅れて残ったツバメが、葦に恋をした経緯を語る。",
+      "chunks": [
+        {
+          "en": "One night there flew over the city a little Swallow. ",
+          "role": "時間・場面",
+          "ja": "ある晩、一羽の小さなツバメが街の上を飛んでいった。",
+          "hint": "there flew over the city＝街の上を飛んでいった（倒置） ／ 語句：Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "One",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "night",
+              "ja": "夜",
+              "note": "時間帯"
+            },
+            {
+              "word": "there",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "over",
+              "ja": "〜を越えて・上に",
+              "note": "通過・位置"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "city",
+              "ja": "都市・街",
+              "note": "大きな街"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            }
+          ]
+        },
+        {
+          "en": "His friends had gone away to Egypt six weeks before, ",
+          "role": "主語・叙述",
+          "ja": "仲間たちは六週間前にエジプトへ旅立っていたが、",
+          "hint": "語句：Egypt＝エジプト",
+          "words": [
+            {
+              "word": "His",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "friends",
+              "ja": "友人・仲間たち",
+              "note": "friend の複数形"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "gone",
+              "ja": "去った・行ってしまった",
+              "note": "go の過去分詞"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "Egypt",
+              "ja": "エジプト",
+              "note": "ツバメの渡りの目的地"
+            },
+            {
+              "word": "six",
+              "ja": "六",
+              "note": "数字"
+            },
+            {
+              "word": "weeks",
+              "ja": "週間",
+              "note": "week の複数"
+            },
+            {
+              "word": "before",
+              "ja": "〜の前に",
+              "note": "時間的な前後関係"
+            }
+          ]
+        },
+        {
+          "en": "but he had stayed behind, ",
+          "role": "逆接・対比",
+          "ja": "彼だけは残っていた。",
+          "hint": "had stayed behind＝あとに残っていた（過去完了）",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "stayed",
+              "ja": "とどまった",
+              "note": "stay の過去形"
+            },
+            {
+              "word": "behind",
+              "ja": "後ろに・後に残って",
+              "note": "stay behind"
+            }
+          ]
+        },
+        {
+          "en": "for he was in love with the most beautiful Reed. ",
+          "role": "理由を導く接続詞",
+          "ja": "とても美しい葦に恋をしていたからだ。",
+          "hint": "語句：Reed＝葦（アシ）",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "love",
+              "ja": "愛・愛する",
+              "note": "名詞・動詞"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "most",
+              "ja": "最も・大部分の",
+              "note": "最上級"
+            },
+            {
+              "word": "beautiful",
+              "ja": "美しい",
+              "note": "美しさを表す形容詞"
+            },
+            {
+              "word": "Reed",
+              "ja": "葦（アシ）",
+              "note": "水辺に生える細長い植物"
+            }
+          ]
+        },
+        {
+          "en": "He had met her early in the spring ",
+          "role": "主語・叙述",
+          "ja": "彼女と出会ったのは春先のことだった。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "met",
+              "ja": "出会った",
+              "note": "meet の過去形"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "early",
+              "ja": "早く・早い",
+              "note": "時間が早い"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "spring",
+              "ja": "春",
+              "note": "季節"
+            }
+          ]
+        },
+        {
+          "en": "as he was flying down the river after a big yellow moth, ",
+          "role": "比較・理由・時間などの接続",
+          "ja": "大きな黄色い蛾を追って川沿いを飛んでいたとき、",
+          "hint": "語句：moth＝蛾",
+          "words": [
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "flying",
+              "ja": "飛んでいる",
+              "note": "fly の現在分詞"
+            },
+            {
+              "word": "down",
+              "ja": "下へ・下に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "river",
+              "ja": "川",
+              "note": "水路"
+            },
+            {
+              "word": "after",
+              "ja": "〜のあとで",
+              "note": "時を表す"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "big",
+              "ja": "大きい",
+              "note": "large に近い"
+            },
+            {
+              "word": "yellow",
+              "ja": "黄色の",
+              "note": "色"
+            },
+            {
+              "word": "moth",
+              "ja": "蛾",
+              "note": "蝶に似た昆虫"
+            }
+          ]
+        },
+        {
+          "en": "and had been so attracted by her slender waist ",
+          "role": "並列・追加",
+          "ja": "彼女のほっそりした腰にひどく心を奪われ、",
+          "hint": "so attracted by＝それほど魅了されたので ／ 語句：attracted＝惹きつけられた、slender＝ほっそりした、waist＝腰",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "been",
+              "ja": "〜であった・いた",
+              "note": "be の過去分詞"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "attracted",
+              "ja": "惹きつけられた",
+              "note": "attract「魅了する」の過去分詞"
+            },
+            {
+              "word": "by",
+              "ja": "〜によって・〜のそばで",
+              "note": "受動態・手段・位置"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "slender",
+              "ja": "ほっそりした",
+              "note": "細く優美な姿の形容"
+            },
+            {
+              "word": "waist",
+              "ja": "腰",
+              "note": "細い胴の部分"
+            }
+          ]
+        },
+        {
+          "en": "that he had stopped to talk to her.",
+          "role": "that節・指示語",
+          "ja": "足を止めて話しかけたのだった。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "stopped",
+              "ja": "止まった",
+              "note": "stop の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "talk",
+              "ja": "話す",
+              "note": "言葉で会話する"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "there flew over the city",
+          "ja": "街の上を飛んでいった（倒置）"
+        },
+        {
+          "en": "had stayed behind",
+          "ja": "あとに残っていた（過去完了）"
+        },
+        {
+          "en": "so attracted by",
+          "ja": "それほど魅了されたので"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "Egypt",
+          "ja": "エジプト",
+          "note": "ツバメの渡りの目的地"
+        },
+        {
+          "word": "Reed",
+          "ja": "葦（アシ）",
+          "note": "水辺に生える細長い植物"
+        },
+        {
+          "word": "moth",
+          "ja": "蛾",
+          "note": "蝶に似た昆虫"
+        },
+        {
+          "word": "attracted",
+          "ja": "惹きつけられた",
+          "note": "attract「魅了する」の過去分詞"
+        },
+        {
+          "word": "slender",
+          "ja": "ほっそりした",
+          "note": "細く優美な姿の形容"
+        },
+        {
+          "word": "waist",
+          "ja": "腰",
+          "note": "細い胴の部分"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメの求愛が滑稽な身ぶりとして描かれる。",
+      "chunks": [
+        {
+          "en": "“Shall I love you?” ",
+          "role": "疑問文・会話",
+          "ja": "「君を愛してもいいかい？」",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "Shall",
+              "ja": "〜するだろう・〜しましょう",
+              "note": "約束・提案に使う助動詞"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "love",
+              "ja": "愛・愛する",
+              "note": "名詞・動詞"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            }
+          ]
+        },
+        {
+          "en": "said the Swallow, who liked to come to the point at once, ",
+          "role": "発話と話者",
+          "ja": "単刀直入を好むツバメはそう言った。",
+          "hint": "come to the point＝単刀直入に言う ／ 語句：Swallow＝ツバメ、who＝誰・〜する人",
+          "words": [
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "liked",
+              "ja": "好んだ",
+              "note": "like の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "come",
+              "ja": "来る",
+              "note": "come away で一緒に去る"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "point",
+              "ja": "要点・地点",
+              "note": "come to the point で本題に入る"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "once",
+              "ja": "一度・かつて",
+              "note": "once more でもう一度"
+            }
+          ]
+        },
+        {
+          "en": "and the Reed made him a low bow. ",
+          "role": "並列・追加",
+          "ja": "葦は深々とお辞儀をした。",
+          "hint": "語句：Reed＝葦（アシ）、bow＝お辞儀",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Reed",
+              "ja": "葦（アシ）",
+              "note": "水辺に生える細長い植物"
+            },
+            {
+              "word": "made",
+              "ja": "作った・させた",
+              "note": "make の過去形"
+            },
+            {
+              "word": "him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "low",
+              "ja": "低い・小さい",
+              "note": "声や高さを形容"
+            },
+            {
+              "word": "bow",
+              "ja": "お辞儀",
+              "note": "make a bow で「お辞儀する」"
+            }
+          ]
+        },
+        {
+          "en": "So he flew round and round her, ",
+          "role": "結果・場面展開",
+          "ja": "そこでツバメは彼女の周りをぐるぐる飛び、",
+          "hint": "round and round＝ぐるぐると",
+          "words": [
+            {
+              "word": "So",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "round",
+              "ja": "周囲に・ぐるぐると",
+              "note": "位置・循環"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "round",
+              "ja": "周囲に・ぐるぐると",
+              "note": "位置・循環"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            }
+          ]
+        },
+        {
+          "en": "touching the water with his wings, and making silver ripples. ",
+          "role": "意味のまとまり",
+          "ja": "翼で水面に触れ、銀色の波紋を作った。",
+          "hint": "making silver ripples＝銀色の波紋を作りながら ／ 語句：ripples＝さざ波・波紋",
+          "words": [
+            {
+              "word": "touching",
+              "ja": "触れている",
+              "note": "touch の現在分詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "water",
+              "ja": "水",
+              "note": "液体"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "wings",
+              "ja": "翼",
+              "note": "wing 複数"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "making",
+              "ja": "作ること・楽しんでいる",
+              "note": "make の現在分詞"
+            },
+            {
+              "word": "silver",
+              "ja": "銀・銀色の",
+              "note": "金属・色"
+            },
+            {
+              "word": "ripples",
+              "ja": "さざ波・波紋",
+              "note": "ripple の複数形"
+            }
+          ]
+        },
+        {
+          "en": "This was his courtship, and it lasted all through the summer.",
+          "role": "意味のまとまり",
+          "ja": "それが彼の求愛で、夏の間ずっと続いた。",
+          "hint": "語句：courtship＝求愛",
+          "words": [
+            {
+              "word": "This",
+              "ja": "これ・この",
+              "note": "近いものを指す"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "courtship",
+              "ja": "求愛",
+              "note": "恋愛・結婚に向かう働きかけ"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "lasted",
+              "ja": "続いた",
+              "note": "last の過去形"
+            },
+            {
+              "word": "all",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "through",
+              "ja": "〜を通り抜けて",
+              "note": "通過の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "summer",
+              "ja": "夏",
+              "note": "季節"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "come to the point",
+          "ja": "単刀直入に言う"
+        },
+        {
+          "en": "round and round",
+          "ja": "ぐるぐると"
+        },
+        {
+          "en": "making silver ripples",
+          "ja": "銀色の波紋を作りながら"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "who",
+          "ja": "誰・〜する人",
+          "note": "疑問詞、または関係代名詞"
+        },
+        {
+          "word": "Reed",
+          "ja": "葦（アシ）",
+          "note": "水辺に生える細長い植物"
+        },
+        {
+          "word": "bow",
+          "ja": "お辞儀",
+          "note": "make a bow で「お辞儀する」"
+        },
+        {
+          "word": "ripples",
+          "ja": "さざ波・波紋",
+          "note": "ripple の複数形"
+        },
+        {
+          "word": "courtship",
+          "ja": "求愛",
+          "note": "恋愛・結婚に向かう働きかけ"
+        }
+      ]
+    },
+    {
+      "summary": "仲間たちは恋をばかにし、秋には渡っていく。",
+      "chunks": [
+        {
+          "en": "“It is a ridiculous attachment,” twittered the other Swallows; ",
+          "role": "意味のまとまり",
+          "ja": "「ばかげた恋愛だ」とほかのツバメたちはさえずった。",
+          "hint": "ridiculous attachment＝ばかげた恋愛関係 ／ 語句：ridiculous＝ばかげた、attachment＝愛着・恋愛関係、twittered＝さえずった",
+          "words": [
+            {
+              "word": "It",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "ridiculous",
+              "ja": "ばかげた",
+              "note": "否定的評価の形容詞"
+            },
+            {
+              "word": "attachment",
+              "ja": "愛着・恋愛関係",
+              "note": "ここでは恋心"
+            },
+            {
+              "word": "twittered",
+              "ja": "さえずった",
+              "note": "小鳥の鳴き声"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "other",
+              "ja": "ほかの・もう一方の",
+              "note": "区別を示す"
+            },
+            {
+              "word": "Swallows",
+              "ja": "ツバメたち",
+              "note": "swallow の複数形"
+            }
+          ]
+        },
+        {
+          "en": "“she has no money, and far too many relations”; ",
+          "role": "主語・叙述",
+          "ja": "「彼女にはお金がないし、親戚があまりに多すぎる」",
+          "hint": "far too many＝あまりにも多すぎる ／ 語句：relations＝親戚",
+          "words": [
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "no",
+              "ja": "いいえ・一つも〜ない",
+              "note": "否定語"
+            },
+            {
+              "word": "money",
+              "ja": "お金",
+              "note": "貨幣"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "far",
+              "ja": "遠く・非常に",
+              "note": "far too で強調"
+            },
+            {
+              "word": "too",
+              "ja": "あまりに・〜もまた",
+              "note": "程度や追加"
+            },
+            {
+              "word": "many",
+              "ja": "たくさんの",
+              "note": "可算名詞を修飾"
+            },
+            {
+              "word": "relations",
+              "ja": "親戚",
+              "note": "ここでは人間関係でなく親族"
+            }
+          ]
+        },
+        {
+          "en": "and indeed the river was quite full of Reeds. ",
+          "role": "並列・追加",
+          "ja": "実際、川は葦でいっぱいだった。",
+          "hint": "語句：indeed＝実に・確かに",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "indeed",
+              "ja": "実に・確かに",
+              "note": "直前の表現を強調"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "river",
+              "ja": "川",
+              "note": "水路"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "quite",
+              "ja": "かなり・すっかり・まったく",
+              "note": "程度の副詞"
+            },
+            {
+              "word": "full",
+              "ja": "いっぱいの・満ちた",
+              "note": "be full of ..."
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "Reeds",
+              "ja": "葦たち・葦の茂み",
+              "note": "Reed の複数形"
+            }
+          ]
+        },
+        {
+          "en": "Then, when the autumn came they all flew away.",
+          "role": "時間・場面",
+          "ja": "そして秋になると、みんな飛び去っていった。",
+          "hint": "when the autumn came＝秋になると ／ 語句：then＝それから・そのとき、autumn＝秋",
+          "words": [
+            {
+              "word": "Then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            },
+            {
+              "word": "when",
+              "ja": "いつ・〜するとき",
+              "note": "疑問・時間"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "autumn",
+              "ja": "秋",
+              "note": "英国式の一般的な季節語"
+            },
+            {
+              "word": "came",
+              "ja": "来た",
+              "note": "come の過去形"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "all",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "ridiculous attachment",
+          "ja": "ばかげた恋愛関係"
+        },
+        {
+          "en": "far too many",
+          "ja": "あまりにも多すぎる"
+        },
+        {
+          "en": "when the autumn came",
+          "ja": "秋になると"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "ridiculous",
+          "ja": "ばかげた",
+          "note": "否定的評価の形容詞"
+        },
+        {
+          "word": "attachment",
+          "ja": "愛着・恋愛関係",
+          "note": "ここでは恋心"
+        },
+        {
+          "word": "twittered",
+          "ja": "さえずった",
+          "note": "小鳥の鳴き声"
+        },
+        {
+          "word": "relations",
+          "ja": "親戚",
+          "note": "ここでは人間関係でなく親族"
+        },
+        {
+          "word": "indeed",
+          "ja": "実に・確かに",
+          "note": "直前の表現を強調"
+        },
+        {
+          "word": "then",
+          "ja": "それから・そのとき",
+          "note": "時間のつながりを示す"
+        },
+        {
+          "word": "autumn",
+          "ja": "秋",
+          "note": "英国式の一般的な季節語"
+        }
+      ]
+    }
+  ]
+}
