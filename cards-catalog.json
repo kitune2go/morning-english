@@ -360,6 +360,272 @@
       "coreVerb": "describe",
       "theme": "自衛という名目の検証",
       "_sourceFile": "cards-extra-20260726.json"
+    },
+    {
+      "_no": 40,
+      "sentence": "A browser can display detailed 3D scenes, but high visual quality depends on models, textures, lighting, and performance working together.",
+      "coreVerb": "depend",
+      "theme": "WebGL画質と制作工程",
+      "_sourceFile": "cards-extra-20260727.json"
+    },
+    {
+      "_no": 41,
+      "sentence": "When I map chord tones around each shape, I stop counting every note from C and navigate the fretboard more directly.",
+      "coreVerb": "map",
+      "theme": "コードトーンと指板把握",
+      "_sourceFile": "cards-extra-20260727.json"
+    },
+    {
+      "_no": 42,
+      "sentence": "Quoting an admired expert can replace evaluation with borrowed approval, so I check the claim before praising the speaker.",
+      "coreVerb": "check",
+      "theme": "引用と評価の分離",
+      "_sourceFile": "cards-extra-20260727.json"
+    },
+    {
+      "_no": 43,
+      "sentence": "After an earthquake, early reports are often incomplete, so I separate confirmed damage from causes that investigators are still examining.",
+      "coreVerb": "separate",
+      "theme": "地震直後の情報確認",
+      "_sourceFile": "cards-extra-20260728.json"
+    },
+    {
+      "_no": 44,
+      "sentence": "Visible damage does not reveal why an explosion occurred; investigators compare witness accounts, physical evidence, and equipment records before naming a cause.",
+      "coreVerb": "compare",
+      "theme": "爆発原因と証拠の区別",
+      "_sourceFile": "cards-extra-20260728.json"
+    },
+    {
+      "_no": 45,
+      "sentence": "Several recent disasters can make a region feel less safe, but long-term records are needed to determine whether the risk has actually increased.",
+      "coreVerb": "determine",
+      "theme": "災害増加の印象と長期記録",
+      "_sourceFile": "cards-extra-20260728.json"
+    },
+    {
+      "_no": 46,
+      "sentence": "Near the source of a shallow inland earthquake, strong shaking can arrive before the warning reaches people because detection, analysis, and transmission all take time.",
+      "coreVerb": "reach",
+      "theme": "内陸地震と緊急地震速報",
+      "_sourceFile": "cards-extra-20260729.json"
+    },
+    {
+      "_no": 47,
+      "sentence": "Reusable personality modules need defined inputs and outputs; without a shared data contract, their traits blur together inside one language model.",
+      "coreVerb": "define",
+      "theme": "人格モジュールとデータ契約",
+      "_sourceFile": "cards-extra-20260729.json"
+    },
+    {
+      "_no": 48,
+      "sentence": "A binary classification may look objective even when its categories merely turn a personal reaction into a verdict about someone else.",
+      "coreVerb": "turn",
+      "theme": "二値分類と感想の客観化",
+      "_sourceFile": "cards-extra-20260729.json"
+    },
+    {
+      "_no": 49,
+      "sentence": "When documenting a new band saw, I record every manual adjustment, lubrication point, and reset procedure before operators begin regular work.",
+      "coreVerb": "record",
+      "theme": "バンドソーの操作・保全記録",
+      "_sourceFile": "cards-extra-20260730.json"
+    },
+    {
+      "_no": 50,
+      "sentence": "A manufacturing process can guarantee only the dimensions it controls; later assembly must address variation outside that controlled scope.",
+      "coreVerb": "guarantee",
+      "theme": "工程能力と保証範囲",
+      "_sourceFile": "cards-extra-20260730.json"
+    },
+    {
+      "_no": 51,
+      "sentence": "Repeating one useful sentence aloud builds fluency more reliably than trying to master several difficult skills at once.",
+      "coreVerb": "repeat",
+      "theme": "一文音読と習慣の再起動",
+      "_sourceFile": "cards-extra-20260730.json"
+    },
+    {
+      "_no": 52,
+      "sentence": "Separating mesh generation from texturing clarifies the workflow; Blender renders the assembled asset after the geometry and materials are prepared.",
+      "coreVerb": "separate",
+      "theme": "3D制作工程の分離",
+      "_sourceFile": "cards-extra-20260731.json"
+    },
+    {
+      "_no": 53,
+      "sentence": "Distinguishing fairness from consent clarifies the issue: selection criteria may be subjective, while meaningful consent requires the ability to refuse without penalty.",
+      "coreVerb": "distinguish",
+      "theme": "選抜の公正さと同意の区別",
+      "_sourceFile": "cards-extra-20260731.json"
+    },
+    {
+      "_no": 54,
+      "sentence": "When a child is learning to walk, “Come on, you can do it” sounds encouraging when it is said in a warm, playful voice.",
+      "coreVerb": "encourage",
+      "theme": "歩き始める子どもへの英語の励まし",
+      "_sourceFile": "cards-extra-20260731.json"
+    },
+    {
+      "_no": 55,
+      "sentence": "When local hardware lacks a capable GPU, I offload heavy image-to-3D computation to a cloud service and use Blender for inspection and editing.",
+      "coreVerb": "offload",
+      "theme": "外部GPUを使う3D制作",
+      "_sourceFile": "cards-extra-20260801.json"
+    },
+    {
+      "_no": 56,
+      "sentence": "Three-view drawings constrain visible proportions, but image-to-3D reconstruction still needs explicit rules for surfaces that none of the reference images show.",
+      "coreVerb": "constrain",
+      "theme": "三面図に写らない形状の補完",
+      "_sourceFile": "cards-extra-20260801.json"
+    },
+    {
+      "_no": 57,
+      "sentence": "Progress does not disappear when one practice session is missed; restarting with a smaller task keeps a brief lapse from becoming a full stop.",
+      "coreVerb": "restart",
+      "theme": "中断後の小さな再開",
+      "_sourceFile": "cards-extra-20260801.json"
+    },
+    {
+      "_no": 58,
+      "sentence": "Using a dictionary alongside conversation makes new words easier to picture because definitions, examples, and pronunciation are organized in one place.",
+      "coreVerb": "use",
+      "theme": "辞書を併用する構造的学習",
+      "_sourceFile": "cards-extra-20260808.json"
+    },
+    {
+      "_no": 59,
+      "sentence": "Simultaneous interpreting combines listening, prediction, translation, and speaking in real time; adding live transcription creates another stream of work to manage.",
+      "coreVerb": "combine",
+      "theme": "同時通訳の並行処理",
+      "_sourceFile": "cards-extra-20260808.json"
+    },
+    {
+      "_no": 60,
+      "sentence": "When employers cannot provide all required training and workers cannot bear the full cost, public funding can lower barriers to reskilling without tying education to one company.",
+      "coreVerb": "lower",
+      "theme": "リスキリング費用の分担",
+      "_sourceFile": "cards-extra-20260808.json"
+    },
+    {
+      "_no": 61,
+      "sentence": "Ken’s life did not change, but noticing the smell of coffee, the sound of rain, a sleeping cat, and a stranger’s laughter made the same days feel slightly different.",
+      "coreVerb": "notice",
+      "theme": "小さな変化への気づき",
+      "_sourceFile": "cards-extra-20260809.json"
+    },
+    {
+      "_no": 62,
+      "sentence": "Politeness ceases to be fair when it changes with a visitor’s age, gender, or appearance; respectful service should not depend on how powerful someone seems.",
+      "coreVerb": "depend",
+      "theme": "相手によって変わる接遇",
+      "_sourceFile": "cards-extra-20260809.json"
+    },
+    {
+      "_no": 63,
+      "sentence": "Turning a creative idea into a scheduled task preserves its structure because the original mood may not return after the details are forgotten.",
+      "coreVerb": "preserve",
+      "theme": "創作を記録可能な工程へ移す",
+      "_sourceFile": "cards-extra-20260809.json"
+    },
+    {
+      "_no": 64,
+      "sentence": "People usually acquire natural language through repeated use, while programming becomes harder when layers of formal structure exceed what one person can track.",
+      "coreVerb": "acquire",
+      "theme": "自然な言語習得と構造過多",
+      "_sourceFile": "cards-extra-20260810.json"
+    },
+    {
+      "_no": 65,
+      "sentence": "Effort can deserve respect without becoming a measure of quality; once suffering becomes evidence of merit, spectators begin judging the person instead of the result.",
+      "coreVerb": "judge",
+      "theme": "苦労と成果評価の分離",
+      "_sourceFile": "cards-extra-20260810.json"
+    },
+    {
+      "_no": 66,
+      "sentence": "A benefit may be defined nationally, but real access depends on local staff, capacity, and distance, so equal rules can still produce unequal support.",
+      "coreVerb": "depend",
+      "theme": "全国制度と地域供給の差",
+      "_sourceFile": "cards-extra-20260810.json"
+    },
+    {
+      "_no": 67,
+      "sentence": "Being in the same age group as famous activists does not prove that someone joined their movement. A generation includes many people whose political choices differed.",
+      "coreVerb": "prove",
+      "theme": "世代と政治参加の区別",
+      "_sourceFile": "cards-extra-20260811.json"
+    },
+    {
+      "_no": 68,
+      "sentence": "Economic growth may weaken some grievances, but it cannot explain a movement's decline by itself: organizations, institutions, and public trust also change over time.",
+      "coreVerb": "explain",
+      "theme": "運動退潮を複合要因で考える",
+      "_sourceFile": "cards-extra-20260811.json"
+    },
+    {
+      "_no": 69,
+      "sentence": "When production moves across borders, job losses can cluster in particular regions even if national growth continues. National figures may hide those local costs.",
+      "coreVerb": "cluster",
+      "theme": "産業移動と地域に集中する費用",
+      "_sourceFile": "cards-extra-20260811.json"
+    },
+    {
+      "_no": 70,
+      "sentence": "Choose the relative word according to the role needed in the clause: who for a person, where for a place, and when for a time.",
+      "coreVerb": "choose",
+      "theme": "意味役割に応じた関係詞の選択",
+      "_sourceFile": "cards-extra-20260812.json"
+    },
+    {
+      "_no": 71,
+      "sentence": "A workout can be effective without causing soreness; gradual progress in load, control, or repetitions is a more useful sign than pain alone.",
+      "coreVerb": "progress",
+      "theme": "筋肉痛とトレーニング効果の区別",
+      "_sourceFile": "cards-extra-20260812.json"
+    },
+    {
+      "_no": 72,
+      "sentence": "A noble-metal-free method produced a 3.5-inch gallium oxide crystal, which could reduce reliance on costly iridium. Scaling the process for mass production remains a separate challenge.",
+      "coreVerb": "produce",
+      "theme": "酸化ガリウム結晶の低コスト化と量産課題",
+      "_sourceFile": "cards-extra-20260812.json"
+    },
+    {
+      "_no": 73,
+      "sentence": "When too many projects run in parallel, keep one visible queue and assign each project a single next action. A shorter active list makes daily choices easier.",
+      "coreVerb": "assign",
+      "theme": "並列作業を見える一覧で整理する",
+      "_sourceFile": "cards-extra-20260813.json"
+    },
+    {
+      "_no": 74,
+      "sentence": "Use chat to clarify goals and review outputs, while coding agents handle repository-wide changes that require tests and repeated edits.",
+      "coreVerb": "handle",
+      "theme": "対話作業と実装作業の分業",
+      "_sourceFile": "cards-extra-20260813.json"
+    },
+    {
+      "_no": 75,
+      "sentence": "Long-running stories accumulate expectations as they unfold, so delayed resolutions make each new chapter carry earlier promises as well as its own plot.",
+      "coreVerb": "accumulate",
+      "theme": "長期作品に蓄積する期待",
+      "_sourceFile": "cards-extra-20260813.json"
+    },
+    {
+      "_no": 76,
+      "sentence": "By the next day, I had already forgotten about it.",
+      "coreVerb": "forget",
+      "theme": "過去完了で基準時点より前の出来事を表す",
+      "_sourceFile": "cards-extra-20260814.json"
+    },
+    {
+      "_no": 77,
+      "sentence": "MRI detects changing signals as excited hydrogen nuclei return toward equilibrium.",
+      "coreVerb": "detect",
+      "theme": "MRIの説明文を意味の塊で読む",
+      "_sourceFile": "cards-extra-20260815.json"
     }
   ]
 }
