@@ -1,0 +1,1320 @@
+{
+  "day": 11,
+  "title": "若い劇作家",
+  "wordCount": 189,
+  "paragraphs": [
+    "“I am waited for in Egypt,” answered the Swallow. “To-morrow my friends will fly up to the Second Cataract. The river-horse couches there among the bulrushes, and on a great granite throne sits the God Memnon. All night long he watches the stars, and when the morning star shines he utters one cry of joy, and then he is silent. At noon the yellow lions come down to the water’s edge to drink. They have eyes like green beryls, and their roar is louder than the roar of the cataract.”",
+    "“Swallow, Swallow, little Swallow,” said the Prince, “far away across the city I see a young man in a garret. He is leaning over a desk covered with papers, and in a tumbler by his side there is a bunch of withered violets. His hair is brown and crisp, and his lips are red as a pomegranate, and he has large and dreamy eyes. He is trying to finish a play for the Director of the Theatre, but he is too cold to write any more. There is no fire in the grate, and hunger has made him faint.”"
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "faint",
+      "ja": "気を失いそうな"
+    },
+    {
+      "word": "withered",
+      "ja": "しおれた"
+    },
+    {
+      "word": "violets",
+      "ja": "スミレ"
+    },
+    {
+      "word": "garret",
+      "ja": "屋根裏部屋"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "ツバメは仲間が待つエジプトの雄大な景色を語る。",
+      "chunks": [
+        {
+          "en": "“I am waited for in Egypt,” answered the Swallow. ",
+          "role": "発話と話者",
+          "ja": "「エジプトでみんなが私を待っている」とツバメは答えた。",
+          "hint": "語句：Egypt＝エジプト、Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "waited",
+              "ja": "待った・待たれている",
+              "note": "wait の過去分詞"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "Egypt",
+              "ja": "エジプト",
+              "note": "ツバメの渡りの目的地"
+            },
+            {
+              "word": "answered",
+              "ja": "答えた",
+              "note": "answer の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            }
+          ]
+        },
+        {
+          "en": "“To-morrow my friends will fly up to the Second Cataract. ",
+          "role": "意味のまとまり",
+          "ja": "「明日、仲間たちはナイル川の第二急流まで飛んで行きます。",
+          "hint": "Second Cataract＝ナイル川の第二急流 ／ 語句：Cataract＝大滝・急流",
+          "words": [
+            {
+              "word": "To-morrow",
+              "ja": "明日",
+              "note": "古い綴り、現代は tomorrow"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "friends",
+              "ja": "友人・仲間たち",
+              "note": "friend の複数形"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "fly",
+              "ja": "飛ぶ",
+              "note": "鳥の移動"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Second",
+              "ja": "二番目の",
+              "note": "順序"
+            },
+            {
+              "word": "Cataract",
+              "ja": "大滝・急流",
+              "note": "地理では滝、医学では白内障"
+            }
+          ]
+        },
+        {
+          "en": "The river-horse couches there among the bulrushes, ",
+          "role": "主語・叙述",
+          "ja": "そこではカバがガマの茂みの中で横たわり、",
+          "hint": "語句：river-horse＝カバ、couches＝横たわる、bulrushes＝ガマなどの水草",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "river-horse",
+              "ja": "カバ",
+              "note": "古風な呼称"
+            },
+            {
+              "word": "couches",
+              "ja": "横たわる",
+              "note": "couch を動詞として使用"
+            },
+            {
+              "word": "there",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "among",
+              "ja": "〜の間に・〜に囲まれて",
+              "note": "複数の中で"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "bulrushes",
+              "ja": "ガマなどの水草",
+              "note": "湿地帯の植物"
+            }
+          ]
+        },
+        {
+          "en": "and on a great granite throne sits the God Memnon. ",
+          "role": "並列・追加",
+          "ja": "大きな花崗岩の玉座にはメムノン神が座っています。",
+          "hint": "語句：granite＝花崗岩、throne＝玉座、Memnon＝メムノン",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "great",
+              "ja": "大きな・偉大な",
+              "note": "大きさ・重要性"
+            },
+            {
+              "word": "granite",
+              "ja": "花崗岩",
+              "note": "硬い岩石"
+            },
+            {
+              "word": "throne",
+              "ja": "玉座",
+              "note": "王や神が座る椅子"
+            },
+            {
+              "word": "sits",
+              "ja": "座っている",
+              "note": "sit の三人称単数"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "God",
+              "ja": "神",
+              "note": "God は一神教の神を指す"
+            },
+            {
+              "word": "Memnon",
+              "ja": "メムノン",
+              "note": "エジプトの古代の王に関する名称"
+            }
+          ]
+        },
+        {
+          "en": "All night long he watches the stars, ",
+          "role": "意味のまとまり",
+          "ja": "彼は一晩じゅう星を眺め、",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "All",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "night",
+              "ja": "夜",
+              "note": "時間帯"
+            },
+            {
+              "word": "long",
+              "ja": "長い・長く",
+              "note": "時間・距離"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "watches",
+              "ja": "見守る",
+              "note": "watch の三人称単数"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "stars",
+              "ja": "星々",
+              "note": "star の複数形"
+            }
+          ]
+        },
+        {
+          "en": "and when the morning star shines he utters one cry of joy, ",
+          "role": "並列・追加",
+          "ja": "明けの明星が輝くと歓喜の声を一つ上げ、",
+          "hint": "utters one cry of joy＝喜びの声を一声発する ／ 語句：utters＝発する",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "when",
+              "ja": "いつ・〜するとき",
+              "note": "疑問・時間"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "morning",
+              "ja": "朝",
+              "note": "時間帯"
+            },
+            {
+              "word": "star",
+              "ja": "星",
+              "note": "天体"
+            },
+            {
+              "word": "shines",
+              "ja": "輝く",
+              "note": "shine 三人称単数"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "utters",
+              "ja": "発する",
+              "note": "声や言葉を出す"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "cry",
+              "ja": "叫ぶ・泣く",
+              "note": "声や涙を出す"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "joy",
+              "ja": "喜び",
+              "note": "感情"
+            }
+          ]
+        },
+        {
+          "en": "and then he is silent. ",
+          "role": "並列・追加",
+          "ja": "それから静かになります。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "silent",
+              "ja": "静かな・口を閉じた",
+              "note": "音がない"
+            }
+          ]
+        },
+        {
+          "en": "At noon the yellow lions come down to the water’s edge to ",
+          "role": "時間・場面",
+          "ja": "正午には黄色いライオンが水辺に下りてきて",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "At",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "noon",
+              "ja": "正午",
+              "note": "昼の12時"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "yellow",
+              "ja": "黄色の",
+              "note": "色"
+            },
+            {
+              "word": "lions",
+              "ja": "ライオンたち",
+              "note": "lion の複数"
+            },
+            {
+              "word": "come",
+              "ja": "来る",
+              "note": "come away で一緒に去る"
+            },
+            {
+              "word": "down",
+              "ja": "下へ・下に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "water’s",
+              "ja": "水の",
+              "note": "water 所有格"
+            },
+            {
+              "word": "edge",
+              "ja": "端・縁",
+              "note": "水辺や物の端"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            }
+          ]
+        },
+        {
+          "en": "drink. They have eyes like green beryls, ",
+          "role": "意味のまとまり",
+          "ja": "水を飲みます。瞳は緑のベリルのようで、",
+          "hint": "語句：beryls＝ベリル・緑柱石",
+          "words": [
+            {
+              "word": "drink",
+              "ja": "飲む",
+              "note": "水などを飲む"
+            },
+            {
+              "word": "They",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "eyes",
+              "ja": "両目・目",
+              "note": "eye の複数形"
+            },
+            {
+              "word": "like",
+              "ja": "〜のように・好きだ",
+              "note": "前置詞・動詞"
+            },
+            {
+              "word": "green",
+              "ja": "緑色の",
+              "note": "色"
+            },
+            {
+              "word": "beryls",
+              "ja": "ベリル・緑柱石",
+              "note": "鉱物の一種"
+            }
+          ]
+        },
+        {
+          "en": "and their roar is louder than the roar of the cataract.”",
+          "role": "並列・追加",
+          "ja": "その咆哮は滝の轟音よりも大きいのです」",
+          "hint": "their roar is louder than＝そのほえる声は〜より大きい ／ 語句：Cataract＝大滝・急流、roar＝咆哮",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "their",
+              "ja": "彼らの・彼女らの",
+              "note": "三人称複数所有格"
+            },
+            {
+              "word": "roar",
+              "ja": "咆哮",
+              "note": "動物の大きな鳴き声"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "louder",
+              "ja": "より大きな音の",
+              "note": "loud の比較級"
+            },
+            {
+              "word": "than",
+              "ja": "〜より",
+              "note": "比較級に続く"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "roar",
+              "ja": "咆哮",
+              "note": "動物の大きな鳴き声"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "cataract",
+              "ja": "大滝・急流",
+              "note": "地理では滝、医学では白内障"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "Second Cataract",
+          "ja": "ナイル川の第二急流"
+        },
+        {
+          "en": "utters one cry of joy",
+          "ja": "喜びの声を一声発する"
+        },
+        {
+          "en": "their roar is louder than",
+          "ja": "そのほえる声は〜より大きい"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Egypt",
+          "ja": "エジプト",
+          "note": "ツバメの渡りの目的地"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "Cataract",
+          "ja": "大滝・急流",
+          "note": "地理では滝、医学では白内障"
+        },
+        {
+          "word": "river-horse",
+          "ja": "カバ",
+          "note": "古風な呼称"
+        },
+        {
+          "word": "couches",
+          "ja": "横たわる",
+          "note": "couch を動詞として使用"
+        },
+        {
+          "word": "bulrushes",
+          "ja": "ガマなどの水草",
+          "note": "湿地帯の植物"
+        },
+        {
+          "word": "granite",
+          "ja": "花崗岩",
+          "note": "硬い岩石"
+        },
+        {
+          "word": "throne",
+          "ja": "玉座",
+          "note": "王や神が座る椅子"
+        },
+        {
+          "word": "Memnon",
+          "ja": "メムノン",
+          "note": "エジプトの古代の王に関する名称"
+        },
+        {
+          "word": "utters",
+          "ja": "発する",
+          "note": "声や言葉を出す"
+        },
+        {
+          "word": "beryls",
+          "ja": "ベリル・緑柱石",
+          "note": "鉱物の一種"
+        },
+        {
+          "word": "roar",
+          "ja": "咆哮",
+          "note": "動物の大きな鳴き声"
+        }
+      ]
+    },
+    {
+      "summary": "王子は寒さと飢えで劇を仕上げられない若者を見つける。",
+      "chunks": [
+        {
+          "en": "“Swallow, Swallow, little Swallow,” said the Prince, ",
+          "role": "発話と話者",
+          "ja": "「ツバメよ、ツバメよ、小さなツバメよ」と王子は言った。",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "“far away across the city I see a young man in a ",
+          "role": "意味のまとまり",
+          "ja": "「街の向こうのずっと遠くに、若い男がいます。",
+          "hint": "far away across the city＝街の向こうの遠い場所に",
+          "words": [
+            {
+              "word": "far",
+              "ja": "遠く・非常に",
+              "note": "far too で強調"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            },
+            {
+              "word": "across",
+              "ja": "〜を横切って・向こう側に",
+              "note": "前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "city",
+              "ja": "都市・街",
+              "note": "大きな街"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "see",
+              "ja": "見る・見える",
+              "note": "視覚で捉える"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "young",
+              "ja": "若い",
+              "note": "年齢"
+            },
+            {
+              "word": "man",
+              "ja": "男・男性",
+              "note": "人"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            }
+          ]
+        },
+        {
+          "en": "garret. He is leaning over a desk covered with papers, ",
+          "role": "意味のまとまり",
+          "ja": "屋根裏部屋にいるのです。彼は書類の散らばる机に身をかがめ、",
+          "hint": "語句：garret＝屋根裏部屋、leaning＝身を乗り出している、covered＝覆われた",
+          "words": [
+            {
+              "word": "garret",
+              "ja": "屋根裏部屋",
+              "note": "安価で狭い居室"
+            },
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "leaning",
+              "ja": "身を乗り出している",
+              "note": "lean over ..."
+            },
+            {
+              "word": "over",
+              "ja": "〜を越えて・上に",
+              "note": "通過・位置"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "desk",
+              "ja": "机",
+              "note": "執筆する場所"
+            },
+            {
+              "word": "covered",
+              "ja": "覆われた",
+              "note": "be covered with ..."
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "papers",
+              "ja": "紙・書類",
+              "note": "paper の複数形"
+            }
+          ]
+        },
+        {
+          "en": "and in a tumbler by his side there is a bunch of ",
+          "role": "並列・追加",
+          "ja": "そばにあるコップには一束の",
+          "hint": "語句：tumbler＝コップ、bunch＝一束",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "tumbler",
+              "ja": "コップ",
+              "note": "取っ手のないグラス"
+            },
+            {
+              "word": "by",
+              "ja": "〜によって・〜のそばで",
+              "note": "受動態・手段・位置"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "side",
+              "ja": "側・側面",
+              "note": "〜のそば"
+            },
+            {
+              "word": "there",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "bunch",
+              "ja": "一束",
+              "note": "a bunch of ..."
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            }
+          ]
+        },
+        {
+          "en": "withered violets. His hair is brown and crisp, ",
+          "role": "意味のまとまり",
+          "ja": "しおれたスミレが入っています。彼の髪は茶色く縮れ、",
+          "hint": "語句：withered＝しおれた、violets＝スミレ",
+          "words": [
+            {
+              "word": "withered",
+              "ja": "しおれた",
+              "note": "生気を失った植物の形容"
+            },
+            {
+              "word": "violets",
+              "ja": "スミレ",
+              "note": "花の名前"
+            },
+            {
+              "word": "His",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "hair",
+              "ja": "髪",
+              "note": "頭髪"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "brown",
+              "ja": "茶色の",
+              "note": "髪の色など"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "crisp",
+              "ja": "縮れた",
+              "note": "髪の毛の質感を表す"
+            }
+          ]
+        },
+        {
+          "en": "and his lips are red as a pomegranate, ",
+          "role": "並列・追加",
+          "ja": "唇はザクロのように赤く、",
+          "hint": "語句：pomegranate＝ザクロ",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "lips",
+              "ja": "唇",
+              "note": "lip の複数形"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "red",
+              "ja": "赤い",
+              "note": "色"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "pomegranate",
+              "ja": "ザクロ",
+              "note": "赤い果実"
+            }
+          ]
+        },
+        {
+          "en": "and he has large and dreamy eyes. ",
+          "role": "並列・追加",
+          "ja": "大きく夢見がちな目をしています。",
+          "hint": "語句：dreamy＝夢見がちな",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "large",
+              "ja": "大きい",
+              "note": "大きさの形容"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "dreamy",
+              "ja": "夢見がちな",
+              "note": "夢想的な表情を表す"
+            },
+            {
+              "word": "eyes",
+              "ja": "両目・目",
+              "note": "eye の複数形"
+            }
+          ]
+        },
+        {
+          "en": "He is trying to finish a play ",
+          "role": "主語・叙述",
+          "ja": "彼は戯曲を書き上げようとしています。",
+          "hint": "trying to finish a play＝戯曲を書き上げようとしている",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "trying",
+              "ja": "しようとしている",
+              "note": "try の現在分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "finish",
+              "ja": "終える・完成させる",
+              "note": "戯曲を書く文脈"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "play",
+              "ja": "劇・演劇・遊ぶ",
+              "note": "戯曲では名詞"
+            }
+          ]
+        },
+        {
+          "en": "for the Director of the Theatre, ",
+          "role": "理由を導く接続詞",
+          "ja": "劇場の支配人のために。",
+          "hint": "語句：Director＝支配人・監督、Theatre＝劇場",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Director",
+              "ja": "支配人・監督",
+              "note": "この場面は劇場の責任者"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Theatre",
+              "ja": "劇場",
+              "note": "英国式綴り。米国式 theater"
+            }
+          ]
+        },
+        {
+          "en": "but he is too cold to write any more. ",
+          "role": "逆接・対比",
+          "ja": "でも寒さがひどく、もう書けません。",
+          "hint": "対照や譲歩のつながりに注目",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "too",
+              "ja": "あまりに・〜もまた",
+              "note": "程度や追加"
+            },
+            {
+              "word": "cold",
+              "ja": "寒い・冷たい",
+              "note": "気温など"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "write",
+              "ja": "書く",
+              "note": "文章を書く"
+            },
+            {
+              "word": "any",
+              "ja": "何か・いくつかの",
+              "note": "疑問・否定文では「何も」"
+            },
+            {
+              "word": "more",
+              "ja": "もっと・より多く",
+              "note": "比較級"
+            }
+          ]
+        },
+        {
+          "en": "There is no fire in the grate, ",
+          "role": "意味のまとまり",
+          "ja": "暖炉には火がなく、",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "There",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "no",
+              "ja": "いいえ・一つも〜ない",
+              "note": "否定語"
+            },
+            {
+              "word": "fire",
+              "ja": "火",
+              "note": "暖炉の火"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "grate",
+              "ja": "暖炉の火格子",
+              "note": "燃焼部の金属格子"
+            }
+          ]
+        },
+        {
+          "en": "and hunger has made him faint.”",
+          "role": "並列・追加",
+          "ja": "飢えで力尽きそうなのです」",
+          "hint": "hunger has made him faint＝空腹で衰弱している ／ 語句：hunger＝飢え",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "hunger",
+              "ja": "飢え",
+              "note": "食べ物がないこと"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "made",
+              "ja": "作った・させた",
+              "note": "make の過去形"
+            },
+            {
+              "word": "him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "faint",
+              "ja": "衰弱した",
+              "note": "気を失いそうな状態"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "far away across the city",
+          "ja": "街の向こうの遠い場所に"
+        },
+        {
+          "en": "trying to finish a play",
+          "ja": "戯曲を書き上げようとしている"
+        },
+        {
+          "en": "hunger has made him faint",
+          "ja": "空腹で衰弱している"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "garret",
+          "ja": "屋根裏部屋",
+          "note": "安価で狭い居室"
+        },
+        {
+          "word": "leaning",
+          "ja": "身を乗り出している",
+          "note": "lean over ..."
+        },
+        {
+          "word": "covered",
+          "ja": "覆われた",
+          "note": "be covered with ..."
+        },
+        {
+          "word": "tumbler",
+          "ja": "コップ",
+          "note": "取っ手のないグラス"
+        },
+        {
+          "word": "bunch",
+          "ja": "一束",
+          "note": "a bunch of ..."
+        },
+        {
+          "word": "withered",
+          "ja": "しおれた",
+          "note": "生気を失った植物の形容"
+        },
+        {
+          "word": "violets",
+          "ja": "スミレ",
+          "note": "花の名前"
+        },
+        {
+          "word": "pomegranate",
+          "ja": "ザクロ",
+          "note": "赤い果実"
+        },
+        {
+          "word": "dreamy",
+          "ja": "夢見がちな",
+          "note": "夢想的な表情を表す"
+        },
+        {
+          "word": "Director",
+          "ja": "支配人・監督",
+          "note": "この場面は劇場の責任者"
+        },
+        {
+          "word": "Theatre",
+          "ja": "劇場",
+          "note": "英国式綴り。米国式 theater"
+        },
+        {
+          "word": "hunger",
+          "ja": "飢え",
+          "note": "食べ物がないこと"
+        }
+      ]
+    }
+  ]
+}
