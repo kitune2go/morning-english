@@ -1,0 +1,78 @@
+[
+  {
+    "id": "DE-20261003-001",
+    "sourceTitle": "切り口は元の海を語らない",
+    "workId": "daily-essay-20261003",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "常識には作られた日がある",
+    "jp": "法律、先輩の権威、古参と新参の区別、田んぼの風景。長く続くものは、誰かが作った仕組みであっても、やがて自然や常識のように見える。AIも同じで、生成の手順や判断した人が見えなくなるほど、答えだけが自明に立つ。だが、出来上がった形には必ず生成履歴がある。いま見える資格や秩序を理解するには、正しいか間違いかを急ぐ前に、誰がどの条件で線を引いたのかまで戻らなければならない。",
+    "translationLiteral": "Laws, senior authority, the distinction between old and new members, and the landscape of rice fields can all come to look like nature or common sense, even when they were made by someone. The same is true of AI: as its procedure and human judgments disappear from view, only the answer stands as self-evident. Yet every finished form has a history of production. To understand a visible qualification or order, we must return to who drew its lines and under what conditions before rushing to call it right or wrong.",
+    "translationNatural": "A rule can survive long enough to look like nature. Laws, seniority, membership, cultivated fields, and even AI outputs conceal the decisions that produced them once their histories fade from view. The finished form then appears self-evident. Before judging an order as right or wrong, we need to recover who drew its boundaries, under what conditions, and for what purpose.",
+    "imageUrl": "",
+    "imageCaption": "自然に見える境界線の下に、何層もの作成履歴が透けている。",
+    "imagePrompt": "Editorial illustration of a familiar landscape and social boundaries revealing layered construction histories underneath, analytical and quiet, no readable text",
+    "chunks": [
+      {"en": "A rule can survive long enough to look like nature.", "ja": "規則は長く残ることで自然のように見えることがある。"},
+      {"en": "Laws, seniority, membership, cultivated fields, and even AI outputs conceal the decisions that produced them once their histories fade from view.", "ja": "法律、先輩関係、所属、耕地、AIの出力さえ、履歴が見えなくなると、それを生んだ判断を隠す。"},
+      {"en": "The finished form then appears self-evident.", "ja": "すると完成した形だけが自明に見える。"},
+      {"en": "Before judging an order as right or wrong, we need to recover who drew its boundaries, under what conditions, and for what purpose.", "ja": "秩序を正誤で裁く前に、誰がどの条件と目的で境界を引いたのかを取り戻す必要がある。"}
+    ],
+    "grammar": ["can survive long enough to do は、存続期間が見え方を変えることを表す。", "once は履歴が消えた後に生じる条件を示す。", "that produced them は decisions を修飾する関係詞節。", "appear + 形容詞は見かけ上の状態を表す。", "Before -ing は判断より先に行う作業を示す。", "who / under what conditions / for what purpose は recover の内容を並列する間接疑問。"],
+    "translationNote": "literal は法律・先輩権・田んぼ・AIという異質な例を残した。natural は共通点を conceal the decisions that produced them に集約し、自然化された制度から生成履歴へ戻る論理を明確にした。",
+    "readingPoint": "導入。自然や常識に見えるものにも作成履歴があると示し、作品全体の『切り取られた結果から生成条件へ戻る』視点を置く。",
+    "keywords": ["rules", "history", "boundaries", "common sense", "AI"]
+  },
+  {
+    "id": "DE-20261003-002",
+    "sourceTitle": "切り口は元の海を語らない",
+    "workId": "daily-essay-20261003",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "スクリーンショットは出来事の切り身である",
+    "jp": "画面を撮れば、ある投稿が存在したことは残せる。しかし、その画像が何を参照し、どの会話から切り出され、前後に何があったかまでは写らない。テレビ中心の時代より引用の断片は増えたのに、出典への道はかえって細くなることがある。だからスクリーンショットは真実そのものではなく、検証を始める記録なのだ。画像を疑うとは、すべてを嘘と決めることではない。切断面から元の会話へ戻る道を要求することである。",
+    "translationLiteral": "A screenshot can preserve that a post existed. However, it does not show what the image referred to, which conversation it was cut from, or what came before and after it. Fragments of quotation have increased since the television-centered era, yet the path back to a source can become narrower. A screenshot is therefore not truth itself but a record from which verification begins. To question an image is not to declare everything false; it is to demand a route from the cut surface back to the original conversation.",
+    "translationNatural": "A screenshot can prove that something appeared on a screen, but it cannot preserve the whole path that gave the fragment meaning. The source, the surrounding exchange, and the before and after often fall outside the frame. That makes the image evidence to investigate, not truth in finished form. Healthy doubt does not dismiss every image as false; it asks for a route from the visible cut back to the conversation it came from.",
+    "imageUrl": "",
+    "imageCaption": "切り取られた画面の外へ、失われた会話の道筋が続いている。",
+    "imagePrompt": "Editorial illustration of a screenshot as a cut slice with missing conversational paths extending beyond the frame, media literacy theme, no readable text",
+    "chunks": [
+      {"en": "A screenshot can prove that something appeared on a screen, but it cannot preserve the whole path that gave the fragment meaning.", "ja": "スクリーンショットは何かが画面に現れた事実を示せても、その断片に意味を与えた経路全体は保存できない。"},
+      {"en": "The source, the surrounding exchange, and the before and after often fall outside the frame.", "ja": "出典、周囲のやり取り、前後関係はしばしば枠外へ落ちる。"},
+      {"en": "That makes the image evidence to investigate, not truth in finished form.", "ja": "そのため画像は完成済みの真実ではなく、調査すべき証拠になる。"},
+      {"en": "Healthy doubt does not dismiss every image as false; it asks for a route from the visible cut back to the conversation it came from.", "ja": "健全な疑いは画像をすべて嘘として退けず、見える切断面から元の会話へ戻る道を求める。"}
+    ],
+    "grammar": ["can prove A, but cannot preserve B は証明可能な範囲と保存できない文脈を対照する。", "that gave ... は path を修飾する関係詞節。", "A, B, and C は枠外へ落ちる要素を並列する。", "make O C は画像を調査対象の証拠として位置づける。", "not A は finished truth という読みを否定する。", "it came from は conversation の由来を示す関係詞節。"],
+    "translationNote": "literal の『投稿の存在』と『切断面』を保ちつつ、natural では appeared on a screen と the whole path を対置した。スクリーンショットを否定せず、検証の出発点へ役割を限定している。",
+    "readingPoint": "展開。生成履歴の不可視化を、スクリーンショットが落とす前後関係へ具体化する。疑うことと否定することを分ける章。",
+    "keywords": ["screenshot", "context", "source", "evidence", "verification"]
+  },
+  {
+    "id": "DE-20261003-003",
+    "sourceTitle": "切り口は元の海を語らない",
+    "workId": "daily-essay-20261003",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "サシミ・プロトコルは余白を捨てる",
+    "jp": "分類は混乱をほどく。名前を付け、規格を揃え、数えられる単位へ切れば、比較も交換もできる。しかし、魚を切り身にするように自己や文化を分類すると、元のつながりは値札の外へ落ちる。SNSでは、その切り身だけが別の文脈へ運ばれ、評価され、再び本人へ返ってくる。分類されていない余剰は、誤差ではない。規格が何を保存し、何を捨てたかを知らせる手掛かりである。切り口を読むとは、元の海を想像で補うことではなく、欠けた関係を調べ直すことだ。",
+    "translationLiteral": "Classification untangles confusion. By naming, standardizing, and cutting things into countable units, we can compare and exchange them. Yet when selves or cultures are classified as fish is cut into sashimi, their original connections fall outside the price tag. On social media, only the slice is carried into another context, valued, and returned to the person. The unclassified remainder is not an error; it is a clue to what the standard preserved and discarded. Reading a cut does not mean imagining the original sea, but investigating the missing relations again.",
+    "translationNatural": "Classification makes disorder manageable by naming, standardizing, and counting. It also cuts. When a person or a culture is turned into a portable slice, the relations that once held it together disappear beyond the label. Social media can move that slice into a new context, price it with approval or blame, and send it back as identity. What remains unclassified is not noise. It tells us what the protocol chose not to carry. To read the cut well is to investigate the missing relations without inventing the sea they came from.",
+    "imageUrl": "",
+    "imageCaption": "分類された切り身と、規格の外に残るつながりの影。",
+    "imagePrompt": "Conceptual editorial illustration of labeled standardized slices separated from a vast web of original relations, social media and classification theme, no readable text",
+    "chunks": [
+      {"en": "Classification makes disorder manageable by naming, standardizing, and counting. It also cuts.", "ja": "分類は命名・規格化・計数によって混乱を扱いやすくする。同時に、それは切断もする。"},
+      {"en": "When a person or a culture is turned into a portable slice, the relations that once held it together disappear beyond the label.", "ja": "人や文化が持ち運べる切り身に変えられると、それを支えていた関係はラベルの外へ消える。"},
+      {"en": "Social media can move that slice into a new context, price it with approval or blame, and send it back as identity.", "ja": "SNSはその切り身を別の文脈へ運び、称賛や非難で値付けし、アイデンティティとして返せる。"},
+      {"en": "What remains unclassified is not noise. It tells us what the protocol chose not to carry.", "ja": "分類されず残るものは雑音ではない。それは規格が運ばないと選んだものを示す。"},
+      {"en": "To read the cut well is to investigate the missing relations without inventing the sea they came from.", "ja": "切り口を正しく読むとは、元の海を創作せず、失われた関係を調べることだ。"}
+    ],
+    "grammar": ["by -ing は分類が混乱を扱う方法を列挙する。", "When ... is turned は分類される条件を受動態で示す。", "that once held it together は relations を修飾する。", "move, price, and send はSNSの作用を三項並列する。", "What remains unclassified は主語となる名詞節。", "without -ing は調査時に避けるべき創作を示す。"],
+    "translationNote": "literal の刺身・値札・余剰という比喩を保持し、natural では portable slice と protocol chose not to carry にまとめた。最後は元の文脈を想像で捏造せず、関係を検証する姿勢へ戻している。",
+    "readingPoint": "転換と余韻。分類の有用性を認めたうえで、規格が運べない関係に目を向ける。スクリーンショット批判を、分類一般の問題へ広げる。",
+    "keywords": ["classification", "standardization", "social media", "remainder", "protocol"]
+  }
+]
