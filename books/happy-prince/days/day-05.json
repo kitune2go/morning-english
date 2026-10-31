@@ -1,0 +1,1262 @@
+{
+  "day": 5,
+  "title": "涙の理由",
+  "wordCount": 181,
+  "paragraphs": [
+    "“Why are you weeping then?” asked the Swallow; “you have quite drenched me.”",
+    "“When I was alive and had a human heart,” answered the statue, “I did not know what tears were, for I lived in the Palace of Sans-Souci, where sorrow is not allowed to enter. In the daytime I played with my companions in the garden, and in the evening I led the dance in the Great Hall. Round the garden ran a very lofty wall, but I never cared to ask what lay beyond it, everything about me was so beautiful. My courtiers called me the Happy Prince, and happy indeed I was, if pleasure be happiness. So I lived, and so I died. And now that I am dead they have set me up here so high that I can see all the ugliness and all the misery of my city, and though my heart is made of lead yet I cannot chose but weep.”",
+    "“What! is he not solid gold?” said the Swallow to himself. He was too polite to make any personal remarks out loud."
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "courtiers",
+      "ja": "宮廷人"
+    },
+    {
+      "word": "drenched",
+      "ja": "びしょ濡れの"
+    },
+    {
+      "word": "weeping",
+      "ja": "泣いている"
+    },
+    {
+      "word": "misery",
+      "ja": "悲惨"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "ツバメは名前と涙の矛盾を問いただす。",
+      "chunks": [
+        {
+          "en": "“Why are you weeping then?” ",
+          "role": "疑問文・会話",
+          "ja": "「それなら、どうして泣いているのですか？」",
+          "hint": "Why are you weeping＝なぜ泣いているのか ／ 語句：weeping＝泣いている、then＝それから・そのとき",
+          "words": [
+            {
+              "word": "Why",
+              "ja": "なぜ",
+              "note": "理由を尋ねる"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "weeping",
+              "ja": "泣いている",
+              "note": "weep の進行形。cry より文語的"
+            },
+            {
+              "word": "then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            }
+          ]
+        },
+        {
+          "en": "asked the Swallow; “you have quite drenched me.”",
+          "role": "発話と話者",
+          "ja": "ツバメは尋ねた。「あなたは私をびしょ濡れにしましたよ」",
+          "hint": "quite drenched me＝私をすっかり濡らしてしまった ／ 語句：Swallow＝ツバメ、drenched＝びしょ濡れにした",
+          "words": [
+            {
+              "word": "asked",
+              "ja": "尋ねた・頼んだ",
+              "note": "ask の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "quite",
+              "ja": "かなり・すっかり・まったく",
+              "note": "程度の副詞"
+            },
+            {
+              "word": "drenched",
+              "ja": "びしょ濡れにした",
+              "note": "drench はすっかり濡らす"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "Why are you weeping",
+          "ja": "なぜ泣いているのか"
+        },
+        {
+          "en": "quite drenched me",
+          "ja": "私をすっかり濡らしてしまった"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "weeping",
+          "ja": "泣いている",
+          "note": "weep の進行形。cry より文語的"
+        },
+        {
+          "word": "then",
+          "ja": "それから・そのとき",
+          "note": "時間のつながりを示す"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "drenched",
+          "ja": "びしょ濡れにした",
+          "note": "drench はすっかり濡らす"
+        }
+      ]
+    },
+    {
+      "summary": "王子は生前の享楽と死後に見える街の苦しみを対比する。",
+      "chunks": [
+        {
+          "en": "“When I was alive and had a human heart,” answered the statue, ",
+          "role": "時間・場面",
+          "ja": "「私が生きていて人間の心臓を持っていたころ」と像は答えた。",
+          "hint": "語句：alive＝生きて、human＝人間の",
+          "words": [
+            {
+              "word": "When",
+              "ja": "いつ・〜するとき",
+              "note": "疑問・時間"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "alive",
+              "ja": "生きて",
+              "note": "be alive で「生きている」"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "human",
+              "ja": "人間の",
+              "note": "human heart で人間の心臓"
+            },
+            {
+              "word": "heart",
+              "ja": "心臓・心",
+              "note": "身体器官と心情"
+            },
+            {
+              "word": "answered",
+              "ja": "答えた",
+              "note": "answer の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            }
+          ]
+        },
+        {
+          "en": "“I did not know what tears were, ",
+          "role": "主語・叙述",
+          "ja": "「私は涙というものを知らなかった。",
+          "hint": "did not know what tears were＝涙というものを知らなかった ／ 語句：tears＝涙",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "did",
+              "ja": "した",
+              "note": "do の過去形"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "know",
+              "ja": "知っている",
+              "note": "how do you know で「なぜ分かる」"
+            },
+            {
+              "word": "what",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "tears",
+              "ja": "涙",
+              "note": "tear（裂く）とは発音が異なる"
+            },
+            {
+              "word": "were",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去複数"
+            }
+          ]
+        },
+        {
+          "en": "for I lived in the Palace of Sans-Souci, ",
+          "role": "理由を導く接続詞",
+          "ja": "サン・スーシ宮殿に住んでいたからだ。",
+          "hint": "語句：palace＝宮殿",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "lived",
+              "ja": "暮らした・生きた",
+              "note": "live の過去形"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Palace",
+              "ja": "宮殿",
+              "note": "君主の住居"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "Sans-Souci",
+              "ja": "サン・スーシ（憂いなき）",
+              "note": "宮殿名。フランス語で「憂いなし」"
+            }
+          ]
+        },
+        {
+          "en": "where sorrow is not allowed to enter. ",
+          "role": "関係詞・修飾節",
+          "ja": "そこには悲しみが入ることを許されない。",
+          "hint": "語句：sorrow＝悲しみ",
+          "words": [
+            {
+              "word": "where",
+              "ja": "どこ・〜する場所",
+              "note": "場所の疑問・関係副詞"
+            },
+            {
+              "word": "sorrow",
+              "ja": "悲しみ",
+              "note": "悲哀を表す名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "allowed",
+              "ja": "許された",
+              "note": "allow の過去分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "enter",
+              "ja": "入る",
+              "note": "建物や場所の中に入る"
+            }
+          ]
+        },
+        {
+          "en": "In the daytime I played with my companions in the garden, ",
+          "role": "時間・場面",
+          "ja": "昼間は庭で仲間と遊び、",
+          "hint": "語句：companions＝仲間たち",
+          "words": [
+            {
+              "word": "In",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "daytime",
+              "ja": "昼間",
+              "note": "in the daytime"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "played",
+              "ja": "遊んだ・演奏した",
+              "note": "play の過去形"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "companions",
+              "ja": "仲間たち",
+              "note": "一緒に時間を過ごす人"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "garden",
+              "ja": "庭",
+              "note": "植物を育てる土地"
+            }
+          ]
+        },
+        {
+          "en": "and in the evening I led the dance in the Great Hall. ",
+          "role": "並列・追加",
+          "ja": "夜は大広間で舞踏を先導した。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "evening",
+              "ja": "夕方・夜の初め",
+              "note": "時間帯"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "led",
+              "ja": "先導した",
+              "note": "lead の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "dance",
+              "ja": "踊り・舞踏",
+              "note": "名詞・動詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Great",
+              "ja": "大きな・偉大な",
+              "note": "大きさ・重要性"
+            },
+            {
+              "word": "Hall",
+              "ja": "大広間",
+              "note": "建物の広い室内"
+            }
+          ]
+        },
+        {
+          "en": "Round the garden ran a very lofty wall, ",
+          "role": "意味のまとまり",
+          "ja": "庭の周りには非常に高い壁があったが、",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "Round",
+              "ja": "周囲に・ぐるぐると",
+              "note": "位置・循環"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "garden",
+              "ja": "庭",
+              "note": "植物を育てる土地"
+            },
+            {
+              "word": "ran",
+              "ja": "走った・延びていた",
+              "note": "run の過去形"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "very",
+              "ja": "とても",
+              "note": "程度の強調"
+            },
+            {
+              "word": "lofty",
+              "ja": "非常に高い",
+              "note": "文学的な高いの表現"
+            },
+            {
+              "word": "wall",
+              "ja": "壁",
+              "note": "仕切り"
+            }
+          ]
+        },
+        {
+          "en": "but I never cared to ask what lay beyond it, ",
+          "role": "逆接・対比",
+          "ja": "その向こうに何があるか尋ねようとも思わなかった。",
+          "hint": "what lay beyond it＝壁の向こうに何があるのか ／ 語句：beyond＝〜の向こうに",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "never",
+              "ja": "決して〜ない・一度も〜ない",
+              "note": "強い否定"
+            },
+            {
+              "word": "cared",
+              "ja": "気にかけた",
+              "note": "care の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "ask",
+              "ja": "尋ねる・頼む",
+              "note": "質問・依頼をする"
+            },
+            {
+              "word": "what",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "lay",
+              "ja": "横たわる・あった",
+              "note": "lie の過去形、lay は「置く」の現在形でもある"
+            },
+            {
+              "word": "beyond",
+              "ja": "〜の向こうに",
+              "note": "位置や限界の先を表す"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            }
+          ]
+        },
+        {
+          "en": "everything about me was so beautiful. ",
+          "role": "意味のまとまり",
+          "ja": "周囲のすべてがあまりにも美しかったからだ。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "everything",
+              "ja": "すべてのこと",
+              "note": "物事の全体"
+            },
+            {
+              "word": "about",
+              "ja": "〜について・周囲に",
+              "note": "話題・位置を示す"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "beautiful",
+              "ja": "美しい",
+              "note": "美しさを表す形容詞"
+            }
+          ]
+        },
+        {
+          "en": "My courtiers called me the Happy Prince, and happy indeed I was, ",
+          "role": "意味のまとまり",
+          "ja": "宮廷の人々は私を幸福な王子と呼んだ。実際、私は幸せだった。",
+          "hint": "語句：courtiers＝廷臣たち、indeed＝実に・確かに",
+          "words": [
+            {
+              "word": "My",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "courtiers",
+              "ja": "廷臣たち",
+              "note": "宮廷に仕える人たち"
+            },
+            {
+              "word": "called",
+              "ja": "呼んだ",
+              "note": "call の過去形"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "indeed",
+              "ja": "実に・確かに",
+              "note": "直前の表現を強調"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            }
+          ]
+        },
+        {
+          "en": "if pleasure be happiness. So I lived, and so I died. ",
+          "role": "条件・仮定",
+          "ja": "快楽が幸福ならば。そうして生き、そうして死んだ。",
+          "hint": "語句：pleasure＝快楽・楽しみ",
+          "words": [
+            {
+              "word": "if",
+              "ja": "もし〜なら・〜かどうか",
+              "note": "条件・間接疑問"
+            },
+            {
+              "word": "pleasure",
+              "ja": "快楽・楽しみ",
+              "note": "happiness「幸福」と区別される"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "happiness",
+              "ja": "幸せ・幸福",
+              "note": "happy の名詞形"
+            },
+            {
+              "word": "So",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "lived",
+              "ja": "暮らした・生きた",
+              "note": "live の過去形"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "died",
+              "ja": "死んだ",
+              "note": "die の過去形"
+            }
+          ]
+        },
+        {
+          "en": "And now that I am dead they have set me up here ",
+          "role": "並列・追加",
+          "ja": "だが死んだ今、人々は私をここに据えた。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "And",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "now",
+              "ja": "今・もう",
+              "note": "現在時点"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "dead",
+              "ja": "死んだ",
+              "note": "die の結果状態"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "set",
+              "ja": "据える・置く",
+              "note": "set up で据え付ける。活用形同じ"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            },
+            {
+              "word": "here",
+              "ja": "ここに",
+              "note": "話し手の場所"
+            }
+          ]
+        },
+        {
+          "en": "so high that I can see all the ugliness ",
+          "role": "結果・場面展開",
+          "ja": "あまりに高い場所なので、街のあらゆる醜さや",
+          "hint": "語句：ugliness＝醜さ",
+          "words": [
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "high",
+              "ja": "高い・高く",
+              "note": "高さを示す"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "can",
+              "ja": "〜できる",
+              "note": "能力・可能性を示す助動詞"
+            },
+            {
+              "word": "see",
+              "ja": "見る・見える",
+              "note": "視覚で捉える"
+            },
+            {
+              "word": "all",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "ugliness",
+              "ja": "醜さ",
+              "note": "ugly の名詞形"
+            }
+          ]
+        },
+        {
+          "en": "and all the misery of my city, ",
+          "role": "並列・追加",
+          "ja": "街のあらゆる悲惨さが見える。",
+          "hint": "語句：Misery＝悲惨・窮乏",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "all",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "misery",
+              "ja": "悲惨・窮乏",
+              "note": "Mystery「謎」と音を響かせる"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "city",
+              "ja": "都市・街",
+              "note": "大きな街"
+            }
+          ]
+        },
+        {
+          "en": "and though my heart is made of lead yet I cannot chose ",
+          "role": "並列・追加",
+          "ja": "心臓は鉛でできているのに、私はどうしても",
+          "hint": "対照や譲歩のつながりに注目",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "though",
+              "ja": "〜だけれども",
+              "note": "譲歩"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "heart",
+              "ja": "心臓・心",
+              "note": "身体器官と心情"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "made",
+              "ja": "作った・させた",
+              "note": "make の過去形"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "lead",
+              "ja": "鉛",
+              "note": "金属の鉛。動詞 lead と読みが異なる"
+            },
+            {
+              "word": "yet",
+              "ja": "それでも・まだ",
+              "note": "逆接・時間"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "cannot",
+              "ja": "〜できない",
+              "note": "can not の一語形"
+            },
+            {
+              "word": "chose",
+              "ja": "選んだ",
+              "note": "choose の過去形"
+            }
+          ]
+        },
+        {
+          "en": "but weep.”",
+          "role": "逆接・対比",
+          "ja": "泣かずにはいられないのだ」",
+          "hint": "対照や譲歩のつながりに注目",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "weep",
+              "ja": "泣く",
+              "note": "少し文語的な「泣く」"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "did not know what tears were",
+          "ja": "涙というものを知らなかった"
+        },
+        {
+          "en": "what lay beyond it",
+          "ja": "壁の向こうに何があるのか"
+        },
+        {
+          "en": "cannot chose but weep",
+          "ja": "泣かずにはいられない（原文の綴り）"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "alive",
+          "ja": "生きて",
+          "note": "be alive で「生きている」"
+        },
+        {
+          "word": "human",
+          "ja": "人間の",
+          "note": "human heart で人間の心臓"
+        },
+        {
+          "word": "tears",
+          "ja": "涙",
+          "note": "tear（裂く）とは発音が異なる"
+        },
+        {
+          "word": "palace",
+          "ja": "宮殿",
+          "note": "君主の住居"
+        },
+        {
+          "word": "sorrow",
+          "ja": "悲しみ",
+          "note": "悲哀を表す名詞"
+        },
+        {
+          "word": "companions",
+          "ja": "仲間たち",
+          "note": "一緒に時間を過ごす人"
+        },
+        {
+          "word": "beyond",
+          "ja": "〜の向こうに",
+          "note": "位置や限界の先を表す"
+        },
+        {
+          "word": "courtiers",
+          "ja": "廷臣たち",
+          "note": "宮廷に仕える人たち"
+        },
+        {
+          "word": "indeed",
+          "ja": "実に・確かに",
+          "note": "直前の表現を強調"
+        },
+        {
+          "word": "pleasure",
+          "ja": "快楽・楽しみ",
+          "note": "happiness「幸福」と区別される"
+        },
+        {
+          "word": "ugliness",
+          "ja": "醜さ",
+          "note": "ugly の名詞形"
+        },
+        {
+          "word": "Misery",
+          "ja": "悲惨・窮乏",
+          "note": "Mystery「謎」と音を響かせる"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメは金無垢の像ではないことを知る。",
+      "chunks": [
+        {
+          "en": "“What! is he not solid gold?” said the Swallow to himself. ",
+          "role": "疑問文・会話",
+          "ja": "「何だって、純金ではないのか？」とツバメは心の中で言った。",
+          "hint": "solid gold＝純金製 ／ 語句：solid＝無垢の・中まで詰まった、Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "What",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "solid",
+              "ja": "無垢の・中まで詰まった",
+              "note": "solid gold は純金"
+            },
+            {
+              "word": "gold",
+              "ja": "金・黄金",
+              "note": "貴金属"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "himself",
+              "ja": "彼自身・自分で",
+              "note": "再帰代名詞"
+            }
+          ]
+        },
+        {
+          "en": "He was too polite to make any personal remarks out loud.",
+          "role": "主語・叙述",
+          "ja": "彼は礼儀正しすぎて、個人的な感想を声に出せなかった。",
+          "hint": "too polite to＝礼儀正しすぎて〜できない ／ out loud＝声に出して ／ 語句：polite＝礼儀正しい、remarks＝発言・コメント",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "too",
+              "ja": "あまりに・〜もまた",
+              "note": "程度や追加"
+            },
+            {
+              "word": "polite",
+              "ja": "礼儀正しい",
+              "note": "社交上の慎み"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "make",
+              "ja": "作る・〜にする",
+              "note": "使役にも用いる"
+            },
+            {
+              "word": "any",
+              "ja": "何か・いくつかの",
+              "note": "疑問・否定文では「何も」"
+            },
+            {
+              "word": "personal",
+              "ja": "個人的な",
+              "note": "本人に関わる"
+            },
+            {
+              "word": "remarks",
+              "ja": "発言・コメント",
+              "note": "make remarks で口にする"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "loud",
+              "ja": "大きな音の",
+              "note": "音の強さ"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "solid gold",
+          "ja": "純金製"
+        },
+        {
+          "en": "too polite to",
+          "ja": "礼儀正しすぎて〜できない"
+        },
+        {
+          "en": "out loud",
+          "ja": "声に出して"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "solid",
+          "ja": "無垢の・中まで詰まった",
+          "note": "solid gold は純金"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "polite",
+          "ja": "礼儀正しい",
+          "note": "社交上の慎み"
+        },
+        {
+          "word": "remarks",
+          "ja": "発言・コメント",
+          "note": "make remarks で口にする"
+        }
+      ]
+    }
+  ]
+}

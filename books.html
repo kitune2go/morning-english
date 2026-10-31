@@ -229,6 +229,7 @@ footer{margin-top:24px;color:var(--muted);font-size:12px;border-top:1px solid va
 const $ = (id) => document.getElementById(id);
 const STORAGE_KEY = "morningenglish-books-progress-v1";
 let catalog = [], book = null, sessions = [], current = 1, showJp = false, showNotes = true, speechRun = 0;
+let bookGlossary = null, dayLoadPromises = new Map(), navigationVersion = 0;
 const askDrafts = new Map();
 const safe = (s) => String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
 function readStore(){
@@ -245,7 +246,7 @@ function updateState(patch){
   writeStore(all);
 }
 async function loadJson(path){
-  const resp=await fetch(path,{cache:"no-cache"});
+  const resp=await fetch(path,{cache:path==="books-manifest.json"?"no-cache":"default"});
   if(!resp.ok)throw new Error("読み込み失敗 ("+resp.status+"): "+path);
   return resp.json();
 }
@@ -280,7 +281,7 @@ function validDay(n){return Number.isInteger(n)&&n>=1&&n<=sessions.length;}
 function getDay(){return sessions[current-1];}
 
 function validParagraph(day,paragraph){
-  return validDay(day)&&Number.isInteger(paragraph)&&paragraph>=1&&paragraph<=sessions[day-1].paragraphs.length;
+  return validDay(day)&&Number.isInteger(paragraph)&&paragraph>=1&&paragraph<=(sessions[day-1].paragraphs?.length||sessions[day-1].paragraphCount||0);
 }
 function paragraphMarkFor(day,state=bookState()){
   const mark=Number(state.paragraphMarks?.[day]);
@@ -539,50 +540,102 @@ function render(){
   $("notesArea").classList.toggle("hidden",!showNotes);
   syncBookmarkUi(st);
 }
-function changeDay(n,paragraph=null){
+// Read one chapter at a time; future chapters remain small metadata records.
+async function ensureDayLoaded(day,expectedBook=book){
+  if(!validDay(day))throw new Error('Day '+day+' が存在しません');
+  const key=expectedBook.id+':'+day;
+  if(!dayLoadPromises.has(key)){
+    const promise=(async()=>{
+      let data=sessions[day-1];
+      if(expectedBook.dayBase&&!Array.isArray(data.paragraphs)){
+        const path=expectedBook.dayBase+String(day).padStart(2,'0')+'.json';
+        const full=await loadJson(path);
+        if(book!==expectedBook)return null;
+        if(full?.day!==day||!Array.isArray(full.paragraphs)||!full.paragraphs.length)
+          throw new Error('Day '+day+' の本文形式が不正です');
+        sessions[day-1]=full;
+        data=full;
+      }
+      if(expectedBook.glossaryData&&!Array.isArray(data.paragraphDetails)){
+        if(!bookGlossary)throw new Error('辞書データが未ロードです');
+        if(expectedBook.chunkTranslationBase){
+          const path=expectedBook.chunkTranslationBase+'/day-'+String(day).padStart(2,'0')+'.json';
+          const translation=await loadJson(path);
+          if(book!==expectedBook)return null;
+          if(translation?.day!==day||!Array.isArray(translation.paragraphs)
+             ||translation.paragraphs.length!==data.paragraphs.length)
+            throw new Error('Day '+day+' のチャンク対訳データが一致しません');
+          data.chunkTranslations=translation.paragraphs;
+        }
+        data.paragraphDetails=buildDialogueParagraphDetails(data,bookGlossary);
+      }
+      return data;
+    })().catch(error=>{dayLoadPromises.delete(key);throw error;});
+    dayLoadPromises.set(key,promise);
+  }
+  return dayLoadPromises.get(key);
+}
+function prefetchNextDay(day,expectedBook=book){
+  const next=day+1;
+  if(next>sessions.length)return;
+  setTimeout(()=>{
+    if(book===expectedBook)ensureDayLoaded(next,expectedBook)
+      .catch(error=>console.warn('次の章の先読みを省略しました',error));
+  },300);
+}
+async function changeDay(n,paragraph=null){
   if(!validDay(n))return;
+  const token=++navigationVersion;
   stopSpeech();
   current=n;
   showJp=false;
   updateState({lastDay:n});
-  render();
-  if(validParagraph(n,paragraph))scheduleParagraphJump(n,paragraph);
-  else window.scrollTo({top:0,behavior:"smooth"});
+  showStatus('Day '+n+' を読み込み中…');
+  try{
+    await ensureDayLoaded(n);
+    if(token!==navigationVersion)return;
+    render();
+    hideStatus();
+    if(validParagraph(n,paragraph))scheduleParagraphJump(n,paragraph);
+    else window.scrollTo({top:0,behavior:'smooth'});
+    prefetchNextDay(n);
+  }catch(error){
+    if(token===navigationVersion)showStatus(error.message,true);
+    console.error(error);
+  }
 }
 async function loadBook(id){
   const chosen=catalog.find(x=>x.id===id);
-  if(!chosen)throw new Error("作品が見つかりません");
+  if(!chosen)throw new Error('作品が見つかりません');
+  const token=++navigationVersion;
   stopSpeech();
-  showStatus("『"+chosen.title+"』を読み込み中です…");
-  const d=await loadJson(chosen.data);
-  if(!Array.isArray(d)||d.length===0||!d.every((x,i)=>x.day===i+1&&Array.isArray(x.paragraphs)&&x.paragraphs.length))throw new Error("本文データの形式が不正です");
+  showStatus('『'+chosen.title+'』を読み込み中です…');
+  const d=await loadJson(chosen.dayIndex||chosen.data);
+  if(token!==navigationVersion)return;
+  if(!Array.isArray(d)||d.length===0||!d.every((x,i)=>x.day===i+1
+     &&(Array.isArray(x.paragraphs)&&x.paragraphs.length||Number.isInteger(x.paragraphCount)&&x.paragraphCount>0)))
+    throw new Error('本文データの形式が不正です');
+  let glossary=null;
   if(chosen.glossaryData){
-    const [lex,allTranslations]=await Promise.all([
-      loadJson(chosen.glossaryData),
-      chosen.chunkTranslationBase?Promise.all(d.map(day=>
-        loadJson(chosen.chunkTranslationBase+"/day-"+String(day.day).padStart(2,"0")+".json"))):Promise.resolve(null)
-    ]);
-    if(!Array.isArray(lex))throw new Error("単語辞書の形式が不正です");
-    const glossary=new Map(lex.map(x=>[x.word.toLowerCase(),x]));
-    d.forEach((day,i)=>{
-      if(allTranslations){
-        const translation=allTranslations[i];
-        if(translation?.day!==day.day||!Array.isArray(translation.paragraphs)||translation.paragraphs.length!==day.paragraphs.length)
-          throw new Error("Day "+day.day+" のチャンク対訳データが一致しません");
-        day.chunkTranslations=translation.paragraphs;
-      }
-      day.paragraphDetails=buildDialogueParagraphDetails(day,glossary);
-    });
+    const lex=await loadJson(chosen.glossaryData);
+    if(token!==navigationVersion)return;
+    if(!Array.isArray(lex))throw new Error('単語辞書の形式が不正です');
+    glossary=new Map(lex.map(x=>[x.word.toLowerCase(),x]));
   }
   book=chosen;
   sessions=d;
+  bookGlossary=glossary;
+  dayLoadPromises=new Map();
   const saved=bookState(),resume=resumeMark(saved);
   current=resume?resume.day:(validDay(saved.lastDay)?saved.lastDay:1);
   showJp=false;
-  $("bookSelect").value=book.id;
+  $('bookSelect').value=book.id;
+  await ensureDayLoaded(current);
+  if(token!==navigationVersion)return;
   render();
   hideStatus();
   if(resume)scheduleParagraphJump(resume.day,resume.paragraph);
+  prefetchNextDay(current);
 }
 async function init(){
   try{

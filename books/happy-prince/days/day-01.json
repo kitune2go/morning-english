@@ -1,0 +1,1521 @@
+{
+  "day": 1,
+  "title": "王子の像",
+  "wordCount": 186,
+  "paragraphs": [
+    "HIGH above the city, on a tall column, stood the statue of the Happy Prince. He was gilded all over with thin leaves of fine gold, for eyes he had two bright sapphires, and a large red ruby glowed on his sword-hilt.",
+    "He was very much admired indeed. “He is as beautiful as a weathercock,” remarked one of the Town Councillors who wished to gain a reputation for having artistic tastes; “only not quite so useful,” he added, fearing lest people should think him unpractical, which he really was not.",
+    "“Why can’t you be like the Happy Prince?” asked a sensible mother of her little boy who was crying for the moon. “The Happy Prince never dreams of crying for anything.”",
+    "“I am glad there is some one in the world who is quite happy,” muttered a disappointed man as he gazed at the wonderful statue.",
+    "“He looks just like an angel,” said the Charity Children as they came out of the cathedral in their bright scarlet cloaks and their clean white pinafores.",
+    "“How do you know?” said the Mathematical Master, “you have never seen one.”"
+  ],
+  "jp": [
+    "街のはるか上、高い柱の上に、幸福な王子の像が立っていた。像は全身に薄い純金の箔を貼られ、両目には輝くサファイアがはめ込まれ、剣の柄には大きな赤いルビーが光っていた。",
+    "その像は実に大変な評判だった。「風見鶏のように美しい」と、芸術的な趣味の持ち主として名声を得たがっている市議会議員の一人が言った。「ただし、風見鶏ほど役には立たないがね」とも付け加えた。自分が非現実的な人間だと思われるのを恐れたからだが、実際の彼はそうではなかった。",
+    "「どうして幸福な王子のようになれないの？」と、月が欲しいと泣いている男の子に、分別ある母親が尋ねた。「幸福な王子は何かを欲しがって泣こうなどとは夢にも思わないのよ」",
+    "「この世に本当に幸せな人が一人でもいてうれしいよ」と、失意の男が美しい像を見つめながらつぶやいた。",
+    "「まるで天使のようだ」と、鮮やかな赤い外套と真っ白な上着を着て大聖堂から出てきた慈善学校の子供たちが言った。",
+    "「どうして分かる？ 君たちは天使を見たことがないだろう」と数学の先生が尋ねた。"
+  ],
+  "chunks": [
+    {
+      "en": "High above the city / on a tall column",
+      "ja": "街のはるか上／高い柱の上に"
+    },
+    {
+      "en": "stood the statue of the Happy Prince",
+      "ja": "幸福な王子の像が立っていた（場所を先行させた倒置）"
+    },
+    {
+      "en": "He was gilded all over",
+      "ja": "彼は全身を金箔で覆われていた"
+    },
+    {
+      "en": "who wished to gain a reputation",
+      "ja": "名声を得たいと思っていた（関係詞節）"
+    },
+    {
+      "en": "fearing lest people should think him unpractical",
+      "ja": "非実際的だと思われないか恐れて"
+    }
+  ],
+  "grammar": [
+    "場所を先に示す倒置：High above ... stood the statue は The statue stood ... を倒置した形。",
+    "be gilded は受動態。all over は「全身に・至る所に」。",
+    "who wished ... は直前の Town Councillors の一人を説明する関係詞節。",
+    "lest ... should ... は「〜するといけないので」という古風な表現。",
+    "crying for the moon は「手に入らないものを欲しがる」の比喩。"
+  ],
+  "vocabulary": [
+    {
+      "word": "gilded",
+      "ja": "金箔を施された"
+    },
+    {
+      "word": "sapphires",
+      "ja": "サファイア"
+    },
+    {
+      "word": "ruby",
+      "ja": "ルビー"
+    },
+    {
+      "word": "sword-hilt",
+      "ja": "剣の柄"
+    },
+    {
+      "word": "weathercock",
+      "ja": "風見鶏"
+    },
+    {
+      "word": "councillors",
+      "ja": "市議会議員"
+    },
+    {
+      "word": "unpractical",
+      "ja": "非実際的な"
+    },
+    {
+      "word": "muttered",
+      "ja": "つぶやいた"
+    }
+  ],
+  "readingPoint": "誰も王子の内面を知らず、像の外観や『幸福』という名称だけで判断している。評判と実情のずれに注目。",
+  "paragraphDetails": [
+    {
+      "summary": "像の外観が華麗に描かれる。冒頭は場所を先に置く倒置。",
+      "chunks": [
+        {
+          "en": "HIGH above the city, on a tall column, ",
+          "role": "意味のまとまり",
+          "ja": "街のはるか上、高い柱の上に",
+          "hint": "High above＝街のはるか上に ／ 語句：above＝上方に、column＝柱",
+          "words": [
+            {
+              "word": "HIGH",
+              "ja": "高い・高く",
+              "note": "高さを示す"
+            },
+            {
+              "word": "above",
+              "ja": "上方に",
+              "note": "前置詞・副詞。位置を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "city",
+              "ja": "都市・街",
+              "note": "大きな街"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "tall",
+              "ja": "背の高い・高い",
+              "note": "形容詞"
+            },
+            {
+              "word": "column",
+              "ja": "柱",
+              "note": "像などを載せる円柱"
+            }
+          ]
+        },
+        {
+          "en": "stood the statue of the Happy Prince. ",
+          "role": "意味のまとまり",
+          "ja": "幸福な王子の像が立っていた。",
+          "hint": "stood the statue＝像が立っていた（場所を先行させた倒置） ／ 語句：statue＝像、prince＝王子",
+          "words": [
+            {
+              "word": "stood",
+              "ja": "立っていた",
+              "note": "stand の過去形。倒置文に出る"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "He was gilded all over with thin leaves of fine gold, ",
+          "role": "主語・叙述",
+          "ja": "彼は全身に薄い純金の箔を貼られ、",
+          "hint": "語句：gilded＝金箔を貼られた、leaves＝薄片・葉",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "gilded",
+              "ja": "金箔を貼られた",
+              "note": "gild の過去分詞"
+            },
+            {
+              "word": "all",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "over",
+              "ja": "〜を越えて・上に",
+              "note": "通過・位置"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "thin",
+              "ja": "薄い・痩せた",
+              "note": "厚み・体型の形容"
+            },
+            {
+              "word": "leaves",
+              "ja": "薄片・葉",
+              "note": "ここでは金箔の「一枚一枚」"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "fine",
+              "ja": "上質な・美しい",
+              "note": "品質がよい"
+            },
+            {
+              "word": "gold",
+              "ja": "金・黄金",
+              "note": "貴金属"
+            }
+          ]
+        },
+        {
+          "en": "for eyes he had two bright sapphires, ",
+          "role": "対象・目的などを示す句",
+          "ja": "目には二つの明るいサファイアがあり、",
+          "hint": "for eyes＝目の部分には ／ 語句：sapphires＝サファイア",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "eyes",
+              "ja": "両目・目",
+              "note": "eye の複数形"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "two",
+              "ja": "二つ・二人",
+              "note": "数字"
+            },
+            {
+              "word": "bright",
+              "ja": "明るい・輝く",
+              "note": "光や色を表す"
+            },
+            {
+              "word": "sapphires",
+              "ja": "サファイア",
+              "note": "宝石 sapphire の複数形"
+            }
+          ]
+        },
+        {
+          "en": "and a large red ruby glowed on his sword-hilt.",
+          "role": "並列・追加",
+          "ja": "剣の柄には大きな赤いルビーが輝いていた。",
+          "hint": "語句：ruby＝ルビー、glowed＝光り輝いた、sword-hilt＝剣の柄",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "large",
+              "ja": "大きい",
+              "note": "大きさの形容"
+            },
+            {
+              "word": "red",
+              "ja": "赤い",
+              "note": "色"
+            },
+            {
+              "word": "ruby",
+              "ja": "ルビー",
+              "note": "赤い宝石"
+            },
+            {
+              "word": "glowed",
+              "ja": "光り輝いた",
+              "note": "glow の過去形"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "sword-hilt",
+              "ja": "剣の柄",
+              "note": "sword は剣、hilt は握る部分"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "High above",
+          "ja": "街のはるか上に"
+        },
+        {
+          "en": "stood the statue",
+          "ja": "像が立っていた（場所を先行させた倒置）"
+        },
+        {
+          "en": "for eyes",
+          "ja": "目の部分には"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "above",
+          "ja": "上方に",
+          "note": "前置詞・副詞。位置を示す"
+        },
+        {
+          "word": "column",
+          "ja": "柱",
+          "note": "像などを載せる円柱"
+        },
+        {
+          "word": "statue",
+          "ja": "像",
+          "note": "彫像、人物をかたどった造形物"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "gilded",
+          "ja": "金箔を貼られた",
+          "note": "gild の過去分詞"
+        },
+        {
+          "word": "leaves",
+          "ja": "薄片・葉",
+          "note": "ここでは金箔の「一枚一枚」"
+        },
+        {
+          "word": "sapphires",
+          "ja": "サファイア",
+          "note": "宝石 sapphire の複数形"
+        },
+        {
+          "word": "ruby",
+          "ja": "ルビー",
+          "note": "赤い宝石"
+        },
+        {
+          "word": "glowed",
+          "ja": "光り輝いた",
+          "note": "glow の過去形"
+        },
+        {
+          "word": "sword-hilt",
+          "ja": "剣の柄",
+          "note": "sword は剣、hilt は握る部分"
+        }
+      ]
+    },
+    {
+      "summary": "市議会議員は像を称賛しつつ、実用性を気にして体裁を保とうとする。",
+      "chunks": [
+        {
+          "en": "He was very much admired indeed. ",
+          "role": "主語・叙述",
+          "ja": "彼は本当に大いに称賛されていた。",
+          "hint": "語句：admired＝称賛された、indeed＝実に・確かに",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "very",
+              "ja": "とても",
+              "note": "程度の強調"
+            },
+            {
+              "word": "much",
+              "ja": "とても・多くの",
+              "note": "程度・量"
+            },
+            {
+              "word": "admired",
+              "ja": "称賛された",
+              "note": "admire の過去分詞"
+            },
+            {
+              "word": "indeed",
+              "ja": "実に・確かに",
+              "note": "直前の表現を強調"
+            }
+          ]
+        },
+        {
+          "en": "“He is as beautiful as a weathercock,” ",
+          "role": "主語・叙述",
+          "ja": "「風見鶏と同じくらい美しい」と",
+          "hint": "as beautiful as＝〜と同じくらい美しい ／ 語句：weathercock＝風見鶏",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "beautiful",
+              "ja": "美しい",
+              "note": "美しさを表す形容詞"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "weathercock",
+              "ja": "風見鶏",
+              "note": "風向きを示す飾り"
+            }
+          ]
+        },
+        {
+          "en": "remarked one of the Town Councillors who wished to gain a reputation ",
+          "role": "発話と話者",
+          "ja": "芸術的な趣味の持ち主として評判を得たがっていた市議会議員の一人が述べた。",
+          "hint": "gain a reputation＝評判を得る ／ 語句：remarked＝述べた、Councillors＝市議会議員たち、reputation＝評判・名声",
+          "words": [
+            {
+              "word": "remarked",
+              "ja": "述べた",
+              "note": "会話文に添える発話動詞"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Town",
+              "ja": "町・街",
+              "note": "都市より小規模"
+            },
+            {
+              "word": "Councillors",
+              "ja": "市議会議員たち",
+              "note": "councillor の複数形"
+            },
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "wished",
+              "ja": "望んだ",
+              "note": "wish の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "gain",
+              "ja": "得る・獲得する",
+              "note": "名声を得る"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "reputation",
+              "ja": "評判・名声",
+              "note": "gain a reputation で「評判を得る」"
+            }
+          ]
+        },
+        {
+          "en": "for having artistic tastes; ",
+          "role": "対象・目的などを示す句",
+          "ja": "芸術的な趣味を持つことで。",
+          "hint": "語句：artistic＝芸術的な、tastes＝好み・趣味",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "having",
+              "ja": "持つこと・持っている",
+              "note": "have の現在分詞"
+            },
+            {
+              "word": "artistic",
+              "ja": "芸術的な",
+              "note": "artistic tastes は芸術的な趣味"
+            },
+            {
+              "word": "tastes",
+              "ja": "好み・趣味",
+              "note": "ここでは食べ物の「味」ではない"
+            }
+          ]
+        },
+        {
+          "en": "“only not quite so useful,” he added, ",
+          "role": "意味のまとまり",
+          "ja": "「ただし、それほど役には立たない」と彼は付け足した。",
+          "hint": "語句：useful＝有用な",
+          "words": [
+            {
+              "word": "only",
+              "ja": "ただ〜だけ",
+              "note": "範囲の限定"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "quite",
+              "ja": "かなり・すっかり・まったく",
+              "note": "程度の副詞"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "useful",
+              "ja": "有用な",
+              "note": "有用性の尺度として使われる"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "added",
+              "ja": "付け加えた",
+              "note": "add の過去形"
+            }
+          ]
+        },
+        {
+          "en": "fearing lest people should think him unpractical, which he really was not.",
+          "role": "意味のまとまり",
+          "ja": "非現実的だと思われるのを恐れてのことだが、実際の彼はそうではなかった。",
+          "hint": "fearing lest＝〜しないかと恐れて ／ 語句：fearing＝恐れて、lest＝〜しないように、unpractical＝実際的でない",
+          "words": [
+            {
+              "word": "fearing",
+              "ja": "恐れて",
+              "note": "分詞句で理由・同時進行を説明"
+            },
+            {
+              "word": "lest",
+              "ja": "〜しないように",
+              "note": "硬い書き言葉の接続詞"
+            },
+            {
+              "word": "people",
+              "ja": "人々",
+              "note": "複数として扱う集合名詞"
+            },
+            {
+              "word": "should",
+              "ja": "〜すべき・〜だろう",
+              "note": "義務・予期の助動詞"
+            },
+            {
+              "word": "think",
+              "ja": "考える・思う",
+              "note": "思考"
+            },
+            {
+              "word": "him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "unpractical",
+              "ja": "実際的でない",
+              "note": "現在は impractical が一般的"
+            },
+            {
+              "word": "which",
+              "ja": "どれ・〜するもの",
+              "note": "疑問・関係代名詞"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "really",
+              "ja": "本当に",
+              "note": "強調"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "as beautiful as",
+          "ja": "〜と同じくらい美しい"
+        },
+        {
+          "en": "gain a reputation",
+          "ja": "評判を得る"
+        },
+        {
+          "en": "fearing lest",
+          "ja": "〜しないかと恐れて"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "admired",
+          "ja": "称賛された",
+          "note": "admire の過去分詞"
+        },
+        {
+          "word": "indeed",
+          "ja": "実に・確かに",
+          "note": "直前の表現を強調"
+        },
+        {
+          "word": "weathercock",
+          "ja": "風見鶏",
+          "note": "風向きを示す飾り"
+        },
+        {
+          "word": "remarked",
+          "ja": "述べた",
+          "note": "会話文に添える発話動詞"
+        },
+        {
+          "word": "Councillors",
+          "ja": "市議会議員たち",
+          "note": "councillor の複数形"
+        },
+        {
+          "word": "reputation",
+          "ja": "評判・名声",
+          "note": "gain a reputation で「評判を得る」"
+        },
+        {
+          "word": "artistic",
+          "ja": "芸術的な",
+          "note": "artistic tastes は芸術的な趣味"
+        },
+        {
+          "word": "tastes",
+          "ja": "好み・趣味",
+          "note": "ここでは食べ物の「味」ではない"
+        },
+        {
+          "word": "useful",
+          "ja": "有用な",
+          "note": "有用性の尺度として使われる"
+        },
+        {
+          "word": "fearing",
+          "ja": "恐れて",
+          "note": "分詞句で理由・同時進行を説明"
+        },
+        {
+          "word": "lest",
+          "ja": "〜しないように",
+          "note": "硬い書き言葉の接続詞"
+        },
+        {
+          "word": "unpractical",
+          "ja": "実際的でない",
+          "note": "現在は impractical が一般的"
+        }
+      ]
+    },
+    {
+      "summary": "母親は泣く子どもを王子の像と比較する。",
+      "chunks": [
+        {
+          "en": "“Why can’t you be like the Happy Prince?” ",
+          "role": "疑問文・会話",
+          "ja": "「どうして幸福な王子のようになれないの？」",
+          "hint": "語句：prince＝王子",
+          "words": [
+            {
+              "word": "Why",
+              "ja": "なぜ",
+              "note": "理由を尋ねる"
+            },
+            {
+              "word": "can’t",
+              "ja": "〜できない",
+              "note": "cannot の短縮形"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "like",
+              "ja": "〜のように・好きだ",
+              "note": "前置詞・動詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "asked a sensible mother of her little boy who was crying ",
+          "role": "発話と話者",
+          "ja": "月が欲しいと泣きわめいていた幼い息子に、分別ある母親が尋ねた。",
+          "hint": "語句：sensible＝分別のある、who＝誰・〜する人、crying＝泣いている",
+          "words": [
+            {
+              "word": "asked",
+              "ja": "尋ねた・頼んだ",
+              "note": "ask の過去形"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "sensible",
+              "ja": "分別のある",
+              "note": "sensitive「敏感」と区別"
+            },
+            {
+              "word": "mother",
+              "ja": "母親",
+              "note": "親族"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "boy",
+              "ja": "男の子",
+              "note": "少年"
+            },
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "crying",
+              "ja": "泣いている",
+              "note": "cry の進行形・動名詞"
+            }
+          ]
+        },
+        {
+          "en": "for the moon. “The Happy Prince never dreams of crying for anything.”",
+          "role": "理由を導く接続詞",
+          "ja": "「月を欲しがって。幸福な王子は何かを欲しがって泣こうなどと思いもしないのよ」",
+          "hint": "never dreams of＝〜など思いもしない ／ 語句：prince＝王子、crying＝泣いている、dreams＝夢",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "moon",
+              "ja": "月",
+              "note": "天体"
+            },
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "never",
+              "ja": "決して〜ない・一度も〜ない",
+              "note": "強い否定"
+            },
+            {
+              "word": "dreams",
+              "ja": "夢",
+              "note": "dream の複数形"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "crying",
+              "ja": "泣いている",
+              "note": "cry の進行形・動名詞"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "anything",
+              "ja": "何でも・何か",
+              "note": "否定文で「何も〜ない」"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "crying for the moon",
+          "ja": "手に入らないものを欲しがる"
+        },
+        {
+          "en": "never dreams of",
+          "ja": "〜など思いもしない"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "sensible",
+          "ja": "分別のある",
+          "note": "sensitive「敏感」と区別"
+        },
+        {
+          "word": "who",
+          "ja": "誰・〜する人",
+          "note": "疑問詞、または関係代名詞"
+        },
+        {
+          "word": "crying",
+          "ja": "泣いている",
+          "note": "cry の進行形・動名詞"
+        },
+        {
+          "word": "dreams",
+          "ja": "夢",
+          "note": "dream の複数形"
+        }
+      ]
+    },
+    {
+      "summary": "失意の男は幸福な人が存在すると信じて像を見つめる。",
+      "chunks": [
+        {
+          "en": "“I am glad there is some one in the world ",
+          "role": "主語・叙述",
+          "ja": "「この世に一人でもいるとはうれしいね、",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "glad",
+              "ja": "うれしい",
+              "note": "喜びを表す"
+            },
+            {
+              "word": "there",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "some",
+              "ja": "いくらかの・ある",
+              "note": "不特定の量"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "world",
+              "ja": "世界",
+              "note": "全世界"
+            }
+          ]
+        },
+        {
+          "en": "who is quite happy,” ",
+          "role": "関係詞・修飾節",
+          "ja": "本当に幸せな人が」と",
+          "hint": "語句：who＝誰・〜する人",
+          "words": [
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "quite",
+              "ja": "かなり・すっかり・まったく",
+              "note": "程度の副詞"
+            },
+            {
+              "word": "happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            }
+          ]
+        },
+        {
+          "en": "muttered a disappointed man as he gazed at the wonderful statue.",
+          "role": "発話と話者",
+          "ja": "失意の男がその見事な像を眺めながらつぶやいた。",
+          "hint": "muttered＝小声でつぶやいた ／ as he gazed at＝〜をじっと見つめながら ／ 語句：muttered＝つぶやいた、disappointed＝落胆した、gazed＝じっと見つめた",
+          "words": [
+            {
+              "word": "muttered",
+              "ja": "つぶやいた",
+              "note": "小声で不明瞭に言う"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "disappointed",
+              "ja": "落胆した",
+              "note": "disappoint の過去分詞形容詞"
+            },
+            {
+              "word": "man",
+              "ja": "男・男性",
+              "note": "人"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "gazed",
+              "ja": "じっと見つめた",
+              "note": "gaze at ... で「〜を見つめる」"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "wonderful",
+              "ja": "すばらしい",
+              "note": "wonder「驚き」に由来"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "muttered",
+          "ja": "小声でつぶやいた"
+        },
+        {
+          "en": "as he gazed at",
+          "ja": "〜をじっと見つめながら"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "who",
+          "ja": "誰・〜する人",
+          "note": "疑問詞、または関係代名詞"
+        },
+        {
+          "word": "muttered",
+          "ja": "つぶやいた",
+          "note": "小声で不明瞭に言う"
+        },
+        {
+          "word": "disappointed",
+          "ja": "落胆した",
+          "note": "disappoint の過去分詞形容詞"
+        },
+        {
+          "word": "gazed",
+          "ja": "じっと見つめた",
+          "note": "gaze at ... で「〜を見つめる」"
+        },
+        {
+          "word": "wonderful",
+          "ja": "すばらしい",
+          "note": "wonder「驚き」に由来"
+        },
+        {
+          "word": "statue",
+          "ja": "像",
+          "note": "彫像、人物をかたどった造形物"
+        }
+      ]
+    },
+    {
+      "summary": "慈善学校の子どもたちは像を天使にたとえる。",
+      "chunks": [
+        {
+          "en": "“He looks just like an angel,” ",
+          "role": "主語・叙述",
+          "ja": "「まるで天使みたいだ」と",
+          "hint": "just like an angel＝まるで天使のように ／ 語句：angel＝天使",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "looks",
+              "ja": "見える・見ている",
+              "note": "look 三人称単数"
+            },
+            {
+              "word": "just",
+              "ja": "ちょうど・ただ〜だけ",
+              "note": "程度や時点の強調"
+            },
+            {
+              "word": "like",
+              "ja": "〜のように・好きだ",
+              "note": "前置詞・動詞"
+            },
+            {
+              "word": "an",
+              "ja": "一つの・ある",
+              "note": "母音で始まる音の前の不定冠詞"
+            },
+            {
+              "word": "angel",
+              "ja": "天使",
+              "note": "比喩的な容姿の描写"
+            }
+          ]
+        },
+        {
+          "en": "said the Charity Children ",
+          "role": "発話と話者",
+          "ja": "慈善学校の子どもたちが言った。",
+          "hint": "語句：Charity＝慈善",
+          "words": [
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Charity",
+              "ja": "慈善",
+              "note": "慈善活動・慈善学校の文脈"
+            },
+            {
+              "word": "Children",
+              "ja": "子どもたち",
+              "note": "child の複数形"
+            }
+          ]
+        },
+        {
+          "en": "as they came out of the cathedral in their bright scarlet cloaks ",
+          "role": "比較・理由・時間などの接続",
+          "ja": "子どもたちは鮮やかな深紅の外套をまとって大聖堂から出てきたところだった。",
+          "hint": "as they came out＝出てきたとき ／ 語句：cathedral＝大聖堂、scarlet＝鮮やかな赤色の、cloaks＝外套・マント",
+          "words": [
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "came",
+              "ja": "来た",
+              "note": "come の過去形"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "cathedral",
+              "ja": "大聖堂",
+              "note": "司教座のある大きな教会"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "their",
+              "ja": "彼らの・彼女らの",
+              "note": "三人称複数所有格"
+            },
+            {
+              "word": "bright",
+              "ja": "明るい・輝く",
+              "note": "光や色を表す"
+            },
+            {
+              "word": "scarlet",
+              "ja": "鮮やかな赤色の",
+              "note": "色彩を示す形容詞"
+            },
+            {
+              "word": "cloaks",
+              "ja": "外套・マント",
+              "note": "cloak の複数形"
+            }
+          ]
+        },
+        {
+          "en": "and their clean white pinafores.",
+          "role": "並列・追加",
+          "ja": "そして真っ白な上着を着ていた。",
+          "hint": "語句：pinafores＝エプロン形の上着",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "their",
+              "ja": "彼らの・彼女らの",
+              "note": "三人称複数所有格"
+            },
+            {
+              "word": "clean",
+              "ja": "清潔な・真っ白な",
+              "note": "汚れていない"
+            },
+            {
+              "word": "white",
+              "ja": "白い",
+              "note": "色"
+            },
+            {
+              "word": "pinafores",
+              "ja": "エプロン形の上着",
+              "note": "当時の子どもの衣服"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "just like an angel",
+          "ja": "まるで天使のように"
+        },
+        {
+          "en": "as they came out",
+          "ja": "出てきたとき"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "angel",
+          "ja": "天使",
+          "note": "比喩的な容姿の描写"
+        },
+        {
+          "word": "Charity",
+          "ja": "慈善",
+          "note": "慈善活動・慈善学校の文脈"
+        },
+        {
+          "word": "cathedral",
+          "ja": "大聖堂",
+          "note": "司教座のある大きな教会"
+        },
+        {
+          "word": "scarlet",
+          "ja": "鮮やかな赤色の",
+          "note": "色彩を示す形容詞"
+        },
+        {
+          "word": "cloaks",
+          "ja": "外套・マント",
+          "note": "cloak の複数形"
+        },
+        {
+          "word": "pinafores",
+          "ja": "エプロン形の上着",
+          "note": "当時の子どもの衣服"
+        }
+      ]
+    },
+    {
+      "summary": "数学の教師が、見たこともないのになぜ分かるのかと問い返す。",
+      "chunks": [
+        {
+          "en": "“How do you know?” ",
+          "role": "疑問文・会話",
+          "ja": "「どうして分かるのか？」",
+          "hint": "How do you know＝なぜ分かるのか ／ 語句：know＝知っている",
+          "words": [
+            {
+              "word": "How",
+              "ja": "どう・なんと",
+              "note": "方法・程度の疑問、感嘆"
+            },
+            {
+              "word": "do",
+              "ja": "する・行う",
+              "note": "代動詞・疑問文の助動詞にもなる"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "know",
+              "ja": "知っている",
+              "note": "how do you know で「なぜ分かる」"
+            }
+          ]
+        },
+        {
+          "en": "said the Mathematical Master, “you have never seen one.”",
+          "role": "発話と話者",
+          "ja": "数学の先生は言った。「君たちは天使を見たことがないだろう」",
+          "hint": "have never seen＝一度も見たことがない ／ 語句：Mathematical＝数学の、Master＝教師・師",
+          "words": [
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Mathematical",
+              "ja": "数学の",
+              "note": "Mathematical Master は数学教師"
+            },
+            {
+              "word": "Master",
+              "ja": "教師・師",
+              "note": "ここでは男性教師の呼称"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "never",
+              "ja": "決して〜ない・一度も〜ない",
+              "note": "強い否定"
+            },
+            {
+              "word": "seen",
+              "ja": "見たことがある",
+              "note": "see の過去分詞"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "How do you know",
+          "ja": "なぜ分かるのか"
+        },
+        {
+          "en": "have never seen",
+          "ja": "一度も見たことがない"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "know",
+          "ja": "知っている",
+          "note": "how do you know で「なぜ分かる」"
+        },
+        {
+          "word": "Mathematical",
+          "ja": "数学の",
+          "note": "Mathematical Master は数学教師"
+        },
+        {
+          "word": "Master",
+          "ja": "教師・師",
+          "note": "ここでは男性教師の呼称"
+        }
+      ]
+    }
+  ]
+}

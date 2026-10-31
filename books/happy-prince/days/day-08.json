@@ -1,0 +1,1120 @@
+{
+  "day": 8,
+  "title": "最初の贈り物",
+  "wordCount": 147,
+  "paragraphs": [
+    "But the Happy Prince looked so sad that the little Swallow was sorry. “It is very cold here,” he said; “but I will stay with you for one night, and be your messenger.”",
+    "“Thank you, little Swallow,” said the Prince.",
+    "So the Swallow picked out the great ruby from the Prince’s sword, and flew away with it in his beak over the roofs of the town.",
+    "He passed by the cathedral tower, where the white marble angels were sculptured. He passed by the palace and heard the sound of dancing. A beautiful girl came out on the balcony with her lover. “How wonderful the stars are,” he said to her, “and how wonderful is the power of love!”",
+    "“I hope my dress will be ready in time for the State-ball,” she answered; “I have ordered passion-flowers to be embroidered on it; but the seamstresses are so lazy.”"
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "ruby",
+      "ja": "ルビー"
+    },
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "seamstresses",
+      "ja": "お針子たち"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "王子の悲しみを見て、ツバメは一晩だけ協力すると約束する。",
+      "chunks": [
+        {
+          "en": "But the Happy Prince looked so sad ",
+          "role": "逆接・対比",
+          "ja": "しかし幸福な王子があまりに悲しげに見えたので、",
+          "hint": "語句：prince＝王子",
+          "words": [
+            {
+              "word": "But",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "looked",
+              "ja": "見た・見えた",
+              "note": "look の過去形"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "sad",
+              "ja": "悲しい",
+              "note": "感情"
+            }
+          ]
+        },
+        {
+          "en": "that the little Swallow was sorry. ",
+          "role": "that節・指示語",
+          "ja": "小さなツバメは気の毒に思った。",
+          "hint": "語句：Swallow＝ツバメ、sorry＝気の毒に思う",
+          "words": [
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "sorry",
+              "ja": "気の毒に思う",
+              "note": "ここでは謝罪より同情"
+            }
+          ]
+        },
+        {
+          "en": "“It is very cold here,” he said; ",
+          "role": "発話と話者",
+          "ja": "「ここはとても寒い」と彼は言った。",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "It",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "very",
+              "ja": "とても",
+              "note": "程度の強調"
+            },
+            {
+              "word": "cold",
+              "ja": "寒い・冷たい",
+              "note": "気温など"
+            },
+            {
+              "word": "here",
+              "ja": "ここに",
+              "note": "話し手の場所"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            }
+          ]
+        },
+        {
+          "en": "“but I will stay with you for one night, ",
+          "role": "逆接・対比",
+          "ja": "「でも一晩だけ一緒にいて、",
+          "hint": "対照や譲歩のつながりに注目",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "stay",
+              "ja": "とどまる・泊まる",
+              "note": "移動せず残る"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "night",
+              "ja": "夜",
+              "note": "時間帯"
+            }
+          ]
+        },
+        {
+          "en": "and be your messenger.”",
+          "role": "並列・追加",
+          "ja": "あなたの使者になります」",
+          "hint": "be your messenger＝あなたの使いになる ／ 語句：messenger＝使者",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "your",
+              "ja": "あなたの",
+              "note": "二人称所有格"
+            },
+            {
+              "word": "messenger",
+              "ja": "使者",
+              "note": "伝言や品物を運ぶ人"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "looked so sad that",
+          "ja": "あまりに悲しそうだったので"
+        },
+        {
+          "en": "be your messenger",
+          "ja": "あなたの使いになる"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "sorry",
+          "ja": "気の毒に思う",
+          "note": "ここでは謝罪より同情"
+        },
+        {
+          "word": "messenger",
+          "ja": "使者",
+          "note": "伝言や品物を運ぶ人"
+        }
+      ]
+    },
+    {
+      "summary": "王子がツバメに感謝する。",
+      "chunks": [
+        {
+          "en": "“Thank you, little Swallow,” said the Prince.",
+          "role": "発話と話者",
+          "ja": "「ありがとう、小さなツバメよ」と王子は言った。",
+          "hint": "Thank you, little Swallow＝ありがとう、小さなツバメ ／ 語句：Swallow＝ツバメ、prince＝王子",
+          "words": [
+            {
+              "word": "Thank",
+              "ja": "感謝する",
+              "note": "Thank you でありがとう"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "Thank you, little Swallow",
+          "ja": "ありがとう、小さなツバメ"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメが剣のルビーを抜き、くわえて飛び去る。",
+      "chunks": [
+        {
+          "en": "So the Swallow picked out the great ruby from the Prince’s sword, ",
+          "role": "結果・場面展開",
+          "ja": "そこでツバメは王子の剣から大きなルビーを取り外し、",
+          "hint": "picked out＝取り出した ／ 語句：Swallow＝ツバメ、picked＝つまみ取った、ruby＝ルビー",
+          "words": [
+            {
+              "word": "So",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "picked",
+              "ja": "つまみ取った",
+              "note": "pick off で取り除く"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "great",
+              "ja": "大きな・偉大な",
+              "note": "大きさ・重要性"
+            },
+            {
+              "word": "ruby",
+              "ja": "ルビー",
+              "note": "赤い宝石"
+            },
+            {
+              "word": "from",
+              "ja": "〜から",
+              "note": "出発点・材料・起源"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince’s",
+              "ja": "王子の",
+              "note": "Prince の所有格"
+            },
+            {
+              "word": "sword",
+              "ja": "剣",
+              "note": "武器"
+            }
+          ]
+        },
+        {
+          "en": "and flew away with it in his beak over the roofs of ",
+          "role": "並列・追加",
+          "ja": "くちばしにくわえて街の屋根の上を飛んでいった。",
+          "hint": "in his beak＝くちばしにくわえて ／ 語句：beak＝くちばし、roofs＝屋根",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "beak",
+              "ja": "くちばし",
+              "note": "鳥の口"
+            },
+            {
+              "word": "over",
+              "ja": "〜を越えて・上に",
+              "note": "通過・位置"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "roofs",
+              "ja": "屋根",
+              "note": "roof の複数形"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            }
+          ]
+        },
+        {
+          "en": "the town.",
+          "role": "主語・叙述",
+          "ja": "街の屋根を越えて。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "town",
+              "ja": "町・街",
+              "note": "都市より小規模"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "picked out",
+          "ja": "取り出した"
+        },
+        {
+          "en": "in his beak",
+          "ja": "くちばしにくわえて"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "picked",
+          "ja": "つまみ取った",
+          "note": "pick off で取り除く"
+        },
+        {
+          "word": "ruby",
+          "ja": "ルビー",
+          "note": "赤い宝石"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "beak",
+          "ja": "くちばし",
+          "note": "鳥の口"
+        },
+        {
+          "word": "roofs",
+          "ja": "屋根",
+          "note": "roof の複数形"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメは大聖堂と宮殿を通り、恋人たちの幸福そうな会話を聞く。",
+      "chunks": [
+        {
+          "en": "He passed by the cathedral tower, ",
+          "role": "主語・叙述",
+          "ja": "彼は大聖堂の塔のそばを通った。",
+          "hint": "passed by＝〜のそばを通った ／ 語句：cathedral＝大聖堂",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "passed",
+              "ja": "通った・通過した",
+              "note": "pass の過去形"
+            },
+            {
+              "word": "by",
+              "ja": "〜によって・〜のそばで",
+              "note": "受動態・手段・位置"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "cathedral",
+              "ja": "大聖堂",
+              "note": "司教座のある大きな教会"
+            },
+            {
+              "word": "tower",
+              "ja": "塔",
+              "note": "高い建物"
+            }
+          ]
+        },
+        {
+          "en": "where the white marble angels were sculptured. ",
+          "role": "関係詞・修飾節",
+          "ja": "そこには白い大理石の天使たちが彫刻されていた。",
+          "hint": "語句：marble＝大理石、Angels＝天使たち、sculptured＝彫刻された",
+          "words": [
+            {
+              "word": "where",
+              "ja": "どこ・〜する場所",
+              "note": "場所の疑問・関係副詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "white",
+              "ja": "白い",
+              "note": "色"
+            },
+            {
+              "word": "marble",
+              "ja": "大理石",
+              "note": "彫像や建築に使う石"
+            },
+            {
+              "word": "angels",
+              "ja": "天使たち",
+              "note": "Angel の複数形"
+            },
+            {
+              "word": "were",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去複数"
+            },
+            {
+              "word": "sculptured",
+              "ja": "彫刻された",
+              "note": "sculpture の動詞的用法"
+            }
+          ]
+        },
+        {
+          "en": "He passed by the palace and heard the sound of dancing. ",
+          "role": "主語・叙述",
+          "ja": "宮殿のそばを通り、踊りの音を聞いた。",
+          "hint": "passed by＝〜のそばを通った ／ 語句：palace＝宮殿",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "passed",
+              "ja": "通った・通過した",
+              "note": "pass の過去形"
+            },
+            {
+              "word": "by",
+              "ja": "〜によって・〜のそばで",
+              "note": "受動態・手段・位置"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "palace",
+              "ja": "宮殿",
+              "note": "君主の住居"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "heard",
+              "ja": "聞いた",
+              "note": "hear の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "sound",
+              "ja": "音",
+              "note": "聴覚で聞くもの"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "dancing",
+              "ja": "踊り・踊っている",
+              "note": "dance の現在分詞"
+            }
+          ]
+        },
+        {
+          "en": "A beautiful girl came out on the balcony with her lover. ",
+          "role": "主語・叙述",
+          "ja": "美しい娘が恋人とともにバルコニーへ出てきた。",
+          "hint": "came out on the balcony＝バルコニーへ出てきた ／ 語句：balcony＝バルコニー、lover＝恋人",
+          "words": [
+            {
+              "word": "A",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "beautiful",
+              "ja": "美しい",
+              "note": "美しさを表す形容詞"
+            },
+            {
+              "word": "girl",
+              "ja": "少女・女の子",
+              "note": "女性の子ども"
+            },
+            {
+              "word": "came",
+              "ja": "来た",
+              "note": "come の過去形"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "balcony",
+              "ja": "バルコニー",
+              "note": "建物から張り出す場所"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "lover",
+              "ja": "恋人",
+              "note": "愛する相手"
+            }
+          ]
+        },
+        {
+          "en": "“How wonderful the stars are,” he said to her, ",
+          "role": "発話と話者",
+          "ja": "「星はなんてすばらしいのだろう」と恋人が彼女に言った。",
+          "hint": "語句：wonderful＝すばらしい",
+          "words": [
+            {
+              "word": "How",
+              "ja": "どう・なんと",
+              "note": "方法・程度の疑問、感嘆"
+            },
+            {
+              "word": "wonderful",
+              "ja": "すばらしい",
+              "note": "wonder「驚き」に由来"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "stars",
+              "ja": "星々",
+              "note": "star の複数形"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            }
+          ]
+        },
+        {
+          "en": "“and how wonderful is the power of love!”",
+          "role": "並列・追加",
+          "ja": "「そして愛の力はなんてすばらしいのだろう！」",
+          "hint": "power of love＝愛の力 ／ 語句：wonderful＝すばらしい",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "how",
+              "ja": "どう・なんと",
+              "note": "方法・程度の疑問、感嘆"
+            },
+            {
+              "word": "wonderful",
+              "ja": "すばらしい",
+              "note": "wonder「驚き」に由来"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "power",
+              "ja": "力・能力",
+              "note": "力強さ"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "love",
+              "ja": "愛・愛する",
+              "note": "名詞・動詞"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "passed by",
+          "ja": "〜のそばを通った"
+        },
+        {
+          "en": "came out on the balcony",
+          "ja": "バルコニーへ出てきた"
+        },
+        {
+          "en": "power of love",
+          "ja": "愛の力"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "cathedral",
+          "ja": "大聖堂",
+          "note": "司教座のある大きな教会"
+        },
+        {
+          "word": "marble",
+          "ja": "大理石",
+          "note": "彫像や建築に使う石"
+        },
+        {
+          "word": "Angels",
+          "ja": "天使たち",
+          "note": "Angel の複数形"
+        },
+        {
+          "word": "sculptured",
+          "ja": "彫刻された",
+          "note": "sculpture の動詞的用法"
+        },
+        {
+          "word": "palace",
+          "ja": "宮殿",
+          "note": "君主の住居"
+        },
+        {
+          "word": "balcony",
+          "ja": "バルコニー",
+          "note": "建物から張り出す場所"
+        },
+        {
+          "word": "lover",
+          "ja": "恋人",
+          "note": "愛する相手"
+        },
+        {
+          "word": "wonderful",
+          "ja": "すばらしい",
+          "note": "wonder「驚き」に由来"
+        }
+      ]
+    },
+    {
+      "summary": "娘は舞踏会のドレスが間に合うかを心配し、縫い子たちを怠け者と決めつける。",
+      "chunks": [
+        {
+          "en": "“I hope my dress will be ready in time for the State-ball,” ",
+          "role": "主語・叙述",
+          "ja": "「公式舞踏会までにドレスが間に合うといいわ」と",
+          "hint": "ready in time＝時間に間に合って ／ 語句：State-ball＝公式舞踏会",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "hope",
+              "ja": "望む・希望する",
+              "note": "願望"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "dress",
+              "ja": "ドレス・服",
+              "note": "衣服"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "ready",
+              "ja": "用意できた・完成した",
+              "note": "ready in time は時間に間に合う"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "time",
+              "ja": "時間・時",
+              "note": "時間の長さ・時刻"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "State-ball",
+              "ja": "公式舞踏会",
+              "note": "王宮の儀礼的行事"
+            }
+          ]
+        },
+        {
+          "en": "she answered; “I have ordered passion-flowers to be embroidered on it; ",
+          "role": "発話と話者",
+          "ja": "彼女は答えた。「ドレスにトケイソウの刺繍を頼んだの。",
+          "hint": "ordered ... to be embroidered＝刺繍するよう注文した ／ 語句：passion-flowers＝トケイソウ、embroidered＝刺繍された",
+          "words": [
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "answered",
+              "ja": "答えた",
+              "note": "answer の過去形"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "ordered",
+              "ja": "命じた・注文した",
+              "note": "order の過去形"
+            },
+            {
+              "word": "passion-flowers",
+              "ja": "トケイソウ",
+              "note": "花の名前"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "embroidered",
+              "ja": "刺繍された",
+              "note": "embroider の過去分詞"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            }
+          ]
+        },
+        {
+          "en": "but the seamstresses are so lazy.”",
+          "role": "逆接・対比",
+          "ja": "でもお針子たちは本当に怠け者だわ」",
+          "hint": "so lazy＝とても怠け者だ ／ 語句：lazy＝怠惰な",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "seamstresses",
+              "ja": "お針子たち",
+              "note": "seamstress の複数形"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "lazy",
+              "ja": "怠惰な",
+              "note": "行為の価値判断"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "ready in time",
+          "ja": "時間に間に合って"
+        },
+        {
+          "en": "ordered ... to be embroidered",
+          "ja": "刺繍するよう注文した"
+        },
+        {
+          "en": "so lazy",
+          "ja": "とても怠け者だ"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "State-ball",
+          "ja": "公式舞踏会",
+          "note": "王宮の儀礼的行事"
+        },
+        {
+          "word": "passion-flowers",
+          "ja": "トケイソウ",
+          "note": "花の名前"
+        },
+        {
+          "word": "embroidered",
+          "ja": "刺繍された",
+          "note": "embroider の過去分詞"
+        },
+        {
+          "word": "lazy",
+          "ja": "怠惰な",
+          "note": "行為の価値判断"
+        }
+      ]
+    }
+  ]
+}

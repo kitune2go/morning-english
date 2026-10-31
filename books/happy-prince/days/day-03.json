@@ -1,0 +1,1375 @@
+{
+  "day": 3,
+  "title": "旅立ちと到着",
+  "wordCount": 177,
+  "paragraphs": [
+    "After they had gone he felt lonely, and began to tire of his lady-love. “She has no conversation,” he said, “and I am afraid that she is a coquette, for she is always flirting with the wind.” And certainly, whenever the wind blew, the Reed made the most graceful curtseys. “I admit that she is domestic,” he continued, “but I love travelling, and my wife, consequently, should love travelling also.”",
+    "“Will you come away with me?” he said finally to her; but the Reed shook her head, she was so attached to her home.",
+    "“You have been trifling with me,” he cried. “I am off to the Pyramids. Good-bye!” and he flew away.",
+    "All day long he flew, and at night-time he arrived at the city. “Where shall I put up?” he said; “I hope the town has made preparations.”",
+    "Then he saw the statue on the tall column.",
+    "“I will put up there,” he cried; “it is a fine position, with plenty of fresh air.” So he alighted just between the feet of the Happy Prince."
+  ],
+  "jp": [
+    "仲間が去った後、ツバメは孤独を感じ、恋人への熱も冷め始めた。「彼女とは話が合わない」と彼は言った。「きっと浮気者だ。いつも風と戯れているから」。確かに風が吹くたび、葦は優雅に身をかがめた。「家庭的なのは認める」と彼は続けた。「でも僕は旅が好きだ。だから妻も旅好きであるべきなんだ」",
+    "「僕と一緒に旅立たない？」と、とうとうツバメは尋ねた。しかし葦は首を振った。故郷が大好きだったのだ。",
+    "「君は僕をもてあそんでいたんだね」と彼は叫んだ。「僕はピラミッドへ行く。さようなら！」そう言って飛び去った。",
+    "ツバメは一日じゅう飛び、夜に街へ着いた。「どこに泊まろう？」と彼は言った。「街のほうで用意してくれているといいな」",
+    "やがて高い柱の上の像が目に入った。",
+    "「あそこに泊まろう」とツバメは叫んだ。「新鮮な空気がたっぷりある、いい場所だ」。そして幸福な王子の両足の間に舞い降りた。"
+  ],
+  "chunks": [
+    {
+      "en": "began to tire of his lady-love",
+      "ja": "恋人に飽き始めた"
+    },
+    {
+      "en": "whenever the wind blew",
+      "ja": "風が吹くたびに"
+    },
+    {
+      "en": "she was so attached to her home",
+      "ja": "彼女は故郷を離れがたく思っていた"
+    },
+    {
+      "en": "Where shall I put up?",
+      "ja": "どこに宿を取ろう？"
+    },
+    {
+      "en": "he alighted just between the feet",
+      "ja": "両足の間に降り立った"
+    }
+  ],
+  "grammar": [
+    "begin to + 動詞は「〜し始める」。",
+    "whenever は「〜するたびに」。",
+    "be attached to は「〜に愛着を感じる」。物理的に付着するだけではない。",
+    "put up はこの文脈では「泊まる・宿を取る」。",
+    "alight は鳥が『降り立つ』意味にも使われる、やや文学的な語。"
+  ],
+  "vocabulary": [
+    {
+      "word": "reed",
+      "ja": "葦（アシ）"
+    },
+    {
+      "word": "coquette",
+      "ja": "浮気っぽい女性"
+    },
+    {
+      "word": "curtseys",
+      "ja": "お辞儀"
+    },
+    {
+      "word": "pyramids",
+      "ja": "ピラミッド"
+    },
+    {
+      "word": "alighted",
+      "ja": "舞い降りた"
+    }
+  ],
+  "readingPoint": "ツバメの自分勝手な解釈と、葦の土地への愛着がすれ違う。王子の像との出会いが転機となる。",
+  "paragraphDetails": [
+    {
+      "summary": "残されたツバメは葦への情熱が冷めた理由を並べる。",
+      "chunks": [
+        {
+          "en": "After they had gone he felt lonely, ",
+          "role": "時間・場面",
+          "ja": "仲間が去ったあと、彼は寂しくなり、",
+          "hint": "語句：lonely＝寂しい",
+          "words": [
+            {
+              "word": "After",
+              "ja": "〜のあとで",
+              "note": "時を表す"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "gone",
+              "ja": "去った・行ってしまった",
+              "note": "go の過去分詞"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "felt",
+              "ja": "感じた",
+              "note": "feel の過去形"
+            },
+            {
+              "word": "lonely",
+              "ja": "寂しい",
+              "note": "ひとりで心細い状態"
+            }
+          ]
+        },
+        {
+          "en": "and began to tire of his lady-love. ",
+          "role": "並列・追加",
+          "ja": "恋人に飽き始めた。",
+          "hint": "began to tire of＝〜に飽き始めた ／ 語句：lady-love＝恋人の女性",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "began",
+              "ja": "始めた",
+              "note": "begin の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "tire",
+              "ja": "飽きる・疲れさせる",
+              "note": "tire of で飽きる"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "lady-love",
+              "ja": "恋人の女性",
+              "note": "古風な複合名詞"
+            }
+          ]
+        },
+        {
+          "en": "“She has no conversation,” he said, ",
+          "role": "発話と話者",
+          "ja": "「彼女とは会話にならない」と彼は言った。",
+          "hint": "語句：conversation＝会話",
+          "words": [
+            {
+              "word": "She",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "no",
+              "ja": "いいえ・一つも〜ない",
+              "note": "否定語"
+            },
+            {
+              "word": "conversation",
+              "ja": "会話",
+              "note": "have no conversation で話が合わない"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            }
+          ]
+        },
+        {
+          "en": "“and I am afraid that she is a coquette, ",
+          "role": "並列・追加",
+          "ja": "「それに浮気者ではないかと心配だ。",
+          "hint": "語句：coquette＝浮気っぽい女",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "afraid",
+              "ja": "怖い・心配で",
+              "note": "I'm afraid that は「〜と心配だ」"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "coquette",
+              "ja": "浮気っぽい女",
+              "note": "古風な女性像を示す語"
+            }
+          ]
+        },
+        {
+          "en": "for she is always flirting with the wind.” ",
+          "role": "理由を導く接続詞",
+          "ja": "いつも風と戯れているからね」",
+          "hint": "語句：flirting＝戯れている・色目を使う",
+          "words": [
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "always",
+              "ja": "いつも・ずっと",
+              "note": "ここでは永続的な約束にも使う"
+            },
+            {
+              "word": "flirting",
+              "ja": "戯れている・色目を使う",
+              "note": "flirt with ... は人以外にも比喩的に使う"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "wind",
+              "ja": "風",
+              "note": "空気の動き"
+            }
+          ]
+        },
+        {
+          "en": "And certainly, whenever the wind blew, ",
+          "role": "並列・追加",
+          "ja": "実際、風が吹くたびに",
+          "hint": "whenever the wind blew＝風が吹くたびに",
+          "words": [
+            {
+              "word": "And",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "certainly",
+              "ja": "確かに・もちろん",
+              "note": "強い確信"
+            },
+            {
+              "word": "whenever",
+              "ja": "〜するたびに",
+              "note": "時を表す接続詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "wind",
+              "ja": "風",
+              "note": "空気の動き"
+            },
+            {
+              "word": "blew",
+              "ja": "吹いた",
+              "note": "blow の過去形"
+            }
+          ]
+        },
+        {
+          "en": "the Reed made the most graceful curtseys. ",
+          "role": "主語・叙述",
+          "ja": "葦はこの上なく優雅にお辞儀をした。",
+          "hint": "語句：Reed＝葦（アシ）、graceful＝優雅な、curtseys＝女性の礼のお辞儀",
+          "words": [
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Reed",
+              "ja": "葦（アシ）",
+              "note": "水辺に生える細長い植物"
+            },
+            {
+              "word": "made",
+              "ja": "作った・させた",
+              "note": "make の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "most",
+              "ja": "最も・大部分の",
+              "note": "最上級"
+            },
+            {
+              "word": "graceful",
+              "ja": "優雅な",
+              "note": "動作の美しさ"
+            },
+            {
+              "word": "curtseys",
+              "ja": "女性の礼のお辞儀",
+              "note": "curtsy の複数形"
+            }
+          ]
+        },
+        {
+          "en": "“I admit that she is domestic,” he continued, “but I love travelling, ",
+          "role": "発話と話者",
+          "ja": "「家庭的なところは認めるけれど」と彼は続けた。「僕は旅が好きだ。",
+          "hint": "語句：admit＝認める、domestic＝家庭的な、travelling＝旅行すること",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "admit",
+              "ja": "認める",
+              "note": "譲歩して事実を受け入れる"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "domestic",
+              "ja": "家庭的な",
+              "note": "家や家庭を好む"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "continued",
+              "ja": "続けた",
+              "note": "continue の過去形"
+            },
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "love",
+              "ja": "愛・愛する",
+              "note": "名詞・動詞"
+            },
+            {
+              "word": "travelling",
+              "ja": "旅行すること",
+              "note": "英国式綴り。米国式 traveling"
+            }
+          ]
+        },
+        {
+          "en": "and my wife, consequently, should love travelling also.”",
+          "role": "並列・追加",
+          "ja": "だから妻にも旅好きであってほしい」",
+          "hint": "consequently＝それゆえ ／ 語句：travelling＝旅行すること、consequently＝したがって",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "wife",
+              "ja": "妻",
+              "note": "婚姻関係"
+            },
+            {
+              "word": "consequently",
+              "ja": "したがって",
+              "note": "結論・結果を導く副詞"
+            },
+            {
+              "word": "should",
+              "ja": "〜すべき・〜だろう",
+              "note": "義務・予期の助動詞"
+            },
+            {
+              "word": "love",
+              "ja": "愛・愛する",
+              "note": "名詞・動詞"
+            },
+            {
+              "word": "travelling",
+              "ja": "旅行すること",
+              "note": "英国式綴り。米国式 traveling"
+            },
+            {
+              "word": "also",
+              "ja": "〜もまた",
+              "note": "追加を表す"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "began to tire of",
+          "ja": "〜に飽き始めた"
+        },
+        {
+          "en": "whenever the wind blew",
+          "ja": "風が吹くたびに"
+        },
+        {
+          "en": "consequently",
+          "ja": "それゆえ"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "lonely",
+          "ja": "寂しい",
+          "note": "ひとりで心細い状態"
+        },
+        {
+          "word": "lady-love",
+          "ja": "恋人の女性",
+          "note": "古風な複合名詞"
+        },
+        {
+          "word": "conversation",
+          "ja": "会話",
+          "note": "have no conversation で話が合わない"
+        },
+        {
+          "word": "coquette",
+          "ja": "浮気っぽい女",
+          "note": "古風な女性像を示す語"
+        },
+        {
+          "word": "flirting",
+          "ja": "戯れている・色目を使う",
+          "note": "flirt with ... は人以外にも比喩的に使う"
+        },
+        {
+          "word": "Reed",
+          "ja": "葦（アシ）",
+          "note": "水辺に生える細長い植物"
+        },
+        {
+          "word": "graceful",
+          "ja": "優雅な",
+          "note": "動作の美しさ"
+        },
+        {
+          "word": "curtseys",
+          "ja": "女性の礼のお辞儀",
+          "note": "curtsy の複数形"
+        },
+        {
+          "word": "admit",
+          "ja": "認める",
+          "note": "譲歩して事実を受け入れる"
+        },
+        {
+          "word": "domestic",
+          "ja": "家庭的な",
+          "note": "家や家庭を好む"
+        },
+        {
+          "word": "travelling",
+          "ja": "旅行すること",
+          "note": "英国式綴り。米国式 traveling"
+        },
+        {
+          "word": "consequently",
+          "ja": "したがって",
+          "note": "結論・結果を導く副詞"
+        }
+      ]
+    },
+    {
+      "summary": "葦は故郷への愛着ゆえに旅への誘いを断る。",
+      "chunks": [
+        {
+          "en": "“Will you come away with me?” ",
+          "role": "疑問文・会話",
+          "ja": "「僕と一緒に旅立たないか？」",
+          "hint": "come away with me＝私と一緒に旅に出る",
+          "words": [
+            {
+              "word": "Will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "come",
+              "ja": "来る",
+              "note": "come away で一緒に去る"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            }
+          ]
+        },
+        {
+          "en": "he said finally to her; ",
+          "role": "発話と話者",
+          "ja": "彼は最後に彼女にそう言った。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "finally",
+              "ja": "ついに・最後に",
+              "note": "時間の終わり"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            }
+          ]
+        },
+        {
+          "en": "but the Reed shook her head, ",
+          "role": "逆接・対比",
+          "ja": "しかし葦は首を横に振った。",
+          "hint": "語句：Reed＝葦（アシ）",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Reed",
+              "ja": "葦（アシ）",
+              "note": "水辺に生える細長い植物"
+            },
+            {
+              "word": "shook",
+              "ja": "振った",
+              "note": "shake の過去形"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "head",
+              "ja": "頭",
+              "note": "身体の部位"
+            }
+          ]
+        },
+        {
+          "en": "she was so attached to her home.",
+          "role": "主語・叙述",
+          "ja": "自分の住む場所を離れがたく思っていたのだ。",
+          "hint": "attached to her home＝住み慣れた土地に愛着がある ／ 語句：attached＝愛着がある・結びついた",
+          "words": [
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "attached",
+              "ja": "愛着がある・結びついた",
+              "note": "be attached to で「〜を離れがたく思う」"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "home",
+              "ja": "家・故郷",
+              "note": "住む場所"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "come away with me",
+          "ja": "私と一緒に旅に出る"
+        },
+        {
+          "en": "attached to her home",
+          "ja": "住み慣れた土地に愛着がある"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Reed",
+          "ja": "葦（アシ）",
+          "note": "水辺に生える細長い植物"
+        },
+        {
+          "word": "attached",
+          "ja": "愛着がある・結びついた",
+          "note": "be attached to で「〜を離れがたく思う」"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメは相手が自分をもてあそんだと非難して飛び去る。",
+      "chunks": [
+        {
+          "en": "“You have been trifling with me,” he cried. ",
+          "role": "発話と話者",
+          "ja": "「君は僕をもてあそんでいたんだな」と彼は叫んだ。",
+          "hint": "trifling with me＝私をもてあそんでいた ／ 語句：trifling＝もてあそぶ",
+          "words": [
+            {
+              "word": "You",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "been",
+              "ja": "〜であった・いた",
+              "note": "be の過去分詞"
+            },
+            {
+              "word": "trifling",
+              "ja": "もてあそぶ",
+              "note": "trifle with ... で軽く扱う"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "me",
+              "ja": "私を・私に",
+              "note": "一人称目的格"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "cried",
+              "ja": "叫んだ・泣いた",
+              "note": "cry の過去形。文脈で区別"
+            }
+          ]
+        },
+        {
+          "en": "“I am off to the Pyramids. Good-bye!” and he flew away.",
+          "role": "主語・叙述",
+          "ja": "「僕はピラミッドへ行く。さようなら！」そして飛び去った。",
+          "hint": "I am off to＝〜へ出発するところだ ／ 語句：Pyramids＝ピラミッド",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "off",
+              "ja": "離れて・去って",
+              "note": "be off to で出発する"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Pyramids",
+              "ja": "ピラミッド",
+              "note": "エジプトの古代建造物"
+            },
+            {
+              "word": "Good-bye",
+              "ja": "さようなら",
+              "note": "別れの挨拶"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "trifling with me",
+          "ja": "私をもてあそんでいた"
+        },
+        {
+          "en": "I am off to",
+          "ja": "〜へ出発するところだ"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "trifling",
+          "ja": "もてあそぶ",
+          "note": "trifle with ... で軽く扱う"
+        },
+        {
+          "word": "Pyramids",
+          "ja": "ピラミッド",
+          "note": "エジプトの古代建造物"
+        }
+      ]
+    },
+    {
+      "summary": "旅立ったツバメが夜の街に到着し、宿を探す。",
+      "chunks": [
+        {
+          "en": "All day long he flew, ",
+          "role": "時間・場面",
+          "ja": "彼は一日じゅう飛び続け、",
+          "hint": "All day long＝一日じゅう",
+          "words": [
+            {
+              "word": "All",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "day",
+              "ja": "日・昼間",
+              "note": "時間単位"
+            },
+            {
+              "word": "long",
+              "ja": "長い・長く",
+              "note": "時間・距離"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            }
+          ]
+        },
+        {
+          "en": "and at night-time he arrived at the city. ",
+          "role": "並列・追加",
+          "ja": "夜には街へ到着した。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "night-time",
+              "ja": "夜間",
+              "note": "夜の時間帯"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "arrived",
+              "ja": "到着した",
+              "note": "arrive の過去形"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "city",
+              "ja": "都市・街",
+              "note": "大きな街"
+            }
+          ]
+        },
+        {
+          "en": "“Where shall I put up?” ",
+          "role": "疑問文・会話",
+          "ja": "「どこに泊まろう？」",
+          "hint": "put up＝宿泊する",
+          "words": [
+            {
+              "word": "Where",
+              "ja": "どこ・〜する場所",
+              "note": "場所の疑問・関係副詞"
+            },
+            {
+              "word": "shall",
+              "ja": "〜するだろう・〜しましょう",
+              "note": "約束・提案に使う助動詞"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "put",
+              "ja": "置く・泊まる",
+              "note": "put up で宿泊する。活用形は同じ"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            }
+          ]
+        },
+        {
+          "en": "he said; “I hope the town has made preparations.”",
+          "role": "発話と話者",
+          "ja": "彼は言った。「街が準備してくれているといいけど」",
+          "hint": "made preparations＝準備を整えた ／ 語句：preparations＝準備",
+          "words": [
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "hope",
+              "ja": "望む・希望する",
+              "note": "願望"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "town",
+              "ja": "町・街",
+              "note": "都市より小規模"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "made",
+              "ja": "作った・させた",
+              "note": "make の過去形"
+            },
+            {
+              "word": "preparations",
+              "ja": "準備",
+              "note": "make preparations で「準備する」"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "All day long",
+          "ja": "一日じゅう"
+        },
+        {
+          "en": "put up",
+          "ja": "宿泊する"
+        },
+        {
+          "en": "made preparations",
+          "ja": "準備を整えた"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "preparations",
+          "ja": "準備",
+          "note": "make preparations で「準備する」"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメの目に高い柱の王子の像が入る。",
+      "chunks": [
+        {
+          "en": "Then he saw the statue on the tall column.",
+          "role": "時間・場面",
+          "ja": "すると彼は高い柱の上にある像を見つけた。",
+          "hint": "the statue on the tall column＝高い柱の上の像 ／ 語句：then＝それから・そのとき、statue＝像、column＝柱",
+          "words": [
+            {
+              "word": "Then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "saw",
+              "ja": "見た",
+              "note": "see の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "tall",
+              "ja": "背の高い・高い",
+              "note": "形容詞"
+            },
+            {
+              "word": "column",
+              "ja": "柱",
+              "note": "像などを載せる円柱"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "the statue on the tall column",
+          "ja": "高い柱の上の像"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "then",
+          "ja": "それから・そのとき",
+          "note": "時間のつながりを示す"
+        },
+        {
+          "word": "statue",
+          "ja": "像",
+          "note": "彫像、人物をかたどった造形物"
+        },
+        {
+          "word": "column",
+          "ja": "柱",
+          "note": "像などを載せる円柱"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメは王子の像の足元を宿に決める。",
+      "chunks": [
+        {
+          "en": "“I will put up there,” he cried; ",
+          "role": "発話と話者",
+          "ja": "「あそこに泊まろう」と彼は叫んだ。",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "put",
+              "ja": "置く・泊まる",
+              "note": "put up で宿泊する。活用形は同じ"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            },
+            {
+              "word": "there",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "cried",
+              "ja": "叫んだ・泣いた",
+              "note": "cry の過去形。文脈で区別"
+            }
+          ]
+        },
+        {
+          "en": "“it is a fine position, with plenty of fresh air.” ",
+          "role": "意味のまとまり",
+          "ja": "「新鮮な空気がたっぷりあって、いい場所だ」",
+          "hint": "plenty of fresh air＝新鮮な空気がたっぷり ／ 語句：position＝場所・位置、plenty＝たっぷり、fresh＝新鮮な",
+          "words": [
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "fine",
+              "ja": "上質な・美しい",
+              "note": "品質がよい"
+            },
+            {
+              "word": "position",
+              "ja": "場所・位置",
+              "note": "寝場所を探す文脈"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "plenty",
+              "ja": "たっぷり",
+              "note": "plenty of ... で「十分な〜」"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "fresh",
+              "ja": "新鮮な",
+              "note": "空気の形容"
+            },
+            {
+              "word": "air",
+              "ja": "空気",
+              "note": "新鮮な空気 fresh air"
+            }
+          ]
+        },
+        {
+          "en": "So he alighted just between the feet of the Happy Prince.",
+          "role": "結果・場面展開",
+          "ja": "そこで幸福な王子の両足の間に降り立った。",
+          "hint": "alighted＝降り立った ／ 語句：alighted＝降り立った、prince＝王子",
+          "words": [
+            {
+              "word": "So",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "alighted",
+              "ja": "降り立った",
+              "note": "鳥が止まり木に降りる動作"
+            },
+            {
+              "word": "just",
+              "ja": "ちょうど・ただ〜だけ",
+              "note": "程度や時点の強調"
+            },
+            {
+              "word": "between",
+              "ja": "〜の間に",
+              "note": "二者の間を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "feet",
+              "ja": "足",
+              "note": "foot の複数形"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "plenty of fresh air",
+          "ja": "新鮮な空気がたっぷり"
+        },
+        {
+          "en": "alighted",
+          "ja": "降り立った"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "position",
+          "ja": "場所・位置",
+          "note": "寝場所を探す文脈"
+        },
+        {
+          "word": "plenty",
+          "ja": "たっぷり",
+          "note": "plenty of ... で「十分な〜」"
+        },
+        {
+          "word": "fresh",
+          "ja": "新鮮な",
+          "note": "空気の形容"
+        },
+        {
+          "word": "alighted",
+          "ja": "降り立った",
+          "note": "鳥が止まり木に降りる動作"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1024 @@
+{
+  "day": 15,
+  "title": "両目を失う王子",
+  "wordCount": 129,
+  "paragraphs": [
+    "“I will stay with you one night longer,” said the Swallow, “but I cannot pluck out your eye. You would be quite blind then.”",
+    "“Swallow, Swallow, little Swallow,” said the Prince, “do as I command you.”",
+    "So he plucked out the Prince’s other eye, and darted down with it. He swooped past the match-girl, and slipped the jewel into the palm of her hand. “What a lovely bit of glass,” cried the little girl; and she ran home, laughing.",
+    "Then the Swallow came back to the Prince. “You are blind now,” he said, “so I will stay with you always.”",
+    "“No, little Swallow,” said the poor Prince, “you must go away to Egypt.”",
+    "“I will stay with you always,” said the Swallow, and he slept at the Prince’s feet."
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "plucked",
+      "ja": "引き抜いた"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "ツバメは王子が完全に盲目になると心配する。",
+      "chunks": [
+        {
+          "en": "“I will stay with you one night longer,” said the Swallow, ",
+          "role": "発話と話者",
+          "ja": "「もう一晩一緒にいます」とツバメは言った。",
+          "hint": "語句：Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "stay",
+              "ja": "とどまる・泊まる",
+              "note": "移動せず残る"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "one",
+              "ja": "一つ・一人・ある",
+              "note": "数字と代名詞"
+            },
+            {
+              "word": "night",
+              "ja": "夜",
+              "note": "時間帯"
+            },
+            {
+              "word": "longer",
+              "ja": "もっと長く・これ以上",
+              "note": "比較級"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            }
+          ]
+        },
+        {
+          "en": "“but I cannot pluck out your eye. ",
+          "role": "逆接・対比",
+          "ja": "「でもあなたの目を抜くことはできません。",
+          "hint": "pluck out your eye＝目を引き抜く",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "cannot",
+              "ja": "〜できない",
+              "note": "can not の一語形"
+            },
+            {
+              "word": "pluck",
+              "ja": "引き抜く",
+              "note": "pluck out で抜き取る"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "your",
+              "ja": "あなたの",
+              "note": "二人称所有格"
+            },
+            {
+              "word": "eye",
+              "ja": "目",
+              "note": "視覚器官"
+            }
+          ]
+        },
+        {
+          "en": "You would be quite blind then.”",
+          "role": "主語・叙述",
+          "ja": "そうしたら完全に目が見えなくなります」",
+          "hint": "quite blind＝完全に目が見えない ／ 語句：blind＝目が見えない、then＝それから・そのとき",
+          "words": [
+            {
+              "word": "You",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "would",
+              "ja": "〜だろう・〜するつもりだった",
+              "note": "will の過去・仮定"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "quite",
+              "ja": "かなり・すっかり・まったく",
+              "note": "程度の副詞"
+            },
+            {
+              "word": "blind",
+              "ja": "目が見えない",
+              "note": "blind now で「今は失明している」"
+            },
+            {
+              "word": "then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "pluck out your eye",
+          "ja": "目を引き抜く"
+        },
+        {
+          "en": "quite blind",
+          "ja": "完全に目が見えない"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "blind",
+          "ja": "目が見えない",
+          "note": "blind now で「今は失明している」"
+        },
+        {
+          "word": "then",
+          "ja": "それから・そのとき",
+          "note": "時間のつながりを示す"
+        }
+      ]
+    },
+    {
+      "summary": "王子は先ほどと同様、命令を守るよう求める。",
+      "chunks": [
+        {
+          "en": "“Swallow, Swallow, little Swallow,” said the Prince, “do as I command you.”",
+          "role": "発話と話者",
+          "ja": "「ツバメよ、ツバメよ、小さなツバメよ」と王子は言った。「私の命令どおりにしなさい」",
+          "hint": "do as I command you＝私の言うとおりにしなさい ／ 語句：Swallow＝ツバメ、prince＝王子、command＝命じる",
+          "words": [
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "do",
+              "ja": "する・行う",
+              "note": "代動詞・疑問文の助動詞にもなる"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "command",
+              "ja": "命じる",
+              "note": "権威をもって指示する"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "do as I command you",
+          "ja": "私の言うとおりにしなさい"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "command",
+          "ja": "命じる",
+          "note": "権威をもって指示する"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメは二つ目のサファイアを少女に渡し、少女はガラスと思って喜ぶ。",
+      "chunks": [
+        {
+          "en": "So he plucked out the Prince’s other eye, ",
+          "role": "結果・場面展開",
+          "ja": "そこで彼は王子のもう片方の目を抜き、",
+          "hint": "語句：plucked＝引き抜いた、prince＝王子",
+          "words": [
+            {
+              "word": "So",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "plucked",
+              "ja": "引き抜いた",
+              "note": "pluck out で抜き取る"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince’s",
+              "ja": "王子の",
+              "note": "Prince の所有格"
+            },
+            {
+              "word": "other",
+              "ja": "ほかの・もう一方の",
+              "note": "区別を示す"
+            },
+            {
+              "word": "eye",
+              "ja": "目",
+              "note": "視覚器官"
+            }
+          ]
+        },
+        {
+          "en": "and darted down with it. ",
+          "role": "並列・追加",
+          "ja": "それを持って急降下した。",
+          "hint": "darted down＝さっと急降下した ／ 語句：darted＝素早く飛び込んだ",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "darted",
+              "ja": "素早く飛び込んだ",
+              "note": "dart は急に動く"
+            },
+            {
+              "word": "down",
+              "ja": "下へ・下に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            }
+          ]
+        },
+        {
+          "en": "He swooped past the match-girl, ",
+          "role": "主語・叙述",
+          "ja": "マッチ売りの少女のそばをかすめ、",
+          "hint": "語句：swooped＝急降下した",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "swooped",
+              "ja": "急降下した",
+              "note": "鳥が滑り込むように動く"
+            },
+            {
+              "word": "past",
+              "ja": "〜を通り過ぎて・過去",
+              "note": "場所・時間"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "match-girl",
+              "ja": "マッチ売りの少女",
+              "note": "複合名詞"
+            }
+          ]
+        },
+        {
+          "en": "and slipped the jewel into the palm of her hand. ",
+          "role": "並列・追加",
+          "ja": "宝石を少女の手のひらへそっと滑り込ませた。",
+          "hint": "slipped the jewel into＝宝石をそっと入れた ／ 語句：slipped＝そっと滑り込ませた、palm＝手のひら",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "slipped",
+              "ja": "そっと滑り込ませた",
+              "note": "slip into は中に滑り込ませる"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "jewel",
+              "ja": "宝石",
+              "note": "jewel の単数形"
+            },
+            {
+              "word": "into",
+              "ja": "〜の中へ",
+              "note": "方向を伴う前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "palm",
+              "ja": "手のひら",
+              "note": "樹木のヤシと同形"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "hand",
+              "ja": "手",
+              "note": "hand の単数形"
+            }
+          ]
+        },
+        {
+          "en": "“What a lovely bit of glass,” cried the little girl; ",
+          "role": "発話と話者",
+          "ja": "「なんてきれいなガラスのかけら！」と少女は叫び、",
+          "hint": "a lovely bit of glass＝きれいなガラスのかけら ／ 語句：lovely＝すてきな",
+          "words": [
+            {
+              "word": "What",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "lovely",
+              "ja": "すてきな",
+              "note": "好意的な評価"
+            },
+            {
+              "word": "bit",
+              "ja": "小片・少し",
+              "note": "a bit of ... は少量・かけら"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "glass",
+              "ja": "ガラス",
+              "note": "素材"
+            },
+            {
+              "word": "cried",
+              "ja": "叫んだ・泣いた",
+              "note": "cry の過去形。文脈で区別"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "girl",
+              "ja": "少女・女の子",
+              "note": "女性の子ども"
+            }
+          ]
+        },
+        {
+          "en": "and she ran home, laughing.",
+          "role": "並列・追加",
+          "ja": "笑いながら家へ駆けていった。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "ran",
+              "ja": "走った・延びていた",
+              "note": "run の過去形"
+            },
+            {
+              "word": "home",
+              "ja": "家・故郷",
+              "note": "住む場所"
+            },
+            {
+              "word": "laughing",
+              "ja": "笑いながら",
+              "note": "laugh の現在分詞"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "darted down",
+          "ja": "さっと急降下した"
+        },
+        {
+          "en": "slipped the jewel into",
+          "ja": "宝石をそっと入れた"
+        },
+        {
+          "en": "a lovely bit of glass",
+          "ja": "きれいなガラスのかけら"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "plucked",
+          "ja": "引き抜いた",
+          "note": "pluck out で抜き取る"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "darted",
+          "ja": "素早く飛び込んだ",
+          "note": "dart は急に動く"
+        },
+        {
+          "word": "swooped",
+          "ja": "急降下した",
+          "note": "鳥が滑り込むように動く"
+        },
+        {
+          "word": "slipped",
+          "ja": "そっと滑り込ませた",
+          "note": "slip into は中に滑り込ませる"
+        },
+        {
+          "word": "palm",
+          "ja": "手のひら",
+          "note": "樹木のヤシと同形"
+        },
+        {
+          "word": "lovely",
+          "ja": "すてきな",
+          "note": "好意的な評価"
+        }
+      ]
+    },
+    {
+      "summary": "盲目になった王子に、ツバメはずっとそばにいると宣言する。",
+      "chunks": [
+        {
+          "en": "Then the Swallow came back to the Prince. ",
+          "role": "時間・場面",
+          "ja": "それからツバメは王子のもとへ戻った。",
+          "hint": "語句：then＝それから・そのとき、Swallow＝ツバメ、prince＝王子",
+          "words": [
+            {
+              "word": "Then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "came",
+              "ja": "来た",
+              "note": "come の過去形"
+            },
+            {
+              "word": "back",
+              "ja": "戻って・後方へ",
+              "note": "復帰・方向を表す"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "“You are blind now,” he said, ",
+          "role": "発話と話者",
+          "ja": "「あなたはもう目が見えません」と彼は言った。",
+          "hint": "You are blind now＝あなたは今目が見えない ／ 語句：blind＝目が見えない",
+          "words": [
+            {
+              "word": "You",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "blind",
+              "ja": "目が見えない",
+              "note": "blind now で「今は失明している」"
+            },
+            {
+              "word": "now",
+              "ja": "今・もう",
+              "note": "現在時点"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            }
+          ]
+        },
+        {
+          "en": "“so I will stay with you always.”",
+          "role": "結果・場面展開",
+          "ja": "「だから私はずっとあなたのそばにいます」",
+          "hint": "stay with you always＝いつまでもあなたと一緒にいる ／ 語句：always＝いつも・ずっと",
+          "words": [
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "stay",
+              "ja": "とどまる・泊まる",
+              "note": "移動せず残る"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "always",
+              "ja": "いつも・ずっと",
+              "note": "ここでは永続的な約束にも使う"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "You are blind now",
+          "ja": "あなたは今目が見えない"
+        },
+        {
+          "en": "stay with you always",
+          "ja": "いつまでもあなたと一緒にいる"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "then",
+          "ja": "それから・そのとき",
+          "note": "時間のつながりを示す"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "blind",
+          "ja": "目が見えない",
+          "note": "blind now で「今は失明している」"
+        },
+        {
+          "word": "always",
+          "ja": "いつも・ずっと",
+          "note": "ここでは永続的な約束にも使う"
+        }
+      ]
+    },
+    {
+      "summary": "王子はそれでもツバメにエジプトへ行けと言う。",
+      "chunks": [
+        {
+          "en": "“No, little Swallow,” said the poor Prince, ",
+          "role": "発話と話者",
+          "ja": "「いや、小さなツバメよ」とかわいそうな王子は言った。",
+          "hint": "語句：Swallow＝ツバメ、prince＝王子",
+          "words": [
+            {
+              "word": "No",
+              "ja": "いいえ・一つも〜ない",
+              "note": "否定語"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "poor",
+              "ja": "貧しい・かわいそうな",
+              "note": "経済状態や同情"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "“you must go away to Egypt.”",
+          "role": "主語・叙述",
+          "ja": "「君はエジプトへ行かなくては」",
+          "hint": "must go away to Egypt＝エジプトへ行かなければならない ／ 語句：Egypt＝エジプト",
+          "words": [
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "must",
+              "ja": "〜しなければならない",
+              "note": "義務・強い推量"
+            },
+            {
+              "word": "go",
+              "ja": "行く",
+              "note": "移動"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "Egypt",
+              "ja": "エジプト",
+              "note": "ツバメの渡りの目的地"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "must go away to Egypt",
+          "ja": "エジプトへ行かなければならない"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "Egypt",
+          "ja": "エジプト",
+          "note": "ツバメの渡りの目的地"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメは残ると決め、王子の足元で眠る。",
+      "chunks": [
+        {
+          "en": "“I will stay with you always,” said the Swallow, ",
+          "role": "発話と話者",
+          "ja": "「私はいつまでもあなたのそばにいます」とツバメは言った。",
+          "hint": "語句：always＝いつも・ずっと、Swallow＝ツバメ",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "stay",
+              "ja": "とどまる・泊まる",
+              "note": "移動せず残る"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "always",
+              "ja": "いつも・ずっと",
+              "note": "ここでは永続的な約束にも使う"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            }
+          ]
+        },
+        {
+          "en": "and he slept at the Prince’s feet.",
+          "role": "並列・追加",
+          "ja": "そして王子の足元で眠った。",
+          "hint": "slept at the Prince’s feet＝王子の足元で眠った ／ 語句：prince＝王子",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "slept",
+              "ja": "眠った",
+              "note": "sleep の過去形"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince’s",
+              "ja": "王子の",
+              "note": "Prince の所有格"
+            },
+            {
+              "word": "feet",
+              "ja": "足",
+              "note": "foot の複数形"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "slept at the Prince’s feet",
+          "ja": "王子の足元で眠った"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "always",
+          "ja": "いつも・ずっと",
+          "note": "ここでは永続的な約束にも使う"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        }
+      ]
+    }
+  ]
+}

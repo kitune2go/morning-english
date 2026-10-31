@@ -5,12 +5,16 @@ on:
     branches: ["main"]
     paths:
       - "cards*.json"
+      - "index.html"
+      - "scripts/build-lazy-indexes.mjs"
       - "card-template.json"
       - "scripts/validate-cards.mjs"
       - ".github/workflows/validate-cards.yml"
   pull_request:
     paths:
       - "cards*.json"
+      - "index.html"
+      - "scripts/build-lazy-indexes.mjs"
       - "card-template.json"
       - "scripts/validate-cards.mjs"
       - ".github/workflows/validate-cards.yml"
@@ -24,5 +28,7 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+      - name: Validate generated reading indexes and JavaScript
+        run: node scripts/build-lazy-indexes.mjs --check
       - name: Validate card JSON
         run: node scripts/validate-cards.mjs

@@ -1,0 +1,1267 @@
+{
+  "day": 14,
+  "title": "マッチ売りの少女",
+  "wordCount": 185,
+  "paragraphs": [
+    "“It is winter,” answered the Swallow, “and the chill snow will soon be here. In Egypt the sun is warm on the green palm-trees, and the crocodiles lie in the mud and look lazily about them. My companions are building a nest in the Temple of Baalbec, and the pink and white doves are watching them, and cooing to each other. Dear Prince, I must leave you, but I will never forget you, and next spring I will bring you back two beautiful jewels in place of those you have given away. The ruby shall be redder than a red rose, and the sapphire shall be as blue as the great sea.”",
+    "“In the square below,” said the Happy Prince, “there stands a little match-girl. She has let her matches fall in the gutter, and they are all spoiled. Her father will beat her if she does not bring home some money, and she is crying. She has no shoes or stockings, and her little head is bare. Pluck out my other eye, and give it to her, and her father will not beat her.”"
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "ruby",
+      "ja": "ルビー"
+    },
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "sapphire",
+      "ja": "サファイア"
+    },
+    {
+      "word": "crocodiles",
+      "ja": "ワニ"
+    },
+    {
+      "word": "palm-trees",
+      "ja": "ヤシの木"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "ツバメは冬の到来を恐れつつ、来春には宝石を返すと約束する。",
+      "chunks": [
+        {
+          "en": "“It is winter,” answered the Swallow, ",
+          "role": "発話と話者",
+          "ja": "「もう冬です」とツバメは答えた。",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "It",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "winter",
+              "ja": "冬",
+              "note": "季節"
+            },
+            {
+              "word": "answered",
+              "ja": "答えた",
+              "note": "answer の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            }
+          ]
+        },
+        {
+          "en": "“and the chill snow will soon be here. ",
+          "role": "並列・追加",
+          "ja": "「冷たい雪がまもなく降ります。",
+          "hint": "語句：chill＝身にしみる冷たさ",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "chill",
+              "ja": "身にしみる冷たさ",
+              "note": "chill snow で冷たい雪"
+            },
+            {
+              "word": "snow",
+              "ja": "雪",
+              "note": "降雪"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "soon",
+              "ja": "まもなく",
+              "note": "近い未来"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "here",
+              "ja": "ここに",
+              "note": "話し手の場所"
+            }
+          ]
+        },
+        {
+          "en": "In Egypt the sun is warm on the green palm-trees, ",
+          "role": "意味のまとまり",
+          "ja": "エジプトでは緑のヤシの木に暖かな日が差し、",
+          "hint": "語句：Egypt＝エジプト、palm＝手のひら",
+          "words": [
+            {
+              "word": "In",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "Egypt",
+              "ja": "エジプト",
+              "note": "ツバメの渡りの目的地"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "sun",
+              "ja": "太陽",
+              "note": "天体"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "warm",
+              "ja": "暖かい",
+              "note": "温度・心理"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "green",
+              "ja": "緑色の",
+              "note": "色"
+            },
+            {
+              "word": "palm-trees",
+              "ja": "ヤシの木々",
+              "note": "複数形"
+            }
+          ]
+        },
+        {
+          "en": "and the crocodiles lie in the mud and look lazily about them. ",
+          "role": "並列・追加",
+          "ja": "ワニたちは泥の中に寝そべり、ものうげに辺りを見ています。",
+          "hint": "語句：crocodiles＝ワニ、mud＝泥、lazily＝ものうげに・怠惰に",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "crocodiles",
+              "ja": "ワニ",
+              "note": "大型の爬虫類"
+            },
+            {
+              "word": "lie",
+              "ja": "横たわる",
+              "note": "嘘をつく lie と同形"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "mud",
+              "ja": "泥",
+              "note": "湿った土"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "look",
+              "ja": "見る・見える",
+              "note": "look at, look like に注目"
+            },
+            {
+              "word": "lazily",
+              "ja": "ものうげに・怠惰に",
+              "note": "lazy の副詞"
+            },
+            {
+              "word": "about",
+              "ja": "〜について・周囲に",
+              "note": "話題・位置を示す"
+            },
+            {
+              "word": "them",
+              "ja": "彼らを・彼女らに",
+              "note": "三人称複数目的格"
+            }
+          ]
+        },
+        {
+          "en": "My companions are building a nest in the Temple of Baalbec, ",
+          "role": "意味のまとまり",
+          "ja": "仲間たちはバールベックの神殿に巣を作り、",
+          "hint": "語句：companions＝仲間たち、Baalbec＝バールベック",
+          "words": [
+            {
+              "word": "My",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "companions",
+              "ja": "仲間たち",
+              "note": "一緒に時間を過ごす人"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "building",
+              "ja": "建てている",
+              "note": "build の現在分詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "nest",
+              "ja": "巣",
+              "note": "鳥の住処"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Temple",
+              "ja": "神殿",
+              "note": "宗教施設"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "Baalbec",
+              "ja": "バールベック",
+              "note": "中東の古代神殿都市の名"
+            }
+          ]
+        },
+        {
+          "en": "and the pink and white doves are watching them, ",
+          "role": "並列・追加",
+          "ja": "桃色と白のハトがそれを見守り、",
+          "hint": "語句：doves＝ハトたち",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "pink",
+              "ja": "ピンク色の",
+              "note": "色"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "white",
+              "ja": "白い",
+              "note": "色"
+            },
+            {
+              "word": "doves",
+              "ja": "ハトたち",
+              "note": "平和や愛の象徴にもなる"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "watching",
+              "ja": "見ている",
+              "note": "watch の現在分詞"
+            },
+            {
+              "word": "them",
+              "ja": "彼らを・彼女らに",
+              "note": "三人称複数目的格"
+            }
+          ]
+        },
+        {
+          "en": "and cooing to each other. ",
+          "role": "並列・追加",
+          "ja": "互いにクークーと鳴いています。",
+          "hint": "語句：cooing＝クークーと鳴いている",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "cooing",
+              "ja": "クークーと鳴いている",
+              "note": "ハトの声"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "each",
+              "ja": "それぞれ・一つ一つの",
+              "note": "個別を強調"
+            },
+            {
+              "word": "other",
+              "ja": "ほかの・もう一方の",
+              "note": "区別を示す"
+            }
+          ]
+        },
+        {
+          "en": "Dear Prince, I must leave you, but I will never forget you, ",
+          "role": "意味のまとまり",
+          "ja": "王子さま、もう行かなくては。でもあなたを忘れません。",
+          "hint": "対照や譲歩のつながりに注目",
+          "words": [
+            {
+              "word": "Dear",
+              "ja": "愛しい・親愛なる",
+              "note": "呼びかけ、Dear Prince"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "must",
+              "ja": "〜しなければならない",
+              "note": "義務・強い推量"
+            },
+            {
+              "word": "leave",
+              "ja": "去る・離れる",
+              "note": "場所から去る"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "never",
+              "ja": "決して〜ない・一度も〜ない",
+              "note": "強い否定"
+            },
+            {
+              "word": "forget",
+              "ja": "忘れる",
+              "note": "記憶を失う"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            }
+          ]
+        },
+        {
+          "en": "and next spring I will bring you back two beautiful jewels in ",
+          "role": "並列・追加",
+          "ja": "来春には美しい宝石を二つお返しします。",
+          "hint": "語句：jewels＝宝石類",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "next",
+              "ja": "次の・来〜",
+              "note": "順序・時間"
+            },
+            {
+              "word": "spring",
+              "ja": "春",
+              "note": "季節"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "bring",
+              "ja": "持ってくる",
+              "note": "話し手の側へ運ぶ"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "back",
+              "ja": "戻って・後方へ",
+              "note": "復帰・方向を表す"
+            },
+            {
+              "word": "two",
+              "ja": "二つ・二人",
+              "note": "数字"
+            },
+            {
+              "word": "beautiful",
+              "ja": "美しい",
+              "note": "美しさを表す形容詞"
+            },
+            {
+              "word": "jewels",
+              "ja": "宝石類",
+              "note": "jewel の複数形"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            }
+          ]
+        },
+        {
+          "en": "place of those you have given away. ",
+          "role": "意味のまとまり",
+          "ja": "あなたが人に与えたものの代わりとして。",
+          "hint": "given away＝人に譲った",
+          "words": [
+            {
+              "word": "place",
+              "ja": "場所・位置",
+              "note": "put up there の位置にも関連"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "those",
+              "ja": "あれら・それら",
+              "note": "those you have given away で譲ったもの"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "given",
+              "ja": "与えた・与えられた",
+              "note": "give の過去分詞"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            }
+          ]
+        },
+        {
+          "en": "The ruby shall be redder than a red rose, ",
+          "role": "主語・叙述",
+          "ja": "ルビーは赤いバラよりも赤く、",
+          "hint": "語句：ruby＝ルビー",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "ruby",
+              "ja": "ルビー",
+              "note": "赤い宝石"
+            },
+            {
+              "word": "shall",
+              "ja": "〜するだろう・〜しましょう",
+              "note": "約束・提案に使う助動詞"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "redder",
+              "ja": "より赤い",
+              "note": "red の比較級"
+            },
+            {
+              "word": "than",
+              "ja": "〜より",
+              "note": "比較級に続く"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "red",
+              "ja": "赤い",
+              "note": "色"
+            },
+            {
+              "word": "rose",
+              "ja": "昇った",
+              "note": "rise の過去形。花のバラも同形"
+            }
+          ]
+        },
+        {
+          "en": "and the sapphire shall be as blue as the great sea.”",
+          "role": "並列・追加",
+          "ja": "サファイアは大海のように青いでしょう」",
+          "hint": "as blue as the great sea＝大海のように青い",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "sapphire",
+              "ja": "サファイア",
+              "note": "宝石"
+            },
+            {
+              "word": "shall",
+              "ja": "〜するだろう・〜しましょう",
+              "note": "約束・提案に使う助動詞"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "blue",
+              "ja": "青い",
+              "note": "色"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "great",
+              "ja": "大きな・偉大な",
+              "note": "大きさ・重要性"
+            },
+            {
+              "word": "sea",
+              "ja": "海",
+              "note": "広い海"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "in place of",
+          "ja": "〜の代わりに"
+        },
+        {
+          "en": "given away",
+          "ja": "人に譲った"
+        },
+        {
+          "en": "as blue as the great sea",
+          "ja": "大海のように青い"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "chill",
+          "ja": "身にしみる冷たさ",
+          "note": "chill snow で冷たい雪"
+        },
+        {
+          "word": "Egypt",
+          "ja": "エジプト",
+          "note": "ツバメの渡りの目的地"
+        },
+        {
+          "word": "palm",
+          "ja": "手のひら",
+          "note": "樹木のヤシと同形"
+        },
+        {
+          "word": "crocodiles",
+          "ja": "ワニ",
+          "note": "大型の爬虫類"
+        },
+        {
+          "word": "mud",
+          "ja": "泥",
+          "note": "湿った土"
+        },
+        {
+          "word": "lazily",
+          "ja": "ものうげに・怠惰に",
+          "note": "lazy の副詞"
+        },
+        {
+          "word": "companions",
+          "ja": "仲間たち",
+          "note": "一緒に時間を過ごす人"
+        },
+        {
+          "word": "Baalbec",
+          "ja": "バールベック",
+          "note": "中東の古代神殿都市の名"
+        },
+        {
+          "word": "doves",
+          "ja": "ハトたち",
+          "note": "平和や愛の象徴にもなる"
+        },
+        {
+          "word": "cooing",
+          "ja": "クークーと鳴いている",
+          "note": "ハトの声"
+        },
+        {
+          "word": "jewels",
+          "ja": "宝石類",
+          "note": "jewel の複数形"
+        },
+        {
+          "word": "ruby",
+          "ja": "ルビー",
+          "note": "赤い宝石"
+        }
+      ]
+    },
+    {
+      "summary": "王子は溝にマッチを落とした少女を助けるため、もう一方の目も差し出す。",
+      "chunks": [
+        {
+          "en": "“In the square below,” said the Happy Prince, ",
+          "role": "発話と話者",
+          "ja": "「この下の広場には」と幸福な王子は言った。",
+          "hint": "語句：prince＝王子",
+          "words": [
+            {
+              "word": "In",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "square",
+              "ja": "広場・四角形",
+              "note": "街の広場"
+            },
+            {
+              "word": "below",
+              "ja": "下に・下方の",
+              "note": "位置を示す"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "“there stands a little match-girl. ",
+          "role": "意味のまとまり",
+          "ja": "「小さなマッチ売りの少女がいます。",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "there",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "stands",
+              "ja": "立っている",
+              "note": "stand 三人称単数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "match-girl",
+              "ja": "マッチ売りの少女",
+              "note": "複合名詞"
+            }
+          ]
+        },
+        {
+          "en": "She has let her matches fall in the gutter, ",
+          "role": "主語・叙述",
+          "ja": "彼女はマッチを側溝に落としてしまい、",
+          "hint": "let her matches fall＝マッチを落としてしまった ／ 語句：matches＝マッチ、gutter＝側溝",
+          "words": [
+            {
+              "word": "She",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "let",
+              "ja": "〜させる・許す",
+              "note": "let は活用形同じ"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "matches",
+              "ja": "マッチ",
+              "note": "火を付ける道具"
+            },
+            {
+              "word": "fall",
+              "ja": "落ちる",
+              "note": "転落する"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "gutter",
+              "ja": "側溝",
+              "note": "道端の排水溝"
+            }
+          ]
+        },
+        {
+          "en": "and they are all spoiled. ",
+          "role": "並列・追加",
+          "ja": "全部だめになったのです。",
+          "hint": "語句：spoiled＝だめになった",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "they",
+              "ja": "彼らは・彼女らは",
+              "note": "三人称複数主格"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "all",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "spoiled",
+              "ja": "だめになった",
+              "note": "ぬれて使い物にならない"
+            }
+          ]
+        },
+        {
+          "en": "Her father will beat her ",
+          "role": "意味のまとまり",
+          "ja": "父親は彼女を殴るでしょう。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "Her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "father",
+              "ja": "父親",
+              "note": "親族"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "beat",
+              "ja": "殴る・打つ",
+              "note": "beat は現在形と過去形が同じ"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            }
+          ]
+        },
+        {
+          "en": "if she does not bring home some money, and she is crying. ",
+          "role": "条件・仮定",
+          "ja": "お金を持って帰らなければ。少女は泣いています。",
+          "hint": "bring home some money＝お金を家に持ち帰る ／ 語句：crying＝泣いている",
+          "words": [
+            {
+              "word": "if",
+              "ja": "もし〜なら・〜かどうか",
+              "note": "条件・間接疑問"
+            },
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "does",
+              "ja": "する",
+              "note": "do の三人称単数"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "bring",
+              "ja": "持ってくる",
+              "note": "話し手の側へ運ぶ"
+            },
+            {
+              "word": "home",
+              "ja": "家・故郷",
+              "note": "住む場所"
+            },
+            {
+              "word": "some",
+              "ja": "いくらかの・ある",
+              "note": "不特定の量"
+            },
+            {
+              "word": "money",
+              "ja": "お金",
+              "note": "貨幣"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "crying",
+              "ja": "泣いている",
+              "note": "cry の進行形・動名詞"
+            }
+          ]
+        },
+        {
+          "en": "She has no shoes or stockings, and her little head is bare. ",
+          "role": "主語・叙述",
+          "ja": "靴も靴下もなく、頭もむき出しです。",
+          "hint": "語句：stockings＝靴下、bare＝むき出しの",
+          "words": [
+            {
+              "word": "She",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "no",
+              "ja": "いいえ・一つも〜ない",
+              "note": "否定語"
+            },
+            {
+              "word": "shoes",
+              "ja": "靴",
+              "note": "shoe の複数形"
+            },
+            {
+              "word": "or",
+              "ja": "または",
+              "note": "選択肢の接続"
+            },
+            {
+              "word": "stockings",
+              "ja": "靴下",
+              "note": "長めの脚用衣服"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "head",
+              "ja": "頭",
+              "note": "身体の部位"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "bare",
+              "ja": "むき出しの",
+              "note": "覆われていない"
+            }
+          ]
+        },
+        {
+          "en": "Pluck out my other eye, and give it to her, ",
+          "role": "意味のまとまり",
+          "ja": "私のもう片方の目を抜いて、その子に渡してください。",
+          "hint": "Pluck out my other eye＝もう片方の目を抜いて",
+          "words": [
+            {
+              "word": "Pluck",
+              "ja": "引き抜く",
+              "note": "pluck out で抜き取る"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "my",
+              "ja": "私の",
+              "note": "一人称所有格"
+            },
+            {
+              "word": "other",
+              "ja": "ほかの・もう一方の",
+              "note": "区別を示す"
+            },
+            {
+              "word": "eye",
+              "ja": "目",
+              "note": "視覚器官"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "give",
+              "ja": "与える",
+              "note": "物や気持ちを渡す"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            }
+          ]
+        },
+        {
+          "en": "and her father will not beat her.”",
+          "role": "並列・追加",
+          "ja": "そうすれば父親はその子を殴らないでしょう」",
+          "hint": "会話文。発話者と引用範囲を確認",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "father",
+              "ja": "父親",
+              "note": "親族"
+            },
+            {
+              "word": "will",
+              "ja": "〜するだろう・〜するつもり",
+              "note": "未来・意思"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "beat",
+              "ja": "殴る・打つ",
+              "note": "beat は現在形と過去形が同じ"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "let her matches fall",
+          "ja": "マッチを落としてしまった"
+        },
+        {
+          "en": "bring home some money",
+          "ja": "お金を家に持ち帰る"
+        },
+        {
+          "en": "Pluck out my other eye",
+          "ja": "もう片方の目を抜いて"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "matches",
+          "ja": "マッチ",
+          "note": "火を付ける道具"
+        },
+        {
+          "word": "gutter",
+          "ja": "側溝",
+          "note": "道端の排水溝"
+        },
+        {
+          "word": "spoiled",
+          "ja": "だめになった",
+          "note": "ぬれて使い物にならない"
+        },
+        {
+          "word": "crying",
+          "ja": "泣いている",
+          "note": "cry の進行形・動名詞"
+        },
+        {
+          "word": "stockings",
+          "ja": "靴下",
+          "note": "長めの脚用衣服"
+        },
+        {
+          "word": "bare",
+          "ja": "むき出しの",
+          "note": "覆われていない"
+        }
+      ]
+    }
+  ]
+}

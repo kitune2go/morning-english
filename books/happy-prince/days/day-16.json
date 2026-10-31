@@ -1,0 +1,954 @@
+{
+  "day": 16,
+  "title": "遠い国の話",
+  "wordCount": 145,
+  "paragraphs": [
+    "All the next day he sat on the Prince’s shoulder, and told him stories of what he had seen in strange lands. He told him of the red ibises, who stand in long rows on the banks of the Nile, and catch gold-fish in their beaks; of the Sphinx, who is as old as the world itself, and lives in the desert, and knows everything; of the merchants, who walk slowly by the side of their camels, and carry amber beads in their hands; of the King of the Mountains of the Moon, who is as black as ebony, and worships a large crystal; of the great green snake that sleeps in a palm-tree, and has twenty priests to feed it with honey-cakes; and of the pygmies who sail over a big lake on large flat leaves, and are always at war with the butterflies."
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "ibises",
+      "ja": "トキ"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "ツバメはナイル川や砂漠で見た不思議な存在の物語を語る。",
+      "chunks": [
+        {
+          "en": "All the next day he sat on the Prince’s shoulder, ",
+          "role": "意味のまとまり",
+          "ja": "翌日じゅう、ツバメは王子の肩に止まり、",
+          "hint": "語句：shoulder＝肩",
+          "words": [
+            {
+              "word": "All",
+              "ja": "すべて・全部の",
+              "note": "範囲を強調"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "next",
+              "ja": "次の・来〜",
+              "note": "順序・時間"
+            },
+            {
+              "word": "day",
+              "ja": "日・昼間",
+              "note": "時間単位"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "sat",
+              "ja": "座った・止まっていた",
+              "note": "sit の過去形"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince’s",
+              "ja": "王子の",
+              "note": "Prince の所有格"
+            },
+            {
+              "word": "shoulder",
+              "ja": "肩",
+              "note": "鳥の止まる場所"
+            }
+          ]
+        },
+        {
+          "en": "and told him stories of what he had seen in strange lands. ",
+          "role": "並列・追加",
+          "ja": "遠い異国で見てきた物語を聞かせた。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "told",
+              "ja": "話した・伝えた",
+              "note": "tell の過去形"
+            },
+            {
+              "word": "him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "stories",
+              "ja": "物語・話",
+              "note": "story の複数形"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "what",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "seen",
+              "ja": "見たことがある",
+              "note": "see の過去分詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "strange",
+              "ja": "奇妙な・見知らぬ",
+              "note": "strange lands では未知の"
+            },
+            {
+              "word": "lands",
+              "ja": "国々・土地",
+              "note": "land の複数形"
+            }
+          ]
+        },
+        {
+          "en": "He told him of the red ibises, ",
+          "role": "主語・叙述",
+          "ja": "彼は赤いトキたちのことを話した。",
+          "hint": "語句：ibises＝トキ類",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "told",
+              "ja": "話した・伝えた",
+              "note": "tell の過去形"
+            },
+            {
+              "word": "him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "red",
+              "ja": "赤い",
+              "note": "色"
+            },
+            {
+              "word": "ibises",
+              "ja": "トキ類",
+              "note": "水辺に暮らす鳥"
+            }
+          ]
+        },
+        {
+          "en": "who stand in long rows on the banks of the Nile, ",
+          "role": "関係詞・修飾節",
+          "ja": "その鳥たちはナイル川の岸辺に長い列を作り、",
+          "hint": "語句：banks＝川岸",
+          "words": [
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "stand",
+              "ja": "立つ",
+              "note": "姿勢を表す"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "long",
+              "ja": "長い・長く",
+              "note": "時間・距離"
+            },
+            {
+              "word": "rows",
+              "ja": "列",
+              "note": "row の複数形"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "banks",
+              "ja": "川岸",
+              "note": "金融機関ではない"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Nile",
+              "ja": "ナイル川",
+              "note": "河川名"
+            }
+          ]
+        },
+        {
+          "en": "and catch gold-fish in their beaks; ",
+          "role": "並列・追加",
+          "ja": "くちばしで金色の魚を捕る。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "catch",
+              "ja": "捕らえる",
+              "note": "魚を捕るなど"
+            },
+            {
+              "word": "gold-fish",
+              "ja": "金色の魚",
+              "note": "複合語。現在一般に goldfish"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "their",
+              "ja": "彼らの・彼女らの",
+              "note": "三人称複数所有格"
+            },
+            {
+              "word": "beaks",
+              "ja": "くちばし",
+              "note": "beak の複数形"
+            }
+          ]
+        },
+        {
+          "en": "of the Sphinx, who is as old as the world itself, ",
+          "role": "意味のまとまり",
+          "ja": "世界と同じくらい古いスフィンクスのことも、",
+          "hint": "as old as the world itself＝世界そのものと同じくらい古い ／ 語句：Sphinx＝スフィンクス",
+          "words": [
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Sphinx",
+              "ja": "スフィンクス",
+              "note": "古代エジプトの像"
+            },
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "old",
+              "ja": "古い・年老いた",
+              "note": "年齢や時間"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "world",
+              "ja": "世界",
+              "note": "全世界"
+            },
+            {
+              "word": "itself",
+              "ja": "それ自体",
+              "note": "it の再帰代名詞"
+            }
+          ]
+        },
+        {
+          "en": "and lives in the desert, and knows everything; ",
+          "role": "並列・追加",
+          "ja": "砂漠に住み、何でも知っているその存在のことも。",
+          "hint": "語句：desert＝砂漠",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "lives",
+              "ja": "暮らしている",
+              "note": "live の三人称単数"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "desert",
+              "ja": "砂漠",
+              "note": "アクセントで dessert（デザート）と区別"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "knows",
+              "ja": "知っている",
+              "note": "know の三人称単数"
+            },
+            {
+              "word": "everything",
+              "ja": "すべてのこと",
+              "note": "物事の全体"
+            }
+          ]
+        },
+        {
+          "en": "of the merchants, who walk slowly by the side of their camels, ",
+          "role": "意味のまとまり",
+          "ja": "ラクダの横をゆっくり歩く商人たちのことも、",
+          "hint": "語句：merchants＝商人たち、camels＝ラクダ",
+          "words": [
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "merchants",
+              "ja": "商人たち",
+              "note": "売買を行う人"
+            },
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "walk",
+              "ja": "歩く",
+              "note": "歩行"
+            },
+            {
+              "word": "slowly",
+              "ja": "ゆっくり",
+              "note": "slow の副詞"
+            },
+            {
+              "word": "by",
+              "ja": "〜によって・〜のそばで",
+              "note": "受動態・手段・位置"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "side",
+              "ja": "側・側面",
+              "note": "〜のそば"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "their",
+              "ja": "彼らの・彼女らの",
+              "note": "三人称複数所有格"
+            },
+            {
+              "word": "camels",
+              "ja": "ラクダ",
+              "note": "砂漠で使われる動物"
+            }
+          ]
+        },
+        {
+          "en": "and carry amber beads in their hands; ",
+          "role": "並列・追加",
+          "ja": "手に琥珀の数珠玉を持つ彼らのことも。",
+          "hint": "語句：amber＝琥珀",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "carry",
+              "ja": "運ぶ・持つ",
+              "note": "持ち運ぶ"
+            },
+            {
+              "word": "amber",
+              "ja": "琥珀",
+              "note": "樹脂の化石"
+            },
+            {
+              "word": "beads",
+              "ja": "ビーズ・数珠玉",
+              "note": "装飾品の粒"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "their",
+              "ja": "彼らの・彼女らの",
+              "note": "三人称複数所有格"
+            },
+            {
+              "word": "hands",
+              "ja": "両手・手",
+              "note": "hands 複数形"
+            }
+          ]
+        },
+        {
+          "en": "of the King of the Mountains of the Moon, ",
+          "role": "意味のまとまり",
+          "ja": "月の山々の王のことも、",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "King",
+              "ja": "王",
+              "note": "君主"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Mountains",
+              "ja": "山々",
+              "note": "mountain の複数"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Moon",
+              "ja": "月",
+              "note": "天体"
+            }
+          ]
+        },
+        {
+          "en": "who is as black as ebony, and worships a large crystal; ",
+          "role": "関係詞・修飾節",
+          "ja": "その王は黒檀のように黒く、大きな水晶を崇拝している。",
+          "hint": "語句：worships＝崇拝する、crystal＝水晶",
+          "words": [
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "black",
+              "ja": "黒い",
+              "note": "色"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "ebony",
+              "ja": "黒檀",
+              "note": "黒く硬い木材"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "worships",
+              "ja": "崇拝する",
+              "note": "神聖な存在を拝む"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "large",
+              "ja": "大きい",
+              "note": "大きさの形容"
+            },
+            {
+              "word": "crystal",
+              "ja": "水晶",
+              "note": "透明な鉱物"
+            }
+          ]
+        },
+        {
+          "en": "of the great green snake that sleeps in a palm-tree, ",
+          "role": "意味のまとまり",
+          "ja": "ヤシの木で眠る大きな緑の蛇のことも、",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "great",
+              "ja": "大きな・偉大な",
+              "note": "大きさ・重要性"
+            },
+            {
+              "word": "green",
+              "ja": "緑色の",
+              "note": "色"
+            },
+            {
+              "word": "snake",
+              "ja": "ヘビ",
+              "note": "爬虫類"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "sleeps",
+              "ja": "眠る",
+              "note": "sleep の三人称単数"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "palm-tree",
+              "ja": "ヤシの木",
+              "note": "樹木"
+            }
+          ]
+        },
+        {
+          "en": "and has twenty priests to feed it with honey-cakes; ",
+          "role": "並列・追加",
+          "ja": "二十人の神官が蜂蜜菓子を与えているその蛇のことも。",
+          "hint": "feed it with honey-cakes＝それに蜂蜜菓子を与える",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "has",
+              "ja": "持っている・〜した",
+              "note": "have の三人称単数"
+            },
+            {
+              "word": "twenty",
+              "ja": "二十",
+              "note": "数字"
+            },
+            {
+              "word": "priests",
+              "ja": "神官たち",
+              "note": "priest の複数形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "feed",
+              "ja": "餌を与える",
+              "note": "food を与える動詞"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "honey-cakes",
+              "ja": "蜂蜜菓子",
+              "note": "蜜を使った焼き菓子"
+            }
+          ]
+        },
+        {
+          "en": "and of the pygmies ",
+          "role": "並列・追加",
+          "ja": "さらに小柄な人々のことも、",
+          "hint": "語句：pygmies＝小柄な人々",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "pygmies",
+              "ja": "小柄な人々",
+              "note": "歴史的表現で、現代は文脈に注意"
+            }
+          ]
+        },
+        {
+          "en": "who sail over a big lake on large flat leaves, ",
+          "role": "関係詞・修飾節",
+          "ja": "彼らは大きな湖を広い平らな葉に乗って渡り、",
+          "hint": "関係詞・疑問詞の役割を前後の文から確認",
+          "words": [
+            {
+              "word": "who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "sail",
+              "ja": "船で渡る・航行する",
+              "note": "水上の移動"
+            },
+            {
+              "word": "over",
+              "ja": "〜を越えて・上に",
+              "note": "通過・位置"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "big",
+              "ja": "大きい",
+              "note": "large に近い"
+            },
+            {
+              "word": "lake",
+              "ja": "湖",
+              "note": "内陸の水域"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "large",
+              "ja": "大きい",
+              "note": "大きさの形容"
+            },
+            {
+              "word": "flat",
+              "ja": "平らな",
+              "note": "凹凸がない"
+            },
+            {
+              "word": "leaves",
+              "ja": "薄片・葉",
+              "note": "ここでは金箔の「一枚一枚」"
+            }
+          ]
+        },
+        {
+          "en": "and are always at war with the butterflies.",
+          "role": "並列・追加",
+          "ja": "いつも蝶と戦争しているのだった。",
+          "hint": "at war with＝〜と戦争中である ／ 語句：butterflies＝蝶",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "always",
+              "ja": "いつも・ずっと",
+              "note": "ここでは永続的な約束にも使う"
+            },
+            {
+              "word": "at",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "war",
+              "ja": "戦争",
+              "note": "at war with で戦争をしている"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "butterflies",
+              "ja": "蝶",
+              "note": "butterfly の複数形"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "as old as the world itself",
+          "ja": "世界そのものと同じくらい古い"
+        },
+        {
+          "en": "at war with",
+          "ja": "〜と戦争中である"
+        },
+        {
+          "en": "feed it with honey-cakes",
+          "ja": "それに蜂蜜菓子を与える"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "shoulder",
+          "ja": "肩",
+          "note": "鳥の止まる場所"
+        },
+        {
+          "word": "ibises",
+          "ja": "トキ類",
+          "note": "水辺に暮らす鳥"
+        },
+        {
+          "word": "banks",
+          "ja": "川岸",
+          "note": "金融機関ではない"
+        },
+        {
+          "word": "Sphinx",
+          "ja": "スフィンクス",
+          "note": "古代エジプトの像"
+        },
+        {
+          "word": "desert",
+          "ja": "砂漠",
+          "note": "アクセントで dessert（デザート）と区別"
+        },
+        {
+          "word": "merchants",
+          "ja": "商人たち",
+          "note": "売買を行う人"
+        },
+        {
+          "word": "camels",
+          "ja": "ラクダ",
+          "note": "砂漠で使われる動物"
+        },
+        {
+          "word": "amber",
+          "ja": "琥珀",
+          "note": "樹脂の化石"
+        },
+        {
+          "word": "worships",
+          "ja": "崇拝する",
+          "note": "神聖な存在を拝む"
+        },
+        {
+          "word": "crystal",
+          "ja": "水晶",
+          "note": "透明な鉱物"
+        },
+        {
+          "word": "pygmies",
+          "ja": "小柄な人々",
+          "note": "歴史的表現で、現代は文脈に注意"
+        },
+        {
+          "word": "butterflies",
+          "ja": "蝶",
+          "note": "butterfly の複数形"
+        }
+      ]
+    }
+  ]
+}
