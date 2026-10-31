@@ -12,6 +12,7 @@ on:
       - "literature/**"
       - "scripts/validate-books.mjs"
       - "scripts/validate-literature-glossary.mjs"
+      - "scripts/build-lazy-indexes.mjs"
       - ".github/workflows/validate-books.yml"
   pull_request:
     paths:
@@ -23,6 +24,7 @@ on:
       - "literature/**"
       - "scripts/validate-books.mjs"
       - "scripts/validate-literature-glossary.mjs"
+      - "scripts/build-lazy-indexes.mjs"
       - ".github/workflows/validate-books.yml"
 
 permissions:
@@ -34,6 +36,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+      - name: Validate generated reading indexes and JavaScript
+        run: node scripts/build-lazy-indexes.mjs --check
       - name: Validate book data
         run: node scripts/validate-books.mjs
       - name: Validate literature vocabulary
