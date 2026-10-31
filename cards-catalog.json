@@ -815,6 +815,146 @@
       "coreVerb": "schedule",
       "theme": "音と表示の同期ではオーディオ時間を基準にする",
       "_sourceFile": "cards-extra-20260829.json"
+    },
+    {
+      "_no": 105,
+      "sentence": "Documentation can describe how a system is intended to work, but observed behavior still matters when complex models produce results that the documentation cannot fully explain.",
+      "coreVerb": "matter",
+      "theme": "仕様書と実際のシステム挙動を分けて考える",
+      "_sourceFile": "cards-extra-20260830.json"
+    },
+    {
+      "_no": 106,
+      "sentence": "The friend-enemy distinction can describe how political conflict is organized, but using the concept analytically does not require treating every disagreement as personal hostility.",
+      "coreVerb": "require",
+      "theme": "友敵区分を分析概念として使うことと敵意を肯定することを分ける",
+      "_sourceFile": "cards-extra-20260831.json"
+    },
+    {
+      "_no": 107,
+      "sentence": "Interruptions during a machine's first test cut are riskier than routine interruptions, because the operator must stay ready to stop the machine immediately if motion is wrong.",
+      "coreVerb": "stay",
+      "theme": "初回動作確認中の割り込みを安全上の問題として扱う",
+      "_sourceFile": "cards-extra-20260901.json"
+    },
+    {
+      "_no": 108,
+      "sentence": "Widespread adoption does not prove that a technology has no cognitive costs; popularity and cognitive impact are different questions that require different evidence.",
+      "coreVerb": "prove",
+      "theme": "普及していることと悪影響がないことを同一視しない",
+      "_sourceFile": "cards-extra-20260902.json"
+    },
+    {
+      "_no": 109,
+      "sentence": "If a system removes formal licenses from top coaching appointments, it needs clearer alternative criteria for competence, because removing one filter does not remove the need to select.",
+      "coreVerb": "need",
+      "theme": "資格不要論には代替の選考基準が必要になる",
+      "_sourceFile": "cards-extra-20260903.json"
+    },
+    {
+      "_no": 110,
+      "sentence": "When older cultural authorities remain visible indefinitely, younger creators compete not only with their peers but also with an accumulated archive of predecessors.",
+      "coreVerb": "compete",
+      "theme": "世代交代より世代累積が強まる文化環境",
+      "_sourceFile": "cards-extra-20260904.json"
+    },
+    {
+      "_no": 111,
+      "sentence": "Reading notation, keeping time, and producing clean notes are related skills, but practicing them separately can reduce cognitive load before they are combined.",
+      "coreVerb": "reduce",
+      "theme": "譜読み・リズム・演奏を分けて練習する",
+      "_sourceFile": "cards-extra-20260905.json"
+    },
+    {
+      "_no": 112,
+      "sentence": "Brief, unrelated posts can repeatedly interrupt working memory; replacing passive scrolling with purposeful conversation may preserve attention more effectively.",
+      "coreVerb": "preserve",
+      "theme": "SNSの断片閲覧を目的ある対話へ置き換える",
+      "_sourceFile": "cards-extra-20260906.json"
+    },
+    {
+      "_no": 113,
+      "sentence": "A market argument sounds inconsistent when success is credited to competition but failure is defended as culture that deserves protection.",
+      "coreVerb": "sound",
+      "theme": "成功時と不振時で変わる市場擁護の原理",
+      "_sourceFile": "cards-extra-20260907.json"
+    },
+    {
+      "_no": 114,
+      "sentence": "Insight often occurs when a previously vague relationship becomes describable; the world existed before the description, but the description makes that relationship available to thought.",
+      "coreVerb": "occur",
+      "theme": "気づきを未記述の関係の記述可能化として捉える",
+      "_sourceFile": "cards-extra-20260908.json"
+    },
+    {
+      "_no": 115,
+      "sentence": "When chord changes are hard to hear, note the bass movement, melodic resting points, and changes in tension before assigning chord names.",
+      "coreVerb": "note",
+      "theme": "コードチェンジを複数の手掛かりから探す",
+      "_sourceFile": "cards-extra-20260909.json"
+    },
+    {
+      "_no": 116,
+      "sentence": "A hydraulic cylinder may complete its stroke under a light load even when pressure is too low for reliable clamping; movement alone does not prove adequate holding force.",
+      "coreVerb": "prove",
+      "theme": "油圧シリンダーの動作確認と保持力確認を分ける",
+      "_sourceFile": "cards-extra-20260909.json"
+    },
+    {
+      "_no": 117,
+      "sentence": "A policy does not operate through design alone; it also depends on people and institutions that continue to carry it out.",
+      "coreVerb": "depend",
+      "theme": "政策の成立を設計と実行主体に分けて考える",
+      "_sourceFile": "cards-extra-20260909.json"
+    },
+    {
+      "_no": 118,
+      "sentence": "The existence of a market does not by itself make that market legitimate; regulation must also consider harms, rights, and the consequences of changing the current rules.",
+      "coreVerb": "consider",
+      "theme": "市場の存在と正当性を区別する",
+      "_sourceFile": "cards-extra-20260910.json"
+    },
+    {
+      "_no": 119,
+      "sentence": "Even if AI solves many intermediate problems first, mathematicians may remain essential for framing physical questions, checking proofs, and connecting isolated results to broader theories.",
+      "coreVerb": "remain",
+      "theme": "AIが先に解く時代の数学者の役割を分けて考える",
+      "_sourceFile": "cards-extra-20260910.json"
+    },
+    {
+      "_no": 120,
+      "sentence": "Public enthusiasm for war cannot be inferred from slogans alone, because people at different distances from decision-making may understand an approaching conflict very differently.",
+      "coreVerb": "infer",
+      "theme": "開戦への態度を意思決定からの距離で読む",
+      "_sourceFile": "cards-extra-20260910.json"
+    },
+    {
+      "_no": 121,
+      "sentence": "Bracing the abdomen creates an isometric contraction without visible movement, while controlled exercise through a comfortable range trains the muscles as joint positions change.",
+      "coreVerb": "train",
+      "theme": "静止した腹部収縮と動きを伴う運動を区別する",
+      "_sourceFile": "cards-extra-20260911.json"
+    },
+    {
+      "_no": 122,
+      "sentence": "AI agents can work with fewer approvals when each task has a clear scope, automated tests, and explicit limits on actions that could cause harm.",
+      "coreVerb": "work",
+      "theme": "AIエージェントの自律性を範囲・テスト・権限で支える",
+      "_sourceFile": "cards-extra-20260911.json"
+    },
+    {
+      "_no": 123,
+      "sentence": "When a policy debate mixes rights, legal duties, and market incentives, separating those questions helps reveal the benefits protected by the rules and the people who bear their costs.",
+      "coreVerb": "reveal",
+      "theme": "制度論で権利・義務・市場誘因を分ける",
+      "_sourceFile": "cards-extra-20260911.json"
+    },
+    {
+      "_no": 124,
+      "sentence": "An adaptation can preserve the main plot while changing the experience, because compressed explanations and fewer inner thoughts alter the pace, tone, and sense of character growth.",
+      "coreVerb": "alter",
+      "theme": "同じ物語でも映像化によって印象が変わる理由を説明する",
+      "_sourceFile": "cards-extra-20260912.json"
     }
   ]
 }
