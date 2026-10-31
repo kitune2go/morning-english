@@ -1,0 +1,1242 @@
+{
+  "day": 9,
+  "title": "夜の街",
+  "wordCount": 175,
+  "paragraphs": [
+    "He passed over the river, and saw the lanterns hanging to the masts of the ships. He passed over the Ghetto, and saw the old Jews bargaining with each other, and weighing out money in copper scales. At last he came to the poor house and looked in. The boy was tossing feverishly on his bed, and the mother had fallen asleep, she was so tired. In he hopped, and laid the great ruby on the table beside the woman’s thimble. Then he flew gently round the bed, fanning the boy’s forehead with his wings. “How cool I feel,” said the boy, “I must be getting better”; and he sank into a delicious slumber.",
+    "Then the Swallow flew back to the Happy Prince, and told him what he had done. “It is curious,” he remarked, “but I feel quite warm now, although it is so cold.”",
+    "“That is because you have done a good action,” said the Prince. And the little Swallow began to think, and then he fell asleep. Thinking always made him sleepy."
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "ruby",
+      "ja": "ルビー"
+    },
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "ghetto",
+      "ja": "ゲットー・居住地区"
+    },
+    {
+      "word": "bargaining",
+      "ja": "値段交渉をしている"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "ツバメは貧家でルビーを置き、熱に苦しむ子どもを羽であおいで眠らせる。",
+      "chunks": [
+        {
+          "en": "He passed over the river, ",
+          "role": "主語・叙述",
+          "ja": "彼は川の上を飛び、",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "passed",
+              "ja": "通った・通過した",
+              "note": "pass の過去形"
+            },
+            {
+              "word": "over",
+              "ja": "〜を越えて・上に",
+              "note": "通過・位置"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "river",
+              "ja": "川",
+              "note": "水路"
+            }
+          ]
+        },
+        {
+          "en": "and saw the lanterns hanging to the masts of the ships. ",
+          "role": "並列・追加",
+          "ja": "船のマストに吊られた灯火を見た。",
+          "hint": "語句：lanterns＝ランタン・灯火",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "saw",
+              "ja": "見た",
+              "note": "see の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "lanterns",
+              "ja": "ランタン・灯火",
+              "note": "小型の灯り"
+            },
+            {
+              "word": "hanging",
+              "ja": "吊り下がっている",
+              "note": "hang の現在分詞"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "masts",
+              "ja": "帆柱",
+              "note": "船のマスト"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "ships",
+              "ja": "船たち",
+              "note": "ship の複数形"
+            }
+          ]
+        },
+        {
+          "en": "He passed over the Ghetto, ",
+          "role": "主語・叙述",
+          "ja": "ゲットーの上を通り、",
+          "hint": "語句：Ghetto＝ゲットー",
+          "words": [
+            {
+              "word": "He",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "passed",
+              "ja": "通った・通過した",
+              "note": "pass の過去形"
+            },
+            {
+              "word": "over",
+              "ja": "〜を越えて・上に",
+              "note": "通過・位置"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Ghetto",
+              "ja": "ゲットー",
+              "note": "歴史的にはユダヤ人の居住区"
+            }
+          ]
+        },
+        {
+          "en": "and saw the old Jews bargaining with each other, ",
+          "role": "並列・追加",
+          "ja": "年老いたユダヤ人たちが互いに値を交渉し、",
+          "hint": "語句：bargaining＝値段交渉している",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "saw",
+              "ja": "見た",
+              "note": "see の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "old",
+              "ja": "古い・年老いた",
+              "note": "年齢や時間"
+            },
+            {
+              "word": "Jews",
+              "ja": "ユダヤ人たち",
+              "note": "歴史的な集団への言及"
+            },
+            {
+              "word": "bargaining",
+              "ja": "値段交渉している",
+              "note": "bargain の進行形"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "each",
+              "ja": "それぞれ・一つ一つの",
+              "note": "個別を強調"
+            },
+            {
+              "word": "other",
+              "ja": "ほかの・もう一方の",
+              "note": "区別を示す"
+            }
+          ]
+        },
+        {
+          "en": "and weighing out money in copper scales. ",
+          "role": "並列・追加",
+          "ja": "銅の天秤でお金を量っているのを見た。",
+          "hint": "語句：weighing＝量っている、copper＝銅、scales＝天秤・秤",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "weighing",
+              "ja": "量っている",
+              "note": "weigh の進行形"
+            },
+            {
+              "word": "out",
+              "ja": "外へ・外に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "money",
+              "ja": "お金",
+              "note": "貨幣"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "copper",
+              "ja": "銅",
+              "note": "金属の一種"
+            },
+            {
+              "word": "scales",
+              "ja": "天秤・秤",
+              "note": "重さを量る道具"
+            }
+          ]
+        },
+        {
+          "en": "At last he came to the poor house and looked in. ",
+          "role": "時間・場面",
+          "ja": "ついに貧しい家に着き、中をのぞいた。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "At",
+              "ja": "〜に・〜で",
+              "note": "時刻・場所・対象を示す"
+            },
+            {
+              "word": "last",
+              "ja": "最後の・前の",
+              "note": "時系列の位置"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "came",
+              "ja": "来た",
+              "note": "come の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "poor",
+              "ja": "貧しい・かわいそうな",
+              "note": "経済状態や同情"
+            },
+            {
+              "word": "house",
+              "ja": "家・住宅",
+              "note": "住居"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "looked",
+              "ja": "見た・見えた",
+              "note": "look の過去形"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            }
+          ]
+        },
+        {
+          "en": "The boy was tossing feverishly on his bed, ",
+          "role": "主語・叙述",
+          "ja": "少年は熱にうなされて寝床で身をよじり、",
+          "hint": "tossing feverishly＝熱にうなされて寝返りを打つ ／ 語句：tossing＝寝返りを打つ、feverishly＝熱にうなされて",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "boy",
+              "ja": "男の子",
+              "note": "少年"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "tossing",
+              "ja": "寝返りを打つ",
+              "note": "病床で身をよじる"
+            },
+            {
+              "word": "feverishly",
+              "ja": "熱にうなされて",
+              "note": "fever の副詞形"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "bed",
+              "ja": "ベッド・寝床",
+              "note": "眠るための場所"
+            }
+          ]
+        },
+        {
+          "en": "and the mother had fallen asleep, she was so tired. ",
+          "role": "並列・追加",
+          "ja": "母親は疲れ切って眠っていた。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "mother",
+              "ja": "母親",
+              "note": "親族"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "fallen",
+              "ja": "落ちた",
+              "note": "fall の過去分詞"
+            },
+            {
+              "word": "asleep",
+              "ja": "眠っている",
+              "note": "fall asleep で「眠り込む」"
+            },
+            {
+              "word": "she",
+              "ja": "彼女は",
+              "note": "三人称女性主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "tired",
+              "ja": "疲れた・飽きた",
+              "note": "tire の過去分詞"
+            }
+          ]
+        },
+        {
+          "en": "In he hopped, ",
+          "role": "意味のまとまり",
+          "ja": "彼は中へぴょんと飛び込み、",
+          "hint": "In he hopped＝中へぴょんと飛び込んだ（倒置）",
+          "words": [
+            {
+              "word": "In",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "hopped",
+              "ja": "ぴょんと飛び込んだ",
+              "note": "hop の過去形"
+            }
+          ]
+        },
+        {
+          "en": "and laid the great ruby on the table beside the woman’s thimble. ",
+          "role": "並列・追加",
+          "ja": "女性の指ぬきの横のテーブルに大きなルビーを置いた。",
+          "hint": "語句：thimble＝指ぬき",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "laid",
+              "ja": "置いた",
+              "note": "lay の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "great",
+              "ja": "大きな・偉大な",
+              "note": "大きさ・重要性"
+            },
+            {
+              "word": "ruby",
+              "ja": "ルビー",
+              "note": "赤い宝石"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "table",
+              "ja": "テーブル",
+              "note": "家具"
+            },
+            {
+              "word": "beside",
+              "ja": "〜のそばに",
+              "note": "近接を示す前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "woman’s",
+              "ja": "女性の",
+              "note": "woman 所有格"
+            },
+            {
+              "word": "thimble",
+              "ja": "指ぬき",
+              "note": "縫い針から指を守る道具"
+            }
+          ]
+        },
+        {
+          "en": "Then he flew gently round the bed, ",
+          "role": "時間・場面",
+          "ja": "それから寝台の周りを静かに飛び、",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "Then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "gently",
+              "ja": "優しく",
+              "note": "gentle の副詞形"
+            },
+            {
+              "word": "round",
+              "ja": "周囲に・ぐるぐると",
+              "note": "位置・循環"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "bed",
+              "ja": "ベッド・寝床",
+              "note": "眠るための場所"
+            }
+          ]
+        },
+        {
+          "en": "fanning the boy’s forehead with his wings. ",
+          "role": "意味のまとまり",
+          "ja": "翼で少年の額をあおいだ。",
+          "hint": "語句：fanning＝あおいでいる、forehead＝額",
+          "words": [
+            {
+              "word": "fanning",
+              "ja": "あおいでいる",
+              "note": "fan の動詞用法"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "boy’s",
+              "ja": "男の子の",
+              "note": "boy の所有格"
+            },
+            {
+              "word": "forehead",
+              "ja": "額",
+              "note": "顔の上部"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "wings",
+              "ja": "翼",
+              "note": "wing 複数"
+            }
+          ]
+        },
+        {
+          "en": "“How cool I feel,” said the boy, “I must be getting better”; ",
+          "role": "発話と話者",
+          "ja": "「なんて涼しいんだ」と少年は言った。「具合が良くなってきたんだ」",
+          "hint": "getting better＝回復してきている",
+          "words": [
+            {
+              "word": "How",
+              "ja": "どう・なんと",
+              "note": "方法・程度の疑問、感嘆"
+            },
+            {
+              "word": "cool",
+              "ja": "涼しい・ひんやりする",
+              "note": "温度の快さ"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "feel",
+              "ja": "感じる・気がする",
+              "note": "身体感覚・心理"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "boy",
+              "ja": "男の子",
+              "note": "少年"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "must",
+              "ja": "〜しなければならない",
+              "note": "義務・強い推量"
+            },
+            {
+              "word": "be",
+              "ja": "〜である・いる",
+              "note": "動詞の原形"
+            },
+            {
+              "word": "getting",
+              "ja": "得つつある・〜になりつつある",
+              "note": "get の現在分詞"
+            },
+            {
+              "word": "better",
+              "ja": "より良い・回復して",
+              "note": "bad/good の比較級の一つ"
+            }
+          ]
+        },
+        {
+          "en": "and he sank into a delicious slumber.",
+          "role": "並列・追加",
+          "ja": "そして心地よい眠りに落ちた。",
+          "hint": "語句：slumber＝眠り",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "sank",
+              "ja": "沈んだ・陥った",
+              "note": "sink の過去形"
+            },
+            {
+              "word": "into",
+              "ja": "〜の中へ",
+              "note": "方向を伴う前置詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "delicious",
+              "ja": "心地よい・おいしい",
+              "note": "眠りには比喩的に使用"
+            },
+            {
+              "word": "slumber",
+              "ja": "眠り",
+              "note": "sleep より文学的"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "tossing feverishly",
+          "ja": "熱にうなされて寝返りを打つ"
+        },
+        {
+          "en": "In he hopped",
+          "ja": "中へぴょんと飛び込んだ（倒置）"
+        },
+        {
+          "en": "getting better",
+          "ja": "回復してきている"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "lanterns",
+          "ja": "ランタン・灯火",
+          "note": "小型の灯り"
+        },
+        {
+          "word": "Ghetto",
+          "ja": "ゲットー",
+          "note": "歴史的にはユダヤ人の居住区"
+        },
+        {
+          "word": "bargaining",
+          "ja": "値段交渉している",
+          "note": "bargain の進行形"
+        },
+        {
+          "word": "weighing",
+          "ja": "量っている",
+          "note": "weigh の進行形"
+        },
+        {
+          "word": "copper",
+          "ja": "銅",
+          "note": "金属の一種"
+        },
+        {
+          "word": "scales",
+          "ja": "天秤・秤",
+          "note": "重さを量る道具"
+        },
+        {
+          "word": "tossing",
+          "ja": "寝返りを打つ",
+          "note": "病床で身をよじる"
+        },
+        {
+          "word": "feverishly",
+          "ja": "熱にうなされて",
+          "note": "fever の副詞形"
+        },
+        {
+          "word": "thimble",
+          "ja": "指ぬき",
+          "note": "縫い針から指を守る道具"
+        },
+        {
+          "word": "fanning",
+          "ja": "あおいでいる",
+          "note": "fan の動詞用法"
+        },
+        {
+          "word": "forehead",
+          "ja": "額",
+          "note": "顔の上部"
+        },
+        {
+          "word": "slumber",
+          "ja": "眠り",
+          "note": "sleep より文学的"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメは善行の後、寒いはずなのに温かさを感じる。",
+      "chunks": [
+        {
+          "en": "Then the Swallow flew back to the Happy Prince, ",
+          "role": "時間・場面",
+          "ja": "それからツバメは幸福な王子のところへ戻り、",
+          "hint": "語句：then＝それから・そのとき、Swallow＝ツバメ、prince＝王子",
+          "words": [
+            {
+              "word": "Then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "flew",
+              "ja": "飛んだ",
+              "note": "fly の過去形"
+            },
+            {
+              "word": "back",
+              "ja": "戻って・後方へ",
+              "note": "復帰・方向を表す"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "and told him what he had done. ",
+          "role": "並列・追加",
+          "ja": "何をしたかを話した。",
+          "hint": "what he had done＝自分がしてきたこと",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "told",
+              "ja": "話した・伝えた",
+              "note": "tell の過去形"
+            },
+            {
+              "word": "him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "what",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "done",
+              "ja": "した・なされた",
+              "note": "do の過去分詞"
+            }
+          ]
+        },
+        {
+          "en": "“It is curious,” he remarked, “but I feel quite warm now, ",
+          "role": "発話と話者",
+          "ja": "「不思議なことに、今はすっかり暖かく感じます」と彼は言った。",
+          "hint": "語句：curious＝不思議な、remarked＝述べた",
+          "words": [
+            {
+              "word": "It",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "curious",
+              "ja": "不思議な",
+              "note": "話者の驚きを表す"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "remarked",
+              "ja": "述べた",
+              "note": "会話文に添える発話動詞"
+            },
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "feel",
+              "ja": "感じる・気がする",
+              "note": "身体感覚・心理"
+            },
+            {
+              "word": "quite",
+              "ja": "かなり・すっかり・まったく",
+              "note": "程度の副詞"
+            },
+            {
+              "word": "warm",
+              "ja": "暖かい",
+              "note": "温度・心理"
+            },
+            {
+              "word": "now",
+              "ja": "今・もう",
+              "note": "現在時点"
+            }
+          ]
+        },
+        {
+          "en": "although it is so cold.”",
+          "role": "譲歩・対比",
+          "ja": "「こんなに寒いのに」",
+          "hint": "although it is so cold＝とても寒いのに",
+          "words": [
+            {
+              "word": "although",
+              "ja": "〜だけれども",
+              "note": "譲歩を示す接続詞"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "cold",
+              "ja": "寒い・冷たい",
+              "note": "気温など"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "what he had done",
+          "ja": "自分がしてきたこと"
+        },
+        {
+          "en": "although it is so cold",
+          "ja": "とても寒いのに"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "then",
+          "ja": "それから・そのとき",
+          "note": "時間のつながりを示す"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "curious",
+          "ja": "不思議な",
+          "note": "話者の驚きを表す"
+        },
+        {
+          "word": "remarked",
+          "ja": "述べた",
+          "note": "会話文に添える発話動詞"
+        }
+      ]
+    },
+    {
+      "summary": "王子はその温かさを善行によるものだと説明する。",
+      "chunks": [
+        {
+          "en": "“That is because you have done a good action,” said the Prince. ",
+          "role": "that節・指示語",
+          "ja": "「それはよい行いをしたからだ」と王子は言った。",
+          "hint": "a good action＝よい行い ／ 語句：action＝行い、prince＝王子",
+          "words": [
+            {
+              "word": "That",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "because",
+              "ja": "なぜなら・〜なので",
+              "note": "理由を導く接続詞"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "done",
+              "ja": "した・なされた",
+              "note": "do の過去分詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "good",
+              "ja": "良い",
+              "note": "品質・道徳的評価"
+            },
+            {
+              "word": "action",
+              "ja": "行い",
+              "note": "good action は善行"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        },
+        {
+          "en": "And the little Swallow began to think, and then he fell asleep. ",
+          "role": "並列・追加",
+          "ja": "小さなツバメは考え始め、それから眠ってしまった。",
+          "hint": "fell asleep＝眠り込んだ ／ 語句：Swallow＝ツバメ、then＝それから・そのとき",
+          "words": [
+            {
+              "word": "And",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "began",
+              "ja": "始めた",
+              "note": "begin の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "think",
+              "ja": "考える・思う",
+              "note": "思考"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "fell",
+              "ja": "落ちた・陥った",
+              "note": "fall の過去形"
+            },
+            {
+              "word": "asleep",
+              "ja": "眠っている",
+              "note": "fall asleep で「眠り込む」"
+            }
+          ]
+        },
+        {
+          "en": "Thinking always made him sleepy.",
+          "role": "意味のまとまり",
+          "ja": "考え事をするといつも眠くなるのだった。",
+          "hint": "語句：always＝いつも・ずっと",
+          "words": [
+            {
+              "word": "Thinking",
+              "ja": "考えること・考えている",
+              "note": "think の現在分詞"
+            },
+            {
+              "word": "always",
+              "ja": "いつも・ずっと",
+              "note": "ここでは永続的な約束にも使う"
+            },
+            {
+              "word": "made",
+              "ja": "作った・させた",
+              "note": "make の過去形"
+            },
+            {
+              "word": "him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "sleepy",
+              "ja": "眠い",
+              "note": "sleep から派生"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "a good action",
+          "ja": "よい行い"
+        },
+        {
+          "en": "fell asleep",
+          "ja": "眠り込んだ"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "action",
+          "ja": "行い",
+          "note": "good action は善行"
+        },
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "then",
+          "ja": "それから・そのとき",
+          "note": "時間のつながりを示す"
+        },
+        {
+          "word": "always",
+          "ja": "いつも・ずっと",
+          "note": "ここでは永続的な約束にも使う"
+        }
+      ]
+    }
+  ]
+}
