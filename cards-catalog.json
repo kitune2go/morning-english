@@ -626,6 +626,195 @@
       "coreVerb": "detect",
       "theme": "MRIの説明文を意味の塊で読む",
       "_sourceFile": "cards-extra-20260815.json"
+    },
+    {
+      "_no": 78,
+      "sentence": "I can store the dataset in Google Drive and run the inference in Colab instead of buying an expensive computer.",
+      "coreVerb": "run",
+      "theme": "クラウドを使って高価なローカル計算機を代替する",
+      "_sourceFile": "cards-extra-20260816.json"
+    },
+    {
+      "_no": 79,
+      "sentence": "A prison sentence is punishment for breaking the law, but making amends to victims is a separate question.",
+      "coreVerb": "make",
+      "theme": "刑罰と被害者への贖罪を区別して表現する",
+      "_sourceFile": "cards-extra-20260816.json"
+    },
+    {
+      "_no": 80,
+      "sentence": "I want the system to interpret a three-view drawing and divide the character into parts even when the dimensions are not fully reliable.",
+      "coreVerb": "interpret",
+      "theme": "不完全な三面図を意訳して3D制作のパーツへ分解する",
+      "_sourceFile": "cards-extra-20260816.json"
+    },
+    {
+      "_no": 81,
+      "sentence": "WebGPU could let me preview a 3D scene in the browser without relying on a discrete GPU for every viewing task.",
+      "coreVerb": "preview",
+      "theme": "WebGPUで3Dプレビューをブラウザー側へ移す",
+      "_sourceFile": "cards-extra-20260817.json"
+    },
+    {
+      "_no": 82,
+      "sentence": "The current bottleneck is not perception but the dependency graph: none of the twenty-two parts can run, and thirty-one required items are missing.",
+      "coreVerb": "run",
+      "theme": "測定結果から本当のボトルネックを特定する",
+      "_sourceFile": "cards-extra-20260817.json"
+    },
+    {
+      "_no": 83,
+      "sentence": "It would be fun if a rough sketch could be interpreted and turned directly into a 3D model, a game, or even a story.",
+      "coreVerb": "turn",
+      "theme": "落書きから3D・ゲーム・物語へ展開する生成パイプライン",
+      "_sourceFile": "cards-extra-20260817.json"
+    },
+    {
+      "_no": 84,
+      "sentence": "When I try to play everything with downstrokes, my picking hand starts to tense up, so I need to reduce unnecessary force.",
+      "coreVerb": "reduce",
+      "theme": "ダウンピッキングで力まないための英語表現",
+      "_sourceFile": "cards-extra-20260818.json"
+    },
+    {
+      "_no": 85,
+      "sentence": "I moved the MorningEnglish task out of Work so that its daily update would not depend on the same usage limit as my heavier projects.",
+      "coreVerb": "move",
+      "theme": "自動化タスクの依存関係を分離する",
+      "_sourceFile": "cards-extra-20260818.json"
+    },
+    {
+      "_no": 86,
+      "sentence": "Even a short workout is useful when the goal is to keep the habit alive instead of waiting for a perfect training session.",
+      "coreVerb": "keep",
+      "theme": "短時間でも運動習慣を継続する",
+      "_sourceFile": "cards-extra-20260819.json"
+    },
+    {
+      "_no": 87,
+      "sentence": "Instead of rebuilding every tool from scratch, I can connect reusable components and spend more time testing the parts that actually differ.",
+      "coreVerb": "connect",
+      "theme": "再利用可能なパイプラインを蓄積する",
+      "_sourceFile": "cards-extra-20260820.json"
+    },
+    {
+      "_no": 88,
+      "sentence": "When computation, storage, and code live in different services, I need a visible map of the whole system or I quickly lose track of what is happening.",
+      "coreVerb": "need",
+      "theme": "分散した計算資源とコードの全体像を可視化する",
+      "_sourceFile": "cards-extra-20260821.json"
+    },
+    {
+      "_no": 89,
+      "sentence": "A service can disappear or change its rules, so a robust workflow should preserve the data and keep important steps replaceable.",
+      "coreVerb": "preserve",
+      "theme": "サービス依存を減らしデータと工程を残す",
+      "_sourceFile": "cards-extra-20260822.json"
+    },
+    {
+      "_no": 90,
+      "sentence": "When a marketing strategy creates expectations for years, those expectations can remain even after the original strategy has changed.",
+      "coreVerb": "remain",
+      "theme": "長期的なマーケティングが作った期待は残る",
+      "_sourceFile": "cards-extra-20260823.json"
+    },
+    {
+      "_no": 91,
+      "sentence": "When several AI tools take on different implementation and review tasks, a common manifest keeps the project's overall state visible even if no single conversation contains the whole picture.",
+      "coreVerb": "keep",
+      "theme": "複数AIの作業を共有manifestで俯瞰する",
+      "_sourceFile": "cards-extra-20260824.json"
+    },
+    {
+      "_no": 92,
+      "sentence": "Unfamiliar GitHub terms become easier to remember when each term is linked to the action it describes, rather than to another technical label.",
+      "coreVerb": "link",
+      "theme": "GitHub用語を操作へ翻訳して覚える",
+      "_sourceFile": "cards-extra-20260824.json"
+    },
+    {
+      "_no": 93,
+      "sentence": "A slow production method can retain artistic value even when it is no longer mainstream; however, a seven-year schedule still increases financial and coordination risks.",
+      "coreVerb": "retain",
+      "theme": "長期制作の芸術的価値と事業リスクを分ける",
+      "_sourceFile": "cards-extra-20260824.json"
+    },
+    {
+      "_no": 94,
+      "sentence": "Publishing information about training data can improve transparency, but it does not by itself untangle fragmented ownership or identify every licensing route.",
+      "coreVerb": "improve",
+      "theme": "生成AIの透明性と権利処理を区別する",
+      "_sourceFile": "cards-extra-20260825.json"
+    },
+    {
+      "_no": 95,
+      "sentence": "Technical skill alone does not create a distinctive musical world; a consistent mood and viewpoint can matter more than flawless execution.",
+      "coreVerb": "matter",
+      "theme": "演奏技術と作品世界の魅力を分ける",
+      "_sourceFile": "cards-extra-20260825.json"
+    },
+    {
+      "_no": 96,
+      "sentence": "A public confrontation may draw attention while leaving the underlying grievance unexplained, especially when symbolic gestures replace direct discussion.",
+      "coreVerb": "replace",
+      "theme": "公的な衝突と説明を区別する",
+      "_sourceFile": "cards-extra-20260825.json"
+    },
+    {
+      "_no": 97,
+      "sentence": "Automation can reduce routine errors, but a damaged system still needs human judgment because its assumptions may no longer hold.",
+      "coreVerb": "need",
+      "theme": "自動化の平常運転と異常時判断を分ける",
+      "_sourceFile": "cards-extra-20260826.json"
+    },
+    {
+      "_no": 98,
+      "sentence": "Leaving school does not end learning; access to time, money, and guidance often shapes which skills a young person can develop.",
+      "coreVerb": "shape",
+      "theme": "学校外学習と家庭資源の影響を考える",
+      "_sourceFile": "cards-extra-20260826.json"
+    },
+    {
+      "_no": 99,
+      "sentence": "When deadlines outrun shared understanding, teams may implement a workable idea only halfway, creating more follow-up work than the original task would have required.",
+      "coreVerb": "implement",
+      "theme": "納期圧力と中途半端な実装の連鎖を捉える",
+      "_sourceFile": "cards-extra-20260826.json"
+    },
+    {
+      "_no": 100,
+      "sentence": "A passenger drone may fly with several rotors, but its real safety test begins when a motor, sensor, or power system fails.",
+      "coreVerb": "fail",
+      "theme": "有人ドローンの安全性を故障時設計から考える",
+      "_sourceFile": "cards-extra-20260827.json"
+    },
+    {
+      "_no": 101,
+      "sentence": "When access to a fictional character is sold through tokens that represent limited conversation time, conversation becomes a metered service, even if the exchange feels personal.",
+      "coreVerb": "become",
+      "theme": "キャラクター対話のトークン化をサービス構造から捉える",
+      "_sourceFile": "cards-extra-20260827.json"
+    },
+    {
+      "_no": 102,
+      "sentence": "Commercial platforms seek attention by placing content in public view; therefore, “just ignore it” does not fully address criticism of unwanted exposure.",
+      "coreVerb": "seek",
+      "theme": "商業的露出と見ない自由の非対称性を考える",
+      "_sourceFile": "cards-extra-20260827.json"
+    },
+    {
+      "_no": 103,
+      "sentence": "Practicing rhythm separately can make complex phrases easier to read, because the player does not have to decode timing, pitch, and fretboard position at once.",
+      "coreVerb": "make",
+      "theme": "リズムを分離して学ぶと複合的な譜読み負荷を下げられる",
+      "_sourceFile": "cards-extra-20260828.json"
+    },
+    {
+      "_no": 104,
+      "sentence": "A stable audio clock should schedule sound events, while visual cues should follow measured output timing, because screen updates are less reliable for precise synchronization.",
+      "coreVerb": "schedule",
+      "theme": "音と表示の同期ではオーディオ時間を基準にする",
+      "_sourceFile": "cards-extra-20260829.json"
     }
   ]
 }
