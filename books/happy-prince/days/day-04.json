@@ -1,0 +1,1407 @@
+{
+  "day": 4,
+  "title": "金色の寝室",
+  "wordCount": 188,
+  "paragraphs": [
+    "“I have a golden bedroom,” he said softly to himself as he looked round, and he prepared to go to sleep; but just as he was putting his head under his wing a large drop of water fell on him. “What a curious thing!” he cried; “there is not a single cloud in the sky, the stars are quite clear and bright, and yet it is raining. The climate in the north of Europe is really dreadful. The Reed used to like the rain, but that was merely her selfishness.”",
+    "Then another drop fell.",
+    "“What is the use of a statue if it cannot keep the rain off?” he said; “I must look for a good chimney-pot,” and he determined to fly away.",
+    "But before he had opened his wings, a third drop fell, and he looked up, and saw—Ah! what did he see?",
+    "The eyes of the Happy Prince were filled with tears, and tears were running down his golden cheeks. His face was so beautiful in the moonlight that the little Swallow was filled with pity.",
+    "“Who are you?” he said.",
+    "“I am the Happy Prince.”"
+  ],
+  "jp": [],
+  "chunks": [],
+  "grammar": [],
+  "vocabulary": [
+    {
+      "word": "swallow",
+      "ja": "ツバメ"
+    },
+    {
+      "word": "reed",
+      "ja": "葦（アシ）"
+    },
+    {
+      "word": "chimney-pot",
+      "ja": "煙突の先端"
+    }
+  ],
+  "readingPoint": "",
+  "paragraphDetails": [
+    {
+      "summary": "ツバメは雨だと思った水滴に驚き、葦のことも思い出す。",
+      "chunks": [
+        {
+          "en": "“I have a golden bedroom,” ",
+          "role": "主語・叙述",
+          "ja": "「金色の寝室ができたぞ」と",
+          "hint": "語句：golden＝金色の、bedroom＝寝室",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "have",
+              "ja": "持つ・〜した",
+              "note": "所有・完了の助動詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "golden",
+              "ja": "金色の",
+              "note": "gold から派生した形容詞"
+            },
+            {
+              "word": "bedroom",
+              "ja": "寝室",
+              "note": "ツバメが像の足元を寝室に見立てる"
+            }
+          ]
+        },
+        {
+          "en": "he said softly to himself as he looked round, ",
+          "role": "発話と話者",
+          "ja": "彼は周囲を見渡しながら独り言を小さくつぶやき、",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "softly",
+              "ja": "静かに・柔らかく",
+              "note": "声や動作の様子"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "himself",
+              "ja": "彼自身・自分で",
+              "note": "再帰代名詞"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "looked",
+              "ja": "見た・見えた",
+              "note": "look の過去形"
+            },
+            {
+              "word": "round",
+              "ja": "周囲に・ぐるぐると",
+              "note": "位置・循環"
+            }
+          ]
+        },
+        {
+          "en": "and he prepared to go to sleep; ",
+          "role": "並列・追加",
+          "ja": "眠ろうとした。",
+          "hint": "語句：Sleep＝眠り",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "prepared",
+              "ja": "準備した",
+              "note": "prepare の過去形"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "go",
+              "ja": "行く",
+              "note": "移動"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "sleep",
+              "ja": "眠り",
+              "note": "Death の兄弟として擬人化"
+            }
+          ]
+        },
+        {
+          "en": "but just as he was putting his head under his wing a ",
+          "role": "逆接・対比",
+          "ja": "しかしちょうど翼の下に頭を入れようとしたとき、",
+          "hint": "just as＝ちょうど〜したとき ／ 語句：wing＝翼",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "just",
+              "ja": "ちょうど・ただ〜だけ",
+              "note": "程度や時点の強調"
+            },
+            {
+              "word": "as",
+              "ja": "〜として・〜のように・〜するとき",
+              "note": "比較・理由・時間"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "putting",
+              "ja": "入れている・置いている",
+              "note": "put の現在分詞"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "head",
+              "ja": "頭",
+              "note": "身体の部位"
+            },
+            {
+              "word": "under",
+              "ja": "〜の下に",
+              "note": "位置"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "wing",
+              "ja": "翼",
+              "note": "鳥の体の一部"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            }
+          ]
+        },
+        {
+          "en": "large drop of water fell on him. “What a curious thing!” ",
+          "role": "意味のまとまり",
+          "ja": "大きな水滴が彼に落ちた。「なんて奇妙なことだ！」",
+          "hint": "語句：drop＝水滴・しずく、curious＝不思議な",
+          "words": [
+            {
+              "word": "large",
+              "ja": "大きい",
+              "note": "大きさの形容"
+            },
+            {
+              "word": "drop",
+              "ja": "水滴・しずく",
+              "note": "rain drop などの液体のしずく"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "water",
+              "ja": "水",
+              "note": "液体"
+            },
+            {
+              "word": "fell",
+              "ja": "落ちた・陥った",
+              "note": "fall の過去形"
+            },
+            {
+              "word": "on",
+              "ja": "〜の上に・〜で",
+              "note": "接触・時間の前置詞"
+            },
+            {
+              "word": "him",
+              "ja": "彼を・彼に",
+              "note": "三人称男性の目的格"
+            },
+            {
+              "word": "What",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "curious",
+              "ja": "不思議な",
+              "note": "話者の驚きを表す"
+            },
+            {
+              "word": "thing",
+              "ja": "もの・こと",
+              "note": "事物"
+            }
+          ]
+        },
+        {
+          "en": "he cried; “there is not a single cloud in the sky, ",
+          "role": "発話と話者",
+          "ja": "彼は叫んだ。「空には雲ひとつなく、",
+          "hint": "not a single cloud＝雲ひとつない",
+          "words": [
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "cried",
+              "ja": "叫んだ・泣いた",
+              "note": "cry の過去形。文脈で区別"
+            },
+            {
+              "word": "there",
+              "ja": "そこに・〜がある",
+              "note": "there is の形式主語"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "not",
+              "ja": "〜ではない",
+              "note": "否定の副詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "single",
+              "ja": "一つの・たった一つの",
+              "note": "not a single で一つもない"
+            },
+            {
+              "word": "cloud",
+              "ja": "雲",
+              "note": "空の水滴の集まり"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "sky",
+              "ja": "空",
+              "note": "天"
+            }
+          ]
+        },
+        {
+          "en": "the stars are quite clear and bright, and yet it is raining. ",
+          "role": "主語・叙述",
+          "ja": "星は澄んで明るく輝いているのに、雨が降っている。",
+          "hint": "前後のチャンクにつなげて読む",
+          "words": [
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "stars",
+              "ja": "星々",
+              "note": "star の複数形"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "quite",
+              "ja": "かなり・すっかり・まったく",
+              "note": "程度の副詞"
+            },
+            {
+              "word": "clear",
+              "ja": "澄んだ・はっきりした",
+              "note": "星空の形容"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "bright",
+              "ja": "明るい・輝く",
+              "note": "光や色を表す"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "yet",
+              "ja": "それでも・まだ",
+              "note": "逆接・時間"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "raining",
+              "ja": "雨が降っている",
+              "note": "rain の現在分詞"
+            }
+          ]
+        },
+        {
+          "en": "The climate in the north of Europe is really dreadful. ",
+          "role": "主語・叙述",
+          "ja": "北ヨーロッパの気候は本当にひどい。",
+          "hint": "語句：climate＝気候、dreadful＝ひどい・恐ろしい",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "climate",
+              "ja": "気候",
+              "note": "長期的な気象傾向"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "north",
+              "ja": "北・北の",
+              "note": "方角"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "Europe",
+              "ja": "ヨーロッパ",
+              "note": "地名"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "really",
+              "ja": "本当に",
+              "note": "強調"
+            },
+            {
+              "word": "dreadful",
+              "ja": "ひどい・恐ろしい",
+              "note": "程度の強い悪い評価"
+            }
+          ]
+        },
+        {
+          "en": "The Reed used to like the rain, ",
+          "role": "主語・叙述",
+          "ja": "葦は以前、雨が好きだったが、",
+          "hint": "used to like＝以前は好んでいた ／ 語句：Reed＝葦（アシ）",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Reed",
+              "ja": "葦（アシ）",
+              "note": "水辺に生える細長い植物"
+            },
+            {
+              "word": "used",
+              "ja": "以前は〜した・使った",
+              "note": "used to は過去の習慣"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "like",
+              "ja": "〜のように・好きだ",
+              "note": "前置詞・動詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "rain",
+              "ja": "雨",
+              "note": "雨が降ること"
+            }
+          ]
+        },
+        {
+          "en": "but that was merely her selfishness.”",
+          "role": "逆接・対比",
+          "ja": "それも彼女がわがままだったからにすぎない」",
+          "hint": "語句：selfishness＝身勝手さ",
+          "words": [
+            {
+              "word": "but",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "merely",
+              "ja": "単に・〜にすぎない",
+              "note": "程度を限定"
+            },
+            {
+              "word": "her",
+              "ja": "彼女の・彼女を",
+              "note": "所有格・目的格"
+            },
+            {
+              "word": "selfishness",
+              "ja": "身勝手さ",
+              "note": "selfish の名詞形"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "just as",
+          "ja": "ちょうど〜したとき"
+        },
+        {
+          "en": "not a single cloud",
+          "ja": "雲ひとつない"
+        },
+        {
+          "en": "used to like",
+          "ja": "以前は好んでいた"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "golden",
+          "ja": "金色の",
+          "note": "gold から派生した形容詞"
+        },
+        {
+          "word": "bedroom",
+          "ja": "寝室",
+          "note": "ツバメが像の足元を寝室に見立てる"
+        },
+        {
+          "word": "Sleep",
+          "ja": "眠り",
+          "note": "Death の兄弟として擬人化"
+        },
+        {
+          "word": "wing",
+          "ja": "翼",
+          "note": "鳥の体の一部"
+        },
+        {
+          "word": "drop",
+          "ja": "水滴・しずく",
+          "note": "rain drop などの液体のしずく"
+        },
+        {
+          "word": "curious",
+          "ja": "不思議な",
+          "note": "話者の驚きを表す"
+        },
+        {
+          "word": "climate",
+          "ja": "気候",
+          "note": "長期的な気象傾向"
+        },
+        {
+          "word": "dreadful",
+          "ja": "ひどい・恐ろしい",
+          "note": "程度の強い悪い評価"
+        },
+        {
+          "word": "Reed",
+          "ja": "葦（アシ）",
+          "note": "水辺に生える細長い植物"
+        },
+        {
+          "word": "selfishness",
+          "ja": "身勝手さ",
+          "note": "selfish の名詞形"
+        }
+      ]
+    },
+    {
+      "summary": "二滴目の水が落ち、異変が続く。",
+      "chunks": [
+        {
+          "en": "Then another drop fell.",
+          "role": "時間・場面",
+          "ja": "すると別の水滴が落ちた。",
+          "hint": "another drop fell＝もう一滴落ちた ／ 語句：then＝それから・そのとき、drop＝水滴・しずく",
+          "words": [
+            {
+              "word": "Then",
+              "ja": "それから・そのとき",
+              "note": "時間のつながりを示す"
+            },
+            {
+              "word": "another",
+              "ja": "もう一つの・別の",
+              "note": "追加の一つ"
+            },
+            {
+              "word": "drop",
+              "ja": "水滴・しずく",
+              "note": "rain drop などの液体のしずく"
+            },
+            {
+              "word": "fell",
+              "ja": "落ちた・陥った",
+              "note": "fall の過去形"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "another drop fell",
+          "ja": "もう一滴落ちた"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "then",
+          "ja": "それから・そのとき",
+          "note": "時間のつながりを示す"
+        },
+        {
+          "word": "drop",
+          "ja": "水滴・しずく",
+          "note": "rain drop などの液体のしずく"
+        }
+      ]
+    },
+    {
+      "summary": "像が雨よけにならないなら煙突に移ろう、とツバメは考える。",
+      "chunks": [
+        {
+          "en": "“What is the use of a statue ",
+          "role": "意味のまとまり",
+          "ja": "「像なんて何の役に立つというのだろう。",
+          "hint": "What is the use of＝〜に何の役に立つのか ／ 語句：statue＝像",
+          "words": [
+            {
+              "word": "What",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "is",
+              "ja": "〜である・いる",
+              "note": "be 動詞三人称単数"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "use",
+              "ja": "役に立つこと・使う",
+              "note": "What is the use of ... は「何の役に立つか」"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "statue",
+              "ja": "像",
+              "note": "彫像、人物をかたどった造形物"
+            }
+          ]
+        },
+        {
+          "en": "if it cannot keep the rain off?” ",
+          "role": "条件・仮定",
+          "ja": "雨を防げないのなら」",
+          "hint": "keep the rain off＝雨を防ぐ",
+          "words": [
+            {
+              "word": "if",
+              "ja": "もし〜なら・〜かどうか",
+              "note": "条件・間接疑問"
+            },
+            {
+              "word": "it",
+              "ja": "それは・それを",
+              "note": "三人称単数の代名詞"
+            },
+            {
+              "word": "cannot",
+              "ja": "〜できない",
+              "note": "can not の一語形"
+            },
+            {
+              "word": "keep",
+              "ja": "保つ・防ぐ",
+              "note": "keep off で遠ざける"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "rain",
+              "ja": "雨",
+              "note": "雨が降ること"
+            },
+            {
+              "word": "off",
+              "ja": "離れて・去って",
+              "note": "be off to で出発する"
+            }
+          ]
+        },
+        {
+          "en": "he said; “I must look for a good chimney-pot,” ",
+          "role": "発話と話者",
+          "ja": "彼は言った。「良い煙突を探さなければ」",
+          "hint": "語句：chimney-pot＝煙突の先端部分",
+          "words": [
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            },
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "must",
+              "ja": "〜しなければならない",
+              "note": "義務・強い推量"
+            },
+            {
+              "word": "look",
+              "ja": "見る・見える",
+              "note": "look at, look like に注目"
+            },
+            {
+              "word": "for",
+              "ja": "〜のために・〜なので・〜の間",
+              "note": "前置詞、理由を示す接続詞"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "good",
+              "ja": "良い",
+              "note": "品質・道徳的評価"
+            },
+            {
+              "word": "chimney-pot",
+              "ja": "煙突の先端部分",
+              "note": "暖炉の煙を出す筒"
+            }
+          ]
+        },
+        {
+          "en": "and he determined to fly away.",
+          "role": "並列・追加",
+          "ja": "そう決めて、飛び去ろうとした。",
+          "hint": "determined to＝〜しようと決心した ／ 語句：determined＝決心した",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "determined",
+              "ja": "決心した",
+              "note": "determine to ... で〜すると決める"
+            },
+            {
+              "word": "to",
+              "ja": "〜へ・〜するために",
+              "note": "前置詞または不定詞の印"
+            },
+            {
+              "word": "fly",
+              "ja": "飛ぶ",
+              "note": "鳥の移動"
+            },
+            {
+              "word": "away",
+              "ja": "離れて・去って",
+              "note": "移動・距離を表す"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "What is the use of",
+          "ja": "〜に何の役に立つのか"
+        },
+        {
+          "en": "keep the rain off",
+          "ja": "雨を防ぐ"
+        },
+        {
+          "en": "determined to",
+          "ja": "〜しようと決心した"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "statue",
+          "ja": "像",
+          "note": "彫像、人物をかたどった造形物"
+        },
+        {
+          "word": "chimney-pot",
+          "ja": "煙突の先端部分",
+          "note": "暖炉の煙を出す筒"
+        },
+        {
+          "word": "determined",
+          "ja": "決心した",
+          "note": "determine to ... で〜すると決める"
+        }
+      ]
+    },
+    {
+      "summary": "三滴目が落ち、見上げたツバメが何かを発見する。",
+      "chunks": [
+        {
+          "en": "But before he had opened his wings, a third drop fell, ",
+          "role": "逆接・対比",
+          "ja": "しかし翼を広げる前に三滴目が落ち、",
+          "hint": "before he had opened his wings＝羽を広げるより前に ／ 語句：drop＝水滴・しずく",
+          "words": [
+            {
+              "word": "But",
+              "ja": "しかし・〜を除いて",
+              "note": "逆接、nothing but で「〜だけ」"
+            },
+            {
+              "word": "before",
+              "ja": "〜の前に",
+              "note": "時間的な前後関係"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "had",
+              "ja": "持っていた・〜していた",
+              "note": "have の過去。過去完了にも用いる"
+            },
+            {
+              "word": "opened",
+              "ja": "開いた",
+              "note": "open の過去形"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "wings",
+              "ja": "翼",
+              "note": "wing 複数"
+            },
+            {
+              "word": "a",
+              "ja": "一つの・ある",
+              "note": "不定冠詞。数や初出のものに付く"
+            },
+            {
+              "word": "third",
+              "ja": "三番目の",
+              "note": "序数"
+            },
+            {
+              "word": "drop",
+              "ja": "水滴・しずく",
+              "note": "rain drop などの液体のしずく"
+            },
+            {
+              "word": "fell",
+              "ja": "落ちた・陥った",
+              "note": "fall の過去形"
+            }
+          ]
+        },
+        {
+          "en": "and he looked up, and saw—Ah! what did he see?",
+          "role": "並列・追加",
+          "ja": "彼は見上げて、何かを見た――ああ、何を見たのだろう？",
+          "hint": "looked up＝見上げた",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "looked",
+              "ja": "見た・見えた",
+              "note": "look の過去形"
+            },
+            {
+              "word": "up",
+              "ja": "上へ・起きて",
+              "note": "方向・完了を示す副詞"
+            },
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "saw",
+              "ja": "見た",
+              "note": "see の過去形"
+            },
+            {
+              "word": "Ah",
+              "ja": "ああ",
+              "note": "驚き・嘆きの間投詞"
+            },
+            {
+              "word": "what",
+              "ja": "何・〜すること",
+              "note": "疑問詞・関係詞"
+            },
+            {
+              "word": "did",
+              "ja": "した",
+              "note": "do の過去形"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "see",
+              "ja": "見る・見える",
+              "note": "視覚で捉える"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "before he had opened his wings",
+          "ja": "羽を広げるより前に"
+        },
+        {
+          "en": "looked up",
+          "ja": "見上げた"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "drop",
+          "ja": "水滴・しずく",
+          "note": "rain drop などの液体のしずく"
+        }
+      ]
+    },
+    {
+      "summary": "水滴は王子の涙だった。ツバメは像の美しさと悲しみに心を動かされる。",
+      "chunks": [
+        {
+          "en": "The eyes of the Happy Prince were filled with tears, ",
+          "role": "主語・叙述",
+          "ja": "幸福な王子の両目は涙でいっぱいで、",
+          "hint": "filled with tears＝涙でいっぱいになった ／ 語句：prince＝王子、tears＝涙",
+          "words": [
+            {
+              "word": "The",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "eyes",
+              "ja": "両目・目",
+              "note": "eye の複数形"
+            },
+            {
+              "word": "of",
+              "ja": "〜の・〜からなる",
+              "note": "所属・材料を表す"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            },
+            {
+              "word": "were",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去複数"
+            },
+            {
+              "word": "filled",
+              "ja": "満たされた",
+              "note": "fill の過去分詞"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "tears",
+              "ja": "涙",
+              "note": "tear（裂く）とは発音が異なる"
+            }
+          ]
+        },
+        {
+          "en": "and tears were running down his golden cheeks. ",
+          "role": "並列・追加",
+          "ja": "涙が金色の頬を伝っていた。",
+          "hint": "語句：tears＝涙、golden＝金色の、cheeks＝頬",
+          "words": [
+            {
+              "word": "and",
+              "ja": "そして・〜と",
+              "note": "並列・連結"
+            },
+            {
+              "word": "tears",
+              "ja": "涙",
+              "note": "tear（裂く）とは発音が異なる"
+            },
+            {
+              "word": "were",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去複数"
+            },
+            {
+              "word": "running",
+              "ja": "流れている・走っている",
+              "note": "run の現在分詞"
+            },
+            {
+              "word": "down",
+              "ja": "下へ・下に",
+              "note": "方向を示す"
+            },
+            {
+              "word": "his",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "golden",
+              "ja": "金色の",
+              "note": "gold から派生した形容詞"
+            },
+            {
+              "word": "cheeks",
+              "ja": "頬",
+              "note": "cheek の複数形"
+            }
+          ]
+        },
+        {
+          "en": "His face was so beautiful in the moonlight ",
+          "role": "主語・叙述",
+          "ja": "月明かりの中でその顔はあまりにも美しかったので、",
+          "hint": "語句：moonlight＝月明かり",
+          "words": [
+            {
+              "word": "His",
+              "ja": "彼の",
+              "note": "所有格"
+            },
+            {
+              "word": "face",
+              "ja": "顔・表面",
+              "note": "顔の描写"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "so",
+              "ja": "だから・それほど・とても",
+              "note": "結果・程度"
+            },
+            {
+              "word": "beautiful",
+              "ja": "美しい",
+              "note": "美しさを表す形容詞"
+            },
+            {
+              "word": "in",
+              "ja": "〜の中に・〜で",
+              "note": "場所・時間の前置詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "moonlight",
+              "ja": "月明かり",
+              "note": "moon + light"
+            }
+          ]
+        },
+        {
+          "en": "that the little Swallow was filled with pity.",
+          "role": "that節・指示語",
+          "ja": "小さなツバメは哀れみの気持ちでいっぱいになった。",
+          "hint": "filled with pity＝哀れみの気持ちで満たされた ／ 語句：Swallow＝ツバメ、pity＝哀れみ・同情",
+          "words": [
+            {
+              "word": "that",
+              "ja": "それ・〜ということ・〜するもの",
+              "note": "指示詞・接続詞・関係代名詞"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "little",
+              "ja": "小さな・少し",
+              "note": "量・大きさ"
+            },
+            {
+              "word": "Swallow",
+              "ja": "ツバメ",
+              "note": "鳥の名前。動詞では「飲み込む」"
+            },
+            {
+              "word": "was",
+              "ja": "〜だった・いた",
+              "note": "be 動詞の過去単数"
+            },
+            {
+              "word": "filled",
+              "ja": "満たされた",
+              "note": "fill の過去分詞"
+            },
+            {
+              "word": "with",
+              "ja": "〜と一緒に・〜を用いて",
+              "note": "同行・手段・所持"
+            },
+            {
+              "word": "pity",
+              "ja": "哀れみ・同情",
+              "note": "be filled with pity で同情する"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "filled with tears",
+          "ja": "涙でいっぱいになった"
+        },
+        {
+          "en": "so beautiful ... that",
+          "ja": "とても美しいので〜"
+        },
+        {
+          "en": "filled with pity",
+          "ja": "哀れみの気持ちで満たされた"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        },
+        {
+          "word": "tears",
+          "ja": "涙",
+          "note": "tear（裂く）とは発音が異なる"
+        },
+        {
+          "word": "golden",
+          "ja": "金色の",
+          "note": "gold から派生した形容詞"
+        },
+        {
+          "word": "cheeks",
+          "ja": "頬",
+          "note": "cheek の複数形"
+        },
+        {
+          "word": "moonlight",
+          "ja": "月明かり",
+          "note": "moon + light"
+        },
+        {
+          "word": "Swallow",
+          "ja": "ツバメ",
+          "note": "鳥の名前。動詞では「飲み込む」"
+        },
+        {
+          "word": "pity",
+          "ja": "哀れみ・同情",
+          "note": "be filled with pity で同情する"
+        }
+      ]
+    },
+    {
+      "summary": "ツバメが正体を尋ねる。",
+      "chunks": [
+        {
+          "en": "“Who are you?” he said.",
+          "role": "疑問文・会話",
+          "ja": "「あなたは誰ですか？」と彼は言った。",
+          "hint": "Who are you＝あなたは誰ですか ／ 語句：who＝誰・〜する人",
+          "words": [
+            {
+              "word": "Who",
+              "ja": "誰・〜する人",
+              "note": "疑問詞、または関係代名詞"
+            },
+            {
+              "word": "are",
+              "ja": "〜である・いる",
+              "note": "be 動詞の現在複数・二人称"
+            },
+            {
+              "word": "you",
+              "ja": "あなたは・あなたを",
+              "note": "二人称主格・目的格"
+            },
+            {
+              "word": "he",
+              "ja": "彼は",
+              "note": "三人称男性の主格"
+            },
+            {
+              "word": "said",
+              "ja": "言った",
+              "note": "say の過去形"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "Who are you",
+          "ja": "あなたは誰ですか"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "who",
+          "ja": "誰・〜する人",
+          "note": "疑問詞、または関係代名詞"
+        }
+      ]
+    },
+    {
+      "summary": "王子は自分が幸福な王子だと名乗る。",
+      "chunks": [
+        {
+          "en": "“I am the Happy Prince.”",
+          "role": "主語・叙述",
+          "ja": "「私は幸福な王子だ」",
+          "hint": "I am the Happy Prince＝私は幸福な王子だ ／ 語句：prince＝王子",
+          "words": [
+            {
+              "word": "I",
+              "ja": "私は",
+              "note": "一人称主格"
+            },
+            {
+              "word": "am",
+              "ja": "〜である",
+              "note": "be 動詞の一人称現在"
+            },
+            {
+              "word": "the",
+              "ja": "その・あの",
+              "note": "既出・特定の対象を示す定冠詞"
+            },
+            {
+              "word": "Happy",
+              "ja": "幸福な・うれしい",
+              "note": "幸福な王子の呼称"
+            },
+            {
+              "word": "Prince",
+              "ja": "王子",
+              "note": "作品の像の名前"
+            }
+          ]
+        }
+      ],
+      "expressions": [
+        {
+          "en": "I am the Happy Prince",
+          "ja": "私は幸福な王子だ"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "prince",
+          "ja": "王子",
+          "note": "作品の像の名前"
+        }
+      ]
+    }
+  ]
+}
