@@ -1,0 +1,80 @@
+[
+  {
+    "id": "DE-20261004-001",
+    "sourceTitle": "完成したものから維持が始まる",
+    "workId": "daily-essay-20261004",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "貸方だけでは成功を読めない",
+    "jp": "成功は完成品や売上として目に入る。だが、その貸方だけを眺めれば、誰の時間、身体、地域、将来の選択肢が借方へ移されたかは見えない。デジタル課金も、利用者には体験のフローを与える一方、運営側には利益とIPを蓄積する。サービスが終われば、支払った側に建物や道具が残るとは限らない。数字は成果を数えられるが、何を成果として採用し、何を費用として外へ出したかまでは自動的に教えない。成功の帳簿には、消えたものを書く欄が必要である。",
+    "translationLiteral": "Success enters view as a finished product or sales. Yet if we look only at the credit side, we cannot see whose time, body, community, or future choices were moved to the debit side. Digital spending gives users a flow of experience while accumulating profit and intellectual property for the operator. If the service ends, buildings or tools do not necessarily remain with those who paid. Numbers can count results, but they do not automatically tell us what was accepted as an achievement or pushed outside as a cost. A ledger of success needs a column for what disappeared.",
+    "translationNatural": "Success usually arrives as a visible asset or a rising number. Its ledger becomes misleading when the credit side records revenue and ownership while the debit side omits the time, bodies, communities, and future options that paid for them. Digital purchases make the imbalance especially clear: users receive access, while operators accumulate profit and intellectual property that may outlive the service. Numbers can count what remains. They cannot decide which losses deserve a column. A credible account of success must record what disappeared as well as what was built.",
+    "imageUrl": "",
+    "imageCaption": "成果の明るい貸方と、時間・身体・選択肢が消える暗い借方。",
+    "imagePrompt": "Editorial illustration of a success ledger with visible assets on the credit side and omitted time bodies communities and choices on the debit side, no readable text",
+    "chunks": [
+      {"en": "Success usually arrives as a visible asset or a rising number.", "ja": "成功はたいてい、見える資産や上昇する数字として現れる。"},
+      {"en": "Its ledger becomes misleading when the credit side records revenue and ownership while the debit side omits the time, bodies, communities, and future options that paid for them.", "ja": "貸方が収益と所有を記録する一方、借方がそれを支えた時間・身体・地域・将来の選択肢を省けば、帳簿は誤解を招く。"},
+      {"en": "Digital purchases make the imbalance especially clear: users receive access, while operators accumulate profit and intellectual property that may outlive the service.", "ja": "デジタル購入では不均衡が明瞭になる。利用者はアクセスを受け取り、運営者はサービスより長く残り得る利益とIPを蓄積する。"},
+      {"en": "Numbers can count what remains. They cannot decide which losses deserve a column.", "ja": "数字は残ったものを数えられるが、どの損失を欄に載せるべきかは決められない。"},
+      {"en": "A credible account of success must record what disappeared as well as what was built.", "ja": "信頼できる成功の記録は、築かれたものだけでなく消えたものも記さなければならない。"}
+    ],
+    "grammar": ["when A while B は貸方と借方の同時的な非対称を示す。", "that paid for them は options までの並列全体を補足する関係詞節。", "make O C は不均衡を明瞭にする作用を表す。", "that may outlive ... は intellectual property を修飾する。", "what remains / what disappeared / what was built は名詞節。", "as well as は消失と建設の双方を記録対象にする。"],
+    "translationNote": "literal は貸方・借方、デジタル課金、IPの非対称を保持した。natural では visible asset と rising number から入り、成功の測定に欠落項目を戻す必要を一つの帳簿比喩へ整理した。",
+    "readingPoint": "導入。完成や売上を成功の全体とせず、見えない費用を記録する欄が必要だと示す。",
+    "keywords": ["success", "ledger", "digital purchases", "ownership", "loss"]
+  },
+  {
+    "id": "DE-20261004-002",
+    "sourceTitle": "完成したものから維持が始まる",
+    "workId": "daily-essay-20261004",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "効いた対策は理論より先に立つ",
+    "jp": "脚気の原因がまだビタミンB1として説明される前でも、食事を変えた部隊では患者が減った。対策が効いたという観察と、なぜ効いたかという理論は、同じ日に完成しない。ここで不確実さを理由に観察を捨てれば、救える身体を失う。反対に、改善を一つの説明へ急いで固定すれば、別の条件を見落とす。仮説は弱さではない。結果を受け取りながら説明を更新するための仮設足場である。完成していない理論でも、記録と比較があれば次の判断を支えられる。",
+    "translationLiteral": "Even before the cause of beriberi was explained as vitamin B1 deficiency, units that changed their diets saw fewer patients. The observation that a measure worked and the theory of why it worked are not completed on the same day. If uncertainty makes us discard the observation, we lose bodies that could be saved. If we instead fix the improvement too quickly to one explanation, we overlook other conditions. A hypothesis is not weakness. It is temporary scaffolding for updating an explanation while receiving results. Even an unfinished theory can support the next judgment when records and comparisons exist.",
+    "translationNatural": "A remedy can work before its mechanism is understood. Beriberi declined in groups whose diets changed before vitamin B1 supplied the later explanation. Evidence and theory therefore mature on different schedules. Rejecting an observed improvement because the mechanism is incomplete can cost lives, but fastening it too quickly to one story can hide other conditions. A hypothesis is not a confession of failure. It is scaffolding that lets decisions stand while records, comparisons, and explanations continue to improve.",
+    "imageUrl": "",
+    "imageCaption": "患者減少の記録を支えながら、後から理論が組み上がる仮設足場。",
+    "imagePrompt": "Editorial historical medical illustration of observed recovery supported by temporary scaffolding while a scientific mechanism is still being built, no readable text",
+    "chunks": [
+      {"en": "A remedy can work before its mechanism is understood.", "ja": "対策は仕組みが理解される前に効くことがある。"},
+      {"en": "Beriberi declined in groups whose diets changed before vitamin B1 supplied the later explanation.", "ja": "ビタミンB1が後の説明を与える前に、食事を変えた集団では脚気が減った。"},
+      {"en": "Evidence and theory therefore mature on different schedules.", "ja": "したがって証拠と理論は異なる時間割で成熟する。"},
+      {"en": "Rejecting an observed improvement because the mechanism is incomplete can cost lives, but fastening it too quickly to one story can hide other conditions.", "ja": "仕組みが未完成だから改善を退ければ命を失い得るが、一つの物語へ急いで固定すれば別の条件を隠し得る。"},
+      {"en": "A hypothesis is not a confession of failure. It is scaffolding that lets decisions stand while records, comparisons, and explanations continue to improve.", "ja": "仮説は失敗の告白ではない。記録・比較・説明を更新しながら判断を支える足場である。"}
+    ],
+    "grammar": ["before は効果と機序理解の時間差を示す。", "whose diets changed は groups を修飾する所有格関係詞節。", "therefore は前例から一般命題を導く。", "Rejecting ... は動名詞句主語。", "because は改善を退ける理由を示す。", "let O do は足場が判断を支える働きを表し、while は更新の継続を添える。"],
+    "translationNote": "literal は軍隊の食事改善からビタミンB1機序へ進む時間差を保った。natural は evidence and theory mature on different schedules とまとめ、仮説を判断停止ではなく更新可能な足場として表現した。",
+    "readingPoint": "展開。完成していない説明でも、記録と比較によって実践を支えられることを示し、完成と有効性を切り分ける。",
+    "keywords": ["beriberi", "evidence", "mechanism", "hypothesis", "scaffolding"]
+  },
+  {
+    "id": "DE-20261004-003",
+    "sourceTitle": "完成したものから維持が始まる",
+    "workId": "daily-essay-20261004",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "完成の翌日から資産は責任になる",
+    "jp": "巨大なIPも、未来都市の建物も、郊外の道路も、完成時には成功の姿をしている。だが、所有した瞬間から探索より防衛が優先され、空室、更新、債務、修繕の費用が始まる。二十世紀が建設の世紀だったなら、次の仕事は撤退と更新の設計である。資産を増やすことだけを成長と呼べば、古びる速度は帳簿の外へ逃げる。成熟とは完成品を崇めることではない。それが誰に何を維持させ、いつ作り替え、どこで手放すかを引き受けることだ。完成したものから、長い未完成が始まる。",
+    "translationLiteral": "A huge intellectual property, a futuristic building, and a suburban road all look like success when completed. Yet from the moment they are owned, defense can take priority over exploration, and the costs of vacancies, renewal, debt, and repair begin. If the twentieth century was a century of construction, the next task is to design withdrawal and renewal. If only increasing assets is called growth, the speed of aging escapes the ledger. Maturity is not worshipping finished products. It is accepting who must maintain them, when to remake them, and where to let them go. A long incompletion begins with what has been completed.",
+    "translationNatural": "Large intellectual properties, futuristic buildings, and suburban infrastructure all resemble victory on the day they are completed. Ownership changes the picture. Exploration gives way to defense, while vacancies, debt, repairs, and renewal begin to accumulate. If the last century was organized around construction, the next task is to design maintenance, replacement, retreat, and release. Maturity does not mean admiring finished assets. It means accepting the choices they impose: who must care for them, when they should change, and when they should be allowed to end. Every completion opens a longer unfinished future.",
+    "imageUrl": "",
+    "imageCaption": "完成記念の光の背後で、修繕・空室・更新の長い時計が動き始める。",
+    "imagePrompt": "Editorial illustration of a celebrated completed city and intellectual property casting a long shadow of maintenance vacancies debt repair and renewal, no readable text",
+    "chunks": [
+      {"en": "Large intellectual properties, futuristic buildings, and suburban infrastructure all resemble victory on the day they are completed.", "ja": "巨大IP、未来的建築、郊外インフラは、完成日にはどれも勝利に見える。"},
+      {"en": "Ownership changes the picture. Exploration gives way to defense, while vacancies, debt, repairs, and renewal begin to accumulate.", "ja": "所有は景色を変える。探索は防衛へ譲り、空室・債務・修繕・更新が積み上がり始める。"},
+      {"en": "If the last century was organized around construction, the next task is to design maintenance, replacement, retreat, and release.", "ja": "前の世紀が建設を中心に組み立てられたなら、次の仕事は維持・交換・撤退・手放しを設計することだ。"},
+      {"en": "Maturity does not mean admiring finished assets. It means accepting the choices they impose: who must care for them, when they should change, and when they should be allowed to end.", "ja": "成熟は完成資産を眺めることではない。それが課す、誰が維持し、いつ変え、いつ終わらせるかという選択を引き受けることだ。"},
+      {"en": "Every completion opens a longer unfinished future.", "ja": "あらゆる完成は、より長い未完成の未来を開く。"}
+    ],
+    "grammar": ["on the day ... は完成時点の見え方を限定する。", "give way to は探索から防衛への優先順位の移動を表す。", "while は防衛と費用蓄積の同時進行を示す。", "If A, B は時代認識から次の課題を導く条件文。", "does not mean A; it means B は成熟の定義を置き換える。", "who / when / when は choices の内容を並列する間接疑問。"],
+    "translationNote": "literal の建設・撤退・更新という時代区分を残し、natural は maintenance, replacement, retreat, and release の四項へ展開した。最後の『長い未完成』を unfinished future として余韻にした。",
+    "readingPoint": "転換と余韻。成功を完成時点から所有後の時間へ移し、成熟を維持・変更・終了の責任として捉え直す。",
+    "keywords": ["assets", "ownership", "maintenance", "renewal", "maturity"]
+  }
+]
