@@ -1,0 +1,245 @@
+[
+  {
+    "_no": 165,
+    "_generatedAt": "2026-11-02T02:01:00+09:00",
+    "sentence": "A historical photograph can document visible change, but it cannot reveal how people felt unless its date, purpose, and context are also examined.",
+    "phonetic": "ア ヒストリカル フォトグラフ キャン ドキュメント ヴィジブル チェインジ、バット イット キャノット リヴィール ハウ ピープル フェルト アンレス イッツ デイト、パーパス、アンド コンテクスト アー オールソー イグザミンド。",
+    "japaneseTranslation": "歴史写真は目に見える変化を記録できますが、撮影日、目的、文脈も調べなければ、人々がどう感じていたかまでは明らかにできません。",
+    "theme": "歴史写真が記録できる範囲を見極める",
+    "coreVerb": "document",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A photograph documents change.",
+        "translation": "写真は変化を記録する。"
+      },
+      "phase2": {
+        "sentence": "A historical photograph can document visible change.",
+        "translation": "歴史写真は目に見える変化を記録できる。",
+        "addedChunks": "助動詞(can)と修飾語(historical, visible)を追加"
+      },
+      "phase3": {
+        "sentence": "A photograph documents change, but it does not explain every experience.",
+        "translation": "写真は変化を記録するが、すべての経験を説明するわけではない。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Context is more informative than an image alone.",
+        "translation": "文脈は画像だけより多くの情報を与える。",
+        "comparison": "more informative than"
+      },
+      "phase5": {
+        "sentence": "A historical photograph can document visible change, but it cannot reveal how people felt",
+        "translation": "歴史写真は目に見える変化を記録できるが、人々がどう感じていたかまでは明らかにできない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A historical photograph",
+          "function": "内容",
+          "translation": "歴史写真は"
+        },
+        {
+          "text": "can document visible change",
+          "function": "行動",
+          "translation": "目に見える変化を記録できる"
+        },
+        {
+          "text": "but it cannot reveal",
+          "function": "接続",
+          "translation": "しかし明らかにはできない"
+        },
+        {
+          "text": "how people felt",
+          "function": "対象",
+          "translation": "人々がどう感じていたかを"
+        },
+        {
+          "text": "unless its date, purpose, and context",
+          "function": "接続",
+          "translation": "撮影日、目的、文脈が"
+        },
+        {
+          "text": "are also examined",
+          "function": "状態",
+          "translation": "あわせて調べられない限り"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can document",
+          "explanation": "写真が持つ可能な機能を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "対照",
+          "name": "but",
+          "where": "change, but it cannot",
+          "explanation": "記録できるものとできないものを対照する。",
+          "rule": "節, but 節"
+        },
+        {
+          "category": "否定",
+          "name": "cannot",
+          "where": "cannot reveal",
+          "explanation": "能力または可能性の限界を表す。",
+          "rule": "cannot + 動詞原形"
+        },
+        {
+          "category": "名詞節",
+          "name": "how節",
+          "where": "how people felt",
+          "explanation": "人々の感じ方をrevealの目的語にする。",
+          "rule": "how + S + V"
+        },
+        {
+          "category": "条件",
+          "name": "unless",
+          "where": "unless its date, purpose, and context are also examined",
+          "explanation": "必要な調査が行われない場合を示す。",
+          "rule": "unless + S + V"
+        },
+        {
+          "category": "受動態",
+          "name": "are examined",
+          "where": "are also examined",
+          "explanation": "日付・目的・文脈が調査される側であることを示す。",
+          "rule": "be + 過去分詞"
+        },
+        {
+          "category": "並列",
+          "name": "三項並列",
+          "where": "date, purpose, and context",
+          "explanation": "三つの確認要素を同じ階層で並べる。",
+          "rule": "A, B, and C"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A photograph can documents change.",
+          "correct": "A photograph can document change.",
+          "why": "助動詞canの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "It cannot reveal how did people feel.",
+          "correct": "It cannot reveal how people felt.",
+          "why": "間接疑問では平叙文の語順にする。"
+        },
+        {
+          "wrong": "unless its context is examine",
+          "correct": "unless its context is examined",
+          "why": "受動態はbe動詞と過去分詞で作る。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A photograph shows appearances, not complete experience.",
+          "translation": "写真が示すのは外見であり、経験の全体ではない。"
+        },
+        {
+          "text": "Check when and why an image was made before drawing conclusions from it.",
+          "translation": "画像から結論を出す前に、いつ、なぜ作られたかを確認しよう。"
+        },
+        {
+          "text": "Historical images become stronger evidence when they are read with records and context.",
+          "translation": "歴史画像は、記録や文脈とともに読むと、より強い証拠になる。"
+        }
+      ],
+      "parseTree": "S(A historical photograph) Aux(can) V(document) O(visible change), Conj(but) S(it) Aux(cannot) V(reveal) O(how people felt) [Adv: unless S(its date, purpose, and context) V(are examined)]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "can document visible change",
+          "expanded": "because a photograph preserves visible details from a particular moment",
+          "nuance": "写真が保存するのは特定時点の可視情報だと説明する。"
+        },
+        {
+          "original": "cannot reveal how people felt",
+          "expanded": "since feelings and life satisfaction are not directly visible in appearance",
+          "nuance": "外見から内面を直接読めない理由を示す。"
+        },
+        {
+          "original": "unless its date, purpose, and context are also examined",
+          "expanded": "therefore, the image should be compared with dated records and information about its production",
+          "nuance": "画像外の資料と照合する方法を具体化する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Visible change can be documented by a photograph, but private experience cannot be inferred from appearance alone.",
+          "translation": "目に見える変化は写真で記録できるが、個人的な経験を外見だけから推測することはできない。",
+          "note": "記録・推測される対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Examining the date and purpose, a reader can interpret a historical photograph more carefully.",
+          "translation": "日付と目的を調べることで、読み手は歴史写真をより慎重に解釈できる。",
+          "note": "調査方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Careful interpretation requires the verification of a photograph’s date and context.",
+          "translation": "慎重な解釈には、写真の日付と文脈の検証が必要だ。",
+          "note": "verifyをverificationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "document",
+            "alternatives": [
+              "record",
+              "preserve",
+              "capture"
+            ],
+            "nuance": "documentは証拠として記録する、recordは一般的に記録する、preserveは保存する、captureは瞬間を捉える。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "限界",
+            "sentence": "An image can show what was visible without explaining what was felt.",
+            "translation": "画像は見えたものを示せても、感じられたことまでは説明できない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A dated photograph with context is more reliable than an isolated image.",
+            "translation": "日付と文脈のある写真は、孤立した画像より信頼できる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the date or purpose is uncertain, the photograph should support only a limited claim.",
+            "translation": "日付や目的が不確かなら、その写真が支えられる主張は限定すべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What a photograph cannot directly preserve is a person’s inner experience.",
+            "translation": "写真が直接保存できないのは、人の内面的経験である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Images show; context explains.",
+            "translation": "画像は示し、文脈が説明する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "canとcannot、unless受動態で証拠の範囲を明確にした。三項並列を含むため情報量がやや多く、efficiencyを8とした。"
+    }
+  }
+]
