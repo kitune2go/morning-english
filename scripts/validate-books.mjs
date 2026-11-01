@@ -493,7 +493,7 @@ if(lucianBook?.glossaryData){
       check(context.version===1&&Array.isArray(context.entries),
         "Lucian context dictionary schema version 1");
       const contextLookup=new Map();
-      const sourceToken=/[\\p{L}]+(?:['’\\-][\\p{L}]+)*/gu;
+      const sourceToken=/[\p{L}]+(?:['’\-][\p{L}]+)*/gu;
       for(const entry of context.entries||[]){
         const source=textDays[entry.day-1]?.paragraphs?.[entry.paragraph-1];
         check(Number.isInteger(entry.day)&&Number.isInteger(entry.paragraph)&&!!source,
