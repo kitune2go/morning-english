@@ -340,5 +340,26 @@
     "description": "画像のデータ化、歩行コマの連続性、制作ツールの全機能統合を通して、素材が再編集可能な制作環境へ渡される条件を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261031/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261005",
+    "title": "説明の型は人を先回りする",
+    "description": "作品を覆う人物評、専門語が運ぶ問題設定、障害と人格の短絡を通して、説明の型が人や作品の複雑さを先回りする作用を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261005/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261006",
+    "title": "反逆は商品番号を渡される",
+    "description": "切り取られた一文、注意市場の測定、商品棚へ置かれる反逆を通して、市場内を流通する批判が失うものと残す棘を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261006/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261101",
+    "title": "見えているのは経路の出口だけ",
+    "description": "ゲーム制作の基盤、作者が去った制度、売上では測れない文化の持続を通して、目に見える結果の手前で働く経路と受け渡しを考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261101/manifest.json",
+    "mode": "essay-translation"
   }
 ]
