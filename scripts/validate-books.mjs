@@ -435,6 +435,22 @@ if(lucianBook?.glossaryData){
   const usEntry=lookup.get("us");
   check(!!usEntry&&usEntry.ja.includes("私たち")&&!/United States|合衆国/i.test(usEntry.ja),
     "Lucian us must mean first-person plural object pronoun, not United States");
+  // Semantic regression: dictionary-form stemming must not replace the actual word in context.
+  // These entries previously displayed e.g. 'tis as a musical note and sees as a chemical symbol.
+  const expectedLucianMeanings = [
+    ["tis", /it is/i], ["twill", /it will/i],
+    ["may", /助動詞|かもしれない|してよい/], ["sees", /見る|見えて/],
+    ["lies", /横たわ/], ["meted", /報い/], ["muses", /ムーサ/],
+    ["fairer", /美しい/], ["fairest", /美しい/],
+    ["finer", /優れた|立派な/], ["dames", /婦人|女性/],
+    ["cares", /気にかける|愛情/], ["dotes", /溺愛/],
+    ["mater", /脳軟膜/], ["pipes", /笛/], ["car", /馬車|戦車/],
+    ["irons", /拘束具|鎖/], ["tithe", /十分の一|一割/],
+  ];
+  for(const [word,pattern] of expectedLucianMeanings){
+    check(pattern.test(lookup.get(word)?.ja||""),
+      "Lucian contextual meaning regression for "+word);
+  }
   check(textDays.length===19,"Lucian consists of 19 dialogues from the English source edition");
   const source=scriptMatch?.[1]||"";
   const start=source.indexOf("function splitDialogueChunks(");
