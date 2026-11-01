@@ -3051,7 +3051,7 @@
       ]
     }
   ],
-"DE-20261029-001": [
+  "DE-20261029-001": [
     {
       "words": {
         "critique": {
@@ -3327,7 +3327,7 @@
       ]
     }
   ],
-"DE-20261030-001": [
+  "DE-20261030-001": [
     {
       "words": {
         "machining": {
@@ -3874,6 +3874,282 @@
         {
           "en": "Integration is not the sum of features; it is the continuity of the work as it crosses the borders between tools.",
           "ja": "統合は機能の合計ではなく、作品が道具の境界を越えるときに保たれる連続性である。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261101-001": [
+    {
+      "words": {
+        "engine": {
+          "ja": "制作基盤",
+          "pos": "語句",
+          "lemma": "engine",
+          "form": "",
+          "note": "engine：この作品では「制作基盤」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A spontaneous attempt to make a game can quickly turn into the construction of an engine for assets, motion, voices, physics, persistence, and version control.",
+          "ja": "思いつきのゲーム制作は、素材・動き・音声・物理・保存・版管理のエンジン作りへすぐ変わりうる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "detour": {
+          "ja": "必要な遠回り",
+          "pos": "語句",
+          "lemma": "detour",
+          "form": "",
+          "note": "detour：この作品では「必要な遠回り」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The apparent detour is not necessarily a mistake in sequence.",
+          "ja": "その遠回りに見える工程は、必ずしも順序の誤りではない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "handoffs": {
+          "ja": "工程間の受け渡し",
+          "pos": "語句",
+          "lemma": "handoffs",
+          "form": "",
+          "note": "handoffs：この作品では「工程間の受け渡し」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A playable scene exists only because many invisible handoffs already work together.",
+          "ja": "遊べる場面は、多数の見えない受け渡しがすでに連携しているから成立する。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "workshop": {
+          "ja": "共通制作工房",
+          "pos": "語句",
+          "lemma": "workshop",
+          "form": "",
+          "note": "workshop：この作品では「共通制作工房」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Even separating the workshop from the game requires more than moving files; it requires deciding what belongs to the shared system and where a particular work begins.",
+          "ja": "工房とゲームを分けるにも、ファイル移動以上に、共通部分と個別作品の境界を決める必要がある。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "route": {
+          "ja": "成果が流れる経路",
+          "pos": "語句",
+          "lemma": "route",
+          "form": "",
+          "note": "route：この作品では「成果が流れる経路」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Sometimes the route for future results has to be built before the result itself.",
+          "ja": "未来の成果が流れる経路を、成果そのものより先に作らなければならない日もある。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261101-002": [
+    {
+      "words": {
+        "designers": {
+          "ja": "制度の設計者",
+          "pos": "語句",
+          "lemma": "designers",
+          "form": "",
+          "note": "designers：この作品では「制度の設計者」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Once the designers of a system are gone, later users mostly encounter its outputs.",
+          "ja": "制度の設計者が去ると、後の利用者が出会うのは主にその出力である。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "burdens": {
+          "ja": "制度が生む負担",
+          "pos": "語句",
+          "lemma": "burdens",
+          "form": "",
+          "note": "burdens：この作品では「制度が生む負担」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Rules built on good faith can generate new burdens when the number, incentives, or roles of participants change.",
+          "ja": "性善説で作られた規則も、参加者の数・誘因・役割が変わると新しい負担を生みうる。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "observers": {
+          "ja": "後から結果を見る人々",
+          "pos": "語句",
+          "lemma": "observers",
+          "form": "",
+          "note": "observers：この作品では「後から結果を見る人々」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Observers then judge success or failure from the visible result, even though the original information routes have disappeared from view.",
+          "ja": "元の情報経路が見えなくても、観察者は目に見える結果から成否を判断する。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "traceability": {
+          "ja": "入力から費用までの追跡可能性",
+          "pos": "語句",
+          "lemma": "traceability",
+          "form": "",
+          "note": "traceability：この作品では「入力から費用までの追跡可能性」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What looks like a lack of strategic vision may instead be a lack of traceability: we cannot see where inputs entered, which decisions transformed them, or who ultimately absorbed the cost.",
+          "ja": "大局観の欠如に見えるものは追跡可能性の欠如かもしれず、入力・判断・費用の行先が見えない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "outcome": {
+          "ja": "経路の終点としての結果",
+          "pos": "語句",
+          "lemma": "outcome",
+          "form": "",
+          "note": "outcome：この作品では「経路の終点としての結果」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "An outcome is only the end of a route. Understanding the system means tracing what still operates after its authors have left.",
+          "ja": "結果は経路の終点にすぎない。制度を理解するとは、作者の退場後も動くものを追うことだ。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261101-003": [
+    {
+      "words": {
+        "sales": {
+          "ja": "売上という単独指標",
+          "pos": "語句",
+          "lemma": "sales",
+          "form": "",
+          "note": "sales：この作品では「売上という単独指標」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Sales alone cannot show where a culture actually lives.",
+          "ja": "売上だけでは、文化が実際にどこで生きているかは示せない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "fifty": {
+          "ja": "五十席という小規模さ",
+          "pos": "語句",
+          "lemma": "fifty",
+          "form": "",
+          "note": "fifty：この作品では「五十席という小規模さ」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A free room with fifty seats, a paid stream, and an overseas campaign produce different numbers, but none by itself explains who listens regularly, who controls the rights, or where the revenue settles.",
+          "ja": "無料の五十席、課金配信、海外向け発信は別々の数字を生むが、聴取者・権利者・収益の行先を単独では説明しない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "listening": {
+          "ja": "日常的に聴く文化",
+          "pos": "語句",
+          "lemma": "listening",
+          "form": "",
+          "note": "listening：この作品では「日常的に聴く文化」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "If a broad listening culture never existed in the first place, announcing preservation will not create one.",
+          "ja": "広い聴取文化が元からなかったなら、存続の宣言だけでそれは生まれない。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "prestige": {
+          "ja": "文化の威信・特別さ",
+          "pos": "語句",
+          "lemma": "prestige",
+          "form": "",
+          "note": "prestige：この作品では「文化の威信・特別さ」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Cultural support is less about performing prestige than about keeping workable connections among the work, its audience, its rights, and its income.",
+          "ja": "文化支援は威信の演出より、作品・観客・権利・収入の間に機能する接続を保つことに近い。",
+          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "route": {
+          "ja": "文化を支える細い経路",
+          "pos": "語句",
+          "lemma": "route",
+          "form": "",
+          "note": "route：この作品では「文化を支える細い経路」"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Even a narrow route matters if it remains usable.",
+          "ja": "細い経路でも、使い続けられるなら意味がある。",
           "note": "このチャンク全体の意味と論理関係をまとめて読む。"
         }
       ]
