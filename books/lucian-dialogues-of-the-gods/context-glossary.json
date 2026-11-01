@@ -1,0 +1,573 @@
+{
+  "version": 1,
+  "description": "文脈別単語訳。Day、発言番号、同一単語の発言内出現順で対応づける。",
+  "entries": [
+    {
+      "day": 1,
+      "paragraph": 3,
+      "word": "light",
+      "occurrence": 1,
+      "ja": "降りかかる",
+      "note": "curses light on ～ は呪いが～に降りかかる",
+      "quote": "all worst curses light!) with my liver?"
+    },
+    {
+      "day": 13,
+      "paragraph": 2,
+      "word": "light",
+      "occurrence": 1,
+      "ja": "軽んじる",
+      "note": "make light of ～ は～を軽んじる",
+      "quote": "presumes to make light of his ceremonial, he d"
+    },
+    {
+      "day": 1,
+      "paragraph": 11,
+      "word": "bound",
+      "occurrence": 1,
+      "ja": "～へ行くところだ",
+      "note": "be bound on a visit は訪問に向かうところだ",
+      "quote": "Prom. You are bound on a little visit to Th"
+    },
+    {
+      "day": 13,
+      "paragraph": 2,
+      "word": "bound",
+      "occurrence": 1,
+      "ja": "縛られた",
+      "note": "be bound with vine-twigs は葡萄のつるで縛られた",
+      "quote": "npunished; he is bound with vine-twigs; or his"
+    },
+    {
+      "day": 15,
+      "paragraph": 11,
+      "word": "fair",
+      "occurrence": 1,
+      "ja": "公平な",
+      "note": "not fair は不公平だ",
+      "quote": "mes, that is not fair. No whispering with Aph"
+    },
+    {
+      "day": 15,
+      "paragraph": 32,
+      "word": "fair",
+      "occurrence": 1,
+      "ja": "美しい人",
+      "note": "FOR THE FAIR は美しい人に",
+      "quote": "s about. FOR THE FAIR, it says. But, my lord"
+    },
+    {
+      "day": 15,
+      "paragraph": 32,
+      "word": "fair",
+      "occurrence": 2,
+      "ja": "公平な",
+      "note": "a fair award は公平な判定",
+      "quote": "thinks it were a fair award, to give the appl"
+    },
+    {
+      "day": 15,
+      "paragraph": 54,
+      "word": "fair",
+      "occurrence": 1,
+      "ja": "公平な",
+      "note": "fair play は公正な扱い",
+      "quote": "t you shall have fair play. You can robe agai"
+    },
+    {
+      "day": 15,
+      "paragraph": 59,
+      "word": "fair",
+      "occurrence": 1,
+      "ja": "美しい・色白の",
+      "note": "She is fair は色白で美しい",
+      "quote": "Aph. She is fair, as might be expected f"
+    },
+    {
+      "day": 4,
+      "paragraph": 15,
+      "word": "will",
+      "occurrence": 1,
+      "ja": "～するだろう",
+      "note": "he will think は未来の助動詞",
+      "quote": "Hera. But he will think that I am the clo"
+    },
+    {
+      "day": 4,
+      "paragraph": 15,
+      "word": "will",
+      "occurrence": 2,
+      "ja": "～するだろう",
+      "note": "he will be working は未来の助動詞",
+      "quote": "am the cloud; he will be working his wicked w"
+    },
+    {
+      "day": 4,
+      "paragraph": 15,
+      "word": "will",
+      "occurrence": 3,
+      "ja": "欲望・意志",
+      "note": "his wicked will は彼の邪悪な欲望",
+      "quote": "rking his wicked will upon me for all he can"
+    },
+    {
+      "day": 1,
+      "paragraph": 9,
+      "word": "present",
+      "occurrence": 1,
+      "ja": "現在の・今の",
+      "note": "your present errand は現在の用事",
+      "quote": "I tell you your present errand right, will that"
+    },
+    {
+      "day": 15,
+      "paragraph": 51,
+      "word": "present",
+      "occurrence": 1,
+      "ja": "贈り物・褒美",
+      "note": "the present は贈り物",
+      "quote": "u would like the present which I offer you. Pari"
+    },
+    {
+      "day": 15,
+      "paragraph": 54,
+      "word": "present",
+      "occurrence": 1,
+      "ja": "贈り物・褒美",
+      "note": "take your present は褒美を受け取る",
+      "quote": "ing to take your present, but you shall have fai"
+    },
+    {
+      "day": 15,
+      "paragraph": 71,
+      "word": "present",
+      "occurrence": 1,
+      "ja": "その場にいる・立ち会う",
+      "note": "be present with you はそばで立ち会う",
+      "quote": "e; and I will be present with you, and help you"
+    },
+    {
+      "day": 4,
+      "paragraph": 8,
+      "word": "love",
+      "occurrence": 1,
+      "ja": "恋愛",
+      "note": "fall in love は恋に落ちる",
+      "quote": "if they fall in love, and form ambitious sch"
+    },
+    {
+      "day": 4,
+      "paragraph": 8,
+      "word": "love",
+      "occurrence": 2,
+      "ja": "愛の力・愛の神",
+      "note": "Love is all-powerful は擬人化された愛の力",
+      "quote": "us schemes! Yes, Love is all-powerful; and no"
+    },
+    {
+      "day": 4,
+      "paragraph": 17,
+      "word": "may",
+      "occurrence": 1,
+      "ja": "～するかもしれない",
+      "note": "he may tell them は可能性",
+      "quote": "of Zeus! Why, he may tell them that I am in"
+    },
+    {
+      "day": 12,
+      "paragraph": 6,
+      "word": "may",
+      "occurrence": 1,
+      "ja": "～してもよい",
+      "note": "you may insult は許容",
+      "quote": "his throne; you may insult whom you please."
+    },
+    {
+      "day": 11,
+      "paragraph": 3,
+      "word": "may",
+      "occurrence": 1,
+      "ja": "～してもよい",
+      "note": "you may let your locks grow は譲歩的な許容",
+      "quote": "Ah, Apollo, you may let your locks grow, an"
+    },
+    {
+      "day": 15,
+      "paragraph": 30,
+      "word": "may",
+      "occurrence": 1,
+      "ja": "～でしょうか",
+      "note": "who may you be は丁寧な疑問",
+      "quote": "ungster. And who may you be, who come thus f"
+    },
+    {
+      "day": 1,
+      "paragraph": 9,
+      "word": "right",
+      "occurrence": 1,
+      "ja": "正確に・正しく",
+      "note": "tell ... right は正しく言い当てる",
+      "quote": "r present errand right, will that convince you"
+    },
+    {
+      "day": 1,
+      "paragraph": 12,
+      "word": "right",
+      "occurrence": 1,
+      "ja": "正しい",
+      "note": "Right so far はここまでは正しい",
+      "quote": "Zeus. Right so far. And the sequel?"
+    },
+    {
+      "day": 4,
+      "paragraph": 18,
+      "word": "right",
+      "occurrence": 1,
+      "ja": "当然の報い",
+      "note": "serve him right は自業自得",
+      "quote": "y! And serve him right; not for falling in lov"
+    },
+    {
+      "day": 7,
+      "paragraph": 4,
+      "word": "right",
+      "occurrence": 1,
+      "ja": "右の",
+      "note": "the right arm は右腕",
+      "quote": "m his grasp, the right arm bent upwards, makin"
+    },
+    {
+      "day": 9,
+      "paragraph": 9,
+      "word": "right",
+      "occurrence": 1,
+      "ja": "権利・資格",
+      "note": "has the right to は権利がある",
+      "quote": "you, and has the right to a better place."
+    },
+    {
+      "day": 14,
+      "paragraph": 1,
+      "word": "right",
+      "occurrence": 1,
+      "ja": "右の",
+      "note": "your right hand は右手",
+      "quote": "no arrows, your right hand no cunning."
+    },
+    {
+      "day": 15,
+      "paragraph": 42,
+      "word": "right",
+      "occurrence": 1,
+      "ja": "権利・資格",
+      "note": "has no right to は権利がない",
+      "quote": "tter, she has no right to come thus tricked ou"
+    },
+    {
+      "day": 1,
+      "paragraph": 16,
+      "word": "set",
+      "occurrence": 1,
+      "ja": "自由にする",
+      "note": "set you free は解放する",
+      "quote": "Hephaestus shall set you free."
+    },
+    {
+      "day": 2,
+      "paragraph": 4,
+      "word": "set",
+      "occurrence": 1,
+      "ja": "向ける",
+      "note": "set eyes on me は私を見る",
+      "quote": "ut once let them set eyes on me, and they ar"
+    },
+    {
+      "day": 8,
+      "paragraph": 1,
+      "word": "set",
+      "occurrence": 1,
+      "ja": "仕向ける",
+      "note": "set her on thinking は考え始めさせる",
+      "quote": "ould you dare to set her on thinking of that"
+    },
+    {
+      "day": 15,
+      "paragraph": 63,
+      "word": "set",
+      "occurrence": 1,
+      "ja": "出発する",
+      "note": "set out for Greece はギリシアへ出発する",
+      "quote": "Aph. You will set out for Greece on a tou"
+    },
+    {
+      "day": 12,
+      "paragraph": 6,
+      "word": "set",
+      "occurrence": 1,
+      "ja": "価値を置く・評価する",
+      "note": "set no small value on yourself は自分を高く評価する",
+      "quote": "Leto. You set no small value on yours"
+    },
+    {
+      "day": 10,
+      "paragraph": 13,
+      "word": "set",
+      "occurrence": 1,
+      "ja": "心を決める",
+      "note": "set your heart upon は心を奪われる",
+      "quote": "new that you had set your heart upon a morta"
+    },
+    {
+      "day": 6,
+      "paragraph": 7,
+      "word": "like",
+      "occurrence": 1,
+      "ja": "気に入る・好きである",
+      "note": "I don't like it は気に入らない",
+      "quote": "ph. H'm. I don't like it: however, one must o"
+    },
+    {
+      "day": 6,
+      "paragraph": 7,
+      "word": "like",
+      "occurrence": 2,
+      "ja": "～のような",
+      "note": "She is like one inspired は～のようだ",
+      "quote": "ll swing. She is like one inspired; and (what"
+    },
+    {
+      "day": 2,
+      "paragraph": 10,
+      "word": "like",
+      "occurrence": 1,
+      "ja": "～を好む",
+      "note": "I like being in love は恋が好き",
+      "quote": "dare say; but I like being in love, only I d"
+    },
+    {
+      "day": 2,
+      "paragraph": 10,
+      "word": "like",
+      "occurrence": 2,
+      "ja": "～を好む",
+      "note": "I don't like all this fuss は騒ぎが嫌い",
+      "quote": "ve, only I don't like all this fuss. Now mind"
+    },
+    {
+      "day": 4,
+      "paragraph": 8,
+      "word": "like",
+      "occurrence": 1,
+      "ja": "～のように",
+      "note": "like this はこんなふうに",
+      "quote": "hem to our table like this. When they drink o"
+    },
+    {
+      "day": 5,
+      "paragraph": 18,
+      "word": "like",
+      "occurrence": 1,
+      "ja": "～のような",
+      "note": "an old harper like me は私のような",
+      "quote": "de an old harper like me quite envious. Even"
+    },
+    {
+      "day": 1,
+      "paragraph": 13,
+      "word": "measure",
+      "occurrence": 1,
+      "ja": "報い・仕打ち",
+      "note": "mete you the measure は同じ報いを与える",
+      "quote": "all mete you the measure you meted to--"
+    },
+    {
+      "day": 18,
+      "paragraph": 4,
+      "word": "measure",
+      "occurrence": 1,
+      "ja": "力量・能力",
+      "note": "took the child's measure は力量を見定める",
+      "quote": "took the child's measure, left the track, and wr"
+    },
+    {
+      "day": 3,
+      "paragraph": 4,
+      "word": "work",
+      "occurrence": 1,
+      "ja": "作用・働き",
+      "note": "Magic at work は魔法が働いている",
+      "quote": "Her. Magic at work! how did that come abou"
+    },
+    {
+      "day": 10,
+      "paragraph": 8,
+      "word": "work",
+      "occurrence": 1,
+      "ja": "仕事の結果・仕業",
+      "note": "the work of my own hand は私の仕業",
+      "quote": "Ap. It was the work of my own hand."
+    },
+    {
+      "day": 17,
+      "paragraph": 3,
+      "word": "work",
+      "occurrence": 1,
+      "ja": "仕事・労働",
+      "note": "all the work of Heaven は天界の仕事",
+      "quote": "I to do all the work of Heaven with my own h"
+    },
+    {
+      "day": 3,
+      "paragraph": 2,
+      "word": "mean",
+      "occurrence": 1,
+      "ja": "～のことを言う",
+      "note": "Io, you mean はイオのことですか",
+      "quote": "r. I do. Io, you mean?"
+    },
+    {
+      "day": 15,
+      "paragraph": 8,
+      "word": "mean",
+      "occurrence": 1,
+      "ja": "意味する・意図する",
+      "note": "What do you mean は何をおっしゃるのか",
+      "quote": "Aph. What do you mean?"
+    },
+    {
+      "day": 15,
+      "paragraph": 32,
+      "word": "matter",
+      "occurrence": 1,
+      "ja": "難しい問題",
+      "note": "a hard matter to judge は判断が難しい",
+      "quote": "ill, 'tis a hard matter to judge."
+    },
+    {
+      "day": 15,
+      "paragraph": 31,
+      "word": "matter",
+      "occurrence": 1,
+      "ja": "問題・異常",
+      "note": "there is nothing the matter は何も問題ない",
+      "quote": "e is nothing the matter. Zeus appoints you the"
+    },
+    {
+      "day": 15,
+      "paragraph": 42,
+      "word": "matter",
+      "occurrence": 1,
+      "ja": "話題・問題",
+      "note": "For that matter はそれについて言えば",
+      "quote": "ch you. For that matter, she has no right to co"
+    },
+    {
+      "day": 15,
+      "paragraph": 1,
+      "word": "matter",
+      "occurrence": 1,
+      "ja": "問題・事柄",
+      "note": "nothing to do with the matter は関わらない",
+      "quote": "g to do with the matter: I love you all exactly"
+    },
+    {
+      "day": 2,
+      "paragraph": 4,
+      "word": "sight",
+      "occurrence": 1,
+      "ja": "視界",
+      "note": "out of sight は視界の外",
+      "quote": "kept well out of sight. They like the bull or"
+    },
+    {
+      "day": 2,
+      "paragraph": 5,
+      "word": "sight",
+      "occurrence": 1,
+      "ja": "姿を見ること",
+      "note": "the sight of Zeus はゼウスを見ること",
+      "quote": "but mortals; the sight of Zeus is too much for"
+    },
+    {
+      "day": 15,
+      "paragraph": 32,
+      "word": "sight",
+      "occurrence": 1,
+      "ja": "光景・見もの",
+      "note": "no sight for a herdsman's eyes は牧人には不相応な光景",
+      "quote": "auty? This is no sight for a herdsman's eyes;"
+    },
+    {
+      "day": 15,
+      "paragraph": 55,
+      "word": "sight",
+      "occurrence": 1,
+      "ja": "姿を目にすること",
+      "note": "caught sight of you は姿を見かける",
+      "quote": "she once caught sight of you, she would give"
+    },
+    {
+      "day": 1,
+      "paragraph": 2,
+      "word": "good",
+      "occurrence": 1,
+      "ja": "良い肉・上等な部分",
+      "note": "all the good は供物の良い肉",
+      "quote": ": yours, all the good."
+    },
+    {
+      "day": 15,
+      "paragraph": 5,
+      "word": "good",
+      "occurrence": 1,
+      "ja": "適切な・良い",
+      "note": "a good award は妥当な判定",
+      "quote": ", he will make a good award."
+    },
+    {
+      "day": 14,
+      "paragraph": 7,
+      "word": "shot",
+      "occurrence": 1,
+      "ja": "射撃・矢を射ること",
+      "note": "take a shot at Artemis は矢を射かける",
+      "quote": "you never take a shot at Artemis?"
+    },
+    {
+      "day": 14,
+      "paragraph": 4,
+      "word": "run",
+      "occurrence": 1,
+      "ja": "突き通す",
+      "note": "run you through with my spear は槍で刺す",
+      "quote": "y father, I will run you through with my spe"
+    },
+    {
+      "day": 14,
+      "paragraph": 4,
+      "word": "run",
+      "occurrence": 2,
+      "ja": "逃げる",
+      "note": "run away directly I see it は見た途端逃げる",
+      "quote": "he nasty bogy--I run away directly I see it."
+    },
+    {
+      "day": 17,
+      "paragraph": 4,
+      "word": "run",
+      "occurrence": 1,
+      "ja": "急いで行く",
+      "note": "Run along now は急いで行く",
+      "quote": "like a good boy. Run along now to Argos and"
+    },
+    {
+      "day": 12,
+      "paragraph": 4,
+      "word": "bear",
+      "occurrence": 1,
+      "ja": "我慢する・耐える",
+      "note": "cannot bear to hear は聞くに耐えない",
+      "quote": "them. You cannot bear to hear my girl complim"
+    }
+  ]
+}

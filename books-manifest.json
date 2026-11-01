@@ -21,6 +21,7 @@
     "sourceUrl": "https://www.gutenberg.org/ebooks/6327",
     "source": "The Works of Lucian of Samosata, Vol. I, trans. H. W. Fowler & F. G. Fowler, Clarendon Press, 1905; Project Gutenberg eBook #6327 (GITenberg text). Omitted in this edition: IV, V, IX, X, XVII, XXII, XXIII.",
     "glossaryData": "books/lucian-dialogues-of-the-gods/glossary.json",
-    "chunkTranslationBase": "books/lucian-dialogues-of-the-gods/chunk-translations"
+    "chunkTranslationBase": "books/lucian-dialogues-of-the-gods/chunk-translations",
+    "contextGlossaryData": "books/lucian-dialogues-of-the-gods/context-glossary.json"
   }
 ]

@@ -484,17 +484,41 @@ if(lucianBook?.glossaryData){
   check(start>=0&&end>start,"Lucian chunk and vocabulary helpers are available");
   if(start>=0&&end>start){
     try{
-      const build=new Function(source.slice(start,end)+"\nreturn buildDialogueParagraphDetails;")();
+      const funcs=new Function(source.slice(start,end)+"\nreturn {buildDialogueParagraphDetails,dialogueContextKey};")();
+      const build=funcs.buildDialogueParagraphDetails;
       let paragraphs=0,chunks=0,tokens=0,complete=0,pending=0;
       const forms=new Set();
       check(!!lucianBook.chunkTranslationBase,"Lucian chapter-level chunk translation directory is configured");
+      const context=file(lucianBook.contextGlossaryData);
+      check(context.version===1&&Array.isArray(context.entries),
+        "Lucian context dictionary schema version 1");
+      const contextLookup=new Map();
+      const sourceToken=/[\p{L}]+(?:['’\-][\p{L}]+)*/gu;
+      for(const entry of context.entries||[]){
+        const source=textDays[entry.day-1]?.paragraphs?.[entry.paragraph-1];
+        check(Number.isInteger(entry.day)&&Number.isInteger(entry.paragraph)&&!!source,
+          "Context day and paragraph must exist");
+        if(!source)continue;
+        const word=String(entry.word||"").toLowerCase().replace(/’/g,"'");
+        const found=(source.match(sourceToken)||[]).filter(x=>x.toLowerCase().replace(/’/g,"'")===word);
+        check(Number.isInteger(entry.occurrence)&&entry.occurrence>0&&entry.occurrence<=found.length,
+          "Context word occurrence must exist: "+entry.day+"/"+entry.paragraph+"/"+word);
+        check(typeof entry.quote==="string"&&entry.quote.includes(found[entry.occurrence-1]||"")&&source.includes(entry.quote),
+          "Context excerpt must still exist in source: "+entry.day+"/"+entry.paragraph+"/"+word);
+        check(typeof entry.ja==="string"&&!!entry.ja.trim()&&typeof entry.note==="string"&&!!entry.note.trim(),
+          "Context meaning and usage note must exist: "+word);
+        const key=funcs.dialogueContextKey(entry.day,entry.paragraph,word,entry.occurrence);
+        check(!contextLookup.has(key),"Context key must be unique: "+key);
+        contextLookup.set(key,entry);
+      }
+      check(context.entries.length>=55,"At least 55 grounded contextual word senses");
       for(const day of textDays){
         const path=lucianBook.chunkTranslationBase+"/day-"+String(day.day).padStart(2,"0")+".json";
         const alignment=file(path);
         check(alignment.day===day.day&&alignment.paragraphs.length===day.paragraphs.length,
           "Lucian Day "+day.day+" aligned translation data exists");
         day.chunkTranslations=alignment.paragraphs;
-        const details=build(day,lookup);
+        const details=build(day,lookup,contextLookup);
         check(details.length===day.paragraphs.length,"Lucian Day "+day.day+" paragraph coverage");
         details.forEach((detail,i)=>{
           paragraphs++;
@@ -523,6 +547,29 @@ if(lucianBook?.glossaryData){
       check(forms.size===1752&&lookup.size===1752,"All 1,752 unique forms are glossed");
       check(complete===585&&pending===0,"All 585 chunks have explicit aligned Japanese translations");
       check(textDays.every(day=>day.jp.length===day.paragraphs.length),"All 19 Lucian dialogues have complete Japanese paragraph translations");
+      for(const entry of context.entries){
+        const details=build(textDays[entry.day-1],lookup,contextLookup);
+        const words=details[entry.paragraph-1].chunks.flatMap(x=>x.words)
+          .filter(x=>x.word.toLowerCase().replace(/’/g,"'")===entry.word);
+        const actual=words[entry.occurrence-1];
+        check(actual?.contextual===true&&actual.ja===entry.ja&&actual.note===entry.note,
+          "Context override applied: "+entry.day+"/"+entry.paragraph+"/"+entry.word);
+      }
+      function sense(day,paragraph,word,occurrence=1){
+        const words=build(textDays[day-1],lookup,contextLookup)[paragraph-1].chunks.flatMap(x=>x.words)
+          .filter(x=>x.word.toLowerCase().replace(/’/g,"'")===word);
+        return words[occurrence-1]?.ja;
+      }
+      check(sense(15,32,"fair",1)==="美しい人"&&sense(15,32,"fair",2)==="公平な",
+        "Fair has two distinct senses in the same paragraph");
+      check(sense(4,15,"will",1)==="～するだろう"&&sense(4,15,"will",3)==="欲望・意志",
+        "Will auxiliary and noun receive distinct senses");
+      check(sense(1,11,"bound")==="～へ行くところだ"&&sense(13,2,"bound")==="縛られた",
+        "Bound changes meaning across dialogues");
+      check(sense(1,4,"tithe")===lookup.get("tithe").ja,
+        "Other words retain the original dictionary fallback");
+      check(build(textDays[0],lookup,contextLookup)[10].vocabulary.some(w=>w.word==="bound"&&w.ja==="～へ行くところだ"),
+        "Important word list must reuse passage-specific translation");
       const ninth=build(textDays[8],lookup);
       check(ninth[7]?.chunks[0]?.words[0]?.ja.startsWith("ヘラクレス"),"Her. is Heracles in dialogue XIII");
       const sixth=build(textDays[5],lookup);
