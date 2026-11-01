@@ -451,6 +451,32 @@ if(lucianBook?.glossaryData){
     check(pattern.test(lookup.get(word)?.ja||""),
       "Lucian contextual meaning regression for "+word);
   }
+  // A semantic layer on top of token-coverage checks: a word with a Japanese
+  // translation is not necessarily translated correctly (e.g. "liver" once
+  // resolved to "resident", or "Rhea" to the South American bird).
+  const lucianSenseRegressions = new Map([
+    ["liver", /肝臓/], ["rhea", /女神/], ["stole", /盗んだ/],
+    ["argos", /地名/], ["atlas", /巨神/], ["paris", /トロイア/],
+    ["bolt", /雷/], ["artillery", /弓矢/], ["conceives", /妊娠|身ごも/],
+    ["assume", /変身|姿/], ["content", /満足/], ["cross", /不機嫌|腹を立て/],
+    ["dashed", /打ちつけ|叩きつけ/], ["directly", /すぐ/],
+    ["flashing", /光/], ["following", /取り巻き/], ["figure", /体つき/],
+    ["manes", /たてがみ/], ["locks", /髪/], ["lodged", /矢/],
+    ["marshalling", /魂/], ["masquerading", /変装|扮装/],
+    ["overreached", /出し抜/], ["pastures", /放牧/], ["plumes", /羽飾り/],
+    ["pressed", /頼んだ|迫った/], ["presents", /贈り物/],
+    ["quack", /やぶ医者/], ["quiver", /矢筒/], ["riveted", /固定|縛り/],
+    ["rushing", /走り回る|突進/], ["singed", /焼け焦げ/],
+    ["slaves", /奴隷/], ["scot", /罰/], ["scrapes", /厄介/],
+    ["smacked", /叩いた|たたいた/], ["stole", /盗んだ/], ["stormed", /怒鳴/],
+    ["tripped", /転ばせた/], ["tricked", /着飾/], ["wound", /傷/],
+    ["waves", /波/], ["wheels", /車輪/], ["worked", /計算/],
+    ["ap", /アポロン/], ["ar", /アレス/], ["ma", /マイア/],
+    ["par", /パリス/], ["prom", /プロメテウス/],
+  ]);
+  for(const [word,sense] of lucianSenseRegressions)
+    check(sense.test(lookup.get(word)?.ja||""),
+      "Lucian semantic glossary regression: "+word);
   check(textDays.length===19,"Lucian consists of 19 dialogues from the English source edition");
   const source=scriptMatch?.[1]||"";
   const start=source.indexOf("function splitDialogueChunks(");
