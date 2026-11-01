@@ -4870,5 +4870,797 @@
     "lemma": "vitamin",
     "form": "",
     "note": "vitamin：この文脈では「ビタミン」"
+  },
+  {
+    "word": "admiration",
+    "ja": "称賛・感嘆",
+    "pos": "語句",
+    "lemma": "admiration",
+    "form": "",
+    "note": "admiration：この文脈では「称賛・感嘆」"
+  },
+  {
+    "word": "adopting",
+    "ja": "採用すること",
+    "pos": "語句",
+    "lemma": "adopting",
+    "form": "",
+    "note": "adopting：この文脈では「採用すること」"
+  },
+  {
+    "word": "amplify",
+    "ja": "増幅する",
+    "pos": "語句",
+    "lemma": "amplify",
+    "form": "",
+    "note": "amplify：この文脈では「増幅する」"
+  },
+  {
+    "word": "announcing",
+    "ja": "発表すること",
+    "pos": "語句",
+    "lemma": "announcing",
+    "form": "",
+    "note": "announcing：この文脈では「発表すること」"
+  },
+  {
+    "word": "assumptions",
+    "ja": "前提・仮定（複数）",
+    "pos": "語句",
+    "lemma": "assumptions",
+    "form": "",
+    "note": "assumptions：この文脈では「前提・仮定（複数）」"
+  },
+  {
+    "word": "attacks",
+    "ja": "攻撃する・批判する",
+    "pos": "語句",
+    "lemma": "attacks",
+    "form": "",
+    "note": "attacks：この文脈では「攻撃する・批判する」"
+  },
+  {
+    "word": "authoritative",
+    "ja": "権威的な・説得力のある",
+    "pos": "語句",
+    "lemma": "authoritative",
+    "form": "",
+    "note": "authoritative：この文脈では「権威的な・説得力のある」"
+  },
+  {
+    "word": "authors",
+    "ja": "作者・設計者（複数）",
+    "pos": "語句",
+    "lemma": "authors",
+    "form": "",
+    "note": "authors：この文脈では「作者・設計者（複数）」"
+  },
+  {
+    "word": "borrowing",
+    "ja": "借用すること",
+    "pos": "語句",
+    "lemma": "borrowing",
+    "form": "",
+    "note": "borrowing：この文脈では「借用すること」"
+  },
+  {
+    "word": "burdens",
+    "ja": "負担（複数）",
+    "pos": "語句",
+    "lemma": "burdens",
+    "form": "",
+    "note": "burdens：この文脈では「負担（複数）」"
+  },
+  {
+    "word": "bury",
+    "ja": "埋める・覆い隠す",
+    "pos": "語句",
+    "lemma": "bury",
+    "form": "",
+    "note": "bury：この文脈では「埋める・覆い隠す」"
+  },
+  {
+    "word": "circulates",
+    "ja": "流通する・広まる",
+    "pos": "語句",
+    "lemma": "circulates",
+    "form": "",
+    "note": "circulates：この文脈では「流通する・広まる」"
+  },
+  {
+    "word": "circulation",
+    "ja": "流通・循環",
+    "pos": "語句",
+    "lemma": "circulation",
+    "form": "",
+    "note": "circulation：この文脈では「流通・循環」"
+  },
+  {
+    "word": "complicated",
+    "ja": "複雑な",
+    "pos": "語句",
+    "lemma": "complicated",
+    "form": "",
+    "note": "complicated：この文脈では「複雑な」"
+  },
+  {
+    "word": "concern",
+    "ja": "気遣い・関心",
+    "pos": "語句",
+    "lemma": "concern",
+    "form": "",
+    "note": "concern：この文脈では「気遣い・関心」"
+  },
+  {
+    "word": "critic",
+    "ja": "批判者・批評家",
+    "pos": "語句",
+    "lemma": "critic",
+    "form": "",
+    "note": "critic：この文脈では「批判者・批評家」"
+  },
+  {
+    "word": "cruel",
+    "ja": "残酷な",
+    "pos": "語句",
+    "lemma": "cruel",
+    "form": "",
+    "note": "cruel：この文脈では「残酷な」"
+  },
+  {
+    "word": "cynical",
+    "ja": "冷笑的な",
+    "pos": "語句",
+    "lemma": "cynical",
+    "form": "",
+    "note": "cynical：この文脈では「冷笑的な」"
+  },
+  {
+    "word": "deriving",
+    "ja": "導き出すこと",
+    "pos": "語句",
+    "lemma": "deriving",
+    "form": "",
+    "note": "deriving：この文脈では「導き出すこと」"
+  },
+  {
+    "word": "designers",
+    "ja": "設計者（複数）",
+    "pos": "語句",
+    "lemma": "designers",
+    "form": "",
+    "note": "designers：この文脈では「設計者（複数）」"
+  },
+  {
+    "word": "detour",
+    "ja": "遠回り・迂回",
+    "pos": "語句",
+    "lemma": "detour",
+    "form": "",
+    "note": "detour：この文脈では「遠回り・迂回」"
+  },
+  {
+    "word": "devices",
+    "ja": "装置・仕組み（複数）",
+    "pos": "語句",
+    "lemma": "devices",
+    "form": "",
+    "note": "devices：この文脈では「装置・仕組み（複数）」"
+  },
+  {
+    "word": "disability",
+    "ja": "障害",
+    "pos": "語句",
+    "lemma": "disability",
+    "form": "",
+    "note": "disability：この文脈では「障害」"
+  },
+  {
+    "word": "discussions",
+    "ja": "議論・語り合い（複数）",
+    "pos": "語句",
+    "lemma": "discussions",
+    "form": "",
+    "note": "discussions：この文脈では「議論・語り合い（複数）」"
+  },
+  {
+    "word": "domesticated",
+    "ja": "飼い慣らされた",
+    "pos": "語句",
+    "lemma": "domesticated",
+    "form": "",
+    "note": "domesticated：この文脈では「飼い慣らされた」"
+  },
+  {
+    "word": "during",
+    "ja": "〜の間に",
+    "pos": "語句",
+    "lemma": "during",
+    "form": "",
+    "note": "during：この文脈では「〜の間に」"
+  },
+  {
+    "word": "eclipse",
+    "ja": "覆い隠す・しのぐ",
+    "pos": "語句",
+    "lemma": "eclipse",
+    "form": "",
+    "note": "eclipse：この文脈では「覆い隠す・しのぐ」"
+  },
+  {
+    "word": "engaged",
+    "ja": "関与した・引き留められた",
+    "pos": "語句",
+    "lemma": "engaged",
+    "form": "",
+    "note": "engaged：この文脈では「関与した・引き留められた」"
+  },
+  {
+    "word": "engine",
+    "ja": "エンジン・基盤",
+    "pos": "語句",
+    "lemma": "engine",
+    "form": "",
+    "note": "engine：この文脈では「エンジン・基盤」"
+  },
+  {
+    "word": "erasing",
+    "ja": "消すこと",
+    "pos": "語句",
+    "lemma": "erasing",
+    "form": "",
+    "note": "erasing：この文脈では「消すこと」"
+  },
+  {
+    "word": "existed",
+    "ja": "存在した",
+    "pos": "語句",
+    "lemma": "existed",
+    "form": "",
+    "note": "existed：この文脈では「存在した」"
+  },
+  {
+    "word": "family's",
+    "ja": "家族の",
+    "pos": "語句",
+    "lemma": "family's",
+    "form": "",
+    "note": "family's：この文脈では「家族の」"
+  },
+  {
+    "word": "fifty",
+    "ja": "五十",
+    "pos": "語句",
+    "lemma": "fifty",
+    "form": "",
+    "note": "fifty：この文脈では「五十」"
+  },
+  {
+    "word": "files",
+    "ja": "ファイル（複数）",
+    "pos": "語句",
+    "lemma": "files",
+    "form": "",
+    "note": "files：この文脈では「ファイル（複数）」"
+  },
+  {
+    "word": "free",
+    "ja": "無料の・自由な",
+    "pos": "語句",
+    "lemma": "free",
+    "form": "",
+    "note": "free：この文脈では「無料の・自由な」"
+  },
+  {
+    "word": "gets",
+    "ja": "〜になる・得る",
+    "pos": "語句",
+    "lemma": "gets",
+    "form": "",
+    "note": "gets：この文脈では「〜になる・得る」"
+  },
+  {
+    "word": "handoffs",
+    "ja": "受け渡し（複数）",
+    "pos": "語句",
+    "lemma": "handoffs",
+    "form": "",
+    "note": "handoffs：この文脈では「受け渡し（複数）」"
+  },
+  {
+    "word": "helped",
+    "ja": "助けた",
+    "pos": "語句",
+    "lemma": "helped",
+    "form": "",
+    "note": "helped：この文脈では「助けた」"
+  },
+  {
+    "word": "idealization",
+    "ja": "理想化・神格化",
+    "pos": "語句",
+    "lemma": "idealization",
+    "form": "",
+    "note": "idealization：この文脈では「理想化・神格化」"
+  },
+  {
+    "word": "implicates",
+    "ja": "巻き込む・関係づける",
+    "pos": "語句",
+    "lemma": "implicates",
+    "form": "",
+    "note": "implicates：この文脈では「巻き込む・関係づける」"
+  },
+  {
+    "word": "imports",
+    "ja": "輸入する・持ち込む",
+    "pos": "語句",
+    "lemma": "imports",
+    "form": "",
+    "note": "imports：この文脈では「輸入する・持ち込む」"
+  },
+  {
+    "word": "incentives",
+    "ja": "誘因・動機（複数）",
+    "pos": "語句",
+    "lemma": "incentives",
+    "form": "",
+    "note": "incentives：この文脈では「誘因・動機（複数）」"
+  },
+  {
+    "word": "inputs",
+    "ja": "入力（複数）",
+    "pos": "語句",
+    "lemma": "inputs",
+    "form": "",
+    "note": "inputs：この文脈では「入力（複数）」"
+  },
+  {
+    "word": "invalidate",
+    "ja": "無効にする",
+    "pos": "語句",
+    "lemma": "invalidate",
+    "form": "",
+    "note": "invalidate：この文脈では「無効にする」"
+  },
+  {
+    "word": "invite",
+    "ja": "招く・誘う",
+    "pos": "語句",
+    "lemma": "invite",
+    "form": "",
+    "note": "invite：この文脈では「招く・誘う」"
+  },
+  {
+    "word": "kindly",
+    "ja": "優しく・好意的に",
+    "pos": "語句",
+    "lemma": "kindly",
+    "form": "",
+    "note": "kindly：この文脈では「優しく・好意的に」"
+  },
+  {
+    "word": "larger",
+    "ja": "より大きな",
+    "pos": "語句",
+    "lemma": "larger",
+    "form": "",
+    "note": "larger：この文脈では「より大きな」"
+  },
+  {
+    "word": "listening",
+    "ja": "聴取・聴くこと",
+    "pos": "語句",
+    "lemma": "listening",
+    "form": "",
+    "note": "listening：この文脈では「聴取・聴くこと」"
+  },
+  {
+    "word": "listens",
+    "ja": "聴く",
+    "pos": "語句",
+    "lemma": "listens",
+    "form": "",
+    "note": "listens：この文脈では「聴く」"
+  },
+  {
+    "word": "long-running",
+    "ja": "長く続く",
+    "pos": "語句",
+    "lemma": "long-running",
+    "form": "",
+    "note": "long-running：この文脈では「長く続く」"
+  },
+  {
+    "word": "measures",
+    "ja": "測る・測定する",
+    "pos": "語句",
+    "lemma": "measures",
+    "form": "",
+    "note": "measures：この文脈では「測る・測定する」"
+  },
+  {
+    "word": "mirrors",
+    "ja": "鏡（複数）",
+    "pos": "語句",
+    "lemma": "mirrors",
+    "form": "",
+    "note": "mirrors：この文脈では「鏡（複数）」"
+  },
+  {
+    "word": "mocks",
+    "ja": "からかう・風刺する",
+    "pos": "語句",
+    "lemma": "mocks",
+    "form": "",
+    "note": "mocks：この文脈では「からかう・風刺する」"
+  },
+  {
+    "word": "mostly",
+    "ja": "主に・大部分は",
+    "pos": "語句",
+    "lemma": "mostly",
+    "form": "",
+    "note": "mostly：この文脈では「主に・大部分は」"
+  },
+  {
+    "word": "mourning",
+    "ja": "追悼・哀悼",
+    "pos": "語句",
+    "lemma": "mourning",
+    "form": "",
+    "note": "mourning：この文脈では「追悼・哀悼」"
+  },
+  {
+    "word": "none",
+    "ja": "どれも〜ない",
+    "pos": "語句",
+    "lemma": "none",
+    "form": "",
+    "note": "none：この文脈では「どれも〜ない」"
+  },
+  {
+    "word": "notices",
+    "ja": "気づく・注目する",
+    "pos": "語句",
+    "lemma": "notices",
+    "form": "",
+    "note": "notices：この文脈では「気づく・注目する」"
+  },
+  {
+    "word": "observers",
+    "ja": "観察者（複数）",
+    "pos": "語句",
+    "lemma": "observers",
+    "form": "",
+    "note": "observers：この文脈では「観察者（複数）」"
+  },
+  {
+    "word": "once-rare",
+    "ja": "かつて希少だった",
+    "pos": "語句",
+    "lemma": "once-rare",
+    "form": "",
+    "note": "once-rare：この文脈では「かつて希少だった」"
+  },
+  {
+    "word": "operates",
+    "ja": "作動する・運用される",
+    "pos": "語句",
+    "lemma": "operates",
+    "form": "",
+    "note": "operates：この文脈では「作動する・運用される」"
+  },
+  {
+    "word": "package",
+    "ja": "包装する・商品化する",
+    "pos": "語句",
+    "lemma": "package",
+    "form": "",
+    "note": "package：この文脈では「包装する・商品化する」"
+  },
+  {
+    "word": "performers",
+    "ja": "出演者・演者（複数）",
+    "pos": "語句",
+    "lemma": "performers",
+    "form": "",
+    "note": "performers：この文脈では「出演者・演者（複数）」"
+  },
+  {
+    "word": "performing",
+    "ja": "演じること",
+    "pos": "語句",
+    "lemma": "performing",
+    "form": "",
+    "note": "performing：この文脈では「演じること」"
+  },
+  {
+    "word": "personality",
+    "ja": "人格・個性",
+    "pos": "語句",
+    "lemma": "personality",
+    "form": "",
+    "note": "personality：この文脈では「人格・個性」"
+  },
+  {
+    "word": "portability",
+    "ja": "運びやすさ・可搬性",
+    "pos": "語句",
+    "lemma": "portability",
+    "form": "",
+    "note": "portability：この文脈では「運びやすさ・可搬性」"
+  },
+  {
+    "word": "preaching",
+    "ja": "説教すること",
+    "pos": "語句",
+    "lemma": "preaching",
+    "form": "",
+    "note": "preaching：この文脈では「説教すること」"
+  },
+  {
+    "word": "preservation",
+    "ja": "保存・保全",
+    "pos": "語句",
+    "lemma": "preservation",
+    "form": "",
+    "note": "preservation：この文脈では「保存・保全」"
+  },
+  {
+    "word": "prestige",
+    "ja": "威信・名声",
+    "pos": "語句",
+    "lemma": "prestige",
+    "form": "",
+    "note": "prestige：この文脈では「威信・名声」"
+  },
+  {
+    "word": "pretending",
+    "ja": "装うこと",
+    "pos": "語句",
+    "lemma": "pretending",
+    "form": "",
+    "note": "pretending：この文脈では「装うこと」"
+  },
+  {
+    "word": "purity",
+    "ja": "純粋さ",
+    "pos": "語句",
+    "lemma": "purity",
+    "form": "",
+    "note": "purity：この文脈では「純粋さ」"
+  },
+  {
+    "word": "quotation",
+    "ja": "引用",
+    "pos": "語句",
+    "lemma": "quotation",
+    "form": "",
+    "note": "quotation：この文脈では「引用」"
+  },
+  {
+    "word": "ranking",
+    "ja": "順位付け",
+    "pos": "語句",
+    "lemma": "ranking",
+    "form": "",
+    "note": "ranking：この文脈では「順位付け」"
+  },
+  {
+    "word": "rapid",
+    "ja": "急速な",
+    "pos": "語句",
+    "lemma": "rapid",
+    "form": "",
+    "note": "rapid：この文脈では「急速な」"
+  },
+  {
+    "word": "regularly",
+    "ja": "日常的に・定期的に",
+    "pos": "語句",
+    "lemma": "regularly",
+    "form": "",
+    "note": "regularly：この文脈では「日常的に・定期的に」"
+  },
+  {
+    "word": "retention",
+    "ja": "継続・保持",
+    "pos": "語句",
+    "lemma": "retention",
+    "form": "",
+    "note": "retention：この文脈では「継続・保持」"
+  },
+  {
+    "word": "reversal",
+    "ja": "逆転",
+    "pos": "語句",
+    "lemma": "reversal",
+    "form": "",
+    "note": "reversal：この文脈では「逆転」"
+  },
+  {
+    "word": "separating",
+    "ja": "分離すること",
+    "pos": "語句",
+    "lemma": "separating",
+    "form": "",
+    "note": "separating：この文脈では「分離すること」"
+  },
+  {
+    "word": "settles",
+    "ja": "落ち着く・帰着する",
+    "pos": "語句",
+    "lemma": "settles",
+    "form": "",
+    "note": "settles：この文脈では「落ち着く・帰着する」"
+  },
+  {
+    "word": "shaping",
+    "ja": "形作ること",
+    "pos": "語句",
+    "lemma": "shaping",
+    "form": "",
+    "note": "shaping：この文脈では「形作ること」"
+  },
+  {
+    "word": "shelf",
+    "ja": "棚",
+    "pos": "語句",
+    "lemma": "shelf",
+    "form": "",
+    "note": "shelf：この文脈では「棚」"
+  },
+  {
+    "word": "simplification",
+    "ja": "単純化",
+    "pos": "語句",
+    "lemma": "simplification",
+    "form": "",
+    "note": "simplification：この文脈では「単純化」"
+  },
+  {
+    "word": "softened",
+    "ja": "和らげられた",
+    "pos": "語句",
+    "lemma": "softened",
+    "form": "",
+    "note": "softened：この文脈では「和らげられた」"
+  },
+  {
+    "word": "strategic",
+    "ja": "戦略的な",
+    "pos": "語句",
+    "lemma": "strategic",
+    "form": "",
+    "note": "strategic：この文脈では「戦略的な」"
+  },
+  {
+    "word": "stream",
+    "ja": "配信・流れ",
+    "pos": "語句",
+    "lemma": "stream",
+    "form": "",
+    "note": "stream：この文脈では「配信・流れ」"
+  },
+  {
+    "word": "symbol",
+    "ja": "象徴",
+    "pos": "語句",
+    "lemma": "symbol",
+    "form": "",
+    "note": "symbol：この文脈では「象徴」"
+  },
+  {
+    "word": "tempt",
+    "ja": "誘惑する",
+    "pos": "語句",
+    "lemma": "tempt",
+    "form": "",
+    "note": "tempt：この文脈では「誘惑する」"
+  },
+  {
+    "word": "term's",
+    "ja": "用語の",
+    "pos": "語句",
+    "lemma": "term's",
+    "form": "",
+    "note": "term's：この文脈では「用語の」"
+  },
+  {
+    "word": "ties",
+    "ja": "つながり・関係（複数）",
+    "pos": "語句",
+    "lemma": "ties",
+    "form": "",
+    "note": "ties：この文脈では「つながり・関係（複数）」"
+  },
+  {
+    "word": "traceability",
+    "ja": "追跡可能性",
+    "pos": "語句",
+    "lemma": "traceability",
+    "form": "",
+    "note": "traceability：この文脈では「追跡可能性」"
+  },
+  {
+    "word": "tracing",
+    "ja": "追跡すること",
+    "pos": "語句",
+    "lemma": "tracing",
+    "form": "",
+    "note": "tracing：この文脈では「追跡すること」"
+  },
+  {
+    "word": "transformed",
+    "ja": "変換した・変えられた",
+    "pos": "語句",
+    "lemma": "transformed",
+    "form": "",
+    "note": "transformed：この文脈では「変換した・変えられた」"
+  },
+  {
+    "word": "traveling",
+    "ja": "移動すること",
+    "pos": "語句",
+    "lemma": "traveling",
+    "form": "",
+    "note": "traveling：この文脈では「移動すること」"
+  },
+  {
+    "word": "unnoticed",
+    "ja": "気づかれない",
+    "pos": "語句",
+    "lemma": "unnoticed",
+    "form": "",
+    "note": "unnoticed：この文脈では「気づかれない」"
+  },
+  {
+    "word": "unrelated",
+    "ja": "無関係な",
+    "pos": "語句",
+    "lemma": "unrelated",
+    "form": "",
+    "note": "unrelated：この文脈では「無関係な」"
+  },
+  {
+    "word": "unusually",
+    "ja": "異常に・ひどく",
+    "pos": "語句",
+    "lemma": "unusually",
+    "form": "",
+    "note": "unusually：この文脈では「異常に・ひどく」"
+  },
+  {
+    "word": "virtue",
+    "ja": "徳・美徳",
+    "pos": "語句",
+    "lemma": "virtue",
+    "form": "",
+    "note": "virtue：この文脈では「徳・美徳」"
+  },
+  {
+    "word": "vision",
+    "ja": "視野・構想",
+    "pos": "語句",
+    "lemma": "vision",
+    "form": "",
+    "note": "vision：この文脈では「視野・構想」"
+  },
+  {
+    "word": "wisdom",
+    "ja": "知恵",
+    "pos": "語句",
+    "lemma": "wisdom",
+    "form": "",
+    "note": "wisdom：この文脈では「知恵」"
+  },
+  {
+    "word": "workshop",
+    "ja": "工房・作業場",
+    "pos": "語句",
+    "lemma": "workshop",
+    "form": "",
+    "note": "workshop：この文脈では「工房・作業場」"
   }
 ]
