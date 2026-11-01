@@ -117,6 +117,7 @@ progress{width:100%;height:12px;accent-color:#317265}
 .gloss-row:last-child{border-bottom:0}
 .gloss-word{font:600 15px/1.5 Georgia,serif;color:#193332;overflow-wrap:anywhere}
 .gloss-meaning{color:#273e36}
+.gloss-context{display:inline-block;margin-left:7px;font:700 10px/1.5 system-ui,sans-serif;color:#265f51}
 .gloss-usage{grid-column:2/-1;color:#65746e;font-size:11px;margin-top:-5px}
 .chunk-extra{grid-column:1/-1;color:#627169;font-size:11px;line-height:1.7}
 @media(max-width:440px){.gloss-row{grid-template-columns:minmax(110px,1fr) minmax(0,1.4fr);gap:5px 8px}.gloss-meaning{overflow-wrap:anywhere}}
@@ -236,7 +237,7 @@ footer{margin-top:24px;color:var(--muted);font-size:12px;border-top:1px solid va
 const $ = (id) => document.getElementById(id);
 const STORAGE_KEY = "morningenglish-books-progress-v1";
 let catalog = [], book = null, sessions = [], current = 1, showJp = false, showNotes = true, speechRun = 0;
-let bookGlossary = null, dayLoadPromises = new Map(), navigationVersion = 0;
+let bookGlossary = null, bookContextGlossary = new Map(), dayLoadPromises = new Map(), navigationVersion = 0;
 const askDrafts = new Map();
 const safe = (s) => String(s == null ? "" : s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
 function readStore(){
@@ -425,7 +426,10 @@ function splitDialogueChunks(paragraph){
   if(output.join("")!==paragraph)throw new Error("チャンク分解の原文一致に失敗しました");
   return output;
 }
-function buildDialogueParagraphDetails(day,glossary){
+function dialogueContextKey(day,paragraph,word,occurrence){
+  return day+":"+paragraph+":"+String(word).toLowerCase().replace(/’/g,"'")+":"+occurrence;
+}
+function buildDialogueParagraphDetails(day,glossary,contextGlossary=new Map()){
   const hasTranslation=Array.isArray(day.jp)&&day.jp.length===day.paragraphs.length;
   const tokenRe=/[\p{L}]+(?:['’\-][\p{L}]+)*/gu;
   return day.paragraphs.map((paragraph,pi)=>{
@@ -433,6 +437,7 @@ function buildDialogueParagraphDetails(day,glossary){
     const aligned=day.chunkTranslations?.[pi];
     if(aligned&&(!Array.isArray(aligned)||aligned.length!==parts.length||aligned.some(x=>typeof x!=="string"||!x.trim())))
       throw new Error("Day "+day.day+" 段落 "+(pi+1)+" のチャンク訳が英文に対応していません");
+    const occurrenceCounts=new Map();
     const speakers={Prom:"プロメテウス",Zeus:"ゼウス",Eros:"エロス",Her:day.day===9?"ヘラクレス":"ヘルメス",Ap:"アポロン",
       Hera:"ヘラ",Par:"パリス",Herm:"ヘルメス",Heph:"ヘパイストス",Ath:"アテナ",
       Asc:"アスクレピオス",Leto:"レト",Sel:"セレネ",Ar:"アレス",Ma:"マイア",
@@ -442,9 +447,12 @@ function buildDialogueParagraphDetails(day,glossary){
       if(index===0&&((spoken&&spoken[1]===word)||(!spoken&&word==="Aph"&&/^Aph Assuredly/.test(context)))&&speakers[word])
         return {word,ja:speakers[word]+"（話者名）",note:"対話の発言者を示す略記。通常の英単語の意味ではありません。"};
       const key=word.toLowerCase().replace(/’/g,"'");
+      const occurrence=(occurrenceCounts.get(key)||0)+1;
+      occurrenceCounts.set(key,occurrence);
       const entry=glossary.get(key);
       if(!entry)throw new Error("単語訳未登録: "+word);
-      return {word,ja:entry.ja,note:entry.note};
+      const contextual=contextGlossary.get(dialogueContextKey(day.day,pi+1,key,occurrence));
+      return {word,ja:contextual?.ja||entry.ja,note:contextual?.note||entry.note,contextual:!!contextual};
     };
     const chunks=parts.map((en,index)=>({
       en,role:index===0?"発言の導入・主題":"発言の続き・意味のまとまり",
@@ -455,7 +463,7 @@ function buildDialogueParagraphDetails(day,glossary){
       hint:"原文を意味のまとまりで分割。話者と修飾語の係り先を確認してください。",
       words:(en.match(tokenRe)||[]).map((word,i)=>wordFor(word,i,en))
     }));
-    const allWords=(paragraph.match(tokenRe)||[]).map((word,i)=>wordFor(word,i,paragraph));
+    const allWords=chunks.flatMap(chunk=>chunk.words);
     const distinct=[...new Map(allWords.filter(w=>w.word.length>=4).map(w=>[w.word.toLowerCase(),w])).values()];
     const important=(distinct.length?distinct:allWords).slice(0,4);
     const firstChunk=parts[0].trim();
@@ -509,14 +517,14 @@ function render(){
     if(showNotes&&detail){
       const chunkHtml=detail.chunks.map((c,j)=>{
         const fullGloss=Array.isArray(c.words)?c.words:[];
-        const glossary=fullGloss.map(w=>'<div class="gloss-row"><span class="gloss-word" lang="en">'+safe(w.word)+'</span><span class="gloss-meaning" lang="ja">'+safe(w.ja)+'</span><span class="gloss-usage" lang="ja">'+safe(w.note)+'</span></div>').join("");
+        const glossary=fullGloss.map(w=>'<div class="gloss-row"><span class="gloss-word" lang="en">'+safe(w.word)+'</span><span class="gloss-meaning" lang="ja">'+safe(w.ja)+(w.contextual?'<span class="gloss-context">文脈訳</span>':"")+'</span><span class="gloss-usage" lang="ja">'+safe(w.note)+'</span></div>').join("");
         const wordPanel='<details class="chunk-lex"><summary>このチャンクの全単語（'+fullGloss.length+'語）の意味と用法</summary><div>'+glossary+'</div></details>';
         return '<li class="chunk-row"><div><div class="session-label">CHUNK '+String(j+1).padStart(2,"0")+' / '+detail.chunks.length+'</div><div class="chunk-en" lang="en">'+safe(c.en)+'</div><div class="chunk-role" lang="ja">'+safe(c.role)+'</div></div><button class="btn tiny" data-read-chunk="'+i+':'+j+'" type="button" aria-label="チャンク'+(j+1)+'を英語で読む">▶</button><div class="chunk-hint" lang="ja"><strong>'+(c.translationStatus==='complete'?'日本語訳：':c.translationStatus==='paragraph-reference'?'段落訳を参照：':'翻訳状況：')+'</strong>'+safe(c.ja)+'</div>'+wordPanel+(c.hint?'<div class="chunk-extra" lang="ja">構文・読解の補足：'+safe(c.hint)+'</div>':"")+'</li>';
       }).join("");
       const expressions=(detail.expressions||[]).map(x=>'<li><span class="focus-en" lang="en">'+safe(x.en)+'</span><span class="focus-ja" lang="ja">'+safe(x.ja)+'</span></li>').join("");
       const vocabulary=(detail.vocabulary||[]).map(x=>'<div class="word"><strong lang="en">'+safe(x.word)+'</strong><span lang="ja">'+safe(x.ja)+'</span><span class="vocab-note" lang="ja">'+safe(x.note||"")+'</span></div>').join("");
       detailsHtml='<details class="paragraph-help" open><summary>段落'+(i+1)+'のチャンク・単語解説<span class="counts">'+detail.chunks.length+'チャンク / '+detail.vocabulary.length+'語</span></summary>'+
-        '<p class="help-intro" lang="ja">'+(book.chunkTranslationBase?'この作品は全チャンクに対応する日本語訳があります。英語の区切りと直下の訳を対照し、さらに「このチャンクの全単語」で語義を確認できます。単語辞書には一般語義も含まれるため、文脈と照合してください。':book.glossaryData?'本文を意味のまとまりに分割し、冠詞・前置詞・固有名詞を含む全単語の訳語を原文順に表示します。辞書の一般語義は文脈に合わない場合があります。各発言の日本語全訳は折りたたみ表示、チャンク単位の精密な対応訳は未校正です。':'各チャンクには対応する日本語訳を収録しました。「このチャンクの全単語」を開くと、冠詞・前置詞なども含め、全単語の意味と用法を原文の順番で確認できます。')+'</p>'+
+        '<p class="help-intro" lang="ja">'+(book.chunkTranslationBase?'この作品にはチャンク対訳があります。確認済みの語義は「文脈訳」として共通辞書より優先します。それ以外の語は一般辞書の意味を表示するため、文脈と照合してください。':book.glossaryData?'本文を意味のまとまりに分割し、冠詞・前置詞・固有名詞を含む全単語の訳語を原文順に表示します。辞書の一般語義は文脈に合わない場合があります。各発言の日本語全訳は折りたたみ表示、チャンク単位の精密な対応訳は未校正です。':'各チャンクには対応する日本語訳を収録しました。「このチャンクの全単語」を開くと、冠詞・前置詞なども含め、全単語の意味と用法を原文の順番で確認できます。')+'</p>'+
         '<p class="paragraph-summary" lang="ja">'+safe(detail.summary)+'</p>'+
         (book.glossaryData&&detail.paragraphTranslation?'<details class="paragraph-translation"><summary>この発言の日本語全訳を表示</summary><p class="jp" lang="ja">'+safe(detail.paragraphTranslation)+'</p></details>':'')+
         '<h4>全文チャンク分解・日本語訳・全単語の解説</h4><ol class="chunks">'+chunkHtml+'</ol>'+
@@ -574,7 +582,7 @@ async function ensureDayLoaded(day,expectedBook=book){
             throw new Error('Day '+day+' のチャンク対訳データが一致しません');
           data.chunkTranslations=translation.paragraphs;
         }
-        data.paragraphDetails=buildDialogueParagraphDetails(data,bookGlossary);
+        data.paragraphDetails=buildDialogueParagraphDetails(data,bookGlossary,bookContextGlossary);
       }
       return data;
     })().catch(error=>{dayLoadPromises.delete(key);throw error;});
@@ -629,9 +637,23 @@ async function loadBook(id){
     if(!Array.isArray(lex))throw new Error('単語辞書の形式が不正です');
     glossary=new Map(lex.map(x=>[x.word.toLowerCase(),x]));
   }
+  let contextGlossary=new Map();
+  if(chosen.contextGlossaryData){
+    const context=await loadJson(chosen.contextGlossaryData);
+    if(token!==navigationVersion)return;
+    if(context?.version!==1||!Array.isArray(context.entries))
+      throw new Error('文脈辞書の形式が不正です');
+    for(const entry of context.entries){
+      const key=dialogueContextKey(entry.day,entry.paragraph,entry.word,entry.occurrence);
+      if(contextGlossary.has(key)||!entry.ja?.trim()||!entry.note?.trim())
+        throw new Error('文脈辞書の重複・不正項目: '+key);
+      contextGlossary.set(key,entry);
+    }
+  }
   book=chosen;
   sessions=d;
   bookGlossary=glossary;
+  bookContextGlossary=contextGlossary;
   dayLoadPromises=new Map();
   const saved=bookState(),resume=resumeMark(saved);
   current=resume?resume.day:(validDay(saved.lastDay)?saved.lastDay:1);
