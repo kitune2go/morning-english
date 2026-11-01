@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 166,
+    "_generatedAt": "2026-11-02T02:02:00+09:00",
+    "sentence": "A response may satisfy the required schema while still needing revision; structural validation confirms the format, not the quality of the judgment.",
+    "phonetic": "ア リスポンス メイ サティスファイ ザ リクワイアド スキーマ ワイル スティル ニーディング リヴィジョン；ストラクチュラル ヴァリデイション コンファームズ ザ フォーマット、ノット ザ クオリティ オブ ザ ジャッジメント。",
+    "japaneseTranslation": "応答は必須スキーマを満たしていても、なお修正が必要な場合があります。構造検証で確認できるのは形式であって、判断の質ではありません。",
+    "theme": "スキーマ適合と判断品質を区別する",
+    "coreVerb": "satisfy",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A response satisfies a schema.",
+        "translation": "応答はスキーマを満たす。"
+      },
+      "phase2": {
+        "sentence": "A response may satisfy the required schema.",
+        "translation": "応答は必須スキーマを満たす場合がある。",
+        "addedChunks": "助動詞(may)と修飾語(required)を追加"
+      },
+      "phase3": {
+        "sentence": "A response may be valid, but it may still need revision.",
+        "translation": "応答は妥当でも、なお修正が必要な場合がある。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Judgment quality is more important than format compliance alone.",
+        "translation": "判断の質は、形式への適合だけより重要だ。",
+        "comparison": "more important than"
+      },
+      "phase5": {
+        "sentence": "A response may satisfy the required schema while still needing revision",
+        "translation": "応答は必須スキーマを満たしていても、なお修正が必要な場合がある。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A response may satisfy",
+          "function": "行動",
+          "translation": "応答は満たす場合がある"
+        },
+        {
+          "text": "the required schema",
+          "function": "対象",
+          "translation": "必須スキーマを"
+        },
+        {
+          "text": "while still needing revision",
+          "function": "接続",
+          "translation": "なお修正を必要としながら"
+        },
+        {
+          "text": "structural validation confirms",
+          "function": "行動",
+          "translation": "構造検証で確認できるのは"
+        },
+        {
+          "text": "the format",
+          "function": "対象",
+          "translation": "形式であり"
+        },
+        {
+          "text": "not the quality of the judgment",
+          "function": "比較",
+          "translation": "判断の質ではない"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may satisfy",
+          "explanation": "起こり得ることを断定せずに表す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "過去分詞",
+          "name": "required",
+          "where": "the required schema",
+          "explanation": "要求されたスキーマを名詞の前から修飾する。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "譲歩",
+          "name": "while + -ing",
+          "where": "while still needing revision",
+          "explanation": "一方の状態が成り立っても別の状態が併存することを表す。",
+          "rule": "while + 現在分詞"
+        },
+        {
+          "category": "副詞",
+          "name": "still",
+          "where": "still needing revision",
+          "explanation": "適合後にも必要性が残ることを強調する。",
+          "rule": "still + 動詞句"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "revision; structural validation",
+          "explanation": "結論を補足する関連独立節を結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "対照",
+          "name": "A, not B",
+          "where": "the format, not the quality",
+          "explanation": "確認される対象と確認されない対象を明示する。",
+          "rule": "A, not B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A response may satisfies the schema.",
+          "correct": "A response may satisfy the schema.",
+          "why": "助動詞mayの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "while still need revision",
+          "correct": "while still needing revision",
+          "why": "省略されたwhile節では現在分詞を使って状態の併存を表す。"
+        },
+        {
+          "wrong": "Structural validation confirm the format.",
+          "correct": "Structural validation confirms the format.",
+          "why": "単数主語validationには三人称単数形confirmsを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Valid structure does not guarantee sound judgment.",
+          "translation": "正しい構造は妥当な判断を保証しない。"
+        },
+        {
+          "text": "A schema check confirms shape, not substance.",
+          "translation": "スキーマ検査が確認するのは形であり、内容ではない。"
+        },
+        {
+          "text": "Even a well-formed response may need substantive revision.",
+          "translation": "形式の整った応答でも、内容面の修正が必要な場合がある。"
+        }
+      ],
+      "parseTree": "S(A response) Aux(may) V(satisfy) O(the required schema) [Adv: while still needing revision]; S(structural validation) V(confirms) O(the format), NegContrast(not the quality of the judgment)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "may satisfy the required schema",
+          "expanded": "because every required field can be present with the expected type",
+          "nuance": "構造適合が成立する条件を具体化する。"
+        },
+        {
+          "original": "while still needing revision",
+          "expanded": "since a well-formed response can contain weak reasoning or an unsuitable conclusion",
+          "nuance": "形式が正しくても内容修正が必要な理由を示す。"
+        },
+        {
+          "original": "confirms the format, not the quality of the judgment",
+          "expanded": "therefore, schema validation should be followed by an independent evaluation of the decision",
+          "nuance": "次に行う品質評価を明示する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The required schema may be satisfied even when the judgment must be revised.",
+          "translation": "判断を修正すべき場合でも、必須スキーマは満たされることがある。",
+          "note": "schemaを主語にして満たされる側へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Passing the schema check, the response still failed the substantive review.",
+          "translation": "スキーマ検査には合格したが、その応答はなお内容審査に不合格だった。",
+          "note": "構造検査の結果を-ing句で背景化する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Schema compliance is separate from the evaluation of judgment quality.",
+          "translation": "スキーマ適合は、判断品質の評価とは別である。",
+          "note": "complyとevaluateを名詞化して関係を示す。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "satisfy",
+            "alternatives": [
+              "meet",
+              "fulfill",
+              "comply with"
+            ],
+            "nuance": "satisfyは条件を満たす、meetは基準に達する、fulfillは要件を果たす、comply withは規則に従う。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "二段階評価",
+            "sentence": "First validate the structure, then evaluate the judgment.",
+            "translation": "まず構造を検証し、次に判断を評価する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Substantive review is more demanding than schema validation alone.",
+            "translation": "内容審査は、スキーマ検証だけより厳しい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a response passes the schema check, its reasoning should still be reviewed independently.",
+            "translation": "応答がスキーマ検査に合格しても、推論は別に審査すべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What structural validity confirms is format, not correctness.",
+            "translation": "構造上の妥当性が確認するのは形式であり、正しさではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Valid shape is not sound judgment.",
+            "translation": "正しい形は妥当な判断ではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "while句とnot対照で二段階評価を簡潔に表した。技術評価の文脈に特化しているためflexibilityを8とした。"
+    }
+  }
+]
