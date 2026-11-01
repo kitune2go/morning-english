@@ -85,7 +85,10 @@
     "cards-extra-20261007.json",
     "cards-extra-20261005.json",
     "cards-extra-20261008.json",
-    "cards-extra-20261010.json"
+    "cards-extra-20261010.json",
+    "cards-extra-20261009.json",
+    "cards-extra-20261011.json",
+    "cards-extra-20261014.json"
   ],
   "cards": [
     {
@@ -1228,6 +1231,27 @@
       "coreVerb": "require",
       "theme": "伝統への慣れと安全性を区別する",
       "_sourceFile": "cards-extra-20261010.json"
+    },
+    {
+      "_no": 164,
+      "sentence": "The absence of objective meaning does not prove that people cannot create meaning; a description of what is does not automatically determine what ought to be.",
+      "coreVerb": "prove",
+      "theme": "客観的意味の不在と規範的結論を分ける",
+      "_sourceFile": "cards-extra-20261009.json"
+    },
+    {
+      "_no": 165,
+      "sentence": "A historical photograph can document visible change, but it cannot reveal how people felt unless its date, purpose, and context are also examined.",
+      "coreVerb": "document",
+      "theme": "歴史写真が記録できる範囲を見極める",
+      "_sourceFile": "cards-extra-20261011.json"
+    },
+    {
+      "_no": 166,
+      "sentence": "A response may satisfy the required schema while still needing revision; structural validation confirms the format, not the quality of the judgment.",
+      "coreVerb": "satisfy",
+      "theme": "スキーマ適合と判断品質を区別する",
+      "_sourceFile": "cards-extra-20261014.json"
     }
   ]
 }
