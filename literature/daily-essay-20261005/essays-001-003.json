@@ -1,0 +1,82 @@
+[
+  {
+    "id": "DE-20261005-001",
+    "sourceTitle": "説明の型は人を先回りする",
+    "workId": "daily-essay-20261005",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "感想欄に本人だけが残る",
+    "jp": "長く続いた作品の感想欄で、物語より出演者への同情や追悼が前へ出ることがある。かつて希少だった収録裏話も繰り返され、やがて個人的な関係やゴシップが作品の説明を肩代わりする。そこに悪意があるとは限らない。ただ、作品を語る入口が人物像だけになると、画面に残った演技や物語の構造は後景へ退く。人を思う言葉が増えるほど、作品そのものへ届く言葉が減るというねじれが生まれる。",
+    "translationLiteral": "In the comment section of a long-running work, sympathy or mourning for the performers sometimes moves ahead of the story. Behind-the-scenes recording stories that were once rare are repeated, and personal relationships or gossip eventually take over the task of explaining the work. This is not necessarily malicious. Yet when the only entrance to the work is an image of a person, the performance left on the screen and the structure of the story recede into the background. The more words of concern for the person increase, the fewer words reach the work itself.",
+    "translationNatural": "In discussions of a long-running work, concern for the performers can gradually eclipse the story itself. Once-rare production anecdotes are repeated until personal ties and gossip begin to stand in for criticism. The shift need not be cruel or cynical. Yet when a public image becomes the only doorway into a work, the recorded performance and the shape of the story fade behind it. A strange reversal follows: the more people speak kindly about the person, the less they may say about the work.",
+    "imageUrl": "",
+    "imageCaption": "作品の画面が、寄せ書きのような人物評の奥へ少しずつ隠れていく。",
+    "imagePrompt": "Editorial illustration of a film frame slowly obscured by layers of sympathetic notes and celebrity gossip, restrained literary mood, no readable text",
+    "chunks": [
+      {"en": "In discussions of a long-running work, concern for the performers can gradually eclipse the story itself.", "ja": "長寿作品を語る場で、出演者への気遣いが物語そのものを徐々に覆うことがある。"},
+      {"en": "Once-rare production anecdotes are repeated until personal ties and gossip begin to stand in for criticism.", "ja": "かつて希少だった制作秘話は反復され、個人的関係やゴシップが批評の代わりになり始める。"},
+      {"en": "The shift need not be cruel or cynical.", "ja": "その変化は必ずしも残酷でも冷笑的でもない。"},
+      {"en": "Yet when a public image becomes the only doorway into a work, the recorded performance and the shape of the story fade behind it.", "ja": "しかし公的な人物像だけが作品への入口になると、記録された演技と物語の形はその背後へ退く。"},
+      {"en": "A strange reversal follows: the more people speak kindly about the person, the less they may say about the work.", "ja": "すると、人について優しく語るほど作品について語らなくなるという奇妙な逆転が生じる。"}
+    ],
+    "grammar": ["can gradually eclipse は緩やかな変化と可能性を同時に表す。", "until は反復が批評の代替へ至る過程を導く。", "stand in for A は『Aの代わりをする』という句動詞。", "need not be は必然ではないことを示す。", "when 節は人物像が唯一の入口になる条件を示す。", "the more A, the less B は二つの変化が逆方向に連動する比較構文。"],
+    "translationNote": "literal は同情・追悼、収録裏話、人物像、作品構造の後退を保持した。natural は『寄せ書き化』を concern と public image で一般化し、eclipse と stand in for criticism によって人物評が作品評を覆う動きを自然な英語へ移した。",
+    "readingPoint": "導入。善意の人物評であっても、作品を読むための入口を狭めうるという逆説を置く。",
+    "keywords": ["criticism", "public image", "gossip", "performance", "reception"]
+  },
+  {
+    "id": "DE-20261005-002",
+    "sourceTitle": "説明の型は人を先回りする",
+    "workId": "daily-essay-20261005",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "専門語は視界まで借りてくる",
+    "jp": "専門語は、難しい言い換えではない。別の分野から言葉を借りると、その分野が何を問題とし、何を数え、何を見えないままにするかまで一緒に入ってくる。言葉の出身地を忘れれば、説明は急に強く見える。しかし強さの一部は、前提を持ち込んだことに気づかない強さである。用語を使う前に、その道具が元は何を直すために作られたのかを確かめたい。語彙の選択は、答えより先に質問の形を決めている。",
+    "translationLiteral": "Technical terms are not merely difficult paraphrases. When a word is borrowed from another field, what that field treats as a problem, what it counts, and what it leaves invisible enter with it. If the birthplace of the word is forgotten, the explanation suddenly looks strong. Yet part of that strength comes from failing to notice that assumptions were imported. Before using a term, we should check what the tool was originally made to repair. The choice of vocabulary determines the shape of the question before the answer.",
+    "translationNatural": "A technical term is more than a difficult substitute for an ordinary word. Borrowing vocabulary from another discipline also imports its problem frame: what it notices, what it measures, and what it leaves out. Once the term's origin disappears, the explanation may look unusually authoritative. Some of that authority, however, comes from hidden assumptions traveling unnoticed. Before adopting the language, we should ask what task it was designed to solve. Vocabulary begins shaping the question before anyone offers an answer.",
+    "imageUrl": "",
+    "imageCaption": "一つの専門語が、測定器と死角を同じ箱に入れて別分野へ運ぶ。",
+    "imagePrompt": "Editorial conceptual illustration of a technical word carrying both measuring instruments and blind spots from one discipline into another, clean restrained style, no readable text",
+    "chunks": [
+      {"en": "A technical term is more than a difficult substitute for an ordinary word.", "ja": "専門語は、日常語を難しく置き換えただけのものではない。"},
+      {"en": "Borrowing vocabulary from another discipline also imports its problem frame: what it notices, what it measures, and what it leaves out.", "ja": "別分野の語彙を借りると、何に気づき、何を測り、何を省くかという問題設定も輸入される。"},
+      {"en": "Once the term's origin disappears, the explanation may look unusually authoritative.", "ja": "用語の出身地が見えなくなると、その説明はひどく権威的に見えることがある。"},
+      {"en": "Some of that authority, however, comes from hidden assumptions traveling unnoticed.", "ja": "しかしその権威の一部は、隠れた前提が気づかれずに運ばれることから生じる。"},
+      {"en": "Before adopting the language, we should ask what task it was designed to solve.", "ja": "その言葉を採用する前に、元はどの課題を解くため設計されたのかを問うべきだ。"},
+      {"en": "Vocabulary begins shaping the question before anyone offers an answer.", "ja": "誰かが答えを出す前から、語彙は質問の形を作り始めている。"}
+    ],
+    "grammar": ["more than は単なる難語という理解を越える。", "Borrowing ... imports ... は動名詞句を主語にする。", "what it notices / measures / leaves out は三つの名詞節を並列する。", "Once は起点となる条件変化を示す。", "however は権威の見え方から隠れた前提へ転換する。", "what task it was designed to solve は ask の目的語となる間接疑問。"],
+    "translationNote": "literal の『言葉の出身地』『何を直す道具か』を、natural では origin と designed to solve に置き換えた。problem frame を補い、専門語が答えだけでなく問いの範囲も持ち込む点を明示した。",
+    "readingPoint": "展開。人物像を先回りする説明の型を、専門語が持ち込む問題設定と死角へ広げる。",
+    "keywords": ["technical term", "discipline", "problem frame", "assumption", "vocabulary"]
+  },
+  {
+    "id": "DE-20261005-003",
+    "sourceTitle": "説明の型は人を先回りする",
+    "workId": "daily-essay-20261005",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "身体から聖人を作らない",
+    "jp": "身体の条件や障害を知った瞬間、その人の人格、知性、人生観まで清らかな一つの像へまとめたくなることがある。追悼や称賛は、その誘惑をさらに強くする。けれど身体は、政治的な正しさの証明書ではない。本人の矛盾も、家族の負担も、必要だった具体的な支援も、神格化の光の中では消えてしまう。尊重とは欠点を消すことではなく、条件から人格を推定せず、現実の負担と選択をそのまま見られる余白を残すことだ。",
+    "translationLiteral": "The moment we learn about a bodily condition or disability, we may want to gather the person's character, intelligence, and view of life into one pure image. Mourning and praise strengthen that temptation. But the body is not a certificate of political correctness. The person's contradictions, the family's burden, and the concrete support that was needed all disappear in the light of deification. Respect does not mean erasing faults. It means not inferring character from conditions and leaving room to see actual burdens and choices as they are.",
+    "translationNatural": "Learning that someone lived with a disability can tempt observers to turn the whole person into a moral symbol. Mourning and admiration make that simplification especially powerful. A bodily condition, however, is not evidence of virtue, wisdom, or political purity. Idealization can erase the person's contradictions, the family's practical burden, and the support that daily life actually required. Respect should preserve complexity rather than remove it. It leaves enough room to see choices and burdens without deriving a personality from a condition.",
+    "imageUrl": "",
+    "imageCaption": "強い後光の外側に、矛盾・家族の負担・具体的支援を書いた小さな生活の断片が残る。",
+    "imagePrompt": "Respectful editorial illustration of a human figure being turned into a glowing moral symbol while practical daily burdens and support remain outside the halo, no readable text",
+    "chunks": [
+      {"en": "Learning that someone lived with a disability can tempt observers to turn the whole person into a moral symbol.", "ja": "誰かに障害があったと知ると、見る側はその人全体を道徳的象徴へ変えたくなることがある。"},
+      {"en": "Mourning and admiration make that simplification especially powerful.", "ja": "追悼と称賛は、その単純化をとりわけ強くする。"},
+      {"en": "A bodily condition, however, is not evidence of virtue, wisdom, or political purity.", "ja": "しかし身体の条件は、徳・知恵・政治的純粋さの証拠ではない。"},
+      {"en": "Idealization can erase the person's contradictions, the family's practical burden, and the support that daily life actually required.", "ja": "理想化は、本人の矛盾、家族の現実的負担、日常生活に本当に必要だった支援を消しうる。"},
+      {"en": "Respect should preserve complexity rather than remove it.", "ja": "尊重は複雑さを消すのではなく、保つべきである。"},
+      {"en": "It leaves enough room to see choices and burdens without deriving a personality from a condition.", "ja": "それは条件から人格を導かず、選択と負担を見る余白を残す。"}
+    ],
+    "grammar": ["Learning that ... は動名詞句を主語にする。", "tempt O to do は観察者を単純化へ誘う動きを表す。", "make O C は simplification を powerful にする。", "A, B, or C は否定される三つの推論を並列する。", "rather than は複雑さの保持と除去を対照する。", "without -ing は人格推定を行わない条件を示す。"],
+    "translationNote": "literal の人格・知性・人生観を、natural では moral symbol と virtue, wisdom, political purity に整理した。『神格化』は宗教的断定を避けて idealization とし、本人・家族・支援の三層が消える問題を保持した。",
+    "readingPoint": "転換と余韻。説明の型を批判するだけで終わらず、複雑さを消さないことを尊重の条件として置く。",
+    "keywords": ["disability", "idealization", "respect", "burden", "complexity"]
+  }
+]
