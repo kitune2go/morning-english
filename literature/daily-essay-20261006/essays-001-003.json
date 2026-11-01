@@ -1,0 +1,82 @@
+[
+  {
+    "id": "DE-20261006-001",
+    "sourceTitle": "反逆は商品番号を渡される",
+    "workId": "daily-essay-20261006",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "鏡のない海から一文だけ届く",
+    "jp": "「海の中には鏡がない」という一文は、前後を離れても強く残る。短い言葉は画像へ載り、引用され、別の文脈へ運ばれやすい。その軽さは魅力だが、作品全体が何を試し、何を笑い、何に巻き込まれているかまでは運ばない。断片は入口になれる一方、入口だけが作品の顔になることもある。切り取られた文を読むとき、足りない部分を想像で埋めるより、どこから切られ、どの装置で広がったかを見たい。",
+    "translationLiteral": "The sentence 'There are no mirrors in the sea' remains strong even when separated from what comes before and after. Short words are easy to place on an image, quote, and carry into another context. That lightness is attractive, but it does not carry what the whole work tests, mocks, or becomes entangled in. A fragment can be an entrance, while the entrance alone can also become the face of the work. When reading a cut-out sentence, rather than filling the missing parts with imagination, we should see where it was cut from and through what device it spread.",
+    "translationNatural": "A line such as 'There are no mirrors in the sea' can remain vivid after its surrounding context has vanished. Short phrases travel easily: they fit on images, invite quotation, and enter unrelated conversations. Their portability is part of their appeal, but it cannot carry everything the larger work tests, mocks, or implicates itself in. A fragment may open the door to a work, yet the doorway can become its entire public face. Instead of inventing the missing context, a reader can ask where the line was cut and which system helped it travel.",
+    "imageUrl": "",
+    "imageCaption": "海から切り出された一文が、画像・引用・タイムラインを渡って運ばれる。",
+    "imagePrompt": "Editorial illustration of one luminous sentence fragment leaving a mirrorless sea and traveling through image cards quotations and a social feed, no readable text",
+    "chunks": [
+      {"en": "A line such as 'There are no mirrors in the sea' can remain vivid after its surrounding context has vanished.", "ja": "『海の中には鏡がない』のような一文は、周囲の文脈が消えても鮮明に残りうる。"},
+      {"en": "Short phrases travel easily: they fit on images, invite quotation, and enter unrelated conversations.", "ja": "短い句は画像に収まり、引用を誘い、無関係な会話へ入りやすい。"},
+      {"en": "Their portability is part of their appeal, but it cannot carry everything the larger work tests, mocks, or implicates itself in.", "ja": "運びやすさは魅力の一部だが、作品全体が試し、笑い、自ら巻き込まれるものすべては運べない。"},
+      {"en": "A fragment may open the door to a work, yet the doorway can become its entire public face.", "ja": "断片は作品への扉を開ける一方、その扉だけが作品の公的な顔になりうる。"},
+      {"en": "Instead of inventing the missing context, a reader can ask where the line was cut and which system helped it travel.", "ja": "欠けた文脈を創作する代わりに、どこから切られ、どの仕組みが運んだかを問える。"}
+    ],
+    "grammar": ["such as は引用例を導く。", "after は文脈消失後も残る時間関係を示す。", "fit / invite / enter は短い句の移動性を並列する。", "but は運びやすさと意味の欠落を対照する。", "may A, yet B は入口と顔の逆転を示す。", "Instead of -ing は想像による補完ではなく経路確認を選ぶ。"],
+    "translationNote": "literal の『軽さ』を natural では portability とし、断片の魅力を否定せずに限界を示した。『どの装置で広がったか』は which system helped it travel と訳し、SNSだけに限定しない経路の問いへ整えた。",
+    "readingPoint": "導入。強い一文の魅力から始め、断片が作品全体の顔になる条件へ視線を移す。",
+    "keywords": ["fragment", "context", "quotation", "portability", "media"]
+  },
+  {
+    "id": "DE-20261006-002",
+    "sourceTitle": "反逆は商品番号を渡される",
+    "workId": "daily-essay-20261006",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "批判にも滞在時間が付く",
+    "jp": "注意を奪う市場を批判する作品も、ランキング、共有、継続率、反応速度の中へ置かれる。そこで批判は内容であると同時に、滞在時間を伸ばす仕掛けにもなる。矛盾しているから無意味なのではない。むしろ矛盾を消してしまえば、作品が身を置く場所は見えなくなる。市場の外から石を投げるのではなく、市場の道具を使い、その手触りまで作品へ含める。批判が自分も測定されると知っているとき、風刺は説教より複雑になる。",
+    "translationLiteral": "A work that criticizes the market for taking attention is also placed inside rankings, sharing, retention rates, and response speed. There, criticism is content and at the same time a device for lengthening time spent. It is not meaningless because it is contradictory. If the contradiction is erased, the place where the work stands becomes invisible. Rather than throwing stones from outside the market, it uses the market's tools and includes their feel in the work. When criticism knows that it too is measured, satire becomes more complex than a sermon.",
+    "translationNatural": "A work that attacks the attention market still enters systems of ranking, sharing, retention, and rapid response. Its criticism becomes both an argument and a mechanism for keeping people engaged. That contradiction does not automatically invalidate the work. Erasing it would hide the very conditions under which the work circulates. Instead of pretending to speak from outside the market, the work can use market devices and make their pressure part of its form. Satire grows more complicated than preaching when it knows that the critic is being measured too.",
+    "imageUrl": "",
+    "imageCaption": "市場批判の作品にも、順位・共有・継続率を測る計器が接続されている。",
+    "imagePrompt": "Editorial conceptual image of an artwork criticizing the attention market while connected to ranking sharing retention and engagement meters, sophisticated restrained style, no readable text",
+    "chunks": [
+      {"en": "A work that attacks the attention market still enters systems of ranking, sharing, retention, and rapid response.", "ja": "注意市場を攻撃する作品も、順位・共有・継続・即時反応の仕組みに入る。"},
+      {"en": "Its criticism becomes both an argument and a mechanism for keeping people engaged.", "ja": "その批判は主張であると同時に、人を引き留める仕掛けにもなる。"},
+      {"en": "That contradiction does not automatically invalidate the work.", "ja": "その矛盾だけで作品が自動的に無効になるわけではない。"},
+      {"en": "Erasing it would hide the very conditions under which the work circulates.", "ja": "矛盾を消せば、作品が流通するまさにその条件が隠れる。"},
+      {"en": "Instead of pretending to speak from outside the market, the work can use market devices and make their pressure part of its form.", "ja": "市場の外から語るふりをせず、市場の装置を使い、その圧力を形式の一部にできる。"},
+      {"en": "Satire grows more complicated than preaching when it knows that the critic is being measured too.", "ja": "批判者自身も測定されると知るとき、風刺は説教より複雑になる。"}
+    ],
+    "grammar": ["that attacks ... は work を修飾する関係詞節。", "both A and B は批判の二重機能を示す。", "does not automatically invalidate は矛盾から無意味さを直結させない。", "under which は流通条件を導く前置詞付き関係詞。", "Instead of -ing は市場外を装う態度との対照を作る。", "when 節は批判者も測定対象になる条件を示す。"],
+    "translationNote": "literal の『滞在時間を伸ばす仕掛け』を keeping people engaged と自然化しつつ、ランキング・共有・継続率という具体的な測定環境を保持した。風刺と説教の差を、自己も測定される認識の有無として訳した。",
+    "readingPoint": "展開。市場批判が市場装置の内側で作用する矛盾を、欠陥ではなく作品形式の一部として読む。",
+    "keywords": ["attention market", "retention", "criticism", "satire", "measurement"]
+  },
+  {
+    "id": "DE-20261006-003",
+    "sourceTitle": "反逆は商品番号を渡される",
+    "workId": "daily-essay-20261006",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "棚に並んでも棘は消えない",
+    "jp": "市場は反逆を排除するだけではない。名を付け、紹介文を書き、棚へ置き、買える形にする。反逆の顔が商品になると、その批判は飼い慣らされたように見える。しかし商品番号が付いたからといって、内容まで従順になったとは限らない。問題は純粋な外部を探すことではなく、売られる過程で何が丸められ、何がなお刺さるかを読むことだ。棚は批判の墓場にも拡声器にもなる。流通したという事実だけでは、その声の行方は決まらない。",
+    "translationLiteral": "The market does not only exclude rebellion. It gives it a name, writes a description, places it on a shelf, and makes it purchasable. When the face of rebellion becomes a commodity, its criticism looks tamed. But receiving a product number does not necessarily make the content obedient. The issue is not to search for a pure outside, but to read what is rounded off in the process of being sold and what still pricks. A shelf can be both a graveyard and a loudspeaker for criticism. The fact of circulation alone does not decide where the voice goes.",
+    "translationNatural": "Markets do more than suppress rebellion. They name it, package it, describe it, and place it where people can buy it. Once rebellion acquires a product code, its criticism may appear domesticated, but circulation does not guarantee obedience. The useful question is not where a perfectly pure outside might exist. It is what gets softened during sale and what still retains an edge. A shelf can bury criticism or amplify it. Distribution alone cannot tell us which outcome has occurred.",
+    "imageUrl": "",
+    "imageCaption": "棘のある品が商品棚へ置かれ、一部は丸まり、一部はなお外へ突き出している。",
+    "imagePrompt": "Editorial illustration of a thorny rebellious object being packaged and placed on a retail shelf, some thorns softened while others remain sharp, no readable text",
+    "chunks": [
+      {"en": "Markets do more than suppress rebellion.", "ja": "市場は反逆を抑える以上のことをする。"},
+      {"en": "They name it, package it, describe it, and place it where people can buy it.", "ja": "市場は反逆に名を付け、包装し、説明し、人が買える場所へ置く。"},
+      {"en": "Once rebellion acquires a product code, its criticism may appear domesticated, but circulation does not guarantee obedience.", "ja": "反逆に商品番号が付くと批判は飼い慣らされたように見えるが、流通は従順さを保証しない。"},
+      {"en": "The useful question is not where a perfectly pure outside might exist.", "ja": "有用な問いは、完全に純粋な外部がどこにあるかではない。"},
+      {"en": "It is what gets softened during sale and what still retains an edge.", "ja": "売られる間に何が丸まり、何がなお棘を保つかである。"},
+      {"en": "A shelf can bury criticism or amplify it. Distribution alone cannot tell us which outcome has occurred.", "ja": "棚は批判を埋めも増幅もする。流通した事実だけでは、どちらが起きたかは分からない。"}
+    ],
+    "grammar": ["do more than は排除だけではない作用を示す。", "name / package / describe / place は商品化の工程を並列する。", "where people can buy it は place を説明する場所の関係副詞節。", "Once は商品番号を得た後の見え方を導く。", "may A, but B は飼い慣らされた外観と従順さの非必然を対照する。", "what gets softened / what retains は二つの名詞節で販売後の変化を比較する。"],
+    "translationNote": "literal の『商品番号』『飼い慣らす』『棘』を product code, domesticated, edge と保持した。natural は市場の作用を name, package, describe, place の工程へ分け、商品化と批判の無効化を同一視しない結末にした。",
+    "readingPoint": "転換と余韻。市場内にある批判を即座に偽物とせず、流通の過程で失われるものと残る棘を読む姿勢で結ぶ。",
+    "keywords": ["rebellion", "commodity", "circulation", "product code", "criticism"]
+  }
+]
