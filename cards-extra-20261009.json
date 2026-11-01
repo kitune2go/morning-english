@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 164,
+    "_generatedAt": "2026-11-02T02:00:00+09:00",
+    "sentence": "The absence of objective meaning does not prove that people cannot create meaning; a description of what is does not automatically determine what ought to be.",
+    "phonetic": "ジ アブセンス オブ オブジェクティブ ミーニング ダズ ノット プルーヴ ザット ピープル キャノット クリエイト ミーニング；ア ディスクリプション オブ ワット イズ ダズ ノット オートマティカリー ディターミン ワット オート トゥ ビー。",
+    "japaneseTranslation": "客観的な意味が存在しないからといって、人が意味を作れないことにはなりません。何があるかという記述だけで、何があるべきかが自動的に決まるわけでもありません。",
+    "theme": "客観的意味の不在と規範的結論を分ける",
+    "coreVerb": "prove",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "People create meaning.",
+        "translation": "人は意味を作る。"
+      },
+      "phase2": {
+        "sentence": "People can create meaning without objective meaning.",
+        "translation": "人は客観的な意味がなくても意味を作れる。",
+        "addedChunks": "助動詞(can)と前置詞句(without objective meaning)を追加"
+      },
+      "phase3": {
+        "sentence": "Objective meaning may be absent, but people can still create meaning.",
+        "translation": "客観的な意味が存在しなくても、人はなお意味を作れる。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "A factual description is less decisive than a normative argument.",
+        "translation": "事実の記述は、規範的な議論ほど決定的ではない。",
+        "comparison": "less decisive than"
+      },
+      "phase5": {
+        "sentence": "The absence of objective meaning does not prove that people cannot create meaning",
+        "translation": "客観的な意味が存在しないからといって、人が意味を作れないことにはならない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "The absence of objective meaning",
+          "function": "内容",
+          "translation": "客観的な意味の不在は"
+        },
+        {
+          "text": "does not prove",
+          "function": "行動",
+          "translation": "証明しない"
+        },
+        {
+          "text": "that people cannot create meaning",
+          "function": "対象",
+          "translation": "人が意味を作れないということを"
+        },
+        {
+          "text": "a description of what is",
+          "function": "内容",
+          "translation": "何があるかという記述は"
+        },
+        {
+          "text": "does not automatically determine",
+          "function": "行動",
+          "translation": "自動的には決めない"
+        },
+        {
+          "text": "what ought to be",
+          "function": "対象",
+          "translation": "何があるべきかを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "名詞句",
+          "name": "the absence of",
+          "where": "The absence of objective meaning",
+          "explanation": "何かが存在しないことを名詞句で表す。",
+          "rule": "the absence of + 名詞"
+        },
+        {
+          "category": "否定",
+          "name": "does not + 動詞原形",
+          "where": "does not prove",
+          "explanation": "三人称単数の現在形を否定する。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "内容節",
+          "name": "that節",
+          "where": "that people cannot create meaning",
+          "explanation": "proveの内容を完全な節で示す。",
+          "rule": "動詞 + that + S + V"
+        },
+        {
+          "category": "名詞節",
+          "name": "what節",
+          "where": "what is",
+          "explanation": "「存在するもの・事実」を名詞節として表す。",
+          "rule": "what + 動詞"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "meaning; a description",
+          "explanation": "密接に関連する二つの独立節を結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "助動詞",
+          "name": "ought to",
+          "where": "what ought to be",
+          "explanation": "望ましい状態や規範を表す。",
+          "rule": "ought to + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "The absence do not prove it.",
+          "correct": "The absence does not prove it.",
+          "why": "単数主語absenceにはdoesを使う。"
+        },
+        {
+          "wrong": "People cannot creating meaning.",
+          "correct": "People cannot create meaning.",
+          "why": "助動詞cannotの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "What is do not determine what ought to be.",
+          "correct": "What is does not determine what ought to be.",
+          "why": "what節を単数のまとまりとして扱いdoesを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A lack of objective meaning does not prevent people from creating meaning.",
+          "translation": "客観的な意味がなくても、人が意味を作ることは妨げられない。"
+        },
+        {
+          "text": "Facts alone do not settle moral questions.",
+          "translation": "事実だけでは道徳的な問いは決まらない。"
+        },
+        {
+          "text": "Describing reality is different from deciding what should be done.",
+          "translation": "現実を記述することと、何をすべきか決めることは異なる。"
+        }
+      ],
+      "parseTree": "S(The absence of objective meaning) Aux(does) Neg(not) V(prove) O(that people cannot create meaning); S(a description of what is) Aux(does) Neg(not) Adv(automatically) V(determine) O(what ought to be)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "does not prove that people cannot create meaning",
+          "expanded": "because created meaning can depend on human commitments rather than an external purpose",
+          "nuance": "人が作る意味と外部から与えられる目的を分ける。"
+        },
+        {
+          "original": "a description of what is",
+          "expanded": "since a factual description reports conditions without supplying a value premise",
+          "nuance": "事実記述に価値前提が含まれない点を明示する。"
+        },
+        {
+          "original": "does not automatically determine what ought to be",
+          "expanded": "therefore, a normative conclusion requires an additional evaluative premise",
+          "nuance": "規範的結論に別の評価前提が必要だと示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The possibility of creating meaning is not disproved by the absence of objective meaning.",
+          "translation": "意味を作れる可能性は、客観的意味の不在によって否定されない。",
+          "note": "possibilityを主語にして否定される側へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Describing what exists, we still need a separate premise to say what ought to exist.",
+          "translation": "何が存在するかを記述しても、何が存在すべきかを言うには別の前提が必要だ。",
+          "note": "記述行為を-ing句で背景化する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The derivation of an ought from an is requires a normative premise.",
+          "translation": "「である」から「べき」を導くには規範的な前提が必要だ。",
+          "note": "deriveをderivationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "determine",
+            "alternatives": [
+              "establish",
+              "settle",
+              "dictate"
+            ],
+            "nuance": "determineは決定する、establishは根拠づける、settleは論争を決着させる、dictateは一方的に規定する含みがある。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "区別",
+            "sentence": "The absence of a given purpose is not the absence of every possible purpose.",
+            "translation": "与えられた目的がないことは、あらゆる可能な目的がないことではない。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A value premise is more relevant to an ought than a factual description alone.",
+            "translation": "「べき」を導くには、事実記述だけより価値前提の方が重要だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a conclusion says what ought to be, it needs more than a statement of what is.",
+            "translation": "何があるべきかを述べる結論なら、何があるかという記述以上のものが必要だ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the factual premise lacks is a normative bridge.",
+            "translation": "事実前提に欠けているのは、規範へ渡る橋である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "An is does not yield an ought by itself.",
+            "translation": "「である」だけから「べき」は導けない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "二つの独立節で哲学的区別を明確にした。what節の対照は学習価値が高い一方、抽象語が多いためflexibilityとefficiencyを8とした。"
+    }
+  }
+]
