@@ -468,7 +468,7 @@ if(lucianBook?.glossaryData){
     ["quack", /やぶ医者/], ["quiver", /矢筒/], ["riveted", /固定|縛り/],
     ["rushing", /走り回る|突進/], ["singed", /焼け焦げ/],
     ["slaves", /奴隷/], ["scot", /罰/], ["scrapes", /厄介/],
-    ["smacked", /叩いた/], ["stole", /盗んだ/], ["stormed", /怒鳴/],
+    ["smacked", /叩いた|たたいた/], ["stole", /盗んだ/], ["stormed", /怒鳴/],
     ["tripped", /転ばせた/], ["tricked", /着飾/], ["wound", /傷/],
     ["waves", /波/], ["wheels", /車輪/], ["worked", /計算/],
     ["ap", /アポロン/], ["ar", /アレス/], ["ma", /マイア/],
