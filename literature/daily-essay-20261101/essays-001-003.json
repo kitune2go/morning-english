@@ -1,0 +1,80 @@
+[
+  {
+    "id": "DE-20261101-001",
+    "sourceTitle": "見えているのは経路の出口だけ",
+    "workId": "daily-essay-20261101",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "ゲームの前にエンジンが現れる",
+    "jp": "思いつきでゲームを作り始めたはずが、気づけば素材の登録、モーション、音声、物理、保存、版管理をつなぐエンジンを作っている。遠回りに見えるが、必要な順序が逆転したわけではない。遊べる画面は、見えない受け渡しがつながって初めて成立するからだ。工房とゲームを分ける話も、ファイルを移すだけでは終わらない。共通部分を何にし、どこから個別作品にするかを決める作業である。成果物より先に、成果が流れる道を作る日がある。",
+    "translationLiteral": "Although the intention was to start making a game on impulse, before long the work became building an engine that connects asset registration, motion, voice, physics, saving, and version control. It looks like a detour, but the necessary order has not been reversed. A playable screen exists only when invisible handoffs are connected. Separating the workshop and the game is not finished by merely moving files. It is the work of deciding what remains common and where an individual work begins. Some days require building the road along which results flow before building the result itself.",
+    "translationNatural": "A spontaneous attempt to make a game can quickly turn into the construction of an engine for assets, motion, voices, physics, persistence, and version control. The apparent detour is not necessarily a mistake in sequence. A playable scene exists only because many invisible handoffs already work together. Even separating the workshop from the game requires more than moving files; it requires deciding what belongs to the shared system and where a particular work begins. Sometimes the route for future results has to be built before the result itself.",
+    "imageUrl": "",
+    "imageCaption": "小さなゲーム画面の下で、素材・音声・物理・保存・版管理の経路が一本のエンジンへ集まる。",
+    "imagePrompt": "Editorial systems illustration of a small playable game scene supported underneath by connected asset motion voice physics storage and version-control pipelines, no readable text",
+    "chunks": [
+      {"en": "A spontaneous attempt to make a game can quickly turn into the construction of an engine for assets, motion, voices, physics, persistence, and version control.", "ja": "思いつきのゲーム制作は、素材・動き・音声・物理・保存・版管理のエンジン作りへすぐ変わりうる。"},
+      {"en": "The apparent detour is not necessarily a mistake in sequence.", "ja": "その遠回りに見える工程は、必ずしも順序の誤りではない。"},
+      {"en": "A playable scene exists only because many invisible handoffs already work together.", "ja": "遊べる場面は、多数の見えない受け渡しがすでに連携しているから成立する。"},
+      {"en": "Even separating the workshop from the game requires more than moving files; it requires deciding what belongs to the shared system and where a particular work begins.", "ja": "工房とゲームを分けるにも、ファイル移動以上に、共通部分と個別作品の境界を決める必要がある。"},
+      {"en": "Sometimes the route for future results has to be built before the result itself.", "ja": "未来の成果が流れる経路を、成果そのものより先に作らなければならない日もある。"}
+    ],
+    "grammar": ["attempt to do は制作開始の試みを表す。", "turn into はゲーム制作がエンジン構築へ変わる過程を示す。", "not necessarily は遠回りを誤りと断定しない。", "only because は遊べる画面を支える理由を強調する。", "more than -ing は単なるファイル移動を越える判断を示す。", "what belongs / where ... begins は二つの間接疑問で境界設計を表す。"],
+    "translationNote": "literal の登録・モーション・音声・物理・保存・版管理を natural でも列挙した。『工房』は workshop、『成果が流れる道』は route for future results とし、基盤構築を単なる遅延ではなく前提条件として訳した。",
+    "readingPoint": "導入。目に見えるゲームの前に、成果物を受け渡す基盤が必要になるという制作上の逆転を置く。",
+    "keywords": ["game engine", "pipeline", "handoff", "version control", "architecture"]
+  },
+  {
+    "id": "DE-20261101-002",
+    "sourceTitle": "見えているのは経路の出口だけ",
+    "workId": "daily-essay-20261101",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "制度の作者が去っても処理は続く",
+    "jp": "制度を作った人が去った後、私たちに見えるのは結果ばかりになる。性善説を前提にした規則も、運用する人数や利害が変われば、想定外の負担を生む。それでも後から眺める側は、設計時の情報経路を知らず、成功か失敗かを一枚の画面で決めたくなる。大局観がないというより、入力がどこから来て、どの判断を通り、誰へ費用を渡したかが見えない。結果は出口に過ぎない。制度を読むには、消えた作者より今も動く経路を追う必要がある。",
+    "translationLiteral": "After the people who built a system have gone, what remains visible to us is mostly the result. Rules based on good faith can produce unforeseen burdens when the number of operators or their interests change. Yet later observers do not know the information routes at the time of design and want to decide success or failure from a single screen. The problem is not simply a lack of broad perspective; we cannot see where the input came from, which decisions it passed through, or to whom it transferred costs. The result is only an exit. To read a system, we must follow the routes that still operate rather than the authors who have disappeared.",
+    "translationNatural": "Once the designers of a system are gone, later users mostly encounter its outputs. Rules built on good faith can generate new burdens when the number, incentives, or roles of participants change. Observers then judge success or failure from the visible result, even though the original information routes have disappeared from view. What looks like a lack of strategic vision may instead be a lack of traceability: we cannot see where inputs entered, which decisions transformed them, or who ultimately absorbed the cost. An outcome is only the end of a route. Understanding the system means tracing what still operates after its authors have left.",
+    "imageUrl": "",
+    "imageCaption": "作者のいない制度から結果だけが出続け、内部の判断経路と費用の移動は薄く見える。",
+    "imagePrompt": "Editorial diagram-like illustration of an old institutional machine continuing to produce outputs after its designers have left, hidden decision paths and cost transfers inside, no readable text",
+    "chunks": [
+      {"en": "Once the designers of a system are gone, later users mostly encounter its outputs.", "ja": "制度の設計者が去ると、後の利用者が出会うのは主にその出力である。"},
+      {"en": "Rules built on good faith can generate new burdens when the number, incentives, or roles of participants change.", "ja": "性善説で作られた規則も、参加者の数・誘因・役割が変わると新しい負担を生みうる。"},
+      {"en": "Observers then judge success or failure from the visible result, even though the original information routes have disappeared from view.", "ja": "元の情報経路が見えなくても、観察者は目に見える結果から成否を判断する。"},
+      {"en": "What looks like a lack of strategic vision may instead be a lack of traceability: we cannot see where inputs entered, which decisions transformed them, or who ultimately absorbed the cost.", "ja": "大局観の欠如に見えるものは追跡可能性の欠如かもしれず、入力・判断・費用の行先が見えない。"},
+      {"en": "An outcome is only the end of a route. Understanding the system means tracing what still operates after its authors have left.", "ja": "結果は経路の終点にすぎない。制度を理解するとは、作者の退場後も動くものを追うことだ。"}
+    ],
+    "grammar": ["Once は設計者が去った後の状態を導く。", "built on good faith は Rules を修飾する過去分詞句。", "when 節は規則が新しい負担を生む条件を示す。", "even though は情報経路の不可視性と結果判断の対照を作る。", "What looks like ... は名詞節を主語にする。", "where / which / who は traceability の欠如を三方向から具体化する間接疑問。"],
+    "translationNote": "literal の『性善説』『大局観』『費用を渡す』を good faith, strategic vision, absorbed the cost と自然化した。natural では traceability を中心語に補い、結果だけから設計を判断する限界を明確にした。",
+    "readingPoint": "展開。制作基盤の見えない受け渡しを、作者不在後も動き続ける制度と費用移転の問題へ広げる。",
+    "keywords": ["system design", "traceability", "good faith", "outcome", "cost"]
+  },
+  {
+    "id": "DE-20261101-003",
+    "sourceTitle": "見えているのは経路の出口だけ",
+    "workId": "daily-essay-20261101",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "売上だけでは文化の居場所を測れない",
+    "jp": "音楽や催しを売れるか売れないかだけで語ると、文化が暮らしのどこに根づいているかは見えにくい。無料の小会場、追加料金の配信、海外向けの発信。数字は参加の出口を示すが、誰が日常的に聴き、誰が権利を持ち、誰へ利益が残るかまでは一つにまとめられない。もともと広い聴取文化がなかったなら、存続を宣言するだけでも足りない。文化を支えるとは、特別さを演出することより、作品・観客・権利・収益をつなぐ経路を細くても残すことなのだろう。",
+    "translationLiteral": "If music and events are discussed only in terms of whether they sell, it becomes difficult to see where culture is rooted in daily life. A free small venue, paid streaming, and communication aimed overseas are all exits for participation shown by numbers, but they cannot be reduced to one account of who listens regularly, who owns the rights, and where the profit remains. If there was never a broad listening culture, merely declaring survival is not enough. Supporting culture may mean preserving even a narrow route connecting works, audiences, rights, and revenue rather than staging an image of specialness.",
+    "translationNatural": "Sales alone cannot show where a culture actually lives. A free room with fifty seats, a paid stream, and an overseas campaign produce different numbers, but none by itself explains who listens regularly, who controls the rights, or where the revenue settles. If a broad listening culture never existed in the first place, announcing preservation will not create one. Cultural support is less about performing prestige than about keeping workable connections among the work, its audience, its rights, and its income. Even a narrow route matters if it remains usable.",
+    "imageUrl": "",
+    "imageCaption": "小会場、配信画面、海外発信の数字から、作品・観客・権利・収益へ細い線が分かれて伸びる。",
+    "imagePrompt": "Editorial illustration connecting a small venue paid streaming and overseas promotion to separate paths for artwork audience rights and revenue, restrained cultural essay style, no readable text",
+    "chunks": [
+      {"en": "Sales alone cannot show where a culture actually lives.", "ja": "売上だけでは、文化が実際にどこで生きているかは示せない。"},
+      {"en": "A free room with fifty seats, a paid stream, and an overseas campaign produce different numbers, but none by itself explains who listens regularly, who controls the rights, or where the revenue settles.", "ja": "無料の五十席、課金配信、海外向け発信は別々の数字を生むが、聴取者・権利者・収益の行先を単独では説明しない。"},
+      {"en": "If a broad listening culture never existed in the first place, announcing preservation will not create one.", "ja": "広い聴取文化が元からなかったなら、存続の宣言だけでそれは生まれない。"},
+      {"en": "Cultural support is less about performing prestige than about keeping workable connections among the work, its audience, its rights, and its income.", "ja": "文化支援は威信の演出より、作品・観客・権利・収入の間に機能する接続を保つことに近い。"},
+      {"en": "Even a narrow route matters if it remains usable.", "ja": "細い経路でも、使い続けられるなら意味がある。"}
+    ],
+    "grammar": ["Sales alone は単独指標の限界を強調する。", "where a culture actually lives は show の目的語となる間接疑問。", "A, B, and C は三つの参加経路を並列する。", "none by itself は各数字だけでは説明できないことを示す。", "If 節は聴取文化が元からない条件を導く。", "less about A than about B は威信演出より接続維持を重視する比較構文。"],
+    "translationNote": "literal の小会場・追加料金配信・海外発信を、natural では fifty seats, paid stream, overseas campaign と具体化した。『売れる／売れない』を sales alone へ圧縮し、文化の存続を作品・観客・権利・収益の経路として訳した。",
+    "readingPoint": "転換と余韻。目に見える売上や参加数から離れ、文化を持続させる細い接続そのものへ結論を置く。",
+    "keywords": ["culture", "sales", "audience", "rights", "revenue"]
+  }
+]
