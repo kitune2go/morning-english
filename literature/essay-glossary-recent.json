@@ -5662,5 +5662,285 @@
     "lemma": "workshop",
     "form": "",
     "note": "workshop：この文脈では「工房・作業場」"
+  },
+  {
+    "word": "advertisement",
+    "ja": "広告",
+    "pos": "名詞",
+    "lemma": "advertisement",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "alignment",
+    "ja": "位置合わせ・整列",
+    "pos": "名詞",
+    "lemma": "align",
+    "form": "align + -ment（動詞から名詞）",
+    "note": "align + -ment（動詞から名詞）"
+  },
+  {
+    "word": "baseline",
+    "ja": "基準線・基準値",
+    "pos": "名詞",
+    "lemma": "baseline",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "business",
+    "ja": "事業・商売",
+    "pos": "名詞",
+    "lemma": "business",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "color",
+    "ja": "色・色味",
+    "pos": "名詞",
+    "lemma": "color",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "courtesy",
+    "ja": "礼儀・好意",
+    "pos": "名詞",
+    "lemma": "courtesy",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "displace",
+    "ja": "押しのける・置き換える",
+    "pos": "動詞",
+    "lemma": "displace",
+    "form": "動詞・原形",
+    "note": "動詞・原形"
+  },
+  {
+    "word": "enterprise",
+    "ja": "事業・企業",
+    "pos": "名詞",
+    "lemma": "enterprise",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "farmers",
+    "ja": "農家・農業従事者たち",
+    "pos": "名詞・複数形",
+    "lemma": "farmer",
+    "form": "farmer → farmers",
+    "note": "farmer → farmers"
+  },
+  {
+    "word": "farming",
+    "ja": "農業・耕作",
+    "pos": "名詞・動名詞",
+    "lemma": "farm",
+    "form": "farm → farming",
+    "note": "farm → farming"
+  },
+  {
+    "word": "fixing",
+    "ja": "修正すること",
+    "pos": "動名詞",
+    "lemma": "fix",
+    "form": "fix → fixing",
+    "note": "fix → fixing"
+  },
+  {
+    "word": "founder",
+    "ja": "創業者",
+    "pos": "名詞",
+    "lemma": "founder",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "gift",
+    "ja": "贈り物",
+    "pos": "名詞",
+    "lemma": "gift",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "guests",
+    "ja": "客・参加者たち",
+    "pos": "名詞・複数形",
+    "lemma": "guest",
+    "form": "guest → guests",
+    "note": "guest → guests"
+  },
+  {
+    "word": "heroic",
+    "ja": "英雄的な",
+    "pos": "形容詞",
+    "lemma": "heroic",
+    "form": "形容詞・原級",
+    "note": "形容詞・原級"
+  },
+  {
+    "word": "idle",
+    "ja": "待機中の",
+    "pos": "形容詞",
+    "lemma": "idle",
+    "form": "形容詞・原級",
+    "note": "形容詞・原級"
+  },
+  {
+    "word": "jump",
+    "ja": "跳ぶ・位置が飛ぶ",
+    "pos": "動詞",
+    "lemma": "jump",
+    "form": "動詞・原形",
+    "note": "動詞・原形"
+  },
+  {
+    "word": "keepsake",
+    "ja": "記念品・思い出の品",
+    "pos": "名詞",
+    "lemma": "keepsake",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "occasion",
+    "ja": "機会・催し",
+    "pos": "名詞",
+    "lemma": "occasion",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "otherwise",
+    "ja": "そうでなければ",
+    "pos": "副詞",
+    "lemma": "otherwise",
+    "form": "副詞",
+    "note": "副詞"
+  },
+  {
+    "word": "owner's",
+    "ja": "所有者の",
+    "pos": "名詞・所有格",
+    "lemma": "owner",
+    "form": "owner + 's（所有格）",
+    "note": "owner + 's（所有格）"
+  },
+  {
+    "word": "paying",
+    "ja": "料金を払う・有料の",
+    "pos": "現在分詞・形容詞",
+    "lemma": "pay",
+    "form": "pay → paying",
+    "note": "pay → paying"
+  },
+  {
+    "word": "perform",
+    "ja": "行う・遂行する",
+    "pos": "動詞",
+    "lemma": "perform",
+    "form": "動詞・原形",
+    "note": "動詞・原形"
+  },
+  {
+    "word": "photographs",
+    "ja": "写真",
+    "pos": "名詞・複数形",
+    "lemma": "photograph",
+    "form": "photograph → photographs",
+    "note": "photograph → photographs"
+  },
+  {
+    "word": "planning",
+    "ja": "計画・設計",
+    "pos": "名詞・動名詞",
+    "lemma": "plan",
+    "form": "plan → planning",
+    "note": "plan → planning"
+  },
+  {
+    "word": "pose",
+    "ja": "姿勢・ポーズ",
+    "pos": "名詞",
+    "lemma": "pose",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
+  },
+  {
+    "word": "publicity",
+    "ja": "宣伝・広報",
+    "pos": "名詞",
+    "lemma": "publicity",
+    "form": "不可算名詞",
+    "note": "不可算名詞"
+  },
+  {
+    "word": "purchased",
+    "ja": "購入された",
+    "pos": "過去分詞",
+    "lemma": "purchase",
+    "form": "purchase → purchased",
+    "note": "purchase → purchased"
+  },
+  {
+    "word": "repeat",
+    "ja": "繰り返す",
+    "pos": "動詞",
+    "lemma": "repeat",
+    "form": "動詞・原形",
+    "note": "動詞・原形"
+  },
+  {
+    "word": "scenery",
+    "ja": "背景・景色",
+    "pos": "名詞",
+    "lemma": "scenery",
+    "form": "不可算名詞",
+    "note": "不可算名詞"
+  },
+  {
+    "word": "successors",
+    "ja": "後継者たち",
+    "pos": "名詞・複数形",
+    "lemma": "successor",
+    "form": "successor → successors",
+    "note": "successor → successors"
+  },
+  {
+    "word": "surprise",
+    "ja": "思いがけない・驚きの",
+    "pos": "形容詞・名詞",
+    "lemma": "surprise",
+    "form": "名詞の形容詞的用法",
+    "note": "名詞の形容詞的用法"
+  },
+  {
+    "word": "sustain",
+    "ja": "支える・持続させる",
+    "pos": "動詞",
+    "lemma": "sustain",
+    "form": "動詞・原形",
+    "note": "動詞・原形"
+  },
+  {
+    "word": "switches",
+    "ja": "切り替わる",
+    "pos": "動詞・三人称単数現在",
+    "lemma": "switch",
+    "form": "switch → switches",
+    "note": "switch → switches"
+  },
+  {
+    "word": "transition",
+    "ja": "移行・継ぎ目",
+    "pos": "名詞",
+    "lemma": "transition",
+    "form": "名詞・単数形",
+    "note": "名詞・単数形"
   }
 ]
