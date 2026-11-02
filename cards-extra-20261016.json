@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 168,
+    "_generatedAt": "2026-11-03T02:04:00+09:00",
+    "sentence": "Investigation keeps uncertainty open while evidence is gathered; a plausible story may feel satisfying, but it can stop us from checking what actually happened.",
+    "phonetic": "インヴェスティゲイション キープス アンサーテンティ オープン ワイル エヴィデンス イズ ギャザード；ア プローザブル ストーリー メイ フィール サティスファイイング、バット イット キャン ストップ アス フロム チェッキング ワット アクチュアリー ハプンド。",
+    "japaneseTranslation": "調査は、証拠が集められている間も不確実性を開いたままにします。もっともらしい物語は満足感を与えても、実際に何が起きたかを確かめることを止めてしまう場合があります。",
+    "theme": "不確実性を調査で保つか物語で閉じるか",
+    "coreVerb": "keep",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Investigation keeps questions open.",
+        "translation": "調査は問いを開いたままにする。"
+      },
+      "phase2": {
+        "sentence": "Investigation keeps uncertainty open.",
+        "translation": "調査は不確実性を開いたままにする。",
+        "addedChunks": "目的語(uncertainty)と補語(open)を追加"
+      },
+      "phase3": {
+        "sentence": "Investigation keeps uncertainty open while evidence is gathered.",
+        "translation": "調査は、証拠が集められている間も不確実性を開いたままにする。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "Evidence is more reliable than a plausible story.",
+        "translation": "証拠は、もっともらしい物語より信頼できる。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "Investigation keeps uncertainty open while evidence is gathered",
+        "translation": "調査は、証拠が集められている間も不確実性を開いたままにする。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Investigation keeps uncertainty open",
+          "function": "行動",
+          "translation": "調査は不確実性を開いたままにする"
+        },
+        {
+          "text": "while evidence is gathered",
+          "function": "時間",
+          "translation": "証拠が集められている間"
+        },
+        {
+          "text": "a plausible story may feel satisfying",
+          "function": "状態",
+          "translation": "もっともらしい物語は満足感を与える場合がある"
+        },
+        {
+          "text": "but it can stop us",
+          "function": "接続",
+          "translation": "しかし私たちを止めることがある"
+        },
+        {
+          "text": "from checking",
+          "function": "行動",
+          "translation": "確かめることから"
+        },
+        {
+          "text": "what actually happened",
+          "function": "対象",
+          "translation": "実際に何が起きたかを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "補語",
+          "name": "keep O C",
+          "where": "keeps uncertainty open",
+          "explanation": "不確実性を開いた状態に保つ。",
+          "rule": "keep + 目的語 + 形容詞"
+        },
+        {
+          "category": "時間",
+          "name": "while節",
+          "where": "while evidence is gathered",
+          "explanation": "証拠収集中の同時進行を表す。",
+          "rule": "while + S + V"
+        },
+        {
+          "category": "受動態",
+          "name": "is gathered",
+          "where": "evidence is gathered",
+          "explanation": "証拠が集められる側であることを示す。",
+          "rule": "be + 過去分詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "may",
+          "where": "may feel satisfying",
+          "explanation": "起こり得る心理的効果を断定せずに表す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "stop O from -ing",
+          "where": "stop us from checking",
+          "explanation": "人が行為をするのを妨げる。",
+          "rule": "stop + 目的語 + from + 動名詞"
+        },
+        {
+          "category": "名詞節",
+          "name": "what節",
+          "where": "what actually happened",
+          "explanation": "実際に起きた内容をcheckingの目的語にする。",
+          "rule": "what + S相当 + V"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Investigation keep uncertainty open.",
+          "correct": "Investigation keeps uncertainty open.",
+          "why": "単数主語Investigationにはkeepsを使う。"
+        },
+        {
+          "wrong": "while evidence gathers",
+          "correct": "while evidence is gathered",
+          "why": "証拠は集められる側なので受動態を使う。"
+        },
+        {
+          "wrong": "stop us to check what happened",
+          "correct": "stop us from checking what happened",
+          "why": "stop O from -ingの形を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A good investigation leaves room for correction.",
+          "translation": "良い調査は修正の余地を残す。"
+        },
+        {
+          "text": "A coherent story is not the same as verified evidence.",
+          "translation": "筋の通った物語は検証済みの証拠と同じではない。"
+        },
+        {
+          "text": "Treat the unknown as unknown until the evidence changes.",
+          "translation": "証拠が変わるまでは、未知を未知として扱おう。"
+        }
+      ],
+      "parseTree": "S(Investigation) V(keeps) O(uncertainty) C(open) [Adv: while evidence is gathered]; S(a plausible story) Aux(may) V(feel) C(satisfying), Conj(but) S(it) Aux(can) V(stop) O(us) [from checking O(what actually happened)]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "keeps uncertainty open",
+          "expanded": "because investigation allows provisional explanations to be revised",
+          "nuance": "仮説を修正可能に保つ理由を示す。"
+        },
+        {
+          "original": "a plausible story may feel satisfying",
+          "expanded": "since coherence can reduce discomfort before the facts are known",
+          "nuance": "物語が早く安心感を与える仕組みを補う。"
+        },
+        {
+          "original": "stop us from checking what actually happened",
+          "expanded": "therefore, an appealing explanation should remain testable against evidence",
+          "nuance": "もっともらしさを検証可能性へ結び直す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Uncertainty is kept open by investigation until stronger evidence is found.",
+          "translation": "より強い証拠が見つかるまで、不確実性は調査によって開いたままにされる。",
+          "note": "uncertaintyを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Accepting a plausible story too early, we may stop testing other explanations.",
+          "translation": "もっともらしい物語を早く受け入れると、別の説明を検証しなくなる場合がある。",
+          "note": "早すぎる受容を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The preservation of uncertainty supports careful investigation.",
+          "translation": "不確実性を保つことは慎重な調査を支える。",
+          "note": "preserveをpreservationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "plausible",
+            "alternatives": [
+              "credible",
+              "coherent",
+              "convincing"
+            ],
+            "nuance": "plausibleはありそう、credibleは信頼できそう、coherentは筋が通る、convincingは説得力がある。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "方法対照",
+            "sentence": "Investigation tests explanations; storytelling can prematurely settle them.",
+            "translation": "調査は説明を検証し、物語化は早まって決着させることがある。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A testable explanation is more useful than a satisfying story.",
+            "translation": "検証可能な説明は、満足感のある物語より役に立つ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If evidence is incomplete, keep several explanations open.",
+            "translation": "証拠が不完全なら、複数の説明を開いたままにしよう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not plausibility alone but continued testing.",
+            "translation": "重要なのはもっともらしさだけでなく、検証を続けることである。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Do not turn uncertainty into certainty too soon.",
+            "translation": "不確実性を早く確実性に変えない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "keep O C、while受動態、stop O from -ingを一つの論理に統合した。二節で情報量が多いためefficiencyを8とした。"
+    }
+  }
+]
