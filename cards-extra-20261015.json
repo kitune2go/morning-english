@@ -1,0 +1,233 @@
+[
+  {
+    "_no": 167,
+    "_generatedAt": "2026-11-03T02:03:00+09:00",
+    "sentence": "Calling something new identifies its position in time, but it does not show whether the change improved life or shifted costs elsewhere.",
+    "phonetic": "コーリング サムシング ニュー アイデンティファイズ イッツ ポジション イン タイム、バット イット ダズ ノット ショウ ウェザー ザ チェインジ インプルーヴド ライフ オア シフティッド コスツ エルスウェア。",
+    "japaneseTranslation": "何かを「新しい」と呼ぶことは、その時間上の位置を示します。しかし、その変化が暮らしを改善したのか、費用を別の場所へ移したのかまでは示しません。",
+    "theme": "新しさと変化の質を区別する",
+    "coreVerb": "identify",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "We identify change.",
+        "translation": "私たちは変化を見分ける。"
+      },
+      "phase2": {
+        "sentence": "We identify a change as new.",
+        "translation": "私たちは変化を新しいものと捉える。",
+        "addedChunks": "目的語(a change)と補語(as new)を追加"
+      },
+      "phase3": {
+        "sentence": "A change may be new, but it may not improve life.",
+        "translation": "変化は新しくても、暮らしを改善するとは限らない。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Actual improvement matters more than novelty alone.",
+        "translation": "実際の改善は、単なる新しさより重要だ。",
+        "comparison": "more than"
+      },
+      "phase5": {
+        "sentence": "Calling something new identifies its position in time, but it does not show whether the change improved life",
+        "translation": "何かを新しいと呼ぶことは時間上の位置を示すが、その変化が暮らしを改善したかまでは示さない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Calling something new",
+          "function": "内容",
+          "translation": "何かを新しいと呼ぶことは"
+        },
+        {
+          "text": "identifies its position in time",
+          "function": "行動",
+          "translation": "その時間上の位置を示す"
+        },
+        {
+          "text": "but it does not show",
+          "function": "接続",
+          "translation": "しかし示さない"
+        },
+        {
+          "text": "whether the change improved life",
+          "function": "対象",
+          "translation": "その変化が暮らしを改善したのか"
+        },
+        {
+          "text": "or shifted costs elsewhere",
+          "function": "比較",
+          "translation": "それとも費用を別の場所へ移したのかを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞句主語",
+          "where": "Calling something new",
+          "explanation": "呼ぶという行為全体を主語にする。",
+          "rule": "動名詞句 + 単数動詞"
+        },
+        {
+          "category": "補語",
+          "name": "call O C",
+          "where": "Calling something new",
+          "explanation": "somethingをnewと呼ぶ関係を表す。",
+          "rule": "call + 目的語 + 補語"
+        },
+        {
+          "category": "所有格",
+          "name": "its",
+          "where": "its position",
+          "explanation": "somethingが占める位置を指す。",
+          "rule": "単数の物 → its"
+        },
+        {
+          "category": "対照",
+          "name": "but",
+          "where": "time, but it does not show",
+          "explanation": "分かることと分からないことを対照する。",
+          "rule": "節, but 節"
+        },
+        {
+          "category": "間接疑問",
+          "name": "whether A or B",
+          "where": "whether the change improved life or shifted costs elsewhere",
+          "explanation": "二つの可能性をshowの目的語にする。",
+          "rule": "whether + 節 + or + 動詞句"
+        },
+        {
+          "category": "時制",
+          "name": "過去形",
+          "where": "improved / shifted",
+          "explanation": "すでに起きた変化の結果を検討する。",
+          "rule": "規則動詞 + -ed"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Calling something new identify its position.",
+          "correct": "Calling something new identifies its position.",
+          "why": "動名詞句主語は単数として扱う。"
+        },
+        {
+          "wrong": "It does not shows whether life improved.",
+          "correct": "It does not show whether life improved.",
+          "why": "doesの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "whether did the change improve life",
+          "correct": "whether the change improved life",
+          "why": "間接疑問では平叙文の語順を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Newness tells us when something appeared, not whether it worked.",
+          "translation": "新しさが示すのは登場時期であり、機能したかどうかではない。"
+        },
+        {
+          "text": "A new label is not evidence of improvement.",
+          "translation": "新しいというラベルは改善の証拠ではない。"
+        },
+        {
+          "text": "Judge a change by its effects, not its date.",
+          "translation": "変化は日付ではなく効果で判断しよう。"
+        }
+      ],
+      "parseTree": "S(Calling something new) V(identifies) O(its position in time), Conj(but) S(it) Aux(does) Neg(not) V(show) O(whether the change improved life or shifted costs elsewhere)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "identifies its position in time",
+          "expanded": "because new marks relative recency rather than quality",
+          "nuance": "newが品質ではなく時間関係を表すと説明する。"
+        },
+        {
+          "original": "does not show whether the change improved life",
+          "expanded": "since improvement must be evaluated through concrete effects",
+          "nuance": "改善には効果の検証が必要だと補う。"
+        },
+        {
+          "original": "or shifted costs elsewhere",
+          "expanded": "therefore, hidden burdens on other groups and periods should also be traced",
+          "nuance": "費用移転の確認へ議論を広げる。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The quality of a change cannot be established merely by calling it new.",
+          "translation": "変化の質は、それを新しいと呼ぶだけでは確立できない。",
+          "note": "qualityを主語にして評価される側へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Calling the policy new, its supporters still need to demonstrate improvement.",
+          "translation": "その政策を新しいと呼んでも、支持者はなお改善を示す必要がある。",
+          "note": "呼称を-ing句で背景化する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The evaluation of change requires evidence beyond novelty.",
+          "translation": "変化の評価には、新しさを超える証拠が必要だ。",
+          "note": "evaluateをevaluationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "new",
+            "alternatives": [
+              "recent",
+              "novel",
+              "unprecedented"
+            ],
+            "nuance": "newは一般的な新しさ、recentは時間的な近さ、novelは珍しさ、unprecedentedは前例のなさを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "判断基準",
+            "sentence": "A label describes a position; evidence evaluates an effect.",
+            "translation": "ラベルは位置を記述し、証拠は効果を評価する。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Measured improvement is more informative than novelty alone.",
+            "translation": "測定された改善は、単なる新しさより多くを伝える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a change is called new, ask what improved and who paid the cost.",
+            "translation": "変化が新しいと呼ばれたら、何が改善し、誰が費用を負ったかを問おう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is the effect of the change, not its age.",
+            "translation": "重要なのは変化の効果であり、その新旧ではない。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "New is a date, not a verdict.",
+            "translation": "「新しい」は日付であって評価ではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "動名詞主語とwhether A or Bで、時間的位置と価値判断を自然に分離した。後半に二つの評価軸があるためefficiencyを8とした。"
+    }
+  }
+]
