@@ -4154,5 +4154,290 @@
         }
       ]
     }
+  ],
+  "DE-20261102-001": [
+    {
+      "words": {
+        "idle": {
+          "ja": "待機中の"
+        },
+        "cycle": {
+          "ja": "一連の動作周期"
+        },
+        "switches": {
+          "ja": "切り替わる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "look correct on their own",
+          "ja": "それぞれ単独では正しく見える",
+          "note": "on their own は「単独で」"
+        }
+      ]
+    },
+    {
+      "words": {
+        "transition": {
+          "ja": "動作の継ぎ目"
+        },
+        "baseline": {
+          "ja": "共通の位置基準"
+        }
+      },
+      "phrases": [
+        {
+          "en": "lies in the transition",
+          "ja": "問題は継ぎ目にある",
+          "note": "lie in は原因・本質の所在を示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "frames": {
+          "ja": "アニメーションの各コマ"
+        },
+        "judgment": {
+          "ja": "補正のための判断"
+        }
+      },
+      "phrases": [
+        {
+          "en": "repeat the same judgment",
+          "ja": "同じ判断を繰り返す",
+          "note": "手作業の反復性を示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "alignment": {
+          "ja": "位置合わせ"
+        },
+        "pipeline": {
+          "ja": "制作工程全体"
+        }
+      },
+      "phrases": [
+        {
+          "en": "belong in the pipeline",
+          "ja": "工程に組み込むべきである",
+          "note": "belong in は適切な配置先を示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "smooth": {
+          "ja": "滑らかな"
+        },
+        "reliable": {
+          "ja": "信頼できる"
+        },
+        "handing": {
+          "ja": "受け渡すこと"
+        }
+      },
+      "phrases": [
+        {
+          "en": "less by a beautiful key frame than by reliable rules",
+          "ja": "美しい一枚より信頼できる規則によって",
+          "note": "less by A than by B の比較"
+        }
+      ]
+    }
+  ],
+  "DE-20261102-002": [
+    {
+      "words": {
+        "farming": {
+          "ja": "農業"
+        },
+        "owner's": {
+          "ja": "所有者・社長の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "becomes the whole story",
+          "ja": "物語のすべてとして扱われる",
+          "note": "become は評価上の変化を表す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "capital": {
+          "ja": "開始資金"
+        },
+        "successors": {
+          "ja": "農地の後継者"
+        },
+        "operation": {
+          "ja": "日々の事業運営"
+        }
+      },
+      "phrases": [
+        {
+          "en": "keep the operation running",
+          "ja": "事業を動かし続ける",
+          "note": "keep O -ing は継続を表す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "individual": {
+          "ja": "一人の個人"
+        },
+        "perform": {
+          "ja": "担う・遂行する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "be present everywhere",
+          "ja": "あらゆる場所に居合わせる",
+          "note": "一人の身体的限界を示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "durable": {
+          "ja": "長く続く"
+        },
+        "enterprise": {
+          "ja": "事業"
+        },
+        "carry": {
+          "ja": "次へ受け渡す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "across people and time",
+          "ja": "人と時間を越えて",
+          "note": "承継の範囲を示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "credit": {
+          "ja": "功績・手柄"
+        },
+        "sustain": {
+          "ja": "支え続ける"
+        },
+        "succession": {
+          "ja": "事業承継"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not merely courtesy",
+          "ja": "単なる礼儀ではない",
+          "note": "not merely で役割を拡張する"
+        }
+      ]
+    }
+  ],
+  "DE-20261102-003": [
+    {
+      "words": {
+        "promotion": {
+          "ja": "作品や出演者の宣伝"
+        },
+        "paid": {
+          "ja": "料金を支払う形式の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not out of place",
+          "ja": "場違いではない",
+          "note": "全面否定を避ける表現"
+        }
+      ]
+    },
+    {
+      "words": {
+        "balance": {
+          "ja": "参加者と宣伝の均衡"
+        },
+        "keepsake": {
+          "ja": "参加者自身の記念品"
+        },
+        "campaign": {
+          "ja": "次の宣伝活動"
+        }
+      },
+      "phrases": [
+        {
+          "en": "receive no keepsake of their own",
+          "ja": "自分たちの記念を受け取れない",
+          "note": "of their own は参加者への帰属を強調"
+        }
+      ]
+    },
+    {
+      "words": {
+        "publicity": {
+          "ja": "日常的に行える告知"
+        },
+        "displace": {
+          "ja": "本来の時間を押しのける"
+        },
+        "purchased": {
+          "ja": "料金によって買われた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the time purchased by the people in the room",
+          "ja": "会場の人々が料金を払って得た時間",
+          "note": "時間をイベントの商品として表す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "guests": {
+          "ja": "料金を払った参加者"
+        },
+        "scenery": {
+          "ja": "広告を飾る背景"
+        }
+      },
+      "phrases": [
+        {
+          "en": "reduced to scenery",
+          "ja": "背景へと矮小化される",
+          "note": "reduce A to B の受動態"
+        }
+      ]
+    },
+    {
+      "words": {
+        "onstage": {
+          "ja": "舞台上の"
+        },
+        "occasion": {
+          "ja": "その催し"
+        },
+        "attention": {
+          "ja": "観客が差し出した注意"
+        }
+      },
+      "phrases": [
+        {
+          "en": "gives back to those who brought their time, attention, and money",
+          "ja": "時間・注意・金銭を持ち寄った人へ返す",
+          "note": "give back で参加者への還元を表す"
+        }
+      ]
+    }
   ]
 }
