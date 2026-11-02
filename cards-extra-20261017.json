@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 169,
+    "_generatedAt": "2026-11-03T02:05:00+09:00",
+    "sentence": "When a formula feels unfamiliar, translate each geometric relation into a small equation before combining the steps; the symbols then preserve the reasoning instead of hiding it.",
+    "phonetic": "ウェン ア フォーミュラ フィールズ アンファミリア、トランスレイト イーチ ジオメトリック リレイション イントゥ ア スモール イクウェイション ビフォー コンバイニング ザ ステップス；ザ シンボルズ ゼン プリザーヴ ザ リーズニング インステッド オブ ハイディング イット。",
+    "japaneseTranslation": "式に不慣れだと感じるときは、手順を組み合わせる前に、それぞれの図形関係を小さな方程式へ翻訳しましょう。そうすれば記号は推論を隠すのではなく保存します。",
+    "theme": "図形の関係を段階的に式へ翻訳する",
+    "coreVerb": "translate",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Translate the relation.",
+        "translation": "その関係を翻訳しよう。"
+      },
+      "phase2": {
+        "sentence": "Translate each geometric relation into an equation.",
+        "translation": "それぞれの図形関係を方程式へ翻訳しよう。",
+        "addedChunks": "目的語(each geometric relation)とinto句を追加"
+      },
+      "phase3": {
+        "sentence": "Translate each relation before combining the steps.",
+        "translation": "手順を組み合わせる前に、それぞれの関係を翻訳しよう。",
+        "connector": "before"
+      },
+      "phase4": {
+        "sentence": "A short equation is clearer than one unexplained formula.",
+        "translation": "短い方程式は、説明のない一つの式より明確だ。",
+        "comparison": "clearer than"
+      },
+      "phase5": {
+        "sentence": "When a formula feels unfamiliar, translate each geometric relation into a small equation before combining the steps",
+        "translation": "式に不慣れだと感じるときは、手順を組み合わせる前に、それぞれの図形関係を小さな方程式へ翻訳しよう。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When a formula feels unfamiliar",
+          "function": "時間",
+          "translation": "式に不慣れだと感じるときは"
+        },
+        {
+          "text": "translate each geometric relation",
+          "function": "行動",
+          "translation": "それぞれの図形関係を翻訳しよう"
+        },
+        {
+          "text": "into a small equation",
+          "function": "結果",
+          "translation": "小さな方程式へ"
+        },
+        {
+          "text": "before combining the steps",
+          "function": "時間",
+          "translation": "手順を組み合わせる前に"
+        },
+        {
+          "text": "the symbols then preserve the reasoning",
+          "function": "結果",
+          "translation": "そうすれば記号は推論を保存する"
+        },
+        {
+          "text": "instead of hiding it",
+          "function": "比較",
+          "translation": "それを隠すのではなく"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "条件・時間",
+          "name": "when節",
+          "where": "When a formula feels unfamiliar",
+          "explanation": "困難を感じる場面を導入する。",
+          "rule": "When + S + V, 主節"
+        },
+        {
+          "category": "補語",
+          "name": "feel + 形容詞",
+          "where": "feels unfamiliar",
+          "explanation": "主語が不慣れに感じられる状態を表す。",
+          "rule": "feel + 形容詞"
+        },
+        {
+          "category": "命令文",
+          "name": "動詞原形で始める命令",
+          "where": "translate each geometric relation",
+          "explanation": "学習手順を直接示す。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "変化",
+          "name": "translate A into B",
+          "where": "translate each geometric relation into a small equation",
+          "explanation": "関係を方程式という別形式へ移す。",
+          "rule": "translate + A + into + B"
+        },
+        {
+          "category": "時間",
+          "name": "before + 動名詞",
+          "where": "before combining the steps",
+          "explanation": "組み合わせる前に行うことを示す。",
+          "rule": "before + 動名詞"
+        },
+        {
+          "category": "対照",
+          "name": "instead of + 動名詞",
+          "where": "instead of hiding it",
+          "explanation": "隠す代わりに保存する対照を示す。",
+          "rule": "instead of + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When a formula feel unfamiliar",
+          "correct": "When a formula feels unfamiliar",
+          "why": "単数主語formulaにはfeelsを使う。"
+        },
+        {
+          "wrong": "translate each relation to a equation",
+          "correct": "translate each relation into an equation",
+          "why": "形式変換にはintoを使い、母音前ではanを使う。"
+        },
+        {
+          "wrong": "before combine the steps",
+          "correct": "before combining the steps",
+          "why": "前置詞beforeの後は動名詞を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Write one equation for each visible relation.",
+          "translation": "目に見える関係ごとに一つの式を書こう。"
+        },
+        {
+          "text": "Build the formula from small, explained steps.",
+          "translation": "説明された小さな手順から式を組み立てよう。"
+        },
+        {
+          "text": "Symbols become useful when every step has a meaning.",
+          "translation": "各手順に意味があるとき、記号は役に立つ。"
+        }
+      ],
+      "parseTree": "[Adv: When S(a formula) V(feels) C(unfamiliar)], V(translate) O(each geometric relation) [into a small equation] [before combining the steps]; S(the symbols) Adv(then) V(preserve) O(the reasoning) [instead of hiding it]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "When a formula feels unfamiliar",
+          "expanded": "because compact notation can hide several earlier reasoning steps",
+          "nuance": "式が難しく見える理由を示す。"
+        },
+        {
+          "original": "translate each geometric relation into a small equation",
+          "expanded": "since each equation can preserve one visible length or area relationship",
+          "nuance": "小さな式と図形関係を対応させる。"
+        },
+        {
+          "original": "the symbols then preserve the reasoning",
+          "expanded": "therefore, the final formula becomes a record of the steps rather than a mysterious answer",
+          "nuance": "最終式を推論記録として位置づける。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Each geometric relation should be translated into a small equation before the final formula is built.",
+          "translation": "最終式を作る前に、各図形関係を小さな方程式へ翻訳すべきだ。",
+          "note": "relationを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Translating one relation at a time, a learner can see how the formula is built.",
+          "translation": "一度に一つの関係を式にすると、学習者は式の組み立て方を理解できる。",
+          "note": "方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The translation of geometric relations makes symbolic reasoning easier to follow.",
+          "translation": "図形関係の翻訳は、記号による推論を追いやすくする。",
+          "note": "translateをtranslationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "relation",
+            "alternatives": [
+              "relationship",
+              "connection",
+              "constraint"
+            ],
+            "nuance": "relationは数学的関係、relationshipは一般的関係、connectionは結びつき、constraintは満たすべき制約を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "手順",
+            "sentence": "Identify the relation, write the equation, and then combine the results.",
+            "translation": "関係を見つけ、式を書き、その後で結果を組み合わせよう。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Several short equations are easier to explain than one unexplained formula.",
+            "translation": "複数の短い方程式は、説明のない一つの式より説明しやすい。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a symbol feels arbitrary, return to the geometric relation it represents.",
+            "translation": "記号が恣意的に感じられたら、それが表す図形関係へ戻ろう。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the final formula should preserve is the path of reasoning.",
+            "translation": "最終式が保存すべきなのは、推論の道筋である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Turn each relation into one equation.",
+            "translation": "各関係を一つの式にしよう。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "when節、命令文、before -ing、instead ofを段階的学習法に結び付けた。説明要素が多いためefficiencyを8とした。"
+    }
+  }
+]
