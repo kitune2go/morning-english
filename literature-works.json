@@ -361,5 +361,12 @@
     "description": "ゲーム制作の基盤、作者が去った制度、売上では測れない文化の持続を通して、目に見える結果の手前で働く経路と受け渡しを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261101/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261102",
+    "title": "主役の外側で価値は完成する",
+    "description": "アニメーションの継ぎ目、農業事業を支える資本・土地・現地運営、有料イベントで参加者へ返される経験を通して、目立つ主役の外側にある受け渡しが価値を完成させる過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261102/manifest.json",
+    "mode": "essay-translation"
   }
 ]
