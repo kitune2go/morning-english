@@ -88,7 +88,10 @@
     "cards-extra-20261010.json",
     "cards-extra-20261009.json",
     "cards-extra-20261011.json",
-    "cards-extra-20261014.json"
+    "cards-extra-20261014.json",
+    "cards-extra-20261015.json",
+    "cards-extra-20261016.json",
+    "cards-extra-20261017.json"
   ],
   "cards": [
     {
@@ -1252,6 +1255,27 @@
       "coreVerb": "satisfy",
       "theme": "スキーマ適合と判断品質を区別する",
       "_sourceFile": "cards-extra-20261014.json"
+    },
+    {
+      "_no": 167,
+      "sentence": "Calling something new identifies its position in time, but it does not show whether the change improved life or shifted costs elsewhere.",
+      "coreVerb": "identify",
+      "theme": "新しさと変化の質を区別する",
+      "_sourceFile": "cards-extra-20261015.json"
+    },
+    {
+      "_no": 168,
+      "sentence": "Investigation keeps uncertainty open while evidence is gathered; a plausible story may feel satisfying, but it can stop us from checking what actually happened.",
+      "coreVerb": "keep",
+      "theme": "不確実性を調査で保つか物語で閉じるか",
+      "_sourceFile": "cards-extra-20261016.json"
+    },
+    {
+      "_no": 169,
+      "sentence": "When a formula feels unfamiliar, translate each geometric relation into a small equation before combining the steps; the symbols then preserve the reasoning instead of hiding it.",
+      "coreVerb": "translate",
+      "theme": "図形の関係を段階的に式へ翻訳する",
+      "_sourceFile": "cards-extra-20261017.json"
     }
   ]
 }
