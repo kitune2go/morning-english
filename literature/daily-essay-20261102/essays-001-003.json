@@ -1,0 +1,161 @@
+[
+  {
+    "id": "DE-20261102-001",
+    "sourceTitle": "主役の外側で価値は完成する",
+    "workId": "daily-essay-20261102",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "一枚ずつ正しくても継ぎ目で跳ぶ",
+    "jp": "待機の絵も歩行の絵も、それぞれ単独では破綻していない。それでも動かすと身体が跳んで見えた。原因は絵の良し悪しより、足元の高さ、身体の大きさ、色味が場面の境目でそろっていなかったことにある。百枚を超えるフレームを一枚ずつ直すより、位置合わせと色補正を工程として自動化した方がよい。動きの自然さは、華やかな一枚ではなく、次の一枚へ渡す規則の静かな正確さから生まれる。",
+    "translationLiteral": "Neither the idle image nor the walking image was broken when viewed alone. Yet when they were animated, the body appeared to jump. The cause was less the quality of each drawing than the fact that foot height, body size, and color tone were not aligned at the boundary between scenes. Rather than correcting more than a hundred frames one by one, it is better to automate alignment and color correction as part of the process. Natural motion comes not from a spectacular single image, but from the quiet accuracy of the rules that pass one image to the next.",
+    "translationNatural": "The idle pose and the walking cycle can each look correct on their own, yet the character may still jump when the animation switches between them. The real problem lies in the transition: the feet, scale, and color do not share the same baseline. Fixing more than a hundred frames by hand would only repeat the same judgment. Alignment and color correction belong in the pipeline and should be automated. Smooth motion is created less by a beautiful key frame than by reliable rules for handing one frame to the next.",
+    "imageUrl": "",
+    "imageCaption": "待機と歩行のフレームの間に、足元・大きさ・色味をそろえる細い基準線が通る。",
+    "imagePrompt": "Editorial illustration of idle and walking animation frames aligned by a shared foot baseline scale and color correction pipeline, no readable text",
+    "chunks": [
+      {
+        "en": "The idle pose and the walking cycle can each look correct on their own, yet the character may still jump when the animation switches between them.",
+        "ja": "待機姿勢と歩行周期は単独では正しく見えても、切り替え時にキャラクターが跳ぶことがある。"
+      },
+      {
+        "en": "The real problem lies in the transition: the feet, scale, and color do not share the same baseline.",
+        "ja": "本当の問題は継ぎ目にあり、足元・大きさ・色が同じ基準を共有していない。"
+      },
+      {
+        "en": "Fixing more than a hundred frames by hand would only repeat the same judgment.",
+        "ja": "百枚を超えるフレームを手作業で直すのは、同じ判断の反復にしかならない。"
+      },
+      {
+        "en": "Alignment and color correction belong in the pipeline and should be automated.",
+        "ja": "位置合わせと色補正は工程に組み込み、自動化すべきである。"
+      },
+      {
+        "en": "Smooth motion is created less by a beautiful key frame than by reliable rules for handing one frame to the next.",
+        "ja": "滑らかな動きは美しい一枚より、次の一枚へ確実に渡す規則から生まれる。"
+      }
+    ],
+    "grammar": [
+      "can each look correct は二つの素材が個別には正しく見えることを表す。",
+      "yet は個別の正しさと切替時の破綻を対照する。",
+      "when 節は身体が跳ぶ条件を示す。",
+      "belong in は補正処理を工程内へ位置づける。",
+      "less by A than by B は美しい一枚より受け渡し規則を重視する比較構文。"
+    ],
+    "translationNote": "literal の「場面の境目」を natural では transition と一語にまとめた。「足元の高さ、身体の大きさ、色味」は feet, scale, and color と制作語彙へ自然化し、最後は less by A than by B で一枚絵と継ぎ目の対比を強めた。",
+    "readingPoint": "導入。完成した素材そのものではなく、素材間の受け渡しに品質が宿ることを、アニメーションの位置飛びから示す。",
+    "keywords": [
+      "animation",
+      "transition",
+      "alignment",
+      "color correction",
+      "automation"
+    ]
+  },
+  {
+    "id": "DE-20261102-002",
+    "sourceTitle": "主役の外側で価値は完成する",
+    "workId": "daily-essay-20261102",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "社長の物語だけでは畑は続かない",
+    "jp": "農業を事業にする話では、社長の決断だけが物語の中心に置かれやすい。だが開始を可能にした資本が別の人から出て、土地は跡継ぎのいない農家から託され、日々の運営を現地の人が担うなら、成果は一人の才能では説明できない。身体は一つしかなく、複数の仕事を同時にはできない。だから必要なのは英雄的な所有者ではなく、土地、資金、労働、知識を引き継げる仕組みだ。手柄を分けることは、事業を長く残す設計でもある。",
+    "translationLiteral": "In stories about turning agriculture into a business, the president's decision is easily placed at the center. But if the capital that made the start possible came from another person, the land was entrusted by farmers without successors, and local people handle daily operations, the result cannot be explained by one person's talent. A person has only one body and cannot do several jobs at the same time. What is needed, therefore, is not a heroic owner but a system capable of passing on land, money, labor, and knowledge. Sharing credit is also a design for making the business last.",
+    "translationNatural": "When farming is turned into a business, the owner's decision often becomes the whole story. That story is incomplete if someone else supplied the capital, farmers without successors opened the land, and local workers keep the operation running. No individual can be present everywhere or perform every task. A durable enterprise therefore needs more than a heroic founder; it needs a system that can carry land, money, labor, and knowledge across people and time. Giving credit to the people who sustain the work is not merely courtesy. It is part of succession planning.",
+    "imageUrl": "",
+    "imageCaption": "一人の社長の背後で、資金・土地・現地労働・知識が畑へ流れ込み、次の担い手へ渡される。",
+    "imagePrompt": "Editorial illustration of a farm sustained by separate streams of capital land local labor and knowledge passing beyond a visible founder to future successors, no readable text",
+    "chunks": [
+      {
+        "en": "When farming is turned into a business, the owner's decision often becomes the whole story.",
+        "ja": "農業が事業化されると、所有者の決断だけが物語全体になりやすい。"
+      },
+      {
+        "en": "That story is incomplete if someone else supplied the capital, farmers without successors opened the land, and local workers keep the operation running.",
+        "ja": "別の人が資金を出し、後継者のいない農家が土地を開き、現地の人が運営するなら、その物語は不完全だ。"
+      },
+      {
+        "en": "No individual can be present everywhere or perform every task.",
+        "ja": "一人の人間があらゆる場所にいて、すべての仕事を担うことはできない。"
+      },
+      {
+        "en": "A durable enterprise therefore needs more than a heroic founder; it needs a system that can carry land, money, labor, and knowledge across people and time.",
+        "ja": "持続する事業には英雄的な創業者以上に、土地・資金・労働・知識を人と時間の間で運ぶ仕組みが必要だ。"
+      },
+      {
+        "en": "Giving credit to the people who sustain the work is not merely courtesy. It is part of succession planning.",
+        "ja": "仕事を支える人へ手柄を返すことは礼儀だけではなく、承継設計の一部である。"
+      }
+    ],
+    "grammar": [
+      "When farming is turned は受動態で事業化される条件を導く。",
+      "if 節内の supplied, opened, keep は三つの支えを並列する。",
+      "No individual can は一人の能力の物理的限界を明示する。",
+      "more than A は創業者だけでは足りないことを示す。",
+      "not merely A は手柄の共有を礼儀以上の設計へ転換する。"
+    ],
+    "translationNote": "literal の「社長」を natural では owner / founder と文脈別に訳した。「身体は一つ」を No individual can be present everywhere と自然な英語へ展開し、「手柄を分ける」は Giving credit として功績の帰属を明確にした。",
+    "readingPoint": "展開。継ぎ目の品質という制作論を、資本・土地・運営・承継が一人の外側で連結する事業論へ広げる。",
+    "keywords": [
+      "agriculture",
+      "succession",
+      "local labor",
+      "capital",
+      "credit"
+    ]
+  },
+  {
+    "id": "DE-20261102-003",
+    "sourceTitle": "主役の外側で価値は完成する",
+    "workId": "daily-essay-20261102",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "有料の席は広告の背景ではない",
+    "jp": "有料イベントで出演者が作品を宣伝すること自体は不自然ではない。ただ、参加者が贈った寄せ書きも、会場で撮った写真も、本人の次の告知を飾る素材に変わり、参加者には旅の記念さえ戻らないなら、催しの中心はどこにあったのかと思う。普段からできる宣伝を、料金を払った客との時間より優先すれば、その席は観客席ではなく広告の背景になる。価値は舞台上の顔だけでは完成しない。時間を渡した人へ何を返すかまでが、催しの一部である。",
+    "translationLiteral": "There is nothing unnatural about a performer promoting a work at a paid event. Yet if a message board given by participants and photographs taken at the venue are turned into material for the performer's next announcement, while even a travel keepsake is not returned to the participants, one wonders where the center of the event was. If promotion that can be done at any time is prioritized over time with paying customers, those seats become not an audience but the background of an advertisement. Value is not completed by the face on stage alone. What is returned to the people who gave their time is also part of the event.",
+    "translationNatural": "Promotion is not out of place at a paid event. The balance changes, however, when a surprise gift from the audience and photographs taken together become material for the performer's next campaign, while the participants receive no keepsake of their own. Publicity that could happen any day should not displace the time purchased by the people in the room. Otherwise, paying guests are reduced to scenery for an advertisement. An event is not completed by the person onstage. It is completed by what the occasion gives back to those who brought their time, attention, and money.",
+    "imageUrl": "",
+    "imageCaption": "舞台上の出演者と客席の間で、写真や贈り物が広告へ流れ、参加者への記念が空欄になる。",
+    "imagePrompt": "Editorial illustration of a paid event where audience gifts and group photos flow toward advertising while the attendees' keepsake space remains empty, no readable text",
+    "chunks": [
+      {
+        "en": "Promotion is not out of place at a paid event.",
+        "ja": "有料イベントで宣伝すること自体は場違いではない。"
+      },
+      {
+        "en": "The balance changes, however, when a surprise gift from the audience and photographs taken together become material for the performer's next campaign, while the participants receive no keepsake of their own.",
+        "ja": "しかし観客の贈り物や集合写真が次の宣伝素材になり、参加者には記念が戻らないと均衡は変わる。"
+      },
+      {
+        "en": "Publicity that could happen any day should not displace the time purchased by the people in the room.",
+        "ja": "いつでもできる告知が、会場の人々が買った時間を押しのけるべきではない。"
+      },
+      {
+        "en": "Otherwise, paying guests are reduced to scenery for an advertisement.",
+        "ja": "そうでなければ、有料客は広告の背景へ縮減される。"
+      },
+      {
+        "en": "An event is not completed by the person onstage. It is completed by what the occasion gives back to those who brought their time, attention, and money.",
+        "ja": "催しは舞台上の人物だけでは完成せず、時間・注意・金銭を持ち寄った人へ何を返すかで完成する。"
+      }
+    ],
+    "grammar": [
+      "not out of place は宣伝そのものを全面否定しない。",
+      "when 節は均衡が崩れる条件を示す。",
+      "while は宣伝への利用と参加者への未還元を対照する。",
+      "that could happen any day は Publicity を修飾する関係節。",
+      "is completed by は価値を完成させる主体を受動態で対比する。"
+    ],
+    "translationNote": "literal の「寄せ書き」を natural では文化固有の形を限定せず surprise gift とした。「料金を払った客との時間」は the time purchased by the people in the room とし、客が購入した対象を時間として明示した。",
+    "readingPoint": "転換と余韻。目立つ出演者や宣伝成果から、参加者へ返される経験へ価値の中心を移し、作品全体の主題を結ぶ。",
+    "keywords": [
+      "paid event",
+      "audience",
+      "publicity",
+      "reciprocity",
+      "customer"
+    ]
+  }
+]
