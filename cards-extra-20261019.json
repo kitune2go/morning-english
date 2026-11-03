@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 171,
+    "_generatedAt": "2026-11-04T02:02:00+09:00",
+    "sentence": "When injuries recur, warning individuals is not enough; management must trace recurring hazards, document corrective actions, and verify that the controls actually work.",
+    "phonetic": "ウェン インジャリーズ リカー、ウォーニング インディヴィジュアルズ イズ ノット イナフ；マネジメント マスト トレイス リカーリング ハザーズ、ドキュメント コレクティヴ アクションズ、アンド ヴェリファイ ザット ザ コントロールズ アクチュアリー ワーク。",
+    "japaneseTranslation": "負傷事故が繰り返されるなら、個人へ注意するだけでは不十分です。管理側は、反復する危険要因を追跡し、是正措置を記録し、対策が実際に機能するか確認しなければなりません。",
+    "theme": "事故再発時に管理系統を検証する",
+    "coreVerb": "trace",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Management traces hazards.",
+        "translation": "管理側は危険要因を追跡する。"
+      },
+      "phase2": {
+        "sentence": "Management traces recurring hazards.",
+        "translation": "管理側は反復する危険要因を追跡する。",
+        "addedChunks": "修飾語(recurring)を追加"
+      },
+      "phase3": {
+        "sentence": "When injuries recur, management must trace the hazards.",
+        "translation": "負傷事故が繰り返されるなら、管理側は危険要因を追跡しなければならない。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "Verified controls are more useful than repeated warnings.",
+        "translation": "検証された対策は、繰り返される注意より役に立つ。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "When injuries recur, warning individuals is not enough",
+        "translation": "負傷事故が繰り返されるなら、個人へ注意するだけでは不十分だ。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When injuries recur",
+          "function": "時間",
+          "translation": "負傷事故が繰り返されるなら"
+        },
+        {
+          "text": "warning individuals is not enough",
+          "function": "状態",
+          "translation": "個人へ注意するだけでは不十分だ"
+        },
+        {
+          "text": "management must trace recurring hazards",
+          "function": "行動",
+          "translation": "管理側は反復する危険要因を追跡しなければならない"
+        },
+        {
+          "text": "document corrective actions",
+          "function": "行動",
+          "translation": "是正措置を記録し"
+        },
+        {
+          "text": "and verify",
+          "function": "接続",
+          "translation": "そして確認しなければならない"
+        },
+        {
+          "text": "that the controls actually work",
+          "function": "対象",
+          "translation": "対策が実際に機能することを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "条件・時間",
+          "name": "when節",
+          "where": "When injuries recur",
+          "explanation": "事故が反復する状況を導入する。",
+          "rule": "When + S + V, 主節"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞句主語",
+          "where": "warning individuals",
+          "explanation": "注意する行為全体を主語にする。",
+          "rule": "動名詞句 + 単数動詞"
+        },
+        {
+          "category": "否定",
+          "name": "not enough",
+          "where": "is not enough",
+          "explanation": "対応が必要量に達していないことを示す。",
+          "rule": "be not enough"
+        },
+        {
+          "category": "助動詞",
+          "name": "must",
+          "where": "management must trace",
+          "explanation": "管理上の強い必要性を表す。",
+          "rule": "must + 動詞原形"
+        },
+        {
+          "category": "並列",
+          "name": "動詞句の三項並列",
+          "where": "trace, document, and verify",
+          "explanation": "三つの管理行為を同じ階層で並べる。",
+          "rule": "V1, V2, and V3"
+        },
+        {
+          "category": "内容節",
+          "name": "that節",
+          "where": "that the controls actually work",
+          "explanation": "verifyする内容を完全な節で示す。",
+          "rule": "verify that + S + V"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When injuries recurs",
+          "correct": "When injuries recur",
+          "why": "複数主語injuriesには動詞原形recurを使う。"
+        },
+        {
+          "wrong": "Warning individuals are not enough.",
+          "correct": "Warning individuals is not enough.",
+          "why": "動名詞句主語は単数として扱う。"
+        },
+        {
+          "wrong": "Management must traces hazards.",
+          "correct": "Management must trace hazards.",
+          "why": "助動詞mustの後は動詞原形を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Repeated accidents indicate a system problem, not only an individual mistake.",
+          "translation": "事故の反復は、個人のミスだけでなくシステム上の問題を示す。"
+        },
+        {
+          "text": "Corrective action must be documented and tested.",
+          "translation": "是正措置は記録し、検証しなければならない。"
+        },
+        {
+          "text": "A warning is useful only when it changes the conditions that produced the risk.",
+          "translation": "注意は、危険を生んだ条件を変えるときにのみ役立つ。"
+        }
+      ],
+      "parseTree": "[Adv: When S(injuries) V(recur)], S(warning individuals) V(is) Neg(not) C(enough); S(management) Aux(must) V(trace, document, and verify) O(recurring hazards, corrective actions, and that the controls actually work)."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "warning individuals is not enough",
+          "expanded": "because repeated injuries suggest that the hazardous conditions remain",
+          "nuance": "個人注意だけで足りない理由を示す。"
+        },
+        {
+          "original": "trace recurring hazards",
+          "expanded": "since recurring patterns can reveal shared equipment or process failures",
+          "nuance": "反復パターンを追う目的を具体化する。"
+        },
+        {
+          "original": "verify that the controls actually work",
+          "expanded": "therefore, each corrective action needs evidence of effectiveness",
+          "nuance": "対策実施と効果確認を分ける。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Recurring hazards must be traced and corrective actions must be verified by management.",
+          "translation": "反復する危険要因は管理側が追跡し、是正措置は検証しなければならない。",
+          "note": "hazardsとactionsを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reviewing repeated injuries, management should look for shared causes.",
+          "translation": "繰り返される負傷事故を検討し、管理側は共通原因を探すべきだ。",
+          "note": "検討行為を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The verification of corrective controls is a management responsibility.",
+          "translation": "是正対策の検証は管理責任である。",
+          "note": "verifyをverificationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "hazard",
+            "alternatives": [
+              "risk",
+              "danger",
+              "unsafe condition"
+            ],
+            "nuance": "hazardは危険源、riskは発生確率と影響、dangerは一般的危険、unsafe conditionは不安全状態を指す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "再発対応",
+            "sentence": "Recurrence should trigger system review, not another isolated warning.",
+            "translation": "再発時には、再び単発の注意をするのでなく、システムを見直すべきだ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Verified controls are more reliable than informal caution alone.",
+            "translation": "検証された対策は、非公式な注意だけより信頼できる。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the same type of injury returns, the previous correction should be reexamined.",
+            "translation": "同種の負傷が再発したら、以前の是正を再検討すべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What management must verify is effectiveness, not paperwork alone.",
+            "translation": "管理側が確認すべきなのは、書類だけでなく有効性である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Repeated harm requires system correction.",
+            "translation": "被害の反復にはシステム是正が必要だ。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "事故再発から管理行為へ主語と責任を明確に接続した。安全管理文脈に特化するためflexibilityを8とした。"
+    }
+  }
+]
