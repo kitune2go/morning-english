@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 170,
+    "_generatedAt": "2026-11-04T02:01:00+09:00",
+    "sentence": "A global timeline becomes more accurate when it connects events across regions instead of treating Europe, the United States, and Japan as the default center.",
+    "phonetic": "ア グローバル タイムライン ビカムズ モア アキュレット ウェン イット コネクツ イヴェンツ アクロス リージョンズ インステッド オブ トリーティング ユアラプ、ジ ユナイテッド ステイツ、アンド ジャパン アズ ザ デフォルト センター。",
+    "japaneseTranslation": "世界年表は、ヨーロッパ・アメリカ・日本を既定の中心として扱うのではなく、地域をまたいで出来事を結び付けると、より正確になります。",
+    "theme": "世界史の中心地域を固定しない",
+    "coreVerb": "connect",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A timeline connects events.",
+        "translation": "年表は出来事を結び付ける。"
+      },
+      "phase2": {
+        "sentence": "A global timeline connects events across regions.",
+        "translation": "世界年表は地域をまたいで出来事を結び付ける。",
+        "addedChunks": "修飾語(global)と場所句(across regions)を追加"
+      },
+      "phase3": {
+        "sentence": "A timeline becomes more accurate when it connects regions.",
+        "translation": "年表は地域を結び付けると、より正確になる。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "A connected history is more accurate than a single-center account.",
+        "translation": "結び付いた歴史は、単一中心の記述より正確だ。",
+        "comparison": "more accurate than"
+      },
+      "phase5": {
+        "sentence": "A global timeline becomes more accurate when it connects events across regions",
+        "translation": "世界年表は、地域をまたいで出来事を結び付けると、より正確になる。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A global timeline",
+          "function": "内容",
+          "translation": "世界年表は"
+        },
+        {
+          "text": "becomes more accurate",
+          "function": "状態",
+          "translation": "より正確になる"
+        },
+        {
+          "text": "when it connects events",
+          "function": "時間",
+          "translation": "出来事を結び付けると"
+        },
+        {
+          "text": "across regions",
+          "function": "場所",
+          "translation": "地域をまたいで"
+        },
+        {
+          "text": "instead of treating Europe, the United States, and Japan",
+          "function": "比較",
+          "translation": "ヨーロッパ・アメリカ・日本を扱う代わりに"
+        },
+        {
+          "text": "as the default center",
+          "function": "状態",
+          "translation": "既定の中心として"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "変化",
+          "name": "become + 形容詞",
+          "where": "becomes more accurate",
+          "explanation": "年表の正確さが増す変化を表す。",
+          "rule": "become + 形容詞"
+        },
+        {
+          "category": "比較",
+          "name": "more + 形容詞",
+          "where": "more accurate",
+          "explanation": "accurateの程度が高まることを表す。",
+          "rule": "more + 形容詞"
+        },
+        {
+          "category": "条件・時間",
+          "name": "when節",
+          "where": "when it connects events",
+          "explanation": "正確さが増す条件を示す。",
+          "rule": "when + S + V"
+        },
+        {
+          "category": "前置詞",
+          "name": "across",
+          "where": "across regions",
+          "explanation": "複数地域を横断する関係を表す。",
+          "rule": "across + 複数名詞"
+        },
+        {
+          "category": "対照",
+          "name": "instead of + 動名詞",
+          "where": "instead of treating",
+          "explanation": "避ける方法と採る方法を対照する。",
+          "rule": "instead of + 動名詞"
+        },
+        {
+          "category": "補語",
+          "name": "treat A as B",
+          "where": "treating ... as the default center",
+          "explanation": "複数地域を中心と見なす関係を表す。",
+          "rule": "treat + A + as + B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A timeline become more accurate.",
+          "correct": "A timeline becomes more accurate.",
+          "why": "単数主語timelineにはbecomesを使う。"
+        },
+        {
+          "wrong": "when it connect events",
+          "correct": "when it connects events",
+          "why": "三人称単数主語itにはconnectsを使う。"
+        },
+        {
+          "wrong": "instead of treat one region as the center",
+          "correct": "instead of treating one region as the center",
+          "why": "instead ofの後は動名詞を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "World history should connect regions rather than isolate them.",
+          "translation": "世界史は地域を孤立させず結び付けるべきだ。"
+        },
+        {
+          "text": "No single region can serve as the default center of every story.",
+          "translation": "どの単一地域も、あらゆる物語の既定中心にはなれない。"
+        },
+        {
+          "text": "A wider timeline reveals exchanges that a narrow one misses.",
+          "translation": "広い年表は、狭い年表が見落とす交流を明らかにする。"
+        }
+      ],
+      "parseTree": "S(A global timeline) V(becomes) C(more accurate) [Adv: when S(it) V(connects) O(events) across regions] [instead of treating O(Europe, the United States, and Japan) C(as the default center)]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "becomes more accurate",
+          "expanded": "because regional connections reveal causes and consequences that isolated entries omit",
+          "nuance": "地域間関係が正確さを高める理由を示す。"
+        },
+        {
+          "original": "connects events across regions",
+          "expanded": "since trade, migration, empire, and ideas move across borders",
+          "nuance": "出来事を横断的に結ぶ経路を具体化する。"
+        },
+        {
+          "original": "instead of treating ... as the default center",
+          "expanded": "therefore, the timeline should vary its viewpoint according to the event",
+          "nuance": "出来事ごとに視点を変える帰結を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Events from different regions should be connected within the same global timeline.",
+          "translation": "異なる地域の出来事は、同じ世界年表の中で結び付けるべきだ。",
+          "note": "eventsを主語にして結び付けられる側へ焦点を移す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Connecting events across regions, a timeline can expose overlooked relationships.",
+          "translation": "地域をまたいで出来事を結ぶことで、年表は見落とされた関係を示せる。",
+          "note": "方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The decentralization of historical narrative improves global coverage.",
+          "translation": "歴史叙述の脱中心化は、世界的な網羅性を高める。",
+          "note": "decentralizeを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "center",
+            "alternatives": [
+              "focus",
+              "hub",
+              "reference point"
+            ],
+            "nuance": "centerは中心、focusは注目点、hubは結節点、reference pointは比較基準を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "脱中心化",
+            "sentence": "The viewpoint should follow the event rather than a fixed hierarchy of regions.",
+            "translation": "視点は固定された地域序列ではなく、出来事に従うべきだ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A connected account is more informative than a list of isolated national histories.",
+            "translation": "結び付いた記述は、孤立した国史の一覧より多くを伝える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a timeline repeatedly centers the same regions, important connections may disappear.",
+            "translation": "年表が同じ地域ばかりを中心にすると、重要な関係が消える場合がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What makes a timeline global is connection, not the number of country names.",
+            "translation": "年表を世界的にするのは国名の数ではなく、つながりである。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Connect regions; do not rank them by default.",
+            "translation": "地域を結び、既定の序列を置かない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "when節とinstead ofで方法論の対照を明確にした。固有名詞の三項並列が長いためefficiencyを8とした。"
+    }
+  }
+]
