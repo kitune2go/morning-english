@@ -91,7 +91,10 @@
     "cards-extra-20261014.json",
     "cards-extra-20261015.json",
     "cards-extra-20261016.json",
-    "cards-extra-20261017.json"
+    "cards-extra-20261017.json",
+    "cards-extra-20261018.json",
+    "cards-extra-20261019.json",
+    "cards-extra-20261020.json"
   ],
   "cards": [
     {
@@ -1276,6 +1279,27 @@
       "coreVerb": "translate",
       "theme": "図形の関係を段階的に式へ翻訳する",
       "_sourceFile": "cards-extra-20261017.json"
+    },
+    {
+      "_no": 170,
+      "sentence": "A global timeline becomes more accurate when it connects events across regions instead of treating Europe, the United States, and Japan as the default center.",
+      "coreVerb": "connect",
+      "theme": "世界史の中心地域を固定しない",
+      "_sourceFile": "cards-extra-20261018.json"
+    },
+    {
+      "_no": 171,
+      "sentence": "When injuries recur, warning individuals is not enough; management must trace recurring hazards, document corrective actions, and verify that the controls actually work.",
+      "coreVerb": "trace",
+      "theme": "事故再発時に管理系統を検証する",
+      "_sourceFile": "cards-extra-20261019.json"
+    },
+    {
+      "_no": 172,
+      "sentence": "A detailed plan is not an implementation. Before claiming progress, verify that the baseline is merged, authentication works, and the code has actually been tested.",
+      "coreVerb": "verify",
+      "theme": "計画書と実装完了を区別する",
+      "_sourceFile": "cards-extra-20261020.json"
     }
   ]
 }
