@@ -368,5 +368,12 @@
     "description": "アニメーションの継ぎ目、農業事業を支える資本・土地・現地運営、有料イベントで参加者へ返される経験を通して、目立つ主役の外側にある受け渡しが価値を完成させる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261102/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261103",
+    "title": "時間が入ると基準は働き始める",
+    "description": "教材プログラムの計算負荷、ばらつく形鋼を測る機械原点、待機モーションのループを通して、形に時間と変動が加わると共通基準が必要になる過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261103/manifest.json",
+    "mode": "essay-translation"
   }
 ]
