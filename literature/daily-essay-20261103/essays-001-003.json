@@ -1,0 +1,161 @@
+[
+  {
+    "id": "DE-20261103-001",
+    "sourceTitle": "時間が入ると基準は働き始める",
+    "workId": "daily-essay-20261103",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "七百キロバイトの中で時間が重くなる",
+    "jp": "教材のファイルが七百キロバイトほどしかないと、3Dを扱うには小さく見える。だがコードの長さと、実行時に必要な計算量は同じではない。位置や形を置くだけなら、数式は静かな図として収まる。そこへ速度、衝突、重力、時間刻みが入ると、同じ形を何度も更新しなければならない。物理が律速するのは、記述が長いからではなく、世界を一瞬ごとに作り直すからだ。軽い設計図の中にも、重い時間は潜んでいる。",
+    "translationLiteral": "When a teaching file is only about seven hundred kilobytes, it looks small for handling 3D. Yet the length of code and the amount of computation needed at runtime are not the same. If positions and shapes are merely placed, equations can remain as a quiet diagram. When velocity, collisions, gravity, and time steps enter, the same shapes must be updated repeatedly. Physics becomes the rate-limiting factor not because the description is long, but because the world must be remade at every instant. Heavy time can hide even inside a light blueprint.",
+    "translationNatural": "A seven-hundred-kilobyte teaching program may look surprisingly small for a three-dimensional subject. File size, however, does not measure the amount of computation required at runtime. Positions and shapes can remain as static mathematical relations. Once velocity, collisions, gravity, and time steps are added, the same world must be recalculated again and again. Physics becomes the bottleneck not because its description is long, but because motion asks the machine to rebuild the scene at every moment.",
+    "imageUrl": "",
+    "imageCaption": "小さな設計図から、時間ごとに更新される立体世界が立ち上がる。",
+    "imagePrompt": "A compact blueprint sheet beside a luminous three-dimensional simulation repeatedly updating through time, subtle motion trails, educational and contemplative atmosphere, no text",
+    "chunks": [
+      {
+        "en": "A seven-hundred-kilobyte teaching program may look surprisingly small for a three-dimensional subject.",
+        "ja": "七百キロバイトの教材プログラムは、3Dを扱うものとしては驚くほど小さく見えるかもしれない。"
+      },
+      {
+        "en": "File size, however, does not measure the amount of computation required at runtime.",
+        "ja": "しかしファイルサイズは、実行時に必要な計算量を測るものではない。"
+      },
+      {
+        "en": "Positions and shapes can remain as static mathematical relations.",
+        "ja": "位置や形は、静的な数学的関係としてとどまることができる。"
+      },
+      {
+        "en": "Once velocity, collisions, gravity, and time steps are added, the same world must be recalculated again and again.",
+        "ja": "速度、衝突、重力、時間刻みが加わると、同じ世界を何度も再計算しなければならない。"
+      },
+      {
+        "en": "Physics becomes the bottleneck not because its description is long, but because motion asks the machine to rebuild the scene at every moment.",
+        "ja": "物理がボトルネックになるのは記述が長いからではなく、動きが機械に一瞬ごとの場面再構築を求めるからだ。"
+      }
+    ],
+    "grammar": [
+      "`may look` は、見かけについて断定を避ける助動詞表現。",
+      "`however` は、ファイルサイズと計算量を対比する文副詞。",
+      "`required at runtime` は `computation` を後ろから限定する過去分詞句。",
+      "`Once ... are added` は、条件が成立した後の変化を示す接続節。",
+      "`not because A, but because B` は、誤った理由を退けて本当の理由を示す対照構文。"
+    ],
+    "translationNote": "直訳では「静かな図」「世界を一瞬ごとに作り直す」という比喩を残した。自然訳では `static mathematical relations` と `rebuild the scene` に置き換え、コード量と計算量の差が技術的にも読み取りやすいよう主語を補った。",
+    "readingPoint": "導入部。小さなファイルという見かけから入り、静止した形へ時間が加わると負荷の性質が変わる、という作品全体の主題を提示する。",
+    "keywords": [
+      "計算量",
+      "物理",
+      "時間",
+      "3D",
+      "ボトルネック"
+    ]
+  },
+  {
+    "id": "DE-20261103-002",
+    "sourceTitle": "時間が入ると基準は働き始める",
+    "workId": "daily-essay-20261103",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "材料は図面どおりの幅では来ない",
+    "jp": "形鋼の穴位置を、材料を測るたび一個ずつ直していたら終わりがない。材料そのものにばらつきがある以上、図面上の寸法と現物の端は毎回わずかにずれる。だから擦り合わせを消すことより、機械の加工基準から寸法を追い、どのずれを吸収し、どこからは不良とするかを決める方が重要になる。基準はばらつきをなくす魔法ではない。違いが現れたとき、同じ判断へ戻るための場所である。",
+    "translationLiteral": "If the hole positions in a steel section are corrected one by one every time the material is measured, there is no end. Because the material itself varies, the dimensions on the drawing and the edge of the actual piece shift slightly each time. Therefore, rather than eliminating fitting, it is more important to trace dimensions from the machine's processing reference and decide which deviations to absorb and from where to call them defects. A reference is not magic that removes variation. It is a place to which one returns for the same judgment when differences appear.",
+    "translationNatural": "If every hole is corrected separately whenever a steel section varies, the adjustment never ends. Real material does not arrive with perfectly uniform dimensions, so the drawing and the physical edge will never coincide in exactly the same way. The practical answer is not to abolish fitting but to measure from the machine datum. That datum defines which variation the process can absorb and where variation becomes a defect. A reference point does not remove difference; it gives repeated decisions somewhere stable to return to.",
+    "imageUrl": "",
+    "imageCaption": "ばらつく形鋼の上に、機械原点から伸びる測定線が重なる。",
+    "imagePrompt": "Steel structural sections with slight dimensional variation aligned against a precise machine datum, fine measurement lines and machining marks, calm industrial illustration, no text",
+    "chunks": [
+      {
+        "en": "If every hole is corrected separately whenever a steel section varies, the adjustment never ends.",
+        "ja": "形鋼がばらつくたびに穴を個別修正していたら、調整は終わらない。"
+      },
+      {
+        "en": "Real material does not arrive with perfectly uniform dimensions, so the drawing and the physical edge will never coincide in exactly the same way.",
+        "ja": "実際の材料は完全に均一な寸法では届かないため、図面と現物の端が毎回まったく同じように一致することはない。"
+      },
+      {
+        "en": "The practical answer is not to abolish fitting but to measure from the machine datum.",
+        "ja": "実際的な答えは擦り合わせをなくすことではなく、機械原点から測ることだ。"
+      },
+      {
+        "en": "That datum defines which variation the process can absorb and where variation becomes a defect.",
+        "ja": "その基準が、工程で吸収できるばらつきと、不良になる境界を定める。"
+      },
+      {
+        "en": "A reference point does not remove difference; it gives repeated decisions somewhere stable to return to.",
+        "ja": "基準点は違いを消さないが、繰り返す判断に戻れる安定した場所を与える。"
+      }
+    ],
+    "grammar": [
+      "`If ... whenever ...` は、反復される条件の中で起こる結果を示す。",
+      "`does not arrive with` は、材料がある性質を備えて届くことを否定する表現。",
+      "`not to A but to B` は、解決策をAからBへ言い換える対照構文。",
+      "`which variation ... and where ...` は、`defines` の目的語となる二つの間接疑問。",
+      "セミコロンは、基準が差を消さないことと、判断を支えることの対照を一文で結ぶ。"
+    ],
+    "translationNote": "直訳では「擦り合わせ」「加工基準」の論理を保った。自然訳では加工文脈で一般的な `fitting` と `machine datum` を用い、「どこから不良か」を `where variation becomes a defect` と境界の表現に整理した。",
+    "readingPoint": "展開部。時間による計算負荷から、現物のばらつきへ視点を移す。基準は差を消すものではなく、差を同じ手順で扱うためにあると主題を具体化する。",
+    "keywords": [
+      "形鋼",
+      "機械原点",
+      "ばらつき",
+      "擦り合わせ",
+      "加工基準"
+    ]
+  },
+  {
+    "id": "DE-20261103-003",
+    "sourceTitle": "時間が入ると基準は働き始める",
+    "workId": "daily-essay-20261103",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "ループは最初へ戻る瞬間に試される",
+    "jp": "待機モーションは七十二コマそろい、十二fpsで再生できても、それだけでは完成しない。最後から最初へ戻る一瞬に身体がカクンと動けば、観客が見るのは枚数ではなく切れ目である。正面、歩行、四十五度の待機を増やすほど、足元、向き、色、速度の共通基準が要る。不要な二百一コマを削る作業も同じ設計の一部だ。動きを豊かにするとは、素材を増やすことだけでなく、戻る場所を滑らかに保つことである。",
+    "translationLiteral": "Even if an idle motion has seventy-two frames and can play at twelve fps, that alone does not complete it. If the body jolts in the instant of returning from the last frame to the first, what the viewer sees is not the number of frames but the seam. The more front, walking, and forty-five-degree idle motions are added, the more shared references are needed for the feet, direction, color, and speed. The work of deleting 201 unnecessary frames is part of the same design. To enrich movement is not only to add material but also to keep the place of return smooth.",
+    "translationNatural": "An idle animation can contain seventy-two frames and play at twelve frames per second without forming a convincing loop. If the body jolts when the last frame returns to the first, viewers see the seam rather than the frame count. Adding front, walking, and forty-five-degree motions therefore requires shared references for the feet, direction, color, and speed. Removing 201 unused frames belongs to the same design because a motion library also needs boundaries. Rich movement comes not only from adding material but from keeping every return smooth.",
+    "imageUrl": "",
+    "imageCaption": "連続する待機モーションの終端と始端が、同じ足元で滑らかにつながる。",
+    "imagePrompt": "A sequence of character animation frames forming a smooth loop, final and first poses aligning at the feet, subtle forty-five-degree view, clean studio storyboard, no text",
+    "chunks": [
+      {
+        "en": "An idle animation can contain seventy-two frames and play at twelve frames per second without forming a convincing loop.",
+        "ja": "待機アニメーションは七十二コマあり毎秒十二コマで再生できても、説得力あるループになるとは限らない。"
+      },
+      {
+        "en": "If the body jolts when the last frame returns to the first, viewers see the seam rather than the frame count.",
+        "ja": "最終コマから最初へ戻るとき身体がカクンと動けば、観客は枚数より継ぎ目を見る。"
+      },
+      {
+        "en": "Adding front, walking, and forty-five-degree motions therefore requires shared references for the feet, direction, color, and speed.",
+        "ja": "したがって正面、歩行、四十五度の動きを加えるには、足元、向き、色、速度の共通基準が必要になる。"
+      },
+      {
+        "en": "Removing 201 unused frames belongs to the same design because a motion library also needs boundaries.",
+        "ja": "未使用の二百一コマを削ることも、モーション集には境界が要るため、同じ設計に属する。"
+      },
+      {
+        "en": "Rich movement comes not only from adding material but from keeping every return smooth.",
+        "ja": "豊かな動きは素材を足すことだけでなく、すべての戻りを滑らかに保つことからも生まれる。"
+      }
+    ],
+    "grammar": [
+      "`can ... without -ing` は、条件を満たしていても結果が成立しない可能性を示す。",
+      "`when the last frame returns` は、継ぎ目が現れる時点を示す副詞節。",
+      "`rather than` は、観客が注目する対象を枚数から継ぎ目へ対比する。",
+      "`requires shared references for ...` は、複数項目に共通基準が必要だと述べる構文。",
+      "`not only from A but from B` は、豊かさの由来を追加量だけでなく接続の質にも広げる。"
+    ],
+    "translationNote": "直訳は「戻る場所」という比喩を残した。自然訳では `convincing loop` と `see the seam` を用いて視覚上の問題を明確にし、削除作業は `motion library also needs boundaries` と、整理も設計に含まれる理由を補った。",
+    "readingPoint": "転換と余韻。基準の役割を、機械原点からアニメーションの終端と始端へ移す。最後に、豊かさを量ではなく滑らかな帰還として捉え直し、作品を閉じる。",
+    "keywords": [
+      "待機モーション",
+      "ループ",
+      "継ぎ目",
+      "共通基準",
+      "フレーム"
+    ]
+  }
+]
