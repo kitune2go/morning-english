@@ -4439,5 +4439,344 @@
         }
       ]
     }
+  ],
+  "DE-20261103-001": [
+    {
+      "words": {
+        "seven-hundred-kilobyte": {
+          "ja": "七百キロバイトの"
+        },
+        "teaching": {
+          "ja": "教材用の"
+        },
+        "surprisingly": {
+          "ja": "驚くほど"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may look surprisingly small",
+          "ja": "驚くほど小さく見えるかもしれない",
+          "note": "may は見かけについて断定を避ける"
+        }
+      ]
+    },
+    {
+      "words": {
+        "amount": {
+          "ja": "量"
+        },
+        "computation": {
+          "ja": "計算処理"
+        },
+        "runtime": {
+          "ja": "実行時"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the amount of computation required at runtime",
+          "ja": "実行時に必要な計算量",
+          "note": "required at runtime が computation を後置修飾する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "positions": {
+          "ja": "位置"
+        },
+        "static": {
+          "ja": "静的な"
+        },
+        "relations": {
+          "ja": "関係"
+        }
+      },
+      "phrases": [
+        {
+          "en": "static mathematical relations",
+          "ja": "静的な数学的関係",
+          "note": "時間変化をまだ含まない状態を表す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "velocity": {
+          "ja": "速度"
+        },
+        "collisions": {
+          "ja": "衝突"
+        },
+        "gravity": {
+          "ja": "重力"
+        },
+        "recalculated": {
+          "ja": "再計算される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "again and again",
+          "ja": "何度も繰り返して",
+          "note": "計算の反復を強調する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "bottleneck": {
+          "ja": "律速要因"
+        },
+        "motion": {
+          "ja": "動き"
+        },
+        "rebuild": {
+          "ja": "作り直す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not because its description is long, but because motion asks",
+          "ja": "記述が長いからではなく、動きが要求するから",
+          "note": "not because A, but because B の理由対照"
+        }
+      ]
+    }
+  ],
+  "DE-20261103-002": [
+    {
+      "words": {
+        "corrected": {
+          "ja": "修正される"
+        },
+        "separately": {
+          "ja": "個別に"
+        },
+        "varies": {
+          "ja": "ばらつく"
+        },
+        "adjustment": {
+          "ja": "調整"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the adjustment never ends",
+          "ja": "調整が終わらない",
+          "note": "反復修正の際限のなさを表す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "uniform": {
+          "ja": "均一な"
+        },
+        "dimensions": {
+          "ja": "寸法"
+        },
+        "coincide": {
+          "ja": "一致する"
+        },
+        "exactly": {
+          "ja": "まったく同じように"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the drawing and the physical edge",
+          "ja": "図面と現物の端",
+          "note": "設計値と実物の基準面を対比する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "practical": {
+          "ja": "実際的な"
+        },
+        "abolish": {
+          "ja": "なくす"
+        },
+        "fitting": {
+          "ja": "擦り合わせ"
+        },
+        "datum": {
+          "ja": "機械原点"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not to abolish fitting but to measure from the machine datum",
+          "ja": "擦り合わせをなくすのではなく機械原点から測る",
+          "note": "not A but B で解決策を置き換える"
+        }
+      ]
+    },
+    {
+      "words": {
+        "datum": {
+          "ja": "基準点"
+        },
+        "defines": {
+          "ja": "定める"
+        },
+        "variation": {
+          "ja": "ばらつき"
+        },
+        "defect": {
+          "ja": "不良"
+        }
+      },
+      "phrases": [
+        {
+          "en": "where variation becomes a defect",
+          "ja": "ばらつきが不良になる境界",
+          "note": "where は物理的場所でなく判定境界を示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "reference": {
+          "ja": "基準"
+        },
+        "difference": {
+          "ja": "差"
+        },
+        "repeated": {
+          "ja": "繰り返される"
+        },
+        "somewhere": {
+          "ja": "戻れる場所"
+        }
+      },
+      "phrases": [
+        {
+          "en": "somewhere stable to return to",
+          "ja": "戻ることのできる安定した場所",
+          "note": "基準点を判断の帰還先として比喩化する"
+        }
+      ]
+    }
+  ],
+  "DE-20261103-003": [
+    {
+      "words": {
+        "idle": {
+          "ja": "待機"
+        },
+        "seventy-two": {
+          "ja": "七十二"
+        },
+        "twelve": {
+          "ja": "十二"
+        },
+        "forming": {
+          "ja": "形作る"
+        }
+      },
+      "phrases": [
+        {
+          "en": "without forming a convincing loop",
+          "ja": "自然なループを形作らないまま",
+          "note": "without -ing は結果が成立しないことを示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "jolts": {
+          "ja": "カクンと動く"
+        },
+        "seam": {
+          "ja": "継ぎ目"
+        },
+        "viewers": {
+          "ja": "観客"
+        },
+        "rather": {
+          "ja": "むしろ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "see the seam rather than the frame count",
+          "ja": "フレーム数ではなく継ぎ目を見る",
+          "note": "rather than で注目対象を対比する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "forty-five-degree": {
+          "ja": "四十五度の"
+        },
+        "motions": {
+          "ja": "モーション"
+        },
+        "requires": {
+          "ja": "必要とする"
+        },
+        "references": {
+          "ja": "共通基準"
+        }
+      },
+      "phrases": [
+        {
+          "en": "shared references for the feet, direction, color, and speed",
+          "ja": "足元、向き、色、速度の共通基準",
+          "note": "for 以下が基準を共有する対象を列挙する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "unused": {
+          "ja": "未使用の"
+        },
+        "belongs": {
+          "ja": "属する"
+        },
+        "library": {
+          "ja": "モーション集"
+        },
+        "boundaries": {
+          "ja": "境界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "belongs to the same design",
+          "ja": "同じ設計に属する",
+          "note": "削除や整理も設計行為に含める"
+        }
+      ]
+    },
+    {
+      "words": {
+        "rich": {
+          "ja": "豊かな"
+        },
+        "movement": {
+          "ja": "動き"
+        },
+        "material": {
+          "ja": "素材"
+        },
+        "smooth": {
+          "ja": "滑らかな"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not only from adding material but from keeping every return smooth",
+          "ja": "素材を足すことだけでなく、すべての戻りを滑らかに保つことから",
+          "note": "not only A but B で量から接続の質へ結論を移す"
+        }
+      ]
+    }
   ]
 }
