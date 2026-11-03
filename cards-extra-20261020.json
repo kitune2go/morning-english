@@ -1,0 +1,233 @@
+[
+  {
+    "_no": 172,
+    "_generatedAt": "2026-11-04T02:03:00+09:00",
+    "sentence": "A detailed plan is not an implementation. Before claiming progress, verify that the baseline is merged, authentication works, and the code has actually been tested.",
+    "phonetic": "ア ディテイルド プラン イズ ノット アン インプリメンテイション。ビフォー クレイミング プログレス、ヴェリファイ ザット ザ ベイスライン イズ マージド、オーセンティケイション ワークス、アンド ザ コード ハズ アクチュアリー ビーン テスティッド。",
+    "japaneseTranslation": "詳細な計画は実装そのものではありません。進捗を主張する前に、基準版がマージ済みで、認証が機能し、コードが実際にテスト済みであることを確認しましょう。",
+    "theme": "計画書と実装完了を区別する",
+    "coreVerb": "verify",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Verify the implementation.",
+        "translation": "実装を確認しよう。"
+      },
+      "phase2": {
+        "sentence": "Verify the implementation before reporting progress.",
+        "translation": "進捗を報告する前に実装を確認しよう。",
+        "addedChunks": "時間句(before reporting progress)を追加"
+      },
+      "phase3": {
+        "sentence": "A plan may be complete, but the implementation may still be blocked.",
+        "translation": "計画は完成していても、実装はなお止まっている場合がある。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Tested code is stronger evidence than a detailed plan.",
+        "translation": "テスト済みコードは、詳細な計画より強い証拠だ。",
+        "comparison": "stronger than"
+      },
+      "phase5": {
+        "sentence": "A detailed plan is not an implementation.",
+        "translation": "詳細な計画は実装そのものではない。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A detailed plan is not an implementation",
+          "function": "状態",
+          "translation": "詳細な計画は実装そのものではない"
+        },
+        {
+          "text": "Before claiming progress",
+          "function": "時間",
+          "translation": "進捗を主張する前に"
+        },
+        {
+          "text": "verify that the baseline is merged",
+          "function": "行動",
+          "translation": "基準版がマージ済みであることを確認し"
+        },
+        {
+          "text": "authentication works",
+          "function": "状態",
+          "translation": "認証が機能し"
+        },
+        {
+          "text": "and the code has actually been tested",
+          "function": "接続",
+          "translation": "コードが実際にテスト済みであることを確認しよう"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "過去分詞",
+          "name": "過去分詞による前置修飾",
+          "where": "a detailed plan",
+          "explanation": "詳細化された計画を表す。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "否定",
+          "name": "A is not B",
+          "where": "is not an implementation",
+          "explanation": "計画と実装を同一視しない。",
+          "rule": "A + be not + B"
+        },
+        {
+          "category": "時間",
+          "name": "before + 動名詞",
+          "where": "Before claiming progress",
+          "explanation": "進捗主張より先に確認することを示す。",
+          "rule": "before + 動名詞"
+        },
+        {
+          "category": "命令文",
+          "name": "verifyで始める命令",
+          "where": "verify that",
+          "explanation": "必要な確認作業を直接指示する。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "内容節",
+          "name": "that節",
+          "where": "that the baseline is merged ...",
+          "explanation": "確認すべき三つの状態を示す。",
+          "rule": "verify that + S + V"
+        },
+        {
+          "category": "現在完了受動態",
+          "name": "has been tested",
+          "where": "the code has actually been tested",
+          "explanation": "現在までにテストが完了した状態を表す。",
+          "rule": "has been + 過去分詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A detailed plan is not implementation.",
+          "correct": "A detailed plan is not an implementation.",
+          "why": "可算名詞implementationの単数には冠詞が必要。"
+        },
+        {
+          "wrong": "Before claim progress",
+          "correct": "Before claiming progress",
+          "why": "前置詞beforeの後は動名詞を使う。"
+        },
+        {
+          "wrong": "the code has actually tested",
+          "correct": "the code has actually been tested",
+          "why": "コードはテストされる側なので現在完了受動態を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Documentation can guide implementation, but it cannot replace tested code.",
+          "translation": "文書は実装を導けるが、テスト済みコードの代わりにはならない。"
+        },
+        {
+          "text": "Check the repository state before reporting completion.",
+          "translation": "完了を報告する前にリポジトリの状態を確認しよう。"
+        },
+        {
+          "text": "A blocked implementation remains blocked even when the plan is excellent.",
+          "translation": "計画が優れていても、止まった実装は止まったままである。"
+        }
+      ],
+      "parseTree": "S(A detailed plan) V(is) Neg(not) C(an implementation). [Adv: Before claiming progress], V(verify) O(that S(the baseline) V(is merged), S(authentication) V(works), and S(the code) V(has been tested))."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "A detailed plan is not an implementation",
+          "expanded": "because a plan can exist without executable changes",
+          "nuance": "文書と実行可能な変更の差を示す。"
+        },
+        {
+          "original": "verify that the baseline is merged",
+          "expanded": "since implementation may depend on files that exist only on another branch",
+          "nuance": "基準版確認が必要な理由を補う。"
+        },
+        {
+          "original": "the code has actually been tested",
+          "expanded": "therefore, progress claims should include evidence from the current repository state",
+          "nuance": "進捗報告を検証可能な証拠へ結ぶ。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Implementation progress should be verified against merged and tested code.",
+          "translation": "実装の進捗は、マージ済みでテスト済みのコードに照らして検証すべきだ。",
+          "note": "progressを検証される側として主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Checking the current baseline, the developer can distinguish plans from completed work.",
+          "translation": "現在の基準版を確認することで、開発者は計画と完了作業を区別できる。",
+          "note": "確認方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The verification of implementation requires repository and test evidence.",
+          "translation": "実装の検証には、リポジトリとテストの証拠が必要だ。",
+          "note": "verifyをverificationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "implementation",
+            "alternatives": [
+              "execution",
+              "deployment",
+              "working code"
+            ],
+            "nuance": "implementationは実装全体、executionは実行、deploymentは配備、working codeは動作するコードを指す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "証拠基準",
+            "sentence": "Report the verified state, not the intended state.",
+            "translation": "意図した状態ではなく、検証済みの状態を報告しよう。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A passing test is stronger evidence of progress than a completed plan.",
+            "translation": "合格したテストは、完成した計画より強い進捗証拠だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If authentication fails, remote implementation cannot be treated as complete.",
+            "translation": "認証が失敗するなら、リモート実装を完了扱いにはできない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What proves implementation is tested change, not detailed intention.",
+            "translation": "実装を証明するのは、詳細な意図ではなくテスト済みの変更である。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Plans guide; tests verify.",
+            "translation": "計画は導き、テストは検証する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "二文構成で計画と実装証拠を明確に分けた。三つの確認条件を含むためefficiencyを8とした。"
+    }
+  }
+]
