@@ -4084,18 +4084,17 @@
     },
     {
       "words": {
-        "fifty": {
-          "ja": "五十席という小規模さ",
-          "pos": "語句",
-          "lemma": "fifty",
-          "form": "",
-          "note": "fifty：この作品では「五十席という小規模さ」"
+        "event": {
+          "ja": "イベント・催し"
+        },
+        "venue": {
+          "ja": "会場"
         }
       },
       "phrases": [
         {
-          "en": "A free room with fifty seats, a paid stream, and an overseas campaign produce different numbers, but none by itself explains who listens regularly, who controls the rights, or where the revenue settles.",
-          "ja": "無料の五十席、課金配信、海外向け発信は別々の数字を生むが、聴取者・権利者・収益の行先を単独では説明しない。",
+          "en": "A free event in a small venue, a paid stream, and an overseas campaign generate different numbers, but none by itself explains who listens regularly, who controls the rights, or where the revenue settles.",
+          "ja": "小さな会場の無料イベント、課金配信、海外向け発信は異なる数字を生むが、聴取者・権利者・収益の行先を単独では説明しない。",
           "note": "このチャンク全体の意味と論理関係をまとめて読む。"
         }
       ]
@@ -4254,8 +4253,8 @@
         "farming": {
           "ja": "農業"
         },
-        "owner's": {
-          "ja": "所有者・社長の"
+        "president's": {
+          "ja": "社長の・代表者の"
         }
       },
       "phrases": [
@@ -4276,6 +4275,9 @@
         },
         "operation": {
           "ja": "日々の事業運営"
+        },
+        "entrusted": {
+          "ja": "託した・委ねた"
         }
       },
       "phrases": [
@@ -4372,12 +4374,18 @@
         },
         "campaign": {
           "ja": "次の宣伝活動"
+        },
+        "handwritten": {
+          "ja": "手書きの"
+        },
+        "messages": {
+          "ja": "寄せ書きのメッセージ"
         }
       },
       "phrases": [
         {
-          "en": "receive no keepsake of their own",
-          "ja": "自分たちの記念を受け取れない",
+          "en": "receive no keepsake from the trip",
+          "ja": "その旅の記念品を受け取れない",
           "note": "of their own は参加者への帰属を強調"
         }
       ]
@@ -4543,6 +4551,29 @@
           "note": "not because A, but because B の理由対照"
         }
       ]
+    },
+    {
+      "words": {
+        "lightweight": {
+          "ja": "軽量の・軽い"
+        },
+        "blueprint": {
+          "ja": "設計図"
+        },
+        "conceal": {
+          "ja": "隠している・潜ませる"
+        },
+        "weight": {
+          "ja": "重さ・負担"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Even a lightweight blueprint can conceal the weight of time.",
+          "ja": "軽い設計図の中にも、時間の重さが潜んでいる。",
+          "note": "Even は意外性、conceal は表面から見えない負担の存在を示す比喩。"
+        }
+      ]
     }
   ],
   "DE-20261103-002": [
@@ -4604,13 +4635,13 @@
           "ja": "擦り合わせ"
         },
         "datum": {
-          "ja": "機械原点"
+          "ja": "加工基準・基準面（機械原点と同義ではない）"
         }
       },
       "phrases": [
         {
           "en": "not to abolish fitting but to measure from the machine datum",
-          "ja": "擦り合わせをなくすのではなく機械原点から測る",
+          "ja": "擦り合わせをなくすのではなく、機械の加工基準から測る",
           "note": "not A but B で解決策を置き換える"
         }
       ]
