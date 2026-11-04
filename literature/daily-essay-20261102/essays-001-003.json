@@ -62,26 +62,26 @@
     "title": "社長の物語だけでは畑は続かない",
     "jp": "農業を事業にする話では、社長の決断だけが物語の中心に置かれやすい。だが開始を可能にした資本が別の人から出て、土地は跡継ぎのいない農家から託され、日々の運営を現地の人が担うなら、成果は一人の才能では説明できない。身体は一つしかなく、複数の仕事を同時にはできない。だから必要なのは英雄的な所有者ではなく、土地、資金、労働、知識を引き継げる仕組みだ。手柄を分けることは、事業を長く残す設計でもある。",
     "translationLiteral": "In stories about turning agriculture into a business, the president's decision is easily placed at the center. But if the capital that made the start possible came from another person, the land was entrusted by farmers without successors, and local people handle daily operations, the result cannot be explained by one person's talent. A person has only one body and cannot do several jobs at the same time. What is needed, therefore, is not a heroic owner but a system capable of passing on land, money, labor, and knowledge. Sharing credit is also a design for making the business last.",
-    "translationNatural": "When farming is turned into a business, the owner's decision often becomes the whole story. That story is incomplete if someone else supplied the capital, farmers without successors opened the land, and local workers keep the operation running. No individual can be present everywhere or perform every task. A durable enterprise therefore needs more than a heroic founder; it needs a system that can carry land, money, labor, and knowledge across people and time. Giving credit to the people who sustain the work is not merely courtesy. It is part of succession planning.",
+    "translationNatural": "When farming is turned into a business, the company president's decision often becomes the whole story. That story is incomplete if someone else supplied the capital, farmers without successors entrusted their land to the venture, and local workers keep the operation running. No individual can be present everywhere or perform every task. A durable enterprise therefore needs more than a heroic owner; it needs a system that can carry land, money, labor, and knowledge across people and time. Giving credit to the people who sustain the work is not merely courtesy. It is part of succession planning.",
     "imageUrl": "",
     "imageCaption": "一人の社長の背後で、資金・土地・現地労働・知識が畑へ流れ込み、次の担い手へ渡される。",
     "imagePrompt": "Editorial illustration of a farm sustained by separate streams of capital land local labor and knowledge passing beyond a visible founder to future successors, no readable text",
     "chunks": [
       {
-        "en": "When farming is turned into a business, the owner's decision often becomes the whole story.",
-        "ja": "農業が事業化されると、所有者の決断だけが物語全体になりやすい。"
+        "en": "When farming is turned into a business, the company president's decision often becomes the whole story.",
+        "ja": "農業を事業化する話では、社長の決断だけが物語のすべてとして語られやすい。"
       },
       {
-        "en": "That story is incomplete if someone else supplied the capital, farmers without successors opened the land, and local workers keep the operation running.",
-        "ja": "別の人が資金を出し、後継者のいない農家が土地を開き、現地の人が運営するなら、その物語は不完全だ。"
+        "en": "That story is incomplete if someone else supplied the capital, farmers without successors entrusted their land to the venture, and local workers keep the operation running.",
+        "ja": "別の人が開始資金を出し、後継者のいない農家が土地をその事業へ託し、現地の人々が日々の運営を担うなら、その物語だけでは説明が足りない。"
       },
       {
         "en": "No individual can be present everywhere or perform every task.",
         "ja": "一人の人間があらゆる場所にいて、すべての仕事を担うことはできない。"
       },
       {
-        "en": "A durable enterprise therefore needs more than a heroic founder; it needs a system that can carry land, money, labor, and knowledge across people and time.",
-        "ja": "持続する事業には英雄的な創業者以上に、土地・資金・労働・知識を人と時間の間で運ぶ仕組みが必要だ。"
+        "en": "A durable enterprise therefore needs more than a heroic owner; it needs a system that can carry land, money, labor, and knowledge across people and time.",
+        "ja": "持続する事業に必要なのは、英雄的な所有者だけではない。土地・資金・労働・知識を人から人へ、時を越えて引き継ぐ仕組みである。"
       },
       {
         "en": "Giving credit to the people who sustain the work is not merely courtesy. It is part of succession planning.",
@@ -90,12 +90,12 @@
     ],
     "grammar": [
       "When farming is turned は受動態で事業化される条件を導く。",
-      "if 節内の supplied, opened, keep は三つの支えを並列する。",
+      "if 節内の supplied, entrusted, keep は資金・土地・現場運営を担う別々の主体を並列する。",
       "No individual can は一人の能力の物理的限界を明示する。",
-      "more than A は創業者だけでは足りないことを示す。",
+      "more than A は英雄的な所有者だけでは足りないことを示す。",
       "not merely A は手柄の共有を礼儀以上の設計へ転換する。"
     ],
-    "translationNote": "literal の「社長」を natural では owner / founder と文脈別に訳した。「身体は一つ」を No individual can be present everywhere と自然な英語へ展開し、「手柄を分ける」は Giving credit として功績の帰属を明確にした。",
+    "translationNote": "「社長」は company president、「所有者」は owner と区別した。「土地を託す」には entrusted を用い、土地を造成する意味になる opened the land を避けた。「手柄を分ける」は Giving credit とし、功績の帰属を明確にした。",
     "readingPoint": "展開。継ぎ目の品質という制作論を、資本・土地・運営・承継が一人の外側で連結する事業論へ広げる。",
     "keywords": [
       "agriculture",
@@ -115,7 +115,7 @@
     "title": "有料の席は広告の背景ではない",
     "jp": "有料イベントで出演者が作品を宣伝すること自体は不自然ではない。ただ、参加者が贈った寄せ書きも、会場で撮った写真も、本人の次の告知を飾る素材に変わり、参加者には旅の記念さえ戻らないなら、催しの中心はどこにあったのかと思う。普段からできる宣伝を、料金を払った客との時間より優先すれば、その席は観客席ではなく広告の背景になる。価値は舞台上の顔だけでは完成しない。時間を渡した人へ何を返すかまでが、催しの一部である。",
     "translationLiteral": "There is nothing unnatural about a performer promoting a work at a paid event. Yet if a message board given by participants and photographs taken at the venue are turned into material for the performer's next announcement, while even a travel keepsake is not returned to the participants, one wonders where the center of the event was. If promotion that can be done at any time is prioritized over time with paying customers, those seats become not an audience but the background of an advertisement. Value is not completed by the face on stage alone. What is returned to the people who gave their time is also part of the event.",
-    "translationNatural": "Promotion is not out of place at a paid event. The balance changes, however, when a surprise gift from the audience and photographs taken together become material for the performer's next campaign, while the participants receive no keepsake of their own. Publicity that could happen any day should not displace the time purchased by the people in the room. Otherwise, paying guests are reduced to scenery for an advertisement. An event is not completed by the person onstage. It is completed by what the occasion gives back to those who brought their time, attention, and money.",
+    "translationNatural": "Promotion is not out of place at a paid event. The balance changes, however, when a collection of handwritten messages presented by attendees and photographs taken together become material for the performer's next campaign, while the participants themselves receive no keepsake from the trip. Publicity that could happen any day should not displace the time purchased by the people in the room. If it does, paying guests are reduced to scenery for an advertisement. An event is not completed by the person onstage. It is completed by what the occasion gives back to those who brought their time, attention, and money.",
     "imageUrl": "",
     "imageCaption": "舞台上の出演者と客席の間で、写真や贈り物が広告へ流れ、参加者への記念が空欄になる。",
     "imagePrompt": "Editorial illustration of a paid event where audience gifts and group photos flow toward advertising while the attendees' keepsake space remains empty, no readable text",
@@ -125,16 +125,16 @@
         "ja": "有料イベントで宣伝すること自体は場違いではない。"
       },
       {
-        "en": "The balance changes, however, when a surprise gift from the audience and photographs taken together become material for the performer's next campaign, while the participants receive no keepsake of their own.",
-        "ja": "しかし観客の贈り物や集合写真が次の宣伝素材になり、参加者には記念が戻らないと均衡は変わる。"
+        "en": "The balance changes, however, when a collection of handwritten messages presented by attendees and photographs taken together become material for the performer's next campaign, while the participants themselves receive no keepsake from the trip.",
+        "ja": "しかし参加者が贈った寄せ書きや一緒に撮った写真が出演者の次の宣伝素材になり、参加者自身には旅の記念品が渡らないなら、均衡は崩れる。"
       },
       {
         "en": "Publicity that could happen any day should not displace the time purchased by the people in the room.",
         "ja": "いつでもできる告知が、会場の人々が買った時間を押しのけるべきではない。"
       },
       {
-        "en": "Otherwise, paying guests are reduced to scenery for an advertisement.",
-        "ja": "そうでなければ、有料客は広告の背景へ縮減される。"
+        "en": "If it does, paying guests are reduced to scenery for an advertisement.",
+        "ja": "告知がその時間を押しのければ、料金を払った参加者は広告の背景にされてしまう。"
       },
       {
         "en": "An event is not completed by the person onstage. It is completed by what the occasion gives back to those who brought their time, attention, and money.",
@@ -146,9 +146,10 @@
       "when 節は均衡が崩れる条件を示す。",
       "while は宣伝への利用と参加者への未還元を対照する。",
       "that could happen any day は Publicity を修飾する関係節。",
+      "If it does は直前の publicity が displace（押しのける）ことを受ける条件表現。",
       "is completed by は価値を完成させる主体を受動態で対比する。"
     ],
-    "translationNote": "literal の「寄せ書き」を natural では文化固有の形を限定せず surprise gift とした。「料金を払った客との時間」は the time purchased by the people in the room とし、客が購入した対象を時間として明示した。",
+    "translationNote": "「寄せ書き」は意味を落とさず a collection of handwritten messages presented by attendees とした。「旅の記念」は keepsake from the trip と明示した。If it does の it は直前の publicity を指し、宣伝が参加者との時間を押しのける場合に限って結論が成立する。",
     "readingPoint": "転換と余韻。目立つ出演者や宣伝成果から、参加者へ返される経験へ価値の中心を移し、作品全体の主題を結ぶ。",
     "keywords": [
       "paid event",
