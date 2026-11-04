@@ -94,7 +94,10 @@
     "cards-extra-20261017.json",
     "cards-extra-20261018.json",
     "cards-extra-20261019.json",
-    "cards-extra-20261020.json"
+    "cards-extra-20261020.json",
+    "cards-extra-20261021.json",
+    "cards-extra-20261022.json",
+    "cards-extra-20261023.json"
   ],
   "cards": [
     {
@@ -1300,6 +1303,27 @@
       "coreVerb": "verify",
       "theme": "計画書と実装完了を区別する",
       "_sourceFile": "cards-extra-20261020.json"
+    },
+    {
+      "_no": 173,
+      "sentence": "A reliable 3D reconstruction combines multiple views into one consistent shape instead of fitting each image independently and hiding contradictions between angles.",
+      "coreVerb": "combine",
+      "theme": "多視点画像を一つの3D形状へ統合する",
+      "_sourceFile": "cards-extra-20261021.json"
+    },
+    {
+      "_no": 174,
+      "sentence": "Matching the front view does not prove that a model is accurate; side and rear views must also be checked for geometric consistency.",
+      "coreVerb": "prove",
+      "theme": "正面一致と多視点整合性を別々に検証する",
+      "_sourceFile": "cards-extra-20261022.json"
+    },
+    {
+      "_no": 175,
+      "sentence": "When a system handles heavy loads or mass transport, investigate its design, training, and working conditions before blaming the operator.",
+      "coreVerb": "investigate",
+      "theme": "重いシステムで個人非難より構造条件を先に調べる",
+      "_sourceFile": "cards-extra-20261023.json"
     }
   ]
 }
