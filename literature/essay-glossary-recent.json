@@ -168,6 +168,14 @@
     "note": "afford：この文章での意味"
   },
   {
+    "word": "aggressive",
+    "ja": "強い・急激な",
+    "pos": "形容詞",
+    "lemma": "aggressive",
+    "form": "原形",
+    "note": "ここでは形状を大きく動かす強い補正"
+  },
+  {
     "word": "alignment",
     "ja": "位置合わせ・整列",
     "pos": "名詞",
@@ -296,6 +304,14 @@
     "note": "apply：この文脈では「当てはめる」"
   },
   {
+    "word": "approached",
+    "ja": "近づいた",
+    "pos": "過去形・過去分詞",
+    "lemma": "approach",
+    "form": "approach → approached",
+    "note": "目標形状へ接近した"
+  },
+  {
     "word": "archive",
     "ja": "圧縮ファイル",
     "pos": "語句",
@@ -384,6 +400,14 @@
     "note": "イベントの参加者。文脈では寄せ書きを贈った人々"
   },
   {
+    "word": "audit",
+    "ja": "監査",
+    "pos": "名詞",
+    "lemma": "audit",
+    "form": "原形",
+    "note": "証拠を照合して品質を確認すること"
+  },
+  {
     "word": "authoritative",
     "ja": "権威的な・説得力のある",
     "pos": "語句",
@@ -422,6 +446,14 @@
     "lemma": "backgrounds",
     "form": "",
     "note": "backgrounds：この文脈では「背景（複数）」"
+  },
+  {
+    "word": "backpropagation",
+    "ja": "誤差逆伝播",
+    "pos": "名詞",
+    "lemma": "backpropagation",
+    "form": "原形",
+    "note": "出力誤差から各重みの勾配を逆向きに計算する手続き"
   },
   {
     "word": "bank",
@@ -568,6 +600,14 @@
     "note": "breaks：この文脈では「壊す・分断する」"
   },
   {
+    "word": "breath",
+    "ja": "息・呼気",
+    "pos": "名詞",
+    "lemma": "breath",
+    "form": "原形",
+    "note": "歌唱に使う呼吸"
+  },
+  {
     "word": "brighter",
     "ja": "より明るい",
     "pos": "形容詞・比較級",
@@ -582,6 +622,14 @@
     "lemma": "buddhist",
     "form": "",
     "note": "buddhist：この文脈では「仏教の」"
+  },
+  {
+    "word": "bumps",
+    "ja": "凹凸・こぶ",
+    "pos": "名詞",
+    "lemma": "bump",
+    "form": "bump → bumps",
+    "note": "メッシュ表面に生じた不要な凹凸"
   },
   {
     "word": "buoyant",
@@ -992,6 +1040,14 @@
     "note": "commitment：この文脈では「関与・約束」"
   },
   {
+    "word": "communicate",
+    "ja": "伝える・共有する",
+    "pos": "動詞",
+    "lemma": "communicate",
+    "form": "原形",
+    "note": "情報を相手へ伝達する"
+  },
+  {
     "word": "communities",
     "ja": "共同体",
     "pos": "語句",
@@ -1200,6 +1256,14 @@
     "note": "contradicts：この文脈では「矛盾する」"
   },
   {
+    "word": "contributed",
+    "ja": "寄与した",
+    "pos": "過去形・過去分詞",
+    "lemma": "contribute",
+    "form": "contribute → contributed",
+    "note": "誤差へどれだけ関わったか"
+  },
+  {
     "word": "controls",
     "ja": "支配する",
     "pos": "語句",
@@ -1264,6 +1328,14 @@
     "note": "受動態を作る過去分詞"
   },
   {
+    "word": "corrosion",
+    "ja": "腐食",
+    "pos": "名詞",
+    "lemma": "corrosion",
+    "form": "原形",
+    "note": "化学・電気化学反応による材料劣化"
+  },
+  {
     "word": "cosmetic",
     "ja": "見た目だけの・表面的な",
     "pos": "語句",
@@ -1294,6 +1366,14 @@
     "lemma": "cpu",
     "form": "",
     "note": "cpu：この文脈では「中央処理装置」"
+  },
+  {
+    "word": "cracking",
+    "ja": "割れ・亀裂発生",
+    "pos": "名詞・動名詞",
+    "lemma": "crack",
+    "form": "crack → cracking",
+    "note": "材料に亀裂が生じること"
   },
   {
     "word": "creating",
@@ -1440,6 +1520,14 @@
     "note": "cynical：この文脈では「冷笑的な」"
   },
   {
+    "word": "damaged",
+    "ja": "損なった",
+    "pos": "過去形・過去分詞",
+    "lemma": "damage",
+    "form": "damage → damaged",
+    "note": "形状を途中で悪化させた"
+  },
+  {
     "word": "datum",
     "ja": "基準・機械原点",
     "pos": "名詞",
@@ -1550,6 +1638,14 @@
     "lemma": "deny",
     "form": "",
     "note": "deny：この文脈では「否定する」"
+  },
+  {
+    "word": "departing",
+    "ja": "外れること",
+    "pos": "動名詞",
+    "lemma": "depart",
+    "form": "depart → departing",
+    "note": "ここでは音符から逸脱すること"
   },
   {
     "word": "department",
@@ -1840,6 +1936,22 @@
     "note": "distinct：この文脈では「明確に異なる」"
   },
   {
+    "word": "distorted",
+    "ja": "変形した・歪んだ",
+    "pos": "過去分詞",
+    "lemma": "distort",
+    "form": "distort → distorted",
+    "note": "辺の形状が大きく変わった状態"
+  },
+  {
+    "word": "disturbed",
+    "ja": "乱れた",
+    "pos": "過去分詞",
+    "lemma": "disturb",
+    "form": "disturb → disturbed",
+    "note": "法線方向が滑らかな状態から乱れた"
+  },
+  {
     "word": "divine",
     "ja": "神の",
     "pos": "語句",
@@ -1880,6 +1992,14 @@
     "note": "drift：この文章での意味"
   },
   {
+    "word": "drive",
+    "ja": "押し出す・力強く運ぶ",
+    "pos": "動詞",
+    "lemma": "drive",
+    "form": "原形",
+    "note": "ここでは声を息で前へ押し出す"
+  },
+  {
     "word": "during",
     "ja": "〜の間に",
     "pos": "語句",
@@ -1910,6 +2030,22 @@
     "lemma": "economic",
     "form": "",
     "note": "economic：この文脈では「経済の」"
+  },
+  {
+    "word": "edge-length",
+    "ja": "辺長の",
+    "pos": "複合形容詞",
+    "lemma": "edge length",
+    "form": "複合語",
+    "note": "3Dメッシュの辺の長さに関する"
+  },
+  {
+    "word": "edges",
+    "ja": "辺（複数）",
+    "pos": "名詞",
+    "lemma": "edge",
+    "form": "edge → edges",
+    "note": "メッシュを構成する辺"
   },
   {
     "word": "else's",
@@ -2352,6 +2488,14 @@
     "note": "flange：この文脈では「フランジ・張り出し部」"
   },
   {
+    "word": "flipped",
+    "ja": "反転した",
+    "pos": "過去分詞",
+    "lemma": "flip",
+    "form": "flip → flipped",
+    "note": "面の向きが反転した"
+  },
+  {
     "word": "floor",
     "ja": "床・現場",
     "pos": "語句",
@@ -2406,6 +2550,14 @@
     "lemma": "foreign-made",
     "form": "foreign + made",
     "note": "foreign + made"
+  },
+  {
+    "word": "formed",
+    "ja": "形成された",
+    "pos": "過去分詞",
+    "lemma": "form",
+    "form": "form → formed",
+    "note": "高温で酸化スケールが生じた"
   },
   {
     "word": "former",
@@ -2576,6 +2728,14 @@
     "note": "genuine：この文脈では「本物の」"
   },
   {
+    "word": "geometric",
+    "ja": "形状・幾何学的な",
+    "pos": "形容詞",
+    "lemma": "geometry",
+    "form": "geometry → geometric",
+    "note": "メッシュ形状の健全性に関する"
+  },
+  {
     "word": "gets",
     "ja": "〜になる・得る",
     "pos": "語句",
@@ -2630,6 +2790,22 @@
     "lemma": "govern",
     "form": "",
     "note": "govern：この文脈では「統御する」"
+  },
+  {
+    "word": "grain",
+    "ja": "結晶粒",
+    "pos": "名詞",
+    "lemma": "grain",
+    "form": "原形",
+    "note": "金属組織を構成する結晶粒"
+  },
+  {
+    "word": "grains",
+    "ja": "結晶粒（複数）",
+    "pos": "名詞",
+    "lemma": "grain",
+    "form": "grain → grains",
+    "note": "母相内の複数の結晶粒"
   },
   {
     "word": "gratitude",
@@ -2710,6 +2886,14 @@
     "lemma": "healthy",
     "form": "",
     "note": "healthy：この文脈では「健全な」"
+  },
+  {
+    "word": "heavily",
+    "ja": "大きく・著しく",
+    "pos": "副詞",
+    "lemma": "heavy",
+    "form": "heavy → heavily",
+    "note": "変形の程度が大きい"
   },
   {
     "word": "heirs",
@@ -2888,6 +3072,14 @@
     "note": "inconvenience：この文脈では「不便」"
   },
   {
+    "word": "increased",
+    "ja": "増やした・増加した",
+    "pos": "過去形・過去分詞",
+    "lemma": "increase",
+    "form": "increase → increased",
+    "note": "数または量が増えた"
+  },
+  {
     "word": "indicator",
     "ja": "指標",
     "pos": "語句",
@@ -2976,6 +3168,14 @@
     "note": "interests：この文脈では「持分・権益」"
   },
   {
+    "word": "interior",
+    "ja": "内部",
+    "pos": "名詞",
+    "lemma": "interior",
+    "form": "原形",
+    "note": "材料表面に対する内部"
+  },
+  {
     "word": "intimidation",
     "ja": "威圧",
     "pos": "語句",
@@ -3006,6 +3206,14 @@
     "lemma": "investigate",
     "form": "",
     "note": "investigate：この文脈では「調査する」"
+  },
+  {
+    "word": "investigation",
+    "ja": "調査",
+    "pos": "名詞",
+    "lemma": "investigate",
+    "form": "investigate → investigation",
+    "note": "欠陥原因を追う調査"
   },
   {
     "word": "invitation",
@@ -3360,6 +3568,14 @@
     "note": "lower-left：この文脈では「左下の」"
   },
   {
+    "word": "lung",
+    "ja": "肺の・肺",
+    "pos": "名詞",
+    "lemma": "lung",
+    "form": "原形",
+    "note": "lung capacity で肺活量"
+  },
+  {
     "word": "machining",
     "ja": "機械加工",
     "pos": "語句",
@@ -3390,6 +3606,22 @@
     "lemma": "manufactured",
     "form": "",
     "note": "manufactured：この文脈では「作り出された」"
+  },
+  {
+    "word": "material's",
+    "ja": "材料の",
+    "pos": "所有格",
+    "lemma": "material",
+    "form": "material → material's",
+    "note": "material の所有格"
+  },
+  {
+    "word": "matrix",
+    "ja": "母相",
+    "pos": "名詞",
+    "lemma": "matrix",
+    "form": "原形",
+    "note": "析出物を含む基材側の金属組織"
   },
   {
     "word": "mature",
@@ -3672,6 +3904,14 @@
     "note": "none：この文脈では「どれも〜ない」"
   },
   {
+    "word": "normals",
+    "ja": "法線（複数）",
+    "pos": "名詞",
+    "lemma": "normal",
+    "form": "normal → normals",
+    "note": "面の向きを表す法線ベクトル"
+  },
+  {
     "word": "norms",
     "ja": "規範",
     "pos": "語句",
@@ -3768,6 +4008,14 @@
     "note": "once-rare：この文脈では「かつて希少だった」"
   },
   {
+    "word": "ones",
+    "ja": "もの（複数）",
+    "pos": "代名詞",
+    "lemma": "one",
+    "form": "one → ones",
+    "note": "earlier ones で前の層を指す"
+  },
+  {
     "word": "opens",
     "ja": "開く",
     "pos": "語句",
@@ -3856,6 +4104,14 @@
     "note": "outputs：この文脈では「出力（複数）」"
   },
   {
+    "word": "overlap",
+    "ja": "重なり・一致率",
+    "pos": "名詞",
+    "lemma": "overlap",
+    "form": "原形",
+    "note": "参照画像と投影シルエットの重なり"
+  },
+  {
     "word": "overworked",
     "ja": "酷使された",
     "pos": "語句",
@@ -3902,6 +4158,14 @@
     "lemma": "owns",
     "form": "",
     "note": "owns：この文脈では「所有する」"
+  },
+  {
+    "word": "oxide",
+    "ja": "酸化物の・酸化物",
+    "pos": "名詞・形容詞",
+    "lemma": "oxide",
+    "form": "原形",
+    "note": "oxide scale で酸化スケール"
   },
   {
     "word": "package",
@@ -3966,6 +4230,14 @@
     "lemma": "payment",
     "form": "payment → payments",
     "note": "payment → payments"
+  },
+  {
+    "word": "penguin's",
+    "ja": "ペンギンの",
+    "pos": "所有格",
+    "lemma": "penguin",
+    "form": "penguin → penguin's",
+    "note": "penguin の所有格"
   },
   {
     "word": "per",
@@ -4184,6 +4456,22 @@
     "note": "preaching：この文脈では「説教すること」"
   },
   {
+    "word": "precipitate",
+    "ja": "析出物",
+    "pos": "名詞",
+    "lemma": "precipitate",
+    "form": "原形",
+    "note": "母相の粒内や粒界に形成される別相"
+  },
+  {
+    "word": "precipitates",
+    "ja": "析出物（複数）",
+    "pos": "名詞",
+    "lemma": "precipitate",
+    "form": "precipitate → precipitates",
+    "note": "複数の析出物"
+  },
+  {
     "word": "prepares",
     "ja": "準備する",
     "pos": "語句",
@@ -4278,6 +4566,14 @@
     "lemma": "product",
     "form": "product → products",
     "note": "product → products"
+  },
+  {
+    "word": "promote",
+    "ja": "促す",
+    "pos": "動詞",
+    "lemma": "promote",
+    "form": "原形",
+    "note": "割れや腐食の発生を促進する"
   },
   {
     "word": "promotion",
@@ -4566,6 +4862,14 @@
     "lemma": "rejecting",
     "form": "",
     "note": "rejecting：この文脈では「退けること」"
+  },
+  {
+    "word": "relax",
+    "ja": "ゆるめる",
+    "pos": "動詞",
+    "lemma": "relax",
+    "form": "原形",
+    "note": "ここでは歌のフレーズを力ませず処理する"
   },
   {
     "word": "relief",
@@ -5144,6 +5448,14 @@
     "note": "short → shorter"
   },
   {
+    "word": "showed",
+    "ja": "示した",
+    "pos": "過去形",
+    "lemma": "show",
+    "form": "show → showed",
+    "note": "証拠が結果を示した"
+  },
+  {
     "word": "sideways",
     "ja": "横へ",
     "pos": "語句",
@@ -5158,6 +5470,14 @@
     "lemma": "sightseeing",
     "form": "",
     "note": "sightseeing：この文脈では「観光」"
+  },
+  {
+    "word": "signals",
+    "ja": "印・信号（複数）",
+    "pos": "名詞",
+    "lemma": "signal",
+    "form": "signal → signals",
+    "note": "ここでは外見上の印"
   },
   {
     "word": "silences",
@@ -5176,6 +5496,14 @@
     "note": "silently：この文脈では「静かに」"
   },
   {
+    "word": "silhouette",
+    "ja": "シルエット・輪郭",
+    "pos": "名詞",
+    "lemma": "silhouette",
+    "form": "原形",
+    "note": "画像上の外形"
+  },
+  {
     "word": "simplification",
     "ja": "単純化",
     "pos": "語句",
@@ -5192,6 +5520,14 @@
     "note": "sincere：この文章での意味"
   },
   {
+    "word": "singing",
+    "ja": "歌唱",
+    "pos": "名詞・動名詞",
+    "lemma": "sing",
+    "form": "sing → singing",
+    "note": "歌う行為"
+  },
+  {
     "word": "skill",
     "ja": "技能",
     "pos": "語句",
@@ -5206,6 +5542,14 @@
     "lemma": "skilled",
     "form": "",
     "note": "skilled：この文脈では「熟達した」"
+  },
+  {
+    "word": "slag",
+    "ja": "スラグ",
+    "pos": "名詞",
+    "lemma": "slag",
+    "form": "原形",
+    "note": "溶接後などに表面へ残る非金属生成物"
   },
   {
     "word": "smile",
@@ -5286,6 +5630,14 @@
     "lemma": "specification",
     "form": "specification → specifications",
     "note": "specification → specifications"
+  },
+  {
+    "word": "spend",
+    "ja": "使う",
+    "pos": "動詞",
+    "lemma": "spend",
+    "form": "原形",
+    "note": "息をどれほど使うか"
   },
   {
     "word": "spending",
@@ -5416,6 +5768,14 @@
     "note": "stream：この文脈では「配信・流れ」"
   },
   {
+    "word": "strengthen",
+    "ja": "強化する",
+    "pos": "動詞",
+    "lemma": "strengthen",
+    "form": "原形",
+    "note": "金属の強さを高める"
+  },
+  {
     "word": "structural",
     "ja": "構造用の",
     "pos": "語句",
@@ -5446,6 +5806,14 @@
     "lemma": "submission",
     "form": "",
     "note": "submission：この文脈では「服従」"
+  },
+  {
+    "word": "substance",
+    "ja": "実体・本質",
+    "pos": "名詞",
+    "lemma": "substance",
+    "form": "原形",
+    "note": "見た目の演出に対する歌唱の実体"
   },
   {
     "word": "suburban",
@@ -5542,6 +5910,14 @@
     "lemma": "sustain",
     "form": "動詞・原形",
     "note": "動詞・原形"
+  },
+  {
+    "word": "sustaining",
+    "ja": "持続させること",
+    "pos": "動名詞",
+    "lemma": "sustain",
+    "form": "sustain → sustaining",
+    "note": "音符を時間の中で保つこと"
   },
   {
     "word": "switches",
@@ -5752,6 +6128,14 @@
     "note": "tracing：この文脈では「追跡すること」"
   },
   {
+    "word": "tracked",
+    "ja": "追跡した",
+    "pos": "過去形・過去分詞",
+    "lemma": "track",
+    "form": "track → tracked",
+    "note": "複数指標を別々に監視した"
+  },
+  {
     "word": "traditions",
     "ja": "伝統",
     "pos": "語句",
@@ -5880,6 +6264,14 @@
     "note": "unclassified：この文脈では「分類されていない」"
   },
   {
+    "word": "unfavorable",
+    "ja": "好ましくない",
+    "pos": "形容詞",
+    "lemma": "favorable",
+    "form": "un- + favorable",
+    "note": "強化でなく損傷へつながる種類や分布"
+  },
+  {
     "word": "unfold",
     "ja": "広げる",
     "pos": "語句",
@@ -5942,6 +6334,14 @@
     "lemma": "unusually",
     "form": "",
     "note": "unusually：この文脈では「異常に・ひどく」"
+  },
+  {
+    "word": "updates",
+    "ja": "更新する",
+    "pos": "動詞",
+    "lemma": "update",
+    "form": "update → updates",
+    "note": "重みを実際に変更する"
   },
   {
     "word": "upper",
@@ -6198,6 +6598,22 @@
     "lemma": "web",
     "form": "",
     "note": "web：この文脈では「ウェブ・形鋼の腹板」"
+  },
+  {
+    "word": "weights",
+    "ja": "重み（複数）",
+    "pos": "名詞",
+    "lemma": "weight",
+    "form": "weight → weights",
+    "note": "ニューラルネットワークの調整可能な係数"
+  },
+  {
+    "word": "welding",
+    "ja": "溶接",
+    "pos": "名詞・動名詞",
+    "lemma": "weld",
+    "form": "weld → welding",
+    "note": "金属を接合する工程"
   },
   {
     "word": "well-intentioned",
