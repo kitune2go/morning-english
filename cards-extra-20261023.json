@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 175,
+    "_generatedAt": "2026-11-05T02:03:00+09:00",
+    "sentence": "When a system handles heavy loads or mass transport, investigate its design, training, and working conditions before blaming the operator.",
+    "phonetic": "ウェン ア システム ハンドルズ ヘヴィ ロウズ オア マス トランスポート、インヴェスティゲイト イッツ デザイン、トレイニング、アンド ワーキング コンディションズ ビフォー ブレイミング ジ オペレイター。",
+    "japaneseTranslation": "システムが重量物や大量輸送を扱うなら、運転者を責める前に、その設計・訓練・労働条件を調べましょう。",
+    "theme": "重いシステムで個人非難より構造条件を先に調べる",
+    "coreVerb": "investigate",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Investigate the system.",
+        "translation": "システムを調べよう。"
+      },
+      "phase2": {
+        "sentence": "Investigate the design and working conditions.",
+        "translation": "設計と労働条件を調べよう。",
+        "addedChunks": "対象(design and working conditions)を追加"
+      },
+      "phase3": {
+        "sentence": "Investigate the system before blaming the operator.",
+        "translation": "運転者を責める前にシステムを調べよう。",
+        "connector": "before"
+      },
+      "phase4": {
+        "sentence": "System evidence is more useful than immediate blame.",
+        "translation": "システム上の証拠は、即時の非難より役に立つ。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "When a system handles heavy loads or mass transport, investigate its design, training, and working conditions",
+        "translation": "システムが重量物や大量輸送を扱うなら、その設計・訓練・労働条件を調べよう。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When a system handles",
+          "function": "時間",
+          "translation": "システムが扱うなら"
+        },
+        {
+          "text": "heavy loads or mass transport",
+          "function": "対象",
+          "translation": "重量物や大量輸送を"
+        },
+        {
+          "text": "investigate",
+          "function": "行動",
+          "translation": "調べよう"
+        },
+        {
+          "text": "its design, training, and working conditions",
+          "function": "対象",
+          "translation": "その設計・訓練・労働条件を"
+        },
+        {
+          "text": "before blaming",
+          "function": "時間",
+          "translation": "責める前に"
+        },
+        {
+          "text": "the operator",
+          "function": "対象",
+          "translation": "運転者を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "条件・時間",
+          "name": "when節",
+          "where": "When a system handles",
+          "explanation": "調査を優先すべき状況を示す。",
+          "rule": "When + S + V, 命令文"
+        },
+        {
+          "category": "三単現",
+          "name": "handles",
+          "where": "a system handles",
+          "explanation": "単数主語systemに-sを付ける。",
+          "rule": "三人称単数主語 + 動詞-s"
+        },
+        {
+          "category": "選択",
+          "name": "A or B",
+          "where": "heavy loads or mass transport",
+          "explanation": "二種類の高リスク対象を並べる。",
+          "rule": "A or B"
+        },
+        {
+          "category": "命令文",
+          "name": "investigateで始める命令",
+          "where": "investigate its design",
+          "explanation": "必要な調査を直接指示する。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "並列",
+          "name": "三項並列",
+          "where": "design, training, and working conditions",
+          "explanation": "三つの構造条件を同じ階層で並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "時間",
+          "name": "before + 動名詞",
+          "where": "before blaming the operator",
+          "explanation": "個人非難より先に調査する順序を示す。",
+          "rule": "before + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When a system handle heavy loads",
+          "correct": "When a system handles heavy loads",
+          "why": "単数主語systemにはhandlesを使う。"
+        },
+        {
+          "wrong": "investigates its design",
+          "correct": "investigate its design",
+          "why": "命令文は動詞原形で始める。"
+        },
+        {
+          "wrong": "before blame the operator",
+          "correct": "before blaming the operator",
+          "why": "前置詞beforeの後は動名詞を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Serious systems require structural review after failure.",
+          "translation": "重大なシステムでは、失敗後に構造的な見直しが必要だ。"
+        },
+        {
+          "text": "Operator error may be the last link in a longer causal chain.",
+          "translation": "運転者の誤りは、より長い因果連鎖の最後の一環かもしれない。"
+        },
+        {
+          "text": "Training quality and working conditions shape human performance.",
+          "translation": "訓練の質と労働条件は、人の遂行能力を左右する。"
+        }
+      ],
+      "parseTree": "[Adv: When S(a system) V(handles) O(heavy loads or mass transport)], V(investigate) O(its design, training, and working conditions) [Adv: before blaming O(the operator)]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "investigate its design",
+          "expanded": "because design decisions shape the errors that remain possible",
+          "nuance": "設計調査を優先する理由を示す。"
+        },
+        {
+          "original": "training, and working conditions",
+          "expanded": "since fatigue, incentives, and instruction affect operator behavior",
+          "nuance": "人の行動を左右する条件を具体化する。"
+        },
+        {
+          "original": "before blaming the operator",
+          "expanded": "therefore, individual responsibility should be assessed within the full causal chain",
+          "nuance": "責任評価の順序を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The system should be investigated before the operator is blamed.",
+          "translation": "運転者が責められる前に、システムを調査すべきだ。",
+          "note": "systemとoperatorを受動態で対照する。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reviewing design and working conditions, investigators can identify upstream causes.",
+          "translation": "設計と労働条件を見直すことで、調査者は上流の原因を特定できる。",
+          "note": "調査方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Structural investigation should precede individual blame.",
+          "translation": "構造的調査は個人非難に先行すべきだ。",
+          "note": "investigateをinvestigationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "blame",
+            "alternatives": [
+              "fault",
+              "responsibility",
+              "accountability"
+            ],
+            "nuance": "blameは非難、faultは過失、responsibilityは責任、accountabilityは説明責任を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "調査順序",
+            "sentence": "Examine upstream conditions before assigning downstream fault.",
+            "translation": "下流の過失を割り当てる前に、上流の条件を調べよう。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A causal review is more informative than immediate personal blame.",
+            "translation": "因果の見直しは、即時の個人非難より多くを教える。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If failures repeat across operators, the system deserves closer inspection.",
+            "translation": "運転者が変わっても失敗が繰り返されるなら、システムを詳しく調べるべきだ。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What investigators need is the full causal chain, not a convenient culprit.",
+            "translation": "調査者に必要なのは、都合のよい犯人ではなく因果の全体だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Trace causes before assigning blame.",
+            "translation": "非難を割り当てる前に原因をたどる。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "when節とbefore句で調査順序を簡潔に示し、主体と対象も明確にした。"
+    }
+  }
+]
