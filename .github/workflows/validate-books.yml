@@ -12,6 +12,8 @@ on:
       - "literature/**"
       - "scripts/validate-books.mjs"
       - "scripts/validate-literature-glossary.mjs"
+      - "scripts/validate-essay-translations.mjs"
+      - "docs/DAILY_ESSAY_TRANSLATION_QA.md"
       - "scripts/build-lazy-indexes.mjs"
       - ".github/workflows/validate-books.yml"
   pull_request:
@@ -48,3 +50,5 @@ jobs:
         run: node scripts/validate-books.mjs
       - name: Validate literature vocabulary
         run: node scripts/validate-literature-glossary.mjs
+      - name: Validate daily essay English/Japanese chunk coverage
+        run: node scripts/validate-essay-translations.mjs

@@ -9,7 +9,7 @@
     "title": "七百キロバイトの中で時間が重くなる",
     "jp": "教材のファイルが七百キロバイトほどしかないと、3Dを扱うには小さく見える。だがコードの長さと、実行時に必要な計算量は同じではない。位置や形を置くだけなら、数式は静かな図として収まる。そこへ速度、衝突、重力、時間刻みが入ると、同じ形を何度も更新しなければならない。物理が律速するのは、記述が長いからではなく、世界を一瞬ごとに作り直すからだ。軽い設計図の中にも、重い時間は潜んでいる。",
     "translationLiteral": "When a teaching file is only about seven hundred kilobytes, it looks small for handling 3D. Yet the length of code and the amount of computation needed at runtime are not the same. If positions and shapes are merely placed, equations can remain as a quiet diagram. When velocity, collisions, gravity, and time steps enter, the same shapes must be updated repeatedly. Physics becomes the rate-limiting factor not because the description is long, but because the world must be remade at every instant. Heavy time can hide even inside a light blueprint.",
-    "translationNatural": "A seven-hundred-kilobyte teaching program may look surprisingly small for a three-dimensional subject. File size, however, does not measure the amount of computation required at runtime. Positions and shapes can remain as static mathematical relations. Once velocity, collisions, gravity, and time steps are added, the same world must be recalculated again and again. Physics becomes the bottleneck not because its description is long, but because motion asks the machine to rebuild the scene at every moment.",
+    "translationNatural": "A seven-hundred-kilobyte teaching program may look surprisingly small for a three-dimensional subject. File size, however, does not measure the amount of computation required at runtime. Positions and shapes can remain as static mathematical relations. Once velocity, collisions, gravity, and time steps are added, the same world must be recalculated again and again. Physics becomes the bottleneck not because its description is long, but because motion asks the machine to rebuild the scene at every moment. Even a lightweight blueprint can conceal the weight of time.",
     "imageUrl": "",
     "imageCaption": "小さな設計図から、時間ごとに更新される立体世界が立ち上がる。",
     "imagePrompt": "A compact blueprint sheet beside a luminous three-dimensional simulation repeatedly updating through time, subtle motion trails, educational and contemplative atmosphere, no text",
@@ -33,6 +33,10 @@
       {
         "en": "Physics becomes the bottleneck not because its description is long, but because motion asks the machine to rebuild the scene at every moment.",
         "ja": "物理がボトルネックになるのは記述が長いからではなく、動きが機械に一瞬ごとの場面再構築を求めるからだ。"
+      },
+      {
+        "en": "Even a lightweight blueprint can conceal the weight of time.",
+        "ja": "軽い設計図の中にさえ、時間の重さは隠れている。"
       }
     ],
     "grammar": [
@@ -42,7 +46,7 @@
       "`Once ... are added` は、条件が成立した後の変化を示す接続節。",
       "`not because A, but because B` は、誤った理由を退けて本当の理由を示す対照構文。"
     ],
-    "translationNote": "直訳では「静かな図」「世界を一瞬ごとに作り直す」という比喩を残した。自然訳では `static mathematical relations` と `rebuild the scene` に置き換え、コード量と計算量の差が技術的にも読み取りやすいよう主語を補った。",
+    "translationNote": "直訳では「静かな図」「世界を一瞬ごとに作り直す」という比喩を残した。自然訳では `static mathematical relations` と `rebuild the scene` に置き換え、コード量と計算量の差が技術的にも読み取りやすいよう主語を補った。 原文最後の「軽い設計図の中にも、重い時間は潜んでいる」は Even a lightweight blueprint can conceal the weight of time. として自然訳にも残した。",
     "readingPoint": "導入部。小さなファイルという見かけから入り、静止した形へ時間が加わると負荷の性質が変わる、という作品全体の主題を提示する。",
     "keywords": [
       "計算量",
@@ -73,11 +77,11 @@
       },
       {
         "en": "Real material does not arrive with perfectly uniform dimensions, so the drawing and the physical edge will never coincide in exactly the same way.",
-        "ja": "実際の材料は完全に均一な寸法では届かないため、図面と現物の端が毎回まったく同じように一致することはない。"
+        "ja": "実際の材料寸法は完全にはそろわないため、図面上の寸法と現物の端との対応は、毎回まったく同じにはならない。"
       },
       {
         "en": "The practical answer is not to abolish fitting but to measure from the machine datum.",
-        "ja": "実際的な答えは擦り合わせをなくすことではなく、機械原点から測ることだ。"
+        "ja": "現実的には擦り合わせをなくすのではなく、機械の加工基準から寸法を追うことが重要だ。"
       },
       {
         "en": "That datum defines which variation the process can absorb and where variation becomes a defect.",
@@ -149,7 +153,7 @@
       "`not only from A but from B` は、豊かさの由来を追加量だけでなく接続の質にも広げる。"
     ],
     "translationNote": "直訳は「戻る場所」という比喩を残した。自然訳では `convincing loop` と `see the seam` を用いて視覚上の問題を明確にし、削除作業は `motion library also needs boundaries` と、整理も設計に含まれる理由を補った。",
-    "readingPoint": "転換と余韻。基準の役割を、機械原点からアニメーションの終端と始端へ移す。最後に、豊かさを量ではなく滑らかな帰還として捉え直し、作品を閉じる。",
+    "readingPoint": "転換と余韻。基準の役割を、加工基準からアニメーションの終端と始端へ移す。最後に、豊かさを量ではなく滑らかな帰還として捉え直し、作品を閉じる。",
     "keywords": [
       "待機モーション",
       "ループ",

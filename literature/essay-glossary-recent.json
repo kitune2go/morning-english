@@ -376,6 +376,14 @@
     "note": "attendance：この文脈では「観客動員」"
   },
   {
+    "word": "attendees",
+    "ja": "出席者・参加者",
+    "pos": "名詞",
+    "lemma": "attendee",
+    "form": "複数形",
+    "note": "イベントの参加者。文脈では寄せ書きを贈った人々"
+  },
+  {
     "word": "authoritative",
     "ja": "権威的な・説得力のある",
     "pos": "語句",
@@ -2008,6 +2016,14 @@
     "note": "entertainment：この文脈では「娯楽」"
   },
   {
+    "word": "entrusted",
+    "ja": "託した・委ねた",
+    "pos": "動詞",
+    "lemma": "entrust",
+    "form": "過去形・過去分詞",
+    "note": "大切な土地などを相手に託す。土地を開墾した意味ではない"
+  },
+  {
     "word": "environment",
     "ja": "環境",
     "pos": "語句",
@@ -2656,6 +2672,14 @@
     "note": "handoffs：この文脈では「受け渡し（複数）」"
   },
   {
+    "word": "handwritten",
+    "ja": "手書きの",
+    "pos": "形容詞",
+    "lemma": "handwritten",
+    "form": "原形",
+    "note": "寄せ書きのメッセージのような手書きの文字を表す"
+  },
+  {
     "word": "harsher",
     "ja": "より厳しい",
     "pos": "語句",
@@ -3214,6 +3238,14 @@
     "lemma": "library",
     "form": "原形",
     "note": "ここではモーション素材のまとまり"
+  },
+  {
+    "word": "lightweight",
+    "ja": "軽量の・軽い",
+    "pos": "形容詞",
+    "lemma": "lightweight",
+    "form": "原形",
+    "note": "設計図やファイルの容量が軽いこと"
   },
   {
     "word": "limitation",
@@ -3832,6 +3864,14 @@
     "note": "overworked：この文脈では「酷使された」"
   },
   {
+    "word": "owner",
+    "ja": "所有者",
+    "pos": "名詞",
+    "lemma": "owner",
+    "form": "単数形",
+    "note": "所有者。社長 (president) や創業者 (founder) と同義ではない"
+  },
+  {
     "word": "owner-manager",
     "ja": "所有者兼経営者",
     "pos": "語句",
@@ -4158,6 +4198,14 @@
     "lemma": "preservation",
     "form": "",
     "note": "preservation：この文脈では「保存・保全」"
+  },
+  {
+    "word": "president's",
+    "ja": "社長の・代表者の",
+    "pos": "名詞所有格",
+    "lemma": "president",
+    "form": "所有格",
+    "note": "会社の代表者の。所有者や創業者であるとは限らない"
   },
   {
     "word": "presses",
@@ -5784,6 +5832,14 @@
     "note": "tree：この文脈では「木」"
   },
   {
+    "word": "trip",
+    "ja": "旅行・ツアー",
+    "pos": "名詞",
+    "lemma": "trip",
+    "form": "単数形",
+    "note": "参加者が旅行の記念として持ち帰るものとの関連で用いる"
+  },
+  {
     "word": "truth",
     "ja": "真実",
     "pos": "語句",
@@ -5966,6 +6022,14 @@
     "lemma": "velocity",
     "form": "原形",
     "note": "方向を含む運動の速さ"
+  },
+  {
+    "word": "venture",
+    "ja": "事業・新規事業体",
+    "pos": "名詞",
+    "lemma": "venture",
+    "form": "単数形",
+    "note": "ここでは農地を託された農業事業のこと"
   },
   {
     "word": "version",
