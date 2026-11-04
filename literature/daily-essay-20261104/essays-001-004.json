@@ -1,0 +1,214 @@
+[
+  {
+    "id": "DE-20261104-001",
+    "sourceTitle": "表面の一致から原因へ戻る",
+    "workId": "daily-essay-20261104",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "表面についたものを内部の粒と呼ばない",
+    "jp": "形鋼の表面に付く黒い層を見て、それを析出物と呼ぶと、材料の中と外が混ざってしまう。高温で生じる酸化スケールや、溶接後に残るスラグは表面側の生成物であり、母相の粒内や粒界に現れる析出物とは場所も成り立ちも違う。熱処理が強さを整える一方、種類や分布によっては割れや腐食の起点にもなる。名前を分けるのは、欠陥の原因へ戻る経路を残すためである。",
+    "translationLiteral": "If a dark layer attached to the surface of a steel section is called a precipitate, the inside and outside of the material become confused. Oxide scale produced at high temperature and slag remaining after welding are products on the surface side, while precipitates appearing within grains or at grain boundaries in the matrix differ in both location and formation. Heat treatment can adjust strength, but depending on their type and distribution, precipitates can also become starting points for cracking or corrosion. The names are separated in order to preserve a route back to the cause of a defect.",
+    "translationNatural": "Calling every dark layer on a steel section a precipitate would collapse the distinction between the material's surface and its interior. Oxide scale formed at high temperature and slag left after welding are surface products; precipitates form within grains or along grain boundaries in the matrix. Heat treatment can use precipitates to strengthen the metal, while an unfavorable type or distribution can promote cracking or corrosion. The names must remain separate because each one leads the investigation back to a different cause.",
+    "imageUrl": "",
+    "imageCaption": "形鋼の表面層と、母相内部の粒界・粒内組織を分けて見る断面図。",
+    "imagePrompt": "Cross-section of a steel structural section showing dark oxide scale and slag at the surface, distinct precipitates within grains and along grain boundaries, precise metallurgical educational illustration, no text",
+    "chunks": [
+      {
+        "en": "Calling every dark layer on a steel section a precipitate would collapse the distinction between the material's surface and its interior.",
+        "ja": "形鋼上の黒い層をすべて析出物と呼べば、材料の表面と内部の区別が崩れてしまう。"
+      },
+      {
+        "en": "Oxide scale formed at high temperature and slag left after welding are surface products; precipitates form within grains or along grain boundaries in the matrix.",
+        "ja": "高温で生じた酸化スケールと溶接後に残るスラグは表面側の生成物であり、析出物は母相の粒内または粒界に形成される。"
+      },
+      {
+        "en": "Heat treatment can use precipitates to strengthen the metal, while an unfavorable type or distribution can promote cracking or corrosion.",
+        "ja": "熱処理では析出物を金属の強化に利用できる一方、好ましくない種類や分布は割れや腐食を促すことがある。"
+      },
+      {
+        "en": "The names must remain separate",
+        "ja": "それらの名称は分けておかなければならない。"
+      },
+      {
+        "en": "because each one leads the investigation back to a different cause.",
+        "ja": "なぜなら、それぞれが調査を別の原因へ導くからである。"
+      }
+    ],
+    "grammar": [
+      "`Calling ... a precipitate` は動名詞句を主語とし、「〜を析出物と呼ぶこと」を表す。",
+      "`would collapse` は、その呼び方をした場合に起こる帰結を示す仮定的表現。",
+      "セミコロンは表面生成物と内部析出物の対照を一文内で明確に分ける。",
+      "`while` は、強化に利用できる側面と損傷を促す側面を対比する。",
+      "`because each one ...` の `each one` は、区別した各名称・現象を指す。"
+    ],
+    "translationNote": "直訳は「中と外が混ざる」「原因へ戻る経路」という原文の構造を保った。自然訳では `collapse the distinction` として混同の結果を明示し、析出物が強化と損傷の双方に関わる条件を `while` で対照化した。スケール、スラグ、析出物の位置関係は変更していない。",
+    "readingPoint": "導入部。見た目が似た黒い層を同じ名称で処理すると、表面と内部、生成過程と欠陥原因の区別が失われることを示す。",
+    "keywords": [
+      "酸化スケール",
+      "スラグ",
+      "析出物",
+      "粒界",
+      "熱処理"
+    ]
+  },
+  {
+    "id": "DE-20261104-002",
+    "sourceTitle": "表面の一致から原因へ戻る",
+    "workId": "daily-essay-20261104",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "音符は息の量を代わりに歌わない",
+    "jp": "楽譜に沿っていれば、音程と長さは共有できる。だが記号は、息をどれほど使い、どこで声を押し出し、どの瞬間に言葉をゆるめるかまでは歌わない。肺活量や身体の使い方が重要になるのは、音符から外れるためではなく、音符を時間の中で持続させるためだ。スタジオや帽子や顔つきが録音の価値を保証しないように、歌の実体は演出の外側にある。見える印ではなく、耳へ届いた運動が評価される。",
+    "translationLiteral": "By following a score, pitch and duration can be shared. But symbols do not sing how much breath to use, where to push the voice, or at what moment to loosen the words. Lung capacity and the use of the body become important not in order to depart from the notes, but in order to sustain the notes through time. Just as a studio, a hat, or facial appearance does not guarantee the value of a recording, the substance of singing lies outside the presentation. What is evaluated is not the visible sign but the movement that reaches the ear.",
+    "translationNatural": "A score can communicate pitch and duration, but its symbols do not sing how much breath to spend, where to drive the voice, or when to relax a phrase. Lung capacity and bodily control matter not as a means of departing from the notes, but as a means of sustaining them through time. A studio, a hat, or a face cannot guarantee the value of a recording. The substance of singing lies beyond those visible signals, in the movement that actually reaches the ear.",
+    "imageUrl": "",
+    "imageCaption": "楽譜の線から離れず、息と身体の動きが声を時間へ運ぶ。",
+    "imagePrompt": "Sheet music beside a singer's breath and body movement visualized as flowing air reaching an ear, recording studio details kept secondary, contemplative editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "A score can communicate pitch and duration, but its symbols do not sing how much breath to spend, where to drive the voice, or when to relax a phrase.",
+        "ja": "楽譜は音程と長さを伝えられるが、その記号は、息をどれほど使い、どこで声を押し出し、いつフレーズをゆるめるかまでは歌わない。"
+      },
+      {
+        "en": "Lung capacity and bodily control matter not as a means of departing from the notes, but as a means of sustaining them through time.",
+        "ja": "肺活量と身体の制御が重要なのは、音符から外れる手段としてではなく、音符を時間の中で持続させる手段としてだ。"
+      },
+      {
+        "en": "A studio, a hat, or a face cannot guarantee the value of a recording.",
+        "ja": "スタジオも帽子も顔つきも、録音の価値を保証できない。"
+      },
+      {
+        "en": "The substance of singing lies beyond those visible signals,",
+        "ja": "歌の実体は、それらの見える印の向こう側にあり、"
+      },
+      {
+        "en": "in the movement that actually reaches the ear.",
+        "ja": "実際に耳へ届く運動の中にある。"
+      }
+    ],
+    "grammar": [
+      "`can communicate A, but ... do not B` は、楽譜が伝えられる範囲と伝えられない範囲を対比する。",
+      "`how much ... where ... or when ...` は `sing` の内容となる三つの間接疑問。",
+      "`not as a means of A, but as a means of B` は、身体性の目的を「音符から外れること」ではなく「持続させること」と対比する。",
+      "`of sustaining them` の `them` は直前の `the notes` を指す。",
+      "`those visible signals` は直前の studio, hat, face をまとめて受ける。"
+    ],
+    "translationNote": "直訳の「音符から外れるためではなく」を自然訳でも目的の対比として保つため、`not as a means of departing ... but as a means of sustaining ...` とした。「顔つき」は人物の美醜ではなく外見上の印を指すため `a face` とし、最後の「運動」は声を生む息と身体の働きを残した。",
+    "readingPoint": "展開部。記号が共有する情報と、身体が実行する時間的な運動を分ける。見える演出ではなく、耳へ届く作用へ評価軸を移す。",
+    "keywords": [
+      "楽譜",
+      "肺活量",
+      "歌唱",
+      "身体",
+      "録音"
+    ]
+  },
+  {
+    "id": "DE-20261104-003",
+    "sourceTitle": "表面の一致から原因へ戻る",
+    "workId": "daily-essay-20261104",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "一致率が上がっても胸はへこむ",
+    "jp": "三方向の画像に形を合わせると、シルエットの一致率は上がった。しかし強い補正は、ペンギンの胸に凹凸を作り、長く変形した辺を増やした。数値が改善したという一つの証拠だけでは、立体全体が良くなったとは言えない。そこで一致率に加え、辺長の変化、法線の乱れ、面の反転を別々に監視する。画像は何へ近づいたかを示すが、形状監査は近づく途中で何を壊したかを示す。",
+    "translationLiteral": "When the shape was fitted to images from three directions, the silhouette overlap increased. However, the strong correction created unevenness on the penguin's chest and increased the number of greatly deformed edges. The single piece of evidence that one score improved is not enough to say that the whole three-dimensional form became better. Therefore, in addition to overlap, changes in edge length, disturbance of normals, and flipped faces are monitored separately. Images show what the form approached, while geometric auditing shows what was broken on the way toward it.",
+    "translationNatural": "Fitting the model to three reference views improved its silhouette overlap. Yet an aggressive correction also produced bumps across the penguin's chest and increased the number of heavily distorted edges. One better score did not prove that the whole mesh had improved. The review therefore tracked edge-length changes, disturbed normals, and flipped faces separately. Image overlap showed what the model had approached; geometric evidence showed what it had damaged along the way.",
+    "imageUrl": "",
+    "imageCaption": "三方向の輪郭一致と、胸部の凹凸・辺・法線を別々の証拠として比べる。",
+    "imagePrompt": "Three orthographic penguin reference views beside a 3D mesh, silhouette overlap improving while chest bumps, stretched edges, normals, and flipped faces are separately inspected, technical review illustration, no text",
+    "chunks": [
+      {
+        "en": "Fitting the model to three reference views improved its silhouette overlap.",
+        "ja": "モデルを三方向の参照画像へ合わせると、シルエットの一致率は改善した。"
+      },
+      {
+        "en": "Yet an aggressive correction also produced bumps across the penguin's chest and increased the number of heavily distorted edges.",
+        "ja": "しかし強い補正は、ペンギンの胸全体に凹凸を生み、大きく変形した辺の数も増やした。"
+      },
+      {
+        "en": "One better score did not prove that the whole mesh had improved.",
+        "ja": "一つの数値が良くなっても、メッシュ全体が改善したことの証明にはならなかった。"
+      },
+      {
+        "en": "The review therefore tracked edge-length changes, disturbed normals, and flipped faces separately.",
+        "ja": "そこでレビューでは、辺長の変化、乱れた法線、反転した面を別々に追跡した。"
+      },
+      {
+        "en": "Image overlap showed what the model had approached; geometric evidence showed what it had damaged along the way.",
+        "ja": "画像の一致はモデルが何へ近づいたかを示し、形状の証拠はその途中で何を損なったかを示した。"
+      }
+    ],
+    "grammar": [
+      "文頭の `Fitting ...` は動名詞句を主語とし、フィット操作が一致率を上げたことを示す。",
+      "`Yet` は数値改善の直後に生じた形状悪化を強く対比する。",
+      "`did not prove that` は、一つの指標から全体改善を結論できないことを表す。",
+      "`therefore` は、指標不足を理由に複数監視へ進む因果を示す。",
+      "セミコロンは、画像一致が示すものと形状証拠が示すものを並列対照する。"
+    ],
+    "translationNote": "`一致率` は形状全体の品質ではなく参照画像との輪郭重なりなので `silhouette overlap` とした。`辺` はメッシュの edge、`法線` は normals、`面の反転` は flipped faces と対応させた。自然訳でも「数値改善だけでは全体改善を証明しない」という結論と、損傷を検出する監査の役割を省略していない。",
+    "readingPoint": "転換部。目標画像への接近が、途中の形状破壊と同時に起こり得ることを示す。単一指標から複数の独立証拠へ監査を拡張する。",
+    "keywords": [
+      "3Dメッシュ",
+      "一致率",
+      "辺長",
+      "法線",
+      "形状監査"
+    ]
+  },
+  {
+    "id": "DE-20261104-004",
+    "sourceTitle": "表面の一致から原因へ戻る",
+    "workId": "daily-essay-20261104",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "誤差は出口で測って入口へ返す",
+    "jp": "誤差逆伝播は、最後に現れたずれを見つけて終わる仕組みではない。出力と正解の差を測り、その差に各重みがどれだけ関わったかを、連鎖律で後ろから前へたどる。重みを実際に動かす更新則とは別だが、どこを直すべきかを渡す役目を持つ。表面、演奏、画像一致も同じで、出口の見栄えだけを褒めても原因は変わらない。監査とは、結果に残った誤差を、修正できる場所まで戻す作業なのである。",
+    "translationLiteral": "Backpropagation is not a mechanism that ends after finding the discrepancy that appeared at the end. It measures the difference between the output and the correct answer, and traces from back to front, by the chain rule, how much each weight was involved in that difference. It is separate from the update rule that actually moves the weights, but it has the role of passing on where corrections should be made. The same is true of surfaces, performances, and image overlap: praising only the appearance at the output does not change the cause. Auditing is the work of returning the error left in the result to a place where it can be corrected.",
+    "translationNatural": "Backpropagation does not stop after finding an error at the output. It measures the difference between the prediction and the target, then uses the chain rule to trace how much each weight contributed, moving from the later layers toward the earlier ones. The procedure that actually updates the weights is separate, but backpropagation carries the information needed to decide what to change. Surface appearance, performance, and image overlap share the same problem: praising the appearance at the output does not alter the cause. An audit is the work of carrying a remaining error back to a place where correction is possible.",
+    "imageUrl": "",
+    "imageCaption": "出力で測られた誤差が、層をさかのぼって修正可能な場所へ戻る。",
+    "imagePrompt": "A neural network diagram with an error measured at the output and gradients flowing backward through layers toward adjustable weights, connected conceptually to material inspection, singing, and mesh review, elegant editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "Backpropagation does not stop after finding an error at the output.",
+        "ja": "誤差逆伝播は、出力で誤差を見つけただけでは終わらない。"
+      },
+      {
+        "en": "It measures the difference between the prediction and the target, then uses the chain rule to trace how much each weight contributed, moving from the later layers toward the earlier ones.",
+        "ja": "予測と正解の差を測り、連鎖律を使って各重みの寄与を、後ろの層から前の層へたどる。"
+      },
+      {
+        "en": "The procedure that actually updates the weights is separate, but backpropagation carries the information needed to decide what to change.",
+        "ja": "重みを実際に更新する手続きは別だが、誤差逆伝播は何を変えるべきか決めるための情報を運ぶ。"
+      },
+      {
+        "en": "Surface appearance, performance, and image overlap share the same problem: praising the appearance at the output does not alter the cause.",
+        "ja": "表面の見え方、演奏、画像の一致にも同じ問題があり、出口の見栄えを褒めても原因は変わらない。"
+      },
+      {
+        "en": "An audit is the work of carrying a remaining error back to a place where correction is possible.",
+        "ja": "監査とは、残った誤差を、修正できる場所まで運び戻す作業である。"
+      }
+    ],
+    "grammar": [
+      "`does not stop after -ing` は、誤差発見だけでは処理が完了しないことを示す。",
+      "`the difference between A and B` は、予測と正解の差を明示する。",
+      "`how much each weight contributed` は `trace` の対象となる間接疑問節。",
+      "`is separate, but ... carries` は、重み更新と勾配計算の役割を分ける対照。",
+      "`where correction is possible` は、誤差を戻す先を限定する関係副詞節。"
+    ],
+    "translationNote": "`正解` は学習時の目標値を指すため、自然訳では `target` とした。誤差逆伝播による勾配計算と、最適化手法による重み更新を混同しないよう `The procedure that actually updates the weights is separate` を保持した。最後の「戻す」は、原因を修正できる位置へ情報を運ぶ比喩として訳した。",
+    "readingPoint": "結末部。前3枚の区別と監査を、誤差を原因へ返す原理として束ねる。結果の見栄えではなく、修正可能な場所へ情報を戻すことに余韻を置く。",
+    "keywords": [
+      "誤差逆伝播",
+      "連鎖律",
+      "重み",
+      "監査",
+      "修正"
+    ]
+  }
+]
