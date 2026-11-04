@@ -375,5 +375,12 @@
     "description": "教材プログラムの計算負荷、ばらつく形鋼を測る機械原点、待機モーションのループを通して、形に時間と変動が加わると共通基準が必要になる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261103/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261104",
+    "title": "表面の一致から原因へ戻る",
+    "description": "材料表面と内部組織、楽譜と身体的歌唱、画像一致率とメッシュ健全性、誤差逆伝播を通して、見える結果から修正可能な原因へ戻る経路を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261104/manifest.json",
+    "mode": "essay-translation"
   }
 ]
