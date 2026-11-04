@@ -4821,5 +4821,503 @@
         }
       ]
     }
+  ],
+  "DE-20261104-001": [
+    {
+      "words": {
+        "calling": {
+          "ja": "〜と呼ぶこと"
+        },
+        "precipitate": {
+          "ja": "析出物"
+        },
+        "distinction": {
+          "ja": "区別"
+        },
+        "interior": {
+          "ja": "材料内部"
+        }
+      },
+      "phrases": [
+        {
+          "en": "collapse the distinction between the material's surface and its interior",
+          "ja": "材料の表面と内部の区別を崩す",
+          "note": "collapse は物理的崩壊でなく概念上の区別を失わせる"
+        }
+      ]
+    },
+    {
+      "words": {
+        "oxide": {
+          "ja": "酸化物の"
+        },
+        "scale": {
+          "ja": "酸化スケール"
+        },
+        "slag": {
+          "ja": "スラグ"
+        },
+        "matrix": {
+          "ja": "母相"
+        },
+        "grains": {
+          "ja": "結晶粒"
+        }
+      },
+      "phrases": [
+        {
+          "en": "within grains or along grain boundaries in the matrix",
+          "ja": "母相の粒内または粒界に",
+          "note": "析出物が形成される内部位置を示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "precipitates": {
+          "ja": "析出物"
+        },
+        "strengthen": {
+          "ja": "強化する"
+        },
+        "unfavorable": {
+          "ja": "好ましくない"
+        },
+        "cracking": {
+          "ja": "割れ"
+        },
+        "corrosion": {
+          "ja": "腐食"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while an unfavorable type or distribution can promote cracking or corrosion",
+          "ja": "一方、好ましくない種類や分布は割れや腐食を促すことがある",
+          "note": "while は強化作用との対照、can は条件付き可能性"
+        }
+      ]
+    },
+    {
+      "words": {
+        "names": {
+          "ja": "名称"
+        },
+        "remain": {
+          "ja": "保たれる"
+        },
+        "separate": {
+          "ja": "別々の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "must remain separate",
+          "ja": "分けておかなければならない",
+          "note": "分類を維持する必要性"
+        }
+      ]
+    },
+    {
+      "words": {
+        "each": {
+          "ja": "それぞれ"
+        },
+        "investigation": {
+          "ja": "調査"
+        },
+        "different": {
+          "ja": "別の"
+        },
+        "cause": {
+          "ja": "原因"
+        }
+      },
+      "phrases": [
+        {
+          "en": "leads the investigation back to a different cause",
+          "ja": "調査を別の原因へ戻す",
+          "note": "名称ごとに追うべき生成過程・原因が異なる"
+        }
+      ]
+    }
+  ],
+  "DE-20261104-002": [
+    {
+      "words": {
+        "score": {
+          "ja": "楽譜"
+        },
+        "communicate": {
+          "ja": "伝える"
+        },
+        "breath": {
+          "ja": "息"
+        },
+        "drive": {
+          "ja": "押し出す"
+        },
+        "relax": {
+          "ja": "ゆるめる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "how much breath to spend, where to drive the voice, or when to relax a phrase",
+          "ja": "息をどれほど使い、どこで声を押し出し、いつフレーズをゆるめるか",
+          "note": "記号だけでは実演できない三つの身体的判断"
+        }
+      ]
+    },
+    {
+      "words": {
+        "lung": {
+          "ja": "肺の"
+        },
+        "bodily": {
+          "ja": "身体の"
+        },
+        "departing": {
+          "ja": "外れること"
+        },
+        "sustaining": {
+          "ja": "持続させること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not as a means of departing from the notes, but as a means of sustaining them through time",
+          "ja": "音符から外れる手段としてではなく、時間の中で持続させる手段として",
+          "note": "身体性の目的を対比する。them は notes"
+        }
+      ]
+    },
+    {
+      "words": {
+        "studio": {
+          "ja": "スタジオ"
+        },
+        "hat": {
+          "ja": "帽子"
+        },
+        "face": {
+          "ja": "顔つき"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "recording": {
+          "ja": "録音"
+        }
+      },
+      "phrases": [
+        {
+          "en": "cannot guarantee the value of a recording",
+          "ja": "録音の価値を保証できない",
+          "note": "外見的演出と録音内容の価値を区別する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "substance": {
+          "ja": "実体"
+        },
+        "singing": {
+          "ja": "歌唱"
+        },
+        "beyond": {
+          "ja": "向こう側に"
+        },
+        "signals": {
+          "ja": "見える印"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The substance of singing lies beyond those visible signals",
+          "ja": "歌の実体はそれらの見える印の向こう側にある",
+          "note": "those visible signals は studio, hat, face を受ける"
+        }
+      ]
+    },
+    {
+      "words": {
+        "movement": {
+          "ja": "運動"
+        },
+        "actually": {
+          "ja": "実際に"
+        },
+        "reaches": {
+          "ja": "届く"
+        },
+        "ear": {
+          "ja": "耳"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the movement that actually reaches the ear",
+          "ja": "実際に耳へ届く運動",
+          "note": "息と身体が生む声の時間的な働きを指す"
+        }
+      ]
+    }
+  ],
+  "DE-20261104-003": [
+    {
+      "words": {
+        "fitting": {
+          "ja": "合わせること"
+        },
+        "reference": {
+          "ja": "参照"
+        },
+        "views": {
+          "ja": "三方向の画像"
+        },
+        "silhouette": {
+          "ja": "シルエット"
+        },
+        "overlap": {
+          "ja": "一致率"
+        }
+      },
+      "phrases": [
+        {
+          "en": "improved its silhouette overlap",
+          "ja": "シルエットの一致率を改善した",
+          "note": "全体品質ではなく投影輪郭の重なりを示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "aggressive": {
+          "ja": "強い"
+        },
+        "correction": {
+          "ja": "補正"
+        },
+        "bumps": {
+          "ja": "凹凸"
+        },
+        "distorted": {
+          "ja": "変形した"
+        },
+        "edges": {
+          "ja": "辺"
+        }
+      },
+      "phrases": [
+        {
+          "en": "increased the number of heavily distorted edges",
+          "ja": "大きく変形した辺の数を増やした",
+          "note": "一致率改善と同時に生じた形状損傷"
+        }
+      ]
+    },
+    {
+      "words": {
+        "score": {
+          "ja": "評価値"
+        },
+        "prove": {
+          "ja": "証明する"
+        },
+        "whole": {
+          "ja": "全体の"
+        },
+        "mesh": {
+          "ja": "メッシュ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "did not prove that the whole mesh had improved",
+          "ja": "メッシュ全体が改善したことの証明にはならなかった",
+          "note": "単一指標から全体品質を推論することを否定"
+        }
+      ]
+    },
+    {
+      "words": {
+        "review": {
+          "ja": "レビュー"
+        },
+        "tracked": {
+          "ja": "追跡した"
+        },
+        "edge-length": {
+          "ja": "辺長の"
+        },
+        "normals": {
+          "ja": "法線"
+        },
+        "flipped": {
+          "ja": "反転した"
+        }
+      },
+      "phrases": [
+        {
+          "en": "tracked edge-length changes, disturbed normals, and flipped faces separately",
+          "ja": "辺長変化、乱れた法線、反転面を別々に追跡した",
+          "note": "形状健全性を複数の独立指標で確認する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "approached": {
+          "ja": "近づいた"
+        },
+        "geometric": {
+          "ja": "形状の"
+        },
+        "evidence": {
+          "ja": "証拠"
+        },
+        "damaged": {
+          "ja": "損なった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what it had damaged along the way",
+          "ja": "その途中で何を損なったか",
+          "note": "it は model を指し、接近過程の副作用を表す"
+        }
+      ]
+    }
+  ],
+  "DE-20261104-004": [
+    {
+      "words": {
+        "backpropagation": {
+          "ja": "誤差逆伝播"
+        },
+        "stop": {
+          "ja": "終わる"
+        },
+        "error": {
+          "ja": "誤差"
+        },
+        "output": {
+          "ja": "出力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not stop after finding an error at the output",
+          "ja": "出力で誤差を見つけただけでは終わらない",
+          "note": "誤差発見後に勾配計算が続く"
+        }
+      ]
+    },
+    {
+      "words": {
+        "prediction": {
+          "ja": "予測"
+        },
+        "target": {
+          "ja": "正解・目標値"
+        },
+        "chain": {
+          "ja": "連鎖"
+        },
+        "weight": {
+          "ja": "重み"
+        },
+        "contributed": {
+          "ja": "寄与した"
+        }
+      },
+      "phrases": [
+        {
+          "en": "moving from the later layers toward the earlier ones",
+          "ja": "後ろの層から前の層へ移りながら",
+          "note": "逆伝播の計算方向。ones は layers"
+        }
+      ]
+    },
+    {
+      "words": {
+        "procedure": {
+          "ja": "手続き"
+        },
+        "updates": {
+          "ja": "更新する"
+        },
+        "weights": {
+          "ja": "重み"
+        },
+        "separate": {
+          "ja": "別の"
+        },
+        "carries": {
+          "ja": "運ぶ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The procedure that actually updates the weights is separate",
+          "ja": "重みを実際に更新する手続きは別である",
+          "note": "勾配計算と最適化による更新を混同しない"
+        }
+      ]
+    },
+    {
+      "words": {
+        "surface": {
+          "ja": "表面の見え方"
+        },
+        "performance": {
+          "ja": "演奏"
+        },
+        "overlap": {
+          "ja": "画像の一致"
+        },
+        "appearance": {
+          "ja": "見栄え"
+        },
+        "alter": {
+          "ja": "変える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "praising the appearance at the output does not alter the cause",
+          "ja": "出口の見栄えを褒めても原因は変わらない",
+          "note": "観察結果の評価だけでは上流原因を修正できない"
+        }
+      ]
+    },
+    {
+      "words": {
+        "audit": {
+          "ja": "監査"
+        },
+        "remaining": {
+          "ja": "残った"
+        },
+        "carrying": {
+          "ja": "運び戻すこと"
+        },
+        "correction": {
+          "ja": "修正"
+        },
+        "possible": {
+          "ja": "可能な"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carrying a remaining error back to a place where correction is possible",
+          "ja": "残った誤差を修正可能な場所まで運び戻すこと",
+          "note": "監査を原因へ戻る情報経路として表す"
+        }
+      ]
+    }
   ]
 }
