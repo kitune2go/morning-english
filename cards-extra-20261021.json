@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 173,
+    "_generatedAt": "2026-11-05T02:01:00+09:00",
+    "sentence": "A reliable 3D reconstruction combines multiple views into one consistent shape instead of fitting each image independently and hiding contradictions between angles.",
+    "phonetic": "ア リライアブル スリー・ディー リコンストラクション コンバインズ マルティプル ヴューズ イントゥ ワン コンシステント シェイプ インステッド オブ フィッティング イーチ イメージ インディペンデントリー アンド ハイディング コントラディクションズ ビトウィーン アングルズ。",
+    "japaneseTranslation": "信頼できる3D復元は、各画像を別々に合わせて角度間の矛盾を隠すのではなく、複数の視点を一つの整合した形状へ統合します。",
+    "theme": "多視点画像を一つの3D形状へ統合する",
+    "coreVerb": "combine",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A reconstruction combines views.",
+        "translation": "復元は複数の視点を組み合わせる。"
+      },
+      "phase2": {
+        "sentence": "A 3D reconstruction combines multiple views into one shape.",
+        "translation": "3D復元は複数の視点を一つの形状へ統合する。",
+        "addedChunks": "修飾語(multiple)と結果句(into one shape)を追加"
+      },
+      "phase3": {
+        "sentence": "A reconstruction combines views because one image cannot reveal every surface.",
+        "translation": "一枚の画像では全表面が分からないため、復元は複数の視点を組み合わせる。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A consistent shape is more reliable than several unrelated fits.",
+        "translation": "整合した一つの形状は、無関係な複数の当てはめより信頼できる。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "A reliable 3D reconstruction combines multiple views into one consistent shape",
+        "translation": "信頼できる3D復元は、複数の視点を一つの整合した形状へ統合する。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A reliable 3D reconstruction",
+          "function": "内容",
+          "translation": "信頼できる3D復元は"
+        },
+        {
+          "text": "combines multiple views",
+          "function": "行動",
+          "translation": "複数の視点を統合する"
+        },
+        {
+          "text": "into one consistent shape",
+          "function": "結果",
+          "translation": "一つの整合した形状へ"
+        },
+        {
+          "text": "instead of fitting each image",
+          "function": "比較",
+          "translation": "各画像を合わせるのではなく"
+        },
+        {
+          "text": "independently",
+          "function": "様態",
+          "translation": "別々に"
+        },
+        {
+          "text": "and hiding contradictions between angles",
+          "function": "接続",
+          "translation": "角度間の矛盾を隠すのではなく"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "修飾",
+          "name": "形容詞の前置修飾",
+          "where": "A reliable 3D reconstruction",
+          "explanation": "reliableと3Dがreconstructionの性質を示す。",
+          "rule": "形容詞 + 名詞"
+        },
+        {
+          "category": "語法",
+          "name": "combine A into B",
+          "where": "combines multiple views into one consistent shape",
+          "explanation": "複数の入力を一つの結果へまとめる。",
+          "rule": "combine + A + into + B"
+        },
+        {
+          "category": "数量",
+          "name": "multiple + 複数名詞",
+          "where": "multiple views",
+          "explanation": "複数の視点があることを示す。",
+          "rule": "multiple + 複数名詞"
+        },
+        {
+          "category": "対照",
+          "name": "instead of + 動名詞",
+          "where": "instead of fitting",
+          "explanation": "採らない方法と採る方法を対照する。",
+          "rule": "instead of + 動名詞"
+        },
+        {
+          "category": "並列",
+          "name": "動名詞句の並列",
+          "where": "fitting ... and hiding ...",
+          "explanation": "避ける二つの行為を同じ階層で並べる。",
+          "rule": "動名詞句 + and + 動名詞句"
+        },
+        {
+          "category": "前置詞",
+          "name": "between",
+          "where": "between angles",
+          "explanation": "複数角度の相互関係を示す。",
+          "rule": "between + 複数名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A reconstruction combine views.",
+          "correct": "A reconstruction combines views.",
+          "why": "単数主語reconstructionにはcombinesを使う。"
+        },
+        {
+          "wrong": "combine multiple views to one shape",
+          "correct": "combine multiple views into one shape",
+          "why": "統合後の結果にはintoが自然。"
+        },
+        {
+          "wrong": "instead of fit each image",
+          "correct": "instead of fitting each image",
+          "why": "instead ofの後は動名詞を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Multiview reconstruction should resolve disagreements between images.",
+          "translation": "多視点復元は画像間の不一致を解消すべきだ。"
+        },
+        {
+          "text": "Each angle constrains the same underlying geometry.",
+          "translation": "各角度は同じ基礎形状を制約する。"
+        },
+        {
+          "text": "A convincing front view cannot compensate for an inconsistent back.",
+          "translation": "説得力のある正面像でも、矛盾した背面を埋め合わせられない。"
+        }
+      ],
+      "parseTree": "S(A reliable 3D reconstruction) V(combines) O(multiple views) C(into one consistent shape) [instead of fitting each image independently and hiding contradictions between angles]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "combines multiple views",
+          "expanded": "because each view exposes surfaces that other views hide",
+          "nuance": "複数視点が必要な理由を示す。"
+        },
+        {
+          "original": "into one consistent shape",
+          "expanded": "since every image must describe the same object",
+          "nuance": "一つの形状へ統合する前提を示す。"
+        },
+        {
+          "original": "instead of fitting each image independently",
+          "expanded": "therefore, the reconstruction should penalize contradictions across angles",
+          "nuance": "独立当てはめを避ける帰結を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Multiple views are combined into one consistent 3D shape.",
+          "translation": "複数の視点が一つの整合した3D形状へ統合される。",
+          "note": "viewsを統合される側として主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Combining evidence from several angles, the system reconstructs hidden surfaces.",
+          "translation": "複数角度の証拠を統合し、システムは隠れた表面を復元する。",
+          "note": "統合方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The integration of multiple views improves geometric consistency.",
+          "translation": "多視点の統合は幾何学的整合性を高める。",
+          "note": "integrateをintegrationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "consistent",
+            "alternatives": [
+              "coherent",
+              "compatible",
+              "self-consistent"
+            ],
+            "nuance": "consistentは矛盾がない、coherentは全体として筋が通る、compatibleは両立可能、self-consistentは内部整合的。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "多視点統合",
+            "sentence": "Every view should constrain the same model.",
+            "translation": "すべての視点が同じモデルを制約すべきだ。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A unified mesh is more useful than separate angle-specific approximations.",
+            "translation": "統一メッシュは、角度別の近似より役に立つ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If two views disagree, the geometry needs another revision.",
+            "translation": "二つの視点が食い違うなら、形状をさらに修正する必要がある。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is cross-view consistency, not a single flattering render.",
+            "translation": "重要なのは、見栄えのよい一枚ではなく視点間の整合性だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "One object, many constraints.",
+            "translation": "一つの物体に、多数の制約。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "多視点復元の要点を一文にまとめた。専門用途に限定され、対照句も長いためflexibilityとefficiencyを8とした。"
+    }
+  }
+]
