@@ -213,6 +213,16 @@ https://kitune2go.github.io/morning-english/literature.html?v=数字
 
 ---
 
+### 日次対話エッセイの対訳監査
+
+日次文学カードは、日本語原文・直訳・自然な英訳・チャンク別対訳・文脈単語帳を別工程で照合します。生成時は英訳からの逆翻訳も用い、主語、因果、否定、条件、数値、技術語、結論の抜け落ちを点検してください。読みやすさだけを理由とした意味の変更は不可です。
+
+詳しい公開前チェックリスト：[`docs/DAILY_ESSAY_TRANSLATION_QA.md`](docs/DAILY_ESSAY_TRANSLATION_QA.md)
+
+自動構造検証：`node scripts/validate-essay-translations.mjs`。これはチャンク漏れ等を検査するもので、**意味一致は別途校閲が必須**です。
+
+---
+
 ## 6. よくある失敗
 
 ### カードJSONだけ作って索引へ登録しない
