@@ -1,0 +1,214 @@
+[
+  {
+    "id": "DE-20261105-001",
+    "sourceTitle": "入口だけでは作業は戻らない",
+    "workId": "daily-essay-20261105",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "入口の向こうが空室になる",
+    "jp": "固定URLが残っていれば、同じ入口には戻れる。けれど素材やモデルのデータが読み込まれなければ、入口の向こうは空室になる。アドレスが示すのは入る場所であって、作業再開に必要なファイル、参照関係、読込順まで保存するわけではない。安定とは名札が残ることではない。その名札が開くはずだった状態を取り戻せることだ。",
+    "translationLiteral": "If a fixed URL remains, one can return to the same entrance. But if the asset and model data do not load, the space beyond the entrance becomes an empty room. An address shows the place to enter; it does not preserve the files, reference relationships, or loading order needed to resume the work. Stability is not the continued existence of a nameplate. It is the ability to recover the state that the nameplate was supposed to open.",
+    "translationNatural": "A fixed URL can keep the same doorway in place. Yet when the assets and model data no longer load, the room beyond that doorway is empty. An address identifies where to enter; it does not preserve the files, references, or loading order needed for work to resume. Stability is not the survival of a label. It is the ability to recover the state that the label was meant to open.",
+    "imageUrl": "",
+    "imageCaption": "同じURLの扉を開いても、素材と参照関係が失われた作業室は空のまま残る。",
+    "imagePrompt": "A stable web address shown as a labeled doorway opening into an empty digital workshop, missing 3D assets and model references, restrained editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "A fixed URL can keep the same doorway in place.",
+        "ja": "固定URLは、同じ入口をその場所に保つことができる。"
+      },
+      {
+        "en": "Yet when the assets and model data no longer load, the room beyond that doorway is empty.",
+        "ja": "しかし素材やモデルデータが読み込まれなくなると、その入口の向こうの部屋は空になる。"
+      },
+      {
+        "en": "An address identifies where to enter; it does not preserve the files, references, or loading order needed for work to resume.",
+        "ja": "アドレスは入る場所を示すが、作業再開に必要なファイル、参照関係、読込順を保存するわけではない。"
+      },
+      {
+        "en": "Stability is not the survival of a label.",
+        "ja": "安定とは、名札が残り続けることではない。"
+      },
+      {
+        "en": "It is the ability to recover the state that the label was meant to open.",
+        "ja": "それは、その名札が開くはずだった状態を取り戻せることだ。"
+      }
+    ],
+    "grammar": [
+      "`can keep A in place` は、Aを同じ位置に保てることを表す。",
+      "`when ... no longer load` は、データが以前とは違って読み込まれなくなった条件を示す。",
+      "セミコロンは、アドレスが示せるものと保存できないものを対照する。",
+      "`needed for work to resume` は、作業再開に必要な対象を後置修飾する。",
+      "`not A. It is B.` は、安定の定義を名札の存続から状態の回復可能性へ置き換える。"
+    ],
+    "translationNote": "直訳は「入口」「空室」「名札」の比喩と、ファイル・参照関係・読込順の三項を保持した。自然訳ではURLが保証するのは入口の固定だけだと明確にし、最後の `the state that the label was meant to open` で、名札が本来開くはずだった作業状態という結論を省略していない。",
+    "readingPoint": "導入部。固定URLが残ることと、編集可能な作業状態が戻ることを分ける。入口の安定から内部状態の再現可能性へ論点を移す。",
+    "keywords": [
+      "固定URL",
+      "素材",
+      "モデルデータ",
+      "参照関係",
+      "再現可能性"
+    ]
+  },
+  {
+    "id": "DE-20261105-002",
+    "sourceTitle": "入口だけでは作業は戻らない",
+    "workId": "daily-essay-20261105",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "同じ形でも境界は消える",
+    "jp": "赤ペンモードを開いたとき、別々だった部品が一つに統合されると、画面上では同じ形に見えても編集の境界は失われる。メッシュは輪郭だけではない。部品名、階層、個別の変形情報が、どこで一つの部品が終わり、別の部品が始まるかを記録している。統合は表示を単純にする代わりに、修正の精度を奪う。使える編集画面は、次の変更を加えられる継ぎ目を残さなければならない。",
+    "translationLiteral": "When red-pen mode is opened and parts that were separate are merged into one, the boundaries for editing are lost even if the form looks the same on the screen. A mesh is not only its outline. Part names, hierarchy, and individual transformation data record where one part ends and another begins. Merging takes away the precision of correction in exchange for making the display simple. A usable editing screen must leave the joints where the next change can be made.",
+    "translationNatural": "When red-pen mode merges previously separate parts, the model may still look unchanged on screen, but its editable boundaries disappear. A mesh is not only a silhouette. Part names, hierarchy, and separate transforms record where one component ends and another begins. Flattening them creates simplicity for display by taking precision away from correction. A useful editor must preserve the joints at which the next change can be made.",
+    "imageUrl": "",
+    "imageCaption": "同じ外形を保った3Dモデルで、統合前の部品境界と統合後の失われた継ぎ目を比べる。",
+    "imagePrompt": "A 3D model in an editing interface shown before and after separate parts are flattened into one mesh, identical silhouette but lost part boundaries and hierarchy, precise technical editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "When red-pen mode merges previously separate parts, the model may still look unchanged on screen, but its editable boundaries disappear.",
+        "ja": "赤ペンモードが以前は別々だった部品を統合すると、モデルは画面上で変わらないように見えても、編集可能な境界は消える。"
+      },
+      {
+        "en": "A mesh is not only a silhouette.",
+        "ja": "メッシュは輪郭だけではない。"
+      },
+      {
+        "en": "Part names, hierarchy, and separate transforms record where one component ends and another begins.",
+        "ja": "部品名、階層、個別の変形情報は、一つの部品がどこで終わり、別の部品がどこで始まるかを記録する。"
+      },
+      {
+        "en": "Flattening them creates simplicity for display by taking precision away from correction.",
+        "ja": "それらを一体化すると、修正の精度を奪うことで表示上の単純さが生まれる。"
+      },
+      {
+        "en": "A useful editor must preserve the joints at which the next change can be made.",
+        "ja": "使える編集画面は、次の変更を加えられる継ぎ目を保存しなければならない。"
+      }
+    ],
+    "grammar": [
+      "`When ... merges` は、部品統合が起きる条件を示す。",
+      "`may still look ..., but ... disappear` は、外観の不変と編集境界の喪失を対比する。",
+      "`where one component ends and another begins` は `record` の内容となる間接疑問節。",
+      "`by taking ... away from ...` は、表示の単純化が修正精度の犠牲によって得られることを示す。",
+      "`at which` は joints を受け、変更可能な位置を限定する関係表現。"
+    ],
+    "translationNote": "`統合` は単なる結合ではなく部品境界と階層を平坦化する文脈なので、自然訳では `merges` と `Flattening` を使い分けた。`separate transforms` は個々の部品に保持された変形情報を指す。外観が同じでも編集可能性が失われるという対比を弱めていない。",
+    "readingPoint": "展開部。見た目の形から編集可能な構造へ視線を移す。部品境界を、次の修正を受け入れる継ぎ目として位置づける。",
+    "keywords": [
+      "赤ペンモード",
+      "GLB",
+      "部品境界",
+      "階層",
+      "メッシュ編集"
+    ]
+  },
+  {
+    "id": "DE-20261105-003",
+    "sourceTitle": "入口だけでは作業は戻らない",
+    "workId": "daily-essay-20261105",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "元画像は飾りではなく基準である",
+    "jp": "元画像は、編集済みモデルの横へ置く飾りではない。カメラの視点、重ね合わせ、比較記録と組み合わさることで、何をなぜ変えたのかを説明する基準になる。その証拠がなければ、後の修正は最新の見た目だけに導かれた推測へ戻る。文脈を保存するとは、目標、観察、差分を同じ画面に残すことだ。そうして初めて、修正はただ繰り返されるのではなく、検証される。",
+    "translationLiteral": "The source image is not a decoration placed beside the edited model. When combined with the camera viewpoint, overlay, and comparison record, it becomes a datum that explains what was changed and why. Without that evidence, a later correction returns to a guess guided only by the latest appearance. To preserve context is to leave the target, the observation, and the difference on the same screen. Only then is a correction examined rather than merely repeated.",
+    "translationNatural": "A source image is not decoration placed beside an edited model. Together with the camera view, overlay, and comparison record, it serves as the datum that explains what was changed and why. Without that evidence, a later correction becomes a guess guided only by the latest appearance. Preserving context means keeping the target, the observation, and the difference in the same frame. Only then can a revision be examined instead of merely repeated.",
+    "imageUrl": "",
+    "imageCaption": "元画像、同期した視点、重ね合わせ、差分記録が一つの比較画面に並ぶ。",
+    "imagePrompt": "A 3D editing comparison workspace with a source image, synchronized camera view, transparent overlay, and evidence panel sharing one frame, careful technical editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "A source image is not decoration placed beside an edited model.",
+        "ja": "元画像は、編集済みモデルの横に置かれる飾りではない。"
+      },
+      {
+        "en": "Together with the camera view, overlay, and comparison record, it serves as the datum that explains what was changed and why.",
+        "ja": "カメラ視点、重ね合わせ、比較記録と一緒になることで、元画像は何をなぜ変えたのかを説明する基準として働く。"
+      },
+      {
+        "en": "Without that evidence, a later correction becomes a guess guided only by the latest appearance.",
+        "ja": "その証拠がなければ、後の修正は最新の見た目だけに導かれた推測になる。"
+      },
+      {
+        "en": "Preserving context means keeping the target, the observation, and the difference in the same frame.",
+        "ja": "文脈の保存とは、目標、観察、差分を同じ画面に残すことを意味する。"
+      },
+      {
+        "en": "Only then can a revision be examined instead of merely repeated.",
+        "ja": "そうして初めて、修正はただ繰り返されるのではなく、検証できる。"
+      }
+    ],
+    "grammar": [
+      "`not decoration placed ...` の過去分詞句は decoration を後ろから修飾する。",
+      "`Together with A, B, and C` は、元画像と組み合わさる三つの比較要素を示す。",
+      "`what was changed and why` は、変更対象と理由を並べた名詞節。",
+      "`Without that evidence` は、証拠がない場合の帰結を示す。",
+      "`Only then can ...` は倒置により、検証可能になる条件を強調する。"
+    ],
+    "translationNote": "`基準` は機械原点ではなく比較判断の拠り所なので `datum` とした。`同じ画面` は物理的な額縁ではなく比較UI内の共有範囲を指すため、自然訳では `the same frame` とした。証拠がない場合に修正が推測へ戻るという条件と、最後の検証可能性を保持している。",
+    "readingPoint": "転換部。元画像を装飾から証拠へ置き直す。修正結果だけでなく、目標・観察・差分を同時に残すことが検証を可能にする。",
+    "keywords": [
+      "元画像",
+      "比較情報",
+      "重ね合わせ",
+      "視点連動",
+      "差分"
+    ]
+  },
+  {
+    "id": "DE-20261105-004",
+    "sourceTitle": "入口だけでは作業は戻らない",
+    "workId": "daily-essay-20261105",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "関係を保存すると作業が戻る",
+    "jp": "修復後の版では、元画像、比較、重ね合わせ、視点連動、根拠表示が一緒に戻った。それは消えていた画面部品を増やしただけではなく、観察から判断へ進む経路を戻したことになる。ファイルを保存すれば素材は残るが、関係を保存して初めて作業の意味が残る。結果だけでなく、その結果を選んだ理由と、次に直す場所まで再び開けるとき、プロジェクトは本当に戻ってくる。",
+    "translationLiteral": "In the repaired version, the source image, comparison, overlay, linked viewpoints, and evidence display returned together. This did more than add screen components that had disappeared; it restored the path from observation to judgment. Saving files keeps the materials, but only saving their relationships keeps the meaning of the work. A project truly returns when one can reopen not only the result, but also the reason that result was chosen and the place to correct next.",
+    "translationNatural": "When the source image, comparisons, overlays, linked viewpoints, and evidence displays were restored together, the tool recovered more than missing panels. It recovered the path from observation to decision. Saving files keeps materials; saving relationships keeps work intelligible. A project truly returns only when someone can reopen not just the result, but also the reason for that result and the place where the next correction belongs.",
+    "imageUrl": "",
+    "imageCaption": "素材ファイルと、観察・比較・判断・次の修正点を結ぶ関係が同時に復元される。",
+    "imagePrompt": "A restored digital 3D tool reconnecting source images, overlays, synchronized views, evidence panels, and the next correction point as a clear path from observation to decision, reflective editorial illustration, no text",
+    "chunks": [
+      {
+        "en": "When the source image, comparisons, overlays, linked viewpoints, and evidence displays were restored together, the tool recovered more than missing panels.",
+        "ja": "元画像、比較、重ね合わせ、連動した視点、根拠表示が一緒に復元されたとき、ツールは消えていた画面部品以上のものを取り戻した。"
+      },
+      {
+        "en": "It recovered the path from observation to decision.",
+        "ja": "ツールは、観察から判断へ進む経路を取り戻した。"
+      },
+      {
+        "en": "Saving files keeps materials; saving relationships keeps work intelligible.",
+        "ja": "ファイルを保存すれば素材は残り、関係を保存すれば作業の意味を理解可能なまま残せる。"
+      },
+      {
+        "en": "A project truly returns only when someone can reopen not just the result,",
+        "ja": "プロジェクトが本当に戻るのは、誰かが結果だけでなく、"
+      },
+      {
+        "en": "but also the reason for that result and the place where the next correction belongs.",
+        "ja": "その結果の理由と、次の修正を置くべき場所まで再び開けるときだけである。"
+      }
+    ],
+    "grammar": [
+      "`When ... were restored` は、複数の比較機能が同時に戻った条件を示す受動態。",
+      "`more than missing panels` は、復元対象が画面部品だけではないことを示す。",
+      "セミコロンは、ファイル保存と関係保存の役割を対照的に並べる。",
+      "`only when` は、プロジェクトが本当に戻るための必要条件を限定する。",
+      "`not just A, but also B` は、結果に加えて理由と次の修正点も開ける必要を示す。"
+    ],
+    "translationNote": "`判断` は単なる選択操作ではなく観察に基づく決定なので `decision` とした。`work intelligible` は作業ファイルの存在ではなく、なぜその状態になったか理解できることを表す。最後の `only when` と `not just ... but also ...` により、結果だけでは不十分という必要条件を保った。",
+    "readingPoint": "結末部。入口、境界、比較証拠を「関係の保存」へ束ねる。作業の復元を、結果だけでなく理由と次の修正点を再び開けることとして定義する。",
+    "keywords": [
+      "復元",
+      "関係",
+      "根拠表示",
+      "編集履歴",
+      "再開可能性"
+    ]
+  }
+]
