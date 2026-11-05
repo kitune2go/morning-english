@@ -97,7 +97,10 @@
     "cards-extra-20261020.json",
     "cards-extra-20261021.json",
     "cards-extra-20261022.json",
-    "cards-extra-20261023.json"
+    "cards-extra-20261023.json",
+    "cards-extra-20261024.json",
+    "cards-extra-20261025.json",
+    "cards-extra-20261026.json"
   ],
   "cards": [
     {
@@ -1324,6 +1327,27 @@
       "coreVerb": "investigate",
       "theme": "重いシステムで個人非難より構造条件を先に調べる",
       "_sourceFile": "cards-extra-20261023.json"
+    },
+    {
+      "_no": 176,
+      "sentence": "A request can reach vulnerable processing before authentication begins, so server security must examine every layer that handles untrusted input.",
+      "coreVerb": "examine",
+      "theme": "認証前にも届く入力処理とサーバー層を調べる",
+      "_sourceFile": "cards-extra-20261024.json"
+    },
+    {
+      "_no": 177,
+      "sentence": "When generation becomes cheap, market value shifts toward correction, validation, and integration because buyers pay to avoid effort and failure, not merely to obtain a file.",
+      "coreVerb": "shift",
+      "theme": "生成費用低下後に残る修正・検証・導入価値",
+      "_sourceFile": "cards-extra-20261025.json"
+    },
+    {
+      "_no": 178,
+      "sentence": "Optimizing only for speed can leave production fragile when one machine, supplier, or skill remains a single point of failure.",
+      "coreVerb": "leave",
+      "theme": "速度最適化が残す単一障害点を見抜く",
+      "_sourceFile": "cards-extra-20261026.json"
     }
   ]
 }
