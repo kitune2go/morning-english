@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 177,
+    "_generatedAt": "2026-11-06T02:06:00+09:00",
+    "sentence": "When generation becomes cheap, market value shifts toward correction, validation, and integration because buyers pay to avoid effort and failure, not merely to obtain a file.",
+    "phonetic": "ウェン ジェネレイション ビカムズ チープ、マーケット ヴァリュー シフツ トゥワード カレクション、ヴァリデイション、アンド インテグレイション ビコーズ バイヤーズ ペイ トゥ アヴォイド エフォート アンド フェイリャー、ノット ミアリー トゥ オブテイン ア ファイル。",
+    "japaneseTranslation": "生成が安価になると、市場価値は修正・検証・導入へ移ります。買い手が支払うのは、単にファイルを得るためではなく、手間と失敗を避けるためだからです。",
+    "theme": "生成費用低下後に残る修正・検証・導入価値",
+    "coreVerb": "shift",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Market value shifts.",
+        "translation": "市場価値は移る。"
+      },
+      "phase2": {
+        "sentence": "Market value shifts toward validation and integration.",
+        "translation": "市場価値は検証と導入へ移る。",
+        "addedChunks": "方向句(toward validation and integration)を追加"
+      },
+      "phase3": {
+        "sentence": "Value shifts because buyers want to avoid failure.",
+        "translation": "買い手が失敗を避けたいので、価値は移る。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Reliable integration is more valuable than raw generation.",
+        "translation": "信頼できる導入は、未調整の生成より価値が高い。",
+        "comparison": "more valuable than"
+      },
+      "phase5": {
+        "sentence": "When generation becomes cheap, market value shifts toward correction, validation, and integration",
+        "translation": "生成が安価になると、市場価値は修正・検証・導入へ移る。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When generation becomes cheap",
+          "function": "時間",
+          "translation": "生成が安価になると"
+        },
+        {
+          "text": "market value shifts",
+          "function": "行動",
+          "translation": "市場価値は移る"
+        },
+        {
+          "text": "toward correction, validation, and integration",
+          "function": "結果",
+          "translation": "修正・検証・導入へ"
+        },
+        {
+          "text": "because buyers pay",
+          "function": "理由",
+          "translation": "買い手が支払うのは"
+        },
+        {
+          "text": "to avoid effort and failure",
+          "function": "目的",
+          "translation": "手間と失敗を避けるためで"
+        },
+        {
+          "text": "not merely to obtain a file",
+          "function": "比較",
+          "translation": "単にファイルを得るためではない"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "条件・時間",
+          "name": "when節",
+          "where": "When generation becomes cheap",
+          "explanation": "生成費用が下がる状況を導入する。",
+          "rule": "When + S + V, 主節"
+        },
+        {
+          "category": "変化",
+          "name": "become + 形容詞",
+          "where": "becomes cheap",
+          "explanation": "生成が安価になる変化を表す。",
+          "rule": "become + 形容詞"
+        },
+        {
+          "category": "方向",
+          "name": "shift toward",
+          "where": "shifts toward correction",
+          "explanation": "価値の向かう先を示す。",
+          "rule": "shift toward + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "三項並列",
+          "where": "correction, validation, and integration",
+          "explanation": "価値が残る三つの作業を並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "理由",
+          "name": "because節",
+          "where": "because buyers pay",
+          "explanation": "価値が移る理由を示す。",
+          "rule": "because + S + V"
+        },
+        {
+          "category": "目的",
+          "name": "not merely A",
+          "where": "not merely to obtain a file",
+          "explanation": "支払い目的を単純な取得だけに限定しない。",
+          "rule": "not merely + 不定詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When generation become cheap",
+          "correct": "When generation becomes cheap",
+          "why": "単数主語generationにはbecomesを使う。"
+        },
+        {
+          "wrong": "value shifts to correction",
+          "correct": "value shifts toward correction",
+          "why": "徐々に価値の中心が移る意味にはtowardが自然。"
+        },
+        {
+          "wrong": "buyers pay for avoid failure",
+          "correct": "buyers pay to avoid failure",
+          "why": "目的はto不定詞で表す。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Cheap generation does not eliminate the cost of dependable delivery.",
+          "translation": "安価な生成でも、信頼できる納品の費用は消えない。"
+        },
+        {
+          "text": "Customers may pay for reduced effort rather than for the file itself.",
+          "translation": "顧客はファイル自体より、手間の削減へ支払う場合がある。"
+        },
+        {
+          "text": "Correction and validation become products when raw output is abundant.",
+          "translation": "未調整の出力が豊富になると、修正と検証が商品になる。"
+        }
+      ],
+      "parseTree": "[Adv: When S(generation) V(becomes) C(cheap)], S(market value) V(shifts) [toward correction, validation, and integration] [Adv: because S(buyers) V(pay) [to avoid effort and failure], not merely [to obtain a file]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "generation becomes cheap",
+          "expanded": "because widely available tools reduce the cost of producing a first draft",
+          "nuance": "生成費用が下がる背景を示す。"
+        },
+        {
+          "original": "value shifts toward correction, validation, and integration",
+          "expanded": "since raw output still needs fitting, testing, and deployment",
+          "nuance": "残る作業を具体化する。"
+        },
+        {
+          "original": "buyers pay to avoid effort and failure",
+          "expanded": "therefore, a product remains attractive when its total cost is lower than self-production",
+          "nuance": "購入が成立する条件を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Raw output can be generated cheaply, but reliable delivery must still be verified.",
+          "translation": "未調整の出力は安価に生成できるが、信頼できる納品はなお検証が必要だ。",
+          "note": "outputとdeliveryを受動態で対照する。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reducing correction and integration work, a seller creates practical value.",
+          "translation": "修正と導入の手間を減らすことで、販売者は実用価値を生む。",
+          "note": "価値を生む方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The validation and integration of generated assets remain marketable services.",
+          "translation": "生成素材の検証と導入は、引き続き販売可能なサービスである。",
+          "note": "validateとintegrateを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "value",
+            "alternatives": [
+              "utility",
+              "benefit",
+              "worth"
+            ],
+            "nuance": "valueは市場価値、utilityは実用性、benefitは便益、worthは値打ちを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "価値移動",
+            "sentence": "As one task becomes cheaper, value moves to the remaining bottlenecks.",
+            "translation": "一つの作業が安くなると、価値は残るボトルネックへ移る。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Verified integration is more valuable than an unchecked generated file.",
+            "translation": "検証済みの導入は、未確認の生成ファイルより価値が高い。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If customers can generate assets themselves, sellers must reduce another cost.",
+            "translation": "顧客が自分で素材を生成できるなら、販売者は別の費用を減らさなければならない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What buyers purchase is avoided effort and risk, not generation alone.",
+            "translation": "買い手が購入するのは生成だけでなく、回避できる手間とリスクだ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Cheap output shifts value downstream.",
+            "translation": "安い出力は価値を後工程へ移す。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "価値移動の原因と購入理由を一文で示した。列挙と対照が長いためefficiencyを8とした。"
+    }
+  }
+]
