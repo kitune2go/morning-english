@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 176,
+    "_generatedAt": "2026-11-06T02:05:00+09:00",
+    "sentence": "A request can reach vulnerable processing before authentication begins, so server security must examine every layer that handles untrusted input.",
+    "phonetic": "ア リクウェスト キャン リーチ ヴァルナラブル プロセシング ビフォー オーセンティケイション ビギンズ、ソウ サーヴァー セキュリティ マスト イグザミン エヴリ レイヤー ザット ハンドルズ アントラスティッド インプット。",
+    "japaneseTranslation": "リクエストは認証が始まる前に脆弱な処理へ到達し得るため、サーバーの安全性を確保するには、信頼できない入力を扱うすべての層を調べる必要があります。",
+    "theme": "認証前にも届く入力処理とサーバー層を調べる",
+    "coreVerb": "examine",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Security examines layers.",
+        "translation": "セキュリティ対策では各層を調べる。"
+      },
+      "phase2": {
+        "sentence": "Server security examines every processing layer.",
+        "translation": "サーバーの安全性を確保するには、すべての処理層を調べる。",
+        "addedChunks": "修飾語(server)と対象(every processing layer)を追加"
+      },
+      "phase3": {
+        "sentence": "Examine every layer because input may arrive before authentication.",
+        "translation": "入力は認証前に届く場合があるため、すべての層を調べよう。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Layered inspection is safer than checking authentication alone.",
+        "translation": "層ごとの検査は、認証だけを確認するより安全だ。",
+        "comparison": "safer than"
+      },
+      "phase5": {
+        "sentence": "A request can reach vulnerable processing before authentication begins, so server security must examine every layer that handles untrusted input",
+        "translation": "リクエストは認証開始前に脆弱な処理へ到達し得るため、サーバーの安全性を確保するには、信頼できない入力を扱うすべての層を調べる必要がある。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A request can reach",
+          "function": "行動",
+          "translation": "リクエストは到達し得る"
+        },
+        {
+          "text": "vulnerable processing",
+          "function": "対象",
+          "translation": "脆弱な処理へ"
+        },
+        {
+          "text": "before authentication begins",
+          "function": "時間",
+          "translation": "認証が始まる前に"
+        },
+        {
+          "text": "so server security must examine",
+          "function": "結果",
+          "translation": "そのためサーバーの安全性を確保するには調べる必要がある"
+        },
+        {
+          "text": "every layer",
+          "function": "対象",
+          "translation": "すべての層を"
+        },
+        {
+          "text": "that handles untrusted input",
+          "function": "修飾",
+          "translation": "信頼できない入力を扱う"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can reach",
+          "explanation": "リクエストが到達する可能性を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "時間",
+          "name": "before節",
+          "where": "before authentication begins",
+          "explanation": "認証開始より前の処理順序を示す。",
+          "rule": "before + S + V"
+        },
+        {
+          "category": "接続",
+          "name": "so",
+          "where": "so server security must examine",
+          "explanation": "前半の事実から必要な対策を導く。",
+          "rule": "文, so + 文"
+        },
+        {
+          "category": "助動詞",
+          "name": "must",
+          "where": "must examine",
+          "explanation": "全層を調査する強い必要性を示す。",
+          "rule": "must + 動詞原形"
+        },
+        {
+          "category": "限定詞",
+          "name": "every + 単数名詞",
+          "where": "every layer",
+          "explanation": "対象となる各層を漏れなく指す。",
+          "rule": "every + 単数名詞"
+        },
+        {
+          "category": "関係詞",
+          "name": "関係代名詞that",
+          "where": "layer that handles untrusted input",
+          "explanation": "信頼できない入力を扱う層に対象を限定する。",
+          "rule": "名詞 + that + 動詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A request can reaches processing.",
+          "correct": "A request can reach processing.",
+          "why": "助動詞canの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "before authentication begin",
+          "correct": "before authentication begins",
+          "why": "単数主語authenticationにはbeginsを使う。"
+        },
+        {
+          "wrong": "every layers that handle input",
+          "correct": "every layer that handles input",
+          "why": "everyの後は単数名詞で、関係詞節の動詞も単数に合わせる。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Authentication is only one layer of server security.",
+          "translation": "認証はサーバーセキュリティの一層にすぎない。"
+        },
+        {
+          "text": "Input processing can be exposed before a user logs in.",
+          "translation": "入力処理は利用者のログイン前に露出する場合がある。"
+        },
+        {
+          "text": "Trace each request through the entire server stack.",
+          "translation": "各リクエストをサーバー全層にわたって追跡しよう。"
+        }
+      ],
+      "parseTree": "S(A request) Aux(can) V(reach) O(vulnerable processing) [Adv: before S(authentication) V(begins)], so S(server security) Aux(must) V(examine) O(every layer) [Rel: that handles untrusted input]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "can reach vulnerable processing",
+          "expanded": "because parsers and application runtimes may inspect input before login succeeds",
+          "nuance": "認証前にも攻撃面がある理由を示す。"
+        },
+        {
+          "original": "before authentication begins",
+          "expanded": "since network and web-server layers receive the request first",
+          "nuance": "処理順序を具体化する。"
+        },
+        {
+          "original": "must examine every layer",
+          "expanded": "therefore, defense should cover hardware, operating systems, web servers, runtimes, applications, and databases",
+          "nuance": "多層防御へ展開する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Untrusted input must be examined at every layer it reaches.",
+          "translation": "信頼できない入力は、到達する各層で検査されなければならない。",
+          "note": "inputを検査される側として主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Tracing a request through the stack, defenders can locate pre-authentication exposure.",
+          "translation": "リクエストを全層で追跡することで、防御側は認証前の露出箇所を特定できる。",
+          "note": "調査方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Layer-by-layer inspection reduces hidden attack surfaces.",
+          "translation": "層ごとの検査は、隠れた攻撃面を減らす。",
+          "note": "inspectをinspectionに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "layer",
+            "alternatives": [
+              "tier",
+              "component",
+              "stage"
+            ],
+            "nuance": "layerは積層、tierは段階、componentは構成要素、stageは処理段階を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "処理経路",
+            "sentence": "A request passes through several layers before the application responds.",
+            "translation": "リクエストはアプリケーションが応答するまでに複数の層を通る。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "End-to-end inspection is safer than checking login code alone.",
+            "translation": "端から端までの検査は、ログイン処理だけの確認より安全だ。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If input reaches a vulnerable parser first, authentication cannot block the exploit.",
+            "translation": "入力が先に脆弱な解析器へ届くなら、認証では攻撃を防げない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is every input-handling layer, not only the login screen.",
+            "translation": "重要なのはログイン画面だけでなく、入力を扱うすべての層だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Secure the path, not just the gate.",
+            "translation": "門だけでなく経路全体を守る。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "認証前の到達可能性と多層防御を一文で接続した。技術領域に特化し、関係詞節も含むためflexibilityとefficiencyを8とした。"
+    }
+  }
+]
