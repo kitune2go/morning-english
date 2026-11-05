@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 178,
+    "_generatedAt": "2026-11-06T02:07:00+09:00",
+    "sentence": "Optimizing only for speed can leave production fragile when one machine, supplier, or skill remains a single point of failure.",
+    "phonetic": "オプティマイジング オンリー フォー スピード キャン リーヴ プロダクション フラジャイル ウェン ワン マシーン、サプライヤー、オア スキル リメインズ ア シングル ポイント オブ フェイリャー。",
+    "japaneseTranslation": "速度だけを最適化すると、一台の機械、一社の供給元、または一つの技能が単一障害点として残る場合、生産は脆弱になり得ます。",
+    "theme": "速度最適化が残す単一障害点を見抜く",
+    "coreVerb": "leave",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Optimization can leave production fragile.",
+        "translation": "最適化は生産を脆弱なままにする場合がある。"
+      },
+      "phase2": {
+        "sentence": "Optimizing only for speed can leave production fragile.",
+        "translation": "速度だけを最適化すると、生産は脆弱になり得る。",
+        "addedChunks": "動名詞句主語(Optimizing only for speed)を追加"
+      },
+      "phase3": {
+        "sentence": "Production becomes fragile when one critical resource fails.",
+        "translation": "一つの重要資源が故障すると、生産は脆弱になる。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "Resilient production is more valuable than maximum speed alone.",
+        "translation": "回復力のある生産は、最高速度だけより価値が高い。",
+        "comparison": "more valuable than"
+      },
+      "phase5": {
+        "sentence": "Optimizing only for speed can leave production fragile",
+        "translation": "速度だけを最適化すると、生産は脆弱になり得る。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Optimizing only for speed",
+          "function": "内容",
+          "translation": "速度だけを最適化することは"
+        },
+        {
+          "text": "can leave",
+          "function": "行動",
+          "translation": "〜のままにし得る"
+        },
+        {
+          "text": "production fragile",
+          "function": "状態",
+          "translation": "生産を脆弱な状態に"
+        },
+        {
+          "text": "when one machine, supplier, or skill",
+          "function": "時間",
+          "translation": "一台の機械、一社の供給元、または一つの技能が"
+        },
+        {
+          "text": "remains",
+          "function": "状態",
+          "translation": "残る場合"
+        },
+        {
+          "text": "a single point of failure",
+          "function": "状態",
+          "translation": "単一障害点として"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞句主語",
+          "where": "Optimizing only for speed",
+          "explanation": "速度最適化という行為全体を主語にする。",
+          "rule": "動名詞句 + 単数動詞"
+        },
+        {
+          "category": "限定",
+          "name": "only for",
+          "where": "only for speed",
+          "explanation": "最適化目的を速度だけに限定する。",
+          "rule": "only for + 名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can leave",
+          "explanation": "脆弱性を残す可能性を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "補語",
+          "name": "leave O C",
+          "where": "leave production fragile",
+          "explanation": "生産を脆弱な状態のままにする。",
+          "rule": "leave + 目的語 + 形容詞"
+        },
+        {
+          "category": "条件・時間",
+          "name": "when節",
+          "where": "when one machine ... remains",
+          "explanation": "脆弱性が現れる条件を示す。",
+          "rule": "when + S + V"
+        },
+        {
+          "category": "語法",
+          "name": "remain + 名詞補語",
+          "where": "remains a single point of failure",
+          "explanation": "単一障害点であり続ける状態を示す。",
+          "rule": "remain + 補語"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Optimizing only speed",
+          "correct": "Optimizing only for speed",
+          "why": "最適化の目的にはforを使う。"
+        },
+        {
+          "wrong": "can leaves production fragile",
+          "correct": "can leave production fragile",
+          "why": "助動詞canの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "one machine remain a failure point",
+          "correct": "one machine remains a failure point",
+          "why": "単数主語machineにはremainsを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Maximum speed is not the same as reliable output.",
+          "translation": "最高速度は、信頼できる生産量と同じではない。"
+        },
+        {
+          "text": "A single bottleneck can stop an otherwise efficient line.",
+          "translation": "一つのボトルネックが、それ以外は効率的なラインを止める場合がある。"
+        },
+        {
+          "text": "Resilience requires redundancy in equipment, supply, and skills.",
+          "translation": "回復力には、設備・供給・技能の冗長性が必要だ。"
+        }
+      ],
+      "parseTree": "S(Optimizing only for speed) Aux(can) V(leave) O(production) C(fragile) [Adv: when S(one machine, supplier, or skill) V(remains) C(a single point of failure)]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Optimizing only for speed",
+          "expanded": "because reducing inventory and spare capacity can improve short-term efficiency",
+          "nuance": "速度最適化が選ばれる理由を示す。"
+        },
+        {
+          "original": "can leave production fragile",
+          "expanded": "since the line loses alternatives when a critical resource fails",
+          "nuance": "脆弱性が生じる仕組みを示す。"
+        },
+        {
+          "original": "a single point of failure",
+          "expanded": "therefore, effective output should include downtime and recovery capacity",
+          "nuance": "実効生産量の評価へ広げる。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Production can be stopped by one machine, supplier, or skill.",
+          "translation": "生産は一台の機械、一社の供給元、または一つの技能によって止められ得る。",
+          "note": "productionを停止される側として主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Preserving spare capacity, a factory can recover from isolated failures.",
+          "translation": "予備能力を維持することで、工場は単発の故障から復旧できる。",
+          "note": "回復方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The elimination of single points of failure improves resilience.",
+          "translation": "単一障害点の除去は回復力を高める。",
+          "note": "eliminateをeliminationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "fragile",
+            "alternatives": [
+              "vulnerable",
+              "brittle",
+              "failure-prone"
+            ],
+            "nuance": "fragileは壊れやすい、vulnerableは弱点がある、brittleは柔軟性がない、failure-proneは故障しやすい。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "効率と回復力",
+            "sentence": "Efficiency removes slack; resilience preserves alternatives.",
+            "translation": "効率化は余裕を削り、回復力は代替手段を残す。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A slightly slower resilient line may outperform a fast line with long outages.",
+            "translation": "少し遅くても回復力のあるラインは、長時間停止する高速ラインを上回る場合がある。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If one failure stops all output, the system lacks redundancy.",
+            "translation": "一つの故障で全生産が止まるなら、そのシステムには冗長性がない。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is effective output over time, not peak speed alone.",
+            "translation": "重要なのは最高速度だけでなく、時間を通じた実効生産量だ。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Speed without redundancy is fragile.",
+            "translation": "冗長性のない速度は脆い。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "動名詞句主語とleave O Cで因果を簡潔に表し、単一障害点の三例も明確にした。"
+    }
+  }
+]
