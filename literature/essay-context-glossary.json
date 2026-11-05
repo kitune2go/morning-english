@@ -5319,5 +5319,482 @@
         }
       ]
     }
+  ],
+  "DE-20261105-001": [
+    {
+      "words": {
+        "fixed": {
+          "ja": "固定された"
+        },
+        "url": {
+          "ja": "URL・ウェブ上の住所"
+        },
+        "doorway": {
+          "ja": "入口"
+        }
+      },
+      "phrases": [
+        {
+          "en": "keep the same doorway in place",
+          "ja": "同じ入口をその場所に保つ",
+          "note": "URLが入口の位置だけを固定する比喩"
+        }
+      ]
+    },
+    {
+      "words": {
+        "assets": {
+          "ja": "素材データ"
+        },
+        "model": {
+          "ja": "モデル"
+        },
+        "load": {
+          "ja": "読み込まれる"
+        },
+        "empty": {
+          "ja": "空の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the room beyond that doorway is empty",
+          "ja": "その入口の向こうの部屋は空である",
+          "note": "URLは開くが必要な内部データがない状態"
+        }
+      ]
+    },
+    {
+      "words": {
+        "address": {
+          "ja": "アドレス"
+        },
+        "references": {
+          "ja": "参照関係"
+        },
+        "loading": {
+          "ja": "読み込み"
+        },
+        "order": {
+          "ja": "順序"
+        },
+        "resume": {
+          "ja": "再開する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "needed for work to resume",
+          "ja": "作業を再開するために必要な",
+          "note": "files, references, loading order の三項を修飾"
+        }
+      ]
+    },
+    {
+      "words": {
+        "stability": {
+          "ja": "安定性"
+        },
+        "survival": {
+          "ja": "存続"
+        },
+        "label": {
+          "ja": "名札・表示名"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not the survival of a label",
+          "ja": "名札が残り続けることではない",
+          "note": "安定を表示名の存続だけで定義しない"
+        }
+      ]
+    },
+    {
+      "words": {
+        "ability": {
+          "ja": "能力・可能性"
+        },
+        "recover": {
+          "ja": "取り戻す"
+        },
+        "state": {
+          "ja": "状態"
+        },
+        "meant": {
+          "ja": "意図されていた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the state that the label was meant to open",
+          "ja": "その名札が開くはずだった状態",
+          "note": "that は state を修飾し、label が入口表示を指す"
+        }
+      ]
+    }
+  ],
+  "DE-20261105-002": [
+    {
+      "words": {
+        "red-pen": {
+          "ja": "赤ペンの・修正指示用の"
+        },
+        "merges": {
+          "ja": "統合する"
+        },
+        "parts": {
+          "ja": "部品"
+        },
+        "editable": {
+          "ja": "編集可能な"
+        },
+        "boundaries": {
+          "ja": "境界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may still look unchanged on screen, but its editable boundaries disappear",
+          "ja": "画面上では変わらなく見えても、編集可能な境界は消える",
+          "note": "外観の不変と編集構造の喪失の対比"
+        }
+      ]
+    },
+    {
+      "words": {
+        "mesh": {
+          "ja": "3Dメッシュ"
+        },
+        "silhouette": {
+          "ja": "輪郭・シルエット"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not only a silhouette",
+          "ja": "輪郭だけではない",
+          "note": "メッシュを外形だけに還元しない"
+        }
+      ]
+    },
+    {
+      "words": {
+        "hierarchy": {
+          "ja": "階層構造"
+        },
+        "transforms": {
+          "ja": "個別の変形情報"
+        },
+        "component": {
+          "ja": "部品"
+        },
+        "record": {
+          "ja": "記録する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "where one component ends and another begins",
+          "ja": "一つの部品が終わり、別の部品が始まる場所",
+          "note": "部品境界を表す間接疑問節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "flattening": {
+          "ja": "階層や境界を平坦化して一体化すること"
+        },
+        "simplicity": {
+          "ja": "単純さ"
+        },
+        "precision": {
+          "ja": "精度"
+        },
+        "correction": {
+          "ja": "修正"
+        }
+      },
+      "phrases": [
+        {
+          "en": "by taking precision away from correction",
+          "ja": "修正から精度を奪うことで",
+          "note": "表示単純化の代償を示す by 句"
+        }
+      ]
+    },
+    {
+      "words": {
+        "editor": {
+          "ja": "編集画面・編集ツール"
+        },
+        "preserve": {
+          "ja": "保存する"
+        },
+        "joints": {
+          "ja": "継ぎ目"
+        },
+        "change": {
+          "ja": "変更"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the joints at which the next change can be made",
+          "ja": "次の変更を加えられる継ぎ目",
+          "note": "at which は変更可能な位置を限定する"
+        }
+      ]
+    }
+  ],
+  "DE-20261105-003": [
+    {
+      "words": {
+        "source": {
+          "ja": "元の・参照元の"
+        },
+        "image": {
+          "ja": "画像"
+        },
+        "decoration": {
+          "ja": "飾り"
+        },
+        "edited": {
+          "ja": "編集済みの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not decoration placed beside an edited model",
+          "ja": "編集済みモデルの横へ置く飾りではない",
+          "note": "元画像の役割を装飾から比較基準へ移す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "overlay": {
+          "ja": "重ね合わせ表示"
+        },
+        "comparison": {
+          "ja": "比較"
+        },
+        "record": {
+          "ja": "記録"
+        },
+        "datum": {
+          "ja": "比較判断の基準"
+        }
+      },
+      "phrases": [
+        {
+          "en": "serves as the datum that explains what was changed and why",
+          "ja": "何をなぜ変えたかを説明する基準として働く",
+          "note": "datum は機械原点ではなく比較の拠り所"
+        }
+      ]
+    },
+    {
+      "words": {
+        "evidence": {
+          "ja": "証拠・根拠"
+        },
+        "later": {
+          "ja": "後の"
+        },
+        "correction": {
+          "ja": "修正"
+        },
+        "guess": {
+          "ja": "推測"
+        },
+        "appearance": {
+          "ja": "見た目"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a guess guided only by the latest appearance",
+          "ja": "最新の見た目だけに導かれた推測",
+          "note": "証拠を失った後の修正状態"
+        }
+      ]
+    },
+    {
+      "words": {
+        "preserving": {
+          "ja": "保存すること"
+        },
+        "context": {
+          "ja": "文脈"
+        },
+        "target": {
+          "ja": "目標"
+        },
+        "observation": {
+          "ja": "観察"
+        },
+        "difference": {
+          "ja": "差分"
+        },
+        "frame": {
+          "ja": "同一の比較画面"
+        }
+      },
+      "phrases": [
+        {
+          "en": "keeping the target, the observation, and the difference in the same frame",
+          "ja": "目標、観察、差分を同じ画面に残すこと",
+          "note": "比較に必要な三要素を同時表示する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "revision": {
+          "ja": "修正"
+        },
+        "examined": {
+          "ja": "検証される"
+        },
+        "repeated": {
+          "ja": "繰り返される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Only then can a revision be examined instead of merely repeated",
+          "ja": "そうして初めて、修正はただ繰り返されるのでなく検証できる",
+          "note": "Only then の倒置と instead of の対比"
+        }
+      ]
+    }
+  ],
+  "DE-20261105-004": [
+    {
+      "words": {
+        "comparisons": {
+          "ja": "比較表示"
+        },
+        "overlays": {
+          "ja": "重ね合わせ表示"
+        },
+        "linked": {
+          "ja": "連動した"
+        },
+        "viewpoints": {
+          "ja": "視点"
+        },
+        "evidence": {
+          "ja": "根拠"
+        },
+        "restored": {
+          "ja": "復元された"
+        },
+        "panels": {
+          "ja": "画面部品・パネル"
+        }
+      },
+      "phrases": [
+        {
+          "en": "recovered more than missing panels",
+          "ja": "消えていた画面部品以上のものを取り戻した",
+          "note": "復元対象がUI部品だけではないことを示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "recovered": {
+          "ja": "取り戻した"
+        },
+        "path": {
+          "ja": "経路"
+        },
+        "observation": {
+          "ja": "観察"
+        },
+        "decision": {
+          "ja": "判断"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the path from observation to decision",
+          "ja": "観察から判断へ進む経路",
+          "note": "比較情報が支える判断過程"
+        }
+      ]
+    },
+    {
+      "words": {
+        "saving": {
+          "ja": "保存すること"
+        },
+        "materials": {
+          "ja": "素材"
+        },
+        "relationships": {
+          "ja": "関係"
+        },
+        "intelligible": {
+          "ja": "意味を理解できる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "saving relationships keeps work intelligible",
+          "ja": "関係を保存すると作業の意味を理解可能なまま保てる",
+          "note": "ファイルの存在と作業文脈の保存を区別"
+        }
+      ]
+    },
+    {
+      "words": {
+        "project": {
+          "ja": "プロジェクト"
+        },
+        "truly": {
+          "ja": "本当に"
+        },
+        "returns": {
+          "ja": "戻る"
+        },
+        "reopen": {
+          "ja": "再び開く"
+        },
+        "result": {
+          "ja": "結果"
+        }
+      },
+      "phrases": [
+        {
+          "en": "only when someone can reopen not just the result",
+          "ja": "誰かが結果だけでなく再び開けるときに限って",
+          "note": "プロジェクト復元の必要条件を導く前半"
+        }
+      ]
+    },
+    {
+      "words": {
+        "reason": {
+          "ja": "理由"
+        },
+        "correction": {
+          "ja": "修正"
+        },
+        "belongs": {
+          "ja": "置かれるべきである"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the place where the next correction belongs",
+          "ja": "次の修正を置くべき場所",
+          "note": "where は place を修飾し、次の編集点を示す"
+        }
+      ]
+    }
   ]
 }
