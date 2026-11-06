@@ -5796,5 +5796,465 @@
         }
       ]
     }
+  ],
+  "DE-20261106-001": [
+    {
+      "words": {
+        "remaining": {
+          "ja": "残っている"
+        },
+        "bug": {
+          "ja": "不具合"
+        },
+        "developers": {
+          "ja": "開発者たち"
+        },
+        "test": {
+          "ja": "試す・試験する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "explain a remaining bug by saying that",
+          "ja": "残った不具合を〜と言って説明する",
+          "note": "by saying that 以下は簡単な原因説明の手段"
+        }
+      ]
+    },
+    {
+      "words": {
+        "actual": {
+          "ja": "実際の"
+        },
+        "machine": {
+          "ja": "機械の"
+        },
+        "states": {
+          "ja": "状態"
+        },
+        "matrix": {
+          "ja": "試験条件表"
+        },
+        "covered": {
+          "ja": "扱った"
+        }
+      },
+      "phrases": [
+        {
+          "en": "in ways the test matrix never covered",
+          "ja": "試験表が一度も扱わなかった形で",
+          "note": "ways は操作と機械状態の組合せ方を指す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "condition": {
+          "ja": "条件"
+        },
+        "maker": {
+          "ja": "作る側"
+        },
+        "encounters": {
+          "ja": "遭遇する"
+        },
+        "confront": {
+          "ja": "直面させる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may confront a user every day",
+          "ja": "利用者を毎日直面させることがある",
+          "note": "作る側と使う側で条件に遭遇する頻度が違う"
+        }
+      ]
+    },
+    {
+      "words": {
+        "traffic-light": {
+          "ja": "信号機の"
+        },
+        "diagram": {
+          "ja": "図"
+        },
+        "shifts": {
+          "ja": "移す"
+        },
+        "stalled": {
+          "ja": "止まった"
+        },
+        "together": {
+          "ja": "同時に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "shifts the question away from the stalled car and toward the conditions",
+          "ja": "問いを止まった車から条件の側へ移す",
+          "note": "責任追及の焦点を結果から条件の組合せへ移動する"
+        }
+      ]
+    },
+    {
+      "words": {
+        "filed": {
+          "ja": "提出された"
+        },
+        "boundary": {
+          "ja": "境界"
+        },
+        "product": {
+          "ja": "製品"
+        },
+        "real-world": {
+          "ja": "現実の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a report filed by the boundary",
+          "ja": "境界が提出した報告書",
+          "note": "不具合を製品と実使用の接点から届く観測として比喩化"
+        }
+      ]
+    }
+  ],
+  "DE-20261106-002": [
+    {
+      "words": {
+        "disputes": {
+          "ja": "論争"
+        },
+        "controls": {
+          "ja": "決める・統制する"
+        },
+        "performance": {
+          "ja": "演技"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "respect": {
+          "ja": "敬意"
+        }
+      },
+      "phrases": [
+        {
+          "en": "two questions easily blur together",
+          "ja": "二つの問いが混ざりやすい",
+          "note": "演出権限と仕事への敬意を同一論点にしないための表現"
+        }
+      ]
+    },
+    {
+      "words": {
+        "first": {
+          "ja": "前者"
+        },
+        "directing": {
+          "ja": "演出の"
+        },
+        "authority": {
+          "ja": "権限"
+        },
+        "contracts": {
+          "ja": "契約"
+        },
+        "dignity": {
+          "ja": "尊厳"
+        }
+      },
+      "phrases": [
+        {
+          "en": "directing authority",
+          "ja": "演出権限",
+          "note": "所有権ではなく演技の方向を決める権限"
+        }
+      ]
+    },
+    {
+      "words": {
+        "public": {
+          "ja": "公の"
+        },
+        "appeal": {
+          "ja": "訴え"
+        },
+        "borrows": {
+          "ja": "借りる"
+        },
+        "duty": {
+          "ja": "責任"
+        },
+        "grievance": {
+          "ja": "不満・訴え"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the more such an appeal borrows a work's influence, the greater the duty",
+          "ja": "その訴えが作品の影響力を借りるほど、責任は大きくなる",
+          "note": "the more ..., the greater ... で程度に応じて増す説明責任を示す"
+        }
+      ]
+    },
+    {
+      "words": {
+        "body": {
+          "ja": "身体"
+        },
+        "actor's": {
+          "ja": "声優の"
+        },
+        "circulates": {
+          "ja": "流通する"
+        },
+        "recording": {
+          "ja": "録音の"
+        },
+        "institutions": {
+          "ja": "制度"
+        }
+      },
+      "phrases": [
+        {
+          "en": "circulates through recording technology and institutions",
+          "ja": "録音技術と制度を通じて流通する",
+          "note": "声の身体的起点と仕事の流通基盤を分ける"
+        }
+      ]
+    }
+  ],
+  "DE-20261106-003": [
+    {
+      "words": {
+        "videos": {
+          "ja": "動画"
+        },
+        "ai": {
+          "ja": "AI"
+        },
+        "repository": {
+          "ja": "リポジトリ"
+        },
+        "speaking": {
+          "ja": "話している"
+        }
+      },
+      "phrases": [
+        {
+          "en": "as if the repository were speaking",
+          "ja": "リポジトリが話しているかのように",
+          "note": "事実ではなく制作中の比喩的感覚を示す仮定法"
+        }
+      ]
+    },
+    {
+      "words": {
+        "files": {
+          "ja": "ファイル"
+        },
+        "themselves": {
+          "ja": "それ自体"
+        },
+        "voice": {
+          "ja": "声"
+        }
+      },
+      "phrases": [
+        {
+          "en": "have no voice",
+          "ja": "声を持たない",
+          "note": "リポジトリが実際に発話するという解釈を明確に否定"
+        }
+      ]
+    },
+    {
+      "words": {
+        "failures": {
+          "ja": "失敗"
+        },
+        "settings": {
+          "ja": "設定"
+        },
+        "assets": {
+          "ja": "素材"
+        },
+        "revision": {
+          "ja": "修正"
+        },
+        "accumulated": {
+          "ja": "蓄積された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "making the accumulated record seem to respond",
+          "ja": "蓄積された記録が応答するように見せる",
+          "note": "履歴が次の生成と画面上の動きへ渡る結果"
+        }
+      ]
+    },
+    {
+      "words": {
+        "placed": {
+          "ja": "貼られた・置かれた"
+        },
+        "cargo": {
+          "ja": "貨物・荷台の"
+        },
+        "decorated": {
+          "ja": "装飾された"
+        },
+        "replays": {
+          "ja": "再生する"
+        },
+        "path": {
+          "ja": "経路"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not only shows a finished result but also replays the path",
+          "ja": "完成した結果を見せるだけでなく、経路も再生する",
+          "note": "作品が完成品と制作履歴の両方を示す"
+        }
+      ]
+    }
+  ],
+  "DE-20261106-004": [
+    {
+      "words": {
+        "form": {
+          "ja": "形"
+        },
+        "future": {
+          "ja": "未来型の"
+        },
+        "vehicle": {
+          "ja": "乗り物"
+        },
+        "smooth": {
+          "ja": "滑らかな"
+        },
+        "shell": {
+          "ja": "外殻"
+        }
+      },
+      "phrases": [
+        {
+          "en": "makes its smooth shell the star",
+          "ja": "滑らかな外殻を主役にする",
+          "note": "一つの外形だけを見た場合の視覚的中心"
+        }
+      ]
+    },
+    {
+      "words": {
+        "replacement": {
+          "ja": "部品交換"
+        },
+        "reassembly": {
+          "ja": "再組立"
+        },
+        "assembly": {
+          "ja": "組立の"
+        },
+        "bill": {
+          "ja": "表・明細"
+        },
+        "exploded": {
+          "ja": "分離した"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a bill of materials",
+          "ja": "部品表",
+          "note": "部品の名称・数量等を示すBOM"
+        },
+        {
+          "en": "between assembled and exploded states",
+          "ja": "通常姿勢と分離姿勢の間を",
+          "note": "組立関係を示す二つの表示状態"
+        }
+      ]
+    },
+    {
+      "words": {
+        "whole": {
+          "ja": "全体"
+        },
+        "emerge": {
+          "ja": "生まれる・立ち上がる"
+        },
+        "erasing": {
+          "ja": "消すこと"
+        },
+        "parts": {
+          "ja": "部品"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not emerge by erasing its parts",
+          "ja": "部品を消すことで生まれるのではない",
+          "note": "全体化と部品境界の消去を区別する否定"
+        }
+      ]
+    },
+    {
+      "words": {
+        "shape": {
+          "ja": "形"
+        },
+        "connect": {
+          "ja": "接続する"
+        },
+        "positions": {
+          "ja": "位置"
+        },
+        "roles": {
+          "ja": "役割"
+        },
+        "relation": {
+          "ja": "関係"
+        }
+      },
+      "phrases": [
+        {
+          "en": "only when those parts connect while keeping their positions and roles",
+          "ja": "部品が位置と役割を保ちながら接続されるときに初めて",
+          "note": "全体が成立する必要条件"
+        }
+      ]
+    },
+    {
+      "words": {
+        "result": {
+          "ja": "結果"
+        },
+        "visible": {
+          "ja": "目に見える"
+        },
+        "surface": {
+          "ja": "表面"
+        },
+        "chorus": {
+          "ja": "合唱"
+        },
+        "supporting": {
+          "ja": "支えている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "speaks less of its visible surface than of the chorus of conditions",
+          "ja": "目に見える表面よりも条件の合唱を語る",
+          "note": "表面を否定せず、より強く語られる対象を条件群へ移す比較"
+        }
+      ]
+    }
   ]
 }
