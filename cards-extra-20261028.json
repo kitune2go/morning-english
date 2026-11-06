@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 180,
+    "_generatedAt": "2026-10-28T02:00:00+09:00",
+    "sentence": "A 3D preview becomes reusable when it stores hole coordinates, work origins, face data, and camera settings instead of only displaying a finished model.",
+    "phonetic": "ア スリー ディー プレビュー ビカムズ リユーザブル ウェン イット ストアズ ホウル コーディネッツ、ワーク オリジンズ、フェイス デイタ、アンド カメラ セッティングズ インステッド オブ オウンリー ディスプレイイング ア フィニッシュト モデル。",
+    "japaneseTranslation": "3Dプレビューは、完成モデルを表示するだけでなく、穴座標、ワーク原点、面データ、カメラ設定を保存すると再利用可能になります。",
+    "theme": "表示だけでなく編集に必要な3Dプレビュー情報を保存する",
+    "coreVerb": "store",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The preview stores data.",
+        "translation": "プレビューはデータを保存します。"
+      },
+      "phase2": {
+        "sentence": "The 3D preview stores hole coordinates and work origins.",
+        "translation": "3Dプレビューは穴座標とワーク原点を保存します。",
+        "addedChunks": "対象(hole coordinates and work origins)を追加"
+      },
+      "phase3": {
+        "sentence": "The preview is reusable because it stores editing data.",
+        "translation": "編集用データを保存するため、プレビューは再利用できます。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Storing editing data is more useful than only displaying a model.",
+        "translation": "編集用データを保存する方が、モデルを表示するだけより有用です。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "A 3D preview becomes reusable when it stores hole coordinates, work origins, face data, and camera settings instead of only displaying a finished model",
+        "translation": "3Dプレビューは、完成モデルを表示するだけでなく、穴座標、ワーク原点、面データ、カメラ設定を保存すると再利用可能になります。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A 3D preview",
+          "function": "対象",
+          "translation": "3Dプレビューは"
+        },
+        {
+          "text": "becomes reusable",
+          "function": "結果",
+          "translation": "再利用可能になります"
+        },
+        {
+          "text": "when it stores",
+          "function": "時間",
+          "translation": "保存すると"
+        },
+        {
+          "text": "hole coordinates, work origins, face data, and camera settings",
+          "function": "対象",
+          "translation": "穴座標、ワーク原点、面データ、カメラ設定を"
+        },
+        {
+          "text": "instead of only displaying",
+          "function": "比較",
+          "translation": "表示するだけでなく"
+        },
+        {
+          "text": "a finished model.",
+          "function": "対象",
+          "translation": "完成モデルを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "文型",
+          "name": "become + 形容詞",
+          "where": "becomes reusable",
+          "explanation": "状態の変化を表す。",
+          "rule": "S + become + C"
+        },
+        {
+          "category": "副詞節",
+          "name": "when節",
+          "where": "when it stores",
+          "explanation": "再利用可能になる条件を示す。",
+          "rule": "when + S + V"
+        },
+        {
+          "category": "列挙",
+          "name": "四項並列",
+          "where": "hole coordinates, work origins, face data, and camera settings",
+          "explanation": "保存すべき四種類の情報を同列に並べる。",
+          "rule": "A, B, C, and D"
+        },
+        {
+          "category": "前置詞句",
+          "name": "instead of + -ing",
+          "where": "instead of only displaying",
+          "explanation": "単なる表示と情報保存を対比する。",
+          "rule": "instead of + 動名詞"
+        },
+        {
+          "category": "副詞",
+          "name": "only",
+          "where": "only displaying",
+          "explanation": "表示だけに機能が限定されることを表す。",
+          "rule": "only + 動名詞"
+        },
+        {
+          "category": "分詞",
+          "name": "過去分詞の形容詞用法",
+          "where": "a finished model",
+          "explanation": "完成済みのモデルをfinishedで修飾する。",
+          "rule": "過去分詞 + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "becomes reuse",
+          "correct": "becomes reusable",
+          "why": "becomeの補語には状態を表す形容詞reusableを置く。"
+        },
+        {
+          "wrong": "stores hole coordinate",
+          "correct": "stores hole coordinates",
+          "why": "複数の穴位置を表すためcoordinatesを複数形にする。"
+        },
+        {
+          "wrong": "instead of display a finished model",
+          "correct": "instead of displaying a finished model",
+          "why": "前置詞ofの後には動名詞を置く。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Save the editing state, not just the rendered result.",
+          "translation": "描画結果だけでなく、編集状態を保存してください。"
+        },
+        {
+          "text": "A useful preview preserves geometry, references, and camera information.",
+          "translation": "有用なプレビューは、形状・基準・カメラ情報を保持します。"
+        },
+        {
+          "text": "The model can be restored when its supporting data travels with it.",
+          "translation": "補助データがモデルと一緒に保持されれば、そのモデルを復元できます。"
+        }
+      ],
+      "parseTree": "[S [NP A 3D preview] [VP becomes [AdjP reusable] [AdvP when [S it stores [NP hole coordinates, work origins, face data, and camera settings] [PP instead of only displaying a finished model]]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "becomes reusable",
+          "expanded": "because the saved state can reconstruct more than the visible surface",
+          "nuance": "見た目以外の復元可能性を示す。"
+        },
+        {
+          "original": "stores hole coordinates, work origins, face data, and camera settings",
+          "expanded": "since later editing depends on geometry, references, orientation, and viewpoint",
+          "nuance": "各情報が必要な理由を示す。"
+        },
+        {
+          "original": "instead of only displaying a finished model",
+          "expanded": "therefore, export the model together with the data needed to continue work",
+          "nuance": "表示から作業再開へ目的を広げる。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Hole coordinates and camera settings are stored with the preview.",
+          "translation": "穴座標とカメラ設定はプレビューとともに保存されます。",
+          "note": "保存される情報を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Preserving its editing state, the preview remains reusable.",
+          "translation": "編集状態を保持することで、プレビューは再利用可能なままになります。",
+          "note": "再利用の条件を-ing句にする。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "State preservation enables reliable reconstruction of the preview.",
+          "translation": "状態の保持により、プレビューを確実に再構築できます。",
+          "note": "preserveとreconstructを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "reusable",
+            "alternatives": [
+              "restorable",
+              "editable",
+              "portable"
+            ],
+            "nuance": "reusableは再利用可能、restorableは復元可能、editableは編集可能、portableは環境間で運べることを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "保存条件",
+            "sentence": "The preview remains editable when its references are stored with the mesh.",
+            "translation": "基準情報がメッシュとともに保存されれば、プレビューは編集可能なままです。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Stored state is more useful than a static image for later revision.",
+            "translation": "後の修正には、保存された状態の方が静止画像より有用です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If face data is missing, the preview may restore the shape but lose the machining context.",
+            "translation": "面データが欠けると、形状は復元できても加工文脈を失う場合があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What makes the preview reusable is the saved editing state.",
+            "translation": "プレビューを再利用可能にするのは、保存された編集状態です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Save the state, not only the view.",
+            "translation": "表示だけでなく状態を保存する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "保存対象を具体的に列挙して明確にした。列挙が長いためflexibilityとefficiencyを8とした。"
+    }
+  }
+]
