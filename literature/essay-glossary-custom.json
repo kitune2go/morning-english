@@ -10,6 +10,16 @@
     "note": "act の過去形・過去分詞形"
   },
   {
+    "word": "actor's",
+    "ja": "俳優の・声優の",
+    "note": "actor の所有格。本文では voice actor's で『声優の』"
+  },
+  {
+    "word": "address",
+    "ja": "アドレス・入口となる場所",
+    "note": "この作品では固定URLが示す入口"
+  },
+  {
     "word": "ai",
     "ja": "人工知能（AI）",
     "note": "artificial intelligence の略"
@@ -40,9 +50,79 @@
     "note": "application（アプリケーション）の短縮形"
   },
   {
+    "word": "assembled",
+    "ja": "組み立てられた・通常組立状態の",
+    "note": "assemble の過去分詞。本文では部品が接続された状態"
+  },
+  {
+    "word": "assembly",
+    "ja": "組立・組立用の",
+    "note": "本文の assembly drawing は『組図』"
+  },
+  {
+    "word": "blur",
+    "ja": "ぼやける・区別が曖昧になる",
+    "note": "本文では二つの論点の境界が曖昧になること"
+  },
+  {
+    "word": "bug",
+    "ja": "不具合・バグ",
+    "note": "ソフトウェアやシステムの不具合"
+  },
+  {
+    "word": "car",
+    "ja": "車",
+    "note": "本文では信号機の図に描かれた車"
+  },
+  {
+    "word": "cargo",
+    "ja": "貨物・荷台の",
+    "note": "cargo bed でトラックの荷台"
+  },
+  {
+    "word": "chorus",
+    "ja": "合唱",
+    "note": "本文では複数の条件が一緒に結果を支える比喩"
+  },
+  {
+    "word": "combine",
+    "ja": "組み合わさる・組み合わせる",
+    "note": "複数の条件が同時に成立すること"
+  },
+  {
+    "word": "component",
+    "ja": "部品",
+    "note": "3Dモデルを構成する個別部品"
+  },
+  {
+    "word": "concerns",
+    "ja": "関係する・扱う",
+    "note": "concern の三人称単数形。本文では争点の分類を示す"
+  },
+  {
+    "word": "confront",
+    "ja": "直面させる・向き合わせる",
+    "note": "本文では条件が利用者に繰り返し現れること"
+  },
+  {
+    "word": "connect",
+    "ja": "接続する・つながる",
+    "note": "本文では部品同士が位置と役割を保って接続する"
+  },
+  {
     "word": "decision-making",
     "ja": "意思決定",
     "note": "複合名詞。意思を決める過程"
+  },
+  {
+    "word": "decorated",
+    "ja": "装飾された",
+    "note": "decorated truck で装飾トラック、本文ではデコトラ"
+  },
+  {
+    "word": "decoration",
+    "ja": "飾り",
+    "note": "比較基準ではない単なる装飾"
   },
   {
     "word": "describable",
@@ -50,9 +130,49 @@
     "note": "describe（記述する）＋ -able（〜できる）"
   },
   {
+    "word": "developers",
+    "ja": "開発者たち",
+    "note": "developer の複数形"
+  },
+  {
     "word": "diff",
     "ja": "差分・変更箇所",
     "note": "Gitなどの開発用語。更新前後の差異"
+  },
+  {
+    "word": "directing",
+    "ja": "演出の・方向づける",
+    "note": "directing authority で演出権限"
+  },
+  {
+    "word": "due",
+    "ja": "相応の・当然与えられるべき",
+    "note": "due respect で『相応の敬意』"
+  },
+  {
+    "word": "editable",
+    "ja": "編集可能な",
+    "note": "後から個別に修正できる"
+  },
+  {
+    "word": "edited",
+    "ja": "編集済みの",
+    "note": "edit の過去分詞"
+  },
+  {
+    "word": "editor",
+    "ja": "編集画面・編集ツール",
+    "note": "3Dモデルを修正する環境"
+  },
+  {
+    "word": "emerge",
+    "ja": "現れる・立ち上がる",
+    "note": "本文では全体が関係から形になること"
+  },
+  {
+    "word": "encounters",
+    "ja": "遭遇する",
+    "note": "encounter の三人称単数形"
   },
   {
     "word": "endpoint",
@@ -65,9 +185,59 @@
     "note": "endpoint の複数形"
   },
   {
+    "word": "examined",
+    "ja": "検証される",
+    "note": "examine の過去分詞"
+  },
+  {
+    "word": "exploded",
+    "ja": "分離表示された",
+    "note": "exploded state は組立関係を見せる分離姿勢"
+  },
+  {
     "word": "externalization",
     "ja": "外部化",
     "note": "内部で負っていた費用・機能・責任などを外へ移すこと"
+  },
+  {
+    "word": "failures",
+    "ja": "失敗（複数）",
+    "note": "過去の制作上の失敗記録"
+  },
+  {
+    "word": "filed",
+    "ja": "提出された",
+    "note": "file a report で報告書を正式に提出する比喩"
+  },
+  {
+    "word": "flattening",
+    "ja": "一体化・平坦化",
+    "note": "部品階層や境界を失わせて一つにすること"
+  },
+  {
+    "word": "greater",
+    "ja": "より大きい",
+    "note": "great の比較級。the more ..., the greater ... の相関比較"
+  },
+  {
+    "word": "grievance",
+    "ja": "不満・訴え",
+    "note": "本文では個人が抱く不満や異議"
+  },
+  {
+    "word": "guess",
+    "ja": "推測",
+    "note": "比較根拠を欠いた判断"
+  },
+  {
+    "word": "guided",
+    "ja": "導かれた",
+    "note": "guide の過去分詞"
+  },
+  {
+    "word": "hierarchy",
+    "ja": "階層構造",
+    "note": "3D部品の親子・所属関係"
   },
   {
     "word": "implementation",
@@ -75,9 +245,49 @@
     "note": "仕組みや計画を実際に動作する形へ落とし込むこと"
   },
   {
+    "word": "industry",
+    "ja": "業界",
+    "note": "本文では声優業界の制度・条件"
+  },
+  {
+    "word": "intelligible",
+    "ja": "意味を理解できる",
+    "note": "作業理由や関係を読み取れる状態"
+  },
+  {
     "word": "isometric",
     "ja": "等尺性の",
     "note": "筋肉の長さを大きく変えずに力を出す運動などで用いる"
+  },
+  {
+    "word": "joint",
+    "ja": "接合部・接合の",
+    "note": "joint relationships で部品間の接合関係"
+  },
+  {
+    "word": "joints",
+    "ja": "継ぎ目",
+    "note": "次の修正を加えられる部品境界"
+  },
+  {
+    "word": "latest",
+    "ja": "最新の",
+    "note": "時間的に最も新しい"
+  },
+  {
+    "word": "linked",
+    "ja": "連動した",
+    "note": "視点などが互いに同期した"
+  },
+  {
+    "word": "loading",
+    "ja": "読み込み",
+    "note": "データを画面へ取り込む処理"
+  },
+  {
+    "word": "maker",
+    "ja": "作る側・製作者",
+    "note": "本文では製品を作る側の人"
   },
   {
     "word": "manchukuo",
@@ -85,9 +295,24 @@
     "note": "1932年に建国された日本の強い支配下にあった国家の英語名"
   },
   {
+    "word": "merges",
+    "ja": "統合する",
+    "note": "merge の三人称単数形"
+  },
+  {
+    "word": "metrics",
+    "ja": "指標・測定尺度",
+    "note": "複数形。ここでは部署の業績や活動を測る数値指標"
+  },
+  {
     "word": "mode",
     "ja": "方式・モード",
     "note": "動作の状態や方法"
+  },
+  {
+    "word": "models",
+    "ja": "モデル（複数）",
+    "note": "本文では個別の3Dモデル"
   },
   {
     "word": "motivational",
@@ -110,9 +335,54 @@
     "note": "明治期の「オッペケペー節」に由来する表記"
   },
   {
+    "word": "organizations",
+    "ja": "組織（複数）",
+    "note": "organization の複数形"
+  },
+  {
+    "word": "overlay",
+    "ja": "重ね合わせ表示",
+    "note": "元画像とモデルを重ねて比較する表示"
+  },
+  {
+    "word": "overlays",
+    "ja": "重ね合わせ表示（複数）",
+    "note": "overlay の複数形"
+  },
+  {
+    "word": "panels",
+    "ja": "画面部品・パネル",
+    "note": "編集画面内の機能領域"
+  },
+  {
+    "word": "previously",
+    "ja": "以前は",
+    "note": "過去の状態を示す副詞"
+  },
+  {
     "word": "randomness",
     "ja": "偶然性・無作為性",
     "note": "random（無作為な）から"
+  },
+  {
+    "word": "real-world",
+    "ja": "現実の・実使用上の",
+    "note": "real-world use で現場での実際の使用"
+  },
+  {
+    "word": "reassembly",
+    "ja": "再組立",
+    "note": "分離した部品を再び組み立てること"
+  },
+  {
+    "word": "recovered",
+    "ja": "取り戻した",
+    "note": "recover の過去形・過去分詞"
+  },
+  {
+    "word": "red-pen",
+    "ja": "赤ペンの・修正指示用の",
+    "note": "赤ペンモードを表す複合形容詞"
   },
   {
     "word": "redesign",
@@ -125,9 +395,34 @@
     "note": "reenact（再現・再演する）の -ing 形"
   },
   {
+    "word": "relation",
+    "ja": "関係",
+    "note": "in relation to one another で互いとの関係において"
+  },
+  {
+    "word": "reopen",
+    "ja": "再び開く",
+    "note": "保存された結果や理由をもう一度開く"
+  },
+  {
     "word": "repeatable",
     "ja": "繰り返し可能な・再現可能な",
     "note": "repeat（繰り返す）＋ -able"
+  },
+  {
+    "word": "repeatedly",
+    "ja": "繰り返し",
+    "note": "同じ種類の条件結合が何度も起きること"
+  },
+  {
+    "word": "replays",
+    "ja": "再生する・再現する",
+    "note": "replay の三人称単数形。本文では制作経路を再生する"
+  },
+  {
+    "word": "report",
+    "ja": "報告書・報告",
+    "note": "本文では不具合を境界から届く報告書にたとえる"
   },
   {
     "word": "reshapes",
@@ -135,14 +430,29 @@
     "note": "reshape（作り替える）の三人称単数形"
   },
   {
+    "word": "respond",
+    "ja": "応答する",
+    "note": "本文では蓄積された記録が応答するように見えること"
+  },
+  {
     "word": "restarting",
     "ja": "再開すること・再起動している",
     "note": "restart（再開・再起動する）の -ing 形"
   },
   {
+    "word": "restored",
+    "ja": "復元された",
+    "note": "restore の過去形・過去分詞"
+  },
+  {
     "word": "retopology",
     "ja": "リトポロジー・メッシュ構造の再構成",
     "note": "3Dモデルのポリゴン配置を整理・再構築する工程"
+  },
+  {
+    "word": "returns",
+    "ja": "戻る・返す・利益",
+    "note": "return の三人称単数形・複数形。文脈によって意味が異なる"
   },
   {
     "word": "reusable",
@@ -165,6 +475,11 @@
     "note": "reweave（編み直す）の過去分詞"
   },
   {
+    "word": "sales",
+    "ja": "売上高・販売",
+    "note": "業務指標の文脈では「売上」"
+  },
+  {
     "word": "self-correction",
     "ja": "自己修正",
     "note": "自分の判断や生成結果を点検して直すこと"
@@ -180,9 +495,54 @@
     "note": "自分の言動・状態を自ら監視すること"
   },
   {
+    "word": "shell",
+    "ja": "外殻・外装",
+    "note": "未来型乗り物の滑らかな外側の形"
+  },
+  {
+    "word": "shows",
+    "ja": "見せる・示す",
+    "note": "show の三人称単数形"
+  },
+  {
+    "word": "simplicity",
+    "ja": "単純さ",
+    "note": "表示や構造が簡単であること"
+  },
+  {
+    "word": "speaks",
+    "ja": "語る・話す",
+    "note": "speak の三人称単数形。結果が条件を示す比喩"
+  },
+  {
+    "word": "stability",
+    "ja": "安定性",
+    "note": "入口だけでなく状態を回復できる性質"
+  },
+  {
     "word": "strength-training",
     "ja": "筋力トレーニング",
     "note": "strength（筋力）＋ training（訓練）"
+  },
+  {
+    "word": "survival",
+    "ja": "存続",
+    "note": "消えずに残ること"
+  },
+  {
+    "word": "traffic-light",
+    "ja": "信号機の",
+    "note": "traffic-light diagram で信号機を使った条件図"
+  },
+  {
+    "word": "truck",
+    "ja": "トラック",
+    "note": "本文では装飾トラック、デコトラ"
+  },
+  {
+    "word": "truly",
+    "ja": "本当に",
+    "note": "条件を満たした実質的な意味で"
   },
   {
     "word": "unavailable",
@@ -210,188 +570,38 @@
     "note": "record（記録する）の否定の過去分詞的形容詞"
   },
   {
-    "word": "workplace",
-    "ja": "職場",
-    "note": "work（仕事）＋ place（場所）"
-  },
-  {
-    "word": "metrics",
-    "ja": "指標・測定尺度",
-    "note": "複数形。ここでは部署の業績や活動を測る数値指標"
-  },
-  {
-    "word": "sales",
-    "ja": "売上高・販売",
-    "note": "業務指標の文脈では「売上」"
-  },
-  {
-    "word": "organizations",
-    "ja": "組織（複数）",
-    "note": "organization の複数形"
-  },
-  {
-    "word": "worlds",
-    "ja": "世界（複数）",
-    "note": "world の複数形。比喩的に異なる世界観を指すことも"
-  },
-  {
-    "word": "returns",
-    "ja": "戻る・返す・利益",
-    "note": "return の三人称単数形・複数形。文脈によって意味が異なる"
-  },
-  {
-    "word": "address",
-    "ja": "アドレス・入口となる場所",
-    "note": "この作品では固定URLが示す入口"
-  },
-  {
-    "word": "component",
-    "ja": "部品",
-    "note": "3Dモデルを構成する個別部品"
-  },
-  {
-    "word": "decoration",
-    "ja": "飾り",
-    "note": "比較基準ではない単なる装飾"
-  },
-  {
-    "word": "editable",
-    "ja": "編集可能な",
-    "note": "後から個別に修正できる"
-  },
-  {
-    "word": "edited",
-    "ja": "編集済みの",
-    "note": "edit の過去分詞"
-  },
-  {
-    "word": "editor",
-    "ja": "編集画面・編集ツール",
-    "note": "3Dモデルを修正する環境"
-  },
-  {
-    "word": "examined",
-    "ja": "検証される",
-    "note": "examine の過去分詞"
-  },
-  {
-    "word": "flattening",
-    "ja": "一体化・平坦化",
-    "note": "部品階層や境界を失わせて一つにすること"
-  },
-  {
-    "word": "guess",
-    "ja": "推測",
-    "note": "比較根拠を欠いた判断"
-  },
-  {
-    "word": "guided",
-    "ja": "導かれた",
-    "note": "guide の過去分詞"
-  },
-  {
-    "word": "hierarchy",
-    "ja": "階層構造",
-    "note": "3D部品の親子・所属関係"
-  },
-  {
-    "word": "intelligible",
-    "ja": "意味を理解できる",
-    "note": "作業理由や関係を読み取れる状態"
-  },
-  {
-    "word": "joints",
-    "ja": "継ぎ目",
-    "note": "次の修正を加えられる部品境界"
-  },
-  {
-    "word": "latest",
-    "ja": "最新の",
-    "note": "時間的に最も新しい"
-  },
-  {
-    "word": "linked",
-    "ja": "連動した",
-    "note": "視点などが互いに同期した"
-  },
-  {
-    "word": "loading",
-    "ja": "読み込み",
-    "note": "データを画面へ取り込む処理"
-  },
-  {
-    "word": "merges",
-    "ja": "統合する",
-    "note": "merge の三人称単数形"
-  },
-  {
-    "word": "overlay",
-    "ja": "重ね合わせ表示",
-    "note": "元画像とモデルを重ねて比較する表示"
-  },
-  {
-    "word": "overlays",
-    "ja": "重ね合わせ表示（複数）",
-    "note": "overlay の複数形"
-  },
-  {
-    "word": "panels",
-    "ja": "画面部品・パネル",
-    "note": "編集画面内の機能領域"
-  },
-  {
-    "word": "previously",
-    "ja": "以前は",
-    "note": "過去の状態を示す副詞"
-  },
-  {
-    "word": "recovered",
-    "ja": "取り戻した",
-    "note": "recover の過去形・過去分詞"
-  },
-  {
-    "word": "red-pen",
-    "ja": "赤ペンの・修正指示用の",
-    "note": "赤ペンモードを表す複合形容詞"
-  },
-  {
-    "word": "reopen",
-    "ja": "再び開く",
-    "note": "保存された結果や理由をもう一度開く"
-  },
-  {
-    "word": "restored",
-    "ja": "復元された",
-    "note": "restore の過去形・過去分詞"
-  },
-  {
-    "word": "simplicity",
-    "ja": "単純さ",
-    "note": "表示や構造が簡単であること"
-  },
-  {
-    "word": "stability",
-    "ja": "安定性",
-    "note": "入口だけでなく状態を回復できる性質"
-  },
-  {
-    "word": "survival",
-    "ja": "存続",
-    "note": "消えずに残ること"
-  },
-  {
-    "word": "truly",
-    "ja": "本当に",
-    "note": "条件を満たした実質的な意味で"
-  },
-  {
     "word": "url",
     "ja": "URL・ウェブ上の住所",
     "note": "Uniform Resource Locator の略"
   },
   {
+    "word": "video",
+    "ja": "動画・映像",
+    "note": "単数形。動画表示面やAI動画を指す"
+  },
+  {
+    "word": "videos",
+    "ja": "動画（複数）",
+    "note": "video の複数形"
+  },
+  {
     "word": "viewpoints",
     "ja": "視点（複数）",
     "note": "3Dモデルを見る複数のカメラ位置・方向"
+  },
+  {
+    "word": "work's",
+    "ja": "作品の・仕事の",
+    "note": "work の所有格。本文では作品が持つ影響力"
+  },
+  {
+    "word": "workplace",
+    "ja": "職場",
+    "note": "work（仕事）＋ place（場所）"
+  },
+  {
+    "word": "worlds",
+    "ja": "世界（複数）",
+    "note": "world の複数形。比喩的に異なる世界観を指すことも"
   }
 ]
