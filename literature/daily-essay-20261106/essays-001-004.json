@@ -1,0 +1,129 @@
+[
+  {
+    "id": "DE-20261106-001",
+    "sourceTitle": "結果は一人で立っていない",
+    "workId": "daily-essay-20261106",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "不具合は境界から届く",
+    "jp": "不具合が残るのは、開発者がすべてを試さなかったからだ、と言えば話は簡単になる。けれど現場では、利用者の操作と機械の状態が、試験表にない組合せで何度も出会う。作る側が一度しか踏まない条件を、使う側は毎日踏むこともある。信号機と車の図に置き換えると、止まった車だけを責めるより、どの条件が同時に青になったのかを見るべきだと分かる。不具合は、ときに製品と現場の境界が提出する報告書である。",
+    "translationLiteral": "It makes the story simple to say that a bug remains because the developers did not test everything. Yet in the field, user actions and machine states repeatedly meet in combinations absent from the test table. A condition the maker encounters only once may be encountered every day by the user. When this is recast as a diagram of traffic lights and cars, it becomes clear that instead of blaming only the stopped car, we should examine which conditions turned green at the same time. A bug is sometimes a report submitted by the boundary between a product and its field of use.",
+    "translationNatural": "It is easy to explain a remaining bug by saying that the developers did not test everything. In actual use, however, user actions and machine states repeatedly combine in ways the test matrix never covered. A condition the maker encounters once may confront a user every day. A traffic-light diagram shifts the question away from the stalled car and toward the conditions that turned green together. Sometimes a bug is a report filed by the boundary between a product and its real-world use.",
+    "imageUrl": "",
+    "imageCaption": "信号機と車の図の背後で、試験表になかった条件の組合せが浮かび上がる。",
+    "imagePrompt": "A traffic-light testing diagram where several conditions turn green together while a stalled car reveals an untested combination, restrained technical editorial illustration, no text",
+    "chunks": [
+      {"en": "It is easy to explain a remaining bug by saying that the developers did not test everything.", "ja": "残った不具合を、開発者がすべてを試さなかったからだと説明するのは簡単である。"},
+      {"en": "In actual use, however, user actions and machine states repeatedly combine in ways the test matrix never covered.", "ja": "しかし実際の使用では、利用者の操作と機械の状態が、試験表で一度も扱われなかった形で繰り返し組み合わさる。"},
+      {"en": "A condition the maker encounters once may confront a user every day.", "ja": "作る側が一度しか遭遇しない条件に、利用者は毎日直面することがある。"},
+      {"en": "A traffic-light diagram shifts the question away from the stalled car and toward the conditions that turned green together.", "ja": "信号機の図は、問いを止まった車から、同時に青になった条件へ移す。"},
+      {"en": "Sometimes a bug is a report filed by the boundary between a product and its real-world use.", "ja": "不具合はときに、製品と現実の使用との境界が提出する報告書である。"}
+    ],
+    "grammar": [
+      "`It is easy to ... by saying that ...` は、単純な説明の仕方を提示する。",
+      "`however` は、開発者だけに原因を置く説明から実使用時の条件へ転換する。",
+      "`in ways the test matrix never covered` は、試験表が扱わなかった組合せ方を後置修飾する。",
+      "`shift A away from B and toward C` は、問いの焦点をBからCへ移す。",
+      "`filed by the boundary` は、不具合を境界から届く報告書として擬人化する。"
+    ],
+    "translationNote": "直訳は、作る側と使う側が条件を踏む頻度の差、信号機の比喩、境界が報告書を提出する結論を保持した。自然訳では `meet in combinations` を `combine in ways` とし、`field of use` を `real-world use` へ整えたが、開発者の怠慢だけに還元しない主張は変えていない。",
+    "readingPoint": "導入部。目に見える不具合を一人の失敗として閉じず、試験と実使用の境界で条件が組み合わさる現象として捉え直す。",
+    "keywords": ["不具合", "試験条件", "実使用", "信号機", "境界"]
+  },
+  {
+    "id": "DE-20261106-002",
+    "sourceTitle": "結果は一人で立っていない",
+    "workId": "daily-essay-20261106",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "声の周りに役割が重なる",
+    "jp": "声をめぐる論争では、演技の方向を誰が決めるかと、仕事への敬意が守られたかが、同じ争点のように重なりやすい。前者は演出権限、後者は契約、クレジット、職業的尊厳の問題である。外へ訴えることが必要な場合もあるが、作品の影響力を借りるほど、個人の不満と業界の条件を分けて説明する責任も増す。声は身体から出る。しかし声優の仕事は、録音技術と制度の上で流通する。",
+    "translationLiteral": "In disputes about a voice, the question of who decides the direction of a performance and the question of whether respect for the work was protected tend to overlap as if they were the same issue. The former concerns directing authority; the latter concerns contracts, credit, and professional dignity. An external appeal may sometimes be necessary, but the more it borrows a work's influence, the greater the responsibility to explain personal dissatisfaction separately from industry conditions. A voice comes from a body. Yet a voice actor's work circulates on recording technology and institutions.",
+    "translationNatural": "In disputes over a voice, two questions easily blur together: who controls the direction of a performance, and whether the work received due respect. The first concerns directing authority; the second concerns contracts, credit, and professional dignity. Public appeal may be necessary, but the more such an appeal borrows a work's influence, the greater the duty to distinguish personal grievance from industry conditions. A voice comes from a body, yet a voice actor's work circulates through recording technology and institutions.",
+    "imageUrl": "",
+    "imageCaption": "一本の声の周囲に、演出権限、契約、クレジット、録音技術の層が重なる。",
+    "imagePrompt": "A single recorded voice at the center of layered rings representing directing authority, contracts, credits, professional dignity, and recording technology, thoughtful editorial illustration, no text",
+    "chunks": [
+      {"en": "In disputes over a voice, two questions easily blur together: who controls the direction of a performance, and whether the work received due respect.", "ja": "声をめぐる論争では、演技の方向を誰が決めるかと、その仕事が相応の敬意を受けたかという二つの問いが混ざりやすい。"},
+      {"en": "The first concerns directing authority; the second concerns contracts, credit, and professional dignity.", "ja": "前者は演出権限、後者は契約、クレジット、職業的尊厳に関わる。"},
+      {"en": "Public appeal may be necessary, but the more such an appeal borrows a work's influence, the greater the duty to distinguish personal grievance from industry conditions.", "ja": "公に訴えることが必要な場合もあるが、その訴えが作品の影響力を借りるほど、個人の不満と業界の条件を区別する責任は大きくなる。"},
+      {"en": "A voice comes from a body, yet a voice actor's work circulates through recording technology and institutions.", "ja": "声は身体から出るが、声優の仕事は録音技術と制度を通じて流通する。"}
+    ],
+    "grammar": [
+      "コロン以降の `who ...` と `whether ...` は、混同されやすい二つの問いを具体化する。",
+      "`The first ...; the second ...` は、演出権限と職業的尊厳を対照して分類する。",
+      "`may be necessary, but ...` は、外部への訴えを否定せず、追加の説明責任へ論点を進める。",
+      "`the more ..., the greater ...` は、作品の影響力を借りる程度に応じて説明責任が増すことを示す。",
+      "`distinguish A from B` は、個人の不満と業界条件を分ける。",
+      "`comes from ..., yet ... circulates through ...` は、声の身体的起点と仕事の技術的・制度的流通を対比する。"
+    ],
+    "translationNote": "`演出権限` は所有権ではなく演技の方向を決める権限なので `directing authority` とした。`仕事への敬意` は感情一般へ弱めず `due respect`、`職業的尊厳` は `professional dignity` とした。自然訳は二つの問いをコロンで明示し、外部への訴えが必要な場合もあるという但し書きを残している。",
+    "readingPoint": "展開部。一人の声に見える成果の周囲で、演出権限、契約、クレジット、技術、制度が別々に働くことを示す。",
+    "keywords": ["声", "演出権限", "契約", "職業的尊厳", "録音技術"]
+  },
+  {
+    "id": "DE-20261106-003",
+    "sourceTitle": "結果は一人で立っていない",
+    "workId": "daily-essay-20261106",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "蓄積が応答したように見える",
+    "jp": "AIで動画を作っていると、リポジトリが話しているように感じることがある。もちろんファイルそのものに声はない。けれど過去の失敗、設定、素材、修正履歴が次の生成へ渡され、キャラクターの動きとして画面に戻ると、蓄積が応答したように見える。デコトラの荷台に貼った画像が動画の面へ変わるとき、作品は完成品を見せるだけでなく、作られてきた経路を再生する。",
+    "translationLiteral": "When making videos with AI, one may sometimes feel that the repository is speaking. Of course, the files themselves have no voice. Yet when past failures, settings, assets, and revision history are passed into the next generation process and return to the screen as a character's movement, the accumulation appears to have responded. When an image attached to a decorated truck's cargo bed becomes a surface for video, the work not only shows a finished product but also replays the path through which it was made.",
+    "translationNatural": "While making videos with AI, I sometimes feel as if the repository were speaking. The files themselves, of course, have no voice. Yet past failures, settings, assets, and revision history pass into the next generation process and return to the screen as a character's movement, making the accumulated record seem to respond. When an image placed on the cargo bed of a decorated truck becomes a surface for video, the work not only shows a finished result but also replays the path by which it was made.",
+    "imageUrl": "",
+    "imageCaption": "制作履歴がキャラクターの動きとデコトラ荷台の映像として画面へ戻る。",
+    "imagePrompt": "A software repository history flowing into an AI-generated character animation and then onto the wrapped cargo bed of a decorated Japanese truck, reflective digital editorial illustration, no text",
+    "chunks": [
+      {"en": "While making videos with AI, I sometimes feel as if the repository were speaking.", "ja": "AIで動画を作っていると、私はときどきリポジトリが話しているかのように感じる。"},
+      {"en": "The files themselves, of course, have no voice.", "ja": "もちろん、ファイルそのものに声はない。"},
+      {"en": "Yet past failures, settings, assets, and revision history pass into the next generation process and return to the screen as a character's movement, making the accumulated record seem to respond.", "ja": "それでも過去の失敗、設定、素材、修正履歴は次の生成工程へ渡り、キャラクターの動きとして画面へ戻るため、蓄積された記録が応答しているように見える。"},
+      {"en": "When an image placed on the cargo bed of a decorated truck becomes a surface for video, the work not only shows a finished result but also replays the path by which it was made.", "ja": "デコトラの荷台に貼られた画像が動画の面になるとき、作品は完成した結果を見せるだけでなく、それが作られた経路も再生する。"}
+    ],
+    "grammar": [
+      "`While making ...` は、動画制作中に生じる感覚を示す分詞構文。",
+      "`as if ... were speaking` は、事実ではない比喩的な感覚を仮定法で表す。",
+      "`pass into ... and return ...` は、履歴が次の生成へ渡り画面へ戻る二段階を示す。",
+      "`making ... seem to respond` は、前の過程が生む見え方を結果として補足する。",
+      "`not only A but also B` は、完成結果に加えて制作経路も再生されることを示す。"
+    ],
+    "translationNote": "話者の実感なので自然訳では主語を `I` と補ったが、リポジトリに実際の声がないという否定を次文で明示した。`蓄積` は抽象的な量ではなく失敗・設定・素材・修正履歴の記録なので `the accumulated record` とした。荷台画像が動画表示面へ変わる順序と、完成品だけでなく制作経路も再生する結論を保持した。",
+    "readingPoint": "転換部。条件や履歴を外部要因として眺める段階から、それらが次の生成へ入り込み、応答のように知覚される段階へ移る。",
+    "keywords": ["AI動画", "リポジトリ", "修正履歴", "キャラクター", "デコトラ"]
+  },
+  {
+    "id": "DE-20261106-004",
+    "sourceTitle": "結果は一人で立っていない",
+    "workId": "daily-essay-20261106",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "全体は接合部から立ち上がる",
+    "jp": "未来型の乗り物を一つの形として眺めるだけなら、滑らかな外殻が主役になる。けれど部品交換と再組立まで考えると、必要なのは個別モデル、組図、部品表、接合関係、通常姿勢と分離姿勢を往復できる構造である。全体は、部品を消して生まれるのではない。部品が互いの位置と役割を保ったまま接続されて初めて立ち上がる。結果が語るのは、目立つ表面より、それを支えた条件の合唱である。",
+    "translationLiteral": "If one only looks at a future vehicle as a single form, its smooth outer shell becomes the main character. But when part replacement and reassembly are considered, what is needed is a set of individual models, an assembly drawing, a bill of materials, joint relationships, and a structure that can move between assembled and separated states. The whole is not born by erasing the parts. It rises only when the parts are connected while retaining their positions and roles relative to one another. What the result speaks of is not the conspicuous surface but the chorus of conditions that supported it.",
+    "translationNatural": "Seen only as a single form, a future vehicle makes its smooth shell the star. Once replacement and reassembly matter, however, the project needs separate models, an assembly drawing, a bill of materials, joint relationships, and a structure that can move between assembled and exploded states. The whole does not emerge by erasing its parts. It takes shape only when those parts connect while keeping their positions and roles in relation to one another. The result speaks less of its visible surface than of the chorus of conditions supporting it.",
+    "imageUrl": "",
+    "imageCaption": "未来型モビリティの通常姿勢と分離姿勢が、部品表と接合関係で結ばれる。",
+    "imagePrompt": "A futuristic mobility capsule shown in assembled and exploded states, with separate components, assembly drawing, bill of materials, and visible joint relationships, elegant technical editorial illustration, no text",
+    "chunks": [
+      {"en": "Seen only as a single form, a future vehicle makes its smooth shell the star.", "ja": "一つの形としてだけ見れば、未来型の乗り物では滑らかな外殻が主役になる。"},
+      {"en": "Once replacement and reassembly matter, however, the project needs separate models, an assembly drawing, a bill of materials, joint relationships, and a structure that can move between assembled and exploded states.", "ja": "しかし部品交換と再組立が重要になると、プロジェクトには個別モデル、組図、部品表、接合関係、通常姿勢と分離姿勢を行き来できる構造が必要になる。"},
+      {"en": "The whole does not emerge by erasing its parts.", "ja": "全体は、部品を消すことで生まれるのではない。"},
+      {"en": "It takes shape only when those parts connect while keeping their positions and roles in relation to one another.", "ja": "全体は、それらの部品が互いとの関係の中で位置と役割を保ちながら接続されて初めて形になる。"},
+      {"en": "The result speaks less of its visible surface than of the chorus of conditions supporting it.", "ja": "結果が語るのは、目に見える表面よりも、それを支える条件の合唱である。"}
+    ],
+    "grammar": [
+      "`Seen only as ...` は、乗り物を見る条件を示す過去分詞構文。",
+      "`Once ... matter` は、部品交換と再組立が要件になる時点を示す。",
+      "`move between A and B` は、通常姿勢と分離姿勢の二状態を往復できることを表す。",
+      "`only when` は、全体が形になるための必要条件を限定する。",
+      "`less of A than of B` は、結果が表面より条件の集合を語るという比較を示す。"
+    ],
+    "translationNote": "`組図` は `assembly drawing`、`部品表` は `bill of materials` と区別した。`分離姿勢` は破壊や単なる分割ではなく組立関係を示す表示なので `exploded state` とした。最後の `less of A than of B` は表面を完全に否定せず、より強く語られる対象を条件の合唱へ移している。",
+    "readingPoint": "結末部。外殻という単一の成果から、部品、接合、組図、部品表が保つ関係へ戻る。四枚の論点を、結果は条件の合唱として立ち上がるという余韻に束ねる。",
+    "keywords": ["未来型モビリティ", "組図", "部品表", "接合関係", "分離姿勢"]
+  }
+]
