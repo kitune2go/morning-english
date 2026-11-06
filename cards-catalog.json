@@ -100,7 +100,10 @@
     "cards-extra-20261023.json",
     "cards-extra-20261024.json",
     "cards-extra-20261025.json",
-    "cards-extra-20261026.json"
+    "cards-extra-20261026.json",
+    "cards-extra-20261027.json",
+    "cards-extra-20261028.json",
+    "cards-extra-20261029.json"
   ],
   "cards": [
     {
@@ -1348,6 +1351,27 @@
       "coreVerb": "leave",
       "theme": "速度最適化が残す単一障害点を見抜く",
       "_sourceFile": "cards-extra-20261026.json"
+    },
+    {
+      "_no": 179,
+      "sentence": "When switching between absolute and incremental modes, keep the same work origin and verify each hole before copying a pattern.",
+      "coreVerb": "keep",
+      "theme": "G90とG91を切り替えても共通のワーク原点を保つ",
+      "_sourceFile": "cards-extra-20261027.json"
+    },
+    {
+      "_no": 180,
+      "sentence": "A 3D preview becomes reusable when it stores hole coordinates, work origins, face data, and camera settings instead of only displaying a finished model.",
+      "coreVerb": "store",
+      "theme": "表示だけでなく編集に必要な3Dプレビュー情報を保存する",
+      "_sourceFile": "cards-extra-20261028.json"
+    },
+    {
+      "_no": 181,
+      "sentence": "A dictionary can assign a valid meaning to each word yet produce a false translation when it ignores the surrounding sentence.",
+      "coreVerb": "produce",
+      "theme": "単語単位で正しい語義が文脈全体では誤訳になる",
+      "_sourceFile": "cards-extra-20261029.json"
     }
   ]
 }
