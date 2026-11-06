@@ -389,5 +389,12 @@
     "description": "固定URLと失われた内部状態、統合で消える部品境界、元画像と比較根拠、復元された視点連動を通して、ファイルだけでなく編集可能な関係を保存する必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261105/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261106",
+    "title": "結果は一人で立っていない",
+    "description": "実使用で現れる不具合、声を囲む権限と制度、応答するように見える制作履歴、部品と接合から立つ未来型モビリティを通して、見える結果を支える条件の集合を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261106/manifest.json",
+    "mode": "essay-translation"
   }
 ]
