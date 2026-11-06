@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 181,
+    "_generatedAt": "2026-10-29T02:00:00+09:00",
+    "sentence": "A dictionary can assign a valid meaning to each word yet produce a false translation when it ignores the surrounding sentence.",
+    "phonetic": "ア ディクショナリー キャン アサイン ア ヴァリッド ミーニング トゥ イーチ ワード イェット プロデュース ア フォールス トランスレイション ウェン イット イグノアーズ ザ サラウンディング センテンス。",
+    "japaneseTranslation": "辞書は各単語に有効な語義を割り当てても、周囲の文を無視すれば誤った翻訳を生み出すことがあります。",
+    "theme": "単語単位で正しい語義が文脈全体では誤訳になる",
+    "coreVerb": "produce",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A dictionary assigns meanings.",
+        "translation": "辞書は語義を割り当てます。"
+      },
+      "phase2": {
+        "sentence": "A dictionary assigns a meaning to each word.",
+        "translation": "辞書は各単語に語義を割り当てます。",
+        "addedChunks": "対象(a meaning to each word)を追加"
+      },
+      "phase3": {
+        "sentence": "A dictionary assigns meanings, yet the translation can fail.",
+        "translation": "辞書は語義を割り当てますが、翻訳は失敗することがあります。",
+        "connector": "yet"
+      },
+      "phase4": {
+        "sentence": "Sentence context is more reliable than isolated word matching.",
+        "translation": "文の文脈は、孤立した単語照合より信頼できます。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "A dictionary can assign a valid meaning to each word yet produce a false translation when it ignores the surrounding sentence",
+        "translation": "辞書は各単語に有効な語義を割り当てても、周囲の文を無視すれば誤った翻訳を生み出すことがあります。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A dictionary can assign",
+          "function": "行動",
+          "translation": "辞書は割り当てることがあります"
+        },
+        {
+          "text": "a valid meaning",
+          "function": "対象",
+          "translation": "有効な語義を"
+        },
+        {
+          "text": "to each word",
+          "function": "対象",
+          "translation": "各単語に"
+        },
+        {
+          "text": "yet produce",
+          "function": "接続",
+          "translation": "それでも生み出します"
+        },
+        {
+          "text": "a false translation",
+          "function": "対象",
+          "translation": "誤った翻訳を"
+        },
+        {
+          "text": "when it ignores the surrounding sentence.",
+          "function": "時間",
+          "translation": "周囲の文を無視すれば"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can assign",
+          "explanation": "可能性または起こり得る結果を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "動詞構文",
+          "name": "assign A to B",
+          "where": "assign a valid meaning to each word",
+          "explanation": "語義Aを単語Bへ割り当てる構文。",
+          "rule": "assign A to B"
+        },
+        {
+          "category": "限定詞",
+          "name": "each + 単数名詞",
+          "where": "each word",
+          "explanation": "単語を一つずつ捉える。",
+          "rule": "each + 単数名詞"
+        },
+        {
+          "category": "接続詞",
+          "name": "yet",
+          "where": "yet produce",
+          "explanation": "前半から予想される結果に反する後半を導く。",
+          "rule": "動詞句 + yet + 動詞句"
+        },
+        {
+          "category": "並列",
+          "name": "助動詞の共有",
+          "where": "can assign ... yet produce",
+          "explanation": "canがassignとproduceの両方にかかる。",
+          "rule": "can + V1 + yet + V2"
+        },
+        {
+          "category": "副詞節",
+          "name": "when節の条件用法",
+          "where": "when it ignores the surrounding sentence",
+          "explanation": "誤訳が生じる条件を示す。",
+          "rule": "when + S + V"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "assign a meaning for each word",
+          "correct": "assign a meaning to each word",
+          "why": "assignは通常assign A to Bの形を取る。"
+        },
+        {
+          "wrong": "yet produces a false translation",
+          "correct": "yet produce a false translation",
+          "why": "produceは前の助動詞canを共有するため原形にする。"
+        },
+        {
+          "wrong": "ignores surrounding sentence",
+          "correct": "ignores the surrounding sentence",
+          "why": "特定の周囲の文脈を指すため定冠詞theが必要。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Correct word senses can still create an incorrect sentence translation.",
+          "translation": "正しい語義でも、文全体では誤訳を作ることがあります。"
+        },
+        {
+          "text": "Translate words in context rather than matching isolated dictionary entries.",
+          "translation": "孤立した辞書項目を照合するのではなく、文脈の中で単語を訳してください。"
+        },
+        {
+          "text": "A glossary needs sentence-level rules to resolve ambiguous words.",
+          "translation": "多義語を解決するには、用語集に文単位の規則が必要です。"
+        }
+      ],
+      "parseTree": "[S [NP A dictionary] [VP can [VP assign [NP a valid meaning] [PP to each word]] yet [VP produce [NP a false translation] [AdvP when [S it ignores [NP the surrounding sentence]]]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "assign a valid meaning to each word",
+          "expanded": "because each selected sense may exist legitimately in the dictionary",
+          "nuance": "単語単位では誤りでないことを示す。"
+        },
+        {
+          "original": "produce a false translation",
+          "expanded": "since valid senses do not automatically combine into the intended sentence meaning",
+          "nuance": "局所正解と全体誤訳を区別する。"
+        },
+        {
+          "original": "when it ignores the surrounding sentence",
+          "expanded": "therefore, use sentence context to rank or override dictionary entries",
+          "nuance": "文脈優先の修正方法を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A valid dictionary meaning may be assigned to the wrong context.",
+          "translation": "有効な辞書語義が誤った文脈に割り当てられる場合があります。",
+          "note": "語義を割り当てられる側として主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Ignoring sentence context, the glossary can select the wrong sense.",
+          "translation": "文の文脈を無視すると、用語集は誤った語義を選ぶことがあります。",
+          "note": "原因を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Contextual interpretation prevents false sense selection.",
+          "translation": "文脈に基づく解釈は、誤った語義選択を防ぎます。",
+          "note": "interpretとselectを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "meaning",
+            "alternatives": [
+              "sense",
+              "definition",
+              "interpretation"
+            ],
+            "nuance": "senseは多義語の個別語義、definitionは定義文、interpretationは文脈による解釈を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "局所と全体の対比",
+            "sentence": "Each word may be correct while the sentence remains wrong.",
+            "translation": "各単語が正しくても、文全体は誤ったままの場合があります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Context-aware selection is more accurate than first-entry matching.",
+            "translation": "文脈を考慮した選択は、先頭語義の照合より正確です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a word has several senses, the sentence must guide the choice.",
+            "translation": "単語に複数の語義があるなら、文全体を選択の手掛かりにする必要があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not whether a meaning exists, but whether it fits the sentence.",
+            "translation": "重要なのは語義が存在するかではなく、その文に合うかです。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Valid word, wrong context.",
+            "translation": "語義は有効でも、文脈が違う。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "局所的に有効な語義と文全体の誤訳を、自然なyet構文で明確に対比した。"
+    }
+  }
+]
