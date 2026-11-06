@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 179,
+    "_generatedAt": "2026-10-27T02:00:00+09:00",
+    "sentence": "When switching between absolute and incremental modes, keep the same work origin and verify each hole before copying a pattern.",
+    "phonetic": "ウェン スウィッチング ビトウィーン アブソルート アンド インクリメンタル モウズ、キープ ザ セイム ワーク オリジン アンド ヴェリファイ イーチ ホウル ビフォー コピーイング ア パターン。",
+    "japaneseTranslation": "絶対座標と増分座標を切り替えるときは、同じワーク原点を維持し、配列を複製する前に各穴を確認してください。",
+    "theme": "G90とG91を切り替えても共通のワーク原点を保つ",
+    "coreVerb": "keep",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Keep the origin.",
+        "translation": "原点を維持してください。"
+      },
+      "phase2": {
+        "sentence": "Keep the same work origin.",
+        "translation": "同じワーク原点を維持してください。",
+        "addedChunks": "対象(the same work origin)を追加"
+      },
+      "phase3": {
+        "sentence": "Keep the same work origin and verify each hole.",
+        "translation": "同じワーク原点を維持し、各穴を確認してください。",
+        "connector": "and"
+      },
+      "phase4": {
+        "sentence": "Verify each hole before copying a pattern.",
+        "translation": "配列を複製する前に各穴を確認してください。",
+        "comparison": "none"
+      },
+      "phase5": {
+        "sentence": "When switching between absolute and incremental modes, keep the same work origin and verify each hole before copying a pattern",
+        "translation": "絶対座標と増分座標を切り替えるときは、同じワーク原点を維持し、配列を複製する前に各穴を確認してください。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When switching",
+          "function": "時間",
+          "translation": "切り替えるときは"
+        },
+        {
+          "text": "between absolute and incremental modes,",
+          "function": "対象",
+          "translation": "絶対座標と増分座標の間を"
+        },
+        {
+          "text": "keep the same work origin",
+          "function": "行動",
+          "translation": "同じワーク原点を維持し"
+        },
+        {
+          "text": "and verify each hole",
+          "function": "行動",
+          "translation": "各穴を確認してください"
+        },
+        {
+          "text": "before copying",
+          "function": "時間",
+          "translation": "複製する前に"
+        },
+        {
+          "text": "a pattern.",
+          "function": "対象",
+          "translation": "配列を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "副詞節",
+          "name": "when + -ing",
+          "where": "When switching",
+          "explanation": "主語が命令文の聞き手と同じ場合、when節の主語とbe動詞を省略できる。",
+          "rule": "when + 主語 + be + -ing → when + -ing"
+        },
+        {
+          "category": "前置詞",
+          "name": "between A and B",
+          "where": "between absolute and incremental modes",
+          "explanation": "二つの座標方式の間の切替を表す。",
+          "rule": "between A and B"
+        },
+        {
+          "category": "命令文",
+          "name": "動詞原形で始める指示",
+          "where": "keep",
+          "explanation": "作業手順として直接的な指示を示す。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "並列",
+          "name": "keep and verify",
+          "where": "keep ... and verify ...",
+          "explanation": "二つの作業を同じ命令文で並列する。",
+          "rule": "動詞句 + and + 動詞句"
+        },
+        {
+          "category": "限定詞",
+          "name": "each + 単数名詞",
+          "where": "each hole",
+          "explanation": "穴を一つずつ確認することを表す。",
+          "rule": "each + 単数名詞"
+        },
+        {
+          "category": "時間表現",
+          "name": "before + -ing",
+          "where": "before copying",
+          "explanation": "複製より先に確認する順序を示す。",
+          "rule": "before + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "switching absolute and incremental modes",
+          "correct": "switching between absolute and incremental modes",
+          "why": "二つの方式の間を切り替える場合はswitch between A and Bとする。"
+        },
+        {
+          "wrong": "keep same work origin",
+          "correct": "keep the same work origin",
+          "why": "特定の共通原点を指すため定冠詞theが必要。"
+        },
+        {
+          "wrong": "verify each holes",
+          "correct": "verify each hole",
+          "why": "eachの後は単数名詞を置く。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Keep one work origin when you change between G90 and G91.",
+          "translation": "G90とG91を切り替えるときも、一つのワーク原点を維持してください。"
+        },
+        {
+          "text": "Check every hole before duplicating the coordinate pattern.",
+          "translation": "座標配列を複製する前に、すべての穴を確認してください。"
+        },
+        {
+          "text": "Changing coordinate modes should not change the machining reference.",
+          "translation": "座標モードを変えても、加工基準は変えるべきではありません。"
+        }
+      ],
+      "parseTree": "[S [AdvP When switching between absolute and incremental modes] [,] [VP keep [NP the same work origin] and verify [NP each hole] [AdvP before copying a pattern]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "switching between absolute and incremental modes",
+          "expanded": "because both modes must describe positions from a consistent machining reference",
+          "nuance": "座標方式を切り替えても基準を共有する理由を示す。"
+        },
+        {
+          "original": "keep the same work origin",
+          "expanded": "because a shared reference lets absolute and incremental positions describe the same geometry",
+          "nuance": "共通原点が座標方式間の整合を支える。"
+        },
+        {
+          "original": "verify each hole",
+          "expanded": "since one mistaken increment can shift every later position",
+          "nuance": "増分誤差の連鎖を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Each hole should be verified before the pattern is copied.",
+          "translation": "配列が複製される前に、各穴を確認すべきです。",
+          "note": "検査対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using one work origin, the operator can compare G90 and G91 results.",
+          "translation": "一つのワーク原点を使うことで、作業者はG90とG91の結果を比較できます。",
+          "note": "共通条件を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Verification before duplication prevents repeated coordinate errors.",
+          "translation": "複製前の検証は、座標誤差の反復を防ぎます。",
+          "note": "verifyとcopyを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "work origin",
+            "alternatives": [
+              "machining reference",
+              "datum",
+              "zero point"
+            ],
+            "nuance": "work originは加工座標の原点、datumは測定基準、zero pointはゼロ位置を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "作業順序",
+            "sentence": "Verify one position before repeating the pattern.",
+            "translation": "配列を繰り返す前に、一つの位置を確認してください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A shared origin is more reliable than separate references for each coordinate mode.",
+            "translation": "共通原点は、座標モードごとに別の基準を使うより信頼できます。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the origin changes, G90 and G91 no longer describe the same hole positions.",
+            "translation": "原点が変わると、G90とG91は同じ穴位置を表さなくなります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What must remain fixed is the work origin.",
+            "translation": "固定しなければならないのはワーク原点です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "One origin, two coordinate modes.",
+            "translation": "一つの原点、二つの座標モード。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "現場手順として自然で明確。座標方式の専門語を含むためflexibilityを8とした。"
+    }
+  }
+]
