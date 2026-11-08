@@ -103,7 +103,10 @@
     "cards-extra-20261026.json",
     "cards-extra-20261027.json",
     "cards-extra-20261028.json",
-    "cards-extra-20261029.json"
+    "cards-extra-20261029.json",
+    "cards-extra-20261030.json",
+    "cards-extra-20261031.json",
+    "cards-extra-20261101.json"
   ],
   "cards": [
     {
@@ -1372,6 +1375,27 @@
       "coreVerb": "produce",
       "theme": "単語単位で正しい語義が文脈全体では誤訳になる",
       "_sourceFile": "cards-extra-20261029.json"
+    },
+    {
+      "_no": 182,
+      "sentence": "Before adding NC generation, make the DXF reader reproduce lines, arcs, circles, and reference points correctly; a larger feature set cannot compensate for inconsistent geometry.",
+      "coreVerb": "reproduce",
+      "theme": "機能追加より先にDXF形状の整合性を固める",
+      "_sourceFile": "cards-extra-20261030.json"
+    },
+    {
+      "_no": 183,
+      "sentence": "A pixelated image becomes a reusable game asset when its palette and grid remain editable, not when it is exported only as a finished picture.",
+      "coreVerb": "become",
+      "theme": "ドット絵を再編集可能なゲーム素材として保存する",
+      "_sourceFile": "cards-extra-20261031.json"
+    },
+    {
+      "_no": 184,
+      "sentence": "A shared engine should provide physics, camera, input, and JSON configuration so each game can reuse behavior instead of rebuilding the same systems.",
+      "coreVerb": "provide",
+      "theme": "共通2Dエンジンでゲームの挙動を再利用する",
+      "_sourceFile": "cards-extra-20261101.json"
     }
   ]
 }
