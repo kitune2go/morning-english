@@ -1,0 +1,174 @@
+[
+  {
+    "id": "DE-20261107-001",
+    "sourceTitle": "『点を動かす手から、道具を渡す手へ』",
+    "workId": "daily-essay-20261107",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "見える形と、決める形",
+    "jp": "画像を見て形の特徴を言えることと、その形を三次元の部品として作り直せることは、同じ能力ではない。輪郭や陰影を認識しても、厚み、裏側、接合位置、可動域は画面の外に残る。AIが三次元になると急に鈍く見えるのは、目が悪いからではなく、見えない部分を決める操作系を持たないからだ。理解が造形へ渡るには、判断を座標へ変える橋が要る。",
+    "translationLiteral": "Being able to look at an image and state the features of a shape and being able to rebuild that shape as a three-dimensional part are not the same ability. Even if contours and shading are recognized, thickness, the back side, joint positions, and range of motion remain outside the screen. AI appears suddenly dull when it moves into three dimensions not because its eyes are poor, but because it does not possess a control system for determining the unseen parts. For understanding to pass into modeling, it needs a bridge that converts judgment into coordinates.",
+    "translationNatural": "Being able to describe a shape in an image is not the same as being able to rebuild it as a three-dimensional part. Even after contours and shading are recognized, thickness, the hidden side, joints, and range of motion remain outside the frame. AI can seem suddenly clumsy in 3D not because it cannot see, but because it lacks a control system for deciding what the image does not show. Understanding needs a bridge that turns judgment into coordinates before it can become geometry.",
+    "imageUrl": "",
+    "imageCaption": "画面上の輪郭から、厚みや裏側を含む三次元部品へ渡る橋。",
+    "imagePrompt": "An editorial still life showing a flat image of a mechanical animal part on one side and a precise three-dimensional component on the other, connected by a translucent coordinate bridge, restrained colors, no text",
+    "chunks": [
+      {
+        "en": "Being able to describe a shape in an image is not the same as being able to rebuild it as a three-dimensional part.",
+        "ja": "画像内の形を説明できることは、それを三次元部品として作り直せることと同じではない。"
+      },
+      {
+        "en": "Even after contours and shading are recognized,",
+        "ja": "輪郭と陰影を認識した後でも、"
+      },
+      {
+        "en": "thickness, the hidden side, joints, and range of motion remain outside the frame.",
+        "ja": "厚み、見えない側、接合部、可動域は画面の外に残る。"
+      },
+      {
+        "en": "AI can seem suddenly clumsy in 3D not because it cannot see, but because it lacks a control system for deciding what the image does not show.",
+        "ja": "AIが三次元では急に不器用に見えるのは、見えないからではなく、画像に映らない部分を決める操作系がないからだ。"
+      },
+      {
+        "en": "Understanding needs a bridge that turns judgment into coordinates before it can become geometry.",
+        "ja": "理解が形状になる前に、判断を座標へ変える橋が必要になる。"
+      }
+    ],
+    "grammar": [
+      "Being able to ... は動名詞句を主語にし、能力そのものを論じる。",
+      "not the same as ... は二つの能力が同一ではないことを明示する比較表現。",
+      "Even after ... are recognized は受動態を含む譲歩的な時間句。",
+      "not because A, but because B は誤った原因を退け、実際の原因へ置き換える。",
+      "what the image does not show は deciding の目的語となる名詞節。",
+      "before it can become geometry は理解が形状になるまでの前提を示す。"
+    ],
+    "translationNote": "直訳は「目が悪い」「見えない部分を決める」を原文に近く追い、自然訳では not because it cannot see, but because ... と原因対比を明示した。造形は文脈上の成果物を指すため geometry とした。",
+    "readingPoint": "作品の導入。認識能力と造形能力を切り分け、問題をAIの視覚性能ではなく操作系の欠如へ移す。",
+    "keywords": [
+      "形状認識",
+      "三次元造形",
+      "操作系",
+      "座標",
+      "可動域"
+    ]
+  },
+  {
+    "id": "DE-20261107-002",
+    "sourceTitle": "『点を動かす手から、道具を渡す手へ』",
+    "workId": "daily-essay-20261107",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "自由度を減らす道具",
+    "jp": "そこで、頂点を一つずつ動かす代わりに、少数の制御点を持つ曲線を道具として渡す案が出た。顔板や腹板の縁を曲線で定義し、面はその曲線から毎回作り直す。自由度を減らすことは能力を奪うことではない。修正の意味を、人にもAIにも読める単位へ変えることだ。道具は、手数を減らしながら判断の所在を明るくする。制約は創造を狭めるのでなく、修正できる形に整える。",
+    "translationLiteral": "Then came the proposal to give curves with a small number of control points as tools instead of moving vertices one by one. The edges of the face plate and belly plate are defined with curves, and the surfaces are rebuilt from those curves each time. Reducing degrees of freedom does not mean taking capability away. It means turning the meaning of a revision into a unit that both people and AI can read. A tool reduces the number of motions while making the location of judgment visible. Constraints do not narrow creation; they arrange it into a form that can be revised.",
+    "translationNatural": "The proposed tool was a curve with only a few control points, used instead of moving vertices one by one. The borders of the face and belly plates would be defined by curves, and the surfaces regenerated from them each time. Reducing degrees of freedom does not take capability away. It turns a revision into a unit of meaning that both people and AI can read. A good tool cuts the number of motions while making the location of judgment easier to see. Constraints do not narrow creation; they make it revisable.",
+    "imageUrl": "",
+    "imageCaption": "少数の制御点を持つ曲線から、顔板と腹板の面が再生成される。",
+    "imagePrompt": "A technical editorial illustration of sparse control points shaping elegant curves for face and belly plates, with surfaces being regenerated from the curves, clean workshop atmosphere, no text",
+    "chunks": [
+      {
+        "en": "The proposed tool was a curve with only a few control points,",
+        "ja": "提案された道具は、少数の制御点だけを持つ曲線だった。"
+      },
+      {
+        "en": "used instead of moving vertices one by one.",
+        "ja": "それは頂点を一つずつ動かす代わりに使われる。"
+      },
+      {
+        "en": "The borders of the face and belly plates would be defined by curves, and the surfaces regenerated from them each time.",
+        "ja": "顔板と腹板の縁は曲線で定義され、面は毎回その曲線から再生成される。"
+      },
+      {
+        "en": "Reducing degrees of freedom does not take capability away.",
+        "ja": "自由度を減らしても、能力を奪うことにはならない。"
+      },
+      {
+        "en": "It turns a revision into a unit of meaning that both people and AI can read.",
+        "ja": "それは修正を、人にもAIにも読める意味の単位へ変える。"
+      },
+      {
+        "en": "A good tool cuts the number of motions while making the location of judgment easier to see.",
+        "ja": "よい道具は手数を減らす一方で、判断の所在を見えやすくする。"
+      },
+      {
+        "en": "Constraints do not narrow creation; they make it revisable.",
+        "ja": "制約は創造を狭めず、修正できるものにする。"
+      }
+    ],
+    "grammar": [
+      "used instead of ... は過去分詞句で a curve を補足し、代替関係を示す。",
+      "would be defined は提案された設計を表す受動態。",
+      "the surfaces regenerated ... は would be が省略された等位構造。",
+      "Reducing degrees of freedom は動名詞句の主語。",
+      "that both people and AI can read は a unit of meaning を限定する関係節。",
+      "while making ... は同時進行と対照を圧縮して表す分詞構文。",
+      "do not A; they B は否定と肯定を対置し、制約の役割を言い換える。"
+    ],
+    "translationNote": "literal は『道具として渡す案が出た』を came the proposal と展開し、natural は The proposed tool was ... と簡潔に組み直した。『判断の所在』は ownership ではなく、どこで判断が行われたかという意味なので the location of judgment とした。 最終文は原文の『創造』をnatural でも creation を保ち、revisable で修正可能性を保った。",
+    "readingPoint": "展開部。能力不足という診断から、曲線と制御点で操作の自由度を整える具体策へ進む。 最後に制約を創造の敵ではなく修正可能性の条件として置く。",
+    "keywords": [
+      "制御点",
+      "曲線",
+      "自由度",
+      "再生成",
+      "判断",
+      "制約"
+    ]
+  },
+  {
+    "id": "DE-20261107-003",
+    "sourceTitle": "『点を動かす手から、道具を渡す手へ』",
+    "workId": "daily-essay-20261107",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "枝を工程に変える地図",
+    "jp": "同じことは開発の枝にも当てはまる。作業を分けるだけでは、PRが何を変え、どこへ戻るのか分からなくなる。全体マップ、依存関係、検証基準がそろうと、並行作業は散乱ではなくなる。異なるCPUで同じGLBのバイト列を求めるより、頂点数や部品階層が同じかを比べる方が目的に近い。能力は、道具と地図と判定基準を得て初めて工程になる。",
+    "translationLiteral": "The same thing applies to branches in development. Merely dividing the work makes it unclear what a pull request changes and where it returns. When an overall map, dependencies, and validation criteria are present, parallel work stops being scattered. Rather than demanding the same byte sequence for a GLB across different CPUs, comparing whether vertex counts and part hierarchies are the same is closer to the purpose. Capability becomes a process only after it receives tools, a map, and criteria for judgment.",
+    "translationNatural": "The same principle applies to branches in a development project. Splitting up the work is not enough if it remains unclear what a pull request changes or where it rejoins the whole. With an overall map, dependencies, and validation criteria, parallel efforts cease to be scattered fragments. Checking whether vertex counts and part hierarchies match may serve the goal better than demanding byte-identical GLB files across different CPUs. Capability becomes a process only after it is given tools, a map, and criteria for judgment.",
+    "imageUrl": "",
+    "imageCaption": "複数の開発ブランチが、地図と検証基準を通って一つの工程へ合流する。",
+    "imagePrompt": "An editorial diagram-like scene of several development branches converging through a map, dependency markers, and validation gates into one coherent process, sophisticated and minimal, no text",
+    "chunks": [
+      {
+        "en": "The same principle applies to branches in a development project.",
+        "ja": "同じ原則は、開発プロジェクトの枝にも当てはまる。"
+      },
+      {
+        "en": "Splitting up the work is not enough if it remains unclear what a pull request changes or where it rejoins the whole.",
+        "ja": "プルリクエストが何を変え、全体のどこへ合流するか不明なままなら、作業を分けるだけでは足りない。"
+      },
+      {
+        "en": "With an overall map, dependencies, and validation criteria, parallel efforts cease to be scattered fragments.",
+        "ja": "全体マップ、依存関係、検証基準があれば、並行作業は散乱した断片ではなくなる。"
+      },
+      {
+        "en": "Checking whether vertex counts and part hierarchies match may serve the goal better than demanding byte-identical GLB files across different CPUs.",
+        "ja": "異なるCPU間でバイト単位に同一のGLBを求めるより、頂点数と部品階層が一致するか確かめる方が目的にかなう場合がある。"
+      },
+      {
+        "en": "Capability becomes a process only after it is given tools, a map, and criteria for judgment.",
+        "ja": "能力は、道具と地図と判定基準を与えられて初めて工程になる。"
+      }
+    ],
+    "grammar": [
+      "applies to ... は原則の適用先を示す。",
+      "if no one can tell ... は不足が生じる条件を示す。",
+      "what ... changes / where ... rejoins は tell の目的語となる並列の間接疑問節。",
+      "With ... は条件を簡潔に示す前置詞句。",
+      "better than ... は検証方法の目的適合性を比較する。",
+      "only after ... は『〜して初めて』という条件の強調。"
+    ],
+    "translationNote": "natural は『どこへ戻る』を where it rejoins the whole とし、ブランチが全体へ合流する関係を補った。『同じGLB』は意味同一ではなくバイト列同一を指すため byte-identical と限定した。",
+    "readingPoint": "転換と結び。曲線という個別の道具から、並行開発を工程へ変える地図と検証基準へ視野を広げる。",
+    "keywords": [
+      "開発ブランチ",
+      "依存関係",
+      "検証基準",
+      "GLB",
+      "工程"
+    ]
+  }
+]
