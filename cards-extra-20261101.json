@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 184,
+    "_generatedAt": "2026-11-01T02:00:00+09:00",
+    "sentence": "A shared engine should provide physics, camera, input, and JSON configuration so each game can reuse behavior instead of rebuilding the same systems.",
+    "phonetic": "ア シェアド エンジン シュッド プロヴァイド フィジックス、カメラ、インプット、アンド ジェイソン コンフィギュレイション ソウ イーチ ゲイム キャン リユーズ ビヘイヴィア インステッド オブ リビルディング ザ セイム システムズ。",
+    "japaneseTranslation": "共通エンジンは物理、カメラ、入力、JSON設定を提供し、各ゲームが同じ仕組みを作り直すのではなく、挙動を再利用できるようにするべきです。",
+    "theme": "共通2Dエンジンでゲームの挙動を再利用する",
+    "coreVerb": "provide",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The engine provides behavior.",
+        "translation": "エンジンは挙動を提供します。"
+      },
+      "phase2": {
+        "sentence": "The shared engine provides physics, camera, and input.",
+        "translation": "共通エンジンは物理、カメラ、入力を提供します。",
+        "addedChunks": "修飾(shared)と対象(physics, camera, and input)を追加"
+      },
+      "phase3": {
+        "sentence": "The engine provides common systems so games can reuse behavior.",
+        "translation": "ゲームが挙動を再利用できるよう、エンジンは共通機能を提供します。",
+        "connector": "so"
+      },
+      "phase4": {
+        "sentence": "Reusing common behavior is better than rebuilding the same systems.",
+        "translation": "共通の挙動を再利用する方が、同じ仕組みを作り直すより優れています。",
+        "comparison": "better than"
+      },
+      "phase5": {
+        "sentence": "A shared engine should provide physics, camera, input, and JSON configuration so each game can reuse behavior instead of rebuilding the same systems",
+        "translation": "共通エンジンは物理、カメラ、入力、JSON設定を提供し、各ゲームが同じ仕組みを作り直すのではなく、挙動を再利用できるようにするべきです。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A shared engine should provide",
+          "function": "行動",
+          "translation": "共通エンジンは提供するべきです"
+        },
+        {
+          "text": "physics, camera, input, and JSON configuration",
+          "function": "対象",
+          "translation": "物理、カメラ、入力、JSON設定を"
+        },
+        {
+          "text": "so each game",
+          "function": "目的",
+          "translation": "各ゲームが"
+        },
+        {
+          "text": "can reuse behavior",
+          "function": "結果",
+          "translation": "挙動を再利用できるように"
+        },
+        {
+          "text": "instead of rebuilding",
+          "function": "比較",
+          "translation": "作り直すのではなく"
+        },
+        {
+          "text": "the same systems.",
+          "function": "対象",
+          "translation": "同じ仕組みを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "should",
+          "where": "should provide",
+          "explanation": "共通エンジンが備えるべき機能を示す。",
+          "rule": "should + 動詞原形"
+        },
+        {
+          "category": "列挙",
+          "name": "四項並列",
+          "where": "physics, camera, input, and JSON configuration",
+          "explanation": "共通化する四種類の機能を並べる。",
+          "rule": "A, B, C, and D"
+        },
+        {
+          "category": "接続詞",
+          "name": "so",
+          "where": "so each game can reuse behavior",
+          "explanation": "機能提供の目的・結果を導く。",
+          "rule": "S + V, so + S + V"
+        },
+        {
+          "category": "限定詞",
+          "name": "each + 単数名詞",
+          "where": "each game",
+          "explanation": "ゲームごとの再利用を表す。",
+          "rule": "each + 単数名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can reuse",
+          "explanation": "挙動を再利用できる可能性を示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "前置詞句",
+          "name": "instead of + -ing",
+          "where": "instead of rebuilding",
+          "explanation": "再利用と再構築を対比する。",
+          "rule": "instead of + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "should provides",
+          "correct": "should provide",
+          "why": "助動詞shouldの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "each games can reuse",
+          "correct": "each game can reuse",
+          "why": "eachの後は単数名詞を置く。"
+        },
+        {
+          "wrong": "instead of rebuild the same systems",
+          "correct": "instead of rebuilding the same systems",
+          "why": "前置詞ofの後には動名詞を置く。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Put common physics and input behavior in one reusable engine.",
+          "translation": "共通の物理と入力挙動を、一つの再利用可能なエンジンにまとめてください。"
+        },
+        {
+          "text": "Each game can load configuration instead of duplicating engine code.",
+          "translation": "各ゲームはエンジンコードを複製せず、設定を読み込めます。"
+        },
+        {
+          "text": "A shared runtime reduces repeated implementation across projects.",
+          "translation": "共通ランタイムは、プロジェクト間の実装重複を減らします。"
+        }
+      ],
+      "parseTree": "[S [NP A shared engine] [VP should provide [NP physics, camera, input, and JSON configuration] [AdvP so [S each game can reuse behavior [PP instead of rebuilding the same systems]]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "should provide physics, camera, input, and JSON configuration",
+          "expanded": "because these systems define behavior that many games need in common",
+          "nuance": "共通化する対象の理由を示す。"
+        },
+        {
+          "original": "each game can reuse behavior",
+          "expanded": "since projects can load configuration rather than copy low-level logic",
+          "nuance": "再利用の方法を具体化する。"
+        },
+        {
+          "original": "instead of rebuilding the same systems",
+          "expanded": "therefore, keep game-specific content separate from the shared runtime",
+          "nuance": "エンジンと作品固有部分の分離へ展開する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Physics, camera, and input behavior should be provided by a shared engine.",
+          "translation": "物理、カメラ、入力の挙動は共通エンジンから提供されるべきです。",
+          "note": "提供される機能を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using shared configuration, each game can reuse the same runtime behavior.",
+          "translation": "共通設定を使うことで、各ゲームは同じランタイム挙動を再利用できます。",
+          "note": "再利用の手段を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Engine reuse reduces repeated system implementation.",
+          "translation": "エンジンの再利用は、システム実装の重複を減らします。",
+          "note": "reuseとimplementを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "shared engine",
+            "alternatives": [
+              "common runtime",
+              "core framework",
+              "reusable engine"
+            ],
+            "nuance": "shared engineは複数作品で共有する実行基盤、runtimeは実行時機能、frameworkは開発の枠組みを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "目的と結果",
+            "sentence": "Provide common systems so projects can focus on game-specific content.",
+            "translation": "各プロジェクトがゲーム固有の内容に集中できるよう、共通機能を提供してください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Loading shared behavior is more efficient than copying engine code.",
+            "translation": "共通挙動を読み込む方が、エンジンコードを複製するより効率的です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If behavior is configured in JSON, different games can use the same engine.",
+            "translation": "挙動をJSONで設定すれば、異なるゲームが同じエンジンを使えます。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What should be shared is behavior, not necessarily game content.",
+            "translation": "共有すべきなのは挙動であり、必ずしもゲーム内容ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Build behavior once, configure it many times.",
+            "translation": "挙動は一度作り、何度も設定する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "共通化する機能と再利用目的を一文で明確にした。技術領域に特化するためflexibilityを8とした。"
+    }
+  }
+]
