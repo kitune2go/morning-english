@@ -6256,5 +6256,563 @@
         }
       ]
     }
+  ],
+  "DE-20261107-001": [
+    {
+      "words": {
+        "describe": {
+          "ja": "説明する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Being able to describe a shape in an image is not the same as being able to rebuild it as a three-dimensional part.",
+          "ja": "画像内の形を説明できることは、それを三次元部品として作り直せることと同じではない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "contours": {
+          "ja": "輪郭"
+        },
+        "shading": {
+          "ja": "陰影"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Even after contours and shading are recognized,",
+          "ja": "輪郭と陰影を認識した後でも、"
+        }
+      ]
+    },
+    {
+      "words": {
+        "thickness": {
+          "ja": "厚み"
+        }
+      },
+      "phrases": [
+        {
+          "en": "thickness, the hidden side, joints, and range of motion remain outside the frame.",
+          "ja": "厚み、見えない側、接合部、可動域は画面の外に残る。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "suddenly": {
+          "ja": "急に"
+        },
+        "clumsy": {
+          "ja": "不器用な"
+        },
+        "lacks": {
+          "ja": "欠いている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "AI can seem suddenly clumsy in 3D not because it cannot see, but because it lacks a control system for deciding what the image does not show.",
+          "ja": "AIが三次元では急に不器用に見えるのは、見えないからではなく、画像に映らない部分を決める操作系がないからだ。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "geometry": {
+          "ja": "形状・幾何形状"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Understanding needs a bridge that turns judgment into coordinates before it can become geometry.",
+          "ja": "理解が形状になる前に、判断を座標へ変える橋が必要になる。"
+        }
+      ]
+    }
+  ],
+  "DE-20261107-002": [
+    {
+      "words": {
+        "proposed": {
+          "ja": "提案された"
+        },
+        "curve": {
+          "ja": "曲線"
+        },
+        "few": {
+          "ja": "少数の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The proposed tool was a curve with only a few control points,",
+          "ja": "提案された道具は、少数の制御点だけを持つ曲線だった。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "vertices": {
+          "ja": "頂点（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "used instead of moving vertices one by one.",
+          "ja": "それは頂点を一つずつ動かす代わりに使われる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "belly": {
+          "ja": "腹部"
+        },
+        "plates": {
+          "ja": "板状部品（複数）"
+        },
+        "curves": {
+          "ja": "曲線（複数）"
+        },
+        "surfaces": {
+          "ja": "面（複数）"
+        },
+        "regenerated": {
+          "ja": "再生成される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The borders of the face and belly plates would be defined by curves, and the surfaces regenerated from them each time.",
+          "ja": "顔板と腹板の縁は曲線で定義され、面は毎回その曲線から再生成される。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "degrees": {
+          "ja": "度・自由度"
+        },
+        "capability": {
+          "ja": "能力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Reducing degrees of freedom does not take capability away.",
+          "ja": "自由度を減らしても、能力を奪うことにはならない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "revision": {
+          "ja": "修正"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It turns a revision into a unit of meaning that both people and AI can read.",
+          "ja": "それは修正を、人にもAIにも読める意味の単位へ変える。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "tool": {
+          "ja": "道具"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A good tool cuts the number of motions while making the location of judgment easier to see.",
+          "ja": "よい道具は手数を減らす一方で、判断の所在を見えやすくする。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "constraints": {
+          "ja": "制約"
+        },
+        "creation": {
+          "ja": "創造"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Constraints do not narrow creation; they make it revisable.",
+          "ja": "制約は創造を狭めず、修正できるものにする。"
+        }
+      ]
+    }
+  ],
+  "DE-20261107-003": [
+    {
+      "words": {
+        "applies": {
+          "ja": "当てはまる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The same principle applies to branches in a development project.",
+          "ja": "同じ原則は、開発プロジェクトの枝にも当てはまる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "splitting": {
+          "ja": "分けること"
+        },
+        "rejoins": {
+          "ja": "再び合流する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Splitting up the work is not enough if it remains unclear what a pull request changes or where it rejoins the whole.",
+          "ja": "プルリクエストが何を変え、全体のどこへ合流するか不明なままなら、作業を分けるだけでは足りない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "overall": {
+          "ja": "全体の"
+        },
+        "dependencies": {
+          "ja": "依存関係"
+        },
+        "efforts": {
+          "ja": "作業・取り組み"
+        },
+        "cease": {
+          "ja": "〜でなくなる"
+        },
+        "fragments": {
+          "ja": "断片"
+        }
+      },
+      "phrases": [
+        {
+          "en": "With an overall map, dependencies, and validation criteria, parallel efforts cease to be scattered fragments.",
+          "ja": "全体マップ、依存関係、検証基準があれば、並行作業は散乱した断片ではなくなる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "vertex": {
+          "ja": "頂点"
+        },
+        "hierarchies": {
+          "ja": "階層構造"
+        },
+        "match": {
+          "ja": "一致する"
+        },
+        "byte-identical": {
+          "ja": "バイト単位で同一の"
+        },
+        "glb": {
+          "ja": "GLB形式"
+        },
+        "cpus": {
+          "ja": "CPU（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Checking whether vertex counts and part hierarchies match may serve the goal better than demanding byte-identical GLB files across different CPUs.",
+          "ja": "異なるCPU間でバイト単位に同一のGLBを求めるより、頂点数と部品階層が一致するか確かめる方が目的にかなう場合がある。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "capability": {
+          "ja": "能力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Capability becomes a process only after it is given tools, a map, and criteria for judgment.",
+          "ja": "能力は、道具と地図と判定基準を与えられて初めて工程になる。"
+        }
+      ]
+    }
+  ],
+  "DE-20261108-001": [
+    {
+      "words": {
+        "merging": {
+          "ja": "統合すること"
+        },
+        "generator": {
+          "ja": "生成器"
+        },
+        "branch": {
+          "ja": "ブランチ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Merging a shared generator into the main branch does not make the work complete",
+          "ja": "共通生成器をmainブランチへ統合しても、作業は完成しない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "tested": {
+          "ja": "テストされる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "until it has been tested on a real model.",
+          "ja": "実モデルでテストされるまでは。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "phone": {
+          "ja": "スマートフォン"
+        }
+      },
+      "phrases": [
+        {
+          "en": "An open path in the code changes nothing on a phone if production still serves an older build.",
+          "ja": "コード上の経路が開いていても、本番が古いビルドを配信しているなら、スマートフォン上では何も変わらない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "usage": {
+          "ja": "利用"
+        },
+        "publication": {
+          "ja": "公開"
+        },
+        "availability": {
+          "ja": "利用可能性"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When a usage limit blocks publication, a delay opens between implementation and availability.",
+          "ja": "利用上限が公開を妨げると、実装と利用可能性の間に遅れが生じる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "merged": {
+          "ja": "マージされた"
+        },
+        "user's": {
+          "ja": "利用者の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Progress should be measured not by merged lines, but by the features that actually reach the user's hands.",
+          "ja": "進捗はマージされた行数ではなく、実際に利用者の手元へ届く機能で測るべきだ。"
+        }
+      ]
+    }
+  ],
+  "DE-20261108-002": [
+    {
+      "words": {
+        "wanted": {
+          "ja": "求められていた"
+        },
+        "remote": {
+          "ja": "遠隔の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What was wanted was not a label that said remote control,",
+          "ja": "求められていたのは、遠隔操作と書かれた名札ではなく、"
+        }
+      ]
+    },
+    {
+      "words": {
+        "blender": {
+          "ja": "Blender"
+        },
+        "chat": {
+          "ja": "チャット"
+        },
+        "viewing": {
+          "ja": "見ること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "but a route for moving Blender from chat, viewing the editor, checking the result, and sending back the next correction.",
+          "ja": "チャットからBlenderを動かし、エディタを見て、結果を確かめ、次の修正を返すための経路だった。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "local": {
+          "ja": "ローカルの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When a local environment is unavailable,",
+          "ja": "ローカル環境が利用できないとき、"
+        }
+      ]
+    },
+    {
+      "words": {
+        "colab": {
+          "ja": "Colab"
+        },
+        "backend": {
+          "ja": "バックエンド"
+        }
+      },
+      "phrases": [
+        {
+          "en": "keeping the Colab backend still has value.",
+          "ja": "Colabのバックエンドを残すことには、なお価値がある。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "vary": {
+          "ja": "一つに限られない"
+        },
+        "plugin": {
+          "ja": "プラグイン"
+        },
+        "chat": {
+          "ja": "チャット"
+        },
+        "generator": {
+          "ja": "生成器"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The point of entry can vary as long as the plugin, editor, and chat all return to the same generator and state.",
+          "ja": "プラグイン、エディタ、チャットがすべて同じ生成器と状態へ戻れる限り、入口は一つでなくてよい。"
+        }
+      ]
+    }
+  ],
+  "DE-20261108-003": [
+    {
+      "words": {
+        "network": {
+          "ja": "接続網"
+        },
+        "long-awaited": {
+          "ja": "待望の"
+        },
+        "friendly": {
+          "ja": "親しみやすい"
+        },
+        "either": {
+          "ja": "〜もまた（否定文）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A large network and words such as \"long-awaited\" or \"casual and friendly\" do not guarantee a response either.",
+          "ja": "大きな接続網も、「待望」や「ゆるふわ」のような言葉も、反応を保証しない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "enthusiasm": {
+          "ja": "熱狂"
+        },
+        "trapped": {
+          "ja": "閉じ込められた"
+        },
+        "sign": {
+          "ja": "看板"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Strong promotion can leave enthusiasm trapped behind the sign",
+          "ja": "強い告知でも、熱狂を看板の内側に閉じ込めたままにしうる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "few": {
+          "ja": "少数の"
+        },
+        "watch": {
+          "ja": "見る"
+        }
+      },
+      "phrases": [
+        {
+          "en": "if few people actually watch or want to return.",
+          "ja": "実際に見る人や、再び見たい人が少なければ。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "grow": {
+          "ja": "〜になる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Development and publicity both grow heavy when they merely multiply entrances.",
+          "ja": "開発も宣伝も、入口を増やすだけでは重くなる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "route": {
+          "ja": "経路"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A route becomes alive only when an action returns as a result and words return as a response.",
+          "ja": "操作が結果として返り、言葉が反応として返るときにだけ、経路は生きたものになる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "route": {
+          "ja": "経路"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The existence of a round trip, more than the size of the numbers, proves that a route is real.",
+          "ja": "数字の大きさ以上に、往復があることが経路の実在を証明する。"
+        }
+      ]
+    }
   ]
 }
