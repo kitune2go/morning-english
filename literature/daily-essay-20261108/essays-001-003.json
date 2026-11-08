@@ -1,0 +1,170 @@
+[
+  {
+    "id": "DE-20261108-001",
+    "sourceTitle": "『届くことと動かせることの間』",
+    "workId": "daily-essay-20261108",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "マージの先にある到達",
+    "jp": "共通生成器をmainへ統合しても、実モデルで動くところまで確かめなければ、完成とは言えない。コード上の入口が開いていても、本番が古いビルドのままなら、スマートフォンから見える景色は変わらない。利用上限で公開が止まると、実装済みと利用可能の間に時間差ができる。進捗は、マージされた行数ではなく、使う人の手元へ届いた機能で測るべきだ。",
+    "translationLiteral": "Even if a shared generator is merged into main, it cannot be called complete unless it is confirmed to work with a real model. Even when the entrance in the code is open, the view from a smartphone does not change if production remains on an old build. When publication is stopped by a usage limit, a time gap arises between implemented and available. Progress should be measured not by the number of merged lines but by the functions that have reached the user's hands.",
+    "translationNatural": "Merging a shared generator into the main branch does not make the work complete until it has been tested on a real model. An open path in the code changes nothing on a phone if production still serves an older build. When a usage limit blocks publication, a delay opens between implementation and availability. Progress should be measured not by merged lines, but by the features that actually reach the user's hands.",
+    "imageUrl": "",
+    "imageCaption": "mainへ統合された生成器と、古い画面のままのスマートフォンの間に残る遅れ。",
+    "imagePrompt": "An editorial technology scene with a shared generator merged into a main pipeline while a smartphone still shows an older build, a visible delay between implementation and availability, muted colors, no text",
+    "chunks": [
+      {
+        "en": "Merging a shared generator into the main branch does not make the work complete",
+        "ja": "共通生成器をmainブランチへ統合しても、作業は完成しない。"
+      },
+      {
+        "en": "until it has been tested on a real model.",
+        "ja": "実モデルでテストされるまでは。"
+      },
+      {
+        "en": "An open path in the code changes nothing on a phone if production still serves an older build.",
+        "ja": "コード上の経路が開いていても、本番が古いビルドを配信しているなら、スマートフォン上では何も変わらない。"
+      },
+      {
+        "en": "When a usage limit blocks publication, a delay opens between implementation and availability.",
+        "ja": "利用上限が公開を妨げると、実装と利用可能性の間に遅れが生じる。"
+      },
+      {
+        "en": "Progress should be measured not by merged lines, but by the features that actually reach the user's hands.",
+        "ja": "進捗はマージされた行数ではなく、実際に利用者の手元へ届く機能で測るべきだ。"
+      }
+    ],
+    "grammar": [
+      "Merging ... は動名詞句を主語にする。",
+      "make the work complete は make O C の形で状態変化を表す。",
+      "until it has been tested は完了の成立条件を現在完了の受動態で示す。",
+      "if production still serves ... は表示が変わらない条件を示す。",
+      "between implementation and availability は時間差の両端を明示する。",
+      "not by A, but by B は進捗の測定基準を対比する。"
+    ],
+    "translationNote": "literal は『入口』『景色』の比喩を残し、natural は実際の配信経路を明確にするため path と changes nothing on a phone に置き換えた。実装済みと利用可能は implementation and availability と名詞で対比した。",
+    "readingPoint": "導入。統合という内部イベントと、利用者の手元へ機能が届くことを分け、進捗の測定点を外側へ移す。",
+    "keywords": [
+      "共通生成器",
+      "本番環境",
+      "旧ビルド",
+      "利用上限",
+      "到達"
+    ]
+  },
+  {
+    "id": "DE-20261108-002",
+    "sourceTitle": "『届くことと動かせることの間』",
+    "workId": "daily-essay-20261108",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "遠隔という名札を越えて",
+    "jp": "望まれていたのは、遠隔操作という名札ではなく、チャットからBlenderを動かし、編集画面を見て、結果を確かめ、次の修正を返せる経路だった。ローカル環境を使えないとき、Colabのバックエンドを残すことにも意味がある。プラグイン、エディタ、チャットのどこから始めても、同じ生成器と状態へ戻れるなら、操作の場所は一つでなくてよい。",
+    "translationLiteral": "What was wanted was not the label of remote control but a route that could move Blender from chat, view the editing screen, verify the result, and return the next correction. When a local environment cannot be used, retaining the Colab backend also has meaning. If one can return to the same generator and state whether starting from the plugin, editor, or chat, the place of operation does not have to be one.",
+    "translationNatural": "What was wanted was not a label that said remote control, but a route for moving Blender from chat, viewing the editor, checking the result, and sending back the next correction. When a local environment is unavailable, keeping the Colab backend still has value. The point of entry can vary as long as the plugin, editor, and chat all return to the same generator and state.",
+    "imageUrl": "",
+    "imageCaption": "チャット、エディタ、プラグインが同じ生成器と状態へ戻る遠隔操作経路。",
+    "imagePrompt": "A refined editorial illustration of chat, a 3D editor, a plugin, and a cloud notebook connected to the same generator and shared state, showing a closed feedback loop, no text",
+    "chunks": [
+      {
+        "en": "What was wanted was not a label that said remote control,",
+        "ja": "求められていたのは、遠隔操作と書かれた名札ではなく、"
+      },
+      {
+        "en": "but a route for moving Blender from chat, viewing the editor, checking the result, and sending back the next correction.",
+        "ja": "チャットからBlenderを動かし、エディタを見て、結果を確かめ、次の修正を返すための経路だった。"
+      },
+      {
+        "en": "When a local environment is unavailable,",
+        "ja": "ローカル環境が利用できないとき、"
+      },
+      {
+        "en": "keeping the Colab backend still has value.",
+        "ja": "Colabのバックエンドを残すことには、なお価値がある。"
+      },
+      {
+        "en": "The point of entry can vary as long as the plugin, editor, and chat all return to the same generator and state.",
+        "ja": "プラグイン、エディタ、チャットがすべて同じ生成器と状態へ戻れる限り、入口は一つでなくてよい。"
+      }
+    ],
+    "grammar": [
+      "What was wanted は名詞節を主語にし、求められていたものを焦点化する。",
+      "not A, but B は名札と実際の経路を対比する。",
+      "for moving ..., viewing ..., checking ..., and sending ... は目的を示す動名詞の並列。",
+      "When ... is unavailable は利用条件を示す。",
+      "keeping the Colab backend は動名詞句の主語。",
+      "as long as ... は入口を複数にできる条件を示す。"
+    ],
+    "translationNote": "literal は『操作の場所は一つでなくてよい』まで逐語的に残し、natural は入口の選択肢を The point of entry can vary とし、as long as で条件を自然にまとめた。BlenderとColabは製品・サービス名として保持し、所有者や主体を追加していない。",
+    "readingPoint": "展開部。遠隔操作を名称ではなく、操作・観察・検証・修正が一巡する経路として定義し直す。",
+    "keywords": [
+      "遠隔操作",
+      "Blender",
+      "Colab",
+      "エディタ",
+      "状態同期"
+    ]
+  },
+  {
+    "id": "DE-20261108-003",
+    "sourceTitle": "『届くことと動かせることの間』",
+    "workId": "daily-essay-20261108",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "反応が戻る経路",
+    "jp": "大きな接続網や「待望」「ゆるふわ」という言葉も、届いた反応までは保証しない。告知が強くても、実際に見た人や再び見たい人が少なければ、熱狂は看板の内側に留まる。開発も宣伝も、入口を増やすだけでは重くなる。操作が結果として返り、言葉が反応として返るとき、はじめて経路は生きていると分かる。数字の大きさより、往復の有無が経路を証明する。",
+    "translationLiteral": "A large network of connections and words such as \"long-awaited\" and \"casual and friendly\" do not guarantee the response that arrives. Even if publicity is strong, if few people actually watch or want to watch again, enthusiasm remains inside the signboard. Both development and promotion become heavy if they only increase entrances. Only when an operation returns as a result and words return as a response can we know that the route is alive. More than the size of the numbers, the presence of a round trip proves that the route is real.",
+    "translationNatural": "A large network and words such as \"long-awaited\" or \"casual and friendly\" do not guarantee a response either. Strong promotion can leave enthusiasm trapped behind the sign if few people actually watch or want to return. Development and publicity both grow heavy when they merely multiply entrances. A route becomes alive only when an action returns as a result and words return as a response. The existence of a round trip, more than the size of the numbers, proves that a route is real.",
+    "imageUrl": "",
+    "imageCaption": "大きな看板の向こうから、わずかな反応だけが戻ってくる経路。",
+    "imagePrompt": "An understated editorial scene of a large promotional sign and wide network with only a few returning signals, contrasted with a vivid feedback loop between action and response, no text",
+    "chunks": [
+      {
+        "en": "A large network and words such as \"long-awaited\" or \"casual and friendly\" do not guarantee a response either.",
+        "ja": "大きな接続網も、「待望」や「ゆるふわ」のような言葉も、反応を保証しない。"
+      },
+      {
+        "en": "Strong promotion can leave enthusiasm trapped behind the sign",
+        "ja": "強い告知でも、熱狂を看板の内側に閉じ込めたままにしうる。"
+      },
+      {
+        "en": "if few people actually watch or want to return.",
+        "ja": "実際に見る人や、再び見たい人が少なければ。"
+      },
+      {
+        "en": "Development and publicity both grow heavy when they merely multiply entrances.",
+        "ja": "開発も宣伝も、入口を増やすだけでは重くなる。"
+      },
+      {
+        "en": "A route becomes alive only when an action returns as a result and words return as a response.",
+        "ja": "操作が結果として返り、言葉が反応として返るときにだけ、経路は生きたものになる。"
+      },
+      {
+        "en": "The existence of a round trip, more than the size of the numbers, proves that a route is real.",
+        "ja": "数字の大きさ以上に、往復があることが経路の実在を証明する。"
+      }
+    ],
+    "grammar": [
+      "such as ... は言葉の具体例を挙げる。",
+      "do not guarantee ... either は接続網と言葉の双方に否定を及ぼす。",
+      "leave O trapped は O を閉じ込められた状態にする。",
+      "if few people ... は反応が届かない条件を示す。",
+      "when they merely multiply ... は重くなる時の条件を示す。",
+      "only when ... は経路が生きるための条件を強調する。",
+      "more than ... は数字の大きさより往復の有無を重視する比較表現。"
+    ],
+    "translationNote": "natural は『熱狂は看板の内側に留まる』を leave enthusiasm trapped behind the sign と能動的な比喩へ整えたが、告知と反応の隔たりは保持した。『ゆるふわ』はこの文脈で語調を表すため casual and friendly と句で訳した。 最終文の『往復』は双方向の反応を指すため the existence of a round trip とし、proves that a route is real で経路の実在を判定している。",
+    "readingPoint": "結び。技術の到達問題を宣伝と言葉の反応へ重ね、経路の実在を戻ってくる結果で判定する余韻を置く。 最終文で規模ではなく往復を経路の証拠とする。",
+    "keywords": [
+      "接続網",
+      "告知",
+      "反応",
+      "入口",
+      "フィードバック",
+      "往復"
+    ]
+  }
+]
