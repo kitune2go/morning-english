@@ -396,5 +396,19 @@
     "description": "実使用で現れる不具合、声を囲む権限と制度、応答するように見える制作履歴、部品と接合から立つ未来型モビリティを通して、見える結果を支える条件の集合を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261106/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261107",
+    "title": "点を動かす手から、道具を渡す手へ",
+    "description": "画像認識と三次元造形の差、制御点を持つ曲線、面の再生成、開発ブランチの地図と検証基準を通して、能力を修正可能な工程へ変える道具を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261107/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261108",
+    "title": "届くことと動かせることの間",
+    "description": "統合と実モデル検証、旧ビルドと公開上限、チャットからの遠隔操作経路、宣伝語と実際の反応を通して、接続が生きた往復になる条件を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261108/manifest.json",
+    "mode": "essay-translation"
   }
 ]
