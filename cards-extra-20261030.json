@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 182,
+    "_generatedAt": "2026-10-30T02:00:00+09:00",
+    "sentence": "Before adding NC generation, make the DXF reader reproduce lines, arcs, circles, and reference points correctly; a larger feature set cannot compensate for inconsistent geometry.",
+    "phonetic": "ビフォー アディング エヌシー ジェネレイション、メイク ザ ディーエックスエフ リーダー リプロデュース ラインズ、アークス、サークルズ、アンド レファレンス ポインツ コレクトリー；ア ラージャー フィーチャー セット キャノット コンペンセイト フォー インコンシステント ジオメトリー。",
+    "japaneseTranslation": "NC生成を追加する前に、DXFリーダーが線、円弧、円、基準点を正しく再現できるようにしてください。機能を増やしても、形状の不整合は補えません。",
+    "theme": "機能追加より先にDXF形状の整合性を固める",
+    "coreVerb": "reproduce",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The reader reproduces geometry.",
+        "translation": "リーダーは形状を再現します。"
+      },
+      "phase2": {
+        "sentence": "The DXF reader reproduces lines, arcs, circles, and reference points.",
+        "translation": "DXFリーダーは線、円弧、円、基準点を再現します。",
+        "addedChunks": "対象(lines, arcs, circles, and reference points)を追加"
+      },
+      "phase3": {
+        "sentence": "Make the DXF reader reproduce geometry before adding NC generation.",
+        "translation": "NC生成を追加する前に、DXFリーダーに形状を再現させてください。",
+        "connector": "before"
+      },
+      "phase4": {
+        "sentence": "Consistent geometry matters more than a larger feature set.",
+        "translation": "形状の整合性は、機能数の多さより重要です。",
+        "comparison": "more than"
+      },
+      "phase5": {
+        "sentence": "Before adding NC generation, make the DXF reader reproduce lines, arcs, circles, and reference points correctly; a larger feature set cannot compensate for inconsistent geometry",
+        "translation": "NC生成を追加する前に、DXFリーダーが線、円弧、円、基準点を正しく再現できるようにしてください。機能を増やしても、形状の不整合は補えません。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Before adding NC generation,",
+          "function": "時間",
+          "translation": "NC生成を追加する前に"
+        },
+        {
+          "text": "make the DXF reader reproduce",
+          "function": "行動",
+          "translation": "DXFリーダーが再現できるようにしてください"
+        },
+        {
+          "text": "lines, arcs, circles, and reference points",
+          "function": "対象",
+          "translation": "線、円弧、円、基準点を"
+        },
+        {
+          "text": "correctly;",
+          "function": "様態",
+          "translation": "正しく"
+        },
+        {
+          "text": "a larger feature set cannot compensate for",
+          "function": "行動",
+          "translation": "機能を増やしても補えません"
+        },
+        {
+          "text": "inconsistent geometry.",
+          "function": "対象",
+          "translation": "形状の不整合は"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時間表現",
+          "name": "before + -ing",
+          "where": "Before adding NC generation",
+          "explanation": "NC生成より先に行う作業を示す。",
+          "rule": "before + 動名詞"
+        },
+        {
+          "category": "使役構文",
+          "name": "make O do",
+          "where": "make the DXF reader reproduce",
+          "explanation": "リーダーに再現させるという要求を表す。",
+          "rule": "make + O + 動詞原形"
+        },
+        {
+          "category": "列挙",
+          "name": "四項並列",
+          "where": "lines, arcs, circles, and reference points",
+          "explanation": "再現対象を同列に並べる。",
+          "rule": "A, B, C, and D"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "correctly; a larger feature set",
+          "explanation": "密接に関係する二つの独立節を接続する。",
+          "rule": "独立節 ; 独立節"
+        },
+        {
+          "category": "助動詞",
+          "name": "cannot",
+          "where": "cannot compensate",
+          "explanation": "機能数では形状不整合を補えないことを示す。",
+          "rule": "cannot + 動詞原形"
+        },
+        {
+          "category": "動詞句",
+          "name": "compensate for",
+          "where": "compensate for inconsistent geometry",
+          "explanation": "欠点や不足を補う意味の句動詞。",
+          "rule": "compensate for + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Before add NC generation",
+          "correct": "Before adding NC generation",
+          "why": "前置詞beforeの後には動名詞を置く。"
+        },
+        {
+          "wrong": "make the DXF reader reproduces",
+          "correct": "make the DXF reader reproduce",
+          "why": "make O doでは補語の動詞を原形にする。"
+        },
+        {
+          "wrong": "compensate inconsistent geometry",
+          "correct": "compensate for inconsistent geometry",
+          "why": "compensateは対象の前にforを取る。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Validate the geometry before expanding the toolchain.",
+          "translation": "ツール群を拡張する前に形状を検証してください。"
+        },
+        {
+          "text": "A reliable DXF reader is more valuable than premature NC output.",
+          "translation": "信頼できるDXFリーダーは、時期尚早なNC出力より価値があります。"
+        },
+        {
+          "text": "More features cannot repair a broken geometric foundation.",
+          "translation": "機能を増やしても、壊れた形状基盤は直せません。"
+        }
+      ],
+      "parseTree": "[S [AdvP Before adding NC generation] [,] [VP make [NP the DXF reader] [VP reproduce [NP lines, arcs, circles, and reference points] [Adv correctly]]] [;] [S [NP a larger feature set] [VP cannot compensate for [NP inconsistent geometry]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Before adding NC generation",
+          "expanded": "because toolpath output depends on geometry that has already been interpreted correctly",
+          "nuance": "後工程が読込精度に依存する理由を示す。"
+        },
+        {
+          "original": "reproduce lines, arcs, circles, and reference points correctly",
+          "expanded": "since each entity must preserve its position and shape across the workflow",
+          "nuance": "形状整合の具体的対象を示す。"
+        },
+        {
+          "original": "cannot compensate for inconsistent geometry",
+          "expanded": "therefore, validate the geometric foundation before increasing feature count",
+          "nuance": "優先順位を結論化する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Lines, arcs, circles, and reference points must be reproduced correctly before NC generation is added.",
+          "translation": "NC生成を追加する前に、線、円弧、円、基準点を正しく再現しなければなりません。",
+          "note": "再現対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Validating the geometry first, developers can add later features safely.",
+          "translation": "先に形状を検証することで、開発者は後続機能を安全に追加できます。",
+          "note": "先行作業を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Accurate geometric reproduction should precede feature expansion.",
+          "translation": "正確な形状再現は機能拡張より先に行うべきです。",
+          "note": "reproduceとexpandを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "reproduce",
+            "alternatives": [
+              "render",
+              "reconstruct",
+              "preserve"
+            ],
+            "nuance": "reproduceは元データの再現、renderは描画、reconstructは再構築、preserveは情報保持を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "優先順位",
+            "sentence": "Stabilize the input layer before building the output layer.",
+            "translation": "出力層を作る前に入力層を安定させてください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Correct geometry is more important than early NC generation.",
+            "translation": "正しい形状は、早期のNC生成より重要です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the reader distorts an arc, every downstream calculation inherits the error.",
+            "translation": "リーダーが円弧を歪めれば、後続計算はすべてその誤差を引き継ぎます。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters first is geometric consistency.",
+            "translation": "最初に重要なのは形状の整合性です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Geometry first, features later.",
+            "translation": "形状が先、機能は後。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "工程の優先順位を明確に表現した。列挙とセミコロンを含むためflexibilityとefficiencyを8とした。"
+    }
+  }
+]
