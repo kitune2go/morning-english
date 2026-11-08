@@ -626,8 +626,8 @@
   },
   {
     "word": "blender",
-    "ja": "Blender",
-    "note": "今回の作品では「Blender」の文脈で用いる。"
+    "ja": "3D制作ソフトのBlender",
+    "note": "今回の作品では、遠隔操作の対象となる3D制作ソフトを指す。"
   },
   {
     "word": "branch",
@@ -661,8 +661,8 @@
   },
   {
     "word": "colab",
-    "ja": "Colab",
-    "note": "今回の作品では「Colab」の文脈で用いる。"
+    "ja": "クラウド実行環境のColab",
+    "note": "今回の作品では、ローカル環境を使えない場合に残すクラウド側の実行環境を指す。"
   },
   {
     "word": "constraints",
