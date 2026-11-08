@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 183,
+    "_generatedAt": "2026-10-31T02:00:00+09:00",
+    "sentence": "A pixelated image becomes a reusable game asset when its palette and grid remain editable, not when it is exported only as a finished picture.",
+    "phonetic": "ア ピクセレイティッド イメージ ビカムズ ア リユーザブル ゲイム アセット ウェン イッツ パレット アンド グリッド リメイン エディタブル、ノット ウェン イット イズ エクスポーテッド オウンリー アズ ア フィニッシュト ピクチャー。",
+    "japaneseTranslation": "ドット化した画像は、完成画像として書き出すだけではなく、パレットとグリッドを編集可能なまま保つことで、再利用できるゲーム素材になります。",
+    "theme": "ドット絵を再編集可能なゲーム素材として保存する",
+    "coreVerb": "become",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The image becomes an asset.",
+        "translation": "画像は素材になります。"
+      },
+      "phase2": {
+        "sentence": "The pixelated image becomes a reusable game asset.",
+        "translation": "ドット化した画像は再利用可能なゲーム素材になります。",
+        "addedChunks": "修飾(pixelated, reusable game)を追加"
+      },
+      "phase3": {
+        "sentence": "The image is reusable because its palette remains editable.",
+        "translation": "パレットを編集できるため、画像は再利用可能です。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Editable pixel data is more useful than a finished picture.",
+        "translation": "編集可能なピクセルデータは、完成画像より有用です。",
+        "comparison": "more useful than"
+      },
+      "phase5": {
+        "sentence": "A pixelated image becomes a reusable game asset when its palette and grid remain editable, not when it is exported only as a finished picture",
+        "translation": "ドット化した画像は、完成画像として書き出すだけではなく、パレットとグリッドを編集可能なまま保つことで、再利用できるゲーム素材になります。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A pixelated image",
+          "function": "対象",
+          "translation": "ドット化した画像は"
+        },
+        {
+          "text": "becomes a reusable game asset",
+          "function": "結果",
+          "translation": "再利用できるゲーム素材になります"
+        },
+        {
+          "text": "when its palette and grid",
+          "function": "対象",
+          "translation": "パレットとグリッドを"
+        },
+        {
+          "text": "remain editable,",
+          "function": "状態",
+          "translation": "編集可能なまま保つことで"
+        },
+        {
+          "text": "not when it is exported only",
+          "function": "比較",
+          "translation": "単に書き出すときではなく"
+        },
+        {
+          "text": "as a finished picture.",
+          "function": "結果",
+          "translation": "完成画像として"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "分詞",
+          "name": "過去分詞の形容詞用法",
+          "where": "A pixelated image",
+          "explanation": "pixelateされた画像をpixelatedで修飾する。",
+          "rule": "過去分詞 + 名詞"
+        },
+        {
+          "category": "文型",
+          "name": "become + 名詞補語",
+          "where": "becomes a reusable game asset",
+          "explanation": "画像が素材へ変わることを表す。",
+          "rule": "S + become + C"
+        },
+        {
+          "category": "副詞節",
+          "name": "when節",
+          "where": "when its palette and grid remain editable",
+          "explanation": "再利用可能になる条件を示す。",
+          "rule": "when + S + V"
+        },
+        {
+          "category": "文型",
+          "name": "remain + 形容詞",
+          "where": "remain editable",
+          "explanation": "編集可能な状態が維持されることを表す。",
+          "rule": "remain + C"
+        },
+        {
+          "category": "対比",
+          "name": "A, not B",
+          "where": "when ..., not when ...",
+          "explanation": "本質的な条件と不十分な条件を対比する。",
+          "rule": "A, not B"
+        },
+        {
+          "category": "受動態",
+          "name": "be exported",
+          "where": "it is exported",
+          "explanation": "画像が書き出される処理を受動態で示す。",
+          "rule": "be + 過去分詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "becomes to a reusable asset",
+          "correct": "becomes a reusable asset",
+          "why": "becomeが名詞補語を取る場合、toは不要。"
+        },
+        {
+          "wrong": "palette and grid remains editable",
+          "correct": "palette and grid remain editable",
+          "why": "andで結ばれた複数主語にはremainを使う。"
+        },
+        {
+          "wrong": "is exported as only a finished picture",
+          "correct": "is exported only as a finished picture",
+          "why": "onlyは限定するas句の直前に置くと意味が明確になる。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Keep the palette and pixel grid editable so the asset can be reused.",
+          "translation": "素材を再利用できるよう、パレットとピクセルグリッドを編集可能に保ってください。"
+        },
+        {
+          "text": "A finished PNG is less flexible than editable pixel data.",
+          "translation": "完成PNGは編集可能なピクセルデータほど柔軟ではありません。"
+        },
+        {
+          "text": "An image becomes a tool when its internal structure remains accessible.",
+          "translation": "内部構造へアクセスできるままなら、画像は道具になります。"
+        }
+      ],
+      "parseTree": "[S [NP A pixelated image] [VP becomes [NP a reusable game asset] [AdvP when [S its palette and grid remain editable]] [,] [AdvP not when [S it is exported only as a finished picture]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "becomes a reusable game asset",
+          "expanded": "because the same visual data can support later edits and new scenes",
+          "nuance": "再利用可能性の意味を具体化する。"
+        },
+        {
+          "original": "its palette and grid remain editable",
+          "expanded": "since colors and individual pixels can still be changed without rebuilding the image",
+          "nuance": "編集可能性の内容を示す。"
+        },
+        {
+          "original": "not when it is exported only as a finished picture",
+          "expanded": "therefore, preserve structured pixel data alongside the rendered image",
+          "nuance": "完成画像だけでは不足する理由を結論化する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The palette and grid must be kept editable for later reuse.",
+          "translation": "後で再利用するには、パレットとグリッドを編集可能に保つ必要があります。",
+          "note": "保持される状態を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Preserving the pixel grid, creators can reuse the image in new scenes.",
+          "translation": "ピクセルグリッドを保持することで、制作者は新しい場面で画像を再利用できます。",
+          "note": "再利用の条件を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Structural preservation increases the asset's reusability.",
+          "translation": "構造の保持は素材の再利用性を高めます。",
+          "note": "preserveとreusableを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "editable",
+            "alternatives": [
+              "modifiable",
+              "adjustable",
+              "revisable"
+            ],
+            "nuance": "editableは編集可能、modifiableは変更可能、adjustableは調整可能、revisableは改訂可能を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "状態維持",
+            "sentence": "Keep the internal data editable after export.",
+            "translation": "書き出し後も内部データを編集可能に保ってください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Structured pixel data is more reusable than a flattened image.",
+            "translation": "構造化されたピクセルデータは、統合された画像より再利用しやすいです。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the grid is preserved, the character can be recolored or animated later.",
+            "translation": "グリッドが保持されれば、後でキャラクターの色変更やアニメーション化ができます。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What turns the picture into an asset is its editable structure.",
+            "translation": "画像を素材に変えるのは、その編集可能な構造です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Keep the pixels, not just the picture.",
+            "translation": "完成画像だけでなく、ピクセルを残す。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "編集可能性と単純な書き出しを対比した。長いnot when節のためefficiencyを8とした。"
+    }
+  }
+]
