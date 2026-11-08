@@ -6267,7 +6267,8 @@
       "phrases": [
         {
           "en": "Being able to describe a shape in an image is not the same as being able to rebuild it as a three-dimensional part.",
-          "ja": "画像内の形を説明できることは、それを三次元部品として作り直せることと同じではない。"
+          "ja": "画像内の形を説明できることは、それを三次元部品として作り直せることと同じではない。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6283,7 +6284,8 @@
       "phrases": [
         {
           "en": "Even after contours and shading are recognized,",
-          "ja": "輪郭と陰影を認識した後でも、"
+          "ja": "輪郭と陰影を認識した後でも、",
+          "note": "even after が、認識後にも残る事項を譲歩的に示す。"
         }
       ]
     },
@@ -6296,7 +6298,8 @@
       "phrases": [
         {
           "en": "thickness, the hidden side, joints, and range of motion remain outside the frame.",
-          "ja": "厚み、見えない側、接合部、可動域は画面の外に残る。"
+          "ja": "厚み、見えない側、接合部、可動域は画面の外に残る。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6315,7 +6318,8 @@
       "phrases": [
         {
           "en": "AI can seem suddenly clumsy in 3D not because it cannot see, but because it lacks a control system for deciding what the image does not show.",
-          "ja": "AIが三次元では急に不器用に見えるのは、見えないからではなく、画像に映らない部分を決める操作系がないからだ。"
+          "ja": "AIが三次元では急に不器用に見えるのは、見えないからではなく、画像に映らない部分を決める操作系がないからだ。",
+          "note": "not A, but B の対比を含むまとまりとして読む。"
         }
       ]
     },
@@ -6328,7 +6332,8 @@
       "phrases": [
         {
           "en": "Understanding needs a bridge that turns judgment into coordinates before it can become geometry.",
-          "ja": "理解が形状になる前に、判断を座標へ変える橋が必要になる。"
+          "ja": "理解が形状になる前に、判断を座標へ変える橋が必要になる。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     }
@@ -6349,7 +6354,8 @@
       "phrases": [
         {
           "en": "The proposed tool was a curve with only a few control points,",
-          "ja": "提案された道具は、少数の制御点だけを持つ曲線だった。"
+          "ja": "提案された道具は、少数の制御点だけを持つ曲線だった。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6362,7 +6368,8 @@
       "phrases": [
         {
           "en": "used instead of moving vertices one by one.",
-          "ja": "それは頂点を一つずつ動かす代わりに使われる。"
+          "ja": "それは頂点を一つずつ動かす代わりに使われる。",
+          "note": "instead of が置き換えられる操作を示す。"
         }
       ]
     },
@@ -6387,7 +6394,8 @@
       "phrases": [
         {
           "en": "The borders of the face and belly plates would be defined by curves, and the surfaces regenerated from them each time.",
-          "ja": "顔板と腹板の縁は曲線で定義され、面は毎回その曲線から再生成される。"
+          "ja": "顔板と腹板の縁は曲線で定義され、面は毎回その曲線から再生成される。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6403,7 +6411,8 @@
       "phrases": [
         {
           "en": "Reducing degrees of freedom does not take capability away.",
-          "ja": "自由度を減らしても、能力を奪うことにはならない。"
+          "ja": "自由度を減らしても、能力を奪うことにはならない。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6416,7 +6425,8 @@
       "phrases": [
         {
           "en": "It turns a revision into a unit of meaning that both people and AI can read.",
-          "ja": "それは修正を、人にもAIにも読める意味の単位へ変える。"
+          "ja": "それは修正を、人にもAIにも読める意味の単位へ変える。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6429,7 +6439,8 @@
       "phrases": [
         {
           "en": "A good tool cuts the number of motions while making the location of judgment easier to see.",
-          "ja": "よい道具は手数を減らす一方で、判断の所在を見えやすくする。"
+          "ja": "よい道具は手数を減らす一方で、判断の所在を見えやすくする。",
+          "note": "while が二つの作用を同時に対照させる。"
         }
       ]
     },
@@ -6445,7 +6456,8 @@
       "phrases": [
         {
           "en": "Constraints do not narrow creation; they make it revisable.",
-          "ja": "制約は創造を狭めず、修正できるものにする。"
+          "ja": "制約は創造を狭めず、修正できるものにする。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     }
@@ -6460,7 +6472,8 @@
       "phrases": [
         {
           "en": "The same principle applies to branches in a development project.",
-          "ja": "同じ原則は、開発プロジェクトの枝にも当てはまる。"
+          "ja": "同じ原則は、開発プロジェクトの枝にも当てはまる。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6476,7 +6489,8 @@
       "phrases": [
         {
           "en": "Splitting up the work is not enough if it remains unclear what a pull request changes or where it rejoins the whole.",
-          "ja": "プルリクエストが何を変え、全体のどこへ合流するか不明なままなら、作業を分けるだけでは足りない。"
+          "ja": "プルリクエストが何を変え、全体のどこへ合流するか不明なままなら、作業を分けるだけでは足りない。",
+          "note": "if節が主節の成立条件を示す。"
         }
       ]
     },
@@ -6501,7 +6515,8 @@
       "phrases": [
         {
           "en": "With an overall map, dependencies, and validation criteria, parallel efforts cease to be scattered fragments.",
-          "ja": "全体マップ、依存関係、検証基準があれば、並行作業は散乱した断片ではなくなる。"
+          "ja": "全体マップ、依存関係、検証基準があれば、並行作業は散乱した断片ではなくなる。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6529,7 +6544,8 @@
       "phrases": [
         {
           "en": "Checking whether vertex counts and part hierarchies match may serve the goal better than demanding byte-identical GLB files across different CPUs.",
-          "ja": "異なるCPU間でバイト単位に同一のGLBを求めるより、頂点数と部品階層が一致するか確かめる方が目的にかなう場合がある。"
+          "ja": "異なるCPU間でバイト単位に同一のGLBを求めるより、頂点数と部品階層が一致するか確かめる方が目的にかなう場合がある。",
+          "note": "than を用いた比較で、評価基準の優先順位を示す。"
         }
       ]
     },
@@ -6542,7 +6558,8 @@
       "phrases": [
         {
           "en": "Capability becomes a process only after it is given tools, a map, and criteria for judgment.",
-          "ja": "能力は、道具と地図と判定基準を与えられて初めて工程になる。"
+          "ja": "能力は、道具と地図と判定基準を与えられて初めて工程になる。",
+          "note": "only を伴う条件表現で、成立に必要な時点を強調する。"
         }
       ]
     }
@@ -6563,7 +6580,8 @@
       "phrases": [
         {
           "en": "Merging a shared generator into the main branch does not make the work complete",
-          "ja": "共通生成器をmainブランチへ統合しても、作業は完成しない。"
+          "ja": "共通生成器をmainブランチへ統合しても、作業は完成しない。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6576,7 +6594,8 @@
       "phrases": [
         {
           "en": "until it has been tested on a real model.",
-          "ja": "実モデルでテストされるまでは。"
+          "ja": "実モデルでテストされるまでは。",
+          "note": "until節が完了までの限界点を示す。"
         }
       ]
     },
@@ -6589,7 +6608,8 @@
       "phrases": [
         {
           "en": "An open path in the code changes nothing on a phone if production still serves an older build.",
-          "ja": "コード上の経路が開いていても、本番が古いビルドを配信しているなら、スマートフォン上では何も変わらない。"
+          "ja": "コード上の経路が開いていても、本番が古いビルドを配信しているなら、スマートフォン上では何も変わらない。",
+          "note": "if節が主節の成立条件を示す。"
         }
       ]
     },
@@ -6608,7 +6628,8 @@
       "phrases": [
         {
           "en": "When a usage limit blocks publication, a delay opens between implementation and availability.",
-          "ja": "利用上限が公開を妨げると、実装と利用可能性の間に遅れが生じる。"
+          "ja": "利用上限が公開を妨げると、実装と利用可能性の間に遅れが生じる。",
+          "note": "when節が主節の成立する時点・条件を示す。"
         }
       ]
     },
@@ -6624,7 +6645,8 @@
       "phrases": [
         {
           "en": "Progress should be measured not by merged lines, but by the features that actually reach the user's hands.",
-          "ja": "進捗はマージされた行数ではなく、実際に利用者の手元へ届く機能で測るべきだ。"
+          "ja": "進捗はマージされた行数ではなく、実際に利用者の手元へ届く機能で測るべきだ。",
+          "note": "not A, but B の対比を含むまとまりとして読む。"
         }
       ]
     }
@@ -6642,7 +6664,8 @@
       "phrases": [
         {
           "en": "What was wanted was not a label that said remote control,",
-          "ja": "求められていたのは、遠隔操作と書かれた名札ではなく、"
+          "ja": "求められていたのは、遠隔操作と書かれた名札ではなく、",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6661,7 +6684,8 @@
       "phrases": [
         {
           "en": "but a route for moving Blender from chat, viewing the editor, checking the result, and sending back the next correction.",
-          "ja": "チャットからBlenderを動かし、エディタを見て、結果を確かめ、次の修正を返すための経路だった。"
+          "ja": "チャットからBlenderを動かし、エディタを見て、結果を確かめ、次の修正を返すための経路だった。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6674,7 +6698,8 @@
       "phrases": [
         {
           "en": "When a local environment is unavailable,",
-          "ja": "ローカル環境が利用できないとき、"
+          "ja": "ローカル環境が利用できないとき、",
+          "note": "when節が主節の成立する時点・条件を示す。"
         }
       ]
     },
@@ -6690,7 +6715,8 @@
       "phrases": [
         {
           "en": "keeping the Colab backend still has value.",
-          "ja": "Colabのバックエンドを残すことには、なお価値がある。"
+          "ja": "Colabのバックエンドを残すことには、なお価値がある。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6712,7 +6738,8 @@
       "phrases": [
         {
           "en": "The point of entry can vary as long as the plugin, editor, and chat all return to the same generator and state.",
-          "ja": "プラグイン、エディタ、チャットがすべて同じ生成器と状態へ戻れる限り、入口は一つでなくてよい。"
+          "ja": "プラグイン、エディタ、チャットがすべて同じ生成器と状態へ戻れる限り、入口は一つでなくてよい。",
+          "note": "as long as が継続条件を示す節として読む。"
         }
       ]
     }
@@ -6736,7 +6763,8 @@
       "phrases": [
         {
           "en": "A large network and words such as \"long-awaited\" or \"casual and friendly\" do not guarantee a response either.",
-          "ja": "大きな接続網も、「待望」や「ゆるふわ」のような言葉も、反応を保証しない。"
+          "ja": "大きな接続網も、「待望」や「ゆるふわ」のような言葉も、反応を保証しない。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6755,7 +6783,8 @@
       "phrases": [
         {
           "en": "Strong promotion can leave enthusiasm trapped behind the sign",
-          "ja": "強い告知でも、熱狂を看板の内側に閉じ込めたままにしうる。"
+          "ja": "強い告知でも、熱狂を看板の内側に閉じ込めたままにしうる。",
+          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
         }
       ]
     },
@@ -6771,7 +6800,8 @@
       "phrases": [
         {
           "en": "if few people actually watch or want to return.",
-          "ja": "実際に見る人や、再び見たい人が少なければ。"
+          "ja": "実際に見る人や、再び見たい人が少なければ。",
+          "note": "if節が主節の成立条件を示す。"
         }
       ]
     },
@@ -6784,7 +6814,8 @@
       "phrases": [
         {
           "en": "Development and publicity both grow heavy when they merely multiply entrances.",
-          "ja": "開発も宣伝も、入口を増やすだけでは重くなる。"
+          "ja": "開発も宣伝も、入口を増やすだけでは重くなる。",
+          "note": "when節が主節の成立する時点・条件を示す。"
         }
       ]
     },
@@ -6797,7 +6828,8 @@
       "phrases": [
         {
           "en": "A route becomes alive only when an action returns as a result and words return as a response.",
-          "ja": "操作が結果として返り、言葉が反応として返るときにだけ、経路は生きたものになる。"
+          "ja": "操作が結果として返り、言葉が反応として返るときにだけ、経路は生きたものになる。",
+          "note": "only を伴う条件表現で、成立に必要な時点を強調する。"
         }
       ]
     },
@@ -6810,7 +6842,8 @@
       "phrases": [
         {
           "en": "The existence of a round trip, more than the size of the numbers, proves that a route is real.",
-          "ja": "数字の大きさ以上に、往復があることが経路の実在を証明する。"
+          "ja": "数字の大きさ以上に、往復があることが経路の実在を証明する。",
+          "note": "than を用いた比較で、評価基準の優先順位を示す。"
         }
       ]
     }
