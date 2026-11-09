@@ -106,7 +106,10 @@
     "cards-extra-20261029.json",
     "cards-extra-20261030.json",
     "cards-extra-20261031.json",
-    "cards-extra-20261101.json"
+    "cards-extra-20261101.json",
+    "cards-extra-20261102.json",
+    "cards-extra-20261103.json",
+    "cards-extra-20261104.json"
   ],
   "cards": [
     {
@@ -1396,6 +1399,27 @@
       "coreVerb": "provide",
       "theme": "共通2Dエンジンでゲームの挙動を再利用する",
       "_sourceFile": "cards-extra-20261101.json"
+    },
+    {
+      "_no": 185,
+      "sentence": "Running a model offline reduces exposure to internet-based leaks, but it does not remove risks from infected files, local networks, physical access, or future reconnection.",
+      "coreVerb": "reduce",
+      "theme": "オフラインAIが減らすリスクと残すリスクを分ける",
+      "_sourceFile": "cards-extra-20261102.json"
+    },
+    {
+      "_no": 186,
+      "sentence": "A geometric model becomes a physical simulation when its state changes over time under rules for motion, mass, or force instead of remaining a fixed geometric description.",
+      "coreVerb": "become",
+      "theme": "図形の記述と物理シミュレーションを状態変化で分ける",
+      "_sourceFile": "cards-extra-20261103.json"
+    },
+    {
+      "_no": 187,
+      "sentence": "Build the first 3D proxy from keyframes, then use extra video frames only to resolve missing parts instead of treating every frame as equally reliable evidence.",
+      "coreVerb": "build",
+      "theme": "キーフレームを基礎に不足情報だけを追加フレームで補う",
+      "_sourceFile": "cards-extra-20261104.json"
     }
   ]
 }
