@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 187,
+    "_generatedAt": "2026-11-04T02:00:00+09:00",
+    "sentence": "Build the first 3D proxy from keyframes, then use extra video frames only to resolve missing parts instead of treating every frame as equally reliable evidence.",
+    "phonetic": "ビルド ザ ファースト スリーディー プロキシ フロム キーフレイムズ、ゼン ユーズ エクストラ ヴィデオ フレイムズ オウンリー トゥ リゾルヴ ミッシング パーツ インステッド オブ トリーティング エヴリ フレイム アズ イークワリー リライアブル エヴィデンス。",
+    "japaneseTranslation": "最初の3D試作モデルはキーフレームから作り、その後、すべてのフレームを同じように信頼できる証拠として扱うのではなく、不足した部位を解決するためにだけ追加の動画フレームを使ってください。",
+    "theme": "キーフレームを基礎に不足情報だけを追加フレームで補う",
+    "coreVerb": "build",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Build a proxy.",
+        "translation": "試作モデルを作ってください。"
+      },
+      "phase2": {
+        "sentence": "Build the first 3D proxy from keyframes.",
+        "translation": "最初の3D試作モデルをキーフレームから作ってください。",
+        "addedChunks": "対象(the first 3D proxy)と材料(from keyframes)を追加"
+      },
+      "phase3": {
+        "sentence": "Build the proxy from keyframes, then use extra frames.",
+        "translation": "試作モデルをキーフレームから作り、その後、追加フレームを使ってください。",
+        "connector": "then"
+      },
+      "phase4": {
+        "sentence": "Keyframes are more reliable than arbitrary frames for the first proxy.",
+        "translation": "最初の試作モデルには、キーフレームの方が任意のフレームより信頼できます。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "Build the first 3D proxy from keyframes, then use extra video frames only to resolve missing parts instead of treating every frame as equally reliable evidence",
+        "translation": "最初の3D試作モデルはキーフレームから作り、その後、すべてのフレームを同じように信頼できる証拠として扱うのではなく、不足した部位を解決するためにだけ追加の動画フレームを使ってください。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Build the first 3D proxy",
+          "function": "行動",
+          "translation": "最初の3D試作モデルを作ってください"
+        },
+        {
+          "text": "from keyframes,",
+          "function": "対象",
+          "translation": "キーフレームから"
+        },
+        {
+          "text": "then use extra video frames",
+          "function": "接続",
+          "translation": "その後、追加の動画フレームを使ってください"
+        },
+        {
+          "text": "only to resolve missing parts",
+          "function": "目的",
+          "translation": "不足した部位を解決するためにだけ"
+        },
+        {
+          "text": "instead of treating every frame",
+          "function": "比較",
+          "translation": "すべてのフレームを扱うのではなく"
+        },
+        {
+          "text": "as equally reliable evidence.",
+          "function": "様態",
+          "translation": "同じように信頼できる証拠として"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "命令文",
+          "name": "動詞原形で始める命令",
+          "where": "Build the first 3D proxy",
+          "explanation": "作業手順の第一段階を直接示す。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "前置詞",
+          "name": "from",
+          "where": "from keyframes",
+          "explanation": "試作モデルを作る際の基礎資料を示す。",
+          "rule": "build A from B"
+        },
+        {
+          "category": "接続副詞",
+          "name": "then",
+          "where": "then use extra video frames",
+          "explanation": "第一段階の後に行う処理を示す。",
+          "rule": "命令文, then + 動詞原形"
+        },
+        {
+          "category": "限定",
+          "name": "only to不定詞",
+          "where": "only to resolve missing parts",
+          "explanation": "追加フレームを使う目的を不足部位の解決に限定する。",
+          "rule": "only to + 動詞原形"
+        },
+        {
+          "category": "対比",
+          "name": "instead of + -ing",
+          "where": "instead of treating every frame",
+          "explanation": "推奨手順と避ける扱いを対比する。",
+          "rule": "instead of + 動名詞"
+        },
+        {
+          "category": "語法",
+          "name": "treat A as B",
+          "where": "treating every frame as equally reliable evidence",
+          "explanation": "各フレームを証拠として評価することを表す。",
+          "rule": "treat + A + as + B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Build the proxy by keyframes.",
+          "correct": "Build the proxy from keyframes.",
+          "why": "材料・基礎資料を示す場合はfromが自然。"
+        },
+        {
+          "wrong": "then uses extra video frames",
+          "correct": "then use extra video frames",
+          "why": "並列された命令文では動詞原形useを使う。"
+        },
+        {
+          "wrong": "instead of treat every frame",
+          "correct": "instead of treating every frame",
+          "why": "前置詞ofの後には動名詞を置く。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Start with selected keyframes and consult other frames only when information is missing.",
+          "translation": "選んだキーフレームから始め、情報が不足するときだけほかのフレームを参照してください。"
+        },
+        {
+          "text": "Use keyframes to establish the proxy before filling gaps with additional footage.",
+          "translation": "追加映像で不足を補う前に、キーフレームで試作モデルを確立してください。"
+        },
+        {
+          "text": "Do not give every frame equal weight; use later frames to test unresolved details.",
+          "translation": "すべてのフレームを同じ重みで扱わず、後のフレームは未解決の細部を検証するために使ってください。"
+        }
+      ],
+      "parseTree": "[S [VP Build [NP the first 3D proxy] [PP from keyframes]] [Adv then] [VP use [NP extra video frames] [Adv only] [InfP to resolve missing parts] [PP instead of treating every frame as equally reliable evidence]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Build the first 3D proxy from keyframes",
+          "expanded": "because selected views provide a stable starting structure",
+          "nuance": "キーフレームを土台にする理由を示す。"
+        },
+        {
+          "original": "use extra video frames only to resolve missing parts",
+          "expanded": "since additional views are most useful when they answer a specific unresolved question",
+          "nuance": "追加資料の役割を限定する。"
+        },
+        {
+          "original": "instead of treating every frame as equally reliable evidence",
+          "expanded": "therefore, evaluate each frame by what it actually reveals",
+          "nuance": "資料の量ではなく情報価値で評価する方針へ展開する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The first 3D proxy should be built from keyframes before extra frames are consulted.",
+          "translation": "最初の3D試作モデルは、追加フレームを参照する前にキーフレームから作るべきです。",
+          "note": "試作モデルを主語にして手順を示す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Starting with keyframes, use extra footage to fill only the unresolved gaps.",
+          "translation": "キーフレームから始め、追加映像は未解決の不足だけを埋めるために使ってください。",
+          "note": "第一段階を-ing句で圧縮する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Selective frame use improves the reliability of proxy reconstruction.",
+          "translation": "フレームの選択的利用は、試作モデル再構築の信頼性を高めます。",
+          "note": "selectとreconstructを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "proxy",
+            "alternatives": [
+              "rough model",
+              "stand-in model",
+              "prototype mesh"
+            ],
+            "nuance": "proxyは完成品の代わりに形状確認へ使う簡易モデルを指す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "段階的手順",
+            "sentence": "Start with A, then use B only to resolve C.",
+            "translation": "Aから始め、その後Cを解決するためにだけBを使ってください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Selected keyframes are more useful than arbitrary frames for establishing the initial shape.",
+            "translation": "初期形状を定めるには、選んだキーフレームの方が任意のフレームより有用です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a body part remains unclear, consult an additional frame that reveals it.",
+            "translation": "部位が不明なままなら、その部位が見える追加フレームを参照してください。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not the number of frames but the information each frame adds.",
+            "translation": "重要なのはフレーム数ではなく、各フレームが加える情報です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Keyframes first; extra frames for gaps.",
+            "translation": "まずキーフレーム。不足には追加フレーム。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "命令文とthenで手順を明確にし、onlyとinstead ofで追加資料の役割を限定した。3D再構築の文脈に特化するためflexibilityを8とした。"
+    }
+  }
+]
