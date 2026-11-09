@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 185,
+    "_generatedAt": "2026-11-02T02:00:00+09:00",
+    "sentence": "Running a model offline reduces exposure to internet-based leaks, but it does not remove risks from infected files, local networks, physical access, or future reconnection.",
+    "phonetic": "ラニング ア モデル オフライン リデューシズ エクスポージャー トゥ インターネット ベイスト リークス、バット イット ダズ ノット リムーヴ リスクス フロム インフェクティッド ファイルズ、ローカル ネットワークス、フィジカル アクセス、オア フューチャー リコネクション。",
+    "japaneseTranslation": "モデルをオフラインで動かすと、インターネット経由の情報漏洩にさらされる度合いは下がりますが、感染したファイル、ローカルネットワーク、物理的なアクセス、将来の再接続によるリスクまではなくなりません。",
+    "theme": "オフラインAIが減らすリスクと残すリスクを分ける",
+    "coreVerb": "reduce",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Offline use reduces exposure.",
+        "translation": "オフライン利用は、危険にさらされる度合いを下げます。"
+      },
+      "phase2": {
+        "sentence": "Running a model offline reduces exposure to internet-based leaks.",
+        "translation": "モデルをオフラインで動かすと、インターネット経由の情報漏洩にさらされる度合いが下がります。",
+        "addedChunks": "動名詞主語(Running a model offline)と対象(to internet-based leaks)を追加"
+      },
+      "phase3": {
+        "sentence": "Offline use reduces network exposure, but other risks remain.",
+        "translation": "オフライン利用はネットワーク経由の危険を減らしますが、ほかのリスクは残ります。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Offline use reduces network exposure more directly than it reduces local security risks.",
+        "translation": "オフライン利用は、端末内の安全上のリスクより、ネットワーク経由の危険を直接的に減らします。",
+        "comparison": "more directly than"
+      },
+      "phase5": {
+        "sentence": "Running a model offline reduces exposure to internet-based leaks, but it does not remove risks from infected files, local networks, physical access, or future reconnection",
+        "translation": "モデルをオフラインで動かすと、インターネット経由の情報漏洩にさらされる度合いは下がりますが、感染したファイル、ローカルネットワーク、物理的なアクセス、将来の再接続によるリスクまではなくなりません。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Running a model offline",
+          "function": "行動",
+          "translation": "モデルをオフラインで動かすと"
+        },
+        {
+          "text": "reduces exposure",
+          "function": "結果",
+          "translation": "危険にさらされる度合いが下がります"
+        },
+        {
+          "text": "to internet-based leaks,",
+          "function": "対象",
+          "translation": "インターネット経由の情報漏洩に"
+        },
+        {
+          "text": "but it does not remove risks",
+          "function": "接続",
+          "translation": "しかしリスクをなくすわけではありません"
+        },
+        {
+          "text": "from infected files, local networks, physical access,",
+          "function": "理由",
+          "translation": "感染したファイル、ローカルネットワーク、物理的なアクセスによる"
+        },
+        {
+          "text": "or future reconnection.",
+          "function": "接続",
+          "translation": "あるいは将来の再接続による"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞句の主語",
+          "where": "Running a model offline",
+          "explanation": "モデルをオフラインで動かす行為全体を主語にする。",
+          "rule": "動名詞句 + 単数扱いの動詞"
+        },
+        {
+          "category": "語法",
+          "name": "reduce exposure to",
+          "where": "reduces exposure to internet-based leaks",
+          "explanation": "ある危険にさらされる度合いを下げることを表す。",
+          "rule": "reduce exposure to + 名詞"
+        },
+        {
+          "category": "接続詞",
+          "name": "but",
+          "where": "but it does not remove",
+          "explanation": "軽減できるリスクと残るリスクを対比する。",
+          "rule": "S + V, but + S + V"
+        },
+        {
+          "category": "否定",
+          "name": "does not + 動詞原形",
+          "where": "does not remove",
+          "explanation": "リスクが完全には消えないことを示す。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "前置詞",
+          "name": "risks from",
+          "where": "risks from infected files",
+          "explanation": "リスクの発生源をfromで示す。",
+          "rule": "risk(s) from + 原因"
+        },
+        {
+          "category": "並列",
+          "name": "orによる最終項",
+          "where": "physical access, or future reconnection",
+          "explanation": "複数の残存リスクの最後をorで結ぶ。",
+          "rule": "A, B, C, or D"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Running a model offline reduce exposure.",
+          "correct": "Running a model offline reduces exposure.",
+          "why": "動名詞句を単数主語として扱い、動詞に-sを付ける。"
+        },
+        {
+          "wrong": "does not removes risks",
+          "correct": "does not remove risks",
+          "why": "doesの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "risks of infected files",
+          "correct": "risks from infected files",
+          "why": "ここではリスクの発生源を示すためfromが自然。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "An offline model avoids routine internet transmission, yet local security still matters.",
+          "translation": "オフラインモデルは通常のインターネット送信を避けられますが、端末内の安全対策はなお重要です。"
+        },
+        {
+          "text": "Disconnecting inference from the internet narrows the attack surface without eliminating every threat.",
+          "translation": "推論をインターネットから切り離すと攻撃面は狭まりますが、すべての脅威が消えるわけではありません。"
+        },
+        {
+          "text": "Offline operation limits network exposure, while imported files and physical access remain possible risks.",
+          "translation": "オフライン動作はネットワーク経由の危険を抑えますが、持ち込まれたファイルや物理的アクセスはリスクとして残り得ます。"
+        }
+      ],
+      "parseTree": "[S [GerundP Running a model offline] [VP reduces [NP exposure [PP to internet-based leaks]]] [Conj but] [S it [VP does not remove [NP risks [PP from infected files, local networks, physical access, or future reconnection]]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "reduces exposure to internet-based leaks",
+          "expanded": "because inference does not need to send prompts or outputs across the internet",
+          "nuance": "ネット接続を切る効果の理由を示す。"
+        },
+        {
+          "original": "does not remove risks from infected files",
+          "expanded": "since files can carry harmful code into an isolated machine",
+          "nuance": "外部ファイルが残存経路になることを示す。"
+        },
+        {
+          "original": "or future reconnection",
+          "expanded": "therefore, data handling still matters if the machine later reconnects",
+          "nuance": "再接続時を含む運用上の注意へ展開する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Exposure to internet-based leaks is reduced when a model runs offline.",
+          "translation": "モデルをオフラインで動かすと、インターネット経由の情報漏洩にさらされる度合いが下がります。",
+          "note": "軽減される対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Running offline, the model avoids routine internet communication but retains local risks.",
+          "translation": "オフラインで動作することで、モデルは通常のインターネット通信を避けますが、端末内のリスクは残ります。",
+          "note": "動作条件を-ing句で先に示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Offline operation reduces network exposure without guaranteeing complete security.",
+          "translation": "オフライン運用はネットワーク経由の危険を減らしますが、完全な安全を保証しません。",
+          "note": "runとsecureの内容を名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "exposure",
+            "alternatives": [
+              "risk",
+              "attack surface",
+              "vulnerability"
+            ],
+            "nuance": "exposureは危険にさらされる度合い、riskは損害の可能性、attack surfaceは攻撃可能な範囲を示す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "軽減と限界",
+            "sentence": "X reduces A, but it does not remove B.",
+            "translation": "XはAを減らしますが、Bをなくすわけではありません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Offline inference is less exposed to internet-based leaks than cloud inference.",
+            "translation": "オフライン推論はクラウド推論より、インターネット経由の情報漏洩にさらされにくいです。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If an offline machine imports untrusted files, isolation alone may not protect it.",
+            "translation": "オフライン端末が信頼できないファイルを取り込むなら、隔離だけでは守れない場合があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What offline operation removes is routine internet communication, not every security risk.",
+            "translation": "オフライン運用がなくすのは通常のインターネット通信であり、すべての安全上のリスクではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Offline reduces exposure; it does not guarantee safety.",
+            "translation": "オフラインは危険への露出を減らしますが、安全を保証しません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "軽減と完全除去をbutで明確に分けた。列挙が長いためflexibilityを8とした。"
+    }
+  }
+]
