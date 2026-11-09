@@ -410,5 +410,12 @@
     "description": "統合と実モデル検証、旧ビルドと公開上限、チャットからの遠隔操作経路、宣伝語と実際の反応を通して、接続が生きた往復になる条件を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261108/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261109",
+    "title": "実験は三つの場所を往復する",
+    "description": "GitHub・Colab／クラウド・Driveの役割分離、五十候補を三件単位へ分けた再開設計、三次元スキャンと多方向画像と照明補正画像の原本保全を通して、実験を追跡可能な知識へ変える条件を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261109/manifest.json",
+    "mode": "essay-translation"
   }
 ]
