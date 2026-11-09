@@ -6847,5 +6847,266 @@
         }
       ]
     }
+  ],
+  "DE-20261109-001": [
+    {
+      "words": {
+        "mixed": {
+          "ja": "混在した"
+        },
+        "locate": {
+          "ja": "所在を見つける"
+        }
+      },
+      "phrases": [
+        {
+          "en": "If code, computation, and evidence are mixed together, progress becomes hard to locate.",
+          "ja": "コード、計算、証拠が混在すると、進捗の所在が分かりにくくなる。",
+          "note": "if節が、主節の結果が生じる条件を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "github": {
+          "ja": "コード管理基盤GitHub"
+        },
+        "experiments": {
+          "ja": "実験（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The generator code belongs in GitHub; experiments that use Blender run in Colab or the cloud;",
+          "ja": "生成器のコードはGitHubに置き、Blenderを使う実験はColabまたはクラウドで動かす。",
+          "note": "that節が直前の名詞を限定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "evaluation": {
+          "ja": "評価"
+        },
+        "scores": {
+          "ja": "数値・得点（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "GLB files, images, evaluation scores, and run records return to Drive.",
+          "ja": "GLBファイル、画像、評価値、実行記録はDriveへ戻す。",
+          "note": "主語と述語を含む意味単位として、前後の因果・対比を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "three-way": {
+          "ja": "三方向の"
+        },
+        "split": {
+          "ja": "分割"
+        }
+      },
+      "phrases": [
+        {
+          "en": "This three-way split is not a detour.",
+          "ja": "この三分割は遠回りではない。",
+          "note": "主語と述語を含む意味単位として、前後の因果・対比を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "failure": {
+          "ja": "失敗"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It draws the boundaries needed to tell whether a failure came from the code, the runtime, or the data.",
+          "ja": "それは、失敗がコード、実行環境、データのどこから生じたかを見分けるために必要な境界を引く。",
+          "note": "whether 以下が、判定する複数の可能性を示す。"
+        }
+      ]
+    }
+  ],
+  "DE-20261109-002": [
+    {
+      "words": {
+        "trial": {
+          "ja": "試行"
+        },
+        "experiment": {
+          "ja": "実験"
+        },
+        "launch": {
+          "ja": "開始する"
+        },
+        "candidates": {
+          "ja": "候補（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "One successful trial does not mean an automated experiment should launch fifty candidates at once.",
+          "ja": "一件の試行が成功しても、自動実験で五十候補を一度に走らせるべきだという意味にはならない。",
+          "note": "主語と述語を含む意味単位として、前後の因果・対比を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "midway": {
+          "ja": "途中で"
+        },
+        "candidates": {
+          "ja": "候補（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "If a long run stops midway, even successful candidates can be lost.",
+          "ja": "長い実行が途中で止まれば、成功した候補さえ失われうる。",
+          "note": "if節が、主節の結果が生じる条件を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "batches": {
+          "ja": "小分けの束（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The work was therefore divided into batches of three that could resume from the last checkpoint.",
+          "ja": "そこで作業は、最後の確認地点から再開できる三件単位の束へ分けられた。",
+          "note": "that節が直前の名詞を限定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "batches": {
+          "ja": "小分けの束（複数）"
+        },
+        "slower": {
+          "ja": "より遅く"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Small batches may look slower, but they narrow the scope of failure and carry verified results forward.",
+          "ja": "小さな束は遅く見えるかもしれないが、失敗の範囲を狭め、確認済みの結果を先へ運ぶ。",
+          "note": "may と but により、見かけと実際の働きを対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "continue": {
+          "ja": "継続する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A unit that can continue is what gives automation its real speed.",
+          "ja": "継続できる単位こそ、自動化に実際の速度を与える。",
+          "note": "that節が直前の名詞を限定する。"
+        }
+      ]
+    }
+  ],
+  "DE-20261109-003": [
+    {
+      "words": {
+        "bringing": {
+          "ja": "近づけること"
+        },
+        "ground": {
+          "ja": "正解（ground truthの一部）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Bringing generated models closer to the target also requires a careful definition of ground truth.",
+          "ja": "生成モデルを目標へ近づけるには、正解を注意深く定義することも必要になる。",
+          "note": "主語と述語を含む意味単位として、前後の因果・対比を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "scan": {
+          "ja": "スキャン"
+        },
+        "multi-view": {
+          "ja": "多方向の"
+        },
+        "rendered": {
+          "ja": "描画された"
+        },
+        "consistent": {
+          "ja": "一貫した"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The three-dimensional reference scan, multi-view images rendered from it under consistent conditions,",
+          "ja": "正解となる三次元スキャンと、同じ条件でそこから描画した多方向画像、",
+          "note": "主語と述語を含む意味単位として、前後の因果・対比を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "lighting-corrected": {
+          "ja": "照明補正済みの"
+        },
+        "originals": {
+          "ja": "元データ（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "and lighting-corrected reference images should remain distinct, while the originals stay untouched.",
+          "ja": "そして照明補正済みの参照画像は分けたままにし、元データには手を加えない。",
+          "note": "while がデータの分離と原本保全を同時に示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "evidence": {
+          "ja": "証拠"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A generator does not improve from code alone; it is revised through repeated comparison with evidence.",
+          "ja": "生成器はコードだけでは改善せず、証拠との反復比較を通して修正される。",
+          "note": "主語と述語を含む意味単位として、前後の因果・対比を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "experiment": {
+          "ja": "実験"
+        },
+        "rises": {
+          "ja": "増える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "An experiment becomes knowledge not when the number of outputs rises, but when it is possible to trace what each input was used to verify.",
+          "ja": "実験が知識になるのは、生成物の数が増えたときではなく、各入力で何を確かめたか辿れるときだ。",
+          "note": "not A, but B が成立条件を対比する。"
+        }
+      ]
+    }
   ]
 }
