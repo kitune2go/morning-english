@@ -1,0 +1,165 @@
+[
+  {
+    "id": "DE-20261109-001",
+    "sourceTitle": "『実験は三つの場所を往復する』",
+    "workId": "daily-essay-20261109",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "進捗の居場所",
+    "jp": "生成器を作る場所と、計算する場所と、結果を残す場所が混ざると、何が進んだのか分からなくなる。コードはGitHubに置き、Blenderを使う実験はColabやクラウドで動かし、GLB、画像、評価値、実行記録はDriveへ戻す。三つに分けるのは遠回りではない。失敗がコードの欠陥なのか、実行環境なのか、データなのかを見分けるための線引きである。",
+    "translationLiteral": "When the place where a generator is made, the place where computation is performed, and the place where results are stored become mixed, it becomes impossible to tell what has progressed. Put the code on GitHub, run experiments using Blender in Colab or the cloud, and return GLB files, images, evaluation values, and execution records to Drive. Separating them into three is not a detour. It is a boundary for distinguishing whether a failure belongs to the code, the execution environment, or the data.",
+    "translationNatural": "If code, computation, and evidence are mixed together, progress becomes hard to locate. The generator code belongs in GitHub; experiments that use Blender run in Colab or the cloud; GLB files, images, evaluation scores, and run records return to Drive. This three-way split is not a detour. It draws the boundaries needed to tell whether a failure came from the code, the runtime, or the data.",
+    "imageUrl": "",
+    "imageCaption": "コード、計算、実験証拠が三つの場所を循環する。",
+    "imagePrompt": "An editorial illustration of a generator code repository, a cloud Blender workstation, and a data archive connected in a clear triangular workflow, with model files and run records moving between them, no text",
+    "chunks": [
+      {
+        "en": "If code, computation, and evidence are mixed together, progress becomes hard to locate.",
+        "ja": "コード、計算、証拠が混在すると、進捗の所在が分かりにくくなる。"
+      },
+      {
+        "en": "The generator code belongs in GitHub; experiments that use Blender run in Colab or the cloud;",
+        "ja": "生成器のコードはGitHubに置き、Blenderを使う実験はColabまたはクラウドで動かす。"
+      },
+      {
+        "en": "GLB files, images, evaluation scores, and run records return to Drive.",
+        "ja": "GLBファイル、画像、評価値、実行記録はDriveへ戻す。"
+      },
+      {
+        "en": "This three-way split is not a detour.",
+        "ja": "この三分割は遠回りではない。"
+      },
+      {
+        "en": "It draws the boundaries needed to tell whether a failure came from the code, the runtime, or the data.",
+        "ja": "それは、失敗がコード、実行環境、データのどこから生じたかを見分けるために必要な境界を引く。"
+      }
+    ],
+    "grammar": [
+      "If A, B は混在した場合の結果を示す条件文。",
+      "are mixed はコード・計算・証拠を主語とする受動態。",
+      "experiments that use Blender の that節は experiments を限定する。",
+      "セミコロンは三つの保存・実行場所を独立した節として並べる。",
+      "whether A, B, or C は失敗原因の選択肢を示す間接疑問節。"
+    ],
+    "translationNote": "直訳は三つの「場所」を反復して原文の構造を追い、自然訳は code, computation, and evidence と機能名に置き換えた。Driveへ置くのは成果物と実行記録であり、生成器コードの所有場所とは混同していない。",
+    "readingPoint": "導入。混乱の原因を能力不足ではなく、コード・実行・証拠の置き場所が混ざることとして提示する。",
+    "keywords": [
+      "GitHub",
+      "Colab",
+      "Google Drive",
+      "実行環境",
+      "証拠"
+    ]
+  },
+  {
+    "id": "DE-20261109-002",
+    "sourceTitle": "『実験は三つの場所を往復する』",
+    "workId": "daily-essay-20261109",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "止まっても失わない単位",
+    "jp": "自動実験は、一件動いたからといって五十件を一息に走らせればよいわけではない。長い処理が途中で止まると、成功した候補まで失いやすい。そこで候補を三件ずつに分け、途中から再開できる形へ変えた。小さな束は速度を落とすように見えるが、実際には失敗の範囲を狭め、確認済みの結果を次へ渡す。継続できる単位こそ、自動化の速度になる。",
+    "translationLiteral": "An automated experiment should not run fifty cases in one breath merely because one case worked. When a long process stops midway, even successful candidates are easy to lose. Therefore, the candidates were divided into groups of three and changed into a form that could resume from the middle. Small groups appear to reduce speed, but in fact they narrow the range of failure and pass confirmed results to the next stage. A unit that can continue becomes the speed of automation.",
+    "translationNatural": "One successful trial does not mean an automated experiment should launch fifty candidates at once. If a long run stops midway, even successful candidates can be lost. The work was therefore divided into batches of three that could resume from the last checkpoint. Small batches may look slower, but they narrow the scope of failure and carry verified results forward. A unit that can continue is what gives automation its real speed.",
+    "imageUrl": "",
+    "imageCaption": "五十候補の長い列が、再開可能な三件単位へ分かれる。",
+    "imagePrompt": "A restrained editorial visualization of a long queue of fifty model experiments being reorganized into small recoverable batches of three with checkpoints, technical yet poetic, no text",
+    "chunks": [
+      {
+        "en": "One successful trial does not mean an automated experiment should launch fifty candidates at once.",
+        "ja": "一件の試行が成功しても、自動実験で五十候補を一度に走らせるべきだという意味にはならない。"
+      },
+      {
+        "en": "If a long run stops midway, even successful candidates can be lost.",
+        "ja": "長い実行が途中で止まれば、成功した候補さえ失われうる。"
+      },
+      {
+        "en": "The work was therefore divided into batches of three that could resume from the last checkpoint.",
+        "ja": "そこで作業は、最後の確認地点から再開できる三件単位の束へ分けられた。"
+      },
+      {
+        "en": "Small batches may look slower, but they narrow the scope of failure and carry verified results forward.",
+        "ja": "小さな束は遅く見えるかもしれないが、失敗の範囲を狭め、確認済みの結果を先へ運ぶ。"
+      },
+      {
+        "en": "A unit that can continue is what gives automation its real speed.",
+        "ja": "継続できる単位こそ、自動化に実際の速度を与える。"
+      }
+    ],
+    "grammar": [
+      "does not mean ... should ... は事実から義務を短絡しない表現。",
+      "If ... stops は途中停止という条件を示す。",
+      "even completed candidates は失われる対象の意外性を強調する。",
+      "was therefore divided は理由を受ける副詞と受動態の組合せ。",
+      "batches of three that could resume の that節は batches を限定する。",
+      "may look ..., but ... は見かけと実際の働きを対比する。",
+      "is what gives ... は速度の本当の源を強調する。"
+    ],
+    "translationNote": "literal は「一息に」「途中から」を残し、natural は実験運用の文脈に合わせて at once と from the last checkpoint を用いた。三件は batches of three とし、候補総数五十との数量関係を保持した。",
+    "readingPoint": "展開。大きな自動化を再開可能な小単位へ切り分け、速度の意味を一括処理量から継続可能性へ転換する。",
+    "keywords": [
+      "自動実験",
+      "50候補",
+      "3件単位",
+      "再開",
+      "チェックポイント"
+    ]
+  },
+  {
+    "id": "DE-20261109-003",
+    "sourceTitle": "『実験は三つの場所を往復する』",
+    "workId": "daily-essay-20261109",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "正解を上書きしない",
+    "jp": "さらに、生成物を近づけるには「正解」の置き方が要る。正解となる三次元スキャン、そこから同じ条件で描いた多方向画像、照明を直した参照画像を分け、元データは上書きしない。生成器はコードだけでは改善せず、比較可能な証拠との往復で修正される。実験が知識になるのは、作った数が増えたときではなく、どの入力から何を確かめたかを辿れるときだ。",
+    "translationLiteral": "Furthermore, bringing generated outputs closer requires a way to place the ground truth. The three-dimensional scan that serves as the answer, multi-view images drawn from it under the same conditions, and reference images with corrected lighting are separated, and the original data is not overwritten. The generator does not improve from code alone; it is corrected through exchanges with comparable evidence. An experiment becomes knowledge not when the number made increases, but when one can trace what was verified from each input.",
+    "translationNatural": "Bringing generated models closer to the target also requires a careful definition of ground truth. The three-dimensional reference scan, multi-view images rendered from it under consistent conditions, and lighting-corrected reference images should remain distinct, while the originals stay untouched. A generator does not improve from code alone; it is revised through repeated comparison with evidence. An experiment becomes knowledge not when the number of outputs rises, but when it is possible to trace what each input was used to verify.",
+    "imageUrl": "",
+    "imageCaption": "原本を保ったまま、スキャンと多方向画像と補正画像を比較する。",
+    "imagePrompt": "An editorial scientific still life with an untouched 3D reference scan, consistent multi-view renders, and lighting-corrected reference images arranged in separate traceable layers, no text",
+    "chunks": [
+      {
+        "en": "Bringing generated models closer to the target also requires a careful definition of ground truth.",
+        "ja": "生成モデルを目標へ近づけるには、正解を注意深く定義することも必要になる。"
+      },
+      {
+        "en": "The three-dimensional reference scan, multi-view images rendered from it under consistent conditions,",
+        "ja": "正解となる三次元スキャンと、同じ条件でそこから描画した多方向画像、"
+      },
+      {
+        "en": "and lighting-corrected reference images should remain distinct, while the originals stay untouched.",
+        "ja": "そして照明補正済みの参照画像は分けたままにし、元データには手を加えない。"
+      },
+      {
+        "en": "A generator does not improve from code alone; it is revised through repeated comparison with evidence.",
+        "ja": "生成器はコードだけでは改善せず、証拠との反復比較を通して修正される。"
+      },
+      {
+        "en": "An experiment becomes knowledge not when the number of outputs rises, but when it is possible to trace what each input was used to verify.",
+        "ja": "実験が知識になるのは、生成物の数が増えたときではなく、各入力で何を確かめたか辿れるときだ。"
+      }
+    ],
+    "grammar": [
+      "Bringing ... は動名詞句を主語にする。",
+      "rendered from it ... は multi-view images を修飾する過去分詞句。",
+      "should remain distinct はデータを分離して保つ必要性を示す。",
+      "while the originals stay untouched は分離と原本保全を同時に示す。",
+      "does not improve from code alone は code alone への限定を否定する。",
+      "not when A, but when B は知識になる条件を対比する。",
+      "what each input was used to verify は trace の目的語となる名詞節。"
+    ],
+    "translationNote": "literal は「正解」を answer に近く追い、natural は評価文脈の専門語 ground truth とした。AI学習を実行したとは断定せず、「改善せず」「修正される」を does not improve / is revised と表した。",
+    "readingPoint": "転換と結び。保存量ではなく、原本を保ち、入力・比較・確認を遡れることを実験知の条件として置く。",
+    "keywords": [
+      "ground truth",
+      "3Dスキャン",
+      "多方向画像",
+      "照明補正",
+      "追跡可能性"
+    ]
+  }
+]
