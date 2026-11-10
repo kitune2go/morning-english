@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 189,
+    "_generatedAt": "2026-11-06T02:00:00+09:00",
+    "sentence": "Reusing a recorded performance raises separate questions about permission, payment, credit, and direction; resolving one question does not settle the others.",
+    "phonetic": "リユージング ア レコーディッド パフォーマンス レイジズ セパレイト クエスチョンズ アバウト パーミッション、ペイメント、クレディット、アンド ディレクション；リゾルヴィング ワン クエスチョン ダズ ノット セトル ジ アザーズ。",
+    "japaneseTranslation": "録音済みの演技を再利用すると、許諾、報酬、クレジット、演出について別々の問題が生じます。一つの問題を解決しても、ほかの問題まで決着するわけではありません。",
+    "theme": "録音済み演技の再利用を許諾・報酬・クレジット・演出に分ける",
+    "coreVerb": "raise",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Reuse raises questions.",
+        "translation": "再利用は問題を生じさせます。"
+      },
+      "phase2": {
+        "sentence": "Reusing a recorded performance raises separate questions.",
+        "translation": "録音済みの演技を再利用すると、別々の問題が生じます。",
+        "addedChunks": "動名詞主語(Reusing a recorded performance)と修飾(separate)を追加"
+      },
+      "phase3": {
+        "sentence": "Reuse may be possible, but several questions remain separate.",
+        "translation": "再利用できる場合でも、複数の問題は別々に残ります。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Permission is no more decisive than payment, credit, or direction.",
+        "translation": "許諾だけが、報酬、クレジット、演出より決定的というわけではありません。",
+        "comparison": "no more decisive than"
+      },
+      "phase5": {
+        "sentence": "Reusing a recorded performance raises separate questions about permission, payment, credit, and direction; resolving one question does not settle the others",
+        "translation": "録音済みの演技を再利用すると、許諾、報酬、クレジット、演出について別々の問題が生じます。一つの問題を解決しても、ほかの問題まで決着するわけではありません。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Reusing a recorded performance",
+          "function": "行動",
+          "translation": "録音済みの演技を再利用すると"
+        },
+        {
+          "text": "raises separate questions",
+          "function": "結果",
+          "translation": "別々の問題が生じます"
+        },
+        {
+          "text": "about permission, payment, credit, and direction;",
+          "function": "内容",
+          "translation": "許諾、報酬、クレジット、演出について"
+        },
+        {
+          "text": "resolving one question",
+          "function": "行動",
+          "translation": "一つの問題を解決しても"
+        },
+        {
+          "text": "does not settle",
+          "function": "結果",
+          "translation": "決着するわけではありません"
+        },
+        {
+          "text": "the others.",
+          "function": "対象",
+          "translation": "ほかの問題まで"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "動名詞",
+          "name": "動名詞句の主語",
+          "where": "Reusing a recorded performance",
+          "explanation": "録音演技を再利用する行為全体を主語にする。",
+          "rule": "動名詞句 + 単数動詞"
+        },
+        {
+          "category": "語法",
+          "name": "raise a question",
+          "where": "raises separate questions",
+          "explanation": "議論すべき問題を生じさせることを表す。",
+          "rule": "raise + question(s)"
+        },
+        {
+          "category": "前置詞",
+          "name": "questions about",
+          "where": "questions about permission",
+          "explanation": "問題が何に関するものかを示す。",
+          "rule": "question(s) about + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "四項並列",
+          "where": "permission, payment, credit, and direction",
+          "explanation": "独立して検討する四論点を並べる。",
+          "rule": "A, B, C, and D"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "direction; resolving",
+          "explanation": "密接に関係する二つの独立節を結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "否定",
+          "name": "does not + 動詞原形",
+          "where": "does not settle",
+          "explanation": "一論点の解決が全論点の決着を意味しないことを示す。",
+          "rule": "does not + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Reusing a recorded performance raise questions.",
+          "correct": "Reusing a recorded performance raises questions.",
+          "why": "動名詞句を単数主語として扱い、動詞に-sを付ける。"
+        },
+        {
+          "wrong": "questions of permission, payment, credit, and direction",
+          "correct": "questions about permission, payment, credit, and direction",
+          "why": "ここでは論点の内容を示すaboutが自然。"
+        },
+        {
+          "wrong": "does not settles the others",
+          "correct": "does not settle the others",
+          "why": "doesの後は動詞原形を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Permission to reuse audio does not automatically resolve payment or credit.",
+          "translation": "音声再利用の許諾があっても、報酬やクレジットが自動的に解決するわけではありません。"
+        },
+        {
+          "text": "Contract terms, attribution, and creative control should be examined separately.",
+          "translation": "契約条件、帰属表示、創作上の権限は別々に検討するべきです。"
+        },
+        {
+          "text": "A technical ability to copy a recording does not define the conditions for using it.",
+          "translation": "録音を複製できる技術的能力が、その利用条件を決めるわけではありません。"
+        }
+      ],
+      "parseTree": "[S [GerundP Reusing a recorded performance] [VP raises [NP separate questions [PP about permission, payment, credit, and direction]]]; [S [GerundP resolving one question] [VP does not settle [NP the others]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "raises separate questions",
+          "expanded": "because technical reuse and legitimate use are not the same issue",
+          "nuance": "複製可能性と利用条件を分ける。"
+        },
+        {
+          "original": "permission, payment, credit, and direction",
+          "expanded": "since each concerns a different interest and may follow a different agreement",
+          "nuance": "四論点を分ける理由を示す。"
+        },
+        {
+          "original": "does not settle the others",
+          "expanded": "therefore, do not treat one answer as a complete resolution",
+          "nuance": "単一論点で全体を決着させない方針へ展開する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Permission, payment, credit, and direction should be examined separately when a performance is reused.",
+          "translation": "演技を再利用するときは、許諾、報酬、クレジット、演出を別々に検討するべきです。",
+          "note": "検討対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reusing the recording, a producer must address several independent questions.",
+          "translation": "録音を再利用するなら、制作者は複数の独立した問題に対処しなければなりません。",
+          "note": "再利用という条件を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Audio reuse requires separate consideration of authorization, compensation, attribution, and direction.",
+          "translation": "音声の再利用には、許諾、報酬、帰属表示、演出を別々に検討することが必要です。",
+          "note": "reuseとconsiderを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "settle",
+            "alternatives": [
+              "resolve",
+              "decide",
+              "dispose of"
+            ],
+            "nuance": "settleは論争や問題に決着を付けること、resolveは解決策を得ることを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "論点分離",
+            "sentence": "X raises separate questions about A, B, C, and D.",
+            "translation": "XはA、B、C、Dについて別々の問題を生じさせます。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Credit is no less important than permission when prior work is reused.",
+            "translation": "過去の成果を再利用するとき、クレジットは許諾に劣らず重要です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "Even if reuse is authorized, payment and attribution may still require agreement.",
+            "translation": "再利用が許可されても、報酬と帰属表示にはなお合意が必要な場合があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What must be separated is technical reuse from the conditions governing it.",
+            "translation": "分けるべきなのは、技術的な再利用と、それを規律する条件です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "One answer does not settle four questions.",
+            "translation": "一つの答えで四つの問題は決着しません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "セミコロンで論点の列挙と結論を結び、一つの解決を全体へ拡張しないことを明確にした。"
+    }
+  }
+]
