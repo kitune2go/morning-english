@@ -7108,5 +7108,294 @@
         }
       ]
     }
+  ],
+  "DE-20261110-001": [
+    {
+      "words": {
+        "dictionary": {
+          "ja": "辞書"
+        },
+        "pairs": {
+          "ja": "対訳の組（複数）"
+        },
+        "eight": {
+          "ja": "八"
+        },
+        "entries": {
+          "ja": "項目（複数）"
+        },
+        "items": {
+          "ja": "項目（複数）"
+        },
+        "unsupported": {
+          "ja": "未対応の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The dictionary grew to more than two thousand translation pairs and over eight thousand Japanese entries, yet more than 140,000 items remained unsupported.",
+          "ja": "辞書は二千件を超える対訳と八千語を超える日本語項目まで増えたが、十四万件を超える項目が未対応のまま残った。",
+          "note": "yet が数の増加と未対応の残存を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "volume": {
+          "ja": "量"
+        }
+      },
+      "phrases": [
+        {
+          "en": "But volume was not the only problem.",
+          "ja": "しかし問題は量だけではなかった。",
+          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "hurts": {
+          "ja": "痛い・痛む"
+        }
+      },
+      "phrases": [
+        {
+          "en": "If “my shoulder hurts” is reduced to the word “hurts,” the location and nature of the pain disappear.",
+          "ja": "「肩が痛い」を「痛い」という語だけに縮めると、痛みの場所と状態が消える。",
+          "note": "if節が、語を切り縮めた場合の結果を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "lexical": {
+          "ja": "語彙の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A lexical match is an entry point, not the meaning of a sentence.",
+          "ja": "語彙の一致は入口であって、文の意味ではない。",
+          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "dictionary-resolvable": {
+          "ja": "辞書で解決できる"
+        },
+        "pieces": {
+          "ja": "部分（複数）"
+        },
+        "chunks": {
+          "ja": "意味の塊（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Translation becomes usable only when dictionary-resolvable pieces are separated from chunks that require context.",
+          "ja": "翻訳は、辞書で解決できる部分と文脈を必要とする塊を分けて初めて使えるようになる。",
+          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261110-002": [
+    {
+      "words": {
+        "gap": {
+          "ja": "隔たり"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The same gap appears on a price tag.",
+          "ja": "同じ隔たりは値札にも現れる。",
+          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "loyal": {
+          "ja": "固定的に支持する"
+        },
+        "fans": {
+          "ja": "ファン（複数）"
+        },
+        "announced": {
+          "ja": "告知された"
+        },
+        "higher": {
+          "ja": "より高い"
+        },
+        "raise": {
+          "ja": "高める"
+        },
+        "proportion": {
+          "ja": "割合"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A product may have loyal fans and receive attention when announced, but a higher price does not raise the value of the experience by the same proportion.",
+          "ja": "商品には固定ファンがいて告知時に注目を集めることもあるが、価格が上がっても体験価値が同じ割合で上がるわけではない。",
+          "note": "not A, but B が否定と正しい条件を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "credited": {
+          "ja": "名義が示された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A work or event rests not on one credited name alone, but on production, direction, venue, and the accumulated value of earlier works.",
+          "ja": "作品や催しは、一人の名義だけでなく、制作、演出、会場、過去作が積み上げた価値に支えられる。",
+          "note": "not A, but B が否定と正しい条件を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "payment": {
+          "ja": "対価・支払い"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Large numbers can signal demand, yet they do not explain who created the value or what the payment was actually for.",
+          "ja": "大きな数字は需要の手掛かりになりうるが、誰が価値を作り、実際に何へ対価が払われたかまでは説明しない。",
+          "note": "yet が数の増加と未対応の残存を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "exposure": {
+          "ja": "露出"
+        },
+        "customers": {
+          "ja": "客（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Greater exposure does not automatically bring in new customers either.",
+          "ja": "露出が増えても、新しい客が自動的に来るわけではない。",
+          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261110-003": [
+    {
+      "words": {
+        "gap": {
+          "ja": "隔たり"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Development status labels create a similar gap.",
+          "ja": "開発の状態表示にも同じ隔たりが生まれる。",
+          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "sha": {
+          "ja": "コミット識別子SHA"
+        },
+        "matched": {
+          "ja": "一致した"
+        },
+        "executed": {
+          "ja": "実行された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A job returned SUCCESS with exit code 0; the recorded SHA matched the executed commit;",
+          "ja": "ジョブは終了コード0でSUCCESSを返し、記録されたSHAは実行したコミットと一致した。",
+          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "worktree": {
+          "ja": "作業ツリー"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the worktree was clean; and the tests passed.",
+          "ja": "作業ツリーはクリーンで、テストも通った。",
+          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "merge": {
+          "ja": "マージする"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Even so, the rule remained: do not merge until the required review is complete.",
+          "ja": "それでも、必要なレビューが完了するまではマージしないという規則が残った。",
+          "note": "until が禁止を維持する期限を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "verification": {
+          "ja": "検証"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Numbers accelerate verification, but they do not make the decision.",
+          "ja": "数字は検証を速めるが、判断そのものは行わない。",
+          "note": "not A, but B が否定と正しい条件を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "row": {
+          "ja": "一列"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Completion is not a row of passing checks.",
+          "ja": "完成とは、合格した確認項目が並ぶことではない。",
+          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "grounds": {
+          "ja": "根拠（複数）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It is a state in which the grounds for moving forward are present and the reason for any hold is visible.",
+          "ja": "次へ進む根拠が揃い、保留する理由も見える状態である。",
+          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+        }
+      ]
+    }
   ]
 }
