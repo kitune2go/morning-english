@@ -109,7 +109,10 @@
     "cards-extra-20261101.json",
     "cards-extra-20261102.json",
     "cards-extra-20261103.json",
-    "cards-extra-20261104.json"
+    "cards-extra-20261104.json",
+    "cards-extra-20261105.json",
+    "cards-extra-20261106.json",
+    "cards-extra-20261107.json"
   ],
   "cards": [
     {
@@ -1420,6 +1423,27 @@
       "coreVerb": "build",
       "theme": "キーフレームを基礎に不足情報だけを追加フレームで補う",
       "_sourceFile": "cards-extra-20261104.json"
+    },
+    {
+      "_no": 188,
+      "sentence": "A correction becomes auditable when the editor keeps the source image, before-and-after comparison, and aligned overlay visible instead of showing only the latest mesh.",
+      "coreVerb": "become",
+      "theme": "3D修正の根拠画像と比較状態を編集画面に残す",
+      "_sourceFile": "cards-extra-20261105.json"
+    },
+    {
+      "_no": 189,
+      "sentence": "Reusing a recorded performance raises separate questions about permission, payment, credit, and direction; resolving one question does not settle the others.",
+      "coreVerb": "raise",
+      "theme": "録音済み演技の再利用を許諾・報酬・クレジット・演出に分ける",
+      "_sourceFile": "cards-extra-20261106.json"
+    },
+    {
+      "_no": 190,
+      "sentence": "When floating-point results vary across CPUs, compare mesh structure and numerical tolerances rather than requiring byte-identical GLB files; record the hash as evidence, not as the verdict.",
+      "coreVerb": "compare",
+      "theme": "CPU差のあるGLB検証をバイト一致から構造・許容差比較へ変える",
+      "_sourceFile": "cards-extra-20261107.json"
     }
   ]
 }
