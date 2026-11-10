@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 190,
+    "_generatedAt": "2026-11-07T02:00:00+09:00",
+    "sentence": "When floating-point results vary across CPUs, compare mesh structure and numerical tolerances rather than requiring byte-identical GLB files; record the hash as evidence, not as the verdict.",
+    "phonetic": "ウェン フローティング ポイント リザルツ ヴェアリー アクロス シーピーユーズ、コンペア メッシュ ストラクチャー アンド ニュメリカル トレランシズ ラザー ザン リクワイアリング バイト アイデンティカル ジーエルビー ファイルズ；レコード ザ ハッシュ アズ エヴィデンス、ノット アズ ザ ヴァーディクト。",
+    "japaneseTranslation": "CPUによって浮動小数点計算の結果が変わるときは、バイト単位で同一のGLBファイルを要求するのではなく、メッシュ構造と数値許容差を比較してください。ハッシュは最終判定ではなく、証拠として記録します。",
+    "theme": "CPU差のあるGLB検証をバイト一致から構造・許容差比較へ変える",
+    "coreVerb": "compare",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Compare the meshes.",
+        "translation": "メッシュを比較してください。"
+      },
+      "phase2": {
+        "sentence": "Compare mesh structure and numerical tolerances.",
+        "translation": "メッシュ構造と数値許容差を比較してください。",
+        "addedChunks": "対象(mesh structure and numerical tolerances)を追加"
+      },
+      "phase3": {
+        "sentence": "When results vary across CPUs, compare structure and tolerances.",
+        "translation": "CPUによって結果が変わるときは、構造と許容差を比較してください。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "Structural comparison is more reliable than byte equality across different CPUs.",
+        "translation": "異なるCPU間では、構造比較の方がバイト一致より信頼できます。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "When floating-point results vary across CPUs, compare mesh structure and numerical tolerances rather than requiring byte-identical GLB files; record the hash as evidence, not as the verdict",
+        "translation": "CPUによって浮動小数点計算の結果が変わるときは、バイト単位で同一のGLBファイルを要求するのではなく、メッシュ構造と数値許容差を比較してください。ハッシュは最終判定ではなく、証拠として記録します。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When floating-point results vary across CPUs,",
+          "function": "時間",
+          "translation": "CPUによって浮動小数点計算の結果が変わるときは"
+        },
+        {
+          "text": "compare mesh structure",
+          "function": "行動",
+          "translation": "メッシュ構造を比較してください"
+        },
+        {
+          "text": "and numerical tolerances",
+          "function": "対象",
+          "translation": "そして数値許容差を"
+        },
+        {
+          "text": "rather than requiring byte-identical GLB files;",
+          "function": "比較",
+          "translation": "バイト単位で同一のGLBファイルを要求するのではなく"
+        },
+        {
+          "text": "record the hash as evidence,",
+          "function": "行動",
+          "translation": "ハッシュは証拠として記録し"
+        },
+        {
+          "text": "not as the verdict.",
+          "function": "比較",
+          "translation": "最終判定としては扱いません"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続詞",
+          "name": "when",
+          "where": "When floating-point results vary",
+          "explanation": "比較方法を切り替える条件を導く。",
+          "rule": "When + S + V, 命令文"
+        },
+        {
+          "category": "前置詞",
+          "name": "across",
+          "where": "across CPUs",
+          "explanation": "複数のCPU環境にまたがる差を表す。",
+          "rule": "vary across + 複数名詞"
+        },
+        {
+          "category": "命令文",
+          "name": "動詞原形compare",
+          "where": "compare mesh structure",
+          "explanation": "推奨する検証操作を直接示す。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "対比",
+          "name": "rather than + -ing",
+          "where": "rather than requiring",
+          "explanation": "構造比較とバイト一致の要求を対比する。",
+          "rule": "動詞句 + rather than + 動名詞句"
+        },
+        {
+          "category": "複合形容詞",
+          "name": "byte-identical",
+          "where": "byte-identical GLB files",
+          "explanation": "バイト単位で完全に同一であることを一語で修飾する。",
+          "rule": "名詞-形容詞 + 名詞"
+        },
+        {
+          "category": "語法",
+          "name": "record A as B",
+          "where": "record the hash as evidence",
+          "explanation": "ハッシュの役割を証拠として位置づける。",
+          "rule": "record + A + as + B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When results varies across CPUs",
+          "correct": "When results vary across CPUs",
+          "why": "複数主語resultsに合わせてvaryを使う。"
+        },
+        {
+          "wrong": "rather than require byte-identical files",
+          "correct": "rather than requiring byte-identical files",
+          "why": "ここではrather thanの後を動名詞句にそろえる。"
+        },
+        {
+          "wrong": "record the hash for evidence",
+          "correct": "record the hash as evidence",
+          "why": "役割・資格を示す場合はasを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Compare decoded geometry within tolerance instead of demanding identical binaries.",
+          "translation": "同一のバイナリを要求せず、復号した形状を許容差内で比較してください。"
+        },
+        {
+          "text": "A hash records an artifact's identity, but it does not measure geometric equivalence.",
+          "translation": "ハッシュは成果物の同一性を記録しますが、幾何学的な同等性は測りません。"
+        },
+        {
+          "text": "Cross-platform validation should focus on effective data rather than irrelevant byte differences.",
+          "translation": "異なる環境間の検証では、無関係なバイト差ではなく実効データに注目するべきです。"
+        }
+      ],
+      "parseTree": "[S [AdvCl When floating-point results vary across CPUs] [VP compare [NP mesh structure and numerical tolerances] [PP rather than requiring byte-identical GLB files]]; [VP record [NP the hash] [PP as evidence] [Contrast not as the verdict]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "floating-point results vary across CPUs",
+          "expanded": "because instruction sets and numerical execution can differ slightly",
+          "nuance": "環境差が生じる理由を示す。"
+        },
+        {
+          "original": "compare mesh structure and numerical tolerances",
+          "expanded": "since effective geometry matters more than insignificant binary variation",
+          "nuance": "構造比較を採用する理由を示す。"
+        },
+        {
+          "original": "record the hash as evidence, not as the verdict",
+          "expanded": "therefore, use the hash for traceability while judging equivalence with semantic tests",
+          "nuance": "追跡記録と合否判定の役割を分ける。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Mesh structure and numerical values should be compared within defined tolerances.",
+          "translation": "メッシュ構造と数値は、定めた許容差内で比較されるべきです。",
+          "note": "比較対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Allowing minor floating-point variation, compare the decoded geometry across CPU environments.",
+          "translation": "小さな浮動小数点差を許容し、CPU環境間で復号した形状を比較してください。",
+          "note": "許容条件を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Tolerance-based comparison replaces byte-identity requirements in cross-CPU validation.",
+          "translation": "許容差に基づく比較は、CPU間検証におけるバイト同一性の要求に代わります。",
+          "note": "compareとrequireを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "verdict",
+            "alternatives": [
+              "final judgment",
+              "pass/fail decision",
+              "conclusion"
+            ],
+            "nuance": "verdictは最終的な合否判断、evidenceはその判断を支える材料を指す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "条件付き命令",
+            "sentence": "When A varies, compare B rather than requiring C.",
+            "translation": "Aが変動するときは、Cを要求せずBを比較してください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Tolerance-based geometry checks are more meaningful than binary equality across CPUs.",
+            "translation": "CPU間では、許容差に基づく形状検査の方がバイナリ一致より意味があります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If effective weights and geometry match within tolerance, minor byte differences need not fail the test.",
+            "translation": "実効ウェイトと形状が許容差内で一致するなら、小さなバイト差だけで検査を不合格にする必要はありません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is semantic equivalence, not byte identity, that the validation should establish.",
+            "translation": "検証が確立すべきなのは、バイト同一性ではなく意味上の同等性です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Hash for traceability; structure for judgment.",
+            "translation": "追跡にはハッシュ、判定には構造。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "条件節、命令文、セミコロンで検証手順とハッシュの役割を分離した。GLB検証に特化するためflexibilityを8とした。"
+    }
+  }
+]
