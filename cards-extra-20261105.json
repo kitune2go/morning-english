@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 188,
+    "_generatedAt": "2026-11-05T02:00:00+09:00",
+    "sentence": "A correction becomes auditable when the editor keeps the source image, before-and-after comparison, and aligned overlay visible instead of showing only the latest mesh.",
+    "phonetic": "ア カレクション ビカムズ オーディタブル ウェン ジ エディター キープス ザ ソース イメージ、ビフォー アンド アフター コンパリソン、アンド アラインド オウヴァーレイ ヴィジブル インステッド オブ ショウイング オウンリー ザ レイテスト メッシュ。",
+    "japaneseTranslation": "修正は、編集画面が最新のメッシュだけを表示するのではなく、元画像、修正前後の比較、位置合わせした重ね表示を見える状態に保つとき、検証可能になります。",
+    "theme": "3D修正の根拠画像と比較状態を編集画面に残す",
+    "coreVerb": "become",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The correction becomes auditable.",
+        "translation": "修正は検証可能になります。"
+      },
+      "phase2": {
+        "sentence": "The correction becomes auditable with visible evidence.",
+        "translation": "修正は根拠が見えると検証可能になります。",
+        "addedChunks": "補足(with visible evidence)を追加"
+      },
+      "phase3": {
+        "sentence": "The correction becomes auditable when the editor keeps evidence visible.",
+        "translation": "編集画面が根拠を見える状態に保つとき、修正は検証可能になります。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "An aligned overlay is more informative than the latest mesh alone.",
+        "translation": "位置合わせした重ね表示は、最新のメッシュだけより多くの情報を与えます。",
+        "comparison": "more informative than"
+      },
+      "phase5": {
+        "sentence": "A correction becomes auditable when the editor keeps the source image, before-and-after comparison, and aligned overlay visible instead of showing only the latest mesh",
+        "translation": "修正は、編集画面が最新のメッシュだけを表示するのではなく、元画像、修正前後の比較、位置合わせした重ね表示を見える状態に保つとき、検証可能になります。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A correction becomes auditable",
+          "function": "結果",
+          "translation": "修正は検証可能になります"
+        },
+        {
+          "text": "when the editor keeps",
+          "function": "時間",
+          "translation": "編集画面が保つとき"
+        },
+        {
+          "text": "the source image, before-and-after comparison,",
+          "function": "対象",
+          "translation": "元画像と修正前後の比較を"
+        },
+        {
+          "text": "and aligned overlay visible",
+          "function": "状態",
+          "translation": "そして位置合わせした重ね表示を見える状態に"
+        },
+        {
+          "text": "instead of showing",
+          "function": "比較",
+          "translation": "表示するのではなく"
+        },
+        {
+          "text": "only the latest mesh.",
+          "function": "対象",
+          "translation": "最新のメッシュだけを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "語法",
+          "name": "become + 形容詞",
+          "where": "becomes auditable",
+          "explanation": "修正が後から検証できる状態になることを表す。",
+          "rule": "become + 形容詞"
+        },
+        {
+          "category": "接続詞",
+          "name": "when",
+          "where": "when the editor keeps",
+          "explanation": "検証可能になる条件を導く。",
+          "rule": "when + S + V"
+        },
+        {
+          "category": "使役・状態",
+          "name": "keep O C",
+          "where": "keeps ... visible",
+          "explanation": "三つの比較材料を見える状態に保つことを表す。",
+          "rule": "keep + 目的語 + 補語"
+        },
+        {
+          "category": "並列",
+          "name": "三項並列",
+          "where": "the source image, before-and-after comparison, and aligned overlay",
+          "explanation": "検証に必要な三種類の表示を列挙する。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "複合形容詞",
+          "name": "before-and-after",
+          "where": "before-and-after comparison",
+          "explanation": "修正前と修正後を対にした比較を修飾する。",
+          "rule": "ハイフンで結んだ語句 + 名詞"
+        },
+        {
+          "category": "対比",
+          "name": "instead of + -ing",
+          "where": "instead of showing",
+          "explanation": "根拠を残す表示と最新結果だけの表示を対比する。",
+          "rule": "instead of + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A correction become auditable.",
+          "correct": "A correction becomes auditable.",
+          "why": "単数主語correctionに合わせてbecomesを使う。"
+        },
+        {
+          "wrong": "keeps the source image visibly",
+          "correct": "keeps the source image visible",
+          "why": "keep O Cでは目的語の状態を表す形容詞visibleを使う。"
+        },
+        {
+          "wrong": "instead of show only the latest mesh",
+          "correct": "instead of showing only the latest mesh",
+          "why": "前置詞ofの後には動名詞を置く。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Keep the reference image visible so reviewers can trace each correction.",
+          "translation": "各修正を追跡できるよう、参照画像を見える状態に保ってください。"
+        },
+        {
+          "text": "A synchronized overlay makes shape changes easier to verify.",
+          "translation": "同期した重ね表示は、形状変更を検証しやすくします。"
+        },
+        {
+          "text": "Showing only the final mesh hides the evidence behind the edit.",
+          "translation": "最終メッシュだけを表示すると、編集の根拠が見えなくなります。"
+        }
+      ],
+      "parseTree": "[S [NP A correction] [VP becomes [AdjP auditable] [AdvCl when [NP the editor] [VP keeps [NP the source image, before-and-after comparison, and aligned overlay] [Adj visible] [PP instead of showing only the latest mesh]]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "becomes auditable",
+          "expanded": "because a reviewer can compare the change with its visual evidence",
+          "nuance": "検証可能になる理由を示す。"
+        },
+        {
+          "original": "keeps the source image, before-and-after comparison, and aligned overlay visible",
+          "expanded": "since each view answers a different question about the correction",
+          "nuance": "複数表示の役割分担を示す。"
+        },
+        {
+          "original": "instead of showing only the latest mesh",
+          "expanded": "therefore, preserve the path from evidence to decision",
+          "nuance": "完成結果だけでなく判断経路を残す方針へ展開する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The source image and aligned overlay should be kept visible during editing.",
+          "translation": "編集時には、元画像と位置合わせした重ね表示を見える状態に保つべきです。",
+          "note": "表示される資料を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Keeping the evidence visible, the editor makes each correction easier to audit.",
+          "translation": "根拠を見える状態に保つことで、編集画面は各修正を検証しやすくします。",
+          "note": "検証手段を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Visible comparison improves correction traceability.",
+          "translation": "比較を見えるようにすることは、修正の追跡可能性を高めます。",
+          "note": "compareとtraceを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "auditable",
+            "alternatives": [
+              "verifiable",
+              "traceable",
+              "reviewable"
+            ],
+            "nuance": "auditableは根拠と手順を後から点検できること、verifiableは正しさを確認できることを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "成立条件",
+            "sentence": "A change becomes auditable when its evidence remains visible.",
+            "translation": "変更は、その根拠が見える状態で残ると検証可能になります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "An aligned overlay reveals discrepancies more clearly than an isolated mesh.",
+            "translation": "位置合わせした重ね表示は、単独のメッシュより不一致を明確に示します。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the source image disappears, reviewers cannot reconstruct the basis for the edit.",
+            "translation": "元画像が消えると、確認者は編集の根拠を再現できません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What makes the correction auditable is the preserved comparison, not the final mesh alone.",
+            "translation": "修正を検証可能にするのは、最終メッシュだけではなく、保存された比較です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Preserve the evidence, not just the result.",
+            "translation": "結果だけでなく根拠を残す。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "when節とkeep O Cで検証可能性の条件を明示した。3D編集画面に特化するためflexibilityを8とした。"
+    }
+  }
+]
