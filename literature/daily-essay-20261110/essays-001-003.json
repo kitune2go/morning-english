@@ -1,0 +1,174 @@
+[
+  {
+    "id": "DE-20261110-001",
+    "sourceTitle": "『数字はまだ働いていない』",
+    "workId": "daily-essay-20261110",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "単語の数と文の意味",
+    "jp": "辞書には二千件を超える対訳と八千語を超える日本語が入り、それでも未対応語は十四万件を超えて残った。だが問題は量だけではない。「肩が痛い」を「痛い」だけ切り出せば、身体のどこがどうなのかを失う。単語の一致は入口であり、文の意味ではない。翻訳は、辞書で拾える部分と、文脈を見なければ決められない塊を分けて初めて使える。",
+    "translationLiteral": "The dictionary came to contain more than two thousand translation pairs and more than eight thousand Japanese words, and even then more than one hundred forty thousand unsupported items remained. But quantity is not the only problem. If “my shoulder hurts” is cut down to only “hurts,” it loses where in the body and what is wrong. A word match is an entrance, not the meaning of a sentence. Translation becomes usable only after separating the parts that can be picked up by the dictionary from chunks that cannot be determined without context.",
+    "translationNatural": "The dictionary grew to more than two thousand translation pairs and over eight thousand Japanese entries, yet more than 140,000 items remained unsupported. But volume was not the only problem. If “my shoulder hurts” is reduced to the word “hurts,” the location and nature of the pain disappear. A lexical match is an entry point, not the meaning of a sentence. Translation becomes usable only when dictionary-resolvable pieces are separated from chunks that require context.",
+    "imageUrl": "",
+    "imageCaption": "大量の辞書項目の中で、「肩が痛い」という一文だけが文脈の線で結ばれる。",
+    "imagePrompt": "An editorial illustration of a vast bilingual dictionary grid surrounding a single sentence whose words are connected by a clear contextual thread, restrained educational design, no text",
+    "chunks": [
+      {
+        "en": "The dictionary grew to more than two thousand translation pairs and over eight thousand Japanese entries, yet more than 140,000 items remained unsupported.",
+        "ja": "辞書は二千件を超える対訳と八千語を超える日本語項目まで増えたが、十四万件を超える項目が未対応のまま残った。"
+      },
+      {
+        "en": "But volume was not the only problem.",
+        "ja": "しかし問題は量だけではなかった。"
+      },
+      {
+        "en": "If “my shoulder hurts” is reduced to the word “hurts,” the location and nature of the pain disappear.",
+        "ja": "「肩が痛い」を「痛い」という語だけに縮めると、痛みの場所と状態が消える。"
+      },
+      {
+        "en": "A lexical match is an entry point, not the meaning of a sentence.",
+        "ja": "語彙の一致は入口であって、文の意味ではない。"
+      },
+      {
+        "en": "Translation becomes usable only when dictionary-resolvable pieces are separated from chunks that require context.",
+        "ja": "翻訳は、辞書で解決できる部分と文脈を必要とする塊を分けて初めて使えるようになる。"
+      }
+    ],
+    "grammar": [
+      "grew to ... は増加して到達した規模を示す。",
+      "yet は辞書の増加と大量の未対応項目を対比する。",
+      "If ... is reduced ... は受動態を含む条件文。",
+      "not A, but B に近い A, not B の形で入口と意味を区別する。",
+      "only when ... は利用可能になるための必要条件を強調する。",
+      "that require context は chunks を限定する関係節。"
+    ],
+    "translationNote": "直訳は「入口」「拾える部分」を残し、自然訳は語学処理の文脈に合わせて lexical match、dictionary-resolvable pieces とした。十四万件超、二千件超、八千語超という数量の程度は保持している。",
+    "readingPoint": "導入。辞書の規模から始め、単語数の増加だけでは文の意味に届かないことを具体例で示す。",
+    "keywords": [
+      "辞書",
+      "文脈",
+      "機械翻訳",
+      "語彙",
+      "意味の塊"
+    ]
+  },
+  {
+    "id": "DE-20261110-002",
+    "sourceTitle": "『数字はまだ働いていない』",
+    "workId": "daily-essay-20261110",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "値札が説明しないもの",
+    "jp": "同じずれは値札にも現れる。固定ファンがいて告知に反応が集まり、商品価格が上がっても、体験価値まで同じ割合で上がるとは限らない。作品や催しは、一人の名義だけでなく、制作、演出、場所、過去作の蓄積に支えられる。数字の大きさは需要の手掛かりにはなるが、誰が価値を作り、何に対価が払われたかまでは説明しない。露出の多さも、新しい客を自動では連れてこない。",
+    "translationLiteral": "The same gap also appears on a price tag. Even if there are loyal fans, announcements receive responses, and the product price rises, the value of the experience does not necessarily rise by the same proportion. Works and events are supported not only by one credited name but also by production, direction, the place, and the accumulation of earlier works. The size of the numbers can be a clue to demand, but it does not explain who created the value or what the payment was for. Greater exposure also does not automatically bring new customers.",
+    "translationNatural": "The same gap appears on a price tag. A product may have loyal fans and receive attention when announced, but a higher price does not raise the value of the experience by the same proportion. A work or event rests not on one credited name alone, but on production, direction, venue, and the accumulated value of earlier works. Large numbers can signal demand, yet they do not explain who created the value or what the payment was actually for. Greater exposure does not automatically bring in new customers either.",
+    "imageUrl": "",
+    "imageCaption": "大きな値札の背後に、制作・演出・会場・過去作の層が見える。",
+    "imagePrompt": "A thoughtful editorial scene of a large price tag floating before layered contributors, production work, direction, venue, and archived works, with audience response shown separately, no text",
+    "chunks": [
+      {
+        "en": "The same gap appears on a price tag.",
+        "ja": "同じ隔たりは値札にも現れる。"
+      },
+      {
+        "en": "A product may have loyal fans and receive attention when announced, but a higher price does not raise the value of the experience by the same proportion.",
+        "ja": "商品には固定ファンがいて告知時に注目を集めることもあるが、価格が上がっても体験価値が同じ割合で上がるわけではない。"
+      },
+      {
+        "en": "A work or event rests not on one credited name alone, but on production, direction, venue, and the accumulated value of earlier works.",
+        "ja": "作品や催しは、一人の名義だけでなく、制作、演出、会場、過去作が積み上げた価値に支えられる。"
+      },
+      {
+        "en": "Large numbers can signal demand, yet they do not explain who created the value or what the payment was actually for.",
+        "ja": "大きな数字は需要の手掛かりになりうるが、誰が価値を作り、実際に何へ対価が払われたかまでは説明しない。"
+      },
+      {
+        "en": "Greater exposure does not automatically bring in new customers either.",
+        "ja": "露出が増えても、新しい客が自動的に来るわけではない。"
+      }
+    ],
+    "grammar": [
+      "may have / receive は可能性を断定せずに示す。",
+      "when announced は商品が告知された時を表す省略された受動節。",
+      "does not raise A by B は上昇幅が比例しないことを示す。",
+      "not on A alone, but on B は価値を支える主体を対比する。",
+      "who created ... / what the payment was ... for は explain の目的語となる間接疑問節。",
+      "yet は需要の手掛かりと説明力の限界を対比する。",
+      "either は否定文に追加の否定を重ねる。"
+    ],
+    "translationNote": "literal は「名義」「場所」を直に追い、natural は credited name、venue とイベント文脈に合わせた。固定ファンや告知反応があることと、価格上昇が体験価値の比例上昇を意味しないことを混同していない。",
+    "readingPoint": "展開。辞書件数と意味のずれを、価格・露出・需要指標と体験価値のずれへ広げる。",
+    "keywords": [
+      "価格",
+      "体験価値",
+      "固定ファン",
+      "制作",
+      "露出"
+    ]
+  },
+  {
+    "id": "DE-20261110-003",
+    "sourceTitle": "『数字はまだ働いていない』",
+    "workId": "daily-essay-20261110",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "合格のあとに残る判断",
+    "jp": "開発の合格表示も似ている。ジョブがSUCCESSを返し、戻り値が0で、記録されたSHAが実行したコミットと一致し、作業ツリーが汚れていない。テストも通った。それでも、必要なレビューを終えるまではマージしないという線が残った。数字は確認を速くするが、判断を代行しない。完成とは、合格項目が並ぶことではなく、次へ進める根拠が揃い、保留の理由まで見える状態である。",
+    "translationLiteral": "A passing status in development is similar. The job returns SUCCESS, the return value is 0, the recorded SHA matches the commit that was executed, and the worktree is not dirty. The tests also passed. Even so, the line remained that it would not be merged until the required review was finished. Numbers make checking faster, but they do not perform judgment in its place. Completion is not a list of passed items; it is a state in which the grounds for moving forward are present and even the reason for holding is visible.",
+    "translationNatural": "Development status labels create a similar gap. A job returned SUCCESS with exit code 0; the recorded SHA matched the executed commit; the worktree was clean; and the tests passed. Even so, the rule remained: do not merge until the required review is complete. Numbers accelerate verification, but they do not make the decision. Completion is not a row of passing checks. It is a state in which the grounds for moving forward are present and the reason for any hold is visible.",
+    "imageUrl": "",
+    "imageCaption": "緑の合格表示の先に、まだ閉じたレビューゲートが残る。",
+    "imagePrompt": "An editorial software scene with several green verification checks leading to a closed review gate, while the reason for the hold remains clearly visible, elegant and minimal, no text",
+    "chunks": [
+      {
+        "en": "Development status labels create a similar gap.",
+        "ja": "開発の状態表示にも同じ隔たりが生まれる。"
+      },
+      {
+        "en": "A job returned SUCCESS with exit code 0; the recorded SHA matched the executed commit;",
+        "ja": "ジョブは終了コード0でSUCCESSを返し、記録されたSHAは実行したコミットと一致した。"
+      },
+      {
+        "en": "the worktree was clean; and the tests passed.",
+        "ja": "作業ツリーはクリーンで、テストも通った。"
+      },
+      {
+        "en": "Even so, the rule remained: do not merge until the required review is complete.",
+        "ja": "それでも、必要なレビューが完了するまではマージしないという規則が残った。"
+      },
+      {
+        "en": "Numbers accelerate verification, but they do not make the decision.",
+        "ja": "数字は検証を速めるが、判断そのものは行わない。"
+      },
+      {
+        "en": "Completion is not a row of passing checks.",
+        "ja": "完成とは、合格した確認項目が並ぶことではない。"
+      },
+      {
+        "en": "It is a state in which the grounds for moving forward are present and the reason for any hold is visible.",
+        "ja": "次へ進む根拠が揃い、保留する理由も見える状態である。"
+      }
+    ],
+    "grammar": [
+      "returned SUCCESS with exit code 0 は結果と付随情報をまとめる。",
+      "セミコロンは四つの独立した検証結果を並列する。",
+      "matched the executed commit は SHA の比較対象を明示する。",
+      "Even so は全項目合格後にも残る条件を導く。",
+      "do not merge until ... は禁止が続く期限を示す。",
+      "but は検証速度と判断主体を対比する。",
+      "in which ... は a state を説明する関係節。"
+    ],
+    "translationNote": "literal は「戻り値」「汚れていない」を追い、natural は開発用語として exit code、the worktree was clean とした。SUCCESS・0・SHA一致・clean・テスト合格を保持しつつ、レビュー前はマージしないという条件を省略していない。",
+    "readingPoint": "転換と結び。測定可能な合格項目を認めたうえで、完成には人の判断と保留理由の可視性が残ると結ぶ。",
+    "keywords": [
+      "SUCCESS",
+      "終了コード",
+      "SHA",
+      "レビュー",
+      "マージ"
+    ]
+  }
+]
