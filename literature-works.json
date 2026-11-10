@@ -417,5 +417,12 @@
     "description": "GitHub・Colab／クラウド・Driveの役割分離、五十候補を三件単位へ分けた再開設計、三次元スキャンと多方向画像と照明補正画像の原本保全を通して、実験を追跡可能な知識へ変える条件を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261109/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261110",
+    "title": "数字はまだ働いていない",
+    "description": "辞書件数と文脈翻訳、価格・露出と体験価値、SUCCESS・戻り値・SHA・テスト合格とレビュー条件を通して、数字や合格表示を意味・価値・完成そのものと混同しないための日次エッセイ。",
+    "manifest": "literature/daily-essay-20261110/manifest.json",
+    "mode": "essay-translation"
   }
 ]
