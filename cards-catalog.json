@@ -112,7 +112,10 @@
     "cards-extra-20261104.json",
     "cards-extra-20261105.json",
     "cards-extra-20261106.json",
-    "cards-extra-20261107.json"
+    "cards-extra-20261107.json",
+    "cards-extra-20261108.json",
+    "cards-extra-20261109.json",
+    "cards-extra-20261110.json"
   ],
   "cards": [
     {
@@ -1444,6 +1447,27 @@
       "coreVerb": "compare",
       "theme": "CPU差のあるGLB検証をバイト一致から構造・許容差比較へ変える",
       "_sourceFile": "cards-extra-20261107.json"
+    },
+    {
+      "_no": 191,
+      "sentence": "A claim that AI has doubled the pace of research does not mean current systems are twice as capable as before; it means the rate of improvement may have accelerated.",
+      "coreVerb": "mean",
+      "theme": "AIの現在能力と研究進歩の速度を区別する",
+      "_sourceFile": "cards-extra-20261108.json"
+    },
+    {
+      "_no": 192,
+      "sentence": "Use the 3D model itself as the primary reference, with depth and normal maps as geometric evidence and silhouettes only as secondary checks.",
+      "coreVerb": "use",
+      "theme": "3D評価で形状本体・深度法線・輪郭の役割を分ける",
+      "_sourceFile": "cards-extra-20261109.json"
+    },
+    {
+      "_no": 193,
+      "sentence": "Use social comparisons to test whether a claim fits material conditions, but do not let a ranking define a person's worth.",
+      "coreVerb": "use",
+      "theme": "主張を検証する比較と人の価値を決める順位付けを分ける",
+      "_sourceFile": "cards-extra-20261110.json"
     }
   ]
 }
