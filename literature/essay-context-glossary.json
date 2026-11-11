@@ -7397,5 +7397,193 @@
         }
       ]
     }
+  ],
+  "DE-20261111-001": [
+    {
+      "words": {
+        "error": "エラー",
+        "cloud": "クラウド上の",
+        "permission": "許可"
+      },
+      "phrases": [
+        {
+          "en": "When an error appeared in a cloud experiment, the task was not to repair it without permission.",
+          "ja": "クラウド上の実験でエラーが現れたとき、求められたのは許可なく修正することではなかった。",
+          "note": "このチャンクの主体・時点・操作を、後続の因果関係と切り離さずに読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "unchanged": "変更されない",
+        "stopped": "停止した",
+        "output": "出力",
+        "obtained": "得られた"
+      },
+      "phrases": [
+        {
+          "en": "The settings and code stayed unchanged; the stopped cell and the end of its output were reported, along with the fact that no save path or match rate had been obtained.",
+          "ja": "設定とコードは変更せず、停止したセルと出力の末尾を、保存先も一致率も得られなかった事実とともに報告した。",
+          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "erase": "消す",
+        "preserved": "保存した",
+        "progressed": "進んだ"
+      },
+      "phrases": [
+        {
+          "en": "Rather than erase the failure and move toward success, the record preserved how far the run progressed and where it stopped.",
+          "ja": "失敗を消して成功へ進むのではなく、実行がどこまで進み、どこで止まったかを記録に残した。",
+          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "reproducible": "再現可能な",
+        "stopping": "停止の",
+        "fix": "修正"
+      },
+      "phrases": [
+        {
+          "en": "In reproducible work, the stopping point before a fix is part of the result.",
+          "ja": "再現可能な作業では、修正前の停止点も結果の一部である。",
+          "note": "結論の必要条件と順序を保持して読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261111-002": [
+    {
+      "words": {
+        "reached": "到達した",
+        "success": "成功表示SUCCESS",
+        "glb": "GLB形式"
+      },
+      "phrases": [
+        {
+          "en": "Another run reached SUCCESS and saved several GLB files.",
+          "ja": "別の実行はSUCCESSまで進み、複数のGLBファイルを保存した。",
+          "note": "このチャンクの主体・時点・操作を、後続の因果関係と切り離さずに読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "spiky": "刺さったような",
+        "jagged": "ゴツゴツした",
+        "wireframe": "ワイヤー表示",
+        "resembled": "似ていた",
+        "point": "点",
+        "cloud": "点群の一部"
+      },
+      "phrases": [
+        {
+          "en": "Even so, the displayed forms still looked spiky and jagged, and the wireframe resembled a point cloud.",
+          "ja": "それでも表示された形は刺さったようでゴツゴツして見え、ワイヤー表示は点群に似ていた。",
+          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "passing": "合格した",
+        "assessment": "評価",
+        "form": "形状"
+      },
+      "phrases": [
+        {
+          "en": "A passing status and an assessment of form are not the same thing.",
+          "ja": "合格表示と形状の評価は同じものではない。",
+          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "textures": "テクスチャ（複数）",
+        "geometry": "形状",
+        "decoration": "装飾",
+        "roughness": "粗さ"
+      },
+      "phrases": [
+        {
+          "en": "Turning off textures and viewing the model in a single color separated geometry from decoration, making the source of the roughness easier to see.",
+          "ja": "テクスチャを外してモデルを単色で見ることで、形状を装飾から分け、粗さの原因を見やすくした。",
+          "note": "結論の必要条件と順序を保持して読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261111-003": [
+    {
+      "words": {
+        "mesh": "メッシュ",
+        "estimated": "推定した",
+        "depth": "深度",
+        "surface": "面",
+        "contour": "等高線",
+        "normals": "法線（複数）",
+        "preserving": "保ちながら",
+        "outline": "輪郭"
+      },
+      "phrases": [
+        {
+          "en": "In the facial model, the mesh was rebuilt from an estimated depth surface, contour lines, and normals derived from the same depth data while preserving the outline of the original image.",
+          "ja": "顔のモデルでは、元絵の輪郭を保ちながら、推定深度面、等高線、同じ深度データから得た法線をもとにメッシュを作り直した。",
+          "note": "このチャンクの主体・時点・操作を、後続の因果関係と切り離さずに読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "protruded": "突出した",
+        "neither": "どちらでもない",
+        "reconstruction": "復元",
+        "improvement": "改善",
+        "remained": "残った"
+      },
+      "phrases": [
+        {
+          "en": "The nose protruded less, but the result was neither an accurate reconstruction nor a major improvement, and problems remained in the hair and neck.",
+          "ja": "鼻の突出は抑えられたが、結果は正確な復元でも大幅な改善でもなく、髪と首の問題は残った。",
+          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "vague": "曖昧な",
+        "fringe": "前髪",
+        "sections": "区分（複数）",
+        "thickness": "厚み",
+        "profile": "側面の輪郭"
+      },
+      "phrases": [
+        {
+          "en": "The next step was therefore to divide the vague sense of “not alike” into fringe sections, head thickness, and profile lines.",
+          "ja": "そこで次の手順は、曖昧な「似ていない」という感覚を、前髪の区分、頭部の厚み、側面の線へ分けることだった。",
+          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "invisible": "見えない",
+        "correction": "修正",
+        "compared": "比較された"
+      },
+      "phrases": [
+        {
+          "en": "An invisible error becomes an instruction for correction only after it is turned into something that can be compared.",
+          "ja": "見えない誤差は、比較できるものへ変えられて初めて修正の指示になる。",
+          "note": "結論の必要条件と順序を保持して読む。"
+        }
+      ]
+    }
   ]
 }
