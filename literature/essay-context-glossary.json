@@ -7401,9 +7401,15 @@
   "DE-20261111-001": [
     {
       "words": {
-        "error": "エラー",
-        "cloud": "クラウド上の",
-        "permission": "許可"
+        "error": {
+          "ja": "エラー"
+        },
+        "cloud": {
+          "ja": "クラウド上の"
+        },
+        "permission": {
+          "ja": "許可"
+        }
       },
       "phrases": [
         {
@@ -7415,10 +7421,18 @@
     },
     {
       "words": {
-        "unchanged": "変更されない",
-        "stopped": "停止した",
-        "output": "出力",
-        "obtained": "得られた"
+        "unchanged": {
+          "ja": "変更されない"
+        },
+        "stopped": {
+          "ja": "停止した"
+        },
+        "output": {
+          "ja": "出力"
+        },
+        "obtained": {
+          "ja": "得られた"
+        }
       },
       "phrases": [
         {
@@ -7430,9 +7444,15 @@
     },
     {
       "words": {
-        "erase": "消す",
-        "preserved": "保存した",
-        "progressed": "進んだ"
+        "erase": {
+          "ja": "消す"
+        },
+        "preserved": {
+          "ja": "保存した"
+        },
+        "progressed": {
+          "ja": "進んだ"
+        }
       },
       "phrases": [
         {
@@ -7444,9 +7464,15 @@
     },
     {
       "words": {
-        "reproducible": "再現可能な",
-        "stopping": "停止の",
-        "fix": "修正"
+        "reproducible": {
+          "ja": "再現可能な"
+        },
+        "stopping": {
+          "ja": "停止の"
+        },
+        "fix": {
+          "ja": "修正"
+        }
       },
       "phrases": [
         {
@@ -7460,9 +7486,15 @@
   "DE-20261111-002": [
     {
       "words": {
-        "reached": "到達した",
-        "success": "成功表示SUCCESS",
-        "glb": "GLB形式"
+        "reached": {
+          "ja": "到達した"
+        },
+        "success": {
+          "ja": "成功表示SUCCESS"
+        },
+        "glb": {
+          "ja": "GLB形式"
+        }
       },
       "phrases": [
         {
@@ -7474,12 +7506,24 @@
     },
     {
       "words": {
-        "spiky": "刺さったような",
-        "jagged": "ゴツゴツした",
-        "wireframe": "ワイヤー表示",
-        "resembled": "似ていた",
-        "point": "点",
-        "cloud": "点群の一部"
+        "spiky": {
+          "ja": "刺さったような"
+        },
+        "jagged": {
+          "ja": "ゴツゴツした"
+        },
+        "wireframe": {
+          "ja": "ワイヤー表示"
+        },
+        "resembled": {
+          "ja": "似ていた"
+        },
+        "point": {
+          "ja": "点"
+        },
+        "cloud": {
+          "ja": "点群の一部"
+        }
       },
       "phrases": [
         {
@@ -7491,9 +7535,15 @@
     },
     {
       "words": {
-        "passing": "合格した",
-        "assessment": "評価",
-        "form": "形状"
+        "passing": {
+          "ja": "合格した"
+        },
+        "assessment": {
+          "ja": "評価"
+        },
+        "form": {
+          "ja": "形状"
+        }
       },
       "phrases": [
         {
@@ -7505,10 +7555,18 @@
     },
     {
       "words": {
-        "textures": "テクスチャ（複数）",
-        "geometry": "形状",
-        "decoration": "装飾",
-        "roughness": "粗さ"
+        "textures": {
+          "ja": "テクスチャ（複数）"
+        },
+        "geometry": {
+          "ja": "形状"
+        },
+        "decoration": {
+          "ja": "装飾"
+        },
+        "roughness": {
+          "ja": "粗さ"
+        }
       },
       "phrases": [
         {
@@ -7522,14 +7580,30 @@
   "DE-20261111-003": [
     {
       "words": {
-        "mesh": "メッシュ",
-        "estimated": "推定した",
-        "depth": "深度",
-        "surface": "面",
-        "contour": "等高線",
-        "normals": "法線（複数）",
-        "preserving": "保ちながら",
-        "outline": "輪郭"
+        "mesh": {
+          "ja": "メッシュ"
+        },
+        "estimated": {
+          "ja": "推定した"
+        },
+        "depth": {
+          "ja": "深度"
+        },
+        "surface": {
+          "ja": "面"
+        },
+        "contour": {
+          "ja": "等高線"
+        },
+        "normals": {
+          "ja": "法線（複数）"
+        },
+        "preserving": {
+          "ja": "保ちながら"
+        },
+        "outline": {
+          "ja": "輪郭"
+        }
       },
       "phrases": [
         {
@@ -7541,11 +7615,21 @@
     },
     {
       "words": {
-        "protruded": "突出した",
-        "neither": "どちらでもない",
-        "reconstruction": "復元",
-        "improvement": "改善",
-        "remained": "残った"
+        "protruded": {
+          "ja": "突出した"
+        },
+        "neither": {
+          "ja": "どちらでもない"
+        },
+        "reconstruction": {
+          "ja": "復元"
+        },
+        "improvement": {
+          "ja": "改善"
+        },
+        "remained": {
+          "ja": "残った"
+        }
       },
       "phrases": [
         {
@@ -7557,11 +7641,21 @@
     },
     {
       "words": {
-        "vague": "曖昧な",
-        "fringe": "前髪",
-        "sections": "区分（複数）",
-        "thickness": "厚み",
-        "profile": "側面の輪郭"
+        "vague": {
+          "ja": "曖昧な"
+        },
+        "fringe": {
+          "ja": "前髪"
+        },
+        "sections": {
+          "ja": "区分（複数）"
+        },
+        "thickness": {
+          "ja": "厚み"
+        },
+        "profile": {
+          "ja": "側面の輪郭"
+        }
       },
       "phrases": [
         {
@@ -7573,9 +7667,15 @@
     },
     {
       "words": {
-        "invisible": "見えない",
-        "correction": "修正",
-        "compared": "比較された"
+        "invisible": {
+          "ja": "見えない"
+        },
+        "correction": {
+          "ja": "修正"
+        },
+        "compared": {
+          "ja": "比較された"
+        }
       },
       "phrases": [
         {
