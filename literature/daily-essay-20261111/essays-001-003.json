@@ -1,0 +1,155 @@
+[
+  {
+    "id": "DE-20261111-001",
+    "sourceTitle": "『見えないままでは直せない』",
+    "workId": "daily-essay-20261111",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "停止点を結果として残す",
+    "jp": "クラウド上の実験でエラーが出たとき、求められたのは勝手な修正ではなかった。設定もコードも変えず、停止したセルと出力の末尾をそのまま報告し、保存先や一致率が得られなかったことまで明記する。失敗を消して成功へ進むより、どこまで動き、どこで止まったかを残す。再現できる作業では、直す前の停止点も結果の一部になる。",
+    "translationLiteral": "When an error occurred in an experiment in the cloud, what was required was not an unauthorized repair. Without changing either the settings or the code, the stopped cell and the end of its output were reported as they were, including the fact that neither a save path nor a match rate was obtained. Rather than erase the failure and proceed toward success, the record keeps how far the run moved and where it stopped. In reproducible work, the stopping point before a repair also becomes part of the result.",
+    "translationNatural": "When an error appeared in a cloud experiment, the task was not to repair it without permission. The settings and code stayed unchanged; the stopped cell and the end of its output were reported, along with the fact that no save path or match rate had been obtained. Rather than erase the failure and move toward success, the record preserved how far the run progressed and where it stopped. In reproducible work, the stopping point before a fix is part of the result.",
+    "imageUrl": "",
+    "imageCaption": "停止したセルの末尾が、修正前の実験記録として保存される。",
+    "imagePrompt": "An editorial illustration of a cloud computing notebook stopped at one cell, with the final output lines carefully preserved as evidence, restrained technical atmosphere, no text",
+    "chunks": [
+      {
+        "en": "When an error appeared in a cloud experiment, the task was not to repair it without permission.",
+        "ja": "クラウド上の実験でエラーが現れたとき、求められたのは許可なく修正することではなかった。"
+      },
+      {
+        "en": "The settings and code stayed unchanged; the stopped cell and the end of its output were reported, along with the fact that no save path or match rate had been obtained.",
+        "ja": "設定とコードは変更せず、停止したセルと出力の末尾を、保存先も一致率も得られなかった事実とともに報告した。"
+      },
+      {
+        "en": "Rather than erase the failure and move toward success, the record preserved how far the run progressed and where it stopped.",
+        "ja": "失敗を消して成功へ進むのではなく、実行がどこまで進み、どこで止まったかを記録に残した。"
+      },
+      {
+        "en": "In reproducible work, the stopping point before a fix is part of the result.",
+        "ja": "再現可能な作業では、修正前の停止点も結果の一部である。"
+      }
+    ],
+    "grammar": [
+      "what was required was not ... に相当する内容を the task was not to ... で明確にする。",
+      "stayed unchanged は設定とコードが変更されなかった状態を能動的に表す。",
+      "along with the fact that ... は報告に含めた未取得事項を追加する。",
+      "Rather than ... は、失敗を消すことと記録を残すことを対比する。",
+      "how far ... and where ... は preserved の目的語となる二つの間接疑問節。",
+      "before a fix は停止点が修正より前にあることを限定する。"
+    ],
+    "translationNote": "直訳は「勝手な修正」を unauthorized repair として日本語の構造を追い、自然訳は実行指示の文脈に合わせて repair it without permission と展開した。設定・コードを変えない条件、保存先と一致率が未取得であること、停止点を保存する結論を両訳に残した。",
+    "readingPoint": "導入。失敗を成功へ塗り替えず、修正前の停止点そのものを結果として残す姿勢を示す。",
+    "keywords": [
+      "クラウド実験",
+      "停止点",
+      "再現性",
+      "エラー報告",
+      "未変更"
+    ]
+  },
+  {
+    "id": "DE-20261111-002",
+    "sourceTitle": "『見えないままでは直せない』",
+    "workId": "daily-essay-20261111",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "SUCCESSの後に残る凹凸",
+    "jp": "別の実行はSUCCESSまで進み、複数のGLBを保存した。それでも表示された形には「刺さっている」「ゴツゴツしている」という違和感が残り、ワイヤー表示も点群のように見えた。合格表示と造形の評価は同じではない。テクスチャを外して単色で面を見ることは、装飾から形状を分け、何が粗さを生んでいるかを見えるようにするためだった。",
+    "translationLiteral": "Another run advanced as far as SUCCESS and saved multiple GLB files. Even so, the displayed shapes retained the discomfort of looking “stuck in” and “rough,” and the wireframe display also looked like a point cloud. A passing display and an evaluation of the modeling are not the same. Removing the texture and viewing the surfaces in a single color was meant to separate the shape from decoration and make visible what was producing the roughness.",
+    "translationNatural": "Another run reached SUCCESS and saved several GLB files. Even so, the displayed forms still looked spiky and jagged, and the wireframe resembled a point cloud. A passing status and an assessment of form are not the same thing. Turning off textures and viewing the model in a single color separated geometry from decoration, making the source of the roughness easier to see.",
+    "imageUrl": "",
+    "imageCaption": "緑のSUCCESS表示の手前で、単色化されたメッシュの凹凸が観察される。",
+    "imagePrompt": "An editorial 3D modeling scene where a green success indicator contrasts with a rough monochrome mesh and a point-cloud-like wireframe, analytical and minimal, no text",
+    "chunks": [
+      {
+        "en": "Another run reached SUCCESS and saved several GLB files.",
+        "ja": "別の実行はSUCCESSまで進み、複数のGLBファイルを保存した。"
+      },
+      {
+        "en": "Even so, the displayed forms still looked spiky and jagged, and the wireframe resembled a point cloud.",
+        "ja": "それでも表示された形は刺さったようでゴツゴツして見え、ワイヤー表示は点群に似ていた。"
+      },
+      {
+        "en": "A passing status and an assessment of form are not the same thing.",
+        "ja": "合格表示と形状の評価は同じものではない。"
+      },
+      {
+        "en": "Turning off textures and viewing the model in a single color separated geometry from decoration, making the source of the roughness easier to see.",
+        "ja": "テクスチャを外してモデルを単色で見ることで、形状を装飾から分け、粗さの原因を見やすくした。"
+      }
+    ],
+    "grammar": [
+      "reached SUCCESS and saved ... は一つの主語に二つの到達結果を並列する。",
+      "Even so は成功表示の後にも残る違和感を導く。",
+      "looked spiky and jagged は look + 補語で外観を述べる。",
+      "resembled a point cloud は比較対象を明示した他動詞構文。",
+      "A and B are not the same thing は二つの評価軸を区別する。",
+      "Turning off ... and viewing ... は二つの動名詞句を主語として並べる。",
+      "making ... は前の操作がもたらす結果を表す分詞構文。"
+    ],
+    "translationNote": "原文の「刺さっている」「ゴツゴツしている」は物体が実際に刺入した事実ではなく外観評価なので、自然訳では spiky and jagged とした。SUCCESS、複数GLB、点群のようなワイヤー、単色表示の目的という四点は省略していない。",
+    "readingPoint": "展開。機械的な成功表示から視覚評価へ移り、装飾を外すことが原因を観察する手段になると示す。",
+    "keywords": [
+      "SUCCESS",
+      "GLB",
+      "ワイヤー表示",
+      "単色表示",
+      "形状評価"
+    ]
+  },
+  {
+    "id": "DE-20261111-003",
+    "sourceTitle": "『見えないままでは直せない』",
+    "workId": "daily-essay-20261111",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "違和感を線へ変える",
+    "jp": "顔のモデルでは、元絵の輪郭を保ちながら、推定した深度面、等高線、同じ深度から得た法線を使って面を作り直した。鼻の突出は抑えられたが、正確な立体復元でも大幅な改善でもなく、髪と首の問題は残った。だから次の手順は、曖昧な「似ていない」を前髪の束、頭部の厚み、側面の線へ分けることだった。見えない誤差は、比較できる線になって初めて修正の指示になる。",
+    "translationLiteral": "In the facial model, the surfaces were rebuilt using an estimated depth surface, contour lines, and normals obtained from the same depth while preserving the outline of the original image. The protrusion of the nose was reduced, but this was neither an accurate three-dimensional reconstruction nor a major improvement, and problems with the hair and neck remained. Therefore, the next procedure was to divide the vague “not alike” into sections of fringe, the thickness of the head, and lines of the profile. An invisible error becomes an instruction for correction only after it becomes a line that can be compared.",
+    "translationNatural": "In the facial model, the mesh was rebuilt from an estimated depth surface, contour lines, and normals derived from the same depth data while preserving the outline of the original image. The nose protruded less, but the result was neither an accurate reconstruction nor a major improvement, and problems remained in the hair and neck. The next step was therefore to divide the vague sense of “not alike” into fringe sections, head thickness, and profile lines. An invisible error becomes an instruction for correction only after it is turned into something that can be compared.",
+    "imageUrl": "",
+    "imageCaption": "顔の輪郭、前髪、頭部の厚み、側面線が、曖昧な違和感を測る基準になる。",
+    "imagePrompt": "An editorial technical study of a stylized face with contour lines, estimated depth layers, normals, fringe sections, head thickness, and profile guides, clean analytical illustration, no text",
+    "chunks": [
+      {
+        "en": "In the facial model, the mesh was rebuilt from an estimated depth surface, contour lines, and normals derived from the same depth data while preserving the outline of the original image.",
+        "ja": "顔のモデルでは、元絵の輪郭を保ちながら、推定深度面、等高線、同じ深度データから得た法線をもとにメッシュを作り直した。"
+      },
+      {
+        "en": "The nose protruded less, but the result was neither an accurate reconstruction nor a major improvement, and problems remained in the hair and neck.",
+        "ja": "鼻の突出は抑えられたが、結果は正確な復元でも大幅な改善でもなく、髪と首の問題は残った。"
+      },
+      {
+        "en": "The next step was therefore to divide the vague sense of “not alike” into fringe sections, head thickness, and profile lines.",
+        "ja": "そこで次の手順は、曖昧な「似ていない」という感覚を、前髪の区分、頭部の厚み、側面の線へ分けることだった。"
+      },
+      {
+        "en": "An invisible error becomes an instruction for correction only after it is turned into something that can be compared.",
+        "ja": "見えない誤差は、比較できるものへ変えられて初めて修正の指示になる。"
+      }
+    ],
+    "grammar": [
+      "was rebuilt はメッシュを作り直した操作を受動態で示す。",
+      "derived from ... は normals を後ろから限定する過去分詞句。",
+      "while preserving ... は再構築と同時に保った条件を示す。",
+      "neither A nor B は正確な復元と大幅な改善の両方を否定する。",
+      "remained in ... は問題が髪と首に残ったことを示す。",
+      "therefore は前の限定的な改善から次の手順を導く。",
+      "only after ... は修正指示になるための必要な順序を強調する。",
+      "that can be compared は something を限定する関係節。"
+    ],
+    "translationNote": "literal は「面」「線」を繰り返して原文の論理を追い、natural は3D造形の文脈に合わせて surfaces を mesh、側面の線を profile lines とした。鼻の突出が減ったことを成功と強めず、正確な復元でも大幅改善でもないという二重否定と、髪・首の残存問題を保持した。",
+    "readingPoint": "転換と余韻。限定的な改善を認めつつ、曖昧な違和感を比較可能な線へ変えることが修正の出発点だと結ぶ。",
+    "keywords": [
+      "推定深度",
+      "等高線",
+      "法線",
+      "輪郭",
+      "比較"
+    ]
+  }
+]
