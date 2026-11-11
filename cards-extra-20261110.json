@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 193,
+    "_generatedAt": "2026-11-10T02:00:00+09:00",
+    "sentence": "Use social comparisons to test whether a claim fits material conditions, but do not let a ranking define a person's worth.",
+    "phonetic": "ユーズ ソウシャル コンパリソンズ トゥ テスト ウェザー ア クレイム フィッツ マテリアル コンディションズ、バット ドゥ ノット レット ア ランキング ディファイン ア パーソンズ ワース。",
+    "japaneseTranslation": "社会的な比較は、主張が物質的な条件に合うかを確かめるために使い、順位付けによって人の価値を決めないでください。",
+    "theme": "主張を検証する比較と人の価値を決める順位付けを分ける",
+    "coreVerb": "use",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Use comparisons.",
+        "translation": "比較を使ってください。"
+      },
+      "phase2": {
+        "sentence": "Use social comparisons to test a claim.",
+        "translation": "主張を検証するために社会的な比較を使ってください。",
+        "addedChunks": "修飾(social)と目的(to test a claim)を追加"
+      },
+      "phase3": {
+        "sentence": "Use comparisons to test claims, but do not rank personal worth.",
+        "translation": "主張の検証には比較を使いますが、人の価値を順位付けしないでください。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Comparison is more useful for testing claims than for defining personal worth.",
+        "translation": "比較は、人の価値を決めるより、主張を検証するために有用です。",
+        "comparison": "more useful ... than"
+      },
+      "phase5": {
+        "sentence": "Use social comparisons to test whether a claim fits material conditions, but do not let a ranking define a person's worth",
+        "translation": "社会的な比較は、主張が物質的な条件に合うかを確かめるために使い、順位付けによって人の価値を決めないでください。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Use social comparisons",
+          "function": "行動",
+          "translation": "社会的な比較を使ってください"
+        },
+        {
+          "text": "to test whether",
+          "function": "目的",
+          "translation": "確かめるために"
+        },
+        {
+          "text": "a claim fits material conditions,",
+          "function": "内容",
+          "translation": "主張が物質的な条件に合うかを"
+        },
+        {
+          "text": "but do not let",
+          "function": "接続",
+          "translation": "しかし、させないでください"
+        },
+        {
+          "text": "a ranking define",
+          "function": "行動",
+          "translation": "順位付けによって決めることを"
+        },
+        {
+          "text": "a person's worth.",
+          "function": "対象",
+          "translation": "人の価値を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "命令文",
+          "name": "動詞原形use",
+          "where": "Use social comparisons",
+          "explanation": "比較の適切な用途を示す。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "目的",
+          "name": "to不定詞",
+          "where": "to test",
+          "explanation": "比較を使う目的を示す。",
+          "rule": "to + 動詞原形"
+        },
+        {
+          "category": "間接疑問",
+          "name": "whether節",
+          "where": "whether a claim fits material conditions",
+          "explanation": "主張が条件に合うかどうかを検証対象にする。",
+          "rule": "whether + S + V"
+        },
+        {
+          "category": "接続詞",
+          "name": "but",
+          "where": "but do not let",
+          "explanation": "比較の利用と価値の順位付けを対比する。",
+          "rule": "命令文, but + 命令文"
+        },
+        {
+          "category": "使役",
+          "name": "let O do",
+          "where": "let a ranking define",
+          "explanation": "順位付けが人の価値を決めることを許さないと表す。",
+          "rule": "let + 目的語 + 動詞原形"
+        },
+        {
+          "category": "所有格",
+          "name": "person's",
+          "where": "a person's worth",
+          "explanation": "価値がその人に属する概念であることを示す。",
+          "rule": "名詞's + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Use social comparisons for test a claim.",
+          "correct": "Use social comparisons to test a claim.",
+          "why": "目的を示すにはto不定詞を使う。"
+        },
+        {
+          "wrong": "whether does a claim fit material conditions",
+          "correct": "whether a claim fits material conditions",
+          "why": "間接疑問では平叙文の語順にする。"
+        },
+        {
+          "wrong": "do not let a ranking defines",
+          "correct": "do not let a ranking define",
+          "why": "let O doの後は動詞原形を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Compare claims with real constraints without turning people into a hierarchy.",
+          "translation": "人を序列化せず、主張を現実の制約と比較してください。"
+        },
+        {
+          "text": "A comparison can test an argument without measuring human worth.",
+          "translation": "比較は、人の価値を測らなくても議論を検証できます。"
+        },
+        {
+          "text": "Use rankings for limited analytical tasks, not as complete judgments about people.",
+          "translation": "順位は限定的な分析に使い、人についての全面的な判断には使わないでください。"
+        }
+      ],
+      "parseTree": "[S [VP Use [NP social comparisons] [InfP to test [WhCl whether a claim fits material conditions]]], [Conj but] [VP do not let [NP a ranking] [VP define [NP a person's worth]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Use social comparisons to test",
+          "expanded": "because claims about society should be checked against actual constraints and distributions",
+          "nuance": "比較を検証手段にする理由を示す。"
+        },
+        {
+          "original": "whether a claim fits material conditions",
+          "expanded": "since location, income, labor, and access can limit what choices are realistic",
+          "nuance": "物質的条件の例を示す。"
+        },
+        {
+          "original": "do not let a ranking define a person's worth",
+          "expanded": "therefore, keep analytical comparison separate from moral judgment",
+          "nuance": "分析と価値判断を分離する。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A claim should be tested against material conditions without personal worth being ranked.",
+          "translation": "主張は、人の価値を順位付けすることなく、物質的条件に照らして検証されるべきです。",
+          "note": "検証される主張を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Comparing material conditions, we can test the claim without judging the person.",
+          "translation": "物質的条件を比較することで、人を評価せずに主張を検証できます。",
+          "note": "検証手段を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Claim evaluation does not require the ranking of personal worth.",
+          "translation": "主張の評価に、人の価値の順位付けは必要ありません。",
+          "note": "evaluateとrankを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "worth",
+            "alternatives": [
+              "value",
+              "dignity",
+              "merit"
+            ],
+            "nuance": "worthは人の価値、dignityは尊厳、meritは特定の文脈での長所や功績を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "用途と禁止",
+            "sentence": "Use A to test B, but do not let C define D.",
+            "translation": "Bを検証するためにAを使いますが、CにDを決めさせないでください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Comparison is better suited to testing claims than to measuring human worth.",
+            "translation": "比較は、人の価値を測るより主張を検証することに適しています。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a comparison ignores material conditions, its conclusion may be misleading.",
+            "translation": "比較が物質的条件を無視するなら、その結論は誤解を招く可能性があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What should be tested is the claim, not the person's worth.",
+            "translation": "検証すべきなのは主張であり、人の価値ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Compare conditions, not human worth.",
+            "translation": "条件を比べ、人の価値は比べない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "whether節とlet O doで、比較の分析用途と人間の価値判断を明確に分けた。"
+    }
+  }
+]
