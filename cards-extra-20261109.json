@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 192,
+    "_generatedAt": "2026-11-09T02:00:00+09:00",
+    "sentence": "Use the 3D model itself as the primary reference, with depth and normal maps as geometric evidence and silhouettes only as secondary checks.",
+    "phonetic": "ユーズ ザ スリーディー モデル イットセルフ アズ ザ プライマリー レファレンス、ウィズ デプス アンド ノーマル マップス アズ ジオメトリック エヴィデンス アンド シルエッツ オウンリー アズ セカンダリー チェックス。",
+    "japaneseTranslation": "3Dモデルそのものを主な基準として使い、深度マップと法線マップは形状の根拠として、輪郭は補助的な確認に限って使ってください。",
+    "theme": "3D評価で形状本体・深度法線・輪郭の役割を分ける",
+    "coreVerb": "use",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Use the model.",
+        "translation": "モデルを使ってください。"
+      },
+      "phase2": {
+        "sentence": "Use the 3D model itself as the primary reference.",
+        "translation": "3Dモデルそのものを主な基準として使ってください。",
+        "addedChunks": "強調(itself)と役割(as the primary reference)を追加"
+      },
+      "phase3": {
+        "sentence": "Use the model as the reference, and use maps as evidence.",
+        "translation": "モデルを基準として使い、各種マップを根拠として使ってください。",
+        "connector": "and"
+      },
+      "phase4": {
+        "sentence": "The 3D model is more direct evidence of shape than a silhouette.",
+        "translation": "3Dモデルは輪郭より、形状を直接示す根拠です。",
+        "comparison": "more direct than"
+      },
+      "phase5": {
+        "sentence": "Use the 3D model itself as the primary reference, with depth and normal maps as geometric evidence and silhouettes only as secondary checks",
+        "translation": "3Dモデルそのものを主な基準として使い、深度マップと法線マップは形状の根拠として、輪郭は補助的な確認に限って使ってください。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Use the 3D model itself",
+          "function": "行動",
+          "translation": "3Dモデルそのものを使ってください"
+        },
+        {
+          "text": "as the primary reference,",
+          "function": "様態",
+          "translation": "主な基準として"
+        },
+        {
+          "text": "with depth and normal maps",
+          "function": "対象",
+          "translation": "深度マップと法線マップを"
+        },
+        {
+          "text": "as geometric evidence",
+          "function": "様態",
+          "translation": "形状の根拠として"
+        },
+        {
+          "text": "and silhouettes",
+          "function": "接続",
+          "translation": "そして輪郭を"
+        },
+        {
+          "text": "only as secondary checks.",
+          "function": "目的",
+          "translation": "補助的な確認としてだけ"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "命令文",
+          "name": "動詞原形use",
+          "where": "Use the 3D model",
+          "explanation": "推奨する評価手順を直接示す。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "再帰代名詞",
+          "name": "強調用法のitself",
+          "where": "the 3D model itself",
+          "explanation": "画像ではなく3Dモデル本体を強調する。",
+          "rule": "名詞 + itself"
+        },
+        {
+          "category": "語法",
+          "name": "use A as B",
+          "where": "Use the 3D model itself as the primary reference",
+          "explanation": "3Dモデルに主基準という役割を与える。",
+          "rule": "use + A + as + B"
+        },
+        {
+          "category": "付帯状況",
+          "name": "with + 名詞句",
+          "where": "with depth and normal maps",
+          "explanation": "主基準を補う評価資料を追加する。",
+          "rule": "主節, with + 名詞句"
+        },
+        {
+          "category": "並列",
+          "name": "depth and normal maps",
+          "where": "depth and normal maps",
+          "explanation": "二種類の幾何情報をandで結ぶ。",
+          "rule": "A and B"
+        },
+        {
+          "category": "限定副詞",
+          "name": "only",
+          "where": "silhouettes only as secondary checks",
+          "explanation": "輪郭の役割を補助確認に限定する。",
+          "rule": "名詞 + only + as ..."
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Use the 3D model itself for the primary reference.",
+          "correct": "Use the 3D model itself as the primary reference.",
+          "why": "役割を示す場合はasが自然。"
+        },
+        {
+          "wrong": "depth and normal map",
+          "correct": "depth and normal maps",
+          "why": "二種類のマップを一般的に指すため複数形にする。"
+        },
+        {
+          "wrong": "silhouettes as only secondary checks",
+          "correct": "silhouettes only as secondary checks",
+          "why": "onlyを役割の限定が明確になる位置に置く。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Treat depth and normal maps as evidence of surface geometry.",
+          "translation": "深度マップと法線マップを、表面形状の根拠として扱ってください。"
+        },
+        {
+          "text": "Use silhouettes to confirm boundaries, not to replace three-dimensional evaluation.",
+          "translation": "輪郭は境界確認に使い、三次元評価の代わりにはしないでください。"
+        },
+        {
+          "text": "Evaluate the mesh against the source model before relying on rendered outlines.",
+          "translation": "レンダリングした輪郭に頼る前に、元の3Dモデルと照らしてメッシュを評価してください。"
+        }
+      ],
+      "parseTree": "[S [VP Use [NP the 3D model itself] [PP as the primary reference] [WithP with [NP depth and normal maps] [PP as geometric evidence] and [NP silhouettes only] [PP as secondary checks]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Use the 3D model itself as the primary reference",
+          "expanded": "because it contains the full spatial geometry being evaluated",
+          "nuance": "3D本体を主基準にする理由を示す。"
+        },
+        {
+          "original": "depth and normal maps as geometric evidence",
+          "expanded": "since depth records distance and normals describe surface orientation",
+          "nuance": "二種類のマップの役割を分ける。"
+        },
+        {
+          "original": "silhouettes only as secondary checks",
+          "expanded": "therefore, do not let a matching outline hide incorrect depth or surface direction",
+          "nuance": "輪郭一致だけで合格させない注意を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The 3D model should be used as the primary reference for geometric evaluation.",
+          "translation": "3Dモデルは、形状評価の主な基準として使われるべきです。",
+          "note": "評価基準を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Using depth and normal maps, compare distance and surface direction independently.",
+          "translation": "深度マップと法線マップを使い、距離と表面方向を別々に比較してください。",
+          "note": "評価手段を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Model-based evaluation separates geometric evidence from silhouette confirmation.",
+          "translation": "モデルに基づく評価は、形状の根拠と輪郭確認を分離します。",
+          "note": "evaluateとconfirmを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "primary reference",
+            "alternatives": [
+              "main benchmark",
+              "ground-truth source",
+              "principal reference"
+            ],
+            "nuance": "primary referenceは評価の中心となる基準で、補助資料より優先される。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "役割分担",
+            "sentence": "Use A as the primary reference, with B as evidence and C as a secondary check.",
+            "translation": "Aを主基準、Bを根拠、Cを補助確認として使ってください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A depth map reveals spatial error more directly than a silhouette.",
+            "translation": "深度マップは輪郭より空間的な誤差を直接示します。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the silhouette matches but the depth differs, the geometry is still incorrect.",
+            "translation": "輪郭が一致しても深度が異なるなら、形状はなお不正確です。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What should lead the evaluation is the 3D geometry itself.",
+            "translation": "評価を主導すべきなのは、3D形状そのものです。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Model first, maps for evidence, silhouettes for checks.",
+            "translation": "まずモデル、根拠にマップ、確認に輪郭。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "命令文と三つの役割分担で評価優先度を明確にした。3D評価に特化するためflexibilityを8とした。"
+    }
+  }
+]
