@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 191,
+    "_generatedAt": "2026-11-08T02:00:00+09:00",
+    "sentence": "A claim that AI has doubled the pace of research does not mean current systems are twice as capable as before; it means the rate of improvement may have accelerated.",
+    "phonetic": "ア クレイム ザット エーアイ ハズ ダブルド ザ ペイス オブ リサーチ ダズ ノット ミーン カレント システムズ アー トゥワイス アズ ケイパブル アズ ビフォー；イット ミーンズ ザ レイト オブ インプルーヴメント メイ ハヴ アクセラレイティッド。",
+    "japaneseTranslation": "AIが研究の進む速さを2倍にしたという主張は、現在のシステムの能力が以前の2倍だという意味ではありません。能力向上の速度が加速した可能性を意味します。",
+    "theme": "AIの現在能力と研究進歩の速度を区別する",
+    "coreVerb": "mean",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The claim means something.",
+        "translation": "その主張には意味があります。"
+      },
+      "phase2": {
+        "sentence": "The claim concerns the pace of research.",
+        "translation": "その主張は研究の進む速さに関するものです。",
+        "addedChunks": "対象(the pace of research)を追加"
+      },
+      "phase3": {
+        "sentence": "The pace may increase, but current capability is a different measure.",
+        "translation": "進む速さは上がるかもしれませんが、現在の能力は別の尺度です。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Research may improve faster without systems being twice as capable.",
+        "translation": "システムの能力が2倍でなくても、研究はより速く進歩し得ます。",
+        "comparison": "faster"
+      },
+      "phase5": {
+        "sentence": "A claim that AI has doubled the pace of research does not mean current systems are twice as capable as before; it means the rate of improvement may have accelerated",
+        "translation": "AIが研究の進む速さを2倍にしたという主張は、現在のシステムの能力が以前の2倍だという意味ではありません。能力向上の速度が加速した可能性を意味します。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A claim that AI has doubled",
+          "function": "内容",
+          "translation": "AIが2倍にしたという主張は"
+        },
+        {
+          "text": "the pace of research",
+          "function": "対象",
+          "translation": "研究の進む速さを"
+        },
+        {
+          "text": "does not mean current systems are twice as capable as before;",
+          "function": "結果",
+          "translation": "現在のシステムの能力が以前の2倍だという意味ではありません"
+        },
+        {
+          "text": "it means",
+          "function": "接続",
+          "translation": "それが意味するのは"
+        },
+        {
+          "text": "the rate of improvement",
+          "function": "対象",
+          "translation": "能力向上の速度が"
+        },
+        {
+          "text": "may have accelerated.",
+          "function": "結果",
+          "translation": "加速した可能性があることです"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "関係詞",
+          "name": "that節による名詞修飾",
+          "where": "A claim that AI has doubled the pace of research",
+          "explanation": "どのような主張かをthat以下で限定する。",
+          "rule": "名詞 + that + S + V"
+        },
+        {
+          "category": "現在完了",
+          "name": "has + 過去分詞",
+          "where": "has doubled",
+          "explanation": "これまでに研究速度を変えたという主張を表す。",
+          "rule": "has/have + 過去分詞"
+        },
+        {
+          "category": "否定",
+          "name": "does not mean",
+          "where": "does not mean",
+          "explanation": "誤った解釈を明確に否定する。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "倍数表現",
+          "name": "twice as ... as",
+          "where": "twice as capable as before",
+          "explanation": "現在の能力が以前の水準の2倍という解釈を表す。",
+          "rule": "twice as + 形容詞 + as + 比較対象"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "capable; it means",
+          "explanation": "誤解の否定と正しい解釈を二つの独立節で結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "推量",
+          "name": "may have + 過去分詞",
+          "where": "may have accelerated",
+          "explanation": "加速を確定事実ではなく可能性として示す。",
+          "rule": "may have + 過去分詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A claim that AI have doubled the pace",
+          "correct": "A claim that AI has doubled the pace",
+          "why": "AIを単数扱いし、hasを使う。"
+        },
+        {
+          "wrong": "does not means",
+          "correct": "does not mean",
+          "why": "doesの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "twice capable as before",
+          "correct": "twice as capable as before",
+          "why": "倍数比較ではtwice as + 形容詞 + asを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Faster capability growth is not the same as twice the present capability.",
+          "translation": "能力向上が速くなることと、現在の能力が2倍であることは同じではありません。"
+        },
+        {
+          "text": "The claim concerns acceleration in research, not a simple doubling of system performance.",
+          "translation": "その主張は研究の加速に関するものであり、システム性能の単純な倍増ではありません。"
+        },
+        {
+          "text": "A higher rate of improvement can compound even when the current gain is modest.",
+          "translation": "現在の向上幅が小さくても、改善速度の上昇は累積し得ます。"
+        }
+      ],
+      "parseTree": "[S [NP A claim [RelCl that AI has doubled the pace of research]] [VP does not mean [Cl current systems are twice as capable as before]]; [S it [VP means [Cl the rate of improvement may have accelerated]]]]"
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "has doubled the pace of research",
+          "expanded": "because AI may shorten parts of the research cycle",
+          "nuance": "速度向上という主張の仕組みを示す。"
+        },
+        {
+          "original": "does not mean current systems are twice as capable",
+          "expanded": "since capability level and growth rate measure different things",
+          "nuance": "水準と速度を分ける理由を示す。"
+        },
+        {
+          "original": "may have accelerated",
+          "expanded": "therefore, treat long-term extrapolation as a conditional projection rather than a measured outcome",
+          "nuance": "加速から将来予測へ飛躍しない注意を加える。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The pace of research may have been accelerated by AI without current capability being doubled.",
+          "translation": "現在の能力が2倍にならなくても、研究の進む速さはAIによって加速された可能性があります。",
+          "note": "加速される対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Distinguishing level from rate, we can interpret the acceleration claim more carefully.",
+          "translation": "水準と速度を区別することで、加速の主張をより慎重に解釈できます。",
+          "note": "解釈の前提を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Research acceleration does not imply a doubling of current capability.",
+          "translation": "研究の加速は、現在能力の倍増を意味しません。",
+          "note": "accelerateとdoubleを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "pace",
+            "alternatives": [
+              "rate",
+              "speed",
+              "tempo"
+            ],
+            "nuance": "paceは進行の速さ、rateは単位時間当たりの変化率、speedは一般的な速さを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "誤解の訂正",
+            "sentence": "A claim that X does not mean Y; it means Z.",
+            "translation": "Xという主張はYを意味せず、Zを意味します。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A growth rate can rise faster than the capability level itself.",
+            "translation": "成長率は、能力水準そのものより速く上がることがあります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If acceleration compounds, later gains may be larger than early gains.",
+            "translation": "加速が累積するなら、後の向上幅は初期の向上幅より大きくなる可能性があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What may have doubled is the pace of progress, not present capability.",
+            "translation": "2倍になった可能性があるのは進歩の速さであり、現在の能力ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Do not confuse capability with its rate of improvement.",
+            "translation": "能力と、その向上速度を混同しない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "that節、否定、セミコロンで能力水準と改善速度を明確に分離した。推定なのでmayを維持した。"
+    }
+  }
+]
