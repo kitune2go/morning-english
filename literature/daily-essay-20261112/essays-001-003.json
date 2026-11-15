@@ -1,0 +1,156 @@
+[
+  {
+    "id": "DE-20261112-001",
+    "sourceTitle": "『骨と輪郭のあいだに手を置く』",
+    "workId": "daily-essay-20261112",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "道具を輪にする",
+    "jp": "三次元造形を直感的にするには、道具を並べるだけでは足りない。原画を測り、ペンで線を引き、定規で距離を確かめ、カメラで角度を変え、その結果を造形へ戻す。必要なのは個別の機能ではなく、見ることと直すことが閉じた輪になる操作である。原画との違いが次の手を決め、次の形が再び比較へ戻るとき、道具は一覧から工程へ変わる。",
+    "translationLiteral": "To make three-dimensional modeling intuitive, merely arranging tools is not enough. Measure the original image, draw lines with a pen, check distances with a ruler, change the angle with a camera, and return the result to the modeling. What is needed is not separate functions but an operation in which seeing and correcting form a closed loop. When the difference from the original determines the next action and the next shape returns to comparison, the tools change from a list into a process.",
+    "translationNatural": "Intuitive three-dimensional modeling requires more than a collection of tools. The original image must be measured, marked with a pen, checked with a ruler, viewed from different camera angles, and fed back into the model. What matters is a closed loop between seeing and correcting, not a list of separate functions. When each difference determines the next action and each new shape returns for comparison, tools become a process.",
+    "imageUrl": "",
+    "imageCaption": "道具を輪にするを、工程と未完了の境界が見える場面として描く。",
+    "imagePrompt": "A restrained editorial illustration about 道具を輪にする, showing process boundaries, evidence, and unfinished connections, educational composition, no text",
+    "chunks": [
+      {
+        "en": "Intuitive three-dimensional modeling requires more than a collection of tools.",
+        "ja": "直感的な三次元造形には、道具を集める以上のものが必要だ。"
+      },
+      {
+        "en": "The original image must be measured, marked with a pen, checked with a ruler, viewed from different camera angles, and fed back into the model.",
+        "ja": "原画を測り、ペンで印を付け、定規で確認し、異なるカメラ角度から見て、その結果をモデルへ戻さなければならない。"
+      },
+      {
+        "en": "What matters is a closed loop between seeing and correcting, not a list of separate functions.",
+        "ja": "重要なのは、個別機能の一覧ではなく、見ることと直すことの閉じた輪である。"
+      },
+      {
+        "en": "When each difference determines the next action and each new shape returns for comparison, tools become a process.",
+        "ja": "一つ一つの違いが次の行動を決め、新しい形が比較へ戻るとき、道具は工程になる。"
+      }
+    ],
+    "grammar": [
+      "requires more than ... は必要条件が道具の集合を超えることを示す。",
+      "must be measured ... and fed back は受動態の並列で操作対象を原画に揃える。",
+      "between A and B は閉ループを構成する二つの働きを示す。",
+      "not A は list を否定して closed loop を対比的に強調する。",
+      "When ... は道具が工程へ変わる条件を示す。",
+      "each difference / each new shape は反復ごとの単位を明示する。"
+    ],
+    "translationNote": "直訳は「道具を並べる」「閉じた輪」を保ち、自然訳は collection of tools、closed loop とした。測定・描画・距離確認・カメラ角度・造形への戻しという操作順を省略していない。",
+    "readingPoint": "導入。多機能であることと、比較から修正へ戻れる工程であることを区別する。",
+    "keywords": [
+      "閉ループ",
+      "原画",
+      "測定",
+      "比較",
+      "三次元造形"
+    ]
+  },
+  {
+    "id": "DE-20261112-002",
+    "sourceTitle": "『骨と輪郭のあいだに手を置く』",
+    "workId": "daily-essay-20261112",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "棒人間に厚みを与える",
+    "jp": "専門知識を前提にしない操作では、最初から完成した人体を彫る必要はない。まず棒人間として骨の位置を動かし、身体を輪切りにした断面の中心と厚みを調整し、その変化を三次元へ反映する。骨格を見る視点はX線に似ており、肉厚を見る視点はMRIの輪切りに似ている。二つを重ねれば、形は表面の粘土ではなく、内部から組み立てる量になる。",
+    "translationLiteral": "In an operation that does not assume specialized knowledge, there is no need to sculpt a completed human body from the start. First move the positions of the bones as a stick figure, adjust the center and thickness of cross sections cut through the body, and reflect those changes in three dimensions. The view of the skeleton resembles an X-ray, while the view of flesh thickness resembles MRI slices. If the two are overlaid, form becomes an amount assembled from the inside rather than clay on the surface.",
+    "translationNatural": "An interface that assumes no specialist knowledge need not begin with a finished human body. It can start with a stick figure: move the bones, adjust the center and thickness of body slices, and reflect those changes in three dimensions. The skeletal view resembles an X-ray, while the thickness view resembles MRI slices. Together, they turn form from surface clay into volume built from within.",
+    "imageUrl": "",
+    "imageCaption": "棒人間に厚みを与えるを、工程と未完了の境界が見える場面として描く。",
+    "imagePrompt": "A restrained editorial illustration about 棒人間に厚みを与える, showing process boundaries, evidence, and unfinished connections, educational composition, no text",
+    "chunks": [
+      {
+        "en": "An interface that assumes no specialist knowledge need not begin with a finished human body.",
+        "ja": "専門知識を前提にしない画面は、完成した人体から始める必要がない。"
+      },
+      {
+        "en": "It can start with a stick figure: move the bones, adjust the center and thickness of body slices, and reflect those changes in three dimensions.",
+        "ja": "棒人間から始め、骨を動かし、身体断面の中心と厚みを調整し、その変化を三次元へ反映できる。"
+      },
+      {
+        "en": "The skeletal view resembles an X-ray, while the thickness view resembles MRI slices.",
+        "ja": "骨格表示はX線に似ており、厚み表示はMRIの輪切りに似ている。"
+      },
+      {
+        "en": "Together, they turn form from surface clay into volume built from within.",
+        "ja": "二つを合わせると、形は表面の粘土から、内側から組み立てる体積へ変わる。"
+      }
+    ],
+    "grammar": [
+      "that assumes ... は interface を限定する関係節。",
+      "need not begin は開始条件が必須でないことを示す。",
+      "start with ... は操作の起点を示す。",
+      "move, adjust, and reflect は三つの操作を命令形で並列する。",
+      "while は骨格表示と厚み表示を対比する。",
+      "turn A from B into C は形の捉え方の転換を表す。"
+    ],
+    "translationNote": "literal は「肉厚」「量」を thickness、an amount と追い、natural はUI文脈に合わせて thickness view、volume とした。X線とMRIは比喩であり、実際の医療画像を使用したとは書いていない。",
+    "readingPoint": "展開。専門的な人体造形を、骨の位置と断面の厚みという二種類の操作へ分解する。",
+    "keywords": [
+      "棒人間",
+      "骨格",
+      "断面",
+      "肉厚",
+      "X線とMRI"
+    ]
+  },
+  {
+    "id": "DE-20261112-003",
+    "sourceTitle": "『骨と輪郭のあいだに手を置く』",
+    "workId": "daily-essay-20261112",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "保存できても関節は残る",
+    "jp": "試作では、骨の移動、断面中心と厚みの調整、三次元への反映、GLBとJSONの保存まで確認できた。しかし、関節をまたぐ一体的なトポロジーはまだ作られておらず、既存のStudioにも統合されていない。保存できることは完成の証明ではない。次に直すべき境界が見えることこそ、試作の成果である。未完成は欠陥の隠蔽ではなく、次の接続点を示す地図になる。",
+    "translationLiteral": "In the prototype, movement of bones, adjustment of section centers and thickness, reflection into three dimensions, and saving of GLB and JSON were confirmed. However, unified topology across joints had not yet been created, and it had not been integrated into the existing Studio. Being able to save is not proof of completion. The result of a prototype is precisely that the boundary to correct next becomes visible. Incompleteness becomes a map showing the next connection point rather than concealment of defects.",
+    "translationNatural": "The prototype verified bone movement, section-center and thickness controls, three-dimensional updates, and GLB and JSON export. Yet it did not create continuous topology across the joints or integrate the workflow into the existing Studio. Successful export was not proof of completion. The value of the prototype was that it exposed the next boundary to repair. Its incompleteness became a map of the next connection point, not a cover for defects.",
+    "imageUrl": "",
+    "imageCaption": "保存できても関節は残るを、工程と未完了の境界が見える場面として描く。",
+    "imagePrompt": "A restrained editorial illustration about 保存できても関節は残る, showing process boundaries, evidence, and unfinished connections, educational composition, no text",
+    "chunks": [
+      {
+        "en": "The prototype verified bone movement, section-center and thickness controls, three-dimensional updates, and GLB and JSON export.",
+        "ja": "試作では、骨の移動、断面中心と厚みの操作、三次元更新、GLBとJSONの書き出しを確認した。"
+      },
+      {
+        "en": "Yet it did not create continuous topology across the joints or integrate the workflow into the existing Studio.",
+        "ja": "しかし、関節をまたぐ連続トポロジーの作成も、既存Studioへの工程統合も行っていない。"
+      },
+      {
+        "en": "Successful export was not proof of completion.",
+        "ja": "書き出しの成功は完成の証明ではなかった。"
+      },
+      {
+        "en": "The value of the prototype was that it exposed the next boundary to repair.",
+        "ja": "試作の価値は、次に直す境界を露出させたことにあった。"
+      },
+      {
+        "en": "Its incompleteness became a map of the next connection point, not a cover for defects.",
+        "ja": "その未完成さは欠陥を覆うものではなく、次の接続点を示す地図になった。"
+      }
+    ],
+    "grammar": [
+      "verified A, B, C, and D は確認済み機能を列挙する。",
+      "Yet は確認済み部分と未実装部分を対比する。",
+      "did not create ... or integrate ... は二つの未実装を同じ否定下に置く。",
+      "was not proof of ... は書き出し成功と完成を区別する。",
+      "that it exposed ... は value の内容を表す名詞節。",
+      "not A は cover for defects を否定し map を強調する。"
+    ],
+    "translationNote": "直訳の「一体的なトポロジー」は unified topology、自然訳では関節を越えて連続する意味を明確に continuous topology とした。GLB/JSON保存、Studio未統合、関節トポロジー未実装をすべて保持した。",
+    "readingPoint": "転換と余韻。動いた機能の列挙から未接続の境界へ視点を移し、試作の価値を完成ではなく次工程の可視化に置く。",
+    "keywords": [
+      "試作",
+      "トポロジー",
+      "関節",
+      "GLB",
+      "Studio統合"
+    ]
+  }
+]
