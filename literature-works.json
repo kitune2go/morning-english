@@ -431,5 +431,26 @@
     "description": "クラウド実験の停止点、SUCCESS後に残る形状の違和感、推定深度・等高線・法線による顔メッシュの再構築を通して、見えない問題を比較可能な証拠へ変えてから修正する過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261111/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261112",
+    "title": "骨と輪郭のあいだに手を置く",
+    "description": "原画を測る閉ループ、棒人間へ肉厚を与える断面編集、X線骨格とMRI輪切りを統合した試作を通して、専門知識を操作可能な形へ変える道具を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261112/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261113",
+    "title": "近道には注記が要る",
+    "description": "追加API料金なしの画像から三次元生成、形鋼組図エディタの概略性、鋼材重量計算の理論値を通して、便利な近道が省略する条件を明記する必要を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261113/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261115",
+    "title": "公開は最後の扉である",
+    "description": "未承認の歴史データ、Previewと単体テスト、公開JSONと本番画面の間を通して、蓄積・生成・承認・有効化を別工程として扱う必要を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261115/manifest.json",
+    "mode": "essay-translation"
   }
 ]
