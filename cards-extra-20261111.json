@@ -1,0 +1,232 @@
+[
+  {
+    "_no": 194,
+    "_generatedAt": "2026-11-11T02:00:00+09:00",
+    "sentence": "When a cloud run stops, report the failing cell and its final output without changing the notebook; an unchanged failure is evidence that keeps the next test reproducible.",
+    "phonetic": "ウェン ア クラウド ラン ストップス、リポート ザ フェイリング セル アンド イッツ ファイナル アウトプット ウィズアウト チェインジング ザ ノートブック；アン アンチェインジド フェイリャー イズ エヴィデンス ザット キープス ザ ネクスト テスト リプロデューサブル。",
+    "japaneseTranslation": "クラウド実行が停止したら、ノートブックを変更せず、失敗したセルと最後の出力を報告してください。手を加えていない失敗は、次の検証を再現可能に保つ証拠になります。",
+    "theme": "停止したクラウド実験を改変せず再現可能な証拠として残す",
+    "coreVerb": "report",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Report the failure.",
+        "translation": "失敗を報告してください。"
+      },
+      "phase2": {
+        "sentence": "Report the failing cell and its final output.",
+        "translation": "失敗したセルと最後の出力を報告してください。",
+        "addedChunks": "対象(the failing cell and its final output)を追加"
+      },
+      "phase3": {
+        "sentence": "When a cloud run stops, report the failing cell and its final output.",
+        "translation": "クラウド実行が停止したら、失敗したセルと最後の出力を報告してください。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "An unchanged failure is more reproducible than a repaired result.",
+        "translation": "手を加えていない失敗は、修正済みの結果より再現しやすい証拠です。",
+        "comparison": "more reproducible than"
+      },
+      "phase5": {
+        "sentence": "When a cloud run stops, report the failing cell and its final output without changing the notebook; an unchanged failure is evidence that keeps the next test reproducible",
+        "translation": "クラウド実行が停止したら、ノートブックを変更せず、失敗したセルと最後の出力を報告してください。手を加えていない失敗は、次の検証を再現可能に保つ証拠になります。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When a cloud run stops,",
+          "function": "時間",
+          "translation": "クラウド実行が停止したら"
+        },
+        {
+          "text": "report the failing cell and its final output",
+          "function": "行動",
+          "translation": "失敗したセルと最後の出力を報告してください"
+        },
+        {
+          "text": "without changing the notebook;",
+          "function": "様態",
+          "translation": "ノートブックを変更せずに"
+        },
+        {
+          "text": "an unchanged failure is evidence",
+          "function": "状態",
+          "translation": "手を加えていない失敗は証拠です"
+        },
+        {
+          "text": "that keeps the next test reproducible.",
+          "function": "結果",
+          "translation": "次の検証を再現可能に保つ"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時間",
+          "name": "when節",
+          "where": "When a cloud run stops",
+          "explanation": "実行停止を報告行為の条件兼時点として示す。",
+          "rule": "When + S + V, 命令文"
+        },
+        {
+          "category": "命令文",
+          "name": "動詞原形report",
+          "where": "report the failing cell",
+          "explanation": "停止時に行うべき動作を直接示す。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "所有格",
+          "name": "its",
+          "where": "its final output",
+          "explanation": "final outputがfailing cellに属することを示す。",
+          "rule": "所有格 + 名詞"
+        },
+        {
+          "category": "否定手段",
+          "name": "without + 動名詞",
+          "where": "without changing the notebook",
+          "explanation": "ノートを変更しない方法を表す。",
+          "rule": "without + 動名詞"
+        },
+        {
+          "category": "関係詞",
+          "name": "thatによる主格関係節",
+          "where": "evidence that keeps the next test reproducible",
+          "explanation": "どのような証拠かをthat以下で説明する。",
+          "rule": "名詞 + that + 動詞"
+        },
+        {
+          "category": "補語",
+          "name": "keep O C",
+          "where": "keeps the next test reproducible",
+          "explanation": "次の検証を再現可能な状態に保つことを表す。",
+          "rule": "keep + O + 形容詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When a cloud run stop",
+          "correct": "When a cloud run stops",
+          "why": "単数主語a cloud runに合わせてstopsを使う。"
+        },
+        {
+          "wrong": "without change the notebook",
+          "correct": "without changing the notebook",
+          "why": "前置詞withoutの後は動名詞にする。"
+        },
+        {
+          "wrong": "evidence that keep the next test reproducible",
+          "correct": "evidence that keeps the next test reproducible",
+          "why": "関係節の主語thatは単数のevidenceを受けるためkeepsにする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Preserve the last output before attempting any repair.",
+          "translation": "修正を試みる前に最後の出力を保存してください。"
+        },
+        {
+          "text": "A clean failure report makes the next run easier to reproduce.",
+          "translation": "改変のない失敗報告は、次の実行を再現しやすくします。"
+        },
+        {
+          "text": "Do not alter the notebook before recording where the run stopped.",
+          "translation": "実行がどこで止まったかを記録する前に、ノートブックを変更しないでください。"
+        }
+      ],
+      "parseTree": "[AdvCl When a cloud run stops], [VP report [NP the failing cell and its final output] [PP without changing the notebook]]; [S an unchanged failure [VP is evidence [RelCl that keeps the next test reproducible]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "report the failing cell and its final output",
+          "expanded": "because the stopping point identifies where the observed run actually failed",
+          "nuance": "失敗箇所を報告する理由を示す。"
+        },
+        {
+          "original": "without changing the notebook",
+          "expanded": "since an unrecorded edit would change the conditions of the experiment",
+          "nuance": "変更禁止と再現性の関係を示す。"
+        },
+        {
+          "original": "keeps the next test reproducible",
+          "expanded": "therefore, another run can begin from documented conditions rather than guesswork",
+          "nuance": "証拠保存が次の検証に与える効果を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The failing cell and its final output should be reported before the notebook is changed.",
+          "translation": "ノートブックを変更する前に、失敗したセルと最後の出力を報告すべきです。",
+          "note": "報告対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Leaving the notebook unchanged, record the cell where the cloud run stopped.",
+          "translation": "ノートブックを変更せず、クラウド実行が止まったセルを記録してください。",
+          "note": "変更しない状態を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Preservation of the original failure supports reproducibility in the next test.",
+          "translation": "元の失敗を保存することは、次の検証の再現性を支えます。",
+          "note": "preserveとreproducibleを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "reproducible",
+            "alternatives": [
+              "repeatable",
+              "replicable"
+            ],
+            "nuance": "reproducibleは条件をたどって同じ結果を検証できること、repeatableは同じ手順を繰り返せることを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "停止時の手順",
+            "sentence": "When X stops, report Y without changing Z.",
+            "translation": "Xが止まったら、Zを変えずにYを報告してください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "An unchanged failure is more useful for diagnosis than an undocumented repair.",
+            "translation": "手を加えていない失敗は、記録のない修正より診断に役立ちます。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the notebook changes first, the original failure may no longer be reproducible.",
+            "translation": "先にノートブックを変更すると、元の失敗を再現できなくなる可能性があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters first is the observed output, not a hurried repair.",
+            "translation": "まず重要なのは観測された出力であり、急いだ修正ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Record the failure before changing the experiment.",
+            "translation": "実験を変える前に失敗を記録する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "when節、without -ing、that関係節で停止時の報告手順と再現性を明確につないだ。二節構成のためefficiencyは8とした。"
+    }
+  }
+]
