@@ -1,0 +1,233 @@
+[
+  {
+    "_no": 196,
+    "_generatedAt": "2026-11-13T02:00:00+09:00",
+    "sentence": "Do not call a 3D pipeline complete merely because the code was edited; require a successful final cell, a generated GLB, and saved logs.",
+    "phonetic": "ドゥ ノット コール ア スリーディー パイプライン コンプリート ミアリー ビコーズ ザ コード ワズ エディティッド；リクワイア ア サクセスフル ファイナル セル、ア ジェネレイティッド ジーエルビー、アンド セイヴド ログズ。",
+    "japaneseTranslation": "コードが編集されたというだけで、3Dパイプラインを完成と呼ばないでください。最後のセルの成功、生成されたGLB、保存されたログを完了条件にしてください。",
+    "theme": "コード修正と実環境で確認された3Dパイプライン完了を分ける",
+    "coreVerb": "require",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Require evidence.",
+        "translation": "証拠を必須にしてください。"
+      },
+      "phase2": {
+        "sentence": "Require a successful final cell and a generated GLB.",
+        "translation": "最後のセルの成功と生成されたGLBを必須にしてください。",
+        "addedChunks": "完了証拠(a successful final cell and a generated GLB)を追加"
+      },
+      "phase3": {
+        "sentence": "Do not call the pipeline complete because the code was edited.",
+        "translation": "コードが編集されたからといって、パイプラインを完成と呼ばないでください。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "A successful run is stronger evidence than edited code alone.",
+        "translation": "実行成功は、編集済みコードだけより強い証拠です。",
+        "comparison": "stronger than"
+      },
+      "phase5": {
+        "sentence": "Do not call a 3D pipeline complete merely because the code was edited; require a successful final cell, a generated GLB, and saved logs",
+        "translation": "コードが編集されたというだけで、3Dパイプラインを完成と呼ばないでください。最後のセルの成功、生成されたGLB、保存されたログを完了条件にしてください。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Do not call a 3D pipeline complete",
+          "function": "行動",
+          "translation": "3Dパイプラインを完成と呼ばないでください"
+        },
+        {
+          "text": "merely because the code was edited;",
+          "function": "理由",
+          "translation": "コードが編集されたというだけで"
+        },
+        {
+          "text": "require a successful final cell,",
+          "function": "対象",
+          "translation": "最後のセルの成功を必須にし"
+        },
+        {
+          "text": "a generated GLB,",
+          "function": "対象",
+          "translation": "生成されたGLBと"
+        },
+        {
+          "text": "and saved logs.",
+          "function": "接続",
+          "translation": "保存されたログも必須にしてください"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "命令文",
+          "name": "否定命令",
+          "where": "Do not call",
+          "explanation": "不十分な完了判定を明確に禁止する。",
+          "rule": "Do not + 動詞原形"
+        },
+        {
+          "category": "補語",
+          "name": "call O C",
+          "where": "call a 3D pipeline complete",
+          "explanation": "3Dパイプラインを完成状態と判断することを表す。",
+          "rule": "call + O + 形容詞補語"
+        },
+        {
+          "category": "理由",
+          "name": "merely because",
+          "where": "merely because the code was edited",
+          "explanation": "理由がコード編集だけに限られることを示す。",
+          "rule": "merely because + S + V"
+        },
+        {
+          "category": "受動態",
+          "name": "was + 過去分詞",
+          "where": "the code was edited",
+          "explanation": "コードが編集された状態を動作主体なしで示す。",
+          "rule": "be動詞 + 過去分詞"
+        },
+        {
+          "category": "命令文",
+          "name": "動詞原形require",
+          "where": "require a successful final cell",
+          "explanation": "完了判定に必要な証拠を指定する。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "並列",
+          "name": "三項並列",
+          "where": "a successful final cell, a generated GLB, and saved logs",
+          "explanation": "三つの完了証拠を同じ文法階層で列挙する。",
+          "rule": "A, B, and C"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Do not call a 3D pipeline as complete",
+          "correct": "Do not call a 3D pipeline complete",
+          "why": "call O Cでは補語completeの前にasを置かない。"
+        },
+        {
+          "wrong": "because the code edited",
+          "correct": "because the code was edited",
+          "why": "コードが編集された受動の意味にはbe動詞が必要。"
+        },
+        {
+          "wrong": "require a successful final cell, a generated GLB, and save logs",
+          "correct": "require a successful final cell, a generated GLB, and saved logs",
+          "why": "三項を名詞句として並列し、logsには過去分詞savedを付ける。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Edited code is not proof that the pipeline ran successfully.",
+          "translation": "編集済みコードは、パイプラインが正常に動いた証拠ではありません。"
+        },
+        {
+          "text": "Treat the task as complete only after the final cell succeeds and the GLB exists.",
+          "translation": "最後のセルが成功しGLBが存在してから、タスクを完了として扱ってください。"
+        },
+        {
+          "text": "Save the execution logs so the claimed result can be checked.",
+          "translation": "主張された結果を確認できるよう、実行ログを保存してください。"
+        }
+      ],
+      "parseTree": "[VP Do not call [NP a 3D pipeline] [C complete] [AdvCl merely because the code was edited]]; [VP require [NP a successful final cell], [NP a generated GLB], and [NP saved logs]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Do not call a 3D pipeline complete",
+          "expanded": "because an edited file does not show that the runtime accepted its dependencies and inputs",
+          "nuance": "編集完了と実行完了を分ける理由を示す。"
+        },
+        {
+          "original": "require a successful final cell",
+          "expanded": "since the final cell confirms that the pipeline reached its intended endpoint",
+          "nuance": "最終セル成功を条件にする意味を示す。"
+        },
+        {
+          "original": "a generated GLB, and saved logs",
+          "expanded": "therefore, preserve both the output artifact and the evidence needed to review the run",
+          "nuance": "成果物と検証記録を両方残す必要を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The pipeline should not be called complete until its final cell has succeeded and its output has been saved.",
+          "translation": "最後のセルが成功し出力が保存されるまで、パイプラインを完成と呼ぶべきではありません。",
+          "note": "完了判定の対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Requiring a final-cell success, a GLB, and logs, we distinguish execution from editing.",
+          "translation": "最終セル成功、GLB、ログを必須にすることで、実行と編集を区別します。",
+          "note": "判定方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Completion requires successful execution, artifact generation, and log preservation.",
+          "translation": "完了には、実行成功、成果物生成、ログ保存が必要です。",
+          "note": "succeed、generate、preserveを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "complete",
+            "alternatives": [
+              "finished",
+              "verified",
+              "ready"
+            ],
+            "nuance": "completeは必要工程の完了、verifiedは証拠による確認済み、readyは次の利用に進める状態を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "完了条件",
+            "sentence": "Do not call A complete merely because B; require C, D, and E.",
+            "translation": "BだけでAを完成と呼ばず、C・D・Eを必須にしてください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A generated artifact is stronger evidence than a code edit alone.",
+            "translation": "生成された成果物は、コード編集だけより強い証拠です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the final cell fails, the pipeline has not met the completion condition.",
+            "translation": "最後のセルが失敗するなら、パイプラインは完了条件を満たしていません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What proves completion is a successful run with saved evidence, not an edited file.",
+            "translation": "完了を証明するのは証拠が保存された実行成功であり、編集済みファイルではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Verify the run, the artifact, and the logs.",
+            "translation": "実行、成果物、ログを確認する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "否定命令、merely because、三項並列で、編集済みと実行確認済みを明確に分けた。"
+    }
+  }
+]
