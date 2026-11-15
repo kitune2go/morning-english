@@ -1,0 +1,237 @@
+[
+  {
+    "_no": 195,
+    "_generatedAt": "2026-11-12T02:00:00+09:00",
+    "sentence": "A watertight mesh can still contain separate parts; test continuity at the joints before treating the model as one connected body.",
+    "phonetic": "ア ウォータータイト メッシュ キャン スティル コンテイン セパレート パーツ；テスト コンティニュイティ アット ザ ジョインツ ビフォー トリーティング ザ モデル アズ ワン コネクティッド ボディ。",
+    "japaneseTranslation": "水密なメッシュでも、別々の部品を含むことがあります。モデルを一つながりの物体として扱う前に、接合部の連続性を検査してください。",
+    "theme": "メッシュの水密性と部品間の連続性を分けて検査する",
+    "coreVerb": "test",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Test continuity.",
+        "translation": "連続性を検査してください。"
+      },
+      "phase2": {
+        "sentence": "Test continuity at the joints.",
+        "translation": "接合部の連続性を検査してください。",
+        "addedChunks": "場所(at the joints)を追加"
+      },
+      "phase3": {
+        "sentence": "A mesh can be watertight, but its parts may remain separate.",
+        "translation": "メッシュは水密でも、部品が分離したままのことがあります。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Joint continuity is more demanding than watertightness within each part.",
+        "translation": "接合部の連続性は、各部品内部の水密性より厳しい条件です。",
+        "comparison": "more demanding than"
+      },
+      "phase5": {
+        "sentence": "A watertight mesh can still contain separate parts; test continuity at the joints before treating the model as one connected body",
+        "translation": "水密なメッシュでも、別々の部品を含むことがあります。モデルを一つながりの物体として扱う前に、接合部の連続性を検査してください。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A watertight mesh",
+          "function": "対象",
+          "translation": "水密なメッシュでも"
+        },
+        {
+          "text": "can still contain separate parts;",
+          "function": "状態",
+          "translation": "なお別々の部品を含むことがあります"
+        },
+        {
+          "text": "test continuity",
+          "function": "行動",
+          "translation": "連続性を検査してください"
+        },
+        {
+          "text": "at the joints",
+          "function": "場所",
+          "translation": "接合部で"
+        },
+        {
+          "text": "before treating the model",
+          "function": "時間",
+          "translation": "モデルを扱う前に"
+        },
+        {
+          "text": "as one connected body.",
+          "function": "様態",
+          "translation": "一つながりの物体として"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can still contain",
+          "explanation": "水密でも分離部品を含み得る可能性を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "副詞",
+          "name": "still",
+          "where": "can still contain",
+          "explanation": "水密性があってもなお、という逆接的な含意を加える。",
+          "rule": "助動詞 + still + 動詞原形"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "separate parts; test continuity",
+          "explanation": "状態の説明と検査指示を強く結ぶ。",
+          "rule": "独立節; 独立節または命令文"
+        },
+        {
+          "category": "命令文",
+          "name": "動詞原形test",
+          "where": "test continuity",
+          "explanation": "必要な確認作業を直接指示する。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "時間",
+          "name": "before + 動名詞",
+          "where": "before treating the model",
+          "explanation": "一体物と判断するより先に検査する順序を示す。",
+          "rule": "before + 動名詞"
+        },
+        {
+          "category": "語法",
+          "name": "treat A as B",
+          "where": "treating the model as one connected body",
+          "explanation": "モデルを一つながりの物体と見なすことを表す。",
+          "rule": "treat + A + as + B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A watertight mesh can still contains",
+          "correct": "A watertight mesh can still contain",
+          "why": "助動詞canの後は動詞原形を使う。"
+        },
+        {
+          "wrong": "test the continuity on the joints",
+          "correct": "test continuity at the joints",
+          "why": "接合位置での検査にはatが自然で、一般概念のcontinuityには冠詞を付けない。"
+        },
+        {
+          "wrong": "before treat the model as one body",
+          "correct": "before treating the model as one body",
+          "why": "前置詞beforeの後は動名詞にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Watertight parts do not automatically form one continuous mesh.",
+          "translation": "水密な部品が自動的に一つの連続メッシュを作るわけではありません。"
+        },
+        {
+          "text": "Check every joint before calling the assembly a single body.",
+          "translation": "組立物を単一の物体と呼ぶ前に、すべての接合部を確認してください。"
+        },
+        {
+          "text": "A closed surface test and a joint continuity test answer different questions.",
+          "translation": "閉じた表面の検査と接合部の連続性検査は、異なる問いに答えます。"
+        }
+      ],
+      "parseTree": "[S A watertight mesh [VP can still contain separate parts]]; [VP test continuity [PP at the joints] [AdvP before treating the model as one connected body]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "can still contain separate parts",
+          "expanded": "because each component may be closed without being fused to its neighbors",
+          "nuance": "部品ごとの水密性と相互接続の差を示す。"
+        },
+        {
+          "original": "test continuity at the joints",
+          "expanded": "since gaps or disconnected boundaries can remain between otherwise valid parts",
+          "nuance": "接合部を別に検査する理由を示す。"
+        },
+        {
+          "original": "before treating the model as one connected body",
+          "expanded": "therefore, confirm both closed surfaces and connected interfaces before acceptance",
+          "nuance": "合格判定に必要な二種類の条件を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Continuity at the joints should be tested before the model is treated as one body.",
+          "translation": "モデルを一体物として扱う前に、接合部の連続性を検査すべきです。",
+          "note": "検査対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Remaining watertight, the parts may still be disconnected from one another.",
+          "translation": "水密性を保っていても、部品同士は分離したままのことがあります。",
+          "note": "水密状態を-ing句で補足する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Watertightness does not guarantee continuity between separate components.",
+          "translation": "水密性は、別部品間の連続性を保証しません。",
+          "note": "watertightをwatertightnessへ名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "continuity",
+            "alternatives": [
+              "connectivity",
+              "connectedness"
+            ],
+            "nuance": "continuityは切れ目のなさ、connectivityは部品同士が接続されている関係を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "性質と検査",
+            "sentence": "A can still contain B; test C before treating it as D.",
+            "translation": "AはなおBを含み得ます。Dとして扱う前にCを検査してください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A watertightness check is narrower than a full continuity check.",
+            "translation": "水密性の確認は、完全な連続性確認より対象が狭い検査です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the joints are disconnected, the assembly is not one continuous body.",
+            "translation": "接合部が分離しているなら、その組立物は一つの連続体ではありません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is joint continuity, not closed parts alone, that makes the body continuous.",
+            "translation": "物体を連続体にするのは接合部の連続性であり、閉じた部品だけではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Watertight does not always mean connected.",
+            "translation": "水密が必ずしも連続を意味するわけではない。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "can stillとセミコロン、before -ingにより、水密性と接合連続性の検査順序を簡潔に区別した。"
+    }
+  }
+]
