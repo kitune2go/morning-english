@@ -115,7 +115,10 @@
     "cards-extra-20261107.json",
     "cards-extra-20261108.json",
     "cards-extra-20261109.json",
-    "cards-extra-20261110.json"
+    "cards-extra-20261110.json",
+    "cards-extra-20261111.json",
+    "cards-extra-20261112.json",
+    "cards-extra-20261113.json"
   ],
   "cards": [
     {
@@ -1468,6 +1471,27 @@
       "coreVerb": "use",
       "theme": "主張を検証する比較と人の価値を決める順位付けを分ける",
       "_sourceFile": "cards-extra-20261110.json"
+    },
+    {
+      "_no": 194,
+      "sentence": "When a cloud run stops, report the failing cell and its final output without changing the notebook; an unchanged failure is evidence that keeps the next test reproducible.",
+      "coreVerb": "report",
+      "theme": "停止したクラウド実験を改変せず再現可能な証拠として残す",
+      "_sourceFile": "cards-extra-20261111.json"
+    },
+    {
+      "_no": 195,
+      "sentence": "A watertight mesh can still contain separate parts; test continuity at the joints before treating the model as one connected body.",
+      "coreVerb": "test",
+      "theme": "メッシュの水密性と部品間の連続性を分けて検査する",
+      "_sourceFile": "cards-extra-20261112.json"
+    },
+    {
+      "_no": 196,
+      "sentence": "Do not call a 3D pipeline complete merely because the code was edited; require a successful final cell, a generated GLB, and saved logs.",
+      "coreVerb": "require",
+      "theme": "コード修正と実環境で確認された3Dパイプライン完了を分ける",
+      "_sourceFile": "cards-extra-20261113.json"
     }
   ]
 }
