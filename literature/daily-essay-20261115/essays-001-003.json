@@ -1,0 +1,160 @@
+[
+  {
+    "id": "DE-20261115-001",
+    "sourceTitle": "『公開は最後の扉である』",
+    "workId": "daily-essay-20261115",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "蓄積は公開ではない",
+    "jp": "歴史資料を増やす作業では、まずデータベースへ貯める方針が選ばれた。ローマ、地中海、アジア、人物と思想に関する六十一件が構造化されても、状態は未承認のまま置かれた。件数が増えたことは、公開内容が増えたことを意味しない。蓄積は候補を失わないための器であり、出典の個別確認や人物・作品との関連付けを終えるまでは、画面に出す判断とは分けておく。",
+    "translationLiteral": "In the work of increasing historical materials, a policy of storing them in the database first was chosen. Even after sixty-one items concerning Rome, the Mediterranean, Asia, people, and thought were structured, their status remained unapproved. An increase in the number of items does not mean an increase in published content. Accumulation is a vessel for not losing candidates, and until individual sources are checked and links to people and works are completed, it is kept separate from the decision to show them on screen.",
+    "translationNatural": "The history project adopted a database-first workflow. Sixty-one records covering Rome, the Mediterranean, Asia, people, and ideas were structured, but they remained unapproved. More stored records did not mean more published history. Storage protected candidates from being lost; publication still required source-by-source review and links to people and works. Collection and display were deliberately kept as separate decisions.",
+    "imageUrl": "",
+    "imageCaption": "蓄積は公開ではないを、工程と未完了の境界が見える場面として描く。",
+    "imagePrompt": "A restrained editorial illustration about 蓄積は公開ではない, showing process boundaries, evidence, and unfinished connections, educational composition, no text",
+    "chunks": [
+      {
+        "en": "The history project adopted a database-first workflow.",
+        "ja": "歴史プロジェクトは、まずデータベースへ入れる工程を採用した。"
+      },
+      {
+        "en": "Sixty-one records covering Rome, the Mediterranean, Asia, people, and ideas were structured, but they remained unapproved.",
+        "ja": "ローマ、地中海、アジア、人物、思想を扱う六十一件が構造化されたが、未承認のまま残った。"
+      },
+      {
+        "en": "More stored records did not mean more published history.",
+        "ja": "保存件数の増加は、公開された歴史の増加を意味しなかった。"
+      },
+      {
+        "en": "Storage protected candidates from being lost; publication still required source-by-source review and links to people and works.",
+        "ja": "保存は候補の消失を防いだが、公開には出典ごとの確認と人物・作品への関連付けが必要だった。"
+      },
+      {
+        "en": "Collection and display were deliberately kept as separate decisions.",
+        "ja": "収集と画面表示は、意図的に別の判断として保たれた。"
+      }
+    ],
+    "grammar": [
+      "adopted a ... workflow は方針を工程として表す。",
+      "covering ... は records の対象範囲を補足する現在分詞句。",
+      "but they remained ... は構造化済みと未承認を対比する。",
+      "did not mean ... は件数と公開量の同一視を否定する。",
+      "required A and B は公開の二つの条件を示す。",
+      "were deliberately kept ... は分離方針を受動態で示す。"
+    ],
+    "translationNote": "六十一件という数量、未承認状態、出典確認、人物・作品関連付けを両訳に保持した。database-first は公開優先ではなく蓄積優先を表し、stored を published と混同していない。",
+    "readingPoint": "導入。データベースへ入ることと公開画面へ出ることを最初に分離する。",
+    "keywords": [
+      "データベース",
+      "未承認",
+      "歴史資料",
+      "出典確認",
+      "関連付け"
+    ]
+  },
+  {
+    "id": "DE-20261115-002",
+    "sourceTitle": "『公開は最後の扉である』",
+    "workId": "daily-essay-20261115",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "テストの外にある接続",
+    "jp": "次の段階では、Previewの画面が動き、地図を確認でき、公開用ファイルを生成し、公開用データベースも用意された。Nodeの八件とPythonの七件、合計十五件の単体テストも通った。しかし実データベースとの接続と本番統合は未確認で、本番デプロイも制限により残った。部品ごとの合格は必要だが、それだけで公開経路全体がつながったとは言えない。",
+    "translationLiteral": "At the next stage, the Preview screen worked, the map could be checked, files for publication were generated, and a public database was also prepared. Eight Node tests and seven Python tests, fifteen unit tests in total, also passed. However, connection to the real database and production integration were unconfirmed, and production deployment remained because of the limit. Passing each part is necessary, but that alone does not mean the entire publication route is connected.",
+    "translationNatural": "The next stage produced a working Preview, a checked map, publication files, and a public database. Eight Node tests and seven Python tests passed, fifteen unit tests in all. Yet the real database connection and production integration were still unverified, while the production deployment remained blocked by a daily limit. Component-level success was necessary, but it did not prove that the entire publication path was connected.",
+    "imageUrl": "",
+    "imageCaption": "テストの外にある接続を、工程と未完了の境界が見える場面として描く。",
+    "imagePrompt": "A restrained editorial illustration about テストの外にある接続, showing process boundaries, evidence, and unfinished connections, educational composition, no text",
+    "chunks": [
+      {
+        "en": "The next stage produced a working Preview, a checked map, publication files, and a public database.",
+        "ja": "次の段階では、動くPreview、確認済みの地図、公開用ファイル、公開用データベースが用意された。"
+      },
+      {
+        "en": "Eight Node tests and seven Python tests passed, fifteen unit tests in all.",
+        "ja": "Node八件とPython七件、合計十五件の単体テストが通った。"
+      },
+      {
+        "en": "Yet the real database connection and production integration were still unverified, while the production deployment remained blocked by a daily limit.",
+        "ja": "しかし実データベース接続と本番統合はまだ未確認で、本番デプロイは日次制限に阻まれたままだった。"
+      },
+      {
+        "en": "Component-level success was necessary, but it did not prove that the entire publication path was connected.",
+        "ja": "部品単位の成功は必要だが、公開経路全体の接続を証明するものではなかった。"
+      }
+    ],
+    "grammar": [
+      "produced A, B, C, and D は段階で得た成果を並列する。",
+      "in all は八件と七件の合計が十五件であることを補足する。",
+      "Yet はテスト合格と本番未確認を対比する。",
+      "were still unverified は対象日時点の未確認状態を示す。",
+      "while は未確認と制限による停止を並行して示す。",
+      "did not prove that ... は部品合格から全経路成功を推論しない。"
+    ],
+    "translationNote": "八件＋七件＝十五件、実DB接続未確認、本番統合未確認、日次制限による本番デプロイ未完了を保持した。Preview成功を本番成功へ言い換えていない。",
+    "readingPoint": "展開。テストとPreviewの成果を認めながら、実接続と本番経路が別の検証対象だと示す。",
+    "keywords": [
+      "Preview",
+      "単体テスト",
+      "本番統合",
+      "実DB接続",
+      "デプロイ制限"
+    ]
+  },
+  {
+    "id": "DE-20261115-003",
+    "sourceTitle": "『公開は最後の扉である』",
+    "workId": "daily-essay-20261115",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "有効化しないという完成",
+    "jp": "公開JSONを準備する場面でも、未承認データを有効化しないという線が守られた。実データから三種類のJSONとmanifestを生成しても、公開データベースに登録されたリリース、公開JSON、有効なリリースはまだ零件だった。次に必要なのは差分審査である。公開とはファイルを作ることではなく、何が変わり、何を承認し、どの版を有効にしたかを辿れる最後の扉である。",
+    "translationLiteral": "Even when preparing public JSON, the line of not activating unapproved data was maintained. Although three kinds of JSON and a manifest were generated from real data, registered releases, public JSON, and active releases in the public database were still zero. What is needed next is a difference review. Publication is not the making of files; it is the final door through which one can trace what changed, what was approved, and which version was activated.",
+    "translationNatural": "The preparation of public JSON preserved one hard rule: unapproved data would not be activated. Three JSON outputs and a manifest were generated from real data, yet the public database still contained zero registered releases, zero public JSON releases, and zero active releases. The next step was a review of the differences. Publication was not file generation alone. It was the final gate through which changes, approvals, and the activated version could all be traced.",
+    "imageUrl": "",
+    "imageCaption": "有効化しないという完成を、工程と未完了の境界が見える場面として描く。",
+    "imagePrompt": "A restrained editorial illustration about 有効化しないという完成, showing process boundaries, evidence, and unfinished connections, educational composition, no text",
+    "chunks": [
+      {
+        "en": "The preparation of public JSON preserved one hard rule: unapproved data would not be activated.",
+        "ja": "公開JSONの準備では、未承認データを有効化しないという一つの厳格な規則を守った。"
+      },
+      {
+        "en": "Three JSON outputs and a manifest were generated from real data, yet the public database still contained zero registered releases, zero public JSON releases, and zero active releases.",
+        "ja": "実データから三種類のJSONとmanifestを生成したが、公開データベースの登録リリース、公開JSONリリース、有効リリースはいずれも零件だった。"
+      },
+      {
+        "en": "The next step was a review of the differences.",
+        "ja": "次の手順は差分の審査だった。"
+      },
+      {
+        "en": "Publication was not file generation alone.",
+        "ja": "公開はファイル生成だけではなかった。"
+      },
+      {
+        "en": "It was the final gate through which changes, approvals, and the activated version could all be traced.",
+        "ja": "変更、承認、有効化した版をすべて辿れる最後の扉だった。"
+      }
+    ],
+    "grammar": [
+      "preserved one hard rule は維持した制約を明示する。",
+      "would not be activated は未承認データの非有効化を受動態で示す。",
+      "yet は生成済みファイルと零件の公開状態を対比する。",
+      "zero A, zero B, and zero C は三種類の零件を並列する。",
+      "not ... alone はファイル生成だけでは不十分だと限定する。",
+      "through which ... は the final gate を説明する関係節。"
+    ],
+    "translationNote": "未承認データを有効化しない条件、三種類のJSONとmanifest、三項目すべて零件、次工程が差分審査であることを保持した。release と active release を混同せず、公開を単なる生成完了へ強めていない。",
+    "readingPoint": "結び。公開の完成を、ファイルの存在ではなく、差分・承認・有効版を追跡できる手続きとして描く。",
+    "keywords": [
+      "公開JSON",
+      "未承認",
+      "差分審査",
+      "有効化",
+      "リリース"
+    ]
+  }
+]
