@@ -1,0 +1,152 @@
+[
+  {
+    "id": "DE-20261113-001",
+    "sourceTitle": "『近道には注記が要る』",
+    "workId": "daily-essay-20261113",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "無料の入口と未確認の出口",
+    "jp": "画像から三次元モデルを作る近道として、公開済みの学習モデルをColabで動かすノートが用意された。追加のAPI料金を払わず、画像からGLBを作り、四方向の表示とDrive保存まで目指す。ただし、必要なGPU容量の目安があり、推論の完走はまだ確認されていない。無料で入口を作れることと、商用サービスと同じ品質へ着くことは別である。",
+    "translationLiteral": "As a shortcut for creating a three-dimensional model from an image, a notebook was prepared to run a publicly available trained model in Colab. Without paying additional API fees, it aims to make a GLB from an image, show four directions, and save to Drive. However, there is an estimated GPU memory requirement, and completion of inference has not yet been confirmed. Being able to create a free entrance and arriving at the same quality as a commercial service are different things.",
+    "translationNatural": "A Colab notebook offered a shortcut from one image to a three-dimensional model by using a publicly available trained model. It aimed to create a GLB, render four views, and save the result to Drive without additional API charges. But the workflow still required roughly six gigabytes of GPU memory, and a complete inference run had not been verified. A free entrance is not the same as commercial-service quality.",
+    "imageUrl": "",
+    "imageCaption": "無料の入口と未確認の出口を、工程と未完了の境界が見える場面として描く。",
+    "imagePrompt": "A restrained editorial illustration about 無料の入口と未確認の出口, showing process boundaries, evidence, and unfinished connections, educational composition, no text",
+    "chunks": [
+      {
+        "en": "A Colab notebook offered a shortcut from one image to a three-dimensional model by using a publicly available trained model.",
+        "ja": "公開済みの学習モデルを使い、一枚の画像から三次元モデルへ進む近道としてColabノートが用意された。"
+      },
+      {
+        "en": "It aimed to create a GLB, render four views, and save the result to Drive without additional API charges.",
+        "ja": "追加のAPI料金なしでGLBを作り、四方向を描画し、結果をDriveへ保存することを目指した。"
+      },
+      {
+        "en": "But the workflow still required roughly six gigabytes of GPU memory, and a complete inference run had not been verified.",
+        "ja": "しかし工程には約6GBのGPUメモリが必要で、推論の完走はまだ確認されていなかった。"
+      },
+      {
+        "en": "A free entrance is not the same as commercial-service quality.",
+        "ja": "無料の入口は、商用サービスと同じ品質を意味しない。"
+      }
+    ],
+    "grammar": [
+      "by using ... は近道を実現する手段を示す。",
+      "aimed to create, render, and save は三つの目的を並列する。",
+      "without ... は追加料金がない条件を示す。",
+      "still required は無料でも残る資源条件を強調する。",
+      "had not been verified は対象日時点で未確認だったことを過去完了受動態で示す。",
+      "not the same as ... は入口と品質を区別する。"
+    ],
+    "translationNote": "natural では対話で示された約6GBという目安を明示し、追加API料金なしを without additional API charges とした。無料であることをGPU不要や品質同等へ強めず、推論完走未確認も保持した。",
+    "readingPoint": "導入。便利な入口の価値を認めつつ、資源条件と未検証の出口を同時に置く。",
+    "keywords": [
+      "Colab",
+      "TripoSR",
+      "GLB",
+      "GPUメモリ",
+      "追加料金なし"
+    ]
+  },
+  {
+    "id": "DE-20261113-002",
+    "sourceTitle": "『近道には注記が要る』",
+    "workId": "daily-essay-20261113",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "組図は加工図ではない",
+    "jp": "形鋼の部品を登録し、四十五度に角を落とし、複製して移動や回転を加え、門型の組合せを画面で確かめる試作もできた。SVGの組図、CSVの部品表、JSONの保存は、考えた配置を残すには役立つ。しかし、厳密な干渉判定、フランジ単位の切欠き、製作用DXFには届いていない。概略を組めることと、加工へ渡せることの間には、まだ検査の層がある。",
+    "translationLiteral": "A prototype was also made that registers structural-steel parts, cuts corners at forty-five degrees, duplicates them, adds movement and rotation, and checks a portal-shaped assembly on screen. An SVG assembly drawing, a CSV parts list, and JSON saving are useful for preserving the considered arrangement. However, it does not reach strict interference checking, flange-level notching, or production DXF. Between being able to assemble an outline and being able to hand it to machining, there is still a layer of inspection.",
+    "translationNatural": "Another prototype registered structural-steel parts, applied simple forty-five-degree corner cuts, duplicated and positioned the parts, and displayed a portal-frame assembly. Its SVG assembly drawing, CSV parts list, and JSON save function preserved the proposed layout. Yet the tool did not provide strict interference checks, flange-level notches, or production-ready DXF. A conceptual assembly still needs another inspection layer before it can enter machining.",
+    "imageUrl": "",
+    "imageCaption": "組図は加工図ではないを、工程と未完了の境界が見える場面として描く。",
+    "imagePrompt": "A restrained editorial illustration about 組図は加工図ではない, showing process boundaries, evidence, and unfinished connections, educational composition, no text",
+    "chunks": [
+      {
+        "en": "Another prototype registered structural-steel parts, applied simple forty-five-degree corner cuts, duplicated and positioned the parts, and displayed a portal-frame assembly.",
+        "ja": "別の試作では、形鋼部品を登録し、簡易な45度角落としを施し、部品を複製・配置して、門型フレームの組合せを表示した。"
+      },
+      {
+        "en": "Its SVG assembly drawing, CSV parts list, and JSON save function preserved the proposed layout.",
+        "ja": "SVG組図、CSV部品表、JSON保存は、考えた配置を残した。"
+      },
+      {
+        "en": "Yet the tool did not provide strict interference checks, flange-level notches, or production-ready DXF.",
+        "ja": "しかし、厳密な干渉検査、フランジ単位の切欠き、製作可能なDXFは備えていなかった。"
+      },
+      {
+        "en": "A conceptual assembly still needs another inspection layer before it can enter machining.",
+        "ja": "概略組図を加工へ渡す前には、なお別の検査層が必要である。"
+      }
+    ],
+    "grammar": [
+      "registered, applied, duplicated, and displayed は試作機能を時系列で並列する。",
+      "simple は角落としの精度を過大評価しない限定語。",
+      "preserved the proposed layout は保存対象を配置案に限定する。",
+      "Yet は保存機能と製造機能の不足を対比する。",
+      "did not provide A, B, or C は三つの未実装を一つの否定でまとめる。",
+      "before it can enter ... は加工へ進む前の必要条件を示す。"
+    ],
+    "translationNote": "「角落とし」は精密加工済みと誤解させないよう simple forty-five-degree corner cuts とした。SVG/CSV/JSONの用途を配置保存に限定し、厳密干渉・切欠き・製作用DXFの未対応を省略していない。",
+    "readingPoint": "展開。画面上の組合せと実加工可能な図面の間に、検査と詳細設計の層が残ると示す。",
+    "keywords": [
+      "形鋼",
+      "組図",
+      "干渉判定",
+      "DXF",
+      "概略図"
+    ]
+  },
+  {
+    "id": "DE-20261113-003",
+    "sourceTitle": "『近道には注記が要る』",
+    "workId": "daily-essay-20261113",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "重量には省いた形がある",
+    "jp": "鋼材重量表は、断面積、材長、密度、本数から合計を計算し、断面図とともに九種類の鋼材を扱えるようになった。一般鋼材には七・八五グラム毎立方センチメートルという密度を置く。しかし得られるのは理論重量であり、角の丸み、公差、穴、溶接は含まれない。数字を速く出す道具ほど、何を省いた数字なのかを近くに書いておく必要がある。",
+    "translationLiteral": "The steel weight table came to calculate a total from cross-sectional area, material length, density, and quantity, and to handle nine types of steel with sectional drawings. For ordinary steel it uses a density of 7.85 grams per cubic centimeter. However, what is obtained is a theoretical weight, and corner radii, tolerances, holes, and welds are not included. The faster a tool produces a number, the more necessary it is to write nearby what the number omits.",
+    "translationNatural": "The steel-weight tool calculated totals from cross-sectional area, length, density, and quantity, and covered nine steel profiles with diagrams. It used 7.85 grams per cubic centimeter for ordinary steel. The result, however, was theoretical weight: corner radii, tolerances, holes, and welds were excluded. The faster a tool produces a number, the closer its omissions need to be written beside it.",
+    "imageUrl": "",
+    "imageCaption": "重量には省いた形があるを、工程と未完了の境界が見える場面として描く。",
+    "imagePrompt": "A restrained editorial illustration about 重量には省いた形がある, showing process boundaries, evidence, and unfinished connections, educational composition, no text",
+    "chunks": [
+      {
+        "en": "The steel-weight tool calculated totals from cross-sectional area, length, density, and quantity, and covered nine steel profiles with diagrams.",
+        "ja": "鋼材重量ツールは断面積、長さ、密度、本数から合計を計算し、図付きで九種類の鋼材形状を扱った。"
+      },
+      {
+        "en": "It used 7.85 grams per cubic centimeter for ordinary steel.",
+        "ja": "一般鋼材には一立方センチメートル当たり7.85グラムを用いた。"
+      },
+      {
+        "en": "The result, however, was theoretical weight: corner radii, tolerances, holes, and welds were excluded.",
+        "ja": "しかし結果は理論重量であり、角の丸み、公差、穴、溶接は除外されていた。"
+      },
+      {
+        "en": "The faster a tool produces a number, the closer its omissions need to be written beside it.",
+        "ja": "道具が数字を速く出すほど、省略した条件をその数字のそばへ書く必要がある。"
+      }
+    ],
+    "grammar": [
+      "calculated ... and covered ... は計算機能と対象範囲を並列する。",
+      "from A, B, C, and D は合計値の入力要素を列挙する。",
+      "per cubic centimeter は密度の単位を示す。",
+      "however は実用性と理論値の制約を対比する。",
+      "were excluded は省略対象を受動態で示す。",
+      "The faster A, the closer B は比例比較構文。"
+    ],
+    "translationNote": "密度7.85 g/cm³、九種類、入力四要素を両訳に保持した。角Rは corner radii とし、穴や溶接を重量に含めていないという制約を自然訳でも明記した。",
+    "readingPoint": "結び。計算の速さを否定せず、数字の近くに省略条件を表示することを信頼性の条件とする。",
+    "keywords": [
+      "鋼材重量",
+      "断面積",
+      "密度",
+      "理論値",
+      "省略条件"
+    ]
+  }
+]
