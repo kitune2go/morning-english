@@ -7685,5 +7685,854 @@
         }
       ]
     }
+  ],
+  "DE-20261112-001": [
+    {
+      "words": {
+        "intuitive": {
+          "ja": "直感的な"
+        },
+        "three-dimensional": {
+          "ja": "三次元の"
+        },
+        "modeling": {
+          "ja": "造形"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Intuitive three-dimensional modeling requires more than a collection of tools.",
+          "ja": "直感的な三次元造形には、道具を集める以上のものが必要だ。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "original": {
+          "ja": "原画の"
+        },
+        "measured": {
+          "ja": "測定された"
+        },
+        "ruler": {
+          "ja": "定規"
+        },
+        "fed": {
+          "ja": "戻された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The original image must be measured, marked with a pen, checked with a ruler, viewed from different camera angles, and fed back into the model.",
+          "ja": "原画を測り、ペンで印を付け、定規で確認し、異なるカメラ角度から見て、その結果をモデルへ戻さなければならない。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "closed": {
+          "ja": "閉じた"
+        },
+        "loop": {
+          "ja": "輪"
+        },
+        "correcting": {
+          "ja": "直すこと"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What matters is a closed loop between seeing and correcting, not a list of separate functions.",
+          "ja": "重要なのは、個別機能の一覧ではなく、見ることと直すことの閉じた輪である。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "determines": {
+          "ja": "決める"
+        },
+        "comparison": {
+          "ja": "比較"
+        },
+        "process": {
+          "ja": "工程"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When each difference determines the next action and each new shape returns for comparison, tools become a process.",
+          "ja": "一つ一つの違いが次の行動を決め、新しい形が比較へ戻るとき、道具は工程になる。",
+          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261112-002": [
+    {
+      "words": {
+        "interface": {
+          "ja": "操作画面"
+        },
+        "specialist": {
+          "ja": "専門家の"
+        },
+        "finished": {
+          "ja": "完成した"
+        }
+      },
+      "phrases": [
+        {
+          "en": "An interface that assumes no specialist knowledge need not begin with a finished human body.",
+          "ja": "専門知識を前提にしない画面は、完成した人体から始める必要がない。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "stick": {
+          "ja": "棒状の"
+        },
+        "bones": {
+          "ja": "骨（複数）"
+        },
+        "slices": {
+          "ja": "断面・輪切り（複数）"
+        },
+        "reflect": {
+          "ja": "反映する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It can start with a stick figure: move the bones, adjust the center and thickness of body slices, and reflect those changes in three dimensions.",
+          "ja": "棒人間から始め、骨を動かし、身体断面の中心と厚みを調整し、その変化を三次元へ反映できる。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "skeletal": {
+          "ja": "骨格の"
+        },
+        "x-ray": {
+          "ja": "X線"
+        },
+        "mri": {
+          "ja": "MRI"
+        },
+        "resembles": {
+          "ja": "似ている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The skeletal view resembles an X-ray, while the thickness view resembles MRI slices.",
+          "ja": "骨格表示はX線に似ており、厚み表示はMRIの輪切りに似ている。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "surface": {
+          "ja": "表面"
+        },
+        "clay": {
+          "ja": "粘土"
+        },
+        "volume": {
+          "ja": "体積"
+        },
+        "within": {
+          "ja": "内側"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Together, they turn form from surface clay into volume built from within.",
+          "ja": "二つを合わせると、形は表面の粘土から、内側から組み立てる体積へ変わる。",
+          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261112-003": [
+    {
+      "words": {
+        "prototype": {
+          "ja": "試作"
+        },
+        "section-center": {
+          "ja": "断面中心"
+        },
+        "controls": {
+          "ja": "操作機能"
+        },
+        "export": {
+          "ja": "書き出し"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The prototype verified bone movement, section-center and thickness controls, three-dimensional updates, and GLB and JSON export.",
+          "ja": "試作では、骨の移動、断面中心と厚みの操作、三次元更新、GLBとJSONの書き出しを確認した。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "topology": {
+          "ja": "トポロジー"
+        },
+        "joints": {
+          "ja": "関節"
+        },
+        "integrate": {
+          "ja": "統合する"
+        },
+        "workflow": {
+          "ja": "工程"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet it did not create continuous topology across the joints or integrate the workflow into the existing Studio.",
+          "ja": "しかし、関節をまたぐ連続トポロジーの作成も、既存Studioへの工程統合も行っていない。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "proof": {
+          "ja": "証明"
+        },
+        "completion": {
+          "ja": "完成"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Successful export was not proof of completion.",
+          "ja": "書き出しの成功は完成の証明ではなかった。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "exposed": {
+          "ja": "露出させた"
+        },
+        "boundary": {
+          "ja": "境界"
+        },
+        "repair": {
+          "ja": "修復する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The value of the prototype was that it exposed the next boundary to repair.",
+          "ja": "試作の価値は、次に直す境界を露出させたことにあった。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "incompleteness": {
+          "ja": "未完成さ"
+        },
+        "connection": {
+          "ja": "接続"
+        },
+        "defects": {
+          "ja": "欠陥"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Its incompleteness became a map of the next connection point, not a cover for defects.",
+          "ja": "その未完成さは欠陥を覆うものではなく、次の接続点を示す地図になった。",
+          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261113-001": [
+    {
+      "words": {
+        "colab": {
+          "ja": "Colab"
+        },
+        "shortcut": {
+          "ja": "近道"
+        },
+        "publicly": {
+          "ja": "公開状態で"
+        },
+        "trained": {
+          "ja": "学習済みの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A Colab notebook offered a shortcut from one image to a three-dimensional model by using a publicly available trained model.",
+          "ja": "公開済みの学習モデルを使い、一枚の画像から三次元モデルへ進む近道としてColabノートが用意された。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "render": {
+          "ja": "描画する"
+        },
+        "views": {
+          "ja": "方向別の表示"
+        },
+        "drive": {
+          "ja": "Drive"
+        },
+        "charges": {
+          "ja": "料金"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It aimed to create a GLB, render four views, and save the result to Drive without additional API charges.",
+          "ja": "追加のAPI料金なしでGLBを作り、四方向を描画し、結果をDriveへ保存することを目指した。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "roughly": {
+          "ja": "約"
+        },
+        "gigabytes": {
+          "ja": "ギガバイト"
+        },
+        "inference": {
+          "ja": "推論"
+        },
+        "verified": {
+          "ja": "確認された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "But the workflow still required roughly six gigabytes of GPU memory, and a complete inference run had not been verified.",
+          "ja": "しかし工程には約6GBのGPUメモリが必要で、推論の完走はまだ確認されていなかった。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "entrance": {
+          "ja": "入口"
+        },
+        "commercial-service": {
+          "ja": "商用サービスの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A free entrance is not the same as commercial-service quality.",
+          "ja": "無料の入口は、商用サービスと同じ品質を意味しない。",
+          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261113-002": [
+    {
+      "words": {
+        "prototype": {
+          "ja": "試作"
+        },
+        "structural-steel": {
+          "ja": "形鋼の"
+        },
+        "forty-five-degree": {
+          "ja": "45度の"
+        },
+        "portal-frame": {
+          "ja": "門型フレームの"
+        },
+        "assembly": {
+          "ja": "組合せ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Another prototype registered structural-steel parts, applied simple forty-five-degree corner cuts, duplicated and positioned the parts, and displayed a portal-frame assembly.",
+          "ja": "別の試作では、形鋼部品を登録し、簡易な45度角落としを施し、部品を複製・配置して、門型フレームの組合せを表示した。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "svg": {
+          "ja": "SVG"
+        },
+        "csv": {
+          "ja": "CSV"
+        },
+        "layout": {
+          "ja": "配置"
+        },
+        "preserved": {
+          "ja": "保存した"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Its SVG assembly drawing, CSV parts list, and JSON save function preserved the proposed layout.",
+          "ja": "SVG組図、CSV部品表、JSON保存は、考えた配置を残した。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "interference": {
+          "ja": "干渉"
+        },
+        "flange-level": {
+          "ja": "フランジ単位の"
+        },
+        "notches": {
+          "ja": "切欠き"
+        },
+        "production-ready": {
+          "ja": "製作可能な"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet the tool did not provide strict interference checks, flange-level notches, or production-ready DXF.",
+          "ja": "しかし、厳密な干渉検査、フランジ単位の切欠き、製作可能なDXFは備えていなかった。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "conceptual": {
+          "ja": "概略の"
+        },
+        "inspection": {
+          "ja": "検査"
+        },
+        "machining": {
+          "ja": "加工"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A conceptual assembly still needs another inspection layer before it can enter machining.",
+          "ja": "概略組図を加工へ渡す前には、なお別の検査層が必要である。",
+          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261113-003": [
+    {
+      "words": {
+        "steel-weight": {
+          "ja": "鋼材重量の"
+        },
+        "cross-sectional": {
+          "ja": "断面の"
+        },
+        "density": {
+          "ja": "密度"
+        },
+        "quantity": {
+          "ja": "本数"
+        },
+        "profiles": {
+          "ja": "形状"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The steel-weight tool calculated totals from cross-sectional area, length, density, and quantity, and covered nine steel profiles with diagrams.",
+          "ja": "鋼材重量ツールは断面積、長さ、密度、本数から合計を計算し、図付きで九種類の鋼材形状を扱った。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "grams": {
+          "ja": "グラム"
+        },
+        "cubic": {
+          "ja": "立方の"
+        },
+        "centimeter": {
+          "ja": "センチメートル"
+        },
+        "ordinary": {
+          "ja": "一般の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It used 7.85 grams per cubic centimeter for ordinary steel.",
+          "ja": "一般鋼材には一立方センチメートル当たり7.85グラムを用いた。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "theoretical": {
+          "ja": "理論上の"
+        },
+        "radii": {
+          "ja": "丸み・半径"
+        },
+        "tolerances": {
+          "ja": "公差"
+        },
+        "welds": {
+          "ja": "溶接"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The result, however, was theoretical weight: corner radii, tolerances, holes, and welds were excluded.",
+          "ja": "しかし結果は理論重量であり、角の丸み、公差、穴、溶接は除外されていた。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "omissions": {
+          "ja": "省略事項"
+        },
+        "beside": {
+          "ja": "そばに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The faster a tool produces a number, the closer its omissions need to be written beside it.",
+          "ja": "道具が数字を速く出すほど、省略した条件をその数字のそばへ書く必要がある。",
+          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261115-001": [
+    {
+      "words": {
+        "database-first": {
+          "ja": "データベースを先にする"
+        },
+        "workflow": {
+          "ja": "工程"
+        },
+        "adopted": {
+          "ja": "採用した"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The history project adopted a database-first workflow.",
+          "ja": "歴史プロジェクトは、まずデータベースへ入れる工程を採用した。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "sixty-one": {
+          "ja": "六十一"
+        },
+        "records": {
+          "ja": "件・記録"
+        },
+        "structured": {
+          "ja": "構造化された"
+        },
+        "unapproved": {
+          "ja": "未承認の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Sixty-one records covering Rome, the Mediterranean, Asia, people, and ideas were structured, but they remained unapproved.",
+          "ja": "ローマ、地中海、アジア、人物、思想を扱う六十一件が構造化されたが、未承認のまま残った。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "stored": {
+          "ja": "保存された"
+        },
+        "published": {
+          "ja": "公開された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "More stored records did not mean more published history.",
+          "ja": "保存件数の増加は、公開された歴史の増加を意味しなかった。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "storage": {
+          "ja": "保存"
+        },
+        "candidates": {
+          "ja": "候補"
+        },
+        "source-by-source": {
+          "ja": "出典ごとの"
+        },
+        "works": {
+          "ja": "作品"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Storage protected candidates from being lost; publication still required source-by-source review and links to people and works.",
+          "ja": "保存は候補の消失を防いだが、公開には出典ごとの確認と人物・作品への関連付けが必要だった。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "collection": {
+          "ja": "収集"
+        },
+        "display": {
+          "ja": "表示"
+        },
+        "deliberately": {
+          "ja": "意図的に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Collection and display were deliberately kept as separate decisions.",
+          "ja": "収集と画面表示は、意図的に別の判断として保たれた。",
+          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261115-002": [
+    {
+      "words": {
+        "preview": {
+          "ja": "Preview"
+        },
+        "publication": {
+          "ja": "公開"
+        },
+        "database": {
+          "ja": "データベース"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The next stage produced a working Preview, a checked map, publication files, and a public database.",
+          "ja": "次の段階では、動くPreview、確認済みの地図、公開用ファイル、公開用データベースが用意された。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "node": {
+          "ja": "Node"
+        },
+        "python": {
+          "ja": "Python"
+        },
+        "unit": {
+          "ja": "単体の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Eight Node tests and seven Python tests passed, fifteen unit tests in all.",
+          "ja": "Node八件とPython七件、合計十五件の単体テストが通った。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "production": {
+          "ja": "本番"
+        },
+        "integration": {
+          "ja": "統合"
+        },
+        "unverified": {
+          "ja": "未確認の"
+        },
+        "deployment": {
+          "ja": "デプロイ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet the real database connection and production integration were still unverified, while the production deployment remained blocked by a daily limit.",
+          "ja": "しかし実データベース接続と本番統合はまだ未確認で、本番デプロイは日次制限に阻まれたままだった。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "component-level": {
+          "ja": "部品単位の"
+        },
+        "entire": {
+          "ja": "全体の"
+        },
+        "path": {
+          "ja": "経路"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Component-level success was necessary, but it did not prove that the entire publication path was connected.",
+          "ja": "部品単位の成功は必要だが、公開経路全体の接続を証明するものではなかった。",
+          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261115-003": [
+    {
+      "words": {
+        "preparation": {
+          "ja": "準備"
+        },
+        "unapproved": {
+          "ja": "未承認の"
+        },
+        "activated": {
+          "ja": "有効化された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The preparation of public JSON preserved one hard rule: unapproved data would not be activated.",
+          "ja": "公開JSONの準備では、未承認データを有効化しないという一つの厳格な規則を守った。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "outputs": {
+          "ja": "出力物"
+        },
+        "manifest": {
+          "ja": "manifest"
+        },
+        "registered": {
+          "ja": "登録された"
+        },
+        "releases": {
+          "ja": "リリース"
+        },
+        "active": {
+          "ja": "有効な"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Three JSON outputs and a manifest were generated from real data, yet the public database still contained zero registered releases, zero public JSON releases, and zero active releases.",
+          "ja": "実データから三種類のJSONとmanifestを生成したが、公開データベースの登録リリース、公開JSONリリース、有効リリースはいずれも零件だった。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "differences": {
+          "ja": "差分"
+        },
+        "review": {
+          "ja": "審査"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The next step was a review of the differences.",
+          "ja": "次の手順は差分の審査だった。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "publication": {
+          "ja": "公開"
+        },
+        "generation": {
+          "ja": "生成"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Publication was not file generation alone.",
+          "ja": "公開はファイル生成だけではなかった。",
+          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "gate": {
+          "ja": "扉"
+        },
+        "approvals": {
+          "ja": "承認"
+        },
+        "activated": {
+          "ja": "有効化した"
+        },
+        "traced": {
+          "ja": "辿れる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It was the final gate through which changes, approvals, and the activated version could all be traced.",
+          "ja": "変更、承認、有効化した版をすべて辿れる最後の扉だった。",
+          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
   ]
 }
