@@ -118,7 +118,10 @@
     "cards-extra-20261110.json",
     "cards-extra-20261111.json",
     "cards-extra-20261112.json",
-    "cards-extra-20261113.json"
+    "cards-extra-20261113.json",
+    "cards-extra-20261114.json",
+    "cards-extra-20261115.json",
+    "cards-extra-20261116.json"
   ],
   "cards": [
     {
@@ -1492,6 +1495,27 @@
       "coreVerb": "require",
       "theme": "コード修正と実環境で確認された3Dパイプライン完了を分ける",
       "_sourceFile": "cards-extra-20261113.json"
+    },
+    {
+      "_no": 197,
+      "sentence": "A database form can simplify entry, but it does not remove the need to validate records before publication.",
+      "coreVerb": "simplify",
+      "theme": "データ入力の簡略化と公開前検証を分ける",
+      "_sourceFile": "cards-extra-20261114.json"
+    },
+    {
+      "_no": 198,
+      "sentence": "When a conversation becomes data, verify its sources and label facts, estimates, and interpretations before adding it to a public timeline.",
+      "coreVerb": "verify",
+      "theme": "対話を公開データへ変換する前に出典と確実性を区別する",
+      "_sourceFile": "cards-extra-20261115.json"
+    },
+    {
+      "_no": 199,
+      "sentence": "Keep data registration separate from publication, and activate a release only after a human has checked the live view.",
+      "coreVerb": "keep",
+      "theme": "データ登録と公開切り替えを分離し人の表示確認を条件にする",
+      "_sourceFile": "cards-extra-20261116.json"
     }
   ]
 }
