@@ -1,0 +1,209 @@
+[
+  {
+    "id": "DE-20261116-001",
+    "sourceTitle": "『力は止まる場所まで設計する』",
+    "workId": "daily-essay-20261116",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "軽い機構、重い蓄電",
+    "jp": "大型の電動航空機が短い有人試験飛行をしたという話は、飛ぶ仕組みを意外なほど単純に見せた。モーターは内燃機関より部品と制御を減らせるが、空へ持ち上げるエネルギーまで軽くなるわけではない。問題は蓄電池の重さと航続であり、そこへ燃料も無限ではないという別の限界が重なる。単純な機構は、制約を消すのではなく、制約の場所を移す。",
+    "translationLiteral": "The report that a large electric aircraft made a short crewed test flight made the mechanism of flying look surprisingly simple. A motor can reduce parts and control systems compared with an internal-combustion engine, but the energy lifted into the sky does not become lighter. The problem is the weight of the battery and the range, while another limit overlaps with it: fuel is not infinite either. A simple mechanism does not erase constraints; it moves where they are located.",
+    "translationNatural": "A short crewed test flight by a large electric aircraft made flight look mechanically simpler than expected. Electric motors can reduce moving parts and control complexity, but they do not make the energy carried into the sky weightless. Battery mass and range remain the central limits, while fuel has limits of its own. Simpler machinery does not eliminate constraints; it relocates them.",
+    "imageUrl": "",
+    "imageCaption": "単純なモーターと重い蓄電池の間で浮く航空機。",
+    "imagePrompt": "Editorial illustration of a large electric aircraft balanced between a simple motor and a heavy battery, engineering constraints shown visually, no readable text",
+    "chunks": [
+      {
+        "en": "A short crewed test flight by a large electric aircraft made flight look mechanically simpler than expected.",
+        "ja": "大型電動航空機の短い有人試験飛行は、飛行を予想以上に機構的に単純に見せた。"
+      },
+      {
+        "en": "Electric motors can reduce moving parts and control complexity, but they do not make the energy carried into the sky weightless.",
+        "ja": "電動モーターは可動部品と制御の複雑さを減らせるが、空へ運ぶエネルギーを無重量にはしない。"
+      },
+      {
+        "en": "Battery mass and range remain the central limits, while fuel has limits of its own.",
+        "ja": "蓄電池の重量と航続は中心的な制約として残り、燃料にも固有の限界がある。"
+      },
+      {
+        "en": "Simpler machinery does not eliminate constraints; it relocates them.",
+        "ja": "より単純な機械は制約を消さず、制約の場所を移す。"
+      }
+    ],
+    "grammar": [
+      "by a large electric aircraft は試験飛行の主体を示す。",
+      "make O look C は「OをCに見せる」という使役構文。",
+      "can reduce ... but ... do not make ... は可能性と限界を対比する。",
+      "energy carried ... は過去分詞句で energy を修飾する。",
+      "while は電池と燃料の二種類の限界を並置する。",
+      "does not eliminate ...; relocates ... は否定した内容を肯定文で言い換える。"
+    ],
+    "translationNote": "原文の「モーターが単純」「エネルギーは軽くならない」「電池と航続」「燃料も有限」をすべて残した。naturalの weightless は比喩ではなく、持ち上げるエネルギー源の質量負担が消えないことを示す。",
+    "readingPoint": "導入。技術の単純化が制約の消失ではなく、制約位置の移動であることを示す。",
+    "keywords": [
+      "電動航空機",
+      "モーター",
+      "蓄電池",
+      "航続",
+      "制約"
+    ]
+  },
+  {
+    "id": "DE-20261116-002",
+    "sourceTitle": "『力は止まる場所まで設計する』",
+    "workId": "daily-essay-20261116",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "作った人間が加速する",
+    "jp": "AIを人間が制御できるかという問いは、機械が突然よそ者になる物語へ流れやすい。だが、AIを作り、競争の速度を上げ、能力を評価へ変え、制度へ埋め込むのも人間である。危険は能力そのものだけでなく、止まりにくい競争と権力の増幅にある。人間が作ったという事実は安全の保証ではない。それは、制御の責任から人間を外せないという意味である。",
+    "translationLiteral": "The question of whether humans can control AI easily flows into a story in which the machine suddenly becomes an outsider. But it is also humans who build AI, increase the speed of competition, turn ability into evaluation, and embed it in institutions. The danger lies not only in ability itself but also in competition that is hard to stop and the amplification of power. The fact that humans made it is not a guarantee of safety. It means that humans cannot be removed from responsibility for control.",
+    "translationNatural": "Questions about controlling AI often become stories about a machine turning into an alien force. Yet humans build the systems, accelerate the competition, convert capability into evaluations, and embed those evaluations in institutions. The risk lies not only in capability but also in escalation and amplified power. Human authorship does not guarantee safety; it makes human responsibility for control unavoidable.",
+    "imageUrl": "",
+    "imageCaption": "AIの力を競争と制度へ接続する人間の手。",
+    "imagePrompt": "Editorial illustration of human hands connecting an AI system to competition, rankings, and institutions, emphasizing responsibility and escalation, no readable text",
+    "chunks": [
+      {
+        "en": "Questions about controlling AI often become stories about a machine turning into an alien force.",
+        "ja": "AIの制御をめぐる問いは、機械が異質な力へ変わる物語になりやすい。"
+      },
+      {
+        "en": "Yet humans build the systems, accelerate the competition, convert capability into evaluations, and embed those evaluations in institutions.",
+        "ja": "しかし人間がシステムを作り、競争を加速し、能力を評価へ変え、その評価を制度へ埋め込む。"
+      },
+      {
+        "en": "The risk lies not only in capability but also in escalation and amplified power.",
+        "ja": "危険は能力だけでなく、エスカレーションと増幅された権力にもある。"
+      },
+      {
+        "en": "Human authorship does not guarantee safety; it makes human responsibility for control unavoidable.",
+        "ja": "人間が作ったことは安全を保証せず、制御への人間の責任を避けられないものにする。"
+      }
+    ],
+    "grammar": [
+      "Questions about ... は複数の問いを主語にする。",
+      "turning into ... は machine を説明する動名詞句。",
+      "Yet は機械中心の物語から人間の行為へ転換する。",
+      "build / accelerate / convert / embed は人間の操作を四項並列にする。",
+      "not only A but also B は危険の所在を追加する。",
+      "make O C は責任を unavoidable にする因果を示す。"
+    ],
+    "translationNote": "「よそ者」はalien forceとしたが、宇宙人ではなく人間の外から来たように扱う力という比喩である。能力を評価へ変える過程は evaluations とし、制度に埋め込む主体が人間であることを保持した。",
+    "readingPoint": "展開。制御問題を機械の自律性だけでなく、人間の競争と制度設計へ戻す。",
+    "keywords": [
+      "AI",
+      "制御",
+      "競争",
+      "能力主義",
+      "エスカレーション",
+      "責任"
+    ]
+  },
+  {
+    "id": "DE-20261116-003",
+    "sourceTitle": "『力は止まる場所まで設計する』",
+    "workId": "daily-essay-20261116",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "有効化のあとに画面を見る",
+    "jp": "公開候補をデータベースへ登録し、Activeへ切り替える操作は、最後の一押しに見える。だが、登録件数が合い、リリースが有効でも、利用者の画面で読めるとは限らない。実データ、配信JSON、地図や年表の表示が同じ版を指しているかを確かめる必要がある。公開とはスイッチを入れる動作ではなく、表示までつながった経路を確認して初めて成立する状態である。",
+    "translationLiteral": "Registering a publication candidate in the database and switching it to Active looks like the final push. But even if the registration count is correct and the release is active, it is not necessarily readable on the user's screen. It is necessary to check whether the real data, distributed JSON, and the map and timeline display point to the same version. Publication is not the action of turning on a switch; it is a state established only after confirming the path connected through to the display.",
+    "translationNatural": "Registering a candidate release and switching it to Active can look like the final step. Yet correct counts and an active release do not guarantee a readable public screen. The source data, delivered JSON, map, and timeline must all point to the same version. Publication is not a switch; it exists only when the path has been verified all the way to the display.",
+    "imageUrl": "",
+    "imageCaption": "Activeの切替から公開画面までをつなぐ検証経路。",
+    "imagePrompt": "Editorial illustration of an Active toggle connected through source data, JSON delivery, map and timeline to a verified public screen, no readable text",
+    "chunks": [
+      {
+        "en": "Registering a candidate release and switching it to Active can look like the final step.",
+        "ja": "候補リリースを登録してActiveへ切り替えることは、最後の手順に見えうる。"
+      },
+      {
+        "en": "Yet correct counts and an active release do not guarantee a readable public screen.",
+        "ja": "しかし正しい件数と有効なリリースは、読める公開画面を保証しない。"
+      },
+      {
+        "en": "The source data, delivered JSON, map, and timeline must all point to the same version.",
+        "ja": "元データ、配信されたJSON、地図、年表はすべて同じ版を指す必要がある。"
+      },
+      {
+        "en": "Publication is not a switch; it exists only when the path has been verified all the way to the display.",
+        "ja": "公開はスイッチではなく、表示までの経路が検証されたときにだけ成立する。"
+      }
+    ],
+    "grammar": [
+      "Registering ... and switching ... は二つの動名詞句を並列主語にする。",
+      "can look like ... は外見上の評価を断定せず示す。",
+      "do not guarantee は必要条件だけでは十分でないことを表す。",
+      "delivered JSON は過去分詞 delivered が JSON を修飾する。",
+      "must all point to ... は四つの対象が同じ版を参照する必要を示す。",
+      "only when は公開が成立する必要条件を示す。"
+    ],
+    "translationNote": "Activeはリリース状態名として保持した。naturalでも「件数が正しい」「有効状態」「同一版参照」「表示まで検証」という四条件を省略せず、公開を単なる切替操作へ弱めていない。",
+    "readingPoint": "転換。力を動かすスイッチから、利用者に届く経路全体の検証へ視点を移す。",
+    "keywords": [
+      "Active",
+      "リリース",
+      "JSON",
+      "地図",
+      "表示検証",
+      "公開"
+    ]
+  },
+  {
+    "id": "DE-20261116-004",
+    "sourceTitle": "『力は止まる場所まで設計する』",
+    "workId": "daily-essay-20261116",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "上手さにも休憩がいる",
+    "jp": "休憩時間に聞こえる激しいドラムは、演奏者の技術や熱意をよく伝える。それでも、周囲が休む場所まで毎日舞台になれば、聞く側は観客にされてしまう。上手いことと、共有空間で鳴らしてよいことは別である。表現には音を出す自由だけでなく、参加しない人が静かに離れられる余白も要る。力の設計は、響かせ方より先に、止め方と退出路を含む。",
+    "translationLiteral": "The intense drums heard during a break convey the player's skill and enthusiasm well. Even so, if the place where others rest becomes a stage every day, the listeners are turned into an audience. Being skilled and being allowed to make sound in a shared space are separate. Expression needs not only the freedom to make sound but also room for those who do not participate to leave quietly. The design of power includes how to stop and a route of exit before how to make it resonate.",
+    "translationNatural": "Loud drumming during a break can display real skill and enthusiasm. But when a shared resting place becomes a stage every day, everyone nearby is drafted into the audience. Skill does not create consent. Expression needs room not only for sound but also for nonparticipants to withdraw into quiet. Any design for power must include a stop and an exit before it considers amplification.",
+    "imageUrl": "",
+    "imageCaption": "休憩所の舞台と、静かに退出できる余白。",
+    "imagePrompt": "Editorial illustration of a workplace break area turning into a drum stage while a clear quiet exit remains open, respectful social boundaries, no readable text",
+    "chunks": [
+      {
+        "en": "Loud drumming during a break can display real skill and enthusiasm.",
+        "ja": "休憩中の大きなドラム演奏は、本当の技術と熱意を示しうる。"
+      },
+      {
+        "en": "But when a shared resting place becomes a stage every day, everyone nearby is drafted into the audience.",
+        "ja": "しかし共有の休憩場所が毎日舞台になれば、近くの全員が観客へ組み込まれる。"
+      },
+      {
+        "en": "Skill does not create consent.",
+        "ja": "技術は同意を生まない。"
+      },
+      {
+        "en": "Expression needs room not only for sound but also for nonparticipants to withdraw into quiet.",
+        "ja": "表現には音のためだけでなく、不参加者が静けさへ退くための余白も必要である。"
+      },
+      {
+        "en": "Any design for power must include a stop and an exit before it considers amplification.",
+        "ja": "力の設計は、増幅を考える前に停止と出口を含まなければならない。"
+      }
+    ],
+    "grammar": [
+      "can display は能力・可能性を表し、常にそうだとは断定しない。",
+      "when ... は周囲が観客化される条件を示す。",
+      "be drafted into ... は本人の選択なしに役割へ組み込まれる受動態。",
+      "does not create は技術と同意の因果を否定する。",
+      "not only A but also B は音と不参加者の余白を並列する。",
+      "before it considers ... は増幅より停止と退出を先に置く順序を示す。"
+    ],
+    "translationNote": "「観客にされる」はdrafted into the audienceとし、強制参加の含意を保った。「止め方と退出路」はa stop and an exitと具体化し、技術の否定ではなく同意と共有空間の問題であることを維持した。",
+    "readingPoint": "余韻。技術・公開・制度に共通する境界を、身近な休憩時間の同意へ戻して締める。",
+    "keywords": [
+      "ドラム",
+      "休憩",
+      "観客",
+      "同意",
+      "退出路",
+      "静けさ"
+    ]
+  }
+]
