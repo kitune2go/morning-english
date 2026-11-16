@@ -8534,5 +8534,676 @@
         }
       ]
     }
+  ],
+  "DE-20261114-001": [
+    {
+      "words": {
+        "repeatedly": {
+          "ja": "繰り返し"
+        },
+        "execution": {
+          "ja": "実行"
+        },
+        "detour": {
+          "ja": "迂回路"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Repeatedly opening a separate execution environment made data entry depend on managing a detour.",
+          "ja": "別の実行環境を毎回開くことで、データ入力は迂回路の管理に依存していた。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "input": {
+          "ja": "入力"
+        },
+        "form": {
+          "ja": "フォーム"
+        },
+        "candidate": {
+          "ja": "候補"
+        },
+        "database": {
+          "ja": "データベース"
+        }
+      },
+      "phrases": [
+        {
+          "en": "An input form offered a shorter route: fill in the fields and send a candidate to the database.",
+          "ja": "入力フォームは、項目を埋めて候補をデータベースへ送る短い経路を示した。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "entrance": {
+          "ja": "入口"
+        },
+        "standard": {
+          "ja": "基準"
+        },
+        "content": {
+          "ja": "内容"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The shorter entrance did not lower the standard for the content.",
+          "ja": "入口を短くしても、内容の基準は下がらなかった。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "preserved": {
+          "ja": "残した"
+        },
+        "common": {
+          "ja": "共通の"
+        },
+        "format": {
+          "ja": "形式"
+        },
+        "review": {
+          "ja": "確認"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It preserved who entered what in a common format and made the candidate easier to hand over for review.",
+          "ja": "誰が何を入力したかを共通形式で残し、候補を確認へ渡しやすくした。",
+          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261114-002": [
+    {
+      "words": {
+        "yaml": {
+          "ja": "ヤムル"
+        },
+        "machine": {
+          "ja": "機械"
+        },
+        "settings": {
+          "ja": "設定"
+        }
+      },
+      "phrases": [
+        {
+          "en": "YAML makes machine settings easier for people to read.",
+          "ja": "YAMLは機械の設定を人が読みやすくする。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "nesting": {
+          "ja": "入れ子にすること"
+        },
+        "brackets": {
+          "ja": "括弧"
+        },
+        "fields": {
+          "ja": "項目"
+        },
+        "prose": {
+          "ja": "文章"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Instead of nesting rows of brackets, it lays out fields and values almost like prose.",
+          "ja": "括弧を何重にも重ねる代わりに、項目と値を文章に近い形で並べる。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "readability": {
+          "ja": "読みやすさ"
+        },
+        "indentation": {
+          "ja": "字下げ"
+        },
+        "hierarchy": {
+          "ja": "階層"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet readability does not remove structure: changing the indentation or hierarchy can change the meaning.",
+          "ja": "しかし読みやすさが構造を消すわけではなく、字下げや階層を変えると意味も変わりうる。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "discarded": {
+          "ja": "捨てた"
+        },
+        "rules": {
+          "ja": "規則"
+        },
+        "view": {
+          "ja": "見える場所"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A clear format has not discarded its rules; it has moved them into view.",
+          "ja": "明快な形式は規則を捨てたのではなく、規則を見える場所へ移したのである。",
+          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261114-003": [
+    {
+      "words": {
+        "accumulated": {
+          "ja": "蓄積した"
+        },
+        "markers": {
+          "ja": "印"
+        },
+        "zoom": {
+          "ja": "縮尺表示"
+        },
+        "unwanted": {
+          "ja": "不要な"
+        },
+        "tap": {
+          "ja": "タップ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "As the map accumulated markers, circles overlapped at a distant zoom and unwanted panels remained after a tap.",
+          "ja": "地図に印が蓄積すると、引いた表示では輪が重なり、タップ後には不要なパネルが残った。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "stored": {
+          "ja": "保存された"
+        },
+        "readable": {
+          "ja": "読める"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Stored data was not automatically readable data.",
+          "ja": "保存されたデータが、そのまま読めるデータになるわけではなかった。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "merged": {
+          "ja": "マージされた"
+        },
+        "visible": {
+          "ja": "見える"
+        },
+        "public": {
+          "ja": "公開の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A merged fix was also not the same as a change visible on the public site.",
+          "ja": "修正のマージも、公開サイトで見える変更と同じではなかった。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "input": {
+          "ja": "入力"
+        },
+        "screen": {
+          "ja": "画面"
+        },
+        "interactions": {
+          "ja": "操作"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The simpler the input path becomes, the more important it is to test the real screen sizes and interactions.",
+          "ja": "入力経路が簡単になるほど、実際の画面サイズと操作を試すことが重要になる。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "shorten": {
+          "ja": "短くする"
+        },
+        "entrance": {
+          "ja": "入口"
+        },
+        "exit": {
+          "ja": "出口"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Shorten the entrance, not the final check at the exit.",
+          "ja": "短くするのは入口であり、出口での最終確認ではない。",
+          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261116-001": [
+    {
+      "words": {
+        "crewed": {
+          "ja": "有人の"
+        },
+        "test": {
+          "ja": "試験"
+        },
+        "aircraft": {
+          "ja": "航空機"
+        },
+        "mechanically": {
+          "ja": "機構的に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A short crewed test flight by a large electric aircraft made flight look mechanically simpler than expected.",
+          "ja": "大型電動航空機の短い有人試験飛行は、飛行を予想以上に機構的に単純に見せた。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "motors": {
+          "ja": "モーター"
+        },
+        "moving": {
+          "ja": "可動の"
+        },
+        "complexity": {
+          "ja": "複雑さ"
+        },
+        "weightless": {
+          "ja": "無重量の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Electric motors can reduce moving parts and control complexity, but they do not make the energy carried into the sky weightless.",
+          "ja": "電動モーターは可動部品と制御の複雑さを減らせるが、空へ運ぶエネルギーを無重量にはしない。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "battery": {
+          "ja": "蓄電池"
+        },
+        "mass": {
+          "ja": "重量"
+        },
+        "range": {
+          "ja": "航続"
+        },
+        "fuel": {
+          "ja": "燃料"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Battery mass and range remain the central limits, while fuel has limits of its own.",
+          "ja": "蓄電池の重量と航続は中心的な制約として残り、燃料にも固有の限界がある。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "machinery": {
+          "ja": "機械"
+        },
+        "constraints": {
+          "ja": "制約"
+        },
+        "relocates": {
+          "ja": "場所を移す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Simpler machinery does not eliminate constraints; it relocates them.",
+          "ja": "より単純な機械は制約を消さず、制約の場所を移す。",
+          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261116-002": [
+    {
+      "words": {
+        "controlling": {
+          "ja": "制御すること"
+        },
+        "alien": {
+          "ja": "異質な"
+        },
+        "force": {
+          "ja": "力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Questions about controlling AI often become stories about a machine turning into an alien force.",
+          "ja": "AIの制御をめぐる問いは、機械が異質な力へ変わる物語になりやすい。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "accelerate": {
+          "ja": "加速する"
+        },
+        "competition": {
+          "ja": "競争"
+        },
+        "capability": {
+          "ja": "能力"
+        },
+        "evaluations": {
+          "ja": "評価"
+        },
+        "institutions": {
+          "ja": "制度"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet humans build the systems, accelerate the competition, convert capability into evaluations, and embed those evaluations in institutions.",
+          "ja": "しかし人間がシステムを作り、競争を加速し、能力を評価へ変え、その評価を制度へ埋め込む。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "risk": {
+          "ja": "危険"
+        },
+        "escalation": {
+          "ja": "エスカレーション"
+        },
+        "amplified": {
+          "ja": "増幅された"
+        },
+        "power": {
+          "ja": "権力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The risk lies not only in capability but also in escalation and amplified power.",
+          "ja": "危険は能力だけでなく、エスカレーションと増幅された権力にもある。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "authorship": {
+          "ja": "作ったこと"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "responsibility": {
+          "ja": "責任"
+        },
+        "unavoidable": {
+          "ja": "避けられない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Human authorship does not guarantee safety; it makes human responsibility for control unavoidable.",
+          "ja": "人間が作ったことは安全を保証せず、制御への人間の責任を避けられないものにする。",
+          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261116-003": [
+    {
+      "words": {
+        "registering": {
+          "ja": "登録すること"
+        },
+        "candidate": {
+          "ja": "候補"
+        },
+        "release": {
+          "ja": "リリース"
+        },
+        "active": {
+          "ja": "有効状態"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Registering a candidate release and switching it to Active can look like the final step.",
+          "ja": "候補リリースを登録してActiveへ切り替えることは、最後の手順に見えうる。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "counts": {
+          "ja": "件数"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "readable": {
+          "ja": "読める"
+        },
+        "public": {
+          "ja": "公開の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet correct counts and an active release do not guarantee a readable public screen.",
+          "ja": "しかし正しい件数と有効なリリースは、読める公開画面を保証しない。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "source": {
+          "ja": "元の"
+        },
+        "delivered": {
+          "ja": "配信された"
+        },
+        "json": {
+          "ja": "ジェイソン形式"
+        },
+        "timeline": {
+          "ja": "年表"
+        },
+        "version": {
+          "ja": "版"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The source data, delivered JSON, map, and timeline must all point to the same version.",
+          "ja": "元データ、配信されたJSON、地図、年表はすべて同じ版を指す必要がある。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "publication": {
+          "ja": "公開"
+        },
+        "verified": {
+          "ja": "検証された"
+        },
+        "display": {
+          "ja": "表示"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Publication is not a switch; it exists only when the path has been verified all the way to the display.",
+          "ja": "公開はスイッチではなく、表示までの経路が検証されたときにだけ成立する。",
+          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
+  ],
+  "DE-20261116-004": [
+    {
+      "words": {
+        "drumming": {
+          "ja": "ドラム演奏"
+        },
+        "break": {
+          "ja": "休憩"
+        },
+        "skill": {
+          "ja": "技術"
+        },
+        "enthusiasm": {
+          "ja": "熱意"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Loud drumming during a break can display real skill and enthusiasm.",
+          "ja": "休憩中の大きなドラム演奏は、本当の技術と熱意を示しうる。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "shared": {
+          "ja": "共有の"
+        },
+        "resting": {
+          "ja": "休憩の"
+        },
+        "stage": {
+          "ja": "舞台"
+        },
+        "drafted": {
+          "ja": "組み込まれた"
+        },
+        "audience": {
+          "ja": "観客"
+        }
+      },
+      "phrases": [
+        {
+          "en": "But when a shared resting place becomes a stage every day, everyone nearby is drafted into the audience.",
+          "ja": "しかし共有の休憩場所が毎日舞台になれば、近くの全員が観客へ組み込まれる。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "skill": {
+          "ja": "技術"
+        },
+        "consent": {
+          "ja": "同意"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Skill does not create consent.",
+          "ja": "技術は同意を生まない。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "expression": {
+          "ja": "表現"
+        },
+        "nonparticipants": {
+          "ja": "不参加者"
+        },
+        "withdraw": {
+          "ja": "退く"
+        },
+        "quiet": {
+          "ja": "静けさ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Expression needs room not only for sound but also for nonparticipants to withdraw into quiet.",
+          "ja": "表現には音のためだけでなく、不参加者が静けさへ退くための余白も必要である。",
+          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "power": {
+          "ja": "力"
+        },
+        "stop": {
+          "ja": "停止"
+        },
+        "exit": {
+          "ja": "出口"
+        },
+        "amplification": {
+          "ja": "増幅"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Any design for power must include a stop and an exit before it considers amplification.",
+          "ja": "力の設計は、増幅を考える前に停止と出口を含まなければならない。",
+          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+        }
+      ]
+    }
   ]
 }
