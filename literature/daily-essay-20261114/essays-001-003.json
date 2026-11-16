@@ -1,0 +1,156 @@
+[
+  {
+    "id": "DE-20261114-001",
+    "sourceTitle": "『入口を短くして、確認を残す』",
+    "workId": "daily-essay-20261114",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "入力までの迂回を減らす",
+    "jp": "データを増やすたびに実行環境を開き、手順をたどって登録するのは、入力そのものより迂回路の管理に時間がかかる。そこで、項目を埋めればデータベースへ候補を送れる入力フォームという発想が出た。入口を短くすることは、内容を軽く扱うことではない。誰が何を入れたかを同じ型で残し、確認へ渡しやすくするための短縮である。",
+    "translationLiteral": "Opening an execution environment and following procedures every time data is added takes more time to manage the detour than the input itself. This led to the idea of an input form that sends a candidate to the database when its fields are filled in. Shortening the entrance does not mean treating the content lightly. It is a shortening meant to leave who entered what in the same format and pass it easily to review.",
+    "translationNatural": "Repeatedly opening a separate execution environment made data entry depend on managing a detour. An input form offered a shorter route: fill in the fields and send a candidate to the database. The shorter entrance did not lower the standard for the content. It preserved who entered what in a common format and made the candidate easier to hand over for review.",
+    "imageUrl": "",
+    "imageCaption": "入力フォームから確認工程へ渡される候補データ。",
+    "imagePrompt": "A restrained editorial illustration of a short data-entry path leading into a clearly separated review gate, form fields, database symbols, no readable text",
+    "chunks": [
+      {
+        "en": "Repeatedly opening a separate execution environment made data entry depend on managing a detour.",
+        "ja": "別の実行環境を毎回開くことで、データ入力は迂回路の管理に依存していた。"
+      },
+      {
+        "en": "An input form offered a shorter route: fill in the fields and send a candidate to the database.",
+        "ja": "入力フォームは、項目を埋めて候補をデータベースへ送る短い経路を示した。"
+      },
+      {
+        "en": "The shorter entrance did not lower the standard for the content.",
+        "ja": "入口を短くしても、内容の基準は下がらなかった。"
+      },
+      {
+        "en": "It preserved who entered what in a common format and made the candidate easier to hand over for review.",
+        "ja": "誰が何を入力したかを共通形式で残し、候補を確認へ渡しやすくした。"
+      }
+    ],
+    "grammar": [
+      "Repeatedly opening ... は動名詞句を主語にして反復作業を示す。",
+      "make O depend on ... は「Oを〜に依存させる」という使役構文。",
+      "コロン以下は shorter route の具体的内容を示す。",
+      "did not lower は入口短縮と品質低下を否定で切り分ける。",
+      "who entered what は二つの疑問詞節をまとめて保存対象にする。",
+      "made the candidate easier to ... は make O C と不定詞で受け渡しやすさを表す。"
+    ],
+    "translationNote": "直訳は「迂回路」「入口」「同じ型」を保ち、自然訳は managing a detour、shorter route、common format とした。フォームは候補を直接公開するのではなく、確認へ渡す入口であるという役割を維持した。",
+    "readingPoint": "導入。操作手順を減らすことと、審査基準を下げることを分離する。",
+    "keywords": [
+      "入力フォーム",
+      "データベース",
+      "候補",
+      "共通形式",
+      "確認"
+    ]
+  },
+  {
+    "id": "DE-20261114-002",
+    "sourceTitle": "『入口を短くして、確認を残す』",
+    "workId": "daily-essay-20261114",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "読める設定にも規則がある",
+    "jp": "YAMLは、設定を人が読みやすい形で並べるための記法として現れた。括弧を重ねず、項目と値を見渡せるので、機械へ渡す指示が文章に少し近づく。しかし、読みやすさは自由さと同じではない。字下げや階層を崩せば意味は変わる。分かりやすい形式とは規則のない形式ではなく、規則が目に見える場所へ移された形式なのだ。",
+    "translationLiteral": "YAML appeared as a notation for arranging settings in a form that people can read easily. Because items and values can be surveyed without piling up brackets, instructions passed to a machine come a little closer to prose. However, readability is not the same as freedom. If indentation or hierarchy is broken, the meaning changes. An understandable format is not a format without rules but one in which the rules have been moved to a visible place.",
+    "translationNatural": "YAML makes machine settings easier for people to read. Instead of nesting rows of brackets, it lays out fields and values almost like prose. Yet readability does not remove structure: changing the indentation or hierarchy can change the meaning. A clear format has not discarded its rules; it has moved them into view.",
+    "imageUrl": "",
+    "imageCaption": "読みやすい設定と、その背後に残る字下げの規則。",
+    "imagePrompt": "Editorial illustration of a readable configuration page with visible indentation levels forming a precise structure, calm educational style, no readable text",
+    "chunks": [
+      {
+        "en": "YAML makes machine settings easier for people to read.",
+        "ja": "YAMLは機械の設定を人が読みやすくする。"
+      },
+      {
+        "en": "Instead of nesting rows of brackets, it lays out fields and values almost like prose.",
+        "ja": "括弧を何重にも重ねる代わりに、項目と値を文章に近い形で並べる。"
+      },
+      {
+        "en": "Yet readability does not remove structure: changing the indentation or hierarchy can change the meaning.",
+        "ja": "しかし読みやすさが構造を消すわけではなく、字下げや階層を変えると意味も変わりうる。"
+      },
+      {
+        "en": "A clear format has not discarded its rules; it has moved them into view.",
+        "ja": "明快な形式は規則を捨てたのではなく、規則を見える場所へ移したのである。"
+      }
+    ],
+    "grammar": [
+      "make O easier to read は make O C と不定詞の組合せ。",
+      "Instead of -ing は採用しない表現方法を示す。",
+      "lay out は項目を見渡せるよう配置する句動詞。",
+      "Yet は読みやすさから規則の必要性へ論理を転換する。",
+      "changing ... は動名詞句を主語にする。",
+      "not discarded ...; moved ... はセミコロンで否定と肯定の説明を結ぶ。"
+    ],
+    "translationNote": "直訳の「規則が目に見える場所へ移された」を自然訳でも moved them into view として保持した。readability は「自由」ではなく「構造を見やすくすること」だという対比を弱めていない。",
+    "readingPoint": "展開。親しみやすい形式にも厳密さがあり、簡略化は規則の可視化だと示す。",
+    "keywords": [
+      "YAML",
+      "設定",
+      "字下げ",
+      "階層",
+      "可読性"
+    ]
+  },
+  {
+    "id": "DE-20261114-003",
+    "sourceTitle": "『入口を短くして、確認を残す』",
+    "workId": "daily-essay-20261114",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "最後は画面で確かめる",
+    "jp": "地図では、登録した印が増えすぎて、引いて見れば輪が重なり、触れば意図しない表示が残った。データが入ったことと、画面で読めることは同じではない。さらに、修正をマージしたことと、公開先へ反映されたことも別である。入力を簡単にするほど、最後には実際の幅と操作で見る必要がある。短くしてよいのは入口であって、出口の確認ではない。",
+    "translationLiteral": "On the map, too many registered marks caused circles to overlap when viewed from afar, and an unintended display remained when the screen was touched. Data being entered is not the same as being readable on screen. Moreover, merging a fix and having it reflected at the public destination are separate. The easier input becomes, the more necessary it is to look at the result with actual widths and operations. The entrance may be shortened, but not the confirmation at the exit.",
+    "translationNatural": "As the map accumulated markers, circles overlapped at a distant zoom and unwanted panels remained after a tap. Stored data was not automatically readable data. A merged fix was also not the same as a change visible on the public site. The simpler the input path becomes, the more important it is to test the real screen sizes and interactions. Shorten the entrance, not the final check at the exit.",
+    "imageUrl": "",
+    "imageCaption": "密集した地図の印と、公開前の画面確認。",
+    "imagePrompt": "Editorial illustration of an overcrowded interactive map passing through a final screen-check gate on desktop and phone, restrained colors, no readable text",
+    "chunks": [
+      {
+        "en": "As the map accumulated markers, circles overlapped at a distant zoom and unwanted panels remained after a tap.",
+        "ja": "地図に印が蓄積すると、引いた表示では輪が重なり、タップ後には不要なパネルが残った。"
+      },
+      {
+        "en": "Stored data was not automatically readable data.",
+        "ja": "保存されたデータが、そのまま読めるデータになるわけではなかった。"
+      },
+      {
+        "en": "A merged fix was also not the same as a change visible on the public site.",
+        "ja": "修正のマージも、公開サイトで見える変更と同じではなかった。"
+      },
+      {
+        "en": "The simpler the input path becomes, the more important it is to test the real screen sizes and interactions.",
+        "ja": "入力経路が簡単になるほど、実際の画面サイズと操作を試すことが重要になる。"
+      },
+      {
+        "en": "Shorten the entrance, not the final check at the exit.",
+        "ja": "短くするのは入口であり、出口での最終確認ではない。"
+      }
+    ],
+    "grammar": [
+      "As ... は印の増加に伴う状態変化を示す。",
+      "accumulated / overlapped / remained は同じ過去時点の観察を並べる。",
+      "not automatically は保存と可読性の自動的な一致を否定する。",
+      "not the same as ... はマージと公開反映を比較して区別する。",
+      "the 比較級 ..., the 比較級 ... は入力簡略化と確認重要度の相関を表す。",
+      "Shorten A, not B は命令形で残す工程を対比的に示す。"
+    ],
+    "translationNote": "「引いて見る」は distant zoom、「触る」は after a tap と具体化した。naturalでも、登録済み・マージ済み・公開表示済みの三状態を混同せず、最後の画面検査を省略しない結論を保った。",
+    "readingPoint": "転換と余韻。入口を短縮した結果として、出口の実画面確認をむしろ明確に残す。",
+    "keywords": [
+      "地図",
+      "マーカー",
+      "マージ",
+      "公開反映",
+      "表示確認"
+    ]
+  }
+]
