@@ -1,0 +1,238 @@
+[
+  {
+    "_no": 198,
+    "_generatedAt": "2026-11-15T02:00:00+09:00",
+    "sentence": "When a conversation becomes data, verify its sources and label facts, estimates, and interpretations before adding it to a public timeline.",
+    "phonetic": "ウェン ア カンヴァセイション ビカムズ デイタ、ヴェリファイ イッツ ソーシズ アンド レイベル ファクツ、エスティメッツ、アンド インタープリテイションズ ビフォー アディング イット トゥ ア パブリック タイムライン。",
+    "japaneseTranslation": "対話をデータにするときは、公開年表へ追加する前に出典を確認し、事実・推定・解釈を区別して表示してください。",
+    "theme": "対話を公開データへ変換する前に出典と確実性を区別する",
+    "coreVerb": "verify",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Verify the sources.",
+        "translation": "出典を確認してください。"
+      },
+      "phase2": {
+        "sentence": "Verify the sources and label the claims.",
+        "translation": "出典を確認し、主張に区分を付けてください。",
+        "addedChunks": "並列動作(label the claims)を追加"
+      },
+      "phase3": {
+        "sentence": "When a conversation becomes data, verify its sources.",
+        "translation": "対話をデータにするときは、その出典を確認してください。",
+        "connector": "when"
+      },
+      "phase4": {
+        "sentence": "A verified fact is more reliable than an unlabeled interpretation.",
+        "translation": "確認済みの事実は、区分されていない解釈より信頼できます。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "When a conversation becomes data, verify its sources and label facts, estimates, and interpretations before adding it to a public timeline",
+        "translation": "対話をデータにするときは、公開年表へ追加する前に出典を確認し、事実・推定・解釈を区別して表示してください。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When a conversation becomes data,",
+          "function": "時間",
+          "translation": "対話をデータにするときは"
+        },
+        {
+          "text": "verify its sources",
+          "function": "行動",
+          "translation": "その出典を確認し"
+        },
+        {
+          "text": "and label facts,",
+          "function": "接続",
+          "translation": "事実に区分を付け"
+        },
+        {
+          "text": "estimates, and interpretations",
+          "function": "対象",
+          "translation": "推定と解釈にも区分を付けてください"
+        },
+        {
+          "text": "before adding it",
+          "function": "時間",
+          "translation": "それを追加する前に"
+        },
+        {
+          "text": "to a public timeline.",
+          "function": "場所",
+          "translation": "公開年表へ"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "時間",
+          "name": "when節",
+          "where": "When a conversation becomes data",
+          "explanation": "対話をデータ化する場面を示す。",
+          "rule": "When + S + V, 命令文"
+        },
+        {
+          "category": "補語",
+          "name": "become + 名詞補語",
+          "where": "becomes data",
+          "explanation": "対話がデータとして扱われる変化を表す。",
+          "rule": "become + 名詞"
+        },
+        {
+          "category": "命令文",
+          "name": "動詞原形verify",
+          "where": "verify its sources",
+          "explanation": "出典確認を必要な手順として示す。",
+          "rule": "動詞原形 + 目的語"
+        },
+        {
+          "category": "並列",
+          "name": "verify A and label B",
+          "where": "verify its sources and label",
+          "explanation": "二つの作業をandで同じ階層に並べる。",
+          "rule": "動詞句 + and + 動詞句"
+        },
+        {
+          "category": "列挙",
+          "name": "三項並列",
+          "where": "facts, estimates, and interpretations",
+          "explanation": "確実性の異なる三分類を列挙する。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "時間",
+          "name": "before + 動名詞",
+          "where": "before adding it",
+          "explanation": "公開年表への追加より先に確認と区分を行う。",
+          "rule": "before + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When a conversation become data",
+          "correct": "When a conversation becomes data",
+          "why": "単数主語a conversationに合わせてbecomesを使う。"
+        },
+        {
+          "wrong": "verify its source and labels facts",
+          "correct": "verify its sources and label facts",
+          "why": "命令文で並列する二つの動詞をどちらも原形にする。"
+        },
+        {
+          "wrong": "before add it to a timeline",
+          "correct": "before adding it to a timeline",
+          "why": "前置詞beforeの後は動名詞にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Do not turn every conversational claim directly into a historical fact.",
+          "translation": "対話中のすべての主張を、そのまま歴史的事実にしないでください。"
+        },
+        {
+          "text": "Mark estimates and interpretations so readers can distinguish them from verified facts.",
+          "translation": "読者が確認済み事実と区別できるよう、推定と解釈を表示してください。"
+        },
+        {
+          "text": "Source review should precede public timeline entry.",
+          "translation": "公開年表への登録より先に、出典確認を行うべきです。"
+        }
+      ],
+      "parseTree": "[AdvCl When a conversation becomes data], [VP verify its sources and label [NP facts, estimates, and interpretations] [AdvP before adding it to a public timeline]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "verify its sources",
+          "expanded": "because a conversational claim may be incomplete, mistaken, or detached from its original evidence",
+          "nuance": "対話内容をそのまま事実登録しない理由を示す。"
+        },
+        {
+          "original": "label facts, estimates, and interpretations",
+          "expanded": "since readers need to know how strongly each statement is supported",
+          "nuance": "確実性区分の目的を示す。"
+        },
+        {
+          "original": "before adding it to a public timeline",
+          "expanded": "therefore, make source review and classification part of the publication pipeline",
+          "nuance": "公開工程へ検証を組み込む結論を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Sources should be verified and claims should be labeled before the conversation is added to a public timeline.",
+          "translation": "対話を公開年表へ追加する前に、出典を確認し、主張に区分を付けるべきです。",
+          "note": "確認対象と区分対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Distinguishing facts from estimates and interpretations, editors can preserve uncertainty in the data.",
+          "translation": "事実を推定・解釈と区別することで、編集者はデータ中の不確実性を保持できます。",
+          "note": "区分方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Source verification and claim classification should precede public registration.",
+          "translation": "出典確認と主張分類は、公開登録より先に行うべきです。",
+          "note": "verifyとclassifyを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "interpretation",
+            "alternatives": [
+              "reading",
+              "analysis",
+              "explanation"
+            ],
+            "nuance": "interpretationは資料から導く解釈、analysisは要素を分ける分析、explanationは分かりやすくする説明を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "データ化の条件",
+            "sentence": "When A becomes data, verify B and label C before adding it to D.",
+            "translation": "Aをデータにするときは、Dへ追加する前にBを確認しCを区分してください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A labeled estimate is more transparent than an unsupported statement presented as fact.",
+            "translation": "区分された推定は、事実として示された根拠のない主張より透明性があります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the source cannot be confirmed, label the claim as uncertain instead of presenting it as fact.",
+            "translation": "出典を確認できないなら、事実として示さず不確実な主張と表示してください。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not only the claim but also its source and level of certainty.",
+            "translation": "重要なのは主張だけでなく、その出典と確実性の水準です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Verify, classify, then publish.",
+            "translation": "確認し、分類し、それから公開する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "when節と三項並列で、対話から公開データへ移す前の二段階監査を明確にした。情報量が多いためefficiencyは8とした。"
+    }
+  }
+]
