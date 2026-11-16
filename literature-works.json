@@ -452,5 +452,19 @@
     "description": "未承認の歴史データ、Previewと単体テスト、公開JSONと本番画面の間を通して、蓄積・生成・承認・有効化を別工程として扱う必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261115/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261114",
+    "title": "入口を短くして、確認を残す",
+    "description": "データベース入力フォーム、YAML、地図上の密集した印、公開反映の確認を通して、入力経路の簡略化と出力検証を別の仕事として残す必要を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261114/manifest.json",
+    "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261116",
+    "title": "力は止まる場所まで設計する",
+    "description": "電動航空機の短い試験飛行、AI開発とエスカレーション、公開データのActive化、休憩時間のドラム演奏を通して、動かす力だけでなく制約・検証・同意まで設計する必要を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261116/manifest.json",
+    "mode": "essay-translation"
   }
 ]
