@@ -1,0 +1,233 @@
+[
+  {
+    "_no": 199,
+    "_generatedAt": "2026-11-16T02:00:00+09:00",
+    "sentence": "Keep data registration separate from publication, and activate a release only after a human has checked the live view.",
+    "phonetic": "キープ デイタ レジストレイション セパレート フロム パブリケイション、アンド アクティヴェイト ア リリース オウンリー アフター ア ヒューマン ハズ チェックト ザ ライヴ ヴュー。",
+    "japaneseTranslation": "データ登録と公開を分け、実際の表示を人が確認した後にだけリリースをActive化してください。",
+    "theme": "データ登録と公開切り替えを分離し人の表示確認を条件にする",
+    "coreVerb": "keep",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Keep the stages separate.",
+        "translation": "工程を分けてください。"
+      },
+      "phase2": {
+        "sentence": "Keep data registration separate from publication.",
+        "translation": "データ登録を公開から分けてください。",
+        "addedChunks": "分離対象(data registration / publication)を追加"
+      },
+      "phase3": {
+        "sentence": "Register the data, and publish it after review.",
+        "translation": "データを登録し、確認後に公開してください。",
+        "connector": "and"
+      },
+      "phase4": {
+        "sentence": "A reviewed release is safer than an automatic publication.",
+        "translation": "確認済みリリースは、自動公開より安全です。",
+        "comparison": "safer than"
+      },
+      "phase5": {
+        "sentence": "Keep data registration separate from publication, and activate a release only after a human has checked the live view",
+        "translation": "データ登録と公開を分け、実際の表示を人が確認した後にだけリリースをActive化してください。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Keep data registration",
+          "function": "行動",
+          "translation": "データ登録を保ってください"
+        },
+        {
+          "text": "separate from publication,",
+          "function": "状態",
+          "translation": "公開とは分けた状態に"
+        },
+        {
+          "text": "and activate a release",
+          "function": "接続",
+          "translation": "そしてリリースをActive化してください"
+        },
+        {
+          "text": "only after a human has checked",
+          "function": "時間",
+          "translation": "人が確認した後にだけ"
+        },
+        {
+          "text": "the live view.",
+          "function": "対象",
+          "translation": "実際の表示を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "補語",
+          "name": "keep O C",
+          "where": "Keep data registration separate",
+          "explanation": "データ登録を分離した状態に保つことを表す。",
+          "rule": "keep + O + 形容詞"
+        },
+        {
+          "category": "前置詞",
+          "name": "separate from",
+          "where": "separate from publication",
+          "explanation": "何から分けるかをfromで示す。",
+          "rule": "separate from + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "命令文のand接続",
+          "where": "Keep ... , and activate ...",
+          "explanation": "分離とActive化という二つの手順を並べる。",
+          "rule": "命令文, and + 動詞原形"
+        },
+        {
+          "category": "限定",
+          "name": "only after",
+          "where": "only after a human has checked",
+          "explanation": "Active化の条件を人の確認後に限定する。",
+          "rule": "only after + 節"
+        },
+        {
+          "category": "現在完了",
+          "name": "has + 過去分詞",
+          "where": "has checked",
+          "explanation": "確認が完了してからActive化する順序を示す。",
+          "rule": "has/have + 過去分詞"
+        },
+        {
+          "category": "冠詞",
+          "name": "a human",
+          "where": "a human has checked",
+          "explanation": "自動処理ではなく、人による確認を一人以上の役割として示す。",
+          "rule": "a + 単数可算名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Keep data registration separately from publication",
+          "correct": "Keep data registration separate from publication",
+          "why": "keep O Cでは補語に形容詞separateを使う。"
+        },
+        {
+          "wrong": "activate a release only after a human checked the live view",
+          "correct": "activate a release only after a human has checked the live view",
+          "why": "確認完了をActive化の前提として強調するため現在完了が適切。"
+        },
+        {
+          "wrong": "separate with publication",
+          "correct": "separate from publication",
+          "why": "分離する相手には前置詞fromを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Registering data should not automatically make it public.",
+          "translation": "データ登録によって自動的に公開されるべきではありません。"
+        },
+        {
+          "text": "Use a human-reviewed Active switch as the final publication gate.",
+          "translation": "人が確認するActive切り替えを、公開の最終ゲートとして使ってください。"
+        },
+        {
+          "text": "Check the live page before promoting a candidate release.",
+          "translation": "候補リリースを昇格させる前に、実際のページを確認してください。"
+        }
+      ],
+      "parseTree": "[VP Keep [NP data registration] [AdjP separate from publication]], and [VP activate [NP a release] [AdvP only after [Cl a human has checked the live view]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Keep data registration separate from publication",
+          "expanded": "because storing a candidate should not expose it to every reader immediately",
+          "nuance": "登録と公開を分離する安全上の理由を示す。"
+        },
+        {
+          "original": "activate a release only after a human has checked",
+          "expanded": "since automated tests may miss omissions, overwrites, or display failures",
+          "nuance": "人の表示確認を残す理由を示す。"
+        },
+        {
+          "original": "the live view",
+          "expanded": "therefore, review the same public-facing representation that readers will actually see",
+          "nuance": "データ内部ではなく表示結果を見る必要を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A release should be activated only after the live view has been checked by a human.",
+          "translation": "リリースは、人が実際の表示を確認した後にだけActive化すべきです。",
+          "note": "Active化されるリリースを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Separating registration from publication, the system allows candidates to be reviewed before activation.",
+          "translation": "登録と公開を分けることで、システムは候補をActive化前に確認できるようにします。",
+          "note": "設計上の前提を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Separation of registration and publication makes human review a release condition.",
+          "translation": "登録と公開の分離により、人の確認がリリース条件になります。",
+          "note": "separateとreviewを名詞中心で表す。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "activate",
+            "alternatives": [
+              "publish",
+              "promote",
+              "enable"
+            ],
+            "nuance": "activateは選択済みリリースを有効化、publishは公開、promoteは候補を本番へ昇格、enableは機能を使用可能にすることを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "分離と公開条件",
+            "sentence": "Keep A separate from B, and do C only after D has been checked.",
+            "translation": "AをBから分け、Dの確認後にだけCしてください。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A manual activation gate is safer than automatic publication after every data update.",
+            "translation": "人が操作するActive化ゲートは、データ更新ごとの自動公開より安全です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the live view is incomplete, leave the candidate inactive and correct the release first.",
+            "translation": "実際の表示に欠落があるなら、候補を非Activeのままにして先にリリースを修正してください。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the reviewed release, not merely the registered data, that should become public.",
+            "translation": "公開すべきなのは確認済みリリースであり、単に登録されたデータではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Register first; review and activate later.",
+            "translation": "まず登録し、確認してからActive化する。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "keep O Cとonly after現在完了により、登録・確認・Active化の順序を明確にした。"
+    }
+  }
+]
