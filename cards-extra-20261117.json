@@ -1,0 +1,233 @@
+[
+  {
+    "_no": 200,
+    "_generatedAt": "2026-11-17T02:00:00+09:00",
+    "sentence": "Transparent PNG layers provide the artwork for a Live2D-style preview, while separate motion data controls blinking, head tilts, and hair movement.",
+    "phonetic": "トランスペアレント ピーエヌジー レイヤーズ プロヴァイド ジ アートワーク フォー ア ライヴツーディー スタイル プレビュー、ワイル セパレート モーション デイタ コントロールズ ブリンキング、ヘッド ティルツ、アンド ヘア ムーヴメント。",
+    "japaneseTranslation": "透過PNGレイヤーはLive2D風プレビューの絵素材を提供し、別に管理するモーションデータが、まばたき・首の傾き・髪の動きを制御します。",
+    "theme": "Live2D風プレビューで絵素材とモーションデータを分ける",
+    "coreVerb": "provide",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Layers provide artwork.",
+        "translation": "レイヤーは絵素材を提供します。"
+      },
+      "phase2": {
+        "sentence": "Transparent PNG layers provide the artwork for a preview.",
+        "translation": "透過PNGレイヤーはプレビュー用の絵素材を提供します。",
+        "addedChunks": "素材形式(Transparent PNG)と用途(for a preview)を追加"
+      },
+      "phase3": {
+        "sentence": "Layers provide the artwork, while motion data controls movement.",
+        "translation": "レイヤーは絵素材を提供し、一方でモーションデータが動きを制御します。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "Layered artwork is easier to animate than a single flattened image.",
+        "translation": "レイヤー化された絵素材は、統合された1枚画像より動かしやすいです。",
+        "comparison": "easier to animate than"
+      },
+      "phase5": {
+        "sentence": "Transparent PNG layers provide the artwork for a Live2D-style preview, while separate motion data controls blinking, head tilts, and hair movement",
+        "translation": "透過PNGレイヤーはLive2D風プレビューの絵素材を提供し、別に管理するモーションデータが、まばたき・首の傾き・髪の動きを制御します。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Transparent PNG layers",
+          "function": "対象",
+          "translation": "透過PNGレイヤーは"
+        },
+        {
+          "text": "provide the artwork",
+          "function": "行動",
+          "translation": "絵素材を提供します"
+        },
+        {
+          "text": "for a Live2D-style preview,",
+          "function": "目的",
+          "translation": "Live2D風プレビュー用に"
+        },
+        {
+          "text": "while separate motion data controls",
+          "function": "接続",
+          "translation": "一方、別に管理するモーションデータが制御します"
+        },
+        {
+          "text": "blinking, head tilts, and hair movement.",
+          "function": "内容",
+          "translation": "まばたき、首の傾き、髪の動きを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "形容詞",
+          "name": "transparent",
+          "where": "Transparent PNG layers",
+          "explanation": "背景が透過されたPNGレイヤーであることを示す。",
+          "rule": "形容詞 + 名詞"
+        },
+        {
+          "category": "語法",
+          "name": "provide A for B",
+          "where": "provide the artwork for a Live2D-style preview",
+          "explanation": "プレビューに絵素材を提供する関係を表す。",
+          "rule": "provide + A + for + B"
+        },
+        {
+          "category": "接続",
+          "name": "whileによる対照",
+          "where": "while separate motion data controls",
+          "explanation": "絵素材の役割とモーションデータの役割を対照させる。",
+          "rule": "節, while + 節"
+        },
+        {
+          "category": "主語動詞一致",
+          "name": "dataの単数扱い",
+          "where": "motion data controls",
+          "explanation": "ここではdataを集合的な不可算名詞として扱い、controlsを用いる。",
+          "rule": "不可算名詞 + 三人称単数動詞"
+        },
+        {
+          "category": "列挙",
+          "name": "三項並列",
+          "where": "blinking, head tilts, and hair movement",
+          "explanation": "三種類の動きを同じ階層で列挙する。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "複合形容詞",
+          "name": "Live2D-style",
+          "where": "a Live2D-style preview",
+          "explanation": "Live2Dに似た形式のプレビューという意味をハイフンでまとめる。",
+          "rule": "名詞 + -style + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Transparent PNG layers provides the artwork",
+          "correct": "Transparent PNG layers provide the artwork",
+          "why": "複数主語layersに合わせてprovideを使う。"
+        },
+        {
+          "wrong": "motion data control blinking",
+          "correct": "motion data controls blinking",
+          "why": "dataを不可算の集合名詞として扱うためcontrolsにする。"
+        },
+        {
+          "wrong": "controls blinking, head tilt, and hair movements",
+          "correct": "controls blinking, head tilts, and hair movement",
+          "why": "列挙する一般的な動作名の数をそろえ、hair movementは不可算的に表す。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "The PNG layers store the visual parts, and the motion file stores how those parts move.",
+          "translation": "PNGレイヤーは見た目の部品を保存し、モーションファイルはその部品の動き方を保存します。"
+        },
+        {
+          "text": "A layered character can be previewed with simple tilting, blinking, and hair motion.",
+          "translation": "レイヤー化されたキャラクターは、簡単な傾き・まばたき・髪揺れでプレビューできます。"
+        },
+        {
+          "text": "Keep the source artwork independent from the animation settings.",
+          "translation": "元の絵素材をアニメーション設定から独立させてください。"
+        }
+      ],
+      "parseTree": "[S Transparent PNG layers [VP provide [NP the artwork] [PP for a Live2D-style preview]]], while [S separate motion data [VP controls [NP blinking, head tilts, and hair movement]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Transparent PNG layers provide the artwork",
+          "expanded": "because each visible part must remain independently positionable and transformable",
+          "nuance": "部品をレイヤー化する理由を示す。"
+        },
+        {
+          "original": "separate motion data controls blinking, head tilts, and hair movement",
+          "expanded": "since movement values describe changes over time rather than the painted appearance itself",
+          "nuance": "絵と動きのデータを分ける理由を示す。"
+        },
+        {
+          "original": "for a Live2D-style preview",
+          "expanded": "therefore, the preview can reuse the same artwork with different motion settings",
+          "nuance": "分離設計が再利用を可能にすることを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The artwork is supplied by transparent PNG layers, while movement is controlled by separate motion data.",
+          "translation": "絵素材は透過PNGレイヤーから供給され、動きは別のモーションデータで制御されます。",
+          "note": "絵素材と動きをそれぞれ受動態で対照する。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Separating motion from artwork, the preview can reuse the same layers with different animations.",
+          "translation": "動きを絵素材から分離することで、プレビューは同じレイヤーを別のアニメーションに再利用できます。",
+          "note": "分離方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Separation of artwork and motion enables flexible character animation.",
+          "translation": "絵素材とモーションの分離により、柔軟なキャラクターアニメーションが可能になります。",
+          "note": "separateとanimateを名詞中心で表す。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "layer",
+            "alternatives": [
+              "part",
+              "element",
+              "component"
+            ],
+            "nuance": "layerは重なり順を持つ画像層、partは一般的な部品、componentはシステム内の構成要素を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "役割分担",
+            "sentence": "A provides X, while B controls Y.",
+            "translation": "AがXを提供し、一方でBがYを制御します。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Separate layers are more flexible for animation than one flattened image.",
+            "translation": "別々のレイヤーは、統合された1枚画像よりアニメーションに柔軟に使えます。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If artwork and motion remain separate, either one can be revised without rebuilding the other.",
+            "translation": "絵素材とモーションを分けておけば、一方を修正しても他方を作り直す必要がありません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the PNG files store is appearance; motion belongs in a separate data layer.",
+            "translation": "PNGファイルが保存するのは見た目であり、動きは別のデータ層に属します。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Layers hold appearance; motion data drives movement.",
+            "translation": "レイヤーは見た目を持ち、モーションデータが動きを駆動します。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "whileによる対照と三項並列で、画像レイヤーとモーションデータの役割を一文で明確に分けた。"
+    }
+  }
+]
