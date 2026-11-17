@@ -9205,5 +9205,510 @@
         }
       ]
     }
+  ],
+  "DE-20261117-001": [
+    {
+      "words": {
+        "illustration": {
+          "ja": "一枚絵"
+        },
+        "restrictive": {
+          "ja": "制約になる"
+        },
+        "animate": {
+          "ja": "動かす"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A finished illustration becomes restrictive precisely when we try to animate it.",
+          "ja": "完成した一枚絵は、まさに動かそうとすると制約になる。",
+          "note": "precisely when は、完成形が動かす段階で制約へ変わる逆説を強調する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "tilting": {
+          "ja": "傾けること"
+        },
+        "swaying": {
+          "ja": "揺らすこと"
+        },
+        "pupils": {
+          "ja": "瞳"
+        },
+        "transparent": {
+          "ja": "透過の"
+        },
+        "layers": {
+          "ja": "レイヤー"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Closing the eyes, tilting the face, or swaying the hair requires the face, hair, whites of the eyes, and pupils to exist on separate transparent layers.",
+          "ja": "目を閉じ、顔を傾け、髪を揺らすには、顔、髪、白目、瞳が別々の透過レイヤー上に存在する必要がある。",
+          "note": "requires A to exist は動作を成立させるための部品配置を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "insufficient": {
+          "ja": "不十分な"
+        },
+        "beneath": {
+          "ja": "下に"
+        },
+        "fringe": {
+          "ja": "前髪"
+        },
+        "motion": {
+          "ja": "動き"
+        },
+        "reconstructed": {
+          "ja": "再構築される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Cutting alone is insufficient; areas hidden beneath the fringe or revealed by motion must be reconstructed.",
+          "ja": "切り抜くだけでは足りず、前髪の下に隠れた部分や動きで現れる部分を再構築しなければならない。",
+          "note": "hidden と revealed は同じ areas を修飾し、隠れ面の描き足しを表す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "decomposition": {
+          "ja": "分解"
+        },
+        "destroy": {
+          "ja": "壊す"
+        },
+        "finished": {
+          "ja": "完成した"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Decomposition does not destroy a finished work.",
+          "ja": "分解は完成作品を壊さない。",
+          "note": "does not により分解と破壊の同一視を否定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "previously": {
+          "ja": "以前は"
+        },
+        "invisible": {
+          "ja": "見えなかった"
+        },
+        "editable": {
+          "ja": "編集可能な"
+        },
+        "connected": {
+          "ja": "つながった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It makes previously invisible relationships editable so that the whole remains connected while it changes.",
+          "ja": "分解は、全体が変化しながらもつながりを保てるよう、以前は見えなかった関係を編集可能にする。",
+          "note": "It は decomposition を指し、so that は接続維持の目的を示す。"
+        }
+      ]
+    }
+  ],
+  "DE-20261117-002": [
+    {
+      "words": {
+        "dividing": {
+          "ja": "分けること"
+        },
+        "measurable": {
+          "ja": "測定可能な"
+        },
+        "motions": {
+          "ja": "動作"
+        },
+        "reveal": {
+          "ja": "明らかにする"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Dividing work into measurable motions can reveal where speed comes from.",
+          "ja": "仕事を測定可能な動作へ分けると、速さがどこから生まれるかを明らかにできる。",
+          "note": "where speed comes from は速さの発生源を問う間接疑問節。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "throughput": {
+          "ja": "処理量"
+        },
+        "skipping": {
+          "ja": "省くこと"
+        },
+        "shifting": {
+          "ja": "移すこと"
+        },
+        "burdens": {
+          "ja": "負担"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet if every task is judged by machine throughput, workers begin protecting the numbers by skipping checks or shifting burdens elsewhere.",
+          "ja": "しかし、すべての仕事が機械の処理量で評価されると、働く人は確認を省いたり負担を別の場所へ移したりして数字を守るようになる。",
+          "note": "if は評価条件、by 以下は数値を守る手段を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "outpace": {
+          "ja": "上回る"
+        },
+        "production": {
+          "ja": "生産"
+        },
+        "calculation": {
+          "ja": "計算"
+        },
+        "demand": {
+          "ja": "需要"
+        },
+        "peak": {
+          "ja": "頂点"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Machines may outpace people in production and calculation, but demand has a peak.",
+          "ja": "機械は生産と計算で人を上回りうるが、需要には頂点がある。",
+          "note": "but は生産能力の優位と需要上限を対置する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "occupants": {
+          "ja": "住む人"
+        }
+      },
+      "phrases": [
+        {
+          "en": "More houses do not create more occupants.",
+          "ja": "家を増やしても、住む人は増えない。",
+          "note": "do not create は供給量から需要者数が自動増加する因果を否定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "supply": {
+          "ja": "供給"
+        },
+        "outruns": {
+          "ja": "追い越す"
+        },
+        "inventory": {
+          "ja": "在庫"
+        },
+        "rather": {
+          "ja": "むしろ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Once supply outruns use, efficiency produces inventory rather than value.",
+          "ja": "供給が利用を追い越すと、効率が生むのは価値ではなく在庫である。",
+          "note": "Once は順序条件、rather than は結果の対比を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "measurement": {
+          "ja": "測定"
+        },
+        "locate": {
+          "ja": "見つける"
+        },
+        "inferior": {
+          "ja": "性能の低い"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Measurement should locate limits, not turn people into inferior machines.",
+          "ja": "測定は限界を見つけるべきであり、人を性能の低い機械へ変えるべきではない。",
+          "note": "should A, not B は測定の用途と禁じる用途を対比する。"
+        }
+      ]
+    }
+  ],
+  "DE-20261117-003": [
+    {
+      "words": {
+        "research": {
+          "ja": "取材"
+        },
+        "commercial": {
+          "ja": "商業の"
+        },
+        "photographs": {
+          "ja": "写真"
+        },
+        "under": {
+          "ja": "名のもとで"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Travel may begin as research or fan service and still become a commercial product once talks and photographs are sold under a work's name.",
+          "ja": "旅は取材やファンサービスとして始まりながら、作品名のもとでトークや写真が売られると商業商品にもなりうる。",
+          "note": "still は取材としての出発と後の商業化が両立することを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "payment": {
+          "ja": "支払い"
+        },
+        "automatically": {
+          "ja": "自動的に"
+        },
+        "cancels": {
+          "ja": "取り消す"
+        },
+        "freedom": {
+          "ja": "自由"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The issue is not that payment automatically cancels freedom.",
+          "ja": "問題は、支払いが自由を自動的に取り消すことではない。",
+          "note": "not that は問題ではない命題を明示して除外する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "creator": {
+          "ja": "創作者"
+        },
+        "performer": {
+          "ja": "出演者"
+        },
+        "organizer": {
+          "ja": "企画者"
+        },
+        "payer": {
+          "ja": "費用を払う者"
+        },
+        "owner": {
+          "ja": "所有者"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The creator, performer, organizer, payer, and owner of the work may be different people.",
+          "ja": "創作者、出演者、企画者、費用を払う者、作品の所有者は別人かもしれない。",
+          "note": "五つの役割を混同せず、may で不一致の可能性を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "private": {
+          "ja": "個人的な"
+        },
+        "merely": {
+          "ja": "単に"
+        },
+        "packaged": {
+          "ja": "包装された"
+        },
+        "fans": {
+          "ja": "ファン"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A private trip does not become part of a work merely because it can be packaged for fans.",
+          "ja": "個人的な旅行は、ファン向けに包装できるというだけでは作品の一部にならない。",
+          "note": "merely because は商品化可能性だけでは作品帰属が成立しないことを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "involved": {
+          "ja": "そこに関わる"
+        },
+        "financed": {
+          "ja": "費用を出した"
+        },
+        "whose": {
+          "ja": "誰の"
+        },
+        "saleable": {
+          "ja": "販売可能な"
+        }
+      },
+      "phrases": [
+        {
+          "en": "To judge the freedom involved, we must ask who chose the trip, who financed it, and whose work's name made it saleable.",
+          "ja": "そこにある自由を判断するには、誰が旅を選び、誰が費用を出し、誰の作品名がそれを販売可能にしたかを問わなければならない。",
+          "note": "who / who / whose は選択者、資金負担者、作品名の帰属を別々に問う。"
+        }
+      ]
+    }
+  ],
+  "DE-20261117-004": [
+    {
+      "words": {
+        "medium": {
+          "ja": "媒体"
+        },
+        "accused": {
+          "ja": "非難された"
+        },
+        "audience": {
+          "ja": "受け手"
+        },
+        "accusation": {
+          "ja": "非難"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Every new medium is accused of making its audience less intelligent, and the accusation often repeats an old pattern.",
+          "ja": "新しい媒体はどれも受け手を知的でなくすると非難され、その非難はしばしば古い型を繰り返す。",
+          "note": "受動態は媒体への批判を述べ、事実として知能低下を断定しない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "history": {
+          "ja": "歴史"
+        },
+        "prove": {
+          "ja": "証明する"
+        },
+        "effect": {
+          "ja": "影響"
+        }
+      },
+      "phrases": [
+        {
+          "en": "That history, however, does not prove that media have no effect.",
+          "ja": "しかし、その歴史は媒体に影響がないことを証明しない。",
+          "note": "does not prove は批判の反復史から無影響を導く推論を否定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "redistribute": {
+          "ja": "再配分する"
+        },
+        "recommendation": {
+          "ja": "推薦"
+        },
+        "exposure": {
+          "ja": "触れる情報"
+        },
+        "dictating": {
+          "ja": "命令すること"
+        },
+        "belief": {
+          "ja": "信念"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A screen can redistribute attention without erasing thought, just as a recommendation system can narrow exposure without dictating belief.",
+          "ja": "画面は思考を消さずに注意を再配分でき、同じように推薦システムは信念を命令せずに触れる情報を狭めうる。",
+          "note": "without は影響と、思考消去・信念命令という強い主張を区別する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "television": {
+          "ja": "テレビ"
+        },
+        "social": {
+          "ja": "交流の"
+        },
+        "stupid": {
+          "ja": "愚かな"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The useful question is not whether television or social media makes people stupid.",
+          "ja": "有用な問いは、テレビや交流媒体が人を愚かにするかどうかではない。",
+          "note": "not whether は単純な二択を問いの中心から外す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "selection": {
+          "ja": "選択"
+        },
+        "memory": {
+          "ja": "記憶"
+        },
+        "understanding": {
+          "ja": "理解"
+        },
+        "controls": {
+          "ja": "制御する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It is which layer changes—time, attention, selection, memory, or understanding—and who controls that layer.",
+          "ja": "問うべきなのは、時間、注意、選択、記憶、理解のどの層が変わり、その層を誰が制御するかである。",
+          "note": "It is は前文の useful question を受け、変化対象と制御主体を並列する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "decomposition": {
+          "ja": "分解"
+        },
+        "returning": {
+          "ja": "戻すこと"
+        },
+        "responsibility": {
+          "ja": "責任"
+        },
+        "visible": {
+          "ja": "見える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Decomposition ends by returning responsibility to a visible place.",
+          "ja": "分解は、責任を見える場所へ戻すことで終わる。",
+          "note": "by returning は作品全体の分解が到達する方法と結論を示す。"
+        }
+      ]
+    }
   ]
 }
