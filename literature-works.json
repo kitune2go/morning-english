@@ -466,5 +466,12 @@
     "description": "電動航空機の短い試験飛行、AI開発とエスカレーション、公開データのActive化、休憩時間のドラム演奏を通して、動かす力だけでなく制約・検証・同意まで設計する必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261116/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261117",
+    "title": "一枚を分けると責任が見える",
+    "description": "一枚絵のレイヤー分解、仕事の動作分解、旅と作品の商品化、媒体と認知の切り分けを通して、分解が効率化ではなく主体と責任を確かめる技法になる過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261117/manifest.json",
+    "mode": "essay-translation"
   }
 ]
