@@ -1,0 +1,140 @@
+[
+  {
+    "id": "DE-20261117-001",
+    "sourceTitle": "『一枚を分けると責任が見える』",
+    "workId": "daily-essay-20261117",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "動くために隠れた面を描く",
+    "jp": "一枚絵は、完成しているからこそ、動かそうとすると不自由になる。目を閉じ、顔を傾け、髪を揺らすには、顔、髪、白目、瞳を別々の透過レイヤーへ分けなければならない。ただ切り抜けば足りず、前髪の下や動いた後に現れる隠れた部分を描き足す必要がある。分解とは完成品を壊すことではない。変化しても全体のつながりを保てるよう、見えなかった関係を編集可能にすることである。",
+    "translationLiteral": "A single illustration becomes inconvenient when we try to move it precisely because it is complete. To close the eyes, tilt the face, and sway the hair, the face, hair, whites of the eyes, and pupils must be separated into different transparent layers. Merely cutting them out is not enough; hidden parts under the fringe or revealed after movement must be drawn in. Decomposition is not the destruction of a finished product. It makes unseen relationships editable so that the connection of the whole can be maintained even through change.",
+    "translationNatural": "A finished illustration becomes restrictive precisely when we try to animate it. Closing the eyes, tilting the face, or swaying the hair requires the face, hair, whites of the eyes, and pupils to exist on separate transparent layers. Cutting alone is insufficient; areas hidden beneath the fringe or revealed by motion must be reconstructed. Decomposition does not destroy a finished work. It makes previously invisible relationships editable so that the whole remains connected while it changes.",
+    "imageUrl": "",
+    "imageCaption": "一枚絵から分かれ、隠れた面を補いながら再びつながる透過レイヤー。",
+    "imagePrompt": "Editorial illustration of a finished character image separating into transparent facial and hair layers, hidden areas being reconstructed, all parts remaining connected, no readable text",
+    "chunks": [
+      {"en": "A finished illustration becomes restrictive precisely when we try to animate it.", "ja": "完成した一枚絵は、まさに動かそうとすると制約になる。"},
+      {"en": "Closing the eyes, tilting the face, or swaying the hair requires the face, hair, whites of the eyes, and pupils to exist on separate transparent layers.", "ja": "目を閉じ、顔を傾け、髪を揺らすには、顔、髪、白目、瞳が別々の透過レイヤー上に存在する必要がある。"},
+      {"en": "Cutting alone is insufficient; areas hidden beneath the fringe or revealed by motion must be reconstructed.", "ja": "切り抜くだけでは足りず、前髪の下に隠れた部分や動きで現れる部分を再構築しなければならない。"},
+      {"en": "Decomposition does not destroy a finished work.", "ja": "分解は完成作品を壊さない。"},
+      {"en": "It makes previously invisible relationships editable so that the whole remains connected while it changes.", "ja": "分解は、全体が変化しながらもつながりを保てるよう、以前は見えなかった関係を編集可能にする。"}
+    ],
+    "grammar": [
+      "precisely when は、完成していることと動かす際の不自由が同じ時点で表れる逆説を強調する。",
+      "Closing / tilting / swaying は三つの動作を動名詞句で並列する。",
+      "require A to exist は、動作の成立に必要な配置を示す。",
+      "hidden ... or revealed ... は二つの過去分詞句が areas を修飾する。",
+      "does not destroy は、分解と破壊を同一視する因果を明示的に否定する。",
+      "so that ... while ... は目的と、変化が続く時間条件を同時に示す。"
+    ],
+    "translationNote": "literalは「完成しているからこそ」をprecisely becauseで追い、naturalはrestrictive precisely whenで英語の流れを整えた。白目はwhites of the eyes、瞳はpupilsとして区別し、切り抜き後に必要な隠れ部分の描き足しをreconstructedで保持した。",
+    "readingPoint": "導入。見えている完成形を動かすには、見えない接続と隠れた面まで分けて設計する必要があると示す。",
+    "keywords": ["一枚絵", "透過レイヤー", "隠れた部分", "分解", "編集可能性"]
+  },
+  {
+    "id": "DE-20261117-002",
+    "sourceTitle": "『一枚を分けると責任が見える』",
+    "workId": "daily-essay-20261117",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "速さを測って需要を忘れる",
+    "jp": "仕事も、測れる動作へ分ければ、速さの理由が見える。だが、すべてを機械の処理量で評価すれば、人は確認を省いたり、負担を別の場所へ移したりして数字を守るようになる。生産や計算の速さで人間が機械に及ばなくても、需要には頂点がある。家を増やしても住む人は増えない。供給が利用を追い越した後、効率が作るのは価値ではなく在庫である。測定は限界を見つけるために使い、人を性能の低い機械へ変えてはならない。",
+    "translationLiteral": "Work, too, reveals the reason for speed when it is divided into measurable motions. But if everything is evaluated by machine throughput, people come to protect the numbers by omitting checks or moving burdens elsewhere. Even if humans cannot match machines in production or calculation speed, demand has a peak. Increasing the number of houses does not increase the people who live in them. After supply overtakes use, efficiency creates inventory rather than value. Measurement should be used to find limits and must not turn people into low-performance machines.",
+    "translationNatural": "Dividing work into measurable motions can reveal where speed comes from. Yet if every task is judged by machine throughput, workers begin protecting the numbers by skipping checks or shifting burdens elsewhere. Machines may outpace people in production and calculation, but demand has a peak. More houses do not create more occupants. Once supply outruns use, efficiency produces inventory rather than value. Measurement should locate limits, not turn people into inferior machines.",
+    "imageUrl": "",
+    "imageCaption": "処理量の計器の先で積み上がる在庫と、確認作業を残す人の手。",
+    "imagePrompt": "Editorial illustration of measured work motions, a throughput gauge, skipped checks, and unused houses turning into inventory, emphasizing human limits, no readable text",
+    "chunks": [
+      {"en": "Dividing work into measurable motions can reveal where speed comes from.", "ja": "仕事を測定可能な動作へ分けると、速さがどこから生まれるかを明らかにできる。"},
+      {"en": "Yet if every task is judged by machine throughput, workers begin protecting the numbers by skipping checks or shifting burdens elsewhere.", "ja": "しかし、すべての仕事が機械の処理量で評価されると、働く人は確認を省いたり負担を別の場所へ移したりして数字を守るようになる。"},
+      {"en": "Machines may outpace people in production and calculation, but demand has a peak.", "ja": "機械は生産と計算で人を上回りうるが、需要には頂点がある。"},
+      {"en": "More houses do not create more occupants.", "ja": "家を増やしても、住む人は増えない。"},
+      {"en": "Once supply outruns use, efficiency produces inventory rather than value.", "ja": "供給が利用を追い越すと、効率が生むのは価値ではなく在庫である。"},
+      {"en": "Measurement should locate limits, not turn people into inferior machines.", "ja": "測定は限界を見つけるべきであり、人を性能の低い機械へ変えるべきではない。"}
+    ],
+    "grammar": [
+      "Dividing ... は動名詞句を主語にし、分解という行為を話題化する。",
+      "where speed comes from は reveal の目的語となる間接疑問節。",
+      "if ... is judged ... は評価方法を条件に置く受動態。",
+      "by skipping ... or shifting ... は数字を守る手段を二項で示す。",
+      "may A, but B は機械の優位を認めつつ需要の上限を対置する。",
+      "Once は供給が利用を追い越した後という順序条件を示す。",
+      "rather than は効率が生む結果を価値ではなく在庫へ限定する。",
+      "should A, not B は測定の用途と禁止する用途を対比する。"
+    ],
+    "translationNote": "machine throughputは機械の処理量であり、機械そのものの速度だけに狭めていない。protect the numbersは数値目標を守るために検査や負担を操作する含意を保つ。occupantsは家に実際に住む人、inventoryは利用されず残る供給を指す。",
+    "readingPoint": "展開。分解と測定が、需要や確認工程を無視すると、人間を機械の劣化版として扱う圧力へ変わることを示す。",
+    "keywords": ["動作分解", "処理量", "需要", "在庫", "測定", "人間"]
+  },
+  {
+    "id": "DE-20261117-003",
+    "sourceTitle": "『一枚を分けると責任が見える』",
+    "workId": "daily-essay-20261117",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "旅の費用と作品の名札",
+    "jp": "旅は取材やファンサービスとして始まり、作品名を掲げたトークや写真が売られれば、商業商品にもなる。問題は、金銭が入ると自由が自動的に消えることではない。創作者、出演者、企画者、費用を払う者、作品の所有者が別人かもしれないことである。個人的な旅行は、ファン向けに包装できるというだけで作品の一部にはならない。そこにある自由を測るには、誰が旅を選び、誰が費用を出し、誰の作品名が販売を可能にしたかを分けて問う必要がある。",
+    "translationLiteral": "A trip may begin as research or fan service, and if talks or photographs bearing a work's name are sold, it also becomes a commercial product. The problem is not that freedom automatically disappears when money enters. It is that the creator, performer, planner, payer, and owner of the work may be different people. A personal trip does not become part of a work merely because it can be packaged for fans. To measure the freedom present there, it is necessary to ask separately who chose the trip, who paid for it, and whose work's name made the sale possible.",
+    "translationNatural": "Travel may begin as research or fan service and still become a commercial product once talks and photographs are sold under a work's name. The issue is not that payment automatically cancels freedom. The creator, performer, organizer, payer, and owner of the work may be different people. A private trip does not become part of a work merely because it can be packaged for fans. To judge the freedom involved, we must ask who chose the trip, who financed it, and whose work's name made it saleable.",
+    "imageUrl": "",
+    "imageCaption": "作品名の札が付いた旅の写真と、その費用・企画・所有へ伸びる別々の線。",
+    "imagePrompt": "Editorial illustration of travel photos and a talk event tagged with a work title, with separate lines to creator, performer, organizer, payer, and owner, no readable text",
+    "chunks": [
+      {"en": "Travel may begin as research or fan service and still become a commercial product once talks and photographs are sold under a work's name.", "ja": "旅は取材やファンサービスとして始まりながら、作品名のもとでトークや写真が売られると商業商品にもなりうる。"},
+      {"en": "The issue is not that payment automatically cancels freedom.", "ja": "問題は、支払いが自由を自動的に取り消すことではない。"},
+      {"en": "The creator, performer, organizer, payer, and owner of the work may be different people.", "ja": "創作者、出演者、企画者、費用を払う者、作品の所有者は別人かもしれない。"},
+      {"en": "A private trip does not become part of a work merely because it can be packaged for fans.", "ja": "個人的な旅行は、ファン向けに包装できるというだけでは作品の一部にならない。"},
+      {"en": "To judge the freedom involved, we must ask who chose the trip, who financed it, and whose work's name made it saleable.", "ja": "そこにある自由を判断するには、誰が旅を選び、誰が費用を出し、誰の作品名がそれを販売可能にしたかを問わなければならない。"}
+    ],
+    "grammar": [
+      "may begin ... and still become ... は出発点と後の商業化が両立することを示す。",
+      "once はトークや写真が販売された時点を条件として示す。",
+      "not that ... は問題ではない命題を先に除外する。",
+      "may be different people は役割の不一致を可能性として述べ、断定しない。",
+      "merely because は一つの理由だけでは結論が成立しないことを表す。",
+      "who / who / whose は選択者、負担者、作品の帰属を別々に問う。",
+      "make O C は作品が旅行をsaleableにする関係を示す。"
+    ],
+    "translationNote": "creator、performer、organizer、payer、ownerを混同せず別役割として維持した。financedは旅の費用を出す行為であり、旅を企画したことを意味しない。under a work's nameとwhose work made it saleableにより、作品名が商品化を支える関係を残した。",
+    "readingPoint": "転換。作品と個人経験を一枚に重ねず、選択・資金・企画・所有の主体を分けて自由と責任を問い直す。",
+    "keywords": ["旅行", "ファンサービス", "商品化", "費用", "所有者", "自由"]
+  },
+  {
+    "id": "DE-20261117-004",
+    "sourceTitle": "『一枚を分けると責任が見える』",
+    "workId": "daily-essay-20261117",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "媒体を原因の一枚絵にしない",
+    "jp": "新しい媒体が現れるたび、人を愚かにするという批判は古い型を繰り返す。しかし、その反復の歴史は、媒体に影響がないことの証明にはならない。画面は思考を消さずに注意の配分を変え、推薦の仕組みは信念を命令せずに触れる情報を狭めうる。問うべきなのは、テレビや交流媒体が人を愚かにするかという一枚の判定ではない。時間、注意、選択、記憶、理解のどの層が変わり、その層を誰が動かすのかである。分解は最後に、責任を見える場所へ戻す。",
+    "translationLiteral": "Each time a new medium appears, the criticism that it makes people foolish repeats an old pattern. However, the history of that repetition does not prove that media have no effect. A screen changes the allocation of attention without erasing thought, and a recommendation mechanism can narrow the information encountered without commanding belief. What should be asked is not the single judgment of whether television or social media makes people foolish. It is which layer among time, attention, selection, memory, and understanding changes, and who moves that layer. In the end, decomposition returns responsibility to a visible place.",
+    "translationNatural": "Every new medium is accused of making its audience less intelligent, and the accusation often repeats an old pattern. That history, however, does not prove that media have no effect. A screen can redistribute attention without erasing thought, just as a recommendation system can narrow exposure without dictating belief. The useful question is not whether television or social media makes people stupid. It is which layer changes—time, attention, selection, memory, or understanding—and who controls that layer. Decomposition ends by returning responsibility to a visible place.",
+    "imageUrl": "",
+    "imageCaption": "画面の背後で時間・注意・選択・記憶・理解へ分かれる層と、その制御者を示す線。",
+    "imagePrompt": "Editorial illustration of a screen separating into layers of time, attention, selection, memory, and understanding, with controls leading to visible responsibility, no readable text",
+    "chunks": [
+      {"en": "Every new medium is accused of making its audience less intelligent, and the accusation often repeats an old pattern.", "ja": "新しい媒体はどれも受け手を知的でなくすると非難され、その非難はしばしば古い型を繰り返す。"},
+      {"en": "That history, however, does not prove that media have no effect.", "ja": "しかし、その歴史は媒体に影響がないことを証明しない。"},
+      {"en": "A screen can redistribute attention without erasing thought, just as a recommendation system can narrow exposure without dictating belief.", "ja": "画面は思考を消さずに注意を再配分でき、同じように推薦システムは信念を命令せずに触れる情報を狭めうる。"},
+      {"en": "The useful question is not whether television or social media makes people stupid.", "ja": "有用な問いは、テレビや交流媒体が人を愚かにするかどうかではない。"},
+      {"en": "It is which layer changes—time, attention, selection, memory, or understanding—and who controls that layer.", "ja": "問うべきなのは、時間、注意、選択、記憶、理解のどの層が変わり、その層を誰が制御するかである。"},
+      {"en": "Decomposition ends by returning responsibility to a visible place.", "ja": "分解は、責任を見える場所へ戻すことで終わる。"}
+    ],
+    "grammar": [
+      "is accused of making ... は、批判の内容を受動態とof以下で示す。",
+      "does not prove that ... は、歴史的反復から無影響を導く推論を否定する。",
+      "without erasing / without dictating は、影響が成立しても思考や信念の消去・命令までは起きないことを示す。",
+      "just as は注意の再配分と情報接触の狭まりを類比する。",
+      "not whether ... は二択の問いを退ける。",
+      "which ... and who ... は変わる対象と制御主体を並列して問う。",
+      "by returning は分解が終わる際の方法と結果を示す。"
+    ],
+    "translationNote": "less intelligentは人間の本質的能力が低下したと断定せず、批判の言い方として置いた。redistribute attentionは注意の総量ではなく配分の変化、narrow exposureは接触情報の範囲の縮小であり、beliefの命令とは区別した。social mediaは本文の「交流媒体」の具体的な英語表現である。",
+    "readingPoint": "余韻。影響の有無を一枚の判定にせず、変化する層と制御主体を分けて、責任を再び見える位置へ置く。",
+    "keywords": ["媒体", "注意", "推薦システム", "情報接触", "理解", "責任"]
+  }
+]
