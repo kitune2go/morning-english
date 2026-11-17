@@ -121,7 +121,8 @@
     "cards-extra-20261113.json",
     "cards-extra-20261114.json",
     "cards-extra-20261115.json",
-    "cards-extra-20261116.json"
+    "cards-extra-20261116.json",
+    "cards-extra-20261117.json"
   ],
   "cards": [
     {
@@ -1516,6 +1517,13 @@
       "coreVerb": "keep",
       "theme": "データ登録と公開切り替えを分離し人の表示確認を条件にする",
       "_sourceFile": "cards-extra-20261116.json"
+    },
+    {
+      "_no": 200,
+      "sentence": "Transparent PNG layers provide the artwork for a Live2D-style preview, while separate motion data controls blinking, head tilts, and hair movement.",
+      "coreVerb": "provide",
+      "theme": "Live2D風プレビューで絵素材とモーションデータを分ける",
+      "_sourceFile": "cards-extra-20261117.json"
     }
   ]
 }
