@@ -9710,5 +9710,589 @@
         }
       ]
     }
+  ],
+  "DE-20261118-001": [
+    {
+      "words": {
+        "line": {
+          "ja": "一行"
+        },
+        "starting": {
+          "ja": "出発"
+        },
+        "lyrics": {
+          "ja": "歌詞"
+        },
+        "style": {
+          "ja": "曲調"
+        },
+        "cover": {
+          "ja": "ジャケット用"
+        },
+        "art": {
+          "ja": "絵"
+        }
+      },
+      "phrases": [
+        {
+          "en": "One line—“The ghost of youth died with the loose socks worn at seventeen”—became the starting point for lyrics, a musical style, and cover art.",
+          "ja": "「青春の亡霊は十七歳で履いたルーズソックスと共に逝った」という一行が、歌詞、曲調、ジャケットの出発点になった。",
+          "note": "一行を歌詞・曲調・ジャケットへ展開する創作の起点を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "recover": {
+          "ja": "取り戻す"
+        },
+        "vanished": {
+          "ja": "失われた"
+        },
+        "youth": {
+          "ja": "青春"
+        },
+        "shape": {
+          "ja": "輪郭"
+        },
+        "gone": {
+          "ja": "すでに去ったもの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The sentence did not recover a vanished youth; it gave shape to what was already gone.",
+          "ja": "その一行は消えた青春を取り戻さず、すでに去ったものへ形を与えた。",
+          "note": "did not A; it B で復元の否定と造形の働きを対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "ghost": {
+          "ja": "亡霊"
+        },
+        "appear": {
+          "ja": "姿を現す"
+        },
+        "pretending": {
+          "ja": "～のふりをする"
+        },
+        "returned": {
+          "ja": "戻った"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A ghost can appear in art without pretending that lost time has returned.",
+          "ja": "亡霊は、失った時間が戻ったふりをせずに、芸術の中へ姿を現せる。",
+          "note": "without pretending that ... は失った時間の回帰を装わないことを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "creation": {
+          "ja": "創作"
+        },
+        "filling": {
+          "ja": "埋めること"
+        },
+        "absence": {
+          "ja": "空白"
+        },
+        "voice": {
+          "ja": "声"
+        },
+        "image": {
+          "ja": "絵"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Creation began not by filling the absence, but by giving it a voice and an image.",
+          "ja": "創作は空白を埋めることではなく、空白へ声と絵を与えることから始まった。",
+          "note": "not by A, but by B で空白の充填ではなく表現の付与を選ぶ。"
+        }
+      ]
+    }
+  ],
+  "DE-20261118-002": [
+    {
+      "words": {
+        "later": {
+          "ja": "後刻"
+        },
+        "ghost": {
+          "ja": "ゴースト"
+        },
+        "entered": {
+          "ja": "登録された"
+        },
+        "public": {
+          "ja": "公開の"
+        },
+        "database": {
+          "ja": "データベース"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Later that day, “Ghost” was also entered into a public database.",
+          "ja": "その日の後刻、「ゴースト」は公開データベースにも登録された。",
+          "note": "was entered into は公開データベースへの登録を受動態で示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "instruction": {
+          "ja": "指示"
+        },
+        "hide": {
+          "ja": "隠す"
+        },
+        "uncertainty": {
+          "ja": "不確かさ"
+        },
+        "source": {
+          "ja": "出典"
+        },
+        "unverified": {
+          "ja": "未確認の"
+        },
+        "status": {
+          "ja": "状態"
+        },
+        "clearly": {
+          "ja": "明確に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The instruction was not to hide uncertainty: if the source remained unverified, the entry should be published with that status clearly marked.",
+          "ja": "指示は不確かさを隠すことではなく、出典が未確認のままなら、その状態を明記して項目を公開することだった。",
+          "note": "if は出典が未確認のままという条件を示し、with 以下が表示方法を補う。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "publication": {
+          "ja": "公開"
+        },
+        "turn": {
+          "ja": "変える"
+        },
+        "record": {
+          "ja": "記録"
+        },
+        "established": {
+          "ja": "確定した"
+        },
+        "fact": {
+          "ja": "事実"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Publication does not turn the record into established fact.",
+          "ja": "公開は、その記録を確定した事実へ変えない。",
+          "note": "does not turn A into B は公開と事実確定の同一視を否定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "makes": {
+          "ja": "見えるようにする"
+        },
+        "entry": {
+          "ja": "項目"
+        },
+        "gap": {
+          "ja": "空白"
+        },
+        "evidence": {
+          "ja": "根拠"
+        },
+        "visible": {
+          "ja": "見える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It makes both the entry and the gap in its evidence visible.",
+          "ja": "公開は、項目とその根拠にある空白の両方を見えるようにする。",
+          "note": "both A and B は項目と根拠の空白を同時に可視化する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "moves": {
+          "ja": "移る"
+        },
+        "creation": {
+          "ja": "創作"
+        },
+        "archive": {
+          "ja": "記録庫"
+        },
+        "uncertainty": {
+          "ja": "不確かさ"
+        },
+        "travel": {
+          "ja": "一緒に運ばれる"
+        },
+        "door": {
+          "ja": "入口"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When a work moves from creation into an archive, uncertainty should travel with it, not be left at the door.",
+          "ja": "作品が創作から記録庫へ移るとき、不確かさも一緒に運ばれるべきで、入口に置き去りにしてはならない。",
+          "note": "not be left at the door は不確かさを記録の外へ置き去りにしない比喩。"
+        }
+      ]
+    }
+  ],
+  "DE-20261118-003": [
+    {
+      "words": {
+        "starting": {
+          "ja": "始めること"
+        },
+        "inspection": {
+          "ja": "検査"
+        },
+        "tap": {
+          "ja": "一押し"
+        },
+        "phone": {
+          "ja": "スマートフォン"
+        },
+        "route": {
+          "ja": "経路"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Starting an inspection with one tap on a phone sounded like a short route.",
+          "ja": "スマートフォンを一度押して検査を始めることは、短い経路に思えた。",
+          "note": "動名詞句 Starting ... が一押しで検査を始める案全体を主語にする。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "required": {
+          "ja": "必要とした"
+        },
+        "browser": {
+          "ja": "ブラウザ"
+        },
+        "authentication": {
+          "ja": "認証"
+        },
+        "resident": {
+          "ja": "常駐の"
+        },
+        "runner": {
+          "ja": "実行系"
+        },
+        "waiting": {
+          "ja": "待機する"
+        },
+        "computer": {
+          "ja": "パソコン"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet that tap required a browser authentication screen and a resident runner waiting on another computer.",
+          "ja": "しかし、その一押しにはブラウザの認証画面と、別のパソコンで待機する常駐ランナーが必要だった。",
+          "note": "required A and B は認証画面と別PCの常駐実行系を並列する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "visible": {
+          "ja": "見える"
+        },
+        "gesture": {
+          "ja": "操作"
+        },
+        "shorter": {
+          "ja": "短くなった"
+        },
+        "machinery": {
+          "ja": "機械"
+        },
+        "disappear": {
+          "ja": "消える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The visible gesture became shorter, but the machinery behind it did not disappear.",
+          "ja": "見える操作は短くなったが、背後の機械は消えなかった。",
+          "note": "but が表面の短縮と背後の機械の存続を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "automation": {
+          "ja": "自動化"
+        },
+        "move": {
+          "ja": "移す"
+        },
+        "work": {
+          "ja": "仕事"
+        },
+        "user's": {
+          "ja": "利用者の"
+        },
+        "hidden": {
+          "ja": "隠れた"
+        },
+        "machine": {
+          "ja": "機械"
+        },
+        "vanish": {
+          "ja": "消える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Automation can move work from the user's hand to a hidden machine; it cannot make the work vanish.",
+          "ja": "自動化は仕事を利用者の手元から隠れた機械へ移せるが、仕事そのものを消すことはできない。",
+          "note": "can と cannot で自動化が移せる仕事と消せない仕事を区別する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "rejected": {
+          "ja": "退けられた"
+        },
+        "cumbersome": {
+          "ja": "面倒な"
+        },
+        "because": {
+          "ja": "～のため"
+        },
+        "infrastructure": {
+          "ja": "基盤"
+        },
+        "demanded": {
+          "ja": "要求した"
+        },
+        "attention": {
+          "ja": "注意"
+        },
+        "simplify": {
+          "ja": "簡略化する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The route was rejected as cumbersome because the new infrastructure demanded more attention than the check it was meant to simplify.",
+          "ja": "新しい基盤が、簡略化するはずだった検査より多くの注意を要求したため、その経路は面倒だとして退けられた。",
+          "note": "because は却下理由を示し、more ... than が新基盤と検査の負担を比較する。"
+        }
+      ]
+    }
+  ],
+  "DE-20261118-004": [
+    {
+      "words": {
+        "final": {
+          "ja": "最後の"
+        },
+        "decision": {
+          "ja": "決定"
+        },
+        "abandon": {
+          "ja": "放棄する"
+        },
+        "inspection": {
+          "ja": "検査"
+        },
+        "altogether": {
+          "ja": "すべて"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The final decision was not to abandon inspection altogether.",
+          "ja": "最後の決定は、検査をすべて放棄することではなかった。",
+          "note": "not ... altogether は検査を全面放棄したのではないことを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "only": {
+          "ja": "～だけ"
+        },
+        "browser": {
+          "ja": "ブラウザ"
+        },
+        "display": {
+          "ja": "表示"
+        },
+        "check": {
+          "ja": "確認"
+        },
+        "removed": {
+          "ja": "外された"
+        },
+        "reviews": {
+          "ja": "審査"
+        },
+        "sources": {
+          "ja": "出典"
+        },
+        "rights": {
+          "ja": "権利"
+        },
+        "privacy": {
+          "ja": "プライバシー"
+        },
+        "conducted": {
+          "ja": "行われる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Only the browser display check was removed; reviews of data, sources, rights, and privacy would still be conducted in the chat each time.",
+          "ja": "ブラウザによる表示確認だけが外され、データ、出典、権利、プライバシーの審査はその都度チャットで引き続き行われる。",
+          "note": "Only で除外対象を限定し、would still で残る四審査の継続を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "distinction": {
+          "ja": "区別"
+        },
+        "matters": {
+          "ja": "重要である"
+        }
+      },
+      "phrases": [
+        {
+          "en": "This distinction matters.",
+          "ja": "この区別には意味がある。",
+          "note": "短文で、何を外し何を残したかの区別が重要だと転換する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "simplification": {
+          "ja": "簡略化"
+        },
+        "blank": {
+          "ja": "白紙の"
+        },
+        "permission": {
+          "ja": "許可"
+        },
+        "slip": {
+          "ja": "証"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Simplification is not a blank permission slip.",
+          "ja": "簡略化は白紙の許可証ではない。",
+          "note": "not は簡略化を無条件の許可と同一視することを否定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "explicit": {
+          "ja": "明示された"
+        },
+        "statement": {
+          "ja": "表明"
+        },
+        "layer": {
+          "ja": "層"
+        },
+        "omitted": {
+          "ja": "省かれた"
+        },
+        "remain": {
+          "ja": "残る"
+        },
+        "responsibility": {
+          "ja": "責任"
+        },
+        "rests": {
+          "ja": "置かれる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It is an explicit statement of which layer is omitted, which layers remain, and where responsibility now rests.",
+          "ja": "簡略化とは、どの層を省き、どの層を残し、責任を今どこへ置くかを明示することである。",
+          "note": "which / which / where が省略対象・残存対象・責任の場所を分ける。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "shortcut": {
+          "ja": "近道"
+        },
+        "conceal": {
+          "ja": "隠す"
+        },
+        "missing": {
+          "ja": "欠けた"
+        },
+        "step": {
+          "ja": "手順"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A good shortcut does not conceal its missing step.",
+          "ja": "よい近道は、欠けた手順を隠さない。",
+          "note": "does not conceal は欠けた工程を隠さない態度を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "leaves": {
+          "ja": "～のまま残す"
+        },
+        "outline": {
+          "ja": "輪郭"
+        },
+        "visible": {
+          "ja": "見える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It leaves the outline visible.",
+          "ja": "よい近道は、その輪郭を見えるまま残す。",
+          "note": "leave O C で輪郭を見える状態に保つ結末を表す。"
+        }
+      ]
+    }
   ]
 }
