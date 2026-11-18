@@ -122,7 +122,8 @@
     "cards-extra-20261114.json",
     "cards-extra-20261115.json",
     "cards-extra-20261116.json",
-    "cards-extra-20261117.json"
+    "cards-extra-20261117.json",
+    "cards-extra-20261118.json"
   ],
   "cards": [
     {
@@ -1524,6 +1525,13 @@
       "coreVerb": "provide",
       "theme": "Live2D風プレビューで絵素材とモーションデータを分ける",
       "_sourceFile": "cards-extra-20261117.json"
+    },
+    {
+      "_no": 201,
+      "sentence": "An authenticated mobile interface can start a browser inspection without GitHub Actions, but passing an emulated 390-pixel test does not prove that a real Android device works.",
+      "coreVerb": "prove",
+      "theme": "モバイル検査の起動経路と実機検証を区別する",
+      "_sourceFile": "cards-extra-20261118.json"
     }
   ]
 }
