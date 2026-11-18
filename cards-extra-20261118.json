@@ -1,0 +1,240 @@
+[
+  {
+    "_no": 201,
+    "_generatedAt": "2026-11-18T02:00:00+09:00",
+    "sentence": "An authenticated mobile interface can start a browser inspection without GitHub Actions, but passing an emulated 390-pixel test does not prove that a real Android device works.",
+    "phonetic": "アン オーセンティケイティド モウバイル インターフェイス キャン スタート ア ブラウザー インスペクション ウィザウト ギットハブ アクションズ、バット パッシング アン エミュレイティド スリー ナインティ ピクセル テスト ダズ ノット プルーヴ ザット ア リアル アンドロイド ディヴァイス ワークス。",
+    "japaneseTranslation": "認証付きのモバイル画面からGitHub Actionsを使わずにブラウザ検査を開始できますが、幅390ピクセルのエミュレーションテストに合格しても、実際のAndroid端末で動作することの証明にはなりません。",
+    "theme": "モバイル検査の起動経路と実機検証を区別する",
+    "coreVerb": "prove",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "An interface can start an inspection.",
+        "translation": "画面から検査を開始できます。"
+      },
+      "phase2": {
+        "sentence": "An authenticated mobile interface can start a browser inspection.",
+        "translation": "認証付きのモバイル画面からブラウザ検査を開始できます。",
+        "addedChunks": "認証(authenticated)・端末種別(mobile)・検査対象(browser)を追加"
+      },
+      "phase3": {
+        "sentence": "An interface can start the inspection without GitHub Actions.",
+        "translation": "その画面からGitHub Actionsを使わずに検査を開始できます。",
+        "connector": "without"
+      },
+      "phase4": {
+        "sentence": "A real-device test provides stronger evidence than an emulated viewport.",
+        "translation": "実機テストは、エミュレーションされた表示領域より強い証拠になります。",
+        "comparison": "stronger evidence than"
+      },
+      "phase5": {
+        "sentence": "An authenticated mobile interface can start a browser inspection without GitHub Actions, but passing an emulated 390-pixel test does not prove that a real Android device works",
+        "translation": "認証付きのモバイル画面からGitHub Actionsを使わずにブラウザ検査を開始できますが、幅390ピクセルのエミュレーションテストに合格しても、実際のAndroid端末で動作することの証明にはなりません。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "An authenticated mobile interface",
+          "function": "対象",
+          "translation": "認証付きのモバイル画面からは"
+        },
+        {
+          "text": "can start a browser inspection",
+          "function": "行動",
+          "translation": "ブラウザ検査を開始できます"
+        },
+        {
+          "text": "without GitHub Actions,",
+          "function": "様態",
+          "translation": "GitHub Actionsを使わずに"
+        },
+        {
+          "text": "but passing an emulated 390-pixel test",
+          "function": "接続",
+          "translation": "しかし、幅390ピクセルのエミュレーションテストに合格しても"
+        },
+        {
+          "text": "does not prove that a real Android device works.",
+          "function": "結果",
+          "translation": "実際のAndroid端末で動作することの証明にはなりません"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "冠詞",
+          "name": "不定冠詞an",
+          "where": "An authenticated mobile interface",
+          "explanation": "母音で始まる発音のauthenticatedの前でanを使う。",
+          "rule": "an + 母音で始まる発音の形容詞 + 単数名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can + 動詞原形",
+          "where": "can start",
+          "explanation": "可能であることを助動詞canと動詞原形startで表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "前置詞",
+          "name": "without + 名詞",
+          "where": "without GitHub Actions",
+          "explanation": "GitHub Actionsを利用しない方法であることを示す。",
+          "rule": "without + 名詞句"
+        },
+        {
+          "category": "接続",
+          "name": "butによる対照",
+          "where": "but passing ... does not prove",
+          "explanation": "検査を開始できる事実と、実機動作を証明できない限界を対照させる。",
+          "rule": "節, but + 節"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞句の主語",
+          "where": "passing an emulated 390-pixel test",
+          "explanation": "テストに合格すること全体を単数の主語として扱う。",
+          "rule": "動名詞句 + 三人称単数動詞"
+        },
+        {
+          "category": "否定",
+          "name": "does not + 動詞原形",
+          "where": "does not prove",
+          "explanation": "単数主語に合わせたdoes notの後に動詞原形proveを置く。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "名詞節",
+          "name": "that節",
+          "where": "that a real Android device works",
+          "explanation": "何を証明しないのかをthat節で示す。",
+          "rule": "prove + that + 完全文"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "An authenticated mobile interface can starts a browser inspection.",
+          "correct": "An authenticated mobile interface can start a browser inspection.",
+          "why": "助動詞canの後には動詞原形startを置く。"
+        },
+        {
+          "wrong": "without use GitHub Actions",
+          "correct": "without using GitHub Actions",
+          "why": "前置詞withoutの後で動作を表す場合は動名詞usingを使う。"
+        },
+        {
+          "wrong": "Passing an emulated 390-pixel test do not prove it.",
+          "correct": "Passing an emulated 390-pixel test does not prove it.",
+          "why": "動名詞句を単数主語として扱い、doesを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A mobile dashboard can launch the check, but an emulator cannot replace testing on the actual phone.",
+          "translation": "モバイル用ダッシュボードから検査を起動できますが、エミュレーターは実際のスマートフォンでのテストの代わりにはなりません。"
+        },
+        {
+          "text": "Passing a narrow-viewport test confirms the layout only in that simulated environment.",
+          "translation": "狭い表示領域のテストに合格して確認できるのは、そのシミュレーション環境でのレイアウトだけです。"
+        },
+        {
+          "text": "Keep remote launch capability separate from evidence of real-device compatibility.",
+          "translation": "遠隔起動の機能と実機互換性の証拠は分けて考えてください。"
+        }
+      ],
+      "parseTree": "[S An authenticated mobile interface [VP can start [NP a browser inspection] [PP without GitHub Actions]]], but [S [Gerund phrase passing an emulated 390-pixel test] [VP does not prove [CP that a real Android device works]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "can start a browser inspection without GitHub Actions",
+          "expanded": "because an authenticated HTTPS interface provides a separate launch path",
+          "nuance": "GitHub Actions以外の起動経路が成立する理由を補う。"
+        },
+        {
+          "original": "passing an emulated 390-pixel test does not prove real-device operation",
+          "expanded": "because viewport emulation does not reproduce every browser, input, and device condition",
+          "nuance": "エミュレーションだけでは実機を証明できない理由を示す。"
+        },
+        {
+          "original": "a real Android device works",
+          "expanded": "therefore, final compatibility claims require a check on an actual Android device",
+          "nuance": "証明に必要な次の検証工程を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A browser inspection can be started from an authenticated mobile interface, but real-device operation is not proved by an emulated test.",
+          "translation": "ブラウザ検査は認証付きモバイル画面から開始できますが、実機動作はエミュレーションテストでは証明されません。",
+          "note": "起動と証明の対象を主語にして受動態で表す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Having passed an emulated 390-pixel test, the interface still requires verification on a real Android device.",
+          "translation": "幅390ピクセルのエミュレーションテストに合格していても、その画面には実際のAndroid端末での検証がなお必要です。",
+          "note": "先に完了したテストを完了形の分詞構文で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Remote inspection launch does not constitute proof of real-device compatibility.",
+          "translation": "遠隔から検査を起動できることは、実機互換性の証明にはなりません。",
+          "note": "startとworkの内容をlaunchとcompatibilityという名詞で圧縮する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "prove",
+            "alternatives": [
+              "demonstrate",
+              "establish",
+              "confirm"
+            ],
+            "nuance": "proveは証明する、demonstrateは実例で示す、establishは根拠を積み上げて確立する、confirmは確認する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "能力と限界の対照",
+            "sentence": "A can perform X, but Y does not prove Z.",
+            "translation": "AはXを実行できますが、YはZの証明にはなりません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Testing on a real Android device gives stronger compatibility evidence than viewport emulation alone.",
+            "translation": "実際のAndroid端末でのテストは、表示領域のエミュレーションだけより強い互換性の証拠になります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the interface is tested only in an emulator, real-device compatibility remains unverified.",
+            "translation": "その画面をエミュレーターだけでテストした場合、実機互換性は未検証のままです。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the emulated test proves is limited to the simulated environment.",
+            "translation": "エミュレーションテストで証明できるのは、シミュレーション環境に限られます。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Remote launch works; real-device compatibility remains unproven.",
+            "translation": "遠隔起動はできますが、実機互換性は未証明です。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "canとbutで起動可能性と検証限界を分けた。情報量はやや多いが、27語に収め、実機未検証という但し書きを明確に保った。"
+    }
+  }
+]
