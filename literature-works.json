@@ -473,5 +473,12 @@
     "description": "一枚絵のレイヤー分解、仕事の動作分解、旅と作品の商品化、媒体と認知の切り分けを通して、分解が効率化ではなく主体と責任を確かめる技法になる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261117/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261118",
+    "title": "省いた検査にも輪郭がある",
+    "description": "「青春の亡霊」の創作、出典未確認を明記した登録、スマートフォン検査の裏側に増えた常駐機、ブラウザ確認だけを外す判断を通して、省略する層と残す責任を明記する必要を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261118/manifest.json",
+    "mode": "essay-translation"
   }
 ]
