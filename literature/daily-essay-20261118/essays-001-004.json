@@ -1,0 +1,138 @@
+[
+  {
+    "id": "DE-20261118-001",
+    "sourceTitle": "『省いた検査にも輪郭がある』",
+    "workId": "daily-essay-20261118",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "亡霊に声と絵を渡す",
+    "jp": "「青春の亡霊は十七歳のルーズソックスと共に逝った」という一行から、歌詞と曲調とジャケットが作られていった。その一行は、過ぎた青春を取り戻したのではない。すでに失われたものへ輪郭を与えたのである。創作の中の亡霊は、失った時間が戻ったふりをせずに姿を現せる。空白を埋めるのではなく、空白へ声と絵を渡すところから制作は始まった。",
+    "translationLiteral": "From the line, “The ghost of youth died together with the loose socks of a seventeen-year-old,” lyrics, a musical style, and cover art were created. That line did not recover a youth that had passed. It gave an outline to something already lost. A ghost in a creative work can appear without pretending that lost time has returned. The production began not by filling the blank, but by giving the blank a voice and an image.",
+    "translationNatural": "One line—“The ghost of youth died with the loose socks worn at seventeen”—became the starting point for lyrics, a musical style, and cover art. The sentence did not recover a vanished youth; it gave shape to what was already gone. A ghost can appear in art without pretending that lost time has returned. Creation began not by filling the absence, but by giving it a voice and an image.",
+    "imageUrl": "",
+    "imageCaption": "十七歳のルーズソックスの影から、歌詞と音とジャケットが立ち上がる。",
+    "imagePrompt": "Editorial illustration of loose socks worn at seventeen fading into a ghostly silhouette, from which lyrics, music, and album cover art emerge, dusk classroom atmosphere, no readable text",
+    "chunks": [
+      {"en": "One line—“The ghost of youth died with the loose socks worn at seventeen”—became the starting point for lyrics, a musical style, and cover art.", "ja": "「青春の亡霊は十七歳で履いたルーズソックスと共に逝った」という一行が、歌詞、曲調、ジャケットの出発点になった。"},
+      {"en": "The sentence did not recover a vanished youth; it gave shape to what was already gone.", "ja": "その一行は消えた青春を取り戻さず、すでに去ったものへ形を与えた。"},
+      {"en": "A ghost can appear in art without pretending that lost time has returned.", "ja": "亡霊は、失った時間が戻ったふりをせずに、芸術の中へ姿を現せる。"},
+      {"en": "Creation began not by filling the absence, but by giving it a voice and an image.", "ja": "創作は空白を埋めることではなく、空白へ声と絵を与えることから始まった。"}
+    ],
+    "grammar": [
+      "One line ... became ... は、一行から複数の制作物へ展開した起点を示す。",
+      "worn at seventeen は過去分詞句で loose socks を修飾し、靴下の年齢ではなく着用時の年齢を表す。",
+      "did not A; it B は、回復を否定して造形という実際の働きを示す。",
+      "what was already gone は、すでに失われていた対象を名詞節で受ける。",
+      "without pretending that ... は、回帰したという虚構を伴わない出現を表す。",
+      "not by A, but by B は、制作の始まり方を空白の充填から表現の付与へ転換する。"
+    ],
+    "translationNote": "「十七歳のルーズソックス」は靴下が十七年前の物という意味にならないよう、naturalではthe loose socks worn at seventeenとした。「輪郭を与える」はgive shape、「空白」はabsenceとして、失われた時間を回復したという意味を追加していない。",
+    "readingPoint": "導入。失われたものを復元するのではなく、欠如を欠如のまま表現へ変える創作の起点を置く。",
+    "keywords": ["青春", "亡霊", "ルーズソックス", "歌詞", "ジャケット", "空白"]
+  },
+  {
+    "id": "DE-20261118-002",
+    "sourceTitle": "『省いた検査にも輪郭がある』",
+    "workId": "daily-essay-20261118",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "不確かさも一緒に登録する",
+    "jp": "同じ日、「ゴースト」は公開データベースへも登録された。そのとき求められたのは、不確かさを隠すことではなく、出典が未確認なら未確認と明記したまま公開することだった。公開は、その記録を確定した事実へ変えない。項目と、その根拠に残る空白を同時に見えるようにする。作品が創作の場から記録の場へ移るなら、不確かさも入口に置き去りにせず、一緒に運ばなければならない。",
+    "translationLiteral": "On the same day, “Ghost” was also registered in a public database. What was requested then was not to hide uncertainty, but to publish it while clearly marking the source as unverified if it had not been confirmed. Publication does not turn the record into an established fact. It makes both the entry and the blank remaining in its evidence visible. If a work moves from a place of creation to a place of record, uncertainty must also be carried with it rather than left behind at the entrance.",
+    "translationNatural": "Later that day, “Ghost” was also entered into a public database. The instruction was not to hide uncertainty: if the source remained unverified, the entry should be published with that status clearly marked. Publication does not turn the record into established fact. It makes both the entry and the gap in its evidence visible. When a work moves from creation into an archive, uncertainty should travel with it, not be left at the door.",
+    "imageUrl": "",
+    "imageCaption": "公開データの項目と、その横に残された「出典未確認」の空白。",
+    "imagePrompt": "Editorial illustration of a creative work titled Ghost entering a public archive with its source status visibly marked as unverified, uncertainty traveling beside it, no readable text",
+    "chunks": [
+      {"en": "Later that day, “Ghost” was also entered into a public database.", "ja": "その日の後刻、「ゴースト」は公開データベースにも登録された。"},
+      {"en": "The instruction was not to hide uncertainty: if the source remained unverified, the entry should be published with that status clearly marked.", "ja": "指示は不確かさを隠すことではなく、出典が未確認のままなら、その状態を明記して項目を公開することだった。"},
+      {"en": "Publication does not turn the record into established fact.", "ja": "公開は、その記録を確定した事実へ変えない。"},
+      {"en": "It makes both the entry and the gap in its evidence visible.", "ja": "公開は、項目とその根拠にある空白の両方を見えるようにする。"},
+      {"en": "When a work moves from creation into an archive, uncertainty should travel with it, not be left at the door.", "ja": "作品が創作から記録庫へ移るとき、不確かさも一緒に運ばれるべきで、入口に置き去りにしてはならない。"}
+    ],
+    "grammar": [
+      "was entered into ... は、作品がデータベースへ登録されたことを受動態で示す。",
+      "not to hide ... は、指示されなかった行為を明確に否定する。",
+      "if the source remained unverified は、出典未確認という条件を示す。",
+      "with that status clearly marked は、未確認状態を表示したままという付帯状況を表す。",
+      "does not turn A into B は、公開と事実確定の同一視を否定する。",
+      "both A and B は、項目と根拠の空白を同時に可視化する。",
+      "not be left at the door は、不確かさを記録の外へ切り捨てない比喩を保つ。"
+    ],
+    "translationNote": "sourceは出典、statusはその確認状態であり、作品の作者や所有者へ置き換えていない。naturalでもdoes not / makesを用いて日本語本文の現在形を保ち、出典未確認でも公開したという条件と、事実確定ではないという但し書きを両方残した。",
+    "readingPoint": "展開。創作物を記録へ移すとき、確証の不足もデータの一部として表示する必要を示す。",
+    "keywords": ["ゴースト", "公開データベース", "出典", "未確認", "記録", "不確かさ"]
+  },
+  {
+    "id": "DE-20261118-003",
+    "sourceTitle": "『省いた検査にも輪郭がある』",
+    "workId": "daily-essay-20261118",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "一押しの裏に別の機械がいる",
+    "jp": "スマートフォンから一度押すだけで検査を始める案は、短い経路に見えた。ところが、その一押しの裏には、認証画面を開くブラウザと、別のパソコンで待ち続ける常駐ランナーが必要になった。見える操作は短くなっても、背後の機械は消えていない。自動化は仕事を手元から隠れた機械へ移せるが、仕事そのものを消せない。新しい仕組みが検査より多くの注意を要求したため、その経路は面倒だとして退けられた。",
+    "translationLiteral": "The proposal to start an inspection with a single press from a smartphone looked like a short route. However, behind that single press, a browser opening an authentication screen and a resident runner waiting continuously on another computer became necessary. Even if the visible operation became shorter, the machinery behind it did not disappear. Automation can move work from one's hand to a hidden machine, but it cannot erase the work itself. Because the new mechanism demanded more attention than the inspection, that route was rejected as troublesome.",
+    "translationNatural": "Starting an inspection with one tap on a phone sounded like a short route. Yet that tap required a browser authentication screen and a resident runner waiting on another computer. The visible gesture became shorter, but the machinery behind it did not disappear. Automation can move work from the user's hand to a hidden machine; it cannot make the work vanish. The route was rejected as cumbersome because the new infrastructure demanded more attention than the check it was meant to simplify.",
+    "imageUrl": "",
+    "imageCaption": "スマートフォンの一押しから、認証画面と別PCの常駐ランナーへ伸びる長い裏側。",
+    "imagePrompt": "Editorial illustration of one tap on a smartphone connected behind the scenes to an authenticated browser and a resident runner on another computer, hidden infrastructure revealed, no readable text",
+    "chunks": [
+      {"en": "Starting an inspection with one tap on a phone sounded like a short route.", "ja": "スマートフォンを一度押して検査を始めることは、短い経路に思えた。"},
+      {"en": "Yet that tap required a browser authentication screen and a resident runner waiting on another computer.", "ja": "しかし、その一押しにはブラウザの認証画面と、別のパソコンで待機する常駐ランナーが必要だった。"},
+      {"en": "The visible gesture became shorter, but the machinery behind it did not disappear.", "ja": "見える操作は短くなったが、背後の機械は消えなかった。"},
+      {"en": "Automation can move work from the user's hand to a hidden machine; it cannot make the work vanish.", "ja": "自動化は仕事を利用者の手元から隠れた機械へ移せるが、仕事そのものを消すことはできない。"},
+      {"en": "The route was rejected as cumbersome because the new infrastructure demanded more attention than the check it was meant to simplify.", "ja": "新しい基盤が、簡略化するはずだった検査より多くの注意を要求したため、その経路は面倒だとして退けられた。"}
+    ],
+    "grammar": [
+      "Starting ... は動名詞句を主語にし、一押しで始める案全体を示す。",
+      "sounded like ... は実態ではなく、当初そう思えたことを表す。",
+      "required A and B は、一押しの裏に必要な二つの構成要素を並列する。",
+      "became shorter, but ... did not disappear は、画面上の短縮と背後工程の存続を対比する。",
+      "can A; cannot B は、自動化が移せるものと消せないものを区別する。",
+      "because は経路を退けた理由を示す。",
+      "it was meant to simplify は check を修飾し、新基盤の目的と実際の負担を対比する。"
+    ],
+    "translationNote": "resident runnerは別PCで待機し続ける常駐実行系を指す。browser authentication screenは利用者が開く認証画面であり、認証済みだった、または通常ChatGPTから直接起動できたという意味を加えていない。rejected as cumbersomeは利便性の不足を理由に案を却下した判断を保持する。",
+    "readingPoint": "転換。表面の一押しを短くするために、見えない場所へ新たな常駐作業が増える逆転を描く。",
+    "keywords": ["スマートフォン", "ブラウザ", "認証", "常駐ランナー", "自動化", "注意"]
+  },
+  {
+    "id": "DE-20261118-004",
+    "sourceTitle": "『省いた検査にも輪郭がある』",
+    "workId": "daily-essay-20261118",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "外した層を言葉で残す",
+    "jp": "最後に決めたのは、検査を全部捨てることではなかった。外したのはブラウザによる表示確認だけであり、データ、出典、権利、プライバシーの審査は、その都度チャットで続ける。この区別は小さくない。簡略化は白紙の許可ではなく、どの層を省き、どの層を残し、責任をどこへ置くかを明記することである。よい近道は、欠けた手順を隠さない。その輪郭を見えるまま残す。",
+    "translationLiteral": "The final decision was not to discard every inspection. Only the browser-based display check was removed, while reviews of data, sources, rights, and privacy would continue in the chat each time. This distinction is not small. Simplification is not blank permission; it is the act of stating which layer is omitted, which layers remain, and where responsibility is placed. A good shortcut does not hide the missing step. It leaves its outline visible.",
+    "translationNatural": "The final decision was not to abandon inspection altogether. Only the browser display check was removed; reviews of data, sources, rights, and privacy would still be conducted in the chat each time. This distinction matters. Simplification is not a blank permission slip. It is an explicit statement of which layer is omitted, which layers remain, and where responsibility now rests. A good shortcut does not conceal its missing step. It leaves the outline visible.",
+    "imageUrl": "",
+    "imageCaption": "外されたブラウザ検査の輪郭と、残された四つの審査層。",
+    "imagePrompt": "Editorial illustration of a browser display check removed from a layered review process while data, sources, rights, and privacy checks remain clearly visible, no readable text",
+    "chunks": [
+      {"en": "The final decision was not to abandon inspection altogether.", "ja": "最後の決定は、検査をすべて放棄することではなかった。"},
+      {"en": "Only the browser display check was removed; reviews of data, sources, rights, and privacy would still be conducted in the chat each time.", "ja": "ブラウザによる表示確認だけが外され、データ、出典、権利、プライバシーの審査はその都度チャットで引き続き行われる。"},
+      {"en": "This distinction matters.", "ja": "この区別には意味がある。"},
+      {"en": "Simplification is not a blank permission slip.", "ja": "簡略化は白紙の許可証ではない。"},
+      {"en": "It is an explicit statement of which layer is omitted, which layers remain, and where responsibility now rests.", "ja": "簡略化とは、どの層を省き、どの層を残し、責任を今どこへ置くかを明示することである。"},
+      {"en": "A good shortcut does not conceal its missing step.", "ja": "よい近道は、欠けた手順を隠さない。"},
+      {"en": "It leaves the outline visible.", "ja": "よい近道は、その輪郭を見えるまま残す。"}
+    ],
+    "grammar": [
+      "not to abandon ... altogether は、全検査の放棄ではないことを強調する。",
+      "Only ... was removed は、外した対象をブラウザ表示確認だけに限定する。",
+      "would still be conducted は、残る審査を受動態で示し、継続をstillで明示する。",
+      "not a blank permission slip は、簡略化を無条件の許可と同一視することを否定する。",
+      "which / which / where は、省略対象・残存対象・責任の場所を別々に示す。",
+      "does not conceal は、欠けた工程を隠す行為を否定する。",
+      "leaves O C は、輪郭をvisibleな状態に保つことを表す。"
+    ],
+    "translationNote": "Onlyを用いて、除外対象がbrowser display checkだけであることを限定した。would still be conductedは、データ・出典・権利・プライバシーの四審査が毎回続くことを省略していない。permission slipは無条件の許可という比喩で、outlineは省いた手順の存在を示す。",
+    "readingPoint": "余韻。近道の価値を工程の消去ではなく、省いた層と残した責任を可視化する態度に置く。",
+    "keywords": ["ブラウザ検査", "データ", "出典", "権利", "プライバシー", "責任", "近道"]
+  }
+]
