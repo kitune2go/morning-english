@@ -123,7 +123,8 @@
     "cards-extra-20261115.json",
     "cards-extra-20261116.json",
     "cards-extra-20261117.json",
-    "cards-extra-20261118.json"
+    "cards-extra-20261118.json",
+    "cards-extra-20261119.json"
   ],
   "cards": [
     {
@@ -1532,6 +1533,20 @@
       "coreVerb": "prove",
       "theme": "モバイル検査の起動経路と実機検証を区別する",
       "_sourceFile": "cards-extra-20261118.json"
+    },
+    {
+      "_no": 202,
+      "sentence": "A three-view drawing constrains proportions from several directions, while additional 45-degree and top views expose hidden shapes that a front view alone leaves open to interpretation.",
+      "coreVerb": "constrain",
+      "theme": "複数画角で3D造形の解釈幅を減らす",
+      "_sourceFile": "cards-extra-20261119.json"
+    },
+    {
+      "_no": 203,
+      "sentence": "When a public timeline grows large, loading every record at startup can slow the page; pagination, era-based requests, and caching can reduce the initial data transfer.",
+      "coreVerb": "reduce",
+      "theme": "大きな年表データを段階的に読み込む",
+      "_sourceFile": "cards-extra-20261119.json"
     }
   ]
 }
