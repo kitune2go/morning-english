@@ -10294,5 +10294,596 @@
         }
       ]
     }
+  ],
+  "DE-20261119-001": [
+    {
+      "words": {
+        "urgent": {
+          "ja": "特急の"
+        },
+        "one-off": {
+          "ja": "単品の"
+        },
+        "job": {
+          "ja": "仕事"
+        },
+        "piece": {
+          "ja": "品物一つ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "An urgent one-off job can look small simply because there is only one piece.",
+          "ja": "特急の単品仕事は、品物が一つしかないというだけで小さく見えることがある。",
+          "note": "only one piece は数量だけで仕事を小さく見積もる視点を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "stainless-steel": {
+          "ja": "ステンレス鋼の"
+        },
+        "pipe": {
+          "ja": "管"
+        },
+        "threads": {
+          "ja": "ねじ（複数）"
+        },
+        "taper": {
+          "ja": "テーパー"
+        },
+        "fixture": {
+          "ja": "治具"
+        },
+        "taper-thread": {
+          "ja": "テーパーねじの"
+        },
+        "gauge": {
+          "ja": "ゲージ"
+        },
+        "criterion": {
+          "ja": "基準"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet the short stainless-steel pipe needed pipe threads at both ends and a taper on one side, while no material, fixture, taper-thread gauge, or inspection criterion was ready.",
+          "ja": "しかし、その短いステンレス管には両端の管用ねじと片側のテーパーが必要なのに、材料、治具、テーパーねじゲージ、検査基準は何も用意されていなかった。",
+          "note": "while が加工要求と、材料・治具・ゲージ・検査基準の準備不足を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "cutting": {
+          "ja": "加工"
+        },
+        "grip": {
+          "ja": "つかむ"
+        },
+        "part": {
+          "ja": "品物"
+        },
+        "serve": {
+          "ja": "～として働く"
+        },
+        "square": {
+          "ja": "直角の"
+        },
+        "reference": {
+          "ja": "基準"
+        },
+        "judged": {
+          "ja": "判定される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Before cutting could begin, someone had to decide where to grip the part, what would serve as the square reference, and how the result would be judged.",
+          "ja": "加工を始める前に、どこをつかみ、何を直角の基準とし、仕上がりをどう判定するかを誰かが決めなければならなかった。",
+          "note": "where / what / how が加工前に決める三種類の判断を分ける。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "deadline": {
+          "ja": "納期"
+        },
+        "shorten": {
+          "ja": "短くする"
+        },
+        "unanswered": {
+          "ja": "未回答の"
+        },
+        "merely": {
+          "ja": "ただ～だけ"
+        },
+        "operator's": {
+          "ja": "作業者の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A short deadline does not shorten those unanswered questions; it merely moves them into the operator's head.",
+          "ja": "短い納期は未回答の問題まで短くせず、ただ作業者の頭の中へ移すだけである。",
+          "note": "does not A; it merely B は未決定の解消でなく作業者への移動を示す。"
+        }
+      ]
+    }
+  ],
+  "DE-20261119-002": [
+    {
+      "words": {
+        "proposed": {
+          "ja": "提案された"
+        },
+        "sequence": {
+          "ja": "順序"
+        },
+        "tapered": {
+          "ja": "テーパーの"
+        },
+        "reverse": {
+          "ja": "反転する"
+        },
+        "seat": {
+          "ja": "密着させる"
+        },
+        "squared": {
+          "ja": "直角を出した"
+        },
+        "firmly": {
+          "ja": "しっかりと"
+        },
+        "chuck": {
+          "ja": "チャック"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The proposed sequence was to cut the tapered side first, then reverse the part and seat the squared end face firmly against the chuck.",
+          "ja": "提案された順序は、まずテーパー側を削り、次に品物を反転して、直角を出した端面をチャックへしっかり密着させることだった。",
+          "note": "seat A against B は端面をチャックへ密着させる段取りを表す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "operation": {
+          "ja": "工程"
+        },
+        "shape": {
+          "ja": "形"
+        },
+        "reference": {
+          "ja": "基準"
+        },
+        "second": {
+          "ja": "二回目の"
+        },
+        "setup": {
+          "ja": "段取り"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The first operation would create not only a shape but also a reference for the second setup.",
+          "ja": "最初の工程は形だけでなく、二回目の段取りで使う基準も作ることになる。",
+          "note": "not only A but also B は形状と次工程の基準を並列する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "gripped": {
+          "ja": "把握された"
+        },
+        "rear": {
+          "ja": "後方の"
+        },
+        "straight": {
+          "ja": "直線の"
+        },
+        "restrain": {
+          "ja": "拘束する"
+        },
+        "tilt": {
+          "ja": "傾き"
+        },
+        "degree": {
+          "ja": "程度"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Even if the tapered section itself could not be gripped, the end face and the rear straight section might help restrain tilt to some degree.",
+          "ja": "テーパー部そのものを把握できなくても、端面と後方の直線部が傾きをある程度拘束するのに役立つかもしれない。",
+          "note": "Even if と might が、把握不能の条件と傾き拘束の不確実さを保つ。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "holding": {
+          "ja": "保持"
+        },
+        "inspection": {
+          "ja": "検査"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Still, holding is not inspection.",
+          "ja": "それでも、保持は検査ではない。",
+          "note": "holding is not inspection は安定保持と品質判定を切り分ける。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "gauge": {
+          "ja": "ゲージ"
+        },
+        "stated": {
+          "ja": "明示された"
+        },
+        "standard": {
+          "ja": "規格"
+        },
+        "stable": {
+          "ja": "安定した"
+        },
+        "setup": {
+          "ja": "段取り"
+        },
+        "prove": {
+          "ja": "証明する"
+        },
+        "thread": {
+          "ja": "ねじ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Without a gauge or a stated standard, a stable setup cannot prove that the thread is correct.",
+          "ja": "ゲージまたは明示された規格がなければ、安定した段取りでもねじが正しいことを証明できない。",
+          "note": "Without 以下が、正しさを証明できない条件を明示する。"
+        }
+      ]
+    }
+  ],
+  "DE-20261119-003": [
+    {
+      "words": {
+        "historical": {
+          "ja": "歴史の"
+        },
+        "failed": {
+          "ja": "できなかった"
+        },
+        "appear": {
+          "ja": "表示される"
+        },
+        "public": {
+          "ja": "公開の"
+        },
+        "page": {
+          "ja": "ページ"
+        },
+        "retried": {
+          "ja": "再試行された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The historical data still failed to appear when the public page was retried.",
+          "ja": "公開ページを再試行しても、歴史データはなお表示されなかった。",
+          "note": "still failed to appear は再試行後も表示できなかったことを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "json": {
+          "ja": "JSON"
+        },
+        "existed": {
+          "ja": "存在した"
+        },
+        "content": {
+          "ja": "内容"
+        },
+        "hash": {
+          "ja": "ハッシュ"
+        },
+        "matched": {
+          "ja": "一致した"
+        },
+        "element": {
+          "ja": "要素"
+        },
+        "roughly": {
+          "ja": "約"
+        },
+        "megabytes": {
+          "ja": "メガバイト"
+        },
+        "five-second": {
+          "ja": "五秒の"
+        },
+        "timeout": {
+          "ja": "タイムアウト"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The JSON existed, and its content hash matched; the missing element was enough time to receive roughly 1.5 megabytes before a five-second timeout.",
+          "ja": "JSONは存在し内容のハッシュも一致していたが、欠けていたのは五秒のタイムアウトまでに約一・五メガバイトを受け取るための十分な時間だった。",
+          "note": "セミコロンの前後でデータ存在の確認と、受信時間不足の特定を分ける。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "extending": {
+          "ja": "延ばすこと"
+        },
+        "wait": {
+          "ja": "待ち時間"
+        },
+        "thirty": {
+          "ja": "三十"
+        },
+        "seconds": {
+          "ja": "秒"
+        },
+        "remove": {
+          "ja": "取り除く"
+        },
+        "growing": {
+          "ja": "増していく"
+        },
+        "weight": {
+          "ja": "重さ"
+        },
+        "load": {
+          "ja": "読み込み負荷"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Extending the wait to thirty seconds made the page open, but it did not remove the growing weight of the load.",
+          "ja": "待ち時間を三十秒へ延ばすとページは開いたが、増していく読み込みの重さは消えなかった。",
+          "note": "made A B と did not remove が暫定修正の効果と残る負荷を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "exists": {
+          "ja": "存在する"
+        },
+        "necessarily": {
+          "ja": "必ずしも"
+        },
+        "reaches": {
+          "ja": "届く"
+        },
+        "reader": {
+          "ja": "読者"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Data that exists is not necessarily data that reaches a reader.",
+          "ja": "存在するデータが、必ずしも読者へ届くデータとは限らない。",
+          "note": "not necessarily は存在すれば必ず届くという推論を部分否定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "reliable": {
+          "ja": "信頼できる"
+        },
+        "publication": {
+          "ja": "公開"
+        },
+        "depends": {
+          "ja": "左右される"
+        },
+        "size": {
+          "ja": "大きさ"
+        },
+        "order": {
+          "ja": "順序"
+        },
+        "arrives": {
+          "ja": "届く"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Reliable publication depends not only on content, but also on the size and order in which that content arrives.",
+          "ja": "信頼できる公開は内容だけでなく、その内容が届く大きさと順序にも左右される。",
+          "note": "not only A, but also B が公開の条件を内容から配送方法へ広げる。"
+        }
+      ]
+    }
+  ],
+  "DE-20261119-004": [
+    {
+      "words": {
+        "later": {
+          "ja": "後刻"
+        },
+        "girl": {
+          "ja": "少女"
+        },
+        "modeled": {
+          "ja": "モデル化された"
+        },
+        "illustration": {
+          "ja": "絵"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Later that day, a girl was modeled in 3D from a single illustration.",
+          "ja": "その日の後刻、一枚の絵から少女が三次元モデル化された。",
+          "note": "was modeled in 3D は一枚絵から三次元モデルが作られたことを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "frontal": {
+          "ja": "正面の"
+        },
+        "define": {
+          "ja": "定める"
+        },
+        "outline": {
+          "ja": "輪郭"
+        },
+        "rear": {
+          "ja": "背面"
+        },
+        "crown": {
+          "ja": "頭頂"
+        },
+        "overlapping": {
+          "ja": "重なる"
+        },
+        "interpreted": {
+          "ja": "解釈された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A frontal image could define the visible outline, but the rear, the crown, and overlapping parts still had to be interpreted.",
+          "ja": "正面画像は見える輪郭を定められたが、背面、頭頂、重なるパーツはなお解釈しなければならなかった。",
+          "note": "could define A, but B had to be interpreted は見える面と補う面を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "diagonal": {
+          "ja": "斜めの"
+        },
+        "views": {
+          "ja": "画角"
+        },
+        "narrow": {
+          "ja": "狭める"
+        },
+        "uncertainty": {
+          "ja": "不確かさ"
+        },
+        "full": {
+          "ja": "一周の"
+        },
+        "turn": {
+          "ja": "回転"
+        },
+        "exposed": {
+          "ja": "明らかにした"
+        },
+        "forms": {
+          "ja": "形"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Diagonal and top views were added to narrow that uncertainty, and a full turn of the camera exposed forms that still felt wrong.",
+          "ja": "その不確かさを狭めるために斜めと上からの画角が加えられ、カメラを一周させると、なお違和感のある形が明らかになった。",
+          "note": "追加画角の目的と、一周確認で残る違和感が見えた結果を並べる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "views": {
+          "ja": "画角"
+        },
+        "complete": {
+          "ja": "完成させる"
+        },
+        "themselves": {
+          "ja": "それ自体で"
+        },
+        "guesses": {
+          "ja": "推測"
+        },
+        "correction": {
+          "ja": "修正"
+        }
+      },
+      "phrases": [
+        {
+          "en": "More views do not complete a model by themselves; they make its guesses open to correction.",
+          "ja": "画角を増やすだけでモデルが完成するのではなく、画角はモデルの推測を修正可能にする。",
+          "note": "do not A by themselves; they B は完成ではなく修正可能性を役割とする。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "whether": {
+          "ja": "～であっても"
+        },
+        "pipe": {
+          "ja": "管"
+        },
+        "webpage": {
+          "ja": "ウェブページ"
+        },
+        "model": {
+          "ja": "モデル"
+        },
+        "unseen": {
+          "ja": "見えない"
+        },
+        "side": {
+          "ja": "面"
+        },
+        "disappear": {
+          "ja": "消える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Whether in a pipe, a webpage, or a model, an unseen side does not disappear.",
+          "ja": "管でもウェブページでもモデルでも、見えない面は消えない。",
+          "note": "Whether in A, B, or C は三領域へ同じ結論を適用する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "returns": {
+          "ja": "戻ってくる"
+        },
+        "setup": {
+          "ja": "段取り"
+        },
+        "loading": {
+          "ja": "読み込み"
+        },
+        "revision": {
+          "ja": "修正"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It returns later as setup work, loading time, or revision.",
+          "ja": "見えない面は、段取り、読み込み時間、修正という姿であとから戻ってくる。",
+          "note": "returns as ... は見えない面が別の負担として戻る比喩。"
+        }
+      ]
+    }
   ]
 }
