@@ -1,0 +1,136 @@
+[
+  {
+    "id": "DE-20261119-001",
+    "sourceTitle": "『見えない面はあとから戻ってくる』",
+    "workId": "daily-essay-20261119",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "一本の中に未決定が詰まる",
+    "jp": "特急の単品は、数が一つだから仕事も小さく見える。だが、両端に管用ねじを持ち、片側をテーパーにする短いステンレス管には、材料も治具もテーパーねじゲージも検査基準も用意されていなかった。削り始める前に、どこをつかみ、何を直角の基準とし、仕上がりをどう判定するかを誰かが決めなければならない。短い納期は、その未決定まで短くしない。ただ作業者の頭の中へ押し込むだけである。",
+    "translationLiteral": "An urgent single-item job looks small because its quantity is one. However, for a short stainless-steel pipe with pipe threads at both ends and a taper on one side, no material, fixture, taper-thread gauge, or inspection criterion had been prepared. Before cutting began, someone had to decide where to grip it, what to use as the square reference, and how to judge the finished result. A short deadline does not shorten those undecided matters. It only pushes them into the operator's head.",
+    "translationNatural": "An urgent one-off job can look small simply because there is only one piece. Yet the short stainless-steel pipe needed pipe threads at both ends and a taper on one side, while no material, fixture, taper-thread gauge, or inspection criterion was ready. Before cutting could begin, someone had to decide where to grip the part, what would serve as the square reference, and how the result would be judged. A short deadline does not shorten those unanswered questions; it merely moves them into the operator's head.",
+    "imageUrl": "",
+    "imageCaption": "一本の短い管の周囲に、材料・治具・ゲージ・基準という未決定が浮かぶ。",
+    "imagePrompt": "Editorial illustration of one short stainless steel pipe surrounded by missing material, fixture, taper thread gauge, and inspection criterion, industrial lathe setting, no readable text",
+    "chunks": [
+      {"en": "An urgent one-off job can look small simply because there is only one piece.", "ja": "特急の単品仕事は、品物が一つしかないというだけで小さく見えることがある。"},
+      {"en": "Yet the short stainless-steel pipe needed pipe threads at both ends and a taper on one side, while no material, fixture, taper-thread gauge, or inspection criterion was ready.", "ja": "しかし、その短いステンレス管には両端の管用ねじと片側のテーパーが必要なのに、材料、治具、テーパーねじゲージ、検査基準は何も用意されていなかった。"},
+      {"en": "Before cutting could begin, someone had to decide where to grip the part, what would serve as the square reference, and how the result would be judged.", "ja": "加工を始める前に、どこをつかみ、何を直角の基準とし、仕上がりをどう判定するかを誰かが決めなければならなかった。"},
+      {"en": "A short deadline does not shorten those unanswered questions; it merely moves them into the operator's head.", "ja": "短い納期は未回答の問題まで短くせず、ただ作業者の頭の中へ移すだけである。"}
+    ],
+    "grammar": [
+      "can look ... because ... は、数量が一つという理由で仕事が小さく見える場合を示す。",
+      "needed A, while no B was ready は、加工要求と準備不足を対比する。",
+      "at both ends / on one side は、ねじとテーパーの位置を混同せず示す。",
+      "Before cutting could begin は、加工開始より前に必要な判断を置く。",
+      "where / what / how は、把握位置・直角基準・判定方法を別々の間接疑問で示す。",
+      "does not A; it merely B は、納期短縮が未決定を解消せず移すだけだと対比する。"
+    ],
+    "translationNote": "one-off jobは単品仕事、pipe threadsは管用ねじであり、ねじ規格を勝手に確定していない。square referenceは直角を判断する基準で、機械原点や加工原点へ置き換えていない。naturalでも材料・治具・ゲージ・検査基準の四つを省略せず残した。",
+    "readingPoint": "導入。一本という数量の小ささと、加工前に解かなければならない未決定の多さを対置する。",
+    "keywords": ["特急", "単品加工", "管用ねじ", "テーパー", "治具", "検査基準"]
+  },
+  {
+    "id": "DE-20261119-002",
+    "sourceTitle": "『見えない面はあとから戻ってくる』",
+    "workId": "daily-essay-20261119",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "先の加工が次の基準になる",
+    "jp": "加工案は、テーパー側を先に削り、反転後に直角を出した端面をチャックへ密着させる方向へ進んだ。最初の工程は形を作るだけでなく、次の段取りで使える基準も作る。テーパー部そのものを把握できなくても、端面と後方の直線部を使えば、傾きをある程度拘束できるかもしれない。ただし、保持は検査ではない。安定してつかめても、ゲージと規格指示がなければ、ねじが正しいことまでは証明できない。",
+    "translationLiteral": "The machining plan moved toward cutting the tapered side first and, after reversing the part, placing the squared end face tightly against the chuck. The first operation creates not only the shape but also a reference that can be used in the next setup. Even if the tapered section itself cannot be gripped, the end face and the rear straight section may restrain tilt to some degree. However, holding is not inspection. Even if the part can be held steadily, without a gauge and a specified standard, the correctness of the thread cannot be proven.",
+    "translationNatural": "The proposed sequence was to cut the tapered side first, then reverse the part and seat the squared end face firmly against the chuck. The first operation would create not only a shape but also a reference for the second setup. Even if the tapered section itself could not be gripped, the end face and the rear straight section might help restrain tilt to some degree. Still, holding is not inspection. Without a gauge or a stated standard, a stable setup cannot prove that the thread is correct.",
+    "imageUrl": "",
+    "imageCaption": "先に仕上げた端面が、反転後の段取りで新しい基準になる。",
+    "imagePrompt": "Editorial cutaway of a short pipe being reversed in a lathe, its squared end face seated firmly against the chuck as a setup reference, taper section visible, no readable text",
+    "chunks": [
+      {"en": "The proposed sequence was to cut the tapered side first, then reverse the part and seat the squared end face firmly against the chuck.", "ja": "提案された順序は、まずテーパー側を削り、次に品物を反転して、直角を出した端面をチャックへしっかり密着させることだった。"},
+      {"en": "The first operation would create not only a shape but also a reference for the second setup.", "ja": "最初の工程は形だけでなく、二回目の段取りで使う基準も作ることになる。"},
+      {"en": "Even if the tapered section itself could not be gripped, the end face and the rear straight section might help restrain tilt to some degree.", "ja": "テーパー部そのものを把握できなくても、端面と後方の直線部が傾きをある程度拘束するのに役立つかもしれない。"},
+      {"en": "Still, holding is not inspection.", "ja": "それでも、保持は検査ではない。"},
+      {"en": "Without a gauge or a stated standard, a stable setup cannot prove that the thread is correct.", "ja": "ゲージまたは明示された規格がなければ、安定した段取りでもねじが正しいことを証明できない。"}
+    ],
+    "grammar": [
+      "was to cut ... then reverse ... and seat ... は、提案された加工順序を不定詞と動詞の並列で示す。",
+      "seat A against B は、端面をチャックへ密着させることを表す。",
+      "not only A but also B は、形状と次工程の基準という二つの成果を並べる。",
+      "Even if ... could not ... は、テーパー部を把握できない条件を譲歩として示す。",
+      "might help restrain は、傾き拘束を可能性として述べ、断定を避ける。",
+      "Without A, B cannot prove C は、保持の安定と検査上の証明を区別する。"
+    ],
+    "translationNote": "seat the squared end face against the chuckは、直角を出した端面をチャックへ密着させる意味であり、テーパー部を把握するとは訳していない。mightは傾き拘束が確実ではないことを保つ。holdingとinspectionを分け、ゲージなしに正しさを断定していない。",
+    "readingPoint": "展開。前工程が次工程の基準を生む工夫を示した後、段取りの安定と品質証明の境界を引く。",
+    "keywords": ["加工順序", "端面", "チャック", "段取り", "傾き", "ゲージ"]
+  },
+  {
+    "id": "DE-20261119-003",
+    "sourceTitle": "『見えない面はあとから戻ってくる』",
+    "workId": "daily-essay-20261119",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "存在するデータが届かない",
+    "jp": "公開ページでは、再試行を押しても歴史データが表示されなかった。調べると、公開JSONは存在し、内容のハッシュも一致していた。欠けていたのはデータではなく、約一・五メガバイトを五秒で受け取る余裕だった。待ち時間を三十秒へ延ばすと画面は開いたが、読み込みが次第に重くなる事実は残った。保存されていることと、読者へ届くことは同じではない。公開の信頼性は、内容だけでなく、内容がどの大きさで、どの順序で届くかにも宿る。",
+    "translationLiteral": "On the public page, the historical data did not appear even after retry was pressed. Investigation showed that the public JSON existed and that the hash of its contents matched. What was missing was not the data but enough time to receive about 1.5 megabytes within a five-second limit. When the wait was extended to thirty seconds, the screen opened, but the fact that loading was gradually becoming heavier remained. Being stored and reaching the reader are not the same. The reliability of publication resides not only in the content but also in the size and order in which it arrives.",
+    "translationNatural": "The historical data still failed to appear when the public page was retried. The JSON existed, and its content hash matched; the missing element was enough time to receive roughly 1.5 megabytes before a five-second timeout. Extending the wait to thirty seconds made the page open, but it did not remove the growing weight of the load. Data that exists is not necessarily data that reaches a reader. Reliable publication depends not only on content, but also on the size and order in which that content arrives.",
+    "imageUrl": "",
+    "imageCaption": "存在する大きなJSONが、短い待ち時間の手前で読者へ届かず止まる。",
+    "imagePrompt": "Editorial illustration of a large JSON archive trying to pass through a narrow five-second gateway toward a reader, then opening through a longer thirty-second gate, no readable text",
+    "chunks": [
+      {"en": "The historical data still failed to appear when the public page was retried.", "ja": "公開ページを再試行しても、歴史データはなお表示されなかった。"},
+      {"en": "The JSON existed, and its content hash matched; the missing element was enough time to receive roughly 1.5 megabytes before a five-second timeout.", "ja": "JSONは存在し内容のハッシュも一致していたが、欠けていたのは五秒のタイムアウトまでに約一・五メガバイトを受け取るための十分な時間だった。"},
+      {"en": "Extending the wait to thirty seconds made the page open, but it did not remove the growing weight of the load.", "ja": "待ち時間を三十秒へ延ばすとページは開いたが、増していく読み込みの重さは消えなかった。"},
+      {"en": "Data that exists is not necessarily data that reaches a reader.", "ja": "存在するデータが、必ずしも読者へ届くデータとは限らない。"},
+      {"en": "Reliable publication depends not only on content, but also on the size and order in which that content arrives.", "ja": "信頼できる公開は内容だけでなく、その内容が届く大きさと順序にも左右される。"}
+    ],
+    "grammar": [
+      "failed to appear は、再試行後も表示されなかった結果を示す。",
+      "existed, and ... matched は、データの存在とハッシュ一致を並列する。",
+      "the missing element was ... は、不足をデータそのものではなく受信時間へ特定する。",
+      "before a five-second timeout は、約一・五メガバイトを受け取る時間制限を示す。",
+      "made the page open, but ... did not remove ... は、暫定修正の効果と残る問題を対比する。",
+      "not necessarily は、存在すれば必ず届くという推論を部分否定する。",
+      "not only A, but also B は、公開の信頼性を内容から配送方法へ広げる。"
+    ],
+    "translationNote": "1.5 megabytes、five-second、thirty secondsの数量と単位を維持した。content hash matchedは内容の同一性確認であり、ページ表示の成功を意味しない。growing weight of the loadは読み込み負荷が増したという比喩で、データ量が実際に増えたとは断定していない。",
+    "readingPoint": "転換。加工物の保持からデータの配送へ移り、存在と到達を分けて考える。",
+    "keywords": ["公開JSON", "ハッシュ", "タイムアウト", "読み込み", "到達", "信頼性"]
+  },
+  {
+    "id": "DE-20261119-004",
+    "sourceTitle": "『見えない面はあとから戻ってくる』",
+    "workId": "daily-essay-20261119",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "正面の外側を一周する",
+    "jp": "同じ日、一枚の絵から少女の三次元モデルも作られた。正面の画像は見えている輪郭を決められるが、背面、頭頂、パーツの重なりは解釈に委ねられる。不足する斜めと上からの画角を描き足して解釈の幅を狭め、さらにカメラを一周させると、まだ違和感のある造形が見つかった。画角を増やすことは完成そのものではなく、推測を修正可能にすることである。管もページもモデルも、見えない面は消えない。段取り、待ち時間、作り直しという別の姿で、あとから戻ってくる。",
+    "translationLiteral": "On the same day, a three-dimensional model of a girl was also made from a single illustration. The frontal image can determine the visible outline, but the rear, the crown of the head, and the overlaps between parts are left to interpretation. Additional diagonal and top views narrowed the range of interpretation, and when the camera was moved around the model, forms that still felt wrong were found. Adding views is not completion itself; it makes guesses correctable. In the pipe, the page, and the model alike, unseen sides do not disappear. They return later in other forms: setup work, waiting time, and rebuilding.",
+    "translationNatural": "Later that day, a girl was modeled in 3D from a single illustration. A frontal image could define the visible outline, but the rear, the crown, and overlapping parts still had to be interpreted. Diagonal and top views were added to narrow that uncertainty, and a full turn of the camera exposed forms that still felt wrong. More views do not complete a model by themselves; they make its guesses open to correction. Whether in a pipe, a webpage, or a model, an unseen side does not disappear. It returns later as setup work, loading time, or revision.",
+    "imageUrl": "",
+    "imageCaption": "正面絵から生まれたモデルをカメラが一周し、隠れていた違和感を拾い上げる。",
+    "imagePrompt": "Editorial illustration of a stylized girl 3D model surrounded by front, diagonal, top, and rear camera views, a full camera orbit revealing uncertain geometry, no readable text",
+    "chunks": [
+      {"en": "Later that day, a girl was modeled in 3D from a single illustration.", "ja": "その日の後刻、一枚の絵から少女が三次元モデル化された。"},
+      {"en": "A frontal image could define the visible outline, but the rear, the crown, and overlapping parts still had to be interpreted.", "ja": "正面画像は見える輪郭を定められたが、背面、頭頂、重なるパーツはなお解釈しなければならなかった。"},
+      {"en": "Diagonal and top views were added to narrow that uncertainty, and a full turn of the camera exposed forms that still felt wrong.", "ja": "その不確かさを狭めるために斜めと上からの画角が加えられ、カメラを一周させると、なお違和感のある形が明らかになった。"},
+      {"en": "More views do not complete a model by themselves; they make its guesses open to correction.", "ja": "画角を増やすだけでモデルが完成するのではなく、画角はモデルの推測を修正可能にする。"},
+      {"en": "Whether in a pipe, a webpage, or a model, an unseen side does not disappear.", "ja": "管でもウェブページでもモデルでも、見えない面は消えない。"},
+      {"en": "It returns later as setup work, loading time, or revision.", "ja": "見えない面は、段取り、読み込み時間、修正という姿であとから戻ってくる。"}
+    ],
+    "grammar": [
+      "was modeled in 3D は、一枚絵から三次元モデルが作られたことを受動態で示す。",
+      "could define A, but B had to be interpreted は、正面で決められる部分と解釈が必要な部分を対比する。",
+      "were added to narrow ... は、追加画角の目的を不定詞で示す。",
+      "a full turn ... exposed ... は、一周確認が違和感を可視化したことを表す。",
+      "do not A by themselves; they B は、画角追加を完成と同一視せず、修正可能性へ役割を限定する。",
+      "Whether in A, B, or C は、管・ページ・モデルの三領域に結論を適用する。",
+      "returns ... as ... は、見えない面が別の負担として戻る比喩を示す。"
+    ],
+    "translationNote": "frontal imageは正面画像、crownは頭頂であり、後頭部と混同していない。full turn of the cameraはモデル自体の一周確認で、動画完成を意味しない。guessesは単一画像から補った造形上の推測を指し、原画にない事実を追加したという意味ではない。",
+    "readingPoint": "余韻。加工、公開、造形を横断し、見えない面を後工程へ先送りしても負担は別の形で戻ると結ぶ。",
+    "keywords": ["三次元モデル", "正面画像", "斜め画角", "頭頂", "一周確認", "修正"]
+  }
+]
