@@ -1,0 +1,478 @@
+[
+  {
+    "_no": 202,
+    "_generatedAt": "2026-11-19T02:00:00+09:00",
+    "sentence": "A three-view drawing constrains proportions from several directions, while additional 45-degree and top views expose hidden shapes that a front view alone leaves open to interpretation.",
+    "phonetic": "ア スリー ヴュー ドローイング コンストレインズ プロポーションズ フロム セヴラル ディレクションズ、ワイル アディショナル フォーティファイヴ ディグリー アンド トップ ヴューズ イクスポウズ ヒドゥン シェイプス ザット ア フロント ヴュー アロウン リーヴズ オープン トゥ インタープリテイション。",
+    "japaneseTranslation": "三面図は複数の方向からプロポーションを制約し、追加の45度図と上面図は、正面図だけでは解釈の余地が残る隠れた形状を明らかにします。",
+    "theme": "複数画角で3D造形の解釈幅を減らす",
+    "coreVerb": "constrain",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A drawing constrains proportions.",
+        "translation": "図面はプロポーションを制約します。"
+      },
+      "phase2": {
+        "sentence": "A three-view drawing constrains proportions from several directions.",
+        "translation": "三面図は複数の方向からプロポーションを制約します。",
+        "addedChunks": "図面の種類(three-view)と制約の方向(from several directions)を追加"
+      },
+      "phase3": {
+        "sentence": "A three-view drawing constrains proportions, while extra views expose hidden shapes.",
+        "translation": "三面図はプロポーションを制約し、一方で追加画角は隠れた形状を明らかにします。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "Multiple views provide more geometric evidence than a front view alone.",
+        "translation": "複数画角は、正面図だけの場合より多くの形状情報を与えます。",
+        "comparison": "more geometric evidence than"
+      },
+      "phase5": {
+        "sentence": "A three-view drawing constrains proportions from several directions, while additional 45-degree and top views expose hidden shapes that a front view alone leaves open to interpretation",
+        "translation": "三面図は複数の方向からプロポーションを制約し、追加の45度図と上面図は、正面図だけでは解釈の余地が残る隠れた形状を明らかにします。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A three-view drawing",
+          "function": "対象",
+          "translation": "三面図は"
+        },
+        {
+          "text": "constrains proportions from several directions,",
+          "function": "行動",
+          "translation": "複数の方向からプロポーションを制約します"
+        },
+        {
+          "text": "while additional 45-degree and top views",
+          "function": "接続",
+          "translation": "一方、追加の45度図と上面図は"
+        },
+        {
+          "text": "expose hidden shapes",
+          "function": "行動",
+          "translation": "隠れた形状を明らかにします"
+        },
+        {
+          "text": "that a front view alone leaves open to interpretation.",
+          "function": "修飾",
+          "translation": "正面図だけでは解釈の余地が残る"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "冠詞",
+          "name": "不定冠詞a",
+          "where": "A three-view drawing",
+          "explanation": "一つの三面図を一般例として示す。",
+          "rule": "a + 単数可算名詞"
+        },
+        {
+          "category": "複合形容詞",
+          "name": "three-view",
+          "where": "three-view drawing",
+          "explanation": "threeとviewをハイフンで結び、drawingを修飾する。",
+          "rule": "数・名詞 + ハイフン + 名詞"
+        },
+        {
+          "category": "主語動詞一致",
+          "name": "単数主語とconstrains",
+          "where": "drawing constrains",
+          "explanation": "単数主語drawingに三人称単数形constrainsを使う。",
+          "rule": "三人称単数主語 + 動詞-s"
+        },
+        {
+          "category": "接続",
+          "name": "whileによる役割対照",
+          "where": "while additional 45-degree and top views",
+          "explanation": "三面図の制約機能と追加画角の可視化機能を並べる。",
+          "rule": "節, while + 節"
+        },
+        {
+          "category": "並列",
+          "name": "形容詞句の並列",
+          "where": "45-degree and top views",
+          "explanation": "45度図と上面図を同じ名詞viewsに結び付ける。",
+          "rule": "A and B + 複数名詞"
+        },
+        {
+          "category": "関係節",
+          "name": "目的格that",
+          "where": "that a front view alone leaves open to interpretation",
+          "explanation": "hidden shapesを先行詞として、正面図だけでは解釈が定まらない形状だと説明する。",
+          "rule": "先行詞 + that + 主語 + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "leave A open to B",
+          "where": "leaves open to interpretation",
+          "explanation": "AをBの余地がある状態にしておくという構文。",
+          "rule": "leave + 目的語 + open to + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A three-view drawing constrain proportions.",
+          "correct": "A three-view drawing constrains proportions.",
+          "why": "単数主語drawingに合わせてconstrainsを使う。"
+        },
+        {
+          "wrong": "additional 45-degree and top view exposes",
+          "correct": "additional 45-degree and top views expose",
+          "why": "二種類の画角を表す複数主語なのでviewsとexposeを使う。"
+        },
+        {
+          "wrong": "hidden shapes what a front view leaves open",
+          "correct": "hidden shapes that a front view leaves open",
+          "why": "名詞shapesを修飾する関係節にはthatを用い、whatは先行詞と併用しない。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Extra viewpoints reveal geometry that the front view cannot define.",
+          "translation": "追加画角は、正面図では定められない形状を明らかにします。"
+        },
+        {
+          "text": "Use front, side, top, and oblique references to reduce guesswork during modeling.",
+          "translation": "造形時の推測を減らすため、正面・側面・上面・斜めの資料を使います。"
+        },
+        {
+          "text": "A model becomes more consistent when each major shape is checked from multiple angles.",
+          "translation": "主要な形状を複数の角度から確認すると、モデルの整合性が高まります。"
+        }
+      ],
+      "parseTree": "[S A three-view drawing [VP constrains proportions [PP from several directions]]], while [S additional 45-degree and top views [VP expose hidden shapes [RC that a front view alone leaves open to interpretation]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "constrains proportions from several directions",
+          "expanded": "because the same feature must align across front, side, and rear references",
+          "nuance": "複数画角が比率の矛盾を減らす理由を示す。"
+        },
+        {
+          "original": "additional 45-degree and top views expose hidden shapes",
+          "expanded": "since oblique and overhead views reveal depth and overlap that orthographic views may not show clearly",
+          "nuance": "斜め・上面資料が補う形状情報を示す。"
+        },
+        {
+          "original": "leaves open to interpretation",
+          "expanded": "therefore, fewer unseen surfaces have to be invented during modeling",
+          "nuance": "資料追加が造形時の推測を減らす結果を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Hidden shapes left ambiguous by the front view are revealed by additional oblique and top views.",
+          "translation": "正面図では曖昧なままの隠れた形状が、追加の斜め図と上面図によって明らかになります。",
+          "note": "隠れた形状を主語にして資料の効果を強調する。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Adding oblique and top views, the artist can constrain proportions across more directions.",
+          "translation": "斜め図と上面図を加えることで、制作者はより多くの方向からプロポーションを制約できます。",
+          "note": "資料追加を-ing句で先に示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The addition of oblique and top views reduces geometric ambiguity in the model.",
+          "translation": "斜め図と上面図の追加は、モデルの形状上の曖昧さを減らします。",
+          "note": "addとambiguousを名詞中心の表現に変える。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "constrain",
+            "alternatives": [
+              "limit",
+              "define",
+              "bound"
+            ],
+            "nuance": "constrainは許容範囲を狭める、defineは形を明確に定める、boundは境界を設ける。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "役割の対照",
+            "sentence": "A constrains X, while B exposes Y.",
+            "translation": "AがXを制約し、一方でBがYを明らかにします。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A top view reveals depth relationships more clearly than a front view alone.",
+            "translation": "上面図は、正面図だけの場合より奥行きの関係を明確に示します。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If only one view is available, hidden surfaces require more interpretation.",
+            "translation": "一つの画角しかない場合、隠れた面にはより多くの解釈が必要です。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the extra views reduce is not detail but geometric uncertainty.",
+            "translation": "追加画角が減らすのは細部ではなく、形状上の不確実性です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "More views, less geometric guesswork.",
+            "translation": "画角が増えれば、形状の推測は減ります。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "複数画角の役割をwhileで対照した。26語に収めた一方、関係節が長いため効率性は8とした。"
+    }
+  },
+  {
+    "_no": 203,
+    "_generatedAt": "2026-11-19T02:00:00+09:00",
+    "sentence": "When a public timeline grows large, loading every record at startup can slow the page; pagination, era-based requests, and caching can reduce the initial data transfer.",
+    "phonetic": "ウェン ア パブリック タイムライン グロウズ ラージ、ロウディング エヴリ レコード アット スタートアップ キャン スロウ ザ ペイジ；パジネイション、イラ ベイスト リクウェスツ、アンド キャッシング キャン リデュース ジ イニシャル デイタ トランスファー。",
+    "japaneseTranslation": "公開年表が大きくなると、起動時に全レコードを読み込むことでページが遅くなる場合があります。ページ分割、年代別リクエスト、キャッシュによって初回のデータ転送量を減らせます。",
+    "theme": "大きな年表データを段階的に読み込む",
+    "coreVerb": "reduce",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Caching reduces transfers.",
+        "translation": "キャッシュは転送量を減らします。"
+      },
+      "phase2": {
+        "sentence": "Caching reduces the initial data transfer.",
+        "translation": "キャッシュは初回のデータ転送量を減らします。",
+        "addedChunks": "転送の時点(initial)と対象(data transfer)を追加"
+      },
+      "phase3": {
+        "sentence": "Loading every record can slow the page, so the site uses caching.",
+        "translation": "全レコードの読み込みはページを遅くする場合があるため、サイトはキャッシュを使います。",
+        "connector": "so"
+      },
+      "phase4": {
+        "sentence": "Era-based requests transfer less initial data than loading every record.",
+        "translation": "年代別リクエストは、全レコードを読む場合より初回の転送量を少なくします。",
+        "comparison": "less initial data than"
+      },
+      "phase5": {
+        "sentence": "When a public timeline grows large, loading every record at startup can slow the page; pagination, era-based requests, and caching can reduce the initial data transfer",
+        "translation": "公開年表が大きくなると、起動時に全レコードを読み込むことでページが遅くなる場合があります。ページ分割、年代別リクエスト、キャッシュによって初回のデータ転送量を減らせます。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When a public timeline grows large,",
+          "function": "時間",
+          "translation": "公開年表が大きくなると"
+        },
+        {
+          "text": "loading every record at startup",
+          "function": "行動",
+          "translation": "起動時に全レコードを読み込むことで"
+        },
+        {
+          "text": "can slow the page;",
+          "function": "結果",
+          "translation": "ページが遅くなる場合があります"
+        },
+        {
+          "text": "pagination, era-based requests, and caching",
+          "function": "対象",
+          "translation": "ページ分割、年代別リクエスト、キャッシュによって"
+        },
+        {
+          "text": "can reduce the initial data transfer.",
+          "function": "結果",
+          "translation": "初回のデータ転送量を減らせます"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "whenによる条件的な時間節",
+          "where": "When a public timeline grows large",
+          "explanation": "年表が大きくなった場合の一般的な状況を示す。",
+          "rule": "When + 現在形, 主節"
+        },
+        {
+          "category": "主語動詞一致",
+          "name": "timeline grows",
+          "where": "timeline grows",
+          "explanation": "単数主語timelineに三人称単数形growsを使う。",
+          "rule": "三人称単数主語 + 動詞-s"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞句の主語",
+          "where": "loading every record at startup",
+          "explanation": "全レコードを読み込む行為全体を主語として扱う。",
+          "rule": "動名詞句 + 動詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "canによる可能性",
+          "where": "can slow / can reduce",
+          "explanation": "必ず起きると断定せず、起こり得る影響と可能な改善を示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "the page; pagination",
+          "explanation": "密接に関連する二つの独立節を接続する。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "並列",
+          "name": "三項並列",
+          "where": "pagination, era-based requests, and caching",
+          "explanation": "三つの読み込み最適化を同じ階層で並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "複合形容詞",
+          "name": "era-based",
+          "where": "era-based requests",
+          "explanation": "年代に基づくリクエストという意味をハイフンでまとめる。",
+          "rule": "名詞 + -based + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When a public timeline grow large",
+          "correct": "When a public timeline grows large",
+          "why": "単数主語timelineに合わせてgrowsを使う。"
+        },
+        {
+          "wrong": "Loading every records can slow the page.",
+          "correct": "Loading every record can slow the page.",
+          "why": "everyの後には単数形recordを置く。"
+        },
+        {
+          "wrong": "Pagination and caching can reduces the transfer.",
+          "correct": "Pagination and caching can reduce the transfer.",
+          "why": "助動詞canの後には動詞原形reduceを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Load only the era the reader requests, then cache it for later visits.",
+          "translation": "読者が要求した年代だけを読み込み、次回の閲覧用にキャッシュします。"
+        },
+        {
+          "text": "A large archive should not force every visitor to download every record at once.",
+          "translation": "大きなアーカイブでも、全訪問者に全レコードを一度にダウンロードさせるべきではありません。"
+        },
+        {
+          "text": "Pagination keeps the first response small and fetches later records on demand.",
+          "translation": "ページ分割は最初の応答を小さく保ち、後続レコードを要求時に取得します。"
+        }
+      ],
+      "parseTree": "[AdvCl When a public timeline grows large], [S [Gerund phrase loading every record at startup] [VP can slow the page]]; [S pagination, era-based requests, and caching [VP can reduce the initial data transfer]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "loading every record at startup can slow the page",
+          "expanded": "because the browser must receive and process the entire dataset before presenting the first useful view",
+          "nuance": "一括取得が初期表示を重くする理由を示す。"
+        },
+        {
+          "original": "pagination can reduce the initial data transfer",
+          "expanded": "because the first response contains only one manageable segment",
+          "nuance": "ページ分割が転送量を抑える仕組みを示す。"
+        },
+        {
+          "original": "era-based requests and caching can reduce the initial data transfer",
+          "expanded": "therefore, previously requested eras can be reused without downloading the full timeline again",
+          "nuance": "年代別取得とキャッシュの組合せによる再利用を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The initial data transfer can be reduced by pagination, era-based requests, and caching.",
+          "translation": "初回のデータ転送量は、ページ分割、年代別リクエスト、キャッシュによって減らせます。",
+          "note": "転送量を主語にして改善手段をまとめる。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Loading only the requested era, the page avoids processing the entire timeline at startup.",
+          "translation": "要求された年代だけを読み込むことで、ページは起動時に年表全体を処理せずに済みます。",
+          "note": "限定読み込みを-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Pagination and caching enable a reduction in initial transfer size.",
+          "translation": "ページ分割とキャッシュにより、初回転送量を削減できます。",
+          "note": "reduceをreductionという名詞に変える。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "reduce",
+            "alternatives": [
+              "decrease",
+              "limit",
+              "cut"
+            ],
+            "nuance": "reduceは量を減らす一般語、decreaseは減少させる、limitは上限を設ける、cutは大幅または直接的に削減する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "成長時の対策",
+            "sentence": "When X grows large, A can slow Y; B can reduce Z.",
+            "translation": "Xが大きくなるとAがYを遅くする場合があり、BがZを減らせます。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "On-demand era requests transfer less startup data than a full timeline download.",
+            "translation": "要求時の年代別取得は、年表全体のダウンロードより起動時の転送量が少なくなります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If readers request only one era, the site does not need to send unrelated records immediately.",
+            "translation": "読者が一つの年代だけを要求するなら、サイトは無関係なレコードをすぐ送る必要がありません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters at startup is not the archive's total size but the amount needed for the first view.",
+            "translation": "起動時に重要なのはアーカイブ全体の大きさではなく、最初の表示に必要な量です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Fetch by era; cache what readers open.",
+            "translation": "年代別に取得し、読者が開いたものをキャッシュします。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "when節とセミコロンで問題と対策を分けた。25語で三つの対策を含むため効率性は8とした。"
+    }
+  }
+]
