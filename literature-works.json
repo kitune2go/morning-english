@@ -480,5 +480,12 @@
     "description": "「青春の亡霊」の創作、出典未確認を明記した登録、スマートフォン検査の裏側に増えた常駐機、ブラウザ確認だけを外す判断を通して、省略する層と残す責任を明記する必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261118/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261119",
+    "title": "見えない面はあとから戻ってくる",
+    "description": "材料・治具・検査基準のない特急単品、次工程の基準を作る加工順序、時間内に届かない公開JSON、一枚絵から補う三次元造形を通して、見えない面が段取り・待ち時間・修正として戻る過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261119/manifest.json",
+    "mode": "essay-translation"
   }
 ]
