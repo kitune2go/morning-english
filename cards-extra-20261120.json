@@ -1,0 +1,478 @@
+[
+  {
+    "_no": 204,
+    "_generatedAt": "2026-11-20T02:00:00+09:00",
+    "sentence": "Population momentum persists because the number of potential parents reflects earlier birth rates, so a rise in fertility would not immediately restore the annual number of births.",
+    "phonetic": "ポピュレイション モウメンタム パーシスツ ビコーズ ザ ナンバー オヴ ポテンシャル ペアレンツ リフレクツ アーリアー バース レイツ、ソウ ア ライズ イン ファーティリティ ウッド ノット イミーディアトリー リストア ジ アニュアル ナンバー オヴ バースズ。",
+    "japaneseTranslation": "人口モメンタムが続くのは、親になり得る人の数が過去の出生率を反映するためです。そのため、出生率が上がっても年間出生数はすぐには元に戻りません。",
+    "theme": "出生率と人口モメンタムの時間差を捉える",
+    "coreVerb": "persist",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Population momentum persists.",
+        "translation": "人口モメンタムは続きます。"
+      },
+      "phase2": {
+        "sentence": "Population momentum persists because cohort size reflects earlier birth rates.",
+        "translation": "世代規模が過去の出生率を反映するため、人口モメンタムは続きます。",
+        "addedChunks": "理由節(because...)と世代規模(cohort size)を追加"
+      },
+      "phase3": {
+        "sentence": "Population momentum persists because the number of potential parents reflects earlier birth rates.",
+        "translation": "親になり得る人の数が過去の出生率を反映するため、人口モメンタムは続きます。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "Population structure changes more slowly than the fertility rate.",
+        "translation": "人口構成は出生率よりゆっくり変化します。",
+        "comparison": "more slowly than"
+      },
+      "phase5": {
+        "sentence": "Population momentum persists because the number of potential parents reflects earlier birth rates, so a rise in fertility would not immediately restore the annual number of births",
+        "translation": "人口モメンタムが続くのは、親になり得る人の数が過去の出生率を反映するためです。そのため、出生率が上がっても年間出生数はすぐには元に戻りません。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Population momentum persists",
+          "function": "状態",
+          "translation": "人口モメンタムは続きます"
+        },
+        {
+          "text": "because the number of potential parents",
+          "function": "理由",
+          "translation": "親になり得る人の数が"
+        },
+        {
+          "text": "reflects earlier birth rates,",
+          "function": "行動",
+          "translation": "過去の出生率を反映するためです"
+        },
+        {
+          "text": "so a rise in fertility would not immediately restore",
+          "function": "結果",
+          "translation": "そのため、出生率が上がってもすぐには元に戻りません"
+        },
+        {
+          "text": "the annual number of births.",
+          "function": "対象",
+          "translation": "年間出生数は"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "語法",
+          "name": "persist",
+          "where": "Population momentum persists",
+          "explanation": "ある状態や傾向が続くことを自動詞で表す。",
+          "rule": "主語 + persist(s)"
+        },
+        {
+          "category": "接続",
+          "name": "becauseによる理由節",
+          "where": "because the number ... reflects",
+          "explanation": "人口モメンタムが続く理由を示す。",
+          "rule": "主節 + because + 節"
+        },
+        {
+          "category": "主語動詞一致",
+          "name": "the number ... reflects",
+          "where": "the number of potential parents reflects",
+          "explanation": "主語の中心は単数のnumberなのでreflectsを使う。",
+          "rule": "the number of + 複数名詞 + 単数動詞"
+        },
+        {
+          "category": "接続",
+          "name": "soによる結果",
+          "where": "so a rise in fertility",
+          "explanation": "前半の理由から導かれる結果を示す。",
+          "rule": "節, so + 節"
+        },
+        {
+          "category": "仮定・控えめな推量",
+          "name": "would not",
+          "where": "would not immediately restore",
+          "explanation": "出生率上昇を仮定し、その効果が即時ではないことを控えめに述べる。",
+          "rule": "would not + 動詞原形"
+        },
+        {
+          "category": "副詞",
+          "name": "immediately",
+          "where": "not immediately restore",
+          "explanation": "回復しないのが永続的ではなく、直ちには起きないという時間差を示す。",
+          "rule": "not + 副詞 + 動詞"
+        },
+        {
+          "category": "名詞句",
+          "name": "a rise in",
+          "where": "a rise in fertility",
+          "explanation": "fertilityの上昇を名詞句で表す。",
+          "rule": "a rise in + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Population momentum persist.",
+          "correct": "Population momentum persists.",
+          "why": "単数主語momentumに合わせてpersistsを使う。"
+        },
+        {
+          "wrong": "The number of potential parents reflect earlier rates.",
+          "correct": "The number of potential parents reflects earlier rates.",
+          "why": "主語の中心語numberは単数なのでreflectsにする。"
+        },
+        {
+          "wrong": "A rise in fertility would not immediately restores births.",
+          "correct": "A rise in fertility would not immediately restore births.",
+          "why": "助動詞wouldの後には動詞原形restoreを置く。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A higher fertility rate cannot instantly enlarge the generation that is already of parenting age.",
+          "translation": "出生率が上がっても、すでに親になる年齢にある世代を直ちに大きくすることはできません。"
+        },
+        {
+          "text": "Past birth rates continue to shape the number of births possible today.",
+          "translation": "過去の出生率は、現在可能な出生数を引き続き形作ります。"
+        },
+        {
+          "text": "Demographic change has inertia because each generation inherits the size of earlier cohorts.",
+          "translation": "各世代が以前の世代規模を引き継ぐため、人口変化には慣性があります。"
+        }
+      ],
+      "parseTree": "[S Population momentum [VP persists [AdvCl because the number of potential parents reflects earlier birth rates]]], so [S a rise in fertility [VP would not immediately restore the annual number of births]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "Population momentum persists",
+          "expanded": "because age structure carries the effects of earlier large and small birth cohorts forward",
+          "nuance": "人口構成に過去の出生動向が残る理由を示す。"
+        },
+        {
+          "original": "the number of potential parents reflects earlier birth rates",
+          "expanded": "since today's parenting-age population was born many years before current fertility decisions",
+          "nuance": "現在の親世代が過去に形成されたことを示す。"
+        },
+        {
+          "original": "would not immediately restore the annual number of births",
+          "expanded": "therefore, recovery can lag even after fertility begins to rise",
+          "nuance": "出生率上昇と出生数回復の時間差を示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Today's potential parent population was shaped by birth rates from earlier decades.",
+          "translation": "現在の親になり得る人口は、過去数十年の出生率によって形作られました。",
+          "note": "親世代の規模を主語にして形成要因を示す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reflecting earlier birth rates, the size of the potential parent population changes only gradually.",
+          "translation": "過去の出生率を反映するため、親になり得る人口の規模は徐々にしか変わりません。",
+          "note": "理由を現在分詞句で表す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The persistence of population momentum delays recovery in annual births.",
+          "translation": "人口モメンタムの持続は、年間出生数の回復を遅らせます。",
+          "note": "persistをpersistenceに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "persist",
+            "alternatives": [
+              "continue",
+              "remain",
+              "endure"
+            ],
+            "nuance": "persistは変化圧力があっても続く、continueは一般的に継続する、remainは状態が残ることを表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "理由と結果",
+            "sentence": "X persists because Y, so Z would not change immediately.",
+            "translation": "YのためXが続き、そのためZはすぐには変わりません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Fertility rates can change faster than the age structure of a population.",
+            "translation": "出生率は人口の年齢構成より速く変化する場合があります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "Even if fertility rises, annual births may recover slowly when the potential parent population is small.",
+            "translation": "出生率が上がっても、親になり得る人口が少なければ年間出生数の回復は遅い場合があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What persists is not merely a trend but the inherited size of each cohort.",
+            "translation": "続くのは単なる傾向ではなく、各世代が引き継いだ規模です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Fertility can rise quickly; population structure cannot.",
+            "translation": "出生率は速く上がれても、人口構成はそうはいきません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "becauseとsoで人口モメンタムの因果を明示した。27語で概念説明を含むため効率性は8とした。"
+    }
+  },
+  {
+    "_no": 205,
+    "_generatedAt": "2026-11-20T02:00:00+09:00",
+    "sentence": "Online shopping does not eliminate the labor behind retail; it shifts work into warehouses, packing, transport, and last-mile delivery, where the final handoff remains difficult to automate.",
+    "phonetic": "オンライン ショッピング ダズ ノット イリミネイト ザ レイバー ビハインド リテイル；イット シフツ ワーク イントゥ ウェアハウジズ、パッキング、トランスポート、アンド ラスト マイル デリヴァリー、ウェア ザ ファイナル ハンドオフ リメインズ ディフィカルト トゥ オートメイト。",
+    "japaneseTranslation": "オンラインショッピングは小売を支える労働をなくすのではなく、仕事を倉庫・梱包・輸送・ラストワンマイル配送へ移します。そこでは最終的な受け渡しの自動化が依然として困難です。",
+    "theme": "ECが労働を物流工程へ移す構造を捉える",
+    "coreVerb": "shift",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Online shopping shifts work.",
+        "translation": "オンラインショッピングは仕事を移します。"
+      },
+      "phase2": {
+        "sentence": "Online shopping shifts work into warehouses and delivery.",
+        "translation": "オンラインショッピングは仕事を倉庫と配送へ移します。",
+        "addedChunks": "移動先(into warehouses and delivery)を追加"
+      },
+      "phase3": {
+        "sentence": "Online shopping does not eliminate labor; it shifts the work elsewhere.",
+        "translation": "オンラインショッピングは労働をなくさず、その仕事を別の場所へ移します。",
+        "connector": "semicolon"
+      },
+      "phase4": {
+        "sentence": "The final handoff is harder to automate than warehouse sorting.",
+        "translation": "最終的な受け渡しは、倉庫での仕分けより自動化が困難です。",
+        "comparison": "harder to automate than"
+      },
+      "phase5": {
+        "sentence": "Online shopping does not eliminate the labor behind retail; it shifts work into warehouses, packing, transport, and last-mile delivery, where the final handoff remains difficult to automate",
+        "translation": "オンラインショッピングは小売を支える労働をなくすのではなく、仕事を倉庫・梱包・輸送・ラストワンマイル配送へ移します。そこでは最終的な受け渡しの自動化が依然として困難です。",
+        "relativizer": "where"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Online shopping does not eliminate",
+          "function": "行動",
+          "translation": "オンラインショッピングはなくしません"
+        },
+        {
+          "text": "the labor behind retail;",
+          "function": "対象",
+          "translation": "小売を支える労働を"
+        },
+        {
+          "text": "it shifts work into",
+          "function": "行動",
+          "translation": "それは仕事を移します"
+        },
+        {
+          "text": "warehouses, packing, transport, and last-mile delivery,",
+          "function": "場所",
+          "translation": "倉庫、梱包、輸送、ラストワンマイル配送へ"
+        },
+        {
+          "text": "where the final handoff remains difficult to automate.",
+          "function": "修飾",
+          "translation": "そこでは最終的な受け渡しの自動化が依然として困難です"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "否定",
+          "name": "does not + 動詞原形",
+          "where": "does not eliminate",
+          "explanation": "労働をなくさないことを現在形の否定で表す。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "前置詞",
+          "name": "behindの比喩的用法",
+          "where": "the labor behind retail",
+          "explanation": "小売を背後で支える労働という意味を表す。",
+          "rule": "名詞 + behind + 名詞"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "retail; it shifts",
+          "explanation": "労働が消えないことと移動することを二つの独立節で結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "語法",
+          "name": "shift A into B",
+          "where": "shifts work into warehouses",
+          "explanation": "仕事を別の工程や場所へ移すことを表す。",
+          "rule": "shift + 目的語 + into + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "四項並列",
+          "where": "warehouses, packing, transport, and last-mile delivery",
+          "explanation": "仕事の移動先となる四つの工程を列挙する。",
+          "rule": "A, B, C, and D"
+        },
+        {
+          "category": "関係副詞",
+          "name": "where",
+          "where": "where the final handoff remains",
+          "explanation": "last-mile deliveryを受け、そこで生じる課題を説明する。",
+          "rule": "場所・工程を表す先行詞 + where + 完全文"
+        },
+        {
+          "category": "補語",
+          "name": "remain + 形容詞",
+          "where": "remains difficult",
+          "explanation": "最終受け渡しが困難な状態にとどまることを示す。",
+          "rule": "remain + 形容詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Online shopping do not eliminate labor.",
+          "correct": "Online shopping does not eliminate labor.",
+          "why": "単数扱いの主語Online shoppingにdoesを使う。"
+        },
+        {
+          "wrong": "It shifts work to warehouses, packing, transport and delivery.",
+          "correct": "It shifts work into warehouses, packing, transport, and delivery.",
+          "why": "工程の中へ移す意味ではintoが適切で、列挙にはカンマをそろえる。"
+        },
+        {
+          "wrong": "the final handoff remain difficult to automate",
+          "correct": "the final handoff remains difficult to automate",
+          "why": "単数主語handoffに合わせてremainsを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "E-commerce relocates visible shop work into less visible logistics work.",
+          "translation": "ECは目に見える店舗労働を、見えにくい物流労働へ移します。"
+        },
+        {
+          "text": "Automation may advance through warehouses before it reaches the customer's door.",
+          "translation": "自動化は顧客の玄関に届く前に、まず倉庫工程で進む可能性があります。"
+        },
+        {
+          "text": "The last few meters of delivery remain a separate operational problem.",
+          "translation": "配送の最後の数メートルは、別個の運用課題として残ります。"
+        }
+      ],
+      "parseTree": "[S Online shopping [VP does not eliminate the labor behind retail]]; [S it [VP shifts work into warehouses, packing, transport, and last-mile delivery [RC where the final handoff remains difficult to automate]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "does not eliminate the labor behind retail",
+          "expanded": "because each order still has to be stored, selected, packed, moved, and handed over",
+          "nuance": "ECでも作業工程が残る理由を示す。"
+        },
+        {
+          "original": "shifts work into warehouses, packing, transport, and last-mile delivery",
+          "expanded": "since tasks once concentrated in shops are redistributed across the logistics chain",
+          "nuance": "店舗外へ労働が移る仕組みを示す。"
+        },
+        {
+          "original": "the final handoff remains difficult to automate",
+          "expanded": "because doors, access rules, recipients, and irregular environments vary from delivery to delivery",
+          "nuance": "最終受け渡しの条件が一定でないことを示す。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Retail work is redistributed across warehouses, packing, transport, and last-mile delivery by online shopping.",
+          "translation": "小売の仕事はオンラインショッピングによって、倉庫・梱包・輸送・ラストワンマイル配送へ再配分されます。",
+          "note": "移される仕事を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Moving transactions online, retailers shift much of the physical work into logistics.",
+          "translation": "取引をオンラインへ移すことで、小売業者は物理的な仕事の多くを物流へ移します。",
+          "note": "取引経路の変更を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The expansion of e-commerce causes a redistribution rather than an elimination of labor.",
+          "translation": "ECの拡大は、労働の消滅ではなく再配分を引き起こします。",
+          "note": "expand・redistribute・eliminateを名詞中心に変える。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "shift",
+            "alternatives": [
+              "move",
+              "transfer",
+              "redistribute"
+            ],
+            "nuance": "shiftは位置や負担を移す、transferは別の主体や場所へ移管する、redistributeは複数工程へ再配分する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "消滅ではなく移動",
+            "sentence": "X does not eliminate Y; it shifts Y into Z.",
+            "translation": "XはYをなくさず、YをZへ移します。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Warehouse sorting is easier to standardize than the final doorstep handoff.",
+            "translation": "倉庫での仕分けは、玄関先での最終受け渡しより標準化しやすいです。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If delivery grows faster than automation, the workload remains with human logistics workers.",
+            "translation": "配送が自動化より速く拡大すれば、負担は人間の物流作業者に残ります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What disappears is the shop visit, not the physical work behind the purchase.",
+            "translation": "消えるのは店舗への訪問であり、購入を支える物理的な仕事ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "E-commerce moves labor; it does not erase it.",
+            "translation": "ECは労働を移しますが、消し去りはしません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "セミコロンとwhere節で労働移動と自動化の難所を分けた。28語で四工程を列挙するため効率性は8とした。"
+    }
+  }
+]
