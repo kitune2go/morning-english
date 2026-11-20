@@ -487,5 +487,12 @@
     "description": "材料・治具・検査基準のない特急単品、次工程の基準を作る加工順序、時間内に届かない公開JSON、一枚絵から補う三次元造形を通して、見えない面が段取り・待ち時間・修正として戻る過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261119/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261120",
+    "title": "人口は背景ではなく地面になる",
+    "description": "年齢境界で見える人口差、危機が重なる世代の暦、海外売上と国内製造の分離、自動配送と都市生活の記録を通して、人口構成が制度・仕事・移動・歴史を支える地面になる過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261120/manifest.json",
+    "mode": "essay-translation"
   }
 ]
