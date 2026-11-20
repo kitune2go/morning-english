@@ -124,7 +124,8 @@
     "cards-extra-20261116.json",
     "cards-extra-20261117.json",
     "cards-extra-20261118.json",
-    "cards-extra-20261119.json"
+    "cards-extra-20261119.json",
+    "cards-extra-20261120.json"
   ],
   "cards": [
     {
@@ -1547,6 +1548,20 @@
       "coreVerb": "reduce",
       "theme": "大きな年表データを段階的に読み込む",
       "_sourceFile": "cards-extra-20261119.json"
+    },
+    {
+      "_no": 204,
+      "sentence": "Population momentum persists because the number of potential parents reflects earlier birth rates, so a rise in fertility would not immediately restore the annual number of births.",
+      "coreVerb": "persist",
+      "theme": "出生率と人口モメンタムの時間差を捉える",
+      "_sourceFile": "cards-extra-20261120.json"
+    },
+    {
+      "_no": 205,
+      "sentence": "Online shopping does not eliminate the labor behind retail; it shifts work into warehouses, packing, transport, and last-mile delivery, where the final handoff remains difficult to automate.",
+      "coreVerb": "shift",
+      "theme": "ECが労働を物流工程へ移す構造を捉える",
+      "_sourceFile": "cards-extra-20261120.json"
     }
   ]
 }
