@@ -1,0 +1,136 @@
+[
+  {
+    "id": "DE-20261120-001",
+    "sourceTitle": "『人口は背景ではなく地面になる』",
+    "workId": "daily-essay-20261120",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "区切り線が重さを見せる",
+    "jp": "人口の図に三十歳の線を引くと、二〇二六年十月の概算では、二十九歳以下は約三千百三十九万人、三十歳以上は約九千百三十万人になった。別の線で見ると、六十歳以上は約四千三百九十二万人で、二十九歳以下より約千二百五十万人多い。境界の置き方で見え方は変わるが、差そのものは気分では消えない。人口構成は背景の数字ではなく、制度、需要、発言力が立つ地面として先に存在している。",
+    "translationLiteral": "When a line at age thirty was drawn on the population chart, the rough October 2026 figures showed about 31.39 million people aged twenty-nine or younger and about 91.30 million aged thirty or older. Viewed with another line, about 43.92 million people were sixty or older, roughly 12.5 million more than those aged twenty-nine or younger. Where the boundary is placed changes the appearance, but mood does not erase the difference itself. Population structure is not a background number; it exists first as the ground on which institutions, demand, and political voice stand.",
+    "translationNatural": "Drawing a line at age thirty changed the population chart: rough figures for October 2026 put about 31.39 million people at twenty-nine or younger and about 91.30 million at thirty or older. Another cut showed roughly 43.92 million people aged sixty or above, about 12.5 million more than the younger group. The picture changes with the boundary, but the gap does not vanish with anyone's mood. Population structure is not a number in the background; it is the ground beneath institutions, demand, and political voice.",
+    "imageUrl": "",
+    "imageCaption": "人口図に引かれた年齢の線が、世代間の人数差を地面の傾きとして見せる。",
+    "imagePrompt": "Editorial illustration of a population chart divided at ages thirty and sixty, unequal groups standing on sloped ground beneath institutions, markets, and public debate, no readable text",
+    "chunks": [
+      {"en": "Drawing a line at age thirty changed the population chart: rough figures for October 2026 put about 31.39 million people at twenty-nine or younger and about 91.30 million at thirty or older.", "ja": "三十歳の線を引くと人口図の見え方が変わり、二〇二六年十月の概算では、二十九歳以下が約三千百三十九万人、三十歳以上が約九千百三十万人となった。"},
+      {"en": "Another cut showed roughly 43.92 million people aged sixty or above, about 12.5 million more than the younger group.", "ja": "別の区切りでは六十歳以上が約四千三百九十二万人となり、若い側の集団より約千二百五十万人多かった。"},
+      {"en": "The picture changes with the boundary, but the gap does not vanish with anyone's mood.", "ja": "境界によって見え方は変わるが、その人数差は誰かの気分で消えはしない。"},
+      {"en": "Population structure is not a number in the background; it is the ground beneath institutions, demand, and political voice.", "ja": "人口構成は背景の数字ではなく、制度、需要、政治的発言力を下から支える地面である。"}
+    ],
+    "grammar": [
+      "Drawing a line ... は動名詞句を主語にし、区切る行為が図の見え方を変えたことを示す。",
+      "put A at ... and B at ... は、二つの集団の概算人数を並列して示す。",
+      "aged sixty or above は people を後ろから限定し、六十歳以上を表す。",
+      "about 12.5 million more than ... は、比較対象を the younger group と明示する。",
+      "changes with A, but B does not ... は、境界による見え方の変化と人数差の持続を対比する。",
+      "not A; it is B は、人口構成を背景から地面へ捉え直す。"
+    ],
+    "translationNote": "rough figures を用いて概算であることを維持し、数値を確定値として強めていない。Another cut は別の年齢境界による集計を指し、人口を実際に切断する意味ではない。political voice は制度上の権限ではなく、人数が政治的発言力へ及ぼす重みを表す。",
+    "readingPoint": "導入。年齢の区切り方に注意を払いながら、人口差を思想や気分より先にある条件として置く。",
+    "keywords": ["人口構成", "年齢境界", "概算", "人数差", "需要", "発言力"]
+  },
+  {
+    "id": "DE-20261120-002",
+    "sourceTitle": "『人口は背景ではなく地面になる』",
+    "workId": "daily-essay-20261120",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "青春は同じ暦を通らない",
+    "jp": "人数の差は、どの世代にも同じ物語を与えるわけではない。ある世代の年表には、一九九五年の震災、二〇〇八年の金融危機、二〇一一年の震災、二〇二〇年の感染症流行が、進学、就職、働き盛りの節目に重なった。対話ではそれが「青春が無かった世代の上で青春を始める」という像になった。大きな世代の時間が終わらないまま、少ない世代の時間がその上へ足場を探す。人口モメンタムとは、人数だけでなく、過去の暦が現在の余地を押し続けることでもある。",
+    "translationLiteral": "A difference in numbers does not give the same story to people born in the same year. On the timeline of one generation, the 1995 earthquake, the 2008 financial crisis, the 2011 earthquake, and the 2020 pandemic overlapped with turning points in education, employment, and the prime of working life. In the conversation, this became the image of beginning one's youth on top of a generation that had no youth. Before the time of the larger generation has ended, the smaller generation searches for footing on top of it. Population momentum is not only about numbers; it is also the way the calendar of the past continues to press on the room available in the present.",
+    "translationNatural": "Unequal numbers do not give every cohort the same story. For one generation, the 1995 earthquake, the 2008 financial crisis, the 2011 earthquake, and the 2020 pandemic fell across turning points in education, employment, and mid-career life. The conversation pictured this as starting a youth of one's own on top of a generation that had been denied its youth. While the larger generation's time continues, the smaller one must look for footing above it. Population momentum is therefore carried not only by head counts, but also by past calendars that keep pressing on the room available now.",
+    "imageUrl": "",
+    "imageCaption": "四つの危機が世代ごとの進学・就職・働き盛りに異なる位置で重なる。",
+    "imagePrompt": "Editorial illustration of two generations on layered timelines marked by a 1995 earthquake, 2008 financial crisis, 2011 earthquake, and 2020 pandemic, the smaller cohort seeking footing above the larger, no readable text",
+    "chunks": [
+      {"en": "Unequal numbers do not give every cohort the same story.", "ja": "人数が不均衡だからといって、すべての世代集団が同じ物語を与えられるわけではない。"},
+      {"en": "For one generation, the 1995 earthquake, the 2008 financial crisis, the 2011 earthquake, and the 2020 pandemic fell across turning points in education, employment, and mid-career life.", "ja": "ある世代では、一九九五年の震災、二〇〇八年の金融危機、二〇一一年の震災、二〇二〇年の感染症流行が、進学、就職、働き盛りの転機に重なった。"},
+      {"en": "The conversation pictured this as starting a youth of one's own on top of a generation that had been denied its youth.", "ja": "対話はこれを、青春を奪われた世代の上で自分たちの青春を始めるという像で表した。"},
+      {"en": "While the larger generation's time continues, the smaller one must look for footing above it.", "ja": "大きな世代の時間が続くあいだ、少ない世代はその上に足場を探さなければならない。"},
+      {"en": "Population momentum is therefore carried not only by head counts, but also by past calendars that keep pressing on the room available now.", "ja": "したがって人口モメンタムを運ぶのは人数だけではなく、現在の余地を押し続ける過去の暦でもある。"}
+    ],
+    "grammar": [
+      "do not give every cohort the same story は、全世代が同じ経験をするという一般化を否定する。",
+      "fell across turning points は、複数の出来事が人生の節目にまたがったことを表す。",
+      "pictured A as B は、対話で用いられた比喩的な像を導く。",
+      "had been denied は過去完了受動態で、後の世代が青春を始めるより前の欠落を示す。",
+      "While A continues, B must ... は、大きな世代の持続と小さな世代の足場探しを同時に置く。",
+      "not only by A, but also by B は、人口モメンタムを人数から暦の圧力へ広げる。"
+    ],
+    "translationNote": "cohort は同時期に生まれた世代集団で、家族や組織を指さない。had been denied its youth は対話の比喩を保ち、特定世代が文字どおり青春を一切経験しなかったと断定していない。mid-career life は働き盛りの時期を示し、特定の年齢へ固定していない。",
+    "readingPoint": "展開。人口差を人生の暦へ移し、同じ危機でも世代によって当たる節目が異なることを描く。",
+    "keywords": ["世代", "震災", "金融危機", "感染症流行", "青春", "人口モメンタム"]
+  },
+  {
+    "id": "DE-20261120-003",
+    "sourceTitle": "『人口は背景ではなく地面になる』",
+    "workId": "daily-essay-20261120",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "利益と移動の地図",
+    "jp": "地面が傾けば、仕事の地図も動く。海外生産と海外販売で企業の連結売上が増えても、国内工場、下請け、労働者の所得まで同じように増えるとは限らない。国内製造の成長と企業の成長は、同じ社名の下で離れていくことがある。一方、買い物は電子商取引へ移り、次に問われたのは配送だった。対話は自動配送から「ゆりかごから墓場まで配送」という像へ進んだ。人も物も移せる未来を語るほど、誰が運び、誰が負担し、誰が移動から取り残されるかが、利益の外側に残る。",
+    "translationLiteral": "When the ground tilts, the map of work also moves. Even if overseas production and sales increase a company's consolidated revenue, domestic factories, subcontractors, and workers' incomes do not necessarily increase in the same way. Growth in domestic manufacturing and growth of the company can move apart under the same corporate name. Meanwhile, shopping moved toward e-commerce, and delivery became the next question. The conversation moved from automated delivery to the image of delivery from cradle to grave. The more a future capable of moving both people and goods is discussed, the more the questions of who carries, who bears the burden, and who is left behind by mobility remain outside the profit figure.",
+    "translationNatural": "When the ground tilts, the map of work shifts with it. Overseas production and sales may raise a company's consolidated revenue without bringing equal gains to domestic factories, subcontractors, or workers' incomes. Corporate growth and growth in domestic manufacturing can separate beneath the same company name. As shopping moves online, delivery becomes the next pressure point, and the conversation extended automated delivery into an image of transport from cradle to grave. The more completely a system promises to move people and goods, the more sharply we must ask who carries them, who bears the cost, and who is left outside that mobility.",
+    "imageUrl": "",
+    "imageCaption": "企業の売上線が海外へ伸びる一方、国内の工場と配送の負担が別の地図に残る。",
+    "imagePrompt": "Editorial illustration of a tilted economic map with corporate revenue lines moving overseas, domestic factories and subcontractors on one side, automated delivery carrying people and goods on another, no readable text",
+    "chunks": [
+      {"en": "When the ground tilts, the map of work shifts with it.", "ja": "地面が傾くと、仕事の地図もそれに伴って動く。"},
+      {"en": "Overseas production and sales may raise a company's consolidated revenue without bringing equal gains to domestic factories, subcontractors, or workers' incomes.", "ja": "海外生産と海外販売は企業の連結売上を増やしても、国内工場、下請け、労働者の所得へ同じだけの増加をもたらすとは限らない。"},
+      {"en": "Corporate growth and growth in domestic manufacturing can separate beneath the same company name.", "ja": "企業の成長と国内製造の成長は、同じ社名の下で分かれることがある。"},
+      {"en": "As shopping moves online, delivery becomes the next pressure point, and the conversation extended automated delivery into an image of transport from cradle to grave.", "ja": "買い物がオンラインへ移るにつれ、配送が次の負担点となり、対話は自動配送を、ゆりかごから墓場まで運ぶ交通の像へ広げた。"},
+      {"en": "The more completely a system promises to move people and goods, the more sharply we must ask who carries them, who bears the cost, and who is left outside that mobility.", "ja": "人と物を完全に動かすと仕組みが約束するほど、誰が運び、誰が費用を負い、誰がその移動の外へ残されるかを、より鋭く問わなければならない。"}
+    ],
+    "grammar": [
+      "When A, B は、人口という地面の変化と仕事の地図の変化を結ぶ。",
+      "may raise A without bringing B は、連結売上の増加が国内側の同等な利益を伴わない可能性を示す。",
+      "can separate beneath ... は、同じ企業名でも二種類の成長が分かれうることを表す。",
+      "As shopping moves online は、電子商取引への移行と配送問題の浮上を同時進行で示す。",
+      "extended A into B は、自動配送の話が生涯の移動を担う像へ広がったことを表す。",
+      "The more A, the more B は、移動の約束が大きいほど負担主体への問いが強まる比例関係を示す。",
+      "who carries / who bears / who is left は、運搬主体・費用負担者・取り残される人を並列する。"
+    ],
+    "translationNote": "consolidated revenue は企業グループ全体の連結売上で、国内工場の売上と混同していない。from cradle to grave は対話中の配送像を句として保ち、福祉制度全体を意味するとはしていない。the cost は金銭だけでなく運用負担も含みうるが、英文では誰が負担するかという問いに限定した。",
+    "readingPoint": "転換。人口という地面から仕事と移動の地図へ移り、企業の成長と国内の受益、便利さと負担を分ける。",
+    "keywords": ["国内製造", "海外生産", "連結売上", "下請け", "自動配送", "移動"]
+  },
+  {
+    "id": "DE-20261120-004",
+    "sourceTitle": "『人口は背景ではなく地面になる』",
+    "workId": "daily-essay-20261120",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "数字を街へ戻す",
+    "jp": "その日、歴史の記録へ足されたのは、事件名だけではなかった。昭和初期の東京で、都市生活とインフラが人々の日常をどう支えたかを確かめ、作家の不足作品も補った。無声映画も、フィルムだけではなく、生演奏、字幕、弁士を伴う上演として見直された。「フィクションです」という表示だけでは、語られた内容が現実へ及ぼす作用まで解除できないという議論もあった。人口表も歴史表も、数字や題名を置けば終わるのではない。その下にいた人の通勤、買い物、仕事、娯楽まで戻したとき、地面はようやく街になる。",
+    "translationLiteral": "What was added to the historical record that day was not only the names of events. The record examined how urban life and infrastructure supported people's daily lives in early Showa Tokyo, and it also filled gaps in a writer's works. Silent film was reconsidered not as film alone but as performance accompanied by live music, intertitles, and a narrator. There was also a discussion that the label 'this is fiction' alone cannot cancel the effects that what is told may have on reality. A population table or historical table is not finished merely by placing numbers or titles in it. Only when the commuting, shopping, work, and entertainment of the people beneath them are restored does the ground finally become a city.",
+    "translationNatural": "That day's additions to the historical record went beyond event names. The work asked how urban life and infrastructure sustained everyday life in early Showa Tokyo, filled gaps in a writer's bibliography, and reconsidered silent film as a performance with live music, intertitles, and a narrator rather than film alone. It also questioned whether the label 'this is fiction' can erase a story's effects on reality. Population tables and timelines are not complete when they contain only numbers and titles. The ground becomes a city only when the commuting, shopping, labor, and entertainment of the people who stood on it are restored.",
+    "imageUrl": "",
+    "imageCaption": "人口表と年表の線が、通勤、買い物、仕事、無声映画のある街路へ変わっていく。",
+    "imagePrompt": "Editorial illustration of population tables and historical timelines transforming into an early Showa Tokyo street with commuters, shoppers, workers, and a silent-film performance with live music, no readable text",
+    "chunks": [
+      {"en": "That day's additions to the historical record went beyond event names.", "ja": "その日に歴史記録へ加えたものは、事件名だけにとどまらなかった。"},
+      {"en": "The work asked how urban life and infrastructure sustained everyday life in early Showa Tokyo, filled gaps in a writer's bibliography, and reconsidered silent film as a performance with live music, intertitles, and a narrator rather than film alone.", "ja": "その作業は、昭和初期の東京で都市生活とインフラが日常をどう支えたかを問い、作家の作品目録の不足を補い、無声映画をフィルムだけでなく生演奏、字幕、弁士を伴う上演として捉え直した。"},
+      {"en": "It also questioned whether the label 'this is fiction' can erase a story's effects on reality.", "ja": "さらに、「これはフィクションです」という表示が物語の現実への作用を消せるのかも問うた。"},
+      {"en": "Population tables and timelines are not complete when they contain only numbers and titles.", "ja": "人口表と年表は、数字と題名だけを収めても完成しない。"},
+      {"en": "The ground becomes a city only when the commuting, shopping, labor, and entertainment of the people who stood on it are restored.", "ja": "その地面に立っていた人々の通勤、買い物、労働、娯楽が戻されたときにだけ、地面は街になる。"}
+    ],
+    "grammar": [
+      "went beyond A は、追加内容が事件名だけではなかったことを示す。",
+      "asked how ... sustained ... は、都市生活とインフラの働きを間接疑問で示す。",
+      "asked, filled, and reconsidered は、記録作業の三つの動作を並列する。",
+      "as A rather than B は、無声映画をフィルム単体ではなく上演として捉える対比を示す。",
+      "questioned whether ... can ... は、表示の効力を断定せず問いとして保つ。",
+      "are not complete when ... は、数字と題名だけでは不十分だという条件を示す。",
+      "only when A are restored は倒置せず、街になるための限定条件を示す。",
+      "who stood on it は people を限定し、it が地面を指す。"
+    ],
+    "translationNote": "early Showa Tokyo は昭和初期の東京に限定し、日本全体へ広げていない。bibliography は作家の作品目録で、人物伝を意味しない。intertitles は無声映画の画面に挿入される字幕、narrator はこの文脈では弁士を指す。questioned whether として、フィクション表示の効力に関する議論を結論以上に強めていない。",
+    "readingPoint": "余韻。人口と歴史の表を、そこにいた人々の生活へ戻し、背景だった数字が街の地面になるところで結ぶ。",
+    "keywords": ["都市生活", "インフラ", "無声映画", "弁士", "フィクション", "歴史記録"]
+  }
+]
