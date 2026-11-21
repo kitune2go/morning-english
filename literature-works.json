@@ -494,5 +494,12 @@
     "description": "年齢境界で見える人口差、危機が重なる世代の暦、海外売上と国内製造の分離、自動配送と都市生活の記録を通して、人口構成が制度・仕事・移動・歴史を支える地面になる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261120/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261121",
+    "title": "損失には受取人がいる",
+    "description": "努力・時間・信用を守ろうとする損失回避、損を吸収できる余力の差、無料フェスの運営と公開保留、映画館減少による文化の受け皿喪失を通して、消えたように見える損失の最終受取人を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261121/manifest.json",
+    "mode": "essay-translation"
   }
 ]
