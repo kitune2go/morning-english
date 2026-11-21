@@ -125,7 +125,8 @@
     "cards-extra-20261117.json",
     "cards-extra-20261118.json",
     "cards-extra-20261119.json",
-    "cards-extra-20261120.json"
+    "cards-extra-20261120.json",
+    "cards-extra-20261121.json"
   ],
   "cards": [
     {
@@ -1562,6 +1563,27 @@
       "coreVerb": "shift",
       "theme": "ECが労働を物流工程へ移す構造を捉える",
       "_sourceFile": "cards-extra-20261120.json"
+    },
+    {
+      "_no": 206,
+      "sentence": "An AI-oriented language can simplify how tasks are described, but it still needs separate layers for specification, execution, and verification.",
+      "coreVerb": "simplify",
+      "theme": "AI向け言語でも仕様・実行・検証を分ける",
+      "_sourceFile": "cards-extra-20261121.json"
+    },
+    {
+      "_no": 207,
+      "sentence": "LLMs extend rational calculation while making individual outputs harder to explain, so greater computational control can coexist with a new appearance of mysterious authority.",
+      "coreVerb": "coexist",
+      "theme": "LLMの合理化と再魔術化を同時に捉える",
+      "_sourceFile": "cards-extra-20261121.json"
+    },
+    {
+      "_no": 208,
+      "sentence": "Loss aversion can help explain resistance to wasted effort, waiting, and uncertainty, yet reducing one person's loss often transfers cost or risk to someone else.",
+      "coreVerb": "transfer",
+      "theme": "損失回避と負担移転を同時に見る",
+      "_sourceFile": "cards-extra-20261121.json"
     }
   ]
 }
