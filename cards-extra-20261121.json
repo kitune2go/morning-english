@@ -1,0 +1,709 @@
+[
+  {
+    "_no": 206,
+    "_generatedAt": "2026-11-21T02:00:00+09:00",
+    "sentence": "An AI-oriented language can simplify how tasks are described, but it still needs separate layers for specification, execution, and verification.",
+    "phonetic": "アン エーアイ オリエンティド ラングウィッジ キャン シンプリファイ ハウ タスクス アー ディスクライブド、バット イット スティル ニーズ セパレート レイヤーズ フォー スペシフィケイション、エクセキューション、アンド ヴェリフィケイション。",
+    "japaneseTranslation": "AI向けの言語はタスクの記述方法を単純化できますが、それでも仕様記述・実行・検証の層を分ける必要があります。",
+    "theme": "AI向け言語でも仕様・実行・検証を分ける",
+    "coreVerb": "simplify",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A language can simplify tasks.",
+        "translation": "言語はタスクを単純化できます。"
+      },
+      "phase2": {
+        "sentence": "An AI-oriented language can simplify task descriptions.",
+        "translation": "AI向けの言語はタスク記述を単純化できます。",
+        "addedChunks": "用途(AI-oriented)と対象(task descriptions)を追加"
+      },
+      "phase3": {
+        "sentence": "A language can simplify descriptions, but it cannot remove every system boundary.",
+        "translation": "言語は記述を単純化できますが、すべてのシステム境界をなくすことはできません。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "One shared task format is simpler than many tool-specific syntaxes.",
+        "translation": "一つの共通タスク形式は、多数のツール固有構文より単純です。",
+        "comparison": "simpler than"
+      },
+      "phase5": {
+        "sentence": "An AI-oriented language can simplify how tasks are described, but it still needs separate layers for specification, execution, and verification",
+        "translation": "AI向けの言語はタスクの記述方法を単純化できますが、それでも仕様記述・実行・検証の層を分ける必要があります。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "An AI-oriented language",
+          "function": "対象",
+          "translation": "AI向けの言語は"
+        },
+        {
+          "text": "can simplify how tasks are described,",
+          "function": "行動",
+          "translation": "タスクの記述方法を単純化できます"
+        },
+        {
+          "text": "but it still needs",
+          "function": "接続",
+          "translation": "しかし、それでも必要とします"
+        },
+        {
+          "text": "separate layers for specification, execution,",
+          "function": "対象",
+          "translation": "仕様記述と実行の別々の層を"
+        },
+        {
+          "text": "and verification.",
+          "function": "内容",
+          "translation": "そして検証の層を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "冠詞",
+          "name": "an + AI-oriented language",
+          "where": "An AI-oriented language",
+          "explanation": "一つの一般例としてAI向け言語を示す。",
+          "rule": "an + 母音で始まる発音 + 単数名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can + 動詞原形",
+          "where": "can simplify",
+          "explanation": "単純化できる可能性を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "名詞節",
+          "name": "how節",
+          "where": "how tasks are described",
+          "explanation": "タスクがどのように記述されるかを目的語にする。",
+          "rule": "動詞 + how + 主語 + 動詞"
+        },
+        {
+          "category": "受動態",
+          "name": "are described",
+          "where": "tasks are described",
+          "explanation": "タスクが記述される側であることを示す。",
+          "rule": "be動詞 + 過去分詞"
+        },
+        {
+          "category": "接続",
+          "name": "butによる制限",
+          "where": "but it still needs",
+          "explanation": "記述の単純化と内部構造の必要性を対照させる。",
+          "rule": "節, but + 節"
+        },
+        {
+          "category": "並列",
+          "name": "三項並列",
+          "where": "specification, execution, and verification",
+          "explanation": "三つの層を同列に並べる。",
+          "rule": "A, B, and C"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "An AI-oriented language can simplifies tasks.",
+          "correct": "An AI-oriented language can simplify tasks.",
+          "why": "助動詞canの後は動詞原形にする。"
+        },
+        {
+          "wrong": "how tasks describes",
+          "correct": "how tasks are described",
+          "why": "tasksは記述される側なので受動態を使う。"
+        },
+        {
+          "wrong": "layers for specification, execute, and verification",
+          "correct": "layers for specification, execution, and verification",
+          "why": "並列する要素をすべて名詞形にそろえる。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A common task language can hide syntax differences without hiding system boundaries.",
+          "translation": "共通タスク言語は、システム境界を隠さずに構文差を隠せます。"
+        },
+        {
+          "text": "The language describes intent, while adapters execute it and validators check the result.",
+          "translation": "言語が意図を記述し、アダプターが実行し、検証器が結果を確認します。"
+        },
+        {
+          "text": "Simpler input does not mean a simpler runtime.",
+          "translation": "入力が単純でも、実行環境まで単純とは限りません。"
+        }
+      ],
+      "parseTree": "[S An AI-oriented language [VP can simplify [CP how tasks are described]]], but [S it [VP still needs [NP separate layers [PP for specification, execution, and verification]]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "can simplify how tasks are described",
+          "expanded": "because users can express intent in one shared format",
+          "nuance": "共通形式が記述を簡潔にする理由。"
+        },
+        {
+          "original": "still needs separate layers",
+          "expanded": "since describing a task is different from safely executing it",
+          "nuance": "記述と実行を分ける理由。"
+        },
+        {
+          "original": "verification",
+          "expanded": "therefore, results must be checked independently of the component that produced them",
+          "nuance": "独立検証の必要性。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Tasks can be described in one AI-oriented language while execution and verification are handled separately.",
+          "translation": "タスクは一つのAI向け言語で記述でき、実行と検証は別に処理されます。",
+          "note": "各処理の対象を受動態で示す。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Separating specification from execution, the system can simplify input without weakening verification.",
+          "translation": "仕様記述と実行を分けることで、検証を弱めず入力を単純化できます。",
+          "note": "分離方法を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Separation of specification, execution, and verification supports reliable automation.",
+          "translation": "仕様記述・実行・検証の分離は、信頼できる自動化を支えます。",
+          "note": "separateを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "simplify",
+            "alternatives": [
+              "streamline",
+              "standardize",
+              "abstract"
+            ],
+            "nuance": "simplifyは単純にする、streamlineは無駄を省く、standardizeは形式を統一する、abstractは詳細を隠す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "利点と制限",
+            "sentence": "X can simplify Y, but it still needs A, B, and C.",
+            "translation": "XはYを単純化できますが、なおA・B・Cが必要です。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A shared specification is easier to reuse than several tool-specific command formats.",
+            "translation": "共通仕様は複数のツール固有コマンド形式より再利用しやすいです。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If execution and verification are merged, failures become harder to diagnose.",
+            "translation": "実行と検証を統合すると、失敗原因を診断しにくくなります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What becomes simpler is the description, not every layer beneath it.",
+            "translation": "単純になるのは記述であり、その下の全層ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "One language, three layers: specify, execute, verify.",
+            "translation": "一つの言語、三つの層――仕様、実行、検証です。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "butで表面の単純化と内部の三層構造を明確に対照した。"
+    }
+  },
+  {
+    "_no": 207,
+    "_generatedAt": "2026-11-21T02:00:00+09:00",
+    "sentence": "LLMs extend rational calculation while making individual outputs harder to explain, so greater computational control can coexist with a new appearance of mysterious authority.",
+    "phonetic": "エルエルエムズ イクステンド ラショナル キャルキュレイション ワイル メイキング インディヴィジュアル アウトプッツ ハーダー トゥ イクスプレイン、ソウ グレイター コンピュテイショナル コントロール キャン コウイグジスト ウィズ ア ニュー アピアランス オヴ ミステリアス オーソリティ。",
+    "japaneseTranslation": "LLMは合理的計算を拡張する一方、個々の出力を説明しにくくします。そのため、計算による統制の強化と、新たな神秘的権威の外観が同時に存在し得ます。",
+    "theme": "LLMの合理化と再魔術化を同時に捉える",
+    "coreVerb": "coexist",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Control can coexist with mystery.",
+        "translation": "統制は神秘性と共存し得ます。"
+      },
+      "phase2": {
+        "sentence": "Computational control can coexist with mysterious authority.",
+        "translation": "計算による統制は神秘的権威と共存し得ます。",
+        "addedChunks": "統制の種類(computational)と共存対象(mysterious authority)を追加"
+      },
+      "phase3": {
+        "sentence": "LLMs expand calculation while making outputs harder to explain.",
+        "translation": "LLMは計算を拡張する一方、出力を説明しにくくします。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "System-level calculation can be clearer than the path to one generated answer.",
+        "translation": "システム全体の計算は、一つの生成回答へ至る経路より明確な場合があります。",
+        "comparison": "clearer than"
+      },
+      "phase5": {
+        "sentence": "LLMs extend rational calculation while making individual outputs harder to explain, so greater computational control can coexist with a new appearance of mysterious authority",
+        "translation": "LLMは合理的計算を拡張する一方、個々の出力を説明しにくくします。そのため、計算による統制の強化と、新たな神秘的権威の外観が同時に存在し得ます。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "LLMs extend rational calculation",
+          "function": "行動",
+          "translation": "LLMは合理的計算を拡張します"
+        },
+        {
+          "text": "while making individual outputs",
+          "function": "接続",
+          "translation": "その一方で個々の出力を"
+        },
+        {
+          "text": "harder to explain,",
+          "function": "状態",
+          "translation": "説明しにくくします"
+        },
+        {
+          "text": "so greater computational control can coexist",
+          "function": "結果",
+          "translation": "そのため、計算による統制の強化は共存し得ます"
+        },
+        {
+          "text": "with a new appearance of mysterious authority.",
+          "function": "内容",
+          "translation": "新たな神秘的権威の外観と"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "主語動詞一致",
+          "name": "複数主語LLMs",
+          "where": "LLMs extend",
+          "explanation": "複数主語に動詞原形extendを使う。",
+          "rule": "複数主語 + 動詞原形"
+        },
+        {
+          "category": "接続",
+          "name": "while + -ing",
+          "where": "while making",
+          "explanation": "計算拡張と説明困難化が同時に起こる対照を示す。",
+          "rule": "主節 + while + 動名詞・現在分詞"
+        },
+        {
+          "category": "補語",
+          "name": "make O C",
+          "where": "making individual outputs harder",
+          "explanation": "出力をより説明困難な状態にする。",
+          "rule": "make + 目的語 + 形容詞"
+        },
+        {
+          "category": "比較級",
+          "name": "harder to explain",
+          "where": "harder to explain",
+          "explanation": "説明の難しさが増すことを表す。",
+          "rule": "比較級 + to不定詞"
+        },
+        {
+          "category": "接続",
+          "name": "soによる帰結",
+          "where": "so greater computational control",
+          "explanation": "前半から導かれる概念的帰結を示す。",
+          "rule": "節, so + 節"
+        },
+        {
+          "category": "助動詞",
+          "name": "canによる可能性",
+          "where": "can coexist",
+          "explanation": "必然と断定せず共存の可能性を示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "coexist with",
+          "where": "coexist with a new appearance",
+          "explanation": "二つの性質が同時に存在することを表す。",
+          "rule": "coexist with + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "LLMs extends rational calculation.",
+          "correct": "LLMs extend rational calculation.",
+          "why": "複数主語LLMsにはextendを使う。"
+        },
+        {
+          "wrong": "making outputs more harder to explain",
+          "correct": "making outputs harder to explain",
+          "why": "比較級harderにmoreを重ねない。"
+        },
+        {
+          "wrong": "control can coexists with authority",
+          "correct": "control can coexist with authority",
+          "why": "助動詞canの後は動詞原形coexistにする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A system may be highly rationalized yet difficult to interpret at the level of a single answer.",
+          "translation": "システムは高度に合理化されていても、一つの回答の水準では解釈が難しい場合があります。"
+        },
+        {
+          "text": "More computation does not automatically produce more transparent explanations.",
+          "translation": "計算量が増えても、説明が自動的に透明になるとは限りません。"
+        },
+        {
+          "text": "Opaque outputs can acquire authority precisely because their production process is hard to see.",
+          "translation": "生成過程が見えにくいからこそ、不透明な出力が権威を帯びることがあります。"
+        }
+      ],
+      "parseTree": "[S LLMs [VP extend rational calculation [Adv while making individual outputs harder to explain]]], so [S greater computational control [VP can coexist [PP with a new appearance of mysterious authority]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "extend rational calculation",
+          "expanded": "because they apply statistical computation across large bodies of text",
+          "nuance": "計算可能性が広がる仕組み。"
+        },
+        {
+          "original": "individual outputs harder to explain",
+          "expanded": "since a concise answer does not expose every internal contribution to its generation",
+          "nuance": "出力と生成経路の隔たり。"
+        },
+        {
+          "original": "coexist with a new appearance of mysterious authority",
+          "expanded": "therefore, technical sophistication can be interpreted as authority when the process is opaque",
+          "nuance": "不透明性と権威化の関係。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Rational calculation is extended by LLMs, while individual outputs are made harder to explain.",
+          "translation": "合理的計算はLLMによって拡張される一方、個々の出力は説明しにくくされます。",
+          "note": "二つの効果を受動態で並べる。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Expanding calculation while obscuring explanation, LLMs can appear both rational and mysterious.",
+          "translation": "計算を拡張しながら説明を不透明にすることで、LLMは合理的かつ神秘的に見え得ます。",
+          "note": "同時作用を二つの-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The expansion of computation can accompany a decline in explanatory transparency.",
+          "translation": "計算の拡張は、説明の透明性低下を伴う場合があります。",
+          "note": "extendとexplainを名詞中心にする。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "coexist",
+            "alternatives": [
+              "co-occur",
+              "exist together",
+              "accompany"
+            ],
+            "nuance": "coexistは同時に存在する、co-occurは同時発生する、accompanyは一方が他方に伴う。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "並行する逆説",
+            "sentence": "X increases while Y declines, so A can coexist with B.",
+            "translation": "Xが増える一方Yが低下し、AとBが共存し得ます。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A generated answer may be less transparent than the formal system that produces it.",
+            "translation": "生成回答は、それを生む形式的システムより透明性が低い場合があります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If users cannot inspect the reasoning process, fluent output may appear more authoritative.",
+            "translation": "推論過程を確認できなければ、流暢な出力がより権威的に見える場合があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is not the absence of calculation but its opacity that creates the appearance of mystery.",
+            "translation": "神秘性の外観を生むのは計算の欠如ではなく、その不透明性です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "More calculation can produce less visible reasoning.",
+            "translation": "計算が増えるほど、推論が見えにくくなる場合があります。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 8,
+      "clarity": 8,
+      "flexibility": 9,
+      "focus": 8,
+      "efficiency": 8,
+      "comment": "抽象概念が多く解釈負荷は残るが、whileとsoで対照と帰結を明示し、断定をcanで抑えた。"
+    }
+  },
+  {
+    "_no": 208,
+    "_generatedAt": "2026-11-21T02:00:00+09:00",
+    "sentence": "Loss aversion can help explain resistance to wasted effort, waiting, and uncertainty, yet reducing one person's loss often transfers cost or risk to someone else.",
+    "phonetic": "ロス アヴァージョン キャン ヘルプ イクスプレイン リジスタンス トゥ ウェイステッド エフォート、ウェイティング、アンド アンサーテンティ、イェット リデューシング ワン パーソンズ ロス オーフン トランスファーズ コスト オア リスク トゥ サムワン エルス。",
+    "japaneseTranslation": "損失回避は、無駄になった努力、待ち時間、不確実性への抵抗を説明する助けになります。しかし、ある人の損失を減らすことは、しばしば費用やリスクを別の人へ移します。",
+    "theme": "損失回避と負担移転を同時に見る",
+    "coreVerb": "transfer",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Loss can transfer.",
+        "translation": "損失は移転し得ます。"
+      },
+      "phase2": {
+        "sentence": "Reducing one person's loss can transfer cost to someone else.",
+        "translation": "ある人の損失を減らすことは、費用を別の人へ移す場合があります。",
+        "addedChunks": "負担の移動元(one person's loss)と移動先(someone else)を追加"
+      },
+      "phase3": {
+        "sentence": "People resist waste because losses feel costly.",
+        "translation": "損失が重く感じられるため、人は無駄に抵抗します。",
+        "connector": "because"
+      },
+      "phase4": {
+        "sentence": "An immediate loss can feel more urgent than a delayed shared cost.",
+        "translation": "目先の損失は、後から生じる共同負担より切迫して感じられる場合があります。",
+        "comparison": "more urgent than"
+      },
+      "phase5": {
+        "sentence": "Loss aversion can help explain resistance to wasted effort, waiting, and uncertainty, yet reducing one person's loss often transfers cost or risk to someone else",
+        "translation": "損失回避は、無駄になった努力、待ち時間、不確実性への抵抗を説明する助けになります。しかし、ある人の損失を減らすことは、しばしば費用やリスクを別の人へ移します。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Loss aversion can help explain",
+          "function": "行動",
+          "translation": "損失回避は説明する助けになります"
+        },
+        {
+          "text": "resistance to wasted effort, waiting, and uncertainty,",
+          "function": "対象",
+          "translation": "無駄になった努力、待ち時間、不確実性への抵抗を"
+        },
+        {
+          "text": "yet reducing one person's loss",
+          "function": "接続",
+          "translation": "しかし、ある人の損失を減らすことは"
+        },
+        {
+          "text": "often transfers cost or risk",
+          "function": "結果",
+          "translation": "しばしば費用やリスクを移します"
+        },
+        {
+          "text": "to someone else.",
+          "function": "対象",
+          "translation": "別の人へ"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can help explain",
+          "where": "can help explain",
+          "explanation": "唯一の原因と断定せず、説明に役立つ可能性を示す。",
+          "rule": "can help + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "resistance to",
+          "where": "resistance to wasted effort",
+          "explanation": "何に対する抵抗かをtoで示す。",
+          "rule": "resistance to + 名詞"
+        },
+        {
+          "category": "並列",
+          "name": "三項並列",
+          "where": "wasted effort, waiting, and uncertainty",
+          "explanation": "三種類の損失感覚を同列に並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "接続",
+          "name": "yetによる逆接",
+          "where": "yet reducing one person's loss",
+          "explanation": "個人の損失軽減と別人への負担移転を対照する。",
+          "rule": "節, yet + 節"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞句の主語",
+          "where": "reducing one person's loss",
+          "explanation": "損失を減らす行為全体を単数主語として扱う。",
+          "rule": "動名詞句 + 三人称単数動詞"
+        },
+        {
+          "category": "主語動詞一致",
+          "name": "reducing ... transfers",
+          "where": "transfers",
+          "explanation": "単数の動名詞句主語にtransfersを使う。",
+          "rule": "単数主語 + 動詞-s"
+        },
+        {
+          "category": "語法",
+          "name": "transfer A to B",
+          "where": "transfers cost or risk to someone else",
+          "explanation": "費用やリスクを別の主体へ移すことを表す。",
+          "rule": "transfer + 目的語 + to + 相手"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Loss aversion can helps explain resistance.",
+          "correct": "Loss aversion can help explain resistance.",
+          "why": "助動詞canの後は動詞原形helpにする。"
+        },
+        {
+          "wrong": "resistance for wasted effort",
+          "correct": "resistance to wasted effort",
+          "why": "resistanceは通常toと結び付く。"
+        },
+        {
+          "wrong": "Reducing one person's loss often transfer costs.",
+          "correct": "Reducing one person's loss often transfers costs.",
+          "why": "動名詞句主語は単数なのでtransfersを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Avoiding a visible loss can create a less visible cost elsewhere.",
+          "translation": "目に見える損失を避けることで、別の場所に見えにくい費用が生じる場合があります。"
+        },
+        {
+          "text": "Faster service may save customers time by increasing pressure on workers.",
+          "translation": "サービスの高速化は、働く人への圧力を増やすことで顧客の時間を節約する場合があります。"
+        },
+        {
+          "text": "A system should measure who benefits and who absorbs the remaining risk.",
+          "translation": "制度は、誰が利益を得て、誰が残るリスクを引き受けるかを測るべきです。"
+        }
+      ],
+      "parseTree": "[S Loss aversion [VP can help explain resistance to wasted effort, waiting, and uncertainty]], yet [S [Gerund phrase reducing one person's loss] [VP often transfers cost or risk [PP to someone else]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "can help explain resistance",
+          "expanded": "because people may weigh potential losses more heavily than equivalent gains",
+          "nuance": "損失回避が抵抗を説明する仕組み。"
+        },
+        {
+          "original": "reducing one person's loss",
+          "expanded": "when a system shortens waiting time or protects one party from uncertainty",
+          "nuance": "損失軽減の具体的な場面。"
+        },
+        {
+          "original": "transfers cost or risk to someone else",
+          "expanded": "therefore, the remaining burden may be absorbed by workers, providers, or other users",
+          "nuance": "負担が消えず別主体へ移る可能性。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Cost or risk is often transferred elsewhere when one person's visible loss is reduced.",
+          "translation": "ある人の目に見える損失が減ると、費用やリスクはしばしば別の場所へ移されます。",
+          "note": "移される負担を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Trying to avoid visible losses, a system may create hidden burdens for other participants.",
+          "translation": "目に見える損失を避けようとして、制度が他の参加者に隠れた負担を生む場合があります。",
+          "note": "損失回避の動機を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Loss reduction for one party may cause cost transfer to another.",
+          "translation": "一方の損失削減が、他方への費用移転を引き起こす場合があります。",
+          "note": "reduceとtransferを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "transfer",
+            "alternatives": [
+              "shift",
+              "redistribute",
+              "pass on"
+            ],
+            "nuance": "transferは別主体へ移す、shiftは負担の位置を変える、redistributeは複数主体へ再配分する、pass onは次の人へ回す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "利得と負担",
+            "sentence": "Reducing X for A can transfer Y to B.",
+            "translation": "AのXを減らすことで、YがBへ移る場合があります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A visible personal loss may attract more attention than a diffuse shared cost.",
+            "translation": "目に見える個人の損失は、広く分散した共同負担より注目される場合があります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a loss is removed from one stage, check whether it reappears at another stage.",
+            "translation": "ある工程から損失を除いたなら、別工程に再出現していないか確認します。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "The burden may change owners; it does not necessarily disappear.",
+            "translation": "負担の持ち主は変わっても、負担そのものが消えるとは限りません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "One person's relief can become another person's burden.",
+            "translation": "ある人の救済が、別の人の負担になる場合があります。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "can helpで因果を断定せず、yetで個人の損失軽減と負担移転を対照した。"
+    }
+  }
+]
