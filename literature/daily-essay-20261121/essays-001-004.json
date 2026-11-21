@@ -1,0 +1,138 @@
+[
+  {
+    "id": "DE-20261121-001",
+    "sourceTitle": "『損失には受取人がいる』",
+    "workId": "daily-essay-20261121",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "損を避ける四つの速度",
+    "jp": "「努力は裏切らない」という言葉は、費やした努力を損だったと思いたくない願いにも見える。長い制作を早送りで見るのは、鑑賞の時間を失いたくないからかもしれない。情報漏洩を恐れるのは、金銭と信用を守りたいからであり、AIへ速さを求めるのは待ち時間を減らしたいからである。対話はこれらを損失回避という一つの線で結んだ。対象は違っても、人は支払った時間、労力、信用が戻らないことに敏感である。",
+    "translationLiteral": "The phrase 'effort does not betray you' can also look like a wish not to think that the effort spent was a loss. Watching a long creative process in fast motion may come from not wanting to lose viewing time. Fear of an information leak comes from wanting to protect money and trust, while asking AI for speed comes from wanting to reduce waiting time. The conversation connected these with one line called loss aversion. Although the objects differ, people are sensitive to the fact that time, labor, and trust already spent do not return.",
+    "translationNatural": "The saying 'effort never betrays you' can carry a wish to believe that spent effort was not wasted. Watching a long creative process in time-lapse may protect the viewer from feeling that time has been lost. Fear of a data leak reflects a wish to protect money and trust, while demands for faster AI reflect a wish to reduce waiting time. The conversation joined these reactions under loss aversion. Their objects differ, but each begins with sensitivity to time, labor, or trust that cannot be recovered.",
+    "imageUrl": "",
+    "imageCaption": "努力、早送り、情報漏洩、AIの速度が、失いたくないものを中心に一本の線へ集まる。",
+    "imagePrompt": "Editorial illustration of four paths labeled only by visual symbols for effort, time-lapse, data security, and fast AI converging on an hourglass of irrecoverable time and trust, no readable text",
+    "chunks": [
+      {"en": "The saying 'effort never betrays you' can carry a wish to believe that spent effort was not wasted.", "ja": "「努力は決して裏切らない」という言葉には、費やした努力は無駄ではなかったと信じたい願いが含まれることがある。"},
+      {"en": "Watching a long creative process in time-lapse may protect the viewer from feeling that time has been lost.", "ja": "長い制作過程をタイムラプスで見ることは、時間を失ったと感じることから鑑賞者を守るのかもしれない。"},
+      {"en": "Fear of a data leak reflects a wish to protect money and trust, while demands for faster AI reflect a wish to reduce waiting time.", "ja": "情報漏洩への恐れは金銭と信用を守りたい願いを反映し、AIへ速さを求める要求は待ち時間を減らしたい願いを反映する。"},
+      {"en": "The conversation joined these reactions under loss aversion.", "ja": "対話は、これらの反応を損失回避という一つの概念で結んだ。"},
+      {"en": "Their objects differ, but each begins with sensitivity to time, labor, or trust that cannot be recovered.", "ja": "対象は異なるが、どれも回復できない時間、労力、信用への敏感さから始まる。"}
+    ],
+    "grammar": [
+      "The saying ... can carry ... は、言葉が別の願いも含みうると可能性で述べる。",
+      "a wish to believe that ... は、無駄ではなかったと信じたい内容を that 節で示す。",
+      "Watching ... は動名詞句を主語にし、タイムラプス視聴という行為全体を扱う。",
+      "may protect A from -ing は、鑑賞者が損失感を避ける可能性を表す。",
+      "reflects a wish to ... は、恐れや要求の背後にある願いを示し、それ自体が損失を防ぐとは断定しない。",
+      "that cannot be recovered は time, labor, or trust を後ろから限定する。"
+    ],
+    "translationNote": "never betrays you は会話中の定型句の調子を保つ。time-lapse は単なる高速再生ではなく、長い制作過程を短く見る形式を指す。reflects a wish to として、恐れや要求そのものが金銭・信用・時間を実際に守るという因果へ強めず、損を避けたい動機を表した。",
+    "readingPoint": "導入。異なる四つの話題を、すでに支払ったものを失いたくないという共通の感覚で結ぶ。",
+    "keywords": ["損失回避", "努力", "タイムラプス", "情報漏洩", "AI", "待ち時間"]
+  },
+  {
+    "id": "DE-20261121-002",
+    "sourceTitle": "『損失には受取人がいる』",
+    "workId": "daily-essay-20261121",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "同じ損でも深さが違う",
+    "jp": "しかし、「誰でも損をしたくない」と言うだけでは、損の深さが消えてしまう。十分な資産や余裕がある人にとっての損は、予定の変更で済むことがある。手取りで暮らす人にとっては、同じ金額が住居、食事、次の給料日までの安全を削るかもしれない。損失回避は共通でも、受け止められる幅は共通ではない。全員が自分の損を拒めば、その損は消滅せず、交渉力が弱く、退出しにくい人へ送られる。",
+    "translationLiteral": "However, merely saying that no one wants to suffer a loss erases the depth of the loss. For a person with sufficient assets or room, a loss may end as a change of plans. For a person living on take-home pay, the same amount may reduce the safety of housing, meals, and the period until the next payday. Loss aversion may be shared, but the range of loss that can be absorbed is not shared. If everyone rejects their own loss, it does not disappear; it is sent to people with weaker bargaining power and fewer ways to leave.",
+    "translationNatural": "Yet saying that everyone wants to avoid loss can flatten crucial differences. For someone with ample assets or slack, a loss may mean only a change of plans. For someone living on take-home pay, the same amount may threaten housing, meals, or the stretch before the next payday. Loss aversion may be common, but the capacity to absorb loss is not. When everyone refuses a cost, it does not vanish; it travels toward those with less bargaining power and fewer exits.",
+    "imageUrl": "",
+    "imageCaption": "同額の損失が、余裕のある側では予定変更に、余裕のない側では生活の欠落に変わる。",
+    "imagePrompt": "Editorial illustration of the same weighted coin landing on two unequal cushions, one thick and one thin, affecting housing, meals, and a calendar before payday, no readable text",
+    "chunks": [
+      {"en": "Yet saying that everyone wants to avoid loss can flatten crucial differences.", "ja": "しかし、誰もが損を避けたいと言うだけでは、決定的な違いを平らにしてしまうことがある。"},
+      {"en": "For someone with ample assets or slack, a loss may mean only a change of plans.", "ja": "十分な資産や余裕がある人にとって、損失は予定の変更だけを意味することがある。"},
+      {"en": "For someone living on take-home pay, the same amount may threaten housing, meals, or the stretch before the next payday.", "ja": "手取りで暮らす人にとっては、同じ金額が住居、食事、次の給料日までの期間を脅かすかもしれない。"},
+      {"en": "Loss aversion may be common, but the capacity to absorb loss is not.", "ja": "損失回避は共通していても、損失を吸収する力は共通ではない。"},
+      {"en": "When everyone refuses a cost, it does not vanish; it travels toward those with less bargaining power and fewer exits.", "ja": "全員が費用を拒むと、それは消えず、交渉力が弱く出口の少ない人々へ移っていく。"}
+    ],
+    "grammar": [
+      "saying that ... は動名詞句を主語にし、一般化する発言そのものを扱う。",
+      "can flatten ... は、差を見えなくする可能性を比喩で表す。",
+      "For someone with ... / For someone living ... は、二つの立場を並列して比較する。",
+      "the same amount は、比較される金額が同一であることを明示する。",
+      "may be A, but B is not は、感情の共通性と吸収力の非共通性を対比する。",
+      "those with less ... and fewer ... は、交渉力と退出経路の二条件で受取人を限定する。"
+    ],
+    "translationNote": "slack は資産とは別の生活上の余裕を指す。take-home pay は税や控除後の手取りで、総収入へ広げていない。the stretch before the next payday は次の給料日までの期間を生活上の緊張として自然に表す。exits は物理的な出口ではなく、負担から離れる選択肢を指す。",
+    "readingPoint": "展開。損失回避の共通性から、同額の損を吸収できる余力の差へ視点を移す。",
+    "keywords": ["余力", "手取り", "住居", "給料日", "交渉力", "退出経路"]
+  },
+  {
+    "id": "DE-20261121-003",
+    "sourceTitle": "『損失には受取人がいる』",
+    "workId": "daily-essay-20261121",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "無料の祭りの請求書",
+    "jp": "一九六九年の無料フェスをめぐる対話では、善意と反抗の看板だけでは運営の帳簿にならないことが浮かんだ。警備、導線、混雑、暴力の危険を誰も十分に引き受けなければ、最後の請求書は最も弱い観客へ届く。無料とは、費用が存在しないことではなく、別の誰かが金銭以外の形で払うことにもなりうる。その日の歴史年表には関連項目が追加されたが、根拠確認が必要な項目は公開されずに残った。不確かさを読者へ押しつけないための保留もまた、損失の送り先を明記する作業である。",
+    "translationLiteral": "In the conversation about a free festival in 1969, it became clear that signs of goodwill and rebellion alone do not make an operating ledger. If no one fully assumes responsibility for security, routes, crowding, and the risk of violence, the final bill reaches the weakest spectator. Free does not mean that costs do not exist; it can mean that someone else pays them in a form other than money. Related entries were added to the historical timeline that day, but entries requiring verification remained unpublished. Holding them back so that uncertainty is not pushed onto readers is also work that identifies where a loss is sent.",
+    "translationNatural": "A conversation about a free festival in 1969 showed that goodwill and rebellion as slogans are not an operating ledger. If no one fully owns security, crowd flow, congestion, or the risk of violence, the final bill reaches the most vulnerable spectator. Free does not mean costless; it may mean that someone else pays in a currency other than money. Related entries were added to the historical timeline that day, but items needing verification remained unpublished. Withholding them rather than passing uncertainty to readers was another way of naming who would otherwise receive the loss.",
+    "imageUrl": "",
+    "imageCaption": "無料フェスの舞台裏で、警備と混雑の未払い請求書が弱い観客へ向かう。",
+    "imagePrompt": "Editorial illustration of a 1969 free music festival with an invisible operating ledger, unpaid security and crowd-flow costs moving toward a vulnerable spectator, alongside a historical archive holding unverified entries, no readable text",
+    "chunks": [
+      {"en": "A conversation about a free festival in 1969 showed that goodwill and rebellion as slogans are not an operating ledger.", "ja": "一九六九年の無料フェスをめぐる対話は、善意と反抗という看板が運営の帳簿にはならないことを示した。"},
+      {"en": "If no one fully owns security, crowd flow, congestion, or the risk of violence, the final bill reaches the most vulnerable spectator.", "ja": "警備、観客の導線、混雑、暴力の危険を誰も十分に引き受けなければ、最後の請求書は最も弱い観客へ届く。"},
+      {"en": "Free does not mean costless; it may mean that someone else pays in a currency other than money.", "ja": "無料は費用がないことを意味せず、別の誰かが金銭以外の通貨で払うことを意味する場合がある。"},
+      {"en": "Related entries were added to the historical timeline that day, but items needing verification remained unpublished.", "ja": "その日、関連項目は歴史年表へ追加されたが、根拠確認が必要な項目は未公開のまま残った。"},
+      {"en": "Withholding them rather than passing uncertainty to readers was another way of naming who would otherwise receive the loss.", "ja": "不確かさを読者へ渡さず項目を保留することは、そうでなければ誰が損失を受け取るかを明示する別の方法だった。"}
+    ],
+    "grammar": [
+      "goodwill and rebellion as slogans は、善意と反抗が掲げる看板であることを保つ。",
+      "If no one ... , the final bill ... は、運営責任が引き受けられない条件と結果を結ぶ。",
+      "owns security ... は所有ではなく、警備などの責任を引き受ける意味で使う。",
+      "does not mean A; it may mean B は、無料と無費用を切り離す。",
+      "were added ..., but ... remained ... は、登録と公開保留を対比する。",
+      "rather than passing ... は、読者へ不確かさを渡す代わりに保留したことを示す。",
+      "who would otherwise receive ... は、保留しなかった場合の損失の受取人を示す。"
+    ],
+    "translationNote": "free festival は入場無料の音楽フェスを指し、運営費が存在しないとはしていない。owns は責任の引受けを意味し、警備の所有権ではない。currency other than money は暴力や危険など金銭外の負担を通貨にたとえる。remained unpublished は登録済みだが公開されていない状態を保つ。",
+    "readingPoint": "転換。個人の損失感から、無料イベントと歴史公開が負担や不確かさを誰へ渡すかという制度の問題へ移る。",
+    "keywords": ["無料フェス", "善意", "警備", "混雑", "不確かさ", "公開保留"]
+  },
+  {
+    "id": "DE-20261121-004",
+    "sourceTitle": "『損失には受取人がいる』",
+    "workId": "daily-essay-20261121",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "話題が降りる場所",
+    "jp": "海外の大きなコミコンが日本で以前ほど話題にならない、という短い対話のあとに、「映画館がなくなっている」という一言が置かれた。文化の情報は、内容だけで届くのではない。上映館、売場、雑誌、会話の場が、遠くの出来事を身近な話題へ着地させる。受け皿が減れば、作品や催事が消えなくても、共有される注意は失われる。その損失は興行主だけでなく、偶然に作品へ出会うはずだった観客が受け取る。損をなくしたように見える仕組みほど、最後の受取人を尋ねなければならない。",
+    "translationLiteral": "After a short conversation that major overseas comic conventions were no longer discussed in Japan as much as before, the remark 'cinemas are disappearing' was placed. Cultural information does not arrive through content alone. Cinemas, shops, magazines, and places of conversation bring distant events down into familiar topics. When the receptacles decrease, shared attention is lost even if works and events do not disappear. That loss is received not only by exhibitors but also by audience members who would otherwise have encountered the work by chance. The more a system appears to have eliminated loss, the more necessary it is to ask who receives it in the end.",
+    "translationNatural": "A brief exchange about major overseas comic conventions fading from conversation in Japan ended with one remark: cinemas themselves are disappearing. Culture does not travel through content alone. Screens, shops, magazines, and places for conversation help distant events land as nearby topics. When those landing places shrink, shared attention is lost even if the works and events still exist. The loss reaches not only exhibitors, but also people who might have encountered a work by chance. The more completely a system seems to remove loss, the more urgently we should ask who receives it last.",
+    "imageUrl": "",
+    "imageCaption": "遠いコミコンから来た情報が、消えていく映画館と会話の場所を探して着地できずにいる。",
+    "imagePrompt": "Editorial illustration of signals from a distant comic convention seeking landing places in Japan, with disappearing cinemas, shops, magazines, and conversation spaces, while potential audiences pass by, no readable text",
+    "chunks": [
+      {"en": "A brief exchange about major overseas comic conventions fading from conversation in Japan ended with one remark: cinemas themselves are disappearing.", "ja": "海外の大きなコミコンが日本の会話から薄れているという短いやり取りは、「映画館そのものが消えている」という一言で終わった。"},
+      {"en": "Culture does not travel through content alone.", "ja": "文化は内容だけを通って移動するのではない。"},
+      {"en": "Screens, shops, magazines, and places for conversation help distant events land as nearby topics.", "ja": "上映館、売場、雑誌、会話の場所が、遠い催事を身近な話題として着地させる。"},
+      {"en": "When those landing places shrink, shared attention is lost even if the works and events still exist.", "ja": "そうした着地点が減ると、作品や催事がなお存在していても、共有される注意は失われる。"},
+      {"en": "The loss reaches not only exhibitors, but also people who might have encountered a work by chance.", "ja": "その損失は興行主だけでなく、偶然に作品と出会ったかもしれない人々にも届く。"},
+      {"en": "The more completely a system seems to remove loss, the more urgently we should ask who receives it last.", "ja": "仕組みが損失を完全に取り除いたように見えるほど、最後に誰が受け取るのかを、より切迫して問うべきである。"}
+    ],
+    "grammar": [
+      "fading from conversation は、話題から徐々に薄れる状態を分詞句で示す。",
+      "ended with one remark は、短い対話の終点に置かれた発言を示す。",
+      "does not travel through A alone は、内容だけでは文化が届かないことを否定する。",
+      "help A land as B は、遠い催事が身近な話題になる過程を表す。",
+      "even if ... still exist は、作品や催事が存在し続けるという譲歩条件を示す。",
+      "not only A, but also B は、損失の受取人を興行主から潜在的な観客へ広げる。",
+      "might have encountered は、実現しなかったかもしれない偶然の出会いを表す。",
+      "The more A, the more B は、損失が消えたように見えるほど受取人への問いが重要になる比例関係を示す。"
+    ],
+    "translationNote": "comic conventions は海外の大規模コミコンを一般化して示し、特定イベント名を追加していない。screens はこの文脈では映画館・上映場所で、端末画面ではない。landing places は文化情報を話題へ変える受け皿の比喩。exhibitors は映画館など上映・興行を担う側を指す。",
+    "readingPoint": "余韻。文化の内容ではなく、それを話題として受け取る場所へ焦点を移し、見えない損失の最終受取人を問う。",
+    "keywords": ["海外コミコン", "映画館", "文化流通", "受け皿", "共有注意", "観客"]
+  }
+]
