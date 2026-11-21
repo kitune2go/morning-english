@@ -12107,5 +12107,1264 @@
         }
       ]
     }
+  ],
+  "DE-20261121-001": [
+    {
+      "words": {
+        "the": {
+          "ja": "その・あの"
+        },
+        "saying": {
+          "ja": "言葉"
+        },
+        "effort": {
+          "ja": "努力"
+        },
+        "never": {
+          "ja": "決して〜ない・一度も〜ない"
+        },
+        "betrays": {
+          "ja": "裏切る"
+        },
+        "you": {
+          "ja": "あなたは・あなたを"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "carry": {
+          "ja": "含む"
+        },
+        "a": {
+          "ja": "一つの・ある"
+        },
+        "wish": {
+          "ja": "願い"
+        },
+        "to": {
+          "ja": "〜へ・〜するために"
+        },
+        "believe": {
+          "ja": "信じる"
+        },
+        "that": {
+          "ja": "それ・〜ということ・〜するもの"
+        },
+        "spent": {
+          "ja": "費やした"
+        },
+        "was": {
+          "ja": "〜だった・いた"
+        },
+        "not": {
+          "ja": "〜ではない"
+        },
+        "wasted": {
+          "ja": "無駄だった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The saying 'effort never betrays you' can carry a wish to believe that spent effort was not wasted.",
+          "ja": "「努力は決して裏切らない」という言葉には、費やした努力は無駄ではなかったと信じたい願いが含まれることがある。",
+          "note": "定型句に、努力を無駄と思いたくない願いが含まれうることを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "watching": {
+          "ja": "見ること"
+        },
+        "a": {
+          "ja": "一つの・ある"
+        },
+        "long": {
+          "ja": "長い・長く"
+        },
+        "creative": {
+          "ja": "制作の"
+        },
+        "process": {
+          "ja": "過程"
+        },
+        "in": {
+          "ja": "〜の中に・〜で"
+        },
+        "time-lapse": {
+          "ja": "タイムラプス"
+        },
+        "may": {
+          "ja": "『5月』"
+        },
+        "protect": {
+          "ja": "守る"
+        },
+        "the": {
+          "ja": "その・あの"
+        },
+        "viewer": {
+          "ja": "鑑賞者"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "feeling": {
+          "ja": "感じること"
+        },
+        "that": {
+          "ja": "それ・〜ということ・〜するもの"
+        },
+        "time": {
+          "ja": "時間・時"
+        },
+        "has": {
+          "ja": "持っている・〜した"
+        },
+        "been": {
+          "ja": "〜であった・いた"
+        },
+        "lost": {
+          "ja": "失われた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Watching a long creative process in time-lapse may protect the viewer from feeling that time has been lost.",
+          "ja": "長い制作過程をタイムラプスで見ることは、時間を失ったと感じることから鑑賞者を守るのかもしれない。",
+          "note": "タイムラプス視聴と時間を失った感覚の回避を結ぶ。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "fear": {
+          "ja": "恐れ"
+        },
+        "of": {
+          "ja": "〜の・〜からなる"
+        },
+        "a": {
+          "ja": "一つの・ある"
+        },
+        "data": {
+          "ja": "情報"
+        },
+        "leak": {
+          "ja": "漏洩"
+        },
+        "reflects": {
+          "ja": "反映する"
+        },
+        "wish": {
+          "ja": "願い"
+        },
+        "to": {
+          "ja": "〜へ・〜するために"
+        },
+        "protect": {
+          "ja": "守る"
+        },
+        "money": {
+          "ja": "金銭"
+        },
+        "and": {
+          "ja": "そして・〜と"
+        },
+        "trust": {
+          "ja": "信用"
+        },
+        "while": {
+          "ja": "〜している間・一方で"
+        },
+        "demands": {
+          "ja": "要求"
+        },
+        "for": {
+          "ja": "〜のために・〜なので・〜の間"
+        },
+        "faster": {
+          "ja": "より速い"
+        },
+        "ai": {
+          "ja": "人工知能（AI）"
+        },
+        "reflect": {
+          "ja": "反映する"
+        },
+        "reduce": {
+          "ja": "減らす"
+        },
+        "waiting": {
+          "ja": "待ち"
+        },
+        "time": {
+          "ja": "時間・時"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Fear of a data leak reflects a wish to protect money and trust, while demands for faster AI reflect a wish to reduce waiting time.",
+          "ja": "情報漏洩への恐れは金銭と信用を守りたい願いを反映し、AIへ速さを求める要求は待ち時間を減らしたい願いを反映する。",
+          "note": "漏洩への恐れとAI速度への要求の背後にある二つの願いを対照する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the": {
+          "ja": "その・あの"
+        },
+        "conversation": {
+          "ja": "対話"
+        },
+        "joined": {
+          "ja": "結んだ"
+        },
+        "these": {
+          "ja": "『これら』,これ,こちら／『これらの』,この,こちらの"
+        },
+        "reactions": {
+          "ja": "反応"
+        },
+        "under": {
+          "ja": "〜の下に"
+        },
+        "loss": {
+          "ja": "損失"
+        },
+        "aversion": {
+          "ja": "回避"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The conversation joined these reactions under loss aversion.",
+          "ja": "対話は、これらの反応を損失回避という一つの概念で結んだ。",
+          "note": "四つの反応を損失回避という概念でまとめる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "their": {
+          "ja": "彼らの・彼女らの"
+        },
+        "objects": {
+          "ja": "対象"
+        },
+        "differ": {
+          "ja": "『違う』,『異なる』／『意見を異にする』"
+        },
+        "but": {
+          "ja": "しかし・〜を除いて"
+        },
+        "each": {
+          "ja": "それぞれ・一つ一つの"
+        },
+        "begins": {
+          "ja": "『始まる,開始する』／発生する,起こる／…を『始める』,に着手する"
+        },
+        "with": {
+          "ja": "〜と一緒に・〜を用いて"
+        },
+        "sensitivity": {
+          "ja": "敏感さ"
+        },
+        "to": {
+          "ja": "〜へ・〜するために"
+        },
+        "time": {
+          "ja": "時間・時"
+        },
+        "labor": {
+          "ja": "労力"
+        },
+        "or": {
+          "ja": "または"
+        },
+        "trust": {
+          "ja": "信用"
+        },
+        "that": {
+          "ja": "それ・〜ということ・〜するもの"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "be": {
+          "ja": "〜である・いる"
+        },
+        "recovered": {
+          "ja": "回復できる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Their objects differ, but each begins with sensitivity to time, labor, or trust that cannot be recovered.",
+          "ja": "対象は異なるが、どれも回復できない時間、労力、信用への敏感さから始まる。",
+          "note": "対象の違いを認めながら、回復できないものへの敏感さを共通項とする。"
+        }
+      ]
+    }
+  ],
+  "DE-20261121-002": [
+    {
+      "words": {
+        "yet": {
+          "ja": "それでも・まだ"
+        },
+        "saying": {
+          "ja": "言葉"
+        },
+        "that": {
+          "ja": "それ・〜ということ・〜するもの"
+        },
+        "everyone": {
+          "ja": "『すべての人』,万人,だれでもみな"
+        },
+        "wants": {
+          "ja": "望む"
+        },
+        "to": {
+          "ja": "〜へ・〜するために"
+        },
+        "avoid": {
+          "ja": "避ける"
+        },
+        "loss": {
+          "ja": "損失"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "flatten": {
+          "ja": "平らにして見えなくする"
+        },
+        "crucial": {
+          "ja": "決定的な"
+        },
+        "differences": {
+          "ja": "違い"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet saying that everyone wants to avoid loss can flatten crucial differences.",
+          "ja": "しかし、誰もが損を避けたいと言うだけでは、決定的な違いを平らにしてしまうことがある。",
+          "note": "損失回避の一般化が余力の差を隠す可能性を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "for": {
+          "ja": "〜のために・〜なので・〜の間"
+        },
+        "someone": {
+          "ja": "誰か"
+        },
+        "with": {
+          "ja": "〜と一緒に・〜を用いて"
+        },
+        "ample": {
+          "ja": "十分な"
+        },
+        "assets": {
+          "ja": "資産"
+        },
+        "or": {
+          "ja": "または"
+        },
+        "slack": {
+          "ja": "余裕"
+        },
+        "a": {
+          "ja": "一つの・ある"
+        },
+        "loss": {
+          "ja": "損失"
+        },
+        "may": {
+          "ja": "『5月』"
+        },
+        "mean": {
+          "ja": "〈人が〉…を『意図する』,のつもりである;…を言おうとする;示そうとする／〈単語・句・文章などが〉…を『意味を持つ』,を『意味する』／(人に対して)…を当てる,向ける《+『名』+『for』+『名』》"
+        },
+        "only": {
+          "ja": "ただ〜だけ"
+        },
+        "change": {
+          "ja": "変更"
+        },
+        "of": {
+          "ja": "〜の・〜からなる"
+        },
+        "plans": {
+          "ja": "予定"
+        }
+      },
+      "phrases": [
+        {
+          "en": "For someone with ample assets or slack, a loss may mean only a change of plans.",
+          "ja": "十分な資産や余裕がある人にとって、損失は予定の変更だけを意味することがある。",
+          "note": "資産や余裕がある人にとっての損失を予定変更へ限定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "for": {
+          "ja": "〜のために・〜なので・〜の間"
+        },
+        "someone": {
+          "ja": "誰か"
+        },
+        "living": {
+          "ja": "生きている人々"
+        },
+        "on": {
+          "ja": "〜の上に・〜で"
+        },
+        "take-home": {
+          "ja": "手取りの"
+        },
+        "pay": {
+          "ja": "給料"
+        },
+        "the": {
+          "ja": "その・あの"
+        },
+        "same": {
+          "ja": "(いつもと)『同じ』,(以前と)変わらない／(…と)『同一の』,同じ;同種の《+『as節』(『that節』,『wh-節』)》／《強調的,時に軽べつして》この,その,例の,前に述べた"
+        },
+        "amount": {
+          "ja": "金額"
+        },
+        "may": {
+          "ja": "『5月』"
+        },
+        "threaten": {
+          "ja": "脅かす"
+        },
+        "housing": {
+          "ja": "住居"
+        },
+        "meals": {
+          "ja": "食事"
+        },
+        "or": {
+          "ja": "または"
+        },
+        "stretch": {
+          "ja": "期間"
+        },
+        "before": {
+          "ja": "〜の前に"
+        },
+        "next": {
+          "ja": "次の・来〜"
+        },
+        "payday": {
+          "ja": "給料日"
+        }
+      },
+      "phrases": [
+        {
+          "en": "For someone living on take-home pay, the same amount may threaten housing, meals, or the stretch before the next payday.",
+          "ja": "手取りで暮らす人にとっては、同じ金額が住居、食事、次の給料日までの期間を脅かすかもしれない。",
+          "note": "手取り生活では同額の損が生活条件を脅かしうると示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "loss": {
+          "ja": "損失"
+        },
+        "aversion": {
+          "ja": "回避"
+        },
+        "may": {
+          "ja": "『5月』"
+        },
+        "be": {
+          "ja": "〜である・いる"
+        },
+        "common": {
+          "ja": "共通の"
+        },
+        "but": {
+          "ja": "しかし・〜を除いて"
+        },
+        "the": {
+          "ja": "その・あの"
+        },
+        "capacity": {
+          "ja": "力"
+        },
+        "to": {
+          "ja": "〜へ・〜するために"
+        },
+        "absorb": {
+          "ja": "吸収する"
+        },
+        "is": {
+          "ja": "〜である・いる"
+        },
+        "not": {
+          "ja": "〜ではない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Loss aversion may be common, but the capacity to absorb loss is not.",
+          "ja": "損失回避は共通していても、損失を吸収する力は共通ではない。",
+          "note": "感情の共通性と吸収力の非共通性を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "いつ・〜するとき"
+        },
+        "everyone": {
+          "ja": "『すべての人』,万人,だれでもみな"
+        },
+        "refuses": {
+          "ja": "拒む"
+        },
+        "a": {
+          "ja": "一つの・ある"
+        },
+        "cost": {
+          "ja": "費用"
+        },
+        "it": {
+          "ja": "それは・それを"
+        },
+        "does": {
+          "ja": "する"
+        },
+        "not": {
+          "ja": "〜ではない"
+        },
+        "vanish": {
+          "ja": "消える"
+        },
+        "travels": {
+          "ja": "移る"
+        },
+        "toward": {
+          "ja": "『…のほうへ』,に向かって／『…のほうに』,に面して／『…近く』"
+        },
+        "those": {
+          "ja": "あれら・それら"
+        },
+        "with": {
+          "ja": "〜と一緒に・〜を用いて"
+        },
+        "less": {
+          "ja": "(量が)(…より)『もっと少ない』,いっそう少ない;(大きさ・価値・程度などが)(…より)『もっと少ない』,さらに劣る,もっと低い《+『than』…》／もっと少なく,…ほどでなく《+『than…』》／…ほど…でない《+『than…』》"
+        },
+        "bargaining": {
+          "ja": "交渉の"
+        },
+        "power": {
+          "ja": "力"
+        },
+        "and": {
+          "ja": "そして・〜と"
+        },
+        "fewer": {
+          "ja": "より少ない"
+        },
+        "exits": {
+          "ja": "退出経路"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When everyone refuses a cost, it does not vanish; it travels toward those with less bargaining power and fewer exits.",
+          "ja": "全員が費用を拒むと、それは消えず、交渉力が弱く出口の少ない人々へ移っていく。",
+          "note": "拒まれた費用が交渉力と出口の少ない人へ移る結論を示す。"
+        }
+      ]
+    }
+  ],
+  "DE-20261121-003": [
+    {
+      "words": {
+        "a": {
+          "ja": "一つの・ある"
+        },
+        "conversation": {
+          "ja": "対話"
+        },
+        "about": {
+          "ja": "〜について・周囲に"
+        },
+        "free": {
+          "ja": "無料の"
+        },
+        "festival": {
+          "ja": "フェス"
+        },
+        "in": {
+          "ja": "〜の中に・〜で"
+        },
+        "showed": {
+          "ja": "示した"
+        },
+        "that": {
+          "ja": "それ・〜ということ・〜するもの"
+        },
+        "goodwill": {
+          "ja": "善意"
+        },
+        "and": {
+          "ja": "そして・〜と"
+        },
+        "rebellion": {
+          "ja": "反抗"
+        },
+        "as": {
+          "ja": "〜として・〜のように・〜するとき"
+        },
+        "slogans": {
+          "ja": "掲げる看板"
+        },
+        "are": {
+          "ja": "〜である・いる"
+        },
+        "not": {
+          "ja": "〜ではない"
+        },
+        "an": {
+          "ja": "一つの・ある"
+        },
+        "operating": {
+          "ja": "運営の"
+        },
+        "ledger": {
+          "ja": "帳簿"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A conversation about a free festival in 1969 showed that goodwill and rebellion as slogans are not an operating ledger.",
+          "ja": "一九六九年の無料フェスをめぐる対話は、善意と反抗という看板が運営の帳簿にはならないことを示した。",
+          "note": "無料フェスを善意だけでは運営できないという論点を置く。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら・〜かどうか"
+        },
+        "no": {
+          "ja": "いいえ・一つも〜ない"
+        },
+        "one": {
+          "ja": "一つ・一人・ある"
+        },
+        "fully": {
+          "ja": "十分に"
+        },
+        "owns": {
+          "ja": "責任を引き受ける"
+        },
+        "security": {
+          "ja": "警備"
+        },
+        "crowd": {
+          "ja": "観客の"
+        },
+        "flow": {
+          "ja": "導線"
+        },
+        "congestion": {
+          "ja": "混雑"
+        },
+        "or": {
+          "ja": "または"
+        },
+        "the": {
+          "ja": "その・あの"
+        },
+        "risk": {
+          "ja": "危険"
+        },
+        "of": {
+          "ja": "〜の・〜からなる"
+        },
+        "violence": {
+          "ja": "暴力"
+        },
+        "final": {
+          "ja": "最後の"
+        },
+        "bill": {
+          "ja": "請求書"
+        },
+        "reaches": {
+          "ja": "届く"
+        },
+        "most": {
+          "ja": "最も・大部分の"
+        },
+        "vulnerable": {
+          "ja": "弱い立場の"
+        },
+        "spectator": {
+          "ja": "観客"
+        }
+      },
+      "phrases": [
+        {
+          "en": "If no one fully owns security, crowd flow, congestion, or the risk of violence, the final bill reaches the most vulnerable spectator.",
+          "ja": "警備、観客の導線、混雑、暴力の危険を誰も十分に引き受けなければ、最後の請求書は最も弱い観客へ届く。",
+          "note": "警備などの責任が引き受けられない条件と弱い観客への結果を結ぶ。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "free": {
+          "ja": "無料の"
+        },
+        "does": {
+          "ja": "する"
+        },
+        "not": {
+          "ja": "〜ではない"
+        },
+        "mean": {
+          "ja": "〈人が〉…を『意図する』,のつもりである;…を言おうとする;示そうとする／〈単語・句・文章などが〉…を『意味を持つ』,を『意味する』／(人に対して)…を当てる,向ける《+『名』+『for』+『名』》"
+        },
+        "costless": {
+          "ja": "費用がない"
+        },
+        "it": {
+          "ja": "それは・それを"
+        },
+        "may": {
+          "ja": "『5月』"
+        },
+        "that": {
+          "ja": "それ・〜ということ・〜するもの"
+        },
+        "someone": {
+          "ja": "誰か"
+        },
+        "else": {
+          "ja": "『そのほかに』,それ以外に／『さもないと』,そうでないと(otherwise)"
+        },
+        "pays": {
+          "ja": "支払う"
+        },
+        "in": {
+          "ja": "〜の中に・〜で"
+        },
+        "a": {
+          "ja": "一つの・ある"
+        },
+        "currency": {
+          "ja": "通貨"
+        },
+        "other": {
+          "ja": "ほかの・もう一方の"
+        },
+        "than": {
+          "ja": "〜より"
+        },
+        "money": {
+          "ja": "金銭"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Free does not mean costless; it may mean that someone else pays in a currency other than money.",
+          "ja": "無料は費用がないことを意味せず、別の誰かが金銭以外の通貨で払うことを意味する場合がある。",
+          "note": "無料と費用不存在を切り離し、金銭外の負担を通貨にたとえる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "related": {
+          "ja": "関連する"
+        },
+        "entries": {
+          "ja": "項目"
+        },
+        "were": {
+          "ja": "〜だった・いた"
+        },
+        "added": {
+          "ja": "付け加えた"
+        },
+        "to": {
+          "ja": "〜へ・〜するために"
+        },
+        "the": {
+          "ja": "その・あの"
+        },
+        "historical": {
+          "ja": "歴史の"
+        },
+        "timeline": {
+          "ja": "年表"
+        },
+        "that": {
+          "ja": "それ・〜ということ・〜するもの"
+        },
+        "day": {
+          "ja": "日・昼間"
+        },
+        "but": {
+          "ja": "しかし・〜を除いて"
+        },
+        "items": {
+          "ja": "項目"
+        },
+        "needing": {
+          "ja": "必要とする"
+        },
+        "verification": {
+          "ja": "根拠確認"
+        },
+        "remained": {
+          "ja": "残った"
+        },
+        "unpublished": {
+          "ja": "未公開の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Related entries were added to the historical timeline that day, but items needing verification remained unpublished.",
+          "ja": "その日、関連項目は歴史年表へ追加されたが、根拠確認が必要な項目は未公開のまま残った。",
+          "note": "歴史年表への登録と根拠確認中の公開保留を対比する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "withholding": {
+          "ja": "保留すること"
+        },
+        "them": {
+          "ja": "彼らを・彼女らに"
+        },
+        "rather": {
+          "ja": "～ではなく"
+        },
+        "than": {
+          "ja": "〜より"
+        },
+        "passing": {
+          "ja": "渡すこと"
+        },
+        "uncertainty": {
+          "ja": "不確かさ"
+        },
+        "to": {
+          "ja": "〜へ・〜するために"
+        },
+        "readers": {
+          "ja": "読者"
+        },
+        "was": {
+          "ja": "〜だった・いた"
+        },
+        "another": {
+          "ja": "もう一つの・別の"
+        },
+        "way": {
+          "ja": "〈C〉(…へ向かう)『道』,通り道;(…への)道筋《+to+名》／〈C〉『方向』,方角／〈U〉道を進むこと,進行,前進"
+        },
+        "of": {
+          "ja": "〜の・〜からなる"
+        },
+        "naming": {
+          "ja": "明示すること"
+        },
+        "who": {
+          "ja": "誰・〜する人"
+        },
+        "would": {
+          "ja": "〜だろう・〜するつもりだった"
+        },
+        "otherwise": {
+          "ja": "そうでなければ"
+        },
+        "receive": {
+          "ja": "受け取る"
+        },
+        "the": {
+          "ja": "その・あの"
+        },
+        "loss": {
+          "ja": "損失"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Withholding them rather than passing uncertainty to readers was another way of naming who would otherwise receive the loss.",
+          "ja": "不確かさを読者へ渡さず項目を保留することは、そうでなければ誰が損失を受け取るかを明示する別の方法だった。",
+          "note": "不確かさを読者へ渡さない保留を、損失の受取人を明示する行為と捉える。"
+        }
+      ]
+    }
+  ],
+  "DE-20261121-004": [
+    {
+      "words": {
+        "a": {
+          "ja": "一つの・ある"
+        },
+        "brief": {
+          "ja": "短い"
+        },
+        "exchange": {
+          "ja": "やり取り"
+        },
+        "about": {
+          "ja": "〜について・周囲に"
+        },
+        "major": {
+          "ja": "大規模な"
+        },
+        "overseas": {
+          "ja": "海外の"
+        },
+        "comic": {
+          "ja": "コミックの"
+        },
+        "conventions": {
+          "ja": "コミコン"
+        },
+        "fading": {
+          "ja": "薄れていく"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "conversation": {
+          "ja": "対話"
+        },
+        "in": {
+          "ja": "〜の中に・〜で"
+        },
+        "japan": {
+          "ja": "日本"
+        },
+        "ended": {
+          "ja": "終わった"
+        },
+        "with": {
+          "ja": "〜と一緒に・〜を用いて"
+        },
+        "one": {
+          "ja": "一つ・一人・ある"
+        },
+        "remark": {
+          "ja": "一言"
+        },
+        "cinemas": {
+          "ja": "映画館"
+        },
+        "themselves": {
+          "ja": "彼ら自身"
+        },
+        "are": {
+          "ja": "〜である・いる"
+        },
+        "disappearing": {
+          "ja": "消えつつある"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A brief exchange about major overseas comic conventions fading from conversation in Japan ended with one remark: cinemas themselves are disappearing.",
+          "ja": "海外の大きなコミコンが日本の会話から薄れているという短いやり取りは、「映画館そのものが消えている」という一言で終わった。",
+          "note": "海外コミコンの話題低下と映画館減少を一つのやり取りとして示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "culture": {
+          "ja": "文化"
+        },
+        "does": {
+          "ja": "する"
+        },
+        "not": {
+          "ja": "〜ではない"
+        },
+        "travel": {
+          "ja": "移動する"
+        },
+        "through": {
+          "ja": "〜を通り抜けて"
+        },
+        "content": {
+          "ja": "内容"
+        },
+        "alone": {
+          "ja": "『ひとりで』,一つで,単独で;ただ…だけで／ただ…だけ(only)"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Culture does not travel through content alone.",
+          "ja": "文化は内容だけを通って移動するのではない。",
+          "note": "文化が内容だけで流通しないことを短文で転換する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "screens": {
+          "ja": "上映館"
+        },
+        "shops": {
+          "ja": "売場"
+        },
+        "magazines": {
+          "ja": "雑誌"
+        },
+        "and": {
+          "ja": "そして・〜と"
+        },
+        "places": {
+          "ja": "場所"
+        },
+        "for": {
+          "ja": "〜のために・〜なので・〜の間"
+        },
+        "conversation": {
+          "ja": "対話"
+        },
+        "help": {
+          "ja": "〈人が〉〈人〉を『手伝う』,『助ける』,の役に立つ／〈物事が〉〈人・事〉に役立つ,をよくするのに役立つ／…を救う,助ける,救助する"
+        },
+        "distant": {
+          "ja": "遠い"
+        },
+        "events": {
+          "ja": "催事"
+        },
+        "land": {
+          "ja": "着地する"
+        },
+        "as": {
+          "ja": "〜として・〜のように・〜するとき"
+        },
+        "nearby": {
+          "ja": "身近な"
+        },
+        "topics": {
+          "ja": "話題"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Screens, shops, magazines, and places for conversation help distant events land as nearby topics.",
+          "ja": "上映館、売場、雑誌、会話の場所が、遠い催事を身近な話題として着地させる。",
+          "note": "上映館などが遠い催事を身近な話題へ変える働きを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "いつ・〜するとき"
+        },
+        "those": {
+          "ja": "あれら・それら"
+        },
+        "landing": {
+          "ja": "着地の"
+        },
+        "places": {
+          "ja": "場所"
+        },
+        "shrink": {
+          "ja": "減る"
+        },
+        "shared": {
+          "ja": "共有される"
+        },
+        "attention": {
+          "ja": "注意"
+        },
+        "is": {
+          "ja": "〜である・いる"
+        },
+        "lost": {
+          "ja": "失われた"
+        },
+        "even": {
+          "ja": "『平らな』,平たんな／『同じ高さの』,同一平面の,平行の／(運動・動作・品質などが)『均一の』,規則的な,一様の,むらのない"
+        },
+        "if": {
+          "ja": "もし〜なら・〜かどうか"
+        },
+        "the": {
+          "ja": "その・あの"
+        },
+        "works": {
+          "ja": "作品"
+        },
+        "and": {
+          "ja": "そして・〜と"
+        },
+        "events": {
+          "ja": "催事"
+        },
+        "still": {
+          "ja": "まだ・それでも"
+        },
+        "exist": {
+          "ja": "存在する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When those landing places shrink, shared attention is lost even if the works and events still exist.",
+          "ja": "そうした着地点が減ると、作品や催事がなお存在していても、共有される注意は失われる。",
+          "note": "作品の存在と共有注意の喪失が両立する条件を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the": {
+          "ja": "その・あの"
+        },
+        "loss": {
+          "ja": "損失"
+        },
+        "reaches": {
+          "ja": "届く"
+        },
+        "not": {
+          "ja": "〜ではない"
+        },
+        "only": {
+          "ja": "ただ〜だけ"
+        },
+        "exhibitors": {
+          "ja": "興行主"
+        },
+        "but": {
+          "ja": "しかし・〜を除いて"
+        },
+        "also": {
+          "ja": "〜もまた"
+        },
+        "people": {
+          "ja": "人々"
+        },
+        "who": {
+          "ja": "誰・〜する人"
+        },
+        "might": {
+          "ja": "mayの過去形／《時制の一致により従節に用いて》／"
+        },
+        "have": {
+          "ja": "持つ・〜した"
+        },
+        "encountered": {
+          "ja": "出会った"
+        },
+        "a": {
+          "ja": "一つの・ある"
+        },
+        "work": {
+          "ja": "〈U〉(一般的な)仕事,労働;努力,勉強／〈U〉(実際にやっている具体的な)『仕事』,作業,勉強／〈U〉《定冠詞なしで》仕事の口,職[業],(工場・会社などの)勤め先"
+        },
+        "by": {
+          "ja": "〜によって・〜のそばで"
+        },
+        "chance": {
+          "ja": "偶然"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The loss reaches not only exhibitors, but also people who might have encountered a work by chance.",
+          "ja": "その損失は興行主だけでなく、偶然に作品と出会ったかもしれない人々にも届く。",
+          "note": "損失の受取人を興行主から偶然の観客へ広げる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the": {
+          "ja": "その・あの"
+        },
+        "more": {
+          "ja": "もっと・より多く"
+        },
+        "completely": {
+          "ja": "完全に"
+        },
+        "a": {
+          "ja": "一つの・ある"
+        },
+        "system": {
+          "ja": "仕組み"
+        },
+        "seems": {
+          "ja": "～のように見える"
+        },
+        "to": {
+          "ja": "〜へ・〜するために"
+        },
+        "remove": {
+          "ja": "取り除く"
+        },
+        "loss": {
+          "ja": "損失"
+        },
+        "urgently": {
+          "ja": "切迫して"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "should": {
+          "ja": "〜すべき・〜だろう"
+        },
+        "ask": {
+          "ja": "尋ねる・頼む"
+        },
+        "who": {
+          "ja": "誰・〜する人"
+        },
+        "receives": {
+          "ja": "受け取る"
+        },
+        "it": {
+          "ja": "それは・それを"
+        },
+        "last": {
+          "ja": "最後に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The more completely a system seems to remove loss, the more urgently we should ask who receives it last.",
+          "ja": "仕組みが損失を完全に取り除いたように見えるほど、最後に誰が受け取るのかを、より切迫して問うべきである。",
+          "note": "損失が消えたように見えるほど最終受取人を問う結語を示す。"
+        }
+      ]
+    }
   ]
 }
