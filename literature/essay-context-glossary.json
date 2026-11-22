@@ -29154,5 +29154,608 @@
         }
       ]
     }
+  ],
+  "DE-20260925-001": [
+    {
+      "words": {
+        "city buildings": {
+          "ja": "都市の建物"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "outlive": {
+          "ja": "〜より長く残る"
+        },
+        "the plans": {
+          "ja": "計画"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "produced": {
+          "ja": "生み出した"
+        },
+        "them": {
+          "ja": "それら（＝建物）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "outlive the plans that produced them",
+          "ja": "自分を生んだ計画より長く残る",
+          "note": "outlive「〜より長生きする」。",
+          "pattern": "outlive 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "structure": {
+          "ja": "建造物"
+        },
+        "celebrated as": {
+          "ja": "〜として祝われた"
+        },
+        "authority": {
+          "ja": "権威"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "growth": {
+          "ja": "成長"
+        },
+        "at completion": {
+          "ja": "完成時に"
+        },
+        "eventually": {
+          "ja": "やがて"
+        },
+        "accumulates": {
+          "ja": "ため込む"
+        },
+        "questions of": {
+          "ja": "〜の問題"
+        },
+        "repair": {
+          "ja": "補修"
+        },
+        "renewal": {
+          "ja": "更新"
+        },
+        "evacuation": {
+          "ja": "避難"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "safety": {
+          "ja": "安全"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A structure celebrated as authority or growth at completion",
+          "ja": "完成時に権威や成長の象徴として祝われた建物",
+          "note": "celebrated 以下が structure を修飾。",
+          "pattern": "celebrate A as B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "its": {
+          "ja": "その（＝建物の）"
+        },
+        "façade": {
+          "ja": "外観（正面）"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "remain familiar": {
+          "ja": "見慣れたままでいる"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "equipment": {
+          "ja": "設備"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "working conditions": {
+          "ja": "働く環境"
+        },
+        "age": {
+          "ja": "古びる"
+        },
+        "inside": {
+          "ja": "内側で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while equipment and working conditions age inside",
+          "ja": "内部の設備や働く環境は古びていく",
+          "note": "age は動詞「年を取る・古くなる」。",
+          "pattern": "age（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "architecture": {
+          "ja": "建築"
+        },
+        "is not finished": {
+          "ja": "終わっていない"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "construction": {
+          "ja": "工事"
+        },
+        "ends": {
+          "ja": "終わる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Architecture is not finished when construction ends",
+          "ja": "工事が終わっても建築は終わらない",
+          "note": "維持も建築の一部。",
+          "pattern": "finished"
+        }
+      ]
+    },
+    {
+      "words": {
+        "to preserve": {
+          "ja": "保存すること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "building": {
+          "ja": "建物"
+        },
+        "is also to": {
+          "ja": "〜することでもある"
+        },
+        "decide": {
+          "ja": "決める"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "will carry": {
+          "ja": "負うことになるか"
+        },
+        "the cost": {
+          "ja": "費用"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "risk": {
+          "ja": "危険"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "keeping it usable": {
+          "ja": "使える状態に保つこと"
+        },
+        "it": {
+          "ja": "それ（＝建物）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "To preserve a building is also to decide who will carry the cost",
+          "ja": "建物を保存することは、誰が費用を負うか決めることでもある",
+          "note": "不定詞を主語・補語に並べる型。",
+          "pattern": "To A is to B"
+        },
+        {
+          "en": "keeping it usable",
+          "ja": "それを使える状態に保つ",
+          "note": "keep＋目的語＋形容詞。",
+          "pattern": "keep A 形容詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260925-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "city's": {
+          "ja": "都市の"
+        },
+        "autobiography": {
+          "ja": "自伝"
+        },
+        "tends to": {
+          "ja": "〜しがちだ"
+        },
+        "place": {
+          "ja": "置く"
+        },
+        "redevelopment": {
+          "ja": "再開発"
+        },
+        "culture": {
+          "ja": "文化"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "celebrated lives": {
+          "ja": "称えられる人生"
+        },
+        "in": {
+          "ja": "〜の中に"
+        },
+        "the main text": {
+          "ja": "本文"
+        }
+      },
+      "phrases": [
+        {
+          "en": "tends to place redevelopment, culture, and celebrated lives in the main text",
+          "ja": "再開発や文化を本文に置きがちだ",
+          "note": "都市の歴史を本にたとえている。",
+          "pattern": "tend to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "displacement": {
+          "ja": "立ち退き"
+        },
+        "violence": {
+          "ja": "暴力"
+        },
+        "amid": {
+          "ja": "〜のさなかの"
+        },
+        "disaster": {
+          "ja": "災害"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the labor": {
+          "ja": "労働"
+        },
+        "behind": {
+          "ja": "〜を支えた"
+        },
+        "construction": {
+          "ja": "建設"
+        },
+        "logistics": {
+          "ja": "物流"
+        },
+        "are more easily reduced to": {
+          "ja": "もっと簡単に〜へ縮められる"
+        },
+        "footnotes": {
+          "ja": "脚注"
+        }
+      },
+      "phrases": [
+        {
+          "en": "are more easily reduced to footnotes",
+          "ja": "脚注へと簡単に縮められる",
+          "note": "reduce A to B「AをBに縮める・おとしめる」。",
+          "pattern": "reduce A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "their": {
+          "ja": "それらの"
+        },
+        "inclusion": {
+          "ja": "入れること"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "look honest": {
+          "ja": "誠実に見える"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "the story's": {
+          "ja": "物語の"
+        },
+        "confident pace": {
+          "ja": "自信に満ちた歩調"
+        },
+        "remains intact": {
+          "ja": "崩れないままである"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the story's confident pace remains intact",
+          "ja": "物語の自信ある歩調は崩れないまま",
+          "note": "intact「無傷の」。",
+          "pattern": "remain intact"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "other people's": {
+          "ja": "他の人々の"
+        },
+        "losses": {
+          "ja": "損失"
+        },
+        "appear": {
+          "ja": "現れる"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "in small type": {
+          "ja": "小さな活字で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "appear only in small type",
+          "ja": "小さな活字でしか出てこない",
+          "note": "type はここで「活字」（種類ではない）。",
+          "pattern": "in small type"
+        }
+      ]
+    },
+    {
+      "words": {
+        "urban history": {
+          "ja": "都市の歴史"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "not just": {
+          "ja": "単なる〜ではなく"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "record": {
+          "ja": "記録"
+        },
+        "but": {
+          "ja": "…である"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "editorial decision": {
+          "ja": "編集上の決定"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not just a record but an editorial decision",
+          "ja": "単なる記録ではなく編集の判断",
+          "note": "not just A but B「AだけでなくB」。",
+          "pattern": "not just A but B"
+        }
+      ]
+    }
+  ],
+  "DE-20260925-003": [
+    {
+      "words": {
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "the largest": {
+          "ja": "最大級の"
+        },
+        "stations": {
+          "ja": "駅"
+        },
+        "roads": {
+          "ja": "道路"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "networks": {
+          "ja": "通信網"
+        },
+        "depend on": {
+          "ja": "〜に頼る"
+        },
+        "human hands": {
+          "ja": "人の手"
+        },
+        "at the final stretch": {
+          "ja": "最後の区間で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "depend on human hands at the final stretch",
+          "ja": "最後の区間では人の手に頼る",
+          "note": "stretch はここで「区間」。",
+          "pattern": "depend on 〜 / the final stretch"
+        }
+      ]
+    },
+    {
+      "words": {
+        "delivery workers": {
+          "ja": "配達員"
+        },
+        "maintenance crews": {
+          "ja": "保守の作業員"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "people supporting": {
+          "ja": "〜を支える人々"
+        },
+        "evacuation": {
+          "ja": "避難"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "appear as": {
+          "ja": "〜として見える"
+        },
+        "thin lines": {
+          "ja": "細い線"
+        },
+        "on": {
+          "ja": "〜の上の"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "city plan": {
+          "ja": "都市計画図"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may appear as thin lines on a city plan",
+          "ja": "都市計画図の上では細い線に見えるかもしれない",
+          "note": "譲歩の may。次の but へ続く。",
+          "pattern": "appear as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "the whole system": {
+          "ja": "仕組み全体"
+        },
+        "fails to": {
+          "ja": "〜できない"
+        },
+        "arrive": {
+          "ja": "届く"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "those lines": {
+          "ja": "それらの線"
+        },
+        "break": {
+          "ja": "切れる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the whole system fails to arrive when those lines break",
+          "ja": "その線が切れると仕組み全体が届かない",
+          "note": "break はここで動詞「切れる」。",
+          "pattern": "fail to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "city's": {
+          "ja": "都市の"
+        },
+        "lifespan": {
+          "ja": "寿命"
+        },
+        "is not measured": {
+          "ja": "測られない"
+        },
+        "only by": {
+          "ja": "〜だけで"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "monuments": {
+          "ja": "記念建造物"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not measured only by its monuments",
+          "ja": "記念建造物だけでは測られない",
+          "note": "by は基準「〜で」。",
+          "pattern": "measure A by B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝都市の寿命）"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "depends on": {
+          "ja": "〜にかかっている"
+        },
+        "how long": {
+          "ja": "どれだけ長く"
+        },
+        "the people carrying": {
+          "ja": "〜を担う人々"
+        },
+        "the last mile": {
+          "ja": "最後の区間（ラストワンマイル）"
+        },
+        "remain visible": {
+          "ja": "見え続ける"
+        },
+        "in": {
+          "ja": "〜の中で"
+        },
+        "the main text": {
+          "ja": "本文"
+        }
+      },
+      "phrases": [
+        {
+          "en": "how long the people carrying the last mile remain visible in the main text",
+          "ja": "最後の区間を担う人がどれだけ長く本文に見え続けるか",
+          "note": "carrying 以下が people を修飾。",
+          "pattern": "how long 〜 / remain 形容詞"
+        }
+      ]
+    }
   ]
 }
