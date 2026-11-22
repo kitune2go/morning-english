@@ -40254,5 +40254,919 @@
         }
       ]
     }
+  ],
+  "DE-20260910-001": [
+    {
+      "words": {
+        "calling": {
+          "ja": "呼ぶこと"
+        },
+        "something": {
+          "ja": "何か"
+        },
+        "a gateway to": {
+          "ja": "〜への入口"
+        },
+        "literature": {
+          "ja": "文学"
+        },
+        "sounds": {
+          "ja": "〜に聞こえる"
+        },
+        "welcoming": {
+          "ja": "歓迎しているような"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Calling something “a gateway to literature” sounds welcoming",
+          "ja": "何かを「文学への入口」と呼ぶのは親切に聞こえる",
+          "note": "sounds は動詞「〜に聞こえる」。",
+          "pattern": "call A B / sound 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝そう呼ぶこと）"
+        },
+        "also": {
+          "ja": "同時に"
+        },
+        "creates": {
+          "ja": "生み出す"
+        },
+        "a gatekeeper": {
+          "ja": "門番"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it also creates a gatekeeper",
+          "ja": "同時に門番を生み出す",
+          "note": "入口を言えば、通す側も生まれる。",
+          "pattern": "gatekeeper"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the guide": {
+          "ja": "案内する人"
+        },
+        "stands inside": {
+          "ja": "内側に立つ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "imagines": {
+          "ja": "思い描く"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "reader": {
+          "ja": "読者"
+        },
+        "who": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "has not yet entered": {
+          "ja": "まだ入っていない"
+        },
+        "the world of": {
+          "ja": "〜の世界"
+        },
+        "text": {
+          "ja": "文章"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a reader who has not yet entered the world of text",
+          "ja": "まだ文章の世界に入っていない読者",
+          "note": "not yet「まだ〜していない」。",
+          "pattern": "not yet 現在完了"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "screens": {
+          "ja": "画面"
+        },
+        "already": {
+          "ja": "すでに"
+        },
+        "carry": {
+          "ja": "載せている"
+        },
+        "long essays": {
+          "ja": "長い文章"
+        },
+        "criticism": {
+          "ja": "批評"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "countless stories": {
+          "ja": "数え切れない物語"
+        }
+      },
+      "phrases": [
+        {
+          "en": "screens already carry long essays, criticism, and countless stories",
+          "ja": "画面にはすでに長文や批評や物語が載っている",
+          "note": "carry はここで「載せる・伝える」。",
+          "pattern": "carry（掲載する）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "many people": {
+          "ja": "多くの人"
+        },
+        "are not waiting": {
+          "ja": "待っているのではない"
+        },
+        "outside": {
+          "ja": "外で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Many people are not waiting outside",
+          "ja": "多くの人は外で待っているのではない",
+          "note": "次のチャンクで言い換え。",
+          "pattern": "進行形の否定"
+        }
+      ]
+    },
+    {
+      "words": {
+        "they": {
+          "ja": "彼ら（＝多くの人）"
+        },
+        "are reading": {
+          "ja": "読んでいる"
+        },
+        "along": {
+          "ja": "〜に沿って"
+        },
+        "different paths": {
+          "ja": "別の道筋"
+        }
+      },
+      "phrases": [
+        {
+          "en": "they are reading along different paths",
+          "ja": "別の道筋で読んでいる",
+          "note": "along「〜に沿って」。",
+          "pattern": "along 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "guidance": {
+          "ja": "案内"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "patronizing": {
+          "ja": "上から目線の"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "it": {
+          "ja": "それ（＝案内）"
+        },
+        "assigns": {
+          "ja": "割り当てる"
+        },
+        "the reader": {
+          "ja": "読者"
+        },
+        "a position": {
+          "ja": "立ち位置"
+        },
+        "the reader never occupied": {
+          "ja": "読者がいたこともない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "assigns the reader a position the reader never occupied",
+          "ja": "読者がいたこともない位置を読者に割り当てる",
+          "note": "patronizing「見下した」。",
+          "pattern": "assign A B / 名詞 + (that) 主語 + 動詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260910-002": [
+    {
+      "words": {
+        "mathematics": {
+          "ja": "数学"
+        },
+        "faces": {
+          "ja": "直面する"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "new training problem": {
+          "ja": "新しい育成の問題"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Mathematics faces a new training problem",
+          "ja": "数学は新しい育成の問題に直面している",
+          "note": "faces は動詞「直面する」（顔ではない）。",
+          "pattern": "face（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "ai": {
+          "ja": "AI"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "solve": {
+          "ja": "解く"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "moderately hard questions": {
+          "ja": "ほどよく難しい問題"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "once": {
+          "ja": "かつて"
+        },
+        "served as": {
+          "ja": "〜として役立った"
+        },
+        "steps for": {
+          "ja": "〜にとっての段"
+        },
+        "young researchers": {
+          "ja": "若い研究者"
+        }
+      },
+      "phrases": [
+        {
+          "en": "questions that once served as steps for young researchers",
+          "ja": "かつて若手の階段となった問題",
+          "note": "steps はここで「（階段の）段」。",
+          "pattern": "serve as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "in": {
+          "ja": "〜では"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "field": {
+          "ja": "分野"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "rewards": {
+          "ja": "報いる"
+        },
+        "priority": {
+          "ja": "先に見つけたこと（先取権）"
+        },
+        "independently": {
+          "ja": "自力で"
+        },
+        "reaching": {
+          "ja": "たどり着くこと"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "existing answer": {
+          "ja": "すでにある答え"
+        },
+        "rarely": {
+          "ja": "めったに〜ない"
+        },
+        "carries": {
+          "ja": "持つ"
+        },
+        "the same value": {
+          "ja": "同じ価値"
+        }
+      },
+      "phrases": [
+        {
+          "en": "In a field that rewards priority",
+          "ja": "先取りに報いる分野では",
+          "note": "priority はここで「先取権」。field は「分野」（畑ではない）。",
+          "pattern": "reward priority"
+        }
+      ]
+    },
+    {
+      "words": {
+        "still": {
+          "ja": "それでも"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "solved problem": {
+          "ja": "解かれた問題"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "human reasoning": {
+          "ja": "人間の推論"
+        },
+        "obsolete": {
+          "ja": "時代遅れの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not make human reasoning obsolete",
+          "ja": "人間の推論を時代遅れにはしない",
+          "note": "obsolete「廃れた」。",
+          "pattern": "make A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "people": {
+          "ja": "人"
+        },
+        "remain necessary for": {
+          "ja": "〜にはやはり必要だ"
+        },
+        "connecting": {
+          "ja": "結びつけること"
+        },
+        "mathematics": {
+          "ja": "数学"
+        },
+        "to": {
+          "ja": "〜に"
+        },
+        "physics": {
+          "ja": "物理学"
+        }
+      },
+      "phrases": [
+        {
+          "en": "remain necessary for connecting mathematics to physics",
+          "ja": "数学を物理につなぐにはやはり人が要る",
+          "note": "remain＋形容詞。",
+          "pattern": "connect A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and for": {
+          "ja": "そして〜にも"
+        },
+        "framing": {
+          "ja": "組み立てること"
+        },
+        "new questions": {
+          "ja": "新しい問い"
+        }
+      },
+      "phrases": [
+        {
+          "en": "and for framing new questions",
+          "ja": "新しい問いを組み立てるためにも",
+          "note": "frame は動詞「（問いを）設定する」。",
+          "pattern": "frame（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "perhaps": {
+          "ja": "たぶん"
+        },
+        "ai": {
+          "ja": "AI"
+        },
+        "is removing": {
+          "ja": "取り外している"
+        },
+        "a rung": {
+          "ja": "（はしごの）一段"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "the old ladder": {
+          "ja": "古いはしご"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "eliminating": {
+          "ja": "なくすこと"
+        },
+        "the need to": {
+          "ja": "〜する必要"
+        },
+        "climb": {
+          "ja": "登る"
+        }
+      },
+      "phrases": [
+        {
+          "en": "removing a rung from the old ladder, not eliminating the need to climb",
+          "ja": "古いはしごの一段を外しているのであって、登る必要をなくしているのではない",
+          "note": "rung「はしごの横木」。",
+          "pattern": "A, not B"
+        }
+      ]
+    }
+  ],
+  "DE-20260910-003": [
+    {
+      "words": {
+        "no": {
+          "ja": "どの〜も…ない"
+        },
+        "single picture": {
+          "ja": "一枚の図"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "explain": {
+          "ja": "説明する"
+        },
+        "how": {
+          "ja": "どのように"
+        },
+        "a public": {
+          "ja": "人々（世間）"
+        },
+        "experiences": {
+          "ja": "経験するか"
+        },
+        "the start of": {
+          "ja": "〜の始まり"
+        },
+        "war": {
+          "ja": "戦争"
+        }
+      },
+      "phrases": [
+        {
+          "en": "No single picture can explain how a public experiences the start of war",
+          "ja": "どんな一枚の図も、人々が開戦をどう経験するかは説明できない",
+          "note": "experiences は動詞。",
+          "pattern": "no 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "some people": {
+          "ja": "ある人々は"
+        },
+        "stand close to": {
+          "ja": "〜の近くにいる"
+        },
+        "decision-making": {
+          "ja": "意思決定"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "others": {
+          "ja": "ほかの人々は"
+        },
+        "receive": {
+          "ja": "受け取る"
+        },
+        "partial information": {
+          "ja": "断片的な情報"
+        },
+        "from far away": {
+          "ja": "遠くから"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Some people stand close to decision-making, while others receive partial information from far away",
+          "ja": "意思決定の近くにいる人もいれば、遠くで断片を受け取る人もいる",
+          "note": "close は形容詞・副詞「近く」。",
+          "pattern": "some ... others"
+        }
+      ]
+    },
+    {
+      "words": {
+        "they": {
+          "ja": "彼ら（＝それぞれの人々）"
+        },
+        "may not even": {
+          "ja": "〜さえしないかもしれない"
+        },
+        "identify": {
+          "ja": "特定する"
+        },
+        "the same moment": {
+          "ja": "同じ瞬間"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "the beginning": {
+          "ja": "始まり"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may not even identify the same moment as the beginning",
+          "ja": "同じ瞬間を始まりとみなしさえしないかもしれない",
+          "note": "even は否定を強める「〜さえ」。",
+          "pattern": "identify A as B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "earlier conflict": {
+          "ja": "先の戦争"
+        },
+        "has already become": {
+          "ja": "すでに〜になっている"
+        },
+        "ordinary": {
+          "ja": "日常の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When an earlier conflict has already become ordinary",
+          "ja": "先の戦争がすでに日常になっていると",
+          "note": "次のチャンクへ続く。",
+          "pattern": "become ordinary"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the boundary of": {
+          "ja": "〜の境界"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "new war": {
+          "ja": "新しい戦争"
+        },
+        "grows harder to see": {
+          "ja": "さらに見えにくくなる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "grows harder to see",
+          "ja": "いっそう見えにくくなる",
+          "note": "grow＋形容詞「〜になる」。",
+          "pattern": "grow 比較級 to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "sharing": {
+          "ja": "共有すること"
+        },
+        "a date": {
+          "ja": "日付"
+        },
+        "does not mean": {
+          "ja": "意味しない"
+        },
+        "an understanding": {
+          "ja": "理解"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Sharing a date does not mean sharing an understanding",
+          "ja": "日付を共有しても理解を共有したことにはならない",
+          "note": "date はここで「日付」。",
+          "pattern": "mean -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "before": {
+          "ja": "〜する前に"
+        },
+        "judging": {
+          "ja": "判断すること"
+        },
+        "public attitudes": {
+          "ja": "世間の態度"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "ask": {
+          "ja": "問う"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "could know": {
+          "ja": "知り得たか"
+        },
+        "what": {
+          "ja": "何を"
+        },
+        "from where": {
+          "ja": "どこから"
+        }
+      },
+      "phrases": [
+        {
+          "en": "ask who could know what from where",
+          "ja": "誰がどこから何を知り得たかを問う",
+          "note": "who／what／where を一つの節に重ねる。",
+          "pattern": "疑問詞を重ねた間接疑問"
+        }
+      ]
+    }
+  ],
+  "DE-20260910-004": [
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "existing market": {
+          "ja": "既存の市場"
+        },
+        "with": {
+          "ja": "〜のいる"
+        },
+        "real workers": {
+          "ja": "実際の働き手"
+        },
+        "creates": {
+          "ja": "生む"
+        },
+        "a duty to": {
+          "ja": "〜する責務"
+        },
+        "consider": {
+          "ja": "考慮する"
+        },
+        "their": {
+          "ja": "彼らの"
+        },
+        "rights": {
+          "ja": "権利"
+        }
+      },
+      "phrases": [
+        {
+          "en": "creates a duty to consider their rights",
+          "ja": "彼らの権利を考える責務を生む",
+          "note": "rights は「権利」。",
+          "pattern": "duty to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "existence": {
+          "ja": "存在すること"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "confer": {
+          "ja": "与える"
+        },
+        "legitimacy": {
+          "ja": "正当性"
+        }
+      },
+      "phrases": [
+        {
+          "en": "existence alone does not confer legitimacy",
+          "ja": "存在するだけでは正当性は与えられない",
+          "note": "confer「（資格などを）授ける」。",
+          "pattern": "confer 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "law": {
+          "ja": "法"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "place": {
+          "ja": "置く"
+        },
+        "provisional weight": {
+          "ja": "仮の重み"
+        },
+        "on": {
+          "ja": "〜に"
+        },
+        "protection": {
+          "ja": "保護"
+        },
+        "restriction": {
+          "ja": "規制"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "some balance between": {
+          "ja": "〜の間の何らかの均衡"
+        },
+        "them": {
+          "ja": "それら（＝保護と規制）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "place provisional weight on protection, restriction, or some balance between them",
+          "ja": "保護か規制か、その間の均衡に仮の重みを置く",
+          "note": "place は動詞「置く」。",
+          "pattern": "place weight on 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そして"
+        },
+        "each choice": {
+          "ja": "一つ一つの選択"
+        },
+        "reshapes": {
+          "ja": "作り変える"
+        },
+        "what": {
+          "ja": "〜すること"
+        },
+        "can come next": {
+          "ja": "次に起こりうる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "each choice reshapes what can come next",
+          "ja": "どの選択も次に起こりうることを作り変える",
+          "note": "what「〜するもの・こと」。",
+          "pattern": "what 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "keeping": {
+          "ja": "保つこと"
+        },
+        "the current rules": {
+          "ja": "今の規則"
+        },
+        "is also": {
+          "ja": "〜でもある"
+        },
+        "a decision": {
+          "ja": "決定"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Keeping the current rules is also a decision",
+          "ja": "今の規則を保つことも一つの決定だ",
+          "note": "current「現在の」。",
+          "pattern": "動名詞の主語"
+        }
+      ]
+    },
+    {
+      "words": {
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "neutral": {
+          "ja": "中立の"
+        },
+        "absence of": {
+          "ja": "〜がないこと"
+        },
+        "action": {
+          "ja": "行動"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not a neutral absence of action",
+          "ja": "行動がないという中立状態ではない",
+          "note": "何もしないことも選択だ、という主張。",
+          "pattern": "absence of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "there may be": {
+          "ja": "〜があるかもしれない"
+        },
+        "many entrances": {
+          "ja": "多くの入口"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "every legal path": {
+          "ja": "どの法の道筋も"
+        },
+        "assigns": {
+          "ja": "割り当てる"
+        },
+        "people": {
+          "ja": "人々に"
+        },
+        "a position": {
+          "ja": "立ち位置"
+        }
+      },
+      "phrases": [
+        {
+          "en": "every legal path assigns people a position",
+          "ja": "どの法の道筋も人々に立ち位置を割り当てる",
+          "note": "assign＋人＋物。",
+          "pattern": "assign A B"
+        }
+      ]
+    }
   ]
 }
