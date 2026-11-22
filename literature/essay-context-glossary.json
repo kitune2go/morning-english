@@ -1087,35 +1087,37 @@
           "form": "useful + -ness（形容詞から名詞）",
           "note": "useful + -ness（形容詞から名詞）"
         },
-        "debates": {
-          "ja": "AI音楽についての議論"
-        },
         "often": {
           "ja": "しばしば"
         },
-        "begin": {
-          "ja": "始まる"
-        },
         "its": {
-          "ja": "AI音楽の"
+          "ja": "その（＝AI音楽の）"
         },
         "professional": {
           "ja": "プロの制作現場における"
         },
         "production": {
           "ja": "制作・製作"
+        },
+        "debates about": {
+          "ja": "〜をめぐる議論"
+        },
+        "ai": {
+          "ja": "AI"
+        },
+        "music": {
+          "ja": "音楽"
+        },
+        "begin with": {
+          "ja": "〜から始まる"
         }
       },
       "phrases": [
         {
-          "en": "begin with",
-          "ja": "〜から始まる",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "its usefulness in professional production",
-          "ja": "プロの制作現場におけるAI音楽の実用性",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "often begin with its usefulness in professional production",
+          "ja": "プロ制作での実用性から始まりがち",
+          "note": "begin with「〜から始まる」。",
+          "pattern": "begin with 〜"
         }
       ]
     },
@@ -1142,39 +1144,28 @@
           "form": "listener → listeners",
           "note": "listener → listeners"
         },
-        "songs": {
-          "ja": "曲（複数）",
-          "pos": "名詞・複数形",
-          "lemma": "song",
-          "form": "song → songs",
-          "note": "song → songs"
-        },
         "change": {
           "ja": "変化"
         },
         "when": {
-          "ja": "〜するときに"
+          "ja": "〜するとき"
         },
         "generate": {
-          "ja": "自ら生成する"
+          "ja": "作り出す"
         },
-        "want": {
-          "ja": "自分が欲しい"
+        "the songs they want": {
+          "ja": "自分が欲しい曲"
         },
-        "themselves": {
-          "ja": "聴き手自身のために"
+        "for themselves": {
+          "ja": "自分自身で"
         }
       },
       "phrases": [
         {
-          "en": "the songs they want",
-          "ja": "自分たちが欲しい曲",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "for themselves",
-          "ja": "自分自身のために",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "generate the songs they want for themselves",
+          "ja": "欲しい曲を自分で作る",
+          "note": "for themselves「自分のために・自分で」。",
+          "pattern": "for oneself"
         }
       ]
     },
@@ -1190,24 +1181,22 @@
         "market": {
           "ja": "音楽市場"
         },
-        "does": {
-          "ja": "単に〜するのではない"
-        },
-        "merely": {
-          "ja": "単に〜だけ"
-        },
         "gain": {
-          "ja": "得る・迎える"
+          "ja": "迎える"
         },
         "new": {
           "ja": "新たな"
+        },
+        "does not merely": {
+          "ja": "単に〜するだけではない"
         }
       },
       "phrases": [
         {
-          "en": "does not merely gain",
-          "ja": "単に新しい競争相手を得るだけではない",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "The market does not merely gain a new competitor",
+          "ja": "市場に新しい競争相手が増えるだけではない",
+          "note": "次のチャンクへ続く。",
+          "pattern": "not merely 〜"
         }
       ]
     },
@@ -1227,62 +1216,37 @@
           "form": "",
           "note": "consumer：この文章での意味"
         },
-        "producer's": {
-          "ja": "制作者の",
-          "pos": "名詞・所有格",
-          "lemma": "producer",
-          "form": "producer + 's（所有格）",
-          "note": "producer + 's（所有格）"
-        },
         "satisfies": {
-          "ja": "満たす",
-          "pos": "動詞・三人称単数現在",
-          "lemma": "satisfy",
-          "form": "satisfy → satisfies（y を ies に変更）",
-          "note": "satisfy → satisfies（y を ies に変更）"
-        },
-        "visiting": {
-          "ja": "訪れること",
-          "pos": "動名詞",
-          "lemma": "visit",
-          "form": "visit → visiting（without の後）",
-          "note": "visit → visiting（without の後）"
-        },
-        "shop": {
-          "ja": "店・売場",
-          "pos": "名詞",
-          "lemma": "shop",
-          "form": "",
-          "note": "shop：この文章での意味"
-        },
-        "moves": {
-          "ja": "立場を移す"
-        },
-        "chair": {
-          "ja": "制作側の立場を表す椅子"
+          "ja": "満たす"
         },
         "desire": {
           "ja": "音楽への欲求"
         },
-        "without": {
-          "ja": "〜することなく"
+        "moves into": {
+          "ja": "〜に移る"
+        },
+        "the producer's chair": {
+          "ja": "作り手の席"
+        },
+        "without visiting": {
+          "ja": "訪れずに"
+        },
+        "the shop": {
+          "ja": "店"
         }
       },
       "phrases": [
         {
-          "en": "a former consumer",
-          "ja": "以前は購入者だった人",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "into the producer's chair",
-          "ja": "制作する側の立場へ",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "moves into the producer's chair",
+          "ja": "作り手の席に移る",
+          "note": "chair は立場の比喩。",
+          "pattern": "move into 〜"
         },
         {
           "en": "without visiting the shop",
-          "ja": "販売市場を介さずに",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "ja": "店に行かずに",
+          "note": "without＋動名詞。",
+          "pattern": "without -ing"
         }
       ]
     }
@@ -1290,12 +1254,6 @@
   "DE-20261025-002": [
     {
       "words": {
-        "being": {
-          "ja": "〜であること"
-        },
-        "able": {
-          "ja": "できる"
-        },
         "generate": {
           "ja": "生成する"
         },
@@ -1303,54 +1261,57 @@
           "ja": "音を"
         },
         "having": {
-          "ja": "手元にあること"
+          "ja": "持っていること"
         },
-        "ready": {
-          "ja": "すぐ使える状態"
+        "being able to": {
+          "ja": "〜できること"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "something": {
+          "ja": "何か"
+        },
+        "ready to use": {
+          "ja": "すぐに使える"
         }
       },
       "phrases": [
         {
-          "en": "being able to",
-          "ja": "〜できること",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "not the same as",
-          "ja": "〜と同じではない",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "ready to use",
-          "ja": "実用できる状態",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "is not the same as having something ready to use",
+          "ja": "すぐ使えるものを持っていることと同じではない",
+          "note": "ready to use「すぐ使える」。",
+          "pattern": "the same as 〜 / ready to 動詞"
         }
       ]
     },
     {
       "words": {
         "stems": {
-          "ja": "分離された音声トラック（ステム）",
-          "pos": "名詞・複数形",
-          "lemma": "stem",
-          "form": "stem → stems（音楽制作）",
-          "note": "stem → stems（音楽制作）"
+          "ja": "ステム（楽器ごとの音声トラック）"
         },
         "system": {
           "ja": "音声処理システム"
         },
         "separate": {
-          "ja": "分離する"
+          "ja": "分ける"
         },
-        "song": {
-          "ja": "楽曲"
+        "may": {
+          "ja": "〜できる（かもしれない）"
+        },
+        "a song": {
+          "ja": "一曲"
+        },
+        "into": {
+          "ja": "〜に"
         }
       },
       "phrases": [
         {
-          "en": "separate a song into stems",
-          "ja": "一曲を複数の音声トラックへ分離する",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "may separate a song into stems",
+          "ja": "一曲をステムに分けられる",
+          "note": "stems は楽器ごとに分けた音声。",
+          "pattern": "separate A into B"
         }
       ]
     },
@@ -1363,53 +1324,34 @@
           "form": "",
           "note": "noise：この文章での意味"
         },
-        "drift": {
-          "ja": "タイミングのずれ",
-          "pos": "名詞",
-          "lemma": "drift",
-          "form": "",
-          "note": "drift：この文章での意味"
-        },
-        "parts": {
-          "ja": "分離したパート",
-          "pos": "名詞・複数形",
-          "lemma": "part",
-          "form": "part → parts",
-          "note": "part → parts"
-        },
-        "sequencer": {
-          "ja": "シーケンサー（音楽の打ち込み・再生装置）",
-          "pos": "名詞",
-          "lemma": "sequencer",
-          "form": "",
-          "note": "sequencer：この文章での意味"
-        },
         "yet": {
           "ja": "しかし"
-        },
-        "timing": {
-          "ja": "タイミング"
         },
         "can": {
           "ja": "〜することがある"
         },
         "appear": {
-          "ja": "表面化する"
+          "ja": "現れる"
         },
-        "return": {
-          "ja": "再配置する・戻す"
+        "timing drift": {
+          "ja": "タイミングのずれ"
+        },
+        "those parts": {
+          "ja": "それらのパート"
+        },
+        "return to": {
+          "ja": "〜に戻される"
+        },
+        "a sequencer": {
+          "ja": "シーケンサー（音を並べる編集ソフト）"
         }
       },
       "phrases": [
         {
-          "en": "timing drift",
-          "ja": "各パートのタイミングのずれ",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "return to a sequencer",
-          "ja": "シーケンサーへ再配置される",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "when those parts return to a sequencer",
+          "ja": "パートをシーケンサーに戻すとき",
+          "note": "return はここで「戻る」。",
+          "pattern": "return to 〜"
         }
       ]
     },
@@ -1419,46 +1361,40 @@
           "ja": "自動化"
         },
         "erase": {
-          "ja": "無くす"
+          "ja": "消す"
         },
         "work": {
           "ja": "手間・作業"
         },
-        "as": {
-          "ja": "〜ほどには"
-        },
         "move": {
-          "ja": "工程を移す"
+          "ja": "移す"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "so much as": {
+          "ja": "〜というより"
+        },
+        "it": {
+          "ja": "それ（＝作業）"
         }
       },
       "phrases": [
         {
           "en": "does not erase the work so much as move it",
-          "ja": "AというよりむしろB",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "does not erase the work",
-          "ja": "作業自体を無くすわけではない",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "ja": "作業を消すというより移す",
+          "note": "not so much A as B と同じ「AというよりB」。",
+          "pattern": "not A so much as B"
         }
       ]
     },
     {
       "words": {
         "synchronization": {
-          "ja": "同期・タイミングを合わせること",
-          "pos": "名詞",
-          "lemma": "synchronize",
-          "form": "synchronize → synchronization",
-          "note": "synchronize → synchronization"
+          "ja": "同期（タイミングを合わせること）"
         },
         "follows": {
-          "ja": "後に続く",
-          "pos": "動詞・三人称単数現在",
-          "lemma": "follow",
-          "form": "follow → follows",
-          "note": "follow → follows"
+          "ja": "〜の後に来る"
         },
         "separation": {
           "ja": "分離",
@@ -1471,19 +1407,15 @@
           "ja": "選別"
         },
         "generation": {
-          "ja": "生成工程"
+          "ja": "生成"
         }
       },
       "phrases": [
         {
-          "en": "synchronization follows separation",
-          "ja": "分離後に同期作業が続く",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "selection follows generation",
-          "ja": "生成後に選別が続く",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "synchronization follows separation, and selection follows generation",
+          "ja": "分離の後に同期、生成の後に選別が来る",
+          "note": "follow「〜に続く」。",
+          "pattern": "A follows B"
         }
       ]
     }
@@ -1498,19 +1430,8 @@
           "form": "asset → assets",
           "note": "asset → assets"
         },
-        "described": {
-          "ja": "記述された",
-          "pos": "動詞・過去分詞",
-          "lemma": "describe",
-          "form": "describe → described（受動態）",
-          "note": "describe → described（受動態）"
-        },
         "specifications": {
-          "ja": "仕様・規格",
-          "pos": "名詞・複数形",
-          "lemma": "specification",
-          "form": "specification → specifications",
-          "note": "specification → specifications"
+          "ja": "仕様"
         },
         "same": {
           "ja": "同じような"
@@ -1518,37 +1439,32 @@
         "shift": {
           "ja": "構造変化"
         },
-        "reaching": {
-          "ja": "波及している"
-        },
         "three-dimensional": {
           "ja": "三次元の"
         },
-        "can": {
-          "ja": "〜できる"
+        "is reaching": {
+          "ja": "届きつつある"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜できる"
+        },
+        "can be described by": {
+          "ja": "〜で記述できる"
         }
       },
       "phrases": [
         {
-          "en": "three-dimensional assets",
-          "ja": "3D制作素材",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "described by specifications",
-          "ja": "仕様で規定できる",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "three-dimensional assets that can be described by specifications",
+          "ja": "仕様で書き表せる3D素材",
+          "note": "that 以下が assets を修飾。",
+          "pattern": "that 節"
         }
       ]
     },
     {
       "words": {
         "scarcity": {
-          "ja": "希少性",
-          "pos": "名詞",
-          "lemma": "scarce",
-          "form": "scarce → scarcity",
-          "note": "scarce → scarcity"
+          "ja": "希少性"
         },
         "file": {
           "ja": "ファイル・完成データ",
@@ -1563,27 +1479,22 @@
         "generation": {
           "ja": "生成"
         },
-        "becomes": {
-          "ja": "〜になる"
-        },
-        "reliable": {
-          "ja": "安定して信頼できる"
-        },
         "finished": {
           "ja": "完成済みの"
         },
-        "will": {
-          "ja": "〜するだろう"
+        "becomes reliable": {
+          "ja": "安定して使えるようになる"
         },
-        "weaken": {
-          "ja": "弱くなる"
+        "will weaken": {
+          "ja": "弱まる"
         }
       },
       "phrases": [
         {
-          "en": "scarcity of a finished file",
-          "ja": "完成データそのものの希少性",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "the scarcity of a finished file will weaken",
+          "ja": "完成ファイルの希少さは弱まる",
+          "note": "誰でも作れるなら珍しくなくなる。",
+          "pattern": "scarcity of 〜"
         }
       ]
     },
@@ -1614,20 +1525,22 @@
         "price": {
           "ja": "販売価格"
         },
-        "themselves": {
-          "ja": "それ自体では"
+        "they": {
+          "ja": "それら（＝センスと丁寧さ）"
+        },
+        "may not": {
+          "ja": "〜とは限らない"
+        },
+        "by themselves": {
+          "ja": "それだけで"
         }
       },
       "phrases": [
         {
-          "en": "taste and care",
-          "ja": "審美眼と丁寧な仕上げ",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "by themselves",
-          "ja": "それ自体だけでは",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "may not preserve the old price by themselves",
+          "ja": "それだけで従来の価格を保てるとは限らない",
+          "note": "by themselves「それ自体で」。",
+          "pattern": "by themselves"
         }
       ]
     },
@@ -1650,24 +1563,22 @@
         "value": {
           "ja": "商品価値"
         },
-        "moves": {
-          "ja": "移っていく"
-        },
-        "toward": {
-          "ja": "〜へ"
-        },
         "selection": {
           "ja": "取捨選択"
         },
         "revision": {
           "ja": "修正・改訂"
+        },
+        "moves toward": {
+          "ja": "〜へ移る"
         }
       },
       "phrases": [
         {
-          "en": "value moves toward",
-          "ja": "価値の源泉が〜へ移る",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "Value moves toward cleanup, consistency, selection, and revision",
+          "ja": "価値は後処理・整合・選別・修正へ移る",
+          "note": "次のチャンクへ続く。",
+          "pattern": "move toward 〜"
         }
       ]
     },
@@ -1681,11 +1592,7 @@
           "note": "short → shorter"
         },
         "saves": {
-          "ja": "省く・節約する",
-          "pos": "動詞・三人称単数現在",
-          "lemma": "save",
-          "form": "save → saves",
-          "note": "save → saves"
+          "ja": "免れさせる"
         },
         "path": {
           "ja": "工程・道筋"
@@ -1697,7 +1604,7 @@
           "ja": "利用者"
         },
         "from": {
-          "ja": "〜を免れさせて"
+          "ja": "〜から"
         },
         "unfinished": {
           "ja": "未完成の"
@@ -1708,9 +1615,10 @@
       },
       "phrases": [
         {
-          "en": "saves another person from",
-          "ja": "別の利用者に〜をさせずに済ませる",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "the shorter path that saves another person from unfinished work",
+          "ja": "他の人を未完成の作業から救う近道",
+          "note": "save A from B「AをBから救う・免れさせる」。",
+          "pattern": "save A from B"
         }
       ]
     }
