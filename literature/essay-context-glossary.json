@@ -49043,5 +49043,653 @@
         }
       ]
     }
+  ],
+  "DE-20260809-001": [
+    {
+      "words": {
+        "the": {
+          "ja": "その"
+        },
+        "literature update": {
+          "ja": "文学版の更新"
+        },
+        "had vanished from": {
+          "ja": "〜から消えていた"
+        },
+        "the task list": {
+          "ja": "タスク一覧"
+        }
+      },
+      "phrases": [
+        {
+          "en": "had vanished from the task list",
+          "ja": "タスク一覧から消えていた",
+          "note": "literature はこのアプリの「文学版」。",
+          "pattern": "過去完了"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝文学版の更新）"
+        },
+        "had not been deleted": {
+          "ja": "削除されてはいなかった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "yet it had not been deleted",
+          "ja": "しかし削除されてはいなかった",
+          "note": "had not been 過去分詞。",
+          "pattern": "過去完了の受け身"
+        }
+      ]
+    },
+    {
+      "words": {
+        "its": {
+          "ja": "その"
+        },
+        "settings": {
+          "ja": "設定"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "schedule": {
+          "ja": "実行予定"
+        },
+        "were still intact": {
+          "ja": "まだ無事だった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "were still intact",
+          "ja": "まだそのまま残っていた",
+          "note": "intact「損なわれていない」。schedule はここで「実行予定」。",
+          "pattern": "intact"
+        }
+      ]
+    },
+    {
+      "words": {
+        "only": {
+          "ja": "〜だけ"
+        },
+        "the task itself": {
+          "ja": "タスクそのもの"
+        },
+        "had been disabled": {
+          "ja": "無効にされていた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "only the task itself had been disabled",
+          "ja": "タスクそのものだけが無効になっていた",
+          "note": "disabled はここで「無効化された」。",
+          "pattern": "disable 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "silent suspension": {
+          "ja": "音のない停止"
+        },
+        "is harder to notice than": {
+          "ja": "〜より気づきにくい"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "obvious failure": {
+          "ja": "明らかな故障"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is harder to notice than an obvious failure",
+          "ja": "明らかな故障より気づきにくい",
+          "note": "suspension「一時停止」。",
+          "pattern": "比較級 + to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "because": {
+          "ja": "〜なので"
+        },
+        "nothing": {
+          "ja": "何も〜ない"
+        },
+        "appears to": {
+          "ja": "〜するように見える"
+        },
+        "break": {
+          "ja": "壊れる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "because nothing appears to break",
+          "ja": "何も壊れたように見えないから",
+          "note": "break はここで動詞「壊れる」（休憩ではない）。",
+          "pattern": "appear to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "recurring process": {
+          "ja": "繰り返し実行される処理"
+        },
+        "stops": {
+          "ja": "止まる"
+        },
+        "the first question": {
+          "ja": "最初の問い"
+        },
+        "is not whether": {
+          "ja": "〜かどうかではない"
+        },
+        "yesterday's output": {
+          "ja": "昨日の出力"
+        },
+        "exists": {
+          "ja": "あるか"
+        },
+        "but whether": {
+          "ja": "…かどうかだ"
+        },
+        "the mechanism": {
+          "ja": "仕組み"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "carries": {
+          "ja": "運ぶ"
+        },
+        "the work": {
+          "ja": "仕事"
+        },
+        "into tomorrow": {
+          "ja": "明日へ"
+        },
+        "is still running": {
+          "ja": "まだ動いている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not whether yesterday's output exists, but whether the mechanism",
+          "ja": "昨日の出力があるかではなく、仕組みがまだ動いているか",
+          "note": "recurring「定期的に繰り返す」。",
+          "pattern": "not whether A but whether B"
+        }
+      ]
+    }
+  ],
+  "DE-20260809-002": [
+    {
+      "words": {
+        "the problem": {
+          "ja": "問題"
+        },
+        "came from": {
+          "ja": "〜から生じた"
+        },
+        "misreading": {
+          "ja": "読み違え"
+        },
+        "success": {
+          "ja": "成功"
+        },
+        "not from": {
+          "ja": "〜からではなく"
+        },
+        "failure": {
+          "ja": "失敗"
+        }
+      },
+      "phrases": [
+        {
+          "en": "came from misreading success, not from failure",
+          "ja": "失敗ではなく成功の読み違いから生じた",
+          "note": "misread「読み違える」。",
+          "pattern": "A, not B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "a single day's": {
+          "ja": "一日分の"
+        },
+        "essay": {
+          "ja": "エッセイ"
+        },
+        "had been registered": {
+          "ja": "登録された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Once a single day's essay had been registered",
+          "ja": "一日分のエッセイが登録されると",
+          "note": "次のチャンクへ続く。",
+          "pattern": "once 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the entire automation": {
+          "ja": "自動化全体"
+        },
+        "was stopped": {
+          "ja": "止められた"
+        },
+        "in the name of": {
+          "ja": "〜の名目で"
+        },
+        "avoiding": {
+          "ja": "避けること"
+        },
+        "duplicates": {
+          "ja": "重複"
+        }
+      },
+      "phrases": [
+        {
+          "en": "was stopped in the name of avoiding duplicates",
+          "ja": "重複を避けるという名目で止められた",
+          "note": "duplicates は名詞「重複」。",
+          "pattern": "in the name of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "completion": {
+          "ja": "完了"
+        },
+        "has": {
+          "ja": "持つ"
+        },
+        "two": {
+          "ja": "二つの"
+        },
+        "different scales": {
+          "ja": "異なる尺度"
+        }
+      },
+      "phrases": [
+        {
+          "en": "completion has two different scales",
+          "ja": "完了には二つの尺度がある",
+          "note": "scales はここで「尺度」（天秤ではない）。",
+          "pattern": "scale（尺度）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "one run": {
+          "ja": "一回の実行"
+        },
+        "can finish": {
+          "ja": "終われる"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "the recurring process": {
+          "ja": "繰り返す処理"
+        },
+        "remains open": {
+          "ja": "開いたままである"
+        }
+      },
+      "phrases": [
+        {
+          "en": "one run can finish while the recurring process remains open",
+          "ja": "一回が終わっても、繰り返しの処理は続いたまま",
+          "note": "run はここで名詞「実行」。",
+          "pattern": "remain 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "preventing": {
+          "ja": "防ぐこと"
+        },
+        "a second entry": {
+          "ja": "二つ目の登録"
+        },
+        "for the same date": {
+          "ja": "同じ日付の"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a local safeguard": {
+          "ja": "局所的な安全策"
+        },
+        "canceling": {
+          "ja": "取り消すこと"
+        },
+        "the next day's run": {
+          "ja": "翌日の実行"
+        },
+        "a lifecycle decision": {
+          "ja": "ライフサイクルに関わる判断"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Preventing a second entry for the same date is a local safeguard; canceling the next day's run is a lifecycle decision",
+          "ja": "同日の二重登録防止は局所的な安全策、翌日の実行取消しは全体の存続に関わる判断",
+          "note": "lifecycle「（仕組みの）一生」。",
+          "pattern": "動名詞の主語の対比"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "those levels": {
+          "ja": "それらの階層"
+        },
+        "are confused": {
+          "ja": "混同される"
+        },
+        "the system": {
+          "ja": "仕組み"
+        },
+        "designed to": {
+          "ja": "〜するために作られた"
+        },
+        "preserve": {
+          "ja": "守る"
+        },
+        "continuity": {
+          "ja": "継続"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "the thing that": {
+          "ja": "〜するもの"
+        },
+        "ends": {
+          "ja": "終わらせる"
+        },
+        "it": {
+          "ja": "それ（＝継続）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the system designed to preserve continuity becomes the thing that ends it",
+          "ja": "継続を守る仕組みが継続を終わらせるものになる",
+          "note": "confused はここで「混同された」（困惑したではない）。",
+          "pattern": "名詞 + 過去分詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260809-003": [
+    {
+      "words": {
+        "restarting": {
+          "ja": "再開すること"
+        },
+        "the task": {
+          "ja": "タスク"
+        },
+        "required": {
+          "ja": "必要とした"
+        },
+        "a stopping rule": {
+          "ja": "停止の規則"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "a motivational speech": {
+          "ja": "励ましの言葉"
+        }
+      },
+      "phrases": [
+        {
+          "en": "required a stopping rule, not a motivational speech",
+          "ja": "必要なのは励ましではなく止める規則だった",
+          "note": "motivational「やる気を出させる」。",
+          "pattern": "A, not B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "successful run": {
+          "ja": "成功した実行"
+        },
+        "a day with": {
+          "ja": "〜な日"
+        },
+        "too little material": {
+          "ja": "題材が少なすぎる"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "duplicate date": {
+          "ja": "重複した日付"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a day with too little material",
+          "ja": "題材が少なすぎる日",
+          "note": "duplicate はここで形容詞「重複した」。",
+          "pattern": "too little 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "should": {
+          "ja": "〜すべきだ"
+        },
+        "close": {
+          "ja": "閉じる"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "the current attempt": {
+          "ja": "今回の試み"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "leave": {
+          "ja": "〜のままにする"
+        },
+        "the next one": {
+          "ja": "次の回"
+        },
+        "intact": {
+          "ja": "無傷で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "should close only the current attempt and leave the next one intact",
+          "ja": "今回だけ閉じて、次の回は無傷で残すべき",
+          "note": "one は attempt を受ける。",
+          "pattern": "leave A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "work": {
+          "ja": "作品"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "fails": {
+          "ja": "落ちる"
+        },
+        "the quality check": {
+          "ja": "品質チェック"
+        },
+        "should not be published": {
+          "ja": "公開すべきではない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Work that fails the quality check should not be published",
+          "ja": "品質チェックに落ちた作品は公開すべきでない",
+          "note": "fail「（試験に）落ちる」。",
+          "pattern": "fail a check"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "the schedule": {
+          "ja": "実行予定"
+        },
+        "should survive": {
+          "ja": "生き残るべきだ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "but the schedule should survive",
+          "ja": "予定は生き残るべきだ",
+          "note": "作品と仕組みを分ける考え方。",
+          "pattern": "survive"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the recurring task": {
+          "ja": "定期タスク"
+        },
+        "should": {
+          "ja": "〜すべきだ"
+        },
+        "stop": {
+          "ja": "止まる"
+        },
+        "only in response to": {
+          "ja": "〜に応じてだけ"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "explicit request": {
+          "ja": "はっきりした依頼"
+        }
+      },
+      "phrases": [
+        {
+          "en": "should stop only in response to an explicit request",
+          "ja": "明示的な依頼に応じてだけ止まるべき",
+          "note": "explicit「明確な」。",
+          "pattern": "in response to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "continuity": {
+          "ja": "継続"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a record of": {
+          "ja": "〜の記録"
+        },
+        "perfect days": {
+          "ja": "完璧な日々"
+        },
+        "it": {
+          "ja": "それ（＝継続）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the decision": {
+          "ja": "決意"
+        },
+        "not to": {
+          "ja": "〜しないという"
+        },
+        "let": {
+          "ja": "〜させる"
+        },
+        "one": {
+          "ja": "一つの"
+        },
+        "imperfect day": {
+          "ja": "不完全な日"
+        },
+        "erase": {
+          "ja": "消す"
+        },
+        "the possibility of": {
+          "ja": "〜の可能性"
+        },
+        "tomorrow": {
+          "ja": "明日"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the decision not to let one imperfect day erase the possibility of tomorrow",
+          "ja": "不完全な一日に明日の可能性を消させないという決意",
+          "note": "不定詞の否定は not to。",
+          "pattern": "not to 動詞 / let A 動詞"
+        }
+      ]
+    }
   ]
 }
