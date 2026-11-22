@@ -5800,50 +5800,85 @@
   "DE-20261106-001": [
     {
       "words": {
-        "remaining": {
-          "ja": "残っている"
+        "it is easy to": {
+          "ja": "〜するのは簡単だ"
         },
-        "bug": {
-          "ja": "不具合"
+        "explain": {
+          "ja": "説明する"
         },
-        "developers": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "remaining bug": {
+          "ja": "残っている不具合"
+        },
+        "by saying": {
+          "ja": "〜と言うことで"
+        },
+        "that": {
+          "ja": "（接続詞）〜ということ"
+        },
+        "the developers": {
           "ja": "開発者たち"
         },
-        "test": {
-          "ja": "試す・試験する"
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "test everything": {
+          "ja": "すべてを試す"
         }
       },
       "phrases": [
         {
-          "en": "explain a remaining bug by saying that",
-          "ja": "残った不具合を〜と言って説明する",
-          "note": "by saying that 以下は簡単な原因説明の手段"
+          "en": "It is easy to explain a remaining bug by saying that",
+          "ja": "〜と言って説明するのは簡単だ",
+          "note": "it は to explain 以下を指す形式主語。",
+          "pattern": "it is 形容詞 to 動詞 / by -ing"
         }
       ]
     },
     {
       "words": {
-        "actual": {
-          "ja": "実際の"
-        },
-        "machine": {
-          "ja": "機械の"
-        },
-        "states": {
-          "ja": "状態"
-        },
-        "matrix": {
-          "ja": "試験条件表"
-        },
         "covered": {
           "ja": "扱った"
+        },
+        "in actual use": {
+          "ja": "実際の使用では"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "user actions": {
+          "ja": "利用者の操作"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "machine states": {
+          "ja": "機械の状態"
+        },
+        "repeatedly": {
+          "ja": "繰り返し"
+        },
+        "combine": {
+          "ja": "組み合わさる"
+        },
+        "in ways": {
+          "ja": "〜なやり方で"
+        },
+        "the test matrix": {
+          "ja": "試験の組み合わせ表"
+        },
+        "never": {
+          "ja": "一度も〜ない"
         }
       },
       "phrases": [
         {
-          "en": "in ways the test matrix never covered",
-          "ja": "試験表が一度も扱わなかった形で",
-          "note": "ways は操作と機械状態の組合せ方を指す"
+          "en": "combine in ways the test matrix never covered",
+          "ja": "試験表が一度も扱わなかった形で組み合わさる",
+          "note": "ways の後に関係代名詞が省略。",
+          "pattern": "in ways (that) 〜"
         }
       ]
     },
@@ -5852,70 +5887,130 @@
         "condition": {
           "ja": "条件"
         },
-        "maker": {
-          "ja": "作る側"
-        },
         "encounters": {
-          "ja": "遭遇する"
+          "ja": "出くわす"
         },
         "confront": {
-          "ja": "直面させる"
+          "ja": "立ちはだかる・直面させる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "the maker": {
+          "ja": "作る側"
+        },
+        "once": {
+          "ja": "一度"
+        },
+        "may": {
+          "ja": "〜ことがある"
+        },
+        "a user": {
+          "ja": "利用者"
+        },
+        "every day": {
+          "ja": "毎日"
         }
       },
       "phrases": [
         {
-          "en": "may confront a user every day",
-          "ja": "利用者を毎日直面させることがある",
-          "note": "作る側と使う側で条件に遭遇する頻度が違う"
+          "en": "A condition the maker encounters once may confront a user every day",
+          "ja": "作り手が一度しか会わない条件が利用者には毎日立ちはだかる",
+          "note": "condition の後に関係代名詞が省略。",
+          "pattern": "名詞 + (that) 主語 + 動詞"
         }
       ]
     },
     {
       "words": {
-        "traffic-light": {
-          "ja": "信号機の"
-        },
-        "diagram": {
-          "ja": "図"
-        },
         "shifts": {
           "ja": "移す"
         },
-        "stalled": {
-          "ja": "止まった"
-        },
         "together": {
           "ja": "同時に"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "traffic-light diagram": {
+          "ja": "信号機の図"
+        },
+        "the question": {
+          "ja": "問い"
+        },
+        "away from": {
+          "ja": "〜から離して"
+        },
+        "the stalled car": {
+          "ja": "止まった車"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "toward": {
+          "ja": "〜の方へ"
+        },
+        "the conditions": {
+          "ja": "条件"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "turned green": {
+          "ja": "青になった"
         }
       },
       "phrases": [
         {
           "en": "shifts the question away from the stalled car and toward the conditions",
-          "ja": "問いを止まった車から条件の側へ移す",
-          "note": "責任追及の焦点を結果から条件の組合せへ移動する"
+          "ja": "問いを止まった車から条件の方へ移す",
+          "note": "away from／toward で移動の向き。",
+          "pattern": "shift A away from B toward C"
         }
       ]
     },
     {
       "words": {
-        "filed": {
-          "ja": "提出された"
+        "sometimes": {
+          "ja": "ときに"
         },
-        "boundary": {
-          "ja": "境界"
+        "a": {
+          "ja": "ひとつの"
         },
-        "product": {
+        "bug": {
+          "ja": "不具合"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "report": {
+          "ja": "報告書"
+        },
+        "filed by": {
+          "ja": "〜が提出した"
+        },
+        "the boundary between": {
+          "ja": "〜の間の境界"
+        },
+        "a product": {
           "ja": "製品"
         },
-        "real-world": {
-          "ja": "現実の"
+        "and": {
+          "ja": "と"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "real-world use": {
+          "ja": "現実の使われ方"
         }
       },
       "phrases": [
         {
-          "en": "a report filed by the boundary",
-          "ja": "境界が提出した報告書",
-          "note": "不具合を製品と実使用の接点から届く観測として比喩化"
+          "en": "a report filed by the boundary between a product and its real-world use",
+          "ja": "製品と現実の使用の境目が出した報告書",
+          "note": "file はここで「（書類を）提出する」。",
+          "pattern": "file a report"
         }
       ]
     }
@@ -5923,11 +6018,8 @@
   "DE-20261106-002": [
     {
       "words": {
-        "disputes": {
-          "ja": "論争"
-        },
         "controls": {
-          "ja": "決める・統制する"
+          "ja": "決める"
         },
         "performance": {
           "ja": "演技"
@@ -5935,93 +6027,202 @@
         "whether": {
           "ja": "〜かどうか"
         },
-        "respect": {
-          "ja": "敬意"
+        "in": {
+          "ja": "〜において"
+        },
+        "disputes over": {
+          "ja": "〜をめぐる争い"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "voice": {
+          "ja": "声"
+        },
+        "two questions": {
+          "ja": "二つの問い"
+        },
+        "easily": {
+          "ja": "簡単に"
+        },
+        "blur together": {
+          "ja": "混ざってぼやける"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "the direction of": {
+          "ja": "〜の方向性"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "the work": {
+          "ja": "その仕事"
+        },
+        "received": {
+          "ja": "受けた"
+        },
+        "due respect": {
+          "ja": "しかるべき敬意"
         }
       },
       "phrases": [
         {
           "en": "two questions easily blur together",
           "ja": "二つの問いが混ざりやすい",
-          "note": "演出権限と仕事への敬意を同一論点にしないための表現"
+          "note": "コロン以下で二つの問いを示す。",
+          "pattern": "blur together"
+        },
+        {
+          "en": "whether the work received due respect",
+          "ja": "仕事がしかるべき敬意を受けたか",
+          "note": "due は形容詞で「当然受けるべき」。",
+          "pattern": "due 〜"
         }
       ]
     },
     {
       "words": {
-        "first": {
-          "ja": "前者"
-        },
-        "directing": {
-          "ja": "演出の"
-        },
-        "authority": {
-          "ja": "権限"
-        },
         "contracts": {
           "ja": "契約"
         },
-        "dignity": {
-          "ja": "尊厳"
+        "the first": {
+          "ja": "前者"
+        },
+        "concerns": {
+          "ja": "関わる"
+        },
+        "directing authority": {
+          "ja": "演出の権限"
+        },
+        "the second": {
+          "ja": "後者"
+        },
+        "credit": {
+          "ja": "クレジット（名前の表記）"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "professional dignity": {
+          "ja": "職業上の尊厳"
         }
       },
       "phrases": [
         {
-          "en": "directing authority",
-          "ja": "演出権限",
-          "note": "所有権ではなく演技の方向を決める権限"
+          "en": "The first concerns directing authority; the second concerns contracts",
+          "ja": "前者は演出権限に、後者は契約などに関わる",
+          "note": "concern は動詞「〜に関係する」。",
+          "pattern": "the first ...; the second ..."
         }
       ]
     },
     {
       "words": {
-        "public": {
-          "ja": "公の"
-        },
-        "appeal": {
-          "ja": "訴え"
-        },
         "borrows": {
           "ja": "借りる"
         },
-        "duty": {
-          "ja": "責任"
+        "public appeal": {
+          "ja": "公に訴えること"
         },
-        "grievance": {
-          "ja": "不満・訴え"
+        "may be": {
+          "ja": "〜かもしれない"
+        },
+        "necessary": {
+          "ja": "必要な"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the more": {
+          "ja": "〜するほど"
+        },
+        "such an appeal": {
+          "ja": "そうした訴え"
+        },
+        "a work's influence": {
+          "ja": "作品の影響力"
+        },
+        "the greater": {
+          "ja": "いっそう大きく"
+        },
+        "the duty to": {
+          "ja": "〜する責任"
+        },
+        "distinguish": {
+          "ja": "区別する"
+        },
+        "personal grievance": {
+          "ja": "個人的な不満"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "industry conditions": {
+          "ja": "業界の条件"
         }
       },
       "phrases": [
         {
           "en": "the more such an appeal borrows a work's influence, the greater the duty",
-          "ja": "その訴えが作品の影響力を借りるほど、責任は大きくなる",
-          "note": "the more ..., the greater ... で程度に応じて増す説明責任を示す"
+          "ja": "作品の影響力を借りるほど責任は大きくなる",
+          "note": "後半は be 動詞が省略されている。",
+          "pattern": "the 比較級 ..., the 比較級 ..."
+        },
+        {
+          "en": "distinguish personal grievance from industry conditions",
+          "ja": "個人の不満と業界の条件を区別する",
+          "note": "distinguish A from B「AとBを見分ける」。",
+          "pattern": "distinguish A from B"
         }
       ]
     },
     {
       "words": {
-        "body": {
-          "ja": "身体"
-        },
-        "actor's": {
-          "ja": "声優の"
-        },
         "circulates": {
           "ja": "流通する"
         },
-        "recording": {
-          "ja": "録音の"
-        },
         "institutions": {
           "ja": "制度"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "voice": {
+          "ja": "声"
+        },
+        "comes from": {
+          "ja": "〜から出る"
+        },
+        "a body": {
+          "ja": "身体"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "voice actor's": {
+          "ja": "声優の"
+        },
+        "work": {
+          "ja": "仕事"
+        },
+        "through": {
+          "ja": "〜を通じて"
+        },
+        "recording technology": {
+          "ja": "録音技術"
+        },
+        "and": {
+          "ja": "と"
         }
       },
       "phrases": [
         {
-          "en": "circulates through recording technology and institutions",
-          "ja": "録音技術と制度を通じて流通する",
-          "note": "声の身体的起点と仕事の流通基盤を分ける"
+          "en": "a voice actor's work circulates through recording technology and institutions",
+          "ja": "声優の仕事は録音技術と制度を通じて流通する",
+          "note": "身体と流通の対比。",
+          "pattern": "circulate through 〜"
         }
       ]
     }
@@ -6035,90 +6236,208 @@
         "ai": {
           "ja": "AI"
         },
-        "repository": {
+        "while": {
+          "ja": "〜している間"
+        },
+        "making": {
+          "ja": "作ること"
+        },
+        "with": {
+          "ja": "〜を使って"
+        },
+        "i": {
+          "ja": "私は"
+        },
+        "sometimes": {
+          "ja": "ときどき"
+        },
+        "feel": {
+          "ja": "感じる"
+        },
+        "as if": {
+          "ja": "まるで〜かのように"
+        },
+        "the repository": {
           "ja": "リポジトリ"
         },
-        "speaking": {
-          "ja": "話している"
+        "were speaking": {
+          "ja": "話している（仮定法）"
         }
       },
       "phrases": [
         {
           "en": "as if the repository were speaking",
           "ja": "リポジトリが話しているかのように",
-          "note": "事実ではなく制作中の比喩的感覚を示す仮定法"
+          "note": "事実でない想定なので were。",
+          "pattern": "as if + 仮定法過去"
         }
       ]
     },
     {
       "words": {
-        "files": {
+        "themselves": {
+          "ja": "そのもの"
+        },
+        "the files": {
           "ja": "ファイル"
         },
-        "themselves": {
-          "ja": "それ自体"
+        "of course": {
+          "ja": "もちろん"
         },
-        "voice": {
-          "ja": "声"
+        "have no voice": {
+          "ja": "声を持たない"
         }
       },
       "phrases": [
         {
           "en": "have no voice",
-          "ja": "声を持たない",
-          "note": "リポジトリが実際に発話するという解釈を明確に否定"
+          "ja": "声はない",
+          "note": "no＋名詞で完全否定。",
+          "pattern": "have no 〜"
         }
       ]
     },
     {
       "words": {
-        "failures": {
-          "ja": "失敗"
-        },
         "settings": {
           "ja": "設定"
         },
         "assets": {
           "ja": "素材"
         },
-        "revision": {
-          "ja": "修正"
+        "yet": {
+          "ja": "しかし"
         },
-        "accumulated": {
-          "ja": "蓄積された"
+        "past failures": {
+          "ja": "過去の失敗"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "revision history": {
+          "ja": "修正履歴"
+        },
+        "pass into": {
+          "ja": "〜へ渡る"
+        },
+        "the next": {
+          "ja": "次の"
+        },
+        "generation process": {
+          "ja": "生成工程"
+        },
+        "return to": {
+          "ja": "〜へ戻る"
+        },
+        "the screen": {
+          "ja": "画面"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "character's movement": {
+          "ja": "キャラクターの動き"
+        },
+        "making": {
+          "ja": "〜にさせて"
+        },
+        "the accumulated record": {
+          "ja": "蓄積された記録"
+        },
+        "seem to": {
+          "ja": "〜するように見える"
+        },
+        "respond": {
+          "ja": "応答する"
         }
       },
       "phrases": [
         {
           "en": "making the accumulated record seem to respond",
-          "ja": "蓄積された記録が応答するように見せる",
-          "note": "履歴が次の生成と画面上の動きへ渡る結果"
+          "ja": "蓄積された記録が応答しているように見せる",
+          "note": "making は結果を表す分詞構文。",
+          "pattern": "make A 動詞"
         }
       ]
     },
     {
       "words": {
-        "placed": {
-          "ja": "貼られた・置かれた"
-        },
-        "cargo": {
-          "ja": "貨物・荷台の"
-        },
-        "decorated": {
-          "ja": "装飾された"
-        },
         "replays": {
           "ja": "再生する"
         },
-        "path": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "image": {
+          "ja": "画像"
+        },
+        "placed on": {
+          "ja": "〜の上に置かれた"
+        },
+        "the cargo bed of": {
+          "ja": "〜の荷台"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "decorated truck": {
+          "ja": "デコトラ"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "a surface for": {
+          "ja": "〜のための面"
+        },
+        "video": {
+          "ja": "動画"
+        },
+        "the work": {
+          "ja": "作品"
+        },
+        "not only": {
+          "ja": "〜だけでなく"
+        },
+        "shows": {
+          "ja": "見せる"
+        },
+        "finished result": {
+          "ja": "完成した結果"
+        },
+        "but also": {
+          "ja": "…も"
+        },
+        "the path": {
           "ja": "経路"
+        },
+        "by which": {
+          "ja": "それによって"
+        },
+        "it": {
+          "ja": "それ（＝作品）"
+        },
+        "was made": {
+          "ja": "作られた"
         }
       },
       "phrases": [
         {
           "en": "not only shows a finished result but also replays the path",
-          "ja": "完成した結果を見せるだけでなく、経路も再生する",
-          "note": "作品が完成品と制作履歴の両方を示す"
+          "ja": "完成品を見せるだけでなく経路も再生する",
+          "note": "作品の二重の働き。",
+          "pattern": "not only A but also B"
+        },
+        {
+          "en": "the path by which it was made",
+          "ja": "それが作られた経路",
+          "note": "前置詞＋関係代名詞。",
+          "pattern": "by which 〜"
         }
       ]
     }
@@ -6126,27 +6445,43 @@
   "DE-20261106-004": [
     {
       "words": {
-        "form": {
-          "ja": "形"
+        "seen only as": {
+          "ja": "〜としてだけ見ると"
         },
-        "future": {
-          "ja": "未来型の"
+        "a": {
+          "ja": "ひとつの"
         },
-        "vehicle": {
-          "ja": "乗り物"
+        "single form": {
+          "ja": "一つの形"
         },
-        "smooth": {
-          "ja": "滑らかな"
+        "future vehicle": {
+          "ja": "未来の乗り物"
         },
-        "shell": {
-          "ja": "外殻"
+        "makes": {
+          "ja": "〜にする"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "smooth shell": {
+          "ja": "滑らかな外殻"
+        },
+        "the star": {
+          "ja": "主役"
         }
       },
       "phrases": [
         {
+          "en": "Seen only as a single form",
+          "ja": "一つの形としてだけ見れば",
+          "note": "(If it is) seen の省略。",
+          "pattern": "分詞構文（過去分詞）"
+        },
+        {
           "en": "makes its smooth shell the star",
           "ja": "滑らかな外殻を主役にする",
-          "note": "一つの外形だけを見た場合の視覚的中心"
+          "note": "make＋目的語＋名詞「AをBにする」。",
+          "pattern": "make A B"
         }
       ]
     },
@@ -6156,61 +6491,112 @@
           "ja": "部品交換"
         },
         "reassembly": {
-          "ja": "再組立"
-        },
-        "assembly": {
-          "ja": "組立の"
-        },
-        "bill": {
-          "ja": "表・明細"
+          "ja": "組み直し"
         },
         "exploded": {
-          "ja": "分離した"
+          "ja": "分解した（展開図の）"
+        },
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "matter": {
+          "ja": "重要になる"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "the project": {
+          "ja": "プロジェクト"
+        },
+        "needs": {
+          "ja": "必要とする"
+        },
+        "separate models": {
+          "ja": "個別のモデル"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "assembly drawing": {
+          "ja": "組立図"
+        },
+        "a bill of materials": {
+          "ja": "部品表"
+        },
+        "joint relationships": {
+          "ja": "接合の関係"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "structure": {
+          "ja": "構造"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜できる"
+        },
+        "can move between": {
+          "ja": "〜の間を行き来できる"
+        },
+        "assembled": {
+          "ja": "組み立てた"
+        },
+        "states": {
+          "ja": "状態"
         }
       },
       "phrases": [
         {
           "en": "a bill of materials",
-          "ja": "部品表",
-          "note": "部品の名称・数量等を示すBOM"
+          "ja": "部品表（BOM）",
+          "note": "bill はここで「明細書」。",
+          "pattern": "bill of materials"
         },
         {
-          "en": "between assembled and exploded states",
-          "ja": "通常姿勢と分離姿勢の間を",
-          "note": "組立関係を示す二つの表示状態"
+          "en": "move between assembled and exploded states",
+          "ja": "組立状態と分解状態を行き来する",
+          "note": "exploded は「分解図の」。",
+          "pattern": "between A and B"
         }
       ]
     },
     {
       "words": {
-        "whole": {
-          "ja": "全体"
-        },
         "emerge": {
-          "ja": "生まれる・立ち上がる"
-        },
-        "erasing": {
-          "ja": "消すこと"
+          "ja": "現れる"
         },
         "parts": {
           "ja": "部品"
+        },
+        "the whole": {
+          "ja": "全体"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "by erasing": {
+          "ja": "消すことで"
+        },
+        "its": {
+          "ja": "その"
         }
       },
       "phrases": [
         {
           "en": "does not emerge by erasing its parts",
-          "ja": "部品を消すことで生まれるのではない",
-          "note": "全体化と部品境界の消去を区別する否定"
+          "ja": "部品を消すことで現れるのではない",
+          "note": "by＋動名詞で手段。",
+          "pattern": "by -ing"
         }
       ]
     },
     {
       "words": {
-        "shape": {
-          "ja": "形"
-        },
         "connect": {
-          "ja": "接続する"
+          "ja": "つながる"
         },
         "positions": {
           "ja": "位置"
@@ -6218,41 +6604,85 @@
         "roles": {
           "ja": "役割"
         },
-        "relation": {
-          "ja": "関係"
+        "it": {
+          "ja": "それ（＝全体）"
+        },
+        "takes shape": {
+          "ja": "形になる"
+        },
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "those parts": {
+          "ja": "それらの部品"
+        },
+        "while keeping": {
+          "ja": "保ちながら"
+        },
+        "their": {
+          "ja": "それらの"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "in relation to": {
+          "ja": "〜との関係の中で"
+        },
+        "one another": {
+          "ja": "互い"
         }
       },
       "phrases": [
         {
-          "en": "only when those parts connect while keeping their positions and roles",
-          "ja": "部品が位置と役割を保ちながら接続されるときに初めて",
-          "note": "全体が成立する必要条件"
+          "en": "takes shape only when those parts connect",
+          "ja": "部品がつながるときにだけ形になる",
+          "note": "take shape「形になる」。",
+          "pattern": "take shape"
+        },
+        {
+          "en": "in relation to one another",
+          "ja": "互いとの関係において",
+          "note": "one another「互い」。",
+          "pattern": "in relation to 〜"
         }
       ]
     },
     {
       "words": {
-        "result": {
-          "ja": "結果"
-        },
-        "visible": {
-          "ja": "目に見える"
-        },
-        "surface": {
-          "ja": "表面"
-        },
-        "chorus": {
-          "ja": "合唱"
-        },
         "supporting": {
           "ja": "支えている"
+        },
+        "the result": {
+          "ja": "結果"
+        },
+        "speaks less of": {
+          "ja": "〜についてはあまり語らない"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "visible surface": {
+          "ja": "見える表面"
+        },
+        "than of": {
+          "ja": "〜についてよりも"
+        },
+        "the chorus of": {
+          "ja": "〜の合唱"
+        },
+        "conditions": {
+          "ja": "条件"
+        },
+        "it": {
+          "ja": "それ（＝結果）"
         }
       },
       "phrases": [
         {
           "en": "speaks less of its visible surface than of the chorus of conditions",
-          "ja": "目に見える表面よりも条件の合唱を語る",
-          "note": "表面を否定せず、より強く語られる対象を条件群へ移す比較"
+          "ja": "表面よりも条件の合唱について語る",
+          "note": "speak of「〜について語る」を比較。",
+          "pattern": "less of A than of B"
         }
       ]
     }
