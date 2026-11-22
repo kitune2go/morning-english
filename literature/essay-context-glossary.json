@@ -10889,56 +10889,20 @@
   "DE-20261120-001": [
     {
       "words": {
-        "drawing": {
-          "ja": "引くこと"
-        },
-        "a": {
-          "ja": "一つの・ある"
-        },
-        "line": {
-          "ja": "境界線"
-        },
         "at": {
-          "ja": "〜に・〜で"
-        },
-        "age": {
-          "ja": "年齢"
-        },
-        "thirty": {
-          "ja": "三十の"
-        },
-        "changed": {
-          "ja": "(…に)…を『変える』,改める《+『名』+『into』+『名』》／…を『取り替える』,交換する／〈小切手・為替〉を現金にする,〈金〉を両替えする;(…に)…を両替する《+『名』+『into』+『名』》"
-        },
-        "the": {
-          "ja": "その・あの"
-        },
-        "population": {
-          "ja": "人口"
-        },
-        "chart": {
-          "ja": "人口図"
-        },
-        "rough": {
-          "ja": "概算の"
-        },
-        "figures": {
-          "ja": "数値"
-        },
-        "for": {
-          "ja": "〜のために・〜なので・〜の間"
+          "ja": "〜（の年齢）で"
         },
         "october": {
           "ja": "十月"
         },
         "put": {
-          "ja": "示した"
+          "ja": "（数値を）〜と見積もった"
         },
         "about": {
-          "ja": "〜について・周囲に"
+          "ja": "約"
         },
         "million": {
-          "ja": "百万人"
+          "ja": "百万"
         },
         "people": {
           "ja": "人"
@@ -10946,170 +10910,146 @@
         "twenty-nine": {
           "ja": "二十九"
         },
-        "or": {
-          "ja": "または"
+        "drawing a line": {
+          "ja": "線を引くこと"
         },
-        "younger": {
-          "ja": "若い側の"
+        "at age thirty": {
+          "ja": "三十歳のところで"
+        },
+        "changed": {
+          "ja": "変えた"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "population chart": {
+          "ja": "人口のグラフ"
+        },
+        "rough figures": {
+          "ja": "概算の数値"
+        },
+        "for": {
+          "ja": "〜の時点の"
+        },
+        "or younger": {
+          "ja": "以下"
+        },
+        "or older": {
+          "ja": "以上"
         },
         "and": {
-          "ja": "そして・〜と"
-        },
-        "older": {
-          "ja": "『年とった』,老齢の／『年上の』,年長の／『ある年月』(『年齢』)『の』,…歳の"
+          "ja": "そして"
         }
       },
       "phrases": [
         {
-          "en": "Drawing a line at age thirty changed the population chart: rough figures for October 2026 put about 31.39 million people at twenty-nine or younger and about 91.30 million at thirty or older.",
-          "ja": "三十歳の線を引くと人口図の見え方が変わり、二〇二六年十月の概算では、二十九歳以下が約三千百三十九万人、三十歳以上が約九千百三十万人となった。",
-          "note": "年齢境界と二群の概算人数を一文で示す。"
+          "en": "put about 31.39 million people at twenty-nine or younger",
+          "ja": "29歳以下を約3139万人と見積もる",
+          "note": "put A at 数値 で「Aを〜と見積もる」。or younger／or older で「以下／以上」。",
+          "pattern": "put A at B"
         }
       ]
     },
     {
       "words": {
-        "another": {
-          "ja": "もう一つの・別の"
-        },
-        "cut": {
-          "ja": "区切り"
-        },
         "showed": {
           "ja": "示した"
         },
         "roughly": {
-          "ja": "約"
+          "ja": "おおよそ"
         },
         "million": {
-          "ja": "百万人"
+          "ja": "百万"
         },
         "people": {
           "ja": "人"
         },
         "aged": {
-          "ja": "～歳の"
+          "ja": "〜歳の"
         },
         "sixty": {
           "ja": "六十"
         },
-        "or": {
-          "ja": "または"
-        },
-        "above": {
-          "ja": "以上の"
-        },
         "about": {
-          "ja": "〜について・周囲に"
+          "ja": "約"
         },
-        "more": {
-          "ja": "もっと・より多く"
+        "another cut": {
+          "ja": "別の区切り方"
         },
-        "than": {
-          "ja": "〜より"
+        "or above": {
+          "ja": "以上"
+        },
+        "more than": {
+          "ja": "〜より多い"
         },
         "the": {
-          "ja": "その・あの"
+          "ja": "その"
         },
-        "younger": {
-          "ja": "若い側の"
-        },
-        "group": {
-          "ja": "集団"
+        "younger group": {
+          "ja": "若い側の集団"
         }
       },
       "phrases": [
         {
-          "en": "Another cut showed roughly 43.92 million people aged sixty or above, about 12.5 million more than the younger group.",
-          "ja": "別の区切りでは六十歳以上が約四千三百九十二万人となり、若い側の集団より約千二百五十万人多かった。",
-          "note": "六十歳以上と若年群の人数差を比較する。"
+          "en": "about 12.5 million more than the younger group",
+          "ja": "若い側より約1250万人多い",
+          "note": "差の数量を more than の前に置く。",
+          "pattern": "数量 + more than 〜"
         }
       ]
     },
     {
       "words": {
-        "the": {
-          "ja": "その・あの"
-        },
-        "picture": {
-          "ja": "見え方"
-        },
-        "changes": {
-          "ja": "(…に)…を『変える』,改める《+『名』+『into』+『名』》／…を『取り替える』,交換する／〈小切手・為替〉を現金にする,〈金〉を両替えする;(…に)…を両替する《+『名』+『into』+『名』》"
-        },
-        "with": {
-          "ja": "〜と一緒に・〜を用いて"
-        },
-        "boundary": {
-          "ja": "境界"
-        },
-        "but": {
-          "ja": "しかし・〜を除いて"
-        },
-        "gap": {
-          "ja": "人数差"
-        },
-        "does": {
-          "ja": "する"
-        },
-        "not": {
-          "ja": "〜ではない"
-        },
-        "vanish": {
-          "ja": "(特に急に…から)『見えなくなる』,消える《+from+名》(disappear)／(…から)『存在しなくなる』,ゼロになる《+from+名》"
-        },
         "anyone's": {
           "ja": "誰かの"
         },
+        "the picture": {
+          "ja": "見え方"
+        },
+        "changes": {
+          "ja": "変わる"
+        },
+        "with": {
+          "ja": "〜によって"
+        },
+        "the boundary": {
+          "ja": "境界（の引き方）"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the gap": {
+          "ja": "差"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "vanish": {
+          "ja": "消える"
+        },
         "mood": {
-          "ja": "(ある時の,一時的な)『気分』,機嫌／(会合・作品などの)『雰囲気』,ムード,(時代・国民などの)風潮,一般的な傾向《+『of』+『名』》／むら気,ふきげん"
+          "ja": "気分"
         }
       },
       "phrases": [
         {
-          "en": "The picture changes with the boundary, but the gap does not vanish with anyone's mood.",
-          "ja": "境界によって見え方は変わるが、その人数差は誰かの気分で消えはしない。",
-          "note": "区切りによる見え方と、消えない人数差を対比する。"
+          "en": "changes with the boundary",
+          "ja": "境界に応じて変わる",
+          "note": "with は「〜に伴って・〜次第で」。",
+          "pattern": "change with 〜"
         }
       ]
     },
     {
       "words": {
-        "population": {
-          "ja": "人口"
-        },
-        "structure": {
-          "ja": "構成"
-        },
-        "is": {
-          "ja": "〜である・いる"
-        },
-        "not": {
-          "ja": "〜ではない"
-        },
-        "a": {
-          "ja": "一つの・ある"
-        },
         "number": {
           "ja": "数字"
         },
-        "in": {
-          "ja": "〜の中に・〜で"
-        },
-        "the": {
-          "ja": "その・あの"
-        },
-        "background": {
-          "ja": "背景"
-        },
-        "it": {
-          "ja": "それは・それを"
-        },
         "ground": {
-          "ja": "地面"
+          "ja": "地面・土台"
         },
         "beneath": {
-          "ja": "～の下で"
+          "ja": "〜の下にある"
         },
         "institutions": {
           "ja": "制度"
@@ -11117,21 +11057,37 @@
         "demand": {
           "ja": "需要"
         },
-        "and": {
-          "ja": "そして・〜と"
+        "population structure": {
+          "ja": "人口構成"
         },
-        "political": {
-          "ja": "政治的な"
+        "is not": {
+          "ja": "〜ではない"
         },
-        "voice": {
-          "ja": "発言力"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "in the background": {
+          "ja": "背景にある"
+        },
+        "it": {
+          "ja": "それ（＝人口構成）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "political voice": {
+          "ja": "政治的な発言力"
         }
       },
       "phrases": [
         {
-          "en": "Population structure is not a number in the background; it is the ground beneath institutions, demand, and political voice.",
-          "ja": "人口構成は背景の数字ではなく、制度、需要、政治的発言力を下から支える地面である。",
-          "note": "人口構成を制度・需要・発言力の地面として捉える。"
+          "en": "is not a number in the background; it is the ground",
+          "ja": "背景の数字ではなく、土台である",
+          "note": "セミコロンで否定と言い換えをつなぐ。",
+          "pattern": "not A; it is B"
         }
       ]
     }
@@ -11140,304 +11096,252 @@
     {
       "words": {
         "unequal": {
-          "ja": "不均衡な"
+          "ja": "不均等な"
         },
         "numbers": {
           "ja": "人数"
-        },
-        "do": {
-          "ja": "する・行う"
-        },
-        "not": {
-          "ja": "〜ではない"
         },
         "give": {
           "ja": "与える"
         },
         "every": {
-          "ja": "すべての・毎〜"
+          "ja": "どの〜にも"
         },
         "cohort": {
-          "ja": "世代集団"
+          "ja": "同世代の集団"
         },
-        "the": {
-          "ja": "その・あの"
+        "do not": {
+          "ja": "〜しない"
         },
-        "same": {
-          "ja": "(いつもと)『同じ』,(以前と)変わらない／(…と)『同一の』,同じ;同種の《+『as節』(『that節』,『wh-節』)》／《強調的,時に軽べつして》この,その,例の,前に述べた"
-        },
-        "story": {
-          "ja": "物語"
+        "the same story": {
+          "ja": "同じ物語"
         }
       },
       "phrases": [
         {
-          "en": "Unequal numbers do not give every cohort the same story.",
-          "ja": "人数が不均衡だからといって、すべての世代集団が同じ物語を与えられるわけではない。",
-          "note": "世代ごとに経験の物語が異なることを述べる。"
+          "en": "give every cohort the same story",
+          "ja": "どの世代にも同じ物語を与える",
+          "note": "give 人 物「人に物を与える」。",
+          "pattern": "give A B"
         }
       ]
     },
     {
       "words": {
-        "for": {
-          "ja": "〜のために・〜なので・〜の間"
-        },
-        "one": {
-          "ja": "一つ・一人・ある"
-        },
-        "generation": {
-          "ja": "世代"
-        },
-        "the": {
-          "ja": "その・あの"
-        },
         "earthquake": {
-          "ja": "震災"
-        },
-        "financial": {
-          "ja": "金融の"
-        },
-        "crisis": {
-          "ja": "危機"
-        },
-        "and": {
-          "ja": "そして・〜と"
+          "ja": "大地震"
         },
         "pandemic": {
-          "ja": "感染症流行"
-        },
-        "fell": {
-          "ja": "重なった"
-        },
-        "across": {
-          "ja": "〜を横切って・向こう側に"
-        },
-        "turning": {
-          "ja": "転機の"
-        },
-        "points": {
-          "ja": "節目"
-        },
-        "in": {
-          "ja": "〜の中に・〜で"
+          "ja": "世界的流行病"
         },
         "education": {
-          "ja": "進学・教育"
+          "ja": "進学"
         },
         "employment": {
           "ja": "就職"
         },
-        "mid-career": {
-          "ja": "働き盛りの"
+        "for": {
+          "ja": "〜にとって"
         },
-        "life": {
-          "ja": "時期"
+        "one generation": {
+          "ja": "ある世代"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "financial crisis": {
+          "ja": "金融危機"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "fell across": {
+          "ja": "〜にまたがって重なった"
+        },
+        "turning points": {
+          "ja": "転機"
+        },
+        "in": {
+          "ja": "〜における"
+        },
+        "mid-career life": {
+          "ja": "働き盛りの時期"
         }
       },
       "phrases": [
         {
-          "en": "For one generation, the 1995 earthquake, the 2008 financial crisis, the 2011 earthquake, and the 2020 pandemic fell across turning points in education, employment, and mid-career life.",
-          "ja": "ある世代では、一九九五年の震災、二〇〇八年の金融危機、二〇一一年の震災、二〇二〇年の感染症流行が、進学、就職、働き盛りの転機に重なった。",
-          "note": "四つの危機が人生の節目へ重なる並びを示す。"
+          "en": "fell across turning points",
+          "ja": "転機に重なった",
+          "note": "fall はここで「（出来事が時期に）当たる・重なる」。",
+          "pattern": "fall across 〜"
         }
       ]
     },
     {
       "words": {
-        "the": {
-          "ja": "その・あの"
-        },
-        "conversation": {
-          "ja": "対話"
-        },
         "pictured": {
-          "ja": "像として描いた"
-        },
-        "this": {
-          "ja": "これ・この"
-        },
-        "as": {
-          "ja": "〜として・〜のように・〜するとき"
+          "ja": "思い描いた・たとえた"
         },
         "starting": {
           "ja": "始めること"
         },
-        "a": {
-          "ja": "一つの・ある"
-        },
         "youth": {
           "ja": "青春"
-        },
-        "of": {
-          "ja": "〜の・〜からなる"
-        },
-        "one's": {
-          "ja": "自分自身の"
-        },
-        "own": {
-          "ja": "『自分自身の』,それ自身の,特有の／『自分自身のもの』,わがもの／…を『所有する』,持つ"
-        },
-        "on": {
-          "ja": "〜の上に・〜で"
-        },
-        "top": {
-          "ja": "上"
         },
         "generation": {
           "ja": "世代"
         },
+        "the conversation": {
+          "ja": "その対話"
+        },
+        "this": {
+          "ja": "これ"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "a": {
+          "ja": "ある"
+        },
+        "of one's own": {
+          "ja": "自分自身の"
+        },
+        "on top of": {
+          "ja": "〜の上に"
+        },
         "that": {
-          "ja": "それ・〜ということ・〜するもの"
+          "ja": "（関係代名詞）〜した"
         },
-        "had": {
-          "ja": "持っていた・〜していた"
+        "had been denied": {
+          "ja": "奪われていた"
         },
-        "been": {
-          "ja": "〜であった・いた"
-        },
-        "denied": {
-          "ja": "奪われた"
-        },
-        "its": {
-          "ja": "その・それの"
+        "its youth": {
+          "ja": "その（世代の）青春"
         }
       },
       "phrases": [
         {
-          "en": "The conversation pictured this as starting a youth of one's own on top of a generation that had been denied its youth.",
-          "ja": "対話はこれを、青春を奪われた世代の上で自分たちの青春を始めるという像で表した。",
-          "note": "青春を奪われた世代の上で青春を始める比喩を保つ。"
+          "en": "pictured this as starting",
+          "ja": "これを〜として思い描いた",
+          "note": "picture A as B「AをBとして描く」。",
+          "pattern": "picture A as B"
+        },
+        {
+          "en": "a youth of one's own",
+          "ja": "自分自身の青春",
+          "note": "of one's own「自分だけの」。",
+          "pattern": "名詞 of one's own"
         }
       ]
     },
     {
       "words": {
-        "while": {
-          "ja": "〜している間・一方で"
-        },
-        "the": {
-          "ja": "その・あの"
-        },
         "larger": {
-          "ja": "より大きな"
+          "ja": "人数の多い"
         },
         "generation's": {
           "ja": "世代の"
         },
         "time": {
-          "ja": "時間・時"
+          "ja": "時間"
         },
         "continues": {
-          "ja": "続く・続ける"
-        },
-        "smaller": {
-          "ja": "より少ない"
-        },
-        "one": {
-          "ja": "一つ・一人・ある"
+          "ja": "続く"
         },
         "must": {
           "ja": "〜しなければならない"
-        },
-        "look": {
-          "ja": "見る・見える"
-        },
-        "for": {
-          "ja": "〜のために・〜なので・〜の間"
         },
         "footing": {
           "ja": "足場"
         },
         "above": {
-          "ja": "以上の"
+          "ja": "〜の上に"
+        },
+        "while": {
+          "ja": "〜する間"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "smaller one": {
+          "ja": "人数の少ない世代"
+        },
+        "look for": {
+          "ja": "探す"
         },
         "it": {
-          "ja": "それは・それを"
+          "ja": "それ（＝大きな世代）"
         }
       },
       "phrases": [
         {
-          "en": "While the larger generation's time continues, the smaller one must look for footing above it.",
-          "ja": "大きな世代の時間が続くあいだ、少ない世代はその上に足場を探さなければならない。",
-          "note": "大きな世代の持続と小さな世代の足場探しを対比する。"
+          "en": "the smaller one",
+          "ja": "少ない方の世代",
+          "note": "one は前の generation を受ける。",
+          "pattern": "one（代名詞）"
         }
       ]
     },
     {
       "words": {
-        "population": {
-          "ja": "人口"
-        },
-        "momentum": {
-          "ja": "モメンタム"
-        },
-        "is": {
-          "ja": "〜である・いる"
-        },
-        "therefore": {
-          "ja": "『それゆえ』,それで;その結果"
-        },
         "carried": {
           "ja": "運ばれる"
-        },
-        "not": {
-          "ja": "〜ではない"
-        },
-        "only": {
-          "ja": "～だけ"
-        },
-        "by": {
-          "ja": "〜によって・〜のそばで"
-        },
-        "head": {
-          "ja": "人数"
-        },
-        "counts": {
-          "ja": "総数"
-        },
-        "but": {
-          "ja": "しかし・〜を除いて"
-        },
-        "also": {
-          "ja": "〜もまた"
         },
         "past": {
           "ja": "過去の"
         },
         "calendars": {
-          "ja": "出来事の暦"
-        },
-        "that": {
-          "ja": "それ・〜ということ・〜するもの"
-        },
-        "keep": {
-          "ja": "保つ・防ぐ"
-        },
-        "pressing": {
-          "ja": "押し続ける"
-        },
-        "on": {
-          "ja": "〜の上に・〜で"
-        },
-        "the": {
-          "ja": "その・あの"
-        },
-        "room": {
-          "ja": "余地"
+          "ja": "暦（出来事の時期）"
         },
         "available": {
-          "ja": "残された"
+          "ja": "使える"
         },
         "now": {
-          "ja": "今・もう"
+          "ja": "今"
+        },
+        "population momentum": {
+          "ja": "人口モメンタム（人口構成が持つ慣性）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "therefore": {
+          "ja": "したがって"
+        },
+        "not only": {
+          "ja": "〜だけでなく"
+        },
+        "by": {
+          "ja": "〜によって"
+        },
+        "head counts": {
+          "ja": "頭数・人数"
+        },
+        "but also": {
+          "ja": "…も"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "keep pressing on": {
+          "ja": "〜を押し続ける"
+        },
+        "the room": {
+          "ja": "余地"
         }
       },
       "phrases": [
         {
-          "en": "Population momentum is therefore carried not only by head counts, but also by past calendars that keep pressing on the room available now.",
-          "ja": "したがって人口モメンタムを運ぶのは人数だけではなく、現在の余地を押し続ける過去の暦でもある。",
-          "note": "人口モメンタムを人数と過去の暦の双方から説明する。"
+          "en": "not only by head counts, but also by past calendars",
+          "ja": "人数だけでなく過去の暦によっても",
+          "note": "by が両方にかかる。",
+          "pattern": "not only A but also B"
+        },
+        {
+          "en": "keep pressing on the room available now",
+          "ja": "今ある余地を押し続ける",
+          "note": "keep ＋ -ing「〜し続ける」。available は後ろから room を修飾。",
+          "pattern": "keep -ing"
         }
       ]
     }
@@ -11445,23 +11349,11 @@
   "DE-20261120-003": [
     {
       "words": {
-        "when": {
-          "ja": "いつ・〜するとき"
-        },
-        "the": {
-          "ja": "その・あの"
-        },
         "ground": {
           "ja": "地面"
         },
         "tilts": {
           "ja": "傾く"
-        },
-        "map": {
-          "ja": "地図"
-        },
-        "of": {
-          "ja": "〜の・〜からなる"
         },
         "work": {
           "ja": "仕事"
@@ -11469,18 +11361,25 @@
         "shifts": {
           "ja": "動く"
         },
-        "with": {
-          "ja": "〜と一緒に・〜を用いて"
+        "when": {
+          "ja": "〜とき"
         },
-        "it": {
-          "ja": "それは・それを"
+        "the": {
+          "ja": "その"
+        },
+        "map of": {
+          "ja": "〜の地図"
+        },
+        "with it": {
+          "ja": "それに伴って"
         }
       },
       "phrases": [
         {
-          "en": "When the ground tilts, the map of work shifts with it.",
-          "ja": "地面が傾くと、仕事の地図もそれに伴って動く。",
-          "note": "人口という地面と仕事の地図を比喩で結ぶ。"
+          "en": "shifts with it",
+          "ja": "それに伴って動く",
+          "note": "it は前の the ground。",
+          "pattern": "with it"
         }
       ]
     },
@@ -11492,44 +11391,26 @@
         "production": {
           "ja": "生産"
         },
-        "and": {
-          "ja": "そして・〜と"
-        },
         "sales": {
           "ja": "販売"
         },
         "may": {
-          "ja": "～することがある"
+          "ja": "〜ことがある"
         },
         "raise": {
           "ja": "増やす"
         },
-        "a": {
-          "ja": "一つの・ある"
-        },
         "company's": {
           "ja": "企業の"
         },
-        "consolidated": {
-          "ja": "連結の"
-        },
-        "revenue": {
-          "ja": "売上"
-        },
-        "without": {
-          "ja": "『…なしに』,を持たないで,を使わないで／『もし…がなければ』／『…しないで[は]』,せずに"
-        },
         "bringing": {
-          "ja": "もたらす"
+          "ja": "もたらすこと"
         },
         "equal": {
-          "ja": "同等の"
+          "ja": "同じだけの"
         },
         "gains": {
-          "ja": "利益"
-        },
-        "to": {
-          "ja": "〜へ・〜するために"
+          "ja": "増加分・利益"
         },
         "domestic": {
           "ja": "国内の"
@@ -11540,188 +11421,158 @@
         "subcontractors": {
           "ja": "下請け"
         },
-        "or": {
-          "ja": "または"
-        },
         "workers": {
-          "ja": "労働者"
+          "ja": "労働者の"
         },
         "incomes": {
           "ja": "所得"
+        },
+        "a": {
+          "ja": "ある"
+        },
+        "consolidated revenue": {
+          "ja": "連結売上"
+        },
+        "without": {
+          "ja": "〜することなく"
+        },
+        "to": {
+          "ja": "〜に"
+        },
+        "or": {
+          "ja": "や"
         }
       },
       "phrases": [
         {
-          "en": "Overseas production and sales may raise a company's consolidated revenue without bringing equal gains to domestic factories, subcontractors, or workers' incomes.",
-          "ja": "海外生産と海外販売は企業の連結売上を増やしても、国内工場、下請け、労働者の所得へ同じだけの増加をもたらすとは限らない。",
-          "note": "海外での企業売上と国内側の受益が同一でないことを示す。"
+          "en": "without bringing equal gains to domestic factories",
+          "ja": "国内工場に同じだけの利益をもたらさずに",
+          "note": "without＋動名詞「〜せずに」。",
+          "pattern": "without -ing / bring A to B"
         }
       ]
     },
     {
       "words": {
-        "corporate": {
-          "ja": "企業の"
-        },
-        "growth": {
-          "ja": "成長"
-        },
-        "and": {
-          "ja": "そして・〜と"
-        },
-        "in": {
-          "ja": "〜の中に・〜で"
-        },
-        "domestic": {
-          "ja": "国内の"
-        },
-        "manufacturing": {
-          "ja": "製造業"
-        },
-        "can": {
-          "ja": "〜できる"
-        },
         "separate": {
           "ja": "分かれる"
         },
         "beneath": {
-          "ja": "～の下で"
+          "ja": "〜の下で"
         },
-        "the": {
-          "ja": "その・あの"
+        "corporate growth": {
+          "ja": "企業の成長"
         },
-        "same": {
-          "ja": "(いつもと)『同じ』,(以前と)変わらない／(…と)『同一の』,同じ;同種の《+『as節』(『that節』,『wh-節』)》／《強調的,時に軽べつして》この,その,例の,前に述べた"
+        "growth in": {
+          "ja": "〜における成長"
         },
-        "company": {
-          "ja": "企業"
+        "domestic manufacturing": {
+          "ja": "国内の製造業"
         },
-        "name": {
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "the same": {
+          "ja": "同じ"
+        },
+        "company name": {
           "ja": "社名"
         }
       },
       "phrases": [
         {
-          "en": "Corporate growth and growth in domestic manufacturing can separate beneath the same company name.",
-          "ja": "企業の成長と国内製造の成長は、同じ社名の下で分かれることがある。",
-          "note": "同じ社名の下で二種類の成長が分離しうることを述べる。"
+          "en": "can separate beneath the same company name",
+          "ja": "同じ社名の下で分かれることがある",
+          "note": "can はここで「〜ことがある」という可能性。",
+          "pattern": "can（可能性）"
         }
       ]
     },
     {
       "words": {
-        "as": {
-          "ja": "〜として・〜のように・〜するとき"
-        },
         "shopping": {
           "ja": "買い物"
-        },
-        "moves": {
-          "ja": "移る"
-        },
-        "online": {
-          "ja": "オンラインへ"
         },
         "delivery": {
           "ja": "配送"
         },
         "becomes": {
-          "ja": "～になる"
-        },
-        "the": {
-          "ja": "その・あの"
+          "ja": "〜になる"
         },
         "next": {
-          "ja": "次の・来〜"
-        },
-        "pressure": {
-          "ja": "負担"
-        },
-        "point": {
-          "ja": "焦点"
-        },
-        "and": {
-          "ja": "そして・〜と"
-        },
-        "conversation": {
-          "ja": "対話"
+          "ja": "次の"
         },
         "extended": {
           "ja": "広げた"
         },
-        "automated": {
-          "ja": "自動の"
-        },
         "into": {
-          "ja": "〜の中へ"
-        },
-        "an": {
-          "ja": "一つの・ある"
-        },
-        "image": {
-          "ja": "(鏡に映った)『像』,(レンズによる)映像／(心に浮かぶ)『像』,心像,イメージ／(絵・彫刻などによる人・動物などの)『像』,肖像;偶像《+『of』+『名』》"
-        },
-        "of": {
-          "ja": "〜の・〜からなる"
+          "ja": "〜へ"
         },
         "transport": {
           "ja": "移動・輸送"
         },
-        "from": {
-          "ja": "〜から"
+        "as": {
+          "ja": "〜につれて"
         },
-        "cradle": {
-          "ja": "ゆりかご"
+        "moves online": {
+          "ja": "オンラインに移る"
         },
-        "to": {
-          "ja": "〜へ・〜するために"
+        "the": {
+          "ja": "その"
         },
-        "grave": {
-          "ja": "墓場"
+        "pressure point": {
+          "ja": "負担が集中する点"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the conversation": {
+          "ja": "その対話"
+        },
+        "automated delivery": {
+          "ja": "自動配送"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "image of": {
+          "ja": "〜の像"
+        },
+        "from cradle to grave": {
+          "ja": "ゆりかごから墓場まで"
         }
       },
       "phrases": [
         {
-          "en": "As shopping moves online, delivery becomes the next pressure point, and the conversation extended automated delivery into an image of transport from cradle to grave.",
-          "ja": "買い物がオンラインへ移るにつれ、配送が次の負担点となり、対話は自動配送を、ゆりかごから墓場まで運ぶ交通の像へ広げた。",
-          "note": "電子商取引から自動配送、生涯の移動像へ話題が広がる。"
+          "en": "As shopping moves online",
+          "ja": "買い物がオンラインに移るにつれ",
+          "note": "as はここで「〜するにつれて」。",
+          "pattern": "as（比例）"
+        },
+        {
+          "en": "extended automated delivery into an image of transport",
+          "ja": "自動配送を移動の像へと広げた",
+          "note": "into は変化の行き先。",
+          "pattern": "extend A into B"
         }
       ]
     },
     {
       "words": {
-        "the": {
-          "ja": "その・あの"
-        },
-        "more": {
-          "ja": "もっと・より多く"
-        },
         "completely": {
           "ja": "完全に"
-        },
-        "a": {
-          "ja": "一つの・ある"
         },
         "system": {
           "ja": "仕組み"
         },
-        "promises": {
-          "ja": "約束する"
-        },
-        "to": {
-          "ja": "〜へ・〜するために"
-        },
         "move": {
-          "ja": "動く"
+          "ja": "運ぶ・動かす"
         },
         "people": {
           "ja": "人"
         },
-        "and": {
-          "ja": "そして・〜と"
-        },
         "goods": {
-          "ja": "物"
+          "ja": "物資"
         },
         "sharply": {
           "ja": "鋭く"
@@ -11735,42 +11586,43 @@
         "ask": {
           "ja": "問う"
         },
-        "who": {
-          "ja": "誰・〜する人"
-        },
         "carries": {
           "ja": "運ぶ"
         },
-        "them": {
-          "ja": "彼らを・彼女らに"
-        },
         "bears": {
-          "ja": "負担する"
+          "ja": "負う"
         },
-        "cost": {
+        "the more": {
+          "ja": "〜すればするほど"
+        },
+        "a": {
+          "ja": "ある"
+        },
+        "promises to": {
+          "ja": "〜すると約束する"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "them": {
+          "ja": "それら（＝人と物）"
+        },
+        "the cost": {
           "ja": "費用"
         },
-        "is": {
-          "ja": "〜である・いる"
+        "is left outside": {
+          "ja": "外に取り残される"
         },
-        "left": {
-          "ja": "取り残された"
-        },
-        "outside": {
-          "ja": "外側に"
-        },
-        "that": {
-          "ja": "それ・〜ということ・〜するもの"
-        },
-        "mobility": {
-          "ja": "移動の仕組み"
+        "that mobility": {
+          "ja": "その移動の仕組み"
         }
       },
       "phrases": [
         {
-          "en": "The more completely a system promises to move people and goods, the more sharply we must ask who carries them, who bears the cost, and who is left outside that mobility.",
-          "ja": "人と物を完全に動かすと仕組みが約束するほど、誰が運び、誰が費用を負い、誰がその移動の外へ残されるかを、より鋭く問わなければならない。",
-          "note": "移動の約束が大きいほど運搬・費用・排除の主体を問う。"
+          "en": "The more completely a system promises to move people and goods, the more sharply we must ask",
+          "ja": "〜を約束するほど、いっそう鋭く問わねばならない",
+          "note": "the＋比較級を2つ並べる構文。",
+          "pattern": "the 比較級 ..., the 比較級 ..."
         }
       ]
     }
@@ -11778,82 +11630,50 @@
   "DE-20261120-004": [
     {
       "words": {
-        "that": {
-          "ja": "それ・〜ということ・〜するもの"
-        },
-        "day's": {
-          "ja": "その日の"
-        },
-        "additions": {
-          "ja": "追加事項"
-        },
-        "to": {
-          "ja": "〜へ・〜するために"
-        },
-        "the": {
-          "ja": "その・あの"
-        },
-        "historical": {
-          "ja": "歴史の"
-        },
-        "record": {
-          "ja": "記録"
-        },
-        "went": {
-          "ja": "進んだ"
-        },
-        "beyond": {
-          "ja": "～を越えて"
-        },
         "event": {
-          "ja": "事件"
+          "ja": "出来事"
         },
         "names": {
           "ja": "名称"
+        },
+        "that day's": {
+          "ja": "その日の"
+        },
+        "additions to": {
+          "ja": "〜への追加"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "historical record": {
+          "ja": "歴史の記録"
+        },
+        "went beyond": {
+          "ja": "〜にとどまらなかった"
         }
       },
       "phrases": [
         {
-          "en": "That day's additions to the historical record went beyond event names.",
-          "ja": "その日に歴史記録へ加えたものは、事件名だけにとどまらなかった。",
-          "note": "歴史記録への追加が事件名を越えたことを示す。"
+          "en": "went beyond event names",
+          "ja": "出来事の名前だけにとどまらなかった",
+          "note": "go beyond「〜を越える」。",
+          "pattern": "go beyond 〜"
         }
       ]
     },
     {
       "words": {
-        "the": {
-          "ja": "その・あの"
-        },
-        "work": {
-          "ja": "仕事"
-        },
         "asked": {
           "ja": "問うた"
         },
         "how": {
-          "ja": "どう・なんと"
-        },
-        "urban": {
-          "ja": "都市の"
-        },
-        "life": {
-          "ja": "時期"
-        },
-        "and": {
-          "ja": "そして・〜と"
+          "ja": "どのように"
         },
         "infrastructure": {
           "ja": "インフラ"
         },
         "sustained": {
           "ja": "支えた"
-        },
-        "everyday": {
-          "ja": "日常の"
-        },
-        "in": {
-          "ja": "〜の中に・〜で"
         },
         "early": {
           "ja": "初期の"
@@ -11864,15 +11684,6 @@
         "tokyo": {
           "ja": "東京"
         },
-        "filled": {
-          "ja": "補った"
-        },
-        "gaps": {
-          "ja": "格差・隙間・隔たり"
-        },
-        "a": {
-          "ja": "一つの・ある"
-        },
         "writer's": {
           "ja": "作家の"
         },
@@ -11882,182 +11693,167 @@
         "reconsidered": {
           "ja": "捉え直した"
         },
-        "silent": {
-          "ja": "無声の"
-        },
-        "film": {
-          "ja": "映画"
-        },
-        "as": {
-          "ja": "〜として・〜のように・〜するとき"
-        },
         "performance": {
           "ja": "上演"
         },
-        "with": {
-          "ja": "〜と一緒に・〜を用いて"
-        },
-        "live": {
-          "ja": "生の"
-        },
-        "music": {
-          "ja": "演奏"
-        },
         "intertitles": {
-          "ja": "無声映画の字幕"
+          "ja": "字幕（場面の間に入る文字）"
         },
         "narrator": {
           "ja": "弁士"
         },
-        "rather": {
-          "ja": "むしろ"
+        "the work": {
+          "ja": "その作業"
         },
-        "than": {
-          "ja": "〜より"
+        "urban life": {
+          "ja": "都市生活"
         },
-        "alone": {
-          "ja": "単体で"
+        "and": {
+          "ja": "と"
+        },
+        "everyday life": {
+          "ja": "日常生活"
+        },
+        "in": {
+          "ja": "〜の"
+        },
+        "filled gaps in": {
+          "ja": "〜の空白を埋めた"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "silent film": {
+          "ja": "無声映画"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "with": {
+          "ja": "〜を伴う"
+        },
+        "live music": {
+          "ja": "生演奏"
+        },
+        "rather than": {
+          "ja": "〜ではなく"
+        },
+        "film alone": {
+          "ja": "フィルム単体"
         }
       },
       "phrases": [
         {
-          "en": "The work asked how urban life and infrastructure sustained everyday life in early Showa Tokyo, filled gaps in a writer's bibliography, and reconsidered silent film as a performance with live music, intertitles, and a narrator rather than film alone.",
-          "ja": "その作業は、昭和初期の東京で都市生活とインフラが日常をどう支えたかを問い、作家の作品目録の不足を補い、無声映画をフィルムだけでなく生演奏、字幕、弁士を伴う上演として捉え直した。",
-          "note": "都市生活・作品目録・無声映画上演の三作業を並列する。"
+          "en": "reconsidered silent film as a performance",
+          "ja": "無声映画を上演として捉え直した",
+          "note": "as は「〜として」。",
+          "pattern": "reconsider A as B"
+        },
+        {
+          "en": "rather than film alone",
+          "ja": "フィルムだけではなく",
+          "note": "alone が film を限定。",
+          "pattern": "rather than 〜"
         }
       ]
     },
     {
       "words": {
-        "it": {
-          "ja": "それは・それを"
-        },
         "also": {
-          "ja": "〜もまた"
+          "ja": "さらに"
         },
         "questioned": {
-          "ja": "問い直した"
+          "ja": "問うた"
         },
         "whether": {
-          "ja": "～かどうか"
-        },
-        "the": {
-          "ja": "その・あの"
-        },
-        "label": {
-          "ja": "表示"
-        },
-        "this": {
-          "ja": "これ・この"
-        },
-        "is": {
-          "ja": "〜である・いる"
-        },
-        "fiction": {
-          "ja": "フィクション"
-        },
-        "can": {
-          "ja": "〜できる"
+          "ja": "〜かどうか"
         },
         "erase": {
           "ja": "消す"
         },
-        "a": {
-          "ja": "一つの・ある"
-        },
         "story's": {
           "ja": "物語の"
         },
-        "effects": {
-          "ja": "作用"
-        },
-        "on": {
-          "ja": "〜の上に・〜で"
-        },
         "reality": {
           "ja": "現実"
+        },
+        "it": {
+          "ja": "それ（＝その作業）"
+        },
+        "the label": {
+          "ja": "表示"
+        },
+        "this is fiction": {
+          "ja": "これはフィクションです"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "a": {
+          "ja": "ある"
+        },
+        "effects on": {
+          "ja": "〜への作用"
         }
       },
       "phrases": [
         {
-          "en": "It also questioned whether the label 'this is fiction' can erase a story's effects on reality.",
-          "ja": "さらに、「これはフィクションです」という表示が物語の現実への作用を消せるのかも問うた。",
-          "note": "フィクション表示が現実への作用を消せるかを問いとして保つ。"
+          "en": "questioned whether the label",
+          "ja": "表示が〜できるかを問うた",
+          "note": "whether 節が questioned の目的語。",
+          "pattern": "question whether 〜"
         }
       ]
     },
     {
       "words": {
-        "population": {
-          "ja": "人口"
-        },
-        "tables": {
-          "ja": "表"
-        },
-        "and": {
-          "ja": "そして・〜と"
-        },
         "timelines": {
           "ja": "年表"
         },
-        "are": {
-          "ja": "〜である・いる"
-        },
-        "not": {
-          "ja": "〜ではない"
-        },
         "complete": {
           "ja": "完成した"
-        },
-        "when": {
-          "ja": "いつ・〜するとき"
-        },
-        "they": {
-          "ja": "彼らは・彼女らは"
         },
         "contain": {
           "ja": "含む"
         },
         "only": {
-          "ja": "～だけ"
+          "ja": "〜だけ"
         },
         "numbers": {
-          "ja": "人数"
+          "ja": "数字"
         },
         "titles": {
           "ja": "題名"
+        },
+        "population tables": {
+          "ja": "人口表"
+        },
+        "are not": {
+          "ja": "〜ではない"
+        },
+        "when": {
+          "ja": "〜場合"
+        },
+        "they": {
+          "ja": "それら（＝表と年表）"
         }
       },
       "phrases": [
         {
-          "en": "Population tables and timelines are not complete when they contain only numbers and titles.",
-          "ja": "人口表と年表は、数字と題名だけを収めても完成しない。",
-          "note": "数字と題名だけでは表が完成しないと述べる。"
+          "en": "are not complete when they contain only numbers",
+          "ja": "数字だけでは完成しない",
+          "note": "when は条件「〜の場合」。",
+          "pattern": "not 〜 when ..."
         }
       ]
     },
     {
       "words": {
-        "the": {
-          "ja": "その・あの"
-        },
-        "ground": {
-          "ja": "地面"
-        },
         "becomes": {
-          "ja": "～になる"
-        },
-        "a": {
-          "ja": "一つの・ある"
+          "ja": "〜になる"
         },
         "city": {
           "ja": "街"
-        },
-        "only": {
-          "ja": "～だけ"
-        },
-        "when": {
-          "ja": "いつ・〜するとき"
         },
         "commuting": {
           "ja": "通勤"
@@ -12068,42 +11864,40 @@
         "labor": {
           "ja": "労働"
         },
-        "and": {
-          "ja": "そして・〜と"
-        },
         "entertainment": {
           "ja": "娯楽"
         },
+        "the ground": {
+          "ja": "その地面"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "only when": {
+          "ja": "〜のときにだけ"
+        },
         "of": {
-          "ja": "〜の・〜からなる"
+          "ja": "〜の"
         },
-        "people": {
-          "ja": "人"
+        "the people who": {
+          "ja": "〜した人々"
         },
-        "who": {
-          "ja": "誰・〜する人"
-        },
-        "stood": {
-          "ja": "立っていた"
-        },
-        "on": {
-          "ja": "〜の上に・〜で"
+        "stood on": {
+          "ja": "〜の上に立った"
         },
         "it": {
-          "ja": "それは・それを"
+          "ja": "それ（＝その地面）"
         },
-        "are": {
-          "ja": "〜である・いる"
-        },
-        "restored": {
-          "ja": "戻された"
+        "are restored": {
+          "ja": "取り戻される"
         }
       },
       "phrases": [
         {
-          "en": "The ground becomes a city only when the commuting, shopping, labor, and entertainment of the people who stood on it are restored.",
-          "ja": "その地面に立っていた人々の通勤、買い物、労働、娯楽が戻されたときにだけ、地面は街になる。",
-          "note": "生活を戻したときに地面が街になるという結語を示す。"
+          "en": "only when the commuting, shopping, labor, and entertainment of the people who stood on it are restored",
+          "ja": "〜が取り戻されたときにだけ",
+          "note": "only when で条件を限定する。",
+          "pattern": "only when 〜"
         }
       ]
     }
