@@ -1334,7 +1334,7 @@ function openHistory() {
       return `
         <button class="history-card ${idx===currentIndex?'active':''}" onclick="selectCard(${idx})">
           <div class="history-meta">
-            <div class="history-date">No.${card._no || idx+1}</div>
+            <div class="history-date">No.${card._no || idx+1}${formatGeneratedAt(card._generatedAt)}</div>
             <div class="history-tags">
               ${idx===currentIndex ? '<span class="badge red">CURRENT</span>' : ''}
               ${reads>=3 ? '<span class="badge green">✓ 音読済</span>' : ''}
@@ -1357,6 +1357,14 @@ function selectCard(idx) {
 function closeImage() { document.getElementById('imageModal').style.display = 'none'; }
 
 // ─── Helpers ───────────────────────────────
+function formatGeneratedAt(v) {
+  if (!v) return '';
+  const d = new Date(v);
+  if (isNaN(d)) return '';
+  const j = new Date(d.getTime() + 9*3600*1000);
+  return ` · ${j.getUTCFullYear()}/${j.getUTCMonth()+1}/${j.getUTCDate()}`;
+}
+
 function escape(s) {
   if (s == null) return '';
   return String(s).replace(/[&<>"']/g, m => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m]));

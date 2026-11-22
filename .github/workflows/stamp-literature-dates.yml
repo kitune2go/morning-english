@@ -1,0 +1,39 @@
+name: Stamp literature upload dates
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "literature-works.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stamp-literature-dates-main
+  cancel-in-progress: false
+
+jobs:
+  stamp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Add addedAt to new works
+        run: node scripts/stamp-literature-dates.mjs
+      - name: Commit if changed
+        run: |
+          git add literature-works.json
+          if git diff --cached --quiet; then
+            echo "All works already have addedAt."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: stamp literature upload dates"
+          git pull --rebase origin main
+          git push origin HEAD:main

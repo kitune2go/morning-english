@@ -176,6 +176,8 @@ literature/daily-essay-YYYYMMDD/manifest.json
 
 新しいカードJSONを作成しただけでは反映されません。作品の `manifest.json` と、必要に応じて `literature-works.json` へ登録してください。
 
+`literature-works.json` の各作品には `addedAt`（アップロード日時・JST、例 `2026-11-23T02:31:33+09:00`）が入り、文学版の作品選択と作品情報に表示されます。新しい作品では書かなくてかまいません。push後に GitHub Actions（`stamp-literature-dates.yml`）が自動で付けます。手元で付ける場合は `node scripts/stamp-literature-dates.mjs`。
+
 文学版カードの基本項目：
 
 ```txt

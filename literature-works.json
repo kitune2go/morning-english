@@ -3,510 +3,583 @@
     "workId": "convivium",
     "title": "地下鉄のコンヴィヴィウム",
     "description": "地下鉄の車両で交差する、記録されない共在と労働の感覚を扱う短編。",
-    "manifest": "literature/convivium/manifest.json"
+    "manifest": "literature/convivium/manifest.json",
+    "addedAt": "2026-05-02T13:13:07+09:00"
   },
   {
     "workId": "convivium-sentence",
     "title": "地下鉄のコンヴィヴィウム｜全文翻訳",
     "description": "日本語原文を文章単位で自然英訳・直訳・チャンク・文法・翻訳メモに分解する全文翻訳版。",
     "manifest": "literature/convivium-sentence/manifest.json",
-    "mode": "sentence-translation"
+    "mode": "sentence-translation",
+    "addedAt": "2026-05-02T13:27:56+09:00"
   },
   {
     "workId": "hand-and-sentence",
     "title": "手を止めれば、文も止まる",
     "description": "AIとの対話が眠っているあいだに英語カードへ変わり、翌朝の書写を通して昨日の思考が今日の身体へ移される短編。",
     "manifest": "literature/hand-and-sentence/manifest.json",
-    "mode": "sentence-translation"
+    "mode": "sentence-translation",
+    "addedAt": "2026-07-20T14:54:11+09:00"
   },
   {
     "workId": "daily-essay-20260724",
     "title": "言葉の季節が遅れてくる",
     "description": "酷暑と季節語のずれ、専門語の定義、会話を再現可能な手順へ移す作業を通して、現実に届く言葉の条件を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260724/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-07-25T02:31:50+09:00"
   },
   {
     "workId": "daily-essay-20260725",
     "title": "体裁が身体を追い越すとき",
     "description": "暑さの中の服装規範と、形式だけを測る検証の限界を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260725/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-07-26T02:31:36+09:00"
   },
   {
     "workId": "daily-essay-20260809",
     "title": "終わらせないための完了",
     "description": "一日分の成功を継続処理の終了と取り違えた停止から、明日を残すための停止条件を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260809/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-08-10T02:33:33+09:00"
   },
   {
     "workId": "daily-essay-20260810",
     "title": "帳簿の外で払うもの",
     "description": "介護供給の地域差と家族への負担転嫁、権利を生活へ届ける実装を通して、制度外へ移された費用を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260810/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-08-11T02:32:14+09:00"
   },
   {
     "workId": "daily-essay-20260811",
     "title": "社会にはコミット履歴がない",
     "description": "発生源を特定しにくい社会運動と、変更履歴を残すGitHub上の創作を対照し、影響力・責任・修正手続きの所在を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260811/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-08-12T02:37:00+09:00"
   },
   {
     "workId": "daily-essay-20260812",
     "title": "証明を置く場所",
     "description": "過去の肩書きと現在形、達成事実と評価水準、停止条件のない努力、筋力トレーニングの回復を通して、証明をどこへ置くかを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260812/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-08-13T02:33:28+09:00"
   },
   {
     "workId": "daily-essay-20260813",
     "title": "並列の中心には一人いる",
     "description": "並列化した制作、状態文書による引き継ぎ、AIごとの役割分担、日々の優先順位を通して、多数の作業を一人分の今日へ収める方法を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260813/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-08-14T02:35:43+09:00"
   },
   {
     "workId": "daily-essay-20260814",
     "title": "文は口の中で並び直される",
     "description": "難文への戸惑いから、時間表現ごとのチャンク練習、過去完了の反復、内言語の音声化へ進み、英文が声の中で組み直される過程を描く日次エッセイ。",
     "manifest": "literature/daily-essay-20260814/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-08-15T02:35:23+09:00"
   },
   {
     "workId": "daily-essay-20260820",
     "title": "完成の手前にある網目",
     "description": "短い運動とギターの完了、長期化する3D制作への不安、リトポロジーへの好奇心、創作者とキャラクターをめぐる信頼を通して、完成品の手前にある見えない工程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260820/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-08-21T02:34:03+09:00"
   },
   {
     "workId": "daily-essay-20260823",
     "title": "空白が話し始める",
     "description": "飲食店で耳にしたドラマ談義、声優とアイドルをめぐる古い販売規範、公演中止の曖昧な説明、低予算3D制作の工程記録を通して、空白へ置くべき情報の違いを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260823/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-08-24T02:31:51+09:00"
   },
   {
     "workId": "daily-essay-20260908",
     "title": "世界は記述を待っていない",
     "description": "記述以前からある世界、気づきによる関係の可視化、身近には現れない流行、現実の配置を無視する総動員的な物語を通して、存在と観測のずれを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260908/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-09T02:33:34+09:00"
   },
   {
     "workId": "daily-essay-20260909",
     "title": "動けば足りるわけではない",
     "description": "油圧装置の動作と保持力、複雑な経路の負荷確認、耳コピにおける旋律と和声、政策を運ぶ実行主体を通して、入力の痕跡と仕事の成立を分けて考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260909/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-10T02:34:49+09:00"
   },
   {
     "workId": "daily-essay-20260910",
     "title": "入口の外にも道はある",
     "description": "文学の入口、AI時代の数学者育成、開戦を知る位置、市場規制の経路依存を通して、入口や制度が人へ位置を割り当てる作用を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260910/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-11T02:37:27+09:00"
   },
   {
     "workId": "daily-essay-20260911",
     "title": "空白は代替にならない",
     "description": "静止収縮と動的運動、AI開発の承認と自律性、旧来の雇用モデルを撤去した後の空席、法の線引きが守る便益を通して、削除後の支えを設計する必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260911/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-12T02:33:21+09:00"
   },
   {
     "workId": "daily-essay-20260912",
     "title": "顔が育つと魔法も重くなる",
     "description": "長期映画シリーズにおける俳優の成長、原作と映像の速度差、後半の面白さが変わった感覚を通して、物語への入口が時間とともに移動することを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260912/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-13T02:31:29+09:00"
   },
   {
     "workId": "daily-essay-20260913",
     "title": "出口から意図を決めつけない",
     "description": "交際目的の食い違い、ロマンス詐欺の成立条件、退出費用を測る道具、公開コードと秘密鍵を通して、意図の断定より先に構造と境界を記述する日次エッセイ。",
     "manifest": "literature/daily-essay-20260913/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-14T02:35:40+09:00"
   },
   {
     "workId": "daily-essay-20260914",
     "title": "表示のあとで機械は動く",
     "description": "目的表示と履行、既定の音声経路、AIを使う主体、巨大技術の維持と結果負担を通して、表示名の先に続く作用経路を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260914/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-15T02:32:14+09:00"
   },
   {
     "workId": "daily-essay-20260915",
     "title": "決めなかった音にも設計はある",
     "description": "幼少期の演奏技巧、AI音楽に対する「哲学」の評価、ジャズ即興の制約、生成後の選択と責任を通して、未決定性と設計の関係を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260915/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-16T02:30:54+09:00"
   },
   {
     "workId": "daily-essay-20260916",
     "title": "出口を空ける人は目立たない",
     "description": "友人の多さ、内集団の義理、危機時に塞がる退路、目立つ救援と見えない予防を通して、善意を出口の開放から考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260916/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-17T02:30:03+09:00"
   },
   {
     "workId": "daily-essay-20260917",
     "title": "言葉は売られながら遠くへ行く",
     "description": "オッペケペー節の反復、翻訳と上演、市場批判の商品化、政治語を運ぶリズムを通して、言葉が変形と矛盾を引き受けながら広がる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260917/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-18T02:33:32+09:00"
   },
   {
     "workId": "daily-essay-20260918",
     "title": "数字は鏡のままではいられない",
     "description": "部署ごとに異なる指標、監視下でだけ効く叱責型統制、敵意の宛先を作るカテゴリー化を通して、測定や分類が現実を映すだけでなく行動と関係を作り替える過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260918/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-09-19T02:33:29+09:00"
   },
   {
     "workId": "daily-essay-20260919",
     "title": "「もう一つ」の外側で休む",
     "description": "営業歌の「もう一件」、制作を続ける反復、故障と加齢が重なる競技者、試合数への疑問を通して、成果を求める「もう一つ」が身体の限界を見失う過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260919/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-25T02:30:13+09:00"
   },
   {
     "workId": "daily-essay-20260920",
     "title": "帳簿は降りた人を数えない",
     "description": "反抗の商品化、遊びへの値札、市場からの片側だけの不参加、現場安全への責任転嫁を通して、制度の帳簿が記録しない負担と退出を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260920/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-25T02:30:17+09:00"
   },
   {
     "workId": "daily-essay-20261023",
     "title": "人の顔をした設計図",
     "description": "叱責、陣営、噂話に吸い寄せられる職場の説明から、通路・権限・工程といった構造の問題を取り出す日次エッセイ。",
     "manifest": "literature/daily-essay-20261023/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-25T01:00:49+09:00"
   },
   {
     "workId": "daily-essay-20261024",
     "title": "扉は内側を説明しない",
     "description": "英語原書の語順、サーバーの認証と実行、国家の名目と実態、読書のしおりと質問を通して、入口から内部の構造を読み解く日次エッセイ。",
     "manifest": "literature/daily-essay-20261024/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-25T01:00:49+09:00"
   },
   {
     "workId": "daily-essay-20261025",
     "title": "耳は売場を通らずに作り始める",
     "description": "ブラウザ上の作曲、音源分離後の同期ずれ、AIによる音楽と3D制作を通して、消費者が制作側へ移るとき商品の価値がどこへ移るかを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261025/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-26T02:31:45+09:00"
   },
   {
     "workId": "daily-essay-20260921",
     "title": "笑顔はカットの時刻を知っている",
     "description": "放送前のカウント、視聴率やスポンサーに測られる出演者、名前と顔の商品化、カット後の静けさを通して、画面用の人格が時間割に従って働く様子を描く日次エッセイ。",
     "manifest": "literature/daily-essay-20260921/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-26T02:31:43+09:00"
   },
   {
     "workId": "daily-essay-20260922",
     "title": "意味は出来事のあとに住み着く",
     "description": "古い観音像の目的変化、デモと正しさの距離、告白と安全報告の制度設計を通して、出来事の意味が後から反復・評価・運用によって作られる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260922/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-26T02:31:44+09:00"
   },
   {
     "workId": "daily-essay-20260923",
     "title": "先取りされた未来は動けない",
     "description": "再開発された都市景観、国際大会の施設、就職氷河期の履歴を通して、将来の需要や評価を先取りして固定する仕組みが後の選択肢を狭める過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260923/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-27T02:33:48+09:00"
   },
   {
     "workId": "daily-essay-20260925",
     "title": "街の本文から脚注が落ちる",
     "description": "都市インフラの寿命、成功譚の背後へ追いやられる損失、最後の移動を支える身体を通して、街が自らを語るときに省かれる負担を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260925/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-27T02:33:45+09:00"
   },
   {
     "workId": "daily-essay-20261026",
     "title": "笑顔の向こうへ利益は流れる",
     "description": "ゲームや音楽の宣伝、海外IPへのローカライズ、貿易収支と所得中央値を通して、表向きの成功と利益が残る場所のずれを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261026/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-27T02:33:47+09:00"
   },
   {
     "workId": "daily-essay-20261027",
     "title": "原点を守れば図は回せる",
     "description": "形鋼加工の固定原点、表示方向の修正、52項目の試験で見つかった境界値の不具合を通して、基準を守ることが変更と検証を可能にする過程を描く日次エッセイ。",
     "manifest": "literature/daily-essay-20261027/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-28T02:38:05+09:00"
   },
   {
     "workId": "daily-essay-20260924",
     "title": "努力の値札を誰が貼る",
     "description": "友情・努力・勝利の物語、AIやCPUとの非対称、敗北後に内部へ向かう責任追及を通して、努力の価値を認定する審級が崩れた後を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260924/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-28T02:38:07+09:00"
   },
   {
     "workId": "daily-essay-20260926",
     "title": "音は許可証の外へ漏れる",
     "description": "公共空間の演奏、楽しさと騒音・費用の非対称、ゾーニングと表現の自由を通して、許可された行為から周囲の受忍義務は自動的に生まれないことを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260926/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-28T02:38:09+09:00"
   },
   {
     "workId": "daily-essay-20260927",
     "title": "役割は境界を越えると戦線になる",
     "description": "庭木処分の負担、疾病分類の政治性、運動が敵を増やす過程を通して、正当な役割が境界を失うと費用と戦線を拡張することを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260927/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-29T02:31:01+09:00"
   },
   {
     "workId": "daily-essay-20260928",
     "title": "手を動かした者だけが主体ではない",
     "description": "詐欺の振込操作、国家式典の代表、善悪を選ばないAIを通して、目に見える行為者と結果を設計・帰属させる主体の違いを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260928/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-29T02:31:03+09:00"
   },
   {
     "workId": "daily-essay-20261028",
     "title": "舞台に立つ者と鍵を持つ者",
     "description": "神々の風刺、海外企業のIPと上流利益、法人承継を通して、表に立つ人物と制度・所有を動かす主体のずれを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261028/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-29T02:31:00+09:00"
   },
   {
     "workId": "daily-essay-20260929",
     "title": "朗読のあとに地図をひらく",
     "description": "仏教語から近代詩へ続く言葉の旅程、文脈を欠いた文学ツアー、消えていく地方都市の記憶を通して、朗読後に開くべき地図を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20260929/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-30T02:36:55+09:00"
   },
   {
     "workId": "daily-essay-20260930",
     "title": "診断名は物語を先に書く",
     "description": "流行する心理用語、分類と自己理解の循環、相関を因果へ束ねる物語を通して、診断名を修正可能な仮説として扱う日次エッセイ。",
     "manifest": "literature/daily-essay-20260930/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-30T02:36:57+09:00"
   },
   {
     "workId": "daily-essay-20261029",
     "title": "強い声では橋は架からない",
     "description": "短評という非常口、威圧と技術的厳密さの違い、翻訳・音声・ZIPの検品を通して、強い声より修正と検査がものを現実にする過程を描く日次エッセイ。",
     "manifest": "literature/daily-essay-20261029/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-30T02:36:58+09:00"
   },
   {
     "workId": "daily-essay-20261001",
     "title": "名札が目標になると暮らしが曲がる",
     "description": "最後の一マイル指標、心理的な分類、世代名と雇用制度を通して、現実を説明する名札が目標や責任へ変わる作用を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261001/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-31T02:35:33+09:00"
   },
   {
     "workId": "daily-essay-20261002",
     "title": "出口のない席から立ち上がる",
     "description": "順番を止める先輩席、一人で借りるボウリングレーン、噂より遅い公共規則を通して、退出と交代の仕組みを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261002/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-31T02:35:35+09:00"
   },
   {
     "workId": "daily-essay-20261030",
     "title": "同じ線でも座標系が違う",
     "description": "旋盤教材の原点と向き、サッカーのルールと利益配分、国内外二部リーグの比較を通して、数字や序列を読む基準座標を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261030/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-10-31T02:35:37+09:00"
   },
   {
     "workId": "daily-essay-20261003",
     "title": "切り口は元の海を語らない",
     "description": "自然化された制度、スクリーンショット、分類規格を通して、切り取られた結果から生成履歴と失われた関係へ戻る方法を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261003/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-01T02:29:29+09:00"
   },
   {
     "workId": "daily-essay-20261004",
     "title": "完成したものから維持が始まる",
     "description": "成功の帳簿、脚気対策と仮説、巨大IPとインフラの更新を通して、完成後に始まる維持・修正・終了の責任を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261004/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-01T02:29:32+09:00"
   },
   {
     "workId": "daily-essay-20261031",
     "title": "素材は遊ばれる場所で部品になる",
     "description": "画像のデータ化、歩行コマの連続性、制作ツールの全機能統合を通して、素材が再編集可能な制作環境へ渡される条件を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261031/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-01T02:29:35+09:00"
   },
   {
     "workId": "daily-essay-20261005",
     "title": "説明の型は人を先回りする",
     "description": "作品を覆う人物評、専門語が運ぶ問題設定、障害と人格の短絡を通して、説明の型が人や作品の複雑さを先回りする作用を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261005/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-02T02:32:40+09:00"
   },
   {
     "workId": "daily-essay-20261006",
     "title": "反逆は商品番号を渡される",
     "description": "切り取られた一文、注意市場の測定、商品棚へ置かれる反逆を通して、市場内を流通する批判が失うものと残す棘を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261006/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-02T02:32:42+09:00"
   },
   {
     "workId": "daily-essay-20261101",
     "title": "見えているのは経路の出口だけ",
     "description": "ゲーム制作の基盤、作者が去った制度、売上では測れない文化の持続を通して、目に見える結果の手前で働く経路と受け渡しを考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261101/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-02T02:32:43+09:00"
   },
   {
     "workId": "daily-essay-20261102",
     "title": "主役の外側で価値は完成する",
     "description": "アニメーションの継ぎ目、農業事業を支える資本・土地・現地運営、有料イベントで参加者へ返される経験を通して、目立つ主役の外側にある受け渡しが価値を完成させる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261102/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-03T02:26:52+09:00"
   },
   {
     "workId": "daily-essay-20261103",
     "title": "時間が入ると基準は働き始める",
     "description": "教材プログラムの計算負荷、ばらつく形鋼を測る機械原点、待機モーションのループを通して、形に時間と変動が加わると共通基準が必要になる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261103/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-04T02:37:18+09:00"
   },
   {
     "workId": "daily-essay-20261104",
     "title": "表面の一致から原因へ戻る",
     "description": "材料表面と内部組織、楽譜と身体的歌唱、画像一致率とメッシュ健全性、誤差逆伝播を通して、見える結果から修正可能な原因へ戻る経路を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261104/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-05T02:34:35+09:00"
   },
   {
     "workId": "daily-essay-20261105",
     "title": "入口だけでは作業は戻らない",
     "description": "固定URLと失われた内部状態、統合で消える部品境界、元画像と比較根拠、復元された視点連動を通して、ファイルだけでなく編集可能な関係を保存する必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261105/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-06T02:31:36+09:00"
   },
   {
     "workId": "daily-essay-20261106",
     "title": "結果は一人で立っていない",
     "description": "実使用で現れる不具合、声を囲む権限と制度、応答するように見える制作履歴、部品と接合から立つ未来型モビリティを通して、見える結果を支える条件の集合を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261106/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-07T02:41:25+09:00"
   },
   {
     "workId": "daily-essay-20261107",
     "title": "点を動かす手から、道具を渡す手へ",
     "description": "画像認識と三次元造形の差、制御点を持つ曲線、面の再生成、開発ブランチの地図と検証基準を通して、能力を修正可能な工程へ変える道具を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261107/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-09T02:32:52+09:00"
   },
   {
     "workId": "daily-essay-20261108",
     "title": "届くことと動かせることの間",
     "description": "統合と実モデル検証、旧ビルドと公開上限、チャットからの遠隔操作経路、宣伝語と実際の反応を通して、接続が生きた往復になる条件を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261108/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-09T02:32:54+09:00"
   },
   {
     "workId": "daily-essay-20261109",
     "title": "実験は三つの場所を往復する",
     "description": "GitHub・Colab／クラウド・Driveの役割分離、五十候補を三件単位へ分けた再開設計、三次元スキャンと多方向画像と照明補正画像の原本保全を通して、実験を追跡可能な知識へ変える条件を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261109/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-10T02:37:46+09:00"
   },
   {
     "workId": "daily-essay-20261110",
     "title": "数字はまだ働いていない",
     "description": "辞書件数と文脈翻訳、価格・露出と体験価値、SUCCESS・戻り値・SHA・テスト合格とレビュー条件を通して、数字や合格表示を意味・価値・完成そのものと混同しないための日次エッセイ。",
     "manifest": "literature/daily-essay-20261110/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-11T02:34:56+09:00"
   },
   {
     "workId": "daily-essay-20261111",
     "title": "見えないままでは直せない",
     "description": "クラウド実験の停止点、SUCCESS後に残る形状の違和感、推定深度・等高線・法線による顔メッシュの再構築を通して、見えない問題を比較可能な証拠へ変えてから修正する過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261111/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-12T02:38:15+09:00"
   },
   {
     "workId": "daily-essay-20261112",
     "title": "骨と輪郭のあいだに手を置く",
     "description": "原画を測る閉ループ、棒人間へ肉厚を与える断面編集、X線骨格とMRI輪切りを統合した試作を通して、専門知識を操作可能な形へ変える道具を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261112/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-16T02:36:13+09:00"
   },
   {
     "workId": "daily-essay-20261113",
     "title": "近道には注記が要る",
     "description": "追加API料金なしの画像から三次元生成、形鋼組図エディタの概略性、鋼材重量計算の理論値を通して、便利な近道が省略する条件を明記する必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261113/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-16T02:36:16+09:00"
   },
   {
     "workId": "daily-essay-20261115",
     "title": "公開は最後の扉である",
     "description": "未承認の歴史データ、Previewと単体テスト、公開JSONと本番画面の間を通して、蓄積・生成・承認・有効化を別工程として扱う必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261115/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-16T02:36:18+09:00"
   },
   {
     "workId": "daily-essay-20261114",
     "title": "入口を短くして、確認を残す",
     "description": "データベース入力フォーム、YAML、地図上の密集した印、公開反映の確認を通して、入力経路の簡略化と出力検証を別の仕事として残す必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261114/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-17T02:36:08+09:00"
   },
   {
     "workId": "daily-essay-20261116",
     "title": "力は止まる場所まで設計する",
     "description": "電動航空機の短い試験飛行、AI開発とエスカレーション、公開データのActive化、休憩時間のドラム演奏を通して、動かす力だけでなく制約・検証・同意まで設計する必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261116/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-17T02:36:11+09:00"
   },
   {
     "workId": "daily-essay-20261117",
     "title": "一枚を分けると責任が見える",
     "description": "一枚絵のレイヤー分解、仕事の動作分解、旅と作品の商品化、媒体と認知の切り分けを通して、分解が効率化ではなく主体と責任を確かめる技法になる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261117/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-18T02:37:45+09:00"
   },
   {
     "workId": "daily-essay-20261118",
     "title": "省いた検査にも輪郭がある",
     "description": "「青春の亡霊」の創作、出典未確認を明記した登録、スマートフォン検査の裏側に増えた常駐機、ブラウザ確認だけを外す判断を通して、省略する層と残す責任を明記する必要を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261118/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-19T02:38:19+09:00"
   },
   {
     "workId": "daily-essay-20261119",
     "title": "見えない面はあとから戻ってくる",
     "description": "材料・治具・検査基準のない特急単品、次工程の基準を作る加工順序、時間内に届かない公開JSON、一枚絵から補う三次元造形を通して、見えない面が段取り・待ち時間・修正として戻る過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261119/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-20T02:36:23+09:00"
   },
   {
     "workId": "daily-essay-20261120",
     "title": "人口は背景ではなく地面になる",
     "description": "年齢境界で見える人口差、危機が重なる世代の暦、海外売上と国内製造の分離、自動配送と都市生活の記録を通して、人口構成が制度・仕事・移動・歴史を支える地面になる過程を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261120/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-21T02:36:01+09:00"
   },
   {
     "workId": "daily-essay-20261121",
     "title": "損失には受取人がいる",
     "description": "努力・時間・信用を守ろうとする損失回避、損を吸収できる余力の差、無料フェスの運営と公開保留、映画館減少による文化の受け皿喪失を通して、消えたように見える損失の最終受取人を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261121/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-22T02:37:46+09:00"
   },
   {
     "workId": "daily-essay-20261122",
     "title": "声は名札より先に聞こえる",
     "description": "内なる声への宗教・医療・冗談の名付け、成功後に努力を愛へ書き換える事後恋文、創作と市場収入の分離、親・人間・AIの権限を検査可能な過程へ置き直す問いを通して、名札が経験と責任の配分を変える作用を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261122/manifest.json",
-    "mode": "essay-translation"
+    "mode": "essay-translation",
+    "addedAt": "2026-11-23T02:31:33+09:00"
   }
 ]

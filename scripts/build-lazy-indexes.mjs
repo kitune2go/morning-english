@@ -44,6 +44,7 @@ for(const file of [...new Set(cardFiles)]){
       sentence:card.sentence||'',
       coreVerb:card.coreVerb||'',
       theme:card.theme||'',
+      _generatedAt:card._generatedAt||'',
       _sourceFile:file
     });
   }
