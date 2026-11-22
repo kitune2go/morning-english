@@ -30360,5 +30360,581 @@
         }
       ]
     }
+  ],
+  "DE-20260923-001": [
+    {
+      "words": {
+        "the waterfront": {
+          "ja": "湾岸"
+        },
+        "had grown": {
+          "ja": "〜になっていた"
+        },
+        "taller": {
+          "ja": "より高く"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "more orderly": {
+          "ja": "より整然と"
+        },
+        "than": {
+          "ja": "〜より"
+        },
+        "memory": {
+          "ja": "記憶"
+        }
+      },
+      "phrases": [
+        {
+          "en": "had grown taller and more orderly than memory",
+          "ja": "記憶より高く整然となっていた",
+          "note": "had grown は「（その時までに）なっていた」。",
+          "pattern": "grow 比較級 / 過去完了"
+        }
+      ]
+    },
+    {
+      "words": {
+        "new towers": {
+          "ja": "新しい高層ビル"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "vast venue": {
+          "ja": "巨大な会場"
+        },
+        "made": {
+          "ja": "〜させた"
+        },
+        "the district": {
+          "ja": "その地区"
+        },
+        "look complete": {
+          "ja": "完成しているように見える"
+        },
+        "from a distance": {
+          "ja": "遠くから"
+        }
+      },
+      "phrases": [
+        {
+          "en": "made the district look complete from a distance",
+          "ja": "地区を遠目には完成しているように見せた",
+          "note": "from a distance「遠くから見ると」。",
+          "pattern": "make A 動詞 / from a distance"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "the polished outline": {
+          "ja": "磨かれた輪郭"
+        },
+        "revived": {
+          "ja": "呼び覚ました"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "longing for": {
+          "ja": "〜への懐かしさ"
+        },
+        "gaps": {
+          "ja": "すき間"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "roughness": {
+          "ja": "雑然さ"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "once": {
+          "ja": "かつて"
+        },
+        "remained there": {
+          "ja": "そこに残っていた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "revived a longing for the gaps and roughness",
+          "ja": "すき間や雑然さへの懐かしさを呼び覚ました",
+          "note": "longing「あこがれ・恋しさ」。",
+          "pattern": "longing for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "vacant land": {
+          "ja": "空き地"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "look inefficient": {
+          "ja": "非効率に見える"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝空き地）"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "preserves": {
+          "ja": "残す"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "undecided use": {
+          "ja": "決まっていない用途"
+        }
+      },
+      "phrases": [
+        {
+          "en": "preserves an undecided use",
+          "ja": "まだ決まっていない使い道を残す",
+          "note": "use はここで名詞「用途」。",
+          "pattern": "undecided"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the more": {
+          "ja": "〜すればするほど"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "build for": {
+          "ja": "〜のために建てる"
+        },
+        "the future": {
+          "ja": "未来"
+        },
+        "the less": {
+          "ja": "それだけ少ない"
+        },
+        "room": {
+          "ja": "余地"
+        },
+        "that future": {
+          "ja": "その未来"
+        },
+        "has to": {
+          "ja": "〜するための（余地を持つ）"
+        },
+        "change its mind": {
+          "ja": "考えを変える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The more we build for the future, the less room that future has to change its mind",
+          "ja": "未来のために建てるほど、その未来が考え直す余地は減る",
+          "note": "room はここで「余地」（部屋ではない）。",
+          "pattern": "the 比較級 ..., the 比較級 ... / change one's mind"
+        }
+      ]
+    }
+  ],
+  "DE-20260923-002": [
+    {
+      "words": {
+        "international events": {
+          "ja": "国際的な催し"
+        },
+        "build": {
+          "ja": "建てる"
+        },
+        "venues": {
+          "ja": "会場"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "housing": {
+          "ja": "宿泊施設"
+        },
+        "ahead of": {
+          "ja": "〜に先立って"
+        },
+        "demand": {
+          "ja": "需要"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "has not yet arrived": {
+          "ja": "まだ来ていない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "ahead of demand that has not yet arrived",
+          "ja": "まだ来ていない需要を見越して先に",
+          "note": "ahead of「〜より先に」。",
+          "pattern": "ahead of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "correct forecast": {
+          "ja": "当たった予測"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "foresight": {
+          "ja": "先見の明"
+        },
+        "wrong one": {
+          "ja": "外れた予測"
+        },
+        "leaves": {
+          "ja": "残す"
+        },
+        "maintenance costs": {
+          "ja": "維持費"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "empty rooms": {
+          "ja": "空き部屋"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a wrong one leaves maintenance costs and empty rooms",
+          "ja": "外れた予測は維持費と空室を残す",
+          "note": "one は forecast を受ける。",
+          "pattern": "one（代名詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "temporary structures": {
+          "ja": "仮設の建物"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "reusable lodging": {
+          "ja": "使い回せる宿泊施設"
+        },
+        "matter": {
+          "ja": "重要だ"
+        },
+        "because": {
+          "ja": "なぜなら"
+        },
+        "they": {
+          "ja": "それら（＝仮設や宿泊施設）"
+        },
+        "keep": {
+          "ja": "防ぐ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "mistaken prediction": {
+          "ja": "誤った予測"
+        },
+        "from hardening into": {
+          "ja": "固まって〜になるのを"
+        },
+        "building's": {
+          "ja": "建物の"
+        },
+        "full lifespan": {
+          "ja": "寿命いっぱい"
+        }
+      },
+      "phrases": [
+        {
+          "en": "keep a mistaken prediction from hardening into a building's full lifespan",
+          "ja": "誤った予測が建物の寿命全体に固まるのを防ぐ",
+          "note": "keep A from -ing「Aが〜するのを防ぐ」。",
+          "pattern": "keep A from -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "flexibility": {
+          "ja": "柔軟さ"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a lack of": {
+          "ja": "〜の欠如"
+        },
+        "faith in": {
+          "ja": "〜への信頼"
+        },
+        "the future": {
+          "ja": "未来"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a lack of faith in the future",
+          "ja": "未来への信頼が足りないこと",
+          "note": "faith in「〜を信じること」。",
+          "pattern": "faith in 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝柔軟さ）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the ability to": {
+          "ja": "〜する力"
+        },
+        "move": {
+          "ja": "動く"
+        },
+        "after": {
+          "ja": "〜した後に"
+        },
+        "the future": {
+          "ja": "未来が"
+        },
+        "chooses differently": {
+          "ja": "違う選択をする"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the ability to move after the future chooses differently",
+          "ja": "未来が別の道を選んだ後でも動ける力",
+          "note": "未来を擬人化した表現。",
+          "pattern": "ability to 動詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260923-003": [
+    {
+      "words": {
+        "the same hardening": {
+          "ja": "同じ固まり方"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "happen to": {
+          "ja": "〜に起こる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "résumé": {
+          "ja": "履歴書"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can happen to a résumé",
+          "ja": "履歴書にも起こりうる",
+          "note": "happen to「〜の身に起こる」。",
+          "pattern": "happen to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "people who": {
+          "ja": "〜した人々"
+        },
+        "entered": {
+          "ja": "入った"
+        },
+        "insecure work": {
+          "ja": "不安定な仕事"
+        },
+        "when": {
+          "ja": "〜のときに"
+        },
+        "hiring gates": {
+          "ja": "採用の門"
+        },
+        "were narrow": {
+          "ja": "狭かった"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "have that first placement read": {
+          "ja": "最初の配属を読まれる"
+        },
+        "for years": {
+          "ja": "何年も"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "evidence of": {
+          "ja": "〜の証拠"
+        },
+        "ability": {
+          "ja": "能力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may have that first placement read for years as evidence of ability",
+          "ja": "最初の配属を何年も能力の証拠として読まれる",
+          "note": "have＋目的語＋過去分詞「Aを〜される」（被害の受け身）。read は過去分詞。",
+          "pattern": "have A 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "delay": {
+          "ja": "遅れ"
+        },
+        "caused by": {
+          "ja": "〜によって生じた"
+        },
+        "the economy": {
+          "ja": "景気"
+        },
+        "gradually": {
+          "ja": "少しずつ"
+        },
+        "becomes attached to": {
+          "ja": "〜に貼り付く"
+        },
+        "the individual": {
+          "ja": "個人"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A delay caused by the economy gradually becomes attached to the individual",
+          "ja": "景気による遅れが少しずつ個人に貼り付く",
+          "note": "caused by 以下が delay を修飾。",
+          "pattern": "名詞 + 過去分詞 / attached to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "cities": {
+          "ja": "都市"
+        },
+        "are offered": {
+          "ja": "与えられる"
+        },
+        "redevelopment": {
+          "ja": "再開発"
+        },
+        "people": {
+          "ja": "人"
+        },
+        "are rarely granted": {
+          "ja": "めったに与えられない"
+        },
+        "such": {
+          "ja": "そのような"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "clean revision": {
+          "ja": "きれいな書き直し"
+        }
+      },
+      "phrases": [
+        {
+          "en": "people are rarely granted such a clean revision",
+          "ja": "人はそんなきれいな書き直しをめったに与えられない",
+          "note": "rarely「めったに〜ない」。",
+          "pattern": "grant A B（受け身）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "preserving": {
+          "ja": "守ること"
+        },
+        "future options": {
+          "ja": "将来の選択肢"
+        },
+        "requires": {
+          "ja": "必要とする"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "system": {
+          "ja": "仕組み"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "turn": {
+          "ja": "変える"
+        },
+        "one": {
+          "ja": "一度の"
+        },
+        "bad entrance": {
+          "ja": "悪い入口"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "lifetime verdict": {
+          "ja": "一生の判決"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not turn one bad entrance into a lifetime verdict",
+          "ja": "一度のつまずきを一生の判決に変えない",
+          "note": "verdict「（陪審の）評決・判決」。",
+          "pattern": "turn A into B"
+        }
+      ]
+    }
   ]
 }
