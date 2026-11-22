@@ -7404,41 +7404,103 @@
         "error": {
           "ja": "エラー"
         },
-        "cloud": {
-          "ja": "クラウド上の"
+        "when": {
+          "ja": "〜とき"
         },
-        "permission": {
-          "ja": "許可"
+        "an": {
+          "ja": "ひとつの"
+        },
+        "appeared": {
+          "ja": "出た"
+        },
+        "in": {
+          "ja": "〜で"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "cloud experiment": {
+          "ja": "クラウド上の実験"
+        },
+        "the task": {
+          "ja": "求められた作業"
+        },
+        "was not to": {
+          "ja": "〜することではなかった"
+        },
+        "repair": {
+          "ja": "直す"
+        },
+        "it": {
+          "ja": "それ（＝エラー）"
+        },
+        "without permission": {
+          "ja": "許可なく"
         }
       },
       "phrases": [
         {
-          "en": "When an error appeared in a cloud experiment, the task was not to repair it without permission.",
-          "ja": "クラウド上の実験でエラーが現れたとき、求められたのは許可なく修正することではなかった。",
-          "note": "このチャンクの主体・時点・操作を、後続の因果関係と切り離さずに読む。"
+          "en": "the task was not to repair it without permission",
+          "ja": "許可なく直すことではなかった",
+          "note": "be to 不定詞で「すべきこと」。",
+          "pattern": "be not to 動詞"
         }
       ]
     },
     {
       "words": {
-        "unchanged": {
-          "ja": "変更されない"
+        "the settings": {
+          "ja": "設定"
         },
-        "stopped": {
-          "ja": "停止した"
+        "and": {
+          "ja": "と"
         },
-        "output": {
-          "ja": "出力"
+        "code": {
+          "ja": "コード"
         },
-        "obtained": {
-          "ja": "得られた"
+        "stayed unchanged": {
+          "ja": "変えないままにした"
+        },
+        "the stopped cell": {
+          "ja": "止まったセル"
+        },
+        "the end of": {
+          "ja": "〜の末尾"
+        },
+        "its output": {
+          "ja": "その出力"
+        },
+        "were reported": {
+          "ja": "報告された"
+        },
+        "along with": {
+          "ja": "〜とともに"
+        },
+        "the fact that": {
+          "ja": "〜という事実"
+        },
+        "no": {
+          "ja": "何も〜ない"
+        },
+        "save path": {
+          "ja": "保存先"
+        },
+        "or": {
+          "ja": "も"
+        },
+        "match rate": {
+          "ja": "一致率"
+        },
+        "had been obtained": {
+          "ja": "得られていた"
         }
       },
       "phrases": [
         {
-          "en": "The settings and code stayed unchanged; the stopped cell and the end of its output were reported, along with the fact that no save path or match rate had been obtained.",
-          "ja": "設定とコードは変更せず、停止したセルと出力の末尾を、保存先も一致率も得られなかった事実とともに報告した。",
-          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+          "en": "along with the fact that no save path or match rate had been obtained",
+          "ja": "保存先も一致率も得られなかったという事実とともに",
+          "note": "the fact that は同格の that。",
+          "pattern": "along with 〜 / the fact that 〜"
         }
       ]
     },
@@ -7448,37 +7510,90 @@
           "ja": "消す"
         },
         "preserved": {
-          "ja": "保存した"
+          "ja": "残した"
         },
         "progressed": {
           "ja": "進んだ"
+        },
+        "rather than": {
+          "ja": "〜するのではなく"
+        },
+        "the failure": {
+          "ja": "失敗"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "move toward": {
+          "ja": "〜へ進む"
+        },
+        "success": {
+          "ja": "成功"
+        },
+        "the record": {
+          "ja": "記録"
+        },
+        "how far": {
+          "ja": "どこまで"
+        },
+        "the run": {
+          "ja": "実行"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "it": {
+          "ja": "それ（＝実行）"
+        },
+        "stopped": {
+          "ja": "止まった"
         }
       },
       "phrases": [
         {
-          "en": "Rather than erase the failure and move toward success, the record preserved how far the run progressed and where it stopped.",
-          "ja": "失敗を消して成功へ進むのではなく、実行がどこまで進み、どこで止まったかを記録に残した。",
-          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+          "en": "Rather than erase the failure and move toward success",
+          "ja": "失敗を消して成功へ進むのではなく",
+          "note": "rather than の後に原形動詞が続く形。",
+          "pattern": "rather than 動詞"
+        },
+        {
+          "en": "how far the run progressed and where it stopped",
+          "ja": "実行がどこまで進み、どこで止まったか",
+          "note": "2つの間接疑問。",
+          "pattern": "how far / where 節"
         }
       ]
     },
     {
       "words": {
-        "reproducible": {
-          "ja": "再現可能な"
+        "in": {
+          "ja": "〜では"
         },
-        "stopping": {
-          "ja": "停止の"
+        "reproducible work": {
+          "ja": "再現できる作業"
         },
-        "fix": {
+        "the stopping point": {
+          "ja": "止まった地点"
+        },
+        "before": {
+          "ja": "〜の前の"
+        },
+        "a fix": {
           "ja": "修正"
+        },
+        "is part of": {
+          "ja": "〜の一部である"
+        },
+        "the result": {
+          "ja": "結果"
         }
       },
       "phrases": [
         {
-          "en": "In reproducible work, the stopping point before a fix is part of the result.",
-          "ja": "再現可能な作業では、修正前の停止点も結果の一部である。",
-          "note": "結論の必要条件と順序を保持して読む。"
+          "en": "is part of the result",
+          "ja": "結果の一部である",
+          "note": "冠詞なしの part of「〜の一部」。",
+          "pattern": "part of 〜"
         }
       ]
     }
@@ -7490,73 +7605,115 @@
           "ja": "到達した"
         },
         "success": {
-          "ja": "成功表示SUCCESS"
+          "ja": "SUCCESS（成功表示）"
         },
-        "glb": {
-          "ja": "GLB形式"
+        "another run": {
+          "ja": "別の実行"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "saved": {
+          "ja": "保存した"
+        },
+        "several": {
+          "ja": "いくつかの"
+        },
+        "glb files": {
+          "ja": "GLBファイル"
         }
       },
       "phrases": [
         {
-          "en": "Another run reached SUCCESS and saved several GLB files.",
-          "ja": "別の実行はSUCCESSまで進み、複数のGLBファイルを保存した。",
-          "note": "このチャンクの主体・時点・操作を、後続の因果関係と切り離さずに読む。"
+          "en": "reached SUCCESS and saved several GLB files",
+          "ja": "SUCCESSまで進み、GLBを保存した",
+          "note": "reach「〜に到達する」。",
+          "pattern": "reach 〜"
         }
       ]
     },
     {
       "words": {
         "spiky": {
-          "ja": "刺さったような"
+          "ja": "とげとげした"
         },
         "jagged": {
-          "ja": "ゴツゴツした"
-        },
-        "wireframe": {
-          "ja": "ワイヤー表示"
+          "ja": "ギザギザの"
         },
         "resembled": {
           "ja": "似ていた"
         },
-        "point": {
-          "ja": "点"
+        "even so": {
+          "ja": "それでも"
         },
-        "cloud": {
-          "ja": "点群の一部"
+        "the displayed forms": {
+          "ja": "表示された形"
+        },
+        "still": {
+          "ja": "依然として"
+        },
+        "looked": {
+          "ja": "〜に見えた"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the wireframe": {
+          "ja": "ワイヤーフレーム表示"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "point cloud": {
+          "ja": "点群"
         }
       },
       "phrases": [
         {
-          "en": "Even so, the displayed forms still looked spiky and jagged, and the wireframe resembled a point cloud.",
-          "ja": "それでも表示された形は刺さったようでゴツゴツして見え、ワイヤー表示は点群に似ていた。",
-          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+          "en": "Even so, the displayed forms still looked spiky and jagged",
+          "ja": "それでも形はとげとげしく見えた",
+          "note": "look＋形容詞「〜に見える」。",
+          "pattern": "even so / look 形容詞"
         }
       ]
     },
     {
       "words": {
-        "passing": {
-          "ja": "合格した"
-        },
-        "assessment": {
-          "ja": "評価"
-        },
         "form": {
-          "ja": "形状"
+          "ja": "形"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "passing status": {
+          "ja": "合格の表示"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "assessment of": {
+          "ja": "〜の評価"
+        },
+        "are not the same thing": {
+          "ja": "同じものではない"
         }
       },
       "phrases": [
         {
-          "en": "A passing status and an assessment of form are not the same thing.",
-          "ja": "合格表示と形状の評価は同じものではない。",
-          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+          "en": "are not the same thing",
+          "ja": "同じものではない",
+          "note": "合格表示≠形の評価。",
+          "pattern": "the same thing"
         }
       ]
     },
     {
       "words": {
         "textures": {
-          "ja": "テクスチャ（複数）"
+          "ja": "テクスチャ"
         },
         "geometry": {
           "ja": "形状"
@@ -7566,13 +7723,50 @@
         },
         "roughness": {
           "ja": "粗さ"
+        },
+        "turning off": {
+          "ja": "切ること"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "viewing": {
+          "ja": "見ること"
+        },
+        "the model": {
+          "ja": "モデル"
+        },
+        "in a single color": {
+          "ja": "単色で"
+        },
+        "separated": {
+          "ja": "分けた"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "making": {
+          "ja": "〜にして"
+        },
+        "the source of": {
+          "ja": "〜の原因"
+        },
+        "easier to see": {
+          "ja": "見やすく"
         }
       },
       "phrases": [
         {
-          "en": "Turning off textures and viewing the model in a single color separated geometry from decoration, making the source of the roughness easier to see.",
-          "ja": "テクスチャを外してモデルを単色で見ることで、形状を装飾から分け、粗さの原因を見やすくした。",
-          "note": "結論の必要条件と順序を保持して読む。"
+          "en": "separated geometry from decoration",
+          "ja": "形状を装飾から切り分けた",
+          "note": "動名詞2つが主語。",
+          "pattern": "separate A from B"
+        },
+        {
+          "en": "making the source of the roughness easier to see",
+          "ja": "粗さの原因を見やすくした",
+          "note": "making は結果を表す分詞構文。",
+          "pattern": "分詞構文 / make A 形容詞"
         }
       ]
     }
@@ -7580,108 +7774,211 @@
   "DE-20261111-003": [
     {
       "words": {
-        "mesh": {
+        "normals": {
+          "ja": "法線"
+        },
+        "in": {
+          "ja": "〜では"
+        },
+        "the facial model": {
+          "ja": "顔のモデル"
+        },
+        "the mesh": {
           "ja": "メッシュ"
         },
-        "estimated": {
-          "ja": "推定した"
+        "was rebuilt from": {
+          "ja": "〜から作り直された"
         },
-        "depth": {
-          "ja": "深度"
+        "an": {
+          "ja": "ひとつの"
         },
-        "surface": {
-          "ja": "面"
+        "estimated depth surface": {
+          "ja": "推定した深度面"
         },
-        "contour": {
+        "contour lines": {
           "ja": "等高線"
         },
-        "normals": {
-          "ja": "法線（複数）"
+        "and": {
+          "ja": "そして"
         },
-        "preserving": {
-          "ja": "保ちながら"
+        "derived from": {
+          "ja": "〜から得られた"
         },
-        "outline": {
-          "ja": "輪郭"
+        "the same depth data": {
+          "ja": "同じ深度データ"
+        },
+        "while preserving": {
+          "ja": "〜を保ちながら"
+        },
+        "the outline of": {
+          "ja": "〜の輪郭"
+        },
+        "the original image": {
+          "ja": "元の絵"
         }
       },
       "phrases": [
         {
-          "en": "In the facial model, the mesh was rebuilt from an estimated depth surface, contour lines, and normals derived from the same depth data while preserving the outline of the original image.",
-          "ja": "顔のモデルでは、元絵の輪郭を保ちながら、推定深度面、等高線、同じ深度データから得た法線をもとにメッシュを作り直した。",
-          "note": "このチャンクの主体・時点・操作を、後続の因果関係と切り離さずに読む。"
+          "en": "normals derived from the same depth data",
+          "ja": "同じ深度データから得た法線",
+          "note": "derived from が normals を後ろから修飾。",
+          "pattern": "名詞 + 過去分詞"
+        },
+        {
+          "en": "while preserving the outline of the original image",
+          "ja": "元絵の輪郭を保ちながら",
+          "note": "while＋-ing「〜しながら」。",
+          "pattern": "while -ing"
         }
       ]
     },
     {
       "words": {
-        "protruded": {
-          "ja": "突出した"
-        },
-        "neither": {
-          "ja": "どちらでもない"
-        },
-        "reconstruction": {
-          "ja": "復元"
-        },
-        "improvement": {
-          "ja": "改善"
-        },
         "remained": {
           "ja": "残った"
+        },
+        "the nose": {
+          "ja": "鼻"
+        },
+        "protruded less": {
+          "ja": "出っ張りが減った"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the result": {
+          "ja": "結果"
+        },
+        "was neither": {
+          "ja": "どちらでもなかった"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "accurate reconstruction": {
+          "ja": "正確な復元"
+        },
+        "nor": {
+          "ja": "〜でもない"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "major improvement": {
+          "ja": "大きな改善"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "problems": {
+          "ja": "問題"
+        },
+        "in": {
+          "ja": "〜に"
+        },
+        "the hair": {
+          "ja": "髪"
+        },
+        "neck": {
+          "ja": "首"
         }
       },
       "phrases": [
         {
-          "en": "The nose protruded less, but the result was neither an accurate reconstruction nor a major improvement, and problems remained in the hair and neck.",
-          "ja": "鼻の突出は抑えられたが、結果は正確な復元でも大幅な改善でもなく、髪と首の問題は残った。",
-          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+          "en": "was neither an accurate reconstruction nor a major improvement",
+          "ja": "正確な復元でも大幅な改善でもなかった",
+          "note": "neither A nor B「AもBも〜ない」。",
+          "pattern": "neither A nor B"
         }
       ]
     },
     {
       "words": {
-        "vague": {
-          "ja": "曖昧な"
+        "the next step": {
+          "ja": "次の手順"
         },
-        "fringe": {
-          "ja": "前髪"
+        "was": {
+          "ja": "〜だった"
         },
-        "sections": {
-          "ja": "区分（複数）"
+        "therefore": {
+          "ja": "したがって"
         },
-        "thickness": {
-          "ja": "厚み"
+        "to divide": {
+          "ja": "分けること"
         },
-        "profile": {
-          "ja": "側面の輪郭"
+        "the": {
+          "ja": "その"
+        },
+        "vague sense of": {
+          "ja": "〜というあいまいな感覚"
+        },
+        "not alike": {
+          "ja": "似ていない"
+        },
+        "into": {
+          "ja": "〜に"
+        },
+        "fringe sections": {
+          "ja": "前髪の区分"
+        },
+        "head thickness": {
+          "ja": "頭の厚み"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "profile lines": {
+          "ja": "横顔の線"
         }
       },
       "phrases": [
         {
-          "en": "The next step was therefore to divide the vague sense of “not alike” into fringe sections, head thickness, and profile lines.",
-          "ja": "そこで次の手順は、曖昧な「似ていない」という感覚を、前髪の区分、頭部の厚み、側面の線へ分けることだった。",
-          "note": "対比・否定・追加情報を前後のチャンクと通読する。"
+          "en": "to divide the vague sense of “not alike” into fringe sections",
+          "ja": "「似ていない」感覚を前髪の区分などに分ける",
+          "note": "divide A into B「AをBに分ける」。",
+          "pattern": "divide A into B"
         }
       ]
     },
     {
       "words": {
-        "invisible": {
-          "ja": "見えない"
-        },
         "correction": {
           "ja": "修正"
         },
-        "compared": {
-          "ja": "比較された"
+        "an": {
+          "ja": "ひとつの"
+        },
+        "invisible error": {
+          "ja": "見えない誤差"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "instruction for": {
+          "ja": "〜のための指示"
+        },
+        "only after": {
+          "ja": "〜して初めて"
+        },
+        "it": {
+          "ja": "それ（＝見えない誤差）"
+        },
+        "is turned into": {
+          "ja": "〜に変えられる"
+        },
+        "something that": {
+          "ja": "〜するもの"
+        },
+        "can be compared": {
+          "ja": "比べられる"
         }
       },
       "phrases": [
         {
-          "en": "An invisible error becomes an instruction for correction only after it is turned into something that can be compared.",
-          "ja": "見えない誤差は、比較できるものへ変えられて初めて修正の指示になる。",
-          "note": "結論の必要条件と順序を保持して読む。"
+          "en": "only after it is turned into something that can be compared",
+          "ja": "比べられるものに変えられて初めて",
+          "note": "only after「〜した後で初めて」。",
+          "pattern": "only after 〜"
         }
       ]
     }
