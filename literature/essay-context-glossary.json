@@ -7970,24 +7970,49 @@
   "DE-20261113-001": [
     {
       "words": {
-        "colab": {
-          "ja": "Colab"
-        },
         "shortcut": {
           "ja": "近道"
         },
-        "publicly": {
-          "ja": "公開状態で"
+        "a": {
+          "ja": "ひとつの"
         },
-        "trained": {
-          "ja": "学習済みの"
+        "colab notebook": {
+          "ja": "Colabノート"
+        },
+        "offered": {
+          "ja": "示した・用意した"
+        },
+        "from one image": {
+          "ja": "一枚の画像から"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "three-dimensional model": {
+          "ja": "三次元モデル"
+        },
+        "by using": {
+          "ja": "〜を使うことで"
+        },
+        "publicly available": {
+          "ja": "公開されている"
+        },
+        "trained model": {
+          "ja": "学習済みモデル"
         }
       },
       "phrases": [
         {
-          "en": "A Colab notebook offered a shortcut from one image to a three-dimensional model by using a publicly available trained model.",
-          "ja": "公開済みの学習モデルを使い、一枚の画像から三次元モデルへ進む近道としてColabノートが用意された。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "a shortcut from one image to a three-dimensional model",
+          "ja": "一枚の画像から3Dモデルへの近道",
+          "note": "from／to で出発点と到達点。",
+          "pattern": "from A to B"
+        },
+        {
+          "en": "by using a publicly available trained model",
+          "ja": "公開済みの学習モデルを使って",
+          "note": "by＋動名詞で手段。",
+          "pattern": "by -ing"
         }
       ]
     },
@@ -7996,21 +8021,55 @@
         "render": {
           "ja": "描画する"
         },
-        "views": {
-          "ja": "方向別の表示"
-        },
         "drive": {
-          "ja": "Drive"
+          "ja": "Googleドライブ"
         },
-        "charges": {
-          "ja": "料金"
+        "it": {
+          "ja": "それ（＝Colabノート）"
+        },
+        "aimed to": {
+          "ja": "〜することを目指した"
+        },
+        "create": {
+          "ja": "作る"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "glb": {
+          "ja": "GLB（3Dファイル形式）"
+        },
+        "four views": {
+          "ja": "四方向からの表示"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "save": {
+          "ja": "保存する"
+        },
+        "the result": {
+          "ja": "結果"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "without": {
+          "ja": "〜なしで"
+        },
+        "additional": {
+          "ja": "追加の"
+        },
+        "api charges": {
+          "ja": "API料金"
         }
       },
       "phrases": [
         {
-          "en": "It aimed to create a GLB, render four views, and save the result to Drive without additional API charges.",
-          "ja": "追加のAPI料金なしでGLBを作り、四方向を描画し、結果をDriveへ保存することを目指した。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "aimed to create a GLB, render four views, and save the result",
+          "ja": "GLBを作り、4方向を描画し、保存することを目指した",
+          "note": "to が3つの動詞にかかる。",
+          "pattern": "aim to 動詞"
         }
       ]
     },
@@ -8019,38 +8078,70 @@
         "roughly": {
           "ja": "約"
         },
-        "gigabytes": {
-          "ja": "ギガバイト"
+        "but": {
+          "ja": "しかし"
         },
-        "inference": {
-          "ja": "推論"
+        "the workflow": {
+          "ja": "その作業手順"
         },
-        "verified": {
-          "ja": "確認された"
+        "still": {
+          "ja": "それでも"
+        },
+        "required": {
+          "ja": "必要とした"
+        },
+        "six gigabytes of": {
+          "ja": "6GBの"
+        },
+        "gpu memory": {
+          "ja": "GPUメモリ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "complete": {
+          "ja": "最後までの"
+        },
+        "inference run": {
+          "ja": "推論の実行"
+        },
+        "had not been verified": {
+          "ja": "確認されていなかった"
         }
       },
       "phrases": [
         {
-          "en": "But the workflow still required roughly six gigabytes of GPU memory, and a complete inference run had not been verified.",
-          "ja": "しかし工程には約6GBのGPUメモリが必要で、推論の完走はまだ確認されていなかった。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "a complete inference run had not been verified",
+          "ja": "推論の完走はまだ確認されていなかった",
+          "note": "過去完了の受け身。",
+          "pattern": "had not been 過去分詞"
         }
       ]
     },
     {
       "words": {
-        "entrance": {
-          "ja": "入口"
+        "a": {
+          "ja": "ひとつの"
         },
-        "commercial-service": {
-          "ja": "商用サービスの"
+        "free entrance": {
+          "ja": "無料の入口"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "commercial-service quality": {
+          "ja": "商用サービスの品質"
         }
       },
       "phrases": [
         {
-          "en": "A free entrance is not the same as commercial-service quality.",
-          "ja": "無料の入口は、商用サービスと同じ品質を意味しない。",
-          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+          "en": "is not the same as commercial-service quality",
+          "ja": "商用サービス並みの品質と同じではない",
+          "note": "無料で入れる≠同じ品質。",
+          "pattern": "the same as 〜"
         }
       ]
     }
@@ -8058,27 +8149,55 @@
   "DE-20261113-002": [
     {
       "words": {
-        "prototype": {
-          "ja": "試作"
-        },
-        "structural-steel": {
-          "ja": "形鋼の"
-        },
         "forty-five-degree": {
           "ja": "45度の"
         },
-        "portal-frame": {
-          "ja": "門型フレームの"
+        "another prototype": {
+          "ja": "別の試作"
         },
-        "assembly": {
-          "ja": "組合せ"
+        "registered": {
+          "ja": "登録した"
+        },
+        "structural-steel parts": {
+          "ja": "形鋼部品"
+        },
+        "applied": {
+          "ja": "施した"
+        },
+        "simple": {
+          "ja": "簡易な"
+        },
+        "corner cuts": {
+          "ja": "角落とし（コーナーカット）"
+        },
+        "duplicated": {
+          "ja": "複製した"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "positioned": {
+          "ja": "配置した"
+        },
+        "the parts": {
+          "ja": "部品"
+        },
+        "displayed": {
+          "ja": "表示した"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "portal-frame assembly": {
+          "ja": "門型フレームの組立"
         }
       },
       "phrases": [
         {
-          "en": "Another prototype registered structural-steel parts, applied simple forty-five-degree corner cuts, duplicated and positioned the parts, and displayed a portal-frame assembly.",
-          "ja": "別の試作では、形鋼部品を登録し、簡易な45度角落としを施し、部品を複製・配置して、門型フレームの組合せを表示した。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "applied simple forty-five-degree corner cuts",
+          "ja": "簡易な45度の角落としを施した",
+          "note": "apply はここで「（加工を）施す」。",
+          "pattern": "apply 〜"
         }
       ]
     },
@@ -8090,61 +8209,121 @@
         "csv": {
           "ja": "CSV"
         },
-        "layout": {
-          "ja": "配置"
-        },
         "preserved": {
-          "ja": "保存した"
+          "ja": "残した"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "assembly drawing": {
+          "ja": "組立図"
+        },
+        "parts list": {
+          "ja": "部品表"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "json": {
+          "ja": "JSON"
+        },
+        "save function": {
+          "ja": "保存機能"
+        },
+        "the proposed layout": {
+          "ja": "考えた配置"
         }
       },
       "phrases": [
         {
-          "en": "Its SVG assembly drawing, CSV parts list, and JSON save function preserved the proposed layout.",
-          "ja": "SVG組図、CSV部品表、JSON保存は、考えた配置を残した。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "preserved the proposed layout",
+          "ja": "考えた配置を残した",
+          "note": "3つの機能が主語。",
+          "pattern": "preserve 〜"
         }
       ]
     },
     {
       "words": {
-        "interference": {
-          "ja": "干渉"
-        },
-        "flange-level": {
-          "ja": "フランジ単位の"
-        },
-        "notches": {
-          "ja": "切欠き"
-        },
         "production-ready": {
-          "ja": "製作可能な"
+          "ja": "そのまま製作に使える"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "the tool": {
+          "ja": "その道具"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "provide": {
+          "ja": "備える・提供する"
+        },
+        "strict": {
+          "ja": "厳密な"
+        },
+        "interference checks": {
+          "ja": "干渉チェック"
+        },
+        "flange-level notches": {
+          "ja": "フランジ単位の切欠き"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "dxf": {
+          "ja": "DXF（図面データ形式）"
         }
       },
       "phrases": [
         {
-          "en": "Yet the tool did not provide strict interference checks, flange-level notches, or production-ready DXF.",
-          "ja": "しかし、厳密な干渉検査、フランジ単位の切欠き、製作可能なDXFは備えていなかった。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "did not provide strict interference checks, flange-level notches, or production-ready DXF",
+          "ja": "干渉チェックも切欠きもDXFも備えていなかった",
+          "note": "not＋or で全部否定。",
+          "pattern": "not A, B, or C"
         }
       ]
     },
     {
       "words": {
-        "conceptual": {
-          "ja": "概略の"
-        },
-        "inspection": {
-          "ja": "検査"
-        },
         "machining": {
           "ja": "加工"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "conceptual assembly": {
+          "ja": "概略の組立"
+        },
+        "still": {
+          "ja": "それでも"
+        },
+        "needs": {
+          "ja": "必要とする"
+        },
+        "another": {
+          "ja": "もう一つの"
+        },
+        "inspection layer": {
+          "ja": "検査の層"
+        },
+        "before": {
+          "ja": "〜する前に"
+        },
+        "it": {
+          "ja": "それ（＝概略の組立）"
+        },
+        "can enter": {
+          "ja": "〜に入れる"
         }
       },
       "phrases": [
         {
-          "en": "A conceptual assembly still needs another inspection layer before it can enter machining.",
-          "ja": "概略組図を加工へ渡す前には、なお別の検査層が必要である。",
-          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+          "en": "before it can enter machining",
+          "ja": "加工に入れるようになる前に",
+          "note": "enter machining「加工工程に入る」。",
+          "pattern": "before 〜"
         }
       ]
     }
@@ -8152,90 +8331,166 @@
   "DE-20261113-003": [
     {
       "words": {
-        "steel-weight": {
-          "ja": "鋼材重量の"
-        },
-        "cross-sectional": {
-          "ja": "断面の"
-        },
         "density": {
           "ja": "密度"
         },
         "quantity": {
           "ja": "本数"
         },
-        "profiles": {
-          "ja": "形状"
+        "the steel-weight tool": {
+          "ja": "鋼材重量ツール"
+        },
+        "calculated": {
+          "ja": "計算した"
+        },
+        "totals": {
+          "ja": "合計"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "cross-sectional area": {
+          "ja": "断面積"
+        },
+        "length": {
+          "ja": "長さ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "covered": {
+          "ja": "扱った"
+        },
+        "nine": {
+          "ja": "9種類の"
+        },
+        "steel profiles": {
+          "ja": "鋼材の断面形状"
+        },
+        "with diagrams": {
+          "ja": "図付きで"
         }
       },
       "phrases": [
         {
-          "en": "The steel-weight tool calculated totals from cross-sectional area, length, density, and quantity, and covered nine steel profiles with diagrams.",
-          "ja": "鋼材重量ツールは断面積、長さ、密度、本数から合計を計算し、図付きで九種類の鋼材形状を扱った。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "calculated totals from cross-sectional area, length, density, and quantity",
+          "ja": "断面積・長さ・密度・本数から合計を出した",
+          "note": "from は計算の元。",
+          "pattern": "calculate A from B"
         }
       ]
     },
     {
       "words": {
-        "grams": {
-          "ja": "グラム"
+        "it": {
+          "ja": "それ（＝ツール）"
         },
-        "cubic": {
-          "ja": "立方の"
+        "used": {
+          "ja": "使った"
         },
-        "centimeter": {
-          "ja": "センチメートル"
+        "grams per cubic centimeter": {
+          "ja": "1立方センチメートルあたりのグラム数（g/cm³）"
         },
-        "ordinary": {
-          "ja": "一般の"
+        "for": {
+          "ja": "〜に対して"
+        },
+        "ordinary steel": {
+          "ja": "一般鋼"
         }
       },
       "phrases": [
         {
-          "en": "It used 7.85 grams per cubic centimeter for ordinary steel.",
-          "ja": "一般鋼材には一立方センチメートル当たり7.85グラムを用いた。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "grams per cubic centimeter",
+          "ja": "1立方センチあたりのグラム",
+          "note": "per「〜につき」。",
+          "pattern": "per 〜"
         }
       ]
     },
     {
       "words": {
-        "theoretical": {
-          "ja": "理論上の"
-        },
-        "radii": {
-          "ja": "丸み・半径"
-        },
         "tolerances": {
           "ja": "公差"
         },
         "welds": {
           "ja": "溶接"
+        },
+        "the result": {
+          "ja": "結果"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "was": {
+          "ja": "〜だった"
+        },
+        "theoretical weight": {
+          "ja": "理論重量"
+        },
+        "corner radii": {
+          "ja": "角のR（丸み）"
+        },
+        "holes": {
+          "ja": "穴"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "were excluded": {
+          "ja": "除外されていた"
         }
       },
       "phrases": [
         {
-          "en": "The result, however, was theoretical weight: corner radii, tolerances, holes, and welds were excluded.",
-          "ja": "しかし結果は理論重量であり、角の丸み、公差、穴、溶接は除外されていた。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "was theoretical weight: corner radii, tolerances, holes, and welds were excluded",
+          "ja": "理論重量で、Rや公差などは含まない",
+          "note": "コロン以下が theoretical の中身。",
+          "pattern": "コロンで理由"
         }
       ]
     },
     {
       "words": {
         "omissions": {
-          "ja": "省略事項"
+          "ja": "省いた条件"
         },
         "beside": {
-          "ja": "そばに"
+          "ja": "〜のそばに"
+        },
+        "the faster": {
+          "ja": "速く〜するほど"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "tool": {
+          "ja": "道具"
+        },
+        "produces": {
+          "ja": "出す"
+        },
+        "number": {
+          "ja": "数字"
+        },
+        "the closer": {
+          "ja": "より近くに"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "need to be written": {
+          "ja": "書かれる必要がある"
+        },
+        "it": {
+          "ja": "それ（＝数字）"
         }
       },
       "phrases": [
         {
-          "en": "The faster a tool produces a number, the closer its omissions need to be written beside it.",
-          "ja": "道具が数字を速く出すほど、省略した条件をその数字のそばへ書く必要がある。",
-          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+          "en": "The faster a tool produces a number, the closer its omissions need to be written beside it",
+          "ja": "早く数字を出す道具ほど、省いた条件を数字のすぐそばに書くべきだ",
+          "note": "the＋比較級の対。",
+          "pattern": "the 比較級 ..., the 比較級 ..."
         }
       ]
     }
