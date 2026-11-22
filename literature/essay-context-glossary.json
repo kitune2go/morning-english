@@ -32034,5 +32034,662 @@
         }
       ]
     }
+  ],
+  "DE-20260920-001": [
+    {
+      "words": {
+        "rebellion": {
+          "ja": "反抗"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "appear to": {
+          "ja": "〜するように見える"
+        },
+        "speak from": {
+          "ja": "〜から語る"
+        },
+        "outside": {
+          "ja": "〜の外"
+        },
+        "the market": {
+          "ja": "市場"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may appear to speak from outside the market",
+          "ja": "市場の外から語っているように見えるかもしれない",
+          "note": "outside はここで前置詞「〜の外」。",
+          "pattern": "appear to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "recording": {
+          "ja": "録音"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "distribution": {
+          "ja": "流通"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "place": {
+          "ja": "置く"
+        },
+        "it": {
+          "ja": "それ（＝反抗）"
+        },
+        "inside": {
+          "ja": "〜の内側に"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "sales ledger": {
+          "ja": "売上帳簿"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can place it inside a sales ledger",
+          "ja": "反抗を売上帳簿の内側に置く",
+          "note": "place は動詞「置く」。",
+          "pattern": "place A inside B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝反抗）"
+        },
+        "has not vanished": {
+          "ja": "消えたわけではない"
+        },
+        "has been converted into": {
+          "ja": "〜に変換された"
+        },
+        "something": {
+          "ja": "何か"
+        },
+        "purchasable": {
+          "ja": "買える"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "ranked": {
+          "ja": "順位を付けられた"
+        },
+        "among": {
+          "ja": "〜の中で"
+        },
+        "other goods": {
+          "ja": "ほかの商品"
+        }
+      },
+      "phrases": [
+        {
+          "en": "has been converted into something purchasable and ranked among other goods",
+          "ja": "買えるものに変えられ、ほかの商品と並べて順位付けされた",
+          "note": "something＋形容詞の語順。",
+          "pattern": "convert A into B / something 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "resistance": {
+          "ja": "抵抗"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "acquire": {
+          "ja": "得る"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "price": {
+          "ja": "値段"
+        },
+        "through": {
+          "ja": "〜を通じて"
+        },
+        "scarcity": {
+          "ja": "希少さ"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "attention": {
+          "ja": "注目"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can acquire a price through scarcity and attention",
+          "ja": "希少さと注目を通じて値段が付く",
+          "note": "acquire「得る」。",
+          "pattern": "through 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "market": {
+          "ja": "市場"
+        },
+        "need not": {
+          "ja": "〜する必要はない"
+        },
+        "silence": {
+          "ja": "黙らせる"
+        },
+        "criticism": {
+          "ja": "批判"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A market need not silence criticism",
+          "ja": "市場は批判を黙らせる必要はない",
+          "note": "silence はここで動詞「黙らせる」。",
+          "pattern": "need not / silence（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "it": {
+          "ja": "それ（＝市場）"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "charge for": {
+          "ja": "〜に料金を取る"
+        },
+        "the route": {
+          "ja": "経路"
+        },
+        "the criticism": {
+          "ja": "その批判が"
+        },
+        "uses": {
+          "ja": "使う"
+        }
+      },
+      "phrases": [
+        {
+          "en": "if it can charge for the route the criticism uses",
+          "ja": "批判が通る経路から料金を取れるなら",
+          "note": "route の後に関係代名詞が省略。",
+          "pattern": "charge for 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260920-002": [
+    {
+      "words": {
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "play": {
+          "ja": "遊び"
+        },
+        "is priced": {
+          "ja": "値段が付けられる"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "access": {
+          "ja": "参加する権利"
+        },
+        "becomes tradable": {
+          "ja": "売り買いできるようになる"
+        },
+        "refusal": {
+          "ja": "拒むこと"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "look like": {
+          "ja": "〜のように見える"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "clean exit": {
+          "ja": "きれいな退出"
+        }
+      },
+      "phrases": [
+        {
+          "en": "refusal can look like a clean exit",
+          "ja": "拒否がきれいな出口に見えうる",
+          "note": "play はここで名詞「遊び」。",
+          "pattern": "look like 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "declining to": {
+          "ja": "〜するのを断ること"
+        },
+        "buy": {
+          "ja": "買う"
+        },
+        "does not necessarily": {
+          "ja": "必ずしも〜しない"
+        },
+        "remove": {
+          "ja": "取り除く"
+        },
+        "time pressure": {
+          "ja": "時間の圧力"
+        },
+        "advertising": {
+          "ja": "広告"
+        },
+        "comparison": {
+          "ja": "比較"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "the costs": {
+          "ja": "費用"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "keep the system running": {
+          "ja": "仕組みを動かし続ける"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not necessarily remove time pressure",
+          "ja": "必ずしも時間の圧力を消すわけではない",
+          "note": "部分否定。declining はここで「断ること」（減少ではない）。",
+          "pattern": "not necessarily"
+        },
+        {
+          "en": "the costs that keep the system running",
+          "ja": "仕組みを回し続ける費用",
+          "note": "keep＋目的語＋-ing。",
+          "pattern": "keep A -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "stopping": {
+          "ja": "やめること"
+        },
+        "purchases": {
+          "ja": "購入"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "escaping": {
+          "ja": "逃れること"
+        },
+        "the bill": {
+          "ja": "請求書"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Stopping purchases is not the same as escaping the bill",
+          "ja": "買うのをやめても請求から逃れられるわけではない",
+          "note": "bill「請求書」。",
+          "pattern": "the same as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "silent departure": {
+          "ja": "静かな退出"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "appear in": {
+          "ja": "〜に現れる"
+        },
+        "the data": {
+          "ja": "データ"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "weaker demand": {
+          "ja": "需要の減少"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may appear in the data as weaker demand",
+          "ja": "データには需要減として現れるかもしれない",
+          "note": "次のチャンクへ続く。",
+          "pattern": "appear as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "while": {
+          "ja": "一方で"
+        },
+        "the reason for": {
+          "ja": "〜の理由"
+        },
+        "leaving": {
+          "ja": "去ること"
+        },
+        "remains unrecorded": {
+          "ja": "記録されないままである"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while the reason for leaving remains unrecorded",
+          "ja": "去った理由は記録されないまま",
+          "note": "unrecorded「記録されていない」。",
+          "pattern": "remain 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "nonparticipation": {
+          "ja": "参加しないこと"
+        },
+        "is quiet": {
+          "ja": "静かだ"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "quiet": {
+          "ja": "静けさ"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "consent": {
+          "ja": "同意"
+        }
+      },
+      "phrases": [
+        {
+          "en": "quiet is not consent",
+          "ja": "静けさは同意ではない",
+          "note": "前半の quiet は形容詞、後半は名詞。",
+          "pattern": "quiet（名詞）"
+        }
+      ]
+    }
+  ],
+  "DE-20260920-003": [
+    {
+      "words": {
+        "after": {
+          "ja": "〜の後"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "accident": {
+          "ja": "事故"
+        },
+        "attention": {
+          "ja": "注目"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "shifts": {
+          "ja": "移る"
+        },
+        "quickly": {
+          "ja": "すぐに"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "the worker": {
+          "ja": "作業者"
+        }
+      },
+      "phrases": [
+        {
+          "en": "attention often shifts quickly to the worker",
+          "ja": "注目はすぐ作業者へ移りがちだ",
+          "note": "shift「移る」。",
+          "pattern": "shift to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "workers": {
+          "ja": "作業者"
+        },
+        "do need": {
+          "ja": "確かに必要とする"
+        },
+        "the authority to": {
+          "ja": "〜する権限"
+        },
+        "detect": {
+          "ja": "察知する"
+        },
+        "danger": {
+          "ja": "危険"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "stop": {
+          "ja": "止める"
+        },
+        "the job": {
+          "ja": "作業"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Workers do need the authority to detect danger and stop the job",
+          "ja": "作業者には危険を察して作業を止める権限が確かに要る",
+          "note": "do need で「確かに必要だ」と強調。",
+          "pattern": "強調の do"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "personal caution": {
+          "ja": "個人の用心"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "replace": {
+          "ja": "代わりになる"
+        },
+        "recalculation": {
+          "ja": "計算し直し"
+        },
+        "procedure review": {
+          "ja": "手順の見直し"
+        },
+        "restricted access": {
+          "ja": "立入制限"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "separation of": {
+          "ja": "〜の分離"
+        },
+        "work areas": {
+          "ja": "作業区域"
+        }
+      },
+      "phrases": [
+        {
+          "en": "personal caution cannot replace recalculation",
+          "ja": "個人の用心は計算し直しの代わりにならない",
+          "note": "replace「〜に取って代わる」。",
+          "pattern": "replace 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "awareness": {
+          "ja": "注意していること"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "serve as": {
+          "ja": "〜として働く"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "final barrier": {
+          "ja": "最後の防壁"
+        },
+        "it": {
+          "ja": "それ（＝注意）"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a substitute for": {
+          "ja": "〜の代わり"
+        },
+        "design review": {
+          "ja": "設計の審査"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it is not a substitute for design review",
+          "ja": "設計審査の代わりではない",
+          "note": "注意は最後の砦であって、設計の代用ではない。",
+          "pattern": "substitute for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "moving": {
+          "ja": "移すこと"
+        },
+        "responsibility": {
+          "ja": "責任"
+        },
+        "downward": {
+          "ja": "下へ"
+        },
+        "makes": {
+          "ja": "〜させる"
+        },
+        "the institutional ledger": {
+          "ja": "組織の帳簿"
+        },
+        "look lighter": {
+          "ja": "軽く見える"
+        },
+        "without reducing": {
+          "ja": "減らさずに"
+        },
+        "the load": {
+          "ja": "荷重"
+        }
+      },
+      "phrases": [
+        {
+          "en": "makes the institutional ledger look lighter without reducing the load",
+          "ja": "帳簿を軽く見せるが、荷重は減らない",
+          "note": "load「（物理的な）荷重・負荷」。",
+          "pattern": "make A 動詞 / without -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "weight": {
+          "ja": "重さ"
+        },
+        "erased from": {
+          "ja": "〜から消された"
+        },
+        "the record": {
+          "ja": "記録"
+        },
+        "remains": {
+          "ja": "残る"
+        },
+        "on": {
+          "ja": "〜の上に"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "body": {
+          "ja": "身体"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Weight erased from the record remains on a body",
+          "ja": "記録から消された重さは身体に残る",
+          "note": "erased 以下が weight を修飾。",
+          "pattern": "名詞 + 過去分詞"
+        }
+      ]
+    }
   ]
 }
