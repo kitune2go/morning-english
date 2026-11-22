@@ -7692,61 +7692,124 @@
         "intuitive": {
           "ja": "直感的な"
         },
-        "three-dimensional": {
-          "ja": "三次元の"
+        "three-dimensional modeling": {
+          "ja": "3D造形"
         },
-        "modeling": {
-          "ja": "造形"
+        "requires": {
+          "ja": "必要とする"
+        },
+        "more than": {
+          "ja": "〜以上のもの"
+        },
+        "a collection of": {
+          "ja": "〜を集めたもの"
+        },
+        "tools": {
+          "ja": "道具"
         }
       },
       "phrases": [
         {
-          "en": "Intuitive three-dimensional modeling requires more than a collection of tools.",
-          "ja": "直感的な三次元造形には、道具を集める以上のものが必要だ。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "requires more than a collection of tools",
+          "ja": "道具を集めただけでは足りない",
+          "note": "more than「〜以上のもの」。",
+          "pattern": "more than 〜"
         }
       ]
     },
     {
       "words": {
-        "original": {
-          "ja": "原画の"
-        },
         "measured": {
-          "ja": "測定された"
+          "ja": "測られる"
         },
-        "ruler": {
+        "the original image": {
+          "ja": "元の絵"
+        },
+        "must be": {
+          "ja": "〜されなければならない"
+        },
+        "marked with": {
+          "ja": "〜で印を付けられる"
+        },
+        "a pen": {
+          "ja": "ペン"
+        },
+        "checked with": {
+          "ja": "〜で確かめられる"
+        },
+        "a ruler": {
           "ja": "定規"
         },
-        "fed": {
-          "ja": "戻された"
+        "viewed from": {
+          "ja": "〜から見られる"
+        },
+        "different": {
+          "ja": "異なる"
+        },
+        "camera angles": {
+          "ja": "カメラの角度"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "fed back into": {
+          "ja": "〜へ戻される"
+        },
+        "the model": {
+          "ja": "モデル"
         }
       },
       "phrases": [
         {
-          "en": "The original image must be measured, marked with a pen, checked with a ruler, viewed from different camera angles, and fed back into the model.",
-          "ja": "原画を測り、ペンで印を付け、定規で確認し、異なるカメラ角度から見て、その結果をモデルへ戻さなければならない。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "must be measured, marked with a pen, checked with a ruler, viewed from different camera angles, and fed back into the model",
+          "ja": "測り、印を付け、確かめ、見て、モデルへ戻さなければならない",
+          "note": "must be が5つの過去分詞にかかる。",
+          "pattern": "must be 過去分詞の並列"
         }
       ]
     },
     {
       "words": {
-        "closed": {
-          "ja": "閉じた"
-        },
-        "loop": {
-          "ja": "輪"
-        },
         "correcting": {
           "ja": "直すこと"
+        },
+        "what matters": {
+          "ja": "大事なこと"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "closed loop": {
+          "ja": "閉じた輪（循環）"
+        },
+        "between": {
+          "ja": "〜の間の"
+        },
+        "seeing": {
+          "ja": "見ること"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "a list of": {
+          "ja": "〜の一覧"
+        },
+        "separate functions": {
+          "ja": "ばらばらの機能"
         }
       },
       "phrases": [
         {
-          "en": "What matters is a closed loop between seeing and correcting, not a list of separate functions.",
-          "ja": "重要なのは、個別機能の一覧ではなく、見ることと直すことの閉じた輪である。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "not a list of separate functions",
+          "ja": "大事なのはAで、Bではない",
+          "note": "what matters「重要なこと」。",
+          "pattern": "what matters is A, not B"
         }
       ]
     },
@@ -7758,15 +7821,40 @@
         "comparison": {
           "ja": "比較"
         },
-        "process": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "each difference": {
+          "ja": "一つ一つの違い"
+        },
+        "the next action": {
+          "ja": "次の行動"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "each new shape": {
+          "ja": "新しい形のそれぞれ"
+        },
+        "returns for": {
+          "ja": "〜のために戻る"
+        },
+        "tools": {
+          "ja": "道具"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "a process": {
           "ja": "工程"
         }
       },
       "phrases": [
         {
-          "en": "When each difference determines the next action and each new shape returns for comparison, tools become a process.",
-          "ja": "一つ一つの違いが次の行動を決め、新しい形が比較へ戻るとき、道具は工程になる。",
-          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+          "en": "tools become a process",
+          "ja": "道具が工程になる",
+          "note": "道具の集合が一続きの流れになる、という結論。",
+          "pattern": "become 〜"
         }
       ]
     }
@@ -7777,87 +7865,175 @@
         "interface": {
           "ja": "操作画面"
         },
-        "specialist": {
-          "ja": "専門家の"
-        },
         "finished": {
           "ja": "完成した"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "assumes": {
+          "ja": "前提とする"
+        },
+        "no specialist knowledge": {
+          "ja": "専門知識を一切"
+        },
+        "need not": {
+          "ja": "〜する必要はない"
+        },
+        "begin with": {
+          "ja": "〜から始める"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "human body": {
+          "ja": "人体"
         }
       },
       "phrases": [
         {
-          "en": "An interface that assumes no specialist knowledge need not begin with a finished human body.",
-          "ja": "専門知識を前提にしない画面は、完成した人体から始める必要がない。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "An interface that assumes no specialist knowledge",
+          "ja": "専門知識を前提にしない画面",
+          "note": "no で「まったく〜ない」。",
+          "pattern": "assume no 〜"
+        },
+        {
+          "en": "need not begin with a finished human body",
+          "ja": "完成した人体から始める必要はない",
+          "note": "need not は助動詞。",
+          "pattern": "need not 動詞"
         }
       ]
     },
     {
       "words": {
-        "stick": {
-          "ja": "棒状の"
-        },
-        "bones": {
-          "ja": "骨（複数）"
-        },
-        "slices": {
-          "ja": "断面・輪切り（複数）"
-        },
         "reflect": {
           "ja": "反映する"
+        },
+        "it": {
+          "ja": "それ（＝操作画面）"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "start with": {
+          "ja": "〜から始める"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "stick figure": {
+          "ja": "棒人間"
+        },
+        "move": {
+          "ja": "動かす"
+        },
+        "the bones": {
+          "ja": "骨"
+        },
+        "adjust": {
+          "ja": "調整する"
+        },
+        "the center": {
+          "ja": "中心"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "thickness of": {
+          "ja": "〜の厚み"
+        },
+        "body slices": {
+          "ja": "身体の輪切り"
+        },
+        "those changes": {
+          "ja": "それらの変更"
+        },
+        "in three dimensions": {
+          "ja": "3Dに"
         }
       },
       "phrases": [
         {
-          "en": "It can start with a stick figure: move the bones, adjust the center and thickness of body slices, and reflect those changes in three dimensions.",
-          "ja": "棒人間から始め、骨を動かし、身体断面の中心と厚みを調整し、その変化を三次元へ反映できる。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "reflect those changes in three dimensions",
+          "ja": "変更を3Dに反映する",
+          "note": "コロン以下は手順の列挙。",
+          "pattern": "reflect A in B"
         }
       ]
     },
     {
       "words": {
-        "skeletal": {
-          "ja": "骨格の"
-        },
         "x-ray": {
-          "ja": "X線"
-        },
-        "mri": {
-          "ja": "MRI"
+          "ja": "X線写真"
         },
         "resembles": {
           "ja": "似ている"
+        },
+        "the skeletal view": {
+          "ja": "骨格表示"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "while": {
+          "ja": "一方"
+        },
+        "the thickness view": {
+          "ja": "厚み表示"
+        },
+        "mri slices": {
+          "ja": "MRIの輪切り画像"
         }
       },
       "phrases": [
         {
-          "en": "The skeletal view resembles an X-ray, while the thickness view resembles MRI slices.",
-          "ja": "骨格表示はX線に似ており、厚み表示はMRIの輪切りに似ている。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "while the thickness view resembles MRI slices",
+          "ja": "一方、厚み表示はMRIの輪切りに似ている",
+          "note": "動詞 resembles は後半では省略されている。",
+          "pattern": "while（対比）"
         }
       ]
     },
     {
       "words": {
-        "surface": {
-          "ja": "表面"
-        },
-        "clay": {
-          "ja": "粘土"
-        },
         "volume": {
-          "ja": "体積"
+          "ja": "量感のある立体"
         },
-        "within": {
-          "ja": "内側"
+        "together": {
+          "ja": "二つ合わせると"
+        },
+        "they": {
+          "ja": "それら（＝2つの表示）"
+        },
+        "turn": {
+          "ja": "変える"
+        },
+        "form": {
+          "ja": "形"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "surface clay": {
+          "ja": "表面の粘土"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "built from within": {
+          "ja": "内側から組み立てられた"
         }
       },
       "phrases": [
         {
-          "en": "Together, they turn form from surface clay into volume built from within.",
-          "ja": "二つを合わせると、形は表面の粘土から、内側から組み立てる体積へ変わる。",
-          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+          "en": "turn form from surface clay into volume built from within",
+          "ja": "形を表面の粘土から内側から組んだ立体へ変える",
+          "note": "built from within が volume を修飾。",
+          "pattern": "turn A from B into C"
         }
       ]
     }
@@ -7865,104 +8041,184 @@
   "DE-20261112-003": [
     {
       "words": {
-        "prototype": {
-          "ja": "試作"
-        },
         "section-center": {
-          "ja": "断面中心"
-        },
-        "controls": {
-          "ja": "操作機能"
+          "ja": "断面の中心"
         },
         "export": {
           "ja": "書き出し"
+        },
+        "the prototype": {
+          "ja": "試作"
+        },
+        "verified": {
+          "ja": "確認した"
+        },
+        "bone movement": {
+          "ja": "骨の動き"
+        },
+        "thickness controls": {
+          "ja": "厚みの操作"
+        },
+        "three-dimensional updates": {
+          "ja": "3Dへの反映"
+        },
+        "glb": {
+          "ja": "GLB"
+        },
+        "json": {
+          "ja": "JSON"
         }
       },
       "phrases": [
         {
-          "en": "The prototype verified bone movement, section-center and thickness controls, three-dimensional updates, and GLB and JSON export.",
-          "ja": "試作では、骨の移動、断面中心と厚みの操作、三次元更新、GLBとJSONの書き出しを確認した。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "verified bone movement, section-center and thickness controls",
+          "ja": "骨の動きや断面操作などを確認した",
+          "note": "確認した項目の列挙。",
+          "pattern": "verify 〜"
         }
       ]
     },
     {
       "words": {
-        "topology": {
-          "ja": "トポロジー"
+        "integrate": {
+          "ja": "組み込む"
         },
-        "joints": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝試作）"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "create": {
+          "ja": "作る"
+        },
+        "continuous topology": {
+          "ja": "つながったトポロジー（面の連続構造）"
+        },
+        "across": {
+          "ja": "〜をまたいで"
+        },
+        "the joints": {
           "ja": "関節"
         },
-        "integrate": {
-          "ja": "統合する"
+        "or": {
+          "ja": "も"
         },
-        "workflow": {
-          "ja": "工程"
+        "the workflow": {
+          "ja": "その工程"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "the existing studio": {
+          "ja": "既存のStudio"
         }
       },
       "phrases": [
         {
-          "en": "Yet it did not create continuous topology across the joints or integrate the workflow into the existing Studio.",
-          "ja": "しかし、関節をまたぐ連続トポロジーの作成も、既存Studioへの工程統合も行っていない。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "or integrate the workflow into the existing Studio",
+          "ja": "作りもせず、組み込みもしなかった",
+          "note": "not＋or で両方否定。",
+          "pattern": "not A or B"
         }
       ]
     },
     {
       "words": {
-        "proof": {
-          "ja": "証明"
-        },
         "completion": {
           "ja": "完成"
+        },
+        "successful export": {
+          "ja": "書き出しの成功"
+        },
+        "was not": {
+          "ja": "〜ではなかった"
+        },
+        "proof of": {
+          "ja": "〜の証明"
         }
       },
       "phrases": [
         {
-          "en": "Successful export was not proof of completion.",
-          "ja": "書き出しの成功は完成の証明ではなかった。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "was not proof of completion",
+          "ja": "完成の証明ではなかった",
+          "note": "書き出せた≠完成。",
+          "pattern": "proof of 〜"
         }
       ]
     },
     {
       "words": {
         "exposed": {
-          "ja": "露出させた"
+          "ja": "あらわにした"
         },
-        "boundary": {
-          "ja": "境界"
+        "the value of": {
+          "ja": "〜の価値"
         },
-        "repair": {
-          "ja": "修復する"
+        "the prototype": {
+          "ja": "試作"
+        },
+        "was that": {
+          "ja": "〜ということだった"
+        },
+        "it": {
+          "ja": "それ（＝試作）"
+        },
+        "the next boundary": {
+          "ja": "次の境目"
+        },
+        "to repair": {
+          "ja": "直すべき"
         }
       },
       "phrases": [
         {
-          "en": "The value of the prototype was that it exposed the next boundary to repair.",
-          "ja": "試作の価値は、次に直す境界を露出させたことにあった。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "the next boundary to repair",
+          "ja": "次に直すべき境目",
+          "note": "to repair が boundary を修飾。",
+          "pattern": "名詞 + to 動詞"
         }
       ]
     },
     {
       "words": {
         "incompleteness": {
-          "ja": "未完成さ"
-        },
-        "connection": {
-          "ja": "接続"
+          "ja": "未完成であること"
         },
         "defects": {
           "ja": "欠陥"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "became": {
+          "ja": "〜になった"
+        },
+        "a map of": {
+          "ja": "〜を示す地図"
+        },
+        "the next": {
+          "ja": "次の"
+        },
+        "connection point": {
+          "ja": "接続点"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "a cover for": {
+          "ja": "〜を覆い隠すもの"
         }
       },
       "phrases": [
         {
-          "en": "Its incompleteness became a map of the next connection point, not a cover for defects.",
-          "ja": "その未完成さは欠陥を覆うものではなく、次の接続点を示す地図になった。",
-          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+          "en": "became a map of the next connection point, not a cover for defects",
+          "ja": "欠陥を隠すものではなく、次の接続点の地図になった",
+          "note": "対比で結論。",
+          "pattern": "A, not B"
         }
       ]
     }
