@@ -35902,5 +35902,916 @@
         }
       ]
     }
+  ],
+  "DE-20260915-001": [
+    {
+      "words": {
+        "some": {
+          "ja": "一部の"
+        },
+        "musicians": {
+          "ja": "演奏家"
+        },
+        "reach": {
+          "ja": "到達する"
+        },
+        "astonishing": {
+          "ja": "驚くべき"
+        },
+        "technical maturity": {
+          "ja": "技術的な成熟"
+        },
+        "while": {
+          "ja": "〜する間に"
+        },
+        "they": {
+          "ja": "彼ら（＝演奏家）"
+        },
+        "are still": {
+          "ja": "まだ〜である"
+        },
+        "children": {
+          "ja": "子ども"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while they are still children",
+          "ja": "まだ子どものうちに",
+          "note": "while「〜している間に」。",
+          "pattern": "while 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "speed": {
+          "ja": "速さ"
+        },
+        "precision": {
+          "ja": "正確さ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "difficult fingering": {
+          "ja": "難しい運指"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "have": {
+          "ja": "持つ"
+        },
+        "physical ceilings": {
+          "ja": "身体的な上限"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may have physical ceilings",
+          "ja": "身体的な上限があるかもしれない",
+          "note": "ceiling はもと「天井」、ここで「上限」。",
+          "pattern": "ceiling（比喩）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "rare talent": {
+          "ja": "まれな才能"
+        },
+        "approaches": {
+          "ja": "近づく"
+        },
+        "early": {
+          "ja": "早くに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "that rare talent approaches early",
+          "ja": "まれな才能が早く近づく（上限）",
+          "note": "前の ceilings を修飾。",
+          "pattern": "that 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "moving the fingers": {
+          "ja": "指を動かすこと"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "leaving something": {
+          "ja": "何かを残すこと"
+        },
+        "through": {
+          "ja": "〜を通じて"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "performance": {
+          "ja": "演奏"
+        },
+        "are": {
+          "ja": "〜である"
+        },
+        "different achievements": {
+          "ja": "別々の達成"
+        }
+      },
+      "phrases": [
+        {
+          "en": "moving the fingers and leaving something through a performance are different achievements",
+          "ja": "指を動かすことと演奏で何かを残すことは別の達成",
+          "note": "動名詞2つが主語。",
+          "pattern": "動名詞の主語"
+        }
+      ]
+    },
+    {
+      "words": {
+        "music": {
+          "ja": "音楽"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "end": {
+          "ja": "終わる"
+        },
+        "where": {
+          "ja": "〜するところで"
+        },
+        "technique": {
+          "ja": "技術"
+        },
+        "reaches": {
+          "ja": "達する"
+        },
+        "its limit": {
+          "ja": "その限界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not end where technique reaches its limit",
+          "ja": "技術が限界に達したところで終わらない",
+          "note": "where「〜する所で」。",
+          "pattern": "where（接続詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "beyond": {
+          "ja": "〜の向こうに"
+        },
+        "mastery": {
+          "ja": "熟達"
+        },
+        "lies": {
+          "ja": "ある"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "open field of": {
+          "ja": "〜の開けた野"
+        },
+        "timing": {
+          "ja": "間（タイミング）"
+        },
+        "tone": {
+          "ja": "音色"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "notes": {
+          "ja": "音"
+        },
+        "deliberately": {
+          "ja": "わざと"
+        },
+        "left unplayed": {
+          "ja": "弾かずに残された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Beyond mastery lies an open field",
+          "ja": "熟達の向こうに開けた野が広がる",
+          "note": "lies は lie（ある）の三単現。主語は an open field。",
+          "pattern": "場所句 + lies + 主語（倒置）"
+        },
+        {
+          "en": "notes deliberately left unplayed",
+          "ja": "わざと弾かずに残した音",
+          "note": "notes はここで「音符・音」。",
+          "pattern": "leave A 形容詞（過去分詞）"
+        }
+      ]
+    }
+  ],
+  "DE-20260915-002": [
+    {
+      "words": {
+        "people say that": {
+          "ja": "〜と言われる"
+        },
+        "ai": {
+          "ja": "AI"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "produce": {
+          "ja": "作る"
+        },
+        "a good song": {
+          "ja": "いい曲"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "give it no philosophy": {
+          "ja": "それに哲学を与えない"
+        },
+        "it": {
+          "ja": "それ（＝その曲）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "give it no philosophy",
+          "ja": "曲に哲学を与えない",
+          "note": "no＋名詞で「まったく〜ない」。",
+          "pattern": "give A no B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "what": {
+          "ja": "何を"
+        },
+        "does philosophy name": {
+          "ja": "哲学は名指すのか"
+        },
+        "here": {
+          "ja": "ここで"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what does philosophy name here",
+          "ja": "ここで「哲学」は何を指しているのか",
+          "note": "name は動詞「名指す」。",
+          "pattern": "name（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "deliberate thought": {
+          "ja": "熟慮"
+        },
+        "embedded intention": {
+          "ja": "埋め込まれた意図"
+        },
+        "or": {
+          "ja": "それとも"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "creator's": {
+          "ja": "作り手の"
+        },
+        "life": {
+          "ja": "人生"
+        },
+        "standing behind": {
+          "ja": "〜の背後にある"
+        },
+        "the work": {
+          "ja": "作品"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a creator's life standing behind the work",
+          "ja": "作品の背後にある作者の人生",
+          "note": "standing 以下が life を修飾。",
+          "pattern": "名詞 + -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "word": {
+          "ja": "言葉"
+        },
+        "grows too powerful": {
+          "ja": "強くなりすぎる"
+        },
+        "the verdict": {
+          "ja": "判決"
+        },
+        "arrives": {
+          "ja": "届く"
+        },
+        "before": {
+          "ja": "〜より前に"
+        },
+        "anyone": {
+          "ja": "誰かが"
+        },
+        "identifies": {
+          "ja": "特定する"
+        },
+        "the missing condition": {
+          "ja": "欠けている条件"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the verdict arrives before anyone identifies the missing condition",
+          "ja": "欠けた条件を誰かが特定する前に判決が下る",
+          "note": "grow＋形容詞「〜になる」。",
+          "pattern": "before 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "does": {
+          "ja": "〜するのか"
+        },
+        "chance": {
+          "ja": "偶然"
+        },
+        "erase": {
+          "ja": "消す"
+        },
+        "philosophy": {
+          "ja": "哲学"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Does chance erase philosophy?",
+          "ja": "偶然は哲学を消すのか",
+          "note": "chance はここで「偶然」。",
+          "pattern": "疑問文"
+        }
+      ]
+    },
+    {
+      "words": {
+        "does": {
+          "ja": "〜するのか"
+        },
+        "complete control": {
+          "ja": "完全な制御"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "it": {
+          "ja": "それ（＝哲学）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Does complete control guarantee it?",
+          "ja": "完全な制御は哲学を保証するのか",
+          "note": "前の問いと対。",
+          "pattern": "疑問文"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the heavy label": {
+          "ja": "重い呼び名"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "less singular": {
+          "ja": "一つのものではなくなる"
+        },
+        "each time": {
+          "ja": "〜するたびに"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "open": {
+          "ja": "開く"
+        },
+        "it": {
+          "ja": "それ（＝呼び名）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "becomes less singular each time we open it",
+          "ja": "開くたびに単一のものではなくなる",
+          "note": "singular「単一の」。each time「〜するたびに」。",
+          "pattern": "each time 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260915-003": [
+    {
+      "words": {
+        "jazz improvisation": {
+          "ja": "ジャズの即興"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "assign": {
+          "ja": "割り当てる"
+        },
+        "every note": {
+          "ja": "すべての音"
+        },
+        "in advance": {
+          "ja": "前もって"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not assign every note in advance",
+          "ja": "すべての音を前もって決めはしない",
+          "note": "in advance「事前に」。",
+          "pattern": "in advance"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the player": {
+          "ja": "演奏者"
+        },
+        "still": {
+          "ja": "それでも"
+        },
+        "chooses": {
+          "ja": "選ぶ"
+        },
+        "within": {
+          "ja": "〜の範囲内で"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "chord progression": {
+          "ja": "コード進行"
+        },
+        "mode": {
+          "ja": "モード（旋法）"
+        },
+        "pulse": {
+          "ja": "拍"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the sounds": {
+          "ja": "音"
+        },
+        "made by": {
+          "ja": "〜が出した"
+        },
+        "others": {
+          "ja": "ほかの奏者"
+        }
+      },
+      "phrases": [
+        {
+          "en": "chooses within a chord progression, a mode, a pulse, and the sounds made by others",
+          "ja": "コード進行・モード・拍・他者の音の範囲で選ぶ",
+          "note": "made by 以下が sounds を修飾。",
+          "pattern": "within 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "unpredictability": {
+          "ja": "予測できないこと"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "disorder": {
+          "ja": "無秩序"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Unpredictability is not the same as disorder",
+          "ja": "予測できないことは無秩序とは違う",
+          "note": "即興の本質。",
+          "pattern": "the same as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "preserving": {
+          "ja": "保つこと"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "undecided space": {
+          "ja": "決まっていない余地"
+        },
+        "requires": {
+          "ja": "必要とする"
+        },
+        "deciding": {
+          "ja": "決めること"
+        },
+        "where": {
+          "ja": "どこに"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "boundaries": {
+          "ja": "境界"
+        },
+        "lie": {
+          "ja": "ある"
+        }
+      },
+      "phrases": [
+        {
+          "en": "requires deciding where its boundaries lie",
+          "ja": "境界がどこにあるかを決める必要がある",
+          "note": "lie「（〜に）ある」。",
+          "pattern": "require -ing / lie"
+        }
+      ]
+    },
+    {
+      "words": {
+        "chance": {
+          "ja": "偶然"
+        },
+        "need not": {
+          "ja": "〜する必要はない"
+        },
+        "oppose": {
+          "ja": "対立する"
+        },
+        "design": {
+          "ja": "設計"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Chance need not oppose design",
+          "ja": "偶然は設計と対立しなくてよい",
+          "note": "次のチャンクへ続く。",
+          "pattern": "need not"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝偶然）"
+        },
+        "can be": {
+          "ja": "〜でありうる"
+        },
+        "a guest": {
+          "ja": "客"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "design": {
+          "ja": "設計が"
+        },
+        "deliberately": {
+          "ja": "意図して"
+        },
+        "admits": {
+          "ja": "迎え入れる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a guest that design deliberately admits",
+          "ja": "設計がわざと招き入れる客",
+          "note": "admit はここで「入れる」（認めるではない）。",
+          "pattern": "admit（招き入れる）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "apparent randomness": {
+          "ja": "見かけのランダムさ"
+        },
+        "retains": {
+          "ja": "保つ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "frame": {
+          "ja": "枠"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "includes": {
+          "ja": "含む"
+        },
+        "some possibilities": {
+          "ja": "ある可能性"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "excludes": {
+          "ja": "除く"
+        },
+        "others": {
+          "ja": "ほかの可能性"
+        }
+      },
+      "phrases": [
+        {
+          "en": "includes some possibilities and excludes others",
+          "ja": "ある可能性を含み、ほかを除く",
+          "note": "apparent「見かけの」。",
+          "pattern": "some ... others"
+        }
+      ]
+    }
+  ],
+  "DE-20260915-004": [
+    {
+      "words": {
+        "ai-generated music": {
+          "ja": "AIが作った音楽"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "leaves": {
+          "ja": "残す"
+        },
+        "notes": {
+          "ja": "音"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "no creator": {
+          "ja": "どの作者も〜ない"
+        },
+        "places": {
+          "ja": "置く"
+        },
+        "by hand": {
+          "ja": "手で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "notes that no creator places by hand",
+          "ja": "どの作者も手で置かない音",
+          "note": "places は動詞「置く」。",
+          "pattern": "by hand"
+        }
+      ]
+    },
+    {
+      "words": {
+        "around": {
+          "ja": "〜の周りに"
+        },
+        "that open space": {
+          "ja": "その空白"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "stand": {
+          "ja": "立っている"
+        },
+        "prompts": {
+          "ja": "プロンプト（指示文）"
+        },
+        "learned forms": {
+          "ja": "学習された形式"
+        },
+        "generation settings": {
+          "ja": "生成の設定"
+        },
+        "acts of": {
+          "ja": "〜の行為"
+        },
+        "selection": {
+          "ja": "選ぶこと"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "rejection": {
+          "ja": "退けること"
+        },
+        "the context of": {
+          "ja": "〜の文脈"
+        },
+        "release": {
+          "ja": "公開"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Around that open space, however, stand prompts",
+          "ja": "その空白の周りには、プロンプトなどが立っている",
+          "note": "主語は prompts 以下で、動詞 stand が前に出ている。",
+          "pattern": "場所句 + stand + 主語（倒置）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "randomness": {
+          "ja": "ランダムさ"
+        },
+        "in the output": {
+          "ja": "出力の中の"
+        },
+        "does not mean": {
+          "ja": "意味しない"
+        },
+        "an absence of": {
+          "ja": "〜がないこと"
+        },
+        "choice": {
+          "ja": "選択"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not mean an absence of choice",
+          "ja": "選択がないことを意味しない",
+          "note": "output はここで「出力」。",
+          "pattern": "absence of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "the rule": {
+          "ja": "規則"
+        },
+        "that": {
+          "ja": "（同格）〜という"
+        },
+        "music": {
+          "ja": "音楽"
+        },
+        "needs no": {
+          "ja": "必要としない"
+        },
+        "philosophy": {
+          "ja": "哲学"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "a philosophy of": {
+          "ja": "〜の哲学"
+        },
+        "design": {
+          "ja": "設計"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the rule that music needs no philosophy",
+          "ja": "音楽に哲学はいらないという規則",
+          "note": "that 以下が rule の中身。",
+          "pattern": "同格の that"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the useful question": {
+          "ja": "役に立つ問い"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "a human": {
+          "ja": "人間が"
+        },
+        "touched": {
+          "ja": "触れた"
+        },
+        "every note": {
+          "ja": "すべての音"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not whether a human touched every note",
+          "ja": "人間がすべての音に触れたかではない",
+          "note": "次のチャンクの but へ続く。",
+          "pattern": "whether 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "そうではなく"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "was left open": {
+          "ja": "未決のまま残されたか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "but what was left open",
+          "ja": "何が開いたまま残されたか",
+          "note": "受け身 was left。",
+          "pattern": "leave A open"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そして"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "accepts responsibility for": {
+          "ja": "〜の責任を引き受けるか"
+        },
+        "the result": {
+          "ja": "結果"
+        }
+      },
+      "phrases": [
+        {
+          "en": "who accepts responsibility for the result",
+          "ja": "誰が結果の責任を引き受けるか",
+          "note": "前チャンクとあわせて not A but B and C。",
+          "pattern": "accept responsibility for 〜"
+        }
+      ]
+    }
   ]
 }
