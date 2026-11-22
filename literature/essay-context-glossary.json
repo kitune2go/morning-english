@@ -25002,5 +25002,644 @@
         }
       ]
     }
+  ],
+  "DE-20261002-001": [
+    {
+      "words": {
+        "the promise": {
+          "ja": "約束"
+        },
+        "behind": {
+          "ja": "〜の裏にある"
+        },
+        "three years on a stone": {
+          "ja": "石の上にも三年"
+        },
+        "is that": {
+          "ja": "〜ということだ"
+        },
+        "endurance": {
+          "ja": "耐えること"
+        },
+        "will eventually": {
+          "ja": "いずれは〜するだろう"
+        },
+        "bring": {
+          "ja": "もたらす"
+        },
+        "a turn": {
+          "ja": "順番"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the promise behind “three years on a stone” is that endurance will eventually bring a turn",
+          "ja": "「石の上にも三年」の裏の約束は、耐えればいずれ順番が来るということだ",
+          "note": "that 節が補語。turn はここで「順番」。",
+          "pattern": "the 名詞 is that 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "senior people": {
+          "ja": "年長者・先輩"
+        },
+        "keep their seats": {
+          "ja": "席に居座る"
+        },
+        "no exit rule": {
+          "ja": "退く決まりがない"
+        },
+        "exists": {
+          "ja": "存在する"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "age": {
+          "ja": "年齢"
+        },
+        "itself": {
+          "ja": "それ自体が"
+        },
+        "grants": {
+          "ja": "与える"
+        },
+        "authority": {
+          "ja": "権限"
+        },
+        "waiting": {
+          "ja": "待つこと"
+        },
+        "produces": {
+          "ja": "生み出す"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "more waiting": {
+          "ja": "さらなる待ち"
+        }
+      },
+      "phrases": [
+        {
+          "en": "waiting produces only more waiting",
+          "ja": "待つことがさらなる待ちを生むだけ",
+          "note": "動名詞 waiting が主語。",
+          "pattern": "produce 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "aging society": {
+          "ja": "高齢化する社会"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "automatically": {
+          "ja": "自動的に"
+        },
+        "transfer": {
+          "ja": "渡す"
+        },
+        "roles": {
+          "ja": "役割"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "newcomers": {
+          "ja": "新しく来た人"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not automatically transfer roles to newcomers",
+          "ja": "新しい人に自動的に役割を渡すわけではない",
+          "note": "transfer はここで「渡す」（送金ではない）。",
+          "pattern": "transfer A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "before": {
+          "ja": "〜する前に"
+        },
+        "praising": {
+          "ja": "褒めること"
+        },
+        "patience": {
+          "ja": "忍耐"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "should": {
+          "ja": "〜すべきだ"
+        },
+        "ask": {
+          "ja": "問う"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "must": {
+          "ja": "〜しなければならないか"
+        },
+        "yield": {
+          "ja": "譲る"
+        },
+        "when": {
+          "ja": "いつ"
+        },
+        "succession": {
+          "ja": "代替わり"
+        },
+        "begins": {
+          "ja": "始まるか"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "how": {
+          "ja": "どうやって"
+        },
+        "the next person": {
+          "ja": "次の人"
+        },
+        "is allowed to": {
+          "ja": "〜することを許されるか"
+        },
+        "enter": {
+          "ja": "入る"
+        }
+      },
+      "phrases": [
+        {
+          "en": "who must yield, when succession begins, and how the next person is allowed to enter",
+          "ja": "誰が譲り、いつ交代が始まり、次の人がどう入れるか",
+          "note": "間接疑問を3つ並べる。",
+          "pattern": "疑問詞節の並列"
+        }
+      ]
+    }
+  ],
+  "DE-20261002-002": [
+    {
+      "words": {
+        "sometimes": {
+          "ja": "ときには"
+        },
+        "the only way out of": {
+          "ja": "〜から抜け出す唯一の方法"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "waiting line": {
+          "ja": "待ち行列"
+        },
+        "is to": {
+          "ja": "〜することだ"
+        },
+        "step sideways": {
+          "ja": "横へ一歩出る"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the only way out of a waiting line is to step sideways",
+          "ja": "行列を抜ける唯一の方法は横に一歩出ることだ",
+          "note": "way out of「〜からの出口」。",
+          "pattern": "the way out of 〜 / be to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "going": {
+          "ja": "行くこと"
+        },
+        "alone": {
+          "ja": "一人で"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "bowling alley": {
+          "ja": "ボウリング場"
+        },
+        "after": {
+          "ja": "〜の後で"
+        },
+        "depression": {
+          "ja": "うつ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "renting": {
+          "ja": "借りること"
+        },
+        "lane": {
+          "ja": "レーン"
+        },
+        "for five games": {
+          "ja": "5ゲーム分"
+        },
+        "requires": {
+          "ja": "必要とする"
+        },
+        "neither": {
+          "ja": "〜も…もない"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "invitation": {
+          "ja": "誘い"
+        },
+        "nor": {
+          "ja": "〜も"
+        },
+        "group schedule": {
+          "ja": "集団の予定"
+        }
+      },
+      "phrases": [
+        {
+          "en": "requires neither an invitation nor a group schedule",
+          "ja": "誘いも集団の予定もいらない",
+          "note": "neither A nor B「AもBも〜ない」。",
+          "pattern": "neither A nor B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the score": {
+          "ja": "スコア"
+        },
+        "may be": {
+          "ja": "〜かもしれない"
+        },
+        "modest": {
+          "ja": "ほどほどの"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "each throw": {
+          "ja": "一投ごと"
+        },
+        "produces": {
+          "ja": "生む"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "visible result": {
+          "ja": "見える結果"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "returns": {
+          "ja": "戻す"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "your own hands": {
+          "ja": "自分自身の手"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The score may be modest, but each throw produces a visible result",
+          "ja": "スコアはほどほどでも、一投ごとに結果が見える",
+          "note": "譲歩の may。modest はここで「控えめな（数値）」。",
+          "pattern": "may 〜, but ..."
+        },
+        {
+          "en": "returns time to your own hands",
+          "ja": "時間を自分の手に戻す",
+          "note": "自分で時間を使える感覚。",
+          "pattern": "return A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "solitude": {
+          "ja": "一人の時間"
+        },
+        "here": {
+          "ja": "ここでの"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "celebration of": {
+          "ja": "〜の賛美"
+        },
+        "isolation": {
+          "ja": "孤立"
+        },
+        "it": {
+          "ja": "それ（＝ここでの一人の時間）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the skill of": {
+          "ja": "〜する技術"
+        },
+        "building": {
+          "ja": "作ること"
+        },
+        "small place for": {
+          "ja": "〜のための小さな場所"
+        },
+        "play": {
+          "ja": "遊び"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "recovery": {
+          "ja": "回復"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "the common seats": {
+          "ja": "みんなの席"
+        },
+        "remain occupied": {
+          "ja": "埋まったままである"
+        }
+      },
+      "phrases": [
+        {
+          "en": "when the common seats remain occupied",
+          "ja": "共有の席が埋まったままのとき",
+          "note": "occupied「使用中の」。",
+          "pattern": "remain 過去分詞"
+        },
+        {
+          "en": "is not a celebration of isolation; it is the skill of building a small place",
+          "ja": "孤立の賛美ではなく、小さな場所を作る技術だ",
+          "note": "solitude（自分で選んだ一人）と isolation（孤立）の区別。",
+          "pattern": "not A; B"
+        }
+      ]
+    }
+  ],
+  "DE-20261002-003": [
+    {
+      "words": {
+        "large societies": {
+          "ja": "大きな社会"
+        },
+        "need": {
+          "ja": "必要とする"
+        },
+        "ways to": {
+          "ja": "〜する方法"
+        },
+        "settle": {
+          "ja": "解決する"
+        },
+        "disputes": {
+          "ja": "争い"
+        },
+        "among": {
+          "ja": "〜の間の"
+        },
+        "strangers": {
+          "ja": "見知らぬ者同士"
+        }
+      },
+      "phrases": [
+        {
+          "en": "need ways to settle disputes among strangers",
+          "ja": "見知らぬ者同士の争いを収める方法が要る",
+          "note": "settle「（争いを）解決する」。",
+          "pattern": "ways to 動詞 / settle a dispute"
+        }
+      ]
+    },
+    {
+      "words": {
+        "gods": {
+          "ja": "神々"
+        },
+        "kings": {
+          "ja": "王"
+        },
+        "states": {
+          "ja": "国家"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "laws": {
+          "ja": "法"
+        },
+        "have all carried": {
+          "ja": "どれも運んできた"
+        },
+        "norms": {
+          "ja": "規範"
+        },
+        "beyond the reach of": {
+          "ja": "〜の届かないところまで"
+        },
+        "face-to-face communities": {
+          "ja": "顔見知りの共同体"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carried norms beyond the reach of face-to-face communities",
+          "ja": "顔見知りの共同体の手が届かない所まで規範を運んだ",
+          "note": "reach「届く範囲」。",
+          "pattern": "beyond the reach of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "social media": {
+          "ja": "SNS"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "preserves": {
+          "ja": "保つ"
+        },
+        "the speed": {
+          "ja": "速さ"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "sharpness": {
+          "ja": "鋭さ"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "village gossip": {
+          "ja": "村のうわさ話"
+        },
+        "while": {
+          "ja": "〜しながら"
+        },
+        "shedding": {
+          "ja": "脱ぎ捨てること"
+        },
+        "the restraint": {
+          "ja": "抑制"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "comes from": {
+          "ja": "〜から生まれる"
+        },
+        "having to": {
+          "ja": "〜しなければならないこと"
+        },
+        "live together": {
+          "ja": "一緒に暮らす"
+        },
+        "afterward": {
+          "ja": "その後も"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the restraint that comes from having to live together afterward",
+          "ja": "その後も一緒に暮らさねばならないことから来る抑制",
+          "note": "shed「（殻や毛を）落とす・捨てる」。",
+          "pattern": "come from -ing / have to"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "community": {
+          "ja": "共同体"
+        },
+        "with no exit": {
+          "ja": "出口のない"
+        },
+        "is oppressive": {
+          "ja": "息苦しい・抑圧的だ"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "world": {
+          "ja": "世界"
+        },
+        "made only of": {
+          "ja": "〜だけでできた"
+        },
+        "exits": {
+          "ja": "出口"
+        },
+        "is lonely": {
+          "ja": "孤独だ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a world made only of exits is lonely",
+          "ja": "出口だけでできた世界は孤独だ",
+          "note": "made of「〜でできた」。",
+          "pattern": "made of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "need": {
+          "ja": "必要とする"
+        },
+        "rules": {
+          "ja": "規則"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "move": {
+          "ja": "動く"
+        },
+        "more slowly than": {
+          "ja": "〜よりゆっくり"
+        },
+        "rumor": {
+          "ja": "うわさ"
+        },
+        "and still": {
+          "ja": "それでいて"
+        },
+        "let": {
+          "ja": "〜させる"
+        },
+        "strangers": {
+          "ja": "見知らぬ人"
+        },
+        "object": {
+          "ja": "異議を唱える"
+        },
+        "without surrendering": {
+          "ja": "手放さずに"
+        },
+        "distance": {
+          "ja": "距離"
+        }
+      },
+      "phrases": [
+        {
+          "en": "let strangers object without surrendering distance",
+          "ja": "見知らぬ人に距離を保ったまま異議を言わせる",
+          "note": "object はここで動詞「異議を唱える」（「物」ではない）。",
+          "pattern": "let A 動詞"
+        }
+      ]
+    }
   ]
 }
