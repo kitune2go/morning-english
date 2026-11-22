@@ -4157,55 +4157,136 @@
   "DE-20261102-001": [
     {
       "words": {
-        "idle": {
-          "ja": "待機中の"
+        "the idle pose": {
+          "ja": "待機ポーズ"
         },
-        "cycle": {
-          "ja": "一連の動作周期"
+        "and": {
+          "ja": "と"
         },
-        "switches": {
-          "ja": "切り替わる"
+        "the walking cycle": {
+          "ja": "歩行の一周期"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "each": {
+          "ja": "それぞれ"
+        },
+        "look correct": {
+          "ja": "正しく見える"
+        },
+        "on their own": {
+          "ja": "単独では"
+        },
+        "yet": {
+          "ja": "それでも"
+        },
+        "the character": {
+          "ja": "キャラクター"
+        },
+        "may still": {
+          "ja": "それでも〜することがある"
+        },
+        "jump": {
+          "ja": "飛ぶ（位置がずれる）"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "the animation": {
+          "ja": "アニメーション"
+        },
+        "switches between": {
+          "ja": "〜の間で切り替わる"
+        },
+        "them": {
+          "ja": "それら（＝待機と歩行）"
         }
       },
       "phrases": [
         {
-          "en": "look correct on their own",
+          "en": "can each look correct on their own",
           "ja": "それぞれ単独では正しく見える",
-          "note": "on their own は「単独で」"
+          "note": "on their own「それだけで」。",
+          "pattern": "on one's own"
         }
       ]
     },
     {
       "words": {
-        "transition": {
-          "ja": "動作の継ぎ目"
+        "the real problem": {
+          "ja": "本当の問題"
         },
-        "baseline": {
-          "ja": "共通の位置基準"
+        "lies in": {
+          "ja": "〜にある"
+        },
+        "the transition": {
+          "ja": "切り替わり"
+        },
+        "the feet": {
+          "ja": "足元"
+        },
+        "scale": {
+          "ja": "大きさ"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "color": {
+          "ja": "色"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "share": {
+          "ja": "共有する"
+        },
+        "the same baseline": {
+          "ja": "同じ基準線"
         }
       },
       "phrases": [
         {
-          "en": "lies in the transition",
-          "ja": "問題は継ぎ目にある",
-          "note": "lie in は原因・本質の所在を示す"
+          "en": "The real problem lies in the transition",
+          "ja": "本当の問題は切り替わりにある",
+          "note": "コロン以下が問題の中身。",
+          "pattern": "lie in 〜"
         }
       ]
     },
     {
       "words": {
         "frames": {
-          "ja": "アニメーションの各コマ"
+          "ja": "コマ"
         },
-        "judgment": {
-          "ja": "補正のための判断"
+        "fixing": {
+          "ja": "直すこと"
+        },
+        "more than": {
+          "ja": "〜を超える"
+        },
+        "a hundred": {
+          "ja": "百の"
+        },
+        "by hand": {
+          "ja": "手作業で"
+        },
+        "would only": {
+          "ja": "〜するだけだろう"
+        },
+        "repeat": {
+          "ja": "繰り返す"
+        },
+        "the same judgment": {
+          "ja": "同じ判断"
         }
       },
       "phrases": [
         {
-          "en": "repeat the same judgment",
-          "ja": "同じ判断を繰り返す",
-          "note": "手作業の反復性を示す"
+          "en": "would only repeat the same judgment",
+          "ja": "同じ判断を繰り返すだけになる",
+          "note": "would は仮定「もし〜すれば」。",
+          "pattern": "would only 〜"
         }
       ]
     },
@@ -4214,35 +4295,76 @@
         "alignment": {
           "ja": "位置合わせ"
         },
-        "pipeline": {
-          "ja": "制作工程全体"
+        "and": {
+          "ja": "と"
+        },
+        "color correction": {
+          "ja": "色補正"
+        },
+        "belong in": {
+          "ja": "〜に組み込むべきだ"
+        },
+        "the pipeline": {
+          "ja": "制作工程"
+        },
+        "should be automated": {
+          "ja": "自動化されるべきだ"
         }
       },
       "phrases": [
         {
           "en": "belong in the pipeline",
-          "ja": "工程に組み込むべきである",
-          "note": "belong in は適切な配置先を示す"
+          "ja": "工程に入れるべきもの",
+          "note": "belong in「本来〜にあるべきだ」。",
+          "pattern": "belong in 〜"
         }
       ]
     },
     {
       "words": {
-        "smooth": {
-          "ja": "滑らかな"
+        "smooth motion": {
+          "ja": "滑らかな動き"
         },
-        "reliable": {
-          "ja": "信頼できる"
+        "is created": {
+          "ja": "生まれる"
         },
-        "handing": {
-          "ja": "受け渡すこと"
+        "less by": {
+          "ja": "〜によってというより"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "beautiful": {
+          "ja": "美しい"
+        },
+        "key frame": {
+          "ja": "キーフレーム（要の一枚）"
+        },
+        "than by": {
+          "ja": "…によって"
+        },
+        "reliable rules": {
+          "ja": "確かな規則"
+        },
+        "for handing": {
+          "ja": "渡すための"
+        },
+        "one frame": {
+          "ja": "あるコマ"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "the next": {
+          "ja": "次のコマ"
         }
       },
       "phrases": [
         {
           "en": "less by a beautiful key frame than by reliable rules",
-          "ja": "美しい一枚より信頼できる規則によって",
-          "note": "less by A than by B の比較"
+          "ja": "美しい一枚より、確かな規則によって",
+          "note": "less A than B「AよりむしろB」。",
+          "pattern": "less by A than by B"
         }
       ]
     }
@@ -4253,101 +4375,241 @@
         "farming": {
           "ja": "農業"
         },
-        "president's": {
-          "ja": "社長の・代表者の"
-        }
-      },
-      "phrases": [
-        {
-          "en": "becomes the whole story",
-          "ja": "物語のすべてとして扱われる",
-          "note": "become は評価上の変化を表す"
-        }
-      ]
-    },
-    {
-      "words": {
-        "capital": {
-          "ja": "開始資金"
+        "when": {
+          "ja": "〜とき"
         },
-        "successors": {
-          "ja": "農地の後継者"
+        "is turned into": {
+          "ja": "〜に変えられる"
         },
-        "operation": {
-          "ja": "日々の事業運営"
-        },
-        "entrusted": {
-          "ja": "託した・委ねた"
-        },
-        "venture": {
-          "ja": "農業の事業・新しい事業体"
-        }
-      },
-      "phrases": [
-        {
-          "en": "keep the operation running",
-          "ja": "事業を動かし続ける",
-          "note": "keep O -ing は継続を表す"
-        }
-      ]
-    },
-    {
-      "words": {
-        "individual": {
-          "ja": "一人の個人"
-        },
-        "perform": {
-          "ja": "担う・遂行する"
-        }
-      },
-      "phrases": [
-        {
-          "en": "be present everywhere",
-          "ja": "あらゆる場所に居合わせる",
-          "note": "一人の身体的限界を示す"
-        }
-      ]
-    },
-    {
-      "words": {
-        "durable": {
-          "ja": "長く続く"
-        },
-        "enterprise": {
+        "a business": {
           "ja": "事業"
         },
-        "carry": {
-          "ja": "次へ受け渡す"
+        "the company president's": {
+          "ja": "社長の"
         },
-        "owner": {
-          "ja": "所有者"
+        "decision": {
+          "ja": "決断"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "the whole story": {
+          "ja": "話のすべて"
         }
       },
       "phrases": [
         {
-          "en": "across people and time",
-          "ja": "人と時間を越えて",
-          "note": "承継の範囲を示す"
+          "en": "When farming is turned into a business",
+          "ja": "農業が事業にされるとき",
+          "note": "受け身。",
+          "pattern": "turn A into B"
         }
       ]
     },
     {
       "words": {
-        "credit": {
-          "ja": "功績・手柄"
+        "successors": {
+          "ja": "後継者"
         },
-        "sustain": {
-          "ja": "支え続ける"
+        "entrusted": {
+          "ja": "託した"
         },
-        "succession": {
-          "ja": "事業承継"
+        "that story": {
+          "ja": "その話"
+        },
+        "is incomplete": {
+          "ja": "不完全だ"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "someone else": {
+          "ja": "別の誰か"
+        },
+        "supplied": {
+          "ja": "出した"
+        },
+        "the capital": {
+          "ja": "資金"
+        },
+        "farmers": {
+          "ja": "農家"
+        },
+        "without": {
+          "ja": "〜のいない"
+        },
+        "their land": {
+          "ja": "自分たちの土地"
+        },
+        "to": {
+          "ja": "〜に"
+        },
+        "the venture": {
+          "ja": "その事業"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "local workers": {
+          "ja": "地元の働き手"
+        },
+        "keep the operation running": {
+          "ja": "運営を回し続けている"
         }
       },
       "phrases": [
         {
-          "en": "not merely courtesy",
-          "ja": "単なる礼儀ではない",
-          "note": "not merely で役割を拡張する"
+          "en": "entrusted their land to the venture",
+          "ja": "土地を事業に託した",
+          "note": "entrust A to B「AをBに託す」。",
+          "pattern": "entrust A to B"
+        },
+        {
+          "en": "keep the operation running",
+          "ja": "運営を回し続ける",
+          "note": "keep＋目的語＋-ing「Aを〜させ続ける」。",
+          "pattern": "keep A -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "perform": {
+          "ja": "こなす"
+        },
+        "no individual": {
+          "ja": "どんな個人も〜ない"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "be present": {
+          "ja": "いる"
+        },
+        "everywhere": {
+          "ja": "あらゆる場所に"
+        },
+        "or": {
+          "ja": "も"
+        },
+        "every task": {
+          "ja": "すべての仕事"
+        }
+      },
+      "phrases": [
+        {
+          "en": "No individual can be present everywhere or perform every task",
+          "ja": "誰もあらゆる場所にいて全部をこなすことはできない",
+          "note": "no＋名詞＋or で全否定。",
+          "pattern": "no 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "durable enterprise": {
+          "ja": "長続きする事業"
+        },
+        "therefore": {
+          "ja": "だから"
+        },
+        "needs": {
+          "ja": "必要とする"
+        },
+        "more than": {
+          "ja": "〜以上のもの"
+        },
+        "heroic owner": {
+          "ja": "英雄的な経営者"
+        },
+        "it": {
+          "ja": "それ（＝長続きする事業）"
+        },
+        "system": {
+          "ja": "仕組み"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜できる"
+        },
+        "can carry": {
+          "ja": "引き継げる"
+        },
+        "land": {
+          "ja": "土地"
+        },
+        "money": {
+          "ja": "資金"
+        },
+        "labor": {
+          "ja": "労働"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "knowledge": {
+          "ja": "知識"
+        },
+        "across": {
+          "ja": "〜を越えて"
+        },
+        "people": {
+          "ja": "人"
+        },
+        "time": {
+          "ja": "時間"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carry land, money, labor, and knowledge across people and time",
+          "ja": "土地や知識を人と時を越えて引き継ぐ",
+          "note": "across「〜をまたいで」。",
+          "pattern": "carry A across B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "sustain": {
+          "ja": "支える"
+        },
+        "giving credit to": {
+          "ja": "〜に功績を認めること"
+        },
+        "the people who": {
+          "ja": "〜する人々"
+        },
+        "the work": {
+          "ja": "仕事"
+        },
+        "is not merely": {
+          "ja": "単なる〜ではない"
+        },
+        "courtesy": {
+          "ja": "礼儀"
+        },
+        "it": {
+          "ja": "それ（＝功績を認めること）"
+        },
+        "is part of": {
+          "ja": "〜の一部である"
+        },
+        "succession planning": {
+          "ja": "事業承継の計画"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Giving credit to the people who sustain the work",
+          "ja": "仕事を支える人に功績を認めること",
+          "note": "give credit to「〜の手柄を認める」。",
+          "pattern": "give credit to 〜"
         }
       ]
     }
@@ -4356,106 +4618,243 @@
     {
       "words": {
         "promotion": {
-          "ja": "作品や出演者の宣伝"
+          "ja": "宣伝"
         },
-        "paid": {
-          "ja": "料金を支払う形式の"
+        "is not out of place": {
+          "ja": "場違いではない"
+        },
+        "at": {
+          "ja": "〜で"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "paid event": {
+          "ja": "有料イベント"
         }
       },
       "phrases": [
         {
-          "en": "not out of place",
-          "ja": "場違いではない",
-          "note": "全面否定を避ける表現"
+          "en": "is not out of place at a paid event",
+          "ja": "有料イベントでの宣伝は場違いではない",
+          "note": "out of place「場違いな」。",
+          "pattern": "out of place"
         }
       ]
     },
     {
       "words": {
-        "balance": {
-          "ja": "参加者と宣伝の均衡"
-        },
         "keepsake": {
-          "ja": "参加者自身の記念品"
-        },
-        "campaign": {
-          "ja": "次の宣伝活動"
-        },
-        "handwritten": {
-          "ja": "手書きの"
-        },
-        "messages": {
-          "ja": "寄せ書きのメッセージ"
+          "ja": "記念品"
         },
         "attendees": {
-          "ja": "イベント参加者"
+          "ja": "参加者"
         },
-        "trip": {
-          "ja": "旅行・ツアー"
+        "the balance": {
+          "ja": "つり合い"
+        },
+        "changes": {
+          "ja": "変わる"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "a collection of": {
+          "ja": "〜を集めたもの（寄せ書き）"
+        },
+        "handwritten messages": {
+          "ja": "手書きのメッセージ"
+        },
+        "presented by": {
+          "ja": "〜が贈った"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "photographs": {
+          "ja": "写真"
+        },
+        "taken together": {
+          "ja": "一緒に撮った"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "material for": {
+          "ja": "〜の素材"
+        },
+        "the performer's": {
+          "ja": "出演者の"
+        },
+        "next campaign": {
+          "ja": "次の宣伝"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "the participants": {
+          "ja": "参加者"
+        },
+        "themselves": {
+          "ja": "自身は"
+        },
+        "receive no": {
+          "ja": "何も受け取らない"
+        },
+        "from": {
+          "ja": "〜の"
+        },
+        "the trip": {
+          "ja": "旅"
         }
       },
       "phrases": [
         {
-          "en": "receive no keepsake from the trip",
-          "ja": "その旅の記念品を受け取れない",
-          "note": "of their own は参加者への帰属を強調"
+          "en": "handwritten messages presented by attendees and photographs taken together",
+          "ja": "参加者が贈った寄せ書きと一緒に撮った写真",
+          "note": "presented／taken がそれぞれ前の名詞を修飾。",
+          "pattern": "名詞 + 過去分詞"
         }
       ]
     },
     {
       "words": {
         "publicity": {
-          "ja": "日常的に行える告知"
+          "ja": "告知"
         },
         "displace": {
-          "ja": "本来の時間を押しのける"
+          "ja": "押しのける"
         },
-        "purchased": {
-          "ja": "料金によって買われた"
+        "that": {
+          "ja": "（関係代名詞）〜できる"
+        },
+        "could happen": {
+          "ja": "行える"
+        },
+        "any day": {
+          "ja": "いつでも"
+        },
+        "should not": {
+          "ja": "〜すべきでない"
+        },
+        "the time": {
+          "ja": "時間"
+        },
+        "purchased by": {
+          "ja": "〜が買った"
+        },
+        "the people in the room": {
+          "ja": "会場にいる人々"
         }
       },
       "phrases": [
         {
-          "en": "the time purchased by the people in the room",
-          "ja": "会場の人々が料金を払って得た時間",
-          "note": "時間をイベントの商品として表す"
+          "en": "should not displace the time purchased by the people in the room",
+          "ja": "会場の人が買った時間を押しのけるべきでない",
+          "note": "purchased 以下が time を修飾。",
+          "pattern": "名詞 + 過去分詞"
         }
       ]
     },
     {
       "words": {
-        "guests": {
-          "ja": "料金を払った参加者"
-        },
         "scenery": {
-          "ja": "広告を飾る背景"
+          "ja": "背景"
+        },
+        "if it does": {
+          "ja": "もしそうするなら（＝押しのけるなら）"
+        },
+        "paying guests": {
+          "ja": "料金を払った客"
+        },
+        "are reduced to": {
+          "ja": "〜に成り下がる"
+        },
+        "for": {
+          "ja": "〜のための"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "advertisement": {
+          "ja": "広告"
         }
       },
       "phrases": [
         {
-          "en": "reduced to scenery",
-          "ja": "背景へと矮小化される",
-          "note": "reduce A to B の受動態"
+          "en": "If it does",
+          "ja": "もしそうするなら",
+          "note": "does は前文の displace the time を指す。",
+          "pattern": "代動詞 does"
+        },
+        {
+          "en": "are reduced to scenery for an advertisement",
+          "ja": "広告の背景に成り下がる",
+          "note": "reduce A to B「AをBにおとしめる」。",
+          "pattern": "be reduced to 〜"
         }
       ]
     },
     {
       "words": {
-        "onstage": {
-          "ja": "舞台上の"
-        },
-        "occasion": {
-          "ja": "その催し"
-        },
         "attention": {
-          "ja": "観客が差し出した注意"
+          "ja": "注意"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "event": {
+          "ja": "催し"
+        },
+        "is not completed by": {
+          "ja": "〜によって完成するのではない"
+        },
+        "the person onstage": {
+          "ja": "舞台上の人"
+        },
+        "it": {
+          "ja": "それ（＝催し）"
+        },
+        "is completed by": {
+          "ja": "〜によって完成する"
+        },
+        "what": {
+          "ja": "〜するもの"
+        },
+        "the occasion": {
+          "ja": "その場"
+        },
+        "gives back to": {
+          "ja": "〜に返す"
+        },
+        "those who": {
+          "ja": "〜した人々"
+        },
+        "brought": {
+          "ja": "持ってきた"
+        },
+        "their": {
+          "ja": "自分たちの"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "money": {
+          "ja": "お金"
         }
       },
       "phrases": [
         {
-          "en": "gives back to those who brought their time, attention, and money",
-          "ja": "時間・注意・金銭を持ち寄った人へ返す",
-          "note": "give back で参加者への還元を表す"
+          "en": "what the occasion gives back to those who brought their time",
+          "ja": "時間などを持ち寄った人にその場が返すもの",
+          "note": "what「〜するもの」。",
+          "pattern": "give back to 〜 / those who 〜"
         }
       ]
     }
