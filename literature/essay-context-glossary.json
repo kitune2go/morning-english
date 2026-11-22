@@ -25641,5 +25641,599 @@
         }
       ]
     }
+  ],
+  "DE-20261001-001": [
+    {
+      "words": {
+        "the last mile": {
+          "ja": "ラストワンマイル（最後の配送区間）"
+        },
+        "was meant to": {
+          "ja": "〜するためのものだった"
+        },
+        "name": {
+          "ja": "名付ける"
+        },
+        "the inconvenience": {
+          "ja": "不便"
+        },
+        "between": {
+          "ja": "〜の間の"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "service": {
+          "ja": "サービス"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "the person": {
+          "ja": "人"
+        },
+        "it": {
+          "ja": "それ（＝サービス）"
+        },
+        "should reach": {
+          "ja": "届くべき"
+        }
+      },
+      "phrases": [
+        {
+          "en": "was meant to name the inconvenience between a service and the person it should reach",
+          "ja": "サービスと届くべき人の間の不便を名付けるためのものだった",
+          "note": "person の後に関係代名詞が省略。",
+          "pattern": "be meant to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "speed": {
+          "ja": "速さ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "volume": {
+          "ja": "件数（量）"
+        },
+        "become targets": {
+          "ja": "目標になる"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "the metric": {
+          "ja": "指標"
+        },
+        "stops reflecting": {
+          "ja": "反映しなくなる"
+        },
+        "benefit": {
+          "ja": "便益"
+        },
+        "starts commanding": {
+          "ja": "命令し始める"
+        },
+        "labor": {
+          "ja": "労働"
+        }
+      },
+      "phrases": [
+        {
+          "en": "stops reflecting benefit and starts commanding labor",
+          "ja": "便益を映すのをやめ、労働に命じ始める",
+          "note": "volume はここで「量」（音量ではない）。",
+          "pattern": "stop -ing / start -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the measured distance": {
+          "ja": "測られる距離"
+        },
+        "shrinks": {
+          "ja": "縮む"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "waiting": {
+          "ja": "待ち時間"
+        },
+        "redelivery": {
+          "ja": "再配達"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "exhaustion": {
+          "ja": "疲労"
+        },
+        "move off": {
+          "ja": "〜から外れる"
+        },
+        "the ledger": {
+          "ja": "帳簿"
+        }
+      },
+      "phrases": [
+        {
+          "en": "move off the ledger",
+          "ja": "帳簿の外へ出ていく",
+          "note": "off「〜から離れて」。",
+          "pattern": "move off 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "useful indicator": {
+          "ja": "役に立つ指標"
+        },
+        "never": {
+          "ja": "決して〜ない"
+        },
+        "replaces": {
+          "ja": "取って代わる"
+        },
+        "the outcome": {
+          "ja": "成果"
+        },
+        "it": {
+          "ja": "それ（＝役に立つ指標）"
+        },
+        "asks": {
+          "ja": "問う"
+        },
+        "whose life": {
+          "ja": "誰の暮らしが"
+        },
+        "actually": {
+          "ja": "本当に"
+        },
+        "became easier": {
+          "ja": "楽になったか"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "the number": {
+          "ja": "数字"
+        },
+        "improved": {
+          "ja": "良くなった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "asks whose life actually became easier when the number improved",
+          "ja": "数字が良くなったとき誰の暮らしが本当に楽になったかを問う",
+          "note": "whose「誰の」。",
+          "pattern": "whose 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20261001-002": [
+    {
+      "words": {
+        "psychological language": {
+          "ja": "心理学の言葉"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "travels": {
+          "ja": "広まる"
+        },
+        "through": {
+          "ja": "〜を通じて"
+        },
+        "convenient labels": {
+          "ja": "便利なラベル"
+        }
+      },
+      "phrases": [
+        {
+          "en": "travels through convenient labels",
+          "ja": "便利なラベルを通じて広まる",
+          "note": "travel「（言葉が）広まる」。",
+          "pattern": "travel through 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "trait": {
+          "ja": "特性"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "determine": {
+          "ja": "決める"
+        },
+        "life": {
+          "ja": "人生"
+        },
+        "by itself": {
+          "ja": "それだけで"
+        },
+        "its": {
+          "ja": "その（＝特性の）"
+        },
+        "effects": {
+          "ja": "影響"
+        },
+        "depend on": {
+          "ja": "〜に左右される"
+        },
+        "the environment": {
+          "ja": "環境"
+        },
+        "around it": {
+          "ja": "その周りの"
+        },
+        "it": {
+          "ja": "それ（＝特性）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not determine a life by itself",
+          "ja": "それだけで人生を決めはしない",
+          "note": "by itself「それ単独で」。",
+          "pattern": "by itself"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "fashionable terms": {
+          "ja": "流行りの用語"
+        },
+        "promise": {
+          "ja": "約束する"
+        },
+        "explanations": {
+          "ja": "説明"
+        },
+        "too quickly": {
+          "ja": "早すぎるほどに"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "blurred": {
+          "ja": "ぼんやりした"
+        },
+        "tendency": {
+          "ja": "傾向"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "harden into": {
+          "ja": "固まって〜になる"
+        },
+        "personal defect": {
+          "ja": "個人の欠陥"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "moral accusation": {
+          "ja": "道徳的な非難"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can harden into a personal defect or a moral accusation",
+          "ja": "固まって個人の欠陥や非難になりうる",
+          "note": "harden into「固まって〜に変わる」。",
+          "pattern": "harden into 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "before": {
+          "ja": "〜する前に"
+        },
+        "deciding": {
+          "ja": "決めること"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "response": {
+          "ja": "対応"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "accommodation": {
+          "ja": "配慮（合理的配慮）"
+        },
+        "or": {
+          "ja": "か"
+        },
+        "discrimination": {
+          "ja": "差別"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "should": {
+          "ja": "〜すべきだ"
+        },
+        "ask": {
+          "ja": "問う"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "is obstructed": {
+          "ja": "妨げられているか"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "it": {
+          "ja": "それ（＝妨げ）"
+        },
+        "happens": {
+          "ja": "起きるか"
+        },
+        "changing": {
+          "ja": "変えること"
+        },
+        "the setting": {
+          "ja": "環境"
+        },
+        "changes": {
+          "ja": "変える"
+        },
+        "the difficulty": {
+          "ja": "困難"
+        }
+      },
+      "phrases": [
+        {
+          "en": "whether changing the setting changes the difficulty",
+          "ja": "環境を変えると困難が変わるかどうか",
+          "note": "accommodation はここで「（障害などへの）配慮」。",
+          "pattern": "動名詞の主語"
+        }
+      ]
+    }
+  ],
+  "DE-20261001-003": [
+    {
+      "words": {
+        "labor systems": {
+          "ja": "雇用の仕組み"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "shift": {
+          "ja": "押しやる"
+        },
+        "economic volatility": {
+          "ja": "景気の変動"
+        },
+        "onto": {
+          "ja": "〜の上へ"
+        },
+        "insecure workers": {
+          "ja": "不安定な立場の働き手"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "public language": {
+          "ja": "世間の言葉"
+        },
+        "later": {
+          "ja": "後になって"
+        },
+        "compresses": {
+          "ja": "押し縮める"
+        },
+        "the result": {
+          "ja": "結果"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "generational label": {
+          "ja": "世代のラベル"
+        }
+      },
+      "phrases": [
+        {
+          "en": "shift economic volatility onto insecure workers",
+          "ja": "景気の変動を不安定な働き手に押しつける",
+          "note": "onto「〜の上へ」。",
+          "pattern": "shift A onto B"
+        },
+        {
+          "en": "compresses the result into a generational label",
+          "ja": "結果を世代名に押し縮める",
+          "note": "「〇〇世代」のような呼び名。",
+          "pattern": "compress A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "such names": {
+          "ja": "そうした呼び名"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "open": {
+          "ja": "始める"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "discussion": {
+          "ja": "議論"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "they": {
+          "ja": "それら（＝呼び名）"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "preserve": {
+          "ja": "残す"
+        },
+        "the choices": {
+          "ja": "選択肢"
+        },
+        "each person": {
+          "ja": "一人ひとりが"
+        },
+        "lost": {
+          "ja": "失った"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the choices each person lost",
+          "ja": "一人ひとりが失った選択肢",
+          "note": "choices の後に関係代名詞が省略。",
+          "pattern": "名詞 + (that) 主語 + 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "history": {
+          "ja": "歴史"
+        },
+        "records": {
+          "ja": "記録する"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "legends": {
+          "ja": "伝説"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "winners": {
+          "ja": "勝者"
+        },
+        "ordinary lives": {
+          "ja": "普通の暮らし"
+        },
+        "disappear": {
+          "ja": "消える"
+        },
+        "behind": {
+          "ja": "〜の陰に"
+        },
+        "the statistics": {
+          "ja": "統計"
+        }
+      },
+      "phrases": [
+        {
+          "en": "ordinary lives disappear behind the statistics",
+          "ja": "普通の暮らしが統計の陰に消える",
+          "note": "lives は life の複数形「暮らし」。",
+          "pattern": "behind 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "need": {
+          "ja": "必要とする"
+        },
+        "fewer": {
+          "ja": "より少ない"
+        },
+        "new labels": {
+          "ja": "新しいラベル"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "better records of": {
+          "ja": "〜のよりよい記録"
+        },
+        "where": {
+          "ja": "どこへ"
+        },
+        "instability": {
+          "ja": "不安定さ"
+        },
+        "was sent": {
+          "ja": "送られたか"
+        },
+        "whose": {
+          "ja": "誰の"
+        },
+        "daily life": {
+          "ja": "日々の暮らしが"
+        },
+        "absorbed": {
+          "ja": "引き受けたか"
+        },
+        "the cost": {
+          "ja": "負担"
+        }
+      },
+      "phrases": [
+        {
+          "en": "better records of where instability was sent and whose daily life absorbed the cost",
+          "ja": "不安定さがどこへ送られ、誰の暮らしが負担を負ったかの記録",
+          "note": "fewer／better の比較級で対比。",
+          "pattern": "where／whose 節"
+        }
+      ]
+    }
   ]
 }
