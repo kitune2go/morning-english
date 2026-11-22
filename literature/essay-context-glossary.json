@@ -2,18 +2,6 @@
   "DE-20261023-001": [
     {
       "words": {
-        "raised": {
-          "ja": "声を荒らげた"
-        },
-        "voice": {
-          "ja": "怒鳴り声"
-        },
-        "chosen": {
-          "ja": "味方についた"
-        },
-        "side": {
-          "ja": "陣営"
-        },
         "whispered": {
           "ja": "ひそひそと語られた"
         },
@@ -23,33 +11,31 @@
         "organizational": {
           "ja": "組織上の"
         },
-        "turn": {
-          "ja": "変えてしまう"
-        },
         "personalities": {
           "ja": "人柄・人間関係"
+        },
+        "a raised voice": {
+          "ja": "荒げた声"
+        },
+        "a chosen side": {
+          "ja": "選んだ側（陣営）"
+        },
+        "can turn": {
+          "ja": "変えてしまいうる"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a story about": {
+          "ja": "〜についての話"
         }
       },
       "phrases": [
         {
-          "en": "A raised voice",
-          "ja": "誰かが声を荒らげたこと",
-          "note": "raised は voice を修飾する過去分詞"
-        },
-        {
-          "en": "a chosen side",
-          "ja": "どちらかの味方についたこと",
-          "note": "choose a side＝一方に加担する"
-        },
-        {
-          "en": "a whispered complaint",
-          "ja": "陰でささやかれた不満",
-          "note": "whispered は complaint を修飾"
-        },
-        {
-          "en": "turn an organizational problem into a story about personalities",
-          "ja": "組織の問題を人間関係の話に変える",
-          "note": "turn A into B＝AをBに変える"
+          "en": "can turn an organizational problem into a story about personalities",
+          "ja": "組織の問題を人柄の話に変えてしまう",
+          "note": "turn A into B「AをBに変える」。",
+          "pattern": "turn A into B"
         }
       ]
     },
@@ -58,35 +44,28 @@
         "faces": {
           "ja": "人の顔"
         },
-        "recognize": {
-          "ja": "見分ける"
-        },
         "frustration": {
           "ja": "不満"
         },
         "finds": {
           "ja": "結びつける相手を見つける"
         },
-        "someone": {
-          "ja": "特定の誰か"
+        "are easy to recognize": {
+          "ja": "見分けやすい"
         },
-        "attach": {
-          "ja": "結びつける"
+        "so": {
+          "ja": "だから"
         },
-        "itself": {
-          "ja": "不満それ自体"
+        "someone to attach itself to": {
+          "ja": "くっつく相手"
         }
       },
       "phrases": [
         {
-          "en": "easy to recognize",
-          "ja": "見分けやすい",
-          "note": "Faces は recognize の意味上の目的語"
-        },
-        {
-          "en": "frustration quickly finds someone to attach itself to",
-          "ja": "不満はすぐに結びつける相手を見つける",
-          "note": "不満の擬人化。attach A to B の前置詞 to が文末に残る"
+          "en": "finds someone to attach itself to",
+          "ja": "不満がくっつく相手を見つける",
+          "note": "文末の to は attach ... to の前置詞。",
+          "pattern": "attach oneself to 〜"
         }
       ]
     },
@@ -95,29 +74,25 @@
         "loudest": {
           "ja": "最も声が大きい"
         },
-        "necessarily": {
-          "ja": "必ずしも～とは限らない"
-        },
-        "source": {
-          "ja": "原因・発生源"
-        },
         "largest": {
           "ja": "最大の"
         },
         "defect": {
           "ja": "仕組みの欠陥"
+        },
+        "is not necessarily": {
+          "ja": "必ずしも〜ではない"
+        },
+        "the source of": {
+          "ja": "〜の原因"
         }
       },
       "phrases": [
         {
-          "en": "not necessarily",
-          "ja": "必ずしも～とは限らない",
-          "note": "全否定ではなく部分否定"
-        },
-        {
-          "en": "the source of the largest defect",
-          "ja": "最大の構造的欠陥の原因",
-          "note": "defect は製品不良でなく組織の仕組みの不備"
+          "en": "is not necessarily the source of the largest defect",
+          "ja": "必ずしも最大の欠陥の原因ではない",
+          "note": "部分否定。",
+          "pattern": "not necessarily"
         }
       ]
     },
@@ -125,9 +100,6 @@
       "words": {
         "explanation": {
           "ja": "問題の説明"
-        },
-        "shrinks": {
-          "ja": "（説明が）狭まる"
         },
         "character": {
           "ja": "性格"
@@ -138,39 +110,25 @@
         "tasks": {
           "ja": "仕事の工程"
         },
-        "borders": {
-          "ja": "境界"
-        },
         "responsibility": {
           "ja": "責任範囲"
         },
-        "fade": {
-          "ja": "徐々に見えなくなる"
+        "shrinks to": {
+          "ja": "〜にまで縮む"
         },
-        "sight": {
-          "ja": "認識・視界"
+        "fade from sight": {
+          "ja": "見えなくなる"
+        },
+        "the borders of": {
+          "ja": "〜の境界"
         }
       },
       "phrases": [
         {
-          "en": "shrinks to someone's character",
-          "ja": "誰かの性格の問題に矮小化される",
-          "note": "shrink to＝～へ縮小される。受動態ではない"
-        },
-        {
-          "en": "the sequence of tasks",
-          "ja": "仕事・工程の順序",
-          "note": "sequence は前後関係のある並び"
-        },
-        {
-          "en": "the borders of responsibility",
-          "ja": "責任分担の境界",
-          "note": "border は国境でなく業務上の境界"
-        },
-        {
-          "en": "fade from sight",
-          "ja": "説明から見えなくなっていく",
-          "note": "fade は徐々に薄れるという比喩"
+          "en": "the sequence of tasks and the borders of responsibility fade from sight",
+          "ja": "作業の順序や責任の境界が見えなくなる",
+          "note": "fade「薄れる」。",
+          "pattern": "fade from sight"
         }
       ]
     }
@@ -188,20 +146,24 @@
           "ja": "通路"
         },
         "whose": {
-          "ja": "その通路の"
+          "ja": "その〜が"
         },
         "boundaries": {
           "ja": "歩車の境界"
         },
-        "marked": {
-          "ja": "線で示された"
+        "may": {
+          "ja": "〜ことがある"
+        },
+        "have never been marked": {
+          "ja": "一度も示されたことがない"
         }
       },
       "phrases": [
         {
-          "en": "whose boundaries have never been marked",
-          "ja": "境界が一度も示されていない",
-          "note": "whose で passage を修飾。現在完了受動態"
+          "en": "a passage whose boundaries have never been marked",
+          "ja": "境界が一度も引かれたことのない通路",
+          "note": "whose「その〜が」。",
+          "pattern": "whose 〜"
         }
       ]
     },
@@ -213,12 +175,6 @@
         "directions": {
           "ja": "指示の来る複数方面"
         },
-        "leaving": {
-          "ja": "結果として～させる"
-        },
-        "worker": {
-          "ja": "現場の作業者"
-        },
         "invent": {
           "ja": "その場で作る"
         },
@@ -226,45 +182,51 @@
           "ja": "優先順位"
         },
         "management": {
-          "ja": "管理側"
+          "ja": "管理する側"
         },
         "defined": {
           "ja": "規定した"
+        },
+        "arrive from": {
+          "ja": "〜から来る"
+        },
+        "leaving the worker to": {
+          "ja": "作業者に〜させることになる"
         }
       },
       "phrases": [
         {
           "en": "leaving the worker to invent a priority",
-          "ja": "現場に優先順位を考えさせることになる",
-          "note": "結果を表す分詞構文"
+          "ja": "作業者に優先順位を作らせることになる",
+          "note": "leave A to「Aに〜を任せる（押しつける）」。",
+          "pattern": "leave A to 動詞"
         }
       ]
     },
     {
       "words": {
-        "wrong": {
-          "ja": "問題が起こる"
-        },
         "attention": {
           "ja": "追及の目"
         },
-        "falls": {
-          "ja": "（注意が）向く"
-        },
         "acted": {
           "ja": "行動した"
+        },
+        "goes wrong": {
+          "ja": "うまくいかなくなる"
+        },
+        "falls on": {
+          "ja": "〜に向く"
+        },
+        "the last person who": {
+          "ja": "最後に〜した人"
         }
       },
       "phrases": [
         {
-          "en": "something goes wrong",
-          "ja": "何か問題が起こる",
-          "note": "go wrong＝うまくいかなくなる"
-        },
-        {
-          "en": "attention often falls on",
-          "ja": "注目・追及が向かいやすい",
-          "note": "fall on は落下でなく注目の向き先"
+          "en": "attention often falls on the last person who acted",
+          "ja": "最後に動いた人に目が向きがち",
+          "note": "go wrong「問題が起きる」。",
+          "pattern": "fall on 〜"
         }
       ]
     },
@@ -287,13 +249,20 @@
         },
         "authority": {
           "ja": "権限"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "on its own": {
+          "ja": "それだけで"
         }
       },
       "phrases": [
         {
-          "en": "on its own",
-          "ja": "それ単独では",
-          "note": "個人の注意力だけでは設備と権限を補えない"
+          "en": "cannot paint missing lines or distribute authority on its own",
+          "ja": "それだけでは線を引くことも権限を配ることもできない",
+          "note": "on its own「それ単独で」。",
+          "pattern": "on its own"
         }
       ]
     },
@@ -305,18 +274,22 @@
         "defect": {
           "ja": "設計上の欠陥"
         },
-        "human": {
-          "ja": "人間の"
+        "may have": {
+          "ja": "〜かもしれない"
         },
-        "face": {
-          "ja": "個人の顔（比喩）"
+        "no human face": {
+          "ja": "人の顔を持たない"
+        },
+        "at all": {
+          "ja": "まったく"
         }
       },
       "phrases": [
         {
-          "en": "no human face at all",
-          "ja": "個人の顔を持たない",
-          "note": "at all は no を強調する"
+          "en": "may have no human face at all",
+          "ja": "そもそも人の顔などないことがある",
+          "note": "at all で否定を強める。",
+          "pattern": "no 〜 at all"
         }
       ]
     }
@@ -331,20 +304,33 @@
           "ja": "職場"
         },
         "confuse": {
-          "ja": "混同する"
+          "ja": "取り違える"
         },
         "departure": {
           "ja": "退職・離脱"
         },
         "solution": {
           "ja": "解決"
+        },
+        "after years of": {
+          "ja": "何年も〜した後"
+        },
+        "may begin to": {
+          "ja": "〜し始めることがある"
+        },
+        "their": {
+          "ja": "その人の"
+        },
+        "with": {
+          "ja": "〜と"
         }
       },
       "phrases": [
         {
           "en": "confuse their departure with a solution",
-          "ja": "その人が去ることを解決と混同する",
-          "note": "confuse A with B＝AとBを取り違える"
+          "ja": "その人が去ることを解決と取り違える",
+          "note": "their は単数の「その人」を受ける。",
+          "pattern": "confuse A with B"
         }
       ]
     },
@@ -362,24 +348,31 @@
         "passage": {
           "ja": "通路"
         },
-        "speed": {
-          "ja": "早める"
-        },
         "supplies": {
           "ja": "資材の納入"
         },
         "clarify": {
           "ja": "明確にする"
         },
-        "authority": {
-          "ja": "決定権限"
+        "does not": {
+          "ja": "〜しない"
+        },
+        "speed up": {
+          "ja": "早める"
+        },
+        "who has the authority to": {
+          "ja": "誰が〜する権限を持つか"
+        },
+        "decide": {
+          "ja": "決める"
         }
       },
       "phrases": [
         {
-          "en": "speed up supplies",
-          "ja": "資材の納入を早める",
-          "note": "speed up＝速度を上げる。supplies はここでは資材"
+          "en": "does not widen a passage, speed up supplies, or clarify who has the authority to decide",
+          "ja": "通路も広げず、納入も早めず、権限も明らかにしない",
+          "note": "not＋or で全部否定。",
+          "pattern": "not A, B, or C"
         }
       ]
     },
@@ -388,27 +381,28 @@
         "replacing": {
           "ja": "人を交代させること"
         },
-        "open": {
-          "ja": "機会を生み出す"
-        },
-        "chance": {
-          "ja": "機会"
-        },
-        "redesign": {
-          "ja": "再設計する"
-        },
         "work": {
           "ja": "仕事の仕組み"
         },
-        "itself": {
-          "ja": "それそのもの"
+        "can open": {
+          "ja": "開きうる"
+        },
+        "a chance to": {
+          "ja": "〜する機会"
+        },
+        "it": {
+          "ja": "それ（＝人の交代）"
+        },
+        "is not redesign itself": {
+          "ja": "設計し直しそのものではない"
         }
       },
       "phrases": [
         {
-          "en": "not redesign itself",
-          "ja": "再設計を実行したことにはならない",
-          "note": "人事異動と仕組みの変更を区別している"
+          "en": "is not redesign itself",
+          "ja": "設計し直しそのものではない",
+          "note": "itself で「それ自体」を強調。",
+          "pattern": "名詞 + itself"
         }
       ]
     },
@@ -420,9 +414,6 @@
         "question": {
           "ja": "問い"
         },
-        "change": {
-          "ja": "仕組みを変える"
-        },
         "inherit": {
           "ja": "背負わされる"
         },
@@ -431,36 +422,47 @@
         },
         "choice": {
           "ja": "選択"
+        },
+        "what must change": {
+          "ja": "何が変わらなければならないか"
+        },
+        "so that": {
+          "ja": "〜するように"
+        },
+        "the same": {
+          "ja": "同じ"
         }
       },
       "phrases": [
         {
-          "en": "inherit the same impossible choice",
-          "ja": "同じ無理な選択を背負わされる",
-          "note": "inherit は相続でなく制度的負担を引き継ぐ比喩"
+          "en": "what must change so that the next worker does not inherit the same impossible choice",
+          "ja": "次の人が同じ無理な選択を受け継がないよう何を変えるべきか",
+          "note": "so that は目的。",
+          "pattern": "so that 〜"
         }
       ]
     },
     {
       "words": {
-        "only": {
-          "ja": "そのとき初めて"
-        },
-        "then": {
-          "ja": "そのとき"
-        },
         "lines": {
           "ja": "設計上の線"
         },
-        "drawn": {
-          "ja": "引かれた"
+        "only then": {
+          "ja": "そうして初めて"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "be drawn again": {
+          "ja": "引き直される"
         }
       },
       "phrases": [
         {
-          "en": "Only then can",
-          "ja": "そのとき初めて～できる",
-          "note": "Only then の前置による倒置。can が主語に先行"
+          "en": "Only then can the lines be drawn again",
+          "ja": "そうして初めて線を引き直せる",
+          "note": "only が文頭に出ると疑問文の語順になる。",
+          "pattern": "only then + 倒置"
         }
       ]
     }
