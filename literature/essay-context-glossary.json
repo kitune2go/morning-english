@@ -44554,5 +44554,868 @@
         }
       ]
     }
+  ],
+  "DE-20260814-001": [
+    {
+      "words": {
+        "unfamiliar words": {
+          "ja": "知らない単語"
+        },
+        "are not the only": {
+          "ja": "〜だけではない"
+        },
+        "barrier to": {
+          "ja": "〜を妨げる壁"
+        },
+        "understanding": {
+          "ja": "理解すること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "difficult": {
+          "ja": "難しい"
+        },
+        "english sentence": {
+          "ja": "英文"
+        }
+      },
+      "phrases": [
+        {
+          "en": "are not the only barrier to understanding a difficult English sentence",
+          "ja": "難しい英文を理解する壁は知らない単語だけではない",
+          "note": "to は前置詞なので後ろは動名詞。",
+          "pattern": "barrier to -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the whole arrangement": {
+          "ja": "並び全体"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "disappear": {
+          "ja": "見えなくなる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The whole arrangement can disappear",
+          "ja": "並び方全体が消えることがある",
+          "note": "コロン以下で中身を説明。",
+          "pattern": "arrangement"
+        }
+      ]
+    },
+    {
+      "words": {
+        "where": {
+          "ja": "どこで"
+        },
+        "the subject": {
+          "ja": "主語"
+        },
+        "begins": {
+          "ja": "始まるか"
+        },
+        "time": {
+          "ja": "時間（を表す語）"
+        },
+        "is placed": {
+          "ja": "置かれるか"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "which": {
+          "ja": "どの"
+        },
+        "clause": {
+          "ja": "節"
+        },
+        "explains": {
+          "ja": "説明するか"
+        },
+        "what": {
+          "ja": "何を"
+        }
+      },
+      "phrases": [
+        {
+          "en": "which clause explains what",
+          "ja": "どの節が何を説明しているか",
+          "note": "疑問詞を2つ使う間接疑問。subject はここで文法の「主語」。",
+          "pattern": "which ... what"
+        }
+      ]
+    },
+    {
+      "words": {
+        "replacing": {
+          "ja": "置き換えること"
+        },
+        "each word": {
+          "ja": "一語ずつ"
+        },
+        "with": {
+          "ja": "〜で"
+        },
+        "japanese": {
+          "ja": "日本語"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "restore": {
+          "ja": "元に戻す"
+        },
+        "the sentence's": {
+          "ja": "文の"
+        },
+        "frame": {
+          "ja": "骨組み"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Replacing each word with Japanese does not restore the sentence's frame",
+          "ja": "一語ずつ日本語にしても文の骨組みは戻らない",
+          "note": "replace A with B「AをBで置き換える」。",
+          "pattern": "replace A with B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the difficulty": {
+          "ja": "その難しさ"
+        },
+        "turned into": {
+          "ja": "〜に変わった"
+        },
+        "the metaphor of": {
+          "ja": "〜という比喩"
+        },
+        "hell": {
+          "ja": "地獄"
+        }
+      },
+      "phrases": [
+        {
+          "en": "turned into the metaphor of “hell”",
+          "ja": "「地獄」という比喩になった",
+          "note": "次のチャンクで理由。",
+          "pattern": "turn into 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "because": {
+          "ja": "〜なので"
+        },
+        "the order": {
+          "ja": "語順"
+        },
+        "had been lost": {
+          "ja": "見失われていた"
+        },
+        "before": {
+          "ja": "〜する前に"
+        },
+        "the meaning": {
+          "ja": "意味"
+        },
+        "could settle": {
+          "ja": "定まることができた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "because the order had been lost before the meaning could settle",
+          "ja": "意味が定まる前に語順を見失っていたから",
+          "note": "order はここで「語順」。",
+          "pattern": "過去完了の受け身"
+        }
+      ]
+    }
+  ],
+  "DE-20260814-002": [
+    {
+      "words": {
+        "so": {
+          "ja": "そこで"
+        },
+        "the sentence": {
+          "ja": "その文"
+        },
+        "was returned to": {
+          "ja": "〜へ戻された"
+        },
+        "smaller blocks": {
+          "ja": "より小さな塊"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the sentence was returned to smaller blocks",
+          "ja": "文はより小さな塊に戻された",
+          "note": "blocks「塊」。",
+          "pattern": "return A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "in the morning": {
+          "ja": "朝に"
+        },
+        "after work": {
+          "ja": "仕事の後で"
+        },
+        "last night": {
+          "ja": "昨夜"
+        },
+        "by noon": {
+          "ja": "正午までに"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "on weekends": {
+          "ja": "週末には"
+        }
+      },
+      "phrases": [
+        {
+          "en": "“in the morning,” “after work,” “last night,” “by noon,” and “on weekends.”",
+          "ja": "朝に・仕事の後・昨夜・正午までに・週末に",
+          "note": "by「〜までに」（期限）。",
+          "pattern": "時を表す前置詞句"
+        }
+      ]
+    },
+    {
+      "words": {
+        "one": {
+          "ja": "一つの"
+        },
+        "time phrase": {
+          "ja": "時間の句"
+        },
+        "was placed first": {
+          "ja": "最初に置かれた"
+        },
+        "followed by": {
+          "ja": "後に〜が続いて"
+        },
+        "a subject": {
+          "ja": "主語"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "an action": {
+          "ja": "動作"
+        },
+        "drinking coffee": {
+          "ja": "コーヒーを飲むこと"
+        },
+        "going home": {
+          "ja": "帰宅すること"
+        },
+        "watching a movie": {
+          "ja": "映画を見ること"
+        },
+        "already being tired": {
+          "ja": "もう疲れていること"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "sleeping a little longer": {
+          "ja": "もう少し長く眠ること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "was placed first, followed by a subject and an action",
+          "ja": "最初に置かれ、その後に主語と動作が続いた",
+          "note": "followed by「後に〜が続く」。",
+          "pattern": "followed by 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the exercise": {
+          "ja": "その練習"
+        },
+        "was not to": {
+          "ja": "〜することではなかった"
+        },
+        "memorize": {
+          "ja": "覚える"
+        },
+        "a long explanation": {
+          "ja": "長い説明"
+        }
+      },
+      "phrases": [
+        {
+          "en": "was not to memorize a long explanation",
+          "ja": "長い説明を覚えることではなかった",
+          "note": "exercise はここで「練習」。",
+          "pattern": "be not to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but to": {
+          "ja": "そうではなく〜することだった"
+        },
+        "arrange": {
+          "ja": "並べる"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "subject": {
+          "ja": "主語"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "action": {
+          "ja": "動作"
+        },
+        "in sequence": {
+          "ja": "順番に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "but to arrange time, subject, and action in sequence",
+          "ja": "時間・主語・動作を順に並べること",
+          "note": "not to A but to B。",
+          "pattern": "in sequence"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "chunk": {
+          "ja": "チャンク（意味の塊）"
+        },
+        "became": {
+          "ja": "〜になった"
+        },
+        "more than": {
+          "ja": "〜以上のもの"
+        },
+        "a unit of": {
+          "ja": "〜の単位"
+        },
+        "translation": {
+          "ja": "翻訳"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A chunk became more than a unit of translation",
+          "ja": "チャンクは翻訳の単位以上のものになった",
+          "note": "次のチャンクで言い換え。",
+          "pattern": "more than 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝チャンク）"
+        },
+        "became": {
+          "ja": "〜になった"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "foothold": {
+          "ja": "足がかり"
+        },
+        "from which": {
+          "ja": "そこから"
+        },
+        "the mouth": {
+          "ja": "口"
+        },
+        "could find": {
+          "ja": "見つけられた"
+        },
+        "the next words": {
+          "ja": "次の言葉"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a foothold from which the mouth could find the next words",
+          "ja": "口が次の言葉を見つける足がかり",
+          "note": "foothold「（岩場の）足場」。",
+          "pattern": "from which 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260814-003": [
+    {
+      "words": {
+        "in": {
+          "ja": "〜では"
+        },
+        "the longer sentence": {
+          "ja": "もっと長い文"
+        },
+        "the goal": {
+          "ja": "目標"
+        },
+        "was to say": {
+          "ja": "言うことだった"
+        },
+        "by the next day": {
+          "ja": "翌日までに"
+        },
+        "i": {
+          "ja": "私は"
+        },
+        "had already forgotten": {
+          "ja": "もう忘れていた"
+        },
+        "about it": {
+          "ja": "それについて"
+        }
+      },
+      "phrases": [
+        {
+          "en": "By the next day, I had already forgotten about it",
+          "ja": "翌日までに私はもうそれを忘れていた",
+          "note": "過去のある時点までの完了。",
+          "pattern": "by + 時 / 過去完了"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the time phrase": {
+          "ja": "時間の句"
+        },
+        "subject": {
+          "ja": "主語"
+        },
+        "perfect form": {
+          "ja": "完了形"
+        },
+        "action": {
+          "ja": "動作"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "object": {
+          "ja": "目的語"
+        },
+        "had to be placed": {
+          "ja": "置かれなければならなかった"
+        },
+        "again and again": {
+          "ja": "何度も"
+        }
+      },
+      "phrases": [
+        {
+          "en": "had to be placed again and again",
+          "ja": "何度も置き直さねばならなかった",
+          "note": "object はここで文法の「目的語」。",
+          "pattern": "again and again"
+        }
+      ]
+    },
+    {
+      "words": {
+        "already": {
+          "ja": "already（もう）"
+        },
+        "would appear": {
+          "ja": "出てきた（過去の習慣）"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "forgotten": {
+          "ja": "forgotten"
+        },
+        "would not follow": {
+          "ja": "続いてこなかった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Already would appear, but forgotten would not follow",
+          "ja": "already は出ても forgotten が続かなかった",
+          "note": "would は「（よく）〜したものだ」。",
+          "pattern": "would（過去の反復）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "the word": {
+          "ja": "その単語"
+        },
+        "was written": {
+          "ja": "書かれた"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "extra letter": {
+          "ja": "余分な文字"
+        },
+        "slipped in": {
+          "ja": "紛れ込んだ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "an extra letter slipped in",
+          "ja": "余分な文字が紛れ込んだ",
+          "note": "letter はここで「文字」（手紙ではない）。",
+          "pattern": "slip in"
+        }
+      ]
+    },
+    {
+      "words": {
+        "each break": {
+          "ja": "それぞれの途切れ"
+        },
+        "became": {
+          "ja": "〜になった"
+        },
+        "a point of return": {
+          "ja": "戻る地点"
+        },
+        "until": {
+          "ja": "ついに〜するまで"
+        },
+        "about it": {
+          "ja": "about it（それについて）"
+        },
+        "finally": {
+          "ja": "最後に"
+        },
+        "joined": {
+          "ja": "加わった"
+        },
+        "the sentence": {
+          "ja": "文"
+        }
+      },
+      "phrases": [
+        {
+          "en": "until about it finally joined the sentence",
+          "ja": "about it がついに文に加わるまで",
+          "note": "break はここで「途切れ」。",
+          "pattern": "until 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "learning": {
+          "ja": "学ぶこと"
+        },
+        "how to": {
+          "ja": "〜する方法"
+        },
+        "speak of": {
+          "ja": "〜について話す"
+        },
+        "forgetting": {
+          "ja": "忘れること"
+        },
+        "required": {
+          "ja": "必要とした"
+        },
+        "along the way": {
+          "ja": "途中で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Learning how to speak of forgetting required forgetting along the way",
+          "ja": "忘れることを語る方法を学ぶには、途中で忘れることが必要だった",
+          "note": "同じ語を2回使う言葉遊び。",
+          "pattern": "how to 動詞 / along the way"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the mistakes": {
+          "ja": "間違い"
+        },
+        "marked": {
+          "ja": "示した"
+        },
+        "the location of": {
+          "ja": "〜の位置"
+        },
+        "the next": {
+          "ja": "次の"
+        },
+        "missing chunk": {
+          "ja": "欠けている塊"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The mistakes marked the location of the next missing chunk",
+          "ja": "間違いが次に欠けている塊の位置を示した",
+          "note": "mark「印を付ける・示す」。",
+          "pattern": "mark 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260814-004": [
+    {
+      "words": {
+        "what remained": {
+          "ja": "残ったもの"
+        },
+        "after": {
+          "ja": "〜の後に"
+        },
+        "the repetitions": {
+          "ja": "繰り返し"
+        },
+        "was": {
+          "ja": "〜だった"
+        },
+        "a doubt about": {
+          "ja": "〜への疑い"
+        },
+        "the rule": {
+          "ja": "規則"
+        },
+        "that": {
+          "ja": "（同格）〜という"
+        },
+        "a sentence": {
+          "ja": "文"
+        },
+        "must be completed": {
+          "ja": "完成していなければならない"
+        },
+        "in the mind": {
+          "ja": "頭の中で"
+        },
+        "before": {
+          "ja": "〜する前に"
+        },
+        "it": {
+          "ja": "それ（＝文）"
+        },
+        "is spoken": {
+          "ja": "話される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the rule that a sentence must be completed in the mind before it is spoken",
+          "ja": "文は話す前に頭の中で完成させるべきだという規則",
+          "note": "that 以下が rule の中身。",
+          "pattern": "同格の that"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "hesitation": {
+          "ja": "ためらい"
+        },
+        "searching for": {
+          "ja": "〜を探すこと"
+        },
+        "words": {
+          "ja": "言葉"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "self-correction": {
+          "ja": "言い直し"
+        },
+        "are all voiced": {
+          "ja": "すべて声に出される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "are all voiced",
+          "ja": "すべて声に出される",
+          "note": "voice はここで動詞「声に出す」。",
+          "pattern": "voice（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the hidden order": {
+          "ja": "隠れていた語順"
+        },
+        "returns": {
+          "ja": "戻ってくる"
+        },
+        "through": {
+          "ja": "〜を通って"
+        },
+        "the ear": {
+          "ja": "耳"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the hidden order returns through the ear",
+          "ja": "隠れた語順が耳から戻ってくる",
+          "note": "声に出すことで聞き取れる。",
+          "pattern": "through 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the voice": {
+          "ja": "声"
+        },
+        "is not only for": {
+          "ja": "〜のためだけではない"
+        },
+        "presenting": {
+          "ja": "示すこと"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "finished sentence": {
+          "ja": "完成した文"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not only for presenting a finished sentence",
+          "ja": "完成した文を示すためだけではない",
+          "note": "次のチャンクの also へ続く。",
+          "pattern": "not only for A"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝声）"
+        },
+        "is also": {
+          "ja": "〜でもある"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "tool for": {
+          "ja": "〜のための道具"
+        },
+        "hearing": {
+          "ja": "聞くこと"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "thought": {
+          "ja": "考え"
+        },
+        "stopped": {
+          "ja": "止まったか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a tool for hearing where thought stopped",
+          "ja": "考えがどこで止まったかを聞く道具",
+          "note": "thought はここで名詞「考え」。",
+          "pattern": "for -ing / where 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "sentence": {
+          "ja": "文"
+        },
+        "is not merely": {
+          "ja": "単に〜されるのではない"
+        },
+        "spoken": {
+          "ja": "話される"
+        },
+        "after": {
+          "ja": "〜した後で"
+        },
+        "it": {
+          "ja": "それ（＝文）"
+        },
+        "is understood": {
+          "ja": "理解される"
+        },
+        "is rearranged": {
+          "ja": "並べ直される"
+        },
+        "in the mouth": {
+          "ja": "口の中で"
+        },
+        "while": {
+          "ja": "〜している間に"
+        },
+        "understanding": {
+          "ja": "理解"
+        },
+        "is still taking shape": {
+          "ja": "まだ形になりつつある"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It is rearranged in the mouth while understanding is still taking shape",
+          "ja": "理解が形になる途中で口の中で並べ直される",
+          "note": "take shape「形になる」。",
+          "pattern": "take shape"
+        }
+      ]
+    }
   ]
 }
