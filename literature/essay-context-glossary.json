@@ -26235,5 +26235,587 @@
         }
       ]
     }
+  ],
+  "DE-20260930-001": [
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "psychological terms": {
+          "ja": "心理学の用語"
+        },
+        "become fashionable": {
+          "ja": "流行る"
+        },
+        "ordinary traits": {
+          "ja": "ありふれた性格"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "disappointments": {
+          "ja": "失望"
+        },
+        "quickly": {
+          "ja": "すぐに"
+        },
+        "acquire": {
+          "ja": "得る"
+        },
+        "diagnostic-sounding": {
+          "ja": "診断名のように聞こえる"
+        },
+        "names": {
+          "ja": "名前"
+        }
+      },
+      "phrases": [
+        {
+          "en": "acquire diagnostic-sounding names",
+          "ja": "診断名めいた名前を得る",
+          "note": "-sounding「〜のように聞こえる」。",
+          "pattern": "名詞-sounding"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "label": {
+          "ja": "ラベル"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "offer": {
+          "ja": "もたらす"
+        },
+        "genuine relief": {
+          "ja": "本物の安心"
+        },
+        "by giving": {
+          "ja": "与えることで"
+        },
+        "pain": {
+          "ja": "痛み・苦しみ"
+        },
+        "mirror": {
+          "ja": "鏡"
+        }
+      },
+      "phrases": [
+        {
+          "en": "by giving pain a mirror",
+          "ja": "苦しみに鏡を与えることで",
+          "note": "自分の状態を映して見せる、という比喩。",
+          "pattern": "give A B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "short viral post": {
+          "ja": "短いバズった投稿"
+        },
+        "may": {
+          "ja": "〜ことがある"
+        },
+        "stitch together": {
+          "ja": "縫い合わせる"
+        },
+        "concepts": {
+          "ja": "概念"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "come from": {
+          "ja": "〜から来る"
+        },
+        "different": {
+          "ja": "異なる"
+        },
+        "research traditions": {
+          "ja": "研究の流派"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "use": {
+          "ja": "使う"
+        },
+        "criteria": {
+          "ja": "基準"
+        }
+      },
+      "phrases": [
+        {
+          "en": "stitch together concepts that come from different research traditions",
+          "ja": "別の研究の流れから来た概念を縫い合わせる",
+          "note": "viral「拡散した」。",
+          "pattern": "stitch together"
+        }
+      ]
+    },
+    {
+      "words": {
+        "recognizing": {
+          "ja": "見いだすこと"
+        },
+        "yourself": {
+          "ja": "自分自身"
+        },
+        "in": {
+          "ja": "〜の中に"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "checklist": {
+          "ja": "チェックリスト"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "establishing": {
+          "ja": "確定すること"
+        },
+        "diagnosis": {
+          "ja": "診断"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not the same as establishing a diagnosis",
+          "ja": "診断を確定することと同じではない",
+          "note": "当てはまる≠診断。",
+          "pattern": "the same as 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260930-002": [
+    {
+      "words": {
+        "classifying": {
+          "ja": "分類すること"
+        },
+        "people": {
+          "ja": "人"
+        },
+        "is unlike": {
+          "ja": "〜とは違う"
+        },
+        "stones": {
+          "ja": "石"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Classifying people is unlike classifying stones",
+          "ja": "人の分類は石の分類とは違う",
+          "note": "unlike は前置詞「〜とは違って」。",
+          "pattern": "unlike 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "people": {
+          "ja": "人"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "read": {
+          "ja": "読む"
+        },
+        "the category": {
+          "ja": "分類"
+        },
+        "applied to": {
+          "ja": "〜に当てはめられた"
+        },
+        "them": {
+          "ja": "彼ら自身"
+        },
+        "reorganize": {
+          "ja": "組み直す"
+        },
+        "their": {
+          "ja": "自分の"
+        },
+        "memories": {
+          "ja": "記憶"
+        },
+        "around": {
+          "ja": "〜を軸に"
+        },
+        "it": {
+          "ja": "それ（＝分類）"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "learn": {
+          "ja": "知る"
+        },
+        "how": {
+          "ja": "どのように"
+        },
+        "others": {
+          "ja": "他の人が"
+        },
+        "use": {
+          "ja": "使う"
+        },
+        "the same name": {
+          "ja": "同じ名前"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the category applied to them",
+          "ja": "自分に当てはめられた分類",
+          "note": "applied 以下が category を修飾。",
+          "pattern": "名詞 + 過去分詞"
+        },
+        {
+          "en": "reorganize their memories around it",
+          "ja": "その分類を軸に記憶を組み直す",
+          "note": "around「〜を中心に」。",
+          "pattern": "A around B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "their": {
+          "ja": "彼らの"
+        },
+        "responses": {
+          "ja": "反応"
+        },
+        "then": {
+          "ja": "すると"
+        },
+        "alter": {
+          "ja": "変える"
+        },
+        "the evidence": {
+          "ja": "証拠"
+        },
+        "on which": {
+          "ja": "それに基づいて"
+        },
+        "the category": {
+          "ja": "分類が"
+        },
+        "rests": {
+          "ja": "成り立っている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the evidence on which the category rests",
+          "ja": "分類が拠って立つ証拠",
+          "note": "rest on「〜に基づく」。",
+          "pattern": "rest on 〜 / on which"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the concept": {
+          "ja": "概念"
+        },
+        "shapes": {
+          "ja": "形づくる"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "subjects": {
+          "ja": "対象となる人"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "the subjects": {
+          "ja": "対象の人々"
+        },
+        "reshape": {
+          "ja": "作り変える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The concept shapes its subjects, while the subjects reshape the concept",
+          "ja": "概念が人を形づくり、人も概念を作り変える",
+          "note": "ループ効果の説明。",
+          "pattern": "while（対比）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "forgetting": {
+          "ja": "忘れること"
+        },
+        "this loop": {
+          "ja": "この循環"
+        },
+        "makes": {
+          "ja": "〜させる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "recent description": {
+          "ja": "最近の説明"
+        },
+        "look like": {
+          "ja": "〜のように見える"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "ancient fact": {
+          "ja": "昔からの事実"
+        },
+        "hidden inside": {
+          "ja": "〜の内側に隠れた"
+        },
+        "the person": {
+          "ja": "その人"
+        }
+      },
+      "phrases": [
+        {
+          "en": "makes a recent description look like an ancient fact",
+          "ja": "新しい説明を昔からの事実のように見せる",
+          "note": "make＋目的語＋原形。",
+          "pattern": "make A 動詞 / look like 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260930-003": [
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "are skilled at": {
+          "ja": "〜が得意だ"
+        },
+        "drawing lines between": {
+          "ja": "〜の間に線を引くこと"
+        },
+        "distant events": {
+          "ja": "離れた出来事"
+        },
+        "childhood": {
+          "ja": "子ども時代"
+        },
+        "romance": {
+          "ja": "恋愛"
+        },
+        "exhaustion": {
+          "ja": "疲れ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "research finding": {
+          "ja": "研究結果"
+        },
+        "encountered online": {
+          "ja": "ネットで出会った"
+        }
+      },
+      "phrases": [
+        {
+          "en": "are skilled at drawing lines between distant events",
+          "ja": "離れた出来事を線で結ぶのが得意だ",
+          "note": "be skilled at「〜に熟達している」。",
+          "pattern": "be skilled at -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once arranged": {
+          "ja": "いったん並べられると"
+        },
+        "scattered tendencies": {
+          "ja": "ばらばらの傾向"
+        },
+        "begin to": {
+          "ja": "〜し始める"
+        },
+        "resemble": {
+          "ja": "似る"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "single": {
+          "ja": "一つの"
+        },
+        "causal story": {
+          "ja": "原因と結果の物語"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Once arranged",
+          "ja": "いったん並べられると",
+          "note": "Once (they are) arranged の省略。",
+          "pattern": "once + 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "narrative": {
+          "ja": "物語"
+        },
+        "helps us live with": {
+          "ja": "〜と共に生きる助けになる"
+        },
+        "us": {
+          "ja": "私たちが"
+        },
+        "complexity": {
+          "ja": "複雑さ"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "coherence": {
+          "ja": "筋が通っていること"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "evidence of": {
+          "ja": "〜の証拠"
+        },
+        "causation": {
+          "ja": "因果関係"
+        }
+      },
+      "phrases": [
+        {
+          "en": "helps us live with complexity",
+          "ja": "複雑さと付き合って生きる助けになる",
+          "note": "live with「〜を抱えて暮らす」。",
+          "pattern": "help A 動詞 / live with 〜"
+        },
+        {
+          "en": "coherence is not evidence of causation",
+          "ja": "筋が通っていても因果の証拠ではない",
+          "note": "coherence「一貫性」。",
+          "pattern": "evidence of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "do not have to": {
+          "ja": "〜する必要はない"
+        },
+        "reject": {
+          "ja": "退ける"
+        },
+        "every label": {
+          "ja": "すべてのラベル"
+        },
+        "or": {
+          "ja": "も"
+        },
+        "accept": {
+          "ja": "受け入れる"
+        },
+        "one": {
+          "ja": "どれか一つ（のラベル）"
+        },
+        "at once": {
+          "ja": "すぐに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "do not have to reject every label or accept one at once",
+          "ja": "全部退ける必要も、すぐ一つを受け入れる必要もない",
+          "note": "don't have to「〜しなくてよい」。",
+          "pattern": "don't have to"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "remember that": {
+          "ja": "〜を覚えている"
+        },
+        "someone": {
+          "ja": "誰か"
+        },
+        "drew the line": {
+          "ja": "線を引いた"
+        },
+        "the story": {
+          "ja": "物語"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "remain": {
+          "ja": "〜のままでいる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "revisable hypothesis": {
+          "ja": "修正できる仮説"
+        },
+        "rather than": {
+          "ja": "〜ではなく"
+        },
+        "a cage": {
+          "ja": "檻"
+        }
+      },
+      "phrases": [
+        {
+          "en": "remain a revisable hypothesis rather than a cage",
+          "ja": "檻ではなく修正できる仮説のままでいる",
+          "note": "rather than「〜ではなく」。",
+          "pattern": "A rather than B"
+        }
+      ]
+    }
   ]
 }
