@@ -3054,91 +3054,202 @@
   "DE-20261029-001": [
     {
       "words": {
-        "critique": {
-          "ja": "批評",
-          "pos": "語句",
-          "lemma": "critique",
-          "form": "",
-          "note": "critique：この作品では「批評」"
+        "sometimes": {
+          "ja": "ときに"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "long critique": {
+          "ja": "長い批評"
+        },
+        "changes": {
+          "ja": "変える"
+        },
+        "neither": {
+          "ja": "〜も…もない"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "target": {
+          "ja": "対象"
+        },
+        "nor": {
+          "ja": "〜も"
+        },
+        "the institution": {
+          "ja": "制度"
+        },
+        "around": {
+          "ja": "〜の周りの"
+        },
+        "it": {
+          "ja": "それ（＝対象）"
         }
       },
       "phrases": [
         {
-          "en": "Sometimes a long critique changes neither its target nor the institution around it.",
-          "ja": "長い批評が対象も周囲の制度も変えないことがある。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "changes neither its target nor the institution around it",
+          "ja": "対象も周りの制度も変えない",
+          "note": "neither A nor B「AもBも〜ない」。",
+          "pattern": "neither A nor B"
         }
       ]
     },
     {
       "words": {
-        "verdict": {
-          "ja": "断定",
-          "pos": "語句",
-          "lemma": "verdict",
-          "form": "",
-          "note": "verdict：この作品では「断定」"
+        "in": {
+          "ja": "〜の中で"
+        },
+        "that frustration": {
+          "ja": "そのいら立ち"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "blunt verdict": {
+          "ja": "ぶっきらぼうな断定"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "function": {
+          "ja": "働く"
+        },
+        "less as": {
+          "ja": "〜としてより"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "argument": {
+          "ja": "議論"
+        },
+        "than as": {
+          "ja": "…として"
+        },
+        "an emergency exit": {
+          "ja": "非常口"
+        },
+        "a signal to": {
+          "ja": "〜せよという合図"
+        },
+        "stop spending": {
+          "ja": "費やすのをやめる"
+        },
+        "attention": {
+          "ja": "注意"
         }
       },
       "phrases": [
         {
-          "en": "In that frustration, a blunt verdict can function less as an argument than as an emergency exit: a signal to stop spending attention.",
-          "ja": "その苛立ちの中で、率直な断定は議論より非常口、つまり注意を費やすのをやめる合図として働き得る。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "function less as an argument than as an emergency exit",
+          "ja": "議論としてより非常口として働く",
+          "note": "less A than B「AよりむしろB」。",
+          "pattern": "less as A than as B"
+        },
+        {
+          "en": "a signal to stop spending attention",
+          "ja": "注意を使うのをやめる合図",
+          "note": "stop＋-ing「〜するのをやめる」。",
+          "pattern": "stop -ing"
         }
       ]
     },
     {
       "words": {
         "blueprint": {
-          "ja": "設計図",
-          "pos": "語句",
-          "lemma": "blueprint",
-          "form": "",
-          "note": "blueprint：この作品では「設計図」"
+          "ja": "設計図"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "exit": {
+          "ja": "出口"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a": {
+          "ja": "ひとつの"
         }
       },
       "phrases": [
         {
-          "en": "Yet an exit is not a blueprint.",
-          "ja": "しかし出口は設計図ではない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "an exit is not a blueprint",
+          "ja": "出口は設計図ではない",
+          "note": "逃げ道と建て直しの案は別。",
+          "pattern": "A is not B"
         }
       ]
     },
     {
       "words": {
-        "judgment": {
-          "ja": "判断",
-          "pos": "語句",
-          "lemma": "judgment",
-          "form": "",
-          "note": "judgment：この作品では「判断」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "short judgment": {
+          "ja": "短い判断"
+        },
+        "may be": {
+          "ja": "〜であり得る"
+        },
+        "useful": {
+          "ja": "役に立つ"
+        },
+        "without being": {
+          "ja": "〜でなくても"
+        },
+        "sufficient explanation": {
+          "ja": "十分な説明"
         }
       },
       "phrases": [
         {
-          "en": "A short judgment may be useful without being a sufficient explanation.",
-          "ja": "短い判断は十分な説明でなくても有用であり得る。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "may be useful without being a sufficient explanation",
+          "ja": "十分な説明でなくても役に立ちうる",
+          "note": "without＋being「〜でなくても」。",
+          "pattern": "without being 〜"
         }
       ]
     },
     {
       "words": {
-        "structure": {
-          "ja": "構造",
-          "pos": "語句",
-          "lemma": "structure",
-          "form": "",
-          "note": "structure：この作品では「構造」"
+        "language": {
+          "ja": "言葉"
+        },
+        "that": {
+          "ja": "（同格）〜という"
+        },
+        "helps us withdraw": {
+          "ja": "私たちが退くのを助ける"
+        },
+        "should not be mistaken for": {
+          "ja": "〜と取り違えられるべきではない"
+        },
+        "evidence": {
+          "ja": "証拠"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "understand": {
+          "ja": "理解している"
+        },
+        "the structure": {
+          "ja": "構造"
         }
       },
       "phrases": [
         {
-          "en": "Language that helps us withdraw should not be mistaken for evidence that we understand the structure.",
-          "ja": "退く助けになる言葉を、構造を理解した証拠と取り違えてはならない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "should not be mistaken for evidence",
+          "ja": "証拠と取り違えてはならない",
+          "note": "mistake A for B「AをBと間違える」。",
+          "pattern": "mistake A for B"
         }
       ]
     }
@@ -3147,90 +3258,186 @@
     {
       "words": {
         "discipline": {
-          "ja": "規律",
-          "pos": "語句",
-          "lemma": "discipline",
-          "form": "",
-          "note": "discipline：この作品では「規律」"
+          "ja": "規律"
+        },
+        "making things": {
+          "ja": "ものづくり"
+        },
+        "does require": {
+          "ja": "確かに必要とする"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "not": {
+          "ja": "〜ではない"
+        },
+        "the kind that": {
+          "ja": "〜する種類のもの"
+        },
+        "silences": {
+          "ja": "黙らせる"
+        },
+        "people": {
+          "ja": "人"
         }
       },
       "phrases": [
         {
-          "en": "Making things does require discipline, but not the kind that silences people.",
-          "ja": "ものづくりには規律が必要だが、人を黙らせる種類のものではない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "does require discipline, but not the kind that silences people",
+          "ja": "規律は確かに要るが、人を黙らせる種類ではない",
+          "note": "does require で「確かに必要だ」と強調。",
+          "pattern": "強調の does / the kind that 〜"
         }
       ]
     },
     {
       "words": {
-        "rigor": {
-          "ja": "厳密さ",
-          "pos": "語句",
-          "lemma": "rigor",
-          "form": "",
-          "note": "rigor：この作品では「厳密さ」"
+        "real rigor": {
+          "ja": "本当の厳密さ"
+        },
+        "detects": {
+          "ja": "見つける"
+        },
+        "a bad dimension": {
+          "ja": "寸法不良"
+        },
+        "stops": {
+          "ja": "止める"
+        },
+        "an unsafe process": {
+          "ja": "危険な工程"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "makes": {
+          "ja": "〜にする"
+        },
+        "the result": {
+          "ja": "結果"
+        },
+        "reproducible": {
+          "ja": "再現できる"
         }
       },
       "phrases": [
         {
-          "en": "Real rigor detects a bad dimension, stops an unsafe process, and makes the result reproducible.",
-          "ja": "本当の厳密さは寸法不良を見つけ、危険な工程を止め、結果を再現可能にする。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "makes the result reproducible",
+          "ja": "結果を再現可能にする",
+          "note": "動詞3つで厳密さの働きを並べる。",
+          "pattern": "make A 形容詞"
         }
       ]
     },
     {
       "words": {
         "intimidation": {
-          "ja": "威圧",
-          "pos": "語句",
-          "lemma": "intimidation",
-          "form": "",
-          "note": "Intimidation：この作品では「威圧」"
+          "ja": "威圧"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "produce": {
+          "ja": "生む"
+        },
+        "fast replies": {
+          "ja": "素早い返事"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "temporary order": {
+          "ja": "一時的な秩序"
+        },
+        "whenever": {
+          "ja": "〜するときはいつでも"
+        },
+        "a supervisor": {
+          "ja": "監督者"
+        },
+        "is watching": {
+          "ja": "見ている"
         }
       },
       "phrases": [
         {
-          "en": "Intimidation may produce fast replies and temporary order whenever a supervisor is watching.",
-          "ja": "威圧は監督者が見ている間だけ、素早い返事と一時的な秩序を生むかもしれない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "whenever a supervisor is watching",
+          "ja": "監督者が見ているときだけは",
+          "note": "見ていないときには続かない、という含み。",
+          "pattern": "whenever 〜"
         }
       ]
     },
     {
       "words": {
         "defects": {
-          "ja": "不具合",
-          "pos": "語句",
-          "lemma": "defects",
-          "form": "",
-          "note": "defects：この作品では「不具合」"
+          "ja": "不具合"
+        },
+        "it": {
+          "ja": "それ（＝威圧）"
+        },
+        "also": {
+          "ja": "同時に"
+        },
+        "teaches": {
+          "ja": "教える"
+        },
+        "workers": {
+          "ja": "作業者"
+        },
+        "to hide": {
+          "ja": "隠すことを"
         }
       },
       "phrases": [
         {
-          "en": "It also teaches workers to hide defects.",
-          "ja": "それは同時に、作業者へ不具合を隠すことも教える。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "teaches workers to hide defects",
+          "ja": "作業者に不具合を隠すことを教える",
+          "note": "teach＋人＋to「人に〜するよう教える」。",
+          "pattern": "teach A to 動詞"
         }
       ]
     },
     {
       "words": {
         "legitimacy": {
-          "ja": "正当性",
-          "pos": "語句",
-          "lemma": "legitimacy",
-          "form": "",
-          "note": "legitimacy：この作品では「正当性」"
+          "ja": "正当性"
+        },
+        "technical authority": {
+          "ja": "技術上の権限"
+        },
+        "earns": {
+          "ja": "得る"
+        },
+        "by protecting": {
+          "ja": "守ることによって"
+        },
+        "safety": {
+          "ja": "安全"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "repeatability": {
+          "ja": "再現性"
+        },
+        "not by": {
+          "ja": "〜によってではなく"
+        },
+        "demanding": {
+          "ja": "求めること"
+        },
+        "personal submission": {
+          "ja": "人格的な服従"
         }
       },
       "phrases": [
         {
-          "en": "Technical authority earns legitimacy by protecting safety and repeatability, not by demanding personal submission.",
-          "ja": "技術上の権限は人格的服従を求めることではなく、安全と再現性を守ることで正当性を得る。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "by protecting safety and repeatability, not by demanding personal submission",
+          "ja": "服従を求めることではなく、安全と再現性を守ることで",
+          "note": "by＋動名詞の対比。",
+          "pattern": "by A, not by B"
         }
       ]
     }
@@ -3238,91 +3445,202 @@
   "DE-20261029-003": [
     {
       "words": {
-        "playable": {
-          "ja": "遊べる",
-          "pos": "語句",
-          "lemma": "playable",
-          "form": "",
-          "note": "playable：この作品では「遊べる」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "playable scene": {
+          "ja": "遊べる場面"
+        },
+        "on a screen": {
+          "ja": "画面上の"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "look like": {
+          "ja": "〜のように見える"
+        },
+        "magic": {
+          "ja": "魔法"
         }
       },
       "phrases": [
         {
-          "en": "A playable scene on a screen can look like magic.",
-          "ja": "画面上の遊べる場面は魔法のように見える。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "can look like magic",
+          "ja": "魔法のように見えることがある",
+          "note": "look like＋名詞。",
+          "pattern": "look like 〜"
         }
       ]
     },
     {
       "words": {
-        "archive": {
-          "ja": "圧縮ファイル",
-          "pos": "語句",
-          "lemma": "archive",
-          "form": "",
-          "note": "archive：この作品では「圧縮ファイル」"
+        "the work": {
+          "ja": "作業"
+        },
+        "behind it": {
+          "ja": "その裏の"
+        },
+        "it": {
+          "ja": "それ（＝遊べる場面）"
+        },
+        "is less glamorous": {
+          "ja": "もっと地味だ"
+        },
+        "correcting": {
+          "ja": "直すこと"
+        },
+        "one": {
+          "ja": "ひとつの"
+        },
+        "mistranslated pronoun": {
+          "ja": "誤訳された代名詞"
+        },
+        "reviewing": {
+          "ja": "見直すこと"
+        },
+        "the neighboring lines": {
+          "ja": "前後の行"
+        },
+        "adjusting": {
+          "ja": "調整すること"
+        },
+        "voices": {
+          "ja": "声"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "sound": {
+          "ja": "音"
+        },
+        "checking whether": {
+          "ja": "〜かどうか確かめること"
+        },
+        "the promised archive": {
+          "ja": "約束した圧縮ファイル"
+        },
+        "actually": {
+          "ja": "実際に"
+        },
+        "opens": {
+          "ja": "開く"
         }
       },
       "phrases": [
         {
-          "en": "The work behind it is less glamorous: correcting one mistranslated pronoun, reviewing the neighboring lines, adjusting voices and sound, and checking whether the promised archive actually opens.",
-          "ja": "背後の作業はもっと地味で、代名詞の誤訳を直し、周辺の行を見直し、声と音を調整し、約束した圧縮ファイルが本当に開くか確かめる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "is less glamorous",
+          "ja": "もっと地味だ",
+          "note": "less glamorous「華やかさに欠ける」。コロン以下で作業を列挙。",
+          "pattern": "less 形容詞"
         }
       ]
     },
     {
       "words": {
-        "authority": {
-          "ja": "権威",
-          "pos": "語句",
-          "lemma": "authority",
-          "form": "",
-          "note": "authority：この作品では「権威」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "working file": {
+          "ja": "実際に動くファイル"
+        },
+        "carries": {
+          "ja": "持つ"
+        },
+        "more authority than": {
+          "ja": "〜より強い説得力"
+        },
+        "the claim": {
+          "ja": "主張"
+        },
+        "that": {
+          "ja": "（同格）〜という"
+        },
+        "the job": {
+          "ja": "仕事"
+        },
+        "is done": {
+          "ja": "終わった"
         }
       },
       "phrases": [
         {
-          "en": "A working file carries more authority than the claim that the job is done.",
-          "ja": "実際に動くファイルは、仕事が終わったという主張より強い権威を持つ。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "carries more authority than the claim that the job is done",
+          "ja": "終わったという主張より説得力がある",
+          "note": "that は同格「〜という」。",
+          "pattern": "the claim that 〜"
         }
       ]
     },
     {
       "words": {
         "delivery": {
-          "ja": "受け渡し",
-          "pos": "語句",
-          "lemma": "delivery",
-          "form": "",
-          "note": "delivery：この作品では「受け渡し」"
+          "ja": "引き渡し"
+        },
+        "things": {
+          "ja": "物事"
+        },
+        "become real": {
+          "ja": "現実のものになる"
+        },
+        "through": {
+          "ja": "〜を通じて"
+        },
+        "correction": {
+          "ja": "修正"
+        },
+        "inspection": {
+          "ja": "検査"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "in a form": {
+          "ja": "〜な形で"
+        },
+        "another person": {
+          "ja": "他の人"
+        },
+        "can use": {
+          "ja": "使える"
         }
       },
       "phrases": [
         {
-          "en": "Things become real through correction, inspection, and delivery in a form another person can use.",
-          "ja": "物は、修正・検査・他人が使える形での受け渡しを通して現実になる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "delivery in a form another person can use",
+          "ja": "他人が使える形での引き渡し",
+          "note": "form の後に関係代名詞が省略。",
+          "pattern": "in a form (that) 〜"
         }
       ]
     },
     {
       "words": {
-        "connection": {
-          "ja": "接続",
-          "pos": "語句",
-          "lemma": "connection",
-          "form": "",
-          "note": "connection：この作品では「接続」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "bridge": {
+          "ja": "橋"
+        },
+        "is built": {
+          "ja": "架けられる"
+        },
+        "only after": {
+          "ja": "〜して初めて"
+        },
+        "every connection": {
+          "ja": "すべての接続"
+        },
+        "has been tested": {
+          "ja": "試された"
         }
       },
       "phrases": [
         {
-          "en": "A bridge is built only after every connection has been tested.",
-          "ja": "橋はすべての接続が試されたあとで初めて架かる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "is built only after every connection has been tested",
+          "ja": "すべての接続を試して初めて架かる",
+          "note": "only after「〜した後で初めて」。",
+          "pattern": "only after 〜"
         }
       ]
     }
