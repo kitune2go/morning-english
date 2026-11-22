@@ -34961,5 +34961,946 @@
         }
       ]
     }
+  ],
+  "DE-20260916-001": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとりの"
+        },
+        "difficult person": {
+          "ja": "付き合いにくい人"
+        },
+        "can still": {
+          "ja": "それでも〜しうる"
+        },
+        "have": {
+          "ja": "持つ"
+        },
+        "many friends": {
+          "ja": "多くの友人"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "receive help": {
+          "ja": "助けを受ける"
+        },
+        "in a crisis": {
+          "ja": "危機のときに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A difficult person can still have many friends",
+          "ja": "付き合いにくい人でも友人が多いことはある",
+          "note": "difficult はここで「（人が）扱いにくい」。",
+          "pattern": "can still"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it is tempting to": {
+          "ja": "〜したくなる"
+        },
+        "treat": {
+          "ja": "扱う"
+        },
+        "that support": {
+          "ja": "その支え"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "proof of": {
+          "ja": "〜の証拠"
+        },
+        "good character": {
+          "ja": "良い人柄"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It is tempting to treat that support as proof of good character",
+          "ja": "その支えを人柄の良さの証拠とみなしたくなる",
+          "note": "tempting「つい〜したくなる」。",
+          "pattern": "it is tempting to 動詞 / treat A as B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "the size of": {
+          "ja": "〜の大きさ"
+        },
+        "a circle": {
+          "ja": "仲間の輪"
+        },
+        "depends on": {
+          "ja": "〜しだいだ"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "receives": {
+          "ja": "受けるか"
+        },
+        "kindness": {
+          "ja": "親切"
+        },
+        "counts as": {
+          "ja": "〜とみなされるか"
+        },
+        "an": {
+          "ja": "ひとりの"
+        },
+        "insider": {
+          "ja": "内側の人"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "what": {
+          "ja": "何を"
+        },
+        "its": {
+          "ja": "その（＝輪の）"
+        },
+        "members": {
+          "ja": "メンバー"
+        },
+        "expect from": {
+          "ja": "〜に期待するか"
+        },
+        "one another": {
+          "ja": "互い"
+        }
+      },
+      "phrases": [
+        {
+          "en": "depends on who receives kindness, who counts as an insider, and what its members expect from one another",
+          "ja": "誰が親切を受け、誰が内側とされ、互いに何を期待するかで決まる",
+          "note": "counts は動詞「みなされる」。",
+          "pattern": "depend on 疑問詞節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "group solidarity": {
+          "ja": "集団の結束"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "public vote on": {
+          "ja": "〜についての公開投票"
+        },
+        "the whole person": {
+          "ja": "人全体"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not a public vote on the whole person",
+          "ja": "人全体への公開投票ではない",
+          "note": "仲間が多い＝人格評価ではない。",
+          "pattern": "vote on 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "loyalty": {
+          "ja": "忠実さ"
+        },
+        "within": {
+          "ja": "〜の内側での"
+        },
+        "the circle": {
+          "ja": "輪"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "fairness": {
+          "ja": "公平さ"
+        },
+        "beyond it": {
+          "ja": "その外への"
+        },
+        "it": {
+          "ja": "それ（＝輪）"
+        },
+        "are": {
+          "ja": "〜である"
+        },
+        "separate qualities": {
+          "ja": "別々の性質"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Loyalty within the circle and fairness beyond it are separate qualities",
+          "ja": "輪の内への忠実さと外への公平さは別の性質",
+          "note": "fairness はここで「公平さ」。",
+          "pattern": "within／beyond"
+        }
+      ]
+    },
+    {
+      "words": {
+        "that": {
+          "ja": "（関係代名詞）〜を"
+        },
+        "a head count": {
+          "ja": "人数を数えること"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "distinguish": {
+          "ja": "見分ける"
+        }
+      },
+      "phrases": [
+        {
+          "en": "that a head count cannot distinguish",
+          "ja": "人数を数えても見分けられない",
+          "note": "前の qualities を修飾。",
+          "pattern": "head count"
+        }
+      ]
+    }
+  ],
+  "DE-20260916-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "group": {
+          "ja": "集団"
+        },
+        "bound like": {
+          "ja": "〜のように結ばれた"
+        },
+        "a family": {
+          "ja": "家族"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "feel dependable": {
+          "ja": "頼もしく感じられる"
+        },
+        "in ordinary times": {
+          "ja": "平時には"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A group bound like a family",
+          "ja": "家族のように結ばれた集団",
+          "note": "bound は bind の過去分詞。times はここで「時代・時期」。",
+          "pattern": "名詞 + 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "loyalty": {
+          "ja": "忠実さ"
+        },
+        "is shown": {
+          "ja": "示される"
+        },
+        "by": {
+          "ja": "〜によって"
+        },
+        "staying together": {
+          "ja": "一緒にいること"
+        },
+        "calling to": {
+          "ja": "〜に呼びかけること"
+        },
+        "one another": {
+          "ja": "互い"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "refusing to": {
+          "ja": "〜するのを拒むこと"
+        },
+        "leave anyone behind": {
+          "ja": "誰かを置き去りにする"
+        }
+      },
+      "phrases": [
+        {
+          "en": "refusing to leave anyone behind",
+          "ja": "誰も置き去りにしないこと",
+          "note": "leave behind「置いていく」。",
+          "pattern": "leave A behind"
+        }
+      ]
+    },
+    {
+      "words": {
+        "in danger": {
+          "ja": "危険の中では"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "the same norm": {
+          "ja": "同じ規範"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "weaken": {
+          "ja": "弱める"
+        },
+        "judgment": {
+          "ja": "判断"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the same norm may weaken judgment",
+          "ja": "同じ規範が判断を鈍らせるかもしれない",
+          "note": "norm「規範」。",
+          "pattern": "weaken 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "near": {
+          "ja": "〜の近くでは"
+        },
+        "rising water": {
+          "ja": "増水"
+        },
+        "courage": {
+          "ja": "勇気"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "consist not in": {
+          "ja": "〜にあるのではない"
+        },
+        "staying": {
+          "ja": "とどまること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "courage may consist not in staying",
+          "ja": "勇気はとどまることにあるのではない",
+          "note": "次のチャンクの but in へ続く。",
+          "pattern": "consist in 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but in": {
+          "ja": "…にある"
+        },
+        "reading": {
+          "ja": "読み取ること"
+        },
+        "the route out": {
+          "ja": "逃げ道"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "moving": {
+          "ja": "動かすこと"
+        },
+        "everyone": {
+          "ja": "全員"
+        },
+        "early": {
+          "ja": "早めに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "but in reading the route out and moving everyone early",
+          "ja": "逃げ道を読み、全員を早めに動かすことにある",
+          "note": "route out「出口への道」。",
+          "pattern": "consist not in A but in B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "warmth": {
+          "ja": "温かさ"
+        },
+        "loyalty": {
+          "ja": "忠実さ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "sound": {
+          "ja": "確かな"
+        },
+        "risk assessment": {
+          "ja": "危険の見積もり"
+        },
+        "are": {
+          "ja": "〜である"
+        },
+        "three different capacities": {
+          "ja": "三つの別々の能力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "sound risk assessment",
+          "ja": "確かな危険の見積もり",
+          "note": "sound はここで形容詞「しっかりした」（音ではない）。",
+          "pattern": "sound（形容詞）"
+        }
+      ]
+    }
+  ],
+  "DE-20260916-003": [
+    {
+      "words": {
+        "in a crisis": {
+          "ja": "危機では"
+        },
+        "words": {
+          "ja": "言葉"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "actions": {
+          "ja": "行動"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "point in": {
+          "ja": "〜の方を指す"
+        },
+        "opposite directions": {
+          "ja": "反対の方向"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can point in opposite directions",
+          "ja": "反対の方向を指すことがある",
+          "note": "point は動詞「指し示す」。",
+          "pattern": "point in 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "someone": {
+          "ja": "誰か"
+        },
+        "may": {
+          "ja": "〜ことがある"
+        },
+        "shout": {
+          "ja": "叫ぶ"
+        },
+        "run": {
+          "ja": "逃げろ"
+        },
+        "while": {
+          "ja": "〜しながら"
+        },
+        "treating": {
+          "ja": "扱うこと"
+        },
+        "departure": {
+          "ja": "離れること"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "betrayal": {
+          "ja": "裏切り"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "standing in the way": {
+          "ja": "道をふさぐこと"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while treating departure as betrayal and standing in the way",
+          "ja": "離れることを裏切りと扱い、道をふさぎながら",
+          "note": "stand in the way「邪魔をする」。",
+          "pattern": "stand in the way"
+        }
+      ]
+    },
+    {
+      "words": {
+        "by contrast": {
+          "ja": "対照的に"
+        },
+        "letting people come and go": {
+          "ja": "人を出入り自由にさせること"
+        },
+        "without": {
+          "ja": "〜なしで"
+        },
+        "pursuit": {
+          "ja": "追いかけること"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "look detached": {
+          "ja": "冷めて見える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "letting people come and go without pursuit",
+          "ja": "追いかけずに人の出入りを許すこと",
+          "note": "come and go「行き来する」。",
+          "pattern": "let A 動詞 / come and go"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝出入りを許すこと）"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "express": {
+          "ja": "表す"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "conscience": {
+          "ja": "良心"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "refuses to": {
+          "ja": "〜することを拒む"
+        },
+        "own": {
+          "ja": "所有する"
+        },
+        "the exit": {
+          "ja": "出口"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a conscience that refuses to own the exit",
+          "ja": "出口を自分のものにしない良心",
+          "note": "own は動詞「所有する」。",
+          "pattern": "own（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "helping": {
+          "ja": "助けること"
+        },
+        "does not mean": {
+          "ja": "意味しない"
+        },
+        "securing": {
+          "ja": "確保すること"
+        },
+        "obedience": {
+          "ja": "服従"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Helping does not mean securing obedience",
+          "ja": "助けることは従わせることではない",
+          "note": "mean＋動名詞。",
+          "pattern": "mean -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝助けること）"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "means": {
+          "ja": "意味する"
+        },
+        "preserving": {
+          "ja": "残しておくこと"
+        },
+        "another person's": {
+          "ja": "相手の"
+        },
+        "room to": {
+          "ja": "〜する余地"
+        },
+        "leave": {
+          "ja": "去る"
+        },
+        "on": {
+          "ja": "〜に基づいて"
+        },
+        "a judgment": {
+          "ja": "判断"
+        },
+        "different from": {
+          "ja": "〜と異なる"
+        },
+        "ours": {
+          "ja": "私たちのもの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "room to leave on a judgment different from ours",
+          "ja": "私たちと違う判断で去る余地",
+          "note": "room はここで「余地」。",
+          "pattern": "room to 動詞 / different from 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the important question": {
+          "ja": "大事な問い"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "how loudly": {
+          "ja": "どれほど大声で"
+        },
+        "someone": {
+          "ja": "誰かが"
+        },
+        "calls for": {
+          "ja": "〜を叫んで求める"
+        },
+        "escape": {
+          "ja": "避難"
+        },
+        "but": {
+          "ja": "そうではなく"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "they": {
+          "ja": "その人"
+        },
+        "clear": {
+          "ja": "空ける"
+        },
+        "the doorway": {
+          "ja": "出入口"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not how loudly someone calls for escape, but whether they clear the doorway",
+          "ja": "どれほど叫ぶかではなく、出入口を空けたか",
+          "note": "clear は動詞「（道を）空ける」。they は単数の someone を受ける。",
+          "pattern": "not A but B / call for 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260916-004": [
+    {
+      "words": {
+        "the person who": {
+          "ja": "〜する人"
+        },
+        "arrives": {
+          "ja": "現れる"
+        },
+        "after": {
+          "ja": "〜した後に"
+        },
+        "trouble": {
+          "ja": "問題"
+        },
+        "begins": {
+          "ja": "始まる"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "solves it": {
+          "ja": "それを解決する"
+        },
+        "it": {
+          "ja": "それ（＝問題）"
+        },
+        "dramatically": {
+          "ja": "劇的に"
+        },
+        "is easy to notice": {
+          "ja": "目につきやすい"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is easy to notice",
+          "ja": "目につきやすい",
+          "note": "easy to「〜しやすい」。",
+          "pattern": "形容詞 + to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとりの"
+        },
+        "rough character": {
+          "ja": "乱暴な人物"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "the good one": {
+          "ja": "いい人の役"
+        },
+        "in the movie": {
+          "ja": "映画で"
+        },
+        "simply by": {
+          "ja": "〜するだけで"
+        },
+        "rescuing": {
+          "ja": "救うこと"
+        },
+        "friends": {
+          "ja": "仲間"
+        }
+      },
+      "phrases": [
+        {
+          "en": "simply by rescuing friends",
+          "ja": "仲間を救うだけで",
+          "note": "character はここで「登場人物」。one は人物を受ける代名詞。",
+          "pattern": "simply by -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the person who": {
+          "ja": "〜する人"
+        },
+        "recognizes": {
+          "ja": "気づく"
+        },
+        "danger": {
+          "ja": "危険"
+        },
+        "early": {
+          "ja": "早く"
+        },
+        "ends": {
+          "ja": "終わらせる"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "unsafe delay": {
+          "ja": "危険な居残り"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "keeps the route open": {
+          "ja": "退路を開けておく"
+        },
+        "has no": {
+          "ja": "持たない"
+        },
+        "grand scene": {
+          "ja": "派手な場面"
+        }
+      },
+      "phrases": [
+        {
+          "en": "keeps the route open",
+          "ja": "退路を開けたままにする",
+          "note": "keep＋目的語＋形容詞。",
+          "pattern": "keep A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "prevention": {
+          "ja": "予防"
+        },
+        "works": {
+          "ja": "うまく働く"
+        },
+        "its": {
+          "ja": "その（＝予防の）"
+        },
+        "achievement": {
+          "ja": "功績"
+        },
+        "disappears": {
+          "ja": "見えなくなる"
+        },
+        "with": {
+          "ja": "〜とともに"
+        },
+        "the accident": {
+          "ja": "事故"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "never happened": {
+          "ja": "起きなかった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "disappears with the accident that never happened",
+          "ja": "起きなかった事故とともに消える",
+          "note": "works はここで動詞「機能する」。",
+          "pattern": "with 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "crisis ethics": {
+          "ja": "危機の倫理"
+        },
+        "cannot be measured": {
+          "ja": "測れない"
+        },
+        "only by": {
+          "ja": "〜だけで"
+        },
+        "the hero": {
+          "ja": "英雄"
+        },
+        "who": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "enters": {
+          "ja": "登場する"
+        },
+        "at the end": {
+          "ja": "最後に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "cannot be measured only by the hero who enters at the end",
+          "ja": "最後に出てくる英雄だけでは測れない",
+          "note": "at the end「最後に」。",
+          "pattern": "measure A by B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "notice": {
+          "ja": "気づく"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "quietly": {
+          "ja": "静かに"
+        },
+        "kept an exit open": {
+          "ja": "出口を開けておいた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "notice who quietly kept an exit open",
+          "ja": "誰が静かに出口を開けていたかに気づく",
+          "note": "who 節が notice の目的語。",
+          "pattern": "keep A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "before": {
+          "ja": "〜する前に"
+        },
+        "rescue": {
+          "ja": "救助"
+        },
+        "became necessary": {
+          "ja": "必要になった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "before rescue became necessary",
+          "ja": "救助が必要になる前に",
+          "note": "予防の価値を時間で示す。",
+          "pattern": "before 〜"
+        }
+      ]
+    }
   ]
 }
