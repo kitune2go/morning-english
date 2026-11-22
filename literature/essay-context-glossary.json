@@ -10299,23 +10299,36 @@
     {
       "words": {
         "urgent": {
-          "ja": "特急の"
+          "ja": "急ぎの"
         },
-        "one-off": {
-          "ja": "単品の"
+        "one-off job": {
+          "ja": "単品仕事"
         },
-        "job": {
-          "ja": "仕事"
+        "can": {
+          "ja": "〜ことがある"
         },
-        "piece": {
+        "look small": {
+          "ja": "小さく見える"
+        },
+        "simply because": {
+          "ja": "ただ〜というだけで"
+        },
+        "there is": {
+          "ja": "〜がある"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "one piece": {
           "ja": "品物一つ"
         }
       },
       "phrases": [
         {
-          "en": "An urgent one-off job can look small simply because there is only one piece.",
-          "ja": "特急の単品仕事は、品物が一つしかないというだけで小さく見えることがある。",
-          "note": "only one piece は数量だけで仕事を小さく見積もる視点を示す。"
+          "en": "can look small simply because there is only one piece",
+          "ja": "一個しかないというだけで小さく見える",
+          "note": "simply because「ただ〜という理由だけで」。",
+          "pattern": "simply because 〜"
         }
       ]
     },
@@ -10323,12 +10336,6 @@
       "words": {
         "stainless-steel": {
           "ja": "ステンレス鋼の"
-        },
-        "pipe": {
-          "ja": "管"
-        },
-        "threads": {
-          "ja": "ねじ（複数）"
         },
         "taper": {
           "ja": "テーパー"
@@ -10342,73 +10349,151 @@
         "gauge": {
           "ja": "ゲージ"
         },
-        "criterion": {
-          "ja": "基準"
+        "yet": {
+          "ja": "しかし"
+        },
+        "short": {
+          "ja": "短い"
+        },
+        "pipe threads": {
+          "ja": "管用ねじ"
+        },
+        "at both ends": {
+          "ja": "両端に"
+        },
+        "on one side": {
+          "ja": "片側に"
+        },
+        "while": {
+          "ja": "〜なのに（対比）"
+        },
+        "no": {
+          "ja": "何も〜ない"
+        },
+        "material": {
+          "ja": "材料"
+        },
+        "inspection criterion": {
+          "ja": "検査基準"
+        },
+        "was ready": {
+          "ja": "用意されていた"
         }
       },
       "phrases": [
         {
-          "en": "Yet the short stainless-steel pipe needed pipe threads at both ends and a taper on one side, while no material, fixture, taper-thread gauge, or inspection criterion was ready.",
-          "ja": "しかし、その短いステンレス管には両端の管用ねじと片側のテーパーが必要なのに、材料、治具、テーパーねじゲージ、検査基準は何も用意されていなかった。",
-          "note": "while が加工要求と、材料・治具・ゲージ・検査基準の準備不足を対比する。"
+          "en": "while no material, fixture, taper-thread gauge, or inspection criterion was ready",
+          "ja": "材料も治具も…何も用意されていなかったのに",
+          "note": "no が4つの名詞すべてを否定する。",
+          "pattern": "while（対比） / no 〜"
         }
       ]
     },
     {
       "words": {
         "cutting": {
-          "ja": "加工"
+          "ja": "加工（切削）"
         },
-        "grip": {
-          "ja": "つかむ"
+        "before": {
+          "ja": "〜する前に"
         },
-        "part": {
-          "ja": "品物"
+        "could begin": {
+          "ja": "始められる"
         },
-        "serve": {
-          "ja": "～として働く"
+        "someone": {
+          "ja": "誰か"
         },
-        "square": {
-          "ja": "直角の"
+        "had to": {
+          "ja": "〜しなければならなかった"
         },
-        "reference": {
-          "ja": "基準"
+        "decide": {
+          "ja": "決める"
         },
-        "judged": {
+        "where to grip": {
+          "ja": "どこをつかむか"
+        },
+        "the part": {
+          "ja": "その品物"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "would serve as": {
+          "ja": "〜の役目を果たす"
+        },
+        "square reference": {
+          "ja": "直角の基準"
+        },
+        "how": {
+          "ja": "どのように"
+        },
+        "the result": {
+          "ja": "仕上がり"
+        },
+        "would be judged": {
           "ja": "判定される"
         }
       },
       "phrases": [
         {
-          "en": "Before cutting could begin, someone had to decide where to grip the part, what would serve as the square reference, and how the result would be judged.",
-          "ja": "加工を始める前に、どこをつかみ、何を直角の基準とし、仕上がりをどう判定するかを誰かが決めなければならなかった。",
-          "note": "where / what / how が加工前に決める三種類の判断を分ける。"
+          "en": "where to grip the part",
+          "ja": "どこをつかむか",
+          "note": "where to 〜「どこで〜すべきか」。",
+          "pattern": "疑問詞 + to 動詞"
+        },
+        {
+          "en": "what would serve as the square reference",
+          "ja": "何を直角の基準にするか",
+          "note": "serve as「〜の役目をする」。",
+          "pattern": "serve as 〜"
         }
       ]
     },
     {
       "words": {
-        "deadline": {
-          "ja": "納期"
-        },
         "shorten": {
           "ja": "短くする"
         },
-        "unanswered": {
-          "ja": "未回答の"
-        },
         "merely": {
-          "ja": "ただ～だけ"
+          "ja": "単に"
         },
         "operator's": {
           "ja": "作業者の"
+        },
+        "a short deadline": {
+          "ja": "短い納期"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "those": {
+          "ja": "それらの"
+        },
+        "unanswered questions": {
+          "ja": "答えの出ていない問い"
+        },
+        "it": {
+          "ja": "それ（＝短い納期）"
+        },
+        "moves": {
+          "ja": "移す"
+        },
+        "them": {
+          "ja": "それら（＝未回答の問い）"
+        },
+        "into": {
+          "ja": "〜の中へ"
+        },
+        "head": {
+          "ja": "頭"
         }
       },
       "phrases": [
         {
-          "en": "A short deadline does not shorten those unanswered questions; it merely moves them into the operator's head.",
-          "ja": "短い納期は未回答の問題まで短くせず、ただ作業者の頭の中へ移すだけである。",
-          "note": "does not A; it merely B は未決定の解消でなく作業者への移動を示す。"
+          "en": "it merely moves them into the operator's head",
+          "ja": "ただ作業者の頭の中へ移すだけ",
+          "note": "merely「単に〜するだけ」。",
+          "pattern": "merely"
         }
       ]
     }
@@ -10416,108 +10501,154 @@
   "DE-20261119-002": [
     {
       "words": {
-        "proposed": {
-          "ja": "提案された"
-        },
-        "sequence": {
-          "ja": "順序"
-        },
-        "tapered": {
-          "ja": "テーパーの"
-        },
         "reverse": {
-          "ja": "反転する"
+          "ja": "反転させる（くわえ替える）"
         },
         "seat": {
-          "ja": "密着させる"
-        },
-        "squared": {
-          "ja": "直角を出した"
+          "ja": "（ぴったり）当てて座らせる"
         },
         "firmly": {
-          "ja": "しっかりと"
+          "ja": "しっかり"
         },
-        "chuck": {
+        "the proposed sequence": {
+          "ja": "提案された手順"
+        },
+        "was to": {
+          "ja": "〜することだった"
+        },
+        "cut": {
+          "ja": "削る"
+        },
+        "the tapered side": {
+          "ja": "テーパー側"
+        },
+        "first": {
+          "ja": "先に"
+        },
+        "then": {
+          "ja": "次に"
+        },
+        "the part": {
+          "ja": "品物"
+        },
+        "squared end face": {
+          "ja": "直角を出した端面"
+        },
+        "against": {
+          "ja": "〜に押し当てて"
+        },
+        "the chuck": {
           "ja": "チャック"
         }
       },
       "phrases": [
         {
-          "en": "The proposed sequence was to cut the tapered side first, then reverse the part and seat the squared end face firmly against the chuck.",
-          "ja": "提案された順序は、まずテーパー側を削り、次に品物を反転して、直角を出した端面をチャックへしっかり密着させることだった。",
-          "note": "seat A against B は端面をチャックへ密着させる段取りを表す。"
+          "en": "seat the squared end face firmly against the chuck",
+          "ja": "端面をチャックにしっかり当てる",
+          "note": "seat は動詞で「着座させる」。against は「〜に押し当てて」。",
+          "pattern": "seat A against B"
         }
       ]
     },
     {
       "words": {
-        "operation": {
-          "ja": "工程"
-        },
         "shape": {
-          "ja": "形"
+          "ja": "形状"
         },
-        "reference": {
-          "ja": "基準"
+        "the first operation": {
+          "ja": "最初の工程"
         },
-        "second": {
-          "ja": "二回目の"
+        "would create": {
+          "ja": "作ることになる"
         },
-        "setup": {
-          "ja": "段取り"
+        "not only": {
+          "ja": "〜だけでなく"
+        },
+        "but also": {
+          "ja": "…も"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "reference for": {
+          "ja": "〜のための基準"
+        },
+        "the second setup": {
+          "ja": "二回目の段取り"
         }
       },
       "phrases": [
         {
-          "en": "The first operation would create not only a shape but also a reference for the second setup.",
-          "ja": "最初の工程は形だけでなく、二回目の段取りで使う基準も作ることになる。",
-          "note": "not only A but also B は形状と次工程の基準を並列する。"
+          "en": "not only a shape but also a reference",
+          "ja": "形だけでなく基準も",
+          "note": "1工程目が2工程目の基準を兼ねる。",
+          "pattern": "not only A but also B"
         }
       ]
     },
     {
       "words": {
-        "gripped": {
-          "ja": "把握された"
-        },
-        "rear": {
-          "ja": "後方の"
-        },
-        "straight": {
-          "ja": "直線の"
-        },
-        "restrain": {
-          "ja": "拘束する"
-        },
         "tilt": {
           "ja": "傾き"
         },
-        "degree": {
-          "ja": "程度"
+        "even if": {
+          "ja": "たとえ〜でも"
+        },
+        "the tapered section": {
+          "ja": "テーパー部"
+        },
+        "itself": {
+          "ja": "そのもの"
+        },
+        "could not be gripped": {
+          "ja": "つかめない"
+        },
+        "the end face": {
+          "ja": "端面"
+        },
+        "the rear straight section": {
+          "ja": "後ろ側のストレート部"
+        },
+        "might": {
+          "ja": "〜かもしれない"
+        },
+        "help restrain": {
+          "ja": "抑えるのに役立つ"
+        },
+        "to some degree": {
+          "ja": "ある程度"
         }
       },
       "phrases": [
         {
-          "en": "Even if the tapered section itself could not be gripped, the end face and the rear straight section might help restrain tilt to some degree.",
-          "ja": "テーパー部そのものを把握できなくても、端面と後方の直線部が傾きをある程度拘束するのに役立つかもしれない。",
-          "note": "Even if と might が、把握不能の条件と傾き拘束の不確実さを保つ。"
+          "en": "might help restrain tilt to some degree",
+          "ja": "傾きをある程度抑える助けになるかもしれない",
+          "note": "help＋原形。to some degree「ある程度」。",
+          "pattern": "help 動詞 / to some degree"
         }
       ]
     },
     {
       "words": {
         "holding": {
-          "ja": "保持"
+          "ja": "保持（つかむこと）"
         },
         "inspection": {
           "ja": "検査"
+        },
+        "still": {
+          "ja": "それでも"
+        },
+        "is not": {
+          "ja": "〜ではない"
         }
       },
       "phrases": [
         {
-          "en": "Still, holding is not inspection.",
-          "ja": "それでも、保持は検査ではない。",
-          "note": "holding is not inspection は安定保持と品質判定を切り分ける。"
+          "en": "holding is not inspection",
+          "ja": "つかめることは検査ではない",
+          "note": "動名詞 holding が主語。",
+          "pattern": "A is not B"
         }
       ]
     },
@@ -10526,30 +10657,43 @@
         "gauge": {
           "ja": "ゲージ"
         },
-        "stated": {
-          "ja": "明示された"
-        },
-        "standard": {
-          "ja": "規格"
-        },
-        "stable": {
-          "ja": "安定した"
-        },
-        "setup": {
-          "ja": "段取り"
-        },
         "prove": {
           "ja": "証明する"
         },
-        "thread": {
-          "ja": "ねじ"
+        "without": {
+          "ja": "〜がなければ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "stated standard": {
+          "ja": "明示された規格"
+        },
+        "a stable setup": {
+          "ja": "安定した段取り"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "that": {
+          "ja": "（接続詞）〜ということ"
+        },
+        "the thread": {
+          "ja": "そのねじ"
+        },
+        "is correct": {
+          "ja": "正しい"
         }
       },
       "phrases": [
         {
-          "en": "Without a gauge or a stated standard, a stable setup cannot prove that the thread is correct.",
-          "ja": "ゲージまたは明示された規格がなければ、安定した段取りでもねじが正しいことを証明できない。",
-          "note": "Without 以下が、正しさを証明できない条件を明示する。"
+          "en": "Without a gauge or a stated standard",
+          "ja": "ゲージや規格がなければ",
+          "note": "without が「〜がなければ」という条件を表す。",
+          "pattern": "without 〜（条件）"
         }
       ]
     }
@@ -10557,52 +10701,44 @@
   "DE-20261119-003": [
     {
       "words": {
-        "historical": {
-          "ja": "歴史の"
+        "the historical data": {
+          "ja": "歴史データ"
         },
-        "failed": {
-          "ja": "できなかった"
+        "still": {
+          "ja": "依然として"
         },
-        "appear": {
-          "ja": "表示される"
+        "failed to appear": {
+          "ja": "表示されなかった"
         },
-        "public": {
-          "ja": "公開の"
+        "when": {
+          "ja": "〜したとき"
         },
-        "page": {
-          "ja": "ページ"
+        "the public page": {
+          "ja": "公開ページ"
         },
-        "retried": {
-          "ja": "再試行された"
+        "was retried": {
+          "ja": "再読み込みされた"
         }
       },
       "phrases": [
         {
-          "en": "The historical data still failed to appear when the public page was retried.",
-          "ja": "公開ページを再試行しても、歴史データはなお表示されなかった。",
-          "note": "still failed to appear は再試行後も表示できなかったことを示す。"
+          "en": "failed to appear",
+          "ja": "表示されなかった",
+          "note": "fail to「〜しそこなう・〜しない」。",
+          "pattern": "fail to 動詞"
         }
       ]
     },
     {
       "words": {
         "json": {
-          "ja": "JSON"
+          "ja": "JSON（データファイル）"
         },
         "existed": {
-          "ja": "存在した"
-        },
-        "content": {
-          "ja": "内容"
-        },
-        "hash": {
-          "ja": "ハッシュ"
+          "ja": "存在していた"
         },
         "matched": {
           "ja": "一致した"
-        },
-        "element": {
-          "ja": "要素"
         },
         "roughly": {
           "ja": "約"
@@ -10610,18 +10746,43 @@
         "megabytes": {
           "ja": "メガバイト"
         },
-        "five-second": {
-          "ja": "五秒の"
+        "and": {
+          "ja": "そして"
         },
-        "timeout": {
-          "ja": "タイムアウト"
+        "its": {
+          "ja": "その"
+        },
+        "content hash": {
+          "ja": "内容のハッシュ値"
+        },
+        "the missing element": {
+          "ja": "足りなかったもの"
+        },
+        "was": {
+          "ja": "〜だった"
+        },
+        "enough time to": {
+          "ja": "〜するのに十分な時間"
+        },
+        "receive": {
+          "ja": "受け取る"
+        },
+        "before": {
+          "ja": "〜より前に"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "five-second timeout": {
+          "ja": "5秒のタイムアウト"
         }
       },
       "phrases": [
         {
-          "en": "The JSON existed, and its content hash matched; the missing element was enough time to receive roughly 1.5 megabytes before a five-second timeout.",
-          "ja": "JSONは存在し内容のハッシュも一致していたが、欠けていたのは五秒のタイムアウトまでに約一・五メガバイトを受け取るための十分な時間だった。",
-          "note": "セミコロンの前後でデータ存在の確認と、受信時間不足の特定を分ける。"
+          "en": "enough time to receive roughly 1.5 megabytes",
+          "ja": "約1.5MBを受け取るのに十分な時間",
+          "note": "enough＋名詞＋to「〜するのに十分な…」。",
+          "pattern": "enough 名詞 to 動詞"
         }
       ]
     },
@@ -10630,33 +10791,46 @@
         "extending": {
           "ja": "延ばすこと"
         },
-        "wait": {
-          "ja": "待ち時間"
-        },
-        "thirty": {
-          "ja": "三十"
-        },
-        "seconds": {
-          "ja": "秒"
-        },
         "remove": {
           "ja": "取り除く"
         },
-        "growing": {
-          "ja": "増していく"
+        "the wait": {
+          "ja": "待ち時間"
         },
-        "weight": {
-          "ja": "重さ"
+        "to": {
+          "ja": "〜まで"
         },
-        "load": {
-          "ja": "読み込み負荷"
+        "thirty seconds": {
+          "ja": "30秒"
+        },
+        "made the page open": {
+          "ja": "ページを開かせた"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝延長）"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "the growing weight": {
+          "ja": "増え続ける重さ"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "the load": {
+          "ja": "読み込み"
         }
       },
       "phrases": [
         {
-          "en": "Extending the wait to thirty seconds made the page open, but it did not remove the growing weight of the load.",
-          "ja": "待ち時間を三十秒へ延ばすとページは開いたが、増していく読み込みの重さは消えなかった。",
-          "note": "made A B と did not remove が暫定修正の効果と残る負荷を対比する。"
+          "en": "made the page open",
+          "ja": "ページを開かせた",
+          "note": "make＋目的語＋原形「Aに〜させる」。",
+          "pattern": "make A 動詞"
         }
       ]
     },
@@ -10665,28 +10839,32 @@
         "exists": {
           "ja": "存在する"
         },
-        "necessarily": {
-          "ja": "必ずしも"
-        },
         "reaches": {
           "ja": "届く"
         },
-        "reader": {
+        "data that": {
+          "ja": "〜するデータ"
+        },
+        "is not necessarily": {
+          "ja": "必ずしも〜ではない"
+        },
+        "a reader": {
           "ja": "読者"
         }
       },
       "phrases": [
         {
-          "en": "Data that exists is not necessarily data that reaches a reader.",
-          "ja": "存在するデータが、必ずしも読者へ届くデータとは限らない。",
-          "note": "not necessarily は存在すれば必ず届くという推論を部分否定する。"
+          "en": "is not necessarily data that reaches a reader",
+          "ja": "必ずしも読者に届くデータではない",
+          "note": "部分否定「必ずしも〜とは限らない」。",
+          "pattern": "not necessarily"
         }
       ]
     },
     {
       "words": {
         "reliable": {
-          "ja": "信頼できる"
+          "ja": "確実な"
         },
         "publication": {
           "ja": "公開"
@@ -10694,21 +10872,43 @@
         "depends": {
           "ja": "左右される"
         },
-        "size": {
-          "ja": "大きさ"
-        },
         "order": {
           "ja": "順序"
         },
         "arrives": {
           "ja": "届く"
+        },
+        "not only on": {
+          "ja": "〜だけでなく"
+        },
+        "content": {
+          "ja": "内容"
+        },
+        "but also on": {
+          "ja": "…にも"
+        },
+        "the size": {
+          "ja": "大きさ"
+        },
+        "in which": {
+          "ja": "（その中で）〜する"
+        },
+        "that content": {
+          "ja": "その内容"
         }
       },
       "phrases": [
         {
-          "en": "Reliable publication depends not only on content, but also on the size and order in which that content arrives.",
-          "ja": "信頼できる公開は内容だけでなく、その内容が届く大きさと順序にも左右される。",
-          "note": "not only A, but also B が公開の条件を内容から配送方法へ広げる。"
+          "en": "depends not only on content, but also on the size",
+          "ja": "内容だけでなく大きさにも左右される",
+          "note": "not only / but also で on を2回使う。",
+          "pattern": "depend on 〜"
+        },
+        {
+          "en": "the size and order in which that content arrives",
+          "ja": "その内容が届く大きさと順序",
+          "note": "前置詞＋関係代名詞。",
+          "pattern": "in which 〜"
         }
       ]
     }
@@ -10716,56 +10916,85 @@
   "DE-20261119-004": [
     {
       "words": {
-        "later": {
-          "ja": "後刻"
-        },
         "girl": {
           "ja": "少女"
         },
-        "modeled": {
+        "illustration": {
+          "ja": "イラスト"
+        },
+        "later that day": {
+          "ja": "その日の後で"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "was modeled": {
           "ja": "モデル化された"
         },
-        "illustration": {
-          "ja": "絵"
+        "in": {
+          "ja": "〜で（3Dで）"
+        },
+        "d": {
+          "ja": "（3Dの）D"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "a single": {
+          "ja": "一枚の"
         }
       },
       "phrases": [
         {
-          "en": "Later that day, a girl was modeled in 3D from a single illustration.",
-          "ja": "その日の後刻、一枚の絵から少女が三次元モデル化された。",
-          "note": "was modeled in 3D は一枚絵から三次元モデルが作られたことを示す。"
+          "en": "was modeled in 3D from a single illustration",
+          "ja": "一枚の絵から3Dモデルにされた",
+          "note": "from は元になった素材。",
+          "pattern": "model A from B"
         }
       ]
     },
     {
       "words": {
-        "frontal": {
-          "ja": "正面の"
-        },
         "define": {
-          "ja": "定める"
+          "ja": "決める"
         },
-        "outline": {
-          "ja": "輪郭"
+        "a": {
+          "ja": "ひとつの"
         },
-        "rear": {
+        "frontal image": {
+          "ja": "正面の画像"
+        },
+        "could": {
+          "ja": "〜できた"
+        },
+        "the visible outline": {
+          "ja": "見えている輪郭"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the rear": {
           "ja": "背面"
         },
-        "crown": {
-          "ja": "頭頂"
+        "the crown": {
+          "ja": "頭頂部"
         },
-        "overlapping": {
-          "ja": "重なる"
+        "overlapping parts": {
+          "ja": "重なり合う部分"
         },
-        "interpreted": {
-          "ja": "解釈された"
+        "still": {
+          "ja": "依然として"
+        },
+        "had to be interpreted": {
+          "ja": "推測して補う必要があった"
         }
       },
       "phrases": [
         {
-          "en": "A frontal image could define the visible outline, but the rear, the crown, and overlapping parts still had to be interpreted.",
-          "ja": "正面画像は見える輪郭を定められたが、背面、頭頂、重なるパーツはなお解釈しなければならなかった。",
-          "note": "could define A, but B had to be interpreted は見える面と補う面を対比する。"
+          "en": "still had to be interpreted",
+          "ja": "まだ解釈しなければならなかった",
+          "note": "受け身の義務。",
+          "pattern": "have to be 過去分詞"
         }
       ]
     },
@@ -10774,69 +11003,98 @@
         "diagonal": {
           "ja": "斜めの"
         },
-        "views": {
-          "ja": "画角"
-        },
-        "narrow": {
-          "ja": "狭める"
-        },
-        "uncertainty": {
-          "ja": "不確かさ"
-        },
-        "full": {
-          "ja": "一周の"
-        },
-        "turn": {
-          "ja": "回転"
-        },
         "exposed": {
-          "ja": "明らかにした"
+          "ja": "あらわにした"
         },
-        "forms": {
-          "ja": "形"
+        "top views": {
+          "ja": "上からの視点"
+        },
+        "were added": {
+          "ja": "加えられた"
+        },
+        "to narrow": {
+          "ja": "狭めるために"
+        },
+        "that uncertainty": {
+          "ja": "その不確かさ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "a full turn": {
+          "ja": "一回転"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "the camera": {
+          "ja": "カメラ"
+        },
+        "forms that": {
+          "ja": "〜する形"
+        },
+        "still": {
+          "ja": "まだ"
+        },
+        "felt wrong": {
+          "ja": "おかしく感じられた"
         }
       },
       "phrases": [
         {
-          "en": "Diagonal and top views were added to narrow that uncertainty, and a full turn of the camera exposed forms that still felt wrong.",
-          "ja": "その不確かさを狭めるために斜めと上からの画角が加えられ、カメラを一周させると、なお違和感のある形が明らかになった。",
-          "note": "追加画角の目的と、一周確認で残る違和感が見えた結果を並べる。"
+          "en": "to narrow that uncertainty",
+          "ja": "その不確かさを狭めるために",
+          "note": "ここの to は目的「〜するために」。",
+          "pattern": "to 動詞（目的）"
         }
       ]
     },
     {
       "words": {
-        "views": {
-          "ja": "画角"
-        },
         "complete": {
           "ja": "完成させる"
-        },
-        "themselves": {
-          "ja": "それ自体で"
         },
         "guesses": {
           "ja": "推測"
         },
-        "correction": {
-          "ja": "修正"
+        "more views": {
+          "ja": "視点を増やすこと"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "a model": {
+          "ja": "モデル"
+        },
+        "by themselves": {
+          "ja": "それだけで"
+        },
+        "they": {
+          "ja": "それら（＝視点）"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "its": {
+          "ja": "その（モデルの）"
+        },
+        "open to correction": {
+          "ja": "修正できる状態に"
         }
       },
       "phrases": [
         {
-          "en": "More views do not complete a model by themselves; they make its guesses open to correction.",
-          "ja": "画角を増やすだけでモデルが完成するのではなく、画角はモデルの推測を修正可能にする。",
-          "note": "do not A by themselves; they B は完成ではなく修正可能性を役割とする。"
+          "en": "make its guesses open to correction",
+          "ja": "推測を修正可能な状態にする",
+          "note": "open to「〜を受け入れる余地がある」。",
+          "pattern": "make A 形容詞 / open to 〜"
         }
       ]
     },
     {
       "words": {
         "whether": {
-          "ja": "～であっても"
-        },
-        "pipe": {
-          "ja": "管"
+          "ja": "〜であれ"
         },
         "webpage": {
           "ja": "ウェブページ"
@@ -10844,21 +11102,31 @@
         "model": {
           "ja": "モデル"
         },
-        "unseen": {
-          "ja": "見えない"
-        },
-        "side": {
-          "ja": "面"
-        },
         "disappear": {
           "ja": "消える"
+        },
+        "in": {
+          "ja": "〜において"
+        },
+        "a pipe": {
+          "ja": "管"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "an unseen side": {
+          "ja": "見えない面"
+        },
+        "does not": {
+          "ja": "〜しない"
         }
       },
       "phrases": [
         {
-          "en": "Whether in a pipe, a webpage, or a model, an unseen side does not disappear.",
-          "ja": "管でもウェブページでもモデルでも、見えない面は消えない。",
-          "note": "Whether in A, B, or C は三領域へ同じ結論を適用する。"
+          "en": "Whether in a pipe, a webpage, or a model",
+          "ja": "管でもページでもモデルでも",
+          "note": "whether で譲歩「〜であれ」。",
+          "pattern": "whether A, B, or C"
         }
       ]
     },
@@ -10867,21 +11135,34 @@
         "returns": {
           "ja": "戻ってくる"
         },
-        "setup": {
-          "ja": "段取り"
-        },
-        "loading": {
-          "ja": "読み込み"
-        },
         "revision": {
           "ja": "修正"
+        },
+        "it": {
+          "ja": "それ（＝見えない面）"
+        },
+        "later": {
+          "ja": "後で"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "setup work": {
+          "ja": "段取り作業"
+        },
+        "loading time": {
+          "ja": "読み込み時間"
+        },
+        "or": {
+          "ja": "あるいは"
         }
       },
       "phrases": [
         {
-          "en": "It returns later as setup work, loading time, or revision.",
-          "ja": "見えない面は、段取り、読み込み時間、修正という姿であとから戻ってくる。",
-          "note": "returns as ... は見えない面が別の負担として戻る比喩。"
+          "en": "returns later as setup work",
+          "ja": "段取りとして後で戻ってくる",
+          "note": "as は「〜という形で」。",
+          "pattern": "return as 〜"
         }
       ]
     }
