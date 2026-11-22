@@ -39322,5 +39322,937 @@
         }
       ]
     }
+  ],
+  "DE-20260911-001": [
+    {
+      "words": {
+        "holding": {
+          "ja": "保つこと"
+        },
+        "tension": {
+          "ja": "力み"
+        },
+        "in": {
+          "ja": "〜の中に"
+        },
+        "the abdomen": {
+          "ja": "腹部"
+        },
+        "does make": {
+          "ja": "確かに〜させる"
+        },
+        "the muscles": {
+          "ja": "筋肉"
+        },
+        "work": {
+          "ja": "働く"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does make the muscles work",
+          "ja": "確かに筋肉を働かせる",
+          "note": "does で動詞を強調。",
+          "pattern": "強調の does / make A 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝腹に力を入れること）"
+        },
+        "offers": {
+          "ja": "もたらす"
+        },
+        "some stimulus": {
+          "ja": "ある程度の刺激"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "is not equivalent to": {
+          "ja": "〜と同等ではない"
+        },
+        "moving through": {
+          "ja": "〜を通して動くこと"
+        },
+        "a full range of motion": {
+          "ja": "全可動域"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not equivalent to moving through a full range of motion",
+          "ja": "全可動域で動かす運動とは同じではない",
+          "note": "range of motion「可動域」。",
+          "pattern": "equivalent to 〜 / range of motion"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "isometric contraction": {
+          "ja": "等尺性収縮（関節を動かさない力み）"
+        },
+        "serves": {
+          "ja": "果たす"
+        },
+        "one purpose": {
+          "ja": "一つの目的"
+        }
+      },
+      "phrases": [
+        {
+          "en": "An isometric contraction serves one purpose",
+          "ja": "等尺性収縮は一つの役割を果たす",
+          "note": "次のチャンクと対。",
+          "pattern": "serve a purpose"
+        }
+      ]
+    },
+    {
+      "words": {
+        "dynamic exercise": {
+          "ja": "動きのある運動"
+        },
+        "serves": {
+          "ja": "果たす"
+        },
+        "another": {
+          "ja": "別の（目的）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "dynamic exercise serves another",
+          "ja": "動的な運動は別の役割を果たす",
+          "note": "another = another purpose。",
+          "pattern": "one ... another"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "method": {
+          "ja": "方法"
+        },
+        "proves useful": {
+          "ja": "役に立つと分かる"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "are tempted to": {
+          "ja": "〜したくなる"
+        },
+        "treat": {
+          "ja": "扱う"
+        },
+        "it": {
+          "ja": "それ（＝その方法）"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "complete substitute": {
+          "ja": "完全な代わり"
+        }
+      },
+      "phrases": [
+        {
+          "en": "are tempted to treat it as a complete substitute",
+          "ja": "完全な代わりとして扱いたくなる",
+          "note": "prove＋形容詞「〜だと分かる」。",
+          "pattern": "be tempted to 動詞 / treat A as B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "wide gap": {
+          "ja": "大きな隔たり"
+        },
+        "separates": {
+          "ja": "隔てる"
+        },
+        "something that": {
+          "ja": "〜するもの"
+        },
+        "helps": {
+          "ja": "役立つ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a wide gap separates something that helps",
+          "ja": "役立つものを〜から隔てる大きな溝",
+          "note": "次のチャンクの from へ続く。",
+          "pattern": "separate A from B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "from": {
+          "ja": "〜から"
+        },
+        "something that": {
+          "ja": "〜するもの"
+        },
+        "can replace": {
+          "ja": "置き換えられる"
+        },
+        "the whole": {
+          "ja": "全体"
+        }
+      },
+      "phrases": [
+        {
+          "en": "from something that can replace the whole",
+          "ja": "全体を置き換えられるものから",
+          "note": "前チャンクとあわせて「AとBの間には大きな隔たりがある」。",
+          "pattern": "separate A from B"
+        }
+      ]
+    }
+  ],
+  "DE-20260911-002": [
+    {
+      "words": {
+        "repeated": {
+          "ja": "繰り返される"
+        },
+        "approval requests": {
+          "ja": "承認の求め"
+        },
+        "interrupt": {
+          "ja": "中断させる"
+        },
+        "the momentum of": {
+          "ja": "〜の勢い"
+        },
+        "ai-assisted development": {
+          "ja": "AIを使った開発"
+        }
+      },
+      "phrases": [
+        {
+          "en": "interrupt the momentum of AI-assisted development",
+          "ja": "AIを使った開発の勢いを途切れさせる",
+          "note": "momentum「勢い」。",
+          "pattern": "momentum of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "wanting": {
+          "ja": "望むこと"
+        },
+        "agents": {
+          "ja": "エージェント（自動で動くAI）"
+        },
+        "to keep building": {
+          "ja": "作り続けることを"
+        },
+        "without waiting": {
+          "ja": "待たずに"
+        },
+        "is understandable": {
+          "ja": "理解できる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Wanting agents to keep building without waiting",
+          "ja": "エージェントに待たず作り続けてほしいと望むこと",
+          "note": "動名詞の主語。",
+          "pattern": "want A to 動詞 / keep -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "deleting": {
+          "ja": "消すこと"
+        },
+        "the checkpoint": {
+          "ja": "確認点"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "create": {
+          "ja": "生む"
+        },
+        "autonomy": {
+          "ja": "自律"
+        }
+      },
+      "phrases": [
+        {
+          "en": "deleting the checkpoint does not create autonomy",
+          "ja": "確認点を消しても自律は生まれない",
+          "note": "checkpoint はここで「確認の関門」。",
+          "pattern": "create 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "autonomous work": {
+          "ja": "自律的な作業"
+        },
+        "needs": {
+          "ja": "必要とする"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "defined scope": {
+          "ja": "決められた範囲"
+        },
+        "divided roles": {
+          "ja": "分けた役割"
+        },
+        "tests": {
+          "ja": "テスト"
+        },
+        "stop conditions": {
+          "ja": "停止条件"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "limited permissions": {
+          "ja": "限られた権限"
+        }
+      },
+      "phrases": [
+        {
+          "en": "needs a defined scope, divided roles, tests, stop conditions, and limited permissions",
+          "ja": "範囲・役割・テスト・停止条件・権限が要る",
+          "note": "scope「範囲」。",
+          "pattern": "need 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "without": {
+          "ja": "〜がなければ"
+        },
+        "that structure": {
+          "ja": "その構造"
+        },
+        "speed": {
+          "ja": "速さ"
+        },
+        "merely": {
+          "ja": "ただ"
+        },
+        "multiplies": {
+          "ja": "増やす"
+        },
+        "defects": {
+          "ja": "不具合"
+        }
+      },
+      "phrases": [
+        {
+          "en": "speed merely multiplies defects",
+          "ja": "速さは不具合を増やすだけ",
+          "note": "merely「ただ〜だけ」。",
+          "pattern": "multiply 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "system": {
+          "ja": "仕組み"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "proceeds": {
+          "ja": "進む"
+        },
+        "without": {
+          "ja": "〜なしで"
+        },
+        "human reply": {
+          "ja": "人の返事"
+        },
+        "has not eliminated": {
+          "ja": "なくしたわけではない"
+        },
+        "judgment": {
+          "ja": "判断"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A system that proceeds without a human reply has not eliminated judgment",
+          "ja": "人の返事なしで進む仕組みは判断をなくしたのではない",
+          "note": "proceeds は動詞「進む」（収入ではない）。",
+          "pattern": "proceed"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝その仕組み）"
+        },
+        "has encoded": {
+          "ja": "組み込んでいる"
+        },
+        "judgment": {
+          "ja": "判断"
+        },
+        "in advance": {
+          "ja": "前もって"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it has encoded judgment in advance",
+          "ja": "判断を前もって組み込んでいる",
+          "note": "encode「（規則として）書き込む」。",
+          "pattern": "encode / in advance"
+        }
+      ]
+    }
+  ],
+  "DE-20260911-003": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "generation": {
+          "ja": "世代"
+        },
+        "mocked": {
+          "ja": "あざ笑った"
+        },
+        "the inefficiency": {
+          "ja": "非効率"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "sheer momentum": {
+          "ja": "ただの勢い任せ"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "the old": {
+          "ja": "古い"
+        },
+        "corporate model": {
+          "ja": "会社のあり方"
+        }
+      },
+      "phrases": [
+        {
+          "en": "mocked the inefficiency and sheer momentum of the old corporate model",
+          "ja": "古い会社モデルの非効率と勢い任せを笑った",
+          "note": "generation はここで「世代」（生成ではない）。",
+          "pattern": "sheer 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "embracing": {
+          "ja": "受け入れながら"
+        },
+        "consumption": {
+          "ja": "消費"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "individual choice": {
+          "ja": "個人の選択"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "signs of": {
+          "ja": "〜の印"
+        },
+        "progress": {
+          "ja": "進歩"
+        }
+      },
+      "phrases": [
+        {
+          "en": "embracing consumption and individual choice as signs of progress",
+          "ja": "消費と個人の選択を進歩の印として受け入れながら",
+          "note": "分詞構文。",
+          "pattern": "embrace A as B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "stable employment": {
+          "ja": "安定した雇用"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "distribution": {
+          "ja": "分配"
+        },
+        "weakened": {
+          "ja": "弱まった"
+        },
+        "with that model": {
+          "ja": "そのモデルとともに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "weakened with that model",
+          "ja": "そのモデルと一緒に弱まった",
+          "note": "次のチャンクへ続く。",
+          "pattern": "with 〜（〜とともに）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "no": {
+          "ja": "何も〜ない"
+        },
+        "adequate replacement": {
+          "ja": "十分な代わり"
+        },
+        "took their place": {
+          "ja": "その役割を引き継いだ"
+        },
+        "their": {
+          "ja": "それらの（＝雇用と分配の）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "no adequate replacement took their place",
+          "ja": "十分な代わりは何もその後を継がなかった",
+          "note": "take the place of「〜に取って代わる」。",
+          "pattern": "take one's place"
+        }
+      ]
+    },
+    {
+      "words": {
+        "later regret": {
+          "ja": "後からの後悔"
+        },
+        "could not": {
+          "ja": "〜できなかった"
+        },
+        "fill": {
+          "ja": "埋める"
+        },
+        "the vacancy": {
+          "ja": "空席"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Later regret could not fill the vacancy",
+          "ja": "後悔では空席を埋められなかった",
+          "note": "vacancy「空き・空席」。",
+          "pattern": "fill a vacancy"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the question": {
+          "ja": "問い"
+        },
+        "is not only": {
+          "ja": "〜だけではない"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "the criticism": {
+          "ja": "その批判"
+        },
+        "was justified": {
+          "ja": "正当だった"
+        },
+        "but also": {
+          "ja": "…もまた"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "inherited": {
+          "ja": "受け継いだか"
+        },
+        "the functions": {
+          "ja": "機能"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "were removed": {
+          "ja": "取り除かれた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not only whether the criticism was justified, but also what inherited the functions that were removed",
+          "ja": "批判が正しかったかだけでなく、取り除かれた機能を何が継いだか",
+          "note": "2つの間接疑問の対比。",
+          "pattern": "not only A but also B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "reform": {
+          "ja": "改革"
+        },
+        "is measured by": {
+          "ja": "〜で測られる"
+        },
+        "the support": {
+          "ja": "支え"
+        },
+        "it": {
+          "ja": "それ（＝改革）"
+        },
+        "builds": {
+          "ja": "築く"
+        },
+        "not simply by": {
+          "ja": "単に〜によってではなく"
+        },
+        "what": {
+          "ja": "〜するもの"
+        },
+        "clears away": {
+          "ja": "取り払う"
+        }
+      },
+      "phrases": [
+        {
+          "en": "measured by the support it builds, not simply by what it clears away",
+          "ja": "取り払ったものではなく、築いた支えで測られる",
+          "note": "support の後に関係代名詞が省略。",
+          "pattern": "clear away"
+        }
+      ]
+    }
+  ],
+  "DE-20260911-004": [
+    {
+      "words": {
+        "legal debates": {
+          "ja": "法をめぐる議論"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "collapse": {
+          "ja": "押し込める"
+        },
+        "rights": {
+          "ja": "権利"
+        },
+        "profit": {
+          "ja": "利益"
+        },
+        "illegal trade": {
+          "ja": "違法な取引"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "public costs": {
+          "ja": "公的な費用"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a single argument": {
+          "ja": "一つの論点"
+        }
+      },
+      "phrases": [
+        {
+          "en": "collapse rights, profit, illegal trade, and public costs into a single argument",
+          "ja": "権利・利益・違法取引・公費を一つの論点に押し込める",
+          "note": "collapse はここで「一つに潰してまとめる」。rights は「権利」（右ではない）。",
+          "pattern": "collapse A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "legal boundary": {
+          "ja": "法の境界"
+        },
+        "does more than": {
+          "ja": "〜以上のことをする"
+        },
+        "prohibit": {
+          "ja": "禁じる"
+        },
+        "conduct": {
+          "ja": "行為"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does more than prohibit conduct",
+          "ja": "行為を禁じる以上のことをする",
+          "note": "conduct はここで名詞「行為」。",
+          "pattern": "do more than 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "compliance": {
+          "ja": "法令を守ること"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "protects": {
+          "ja": "守る"
+        },
+        "particular benefits": {
+          "ja": "特定の利益"
+        }
+      },
+      "phrases": [
+        {
+          "en": "compliance also protects particular benefits",
+          "ja": "法を守ることは特定の利益も守る",
+          "note": "compliance「遵守」。",
+          "pattern": "protect 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "freedom to": {
+          "ja": "〜する自由"
+        },
+        "continue": {
+          "ja": "続ける"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "unlawful transaction": {
+          "ja": "違法な取引"
+        },
+        "is not equivalent to": {
+          "ja": "〜と同等ではない"
+        },
+        "the safety of": {
+          "ja": "〜の安全"
+        },
+        "people who": {
+          "ja": "〜する人々"
+        },
+        "wish to": {
+          "ja": "〜したいと願う"
+        },
+        "remain outside": {
+          "ja": "〜の外にとどまる"
+        },
+        "it": {
+          "ja": "それ（＝違法な取引）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "people who wish to remain outside it",
+          "ja": "その外にとどまりたい人々",
+          "note": "wish to「〜したいと願う」。",
+          "pattern": "remain outside 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "changing": {
+          "ja": "変えること"
+        },
+        "prices": {
+          "ja": "価格"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "incomes": {
+          "ja": "所得"
+        },
+        "is no substitute": {
+          "ja": "代わりにならない"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "the burden": {
+          "ja": "負担"
+        },
+        "still": {
+          "ja": "依然として"
+        },
+        "falls in": {
+          "ja": "〜に落ちる"
+        },
+        "the same place": {
+          "ja": "同じ場所"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is no substitute if the burden still falls in the same place",
+          "ja": "負担が同じ所に落ちるなら代わりにならない",
+          "note": "fall はここで「（負担が）かかる」。",
+          "pattern": "no substitute"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "rule": {
+          "ja": "規則"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "institution": {
+          "ja": "制度"
+        },
+        "is removed": {
+          "ja": "取り除かれる"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "replacement": {
+          "ja": "代わり"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "specify": {
+          "ja": "はっきり示す"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "will support": {
+          "ja": "支えるか"
+        },
+        "whose": {
+          "ja": "誰の"
+        },
+        "rights": {
+          "ja": "権利"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "daily life": {
+          "ja": "日々の暮らし"
+        }
+      },
+      "phrases": [
+        {
+          "en": "must specify what will support whose rights and daily life",
+          "ja": "何が誰の権利と暮らしを支えるのかを示さねばならない",
+          "note": "whose「誰の」。",
+          "pattern": "specify 〜 / whose"
+        }
+      ]
+    },
+    {
+      "words": {
+        "only then": {
+          "ja": "そうして初めて"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "empty space": {
+          "ja": "空いた場所"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "a path": {
+          "ja": "道"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Only then can an empty space become a path",
+          "ja": "そうして初めて空白は道になれる",
+          "note": "only が文頭に出て can が主語の前に来る。",
+          "pattern": "only then + 倒置"
+        }
+      ]
+    }
   ]
 }
