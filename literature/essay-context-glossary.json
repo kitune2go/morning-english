@@ -48156,5 +48156,892 @@
         }
       ]
     }
+  ],
+  "DE-20260810-001": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "nationwide benefit": {
+          "ja": "全国一律の給付"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "nationwide access": {
+          "ja": "全国どこでも使えること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A nationwide benefit does not guarantee nationwide access",
+          "ja": "全国一律の給付でも、全国どこでも使えるとは限らない",
+          "note": "benefit はここで「給付」。",
+          "pattern": "guarantee 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "eligibility": {
+          "ja": "受給資格"
+        },
+        "may be written": {
+          "ja": "書かれているかもしれない"
+        },
+        "in equal terms": {
+          "ja": "平等な条件で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Eligibility may be written in equal terms",
+          "ja": "受給資格は平等な言葉で書かれていても",
+          "note": "terms はここで「条件・言葉」。",
+          "pattern": "in 〜 terms"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "actual support": {
+          "ja": "実際の支援"
+        },
+        "depends on": {
+          "ja": "〜しだいだ"
+        },
+        "local capacity": {
+          "ja": "地域の受け入れ枠"
+        },
+        "distance": {
+          "ja": "距離"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "staffing": {
+          "ja": "人員配置"
+        }
+      },
+      "phrases": [
+        {
+          "en": "actual support depends on local capacity, distance, and staffing",
+          "ja": "実際の支援は地域の枠・距離・人手しだい",
+          "note": "staffing「人員配置」（杖ではない）。",
+          "pattern": "depend on 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "in": {
+          "ja": "〜では"
+        },
+        "one region": {
+          "ja": "ある地域"
+        },
+        "services": {
+          "ja": "サービス"
+        },
+        "are available": {
+          "ja": "使える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "In one region, services are available",
+          "ja": "ある地域ではサービスが使えるが",
+          "note": "次のチャンクと対比。",
+          "pattern": "one ... another"
+        }
+      ]
+    },
+    {
+      "words": {
+        "in another": {
+          "ja": "別の地域では"
+        },
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "occasional visit": {
+          "ja": "時々の訪問"
+        },
+        "may be": {
+          "ja": "〜かもしれない"
+        },
+        "difficult to": {
+          "ja": "〜しにくい"
+        },
+        "secure": {
+          "ja": "確保する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "even an occasional visit may be difficult to secure",
+          "ja": "時々の訪問さえ確保しにくいことがある",
+          "note": "secure は動詞「確保する」。",
+          "pattern": "difficult to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the unit": {
+          "ja": "単位"
+        },
+        "recorded by": {
+          "ja": "〜に記録された"
+        },
+        "the system": {
+          "ja": "制度"
+        },
+        "looks identical": {
+          "ja": "同じに見える"
+        },
+        "on paper": {
+          "ja": "書類の上では"
+        }
+      },
+      "phrases": [
+        {
+          "en": "looks identical on paper",
+          "ja": "書類上は同じに見える",
+          "note": "on paper「書類上は・名目上は」。",
+          "pattern": "on paper"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "weight": {
+          "ja": "重み"
+        },
+        "in daily life": {
+          "ja": "日々の暮らしの中での"
+        },
+        "changes with": {
+          "ja": "〜によって変わる"
+        },
+        "the waiting": {
+          "ja": "待つこと"
+        },
+        "travel": {
+          "ja": "移動"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "compromises": {
+          "ja": "妥協"
+        },
+        "required to": {
+          "ja": "〜するのに必要な"
+        },
+        "receive": {
+          "ja": "受け取る"
+        },
+        "it": {
+          "ja": "それ（＝単位）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "compromises required to receive it",
+          "ja": "受け取るのに必要な妥協",
+          "note": "required 以下が前の名詞を修飾。",
+          "pattern": "名詞 + 過去分詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260810-002": [
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "formal support": {
+          "ja": "制度による支援"
+        },
+        "falls short": {
+          "ja": "足りない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When formal support falls short",
+          "ja": "制度の支援が足りないとき",
+          "note": "fall short「不足する」。",
+          "pattern": "fall short"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the need for": {
+          "ja": "〜の必要"
+        },
+        "care": {
+          "ja": "介護"
+        },
+        "remains": {
+          "ja": "残る"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the need for care remains",
+          "ja": "介護の必要は残る",
+          "note": "care はここで「介護」。",
+          "pattern": "need for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the missing hours": {
+          "ja": "足りない時間"
+        },
+        "are transferred into": {
+          "ja": "〜に移される"
+        },
+        "family schedules": {
+          "ja": "家族の予定"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The missing hours are transferred into family schedules",
+          "ja": "足りない時間は家族の予定に移される",
+          "note": "schedules はここで「予定」。",
+          "pattern": "transfer A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "where": {
+          "ja": "そこで"
+        },
+        "they": {
+          "ja": "それら（＝足りない時間）"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "adjustments to": {
+          "ja": "〜の調整"
+        },
+        "work": {
+          "ja": "仕事"
+        },
+        "repeated travel": {
+          "ja": "繰り返しの移動"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "unpaid substitution for": {
+          "ja": "〜の無償の肩代わり"
+        },
+        "services": {
+          "ja": "サービス"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜だった"
+        },
+        "were unavailable": {
+          "ja": "使えなかった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "unpaid substitution for services that were unavailable",
+          "ja": "使えなかったサービスの無償の肩代わり",
+          "note": "unpaid「無給の」。",
+          "pattern": "substitution for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "because": {
+          "ja": "〜なので"
+        },
+        "this labor": {
+          "ja": "この労働"
+        },
+        "produces": {
+          "ja": "生む"
+        },
+        "no invoice": {
+          "ja": "請求書が出ない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Because this labor produces no invoice",
+          "ja": "この労働は請求書を生まないので",
+          "note": "invoice「請求書」。",
+          "pattern": "no 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝この労働）"
+        },
+        "is easy to": {
+          "ja": "〜しやすい"
+        },
+        "omit": {
+          "ja": "省く"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "the public account": {
+          "ja": "公的な会計"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it is easy to omit from the public account",
+          "ja": "公的な会計から省きやすい",
+          "note": "account はここで「会計・勘定」。",
+          "pattern": "easy to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "unrecorded cost": {
+          "ja": "記録されない費用"
+        },
+        "is still": {
+          "ja": "それでも〜だ"
+        },
+        "a cost": {
+          "ja": "費用"
+        },
+        "what": {
+          "ja": "〜するもの"
+        },
+        "disappears from": {
+          "ja": "〜から消える"
+        },
+        "the institutional ledger": {
+          "ja": "制度の帳簿"
+        },
+        "returns as": {
+          "ja": "〜として戻ってくる"
+        },
+        "weight": {
+          "ja": "重さ"
+        },
+        "inside": {
+          "ja": "〜の中の"
+        },
+        "ordinary day": {
+          "ja": "普通の一日"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What disappears from the institutional ledger returns as weight inside an ordinary day",
+          "ja": "制度の帳簿から消えたものは、日常の重さとして戻る",
+          "note": "what「〜するもの」。",
+          "pattern": "what 節の主語 / return as 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260810-003": [
+    {
+      "words": {
+        "the constitution": {
+          "ja": "憲法"
+        },
+        "recognizes": {
+          "ja": "認める"
+        },
+        "a right to": {
+          "ja": "〜への権利"
+        },
+        "minimum standards of": {
+          "ja": "最低限度の"
+        },
+        "wholesome and cultured living": {
+          "ja": "健康で文化的な生活"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a right to minimum standards of wholesome and cultured living",
+          "ja": "健康で文化的な最低限度の生活を営む権利",
+          "note": "日本国憲法25条の英訳の言い回し。",
+          "pattern": "right to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そして"
+        },
+        "directs": {
+          "ja": "命じる"
+        },
+        "the state": {
+          "ja": "国"
+        },
+        "to advance": {
+          "ja": "向上させるよう"
+        },
+        "social welfare": {
+          "ja": "社会福祉"
+        },
+        "social security": {
+          "ja": "社会保障"
+        }
+      },
+      "phrases": [
+        {
+          "en": "directs the state to advance social welfare and social security",
+          "ja": "国に社会福祉・社会保障の向上を求める",
+          "note": "state はここで「国」。",
+          "pattern": "direct A to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "such language": {
+          "ja": "そうした文言"
+        },
+        "sets": {
+          "ja": "定める"
+        },
+        "a destination": {
+          "ja": "目的地"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Such language sets a destination",
+          "ja": "そうした文言は目的地を定める",
+          "note": "language はここで「文言」。",
+          "pattern": "set 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝文言）"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "by itself": {
+          "ja": "それだけで"
+        },
+        "create": {
+          "ja": "作る"
+        },
+        "nearby services": {
+          "ja": "身近なサービス"
+        },
+        "or": {
+          "ja": "も"
+        },
+        "staff": {
+          "ja": "人を配置する"
+        },
+        "them": {
+          "ja": "それら（＝サービス）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not by itself create nearby services or staff them",
+          "ja": "それだけで身近なサービスを作ったり人を配置したりはしない",
+          "note": "staff は動詞「人員を配置する」（杖ではない）。",
+          "pattern": "staff（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "principle": {
+          "ja": "理念"
+        },
+        "reaches": {
+          "ja": "届く"
+        },
+        "daily life": {
+          "ja": "日々の暮らし"
+        },
+        "only through": {
+          "ja": "〜を通じてだけ"
+        },
+        "delivery systems": {
+          "ja": "届ける仕組み"
+        }
+      },
+      "phrases": [
+        {
+          "en": "reaches daily life only through delivery systems",
+          "ja": "届ける仕組みを通じてだけ暮らしに届く",
+          "note": "コロン以下で仕組みの中身。",
+          "pattern": "only through 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "budgets": {
+          "ja": "予算"
+        },
+        "capacity": {
+          "ja": "受け入れ枠"
+        },
+        "transportation": {
+          "ja": "交通"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "workers": {
+          "ja": "働く人"
+        }
+      },
+      "phrases": [
+        {
+          "en": "budgets, capacity, transportation, and workers",
+          "ja": "予算・枠・交通・人手",
+          "note": "前チャンクのコロンの中身。",
+          "pattern": "名詞の列挙"
+        }
+      ]
+    },
+    {
+      "words": {
+        "rights": {
+          "ja": "権利"
+        },
+        "cannot remain": {
+          "ja": "〜のままではいられない"
+        },
+        "signs": {
+          "ja": "看板"
+        },
+        "above": {
+          "ja": "〜の上の"
+        },
+        "an entrance": {
+          "ja": "入口"
+        },
+        "they": {
+          "ja": "それら（＝権利）"
+        },
+        "acquire": {
+          "ja": "得る"
+        },
+        "practical force": {
+          "ja": "実際の効力"
+        },
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "institutions": {
+          "ja": "制度"
+        },
+        "carry": {
+          "ja": "運ぶ"
+        },
+        "them": {
+          "ja": "それら（＝権利）"
+        },
+        "across": {
+          "ja": "〜を越えて"
+        },
+        "the final distance": {
+          "ja": "最後の距離"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carry them across the final distance",
+          "ja": "権利を最後の距離を越えて運ぶ",
+          "note": "rights はここで「権利」（右ではない）。",
+          "pattern": "carry A across B"
+        }
+      ]
+    }
+  ],
+  "DE-20260810-004": [
+    {
+      "words": {
+        "externalization": {
+          "ja": "外部化"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "eliminate": {
+          "ja": "なくす"
+        },
+        "a cost": {
+          "ja": "費用"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Externalization does not eliminate a cost",
+          "ja": "外部化は費用をなくさない",
+          "note": "次のチャンクで言い換え。",
+          "pattern": "eliminate 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝費用）"
+        },
+        "relocates": {
+          "ja": "移す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it relocates it",
+          "ja": "別の場所へ移すだけだ",
+          "note": "2つの it が別のものを指す点に注意。",
+          "pattern": "relocate 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "families": {
+          "ja": "家族"
+        },
+        "supply": {
+          "ja": "提供する"
+        },
+        "care": {
+          "ja": "介護"
+        },
+        "without pay": {
+          "ja": "無給で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When families supply care without pay",
+          "ja": "家族が無給で介護を担うと",
+          "note": "pay はここで名詞「給料」。",
+          "pattern": "without pay"
+        }
+      ]
+    },
+    {
+      "words": {
+        "neither": {
+          "ja": "〜も…もない"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "market price": {
+          "ja": "市場価格"
+        },
+        "nor": {
+          "ja": "〜も"
+        },
+        "public expenditure": {
+          "ja": "公的支出"
+        },
+        "necessarily": {
+          "ja": "必ずしも"
+        },
+        "appears": {
+          "ja": "現れる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "neither a market price nor a public expenditure necessarily appears",
+          "ja": "市場価格も公的支出も必ずしも現れない",
+          "note": "expenditure「支出」。",
+          "pattern": "neither A nor B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "time": {
+          "ja": "時間"
+        },
+        "is still consumed": {
+          "ja": "それでも使われる"
+        },
+        "travel": {
+          "ja": "移動"
+        },
+        "required": {
+          "ja": "必要とされる"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "other work": {
+          "ja": "ほかの仕事"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "rest": {
+          "ja": "休息"
+        },
+        "is displaced": {
+          "ja": "押しのけられる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "other work or rest is displaced",
+          "ja": "ほかの仕事や休息が押しのけられる",
+          "note": "displace「（場所を）奪う」。",
+          "pattern": "displace 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "account": {
+          "ja": "会計"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "recognizes": {
+          "ja": "認める"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "market transactions": {
+          "ja": "市場での取引"
+        },
+        "may": {
+          "ja": "〜しうる"
+        },
+        "balance": {
+          "ja": "帳尻が合う"
+        },
+        "while": {
+          "ja": "〜しながら"
+        },
+        "misrepresenting": {
+          "ja": "誤って示すこと"
+        },
+        "the total burden on": {
+          "ja": "〜への負担の全体"
+        },
+        "life": {
+          "ja": "暮らし"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may balance while misrepresenting the total burden on life",
+          "ja": "暮らしへの負担全体を誤って示しながら帳尻が合いうる",
+          "note": "balance は動詞「（帳簿が）合う」。",
+          "pattern": "balance（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the final question": {
+          "ja": "最後の問い"
+        },
+        "is therefore not simply": {
+          "ja": "だから単に〜ではない"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "paid": {
+          "ja": "払った"
+        },
+        "money": {
+          "ja": "お金"
+        },
+        "but": {
+          "ja": "そうではなく"
+        },
+        "whose": {
+          "ja": "誰の"
+        },
+        "day": {
+          "ja": "一日が"
+        },
+        "received": {
+          "ja": "受け取った"
+        },
+        "the bill": {
+          "ja": "請求書"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not simply who paid money, but whose day received the bill",
+          "ja": "誰が払ったかではなく、誰の一日が請求書を受け取ったか",
+          "note": "bill「請求書」。",
+          "pattern": "not A but B / whose"
+        }
+      ]
+    }
   ]
 }
