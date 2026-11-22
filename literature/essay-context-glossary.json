@@ -28581,5 +28581,578 @@
         }
       ]
     }
+  ],
+  "DE-20260926-001": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "public piano": {
+          "ja": "公共ピアノ（ストリートピアノ）"
+        },
+        "makes": {
+          "ja": "〜にする"
+        },
+        "permission to": {
+          "ja": "〜してよいという許可"
+        },
+        "play": {
+          "ja": "弾く"
+        },
+        "visible": {
+          "ja": "目に見える"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝公共ピアノ）"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "impose": {
+          "ja": "課す"
+        },
+        "duty": {
+          "ja": "義務"
+        },
+        "on": {
+          "ja": "〜に"
+        },
+        "everyone nearby": {
+          "ja": "近くにいる全員"
+        },
+        "stop": {
+          "ja": "立ち止まる"
+        },
+        "listen": {
+          "ja": "聴く"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "silently": {
+          "ja": "黙って"
+        },
+        "accept": {
+          "ja": "受け入れる"
+        },
+        "long performance": {
+          "ja": "長い演奏"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not impose a duty on everyone nearby to stop, listen, or silently accept",
+          "ja": "近くの全員に立ち止まり聴く義務を課さない",
+          "note": "impose A on B「AをBに課す」。play はここで動詞「弾く」。",
+          "pattern": "impose A on B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the same floor": {
+          "ja": "同じ床"
+        },
+        "can be": {
+          "ja": "〜でありうる"
+        },
+        "a stage for": {
+          "ja": "〜にとっての舞台"
+        },
+        "the player": {
+          "ja": "弾き手"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "merely": {
+          "ja": "ただの"
+        },
+        "a passage for": {
+          "ja": "〜にとっての通路"
+        },
+        "someone else": {
+          "ja": "ほかの誰か"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a stage for the player and merely a passage for someone else",
+          "ja": "弾き手には舞台、ほかの人にはただの通路",
+          "note": "player はここで「演奏者」。",
+          "pattern": "for 〜（〜にとって）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "shared space": {
+          "ja": "共有の空間"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "shared purpose": {
+          "ja": "共有の目的"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Shared space does not guarantee a shared purpose",
+          "ja": "場所を共有しても目的を共有しているとは限らない",
+          "note": "shared を2回使った対比。",
+          "pattern": "guarantee 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "permission for": {
+          "ja": "〜への許可"
+        },
+        "one action": {
+          "ja": "一つの行為"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "automatically": {
+          "ja": "自動的に"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "obligation for": {
+          "ja": "〜にとっての義務"
+        },
+        "every bystander": {
+          "ja": "居合わせた全員"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Permission for one action cannot automatically become an obligation for every bystander",
+          "ja": "一つの許可が全員の義務に自動的に変わることはない",
+          "note": "許可と義務の区別。",
+          "pattern": "permission ≠ obligation"
+        }
+      ]
+    }
+  ],
+  "DE-20260926-002": [
+    {
+      "words": {
+        "musical enjoyment": {
+          "ja": "音楽の楽しさ"
+        },
+        "gathers": {
+          "ja": "集まる"
+        },
+        "inside": {
+          "ja": "〜の内側に"
+        },
+        "a circle of": {
+          "ja": "〜の輪"
+        },
+        "players": {
+          "ja": "弾き手"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "listeners": {
+          "ja": "聴き手"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "volume": {
+          "ja": "音量"
+        },
+        "occupied time": {
+          "ja": "占有される時間"
+        },
+        "practical costs": {
+          "ja": "現実の費用"
+        },
+        "travel beyond": {
+          "ja": "〜の外へ広がる"
+        },
+        "it": {
+          "ja": "それ（＝その輪）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "travel beyond it",
+          "ja": "輪の外へ広がる",
+          "note": "楽しさは内に、負担は外に。",
+          "pattern": "travel beyond 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "responsibility for": {
+          "ja": "〜の責任"
+        },
+        "soundproofing": {
+          "ja": "防音"
+        },
+        "security": {
+          "ja": "警備"
+        },
+        "cleaning": {
+          "ja": "清掃"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "complaints": {
+          "ja": "苦情対応"
+        },
+        "is unclear": {
+          "ja": "はっきりしない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "If responsibility for soundproofing, security, cleaning, and complaints is unclear",
+          "ja": "防音・警備・清掃・苦情の責任があいまいなら",
+          "note": "次のチャンクへ続く。",
+          "pattern": "responsibility for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "pleasure": {
+          "ja": "楽しみ"
+        },
+        "remains private": {
+          "ja": "私的なままである"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "the burden": {
+          "ja": "負担"
+        },
+        "becomes public": {
+          "ja": "公共のものになる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "pleasure remains private while the burden becomes public",
+          "ja": "楽しみは私的なまま、負担は公共のものになる",
+          "note": "while で対比。",
+          "pattern": "remain／become 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "music venue": {
+          "ja": "音楽会場"
+        },
+        "uses": {
+          "ja": "使う"
+        },
+        "walls": {
+          "ja": "壁"
+        },
+        "admission": {
+          "ja": "入場料"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "schedules": {
+          "ja": "時間割"
+        },
+        "not simply to": {
+          "ja": "単に〜するためではなく"
+        },
+        "contain": {
+          "ja": "閉じ込める"
+        },
+        "sound": {
+          "ja": "音"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not simply to contain sound",
+          "ja": "単に音を閉じ込めるためではなく",
+          "note": "次のチャンクの but to へ続く。",
+          "pattern": "not simply to A but to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but to": {
+          "ja": "…するためだ"
+        },
+        "bring": {
+          "ja": "寄せる"
+        },
+        "beneficiaries": {
+          "ja": "利益を受ける人"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "cost bearers": {
+          "ja": "費用を負う人"
+        },
+        "closer together": {
+          "ja": "より近くに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "bring beneficiaries and cost bearers closer together",
+          "ja": "利益を受ける人と費用を負う人を近づける",
+          "note": "closer together「互いにより近く」。",
+          "pattern": "bring A closer together"
+        }
+      ]
+    }
+  ],
+  "DE-20260926-003": [
+    {
+      "words": {
+        "zoning": {
+          "ja": "ゾーニング（場所の区分け）"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "resemble": {
+          "ja": "似る"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "cage": {
+          "ja": "檻"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝ゾーニング）"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "preserve": {
+          "ja": "保つ"
+        },
+        "society's": {
+          "ja": "社会の"
+        },
+        "ability to": {
+          "ja": "〜する力"
+        },
+        "negotiate": {
+          "ja": "話し合って決める"
+        },
+        "boundaries": {
+          "ja": "境界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "preserve society's ability to negotiate boundaries",
+          "ja": "社会が境界を話し合う力を保つ",
+          "note": "negotiate「交渉する」。",
+          "pattern": "ability to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "campaign for": {
+          "ja": "〜を求める運動"
+        },
+        "freedom": {
+          "ja": "自由"
+        },
+        "expands into": {
+          "ja": "〜へと広がる"
+        },
+        "every space": {
+          "ja": "あらゆる空間"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When a campaign for freedom expands into every space",
+          "ja": "自由を求める運動があらゆる場所へ広がると",
+          "note": "次のチャンクへ続く。",
+          "pattern": "expand into 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝その運動）"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "demand": {
+          "ja": "要求"
+        },
+        "that": {
+          "ja": "（同格）〜という"
+        },
+        "one form of": {
+          "ja": "ある一つの形の"
+        },
+        "expression": {
+          "ja": "表現"
+        },
+        "always": {
+          "ja": "常に"
+        },
+        "take priority": {
+          "ja": "優先される"
+        },
+        "narrowing": {
+          "ja": "狭めて"
+        },
+        "the freedom of": {
+          "ja": "〜の自由"
+        },
+        "other users": {
+          "ja": "ほかの利用者"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a demand that one form of expression always take priority",
+          "ja": "一つの表現を常に優先せよという要求",
+          "note": "demand that の後は原形 take（仮定法現在）。",
+          "pattern": "要求の that 節（原形）"
+        },
+        {
+          "en": "narrowing the freedom of other users",
+          "ja": "ほかの利用者の自由を狭めながら",
+          "note": "結果を表す -ing。",
+          "pattern": "分詞構文"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "boundaryless victory": {
+          "ja": "境界のない勝利"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "invites": {
+          "ja": "招く"
+        },
+        "harsher rule": {
+          "ja": "より厳しい規則"
+        },
+        "afterward": {
+          "ja": "その後で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "often invites a harsher rule afterward",
+          "ja": "後でより厳しい規則を招きやすい",
+          "note": "invite「（悪い結果を）招く」。",
+          "pattern": "invite 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "durable freedom": {
+          "ja": "長続きする自由"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "the right to": {
+          "ja": "〜する権利"
+        },
+        "maximize": {
+          "ja": "最大にする"
+        },
+        "sound": {
+          "ja": "音"
+        },
+        "everywhere": {
+          "ja": "どこでも"
+        },
+        "but": {
+          "ja": "そうではなく"
+        },
+        "the ability to": {
+          "ja": "〜する力"
+        },
+        "renegotiate": {
+          "ja": "話し合い直す"
+        },
+        "where": {
+          "ja": "どこに"
+        },
+        "belongs": {
+          "ja": "あるべきか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the ability to renegotiate where sound belongs",
+          "ja": "音がどこにあるべきかを話し合い直す力",
+          "note": "right はここで名詞「権利」。",
+          "pattern": "belong（ある場所にふさわしい）"
+        }
+      ]
+    }
   ]
 }
