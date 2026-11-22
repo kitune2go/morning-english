@@ -30936,5 +30936,566 @@
         }
       ]
     }
+  ],
+  "DE-20260922-001": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "monument": {
+          "ja": "記念物"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "preserve": {
+          "ja": "保存する"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "materials": {
+          "ja": "材料"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "date": {
+          "ja": "年代"
+        },
+        "without preserving": {
+          "ja": "保存しないまま"
+        },
+        "a single purpose": {
+          "ja": "一つの目的"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can preserve its materials and date without preserving a single purpose",
+          "ja": "材料と年代は残せても一つの目的までは残さない",
+          "note": "date はここで「年代」（日付・デートではない）。",
+          "pattern": "without -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "prayer": {
+          "ja": "祈り"
+        },
+        "tourism": {
+          "ja": "観光"
+        },
+        "memory": {
+          "ja": "記憶"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "strangeness": {
+          "ja": "奇妙さ"
+        },
+        "gather around": {
+          "ja": "〜の周りに集まる"
+        },
+        "the same structure": {
+          "ja": "同じ建造物"
+        },
+        "as time passes": {
+          "ja": "時がたつにつれ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "as time passes",
+          "ja": "時がたつにつれて",
+          "note": "as「〜につれて」。",
+          "pattern": "as（比例）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "engineering": {
+          "ja": "工学"
+        },
+        "may": {
+          "ja": "〜できるかもしれない"
+        },
+        "keep a statue standing": {
+          "ja": "像を立たせ続ける"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝工学）"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "freeze": {
+          "ja": "凍結する"
+        },
+        "its": {
+          "ja": "その（＝像の）"
+        },
+        "meaning": {
+          "ja": "意味"
+        }
+      },
+      "phrases": [
+        {
+          "en": "keep a statue standing",
+          "ja": "像を立たせ続ける",
+          "note": "keep＋目的語＋-ing「Aを〜させ続ける」。",
+          "pattern": "keep A -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "like": {
+          "ja": "〜のように"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "festival": {
+          "ja": "祭り"
+        },
+        "repeated": {
+          "ja": "繰り返される"
+        },
+        "before": {
+          "ja": "〜より前に"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "explanation": {
+          "ja": "説明"
+        },
+        "is settled": {
+          "ja": "定まる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Like a festival repeated before its explanation is settled",
+          "ja": "説明が定まる前から繰り返される祭りのように",
+          "note": "like は前置詞「〜のように」。",
+          "pattern": "like 〜 / 名詞 + 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the monument": {
+          "ja": "その記念物"
+        },
+        "acquires": {
+          "ja": "得る"
+        },
+        "new purposes": {
+          "ja": "新しい目的"
+        },
+        "simply by": {
+          "ja": "ただ〜するだけで"
+        },
+        "remaining in place": {
+          "ja": "その場にあり続けること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "simply by remaining in place",
+          "ja": "その場に残っているだけで",
+          "note": "in place「所定の場所に」。",
+          "pattern": "by -ing / in place"
+        }
+      ]
+    }
+  ],
+  "DE-20260922-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "crowd": {
+          "ja": "群衆"
+        },
+        "in the street": {
+          "ja": "街頭の"
+        },
+        "proves that": {
+          "ja": "〜を証明する"
+        },
+        "dissatisfaction": {
+          "ja": "不満"
+        },
+        "exists": {
+          "ja": "存在する"
+        },
+        "but not that": {
+          "ja": "しかし〜までは証明しない"
+        },
+        "every claim": {
+          "ja": "すべての主張"
+        },
+        "is correct": {
+          "ja": "正しい"
+        }
+      },
+      "phrases": [
+        {
+          "en": "proves that dissatisfaction exists, but not that every claim is correct",
+          "ja": "不満の存在は証明しても、主張の正しさまでは証明しない",
+          "note": "but (does) not (prove) that の省略。",
+          "pattern": "省略（but not）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "nor does": {
+          "ja": "〜もまた…しない"
+        },
+        "visibility": {
+          "ja": "目に見えること"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "political effect": {
+          "ja": "政治的な効果"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Nor does visibility guarantee political effect",
+          "ja": "見えることが政治的効果を保証するわけでもない",
+          "note": "nor が文頭に来ると疑問文の語順（does visibility guarantee）。",
+          "pattern": "nor + 倒置"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "numbers": {
+          "ja": "人数"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "the conclusion": {
+          "ja": "結論"
+        },
+        "decision-making power": {
+          "ja": "決定する権限"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "institutional routes": {
+          "ja": "制度上の道筋"
+        },
+        "disappear from view": {
+          "ja": "見えなくなる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "decision-making power and institutional routes disappear from view",
+          "ja": "決定権と制度の道筋が見えなくなる",
+          "note": "routes「経路」。",
+          "pattern": "disappear from view"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "demonstration": {
+          "ja": "デモ"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "event": {
+          "ja": "出来事"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "demands": {
+          "ja": "求める"
+        },
+        "interpretation": {
+          "ja": "解釈"
+        }
+      },
+      "phrases": [
+        {
+          "en": "an event that demands interpretation",
+          "ja": "解釈を求める出来事",
+          "note": "demonstration はここで「デモ」（実演ではない）。",
+          "pattern": "demand 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "completed explanation": {
+          "ja": "完成した説明"
+        },
+        "of": {
+          "ja": "〜についての"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "caused": {
+          "ja": "引き起こしたか"
+        },
+        "change": {
+          "ja": "変化"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not a completed explanation of what caused change",
+          "ja": "何が変化を起こしたかの完成した説明ではない",
+          "note": "前チャンクの続き。",
+          "pattern": "what 節"
+        }
+      ]
+    }
+  ],
+  "DE-20260922-003": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "reporting system": {
+          "ja": "報告の仕組み"
+        },
+        "shapes": {
+          "ja": "形づくる"
+        },
+        "what": {
+          "ja": "何を"
+        },
+        "disclosed failure": {
+          "ja": "開示された失敗"
+        },
+        "will mean": {
+          "ja": "意味することになるか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "shapes what a disclosed failure will mean",
+          "ja": "開示された失敗が何を意味するかを形づくる",
+          "note": "reporting はここで「報告」（報道ではない）。",
+          "pattern": "what 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "speaking": {
+          "ja": "話すこと"
+        },
+        "leads": {
+          "ja": "つながる"
+        },
+        "immediately": {
+          "ja": "すぐに"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "punishment": {
+          "ja": "罰"
+        },
+        "the next person": {
+          "ja": "次の人"
+        },
+        "learns": {
+          "ja": "学ぶ"
+        },
+        "silence": {
+          "ja": "沈黙"
+        }
+      },
+      "phrases": [
+        {
+          "en": "speaking leads immediately to punishment",
+          "ja": "話すとすぐ罰につながる",
+          "note": "lead to「〜につながる」。",
+          "pattern": "lead to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "confidentiality": {
+          "ja": "秘密が守られること"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "non-punitive reporting": {
+          "ja": "罰しない報告"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "carry": {
+          "ja": "運ぶ"
+        },
+        "facts": {
+          "ja": "事実"
+        },
+        "toward": {
+          "ja": "〜へ"
+        },
+        "organizational learning": {
+          "ja": "組織の学び"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carry facts toward organizational learning",
+          "ja": "事実を組織の学びへ運ぶ",
+          "note": "non-punitive「罰を与えない」。",
+          "pattern": "carry A toward B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "this": {
+          "ja": "これ（＝罰しない報告）"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "erase": {
+          "ja": "消す"
+        },
+        "responsibility": {
+          "ja": "責任"
+        }
+      },
+      "phrases": [
+        {
+          "en": "This does not erase responsibility",
+          "ja": "これは責任を消すことではない",
+          "note": "次のチャンクへ続く。",
+          "pattern": "erase 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝罰しない報告）"
+        },
+        "moves": {
+          "ja": "移す"
+        },
+        "inquiry": {
+          "ja": "調査"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "a single person": {
+          "ja": "一人の人"
+        },
+        "back to": {
+          "ja": "〜へと戻して"
+        },
+        "equipment": {
+          "ja": "設備"
+        },
+        "procedure": {
+          "ja": "手順"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "authority": {
+          "ja": "権限"
+        }
+      },
+      "phrases": [
+        {
+          "en": "moves inquiry from a single person back to equipment, procedure, and authority",
+          "ja": "調査を一人から設備・手順・権限へ戻す",
+          "note": "個人責任から仕組みの検討へ。",
+          "pattern": "move A from B back to C"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "confession": {
+          "ja": "告白"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "then": {
+          "ja": "そのとき"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "material for": {
+          "ja": "〜のための材料"
+        },
+        "preventing": {
+          "ja": "防ぐこと"
+        },
+        "the next accident": {
+          "ja": "次の事故"
+        }
+      },
+      "phrases": [
+        {
+          "en": "material for preventing the next accident",
+          "ja": "次の事故を防ぐための材料",
+          "note": "for＋動名詞で用途。",
+          "pattern": "for -ing"
+        }
+      ]
+    }
   ]
 }
