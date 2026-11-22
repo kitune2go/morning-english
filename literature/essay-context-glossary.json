@@ -27399,5 +27399,1187 @@
         }
       ]
     }
+  ],
+  "DE-20260928-001": [
+    {
+      "words": {
+        "in": {
+          "ja": "〜では"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "fraud case": {
+          "ja": "詐欺事件"
+        },
+        "the victim": {
+          "ja": "被害者"
+        },
+        "may be": {
+          "ja": "〜かもしれない"
+        },
+        "the person who": {
+          "ja": "〜する人"
+        },
+        "physically": {
+          "ja": "実際に（手で）"
+        },
+        "presses": {
+          "ja": "押す"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "transfer button": {
+          "ja": "送金ボタン"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the victim may be the person who physically presses the transfer button",
+          "ja": "送金ボタンを実際に押すのは被害者かもしれない",
+          "note": "physically「物理的に・自分の手で」。",
+          "pattern": "the person who 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "that visible act": {
+          "ja": "その目に見える行為"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "tell": {
+          "ja": "語る"
+        },
+        "the whole": {
+          "ja": "全体の"
+        },
+        "causal story": {
+          "ja": "因果の筋書き"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not tell the whole causal story",
+          "ja": "因果の全体は語らない",
+          "note": "見える行為≠原因のすべて。",
+          "pattern": "tell the whole story"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "false identity": {
+          "ja": "偽の身元"
+        },
+        "manufactured urgency": {
+          "ja": "作られた緊急性"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "instructions": {
+          "ja": "指示"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "remove": {
+          "ja": "奪う"
+        },
+        "time for reflection": {
+          "ja": "考える時間"
+        },
+        "have already shaped": {
+          "ja": "すでに形づくっている"
+        },
+        "the available choices": {
+          "ja": "選べる選択肢"
+        }
+      },
+      "phrases": [
+        {
+          "en": "instructions that remove time for reflection",
+          "ja": "考える時間を奪う指示",
+          "note": "reflection はここで「よく考えること」。",
+          "pattern": "time for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "responsibility": {
+          "ja": "責任"
+        },
+        "follows": {
+          "ja": "たどっていく"
+        },
+        "the person who": {
+          "ja": "〜した人"
+        },
+        "designed": {
+          "ja": "設計した"
+        },
+        "that path": {
+          "ja": "その経路"
+        },
+        "not merely": {
+          "ja": "単に〜ではなく"
+        },
+        "the finger": {
+          "ja": "指"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "completed": {
+          "ja": "完了させた"
+        },
+        "the transaction": {
+          "ja": "取引"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not merely the finger that completed the transaction",
+          "ja": "取引を完了させた指だけではなく",
+          "note": "責任は経路を作った人へ向かう。",
+          "pattern": "not merely 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260928-002": [
+    {
+      "words": {
+        "at": {
+          "ja": "〜で"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "national commemoration": {
+          "ja": "国の記念式典"
+        },
+        "officials": {
+          "ja": "公職者"
+        },
+        "on stage": {
+          "ja": "壇上の"
+        },
+        "speak": {
+          "ja": "話す"
+        },
+        "in the name of": {
+          "ja": "〜の名において"
+        },
+        "the public": {
+          "ja": "国民"
+        }
+      },
+      "phrases": [
+        {
+          "en": "speak in the name of the public",
+          "ja": "国民の名において語る",
+          "note": "in the name of「〜の代表として」。",
+          "pattern": "in the name of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "the word": {
+          "ja": "その言葉"
+        },
+        "we": {
+          "ja": "私たち"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "sound distant": {
+          "ja": "遠く聞こえる"
+        },
+        "to": {
+          "ja": "〜にとって"
+        },
+        "people who": {
+          "ja": "〜した人々"
+        },
+        "were": {
+          "ja": "〜だった"
+        },
+        "neither": {
+          "ja": "〜でも…でもない"
+        },
+        "invited": {
+          "ja": "招かれた"
+        },
+        "nor": {
+          "ja": "〜でも"
+        },
+        "able to": {
+          "ja": "〜できる"
+        },
+        "participate": {
+          "ja": "参加する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can sound distant to people who were neither invited nor able to participate",
+          "ja": "招かれず参加もできなかった人には遠く聞こえる",
+          "note": "sound はここで動詞「〜に聞こえる」。",
+          "pattern": "sound 形容詞 / neither A nor B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "representation": {
+          "ja": "代表すること"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "magic": {
+          "ja": "魔法"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "fuses": {
+          "ja": "溶かし合わせる"
+        },
+        "every citizen": {
+          "ja": "すべての市民"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "one body": {
+          "ja": "一つの体"
+        },
+        "it": {
+          "ja": "それ（＝代表）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "temporary arrangement": {
+          "ja": "一時的な取り決め"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "speaking authority": {
+          "ja": "発言の権限"
+        }
+      },
+      "phrases": [
+        {
+          "en": "magic that fuses every citizen into one body",
+          "ja": "全市民を一つの体に溶かし合わせる魔法",
+          "note": "fuse「融合させる」。",
+          "pattern": "fuse A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the more": {
+          "ja": "〜すればするほど"
+        },
+        "closed": {
+          "ja": "閉じた"
+        },
+        "the ceremony": {
+          "ja": "式典"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "the easier": {
+          "ja": "いっそう容易に"
+        },
+        "it is to": {
+          "ja": "〜することが"
+        },
+        "mistake": {
+          "ja": "取り違える"
+        },
+        "one": {
+          "ja": "一つの"
+        },
+        "official voice": {
+          "ja": "公的な声"
+        },
+        "for": {
+          "ja": "〜と"
+        },
+        "the voice of": {
+          "ja": "〜の声"
+        },
+        "everyone": {
+          "ja": "全員"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The more closed the ceremony becomes, the easier it is to mistake one official voice for the voice of everyone",
+          "ja": "式典が閉じるほど、一つの声を全員の声と取り違えやすい",
+          "note": "it は to mistake 以下を指す形式主語。",
+          "pattern": "the 比較級 ..., the 比較級 ... / mistake A for B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "should": {
+          "ja": "〜すべきだ"
+        },
+        "ask": {
+          "ja": "問う"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "lacked": {
+          "ja": "持たなかった"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "seat": {
+          "ja": "席"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "whose": {
+          "ja": "誰の"
+        },
+        "silence": {
+          "ja": "沈黙"
+        },
+        "was counted as": {
+          "ja": "〜として数えられた"
+        },
+        "consent": {
+          "ja": "同意"
+        }
+      },
+      "phrases": [
+        {
+          "en": "whose silence was counted as consent",
+          "ja": "誰の沈黙が同意とみなされたか",
+          "note": "count as「〜とみなす」。",
+          "pattern": "count A as B"
+        }
+      ]
+    }
+  ],
+  "DE-20260928-003": [
+    {
+      "words": {
+        "ai": {
+          "ja": "AI"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "empower": {
+          "ja": "力を与える"
+        },
+        "only": {
+          "ja": "〜だけに"
+        },
+        "the well-intentioned": {
+          "ja": "善意の人々"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not empower only the well-intentioned",
+          "ja": "善意の人だけに力を与えるわけではない",
+          "note": "the＋形容詞で「〜な人々」。",
+          "pattern": "the + 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝AI）"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "accelerate": {
+          "ja": "速める"
+        },
+        "careful research": {
+          "ja": "慎重な研究"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "multiply": {
+          "ja": "増やす"
+        },
+        "fraudulent messages": {
+          "ja": "詐欺のメッセージ"
+        },
+        "fanatic propaganda": {
+          "ja": "狂信的な宣伝"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "an": {
+          "ja": "ひとりの"
+        },
+        "attacker's": {
+          "ja": "攻撃者の"
+        },
+        "attempts": {
+          "ja": "試み"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can also multiply fraudulent messages",
+          "ja": "詐欺のメッセージも増やせる",
+          "note": "multiply「（数を）増やす」。",
+          "pattern": "multiply 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the absence of": {
+          "ja": "〜がないこと"
+        },
+        "machine intention": {
+          "ja": "機械の意図"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "guarantee of": {
+          "ja": "〜の保証"
+        },
+        "safety": {
+          "ja": "安全"
+        },
+        "neutral amplifier": {
+          "ja": "中立の増幅器"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "serve": {
+          "ja": "役立つ"
+        },
+        "any": {
+          "ja": "どんな〜でも"
+        },
+        "human purpose": {
+          "ja": "人間の目的"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a neutral amplifier can serve any human purpose",
+          "ja": "中立な増幅器はどんな人間の目的にも使える",
+          "note": "serve「〜の役に立つ」。",
+          "pattern": "serve 〜 / any"
+        }
+      ]
+    },
+    {
+      "words": {
+        "responsibility": {
+          "ja": "責任"
+        },
+        "therefore": {
+          "ja": "だから"
+        },
+        "includes": {
+          "ja": "含む"
+        },
+        "the permissions": {
+          "ja": "権限"
+        },
+        "limits": {
+          "ja": "制限"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "distribution systems": {
+          "ja": "配布の仕組み"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "amplification": {
+          "ja": "増幅"
+        },
+        "possible": {
+          "ja": "可能な"
+        }
+      },
+      "phrases": [
+        {
+          "en": "distribution systems that make amplification possible",
+          "ja": "増幅を可能にする配布の仕組み",
+          "note": "make＋目的語＋形容詞。",
+          "pattern": "make A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "ethics": {
+          "ja": "倫理"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "govern": {
+          "ja": "統制する"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "gains": {
+          "ja": "得る"
+        },
+        "power": {
+          "ja": "力"
+        },
+        "for what task": {
+          "ja": "何の仕事のために"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "to what extent": {
+          "ja": "どの程度まで"
+        }
+      },
+      "phrases": [
+        {
+          "en": "who gains power, for what task, and to what extent",
+          "ja": "誰が、何のために、どこまで力を得るか",
+          "note": "to what extent「どの程度まで」。",
+          "pattern": "to what extent"
+        }
+      ]
+    }
+  ],
+  "DE-20260927-001": [
+    {
+      "words": {
+        "cutting": {
+          "ja": "切ること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "garden tree": {
+          "ja": "庭木"
+        },
+        "makes": {
+          "ja": "〜させる"
+        },
+        "the view": {
+          "ja": "景色"
+        },
+        "feel lighter": {
+          "ja": "軽く感じられる"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the branches": {
+          "ja": "枝"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "vanish": {
+          "ja": "消える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "makes the view feel lighter",
+          "ja": "景色を軽く感じさせる",
+          "note": "make＋目的語＋原形。",
+          "pattern": "make A 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "in": {
+          "ja": "〜では"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "dense neighborhood": {
+          "ja": "住宅の密集地"
+        },
+        "where": {
+          "ja": "（関係副詞）〜する"
+        },
+        "burning": {
+          "ja": "燃やすこと"
+        },
+        "is impossible": {
+          "ja": "できない"
+        },
+        "they": {
+          "ja": "それら（＝枝）"
+        },
+        "remain as": {
+          "ja": "〜として残る"
+        },
+        "transport": {
+          "ja": "運搬"
+        },
+        "disposal": {
+          "ja": "処分"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "household costs": {
+          "ja": "家計の負担"
+        }
+      },
+      "phrases": [
+        {
+          "en": "they remain as transport, disposal, and household costs",
+          "ja": "枝は運搬・処分・家計の負担として残る",
+          "note": "物が費用に姿を変えて残る。",
+          "pattern": "remain as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "contractor's estimate": {
+          "ja": "業者の見積もり"
+        },
+        "of": {
+          "ja": "〜の（金額）"
+        },
+        "several hundred thousand yen": {
+          "ja": "数十万円"
+        },
+        "cannot be treated as": {
+          "ja": "〜として扱えない"
+        },
+        "minor detail": {
+          "ja": "ささいなこと"
+        }
+      },
+      "phrases": [
+        {
+          "en": "several hundred thousand yen",
+          "ja": "数十万円",
+          "note": "英語は「数百×千」で数える。",
+          "pattern": "several hundred thousand"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "declare": {
+          "ja": "宣言する"
+        },
+        "the job": {
+          "ja": "作業"
+        },
+        "finished": {
+          "ja": "終わったと"
+        },
+        "at the cut": {
+          "ja": "切った時点で"
+        },
+        "the branches": {
+          "ja": "枝"
+        },
+        "merely": {
+          "ja": "ただ"
+        },
+        "cross": {
+          "ja": "越える"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "boundary": {
+          "ja": "境界"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "reappear as": {
+          "ja": "〜として再び現れる"
+        },
+        "someone else's": {
+          "ja": "ほかの誰かの"
+        },
+        "burden": {
+          "ja": "負担"
+        }
+      },
+      "phrases": [
+        {
+          "en": "declare the job finished at the cut",
+          "ja": "切った時点で作業完了と言う",
+          "note": "declare＋目的語＋形容詞「Aを〜だと宣言する」。",
+          "pattern": "declare A 形容詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260927-002": [
+    {
+      "words": {
+        "medicine": {
+          "ja": "医学"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "measure": {
+          "ja": "測る"
+        },
+        "bodily change": {
+          "ja": "身体の変化"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "describe": {
+          "ja": "記述する"
+        },
+        "patterns among": {
+          "ja": "〜の間のパターン"
+        },
+        "symptoms": {
+          "ja": "症状"
+        }
+      },
+      "phrases": [
+        {
+          "en": "describe patterns among symptoms",
+          "ja": "症状同士のパターンを記述する",
+          "note": "among「（3つ以上）の間で」。",
+          "pattern": "among 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "measurement": {
+          "ja": "測定"
+        },
+        "alone": {
+          "ja": "〜だけでは"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "decide": {
+          "ja": "決める"
+        },
+        "where": {
+          "ja": "どこから"
+        },
+        "illness": {
+          "ja": "病気"
+        },
+        "begins": {
+          "ja": "始まるか"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "receives": {
+          "ja": "受けるか"
+        },
+        "treatment": {
+          "ja": "治療"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "support": {
+          "ja": "支援"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Measurement alone, however, cannot decide where illness begins",
+          "ja": "測定だけでは病気がどこから始まるかは決められない",
+          "note": "alone「〜だけ」。",
+          "pattern": "名詞 + alone"
+        }
+      ]
+    },
+    {
+      "words": {
+        "classification": {
+          "ja": "分類"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "carries": {
+          "ja": "運び込む"
+        },
+        "institutions": {
+          "ja": "制度"
+        },
+        "budgets": {
+          "ja": "予算"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "judgments about": {
+          "ja": "〜についての判断"
+        },
+        "value": {
+          "ja": "価値"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carries institutions, budgets, and judgments about value",
+          "ja": "制度・予算・価値判断も運び込む",
+          "note": "分類は中立ではない、という指摘。",
+          "pattern": "carry 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the task": {
+          "ja": "課題"
+        },
+        "is not to": {
+          "ja": "〜することではない"
+        },
+        "abandon": {
+          "ja": "捨てる"
+        },
+        "categories": {
+          "ja": "分類"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The task is not to abandon categories",
+          "ja": "課題は分類を捨てることではない",
+          "note": "次の文で本当の課題を言う。",
+          "pattern": "be not to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝課題）"
+        },
+        "is to": {
+          "ja": "〜することだ"
+        },
+        "show": {
+          "ja": "示す"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "drew": {
+          "ja": "引いた"
+        },
+        "each boundary": {
+          "ja": "それぞれの境界"
+        },
+        "for what purpose": {
+          "ja": "何の目的で"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "with what consequences": {
+          "ja": "どんな結果を伴って"
+        }
+      },
+      "phrases": [
+        {
+          "en": "who drew each boundary, for what purpose, and with what consequences",
+          "ja": "誰が、何のために、どんな結果を伴って境界を引いたか",
+          "note": "with what consequences「どんな結果で」。",
+          "pattern": "疑問詞句の並列"
+        }
+      ]
+    }
+  ],
+  "DE-20260927-003": [
+    {
+      "words": {
+        "defending": {
+          "ja": "守ること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "village": {
+          "ja": "村"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "wolves": {
+          "ja": "オオカミ"
+        },
+        "has": {
+          "ja": "持つ"
+        },
+        "visible end": {
+          "ja": "はっきりした終わり"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Defending a village from wolves has a visible end",
+          "ja": "オオカミから村を守ることには目に見える終わりがある",
+          "note": "end はここで「終わり」。",
+          "pattern": "defend A from B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "preserving": {
+          "ja": "保つこと"
+        },
+        "the organization": {
+          "ja": "組織"
+        },
+        "after victory": {
+          "ja": "勝った後も"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "requires": {
+          "ja": "必要とする"
+        },
+        "another threat": {
+          "ja": "別の脅威"
+        },
+        "first": {
+          "ja": "まず"
+        },
+        "the fox": {
+          "ja": "キツネ"
+        },
+        "then": {
+          "ja": "次に"
+        },
+        "the rabbit": {
+          "ja": "ウサギ"
+        },
+        "and finally": {
+          "ja": "そして最後に"
+        },
+        "any villager who": {
+          "ja": "〜するどんな村人でも"
+        },
+        "resists": {
+          "ja": "抵抗する"
+        },
+        "surveillance": {
+          "ja": "監視"
+        }
+      },
+      "phrases": [
+        {
+          "en": "requires another threat: first the fox, then the rabbit, and finally any villager",
+          "ja": "別の脅威が要る――まずキツネ、次にウサギ、最後に村人",
+          "note": "順序を表す副詞の並び。",
+          "pattern": "first ..., then ..., and finally ..."
+        }
+      ]
+    },
+    {
+      "words": {
+        "strong": {
+          "ja": "強い"
+        },
+        "initial legitimacy": {
+          "ja": "最初の正当性"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "make": {
+          "ja": "〜させる"
+        },
+        "each expansion": {
+          "ja": "一つ一つの拡大"
+        },
+        "look like": {
+          "ja": "〜のように見える"
+        },
+        "faithful continuity": {
+          "ja": "忠実な継続"
+        }
+      },
+      "phrases": [
+        {
+          "en": "make each expansion look like faithful continuity",
+          "ja": "拡大を忠実な継続のように見せる",
+          "note": "legitimacy「正当性」。",
+          "pattern": "make A 動詞 / look like 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "saying": {
+          "ja": "言うこと"
+        },
+        "we have not lost": {
+          "ja": "まだ負けていない"
+        },
+        "does more than": {
+          "ja": "〜以上のことをする"
+        },
+        "deny": {
+          "ja": "否定する"
+        },
+        "defeat": {
+          "ja": "敗北"
+        },
+        "it": {
+          "ja": "それ（＝そう言うこと）"
+        },
+        "removes": {
+          "ja": "取り除く"
+        },
+        "the condition for": {
+          "ja": "〜の条件"
+        },
+        "stopping": {
+          "ja": "やめること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does more than deny defeat; it removes the condition for stopping",
+          "ja": "敗北を否定する以上に、やめる条件をなくす",
+          "note": "lost は lose の過去分詞「負けた」。",
+          "pattern": "do more than 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "role": {
+          "ja": "役割"
+        },
+        "loses": {
+          "ja": "失う"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "boundary": {
+          "ja": "境界"
+        },
+        "protection": {
+          "ja": "保護"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "machine for": {
+          "ja": "〜するための機械"
+        },
+        "producing": {
+          "ja": "生み出すこと"
+        },
+        "enemies": {
+          "ja": "敵"
+        }
+      },
+      "phrases": [
+        {
+          "en": "protection can become a machine for producing enemies",
+          "ja": "保護が敵を生み出す機械になりうる",
+          "note": "for＋動名詞で用途。",
+          "pattern": "a machine for -ing"
+        }
+      ]
+    }
   ]
 }
