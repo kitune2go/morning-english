@@ -26817,5 +26817,587 @@
         }
       ]
     }
+  ],
+  "DE-20260929-001": [
+    {
+      "words": {
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "single character": {
+          "ja": "一文字"
+        },
+        "has": {
+          "ja": "持っている"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "itinerary": {
+          "ja": "旅程"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Even a single character has an itinerary",
+          "ja": "一文字でさえ旅程を持つ",
+          "note": "character はここで「文字」（登場人物ではない）。",
+          "pattern": "even 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the idea of": {
+          "ja": "〜という観念"
+        },
+        "nothingness": {
+          "ja": "無"
+        },
+        "traveled through": {
+          "ja": "〜を通って旅した"
+        },
+        "buddhist vocabulary": {
+          "ja": "仏教の語彙"
+        },
+        "classical chinese": {
+          "ja": "漢文"
+        },
+        "schooling": {
+          "ja": "学校教育"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "generations of reading": {
+          "ja": "何世代もの読書"
+        },
+        "before": {
+          "ja": "〜する前に"
+        },
+        "it": {
+          "ja": "それ（＝無の観念）"
+        },
+        "reached": {
+          "ja": "たどり着いた"
+        },
+        "modern poetry": {
+          "ja": "近代詩"
+        }
+      },
+      "phrases": [
+        {
+          "en": "traveled through Buddhist vocabulary, classical Chinese, schooling, and generations of reading",
+          "ja": "仏教語・漢文・教育・読書を通って旅した",
+          "note": "言葉の伝わり方を旅にたとえる。",
+          "pattern": "travel through 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "there": {
+          "ja": "そこで（＝近代詩で）"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "poet": {
+          "ja": "詩人"
+        },
+        "could": {
+          "ja": "〜できた"
+        },
+        "turn": {
+          "ja": "変える"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "inherited term": {
+          "ja": "受け継いだ語"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "the texture of": {
+          "ja": "〜の手触り"
+        },
+        "his own night": {
+          "ja": "自分自身の夜"
+        }
+      },
+      "phrases": [
+        {
+          "en": "turn an inherited term into the texture of his own night",
+          "ja": "受け継いだ語を自分の夜の手触りに変える",
+          "note": "texture「質感・手触り」。",
+          "pattern": "turn A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "word": {
+          "ja": "言葉"
+        },
+        "gains": {
+          "ja": "得る"
+        },
+        "depth": {
+          "ja": "奥行き"
+        },
+        "not only from": {
+          "ja": "〜からだけでなく"
+        },
+        "definition": {
+          "ja": "定義"
+        },
+        "but from": {
+          "ja": "…からも"
+        },
+        "the people": {
+          "ja": "人々"
+        },
+        "institutions": {
+          "ja": "制度"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "anxieties": {
+          "ja": "不安"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "have carried": {
+          "ja": "運んできた"
+        },
+        "it": {
+          "ja": "それ（＝その言葉）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not only from definition, but from the people",
+          "ja": "定義だけでなく人々からも",
+          "note": "from が両方にかかる。",
+          "pattern": "not only from A but from B"
+        }
+      ]
+    }
+  ],
+  "DE-20260929-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "poem": {
+          "ja": "詩"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "fill": {
+          "ja": "満たす"
+        },
+        "a room": {
+          "ja": "部屋"
+        },
+        "and still": {
+          "ja": "それでも"
+        },
+        "arrive": {
+          "ja": "届く"
+        },
+        "without": {
+          "ja": "〜なしで"
+        },
+        "its": {
+          "ja": "その（＝詩の）"
+        },
+        "map": {
+          "ja": "地図"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can fill a room and still arrive without its map",
+          "ja": "部屋を満たしても地図なしで届くことがある",
+          "note": "背景知識なしに届く、という比喩。",
+          "pattern": "and still"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "literary tour": {
+          "ja": "文学ツアー"
+        },
+        "omits": {
+          "ja": "省く"
+        },
+        "the writers": {
+          "ja": "作家"
+        },
+        "books": {
+          "ja": "本"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "arguments": {
+          "ja": "論争"
+        },
+        "surrounding": {
+          "ja": "〜を取り巻く"
+        },
+        "the work": {
+          "ja": "作品"
+        },
+        "local anecdotes": {
+          "ja": "その土地の逸話"
+        },
+        "begin to": {
+          "ja": "〜し始める"
+        },
+        "replace": {
+          "ja": "取って代わる"
+        },
+        "context": {
+          "ja": "文脈"
+        }
+      },
+      "phrases": [
+        {
+          "en": "local anecdotes begin to replace context",
+          "ja": "土地の逸話が文脈に取って代わり始める",
+          "note": "replace「〜に取って代わる」。",
+          "pattern": "replace 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "literature": {
+          "ja": "文学"
+        },
+        "then": {
+          "ja": "すると"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "decorative label": {
+          "ja": "飾りの札"
+        },
+        "for": {
+          "ja": "〜のための"
+        },
+        "a destination": {
+          "ja": "行き先・観光地"
+        }
+      },
+      "phrases": [
+        {
+          "en": "becomes a decorative label for a destination",
+          "ja": "観光地の飾り札になる",
+          "note": "destination「目的地」。",
+          "pattern": "label for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "one": {
+          "ja": "一本の"
+        },
+        "clear line": {
+          "ja": "はっきりした線"
+        },
+        "between": {
+          "ja": "〜の間の"
+        },
+        "two poets": {
+          "ja": "二人の詩人"
+        },
+        "would be enough to": {
+          "ja": "〜するのに十分だろう"
+        },
+        "turn": {
+          "ja": "変える"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "recital": {
+          "ja": "朗読会"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "sightseeing entertainment": {
+          "ja": "観光の余興"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a walk through": {
+          "ja": "〜を歩くこと"
+        },
+        "the conditions": {
+          "ja": "条件"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "made the words possible": {
+          "ja": "言葉を可能にした"
+        }
+      },
+      "phrases": [
+        {
+          "en": "would be enough to turn a recital from sightseeing entertainment into a walk",
+          "ja": "朗読を観光の余興から歩く体験へ変えるのに十分だ",
+          "note": "would は仮定的「〜だろう」。",
+          "pattern": "turn A from B into C"
+        },
+        {
+          "en": "the conditions that made the words possible",
+          "ja": "言葉を可能にした条件",
+          "note": "make＋目的語＋形容詞。",
+          "pattern": "make A 形容詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260929-003": [
+    {
+      "words": {
+        "cities": {
+          "ja": "都市"
+        },
+        "lose": {
+          "ja": "失う"
+        },
+        "context": {
+          "ja": "文脈"
+        },
+        "too": {
+          "ja": "も"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Cities lose context too",
+          "ja": "街も文脈を失う",
+          "note": "too は文末で「〜も」。",
+          "pattern": "too"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "cinemas": {
+          "ja": "映画館"
+        },
+        "department stores": {
+          "ja": "百貨店"
+        },
+        "shopping streets": {
+          "ja": "商店街"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "local festivals": {
+          "ja": "地域の祭り"
+        },
+        "disappear": {
+          "ja": "消える"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "regional city": {
+          "ja": "地方都市"
+        },
+        "also": {
+          "ja": "も"
+        },
+        "loses": {
+          "ja": "失う"
+        },
+        "evidence of": {
+          "ja": "〜の証拠"
+        },
+        "what": {
+          "ja": "〜するもの"
+        },
+        "once": {
+          "ja": "かつて"
+        },
+        "shaped": {
+          "ja": "形づくった"
+        },
+        "its": {
+          "ja": "その（＝都市の）"
+        },
+        "residents": {
+          "ja": "住民"
+        }
+      },
+      "phrases": [
+        {
+          "en": "loses evidence of what once shaped its residents",
+          "ja": "住民をかつて形づくったものの証拠を失う",
+          "note": "what「〜したもの」。",
+          "pattern": "what 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "scale": {
+          "ja": "物差し"
+        },
+        "borrowed from": {
+          "ja": "〜から借りた"
+        },
+        "the capital": {
+          "ja": "首都"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "measure": {
+          "ja": "測る"
+        },
+        "that absence": {
+          "ja": "その欠落"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A scale borrowed from the capital",
+          "ja": "首都から借りた物差し",
+          "note": "capital はここで「首都」（資本ではない）。",
+          "pattern": "名詞 + 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "memory": {
+          "ja": "記憶"
+        },
+        "matters": {
+          "ja": "大事だ"
+        },
+        "not because": {
+          "ja": "〜だからではなく"
+        },
+        "it": {
+          "ja": "それ（＝記憶）"
+        },
+        "makes": {
+          "ja": "〜にする"
+        },
+        "the past": {
+          "ja": "過去"
+        },
+        "prettier": {
+          "ja": "よりきれいに"
+        },
+        "but because": {
+          "ja": "…だから"
+        },
+        "maps": {
+          "ja": "地図にする"
+        },
+        "what": {
+          "ja": "何を"
+        },
+        "the present": {
+          "ja": "現在"
+        },
+        "has inherited": {
+          "ja": "受け継いだか"
+        },
+        "can no longer": {
+          "ja": "もはや〜できない"
+        },
+        "explain": {
+          "ja": "説明する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not because it makes the past prettier, but because it maps what the present has inherited",
+          "ja": "過去を美化するからではなく、受け継いだものを地図にするから",
+          "note": "map はここで動詞「地図に描く」。",
+          "pattern": "not because A but because B"
+        },
+        {
+          "en": "what it can no longer explain",
+          "ja": "現在がもう説明できないもの",
+          "note": "no longer「もはや〜ない」。",
+          "pattern": "no longer"
+        }
+      ]
+    },
+    {
+      "words": {
+        "after": {
+          "ja": "〜の後で"
+        },
+        "the recital": {
+          "ja": "朗読会"
+        },
+        "the real work": {
+          "ja": "本当の仕事"
+        },
+        "is to": {
+          "ja": "〜することだ"
+        },
+        "unfold": {
+          "ja": "広げる"
+        },
+        "that map": {
+          "ja": "その地図"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the real work is to unfold that map",
+          "ja": "本当の仕事はその地図を広げることだ",
+          "note": "unfold「（たたんだものを）広げる」。",
+          "pattern": "be to 動詞"
+        }
+      ]
+    }
   ]
 }
