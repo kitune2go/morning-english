@@ -299,7 +299,7 @@ if(litMatch){
       check(output.includes('<strong class="word-en" lang="en">Departments</strong>')&&
         output.includes('意味を質問 ↗')&&output.includes('<span class="word-meaning unlisted" lang="ja">未登録</span>'),
         "unknown words show a distinct compact button instead of oversized inline hyperlinks");
-      check(output.includes('内側に')&&output.includes('前置詞、位置を示す')&&output.includes('一般語義'),
+      check(output.includes('内側に')&&output.includes('前置詞、位置を示す')&&output.includes('辞書'),
         "dictionary words show meaning and note in separate, wrapping lines");
       check(output.includes('文脈単語帳（4語・文脈訳0語）')&&
         (output.match(/class="word-line"/g)||[]).length===4,
@@ -308,8 +308,9 @@ if(litMatch){
         x=>String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;'),x=>String(x),()=>'<button>▶</button>');
       const multi=ctxRender({en:'Voices inside may sound like noise',ja:'内側の声は雑音のように聞こえることがある'},0,{id:'example'},true);
       check(multi.includes('<strong class="word-en" lang="en">sound like</strong>')&&multi.includes('〜のように聞こえる')&&
-        multi.includes('文脈単語帳（6語・文脈訳3語）')&&(multi.match(/class="word-line"/g)||[]).length===5,
-        "multi-word context entries are grouped into one glossary line");
+        multi.includes('文脈単語帳（6語・文脈訳3語・熟語1件）')&&(multi.match(/class="word-line idiom"/g)||[]).length===1&&
+        (multi.match(/class="word-line sub"/g)||[]).length===2&&multi.includes('内側の')&&multi.includes('内側に'),
+        "idioms are grouped with their component words, and context/dictionary senses are shown side by side");
     }catch(e){check(false,"mobile glossary rendering test: "+e.message);}
   }
 }
@@ -337,9 +338,11 @@ if(fs.existsSync(contextPath)){
     chunkList.forEach((chunk,i)=>{
       if(!chunk)return;
       const source=card.chunks[i]?.en||"";
-      const tokens=new Set((source.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[]).map(t=>t.toLowerCase().replace(/’/g,"'")));
+      const tokenList=(source.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[]).map(t=>t.toLowerCase().replace(/’/g,"'"));
+      const tokens=new Set(tokenList);
+      const joined=' '+tokenList.join(' ')+' ';
       for(const [word,definition] of Object.entries(chunk.words||{})){
-        check(tokens.has(word),"contextual word exists in its chunk: "+id+"/"+i+"/"+word);
+        check(word.includes(' ')?joined.includes(' '+word+' '):tokens.has(word),"contextual word exists in its chunk: "+id+"/"+i+"/"+word);
         check(typeof definition.ja==="string"&&definition.ja.trim().length>0,"contextual Japanese meaning: "+id+"/"+i+"/"+word);
       }
       for(const phrase of chunk.phrases||[]){

@@ -13471,9 +13471,10 @@
       },
       "phrases": [
         {
-          "en": "dismiss A as B",
+          "en": "jokingly dismissed by the hearer as a mishearing",
           "ja": "AをBだとして片づける",
-          "note": "ここでは受け身 be dismissed as a mishearing「空耳として片づけられる」。"
+          "note": "ここでは受け身 be dismissed as a mishearing「空耳として片づけられる」。",
+          "pattern": "dismiss A as B"
         },
         {
           "en": "called divine",
@@ -13724,9 +13725,10 @@
       },
       "phrases": [
         {
-          "en": "describe A as B",
+          "en": "describe years of effort as love",
           "ja": "AをBと言い表す",
-          "note": "years of effort を love と言い換える、という構造。"
+          "note": "years of effort を love と言い換える、という構造。",
+          "pattern": "describe A as B"
         },
         {
           "en": "those not chosen",
@@ -13778,9 +13780,10 @@
           "note": "the + 形容詞 で「〜な人々」。"
         },
         {
-          "en": "recast A as B",
+          "en": "the passion of the unsuccessful is recast as insufficient",
           "ja": "AをBとして作り直す・描き直す",
-          "note": "ここでは受け身。"
+          "note": "ここでは受け身。",
+          "pattern": "recast A as B"
         }
       ]
     },
@@ -13825,9 +13828,10 @@
       },
       "phrases": [
         {
-          "en": "name A B",
+          "en": "named this retrospective story an 'after-the-fact love letter.'",
           "ja": "AをBと名づける",
-          "note": "named this retrospective story an 'after-the-fact love letter'。"
+          "note": "named this retrospective story an 'after-the-fact love letter'。",
+          "pattern": "name A B"
         }
       ]
     },
@@ -13887,9 +13891,10 @@
       },
       "phrases": [
         {
-          "en": "may indeed ..., but ...",
+          "en": "Love may indeed sustain effort, but",
           "ja": "確かに〜かもしれないが…",
-          "note": "譲歩してから反論する型。"
+          "note": "譲歩してから反論する型。",
+          "pattern": "may indeed ..., but ..."
         },
         {
           "en": "reserved for winners",
@@ -13947,9 +13952,10 @@
       },
       "phrases": [
         {
-          "en": "Behind ... lies another assumption",
+          "en": "Behind the union of success and love lies another assumption",
           "ja": "〜の背後には別の前提がある",
-          "note": "場所の副詞句が文頭に出て、主語 another assumption と動詞 lies が倒置。"
+          "note": "場所の副詞句が文頭に出て、主語 another assumption と動詞 lies が倒置。",
+          "pattern": "Behind ... lies another assumption"
         }
       ]
     },
@@ -14009,9 +14015,10 @@
           "note": "one は前の a sale を受ける代名詞。"
         },
         {
-          "en": "be demoted to",
+          "en": "is demoted to a hobby or failure",
           "ja": "〜に格下げされる",
-          "note": "to は前置詞（「〜へ」）。"
+          "note": "to は前置詞（「〜へ」）。",
+          "pattern": "be demoted to"
         }
       ]
     },
@@ -14068,9 +14075,10 @@
       },
       "phrases": [
         {
-          "en": "Remove that assumption, and ...",
+          "en": "Remove that assumption, and AI may reduce",
           "ja": "その前提を外せば〜",
-          "note": "命令文 + and で「〜すれば…」という条件。"
+          "note": "命令文 + and で「〜すれば…」という条件。",
+          "pattern": "Remove that assumption, and ..."
         }
       ]
     },
@@ -14208,19 +14216,22 @@
           "note": "need + 動名詞 で「〜される必要がある」（受け身の意味）。"
         },
         {
-          "en": "not A but B",
+          "en": "is not creation, but the knot",
           "ja": "AではなくB",
-          "note": "not creation, but the knot ..."
+          "note": "not creation, but the knot ...",
+          "pattern": "not A but B"
         },
         {
-          "en": "bind A to B",
+          "en": "binds skill, value, and price to one scale",
           "ja": "AをBに縛りつける",
-          "note": "to はここでは前置詞。"
+          "note": "to はここでは前置詞。",
+          "pattern": "bind A to B"
         },
         {
-          "en": "turn A into B",
+          "en": "turns a price tag into a certificate of the person",
           "ja": "AをBに変える",
-          "note": "値札を人の証明書に変える。"
+          "note": "値札を人の証明書に変える。",
+          "pattern": "turn A into B"
         }
       ]
     }
@@ -14312,9 +14323,10 @@
       },
       "phrases": [
         {
-          "en": "Neither A nor B",
+          "en": "Neither the title of parent nor the category of human",
           "ja": "AもBも〜ない",
-          "note": "動詞は近いB側に合わせて単数 guarantees。"
+          "note": "動詞は近いB側に合わせて単数 guarantees。",
+          "pattern": "Neither A nor B"
         },
         {
           "en": "sound judgment",
@@ -14406,9 +14418,10 @@
       },
       "phrases": [
         {
-          "en": "both A and B",
+          "en": "brought both a proposal",
           "ja": "AとBの両方",
-          "note": "A＝a proposal ...、B＝a song ...。"
+          "note": "A＝a proposal ...、B＝a song ...。",
+          "pattern": "both A and B"
         },
         {
           "en": "too heavy for humans to solve alone",
@@ -14488,9 +14501,10 @@
       },
       "phrases": [
         {
-          "en": "connect A to B",
+          "en": "connect several 3D generators to an AI",
           "ja": "AをBにつなぐ",
-          "note": "2つ目の to は前置詞（to an AI）。"
+          "note": "2つ目の to は前置詞（to an AI）。",
+          "pattern": "connect A to B"
         },
         {
           "en": "send it back for revision",
@@ -14528,9 +14542,10 @@
       },
       "phrases": [
         {
-          "en": "transfer A to B",
+          "en": "transferring authority to machines",
           "ja": "AをBへ移す",
-          "note": "動名詞 transferring が文の主語。"
+          "note": "動名詞 transferring が文の主語。",
+          "pattern": "transfer A to B"
         }
       ]
     },
@@ -14584,14 +14599,16 @@
       },
       "phrases": [
         {
-          "en": "entrust A to B",
+          "en": "entrust authority to an inspectable, correctable process",
           "ja": "AをBに託す",
-          "note": "to は前置詞。"
+          "note": "to は前置詞。",
+          "pattern": "entrust A to B"
         },
         {
-          "en": "B rather than A",
+          "en": "rather than to a title",
           "ja": "AではなくB",
-          "note": "肩書きではなく、点検・修正できる過程に。"
+          "note": "肩書きではなく、点検・修正できる過程に。",
+          "pattern": "B rather than A"
         }
       ]
     }

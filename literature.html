@@ -55,7 +55,7 @@
 .word-meaning.unlisted{color:#78716c;font-size:11px;flex:0 1 auto;background:#f1f0ec;border-radius:3px;padding:1px 5px}
 .word-usage{font-size:11px;color:#57534e;margin:3px 0 0;line-height:1.6;overflow-wrap:anywhere}
 .word-kind{font-size:10px;white-space:nowrap;border-radius:3px;padding:1px 5px;background:#e7e5e4;color:#57534e}
-.word-kind.context{background:#d6efe2;color:#14532d}
+.word-kind.context{background:#d6efe2;color:#14532d}.phrase-pattern{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;color:#b45309;margin-bottom:2px}.word-kind.idiom{background:#fde68a;color:#78350f}.sense-row{display:flex;align-items:baseline;gap:8px;margin-top:3px}.sense-row .word-kind{flex:0 0 auto}.word-meaning.dict{color:#78716c;font-size:12px}.word-pos{font-size:10px;color:#a8a29e}.word-line.idiom{background:#fffbeb;padding:10px 8px;border-left:3px solid #d97706}.idiom-parts{margin:6px 0 0 6px;border-left:1px dashed #d6d3d1;padding-left:10px}.word-line.sub{padding:6px 0;border-bottom:1px dotted #e7e5e4}.word-line.sub:last-child{border-bottom:none}.word-line.sub .word-en{font-size:15px}
 .phrase-section{margin:10px 0 12px;padding:11px;background:#f0f7f1;border-left:3px solid #39765d}
 .phrase-heading{font-size:12px;font-weight:700;color:#14532d;margin-bottom:7px}
 .phrase-line{border-top:1px solid #cce1d1;padding:7px 0;line-height:1.6}
@@ -268,6 +268,44 @@ function glossDetail(info,key){
   return parts.length?'<p class="word-usage" lang="ja">'+escapeHtml(parts.join(' ／ '))+'</p>':'';
 }
 
+
+// 辞書の訳は見出しの最初の意味だけを短く表示する（ejdict の長い記述を一行に収める）
+function shortDict(text){
+  let t=String(text||'').split(/[／\/]/)[0].replace(/[『』]/g,'').replace(/《[^》]*》/g,'').replace(/\s+/g,' ').trim();
+  if(t.length>32)t=t.slice(0,32)+'…';
+  return t;
+}
+function dictionaryGloss(token){const e=resolveWordGloss(token,{});return e?e.info:null;}
+function renderWordLine(token,contextWords,card,en,inIdiom=false){
+  const key=normalizedWord(token);
+  const ctx=Object.prototype.hasOwnProperty.call(contextWords,key)?contextWords[key]:null;
+  const dict=dictionaryGloss(token);
+  const word=escapeHtml(token);
+  const dictText=dict?shortDict(dict.ja):'';
+  const rows=[];
+  if(ctx&&typeof ctx.ja==='string')rows.push('<div class="sense-row"><span class="word-kind context">文脈</span><span class="word-meaning" lang="ja">'+escapeHtml(ctx.ja)+'</span></div>');
+  if(dictText&&!(ctx&&ctx.ja===dict.ja))rows.push('<div class="sense-row"><span class="word-kind">辞書</span><span class="word-meaning dict" lang="ja">'+escapeHtml(dictText)+'</span></div>');
+  if(!rows.length){
+    const link=askChatUrl(card,'次の英単語について、品詞・この文章での意味・語形変化を具体的に説明してください：'+token,en);
+    return '<div class="word-line'+(inIdiom?' sub':'')+'"><div class="word-head"><strong class="word-en" lang="en">'+word+'</strong>'+
+      '<span class="word-meaning unlisted" lang="ja">未登録</span>'+
+      '<a class="word-ask" href="'+escapeAttr(link)+'" target="_blank" rel="noopener noreferrer" aria-label="'+escapeAttr(token)+'の意味をChatGPTに質問">意味を質問 ↗</a>'+
+      '</div></div>';
+  }
+  const pos=(ctx&&ctx.pos)||(dict&&dict.pos);
+  return '<div class="word-line'+(inIdiom?' sub':'')+'"><div class="word-head"><strong class="word-en" lang="en">'+word+'</strong>'+
+    (pos?'<span class="word-pos">'+escapeHtml(pos)+'</span>':'')+'</div>'+rows.join('')+
+    (ctx&&ctx.note?'<p class="word-usage" lang="ja">'+escapeHtml(ctx.note)+'</p>':
+      (!ctx&&dict&&dict.note&&!/英和辞典の一般的な語義|日次エッセイ|本作品|文脈/.test(dict.note)?'<p class="word-usage" lang="ja">'+escapeHtml(dict.note)+'</p>':''))+'</div>';
+}
+function renderIdiomUnit(unit,contextWords,card,en){
+  const info=contextWords[normalizedWord(unit)]||{};
+  const parts=unit.split(' ');
+  return '<div class="word-line idiom"><div class="word-head"><strong class="word-en" lang="en">'+escapeHtml(unit)+'</strong>'+
+    '<span class="word-kind idiom">熟語</span><span class="word-meaning" lang="ja">'+escapeHtml(info.ja||'')+'</span></div>'+
+    (info.note?'<p class="word-usage" lang="ja">'+escapeHtml(info.note)+'</p>':'')+
+    '<div class="idiom-parts">'+parts.map(t=>renderWordLine(t,contextWords,card,en,true)).join('')+'</div></div>';
+}
 function renderChunk(ch,i,card,withWords=false){
   const en=ch.en||'',ja=ch.ja||'';
   if(!withWords){
@@ -284,32 +322,17 @@ function renderChunk(ch,i,card,withWords=false){
   const tokens=en.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[];
   // 句動詞・慣用句（"sound like" "as if" など）は文脈単語帳のキーに空白区切りで登録し、まとめて1行で表示する。
   const units=groupContextUnits(tokens,contextWords);
-  const words=units.map(token=>{
-    const key=token.toLowerCase().replace(/’/g,"'");
-    const entry=resolveWordGloss(token,contextWords);
-    const word=escapeHtml(token);
-    if(entry){
-      const info=entry.info,isContext=entry.kind==='文脈訳';
-      return '<div class="word-line"><div class="word-head"><strong class="word-en" lang="en">'+word+'</strong>'+
-        '<span class="word-kind'+(isContext?' context':'')+'">'+entry.kind+'</span>'+
-        '<span class="word-meaning" lang="ja">'+escapeHtml(info.ja)+'</span></div>'+
-        glossDetail(info,key)+
-        (info.note&&info.note!==info.form?'<p class="word-usage" lang="ja">'+escapeHtml(info.note)+'</p>':'')+'</div>';
-    }
-    const link=askChatUrl(card,'次の英単語について、品詞・この文章での意味・語形変化を具体的に説明してください：'+token,en);
-    return '<div class="word-line"><div class="word-head"><strong class="word-en" lang="en">'+word+'</strong>'+
-      '<span class="word-meaning unlisted" lang="ja">未登録</span>'+
-      '<a class="word-ask" href="'+escapeAttr(link)+'" target="_blank" rel="noopener noreferrer" aria-label="'+escapeAttr(token)+'の意味をChatGPTに質問">意味を質問 ↗</a>'+
-      '</div></div>';
-  }).join('');
+  const words=units.map(unit=>unit.includes(' ')?renderIdiomUnit(unit,contextWords,card,en):renderWordLine(unit,contextWords,card,en)).join('');
   const phrases=Array.isArray(context.phrases)?context.phrases:[];
   const phrasePanel=phrases.length?'<div class="phrase-section"><div class="phrase-heading">このチャンクの重要表現（'+phrases.length+'件）</div>'+
-    phrases.map(p=>'<div class="phrase-line"><div class="phrase-en" lang="en">'+escapeHtml(p.en)+'</div>'+
+    phrases.map(p=>'<div class="phrase-line">'+(p.pattern?'<div class="phrase-pattern" lang="en">型：'+escapeHtml(p.pattern)+'</div>':'')+'<div class="phrase-en" lang="en">'+escapeHtml(p.en)+'</div>'+
       '<div class="phrase-ja" lang="ja">'+escapeHtml(p.ja)+'</div>'+
       (p.note?'<div class="phrase-note" lang="ja">'+escapeHtml(p.note)+'</div>':'')+'</div>').join('')+'</div>':'';
-  const contextualCount=units.filter(t=>Object.prototype.hasOwnProperty.call(contextWords,t.toLowerCase().replace(/’/g,"'"))).reduce((n,t)=>n+t.split(' ').length,0);
-  const wordPanel='<details class="chunk-gloss"><summary>文脈単語帳（'+tokens.length+'語・文脈訳'+contextualCount+'語）</summary>'+
-    '<p class="gloss-disclaimer">「文脈訳」はこの文章に合わせた意味、「一般語義」は辞典による参考訳です。単語だけで訳が決まらない表現は下の重要表現を参照してください。</p>'+
+  const hasCtx=t=>Object.prototype.hasOwnProperty.call(contextWords,t.toLowerCase().replace(/’/g,"'"));
+  const contextualCount=units.reduce((n,t)=>n+(t.includes(' ')?(hasCtx(t)?t.split(' ').length:0):(hasCtx(t)?1:0)),0);
+  const idiomCount=units.filter(t=>t.includes(' ')).length;
+  const wordPanel='<details class="chunk-gloss"><summary>文脈単語帳（'+tokens.length+'語・文脈訳'+contextualCount+'語'+(idiomCount?'・熟語'+idiomCount+'件':'')+'）</summary>'+
+    '<p class="gloss-disclaimer">「文脈」はこの文での意味、「辞書」は辞典の基本的な意味です。数語が合わさって意味になる部分は「熟語」としてまとめ、その下に構成する各語の意味を並べています。</p>'+
     phrasePanel+'<div class="chunk-words">'+words+'</div></details>';
   return '<div class="chunk"><div><div class="chunk-en">'+escapeHtml(en)+'</div><div class="chunk-ja">'+escapeHtml(ja)+'</div>'+
     wordPanel+'<a class="chunk-question" href="'+escapeAttr(wordLink)+'" target="_blank" rel="noopener noreferrer">↗ このチャンクの全単語をチャッピーに質問</a></div>'+
