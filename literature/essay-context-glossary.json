@@ -42918,5 +42918,847 @@
         }
       ]
     }
+  ],
+  "DE-20260823-001": [
+    {
+      "words": {
+        "at": {
+          "ja": "〜で"
+        },
+        "the table": {
+          "ja": "席"
+        },
+        "behind me": {
+          "ja": "私の後ろの"
+        },
+        "me": {
+          "ja": "私の"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "conversation about": {
+          "ja": "〜についての会話"
+        },
+        "romance stories": {
+          "ja": "恋愛もの"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "television dramas": {
+          "ja": "テレビドラマ"
+        },
+        "kept flowing": {
+          "ja": "流れ続けていた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "kept flowing",
+          "ja": "流れ続けていた",
+          "note": "keep＋-ing「〜し続ける」。romance はここで「恋愛もの」。",
+          "pattern": "keep -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝会話）"
+        },
+        "moved to": {
+          "ja": "〜へ移った"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "morning serial": {
+          "ja": "朝の連続ドラマ（朝ドラ）"
+        },
+        "and then": {
+          "ja": "それから"
+        },
+        "streaming service": {
+          "ja": "配信サービス"
+        }
+      },
+      "phrases": [
+        {
+          "en": "moved to a morning serial and then to a streaming service",
+          "ja": "朝ドラへ、それから配信サービスへ移った",
+          "note": "serial はここで「連続ドラマ」。streaming は「配信」（小川ではない）。",
+          "pattern": "serial"
+        }
+      ]
+    },
+    {
+      "words": {
+        "stories": {
+          "ja": "物語"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "end": {
+          "ja": "終わる"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "the screen": {
+          "ja": "画面"
+        },
+        "went dark": {
+          "ja": "暗くなった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "when the screen went dark",
+          "ja": "画面が暗くなったとき",
+          "note": "go dark「暗くなる」。",
+          "pattern": "go 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "they": {
+          "ja": "それら（＝物語）"
+        },
+        "traveled to": {
+          "ja": "〜へ移った"
+        },
+        "the dining table": {
+          "ja": "食卓"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "mingled with": {
+          "ja": "〜と混ざった"
+        },
+        "other people's": {
+          "ja": "他の人の"
+        },
+        "memories": {
+          "ja": "記憶"
+        }
+      },
+      "phrases": [
+        {
+          "en": "mingled with other people's memories",
+          "ja": "他人の記憶と混ざり合った",
+          "note": "dining table「食卓」。",
+          "pattern": "mingle with 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "because": {
+          "ja": "〜なので"
+        },
+        "i": {
+          "ja": "私は"
+        },
+        "usually": {
+          "ja": "ふだん"
+        },
+        "encounter": {
+          "ja": "出会う"
+        },
+        "works": {
+          "ja": "作品"
+        },
+        "alone": {
+          "ja": "一人で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Because I usually encounter works alone",
+          "ja": "ふだん一人で作品に出会うので",
+          "note": "alone はここで「一人で」。",
+          "pattern": "encounter"
+        }
+      ]
+    },
+    {
+      "words": {
+        "hearing": {
+          "ja": "聞くこと"
+        },
+        "culture": {
+          "ja": "文化"
+        },
+        "continue": {
+          "ja": "続く"
+        },
+        "through": {
+          "ja": "〜を通じて"
+        },
+        "casual conversation": {
+          "ja": "何気ない会話"
+        },
+        "felt": {
+          "ja": "〜に感じられた"
+        },
+        "unexpectedly": {
+          "ja": "思いがけず"
+        },
+        "vivid": {
+          "ja": "鮮やかな"
+        }
+      },
+      "phrases": [
+        {
+          "en": "hearing culture continue through casual conversation",
+          "ja": "雑談を通じて文化が続くのを聞くこと",
+          "note": "hear＋目的語＋原形「Aが〜するのを聞く」。",
+          "pattern": "hear A 動詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260823-002": [
+    {
+      "words": {
+        "later": {
+          "ja": "その後"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "rumor about": {
+          "ja": "〜についてのうわさ"
+        },
+        "voice performer": {
+          "ja": "声の仕事をする人（声優）"
+        },
+        "having a partner": {
+          "ja": "恋人がいること"
+        },
+        "drew": {
+          "ja": "引き出した"
+        },
+        "the familiar reply": {
+          "ja": "聞き慣れた返し"
+        },
+        "they": {
+          "ja": "その人（単数の they）"
+        },
+        "are not": {
+          "ja": "〜ではない"
+        },
+        "an idol": {
+          "ja": "アイドル"
+        }
+      },
+      "phrases": [
+        {
+          "en": "drew the familiar reply",
+          "ja": "聞き慣れた反応を引き出した",
+          "note": "drew は draw の過去形。",
+          "pattern": "draw a reply"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "changing": {
+          "ja": "変えること"
+        },
+        "the occupational label": {
+          "ja": "職業の呼び名"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "erase": {
+          "ja": "消す"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "older": {
+          "ja": "古い"
+        },
+        "marketing logic": {
+          "ja": "売り方の論理"
+        }
+      },
+      "phrases": [
+        {
+          "en": "changing the occupational label did not erase an older marketing logic",
+          "ja": "呼び名を変えても古い売り方の論理は消えなかった",
+          "note": "次のチャンクで logic を説明。",
+          "pattern": "動名詞の主語"
+        }
+      ]
+    },
+    {
+      "words": {
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "had tied": {
+          "ja": "結びつけていた"
+        },
+        "private life": {
+          "ja": "私生活"
+        },
+        "to": {
+          "ja": "〜に"
+        },
+        "commercial value": {
+          "ja": "商品価値"
+        }
+      },
+      "phrases": [
+        {
+          "en": "had tied private life to commercial value",
+          "ja": "私生活を商品価値に結びつけていた",
+          "note": "tied は tie の過去分詞。",
+          "pattern": "tie A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the romance": {
+          "ja": "恋愛"
+        },
+        "itself": {
+          "ja": "そのもの"
+        },
+        "was not": {
+          "ja": "〜ではなかった"
+        },
+        "the central issue": {
+          "ja": "中心の問題"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The romance itself was not the central issue",
+          "ja": "恋愛そのものが問題の中心ではなかった",
+          "note": "issue はここで「問題」。",
+          "pattern": "名詞 + itself"
+        }
+      ]
+    },
+    {
+      "words": {
+        "what lingered": {
+          "ja": "残り続けたもの"
+        },
+        "was": {
+          "ja": "〜だった"
+        },
+        "a promise of": {
+          "ja": "〜の約束"
+        },
+        "imagined closeness": {
+          "ja": "想像上の近さ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What lingered was a promise of imagined closeness",
+          "ja": "残り続けたのは想像上の近さの約束だった",
+          "note": "linger「なかなか消えない」。",
+          "pattern": "linger"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "かつて"
+        },
+        "sold as": {
+          "ja": "〜として売られた"
+        },
+        "part of": {
+          "ja": "〜の一部"
+        },
+        "the product": {
+          "ja": "商品"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "carried into": {
+          "ja": "〜へ持ち込まれた"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "different era": {
+          "ja": "別の時代"
+        }
+      },
+      "phrases": [
+        {
+          "en": "once sold as part of the product and carried into a different era",
+          "ja": "かつて商品の一部として売られ、別の時代へ持ち越された",
+          "note": "era「時代」。",
+          "pattern": "過去分詞の並列"
+        }
+      ]
+    }
+  ],
+  "DE-20260823-003": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "canceled": {
+          "ja": "中止された"
+        },
+        "overseas performance": {
+          "ja": "海外公演"
+        },
+        "revealed": {
+          "ja": "明らかにした"
+        },
+        "a different kind of": {
+          "ja": "別の種類の"
+        },
+        "silence": {
+          "ja": "沈黙"
+        }
+      },
+      "phrases": [
+        {
+          "en": "revealed a different kind of silence",
+          "ja": "別の種類の沈黙を明らかにした",
+          "note": "kind はここで「種類」。",
+          "pattern": "kind of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "private life": {
+          "ja": "私生活"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "owe": {
+          "ja": "負っている"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "audience": {
+          "ja": "観客"
+        },
+        "explanation": {
+          "ja": "説明"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "canceled event": {
+          "ja": "中止された公演"
+        },
+        "changes": {
+          "ja": "変える"
+        },
+        "plans": {
+          "ja": "予定"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "expenses": {
+          "ja": "出費"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Private life does not owe an audience an explanation",
+          "ja": "私生活は観客に説明する義務はない",
+          "note": "owe＋人＋物「人に物を負う」。",
+          "pattern": "owe A B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "vague announcement": {
+          "ja": "あいまいな発表"
+        },
+        "rarely": {
+          "ja": "めったに〜ない"
+        },
+        "removes": {
+          "ja": "取り除く"
+        },
+        "the question": {
+          "ja": "疑問"
+        },
+        "it": {
+          "ja": "それ（＝あいまいな発表）"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "multiplies": {
+          "ja": "増やす"
+        },
+        "speculation": {
+          "ja": "憶測"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it often multiplies speculation",
+          "ja": "むしろ憶測を増やすことが多い",
+          "note": "rarely「めったに〜ない」。",
+          "pattern": "multiply 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "total disclosure": {
+          "ja": "全面的な開示"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "the answer": {
+          "ja": "答え"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Total disclosure is not the answer",
+          "ja": "全部明かすことが答えではない",
+          "note": "次の yet へ続く。",
+          "pattern": "not the answer"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "unexplained space": {
+          "ja": "説明のない空白"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "remain neutral": {
+          "ja": "中立のままでいる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "an unexplained space does not remain neutral",
+          "ja": "説明のない空白は中立のままではいない",
+          "note": "remain＋形容詞。",
+          "pattern": "remain 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "old impressions": {
+          "ja": "古い印象"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "fresh anxieties": {
+          "ja": "新しい不安"
+        },
+        "move in": {
+          "ja": "入り込む"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Old impressions and fresh anxieties move in",
+          "ja": "古い印象と新しい不安が入り込む",
+          "note": "move in「（空いた所に）入ってくる」。",
+          "pattern": "move in"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そして"
+        },
+        "the blank": {
+          "ja": "空白"
+        },
+        "begins telling": {
+          "ja": "語り始める"
+        },
+        "a story of its own": {
+          "ja": "独自の物語"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the blank begins telling a story of its own",
+          "ja": "空白が自分なりの物語を語り始める",
+          "note": "of its own「それ自身の」。",
+          "pattern": "of one's own"
+        }
+      ]
+    }
+  ],
+  "DE-20260823-004": [
+    {
+      "words": {
+        "the": {
+          "ja": "その"
+        },
+        "d": {
+          "ja": "（3Dの）D"
+        },
+        "project": {
+          "ja": "プロジェクト"
+        },
+        "brought": {
+          "ja": "持ってきた"
+        },
+        "the question": {
+          "ja": "問い"
+        },
+        "down to": {
+          "ja": "〜へと下ろして"
+        },
+        "practice": {
+          "ja": "実務"
+        }
+      },
+      "phrases": [
+        {
+          "en": "brought the question down to practice",
+          "ja": "問いを実務の話に下ろした",
+          "note": "practice はここで「実務」。",
+          "pattern": "bring A down to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "how long": {
+          "ja": "どれくらいの時間"
+        },
+        "would": {
+          "ja": "〜だろうか"
+        },
+        "the same implementation": {
+          "ja": "同じ実装"
+        },
+        "take": {
+          "ja": "かかる"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "professional": {
+          "ja": "プロ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "how long would the same implementation take a professional",
+          "ja": "同じ実装はプロだとどれだけかかるか",
+          "note": "take＋人「人に（時間が）かかる」。",
+          "pattern": "take 人 時間"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "low budget": {
+          "ja": "低予算"
+        },
+        "required": {
+          "ja": "必要とした"
+        },
+        "more than": {
+          "ja": "〜以上のもの"
+        },
+        "one": {
+          "ja": "一つの"
+        },
+        "hurried result": {
+          "ja": "急ごしらえの成果"
+        },
+        "it": {
+          "ja": "それ（＝低予算）"
+        },
+        "reusable pipeline": {
+          "ja": "使い回せる工程"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it required a reusable pipeline",
+          "ja": "使い回せる工程が必要だった",
+          "note": "pipeline はここで「制作工程」（石油の管ではない）。",
+          "pattern": "pipeline（工程）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "as": {
+          "ja": "〜するにつれ"
+        },
+        "the direction": {
+          "ja": "方針"
+        },
+        "changed": {
+          "ja": "変わった"
+        },
+        "memory": {
+          "ja": "記憶"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        },
+        "could no longer": {
+          "ja": "もはや〜できなかった"
+        },
+        "show": {
+          "ja": "示す"
+        },
+        "the project's": {
+          "ja": "プロジェクトの"
+        },
+        "position": {
+          "ja": "現在地"
+        }
+      },
+      "phrases": [
+        {
+          "en": "memory alone could no longer show the project's position",
+          "ja": "記憶だけではもう現在地を示せなかった",
+          "note": "position「位置」。",
+          "pattern": "no longer"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the answer": {
+          "ja": "答え"
+        },
+        "was not": {
+          "ja": "〜ではなかった"
+        },
+        "universal transparency": {
+          "ja": "全面的な透明性"
+        },
+        "but": {
+          "ja": "そうではなく"
+        },
+        "the right record": {
+          "ja": "適切な記録"
+        },
+        "in the right place": {
+          "ja": "適切な場所に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not universal transparency, but the right record in the right place",
+          "ja": "全面公開ではなく、適所に適切な記録を置くこと",
+          "note": "コロン以下で具体例。",
+          "pattern": "not A but B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "boundaries for": {
+          "ja": "〜のための境界"
+        },
+        "private life": {
+          "ja": "私生活"
+        },
+        "explanations for": {
+          "ja": "〜のための説明"
+        },
+        "shared plans": {
+          "ja": "共有の予定"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "process history for": {
+          "ja": "〜のための工程履歴"
+        },
+        "long production": {
+          "ja": "長い制作"
+        }
+      },
+      "phrases": [
+        {
+          "en": "boundaries for private life, explanations for shared plans, and process history for long production",
+          "ja": "私生活には境界、共有の予定には説明、長い制作には履歴",
+          "note": "前チャンクの具体例。",
+          "pattern": "A for B の並列"
+        }
+      ]
+    },
+    {
+      "words": {
+        "different": {
+          "ja": "異なる"
+        },
+        "blanks": {
+          "ja": "空白"
+        },
+        "require": {
+          "ja": "必要とする"
+        },
+        "kinds of": {
+          "ja": "〜の種類"
+        },
+        "information": {
+          "ja": "情報"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Different blanks require different kinds of information",
+          "ja": "空白が違えば必要な情報も違う",
+          "note": "kinds はここで「種類」。",
+          "pattern": "require 〜"
+        }
+      ]
+    }
   ]
 }
