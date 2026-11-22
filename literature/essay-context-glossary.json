@@ -31497,5 +31497,542 @@
         }
       ]
     }
+  ],
+  "DE-20260921-001": [
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "on-screen smile": {
+          "ja": "画面上の笑顔"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "begin with": {
+          "ja": "〜から始まる"
+        },
+        "feeling": {
+          "ja": "感情"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not begin with feeling alone",
+          "ja": "感情だけから始まるのではない",
+          "note": "alone「〜だけ」。",
+          "pattern": "名詞 + alone"
+        }
+      ]
+    },
+    {
+      "words": {
+        "as": {
+          "ja": "〜につれて"
+        },
+        "the countdown": {
+          "ja": "カウントダウン"
+        },
+        "shortens": {
+          "ja": "短くなる"
+        },
+        "the expression": {
+          "ja": "表情"
+        },
+        "must be ready": {
+          "ja": "できていなければならない"
+        },
+        "at": {
+          "ja": "〜の時点で"
+        },
+        "the missing": {
+          "ja": "消えた"
+        },
+        "final second": {
+          "ja": "最後の一秒"
+        }
+      },
+      "phrases": [
+        {
+          "en": "As the countdown shortens",
+          "ja": "カウントダウンが短くなるにつれ",
+          "note": "expression はここで「表情」。",
+          "pattern": "as（比例）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "music": {
+          "ja": "音楽"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "sound": {
+          "ja": "〜に聞こえる"
+        },
+        "light": {
+          "ja": "軽やかな"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "spontaneous": {
+          "ja": "自然に湧いた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Music can sound light and spontaneous",
+          "ja": "音楽は軽やかで自然に聞こえる",
+          "note": "sound は動詞、light は形容詞（光ではない）。",
+          "pattern": "sound 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "while": {
+          "ja": "一方で"
+        },
+        "the body": {
+          "ja": "身体"
+        },
+        "behind it": {
+          "ja": "その裏の"
+        },
+        "it": {
+          "ja": "それ（＝音楽）"
+        },
+        "follows": {
+          "ja": "従う"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "schedule": {
+          "ja": "予定"
+        },
+        "measured in seconds": {
+          "ja": "秒単位で測られた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a schedule measured in seconds",
+          "ja": "秒単位で測られた予定",
+          "note": "in seconds「秒単位で」。",
+          "pattern": "名詞 + 過去分詞 / in 単位"
+        }
+      ]
+    },
+    {
+      "words": {
+        "before": {
+          "ja": "〜する前に"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "smile": {
+          "ja": "笑顔"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "emotion": {
+          "ja": "感情"
+        },
+        "it": {
+          "ja": "それ（＝笑顔）"
+        },
+        "has already become": {
+          "ja": "すでに〜になっている"
+        },
+        "punctual labor": {
+          "ja": "時間厳守の労働"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it has already become punctual labor",
+          "ja": "笑顔はすでに時間厳守の労働になっている",
+          "note": "punctual「時間に正確な」。",
+          "pattern": "現在完了"
+        }
+      ]
+    }
+  ],
+  "DE-20260921-002": [
+    {
+      "words": {
+        "on air": {
+          "ja": "放送中"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "name": {
+          "ja": "名前"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "face": {
+          "ja": "顔"
+        },
+        "do more than": {
+          "ja": "〜以上のことをする"
+        },
+        "identify": {
+          "ja": "特定する"
+        },
+        "person": {
+          "ja": "人"
+        }
+      },
+      "phrases": [
+        {
+          "en": "do more than identify a person",
+          "ja": "人を示す以上のことをする",
+          "note": "on air「放送中に」（空気ではない）。",
+          "pattern": "do more than 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "they": {
+          "ja": "それら（＝名前と顔）"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "goods": {
+          "ja": "商品"
+        },
+        "measured by": {
+          "ja": "〜で測られる"
+        },
+        "ratings": {
+          "ja": "視聴率"
+        },
+        "sponsors": {
+          "ja": "スポンサー"
+        },
+        "favorability": {
+          "ja": "好感度"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "online reaction": {
+          "ja": "ネットの反応"
+        }
+      },
+      "phrases": [
+        {
+          "en": "goods measured by ratings, sponsors, favorability, and online reaction",
+          "ja": "視聴率や好感度で測られる商品",
+          "note": "ratings はここで「視聴率」。",
+          "pattern": "名詞 + 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "smile": {
+          "ja": "笑顔"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "familiarity": {
+          "ja": "親しみ"
+        },
+        "remark": {
+          "ja": "発言"
+        },
+        "topic": {
+          "ja": "話題"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "mistake": {
+          "ja": "失敗"
+        },
+        "outrage": {
+          "ja": "炎上（激しい怒り）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a remark becomes a topic, and a mistake becomes outrage",
+          "ja": "発言は話題に、失敗は炎上になる",
+          "note": "outrage「激しい怒り」。",
+          "pattern": "A becomes B の並列"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the person": {
+          "ja": "その人"
+        },
+        "remains one": {
+          "ja": "一人のままである"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the ledger": {
+          "ja": "帳簿"
+        },
+        "divides": {
+          "ja": "分ける"
+        },
+        "that life": {
+          "ja": "その生活"
+        },
+        "into": {
+          "ja": "〜に"
+        },
+        "several values": {
+          "ja": "いくつもの価値"
+        }
+      },
+      "phrases": [
+        {
+          "en": "divides that life into several values",
+          "ja": "その生活をいくつもの価値に分ける",
+          "note": "人は一人なのに帳簿上は分割される。",
+          "pattern": "divide A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "eventually": {
+          "ja": "やがて"
+        },
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "time off screen": {
+          "ja": "画面の外の時間"
+        },
+        "enters": {
+          "ja": "入り込む"
+        },
+        "the management of": {
+          "ja": "〜の管理"
+        },
+        "the product": {
+          "ja": "商品"
+        }
+      },
+      "phrases": [
+        {
+          "en": "even time off screen enters the management of the product",
+          "ja": "画面の外の時間さえ商品管理に入る",
+          "note": "off screen「画面の外で」。",
+          "pattern": "off screen"
+        }
+      ]
+    }
+  ],
+  "DE-20260921-003": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "program": {
+          "ja": "番組"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "end on": {
+          "ja": "〜で終わる"
+        },
+        "the word": {
+          "ja": "という言葉"
+        },
+        "cut": {
+          "ja": "カット"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "performed role": {
+          "ja": "演じられた役"
+        },
+        "may not": {
+          "ja": "〜とは限らない"
+        },
+        "end": {
+          "ja": "終わる"
+        },
+        "at the same moment": {
+          "ja": "同じ瞬間に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a performed role may not end at the same moment",
+          "ja": "演じた役は同じ瞬間に終わるとは限らない",
+          "note": "may not「〜しないかもしれない」。",
+          "pattern": "may not"
+        }
+      ]
+    },
+    {
+      "words": {
+        "judgments about": {
+          "ja": "〜についての判断"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "succeeded": {
+          "ja": "成功した"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "was dropped": {
+          "ja": "外された"
+        },
+        "continue": {
+          "ja": "続く"
+        },
+        "after": {
+          "ja": "〜の後も"
+        },
+        "the broadcast": {
+          "ja": "放送"
+        }
+      },
+      "phrases": [
+        {
+          "en": "who succeeded and who was dropped",
+          "ja": "誰が売れて誰が外されたか",
+          "note": "dropped「（番組から）外された」。",
+          "pattern": "who 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the bright exchange": {
+          "ja": "明るいやり取り"
+        },
+        "belongs on screen": {
+          "ja": "画面の中のものだ"
+        },
+        "the loneliness": {
+          "ja": "孤独"
+        },
+        "behind it": {
+          "ja": "その裏の"
+        },
+        "it": {
+          "ja": "それ（＝明るいやり取り）"
+        },
+        "does not": {
+          "ja": "（画面の中のもの）ではない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the loneliness behind it does not",
+          "ja": "裏の孤独は画面に属さない",
+          "note": "does not = does not belong on screen の省略。",
+          "pattern": "代動詞 does"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the final cue": {
+          "ja": "最後の合図"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "therefore": {
+          "ja": "だから"
+        },
+        "both": {
+          "ja": "〜でもあり…でもある"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "ending": {
+          "ja": "終わり"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "boundary": {
+          "ja": "境界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "both an ending and a boundary",
+          "ja": "終わりでもあり境界でもある",
+          "note": "cue「（番組の）合図」。",
+          "pattern": "both A and B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "what remains": {
+          "ja": "残るもの"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the silence": {
+          "ja": "沈黙"
+        },
+        "between": {
+          "ja": "〜の間の"
+        },
+        "the person": {
+          "ja": "本人"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "the persona": {
+          "ja": "演じる人格（ペルソナ）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the silence between the person and the persona",
+          "ja": "本人と演じる人格の間の沈黙",
+          "note": "person と persona の言葉遊び。",
+          "pattern": "between A and B"
+        }
+      ]
+    }
   ]
 }
