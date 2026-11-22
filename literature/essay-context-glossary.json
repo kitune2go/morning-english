@@ -50332,5 +50332,655 @@
         }
       ]
     }
+  ],
+  "DE-20260724-001": [
+    {
+      "words": {
+        "on a day": {
+          "ja": "ある日に"
+        },
+        "hot enough to": {
+          "ja": "〜するほど暑い"
+        },
+        "feel": {
+          "ja": "感じられる"
+        },
+        "physically dangerous": {
+          "ja": "身体的に危険な"
+        }
+      },
+      "phrases": [
+        {
+          "en": "hot enough to feel physically dangerous",
+          "ja": "身体に危険を感じるほど暑い",
+          "note": "enough to「〜するほど」。",
+          "pattern": "形容詞 + enough to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "i": {
+          "ja": "私は"
+        },
+        "came across": {
+          "ja": "たまたま見つけた"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "lyrical description of": {
+          "ja": "〜の詩的な描写"
+        },
+        "refreshing meal": {
+          "ja": "涼しげな食事"
+        }
+      },
+      "phrases": [
+        {
+          "en": "came across a lyrical description",
+          "ja": "詩的な描写にたまたま出会った",
+          "note": "come across「偶然見つける」。",
+          "pattern": "come across 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "in": {
+          "ja": "〜なら"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "gentler summer": {
+          "ja": "もっと穏やかな夏"
+        },
+        "the image": {
+          "ja": "その比喩"
+        },
+        "might have felt": {
+          "ja": "〜に感じられたかもしれない"
+        },
+        "playful": {
+          "ja": "遊び心のある"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the image might have felt playful",
+          "ja": "その比喩は遊び心として感じられただろう",
+          "note": "実際とは違う過去の仮定。image はここで「比喩・イメージ」。",
+          "pattern": "might have 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "under": {
+          "ja": "〜のもとでは"
+        },
+        "extreme heat": {
+          "ja": "猛暑"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝その比喩）"
+        },
+        "seemed": {
+          "ja": "〜に見えた"
+        },
+        "detached from": {
+          "ja": "〜から離れた"
+        },
+        "reality": {
+          "ja": "現実"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it seemed detached from reality",
+          "ja": "現実から浮いて見えた",
+          "note": "detached「切り離された」。",
+          "pattern": "detached from 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "language": {
+          "ja": "言葉"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "temperature": {
+          "ja": "気温"
+        },
+        "occupied": {
+          "ja": "占めた"
+        },
+        "the same season": {
+          "ja": "同じ季節"
+        },
+        "but not": {
+          "ja": "しかし〜ではない"
+        },
+        "the same reality": {
+          "ja": "同じ現実"
+        }
+      },
+      "phrases": [
+        {
+          "en": "occupied the same season, but not the same reality",
+          "ja": "同じ季節にいながら、同じ現実にはいなかった",
+          "note": "but not (occupied) the same reality の省略。",
+          "pattern": "省略（but not）"
+        }
+      ]
+    }
+  ],
+  "DE-20260724-002": [
+    {
+      "words": {
+        "the problem": {
+          "ja": "問題"
+        },
+        "went beyond": {
+          "ja": "〜を超えていた"
+        },
+        "a single piece of writing": {
+          "ja": "一つの文章"
+        }
+      },
+      "phrases": [
+        {
+          "en": "went beyond a single piece of writing",
+          "ja": "一つの文章の問題を超えていた",
+          "note": "a piece of writing「一編の文章」。",
+          "pattern": "go beyond 〜 / a piece of writing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "traditional seasonal terms": {
+          "ja": "伝統的な季語"
+        },
+        "once": {
+          "ja": "かつて"
+        },
+        "marked": {
+          "ja": "示した"
+        },
+        "brief": {
+          "ja": "短い"
+        },
+        "turning points": {
+          "ja": "節目"
+        }
+      },
+      "phrases": [
+        {
+          "en": "once marked brief turning points",
+          "ja": "かつては短い節目を示していた",
+          "note": "seasonal terms「季節の言葉（季語）」。",
+          "pattern": "mark 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "prolonged heat": {
+          "ja": "長引く暑さ"
+        },
+        "has turned": {
+          "ja": "変えてしまった"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "exceptional period": {
+          "ja": "例外的な期間"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "ordinary background": {
+          "ja": "ありふれた背景"
+        }
+      },
+      "phrases": [
+        {
+          "en": "has turned an exceptional period into ordinary background",
+          "ja": "例外だった時期をありふれた背景に変えた",
+          "note": "prolonged「長引いた」。",
+          "pattern": "turn A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the calendar": {
+          "ja": "暦"
+        },
+        "still": {
+          "ja": "今でも"
+        },
+        "draws": {
+          "ja": "引く"
+        },
+        "clean boundaries": {
+          "ja": "くっきりした境界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The calendar still draws clean boundaries",
+          "ja": "暦は今もくっきり境界を引く",
+          "note": "clean はここで「はっきりした」。",
+          "pattern": "draw a boundary"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the climate": {
+          "ja": "気候"
+        },
+        "no longer": {
+          "ja": "もはや〜ない"
+        },
+        "respects": {
+          "ja": "従う"
+        },
+        "them": {
+          "ja": "それら（＝境界）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the climate no longer respects them",
+          "ja": "気候はもうその境界を守らない",
+          "note": "respect はここで「（境界を）守る」。",
+          "pattern": "no longer"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "old name": {
+          "ja": "古い名前"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "hide": {
+          "ja": "隠す"
+        },
+        "how much": {
+          "ja": "どれほど"
+        },
+        "the thing itself": {
+          "ja": "物そのもの"
+        },
+        "has changed": {
+          "ja": "変わったか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can hide how much the thing itself has changed",
+          "ja": "物そのものがどれほど変わったかを隠しうる",
+          "note": "名前が変わらないと変化が見えにくい。",
+          "pattern": "how much 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260724-003": [
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "technical language": {
+          "ja": "専門用語"
+        },
+        "can also": {
+          "ja": "〜することもできる"
+        },
+        "bring": {
+          "ja": "もたらす"
+        },
+        "reality": {
+          "ja": "現実"
+        },
+        "into focus": {
+          "ja": "焦点の合った状態に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can also bring reality into focus",
+          "ja": "現実に焦点を合わせることもできる",
+          "note": "into focus「ピントが合って」。",
+          "pattern": "bring A into focus"
+        }
+      ]
+    },
+    {
+      "words": {
+        "terms": {
+          "ja": "用語"
+        },
+        "from": {
+          "ja": "〜の"
+        },
+        "law": {
+          "ja": "法律"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "physics": {
+          "ja": "物理学"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "look forbidding": {
+          "ja": "近寄りがたく見える"
+        },
+        "at first": {
+          "ja": "最初は"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may look forbidding at first",
+          "ja": "最初は近寄りがたく見えるかもしれない",
+          "note": "forbidding「とっつきにくい」。",
+          "pattern": "look 形容詞 / at first"
+        }
+      ]
+    },
+    {
+      "words": {
+        "they": {
+          "ja": "それら（＝用語）"
+        },
+        "become useful": {
+          "ja": "役に立つようになる"
+        },
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "their": {
+          "ja": "それらの"
+        },
+        "scope": {
+          "ja": "範囲"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "limits": {
+          "ja": "限界"
+        },
+        "are made explicit": {
+          "ja": "はっきり示される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "once their scope and limits are made explicit",
+          "ja": "範囲と限界がはっきり示されれば",
+          "note": "made explicit「明示された」。",
+          "pattern": "make A 形容詞（受け身）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "complexity": {
+          "ja": "複雑さ"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "the real problem": {
+          "ja": "本当の問題"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Complexity is not the real problem",
+          "ja": "複雑さが本当の問題なのではない",
+          "note": "次の文で本当の問題を言う。",
+          "pattern": "not the real 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "trouble": {
+          "ja": "面倒"
+        },
+        "begins": {
+          "ja": "始まる"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "word": {
+          "ja": "言葉"
+        },
+        "lends": {
+          "ja": "貸す"
+        },
+        "authority": {
+          "ja": "権威"
+        },
+        "without defining": {
+          "ja": "定めずに"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "boundaries": {
+          "ja": "境界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "when a word lends authority without defining its boundaries",
+          "ja": "言葉が境界を定めずに権威だけを貸すとき",
+          "note": "lend「貸す」。",
+          "pattern": "lend authority / without -ing"
+        }
+      ]
+    }
+  ],
+  "DE-20260724-004": [
+    {
+      "words": {
+        "by evening": {
+          "ja": "夕方までに"
+        },
+        "the day's": {
+          "ja": "その日の"
+        },
+        "discussion": {
+          "ja": "対話"
+        },
+        "had produced": {
+          "ja": "生み出していた"
+        },
+        "something": {
+          "ja": "何か"
+        },
+        "more durable": {
+          "ja": "もっと長持ちする"
+        }
+      },
+      "phrases": [
+        {
+          "en": "had produced something more durable",
+          "ja": "もっと長持ちするものを生んでいた",
+          "note": "something＋形容詞の語順。",
+          "pattern": "something + 比較級"
+        }
+      ]
+    },
+    {
+      "words": {
+        "i": {
+          "ja": "私は"
+        },
+        "moved": {
+          "ja": "移した"
+        },
+        "the working procedure": {
+          "ja": "作業手順"
+        },
+        "into": {
+          "ja": "〜の中へ"
+        },
+        "the repository": {
+          "ja": "リポジトリ"
+        },
+        "itself": {
+          "ja": "そのもの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "moved the working procedure into the repository itself",
+          "ja": "作業手順をリポジトリそのものに移した",
+          "note": "procedure「手順」。",
+          "pattern": "move A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "what to": {
+          "ja": "何を〜するか"
+        },
+        "create": {
+          "ja": "作る"
+        },
+        "where to": {
+          "ja": "どこに〜するか"
+        },
+        "register": {
+          "ja": "登録する"
+        },
+        "it": {
+          "ja": "それ（＝作ったもの）"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "how to": {
+          "ja": "どうやって〜するか"
+        },
+        "verify": {
+          "ja": "確かめる"
+        },
+        "the result": {
+          "ja": "結果"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what to create, where to register it, and how to verify the result",
+          "ja": "何を作り、どこに登録し、どう確かめるか",
+          "note": "疑問詞＋to不定詞を3つ並べる。",
+          "pattern": "疑問詞 + to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the method": {
+          "ja": "その方法"
+        },
+        "no longer": {
+          "ja": "もはや〜ない"
+        },
+        "depended on": {
+          "ja": "〜に頼った"
+        },
+        "one conversation": {
+          "ja": "一つの対話"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "one model's": {
+          "ja": "一つのモデルの"
+        },
+        "memory": {
+          "ja": "記憶"
+        }
+      },
+      "phrases": [
+        {
+          "en": "no longer depended on one conversation or one model's memory",
+          "ja": "もう一つの会話やモデルの記憶に頼らなくなった",
+          "note": "model はここで「AIモデル」。",
+          "pattern": "depend on 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "language": {
+          "ja": "言葉"
+        },
+        "meets": {
+          "ja": "出会う"
+        },
+        "reality": {
+          "ja": "現実"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "it": {
+          "ja": "それ（＝言葉）"
+        },
+        "lets": {
+          "ja": "〜させる"
+        },
+        "someone else": {
+          "ja": "ほかの誰か"
+        },
+        "reproduce": {
+          "ja": "再現する"
+        },
+        "the path": {
+          "ja": "道筋"
+        }
+      },
+      "phrases": [
+        {
+          "en": "when it lets someone else reproduce the path",
+          "ja": "ほかの誰かが道筋を再現できるとき",
+          "note": "let＋目的語＋原形。",
+          "pattern": "let A 動詞"
+        }
+      ]
+    }
   ]
 }
