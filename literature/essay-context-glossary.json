@@ -6568,85 +6568,189 @@
     {
       "words": {
         "merging": {
-          "ja": "統合すること"
+          "ja": "統合（マージ）すること"
         },
-        "generator": {
-          "ja": "生成器"
+        "a": {
+          "ja": "ひとつの"
         },
-        "branch": {
-          "ja": "ブランチ"
+        "shared generator": {
+          "ja": "共通の生成器"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "the main branch": {
+          "ja": "mainブランチ"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "make the work complete": {
+          "ja": "作業を完成させる"
         }
       },
       "phrases": [
         {
-          "en": "Merging a shared generator into the main branch does not make the work complete",
-          "ja": "共通生成器をmainブランチへ統合しても、作業は完成しない。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "does not make the work complete",
+          "ja": "作業を完成させるわけではない",
+          "note": "次のチャンクの until 節へ続く。",
+          "pattern": "make A 形容詞"
         }
       ]
     },
     {
       "words": {
-        "tested": {
-          "ja": "テストされる"
-        }
-      },
-      "phrases": [
-        {
-          "en": "until it has been tested on a real model.",
-          "ja": "実モデルでテストされるまでは。",
-          "note": "until節が完了までの限界点を示す。"
-        }
-      ]
-    },
-    {
-      "words": {
-        "phone": {
-          "ja": "スマートフォン"
-        }
-      },
-      "phrases": [
-        {
-          "en": "An open path in the code changes nothing on a phone if production still serves an older build.",
-          "ja": "コード上の経路が開いていても、本番が古いビルドを配信しているなら、スマートフォン上では何も変わらない。",
-          "note": "if節が主節の成立条件を示す。"
-        }
-      ]
-    },
-    {
-      "words": {
-        "usage": {
-          "ja": "利用"
+        "until": {
+          "ja": "〜するまでは"
         },
+        "it": {
+          "ja": "それ（＝共通の生成器）"
+        },
+        "has been tested": {
+          "ja": "テストされた"
+        },
+        "on": {
+          "ja": "〜で"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "real model": {
+          "ja": "実際のモデル"
+        }
+      },
+      "phrases": [
+        {
+          "en": "until it has been tested on a real model",
+          "ja": "実モデルで試されるまでは",
+          "note": "前のチャンクの否定と合わせて「〜して初めて完成する」。",
+          "pattern": "until 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "open path": {
+          "ja": "開いた経路"
+        },
+        "in the code": {
+          "ja": "コード上の"
+        },
+        "changes nothing": {
+          "ja": "何も変えない"
+        },
+        "on a phone": {
+          "ja": "スマホ上では"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "production": {
+          "ja": "本番環境"
+        },
+        "still": {
+          "ja": "まだ"
+        },
+        "serves": {
+          "ja": "配信している"
+        },
+        "older build": {
+          "ja": "古いビルド"
+        }
+      },
+      "phrases": [
+        {
+          "en": "changes nothing on a phone if production still serves an older build",
+          "ja": "本番が古いビルドのままならスマホでは何も変わらない",
+          "note": "serve はここで「（サーバーが）配信する」。",
+          "pattern": "change nothing"
+        }
+      ]
+    },
+    {
+      "words": {
         "publication": {
           "ja": "公開"
         },
         "availability": {
-          "ja": "利用可能性"
+          "ja": "使えるようになること"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "usage limit": {
+          "ja": "利用上限"
+        },
+        "blocks": {
+          "ja": "妨げる"
+        },
+        "a delay": {
+          "ja": "遅れ"
+        },
+        "opens": {
+          "ja": "生じる"
+        },
+        "between": {
+          "ja": "〜の間に"
+        },
+        "implementation": {
+          "ja": "実装"
         }
       },
       "phrases": [
         {
-          "en": "When a usage limit blocks publication, a delay opens between implementation and availability.",
-          "ja": "利用上限が公開を妨げると、実装と利用可能性の間に遅れが生じる。",
-          "note": "when節が主節の成立する時点・条件を示す。"
+          "en": "a delay opens between implementation and availability",
+          "ja": "実装と利用開始の間に遅れが生じる",
+          "note": "open はここで「（すき間が）開く・生じる」。",
+          "pattern": "between A and B"
         }
       ]
     },
     {
       "words": {
-        "merged": {
-          "ja": "マージされた"
+        "progress": {
+          "ja": "進捗"
         },
-        "user's": {
-          "ja": "利用者の"
+        "should be measured": {
+          "ja": "測られるべきだ"
+        },
+        "not by": {
+          "ja": "〜によってではなく"
+        },
+        "merged lines": {
+          "ja": "マージされた行数"
+        },
+        "but by": {
+          "ja": "…によって"
+        },
+        "the features": {
+          "ja": "機能"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "actually": {
+          "ja": "実際に"
+        },
+        "reach": {
+          "ja": "届く"
+        },
+        "the user's hands": {
+          "ja": "利用者の手元"
         }
       },
       "phrases": [
         {
-          "en": "Progress should be measured not by merged lines, but by the features that actually reach the user's hands.",
-          "ja": "進捗はマージされた行数ではなく、実際に利用者の手元へ届く機能で測るべきだ。",
-          "note": "not A, but B の対比を含むまとまりとして読む。"
+          "en": "should be measured not by merged lines, but by the features",
+          "ja": "行数ではなく機能で測るべきだ",
+          "note": "by が「〜で（基準）」。",
+          "pattern": "not by A but by B"
         }
       ]
     }
@@ -6654,18 +6758,34 @@
   "DE-20261108-002": [
     {
       "words": {
-        "wanted": {
-          "ja": "求められていた"
+        "what was wanted": {
+          "ja": "求められていたもの"
         },
-        "remote": {
-          "ja": "遠隔の"
+        "was not": {
+          "ja": "〜ではなかった"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "label": {
+          "ja": "名札・表示"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜と書かれた"
+        },
+        "said": {
+          "ja": "〜と書いてあった"
+        },
+        "remote control": {
+          "ja": "遠隔操作"
         }
       },
       "phrases": [
         {
-          "en": "What was wanted was not a label that said remote control,",
-          "ja": "求められていたのは、遠隔操作と書かれた名札ではなく、",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "What was wanted was not a label",
+          "ja": "求められていたのは名札ではなかった",
+          "note": "次のチャンクの but a route へ続く。",
+          "pattern": "what was wanted"
         }
       ]
     },
@@ -6674,72 +6794,145 @@
         "blender": {
           "ja": "Blender"
         },
-        "chat": {
-          "ja": "チャット"
-        },
         "viewing": {
           "ja": "見ること"
+        },
+        "but": {
+          "ja": "そうではなく"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "route for": {
+          "ja": "〜するための経路"
+        },
+        "moving": {
+          "ja": "動かすこと"
+        },
+        "from chat": {
+          "ja": "チャットから"
+        },
+        "the editor": {
+          "ja": "エディタ"
+        },
+        "checking": {
+          "ja": "確かめること"
+        },
+        "the result": {
+          "ja": "結果"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "sending back": {
+          "ja": "送り返すこと"
+        },
+        "the next correction": {
+          "ja": "次の修正"
         }
       },
       "phrases": [
         {
-          "en": "but a route for moving Blender from chat, viewing the editor, checking the result, and sending back the next correction.",
-          "ja": "チャットからBlenderを動かし、エディタを見て、結果を確かめ、次の修正を返すための経路だった。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "a route for moving Blender from chat, viewing the editor, checking the result, and sending back the next correction",
+          "ja": "動かし、見て、確かめ、返すための経路",
+          "note": "for の後に動名詞が4つ並ぶ。",
+          "pattern": "for -ing の並列"
         }
       ]
     },
     {
       "words": {
-        "local": {
-          "ja": "ローカルの"
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "local environment": {
+          "ja": "手元の環境"
+        },
+        "is unavailable": {
+          "ja": "使えない"
         }
       },
       "phrases": [
         {
-          "en": "When a local environment is unavailable,",
-          "ja": "ローカル環境が利用できないとき、",
-          "note": "when節が主節の成立する時点・条件を示す。"
+          "en": "When a local environment is unavailable",
+          "ja": "手元の環境が使えないとき",
+          "note": "次のチャンクへ続く条件。",
+          "pattern": "unavailable"
         }
       ]
     },
     {
       "words": {
-        "colab": {
-          "ja": "Colab"
+        "keeping": {
+          "ja": "残しておくこと"
         },
-        "backend": {
-          "ja": "バックエンド"
+        "the colab backend": {
+          "ja": "Colabのバックエンド"
+        },
+        "still": {
+          "ja": "それでも"
+        },
+        "has value": {
+          "ja": "価値がある"
         }
       },
       "phrases": [
         {
-          "en": "keeping the Colab backend still has value.",
-          "ja": "Colabのバックエンドを残すことには、なお価値がある。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "keeping the Colab backend still has value",
+          "ja": "Colabのバックエンドを残すことには価値がある",
+          "note": "keeping が主語。",
+          "pattern": "動名詞の主語"
         }
       ]
     },
     {
       "words": {
-        "vary": {
-          "ja": "一つに限られない"
-        },
-        "plugin": {
-          "ja": "プラグイン"
-        },
         "chat": {
           "ja": "チャット"
         },
         "generator": {
           "ja": "生成器"
+        },
+        "the point of entry": {
+          "ja": "入口"
+        },
+        "can vary": {
+          "ja": "いろいろあってよい"
+        },
+        "as long as": {
+          "ja": "〜である限り"
+        },
+        "the plugin": {
+          "ja": "プラグイン"
+        },
+        "editor": {
+          "ja": "エディタ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "all": {
+          "ja": "すべて"
+        },
+        "return to": {
+          "ja": "〜に戻る"
+        },
+        "the same": {
+          "ja": "同じ"
+        },
+        "state": {
+          "ja": "状態"
         }
       },
       "phrases": [
         {
-          "en": "The point of entry can vary as long as the plugin, editor, and chat all return to the same generator and state.",
-          "ja": "プラグイン、エディタ、チャットがすべて同じ生成器と状態へ戻れる限り、入口は一つでなくてよい。",
-          "note": "as long as が継続条件を示す節として読む。"
+          "en": "can vary as long as the plugin, editor, and chat all return to the same generator",
+          "ja": "すべて同じ生成器に戻る限り、入口は変わってよい",
+          "note": "as long as「〜である限り」。",
+          "pattern": "as long as 〜"
         }
       ]
     }
@@ -6747,75 +6940,154 @@
   "DE-20261108-003": [
     {
       "words": {
-        "network": {
-          "ja": "接続網"
-        },
         "long-awaited": {
           "ja": "待望の"
         },
-        "friendly": {
-          "ja": "親しみやすい"
-        },
         "either": {
-          "ja": "〜もまた（否定文）"
+          "ja": "〜もまた（否定文で）"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "large network": {
+          "ja": "大きな人脈・接続網"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "words": {
+          "ja": "言葉"
+        },
+        "such as": {
+          "ja": "〜のような"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "casual and friendly": {
+          "ja": "ゆるふわ（気軽で親しみやすい）"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "a response": {
+          "ja": "反応"
         }
       },
       "phrases": [
         {
-          "en": "A large network and words such as \"long-awaited\" or \"casual and friendly\" do not guarantee a response either.",
-          "ja": "大きな接続網も、「待望」や「ゆるふわ」のような言葉も、反応を保証しない。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "do not guarantee a response either",
+          "ja": "反応を保証するわけでもない",
+          "note": "否定文の either「〜も…ない」。",
+          "pattern": "not ... either"
         }
       ]
     },
     {
       "words": {
         "enthusiasm": {
-          "ja": "熱狂"
+          "ja": "熱意"
         },
-        "trapped": {
-          "ja": "閉じ込められた"
+        "strong promotion": {
+          "ja": "強い宣伝"
         },
-        "sign": {
+        "can": {
+          "ja": "〜しうる"
+        },
+        "leave": {
+          "ja": "〜のままにする"
+        },
+        "trapped behind": {
+          "ja": "〜の裏に閉じ込められた"
+        },
+        "the sign": {
           "ja": "看板"
         }
       },
       "phrases": [
         {
-          "en": "Strong promotion can leave enthusiasm trapped behind the sign",
-          "ja": "強い告知でも、熱狂を看板の内側に閉じ込めたままにしうる。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "leave enthusiasm trapped behind the sign",
+          "ja": "熱意を看板の裏に閉じ込めたままにする",
+          "note": "leave＋目的語＋過去分詞「Aを〜された状態にしておく」。",
+          "pattern": "leave A 過去分詞"
         }
       ]
     },
     {
       "words": {
-        "few": {
-          "ja": "少数の"
-        },
         "watch": {
           "ja": "見る"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "few people": {
+          "ja": "ほとんどの人が〜ない"
+        },
+        "actually": {
+          "ja": "実際に"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "want to": {
+          "ja": "〜したいと思う"
+        },
+        "return": {
+          "ja": "また来る"
         }
       },
       "phrases": [
         {
-          "en": "if few people actually watch or want to return.",
-          "ja": "実際に見る人や、再び見たい人が少なければ。",
-          "note": "if節が主節の成立条件を示す。"
+          "en": "if few people actually watch or want to return",
+          "ja": "実際に見る人や戻りたい人がほとんどいなければ",
+          "note": "few（a なし）は「ほとんど〜ない」という否定の意味。",
+          "pattern": "few 〜"
         }
       ]
     },
     {
       "words": {
-        "grow": {
-          "ja": "〜になる"
+        "development": {
+          "ja": "開発"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "publicity": {
+          "ja": "宣伝"
+        },
+        "both": {
+          "ja": "どちらも"
+        },
+        "grow heavy": {
+          "ja": "重くなる"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "they": {
+          "ja": "それら（＝開発と宣伝）"
+        },
+        "merely": {
+          "ja": "単に"
+        },
+        "multiply": {
+          "ja": "増やす"
+        },
+        "entrances": {
+          "ja": "入口"
         }
       },
       "phrases": [
         {
-          "en": "Development and publicity both grow heavy when they merely multiply entrances.",
-          "ja": "開発も宣伝も、入口を増やすだけでは重くなる。",
-          "note": "when節が主節の成立する時点・条件を示す。"
+          "en": "grow heavy when they merely multiply entrances",
+          "ja": "入口を増やすだけだと重くなる",
+          "note": "grow＋形容詞「〜になる」。",
+          "pattern": "grow 形容詞"
         }
       ]
     },
@@ -6823,13 +7095,44 @@
       "words": {
         "route": {
           "ja": "経路"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "becomes alive": {
+          "ja": "生きたものになる"
+        },
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "action": {
+          "ja": "操作"
+        },
+        "returns as": {
+          "ja": "〜として返ってくる"
+        },
+        "a result": {
+          "ja": "結果"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "words": {
+          "ja": "言葉"
+        },
+        "a response": {
+          "ja": "反応"
         }
       },
       "phrases": [
         {
-          "en": "A route becomes alive only when an action returns as a result and words return as a response.",
-          "ja": "操作が結果として返り、言葉が反応として返るときにだけ、経路は生きたものになる。",
-          "note": "only を伴う条件表現で、成立に必要な時点を強調する。"
+          "en": "only when an action returns as a result and words return as a response",
+          "ja": "操作が結果として、言葉が反応として返るときだけ",
+          "note": "as「〜として」。",
+          "pattern": "return as 〜"
         }
       ]
     },
@@ -6837,13 +7140,41 @@
       "words": {
         "route": {
           "ja": "経路"
+        },
+        "the existence of": {
+          "ja": "〜があること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "round trip": {
+          "ja": "往復"
+        },
+        "more than": {
+          "ja": "〜以上に"
+        },
+        "the size of": {
+          "ja": "〜の大きさ"
+        },
+        "the numbers": {
+          "ja": "数字"
+        },
+        "proves": {
+          "ja": "証明する"
+        },
+        "that": {
+          "ja": "（接続詞）〜ということ"
+        },
+        "is real": {
+          "ja": "本物である"
         }
       },
       "phrases": [
         {
-          "en": "The existence of a round trip, more than the size of the numbers, proves that a route is real.",
-          "ja": "数字の大きさ以上に、往復があることが経路の実在を証明する。",
-          "note": "than を用いた比較で、評価基準の優先順位を示す。"
+          "en": "The existence of a round trip, more than the size of the numbers, proves",
+          "ja": "数字の大きさよりも往復があることが証明する",
+          "note": "挿入句 more than ... で比較。",
+          "pattern": "more than 〜"
         }
       ]
     }
