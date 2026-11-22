@@ -46310,5 +46310,928 @@
         }
       ]
     }
+  ],
+  "DE-20260812-001": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "title": {
+          "ja": "肩書き"
+        },
+        "may be": {
+          "ja": "〜かもしれない"
+        },
+        "brief": {
+          "ja": "短い"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝肩書き）"
+        },
+        "carries": {
+          "ja": "帯びている"
+        },
+        "a tense": {
+          "ja": "時制"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it carries a tense",
+          "ja": "肩書きは時制を帯びている",
+          "note": "tense はここで名詞「時制」（緊張したではない）。",
+          "pattern": "tense（文法）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "having once played": {
+          "ja": "かつて演じたこと"
+        },
+        "a role": {
+          "ja": "役"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "served": {
+          "ja": "務めた"
+        },
+        "a fixed term": {
+          "ja": "決まった任期"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Having once played a role or served a fixed term",
+          "ja": "かつて役を演じたり任期を務めたりしたこと",
+          "note": "having＋過去分詞で「〜したこと」。term はここで「任期」。",
+          "pattern": "完了の動名詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "is different from": {
+          "ja": "〜とは違う"
+        },
+        "holding": {
+          "ja": "保っていること"
+        },
+        "that position": {
+          "ja": "その地位"
+        },
+        "now": {
+          "ja": "今"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is different from holding that position now",
+          "ja": "今その地位にあることとは違う",
+          "note": "hold a position「地位に就いている」。",
+          "pattern": "be different from -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "past work": {
+          "ja": "過去の仕事"
+        },
+        "belongs in": {
+          "ja": "〜に入るべきだ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "record of": {
+          "ja": "〜の記録"
+        },
+        "experience": {
+          "ja": "経歴"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Past work belongs in a record of experience",
+          "ja": "過去の仕事は経歴の記録に入るべきもの",
+          "note": "past はここで形容詞「過去の」。",
+          "pattern": "belong in 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "presented as": {
+          "ja": "〜として示されると"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "current profile": {
+          "ja": "現在のプロフィール"
+        },
+        "it": {
+          "ja": "それ（＝過去の仕事）"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "imply": {
+          "ja": "ほのめかす"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "active qualification": {
+          "ja": "現役の資格"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "authority": {
+          "ja": "権限"
+        }
+      },
+      "phrases": [
+        {
+          "en": "presented as a current profile, it may imply an active qualification",
+          "ja": "今のプロフィールとして示されると、現役の資格をほのめかしかねない",
+          "note": "profile はここで「プロフィール」。",
+          "pattern": "分詞構文（過去分詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the act of": {
+          "ja": "〜という行為"
+        },
+        "making a claim": {
+          "ja": "名乗ること・主張すること"
+        },
+        "remains": {
+          "ja": "〜のままである"
+        },
+        "a fact": {
+          "ja": "事実"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the claim's": {
+          "ja": "その主張の"
+        },
+        "present validity": {
+          "ja": "現在の有効性"
+        },
+        "must be verified": {
+          "ja": "確かめられなければならない"
+        },
+        "elsewhere": {
+          "ja": "別の場所で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the claim's present validity must be verified elsewhere",
+          "ja": "主張が今も有効かは別の場所で確かめねばならない",
+          "note": "present は形容詞「現在の」。",
+          "pattern": "must be 過去分詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260812-002": [
+    {
+      "words": {
+        "reaching": {
+          "ja": "たどり着くこと"
+        },
+        "a position": {
+          "ja": "地位"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "meeting": {
+          "ja": "満たすこと"
+        },
+        "the standard": {
+          "ja": "水準"
+        },
+        "expected there": {
+          "ja": "そこで期待される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not the same as meeting the standard expected there",
+          "ja": "そこで期待される水準を満たすことと同じではない",
+          "note": "meeting はここで動詞「満たすこと」（会議ではない）。",
+          "pattern": "meet a standard"
+        }
+      ]
+    },
+    {
+      "words": {
+        "receiving": {
+          "ja": "受け取ること"
+        },
+        "a number": {
+          "ja": "番号"
+        },
+        "appearing on": {
+          "ja": "〜に出ること"
+        },
+        "a stage": {
+          "ja": "舞台"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "playing": {
+          "ja": "演じること"
+        },
+        "a role": {
+          "ja": "役"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Receiving a number, appearing on a stage, or playing a role",
+          "ja": "番号を得る・舞台に出る・役を演じること",
+          "note": "次のチャンクの主語。",
+          "pattern": "動名詞の並列"
+        }
+      ]
+    },
+    {
+      "words": {
+        "can all be observed": {
+          "ja": "どれも観察できる"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "each achievement": {
+          "ja": "それぞれの達成"
+        },
+        "may still": {
+          "ja": "それでも〜されうる"
+        },
+        "be judged against": {
+          "ja": "〜に照らして評価される"
+        },
+        "standards": {
+          "ja": "基準"
+        },
+        "applied afterward": {
+          "ja": "後から当てはめられる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may still be judged against standards applied afterward",
+          "ja": "後から当てはめた基準で評価されうる",
+          "note": "against「〜に照らして」。",
+          "pattern": "judge A against B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "self-description": {
+          "ja": "自称"
+        },
+        "can be changed": {
+          "ja": "変えられる"
+        },
+        "tomorrow": {
+          "ja": "明日"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "event": {
+          "ja": "出来事"
+        },
+        "cannot be undone": {
+          "ja": "取り消せない"
+        },
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "it": {
+          "ja": "それ（＝出来事）"
+        },
+        "has occurred": {
+          "ja": "起きた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "an event cannot be undone once it has occurred",
+          "ja": "起きた出来事は取り消せない",
+          "note": "undone は undo の過去分詞。",
+          "pattern": "undo（取り消す）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "that is why": {
+          "ja": "だからこそ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "title": {
+          "ja": "肩書き"
+        },
+        "can remain": {
+          "ja": "〜のままでいられる"
+        },
+        "flexible": {
+          "ja": "柔軟な"
+        },
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "evidence": {
+          "ja": "証拠"
+        },
+        "lies": {
+          "ja": "ある"
+        },
+        "elsewhere": {
+          "ja": "別の場所に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "That is why a title can remain flexible only when its evidence lies elsewhere",
+          "ja": "だから肩書きは、証拠が別にあるときだけ柔軟でいられる",
+          "note": "lies は lie「ある」の三単現。",
+          "pattern": "that is why 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "repeatable actions": {
+          "ja": "繰り返せる行動"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "durable results": {
+          "ja": "残る成果"
+        },
+        "provide": {
+          "ja": "与える"
+        },
+        "the proof": {
+          "ja": "証明"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When repeatable actions or durable results provide the proof",
+          "ja": "繰り返せる行動や残る成果が証明になるとき",
+          "note": "durable「長持ちする」。",
+          "pattern": "provide 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the label": {
+          "ja": "看板・呼び名"
+        },
+        "can stay": {
+          "ja": "〜のままでいられる"
+        },
+        "light enough to": {
+          "ja": "〜できるほど軽く"
+        },
+        "change": {
+          "ja": "変える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the label can stay light enough to change",
+          "ja": "看板は変えられるほど軽いままでいられる",
+          "note": "light はここで形容詞「軽い」（光ではない）。",
+          "pattern": "形容詞 + enough to 動詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260812-003": [
+    {
+      "words": {
+        "moving": {
+          "ja": "移すこと"
+        },
+        "proof": {
+          "ja": "証明"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "a label": {
+          "ja": "肩書き"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "an action": {
+          "ja": "行動"
+        },
+        "creates": {
+          "ja": "生む"
+        },
+        "another trap": {
+          "ja": "別の罠"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Moving proof from a label to an action creates another trap",
+          "ja": "証明を肩書きから行動へ移すと別の罠が生まれる",
+          "note": "動名詞の主語。",
+          "pattern": "move A from B to C"
+        }
+      ]
+    },
+    {
+      "words": {
+        "to demonstrate": {
+          "ja": "示すために"
+        },
+        "effort": {
+          "ja": "努力"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "person": {
+          "ja": "人"
+        },
+        "may": {
+          "ja": "〜ことがある"
+        },
+        "begin": {
+          "ja": "始める"
+        },
+        "broadcasting": {
+          "ja": "中継すること"
+        },
+        "the entire process": {
+          "ja": "過程全体"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may begin broadcasting the entire process",
+          "ja": "過程全体を中継し始めることがある",
+          "note": "broadcast「配信・中継する」。",
+          "pattern": "begin -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "until": {
+          "ja": "ついには〜するまで"
+        },
+        "a pause": {
+          "ja": "休止"
+        },
+        "seems to": {
+          "ja": "〜するように思える"
+        },
+        "erase": {
+          "ja": "消す"
+        },
+        "the identity": {
+          "ja": "自己像"
+        },
+        "being presented": {
+          "ja": "見せている最中の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the identity being presented",
+          "ja": "今見せている自己像",
+          "note": "being presented「示されている最中の」。",
+          "pattern": "名詞 + being 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "the number of": {
+          "ja": "〜の数"
+        },
+        "consecutive days": {
+          "ja": "連続日数"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "a name": {
+          "ja": "名前"
+        },
+        "stopping": {
+          "ja": "やめること"
+        },
+        "no longer": {
+          "ja": "もはや〜ない"
+        },
+        "feels like": {
+          "ja": "〜のように感じられる"
+        },
+        "rest": {
+          "ja": "休息"
+        },
+        "it": {
+          "ja": "それ（＝やめること）"
+        },
+        "a collapse of": {
+          "ja": "〜の崩壊"
+        },
+        "that identity": {
+          "ja": "その自己像"
+        }
+      },
+      "phrases": [
+        {
+          "en": "stopping no longer feels like rest; it feels like a collapse of that identity",
+          "ja": "やめることは休息ではなく、自己像の崩壊に感じられる",
+          "note": "rest はここで「休息」。",
+          "pattern": "no longer / feel like 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "what is missing": {
+          "ja": "足りないもの"
+        },
+        "then": {
+          "ja": "そのとき"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "more willpower": {
+          "ja": "もっと強い意志"
+        },
+        "but": {
+          "ja": "そうではなく"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "stopping condition": {
+          "ja": "停止条件"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not more willpower but a stopping condition",
+          "ja": "意志の追加ではなく停止条件",
+          "note": "missing「欠けている」。",
+          "pattern": "not A but B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "unless": {
+          "ja": "〜しない限り"
+        },
+        "the day's": {
+          "ja": "その日の"
+        },
+        "endpoint": {
+          "ja": "終わりの点"
+        },
+        "is defined": {
+          "ja": "決められる"
+        },
+        "in advance": {
+          "ja": "前もって"
+        },
+        "persistence": {
+          "ja": "続けること"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "turn from": {
+          "ja": "〜から変わる"
+        },
+        "a way of": {
+          "ja": "〜する方法"
+        },
+        "producing": {
+          "ja": "生み出すこと"
+        },
+        "results": {
+          "ja": "成果"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a ritual of": {
+          "ja": "〜の儀式"
+        },
+        "proving": {
+          "ja": "証明すること"
+        },
+        "one's existence": {
+          "ja": "自分の存在"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can turn from a way of producing results into a ritual of proving one's existence",
+          "ja": "成果を出す方法から存在証明の儀式に変わりうる",
+          "note": "unless「〜でない限り」。one's は「自分の」。",
+          "pattern": "turn from A into B"
+        }
+      ]
+    }
+  ],
+  "DE-20260812-004": [
+    {
+      "words": {
+        "questions about": {
+          "ja": "〜についての問い"
+        },
+        "strength training": {
+          "ja": "筋トレ"
+        },
+        "restated": {
+          "ja": "言い直した"
+        },
+        "the same problem": {
+          "ja": "同じ問題"
+        },
+        "in bodily terms": {
+          "ja": "身体の言葉で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "restated the same problem in bodily terms",
+          "ja": "同じ問題を身体の言葉で言い直した",
+          "note": "in terms of / in A terms「Aの観点で」。",
+          "pattern": "in 〜 terms"
+        }
+      ]
+    },
+    {
+      "words": {
+        "neither": {
+          "ja": "〜も…もない"
+        },
+        "two thousand": {
+          "ja": "2000回の"
+        },
+        "repetitions": {
+          "ja": "反復"
+        },
+        "nor": {
+          "ja": "〜も"
+        },
+        "severe": {
+          "ja": "ひどい"
+        },
+        "muscle soreness": {
+          "ja": "筋肉痛"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "by itself": {
+          "ja": "それ自体で"
+        },
+        "proof": {
+          "ja": "証拠"
+        },
+        "that": {
+          "ja": "（同格）〜という"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "workout": {
+          "ja": "トレーニング"
+        },
+        "is effective": {
+          "ja": "効いている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Neither two thousand repetitions nor severe muscle soreness is, by itself, proof",
+          "ja": "2000回も筋肉痛も、それだけでは効いている証拠にならない",
+          "note": "soreness はここで「（筋肉の）痛み」。",
+          "pattern": "neither A nor B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "change": {
+          "ja": "変化"
+        },
+        "comes from": {
+          "ja": "〜から生まれる"
+        },
+        "the combination of": {
+          "ja": "〜の組み合わせ"
+        },
+        "form": {
+          "ja": "フォーム"
+        },
+        "load": {
+          "ja": "負荷"
+        },
+        "recovery": {
+          "ja": "回復"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "frequency": {
+          "ja": "頻度"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜できる"
+        },
+        "can be sustained": {
+          "ja": "続けられる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a frequency that can be sustained",
+          "ja": "続けられる頻度",
+          "note": "form はここで筋トレの「フォーム」。",
+          "pattern": "sustain 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "age": {
+          "ja": "年齢"
+        },
+        "advances": {
+          "ja": "進む"
+        },
+        "without": {
+          "ja": "〜なしで"
+        },
+        "a rest day": {
+          "ja": "休みの日"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Age advances without a rest day",
+          "ja": "年齢は休みなく進む",
+          "note": "advances は動詞「進む」。",
+          "pattern": "advance（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "practice": {
+          "ja": "練習"
+        },
+        "need not": {
+          "ja": "〜する必要はない"
+        },
+        "behave like": {
+          "ja": "〜のように振る舞う"
+        },
+        "a clock": {
+          "ja": "時計"
+        }
+      },
+      "phrases": [
+        {
+          "en": "practice need not behave like a clock",
+          "ja": "練習まで時計のように動く必要はない",
+          "note": "need not＋原形。",
+          "pattern": "need not / behave like 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the better proof": {
+          "ja": "よりよい証明"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the ability to": {
+          "ja": "〜する力"
+        },
+        "return for": {
+          "ja": "〜のために戻る"
+        },
+        "the next repetition": {
+          "ja": "次の一回"
+        },
+        "even after": {
+          "ja": "〜の後でさえ"
+        },
+        "a pause": {
+          "ja": "休み"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the ability to return for the next repetition even after a pause",
+          "ja": "休んだ後でも次の一回に戻れる力",
+          "note": "継続の証明の言い換え。",
+          "pattern": "even after 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "proof": {
+          "ja": "証明"
+        },
+        "is placed there": {
+          "ja": "そこに置かれる"
+        },
+        "persistence": {
+          "ja": "続けること"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "a design": {
+          "ja": "設計"
+        },
+        "rather than": {
+          "ja": "〜ではなく"
+        },
+        "a form of": {
+          "ja": "一種の"
+        },
+        "self-surveillance": {
+          "ja": "自己監視"
+        }
+      },
+      "phrases": [
+        {
+          "en": "persistence becomes a design rather than a form of self-surveillance",
+          "ja": "継続は自己監視ではなく設計になる",
+          "note": "a form of「一種の」。",
+          "pattern": "A rather than B / a form of 〜"
+        }
+      ]
+    }
   ]
 }
