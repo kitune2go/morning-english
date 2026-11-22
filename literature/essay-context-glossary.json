@@ -29757,5 +29757,608 @@
         }
       ]
     }
+  ],
+  "DE-20260924-001": [
+    {
+      "words": {
+        "effort": {
+          "ja": "努力"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "convert itself into": {
+          "ja": "ひとりでに〜に変わる"
+        },
+        "victory": {
+          "ja": "勝利"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "money": {
+          "ja": "お金"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not convert itself into victory or money",
+          "ja": "努力はひとりでに勝利やお金に変わらない",
+          "note": "convert itself「自ら変わる」。",
+          "pattern": "convert A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝結果）"
+        },
+        "needs": {
+          "ja": "必要とする"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "authority": {
+          "ja": "認定する立場（審級）"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "tournament": {
+          "ja": "大会"
+        },
+        "employer": {
+          "ja": "雇い主"
+        },
+        "school": {
+          "ja": "学校"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "audience": {
+          "ja": "観客"
+        },
+        "to recognize": {
+          "ja": "認めるために"
+        },
+        "outcome": {
+          "ja": "結果"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "attach value to": {
+          "ja": "〜に価値を付ける"
+        }
+      },
+      "phrases": [
+        {
+          "en": "to recognize an outcome and attach value to it",
+          "ja": "結果を認め価値を付ける審級",
+          "note": "ダッシュの間は authority の例。",
+          "pattern": "attach A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "friendship": {
+          "ja": "友情"
+        },
+        "effort": {
+          "ja": "努力"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "victory": {
+          "ja": "勝利"
+        },
+        "appeared to": {
+          "ja": "〜するように見えた"
+        },
+        "form": {
+          "ja": "作る"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "reliable sequence": {
+          "ja": "確かな順序"
+        },
+        "that authority": {
+          "ja": "その審級"
+        },
+        "seemed": {
+          "ja": "〜に見えた"
+        },
+        "stable": {
+          "ja": "安定した"
+        }
+      },
+      "phrases": [
+        {
+          "en": "appeared to form a reliable sequence",
+          "ja": "確かな順序をなすように見えた",
+          "note": "友情・努力・勝利（少年漫画の標語）。",
+          "pattern": "appear to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "only winners": {
+          "ja": "勝者だけが"
+        },
+        "receive": {
+          "ja": "受ける"
+        },
+        "certification": {
+          "ja": "認定"
+        },
+        "equal hours": {
+          "ja": "同じ時間"
+        },
+        "on the losing side": {
+          "ja": "負けた側の"
+        },
+        "remain": {
+          "ja": "〜のままだ"
+        },
+        "unpriced": {
+          "ja": "値が付かない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "equal hours on the losing side remain unpriced",
+          "ja": "負けた側の同じ時間は値が付かないまま",
+          "note": "unpriced「価格の付いていない」。",
+          "pattern": "remain 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "respect for": {
+          "ja": "〜への敬意"
+        },
+        "effort": {
+          "ja": "努力"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "system": {
+          "ja": "仕組み"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "rewards": {
+          "ja": "報いる"
+        },
+        "it": {
+          "ja": "それ（＝努力）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Respect for effort is not the same as a system that rewards it",
+          "ja": "努力への敬意と、努力に報いる仕組みは別だ",
+          "note": "reward は動詞「報いる」。",
+          "pattern": "reward（動詞）"
+        }
+      ]
+    }
+  ],
+  "DE-20260924-002": [
+    {
+      "words": {
+        "on": {
+          "ja": "〜の上で"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "digital field": {
+          "ja": "デジタルの場"
+        },
+        "a hundred thousand hours of": {
+          "ja": "10万時間の"
+        },
+        "practice": {
+          "ja": "練習"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "lose to": {
+          "ja": "〜に負ける"
+        },
+        "thirty seconds of": {
+          "ja": "30秒の"
+        },
+        "computation": {
+          "ja": "計算"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can lose to thirty seconds of computation",
+          "ja": "30秒の計算に負けることがある",
+          "note": "lose to「〜に負ける」。",
+          "pattern": "lose to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとりの"
+        },
+        "human opponent": {
+          "ja": "人間の対戦相手"
+        },
+        "allows us to": {
+          "ja": "私たちに〜させてくれる"
+        },
+        "us": {
+          "ja": "私たちに"
+        },
+        "imagine": {
+          "ja": "思い描く"
+        },
+        "shared fatigue": {
+          "ja": "分かち合う疲れ"
+        },
+        "and perhaps": {
+          "ja": "そしてたぶん"
+        },
+        "friendship": {
+          "ja": "友情"
+        }
+      },
+      "phrases": [
+        {
+          "en": "allows us to imagine shared fatigue",
+          "ja": "共有する疲れを想像させてくれる",
+          "note": "allow＋人＋to「人が〜するのを可能にする」。",
+          "pattern": "allow A to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "cpu": {
+          "ja": "CPU"
+        },
+        "simply": {
+          "ja": "ただ"
+        },
+        "completes": {
+          "ja": "終える"
+        },
+        "the process": {
+          "ja": "処理"
+        },
+        "without": {
+          "ja": "〜なしに"
+        },
+        "pride": {
+          "ja": "誇り"
+        },
+        "or": {
+          "ja": "も"
+        },
+        "celebration": {
+          "ja": "喜び合い"
+        }
+      },
+      "phrases": [
+        {
+          "en": "completes the process without pride or celebration",
+          "ja": "誇りも喜びもなく処理を終える",
+          "note": "without＋or で両方否定。",
+          "pattern": "without A or B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "such a defeat": {
+          "ja": "そのような敗北"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "prove": {
+          "ja": "証明する"
+        },
+        "personal inferiority": {
+          "ja": "個人として劣っていること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not prove personal inferiority",
+          "ja": "人として劣っている証明にはならない",
+          "note": "inferiority「劣っていること」。",
+          "pattern": "prove 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "what": {
+          "ja": "〜するもの"
+        },
+        "the machine": {
+          "ja": "機械"
+        },
+        "breaks": {
+          "ja": "壊す"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "effort itself": {
+          "ja": "努力そのもの"
+        },
+        "but": {
+          "ja": "そうではなく"
+        },
+        "the old": {
+          "ja": "古い"
+        },
+        "exchange rate": {
+          "ja": "交換レート"
+        },
+        "between": {
+          "ja": "〜の間の"
+        },
+        "time spent": {
+          "ja": "費やした時間"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "advantage gained": {
+          "ja": "得られた優位"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What the machine breaks is not effort itself, but the old exchange rate",
+          "ja": "機械が壊すのは努力ではなく古い交換レート",
+          "note": "時間→優位の換算が崩れる。",
+          "pattern": "what 節 / not A but B"
+        }
+      ]
+    }
+  ],
+  "DE-20260924-003": [
+    {
+      "words": {
+        "even after": {
+          "ja": "〜した後でさえ"
+        },
+        "the exchange rate": {
+          "ja": "交換レート"
+        },
+        "fails": {
+          "ja": "機能しなくなる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "group": {
+          "ja": "集団"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "defend": {
+          "ja": "守る"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "story of": {
+          "ja": "〜の物語"
+        },
+        "effort": {
+          "ja": "努力"
+        },
+        "by sending": {
+          "ja": "送ることで"
+        },
+        "every defeat": {
+          "ja": "すべての敗北"
+        },
+        "inward": {
+          "ja": "内側へ（自分たちの責任へ）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "by sending every defeat inward",
+          "ja": "すべての敗北を内側へ送ることで",
+          "note": "負けを自分たちの心がけのせいにする、という意味。",
+          "pattern": "send A inward"
+        }
+      ]
+    },
+    {
+      "words": {
+        "faith": {
+          "ja": "信心"
+        },
+        "was insufficient": {
+          "ja": "足りなかった"
+        },
+        "reflection": {
+          "ja": "反省"
+        },
+        "was shallow": {
+          "ja": "浅かった"
+        },
+        "commitment": {
+          "ja": "覚悟"
+        },
+        "was weak": {
+          "ja": "弱かった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "faith was insufficient, reflection was shallow, commitment was weak",
+          "ja": "信心が足りない、反省が浅い、覚悟が弱い",
+          "note": "前チャンクのコロンの中身。",
+          "pattern": "並列の短文"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the story": {
+          "ja": "その物語"
+        },
+        "survives": {
+          "ja": "生き延びる"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the purification": {
+          "ja": "純化"
+        },
+        "prepares": {
+          "ja": "準備する"
+        },
+        "another loss": {
+          "ja": "次の敗北"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the purification prepares another loss",
+          "ja": "その純化が次の敗北を準備する",
+          "note": "purification「浄化・純化」。",
+          "pattern": "prepare 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "before": {
+          "ja": "〜する前に"
+        },
+        "calling": {
+          "ja": "呼ぶこと"
+        },
+        "departure": {
+          "ja": "離れること"
+        },
+        "laziness": {
+          "ja": "怠け"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "should": {
+          "ja": "〜すべきだ"
+        },
+        "ask": {
+          "ja": "問う"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "the contest": {
+          "ja": "その競争"
+        },
+        "still": {
+          "ja": "まだ"
+        },
+        "has": {
+          "ja": "持っている"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "credible": {
+          "ja": "信頼できる"
+        },
+        "judge": {
+          "ja": "審判"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "prize": {
+          "ja": "賞品"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Before calling departure laziness",
+          "ja": "離れることを怠けと呼ぶ前に",
+          "note": "call＋目的語＋名詞。",
+          "pattern": "call A B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "avoiding": {
+          "ja": "避けること"
+        },
+        "effort": {
+          "ja": "努力"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "leaving": {
+          "ja": "去ること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "broken market": {
+          "ja": "壊れた市場"
+        },
+        "for": {
+          "ja": "〜の（ための）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not the same as leaving a broken market for effort",
+          "ja": "壊れた「努力の市場」から去ることと同じではない",
+          "note": "for effort が market を修飾。",
+          "pattern": "the same as 〜"
+        }
+      ]
+    }
   ]
 }
