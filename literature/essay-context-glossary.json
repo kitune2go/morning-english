@@ -32691,5 +32691,635 @@
         }
       ]
     }
+  ],
+  "DE-20260919-001": [
+    {
+      "words": {
+        "the phrase": {
+          "ja": "その言い回し"
+        },
+        "one more deal": {
+          "ja": "もう一件（の取引）"
+        },
+        "contains": {
+          "ja": "含む"
+        },
+        "both": {
+          "ja": "〜も…も"
+        },
+        "momentum": {
+          "ja": "勢い"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "postponement": {
+          "ja": "先送り"
+        }
+      },
+      "phrases": [
+        {
+          "en": "contains both momentum and postponement",
+          "ja": "勢いと先送りの両方を含む",
+          "note": "deal はここで「取引・案件」。",
+          "pattern": "both A and B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "success": {
+          "ja": "成功"
+        },
+        "is supposed to": {
+          "ja": "〜するはずだ"
+        },
+        "complete": {
+          "ja": "締めくくる"
+        },
+        "the day": {
+          "ja": "一日"
+        },
+        "yet": {
+          "ja": "なのに"
+        },
+        "each": {
+          "ja": "それぞれの"
+        },
+        "completed task": {
+          "ja": "終えた仕事"
+        },
+        "immediately": {
+          "ja": "すぐに"
+        },
+        "creates": {
+          "ja": "生む"
+        },
+        "another shortfall": {
+          "ja": "次の不足"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Success is supposed to complete the day",
+          "ja": "成功が一日を締めくくるはずだ",
+          "note": "be supposed to「〜することになっている」。",
+          "pattern": "be supposed to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "repetition": {
+          "ja": "繰り返し"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "encourage": {
+          "ja": "励ます"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "worker": {
+          "ja": "働き手"
+        },
+        "while": {
+          "ja": "〜しながら"
+        },
+        "quietly": {
+          "ja": "静かに"
+        },
+        "removing": {
+          "ja": "奪うこと"
+        },
+        "the permission to": {
+          "ja": "〜してよいという許可"
+        },
+        "stop": {
+          "ja": "止まる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while quietly removing the permission to stop",
+          "ja": "止まってよいという許可を静かに奪いながら",
+          "note": "while＋-ing。",
+          "pattern": "while -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "effort": {
+          "ja": "努力"
+        },
+        "continues": {
+          "ja": "続く"
+        },
+        "not only through": {
+          "ja": "〜によってだけでなく"
+        },
+        "willpower": {
+          "ja": "意志の力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "continues not only through willpower",
+          "ja": "意志の力だけで続くのではない",
+          "note": "次のチャンクの but also へ続く。",
+          "pattern": "not only A but also B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but also through": {
+          "ja": "…によっても"
+        },
+        "language": {
+          "ja": "言葉"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "carries": {
+          "ja": "運ぶ"
+        },
+        "the body": {
+          "ja": "身体"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "the next beat": {
+          "ja": "次の拍"
+        },
+        "without naming": {
+          "ja": "名付けずに"
+        },
+        "an end": {
+          "ja": "終わり"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carries the body into the next beat without naming an end",
+          "ja": "終わりを決めずに身体を次の拍へ運ぶ",
+          "note": "beat はここで「拍・リズム」（殴るではない）。",
+          "pattern": "without -ing"
+        }
+      ]
+    }
+  ],
+  "DE-20260919-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "decline in": {
+          "ja": "〜の低下"
+        },
+        "performance": {
+          "ja": "成績"
+        },
+        "invites": {
+          "ja": "招く"
+        },
+        "single explanation": {
+          "ja": "一つだけの説明"
+        },
+        "age": {
+          "ja": "年齢"
+        },
+        "injury": {
+          "ja": "けが"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "inadequate training": {
+          "ja": "練習不足"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A decline in performance invites a single explanation",
+          "ja": "成績の低下は一つの説明を招きやすい",
+          "note": "コロン以下が説明の候補。",
+          "pattern": "decline in 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the body": {
+          "ja": "身体"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "experience": {
+          "ja": "経験する"
+        },
+        "these factors": {
+          "ja": "これらの要因"
+        },
+        "separately": {
+          "ja": "別々に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not experience these factors separately",
+          "ja": "要因を別々には経験しない",
+          "note": "身体には全部が重なって来る。",
+          "pattern": "separately"
+        }
+      ]
+    },
+    {
+      "words": {
+        "old damage": {
+          "ja": "古い傷"
+        },
+        "limited": {
+          "ja": "限られた"
+        },
+        "recovery time": {
+          "ja": "回復の時間"
+        },
+        "aging": {
+          "ja": "加齢"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "repeated games": {
+          "ja": "続く試合"
+        },
+        "converge in": {
+          "ja": "〜に集まる"
+        },
+        "one result": {
+          "ja": "一つの結果"
+        }
+      },
+      "phrases": [
+        {
+          "en": "converge in one result",
+          "ja": "一つの結果に集まる",
+          "note": "converge「（一点に）集まる」。",
+          "pattern": "converge"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "the number": {
+          "ja": "数字"
+        },
+        "falls": {
+          "ja": "下がる"
+        },
+        "effort": {
+          "ja": "努力"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "appear to have fallen": {
+          "ja": "落ちたように見える"
+        },
+        "with it": {
+          "ja": "それと一緒に"
+        },
+        "it": {
+          "ja": "それ（＝数字）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "effort can appear to have fallen with it",
+          "ja": "努力も一緒に落ちたように見える",
+          "note": "完了不定詞で「〜したように見える」。",
+          "pattern": "appear to have 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "score": {
+          "ja": "成績"
+        },
+        "records": {
+          "ja": "記録する"
+        },
+        "the outcome": {
+          "ja": "結果"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "the full cost": {
+          "ja": "費用の全体"
+        },
+        "paid by": {
+          "ja": "〜が払った"
+        },
+        "the body": {
+          "ja": "身体"
+        }
+      },
+      "phrases": [
+        {
+          "en": "records the outcome, not the full cost paid by the body",
+          "ja": "結果を記録するが、身体が払った費用全体は記録しない",
+          "note": "paid by 以下が cost を修飾。",
+          "pattern": "A, not B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the faster": {
+          "ja": "早く〜するほど"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "settle on": {
+          "ja": "〜に決める"
+        },
+        "one cause": {
+          "ja": "一つの原因"
+        },
+        "the more of": {
+          "ja": "〜のより多くが"
+        },
+        "that burden": {
+          "ja": "その負担"
+        },
+        "disappears": {
+          "ja": "見えなくなる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the faster we settle on one cause, the more of that burden disappears",
+          "ja": "原因を一つに早く決めるほど、負担は見えなくなる",
+          "note": "settle on「〜に決める」。",
+          "pattern": "the 比較級 ..., the 比較級 ... / settle on 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260919-003": [
+    {
+      "words": {
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "human limits": {
+          "ja": "人間の限界"
+        },
+        "become visible": {
+          "ja": "見えるようになる"
+        },
+        "the design of": {
+          "ja": "〜の設計"
+        },
+        "competition": {
+          "ja": "競技"
+        },
+        "deserves": {
+          "ja": "〜に値する"
+        },
+        "scrutiny": {
+          "ja": "詳しい検討"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the design of competition deserves scrutiny",
+          "ja": "競技の設計こそ吟味に値する",
+          "note": "scrutiny「綿密な調査」。",
+          "pattern": "deserve 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "more games": {
+          "ja": "試合の増加"
+        },
+        "create": {
+          "ja": "生む"
+        },
+        "more": {
+          "ja": "より多くの"
+        },
+        "records": {
+          "ja": "記録"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "revenue": {
+          "ja": "収益"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "they": {
+          "ja": "それら（＝試合）"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "recovery time": {
+          "ja": "回復の時間"
+        }
+      },
+      "phrases": [
+        {
+          "en": "they do not create recovery time",
+          "ja": "回復の時間は生まない",
+          "note": "増えるものと増えないものの対比。",
+          "pattern": "create 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "for": {
+          "ja": "〜にとって"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "spectator": {
+          "ja": "観客"
+        },
+        "one more game": {
+          "ja": "もう一試合"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "evening": {
+          "ja": "一晩（の楽しみ）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "For a spectator, one more game is an evening",
+          "ja": "観客にとってもう一試合は一晩の楽しみ",
+          "note": "次のチャンクと対比。",
+          "pattern": "for 〜（〜にとって）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "for": {
+          "ja": "〜にとって"
+        },
+        "the body": {
+          "ja": "身体"
+        },
+        "it": {
+          "ja": "それ（＝もう一試合）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "another day": {
+          "ja": "もう一日"
+        },
+        "carrying": {
+          "ja": "運びながらの"
+        },
+        "the accumulated weight of": {
+          "ja": "〜の積もった重さ"
+        },
+        "previous games": {
+          "ja": "これまでの試合"
+        }
+      },
+      "phrases": [
+        {
+          "en": "another day carrying the accumulated weight of previous games",
+          "ja": "これまでの試合の重みを背負うもう一日",
+          "note": "carrying 以下が day を修飾。",
+          "pattern": "名詞 + -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "rest": {
+          "ja": "休養"
+        },
+        "remains": {
+          "ja": "〜のままである"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "individual choice": {
+          "ja": "個人の選択"
+        },
+        "the athlete who": {
+          "ja": "〜する選手"
+        },
+        "stops": {
+          "ja": "止まる"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "bear": {
+          "ja": "負う"
+        },
+        "the loss": {
+          "ja": "損失"
+        },
+        "alone": {
+          "ja": "一人で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the athlete who stops must bear the loss alone",
+          "ja": "止まる選手が一人で損を負う",
+          "note": "bear「（負担を）負う」。rest はここで「休養」。",
+          "pattern": "bear 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "limit": {
+          "ja": "限界"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "defeat": {
+          "ja": "敗北"
+        },
+        "but": {
+          "ja": "そうではなく"
+        },
+        "boundary": {
+          "ja": "境界"
+        },
+        "where": {
+          "ja": "（関係副詞）そこで"
+        },
+        "system": {
+          "ja": "仕組み"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "make room for": {
+          "ja": "〜の余地を作る"
+        },
+        "recovery": {
+          "ja": "回復"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a boundary where a system must make room for recovery",
+          "ja": "仕組みが回復の余地を作るべき境界",
+          "note": "make room for「〜のために場所を空ける」。",
+          "pattern": "make room for 〜"
+        }
+      ]
+    }
   ]
 }
