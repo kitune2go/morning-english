@@ -37718,5 +37718,880 @@
         }
       ]
     }
+  ],
+  "DE-20260913-001": [
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "two people": {
+          "ja": "二人が"
+        },
+        "want": {
+          "ja": "求める"
+        },
+        "different things": {
+          "ja": "違うもの"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "a relationship": {
+          "ja": "関係"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "convenient label": {
+          "ja": "便利な呼び名"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "rush": {
+          "ja": "急がせる"
+        },
+        "the verdict": {
+          "ja": "判定"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a convenient label can rush the verdict",
+          "ja": "便利な呼び名が判定を急がせる",
+          "note": "relationship はここで「（男女の）関係」（血縁ではない）。",
+          "pattern": "rush（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it seems simple to": {
+          "ja": "〜するのは簡単に思える"
+        },
+        "condemn": {
+          "ja": "非難する"
+        },
+        "anyone": {
+          "ja": "誰でも"
+        },
+        "seeking": {
+          "ja": "求めている"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "physical intimacy": {
+          "ja": "身体的な親密さ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It seems simple to condemn anyone seeking only physical intimacy",
+          "ja": "身体の関係だけを求める人を責めるのは簡単に思える",
+          "note": "seeking 以下が anyone を修飾。",
+          "pattern": "it seems 形容詞 to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "the same label": {
+          "ja": "同じ呼び名"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "fit": {
+          "ja": "当てはまる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "meeting place": {
+          "ja": "出会いの場"
+        },
+        "where": {
+          "ja": "（関係副詞）そこでは"
+        },
+        "both sides": {
+          "ja": "双方が"
+        },
+        "openly": {
+          "ja": "公然と"
+        },
+        "share": {
+          "ja": "共有する"
+        },
+        "that aim": {
+          "ja": "その目的"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a meeting place where both sides openly share that aim",
+          "ja": "双方がその目的を公然と共有する出会いの場",
+          "note": "share は動詞「共有する」。",
+          "pattern": "where 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the issue": {
+          "ja": "問題"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "desire": {
+          "ja": "欲望"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        },
+        "but": {
+          "ja": "そうではなく"
+        },
+        "what": {
+          "ja": "何を"
+        },
+        "each person": {
+          "ja": "それぞれが"
+        },
+        "disclosed": {
+          "ja": "明かしたか"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "what agreement": {
+          "ja": "どんな合意を"
+        },
+        "their words": {
+          "ja": "その言葉が"
+        },
+        "created": {
+          "ja": "作ったか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not desire alone, but what each person disclosed and what agreement their words created",
+          "ja": "欲望だけでなく、何を明かし、どんな合意が生まれたか",
+          "note": "issue はここで「問題」（発行ではない）。",
+          "pattern": "not A but B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "having": {
+          "ja": "持つこと"
+        },
+        "a purpose": {
+          "ja": "目的"
+        },
+        "is different from": {
+          "ja": "〜とは違う"
+        },
+        "disguising": {
+          "ja": "偽ること"
+        },
+        "it": {
+          "ja": "それ（＝目的）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Having a purpose is different from disguising it",
+          "ja": "目的を持つことと偽ることは違う",
+          "note": "動名詞どうしの比較。",
+          "pattern": "be different from 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "even when": {
+          "ja": "〜のときでさえ"
+        },
+        "the two": {
+          "ja": "その二つ"
+        },
+        "look similar": {
+          "ja": "似て見える"
+        },
+        "from outside": {
+          "ja": "外から"
+        }
+      },
+      "phrases": [
+        {
+          "en": "even when the two look similar from outside",
+          "ja": "外から似て見えるときでさえ",
+          "note": "look＋形容詞。",
+          "pattern": "even when 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260913-002": [
+    {
+      "words": {
+        "calling": {
+          "ja": "呼ぶこと"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "romantic encounter": {
+          "ja": "恋愛の出会い"
+        },
+        "fraudulent": {
+          "ja": "詐欺だと"
+        },
+        "requires": {
+          "ja": "必要とする"
+        },
+        "more than": {
+          "ja": "〜以上のこと"
+        },
+        "measuring": {
+          "ja": "測ること"
+        },
+        "disappointment": {
+          "ja": "失望"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Calling a romantic encounter fraudulent",
+          "ja": "恋愛の出会いを詐欺だと呼ぶこと",
+          "note": "call＋目的語＋形容詞。",
+          "pattern": "call A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "need to": {
+          "ja": "〜する必要がある"
+        },
+        "identify": {
+          "ja": "特定する"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "was false": {
+          "ja": "偽りだったか"
+        },
+        "identity": {
+          "ja": "身元"
+        },
+        "affection": {
+          "ja": "好意"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "a promise about": {
+          "ja": "〜についての約束"
+        },
+        "the future": {
+          "ja": "将来"
+        },
+        "then": {
+          "ja": "それから"
+        },
+        "trace": {
+          "ja": "たどる"
+        },
+        "how": {
+          "ja": "どのように"
+        },
+        "the falsehood": {
+          "ja": "その偽り"
+        },
+        "secured": {
+          "ja": "得た"
+        },
+        "trust": {
+          "ja": "信頼"
+        },
+        "led to": {
+          "ja": "〜につながった"
+        },
+        "financial loss": {
+          "ja": "金銭的な損失"
+        },
+        "consequential action": {
+          "ja": "重大な結果を伴う行動"
+        }
+      },
+      "phrases": [
+        {
+          "en": "trace how the falsehood secured trust and led to financial loss",
+          "ja": "偽りがどう信頼を得て損失につながったかをたどる",
+          "note": "led は lead の過去形。",
+          "pattern": "trace how 〜 / lead to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "loving": {
+          "ja": "愛すること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "performed persona": {
+          "ja": "演じられた人物像"
+        },
+        "is not automatically": {
+          "ja": "自動的に〜ではない"
+        },
+        "the same as": {
+          "ja": "〜と同じ"
+        },
+        "being deceived": {
+          "ja": "だまされること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not automatically the same as being deceived",
+          "ja": "自動的にだまされることと同じではない",
+          "note": "being deceived「だまされること」（受け身の動名詞）。",
+          "pattern": "being 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "nor is": {
+          "ja": "〜もまた…ではない"
+        },
+        "the end of": {
+          "ja": "〜の終わり"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "expected relationship": {
+          "ja": "期待した関係"
+        }
+      },
+      "phrases": [
+        {
+          "en": "nor is the end of an expected relationship",
+          "ja": "期待した関係が終わることもそうではない",
+          "note": "nor is＋主語「〜もまた…ではない」。",
+          "pattern": "nor + 倒置"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the hurt": {
+          "ja": "傷つき"
+        },
+        "matters": {
+          "ja": "重要だ"
+        },
+        "but so does": {
+          "ja": "しかし…もまた重要だ"
+        },
+        "precision about": {
+          "ja": "〜についての正確さ"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "was misrepresented": {
+          "ja": "偽って伝えられたか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "but so does precision about what was misrepresented",
+          "ja": "何が偽られたかを正確にすることも重要だ",
+          "note": "does = matters。",
+          "pattern": "so does A"
+        }
+      ]
+    }
+  ],
+  "DE-20260913-003": [
+    {
+      "words": {
+        "at this point": {
+          "ja": "ここで"
+        },
+        "the inquiry": {
+          "ja": "問い"
+        },
+        "turns": {
+          "ja": "転じる"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "guessing": {
+          "ja": "推測すること"
+        },
+        "another person's": {
+          "ja": "他人の"
+        },
+        "motives": {
+          "ja": "動機"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "measuring": {
+          "ja": "測ること"
+        },
+        "the structure of": {
+          "ja": "〜の構造"
+        },
+        "the relationship": {
+          "ja": "関係"
+        }
+      },
+      "phrases": [
+        {
+          "en": "turns from guessing another person's motives to measuring the structure",
+          "ja": "動機の推測から構造の測定へ転じる",
+          "note": "from／to で切り替え。",
+          "pattern": "turn from A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "what": {
+          "ja": "何が"
+        },
+        "was promised": {
+          "ja": "約束されたか"
+        },
+        "at the entrance": {
+          "ja": "入口で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What was promised at the entrance?",
+          "ja": "入口で何が約束されたのか",
+          "note": "entrance「（関係の）始まり」の比喩。",
+          "pattern": "受け身の疑問文"
+        }
+      ]
+    },
+    {
+      "words": {
+        "how concentrated": {
+          "ja": "どれほど集中していたか"
+        },
+        "were": {
+          "ja": "〜だった"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "money": {
+          "ja": "お金"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "reputation": {
+          "ja": "評判"
+        }
+      },
+      "phrases": [
+        {
+          "en": "How concentrated were time, money, and reputation?",
+          "ja": "時間・お金・評判はどれほど集中していたか",
+          "note": "how の後に形容詞が来る疑問文。",
+          "pattern": "how + 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "what": {
+          "ja": "何を"
+        },
+        "would": {
+          "ja": "〜だろうか"
+        },
+        "leaving": {
+          "ja": "去ること"
+        },
+        "put at risk": {
+          "ja": "危険にさらす"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "what evidence": {
+          "ja": "どんな証拠が"
+        },
+        "might": {
+          "ja": "〜かもしれない"
+        },
+        "reduce": {
+          "ja": "下げる"
+        },
+        "that estimate": {
+          "ja": "その見積もり"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What would leaving put at risk",
+          "ja": "去ることで何が危うくなるか",
+          "note": "動名詞 leaving が主語。put at risk「危険にさらす」。",
+          "pattern": "put A at risk"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "tool for": {
+          "ja": "〜のための道具"
+        },
+        "examining": {
+          "ja": "調べること"
+        },
+        "exit costs": {
+          "ja": "抜け出すための費用"
+        },
+        "should not": {
+          "ja": "〜すべきでない"
+        },
+        "label": {
+          "ja": "〜と呼ぶ"
+        },
+        "every bond": {
+          "ja": "すべての結びつき"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "domination": {
+          "ja": "支配"
+        }
+      },
+      "phrases": [
+        {
+          "en": "should not label every bond as domination",
+          "ja": "すべての結びつきを支配と呼ぶべきではない",
+          "note": "label は動詞「〜と呼ぶ」。",
+          "pattern": "label A as B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "its": {
+          "ja": "その（＝道具の）"
+        },
+        "task": {
+          "ja": "役目"
+        },
+        "is to": {
+          "ja": "〜することだ"
+        },
+        "display": {
+          "ja": "示す"
+        },
+        "the forces": {
+          "ja": "力"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "keep someone in place": {
+          "ja": "人をその場に引き留める"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the forces that keep someone in place",
+          "ja": "人をその場にとどめる力",
+          "note": "in place「その場に」。",
+          "pattern": "keep A in place"
+        }
+      ]
+    },
+    {
+      "words": {
+        "before": {
+          "ja": "〜する前に"
+        },
+        "it": {
+          "ja": "それ（＝道具）"
+        },
+        "speculates about": {
+          "ja": "〜をあれこれ推測する"
+        },
+        "intent": {
+          "ja": "意図"
+        }
+      },
+      "phrases": [
+        {
+          "en": "before it speculates about intent",
+          "ja": "意図を推測する前に",
+          "note": "speculate「推測する」。",
+          "pattern": "speculate about 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260913-004": [
+    {
+      "words": {
+        "publishing": {
+          "ja": "公開すること"
+        },
+        "the tool": {
+          "ja": "その道具"
+        },
+        "reveals": {
+          "ja": "明らかにする"
+        },
+        "another kind of": {
+          "ja": "別の種類の"
+        },
+        "boundary": {
+          "ja": "境界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Publishing the tool reveals another kind of boundary",
+          "ja": "道具を公開すると別の境界が見えてくる",
+          "note": "kind はここで「種類」（親切ではない）。",
+          "pattern": "another kind of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "its": {
+          "ja": "その"
+        },
+        "questions": {
+          "ja": "質問"
+        },
+        "code": {
+          "ja": "コード"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "testing history": {
+          "ja": "検証の履歴"
+        },
+        "can be open": {
+          "ja": "公開できる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can be open",
+          "ja": "公開してよい",
+          "note": "次のチャンクの but へ続く。",
+          "pattern": "open（形容詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "key": {
+          "ja": "（APIの）鍵"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "grants access to": {
+          "ja": "〜への利用を許す"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "external service": {
+          "ja": "外部サービス"
+        },
+        "cannot": {
+          "ja": "（公開）できない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "but a key that grants access to an external service cannot",
+          "ja": "外部サービスに入れる鍵は公開できない",
+          "note": "cannot の後に be open が省略。",
+          "pattern": "省略（cannot be open）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the key": {
+          "ja": "鍵"
+        },
+        "must remain": {
+          "ja": "残らなければならない"
+        },
+        "on the server": {
+          "ja": "サーバー上に"
+        },
+        "which": {
+          "ja": "（関係代名詞）そしてそれは"
+        },
+        "passes": {
+          "ja": "渡す"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "the necessary": {
+          "ja": "必要な"
+        },
+        "user input": {
+          "ja": "利用者の入力"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "the service": {
+          "ja": "サービス"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the server, which passes only the necessary user input",
+          "ja": "そしてサーバーは必要な入力だけを渡す",
+          "note": "カンマ付き which は補足説明。",
+          "pattern": ", which 〜（非制限）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "openness": {
+          "ja": "開かれていること"
+        },
+        "does not mean": {
+          "ja": "意味しない"
+        },
+        "exposing": {
+          "ja": "さらすこと"
+        },
+        "everything": {
+          "ja": "すべて"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Openness does not mean exposing everything",
+          "ja": "開かれていることは全部さらすことではない",
+          "note": "公開と露出の区別。",
+          "pattern": "mean -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "good judgment": {
+          "ja": "よい判断"
+        },
+        "is less about": {
+          "ja": "〜というより"
+        },
+        "guessing": {
+          "ja": "推測すること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "hidden motive": {
+          "ja": "隠れた動機"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is less about guessing a hidden motive",
+          "ja": "隠れた動機を推測することより",
+          "note": "次のチャンクの than about へ続く。",
+          "pattern": "less about A than about B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "than about": {
+          "ja": "…に関わる"
+        },
+        "documenting": {
+          "ja": "記録すること"
+        },
+        "the structure": {
+          "ja": "構造"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "others": {
+          "ja": "ほかの人が"
+        },
+        "should inspect": {
+          "ja": "点検すべき"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "the boundary": {
+          "ja": "境界"
+        },
+        "still": {
+          "ja": "まだ"
+        },
+        "needs protection": {
+          "ja": "守る必要がある"
+        }
+      },
+      "phrases": [
+        {
+          "en": "than about documenting the structure that others should inspect",
+          "ja": "ほかの人が点検すべき構造を記録することに関わる",
+          "note": "document は動詞「記録する」。",
+          "pattern": "less A than B"
+        }
+      ]
+    }
   ]
 }
