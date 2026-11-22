@@ -1718,13 +1718,6 @@
   "DE-20261026-001": [
     {
       "words": {
-        "microphone": {
-          "ja": "マイク",
-          "pos": "名詞",
-          "lemma": "microphone",
-          "form": "",
-          "note": "microphone：この文章での意味"
-        },
         "gratitude": {
           "ja": "感謝",
           "pos": "名詞",
@@ -1753,27 +1746,28 @@
           "form": "",
           "note": "sincere：この文章での意味"
         },
-        "at": {
-          "ja": "〜の前で"
-        },
         "joy": {
           "ja": "喜び"
         },
         "project": {
           "ja": "継続する作品・企画"
         },
-        "may": {
+        "at the microphone": {
+          "ja": "マイクの前で"
+        },
+        "may be": {
           "ja": "〜かもしれない"
         },
-        "be": {
-          "ja": "〜である"
+        "of": {
+          "ja": "〜の"
         }
       },
       "phrases": [
         {
           "en": "may be perfectly sincere",
-          "ja": "まったく本心からの言葉かもしれない",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "ja": "まったく本心からのものかもしれない",
+          "note": "譲歩の may。次の文の Yet で反論へ。",
+          "pattern": "may be 〜"
         }
       ]
     },
@@ -1823,23 +1817,19 @@
         "profit": {
           "ja": "産業に残る利益"
         },
-        "belong": {
-          "ja": "属する"
-        },
         "different": {
           "ja": "異なる"
+        },
+        "belong to": {
+          "ja": "〜に属する"
         }
       },
       "phrases": [
         {
-          "en": "retained profit",
-          "ja": "国内産業に残る利益",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
           "en": "belong to different ledgers",
-          "ja": "別勘定として扱うべきである",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "ja": "別の帳簿に属する",
+          "note": "個人の仕事と産業の利益は別勘定。",
+          "pattern": "belong to 〜"
         }
       ]
     },
@@ -1906,35 +1896,22 @@
         },
         "revenue": {
           "ja": "売上・収益"
+        },
+        "can": {
+          "ja": "〜できる"
         }
       },
       "phrases": [
         {
-          "en": "intellectual property",
-          "ja": "知的財産・IP",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "operating revenue",
-          "ja": "運営による収益",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "ultimately reside",
-          "ja": "最終的に帰属する",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "without revealing where development, intellectual property, and operating revenue ultimately reside",
+          "ja": "開発・知財・収益が最終的にどこにあるかは明かさずに",
+          "note": "without＋動名詞＋間接疑問。",
+          "pattern": "without -ing / where 節"
         }
       ]
     },
     {
       "words": {
-        "brighter": {
-          "ja": "より明るい",
-          "pos": "形容詞・比較級",
-          "lemma": "bright",
-          "form": "bright → brighter",
-          "note": "bright → brighter"
-        },
         "accounts": {
           "ja": "勘定・帳簿",
           "pos": "名詞・複数形",
@@ -1945,32 +1922,31 @@
         "voice": {
           "ja": "声"
         },
-        "more": {
-          "ja": "ますます"
-        },
-        "necessary": {
-          "ja": "必要な"
-        },
-        "becomes": {
-          "ja": "〜になる"
-        },
         "inspect": {
           "ja": "精査する"
         },
         "behind": {
           "ja": "背後にある"
+        },
+        "the brighter": {
+          "ja": "明るいほど"
+        },
+        "the more necessary": {
+          "ja": "いっそう必要に"
+        },
+        "it becomes": {
+          "ja": "〜になる（it は to inspect 以下）"
+        },
+        "the": {
+          "ja": "その"
         }
       },
       "phrases": [
         {
-          "en": "The brighter the voice, the more necessary",
-          "ja": "明るければ明るいほど、ますます〜",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "inspect the accounts",
-          "ja": "収益の帳簿を検証する",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "The brighter the voice, the more necessary it becomes to inspect the accounts behind it",
+          "ja": "声が明るいほど、裏の勘定を調べる必要が増す",
+          "note": "前半は be 動詞が省略されている。",
+          "pattern": "the 比較級 ..., the 比較級 ..."
         }
       ]
     }
@@ -2004,26 +1980,22 @@
         "to": {
           "ja": "〜へ"
         },
-        "look": {
-          "ja": "〜に見える"
-        },
         "overseas": {
           "ja": "海外での"
         },
         "success": {
           "ja": "成功"
+        },
+        "can look like": {
+          "ja": "〜のように見えうる"
         }
       },
       "phrases": [
         {
-          "en": "Japanese voices",
-          "ja": "日本語版の声優出演",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "look like overseas success",
-          "ja": "海外で活躍しているように見える",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "can look like overseas success",
+          "ja": "海外での成功のように見える",
+          "note": "動名詞 Adding が主語。",
+          "pattern": "look like 〜"
         }
       ]
     },
@@ -2052,24 +2024,22 @@
         "language": {
           "ja": "日本語版"
         },
-        "serves": {
-          "ja": "機能する"
-        },
-        "as": {
-          "ja": "〜として"
-        },
-        "key": {
-          "ja": "参入するための鍵"
-        },
         "market": {
           "ja": "市場"
+        },
+        "serves as": {
+          "ja": "〜として働く"
+        },
+        "a key to": {
+          "ja": "〜への鍵"
         }
       },
       "phrases": [
         {
           "en": "serves as a key to Japan's market",
-          "ja": "日本市場へ参入するための鍵として機能する",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "ja": "日本市場への鍵として働く",
+          "note": "to は前置詞「〜への」。",
+          "pattern": "serve as 〜 / a key to 〜"
         }
       ]
     },
@@ -2092,12 +2062,6 @@
         "work": {
           "ja": "出演・仕事"
         },
-        "same": {
-          "ja": "同じ"
-        },
-        "as": {
-          "ja": "〜と"
-        },
         "domestic": {
           "ja": "国内の"
         },
@@ -2106,18 +2070,17 @@
         },
         "growth": {
           "ja": "成長"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
         }
       },
       "phrases": [
         {
-          "en": "cross-border work",
-          "ja": "海外案件での仕事",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "domestic industrial growth",
-          "ja": "国内産業全体の成長",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "is not the same as domestic industrial growth",
+          "ja": "国内産業の成長と同じではない",
+          "note": "越境の仕事≠国内の成長。",
+          "pattern": "the same as 〜"
         }
       ]
     },
@@ -2168,26 +2131,15 @@
       },
       "phrases": [
         {
-          "en": "flow inward",
-          "ja": "国内に報酬が入る",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "recurring revenue",
-          "ja": "継続的に生じる収益",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "Fees may flow inward while ownership and recurring revenue remain elsewhere",
+          "ja": "出演料は入ってきても、所有と継続収益はよそに残る",
+          "note": "inward／elsewhere の対比。",
+          "pattern": "while（対比）"
         }
       ]
     },
     {
       "words": {
-        "retained": {
-          "ja": "保持された",
-          "pos": "過去分詞",
-          "lemma": "retain",
-          "form": "retain → retained",
-          "note": "retain → retained"
-        },
         "separately": {
           "ja": "別々に",
           "pos": "副詞",
@@ -2204,9 +2156,6 @@
         "capacity": {
           "ja": "生産・開発能力"
         },
-        "home": {
-          "ja": "国内"
-        },
         "must": {
           "ja": "〜しなければならない"
         },
@@ -2215,18 +2164,17 @@
         },
         "counted": {
           "ja": "勘定に入れられる"
+        },
+        "retained at home": {
+          "ja": "国内に残る"
         }
       },
       "phrases": [
         {
-          "en": "retained at home",
-          "ja": "国内に残った",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "counted separately",
-          "ja": "別勘定で評価される",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "the capacity retained at home",
+          "ja": "国内に残る能力",
+          "note": "at home はここで「国内で」。",
+          "pattern": "名詞 + 過去分詞"
         }
       ]
     }
@@ -2241,13 +2189,6 @@
           "form": "anniversary → anniversaries",
           "note": "anniversary → anniversaries"
         },
-        "wealthier": {
-          "ja": "より豊かな",
-          "pos": "形容詞・比較級",
-          "lemma": "wealthy",
-          "form": "wealthy → wealthier",
-          "note": "wealthy → wealthier"
-        },
         "large": {
           "ja": "巨額の"
         },
@@ -2257,24 +2198,25 @@
         "bright": {
           "ja": "華やかな"
         },
-        "do": {
-          "ja": "〜しない"
-        },
-        "prove": {
-          "ja": "証明する"
-        },
         "audience": {
           "ja": "消費者層"
         },
-        "grown": {
-          "ja": "〜になった"
+        "do not": {
+          "ja": "〜しない"
+        },
+        "prove that": {
+          "ja": "〜ということを証明する"
+        },
+        "has grown wealthier": {
+          "ja": "より豊かになった"
         }
       },
       "phrases": [
         {
-          "en": "grown wealthier",
-          "ja": "以前より豊かになった",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "has grown wealthier",
+          "ja": "より豊かになった",
+          "note": "grow＋形容詞「〜になる」。",
+          "pattern": "grow 比較級"
         }
       ]
     },
@@ -2302,7 +2244,7 @@
           "note": "income：この文章での意味"
         },
         "when": {
-          "ja": "〜するとき"
+          "ja": "〜とき"
         },
         "overseas": {
           "ja": "海外への"
@@ -2319,46 +2261,17 @@
       },
       "phrases": [
         {
-          "en": "overseas payments rise",
-          "ja": "海外向け支払額が増える",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "median income falls",
-          "ja": "所得中央値が下がる",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "When overseas payments rise while median income falls",
+          "ja": "海外への支払いが増える一方、所得中央値が下がるとき",
+          "note": "median「中央値」。",
+          "pattern": "while（同時・対比）"
         }
       ]
     },
     {
       "words": {
-        "thinner": {
-          "ja": "より弱い・縮小した",
-          "pos": "形容詞・比較級",
-          "lemma": "thin",
-          "form": "thin → thinner（二重子音）",
-          "note": "thin → thinner（二重子音）"
-        },
-        "headline": {
-          "ja": "見出し上の・表面上の",
-          "pos": "形容詞的名詞",
-          "lemma": "headline",
-          "form": "headline totals（見出し上の総額）",
-          "note": "headline totals（見出し上の総額）"
-        },
-        "totals": {
-          "ja": "合計値・総額",
-          "pos": "名詞・複数形",
-          "lemma": "total",
-          "form": "total → totals",
-          "note": "total → totals"
-        },
         "suggest": {
-          "ja": "示す",
-          "pos": "動詞",
-          "lemma": "suggest",
-          "form": "",
-          "note": "suggest：この文章での意味"
+          "ja": "示す"
         },
         "domestic": {
           "ja": "国内の"
@@ -2366,18 +2279,22 @@
         "market": {
           "ja": "市場"
         },
-        "may": {
+        "may be": {
           "ja": "〜かもしれない"
         },
-        "than": {
-          "ja": "〜より"
+        "thinner than": {
+          "ja": "〜より薄い"
+        },
+        "headline totals": {
+          "ja": "見出しに出る総額"
         }
       },
       "phrases": [
         {
           "en": "thinner than headline totals suggest",
-          "ja": "見出しに出る総額から想像するより弱い",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "ja": "見出しの総額が示すより薄い",
+          "note": "than の後に節が続く比較。",
+          "pattern": "比較級 than 主語 動詞"
         }
       ]
     },
@@ -2390,26 +2307,12 @@
           "form": "average → averages",
           "note": "average → averages"
         },
-        "buoyant": {
-          "ja": "好調な・高水準を保つ",
-          "pos": "形容詞",
-          "lemma": "buoyant",
-          "form": "",
-          "note": "buoyant：この文章での意味"
-        },
         "include": {
           "ja": "含む",
           "pos": "動詞",
           "lemma": "include",
           "form": "",
           "note": "include：この文章での意味"
-        },
-        "closest": {
-          "ja": "最も近い",
-          "pos": "形容詞・最上級",
-          "lemma": "close",
-          "form": "close → closest",
-          "note": "close → closest"
         },
         "capital": {
           "ja": "資本・資金",
@@ -2435,41 +2338,34 @@
         "can": {
           "ja": "〜し得る"
         },
-        "remain": {
-          "ja": "維持される"
-        },
         "because": {
           "ja": "なぜなら"
-        },
-        "those": {
-          "ja": "人々"
-        },
-        "to": {
-          "ja": "〜に"
         },
         "person's": {
           "ja": "人の"
         },
-        "tells": {
-          "ja": "物語る"
+        "remain buoyant": {
+          "ja": "高い水準を保つ"
         },
-        "different": {
-          "ja": "異なる"
+        "those closest to": {
+          "ja": "〜に最も近い人々"
         },
-        "story": {
-          "ja": "実情"
+        "tells a different story": {
+          "ja": "別の実情を物語る"
         }
       },
       "phrases": [
         {
-          "en": "closest to capital",
-          "ja": "資本を最も多く持つ層",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "because they include those closest to capital",
+          "ja": "資本に最も近い人々を含むから",
+          "note": "those は「人々」。",
+          "pattern": "those 形容詞 to 〜"
         },
         {
-          "en": "middle person's wallet",
-          "ja": "中位層の家計・購買余力",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "the middle person's wallet tells a different story",
+          "ja": "真ん中の人の財布は別の実情を語る",
+          "note": "慣用句「（実態が）違うことを示す」。",
+          "pattern": "tell a different story"
         }
       ]
     },
@@ -2482,55 +2378,34 @@
           "form": "survive → survives",
           "note": "survive → survives"
         },
-        "products": {
-          "ja": "商品（複数）",
-          "pos": "名詞・複数形",
-          "lemma": "product",
-          "form": "product → products",
-          "note": "product → products"
-        },
-        "afford": {
-          "ja": "購入する余裕がある",
-          "pos": "動詞",
-          "lemma": "afford",
-          "form": "",
-          "note": "afford：この文章での意味"
-        },
         "market": {
           "ja": "市場"
         },
-        "not": {
-          "ja": "〜だけではない"
-        },
-        "only": {
-          "ja": "のみ"
-        },
-        "through": {
-          "ja": "〜によって"
-        },
-        "sell": {
-          "ja": "売る"
-        },
-        "lives": {
-          "ja": "暮らし・生活"
-        },
-        "still": {
-          "ja": "今なお"
-        },
         "them": {
           "ja": "それらを"
+        },
+        "not only through": {
+          "ja": "〜によってだけでなく"
+        },
+        "products to sell": {
+          "ja": "売るための商品"
+        },
+        "but": {
+          "ja": "…によっても"
+        },
+        "lives that": {
+          "ja": "〜する暮らし"
+        },
+        "can still afford": {
+          "ja": "まだ買う余裕がある"
         }
       },
       "phrases": [
         {
-          "en": "afford them",
-          "ja": "それらの商品を購入できる余裕がある",
-          "note": "この文章の意味・構文に合わせて読む。"
-        },
-        {
-          "en": "not only through products to sell, but through lives",
-          "ja": "AだけでなくBも",
-          "note": "この文章の意味・構文に合わせて読む。"
+          "en": "not only through products to sell, but through lives that can still afford them",
+          "ja": "売る商品だけでなく、それを買える暮らしによっても",
+          "note": "afford「〜を買う余裕がある」。",
+          "pattern": "not only A but B"
         }
       ]
     }
