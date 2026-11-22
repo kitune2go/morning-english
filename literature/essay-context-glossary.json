@@ -3589,90 +3589,237 @@
     {
       "words": {
         "pixelating": {
-          "ja": "画像をドット化する",
-          "pos": "語句",
-          "lemma": "pixelating",
-          "form": "",
-          "note": "pixelating：この作品では「画像をドット化する」"
+          "ja": "ドット絵にすること"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "image": {
+          "ja": "画像"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "automatically": {
+          "ja": "自動的に"
+        },
+        "turn": {
+          "ja": "変える"
+        },
+        "it": {
+          "ja": "それ（＝画像）"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "playable asset": {
+          "ja": "ゲームで使える素材"
         }
       },
       "phrases": [
         {
-          "en": "Pixelating an image does not automatically turn it into a playable asset.",
-          "ja": "画像をドット化しても、自動的に遊べる素材になるわけではない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "does not automatically turn it into a playable asset",
+          "ja": "自動的にゲーム素材になるわけではない",
+          "note": "動名詞 Pixelating が主語。",
+          "pattern": "turn A into B"
         }
       ]
     },
     {
       "words": {
-        "anchor": {
-          "ja": "基準点",
-          "pos": "語句",
-          "lemma": "anchor",
-          "form": "",
-          "note": "anchor：この作品では「基準点」"
+        "the picture": {
+          "ja": "その絵"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "reusable": {
+          "ja": "使い回せる"
+        },
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "outline": {
+          "ja": "輪郭"
+        },
+        "palette": {
+          "ja": "色の組（パレット）"
+        },
+        "transparency": {
+          "ja": "透過"
+        },
+        "orientation": {
+          "ja": "向き"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "anchor point": {
+          "ja": "基準点"
+        },
+        "survive as": {
+          "ja": "〜として残る"
+        },
+        "data": {
+          "ja": "データ"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜できる"
+        },
+        "another scene": {
+          "ja": "別の場面"
+        },
+        "can call": {
+          "ja": "呼び出せる"
         }
       },
       "phrases": [
         {
-          "en": "The picture becomes reusable only when its outline, palette, transparency, orientation, and anchor point survive as data that another scene can call.",
-          "ja": "輪郭・配色・透明・向き・基準点が別場面から呼べるデータとして残るとき、画像は再利用可能になる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "survive as data that another scene can call",
+          "ja": "別の場面から呼べるデータとして残る",
+          "note": "survive「生き残る・残る」。",
+          "pattern": "survive as 〜"
         }
       ]
     },
     {
       "words": {
         "playback": {
-          "ja": "再生確認",
-          "pos": "語句",
-          "lemma": "playback",
-          "form": "",
-          "note": "playback：この作品では「再生確認」"
+          "ja": "再生"
+        },
+        "the real goal": {
+          "ja": "本当の目的"
+        },
+        "was never": {
+          "ja": "決して〜ではなかった"
+        },
+        "a single": {
+          "ja": "一回きりの"
+        },
+        "finished conversion": {
+          "ja": "完了した変換"
+        },
+        "it": {
+          "ja": "それ（＝本当の目的）"
+        },
+        "was": {
+          "ja": "〜だった"
+        },
+        "a path from": {
+          "ja": "〜からの道筋"
+        },
+        "generation": {
+          "ja": "生成"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "animation": {
+          "ja": "アニメ化"
+        },
+        "inspection": {
+          "ja": "確認"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "local repair": {
+          "ja": "部分的な修正"
         }
       },
       "phrases": [
         {
-          "en": "The real goal was never a single finished conversion. It was a path from generation to animation, playback, inspection, and local repair.",
-          "ja": "本当の目的は一度きりの変換ではなく、生成からアニメ化・再生・検査・部分修正へ続く道だった。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "a path from generation to animation, playback, inspection, and local repair",
+          "ja": "生成からアニメ化・再生・確認・修正へ続く道",
+          "note": "to の後に4つ並ぶ。",
+          "pattern": "from A to B"
         }
       ]
     },
     {
       "words": {
         "preserve": {
-          "ja": "保持する",
-          "pos": "語句",
-          "lemma": "preserve",
-          "form": "",
-          "note": "preserve：この作品では「保持する」"
+          "ja": "保存する"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "useful tool": {
+          "ja": "役に立つ道具"
+        },
+        "should not merely": {
+          "ja": "単に〜するだけであるべきではない"
+        },
+        "beautiful result": {
+          "ja": "きれいな結果"
+        },
+        "it": {
+          "ja": "それ（＝道具）"
+        },
+        "should": {
+          "ja": "〜すべきだ"
+        },
+        "leave": {
+          "ja": "〜のままにしておく"
+        },
+        "the result": {
+          "ja": "結果"
+        },
+        "open to": {
+          "ja": "〜に開かれた"
+        },
+        "the next action": {
+          "ja": "次の操作"
         }
       },
       "phrases": [
         {
-          "en": "A useful tool should not merely preserve a beautiful result; it should leave the result open to the next action.",
-          "ja": "役立つ道具は美しい結果を保存するだけでなく、次の操作へ開いておくべきだ。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "leave the result open to the next action",
+          "ja": "結果を次の操作に開いたままにする",
+          "note": "leave＋目的語＋形容詞。",
+          "pattern": "leave A 形容詞 / open to 〜"
         }
       ]
     },
     {
       "words": {
-        "environment": {
-          "ja": "制作環境",
-          "pos": "語句",
-          "lemma": "environment",
-          "form": "",
-          "note": "environment：この作品では「制作環境」"
+        "the desired product": {
+          "ja": "求められていたもの"
+        },
+        "was": {
+          "ja": "〜だった"
+        },
+        "therefore": {
+          "ja": "つまり"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "production environment": {
+          "ja": "制作環境"
+        },
+        "not just": {
+          "ja": "単なる〜ではなく"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "image processor": {
+          "ja": "画像加工ツール"
         }
       },
       "phrases": [
         {
-          "en": "The desired product was therefore a production environment, not just an image processor.",
-          "ja": "求められていたのは単なる画像加工器ではなく、制作環境だった。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "a production environment, not just an image processor",
+          "ja": "単なる画像加工ではなく制作環境",
+          "note": "not just「単なる〜ではない」。",
+          "pattern": "A, not just B"
         }
       ]
     }
@@ -3680,109 +3827,253 @@
   "DE-20261031-002": [
     {
       "words": {
-        "frames": {
-          "ja": "アニメーションのコマ",
-          "pos": "語句",
-          "lemma": "frames",
-          "form": "",
-          "note": "frames：この作品では「アニメーションのコマ」"
+        "more frames": {
+          "ja": "コマを増やすこと"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "better motion": {
+          "ja": "よりよい動き"
         }
       },
       "phrases": [
         {
-          "en": "More frames do not guarantee better motion.",
-          "ja": "コマ数を増やしても、より良い動きは保証されない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "More frames do not guarantee better motion",
+          "ja": "コマを増やしても動きが良くなるとは限らない",
+          "note": "比較級を並べた否定。",
+          "pattern": "more A do not guarantee better B"
         }
       ]
     },
     {
       "words": {
-        "cropped": {
-          "ja": "枠外で切り取られた",
-          "pos": "語句",
-          "lemma": "cropped",
-          "form": "",
-          "note": "cropped：この作品では「枠外で切り取られた」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "twelve-frame": {
+          "ja": "12コマの"
+        },
+        "walk cycle": {
+          "ja": "歩行サイクル"
+        },
+        "still": {
+          "ja": "それでも"
+        },
+        "fails": {
+          "ja": "失敗する"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "foot": {
+          "ja": "足"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "hat": {
+          "ja": "帽子"
+        },
+        "is cropped away": {
+          "ja": "切り取られてしまう"
+        },
+        "or when": {
+          "ja": "あるいは〜とき"
+        },
+        "part of": {
+          "ja": "〜の一部"
+        },
+        "the neighboring frame": {
+          "ja": "隣のコマ"
+        },
+        "leaks into": {
+          "ja": "〜にはみ出してくる"
+        },
+        "the image": {
+          "ja": "画像"
         }
       },
       "phrases": [
         {
-          "en": "A twelve-frame walk cycle still fails when a foot or hat is cropped away, or when part of the neighboring frame leaks into the image.",
-          "ja": "十二コマの歩行でも、足や帽子が切れたり隣のコマが混ざったりすれば失敗する。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "is cropped away",
+          "ja": "切り取られてしまう",
+          "note": "away が「なくなる」感じを足す。",
+          "pattern": "crop away"
+        },
+        {
+          "en": "part of the neighboring frame leaks into the image",
+          "ja": "隣のコマの一部が画像にはみ出す",
+          "note": "leak「漏れる」。",
+          "pattern": "leak into 〜"
         }
       ]
     },
     {
       "words": {
         "compression": {
-          "ja": "歩行中の沈み姿勢",
-          "pos": "語句",
-          "lemma": "compression",
-          "form": "",
-          "note": "compression：この作品では「歩行中の沈み姿勢」"
+          "ja": "沈み込み"
+        },
+        "each frame": {
+          "ja": "それぞれのコマ"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "preserve": {
+          "ja": "保つ"
+        },
+        "one": {
+          "ja": "ひとりの"
+        },
+        "complete character": {
+          "ja": "全身そろったキャラ"
+        },
+        "while": {
+          "ja": "〜しながら"
+        },
+        "expressing": {
+          "ja": "表すこと"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "distinct phase": {
+          "ja": "別々の段階"
+        },
+        "such as": {
+          "ja": "〜のような"
+        },
+        "contact": {
+          "ja": "接地"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "passing": {
+          "ja": "すれ違い（脚が交差する瞬間）"
         }
       },
       "phrases": [
         {
-          "en": "Each frame must preserve one complete character while expressing a distinct phase such as contact, compression, or passing.",
-          "ja": "各コマは接地・沈み・すれ違いなど別々の段階を示しながら、一人の全身を保たなければならない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "while expressing a distinct phase such as contact, compression, or passing",
+          "ja": "接地や沈みなど別の段階を表しながら",
+          "note": "歩行アニメの段階の名前。",
+          "pattern": "while -ing / such as 〜"
         }
       ]
     },
     {
       "words": {
-        "continuity": {
-          "ja": "動きの連続性",
-          "pos": "語句",
-          "lemma": "continuity",
-          "form": "",
-          "note": "continuity：この作品では「動きの連続性」"
+        "playback": {
+          "ja": "再生"
+        },
+        "alone": {
+          "ja": "〜だけでは"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "repair": {
+          "ja": "直す"
+        },
+        "broken continuity": {
+          "ja": "壊れた連続性"
         }
       },
       "phrases": [
         {
-          "en": "Playback alone cannot repair broken continuity.",
-          "ja": "再生するだけでは壊れた連続性は直せない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "Playback alone cannot repair broken continuity",
+          "ja": "再生するだけでは連続性は直らない",
+          "note": "alone「〜だけ」。",
+          "pattern": "名詞 + alone"
         }
       ]
     },
     {
       "words": {
-        "character": {
-          "ja": "同じキャラクター",
-          "pos": "語句",
-          "lemma": "character",
-          "form": "",
-          "note": "character：この作品では「同じキャラクター」"
+        "animation": {
+          "ja": "アニメーション"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a sequence of": {
+          "ja": "〜の連続"
+        },
+        "differences": {
+          "ja": "違い"
+        },
+        "held together by": {
+          "ja": "〜でつなぎとめられた"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "stronger promise": {
+          "ja": "より強い約束"
+        },
+        "the same character": {
+          "ja": "同じキャラ"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "keep": {
+          "ja": "保つ"
+        },
+        "the same body": {
+          "ja": "同じ体"
+        },
+        "from frame to frame": {
+          "ja": "コマからコマへ"
         }
       },
       "phrases": [
         {
-          "en": "Animation is a sequence of differences held together by a stronger promise: the same character must keep the same body from frame to frame.",
-          "ja": "アニメーションは差異の連続だが、同じ人物がコマごとに同じ身体を保つという約束で結ばれている。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "a sequence of differences held together by a stronger promise",
+          "ja": "より強い約束でつなぎとめられた違いの連続",
+          "note": "held 以下が differences を修飾。",
+          "pattern": "hold together"
+        },
+        {
+          "en": "from frame to frame",
+          "ja": "コマごとに",
+          "note": "同じ名詞を繰り返して「〜ごとに」。",
+          "pattern": "from A to A"
         }
       ]
     },
     {
       "words": {
         "structural": {
-          "ja": "構造上の",
-          "pos": "語句",
-          "lemma": "structural",
-          "form": "",
-          "note": "structural：この作品では「構造上の」"
+          "ja": "構造に関わる"
+        },
+        "precise cropping": {
+          "ja": "正確な切り抜き"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "therefore": {
+          "ja": "だから"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "cosmetic": {
+          "ja": "見た目だけの"
         }
       },
       "phrases": [
         {
-          "en": "Precise cropping is therefore structural, not cosmetic.",
-          "ja": "したがって正確な切り抜きは見栄えではなく構造の問題だ。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "is therefore structural, not cosmetic",
+          "ja": "見た目でなく構造の問題だ",
+          "note": "cosmetic「表面的な」。",
+          "pattern": "A, not B"
         }
       ]
     }
@@ -3791,90 +4082,255 @@
     {
       "words": {
         "backgrounds": {
-          "ja": "背景素材",
-          "pos": "語句",
-          "lemma": "backgrounds",
-          "form": "",
-          "note": "backgrounds：この作品では「背景素材」"
+          "ja": "背景"
+        },
+        "characters": {
+          "ja": "キャラ"
+        },
+        "lip sync": {
+          "ja": "口パク"
+        },
+        "walk cycles": {
+          "ja": "歩行サイクル"
+        },
+        "physics": {
+          "ja": "物理"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "stage design": {
+          "ja": "ステージ設計"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "studio": {
+          "ja": "制作室"
+        },
+        "simply because": {
+          "ja": "単に〜だからといって"
+        },
+        "their": {
+          "ja": "それらの"
+        },
+        "tools": {
+          "ja": "道具"
+        },
+        "share": {
+          "ja": "共有する"
+        },
+        "a folder": {
+          "ja": "フォルダ"
         }
       },
       "phrases": [
         {
-          "en": "Characters, backgrounds, lip sync, walk cycles, physics, and stage design do not become a studio simply because their tools share a folder.",
-          "ja": "キャラクター、背景、口パク、歩行、物理、ステージ設計は、道具が同じフォルダにあるだけでは制作室にならない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "do not become a studio simply because their tools share a folder",
+          "ja": "道具が同じフォルダにあるだけでは制作室にならない",
+          "note": "simply because「単に〜だけで」。",
+          "pattern": "simply because 〜"
         }
       ]
     },
     {
       "words": {
         "assets": {
-          "ja": "制作素材",
-          "pos": "語句",
-          "lemma": "assets",
-          "form": "",
-          "note": "assets：この作品では「制作素材」"
+          "ja": "素材"
+        },
+        "the collection": {
+          "ja": "その集まり"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "a stage": {
+          "ja": "舞台"
+        },
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "can be registered": {
+          "ja": "登録でき"
+        },
+        "recalled": {
+          "ja": "呼び出せ"
+        },
+        "combined": {
+          "ja": "組み合わせられ"
+        },
+        "played": {
+          "ja": "再生でき"
+        },
+        "revised": {
+          "ja": "直せ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "saved": {
+          "ja": "保存できる"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "one": {
+          "ja": "ひとつの"
+        },
+        "continuing project": {
+          "ja": "続いていくプロジェクト"
         }
       },
       "phrases": [
         {
-          "en": "The collection becomes a stage only when assets can be registered, recalled, combined, played, revised, and saved as one continuing project.",
-          "ja": "素材を登録・呼出・結合・再生・修正し、一つの継続プロジェクトとして保存できるとき、道具の集合は舞台になる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "can be registered, recalled, combined, played, revised, and saved",
+          "ja": "登録・呼出・結合・再生・修正・保存できる",
+          "note": "can be が6つにかかる。",
+          "pattern": "can be 過去分詞の並列"
         }
       ]
     },
     {
       "words": {
-        "all-in-one": {
-          "ja": "全機能統合の",
-          "pos": "語句",
-          "lemma": "all-in-one",
-          "form": "",
-          "note": "all-in-one：この作品では「全機能統合の」"
+        "an": {
+          "ja": "ひとつの"
+        },
+        "all-in-one version": {
+          "ja": "全部入り版"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "therefore": {
+          "ja": "つまり"
+        },
+        "not": {
+          "ja": "〜ではない"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "crowded screen": {
+          "ja": "ごちゃごちゃした画面"
+        },
+        "full of": {
+          "ja": "〜でいっぱいの"
+        },
+        "buttons": {
+          "ja": "ボタン"
         }
       },
       "phrases": [
         {
-          "en": "An all-in-one version is therefore not a crowded screen full of buttons.",
-          "ja": "したがって全機能版とは、ボタンで混雑した画面ではない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "a crowded screen full of buttons",
+          "ja": "ボタンだらけの画面",
+          "note": "full of が後ろから screen を修飾。",
+          "pattern": "full of 〜"
         }
       ]
     },
     {
       "words": {
         "history": {
-          "ja": "制作履歴",
-          "pos": "語句",
-          "lemma": "history",
-          "form": "",
-          "note": "history：この作品では「制作履歴」"
+          "ja": "履歴"
+        },
+        "it": {
+          "ja": "それ（＝全部入り版）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "route": {
+          "ja": "経路"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "lets": {
+          "ja": "〜させる"
+        },
+        "each result": {
+          "ja": "それぞれの成果"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "the input to": {
+          "ja": "〜への入力"
+        },
+        "the next task": {
+          "ja": "次の作業"
+        },
+        "without losing": {
+          "ja": "失わずに"
+        },
+        "its": {
+          "ja": "その"
         }
       },
       "phrases": [
         {
-          "en": "It is a route that lets each result become the input to the next task without losing its history.",
-          "ja": "それは履歴を失わず、各成果を次の作業の入力へ変える経路である。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "lets each result become the input to the next task",
+          "ja": "各成果を次の作業の入力にさせる",
+          "note": "let＋目的語＋原形。",
+          "pattern": "let A 動詞"
         }
       ]
     },
     {
       "words": {
         "integration": {
-          "ja": "機能間の統合",
-          "pos": "語句",
-          "lemma": "integration",
-          "form": "",
-          "note": "integration：この作品では「機能間の統合」"
+          "ja": "統合"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "the sum of": {
+          "ja": "〜の合計"
+        },
+        "features": {
+          "ja": "機能"
+        },
+        "it": {
+          "ja": "それ（＝作品）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the continuity of": {
+          "ja": "〜の連続性"
+        },
+        "the work": {
+          "ja": "作品"
+        },
+        "as": {
+          "ja": "〜するとき"
+        },
+        "crosses": {
+          "ja": "越える"
+        },
+        "the borders between": {
+          "ja": "〜の間の境界"
+        },
+        "tools": {
+          "ja": "道具"
         }
       },
       "phrases": [
         {
-          "en": "Integration is not the sum of features; it is the continuity of the work as it crosses the borders between tools.",
-          "ja": "統合は機能の合計ではなく、作品が道具の境界を越えるときに保たれる連続性である。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "as it crosses the borders between tools",
+          "ja": "作品が道具の境界を越えるとき",
+          "note": "as「〜するとき・〜しながら」。",
+          "pattern": "as（時）"
         }
       ]
     }
