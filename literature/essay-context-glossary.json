@@ -42028,5 +42028,895 @@
         }
       ]
     }
+  ],
+  "DE-20260908-001": [
+    {
+      "words": {
+        "the world": {
+          "ja": "世界"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "wait for": {
+          "ja": "〜を待つ"
+        },
+        "us": {
+          "ja": "私たちが"
+        },
+        "to notice": {
+          "ja": "気づくのを"
+        },
+        "it": {
+          "ja": "それ（＝世界）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not wait for us to notice it",
+          "ja": "私たちが気づくのを待ってはくれない",
+          "note": "wait for＋人＋to「人が〜するのを待つ」。us は「私たち」（米国ではない）。",
+          "pattern": "wait for A to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "relativity": {
+          "ja": "相対性"
+        },
+        "operated": {
+          "ja": "働いていた"
+        },
+        "before": {
+          "ja": "〜より前に"
+        },
+        "anyone": {
+          "ja": "誰かが"
+        },
+        "wrote it down": {
+          "ja": "それを書き留めた"
+        },
+        "it": {
+          "ja": "それ（＝相対性）"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "a theory": {
+          "ja": "理論"
+        }
+      },
+      "phrases": [
+        {
+          "en": "before anyone wrote it down as a theory",
+          "ja": "誰かが理論として書き留める前に",
+          "note": "relativity はここで物理の「相対性」。",
+          "pattern": "write A down"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そして"
+        },
+        "the landscape": {
+          "ja": "風景"
+        },
+        "was here": {
+          "ja": "ここにあった"
+        },
+        "before": {
+          "ja": "〜より前から"
+        },
+        "we were born": {
+          "ja": "私たちが生まれた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the landscape was here before we were born",
+          "ja": "風景は私たちが生まれる前からここにあった",
+          "note": "be born「生まれる」。",
+          "pattern": "before 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "understanding": {
+          "ja": "理解"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "create": {
+          "ja": "作る"
+        },
+        "reality": {
+          "ja": "現実"
+        },
+        "from nothing": {
+          "ja": "無から"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not create reality from nothing",
+          "ja": "理解は無から現実を作るのではない",
+          "note": "次のチャンクで言い換え。",
+          "pattern": "from nothing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝理解）"
+        },
+        "gives": {
+          "ja": "与える"
+        },
+        "names": {
+          "ja": "名前"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "symbols": {
+          "ja": "記号"
+        },
+        "to": {
+          "ja": "〜に"
+        },
+        "relationships": {
+          "ja": "関係"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "already": {
+          "ja": "すでに"
+        },
+        "exist": {
+          "ja": "存在する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "gives names and symbols to relationships that already exist",
+          "ja": "すでにある関係に名前と記号を与える",
+          "note": "relationships はここで「関係」（血縁ではない）。",
+          "pattern": "give A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "new explanation": {
+          "ja": "新しい説明"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "seem to": {
+          "ja": "〜するように見える"
+        },
+        "transform": {
+          "ja": "変える"
+        },
+        "the world": {
+          "ja": "世界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may seem to transform the world",
+          "ja": "世界を変えるように見えるかもしれない",
+          "note": "次の but へ続く。",
+          "pattern": "seem to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "often": {
+          "ja": "多くの場合"
+        },
+        "it": {
+          "ja": "それ（＝世界）"
+        },
+        "changes": {
+          "ja": "変える"
+        },
+        "the line": {
+          "ja": "線"
+        },
+        "by which": {
+          "ja": "それによって"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "are connected to": {
+          "ja": "〜とつながっている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the line by which we are connected to it",
+          "ja": "私たちが世界とつながっている線",
+          "note": "前置詞＋関係代名詞。line は「線・つながり」。",
+          "pattern": "by which 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260908-002": [
+    {
+      "words": {
+        "insight": {
+          "ja": "洞察"
+        },
+        "may be less": {
+          "ja": "〜というより"
+        },
+        "the birth of": {
+          "ja": "〜の誕生"
+        },
+        "something hidden": {
+          "ja": "隠れた何か"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may be less the birth of something hidden",
+          "ja": "隠れた何かの誕生というより",
+          "note": "次のチャンクの than へ続く。",
+          "pattern": "less A than B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "than": {
+          "ja": "…だ"
+        },
+        "the moment": {
+          "ja": "瞬間"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "unexpressed relationship": {
+          "ja": "表されていなかった関係"
+        },
+        "becomes describable": {
+          "ja": "記述できるようになる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "than the moment an unexpressed relationship becomes describable",
+          "ja": "言葉にされていなかった関係が記述可能になる瞬間",
+          "note": "moment の後に関係副詞が省略。",
+          "pattern": "the moment (that) 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "draw": {
+          "ja": "引け（命令形）"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "arrow": {
+          "ja": "矢印"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "show": {
+          "ja": "示せ"
+        },
+        "what": {
+          "ja": "何に"
+        },
+        "maps onto": {
+          "ja": "〜に写る（対応する）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "show what maps onto what",
+          "ja": "何が何に対応するかを示す",
+          "note": "map はここで動詞「写像する・対応する」（地図ではない）。",
+          "pattern": "map onto 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そうすれば"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "vague thought": {
+          "ja": "ぼんやりした考え"
+        },
+        "begins to": {
+          "ja": "〜し始める"
+        },
+        "take shape": {
+          "ja": "形になる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "and a vague thought begins to take shape",
+          "ja": "矢印を引いて対応を示せば、ぼんやりした考えが形になり始める",
+          "note": "命令文＋and「〜すれば…」。",
+          "pattern": "命令文 + and / take shape"
+        }
+      ]
+    },
+    {
+      "words": {
+        "symbols": {
+          "ja": "記号"
+        },
+        "are only": {
+          "ja": "〜にすぎない"
+        },
+        "stand-ins for": {
+          "ja": "〜の代役"
+        },
+        "reality": {
+          "ja": "現実"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "without": {
+          "ja": "〜がなければ"
+        },
+        "the right notation": {
+          "ja": "適切な表記"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "miss": {
+          "ja": "見落とす"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "structure": {
+          "ja": "構造"
+        },
+        "already": {
+          "ja": "すでに"
+        },
+        "in front of us": {
+          "ja": "目の前に"
+        },
+        "us": {
+          "ja": "私たちの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "we can miss a structure already in front of us",
+          "ja": "目の前にある構造を見落としうる",
+          "note": "notation「表記法」。stand-in「代役」。",
+          "pattern": "in front of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the shock of": {
+          "ja": "〜の衝撃"
+        },
+        "discovery": {
+          "ja": "発見"
+        },
+        "belongs not to": {
+          "ja": "〜に属するのではない"
+        },
+        "existence": {
+          "ja": "存在"
+        },
+        "coming into being": {
+          "ja": "生まれ出ること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "belongs not to existence coming into being",
+          "ja": "存在が生まれ出ることに属するのではなく",
+          "note": "come into being「生じる」。",
+          "pattern": "come into being / not to A but to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but to": {
+          "ja": "…に属する"
+        },
+        "our": {
+          "ja": "私たちの"
+        },
+        "becoming able to": {
+          "ja": "〜できるようになること"
+        },
+        "describe": {
+          "ja": "記述する"
+        },
+        "it": {
+          "ja": "それ（＝存在）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "but to our becoming able to describe it",
+          "ja": "私たちがそれを記述できるようになることに",
+          "note": "our が動名詞 becoming の意味上の主語。",
+          "pattern": "所有格 + 動名詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260908-003": [
+    {
+      "words": {
+        "what exists": {
+          "ja": "存在するもの"
+        },
+        "in society": {
+          "ja": "社会に"
+        },
+        "does not necessarily": {
+          "ja": "必ずしも〜しない"
+        },
+        "appear": {
+          "ja": "現れる"
+        },
+        "in": {
+          "ja": "〜に"
+        },
+        "one's": {
+          "ja": "自分の"
+        },
+        "immediate world": {
+          "ja": "身の回りの世界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not necessarily appear in one's immediate world",
+          "ja": "必ずしも身の回りに現れるわけではない",
+          "note": "one's は「自分の」（1個のではない）。",
+          "pattern": "not necessarily"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "small character": {
+          "ja": "小さなキャラクター"
+        },
+        "may be": {
+          "ja": "〜かもしれない"
+        },
+        "everywhere": {
+          "ja": "あらゆる所に"
+        },
+        "in statistics": {
+          "ja": "統計の中に"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "on screens": {
+          "ja": "画面上に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may be everywhere in statistics and on screens",
+          "ja": "統計にも画面にもあふれているかもしれない",
+          "note": "character はここで「キャラクター」。",
+          "pattern": "everywhere"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "それでも"
+        },
+        "never": {
+          "ja": "一度も〜しない"
+        },
+        "enter": {
+          "ja": "入る"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "nearby conversation": {
+          "ja": "身近な会話"
+        }
+      },
+      "phrases": [
+        {
+          "en": "yet never enter a nearby conversation",
+          "ja": "身近な会話には一度も入ってこない",
+          "note": "may が enter にもかかる。",
+          "pattern": "never"
+        }
+      ]
+    },
+    {
+      "words": {
+        "this mismatch": {
+          "ja": "この食い違い"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "disprove": {
+          "ja": "誤りと示す"
+        },
+        "the trend": {
+          "ja": "その流行"
+        }
+      },
+      "phrases": [
+        {
+          "en": "This mismatch does not disprove the trend",
+          "ja": "この食い違いは流行を否定するものではない",
+          "note": "次のチャンクで言い換え。",
+          "pattern": "disprove 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝食い違い）"
+        },
+        "reveals": {
+          "ja": "明らかにする"
+        },
+        "the limits of": {
+          "ja": "〜の限界"
+        },
+        "the observation point": {
+          "ja": "観測地点"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it reveals the limits of the observation point",
+          "ja": "観測地点の限界を示す",
+          "note": "見えないのは自分の立ち位置のせい。",
+          "pattern": "the limits of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "absence": {
+          "ja": "ないこと"
+        },
+        "from view": {
+          "ja": "視界から"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "proof of": {
+          "ja": "〜の証明"
+        },
+        "nonexistence": {
+          "ja": "存在しないこと"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Absence from view is not proof of nonexistence",
+          "ja": "見えないことは存在しない証明ではない",
+          "note": "対になる語の対比。",
+          "pattern": "proof of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝見えないこと）"
+        },
+        "is still": {
+          "ja": "それでも〜だ"
+        },
+        "useful evidence of": {
+          "ja": "〜の役に立つ証拠"
+        },
+        "where": {
+          "ja": "どこに"
+        },
+        "the observer": {
+          "ja": "観測者"
+        },
+        "is standing": {
+          "ja": "立っているか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "useful evidence of where the observer is standing",
+          "ja": "観測者がどこに立っているかの手がかり",
+          "note": "where 節が of の目的語。",
+          "pattern": "evidence of 疑問詞節"
+        }
+      ]
+    }
+  ],
+  "DE-20260908-004": [
+    {
+      "words": {
+        "the same distinction": {
+          "ja": "同じ区別"
+        },
+        "matters": {
+          "ja": "重要だ"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "story": {
+          "ja": "物語"
+        },
+        "tries to": {
+          "ja": "〜しようとする"
+        },
+        "mobilize": {
+          "ja": "動員する"
+        },
+        "society": {
+          "ja": "社会"
+        },
+        "with": {
+          "ja": "〜で"
+        },
+        "single slogan": {
+          "ja": "一つの標語"
+        }
+      },
+      "phrases": [
+        {
+          "en": "tries to mobilize society with a single slogan",
+          "ja": "一つの標語で社会を動員しようとする",
+          "note": "mobilize「（人々を）動員する」。",
+          "pattern": "mobilize"
+        }
+      ]
+    },
+    {
+      "words": {
+        "information": {
+          "ja": "情報"
+        },
+        "already": {
+          "ja": "すでに"
+        },
+        "crosses borders": {
+          "ja": "国境を越える"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "the population": {
+          "ja": "人口"
+        },
+        "has grown": {
+          "ja": "〜になった"
+        },
+        "predominantly": {
+          "ja": "主に"
+        },
+        "older": {
+          "ja": "高齢"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the population has grown predominantly older",
+          "ja": "人口は主に高齢側になった",
+          "note": "borders はここで「国境」。",
+          "pattern": "grow 比較級"
+        }
+      ]
+    },
+    {
+      "words": {
+        "reenacting": {
+          "ja": "再演すること"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "old drama of": {
+          "ja": "〜の古い劇"
+        },
+        "total mobilization": {
+          "ja": "総動員"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Reenacting an old drama of total mobilization",
+          "ja": "総動員の古い劇を再演すること",
+          "note": "次のチャンクの cannot につながる。",
+          "pattern": "動名詞の主語"
+        }
+      ]
+    },
+    {
+      "words": {
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "make": {
+          "ja": "〜させる"
+        },
+        "actual bodies": {
+          "ja": "現実の身体"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "communication networks": {
+          "ja": "通信網"
+        },
+        "conform to": {
+          "ja": "〜に従う"
+        },
+        "its": {
+          "ja": "その（＝劇の）"
+        },
+        "script": {
+          "ja": "台本"
+        }
+      },
+      "phrases": [
+        {
+          "en": "cannot make actual bodies or communication networks conform to its script",
+          "ja": "現実の身体や通信網を台本どおりに従わせられない",
+          "note": "conform to「〜に合わせる」。",
+          "pattern": "make A 動詞 / conform to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the louder": {
+          "ja": "大きくなるほど"
+        },
+        "the appeal to": {
+          "ja": "〜への訴え"
+        },
+        "emotion": {
+          "ja": "感情"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "loyalty": {
+          "ja": "忠誠"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The louder the appeal to emotion and loyalty",
+          "ja": "感情と忠誠への訴えが大きくなるほど",
+          "note": "次のチャンクへ続く（be 動詞は省略）。",
+          "pattern": "the 比較級 ..., the 比較級 ..."
+        }
+      ]
+    },
+    {
+      "words": {
+        "the easier": {
+          "ja": "いっそう簡単に"
+        },
+        "it is to": {
+          "ja": "〜することが"
+        },
+        "lose sight of": {
+          "ja": "〜を見失う"
+        },
+        "the structure": {
+          "ja": "構造"
+        },
+        "beneath it": {
+          "ja": "その下の"
+        },
+        "it": {
+          "ja": "それ（＝訴え）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the easier it is to lose sight of the structure beneath it",
+          "ja": "その下の構造をいっそう見失いやすくなる",
+          "note": "lose sight of「〜を見失う」。",
+          "pattern": "lose sight of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "need": {
+          "ja": "必要とする"
+        },
+        "less cheering": {
+          "ja": "もっと少ない歓声"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "more accurate description of": {
+          "ja": "〜のより正確な記述"
+        },
+        "the world": {
+          "ja": "世界"
+        },
+        "as it is arranged now": {
+          "ja": "今まさに配置されているままの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the world as it is arranged now",
+          "ja": "今の配置どおりの世界",
+          "note": "as it is「ありのままの」。",
+          "pattern": "名詞 + as it is"
+        }
+      ]
+    }
   ]
 }
