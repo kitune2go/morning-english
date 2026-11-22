@@ -43760,5 +43760,799 @@
         }
       ]
     }
+  ],
+  "DE-20260820-001": [
+    {
+      "words": {
+        "i": {
+          "ja": "私は"
+        },
+        "finished": {
+          "ja": "終えた"
+        },
+        "some": {
+          "ja": "いくつかの"
+        },
+        "abdominal exercises": {
+          "ja": "腹筋運動"
+        },
+        "push-ups": {
+          "ja": "腕立て伏せ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "a plank": {
+          "ja": "プランク（体幹トレーニング）"
+        },
+        "then": {
+          "ja": "それから"
+        },
+        "spent": {
+          "ja": "使った"
+        },
+        "a little time": {
+          "ja": "少しの時間"
+        },
+        "with": {
+          "ja": "〜と"
+        },
+        "the guitar": {
+          "ja": "ギター"
+        }
+      },
+      "phrases": [
+        {
+          "en": "spent a little time with the guitar",
+          "ja": "ギターに少し時間を使った",
+          "note": "plank はここで筋トレの「プランク」（厚板ではない）。",
+          "pattern": "spend 時間 with 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "these": {
+          "ja": "これらの"
+        },
+        "small practices": {
+          "ja": "小さな練習"
+        },
+        "had": {
+          "ja": "持っていた"
+        },
+        "visible endpoints": {
+          "ja": "見える終わり"
+        },
+        "even when": {
+          "ja": "〜のときでさえ"
+        },
+        "they": {
+          "ja": "それら（＝練習）"
+        },
+        "were brief": {
+          "ja": "短かった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "had visible endpoints, even when they were brief",
+          "ja": "短くても終わりが見えていた",
+          "note": "practices はここで「練習」。",
+          "pattern": "even when 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the": {
+          "ja": "その"
+        },
+        "d": {
+          "ja": "（3Dの）D"
+        },
+        "project": {
+          "ja": "プロジェクト"
+        },
+        "beside": {
+          "ja": "〜の隣の"
+        },
+        "them": {
+          "ja": "それら（＝練習）"
+        },
+        "offered": {
+          "ja": "示した"
+        },
+        "no such": {
+          "ja": "そのような〜はない"
+        },
+        "clear horizon": {
+          "ja": "はっきりした地平線（終わり）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "offered no such clear horizon",
+          "ja": "そんなはっきりした終わりは見えなかった",
+          "note": "horizon は「先の見通し」の比喩。",
+          "pattern": "no such 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "as soon as": {
+          "ja": "〜するとすぐに"
+        },
+        "i": {
+          "ja": "私が"
+        },
+        "counted": {
+          "ja": "数えた"
+        },
+        "what was done": {
+          "ja": "終わったこと"
+        },
+        "another question": {
+          "ja": "別の疑問"
+        },
+        "surfaced": {
+          "ja": "浮かんだ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "As soon as I counted what was done, another question surfaced",
+          "ja": "済んだことを数えた途端、別の疑問が浮かんだ",
+          "note": "surface は動詞「浮かび上がる」。",
+          "pattern": "as soon as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "would": {
+          "ja": "〜だろうか"
+        },
+        "the longer work": {
+          "ja": "長い作業"
+        },
+        "ever": {
+          "ja": "いつか"
+        },
+        "be finished": {
+          "ja": "終わる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "would the longer work ever be finished",
+          "ja": "長い作業はいつか終わるのだろうか",
+          "note": "疑問文の ever「いつか」。",
+          "pattern": "ever（疑問文）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "completion": {
+          "ja": "完了"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "uncertainty": {
+          "ja": "不確かさ"
+        },
+        "occupied": {
+          "ja": "占めた"
+        },
+        "the same day": {
+          "ja": "同じ一日"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Completion and uncertainty occupied the same day",
+          "ja": "完了と不確かさが同じ一日にあった",
+          "note": "occupy「（時間・場所を）占める」。",
+          "pattern": "occupy 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260820-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "d": {
+          "ja": "（3Dの）D"
+        },
+        "project": {
+          "ja": "プロジェクト"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "feel endless": {
+          "ja": "終わりがないように感じられる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A 3D project can feel endless",
+          "ja": "3D制作は終わりがないように感じることがある",
+          "note": "次の because へ続く。",
+          "pattern": "feel 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "because": {
+          "ja": "〜なので"
+        },
+        "the appearance of": {
+          "ja": "〜が現れること"
+        },
+        "a shape": {
+          "ja": "形"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "completion": {
+          "ja": "完成"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the appearance of a shape is not the same as completion",
+          "ja": "形が出ることと完成は同じではない",
+          "note": "appearance「現れること・外見」。",
+          "pattern": "the same as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the generated result": {
+          "ja": "生成された結果"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "already": {
+          "ja": "すでに"
+        },
+        "look": {
+          "ja": "〜に見える"
+        },
+        "remarkably precise": {
+          "ja": "驚くほど精密な"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may already look remarkably precise",
+          "ja": "すでに驚くほど精密に見えるかもしれない",
+          "note": "次の yet へ続く。",
+          "pattern": "look 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "それでも"
+        },
+        "it": {
+          "ja": "それ（＝生成結果）"
+        },
+        "still": {
+          "ja": "まだ"
+        },
+        "raises questions about": {
+          "ja": "〜について疑問を投げかける"
+        },
+        "what happens": {
+          "ja": "何が起きているか"
+        },
+        "underneath": {
+          "ja": "その下で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "raises questions about what happens underneath",
+          "ja": "下で何が起きているのかという疑問を生む",
+          "note": "underneath「下に」。",
+          "pattern": "raise a question"
+        }
+      ]
+    },
+    {
+      "words": {
+        "gradually": {
+          "ja": "だんだん"
+        },
+        "will": {
+          "ja": "〜だろうか"
+        },
+        "this": {
+          "ja": "これ"
+        },
+        "ever": {
+          "ja": "いつか"
+        },
+        "end": {
+          "ja": "終わる"
+        },
+        "turned into": {
+          "ja": "〜に変わった"
+        },
+        "how": {
+          "ja": "どのように"
+        },
+        "does": {
+          "ja": "〜するのか"
+        },
+        "actually": {
+          "ja": "実際に"
+        },
+        "work": {
+          "ja": "動く"
+        }
+      },
+      "phrases": [
+        {
+          "en": "“Will this ever end?” turned into “How does this actually work?”",
+          "ja": "「いつ終わるのか」が「実際どう動くのか」に変わった",
+          "note": "work はここで動詞「動く・機能する」。",
+          "pattern": "turn into 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "impatience with": {
+          "ja": "〜へのじれったさ"
+        },
+        "the duration": {
+          "ja": "かかる時間"
+        },
+        "gave way to": {
+          "ja": "〜に取って代わられた"
+        },
+        "curiosity about": {
+          "ja": "〜への好奇心"
+        },
+        "the process": {
+          "ja": "工程"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Impatience with the duration gave way to curiosity about the process",
+          "ja": "時間へのじれったさが工程への好奇心に変わった",
+          "note": "give way to「〜に道を譲る」。",
+          "pattern": "give way to 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260820-003": [
+    {
+      "words": {
+        "that question": {
+          "ja": "その疑問"
+        },
+        "led to": {
+          "ja": "〜につながった"
+        },
+        "retopology": {
+          "ja": "リトポロジー（メッシュの組み直し）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "That question led to retopology",
+          "ja": "その疑問がリトポロジーにつながった",
+          "note": "led は lead の過去形。",
+          "pattern": "lead to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "reorganizing": {
+          "ja": "組み直すこと"
+        },
+        "the mesh": {
+          "ja": "メッシュ（網目）"
+        },
+        "beneath": {
+          "ja": "〜の下の"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "generated form": {
+          "ja": "生成された形"
+        }
+      },
+      "phrases": [
+        {
+          "en": "reorganizing the mesh beneath a generated form",
+          "ja": "生成された形の下のメッシュを組み直すこと",
+          "note": "前のコロンで retopology を説明。",
+          "pattern": "動名詞句（言い換え）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "looking right": {
+          "ja": "正しく見えること"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "being easy to": {
+          "ja": "〜しやすいこと"
+        },
+        "work with": {
+          "ja": "扱う"
+        },
+        "later": {
+          "ja": "後で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Looking right is not the same as being easy to work with later",
+          "ja": "正しく見えることと後で扱いやすいことは別",
+          "note": "work with「〜を扱う」。",
+          "pattern": "easy to work with"
+        }
+      ]
+    },
+    {
+      "words": {
+        "under": {
+          "ja": "〜の下には"
+        },
+        "the surface": {
+          "ja": "表面"
+        },
+        "lie": {
+          "ja": "ある"
+        },
+        "modest decisions": {
+          "ja": "地道な判断"
+        },
+        "about": {
+          "ja": "〜についての"
+        },
+        "connections": {
+          "ja": "つながり"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "flow": {
+          "ja": "流れ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Under the surface lie modest decisions",
+          "ja": "表面の下には地道な判断がある",
+          "note": "lie は「ある」。主語は decisions。",
+          "pattern": "場所句 + lie + 主語（倒置）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "they": {
+          "ja": "それら（＝判断）"
+        },
+        "vanish from view": {
+          "ja": "見えなくなる"
+        },
+        "in": {
+          "ja": "〜では"
+        },
+        "the finished object": {
+          "ja": "完成品"
+        },
+        "yet": {
+          "ja": "それでも"
+        },
+        "help": {
+          "ja": "助ける"
+        },
+        "the form": {
+          "ja": "形"
+        },
+        "remain usable": {
+          "ja": "使える状態でいる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "help the form remain usable",
+          "ja": "形が使える状態であり続けるのを助ける",
+          "note": "help＋目的語＋原形。",
+          "pattern": "help A 動詞 / remain 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "what": {
+          "ja": "〜したもの"
+        },
+        "had seemed like": {
+          "ja": "〜のように見えていた"
+        },
+        "empty waiting": {
+          "ja": "空っぽの待ち時間"
+        },
+        "began to": {
+          "ja": "〜し始めた"
+        },
+        "look like": {
+          "ja": "〜のように見える"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "spent": {
+          "ja": "費やされた"
+        },
+        "reweaving": {
+          "ja": "編み直すこと"
+        },
+        "the mesh": {
+          "ja": "メッシュ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "time spent reweaving the mesh",
+          "ja": "メッシュを編み直すのに費やした時間",
+          "note": "spent 以下が time を修飾。",
+          "pattern": "spend 時間 -ing"
+        }
+      ]
+    }
+  ],
+  "DE-20260820-004": [
+    {
+      "words": {
+        "that same day": {
+          "ja": "同じ日に"
+        },
+        "i": {
+          "ja": "私は"
+        },
+        "read": {
+          "ja": "読んだ"
+        },
+        "that": {
+          "ja": "（接続詞）〜ということ"
+        },
+        "creators": {
+          "ja": "作り手"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "carry": {
+          "ja": "背負う"
+        },
+        "much of": {
+          "ja": "〜の多く"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "character's": {
+          "ja": "キャラクターの"
+        },
+        "public presence": {
+          "ja": "世間での存在感"
+        }
+      },
+      "phrases": [
+        {
+          "en": "creators often carry much of a character's public presence",
+          "ja": "作り手がキャラの世間的存在感の多くを背負う",
+          "note": "read はここで過去形。",
+          "pattern": "much of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "so": {
+          "ja": "だから"
+        },
+        "disappointment": {
+          "ja": "失望"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "quickly": {
+          "ja": "すぐに"
+        },
+        "harden": {
+          "ja": "硬くする"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "once-warm": {
+          "ja": "かつて温かかった"
+        },
+        "gaze": {
+          "ja": "まなざし"
+        }
+      },
+      "phrases": [
+        {
+          "en": "harden a once-warm gaze",
+          "ja": "かつて温かかった視線を硬くする",
+          "note": "once-warm「以前は温かい」。",
+          "pattern": "harden 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "again": {
+          "ja": "ここでも"
+        },
+        "the visible image": {
+          "ja": "目に見える像"
+        },
+        "could not be separated from": {
+          "ja": "〜から切り離せなかった"
+        },
+        "the relationships": {
+          "ja": "関係"
+        },
+        "beneath it": {
+          "ja": "その下の"
+        },
+        "it": {
+          "ja": "それ（＝像）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "could not be separated from the relationships beneath it",
+          "ja": "その下の関係から切り離せなかった",
+          "note": "relationships は「関係」。",
+          "pattern": "separate A from B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "polished surface": {
+          "ja": "磨かれた表面"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "erase": {
+          "ja": "消す"
+        },
+        "the importance of": {
+          "ja": "〜の大切さ"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "seams": {
+          "ja": "継ぎ目"
+        }
+      },
+      "phrases": [
+        {
+          "en": "did not erase the importance of its seams",
+          "ja": "継ぎ目の大切さを消しはしなかった",
+          "note": "seams はメッシュの継ぎ目にもかけている。",
+          "pattern": "importance of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "trust": {
+          "ja": "信頼"
+        },
+        "was not": {
+          "ja": "〜ではなかった"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "seal": {
+          "ja": "封印・印"
+        },
+        "applied": {
+          "ja": "貼られた"
+        },
+        "once": {
+          "ja": "一度"
+        },
+        "at completion": {
+          "ja": "完成時に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a seal applied once at completion",
+          "ja": "完成時に一度貼られる印",
+          "note": "applied は過去分詞「貼られた」。",
+          "pattern": "名詞 + 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "like": {
+          "ja": "〜と同じく"
+        },
+        "practice": {
+          "ja": "練習"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "revision": {
+          "ja": "修正"
+        },
+        "it": {
+          "ja": "それ（＝信頼）"
+        },
+        "had to be": {
+          "ja": "〜されなければならなかった"
+        },
+        "tested": {
+          "ja": "試され"
+        },
+        "reconsidered": {
+          "ja": "見直され"
+        },
+        "quietly": {
+          "ja": "静かに"
+        },
+        "rewoven": {
+          "ja": "編み直され"
+        },
+        "over time": {
+          "ja": "時間をかけて"
+        }
+      },
+      "phrases": [
+        {
+          "en": "had to be tested, reconsidered, and quietly rewoven over time",
+          "ja": "試され、見直され、時間をかけて編み直される必要があった",
+          "note": "rewoven は reweave の過去分詞。",
+          "pattern": "have to be 過去分詞の並列"
+        }
+      ]
+    }
   ]
 }
