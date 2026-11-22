@@ -36813,5 +36813,910 @@
         }
       ]
     }
+  ],
+  "DE-20260914-001": [
+    {
+      "words": {
+        "declaring": {
+          "ja": "はっきり言うこと"
+        },
+        "a purpose": {
+          "ja": "目的"
+        },
+        "in advance": {
+          "ja": "前もって"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "the entrance to": {
+          "ja": "〜への入口"
+        },
+        "a relationship": {
+          "ja": "人間関係"
+        },
+        "clearer": {
+          "ja": "より分かりやすく"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can make the entrance to a relationship clearer",
+          "ja": "関係の入口をはっきりさせうる",
+          "note": "relationship はここで「（人と人の）関係」。",
+          "pattern": "make A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "disclosure": {
+          "ja": "開示"
+        },
+        "guarantees": {
+          "ja": "保証する"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "initial understanding": {
+          "ja": "最初の了解"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "continued fulfillment": {
+          "ja": "続けて果たすこと"
+        },
+        "over time": {
+          "ja": "時間を通じて"
+        }
+      },
+      "phrases": [
+        {
+          "en": "only an initial understanding, not continued fulfillment over time",
+          "ja": "最初の了解だけで、ずっと果たし続けることではない",
+          "note": "fulfillment「（約束などの）履行」。",
+          "pattern": "A, not B / over time"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "pure motive": {
+          "ja": "純粋な動機"
+        },
+        "cannot be established": {
+          "ja": "確かめられない"
+        },
+        "by": {
+          "ja": "〜によって"
+        },
+        "self-description": {
+          "ja": "自己申告"
+        },
+        "or": {
+          "ja": "も"
+        },
+        "outside observation": {
+          "ja": "外からの観察"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "cannot be established by self-description or outside observation alone",
+          "ja": "自己申告や外からの観察だけでは確かめられない",
+          "note": "establish「立証する」。",
+          "pattern": "名詞 + alone"
+        }
+      ]
+    },
+    {
+      "words": {
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "saying that": {
+          "ja": "〜と言うこと"
+        },
+        "money": {
+          "ja": "お金"
+        },
+        "is the goal": {
+          "ja": "目的だ"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "satisfy": {
+          "ja": "満たす"
+        },
+        "a rule of": {
+          "ja": "〜の決まり"
+        },
+        "openness": {
+          "ja": "隠さないこと"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may satisfy a rule of openness",
+          "ja": "隠さないという決まりは満たしうる",
+          "note": "goal「目的」。",
+          "pattern": "satisfy 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "sincerity": {
+          "ja": "誠実さ"
+        },
+        "therefore": {
+          "ja": "だから"
+        },
+        "cannot be worn": {
+          "ja": "身につけられない"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "a label": {
+          "ja": "名札"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Sincerity therefore cannot be worn as a label",
+          "ja": "誠実さは名札のように身につけられない",
+          "note": "worn は wear の過去分詞。",
+          "pattern": "wear A as B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝誠実さ）"
+        },
+        "has to be tested": {
+          "ja": "試されなければならない"
+        },
+        "in": {
+          "ja": "〜の中で"
+        },
+        "what happens next": {
+          "ja": "その後に起こること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it has to be tested in what happens next",
+          "ja": "その後に起こることの中で試されねばならない",
+          "note": "what 節「〜すること」。",
+          "pattern": "have to be 過去分詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260914-002": [
+    {
+      "words": {
+        "the same mismatch": {
+          "ja": "同じ食い違い"
+        },
+        "surfaced": {
+          "ja": "表に出た"
+        },
+        "in": {
+          "ja": "〜で"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "small": {
+          "ja": "小さな"
+        },
+        "audio feature": {
+          "ja": "音声の機能"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The same mismatch surfaced in a small audio feature",
+          "ja": "同じ食い違いが小さな音声機能に現れた",
+          "note": "surface は動詞「表面化する」。feature「機能」。",
+          "pattern": "surface（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "empty": {
+          "ja": "空の"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "default": {
+          "ja": "既定の"
+        },
+        "output value": {
+          "ja": "出力先の値"
+        },
+        "can": {
+          "ja": "〜でありうる"
+        },
+        "mean that": {
+          "ja": "〜ということを意味する"
+        },
+        "sound": {
+          "ja": "音"
+        },
+        "is using": {
+          "ja": "使っている"
+        },
+        "the normal route": {
+          "ja": "通常の経路"
+        }
+      },
+      "phrases": [
+        {
+          "en": "An empty or default output value",
+          "ja": "空や既定の出力値",
+          "note": "default はここで「既定（デフォルト）」（債務不履行ではない）。",
+          "pattern": "default（形容詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "treating": {
+          "ja": "扱うこと"
+        },
+        "that value": {
+          "ja": "その値"
+        },
+        "as unknown": {
+          "ja": "不明として"
+        },
+        "prevents": {
+          "ja": "妨げる"
+        },
+        "a working feature": {
+          "ja": "動いている機能"
+        },
+        "from being recognized as": {
+          "ja": "〜と認められるのを"
+        },
+        "calibrated": {
+          "ja": "調整済みの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "prevents a working feature from being recognized as calibrated",
+          "ja": "動く機能が調整済みと認められるのを妨げる",
+          "note": "prevent A from「Aが〜するのを妨げる」。",
+          "pattern": "prevent A from -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "blank": {
+          "ja": "空欄"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "look like": {
+          "ja": "〜のように見える"
+        },
+        "missing information": {
+          "ja": "欠けた情報"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A blank may look like missing information",
+          "ja": "空欄は情報の欠けに見えるかもしれない",
+          "note": "次のチャンクの but へ続く。",
+          "pattern": "look like 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "within": {
+          "ja": "〜の中では"
+        },
+        "the system's rules": {
+          "ja": "システムの決まり"
+        },
+        "it": {
+          "ja": "それ（＝空欄）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a known instruction": {
+          "ja": "分かっている指示"
+        },
+        "to use": {
+          "ja": "使えという"
+        },
+        "the default": {
+          "ja": "既定値"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a known instruction to use the default",
+          "ja": "既定値を使えという既知の指示",
+          "note": "the default はここで名詞「既定値」。",
+          "pattern": "instruction to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "read only as text": {
+          "ja": "文字としてだけ読めば"
+        },
+        "it": {
+          "ja": "それ（＝空欄）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "absence": {
+          "ja": "欠如"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Read only as text, it is an absence",
+          "ja": "文字としてだけ読めば、それは欠如だ",
+          "note": "Read は過去分詞「読まれると」。",
+          "pattern": "分詞構文（過去分詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "read in operation": {
+          "ja": "動作の中で読めば"
+        },
+        "it": {
+          "ja": "それ（＝空欄）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "choice": {
+          "ja": "選択"
+        }
+      },
+      "phrases": [
+        {
+          "en": "read in operation, it is a choice",
+          "ja": "動作の中で読めば、それは選択だ",
+          "note": "前の文と対をなす。",
+          "pattern": "分詞構文（過去分詞）"
+        }
+      ]
+    }
+  ],
+  "DE-20260914-003": [
+    {
+      "words": {
+        "saying that": {
+          "ja": "〜と言うこと"
+        },
+        "ai": {
+          "ja": "AI"
+        },
+        "will destroy": {
+          "ja": "滅ぼすだろう"
+        },
+        "humanity": {
+          "ja": "人類"
+        },
+        "compresses": {
+          "ja": "押し縮める"
+        },
+        "the causal chain": {
+          "ja": "因果の連鎖"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a single subject": {
+          "ja": "一つの主語"
+        }
+      },
+      "phrases": [
+        {
+          "en": "compresses the causal chain into a single subject",
+          "ja": "因果の連鎖を一つの主語に押し縮める",
+          "note": "subject はここで文法の「主語」。",
+          "pattern": "compress A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "more immediate": {
+          "ja": "より差し迫った"
+        },
+        "danger": {
+          "ja": "危険"
+        },
+        "is that": {
+          "ja": "〜ということだ"
+        },
+        "people": {
+          "ja": "人々が"
+        },
+        "may": {
+          "ja": "〜するかもしれない"
+        },
+        "use": {
+          "ja": "使う"
+        },
+        "ai": {
+          "ja": "AI"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A more immediate danger is that people may use AI",
+          "ja": "より差し迫った危険は、人がAIを使うかもしれないことだ",
+          "note": "次のチャンクの to 不定詞へ続く。",
+          "pattern": "the danger is that 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "to accelerate": {
+          "ja": "速めるために"
+        },
+        "decisions": {
+          "ja": "判断"
+        },
+        "expand": {
+          "ja": "広げる"
+        },
+        "their reach": {
+          "ja": "影響の届く範囲"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "distance themselves from": {
+          "ja": "〜から自分を遠ざける"
+        },
+        "the results": {
+          "ja": "結果"
+        }
+      },
+      "phrases": [
+        {
+          "en": "distance themselves from the results",
+          "ja": "結果から自分を遠ざける",
+          "note": "distance は動詞「距離を置く」。reach は名詞「届く範囲」。",
+          "pattern": "distance oneself from 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "the tool": {
+          "ja": "その道具"
+        },
+        "possesses": {
+          "ja": "持っている"
+        },
+        "a will": {
+          "ja": "意志"
+        },
+        "still": {
+          "ja": "それでも"
+        },
+        "matters": {
+          "ja": "重要だ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Whether the tool possesses a will still matters",
+          "ja": "道具が意志を持つかどうかも重要だ",
+          "note": "will はここで名詞「意志」。",
+          "pattern": "whether 節の主語"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but so do": {
+          "ja": "しかし…もまた（重要だ）"
+        },
+        "the person": {
+          "ja": "人"
+        },
+        "operating": {
+          "ja": "操作する"
+        },
+        "it": {
+          "ja": "それ（＝道具）"
+        },
+        "the authority": {
+          "ja": "権限"
+        },
+        "granted": {
+          "ja": "与えられた"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the system": {
+          "ja": "システム"
+        },
+        "attached to": {
+          "ja": "〜につながれた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "but so do the person operating it, the authority granted, and the system attached to it",
+          "ja": "操作する人、与えられた権限、つながった仕組みも同じく重要だ",
+          "note": "so do＋主語「〜もそうだ」（do = matter）。",
+          "pattern": "so do A"
+        }
+      ]
+    },
+    {
+      "words": {
+        "risk": {
+          "ja": "危険"
+        },
+        "grows": {
+          "ja": "大きくなる"
+        },
+        "at the junction": {
+          "ja": "接点で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Risk grows at the junction",
+          "ja": "危険は接点で大きくなる",
+          "note": "junction「合流点・接合部」。",
+          "pattern": "junction"
+        }
+      ]
+    },
+    {
+      "words": {
+        "where": {
+          "ja": "（関係副詞）そこでは"
+        },
+        "human purpose": {
+          "ja": "人間の目的"
+        },
+        "borrows": {
+          "ja": "借りる"
+        },
+        "machine speed": {
+          "ja": "機械の速さ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "where human purpose borrows machine speed",
+          "ja": "人間の目的が機械の速さを借りる所",
+          "note": "前の junction を修飾。",
+          "pattern": "where 節"
+        }
+      ]
+    }
+  ],
+  "DE-20260914-004": [
+    {
+      "words": {
+        "modernity": {
+          "ja": "近代"
+        },
+        "exhibited": {
+          "ja": "展示した"
+        },
+        "the future": {
+          "ja": "未来"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "bigger": {
+          "ja": "より大きく"
+        },
+        "faster": {
+          "ja": "より速く"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "stronger": {
+          "ja": "より強い"
+        }
+      },
+      "phrases": [
+        {
+          "en": "exhibited the future as bigger, faster, and stronger",
+          "ja": "未来をより大きく速く強いものとして展示した",
+          "note": "exhibit「展示する」。",
+          "pattern": "exhibit A as B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "towers": {
+          "ja": "塔"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "industrial machines": {
+          "ja": "産業機械"
+        },
+        "could": {
+          "ja": "〜しえた"
+        },
+        "look like": {
+          "ja": "〜のように見える"
+        },
+        "proof": {
+          "ja": "証拠"
+        },
+        "that": {
+          "ja": "（同格）〜という"
+        },
+        "humanity": {
+          "ja": "人類が"
+        },
+        "had surpassed": {
+          "ja": "越えていた"
+        },
+        "nature's limits": {
+          "ja": "自然の限界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "proof that humanity had surpassed nature's limits",
+          "ja": "人類が自然の限界を越えたという証拠",
+          "note": "surpass「上回る」。",
+          "pattern": "同格の that"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "technological change": {
+          "ja": "技術の変化"
+        },
+        "outruns": {
+          "ja": "追い越す"
+        },
+        "a human lifetime": {
+          "ja": "人間の一生"
+        }
+      },
+      "phrases": [
+        {
+          "en": "once technological change outruns a human lifetime",
+          "ja": "技術の変化が人の一生を追い越すと",
+          "note": "outrun「〜より速く走る」。",
+          "pattern": "outrun 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "our": {
+          "ja": "私たちの"
+        },
+        "capacity to": {
+          "ja": "〜する能力"
+        },
+        "understand": {
+          "ja": "理解する"
+        },
+        "repair": {
+          "ja": "修理する"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "stop": {
+          "ja": "止める"
+        },
+        "what we build": {
+          "ja": "作ったもの"
+        },
+        "begins to": {
+          "ja": "〜し始める"
+        },
+        "lag behind": {
+          "ja": "遅れる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "begins to lag behind",
+          "ja": "遅れを取り始める",
+          "note": "lag behind「後れを取る」。",
+          "pattern": "lag behind"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the height": {
+          "ja": "高さ"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "once": {
+          "ja": "かつて"
+        },
+        "signaled": {
+          "ja": "示した"
+        },
+        "wonder": {
+          "ja": "驚き"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "lengthens": {
+          "ja": "長くする"
+        },
+        "the shadow": {
+          "ja": "影"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The height that once signaled wonder also lengthens the shadow",
+          "ja": "かつて驚きを示した高さは影も長くする",
+          "note": "高い塔ほど影も長い、という比喩。",
+          "pattern": "signal（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "display": {
+          "ja": "展示"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "illuminate": {
+          "ja": "照らす"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "entrance": {
+          "ja": "入口"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A display can illuminate an entrance",
+          "ja": "展示は入口を照らせる",
+          "note": "display はここで「展示」。",
+          "pattern": "illuminate 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "full account of": {
+          "ja": "〜の十分な説明"
+        },
+        "technology": {
+          "ja": "技術"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "follow": {
+          "ja": "追う"
+        },
+        "the machine": {
+          "ja": "機械"
+        },
+        "into operation": {
+          "ja": "運転の中まで"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "name": {
+          "ja": "名指す"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "bears": {
+          "ja": "負う"
+        },
+        "consequences": {
+          "ja": "結果"
+        }
+      },
+      "phrases": [
+        {
+          "en": "follow the machine into operation and name who bears the consequences",
+          "ja": "機械を運転まで追い、誰が結果を負うかを名指す",
+          "note": "account はここで「説明」。",
+          "pattern": "follow A into B / name（動詞）"
+        }
+      ]
+    }
   ]
 }
