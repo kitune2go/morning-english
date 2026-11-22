@@ -23613,5 +23613,1394 @@
         }
       ]
     }
+  ],
+  "DE-20261004-001": [
+    {
+      "words": {
+        "success": {
+          "ja": "成功"
+        },
+        "usually": {
+          "ja": "たいてい"
+        },
+        "arrives as": {
+          "ja": "〜として現れる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "visible asset": {
+          "ja": "目に見える資産"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "rising number": {
+          "ja": "上がっていく数字"
+        }
+      },
+      "phrases": [
+        {
+          "en": "arrives as a visible asset or a rising number",
+          "ja": "目に見える資産や上がる数字として現れる",
+          "note": "arrive as「〜の形でやって来る」。",
+          "pattern": "arrive as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "its": {
+          "ja": "その（＝成功の）"
+        },
+        "ledger": {
+          "ja": "帳簿"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "misleading": {
+          "ja": "誤解を招く"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "the credit side": {
+          "ja": "貸方"
+        },
+        "records": {
+          "ja": "記録する"
+        },
+        "revenue": {
+          "ja": "収益"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "ownership": {
+          "ja": "所有"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "the debit side": {
+          "ja": "借方"
+        },
+        "omits": {
+          "ja": "省く"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "bodies": {
+          "ja": "身体"
+        },
+        "communities": {
+          "ja": "地域社会"
+        },
+        "future options": {
+          "ja": "将来の選択肢"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "paid for": {
+          "ja": "〜の代価を払った"
+        },
+        "them": {
+          "ja": "それら（＝収益と所有）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "future options that paid for them",
+          "ja": "それらの代価を払った将来の選択肢",
+          "note": "pay for「〜の代金を払う」。them は revenue と ownership。",
+          "pattern": "pay for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "digital purchases": {
+          "ja": "デジタルでの購入"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "the imbalance": {
+          "ja": "不均衡"
+        },
+        "especially": {
+          "ja": "とりわけ"
+        },
+        "clear": {
+          "ja": "はっきりした"
+        },
+        "users": {
+          "ja": "利用者"
+        },
+        "receive": {
+          "ja": "受け取る"
+        },
+        "access": {
+          "ja": "利用する権利"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "operators": {
+          "ja": "運営者"
+        },
+        "accumulate": {
+          "ja": "ためこむ"
+        },
+        "profit": {
+          "ja": "利益"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "intellectual property": {
+          "ja": "知的財産"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "outlive": {
+          "ja": "〜より長く残る"
+        },
+        "the service": {
+          "ja": "そのサービス"
+        }
+      },
+      "phrases": [
+        {
+          "en": "intellectual property that may outlive the service",
+          "ja": "サービスより長く生き残るかもしれない知的財産",
+          "note": "outlive「〜より長生きする」。",
+          "pattern": "outlive 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "numbers": {
+          "ja": "数字"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "count": {
+          "ja": "数える"
+        },
+        "what remains": {
+          "ja": "残ったもの"
+        },
+        "they": {
+          "ja": "それら（＝数字）"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "decide": {
+          "ja": "決める"
+        },
+        "which losses": {
+          "ja": "どの損失が"
+        },
+        "deserve": {
+          "ja": "〜に値する"
+        },
+        "a column": {
+          "ja": "（帳簿の）欄"
+        }
+      },
+      "phrases": [
+        {
+          "en": "which losses deserve a column",
+          "ja": "どの損失が帳簿の欄に載るに値するか",
+          "note": "column はここで「帳簿の欄」。",
+          "pattern": "deserve 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "credible": {
+          "ja": "信頼できる"
+        },
+        "account of": {
+          "ja": "〜の記録"
+        },
+        "success": {
+          "ja": "成功"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "record": {
+          "ja": "記録する"
+        },
+        "what disappeared": {
+          "ja": "消えたもの"
+        },
+        "as well as": {
+          "ja": "〜と同様に"
+        },
+        "what was built": {
+          "ja": "築かれたもの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "record what disappeared as well as what was built",
+          "ja": "築かれたものだけでなく消えたものも記す",
+          "note": "A as well as B「BだけでなくAも」。",
+          "pattern": "A as well as B"
+        }
+      ]
+    }
+  ],
+  "DE-20261004-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "remedy": {
+          "ja": "対処法"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "work": {
+          "ja": "効く"
+        },
+        "before": {
+          "ja": "〜より前に"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "mechanism": {
+          "ja": "仕組み"
+        },
+        "is understood": {
+          "ja": "理解される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A remedy can work before its mechanism is understood",
+          "ja": "仕組みが分かる前に効くことがある",
+          "note": "work はここで「効果がある」。",
+          "pattern": "work（効く）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "beriberi": {
+          "ja": "脚気"
+        },
+        "declined": {
+          "ja": "減った"
+        },
+        "in": {
+          "ja": "〜の中で"
+        },
+        "groups": {
+          "ja": "集団"
+        },
+        "whose": {
+          "ja": "その〜が"
+        },
+        "diets": {
+          "ja": "食事"
+        },
+        "changed": {
+          "ja": "変わった"
+        },
+        "before": {
+          "ja": "〜より前に"
+        },
+        "vitamin": {
+          "ja": "ビタミン"
+        },
+        "b": {
+          "ja": "（B1の）B"
+        },
+        "supplied": {
+          "ja": "与えた"
+        },
+        "the later explanation": {
+          "ja": "後の説明"
+        }
+      },
+      "phrases": [
+        {
+          "en": "groups whose diets changed",
+          "ja": "食事が変わった集団",
+          "note": "whose「その〜が」。",
+          "pattern": "whose 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "evidence": {
+          "ja": "証拠"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "theory": {
+          "ja": "理論"
+        },
+        "therefore": {
+          "ja": "だから"
+        },
+        "mature": {
+          "ja": "成熟する"
+        },
+        "on different schedules": {
+          "ja": "別々の時間割で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "mature on different schedules",
+          "ja": "別の時間割で育つ",
+          "note": "証拠と理論は同時には揃わない。",
+          "pattern": "on a schedule"
+        }
+      ]
+    },
+    {
+      "words": {
+        "rejecting": {
+          "ja": "退けること"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "observed improvement": {
+          "ja": "観察された改善"
+        },
+        "because": {
+          "ja": "〜だからといって"
+        },
+        "the mechanism": {
+          "ja": "仕組み"
+        },
+        "is incomplete": {
+          "ja": "未解明だ"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "cost lives": {
+          "ja": "命を奪う"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "fastening": {
+          "ja": "結びつけること"
+        },
+        "it": {
+          "ja": "それ（＝改善）"
+        },
+        "too quickly": {
+          "ja": "早すぎるほど"
+        },
+        "to": {
+          "ja": "〜に"
+        },
+        "one story": {
+          "ja": "一つの説明"
+        },
+        "hide": {
+          "ja": "隠す"
+        },
+        "other conditions": {
+          "ja": "ほかの条件"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can cost lives",
+          "ja": "命を犠牲にしうる",
+          "note": "cost＋目的語「〜を失わせる」。",
+          "pattern": "cost 〜"
+        },
+        {
+          "en": "fastening it too quickly to one story",
+          "ja": "一つの説明に早く結びつけすぎること",
+          "note": "fasten A to B「AをBに固定する」。",
+          "pattern": "fasten A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "hypothesis": {
+          "ja": "仮説"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a confession of": {
+          "ja": "〜の告白"
+        },
+        "failure": {
+          "ja": "失敗"
+        },
+        "it": {
+          "ja": "それ（＝仮説）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "scaffolding": {
+          "ja": "足場"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "lets": {
+          "ja": "〜させる"
+        },
+        "decisions": {
+          "ja": "判断"
+        },
+        "stand": {
+          "ja": "成り立つ"
+        },
+        "while": {
+          "ja": "〜する間"
+        },
+        "records": {
+          "ja": "記録"
+        },
+        "comparisons": {
+          "ja": "比較"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "explanations": {
+          "ja": "説明"
+        },
+        "continue to": {
+          "ja": "〜し続ける"
+        },
+        "improve": {
+          "ja": "良くなる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "scaffolding that lets decisions stand",
+          "ja": "判断を立たせておく足場",
+          "note": "let＋目的語＋原形。",
+          "pattern": "let A 動詞"
+        }
+      ]
+    }
+  ],
+  "DE-20261004-003": [
+    {
+      "words": {
+        "large": {
+          "ja": "大きな"
+        },
+        "intellectual properties": {
+          "ja": "知的財産（IP）"
+        },
+        "futuristic": {
+          "ja": "未来的な"
+        },
+        "buildings": {
+          "ja": "建物"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "suburban infrastructure": {
+          "ja": "郊外のインフラ"
+        },
+        "all": {
+          "ja": "どれも"
+        },
+        "resemble": {
+          "ja": "〜に似ている"
+        },
+        "victory": {
+          "ja": "勝利"
+        },
+        "on the day": {
+          "ja": "その日に"
+        },
+        "they": {
+          "ja": "それら"
+        },
+        "are completed": {
+          "ja": "完成する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "resemble victory on the day they are completed",
+          "ja": "完成した日には勝利のように見える",
+          "note": "day の後に関係副詞が省略。",
+          "pattern": "on the day (that) 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "ownership": {
+          "ja": "所有すること"
+        },
+        "changes": {
+          "ja": "変える"
+        },
+        "the picture": {
+          "ja": "状況"
+        },
+        "exploration": {
+          "ja": "探索"
+        },
+        "gives way to": {
+          "ja": "〜に取って代わられる"
+        },
+        "defense": {
+          "ja": "守り"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "vacancies": {
+          "ja": "空室"
+        },
+        "debt": {
+          "ja": "借金"
+        },
+        "repairs": {
+          "ja": "修繕"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "renewal": {
+          "ja": "更新"
+        },
+        "begin to": {
+          "ja": "〜し始める"
+        },
+        "accumulate": {
+          "ja": "たまる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Exploration gives way to defense",
+          "ja": "探索が守りに取って代わられる",
+          "note": "give way to「〜に道を譲る」。",
+          "pattern": "give way to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "the last century": {
+          "ja": "前の世紀"
+        },
+        "was organized around": {
+          "ja": "〜を中心に組み立てられた"
+        },
+        "construction": {
+          "ja": "建設"
+        },
+        "the next task": {
+          "ja": "次の課題"
+        },
+        "is to": {
+          "ja": "〜することだ"
+        },
+        "design": {
+          "ja": "設計する"
+        },
+        "maintenance": {
+          "ja": "維持"
+        },
+        "replacement": {
+          "ja": "交換"
+        },
+        "retreat": {
+          "ja": "撤退"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "release": {
+          "ja": "手放すこと"
+        }
+      },
+      "phrases": [
+        {
+          "en": "was organized around construction",
+          "ja": "建設を中心に組み立てられた",
+          "note": "around「〜を軸に」。",
+          "pattern": "organize A around B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "maturity": {
+          "ja": "成熟"
+        },
+        "does not mean": {
+          "ja": "〜を意味しない"
+        },
+        "admiring": {
+          "ja": "眺めて感心すること"
+        },
+        "finished assets": {
+          "ja": "完成した資産"
+        },
+        "it": {
+          "ja": "それ（＝成熟）"
+        },
+        "means": {
+          "ja": "意味する"
+        },
+        "accepting": {
+          "ja": "引き受けること"
+        },
+        "the choices": {
+          "ja": "選択"
+        },
+        "they": {
+          "ja": "それら（＝完成した資産）"
+        },
+        "impose": {
+          "ja": "課す"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "must": {
+          "ja": "〜しなければならないか"
+        },
+        "care for": {
+          "ja": "世話をする"
+        },
+        "them": {
+          "ja": "それら"
+        },
+        "when": {
+          "ja": "いつ"
+        },
+        "should": {
+          "ja": "〜すべきか"
+        },
+        "change": {
+          "ja": "変わる"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "be allowed to": {
+          "ja": "〜することを許される"
+        },
+        "end": {
+          "ja": "終わる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the choices they impose",
+          "ja": "資産が課す選択",
+          "note": "choices の後に関係代名詞が省略。",
+          "pattern": "名詞 + (that) 主語 + 動詞"
+        },
+        {
+          "en": "when they should be allowed to end",
+          "ja": "いつ終わらせてよいか",
+          "note": "be allowed to「〜することを許される」。",
+          "pattern": "be allowed to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "every completion": {
+          "ja": "あらゆる完成"
+        },
+        "opens": {
+          "ja": "開く"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "longer": {
+          "ja": "より長い"
+        },
+        "unfinished future": {
+          "ja": "未完の未来"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Every completion opens a longer unfinished future",
+          "ja": "どの完成も、もっと長い未完の未来を開く",
+          "note": "結びの一文。",
+          "pattern": "every 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20261003-001": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "rule": {
+          "ja": "規則"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "survive": {
+          "ja": "生き残る"
+        },
+        "long enough to": {
+          "ja": "〜するほど長く"
+        },
+        "look like": {
+          "ja": "〜のように見える"
+        },
+        "nature": {
+          "ja": "自然（の摂理）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "survive long enough to look like nature",
+          "ja": "自然のものに見えるほど長く残る",
+          "note": "enough to「〜するほど十分に」。",
+          "pattern": "副詞 + enough to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "laws": {
+          "ja": "法律"
+        },
+        "seniority": {
+          "ja": "年功・先輩後輩の序列"
+        },
+        "membership": {
+          "ja": "所属"
+        },
+        "cultivated fields": {
+          "ja": "耕された畑"
+        },
+        "and even": {
+          "ja": "さらには〜さえ"
+        },
+        "ai": {
+          "ja": "AI"
+        },
+        "outputs": {
+          "ja": "出力"
+        },
+        "conceal": {
+          "ja": "隠す"
+        },
+        "the decisions": {
+          "ja": "判断"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "produced": {
+          "ja": "生み出した"
+        },
+        "them": {
+          "ja": "それら（＝法律など）"
+        },
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "their": {
+          "ja": "それらの"
+        },
+        "histories": {
+          "ja": "経緯"
+        },
+        "fade from view": {
+          "ja": "見えなくなる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "conceal the decisions that produced them once their histories fade from view",
+          "ja": "経緯が見えなくなると、それらを生んだ判断を隠す",
+          "note": "once は接続詞「いったん〜すると」。",
+          "pattern": "once 〜 / fade from view"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the finished form": {
+          "ja": "出来上がった形"
+        },
+        "then": {
+          "ja": "すると"
+        },
+        "appears": {
+          "ja": "〜に見える"
+        },
+        "self-evident": {
+          "ja": "当たり前の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The finished form then appears self-evident",
+          "ja": "出来上がった形が当たり前に見える",
+          "note": "appear＋形容詞「〜に見える」。",
+          "pattern": "appear 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "before": {
+          "ja": "〜する前に"
+        },
+        "judging": {
+          "ja": "判定すること"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "order": {
+          "ja": "秩序"
+        },
+        "as": {
+          "ja": "〜だと"
+        },
+        "right or wrong": {
+          "ja": "正しいか間違いか"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "need to": {
+          "ja": "〜する必要がある"
+        },
+        "recover": {
+          "ja": "取り戻す"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "drew": {
+          "ja": "引いた"
+        },
+        "its": {
+          "ja": "その（＝秩序の）"
+        },
+        "boundaries": {
+          "ja": "境界"
+        },
+        "under what conditions": {
+          "ja": "どんな条件で"
+        },
+        "for what purpose": {
+          "ja": "何の目的で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "who drew its boundaries, under what conditions, and for what purpose",
+          "ja": "誰が、どんな条件で、何のために境界を引いたか",
+          "note": "間接疑問を3つ並べる。",
+          "pattern": "疑問詞句の並列"
+        }
+      ]
+    }
+  ],
+  "DE-20261003-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "screenshot": {
+          "ja": "スクリーンショット"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "prove": {
+          "ja": "証明する"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "something": {
+          "ja": "何か"
+        },
+        "appeared on": {
+          "ja": "〜に表示された"
+        },
+        "a screen": {
+          "ja": "画面"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝スクリーンショット）"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "preserve": {
+          "ja": "保存する"
+        },
+        "the whole path": {
+          "ja": "経路の全体"
+        },
+        "gave the fragment meaning": {
+          "ja": "断片に意味を与えた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the whole path that gave the fragment meaning",
+          "ja": "断片に意味を与えた経路全体",
+          "note": "give＋目的語＋目的語。",
+          "pattern": "give A B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the source": {
+          "ja": "出どころ"
+        },
+        "the surrounding exchange": {
+          "ja": "周りのやり取り"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the before and after": {
+          "ja": "前後の流れ"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "fall outside": {
+          "ja": "〜の外に落ちる"
+        },
+        "the frame": {
+          "ja": "画面の枠"
+        }
+      },
+      "phrases": [
+        {
+          "en": "often fall outside the frame",
+          "ja": "しばしば枠の外にこぼれる",
+          "note": "before and after を名詞として使っている。",
+          "pattern": "fall outside 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "that": {
+          "ja": "それ（＝枠外に落ちること）"
+        },
+        "makes": {
+          "ja": "〜にする"
+        },
+        "the image": {
+          "ja": "その画像"
+        },
+        "evidence to investigate": {
+          "ja": "調べるべき証拠"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "truth": {
+          "ja": "真実"
+        },
+        "in finished form": {
+          "ja": "完成した形での"
+        }
+      },
+      "phrases": [
+        {
+          "en": "makes the image evidence to investigate, not truth in finished form",
+          "ja": "画像を完成品の真実ではなく調べるべき証拠にする",
+          "note": "to investigate が evidence を修飾。",
+          "pattern": "make A B / A, not B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "healthy doubt": {
+          "ja": "健全な疑い"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "dismiss": {
+          "ja": "退ける"
+        },
+        "every image": {
+          "ja": "すべての画像"
+        },
+        "as false": {
+          "ja": "嘘だとして"
+        },
+        "it": {
+          "ja": "それ（＝健全な疑い）"
+        },
+        "asks for": {
+          "ja": "〜を求める"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "route": {
+          "ja": "道筋"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "the visible cut": {
+          "ja": "見えている切り口"
+        },
+        "back to": {
+          "ja": "〜へ戻って"
+        },
+        "the conversation": {
+          "ja": "会話"
+        },
+        "it came from": {
+          "ja": "それが来た元の"
+        },
+        "came": {
+          "ja": "来た"
+        }
+      },
+      "phrases": [
+        {
+          "en": "dismiss every image as false",
+          "ja": "すべての画像を嘘だと退ける",
+          "note": "dismiss A as B「AをBだとして片づける」。",
+          "pattern": "dismiss A as B"
+        },
+        {
+          "en": "the conversation it came from",
+          "ja": "それが切り取られた元の会話",
+          "note": "文末の from が残る形。",
+          "pattern": "名詞 + (that) 主語 + 動詞 + 前置詞"
+        }
+      ]
+    }
+  ],
+  "DE-20261003-003": [
+    {
+      "words": {
+        "classification": {
+          "ja": "分類"
+        },
+        "makes": {
+          "ja": "〜にする"
+        },
+        "disorder": {
+          "ja": "混乱"
+        },
+        "manageable": {
+          "ja": "扱える"
+        },
+        "by": {
+          "ja": "〜によって"
+        },
+        "naming": {
+          "ja": "名前を付けること"
+        },
+        "standardizing": {
+          "ja": "規格をそろえること"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "counting": {
+          "ja": "数えること"
+        },
+        "it": {
+          "ja": "それ（＝分類）"
+        },
+        "also": {
+          "ja": "同時に"
+        },
+        "cuts": {
+          "ja": "切り分ける・切り捨てる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "makes disorder manageable by naming, standardizing, and counting",
+          "ja": "名付け・規格化・計数で混乱を扱えるものにする",
+          "note": "by＋動名詞で手段。",
+          "pattern": "make A 形容詞 / by -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "person": {
+          "ja": "人"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "culture": {
+          "ja": "文化"
+        },
+        "is turned into": {
+          "ja": "〜に変えられる"
+        },
+        "portable slice": {
+          "ja": "持ち運べる切り身"
+        },
+        "the relations": {
+          "ja": "関係"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜していた"
+        },
+        "once": {
+          "ja": "かつて"
+        },
+        "held it together": {
+          "ja": "それをまとめていた"
+        },
+        "it": {
+          "ja": "それ（＝人や文化）"
+        },
+        "disappear": {
+          "ja": "消える"
+        },
+        "beyond the label": {
+          "ja": "ラベルの向こうに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the relations that once held it together",
+          "ja": "かつてそれをまとめていた関係",
+          "note": "hold together「まとめる」。relations は「親戚」ではなく「関係」。",
+          "pattern": "hold A together"
+        }
+      ]
+    },
+    {
+      "words": {
+        "social media": {
+          "ja": "SNS"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "move": {
+          "ja": "移す"
+        },
+        "that slice": {
+          "ja": "その切り身"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "new context": {
+          "ja": "新しい文脈"
+        },
+        "price": {
+          "ja": "値を付ける"
+        },
+        "it": {
+          "ja": "それ（＝切り身）"
+        },
+        "with": {
+          "ja": "〜で"
+        },
+        "approval": {
+          "ja": "称賛"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "blame": {
+          "ja": "非難"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "send it back": {
+          "ja": "送り返す"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "identity": {
+          "ja": "アイデンティティ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "price it with approval or blame",
+          "ja": "称賛や非難で値を付ける",
+          "note": "price は動詞「値段を付ける」。",
+          "pattern": "price（動詞）"
+        },
+        {
+          "en": "send it back as identity",
+          "ja": "アイデンティティとして送り返す",
+          "note": "send back の間に目的語。",
+          "pattern": "send A back"
+        }
+      ]
+    },
+    {
+      "words": {
+        "what remains": {
+          "ja": "残るもの"
+        },
+        "unclassified": {
+          "ja": "分類されないまま"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "noise": {
+          "ja": "雑音"
+        },
+        "it": {
+          "ja": "それ（＝分類されないもの）"
+        },
+        "tells us": {
+          "ja": "私たちに教える"
+        },
+        "us": {
+          "ja": "私たちに"
+        },
+        "what": {
+          "ja": "何を"
+        },
+        "the protocol": {
+          "ja": "手順・規格"
+        },
+        "chose not to": {
+          "ja": "〜しないと選んだ"
+        },
+        "carry": {
+          "ja": "運ぶ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what the protocol chose not to carry",
+          "ja": "規格が運ばないと選んだもの",
+          "note": "not to で不定詞の否定。",
+          "pattern": "choose not to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "to read": {
+          "ja": "読むこと"
+        },
+        "the cut": {
+          "ja": "切り口"
+        },
+        "well": {
+          "ja": "うまく"
+        },
+        "is to": {
+          "ja": "〜することだ"
+        },
+        "investigate": {
+          "ja": "調べる"
+        },
+        "the missing relations": {
+          "ja": "失われた関係"
+        },
+        "without inventing": {
+          "ja": "でっち上げずに"
+        },
+        "the sea": {
+          "ja": "海"
+        },
+        "they": {
+          "ja": "それら（＝関係）"
+        },
+        "came from": {
+          "ja": "〜から来た"
+        }
+      },
+      "phrases": [
+        {
+          "en": "To read the cut well is to investigate the missing relations",
+          "ja": "切り口をよく読むとは、失われた関係を調べることだ",
+          "note": "不定詞を主語と補語に並べる定義の型。",
+          "pattern": "To A is to B"
+        },
+        {
+          "en": "the sea they came from",
+          "ja": "それらが来た元の海",
+          "note": "切り身と海の比喩。",
+          "pattern": "名詞 + (that) 主語 + 動詞 + 前置詞"
+        }
+      ]
+    }
   ]
 }
