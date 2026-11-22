@@ -2815,72 +2815,180 @@
     {
       "words": {
         "dignity": {
-          "ja": "威厳",
-          "pos": "語句",
-          "lemma": "dignity",
-          "form": "",
-          "note": "dignity：この作品では「威厳」"
+          "ja": "威厳"
+        },
+        "divine": {
+          "ja": "神の"
+        },
+        "looks secure": {
+          "ja": "揺るがないように見える"
+        },
+        "as long as": {
+          "ja": "〜である限り"
+        },
+        "it": {
+          "ja": "それ（＝神の威厳）"
+        },
+        "stays above": {
+          "ja": "〜の上にとどまる"
+        },
+        "the clouds": {
+          "ja": "雲"
         }
       },
       "phrases": [
         {
-          "en": "Divine dignity looks secure as long as it stays above the clouds.",
-          "ja": "神の威厳は雲の上にあるかぎり安定して見える。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "looks secure as long as it stays above the clouds",
+          "ja": "雲の上にいる限り揺るがないように見える",
+          "note": "as long as「〜である限り」。",
+          "pattern": "as long as 〜"
         }
       ]
     },
     {
       "words": {
-        "dialogue": {
-          "ja": "風刺的な対話劇",
-          "pos": "語句",
-          "lemma": "dialogue",
-          "form": "",
-          "note": "dialogue：この作品では「風刺的な対話劇」"
+        "open": {
+          "ja": "開けよ（命令形）"
+        },
+        "the door to": {
+          "ja": "〜への扉"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "comic dialogue": {
+          "ja": "喜劇的な対話"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "and": {
+          "ja": "そうすれば"
+        },
+        "the gods": {
+          "ja": "神々"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "jealous spouse": {
+          "ja": "嫉妬深い配偶者"
+        },
+        "an": {
+          "ja": "ひとりの"
+        },
+        "overworked messenger": {
+          "ja": "こき使われる使者"
+        },
+        "chief": {
+          "ja": "長（主神）"
+        },
+        "who": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "cannot run": {
+          "ja": "仕切れない"
+        },
+        "his own meeting": {
+          "ja": "自分の会議"
         }
       },
       "phrases": [
         {
-          "en": "Open the door to a comic dialogue, however, and the gods become a jealous spouse, an overworked messenger, and a chief who cannot run his own meeting.",
-          "ja": "しかし喜劇的対話の扉を開けば、神々は嫉妬する配偶者、酷使される使者、自分の会議さえ仕切れない主神になる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "Open the door to a comic dialogue, however, and the gods become",
+          "ja": "喜劇の扉を開ければ、神々は〜になる",
+          "note": "命令文＋and「〜すれば…」。",
+          "pattern": "命令文 + and"
+        },
+        {
+          "en": "a chief who cannot run his own meeting",
+          "ja": "自分の会議も仕切れない長",
+          "note": "run はここで「運営する」。",
+          "pattern": "run a meeting"
         }
       ]
     },
     {
       "words": {
         "exposes": {
-          "ja": "露わにする",
-          "pos": "語句",
-          "lemma": "exposes",
-          "form": "",
-          "note": "exposes：この作品では「露わにする」"
+          "ja": "あらわにする"
+        },
+        "the joke": {
+          "ja": "冗談"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "destroy": {
+          "ja": "壊す"
+        },
+        "the myth": {
+          "ja": "神話"
+        },
+        "it": {
+          "ja": "それ（＝冗談）"
+        },
+        "the distance between": {
+          "ja": "〜の間の距離"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "title": {
+          "ja": "肩書き"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "the work": {
+          "ja": "働き"
+        },
+        "behind it": {
+          "ja": "その裏の"
         }
       },
       "phrases": [
         {
-          "en": "The joke does not destroy the myth; it exposes the distance between a title and the work behind it.",
-          "ja": "冗談は神話を壊すのではなく、肩書きと背後の働きの距離を露出させる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "exposes the distance between a title and the work behind it",
+          "ja": "肩書きとその裏の働きのへだたりをあらわにする",
+          "note": "it は title を指す。",
+          "pattern": "between A and B"
         }
       ]
     },
     {
       "words": {
         "power": {
-          "ja": "権力",
-          "pos": "語句",
-          "lemma": "power",
-          "form": "",
-          "note": "power：この作品では「権力」"
+          "ja": "権力"
+        },
+        "standing": {
+          "ja": "立つこと"
+        },
+        "at center stage": {
+          "ja": "舞台の中央に"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "prove": {
+          "ja": "証明する"
+        },
+        "where": {
+          "ja": "どこに"
+        },
+        "actually": {
+          "ja": "実際に"
+        },
+        "resides": {
+          "ja": "ある"
         }
       },
       "phrases": [
         {
-          "en": "Standing at center stage does not prove where power actually resides.",
-          "ja": "舞台中央に立つことは、権力の実際の所在を証明しない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "does not prove where power actually resides",
+          "ja": "権力が実際にどこにあるかは証明しない",
+          "note": "reside「（権力などが）ある・宿る」。",
+          "pattern": "reside"
         }
       ]
     }
@@ -2888,73 +2996,181 @@
   "DE-20261028-002": [
     {
       "words": {
-        "voice": {
-          "ja": "声・吹き替え",
-          "pos": "語句",
-          "lemma": "voice",
-          "form": "",
-          "note": "voice：この作品では「声・吹き替え」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "japanese voice": {
+          "ja": "日本語の声（吹き替え）"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "make": {
+          "ja": "〜させる"
+        },
+        "game character": {
+          "ja": "ゲームのキャラ"
+        },
+        "feel close": {
+          "ja": "身近に感じさせる"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "another actor": {
+          "ja": "別の俳優"
+        },
+        "carries": {
+          "ja": "運ぶ"
+        },
+        "the same role": {
+          "ja": "同じ役"
+        },
+        "across": {
+          "ja": "〜を越えて"
+        },
+        "different language": {
+          "ja": "別の言語"
         }
       },
       "phrases": [
         {
-          "en": "A Japanese voice can make a game character feel close, while another actor carries the same role across a different language.",
-          "ja": "日本語の声はゲームの人物を身近にし、別の俳優は同じ役を異なる言語へ運ぶ。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "can make a game character feel close",
+          "ja": "キャラを身近に感じさせる",
+          "note": "make＋目的語＋原形。",
+          "pattern": "make A 動詞"
         }
       ]
     },
     {
       "words": {
         "ownership": {
-          "ja": "所有権",
-          "pos": "語句",
-          "lemma": "ownership",
-          "form": "",
-          "note": "ownership：この作品では「所有権」"
+          "ja": "所有"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "cultural closeness": {
+          "ja": "文化的な近さ"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "belong to": {
+          "ja": "〜に属する"
+        },
+        "separate ledgers": {
+          "ja": "別々の帳簿"
         }
       },
       "phrases": [
         {
-          "en": "Yet cultural closeness and ownership belong to separate ledgers.",
-          "ja": "しかし文化的な近さと所有は別々の帳簿に属する。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "belong to separate ledgers",
+          "ja": "別々の帳簿に属する",
+          "note": "近さと所有は別勘定、という比喩。",
+          "pattern": "belong to 〜"
         }
       ]
     },
     {
       "words": {
         "controls": {
-          "ja": "支配する",
-          "pos": "語句",
-          "lemma": "controls",
-          "form": "",
-          "note": "controls：この作品では「支配する」"
+          "ja": "握っている"
+        },
+        "local recording": {
+          "ja": "国内での収録"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "promotion": {
+          "ja": "宣伝"
+        },
+        "may be": {
+          "ja": "〜であり得る"
+        },
+        "highly visible": {
+          "ja": "とても目立つ"
+        },
+        "even when": {
+          "ja": "〜のときでさえ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "foreign company": {
+          "ja": "海外企業"
+        },
+        "the intellectual property": {
+          "ja": "知的財産"
+        },
+        "recurring revenue": {
+          "ja": "継続的な収益"
         }
       },
       "phrases": [
         {
-          "en": "Local recording and promotion may be highly visible even when a foreign company controls the intellectual property and recurring revenue.",
-          "ja": "国内収録や宣伝が目立っていても、海外企業が知的財産と継続収益を支配することがある。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "even when a foreign company controls the intellectual property",
+          "ja": "海外企業が知的財産を握っているときでも",
+          "note": "even when「〜のときでさえ」。",
+          "pattern": "even when 〜"
         }
       ]
     },
     {
       "words": {
-        "profit": {
-          "ja": "利益",
-          "pos": "語句",
-          "lemma": "profit",
-          "form": "",
-          "note": "profit：この作品では「利益」"
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "count": {
+          "ja": "数える"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "the voices": {
+          "ja": "声"
+        },
+        "on screen": {
+          "ja": "画面上の"
+        },
+        "miss": {
+          "ja": "見落とす"
+        },
+        "both": {
+          "ja": "両方"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "owns": {
+          "ja": "所有している"
+        },
+        "the structure": {
+          "ja": "構造"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "where": {
+          "ja": "どこへ"
+        },
+        "the profit": {
+          "ja": "利益"
+        },
+        "returns": {
+          "ja": "戻っていく"
         }
       },
       "phrases": [
         {
-          "en": "If we count only the voices on screen, we miss both who owns the structure and where the profit returns.",
-          "ja": "画面上の声だけを数えれば、構造の所有者と利益の帰着先の両方を見落とす。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "we miss both who owns the structure and where the profit returns",
+          "ja": "誰が構造を持ち、利益がどこへ戻るかの両方を見落とす",
+          "note": "2つの間接疑問。",
+          "pattern": "both A and B"
         }
       ]
     }
@@ -2963,90 +3179,222 @@
     {
       "words": {
         "owner-manager": {
-          "ja": "所有者兼経営者",
-          "pos": "語句",
-          "lemma": "owner-manager",
-          "form": "",
-          "note": "owner-manager：この作品では「所有者兼経営者」"
+          "ja": "オーナー経営者"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "an": {
+          "ja": "ひとりの"
+        },
+        "dies": {
+          "ja": "亡くなる"
+        },
+        "the company": {
+          "ja": "会社"
+        },
+        "itself": {
+          "ja": "そのもの"
+        },
+        "is not inherited": {
+          "ja": "相続されない"
+        },
+        "like": {
+          "ja": "〜のように"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "household object": {
+          "ja": "家財"
         }
       },
       "phrases": [
         {
-          "en": "When an owner-manager dies, the company itself is not inherited like a household object.",
-          "ja": "所有者兼経営者が亡くなっても、会社そのものが家財のように相続されるわけではない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "is not inherited like a household object",
+          "ja": "家財のようには相続されない",
+          "note": "like は前置詞「〜のように」。",
+          "pattern": "like 〜"
         }
       ]
     },
     {
       "words": {
         "shares": {
-          "ja": "株式",
-          "pos": "語句",
-          "lemma": "shares",
-          "form": "",
-          "note": "shares：この作品では「株式」"
+          "ja": "株式"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "ownership interests": {
+          "ja": "持分"
+        },
+        "pass to": {
+          "ja": "〜に移る"
+        },
+        "heirs": {
+          "ja": "相続人"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "the corporation": {
+          "ja": "法人"
+        },
+        "remains": {
+          "ja": "〜のままである"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "separate legal person": {
+          "ja": "別の法人格"
         }
       },
       "phrases": [
         {
-          "en": "Shares or ownership interests pass to heirs, while the corporation remains a separate legal person.",
-          "ja": "株式や持分は相続人へ移る一方、法人は別の法的主体として残る。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "remains a separate legal person",
+          "ja": "別の法人のままである",
+          "note": "legal person「法人」。",
+          "pattern": "remain 名詞"
         }
       ]
     },
     {
       "words": {
         "ownership": {
-          "ja": "所有",
-          "pos": "語句",
-          "lemma": "ownership",
-          "form": "",
-          "note": "ownership：この作品では「所有」"
+          "ja": "所有"
+        },
+        "still": {
+          "ja": "それでも"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "management": {
+          "ja": "経営"
+        },
+        "were concentrated in": {
+          "ja": "〜に集中していた"
+        },
+        "one individual": {
+          "ja": "一人の人"
+        },
+        "decisions": {
+          "ja": "決裁"
+        },
+        "operations": {
+          "ja": "業務"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "freeze": {
+          "ja": "止まる"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "that person": {
+          "ja": "その人"
+        },
+        "disappears": {
+          "ja": "いなくなる"
         }
       },
       "phrases": [
         {
-          "en": "Still, if ownership and management were concentrated in one individual, decisions and operations can freeze when that person disappears.",
-          "ja": "それでも所有と経営が一人に集中していれば、その人が消えたとき決裁と運営は止まり得る。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "decisions and operations can freeze",
+          "ja": "決裁と業務が止まりうる",
+          "note": "freeze「凍りつく・止まる」。",
+          "pattern": "freeze"
         }
       ]
     },
     {
       "words": {
-        "nameplate": {
-          "ja": "会社の看板",
-          "pos": "語句",
-          "lemma": "nameplate",
-          "form": "",
-          "note": "nameplate：この作品では「会社の看板」"
+        "the nameplate": {
+          "ja": "看板"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "bank account": {
+          "ja": "銀行口座"
+        },
+        "may remain": {
+          "ja": "残るかもしれない"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "no hand": {
+          "ja": "どの手も〜ない"
+        },
+        "turns": {
+          "ja": "回す"
+        },
+        "the key": {
+          "ja": "鍵"
         }
       },
       "phrases": [
         {
-          "en": "The nameplate and bank account may remain, yet no hand turns the key.",
-          "ja": "看板と銀行口座は残っても、鍵を回す手がない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "no hand turns the key",
+          "ja": "鍵を回す手がない",
+          "note": "no＋名詞で「誰も〜しない」。",
+          "pattern": "no 〜"
         }
       ]
     },
     {
       "words": {
-        "vacancy": {
-          "ja": "担い手の空白",
-          "pos": "語句",
-          "lemma": "vacancy",
-          "form": "",
-          "note": "vacancy：この作品では「担い手の空白」"
+        "the vacancy": {
+          "ja": "空席"
+        },
+        "reveals": {
+          "ja": "明らかにする"
+        },
+        "the final distinction": {
+          "ja": "最後の区別"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "institution": {
+          "ja": "組織"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "survive": {
+          "ja": "存続する"
+        },
+        "on paper": {
+          "ja": "書類の上では"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "capacity to act": {
+          "ja": "行動する力"
+        },
+        "vanishes": {
+          "ja": "消える"
         }
       },
       "phrases": [
         {
-          "en": "The vacancy reveals the final distinction: an institution can survive on paper while its capacity to act vanishes.",
-          "ja": "その空白は、制度が紙の上で存続しても行為能力は消え得るという最後の区別を示す。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "can survive on paper while its capacity to act vanishes",
+          "ja": "書類上は存続しても行動する力は消えうる",
+          "note": "on paper「書類の上では・名目上は」。",
+          "pattern": "on paper / while（対比）"
         }
       ]
     }
