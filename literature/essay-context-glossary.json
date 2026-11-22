@@ -34035,5 +34035,931 @@
         }
       ]
     }
+  ],
+  "DE-20260917-001": [
+    {
+      "words": {
+        "could": {
+          "ja": "〜できるだろうか"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "oppekepe": {
+          "ja": "オッペケペー（明治の演歌）"
+        },
+        "refrain": {
+          "ja": "繰り返し句"
+        },
+        "count as": {
+          "ja": "〜とみなせる"
+        },
+        "an ancestor of": {
+          "ja": "〜の祖先"
+        },
+        "japanese rap": {
+          "ja": "日本語ラップ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Could the Oppekepe refrain count as an ancestor of Japanese rap?",
+          "ja": "オッペケペーは日本語ラップの祖先とみなせるか",
+          "note": "refrain はここで名詞「繰り返し句」。",
+          "pattern": "count as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "direct lineage": {
+          "ja": "直接の系譜"
+        },
+        "would be": {
+          "ja": "〜だろう"
+        },
+        "hard to": {
+          "ja": "〜しにくい"
+        },
+        "prove": {
+          "ja": "証明する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "would be hard to prove",
+          "ja": "証明しにくいだろう",
+          "note": "次のチャンクの yet へ続く。",
+          "pattern": "形容詞 + to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "the functional resemblance": {
+          "ja": "働きの上での似かよい"
+        },
+        "is clear": {
+          "ja": "はっきりしている"
+        },
+        "words": {
+          "ja": "言葉"
+        },
+        "ride": {
+          "ja": "乗る"
+        },
+        "a beat": {
+          "ja": "ビート"
+        },
+        "repetition": {
+          "ja": "繰り返し"
+        },
+        "sharpens": {
+          "ja": "研ぐ"
+        },
+        "satire": {
+          "ja": "風刺"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the audience": {
+          "ja": "観客"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "carry the phrases away": {
+          "ja": "句を持ち帰る"
+        }
+      },
+      "phrases": [
+        {
+          "en": "words ride a beat, repetition sharpens satire, and the audience can carry the phrases away",
+          "ja": "言葉がビートに乗り、反復が風刺を研ぎ、観客が句を持ち帰る",
+          "note": "beat はここで「拍・ビート」。",
+          "pattern": "carry A away"
+        }
+      ]
+    },
+    {
+      "words": {
+        "forms": {
+          "ja": "形式"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "appear": {
+          "ja": "現れる"
+        },
+        "before": {
+          "ja": "〜より前に"
+        },
+        "anyone": {
+          "ja": "誰かが"
+        },
+        "names": {
+          "ja": "名付ける"
+        },
+        "the genre": {
+          "ja": "そのジャンル"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Forms often appear before anyone names the genre",
+          "ja": "ジャンル名が付く前から形式は現れる",
+          "note": "names は動詞の三単現。",
+          "pattern": "name（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "instead of": {
+          "ja": "〜する代わりに"
+        },
+        "awarding": {
+          "ja": "与えること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "single crown": {
+          "ja": "唯一の王冠"
+        },
+        "for originality": {
+          "ja": "元祖であることに対して"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Instead of awarding a single crown for originality",
+          "ja": "元祖に王冠を一つ与える代わりに",
+          "note": "次のチャンクへ続く。",
+          "pattern": "instead of -ing / award A for B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "trace": {
+          "ja": "たどる"
+        },
+        "how": {
+          "ja": "どのように"
+        },
+        "language": {
+          "ja": "言葉"
+        },
+        "traveled through": {
+          "ja": "〜を通って伝わった"
+        },
+        "sound": {
+          "ja": "音"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "entered": {
+          "ja": "入った"
+        },
+        "a crowd": {
+          "ja": "群衆"
+        }
+      },
+      "phrases": [
+        {
+          "en": "trace how language traveled through sound and entered a crowd",
+          "ja": "言葉が音を通って群衆に入った道をたどる",
+          "note": "how 節が trace の目的語。",
+          "pattern": "trace how 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260917-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "foreign work": {
+          "ja": "外国の作品"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "arrive": {
+          "ja": "届く"
+        },
+        "through": {
+          "ja": "〜を通じて"
+        },
+        "reading": {
+          "ja": "読書"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not arrive through reading alone",
+          "ja": "読書だけを通じて届くのではない",
+          "note": "alone「〜だけ」。",
+          "pattern": "名詞 + alone"
+        }
+      ]
+    },
+    {
+      "words": {
+        "translators": {
+          "ja": "翻訳者"
+        },
+        "choose": {
+          "ja": "選ぶ"
+        },
+        "its": {
+          "ja": "その（＝作品の）"
+        },
+        "words": {
+          "ja": "言葉"
+        },
+        "actors": {
+          "ja": "役者"
+        },
+        "turn": {
+          "ja": "変える"
+        },
+        "them": {
+          "ja": "それら（＝言葉）"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "voice": {
+          "ja": "声"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "gesture": {
+          "ja": "身振り"
+        },
+        "audiences": {
+          "ja": "観客"
+        },
+        "remember": {
+          "ja": "覚える"
+        },
+        "lines": {
+          "ja": "台詞"
+        },
+        "scenes": {
+          "ja": "場面"
+        }
+      },
+      "phrases": [
+        {
+          "en": "actors turn them into voice and gesture",
+          "ja": "役者が言葉を声と身振りに変える",
+          "note": "lines はここで「台詞」。",
+          "pattern": "turn A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "performance": {
+          "ja": "上演"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "place": {
+          "ja": "置く"
+        },
+        "literature": {
+          "ja": "文学"
+        },
+        "in the body": {
+          "ja": "身体の中に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Performance can place literature in the body",
+          "ja": "上演は文学を身体に置ける",
+          "note": "place は動詞「置く」。",
+          "pattern": "place A in B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "before": {
+          "ja": "〜する前に"
+        },
+        "the original language": {
+          "ja": "原語"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "widely": {
+          "ja": "広く"
+        },
+        "accessible": {
+          "ja": "手に取れる・読める"
+        }
+      },
+      "phrases": [
+        {
+          "en": "before the original language becomes widely accessible",
+          "ja": "原語が広く読めるようになる前に",
+          "note": "accessible「利用・理解できる」。",
+          "pattern": "accessible"
+        }
+      ]
+    },
+    {
+      "words": {
+        "translation": {
+          "ja": "翻訳"
+        },
+        "changes": {
+          "ja": "変える"
+        },
+        "the author's": {
+          "ja": "作者の"
+        },
+        "words": {
+          "ja": "言葉"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "change": {
+          "ja": "変化"
+        },
+        "is also": {
+          "ja": "〜でもある"
+        },
+        "part of": {
+          "ja": "〜の一部"
+        },
+        "how": {
+          "ja": "どのように"
+        },
+        "they": {
+          "ja": "それら（＝言葉）"
+        },
+        "travel": {
+          "ja": "伝わる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "change is also part of how they travel",
+          "ja": "変化も言葉が伝わる仕方の一部だ",
+          "note": "how 節が名詞として使われる。",
+          "pattern": "part of how 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "repeated onstage": {
+          "ja": "舞台で繰り返されて"
+        },
+        "the altered language": {
+          "ja": "変えられた言葉"
+        },
+        "finds": {
+          "ja": "見つける"
+        },
+        "a place": {
+          "ja": "居場所"
+        },
+        "in": {
+          "ja": "〜の中に"
+        },
+        "local memory": {
+          "ja": "土地の記憶"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Repeated onstage, the altered language finds a place in local memory",
+          "ja": "舞台で繰り返されて、変わった言葉が土地の記憶に居場所を得る",
+          "note": "Repeated は「繰り返されて」。",
+          "pattern": "分詞構文（過去分詞）"
+        }
+      ]
+    }
+  ],
+  "DE-20260917-003": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "critique of": {
+          "ja": "〜への批判"
+        },
+        "the market": {
+          "ja": "市場"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "commodity": {
+          "ja": "商品"
+        },
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "it": {
+          "ja": "それ（＝批判）"
+        },
+        "is recorded": {
+          "ja": "録音され"
+        },
+        "distributed": {
+          "ja": "配られ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "displayed for sale": {
+          "ja": "売り物として並べられる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "once it is recorded, distributed, and displayed for sale",
+          "ja": "録音され、配られ、売り物として並べられると",
+          "note": "for sale「売り物の」。",
+          "pattern": "for sale"
+        }
+      ]
+    },
+    {
+      "words": {
+        "rebellion": {
+          "ja": "反逆"
+        },
+        "supplies": {
+          "ja": "提供する"
+        },
+        "the image": {
+          "ja": "イメージ"
+        },
+        "repeated slogans": {
+          "ja": "繰り返されるスローガン"
+        },
+        "generate": {
+          "ja": "生む"
+        },
+        "royalties": {
+          "ja": "印税"
+        }
+      },
+      "phrases": [
+        {
+          "en": "repeated slogans generate royalties",
+          "ja": "繰り返されるスローガンが印税を生む",
+          "note": "royalties「印税・使用料」。",
+          "pattern": "generate 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そして"
+        },
+        "the critic's": {
+          "ja": "批判する人の"
+        },
+        "livelihood": {
+          "ja": "生計"
+        },
+        "joins": {
+          "ja": "加わる"
+        },
+        "the same": {
+          "ja": "同じ"
+        },
+        "machinery": {
+          "ja": "仕組み"
+        },
+        "under attack": {
+          "ja": "攻撃されている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "joins the same machinery under attack",
+          "ja": "攻撃されているのと同じ仕組みに加わる",
+          "note": "under attack「攻撃を受けている」。",
+          "pattern": "under attack"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the contradiction": {
+          "ja": "その矛盾"
+        },
+        "is real": {
+          "ja": "本当にある"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "commercial success": {
+          "ja": "商業的な成功"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "disprove": {
+          "ja": "誤りだと示す"
+        },
+        "the argument": {
+          "ja": "その主張"
+        }
+      },
+      "phrases": [
+        {
+          "en": "commercial success does not disprove the argument",
+          "ja": "売れても主張が間違いだという証明にはならない",
+          "note": "disprove「反証する」。",
+          "pattern": "disprove 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "markets": {
+          "ja": "市場"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "absorb": {
+          "ja": "吸収する"
+        },
+        "hostile language": {
+          "ja": "敵意のある言葉"
+        },
+        "more easily than": {
+          "ja": "〜よりたやすく"
+        },
+        "suppress": {
+          "ja": "抑えつける"
+        },
+        "it": {
+          "ja": "それ（＝敵意のある言葉）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "absorb hostile language more easily than suppress it",
+          "ja": "抑えつけるより吸収する方がたやすい",
+          "note": "than の後に動詞の原形。",
+          "pattern": "more easily than 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "converting": {
+          "ja": "変えて"
+        },
+        "opposition": {
+          "ja": "反対"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "revenue": {
+          "ja": "収益"
+        }
+      },
+      "phrases": [
+        {
+          "en": "converting opposition into revenue",
+          "ja": "反対を収益に変えながら",
+          "note": "分詞構文で結果を表す。",
+          "pattern": "convert A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "absorption": {
+          "ja": "吸収"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "refutation": {
+          "ja": "反論"
+        },
+        "it": {
+          "ja": "それ（＝吸収）"
+        },
+        "obscures": {
+          "ja": "見えにくくする"
+        },
+        "the vehicle": {
+          "ja": "乗り物"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "carried": {
+          "ja": "運んだ"
+        },
+        "the critique": {
+          "ja": "その批判"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it obscures the vehicle that carried the critique",
+          "ja": "批判を運んだ乗り物を見えにくくする",
+          "note": "obscure は動詞「ぼかす」。",
+          "pattern": "obscure（動詞）"
+        }
+      ]
+    }
+  ],
+  "DE-20260917-004": [
+    {
+      "words": {
+        "political language": {
+          "ja": "政治の言葉"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "travel on": {
+          "ja": "〜に乗って広がる"
+        },
+        "correctness": {
+          "ja": "正しさ"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not travel on correctness alone",
+          "ja": "正しさだけに乗って広がるのではない",
+          "note": "on は「〜を頼りに」。",
+          "pattern": "travel on 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "short phrases": {
+          "ja": "短い句"
+        },
+        "returning sounds": {
+          "ja": "戻ってくる音（韻）"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "predictable patterns": {
+          "ja": "予想できる型"
+        },
+        "let": {
+          "ja": "〜させる"
+        },
+        "the mouth": {
+          "ja": "口"
+        },
+        "join": {
+          "ja": "加わる"
+        },
+        "before": {
+          "ja": "〜する前に"
+        },
+        "the mind": {
+          "ja": "頭"
+        },
+        "has finished": {
+          "ja": "終えている"
+        },
+        "interpreting": {
+          "ja": "解釈すること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "let the mouth join before the mind has finished interpreting",
+          "ja": "頭が理解し終える前に口を参加させる",
+          "note": "finish＋-ing「〜し終える」。",
+          "pattern": "let A 動詞 / finish -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "repetition": {
+          "ja": "繰り返し"
+        },
+        "simplifies": {
+          "ja": "単純にする"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "idea": {
+          "ja": "考え"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝繰り返し）"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "turns": {
+          "ja": "変える"
+        },
+        "private speech": {
+          "ja": "個人の言葉"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a crowd's voice": {
+          "ja": "群衆の声"
+        }
+      },
+      "phrases": [
+        {
+          "en": "turns private speech into a crowd's voice",
+          "ja": "個人の言葉を群衆の声に変える",
+          "note": "speech はここで「言葉・発話」。",
+          "pattern": "turn A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "translation": {
+          "ja": "翻訳"
+        },
+        "performance": {
+          "ja": "上演"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "commerce": {
+          "ja": "商業"
+        },
+        "grant": {
+          "ja": "与える"
+        },
+        "language": {
+          "ja": "言葉"
+        },
+        "distance": {
+          "ja": "距離（遠くへ届く力）"
+        },
+        "by changing": {
+          "ja": "変えることで"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "form": {
+          "ja": "形"
+        }
+      },
+      "phrases": [
+        {
+          "en": "grant language distance by changing its form",
+          "ja": "形を変えることで言葉に距離を与える",
+          "note": "grant＋目的語＋目的語。",
+          "pattern": "grant A B / by -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "words": {
+          "ja": "言葉"
+        },
+        "never": {
+          "ja": "決して〜ない"
+        },
+        "travel": {
+          "ja": "旅する"
+        },
+        "untouched": {
+          "ja": "手つかずのまま"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Words never travel untouched",
+          "ja": "言葉は手つかずのままでは旅しない",
+          "note": "untouched が主語の状態を表す。",
+          "pattern": "形容詞で状態を補う"
+        }
+      ]
+    },
+    {
+      "words": {
+        "they": {
+          "ja": "それら（＝言葉）"
+        },
+        "pay for": {
+          "ja": "〜の代金を払う"
+        },
+        "the journey": {
+          "ja": "旅"
+        },
+        "with": {
+          "ja": "〜で"
+        },
+        "rhyme": {
+          "ja": "韻"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "a price tag": {
+          "ja": "値札"
+        }
+      },
+      "phrases": [
+        {
+          "en": "pay for the journey with rhyme and a price tag",
+          "ja": "韻と値札で旅費を払う",
+          "note": "with は支払い手段。",
+          "pattern": "pay for A with B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "carrying": {
+          "ja": "運びながら"
+        },
+        "even": {
+          "ja": "〜さえ"
+        },
+        "their": {
+          "ja": "それらの"
+        },
+        "contradictions": {
+          "ja": "矛盾"
+        },
+        "farther than": {
+          "ja": "〜より遠くへ"
+        },
+        "the speaker": {
+          "ja": "話し手"
+        },
+        "could": {
+          "ja": "（運べた）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carrying even their contradictions farther than the speaker could",
+          "ja": "矛盾さえ話し手より遠くへ運んで",
+          "note": "could の後に carry them が省略。",
+          "pattern": "farther than 〜 could"
+        }
+      ]
+    }
   ]
 }
