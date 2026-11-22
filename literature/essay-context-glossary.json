@@ -9714,30 +9714,61 @@
   "DE-20261118-001": [
     {
       "words": {
-        "line": {
-          "ja": "一行"
-        },
-        "starting": {
-          "ja": "出発"
-        },
         "lyrics": {
           "ja": "歌詞"
         },
-        "style": {
+        "one line": {
+          "ja": "一行"
+        },
+        "the ghost of youth": {
+          "ja": "青春の亡霊"
+        },
+        "died with": {
+          "ja": "〜と一緒に死んだ"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "loose socks": {
+          "ja": "ルーズソックス"
+        },
+        "worn": {
+          "ja": "履いていた"
+        },
+        "at seventeen": {
+          "ja": "十七歳のときに"
+        },
+        "became": {
+          "ja": "〜になった"
+        },
+        "the starting point for": {
+          "ja": "〜の出発点"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "musical style": {
           "ja": "曲調"
         },
-        "cover": {
-          "ja": "ジャケット用"
+        "and": {
+          "ja": "そして"
         },
-        "art": {
-          "ja": "絵"
+        "cover art": {
+          "ja": "ジャケット絵"
         }
       },
       "phrases": [
         {
-          "en": "One line—“The ghost of youth died with the loose socks worn at seventeen”—became the starting point for lyrics, a musical style, and cover art.",
-          "ja": "「青春の亡霊は十七歳で履いたルーズソックスと共に逝った」という一行が、歌詞、曲調、ジャケットの出発点になった。",
-          "note": "一行を歌詞・曲調・ジャケットへ展開する創作の起点を示す。"
+          "en": "the loose socks worn at seventeen",
+          "ja": "十七歳で履いたルーズソックス",
+          "note": "worn が後ろから loose socks を修飾。",
+          "pattern": "名詞 + 過去分詞"
+        },
+        {
+          "en": "became the starting point for lyrics",
+          "ja": "歌詞の出発点になった",
+          "note": "for は「〜にとっての」。",
+          "pattern": "the starting point for 〜"
         }
       ]
     },
@@ -9746,47 +9777,67 @@
         "recover": {
           "ja": "取り戻す"
         },
-        "vanished": {
-          "ja": "失われた"
+        "the sentence": {
+          "ja": "その一文"
         },
-        "youth": {
-          "ja": "青春"
+        "did not": {
+          "ja": "〜しなかった"
         },
-        "shape": {
-          "ja": "輪郭"
+        "a vanished youth": {
+          "ja": "消えた青春"
         },
-        "gone": {
-          "ja": "すでに去ったもの"
+        "it": {
+          "ja": "それ（＝その一文）"
+        },
+        "gave shape to": {
+          "ja": "〜に形を与えた"
+        },
+        "what was already gone": {
+          "ja": "すでに失われたもの"
         }
       },
       "phrases": [
         {
-          "en": "The sentence did not recover a vanished youth; it gave shape to what was already gone.",
-          "ja": "その一行は消えた青春を取り戻さず、すでに去ったものへ形を与えた。",
-          "note": "did not A; it B で復元の否定と造形の働きを対比する。"
+          "en": "gave shape to what was already gone",
+          "ja": "すでに去ったものに形を与えた",
+          "note": "what は「〜するもの」。",
+          "pattern": "give shape to 〜"
         }
       ]
     },
     {
       "words": {
-        "ghost": {
-          "ja": "亡霊"
-        },
         "appear": {
           "ja": "姿を現す"
         },
-        "pretending": {
-          "ja": "～のふりをする"
+        "a ghost": {
+          "ja": "亡霊"
         },
-        "returned": {
-          "ja": "戻った"
+        "can": {
+          "ja": "〜できる"
+        },
+        "in art": {
+          "ja": "芸術の中に"
+        },
+        "without pretending": {
+          "ja": "〜のふりをせずに"
+        },
+        "that": {
+          "ja": "（接続詞）〜ということ"
+        },
+        "lost time": {
+          "ja": "失った時間"
+        },
+        "has returned": {
+          "ja": "戻ってきた"
         }
       },
       "phrases": [
         {
-          "en": "A ghost can appear in art without pretending that lost time has returned.",
-          "ja": "亡霊は、失った時間が戻ったふりをせずに、芸術の中へ姿を現せる。",
-          "note": "without pretending that ... は失った時間の回帰を装わないことを示す。"
+          "en": "without pretending that lost time has returned",
+          "ja": "失った時間が戻ったふりをせずに",
+          "note": "without＋動名詞「〜せずに」。",
+          "pattern": "pretend that 〜"
         }
       ]
     },
@@ -9798,21 +9849,37 @@
         "filling": {
           "ja": "埋めること"
         },
-        "absence": {
-          "ja": "空白"
+        "began": {
+          "ja": "始まった"
         },
-        "voice": {
+        "not by": {
+          "ja": "〜によってではなく"
+        },
+        "the absence": {
+          "ja": "不在・空白"
+        },
+        "but by": {
+          "ja": "…によって"
+        },
+        "giving it": {
+          "ja": "それに与えること"
+        },
+        "it": {
+          "ja": "それ（＝空白）"
+        },
+        "a voice": {
           "ja": "声"
         },
-        "image": {
-          "ja": "絵"
+        "an image": {
+          "ja": "像"
         }
       },
       "phrases": [
         {
-          "en": "Creation began not by filling the absence, but by giving it a voice and an image.",
-          "ja": "創作は空白を埋めることではなく、空白へ声と絵を与えることから始まった。",
-          "note": "not by A, but by B で空白の充填ではなく表現の付与を選ぶ。"
+          "en": "not by filling the absence, but by giving it a voice",
+          "ja": "空白を埋めることではなく、声を与えることで",
+          "note": "by＋動名詞で手段を対比。",
+          "pattern": "not by A but by B"
         }
       ]
     }
@@ -9820,59 +9887,73 @@
   "DE-20261118-002": [
     {
       "words": {
-        "later": {
-          "ja": "後刻"
-        },
         "ghost": {
-          "ja": "ゴースト"
+          "ja": "「Ghost」（曲名）"
         },
-        "entered": {
-          "ja": "登録された"
+        "later that day": {
+          "ja": "その日の後で"
         },
-        "public": {
-          "ja": "公開の"
+        "was also entered into": {
+          "ja": "〜にも登録された"
         },
-        "database": {
-          "ja": "データベース"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "public database": {
+          "ja": "公開データベース"
         }
       },
       "phrases": [
         {
-          "en": "Later that day, “Ghost” was also entered into a public database.",
-          "ja": "その日の後刻、「ゴースト」は公開データベースにも登録された。",
-          "note": "was entered into は公開データベースへの登録を受動態で示す。"
+          "en": "was also entered into a public database",
+          "ja": "公開データベースにも登録された",
+          "note": "enter はここで「登録する・入力する」。",
+          "pattern": "enter A into B"
         }
       ]
     },
     {
       "words": {
-        "instruction": {
-          "ja": "指示"
-        },
         "hide": {
           "ja": "隠す"
         },
         "uncertainty": {
           "ja": "不確かさ"
         },
-        "source": {
-          "ja": "出典"
-        },
         "unverified": {
           "ja": "未確認の"
         },
-        "status": {
-          "ja": "状態"
+        "the instruction": {
+          "ja": "指示"
         },
-        "clearly": {
-          "ja": "明確に"
+        "was not to": {
+          "ja": "〜することではなかった"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "the source": {
+          "ja": "出典"
+        },
+        "remained": {
+          "ja": "〜のままだった"
+        },
+        "the entry": {
+          "ja": "その項目"
+        },
+        "should be published": {
+          "ja": "公開されるべきだ"
+        },
+        "with that status clearly marked": {
+          "ja": "その状態をはっきり記して"
         }
       },
       "phrases": [
         {
-          "en": "The instruction was not to hide uncertainty: if the source remained unverified, the entry should be published with that status clearly marked.",
-          "ja": "指示は不確かさを隠すことではなく、出典が未確認のままなら、その状態を明記して項目を公開することだった。",
-          "note": "if は出典が未確認のままという条件を示し、with 以下が表示方法を補う。"
+          "en": "with that status clearly marked",
+          "ja": "その状態を明記したうえで",
+          "note": "付帯状況の with「Aが〜された状態で」。",
+          "pattern": "with A 過去分詞"
         }
       ]
     },
@@ -9884,47 +9965,67 @@
         "turn": {
           "ja": "変える"
         },
-        "record": {
-          "ja": "記録"
+        "does not": {
+          "ja": "〜しない"
         },
-        "established": {
-          "ja": "確定した"
+        "the record": {
+          "ja": "その記録"
         },
-        "fact": {
-          "ja": "事実"
+        "into": {
+          "ja": "〜へ"
+        },
+        "established fact": {
+          "ja": "確定した事実"
         }
       },
       "phrases": [
         {
-          "en": "Publication does not turn the record into established fact.",
-          "ja": "公開は、その記録を確定した事実へ変えない。",
-          "note": "does not turn A into B は公開と事実確定の同一視を否定する。"
+          "en": "turn the record into established fact",
+          "ja": "記録を確定した事実に変える",
+          "note": "turn A into B「AをBに変える」。",
+          "pattern": "turn A into B"
         }
       ]
     },
     {
       "words": {
         "makes": {
-          "ja": "見えるようにする"
-        },
-        "entry": {
-          "ja": "項目"
-        },
-        "gap": {
-          "ja": "空白"
+          "ja": "〜にする"
         },
         "evidence": {
           "ja": "根拠"
         },
         "visible": {
-          "ja": "見える"
+          "ja": "見える状態に"
+        },
+        "it": {
+          "ja": "それ（＝公開）"
+        },
+        "both": {
+          "ja": "両方"
+        },
+        "the entry": {
+          "ja": "項目"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "the gap": {
+          "ja": "空白・欠け"
+        },
+        "in": {
+          "ja": "〜の中の"
+        },
+        "its": {
+          "ja": "その"
         }
       },
       "phrases": [
         {
-          "en": "It makes both the entry and the gap in its evidence visible.",
-          "ja": "公開は、項目とその根拠にある空白の両方を見えるようにする。",
-          "note": "both A and B は項目と根拠の空白を同時に可視化する。"
+          "en": "makes both the entry and the gap in its evidence visible",
+          "ja": "項目と根拠の空白の両方を見えるようにする",
+          "note": "make＋目的語＋形容詞。",
+          "pattern": "make A 形容詞 / both A and B"
         }
       ]
     },
@@ -9936,24 +10037,43 @@
         "creation": {
           "ja": "創作"
         },
-        "archive": {
-          "ja": "記録庫"
-        },
         "uncertainty": {
           "ja": "不確かさ"
         },
-        "travel": {
-          "ja": "一緒に運ばれる"
+        "when": {
+          "ja": "〜とき"
         },
-        "door": {
-          "ja": "入口"
+        "a work": {
+          "ja": "作品"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "an archive": {
+          "ja": "記録庫・アーカイブ"
+        },
+        "should": {
+          "ja": "〜すべきだ"
+        },
+        "travel with": {
+          "ja": "〜と一緒に移る"
+        },
+        "it": {
+          "ja": "それ（＝作品）"
+        },
+        "not be left at the door": {
+          "ja": "入口に置き去りにされない"
         }
       },
       "phrases": [
         {
-          "en": "When a work moves from creation into an archive, uncertainty should travel with it, not be left at the door.",
-          "ja": "作品が創作から記録庫へ移るとき、不確かさも一緒に運ばれるべきで、入口に置き去りにしてはならない。",
-          "note": "not be left at the door は不確かさを記録の外へ置き去りにしない比喩。"
+          "en": "should travel with it, not be left at the door",
+          "ja": "一緒に運ばれるべきで、入口に置き去りにされるべきではない",
+          "note": "should が travel と not be left の両方にかかる。",
+          "pattern": "A, not B"
         }
       ]
     }
@@ -9967,21 +10087,34 @@
         "inspection": {
           "ja": "検査"
         },
-        "tap": {
-          "ja": "一押し"
+        "an": {
+          "ja": "ひとつの"
         },
-        "phone": {
+        "with one tap": {
+          "ja": "一回押すだけで"
+        },
+        "on": {
+          "ja": "〜の上の"
+        },
+        "a phone": {
           "ja": "スマートフォン"
         },
-        "route": {
-          "ja": "経路"
+        "sounded like": {
+          "ja": "〜のように思えた"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "short route": {
+          "ja": "近道"
         }
       },
       "phrases": [
         {
-          "en": "Starting an inspection with one tap on a phone sounded like a short route.",
-          "ja": "スマートフォンを一度押して検査を始めることは、短い経路に思えた。",
-          "note": "動名詞句 Starting ... が一押しで検査を始める案全体を主語にする。"
+          "en": "sounded like a short route",
+          "ja": "近道に思えた",
+          "note": "sound like「〜のように聞こえる・思える」。",
+          "pattern": "sound like 〜"
         }
       ]
     },
@@ -9993,56 +10126,73 @@
         "required": {
           "ja": "必要とした"
         },
-        "browser": {
-          "ja": "ブラウザ"
+        "that tap": {
+          "ja": "その一押し"
         },
-        "authentication": {
-          "ja": "認証"
+        "a": {
+          "ja": "ひとつの"
         },
-        "resident": {
-          "ja": "常駐の"
+        "browser authentication screen": {
+          "ja": "ブラウザの認証画面"
         },
-        "runner": {
-          "ja": "実行系"
+        "and": {
+          "ja": "と"
         },
-        "waiting": {
-          "ja": "待機する"
+        "resident runner": {
+          "ja": "常駐ランナー（待機し続ける実行プログラム）"
         },
-        "computer": {
-          "ja": "パソコン"
+        "waiting on": {
+          "ja": "〜の上で待機している"
+        },
+        "another computer": {
+          "ja": "別のパソコン"
         }
       },
       "phrases": [
         {
-          "en": "Yet that tap required a browser authentication screen and a resident runner waiting on another computer.",
-          "ja": "しかし、その一押しにはブラウザの認証画面と、別のパソコンで待機する常駐ランナーが必要だった。",
-          "note": "required A and B は認証画面と別PCの常駐実行系を並列する。"
+          "en": "a resident runner waiting on another computer",
+          "ja": "別のパソコンで待機している常駐ランナー",
+          "note": "waiting 以下が後ろから修飾。",
+          "pattern": "名詞 + -ing"
         }
       ]
     },
     {
       "words": {
-        "visible": {
-          "ja": "見える"
-        },
-        "gesture": {
-          "ja": "操作"
-        },
         "shorter": {
-          "ja": "短くなった"
-        },
-        "machinery": {
-          "ja": "機械"
+          "ja": "短く"
         },
         "disappear": {
           "ja": "消える"
+        },
+        "the visible gesture": {
+          "ja": "目に見える操作"
+        },
+        "became": {
+          "ja": "〜になった"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the machinery": {
+          "ja": "仕組み・機構"
+        },
+        "behind it": {
+          "ja": "その裏の"
+        },
+        "it": {
+          "ja": "それ（＝見える操作）"
+        },
+        "did not": {
+          "ja": "〜しなかった"
         }
       },
       "phrases": [
         {
-          "en": "The visible gesture became shorter, but the machinery behind it did not disappear.",
-          "ja": "見える操作は短くなったが、背後の機械は消えなかった。",
-          "note": "but が表面の短縮と背後の機械の存続を対比する。"
+          "en": "the machinery behind it",
+          "ja": "その裏側の仕組み",
+          "note": "behind は「〜の背後の」。",
+          "pattern": "名詞 + behind 〜"
         }
       ]
     },
@@ -10055,58 +10205,99 @@
           "ja": "移す"
         },
         "work": {
-          "ja": "仕事"
+          "ja": "作業"
         },
-        "user's": {
-          "ja": "利用者の"
+        "can": {
+          "ja": "〜できる"
         },
-        "hidden": {
-          "ja": "隠れた"
+        "from": {
+          "ja": "〜から"
         },
-        "machine": {
-          "ja": "機械"
+        "the user's hand": {
+          "ja": "利用者の手元"
         },
-        "vanish": {
-          "ja": "消える"
+        "to": {
+          "ja": "〜へ"
+        },
+        "a": {
+          "ja": "ある"
+        },
+        "hidden machine": {
+          "ja": "見えない機械"
+        },
+        "it": {
+          "ja": "それ（＝自動化）"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "make the work vanish": {
+          "ja": "作業を消し去る"
         }
       },
       "phrases": [
         {
-          "en": "Automation can move work from the user's hand to a hidden machine; it cannot make the work vanish.",
-          "ja": "自動化は仕事を利用者の手元から隠れた機械へ移せるが、仕事そのものを消すことはできない。",
-          "note": "can と cannot で自動化が移せる仕事と消せない仕事を区別する。"
+          "en": "move work from the user's hand to a hidden machine",
+          "ja": "作業を手元から見えない機械へ移す",
+          "note": "from／to で移動元と先。",
+          "pattern": "move A from B to C"
+        },
+        {
+          "en": "make the work vanish",
+          "ja": "作業を消えさせる",
+          "note": "make＋目的語＋原形。",
+          "pattern": "make A 動詞"
         }
       ]
     },
     {
       "words": {
-        "rejected": {
-          "ja": "退けられた"
-        },
         "cumbersome": {
           "ja": "面倒な"
         },
         "because": {
-          "ja": "～のため"
-        },
-        "infrastructure": {
-          "ja": "基盤"
+          "ja": "〜なので"
         },
         "demanded": {
           "ja": "要求した"
         },
-        "attention": {
-          "ja": "注意"
-        },
         "simplify": {
-          "ja": "簡略化する"
+          "ja": "簡単にする"
+        },
+        "the route": {
+          "ja": "その経路"
+        },
+        "was rejected as": {
+          "ja": "〜として退けられた"
+        },
+        "the new infrastructure": {
+          "ja": "新しい基盤"
+        },
+        "more attention than": {
+          "ja": "〜より多くの注意"
+        },
+        "the check": {
+          "ja": "確認"
+        },
+        "it": {
+          "ja": "それ（＝新しい基盤）"
+        },
+        "was meant to": {
+          "ja": "〜するはずだった"
         }
       },
       "phrases": [
         {
-          "en": "The route was rejected as cumbersome because the new infrastructure demanded more attention than the check it was meant to simplify.",
-          "ja": "新しい基盤が、簡略化するはずだった検査より多くの注意を要求したため、その経路は面倒だとして退けられた。",
-          "note": "because は却下理由を示し、more ... than が新基盤と検査の負担を比較する。"
+          "en": "was rejected as cumbersome",
+          "ja": "面倒だとして退けられた",
+          "note": "as＋形容詞「〜だとして」。",
+          "pattern": "reject A as B"
+        },
+        {
+          "en": "the check it was meant to simplify",
+          "ja": "簡単にするはずだった確認",
+          "note": "check の後に関係代名詞が省略。be meant to「〜することになっている」。",
+          "pattern": "be meant to 〜"
         }
       ]
     }
@@ -10114,49 +10305,35 @@
   "DE-20261118-004": [
     {
       "words": {
-        "final": {
-          "ja": "最後の"
-        },
-        "decision": {
-          "ja": "決定"
-        },
         "abandon": {
-          "ja": "放棄する"
+          "ja": "やめる・放棄する"
         },
         "inspection": {
           "ja": "検査"
         },
         "altogether": {
-          "ja": "すべて"
+          "ja": "完全に"
+        },
+        "the final decision": {
+          "ja": "最終的な決定"
+        },
+        "was not to": {
+          "ja": "〜することではなかった"
         }
       },
       "phrases": [
         {
-          "en": "The final decision was not to abandon inspection altogether.",
-          "ja": "最後の決定は、検査をすべて放棄することではなかった。",
-          "note": "not ... altogether は検査を全面放棄したのではないことを示す。"
+          "en": "was not to abandon inspection altogether",
+          "ja": "検査を完全にやめることではなかった",
+          "note": "部分否定に近い「全部やめるわけではない」。",
+          "pattern": "not ... altogether"
         }
       ]
     },
     {
       "words": {
         "only": {
-          "ja": "～だけ"
-        },
-        "browser": {
-          "ja": "ブラウザ"
-        },
-        "display": {
-          "ja": "表示"
-        },
-        "check": {
-          "ja": "確認"
-        },
-        "removed": {
-          "ja": "外された"
-        },
-        "reviews": {
-          "ja": "審査"
+          "ja": "〜だけ"
         },
         "sources": {
           "ja": "出典"
@@ -10167,32 +10344,52 @@
         "privacy": {
           "ja": "プライバシー"
         },
-        "conducted": {
-          "ja": "行われる"
+        "the browser display check": {
+          "ja": "ブラウザでの表示確認"
+        },
+        "was removed": {
+          "ja": "外された"
+        },
+        "reviews of": {
+          "ja": "〜の審査"
+        },
+        "data": {
+          "ja": "データ"
+        },
+        "would still be conducted": {
+          "ja": "引き続き行われる"
+        },
+        "in the chat": {
+          "ja": "チャットで"
+        },
+        "each time": {
+          "ja": "毎回"
         }
       },
       "phrases": [
         {
-          "en": "Only the browser display check was removed; reviews of data, sources, rights, and privacy would still be conducted in the chat each time.",
-          "ja": "ブラウザによる表示確認だけが外され、データ、出典、権利、プライバシーの審査はその都度チャットで引き続き行われる。",
-          "note": "Only で除外対象を限定し、would still で残る四審査の継続を示す。"
+          "en": "would still be conducted in the chat each time",
+          "ja": "毎回チャットで引き続き行われる",
+          "note": "still「引き続き」。",
+          "pattern": "still / each time"
         }
       ]
     },
     {
       "words": {
-        "distinction": {
-          "ja": "区別"
-        },
         "matters": {
-          "ja": "重要である"
+          "ja": "重要だ"
+        },
+        "this distinction": {
+          "ja": "この区別"
         }
       },
       "phrases": [
         {
-          "en": "This distinction matters.",
-          "ja": "この区別には意味がある。",
-          "note": "短文で、何を外し何を残したかの区別が重要だと転換する。"
+          "en": "This distinction matters",
+          "ja": "この区別は重要だ",
+          "note": "matter は動詞で「重要である」。",
+          "pattern": "matter（動詞）"
         }
       ]
     },
@@ -10201,37 +10398,29 @@
         "simplification": {
           "ja": "簡略化"
         },
-        "blank": {
-          "ja": "白紙の"
+        "is not": {
+          "ja": "〜ではない"
         },
-        "permission": {
-          "ja": "許可"
+        "a": {
+          "ja": "ひとつの"
         },
-        "slip": {
-          "ja": "証"
+        "blank permission slip": {
+          "ja": "白紙の許可証"
         }
       },
       "phrases": [
         {
-          "en": "Simplification is not a blank permission slip.",
-          "ja": "簡略化は白紙の許可証ではない。",
-          "note": "not は簡略化を無条件の許可と同一視することを否定する。"
+          "en": "a blank permission slip",
+          "ja": "何でも許す白紙の許可証",
+          "note": "何を省いてもよい、という意味の比喩。",
+          "pattern": "blank 〜"
         }
       ]
     },
     {
       "words": {
-        "explicit": {
-          "ja": "明示された"
-        },
-        "statement": {
-          "ja": "表明"
-        },
         "layer": {
           "ja": "層"
-        },
-        "omitted": {
-          "ja": "省かれた"
         },
         "remain": {
           "ja": "残る"
@@ -10240,57 +10429,96 @@
           "ja": "責任"
         },
         "rests": {
-          "ja": "置かれる"
+          "ja": "置かれている"
+        },
+        "it": {
+          "ja": "それ（＝簡略化）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "explicit statement of": {
+          "ja": "〜をはっきり示すこと"
+        },
+        "which": {
+          "ja": "どの"
+        },
+        "is omitted": {
+          "ja": "省かれる"
+        },
+        "layers": {
+          "ja": "層"
+        },
+        "where": {
+          "ja": "どこに"
+        },
+        "now": {
+          "ja": "今"
         }
       },
       "phrases": [
         {
-          "en": "It is an explicit statement of which layer is omitted, which layers remain, and where responsibility now rests.",
-          "ja": "簡略化とは、どの層を省き、どの層を残し、責任を今どこへ置くかを明示することである。",
-          "note": "which / which / where が省略対象・残存対象・責任の場所を分ける。"
+          "en": "which layer is omitted, which layers remain, and where responsibility now rests",
+          "ja": "どの層を省き、どの層が残り、責任が今どこにあるか",
+          "note": "3つの疑問詞節が statement of の目的語。",
+          "pattern": "which／where 節の並列"
         }
       ]
     },
     {
       "words": {
-        "shortcut": {
-          "ja": "近道"
-        },
         "conceal": {
           "ja": "隠す"
         },
-        "missing": {
-          "ja": "欠けた"
+        "a": {
+          "ja": "ひとつの"
         },
-        "step": {
-          "ja": "手順"
+        "good shortcut": {
+          "ja": "よい近道"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "missing step": {
+          "ja": "抜けた手順"
         }
       },
       "phrases": [
         {
-          "en": "A good shortcut does not conceal its missing step.",
-          "ja": "よい近道は、欠けた手順を隠さない。",
-          "note": "does not conceal は欠けた工程を隠さない態度を示す。"
+          "en": "does not conceal its missing step",
+          "ja": "抜けた手順を隠さない",
+          "note": "its は shortcut を指す。",
+          "pattern": "conceal 〜"
         }
       ]
     },
     {
       "words": {
         "leaves": {
-          "ja": "～のまま残す"
-        },
-        "outline": {
-          "ja": "輪郭"
+          "ja": "〜のままにしておく"
         },
         "visible": {
-          "ja": "見える"
+          "ja": "見える状態で"
+        },
+        "it": {
+          "ja": "それ（＝よい近道）"
+        },
+        "the outline": {
+          "ja": "輪郭"
         }
       },
       "phrases": [
         {
-          "en": "It leaves the outline visible.",
-          "ja": "よい近道は、その輪郭を見えるまま残す。",
-          "note": "leave O C で輪郭を見える状態に保つ結末を表す。"
+          "en": "leaves the outline visible",
+          "ja": "輪郭を見えるままにしておく",
+          "note": "leave＋目的語＋形容詞「Aを〜のままにする」。",
+          "pattern": "leave A 形容詞"
         }
       ]
     }
