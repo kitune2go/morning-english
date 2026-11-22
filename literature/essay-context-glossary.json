@@ -8781,63 +8781,120 @@
     {
       "words": {
         "repeatedly": {
-          "ja": "繰り返し"
+          "ja": "何度も"
         },
-        "execution": {
-          "ja": "実行"
+        "opening": {
+          "ja": "開くこと"
         },
-        "detour": {
-          "ja": "迂回路"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "separate": {
+          "ja": "別の"
+        },
+        "execution environment": {
+          "ja": "実行環境"
+        },
+        "made": {
+          "ja": "〜にさせた"
+        },
+        "data entry": {
+          "ja": "データ入力"
+        },
+        "depend on": {
+          "ja": "〜に頼る"
+        },
+        "managing": {
+          "ja": "管理すること"
+        },
+        "a detour": {
+          "ja": "回り道"
         }
       },
       "phrases": [
         {
-          "en": "Repeatedly opening a separate execution environment made data entry depend on managing a detour.",
-          "ja": "別の実行環境を毎回開くことで、データ入力は迂回路の管理に依存していた。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "made data entry depend on managing a detour",
+          "ja": "データ入力を回り道の管理に頼らせた",
+          "note": "make＋目的語＋原形。",
+          "pattern": "make A 動詞 / depend on 〜"
         }
       ]
     },
     {
       "words": {
-        "input": {
-          "ja": "入力"
+        "an": {
+          "ja": "ひとつの"
         },
-        "form": {
-          "ja": "フォーム"
+        "input form": {
+          "ja": "入力フォーム"
         },
-        "candidate": {
+        "offered": {
+          "ja": "示した・提供した"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "shorter route": {
+          "ja": "より短い道筋"
+        },
+        "fill in": {
+          "ja": "記入する"
+        },
+        "the fields": {
+          "ja": "項目欄"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "send": {
+          "ja": "送る"
+        },
+        "a candidate": {
           "ja": "候補"
         },
-        "database": {
+        "to": {
+          "ja": "〜へ"
+        },
+        "the database": {
           "ja": "データベース"
         }
       },
       "phrases": [
         {
-          "en": "An input form offered a shorter route: fill in the fields and send a candidate to the database.",
-          "ja": "入力フォームは、項目を埋めて候補をデータベースへ送る短い経路を示した。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "fill in the fields and send a candidate to the database",
+          "ja": "項目を記入して候補を送る",
+          "note": "コロン以下が route の中身（命令形で手順を示す）。",
+          "pattern": "fill in 〜"
         }
       ]
     },
     {
       "words": {
-        "entrance": {
-          "ja": "入口"
+        "the": {
+          "ja": "その"
         },
-        "standard": {
-          "ja": "基準"
+        "shorter entrance": {
+          "ja": "短くなった入口"
         },
-        "content": {
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "lower": {
+          "ja": "下げる"
+        },
+        "the standard for": {
+          "ja": "〜の基準"
+        },
+        "the content": {
           "ja": "内容"
         }
       },
       "phrases": [
         {
-          "en": "The shorter entrance did not lower the standard for the content.",
-          "ja": "入口を短くしても、内容の基準は下がらなかった。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "did not lower the standard for the content",
+          "ja": "内容の基準は下げなかった",
+          "note": "lower は動詞「下げる」。",
+          "pattern": "lower（動詞）"
         }
       ]
     },
@@ -8846,21 +8903,52 @@
         "preserved": {
           "ja": "残した"
         },
-        "common": {
-          "ja": "共通の"
+        "it": {
+          "ja": "それ（＝入力フォーム）"
         },
-        "format": {
-          "ja": "形式"
+        "who entered what": {
+          "ja": "誰が何を入力したか"
         },
-        "review": {
-          "ja": "確認"
+        "in": {
+          "ja": "〜で"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "common format": {
+          "ja": "共通の形式"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "made": {
+          "ja": "〜にした"
+        },
+        "the candidate": {
+          "ja": "候補"
+        },
+        "easier to": {
+          "ja": "〜しやすく"
+        },
+        "hand over": {
+          "ja": "引き渡す"
+        },
+        "for review": {
+          "ja": "確認のために"
         }
       },
       "phrases": [
         {
-          "en": "It preserved who entered what in a common format and made the candidate easier to hand over for review.",
-          "ja": "誰が何を入力したかを共通形式で残し、候補を確認へ渡しやすくした。",
-          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+          "en": "preserved who entered what",
+          "ja": "誰が何を入力したかを残した",
+          "note": "疑問詞を2つ重ねた間接疑問。",
+          "pattern": "who ... what"
+        },
+        {
+          "en": "made the candidate easier to hand over for review",
+          "ja": "候補を確認に渡しやすくした",
+          "note": "easier to 〜「〜しやすい」。",
+          "pattern": "make A 形容詞 to 動詞"
         }
       ]
     }
@@ -8869,20 +8957,24 @@
     {
       "words": {
         "yaml": {
-          "ja": "ヤムル"
+          "ja": "YAML（設定ファイルの書式）"
         },
-        "machine": {
-          "ja": "機械"
+        "makes": {
+          "ja": "〜にする"
         },
-        "settings": {
-          "ja": "設定"
+        "machine settings": {
+          "ja": "機械向けの設定"
+        },
+        "easier for people to read": {
+          "ja": "人が読みやすく"
         }
       },
       "phrases": [
         {
-          "en": "YAML makes machine settings easier for people to read.",
-          "ja": "YAMLは機械の設定を人が読みやすくする。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "makes machine settings easier for people to read",
+          "ja": "設定を人が読みやすいものにする",
+          "note": "for people が read の意味上の主語。",
+          "pattern": "make A 形容詞 for 人 to 動詞"
         }
       ]
     },
@@ -8898,14 +8990,42 @@
           "ja": "項目"
         },
         "prose": {
-          "ja": "文章"
+          "ja": "普通の文章"
+        },
+        "instead of": {
+          "ja": "〜する代わりに"
+        },
+        "rows of": {
+          "ja": "何列もの"
+        },
+        "it": {
+          "ja": "それ（＝YAML）"
+        },
+        "lays out": {
+          "ja": "並べる"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "values": {
+          "ja": "値"
+        },
+        "almost like": {
+          "ja": "ほとんど〜のように"
         }
       },
       "phrases": [
         {
-          "en": "Instead of nesting rows of brackets, it lays out fields and values almost like prose.",
-          "ja": "括弧を何重にも重ねる代わりに、項目と値を文章に近い形で並べる。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "Instead of nesting rows of brackets",
+          "ja": "括弧を何重にも重ねる代わりに",
+          "note": "instead of＋動名詞。",
+          "pattern": "instead of -ing"
+        },
+        {
+          "en": "lays out fields and values almost like prose",
+          "ja": "項目と値を文章のように並べる",
+          "note": "lay out「配置する」。",
+          "pattern": "lay out 〜"
         }
       ]
     },
@@ -8914,38 +9034,85 @@
         "readability": {
           "ja": "読みやすさ"
         },
-        "indentation": {
-          "ja": "字下げ"
-        },
         "hierarchy": {
           "ja": "階層"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "remove": {
+          "ja": "取り除く"
+        },
+        "structure": {
+          "ja": "構造"
+        },
+        "changing": {
+          "ja": "変えること"
+        },
+        "the indentation": {
+          "ja": "字下げ"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "change": {
+          "ja": "変える"
+        },
+        "the meaning": {
+          "ja": "意味"
         }
       },
       "phrases": [
         {
-          "en": "Yet readability does not remove structure: changing the indentation or hierarchy can change the meaning.",
-          "ja": "しかし読みやすさが構造を消すわけではなく、字下げや階層を変えると意味も変わりうる。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "changing the indentation or hierarchy can change the meaning",
+          "ja": "字下げや階層を変えると意味が変わりうる",
+          "note": "動名詞 changing が主語。",
+          "pattern": "動名詞の主語"
         }
       ]
     },
     {
       "words": {
-        "discarded": {
-          "ja": "捨てた"
-        },
         "rules": {
           "ja": "規則"
         },
-        "view": {
-          "ja": "見える場所"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "clear format": {
+          "ja": "明快な形式"
+        },
+        "has not discarded": {
+          "ja": "捨てたわけではない"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "it": {
+          "ja": "それ（＝明快な形式）"
+        },
+        "has moved": {
+          "ja": "移した"
+        },
+        "them": {
+          "ja": "それら（＝規則）"
+        },
+        "into view": {
+          "ja": "見えるところへ"
         }
       },
       "phrases": [
         {
-          "en": "A clear format has not discarded its rules; it has moved them into view.",
-          "ja": "明快な形式は規則を捨てたのではなく、規則を見える場所へ移したのである。",
-          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+          "en": "has moved them into view",
+          "ja": "規則を見えるところへ移した",
+          "note": "into view「視界の中へ」。",
+          "pattern": "move A into view"
         }
       ]
     }
@@ -8954,103 +9121,168 @@
     {
       "words": {
         "accumulated": {
-          "ja": "蓄積した"
+          "ja": "たまっていった"
         },
         "markers": {
-          "ja": "印"
+          "ja": "マーカー"
         },
-        "zoom": {
-          "ja": "縮尺表示"
+        "as": {
+          "ja": "〜につれて"
         },
-        "unwanted": {
-          "ja": "不要な"
+        "the map": {
+          "ja": "地図"
         },
-        "tap": {
-          "ja": "タップ"
+        "circles": {
+          "ja": "円"
+        },
+        "overlapped": {
+          "ja": "重なった"
+        },
+        "at a distant zoom": {
+          "ja": "引いた縮尺で"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "unwanted panels": {
+          "ja": "不要なパネル"
+        },
+        "remained": {
+          "ja": "残った"
+        },
+        "after a tap": {
+          "ja": "タップの後に"
         }
       },
       "phrases": [
         {
-          "en": "As the map accumulated markers, circles overlapped at a distant zoom and unwanted panels remained after a tap.",
-          "ja": "地図に印が蓄積すると、引いた表示では輪が重なり、タップ後には不要なパネルが残った。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "As the map accumulated markers",
+          "ja": "地図にマーカーが増えるにつれ",
+          "note": "as「〜するにつれて」。",
+          "pattern": "as（比例）"
         }
       ]
     },
     {
       "words": {
-        "stored": {
-          "ja": "保存された"
+        "stored data": {
+          "ja": "保存されたデータ"
         },
-        "readable": {
-          "ja": "読める"
+        "was not": {
+          "ja": "〜ではなかった"
+        },
+        "automatically": {
+          "ja": "自動的に・そのまま"
+        },
+        "readable data": {
+          "ja": "読めるデータ"
         }
       },
       "phrases": [
         {
-          "en": "Stored data was not automatically readable data.",
-          "ja": "保存されたデータが、そのまま読めるデータになるわけではなかった。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "was not automatically readable data",
+          "ja": "そのまま読めるデータではなかった",
+          "note": "保存≠読める。",
+          "pattern": "not automatically"
         }
       ]
     },
     {
       "words": {
-        "merged": {
-          "ja": "マージされた"
+        "a": {
+          "ja": "ひとつの"
         },
-        "visible": {
-          "ja": "見える"
+        "merged fix": {
+          "ja": "マージ（取り込み）済みの修正"
         },
-        "public": {
-          "ja": "公開の"
+        "was also not": {
+          "ja": "〜でもなかった"
+        },
+        "the same as": {
+          "ja": "〜と同じ"
+        },
+        "change": {
+          "ja": "変更"
+        },
+        "visible on": {
+          "ja": "〜で見える"
+        },
+        "the public site": {
+          "ja": "公開サイト"
         }
       },
       "phrases": [
         {
-          "en": "A merged fix was also not the same as a change visible on the public site.",
-          "ja": "修正のマージも、公開サイトで見える変更と同じではなかった。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "not the same as a change visible on the public site",
+          "ja": "公開サイトで見える変更と同じではない",
+          "note": "visible on 以下が change を後ろから修飾。",
+          "pattern": "the same as 〜"
         }
       ]
     },
     {
       "words": {
-        "input": {
-          "ja": "入力"
-        },
-        "screen": {
-          "ja": "画面"
-        },
         "interactions": {
           "ja": "操作"
+        },
+        "the simpler": {
+          "ja": "〜が簡単になるほど"
+        },
+        "the input path": {
+          "ja": "入力の経路"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "the more important": {
+          "ja": "いっそう重要に"
+        },
+        "it is to test": {
+          "ja": "試すことが"
+        },
+        "the real": {
+          "ja": "実際の"
+        },
+        "screen sizes": {
+          "ja": "画面サイズ"
+        },
+        "and": {
+          "ja": "と"
         }
       },
       "phrases": [
         {
-          "en": "The simpler the input path becomes, the more important it is to test the real screen sizes and interactions.",
-          "ja": "入力経路が簡単になるほど、実際の画面サイズと操作を試すことが重要になる。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "The simpler the input path becomes, the more important it is to test",
+          "ja": "入力経路が簡単になるほど、試すことが重要になる",
+          "note": "it は to test 以下を指す形式主語。",
+          "pattern": "the 比較級 ..., the 比較級 ..."
         }
       ]
     },
     {
       "words": {
         "shorten": {
-          "ja": "短くする"
+          "ja": "短くせよ"
         },
-        "entrance": {
+        "the entrance": {
           "ja": "入口"
         },
-        "exit": {
-          "ja": "出口"
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "the final check": {
+          "ja": "最終確認"
+        },
+        "at the exit": {
+          "ja": "出口での"
         }
       },
       "phrases": [
         {
-          "en": "Shorten the entrance, not the final check at the exit.",
-          "ja": "短くするのは入口であり、出口での最終確認ではない。",
-          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+          "en": "Shorten the entrance, not the final check at the exit",
+          "ja": "短くするのは入口で、出口の最終確認ではない",
+          "note": "命令形で対比。",
+          "pattern": "A, not B"
         }
       ]
     }
