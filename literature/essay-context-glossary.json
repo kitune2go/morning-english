@@ -8243,61 +8243,106 @@
   "DE-20261115-001": [
     {
       "words": {
-        "database-first": {
-          "ja": "データベースを先にする"
-        },
-        "workflow": {
-          "ja": "工程"
-        },
         "adopted": {
           "ja": "採用した"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "history project": {
+          "ja": "歴史プロジェクト"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "database-first workflow": {
+          "ja": "データベースを先に作る作業手順"
         }
       },
       "phrases": [
         {
-          "en": "The history project adopted a database-first workflow.",
-          "ja": "歴史プロジェクトは、まずデータベースへ入れる工程を採用した。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "adopted a database-first workflow",
+          "ja": "データベース優先の手順を採った",
+          "note": "database-first「データベースを最初にする」という複合形容詞。",
+          "pattern": "adopt 〜"
         }
       ]
     },
     {
       "words": {
         "sixty-one": {
-          "ja": "六十一"
+          "ja": "61件の"
         },
         "records": {
-          "ja": "件・記録"
-        },
-        "structured": {
-          "ja": "構造化された"
+          "ja": "記録"
         },
         "unapproved": {
           "ja": "未承認の"
+        },
+        "covering": {
+          "ja": "〜を扱う"
+        },
+        "rome": {
+          "ja": "ローマ"
+        },
+        "the mediterranean": {
+          "ja": "地中海"
+        },
+        "asia": {
+          "ja": "アジア"
+        },
+        "people": {
+          "ja": "人物"
+        },
+        "ideas": {
+          "ja": "思想"
+        },
+        "were structured": {
+          "ja": "構造化された"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "they": {
+          "ja": "それら（＝記録）"
+        },
+        "remained": {
+          "ja": "〜のままだった"
         }
       },
       "phrases": [
         {
-          "en": "Sixty-one records covering Rome, the Mediterranean, Asia, people, and ideas were structured, but they remained unapproved.",
-          "ja": "ローマ、地中海、アジア、人物、思想を扱う六十一件が構造化されたが、未承認のまま残った。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "Sixty-one records covering Rome",
+          "ja": "ローマなどを扱う61件の記録",
+          "note": "covering 以下が records を後ろから修飾。",
+          "pattern": "名詞 + -ing"
         }
       ]
     },
     {
       "words": {
-        "stored": {
-          "ja": "保存された"
+        "more": {
+          "ja": "より多くの"
         },
-        "published": {
-          "ja": "公開された"
+        "stored records": {
+          "ja": "保存された記録"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "mean": {
+          "ja": "意味する"
+        },
+        "published history": {
+          "ja": "公開された歴史"
         }
       },
       "phrases": [
         {
-          "en": "More stored records did not mean more published history.",
-          "ja": "保存件数の増加は、公開された歴史の増加を意味しなかった。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "did not mean more published history",
+          "ja": "公開される歴史が増えることを意味しなかった",
+          "note": "保存と公開は別。",
+          "pattern": "A did not mean B"
         }
       ]
     },
@@ -8309,18 +8354,43 @@
         "candidates": {
           "ja": "候補"
         },
-        "source-by-source": {
-          "ja": "出典ごとの"
-        },
         "works": {
           "ja": "作品"
+        },
+        "protected": {
+          "ja": "守った"
+        },
+        "from being lost": {
+          "ja": "失われることから"
+        },
+        "publication": {
+          "ja": "公開"
+        },
+        "still": {
+          "ja": "それでも"
+        },
+        "required": {
+          "ja": "必要とした"
+        },
+        "source-by-source review": {
+          "ja": "出典ごとの確認"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "links to": {
+          "ja": "〜へのリンク・関連付け"
+        },
+        "people": {
+          "ja": "人物"
         }
       },
       "phrases": [
         {
-          "en": "Storage protected candidates from being lost; publication still required source-by-source review and links to people and works.",
-          "ja": "保存は候補の消失を防いだが、公開には出典ごとの確認と人物・作品への関連付けが必要だった。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "protected candidates from being lost",
+          "ja": "候補が失われないよう守った",
+          "note": "from being 過去分詞「〜されることから」。",
+          "pattern": "protect A from -ing"
         }
       ]
     },
@@ -8332,15 +8402,25 @@
         "display": {
           "ja": "表示"
         },
-        "deliberately": {
-          "ja": "意図的に"
+        "and": {
+          "ja": "と"
+        },
+        "were deliberately kept": {
+          "ja": "意図的に保たれた"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "separate decisions": {
+          "ja": "別々の判断"
         }
       },
       "phrases": [
         {
-          "en": "Collection and display were deliberately kept as separate decisions.",
-          "ja": "収集と画面表示は、意図的に別の判断として保たれた。",
-          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+          "en": "were deliberately kept as separate decisions",
+          "ja": "意図的に別の判断として保たれた",
+          "note": "受け身。",
+          "pattern": "keep A as B"
         }
       ]
     }
@@ -8348,84 +8428,163 @@
   "DE-20261115-002": [
     {
       "words": {
-        "preview": {
-          "ja": "Preview"
+        "the next stage": {
+          "ja": "次の段階"
         },
-        "publication": {
-          "ja": "公開"
+        "produced": {
+          "ja": "生み出した"
         },
-        "database": {
-          "ja": "データベース"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "working preview": {
+          "ja": "動くプレビュー"
+        },
+        "checked map": {
+          "ja": "確認済みの地図"
+        },
+        "publication files": {
+          "ja": "公開用ファイル"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "public database": {
+          "ja": "公開データベース"
         }
       },
       "phrases": [
         {
-          "en": "The next stage produced a working Preview, a checked map, publication files, and a public database.",
-          "ja": "次の段階では、動くPreview、確認済みの地図、公開用ファイル、公開用データベースが用意された。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "a working Preview",
+          "ja": "実際に動くプレビュー",
+          "note": "working は形容詞「機能している」。",
+          "pattern": "working + 名詞"
         }
       ]
     },
     {
       "words": {
-        "node": {
-          "ja": "Node"
+        "eight": {
+          "ja": "8件の"
         },
-        "python": {
-          "ja": "Python"
+        "node tests": {
+          "ja": "Nodeのテスト"
         },
-        "unit": {
-          "ja": "単体の"
+        "seven": {
+          "ja": "7件の"
+        },
+        "python tests": {
+          "ja": "Pythonのテスト"
+        },
+        "passed": {
+          "ja": "通った"
+        },
+        "fifteen": {
+          "ja": "15件の"
+        },
+        "unit tests": {
+          "ja": "単体テスト"
+        },
+        "in all": {
+          "ja": "合計で"
         }
       },
       "phrases": [
         {
-          "en": "Eight Node tests and seven Python tests passed, fifteen unit tests in all.",
-          "ja": "Node八件とPython七件、合計十五件の単体テストが通った。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "fifteen unit tests in all",
+          "ja": "合計15件の単体テスト",
+          "note": "in all「全部で」。",
+          "pattern": "in all"
         }
       ]
     },
     {
       "words": {
-        "production": {
-          "ja": "本番"
+        "yet": {
+          "ja": "しかし"
         },
-        "integration": {
-          "ja": "統合"
+        "the real database connection": {
+          "ja": "実際のデータベース接続"
         },
-        "unverified": {
-          "ja": "未確認の"
+        "and": {
+          "ja": "と"
         },
-        "deployment": {
-          "ja": "デプロイ"
+        "production integration": {
+          "ja": "本番環境との統合"
+        },
+        "were still unverified": {
+          "ja": "まだ確認されていなかった"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "the production deployment": {
+          "ja": "本番デプロイ"
+        },
+        "remained": {
+          "ja": "〜のままだった"
+        },
+        "blocked by": {
+          "ja": "〜に阻まれた"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "daily limit": {
+          "ja": "1日の上限"
         }
       },
       "phrases": [
         {
-          "en": "Yet the real database connection and production integration were still unverified, while the production deployment remained blocked by a daily limit.",
-          "ja": "しかし実データベース接続と本番統合はまだ未確認で、本番デプロイは日次制限に阻まれたままだった。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "remained blocked by a daily limit",
+          "ja": "1日の上限に阻まれたままだった",
+          "note": "remain＋過去分詞「〜されたままである」。",
+          "pattern": "remain + 過去分詞"
         }
       ]
     },
     {
       "words": {
-        "component-level": {
-          "ja": "部品単位の"
+        "component-level success": {
+          "ja": "部品単位の成功"
         },
-        "entire": {
+        "was": {
+          "ja": "〜だった"
+        },
+        "necessary": {
+          "ja": "必要な"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝部品単位の成功）"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "prove": {
+          "ja": "証明する"
+        },
+        "that": {
+          "ja": "（接続詞）〜ということ"
+        },
+        "the entire": {
           "ja": "全体の"
         },
-        "path": {
-          "ja": "経路"
+        "publication path": {
+          "ja": "公開経路"
+        },
+        "was connected": {
+          "ja": "つながっていた"
         }
       },
       "phrases": [
         {
-          "en": "Component-level success was necessary, but it did not prove that the entire publication path was connected.",
-          "ja": "部品単位の成功は必要だが、公開経路全体の接続を証明するものではなかった。",
-          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+          "en": "did not prove that the entire publication path was connected",
+          "ja": "公開経路全体がつながっていることは証明しなかった",
+          "note": "部分の成功≠全体の接続。",
+          "pattern": "prove that 〜"
         }
       ]
     }
@@ -8433,64 +8592,124 @@
   "DE-20261115-003": [
     {
       "words": {
-        "preparation": {
-          "ja": "準備"
+        "the preparation of": {
+          "ja": "〜の準備"
         },
-        "unapproved": {
-          "ja": "未承認の"
+        "public json": {
+          "ja": "公開用JSON"
         },
-        "activated": {
-          "ja": "有効化された"
+        "preserved": {
+          "ja": "守った"
+        },
+        "one": {
+          "ja": "ひとつの"
+        },
+        "hard rule": {
+          "ja": "厳格な規則"
+        },
+        "unapproved data": {
+          "ja": "未承認のデータ"
+        },
+        "would not be activated": {
+          "ja": "有効化されない"
         }
       },
       "phrases": [
         {
-          "en": "The preparation of public JSON preserved one hard rule: unapproved data would not be activated.",
-          "ja": "公開JSONの準備では、未承認データを有効化しないという一つの厳格な規則を守った。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "preserved one hard rule: unapproved data would not be activated",
+          "ja": "未承認データは有効化しない、という一つの規則を守った",
+          "note": "コロン以下が rule の内容。",
+          "pattern": "コロンで中身を示す"
         }
       ]
     },
     {
       "words": {
-        "outputs": {
-          "ja": "出力物"
-        },
         "manifest": {
-          "ja": "manifest"
-        },
-        "registered": {
-          "ja": "登録された"
+          "ja": "マニフェスト（一覧ファイル）"
         },
         "releases": {
           "ja": "リリース"
         },
-        "active": {
-          "ja": "有効な"
+        "three": {
+          "ja": "3種類の"
+        },
+        "json outputs": {
+          "ja": "JSON出力"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "were generated from": {
+          "ja": "〜から生成された"
+        },
+        "real data": {
+          "ja": "実データ"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "the public database": {
+          "ja": "公開データベース"
+        },
+        "still": {
+          "ja": "まだ"
+        },
+        "contained": {
+          "ja": "含んでいた"
+        },
+        "zero": {
+          "ja": "ゼロ件の"
+        },
+        "registered releases": {
+          "ja": "登録済みリリース"
+        },
+        "public": {
+          "ja": "公開の"
+        },
+        "json": {
+          "ja": "JSON"
+        },
+        "active releases": {
+          "ja": "有効なリリース"
         }
       },
       "phrases": [
         {
-          "en": "Three JSON outputs and a manifest were generated from real data, yet the public database still contained zero registered releases, zero public JSON releases, and zero active releases.",
-          "ja": "実データから三種類のJSONとmanifestを生成したが、公開データベースの登録リリース、公開JSONリリース、有効リリースはいずれも零件だった。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "still contained zero registered releases",
+          "ja": "まだ登録リリースが0件だった",
+          "note": "zero＋複数名詞「〜が1つもない」。",
+          "pattern": "contain zero 〜"
         }
       ]
     },
     {
       "words": {
-        "differences": {
-          "ja": "差分"
+        "the next step": {
+          "ja": "次の手順"
         },
-        "review": {
-          "ja": "審査"
+        "was": {
+          "ja": "〜だった"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "review of": {
+          "ja": "〜の確認"
+        },
+        "the differences": {
+          "ja": "差分"
         }
       },
       "phrases": [
         {
-          "en": "The next step was a review of the differences.",
-          "ja": "次の手順は差分の審査だった。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "a review of the differences",
+          "ja": "差分の確認",
+          "note": "公開前に何が変わるかを見る。",
+          "pattern": "review of 〜"
         }
       ]
     },
@@ -8499,38 +8718,61 @@
         "publication": {
           "ja": "公開"
         },
-        "generation": {
-          "ja": "生成"
+        "was not": {
+          "ja": "〜ではなかった"
+        },
+        "file generation": {
+          "ja": "ファイルの生成"
+        },
+        "alone": {
+          "ja": "〜だけ"
         }
       },
       "phrases": [
         {
-          "en": "Publication was not file generation alone.",
-          "ja": "公開はファイル生成だけではなかった。",
-          "note": "このチャンクの主体・操作・対比を前後の文脈とつないで読む。"
+          "en": "was not file generation alone",
+          "ja": "ファイル生成だけではなかった",
+          "note": "alone が前の名詞を限定。",
+          "pattern": "名詞 + alone"
         }
       ]
     },
     {
       "words": {
-        "gate": {
-          "ja": "扉"
-        },
         "approvals": {
           "ja": "承認"
         },
-        "activated": {
-          "ja": "有効化した"
+        "it": {
+          "ja": "それ（＝公開）"
         },
-        "traced": {
-          "ja": "辿れる"
+        "was": {
+          "ja": "〜だった"
+        },
+        "the final gate": {
+          "ja": "最後の門"
+        },
+        "through which": {
+          "ja": "それを通して"
+        },
+        "changes": {
+          "ja": "変更"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the activated version": {
+          "ja": "有効化された版"
+        },
+        "could all be traced": {
+          "ja": "すべて追跡できた"
         }
       },
       "phrases": [
         {
-          "en": "It was the final gate through which changes, approvals, and the activated version could all be traced.",
-          "ja": "変更、承認、有効化した版をすべて辿れる最後の扉だった。",
-          "note": "結論の主体・条件・因果を保ち、作品全体の余韻として読む。"
+          "en": "the final gate through which changes, approvals, and the activated version could all be traced",
+          "ja": "変更・承認・版をすべて追える最後の門",
+          "note": "前置詞＋関係代名詞。",
+          "pattern": "through which 〜"
         }
       ]
     }
