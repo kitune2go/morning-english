@@ -38,6 +38,7 @@ for(const e of recent){
 const context=read('literature/essay-context-glossary.json');
 const works=read('literature-works.json').filter(w=>/^daily-essay-\d{8}$/.test(w.workId));
 const checkedIds=new Set();
+const cardSources=new Map();
 let words=0,covered=0,strictWords=0,strictMissing=0,legacyMissing=0,strictCards=0;
 const missingDetails=[];
 for(const work of works){
@@ -55,6 +56,7 @@ for(const work of works){
       const annotations=context[card.id];
       if(strict)check(Array.isArray(annotations)&&annotations.length===card.chunks.length,
         card.id+': context entries must align with all chunks');
+      cardSources.set(card.id,(card.chunks||[]).map(ch=>ch.en));
       for(const [i,ch] of (card.chunks||[]).entries()){
         const chunkTokens=tokens(ch.en);
         const localWords=annotations?.[i]?.words||{};
@@ -64,7 +66,8 @@ for(const work of works){
           check(Array.isArray(annotations?.[i]?.phrases)&&annotations[i].phrases.length>0,
             card.id+' chunk '+(i+1)+': missing phrase explanation');
           for(const [word,meaning] of Object.entries(localWords)){
-            check(textSet.has(normalize(word)),card.id+' chunk '+(i+1)+': word '+word+' is absent from the English source');
+            check(word.includes(' ')?(' '+chunkTokens.join(' ')+' ').includes(' '+normalize(word)+' '):textSet.has(normalize(word)),
+              card.id+' chunk '+(i+1)+': word '+word+' is absent from the English source');
             check(typeof meaning?.ja==='string'&&meaning.ja.trim(),card.id+' chunk '+(i+1)+': '+word+' lacks a Japanese gloss');
           }
           for(const phrase of annotations?.[i]?.phrases||[]){
@@ -86,6 +89,43 @@ for(const work of works){
     }
   }
 }
+// 文脈訳の取り違え検査：作品全体で同じ語形に同じ訳を流用したときに起きやすい誤りを拾う。
+// CONTEXT_STRICT 以降の作品では失敗、それ以前は警告のみ。
+const CONTEXT_STRICT='20261122';
+const DETERMINERS=new Set(['the','a','an','this','that','these','those','his','her','its','their','our','my','your','one','each','every','any','some','all','both','machines','people','humans','him','them','us','me','it','whom','what','which']);
+const contextWarnings=[],contextFailures=[];
+for(const [cardId,annotations] of Object.entries(context)){
+  const date=cardId.slice(3,11);
+  for(const [i,ann] of (annotations||[]).entries()){
+    const w=ann?.words||{};
+    const src=cardSources.get(cardId)?.[i];
+    if(!src)continue;
+    const toks=tokens(src);
+    const issues=[];
+    toks.forEach((t,j)=>{
+      const next=toks[j+1]||'',prev=toks[j-1]||'';
+      const ja=w[t]?.ja||'';
+      if(!ja)return;
+      const multiCovered=Object.keys(w).some(k=>k.includes(' ')&&k.split(' ').includes(t)&&(' '+toks.join(' ')+' ').includes(' '+k+' '));
+      if(multiCovered)return;
+      if(t==='to'&&/ために/.test(ja)&&DETERMINERS.has(next))issues.push('to + '+next+' は前置詞なのに「'+ja+'」');
+      if(t==='sound'&&next==='like'&&!/聞こえ/.test(ja))issues.push('sound like なのに sound=「'+ja+'」');
+      if(t==='as'&&['if','well','though','long','soon'].includes(next))issues.push('as '+next+' なのに as=「'+ja+'」（句として登録）');
+      if(t==='need'&&next==='to'&&/必ずしも/.test(ja))issues.push('need to なのに need=「'+ja+'」');
+      if(t==='need'&&next==='not'&&!/必ずしも|必要はない/.test(ja))issues.push('need not なのに need=「'+ja+'」');
+      if(t==='that'&&j===0&&!DETERMINERS.has(next)&&/〜する・〜という/.test(ja))issues.push('文頭の That を関係詞扱い');
+      if((ja.match(/・/g)||[]).length>=2)issues.push(t+'=「'+ja+'」は辞書的な訳の羅列（文脈で一つに絞る）');
+      if(t==='rather'&&next==='than'&&!Object.prototype.hasOwnProperty.call(w,'rather than'))issues.push('rather than は句として登録');
+    });
+    for(const x of issues){
+      const msg=cardId+' chunk '+(i+1)+': '+x;
+      if(date>=CONTEXT_STRICT)contextFailures.push(msg);else contextWarnings.push(msg);
+    }
+  }
+}
+for(const m of contextFailures)check(false,m);
+if(contextWarnings.length)console.warn('文脈訳の要確認（旧作品・警告のみ）: '+contextWarnings.length+'件\n'+contextWarnings.slice(0,15).map(x=>'  '+x).join('\n'));
+
 for(const key of Object.keys(context)){
   check(checkedIds.has(key),'Context refers to a non-existent card: '+key);
 }

@@ -23,6 +23,17 @@
 | 〜しなければ、〜になる | If it does ... など、直前の指示対象を明確にする | Otherwise / そうでなければ、の参照先を誤る |
 | 原文の最後の比喩 | 自然訳にも意味を残す | 自然訳で結論だけ省いてしまう |
 
+## 文脈単語帳（essay-context-glossary.json）の書き方
+
+単語帳は「その文の中での意味」を書く場所で、辞書の見出しではない。2026-11-22 以前は作品全体で語形ごとに同じ訳を使い回していたため、`sound like` の sound が「妥当な」、`to an AI` の to が「〜するために」になるなどの誤りが多発した。次を必ず守る。
+
+1. **チャンクごとに訳を決める**：前の作品・前のチャンクの訳をコピーしない。同じ `to` でも不定詞（to create＝創作する）と前置詞（to machines＝機械へ）で訳が違う。
+2. **訳は一つに絞る**：「一つ・一人・ある」「〜のために・〜なので・〜の間」のような辞書的な列挙は禁止（`・` は1個まで）。
+3. **まとまりで意味が決まる表現は空白区切りのキーで登録**する（読書画面で1行にまとめて表示される）。例：`sound like` `as if` `as well as` `need not` `need to` `rather than` `those who` `part of` `send it back` `price tag` `is treated as`。キーは本文の連続した語と一致させる（`too ... to` のような飛び飛びは不可。phrases に書く）。
+4. **代名詞は指すものを書く**：`it`→「それ（＝その経験）」、`one`→「それ（＝売れること）」。
+5. **phrases は文の丸写しにしない**：学習者が他の文でも使える型（`dismiss A as B`、`not A but B`、`too 形容詞 for 人 to 動詞`）を取り出し、構文メモを付ける。
+6. `node scripts/validate-literature-glossary.mjs` は、to＋限定詞を「ために」と訳した、`sound like` の sound を形容詞で訳した、`as if` を「として」と訳した、訳の列挙、などを検出して失敗させる（2026-11-22 以降の作品）。検出されない誤りもあるため、意味監査は省略しない。
+
 ## 自動チェックと限界
 
 `node scripts/validate-essay-translations.mjs` は最近の日次エッセイについて、英語チャンクの漏れ、順序・本文不一致、空の対訳などを検出する。単語と句の登録は `node scripts/validate-literature-glossary.mjs` でも検査する。

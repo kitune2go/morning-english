@@ -228,11 +228,27 @@ function lemmaCandidates(word){
   if(word.endsWith("est")&&word.length>5)add(word.slice(0,-3),"最上級の可能性");
   return candidates;
 }
+function groupContextUnits(tokens,contextWords){
+  const multi=Object.keys(contextWords).filter(k=>k.includes(' '));
+  if(!multi.length)return tokens;
+  const maxLen=Math.max(...multi.map(k=>k.split(' ').length));
+  const norm=t=>t.toLowerCase().replace(/’/g,"'");
+  const out=[];
+  for(let i=0;i<tokens.length;){
+    let hit=0;
+    for(let n=Math.min(maxLen,tokens.length-i);n>=2;n--){
+      const key=tokens.slice(i,i+n).map(norm).join(' ');
+      if(Object.prototype.hasOwnProperty.call(contextWords,key)){hit=n;break;}
+    }
+    if(hit){out.push(tokens.slice(i,i+hit).join(' '));i+=hit;}else{out.push(tokens[i]);i++;}
+  }
+  return out;
+}
 function resolveWordGloss(token,contextWords){
   const key=normalizedWord(token);
   const context=Object.prototype.hasOwnProperty.call(contextWords,key)?contextWords[key]:null;
   const exact=wordGlossary.get(key);
-  if(context&&typeof context.ja==='string')return {info:{...(exact||{}),...context},kind:'文脈訳'};
+  if(context&&typeof context.ja==='string')return {info:{pos:exact?.pos,lemma:exact?.lemma,...context},kind:'文脈訳'};// 辞典の一般的な注記は文脈訳に混ぜない
   if(exact&&typeof exact.ja==='string')return {info:exact,kind:'一般語義'};
   for(const candidate of lemmaCandidates(key)){
     const base=wordGlossary.get(candidate.base);
@@ -266,7 +282,9 @@ function renderChunk(ch,i,card,withWords=false){
   const question='このチャンク内の全単語について、原文の語順で一語ずつ品詞・この文脈での意味・活用を教えてください。';
   const wordLink=askChatUrl(card,question,en);
   const tokens=en.match(/[\p{L}]+(?:['’\-][\p{L}]+)*/gu)||[];
-  const words=tokens.map(token=>{
+  // 句動詞・慣用句（"sound like" "as if" など）は文脈単語帳のキーに空白区切りで登録し、まとめて1行で表示する。
+  const units=groupContextUnits(tokens,contextWords);
+  const words=units.map(token=>{
     const key=token.toLowerCase().replace(/’/g,"'");
     const entry=resolveWordGloss(token,contextWords);
     const word=escapeHtml(token);
@@ -289,7 +307,7 @@ function renderChunk(ch,i,card,withWords=false){
     phrases.map(p=>'<div class="phrase-line"><div class="phrase-en" lang="en">'+escapeHtml(p.en)+'</div>'+
       '<div class="phrase-ja" lang="ja">'+escapeHtml(p.ja)+'</div>'+
       (p.note?'<div class="phrase-note" lang="ja">'+escapeHtml(p.note)+'</div>':'')+'</div>').join('')+'</div>':'';
-  const contextualCount=tokens.filter(t=>Object.prototype.hasOwnProperty.call(contextWords,t.toLowerCase().replace(/’/g,"'"))).length;
+  const contextualCount=units.filter(t=>Object.prototype.hasOwnProperty.call(contextWords,t.toLowerCase().replace(/’/g,"'"))).reduce((n,t)=>n+t.split(' ').length,0);
   const wordPanel='<details class="chunk-gloss"><summary>文脈単語帳（'+tokens.length+'語・文脈訳'+contextualCount+'語）</summary>'+
     '<p class="gloss-disclaimer">「文脈訳」はこの文章に合わせた意味、「一般語義」は辞典による参考訳です。単語だけで訳が決まらない表現は下の重要表現を参照してください。</p>'+
     phrasePanel+'<div class="chunk-words">'+words+'</div></details>';

@@ -13371,49 +13371,38 @@
     {
       "words": {
         "an": {
-          "ja": "一つの・ある"
+          "ja": "ある（一つの）"
         },
-        "inner": {
-          "ja": "内なる"
-        },
-        "voice": {
-          "ja": "声"
+        "inner voice": {
+          "ja": "内なる声・頭の中の声"
         },
         "that": {
-          "ja": "〜する・〜という"
+          "ja": "（関係代名詞）〜ような",
+          "pos": "関係代名詞"
         },
-        "does": {
-          "ja": "する"
+        "does not": {
+          "ja": "〜しない"
         },
-        "not": {
-          "ja": "〜ではない"
+        "sound like": {
+          "ja": "〜のように聞こえる"
         },
-        "sound": {
-          "ja": "妥当な"
-        },
-        "like": {
-          "ja": "〜のように"
-        },
-        "one's": {
-          "ja": "その人自身の"
-        },
-        "own": {
-          "ja": "自分自身の"
+        "one's own": {
+          "ja": "自分自身のもの（＝自分の声）"
         },
         "can": {
-          "ja": "〜しうる"
+          "ja": "〜することがある・〜しうる"
         },
         "receive": {
-          "ja": "与えられる"
+          "ja": "（名前を）与えられる・受け取る"
         },
         "different": {
           "ja": "異なる"
         },
         "names": {
-          "ja": "名前"
+          "ja": "名前・呼び名"
         },
         "in": {
-          "ja": "〜で"
+          "ja": "〜において"
         },
         "settings": {
           "ja": "場・文脈"
@@ -13421,52 +13410,48 @@
       },
       "phrases": [
         {
-          "en": "An inner voice that does not sound like one's own can receive different names in different settings.",
-          "ja": "自分の声のように聞こえない内なる声は、置かれた場によって異なる名前を与えられうる。",
-          "note": "同じ内なる声に異なる名が付くことを示す。"
+          "en": "sound like one's own",
+          "ja": "自分の声のように聞こえる",
+          "note": "sound like + 名詞 で「〜のように聞こえる」。sound はここでは動詞。"
+        },
+        {
+          "en": "receive different names",
+          "ja": "違う名で呼ばれる",
+          "note": "直訳は「異なる名前を受け取る」。"
         }
       ]
     },
     {
       "words": {
         "it": {
-          "ja": "それ"
+          "ja": "それ（＝その内なる声）"
         },
-        "may": {
-          "ja": "〜かもしれない・〜ことがある"
-        },
-        "be": {
-          "ja": "〜である"
-        },
-        "called": {
-          "ja": "呼ばれる"
+        "may be called": {
+          "ja": "〜と呼ばれることがある"
         },
         "divine": {
-          "ja": "神聖な・神のものとされる"
+          "ja": "神のもの・神の声"
         },
-        "treated": {
-          "ja": "扱われる"
-        },
-        "as": {
-          "ja": "〜として"
+        "treated as": {
+          "ja": "〜として扱われる"
         },
         "a": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
         "possible": {
-          "ja": "可能性のある"
+          "ja": "〜の可能性がある"
         },
         "symptom": {
-          "ja": "症状"
+          "ja": "（病気の）症状"
         },
         "or": {
-          "ja": "または"
+          "ja": "あるいは"
         },
         "jokingly": {
           "ja": "冗談めかして"
         },
         "dismissed": {
-          "ja": "片づけられる"
+          "ja": "片づけられる・取り合われない"
         },
         "by": {
           "ja": "〜によって"
@@ -13477,37 +13462,39 @@
         "hearer": {
           "ja": "聞いた本人"
         },
+        "as": {
+          "ja": "〜として"
+        },
         "mishearing": {
           "ja": "空耳・聞き違い"
         }
       },
       "phrases": [
         {
-          "en": "It may be called divine, treated as a possible symptom, or jokingly dismissed by the hearer as a mishearing.",
-          "ja": "それは神聖な声と呼ばれ、症状の可能性として扱われ、あるいは聞いた本人によって冗談めかして空耳として片づけられることがある。",
-          "note": "呼称が異なる文脈に依存するという導入。"
+          "en": "dismiss A as B",
+          "ja": "AをBだとして片づける",
+          "note": "ここでは受け身 be dismissed as a mishearing「空耳として片づけられる」。"
+        },
+        {
+          "en": "called divine",
+          "ja": "神の声と呼ばれる",
+          "note": "call + 目的語 + 形容詞「〜を…と呼ぶ」の受け身。"
         }
       ]
     },
     {
       "words": {
         "those": {
-          "ja": "そうした"
+          "ja": "それらの・そうした"
         },
         "labels": {
-          "ja": "名札・呼称"
+          "ja": "名札・呼び名"
         },
-        "do": {
-          "ja": "する"
+        "do not": {
+          "ja": "〜しない"
         },
-        "not": {
-          "ja": "〜ではない"
-        },
-        "by": {
-          "ja": "〜によって"
-        },
-        "themselves": {
-          "ja": "それ自体で"
+        "by themselves": {
+          "ja": "それ自体だけで"
         },
         "alter": {
           "ja": "変える"
@@ -13516,7 +13503,7 @@
           "ja": "その"
         },
         "underlying": {
-          "ja": "基にある"
+          "ja": "根底にある・元になっている"
         },
         "experience": {
           "ja": "経験"
@@ -13524,37 +13511,31 @@
       },
       "phrases": [
         {
-          "en": "Those labels do not by themselves alter the underlying experience.",
-          "ja": "そうした名札だけで、基にある経験そのものが変わるわけではない。",
-          "note": "名札と経験そのものを分ける。"
+          "en": "by themselves",
+          "ja": "それ自体では・それだけで",
+          "note": "「名札だけでは〜しない」という限定。by oneself の複数形。"
         }
       ]
     },
     {
       "words": {
-        "inner": {
-          "ja": "内なる"
+        "inner speech": {
+          "ja": "内言（頭の中で使う言葉）"
         },
-        "speech": {
-          "ja": "言葉・発話"
-        },
-        "need": {
-          "ja": "必ずしも〜する必要はない"
-        },
-        "not": {
-          "ja": "〜ではない"
+        "need not": {
+          "ja": "必ずしも〜とは限らない・〜する必要はない"
         },
         "arrive": {
-          "ja": "現れる"
+          "ja": "（頭に）現れる・届く"
         },
         "in": {
-          "ja": "〜で"
+          "ja": "〜で（声色の手段）"
         },
         "one's": {
-          "ja": "その人自身の"
+          "ja": "その人の"
         },
         "usual": {
-          "ja": "普段の"
+          "ja": "いつもの"
         },
         "voice": {
           "ja": "声"
@@ -13562,48 +13543,47 @@
         "and": {
           "ja": "そして"
         },
-        "part": {
-          "ja": "一部"
-        },
-        "of": {
-          "ja": "〜の"
+        "part of": {
+          "ja": "〜の一部"
         },
         "a": {
-          "ja": "一つの・ある"
+          "ja": "ある"
         },
         "thought": {
-          "ja": "思考"
+          "ja": "考え・思考"
         },
         "may": {
-          "ja": "〜かもしれない・〜ことがある"
+          "ja": "〜ことがある"
         },
         "feel": {
-          "ja": "感じられる"
+          "ja": "〜のように感じられる"
         },
-        "as": {
-          "ja": "〜として"
-        },
-        "if": {
-          "ja": "もし〜なら・〜かのように"
+        "as if": {
+          "ja": "まるで〜かのように"
         },
         "it": {
-          "ja": "それ"
+          "ja": "それ（＝思考の一部）"
         },
         "came": {
-          "ja": "来た"
+          "ja": "来た（仮定法過去）"
         },
         "from": {
           "ja": "〜から"
         },
         "elsewhere": {
-          "ja": "別の場所"
+          "ja": "よそ・別のところ"
         }
       },
       "phrases": [
         {
-          "en": "Inner speech need not arrive in one's usual voice, and part of a thought may feel as if it came from elsewhere.",
-          "ja": "内言語は普段の自分の声で現れるとは限らず、思考の一部が別の場所から来たように感じられることもある。",
-          "note": "内言語の声色と由来感覚を区別する。"
+          "en": "need not arrive in one's usual voice",
+          "ja": "いつもの自分の声で現れるとは限らない",
+          "note": "need not は助動詞で「〜する必要はない／〜とは限らない」。"
+        },
+        {
+          "en": "feel as if it came from elsewhere",
+          "ja": "よそから来たかのように感じられる",
+          "note": "as if の後は事実と違う想定なので過去形 came。"
         }
       ]
     },
@@ -13613,7 +13593,7 @@
           "ja": "〜する前に"
         },
         "judging": {
-          "ja": "評価すること"
+          "ja": "評価すること・判断すること"
         },
         "it": {
           "ja": "それ"
@@ -13621,22 +13601,16 @@
         "we": {
           "ja": "私たちは"
         },
-        "need": {
-          "ja": "必ずしも〜する必要はない"
-        },
-        "to": {
-          "ja": "〜するために"
+        "need to": {
+          "ja": "〜する必要がある"
         },
         "describe": {
-          "ja": "語る・記述する"
+          "ja": "記述する・言葉で表す"
         },
         "what": {
-          "ja": "何が・〜するもの"
+          "ja": "何が"
         },
-        "was": {
-          "ja": "〜だった"
-        },
-        "heard": {
+        "was heard": {
           "ja": "聞こえた"
         },
         "and": {
@@ -13651,9 +13625,9 @@
       },
       "phrases": [
         {
-          "en": "Before judging it, we need to describe what was heard and how it appeared.",
-          "ja": "それを評価する前に、何が聞こえ、どのように現れたのかを記述する必要がある。",
-          "note": "評価に先立つ記述の必要を結ぶ。"
+          "en": "what was heard and how it appeared",
+          "ja": "何が聞こえ、それがどう現れたか",
+          "note": "what／how で始まる名詞節が describe の目的語になっている。"
         }
       ]
     }
@@ -13662,25 +13636,19 @@
     {
       "words": {
         "labels": {
-          "ja": "名札・呼称"
+          "ja": "名札・呼び名"
         },
         "can": {
-          "ja": "〜しうる"
+          "ja": "〜することができる"
         },
         "rewrite": {
           "ja": "書き換える"
         },
-        "the": {
-          "ja": "その"
-        },
-        "past": {
+        "the past": {
           "ja": "過去"
         },
-        "as": {
-          "ja": "〜として"
-        },
-        "well": {
-          "ja": "同様に"
+        "as well as": {
+          "ja": "〜だけでなく…も"
         },
         "voices": {
           "ja": "声"
@@ -13688,37 +13656,28 @@
       },
       "phrases": [
         {
-          "en": "Labels can rewrite the past as well as voices.",
-          "ja": "名札は、声だけでなく過去も書き換えうる。",
-          "note": "名付けが過去にも及ぶと転換する。"
+          "en": "rewrite the past as well as voices",
+          "ja": "声だけでなく過去も書き換える",
+          "note": "A as well as B は「BだけでなくAも」。強調はAの the past 側。"
         }
       ]
     },
     {
       "words": {
-        "those": {
-          "ja": "そうした"
+        "those who": {
+          "ja": "〜する人たち"
         },
-        "who": {
-          "ja": "〜する人"
-        },
-        "are": {
-          "ja": "〜である"
-        },
-        "chosen": {
-          "ja": "選ばれた"
+        "are chosen": {
+          "ja": "選ばれる"
         },
         "may": {
-          "ja": "〜かもしれない・〜ことがある"
+          "ja": "〜ことがある"
         },
         "describe": {
-          "ja": "語る・記述する"
+          "ja": "言い表す"
         },
-        "years": {
-          "ja": "長年"
-        },
-        "of": {
-          "ja": "〜の"
+        "years of": {
+          "ja": "何年もの〜"
         },
         "effort": {
           "ja": "努力"
@@ -13730,22 +13689,28 @@
           "ja": "愛"
         },
         "while": {
-          "ja": "一方で"
+          "ja": "その一方で"
         },
         "the": {
           "ja": "その"
         },
         "equally": {
-          "ja": "同じほど"
+          "ja": "同じくらい"
         },
         "devoted": {
-          "ja": "打ち込んだ・献身的な"
+          "ja": "打ち込んだ"
         },
         "nights": {
-          "ja": "夜"
+          "ja": "夜々"
         },
-        "not": {
-          "ja": "〜ではない"
+        "of": {
+          "ja": "〜の"
+        },
+        "those": {
+          "ja": "人たち"
+        },
+        "not chosen": {
+          "ja": "選ばれなかった"
         },
         "disappear": {
           "ja": "消える"
@@ -13753,43 +13718,36 @@
         "from": {
           "ja": "〜から"
         },
-        "success": {
-          "ja": "成功"
-        },
-        "story": {
-          "ja": "物語"
+        "success story": {
+          "ja": "成功物語・サクセスストーリー"
         }
       },
       "phrases": [
         {
-          "en": "Those who are chosen may describe years of effort as love, while the equally devoted nights of those not chosen disappear from the success story.",
-          "ja": "選ばれた人は何年もの努力を愛と語れる一方、同じほど打ち込んだ選ばれなかった人々の夜は成功談から消える。",
-          "note": "選ばれた努力と消える夜を対比する。"
+          "en": "describe A as B",
+          "ja": "AをBと言い表す",
+          "note": "years of effort を love と言い換える、という構造。"
+        },
+        {
+          "en": "those not chosen",
+          "ja": "選ばれなかった人たち",
+          "note": "those (who are) not chosen の省略。"
         }
       ]
     },
     {
       "words": {
         "once": {
-          "ja": "ひとたび〜すると"
+          "ja": "いったん〜すると"
         },
         "victory": {
           "ja": "勝利"
         },
-        "is": {
-          "ja": "〜である"
+        "is explained as": {
+          "ja": "〜として説明される"
         },
-        "explained": {
-          "ja": "説明される"
-        },
-        "as": {
-          "ja": "〜として"
-        },
-        "proof": {
-          "ja": "証明"
-        },
-        "of": {
-          "ja": "〜の"
+        "proof of": {
+          "ja": "〜の証拠"
         },
         "love": {
           "ja": "愛"
@@ -13798,36 +13756,44 @@
           "ja": "その"
         },
         "passion": {
-          "ja": "熱意"
+          "ja": "情熱"
         },
-        "unsuccessful": {
-          "ja": "成功しなかった人々"
+        "of": {
+          "ja": "〜の"
         },
-        "recast": {
-          "ja": "再解釈される"
+        "the unsuccessful": {
+          "ja": "成功しなかった人たち"
+        },
+        "is recast as": {
+          "ja": "〜として描き直される"
         },
         "insufficient": {
-          "ja": "不足した"
+          "ja": "足りないもの"
         }
       },
       "phrases": [
         {
-          "en": "Once victory is explained as proof of love, the passion of the unsuccessful is recast as insufficient.",
-          "ja": "ひとたび勝利が愛の証明として説明されると、成功しなかった人々の熱意は不足していたものへ作り替えられる。",
-          "note": "勝利から熱意を逆算する作用を示す。"
+          "en": "the unsuccessful",
+          "ja": "成功しなかった人々",
+          "note": "the + 形容詞 で「〜な人々」。"
+        },
+        {
+          "en": "recast A as B",
+          "ja": "AをBとして作り直す・描き直す",
+          "note": "ここでは受け身。"
         }
       ]
     },
     {
       "words": {
         "a": {
-          "ja": "一つの・ある"
+          "ja": "ある"
         },
         "song": {
           "ja": "歌"
         },
         "from": {
-          "ja": "〜から"
+          "ja": "〜から生まれた"
         },
         "the": {
           "ja": "その"
@@ -13836,35 +13802,32 @@
           "ja": "対話"
         },
         "named": {
-          "ja": "名付けた"
+          "ja": "名づけた"
         },
         "this": {
           "ja": "この"
         },
         "retrospective": {
-          "ja": "回顧的な・事後的な"
+          "ja": "振り返って作られた・事後的な"
         },
         "story": {
-          "ja": "物語"
+          "ja": "話・物語"
         },
         "an": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
         "after-the-fact": {
           "ja": "事後の"
         },
-        "love": {
-          "ja": "愛"
-        },
-        "letter": {
-          "ja": "恋文・手紙"
+        "love letter": {
+          "ja": "恋文・ラブレター"
         }
       },
       "phrases": [
         {
-          "en": "A song from the conversation named this retrospective story an 'after-the-fact love letter.'",
-          "ja": "対話から生まれた歌は、この回顧的な物語を「事後恋文」と名付けた。",
-          "note": "歌が事後的説明へ名前を与える。"
+          "en": "name A B",
+          "ja": "AをBと名づける",
+          "note": "named this retrospective story an 'after-the-fact love letter'。"
         }
       ]
     },
@@ -13873,11 +13836,8 @@
         "love": {
           "ja": "愛"
         },
-        "may": {
-          "ja": "〜かもしれない・〜ことがある"
-        },
-        "indeed": {
-          "ja": "確かに"
+        "may indeed": {
+          "ja": "確かに〜することもある"
         },
         "sustain": {
           "ja": "支える"
@@ -13889,49 +13849,37 @@
           "ja": "しかし"
         },
         "when": {
-          "ja": "〜するとき"
+          "ja": "〜とき"
         },
         "it": {
-          "ja": "それ"
+          "ja": "それ（＝愛）"
         },
-        "is": {
-          "ja": "〜である"
-        },
-        "measured": {
+        "is measured": {
           "ja": "測られる"
         },
         "only": {
           "ja": "〜だけ"
         },
-        "backward": {
-          "ja": "結果から逆向きに"
-        },
-        "from": {
-          "ja": "〜から"
+        "backward from": {
+          "ja": "〜から逆算して"
         },
         "results": {
           "ja": "結果"
         },
-        "the": {
-          "ja": "その"
-        },
-        "word": {
-          "ja": "言葉"
+        "the word": {
+          "ja": "その言葉（＝愛という語）"
         },
         "becomes": {
           "ja": "〜になる"
         },
         "a": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
         "medal": {
-          "ja": "勲章"
+          "ja": "勲章・メダル"
         },
-        "reserved": {
-          "ja": "取っておかれた"
-        },
-        "for": {
-          "ja": "〜のために・〜に"
+        "reserved for": {
+          "ja": "〜のために取っておかれた・〜専用の"
         },
         "winners": {
           "ja": "勝者"
@@ -13939,9 +13887,14 @@
       },
       "phrases": [
         {
-          "en": "Love may indeed sustain effort, but when it is measured only backward from results, the word becomes a medal reserved for winners.",
-          "ja": "愛は確かに努力を支えることがあるが、結果から逆向きにだけ測られると、その言葉は勝者だけに取っておかれた勲章になる。",
-          "note": "愛を勝者だけの勲章にする条件を示す。"
+          "en": "may indeed ..., but ...",
+          "ja": "確かに〜かもしれないが…",
+          "note": "譲歩してから反論する型。"
+        },
+        {
+          "en": "reserved for winners",
+          "ja": "勝者だけに与えられる",
+          "note": "reserved for 〜「〜のために確保された」。"
         }
       ]
     }
@@ -13965,25 +13918,22 @@
           "ja": "成功"
         },
         "and": {
-          "ja": "そして"
+          "ja": "と"
         },
         "love": {
           "ja": "愛"
         },
         "lies": {
-          "ja": "存在する"
+          "ja": "ある・横たわる"
         },
         "another": {
-          "ja": "別の"
+          "ja": "もう一つの"
         },
         "assumption": {
-          "ja": "前提"
+          "ja": "前提・思い込み"
         },
-        "creative": {
-          "ja": "創作の"
-        },
-        "work": {
-          "ja": "作品・創作"
+        "creative work": {
+          "ja": "創作活動"
         },
         "must": {
           "ja": "〜しなければならない"
@@ -13997,61 +13947,50 @@
       },
       "phrases": [
         {
-          "en": "Behind the union of success and love lies another assumption: creative work must produce income.",
-          "ja": "成功と愛の結びつきの背後には、創作は収入を生まなければならないという別の前提がある。",
-          "note": "創作と収入を結ぶ前提を置く。"
+          "en": "Behind ... lies another assumption",
+          "ja": "〜の背後には別の前提がある",
+          "note": "場所の副詞句が文頭に出て、主語 another assumption と動詞 lies が倒置。"
         }
       ]
     },
     {
       "words": {
         "a": {
-          "ja": "一つの・ある"
+          "ja": "（一件の）"
         },
         "sale": {
-          "ja": "販売・売れたこと"
+          "ja": "売れること・販売"
         },
-        "is": {
-          "ja": "〜である"
+        "is treated as": {
+          "ja": "〜として扱われる"
         },
-        "treated": {
-          "ja": "扱われる"
-        },
-        "as": {
-          "ja": "〜として"
-        },
-        "proof": {
-          "ja": "証明"
-        },
-        "of": {
-          "ja": "〜の"
+        "proof of": {
+          "ja": "〜の証拠"
         },
         "talent": {
           "ja": "才能"
         },
         "and": {
-          "ja": "そして"
+          "ja": "と"
         },
         "devotion": {
-          "ja": "献身"
+          "ja": "打ち込み・献身"
         },
         "without": {
-          "ja": "〜なしで"
+          "ja": "〜がなければ"
         },
         "one": {
-          "ja": "一つ・一人・ある"
+          "ja": "それ（＝売れること）",
+          "pos": "代名詞"
         },
         "the": {
           "ja": "その"
         },
         "work": {
-          "ja": "作品・創作"
+          "ja": "作品"
         },
-        "demoted": {
-          "ja": "格下げされる"
-        },
-        "to": {
-          "ja": "〜するために"
+        "is demoted to": {
+          "ja": "〜に格下げされる"
         },
         "hobby": {
           "ja": "趣味"
@@ -14065,34 +14004,39 @@
       },
       "phrases": [
         {
-          "en": "A sale is treated as proof of talent and devotion; without one, the work is demoted to a hobby or failure.",
-          "ja": "売れたことは才能と献身の証明として扱われ、売れなければ作品は趣味や失敗へ格下げされる。",
-          "note": "販売結果が作品評価を変える仕組みを示す。"
+          "en": "without one",
+          "ja": "売れなければ",
+          "note": "one は前の a sale を受ける代名詞。"
+        },
+        {
+          "en": "be demoted to",
+          "ja": "〜に格下げされる",
+          "note": "to は前置詞（「〜へ」）。"
         }
       ]
     },
     {
       "words": {
         "remove": {
-          "ja": "外す"
+          "ja": "取り除け（命令形）"
         },
         "that": {
-          "ja": "〜する・〜という"
+          "ja": "その"
         },
         "assumption": {
           "ja": "前提"
         },
         "and": {
-          "ja": "そして"
+          "ja": "そうすれば"
         },
         "ai": {
           "ja": "AI"
         },
         "may": {
-          "ja": "〜かもしれない・〜ことがある"
+          "ja": "〜かもしれない"
         },
         "reduce": {
-          "ja": "下げる"
+          "ja": "減らす"
         },
         "the": {
           "ja": "その"
@@ -14110,23 +14054,23 @@
           "ja": "技能"
         },
         "without": {
-          "ja": "〜なしで"
+          "ja": "〜せずに"
         },
         "erasing": {
-          "ja": "消すこと"
+          "ja": "消し去ること"
         },
         "expression": {
           "ja": "表現"
         },
         "itself": {
-          "ja": "それ自体"
+          "ja": "そのもの"
         }
       },
       "phrases": [
         {
-          "en": "Remove that assumption, and AI may reduce the scarcity of production skills without erasing expression itself.",
-          "ja": "その前提を外せば、AIは表現そのものを消すことなく、制作技能の希少性を下げるかもしれない。",
-          "note": "AIによる希少性低下と表現の継続を両立させる。"
+          "en": "Remove that assumption, and ...",
+          "ja": "その前提を外せば〜",
+          "note": "命令文 + and で「〜すれば…」という条件。"
         }
       ]
     },
@@ -14135,35 +14079,29 @@
         "the": {
           "ja": "その"
         },
-        "right": {
-          "ja": "権利"
-        },
-        "to": {
-          "ja": "〜するために"
+        "right to": {
+          "ja": "〜する権利"
         },
         "create": {
           "ja": "創作する"
         },
-        "is": {
-          "ja": "〜である"
-        },
-        "not": {
-          "ja": "〜ではない"
-        },
-        "same": {
-          "ja": "同じ"
-        },
-        "as": {
-          "ja": "〜として"
+        "is not the same as": {
+          "ja": "〜と同じではない"
         },
         "a": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
+        },
+        "right": {
+          "ja": "権利"
+        },
+        "to": {
+          "ja": "〜する（不定詞）"
         },
         "earn": {
-          "ja": "得る"
+          "ja": "稼ぐ"
         },
         "market": {
-          "ja": "市場"
+          "ja": "市場の"
         },
         "income": {
           "ja": "収入"
@@ -14177,34 +14115,36 @@
       },
       "phrases": [
         {
-          "en": "The right to create is not the same as a right to earn market income from creation.",
-          "ja": "創作する権利は、創作から市場収入を得る権利と同じではない。",
-          "note": "創作権と市場収入の権利を区別する。"
+          "en": "the same as",
+          "ja": "〜と同じ",
+          "note": "ここでは as は比較の対象を示す。"
+        },
+        {
+          "en": "a right to earn",
+          "ja": "稼ぐ権利",
+          "note": "to + 動詞 が right を説明する（形容詞的用法）。"
         }
       ]
     },
     {
       "words": {
         "what": {
-          "ja": "何が・〜するもの"
+          "ja": "〜すること・もの（関係代名詞）"
         },
         "needs": {
-          "ja": "必要とされる"
+          "ja": "必要とする"
         },
         "dismantling": {
-          "ja": "解体すること"
+          "ja": "解体されること"
         },
-        "is": {
-          "ja": "〜である"
-        },
-        "not": {
+        "is not": {
           "ja": "〜ではない"
         },
         "creation": {
           "ja": "創作"
         },
         "but": {
-          "ja": "しかし"
+          "ja": "そうではなく"
         },
         "the": {
           "ja": "その"
@@ -14213,7 +14153,7 @@
           "ja": "結び目"
         },
         "that": {
-          "ja": "〜する・〜という"
+          "ja": "（関係代名詞）〜する"
         },
         "binds": {
           "ja": "縛りつける"
@@ -14231,25 +14171,25 @@
           "ja": "価格"
         },
         "to": {
-          "ja": "〜するために"
+          "ja": "〜に（前置詞）"
         },
         "one": {
-          "ja": "一つ・一人・ある"
+          "ja": "一つの"
         },
         "scale": {
-          "ja": "尺度"
+          "ja": "物差し・尺度"
         },
         "turns": {
           "ja": "変える"
         },
         "a": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
-        "tag": {
+        "price tag": {
           "ja": "値札"
         },
         "into": {
-          "ja": "〜へ"
+          "ja": "〜へ（変化）"
         },
         "certificate": {
           "ja": "証明書"
@@ -14263,9 +14203,24 @@
       },
       "phrases": [
         {
-          "en": "What needs dismantling is not creation, but the knot that binds skill, value, and price to one scale and turns a price tag into a certificate of the person.",
-          "ja": "解体すべきなのは創作ではなく、技能、価値、価格を一つの尺度へ縛り、値札をその人の証明書へ変える結び目である。",
-          "note": "解体対象を創作ではなく結び目へ限定する。"
+          "en": "What needs dismantling",
+          "ja": "解体すべきもの",
+          "note": "need + 動名詞 で「〜される必要がある」（受け身の意味）。"
+        },
+        {
+          "en": "not A but B",
+          "ja": "AではなくB",
+          "note": "not creation, but the knot ..."
+        },
+        {
+          "en": "bind A to B",
+          "ja": "AをBに縛りつける",
+          "note": "to はここでは前置詞。"
+        },
+        {
+          "en": "turn A into B",
+          "ja": "AをBに変える",
+          "note": "値札を人の証明書に変える。"
         }
       ]
     }
@@ -14277,54 +14232,51 @@
           "ja": "外すこと"
         },
         "a": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
         "label": {
           "ja": "名札"
         },
-        "does": {
-          "ja": "する"
-        },
-        "not": {
-          "ja": "〜ではない"
+        "does not": {
+          "ja": "〜しない"
         },
         "decide": {
           "ja": "決める"
         },
         "who": {
-          "ja": "〜する人"
+          "ja": "誰が"
         },
         "should": {
           "ja": "〜すべき"
         },
         "occupy": {
-          "ja": "担う・占める"
+          "ja": "占める・その位置に就く"
         },
         "the": {
           "ja": "その"
         },
         "space": {
-          "ja": "場所"
+          "ja": "空いた場所"
         },
         "it": {
-          "ja": "それ"
+          "ja": "それ（＝名札）"
         },
         "leaves": {
-          "ja": "残す"
+          "ja": "（後に）残す"
         }
       },
       "phrases": [
         {
-          "en": "Removing a label does not decide who should occupy the space it leaves.",
-          "ja": "名札を外しても、それが残す場所を誰が担うべきかは決まらない。",
-          "note": "名札を外した後の担い手は自動で決まらないと示す。"
+          "en": "the space it leaves",
+          "ja": "名札がなくなって空いた場所",
+          "note": "space の後に関係代名詞 that が省略されている。"
         }
       ]
     },
     {
       "words": {
         "neither": {
-          "ja": "どちらも〜ない"
+          "ja": "〜も…もない"
         },
         "the": {
           "ja": "その"
@@ -14333,16 +14285,16 @@
           "ja": "肩書き"
         },
         "of": {
-          "ja": "〜の"
+          "ja": "〜という"
         },
         "parent": {
           "ja": "親"
         },
         "nor": {
-          "ja": "〜もまた〜ない"
+          "ja": "〜もない"
         },
         "category": {
-          "ja": "分類"
+          "ja": "区分・カテゴリー"
         },
         "human": {
           "ja": "人間"
@@ -14351,7 +14303,8 @@
           "ja": "保証する"
         },
         "sound": {
-          "ja": "妥当な"
+          "ja": "確かな・健全な",
+          "pos": "形容詞"
         },
         "judgment": {
           "ja": "判断"
@@ -14359,37 +14312,39 @@
       },
       "phrases": [
         {
-          "en": "Neither the title of parent nor the category of human guarantees sound judgment.",
-          "ja": "親という肩書きも人間という分類も、妥当な判断を保証しない。",
-          "note": "親と人間の肩書きに自動保証がないと述べる。"
+          "en": "Neither A nor B",
+          "ja": "AもBも〜ない",
+          "note": "動詞は近いB側に合わせて単数 guarantees。"
+        },
+        {
+          "en": "sound judgment",
+          "ja": "確かな判断",
+          "note": "sound はここでは形容詞「健全な・しっかりした」。"
         }
       ]
     },
     {
       "words": {
-        "that": {
-          "ja": "〜する・〜という"
-        },
-        "day": {
-          "ja": "日"
+        "that day": {
+          "ja": "その日"
         },
         "brought": {
-          "ja": "もたらした・生んだ"
+          "ja": "もたらした"
         },
         "both": {
-          "ja": "両方"
+          "ja": "〜と…の両方"
         },
         "a": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
         "proposal": {
           "ja": "提案"
         },
         "to": {
-          "ja": "〜するために"
+          "ja": "〜する（不定詞）"
         },
         "reconsider": {
-          "ja": "問い直す"
+          "ja": "考え直す"
         },
         "parental": {
           "ja": "親の"
@@ -14398,25 +14353,22 @@
           "ja": "権限"
         },
         "when": {
-          "ja": "〜するとき"
+          "ja": "〜する場合に"
         },
         "it": {
-          "ja": "それ"
+          "ja": "それ（＝親権）"
         },
-        "is": {
-          "ja": "〜である"
-        },
-        "misused": {
-          "ja": "誤って行使される"
+        "is misused": {
+          "ja": "濫用される"
         },
         "and": {
           "ja": "そして"
         },
         "imagine": {
-          "ja": "構想する"
+          "ja": "思い描く"
         },
         "an": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
         "ai": {
           "ja": "AI"
@@ -14428,84 +14380,89 @@
           "ja": "歌"
         },
         "about": {
-          "ja": "〜について・周囲に"
+          "ja": "〜についての"
         },
         "problems": {
           "ja": "問題"
         },
         "too": {
-          "ja": "あまりに〜すぎる"
+          "ja": "あまりに"
         },
         "heavy": {
           "ja": "重い"
         },
         "for": {
-          "ja": "〜のために・〜に"
+          "ja": "（to不定詞の主語）〜が"
         },
         "humans": {
           "ja": "人間"
         },
         "solve": {
-          "ja": "解く"
+          "ja": "解決する"
         },
         "alone": {
-          "ja": "だけで"
+          "ja": "自分たちだけで"
         }
       },
       "phrases": [
         {
-          "en": "That day brought both a proposal to reconsider parental authority when it is misused and to imagine an AI cradle, and a song about problems too heavy for humans to solve alone.",
-          "ja": "その日には、誤って行使されるときの親の権限を問い直し、AIゆりかごを構想する提案と、人間だけで解くには重すぎる問題を歌う曲の両方が生まれた。",
-          "note": "親権の条件付き再考とAIゆりかご、歌を並べる。"
+          "en": "both A and B",
+          "ja": "AとBの両方",
+          "note": "A＝a proposal ...、B＝a song ...。"
+        },
+        {
+          "en": "too heavy for humans to solve alone",
+          "ja": "人間だけで解くには重すぎる",
+          "note": "too 形容詞 for 人 to 動詞「人が〜するには…すぎる」。"
         }
       ]
     },
     {
       "words": {
         "it": {
-          "ja": "それ"
+          "ja": "それ（＝その日）"
         },
         "also": {
-          "ja": "さらに"
+          "ja": "また"
         },
         "brought": {
-          "ja": "もたらした・生んだ"
+          "ja": "もたらした"
         },
         "a": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
         "practical": {
-          "ja": "実用的な"
+          "ja": "実践的な"
         },
         "plan": {
           "ja": "計画"
         },
         "to": {
-          "ja": "〜するために"
+          "ja": "〜するという（不定詞）"
         },
         "connect": {
           "ja": "つなぐ"
         },
         "several": {
-          "ja": "複数の"
+          "ja": "いくつかの"
         },
         "d": {
-          "ja": "3DのD"
+          "ja": "（3Dの）D"
         },
         "generators": {
-          "ja": "生成器"
+          "ja": "生成ツール"
         },
         "an": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
         "ai": {
           "ja": "AI"
         },
         "that": {
-          "ja": "〜する・〜という"
+          "ja": "（関係代名詞）〜する"
         },
         "could": {
-          "ja": "〜できた・〜できる"
+          "ja": "〜できる"
         },
         "evaluate": {
           "ja": "評価する"
@@ -14519,14 +14476,11 @@
         "and": {
           "ja": "そして"
         },
-        "send": {
-          "ja": "送り返す"
-        },
-        "back": {
-          "ja": "戻して"
+        "send it back": {
+          "ja": "それを差し戻す"
         },
         "for": {
-          "ja": "〜のために・〜に"
+          "ja": "〜のために"
         },
         "revision": {
           "ja": "修正"
@@ -14534,16 +14488,21 @@
       },
       "phrases": [
         {
-          "en": "It also brought a practical plan to connect several 3D generators to an AI that could evaluate their output and send it back for revision.",
-          "ja": "さらに、複数の三次元生成器を、出力を評価して修正へ送り返せるAIにつなぐ実用的な計画も生まれた。",
-          "note": "複数生成器と評価・修正ループの計画を示す。"
+          "en": "connect A to B",
+          "ja": "AをBにつなぐ",
+          "note": "2つ目の to は前置詞（to an AI）。"
+        },
+        {
+          "en": "send it back for revision",
+          "ja": "修正のために差し戻す",
+          "note": "send back「送り返す」の間に目的語 it が入る。"
         }
       ]
     },
     {
       "words": {
         "simply": {
-          "ja": "ただ"
+          "ja": "単に"
         },
         "transferring": {
           "ja": "移すこと"
@@ -14552,15 +14511,12 @@
           "ja": "権限"
         },
         "to": {
-          "ja": "〜するために"
+          "ja": "〜へ（前置詞）"
         },
         "machines": {
           "ja": "機械"
         },
-        "is": {
-          "ja": "〜である"
-        },
-        "not": {
+        "is not": {
           "ja": "〜ではない"
         },
         "the": {
@@ -14572,9 +14528,9 @@
       },
       "phrases": [
         {
-          "en": "Simply transferring authority to machines is not the answer.",
-          "ja": "ただ権限を機械へ移すことが答えなのではない。",
-          "note": "機械への単純移譲を否定する。"
+          "en": "transfer A to B",
+          "ja": "AをBへ移す",
+          "note": "動名詞 transferring が文の主語。"
         }
       ]
     },
@@ -14592,11 +14548,8 @@
         "is": {
           "ja": "〜である"
         },
-        "how": {
-          "ja": "どのように"
-        },
-        "to": {
-          "ja": "〜するために"
+        "how to": {
+          "ja": "どうやって〜するか"
         },
         "entrust": {
           "ja": "託す"
@@ -14604,26 +14557,26 @@
         "authority": {
           "ja": "権限"
         },
+        "to": {
+          "ja": "〜に（前置詞）"
+        },
         "an": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
         "inspectable": {
-          "ja": "検査可能な"
+          "ja": "点検できる"
         },
         "correctable": {
-          "ja": "修正可能な"
+          "ja": "修正できる"
         },
         "process": {
-          "ja": "過程"
+          "ja": "手順・過程"
         },
-        "rather": {
+        "rather than": {
           "ja": "〜ではなく"
         },
-        "than": {
-          "ja": "〜より"
-        },
         "a": {
-          "ja": "一つの・ある"
+          "ja": "ひとつの"
         },
         "title": {
           "ja": "肩書き"
@@ -14631,9 +14584,14 @@
       },
       "phrases": [
         {
-          "en": "The next question is how to entrust authority to an inspectable, correctable process rather than to a title.",
-          "ja": "次の問いは、肩書きではなく、検査でき修正できる過程へ、どう権限を託すかである。",
-          "note": "権限の預け先を肩書きから検査可能な過程へ移す。"
+          "en": "entrust A to B",
+          "ja": "AをBに託す",
+          "note": "to は前置詞。"
+        },
+        {
+          "en": "B rather than A",
+          "ja": "AではなくB",
+          "note": "肩書きではなく、点検・修正できる過程に。"
         }
       ]
     }

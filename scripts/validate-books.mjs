@@ -304,6 +304,12 @@ if(litMatch){
       check(output.includes('文脈単語帳（4語・文脈訳0語）')&&
         (output.match(/class="word-line"/g)||[]).length===4,
         "word list retains the full original token order");
+      const ctxRender=chunkFn(glossary,{example:[{words:{'sound like':{ja:'〜のように聞こえる'},inside:{ja:'内側の'}}}]},()=>'https://chatgpt.com/?prompt=example',
+        x=>String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;'),x=>String(x),()=>'<button>▶</button>');
+      const multi=ctxRender({en:'Voices inside may sound like noise',ja:'内側の声は雑音のように聞こえることがある'},0,{id:'example'},true);
+      check(multi.includes('<strong class="word-en" lang="en">sound like</strong>')&&multi.includes('〜のように聞こえる')&&
+        multi.includes('文脈単語帳（6語・文脈訳3語）')&&(multi.match(/class="word-line"/g)||[]).length===5,
+        "multi-word context entries are grouped into one glossary line");
     }catch(e){check(false,"mobile glossary rendering test: "+e.message);}
   }
 }
