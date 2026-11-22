@@ -4831,44 +4831,118 @@
         "precipitate": {
           "ja": "析出物"
         },
-        "distinction": {
-          "ja": "区別"
+        "every": {
+          "ja": "すべての"
         },
-        "interior": {
-          "ja": "材料内部"
+        "dark layer": {
+          "ja": "黒っぽい層"
+        },
+        "on": {
+          "ja": "〜の上の"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "steel section": {
+          "ja": "形鋼"
+        },
+        "would collapse": {
+          "ja": "崩してしまうだろう"
+        },
+        "the distinction between": {
+          "ja": "〜の間の区別"
+        },
+        "the material's surface": {
+          "ja": "材料の表面"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "its interior": {
+          "ja": "その内部"
         }
       },
       "phrases": [
         {
-          "en": "collapse the distinction between the material's surface and its interior",
-          "ja": "材料の表面と内部の区別を崩す",
-          "note": "collapse は物理的崩壊でなく概念上の区別を失わせる"
+          "en": "Calling every dark layer on a steel section a precipitate",
+          "ja": "黒い層をすべて析出物と呼ぶこと",
+          "note": "call＋目的語＋名詞。動名詞が主語で、would は仮定「もし〜すれば」。",
+          "pattern": "call A B"
+        },
+        {
+          "en": "the distinction between the material's surface and its interior",
+          "ja": "表面と内部の区別",
+          "note": "between A and B。",
+          "pattern": "distinction between A and B"
         }
       ]
     },
     {
       "words": {
-        "oxide": {
-          "ja": "酸化物の"
-        },
-        "scale": {
-          "ja": "酸化スケール"
-        },
         "slag": {
           "ja": "スラグ"
         },
-        "matrix": {
-          "ja": "母相"
+        "oxide scale": {
+          "ja": "酸化スケール（黒皮）"
         },
-        "grains": {
-          "ja": "結晶粒"
+        "formed at": {
+          "ja": "〜で生じた"
+        },
+        "high temperature": {
+          "ja": "高温"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "left after": {
+          "ja": "〜の後に残った"
+        },
+        "welding": {
+          "ja": "溶接"
+        },
+        "are": {
+          "ja": "〜である"
+        },
+        "surface products": {
+          "ja": "表面の生成物"
+        },
+        "precipitates": {
+          "ja": "析出物"
+        },
+        "form": {
+          "ja": "形成される"
+        },
+        "within grains": {
+          "ja": "結晶粒の内部に"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "along": {
+          "ja": "〜に沿って"
+        },
+        "grain boundaries": {
+          "ja": "結晶粒界"
+        },
+        "in": {
+          "ja": "〜の中の"
+        },
+        "the matrix": {
+          "ja": "母相"
         }
       },
       "phrases": [
         {
-          "en": "within grains or along grain boundaries in the matrix",
-          "ja": "母相の粒内または粒界に",
-          "note": "析出物が形成される内部位置を示す"
+          "en": "Oxide scale formed at high temperature and slag left after welding",
+          "ja": "高温で生じた酸化スケールと溶接後に残るスラグ",
+          "note": "formed／left がそれぞれの名詞を修飾。",
+          "pattern": "名詞 + 過去分詞"
+        },
+        {
+          "en": "form within grains or along grain boundaries in the matrix",
+          "ja": "母相の粒内や粒界にできる",
+          "note": "form はここで「形成される」。",
+          "pattern": "form（自動詞）"
         }
       ]
     },
@@ -4876,9 +4950,6 @@
       "words": {
         "precipitates": {
           "ja": "析出物"
-        },
-        "strengthen": {
-          "ja": "強化する"
         },
         "unfavorable": {
           "ja": "好ましくない"
@@ -4888,56 +4959,107 @@
         },
         "corrosion": {
           "ja": "腐食"
+        },
+        "heat treatment": {
+          "ja": "熱処理"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "use": {
+          "ja": "利用する"
+        },
+        "to strengthen": {
+          "ja": "強化するために"
+        },
+        "the metal": {
+          "ja": "金属"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "type": {
+          "ja": "種類"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "distribution": {
+          "ja": "分布"
+        },
+        "promote": {
+          "ja": "促す"
         }
       },
       "phrases": [
         {
-          "en": "while an unfavorable type or distribution can promote cracking or corrosion",
-          "ja": "一方、好ましくない種類や分布は割れや腐食を促すことがある",
-          "note": "while は強化作用との対照、can は条件付き可能性"
+          "en": "use precipitates to strengthen the metal",
+          "ja": "析出物を使って金属を強くする",
+          "note": "to は目的「〜するために」（析出強化）。",
+          "pattern": "use A to 動詞"
+        },
+        {
+          "en": "can promote cracking or corrosion",
+          "ja": "割れや腐食を促しうる",
+          "note": "promote「促進する」。",
+          "pattern": "promote 〜"
         }
       ]
     },
     {
       "words": {
-        "names": {
-          "ja": "名称"
-        },
-        "remain": {
-          "ja": "保たれる"
-        },
         "separate": {
           "ja": "別々の"
+        },
+        "the names": {
+          "ja": "それらの名前"
+        },
+        "must remain": {
+          "ja": "〜のままでなければならない"
         }
       },
       "phrases": [
         {
-          "en": "must remain separate",
-          "ja": "分けておかなければならない",
-          "note": "分類を維持する必要性"
+          "en": "The names must remain separate",
+          "ja": "名前は分けておかねばならない",
+          "note": "次のチャンクの because へ続く。",
+          "pattern": "remain 形容詞"
         }
       ]
     },
     {
       "words": {
-        "each": {
+        "because": {
+          "ja": "なぜなら"
+        },
+        "each one": {
           "ja": "それぞれ"
         },
-        "investigation": {
+        "leads": {
+          "ja": "導く"
+        },
+        "the investigation": {
           "ja": "調査"
         },
-        "different": {
-          "ja": "別の"
+        "back to": {
+          "ja": "〜へ戻って"
         },
-        "cause": {
-          "ja": "原因"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "different cause": {
+          "ja": "別の原因"
         }
       },
       "phrases": [
         {
           "en": "leads the investigation back to a different cause",
-          "ja": "調査を別の原因へ戻す",
-          "note": "名称ごとに追うべき生成過程・原因が異なる"
+          "ja": "調査を別の原因へとさかのぼらせる",
+          "note": "名前が原因の調べ方を決める。",
+          "pattern": "lead A back to B"
         }
       ]
     }
@@ -4951,44 +5073,118 @@
         "communicate": {
           "ja": "伝える"
         },
-        "breath": {
-          "ja": "息"
+        "a": {
+          "ja": "ひとつの"
         },
-        "drive": {
-          "ja": "押し出す"
+        "can": {
+          "ja": "〜できる"
         },
-        "relax": {
-          "ja": "ゆるめる"
+        "pitch": {
+          "ja": "音の高さ"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "duration": {
+          "ja": "長さ"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "symbols": {
+          "ja": "記号"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "sing": {
+          "ja": "歌う（ここでは「示す」の比喩）"
+        },
+        "how much breath": {
+          "ja": "どれだけの息を"
+        },
+        "to spend": {
+          "ja": "使うべきか"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "to drive": {
+          "ja": "押し出すべきか"
+        },
+        "the voice": {
+          "ja": "声"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "when": {
+          "ja": "いつ"
+        },
+        "to relax": {
+          "ja": "ゆるめるべきか"
+        },
+        "phrase": {
+          "ja": "フレーズ"
         }
       },
       "phrases": [
         {
           "en": "how much breath to spend, where to drive the voice, or when to relax a phrase",
-          "ja": "息をどれほど使い、どこで声を押し出し、いつフレーズをゆるめるか",
-          "note": "記号だけでは実演できない三つの身体的判断"
+          "ja": "どれだけ息を使い、どこで声を押し、いつゆるめるか",
+          "note": "疑問詞＋to不定詞を3つ並べる。",
+          "pattern": "疑問詞 + to 動詞"
         }
       ]
     },
     {
       "words": {
-        "lung": {
-          "ja": "肺の"
-        },
-        "bodily": {
-          "ja": "身体の"
-        },
-        "departing": {
-          "ja": "外れること"
-        },
         "sustaining": {
           "ja": "持続させること"
+        },
+        "lung capacity": {
+          "ja": "肺活量"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "bodily control": {
+          "ja": "体のコントロール"
+        },
+        "matter": {
+          "ja": "重要である"
+        },
+        "not as": {
+          "ja": "〜としてではなく"
+        },
+        "a means of": {
+          "ja": "〜する手段"
+        },
+        "departing from": {
+          "ja": "〜から外れること"
+        },
+        "the notes": {
+          "ja": "音符"
+        },
+        "but as": {
+          "ja": "…として"
+        },
+        "them": {
+          "ja": "それら（＝音符）"
+        },
+        "through time": {
+          "ja": "時間を通して"
         }
       },
       "phrases": [
         {
-          "en": "not as a means of departing from the notes, but as a means of sustaining them through time",
-          "ja": "音符から外れる手段としてではなく、時間の中で持続させる手段として",
-          "note": "身体性の目的を対比する。them は notes"
+          "en": "not as a means of departing from the notes, but as a means of sustaining them",
+          "ja": "音符から外れる手段ではなく保つ手段として",
+          "note": "as「〜として」の対比。",
+          "pattern": "not as A but as B"
         }
       ]
     },
@@ -5001,66 +5197,90 @@
           "ja": "帽子"
         },
         "face": {
-          "ja": "顔つき"
+          "ja": "顔"
         },
         "guarantee": {
           "ja": "保証する"
         },
         "recording": {
           "ja": "録音"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "or": {
+          "ja": "も"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "the value of": {
+          "ja": "〜の価値"
         }
       },
       "phrases": [
         {
           "en": "cannot guarantee the value of a recording",
           "ja": "録音の価値を保証できない",
-          "note": "外見的演出と録音内容の価値を区別する"
+          "note": "見た目の印では価値は決まらない。",
+          "pattern": "guarantee 〜"
         }
       ]
     },
     {
       "words": {
-        "substance": {
-          "ja": "実体"
-        },
         "singing": {
-          "ja": "歌唱"
+          "ja": "歌うこと"
         },
         "beyond": {
-          "ja": "向こう側に"
+          "ja": "〜の向こうに"
         },
-        "signals": {
-          "ja": "見える印"
+        "the substance of": {
+          "ja": "〜の本体"
+        },
+        "lies": {
+          "ja": "ある"
+        },
+        "those visible signals": {
+          "ja": "それらの見える印"
         }
       },
       "phrases": [
         {
-          "en": "The substance of singing lies beyond those visible signals",
-          "ja": "歌の実体はそれらの見える印の向こう側にある",
-          "note": "those visible signals は studio, hat, face を受ける"
+          "en": "lies beyond those visible signals",
+          "ja": "見える印の向こうにある",
+          "note": "lie「ある・存在する」。",
+          "pattern": "lie beyond 〜"
         }
       ]
     },
     {
       "words": {
-        "movement": {
-          "ja": "運動"
-        },
         "actually": {
           "ja": "実際に"
         },
         "reaches": {
           "ja": "届く"
         },
-        "ear": {
+        "in": {
+          "ja": "〜の中に"
+        },
+        "the movement": {
+          "ja": "動き"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "the ear": {
           "ja": "耳"
         }
       },
       "phrases": [
         {
-          "en": "the movement that actually reaches the ear",
-          "ja": "実際に耳へ届く運動",
-          "note": "息と身体が生む声の時間的な働きを指す"
+          "en": "in the movement that actually reaches the ear",
+          "ja": "実際に耳に届く動きの中に",
+          "note": "前チャンクの lies beyond ... に続く場所。",
+          "pattern": "that 節"
         }
       ]
     }
@@ -5071,122 +5291,190 @@
         "fitting": {
           "ja": "合わせること"
         },
-        "reference": {
-          "ja": "参照"
+        "the model": {
+          "ja": "モデル"
         },
-        "views": {
-          "ja": "三方向の画像"
+        "to": {
+          "ja": "〜に"
         },
-        "silhouette": {
-          "ja": "シルエット"
+        "three reference views": {
+          "ja": "三方向の参照画像"
         },
-        "overlap": {
-          "ja": "一致率"
+        "improved": {
+          "ja": "改善した"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "silhouette overlap": {
+          "ja": "シルエットの重なり具合"
         }
       },
       "phrases": [
         {
-          "en": "improved its silhouette overlap",
-          "ja": "シルエットの一致率を改善した",
-          "note": "全体品質ではなく投影輪郭の重なりを示す"
+          "en": "Fitting the model to three reference views",
+          "ja": "モデルを3方向の参照画像に合わせること",
+          "note": "動名詞が主語。",
+          "pattern": "fit A to B"
         }
       ]
     },
     {
       "words": {
-        "aggressive": {
-          "ja": "強い"
-        },
-        "correction": {
-          "ja": "補正"
-        },
         "bumps": {
-          "ja": "凹凸"
-        },
-        "distorted": {
-          "ja": "変形した"
+          "ja": "凸凹"
         },
         "edges": {
           "ja": "辺"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "aggressive correction": {
+          "ja": "強引な補正"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "produced": {
+          "ja": "生んだ"
+        },
+        "across": {
+          "ja": "〜全体に"
+        },
+        "the penguin's chest": {
+          "ja": "ペンギンの胸"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "increased": {
+          "ja": "増やした"
+        },
+        "the number of": {
+          "ja": "〜の数"
+        },
+        "heavily distorted": {
+          "ja": "大きくゆがんだ"
         }
       },
       "phrases": [
         {
           "en": "increased the number of heavily distorted edges",
-          "ja": "大きく変形した辺の数を増やした",
-          "note": "一致率改善と同時に生じた形状損傷"
+          "ja": "大きくゆがんだ辺の数を増やした",
+          "note": "heavily が distorted を強める。",
+          "pattern": "the number of 〜"
         }
       ]
     },
     {
       "words": {
-        "score": {
-          "ja": "評価値"
-        },
         "prove": {
           "ja": "証明する"
         },
-        "whole": {
-          "ja": "全体の"
+        "one": {
+          "ja": "ひとつの"
         },
-        "mesh": {
-          "ja": "メッシュ"
+        "better score": {
+          "ja": "良くなった数値"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "that": {
+          "ja": "（接続詞）〜ということ"
+        },
+        "the whole mesh": {
+          "ja": "メッシュ全体"
+        },
+        "had improved": {
+          "ja": "良くなっていた"
         }
       },
       "phrases": [
         {
           "en": "did not prove that the whole mesh had improved",
-          "ja": "メッシュ全体が改善したことの証明にはならなかった",
-          "note": "単一指標から全体品質を推論することを否定"
+          "ja": "全体が良くなった証明にはならなかった",
+          "note": "数値1つ≠全体の改善。",
+          "pattern": "prove that 〜"
         }
       ]
     },
     {
       "words": {
-        "review": {
-          "ja": "レビュー"
-        },
         "tracked": {
-          "ja": "追跡した"
+          "ja": "追った"
         },
-        "edge-length": {
-          "ja": "辺長の"
+        "the review": {
+          "ja": "確認"
         },
-        "normals": {
-          "ja": "法線"
+        "therefore": {
+          "ja": "そのため"
         },
-        "flipped": {
-          "ja": "反転した"
+        "edge-length changes": {
+          "ja": "辺の長さの変化"
+        },
+        "disturbed normals": {
+          "ja": "乱れた法線"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "flipped faces": {
+          "ja": "裏返った面"
+        },
+        "separately": {
+          "ja": "別々に"
         }
       },
       "phrases": [
         {
-          "en": "tracked edge-length changes, disturbed normals, and flipped faces separately",
-          "ja": "辺長変化、乱れた法線、反転面を別々に追跡した",
-          "note": "形状健全性を複数の独立指標で確認する"
+          "en": "and flipped faces separately",
+          "ja": "それぞれを別々に追った",
+          "note": "指標を分けて見る。",
+          "pattern": "track 〜 separately"
         }
       ]
     },
     {
       "words": {
-        "approached": {
-          "ja": "近づいた"
+        "image overlap": {
+          "ja": "画像の重なり"
         },
-        "geometric": {
-          "ja": "形状の"
+        "showed": {
+          "ja": "示した"
         },
-        "evidence": {
-          "ja": "証拠"
+        "what": {
+          "ja": "何を"
         },
-        "damaged": {
-          "ja": "損なった"
+        "the model": {
+          "ja": "モデル"
+        },
+        "had approached": {
+          "ja": "近づいたか"
+        },
+        "geometric evidence": {
+          "ja": "形状の証拠"
+        },
+        "it": {
+          "ja": "それ（＝モデル）"
+        },
+        "had damaged": {
+          "ja": "損なったか"
+        },
+        "along the way": {
+          "ja": "その途中で"
         }
       },
       "phrases": [
         {
           "en": "what it had damaged along the way",
-          "ja": "その途中で何を損なったか",
-          "note": "it は model を指し、接近過程の副作用を表す"
+          "ja": "途中で何を損なったか",
+          "note": "along the way「その過程で」。",
+          "pattern": "along the way"
         }
       ]
     }
@@ -5198,98 +5486,198 @@
           "ja": "誤差逆伝播"
         },
         "stop": {
-          "ja": "終わる"
+          "ja": "止まる"
         },
         "error": {
           "ja": "誤差"
         },
-        "output": {
-          "ja": "出力"
+        "does not": {
+          "ja": "〜しない"
+        },
+        "after finding": {
+          "ja": "見つけた後で"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "at the output": {
+          "ja": "出力のところで"
         }
       },
       "phrases": [
         {
           "en": "does not stop after finding an error at the output",
-          "ja": "出力で誤差を見つけただけでは終わらない",
-          "note": "誤差発見後に勾配計算が続く"
+          "ja": "出力で誤差を見つけて終わりではない",
+          "note": "after＋動名詞。",
+          "pattern": "after -ing"
         }
       ]
     },
     {
       "words": {
-        "prediction": {
+        "contributed": {
+          "ja": "寄与したか"
+        },
+        "it": {
+          "ja": "それ（＝誤差逆伝播）"
+        },
+        "measures": {
+          "ja": "測る"
+        },
+        "the difference between": {
+          "ja": "〜の間の差"
+        },
+        "the prediction": {
           "ja": "予測"
         },
-        "target": {
-          "ja": "正解・目標値"
+        "and": {
+          "ja": "と"
         },
-        "chain": {
-          "ja": "連鎖"
+        "the target": {
+          "ja": "正解"
         },
-        "weight": {
-          "ja": "重み"
+        "then": {
+          "ja": "それから"
         },
-        "contributed": {
-          "ja": "寄与した"
+        "uses": {
+          "ja": "使う"
+        },
+        "the chain rule": {
+          "ja": "連鎖律"
+        },
+        "to trace": {
+          "ja": "たどるために"
+        },
+        "how much": {
+          "ja": "どれだけ"
+        },
+        "each weight": {
+          "ja": "各重み"
+        },
+        "moving from": {
+          "ja": "〜から進みながら"
+        },
+        "the later layers": {
+          "ja": "後ろの層"
+        },
+        "toward": {
+          "ja": "〜へ"
+        },
+        "the earlier ones": {
+          "ja": "前の層"
         }
       },
       "phrases": [
         {
+          "en": "uses the chain rule to trace how much each weight contributed",
+          "ja": "連鎖律を使って各重みの寄与をたどる",
+          "note": "how much 節が trace の目的語。",
+          "pattern": "use A to 動詞 / how much 〜"
+        },
+        {
           "en": "moving from the later layers toward the earlier ones",
-          "ja": "後ろの層から前の層へ移りながら",
-          "note": "逆伝播の計算方向。ones は layers"
+          "ja": "後ろの層から前の層へ進みながら",
+          "note": "ones は layers を受ける代名詞。",
+          "pattern": "分詞構文"
         }
       ]
     },
     {
       "words": {
-        "procedure": {
-          "ja": "手続き"
-        },
         "updates": {
           "ja": "更新する"
         },
-        "weights": {
-          "ja": "重み"
-        },
-        "separate": {
-          "ja": "別の"
-        },
         "carries": {
           "ja": "運ぶ"
+        },
+        "the procedure": {
+          "ja": "手続き"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "actually": {
+          "ja": "実際に"
+        },
+        "the weights": {
+          "ja": "重み"
+        },
+        "is separate": {
+          "ja": "別である"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "backpropagation": {
+          "ja": "誤差逆伝播"
+        },
+        "the information": {
+          "ja": "情報"
+        },
+        "needed to": {
+          "ja": "〜するのに必要な"
+        },
+        "decide": {
+          "ja": "決める"
+        },
+        "what to change": {
+          "ja": "何を変えるべきか"
         }
       },
       "phrases": [
         {
-          "en": "The procedure that actually updates the weights is separate",
-          "ja": "重みを実際に更新する手続きは別である",
-          "note": "勾配計算と最適化による更新を混同しない"
+          "en": "the information needed to decide what to change",
+          "ja": "何を変えるか決めるのに必要な情報",
+          "note": "needed 以下が information を修飾。",
+          "pattern": "what to 動詞"
         }
       ]
     },
     {
       "words": {
-        "surface": {
-          "ja": "表面の見え方"
-        },
         "performance": {
           "ja": "演奏"
         },
-        "overlap": {
-          "ja": "画像の一致"
-        },
-        "appearance": {
-          "ja": "見栄え"
-        },
         "alter": {
           "ja": "変える"
+        },
+        "surface appearance": {
+          "ja": "表面の見た目"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "image overlap": {
+          "ja": "画像の重なり"
+        },
+        "share": {
+          "ja": "共有している"
+        },
+        "the same problem": {
+          "ja": "同じ問題"
+        },
+        "praising": {
+          "ja": "褒めること"
+        },
+        "the appearance": {
+          "ja": "見た目"
+        },
+        "at the output": {
+          "ja": "出力のところでの"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "the cause": {
+          "ja": "原因"
         }
       },
       "phrases": [
         {
           "en": "praising the appearance at the output does not alter the cause",
-          "ja": "出口の見栄えを褒めても原因は変わらない",
-          "note": "観察結果の評価だけでは上流原因を修正できない"
+          "ja": "出口の見た目を褒めても原因は変わらない",
+          "note": "コロン以下が problem の中身。",
+          "pattern": "動名詞の主語"
         }
       ]
     },
@@ -5298,24 +5686,46 @@
         "audit": {
           "ja": "監査"
         },
-        "remaining": {
-          "ja": "残った"
-        },
         "carrying": {
-          "ja": "運び戻すこと"
+          "ja": "運ぶこと"
         },
         "correction": {
           "ja": "修正"
         },
-        "possible": {
-          "ja": "可能な"
+        "an": {
+          "ja": "ひとつの"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the work of": {
+          "ja": "〜する作業"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "remaining error": {
+          "ja": "残った誤差"
+        },
+        "back to": {
+          "ja": "〜まで戻して"
+        },
+        "place": {
+          "ja": "場所"
+        },
+        "where": {
+          "ja": "（関係副詞）〜できる"
+        },
+        "is possible": {
+          "ja": "可能である"
         }
       },
       "phrases": [
         {
           "en": "carrying a remaining error back to a place where correction is possible",
-          "ja": "残った誤差を修正可能な場所まで運び戻すこと",
-          "note": "監査を原因へ戻る情報経路として表す"
+          "ja": "残った誤差を直せる場所まで運び戻す",
+          "note": "where 節が place を修飾。",
+          "pattern": "carry A back to B"
         }
       ]
     }
@@ -5323,44 +5733,76 @@
   "DE-20261105-001": [
     {
       "words": {
-        "fixed": {
-          "ja": "固定された"
+        "a": {
+          "ja": "ひとつの"
         },
-        "url": {
-          "ja": "URL・ウェブ上の住所"
+        "fixed url": {
+          "ja": "固定URL"
         },
-        "doorway": {
-          "ja": "入口"
+        "can": {
+          "ja": "〜できる"
+        },
+        "keep": {
+          "ja": "保つ"
+        },
+        "the same doorway": {
+          "ja": "同じ入口"
+        },
+        "in place": {
+          "ja": "その場所に"
         }
       },
       "phrases": [
         {
           "en": "keep the same doorway in place",
           "ja": "同じ入口をその場所に保つ",
-          "note": "URLが入口の位置だけを固定する比喩"
+          "note": "in place「所定の位置に」。",
+          "pattern": "keep A in place"
         }
       ]
     },
     {
       "words": {
-        "assets": {
-          "ja": "素材データ"
-        },
-        "model": {
-          "ja": "モデル"
-        },
         "load": {
           "ja": "読み込まれる"
         },
-        "empty": {
-          "ja": "空の"
+        "yet": {
+          "ja": "しかし"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "the assets": {
+          "ja": "素材データ"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "model data": {
+          "ja": "モデルデータ"
+        },
+        "no longer": {
+          "ja": "もはや〜しない"
+        },
+        "the room": {
+          "ja": "部屋"
+        },
+        "beyond": {
+          "ja": "〜の向こうの"
+        },
+        "that doorway": {
+          "ja": "その入口"
+        },
+        "is empty": {
+          "ja": "空である"
         }
       },
       "phrases": [
         {
-          "en": "the room beyond that doorway is empty",
-          "ja": "その入口の向こうの部屋は空である",
-          "note": "URLは開くが必要な内部データがない状態"
+          "en": "no longer load",
+          "ja": "もう読み込まれない",
+          "note": "no longer「もはや〜ない」。",
+          "pattern": "no longer 〜"
         }
       ]
     },
@@ -5372,64 +5814,112 @@
         "references": {
           "ja": "参照関係"
         },
-        "loading": {
-          "ja": "読み込み"
+        "an": {
+          "ja": "ひとつの"
         },
-        "order": {
-          "ja": "順序"
+        "identifies": {
+          "ja": "示す・特定する"
         },
-        "resume": {
-          "ja": "再開する"
+        "where to enter": {
+          "ja": "どこから入るか"
+        },
+        "it": {
+          "ja": "それ（＝アドレス）"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "preserve": {
+          "ja": "保存する"
+        },
+        "the files": {
+          "ja": "ファイル"
+        },
+        "or": {
+          "ja": "も"
+        },
+        "loading order": {
+          "ja": "読み込み順"
+        },
+        "needed for": {
+          "ja": "〜に必要な"
+        },
+        "work": {
+          "ja": "作業"
+        },
+        "to resume": {
+          "ja": "再開するのに"
         }
       },
       "phrases": [
         {
           "en": "needed for work to resume",
-          "ja": "作業を再開するために必要な",
-          "note": "files, references, loading order の三項を修飾"
+          "ja": "作業が再開するのに必要な",
+          "note": "for work が resume の意味上の主語。needed 以下が前の名詞を修飾。",
+          "pattern": "for A to 動詞"
         }
       ]
     },
     {
       "words": {
         "stability": {
-          "ja": "安定性"
+          "ja": "安定"
         },
-        "survival": {
-          "ja": "存続"
+        "is not": {
+          "ja": "〜ではない"
         },
-        "label": {
-          "ja": "名札・表示名"
+        "the survival of": {
+          "ja": "〜が生き残ること"
+        },
+        "a label": {
+          "ja": "名札"
         }
       },
       "phrases": [
         {
-          "en": "not the survival of a label",
+          "en": "is not the survival of a label",
           "ja": "名札が残り続けることではない",
-          "note": "安定を表示名の存続だけで定義しない"
+          "note": "名前だけ残っても中身がないと意味がない。",
+          "pattern": "survival of 〜"
         }
       ]
     },
     {
       "words": {
-        "ability": {
-          "ja": "能力・可能性"
-        },
         "recover": {
           "ja": "取り戻す"
         },
-        "state": {
+        "it": {
+          "ja": "それ（＝安定）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the ability to": {
+          "ja": "〜できること"
+        },
+        "the state": {
           "ja": "状態"
         },
-        "meant": {
-          "ja": "意図されていた"
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "the label": {
+          "ja": "その名札"
+        },
+        "was meant to": {
+          "ja": "〜するはずだった"
+        },
+        "open": {
+          "ja": "開く"
         }
       },
       "phrases": [
         {
           "en": "the state that the label was meant to open",
-          "ja": "その名札が開くはずだった状態",
-          "note": "that は state を修飾し、label が入口表示を指す"
+          "ja": "名札が開くはずだった状態",
+          "note": "be meant to「〜することになっている」。",
+          "pattern": "be meant to 動詞"
         }
       ]
     }
@@ -5437,74 +5927,125 @@
   "DE-20261105-002": [
     {
       "words": {
-        "red-pen": {
-          "ja": "赤ペンの・修正指示用の"
-        },
         "merges": {
-          "ja": "統合する"
+          "ja": "一つにまとめる"
         },
-        "parts": {
-          "ja": "部品"
+        "when": {
+          "ja": "〜とき"
         },
-        "editable": {
-          "ja": "編集可能な"
+        "red-pen mode": {
+          "ja": "赤ペンモード"
         },
-        "boundaries": {
-          "ja": "境界"
+        "previously": {
+          "ja": "以前は"
+        },
+        "separate parts": {
+          "ja": "別々の部品"
+        },
+        "the model": {
+          "ja": "モデル"
+        },
+        "may still look": {
+          "ja": "まだ〜に見えるかもしれない"
+        },
+        "unchanged": {
+          "ja": "変わっていない"
+        },
+        "on screen": {
+          "ja": "画面上では"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "editable boundaries": {
+          "ja": "編集できる境目"
+        },
+        "disappear": {
+          "ja": "消える"
         }
       },
       "phrases": [
         {
-          "en": "may still look unchanged on screen, but its editable boundaries disappear",
-          "ja": "画面上では変わらなく見えても、編集可能な境界は消える",
-          "note": "外観の不変と編集構造の喪失の対比"
+          "en": "may still look unchanged on screen",
+          "ja": "画面上は変わらないように見えるかもしれない",
+          "note": "look＋形容詞「〜に見える」。",
+          "pattern": "look 形容詞"
         }
       ]
     },
     {
       "words": {
         "mesh": {
-          "ja": "3Dメッシュ"
+          "ja": "メッシュ"
         },
         "silhouette": {
-          "ja": "輪郭・シルエット"
+          "ja": "輪郭"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "is not only": {
+          "ja": "〜だけではない"
         }
       },
       "phrases": [
         {
-          "en": "not only a silhouette",
+          "en": "is not only a silhouette",
           "ja": "輪郭だけではない",
-          "note": "メッシュを外形だけに還元しない"
+          "note": "次の文で「他に何があるか」を述べる。",
+          "pattern": "not only 〜"
         }
       ]
     },
     {
       "words": {
         "hierarchy": {
-          "ja": "階層構造"
-        },
-        "transforms": {
-          "ja": "個別の変形情報"
-        },
-        "component": {
-          "ja": "部品"
+          "ja": "階層"
         },
         "record": {
           "ja": "記録する"
+        },
+        "part names": {
+          "ja": "部品名"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "separate transforms": {
+          "ja": "個別の変形情報"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "one component": {
+          "ja": "ある部品"
+        },
+        "ends": {
+          "ja": "終わる"
+        },
+        "another": {
+          "ja": "別の部品"
+        },
+        "begins": {
+          "ja": "始まる"
         }
       },
       "phrases": [
         {
           "en": "where one component ends and another begins",
-          "ja": "一つの部品が終わり、別の部品が始まる場所",
-          "note": "部品境界を表す間接疑問節"
+          "ja": "ある部品がどこで終わり別の部品がどこで始まるか",
+          "note": "one／another で「一方／もう一方」。",
+          "pattern": "one ... another"
         }
       ]
     },
     {
       "words": {
         "flattening": {
-          "ja": "階層や境界を平坦化して一体化すること"
+          "ja": "一体化すること"
         },
         "simplicity": {
           "ja": "単純さ"
@@ -5514,36 +6055,65 @@
         },
         "correction": {
           "ja": "修正"
+        },
+        "them": {
+          "ja": "それら（＝部品名・階層など）"
+        },
+        "creates": {
+          "ja": "生み出す"
+        },
+        "for display": {
+          "ja": "表示のための"
+        },
+        "by taking": {
+          "ja": "奪うことで"
+        },
+        "away from": {
+          "ja": "〜から"
         }
       },
       "phrases": [
         {
           "en": "by taking precision away from correction",
           "ja": "修正から精度を奪うことで",
-          "note": "表示単純化の代償を示す by 句"
+          "note": "by＋動名詞で手段。",
+          "pattern": "take A away from B"
         }
       ]
     },
     {
       "words": {
-        "editor": {
-          "ja": "編集画面・編集ツール"
-        },
         "preserve": {
-          "ja": "保存する"
+          "ja": "保つ"
         },
-        "joints": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "useful editor": {
+          "ja": "役に立つ編集ツール"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "the joints": {
           "ja": "継ぎ目"
         },
-        "change": {
-          "ja": "変更"
+        "at which": {
+          "ja": "そこで"
+        },
+        "the next change": {
+          "ja": "次の変更"
+        },
+        "can be made": {
+          "ja": "加えられる"
         }
       },
       "phrases": [
         {
           "en": "the joints at which the next change can be made",
           "ja": "次の変更を加えられる継ぎ目",
-          "note": "at which は変更可能な位置を限定する"
+          "note": "前置詞＋関係代名詞。",
+          "pattern": "at which 〜"
         }
       ]
     }
@@ -5551,102 +6121,163 @@
   "DE-20261105-003": [
     {
       "words": {
-        "source": {
-          "ja": "元の・参照元の"
-        },
-        "image": {
-          "ja": "画像"
-        },
         "decoration": {
           "ja": "飾り"
         },
-        "edited": {
-          "ja": "編集済みの"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "source image": {
+          "ja": "元画像"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "placed beside": {
+          "ja": "〜の横に置かれた"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "edited model": {
+          "ja": "編集済みのモデル"
         }
       },
       "phrases": [
         {
-          "en": "not decoration placed beside an edited model",
-          "ja": "編集済みモデルの横へ置く飾りではない",
-          "note": "元画像の役割を装飾から比較基準へ移す"
+          "en": "decoration placed beside an edited model",
+          "ja": "編集済みモデルの横に置かれた飾り",
+          "note": "placed 以下が decoration を修飾。",
+          "pattern": "名詞 + 過去分詞"
         }
       ]
     },
     {
       "words": {
         "overlay": {
-          "ja": "重ね合わせ表示"
+          "ja": "重ね合わせ"
         },
-        "comparison": {
-          "ja": "比較"
+        "together with": {
+          "ja": "〜と一緒に"
         },
-        "record": {
-          "ja": "記録"
+        "the camera view": {
+          "ja": "カメラの視点"
         },
-        "datum": {
-          "ja": "比較判断の基準"
+        "and": {
+          "ja": "そして"
+        },
+        "comparison record": {
+          "ja": "比較の記録"
+        },
+        "it": {
+          "ja": "それ（＝元画像）"
+        },
+        "serves as": {
+          "ja": "〜の役目を果たす"
+        },
+        "the datum": {
+          "ja": "基準（データム）"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "explains": {
+          "ja": "説明する"
+        },
+        "what was changed": {
+          "ja": "何が変えられたか"
+        },
+        "why": {
+          "ja": "なぜ"
         }
       },
       "phrases": [
         {
           "en": "serves as the datum that explains what was changed and why",
-          "ja": "何をなぜ変えたかを説明する基準として働く",
-          "note": "datum は機械原点ではなく比較の拠り所"
+          "ja": "何をなぜ変えたかを説明する基準になる",
+          "note": "datum は加工でいう「基準（データム）」と同じ語。",
+          "pattern": "serve as 〜"
         }
       ]
     },
     {
       "words": {
-        "evidence": {
-          "ja": "証拠・根拠"
-        },
-        "later": {
-          "ja": "後の"
-        },
-        "correction": {
-          "ja": "修正"
-        },
         "guess": {
           "ja": "推測"
         },
-        "appearance": {
-          "ja": "見た目"
+        "without": {
+          "ja": "〜がなければ"
+        },
+        "that evidence": {
+          "ja": "その証拠"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "later correction": {
+          "ja": "後の修正"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "guided": {
+          "ja": "導かれた"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "by": {
+          "ja": "〜によって"
+        },
+        "the latest appearance": {
+          "ja": "最新の見た目"
         }
       },
       "phrases": [
         {
           "en": "a guess guided only by the latest appearance",
-          "ja": "最新の見た目だけに導かれた推測",
-          "note": "証拠を失った後の修正状態"
+          "ja": "最新の見た目だけを頼りにした推測",
+          "note": "guided 以下が guess を修飾。",
+          "pattern": "名詞 + 過去分詞"
         }
       ]
     },
     {
       "words": {
         "preserving": {
-          "ja": "保存すること"
+          "ja": "保つこと"
         },
         "context": {
           "ja": "文脈"
         },
-        "target": {
+        "means": {
+          "ja": "意味する"
+        },
+        "keeping": {
+          "ja": "保つこと"
+        },
+        "the target": {
           "ja": "目標"
         },
-        "observation": {
+        "the observation": {
           "ja": "観察"
         },
-        "difference": {
+        "and": {
+          "ja": "と"
+        },
+        "the difference": {
           "ja": "差分"
         },
-        "frame": {
-          "ja": "同一の比較画面"
+        "in the same frame": {
+          "ja": "同じ画面に"
         }
       },
       "phrases": [
         {
-          "en": "keeping the target, the observation, and the difference in the same frame",
-          "ja": "目標、観察、差分を同じ画面に残すこと",
-          "note": "比較に必要な三要素を同時表示する"
+          "en": "means keeping the target, the observation, and the difference in the same frame",
+          "ja": "目標・観察・差分を同じ画面に置いておくことだ",
+          "note": "mean＋動名詞「〜することを意味する」。",
+          "pattern": "mean -ing"
         }
       ]
     },
@@ -5655,18 +6286,34 @@
         "revision": {
           "ja": "修正"
         },
-        "examined": {
-          "ja": "検証される"
-        },
         "repeated": {
           "ja": "繰り返される"
+        },
+        "only then": {
+          "ja": "そうして初めて"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "be examined": {
+          "ja": "検証される"
+        },
+        "instead of": {
+          "ja": "〜ではなく"
+        },
+        "merely": {
+          "ja": "単に"
         }
       },
       "phrases": [
         {
-          "en": "Only then can a revision be examined instead of merely repeated",
-          "ja": "そうして初めて、修正はただ繰り返されるのでなく検証できる",
-          "note": "Only then の倒置と instead of の対比"
+          "en": "Only then can a revision be examined",
+          "ja": "そうして初めて修正は検証できる",
+          "note": "only が文頭に出ると疑問文の語順（can a revision）になる。",
+          "pattern": "only then + 倒置"
         }
       ]
     }
@@ -5675,32 +6322,48 @@
     {
       "words": {
         "comparisons": {
-          "ja": "比較表示"
+          "ja": "比較"
         },
         "overlays": {
-          "ja": "重ね合わせ表示"
+          "ja": "重ね合わせ"
         },
-        "linked": {
-          "ja": "連動した"
+        "when": {
+          "ja": "〜とき"
         },
-        "viewpoints": {
-          "ja": "視点"
+        "the source image": {
+          "ja": "元画像"
         },
-        "evidence": {
-          "ja": "根拠"
+        "linked viewpoints": {
+          "ja": "連動した視点"
         },
-        "restored": {
-          "ja": "復元された"
+        "and": {
+          "ja": "そして"
         },
-        "panels": {
-          "ja": "画面部品・パネル"
+        "evidence displays": {
+          "ja": "根拠の表示"
+        },
+        "were restored together": {
+          "ja": "一緒に元に戻された"
+        },
+        "the tool": {
+          "ja": "そのツール"
+        },
+        "recovered": {
+          "ja": "取り戻した"
+        },
+        "more than": {
+          "ja": "〜以上のもの"
+        },
+        "missing panels": {
+          "ja": "消えていたパネル"
         }
       },
       "phrases": [
         {
           "en": "recovered more than missing panels",
-          "ja": "消えていた画面部品以上のものを取り戻した",
-          "note": "復元対象がUI部品だけではないことを示す"
+          "ja": "消えたパネル以上のものを取り戻した",
+          "note": "次の文で中身を言う。",
+          "pattern": "more than 〜"
         }
       ]
     },
@@ -5709,21 +6372,25 @@
         "recovered": {
           "ja": "取り戻した"
         },
-        "path": {
-          "ja": "経路"
+        "it": {
+          "ja": "それ（＝ツール）"
         },
-        "observation": {
-          "ja": "観察"
+        "the path": {
+          "ja": "道筋"
         },
-        "decision": {
-          "ja": "判断"
+        "from observation": {
+          "ja": "観察から"
+        },
+        "to decision": {
+          "ja": "判断へ"
         }
       },
       "phrases": [
         {
           "en": "the path from observation to decision",
-          "ja": "観察から判断へ進む経路",
-          "note": "比較情報が支える判断過程"
+          "ja": "観察から判断への道筋",
+          "note": "from／to。",
+          "pattern": "from A to B"
         }
       ]
     },
@@ -5739,14 +6406,24 @@
           "ja": "関係"
         },
         "intelligible": {
-          "ja": "意味を理解できる"
+          "ja": "意味が分かる状態に"
+        },
+        "files": {
+          "ja": "ファイル"
+        },
+        "keeps": {
+          "ja": "残す"
+        },
+        "work": {
+          "ja": "作業"
         }
       },
       "phrases": [
         {
           "en": "saving relationships keeps work intelligible",
-          "ja": "関係を保存すると作業の意味を理解可能なまま保てる",
-          "note": "ファイルの存在と作業文脈の保存を区別"
+          "ja": "関係を保存すると作業の意味が分かるまま残る",
+          "note": "セミコロンで対比。後半の saving は主語。",
+          "pattern": "keep A 形容詞"
         }
       ]
     },
@@ -5759,40 +6436,69 @@
           "ja": "本当に"
         },
         "returns": {
-          "ja": "戻る"
+          "ja": "戻ってくる"
         },
-        "reopen": {
-          "ja": "再び開く"
+        "a": {
+          "ja": "ひとつの"
         },
-        "result": {
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "someone": {
+          "ja": "誰か"
+        },
+        "can reopen": {
+          "ja": "もう一度開ける"
+        },
+        "not just": {
+          "ja": "〜だけでなく"
+        },
+        "the result": {
           "ja": "結果"
         }
       },
       "phrases": [
         {
-          "en": "only when someone can reopen not just the result",
-          "ja": "誰かが結果だけでなく再び開けるときに限って",
-          "note": "プロジェクト復元の必要条件を導く前半"
+          "en": "not just the result",
+          "ja": "結果だけでなく",
+          "note": "次のチャンクの but also へ続く。",
+          "pattern": "not just A, but also B"
         }
       ]
     },
     {
       "words": {
-        "reason": {
-          "ja": "理由"
-        },
-        "correction": {
-          "ja": "修正"
-        },
         "belongs": {
           "ja": "置かれるべきである"
+        },
+        "but also": {
+          "ja": "…も"
+        },
+        "the reason for": {
+          "ja": "〜の理由"
+        },
+        "that result": {
+          "ja": "その結果"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "the place": {
+          "ja": "場所"
+        },
+        "where": {
+          "ja": "（関係副詞）〜する"
+        },
+        "the next correction": {
+          "ja": "次の修正"
         }
       },
       "phrases": [
         {
           "en": "the place where the next correction belongs",
           "ja": "次の修正を置くべき場所",
-          "note": "where は place を修飾し、次の編集点を示す"
+          "note": "belong「本来あるべき所にある」。",
+          "pattern": "belong（ある場所に属する）"
         }
       ]
     }
