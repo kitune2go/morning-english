@@ -2538,91 +2538,190 @@
   "DE-20261027-001": [
     {
       "words": {
-        "structural": {
-          "ja": "構造用の",
-          "pos": "語句",
-          "lemma": "structural",
-          "form": "",
-          "note": "structural：この文脈では「構造用の」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "structural profile": {
+          "ja": "形鋼の断面"
+        },
+        "contains": {
+          "ja": "含む"
+        },
+        "one point": {
+          "ja": "一つの点"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "remain still": {
+          "ja": "動かないままでいる"
         }
       },
       "phrases": [
         {
-          "en": "A structural profile contains one point that must remain still.",
-          "ja": "形鋼断面には、動かずに残るべき一点がある。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "one point that must remain still",
+          "ja": "動かずにいるべき一点",
+          "note": "still は形容詞「静止した」。",
+          "pattern": "remain 形容詞"
         }
       ]
     },
     {
       "words": {
         "flange": {
-          "ja": "フランジ",
-          "pos": "語句",
-          "lemma": "flange",
-          "form": "",
-          "note": "flange：この文脈では「フランジ」"
+          "ja": "フランジ"
+        },
+        "views of": {
+          "ja": "〜の見え方"
+        },
+        "the upper flange": {
+          "ja": "上フランジ"
+        },
+        "lower": {
+          "ja": "下の"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "web": {
+          "ja": "ウェブ"
+        },
+        "may change": {
+          "ja": "変わってよい"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the machine origin": {
+          "ja": "機械原点"
+        },
+        "cannot move": {
+          "ja": "動かせない"
+        },
+        "with convenience": {
+          "ja": "都合に合わせて"
         }
       },
       "phrases": [
         {
-          "en": "Views of the upper flange, lower flange, and web may change, but the machine origin cannot move with convenience.",
-          "ja": "上フランジ、下フランジ、ウェブの見え方は変えられても、機械原点を都合で動かすことはできない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "the machine origin cannot move with convenience",
+          "ja": "機械原点は都合で動かせない",
+          "note": "with convenience「都合次第で」。",
+          "pattern": "with 〜（〜に合わせて）"
         }
       ]
     },
     {
       "words": {
         "reference": {
-          "ja": "基準点",
-          "pos": "語句",
-          "lemma": "reference",
-          "form": "",
-          "note": "reference：この文脈では「基準点」"
+          "ja": "基準"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "rotate": {
+          "ja": "回す"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "drawing": {
+          "ja": "図"
+        },
+        "for clarity": {
+          "ja": "見やすさのために"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "as well": {
+          "ja": "も"
+        },
+        "the same hole": {
+          "ja": "同じ穴"
+        },
+        "appears": {
+          "ja": "現れる"
+        },
+        "in a different place": {
+          "ja": "別の位置に"
         }
       },
       "phrases": [
         {
-          "en": "We can rotate a drawing for clarity; if we rotate its reference as well, the same hole appears in a different place.",
-          "ja": "見やすさのために図は回せるが、基準まで回すと同じ穴が別の位置に現れる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "if we rotate its reference as well",
+          "ja": "基準まで回すと",
+          "note": "as well「〜も」。",
+          "pattern": "as well"
         }
       ]
     },
     {
       "words": {
         "limitation": {
-          "ja": "制約",
-          "pos": "語句",
-          "lemma": "limitation",
-          "form": "",
-          "note": "limitation：この文脈では「制約」"
+          "ja": "制約"
+        },
+        "the fixed": {
+          "ja": "固定された"
+        },
+        "lower-left point": {
+          "ja": "左下の点"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a": {
+          "ja": "ひとつの"
         }
       },
       "phrases": [
         {
-          "en": "The fixed lower-left point is not a limitation.",
-          "ja": "固定された左下の点は制約ではない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "is not a limitation",
+          "ja": "制約ではない",
+          "note": "次の文で「では何か」を述べる。",
+          "pattern": "limitation"
         }
       ]
     },
     {
       "words": {
-        "footing": {
-          "ja": "足場",
-          "pos": "語句",
-          "lemma": "footing",
-          "form": "",
-          "note": "footing：この文脈では「足場」"
+        "it": {
+          "ja": "それ（＝左下の固定点）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the stable footing": {
+          "ja": "安定した足場"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "makes": {
+          "ja": "〜にする"
+        },
+        "every other view": {
+          "ja": "他のすべての表示"
+        },
+        "adjustable": {
+          "ja": "変えられる"
         }
       },
       "phrases": [
         {
-          "en": "It is the stable footing that makes every other view adjustable.",
-          "ja": "それは他のすべての表示を変更可能にする安定した足場である。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "the stable footing that makes every other view adjustable",
+          "ja": "他の表示を変えられるようにする足場",
+          "note": "make＋目的語＋形容詞。",
+          "pattern": "make A 形容詞"
         }
       ]
     }
@@ -2630,91 +2729,169 @@
   "DE-20261027-002": [
     {
       "words": {
-        "orientation": {
-          "ja": "方向設定",
-          "pos": "語句",
-          "lemma": "orientation",
-          "form": "",
-          "note": "orientation：この文脈では「方向設定」"
+        "orientation work": {
+          "ja": "向きを合わせる作業"
+        },
+        "places": {
+          "ja": "置く"
+        },
+        "the real object": {
+          "ja": "現物"
+        },
+        "the guide diagram": {
+          "ja": "案内図"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "d": {
+          "ja": "（3Dの）D"
+        },
+        "view": {
+          "ja": "表示"
+        },
+        "in": {
+          "ja": "〜に"
+        },
+        "the same field of attention": {
+          "ja": "同じ注意の範囲"
         }
       },
       "phrases": [
         {
-          "en": "Orientation work places the real object, the guide diagram, and the 3D view in the same field of attention.",
-          "ja": "向きの確認では、現物、案内図、3D表示が同じ注意領域に置かれる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "places the real object, the guide diagram, and the 3D view in the same field of attention",
+          "ja": "現物・案内図・3D表示を同じ視野に置く",
+          "note": "field of attention「注意が届く範囲」。",
+          "pattern": "place A in B"
         }
       ]
     },
     {
       "words": {
-        "compensate": {
-          "ja": "補う",
-          "pos": "語句",
-          "lemma": "compensate",
-          "form": "",
-          "note": "compensate：この文脈では「補う」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "correct camera": {
+          "ja": "正しいカメラ"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "compensate for": {
+          "ja": "〜を埋め合わせる"
+        },
+        "y-axis arrow": {
+          "ja": "Y軸の矢印"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "contradicts": {
+          "ja": "食い違う"
+        },
+        "its button": {
+          "ja": "そのボタン"
         }
       },
       "phrases": [
         {
-          "en": "A correct camera cannot compensate for a Y-axis arrow that contradicts its button;",
-          "ja": "正しいカメラでも、ボタンと矛盾するY軸矢印は補えず、",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "cannot compensate for a Y-axis arrow that contradicts its button",
+          "ja": "ボタンと食い違う矢印は埋め合わせられない",
+          "note": "compensate for「〜を補う」。",
+          "pattern": "compensate for 〜"
         }
       ]
     },
     {
       "words": {
         "hesitates": {
-          "ja": "ためらう",
-          "pos": "語句",
-          "lemma": "hesitates",
-          "form": "",
-          "note": "hesitates：この文脈では「ためらう」"
+          "ja": "迷う"
+        },
+        "the operator": {
+          "ja": "操作する人"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "repeated hesitation": {
+          "ja": "繰り返す迷い"
+        },
+        "invites": {
+          "ja": "招く"
+        },
+        "error": {
+          "ja": "誤り"
         }
       },
       "phrases": [
         {
-          "en": "the operator hesitates, and repeated hesitation invites error.",
-          "ja": "操作者はためらい、その反復が誤りを招く。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "repeated hesitation invites error",
+          "ja": "迷いが重なると誤りを招く",
+          "note": "invite はここで「（悪いことを）招く」。",
+          "pattern": "invite 〜"
         }
       ]
     },
     {
       "words": {
         "rebuild": {
-          "ja": "作り直す",
-          "pos": "語句",
-          "lemma": "rebuild",
-          "form": "",
-          "note": "rebuild：この文脈では「作り直す」"
+          "ja": "作り直す"
+        },
+        "the answer": {
+          "ja": "解決策"
+        },
+        "is not to": {
+          "ja": "〜することではない"
+        },
+        "the working": {
+          "ja": "ちゃんと動いている"
+        },
+        "d": {
+          "ja": "（3Dの）D"
+        },
+        "view": {
+          "ja": "表示"
         }
       },
       "phrases": [
         {
-          "en": "The answer is not to rebuild the working 3D view.",
-          "ja": "解決は、正常な3D表示を作り直すことではない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "is not to rebuild the working 3D view",
+          "ja": "動いている3D表示を作り直すことではない",
+          "note": "working「正常に動く」。",
+          "pattern": "be not to 動詞"
         }
       ]
     },
     {
       "words": {
-        "misleading": {
-          "ja": "誤解を招く",
-          "pos": "語句",
-          "lemma": "misleading",
-          "form": "",
-          "note": "misleading：この文脈では「誤解を招く」"
+        "good correction": {
+          "ja": "良い修正"
+        },
+        "protects": {
+          "ja": "守る"
+        },
+        "what is already right": {
+          "ja": "すでに正しい部分"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "moves": {
+          "ja": "動かす"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "the misleading arrow": {
+          "ja": "誤解を招く矢印"
         }
       },
       "phrases": [
         {
-          "en": "Good correction protects what is already right and moves only the misleading arrow.",
-          "ja": "良い修正は、すでに正しい部分を守り、誤解を招く矢印だけを動かす。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "protects what is already right and moves only the misleading arrow",
+          "ja": "正しい部分は守り、誤解を招く矢印だけ動かす",
+          "note": "what「〜するもの」。",
+          "pattern": "what 節"
         }
       ]
     }
@@ -2722,91 +2899,193 @@
   "DE-20261027-003": [
     {
       "words": {
-        "ceremony": {
-          "ja": "儀式",
-          "pos": "語句",
-          "lemma": "ceremony",
-          "form": "",
-          "note": "ceremony：この文脈では「儀式」"
+        "fifty-two": {
+          "ja": "52件の"
+        },
+        "passing checks": {
+          "ja": "合格した確認"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "testing": {
+          "ja": "試験"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "ceremony for": {
+          "ja": "〜のための儀式"
+        },
+        "counting": {
+          "ja": "数えること"
+        },
+        "success": {
+          "ja": "成功"
         }
       },
       "phrases": [
         {
-          "en": "Fifty-two passing checks do not make testing a ceremony for counting success.",
-          "ja": "五十二件の合格があっても、試験は成功を数える儀式にはならない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "do not make testing a ceremony for counting success",
+          "ja": "試験を成功を数える儀式にはしない",
+          "note": "make＋目的語＋名詞。",
+          "pattern": "make A B"
         }
       ]
     },
     {
       "words": {
-        "boundary": {
-          "ja": "境界条件",
-          "pos": "語句",
-          "lemma": "boundary",
-          "form": "",
-          "note": "boundary：この文脈では「境界条件」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "defect": {
+          "ja": "不具合"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "appeared": {
+          "ja": "現れた"
+        },
+        "at": {
+          "ja": "〜のときに"
+        },
+        "thirty-millimeter": {
+          "ja": "30ミリの"
+        },
+        "face width": {
+          "ja": "面幅"
+        },
+        "revealed": {
+          "ja": "明らかにした"
+        },
+        "boundary condition": {
+          "ja": "境界条件"
+        },
+        "hidden by": {
+          "ja": "〜に隠れていた"
+        },
+        "ordinary dimensions": {
+          "ja": "普通の寸法"
         }
       },
       "phrases": [
         {
-          "en": "A defect that appeared at a thirty-millimeter face width revealed a boundary condition hidden by ordinary dimensions.",
-          "ja": "面幅三十ミリで現れた不具合は、通常寸法に隠れた境界条件を明らかにした。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "a boundary condition hidden by ordinary dimensions",
+          "ja": "普通の寸法に隠れていた境界条件",
+          "note": "hidden 以下が condition を修飾。",
+          "pattern": "名詞 + 過去分詞"
         }
       ]
     },
     {
       "words": {
-        "functionality": {
-          "ja": "機能性",
-          "pos": "語句",
-          "lemma": "functionality",
-          "form": "",
-          "note": "functionality：この文脈では「機能性」"
+        "broad functionality": {
+          "ja": "広く機能すること"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "correctness": {
+          "ja": "正しさ"
+        },
+        "at the edge": {
+          "ja": "端（極端な条件）での"
         }
       },
       "phrases": [
         {
-          "en": "Broad functionality is not the same as correctness at the edge.",
-          "ja": "広い範囲で機能することと、端でも正しいことは同じではない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "correctness at the edge",
+          "ja": "端での正しさ",
+          "note": "edge はここで「範囲の端・極端な条件」。",
+          "pattern": "at the edge"
         }
       ]
     },
     {
       "words": {
-        "stain": {
-          "ja": "汚点",
-          "pos": "語句",
-          "lemma": "stain",
-          "form": "",
-          "note": "stain：この文脈では「汚点」"
+        "one": {
+          "ja": "1件の"
+        },
+        "failed case": {
+          "ja": "不合格のケース"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "push": {
+          "ja": "押しやる"
+        },
+        "completion": {
+          "ja": "完成"
+        },
+        "farther away": {
+          "ja": "さらに遠くへ"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝不合格）"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "stain on": {
+          "ja": "〜の汚点"
+        },
+        "the result": {
+          "ja": "結果"
         }
       },
       "phrases": [
         {
-          "en": "One failed case may push completion farther away, but it is not a stain on the result.",
-          "ja": "一件の不合格は完成を遠ざけても、結果の汚点ではない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "may push completion farther away, but it is not a stain on the result",
+          "ja": "完成を遠ざけても、結果の汚点ではない",
+          "note": "farther は far の比較級。",
+          "pattern": "push A away / stain on 〜"
         }
       ]
     },
     {
       "words": {
         "asks": {
-          "ja": "問いかける",
-          "pos": "語句",
-          "lemma": "asks",
-          "form": "",
-          "note": "asks：この文脈では「問いかける」"
+          "ja": "投げかける"
+        },
+        "it": {
+          "ja": "それ（＝不合格）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the last question": {
+          "ja": "最後の問い"
+        },
+        "the drawing": {
+          "ja": "図面"
+        },
+        "before": {
+          "ja": "〜する前に"
+        },
+        "entering": {
+          "ja": "入ること"
+        },
+        "the shop floor": {
+          "ja": "現場"
         }
       },
       "phrases": [
         {
-          "en": "It is the last question the drawing asks before entering the shop floor.",
-          "ja": "それは図面が現場へ入る前に投げかける最後の質問である。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "the last question the drawing asks before entering the shop floor",
+          "ja": "図面が現場に入る前に投げる最後の問い",
+          "note": "question の後に関係代名詞が省略。",
+          "pattern": "名詞 + (that) 主語 + 動詞"
         }
       ]
     }
