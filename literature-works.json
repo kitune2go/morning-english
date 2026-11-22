@@ -501,5 +501,12 @@
     "description": "努力・時間・信用を守ろうとする損失回避、損を吸収できる余力の差、無料フェスの運営と公開保留、映画館減少による文化の受け皿喪失を通して、消えたように見える損失の最終受取人を考える日次エッセイ。",
     "manifest": "literature/daily-essay-20261121/manifest.json",
     "mode": "essay-translation"
+  },
+  {
+    "workId": "daily-essay-20261122",
+    "title": "声は名札より先に聞こえる",
+    "description": "内なる声への宗教・医療・冗談の名付け、成功後に努力を愛へ書き換える事後恋文、創作と市場収入の分離、親・人間・AIの権限を検査可能な過程へ置き直す問いを通して、名札が経験と責任の配分を変える作用を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261122/manifest.json",
+    "mode": "essay-translation"
   }
 ]
