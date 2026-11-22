@@ -49691,5 +49691,646 @@
         }
       ]
     }
+  ],
+  "DE-20260725-001": [
+    {
+      "words": {
+        "dress codes": {
+          "ja": "服装規定"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "remain unchanged": {
+          "ja": "変わらないままである"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Dress codes often remain unchanged",
+          "ja": "服装規定は変わらないままのことが多い",
+          "note": "codes はここで「規定」。",
+          "pattern": "remain 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "even when": {
+          "ja": "〜のときでさえ"
+        },
+        "the weather": {
+          "ja": "天候"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "physically dangerous": {
+          "ja": "身体的に危険な"
+        }
+      },
+      "phrases": [
+        {
+          "en": "even when the weather becomes physically dangerous",
+          "ja": "天候が身体に危険になっても",
+          "note": "前チャンクの続き。",
+          "pattern": "even when 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the same rules": {
+          "ja": "同じ規則"
+        },
+        "impose": {
+          "ja": "課す"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "direct cost": {
+          "ja": "直接の負担"
+        },
+        "on": {
+          "ja": "〜に"
+        },
+        "the body": {
+          "ja": "身体"
+        }
+      },
+      "phrases": [
+        {
+          "en": "impose a direct cost on the body",
+          "ja": "身体に直接の負担を課す",
+          "note": "impose A on B「AをBに課す」。",
+          "pattern": "impose A on B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "appearance": {
+          "ja": "見た目"
+        },
+        "takes priority over": {
+          "ja": "〜より優先される"
+        },
+        "safety": {
+          "ja": "安全"
+        }
+      },
+      "phrases": [
+        {
+          "en": "When appearance takes priority over safety",
+          "ja": "見た目が安全より優先されると",
+          "note": "priority「優先」。",
+          "pattern": "take priority over 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "clothing": {
+          "ja": "服装"
+        },
+        "stops functioning as": {
+          "ja": "〜として働くのをやめる"
+        },
+        "etiquette": {
+          "ja": "礼儀"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "starts functioning as": {
+          "ja": "〜として働き始める"
+        },
+        "a burden": {
+          "ja": "負担"
+        }
+      },
+      "phrases": [
+        {
+          "en": "stops functioning as etiquette and starts functioning as a burden",
+          "ja": "礼儀として働くのをやめ、負担として働き始める",
+          "note": "function「機能する」。",
+          "pattern": "stop -ing / start -ing"
+        }
+      ]
+    }
+  ],
+  "DE-20260725-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "new label": {
+          "ja": "新しい呼び名"
+        },
+        "then": {
+          "ja": "そのとき"
+        },
+        "appeared": {
+          "ja": "現れた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A new label then appeared",
+          "ja": "そこで新しい呼び名が現れた",
+          "note": "次のチャンクへ続く。",
+          "pattern": "appear"
+        }
+      ]
+    },
+    {
+      "words": {
+        "for": {
+          "ja": "〜に対する"
+        },
+        "the discomfort": {
+          "ja": "不快感"
+        },
+        "supposedly": {
+          "ja": "〜とされる"
+        },
+        "caused by": {
+          "ja": "〜によって生じる"
+        },
+        "visible legs": {
+          "ja": "見える脚"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the discomfort supposedly caused by visible legs",
+          "ja": "見える脚が生むとされる不快感",
+          "note": "supposedly「〜ということになっている」。",
+          "pattern": "supposedly / 名詞 + 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "its": {
+          "ja": "その（＝呼び名の）"
+        },
+        "pressure": {
+          "ja": "圧力"
+        },
+        "moved": {
+          "ja": "向かった"
+        },
+        "in a familiar direction": {
+          "ja": "おなじみの方向に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "its pressure moved in a familiar direction",
+          "ja": "その圧力はいつもの方向に向かった",
+          "note": "familiar「見慣れた」。",
+          "pattern": "in a direction"
+        }
+      ]
+    },
+    {
+      "words": {
+        "attention": {
+          "ja": "関心"
+        },
+        "shifted away from": {
+          "ja": "〜から離れた"
+        },
+        "the person": {
+          "ja": "人"
+        },
+        "adapting to": {
+          "ja": "〜に適応している"
+        },
+        "extreme heat": {
+          "ja": "猛暑"
+        }
+      },
+      "phrases": [
+        {
+          "en": "shifted away from the person adapting to extreme heat",
+          "ja": "猛暑に適応する人から関心がそれた",
+          "note": "adapting 以下が person を修飾。",
+          "pattern": "shift away from 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "old command": {
+          "ja": "古い命令"
+        },
+        "returned": {
+          "ja": "戻ってきた"
+        },
+        "disguised as": {
+          "ja": "〜を装って"
+        },
+        "a response to": {
+          "ja": "〜への対応"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "new social problem": {
+          "ja": "新しい社会問題"
+        }
+      },
+      "phrases": [
+        {
+          "en": "returned disguised as a response to a new social problem",
+          "ja": "新しい社会問題への対応を装って戻ってきた",
+          "note": "過去分詞 disguised が状態を表す。",
+          "pattern": "disguised as 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260725-003": [
+    {
+      "words": {
+        "discomfort": {
+          "ja": "不快"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "danger": {
+          "ja": "危険"
+        },
+        "are not equivalent": {
+          "ja": "同等ではない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Discomfort and danger are not equivalent",
+          "ja": "不快と危険は同じではない",
+          "note": "equivalent「同等の」。",
+          "pattern": "equivalent"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "visual preference": {
+          "ja": "見た目の好み"
+        },
+        "can be negotiated": {
+          "ja": "話し合って調整できる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A visual preference can be negotiated",
+          "ja": "見た目の好みは話し合いで調整できる",
+          "note": "次のチャンクと対比。",
+          "pattern": "negotiate"
+        }
+      ]
+    },
+    {
+      "words": {
+        "heat illness": {
+          "ja": "熱中症"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "physical event": {
+          "ja": "身体の出来事"
+        }
+      },
+      "phrases": [
+        {
+          "en": "heat illness is a physical event",
+          "ja": "熱中症は身体に起きる出来事だ",
+          "note": "heat illness「熱中症（暑熱による病気）」。",
+          "pattern": "heat illness"
+        }
+      ]
+    },
+    {
+      "words": {
+        "discussion": {
+          "ja": "議論"
+        },
+        "tends to": {
+          "ja": "〜しがちだ"
+        },
+        "favor": {
+          "ja": "優先する"
+        },
+        "the complaint": {
+          "ja": "不満"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜な"
+        },
+        "is easiest to": {
+          "ja": "最も〜しやすい"
+        },
+        "voice": {
+          "ja": "声に出す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the complaint that is easiest to voice",
+          "ja": "いちばん口にしやすい不満",
+          "note": "voice はここで動詞「口に出す」。favor も動詞「ひいきする」。",
+          "pattern": "easiest to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "centering": {
+          "ja": "中心に置くこと"
+        },
+        "risk": {
+          "ja": "危険"
+        },
+        "requires": {
+          "ja": "必要とする"
+        },
+        "plans for": {
+          "ja": "〜の計画"
+        },
+        "cooling": {
+          "ja": "冷却"
+        },
+        "rest": {
+          "ja": "休憩"
+        },
+        "clothing": {
+          "ja": "服装"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "responsibility": {
+          "ja": "責任"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Centering risk requires plans for cooling, rest, clothing, and responsibility",
+          "ja": "危険を中心にすると冷却・休憩・服装・責任の計画が要る",
+          "note": "center は動詞「中心に置く」。",
+          "pattern": "動名詞の主語"
+        }
+      ]
+    },
+    {
+      "words": {
+        "centering": {
+          "ja": "中心に置くこと"
+        },
+        "discomfort": {
+          "ja": "不快"
+        },
+        "requires": {
+          "ja": "必要とする"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "brief command": {
+          "ja": "短い命令"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Centering discomfort requires only a brief command",
+          "ja": "不快を中心にすれば短い命令だけで済む",
+          "note": "前の文との対比。",
+          "pattern": "only 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260725-004": [
+    {
+      "words": {
+        "the same pattern": {
+          "ja": "同じ型"
+        },
+        "appeared": {
+          "ja": "現れた"
+        },
+        "later": {
+          "ja": "後で"
+        },
+        "in": {
+          "ja": "〜の中に"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "automated writing system": {
+          "ja": "自動で文章を作る仕組み"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The same pattern appeared later in an automated writing system",
+          "ja": "同じ型が後に自動作文の仕組みに現れた",
+          "note": "このアプリのカード生成のこと。",
+          "pattern": "appear in 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "card": {
+          "ja": "カード"
+        },
+        "could pass": {
+          "ja": "通過できた"
+        },
+        "validation": {
+          "ja": "検証"
+        },
+        "by containing": {
+          "ja": "含むことで"
+        },
+        "the required grammar": {
+          "ja": "必須の文法"
+        }
+      },
+      "phrases": [
+        {
+          "en": "could pass validation by containing the required grammar",
+          "ja": "必須の文法を含むことで検証を通れた",
+          "note": "pass はここで「通過する」。",
+          "pattern": "by -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "even when": {
+          "ja": "〜のときでさえ"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "meaning": {
+          "ja": "意味"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "technical explanation": {
+          "ja": "専門的な説明"
+        },
+        "had collapsed": {
+          "ja": "崩れていた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "even when its meaning or technical explanation had collapsed",
+          "ja": "意味や説明が崩れていても",
+          "note": "collapsed「崩れた」。",
+          "pattern": "even when 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "rule": {
+          "ja": "規則"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "checks": {
+          "ja": "調べる"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "form": {
+          "ja": "形式"
+        },
+        "resembles": {
+          "ja": "似ている"
+        },
+        "dress code": {
+          "ja": "服装規定"
+        },
+        "appearance": {
+          "ja": "見た目"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A rule that checks only form resembles a dress code that checks only appearance",
+          "ja": "形式だけ見る規則は見た目だけ見る服装規定に似ている",
+          "note": "checks は動詞「調べる」。",
+          "pattern": "resemble 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "good validation": {
+          "ja": "よい検証"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "ask": {
+          "ja": "問う"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "the work": {
+          "ja": "その仕事"
+        },
+        "achieved": {
+          "ja": "達成した"
+        },
+        "its purpose": {
+          "ja": "目的"
+        }
+      },
+      "phrases": [
+        {
+          "en": "must ask whether the work achieved its purpose",
+          "ja": "仕事が目的を果たしたかを問わねばならない",
+          "note": "validation「検証」。",
+          "pattern": "whether 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "neither": {
+          "ja": "〜も…もない"
+        },
+        "safety": {
+          "ja": "安全"
+        },
+        "nor": {
+          "ja": "〜も"
+        },
+        "language": {
+          "ja": "言葉"
+        },
+        "can be judged": {
+          "ja": "判断できる"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "the surface": {
+          "ja": "表面"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Neither safety nor language can be judged from the surface alone",
+          "ja": "安全も言葉も表面だけでは判断できない",
+          "note": "二つの話を結ぶまとめ。",
+          "pattern": "neither A nor B / 名詞 + alone"
+        }
+      ]
+    }
   ]
 }
