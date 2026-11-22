@@ -6261,14 +6261,42 @@
     {
       "words": {
         "describe": {
-          "ja": "説明する"
+          "ja": "言葉で説明する"
+        },
+        "being able to": {
+          "ja": "〜できること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "shape": {
+          "ja": "形"
+        },
+        "in an image": {
+          "ja": "画像の中の"
+        },
+        "is not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "rebuild": {
+          "ja": "作り直す"
+        },
+        "it": {
+          "ja": "それ（＝その形）"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "three-dimensional part": {
+          "ja": "3Dの部品"
         }
       },
       "phrases": [
         {
-          "en": "Being able to describe a shape in an image is not the same as being able to rebuild it as a three-dimensional part.",
-          "ja": "画像内の形を説明できることは、それを三次元部品として作り直せることと同じではない。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "is not the same as being able to rebuild it",
+          "ja": "説明できることと作り直せることは同じではない",
+          "note": "動名詞 being able to を2つ比べる。",
+          "pattern": "being able to 〜"
         }
       ]
     },
@@ -6279,13 +6307,23 @@
         },
         "shading": {
           "ja": "陰影"
+        },
+        "even after": {
+          "ja": "〜した後でさえ"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "are recognized": {
+          "ja": "認識される"
         }
       },
       "phrases": [
         {
-          "en": "Even after contours and shading are recognized,",
-          "ja": "輪郭と陰影を認識した後でも、",
-          "note": "even after が、認識後にも残る事項を譲歩的に示す。"
+          "en": "Even after contours and shading are recognized",
+          "ja": "輪郭と陰影を認識した後でさえ",
+          "note": "次のチャンクへ続く。",
+          "pattern": "even after 〜"
         }
       ]
     },
@@ -6293,13 +6331,32 @@
       "words": {
         "thickness": {
           "ja": "厚み"
+        },
+        "the hidden side": {
+          "ja": "見えない側"
+        },
+        "joints": {
+          "ja": "関節・接合部"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "range of motion": {
+          "ja": "可動域"
+        },
+        "remain": {
+          "ja": "残る"
+        },
+        "outside the frame": {
+          "ja": "画面の外に"
         }
       },
       "phrases": [
         {
-          "en": "thickness, the hidden side, joints, and range of motion remain outside the frame.",
-          "ja": "厚み、見えない側、接合部、可動域は画面の外に残る。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "remain outside the frame",
+          "ja": "画面の外に残ったまま",
+          "note": "画像には写らない、ということ。",
+          "pattern": "remain 〜"
         }
       ]
     },
@@ -6313,27 +6370,113 @@
         },
         "lacks": {
           "ja": "欠いている"
+        },
+        "ai": {
+          "ja": "AI"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "seem": {
+          "ja": "〜に見える"
+        },
+        "in": {
+          "ja": "〜では"
+        },
+        "d": {
+          "ja": "（3Dの）D"
+        },
+        "not because": {
+          "ja": "〜だからではなく"
+        },
+        "it": {
+          "ja": "それ（＝AI）"
+        },
+        "cannot see": {
+          "ja": "見えない"
+        },
+        "but because": {
+          "ja": "…だから"
+        },
+        "a control system": {
+          "ja": "操作の仕組み"
+        },
+        "for deciding": {
+          "ja": "決めるための"
+        },
+        "what": {
+          "ja": "〜するもの"
+        },
+        "the image": {
+          "ja": "画像"
+        },
+        "does not show": {
+          "ja": "写していない"
         }
       },
       "phrases": [
         {
-          "en": "AI can seem suddenly clumsy in 3D not because it cannot see, but because it lacks a control system for deciding what the image does not show.",
-          "ja": "AIが三次元では急に不器用に見えるのは、見えないからではなく、画像に映らない部分を決める操作系がないからだ。",
-          "note": "not A, but B の対比を含むまとまりとして読む。"
+          "en": "not because it cannot see, but because it lacks a control system",
+          "ja": "見えないからではなく、仕組みがないから",
+          "note": "理由の対比。",
+          "pattern": "not because A but because B"
+        },
+        {
+          "en": "for deciding what the image does not show",
+          "ja": "画像が写していないものを決めるための",
+          "note": "what「〜するもの」。",
+          "pattern": "what 節"
         }
       ]
     },
     {
       "words": {
         "geometry": {
-          "ja": "形状・幾何形状"
+          "ja": "幾何形状"
+        },
+        "understanding": {
+          "ja": "理解"
+        },
+        "needs": {
+          "ja": "必要とする"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "bridge": {
+          "ja": "橋渡し"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "turns": {
+          "ja": "変える"
+        },
+        "judgment": {
+          "ja": "判断"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "coordinates": {
+          "ja": "座標"
+        },
+        "before": {
+          "ja": "〜する前に"
+        },
+        "it": {
+          "ja": "それ（＝理解）"
+        },
+        "can become": {
+          "ja": "〜になれる"
         }
       },
       "phrases": [
         {
-          "en": "Understanding needs a bridge that turns judgment into coordinates before it can become geometry.",
-          "ja": "理解が形状になる前に、判断を座標へ変える橋が必要になる。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "a bridge that turns judgment into coordinates",
+          "ja": "判断を座標に変える橋渡し",
+          "note": "that 以下が bridge を修飾。",
+          "pattern": "turn A into B"
         }
       ]
     }
@@ -6341,78 +6484,127 @@
   "DE-20261107-002": [
     {
       "words": {
-        "proposed": {
-          "ja": "提案された"
-        },
         "curve": {
           "ja": "曲線"
         },
-        "few": {
-          "ja": "少数の"
+        "the proposed tool": {
+          "ja": "提案された道具"
+        },
+        "was": {
+          "ja": "〜だった"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "with": {
+          "ja": "〜を持つ"
+        },
+        "only a few": {
+          "ja": "ほんのいくつかの"
+        },
+        "control points": {
+          "ja": "制御点"
         }
       },
       "phrases": [
         {
-          "en": "The proposed tool was a curve with only a few control points,",
-          "ja": "提案された道具は、少数の制御点だけを持つ曲線だった。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "with only a few control points",
+          "ja": "ほんの少しの制御点だけを持つ",
+          "note": "a few（肯定的な「少し」）に only が付いて「ほんの少し」。",
+          "pattern": "only a few 〜"
         }
       ]
     },
     {
       "words": {
         "vertices": {
-          "ja": "頂点（複数）"
+          "ja": "頂点"
+        },
+        "used": {
+          "ja": "使われる"
+        },
+        "instead of": {
+          "ja": "〜する代わりに"
+        },
+        "moving": {
+          "ja": "動かすこと"
+        },
+        "one by one": {
+          "ja": "一つずつ"
         }
       },
       "phrases": [
         {
-          "en": "used instead of moving vertices one by one.",
-          "ja": "それは頂点を一つずつ動かす代わりに使われる。",
-          "note": "instead of が置き換えられる操作を示す。"
+          "en": "used instead of moving vertices one by one",
+          "ja": "頂点を一つずつ動かす代わりに使う",
+          "note": "used は前の curve を修飾する過去分詞。",
+          "pattern": "instead of -ing / one by one"
         }
       ]
     },
     {
       "words": {
-        "belly": {
-          "ja": "腹部"
-        },
-        "plates": {
-          "ja": "板状部品（複数）"
-        },
         "curves": {
-          "ja": "曲線（複数）"
+          "ja": "曲線"
         },
-        "surfaces": {
-          "ja": "面（複数）"
+        "the borders of": {
+          "ja": "〜の縁"
         },
-        "regenerated": {
-          "ja": "再生成される"
+        "the face": {
+          "ja": "顔"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "belly plates": {
+          "ja": "腹の板"
+        },
+        "would be defined by": {
+          "ja": "〜で決められる"
+        },
+        "the surfaces": {
+          "ja": "面"
+        },
+        "regenerated from": {
+          "ja": "〜から作り直される"
+        },
+        "them": {
+          "ja": "それら（＝曲線）"
+        },
+        "each time": {
+          "ja": "毎回"
         }
       },
       "phrases": [
         {
-          "en": "The borders of the face and belly plates would be defined by curves, and the surfaces regenerated from them each time.",
-          "ja": "顔板と腹板の縁は曲線で定義され、面は毎回その曲線から再生成される。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "the surfaces regenerated from them each time",
+          "ja": "面は毎回その曲線から作り直される",
+          "note": "and の後で would be が省略されている。",
+          "pattern": "省略（would be）"
         }
       ]
     },
     {
       "words": {
-        "degrees": {
-          "ja": "度・自由度"
+        "reducing": {
+          "ja": "減らすこと"
         },
-        "capability": {
-          "ja": "能力"
+        "degrees of freedom": {
+          "ja": "自由度"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "take capability away": {
+          "ja": "能力を奪う"
         }
       },
       "phrases": [
         {
-          "en": "Reducing degrees of freedom does not take capability away.",
-          "ja": "自由度を減らしても、能力を奪うことにはならない。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "does not take capability away",
+          "ja": "能力を奪うわけではない",
+          "note": "take away「取り去る」の間に目的語。",
+          "pattern": "take A away"
         }
       ]
     },
@@ -6420,27 +6612,92 @@
       "words": {
         "revision": {
           "ja": "修正"
+        },
+        "it": {
+          "ja": "それ（＝自由度を減らすこと）"
+        },
+        "turns": {
+          "ja": "変える"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a unit of": {
+          "ja": "〜の単位"
+        },
+        "meaning": {
+          "ja": "意味"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜できる"
+        },
+        "both": {
+          "ja": "〜も…も"
+        },
+        "people": {
+          "ja": "人"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "ai": {
+          "ja": "AI"
+        },
+        "can read": {
+          "ja": "読める"
         }
       },
       "phrases": [
         {
-          "en": "It turns a revision into a unit of meaning that both people and AI can read.",
-          "ja": "それは修正を、人にもAIにも読める意味の単位へ変える。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "a unit of meaning that both people and AI can read",
+          "ja": "人にもAIにも読める意味の単位",
+          "note": "that 以下が unit を修飾。",
+          "pattern": "both A and B"
         }
       ]
     },
     {
       "words": {
-        "tool": {
-          "ja": "道具"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "good tool": {
+          "ja": "よい道具"
+        },
+        "cuts": {
+          "ja": "減らす"
+        },
+        "the number of": {
+          "ja": "〜の数"
+        },
+        "motions": {
+          "ja": "手数・動作"
+        },
+        "while": {
+          "ja": "〜しながら"
+        },
+        "making": {
+          "ja": "〜にすること"
+        },
+        "the location of": {
+          "ja": "〜のありか"
+        },
+        "judgment": {
+          "ja": "判断"
+        },
+        "easier to see": {
+          "ja": "見やすく"
         }
       },
       "phrases": [
         {
-          "en": "A good tool cuts the number of motions while making the location of judgment easier to see.",
-          "ja": "よい道具は手数を減らす一方で、判断の所在を見えやすくする。",
-          "note": "while が二つの作用を同時に対照させる。"
+          "en": "while making the location of judgment easier to see",
+          "ja": "判断のありかを見やすくしながら",
+          "note": "while＋-ing「〜しつつ」。",
+          "pattern": "while -ing / make A 形容詞"
         }
       ]
     },
@@ -6450,14 +6707,33 @@
           "ja": "制約"
         },
         "creation": {
-          "ja": "創造"
+          "ja": "創作"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "narrow": {
+          "ja": "狭める"
+        },
+        "they": {
+          "ja": "それら（＝制約）"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "it": {
+          "ja": "それ（＝創作）"
+        },
+        "revisable": {
+          "ja": "修正できる"
         }
       },
       "phrases": [
         {
-          "en": "Constraints do not narrow creation; they make it revisable.",
-          "ja": "制約は創造を狭めず、修正できるものにする。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "they make it revisable",
+          "ja": "創作を修正可能にする",
+          "note": "not A; B の言い換え。",
+          "pattern": "make A 形容詞"
         }
       ]
     }
@@ -6465,87 +6741,187 @@
   "DE-20261107-003": [
     {
       "words": {
-        "applies": {
-          "ja": "当てはまる"
+        "the same principle": {
+          "ja": "同じ原則"
+        },
+        "applies to": {
+          "ja": "〜に当てはまる"
+        },
+        "branches": {
+          "ja": "ブランチ（作業の枝分かれ）"
+        },
+        "in": {
+          "ja": "〜の中の"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "development project": {
+          "ja": "開発プロジェクト"
         }
       },
       "phrases": [
         {
-          "en": "The same principle applies to branches in a development project.",
-          "ja": "同じ原則は、開発プロジェクトの枝にも当てはまる。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "applies to branches",
+          "ja": "ブランチにも当てはまる",
+          "note": "apply to「〜に当てはまる」。",
+          "pattern": "apply to 〜"
         }
       ]
     },
     {
       "words": {
-        "splitting": {
-          "ja": "分けること"
-        },
         "rejoins": {
           "ja": "再び合流する"
+        },
+        "splitting up": {
+          "ja": "分けること"
+        },
+        "the work": {
+          "ja": "作業"
+        },
+        "is not enough": {
+          "ja": "十分ではない"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "it remains unclear": {
+          "ja": "はっきりしないままである"
+        },
+        "what": {
+          "ja": "何を"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "pull request": {
+          "ja": "プルリクエスト"
+        },
+        "changes": {
+          "ja": "変える"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "it": {
+          "ja": "それ（＝プルリクエスト）"
+        },
+        "the whole": {
+          "ja": "全体"
         }
       },
       "phrases": [
         {
-          "en": "Splitting up the work is not enough if it remains unclear what a pull request changes or where it rejoins the whole.",
-          "ja": "プルリクエストが何を変え、全体のどこへ合流するか不明なままなら、作業を分けるだけでは足りない。",
-          "note": "if節が主節の成立条件を示す。"
+          "en": "if it remains unclear what a pull request changes or where it rejoins the whole",
+          "ja": "何を変え、どこで全体に戻るのかが不明なままなら",
+          "note": "形式主語 it が what／where 節を指す。",
+          "pattern": "it remains unclear 疑問詞節"
         }
       ]
     },
     {
       "words": {
-        "overall": {
-          "ja": "全体の"
-        },
         "dependencies": {
           "ja": "依存関係"
         },
-        "efforts": {
-          "ja": "作業・取り組み"
+        "with": {
+          "ja": "〜があれば"
         },
-        "cease": {
-          "ja": "〜でなくなる"
+        "an": {
+          "ja": "ひとつの"
         },
-        "fragments": {
-          "ja": "断片"
+        "overall map": {
+          "ja": "全体図"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "validation criteria": {
+          "ja": "検証の基準"
+        },
+        "parallel efforts": {
+          "ja": "並行した作業"
+        },
+        "cease to be": {
+          "ja": "〜ではなくなる"
+        },
+        "scattered fragments": {
+          "ja": "散らばった断片"
         }
       },
       "phrases": [
         {
-          "en": "With an overall map, dependencies, and validation criteria, parallel efforts cease to be scattered fragments.",
-          "ja": "全体マップ、依存関係、検証基準があれば、並行作業は散乱した断片ではなくなる。",
-          "note": "主語と述語を含む一つの意味単位として読み、前後の論理関係を保つ。"
+          "en": "With an overall map, dependencies, and validation criteria",
+          "ja": "全体図などがあれば",
+          "note": "with は「〜があれば」。",
+          "pattern": "with 〜（条件）"
+        },
+        {
+          "en": "cease to be scattered fragments",
+          "ja": "散らばった断片ではなくなる",
+          "note": "cease to「〜しなくなる」。",
+          "pattern": "cease to 動詞"
         }
       ]
     },
     {
       "words": {
-        "vertex": {
-          "ja": "頂点"
-        },
-        "hierarchies": {
-          "ja": "階層構造"
-        },
         "match": {
           "ja": "一致する"
         },
         "byte-identical": {
           "ja": "バイト単位で同一の"
         },
-        "glb": {
-          "ja": "GLB形式"
-        },
         "cpus": {
-          "ja": "CPU（複数）"
+          "ja": "CPU"
+        },
+        "checking": {
+          "ja": "確かめること"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "vertex counts": {
+          "ja": "頂点数"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "part hierarchies": {
+          "ja": "部品の階層"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "serve the goal": {
+          "ja": "目的にかなう"
+        },
+        "better than": {
+          "ja": "〜より"
+        },
+        "demanding": {
+          "ja": "求めること"
+        },
+        "glb files": {
+          "ja": "GLBファイル"
+        },
+        "across": {
+          "ja": "〜の間で"
+        },
+        "different": {
+          "ja": "異なる"
         }
       },
       "phrases": [
         {
-          "en": "Checking whether vertex counts and part hierarchies match may serve the goal better than demanding byte-identical GLB files across different CPUs.",
-          "ja": "異なるCPU間でバイト単位に同一のGLBを求めるより、頂点数と部品階層が一致するか確かめる方が目的にかなう場合がある。",
-          "note": "than を用いた比較で、評価基準の優先順位を示す。"
+          "en": "may serve the goal better than demanding byte-identical GLB files",
+          "ja": "完全一致を求めるより目的にかなうかもしれない",
+          "note": "serve the goal「目的に役立つ」。",
+          "pattern": "serve the goal / better than -ing"
         }
       ]
     },
@@ -6553,13 +6929,44 @@
       "words": {
         "capability": {
           "ja": "能力"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "a process": {
+          "ja": "工程"
+        },
+        "only after": {
+          "ja": "〜して初めて"
+        },
+        "it": {
+          "ja": "それ（＝能力）"
+        },
+        "is given": {
+          "ja": "与えられる"
+        },
+        "tools": {
+          "ja": "道具"
+        },
+        "a map": {
+          "ja": "地図"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "criteria for": {
+          "ja": "〜の基準"
+        },
+        "judgment": {
+          "ja": "判断"
         }
       },
       "phrases": [
         {
-          "en": "Capability becomes a process only after it is given tools, a map, and criteria for judgment.",
-          "ja": "能力は、道具と地図と判定基準を与えられて初めて工程になる。",
-          "note": "only を伴う条件表現で、成立に必要な時点を強調する。"
+          "en": "only after it is given tools, a map, and criteria for judgment",
+          "ja": "道具・地図・基準を与えられて初めて",
+          "note": "only after「〜した後で初めて」。",
+          "pattern": "only after 〜"
         }
       ]
     }
