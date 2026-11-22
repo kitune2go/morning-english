@@ -41168,5 +41168,865 @@
         }
       ]
     }
+  ],
+  "DE-20260909-001": [
+    {
+      "words": {
+        "the roller": {
+          "ja": "ローラー"
+        },
+        "moved up and down": {
+          "ja": "上下に動いた"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "movement": {
+          "ja": "動き"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        },
+        "could not": {
+          "ja": "〜できなかった"
+        },
+        "show": {
+          "ja": "示す"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "enough force": {
+          "ja": "十分な力"
+        },
+        "reached": {
+          "ja": "届いた"
+        },
+        "the material": {
+          "ja": "材料"
+        }
+      },
+      "phrases": [
+        {
+          "en": "movement alone could not show whether enough force reached the material",
+          "ja": "動きだけでは材料に十分な力が届いたかは分からなかった",
+          "note": "alone「〜だけ」。",
+          "pattern": "名詞 + alone / whether 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "hydraulic cylinder": {
+          "ja": "油圧シリンダー"
+        },
+        "in motion": {
+          "ja": "動いている"
+        },
+        "proves that": {
+          "ja": "〜を証明する"
+        },
+        "oil": {
+          "ja": "作動油"
+        },
+        "is flowing": {
+          "ja": "流れている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A hydraulic cylinder in motion proves that oil is flowing",
+          "ja": "動いている油圧シリンダーは油が流れていることを示す",
+          "note": "in motion「動いている」。",
+          "pattern": "in motion"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝動くシリンダー）"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "prove that": {
+          "ja": "〜を証明する"
+        },
+        "the system": {
+          "ja": "装置"
+        },
+        "can hold": {
+          "ja": "保持できる"
+        },
+        "its load": {
+          "ja": "負荷"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not prove that the system can hold its load",
+          "ja": "装置が負荷を保持できることは証明しない",
+          "note": "hold はここで動詞「保持する」（船倉ではない）。",
+          "pattern": "hold a load"
+        }
+      ]
+    },
+    {
+      "words": {
+        "because": {
+          "ja": "〜なので"
+        },
+        "activity": {
+          "ja": "動作"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "effective work": {
+          "ja": "有効な仕事"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "look alike": {
+          "ja": "似て見える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "activity and effective work often look alike",
+          "ja": "動作と有効な仕事はよく似て見える",
+          "note": "alike「似ている」。",
+          "pattern": "look alike"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "easily": {
+          "ja": "たやすく"
+        },
+        "mistake": {
+          "ja": "取り違える"
+        },
+        "one": {
+          "ja": "一方"
+        },
+        "for": {
+          "ja": "〜と"
+        },
+        "the other": {
+          "ja": "もう一方"
+        }
+      },
+      "phrases": [
+        {
+          "en": "we easily mistake one for the other",
+          "ja": "一方をもう一方と取り違えやすい",
+          "note": "2つのうち one と the other。",
+          "pattern": "mistake A for B / one ... the other"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "moving machine": {
+          "ja": "動いている機械"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "close the question": {
+          "ja": "問いを閉じる（決着させる）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A moving machine does not close the question",
+          "ja": "機械が動いても問いは決着しない",
+          "note": "close は動詞「閉じる」。",
+          "pattern": "close a question"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝動いていること）"
+        },
+        "tells us": {
+          "ja": "私たちに教える"
+        },
+        "us": {
+          "ja": "私たちに"
+        },
+        "where": {
+          "ja": "どこから"
+        },
+        "verification": {
+          "ja": "確認"
+        },
+        "must begin": {
+          "ja": "始めなければならないか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It tells us where verification must begin",
+          "ja": "確認をどこから始めるべきかを教える",
+          "note": "us は「私たちに」（米国ではない）。",
+          "pattern": "tell A 疑問詞節"
+        }
+      ]
+    }
+  ],
+  "DE-20260909-002": [
+    {
+      "words": {
+        "one pump": {
+          "ja": "一台のポンプ"
+        },
+        "fed": {
+          "ja": "供給した"
+        },
+        "several cylinders": {
+          "ja": "複数のシリンダー"
+        },
+        "through": {
+          "ja": "〜を通して"
+        },
+        "long lines": {
+          "ja": "長い配管"
+        }
+      },
+      "phrases": [
+        {
+          "en": "One pump fed several cylinders through long lines",
+          "ja": "一台のポンプが長い配管で複数のシリンダーに送っていた",
+          "note": "fed は feed の過去形「供給した」。lines はここで「配管」。",
+          "pattern": "feed"
+        }
+      ]
+    },
+    {
+      "words": {
+        "so": {
+          "ja": "だから"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "slow response": {
+          "ja": "遅い反応"
+        },
+        "had": {
+          "ja": "持っていた"
+        },
+        "more than one": {
+          "ja": "一つ以上の"
+        },
+        "possible cause": {
+          "ja": "考えられる原因"
+        }
+      },
+      "phrases": [
+        {
+          "en": "had more than one possible cause",
+          "ja": "原因が一つとは限らなかった",
+          "note": "more than one＋単数名詞「複数の〜」。",
+          "pattern": "more than one 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "repeated cycling": {
+          "ja": "繰り返し作動させること"
+        },
+        "might": {
+          "ja": "〜かもしれない"
+        },
+        "help the system settle": {
+          "ja": "装置が落ち着くのを助ける"
+        }
+      },
+      "phrases": [
+        {
+          "en": "might help the system settle",
+          "ja": "装置を落ち着かせる助けになるかもしれない",
+          "note": "cycling はここで「作動の繰り返し」（自転車ではない）。エア抜きなどの意。",
+          "pattern": "help A 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "smooth motion": {
+          "ja": "滑らかな動き"
+        },
+        "by itself": {
+          "ja": "それだけで"
+        },
+        "could not": {
+          "ja": "〜できなかった"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "holding force": {
+          "ja": "保持力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "smooth motion by itself could not guarantee holding force",
+          "ja": "滑らかに動くだけでは保持力は保証できなかった",
+          "note": "holding force「保持力」。",
+          "pattern": "by itself"
+        }
+      ]
+    },
+    {
+      "words": {
+        "as": {
+          "ja": "〜するにつれ"
+        },
+        "the path": {
+          "ja": "経路"
+        },
+        "became more complex": {
+          "ja": "より複雑になった"
+        },
+        "intuition": {
+          "ja": "勘"
+        },
+        "became less reliable": {
+          "ja": "頼りにならなくなった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "As the path became more complex, intuition became less reliable",
+          "ja": "経路が複雑になるほど勘は当てにならなくなった",
+          "note": "as「〜につれて」。",
+          "pattern": "as（比例）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the condition": {
+          "ja": "状態"
+        },
+        "had to be checked": {
+          "ja": "確かめられねばならなかった"
+        },
+        "where": {
+          "ja": "〜するところで"
+        },
+        "the load": {
+          "ja": "負荷"
+        },
+        "was actually carried": {
+          "ja": "実際にかかっていた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "had to be checked where the load was actually carried",
+          "ja": "負荷が実際にかかる場所で確かめる必要があった",
+          "note": "carry a load「負荷を受ける」。",
+          "pattern": "where（場所）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "inferred from": {
+          "ja": "〜から推測される"
+        },
+        "what happened": {
+          "ja": "起きたこと"
+        },
+        "upstream": {
+          "ja": "上流で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not inferred from what happened upstream",
+          "ja": "上流で起きたことから推測するのではなく",
+          "note": "upstream「（流れの）上流で」。",
+          "pattern": "infer A from B"
+        }
+      ]
+    }
+  ],
+  "DE-20260909-003": [
+    {
+      "words": {
+        "later": {
+          "ja": "後に"
+        },
+        "transcribing": {
+          "ja": "書き写すこと"
+        },
+        "each note": {
+          "ja": "一音ずつ"
+        },
+        "onto": {
+          "ja": "〜の上へ"
+        },
+        "the page": {
+          "ja": "譜面"
+        },
+        "proved slow": {
+          "ja": "時間がかかると分かった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "transcribing each note onto the page proved slow",
+          "ja": "一音ずつ譜面に書くのは時間がかかると分かった",
+          "note": "prove＋形容詞「〜だと判明する」。note はここで「音」。",
+          "pattern": "prove 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "pitch": {
+          "ja": "音の高さ"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "duration": {
+          "ja": "長さ"
+        },
+        "could be written down": {
+          "ja": "書き留められた"
+        },
+        "without revealing": {
+          "ja": "明らかにしないまま"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "the harmony": {
+          "ja": "和声"
+        },
+        "changed": {
+          "ja": "変わったか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "could be written down without revealing where the harmony changed",
+          "ja": "和声がどこで変わるかは分からないまま書き留められた",
+          "note": "harmony「和声」。",
+          "pattern": "write down / without -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the melody": {
+          "ja": "旋律"
+        },
+        "moved": {
+          "ja": "動いた"
+        },
+        "on the surface": {
+          "ja": "表面で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The melody moved on the surface",
+          "ja": "旋律は表面で動いていた",
+          "note": "次のチャンクと対比。",
+          "pattern": "on the surface"
+        }
+      ]
+    },
+    {
+      "words": {
+        "while": {
+          "ja": "一方で"
+        },
+        "the chords": {
+          "ja": "コード"
+        },
+        "supported": {
+          "ja": "支えた"
+        },
+        "it": {
+          "ja": "それ（＝旋律）"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "another layer": {
+          "ja": "別の層"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while the chords supported it from another layer",
+          "ja": "コードは別の層から旋律を支えていた",
+          "note": "chords「和音・コード」。",
+          "pattern": "while（対比）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "bass notes": {
+          "ja": "低音"
+        },
+        "strong beats": {
+          "ja": "強拍"
+        },
+        "tension": {
+          "ja": "緊張"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "release": {
+          "ja": "解決（緊張がほどけること）"
+        },
+        "offered": {
+          "ja": "与えた"
+        },
+        "clues for": {
+          "ja": "〜のための手がかり"
+        },
+        "drawing": {
+          "ja": "引くこと"
+        },
+        "provisional boundaries": {
+          "ja": "仮の区切り"
+        }
+      },
+      "phrases": [
+        {
+          "en": "offered clues for drawing provisional boundaries",
+          "ja": "仮の区切りを引く手がかりになった",
+          "note": "release はここで音楽の「解決」。",
+          "pattern": "clue for -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once again": {
+          "ja": "ここでもまた"
+        },
+        "a sequence of": {
+          "ja": "〜の連続"
+        },
+        "visible events": {
+          "ja": "見える出来事"
+        },
+        "was not enough": {
+          "ja": "十分ではなかった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Once again, a sequence of visible events was not enough",
+          "ja": "ここでも見える出来事の連続だけでは足りなかった",
+          "note": "前の油圧の話とつながる。",
+          "pattern": "once again"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the underlying structure": {
+          "ja": "下にある構造"
+        },
+        "still": {
+          "ja": "まだ"
+        },
+        "had to be found": {
+          "ja": "見つけなければならなかった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the underlying structure still had to be found",
+          "ja": "下にある構造をまだ見つける必要があった",
+          "note": "underlying「根底にある」。",
+          "pattern": "have to be 過去分詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260909-004": [
+    {
+      "words": {
+        "policy": {
+          "ja": "政策"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "needs": {
+          "ja": "必要とする"
+        },
+        "more than": {
+          "ja": "〜以上のもの"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "sound design": {
+          "ja": "しっかりした設計"
+        },
+        "on paper": {
+          "ja": "書類上の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "needs more than a sound design on paper",
+          "ja": "書類上のしっかりした設計以上のものが要る",
+          "note": "sound はここで「健全な」（音ではない）。",
+          "pattern": "sound（形容詞） / on paper"
+        }
+      ]
+    },
+    {
+      "words": {
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "failed measure": {
+          "ja": "失敗した施策"
+        },
+        "depends on": {
+          "ja": "〜に頼る"
+        },
+        "people who": {
+          "ja": "〜する人々"
+        },
+        "adopt": {
+          "ja": "採用する"
+        },
+        "it": {
+          "ja": "それ（＝施策）"
+        },
+        "carry it forward": {
+          "ja": "推し進める"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "translate it into": {
+          "ja": "それを〜に移す"
+        },
+        "everyday decisions": {
+          "ja": "日々の判断"
+        }
+      },
+      "phrases": [
+        {
+          "en": "translate it into everyday decisions",
+          "ja": "それを日々の判断に移す",
+          "note": "translate はここで「（形を変えて）移す」。measure は「施策」。",
+          "pattern": "translate A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "without": {
+          "ja": "〜がいなければ"
+        },
+        "participants": {
+          "ja": "参加者"
+        },
+        "neither": {
+          "ja": "〜も…もない"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "order": {
+          "ja": "命令"
+        },
+        "nor": {
+          "ja": "〜も"
+        },
+        "an ideal": {
+          "ja": "理想"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "social action": {
+          "ja": "社会の行動"
+        }
+      },
+      "phrases": [
+        {
+          "en": "neither an order nor an ideal becomes social action",
+          "ja": "命令も理想も社会の行動にはならない",
+          "note": "order はここで「命令」。",
+          "pattern": "neither A nor B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "oil": {
+          "ja": "油"
+        },
+        "in motion": {
+          "ja": "動いている"
+        },
+        "notes": {
+          "ja": "音符"
+        },
+        "on a staff": {
+          "ja": "五線譜の上の"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "rules": {
+          "ja": "規則"
+        },
+        "in a document": {
+          "ja": "文書の中の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "notes on a staff",
+          "ja": "五線譜の上の音符",
+          "note": "staff はここで「五線譜」（職員・杖ではない）。",
+          "pattern": "staff（五線譜）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "are": {
+          "ja": "〜である"
+        },
+        "signs that": {
+          "ja": "〜という印"
+        },
+        "something": {
+          "ja": "何か"
+        },
+        "has entered": {
+          "ja": "入った"
+        },
+        "the system": {
+          "ja": "系（仕組み）"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "proof that": {
+          "ja": "〜という証明"
+        },
+        "the work": {
+          "ja": "仕事"
+        },
+        "is complete": {
+          "ja": "完了した"
+        }
+      },
+      "phrases": [
+        {
+          "en": "signs that something has entered the system, not proof that the work is complete",
+          "ja": "何かが入った印であって、完了の証明ではない",
+          "note": "that は同格「〜という」。",
+          "pattern": "同格の that / A, not B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "intended effect": {
+          "ja": "意図した効果"
+        },
+        "becomes real": {
+          "ja": "現実になる"
+        },
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "it": {
+          "ja": "それ（＝意図した効果）"
+        },
+        "reaches": {
+          "ja": "届く"
+        },
+        "the load": {
+          "ja": "負荷"
+        },
+        "the supporting structure": {
+          "ja": "支える構造"
+        }
+      },
+      "phrases": [
+        {
+          "en": "becomes real only when it reaches the load, the supporting structure",
+          "ja": "負荷や支える構造に届いたときだけ現実になる",
+          "note": "次のチャンクへ続く。",
+          "pattern": "only when 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そして"
+        },
+        "the people who": {
+          "ja": "〜する人々"
+        },
+        "must act": {
+          "ja": "動かなければならない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "and the people who must act",
+          "ja": "そして動くべき人々に",
+          "note": "前チャンクの reaches の目的語の続き。",
+          "pattern": "the people who 〜"
+        }
+      ]
+    }
   ]
 }
