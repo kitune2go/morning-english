@@ -7112,30 +7112,46 @@
   "DE-20261110-001": [
     {
       "words": {
-        "dictionary": {
+        "items": {
+          "ja": "項目"
+        },
+        "the dictionary": {
           "ja": "辞書"
         },
-        "pairs": {
-          "ja": "対訳の組（複数）"
+        "grew to": {
+          "ja": "〜まで増えた"
         },
-        "eight": {
-          "ja": "八"
+        "more than": {
+          "ja": "〜を超える"
         },
-        "entries": {
-          "ja": "項目（複数）"
+        "two thousand": {
+          "ja": "2000の"
         },
-        "items": {
-          "ja": "項目（複数）"
+        "translation pairs": {
+          "ja": "対訳の組"
         },
-        "unsupported": {
-          "ja": "未対応の"
+        "over": {
+          "ja": "〜を超える"
+        },
+        "eight thousand": {
+          "ja": "8000の"
+        },
+        "japanese entries": {
+          "ja": "日本語の見出し語"
+        },
+        "yet": {
+          "ja": "それでも"
+        },
+        "remained unsupported": {
+          "ja": "未対応のまま残った"
         }
       },
       "phrases": [
         {
-          "en": "The dictionary grew to more than two thousand translation pairs and over eight thousand Japanese entries, yet more than 140,000 items remained unsupported.",
-          "ja": "辞書は二千件を超える対訳と八千語を超える日本語項目まで増えたが、十四万件を超える項目が未対応のまま残った。",
-          "note": "yet が数の増加と未対応の残存を対比する。"
+          "en": "grew to more than two thousand translation pairs",
+          "ja": "2000組を超えるまで増えた",
+          "note": "grow to＋数量「〜まで増える」。",
+          "pattern": "grow to 〜"
         }
       ]
     },
@@ -7143,61 +7159,143 @@
       "words": {
         "volume": {
           "ja": "量"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "was not the only problem": {
+          "ja": "唯一の問題ではなかった"
         }
       },
       "phrases": [
         {
-          "en": "But volume was not the only problem.",
-          "ja": "しかし問題は量だけではなかった。",
-          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+          "en": "was not the only problem",
+          "ja": "問題は量だけではなかった",
+          "note": "the only「唯一の」。",
+          "pattern": "not the only 〜"
         }
       ]
     },
     {
       "words": {
         "hurts": {
-          "ja": "痛い・痛む"
+          "ja": "痛い"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "my shoulder hurts": {
+          "ja": "肩が痛い"
+        },
+        "is reduced to": {
+          "ja": "〜にまで縮められる"
+        },
+        "the word": {
+          "ja": "その語"
+        },
+        "the location": {
+          "ja": "場所"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "nature of": {
+          "ja": "〜の性質・状態"
+        },
+        "the pain": {
+          "ja": "痛み"
+        },
+        "disappear": {
+          "ja": "消える"
         }
       },
       "phrases": [
         {
-          "en": "If “my shoulder hurts” is reduced to the word “hurts,” the location and nature of the pain disappear.",
-          "ja": "「肩が痛い」を「痛い」という語だけに縮めると、痛みの場所と状態が消える。",
-          "note": "if節が、語を切り縮めた場合の結果を示す。"
+          "en": "is reduced to the word “hurts,”",
+          "ja": "「痛い」という語だけに縮められる",
+          "note": "reduce A to B「AをBにまで減らす・縮める」。",
+          "pattern": "reduce A to B"
         }
       ]
     },
     {
       "words": {
-        "lexical": {
-          "ja": "語彙の"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "lexical match": {
+          "ja": "単語レベルの一致"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "entry point": {
+          "ja": "入口"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "the meaning of": {
+          "ja": "〜の意味"
+        },
+        "a sentence": {
+          "ja": "文"
         }
       },
       "phrases": [
         {
-          "en": "A lexical match is an entry point, not the meaning of a sentence.",
-          "ja": "語彙の一致は入口であって、文の意味ではない。",
-          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+          "en": "is an entry point, not the meaning of a sentence",
+          "ja": "入口であって文の意味ではない",
+          "note": "対比。",
+          "pattern": "A, not B"
         }
       ]
     },
     {
       "words": {
         "dictionary-resolvable": {
-          "ja": "辞書で解決できる"
+          "ja": "辞書で片づく"
         },
         "pieces": {
-          "ja": "部分（複数）"
+          "ja": "部分"
         },
         "chunks": {
-          "ja": "意味の塊（複数）"
+          "ja": "意味のかたまり"
+        },
+        "translation": {
+          "ja": "翻訳"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "usable": {
+          "ja": "使える"
+        },
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "are separated from": {
+          "ja": "〜から切り分けられる"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "require": {
+          "ja": "必要とする"
+        },
+        "context": {
+          "ja": "文脈"
         }
       },
       "phrases": [
         {
-          "en": "Translation becomes usable only when dictionary-resolvable pieces are separated from chunks that require context.",
-          "ja": "翻訳は、辞書で解決できる部分と文脈を必要とする塊を分けて初めて使えるようになる。",
-          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+          "en": "only when dictionary-resolvable pieces are separated from chunks that require context",
+          "ja": "辞書で片づく部分を文脈の要るかたまりから分けたときだけ",
+          "note": "only when で条件を限定。",
+          "pattern": "separate A from B"
         }
       ]
     }
@@ -7205,89 +7303,232 @@
   "DE-20261110-002": [
     {
       "words": {
-        "gap": {
-          "ja": "隔たり"
+        "the same gap": {
+          "ja": "同じずれ"
+        },
+        "appears on": {
+          "ja": "〜に現れる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "price tag": {
+          "ja": "値札"
         }
       },
       "phrases": [
         {
-          "en": "The same gap appears on a price tag.",
-          "ja": "同じ隔たりは値札にも現れる。",
-          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+          "en": "appears on a price tag",
+          "ja": "値札にも現れる",
+          "note": "on は「〜の上に」。",
+          "pattern": "appear on 〜"
         }
       ]
     },
     {
       "words": {
-        "loyal": {
-          "ja": "固定的に支持する"
-        },
-        "fans": {
-          "ja": "ファン（複数）"
-        },
-        "announced": {
-          "ja": "告知された"
-        },
-        "higher": {
-          "ja": "より高い"
-        },
         "raise": {
-          "ja": "高める"
+          "ja": "上げる"
         },
-        "proportion": {
-          "ja": "割合"
-        }
-      },
-      "phrases": [
-        {
-          "en": "A product may have loyal fans and receive attention when announced, but a higher price does not raise the value of the experience by the same proportion.",
-          "ja": "商品には固定ファンがいて告知時に注目を集めることもあるが、価格が上がっても体験価値が同じ割合で上がるわけではない。",
-          "note": "not A, but B が否定と正しい条件を対比する。"
-        }
-      ]
-    },
-    {
-      "words": {
-        "credited": {
-          "ja": "名義が示された"
-        }
-      },
-      "phrases": [
-        {
-          "en": "A work or event rests not on one credited name alone, but on production, direction, venue, and the accumulated value of earlier works.",
-          "ja": "作品や催しは、一人の名義だけでなく、制作、演出、会場、過去作が積み上げた価値に支えられる。",
-          "note": "not A, but B が否定と正しい条件を対比する。"
-        }
-      ]
-    },
-    {
-      "words": {
-        "payment": {
-          "ja": "対価・支払い"
-        }
-      },
-      "phrases": [
-        {
-          "en": "Large numbers can signal demand, yet they do not explain who created the value or what the payment was actually for.",
-          "ja": "大きな数字は需要の手掛かりになりうるが、誰が価値を作り、実際に何へ対価が払われたかまでは説明しない。",
-          "note": "yet が数の増加と未対応の残存を対比する。"
-        }
-      ]
-    },
-    {
-      "words": {
-        "exposure": {
-          "ja": "露出"
+        "a": {
+          "ja": "ひとつの"
         },
-        "customers": {
-          "ja": "客（複数）"
+        "product": {
+          "ja": "商品"
+        },
+        "may": {
+          "ja": "〜ことがある"
+        },
+        "have": {
+          "ja": "持つ"
+        },
+        "loyal fans": {
+          "ja": "固定ファン"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "receive attention": {
+          "ja": "注目を集める"
+        },
+        "when announced": {
+          "ja": "発表されたときに"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "higher price": {
+          "ja": "高い価格"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "the value of": {
+          "ja": "〜の価値"
+        },
+        "the experience": {
+          "ja": "体験"
+        },
+        "by the same proportion": {
+          "ja": "同じ割合で"
         }
       },
       "phrases": [
         {
-          "en": "Greater exposure does not automatically bring in new customers either.",
-          "ja": "露出が増えても、新しい客が自動的に来るわけではない。",
-          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+          "en": "when announced",
+          "ja": "発表されたときに",
+          "note": "when (it is) announced の省略。",
+          "pattern": "when 過去分詞"
+        },
+        {
+          "en": "raise the value of the experience by the same proportion",
+          "ja": "同じ割合で体験の価値を上げる",
+          "note": "by は差・割合を表す。",
+          "pattern": "by 〜（程度）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "work": {
+          "ja": "作品"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "event": {
+          "ja": "催し"
+        },
+        "rests not on": {
+          "ja": "〜に支えられているのではない"
+        },
+        "one": {
+          "ja": "ひとつの"
+        },
+        "credited name": {
+          "ja": "表に出る名義"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        },
+        "but on": {
+          "ja": "…に支えられている"
+        },
+        "production": {
+          "ja": "制作"
+        },
+        "direction": {
+          "ja": "演出"
+        },
+        "venue": {
+          "ja": "会場"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the accumulated value of": {
+          "ja": "〜が積み上げた価値"
+        },
+        "earlier works": {
+          "ja": "過去の作品"
+        }
+      },
+      "phrases": [
+        {
+          "en": "rests not on one credited name alone, but on production",
+          "ja": "一人の名義だけでなく制作などに支えられる",
+          "note": "rest on「〜に支えられる・〜に基づく」。",
+          "pattern": "rest on 〜 / not A but B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "large numbers": {
+          "ja": "大きな数字"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "signal": {
+          "ja": "示す"
+        },
+        "demand": {
+          "ja": "需要"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "they": {
+          "ja": "それら（＝数字）"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "explain": {
+          "ja": "説明する"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "created": {
+          "ja": "作った"
+        },
+        "the value": {
+          "ja": "価値"
+        },
+        "or": {
+          "ja": "も"
+        },
+        "what": {
+          "ja": "何に"
+        },
+        "the payment": {
+          "ja": "支払い"
+        },
+        "was actually for": {
+          "ja": "実際には〜のためのものだった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what the payment was actually for",
+          "ja": "支払いが実際には何に対するものだったか",
+          "note": "文末の for は what を目的語にとる前置詞。",
+          "pattern": "what ... for"
+        }
+      ]
+    },
+    {
+      "words": {
+        "greater exposure": {
+          "ja": "露出の増加"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "automatically": {
+          "ja": "自動的に"
+        },
+        "bring in": {
+          "ja": "呼び込む"
+        },
+        "new customers": {
+          "ja": "新しい客"
+        },
+        "either": {
+          "ja": "〜もまた（否定文で）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not automatically bring in new customers either",
+          "ja": "新しい客を自動的に呼び込むわけでもない",
+          "note": "否定文の either「〜もまた」。",
+          "pattern": "bring in / not ... either"
         }
       ]
     }
@@ -7295,49 +7536,94 @@
   "DE-20261110-003": [
     {
       "words": {
-        "gap": {
-          "ja": "隔たり"
+        "development": {
+          "ja": "開発の"
+        },
+        "status labels": {
+          "ja": "状態表示"
+        },
+        "create": {
+          "ja": "生む"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "similar gap": {
+          "ja": "似たずれ"
         }
       },
       "phrases": [
         {
-          "en": "Development status labels create a similar gap.",
-          "ja": "開発の状態表示にも同じ隔たりが生まれる。",
-          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+          "en": "create a similar gap",
+          "ja": "似たずれを生む",
+          "note": "前段の「数字と中身のずれ」と同じ構造。",
+          "pattern": "similar 〜"
         }
       ]
     },
     {
       "words": {
-        "sha": {
-          "ja": "コミット識別子SHA"
-        },
         "matched": {
           "ja": "一致した"
         },
-        "executed": {
-          "ja": "実行された"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "job": {
+          "ja": "ジョブ（実行単位）"
+        },
+        "returned": {
+          "ja": "返した"
+        },
+        "success": {
+          "ja": "SUCCESS（成功）"
+        },
+        "with": {
+          "ja": "〜とともに"
+        },
+        "exit code": {
+          "ja": "終了コード"
+        },
+        "the recorded sha": {
+          "ja": "記録されたSHA（コミットの識別子）"
+        },
+        "the executed commit": {
+          "ja": "実行されたコミット"
         }
       },
       "phrases": [
         {
-          "en": "A job returned SUCCESS with exit code 0; the recorded SHA matched the executed commit;",
-          "ja": "ジョブは終了コード0でSUCCESSを返し、記録されたSHAは実行したコミットと一致した。",
-          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+          "en": "returned SUCCESS with exit code 0",
+          "ja": "終了コード0でSUCCESSを返した",
+          "note": "with は付随する情報。",
+          "pattern": "with 〜"
         }
       ]
     },
     {
       "words": {
-        "worktree": {
+        "the worktree": {
           "ja": "作業ツリー"
+        },
+        "was clean": {
+          "ja": "未コミットの変更がなかった"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the tests": {
+          "ja": "テスト"
+        },
+        "passed": {
+          "ja": "通った"
         }
       },
       "phrases": [
         {
-          "en": "the worktree was clean; and the tests passed.",
-          "ja": "作業ツリーはクリーンで、テストも通った。",
-          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+          "en": "the worktree was clean",
+          "ja": "作業ツリーに未保存の変更がない",
+          "note": "Git では「変更が残っていない」状態を clean と言う。",
+          "pattern": "clean（Git用語）"
         }
       ]
     },
@@ -7345,13 +7631,35 @@
       "words": {
         "merge": {
           "ja": "マージする"
+        },
+        "even so": {
+          "ja": "それでも"
+        },
+        "the rule": {
+          "ja": "規則"
+        },
+        "remained": {
+          "ja": "残った"
+        },
+        "do not": {
+          "ja": "〜するな"
+        },
+        "until": {
+          "ja": "〜するまで"
+        },
+        "the required review": {
+          "ja": "必要なレビュー"
+        },
+        "is complete": {
+          "ja": "完了する"
         }
       },
       "phrases": [
         {
-          "en": "Even so, the rule remained: do not merge until the required review is complete.",
-          "ja": "それでも、必要なレビューが完了するまではマージしないという規則が残った。",
-          "note": "until が禁止を維持する期限を示す。"
+          "en": "do not merge until the required review is complete",
+          "ja": "必要なレビューが終わるまでマージしない",
+          "note": "コロン以下が rule の内容（命令形）。",
+          "pattern": "until 〜"
         }
       ]
     },
@@ -7359,41 +7667,104 @@
       "words": {
         "verification": {
           "ja": "検証"
+        },
+        "numbers": {
+          "ja": "数字"
+        },
+        "accelerate": {
+          "ja": "速める"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "they": {
+          "ja": "それら（＝数字）"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "make the decision": {
+          "ja": "判断を下す"
         }
       },
       "phrases": [
         {
-          "en": "Numbers accelerate verification, but they do not make the decision.",
-          "ja": "数字は検証を速めるが、判断そのものは行わない。",
-          "note": "not A, but B が否定と正しい条件を対比する。"
+          "en": "they do not make the decision",
+          "ja": "判断を下すのは数字ではない",
+          "note": "make a decision「決定する」。",
+          "pattern": "make a decision"
         }
       ]
     },
     {
       "words": {
-        "row": {
-          "ja": "一列"
+        "completion": {
+          "ja": "完成"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a row of": {
+          "ja": "〜の列"
+        },
+        "passing checks": {
+          "ja": "合格した確認"
         }
       },
       "phrases": [
         {
-          "en": "Completion is not a row of passing checks.",
-          "ja": "完成とは、合格した確認項目が並ぶことではない。",
-          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+          "en": "a row of passing checks",
+          "ja": "合格した確認項目が並んでいること",
+          "note": "row「列・並び」。",
+          "pattern": "a row of 〜"
         }
       ]
     },
     {
       "words": {
-        "grounds": {
-          "ja": "根拠（複数）"
+        "it": {
+          "ja": "それ（＝完成）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "state": {
+          "ja": "状態"
+        },
+        "in which": {
+          "ja": "その中で"
+        },
+        "the grounds for": {
+          "ja": "〜の根拠"
+        },
+        "moving forward": {
+          "ja": "先へ進むこと"
+        },
+        "are present": {
+          "ja": "そろっている"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the reason for": {
+          "ja": "〜の理由"
+        },
+        "any hold": {
+          "ja": "どんな保留でも"
+        },
+        "is visible": {
+          "ja": "見えている"
         }
       },
       "phrases": [
         {
-          "en": "It is a state in which the grounds for moving forward are present and the reason for any hold is visible.",
-          "ja": "次へ進む根拠が揃い、保留する理由も見える状態である。",
-          "note": "主語と述語を含む意味単位として、前後の対比と因果を保って読む。"
+          "en": "a state in which the grounds for moving forward are present",
+          "ja": "進む根拠がそろっている状態",
+          "note": "前置詞＋関係代名詞。",
+          "pattern": "in which 〜"
         }
       ]
     }
