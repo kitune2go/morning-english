@@ -1,0 +1,227 @@
+[
+  {
+    "id": "DE-20261122-001",
+    "sourceTitle": "『声は名札より先に聞こえる』",
+    "workId": "daily-essay-20261122",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "声に付く三つの名札",
+    "jp": "頭の中に自分以外の声が浮かぶ経験は、置かれた文脈によって別の名を与えられる。ある場所では神の声と呼ばれ、別の場所では症状と疑われ、本人が冗談めかして空耳と呼ぶこともある。しかし、名札の違いだけで経験そのものの仕組みが変わるわけではない。内言語は常に自分の声色で現れるとは限らず、思考の一部がよそから来た声のように感じられる可能性もある。評価より先に、何が、どのように聞こえたのかを記述する必要がある。",
+    "translationLiteral": "The experience of a voice other than one's own arising inside the head is given different names according to the context in which it is placed. In one place it is called the voice of God, in another it is suspected to be a symptom, and the person may jokingly call it a mishearing. Yet the mechanism of the experience itself does not change merely because the label changes. Inner speech does not always appear in one's own tone of voice, and part of thought may possibly feel like a voice coming from elsewhere. Before evaluation, it is necessary to describe what was heard and how it was heard.",
+    "translationNatural": "An inner voice that does not sound like one's own can receive different names in different settings. It may be called divine, treated as a possible symptom, or jokingly dismissed by the hearer as a mishearing. Those labels do not by themselves alter the underlying experience. Inner speech need not arrive in one's usual voice, and part of a thought may feel as if it came from elsewhere. Before judging it, we need to describe what was heard and how it appeared.",
+    "imageUrl": "",
+    "imageCaption": "同じ内なる声に、神託、症状、空耳という異なる名札が近づく。",
+    "imagePrompt": "Editorial illustration of one indistinct inner voice surrounded by three different blank labels suggesting revelation, symptom, and mishearing, with a notebook recording the experience before judgment, no readable text",
+    "chunks": [
+      {
+        "en": "An inner voice that does not sound like one's own can receive different names in different settings.",
+        "ja": "自分の声のように聞こえない内なる声は、置かれた場によって異なる名前を与えられうる。"
+      },
+      {
+        "en": "It may be called divine, treated as a possible symptom, or jokingly dismissed by the hearer as a mishearing.",
+        "ja": "それは神聖な声と呼ばれ、症状の可能性として扱われ、あるいは聞いた本人によって冗談めかして空耳として片づけられることがある。"
+      },
+      {
+        "en": "Those labels do not by themselves alter the underlying experience.",
+        "ja": "そうした名札だけで、基にある経験そのものが変わるわけではない。"
+      },
+      {
+        "en": "Inner speech need not arrive in one's usual voice, and part of a thought may feel as if it came from elsewhere.",
+        "ja": "内言語は普段の自分の声で現れるとは限らず、思考の一部が別の場所から来たように感じられることもある。"
+      },
+      {
+        "en": "Before judging it, we need to describe what was heard and how it appeared.",
+        "ja": "それを評価する前に、何が聞こえ、どのように現れたのかを記述する必要がある。"
+      }
+    ],
+    "grammar": [
+      "that does not sound like ... は inner voice を後ろから限定し、声の聞こえ方を示す。",
+      "can receive different names は、同じ経験が複数の呼称を与えられうることを受動態で表す。",
+      "may be called / treated / dismissed は、三つの評価を並列する受動態である。",
+      "do not by themselves alter ... は、名札だけでは経験を変えないという限定付き否定を表す。",
+      "need not ... は「必ずしも〜する必要はない／〜とは限らない」を示す。",
+      "as if it came from elsewhere は、実際の起源を断定せず、そう感じられる様態を仮定法で表す。"
+    ],
+    "translationNote": "divine は「神の声」と断定せず、そう呼ばれる評価を表す。possible symptom も診断を確定しない。mishearing は会話中の「空耳アワー」の軽い自己命名を一般化した。as if は声が実際に外部から来たとはせず、本人の感じ方だけを残す。",
+    "readingPoint": "導入。同じ経験が文脈によって宗教・医療・冗談の言葉へ分かれる場面を置き、評価より記述を先にする。",
+    "keywords": [
+      "内言語",
+      "声",
+      "宗教的体験",
+      "症状",
+      "空耳",
+      "記述"
+    ]
+  },
+  {
+    "id": "DE-20261122-002",
+    "sourceTitle": "『声は名札より先に聞こえる』",
+    "workId": "daily-essay-20261122",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "勝者が書く恋文",
+    "jp": "名付けが過去を書き換えるのは、声だけではない。選ばれた人は、長い努力を愛だったと言える。だが、同じように画面の前で時間を費やし、選ばれなかった人の夜は、成功談の外へ落ちる。勝利のあとで「愛していたから勝てた」と書けば、敗者の熱意は不足していたことにされる。そこで作られた歌は、その事後的な説明を「事後恋文」と呼んだ。愛は努力の原因だったかもしれないが、結果から逆算してだけ測れば、愛という言葉は勝者へ配られる勲章になる。",
+    "translationLiteral": "Naming rewrites not only voices but also the past. A person who was chosen can say that long effort was love. Yet the nights of people who spent time before the screen in the same way and were not chosen fall outside the success story. If one writes after victory that one won because one loved it, the losers' passion is made to seem insufficient. The song created there called that retrospective explanation an 'after-the-fact love letter.' Love may have been a cause of effort, but if it is measured only backward from the result, the word love becomes a medal distributed to winners.",
+    "translationNatural": "Labels can rewrite the past as well as voices. Those who are chosen may describe years of effort as love, while the equally devoted nights of those not chosen disappear from the success story. Once victory is explained as proof of love, the passion of the unsuccessful is recast as insufficient. A song from the conversation named this retrospective story an 'after-the-fact love letter.' Love may indeed sustain effort, but when it is measured only backward from results, the word becomes a medal reserved for winners.",
+    "imageUrl": "",
+    "imageCaption": "勝者の努力だけが恋文として清書され、選ばれなかった夜が紙の外へ落ちる。",
+    "imagePrompt": "Editorial illustration of a winner rewriting years of effort as a love letter while equally worn nights of unchosen workers fall outside the page, with a medal shaped like the word love but no readable text",
+    "chunks": [
+      {
+        "en": "Labels can rewrite the past as well as voices.",
+        "ja": "名札は、声だけでなく過去も書き換えうる。"
+      },
+      {
+        "en": "Those who are chosen may describe years of effort as love, while the equally devoted nights of those not chosen disappear from the success story.",
+        "ja": "選ばれた人は何年もの努力を愛と語れる一方、同じほど打ち込んだ選ばれなかった人々の夜は成功談から消える。"
+      },
+      {
+        "en": "Once victory is explained as proof of love, the passion of the unsuccessful is recast as insufficient.",
+        "ja": "ひとたび勝利が愛の証明として説明されると、成功しなかった人々の熱意は不足していたものへ作り替えられる。"
+      },
+      {
+        "en": "A song from the conversation named this retrospective story an 'after-the-fact love letter.'",
+        "ja": "対話から生まれた歌は、この回顧的な物語を「事後恋文」と名付けた。"
+      },
+      {
+        "en": "Love may indeed sustain effort, but when it is measured only backward from results, the word becomes a medal reserved for winners.",
+        "ja": "愛は確かに努力を支えることがあるが、結果から逆向きにだけ測られると、その言葉は勝者だけに取っておかれた勲章になる。"
+      }
+    ],
+    "grammar": [
+      "as well as voices は、書き換えの対象を声から過去へ加える。",
+      "Those who are chosen は、関係代名詞 who を使って選ばれた人を限定する。",
+      "while ... disappear は、勝者の語りと選ばれなかった夜の消失を対比する。",
+      "Once A is explained as B は、勝利が愛の証明とされた時点から生じる変化を示す。",
+      "is recast as insufficient は、熱意が後から不足と再解釈されることを受動態で表す。",
+      "when it is measured only backward from results は、愛という語の測定条件を限定する。"
+    ],
+    "translationNote": "equally devoted は、選ばれなかった側にも同程度の献身があったという原文の対比を保つ。retrospective story は事後的説明で、過去の感情そのものを否定しない。reserved for winners は「勝者へ配られる」を自然化しつつ、敗者が排除される意味を残す。",
+    "readingPoint": "展開。経験への名札が、成功後には過去の努力と愛の配分まで書き換えることを示す。",
+    "keywords": [
+      "事後恋文",
+      "成功談",
+      "努力",
+      "愛",
+      "敗者",
+      "結果"
+    ]
+  },
+  {
+    "id": "DE-20261122-003",
+    "sourceTitle": "『声は名札より先に聞こえる』",
+    "workId": "daily-essay-20261122",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "作品から値札を外す",
+    "jp": "成功と愛を結ぶ物語の背後には、創作は収入にならなければならないという前提もある。作品が売れれば才能と献身が証明され、売れなければ趣味や失敗へ戻される。その前提を外せば、AIが制作能力の希少性を下げても、表現する行為まで消えるわけではない。創作する権利と、創作によって市場収入を得る権利は同じではない。解体すべきなのは創作ではなく、技能、価値、市場価格を一つの尺度へ縛りつけ、値札を人の証明書にしてきた結び目である。",
+    "translationLiteral": "Behind the story that connects success and love is also the premise that creation must become income. If a work sells, talent and devotion are proven; if it does not sell, it is returned to hobby or failure. If that premise is removed, even if AI lowers the scarcity of production ability, the act of expression itself does not disappear. The right to create and the right to obtain market income through creation are not the same. What should be dismantled is not creation but the knot that has bound skill, value, and market price to one scale and made a price tag into a person's certificate.",
+    "translationNatural": "Behind the union of success and love lies another assumption: creative work must produce income. A sale is treated as proof of talent and devotion; without one, the work is demoted to a hobby or failure. Remove that assumption, and AI may reduce the scarcity of production skills without erasing expression itself. The right to create is not the same as a right to earn market income from creation. What needs dismantling is not creation, but the knot that binds skill, value, and price to one scale and turns a price tag into a certificate of the person.",
+    "imageUrl": "",
+    "imageCaption": "作品から外された値札の裏で、技能、価値、市場価格を束ねた結び目が見える。",
+    "imagePrompt": "Editorial illustration of a price tag being removed from a creative work, revealing a knot binding skill, value, and market price while the act of expression continues beside an AI tool, no readable text",
+    "chunks": [
+      {
+        "en": "Behind the union of success and love lies another assumption: creative work must produce income.",
+        "ja": "成功と愛の結びつきの背後には、創作は収入を生まなければならないという別の前提がある。"
+      },
+      {
+        "en": "A sale is treated as proof of talent and devotion; without one, the work is demoted to a hobby or failure.",
+        "ja": "売れたことは才能と献身の証明として扱われ、売れなければ作品は趣味や失敗へ格下げされる。"
+      },
+      {
+        "en": "Remove that assumption, and AI may reduce the scarcity of production skills without erasing expression itself.",
+        "ja": "その前提を外せば、AIは表現そのものを消すことなく、制作技能の希少性を下げるかもしれない。"
+      },
+      {
+        "en": "The right to create is not the same as a right to earn market income from creation.",
+        "ja": "創作する権利は、創作から市場収入を得る権利と同じではない。"
+      },
+      {
+        "en": "What needs dismantling is not creation, but the knot that binds skill, value, and price to one scale and turns a price tag into a certificate of the person.",
+        "ja": "解体すべきなのは創作ではなく、技能、価値、価格を一つの尺度へ縛り、値札をその人の証明書へ変える結び目である。"
+      }
+    ],
+    "grammar": [
+      "Behind ... lies ... は、場所表現を前置した倒置で背後の前提を提示する。",
+      "must produce income は、創作へ課された義務的前提を表す。",
+      "is treated as / is demoted to は、販売結果による評価の変化を受動態で示す。",
+      "Remove A, and B は、命令形と and で条件と帰結を簡潔に結ぶ。",
+      "without erasing ... は、希少性の低下が表現の消滅を伴わないことを示す。",
+      "What needs dismantling is not A, but B は、解体対象を創作から結び目へ訂正する強調構文である。"
+    ],
+    "translationNote": "the right to create / a right to earn market income は、原文の二つの権利を同じ語で対照し、創作の自由と収入の保証を混同しない。demoted は作品の実体が変わるのではなく、評価上格下げされることを示す。certificate of the person は値札が作品だけでなく人物の価値証明にされる比喩を残す。",
+    "readingPoint": "転換。名付けの問題を市場評価へ移し、AIが脅かすものを表現そのものと収入の前提に分ける。",
+    "keywords": [
+      "創作",
+      "市場収入",
+      "AI",
+      "希少性",
+      "値札",
+      "解体"
+    ]
+  },
+  {
+    "id": "DE-20261122-004",
+    "sourceTitle": "『声は名札より先に聞こえる』",
+    "workId": "daily-essay-20261122",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "解く者を選び直す",
+    "jp": "名札を外すだけでは、空いた場所を誰が担うかは決まらない。親という肩書きも、人間という分類も、判断が正しいことを自動では保証しない。その日には、正しく行使されない親の権限を問い直し、AIゆりかごを構想する言葉があり、人間には重すぎる問題を人間だけで解こうとしない歌も生まれた。一方で、複数の三次元生成器とAIをつなぎ、生成物を評価して修正へ戻す具体的な工程も検討された。権限を機械へ渡すことが答えなのではない。肩書きではなく、検査でき、誤りを戻せる過程へ権限を預けることが次の問いになる。",
+    "translationLiteral": "Merely removing a label does not decide who will take the place left open. Neither the title of parent nor the classification of human automatically guarantees correct judgment. That day included words that questioned parental authority when it was not properly exercised and imagined an AI cradle, as well as a song about not trying to solve, with humans alone, problems too heavy for humans. At the same time, a concrete process was considered that would connect multiple three-dimensional generators with AI, evaluate the output, and return it for revision. Handing authority to machines is not itself the answer. The next question is whether authority can be entrusted not to a title but to a process that can be inspected and can return errors for correction.",
+    "translationNatural": "Removing a label does not decide who should occupy the space it leaves. Neither the title of parent nor the category of human guarantees sound judgment. That day brought both a proposal to reconsider parental authority when it is misused and to imagine an AI cradle, and a song about problems too heavy for humans to solve alone. It also brought a practical plan to connect several 3D generators to an AI that could evaluate their output and send it back for revision. Simply transferring authority to machines is not the answer. The next question is how to entrust authority to an inspectable, correctable process rather than to a title.",
+    "imageUrl": "",
+    "imageCaption": "親、人間、AIという名札の下で、権限が検査と修正の輪へ渡される。",
+    "imagePrompt": "Editorial illustration of labels for parent, human, and AI set aside while authority moves into a transparent loop of generation, inspection, and correction, including a cradle symbol and several 3D model generators, no readable text",
+    "chunks": [
+      {
+        "en": "Removing a label does not decide who should occupy the space it leaves.",
+        "ja": "名札を外しても、それが残す場所を誰が担うべきかは決まらない。"
+      },
+      {
+        "en": "Neither the title of parent nor the category of human guarantees sound judgment.",
+        "ja": "親という肩書きも人間という分類も、妥当な判断を保証しない。"
+      },
+      {
+        "en": "That day brought both a proposal to reconsider parental authority when it is misused and to imagine an AI cradle, and a song about problems too heavy for humans to solve alone.",
+        "ja": "その日には、誤って行使されるときの親の権限を問い直し、AIゆりかごを構想する提案と、人間だけで解くには重すぎる問題を歌う曲の両方が生まれた。"
+      },
+      {
+        "en": "It also brought a practical plan to connect several 3D generators to an AI that could evaluate their output and send it back for revision.",
+        "ja": "さらに、複数の三次元生成器を、出力を評価して修正へ送り返せるAIにつなぐ実用的な計画も生まれた。"
+      },
+      {
+        "en": "Simply transferring authority to machines is not the answer.",
+        "ja": "ただ権限を機械へ移すことが答えなのではない。"
+      },
+      {
+        "en": "The next question is how to entrust authority to an inspectable, correctable process rather than to a title.",
+        "ja": "次の問いは、肩書きではなく、検査でき修正できる過程へ、どう権限を託すかである。"
+      }
+    ],
+    "grammar": [
+      "Removing a label は動名詞句を主語にし、名札を外す行為全体を扱う。",
+      "who should occupy ... は decide の目的となる間接疑問節である。",
+      "Neither A nor B guarantees ... は、二つの肩書きのどちらも保証しないという否定を表す。",
+      "both A and B は、AIゆりかごの提案と歌という二つの素材を並列する。",
+      "too heavy for humans to solve alone は、問題の重さと人間だけで解く限界を示す。",
+      "an AI that could evaluate ... and send ... は、AIの二つの役割を関係節で限定する。",
+      "rather than to a title は、権限を託す先を肩書きから過程へ対比的に移す。"
+    ],
+    "translationNote": "AI cradle は対話で提示された構想名を保つ。when it is misused は正しく行使されない場合だけを条件にし、親一般が常に誤るとはしていない。3D generators はDrive上の複数生成器を一般化した。inspectable, correctable process は機械の無条件な優越ではなく、検査と差し戻しが可能な工程を指す。",
+    "readingPoint": "余韻。名札を疑うだけで終わらず、親・人間・AIのいずれにも自動的な正しさを与えず、検査可能な過程へ権限を置き直す問いで閉じる。",
+    "keywords": [
+      "権限",
+      "AIゆりかご",
+      "人間",
+      "3D生成",
+      "検査",
+      "修正"
+    ]
+  }
+]
