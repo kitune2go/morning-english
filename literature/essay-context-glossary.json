@@ -33321,5 +33321,719 @@
         }
       ]
     }
+  ],
+  "DE-20260918-001": [
+    {
+      "words": {
+        "departments": {
+          "ja": "部署"
+        },
+        "inside": {
+          "ja": "〜の中の"
+        },
+        "one organization": {
+          "ja": "一つの組織"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "inhabit": {
+          "ja": "住んでいる"
+        },
+        "different": {
+          "ja": "異なる"
+        },
+        "numerical worlds": {
+          "ja": "数字の世界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "often inhabit different numerical worlds",
+          "ja": "別々の数字の世界に住んでいる",
+          "note": "inhabit「〜に住む」（比喩）。",
+          "pattern": "inhabit 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "sales": {
+          "ja": "売上"
+        },
+        "costs": {
+          "ja": "費用"
+        },
+        "delays": {
+          "ja": "遅れ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "defects": {
+          "ja": "不良"
+        },
+        "each": {
+          "ja": "それぞれ"
+        },
+        "illuminate": {
+          "ja": "照らす"
+        },
+        "a slice of": {
+          "ja": "〜の一切れ"
+        },
+        "reality": {
+          "ja": "現実"
+        }
+      },
+      "phrases": [
+        {
+          "en": "each illuminate a slice of reality",
+          "ja": "それぞれ現実の一部分を照らす",
+          "note": "slice「一切れ」。",
+          "pattern": "a slice of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "while": {
+          "ja": "〜しながら"
+        },
+        "pushing": {
+          "ja": "押しやること"
+        },
+        "other consequences": {
+          "ja": "ほかの結果"
+        },
+        "out of view": {
+          "ja": "視界の外へ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while pushing other consequences out of view",
+          "ja": "ほかの結果を視界の外へ押しやりながら",
+          "note": "while＋-ing。",
+          "pattern": "push A out of view"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "improvement on": {
+          "ja": "〜の上での改善"
+        },
+        "one dashboard": {
+          "ja": "ある指標画面"
+        },
+        "may": {
+          "ja": "〜ことがある"
+        },
+        "reappear as": {
+          "ja": "〜として再び現れる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "burden": {
+          "ja": "負担"
+        },
+        "on another": {
+          "ja": "別の画面で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may reappear as a burden on another",
+          "ja": "別の画面では負担として現れる",
+          "note": "another = another dashboard。",
+          "pattern": "another（代名詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "so": {
+          "ja": "だから"
+        },
+        "honest reports": {
+          "ja": "正直な報告"
+        },
+        "can still": {
+          "ja": "それでも〜しうる"
+        },
+        "produce": {
+          "ja": "作る"
+        },
+        "incompatible": {
+          "ja": "両立しない"
+        },
+        "portraits of": {
+          "ja": "〜の肖像"
+        },
+        "the same company": {
+          "ja": "同じ会社"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can still produce incompatible portraits of the same company",
+          "ja": "同じ会社について両立しない姿を描きうる",
+          "note": "company はここで「会社」（同伴ではない）。",
+          "pattern": "incompatible"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "common table": {
+          "ja": "共通の表"
+        },
+        "will not": {
+          "ja": "〜しないだろう"
+        },
+        "resolve": {
+          "ja": "解消する"
+        },
+        "that gap": {
+          "ja": "その隔たり"
+        },
+        "unless": {
+          "ja": "〜しない限り"
+        },
+        "someone": {
+          "ja": "誰か"
+        },
+        "translates": {
+          "ja": "翻訳する"
+        },
+        "the causal links": {
+          "ja": "因果のつながり"
+        },
+        "between": {
+          "ja": "〜の間の"
+        },
+        "the figures": {
+          "ja": "数字"
+        }
+      },
+      "phrases": [
+        {
+          "en": "unless someone translates the causal links between the figures",
+          "ja": "誰かが数字の間の因果を訳さない限り",
+          "note": "unless「〜でない限り」。links はここで「つながり」。",
+          "pattern": "unless 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260918-002": [
+    {
+      "words": {
+        "some managers": {
+          "ja": "一部の管理職"
+        },
+        "try to": {
+          "ja": "〜しようとする"
+        },
+        "reconcile": {
+          "ja": "一致させる"
+        },
+        "conflicting numbers": {
+          "ja": "食い違う数字"
+        },
+        "by intensifying": {
+          "ja": "強めることで"
+        },
+        "reprimands": {
+          "ja": "叱責"
+        }
+      },
+      "phrases": [
+        {
+          "en": "try to reconcile conflicting numbers by intensifying reprimands",
+          "ja": "叱責を強めて食い違う数字をそろえようとする",
+          "note": "reconcile「（食い違いを）調整する」。",
+          "pattern": "reconcile 〜 / by -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "reports": {
+          "ja": "報告"
+        },
+        "arrive faster": {
+          "ja": "早く届く"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "procedures": {
+          "ja": "手順"
+        },
+        "look orderly": {
+          "ja": "整って見える"
+        },
+        "while": {
+          "ja": "〜する間"
+        },
+        "authority": {
+          "ja": "権威（上の人）"
+        },
+        "is visibly watching": {
+          "ja": "目に見えて見張っている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while authority is visibly watching",
+          "ja": "上が目に見えて見張っている間は",
+          "note": "authority はここで「権威を持つ人たち」。",
+          "pattern": "while 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "the order": {
+          "ja": "秩序"
+        },
+        "disappears": {
+          "ja": "消える"
+        },
+        "with the gaze": {
+          "ja": "視線とともに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "if the order disappears with the gaze",
+          "ja": "視線がなくなると秩序も消えるなら",
+          "note": "order はここで「秩序」（注文ではない）。",
+          "pattern": "with 〜（〜とともに）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the work": {
+          "ja": "仕事"
+        },
+        "itself": {
+          "ja": "そのもの"
+        },
+        "has not changed": {
+          "ja": "変わっていない"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "behavior": {
+          "ja": "振る舞い"
+        },
+        "under surveillance": {
+          "ja": "監視下での"
+        },
+        "has": {
+          "ja": "（変わった）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "only behavior under surveillance has",
+          "ja": "変わったのは監視下の振る舞いだけ",
+          "note": "has の後に changed が省略。",
+          "pattern": "省略（has changed）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "fear": {
+          "ja": "恐怖"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "impose": {
+          "ja": "課す"
+        },
+        "short-term discipline": {
+          "ja": "短期的な規律"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝恐怖）"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "distribute": {
+          "ja": "配る"
+        },
+        "judgment": {
+          "ja": "判断力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it cannot distribute judgment",
+          "ja": "判断力を配ることはできない",
+          "note": "恐れで従わせても考える力は広がらない。",
+          "pattern": "distribute 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "without": {
+          "ja": "〜がなければ"
+        },
+        "channels for": {
+          "ja": "〜のための経路"
+        },
+        "noticing": {
+          "ja": "気づくこと"
+        },
+        "problems": {
+          "ja": "問題"
+        },
+        "speaking up": {
+          "ja": "声を上げること"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "correcting": {
+          "ja": "直すこと"
+        },
+        "them": {
+          "ja": "それら（＝問題）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "channels for noticing problems, speaking up, and correcting them",
+          "ja": "問題に気づき、声を上げ、直すための経路",
+          "note": "speak up「はっきり意見を言う」。",
+          "pattern": "speak up"
+        }
+      ]
+    },
+    {
+      "words": {
+        "workplace silence": {
+          "ja": "職場の沈黙"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "signal": {
+          "ja": "示す"
+        },
+        "avoidance": {
+          "ja": "回避"
+        },
+        "rather than": {
+          "ja": "〜ではなく"
+        },
+        "health": {
+          "ja": "健全さ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may signal avoidance rather than health",
+          "ja": "健全さではなく回避を示すかもしれない",
+          "note": "signal は動詞「示す」。",
+          "pattern": "A rather than B"
+        }
+      ]
+    }
+  ],
+  "DE-20260918-003": [
+    {
+      "words": {
+        "categories": {
+          "ja": "分類"
+        },
+        "seem to": {
+          "ja": "〜するように見える"
+        },
+        "name": {
+          "ja": "名付ける"
+        },
+        "differences": {
+          "ja": "違い"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "already": {
+          "ja": "すでに"
+        },
+        "exist": {
+          "ja": "存在する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "seem to name differences that already exist",
+          "ja": "すでにある違いに名前を付けるように見える",
+          "note": "name は動詞「名付ける」。",
+          "pattern": "seem to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "drawing": {
+          "ja": "引くこと"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "boundary": {
+          "ja": "境界"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "reorganizes": {
+          "ja": "並べ直す"
+        },
+        "the people": {
+          "ja": "人々"
+        },
+        "around it": {
+          "ja": "その周りの"
+        },
+        "it": {
+          "ja": "それ（＝境界）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "drawing a boundary also reorganizes the people around it",
+          "ja": "境界を引くことは周りの人々も並べ直す",
+          "note": "drawing はここで「引くこと」（絵ではない）。",
+          "pattern": "動名詞の主語"
+        }
+      ]
+    },
+    {
+      "words": {
+        "those inside": {
+          "ja": "内側の人たち"
+        },
+        "are treated as": {
+          "ja": "〜として扱われる"
+        },
+        "alike": {
+          "ja": "同じような"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "those outside": {
+          "ja": "外側の人たち"
+        },
+        "are assigned": {
+          "ja": "割り当てられる"
+        },
+        "shared traits": {
+          "ja": "共通の特徴"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Those inside are treated as alike, while those outside are assigned shared traits",
+          "ja": "内側は同類扱い、外側には共通の性質が割り当てられる",
+          "note": "those「人々」。",
+          "pattern": "those inside／outside"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "box": {
+          "ja": "箱"
+        },
+        "built for": {
+          "ja": "〜のために作られた"
+        },
+        "explanation": {
+          "ja": "説明"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "then": {
+          "ja": "すると"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "a target for": {
+          "ja": "〜の標的"
+        },
+        "suspicion": {
+          "ja": "疑い"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "hostility": {
+          "ja": "敵意"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A box built for explanation can then become a target for suspicion",
+          "ja": "説明用に作った箱が疑いの標的になりうる",
+          "note": "built for 以下が box を修飾。",
+          "pattern": "名詞 + 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "metrics": {
+          "ja": "指標"
+        },
+        "reprimands": {
+          "ja": "叱責"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "labels": {
+          "ja": "ラベル"
+        },
+        "do not merely": {
+          "ja": "単に〜するだけではない"
+        },
+        "reflect": {
+          "ja": "映す"
+        },
+        "reality": {
+          "ja": "現実"
+        }
+      },
+      "phrases": [
+        {
+          "en": "do not merely reflect reality",
+          "ja": "現実を映すだけではない",
+          "note": "コロン以下で何をするかを述べる。",
+          "pattern": "not merely"
+        }
+      ]
+    },
+    {
+      "words": {
+        "people": {
+          "ja": "人々"
+        },
+        "adapt to": {
+          "ja": "〜に合わせる"
+        },
+        "measurement": {
+          "ja": "測定"
+        },
+        "defend": {
+          "ja": "守る"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "assigned image": {
+          "ja": "割り当てられたイメージ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "answer": {
+          "ja": "応える"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "members of": {
+          "ja": "〜の一員"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "named group": {
+          "ja": "名付けられた集団"
+        }
+      },
+      "phrases": [
+        {
+          "en": "adapt to measurement, defend an assigned image, and answer as members of a named group",
+          "ja": "測定に適応し、与えられた像を守り、集団の一員として応える",
+          "note": "ループ効果の具体例。",
+          "pattern": "adapt to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "the mirror": {
+          "ja": "鏡"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "a stage": {
+          "ja": "舞台"
+        },
+        "the observer": {
+          "ja": "見る側"
+        },
+        "is already": {
+          "ja": "すでに〜である"
+        },
+        "part of": {
+          "ja": "〜の一部"
+        },
+        "the scene": {
+          "ja": "場面"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Once the mirror becomes a stage, the observer is already part of the scene",
+          "ja": "鏡が舞台になれば、見る側もすでに場面の一部だ",
+          "note": "観察が対象を変える、という比喩。",
+          "pattern": "once 〜 / part of 〜"
+        }
+      ]
+    }
   ]
 }
