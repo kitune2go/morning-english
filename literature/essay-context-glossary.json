@@ -22116,5 +22116,797 @@
         }
       ]
     }
+  ],
+  "DE-20261006-001": [
+    {
+      "words": {
+        "a line": {
+          "ja": "一文・一節"
+        },
+        "such as": {
+          "ja": "〜のような"
+        },
+        "there are no": {
+          "ja": "〜は一つもない"
+        },
+        "mirrors": {
+          "ja": "鏡"
+        },
+        "in the sea": {
+          "ja": "海の中に"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "remain": {
+          "ja": "〜のままでいる"
+        },
+        "vivid": {
+          "ja": "鮮やかな"
+        },
+        "after": {
+          "ja": "〜した後も"
+        },
+        "its": {
+          "ja": "その（＝一文の）"
+        },
+        "surrounding context": {
+          "ja": "周りの文脈"
+        },
+        "has vanished": {
+          "ja": "消えてしまった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can remain vivid after its surrounding context has vanished",
+          "ja": "周りの文脈が消えても鮮やかに残りうる",
+          "note": "remain＋形容詞「〜のままでいる」。",
+          "pattern": "remain 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "short phrases": {
+          "ja": "短い言い回し"
+        },
+        "travel": {
+          "ja": "広まる"
+        },
+        "easily": {
+          "ja": "たやすく"
+        },
+        "they": {
+          "ja": "それら（＝短い言い回し）"
+        },
+        "fit on": {
+          "ja": "〜に収まる"
+        },
+        "images": {
+          "ja": "画像"
+        },
+        "invite": {
+          "ja": "誘う"
+        },
+        "quotation": {
+          "ja": "引用"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "enter": {
+          "ja": "入り込む"
+        },
+        "unrelated": {
+          "ja": "無関係な"
+        },
+        "conversations": {
+          "ja": "会話"
+        }
+      },
+      "phrases": [
+        {
+          "en": "they fit on images, invite quotation, and enter unrelated conversations",
+          "ja": "画像に収まり、引用を誘い、無関係な会話に入り込む",
+          "note": "travel はここで「（言葉が）広まる」。",
+          "pattern": "動詞の並列"
+        }
+      ]
+    },
+    {
+      "words": {
+        "their": {
+          "ja": "それらの"
+        },
+        "portability": {
+          "ja": "持ち運びやすさ"
+        },
+        "is part of": {
+          "ja": "〜の一部である"
+        },
+        "appeal": {
+          "ja": "魅力"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝持ち運びやすさ）"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "carry": {
+          "ja": "運ぶ"
+        },
+        "everything": {
+          "ja": "すべて"
+        },
+        "the larger work": {
+          "ja": "作品全体"
+        },
+        "tests": {
+          "ja": "試す"
+        },
+        "mocks": {
+          "ja": "からかう"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "implicates itself in": {
+          "ja": "自ら巻き込まれる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "everything the larger work tests, mocks, or implicates itself in",
+          "ja": "作品全体が試し、笑い、自ら巻き込まれるものすべて",
+          "note": "everything の後に関係代名詞が省略。文末の in は implicate oneself in の前置詞。",
+          "pattern": "名詞 + (that) 主語 + 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "fragment": {
+          "ja": "断片"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "open the door to": {
+          "ja": "〜への扉を開く"
+        },
+        "work": {
+          "ja": "作品"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "the doorway": {
+          "ja": "入口"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "its": {
+          "ja": "その（＝作品の）"
+        },
+        "entire": {
+          "ja": "全体の"
+        },
+        "public face": {
+          "ja": "世間に見える顔"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may open the door to a work, yet the doorway can become its entire public face",
+          "ja": "作品への扉を開くが、入口が作品の顔のすべてになりうる",
+          "note": "譲歩と逆接。",
+          "pattern": "open the door to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "instead of": {
+          "ja": "〜する代わりに"
+        },
+        "inventing": {
+          "ja": "でっち上げること"
+        },
+        "the missing context": {
+          "ja": "欠けた文脈"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "reader": {
+          "ja": "読み手"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "ask": {
+          "ja": "問う"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "line": {
+          "ja": "一文"
+        },
+        "was cut": {
+          "ja": "切り取られた"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "which": {
+          "ja": "どの"
+        },
+        "system": {
+          "ja": "仕組み"
+        },
+        "helped it travel": {
+          "ja": "それが広まるのを助けた"
+        },
+        "it": {
+          "ja": "それ（＝その一文）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "ask where the line was cut and which system helped it travel",
+          "ja": "どこで切られ、どの仕組みが広めたかを問う",
+          "note": "help＋目的語＋原形。",
+          "pattern": "where／which 節 / help A 動詞"
+        }
+      ]
+    }
+  ],
+  "DE-20261006-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "work": {
+          "ja": "作品"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "attacks": {
+          "ja": "攻撃する"
+        },
+        "the attention market": {
+          "ja": "注目を奪い合う市場"
+        },
+        "still": {
+          "ja": "それでも"
+        },
+        "enters": {
+          "ja": "入っていく"
+        },
+        "systems of": {
+          "ja": "〜の仕組み"
+        },
+        "ranking": {
+          "ja": "順位付け"
+        },
+        "sharing": {
+          "ja": "共有"
+        },
+        "retention": {
+          "ja": "引き留め"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "rapid response": {
+          "ja": "即時の反応"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A work that attacks the attention market still enters systems of ranking",
+          "ja": "注目市場を攻撃する作品も、それでも順位付けの仕組みに入る",
+          "note": "still「それでも」。",
+          "pattern": "that 節 / still"
+        }
+      ]
+    },
+    {
+      "words": {
+        "its": {
+          "ja": "その（＝作品の）"
+        },
+        "criticism": {
+          "ja": "批判"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "both": {
+          "ja": "〜でもあり…でもある"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "argument": {
+          "ja": "主張"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "mechanism for": {
+          "ja": "〜するための仕掛け"
+        },
+        "keeping people engaged": {
+          "ja": "人を引きつけ続ける"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a mechanism for keeping people engaged",
+          "ja": "人を引きつけ続ける仕掛け",
+          "note": "engaged「関わっている・夢中な」。",
+          "pattern": "keep A 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "that contradiction": {
+          "ja": "その矛盾"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "automatically": {
+          "ja": "自動的に"
+        },
+        "invalidate": {
+          "ja": "無効にする"
+        },
+        "the work": {
+          "ja": "作品"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not automatically invalidate the work",
+          "ja": "作品を自動的に無効にはしない",
+          "note": "矛盾＝無価値ではない。",
+          "pattern": "not automatically"
+        }
+      ]
+    },
+    {
+      "words": {
+        "erasing": {
+          "ja": "消すこと"
+        },
+        "it": {
+          "ja": "それ（＝矛盾）"
+        },
+        "would": {
+          "ja": "〜だろう"
+        },
+        "hide": {
+          "ja": "隠す"
+        },
+        "the very": {
+          "ja": "まさにその"
+        },
+        "conditions": {
+          "ja": "条件"
+        },
+        "under which": {
+          "ja": "その下で"
+        },
+        "the work": {
+          "ja": "作品が"
+        },
+        "circulates": {
+          "ja": "流通する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the very conditions under which the work circulates",
+          "ja": "作品が流通するまさにその条件",
+          "note": "very は名詞の前で「まさにその」。",
+          "pattern": "under which 〜 / the very"
+        }
+      ]
+    },
+    {
+      "words": {
+        "instead of": {
+          "ja": "〜する代わりに"
+        },
+        "pretending to": {
+          "ja": "〜するふりをすること"
+        },
+        "speak": {
+          "ja": "語る"
+        },
+        "from outside": {
+          "ja": "〜の外から"
+        },
+        "the market": {
+          "ja": "市場"
+        },
+        "the work": {
+          "ja": "作品"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "use": {
+          "ja": "使う"
+        },
+        "market devices": {
+          "ja": "市場の仕掛け"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "their": {
+          "ja": "それらの（＝仕掛けの）"
+        },
+        "pressure": {
+          "ja": "圧力"
+        },
+        "part of": {
+          "ja": "〜の一部"
+        },
+        "its": {
+          "ja": "その（＝作品の）"
+        },
+        "form": {
+          "ja": "形式"
+        }
+      },
+      "phrases": [
+        {
+          "en": "make their pressure part of its form",
+          "ja": "仕掛けの圧力を作品の形式の一部にする",
+          "note": "make＋目的語＋名詞。",
+          "pattern": "make A B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "satire": {
+          "ja": "風刺"
+        },
+        "grows": {
+          "ja": "〜になる"
+        },
+        "more complicated than": {
+          "ja": "〜より複雑に"
+        },
+        "preaching": {
+          "ja": "説教"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "it": {
+          "ja": "それ（＝風刺）"
+        },
+        "knows that": {
+          "ja": "〜と分かっている"
+        },
+        "the critic": {
+          "ja": "批判する者"
+        },
+        "is being measured": {
+          "ja": "測られている"
+        },
+        "too": {
+          "ja": "も"
+        }
+      },
+      "phrases": [
+        {
+          "en": "grows more complicated than preaching",
+          "ja": "説教より複雑になる",
+          "note": "grow＋形容詞「〜になる」。",
+          "pattern": "grow 比較級 than 〜"
+        },
+        {
+          "en": "the critic is being measured too",
+          "ja": "批判者自身も測られている",
+          "note": "is being 過去分詞「〜されている最中」。",
+          "pattern": "進行形の受け身"
+        }
+      ]
+    }
+  ],
+  "DE-20261006-003": [
+    {
+      "words": {
+        "markets": {
+          "ja": "市場"
+        },
+        "do more than": {
+          "ja": "〜以上のことをする"
+        },
+        "suppress": {
+          "ja": "抑えつける"
+        },
+        "rebellion": {
+          "ja": "反逆"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Markets do more than suppress rebellion",
+          "ja": "市場は反逆を抑える以上のことをする",
+          "note": "次の文で中身を述べる。",
+          "pattern": "do more than 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "they": {
+          "ja": "それら（＝市場）"
+        },
+        "name": {
+          "ja": "名前を付ける"
+        },
+        "it": {
+          "ja": "それ（＝反逆）"
+        },
+        "package": {
+          "ja": "包装する（商品にする）"
+        },
+        "describe": {
+          "ja": "説明する"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "place": {
+          "ja": "置く"
+        },
+        "where": {
+          "ja": "〜するところに"
+        },
+        "people": {
+          "ja": "人が"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "buy": {
+          "ja": "買う"
+        }
+      },
+      "phrases": [
+        {
+          "en": "place it where people can buy it",
+          "ja": "人が買える場所に置く",
+          "note": "where 節が場所を表す。",
+          "pattern": "where（関係副詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "rebellion": {
+          "ja": "反逆"
+        },
+        "acquires": {
+          "ja": "手に入れる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "product code": {
+          "ja": "商品コード"
+        },
+        "its": {
+          "ja": "その（＝反逆の）"
+        },
+        "criticism": {
+          "ja": "批判"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "appear": {
+          "ja": "〜に見える"
+        },
+        "domesticated": {
+          "ja": "飼い慣らされた"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "circulation": {
+          "ja": "流通"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "guarantee": {
+          "ja": "保証する"
+        },
+        "obedience": {
+          "ja": "従順"
+        }
+      },
+      "phrases": [
+        {
+          "en": "circulation does not guarantee obedience",
+          "ja": "流通しても従順になるとは限らない",
+          "note": "appear＋形容詞「〜に見える」。",
+          "pattern": "guarantee 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the useful question": {
+          "ja": "役に立つ問い"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "where": {
+          "ja": "どこに"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "perfectly": {
+          "ja": "完全に"
+        },
+        "pure": {
+          "ja": "純粋な"
+        },
+        "outside": {
+          "ja": "外部"
+        },
+        "might exist": {
+          "ja": "存在しうるか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not where a perfectly pure outside might exist",
+          "ja": "完全に純粋な外部がどこにあるか、ではない",
+          "note": "outside はここで名詞「外部」。",
+          "pattern": "where 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝役に立つ問い）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "gets softened": {
+          "ja": "丸められる"
+        },
+        "during": {
+          "ja": "〜の間に"
+        },
+        "sale": {
+          "ja": "販売"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "still": {
+          "ja": "なお"
+        },
+        "retains": {
+          "ja": "保っている"
+        },
+        "an edge": {
+          "ja": "とがり・鋭さ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what gets softened during sale and what still retains an edge",
+          "ja": "売られる間に何が丸くなり、何がまだ鋭さを保つか",
+          "note": "get＋過去分詞は「〜される」（変化の受け身）。",
+          "pattern": "get 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "shelf": {
+          "ja": "棚"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "bury": {
+          "ja": "埋もれさせる"
+        },
+        "criticism": {
+          "ja": "批判"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "amplify": {
+          "ja": "増幅する"
+        },
+        "it": {
+          "ja": "それ（＝批判）"
+        },
+        "distribution": {
+          "ja": "流通"
+        },
+        "alone": {
+          "ja": "〜だけでは"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "tell us": {
+          "ja": "私たちに教える"
+        },
+        "us": {
+          "ja": "私たちに"
+        },
+        "which": {
+          "ja": "どちらの"
+        },
+        "outcome": {
+          "ja": "結果"
+        },
+        "has occurred": {
+          "ja": "起きたか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Distribution alone cannot tell us which outcome has occurred",
+          "ja": "流通しただけでは、どちらが起きたかは分からない",
+          "note": "alone「〜だけ」。",
+          "pattern": "名詞 + alone / tell A 疑問詞節"
+        }
+      ]
+    }
   ]
 }
