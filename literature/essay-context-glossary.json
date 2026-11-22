@@ -45417,5 +45417,898 @@
         }
       ]
     }
+  ],
+  "DE-20260813-001": [
+    {
+      "words": {
+        "comics": {
+          "ja": "漫画"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "strength-training app": {
+          "ja": "筋トレアプリ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "automation for": {
+          "ja": "〜の自動化"
+        },
+        "three-dimensional production": {
+          "ja": "3D制作"
+        },
+        "each": {
+          "ja": "それぞれ"
+        },
+        "opened": {
+          "ja": "開いた"
+        },
+        "a different window": {
+          "ja": "別々の窓"
+        }
+      },
+      "phrases": [
+        {
+          "en": "each opened a different window",
+          "ja": "それぞれ別の窓を開いた",
+          "note": "comics はここで「漫画」。window は作業画面の比喩。",
+          "pattern": "each（副詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "beyond": {
+          "ja": "〜の向こうに"
+        },
+        "those windows": {
+          "ja": "それらの窓"
+        },
+        "were": {
+          "ja": "あった"
+        },
+        "conversations": {
+          "ja": "会話"
+        },
+        "code": {
+          "ja": "コード"
+        },
+        "images": {
+          "ja": "画像"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "design documents": {
+          "ja": "設計書"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Beyond those windows were conversations, code, images, and design documents",
+          "ja": "窓の向こうには会話・コード・画像・設計書があった",
+          "note": "主語が後ろに回る倒置。code は「（プログラムの）コード」。",
+          "pattern": "場所句 + be + 主語（倒置）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "all": {
+          "ja": "どれも"
+        },
+        "asking to be continued": {
+          "ja": "続きを求めて"
+        }
+      },
+      "phrases": [
+        {
+          "en": "all asking to be continued",
+          "ja": "どれも続けられることを求めていた",
+          "note": "to be continued「続けられること」（受け身）。",
+          "pattern": "ask to be 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "parallel work": {
+          "ja": "並行作業"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "multiply": {
+          "ja": "増やす"
+        },
+        "hands": {
+          "ja": "人手"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝並行作業）"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "duplicate": {
+          "ja": "複製する"
+        },
+        "awareness of": {
+          "ja": "〜の把握"
+        },
+        "the current state": {
+          "ja": "今の状態"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can multiply hands, but it does not duplicate awareness of the current state",
+          "ja": "人手は増やせても、現状の把握までは複製しない",
+          "note": "hands はここで「人手」。",
+          "pattern": "multiply／duplicate"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "projects": {
+          "ja": "プロジェクト"
+        },
+        "proliferate": {
+          "ja": "増殖する"
+        },
+        "the first thing to": {
+          "ja": "最初に〜するもの"
+        },
+        "disappear": {
+          "ja": "消える"
+        },
+        "is often not": {
+          "ja": "しばしば〜ではない"
+        },
+        "time itself": {
+          "ja": "時間そのもの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the first thing to disappear is often not time itself",
+          "ja": "最初に消えるのは時間そのものではないことが多い",
+          "note": "proliferate「急増する」。",
+          "pattern": "the first thing to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "そうではなく"
+        },
+        "the map of": {
+          "ja": "〜の地図"
+        },
+        "what": {
+          "ja": "〜するもの"
+        },
+        "has been left waiting": {
+          "ja": "待たせたままになっている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the map of what has been left waiting",
+          "ja": "何を待たせたままにしているかの地図",
+          "note": "has been left waiting「待たされたまま」。",
+          "pattern": "leave A -ing（受け身）"
+        }
+      ]
+    }
+  ],
+  "DE-20260813-002": [
+    {
+      "words": {
+        "what needed saving": {
+          "ja": "保存が必要だったもの"
+        },
+        "was not only": {
+          "ja": "〜だけではなかった"
+        },
+        "the finished product": {
+          "ja": "完成品"
+        },
+        "but": {
+          "ja": "…も"
+        },
+        "the work in progress": {
+          "ja": "進行中の作業"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What needed saving was not only the finished product, but the work in progress",
+          "ja": "保存すべきは完成品だけでなく進行中の作業だった",
+          "note": "need saving＝need to be saved。in progress「進行中の」。",
+          "pattern": "need -ing（受け身の意味）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "repository": {
+          "ja": "リポジトリ（保管庫）"
+        },
+        "can hold": {
+          "ja": "保持できる"
+        },
+        "code": {
+          "ja": "コード"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A repository can hold code",
+          "ja": "リポジトリはコードを保持できる",
+          "note": "hold は動詞（船倉ではない）。",
+          "pattern": "hold 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "without": {
+          "ja": "〜せずに"
+        },
+        "explaining": {
+          "ja": "説明すること"
+        },
+        "why": {
+          "ja": "なぜ"
+        },
+        "it": {
+          "ja": "それ（＝コード）"
+        },
+        "took": {
+          "ja": "とった"
+        },
+        "its present form": {
+          "ja": "今の形"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "was tested": {
+          "ja": "試されたか"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "was rejected": {
+          "ja": "退けられたか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "without explaining why it took its present form",
+          "ja": "なぜ今の形になったかは説明せずに",
+          "note": "present はここで形容詞「現在の」。",
+          "pattern": "take a form"
+        }
+      ]
+    },
+    {
+      "words": {
+        "documents for": {
+          "ja": "〜のための文書"
+        },
+        "the current status": {
+          "ja": "現在の状況"
+        },
+        "checkpoints": {
+          "ja": "確認点"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "rejected knowledge": {
+          "ja": "退けた知見"
+        },
+        "allow": {
+          "ja": "可能にする"
+        },
+        "another tool": {
+          "ja": "別の道具"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "conversation": {
+          "ja": "会話"
+        },
+        "to resume": {
+          "ja": "再開することを"
+        },
+        "from the same point": {
+          "ja": "同じ地点から"
+        }
+      },
+      "phrases": [
+        {
+          "en": "allow another tool or conversation to resume from the same point",
+          "ja": "別の道具や会話が同じ地点から再開できるようにする",
+          "note": "resume「再開する」。",
+          "pattern": "allow A to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "progress": {
+          "ja": "進み具合"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "the sum of": {
+          "ja": "〜の合計"
+        },
+        "completed labor": {
+          "ja": "終えた作業"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Progress is not the sum of completed labor",
+          "ja": "進捗は終えた作業の合計ではない",
+          "note": "次の文で定義。",
+          "pattern": "sum of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝進捗）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "state": {
+          "ja": "状態"
+        },
+        "in which": {
+          "ja": "その中で"
+        },
+        "the next worker": {
+          "ja": "次の作業者"
+        },
+        "can choose": {
+          "ja": "選べる"
+        },
+        "a first step": {
+          "ja": "最初の一歩"
+        },
+        "without repeating": {
+          "ja": "繰り返さずに"
+        },
+        "the same failure": {
+          "ja": "同じ失敗"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a state in which the next worker can choose a first step",
+          "ja": "次の人が最初の一歩を選べる状態",
+          "note": "前置詞＋関係代名詞。",
+          "pattern": "in which 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260813-003": [
+    {
+      "words": {
+        "parallelism": {
+          "ja": "並列化"
+        },
+        "becomes workable": {
+          "ja": "うまく機能する"
+        },
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "each tool": {
+          "ja": "各道具"
+        },
+        "is given": {
+          "ja": "与えられる"
+        },
+        "the kind of": {
+          "ja": "〜の種類"
+        },
+        "task": {
+          "ja": "仕事"
+        },
+        "it": {
+          "ja": "それ（＝その道具）"
+        },
+        "handles well": {
+          "ja": "うまくこなす"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the kind of task it handles well",
+          "ja": "その道具が得意な種類の仕事",
+          "note": "kind はここで「種類」。",
+          "pattern": "名詞 + (that) 主語 + 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "one tool": {
+          "ja": "ある道具は"
+        },
+        "can clarify": {
+          "ja": "はっきりさせられる"
+        },
+        "the question": {
+          "ja": "問い"
+        },
+        "another": {
+          "ja": "別の道具は"
+        },
+        "make": {
+          "ja": "作る"
+        },
+        "images": {
+          "ja": "画像"
+        }
+      },
+      "phrases": [
+        {
+          "en": "One tool can clarify the question, another can make images",
+          "ja": "ある道具は問いを明確にし、別の道具は画像を作る",
+          "note": "次のチャンクへ続く。",
+          "pattern": "one ... another ... another"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そして"
+        },
+        "another": {
+          "ja": "さらに別の道具は"
+        },
+        "can implement": {
+          "ja": "実装できる"
+        },
+        "test": {
+          "ja": "テストする"
+        },
+        "without forcing": {
+          "ja": "押し込まずに"
+        },
+        "every activity": {
+          "ja": "すべての作業"
+        },
+        "into": {
+          "ja": "〜に"
+        },
+        "a single conversation": {
+          "ja": "一つの会話"
+        }
+      },
+      "phrases": [
+        {
+          "en": "without forcing every activity into a single conversation",
+          "ja": "すべてを一つの会話に押し込まずに",
+          "note": "force A into B「AをBに無理に押し込む」。",
+          "pattern": "force A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "pull request": {
+          "ja": "プルリクエスト"
+        },
+        "carries": {
+          "ja": "運ぶ"
+        },
+        "the purpose of": {
+          "ja": "〜の目的"
+        },
+        "a change": {
+          "ja": "変更"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "its diff": {
+          "ja": "その差分"
+        },
+        "from one tool to the next": {
+          "ja": "ある道具から次の道具へ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carries the purpose of a change and its diff from one tool to the next",
+          "ja": "変更の目的と差分を次の道具へ運ぶ",
+          "note": "diff「差分」。",
+          "pattern": "from A to the next"
+        }
+      ]
+    },
+    {
+      "words": {
+        "instead of": {
+          "ja": "〜する代わりに"
+        },
+        "handing": {
+          "ja": "渡すこと"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "entire project": {
+          "ja": "プロジェクト全体"
+        },
+        "to": {
+          "ja": "〜に"
+        },
+        "a person": {
+          "ja": "人"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "an ai": {
+          "ja": "AI"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Instead of handing an entire project to a person or an AI",
+          "ja": "プロジェクト全体を人やAIに渡す代わりに",
+          "note": "hand は動詞「手渡す」。",
+          "pattern": "instead of -ing / hand A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the work": {
+          "ja": "作業"
+        },
+        "is packed into": {
+          "ja": "〜に詰められる"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "reviewable parcel": {
+          "ja": "確認できる小包"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the work is packed into a reviewable parcel",
+          "ja": "作業を確認できる小包にまとめる",
+          "note": "parcel「小包」。",
+          "pattern": "pack A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "coordination": {
+          "ja": "取りまとめ"
+        },
+        "means": {
+          "ja": "意味する"
+        },
+        "deciding": {
+          "ja": "決めること"
+        },
+        "where": {
+          "ja": "どこへ"
+        },
+        "that parcel": {
+          "ja": "その小包"
+        },
+        "goes": {
+          "ja": "行くか"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "counts as": {
+          "ja": "〜とみなされるか"
+        },
+        "acceptance": {
+          "ja": "受け入れ（合格）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what counts as acceptance",
+          "ja": "何をもって受け入れとするか",
+          "note": "counts は動詞（件数ではない）。",
+          "pattern": "count as 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260813-004": [
+    {
+      "words": {
+        "even when": {
+          "ja": "〜のときでさえ"
+        },
+        "tools": {
+          "ja": "道具"
+        },
+        "run": {
+          "ja": "動く"
+        },
+        "in parallel": {
+          "ja": "並行して"
+        },
+        "only one body": {
+          "ja": "一つの身体だけ"
+        },
+        "lives the day": {
+          "ja": "その日を生きる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "only one body lives the day",
+          "ja": "その日を生きる身体は一つだけ",
+          "note": "in parallel「並行して」。",
+          "pattern": "live the day"
+        }
+      ]
+    },
+    {
+      "words": {
+        "exercise": {
+          "ja": "運動"
+        },
+        "english transcription": {
+          "ja": "英語の書き写し"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "a little guitar": {
+          "ja": "少しのギター"
+        },
+        "were completed": {
+          "ja": "終わった"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "three-dimensional work": {
+          "ja": "3Dの作業"
+        },
+        "remained stalled": {
+          "ja": "止まったままだった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while three-dimensional work remained stalled",
+          "ja": "一方3Dの作業は止まったままだった",
+          "note": "stalled「行き詰まった」。",
+          "pattern": "remain 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "that": {
+          "ja": "それ"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "a failure of": {
+          "ja": "〜の失敗"
+        },
+        "the whole system": {
+          "ja": "全体の仕組み"
+        }
+      },
+      "phrases": [
+        {
+          "en": "That is not a failure of the whole system",
+          "ja": "それは全体の失敗ではない",
+          "note": "次のチャンクで言い換え。",
+          "pattern": "failure of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the shape of": {
+          "ja": "〜の形"
+        },
+        "a day": {
+          "ja": "一日"
+        },
+        "in which": {
+          "ja": "その中で"
+        },
+        "choices": {
+          "ja": "選択"
+        },
+        "became visible": {
+          "ja": "見えるようになった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the shape of a day in which choices became visible",
+          "ja": "選択が見えるようになった一日の形",
+          "note": "in which「その中で」。",
+          "pattern": "in which 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "list": {
+          "ja": "リスト"
+        },
+        "titled": {
+          "ja": "〜と題された"
+        },
+        "what should i do today": {
+          "ja": "今日何をすべきか"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "an order to": {
+          "ja": "〜せよという命令"
+        },
+        "advance": {
+          "ja": "進める"
+        },
+        "everything": {
+          "ja": "すべて"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not an order to advance everything",
+          "ja": "すべてを進めよという命令ではない",
+          "note": "order はここで「命令」。titled「〜という題の」。",
+          "pattern": "order to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝リスト）"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "boundary": {
+          "ja": "境界線"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜する"
+        },
+        "carries": {
+          "ja": "運ぶ"
+        },
+        "unfinished work": {
+          "ja": "やりかけの仕事"
+        },
+        "safely": {
+          "ja": "安全に"
+        },
+        "into tomorrow": {
+          "ja": "明日へ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a boundary that carries unfinished work safely into tomorrow",
+          "ja": "やりかけの仕事を安全に明日へ運ぶ境界",
+          "note": "tomorrow「明日」。",
+          "pattern": "carry A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "what": {
+          "ja": "〜するもの"
+        },
+        "the center of": {
+          "ja": "〜の中心"
+        },
+        "parallel work": {
+          "ja": "並行作業"
+        },
+        "needs": {
+          "ja": "必要とする"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "another window": {
+          "ja": "もう一つの窓"
+        },
+        "but": {
+          "ja": "そうではなく"
+        },
+        "an order": {
+          "ja": "順序"
+        },
+        "in which": {
+          "ja": "その中で"
+        },
+        "one person's": {
+          "ja": "一人の人の"
+        },
+        "day": {
+          "ja": "一日"
+        },
+        "can come to a close": {
+          "ja": "締めくくれる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "an order in which one person's day can come to a close",
+          "ja": "一人の一日を締めくくれる順序",
+          "note": "ここの order は「順序」（前文の「命令」と違う）。close は名詞「終わり」。",
+          "pattern": "come to a close"
+        }
+      ]
+    }
   ]
 }
