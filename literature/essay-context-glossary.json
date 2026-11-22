@@ -47233,5 +47233,928 @@
         }
       ]
     }
+  ],
+  "DE-20260811-001": [
+    {
+      "words": {
+        "code changes": {
+          "ja": "コードの変更"
+        },
+        "usually": {
+          "ja": "ふつうは"
+        },
+        "leave": {
+          "ja": "残す"
+        },
+        "a record of": {
+          "ja": "〜の記録"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "added": {
+          "ja": "加えたか"
+        },
+        "what": {
+          "ja": "何を"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "when": {
+          "ja": "いつ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a record of who added what and when",
+          "ja": "誰がいつ何を加えたかの記録",
+          "note": "code はここで「コード」（法典ではない）。",
+          "pattern": "疑問詞を重ねた間接疑問"
+        }
+      ]
+    },
+    {
+      "words": {
+        "social movements": {
+          "ja": "社会運動"
+        },
+        "are different": {
+          "ja": "違う"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Social movements are different",
+          "ja": "社会運動は違う",
+          "note": "コロン以下で違いを説明。",
+          "pattern": "different"
+        }
+      ]
+    },
+    {
+      "words": {
+        "they": {
+          "ja": "それら（＝社会運動）"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "spread": {
+          "ja": "広がる"
+        },
+        "without": {
+          "ja": "〜なしに"
+        },
+        "a": {
+          "ja": "ひとりの"
+        },
+        "traceable": {
+          "ja": "たどれる"
+        },
+        "first author": {
+          "ja": "最初の作者"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can spread without a traceable first author",
+          "ja": "たどれる最初の作者なしに広がりうる",
+          "note": "traceable「追跡できる」。",
+          "pattern": "without 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そして"
+        },
+        "eventually": {
+          "ja": "やがて"
+        },
+        "alter": {
+          "ja": "変える"
+        },
+        "ordinary behavior": {
+          "ja": "ふだんの振る舞い"
+        },
+        "as": {
+          "ja": "〜として"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "established fact": {
+          "ja": "既成事実"
+        }
+      },
+      "phrases": [
+        {
+          "en": "alter ordinary behavior as an established fact",
+          "ja": "既成事実として日常の振る舞いを変える",
+          "note": "established fact「既成事実」。",
+          "pattern": "as 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "unclear origin": {
+          "ja": "はっきりしない出どころ"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "their": {
+          "ja": "それらの"
+        },
+        "effects": {
+          "ja": "影響"
+        },
+        "unclear": {
+          "ja": "はっきりしない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not make their effects unclear",
+          "ja": "影響まであいまいにするわけではない",
+          "note": "文末の unclear は直前の dump で省略表示。",
+          "pattern": "make A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the less": {
+          "ja": "〜でないほど"
+        },
+        "visible": {
+          "ja": "見える"
+        },
+        "the author": {
+          "ja": "作者"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "the more": {
+          "ja": "いっそう"
+        },
+        "important": {
+          "ja": "重要"
+        },
+        "it becomes": {
+          "ja": "〜になる"
+        },
+        "to examine": {
+          "ja": "調べることが"
+        },
+        "the route": {
+          "ja": "経路"
+        },
+        "by which": {
+          "ja": "それによって"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "proposal": {
+          "ja": "提案"
+        },
+        "turned into": {
+          "ja": "〜に変わった"
+        },
+        "a habit": {
+          "ja": "習慣"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "norm": {
+          "ja": "規範"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The less visible the author is, the more important it becomes to examine the route",
+          "ja": "作者が見えないほど、経路を調べることが重要になる",
+          "note": "the less＋形容詞「〜でないほど」。",
+          "pattern": "the 比較級 ..., the 比較級 ..."
+        }
+      ]
+    }
+  ],
+  "DE-20260811-002": [
+    {
+      "words": {
+        "changing": {
+          "ja": "変えること"
+        },
+        "society": {
+          "ja": "社会"
+        },
+        "means": {
+          "ja": "意味する"
+        },
+        "the conditions": {
+          "ja": "条件"
+        },
+        "under which": {
+          "ja": "その下で"
+        },
+        "people": {
+          "ja": "人々が"
+        },
+        "act": {
+          "ja": "行動する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the conditions under which people act",
+          "ja": "人々が行動する条件",
+          "note": "前置詞＋関係代名詞。act は動詞「行動する」。",
+          "pattern": "under which 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "not merely": {
+          "ja": "単に〜ではない"
+        },
+        "shifting": {
+          "ja": "動かすこと"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "abstract mood": {
+          "ja": "抽象的な空気"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not merely shifting an abstract mood",
+          "ja": "漠然とした空気を変えるだけではない",
+          "note": "mood「雰囲気」。",
+          "pattern": "not merely 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "markets": {
+          "ja": "市場"
+        },
+        "administrative practice": {
+          "ja": "行政の実務"
+        },
+        "political decisions": {
+          "ja": "政治の決定"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "law": {
+          "ja": "法律"
+        },
+        "carry": {
+          "ja": "運ぶ"
+        },
+        "that influence": {
+          "ja": "その影響力"
+        },
+        "through": {
+          "ja": "〜を通じて"
+        },
+        "different procedures": {
+          "ja": "異なる手続き"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carry that influence through different procedures",
+          "ja": "異なる手続きを通じて影響力を運ぶ",
+          "note": "practice はここで「実務」。",
+          "pattern": "carry A through B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the routes": {
+          "ja": "経路"
+        },
+        "differ": {
+          "ja": "異なる"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "each one": {
+          "ja": "それぞれ"
+        },
+        "exercises": {
+          "ja": "行使する"
+        },
+        "power": {
+          "ja": "力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "each one exercises power",
+          "ja": "どれも力を行使する",
+          "note": "exercises は動詞「行使する」（運動ではない）。routes は「経路」。",
+          "pattern": "exercise（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "good intentions": {
+          "ja": "善意"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "anti-authority label": {
+          "ja": "反権力の看板"
+        },
+        "are therefore not enough": {
+          "ja": "だから十分ではない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "are therefore not enough",
+          "ja": "だから十分ではない",
+          "note": "次のチャンクへ続く。",
+          "pattern": "not enough"
+        }
+      ]
+    },
+    {
+      "words": {
+        "responsibility": {
+          "ja": "責任"
+        },
+        "remains": {
+          "ja": "〜のままである"
+        },
+        "obscure": {
+          "ja": "あいまいな"
+        }
+      },
+      "phrases": [
+        {
+          "en": "responsibility remains obscure",
+          "ja": "責任はあいまいなまま",
+          "note": "obscure は形容詞「はっきりしない」。",
+          "pattern": "remain 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "unless": {
+          "ja": "〜しない限り"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "can identify": {
+          "ja": "特定できる"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "makes the decision": {
+          "ja": "決定を下すか"
+        },
+        "must": {
+          "ja": "〜しなければならないか"
+        },
+        "comply": {
+          "ja": "従う"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "objection": {
+          "ja": "異議"
+        },
+        "can reenter": {
+          "ja": "再び入れるか"
+        },
+        "the process": {
+          "ja": "手続き"
+        }
+      },
+      "phrases": [
+        {
+          "en": "unless we can identify who makes the decision, who must comply",
+          "ja": "誰が決め誰が従うかを特定できない限り",
+          "note": "comply「（規則に）従う」。",
+          "pattern": "unless 〜 / make a decision"
+        }
+      ]
+    }
+  ],
+  "DE-20260811-003": [
+    {
+      "words": {
+        "creative work": {
+          "ja": "創作"
+        },
+        "offers": {
+          "ja": "示す"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "useful contrast": {
+          "ja": "役に立つ対比"
+        },
+        "because": {
+          "ja": "なぜなら"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "changes": {
+          "ja": "変更"
+        },
+        "can retain": {
+          "ja": "保てる"
+        },
+        "traceable history": {
+          "ja": "たどれる履歴"
+        }
+      },
+      "phrases": [
+        {
+          "en": "its changes can retain a traceable history",
+          "ja": "変更の履歴をたどれる形で残せる",
+          "note": "contrast「対比」。",
+          "pattern": "retain 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "comics": {
+          "ja": "漫画"
+        },
+        "guitar exercises": {
+          "ja": "ギターの練習"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "automation for": {
+          "ja": "〜の自動化"
+        },
+        "three-dimensional production": {
+          "ja": "3D制作"
+        },
+        "were placed in": {
+          "ja": "〜に置かれた"
+        },
+        "repositories": {
+          "ja": "リポジトリ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "were placed in repositories",
+          "ja": "リポジトリに置かれた",
+          "note": "comics「漫画」、exercises「練習」。",
+          "pattern": "place A in B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "where": {
+          "ja": "そこでは"
+        },
+        "replacing": {
+          "ja": "差し替えること"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "image": {
+          "ja": "画像"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "adding": {
+          "ja": "加えること"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "practice item": {
+          "ja": "練習項目"
+        },
+        "became": {
+          "ja": "〜になった"
+        },
+        "recorded change": {
+          "ja": "記録された変更"
+        },
+        "rather than": {
+          "ja": "〜ではなく"
+        },
+        "passing intention": {
+          "ja": "一時の思いつき"
+        }
+      },
+      "phrases": [
+        {
+          "en": "became a recorded change rather than a passing intention",
+          "ja": "一時の思いつきではなく記録された変更になった",
+          "note": "passing「一時的な」。",
+          "pattern": "A rather than B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "public page": {
+          "ja": "公開ページ"
+        },
+        "displays": {
+          "ja": "見せる"
+        },
+        "the current result": {
+          "ja": "今の結果"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A public page displays the current result",
+          "ja": "公開ページは今の結果を見せる",
+          "note": "次の while へ続く。",
+          "pattern": "display 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "while": {
+          "ja": "一方で"
+        },
+        "the history": {
+          "ja": "履歴"
+        },
+        "behind it": {
+          "ja": "その裏の"
+        },
+        "it": {
+          "ja": "それ（＝公開ページ）"
+        },
+        "preserves": {
+          "ja": "残す"
+        },
+        "what": {
+          "ja": "何が"
+        },
+        "was revised": {
+          "ja": "直されたか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the history behind it preserves what was revised",
+          "ja": "裏の履歴は何が直されたかを残す",
+          "note": "revised「改訂された」。",
+          "pattern": "what 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the record": {
+          "ja": "記録"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "constrain": {
+          "ja": "縛る"
+        },
+        "creativity": {
+          "ja": "創造性"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The record does not constrain creativity",
+          "ja": "記録は創造性を縛らない",
+          "note": "次のチャンクで言い換え。",
+          "pattern": "constrain 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝記録）"
+        },
+        "leaves": {
+          "ja": "残す"
+        },
+        "a place": {
+          "ja": "場所"
+        },
+        "from which": {
+          "ja": "そこから"
+        },
+        "the next revision": {
+          "ja": "次の修正"
+        },
+        "can begin": {
+          "ja": "始められる"
+        },
+        "after": {
+          "ja": "〜した後で"
+        },
+        "yesterday's": {
+          "ja": "昨日の"
+        },
+        "intention": {
+          "ja": "意図"
+        },
+        "has faded": {
+          "ja": "薄れた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a place from which the next revision can begin",
+          "ja": "次の修正を始められる場所",
+          "note": "leaves は動詞「残す」（葉ではない）。",
+          "pattern": "from which 〜"
+        }
+      ]
+    }
+  ],
+  "DE-20260811-004": [
+    {
+      "words": {
+        "society": {
+          "ja": "社会"
+        },
+        "cannot be reduced to": {
+          "ja": "〜に還元できない"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "single repository": {
+          "ja": "一つのリポジトリ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Society cannot be reduced to a single repository",
+          "ja": "社会は一つのリポジトリに還元できない",
+          "note": "reduce to「〜に単純化する」。",
+          "pattern": "reduce A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "some changes in": {
+          "ja": "〜における一部の変化"
+        },
+        "human behavior": {
+          "ja": "人の振る舞い"
+        },
+        "acquire no name": {
+          "ja": "名前がつかない"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "take hold": {
+          "ja": "定着する"
+        },
+        "without": {
+          "ja": "〜なしに"
+        },
+        "any": {
+          "ja": "何らかの"
+        },
+        "record of": {
+          "ja": "〜の記録"
+        },
+        "consent": {
+          "ja": "同意"
+        }
+      },
+      "phrases": [
+        {
+          "en": "acquire no name and take hold without any record of consent",
+          "ja": "名前もなく、同意の記録もなく定着する",
+          "note": "take hold「根付く」（hold は船倉ではない）。",
+          "pattern": "take hold"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the metaphor of": {
+          "ja": "〜という比喩"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "commit history": {
+          "ja": "コミット履歴"
+        },
+        "is still useful": {
+          "ja": "それでも役に立つ"
+        },
+        "however": {
+          "ja": "しかし"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The metaphor of a commit history is still useful, however",
+          "ja": "それでもコミット履歴の比喩は役に立つ",
+          "note": "commit はここで Git の「コミット」。",
+          "pattern": "still"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the task": {
+          "ja": "やるべきこと"
+        },
+        "is not to": {
+          "ja": "〜することではない"
+        },
+        "capture": {
+          "ja": "つかまえる"
+        },
+        "one": {
+          "ja": "ひとりの"
+        },
+        "original author": {
+          "ja": "最初の作者"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The task is not to capture one original author",
+          "ja": "一人の発案者をつかまえることではない",
+          "note": "original はここで形容詞「最初の」。",
+          "pattern": "not to A but to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but to": {
+          "ja": "そうではなく〜すること"
+        },
+        "ask": {
+          "ja": "問う"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "change": {
+          "ja": "変化"
+        },
+        "entered": {
+          "ja": "入ったか"
+        },
+        "whose": {
+          "ja": "誰の"
+        },
+        "behavior": {
+          "ja": "振る舞いを"
+        },
+        "it": {
+          "ja": "それ（＝変化）"
+        },
+        "altered": {
+          "ja": "変えたか"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "which": {
+          "ja": "どの"
+        },
+        "procedure": {
+          "ja": "手続きが"
+        },
+        "can revise": {
+          "ja": "直せるか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "ask where a change entered, whose behavior it altered, and which procedure can revise it",
+          "ja": "どこから入り、誰の振る舞いを変え、どの手続きで直せるか",
+          "note": "whose「誰の」。",
+          "pattern": "疑問詞節の並列"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "complete provenance": {
+          "ja": "完全な来歴"
+        },
+        "is impossible": {
+          "ja": "不可能だ"
+        },
+        "keeping": {
+          "ja": "保つこと"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "entrance": {
+          "ja": "入口"
+        },
+        "open": {
+          "ja": "開いた"
+        },
+        "for": {
+          "ja": "〜のための"
+        },
+        "objection": {
+          "ja": "異議"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "correction": {
+          "ja": "訂正"
+        },
+        "may be": {
+          "ja": "〜かもしれない"
+        },
+        "the smallest history": {
+          "ja": "最小の履歴"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "society": {
+          "ja": "社会が"
+        },
+        "can preserve": {
+          "ja": "残せる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "keeping an entrance open for objection and correction",
+          "ja": "異議と訂正の入口を開けておくこと",
+          "note": "provenance「出どころ・来歴」。",
+          "pattern": "keep A 形容詞"
+        }
+      ]
+    }
   ]
 }
