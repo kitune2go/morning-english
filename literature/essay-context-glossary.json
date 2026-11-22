@@ -8819,87 +8819,163 @@
         "crewed": {
           "ja": "有人の"
         },
-        "test": {
-          "ja": "試験"
-        },
-        "aircraft": {
-          "ja": "航空機"
-        },
         "mechanically": {
-          "ja": "機構的に"
+          "ja": "機械の仕組みとして"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "short": {
+          "ja": "短い"
+        },
+        "test flight": {
+          "ja": "試験飛行"
+        },
+        "by": {
+          "ja": "〜による"
+        },
+        "large": {
+          "ja": "大型の"
+        },
+        "electric aircraft": {
+          "ja": "電動航空機"
+        },
+        "made flight look": {
+          "ja": "飛行を〜に見せた"
+        },
+        "simpler than expected": {
+          "ja": "思っていたより単純に"
         }
       },
       "phrases": [
         {
-          "en": "A short crewed test flight by a large electric aircraft made flight look mechanically simpler than expected.",
-          "ja": "大型電動航空機の短い有人試験飛行は、飛行を予想以上に機構的に単純に見せた。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "made flight look mechanically simpler than expected",
+          "ja": "飛行を予想より単純に見せた",
+          "note": "make＋目的語＋原形。than expected「予想より」。",
+          "pattern": "make A 動詞 / than expected"
         }
       ]
     },
     {
       "words": {
-        "motors": {
-          "ja": "モーター"
-        },
-        "moving": {
-          "ja": "可動の"
-        },
-        "complexity": {
-          "ja": "複雑さ"
-        },
         "weightless": {
-          "ja": "無重量の"
+          "ja": "重さのない"
+        },
+        "electric motors": {
+          "ja": "電動モーター"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "reduce": {
+          "ja": "減らす"
+        },
+        "moving parts": {
+          "ja": "可動部品"
+        },
+        "control complexity": {
+          "ja": "制御の複雑さ"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "they": {
+          "ja": "それら（＝電動モーター）"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "the energy": {
+          "ja": "エネルギー"
+        },
+        "carried into": {
+          "ja": "〜へ運び込まれる"
+        },
+        "the sky": {
+          "ja": "空"
         }
       },
       "phrases": [
         {
-          "en": "Electric motors can reduce moving parts and control complexity, but they do not make the energy carried into the sky weightless.",
-          "ja": "電動モーターは可動部品と制御の複雑さを減らせるが、空へ運ぶエネルギーを無重量にはしない。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "do not make the energy carried into the sky weightless",
+          "ja": "空へ運ぶエネルギーを重さゼロにはしない",
+          "note": "carried 以下が energy を後ろから修飾。",
+          "pattern": "make A 形容詞"
         }
       ]
     },
     {
       "words": {
-        "battery": {
-          "ja": "蓄電池"
-        },
-        "mass": {
-          "ja": "重量"
-        },
         "range": {
-          "ja": "航続"
+          "ja": "航続距離"
         },
         "fuel": {
           "ja": "燃料"
+        },
+        "battery mass": {
+          "ja": "電池の重量"
+        },
+        "remain": {
+          "ja": "依然として〜である"
+        },
+        "the central limits": {
+          "ja": "中心的な制約"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "has": {
+          "ja": "持つ"
+        },
+        "limits of its own": {
+          "ja": "それ自体の限界"
         }
       },
       "phrases": [
         {
-          "en": "Battery mass and range remain the central limits, while fuel has limits of its own.",
-          "ja": "蓄電池の重量と航続は中心的な制約として残り、燃料にも固有の限界がある。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "fuel has limits of its own",
+          "ja": "燃料にも独自の限界がある",
+          "note": "of its own「それ自身の」。",
+          "pattern": "名詞 of its own"
         }
       ]
     },
     {
       "words": {
         "machinery": {
-          "ja": "機械"
+          "ja": "機械の仕組み"
         },
         "constraints": {
           "ja": "制約"
         },
         "relocates": {
-          "ja": "場所を移す"
+          "ja": "別の場所へ移す"
+        },
+        "simpler": {
+          "ja": "より単純な"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "eliminate": {
+          "ja": "なくす"
+        },
+        "it": {
+          "ja": "それ（＝単純な機械）"
+        },
+        "them": {
+          "ja": "それら（＝制約）"
         }
       },
       "phrases": [
         {
-          "en": "Simpler machinery does not eliminate constraints; it relocates them.",
-          "ja": "より単純な機械は制約を消さず、制約の場所を移す。",
-          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+          "en": "does not eliminate constraints; it relocates them",
+          "ja": "制約をなくすのではなく、場所を移す",
+          "note": "セミコロンで言い換え。",
+          "pattern": "not A; B"
         }
       ]
     }
@@ -8910,28 +8986,50 @@
         "controlling": {
           "ja": "制御すること"
         },
-        "alien": {
-          "ja": "異質な"
+        "questions about": {
+          "ja": "〜についての問い"
         },
-        "force": {
-          "ja": "力"
+        "ai": {
+          "ja": "AI"
+        },
+        "often": {
+          "ja": "しばしば"
+        },
+        "become": {
+          "ja": "〜になる"
+        },
+        "stories about": {
+          "ja": "〜についての物語"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "machine": {
+          "ja": "機械"
+        },
+        "turning into": {
+          "ja": "〜に変わること"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "alien force": {
+          "ja": "異質な力"
         }
       },
       "phrases": [
         {
-          "en": "Questions about controlling AI often become stories about a machine turning into an alien force.",
-          "ja": "AIの制御をめぐる問いは、機械が異質な力へ変わる物語になりやすい。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "a machine turning into an alien force",
+          "ja": "機械が異質な力に変わること",
+          "note": "turning は動名詞で、machine がその意味上の主語。",
+          "pattern": "名詞 + -ing / turn into 〜"
         }
       ]
     },
     {
       "words": {
         "accelerate": {
-          "ja": "加速する"
-        },
-        "competition": {
-          "ja": "競争"
+          "ja": "加速させる"
         },
         "capability": {
           "ja": "能力"
@@ -8941,59 +9039,122 @@
         },
         "institutions": {
           "ja": "制度"
+        },
+        "yet": {
+          "ja": "しかし"
+        },
+        "humans": {
+          "ja": "人間"
+        },
+        "build": {
+          "ja": "作る"
+        },
+        "the systems": {
+          "ja": "システム"
+        },
+        "the competition": {
+          "ja": "競争"
+        },
+        "convert": {
+          "ja": "変える"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "embed": {
+          "ja": "埋め込む"
+        },
+        "those evaluations": {
+          "ja": "それらの評価"
+        },
+        "in": {
+          "ja": "〜の中に"
         }
       },
       "phrases": [
         {
-          "en": "Yet humans build the systems, accelerate the competition, convert capability into evaluations, and embed those evaluations in institutions.",
-          "ja": "しかし人間がシステムを作り、競争を加速し、能力を評価へ変え、その評価を制度へ埋め込む。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "convert capability into evaluations, and embed those evaluations in institutions",
+          "ja": "能力を評価に変え、それを制度に埋め込む",
+          "note": "動詞を4つ並べて人間の行為を列挙。",
+          "pattern": "convert A into B / embed A in B"
         }
       ]
     },
     {
       "words": {
-        "risk": {
+        "escalation": {
+          "ja": "エスカレーション（段階的な激化）"
+        },
+        "the risk": {
           "ja": "危険"
         },
-        "escalation": {
-          "ja": "エスカレーション"
+        "lies": {
+          "ja": "ある"
         },
-        "amplified": {
-          "ja": "増幅された"
+        "not only in": {
+          "ja": "〜だけでなく"
         },
-        "power": {
-          "ja": "権力"
+        "capability": {
+          "ja": "能力"
+        },
+        "but also in": {
+          "ja": "…にもある"
+        },
+        "amplified power": {
+          "ja": "増幅された権力"
         }
       },
       "phrases": [
         {
-          "en": "The risk lies not only in capability but also in escalation and amplified power.",
-          "ja": "危険は能力だけでなく、エスカレーションと増幅された権力にもある。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "lies not only in capability but also in escalation",
+          "ja": "能力だけでなく激化にもある",
+          "note": "lie in「〜にある」。",
+          "pattern": "lie in 〜 / not only A but also B"
         }
       ]
     },
     {
       "words": {
-        "authorship": {
-          "ja": "作ったこと"
-        },
         "guarantee": {
           "ja": "保証する"
         },
-        "responsibility": {
-          "ja": "責任"
-        },
         "unavoidable": {
           "ja": "避けられない"
+        },
+        "human authorship": {
+          "ja": "人間が作り手であること"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "safety": {
+          "ja": "安全"
+        },
+        "it": {
+          "ja": "それ（＝人間が作り手であること）"
+        },
+        "makes": {
+          "ja": "〜にする"
+        },
+        "human responsibility": {
+          "ja": "人間の責任"
+        },
+        "for": {
+          "ja": "〜に対する"
+        },
+        "control": {
+          "ja": "制御"
         }
       },
       "phrases": [
         {
-          "en": "Human authorship does not guarantee safety; it makes human responsibility for control unavoidable.",
-          "ja": "人間が作ったことは安全を保証せず、制御への人間の責任を避けられないものにする。",
-          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+          "en": "makes human responsibility for control unavoidable",
+          "ja": "制御への人間の責任を避けられないものにする",
+          "note": "make＋目的語＋形容詞。",
+          "pattern": "make A 形容詞"
         }
       ]
     }
@@ -9004,70 +9165,115 @@
         "registering": {
           "ja": "登録すること"
         },
-        "candidate": {
-          "ja": "候補"
-        },
-        "release": {
-          "ja": "リリース"
-        },
         "active": {
-          "ja": "有効状態"
+          "ja": "有効（Active）"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "candidate release": {
+          "ja": "候補リリース"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "switching it to": {
+          "ja": "それを〜に切り替えること"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "look like": {
+          "ja": "〜のように見える"
+        },
+        "the final step": {
+          "ja": "最後の手順"
         }
       },
       "phrases": [
         {
-          "en": "Registering a candidate release and switching it to Active can look like the final step.",
-          "ja": "候補リリースを登録してActiveへ切り替えることは、最後の手順に見えうる。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "can look like the final step",
+          "ja": "最後の手順に見えることがある",
+          "note": "look like＋名詞。",
+          "pattern": "look like 〜"
         }
       ]
     },
     {
       "words": {
-        "counts": {
-          "ja": "件数"
-        },
         "guarantee": {
           "ja": "保証する"
         },
         "readable": {
           "ja": "読める"
         },
-        "public": {
-          "ja": "公開の"
+        "yet": {
+          "ja": "しかし"
+        },
+        "correct counts": {
+          "ja": "正しい件数"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "active release": {
+          "ja": "有効なリリース"
+        },
+        "do not": {
+          "ja": "〜しない"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "public screen": {
+          "ja": "公開画面"
         }
       },
       "phrases": [
         {
-          "en": "Yet correct counts and an active release do not guarantee a readable public screen.",
-          "ja": "しかし正しい件数と有効なリリースは、読める公開画面を保証しない。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "do not guarantee a readable public screen",
+          "ja": "読める公開画面を保証しない",
+          "note": "件数が正しくても画面が読めるとは限らない。",
+          "pattern": "guarantee 〜"
         }
       ]
     },
     {
       "words": {
-        "source": {
-          "ja": "元の"
-        },
         "delivered": {
           "ja": "配信された"
         },
         "json": {
-          "ja": "ジェイソン形式"
+          "ja": "JSON"
         },
         "timeline": {
           "ja": "年表"
         },
-        "version": {
-          "ja": "版"
+        "the source data": {
+          "ja": "元データ"
+        },
+        "map": {
+          "ja": "地図"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "all": {
+          "ja": "すべて"
+        },
+        "point to": {
+          "ja": "〜を指す"
+        },
+        "the same version": {
+          "ja": "同じ版"
         }
       },
       "phrases": [
         {
-          "en": "The source data, delivered JSON, map, and timeline must all point to the same version.",
-          "ja": "元データ、配信されたJSON、地図、年表はすべて同じ版を指す必要がある。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "must all point to the same version",
+          "ja": "すべて同じ版を指していなければならない",
+          "note": "all は主語の4つ全部を受ける。",
+          "pattern": "point to 〜"
         }
       ]
     },
@@ -9076,18 +9282,43 @@
         "publication": {
           "ja": "公開"
         },
-        "verified": {
-          "ja": "検証された"
+        "is not": {
+          "ja": "〜ではない"
         },
-        "display": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "switch": {
+          "ja": "スイッチ"
+        },
+        "it": {
+          "ja": "それ（＝公開）"
+        },
+        "exists": {
+          "ja": "成り立つ"
+        },
+        "only when": {
+          "ja": "〜のときだけ"
+        },
+        "the path": {
+          "ja": "経路"
+        },
+        "has been verified": {
+          "ja": "確認済みである"
+        },
+        "all the way to": {
+          "ja": "〜までずっと"
+        },
+        "the display": {
           "ja": "表示"
         }
       },
       "phrases": [
         {
-          "en": "Publication is not a switch; it exists only when the path has been verified all the way to the display.",
-          "ja": "公開はスイッチではなく、表示までの経路が検証されたときにだけ成立する。",
-          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+          "en": "only when the path has been verified all the way to the display",
+          "ja": "表示までの経路が全部確認されたときだけ",
+          "note": "all the way「最後までずっと」。",
+          "pattern": "all the way to 〜"
         }
       ]
     }
@@ -9106,13 +9337,32 @@
         },
         "enthusiasm": {
           "ja": "熱意"
+        },
+        "loud": {
+          "ja": "大きな音の"
+        },
+        "during": {
+          "ja": "〜の間"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "display": {
+          "ja": "示す"
+        },
+        "real": {
+          "ja": "本物の"
         }
       },
       "phrases": [
         {
-          "en": "Loud drumming during a break can display real skill and enthusiasm.",
-          "ja": "休憩中の大きなドラム演奏は、本当の技術と熱意を示しうる。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "Loud drumming during a break",
+          "ja": "休憩中の大きな音のドラム",
+          "note": "during「〜の間に」。",
+          "pattern": "during 〜"
         }
       ]
     },
@@ -9121,24 +9371,43 @@
         "shared": {
           "ja": "共有の"
         },
-        "resting": {
-          "ja": "休憩の"
+        "but": {
+          "ja": "しかし"
         },
-        "stage": {
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "resting place": {
+          "ja": "休憩場所"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "a stage": {
           "ja": "舞台"
         },
-        "drafted": {
-          "ja": "組み込まれた"
+        "every day": {
+          "ja": "毎日"
         },
-        "audience": {
+        "everyone nearby": {
+          "ja": "近くにいる全員"
+        },
+        "is drafted into": {
+          "ja": "〜に強制的に組み込まれる"
+        },
+        "the audience": {
           "ja": "観客"
         }
       },
       "phrases": [
         {
-          "en": "But when a shared resting place becomes a stage every day, everyone nearby is drafted into the audience.",
-          "ja": "しかし共有の休憩場所が毎日舞台になれば、近くの全員が観客へ組み込まれる。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "everyone nearby is drafted into the audience",
+          "ja": "近くの全員が観客にさせられる",
+          "note": "draft はもともと「徴兵する」。本人の意思なしに組み込まれる含み。",
+          "pattern": "draft A into B"
         }
       ]
     },
@@ -9149,13 +9418,20 @@
         },
         "consent": {
           "ja": "同意"
+        },
+        "does not": {
+          "ja": "〜しない"
+        },
+        "create": {
+          "ja": "生み出す"
         }
       },
       "phrases": [
         {
-          "en": "Skill does not create consent.",
-          "ja": "技術は同意を生まない。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "Skill does not create consent",
+          "ja": "うまいからといって同意したことにはならない",
+          "note": "短い否定文での要約。",
+          "pattern": "create 〜"
         }
       ]
     },
@@ -9165,20 +9441,39 @@
           "ja": "表現"
         },
         "nonparticipants": {
-          "ja": "不参加者"
-        },
-        "withdraw": {
-          "ja": "退く"
+          "ja": "参加しない人"
         },
         "quiet": {
           "ja": "静けさ"
+        },
+        "needs": {
+          "ja": "必要とする"
+        },
+        "room": {
+          "ja": "余地"
+        },
+        "not only for": {
+          "ja": "〜のためだけでなく"
+        },
+        "sound": {
+          "ja": "音"
+        },
+        "but also for": {
+          "ja": "…のためにも"
+        },
+        "to withdraw": {
+          "ja": "退くための"
+        },
+        "into": {
+          "ja": "〜へ"
         }
       },
       "phrases": [
         {
-          "en": "Expression needs room not only for sound but also for nonparticipants to withdraw into quiet.",
-          "ja": "表現には音のためだけでなく、不参加者が静けさへ退くための余白も必要である。",
-          "note": "主体・対比・因果を前後のチャンクとつないで読む。"
+          "en": "for nonparticipants to withdraw into quiet",
+          "ja": "参加しない人が静けさへ退くための余地",
+          "note": "for＋人＋to「人が〜するための」。",
+          "pattern": "for A to 動詞"
         }
       ]
     },
@@ -9187,21 +9482,43 @@
         "power": {
           "ja": "力"
         },
-        "stop": {
-          "ja": "停止"
-        },
-        "exit": {
-          "ja": "出口"
-        },
         "amplification": {
           "ja": "増幅"
+        },
+        "any": {
+          "ja": "どんな〜も"
+        },
+        "design for": {
+          "ja": "〜の設計"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "include": {
+          "ja": "含む"
+        },
+        "a stop": {
+          "ja": "止める仕組み"
+        },
+        "an exit": {
+          "ja": "出口"
+        },
+        "before": {
+          "ja": "〜する前に"
+        },
+        "it": {
+          "ja": "それ（＝その設計）"
+        },
+        "considers": {
+          "ja": "検討する"
         }
       },
       "phrases": [
         {
-          "en": "Any design for power must include a stop and an exit before it considers amplification.",
-          "ja": "力の設計は、増幅を考える前に停止と出口を含まなければならない。",
-          "note": "結論の否定・条件・順序を保ち、作品全体の余韻として読む。"
+          "en": "must include a stop and an exit before it considers amplification",
+          "ja": "増幅を考える前に停止と出口を含めなければならない",
+          "note": "順序の指定。",
+          "pattern": "before 〜"
         }
       ]
     }
