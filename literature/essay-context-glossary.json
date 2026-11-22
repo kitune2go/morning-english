@@ -38593,5 +38593,734 @@
         }
       ]
     }
+  ],
+  "DE-20260912-001": [
+    {
+      "words": {
+        "when": {
+          "ja": "〜だった頃"
+        },
+        "the actors": {
+          "ja": "俳優たち"
+        },
+        "still": {
+          "ja": "まだ"
+        },
+        "had": {
+          "ja": "持っていた"
+        },
+        "children's faces": {
+          "ja": "子どもの顔"
+        },
+        "the school of magic": {
+          "ja": "魔法学校"
+        },
+        "felt": {
+          "ja": "〜に感じられた"
+        },
+        "unknown": {
+          "ja": "未知の"
+        },
+        "simply because": {
+          "ja": "単に〜だったから"
+        },
+        "they": {
+          "ja": "彼ら（＝俳優たち）"
+        },
+        "were discovering": {
+          "ja": "発見している最中だった"
+        },
+        "it": {
+          "ja": "それ（＝魔法学校）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "felt unknown simply because they were discovering it",
+          "ja": "彼ら自身が発見の途中だったから未知に感じられた",
+          "note": "feel＋形容詞「〜に感じられる」。",
+          "pattern": "feel 形容詞 / simply because 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "as": {
+          "ja": "〜するにつれて"
+        },
+        "their": {
+          "ja": "彼らの"
+        },
+        "features": {
+          "ja": "顔立ち"
+        },
+        "sharpened": {
+          "ja": "くっきりした"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "voices": {
+          "ja": "声"
+        },
+        "changed": {
+          "ja": "変わった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "As their features sharpened and their voices changed",
+          "ja": "顔立ちがはっきりし声が変わるにつれ",
+          "note": "features はここで「顔立ち」（特徴・機能ではない）。",
+          "pattern": "as（比例）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the same": {
+          "ja": "同じ"
+        },
+        "corridors": {
+          "ja": "廊下"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "uniforms": {
+          "ja": "制服"
+        },
+        "began to": {
+          "ja": "〜し始めた"
+        },
+        "feel heavier": {
+          "ja": "より重く感じられる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "began to feel heavier",
+          "ja": "より重く感じられ始めた",
+          "note": "比較級で変化を表す。",
+          "pattern": "begin to 動詞 / feel 比較級"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the shift": {
+          "ja": "その変化"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "belong to": {
+          "ja": "〜に属する"
+        },
+        "the plot": {
+          "ja": "筋書き"
+        },
+        "alone": {
+          "ja": "〜だけ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "did not belong to the plot alone",
+          "ja": "筋書きだけのものではなかった",
+          "note": "plot はここで「筋書き」（区画ではない）。",
+          "pattern": "belong to 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "their": {
+          "ja": "彼らの"
+        },
+        "real bodies": {
+          "ja": "現実の身体"
+        },
+        "carried": {
+          "ja": "運んだ"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "one film": {
+          "ja": "ある映画"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "the next": {
+          "ja": "次の映画"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carried time from one film into the next",
+          "ja": "時間を一本の映画から次へ運んだ",
+          "note": "the next は next film。",
+          "pattern": "from A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "actors": {
+          "ja": "俳優たちの"
+        },
+        "growth": {
+          "ja": "成長"
+        },
+        "made": {
+          "ja": "〜にした"
+        },
+        "characters": {
+          "ja": "登場人物たちの"
+        },
+        "development": {
+          "ja": "成長・発達"
+        },
+        "visible": {
+          "ja": "目に見える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "made the characters' development visible",
+          "ja": "登場人物の成長を目に見えるものにした",
+          "note": "characters はここで「登場人物」。",
+          "pattern": "make A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝俳優の成長）"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "marked": {
+          "ja": "刻んだ"
+        },
+        "the moment": {
+          "ja": "瞬間"
+        },
+        "when": {
+          "ja": "（関係副詞）〜する"
+        },
+        "childhood": {
+          "ja": "子ども時代"
+        },
+        "began to": {
+          "ja": "〜し始めた"
+        },
+        "leave": {
+          "ja": "去る"
+        },
+        "the magical world": {
+          "ja": "魔法の世界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "marked the moment when childhood began to leave the magical world",
+          "ja": "子ども時代が魔法の世界を去り始めた瞬間を刻んだ",
+          "note": "mark「印す・画する」。",
+          "pattern": "when（関係副詞）"
+        }
+      ]
+    }
+  ],
+  "DE-20260912-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "novel": {
+          "ja": "小説"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "film adaptation": {
+          "ja": "映画化作品"
+        },
+        "can": {
+          "ja": "〜できる"
+        },
+        "follow": {
+          "ja": "たどる"
+        },
+        "the same": {
+          "ja": "同じ"
+        },
+        "broad plot": {
+          "ja": "大まかな筋"
+        },
+        "without moving": {
+          "ja": "進まずに"
+        },
+        "at the same pace": {
+          "ja": "同じ速さで"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can follow the same broad plot without moving at the same pace",
+          "ja": "同じ大筋をたどりつつ同じ速さでは進まない",
+          "note": "novel はここで名詞「小説」（新奇なではない）。",
+          "pattern": "without -ing / at a pace"
+        }
+      ]
+    },
+    {
+      "words": {
+        "prose": {
+          "ja": "散文"
+        },
+        "has room for": {
+          "ja": "〜の余地がある"
+        },
+        "hesitation": {
+          "ja": "ためらい"
+        },
+        "classroom detours": {
+          "ja": "授業での寄り道"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "time with": {
+          "ja": "〜と過ごす時間"
+        },
+        "minor characters": {
+          "ja": "脇役"
+        }
+      },
+      "phrases": [
+        {
+          "en": "has room for hesitation, classroom detours, and time with minor characters",
+          "ja": "ためらいや寄り道、脇役との時間の余地がある",
+          "note": "room「余地」。",
+          "pattern": "room for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "film": {
+          "ja": "映画"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "compress": {
+          "ja": "詰め込む"
+        },
+        "events": {
+          "ja": "出来事"
+        },
+        "into": {
+          "ja": "〜に"
+        },
+        "limited": {
+          "ja": "限られた"
+        },
+        "running time": {
+          "ja": "上映時間"
+        }
+      },
+      "phrases": [
+        {
+          "en": "compress events into a limited running time",
+          "ja": "出来事を限られた上映時間に詰め込む",
+          "note": "running time「上映時間」。",
+          "pattern": "compress A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "an": {
+          "ja": "ひとつの"
+        },
+        "omitted scene": {
+          "ja": "省かれた場面"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "leave the plot intact": {
+          "ja": "筋書きはそのまま残す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may leave the plot intact",
+          "ja": "筋書きは無傷のまま残すかもしれない",
+          "note": "intact「損なわれていない」。",
+          "pattern": "leave A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "while": {
+          "ja": "〜しながら"
+        },
+        "shortening": {
+          "ja": "短くすること"
+        },
+        "our stay": {
+          "ja": "私たちの滞在"
+        },
+        "in the world": {
+          "ja": "その世界での"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while shortening our stay in the world",
+          "ja": "その世界にいる時間を短くしながら",
+          "note": "stay はここで名詞「滞在」。",
+          "pattern": "while -ing"
+        }
+      ]
+    },
+    {
+      "words": {
+        "asking": {
+          "ja": "問うこと"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "the story": {
+          "ja": "物語"
+        },
+        "changed": {
+          "ja": "変わった"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "therefore": {
+          "ja": "だから"
+        },
+        "about more than": {
+          "ja": "〜以上のことに関わる"
+        },
+        "the order of": {
+          "ja": "〜の順序"
+        },
+        "events": {
+          "ja": "出来事"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is therefore about more than the order of events",
+          "ja": "出来事の順序以上のことに関わる",
+          "note": "order はここで「順序」（注文ではない）。",
+          "pattern": "about more than 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝その問い）"
+        },
+        "is also": {
+          "ja": "〜でもある"
+        },
+        "a question of": {
+          "ja": "〜の問題"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "the adaptation": {
+          "ja": "映画化"
+        },
+        "removed": {
+          "ja": "取り除いた"
+        },
+        "the time to": {
+          "ja": "〜する時間"
+        },
+        "wander": {
+          "ja": "ぶらつく"
+        }
+      },
+      "phrases": [
+        {
+          "en": "where the adaptation removed the time to wander",
+          "ja": "映画化がどこで寄り道の時間を削ったか",
+          "note": "wander「さまよう・ぶらつく」。",
+          "pattern": "time to 動詞"
+        }
+      ]
+    }
+  ],
+  "DE-20260912-003": [
+    {
+      "words": {
+        "saying that": {
+          "ja": "〜と言うこと"
+        },
+        "the later films": {
+          "ja": "後半の映画"
+        },
+        "feel": {
+          "ja": "〜に感じられる"
+        },
+        "less enjoyable": {
+          "ja": "あまり楽しくない"
+        },
+        "is not merely": {
+          "ja": "単なる〜ではない"
+        },
+        "a rating": {
+          "ja": "評価・採点"
+        }
+      },
+      "phrases": [
+        {
+          "en": "feel less enjoyable",
+          "ja": "あまり楽しく感じられない",
+          "note": "less＋形容詞「より〜でない」。",
+          "pattern": "feel less 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the story": {
+          "ja": "物語"
+        },
+        "shifts toward": {
+          "ja": "〜の方へ重心を移す"
+        },
+        "danger": {
+          "ja": "危険"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "conflict": {
+          "ja": "対立"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The story shifts toward danger and conflict",
+          "ja": "物語は危険と対立へ移っていく",
+          "note": "次の2チャンクと並列。",
+          "pattern": "shift toward 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the adaptation": {
+          "ja": "映画化"
+        },
+        "moves through": {
+          "ja": "〜を通り過ぎる"
+        },
+        "expanding material": {
+          "ja": "増えていく素材"
+        },
+        "more quickly": {
+          "ja": "より速く"
+        }
+      },
+      "phrases": [
+        {
+          "en": "moves through expanding material more quickly",
+          "ja": "増える素材をより速く駆け抜ける",
+          "note": "原作が長くなるのに映画は短い。",
+          "pattern": "move through 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "and": {
+          "ja": "そして"
+        },
+        "actors": {
+          "ja": "俳優たちの"
+        },
+        "bodies": {
+          "ja": "身体"
+        },
+        "make clear that": {
+          "ja": "〜ということを明らかにする"
+        },
+        "the earliest adventure": {
+          "ja": "最初の冒険"
+        },
+        "cannot return": {
+          "ja": "戻ってこない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "make clear that the earliest adventure cannot return",
+          "ja": "最初の冒険は戻らないとはっきりさせる",
+          "note": "make it clear that の it が省かれた形。",
+          "pattern": "make clear that 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "together": {
+          "ja": "合わさって"
+        },
+        "these changes": {
+          "ja": "これらの変化"
+        },
+        "obscure": {
+          "ja": "見えにくくする"
+        },
+        "the doorway": {
+          "ja": "入口"
+        },
+        "through which": {
+          "ja": "そこを通って"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "first": {
+          "ja": "最初に"
+        },
+        "entered": {
+          "ja": "入った"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the doorway through which we first entered",
+          "ja": "私たちが最初に入った入口",
+          "note": "前置詞＋関係代名詞。",
+          "pattern": "through which 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "perhaps": {
+          "ja": "たぶん"
+        },
+        "the pleasure": {
+          "ja": "楽しさ"
+        },
+        "did not": {
+          "ja": "〜しなかった"
+        },
+        "simply": {
+          "ja": "単に"
+        },
+        "vanish": {
+          "ja": "消える"
+        },
+        "the place": {
+          "ja": "場所"
+        },
+        "where": {
+          "ja": "（関係副詞）そこで"
+        },
+        "we": {
+          "ja": "私たちが"
+        },
+        "had found": {
+          "ja": "見つけていた"
+        },
+        "it": {
+          "ja": "それ（＝楽しさ）"
+        },
+        "gradually": {
+          "ja": "少しずつ"
+        },
+        "moved": {
+          "ja": "移った"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the place where we had found it gradually moved",
+          "ja": "楽しさを見つけていた場所が少しずつ移った",
+          "note": "過去完了は「それまで〜していた」。",
+          "pattern": "had 過去分詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "growth": {
+          "ja": "成長"
+        },
+        "produces": {
+          "ja": "生む"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "sequel": {
+          "ja": "続編"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "it": {
+          "ja": "それ（＝成長）"
+        },
+        "cannot": {
+          "ja": "〜できない"
+        },
+        "promise that": {
+          "ja": "〜と約束する"
+        },
+        "the sequel": {
+          "ja": "続編"
+        },
+        "will feel": {
+          "ja": "感じられるだろう"
+        },
+        "the same": {
+          "ja": "同じに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "cannot promise that the sequel will feel the same",
+          "ja": "続編が同じように感じられるとは約束できない",
+          "note": "sequel「続編」。",
+          "pattern": "promise that 〜"
+        }
+      ]
+    }
   ]
 }
