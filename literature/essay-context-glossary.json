@@ -22908,5 +22908,710 @@
         }
       ]
     }
+  ],
+  "DE-20261005-001": [
+    {
+      "words": {
+        "in discussions of": {
+          "ja": "〜をめぐる議論で"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "long-running work": {
+          "ja": "長寿作品"
+        },
+        "concern for": {
+          "ja": "〜への気遣い"
+        },
+        "the performers": {
+          "ja": "出演者"
+        },
+        "can": {
+          "ja": "〜ことがある"
+        },
+        "gradually": {
+          "ja": "少しずつ"
+        },
+        "eclipse": {
+          "ja": "覆い隠す"
+        },
+        "the story": {
+          "ja": "物語"
+        },
+        "itself": {
+          "ja": "そのもの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "concern for the performers can gradually eclipse the story itself",
+          "ja": "出演者への気遣いが物語そのものを覆い隠す",
+          "note": "eclipse はもと「日食・月食」で、動詞では「影を薄くする」。",
+          "pattern": "eclipse（動詞）"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once-rare": {
+          "ja": "かつては珍しかった"
+        },
+        "production anecdotes": {
+          "ja": "制作の裏話"
+        },
+        "are repeated": {
+          "ja": "繰り返し語られる"
+        },
+        "until": {
+          "ja": "やがて〜するまで"
+        },
+        "personal ties": {
+          "ja": "個人的なつながり"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "gossip": {
+          "ja": "うわさ話"
+        },
+        "begin to": {
+          "ja": "〜し始める"
+        },
+        "stand in for": {
+          "ja": "〜の代わりになる"
+        },
+        "criticism": {
+          "ja": "批評"
+        }
+      },
+      "phrases": [
+        {
+          "en": "begin to stand in for criticism",
+          "ja": "批評の代わりになり始める",
+          "note": "stand in for「〜の代役をする」。",
+          "pattern": "stand in for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the shift": {
+          "ja": "その変化"
+        },
+        "need not be": {
+          "ja": "〜である必要はない（〜とは限らない）"
+        },
+        "cruel": {
+          "ja": "残酷な"
+        },
+        "or": {
+          "ja": "も"
+        },
+        "cynical": {
+          "ja": "冷笑的な"
+        }
+      },
+      "phrases": [
+        {
+          "en": "need not be cruel or cynical",
+          "ja": "残酷でも冷笑的でもなくてよい",
+          "note": "悪意からとは限らない、という含み。",
+          "pattern": "need not"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "public image": {
+          "ja": "世間のイメージ"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "the only doorway into": {
+          "ja": "〜へのたった一つの入口"
+        },
+        "a work": {
+          "ja": "作品"
+        },
+        "the recorded performance": {
+          "ja": "記録された演技"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "the shape of": {
+          "ja": "〜の形"
+        },
+        "the story": {
+          "ja": "物語"
+        },
+        "fade behind": {
+          "ja": "〜の背後に退く"
+        },
+        "it": {
+          "ja": "それ（＝世間のイメージ）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "fade behind it",
+          "ja": "その背後に薄れていく",
+          "note": "fade「薄れる」。",
+          "pattern": "fade behind 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "strange reversal": {
+          "ja": "奇妙な逆転"
+        },
+        "follows": {
+          "ja": "続いて起こる"
+        },
+        "the more": {
+          "ja": "〜すればするほど"
+        },
+        "people": {
+          "ja": "人々が"
+        },
+        "speak kindly about": {
+          "ja": "〜について優しく語る"
+        },
+        "the person": {
+          "ja": "その人"
+        },
+        "the less": {
+          "ja": "それだけ〜しなくなる"
+        },
+        "they": {
+          "ja": "彼ら（＝人々）"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "say about": {
+          "ja": "〜について言う"
+        },
+        "the work": {
+          "ja": "作品"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the more people speak kindly about the person, the less they may say about the work",
+          "ja": "人について優しく語るほど、作品について語らなくなる",
+          "note": "less を使うと「〜ほど…しなくなる」。",
+          "pattern": "the 比較級 ..., the 比較級 ..."
+        }
+      ]
+    }
+  ],
+  "DE-20261005-002": [
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "technical term": {
+          "ja": "専門用語"
+        },
+        "is more than": {
+          "ja": "〜以上のものだ"
+        },
+        "difficult": {
+          "ja": "難しい"
+        },
+        "substitute for": {
+          "ja": "〜の代用品"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "ordinary word": {
+          "ja": "普通の言葉"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is more than a difficult substitute for an ordinary word",
+          "ja": "普通の言葉を難しく言い換えただけのものではない",
+          "note": "substitute for「〜の代わり」。",
+          "pattern": "more than 〜 / substitute for 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "borrowing": {
+          "ja": "借りること"
+        },
+        "vocabulary": {
+          "ja": "語彙"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "another discipline": {
+          "ja": "別の学問分野"
+        },
+        "also": {
+          "ja": "〜も"
+        },
+        "imports": {
+          "ja": "持ち込む"
+        },
+        "its": {
+          "ja": "その（＝その分野の）"
+        },
+        "problem frame": {
+          "ja": "問題の枠組み"
+        },
+        "what": {
+          "ja": "何に"
+        },
+        "it": {
+          "ja": "それ（＝その分野）"
+        },
+        "notices": {
+          "ja": "気づくか"
+        },
+        "measures": {
+          "ja": "何を測るか"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "leaves out": {
+          "ja": "何を省くか"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what it notices, what it measures, and what it leaves out",
+          "ja": "何に気づき、何を測り、何を省くか",
+          "note": "leave out「省く」。コロン以下が frame の中身。",
+          "pattern": "leave out"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "the term's": {
+          "ja": "その用語の"
+        },
+        "origin": {
+          "ja": "出どころ"
+        },
+        "disappears": {
+          "ja": "見えなくなる"
+        },
+        "the explanation": {
+          "ja": "その説明"
+        },
+        "may": {
+          "ja": "〜ことがある"
+        },
+        "look": {
+          "ja": "〜に見える"
+        },
+        "unusually": {
+          "ja": "妙に"
+        },
+        "authoritative": {
+          "ja": "権威がある"
+        }
+      },
+      "phrases": [
+        {
+          "en": "may look unusually authoritative",
+          "ja": "妙に権威があるように見えることがある",
+          "note": "look＋形容詞。",
+          "pattern": "look 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "some of": {
+          "ja": "〜の一部"
+        },
+        "that authority": {
+          "ja": "その権威"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "comes from": {
+          "ja": "〜から来る"
+        },
+        "hidden assumptions": {
+          "ja": "隠れた前提"
+        },
+        "traveling unnoticed": {
+          "ja": "気づかれずに運ばれる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "hidden assumptions traveling unnoticed",
+          "ja": "気づかれないまま運ばれる隠れた前提",
+          "note": "unnoticed「気づかれずに」が状態を表す。",
+          "pattern": "名詞 + -ing + 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "before": {
+          "ja": "〜する前に"
+        },
+        "adopting": {
+          "ja": "採り入れること"
+        },
+        "the language": {
+          "ja": "その言葉"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "should": {
+          "ja": "〜すべきだ"
+        },
+        "ask": {
+          "ja": "問う"
+        },
+        "what task": {
+          "ja": "どんな課題を"
+        },
+        "it": {
+          "ja": "それ（＝その言葉）"
+        },
+        "was designed to": {
+          "ja": "〜するために作られた"
+        },
+        "solve": {
+          "ja": "解く"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what task it was designed to solve",
+          "ja": "何の課題を解くために作られたか",
+          "note": "be designed to「〜するよう作られている」。",
+          "pattern": "be designed to 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "vocabulary": {
+          "ja": "語彙"
+        },
+        "begins": {
+          "ja": "〜し始める"
+        },
+        "shaping": {
+          "ja": "形づくること"
+        },
+        "the question": {
+          "ja": "問い"
+        },
+        "before": {
+          "ja": "〜する前から"
+        },
+        "anyone": {
+          "ja": "誰か"
+        },
+        "offers": {
+          "ja": "出す"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "answer": {
+          "ja": "答え"
+        }
+      },
+      "phrases": [
+        {
+          "en": "begins shaping the question before anyone offers an answer",
+          "ja": "答えが出る前から問いの形を作り始める",
+          "note": "begin＋-ing。",
+          "pattern": "begin -ing"
+        }
+      ]
+    }
+  ],
+  "DE-20261005-003": [
+    {
+      "words": {
+        "learning that": {
+          "ja": "〜だと知ること"
+        },
+        "someone": {
+          "ja": "ある人が"
+        },
+        "lived with": {
+          "ja": "〜とともに生きた"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "disability": {
+          "ja": "障害"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "tempt": {
+          "ja": "〜したい気にさせる"
+        },
+        "observers": {
+          "ja": "見る人"
+        },
+        "to turn": {
+          "ja": "変えるよう"
+        },
+        "the whole person": {
+          "ja": "その人全体"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "moral symbol": {
+          "ja": "道徳的な象徴"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can tempt observers to turn the whole person into a moral symbol",
+          "ja": "見る人に、その人全体を道徳の象徴にしたくさせる",
+          "note": "tempt＋人＋to「人を〜する気にさせる」。",
+          "pattern": "tempt A to 動詞 / turn A into B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "mourning": {
+          "ja": "追悼"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "admiration": {
+          "ja": "称賛"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "that simplification": {
+          "ja": "その単純化"
+        },
+        "especially": {
+          "ja": "とりわけ"
+        },
+        "powerful": {
+          "ja": "強い"
+        }
+      },
+      "phrases": [
+        {
+          "en": "make that simplification especially powerful",
+          "ja": "その単純化をとりわけ強いものにする",
+          "note": "make＋目的語＋形容詞。",
+          "pattern": "make A 形容詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "a": {
+          "ja": "ひとつの"
+        },
+        "bodily condition": {
+          "ja": "身体の状態"
+        },
+        "however": {
+          "ja": "しかし"
+        },
+        "is not": {
+          "ja": "〜ではない"
+        },
+        "evidence of": {
+          "ja": "〜の証拠"
+        },
+        "virtue": {
+          "ja": "美徳"
+        },
+        "wisdom": {
+          "ja": "知恵"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "political purity": {
+          "ja": "政治的な純粋さ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "is not evidence of virtue, wisdom, or political purity",
+          "ja": "美徳や知恵の証拠ではない",
+          "note": "not＋or で全部否定。",
+          "pattern": "evidence of 〜"
+        }
+      ]
+    },
+    {
+      "words": {
+        "idealization": {
+          "ja": "理想化"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "erase": {
+          "ja": "消す"
+        },
+        "the person's": {
+          "ja": "本人の"
+        },
+        "contradictions": {
+          "ja": "矛盾"
+        },
+        "the family's": {
+          "ja": "家族の"
+        },
+        "practical burden": {
+          "ja": "現実の負担"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "the support": {
+          "ja": "支援"
+        },
+        "that": {
+          "ja": "（関係代名詞）〜した"
+        },
+        "daily life": {
+          "ja": "日々の暮らし"
+        },
+        "actually": {
+          "ja": "実際に"
+        },
+        "required": {
+          "ja": "必要とした"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the support that daily life actually required",
+          "ja": "日々の暮らしが実際に必要とした支援",
+          "note": "that 以下が support を修飾。",
+          "pattern": "that 節"
+        }
+      ]
+    },
+    {
+      "words": {
+        "respect": {
+          "ja": "敬意"
+        },
+        "should": {
+          "ja": "〜すべきだ"
+        },
+        "preserve": {
+          "ja": "保つ"
+        },
+        "complexity": {
+          "ja": "複雑さ"
+        },
+        "rather than": {
+          "ja": "〜するのではなく"
+        },
+        "remove": {
+          "ja": "取り除く"
+        },
+        "it": {
+          "ja": "それ（＝複雑さ）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "preserve complexity rather than remove it",
+          "ja": "複雑さを消すのではなく保つ",
+          "note": "rather than＋原形。",
+          "pattern": "A rather than B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝敬意）"
+        },
+        "leaves": {
+          "ja": "残す"
+        },
+        "enough room to": {
+          "ja": "〜するのに十分な余地"
+        },
+        "see": {
+          "ja": "見る"
+        },
+        "choices": {
+          "ja": "選択"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "burdens": {
+          "ja": "負担"
+        },
+        "without deriving": {
+          "ja": "導き出さずに"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "personality": {
+          "ja": "人柄"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "condition": {
+          "ja": "状態"
+        }
+      },
+      "phrases": [
+        {
+          "en": "without deriving a personality from a condition",
+          "ja": "状態から人柄を導き出さずに",
+          "note": "derive A from B「AをBから引き出す」。",
+          "pattern": "derive A from B"
+        }
+      ]
+    }
   ]
 }
