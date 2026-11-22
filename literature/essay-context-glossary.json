@@ -3883,90 +3883,225 @@
     {
       "words": {
         "engine": {
-          "ja": "制作基盤",
-          "pos": "語句",
-          "lemma": "engine",
-          "form": "",
-          "note": "engine：この作品では「制作基盤」"
+          "ja": "エンジン（制作基盤）"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "spontaneous": {
+          "ja": "思いつきの"
+        },
+        "attempt to": {
+          "ja": "〜しようという試み"
+        },
+        "make": {
+          "ja": "作る"
+        },
+        "a game": {
+          "ja": "ゲーム"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "quickly": {
+          "ja": "すぐに"
+        },
+        "turn into": {
+          "ja": "〜に変わる"
+        },
+        "the construction of": {
+          "ja": "〜の構築"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "for": {
+          "ja": "〜のための"
+        },
+        "assets": {
+          "ja": "素材"
+        },
+        "motion": {
+          "ja": "動き"
+        },
+        "voices": {
+          "ja": "音声"
+        },
+        "physics": {
+          "ja": "物理"
+        },
+        "persistence": {
+          "ja": "保存（データの永続化）"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "version control": {
+          "ja": "版管理"
         }
       },
       "phrases": [
         {
-          "en": "A spontaneous attempt to make a game can quickly turn into the construction of an engine for assets, motion, voices, physics, persistence, and version control.",
-          "ja": "思いつきのゲーム制作は、素材・動き・音声・物理・保存・版管理のエンジン作りへすぐ変わりうる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "can quickly turn into the construction of an engine",
+          "ja": "すぐにエンジン作りに変わりうる",
+          "note": "turn into「〜に変わる」。",
+          "pattern": "turn into 〜"
         }
       ]
     },
     {
       "words": {
-        "detour": {
-          "ja": "必要な遠回り",
-          "pos": "語句",
-          "lemma": "detour",
-          "form": "",
-          "note": "detour：この作品では「必要な遠回り」"
+        "the apparent detour": {
+          "ja": "一見遠回りに見えるもの"
+        },
+        "is not necessarily": {
+          "ja": "必ずしも〜ではない"
+        },
+        "a mistake in": {
+          "ja": "〜の誤り"
+        },
+        "sequence": {
+          "ja": "順序"
         }
       },
       "phrases": [
         {
-          "en": "The apparent detour is not necessarily a mistake in sequence.",
-          "ja": "その遠回りに見える工程は、必ずしも順序の誤りではない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "is not necessarily a mistake in sequence",
+          "ja": "必ずしも順序の誤りではない",
+          "note": "部分否定。apparent は「見かけの」。",
+          "pattern": "not necessarily"
         }
       ]
     },
     {
       "words": {
-        "handoffs": {
-          "ja": "工程間の受け渡し",
-          "pos": "語句",
-          "lemma": "handoffs",
-          "form": "",
-          "note": "handoffs：この作品では「工程間の受け渡し」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "playable scene": {
+          "ja": "遊べる場面"
+        },
+        "exists": {
+          "ja": "成り立つ"
+        },
+        "only because": {
+          "ja": "〜だからこそ"
+        },
+        "many": {
+          "ja": "多くの"
+        },
+        "invisible handoffs": {
+          "ja": "見えない受け渡し"
+        },
+        "already": {
+          "ja": "すでに"
+        },
+        "work together": {
+          "ja": "連携している"
         }
       },
       "phrases": [
         {
-          "en": "A playable scene exists only because many invisible handoffs already work together.",
-          "ja": "遊べる場面は、多数の見えない受け渡しがすでに連携しているから成立する。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "exists only because many invisible handoffs already work together",
+          "ja": "見えない受け渡しが連携しているからこそ成り立つ",
+          "note": "only because「〜だからこそ」。",
+          "pattern": "only because 〜"
         }
       ]
     },
     {
       "words": {
-        "workshop": {
-          "ja": "共通制作工房",
-          "pos": "語句",
-          "lemma": "workshop",
-          "form": "",
-          "note": "workshop：この作品では「共通制作工房」"
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "separating": {
+          "ja": "分けること"
+        },
+        "the workshop": {
+          "ja": "工房（共通の制作環境）"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "the game": {
+          "ja": "ゲーム"
+        },
+        "requires": {
+          "ja": "必要とする"
+        },
+        "more than": {
+          "ja": "〜以上のこと"
+        },
+        "moving files": {
+          "ja": "ファイルを動かすこと"
+        },
+        "it": {
+          "ja": "それ（＝分けること）"
+        },
+        "deciding": {
+          "ja": "決めること"
+        },
+        "what belongs to": {
+          "ja": "何が〜に属するか"
+        },
+        "the shared system": {
+          "ja": "共通の仕組み"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "where": {
+          "ja": "どこから"
+        },
+        "a particular work": {
+          "ja": "個別の作品"
+        },
+        "begins": {
+          "ja": "始まる"
         }
       },
       "phrases": [
         {
-          "en": "Even separating the workshop from the game requires more than moving files; it requires deciding what belongs to the shared system and where a particular work begins.",
-          "ja": "工房とゲームを分けるにも、ファイル移動以上に、共通部分と個別作品の境界を決める必要がある。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "separating the workshop from the game",
+          "ja": "工房とゲームを分けること",
+          "note": "動名詞の主語。",
+          "pattern": "separate A from B"
+        },
+        {
+          "en": "deciding what belongs to the shared system and where a particular work begins",
+          "ja": "何が共通部分で、どこから個別作品かを決めること",
+          "note": "2つの間接疑問。",
+          "pattern": "what／where 節"
         }
       ]
     },
     {
       "words": {
-        "route": {
-          "ja": "成果が流れる経路",
-          "pos": "語句",
-          "lemma": "route",
-          "form": "",
-          "note": "route：この作品では「成果が流れる経路」"
+        "sometimes": {
+          "ja": "ときには"
+        },
+        "the route for": {
+          "ja": "〜のための経路"
+        },
+        "future results": {
+          "ja": "将来の成果"
+        },
+        "has to be built": {
+          "ja": "作られなければならない"
+        },
+        "before": {
+          "ja": "〜より先に"
+        },
+        "the result itself": {
+          "ja": "成果そのもの"
         }
       },
       "phrases": [
         {
-          "en": "Sometimes the route for future results has to be built before the result itself.",
-          "ja": "未来の成果が流れる経路を、成果そのものより先に作らなければならない日もある。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "has to be built before the result itself",
+          "ja": "成果そのものより先に作らねばならない",
+          "note": "受け身の義務。",
+          "pattern": "have to be 過去分詞"
         }
       ]
     }
@@ -3974,91 +4109,268 @@
   "DE-20261101-002": [
     {
       "words": {
-        "designers": {
-          "ja": "制度の設計者",
-          "pos": "語句",
-          "lemma": "designers",
-          "form": "",
-          "note": "designers：この作品では「制度の設計者」"
+        "once": {
+          "ja": "いったん〜すると"
+        },
+        "the designers of": {
+          "ja": "〜の設計者"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "system": {
+          "ja": "制度"
+        },
+        "are gone": {
+          "ja": "いなくなる"
+        },
+        "later users": {
+          "ja": "後の利用者"
+        },
+        "mostly": {
+          "ja": "主に"
+        },
+        "encounter": {
+          "ja": "出会う"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "outputs": {
+          "ja": "出力（結果）"
         }
       },
       "phrases": [
         {
-          "en": "Once the designers of a system are gone, later users mostly encounter its outputs.",
-          "ja": "制度の設計者が去ると、後の利用者が出会うのは主にその出力である。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "Once the designers of a system are gone",
+          "ja": "設計者がいなくなると",
+          "note": "be gone「いなくなっている」。",
+          "pattern": "once 〜 / be gone"
         }
       ]
     },
     {
       "words": {
-        "burdens": {
-          "ja": "制度が生む負担",
-          "pos": "語句",
-          "lemma": "burdens",
-          "form": "",
-          "note": "burdens：この作品では「制度が生む負担」"
+        "rules": {
+          "ja": "規則"
+        },
+        "built on": {
+          "ja": "〜を前提に作られた"
+        },
+        "good faith": {
+          "ja": "善意（性善説）"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "generate": {
+          "ja": "生み出す"
+        },
+        "new burdens": {
+          "ja": "新しい負担"
+        },
+        "when": {
+          "ja": "〜とき"
+        },
+        "the number": {
+          "ja": "数"
+        },
+        "incentives": {
+          "ja": "動機づけ"
+        },
+        "or": {
+          "ja": "や"
+        },
+        "roles": {
+          "ja": "役割"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "participants": {
+          "ja": "参加者"
+        },
+        "change": {
+          "ja": "変わる"
         }
       },
       "phrases": [
         {
-          "en": "Rules built on good faith can generate new burdens when the number, incentives, or roles of participants change.",
-          "ja": "性善説で作られた規則も、参加者の数・誘因・役割が変わると新しい負担を生みうる。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "Rules built on good faith",
+          "ja": "善意を前提に作られた規則",
+          "note": "built 以下が rules を修飾。",
+          "pattern": "build on 〜"
         }
       ]
     },
     {
       "words": {
         "observers": {
-          "ja": "後から結果を見る人々",
-          "pos": "語句",
-          "lemma": "observers",
-          "form": "",
-          "note": "observers：この作品では「後から結果を見る人々」"
+          "ja": "見る人"
+        },
+        "then": {
+          "ja": "すると"
+        },
+        "judge": {
+          "ja": "判断する"
+        },
+        "success or failure": {
+          "ja": "成功か失敗か"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "the visible result": {
+          "ja": "見える結果"
+        },
+        "even though": {
+          "ja": "〜にもかかわらず"
+        },
+        "the original": {
+          "ja": "元の"
+        },
+        "information routes": {
+          "ja": "情報の経路"
+        },
+        "have disappeared from view": {
+          "ja": "見えなくなっている"
         }
       },
       "phrases": [
         {
-          "en": "Observers then judge success or failure from the visible result, even though the original information routes have disappeared from view.",
-          "ja": "元の情報経路が見えなくても、観察者は目に見える結果から成否を判断する。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "even though the original information routes have disappeared from view",
+          "ja": "元の経路が見えなくなっていても",
+          "note": "even though「〜だけれども」。",
+          "pattern": "even though 〜 / disappear from view"
         }
       ]
     },
     {
       "words": {
         "traceability": {
-          "ja": "入力から費用までの追跡可能性",
-          "pos": "語句",
-          "lemma": "traceability",
-          "form": "",
-          "note": "traceability：この作品では「入力から費用までの追跡可能性」"
+          "ja": "追跡できること"
+        },
+        "what looks like": {
+          "ja": "〜に見えるもの"
+        },
+        "a lack of": {
+          "ja": "〜の欠如"
+        },
+        "strategic vision": {
+          "ja": "大局観"
+        },
+        "may instead be": {
+          "ja": "実は〜かもしれない"
+        },
+        "we": {
+          "ja": "私たちは"
+        },
+        "cannot see": {
+          "ja": "見えない"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "inputs": {
+          "ja": "入力"
+        },
+        "entered": {
+          "ja": "入ったか"
+        },
+        "which decisions": {
+          "ja": "どの判断が"
+        },
+        "transformed": {
+          "ja": "変えたか"
+        },
+        "them": {
+          "ja": "それら（＝入力）"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "ultimately": {
+          "ja": "最終的に"
+        },
+        "absorbed": {
+          "ja": "引き受けたか"
+        },
+        "the cost": {
+          "ja": "費用"
         }
       },
       "phrases": [
         {
-          "en": "What looks like a lack of strategic vision may instead be a lack of traceability: we cannot see where inputs entered, which decisions transformed them, or who ultimately absorbed the cost.",
-          "ja": "大局観の欠如に見えるものは追跡可能性の欠如かもしれず、入力・判断・費用の行先が見えない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "What looks like a lack of strategic vision may instead be a lack of traceability",
+          "ja": "大局観の欠如に見えるものは、実は追跡可能性の欠如かもしれない",
+          "note": "instead「そうではなく」。",
+          "pattern": "what looks like 〜 / instead"
         }
       ]
     },
     {
       "words": {
         "outcome": {
-          "ja": "経路の終点としての結果",
-          "pos": "語句",
-          "lemma": "outcome",
-          "form": "",
-          "note": "outcome：この作品では「経路の終点としての結果」"
+          "ja": "結果"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "is only": {
+          "ja": "〜にすぎない"
+        },
+        "the end of": {
+          "ja": "〜の終点"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "route": {
+          "ja": "経路"
+        },
+        "understanding": {
+          "ja": "理解すること"
+        },
+        "the system": {
+          "ja": "その制度"
+        },
+        "means": {
+          "ja": "意味する"
+        },
+        "tracing": {
+          "ja": "たどること"
+        },
+        "what": {
+          "ja": "〜するもの"
+        },
+        "still": {
+          "ja": "今なお"
+        },
+        "operates": {
+          "ja": "動いている"
+        },
+        "after": {
+          "ja": "〜した後も"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "authors": {
+          "ja": "作り手"
+        },
+        "have left": {
+          "ja": "去った"
         }
       },
       "phrases": [
         {
-          "en": "An outcome is only the end of a route. Understanding the system means tracing what still operates after its authors have left.",
-          "ja": "結果は経路の終点にすぎない。制度を理解するとは、作者の退場後も動くものを追うことだ。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "means tracing what still operates after its authors have left",
+          "ja": "作り手が去った後も動くものをたどること",
+          "note": "what「〜するもの」。",
+          "pattern": "mean -ing"
         }
       ]
     }
@@ -4067,89 +4379,255 @@
     {
       "words": {
         "sales": {
-          "ja": "売上という単独指標",
-          "pos": "語句",
-          "lemma": "sales",
-          "form": "",
-          "note": "sales：この作品では「売上という単独指標」"
-        }
-      },
-      "phrases": [
-        {
-          "en": "Sales alone cannot show where a culture actually lives.",
-          "ja": "売上だけでは、文化が実際にどこで生きているかは示せない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
-        }
-      ]
-    },
-    {
-      "words": {
-        "event": {
-          "ja": "イベント・催し"
+          "ja": "売上"
         },
-        "venue": {
-          "ja": "会場"
+        "alone": {
+          "ja": "〜だけでは"
+        },
+        "cannot show": {
+          "ja": "示せない"
+        },
+        "where": {
+          "ja": "どこで"
+        },
+        "a culture": {
+          "ja": "文化"
+        },
+        "actually": {
+          "ja": "実際に"
+        },
+        "lives": {
+          "ja": "生きている"
         }
       },
       "phrases": [
         {
-          "en": "A free event in a small venue, a paid stream, and an overseas campaign generate different numbers, but none by itself explains who listens regularly, who controls the rights, or where the revenue settles.",
-          "ja": "小さな会場の無料イベント、課金配信、海外向け発信は異なる数字を生むが、聴取者・権利者・収益の行先を単独では説明しない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "Sales alone cannot show where a culture actually lives",
+          "ja": "売上だけでは文化がどこで生きているかは示せない",
+          "note": "alone「〜だけ」。",
+          "pattern": "名詞 + alone"
         }
       ]
     },
     {
       "words": {
-        "listening": {
-          "ja": "日常的に聴く文化",
-          "pos": "語句",
-          "lemma": "listening",
-          "form": "",
-          "note": "listening：この作品では「日常的に聴く文化」"
+        "a": {
+          "ja": "ひとつの"
+        },
+        "free event": {
+          "ja": "無料イベント"
+        },
+        "in": {
+          "ja": "〜での"
+        },
+        "a small venue": {
+          "ja": "小さな会場"
+        },
+        "paid stream": {
+          "ja": "有料配信"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "an": {
+          "ja": "ひとつの"
+        },
+        "overseas campaign": {
+          "ja": "海外向けの宣伝"
+        },
+        "generate": {
+          "ja": "生む"
+        },
+        "different numbers": {
+          "ja": "異なる数字"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "none": {
+          "ja": "どれも〜ない"
+        },
+        "by itself": {
+          "ja": "それだけで"
+        },
+        "explains": {
+          "ja": "説明する"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "listens regularly": {
+          "ja": "日常的に聴く"
+        },
+        "controls": {
+          "ja": "握る"
+        },
+        "the rights": {
+          "ja": "権利"
+        },
+        "or": {
+          "ja": "あるいは"
+        },
+        "where": {
+          "ja": "どこに"
+        },
+        "the revenue": {
+          "ja": "収益"
+        },
+        "settles": {
+          "ja": "落ち着く"
         }
       },
       "phrases": [
         {
-          "en": "If a broad listening culture never existed in the first place, announcing preservation will not create one.",
-          "ja": "広い聴取文化が元からなかったなら、存続の宣言だけでそれは生まれない。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "none by itself explains who listens regularly",
+          "ja": "どれもそれだけでは〜を説明しない",
+          "note": "none「どれも〜ない」。",
+          "pattern": "none by itself"
+        },
+        {
+          "en": "where the revenue settles",
+          "ja": "収益がどこに落ち着くか",
+          "note": "settle「（最終的に）とどまる」。",
+          "pattern": "settle"
+        }
+      ]
+    },
+    {
+      "words": {
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "broad": {
+          "ja": "幅広い"
+        },
+        "listening culture": {
+          "ja": "聴く文化"
+        },
+        "never existed": {
+          "ja": "一度も存在しなかった"
+        },
+        "in the first place": {
+          "ja": "そもそも"
+        },
+        "announcing": {
+          "ja": "宣言すること"
+        },
+        "preservation": {
+          "ja": "存続・保存"
+        },
+        "will not": {
+          "ja": "〜しないだろう"
+        },
+        "create": {
+          "ja": "生み出す"
+        },
+        "one": {
+          "ja": "それ（＝聴く文化）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "never existed in the first place",
+          "ja": "そもそも存在しなかった",
+          "note": "in the first place「そもそも」。",
+          "pattern": "in the first place"
+        },
+        {
+          "en": "will not create one",
+          "ja": "存続を宣言しても文化は生まれない",
+          "note": "one は a listening culture を受ける。",
+          "pattern": "one（代名詞）"
         }
       ]
     },
     {
       "words": {
         "prestige": {
-          "ja": "文化の威信・特別さ",
-          "pos": "語句",
-          "lemma": "prestige",
-          "form": "",
-          "note": "prestige：この作品では「文化の威信・特別さ」"
+          "ja": "威信"
+        },
+        "cultural support": {
+          "ja": "文化支援"
+        },
+        "is less about": {
+          "ja": "〜というより"
+        },
+        "performing": {
+          "ja": "演じること"
+        },
+        "than about": {
+          "ja": "…に関わるものだ"
+        },
+        "keeping": {
+          "ja": "保つこと"
+        },
+        "workable connections": {
+          "ja": "実際に機能するつながり"
+        },
+        "among": {
+          "ja": "〜の間の"
+        },
+        "the work": {
+          "ja": "作品"
+        },
+        "its": {
+          "ja": "その"
+        },
+        "audience": {
+          "ja": "観客"
+        },
+        "rights": {
+          "ja": "権利"
+        },
+        "and": {
+          "ja": "そして"
+        },
+        "income": {
+          "ja": "収入"
         }
       },
       "phrases": [
         {
-          "en": "Cultural support is less about performing prestige than about keeping workable connections among the work, its audience, its rights, and its income.",
-          "ja": "文化支援は威信の演出より、作品・観客・権利・収入の間に機能する接続を保つことに近い。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "is less about performing prestige than about keeping workable connections",
+          "ja": "威信を演じることより、つながりを保つことに関わる",
+          "note": "less A than B「AよりむしろB」。",
+          "pattern": "less about A than about B"
         }
       ]
     },
     {
       "words": {
-        "route": {
-          "ja": "文化を支える細い経路",
-          "pos": "語句",
-          "lemma": "route",
-          "form": "",
-          "note": "route：この作品では「文化を支える細い経路」"
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "a": {
+          "ja": "ひとつの"
+        },
+        "narrow route": {
+          "ja": "細い経路"
+        },
+        "matters": {
+          "ja": "意味がある"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "it": {
+          "ja": "それ（＝細い経路）"
+        },
+        "remains usable": {
+          "ja": "使えるままである"
         }
       },
       "phrases": [
         {
-          "en": "Even a narrow route matters if it remains usable.",
-          "ja": "細い経路でも、使い続けられるなら意味がある。",
-          "note": "このチャンク全体の意味と論理関係をまとめて読む。"
+          "en": "matters if it remains usable",
+          "ja": "使えるままなら意味がある",
+          "note": "matter は動詞「重要である」。",
+          "pattern": "matter / remain 形容詞"
         }
       ]
     }
