@@ -31,7 +31,8 @@
 2. **訳は一つに絞る**：「一つ・一人・ある」「〜のために・〜なので・〜の間」のような辞書的な列挙は禁止（`・` は1個まで）。
 3. **まとまりで意味が決まる表現は空白区切りのキーで登録**する（読書画面で1行にまとめて表示される）。例：`sound like` `as if` `as well as` `need not` `need to` `rather than` `those who` `part of` `send it back` `price tag` `is treated as`。キーは本文の連続した語と一致させる（`too ... to` のような飛び飛びは不可。phrases に書く）。
 4. **代名詞は指すものを書く**：`it`→「それ（＝その経験）」、`one`→「それ（＝売れること）」。
-5. **phrases は文の丸写しにしない**：学習者が他の文でも使える型（`dismiss A as B`、`not A but B`、`too 形容詞 for 人 to 動詞`）を取り出し、構文メモを付ける。
+5. **phrases は文の丸写しにしない**：`en` には本文にそのまま出てくる部分（例 `describe years of effort as love`）を書き、`pattern` に他の文でも使える型（`describe A as B`、`not A but B`、`too 形容詞 for 人 to 動詞`）を書き、`note` に構文メモを付ける。
+   - 熟語キーを登録した場合、読書画面では熟語の下に構成語の「辞書」訳が自動で並ぶ。構成語にもこの文での意味を示したい時は、その語を単語キーとしても登録する（「文脈」と「辞書」が並ぶ）。
 6. `node scripts/validate-literature-glossary.mjs` は、to＋限定詞を「ために」と訳した、`sound like` の sound を形容詞で訳した、`as if` を「として」と訳した、訳の列挙、などを検出して失敗させる（2026-11-22 以降の作品）。検出されない誤りもあるため、意味監査は省略しない。
 
 ## 自動チェックと限界
