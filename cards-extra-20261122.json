@@ -1,0 +1,474 @@
+[
+  {
+    "_no": 209,
+    "_generatedAt": "2026-11-22T02:00:00+09:00",
+    "sentence": "Creative access should not depend on market income; separating the right to create from the ability to earn can widen participation without dismissing training or support.",
+    "phonetic": "クリエイティヴ アクセス シュッド ノット ディペンド オン マーケット インカム；セパレイティング ザ ライト トゥ クリエイト フロム ジ アビリティ トゥ アーン キャン ワイデン パーティシペイション ウィズアウト ディスミシング トレイニング オア サポート。",
+    "japaneseTranslation": "創作への参加は市場収入に依存すべきではありません。創作する権利と稼ぐ能力を分けて考えれば、訓練や支援を軽視せずに参加の間口を広げられます。",
+    "theme": "創作への参加と市場収入を分けて考える",
+    "coreVerb": "separate",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "People create.",
+        "translation": "人々は創作します。"
+      },
+      "phase2": {
+        "sentence": "People need access to creative activity.",
+        "translation": "人々には創作活動へ参加する機会が必要です。",
+        "addedChunks": "対象(access to creative activity)を追加"
+      },
+      "phase3": {
+        "sentence": "Creative access should be broad, but training still matters.",
+        "translation": "創作への参加機会は広くあるべきですが、訓練もなお重要です。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Creative access should be broader than access limited by market income.",
+        "translation": "創作への参加機会は、市場収入によって制限された参加機会より広くあるべきです。",
+        "comparison": "broader than"
+      },
+      "phase5": {
+        "sentence": "Creative access should not depend on market income; separating the right to create from the ability to earn can widen participation without dismissing training or support",
+        "translation": "創作への参加は市場収入に依存すべきではありません。創作する権利と稼ぐ能力を分けて考えれば、訓練や支援を軽視せずに参加の間口を広げられます。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Creative access should not depend",
+          "function": "状態",
+          "translation": "創作への参加は依存すべきではありません"
+        },
+        {
+          "text": "on market income;",
+          "function": "対象",
+          "translation": "市場収入に"
+        },
+        {
+          "text": "separating the right to create",
+          "function": "行動",
+          "translation": "創作する権利を分けることは"
+        },
+        {
+          "text": "from the ability to earn",
+          "function": "対象",
+          "translation": "稼ぐ能力から"
+        },
+        {
+          "text": "can widen participation",
+          "function": "結果",
+          "translation": "参加の間口を広げられます"
+        },
+        {
+          "text": "without dismissing training or support.",
+          "function": "様態",
+          "translation": "訓練や支援を軽視せずに"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "should not",
+          "where": "should not depend",
+          "explanation": "望ましくない依存関係を示す。",
+          "rule": "should not + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "depend on",
+          "where": "depend on market income",
+          "explanation": "何かを成立条件として頼ることを表す。",
+          "rule": "depend on + 名詞"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "income; separating",
+          "explanation": "密接に関係する二つの独立した内容を結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞主語",
+          "where": "separating the right to create",
+          "explanation": "分離するという行為全体を主語にする。",
+          "rule": "動名詞句 + 単数動詞"
+        },
+        {
+          "category": "語法",
+          "name": "separate A from B",
+          "where": "separating the right ... from the ability",
+          "explanation": "二つの概念を区別する。",
+          "rule": "separate A from B"
+        },
+        {
+          "category": "前置詞",
+          "name": "without + -ing",
+          "where": "without dismissing",
+          "explanation": "ある行為をせずに別の結果を得ることを示す。",
+          "rule": "without + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Creative access should not depends on income.",
+          "correct": "Creative access should not depend on income.",
+          "why": "助動詞shouldの後は動詞原形にする。"
+        },
+        {
+          "wrong": "separate the right to create with the ability to earn",
+          "correct": "separate the right to create from the ability to earn",
+          "why": "区別を表す語法はseparate A from B。"
+        },
+        {
+          "wrong": "without dismiss training or support",
+          "correct": "without dismissing training or support",
+          "why": "前置詞withoutの後は動名詞にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "The freedom to create is not the same as the ability to earn from creative work.",
+          "translation": "創作する自由は、創作で稼ぐ能力と同じではありません。"
+        },
+        {
+          "text": "Broader participation and serious training can coexist.",
+          "translation": "参加の拡大と本格的な訓練は両立できます。"
+        },
+        {
+          "text": "Market success is one outcome of creation, not its entry ticket.",
+          "translation": "市場での成功は創作の一つの結果であって、参加資格ではありません。"
+        }
+      ],
+      "parseTree": "[S Creative access [VP should not depend on market income]]; [S [Gerund separating A from B] [VP can widen participation [Adv without dismissing C]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "should not depend on market income",
+          "expanded": "because the opportunity to create has value even when a work earns nothing",
+          "nuance": "参加価値を収益から切り離す理由。"
+        },
+        {
+          "original": "separating the right to create from the ability to earn",
+          "expanded": "since access, professional income, and skill development are different questions",
+          "nuance": "三つの論点を分離する理由。"
+        },
+        {
+          "original": "can widen participation",
+          "expanded": "therefore, more people can practice without first proving commercial demand",
+          "nuance": "分離が参加を広げる仕組み。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Creative participation should not be restricted by the immediate prospect of market income.",
+          "translation": "創作への参加は、すぐに市場収入を得られる見込みによって制限されるべきではありません。",
+          "note": "制限される参加機会を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Separating access from earnings, a cultural system can welcome beginners while preserving training.",
+          "translation": "参加機会と収益を分けることで、文化制度は訓練を保ちながら初心者を受け入れられます。",
+          "note": "分離を方法として前置する。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The separation of creative rights from earning capacity broadens participation.",
+          "translation": "創作する権利と稼ぐ能力の分離は、参加を広げます。",
+          "note": "separateをseparationに名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "widen",
+            "alternatives": [
+              "broaden",
+              "expand",
+              "open up"
+            ],
+            "nuance": "widenは間口を広げる、broadenは範囲を広げる、open upは機会を開く。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "条件の否定と代案",
+            "sentence": "X should not depend on Y; separating A from B can achieve Z.",
+            "translation": "XはYに依存すべきではなく、AとBを分ければZを実現できます。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Access based on interest is broader than access based only on expected profit.",
+            "translation": "関心に基づく参加機会は、期待利益だけに基づくものより広いです。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If income is treated as the entry condition, many potential creators are excluded too early.",
+            "translation": "収入を参加条件とみなせば、多くの潜在的な創作者が早すぎる段階で排除されます。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What should be widened is access, not the promise of commercial success.",
+            "translation": "広げるべきなのは参加機会であって、商業的成功の約束ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Separate creation from earnings, not training from creation.",
+            "translation": "創作と収益を分けても、創作と訓練は切り離しません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "セミコロンと動名詞主語で制度的な区別を一文に収めた。概念語が多いため効率性は8。"
+    }
+  },
+  {
+    "_no": 210,
+    "_generatedAt": "2026-11-22T02:00:00+09:00",
+    "sentence": "When a familiar voice appears in inner speech, the experience alone does not identify its source; interpretation depends on how the mind assigns agency and origin.",
+    "phonetic": "ウェン ア ファミリア ヴォイス アピアーズ イン インナー スピーチ、ジ イクスピアリエンス アローン ダズ ノット アイデンティファイ イッツ ソース；インタープリテイション ディペンズ オン ハウ ザ マインド アサインズ エイジェンシー アンド オリジン。",
+    "japaneseTranslation": "内言の中に聞き慣れた声が現れても、その体験だけでは情報源を特定できません。解釈は、心がその声の主体と起源をどのように割り当てるかに左右されます。",
+    "theme": "内言の声と情報源の判断を分ける",
+    "coreVerb": "identify",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A voice appears.",
+        "translation": "声が現れます。"
+      },
+      "phase2": {
+        "sentence": "A familiar voice appears in inner speech.",
+        "translation": "内言の中に聞き慣れた声が現れます。",
+        "addedChunks": "声の性質(familiar)と場所(in inner speech)を追加"
+      },
+      "phase3": {
+        "sentence": "A voice may appear, but its source can remain uncertain.",
+        "translation": "声が現れても、その情報源は不確かなままの場合があります。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "The experience is less informative than a careful assessment of its source.",
+        "translation": "その体験は、情報源を慎重に評価することほど多くを教えてはくれません。",
+        "comparison": "less informative than"
+      },
+      "phase5": {
+        "sentence": "When a familiar voice appears in inner speech, the experience alone does not identify its source; interpretation depends on how the mind assigns agency and origin",
+        "translation": "内言の中に聞き慣れた声が現れても、その体験だけでは情報源を特定できません。解釈は、心がその声の主体と起源をどのように割り当てるかに左右されます。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When a familiar voice appears in inner speech,",
+          "function": "時間",
+          "translation": "内言の中に聞き慣れた声が現れるとき"
+        },
+        {
+          "text": "the experience alone does not identify",
+          "function": "行動",
+          "translation": "その体験だけでは特定できません"
+        },
+        {
+          "text": "its source;",
+          "function": "対象",
+          "translation": "その情報源を"
+        },
+        {
+          "text": "interpretation depends on",
+          "function": "状態",
+          "translation": "解釈は左右されます"
+        },
+        {
+          "text": "how the mind assigns",
+          "function": "内容",
+          "translation": "心がどのように割り当てるかに"
+        },
+        {
+          "text": "agency and origin.",
+          "function": "対象",
+          "translation": "主体と起源を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "when節",
+          "where": "When a familiar voice appears",
+          "explanation": "ある体験が生じる状況を提示する。",
+          "rule": "When + 主語 + 動詞, 主節"
+        },
+        {
+          "category": "副詞",
+          "name": "aloneの限定",
+          "where": "the experience alone",
+          "explanation": "体験だけでは十分でないことを表す。",
+          "rule": "名詞 + alone"
+        },
+        {
+          "category": "否定",
+          "name": "does not + 動詞原形",
+          "where": "does not identify",
+          "explanation": "情報源を特定しないことを現在形で示す。",
+          "rule": "does not + 動詞原形"
+        },
+        {
+          "category": "所有格",
+          "name": "its",
+          "where": "its source",
+          "explanation": "声または体験に対応する情報源を指す。",
+          "rule": "所有格 + 名詞"
+        },
+        {
+          "category": "語法",
+          "name": "depend on",
+          "where": "depends on how",
+          "explanation": "解釈が何に左右されるかを示す。",
+          "rule": "depend on + 名詞・名詞節"
+        },
+        {
+          "category": "名詞節",
+          "name": "how節",
+          "where": "how the mind assigns agency and origin",
+          "explanation": "割り当て方全体を前置詞onの目的語にする。",
+          "rule": "how + 主語 + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When a familiar voice appear in inner speech",
+          "correct": "When a familiar voice appears in inner speech",
+          "why": "単数主語voiceに三人称単数のappearsを使う。"
+        },
+        {
+          "wrong": "the experience alone does not identifies its source",
+          "correct": "the experience alone does not identify its source",
+          "why": "does notの後は動詞原形にする。"
+        },
+        {
+          "wrong": "interpretation depends how the mind assigns agency",
+          "correct": "interpretation depends on how the mind assigns agency",
+          "why": "dependは前置詞onを伴う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Hearing a familiar inner voice does not by itself explain where the voice came from.",
+          "translation": "聞き慣れた内なる声を聞いても、それだけでは声の由来は説明できません。"
+        },
+        {
+          "text": "The key question is not only what was heard, but how its source was understood.",
+          "translation": "重要なのは何が聞こえたかだけでなく、その情報源がどう理解されたかです。"
+        },
+        {
+          "text": "A remembered voice and a misattributed voice may feel similar while having different explanations.",
+          "translation": "記憶された声と帰属を誤った声は、説明が異なっても似た感覚を伴うことがあります。"
+        }
+      ],
+      "parseTree": "[Adv When S], [S the experience alone [VP does not identify its source]]; [S interpretation [VP depends on [CP how the mind assigns agency and origin]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "does not identify its source",
+          "expanded": "because a familiar voice can be remembered, imagined, or attributed in more than one way",
+          "nuance": "体験だけで原因を断定できない理由。"
+        },
+        {
+          "original": "interpretation depends on how the mind assigns agency",
+          "expanded": "since people distinguish self-generated thoughts from externally caused events through source judgments",
+          "nuance": "主体判断が解釈に関わる仕組み。"
+        },
+        {
+          "original": "assigns agency and origin",
+          "expanded": "therefore, assessment must examine both who seems to be speaking and where the experience seems to come from",
+          "nuance": "主体と起源を別々に見る必要性。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The source of an inner voice cannot be identified from the experience alone.",
+          "translation": "内なる声の情報源は、その体験だけからは特定できません。",
+          "note": "特定される情報源を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Appearing in inner speech, a familiar voice may still have an uncertain source.",
+          "translation": "内言の中に現れても、聞き慣れた声の情報源は不確かな場合があります。",
+          "note": "出現状況を分詞句にする。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The assignment of agency and origin shapes the interpretation of an inner voice.",
+          "translation": "主体と起源の割り当てが、内なる声の解釈を形作ります。",
+          "note": "assignとinterpretを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "source",
+            "alternatives": [
+              "origin",
+              "cause",
+              "provenance"
+            ],
+            "nuance": "sourceは情報源、originは起源、causeは原因、provenanceは来歴を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "状況と判断限界",
+            "sentence": "When X occurs, Y alone does not identify Z; interpretation depends on A.",
+            "translation": "Xが起きても、YだけではZを特定できず、解釈はAに左右されます。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A source assessment is more informative than the familiarity of the voice alone.",
+            "translation": "情報源の評価は、声が聞き慣れているという事実だけより多くの情報を与えます。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If agency is misassigned, an internally generated voice may feel external.",
+            "translation": "主体の割り当てを誤ると、内的に生じた声が外部のものに感じられる場合があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is the attribution of the voice, not familiarity alone, that shapes interpretation.",
+            "translation": "解釈を形作るのは、親しみだけではなく、声をどう帰属させるかです。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "A familiar voice does not reveal its source.",
+            "translation": "聞き慣れた声でも、その情報源は分かりません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "when節とセミコロンで体験と解釈を分けた。心理学的概念を慎重に限定したため抽象度はやや高い。"
+    }
+  }
+]
