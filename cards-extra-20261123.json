@@ -1,0 +1,464 @@
+[
+  {
+    "_no": 211,
+    "_generatedAt": "2026-11-23T02:00:00+09:00",
+    "sentence": "May refers to a month when capitalized, but the two-word form may be combines a modal verb with be, whereas maybe is a single adverb meaning perhaps.",
+    "phonetic": "メイ リファーズ トゥ ア マンス ウェン キャピタライズド、バット ザ トゥー ワード フォーム メイ ビー コンバインズ ア モーダル ヴァーブ ウィズ ビー、ウェアアズ メイビー イズ ア シングル アドヴァーブ ミーニング パーハップス。",
+    "japaneseTranslation": "大文字で始まるMayは月の名前ですが、may beは助動詞mayとbeを組み合わせた形です。一方、maybeは「おそらく」を意味する一語の副詞です。",
+    "theme": "May・may be・maybeを品詞と綴りで区別する",
+    "coreVerb": "combine",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "May has different uses.",
+        "translation": "Mayには異なる用法があります。"
+      },
+      "phase2": {
+        "sentence": "May can name a month or function as a modal verb.",
+        "translation": "Mayは月を表すことも、助動詞として働くこともあります。",
+        "addedChunks": "二つの用法(name a month / function as a modal verb)を追加"
+      },
+      "phase3": {
+        "sentence": "May is a month, but may can be a modal verb.",
+        "translation": "Mayは月の名前ですが、mayは助動詞にもなります。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Maybe is shorter than the two-word phrase may be.",
+        "translation": "maybeは二語の句may beより短い形です。",
+        "comparison": "shorter than"
+      },
+      "phase5": {
+        "sentence": "May refers to a month when capitalized, but the two-word form may be combines a modal verb with be, whereas maybe is a single adverb meaning perhaps",
+        "translation": "大文字で始まるMayは月の名前ですが、may beは助動詞mayとbeを組み合わせた形です。一方、maybeは「おそらく」を意味する一語の副詞です。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "May refers to a month when capitalized,",
+          "function": "内容",
+          "translation": "大文字で始まるMayは月を指します"
+        },
+        {
+          "text": "but the two-word form may be combines",
+          "function": "接続",
+          "translation": "しかし二語の形may beは組み合わせます"
+        },
+        {
+          "text": "a modal verb with be,",
+          "function": "対象",
+          "translation": "助動詞とbeを"
+        },
+        {
+          "text": "whereas maybe is",
+          "function": "比較",
+          "translation": "一方、maybeは"
+        },
+        {
+          "text": "a single adverb meaning perhaps.",
+          "function": "内容",
+          "translation": "「おそらく」を意味する一語の副詞です"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "固有名詞",
+          "name": "大文字のMay",
+          "where": "May",
+          "explanation": "月名として使うため語頭を大文字にする。",
+          "rule": "月名は大文字で始める"
+        },
+        {
+          "category": "省略",
+          "name": "when + 過去分詞",
+          "where": "when capitalized",
+          "explanation": "when it is capitalizedの主語とbe動詞を省略した形。",
+          "rule": "when + 過去分詞"
+        },
+        {
+          "category": "接続",
+          "name": "but",
+          "where": "but may be combines",
+          "explanation": "月名と助動詞句の用法を対照させる。",
+          "rule": "節, but + 節"
+        },
+        {
+          "category": "語法",
+          "name": "combine A with B",
+          "where": "combines a modal verb with be",
+          "explanation": "二つの要素を組み合わせることを示す。",
+          "rule": "combine A with B"
+        },
+        {
+          "category": "接続",
+          "name": "whereas",
+          "where": "whereas maybe is",
+          "explanation": "may beとmaybeの形と品詞を対照させる。",
+          "rule": "節, whereas + 節"
+        },
+        {
+          "category": "分詞",
+          "name": "meaningによる後置修飾",
+          "where": "an adverb meaning perhaps",
+          "explanation": "副詞maybeの意味を現在分詞で説明する。",
+          "rule": "名詞 + 現在分詞句"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "May refer a month when capitalized.",
+          "correct": "May refers to a month when capitalized.",
+          "why": "referは対象を示すとき前置詞toを伴い、単数主語にはrefersを使う。"
+        },
+        {
+          "wrong": "the two-word form may be combine a modal verb with be",
+          "correct": "the two-word form may be combines a modal verb with be",
+          "why": "単数主語formに合わせてcombinesを使う。"
+        },
+        {
+          "wrong": "maybe is two words",
+          "correct": "maybe is a single word",
+          "why": "副詞maybeは一語で綴る。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "May is a proper noun for the month, while may is also a modal verb.",
+          "translation": "Mayは月を表す固有名詞であり、mayは助動詞でもあります。"
+        },
+        {
+          "text": "May be is a verb phrase, but maybe is an adverb.",
+          "translation": "may beは動詞句ですが、maybeは副詞です。"
+        },
+        {
+          "text": "Maybe can often be replaced by perhaps; may be cannot.",
+          "translation": "maybeは多くの場合perhapsに置き換えられますが、may beは置き換えられません。"
+        }
+      ],
+      "parseTree": "[S May [VP refers to a month [Adv when capitalized]]], but [S the two-word form may be [VP combines A with B]], whereas [S maybe [VP is an adverb [Part meaning perhaps]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "May refers to a month when capitalized",
+          "expanded": "because English capitalizes the names of months",
+          "nuance": "大文字表記の理由。"
+        },
+        {
+          "original": "the two-word form may be combines a modal verb with be",
+          "expanded": "since may expresses possibility and be supplies the following verb",
+          "nuance": "二語を分けて書く文法的理由。"
+        },
+        {
+          "original": "maybe is a single adverb",
+          "expanded": "therefore, it can modify a whole statement in much the same way as perhaps",
+          "nuance": "一語の副詞としての働き。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The month is named May, while possibility can be expressed with may be.",
+          "translation": "その月はMayと呼ばれ、可能性はmay beで表せます。",
+          "note": "名称と表現される可能性を受動態にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Beginning with a capital letter, May usually refers to the month.",
+          "translation": "大文字で始まるMayは、通常その月を指します。",
+          "note": "表記上の特徴を分詞句にする。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Capitalization and spacing mark the distinction among May, may be, and maybe.",
+          "translation": "大文字表記と分かち書きが、May・may be・maybeの違いを示します。",
+          "note": "distinguishを名詞distinctionにする。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "perhaps",
+            "alternatives": [
+              "maybe",
+              "possibly",
+              "conceivably"
+            ],
+            "nuance": "perhapsとmaybeは一般的な「おそらく」、possiblyは可能性、conceivablyは理論上あり得ることを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "三項対照",
+            "sentence": "A does X, but B does Y, whereas C is Z.",
+            "translation": "AはXをし、BはYをする一方、CはZです。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "May be is grammatically more complex than the adverb maybe.",
+            "translation": "may beは、副詞maybeより文法的に複雑です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If perhaps fits the sentence, maybe may fit as well.",
+            "translation": "perhapsが文に合うなら、maybeも合う可能性があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "It is spacing, not pronunciation alone, that distinguishes may be from maybe.",
+            "translation": "may beとmaybeを区別するのは、発音だけではなく分かち書きです。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "May: month; may be: verb phrase; maybe: adverb.",
+            "translation": "Mayは月、may beは動詞句、maybeは副詞です。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 10,
+      "efficiency": 9,
+      "comment": "butとwhereasで三つの形を短く対照した。教材としての焦点が明確。"
+    }
+  },
+  {
+    "_no": 212,
+    "_generatedAt": "2026-11-23T02:00:00+09:00",
+    "sentence": "A public claim gains credibility from evidence, not from the speaker's credentials alone; expertise can guide attention, but it cannot replace a testable argument.",
+    "phonetic": "ア パブリック クレイム ゲインズ クレディビリティ フロム エヴィデンス、ノット フロム ザ スピーカーズ クレデンシャルズ アローン；エクスパーティーズ キャン ガイド アテンション、バット イット キャノット リプレイス ア テスタブル アーギュメント。",
+    "japaneseTranslation": "公の主張が信頼性を得るのは、話者の肩書だけからではなく、証拠からです。専門知識は注目すべき点を示せますが、検証可能な論証に取って代わることはできません。",
+    "theme": "話者の肩書と検証可能な論証を区別する",
+    "coreVerb": "replace",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Evidence supports a claim.",
+        "translation": "証拠は主張を支えます。"
+      },
+      "phase2": {
+        "sentence": "Evidence gives a public claim credibility.",
+        "translation": "証拠は公の主張に信頼性を与えます。",
+        "addedChunks": "対象(a public claim)と結果(credibility)を追加"
+      },
+      "phase3": {
+        "sentence": "Expertise can guide attention, but evidence must support the claim.",
+        "translation": "専門知識は注目点を示せますが、証拠が主張を支えなければなりません。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "A testable argument is stronger than an appeal to credentials alone.",
+        "translation": "検証可能な論証は、肩書だけに訴えることより強いです。",
+        "comparison": "stronger than"
+      },
+      "phase5": {
+        "sentence": "A public claim gains credibility from evidence, not from the speaker's credentials alone; expertise can guide attention, but it cannot replace a testable argument",
+        "translation": "公の主張が信頼性を得るのは、話者の肩書だけからではなく、証拠からです。専門知識は注目すべき点を示せますが、検証可能な論証に取って代わることはできません。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A public claim gains credibility",
+          "function": "結果",
+          "translation": "公の主張は信頼性を得ます"
+        },
+        {
+          "text": "from evidence, not from the speaker's credentials alone;",
+          "function": "比較",
+          "translation": "話者の肩書だけからではなく、証拠から"
+        },
+        {
+          "text": "expertise can guide attention,",
+          "function": "行動",
+          "translation": "専門知識は注目すべき点を示せます"
+        },
+        {
+          "text": "but it cannot replace",
+          "function": "接続",
+          "translation": "しかし、それは取って代われません"
+        },
+        {
+          "text": "a testable argument.",
+          "function": "対象",
+          "translation": "検証可能な論証に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "冠詞",
+          "name": "a + 単数名詞",
+          "where": "A public claim",
+          "explanation": "一般的な公の主張を一例として示す。",
+          "rule": "a + 形容詞 + 単数名詞"
+        },
+        {
+          "category": "語法",
+          "name": "gain A from B",
+          "where": "gains credibility from evidence",
+          "explanation": "証拠を源として信頼性を得ることを表す。",
+          "rule": "gain + 目的語 + from + 名詞"
+        },
+        {
+          "category": "対照",
+          "name": "A, not B",
+          "where": "from evidence, not from the speaker's credentials",
+          "explanation": "信頼性の根拠を証拠に限定し、肩書だけを退ける。",
+          "rule": "A, not B"
+        },
+        {
+          "category": "所有格",
+          "name": "speaker's",
+          "where": "the speaker's credentials",
+          "explanation": "肩書が話者に属することを示す。",
+          "rule": "名詞's + 名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "can",
+          "where": "can guide attention",
+          "explanation": "専門知識が果たせる役割を可能性として示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "否定",
+          "name": "cannot + 動詞原形",
+          "where": "cannot replace",
+          "explanation": "専門知識の限界を明示する。",
+          "rule": "cannot + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A public claim gain credibility from evidence.",
+          "correct": "A public claim gains credibility from evidence.",
+          "why": "単数主語claimに三人称単数のgainsを使う。"
+        },
+        {
+          "wrong": "the speakers credentials",
+          "correct": "the speaker's credentials",
+          "why": "話者の所有を表すためアポストロフィーを付ける。"
+        },
+        {
+          "wrong": "expertise cannot replaces an argument",
+          "correct": "expertise cannot replace an argument",
+          "why": "助動詞cannotの後は動詞原形にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Credentials may direct us to an expert, but evidence determines whether the claim holds.",
+          "translation": "肩書は専門家へ注意を向けますが、主張が成り立つかは証拠が決めます。"
+        },
+        {
+          "text": "Scientific authority is useful only when its claims remain open to examination.",
+          "translation": "科学的権威が有用なのは、その主張が検討に開かれている場合です。"
+        },
+        {
+          "text": "A title can signal experience without proving a particular conclusion.",
+          "translation": "肩書は経験を示せても、特定の結論を証明するものではありません。"
+        }
+      ],
+      "parseTree": "[S A public claim [VP gains credibility [PP from evidence], not [PP from credentials alone]]]; [S expertise [VP can guide attention]], but [S it [VP cannot replace a testable argument]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "gains credibility from evidence",
+          "expanded": "because evidence allows other people to inspect the basis of the claim",
+          "nuance": "証拠が信頼性を生む理由。"
+        },
+        {
+          "original": "expertise can guide attention",
+          "expanded": "since trained specialists often know which observations and methods matter",
+          "nuance": "専門知識の有効な役割。"
+        },
+        {
+          "original": "cannot replace a testable argument",
+          "expanded": "therefore, credentials alone cannot settle a claim that should be open to examination",
+          "nuance": "肩書に依存する限界。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A public claim should be supported by evidence rather than accepted on credentials alone.",
+          "translation": "公の主張は、肩書だけで受け入れられるのではなく、証拠によって支えられるべきです。",
+          "note": "支持される主張を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Drawing attention to relevant evidence, expertise can improve an argument without replacing it.",
+          "translation": "関連する証拠へ注意を向けることで、専門知識は論証に取って代わらず、それを改善できます。",
+          "note": "専門知識の働きを-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The credibility of a claim depends on evidential support rather than professional status alone.",
+          "translation": "主張の信頼性は、職業上の地位だけではなく、証拠による裏付けに依存します。",
+          "note": "credibleとsupportを名詞中心にする。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "credentials",
+            "alternatives": [
+              "qualifications",
+              "record",
+              "professional standing"
+            ],
+            "nuance": "credentialsは資格・肩書、qualificationsは能力要件、recordは実績、professional standingは職業上の評価。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "根拠と限界",
+            "sentence": "X gains Y from A, not from B alone; C can help, but it cannot replace D.",
+            "translation": "XはBだけでなくAからYを得ます。Cは役立ちますが、Dには代われません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A testable argument is more reliable than an unsupported appeal to status.",
+            "translation": "検証可能な論証は、裏付けのない地位への訴えより信頼できます。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If a claim cannot be examined, credentials cannot make it testable.",
+            "translation": "主張を検討できないなら、肩書がそれを検証可能にすることはありません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What supports the conclusion is the evidence, not the title of the person presenting it.",
+            "translation": "結論を支えるのは証拠であって、それを示す人の肩書ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Expertise points; evidence proves.",
+            "translation": "専門知識は方向を示し、証拠が立証します。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "not A but Bに相当する対照とbut節で、専門知識の役割と限界を明確にした。"
+    }
+  }
+]
