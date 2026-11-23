@@ -126,7 +126,9 @@
     "cards-extra-20261118.json",
     "cards-extra-20261119.json",
     "cards-extra-20261120.json",
-    "cards-extra-20261121.json"
+    "cards-extra-20261121.json",
+    "cards-extra-20261122.json",
+    "cards-extra-20261123.json"
   ],
   "cards": [
     {
@@ -1792,6 +1794,38 @@
       "theme": "損失回避と負担移転を同時に見る",
       "_generatedAt": "2026-11-21T02:00:00+09:00",
       "_sourceFile": "cards-extra-20261121.json"
+    },
+    {
+      "_no": 209,
+      "sentence": "Creative access should not depend on market income; separating the right to create from the ability to earn can widen participation without dismissing training or support.",
+      "coreVerb": "separate",
+      "theme": "創作への参加と市場収入を分けて考える",
+      "_generatedAt": "2026-11-22T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261122.json"
+    },
+    {
+      "_no": 210,
+      "sentence": "When a familiar voice appears in inner speech, the experience alone does not identify its source; interpretation depends on how the mind assigns agency and origin.",
+      "coreVerb": "identify",
+      "theme": "内言の声と情報源の判断を分ける",
+      "_generatedAt": "2026-11-22T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261122.json"
+    },
+    {
+      "_no": 211,
+      "sentence": "May refers to a month when capitalized, but the two-word form may be combines a modal verb with be, whereas maybe is a single adverb meaning perhaps.",
+      "coreVerb": "combine",
+      "theme": "May・may be・maybeを品詞と綴りで区別する",
+      "_generatedAt": "2026-11-23T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261123.json"
+    },
+    {
+      "_no": 212,
+      "sentence": "A public claim gains credibility from evidence, not from the speaker's credentials alone; expertise can guide attention, but it cannot replace a testable argument.",
+      "coreVerb": "replace",
+      "theme": "話者の肩書と検証可能な論証を区別する",
+      "_generatedAt": "2026-11-23T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261123.json"
     }
   ]
 }
