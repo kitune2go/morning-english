@@ -50982,5 +50982,875 @@
         }
       ]
     }
+  ],
+  "DE-20261123-001": [
+    {
+      "words": {
+        "the": {
+          "ja": "その"
+        },
+        "phrase": {
+          "ja": "言い方"
+        },
+        "eighty": {
+          "ja": "八十の"
+        },
+        "postwar": {
+          "ja": "戦後の"
+        },
+        "years": {
+          "ja": "年"
+        },
+        "counts": {
+          "ja": "数える"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "in": {
+          "ja": "〜の中で"
+        },
+        "which": {
+          "ja": "〜する（関係代名詞）"
+        },
+        "large-scale": {
+          "ja": "大規模な"
+        },
+        "fighting": {
+          "ja": "戦闘"
+        },
+        "did": {
+          "ja": "（過去の否定を作る）"
+        },
+        "not": {
+          "ja": "〜ない"
+        },
+        "return": {
+          "ja": "戻る"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "japanese": {
+          "ja": "日本の"
+        },
+        "archipelago": {
+          "ja": "列島"
+        }
+      },
+      "phrases": [
+        {
+          "en": "counts the time in which",
+          "ja": "〜した時間を数える",
+          "pattern": "count the time in which ...",
+          "note": "in which は time を限定し、場所ではなく期間内の出来事を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "during": {
+          "ja": "〜の間に"
+        },
+        "those": {
+          "ja": "それらの"
+        },
+        "same": {
+          "ja": "同じ"
+        },
+        "decades": {
+          "ja": "数十年"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "korean": {
+          "ja": "朝鮮の"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "vietnam": {
+          "ja": "ベトナムの"
+        },
+        "wars": {
+          "ja": "戦争"
+        },
+        "unfolded": {
+          "ja": "展開した"
+        },
+        "nearby": {
+          "ja": "近隣で"
+        },
+        "while": {
+          "ja": "一方で"
+        },
+        "conflicts": {
+          "ja": "戦争"
+        },
+        "continued": {
+          "ja": "続いた"
+        },
+        "farther": {
+          "ja": "さらに遠く"
+        },
+        "away": {
+          "ja": "離れた場所で"
+        }
+      },
+      "phrases": [
+        {
+          "en": "during those same decades",
+          "ja": "その同じ数十年のあいだに",
+          "pattern": "during those same ...",
+          "note": "日本の平穏と同時期の国外の戦争を置く時間表現。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "japan's": {
+          "ja": "日本の"
+        },
+        "relative": {
+          "ja": "相対的な"
+        },
+        "peace": {
+          "ja": "平穏"
+        },
+        "need": {
+          "ja": "必要がある"
+        },
+        "not": {
+          "ja": "〜ない"
+        },
+        "be": {
+          "ja": "〜である"
+        },
+        "denied": {
+          "ja": "否定される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "need not be denied",
+          "ja": "否定する必要はない",
+          "pattern": "need not be + 過去分詞",
+          "note": "議論の留保を表す助動詞 need の否定。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "that": {
+          "ja": "その（＝日本の平穏）"
+        },
+        "peace": {
+          "ja": "平穏"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "expanded": {
+          "ja": "広げられる"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a": {
+          "ja": "一つの"
+        },
+        "description": {
+          "ja": "説明"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "world": {
+          "ja": "世界"
+        },
+        "many": {
+          "ja": "多くの"
+        },
+        "deaths": {
+          "ja": "死"
+        },
+        "are": {
+          "ja": "〜である"
+        },
+        "pushed": {
+          "ja": "押し出される"
+        },
+        "beyond": {
+          "ja": "〜の外へ"
+        },
+        "timeline": {
+          "ja": "年表"
+        }
+      },
+      "phrases": [
+        {
+          "en": "if that peace is expanded into a description of the world",
+          "ja": "その平穏を世界の説明へ広げれば",
+          "pattern": "if A is expanded into B",
+          "note": "局地的な状態を世界全体へ一般化する条件を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "postwar": {
+          "ja": "戦後の"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "not": {
+          "ja": "〜ない"
+        },
+        "first": {
+          "ja": "第一に"
+        },
+        "a": {
+          "ja": "一つの"
+        },
+        "universal": {
+          "ja": "普遍的な"
+        },
+        "era": {
+          "ja": "時代"
+        },
+        "it": {
+          "ja": "それ（＝『戦後』）"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "name": {
+          "ja": "名"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "seen": {
+          "ja": "見られた"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "one": {
+          "ja": "一つの"
+        },
+        "place": {
+          "ja": "場所"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not first a universal era",
+          "ja": "第一に普遍的な時代なのではない",
+          "pattern": "not first A; it is B",
+          "note": "最初の定義を退け、次の節で場所依存の定義を置く。"
+        }
+      ]
+    }
+  ],
+  "DE-20261123-002": [
+    {
+      "words": {
+        "the": {
+          "ja": "その"
+        },
+        "second": {
+          "ja": "第二の"
+        },
+        "world": {
+          "ja": "世界"
+        },
+        "war": {
+          "ja": "戦争"
+        },
+        "exposed": {
+          "ja": "露出させた"
+        },
+        "terror": {
+          "ja": "恐怖"
+        },
+        "that": {
+          "ja": "その"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "emerge": {
+          "ja": "生じる"
+        },
+        "when": {
+          "ja": "〜のとき"
+        },
+        "science": {
+          "ja": "科学"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "politics": {
+          "ja": "政治"
+        },
+        "are": {
+          "ja": "〜である"
+        },
+        "joined": {
+          "ja": "結びつけられる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the terror that can emerge",
+          "ja": "生じうる恐怖",
+          "pattern": "the 名詞 that can 動詞",
+          "note": "can により、結合が常に同じ結果を生むとは断定しない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "technology": {
+          "ja": "技術"
+        },
+        "did": {
+          "ja": "（過去の否定を作る）"
+        },
+        "more": {
+          "ja": "それ以上"
+        },
+        "than": {
+          "ja": "〜より"
+        },
+        "sustain": {
+          "ja": "支える"
+        },
+        "daily": {
+          "ja": "日々の"
+        },
+        "life": {
+          "ja": "暮らし"
+        },
+        "it": {
+          "ja": "それ（＝技術）"
+        },
+        "burned": {
+          "ja": "焼いた"
+        },
+        "cities": {
+          "ja": "都市"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "through": {
+          "ja": "〜によって"
+        },
+        "nuclear": {
+          "ja": "核の"
+        },
+        "weapons": {
+          "ja": "兵器"
+        },
+        "turned": {
+          "ja": "変えた"
+        },
+        "humanity's": {
+          "ja": "人類の"
+        },
+        "survival": {
+          "ja": "存続"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a": {
+          "ja": "一つの"
+        },
+        "practical": {
+          "ja": "現実的な"
+        },
+        "question": {
+          "ja": "問い"
+        }
+      },
+      "phrases": [
+        {
+          "en": "did more than sustain daily life",
+          "ja": "暮らしを支えただけではなかった",
+          "pattern": "do more than 動詞",
+          "note": "支援以外の作用へ論旨を広げる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "even": {
+          "ja": "それでも"
+        },
+        "so": {
+          "ja": "そうであっても"
+        },
+        "knowing": {
+          "ja": "知ること"
+        },
+        "terror": {
+          "ja": "恐怖"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "not": {
+          "ja": "〜ない"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "same": {
+          "ja": "同じ"
+        },
+        "learning": {
+          "ja": "学ぶこと"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "it": {
+          "ja": "それ（＝恐怖）"
+        },
+        "as": {
+          "ja": "〜と"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not the same as learning from it",
+          "ja": "そこから学ぶことと同じではない",
+          "pattern": "A is not the same as B",
+          "note": "知ることと学ぶことを区別する。it は terror を指す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たちは"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "repeat": {
+          "ja": "繰り返す"
+        },
+        "anniversaries": {
+          "ja": "記念日"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "recount": {
+          "ja": "語り直す"
+        },
+        "catastrophe": {
+          "ja": "惨禍"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "systems": {
+          "ja": "仕組み"
+        },
+        "that": {
+          "ja": "その"
+        },
+        "mobilize": {
+          "ja": "動員する"
+        },
+        "weapons": {
+          "ja": "兵器"
+        },
+        "power": {
+          "ja": "権力"
+        },
+        "remain": {
+          "ja": "残る"
+        },
+        "lesson": {
+          "ja": "教訓"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "be": {
+          "ja": "〜である"
+        },
+        "polished": {
+          "ja": "磨き上げられる"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "ritual": {
+          "ja": "儀式"
+        },
+        "without": {
+          "ja": "〜せずに"
+        },
+        "gaining": {
+          "ja": "得ること"
+        },
+        "force": {
+          "ja": "力"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "stop": {
+          "ja": "止める"
+        },
+        "reality": {
+          "ja": "現実"
+        }
+      },
+      "phrases": [
+        {
+          "en": "if the systems that mobilize weapons and power remain",
+          "ja": "兵器と権力を動員する仕組みが残れば",
+          "pattern": "if the systems that ... remain",
+          "note": "教訓が実効性を得ない条件を示す。"
+        }
+      ]
+    }
+  ],
+  "DE-20261123-003": [
+    {
+      "words": {
+        "turning": {
+          "ja": "変えること"
+        },
+        "history": {
+          "ja": "歴史"
+        },
+        "into": {
+          "ja": "〜へ"
+        },
+        "a": {
+          "ja": "一つの"
+        },
+        "timeline": {
+          "ja": "年表"
+        },
+        "resembles": {
+          "ja": "〜に似ている"
+        },
+        "distillation": {
+          "ja": "蒸留"
+        },
+        "line": {
+          "ja": "筋"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "drawn": {
+          "ja": "引き出される"
+        },
+        "from": {
+          "ja": "〜から"
+        },
+        "an": {
+          "ja": "一つの"
+        },
+        "excess": {
+          "ja": "過剰な量"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "events": {
+          "ja": "出来事"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Turning history into a timeline resembles distillation",
+          "ja": "歴史を年表へ変えることは蒸留に似ている",
+          "pattern": "Turning A into B resembles C",
+          "note": "動名詞句を主語にし、編集作業を蒸留へたとえる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "distillation": {
+          "ja": "蒸留"
+        },
+        "has": {
+          "ja": "持つ"
+        },
+        "value": {
+          "ja": "価値"
+        }
+      },
+      "phrases": [
+        {
+          "en": "has value",
+          "ja": "価値がある",
+          "pattern": "have value",
+          "note": "圧縮を全面否定せず、その効用を認める。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "placing": {
+          "ja": "置くこと"
+        },
+        "distant": {
+          "ja": "離れた"
+        },
+        "wars": {
+          "ja": "戦争"
+        },
+        "on": {
+          "ja": "〜の上に"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "same": {
+          "ja": "同じ"
+        },
+        "axis": {
+          "ja": "軸"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "correct": {
+          "ja": "修正する"
+        },
+        "outline": {
+          "ja": "輪郭"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "eighty": {
+          "ja": "八十の"
+        },
+        "peaceful": {
+          "ja": "平和な"
+        },
+        "years": {
+          "ja": "年"
+        }
+      },
+      "phrases": [
+        {
+          "en": "on the same axis",
+          "ja": "同じ時間軸の上に",
+          "pattern": "place A on the same axis",
+          "note": "同じ原因ではなく、同じ時間上で比較することを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "if": {
+          "ja": "もし〜なら"
+        },
+        "only": {
+          "ja": "〜だけ"
+        },
+        "a": {
+          "ja": "一つの"
+        },
+        "clean": {
+          "ja": "きれいな"
+        },
+        "line": {
+          "ja": "筋"
+        },
+        "remains": {
+          "ja": "残る"
+        },
+        "compression": {
+          "ja": "圧縮"
+        },
+        "creates": {
+          "ja": "作る"
+        },
+        "new": {
+          "ja": "新しい"
+        },
+        "invisibility": {
+          "ja": "見えない状態"
+        }
+      },
+      "phrases": [
+        {
+          "en": "if only a clean line remains",
+          "ja": "きれいな筋だけが残れば",
+          "pattern": "if only A remains",
+          "note": "圧縮が新たな不可視性を生む条件。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the": {
+          "ja": "その"
+        },
+        "task": {
+          "ja": "課題"
+        },
+        "is": {
+          "ja": "〜である"
+        },
+        "not": {
+          "ja": "〜ない"
+        },
+        "merely": {
+          "ja": "単に"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "reduce": {
+          "ja": "減らす"
+        },
+        "events": {
+          "ja": "出来事"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "preserve": {
+          "ja": "残す"
+        },
+        "a": {
+          "ja": "一つの"
+        },
+        "path": {
+          "ja": "道"
+        },
+        "back": {
+          "ja": "戻って"
+        },
+        "viewpoint": {
+          "ja": "視点"
+        },
+        "that": {
+          "ja": "〜した（関係代名詞）"
+        },
+        "supplied": {
+          "ja": "与えた"
+        },
+        "each": {
+          "ja": "それぞれの"
+        },
+        "name": {
+          "ja": "名"
+        },
+        "and": {
+          "ja": "と"
+        },
+        "what": {
+          "ja": "もの"
+        },
+        "left": {
+          "ja": "残した"
+        },
+        "outside": {
+          "ja": "外側に"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not merely to reduce events, but to preserve a path",
+          "ja": "出来事を単に減らすのではなく、道を残すこと",
+          "pattern": "not merely A, but B",
+          "note": "課題を削減から追跡可能性の保存へ転換する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "history": {
+          "ja": "歴史"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "be": {
+          "ja": "〜である"
+        },
+        "shortened": {
+          "ja": "短くされた"
+        },
+        "but": {
+          "ja": "しかし"
+        },
+        "the": {
+          "ja": "その"
+        },
+        "hand": {
+          "ja": "手つき"
+        },
+        "that": {
+          "ja": "〜した（関係代名詞）"
+        },
+        "it": {
+          "ja": "それ（＝歴史）"
+        },
+        "must": {
+          "ja": "〜しなければならない"
+        },
+        "remain": {
+          "ja": "残る"
+        },
+        "visible": {
+          "ja": "見える"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the hand that shortened it",
+          "ja": "歴史を短くした手つき",
+          "pattern": "the 名詞 that 動詞",
+          "note": "it は history を指し、編集の主体と手順を比喩化する。"
+        }
+      ]
+    }
   ]
 }
