@@ -1,0 +1,168 @@
+[
+  {
+    "id": "DE-20261123-001",
+    "sourceTitle": "『戦後という島の外で』",
+    "workId": "daily-essay-20261123",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "戦後という島",
+    "jp": "「戦後八十年」という言い方は、日本列島に大規模な戦闘が戻らなかった時間を数える。しかし、その同じ年月に、近隣では朝鮮戦争やベトナム戦争が起こり、遠くでも戦火は続いた。日本の平穏を否定する必要はない。ただ、その平穏を世界の状態へ拡張すれば、年表の外へ多くの死者が押し出される。「戦後」は世界史の普遍的な一時代ではなく、まず一つの場所から見た時間の名である。",
+    "translationLiteral": "The expression “eighty postwar years” counts the time during which large-scale fighting did not return to the Japanese archipelago. However, during those same years, the Korean War and the Vietnam War occurred nearby, and warfare continued farther away as well. There is no need to deny Japan's peace. But if that peace is extended into a condition of the world, many of the dead are pushed outside the timeline. “Postwar” is not a universal period of world history but, first, the name of time as seen from one place.",
+    "translationNatural": "The phrase “eighty postwar years” counts the time in which large-scale fighting did not return to the Japanese archipelago. Yet during those same decades, the Korean and Vietnam Wars unfolded nearby, while conflicts continued farther away. Japan's relative peace need not be denied. But if that peace is expanded into a description of the world, many deaths are pushed beyond the timeline. “Postwar” is not first a universal era; it is the name of time seen from one place.",
+    "imageUrl": "",
+    "imageCaption": "「戦後」の文字が日本列島を囲い、その外側では複数の戦争の年代が続いている。",
+    "imagePrompt": "Editorial illustration of a Japanese archipelago enclosed by a calm postwar timeline while several conflict timelines continue beyond it, emphasizing viewpoint and omission, no readable text",
+    "chunks": [
+      {
+        "en": "The phrase “eighty postwar years” counts the time in which large-scale fighting did not return to the Japanese archipelago.",
+        "ja": "「戦後八十年」という言い方は、日本列島に大規模な戦闘が戻らなかった時間を数える。"
+      },
+      {
+        "en": "Yet during those same decades, the Korean and Vietnam Wars unfolded nearby, while conflicts continued farther away.",
+        "ja": "しかし同じ数十年のあいだ、近隣では朝鮮戦争とベトナム戦争が起こり、さらに遠くでも戦争は続いた。"
+      },
+      {
+        "en": "Japan's relative peace need not be denied.",
+        "ja": "日本の相対的な平穏を否定する必要はない。"
+      },
+      {
+        "en": "But if that peace is expanded into a description of the world, many deaths are pushed beyond the timeline.",
+        "ja": "しかし、その平穏を世界の状態の説明へ広げれば、多くの死が年表の外へ押し出される。"
+      },
+      {
+        "en": "“Postwar” is not first a universal era; it is the name of time seen from one place.",
+        "ja": "「戦後」は第一に普遍的な時代なのではなく、一つの場所から見た時間の名である。"
+      }
+    ],
+    "grammar": [
+      "in which large-scale fighting did not return は time を限定し、数えている平穏の範囲を日本列島へ置く。",
+      "Yet during those same decades は、同じ期間に別の場所で戦争が続いたという時間上の対比を導く。",
+      "need not be denied は、日本の平穏そのものを否定しないという留保を表す。",
+      "if A is expanded into B は、局地的な平穏を世界全体の説明へ広げる条件と帰結を示す。",
+      "not first A; it is B は、普遍的時代という理解を退け、場所から見た時間名へ定義し直す。"
+    ],
+    "translationNote": "relative を補い、日本の平穏を世界的な無戦争と混同しない。unfolded は戦争が「展開した」意で、単なる発生時点だけでなく継続を含む。many deaths は原文の「多くの死者が押し出される」を、死者の存在が記述から落ちる比喩として自然化した。first は「まず」を残し、他の用法を排除する絶対的定義にはしていない。",
+    "readingPoint": "導入。日本の「戦後八十年」と世界の無戦争を分け、同じ時間をどの場所から数えるかという作品全体の視点を置く。",
+    "keywords": [
+      "戦後八十年",
+      "日本列島",
+      "朝鮮戦争",
+      "ベトナム戦争",
+      "年表",
+      "視点"
+    ]
+  },
+  {
+    "id": "DE-20261123-002",
+    "sourceTitle": "『戦後という島の外で』",
+    "workId": "daily-essay-20261123",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "恐怖は教訓にならない",
+    "jp": "第二次世界大戦は、科学と政治が結びついたときの恐ろしさを露出させた。技術は暮らしを支えるだけでなく、都市を焼き、核兵器によって人類の存続そのものを問いに変えた。それでも、恐怖を知ったことと、そこから学んだことは同じではない。記念日を重ね、惨禍を語り継いでも、兵器と権力を動かす仕組みが残れば、教訓は儀式の中で磨かれるだけで、現実を止める力にはならない。",
+    "translationLiteral": "The Second World War exposed the fearfulness of science and politics when they are joined. Technology not only supported daily life but also burned cities and, through nuclear weapons, turned the very survival of humanity into a question. Even so, having known terror is not the same as having learned from it. Even if anniversaries are repeated and catastrophe is handed down, if the systems that move weapons and power remain, the lesson is merely polished within ritual and does not become a force that stops reality.",
+    "translationNatural": "The Second World War exposed the terror that can emerge when science and politics are joined. Technology did more than sustain daily life: it burned cities and, through nuclear weapons, turned humanity's survival into a practical question. Even so, knowing terror is not the same as learning from it. We may repeat anniversaries and recount catastrophe, but if the systems that mobilize weapons and power remain, the lesson can be polished into ritual without gaining the force to stop reality.",
+    "imageUrl": "",
+    "imageCaption": "科学と政治の歯車が、記念日の輪の内側で核の影と向き合っている。",
+    "imagePrompt": "Editorial illustration of gears representing science and politics casting a nuclear shadow over a city, surrounded by polished anniversary rings that fail to stop the machinery, no readable text",
+    "chunks": [
+      {
+        "en": "The Second World War exposed the terror that can emerge when science and politics are joined.",
+        "ja": "第二次世界大戦は、科学と政治が結びついたときに生じうる恐怖を露出させた。"
+      },
+      {
+        "en": "Technology did more than sustain daily life: it burned cities and, through nuclear weapons, turned humanity's survival into a practical question.",
+        "ja": "技術は暮らしを支えただけではなく、都市を焼き、核兵器によって人類の存続を現実的な問いへ変えた。"
+      },
+      {
+        "en": "Even so, knowing terror is not the same as learning from it.",
+        "ja": "それでも、恐怖を知ることと、そこから学ぶことは同じではない。"
+      },
+      {
+        "en": "We may repeat anniversaries and recount catastrophe, but if the systems that mobilize weapons and power remain, the lesson can be polished into ritual without gaining the force to stop reality.",
+        "ja": "私たちは記念日を重ね、惨禍を語り直すかもしれないが、兵器と権力を動員する仕組みが残れば、教訓は現実を止める力を得ないまま儀式へ磨き上げられうる。"
+      }
+    ],
+    "grammar": [
+      "that can emerge は terror を限定し、科学と政治の結合が必ず恐怖を生むとは断定しない。",
+      "did more than A: it B は、技術の役割を生活支援から破壊へ展開する。",
+      "through nuclear weapons は、人類の存続が問いになった経路を示す。",
+      "knowing A is not the same as learning from it は、認知と学習を明確に対比する。",
+      "if the systems ... remain は、教訓が現実を止める力を持たない条件を示す。",
+      "without gaining ... は、儀式化と実効性の欠如が同時に起こることを表す。"
+    ],
+    "translationNote": "can emerge を用い、科学と政治の結合を一律に悪と断定せず、戦争で露出した可能性を述べた。practical question は人類滅亡が確定したという意味ではなく、核兵器によって存続が抽象論だけでは済まなくなったことを示す。mobilize は兵器と権力を実際に作動させる制度的な仕組みを指す。polished into ritual は、教訓が消えるのではなく、現実を止めない儀式へ整えられる原文の比喩を残す。",
+    "readingPoint": "展開と転換。戦争の恐怖を知ることと、制度を変える学習を分け、記憶が自動的に教訓へ変わらないことを示す。",
+    "keywords": [
+      "第二次世界大戦",
+      "科学",
+      "政治",
+      "核兵器",
+      "記憶",
+      "教訓"
+    ]
+  },
+  {
+    "id": "DE-20261123-003",
+    "sourceTitle": "『戦後という島の外で』",
+    "workId": "daily-essay-20261123",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "蒸留で捨てないもの",
+    "jp": "歴史を年表へまとめる作業は、膨大な出来事から筋を取り出す蒸留に似ている。蒸留には価値がある。離れた戦争を同じ時間軸へ置けば、「平和だった八十年」の輪郭も修正できる。だが、きれいな筋だけを残せば、圧縮は再び見えないものを作る。必要なのは、出来事を減らすことではなく、どの場所から見た名なのか、何が外へ落ちたのかを辿れる形にすることだ。歴史は短くできる。ただし、短くした手つきまで消してはいけない。",
+    "translationLiteral": "Putting history into a timeline resembles distillation that extracts a line from an enormous number of events. Distillation has value. If distant wars are placed on the same time axis, the outline of “eighty peaceful years” can also be corrected. But if only a clean line is left, compression once again creates things that cannot be seen. What is needed is not to reduce events but to make it possible to trace from which place each name was seen and what fell outside it. History can be shortened. However, even the hand that shortened it must not be erased.",
+    "translationNatural": "Turning history into a timeline resembles distillation: a line is drawn from an excess of events. Distillation has value. Placing distant wars on the same axis can correct the outline of “eighty peaceful years.” But if only a clean line remains, compression creates new invisibility. The task is not merely to reduce events, but to preserve a path back to the viewpoint that supplied each name and to what each name left outside. History can be shortened, but the hand that shortened it must remain visible.",
+    "imageUrl": "",
+    "imageCaption": "年表を蒸留器に通す手が、落ちた出来事へ戻る細い道を残している。",
+    "imagePrompt": "Editorial illustration of a timeline passing through a distillation apparatus, producing a clear line while a visible hand preserves paths back to omitted wars and viewpoints, no readable text",
+    "chunks": [
+      {
+        "en": "Turning history into a timeline resembles distillation: a line is drawn from an excess of events.",
+        "ja": "歴史を年表へ変えることは蒸留に似ており、過剰なほど多い出来事から一本の筋が引き出される。"
+      },
+      {
+        "en": "Distillation has value.",
+        "ja": "蒸留には価値がある。"
+      },
+      {
+        "en": "Placing distant wars on the same axis can correct the outline of “eighty peaceful years.”",
+        "ja": "離れた戦争を同じ時間軸へ置けば、「平和だった八十年」の輪郭を修正できる。"
+      },
+      {
+        "en": "But if only a clean line remains, compression creates new invisibility.",
+        "ja": "しかし、きれいな筋だけが残れば、圧縮は新たな不可視性を作る。"
+      },
+      {
+        "en": "The task is not merely to reduce events, but to preserve a path back to the viewpoint that supplied each name and to what each name left outside.",
+        "ja": "課題は出来事をただ減らすことではなく、それぞれの名を与えた視点と、それぞれの名が外へ残したものへ戻る道を残すことである。"
+      },
+      {
+        "en": "History can be shortened, but the hand that shortened it must remain visible.",
+        "ja": "歴史は短くできるが、それを短くした手つきは見えるままでなければならない。"
+      }
+    ],
+    "grammar": [
+      "Turning history into ... は動名詞句を主語にし、年表化という作業全体を扱う。",
+      "a line is drawn from ... は、出来事の集合から筋が抽出されることを受動態で表す。",
+      "Placing ... は動名詞句を主語にし、複数の戦争を同じ軸へ置く操作を示す。",
+      "if only a clean line remains は、圧縮が不可視性を生む条件を限定する。",
+      "not merely A, but B は、課題を削減から追跡可能性の保存へ転換する。",
+      "the viewpoint that supplied each name は、名が中立ではなく特定の視点から与えられたことを関係節で示す。",
+      "the hand that shortened it は編集の主体と手つきを比喩的に可視化する。"
+    ],
+    "translationNote": "an excess of events は出来事が不要という意味ではなく、年表へ収めきれない多さを表す。same axis は同一原因とみなすのではなく、同じ時間上で比較することを指す。new invisibility は圧縮が新たな見落としを作るという原文の「再び見えないもの」を名詞化した。the hand は歴史を編集した人物そのものより、選択と省略の手つきを指す比喩である。",
+    "readingPoint": "余韻。年表化を否定せず、蒸留の価値を認めたうえで、視点と省略の経路を残すことを歴史編集の条件として結ぶ。",
+    "keywords": [
+      "歴史",
+      "年表",
+      "蒸留",
+      "時間軸",
+      "圧縮",
+      "視点",
+      "編集"
+    ]
+  }
+]
