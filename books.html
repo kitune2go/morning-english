@@ -171,6 +171,18 @@ footer{margin-top:24px;color:var(--muted);font-size:12px;border-top:1px solid va
 @media(max-width:560px){.back-to-top{right:calc(12px + env(safe-area-inset-right));bottom:calc(12px + env(safe-area-inset-bottom));padding:11px 14px}}
 @media(prefers-reduced-motion:reduce){.back-to-top{transition:none}}
 @media(max-width:560px){.wrap{padding:15px 12px 60px}.panel,.reader{padding:14px}.pager .btn{flex:1}.actions .btn{flex:1}.paragraph{line-height:1.8}}
+
+/* Literature-style aligned translation and contextual word meanings */
+.chunk-translation{grid-column:1/-1;padding:8px 11px;border-left:3px solid #6e9989;background:#e8f1eb;border-radius:0 5px 5px 0;color:#253f39;font-size:14px;line-height:1.8}
+.chunk-translation .translation-label{display:block;font-size:11px;color:#47685b;font-weight:700}
+.chunk-lex .sense-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:3px 0}
+.chunk-lex .word-kind{font-size:10px;font-weight:700;padding:1px 5px;background:#edf0ed;color:#50675e;border-radius:3px}
+.chunk-lex .word-kind.context{background:#d9eee3;color:#215a43}
+.chunk-lex .word-meaning{font-size:12px;color:#273e36}
+.chunk-lex .word-usage{font-size:11px;color:#65746e;line-height:1.6}
+.chunk-lex .gloss-row{display:block;padding:8px 2px}
+.chunk-lex .gloss-word{display:block;margin-bottom:3px}
+.chunk-lex .gloss-disclaimer{font-size:11px;color:var(--muted);line-height:1.6;margin:7px 0}
 </style>
 </head>
 <body>
@@ -517,9 +529,9 @@ function render(){
     if(showNotes&&detail){
       const chunkHtml=detail.chunks.map((c,j)=>{
         const fullGloss=Array.isArray(c.words)?c.words:[];
-        const glossary=fullGloss.map(w=>'<div class="gloss-row"><span class="gloss-word" lang="en">'+safe(w.word)+'</span><span class="gloss-meaning" lang="ja">'+safe(w.ja)+(w.contextual?'<span class="gloss-context">文脈訳</span>':"")+'</span><span class="gloss-usage" lang="ja">'+safe(w.note)+'</span></div>').join("");
-        const wordPanel='<details class="chunk-lex"><summary>このチャンクの全単語（'+fullGloss.length+'語）の意味と用法</summary><div>'+glossary+'</div></details>';
-        return '<li class="chunk-row"><div><div class="session-label">CHUNK '+String(j+1).padStart(2,"0")+' / '+detail.chunks.length+'</div><div class="chunk-en" lang="en">'+safe(c.en)+'</div><div class="chunk-role" lang="ja">'+safe(c.role)+'</div></div><button class="btn tiny" data-read-chunk="'+i+':'+j+'" type="button" aria-label="チャンク'+(j+1)+'を英語で読む">▶</button><div class="chunk-hint" lang="ja"><strong>'+(c.translationStatus==='complete'?'日本語訳：':c.translationStatus==='paragraph-reference'?'段落訳を参照：':'翻訳状況：')+'</strong>'+safe(c.ja)+'</div>'+wordPanel+(c.hint?'<div class="chunk-extra" lang="ja">構文・読解の補足：'+safe(c.hint)+'</div>':"")+'</li>';
+        const glossary=fullGloss.map(w=>'<div class="gloss-row"><strong class="gloss-word" lang="en">'+safe(w.word)+'</strong><div class="sense-row"><span class="word-kind'+(w.contextual?' context':'')+'">'+(w.contextual?'文脈':'辞書')+'</span><span class="word-meaning" lang="ja">'+safe(w.ja)+'</span></div>'+(w.note?'<div class="word-usage" lang="ja">'+safe(w.note)+'</div>':'')+'</div>').join("");
+        const wordPanel='<details class="chunk-lex"><summary>文脈単語帳（'+fullGloss.length+'語・文脈訳'+fullGloss.filter(w=>w.contextual).length+'語）</summary><p class="gloss-disclaimer">「文脈」はこの文で確認した訳、「辞書」は一般語義です。辞書訳は本文での意味と異なる場合があります。</p><div>'+glossary+'</div></details>';
+        return '<li class="chunk-row"><div><div class="session-label">CHUNK '+String(j+1).padStart(2,"0")+' / '+detail.chunks.length+'</div><div class="chunk-en" lang="en">'+safe(c.en)+'</div><div class="chunk-role" lang="ja">'+safe(c.role)+'</div></div><button class="btn tiny" data-read-chunk="'+i+':'+j+'" type="button" aria-label="チャンク'+(j+1)+'を英語で読む">▶</button><div class="chunk-translation" lang="ja"><span class="translation-label">'+(c.translationStatus==='complete'?'日本語訳':c.translationStatus==='paragraph-reference'?'段落訳を参照':'翻訳状況')+'</span>'+safe(c.ja)+'</div>'+wordPanel+(c.hint?'<div class="chunk-extra" lang="ja">構文・読解の補足：'+safe(c.hint)+'</div>':"")+'</li>';
       }).join("");
       const expressions=(detail.expressions||[]).map(x=>'<li><span class="focus-en" lang="en">'+safe(x.en)+'</span><span class="focus-ja" lang="ja">'+safe(x.ja)+'</span></li>').join("");
       const vocabulary=(detail.vocabulary||[]).map(x=>'<div class="word"><strong lang="en">'+safe(x.word)+'</strong><span lang="ja">'+safe(x.ja)+'</span><span class="vocab-note" lang="ja">'+safe(x.note||"")+'</span></div>').join("");
