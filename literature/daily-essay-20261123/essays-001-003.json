@@ -114,7 +114,7 @@
     "title": "蒸留で捨てないもの",
     "jp": "歴史を年表へまとめる作業は、膨大な出来事から筋を取り出す蒸留に似ている。蒸留には価値がある。離れた戦争を同じ時間軸へ置けば、「平和だった八十年」の輪郭も修正できる。だが、きれいな筋だけを残せば、圧縮は再び見えないものを作る。必要なのは、出来事を減らすことではなく、どの場所から見た名なのか、何が外へ落ちたのかを辿れる形にすることだ。歴史は短くできる。ただし、短くした手つきまで消してはいけない。",
     "translationLiteral": "Putting history into a timeline resembles distillation that extracts a line from an enormous number of events. Distillation has value. If distant wars are placed on the same time axis, the outline of “eighty peaceful years” can also be corrected. But if only a clean line is left, compression once again creates things that cannot be seen. What is needed is not to reduce events but to make it possible to trace from which place each name was seen and what fell outside it. History can be shortened. However, even the hand that shortened it must not be erased.",
-    "translationNatural": "Turning history into a timeline resembles distillation: a line is drawn from an excess of events. Distillation has value. Placing distant wars on the same axis can correct the outline of “eighty peaceful years.” But if only a clean line remains, compression creates new invisibility. The task is not merely to reduce events, but to preserve a path back to the viewpoint that supplied each name and to what each name left outside. History can be shortened, but the hand that shortened it must remain visible.",
+    "translationNatural": "Turning history into a timeline resembles distillation: a line is drawn from an excess of events. Distillation has value. Placing distant wars on the same axis can correct the outline of “eighty peaceful years.” But if only a clean line remains, compression creates new invisibility. The task is not merely to reduce events, but to preserve routes of return. One route leads to the viewpoint that supplied each name; another leads to what each name left outside. History can be shortened, but the hand that shortened it must remain visible.",
     "imageUrl": "",
     "imageCaption": "年表を蒸留器に通す手が、落ちた出来事へ戻る細い道を残している。",
     "imagePrompt": "Editorial illustration of a timeline passing through a distillation apparatus, producing a clear line while a visible hand preserves paths back to omitted wars and viewpoints, no readable text",
@@ -136,8 +136,12 @@
         "ja": "しかし、きれいな筋だけが残れば、圧縮は新たな不可視性を作る。"
       },
       {
-        "en": "The task is not merely to reduce events, but to preserve a path back to the viewpoint that supplied each name and to what each name left outside.",
-        "ja": "課題は出来事をただ減らすことではなく、それぞれの名を与えた視点と、それぞれの名が外へ残したものへ戻る道を残すことである。"
+        "en": "The task is not merely to reduce events, but to preserve routes of return.",
+        "ja": "課題は出来事をただ減らすことではなく、戻るための経路を残すことである。"
+      },
+      {
+        "en": "One route leads to the viewpoint that supplied each name; another leads to what each name left outside.",
+        "ja": "一つの経路はそれぞれの名を与えた視点へ、もう一つはそれぞれの名が外へ残したものへ通じる。"
       },
       {
         "en": "History can be shortened, but the hand that shortened it must remain visible.",
@@ -149,11 +153,12 @@
       "a line is drawn from ... は、出来事の集合から筋が抽出されることを受動態で表す。",
       "Placing ... は動名詞句を主語にし、複数の戦争を同じ軸へ置く操作を示す。",
       "if only a clean line remains は、圧縮が不可視性を生む条件を限定する。",
-      "not merely A, but B は、課題を削減から追跡可能性の保存へ転換する。",
+      "not merely A, but B は、課題を削減から戻る経路の保存へ転換する。",
+      "One route ...; another ... は、名を与えた視点と名の外へ落ちたものへの二つの経路を並列する。",
       "the viewpoint that supplied each name は、名が中立ではなく特定の視点から与えられたことを関係節で示す。",
       "the hand that shortened it は編集の主体と手つきを比喩的に可視化する。"
     ],
-    "translationNote": "an excess of events は出来事が不要という意味ではなく、年表へ収めきれない多さを表す。same axis は同一原因とみなすのではなく、同じ時間上で比較することを指す。new invisibility は圧縮が新たな見落としを作るという原文の「再び見えないもの」を名詞化した。the hand は歴史を編集した人物そのものより、選択と省略の手つきを指す比喩である。",
+    "translationNote": "an excess of events は出来事が不要という意味ではなく、年表へ収めきれない多さを表す。same axis は同一原因とみなすのではなく、同じ時間上で比較することを指す。new invisibility は圧縮が新たな見落としを作るという原文の「再び見えないもの」を名詞化した。routes of return は、編集前の視点と省略へ戻れる追跡可能性を表す。the hand は歴史を編集した人物そのものより、選択と省略の手つきを指す比喩である。",
     "readingPoint": "余韻。年表化を否定せず、蒸留の価値を認めたうえで、視点と省略の経路を残すことを歴史編集の条件として結ぶ。",
     "keywords": [
       "歴史",
