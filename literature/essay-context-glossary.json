@@ -51122,7 +51122,7 @@
           "ja": "平穏"
         },
         "need": {
-          "ja": "必要がある"
+          "ja": "必要はない"
         },
         "not": {
           "ja": "〜ない"
@@ -51529,7 +51529,7 @@
           "ja": "力"
         },
         "to": {
-          "ja": "〜へ"
+          "ja": "〜するための"
         },
         "stop": {
           "ja": "止める"
@@ -51738,13 +51738,13 @@
           "ja": "〜である"
         },
         "not": {
-          "ja": "〜ない"
+          "ja": "〜ではない"
         },
         "merely": {
           "ja": "単に"
         },
         "to": {
-          "ja": "〜へ"
+          "ja": "〜すること"
         },
         "reduce": {
           "ja": "減らす"
@@ -51753,19 +51753,46 @@
           "ja": "出来事"
         },
         "but": {
-          "ja": "しかし"
+          "ja": "そうではなく"
         },
         "preserve": {
           "ja": "残す"
         },
-        "a": {
+        "routes": {
+          "ja": "複数の経路"
+        },
+        "of": {
+          "ja": "〜の"
+        },
+        "return": {
+          "ja": "戻ること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not merely to reduce events, but to preserve routes of return",
+          "ja": "出来事を単に減らすのではなく、戻る経路を残すこと",
+          "pattern": "not merely A, but B",
+          "note": "課題を削減から、視点と省略へ戻れる経路の保存へ転換する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "one": {
           "ja": "一つの"
         },
-        "path": {
-          "ja": "道"
+        "route": {
+          "ja": "経路"
         },
-        "back": {
-          "ja": "戻って"
+        "leads": {
+          "ja": "通じる"
+        },
+        "to": {
+          "ja": "〜へ"
+        },
+        "the": {
+          "ja": "その"
         },
         "viewpoint": {
           "ja": "視点"
@@ -51782,8 +51809,8 @@
         "name": {
           "ja": "名"
         },
-        "and": {
-          "ja": "と"
+        "another": {
+          "ja": "もう一つの経路"
         },
         "what": {
           "ja": "もの"
@@ -51797,10 +51824,10 @@
       },
       "phrases": [
         {
-          "en": "not merely to reduce events, but to preserve a path",
-          "ja": "出来事を単に減らすのではなく、道を残すこと",
-          "pattern": "not merely A, but B",
-          "note": "課題を削減から追跡可能性の保存へ転換する。"
+          "en": "One route leads to the viewpoint that supplied each name; another leads to what each name left outside",
+          "ja": "一つは名を与えた視点へ、もう一つは名が外へ残したものへ通じる",
+          "pattern": "One A ...; another ...",
+          "note": "二つの追跡経路をセミコロンで対照する。another の後では route が省略されている。"
         }
       ]
     },
