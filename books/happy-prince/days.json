@@ -1599,7 +1599,7 @@
           {
             "en": "“Ah! but we have, in our dreams,” answered the children; ",
             "role": "発話と話者",
-            "ja": "「ああ、でも夢の中で見たんです」と子どもたちは答えた。",
+            "ja": "「ああ、でも夢の中で見たことはあります」と子どもたちは答えた。",
             "hint": "in our dreams＝夢の中で ／ 語句：dreams＝夢",
             "words": [
               {
@@ -1609,8 +1609,8 @@
               },
               {
                 "word": "but",
-                "ja": "しかし・〜を除いて",
-                "note": "逆接、nothing but で「〜だけ」"
+                "ja": "でも",
+                "note": "「“Ah! but we have, in our dreams,” answered the children;」では「でも」の意味・働き。"
               },
               {
                 "word": "we",
@@ -1619,13 +1619,13 @@
               },
               {
                 "word": "have",
-                "ja": "持つ・〜した",
-                "note": "所有・完了の助動詞"
+                "ja": "見た",
+                "note": "前の発言「天使を見たことがない」に対し、have seen の seen を省略した応答。単独の「持つ」ではない。"
               },
               {
                 "word": "in",
-                "ja": "〜の中に・〜で",
-                "note": "場所・時間の前置詞"
+                "ja": "〜の中で",
+                "note": "「“Ah! but we have, in our dreams,” answered the children;」では「〜の中で」の意味・働き。"
               },
               {
                 "word": "our",
@@ -1644,13 +1644,13 @@
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「“Ah! but we have, in our dreams,” answered the children;」では「その」の意味・働き。"
               },
               {
                 "word": "children",
-                "ja": "子どもたち",
-                "note": "child の複数形"
+                "ja": "子どもたちは",
+                "note": "「“Ah! but we have, in our dreams,” answered the children;」では「子どもたちは」の意味・働き。"
               }
             ]
           },
@@ -1662,13 +1662,13 @@
             "words": [
               {
                 "word": "and",
-                "ja": "そして・〜と",
-                "note": "並列・連結"
+                "ja": "そして",
+                "note": "「and the Mathematical Master frowned and looked very severe,」では「そして」の意味・働き。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「and the Mathematical Master frowned and looked very severe,」では「その」の意味・働き。"
               },
               {
                 "word": "Mathematical",
@@ -1677,8 +1677,8 @@
               },
               {
                 "word": "Master",
-                "ja": "教師・師",
-                "note": "ここでは男性教師の呼称"
+                "ja": "先生は",
+                "note": "「and the Mathematical Master frowned and looked very severe,」では「先生は」の意味・働き。"
               },
               {
                 "word": "frowned",
@@ -1687,23 +1687,23 @@
               },
               {
                 "word": "and",
-                "ja": "そして・〜と",
-                "note": "並列・連結"
+                "ja": "そして",
+                "note": "「and the Mathematical Master frowned and looked very severe,」では「そして」の意味・働き。"
               },
               {
                 "word": "looked",
-                "ja": "見た・見えた",
-                "note": "look の過去形"
+                "ja": "〜に見えた",
+                "note": "「and the Mathematical Master frowned and looked very severe,」では「〜に見えた」の意味・働き。"
               },
               {
                 "word": "very",
-                "ja": "とても",
-                "note": "程度の強調"
+                "ja": "非常に",
+                "note": "「and the Mathematical Master frowned and looked very severe,」では「非常に」の意味・働き。"
               },
               {
                 "word": "severe",
-                "ja": "厳しい",
-                "note": "人の表情・態度に使う"
+                "ja": "厳しい表情に",
+                "note": "「and the Mathematical Master frowned and looked very severe,」では「厳しい表情に」の意味・働き。"
               }
             ]
           },
@@ -1715,43 +1715,43 @@
             "words": [
               {
                 "word": "for",
-                "ja": "〜のために・〜なので・〜の間",
-                "note": "前置詞、理由を示す接続詞"
+                "ja": "というのも",
+                "note": "文頭の for は理由を表す接続詞。「〜のために」という目的ではない。"
               },
               {
                 "word": "he",
-                "ja": "彼は",
-                "note": "三人称男性の主格"
+                "ja": "その先生は",
+                "note": "「for he did not approve of children dreaming.」では「その先生は」の意味・働き。"
               },
               {
                 "word": "did",
-                "ja": "した",
-                "note": "do の過去形"
+                "ja": "疑問文を作る助動詞",
+                "note": "did not approve of の否定文を構成。did は「した」の意味ではない。"
               },
               {
                 "word": "not",
-                "ja": "〜ではない",
-                "note": "否定の副詞"
+                "ja": "〜ない",
+                "note": "「for he did not approve of children dreaming.」では「〜ない」の意味・働き。"
               },
               {
                 "word": "approve",
-                "ja": "認める・賛成する",
-                "note": "approve of ... で「〜をよしとする」"
+                "ja": "好ましく思う",
+                "note": "「for he did not approve of children dreaming.」では「好ましく思う」の意味・働き。"
               },
               {
                 "word": "of",
-                "ja": "〜の・〜からなる",
-                "note": "所属・材料を表す"
+                "ja": "〜を",
+                "note": "「for he did not approve of children dreaming.」では「〜を」の意味・働き。"
               },
               {
                 "word": "children",
-                "ja": "子どもたち",
-                "note": "child の複数形"
+                "ja": "子どもたちが",
+                "note": "「for he did not approve of children dreaming.」では「子どもたちが」の意味・働き。"
               },
               {
                 "word": "dreaming",
-                "ja": "夢を見ている",
-                "note": "dream の現在分詞"
+                "ja": "夢を見ること",
+                "note": "「for he did not approve of children dreaming.」では「夢を見ること」の意味・働き。"
               }
             ]
           }
@@ -1810,53 +1810,53 @@
             "words": [
               {
                 "word": "One",
-                "ja": "一つ・一人・ある",
-                "note": "数字と代名詞"
+                "ja": "ある",
+                "note": "「One night there flew over the city a little Swallow.」では「ある」の意味・働き。"
               },
               {
                 "word": "night",
-                "ja": "夜",
-                "note": "時間帯"
+                "ja": "晩",
+                "note": "「One night there flew over the city a little Swallow.」では「晩」の意味・働き。"
               },
               {
                 "word": "there",
-                "ja": "そこに・〜がある",
-                "note": "there is の形式主語"
+                "ja": "存在を導く倒置の語",
+                "note": "there flew ... a little Swallow は場所・存在を導く倒置表現。there を「そこに」と独立に訳さない。"
               },
               {
                 "word": "flew",
-                "ja": "飛んだ",
-                "note": "fly の過去形"
+                "ja": "飛んでいった",
+                "note": "「One night there flew over the city a little Swallow.」では「飛んでいった」の意味・働き。"
               },
               {
                 "word": "over",
-                "ja": "〜を越えて・上に",
-                "note": "通過・位置"
+                "ja": "〜の上を",
+                "note": "「One night there flew over the city a little Swallow.」では「〜の上を」の意味・働き。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「One night there flew over the city a little Swallow.」では「その」の意味・働き。"
               },
               {
                 "word": "city",
-                "ja": "都市・街",
-                "note": "大きな街"
+                "ja": "街",
+                "note": "「One night there flew over the city a little Swallow.」では「街」の意味・働き。"
               },
               {
                 "word": "a",
-                "ja": "一つの・ある",
-                "note": "不定冠詞。数や初出のものに付く"
+                "ja": "一羽の",
+                "note": "「One night there flew over the city a little Swallow.」では「一羽の」の意味・働き。"
               },
               {
                 "word": "little",
-                "ja": "小さな・少し",
-                "note": "量・大きさ"
+                "ja": "小さな",
+                "note": "「One night there flew over the city a little Swallow.」では「小さな」の意味・働き。"
               },
               {
                 "word": "Swallow",
-                "ja": "ツバメ",
-                "note": "鳥の名前。動詞では「飲み込む」"
+                "ja": "ツバメが",
+                "note": "「One night there flew over the city a little Swallow.」では「ツバメが」の意味・働き。"
               }
             ]
           },
@@ -1868,33 +1868,33 @@
             "words": [
               {
                 "word": "His",
-                "ja": "彼の",
-                "note": "所有格"
+                "ja": "そのツバメの",
+                "note": "「His friends had gone away to Egypt six weeks before,」では「そのツバメの」の意味・働き。"
               },
               {
                 "word": "friends",
-                "ja": "友人・仲間たち",
-                "note": "friend の複数形"
+                "ja": "仲間たちは",
+                "note": "「His friends had gone away to Egypt six weeks before,」では「仲間たちは」の意味・働き。"
               },
               {
                 "word": "had",
-                "ja": "持っていた・〜していた",
-                "note": "have の過去。過去完了にも用いる"
+                "ja": "過去完了の助動詞",
+                "note": "「His friends had gone away to Egypt six weeks before,」では「過去完了の助動詞」の意味・働き。"
               },
               {
                 "word": "gone",
-                "ja": "去った・行ってしまった",
-                "note": "go の過去分詞"
+                "ja": "行ってしまった",
+                "note": "「His friends had gone away to Egypt six weeks before,」では「行ってしまった」の意味・働き。"
               },
               {
                 "word": "away",
-                "ja": "離れて・去って",
-                "note": "移動・距離を表す"
+                "ja": "離れて",
+                "note": "「His friends had gone away to Egypt six weeks before,」では「離れて」の意味・働き。"
               },
               {
                 "word": "to",
-                "ja": "〜へ・〜するために",
-                "note": "前置詞または不定詞の印"
+                "ja": "〜へ",
+                "note": "「His friends had gone away to Egypt six weeks before,」では「〜へ」の意味・働き。"
               },
               {
                 "word": "Egypt",
@@ -1913,8 +1913,8 @@
               },
               {
                 "word": "before",
-                "ja": "〜の前に",
-                "note": "時間的な前後関係"
+                "ja": "それより前に",
+                "note": "「His friends had gone away to Egypt six weeks before,」では「それより前に」の意味・働き。"
               }
             ]
           },
@@ -1926,18 +1926,18 @@
             "words": [
               {
                 "word": "but",
-                "ja": "しかし・〜を除いて",
-                "note": "逆接、nothing but で「〜だけ」"
+                "ja": "しかし",
+                "note": "「but he had stayed behind,」では「しかし」の意味・働き。"
               },
               {
                 "word": "he",
-                "ja": "彼は",
-                "note": "三人称男性の主格"
+                "ja": "そのツバメは",
+                "note": "「but he had stayed behind,」では「そのツバメは」の意味・働き。"
               },
               {
                 "word": "had",
-                "ja": "持っていた・〜していた",
-                "note": "have の過去。過去完了にも用いる"
+                "ja": "過去完了の助動詞",
+                "note": "「but he had stayed behind,」では「過去完了の助動詞」の意味・働き。"
               },
               {
                 "word": "stayed",
@@ -1946,8 +1946,8 @@
               },
               {
                 "word": "behind",
-                "ja": "後ろに・後に残って",
-                "note": "stay behind"
+                "ja": "後に残って",
+                "note": "「but he had stayed behind,」では「後に残って」の意味・働き。"
               }
             ]
           },
@@ -1959,43 +1959,43 @@
             "words": [
               {
                 "word": "for",
-                "ja": "〜のために・〜なので・〜の間",
-                "note": "前置詞、理由を示す接続詞"
+                "ja": "なぜなら",
+                "note": "「for he was in love with the most beautiful Reed.」では「なぜなら」の意味・働き。"
               },
               {
                 "word": "he",
-                "ja": "彼は",
-                "note": "三人称男性の主格"
+                "ja": "そのツバメは",
+                "note": "「for he was in love with the most beautiful Reed.」では「そのツバメは」の意味・働き。"
               },
               {
                 "word": "was",
-                "ja": "〜だった・いた",
-                "note": "be 動詞の過去単数"
+                "ja": "〜だった",
+                "note": "「for he was in love with the most beautiful Reed.」では「〜だった」の意味・働き。"
               },
               {
                 "word": "in",
-                "ja": "〜の中に・〜で",
-                "note": "場所・時間の前置詞"
+                "ja": "恋して",
+                "note": "in love with の一部。前置詞 in を単独で「中」と取らない。"
               },
               {
                 "word": "love",
-                "ja": "愛・愛する",
-                "note": "名詞・動詞"
+                "ja": "恋",
+                "note": "「for he was in love with the most beautiful Reed.」では「恋」の意味・働き。"
               },
               {
                 "word": "with",
-                "ja": "〜と一緒に・〜を用いて",
-                "note": "同行・手段・所持"
+                "ja": "〜に",
+                "note": "in love with の一部。恋愛感情の対象を導く。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「for he was in love with the most beautiful Reed.」では「その」の意味・働き。"
               },
               {
                 "word": "most",
-                "ja": "最も・大部分の",
-                "note": "最上級"
+                "ja": "最も",
+                "note": "「for he was in love with the most beautiful Reed.」では「最も」の意味・働き。"
               },
               {
                 "word": "beautiful",
@@ -2004,8 +2004,8 @@
               },
               {
                 "word": "Reed",
-                "ja": "葦（アシ）",
-                "note": "水辺に生える細長い植物"
+                "ja": "葦に",
+                "note": "「for he was in love with the most beautiful Reed.」では「葦に」の意味・働き。"
               }
             ]
           },
@@ -2017,38 +2017,38 @@
             "words": [
               {
                 "word": "He",
-                "ja": "彼は",
-                "note": "三人称男性の主格"
+                "ja": "そのツバメは",
+                "note": "「He had met her early in the spring」では「そのツバメは」の意味・働き。"
               },
               {
                 "word": "had",
-                "ja": "持っていた・〜していた",
-                "note": "have の過去。過去完了にも用いる"
+                "ja": "過去完了の助動詞",
+                "note": "「He had met her early in the spring」では「過去完了の助動詞」の意味・働き。"
               },
               {
                 "word": "met",
-                "ja": "出会った",
-                "note": "meet の過去形"
+                "ja": "出会っていた",
+                "note": "「He had met her early in the spring」では「出会っていた」の意味・働き。"
               },
               {
                 "word": "her",
-                "ja": "彼女の・彼女を",
-                "note": "所有格・目的格"
+                "ja": "葦の彼女に",
+                "note": "「He had met her early in the spring」では「葦の彼女に」の意味・働き。"
               },
               {
                 "word": "early",
-                "ja": "早く・早い",
-                "note": "時間が早い"
+                "ja": "早い時期に",
+                "note": "「He had met her early in the spring」では「早い時期に」の意味・働き。"
               },
               {
                 "word": "in",
-                "ja": "〜の中に・〜で",
-                "note": "場所・時間の前置詞"
+                "ja": "〜に",
+                "note": "「He had met her early in the spring」では「〜に」の意味・働き。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「He had met her early in the spring」では「その」の意味・働き。"
               },
               {
                 "word": "spring",
@@ -2065,33 +2065,33 @@
             "words": [
               {
                 "word": "as",
-                "ja": "〜として・〜のように・〜するとき",
-                "note": "比較・理由・時間"
+                "ja": "〜していたとき",
+                "note": "「as he was flying down the river after a big yellow moth,」では「〜していたとき」の意味・働き。"
               },
               {
                 "word": "he",
-                "ja": "彼は",
-                "note": "三人称男性の主格"
+                "ja": "そのツバメは",
+                "note": "「as he was flying down the river after a big yellow moth,」では「そのツバメは」の意味・働き。"
               },
               {
                 "word": "was",
-                "ja": "〜だった・いた",
-                "note": "be 動詞の過去単数"
+                "ja": "進行形の助動詞",
+                "note": "「as he was flying down the river after a big yellow moth,」では「進行形の助動詞」の意味・働き。"
               },
               {
                 "word": "flying",
-                "ja": "飛んでいる",
-                "note": "fly の現在分詞"
+                "ja": "飛んで",
+                "note": "「as he was flying down the river after a big yellow moth,」では「飛んで」の意味・働き。"
               },
               {
                 "word": "down",
-                "ja": "下へ・下に",
-                "note": "方向を示す"
+                "ja": "〜に沿って",
+                "note": "「as he was flying down the river after a big yellow moth,」では「〜に沿って」の意味・働き。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「as he was flying down the river after a big yellow moth,」では「その」の意味・働き。"
               },
               {
                 "word": "river",
@@ -2100,23 +2100,23 @@
               },
               {
                 "word": "after",
-                "ja": "〜のあとで",
-                "note": "時を表す"
+                "ja": "〜を追って",
+                "note": "fly ... after a moth で蛾を追いかける。時間の「後」ではない。"
               },
               {
                 "word": "a",
-                "ja": "一つの・ある",
-                "note": "不定冠詞。数や初出のものに付く"
+                "ja": "一匹の",
+                "note": "「as he was flying down the river after a big yellow moth,」では「一匹の」の意味・働き。"
               },
               {
                 "word": "big",
-                "ja": "大きい",
-                "note": "large に近い"
+                "ja": "大きな",
+                "note": "「as he was flying down the river after a big yellow moth,」では「大きな」の意味・働き。"
               },
               {
                 "word": "yellow",
-                "ja": "黄色の",
-                "note": "色"
+                "ja": "黄色い",
+                "note": "「as he was flying down the river after a big yellow moth,」では「黄色い」の意味・働き。"
               },
               {
                 "word": "moth",
@@ -2133,38 +2133,38 @@
             "words": [
               {
                 "word": "and",
-                "ja": "そして・〜と",
-                "note": "並列・連結"
+                "ja": "そして",
+                "note": "「and had been so attracted by her slender waist」では「そして」の意味・働き。"
               },
               {
                 "word": "had",
-                "ja": "持っていた・〜していた",
-                "note": "have の過去。過去完了にも用いる"
+                "ja": "過去完了の助動詞",
+                "note": "「and had been so attracted by her slender waist」では「過去完了の助動詞」の意味・働き。"
               },
               {
                 "word": "been",
-                "ja": "〜であった・いた",
-                "note": "be の過去分詞"
+                "ja": "受動態の一部",
+                "note": "「and had been so attracted by her slender waist」では「受動態の一部」の意味・働き。"
               },
               {
                 "word": "so",
-                "ja": "だから・それほど・とても",
-                "note": "結果・程度"
+                "ja": "それほど",
+                "note": "so ... that ... の程度表現。次のチャンクの that とつながる。"
               },
               {
                 "word": "attracted",
-                "ja": "惹きつけられた",
-                "note": "attract「魅了する」の過去分詞"
+                "ja": "心を引かれて",
+                "note": "「and had been so attracted by her slender waist」では「心を引かれて」の意味・働き。"
               },
               {
                 "word": "by",
-                "ja": "〜によって・〜のそばで",
-                "note": "受動態・手段・位置"
+                "ja": "〜によって",
+                "note": "「and had been so attracted by her slender waist」では「〜によって」の意味・働き。"
               },
               {
                 "word": "her",
-                "ja": "彼女の・彼女を",
-                "note": "所有格・目的格"
+                "ja": "葦の彼女の",
+                "note": "「and had been so attracted by her slender waist」では「葦の彼女の」の意味・働き。"
               },
               {
                 "word": "slender",
@@ -2186,28 +2186,28 @@
             "words": [
               {
                 "word": "that",
-                "ja": "それ・〜ということ・〜するもの",
-                "note": "指示詞・接続詞・関係代名詞"
+                "ja": "その結果",
+                "note": "直前の so attracted に続く結果節を導く that。指示代名詞ではない。"
               },
               {
                 "word": "he",
-                "ja": "彼は",
-                "note": "三人称男性の主格"
+                "ja": "そのツバメは",
+                "note": "「that he had stopped to talk to her.」では「そのツバメは」の意味・働き。"
               },
               {
                 "word": "had",
-                "ja": "持っていた・〜していた",
-                "note": "have の過去。過去完了にも用いる"
+                "ja": "過去完了の助動詞",
+                "note": "「that he had stopped to talk to her.」では「過去完了の助動詞」の意味・働き。"
               },
               {
                 "word": "stopped",
-                "ja": "止まった",
-                "note": "stop の過去形"
+                "ja": "立ち止まった",
+                "note": "「that he had stopped to talk to her.」では「立ち止まった」の意味・働き。"
               },
               {
                 "word": "to",
-                "ja": "〜へ・〜するために",
-                "note": "前置詞または不定詞の印"
+                "ja": "〜するために",
+                "note": "「that he had stopped to talk to her.」では「〜するために」の意味・働き。"
               },
               {
                 "word": "talk",
@@ -2216,13 +2216,13 @@
               },
               {
                 "word": "to",
-                "ja": "〜へ・〜するために",
-                "note": "前置詞または不定詞の印"
+                "ja": "〜に",
+                "note": "「that he had stopped to talk to her.」では「〜に」の意味・働き。"
               },
               {
                 "word": "her",
-                "ja": "彼女の・彼女を",
-                "note": "所有格・目的格"
+                "ja": "葦の彼女",
+                "note": "「that he had stopped to talk to her.」では「葦の彼女」の意味・働き。"
               }
             ]
           }
@@ -2285,13 +2285,13 @@
           {
             "en": "“Shall I love you?” ",
             "role": "疑問文・会話",
-            "ja": "「君を愛してもいいかい？」",
+            "ja": "「君を愛そうか？」",
             "hint": "会話文。発話者と引用範囲を確認",
             "words": [
               {
                 "word": "Shall",
-                "ja": "〜するだろう・〜しましょう",
-                "note": "約束・提案に使う助動詞"
+                "ja": "〜しようか",
+                "note": "「“Shall I love you?”」では「〜しようか」の意味・働き。"
               },
               {
                 "word": "I",
@@ -2300,13 +2300,13 @@
               },
               {
                 "word": "love",
-                "ja": "愛・愛する",
-                "note": "名詞・動詞"
+                "ja": "愛する",
+                "note": "「“Shall I love you?”」では「愛する」の意味・働き。"
               },
               {
                 "word": "you",
-                "ja": "あなたは・あなたを",
-                "note": "二人称主格・目的格"
+                "ja": "君を",
+                "note": "「“Shall I love you?”」では「君を」の意味・働き。"
               }
             ]
           },
@@ -2323,101 +2323,101 @@
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「said the Swallow, who liked to come to the point at once,」では「その」の意味・働き。"
               },
               {
                 "word": "Swallow",
-                "ja": "ツバメ",
-                "note": "鳥の名前。動詞では「飲み込む」"
+                "ja": "ツバメは",
+                "note": "「said the Swallow, who liked to come to the point at once,」では「ツバメは」の意味・働き。"
               },
               {
                 "word": "who",
-                "ja": "誰・〜する人",
-                "note": "疑問詞、または関係代名詞"
+                "ja": "そのツバメは",
+                "note": "「said the Swallow, who liked to come to the point at once,」では「そのツバメは」の意味・働き。"
               },
               {
                 "word": "liked",
-                "ja": "好んだ",
-                "note": "like の過去形"
+                "ja": "好んでいた",
+                "note": "「said the Swallow, who liked to come to the point at once,」では「好んでいた」の意味・働き。"
               },
               {
                 "word": "to",
-                "ja": "〜へ・〜するために",
-                "note": "前置詞または不定詞の印"
+                "ja": "〜することを",
+                "note": "「said the Swallow, who liked to come to the point at once,」では「〜することを」の意味・働き。"
               },
               {
                 "word": "come",
-                "ja": "来る",
-                "note": "come away で一緒に去る"
+                "ja": "話を進める",
+                "note": "come to the point で「本題に入る」。来るという移動の意味ではない。"
               },
               {
                 "word": "to",
-                "ja": "〜へ・〜するために",
-                "note": "前置詞または不定詞の印"
+                "ja": "〜へ",
+                "note": "「said the Swallow, who liked to come to the point at once,」では「〜へ」の意味・働き。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「said the Swallow, who liked to come to the point at once,」では「その」の意味・働き。"
               },
               {
                 "word": "point",
-                "ja": "要点・地点",
-                "note": "come to the point で本題に入る"
+                "ja": "要点",
+                "note": "「said the Swallow, who liked to come to the point at once,」では「要点」の意味・働き。"
               },
               {
                 "word": "at",
-                "ja": "〜に・〜で",
-                "note": "時刻・場所・対象を示す"
+                "ja": "〜に",
+                "note": "「said the Swallow, who liked to come to the point at once,」では「〜に」の意味・働き。"
               },
               {
                 "word": "once",
-                "ja": "一度・かつて",
-                "note": "once more でもう一度"
+                "ja": "すぐに",
+                "note": "at once で「すぐに」。once は一度という回数ではない。"
               }
             ]
           },
           {
             "en": "and the Reed made him a low bow. ",
             "role": "並列・追加",
-            "ja": "葦は深々とお辞儀をした。",
+            "ja": "すると葦はツバメに深々とお辞儀をした。",
             "hint": "語句：Reed＝葦（アシ）、bow＝お辞儀",
             "words": [
               {
                 "word": "and",
-                "ja": "そして・〜と",
-                "note": "並列・連結"
+                "ja": "そして",
+                "note": "「and the Reed made him a low bow.」では「そして」の意味・働き。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「and the Reed made him a low bow.」では「その」の意味・働き。"
               },
               {
                 "word": "Reed",
-                "ja": "葦（アシ）",
-                "note": "水辺に生える細長い植物"
+                "ja": "葦は",
+                "note": "「and the Reed made him a low bow.」では「葦は」の意味・働き。"
               },
               {
                 "word": "made",
-                "ja": "作った・させた",
-                "note": "make の過去形"
+                "ja": "した",
+                "note": "make someone a bow で「相手にお辞儀をする」。作るの意味ではない。"
               },
               {
                 "word": "him",
-                "ja": "彼を・彼に",
-                "note": "三人称男性の目的格"
+                "ja": "ツバメに",
+                "note": "「and the Reed made him a low bow.」では「ツバメに」の意味・働き。"
               },
               {
                 "word": "a",
-                "ja": "一つの・ある",
-                "note": "不定冠詞。数や初出のものに付く"
+                "ja": "一礼の",
+                "note": "「and the Reed made him a low bow.」では「一礼の」の意味・働き。"
               },
               {
                 "word": "low",
-                "ja": "低い・小さい",
-                "note": "声や高さを形容"
+                "ja": "深い",
+                "note": "「and the Reed made him a low bow.」では「深い」の意味・働き。"
               },
               {
                 "word": "bow",
@@ -2434,13 +2434,13 @@
             "words": [
               {
                 "word": "So",
-                "ja": "だから・それほど・とても",
-                "note": "結果・程度"
+                "ja": "そこで",
+                "note": "「So he flew round and round her,」では「そこで」の意味・働き。"
               },
               {
                 "word": "he",
-                "ja": "彼は",
-                "note": "三人称男性の主格"
+                "ja": "そのツバメは",
+                "note": "「So he flew round and round her,」では「そのツバメは」の意味・働き。"
               },
               {
                 "word": "flew",
@@ -2449,23 +2449,23 @@
               },
               {
                 "word": "round",
-                "ja": "周囲に・ぐるぐると",
-                "note": "位置・循環"
+                "ja": "ぐるぐると",
+                "note": "「So he flew round and round her,」では「ぐるぐると」の意味・働き。"
               },
               {
                 "word": "and",
-                "ja": "そして・〜と",
-                "note": "並列・連結"
+                "ja": "そして",
+                "note": "「So he flew round and round her,」では「そして」の意味・働き。"
               },
               {
                 "word": "round",
-                "ja": "周囲に・ぐるぐると",
-                "note": "位置・循環"
+                "ja": "ぐるぐると",
+                "note": "「So he flew round and round her,」では「ぐるぐると」の意味・働き。"
               },
               {
                 "word": "her",
-                "ja": "彼女の・彼女を",
-                "note": "所有格・目的格"
+                "ja": "葦の彼女の周りを",
+                "note": "「So he flew round and round her,」では「葦の彼女の周りを」の意味・働き。"
               }
             ]
           },
@@ -2477,28 +2477,28 @@
             "words": [
               {
                 "word": "touching",
-                "ja": "触れている",
-                "note": "touch の現在分詞"
+                "ja": "触れながら",
+                "note": "「touching the water with his wings, and making silver ripples.」では「触れながら」の意味・働き。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「touching the water with his wings, and making silver ripples.」では「その」の意味・働き。"
               },
               {
                 "word": "water",
-                "ja": "水",
-                "note": "液体"
+                "ja": "水面",
+                "note": "「touching the water with his wings, and making silver ripples.」では「水面」の意味・働き。"
               },
               {
                 "word": "with",
-                "ja": "〜と一緒に・〜を用いて",
-                "note": "同行・手段・所持"
+                "ja": "〜で",
+                "note": "「touching the water with his wings, and making silver ripples.」では「〜で」の意味・働き。"
               },
               {
                 "word": "his",
-                "ja": "彼の",
-                "note": "所有格"
+                "ja": "そのツバメの",
+                "note": "「touching the water with his wings, and making silver ripples.」では「そのツバメの」の意味・働き。"
               },
               {
                 "word": "wings",
@@ -2507,23 +2507,23 @@
               },
               {
                 "word": "and",
-                "ja": "そして・〜と",
-                "note": "並列・連結"
+                "ja": "そして",
+                "note": "「touching the water with his wings, and making silver ripples.」では「そして」の意味・働き。"
               },
               {
                 "word": "making",
-                "ja": "作ること・楽しんでいる",
-                "note": "make の現在分詞"
+                "ja": "作りながら",
+                "note": "making silver ripples は現在分詞による同時の動作。楽しむという意味ではない。"
               },
               {
                 "word": "silver",
-                "ja": "銀・銀色の",
-                "note": "金属・色"
+                "ja": "銀色の",
+                "note": "「touching the water with his wings, and making silver ripples.」では「銀色の」の意味・働き。"
               },
               {
                 "word": "ripples",
-                "ja": "さざ波・波紋",
-                "note": "ripple の複数形"
+                "ja": "波紋",
+                "note": "「touching the water with his wings, and making silver ripples.」では「波紋」の意味・働き。"
               }
             ]
           },
@@ -2535,18 +2535,18 @@
             "words": [
               {
                 "word": "This",
-                "ja": "これ・この",
-                "note": "近いものを指す"
+                "ja": "これが",
+                "note": "「This was his courtship, and it lasted all through the summer.」では「これが」の意味・働き。"
               },
               {
                 "word": "was",
-                "ja": "〜だった・いた",
-                "note": "be 動詞の過去単数"
+                "ja": "〜だった",
+                "note": "「This was his courtship, and it lasted all through the summer.」では「〜だった」の意味・働き。"
               },
               {
                 "word": "his",
-                "ja": "彼の",
-                "note": "所有格"
+                "ja": "そのツバメの",
+                "note": "「This was his courtship, and it lasted all through the summer.」では「そのツバメの」の意味・働き。"
               },
               {
                 "word": "courtship",
@@ -2555,13 +2555,13 @@
               },
               {
                 "word": "and",
-                "ja": "そして・〜と",
-                "note": "並列・連結"
+                "ja": "そして",
+                "note": "「This was his courtship, and it lasted all through the summer.」では「そして」の意味・働き。"
               },
               {
                 "word": "it",
-                "ja": "それは・それを",
-                "note": "三人称単数の代名詞"
+                "ja": "その求愛は",
+                "note": "「This was his courtship, and it lasted all through the summer.」では「その求愛は」の意味・働き。"
               },
               {
                 "word": "lasted",
@@ -2570,18 +2570,18 @@
               },
               {
                 "word": "all",
-                "ja": "すべて・全部の",
-                "note": "範囲を強調"
+                "ja": "ずっと",
+                "note": "all through the summer で「夏の間ずっと」。all は全期間を強める。"
               },
               {
                 "word": "through",
-                "ja": "〜を通り抜けて",
-                "note": "通過の前置詞"
+                "ja": "〜の間",
+                "note": "「This was his courtship, and it lasted all through the summer.」では「〜の間」の意味・働き。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「This was his courtship, and it lasted all through the summer.」では「その」の意味・働き。"
               },
               {
                 "word": "summer",
@@ -2649,18 +2649,18 @@
             "words": [
               {
                 "word": "It",
-                "ja": "それは・それを",
-                "note": "三人称単数の代名詞"
+                "ja": "その恋は",
+                "note": "直前から続くツバメと葦の恋愛関係を指す it。"
               },
               {
                 "word": "is",
-                "ja": "〜である・いる",
-                "note": "be 動詞三人称単数"
+                "ja": "〜である",
+                "note": "「“It is a ridiculous attachment,” twittered the other Swallows;」では「〜である」の意味・働き。"
               },
               {
                 "word": "a",
-                "ja": "一つの・ある",
-                "note": "不定冠詞。数や初出のものに付く"
+                "ja": "一つの",
+                "note": "「“It is a ridiculous attachment,” twittered the other Swallows;」では「一つの」の意味・働き。"
               },
               {
                 "word": "ridiculous",
@@ -2669,8 +2669,8 @@
               },
               {
                 "word": "attachment",
-                "ja": "愛着・恋愛関係",
-                "note": "ここでは恋心"
+                "ja": "恋愛関係",
+                "note": "「“It is a ridiculous attachment,” twittered the other Swallows;」では「恋愛関係」の意味・働き。"
               },
               {
                 "word": "twittered",
@@ -2679,71 +2679,71 @@
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「“It is a ridiculous attachment,” twittered the other Swallows;」では「その」の意味・働き。"
               },
               {
                 "word": "other",
-                "ja": "ほかの・もう一方の",
-                "note": "区別を示す"
+                "ja": "ほかの",
+                "note": "「“It is a ridiculous attachment,” twittered the other Swallows;」では「ほかの」の意味・働き。"
               },
               {
                 "word": "Swallows",
-                "ja": "ツバメたち",
-                "note": "swallow の複数形"
+                "ja": "ツバメたちは",
+                "note": "「“It is a ridiculous attachment,” twittered the other Swallows;」では「ツバメたちは」の意味・働き。"
               }
             ]
           },
           {
             "en": "“she has no money, and far too many relations”; ",
             "role": "主語・叙述",
-            "ja": "「彼女にはお金がないし、親戚があまりに多すぎる」",
+            "ja": "「彼女はお金を持っていないし、親類があまりにも多い」",
             "hint": "far too many＝あまりにも多すぎる ／ 語句：relations＝親戚",
             "words": [
               {
                 "word": "she",
-                "ja": "彼女は",
-                "note": "三人称女性主格"
+                "ja": "葦の彼女は",
+                "note": "「“she has no money, and far too many relations”;」では「葦の彼女は」の意味・働き。"
               },
               {
                 "word": "has",
-                "ja": "持っている・〜した",
-                "note": "have の三人称単数"
+                "ja": "持っている",
+                "note": "「“she has no money, and far too many relations”;」では「持っている」の意味・働き。"
               },
               {
                 "word": "no",
-                "ja": "いいえ・一つも〜ない",
-                "note": "否定語"
+                "ja": "まったく〜ない",
+                "note": "「“she has no money, and far too many relations”;」では「まったく〜ない」の意味・働き。"
               },
               {
                 "word": "money",
-                "ja": "お金",
-                "note": "貨幣"
+                "ja": "お金を",
+                "note": "「“she has no money, and far too many relations”;」では「お金を」の意味・働き。"
               },
               {
                 "word": "and",
-                "ja": "そして・〜と",
-                "note": "並列・連結"
+                "ja": "そして",
+                "note": "far too many で「あまりにも多すぎる」。距離が遠い意味ではない。"
               },
               {
                 "word": "far",
-                "ja": "遠く・非常に",
-                "note": "far too で強調"
+                "ja": "はるかに",
+                "note": "too many relations で「親類が多すぎる」。追加を表す too ではない。"
               },
               {
                 "word": "too",
-                "ja": "あまりに・〜もまた",
-                "note": "程度や追加"
+                "ja": "多すぎる",
+                "note": "「“she has no money, and far too many relations”;」では「多すぎる」の意味・働き。"
               },
               {
                 "word": "many",
-                "ja": "たくさんの",
-                "note": "可算名詞を修飾"
+                "ja": "多くの",
+                "note": "「“she has no money, and far too many relations”;」では「多くの」の意味・働き。"
               },
               {
                 "word": "relations",
-                "ja": "親戚",
-                "note": "ここでは人間関係でなく親族"
+                "ja": "親類が",
+                "note": "「“she has no money, and far too many relations”;」では「親類が」の意味・働き。"
               }
             ]
           },
@@ -2755,48 +2755,48 @@
             "words": [
               {
                 "word": "and",
-                "ja": "そして・〜と",
-                "note": "並列・連結"
+                "ja": "そして",
+                "note": "「and indeed the river was quite full of Reeds.」では「そして」の意味・働き。"
               },
               {
                 "word": "indeed",
-                "ja": "実に・確かに",
-                "note": "直前の表現を強調"
+                "ja": "実際に",
+                "note": "「and indeed the river was quite full of Reeds.」では「実際に」の意味・働き。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「and indeed the river was quite full of Reeds.」では「その」の意味・働き。"
               },
               {
                 "word": "river",
-                "ja": "川",
-                "note": "水路"
+                "ja": "川は",
+                "note": "「and indeed the river was quite full of Reeds.」では「川は」の意味・働き。"
               },
               {
                 "word": "was",
-                "ja": "〜だった・いた",
-                "note": "be 動詞の過去単数"
+                "ja": "〜だった",
+                "note": "「and indeed the river was quite full of Reeds.」では「〜だった」の意味・働き。"
               },
               {
                 "word": "quite",
-                "ja": "かなり・すっかり・まったく",
-                "note": "程度の副詞"
+                "ja": "すっかり",
+                "note": "「and indeed the river was quite full of Reeds.」では「すっかり」の意味・働き。"
               },
               {
                 "word": "full",
-                "ja": "いっぱいの・満ちた",
-                "note": "be full of ..."
+                "ja": "いっぱい",
+                "note": "「and indeed the river was quite full of Reeds.」では「いっぱい」の意味・働き。"
               },
               {
                 "word": "of",
-                "ja": "〜の・〜からなる",
-                "note": "所属・材料を表す"
+                "ja": "〜で",
+                "note": "「and indeed the river was quite full of Reeds.」では「〜で」の意味・働き。"
               },
               {
                 "word": "Reeds",
-                "ja": "葦たち・葦の茂み",
-                "note": "Reed の複数形"
+                "ja": "葦",
+                "note": "「and indeed the river was quite full of Reeds.」では「葦」の意味・働き。"
               }
             ]
           },
@@ -2808,23 +2808,23 @@
             "words": [
               {
                 "word": "Then",
-                "ja": "それから・そのとき",
-                "note": "時間のつながりを示す"
+                "ja": "それから",
+                "note": "「Then, when the autumn came they all flew away.」では「それから」の意味・働き。"
               },
               {
                 "word": "when",
-                "ja": "いつ・〜するとき",
-                "note": "疑問・時間"
+                "ja": "〜したとき",
+                "note": "「Then, when the autumn came they all flew away.」では「〜したとき」の意味・働き。"
               },
               {
                 "word": "the",
-                "ja": "その・あの",
-                "note": "既出・特定の対象を示す定冠詞"
+                "ja": "その",
+                "note": "「Then, when the autumn came they all flew away.」では「その」の意味・働き。"
               },
               {
                 "word": "autumn",
-                "ja": "秋",
-                "note": "英国式の一般的な季節語"
+                "ja": "秋が",
+                "note": "「Then, when the autumn came they all flew away.」では「秋が」の意味・働き。"
               },
               {
                 "word": "came",
@@ -2833,13 +2833,13 @@
               },
               {
                 "word": "they",
-                "ja": "彼らは・彼女らは",
-                "note": "三人称複数主格"
+                "ja": "ほかのツバメたちは",
+                "note": "去っていった仲間のツバメたちを指す。葦を指さない。"
               },
               {
                 "word": "all",
-                "ja": "すべて・全部の",
-                "note": "範囲を強調"
+                "ja": "みんな",
+                "note": "「Then, when the autumn came they all flew away.」では「みんな」の意味・働き。"
               },
               {
                 "word": "flew",
@@ -2848,8 +2848,8 @@
               },
               {
                 "word": "away",
-                "ja": "離れて・去って",
-                "note": "移動・距離を表す"
+                "ja": "去って",
+                "note": "「Then, when the autumn came they all flew away.」では「去って」の意味・働き。"
               }
             ]
           }
