@@ -128,7 +128,8 @@
     "cards-extra-20261120.json",
     "cards-extra-20261121.json",
     "cards-extra-20261122.json",
-    "cards-extra-20261123.json"
+    "cards-extra-20261123.json",
+    "cards-extra-20261124.json"
   ],
   "cards": [
     {
@@ -1826,6 +1827,30 @@
       "theme": "話者の肩書と検証可能な論証を区別する",
       "_generatedAt": "2026-11-23T02:00:00+09:00",
       "_sourceFile": "cards-extra-20261123.json"
+    },
+    {
+      "_no": 213,
+      "sentence": "Audio can lower the barrier to a long text when reading feels difficult, but if playback replaces every attempt to follow the words, listening may become avoidance rather than support.",
+      "coreVerb": "lower",
+      "theme": "音声支援と読解回避の境界を見分ける",
+      "_generatedAt": "2026-11-24T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261124.json"
+    },
+    {
+      "_no": 214,
+      "sentence": "When words are abundant, the reader's time may become scarcer than the text itself; publishing creates access, but it does not create an obligation to listen.",
+      "coreVerb": "create",
+      "theme": "言葉の供給と受け手の注意の希少性を分ける",
+      "_generatedAt": "2026-11-24T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261124.json"
+    },
+    {
+      "_no": 215,
+      "sentence": "An autonomous development system needs more than a coding model: a persistent runner must issue tasks, execute changes, and inspect results before a human approves a release.",
+      "coreVerb": "inspect",
+      "theme": "AI開発を継続実行する指示・実行・検査役を置く",
+      "_generatedAt": "2026-11-24T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261124.json"
     }
   ]
 }
