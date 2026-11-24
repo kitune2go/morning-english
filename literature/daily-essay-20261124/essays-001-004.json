@@ -1,0 +1,219 @@
+[
+  {
+    "id": "DE-20261124-001",
+    "sourceTitle": "『耳のほうが高くなった』",
+    "workId": "daily-essay-20261124",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "言葉が余る場所",
+    "jp": "文章も音楽も、公開するだけなら以前より容易になった。無料の言葉が画面を満たすと、希少になるのは作品ではなく、それを受け取る人の時間である。誰かに読んでもらう、聞いてもらうという行為は、相手の集中力を使う。作り手が何時間費やしたかは、その費用を自動的に帳消しにしない。入口の値札がゼロでも、受け手は時間と注意を払っている。",
+    "translationLiteral": "Both writing and music have become easier than before if the task is only to publish them. When free words fill the screen, what becomes scarce is not the work but the time of the person who receives it. The act of having someone read or listen uses that person's concentration. The number of hours the maker spent does not automatically cancel that cost. Even if the price at the entrance is zero, the receiver pays with time and attention.",
+    "translationNatural": "Publishing text or music is easier than before. When free language fills the screen, the scarce resource is not the work but the receiver’s time. To be read or heard is to use another person’s attention. The hours spent making a work do not automatically cancel that cost. Even when admission is free, the receiver still pays in time and concentration.",
+    "imageUrl": "",
+    "imageCaption": "無料の言葉で満ちた画面の前に、一つだけ空いた椅子がある。",
+    "imagePrompt": "A quiet editorial illustration of a screen overflowing with free text and music symbols, facing a single empty chair that represents scarce attention, muted blue and amber palette, no lettering, no logos.",
+    "chunks": [
+      {
+        "en": "Publishing text or music is easier than before.",
+        "ja": "文章や音楽を公開することは、以前より容易になった。"
+      },
+      {
+        "en": "When free language fills the screen, the scarce resource is not the work but the receiver’s time.",
+        "ja": "無料の言葉が画面を満たすと、希少な資源は作品ではなく受け手の時間になる。"
+      },
+      {
+        "en": "To be read or heard is to use another person’s attention.",
+        "ja": "読まれたり聞かれたりすることは、別の人の注意を使うことだ。"
+      },
+      {
+        "en": "The hours spent making a work do not automatically cancel that cost.",
+        "ja": "作品を作るために費やした時間が、その費用を自動的に帳消しにするわけではない。"
+      },
+      {
+        "en": "Even when admission is free, the receiver still pays in time and concentration.",
+        "ja": "入口が無料でも、受け手はなお時間と集中力で支払っている。"
+      }
+    ],
+    "grammar": [
+      "Publishing text or music は動名詞句を主語にし、公開行為そのものを話題にする。",
+      "When free language fills the screen は、言葉の供給が増えた条件を示す。",
+      "not the work but the receiver’s time は、希少なものを作品から受け手の時間へ置き換える。",
+      "To be read or heard は受動態の不定詞を並べ、作り手が望む二つの受容を表す。",
+      "Even when admission is free は、金銭的な無料と注意の費用を対比する譲歩節である。"
+    ],
+    "translationNote": "直訳では「公開するだけなら」「何時間費やしたか」という日本語の構造を追った。自然訳では主語を Publishing text or music とし、「値札がゼロ」を admission is free に置き換えたが、作り手の投入時間が受け手の費用を消さないという因果と、受け手が時間と注意を払う結論は保った。",
+    "readingPoint": "作品の導入。無料公開が増えた結果、希少性が作品から受け手の時間へ移るという中心命題を置く。",
+    "keywords": [
+      "注意",
+      "無料公開",
+      "希少性",
+      "受け手",
+      "時間"
+    ]
+  },
+  {
+    "id": "DE-20261124-002",
+    "sourceTitle": "『耳のほうが高くなった』",
+    "workId": "daily-essay-20261124",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "自慢話の請求書",
+    "jp": "この逆転は、年長者の自慢話をめぐる苛立ちにも現れた。語り手が経験を差し出しているつもりでも、聞き手は相づちと忍耐を提供している。介護や接客では、そうした応答は感情労働としてすでに価格を持つ。話の内容が無価値という意味ではない。しかし、年齢だけで聴衆を確保できるわけでもない。物語の所有者と、その物語を受け止める労働の担い手は別である。",
+    "translationLiteral": "This reversal also appeared in the irritation surrounding older people's boastful stories. Even when the speaker intends to offer experience, the listener provides responses and patience. In care and customer service, such responses already have a price as emotional labor. This does not mean that the story itself has no value. However, age alone cannot secure an audience. The owner of a story and the person who bears the labor of receiving that story are different.",
+    "translationNatural": "This reversal also appears in the frustration surrounding older people’s self-promotional stories. A speaker may believe that experience is being offered, while the listener supplies patience and responsive attention. In care work and customer service, such responses already carry a price as emotional labor. This does not mean that the story itself lacks value. Yet age alone does not secure an audience. The owner of a story is not the same person as the one who bears the labor of receiving it.",
+    "imageUrl": "",
+    "imageCaption": "話す人と聞く人の間に、相づちと忍耐の見えない伝票が置かれている。",
+    "imagePrompt": "A restrained literary illustration of two people in conversation with an invisible receipt made of small listening gestures between them, emphasizing emotional labor, neutral ages, warm gray palette, no text, no logos.",
+    "chunks": [
+      {
+        "en": "This reversal also appears in the frustration surrounding older people’s self-promotional stories.",
+        "ja": "この逆転は、年長者の自己宣伝的な話をめぐる苛立ちにも現れる。"
+      },
+      {
+        "en": "A speaker may believe that experience is being offered, while the listener supplies patience and responsive attention.",
+        "ja": "語り手は経験を差し出していると思うかもしれないが、その間、聞き手は忍耐と応答する注意を提供している。"
+      },
+      {
+        "en": "In care work and customer service, such responses already carry a price as emotional labor.",
+        "ja": "介護や接客では、そうした応答は感情労働としてすでに価格を持っている。"
+      },
+      {
+        "en": "This does not mean that the story itself lacks value.",
+        "ja": "これは、その話自体に価値がないという意味ではない。"
+      },
+      {
+        "en": "Yet age alone does not secure an audience.",
+        "ja": "しかし、年齢だけでは聴衆を確保できない。"
+      },
+      {
+        "en": "The owner of a story is not the same person as the one who bears the labor of receiving it.",
+        "ja": "物語の所有者は、その物語を受け取る労働を担う人と同じではない。"
+      }
+    ],
+    "grammar": [
+      "This reversal は前章の「値札の向きの逆転」を受ける照応表現である。",
+      "may believe that ... is being offered は、語り手の認識と受動態で示された提供行為を区別する。",
+      "while the listener supplies ... は、語る側と聞く側が同時に別のものを提供している対比を作る。",
+      "as emotional labor は、応答が価格を持つ役割を感情労働として特定する。",
+      "This does not mean that ... は、聞き手の労働を重視しても物語の価値までは否定しないという留保を置く。",
+      "not the same person as the one who ... は、物語の所有者と受容労働の担い手を明確に分ける。"
+    ],
+    "translationNote": "直訳は「相づち」を responses とした。自然訳では、その働きを responsive attention と具体化し、boastful を self-promotional に弱めて人格評価ではなく語りの形式へ焦点を移した。話自体の価値は否定しないという留保、年齢だけで聴衆を確保できないこと、物語の所有者と受け止める労働の担い手が別であることは省略していない。",
+    "readingPoint": "中心命題を対人関係へ移す展開部。語り手が価値を渡すつもりでも、聞き手も忍耐と応答を提供しているという交換の非対称を示す。",
+    "keywords": [
+      "感情労働",
+      "聞き手",
+      "自慢話",
+      "年齢",
+      "応答"
+    ]
+  },
+  {
+    "id": "DE-20261124-003",
+    "sourceTitle": "『耳のほうが高くなった』",
+    "workId": "daily-essay-20261124",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "再生ボタンへ移る目",
+    "jp": "同じ日、長い文章を読むのがつらくなり、文学カードの再生ボタンへ手が伸びるという話もあった。これは言葉を拒んだのではなく、受け取り方を変えたのである。文字を追う力が足りないとき、音声は内容への細い橋になる。ただし、再生できるからといって注意が無限になるわけではない。読みやすさは、情報量だけでなく、受け手に残っている力との関係で決まる。",
+    "translationLiteral": "On the same day, there was also talk of long passages becoming difficult to read and a hand reaching for the play button on the literature cards. This was not a rejection of language but a change in the way it was received. When there is not enough strength to follow written characters, audio becomes a narrow bridge to the content. However, the ability to play audio does not make attention infinite. Readability is determined not only by the amount of information but also by its relation to the strength remaining in the receiver.",
+    "translationNatural": "On the same day, reading long passages felt difficult, and the play button on the literature cards became easier to press. That was not a rejection of language but a change in how it was received. When the strength to follow print runs low, audio can provide a narrow bridge to the content. Yet playback does not make attention infinite. Readability depends not only on the amount of information but also on the energy the receiver still has.",
+    "imageUrl": "",
+    "imageCaption": "長い文字列の脇で、小さな再生ボタンが内容への細い橋になる。",
+    "imagePrompt": "A poetic editorial illustration of a dense long paragraph beside a small play button that becomes a narrow bridge toward meaning, minimal ink and soft light, no readable text, no logos.",
+    "chunks": [
+      {
+        "en": "On the same day, reading long passages felt difficult, and the play button on the literature cards became easier to press.",
+        "ja": "同じ日、長い文章を読むのがつらく感じられ、文学カードの再生ボタンのほうが押しやすくなった。"
+      },
+      {
+        "en": "That was not a rejection of language but a change in how it was received.",
+        "ja": "それは言葉の拒絶ではなく、言葉の受け取り方の変化だった。"
+      },
+      {
+        "en": "When the strength to follow print runs low, audio can provide a narrow bridge to the content.",
+        "ja": "文字を追う力が乏しくなるとき、音声は内容への細い橋を提供できる。"
+      },
+      {
+        "en": "Yet playback does not make attention infinite.",
+        "ja": "それでも、再生機能が注意を無限にするわけではない。"
+      },
+      {
+        "en": "Readability depends not only on the amount of information but also on the energy the receiver still has.",
+        "ja": "読みやすさは情報量だけでなく、受け手にまだ残っている力にも左右される。"
+      }
+    ],
+    "grammar": [
+      "reading long passages は動名詞句を主語にし、長文読解という行為を示す。",
+      "became easier to press は、再生ボタンの操作へ移りやすくなった変化を表す。",
+      "not A but B は、言葉の拒絶という解釈を退け、受容方法の変化へ言い換える。",
+      "When the strength ... runs low は、音声が橋になる条件を示す。",
+      "not only A but also B は、読みやすさを情報量だけでなく受け手の残存エネルギーにも結びつける。"
+    ],
+    "translationNote": "直訳では「手が伸びる」を a hand reaching for として比喩を残した。自然訳では操作の選びやすさを became easier to press とし、文字を追う力を the strength to follow print とまとめた。音声を「細い橋」とする比喩、注意が無限にはならない留保、読みやすさが受け手の残存力との関係で決まる結論は維持した。",
+    "readingPoint": "作品の転換点。注意の希少さを抽象論から実際の読書行動へ移し、音声を代替ではなく細い橋として位置づける。",
+    "keywords": [
+      "長文",
+      "音声",
+      "再生ボタン",
+      "読みやすさ",
+      "注意"
+    ]
+  },
+  {
+    "id": "DE-20261124-004",
+    "sourceTitle": "『耳のほうが高くなった』",
+    "workId": "daily-essay-20261124",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "読んでもらうための支払い",
+    "jp": "すると値札の向きが変わる。「読みたいなら払え」ではなく、「読んでもらいたいなら、受け手の時間に報いよ」という向きである。報いは必ずしも金銭だけではない。短さ、明瞭さ、音声、途中で離れられる構造も対価になりうる。無料で作品を置くことは価値を捨てることではない。耳の希少さを認め、作品の側が入口を整えることである。",
+    "translationLiteral": "Then the direction of the price tag changes. It points not toward “pay if you want to read” but toward “reward the receiver's time if you want to be read.” The reward is not necessarily money alone. Brevity, clarity, audio, and a structure that allows a person to leave partway can also become compensation. Placing a work for free does not mean discarding its value. It means recognizing the scarcity of ears and having the work's side arrange the entrance.",
+    "translationNatural": "The direction of the price tag then reverses. The question is no longer only “Will you pay to read?” but also “How will you repay the person you want to reach for their time?” Repayment need not be money. Brevity, clarity, audio, and an easy exit can all count as value offered in return. Offering a work for free does not discard its value; it means acknowledging the scarcity of ears and preparing the entrance from the work’s side.",
+    "imageUrl": "",
+    "imageCaption": "入口の値札が反転し、作品の側から聞き手の時間へ向いている。",
+    "imagePrompt": "A refined literary illustration of a price tag turning around at an entrance, pointing from a book and audio icon toward a listening ear and a small clock, subtle paper texture, no text, no logos.",
+    "chunks": [
+      {
+        "en": "The direction of the price tag then reverses.",
+        "ja": "そこで値札の向きが反転する。"
+      },
+      {
+        "en": "The question is no longer only “Will you pay to read?” but also “How will you repay the person you want to reach for their time?”",
+        "ja": "問いはもはや「読むために払うか」だけではなく、「届けたい相手に、その時間についてどう報いるか」でもある。"
+      },
+      {
+        "en": "Repayment need not be money.",
+        "ja": "報いは金銭である必要はない。"
+      },
+      {
+        "en": "Brevity, clarity, audio, and an easy exit can all count as value offered in return.",
+        "ja": "短さ、明瞭さ、音声、そして容易に離れられる出口は、いずれも返礼として差し出す価値に数えられる。"
+      },
+      {
+        "en": "Offering a work for free does not discard its value; it means acknowledging the scarcity of ears and preparing the entrance from the work’s side.",
+        "ja": "作品を無料で差し出すことは価値を捨てることではなく、耳の希少さを認め、作品の側から入口を整えることを意味する。"
+      }
+    ],
+    "grammar": [
+      "then reverses は、前章までの考察を受けて値札の向きが反転する帰結を示す。",
+      "no longer only A but also B は、読み手の支払いだけを問う枠から、作り手の返礼も問う枠へ広げる。",
+      "need not be は「必ず〜である必要はない」という限定否定で、金銭以外の報いを許す。",
+      "can all count as value offered in return は、列挙した四つが受け手への返礼として数えられる可能性を示す。",
+      "does not A; it means B は、無料公開を価値放棄とする解釈を否定し、入口設計として定義し直す。"
+    ],
+    "translationNote": "直訳では日本語の二つの命令をそのまま残した。自然訳では命令を二つの問いへ変え、repay the time で受け手の時間への返礼を明示した。value offered in return は、受け手へ返す金銭以外の価値を表す。無料公開が価値放棄ではなく、耳の希少さを認めた入口設計だという結論は保った。",
+    "readingPoint": "結び。値札を消すのではなく向きを反転させ、金銭以外にも短さ・明瞭さ・音声・退出可能性が受け手への対価になるという余韻へ着地する。",
+    "keywords": [
+      "値札",
+      "返礼",
+      "入口設計",
+      "無料",
+      "耳"
+    ]
+  }
+]
