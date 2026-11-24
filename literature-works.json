@@ -589,5 +589,12 @@
     "manifest": "literature/daily-essay-20261123/manifest.json",
     "mode": "essay-translation",
     "addedAt": "2026-11-24T02:40:46+09:00"
+  },
+  {
+    "workId": "daily-essay-20261124",
+    "title": "耳のほうが高くなった",
+    "description": "無料の言葉があふれる環境、年長者の自己宣伝的な話を受け止める感情労働、長文から音声へ移る読書、受け手の時間へ報いる入口設計を通して、作品より希少になった注意の値段を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261124/manifest.json",
+    "mode": "essay-translation"
   }
 ]
