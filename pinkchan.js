@@ -153,23 +153,24 @@ function step(dt){T+=dt;
  wrap.classList.toggle('talking',talking);
 }
 let last=performance.now();
-function loop(now){requestAnimationFrame(loop);if(!ready||document.hidden){last=now;return}if(wrap.classList.contains('pc-hide')){const r=(now-last)/1000;if(talking&&r>1/30){last=now;T+=Math.min(.05,r);capScroll()}return}const raw=(now-last)/1000;if(raw<(talking?1/60:1/30)-.002)return;last=now;step(Math.min(.05,raw));capScroll();render()}
+function loop(now){requestAnimationFrame(loop);if(!ready||document.hidden){last=now;return}if(wrap.classList.contains('pc-hide')){const r=(now-last)/1000;if((talking||cap.classList.contains('on'))&&r>1/30){last=now;T+=Math.min(.05,r);capScroll()}return}const raw=(now-last)/1000;if(raw<(talking?1/60:1/30)-.002)return;last=now;step(Math.min(.05,raw));capScroll();render()}
 
 /* ---------- 読み上げとつなぐ ---------- */
 const SS=window.speechSynthesis;
 function react(n,force){if(!force&&!CFG.react)return;R={n,t:T}}
 let capTimer=0,capText='',capStart=0,capEst=3;
 function esc(t){return t.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
-function showCap(text,i,len,rate){if(!CFG.sub)return;clearTimeout(capTimer);if(text!=null){capText=text;capStart=T;capEst=text.length*(/[\u3040-\u30ff\u4e00-\u9fff]/.test(text)?.135:.068)/(rate||1);capIn.scrollTop=0}const t=capText;if(!t)return;
+function showCap(text,i,len,rate){if(!CFG.sub)return;clearTimeout(capTimer);if(text!=null){capText=text;capStart=T;capEst=text.length*(/[\u3040-\u30ff\u4e00-\u9fff]/.test(text)?.135:.068)/(rate||1)*.8;capIn.scrollTop=0}const t=capText;if(!t)return;
  if(i==null){capIn.innerHTML=esc(t)}else{if(!len){const m=/^[\w'’-]+/.exec(t.slice(i));len=m?m[0].length:1}capIn.innerHTML=esc(t.slice(0,i))+'<span class="pc-w">'+esc(t.slice(i,i+len))+'</span>'+esc(t.slice(i+len));const w=capIn.querySelector('.pc-w');if(w){const lh=capLH(),ln=Math.floor(w.offsetTop/lh);capIn.scrollTop=Math.max(0,ln-1)*lh}}
  cap.classList.add('on')}
 const capLH=()=>parseFloat(getComputedStyle(capIn).lineHeight)||22;
 function capScroll(){if(!cap.classList.contains('on'))return;const max=capIn.scrollHeight-capIn.clientHeight;
- if(max>1&&talking&&!boundaryMode){const pr=cl((T-capStart-.4)/Math.max(.8,capEst-.9),0,1);const lh=capLH(),tg=Math.min(max,Math.round(pr*max/lh)*lh);capIn.scrollTop=Math.abs(tg-capIn.scrollTop)<3?tg:lerp(capIn.scrollTop,tg,.25)}
+ if(max>1&&!talking){capIn.scrollTop=Math.abs(max-capIn.scrollTop)<3?max:lerp(capIn.scrollTop,max,.3)}
+ else if(max>1&&talking&&!boundaryMode){const pr=cl((T-capStart-.4)/Math.max(.8,capEst-.9),0,1);const lh=capLH(),tg=Math.min(max,Math.round(pr*max/lh)*lh);capIn.scrollTop=Math.abs(tg-capIn.scrollTop)<3?tg:lerp(capIn.scrollTop,tg,.25)}
  cap.classList.toggle('more',max>1&&capIn.scrollTop<max-2)}
 function hideCap(delay){clearTimeout(capTimer);capTimer=setTimeout(()=>cap.classList.remove('on'),delay)}
 function startTalk(){if(!talking){talkStart=T;boundaryMode=false;pulse=.8}talking=true}
-function stopTalk(){talking=false;hideCap(1200)}
+function stopTalk(){talking=false;const more=capIn.scrollHeight-capIn.clientHeight-capIn.scrollTop>2;hideCap(more?2600:1400)}
 if(SS&&!SS.__pinkchan){SS.__pinkchan=true;
  const speak0=SS.speak.bind(SS),cancel0=SS.cancel.bind(SS);
  SS.speak=function(u){try{
