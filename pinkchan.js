@@ -24,8 +24,10 @@ const css=`
 .pc-menu{position:fixed;left:calc(10px + env(safe-area-inset-left));bottom:calc(124px + env(safe-area-inset-bottom));z-index:61;display:flex;flex-direction:column;gap:6px;padding:8px;border-radius:14px;background:#fff;box-shadow:0 6px 20px rgba(120,40,80,.25)}
 .pc-menu button{min-height:36px;padding:0 12px;border:1px solid #f0c3d6;border-radius:10px;background:#fff7fb;color:#7a2f52;font:700 13px/1 sans-serif;text-align:left;cursor:pointer;white-space:nowrap}
 .pc-menu .pc-row{display:flex;gap:6px}.pc-menu .pc-row button{flex:1;text-align:center;padding:0 8px}
-.pc-cap{position:fixed;left:calc(114px + env(safe-area-inset-left));right:calc(10px + env(safe-area-inset-right));bottom:calc(10px + env(safe-area-inset-bottom));z-index:59;max-height:4.6em;overflow:hidden;padding:8px 12px;border-radius:12px;background:rgba(36,14,26,.8);color:#fff;font:600 15px/1.5 system-ui,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.2);opacity:0;transform:translateY(6px);transition:opacity .25s ease,transform .25s ease;pointer-events:none;-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+.pc-cap{position:fixed;left:calc(114px + env(safe-area-inset-left));right:calc(10px + env(safe-area-inset-right));bottom:calc(10px + env(safe-area-inset-bottom));z-index:59;padding:8px 12px;border-radius:12px;background:rgba(36,14,26,.8);color:#fff;font:600 15px/1.5 system-ui,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.2);opacity:0;transform:translateY(6px);transition:opacity .25s ease,transform .25s ease;pointer-events:none;-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
 .pc-cap.on{opacity:1;transform:none}
+.pc-capin{position:relative;max-height:4.5em;overflow:hidden}
+.pc-cap.more .pc-capin{-webkit-mask-image:linear-gradient(#000 calc(100% - .9em),rgba(0,0,0,.35));mask-image:linear-gradient(#000 calc(100% - .9em),rgba(0,0,0,.35))}
 .pc-cap.solo{left:calc(10px + env(safe-area-inset-left));bottom:calc(52px + env(safe-area-inset-bottom))}
 .pc-cap .pc-w{background:#ff8fbf;color:#2a0b18;border-radius:4px;padding:0 2px}
 .pc-hide{display:none!important}
@@ -35,7 +37,7 @@ const wrap=document.createElement('div');wrap.className='pc-wrap';wrap.setAttrib
 const cv=document.createElement('canvas');wrap.appendChild(cv);
 const xb=document.createElement('button');xb.className='pc-x';xb.type='button';xb.textContent='×';xb.title='ピンクちゃんをしまう';xb.setAttribute('aria-label','ピンクちゃんをしまう');wrap.appendChild(xb);
 const tab=document.createElement('button');tab.className='pc-tab';tab.type='button';tab.textContent='ピンクちゃん';tab.title='ピンクちゃんを出す';
-const cap=document.createElement('div');cap.className='pc-cap';cap.setAttribute('aria-live','off');
+const cap=document.createElement('div');cap.className='pc-cap';cap.setAttribute('aria-live','off');const capIn=document.createElement('div');capIn.className='pc-capin';cap.appendChild(capIn);
 const menu=document.createElement('div');menu.className='pc-menu pc-hide';
 function renderMenu(){menu.innerHTML='';const b=(label,fn)=>{const e=document.createElement('button');e.type='button';e.textContent=label;e.onclick=ev=>{ev.stopPropagation();fn()};return e};
  menu.appendChild(b('字幕：'+(CFG.sub?'オン':'オフ'),()=>{CFG.sub=!CFG.sub;saveCfg();renderMenu();if(!CFG.sub)cap.classList.remove('on')}));
@@ -147,26 +149,31 @@ function step(dt){T+=dt;
  moF=lerp(moF,moT,talking?.45:.25);
  // 髪のばね
  for(const [k,h] of Object.entries(HS)){const tg=-(P.az*.5+P.ax*.3)*.08*G.De*(k==='bangs'?.4:1);h.v+=(tg-h.s)*.08;h.v*=.86;h.s+=h.v}
+ // 単語の区切りが届かないときは、経過時間で字幕を送る（長い文が帯からはみ出さないように）
  wrap.classList.toggle('talking',talking);
 }
 let last=performance.now();
-function loop(now){requestAnimationFrame(loop);if(!ready||document.hidden||wrap.classList.contains('pc-hide')){last=now;return}const raw=(now-last)/1000;if(raw<(talking?1/60:1/30)-.002)return;last=now;step(Math.min(.05,raw));render()}
+function loop(now){requestAnimationFrame(loop);if(!ready||document.hidden){last=now;return}if(wrap.classList.contains('pc-hide')){const r=(now-last)/1000;if(talking&&r>1/30){last=now;T+=Math.min(.05,r);capScroll()}return}const raw=(now-last)/1000;if(raw<(talking?1/60:1/30)-.002)return;last=now;step(Math.min(.05,raw));capScroll();render()}
 
 /* ---------- 読み上げとつなぐ ---------- */
 const SS=window.speechSynthesis;
 function react(n,force){if(!force&&!CFG.react)return;R={n,t:T}}
-let capTimer=0,capText='';
+let capTimer=0,capText='',capStart=0,capEst=3;
 function esc(t){return t.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
-function showCap(text,i,len){if(!CFG.sub)return;clearTimeout(capTimer);if(text!=null)capText=text;const t=capText;if(!t)return;
- if(i==null){cap.innerHTML=esc(t)}else{if(!len){const m=/^[\w'’-]+/.exec(t.slice(i));len=m?m[0].length:1}cap.innerHTML=esc(t.slice(0,i))+'<span class="pc-w">'+esc(t.slice(i,i+len))+'</span>'+esc(t.slice(i+len));const w=cap.querySelector('.pc-w');if(w)cap.scrollTop=Math.max(0,w.offsetTop-cap.clientHeight*.35)}
+function showCap(text,i,len,rate){if(!CFG.sub)return;clearTimeout(capTimer);if(text!=null){capText=text;capStart=T;capEst=text.length*(/[\u3040-\u30ff\u4e00-\u9fff]/.test(text)?.135:.068)/(rate||1);capIn.scrollTop=0}const t=capText;if(!t)return;
+ if(i==null){capIn.innerHTML=esc(t)}else{if(!len){const m=/^[\w'’-]+/.exec(t.slice(i));len=m?m[0].length:1}capIn.innerHTML=esc(t.slice(0,i))+'<span class="pc-w">'+esc(t.slice(i,i+len))+'</span>'+esc(t.slice(i+len));const w=capIn.querySelector('.pc-w');if(w){const lh=capLH(),ln=Math.floor(w.offsetTop/lh);capIn.scrollTop=Math.max(0,ln-1)*lh}}
  cap.classList.add('on')}
+const capLH=()=>parseFloat(getComputedStyle(capIn).lineHeight)||22;
+function capScroll(){if(!cap.classList.contains('on'))return;const max=capIn.scrollHeight-capIn.clientHeight;
+ if(max>1&&talking&&!boundaryMode){const pr=cl((T-capStart-.4)/Math.max(.8,capEst-.9),0,1);const lh=capLH(),tg=Math.min(max,Math.round(pr*max/lh)*lh);capIn.scrollTop=Math.abs(tg-capIn.scrollTop)<3?tg:lerp(capIn.scrollTop,tg,.25)}
+ cap.classList.toggle('more',max>1&&capIn.scrollTop<max-2)}
 function hideCap(delay){clearTimeout(capTimer);capTimer=setTimeout(()=>cap.classList.remove('on'),delay)}
 function startTalk(){if(!talking){talkStart=T;boundaryMode=false;pulse=.8}talking=true}
 function stopTalk(){talking=false;hideCap(1200)}
 if(SS&&!SS.__pinkchan){SS.__pinkchan=true;
  const speak0=SS.speak.bind(SS),cancel0=SS.cancel.bind(SS);
  SS.speak=function(u){try{
-   u.addEventListener('start',()=>{startTalk();showCap(u.text||'')});
+   u.addEventListener('start',()=>{startTalk();showCap(u.text||'',null,null,u.rate||1)});
    u.addEventListener('boundary',e=>{if(e.name&&e.name!=='word')return;boundaryMode=true;pulse=1;if(typeof e.charIndex==='number')showCap(null,e.charIndex,e.charLength)});
    u.addEventListener('end',()=>{setTimeout(()=>{if(!SS.speaking&&!SS.pending){stopTalk();if(T-lastCancel>.4)react(Math.random()<.6?'happy':'nod')}},120)});
    u.addEventListener('error',()=>{setTimeout(()=>{if(!SS.speaking)stopTalk()},120)});
@@ -175,7 +182,7 @@ if(SS&&!SS.__pinkchan){SS.__pinkchan=true;
  // end が来ない端末向けの見張り
  setInterval(()=>{if(talking&&!SS.speaking&&!SS.pending&&T>manualUntil)stopTalk();else if(!talking&&SS.speaking&&!SS.paused)startTalk()},400);
 }
-window.Pinkchan={state:()=>({talking,moF:+moF.toFixed(2),boundaryMode}),react:n=>react(n,true),caption:(t,i,l)=>showCap(t,i,l),talk:(sec=3)=>{manualUntil=T+sec;startTalk()},stop:()=>{manualUntil=0;stopTalk()},show:()=>setVisible(true),hide:()=>setVisible(false)};
+window.Pinkchan={state:()=>({talking,moF:+moF.toFixed(2),boundaryMode}),react:n=>react(n,true),caption:(t,i,l,r)=>showCap(t,i,l,r),talk:(sec=3)=>{manualUntil=T+sec;startTalk()},stop:()=>{manualUntil=0;stopTalk()},show:()=>setVisible(true),hide:()=>setVisible(false)};
 if(document.body)mount();else document.addEventListener('DOMContentLoaded',mount);
 load().then(()=>requestAnimationFrame(loop)).catch(e=>{console.warn('ピンクちゃんを読み込めませんでした',e);wrap.remove();tab.remove()});
 })();
