@@ -51879,5 +51879,844 @@
         }
       ]
     }
+  ],
+  "DE-20261124-001": [
+    {
+      "words": {
+        "publishing": {
+          "ja": "公開すること"
+        },
+        "text": {
+          "ja": "文章"
+        },
+        "music": {
+          "ja": "音楽"
+        },
+        "easier": {
+          "ja": "容易な"
+        },
+        "before": {
+          "ja": "以前より"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Publishing text or music",
+          "ja": "文章や音楽を公開すること",
+          "pattern": "動名詞 + 目的語",
+          "note": "公開行為全体を主語にする。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜するとき"
+        },
+        "free": {
+          "ja": "無料の"
+        },
+        "language": {
+          "ja": "言葉"
+        },
+        "fills": {
+          "ja": "満たす"
+        },
+        "screen": {
+          "ja": "画面"
+        },
+        "scarce": {
+          "ja": "希少な"
+        },
+        "resource": {
+          "ja": "資源"
+        },
+        "receiver’s": {
+          "ja": "受け手の"
+        },
+        "time": {
+          "ja": "時間"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not the work but the receiver’s time",
+          "ja": "作品ではなく受け手の時間",
+          "pattern": "not A but B",
+          "note": "希少な対象を作品から受け手の時間へ置き換える。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "read": {
+          "ja": "読まれる"
+        },
+        "heard": {
+          "ja": "聞かれる"
+        },
+        "use": {
+          "ja": "使う"
+        },
+        "another": {
+          "ja": "別の"
+        },
+        "person’s": {
+          "ja": "人の"
+        },
+        "attention": {
+          "ja": "注意"
+        }
+      },
+      "phrases": [
+        {
+          "en": "To be read or heard",
+          "ja": "読まれたり聞かれたりすること",
+          "pattern": "to be 過去分詞 or 過去分詞",
+          "note": "受動態の不定詞で二つの受容を並べる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "hours": {
+          "ja": "時間"
+        },
+        "spent": {
+          "ja": "費やされた"
+        },
+        "making": {
+          "ja": "作ること"
+        },
+        "work": {
+          "ja": "作品"
+        },
+        "automatically": {
+          "ja": "自動的に"
+        },
+        "cancel": {
+          "ja": "帳消しにする"
+        },
+        "cost": {
+          "ja": "費用"
+        }
+      },
+      "phrases": [
+        {
+          "en": "do not automatically cancel that cost",
+          "ja": "その費用を自動的に帳消しにはしない",
+          "pattern": "do not automatically 動詞",
+          "note": "作り手の投入時間と受け手の費用を別に扱う。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "even": {
+          "ja": "〜であっても"
+        },
+        "when": {
+          "ja": "〜のとき"
+        },
+        "admission": {
+          "ja": "入口の料金"
+        },
+        "free": {
+          "ja": "無料の"
+        },
+        "receiver": {
+          "ja": "受け手"
+        },
+        "still": {
+          "ja": "なお"
+        },
+        "pays": {
+          "ja": "支払う"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "concentration": {
+          "ja": "集中力"
+        }
+      },
+      "phrases": [
+        {
+          "en": "pays in time and concentration",
+          "ja": "時間と集中力で支払う",
+          "pattern": "pay in A",
+          "note": "金銭ではなく注意資源を支払いとして表す。"
+        }
+      ]
+    }
+  ],
+  "DE-20261124-002": [
+    {
+      "words": {
+        "this": {
+          "ja": "この（＝値札の向きの）"
+        },
+        "reversal": {
+          "ja": "逆転"
+        },
+        "appears": {
+          "ja": "現れる"
+        },
+        "frustration": {
+          "ja": "苛立ち"
+        },
+        "surrounding": {
+          "ja": "〜をめぐる"
+        },
+        "older": {
+          "ja": "年長の"
+        },
+        "people’s": {
+          "ja": "人々の"
+        },
+        "self-promotional": {
+          "ja": "自己宣伝的な"
+        },
+        "stories": {
+          "ja": "話"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the frustration surrounding older people’s self-promotional stories",
+          "ja": "年長者の自己宣伝的な話をめぐる苛立ち",
+          "pattern": "the 名詞 surrounding A",
+          "note": "苛立ちの対象を話の形式に限定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "speaker": {
+          "ja": "語り手"
+        },
+        "may": {
+          "ja": "〜かもしれない"
+        },
+        "believe": {
+          "ja": "思う"
+        },
+        "experience": {
+          "ja": "経験"
+        },
+        "offered": {
+          "ja": "差し出されている"
+        },
+        "while": {
+          "ja": "その一方で"
+        },
+        "listener": {
+          "ja": "聞き手"
+        },
+        "supplies": {
+          "ja": "提供する"
+        },
+        "patience": {
+          "ja": "忍耐"
+        },
+        "responsive": {
+          "ja": "応答する"
+        },
+        "attention": {
+          "ja": "注意"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while the listener supplies patience and responsive attention",
+          "ja": "その一方で聞き手は忍耐と応答する注意を提供する",
+          "pattern": "while S + V",
+          "note": "語り手と聞き手が同時に別のものを差し出す対比。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "care": {
+          "ja": "介護"
+        },
+        "work": {
+          "ja": "仕事"
+        },
+        "customer": {
+          "ja": "顧客"
+        },
+        "service": {
+          "ja": "接客"
+        },
+        "responses": {
+          "ja": "応答"
+        },
+        "already": {
+          "ja": "すでに"
+        },
+        "carry": {
+          "ja": "持つ"
+        },
+        "price": {
+          "ja": "価格"
+        },
+        "emotional": {
+          "ja": "感情の"
+        },
+        "labor": {
+          "ja": "労働"
+        }
+      },
+      "phrases": [
+        {
+          "en": "carry a price as emotional labor",
+          "ja": "感情労働として価格を持つ",
+          "pattern": "carry a price as A",
+          "note": "応答を無償の好意ではなく労働として位置づける。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "this": {
+          "ja": "このこと"
+        },
+        "does": {
+          "ja": "（否定を作る）"
+        },
+        "not": {
+          "ja": "〜ない"
+        },
+        "mean": {
+          "ja": "意味する"
+        },
+        "story": {
+          "ja": "話"
+        },
+        "itself": {
+          "ja": "それ自体"
+        },
+        "lacks": {
+          "ja": "欠いている"
+        },
+        "value": {
+          "ja": "価値"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not mean that the story itself lacks value",
+          "ja": "話自体に価値がないという意味ではない",
+          "pattern": "does not mean that S + V",
+          "note": "聞き手の労働を重視しても話の価値は否定しない留保。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "しかし"
+        },
+        "age": {
+          "ja": "年齢"
+        },
+        "alone": {
+          "ja": "だけでは"
+        },
+        "does": {
+          "ja": "（否定を作る）"
+        },
+        "not": {
+          "ja": "〜ない"
+        },
+        "secure": {
+          "ja": "確保する"
+        },
+        "audience": {
+          "ja": "聴衆"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet age alone does not secure an audience",
+          "ja": "しかし、年齢だけでは聴衆を確保できない",
+          "pattern": "A alone does not 動詞 B",
+          "note": "年齢だけでは聴取を当然視できないと限定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "owner": {
+          "ja": "所有者"
+        },
+        "story": {
+          "ja": "物語"
+        },
+        "same": {
+          "ja": "同じ"
+        },
+        "person": {
+          "ja": "人"
+        },
+        "one": {
+          "ja": "人（＝受け手）"
+        },
+        "who": {
+          "ja": "〜する人"
+        },
+        "bears": {
+          "ja": "担う"
+        },
+        "labor": {
+          "ja": "労働"
+        },
+        "receiving": {
+          "ja": "受け取ること"
+        },
+        "it": {
+          "ja": "それ（＝物語）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the one who bears the labor of receiving it",
+          "ja": "その物語を受け取る労働を担う人",
+          "pattern": "the one who + 動詞",
+          "note": "it は story を指し、所有者と受容労働の担い手を区別する。"
+        }
+      ]
+    }
+  ],
+  "DE-20261124-003": [
+    {
+      "words": {
+        "same": {
+          "ja": "同じ"
+        },
+        "day": {
+          "ja": "日"
+        },
+        "reading": {
+          "ja": "読むこと"
+        },
+        "long": {
+          "ja": "長い"
+        },
+        "passages": {
+          "ja": "文章"
+        },
+        "felt": {
+          "ja": "感じられた"
+        },
+        "difficult": {
+          "ja": "つらい"
+        },
+        "play": {
+          "ja": "再生"
+        },
+        "button": {
+          "ja": "ボタン"
+        },
+        "literature": {
+          "ja": "文学"
+        },
+        "cards": {
+          "ja": "カード"
+        },
+        "became": {
+          "ja": "〜になった"
+        },
+        "easier": {
+          "ja": "より容易な"
+        },
+        "press": {
+          "ja": "押す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the play button on the literature cards became easier to press",
+          "ja": "文学カードの再生ボタンのほうが押しやすくなった",
+          "pattern": "become easier to 動詞",
+          "note": "長文読解から音声操作へ移りやすくなった変化。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "that": {
+          "ja": "それ（＝再生ボタンへ移ったこと）"
+        },
+        "rejection": {
+          "ja": "拒絶"
+        },
+        "language": {
+          "ja": "言葉"
+        },
+        "change": {
+          "ja": "変化"
+        },
+        "how": {
+          "ja": "どのように"
+        },
+        "it": {
+          "ja": "それ（＝言葉）"
+        },
+        "received": {
+          "ja": "受け取られた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not a rejection of language but a change",
+          "ja": "言葉の拒絶ではなく変化",
+          "pattern": "not A but B",
+          "note": "言葉を退けたのではなく受容方法が変わったと定義する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "when": {
+          "ja": "〜するとき"
+        },
+        "strength": {
+          "ja": "力"
+        },
+        "follow": {
+          "ja": "追う"
+        },
+        "print": {
+          "ja": "文字"
+        },
+        "runs": {
+          "ja": "〜になる"
+        },
+        "low": {
+          "ja": "乏しく"
+        },
+        "audio": {
+          "ja": "音声"
+        },
+        "provide": {
+          "ja": "提供する"
+        },
+        "narrow": {
+          "ja": "細い"
+        },
+        "bridge": {
+          "ja": "橋"
+        },
+        "content": {
+          "ja": "内容"
+        }
+      },
+      "phrases": [
+        {
+          "en": "audio can provide a narrow bridge to the content",
+          "ja": "音声は内容への細い橋を提供できる",
+          "pattern": "A can provide a bridge to B",
+          "note": "音声を内容へ至る限定的な経路として比喩化する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "それでも"
+        },
+        "playback": {
+          "ja": "再生機能"
+        },
+        "does": {
+          "ja": "（否定を作る）"
+        },
+        "not": {
+          "ja": "〜ない"
+        },
+        "make": {
+          "ja": "〜にする"
+        },
+        "attention": {
+          "ja": "注意"
+        },
+        "infinite": {
+          "ja": "無限の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not make attention infinite",
+          "ja": "注意を無限にはしない",
+          "pattern": "make O C",
+          "note": "音声化にも注意資源の上限が残る。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "readability": {
+          "ja": "読みやすさ"
+        },
+        "depends": {
+          "ja": "左右される"
+        },
+        "not": {
+          "ja": "〜でなく"
+        },
+        "only": {
+          "ja": "だけ"
+        },
+        "amount": {
+          "ja": "量"
+        },
+        "information": {
+          "ja": "情報"
+        },
+        "also": {
+          "ja": "も"
+        },
+        "energy": {
+          "ja": "力"
+        },
+        "receiver": {
+          "ja": "受け手"
+        },
+        "still": {
+          "ja": "まだ"
+        },
+        "has": {
+          "ja": "持つ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not only on the amount of information but also on the energy",
+          "ja": "情報量だけでなく力にも",
+          "pattern": "not only on A but also on B",
+          "note": "読みやすさを情報量と受け手の残存力の両方へ結びつける。"
+        }
+      ]
+    }
+  ],
+  "DE-20261124-004": [
+    {
+      "words": {
+        "direction": {
+          "ja": "向き"
+        },
+        "price": {
+          "ja": "値段"
+        },
+        "tag": {
+          "ja": "札"
+        },
+        "then": {
+          "ja": "そこで"
+        },
+        "reverses": {
+          "ja": "反転する"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The direction of the price tag then reverses",
+          "ja": "そこで値札の向きが反転する",
+          "pattern": "the direction of A reverses",
+          "note": "支払う側を読み手から作品側へ転換する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "question": {
+          "ja": "問い"
+        },
+        "no": {
+          "ja": "もはや〜ない"
+        },
+        "longer": {
+          "ja": "もはや"
+        },
+        "only": {
+          "ja": "だけ"
+        },
+        "pay": {
+          "ja": "支払う"
+        },
+        "read": {
+          "ja": "読む"
+        },
+        "also": {
+          "ja": "〜でもある"
+        },
+        "how": {
+          "ja": "どのように"
+        },
+        "repay": {
+          "ja": "報いる"
+        },
+        "time": {
+          "ja": "時間"
+        },
+        "person": {
+          "ja": "人"
+        },
+        "want": {
+          "ja": "望む"
+        },
+        "reach": {
+          "ja": "届ける"
+        },
+        "their": {
+          "ja": "その人の"
+        },
+        "for": {
+          "ja": "〜について"
+        }
+      },
+      "phrases": [
+        {
+          "en": "repay the person you want to reach for their time",
+          "ja": "届けたい相手に、その時間について報いる",
+          "pattern": "repay 人 for 物",
+          "note": "返礼の相手と、その理由となる時間を明示する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "repayment": {
+          "ja": "報い"
+        },
+        "need": {
+          "ja": "必要はない"
+        },
+        "not": {
+          "ja": "〜ない"
+        },
+        "be": {
+          "ja": "〜である"
+        },
+        "money": {
+          "ja": "金銭"
+        },
+        "need not": {
+          "ja": "必ずしも〜である必要はない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Repayment need not be money",
+          "ja": "報いは金銭である必要はない",
+          "pattern": "need not be A",
+          "note": "金銭以外の返礼を許す限定否定。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "brevity": {
+          "ja": "短さ"
+        },
+        "clarity": {
+          "ja": "明瞭さ"
+        },
+        "audio": {
+          "ja": "音声"
+        },
+        "easy": {
+          "ja": "容易な"
+        },
+        "exit": {
+          "ja": "出口"
+        },
+        "can": {
+          "ja": "〜しうる"
+        },
+        "all": {
+          "ja": "いずれも"
+        },
+        "count": {
+          "ja": "数えられる"
+        },
+        "value": {
+          "ja": "価値"
+        },
+        "offered": {
+          "ja": "差し出された"
+        },
+        "return": {
+          "ja": "返礼"
+        }
+      },
+      "phrases": [
+        {
+          "en": "count as value offered in return",
+          "ja": "返礼として差し出す価値に数えられる",
+          "pattern": "count as A",
+          "note": "短さなどを、受け手へ返す非金銭的な価値として扱う。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "offering": {
+          "ja": "差し出すこと"
+        },
+        "work": {
+          "ja": "作品"
+        },
+        "free": {
+          "ja": "無料で"
+        },
+        "does": {
+          "ja": "（否定を作る）"
+        },
+        "not": {
+          "ja": "〜ない"
+        },
+        "discard": {
+          "ja": "捨てる"
+        },
+        "value": {
+          "ja": "価値"
+        },
+        "means": {
+          "ja": "意味する"
+        },
+        "acknowledging": {
+          "ja": "認めること"
+        },
+        "scarcity": {
+          "ja": "希少さ"
+        },
+        "ears": {
+          "ja": "聞き手の耳"
+        },
+        "preparing": {
+          "ja": "整えること"
+        },
+        "entrance": {
+          "ja": "入口"
+        },
+        "work’s": {
+          "ja": "作品の"
+        },
+        "side": {
+          "ja": "側"
+        }
+      },
+      "phrases": [
+        {
+          "en": "acknowledging the scarcity of ears and preparing the entrance from the work’s side",
+          "ja": "耳の希少さを認め、作品の側から入口を整えること",
+          "pattern": "acknowledging A and preparing B",
+          "note": "無料公開を価値放棄ではなく、受け手へ合わせた入口設計として結ぶ。"
+        }
+      ]
+    }
   ]
 }
