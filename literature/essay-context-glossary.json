@@ -51931,11 +51931,11 @@
         "resource": {
           "ja": "資源"
         },
-        "receiver’s": {
-          "ja": "受け手の"
-        },
         "time": {
           "ja": "時間"
+        },
+        "receiver's": {
+          "ja": "受け手の"
         }
       },
       "phrases": [
@@ -51961,11 +51961,11 @@
         "another": {
           "ja": "別の"
         },
-        "person’s": {
-          "ja": "人の"
-        },
         "attention": {
           "ja": "注意"
+        },
+        "person's": {
+          "ja": "人の"
         }
       },
       "phrases": [
@@ -52071,14 +52071,14 @@
         "older": {
           "ja": "年長の"
         },
-        "people’s": {
-          "ja": "人々の"
-        },
         "self-promotional": {
           "ja": "自己宣伝的な"
         },
         "stories": {
           "ja": "話"
+        },
+        "people's": {
+          "ja": "人々の"
         }
       },
       "phrases": [
@@ -52702,11 +52702,11 @@
         "entrance": {
           "ja": "入口"
         },
-        "work’s": {
-          "ja": "作品の"
-        },
         "side": {
           "ja": "側"
+        },
+        "work's": {
+          "ja": "作品の"
         }
       },
       "phrases": [
