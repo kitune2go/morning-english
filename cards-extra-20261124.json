@@ -1,0 +1,710 @@
+[
+  {
+    "_no": 213,
+    "_generatedAt": "2026-11-24T02:00:00+09:00",
+    "sentence": "Audio can lower the barrier to a long text when reading feels difficult, but if playback replaces every attempt to follow the words, listening may become avoidance rather than support.",
+    "phonetic": "オーディオ キャン ロウアー ザ バリア トゥ ア ロング テクスト ウェン リーディング フィールズ ディフィカルト、バット イフ プレイバック リプレイシズ エヴリ アテンプト トゥ フォロウ ザ ワーズ、リスニング メイ ビカム アヴォイダンス ラザー ザン サポート。",
+    "japaneseTranslation": "読むことが難しく感じられるとき、音声は長文へのハードルを下げられます。しかし、再生が文字を追う試みをすべて置き換えると、聞くことは支援ではなく回避になり得ます。",
+    "theme": "音声支援と読解回避の境界を見分ける",
+    "coreVerb": "lower",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Audio helps readers.",
+        "translation": "音声は読者を助けます。"
+      },
+      "phase2": {
+        "sentence": "Audio can lower the barrier to a long text.",
+        "translation": "音声は長文へのハードルを下げられます。",
+        "addedChunks": "対象(the barrier to a long text)を追加"
+      },
+      "phase3": {
+        "sentence": "Audio can support reading, but playback can also replace it.",
+        "translation": "音声は読解を支えられますが、再生が読解そのものに取って代わる場合もあります。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Guided listening is more helpful than passive playback alone.",
+        "translation": "文字を追う聞き方は、受け身の再生だけより役立ちます。",
+        "comparison": "more helpful than"
+      },
+      "phase5": {
+        "sentence": "Audio can lower the barrier to a long text when reading feels difficult, but if playback replaces every attempt to follow the words, listening may become avoidance rather than support",
+        "translation": "読むことが難しく感じられるとき、音声は長文へのハードルを下げられます。しかし、再生が文字を追う試みをすべて置き換えると、聞くことは支援ではなく回避になり得ます。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Audio can lower the barrier",
+          "function": "行動",
+          "translation": "音声はハードルを下げられます"
+        },
+        {
+          "text": "to a long text when reading feels difficult,",
+          "function": "時間",
+          "translation": "読むことが難しく感じられるときの長文への"
+        },
+        {
+          "text": "but if playback replaces every attempt",
+          "function": "接続",
+          "translation": "しかし再生があらゆる試みを置き換えるなら"
+        },
+        {
+          "text": "to follow the words,",
+          "function": "目的",
+          "translation": "文字を追うための"
+        },
+        {
+          "text": "listening may become avoidance",
+          "function": "結果",
+          "translation": "聞くことは回避になり得ます"
+        },
+        {
+          "text": "rather than support.",
+          "function": "比較",
+          "translation": "支援ではなく"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can + 動詞原形",
+          "where": "can lower",
+          "explanation": "音声が障壁を下げる可能性を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "lower the barrier to",
+          "where": "lower the barrier to a long text",
+          "explanation": "ある対象へ近づく難しさを減らす。",
+          "rule": "lower the barrier to + 名詞"
+        },
+        {
+          "category": "接続",
+          "name": "when節",
+          "where": "when reading feels difficult",
+          "explanation": "音声が役立つ状況を限定する。",
+          "rule": "when + 主語 + 動詞"
+        },
+        {
+          "category": "条件",
+          "name": "if節",
+          "where": "if playback replaces every attempt",
+          "explanation": "再生が読解を置き換える条件を示す。",
+          "rule": "if + 現在形, 主節"
+        },
+        {
+          "category": "不定詞",
+          "name": "attempt to do",
+          "where": "attempt to follow",
+          "explanation": "文字を追おうとする試みを表す。",
+          "rule": "attempt + to不定詞"
+        },
+        {
+          "category": "対照",
+          "name": "rather than",
+          "where": "avoidance rather than support",
+          "explanation": "支援ではなく回避になる対照を示す。",
+          "rule": "A rather than B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Audio can lowers the barrier.",
+          "correct": "Audio can lower the barrier.",
+          "why": "助動詞canの後は動詞原形にする。"
+        },
+        {
+          "wrong": "when reading feel difficult",
+          "correct": "when reading feels difficult",
+          "why": "動名詞主語readingは単数扱いなのでfeelsを使う。"
+        },
+        {
+          "wrong": "an attempt for follow the words",
+          "correct": "an attempt to follow the words",
+          "why": "attemptの後はto不定詞を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Listening can reopen a text that feels inaccessible on the page.",
+          "translation": "聞くことは、紙面では近づきにくい文章を再び開いてくれます。"
+        },
+        {
+          "text": "Playback supports reading best when the listener still follows the language.",
+          "translation": "再生が読解を最もよく支えるのは、聞き手がなお言葉を追っているときです。"
+        },
+        {
+          "text": "Audio is a bridge to the text, not necessarily a substitute for it.",
+          "translation": "音声は文章への橋であり、必ずしも文章の代用品ではありません。"
+        }
+      ],
+      "parseTree": "[S Audio [VP can lower the barrier [Adv when reading feels difficult]]], but [Adv if playback replaces every attempt to follow the words], [S listening [VP may become avoidance rather than support]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "lower the barrier to a long text",
+          "expanded": "because audio reduces the immediate effort required to decode every line visually",
+          "nuance": "音声が入口を作る理由。"
+        },
+        {
+          "original": "playback replaces every attempt to follow the words",
+          "expanded": "since the learner may stop connecting sounds with the written language",
+          "nuance": "再生が読解を置き換える条件。"
+        },
+        {
+          "original": "may become avoidance rather than support",
+          "expanded": "therefore, the value of audio depends on whether it leads the learner back to the text",
+          "nuance": "支援と回避を分ける基準。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The barrier to a long text can be lowered by audio when reading feels difficult.",
+          "translation": "読むことが難しく感じられるとき、長文へのハードルは音声によって下げられます。",
+          "note": "下げられる障壁を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Following the written words while listening, a learner can use audio as support rather than escape.",
+          "translation": "聞きながら書かれた言葉を追うことで、学習者は音声を逃避ではなく支援として使えます。",
+          "note": "文字を追う動作を-ing句にする。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The replacement of reading by passive playback can turn assistance into avoidance.",
+          "translation": "読解が受け身の再生に置き換わると、支援が回避へ変わり得ます。",
+          "note": "replaceとassistを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "barrier",
+            "alternatives": [
+              "obstacle",
+              "hurdle",
+              "threshold"
+            ],
+            "nuance": "barrierは参入障壁、obstacleは妨げ、hurdleは越える課題、thresholdは入口の境界を示す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "支援と逆効果",
+            "sentence": "X can help when Y, but if X replaces Z, it may become A rather than B.",
+            "translation": "YのときXは役立ちますが、XがZを置き換えるとBではなくAになり得ます。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Audio with synchronized text is more supportive than playback with no visual attention.",
+            "translation": "文字と同期した音声は、視覚的注意を伴わない再生より支援的です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If audio leads the learner back to the words, it remains a reading aid.",
+            "translation": "音声が学習者を文字へ戻すなら、それは読解支援であり続けます。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not pressing play, but maintaining contact with the text.",
+            "translation": "重要なのは再生ボタンを押すことではなく、文章との接触を保つことです。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Use audio as a bridge, not an exit.",
+            "translation": "音声を出口ではなく橋として使います。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "whenとifで支援が回避へ変わる条件を明示した。二段階の条件を含むため効率性は8。"
+    }
+  },
+  {
+    "_no": 214,
+    "_generatedAt": "2026-11-24T02:00:00+09:00",
+    "sentence": "When words are abundant, the reader's time may become scarcer than the text itself; publishing creates access, but it does not create an obligation to listen.",
+    "phonetic": "ウェン ワーズ アー アバンダント、ザ リーダーズ タイム メイ ビカム スケアサー ザン ザ テクスト イットセルフ；パブリッシング クリエイツ アクセス、バット イット ダズ ノット クリエイト アン オブリゲイション トゥ リスン。",
+    "japaneseTranslation": "言葉が豊富にあるとき、読者の時間は文章そのものより希少になり得ます。出版は接触の機会を作りますが、聞く義務まで作るわけではありません。",
+    "theme": "言葉の供給と受け手の注意の希少性を分ける",
+    "coreVerb": "create",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Readers give time.",
+        "translation": "読者は時間を使います。"
+      },
+      "phase2": {
+        "sentence": "Readers give scarce time to abundant words.",
+        "translation": "読者は豊富な言葉に希少な時間を使います。",
+        "addedChunks": "時間の性質(scarce)と対象(abundant words)を追加"
+      },
+      "phase3": {
+        "sentence": "Publishing creates access, but it cannot demand attention.",
+        "translation": "出版は接触機会を作りますが、注意を要求することはできません。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "The reader's time is scarcer than the text itself.",
+        "translation": "読者の時間は文章そのものより希少です。",
+        "comparison": "scarcer than"
+      },
+      "phase5": {
+        "sentence": "When words are abundant, the reader's time may become scarcer than the text itself; publishing creates access, but it does not create an obligation to listen",
+        "translation": "言葉が豊富にあるとき、読者の時間は文章そのものより希少になり得ます。出版は接触の機会を作りますが、聞く義務まで作るわけではありません。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When words are abundant,",
+          "function": "時間",
+          "translation": "言葉が豊富にあるとき"
+        },
+        {
+          "text": "the reader's time may become",
+          "function": "状態",
+          "translation": "読者の時間はなり得ます"
+        },
+        {
+          "text": "scarcer than the text itself;",
+          "function": "比較",
+          "translation": "文章そのものより希少に"
+        },
+        {
+          "text": "publishing creates access,",
+          "function": "結果",
+          "translation": "出版は接触の機会を作ります"
+        },
+        {
+          "text": "but it does not create",
+          "function": "接続",
+          "translation": "しかし出版は作りません"
+        },
+        {
+          "text": "an obligation to listen.",
+          "function": "対象",
+          "translation": "聞く義務を"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "when節",
+          "where": "When words are abundant",
+          "explanation": "言葉の供給が多い状況を示す。",
+          "rule": "When + 主語 + be動詞 + 形容詞"
+        },
+        {
+          "category": "所有格",
+          "name": "reader's",
+          "where": "the reader's time",
+          "explanation": "読者が使える時間を表す。",
+          "rule": "名詞's + 名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "may + 動詞原形",
+          "where": "may become",
+          "explanation": "必然ではなく起こり得る変化として述べる。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "比較級",
+          "name": "scarcer than",
+          "where": "scarcer than the text itself",
+          "explanation": "時間と文章の相対的な希少性を比較する。",
+          "rule": "比較級 + than + 比較対象"
+        },
+        {
+          "category": "再帰代名詞",
+          "name": "itselfによる強調",
+          "where": "the text itself",
+          "explanation": "文章そのものを強調する。",
+          "rule": "名詞 + itself"
+        },
+        {
+          "category": "否定",
+          "name": "does not + 動詞原形",
+          "where": "does not create",
+          "explanation": "出版が聞く義務までは生まないことを示す。",
+          "rule": "does not + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When words is abundant",
+          "correct": "When words are abundant",
+          "why": "複数主語wordsにはareを使う。"
+        },
+        {
+          "wrong": "the readers time",
+          "correct": "the reader's time",
+          "why": "読者の時間という所有関係にアポストロフィーを使う。"
+        },
+        {
+          "wrong": "publishing does not creates an obligation",
+          "correct": "publishing does not create an obligation",
+          "why": "does notの後は動詞原形にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Abundant expression makes attention, not language, the limiting resource.",
+          "translation": "表現が豊富になると、制約となる資源は言葉ではなく注意になります。"
+        },
+        {
+          "text": "The freedom to speak does not include a right to another person’s time.",
+          "translation": "話す自由には、他人の時間を得る権利までは含まれません。"
+        },
+        {
+          "text": "Publication offers a message; reception remains a separate choice.",
+          "translation": "出版はメッセージを差し出しますが、受け取るかは別の選択です。"
+        }
+      ],
+      "parseTree": "[Adv When words are abundant], [S the reader’s time [VP may become scarcer than the text itself]]; [S publishing creates access], but [S it does not create an obligation to listen]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "the reader's time may become scarcer",
+          "expanded": "because the supply of available language can grow faster than any person’s capacity to attend to it",
+          "nuance": "注意が希少になる理由。"
+        },
+        {
+          "original": "publishing creates access",
+          "expanded": "since publication makes a text available without controlling whether anyone reads it",
+          "nuance": "公開が生むものの範囲。"
+        },
+        {
+          "original": "does not create an obligation to listen",
+          "expanded": "therefore, expression and reception must be treated as separate acts",
+          "nuance": "発信と受容を分ける帰結。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Access can be created by publishing, but attention cannot be required from the reader.",
+          "translation": "出版によって接触機会は作れますが、読者に注意を義務づけることはできません。",
+          "note": "作られる機会と要求されない注意を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Facing abundant language, readers allocate their limited time selectively.",
+          "translation": "豊富な言葉に直面して、読者は限られた時間を選択的に配分します。",
+          "note": "供給過剰の状況を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The abundance of words increases the scarcity of attention.",
+          "translation": "言葉の豊富さは注意の希少性を高めます。",
+          "note": "abundantとscarceを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "abundant",
+            "alternatives": [
+              "plentiful",
+              "copious",
+              "widely available"
+            ],
+            "nuance": "abundantは十分以上に多い、plentifulは豊富、copiousは大量、widely availableは広く入手可能。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "希少性の逆転",
+            "sentence": "When X is abundant, Y may become scarcer than X; A creates access but not obligation.",
+            "translation": "Xが豊富になるとYはXより希少になり得ます。Aは接触機会を作っても義務は作りません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A reader’s uninterrupted attention is scarcer than another available text.",
+            "translation": "読者の途切れない注意は、もう一つの利用可能な文章より希少です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If messages multiply, each one must compete for limited attention.",
+            "translation": "メッセージが増えれば、それぞれが限られた注意を競うことになります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What has become scarce is not expression but willing attention.",
+            "translation": "希少になったのは表現ではなく、自発的な注意です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Words are plentiful; attention is not.",
+            "translation": "言葉は豊富ですが、注意はそうではありません。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "比較級とセミコロンで供給と注意の逆転を簡潔に示した。"
+    }
+  },
+  {
+    "_no": 215,
+    "_generatedAt": "2026-11-24T02:00:00+09:00",
+    "sentence": "An autonomous development system needs more than a coding model: a persistent runner must issue tasks, execute changes, and inspect results before a human approves a release.",
+    "phonetic": "アン オートノマス ディヴェロップメント システム ニーズ モア ザン ア コウディング モデル：ア パーシステント ランナー マスト イシュー タスクス、エクセキュート チェインジズ、アンド インスペクト リザルツ ビフォー ア ヒューマン アプルーヴズ ア リリース。",
+    "japaneseTranslation": "自律的な開発システムには、コーディングモデルだけでは足りません。常設ランナーがタスクを発行し、変更を実行し、人間が公開を承認する前に結果を検査する必要があります。",
+    "theme": "AI開発を継続実行する指示・実行・検査役を置く",
+    "coreVerb": "inspect",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A runner executes tasks.",
+        "translation": "ランナーはタスクを実行します。"
+      },
+      "phase2": {
+        "sentence": "A persistent runner executes development tasks.",
+        "translation": "常設ランナーは開発タスクを実行します。",
+        "addedChunks": "継続性(persistent)と対象(development tasks)を追加"
+      },
+      "phase3": {
+        "sentence": "A model writes code, but a runner manages the workflow.",
+        "translation": "モデルはコードを書きますが、ランナーが作業工程を管理します。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "A complete development system needs more than a coding model.",
+        "translation": "完全な開発システムには、コーディングモデル以上のものが必要です。",
+        "comparison": "more than"
+      },
+      "phase5": {
+        "sentence": "An autonomous development system needs more than a coding model: a persistent runner must issue tasks, execute changes, and inspect results before a human approves a release",
+        "translation": "自律的な開発システムには、コーディングモデルだけでは足りません。常設ランナーがタスクを発行し、変更を実行し、人間が公開を承認する前に結果を検査する必要があります。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "An autonomous development system needs",
+          "function": "状態",
+          "translation": "自律的な開発システムには必要です"
+        },
+        {
+          "text": "more than a coding model:",
+          "function": "比較",
+          "translation": "コーディングモデル以上のものが"
+        },
+        {
+          "text": "a persistent runner must issue tasks,",
+          "function": "行動",
+          "translation": "常設ランナーがタスクを発行しなければなりません"
+        },
+        {
+          "text": "execute changes,",
+          "function": "行動",
+          "translation": "変更を実行し"
+        },
+        {
+          "text": "and inspect results",
+          "function": "行動",
+          "translation": "結果を検査します"
+        },
+        {
+          "text": "before a human approves a release.",
+          "function": "時間",
+          "translation": "人間が公開を承認する前に"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "冠詞",
+          "name": "an + autonomous",
+          "where": "An autonomous development system",
+          "explanation": "母音で始まる発音の形容詞の前にanを使う。",
+          "rule": "an + 母音音で始まる語 + 単数名詞"
+        },
+        {
+          "category": "比較",
+          "name": "more than",
+          "where": "more than a coding model",
+          "explanation": "モデル単体では要件が不足することを表す。",
+          "rule": "more than + 名詞"
+        },
+        {
+          "category": "句読法",
+          "name": "コロン",
+          "where": "model: a persistent runner",
+          "explanation": "必要な追加要素を後半で具体化する。",
+          "rule": "一般説明: 具体説明"
+        },
+        {
+          "category": "助動詞",
+          "name": "must + 動詞原形",
+          "where": "must issue",
+          "explanation": "継続実行役に必要な機能を示す。",
+          "rule": "must + 動詞原形"
+        },
+        {
+          "category": "並列",
+          "name": "三動詞の並列",
+          "where": "issue, execute, and inspect",
+          "explanation": "ランナーの三つの動作を同じ形で並べる。",
+          "rule": "V1, V2, and V3"
+        },
+        {
+          "category": "接続",
+          "name": "before節",
+          "where": "before a human approves a release",
+          "explanation": "検査を公開承認より前に置く。",
+          "rule": "before + 主語 + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A system need more than a model.",
+          "correct": "A system needs more than a model.",
+          "why": "単数主語systemに三人称単数のneedsを使う。"
+        },
+        {
+          "wrong": "a runner must issues tasks",
+          "correct": "a runner must issue tasks",
+          "why": "助動詞mustの後は動詞原形にする。"
+        },
+        {
+          "wrong": "issue tasks, executing changes, and inspect results",
+          "correct": "issue tasks, execute changes, and inspect results",
+          "why": "並列する三つの動詞を同じ原形にそろえる。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A coding model produces changes, while an orchestrator keeps the development cycle running.",
+          "translation": "コーディングモデルが変更を作り、オーケストレーターが開発サイクルを回し続けます。"
+        },
+        {
+          "text": "Execution and inspection need a persistent environment, not only an intelligent model.",
+          "translation": "実行と検査には、知的モデルだけでなく常設環境が必要です。"
+        },
+        {
+          "text": "Human approval remains the final gate even when agents handle the intermediate work.",
+          "translation": "中間作業をエージェントが担っても、人間の承認は最終ゲートとして残ります。"
+        }
+      ],
+      "parseTree": "[S An autonomous development system [VP needs more than a coding model]]: [S a persistent runner [VP must issue tasks, execute changes, and inspect results [Adv before a human approves a release]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "needs more than a coding model",
+          "expanded": "because generated code must still be scheduled, executed, observed, and evaluated",
+          "nuance": "モデル単体では閉じない理由。"
+        },
+        {
+          "original": "a persistent runner must issue tasks, execute changes, and inspect results",
+          "expanded": "since the workflow needs a component that remains available between individual model calls",
+          "nuance": "常設実行役が必要な理由。"
+        },
+        {
+          "original": "before a human approves a release",
+          "expanded": "therefore, automated work can proceed continuously while publication remains under explicit human control",
+          "nuance": "自律性と公開権限を両立する設計。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Tasks, changes, and results must be managed by a persistent runner before release is approved.",
+          "translation": "公開が承認される前に、タスク・変更・結果は常設ランナーによって管理されなければなりません。",
+          "note": "管理対象を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Running continuously, the orchestrator connects model output with execution and inspection.",
+          "translation": "継続稼働することで、オーケストレーターはモデル出力を実行と検査へつなぎます。",
+          "note": "継続稼働を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Persistent orchestration enables task issuance, change execution, and result inspection.",
+          "translation": "常設の統括機構は、タスク発行・変更実行・結果検査を可能にします。",
+          "note": "三つの動作を名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "runner",
+            "alternatives": [
+              "orchestrator",
+              "worker",
+              "execution service"
+            ],
+            "nuance": "runnerは処理実行役、orchestratorは全体統括、workerは個別作業、execution serviceは常設サービスを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "不足と具体化",
+            "sentence": "X needs more than Y: Z must do A, B, and C before D.",
+            "translation": "XにはY以上が必要で、Dの前にZがA・B・Cを行わなければなりません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A persistent runner provides more continuity than isolated model calls.",
+            "translation": "常設ランナーは、個別のモデル呼び出しより高い継続性を提供します。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If no runner inspects the result, generated changes may fail silently.",
+            "translation": "結果を検査するランナーがなければ、生成された変更が気づかれずに失敗する可能性があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What makes the cycle autonomous is persistent execution, not code generation alone.",
+            "translation": "サイクルを自律化するのは、コード生成だけではなく継続的な実行です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Models propose; runners execute; humans release.",
+            "translation": "モデルが提案し、ランナーが実行し、人間が公開します。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "コロンと三動詞並列で、モデル・常設ランナー・人間承認の役割を明確に分けた。"
+    }
+  }
+]
