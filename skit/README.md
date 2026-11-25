@@ -27,6 +27,8 @@ skit/
 
 撤収後は `cooldownAfterDismiss` 秒たつと、また最初から段階が進みます。
 
+標準の流れ：開く（寸劇）→10秒 黒猫→20秒 口論→32秒 増殖→45秒 総出→55秒以降は2.5秒ごとに3体ずつ増え続ける（最大60体）。
+
 ---
 
 ## config.json
@@ -39,6 +41,7 @@ skit/
 | `tapToPop` | タップで1体消せるか |
 | `cooldownAfterDismiss` | 撤収後、再び出てくるまでの秒数 |
 | `dismissOn` | 撤収のきっかけ（`read` / `speechEnd`） |
+| `growth` | 最後の段階のあとも増え続ける設定。`after` 秒から `every` 秒ごとに `count` 体ずつ、`chars` から選んで湧く。`say` の中からときどき1体がしゃべる（`sayChance`）。`maxActors` で止まる |
 | `characters` | キャラの一覧（下） |
 | `scripts` | 共通台本のファイル |
 | `perCard` | カード別台本の場所。`{no}` がカード番号になる |

@@ -1,12 +1,15 @@
 {
   "version": 1,
-  "maxActors": 36,
-  "openDelay": 2,
-  "secPerChar": 0.09,
+  "maxActors": 60,
+  "openDelay": 1,
+  "secPerChar": 0.075,
   "tapToPop": true,
-  "cooldownAfterDismiss": 45,
+  "cooldownAfterDismiss": 30,
   "stopButtonFrom": 1,
-  "dismissOn": ["read", "speechEnd"],
+  "dismissOn": [
+    "read",
+    "speechEnd"
+  ],
   "characters": [
     {
       "id": "pink",
@@ -16,10 +19,29 @@
       "aspect": 1.125,
       "color": "#ff8fbf",
       "defaultAt": "textRight",
-      "scaleRange": [0.85, 1.1],
+      "scaleRange": [
+        0.85,
+        1.1
+      ],
       "flipChance": 0.4,
-      "tints": [0, 0, 0, 20, -20, 35],
-      "popLines": ["あっ", "ひどい", "また来るね", "分身はまだいるよ"]
+      "tints": [
+        0,
+        0,
+        0,
+        20,
+        -20,
+        35
+      ],
+      "popLines": [
+        "あっ",
+        "ひどい",
+        "また来るね",
+        "分身はまだいるよ",
+        "痛くないけど",
+        "1体減っても2体来る",
+        "覚えてろ",
+        "おつかれ〜"
+      ]
     },
     {
       "id": "cat",
@@ -31,10 +53,55 @@
       "color": "#1b1b1f",
       "defaultAt": "offLeft",
       "canSpeak": false,
-      "scaleRange": [0.9, 1.1],
-      "popLines": ["にゃ", "…"]
+      "scaleRange": [
+        0.9,
+        1.1
+      ],
+      "popLines": [
+        "にゃ",
+        "…",
+        "シャー"
+      ]
     }
   ],
-  "scripts": ["scripts/default.json"],
-  "perCard": "cards/{no}.json"
+  "scripts": [
+    "scripts/default.json"
+  ],
+  "perCard": "cards/{no}.json",
+  "growth": {
+    "after": 55,
+    "every": 2.5,
+    "count": 3,
+    "spawnEvery": 0.1,
+    "chars": [
+      "pink",
+      "pink",
+      "pink",
+      "pink",
+      "cat"
+    ],
+    "sayChance": 0.7,
+    "say": [
+      "まだ読んでないの？",
+      "増えるよ？",
+      "{word}！",
+      "{coreVerb}してる？",
+      "ねえねえ",
+      "呼ばれてないけど来た",
+      "本文どこ？",
+      "ここ空いてる？",
+      "音読したら帰るって言ってた",
+      "帰らないよ",
+      "今日の英語、私が読む",
+      "いや私が",
+      "みんな同じ顔",
+      "朝だよ",
+      "{firstWords}…まで読んだ",
+      "テーマ「{theme}」らしいよ",
+      "邪魔しに来ました",
+      "もう少し詰めて",
+      "にゃ",
+      "全員集合〜！"
+    ]
+  }
 }

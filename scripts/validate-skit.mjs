@@ -33,6 +33,12 @@ if (cfg) {
     if (c.defaultAt && !PLACES.has(c.defaultAt)) errors.push(`${at}: defaultAt "${c.defaultAt}" は使えない`);
   }
 }
+if (cfg?.growth) {
+  const g = cfg.growth;
+  if (!Array.isArray(g.chars) || !g.chars.length) errors.push('config.json growth.chars が空');
+  for (const c of g.chars || []) if (!charIds.includes(c)) errors.push(`config.json growth.chars "${c}" に合うキャラがない`);
+  for (const k of ['after', 'every', 'count']) if (g[k] != null && !(typeof g[k] === 'number' && g[k] > 0)) errors.push(`config.json growth.${k} は正の数`);
+}
 const known = id => typeof id === 'string' && (id === 'any' || charIds.some(c => id.startsWith(c)));
 
 function checkScenes(file, data) {
