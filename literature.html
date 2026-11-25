@@ -43,6 +43,11 @@
 /* The word list uses wrapping flex rows rather than intrinsic-width grid tracks.
    Long vocabulary and links must never overlap at narrow Android viewport widths. */
 .chunk>div{min-width:0;max-width:100%}
+.chunk{display:block}
+.chunk-text{display:grid;gap:6px}
+.chunk-speech-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:start}
+.chunk-speech-row .chunk-ja{margin-top:0}
+.chunk-speech-row .chunk-btn{min-width:44px;min-height:40px;justify-content:center;white-space:nowrap}
 .chunk-en,.chunk-ja{overflow-wrap:anywhere}
 .chunk-gloss{margin:9px 0 4px;border:1px solid #d6d3d1;background:#fffdf7;padding:9px;min-width:0;max-width:100%}
 .chunk-gloss>summary{cursor:pointer;font-size:12px;color:#254f3c;font-weight:700;line-height:1.6}
@@ -306,15 +311,19 @@ function renderIdiomUnit(unit,contextWords,card,en){
     (info.note?'<p class="word-usage" lang="ja">'+escapeHtml(info.note)+'</p>':'')+
     '<div class="idiom-parts">'+parts.map(t=>renderWordLine(t,contextWords,card,en,true)).join('')+'</div></div>';
 }
+function renderChunkText(en,ja){
+  return '<div class="chunk-text"><div class="chunk-speech-row"><div class="chunk-en" lang="en">'+escapeHtml(en)+'</div>'+
+    speakButton('EN',en,'en-US','chunk-btn')+'</div><div class="chunk-speech-row"><div class="chunk-ja" lang="ja">'+escapeHtml(ja)+'</div>'+
+    speakButton('JA',ja,'ja-JP','chunk-btn')+'</div></div>';
+}
 function renderChunk(ch,i,card,withWords=false){
   const en=ch.en||'',ja=ch.ja||'';
   if(!withWords){
     // Do not tokenize every word in every chapter until the learner opens its glossary.
-    return '<div class="chunk"><div><div class="chunk-en">'+escapeHtml(en)+'</div><div class="chunk-ja">'+escapeHtml(ja)+'</div>'+
+    return '<div class="chunk"><div>'+renderChunkText(en,ja)+
       '<details class="chunk-gloss" data-gloss-card="'+escapeAttr(card.id)+'" data-gloss-index="'+i+'"><summary>文脈単語帳（開くと読み込みます）</summary>'+
       '<p class="gloss-disclaimer">単語の意味を読み込んでいます…</p></details>'+
-      '<a class="chunk-question" href="'+escapeAttr(askChatUrl(card,'このチャンク内の全単語について、原文の語順で一語ずつ品詞・この文脈での意味・活用を教えてください。',en))+'" target="_blank" rel="noopener noreferrer">↗ このチャンクの全単語をチャッピーに質問</a></div>'+
-      '<div class="chunk-actions">'+speakButton('EN',en,'en-US','chunk-btn')+speakButton('JA',ja,'ja-JP','chunk-btn')+'</div></div>';
+      '<a class="chunk-question" href="'+escapeAttr(askChatUrl(card,'このチャンク内の全単語について、原文の語順で一語ずつ品詞・この文脈での意味・活用を教えてください。',en))+'" target="_blank" rel="noopener noreferrer">↗ このチャンクの全単語をチャッピーに質問</a></div></div>';
   }
   const context=(contextGlossary[card.id]||[])[i]||{},contextWords=context.words||{};
   const question='このチャンク内の全単語について、原文の語順で一語ずつ品詞・この文脈での意味・活用を教えてください。';
@@ -334,9 +343,8 @@ function renderChunk(ch,i,card,withWords=false){
   const wordPanel='<details class="chunk-gloss"><summary>文脈単語帳（'+tokens.length+'語・文脈訳'+contextualCount+'語'+(idiomCount?'・熟語'+idiomCount+'件':'')+'）</summary>'+
     '<p class="gloss-disclaimer">「文脈」はこの文での意味、「辞書」は辞典の基本的な意味です。数語が合わさって意味になる部分は「熟語」としてまとめ、その下に構成する各語の意味を並べています。</p>'+
     phrasePanel+'<div class="chunk-words">'+words+'</div></details>';
-  return '<div class="chunk"><div><div class="chunk-en">'+escapeHtml(en)+'</div><div class="chunk-ja">'+escapeHtml(ja)+'</div>'+
-    wordPanel+'<a class="chunk-question" href="'+escapeAttr(wordLink)+'" target="_blank" rel="noopener noreferrer">↗ このチャンクの全単語をチャッピーに質問</a></div>'+
-    '<div class="chunk-actions">'+speakButton('EN',en,'en-US','chunk-btn')+speakButton('JA',ja,'ja-JP','chunk-btn')+'</div></div>';
+  return '<div class="chunk"><div>'+renderChunkText(en,ja)+
+    wordPanel+'<a class="chunk-question" href="'+escapeAttr(wordLink)+'" target="_blank" rel="noopener noreferrer">↗ このチャンクの全単語をチャッピーに質問</a></div></div>';
 }
 function renderCard(card){
   const englishOriginal=card.originalLanguage==='en';
