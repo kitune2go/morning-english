@@ -1,0 +1,27 @@
+name: Validate skit scripts
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "skit/**"
+      - "scripts/validate-skit.mjs"
+      - ".github/workflows/validate-skit.yml"
+  pull_request:
+    paths:
+      - "skit/**"
+      - "scripts/validate-skit.mjs"
+      - ".github/workflows/validate-skit.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check JavaScript syntax
+        run: node --check skit/skit.js
+      - name: Validate skit config and scripts
+        run: node scripts/validate-skit.mjs

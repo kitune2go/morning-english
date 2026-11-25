@@ -215,8 +215,10 @@ function step(dt){T+=dt;
  // 単語の区切りが届かないときは、経過時間で字幕を送る（長い文が帯からはみ出さないように）
  wrap.classList.toggle('talking',talking);
 }
+// 寸劇モード（skit/skit.js）が分身を描くあいだは、しまっていても描画を続ける
+let keepAlive=false;
 let last=performance.now();
-function loop(now){requestAnimationFrame(loop);if(!ready||document.hidden){last=now;return}if(wrap.classList.contains('pc-hide')){const r=(now-last)/1000;if((talking||cap.classList.contains('on'))&&r>1/30){last=now;T+=Math.min(.05,r);capScroll()}return}const raw=(now-last)/1000;if(raw<(talking?1/60:1/30)-.002)return;last=now;step(Math.min(.05,raw));capScroll();render()}
+function loop(now){requestAnimationFrame(loop);if(!ready||document.hidden){last=now;return}if(wrap.classList.contains('pc-hide')&&!keepAlive){const r=(now-last)/1000;if((talking||cap.classList.contains('on'))&&r>1/30){last=now;T+=Math.min(.05,r);capScroll()}return}const raw=(now-last)/1000;if(raw<(talking?1/60:1/30)-.002)return;last=now;step(Math.min(.05,raw));capScroll();render()}
 
 /* ---------- 読み上げとつなぐ ---------- */
 const SS=window.speechSynthesis;
@@ -246,7 +248,7 @@ if(SS&&!SS.__pinkchan){SS.__pinkchan=true;
  // end が来ない端末向けの見張り
  setInterval(()=>{if(talking&&!SS.speaking&&!SS.pending&&T>manualUntil)stopTalk();else if(!talking&&SS.speaking&&!SS.paused)startTalk()},400);
 }
-window.Pinkchan={state:()=>({talking,moF:+moF.toFixed(2),boundaryMode}),react:n=>react(n,true),caption:(t,i,l,r)=>showCap(t,i,l,r),talk:(sec=3)=>{manualUntil=T+sec;startTalk()},stop:()=>{manualUntil=0;stopTalk()},show:()=>setVisible(true),hide:()=>setVisible(false)};
+window.Pinkchan={state:()=>({talking,moF:+moF.toFixed(2),boundaryMode}),react:n=>react(n,true),caption:(t,i,l,r)=>showCap(t,i,l,r),talk:(sec=3)=>{manualUntil=T+sec;startTalk()},stop:()=>{manualUntil=0;stopTalk()},show:()=>setVisible(true),hide:()=>setVisible(false),canvas:()=>ready?cv:null,keepAlive:v=>{keepAlive=!!v}};
 if(document.body)mount();else document.addEventListener('DOMContentLoaded',mount);
 load().then(()=>requestAnimationFrame(loop)).catch(e=>{console.warn('ピンクちゃんを読み込めませんでした',e);wrap.remove();tab.remove()});
 })();

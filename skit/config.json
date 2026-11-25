@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "maxActors": 36,
+  "openDelay": 2,
+  "secPerChar": 0.09,
+  "tapToPop": true,
+  "cooldownAfterDismiss": 45,
+  "stopButtonFrom": 1,
+  "dismissOn": ["read", "speechEnd"],
+  "characters": [
+    {
+      "id": "pink",
+      "name": "ピンクちゃん（分身）",
+      "type": "pinkchan-mirror",
+      "size": 104,
+      "aspect": 1.125,
+      "color": "#ff8fbf",
+      "defaultAt": "textRight",
+      "scaleRange": [0.85, 1.1],
+      "flipChance": 0.4,
+      "tints": [0, 0, 0, 20, -20, 35],
+      "popLines": ["あっ", "ひどい", "また来るね", "分身はまだいるよ"]
+    },
+    {
+      "id": "cat",
+      "name": "黒猫",
+      "type": "image",
+      "src": "characters/cat.svg",
+      "size": 78,
+      "aspect": 1,
+      "color": "#1b1b1f",
+      "defaultAt": "offLeft",
+      "canSpeak": false,
+      "scaleRange": [0.9, 1.1],
+      "popLines": ["にゃ", "…"]
+    }
+  ],
+  "scripts": ["scripts/default.json"],
+  "perCard": "cards/{no}.json"
+}
