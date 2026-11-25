@@ -1,0 +1,99 @@
+{
+  "id": "card-217",
+  "title": "No.217 演出が主役を奪う日（enhance / spectacle）",
+  "scenes": [
+    {
+      "id": "217-open",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textRight" },
+        { "who": "pink", "say": "本日のお品書き。動詞は enhance、「引き立てる」" },
+        { "who": "pink", "say": "器と盛り付けで、料理を引き立てる。いい話だね" },
+        { "who": "pink", "say": "主役は料理。演出は脇役。わかった？" },
+        { "enter": "pink2", "at": "textLeft", "flip": true },
+        { "who": "pink2", "say": "はーい、脇役の演出担当でーす", "act": "bounce" },
+        { "who": "pink", "say": "呼んでない" },
+        { "who": "pink2", "say": "盛り付けは任せて。まず私を本文の横に盛ります" },
+        { "who": "pink", "say": "それは盛り付けじゃなくて出しゃばり", "act": "shake" }
+      ]
+    },
+    {
+      "id": "217-stage-1",
+      "when": { "trigger": "idle", "after": 10 },
+      "steps": [
+        { "enter": "cat", "at": "offLeft" },
+        { "who": "cat", "move": "overText", "sec": 1.6 },
+        { "who": "cat", "act": "sleep" },
+        { "who": "pink2", "say": "猫を一匹、添えてみました" },
+        { "who": "pink", "say": "パセリみたいに言わないで" },
+        { "who": "pink2", "say": "器（plate）の上に乗ってるから実質盛り付け" },
+        { "who": "pink", "say": "乗ってるの、plates じゃなくて本文だから！", "style": "shout" }
+      ]
+    },
+    {
+      "id": "217-stage-2",
+      "when": { "trigger": "idle", "after": 20 },
+      "steps": [
+        { "enter": "pink3", "at": "textTop", "tint": 20 },
+        { "who": "pink3", "say": "シェフ入りまーす", "act": "spin" },
+        { "who": "pink3", "say": "本日のシェフは私。拍手を" },
+        { "enter": "pink4", "at": "textBottom", "tint": -20 },
+        { "who": "pink4", "say": "シェフ〜！ こっち見て〜！", "act": "hop" },
+        { "who": "pink", "say": "ほら、注意が料理からシェフに移った" },
+        { "who": "pink", "say": "本文で言うと shifts attention from the food to the chef" },
+        { "who": "pink3", "say": "food より chef のほうが映えるもん" },
+        { "who": "pink", "say": "映えで英語を隠さないで", "act": "shake" }
+      ]
+    },
+    {
+      "id": "217-stage-3",
+      "when": { "trigger": "idle", "after": 32 },
+      "steps": [
+        { "who": "pink", "say": "…ちょっと待って、増えてない？" },
+        { "swarm": "pink", "count": 8, "every": 0.12, "say": ["演出です", "盛り付けです", "パフォーマンスです", "シェフです"] },
+        { "who": "any", "say": "フランベいきまーす", "act": "spin" },
+        { "who": "any", "say": "皿を回します", "act": "spin" },
+        { "who": "any", "say": "料理は？", "style": "whisper" },
+        { "who": "any", "say": "まだ出てない", "style": "whisper" },
+        { "swarm": "pink", "count": 6, "every": 0.1, "say": ["拍手！", "映えてる！", "見て見て！"] }
+      ]
+    },
+    {
+      "id": "217-stage-4",
+      "when": { "trigger": "idle", "after": 45 },
+      "steps": [
+        { "swarm": "pink", "count": 14, "every": 0.07, "at": "screen" },
+        { "swarm": "cat", "count": 3, "every": 0.15, "at": "overText" },
+        { "who": "any", "say": "spectacle！ spectacle！", "style": "shout" },
+        { "who": "any", "say": "見世物がサービスに取って代わり始めました！", "style": "shout" },
+        { "who": "any", "say": "spectacle begins to replace service…まさに今", "style": "whisper" },
+        { "who": "any", "say": "で、お客さん（英文）はどこ？" },
+        { "swarm": "pink", "count": 10, "every": 0.07, "at": "screen", "say": ["埋まってる", "下のほう", "見えない", "知らない！"] }
+      ]
+    },
+    {
+      "id": "217-bye-read",
+      "when": { "trigger": "dismiss", "reason": "read" },
+      "steps": [
+        { "who": "any", "say": "あっ、お客さんが料理を食べ始めた", "act": "shake" },
+        { "who": "any", "say": "主役が戻ってきたなら、演出は下がります" },
+        { "who": "any", "say": "本日の寸劇、enhance でした〜" }
+      ]
+    },
+    {
+      "id": "217-bye-speech",
+      "when": { "trigger": "dismiss", "reason": "speechEnd" },
+      "steps": [
+        { "who": "any", "say": "料理の味（発音）を確かめられちゃった", "style": "whisper" },
+        { "who": "any", "say": "演出は引っ込みまーす" }
+      ]
+    },
+    {
+      "id": "217-bye-button",
+      "when": { "trigger": "dismiss", "reason": "button" },
+      "steps": [
+        { "who": "any", "say": "お下げしまーす" }
+      ]
+    }
+  ]
+}
