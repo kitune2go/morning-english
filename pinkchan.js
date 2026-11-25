@@ -179,6 +179,8 @@ function drawLayer(p){const n=p.n;
  ctx.drawImage(p.img,p.x,p.y)}
 function fit(){layout();if(!box)return;dpr=Math.min(2,window.devicePixelRatio||1);const w=wrap.clientWidth||144,h=wrap.clientHeight||162;cv.width=Math.max(1,w*dpr|0);cv.height=Math.max(1,h*dpr|0);sc=Math.max(w/box.w,h/box.h);ox=(w-box.w*sc)/2-box.x*sc;oy=(h-box.h*sc)-box.y*sc}
 window.addEventListener('resize',fit);
+// 本文の読込でスクロールバー幅が変わったときも保存位置を再計算する。
+if(window.ResizeObserver)new ResizeObserver(fit).observe(document.documentElement);
 function render(){ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,cv.width,cv.height);const k=dpr*sc;ctx.setTransform(k,0,0,k,dpr*ox,dpr*oy);
  computeMats();const base=ctx.getTransform();
  for(const n of ORDER){const p=L[n];if(!p)continue;const mesh=meshOf(p);ctx.save();
