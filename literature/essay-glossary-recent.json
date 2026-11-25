@@ -6726,5 +6726,445 @@
     "lemma": "zoning",
     "form": "",
     "note": "zoning：この文脈では「用途・区域分け」"
+  },
+  {
+    "word": "apron",
+    "ja": "エプロン",
+    "pos": "名詞",
+    "lemma": "apron",
+    "form": "",
+    "note": "厨房で身につける前掛け。"
+  },
+  {
+    "word": "baby",
+    "ja": "ねえ",
+    "pos": "呼びかけ",
+    "lemma": "baby",
+    "form": "",
+    "note": "この歌詞では親しみを込めた相手への呼びかけ。"
+  },
+  {
+    "word": "baby's",
+    "ja": "赤ん坊の",
+    "pos": "所有格",
+    "lemma": "baby",
+    "form": "",
+    "note": "a baby’s cry で赤ん坊の泣き声。"
+  },
+  {
+    "word": "bag",
+    "ja": "袋",
+    "pos": "名詞",
+    "lemma": "bag",
+    "form": "",
+    "note": "エプロンを入れる袋。"
+  },
+  {
+    "word": "bout",
+    "ja": "〜について",
+    "pos": "前置詞",
+    "lemma": "about",
+    "form": "",
+    "note": "’bout は about の口語省略。読書画面では先頭のアポストロフィを除いた語形で参照する。"
+  },
+  {
+    "word": "burner",
+    "ja": "コンロの火口",
+    "pos": "名詞",
+    "lemma": "burner",
+    "form": "",
+    "note": "burner knobs でコンロの火力を調整するつまみ。"
+  },
+  {
+    "word": "burnin",
+    "ja": "燃え上がっている",
+    "pos": "動詞",
+    "lemma": "burn",
+    "form": "",
+    "note": "burnin’ は burning の口語表記。語末のアポストロフィは単語抽出では除かれる。"
+  },
+  {
+    "word": "clockin",
+    "ja": "打刻している",
+    "pos": "動詞",
+    "lemma": "clock",
+    "form": "",
+    "note": "clockin’ in で出勤の打刻をしている。clocking の口語表記。"
+  },
+  {
+    "word": "cook",
+    "ja": "料理人",
+    "pos": "名詞",
+    "lemma": "cook",
+    "form": "",
+    "note": "厨房で料理を作る人。"
+  },
+  {
+    "word": "could've",
+    "ja": "〜できたはずなのに",
+    "pos": "助動詞短縮形",
+    "lemma": "could have",
+    "form": "",
+    "note": "could have の短縮。ここでは過去の実現しなかった可能性を振り返る。"
+  },
+  {
+    "word": "counter",
+    "ja": "カウンター",
+    "pos": "名詞",
+    "lemma": "counter",
+    "form": "",
+    "note": "店内で店員が応対する台。"
+  },
+  {
+    "word": "cup",
+    "ja": "コップ",
+    "pos": "名詞",
+    "lemma": "cup",
+    "form": "",
+    "note": "a paper cup で紙コップ。"
+  },
+  {
+    "word": "didn't",
+    "ja": "〜しなかった",
+    "pos": "助動詞短縮形",
+    "lemma": "did not",
+    "form": "",
+    "note": "did not の短縮。didn’t have to は必要がなかったこと。"
+  },
+  {
+    "word": "driver",
+    "ja": "運転手",
+    "pos": "名詞",
+    "lemma": "driver",
+    "form": "",
+    "note": "配送トラックを運転する人物。"
+  },
+  {
+    "word": "driver's",
+    "ja": "運転手は",
+    "pos": "短縮形",
+    "lemma": "driver has",
+    "form": "",
+    "note": "Driver’s been up は Driver has been up の短縮。"
+  },
+  {
+    "word": "dry",
+    "ja": "乾く",
+    "pos": "動詞",
+    "lemma": "dry",
+    "form": "",
+    "note": "tumble dry で回転しながら乾く。"
+  },
+  {
+    "word": "everybody's",
+    "ja": "みんなが",
+    "pos": "短縮形",
+    "lemma": "everybody is",
+    "form": "",
+    "note": "Everybody’s clockin’ in では everybody is の短縮。"
+  },
+  {
+    "word": "folds",
+    "ja": "畳む",
+    "pos": "動詞",
+    "lemma": "fold",
+    "form": "",
+    "note": "fold の三人称単数現在形。目的語はエプロン。"
+  },
+  {
+    "word": "friday",
+    "ja": "金曜日",
+    "pos": "名詞",
+    "lemma": "Friday",
+    "form": "",
+    "note": "Friday night で金曜の夜。"
+  },
+  {
+    "word": "goin",
+    "ja": "起きている",
+    "pos": "動詞",
+    "lemma": "go",
+    "form": "",
+    "note": "goin’ on で起きている。going の口語表記。"
+  },
+  {
+    "word": "got",
+    "ja": "受け取った",
+    "pos": "動詞",
+    "lemma": "get",
+    "form": "",
+    "note": "got the message はメッセージを受け取った。he’s got では持っていることを表す。"
+  },
+  {
+    "word": "grocery",
+    "ja": "食料品店",
+    "pos": "名詞",
+    "lemma": "grocery",
+    "form": "",
+    "note": "grocery door で食料品店の入口。"
+  },
+  {
+    "word": "he's",
+    "ja": "彼は",
+    "pos": "短縮形",
+    "lemma": "he has",
+    "form": "",
+    "note": "he’s got は he has got の短縮で、彼には〜があるという意味。"
+  },
+  {
+    "word": "holds",
+    "ja": "押さえている",
+    "pos": "動詞",
+    "lemma": "hold",
+    "form": "",
+    "note": "holds the door で人が通れるよう扉を開けたまま押さえる。"
+  },
+  {
+    "word": "it's",
+    "ja": "それは",
+    "pos": "短縮形",
+    "lemma": "it is",
+    "form": "",
+    "note": "It’s already burnin’ では it is。周囲に広がる熱や緊張を示す。"
+  },
+  {
+    "word": "keys",
+    "ja": "鍵",
+    "pos": "名詞",
+    "lemma": "key",
+    "form": "",
+    "note": "key の複数形。ドアのそばに置かれている。"
+  },
+  {
+    "word": "kills",
+    "ja": "止める",
+    "pos": "動詞",
+    "lemma": "kill",
+    "form": "",
+    "note": "kills his engine は自分の車のエンジンを切る慣用句。"
+  },
+  {
+    "word": "kitchen's",
+    "ja": "厨房は",
+    "pos": "短縮形",
+    "lemma": "kitchen is",
+    "form": "",
+    "note": "the kitchen’s standing still では kitchen is の短縮。"
+  },
+  {
+    "word": "knobs",
+    "ja": "つまみ",
+    "pos": "名詞",
+    "lemma": "knob",
+    "form": "",
+    "note": "コンロを調整するつまみの複数形。"
+  },
+  {
+    "word": "laughs",
+    "ja": "笑う",
+    "pos": "動詞",
+    "lemma": "laugh",
+    "form": "",
+    "note": "laugh の三人称単数現在形。"
+  },
+  {
+    "word": "laundromat",
+    "ja": "コインランドリー",
+    "pos": "名詞",
+    "lemma": "laundromat",
+    "form": "",
+    "note": "硬貨を入れて洗濯や乾燥をする店。"
+  },
+  {
+    "word": "leans",
+    "ja": "もたれる",
+    "pos": "動詞",
+    "lemma": "lean",
+    "form": "",
+    "note": "leans against the wall で壁にもたれる。"
+  },
+  {
+    "word": "message",
+    "ja": "メッセージ",
+    "pos": "名詞",
+    "lemma": "message",
+    "form": "",
+    "note": "金曜の夜に届いた仕事の終了を示唆する連絡。"
+  },
+  {
+    "word": "minute",
+    "ja": "一分",
+    "pos": "名詞",
+    "lemma": "minute",
+    "form": "",
+    "note": "a minute more であと一分。"
+  },
+  {
+    "word": "pavement's",
+    "ja": "舗道は",
+    "pos": "短縮形",
+    "lemma": "pavement is",
+    "form": "",
+    "note": "the pavement’s warm では pavement is の短縮。"
+  },
+  {
+    "word": "puts",
+    "ja": "入れる",
+    "pos": "動詞",
+    "lemma": "put",
+    "form": "",
+    "note": "puts another quarter in で追加の硬貨を機械に入れる。"
+  },
+  {
+    "word": "quarter",
+    "ja": "二十五セント硬貨",
+    "pos": "名詞",
+    "lemma": "quarter",
+    "form": "",
+    "note": "コインランドリーの機械に入れる硬貨。"
+  },
+  {
+    "word": "says",
+    "ja": "言う",
+    "pos": "動詞",
+    "lemma": "say",
+    "form": "",
+    "note": "say の三人称単数現在形。"
+  },
+  {
+    "word": "shirts",
+    "ja": "シャツ",
+    "pos": "名詞",
+    "lemma": "shirt",
+    "form": "",
+    "note": "work shirts で仕事着のシャツ。"
+  },
+  {
+    "word": "since",
+    "ja": "〜以来",
+    "pos": "前置詞",
+    "lemma": "since",
+    "form": "",
+    "note": "since yesterday で昨日から今までの起点を示す。"
+  },
+  {
+    "word": "somebody",
+    "ja": "誰か",
+    "pos": "代名詞",
+    "lemma": "somebody",
+    "form": "",
+    "note": "特定されない一人を指す。"
+  },
+  {
+    "word": "son",
+    "ja": "息子",
+    "pos": "名詞",
+    "lemma": "son",
+    "form": "",
+    "note": "メッセージを受け取った男性の息子。"
+  },
+  {
+    "word": "spare",
+    "ja": "時間を割く",
+    "pos": "動詞",
+    "lemma": "spare",
+    "form": "",
+    "note": "spare a minute で一分をほかの人や用事に回す。"
+  },
+  {
+    "word": "station",
+    "ja": "放送局",
+    "pos": "名詞",
+    "lemma": "station",
+    "form": "",
+    "note": "演説を流しているラジオやテレビの局。"
+  },
+  {
+    "word": "ten",
+    "ja": "十",
+    "pos": "数詞",
+    "lemma": "ten",
+    "form": "",
+    "note": "Ten years は十年間。"
+  },
+  {
+    "word": "thanks",
+    "ja": "感謝します",
+    "pos": "間投詞",
+    "lemma": "thanks",
+    "form": "",
+    "note": "Thanks for ... で〜への感謝を述べる。"
+  },
+  {
+    "word": "there's",
+    "ja": "〜がある",
+    "pos": "短縮形",
+    "lemma": "there is",
+    "form": "",
+    "note": "There is の短縮による存在構文。"
+  },
+  {
+    "word": "tumble",
+    "ja": "回転する",
+    "pos": "動詞",
+    "lemma": "tumble",
+    "form": "",
+    "note": "シャツが乾燥機の中で回る動作。"
+  },
+  {
+    "word": "twice",
+    "ja": "二度",
+    "pos": "副詞",
+    "lemma": "twice",
+    "form": "",
+    "note": "メッセージを二回読むこと。"
+  },
+  {
+    "word": "we've",
+    "ja": "僕らは",
+    "pos": "短縮形",
+    "lemma": "we have",
+    "form": "",
+    "note": "We’ve been here before では we have の短縮。"
+  },
+  {
+    "word": "what's",
+    "ja": "何が〜なのか",
+    "pos": "短縮形",
+    "lemma": "what is",
+    "form": "",
+    "note": "what’s goin’ on は何が起きているのかという問い。"
+  },
+  {
+    "word": "won't",
+    "ja": "〜してくれない",
+    "pos": "助動詞短縮形",
+    "lemma": "will not",
+    "form": "",
+    "note": "ここでは相手に見せることを拒む意志。"
+  },
+  {
+    "word": "yesterday",
+    "ja": "昨日",
+    "pos": "副詞",
+    "lemma": "yesterday",
+    "form": "",
+    "note": "発言時点の前日。"
+  },
+  {
+    "word": "you've",
+    "ja": "あなたが",
+    "pos": "短縮形",
+    "lemma": "you have",
+    "form": "",
+    "note": "everything you’ve done では you have の短縮。"
+  },
+  {
+    "word": "youngest",
+    "ja": "いちばん若い",
+    "pos": "形容詞",
+    "lemma": "young",
+    "form": "",
+    "note": "young の最上級。厨房で最年少の料理人を指す。"
   }
 ]

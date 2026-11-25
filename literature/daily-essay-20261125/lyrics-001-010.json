@@ -1,0 +1,482 @@
+[
+  {
+    "id": "DE-20261125-001",
+    "sourceTitle": "Already Burnin’｜もう燃え上がってる",
+    "workId": "daily-essay-20261125",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "Verse 1｜朝六時の店先",
+    "jp": "朝六時、舗道は暖かい\n食料品店の入口には配送トラック\n運転手は昨日から起きっぱなし\nあと三か所寄ると言う\nカウンターの向こうの若い女性が笑う\n僕には見せてくれない何かを見て\nそれからエプロンを畳んで袋に入れる\n「私抜きで店を閉めればいい」と言う",
+    "translationLiteral": "Six in the morning, the pavement’s warm\nDelivery truck by the grocery door\nDriver’s been up since yesterday\nSays he’s got three stops more\nA girl behind the counter laughs\nAt something she won’t let me see\nThen folds her apron in a bag\nSays, “They can close without me.”",
+    "translationNatural": "Six in the morning, the pavement’s warm\nDelivery truck by the grocery door\nDriver’s been up since yesterday\nSays he’s got three stops more\nA girl behind the counter laughs\nAt something she won’t let me see\nThen folds her apron in a bag\nSays, “They can close without me.”",
+    "imageUrl": "",
+    "imageCaption": "",
+    "imagePrompt": "",
+    "chunks": [
+      {
+        "en": "Six in the morning, the pavement’s warm\nDelivery truck by the grocery door",
+        "ja": "朝六時、舗道は暖かい\n食料品店の入口には配送トラック"
+      },
+      {
+        "en": "Driver’s been up since yesterday\nSays he’s got three stops more",
+        "ja": "運転手は昨日から起きっぱなし\nあと三か所寄ると言う"
+      },
+      {
+        "en": "A girl behind the counter laughs\nAt something she won’t let me see",
+        "ja": "カウンターの向こうの若い女性が笑う\n僕には見せてくれない何かを見て"
+      },
+      {
+        "en": "Then folds her apron in a bag\nSays, “They can close without me.”",
+        "ja": "それからエプロンを畳んで袋に入れる\n「私抜きで店を閉めればいい」と言う"
+      }
+    ],
+    "grammar": [
+      "pavement’s は pavement is、Driver’s は Driver has。短縮形は後続の warm / been から判別する。",
+      "Says / folds の主語は直前の人物を引き継ぐ。歌詞では主語を省いた行が続く。",
+      "laugh at は「〜を見て笑う」。ここでは相手を嘲笑する意味とは限らない。"
+    ],
+    "translationNote": "2026年11月25日の対話で制作した英語オリジナル歌詞。日本語欄は原詞に対応する訳であり、日本語からの英訳ではない。既存表示形式に合わせ、Literal / Natural の両欄には同じ英語原詞を収録し、口語綴り・省略・改行・反復を保持した。街は通常どおり動いているが、睡眠不足と店員の退出がすでに日常の綻びを示す。炎はまず比喩として読む。",
+    "readingPoint": "街は通常どおり動いているが、睡眠不足と店員の退出がすでに日常の綻びを示す。炎はまず比喩として読む。",
+    "keywords": [
+      "英語歌詞",
+      "サイケデリック・ソウル",
+      "日常",
+      "労働",
+      "連帯"
+    ],
+    "originalLanguage": "en"
+  },
+  {
+    "id": "DE-20261125-002",
+    "sourceTitle": "Already Burnin’｜もう燃え上がってる",
+    "workId": "daily-essay-20261125",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "Pre-Chorus 1｜窓から入る問い",
+    "jp": "誰かが、何が起きているのかと尋ねる\n窓を大きく開けたまま\n通り過ぎる車から聞こえる口論が\n赤ん坊の泣き声に入れ替わる",
+    "translationLiteral": "Somebody asks what’s goin’ on\nWith the windows open wide\nAn argument from a passing car\nGives way to a baby’s cry",
+    "translationNatural": "Somebody asks what’s goin’ on\nWith the windows open wide\nAn argument from a passing car\nGives way to a baby’s cry",
+    "imageUrl": "",
+    "imageCaption": "",
+    "imagePrompt": "",
+    "chunks": [
+      {
+        "en": "Somebody asks what’s goin’ on",
+        "ja": "誰かが、何が起きているのかと尋ねる"
+      },
+      {
+        "en": "With the windows open wide",
+        "ja": "窓を大きく開けたまま"
+      },
+      {
+        "en": "An argument from a passing car",
+        "ja": "通り過ぎる車から聞こえる口論が"
+      },
+      {
+        "en": "Gives way to a baby’s cry",
+        "ja": "赤ん坊の泣き声に入れ替わる"
+      }
+    ],
+    "grammar": [
+      "what’s goin’ on は what is going on。goin’ は発音を写した綴り。",
+      "with + 名詞 + 形容詞句で背景の状態を示す。",
+      "An argument ... Gives way ... は改行をまたぐ一つの文。"
+    ],
+    "translationNote": "2026年11月25日の対話で制作した英語オリジナル歌詞。日本語欄は原詞に対応する訳であり、日本語からの英訳ではない。既存表示形式に合わせ、Literal / Natural の両欄には同じ英語原詞を収録し、口語綴り・省略・改行・反復を保持した。問いへの答えを説明ではなく、車内の口論と赤ん坊の声という生活音に託す。",
+    "readingPoint": "問いへの答えを説明ではなく、車内の口論と赤ん坊の声という生活音に託す。",
+    "keywords": [
+      "英語歌詞",
+      "サイケデリック・ソウル",
+      "日常",
+      "労働",
+      "連帯"
+    ],
+    "originalLanguage": "en"
+  },
+  {
+    "id": "DE-20261125-003",
+    "sourceTitle": "Already Burnin’｜もう燃え上がってる",
+    "workId": "daily-essay-20261125",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "Chorus 1｜もう燃え上がってる",
+    "jp": "もう燃え上がってるぜ\n床越しに感じないか\nみんな出勤の打刻をしている\n前の晩と同じように\n紙コップのコーヒー\nドアのそばにある鍵\nもう燃え上がってるぜ\n僕らは何を待っているんだ",
+    "translationLiteral": "It’s already burnin’\nCan’t you feel it through the floor?\nEverybody’s clockin’ in\nLike the night before\nCoffee in a paper cup\nKeys beside the door\nIt’s already burnin’\nWhat are we waiting for?",
+    "translationNatural": "It’s already burnin’\nCan’t you feel it through the floor?\nEverybody’s clockin’ in\nLike the night before\nCoffee in a paper cup\nKeys beside the door\nIt’s already burnin’\nWhat are we waiting for?",
+    "imageUrl": "",
+    "imageCaption": "",
+    "imagePrompt": "",
+    "chunks": [
+      {
+        "en": "It’s already burnin’\nCan’t you feel it through the floor?",
+        "ja": "もう燃え上がってるぜ\n床越しに感じないか"
+      },
+      {
+        "en": "Everybody’s clockin’ in\nLike the night before",
+        "ja": "みんな出勤の打刻をしている\n前の晩と同じように"
+      },
+      {
+        "en": "Coffee in a paper cup\nKeys beside the door",
+        "ja": "紙コップのコーヒー\nドアのそばにある鍵"
+      },
+      {
+        "en": "It’s already burnin’\nWhat are we waiting for?",
+        "ja": "もう燃え上がってるぜ\n僕らは何を待っているんだ"
+      }
+    ],
+    "grammar": [
+      "already は、変化がすでに始まっていることを強調する。",
+      "clock in は出勤時刻を記録すること。clockin’ は clocking の口語表記。",
+      "What are we waiting for? は待つ対象を問うと同時に、動き出そうという呼びかけになる。"
+    ],
+    "translationNote": "2026年11月25日の対話で制作した英語オリジナル歌詞。日本語欄は原詞に対応する訳であり、日本語からの英訳ではない。既存表示形式に合わせ、Literal / Natural の両欄には同じ英語原詞を収録し、口語綴り・省略・改行・反復を保持した。生活の動作が続くなかで、緊張はすでに限界へ向かっている。サビはその気づきを繰り返す。",
+    "readingPoint": "生活の動作が続くなかで、緊張はすでに限界へ向かっている。サビはその気づきを繰り返す。",
+    "keywords": [
+      "英語歌詞",
+      "サイケデリック・ソウル",
+      "日常",
+      "労働",
+      "連帯"
+    ],
+    "originalLanguage": "en"
+  },
+  {
+    "id": "DE-20261125-004",
+    "sourceTitle": "Already Burnin’｜もう燃え上がってる",
+    "workId": "daily-essay-20261125",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "Verse 2｜十年が一行になる",
+    "jp": "彼は金曜の夜にそのメッセージを受け取った\n「これまでのすべてのご尽力に感謝します」\n十年が一行に詰め込まれていた\n彼はそれを二度読み、それから息子に電話した\n二人はコインランドリーの外に座り\n彼の仕事着のシャツが回りながら乾くのを眺めた\n息子は「もっと家にいられるの？」と言った\n父親は、返事をするまで少し時間がかかった",
+    "translationLiteral": "He got the message Friday night\n“Thanks for everything you’ve done”\nTen years packed into a line\nHe read it twice, then called his son\nThey sat outside the laundromat\nAnd watched his work shirts tumble dry\nThe boy said, “Will you be home more?”\nHe took a while to reply",
+    "translationNatural": "He got the message Friday night\n“Thanks for everything you’ve done”\nTen years packed into a line\nHe read it twice, then called his son\nThey sat outside the laundromat\nAnd watched his work shirts tumble dry\nThe boy said, “Will you be home more?”\nHe took a while to reply",
+    "imageUrl": "",
+    "imageCaption": "",
+    "imagePrompt": "",
+    "chunks": [
+      {
+        "en": "He got the message Friday night\n“Thanks for everything you’ve done”",
+        "ja": "彼は金曜の夜にそのメッセージを受け取った\n「これまでのすべてのご尽力に感謝します」"
+      },
+      {
+        "en": "Ten years packed into a line\nHe read it twice, then called his son",
+        "ja": "十年が一行に詰め込まれていた\n彼はそれを二度読み、それから息子に電話した"
+      },
+      {
+        "en": "They sat outside the laundromat\nAnd watched his work shirts tumble dry",
+        "ja": "二人はコインランドリーの外に座り\n彼の仕事着のシャツが回りながら乾くのを眺めた"
+      },
+      {
+        "en": "The boy said, “Will you be home more?”\nHe took a while to reply",
+        "ja": "息子は「もっと家にいられるの？」と言った\n父親は、返事をするまで少し時間がかかった"
+      }
+    ],
+    "grammar": [
+      "you’ve done は現在完了。働いてきた期間を受信時点から振り返る。",
+      "watched + 目的語 + 動詞の原形は知覚構文。",
+      "The boy の発言の you は父親。次行の He も父親を指す。"
+    ],
+    "translationNote": "2026年11月25日の対話で制作した英語オリジナル歌詞。日本語欄は原詞に対応する訳であり、日本語からの英訳ではない。既存表示形式に合わせ、Literal / Natural の両欄には同じ英語原詞を収録し、口語綴り・省略・改行・反復を保持した。仕事を失うことが示唆される一方、息子には父親と過ごせる時間が増えるようにも見える。返答の空白に二つの意味が重なる。",
+    "readingPoint": "仕事を失うことが示唆される一方、息子には父親と過ごせる時間が増えるようにも見える。返答の空白に二つの意味が重なる。",
+    "keywords": [
+      "英語歌詞",
+      "サイケデリック・ソウル",
+      "日常",
+      "労働",
+      "連帯"
+    ],
+    "originalLanguage": "en"
+  },
+  {
+    "id": "DE-20261125-005",
+    "sourceTitle": "Already Burnin’｜もう燃え上がってる",
+    "workId": "daily-essay-20261125",
+    "mode": "essay-translation",
+    "chapter": 5,
+    "sentence": 5,
+    "title": "Pre-Chorus 2｜電話番号と洗濯機",
+    "jp": "どの放送局でも演説が流れている\n電話をかけられる番号もある\n彼はもう一枚、二十五セント硬貨を入れる\nそして壁にもたれる",
+    "translationLiteral": "There’s a speech on every station\nThere’s a number you can call\nHe puts another quarter in\nAnd leans against the wall",
+    "translationNatural": "There’s a speech on every station\nThere’s a number you can call\nHe puts another quarter in\nAnd leans against the wall",
+    "imageUrl": "",
+    "imageCaption": "",
+    "imagePrompt": "",
+    "chunks": [
+      {
+        "en": "There’s a speech on every station",
+        "ja": "どの放送局でも演説が流れている"
+      },
+      {
+        "en": "There’s a number you can call",
+        "ja": "電話をかけられる番号もある"
+      },
+      {
+        "en": "He puts another quarter in",
+        "ja": "彼はもう一枚、二十五セント硬貨を入れる"
+      },
+      {
+        "en": "And leans against the wall",
+        "ja": "そして壁にもたれる"
+      }
+    ],
+    "grammar": [
+      "There’s を繰り返し、公的な言葉と相談先らしい番号の存在を並べる。",
+      "a number you can call は目的格関係代名詞が省略された構造。",
+      "puts / leans は三人称単数現在形。前節の過去時制から、目前の光景へ切り替わる。"
+    ],
+    "translationNote": "2026年11月25日の対話で制作した英語オリジナル歌詞。日本語欄は原詞に対応する訳であり、日本語からの英訳ではない。既存表示形式に合わせ、Literal / Natural の両欄には同じ英語原詞を収録し、口語綴り・省略・改行・反復を保持した。放送や電話番号が存在していても、彼の手は機械へ硬貨を足している。制度の言葉と身体の時間を並置する。",
+    "readingPoint": "放送や電話番号が存在していても、彼の手は機械へ硬貨を足している。制度の言葉と身体の時間を並置する。",
+    "keywords": [
+      "英語歌詞",
+      "サイケデリック・ソウル",
+      "日常",
+      "労働",
+      "連帯"
+    ],
+    "originalLanguage": "en"
+  },
+  {
+    "id": "DE-20261125-006",
+    "sourceTitle": "Already Burnin’｜もう燃え上がってる",
+    "workId": "daily-essay-20261125",
+    "mode": "essay-translation",
+    "chapter": 6,
+    "sentence": 6,
+    "title": "Chorus 2｜続く打刻",
+    "jp": "もう燃え上がってるぜ\n床越しに感じないか\nみんな出勤の打刻をしている\n前の晩と同じように\n紙コップのコーヒー\nドアのそばにある鍵\nもう燃え上がってるぜ\n僕らは何を待っているんだ",
+    "translationLiteral": "It’s already burnin’\nCan’t you feel it through the floor?\nEverybody’s clockin’ in\nLike the night before\nCoffee in a paper cup\nKeys beside the door\nIt’s already burnin’\nWhat are we waiting for?",
+    "translationNatural": "It’s already burnin’\nCan’t you feel it through the floor?\nEverybody’s clockin’ in\nLike the night before\nCoffee in a paper cup\nKeys beside the door\nIt’s already burnin’\nWhat are we waiting for?",
+    "imageUrl": "",
+    "imageCaption": "",
+    "imagePrompt": "",
+    "chunks": [
+      {
+        "en": "It’s already burnin’\nCan’t you feel it through the floor?",
+        "ja": "もう燃え上がってるぜ\n床越しに感じないか"
+      },
+      {
+        "en": "Everybody’s clockin’ in\nLike the night before",
+        "ja": "みんな出勤の打刻をしている\n前の晩と同じように"
+      },
+      {
+        "en": "Coffee in a paper cup\nKeys beside the door",
+        "ja": "紙コップのコーヒー\nドアのそばにある鍵"
+      },
+      {
+        "en": "It’s already burnin’\nWhat are we waiting for?",
+        "ja": "もう燃え上がってるぜ\n僕らは何を待っているんだ"
+      }
+    ],
+    "grammar": [
+      "同じサビを省略せず再掲し、前節の父親の場面を受けて読み直す。",
+      "Everybody’s は Everybody is。単数扱いの主語に対応する。",
+      "burnin’ / clockin’ は標準綴りの burning / clocking に対応する。"
+    ],
+    "translationNote": "2026年11月25日の対話で制作した英語オリジナル歌詞。日本語欄は原詞に対応する訳であり、日本語からの英訳ではない。既存表示形式に合わせ、Literal / Natural の両欄には同じ英語原詞を収録し、口語綴り・省略・改行・反復を保持した。同じサビが、仕事の終わりを告げられた父親の話を経て、より具体的な重みを持つ。",
+    "readingPoint": "同じサビが、仕事の終わりを告げられた父親の話を経て、より具体的な重みを持つ。",
+    "keywords": [
+      "英語歌詞",
+      "サイケデリック・ソウル",
+      "日常",
+      "労働",
+      "連帯"
+    ],
+    "originalLanguage": "en"
+  },
+  {
+    "id": "DE-20261125-007",
+    "sourceTitle": "Already Burnin’｜もう燃え上がってる",
+    "workId": "daily-essay-20261125",
+    "mode": "essay-translation",
+    "chapter": 7,
+    "sentence": 7,
+    "title": "Bridge｜止まった厨房",
+    "jp": "正午までには厨房の動きが止まっている\n一人の女性がエプロンを外す\nいちばん若い料理人が彼女を見上げ\nそれからコンロのつまみに手を伸ばす\n店主は電話で話している\n彼女は、彼が自分の名前を呼ぶまで待つ\n「壊れた換気扇のことは伝えましたよ」\n彼女の後ろで、誰かも同じことを言う",
+    "translationLiteral": "By noon the kitchen’s standing still\nOne woman takes her apron off\nThe youngest cook looks up at her\nThen reaches for the burner knobs\nThe owner’s talking on his phone\nShe waits until he says her name\n“We told you ’bout the broken fan.”\nBehind her, someone says the same",
+    "translationNatural": "By noon the kitchen’s standing still\nOne woman takes her apron off\nThe youngest cook looks up at her\nThen reaches for the burner knobs\nThe owner’s talking on his phone\nShe waits until he says her name\n“We told you ’bout the broken fan.”\nBehind her, someone says the same",
+    "imageUrl": "",
+    "imageCaption": "",
+    "imagePrompt": "",
+    "chunks": [
+      {
+        "en": "By noon the kitchen’s standing still\nOne woman takes her apron off",
+        "ja": "正午までには厨房の動きが止まっている\n一人の女性がエプロンを外す"
+      },
+      {
+        "en": "The youngest cook looks up at her\nThen reaches for the burner knobs",
+        "ja": "いちばん若い料理人が彼女を見上げ\nそれからコンロのつまみに手を伸ばす"
+      },
+      {
+        "en": "The owner’s talking on his phone\nShe waits until he says her name",
+        "ja": "店主は電話で話している\n彼女は、彼が自分の名前を呼ぶまで待つ"
+      },
+      {
+        "en": "“We told you ’bout the broken fan.”\nBehind her, someone says the same",
+        "ja": "「壊れた換気扇のことは伝えましたよ」\n彼女の後ろで、誰かも同じことを言う"
+      }
+    ],
+    "grammar": [
+      "take + 所有格 + 名詞 + off は身につけた物を外す表現。",
+      "reaches for は手を伸ばすところまでを表し、実際につまみを回したとまでは書いていない。",
+      "someone says the same は先の発言への同調。the same の内容は故障を知らせていたということ。"
+    ],
+    "translationNote": "2026年11月25日の対話で制作した英語オリジナル歌詞。日本語欄は原詞に対応する訳であり、日本語からの英訳ではない。既存表示形式に合わせ、Literal / Natural の両欄には同じ英語原詞を収録し、口語綴り・省略・改行・反復を保持した。一人がエプロンを外す動作をきっかけに、報告済みの故障が複数人の声になる。労働の中断と連帯を身振りで示す。",
+    "readingPoint": "一人がエプロンを外す動作をきっかけに、報告済みの故障が複数人の声になる。労働の中断と連帯を身振りで示す。",
+    "keywords": [
+      "英語歌詞",
+      "サイケデリック・ソウル",
+      "日常",
+      "労働",
+      "連帯"
+    ],
+    "originalLanguage": "en"
+  },
+  {
+    "id": "DE-20261125-008",
+    "sourceTitle": "Already Burnin’｜もう燃え上がってる",
+    "workId": "daily-essay-20261125",
+    "mode": "essay-translation",
+    "chapter": 8,
+    "sentence": 8,
+    "title": "Breakdown｜昨日なら聞けた",
+    "jp": "もうすでに\nもうすでに\n昨日、私たちに聞いてくれればよかったのに\nもうすでに\nもうすでに\nこんな状態になる必要はなかったんだ",
+    "translationLiteral": "Already\nAlready\nYou could’ve asked us yesterday\nAlready\nAlready\nWe didn’t have to get this way",
+    "translationNatural": "Already\nAlready\nYou could’ve asked us yesterday\nAlready\nAlready\nWe didn’t have to get this way",
+    "imageUrl": "",
+    "imageCaption": "",
+    "imagePrompt": "",
+    "chunks": [
+      {
+        "en": "Already\nAlready",
+        "ja": "もうすでに\nもうすでに"
+      },
+      {
+        "en": "You could’ve asked us yesterday",
+        "ja": "昨日、私たちに聞いてくれればよかったのに"
+      },
+      {
+        "en": "Already\nAlready",
+        "ja": "もうすでに\nもうすでに"
+      },
+      {
+        "en": "We didn’t have to get this way",
+        "ja": "こんな状態になる必要はなかったんだ"
+      }
+    ],
+    "grammar": [
+      "could’ve は could have の短縮。過去の可能性と、そうしなかったことへの批判を含む。",
+      "didn’t have to は「必要はなかった」。must not のような禁止とは異なる。",
+      "get + 状態表現で、その状態へ変わることを表す。"
+    ],
+    "translationNote": "2026年11月25日の対話で制作した英語オリジナル歌詞。日本語欄は原詞に対応する訳であり、日本語からの英訳ではない。既存表示形式に合わせ、Literal / Natural の両欄には同じ英語原詞を収録し、口語綴り・省略・改行・反復を保持した。怒りの中心を、不可避の破局ではなく、昨日なら聞くことができたという失われた機会へ置く。",
+    "readingPoint": "怒りの中心を、不可避の破局ではなく、昨日なら聞くことができたという失われた機会へ置く。",
+    "keywords": [
+      "英語歌詞",
+      "サイケデリック・ソウル",
+      "日常",
+      "労働",
+      "連帯"
+    ],
+    "originalLanguage": "en"
+  },
+  {
+    "id": "DE-20261125-009",
+    "sourceTitle": "Already Burnin’｜もう燃え上がってる",
+    "workId": "daily-essay-20261125",
+    "mode": "essay-translation",
+    "chapter": 9,
+    "sentence": 9,
+    "title": "Final Chorus｜扉を押さえる人",
+    "jp": "もう燃え上がってるぜ\n今では君にも床越しに感じられる\n誰かがカウンターを離れ\n誰かが扉を開けたまま押さえる\n運転手はエンジンを切る\nあと一分くらいなら時間を割ける\nもう燃え上がってるぜ\n僕らは前にもこんなところまで来た",
+    "translationLiteral": "It’s already burnin’\nNow you feel it through the floor\nSomeone leaves the counter\nSomeone holds the door\nThe driver kills his engine\nHe can spare a minute more\nIt’s already burnin’\nWe’ve been here before",
+    "translationNatural": "It’s already burnin’\nNow you feel it through the floor\nSomeone leaves the counter\nSomeone holds the door\nThe driver kills his engine\nHe can spare a minute more\nIt’s already burnin’\nWe’ve been here before",
+    "imageUrl": "",
+    "imageCaption": "",
+    "imagePrompt": "",
+    "chunks": [
+      {
+        "en": "It’s already burnin’\nNow you feel it through the floor",
+        "ja": "もう燃え上がってるぜ\n今では君にも床越しに感じられる"
+      },
+      {
+        "en": "Someone leaves the counter\nSomeone holds the door",
+        "ja": "誰かがカウンターを離れ\n誰かが扉を開けたまま押さえる"
+      },
+      {
+        "en": "The driver kills his engine\nHe can spare a minute more",
+        "ja": "運転手はエンジンを切る\nあと一分くらいなら時間を割ける"
+      },
+      {
+        "en": "It’s already burnin’\nWe’ve been here before",
+        "ja": "もう燃え上がってるぜ\n僕らは前にもこんなところまで来た"
+      }
+    ],
+    "grammar": [
+      "最初の Can’t you feel ...? が Now you feel ... に変わる。",
+      "kill an engine はエンジンを切る慣用句。",
+      "We’ve been here before は経験の現在完了で、同様の局面を以前も通ったことを示す。"
+    ],
+    "translationNote": "2026年11月25日の対話で制作した英語オリジナル歌詞。日本語欄は原詞に対応する訳であり、日本語からの英訳ではない。既存表示形式に合わせ、Literal / Natural の両欄には同じ英語原詞を収録し、口語綴り・省略・改行・反復を保持した。終盤の変化は大きな宣言より、カウンターを離れる、扉を押さえる、一分待つという小さな協力に現れる。",
+    "readingPoint": "終盤の変化は大きな宣言より、カウンターを離れる、扉を押さえる、一分待つという小さな協力に現れる。",
+    "keywords": [
+      "英語歌詞",
+      "サイケデリック・ソウル",
+      "日常",
+      "労働",
+      "連帯"
+    ],
+    "originalLanguage": "en"
+  },
+  {
+    "id": "DE-20261125-010",
+    "sourceTitle": "Already Burnin’｜もう燃え上がってる",
+    "workId": "daily-essay-20261125",
+    "mode": "essay-translation",
+    "chapter": 10,
+    "sentence": 10,
+    "title": "Outro｜一日じゅう",
+    "jp": "誰かが、何が起きているのかと尋ねる\n彼女は振り向いて答える\n「もう燃え上がってるんだよ、ねえ\n一日じゅう、ずっとね」",
+    "translationLiteral": "Somebody asks what’s goin’ on\nShe turns around to say\n“It’s already burnin’, baby\nBeen burnin’ all day.”",
+    "translationNatural": "Somebody asks what’s goin’ on\nShe turns around to say\n“It’s already burnin’, baby\nBeen burnin’ all day.”",
+    "imageUrl": "",
+    "imageCaption": "",
+    "imagePrompt": "",
+    "chunks": [
+      {
+        "en": "Somebody asks what’s goin’ on",
+        "ja": "誰かが、何が起きているのかと尋ねる"
+      },
+      {
+        "en": "She turns around to say",
+        "ja": "彼女は振り向いて答える"
+      },
+      {
+        "en": "“It’s already burnin’, baby",
+        "ja": "「もう燃え上がってるんだよ、ねえ"
+      },
+      {
+        "en": "Been burnin’ all day.”",
+        "ja": "一日じゅう、ずっとね」"
+      }
+    ],
+    "grammar": [
+      "turn around は振り向くこと。to say が目的を付け加える。",
+      "Been burnin’ は (It has) been burning の省略。",
+      "all day は前置詞なしで期間を表す。"
+    ],
+    "translationNote": "2026年11月25日の対話で制作した英語オリジナル歌詞。日本語欄は原詞に対応する訳であり、日本語からの英訳ではない。既存表示形式に合わせ、Literal / Natural の両欄には同じ英語原詞を収録し、口語綴り・省略・改行・反復を保持した。冒頭の問いに、最後は女性自身が答える。始まったばかりだと思われた熱は、すでに一日じゅう続いていた。",
+    "readingPoint": "冒頭の問いに、最後は女性自身が答える。始まったばかりだと思われた熱は、すでに一日じゅう続いていた。",
+    "keywords": [
+      "英語歌詞",
+      "サイケデリック・ソウル",
+      "日常",
+      "労働",
+      "連帯"
+    ],
+    "originalLanguage": "en"
+  }
+]

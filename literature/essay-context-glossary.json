@@ -52718,5 +52718,841 @@
         }
       ]
     }
+  ],
+  "DE-20261125-001": [
+    {
+      "words": {
+        "pavement's": {
+          "ja": "舗道は（pavement is の短縮）"
+        },
+        "delivery truck": {
+          "ja": "配送トラック"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Six in the morning",
+          "pattern": "時刻 + in the morning",
+          "ja": "朝六時",
+          "note": "冒頭は It is を省いた時刻表現。次行も There is a を省き、店先の光景を切り取る。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "driver's": {
+          "ja": "運転手は（Driver has の短縮）"
+        },
+        "been up": {
+          "ja": "起きている"
+        },
+        "three stops more": {
+          "ja": "あと三か所の立ち寄り"
+        }
+      },
+      "phrases": [
+        {
+          "en": "been up since yesterday",
+          "pattern": "have been + 状態 + since 起点",
+          "ja": "昨日から起きっぱなし",
+          "note": "現在完了が、昨日から今まで続く状態を示す。Says の主語は運転手。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "behind the counter": {
+          "ja": "カウンターの向こうに"
+        },
+        "she": {
+          "ja": "彼女（＝店の若い女性）"
+        },
+        "me": {
+          "ja": "僕（＝語り手）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "she won’t let me see",
+          "pattern": "let + 人 + 動詞の原形",
+          "ja": "彼女は僕に見せてくれない",
+          "note": "something を修飾する節で目的格の関係代名詞が省略される。let の後に to は置かない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "folds": {
+          "ja": "畳んで入れる"
+        },
+        "her": {
+          "ja": "彼女の（＝店の若い女性の）"
+        },
+        "they": {
+          "ja": "店のほかの人たち"
+        },
+        "without me": {
+          "ja": "私（＝その女性）抜きで"
+        }
+      },
+      "phrases": [
+        {
+          "en": "They can close without me",
+          "pattern": "can + 動詞 + without 人",
+          "ja": "私抜きで店を閉めればいい",
+          "note": "close は店を閉めること。誰に向けた発言か、退職なのかまでは歌詞で確定しない。"
+        }
+      ]
+    }
+  ],
+  "DE-20261125-002": [
+    {
+      "words": {
+        "what's": {
+          "ja": "何が〜なのか（what is）"
+        },
+        "goin on": {
+          "ja": "起きている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what’s goin’ on",
+          "pattern": "ask + 疑問詞節",
+          "ja": "何が起きているのか",
+          "note": "goin’ は going の口語表記。問いを asks の目的語として埋め込む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "with": {
+          "ja": "〜の状態で"
+        },
+        "open wide": {
+          "ja": "大きく開いている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "With the windows open wide",
+          "pattern": "with + 名詞 + 形容詞句",
+          "ja": "窓を大きく開けた状態で",
+          "note": "with の付帯状況。窓が開いているため、次の外の声も聞こえてくる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "argument": {
+          "ja": "口論"
+        },
+        "from": {
+          "ja": "〜から聞こえる"
+        },
+        "passing car": {
+          "ja": "通り過ぎる車"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a passing car",
+          "pattern": "現在分詞 + 名詞",
+          "ja": "通り過ぎる車",
+          "note": "passing が car を修飾する。An argument が次行の Gives way の主語。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "gives way to": {
+          "ja": "〜に入れ替わる"
+        },
+        "baby's": {
+          "ja": "赤ん坊の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Gives way to a baby’s cry",
+          "pattern": "give way to + 名詞",
+          "ja": "赤ん坊の泣き声に取って代わられる",
+          "note": "聞こえる音の移り変わり。泣き声が口論を引き起こしたという因果ではない。"
+        }
+      ]
+    }
+  ],
+  "DE-20261125-003": [
+    {
+      "words": {
+        "it's": {
+          "ja": "もう燃えている状況を示す it is"
+        },
+        "it": {
+          "ja": "それ（＝燃え上がる熱や緊張）"
+        },
+        "burnin": {
+          "ja": "燃え上がっている"
+        },
+        "through the floor": {
+          "ja": "床を通して"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Can’t you feel it",
+          "pattern": "Can’t + 主語 + 動詞の原形",
+          "ja": "君もそれを感じないか",
+          "note": "否定疑問で相手の実感に訴える。burnin’ は burning。物理的な火災を報告すると断定せず、不満の高まりにも重ねる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "everybody's": {
+          "ja": "みんなが（everybody is）"
+        },
+        "clockin in": {
+          "ja": "出勤の打刻をしている"
+        },
+        "like": {
+          "ja": "〜と同じように"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Like the night before",
+          "pattern": "like + 名詞句",
+          "ja": "前の晩と同じように",
+          "note": "前行の出勤動作を修飾する比較の前置詞句。朝から夜勤へ視点が移る歌詞のモンタージュとして読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "paper cup": {
+          "ja": "紙コップ"
+        },
+        "keys": {
+          "ja": "鍵"
+        },
+        "beside": {
+          "ja": "〜のそばに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Keys beside the door",
+          "pattern": "名詞 + 場所の前置詞句",
+          "ja": "ドアのそばの鍵",
+          "note": "定形動詞を持たない名詞句。身近な物を並べて出勤前の日常を映す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "already": {
+          "ja": "もうすでに"
+        },
+        "burnin": {
+          "ja": "燃え上がっている"
+        },
+        "we": {
+          "ja": "僕ら（＝語り手と呼びかけられる人々）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What are we waiting for",
+          "pattern": "What + be + 主語 + 動詞-ing + 前置詞",
+          "ja": "僕らは何を待っているのか",
+          "note": "wait for の目的語を問う。文末に for を残す自然な疑問文で、行動を促す修辞疑問にもなる。"
+        }
+      ]
+    }
+  ],
+  "DE-20261125-004": [
+    {
+      "words": {
+        "he": {
+          "ja": "彼（＝この節に登場する男性）"
+        },
+        "message": {
+          "ja": "仕事の終了を示唆するメッセージ"
+        },
+        "you've": {
+          "ja": "あなたが（you have）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "everything you’ve done",
+          "pattern": "everything + 関係節",
+          "ja": "あなたがこれまでしてきたすべてのこと",
+          "note": "everything の後の関係代名詞を省略。現在完了が、受信時までの仕事をまとめて振り返る。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "packed into": {
+          "ja": "〜に詰め込まれた"
+        },
+        "it": {
+          "ja": "それ（＝受け取ったメッセージ）"
+        },
+        "his": {
+          "ja": "彼の（＝メッセージを受け取った男性の）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Ten years packed into a line",
+          "pattern": "名詞 + 過去分詞句",
+          "ja": "一行に詰め込まれた十年",
+          "note": "packed 以下が ten years を修飾する。十年間を一行の文面に圧縮する比喩で、過去分詞の前の were も補って読める。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "they": {
+          "ja": "二人（＝男性と息子）"
+        },
+        "laundromat": {
+          "ja": "コインランドリー"
+        },
+        "his": {
+          "ja": "彼の（＝父親の）"
+        },
+        "tumble dry": {
+          "ja": "回転しながら乾く"
+        }
+      },
+      "phrases": [
+        {
+          "en": "watched his work shirts tumble dry",
+          "pattern": "watch + 目的語 + 動詞の原形",
+          "ja": "仕事着のシャツが回りながら乾くのを眺めた",
+          "note": "知覚動詞 watch の目的語は work shirts。乾く過程を外から見ている。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "boy": {
+          "ja": "息子"
+        },
+        "you": {
+          "ja": "お父さん（＝その男性）"
+        },
+        "he": {
+          "ja": "父親"
+        },
+        "took a while": {
+          "ja": "少し時間がかかった"
+        }
+      },
+      "phrases": [
+        {
+          "en": "took a while to reply",
+          "pattern": "take + 時間 + to不定詞",
+          "ja": "返事をするまで少し時間がかかった",
+          "note": "答えの内容を語らず、返答までの時間だけで父親のためらいを描く。"
+        }
+      ]
+    }
+  ],
+  "DE-20261125-005": [
+    {
+      "words": {
+        "there's": {
+          "ja": "〜がある（there is）"
+        },
+        "station": {
+          "ja": "放送局"
+        }
+      },
+      "phrases": [
+        {
+          "en": "There’s a speech",
+          "pattern": "There is + 名詞",
+          "ja": "演説が流れている",
+          "note": "存在構文。話者や演説内容は特定されない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "number": {
+          "ja": "電話番号"
+        },
+        "you": {
+          "ja": "電話する人（一般の聞き手）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a number you can call",
+          "pattern": "名詞 + 主語 + can + 動詞",
+          "ja": "電話をかけられる番号",
+          "note": "number を修飾する関係節。call の目的語に当たる関係代名詞は省略される。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "he": {
+          "ja": "彼（＝コインランドリーの父親）"
+        },
+        "another quarter": {
+          "ja": "もう一枚の二十五セント硬貨"
+        },
+        "in": {
+          "ja": "機械の中へ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "puts another quarter in",
+          "pattern": "put + 目的語 + in",
+          "ja": "もう一枚の硬貨を機械に入れる",
+          "note": "コインランドリーの場面から、硬貨を入れる先は洗濯・乾燥用の機械と読む。quarter は一時間の四分の一ではない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "leans": {
+          "ja": "もたれる"
+        },
+        "against the wall": {
+          "ja": "壁に体を預けて"
+        }
+      },
+      "phrases": [
+        {
+          "en": "leans against the wall",
+          "pattern": "lean against + 支え",
+          "ja": "壁にもたれる",
+          "note": "And の主語は前行の He と共通。動作の並列で、演説の存在から救済の実現は語っていない。"
+        }
+      ]
+    }
+  ],
+  "DE-20261125-006": [
+    {
+      "words": {
+        "it's": {
+          "ja": "もう燃えている状況を示す it is"
+        },
+        "it": {
+          "ja": "それ（＝燃え上がる熱や緊張）"
+        },
+        "burnin": {
+          "ja": "燃え上がっている"
+        },
+        "through the floor": {
+          "ja": "床を通して"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Can’t you feel it",
+          "pattern": "Can’t + 主語 + 動詞の原形",
+          "ja": "君もそれを感じないか",
+          "note": "否定疑問で相手の実感に訴える。burnin’ は burning。物理的な火災を報告すると断定せず、不満の高まりにも重ねる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "everybody's": {
+          "ja": "みんなが（everybody is）"
+        },
+        "clockin in": {
+          "ja": "出勤の打刻をしている"
+        },
+        "like": {
+          "ja": "〜と同じように"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Like the night before",
+          "pattern": "like + 名詞句",
+          "ja": "前の晩と同じように",
+          "note": "前行の出勤動作を修飾する比較の前置詞句。朝から夜勤へ視点が移る歌詞のモンタージュとして読む。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "paper cup": {
+          "ja": "紙コップ"
+        },
+        "keys": {
+          "ja": "鍵"
+        },
+        "beside": {
+          "ja": "〜のそばに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Keys beside the door",
+          "pattern": "名詞 + 場所の前置詞句",
+          "ja": "ドアのそばの鍵",
+          "note": "定形動詞を持たない名詞句。身近な物を並べて出勤前の日常を映す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "already": {
+          "ja": "もうすでに"
+        },
+        "burnin": {
+          "ja": "燃え上がっている"
+        },
+        "we": {
+          "ja": "僕ら（＝語り手と呼びかけられる人々）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "What are we waiting for",
+          "pattern": "What + be + 主語 + 動詞-ing + 前置詞",
+          "ja": "僕らは何を待っているのか",
+          "note": "wait for の目的語を問う。文末に for を残す自然な疑問文で、行動を促す修辞疑問にもなる。"
+        }
+      ]
+    }
+  ],
+  "DE-20261125-007": [
+    {
+      "words": {
+        "by noon": {
+          "ja": "正午までには"
+        },
+        "kitchen's": {
+          "ja": "厨房は（kitchen is）"
+        },
+        "takes her apron off": {
+          "ja": "自分のエプロンを外す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the kitchen’s standing still",
+          "pattern": "主語 + be + 動詞-ing",
+          "ja": "厨房の動きが止まっている",
+          "note": "kitchen で厨房全体の作業を表す。standing still は静止していること。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "her": {
+          "ja": "彼女（＝エプロンを外した女性）"
+        },
+        "reaches for": {
+          "ja": "〜に手を伸ばす"
+        },
+        "burner knobs": {
+          "ja": "コンロの火力調整つまみ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "looks up at her",
+          "pattern": "look up at + 対象",
+          "ja": "彼女を見上げる",
+          "note": "up は視線を上げる方向、at は視線の対象。次行の主語も同じ料理人。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "owner's": {
+          "ja": "店主は（owner is）"
+        },
+        "she": {
+          "ja": "彼女（＝エプロンを外した女性）"
+        },
+        "he": {
+          "ja": "彼（＝店主）"
+        },
+        "her": {
+          "ja": "彼女の（＝その女性の）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "until he says her name",
+          "pattern": "wait until + 節",
+          "ja": "彼が彼女の名前を呼ぶまで待つ",
+          "note": "until は待つ期間の終点。say her name は彼女の名前を口にすること。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たち（＝厨房で働く人々）"
+        },
+        "you": {
+          "ja": "あなた（＝店主）"
+        },
+        "bout": {
+          "ja": "〜について（about の口語的な省略）"
+        },
+        "her": {
+          "ja": "彼女（＝発言した女性）"
+        },
+        "the same": {
+          "ja": "同じこと（＝換気扇の故障を伝えたこと）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "We told you ’bout the broken fan",
+          "pattern": "tell + 人 + about + 内容",
+          "ja": "壊れた換気扇についてあなたに伝えた",
+          "note": "’bout は about。fan は厨房の文脈で換気用のファンと解釈するが、装置の形式は特定しない。"
+        }
+      ]
+    }
+  ],
+  "DE-20261125-008": [
+    {
+      "words": {
+        "already": {
+          "ja": "もうすでに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Already",
+          "pattern": "already（副詞）の単独反復",
+          "ja": "もうすでに",
+          "note": "サビの「もう燃えている」を受ける一語の応答。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "you": {
+          "ja": "あなた（＝聞く機会のあった相手）"
+        },
+        "could've": {
+          "ja": "〜できたはずなのに"
+        },
+        "us": {
+          "ja": "私たち（＝声を上げる働き手）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "could’ve asked us",
+          "pattern": "could have + 過去分詞",
+          "ja": "私たちに聞くことができたはずなのに",
+          "note": "過去に可能だったが実現しなかった行為を振り返る。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "already": {
+          "ja": "もうすでに"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Already",
+          "pattern": "already（副詞）の単独反復",
+          "ja": "もうすでに",
+          "note": "同じ応答を挟み、問いかけの間に余白を作る。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we": {
+          "ja": "私たち（＝この状況にいる人々）"
+        },
+        "didn't have to": {
+          "ja": "〜する必要はなかった"
+        },
+        "this way": {
+          "ja": "こんな状態に（＝緊張が限界に達した状態に）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "didn’t have to get this way",
+          "pattern": "did not have to + 動詞",
+          "ja": "こんな状態になる必要はなかった",
+          "note": "回避できた成り行きを嘆く文脈。didn’t have to 単独で行為の実行・不実行を常に決めるわけではない。"
+        }
+      ]
+    }
+  ],
+  "DE-20261125-009": [
+    {
+      "words": {
+        "it": {
+          "ja": "それ（＝燃え上がる熱や緊張）"
+        },
+        "now": {
+          "ja": "今では"
+        },
+        "you": {
+          "ja": "君（＝呼びかけを受ける相手）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Now you feel it",
+          "pattern": "Now + 主語 + 動詞",
+          "ja": "今では君にもそれが感じられる",
+          "note": "最初のサビの疑問が平叙文に変わり、相手にも実感が届いたことを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "leaves": {
+          "ja": "離れる"
+        },
+        "holds the door": {
+          "ja": "扉を開けたまま押さえる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "holds the door",
+          "pattern": "hold + 目的語",
+          "ja": "扉を開けた状態に保つ",
+          "note": "人を閉じ込めるのでなく、通る人のために扉を押さえると読む。Someone の反復が小さな行動を並べる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "kills his engine": {
+          "ja": "自分の車のエンジンを切る"
+        },
+        "he": {
+          "ja": "彼（＝運転手）"
+        },
+        "spare": {
+          "ja": "時間を割く"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can spare a minute more",
+          "pattern": "can spare + 時間",
+          "ja": "あと一分なら時間を割ける",
+          "note": "kill the engine はエンジンを停止する慣用表現。人への暴力を表していない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "we've": {
+          "ja": "僕らは（we have）"
+        },
+        "here": {
+          "ja": "ここ（＝同様の緊張が高まった局面）"
+        },
+        "before": {
+          "ja": "以前にも"
+        }
+      },
+      "phrases": [
+        {
+          "en": "We’ve been here before",
+          "pattern": "have been + 場所表現 + before",
+          "ja": "前にもこんな局面を経験した",
+          "note": "現在完了の経験用法。here は実際の場所と似た状況の両方を含ませられる。"
+        }
+      ]
+    }
+  ],
+  "DE-20261125-010": [
+    {
+      "words": {
+        "goin on": {
+          "ja": "起きている"
+        }
+      },
+      "phrases": [
+        {
+          "en": "asks what’s goin’ on",
+          "pattern": "ask + 疑問詞節",
+          "ja": "何が起きているのかと尋ねる",
+          "note": "最初のプレコーラスと同じ問いをもう一度置く。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "she": {
+          "ja": "彼女（＝前の場面につながる女性）"
+        },
+        "turns around": {
+          "ja": "振り向く"
+        }
+      },
+      "phrases": [
+        {
+          "en": "turns around to say",
+          "pattern": "動作 + to不定詞",
+          "ja": "答えるために振り向く",
+          "note": "to say は振り向く目的。人物の再登場は示唆されるが、場面間の同一性を必要以上に確定しない。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it's": {
+          "ja": "燃え上がる状況を示す it is"
+        },
+        "burnin": {
+          "ja": "燃え上がっている"
+        },
+        "baby": {
+          "ja": "ねえ（＝親しみを込めた呼びかけ）"
+        }
+      },
+      "phrases": [
+        {
+          "en": "It’s already burnin’",
+          "pattern": "It is already + 動詞-ing",
+          "ja": "もう燃え上がっている",
+          "note": "baby はここでは幼児そのものを指さず、相手への呼びかけ。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "burnin": {
+          "ja": "燃え上がっている"
+        },
+        "all day": {
+          "ja": "一日じゅう"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Been burnin’ all day",
+          "pattern": "have been + 動詞-ing + 期間",
+          "ja": "一日じゅう、ずっと燃え上がっている",
+          "note": "主語と has を省いた (It has) been burning all day。今も続く状態を強調する。"
+        }
+      ]
+    }
   ]
 }
