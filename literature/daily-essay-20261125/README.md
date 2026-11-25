@@ -37,5 +37,6 @@ beneath routine.
 - `node scripts/validate-books.mjs`: PASS
 - `node scripts/validate-essay-translations.mjs`: PASS
 - インラインJavaScript構文、新規全10章のHTML生成・質問文、既存日本語原文エッセイの表示分岐: PASS
-- ブラウザーでの実画面検査は実施できていない。Chromium本体がなく、取得も403。クラウドブラウザーからローカルプレビューにも接続できなかった。
+- 公開後のブラウザー（幅1363px）で作品選択・全10章の索引・原詞の改行・日本語訳ラベル・質問リンク・文脈単語帳の読込完了・横はみ出しなしを確認した。
+- ローカルでの390px / 1280px実画面検査は未実施。Chromium本体がなく取得も403で、クラウドブラウザーからローカルプレビューにも接続できなかった。
 - `build-lazy-indexes.mjs --check` は既存 `index.html` の外部 pinkchan.js とインラインscriptをまとめて数え「exactly one inline script」で失敗する。この作品追加に起因せず、生成索引の差分もない。
