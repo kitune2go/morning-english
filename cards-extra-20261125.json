@@ -1,0 +1,710 @@
+[
+  {
+    "_no": 216,
+    "_generatedAt": "2026-11-25T02:00:00+09:00",
+    "sentence": "Facts can describe what happens, but they cannot by themselves establish what ought to happen; a normative conclusion requires an additional value or principle.",
+    "phonetic": "ファクツ キャン ディスクライブ ワット ハプンズ、バット ゼイ キャノット バイ ゼムセルヴズ エスタブリッシュ ワット オート トゥ ハプン；ア ノーマティヴ コンクルージョン リクワイアーズ アン アディショナル ヴァリュー オア プリンシプル。",
+    "japaneseTranslation": "事実は何が起きているかを記述できますが、それだけで何が起きるべきかを確立することはできません。規範的な結論には、追加の価値判断または原則が必要です。",
+    "theme": "事実の記述と規範的結論を分ける",
+    "coreVerb": "establish",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Facts describe events.",
+        "translation": "事実は出来事を記述します。"
+      },
+      "phase2": {
+        "sentence": "Facts describe what happens in the world.",
+        "translation": "事実は世界で何が起きているかを記述します。",
+        "addedChunks": "内容を表すwhat節を追加"
+      },
+      "phase3": {
+        "sentence": "Facts describe events, but values guide judgments.",
+        "translation": "事実は出来事を記述しますが、価値は判断を導きます。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "A normative claim needs more than a factual description.",
+        "translation": "規範的な主張には、事実の記述以上のものが必要です。",
+        "comparison": "more than"
+      },
+      "phase5": {
+        "sentence": "Facts can describe what happens, but they cannot by themselves establish what ought to happen; a normative conclusion requires an additional value or principle",
+        "translation": "事実は何が起きているかを記述できますが、それだけで何が起きるべきかを確立することはできません。規範的な結論には、追加の価値判断または原則が必要です。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Facts can describe what happens,",
+          "function": "内容",
+          "translation": "事実は何が起きているかを記述できます"
+        },
+        {
+          "text": "but they cannot by themselves establish",
+          "function": "接続",
+          "translation": "しかし、それだけでは確立できません"
+        },
+        {
+          "text": "what ought to happen;",
+          "function": "対象",
+          "translation": "何が起きるべきかを"
+        },
+        {
+          "text": "a normative conclusion requires",
+          "function": "状態",
+          "translation": "規範的な結論には必要です"
+        },
+        {
+          "text": "an additional value",
+          "function": "対象",
+          "translation": "追加の価値判断が"
+        },
+        {
+          "text": "or principle.",
+          "function": "接続",
+          "translation": "または原則が"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can + 動詞原形",
+          "where": "can describe",
+          "explanation": "事実が担える機能を表す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "名詞節",
+          "name": "what節",
+          "where": "what happens",
+          "explanation": "何が起きるかという内容全体を目的語にする。",
+          "rule": "what + 動詞"
+        },
+        {
+          "category": "再帰代名詞",
+          "name": "by themselves",
+          "where": "cannot by themselves establish",
+          "explanation": "事実だけでは十分でないことを強調する。",
+          "rule": "by + 再帰代名詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "ought to",
+          "where": "ought to happen",
+          "explanation": "望ましさや規範的な必要を表す。",
+          "rule": "ought to + 動詞原形"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "happen; a normative conclusion",
+          "explanation": "問題提起と必要条件を二つの独立節で結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "主語動詞一致",
+          "name": "単数主語 conclusion",
+          "where": "conclusion requires",
+          "explanation": "単数主語にrequiresを使う。",
+          "rule": "単数主語 + 三人称単数動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Facts can describes what happens.",
+          "correct": "Facts can describe what happens.",
+          "why": "助動詞canの後は動詞原形にする。"
+        },
+        {
+          "wrong": "what ought happen",
+          "correct": "what ought to happen",
+          "why": "oughtはto不定詞を伴う。"
+        },
+        {
+          "wrong": "A normative conclusion require a value.",
+          "correct": "A normative conclusion requires a value.",
+          "why": "単数主語conclusionにrequiresを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A description of reality does not automatically supply a rule for action.",
+          "translation": "現実の記述が、自動的に行動規則を与えるわけではありません。"
+        },
+        {
+          "text": "Evidence tells us what is the case; values help us decide what should be done.",
+          "translation": "証拠は事実を示し、価値判断は何をすべきか決める助けになります。"
+        },
+        {
+          "text": "Normative reasoning must make its guiding principle explicit.",
+          "translation": "規範的推論は、それを導く原則を明示しなければなりません。"
+        }
+      ],
+      "parseTree": "[S Facts [VP can describe [CP what happens]]], but [S they [VP cannot by themselves establish [CP what ought to happen]]]; [S a normative conclusion [VP requires an additional value or principle]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "cannot by themselves establish what ought to happen",
+          "expanded": "because a description does not state the value used to judge possible actions",
+          "nuance": "事実だけでは規範が不足する理由。"
+        },
+        {
+          "original": "a normative conclusion requires an additional value",
+          "expanded": "since the conclusion must rank outcomes as desirable, harmful, fair, or unfair",
+          "nuance": "価値判断が果たす役割。"
+        },
+        {
+          "original": "or principle",
+          "expanded": "therefore, the argument should identify the rule connecting the facts to the recommendation",
+          "nuance": "隠れた前提を明示する必要性。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "What ought to happen cannot be established by facts alone.",
+          "translation": "何が起きるべきかは、事実だけでは確立できません。",
+          "note": "確立される規範を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Adding an explicit value premise, an argument can move from description to recommendation.",
+          "translation": "価値前提を明示的に加えることで、論証は記述から提言へ進めます。",
+          "note": "追加条件を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The derivation of a norm requires more than factual description.",
+          "translation": "規範の導出には、事実の記述以上のものが必要です。",
+          "note": "deriveとdescribeを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "normative",
+            "alternatives": [
+              "prescriptive",
+              "value-based",
+              "ought-oriented"
+            ],
+            "nuance": "normativeは規範に関する、prescriptiveは行為を指示する、value-basedは価値に基づく。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "可能範囲と不足",
+            "sentence": "X can describe A, but it cannot by itself establish B; B requires C.",
+            "translation": "XはAを記述できますが、それだけでBを確立できず、BにはCが必要です。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A recommendation contains more evaluative content than a factual report.",
+            "translation": "提言は、事実報告より多くの評価的内容を含みます。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the value premise remains hidden, the normative conclusion may appear stronger than it is.",
+            "translation": "価値前提が隠れたままだと、規範的結論が実際以上に強く見える場合があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What facts cannot supply alone is the standard of judgment.",
+            "translation": "事実だけでは与えられないのは、判断の基準です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Facts describe; values direct.",
+            "translation": "事実は記述し、価値は方向を示します。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "二つのwhat節とセミコロンで、事実・規範・追加前提の関係を明確にした。"
+    }
+  },
+  {
+    "_no": 217,
+    "_generatedAt": "2026-11-25T02:00:00+09:00",
+    "sentence": "Visual presentation can enhance a meal through plates and arrangement, but when performance shifts attention from the food to the chef, spectacle begins to replace service.",
+    "phonetic": "ヴィジュアル プレゼンテイション キャン エンハンス ア ミール スルー プレイツ アンド アレンジメント、バット ウェン パフォーマンス シフツ アテンション フロム ザ フード トゥ ザ シェフ、スペクタクル ビギンズ トゥ リプレイス サーヴィス。",
+    "japaneseTranslation": "視覚的な演出は、器や盛り付けによって食事を引き立てられます。しかし、パフォーマンスが料理から料理人へ注意を移すと、見世物がサービスに取って代わり始めます。",
+    "theme": "料理を引き立てる演出と主役を奪う演出を分ける",
+    "coreVerb": "enhance",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Presentation enhances a meal.",
+        "translation": "演出は食事を引き立てます。"
+      },
+      "phase2": {
+        "sentence": "Plates and arrangement enhance a meal visually.",
+        "translation": "器と盛り付けは食事を視覚的に引き立てます。",
+        "addedChunks": "手段(plates and arrangement)と様態(visually)を追加"
+      },
+      "phase3": {
+        "sentence": "Presentation can help, but performance can distract.",
+        "translation": "演出は役立ちますが、パフォーマンスは注意をそらすことがあります。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "A plate can be less intrusive than a chef-centered performance.",
+        "translation": "器は、料理人中心のパフォーマンスより控えめな演出になれます。",
+        "comparison": "less intrusive than"
+      },
+      "phase5": {
+        "sentence": "Visual presentation can enhance a meal through plates and arrangement, but when performance shifts attention from the food to the chef, spectacle begins to replace service",
+        "translation": "視覚的な演出は、器や盛り付けによって食事を引き立てられます。しかし、パフォーマンスが料理から料理人へ注意を移すと、見世物がサービスに取って代わり始めます。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Visual presentation can enhance a meal",
+          "function": "行動",
+          "translation": "視覚的な演出は食事を引き立てられます"
+        },
+        {
+          "text": "through plates and arrangement,",
+          "function": "様態",
+          "translation": "器や盛り付けによって"
+        },
+        {
+          "text": "but when performance shifts attention",
+          "function": "接続",
+          "translation": "しかしパフォーマンスが注意を移すと"
+        },
+        {
+          "text": "from the food to the chef,",
+          "function": "対象",
+          "translation": "料理から料理人へ"
+        },
+        {
+          "text": "spectacle begins to replace",
+          "function": "結果",
+          "translation": "見世物が取って代わり始めます"
+        },
+        {
+          "text": "service.",
+          "function": "対象",
+          "translation": "サービスに"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can + 動詞原形",
+          "where": "can enhance",
+          "explanation": "演出が食事を引き立て得ることを示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "前置詞",
+          "name": "throughによる手段",
+          "where": "through plates and arrangement",
+          "explanation": "器と盛り付けを手段として示す。",
+          "rule": "through + 名詞"
+        },
+        {
+          "category": "接続",
+          "name": "butによる転換",
+          "where": "but when performance",
+          "explanation": "支援的演出から過剰な演出へ論点を転換する。",
+          "rule": "節, but + 節"
+        },
+        {
+          "category": "接続",
+          "name": "when節",
+          "where": "when performance shifts attention",
+          "explanation": "見世物化が始まる条件を示す。",
+          "rule": "when + 主語 + 動詞"
+        },
+        {
+          "category": "語法",
+          "name": "shift A from B to C",
+          "where": "shifts attention from the food to the chef",
+          "explanation": "注意の対象が料理から料理人へ移ることを表す。",
+          "rule": "shift A from B to C"
+        },
+        {
+          "category": "不定詞",
+          "name": "begin to do",
+          "where": "begins to replace",
+          "explanation": "置き換えが始まる段階を表す。",
+          "rule": "begin to + 動詞原形"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Presentation can enhances a meal.",
+          "correct": "Presentation can enhance a meal.",
+          "why": "助動詞canの後は動詞原形にする。"
+        },
+        {
+          "wrong": "shift attention from the food into the chef",
+          "correct": "shift attention from the food to the chef",
+          "why": "移動元と移動先にはfrom A to Bを使う。"
+        },
+        {
+          "wrong": "spectacle begin to replace service",
+          "correct": "spectacle begins to replace service",
+          "why": "単数主語spectacleにbeginsを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Good presentation keeps the food at the center of the experience.",
+          "translation": "良い演出は、体験の中心に料理を置き続けます。"
+        },
+        {
+          "text": "Tableware can create visual interest without demanding personal attention for the chef.",
+          "translation": "器は、料理人本人への注目を要求せずに視覚的な魅力を作れます。"
+        },
+        {
+          "text": "A meal becomes theater when the performer matters more than the dish.",
+          "translation": "演者が料理より重要になると、食事は劇場になります。"
+        }
+      ],
+      "parseTree": "[S Visual presentation [VP can enhance a meal through plates and arrangement]], but [Adv when performance shifts attention from A to B], [S spectacle [VP begins to replace service]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "enhance a meal through plates and arrangement",
+          "expanded": "because color, shape, and composition can guide attention toward the food",
+          "nuance": "静的演出が料理を支える仕組み。"
+        },
+        {
+          "original": "performance shifts attention from the food to the chef",
+          "expanded": "since the diner must follow the performer rather than examine the dish",
+          "nuance": "過剰演出が主役を変える理由。"
+        },
+        {
+          "original": "spectacle begins to replace service",
+          "expanded": "therefore, the event may satisfy the performer’s narrative more than the diner’s purpose",
+          "nuance": "演出がサービスから逸脱する帰結。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "A meal can be enhanced by plates and arrangement without being overshadowed by performance.",
+          "translation": "食事は、パフォーマンスに影を落とされず、器と盛り付けによって引き立てられます。",
+          "note": "引き立てられる食事を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Keeping the food at the center, visual presentation can enrich the dining experience.",
+          "translation": "料理を中心に保つことで、視覚的演出は食事体験を豊かにできます。",
+          "note": "演出の条件を-ing句にする。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The displacement of food by spectacle weakens the service function of presentation.",
+          "translation": "料理が見世物に置き換えられると、演出のサービス機能が弱まります。",
+          "note": "displaceとserveを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "spectacle",
+            "alternatives": [
+              "show",
+              "performance",
+              "display"
+            ],
+            "nuance": "spectacleは見世物性、showは催し、performanceは演技、displayは視覚的提示を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "支援と主客転倒",
+            "sentence": "X can enhance Y through Z, but when A shifts attention from Y to B, C replaces D.",
+            "translation": "XはZでYを高められますが、Aが注意をYからBへ移すとCがDに代わります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A well-chosen plate is less distracting than an extended tableside performance.",
+            "translation": "適切に選ばれた器は、長い卓上パフォーマンスより注意をそらしません。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the presentation directs attention back to the dish, it remains part of the service.",
+            "translation": "演出が注意を料理へ戻すなら、それはサービスの一部であり続けます。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What diners came to experience is the meal, not the chef’s autobiography.",
+            "translation": "客が体験しに来たのは食事であって、料理人の自伝ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Let the plate frame the food.",
+            "translation": "器には料理を縁取らせます。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "when節で演出がサービスから見世物へ変わる条件を示した。抽象語を含むため効率性は8。"
+    }
+  },
+  {
+    "_no": 218,
+    "_generatedAt": "2026-11-25T02:00:00+09:00",
+    "sentence": "Content-addressed caching reuses unchanged data even after the active release changes, while parallel loading shortens the critical path by fetching independent resources at the same time.",
+    "phonetic": "コンテント アドレスト キャッシング リユージズ アンチェインジド デイタ イーヴン アフター ジ アクティヴ リリース チェインジズ、ワイル パラレル ロウディング ショートンズ ザ クリティカル パス バイ フェッチング インディペンデント リソーシズ アット ザ セイム タイム。",
+    "japaneseTranslation": "内容アドレス型キャッシュは、Activeリリースが変わった後でも変更のないデータを再利用します。一方、並行読み込みは独立したリソースを同時に取得してクリティカルパスを短縮します。",
+    "theme": "内容ハッシュ型キャッシュと並行読み込みの役割を分ける",
+    "coreVerb": "reuse",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Caching reuses data.",
+        "translation": "キャッシュはデータを再利用します。"
+      },
+      "phase2": {
+        "sentence": "Content-addressed caching reuses unchanged data.",
+        "translation": "内容アドレス型キャッシュは変更のないデータを再利用します。",
+        "addedChunks": "キャッシュ方式(content-addressed)と対象(unchanged data)を追加"
+      },
+      "phase3": {
+        "sentence": "Caching reuses data, while parallel loading reduces waiting.",
+        "translation": "キャッシュはデータを再利用し、並行読み込みは待ち時間を減らします。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "Parallel loading is faster than sequential loading when resources are independent.",
+        "translation": "リソースが独立している場合、並行読み込みは逐次読み込みより高速です。",
+        "comparison": "faster than"
+      },
+      "phase5": {
+        "sentence": "Content-addressed caching reuses unchanged data even after the active release changes, while parallel loading shortens the critical path by fetching independent resources at the same time",
+        "translation": "内容アドレス型キャッシュは、Activeリリースが変わった後でも変更のないデータを再利用します。一方、並行読み込みは独立したリソースを同時に取得してクリティカルパスを短縮します。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Content-addressed caching reuses",
+          "function": "行動",
+          "translation": "内容アドレス型キャッシュは再利用します"
+        },
+        {
+          "text": "unchanged data",
+          "function": "対象",
+          "translation": "変更のないデータを"
+        },
+        {
+          "text": "even after the active release changes,",
+          "function": "時間",
+          "translation": "Activeリリースが変わった後でも"
+        },
+        {
+          "text": "while parallel loading shortens",
+          "function": "接続",
+          "translation": "一方、並行読み込みは短縮します"
+        },
+        {
+          "text": "the critical path",
+          "function": "対象",
+          "translation": "クリティカルパスを"
+        },
+        {
+          "text": "by fetching independent resources at the same time.",
+          "function": "様態",
+          "translation": "独立したリソースを同時に取得することで"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "複合形容詞",
+          "name": "content-addressed",
+          "where": "Content-addressed caching",
+          "explanation": "内容から得た識別子で参照する方式を表す。",
+          "rule": "過去分詞型複合形容詞 + 名詞"
+        },
+        {
+          "category": "主語動詞一致",
+          "name": "単数主語 caching",
+          "where": "caching reuses",
+          "explanation": "不可算的な動名詞主語にreusesを使う。",
+          "rule": "単数主語 + 三人称単数動詞"
+        },
+        {
+          "category": "譲歩",
+          "name": "even after",
+          "where": "even after the active release changes",
+          "explanation": "リリース変更後にも再利用できる点を強調する。",
+          "rule": "even after + 節"
+        },
+        {
+          "category": "接続",
+          "name": "whileによる役割対照",
+          "where": "while parallel loading",
+          "explanation": "キャッシュと並行読み込みの別の効果を並べる。",
+          "rule": "節, while + 節"
+        },
+        {
+          "category": "語法",
+          "name": "shorten + 目的語",
+          "where": "shortens the critical path",
+          "explanation": "完了までを決める経路を短くする。",
+          "rule": "shorten + 名詞"
+        },
+        {
+          "category": "手段",
+          "name": "by + -ing",
+          "where": "by fetching",
+          "explanation": "短縮を実現する方法を示す。",
+          "rule": "by + 動名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Caching reuse unchanged data.",
+          "correct": "Caching reuses unchanged data.",
+          "why": "単数扱いの主語cachingにreusesを使う。"
+        },
+        {
+          "wrong": "after the active release change",
+          "correct": "after the active release changes",
+          "why": "節の単数主語releaseにchangesを使う。"
+        },
+        {
+          "wrong": "by fetch independent resources",
+          "correct": "by fetching independent resources",
+          "why": "前置詞byの後は動名詞にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A content hash lets identical data keep the same cache identity across releases.",
+          "translation": "内容ハッシュにより、同一データはリリースをまたいで同じキャッシュ識別子を保てます。"
+        },
+        {
+          "text": "Parallel requests reduce latency only when the resources do not depend on one another.",
+          "translation": "並行リクエストが遅延を減らすのは、リソース同士が依存していない場合です。"
+        },
+        {
+          "text": "Caching improves repeat visits, while concurrency can improve the first visit.",
+          "translation": "キャッシュは再訪を改善し、並行処理は初回訪問を改善できます。"
+        }
+      ],
+      "parseTree": "[S Content-addressed caching [VP reuses unchanged data [Adv even after a release changes]]], while [S parallel loading [VP shortens the critical path [Adv by fetching independent resources simultaneously]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "reuses unchanged data",
+          "expanded": "because identical content retains the same hash-based identity",
+          "nuance": "変更のない内容を再利用できる理由。"
+        },
+        {
+          "original": "shortens the critical path",
+          "expanded": "since independent downloads no longer wait for one another to finish",
+          "nuance": "並行化が待ち時間を減らす仕組み。"
+        },
+        {
+          "original": "at the same time",
+          "expanded": "therefore, caching and concurrency improve different parts of the loading experience",
+          "nuance": "再訪と初回読み込みを分けて捉える。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Unchanged data can be reused across releases when it is identified by content hash.",
+          "translation": "変更のないデータは、内容ハッシュで識別されるとリリースをまたいで再利用できます。",
+          "note": "再利用されるデータを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Fetching independent resources in parallel, the application reduces avoidable waiting.",
+          "translation": "独立したリソースを並行取得することで、アプリケーションは回避可能な待ち時間を減らします。",
+          "note": "並行取得を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Content identification enables cache reuse, while request parallelization reduces latency.",
+          "translation": "内容識別はキャッシュ再利用を可能にし、リクエストの並行化は遅延を減らします。",
+          "note": "identify・reuse・parallelizeを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "critical path",
+            "alternatives": [
+              "loading bottleneck",
+              "longest dependency chain",
+              "completion path"
+            ],
+            "nuance": "critical pathは完了時間を決める経路、bottleneckは狭窄点、dependency chainは依存の連鎖。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "二手法の役割分担",
+            "sentence": "X reuses A even after B, while Y shortens C by doing D.",
+            "translation": "XはBの後もAを再利用し、YはDによってCを短縮します。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Parallel loading is faster than serial loading for independent resources.",
+            "translation": "独立したリソースでは、並行読み込みは逐次読み込みより高速です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If content changes, its hash changes and the cache must fetch the new version.",
+            "translation": "内容が変わればハッシュも変わり、キャッシュは新しい版を取得しなければなりません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the hash preserves is content identity, not release identity.",
+            "translation": "ハッシュが保つのはリリースの同一性ではなく、内容の同一性です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Hash for reuse; parallelize for speed.",
+            "translation": "再利用にはハッシュ、速度には並行化です。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "whileで二手法の役割を分けた。技術語が多く前提知識を要するため柔軟性と効率性は8。"
+    }
+  }
+]
