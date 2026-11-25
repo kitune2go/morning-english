@@ -118,7 +118,7 @@ function enter(id,o={}){
  const el=document.createElement('div');el.className='sk-actor sk-enter';el.dataset.id=id;el.style.width=w+'px';el.style.height=h+'px';
  const body=document.createElement('div');body.className='sk-body';el.appendChild(body);
  let canvas=null;
- if(ch.type==='pinkchan-mirror'){canvas=document.createElement('canvas');canvas.width=Math.round(w*Math.min(2,devicePixelRatio||1));canvas.height=Math.round(h*Math.min(2,devicePixelRatio||1));body.appendChild(canvas)}
+ if(ch.type==='pinkchan-mirror'){canvas=document.createElement('canvas');const k=Math.min(actors.size>8?1.25:2,devicePixelRatio||1);canvas.width=Math.round(w*k);canvas.height=Math.round(h*k);body.appendChild(canvas)}
  else if(ch.type==='image'){const img=document.createElement('img');img.src=new URL(ch.src,BASE).href;img.alt='';img.draggable=false;body.appendChild(img)}
  else{body.textContent=ch.emoji||'?';body.style.font=Math.round(h*.8)+'px/1 sans-serif'}
  if(ch.filter)body.style.filter=ch.filter;
@@ -195,16 +195,26 @@ async function dismiss(reason){
  if(list.length){running=pick(list);try{await runSteps(running.steps||[],token)}catch(e){}if(token!==runToken)return;running=null}
  exitAll();restartClock((CFG.cooldownAfterDismiss||45)*1000);
 }
-function restartClock(delay){clock0=performance.now()+(delay||0);firedIdle=new Set()}
+let lastGrow=0;
+function restartClock(delay){clock0=performance.now()+(delay||0);firedIdle=new Set();lastGrow=0}
 
 /* ---------- 時間で段階を上げる（when.trigger="idle" の after 秒） ---------- */
 setInterval(()=>{if(!enabled||!CFG||document.hidden||running)return;const t=(performance.now()-clock0)/1000;if(t<0)return;
  const groups={};for(const s of [...SCENES,...CARD_SCENES])if(s.when&&s.when.trigger==='idle')(groups[s.when.after]=groups[s.when.after]||[]).push(s);
- for(const k of Object.keys(groups).map(Number).sort((a,b)=>a-b)){if(t>=k&&!firedIdle.has(k)){firedIdle.add(k);const own=groups[k].filter(s=>s._src==='card');play(pick(own.length?own:groups[k]));break}}
-},1000);
+ for(const k of Object.keys(groups).map(Number).sort((a,b)=>a-b)){if(t>=k&&!firedIdle.has(k)){firedIdle.add(k);const own=groups[k].filter(s=>s._src==='card');play(pick(own.length?own:groups[k]));return}}
+ // 最後の段階のあとも止まらずに増え続ける（config.json の growth）
+ const g=CFG.growth;if(!g||t<(g.after||60)||actors.size>=(CFG.maxActors||30))return;
+ const now=performance.now();if(now-lastGrow<(g.every||3)*1000)return;lastGrow=now;
+ const step={swarm:pick(g.chars||['pink']),count:g.count||2,every:g.spawnEvery||.12,at:'screen'};
+ if(g.say&&g.say.length&&Math.random()<(g.sayChance==null?.6:g.sayChance))step.say=g.say;
+ play({steps:[step]});
+},500);
 
 /* ---------- 分身の描画：ピンクちゃんの絵を写す ---------- */
+let mirrorFrame=0;
 function mirrorLoop(){requestAnimationFrame(mirrorLoop);if(!actors.size||document.hidden)return;
+ // 数が多いときは間引いて描く（分身が増えても重くならないように）
+ mirrorFrame++;if(actors.size>12&&mirrorFrame%2)return;if(actors.size>36&&mirrorFrame%3)return;
  const src=window.Pinkchan&&window.Pinkchan.canvas&&window.Pinkchan.canvas();if(!src||!src.width)return;
  for(const a of actors.values()){if(!a.canvas)continue;const c=a.canvas,g=c.getContext('2d');g.clearRect(0,0,c.width,c.height);
   const s=Math.min(c.width/src.width,c.height/src.height),w=src.width*s,h=src.height*s;g.drawImage(src,(c.width-w)/2,c.height-h,w,h)}}
