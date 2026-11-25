@@ -9,20 +9,22 @@ if(window.__pinkchan)return;window.__pinkchan=true;
 const BASE=(document.currentScript&&document.currentScript.src)?new URL('assets/pinkchan/',document.currentScript.src).href:'assets/pinkchan/';
 const KEY='pinkchan-settings';
 // 設定：show=ピンクちゃんを出す／sub=字幕／react=リアクション（端末に記憶）
-const CFG={show:true,sub:true,react:true};
+const CFG={show:true,sub:true,react:true,size:'medium'};
 try{Object.assign(CFG,JSON.parse(localStorage.getItem(KEY)||'{}'));if(localStorage.getItem('pinkchan-visible')==='0')CFG.show=false}catch(e){}
+if(!['small','medium','large'].includes(CFG.size))CFG.size='medium';
+if(!CFG.position||!Number.isFinite(CFG.position.x)||!Number.isFinite(CFG.position.y))delete CFG.position;
 const saveCfg=()=>{try{localStorage.setItem(KEY,JSON.stringify(CFG))}catch(e){}};
 const cl=(v,a,b)=>Math.max(a,Math.min(b,v)),lerp=(a,b,t)=>a+(b-a)*t;
 
 /* ---------- 画面の部品 ---------- */
 const css=`
-.pc-wrap{position:fixed;left:calc(10px + env(safe-area-inset-left));bottom:calc(10px + env(safe-area-inset-bottom));z-index:60;width:96px;height:108px;border-radius:18px;background:radial-gradient(circle at 50% 35%,#fff7fb 0,#fde4ef 70%,#f7cfe0 100%);box-shadow:0 4px 16px rgba(120,40,80,.22);overflow:hidden;transition:transform .25s ease,opacity .25s ease;touch-action:manipulation}
-.pc-wrap canvas{width:100%;height:100%;display:block}
+.pc-wrap{position:fixed;left:calc(10px + env(safe-area-inset-left));bottom:calc(10px + env(safe-area-inset-bottom));z-index:60;width:144px;height:162px;border-radius:18px;background:radial-gradient(circle at 50% 35%,#fff7fb 0,#fde4ef 70%,#f7cfe0 100%);box-shadow:0 4px 16px rgba(120,40,80,.22);overflow:hidden;transition:transform .25s ease,opacity .25s ease;touch-action:manipulation}
+.pc-wrap canvas{width:100%;height:100%;display:block;touch-action:none;cursor:grab}.pc-wrap.dragging canvas,.pc-tab.dragging{cursor:grabbing}.pc-wrap canvas:focus-visible{outline:3px solid #9a3d68;outline-offset:-3px}
 .pc-wrap.talking{box-shadow:0 0 0 3px rgba(226,90,150,.55),0 4px 16px rgba(120,40,80,.25)}
-.pc-x{position:absolute;top:4px;right:4px;width:22px;height:22px;border:0;border-radius:50%;background:rgba(255,255,255,.85);color:#9a3d68;font:700 13px/22px sans-serif;padding:0;cursor:pointer}
+.pc-x{position:absolute;top:4px;right:4px;width:28px;height:28px;border:0;border-radius:50%;background:rgba(255,255,255,.85);color:#9a3d68;font:700 16px/28px sans-serif;padding:0;cursor:pointer}
 .pc-tab{position:fixed;left:calc(10px + env(safe-area-inset-left));bottom:calc(10px + env(safe-area-inset-bottom));z-index:60;height:34px;padding:0 12px;border:0;border-radius:17px;background:#f7cfe0;color:#9a3d68;font:700 13px/34px sans-serif;box-shadow:0 3px 10px rgba(120,40,80,.2);cursor:pointer}
 .pc-menu{position:fixed;left:calc(10px + env(safe-area-inset-left));bottom:calc(124px + env(safe-area-inset-bottom));z-index:61;display:flex;flex-direction:column;gap:6px;padding:8px;border-radius:14px;background:#fff;box-shadow:0 6px 20px rgba(120,40,80,.25)}
-.pc-menu button{min-height:36px;padding:0 12px;border:1px solid #f0c3d6;border-radius:10px;background:#fff7fb;color:#7a2f52;font:700 13px/1 sans-serif;text-align:left;cursor:pointer;white-space:nowrap}
+.pc-menu{max-width:calc(100vw - 16px);max-height:calc(100vh - 16px);overflow:auto}.pc-menu button{min-height:36px;padding:0 12px;border:1px solid #f0c3d6;border-radius:10px;background:#fff7fb;color:#7a2f52;font:700 13px/1 sans-serif;text-align:left;cursor:pointer;white-space:nowrap}
 .pc-menu .pc-row{display:flex;gap:6px}.pc-menu .pc-row button{flex:1;text-align:center;padding:0 8px}
 .pc-cap{position:fixed;left:calc(114px + env(safe-area-inset-left));right:calc(10px + env(safe-area-inset-right));bottom:calc(10px + env(safe-area-inset-bottom));z-index:59;padding:8px 12px;border-radius:12px;background:rgba(36,14,26,.8);color:#fff;font:600 15px/1.5 system-ui,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.2);opacity:0;transform:translateY(6px);transition:opacity .25s ease,transform .25s ease;pointer-events:none;-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
 .pc-cap.on{opacity:1;transform:none}
@@ -33,8 +35,8 @@ const css=`
 .pc-hide{display:none!important}
 @media print{.pc-wrap,.pc-tab,.pc-cap,.pc-menu{display:none!important}}`;
 const st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
-const wrap=document.createElement('div');wrap.className='pc-wrap';wrap.setAttribute('aria-hidden','true');
-const cv=document.createElement('canvas');wrap.appendChild(cv);
+const wrap=document.createElement('div');wrap.className='pc-wrap';wrap.setAttribute('role','group');wrap.setAttribute('aria-label','ピンクちゃん');
+const cv=document.createElement('canvas');cv.tabIndex=0;cv.setAttribute('role','img');cv.setAttribute('aria-label','ピンクちゃん。ドラッグ、または矢印キーで移動できます');cv.title='ドラッグで移動・タップで設定';wrap.appendChild(cv);
 const xb=document.createElement('button');xb.className='pc-x';xb.type='button';xb.textContent='×';xb.title='ピンクちゃんをしまう';xb.setAttribute('aria-label','ピンクちゃんをしまう');wrap.appendChild(xb);
 const tab=document.createElement('button');tab.className='pc-tab';tab.type='button';tab.textContent='ピンクちゃん';tab.title='ピンクちゃんを出す';
 const cap=document.createElement('div');cap.className='pc-cap';cap.setAttribute('aria-live','off');const capIn=document.createElement('div');capIn.className='pc-capin';cap.appendChild(capIn);
@@ -44,12 +46,71 @@ function renderMenu(){menu.innerHTML='';const b=(label,fn)=>{const e=document.cr
  menu.appendChild(b('リアクション：'+(CFG.react?'オン':'オフ'),()=>{CFG.react=!CFG.react;saveCfg();renderMenu()}));
  const row=document.createElement('div');row.className='pc-row';
  for(const [lb,n] of [['うなずく','nod'],['にこっ','happy'],['びっくり','surprise'],['手を振る','wave']])row.appendChild(b(lb,()=>react(n,true)));
- menu.appendChild(row);menu.appendChild(b('しまう',()=>{setVisible(false)}))}
-function setVisible(v){CFG.show=v;saveCfg();wrap.classList.toggle('pc-hide',!v);tab.classList.toggle('pc-hide',v);cap.classList.toggle('solo',!v);menu.classList.add('pc-hide');if(v)fit()}
-xb.onclick=e=>{e.stopPropagation();setVisible(false)};tab.onclick=()=>setVisible(true);
+ menu.appendChild(row);
+ const sizes=document.createElement('div');sizes.className='pc-row';
+ for(const [label,size] of [['小','small'],['中','medium'],['大','large']]){const button=b('サイズ：'+label,()=>{CFG.size=size;saveCfg();renderMenu();fit()});button.setAttribute('aria-pressed',String(CFG.size===size));sizes.appendChild(button)}
+ menu.appendChild(sizes);menu.appendChild(b('位置を左下に戻す',()=>{delete CFG.position;saveCfg();layout()}));
+ menu.appendChild(b('しまう',()=>{setVisible(false)}))}
+function setVisible(v){CFG.show=v;saveCfg();wrap.classList.toggle('pc-hide',!v);tab.classList.toggle('pc-hide',v);cap.classList.toggle('solo',!v);menu.classList.add('pc-hide');fit()}
+xb.onclick=e=>{e.stopPropagation();setVisible(false)};tab.onclick=e=>{if(performance.now()<suppressClickUntil){e.preventDefault();return}setVisible(true)};
 // 本人をタップすると設定とリアクションのメニュー。ついでに手を振る
-wrap.onclick=e=>{e.stopPropagation();const open=menu.classList.contains('pc-hide');if(open){renderMenu();react('wave',true)}menu.classList.toggle('pc-hide',!open)};
+wrap.onclick=e=>{e.stopPropagation();if(performance.now()<suppressClickUntil){e.preventDefault();return}const open=menu.classList.contains('pc-hide');if(open){renderMenu();react('wave',true)}menu.classList.toggle('pc-hide',!open);layout()};
 document.addEventListener('click',e=>{if(!menu.contains(e.target))menu.classList.add('pc-hide')});
+// 位置は画面内の比率で保存し、回転・サイズ変更後も画面内に収める。
+let drag=null,suppressClickUntil=0;
+const viewport=()=>({w:document.documentElement.clientWidth||innerWidth,h:innerHeight});
+function layout(){
+ const {w,h}=viewport(),size={small:96,medium:144,large:192}[CFG.size];
+ const scale=Math.max(.01,Math.min(1,(w-16)/size,(h-16)/(size*1.125)));
+ wrap.style.width=size*scale+'px';wrap.style.height=size*1.125*scale+'px';
+ const anchor=CFG.show?wrap:tab;
+ for(const el of [wrap,tab]){
+  if(CFG.position){el.style.left=(8+cl(CFG.position.x,0,1)*Math.max(0,w-el.offsetWidth-16))+'px';el.style.top=(8+cl(CFG.position.y,0,1)*Math.max(0,h-el.offsetHeight-16))+'px';el.style.bottom='auto'}
+  else{el.style.left='';el.style.top='';el.style.bottom=''}
+ }
+ const r=anchor.getBoundingClientRect();
+ // メニューを人形の近くに出す。上に入らなければ下へ、最後に画面内へ制限する。
+ if(!menu.classList.contains('pc-hide')){
+  menu.style.left=cl(r.left,8,Math.max(8,w-menu.offsetWidth-8))+'px';
+  const y=r.top-menu.offsetHeight-8;
+  menu.style.top=cl(y>=8?y:r.bottom+8,8,Math.max(8,h-menu.offsetHeight-8))+'px';menu.style.bottom='auto';
+ }
+ cap.style.right='8px';cap.style.left='8px';cap.style.bottom='auto';
+ const beside=CFG.show&&(w-r.right-16>=180||r.left-16>=180);
+ if(CFG.show&&w-r.right-16>=180)cap.style.left=r.right+8+'px';
+ else if(CFG.show&&r.left-16>=180)cap.style.right=w-r.left+8+'px';
+ const ch=cap.offsetHeight||84,y=beside?r.bottom-ch:(r.top-ch-8>=8?r.top-ch-8:r.bottom+8);
+ cap.style.top=cl(y,8,Math.max(8,h-ch-8))+'px';
+}
+function rememberPosition(el,x,y){
+ const {w,h}=viewport();CFG.position={x:cl((x-8)/Math.max(1,w-el.offsetWidth-16),0,1),y:cl((y-8)/Math.max(1,h-el.offsetHeight-16),0,1)};
+ layout();
+}
+for(const el of [wrap,tab]){
+ el.addEventListener('pointerdown',e=>{
+  if(!e.isPrimary||e.button!==0||(e.target.closest('button')&&el!==tab))return;
+  const r=el.getBoundingClientRect();drag={el,id:e.pointerId,x:e.clientX,y:e.clientY,left:r.left,top:r.top,moved:false};suppressClickUntil=0;el.setPointerCapture(e.pointerId);
+ });
+ el.addEventListener('pointermove',e=>{
+  if(!drag||drag.el!==el||drag.id!==e.pointerId)return;
+  const dx=e.clientX-drag.x,dy=e.clientY-drag.y;
+  if(!drag.moved&&Math.hypot(dx,dy)<6)return;
+  drag.moved=true;e.preventDefault();el.classList.add('dragging');menu.classList.add('pc-hide');rememberPosition(el,drag.left+dx,drag.top+dy);
+ });
+ const end=e=>{
+  if(!drag||drag.el!==el||drag.id!==e.pointerId)return;
+  if(drag.moved){suppressClickUntil=performance.now()+450;saveCfg()}
+  drag=null;el.classList.remove('dragging');
+  if(el.hasPointerCapture(e.pointerId))el.releasePointerCapture(e.pointerId);
+ };
+ el.addEventListener('pointerup',end);el.addEventListener('pointercancel',end);el.addEventListener('lostpointercapture',end);
+}
+tab.style.touchAction='none';
+cv.addEventListener('keydown',e=>{
+ if(e.key==='Enter'||e.key===' '){e.preventDefault();suppressClickUntil=0;wrap.click();return}
+ const d={ArrowLeft:[-1,0],ArrowRight:[1,0],ArrowUp:[0,-1],ArrowDown:[0,1]}[e.key];if(!d)return;
+ e.preventDefault();const r=wrap.getBoundingClientRect(),step=e.shiftKey?40:10;rememberPosition(wrap,r.left+d[0]*step,r.top+d[1]*step);saveCfg();
+});
 function mount(){document.body.appendChild(cap);document.body.appendChild(wrap);document.body.appendChild(tab);document.body.appendChild(menu);setVisible(CFG.show)}
 const ctx=cv.getContext('2d');
 
@@ -116,7 +177,7 @@ function drawLayer(p){const n=p.n;
  if(p.kind==='cheek'){ctx.globalAlpha*=cl(P.ch,0,1);ctx.drawImage(p.img,p.x,p.y);return}
  if(n==='mouthOpen'){const a=cl(moF*3,0,1);if(a<.01)return;if(P.mf>.35&&L.mouthI)p=L.mouthI;else if(P.mf<-.35&&L.mouthU)p=L.mouthU;ctx.save();ctx.globalAlpha=a;const top=(p.top||p.y)+2;ctx.translate(0,top);ctx.scale(1,.35+.65*moF);ctx.translate(0,-top);ctx.drawImage(p.img,p.x,p.y);ctx.restore();return}
  ctx.drawImage(p.img,p.x,p.y)}
-function fit(){if(!box)return;dpr=Math.min(2,window.devicePixelRatio||1);const w=wrap.clientWidth||96,h=wrap.clientHeight||108;cv.width=Math.max(1,w*dpr|0);cv.height=Math.max(1,h*dpr|0);sc=Math.max(w/box.w,h/box.h);ox=(w-box.w*sc)/2-box.x*sc;oy=(h-box.h*sc)-box.y*sc}
+function fit(){layout();if(!box)return;dpr=Math.min(2,window.devicePixelRatio||1);const w=wrap.clientWidth||144,h=wrap.clientHeight||162;cv.width=Math.max(1,w*dpr|0);cv.height=Math.max(1,h*dpr|0);sc=Math.max(w/box.w,h/box.h);ox=(w-box.w*sc)/2-box.x*sc;oy=(h-box.h*sc)-box.y*sc}
 window.addEventListener('resize',fit);
 function render(){ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,cv.width,cv.height);const k=dpr*sc;ctx.setTransform(k,0,0,k,dpr*ox,dpr*oy);
  computeMats();const base=ctx.getTransform();
@@ -162,7 +223,7 @@ let capTimer=0,capText='',capStart=0,capEst=3;
 function esc(t){return t.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
 function showCap(text,i,len,rate){if(!CFG.sub)return;clearTimeout(capTimer);if(text!=null){capText=text;capStart=T;capEst=text.length*(/[\u3040-\u30ff\u4e00-\u9fff]/.test(text)?.135:.068)/(rate||1)*.8;capIn.scrollTop=0}const t=capText;if(!t)return;
  if(i==null){capIn.innerHTML=esc(t)}else{if(!len){const m=/^[\w'’-]+/.exec(t.slice(i));len=m?m[0].length:1}capIn.innerHTML=esc(t.slice(0,i))+'<span class="pc-w">'+esc(t.slice(i,i+len))+'</span>'+esc(t.slice(i+len));const w=capIn.querySelector('.pc-w');if(w){const lh=capLH(),ln=Math.floor(w.offsetTop/lh);capIn.scrollTop=Math.max(0,ln-1)*lh}}
- cap.classList.add('on')}
+ cap.classList.add('on');layout()}
 const capLH=()=>parseFloat(getComputedStyle(capIn).lineHeight)||22;
 function capScroll(){if(!cap.classList.contains('on'))return;const max=capIn.scrollHeight-capIn.clientHeight;
  if(max>1&&!talking){capIn.scrollTop=Math.abs(max-capIn.scrollTop)<3?max:lerp(capIn.scrollTop,max,.3)}
