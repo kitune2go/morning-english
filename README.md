@@ -9,6 +9,8 @@ CEG+ v2.1 English learning cards and literary reading cards.
 2. 文学版：literature.html
 ```
 
+寸劇モード（キャラが本文の横で寸劇を始めて邪魔してくる演出）は本文とは別実装で、設定と台本は [`skit/`](skit/README.md) にあります。
+
 ---
 
 ## 1. 毎朝の英語にカードを追加する場合

@@ -1,0 +1,245 @@
+/* 寸劇モード：本文の横でキャラが寸劇を始め、放っておくと増えて画面を埋め、学習の邪魔をする演出
+   - 本文（index.html）のコードには手を入れない。DOMを見てカードの切り替え・音読・読み上げを拾う
+   - キャラ・演出の設定は skit/config.json、台本は skit/scripts/*.json（カード別は skit/cards/<No>.json）
+   - キャラを足すときは config.json の characters に1件足すだけ。台本の書き方は skit/README.md
+   - ピンクちゃんの分身は pinkchan.js の描画をそのまま写す（同じ体を共有しているので口や瞬きは揃う） */
+(function(){
+'use strict';
+if(window.__skit)return;window.__skit=true;
+const BASE=(document.currentScript&&document.currentScript.src)?new URL('./',document.currentScript.src).href:'skit/';
+const KEY='skit-mode';
+const cl=(v,a,b)=>Math.max(a,Math.min(b,v));
+const rnd=(a,b)=>a+Math.random()*(b-a);
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+
+/* ---------- 見た目 ---------- */
+const css=`
+.sk-layer{position:absolute;left:0;top:0;width:0;height:0;z-index:55;pointer-events:none}
+.sk-actor{position:absolute;pointer-events:auto;touch-action:manipulation;transition:left var(--sk-mv,.6s) ease-in-out,top var(--sk-mv,.6s) ease-in-out,opacity .3s ease;will-change:left,top}
+.sk-actor>.sk-body{width:100%;height:100%;transform-origin:50% 100%}
+.sk-actor canvas{-webkit-mask-image:linear-gradient(#000 82%,transparent);mask-image:linear-gradient(#000 82%,transparent)}
+.sk-actor canvas,.sk-actor img{width:100%;height:100%;display:block;pointer-events:none;-webkit-user-drag:none;user-select:none}
+.sk-actor.flip>.sk-body>*{transform:scaleX(-1)}
+.sk-enter>.sk-body{animation:sk-pop .35s cubic-bezier(.3,1.6,.5,1) both}
+.sk-bounce>.sk-body{animation:sk-bounce .5s ease 2}
+.sk-shake>.sk-body{animation:sk-shake .4s linear 2}
+.sk-spin>.sk-body{animation:sk-spin .7s ease}
+.sk-hop>.sk-body{animation:sk-hop .45s ease 3}
+.sk-wobble>.sk-body{animation:sk-wobble 1.2s ease-in-out infinite}
+.sk-sleep>.sk-body{animation:sk-sleep 2.4s ease-in-out infinite}
+.sk-poke>.sk-body{animation:sk-poke .35s ease 3}
+.sk-exit{opacity:0!important}.sk-exit>.sk-body{animation:sk-out .45s ease-in both}
+@keyframes sk-pop{from{transform:scale(.1) translateY(30%)}to{transform:none}}
+@keyframes sk-bounce{0%,100%{transform:none}40%{transform:translateY(-18%) scaleY(1.05)}60%{transform:translateY(0) scaleY(.92)}}
+@keyframes sk-shake{0%,100%{transform:none}25%{transform:translateX(-6%) rotate(-4deg)}75%{transform:translateX(6%) rotate(4deg)}}
+@keyframes sk-spin{to{transform:rotate(360deg)}}
+@keyframes sk-hop{0%,100%{transform:none}50%{transform:translateY(-25%)}}
+@keyframes sk-wobble{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes sk-sleep{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.95)}}
+@keyframes sk-poke{0%,100%{transform:none}50%{transform:translateX(-10%) rotate(-8deg)}}
+@keyframes sk-out{to{transform:translateY(-40%) scale(.3) rotate(25deg)}}
+.sk-bubble{position:absolute;width:max-content;max-width:min(240px,70vw);padding:7px 11px;border-radius:14px;background:#fff;color:#2a0b18;border:2px solid var(--sk-c,#ff8fbf);font:700 14px/1.45 system-ui,-apple-system,"Hiragino Sans",sans-serif;box-shadow:0 3px 10px rgba(0,0,0,.15);pointer-events:none;opacity:0;transform:translateY(6px) scale(.9);transition:opacity .18s ease,transform .18s ease;white-space:pre-wrap;z-index:2}
+.sk-bubble.on{opacity:1;transform:none}
+.sk-bubble.shout{font-size:18px;background:#fff1f6}
+.sk-bubble.whisper{font-weight:500;font-size:12px;opacity:.85;border-style:dashed}
+.sk-stop{position:fixed;right:calc(10px + env(safe-area-inset-right));bottom:calc(10px + env(safe-area-inset-bottom));z-index:200;min-height:40px;padding:0 14px;border:2px solid #1c1917;border-radius:20px;background:#1c1917;color:#FEF3C7;font:700 13px/36px system-ui,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.25);cursor:pointer}
+.sk-hide{display:none!important}
+.sk-toggle[aria-pressed="true"]{background:#be185d;color:#fff;border-color:#be185d}
+@media (prefers-reduced-motion:reduce){.sk-actor{transition:none}.sk-actor>.sk-body{animation:none!important}}
+@media print{.sk-layer,.sk-stop,.sk-toggle{display:none!important}}`;
+const st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
+const layer=document.createElement('div');layer.className='sk-layer';layer.setAttribute('aria-hidden','true');
+const stopBtn=document.createElement('button');stopBtn.type='button';stopBtn.className='sk-stop sk-hide';stopBtn.textContent='📖 勉強に戻る';
+const toggle=document.createElement('button');toggle.type='button';toggle.className='btn sk-toggle';
+
+/* ---------- 状態 ---------- */
+let CFG=null,CHARS={},SCENES=[],CARD_SCENES=[],enabled=false;
+try{enabled=localStorage.getItem(KEY)==='1'}catch(e){}
+const actors=new Map();     // id -> {id,char,el,body,canvas,x,y,w,h}
+let runToken=0,running=null,queue=[],cardNo=null,cardInfo={},clock0=0,firedIdle=new Set(),cooldownUntil=0,playedOnce=new Set();
+
+/* ---------- 設定と台本の読み込み ---------- */
+async function getJson(path){const r=await fetch(new URL(path,BASE).href,{cache:'no-cache'});if(!r.ok)throw new Error(path+' '+r.status);return r.json()}
+async function loadAll(){
+ CFG=await getJson('config.json');
+ CHARS={};for(const c of CFG.characters||[])CHARS[c.id]=c;
+ SCENES=[];for(const p of CFG.scripts||[]){try{const s=await getJson(p);for(const sc of s.scenes||[])SCENES.push({...sc,_src:p})}catch(e){console.warn('寸劇の台本を読めませんでした',p,e)}}
+}
+async function loadCardScenes(no){
+ CARD_SCENES=[];if(!CFG||!CFG.perCard||no==null)return;
+ try{const s=await getJson(CFG.perCard.replace('{no}',encodeURIComponent(no)));CARD_SCENES=(s.scenes||[]).map(sc=>({...sc,_src:'card'}))}catch(e){/* カード別の台本は無くてよい */}
+}
+
+/* ---------- 本文から拾う情報（台本の {coreVerb} などに入る） ---------- */
+function readCard(){
+ const sent=(document.querySelector('.hero-sentence')||{}).textContent||'';
+ const tag=((document.querySelector('.hero .tag-mini.gray')||{}).textContent||'').split('·').map(s=>s.trim());
+ const words=sent.match(/[A-Za-z][A-Za-z'’-]+/g)||[];
+ const long=words.filter(w=>w.length>=6);
+ const no=((document.getElementById('numInfo')||{}).textContent||'').replace(/^No\./,'').trim();
+ return{no,sentence:sent,theme:tag[0]||'',coreVerb:tag[1]||'',word:(long.length?pick(long):pick(words.length?words:['English'])),firstWords:words.slice(0,3).join(' '),trans:((document.querySelector('.hero-trans')||{}).textContent||'').trim()};
+}
+const fill=t=>String(t).replace(/\{(\w+)\}/g,(m,k)=>cardInfo[k]!=null&&cardInfo[k]!==''?cardInfo[k]:m==='{word}'?'これ':'');
+
+/* ---------- 立ち位置 ---------- */
+function textRect(){const el=document.querySelector('.hero-sentence')||document.querySelector('.hero')||document.getElementById('content');
+ if(!el)return{left:20,top:scrollY+120,width:innerWidth-40,height:120};const r=el.getBoundingClientRect();return{left:r.left+scrollX,top:r.top+scrollY,width:r.width,height:r.height}}
+function viewRect(){const w=document.documentElement.clientWidth||innerWidth;return{left:scrollX,top:scrollY,width:w,height:innerHeight}}
+function place(at,w,h){
+ const t=textRect(),v=viewRect(),pad=6;let x,y;
+ switch(at){
+  case 'textRight':x=t.left+t.width-w*.55;y=t.top+t.height/2-h*.6;break;
+  case 'textLeft':x=t.left-w*.45;y=t.top+t.height/2-h*.6;break;
+  case 'textTop':x=t.left+rnd(.1,.7)*t.width;y=t.top-h*.85;break;
+  case 'textBottom':x=t.left+rnd(.1,.7)*t.width;y=t.top+t.height-h*.3;break;
+  case 'overText':x=t.left+rnd(0,1)*(t.width-w);y=t.top+rnd(-.2,.6)*t.height;break;
+  case 'edgeLeft':x=v.left-w*.2;y=v.top+rnd(.3,.75)*v.height;break;
+  case 'edgeRight':x=v.left+v.width-w*.8;y=v.top+rnd(.3,.75)*v.height;break;
+  case 'offLeft':x=v.left-w*1.2;y=t.top+t.height/2-h/2;break;
+  case 'offRight':x=v.left+v.width+w*.2;y=t.top+t.height/2-h/2;break;
+  case 'screen':x=v.left+rnd(0,1)*(v.width-w);y=v.top+rnd(0,1)*(v.height-h);break;
+  default:x=v.left+rnd(0,1)*(v.width-w);y=v.top+rnd(.1,.9)*(v.height-h);
+ }
+ if(!/^off/.test(at))x=cl(x,v.left-w*.3,v.left+v.width-w*.7);
+ return{x,y:Math.max(pad,y)};
+}
+
+/* ---------- 役者 ---------- */
+function charOf(id,explicit){if(explicit&&CHARS[explicit])return CHARS[explicit];if(CHARS[id])return CHARS[id];
+ const ks=Object.keys(CHARS).filter(k=>id.startsWith(k)).sort((a,b)=>b.length-a.length);return ks.length?CHARS[ks[0]]:null}
+function newId(base){let i=2;while(actors.has(base+i))i++;return base+i}
+function enter(id,o={}){
+ if(actors.has(id))return actors.get(id);
+ if(actors.size>=(CFG.maxActors||30))return null;
+ const ch=charOf(id,o.char);if(!ch){console.warn('寸劇：知らないキャラ',id);return null}
+ const scale=o.scale||rnd(ch.scaleRange?ch.scaleRange[0]:1,ch.scaleRange?ch.scaleRange[1]:1);
+ const w=Math.round((ch.size||100)*scale),h=Math.round(w*(ch.aspect||1));
+ const el=document.createElement('div');el.className='sk-actor sk-enter';el.dataset.id=id;el.style.width=w+'px';el.style.height=h+'px';
+ const body=document.createElement('div');body.className='sk-body';el.appendChild(body);
+ let canvas=null;
+ if(ch.type==='pinkchan-mirror'){canvas=document.createElement('canvas');canvas.width=Math.round(w*Math.min(2,devicePixelRatio||1));canvas.height=Math.round(h*Math.min(2,devicePixelRatio||1));body.appendChild(canvas)}
+ else if(ch.type==='image'){const img=document.createElement('img');img.src=new URL(ch.src,BASE).href;img.alt='';img.draggable=false;body.appendChild(img)}
+ else{body.textContent=ch.emoji||'?';body.style.font=Math.round(h*.8)+'px/1 sans-serif'}
+ if(ch.filter)body.style.filter=ch.filter;
+ if(o.tint)body.style.filter=(body.style.filter+' hue-rotate('+o.tint+'deg)').trim();
+ if(o.flip||(o.flip==null&&Math.random()<(ch.flipChance||0)))el.classList.add('flip');
+ const p=o.at==='keep'&&o.pos?o.pos:place(o.at||ch.defaultAt||'textRight',w,h);
+ el.style.left=p.x+'px';el.style.top=p.y+'px';
+ const a={id,char:ch,el,body,canvas,x:p.x,y:p.y,w,h};actors.set(id,a);layer.appendChild(el);
+ setTimeout(()=>el.classList.remove('sk-enter'),400);
+ el.addEventListener('click',e=>{e.stopPropagation();if(CFG.tapToPop!==false)pop(id)});
+ syncStop();return a;
+}
+function exit(id,quick){const a=actors.get(id);if(!a)return;actors.delete(id);a.el.classList.add('sk-exit');setTimeout(()=>a.el.remove(),quick?250:480);syncStop()}
+function exitAll(quick){for(const id of [...actors.keys()])exit(id,quick)}
+function pop(id){const a=actors.get(id);if(!a)return;const line=a.char.popLines&&a.char.popLines.length?pick(a.char.popLines):null;if(line)bubble(a,fill(line),{dur:900});setTimeout(()=>exit(id),line?350:0)}
+function move(a,at,sec){const p=place(at,a.w,a.h);a.el.style.setProperty('--sk-mv',(sec||.6)+'s');a.x=p.x;a.y=p.y;a.el.style.left=p.x+'px';a.el.style.top=p.y+'px';
+ if(at==='offRight'||at==='edgeRight')a.el.classList.remove('flip');else if(at==='offLeft'||at==='edgeLeft')a.el.classList.add('flip')}
+function act(a,name){const cls='sk-'+name;if(name==='flip'){a.el.classList.toggle('flip');return}
+ if(name==='still'){for(const c of [...a.el.classList])if(/^sk-(wobble|sleep)$/.test(c))a.el.classList.remove(c);return}
+ a.el.classList.remove(cls);void a.el.offsetWidth;a.el.classList.add(cls);
+ if(!/^(wobble|sleep)$/.test(name))setTimeout(()=>a.el.classList.remove(cls),1600)}
+
+/* ---------- 吹き出し ---------- */
+function bubble(a,text,o={}){
+ const b=document.createElement('div');b.className='sk-bubble'+(o.style?' '+o.style:'');b.textContent=text;b.style.setProperty('--sk-c',a.char.color||'#ff8fbf');
+ layer.appendChild(b);
+ const v=viewRect(),bw=b.offsetWidth,bh=b.offsetHeight;
+ let x=a.x+a.w/2-bw/2,y=a.y-bh-4;if(y<v.top+4)y=a.y+a.h+4;
+ b.style.left=cl(x,v.left+6,v.left+v.width-bw-6)+'px';b.style.top=y+'px';
+ requestAnimationFrame(()=>b.classList.add('on'));
+ const dur=o.dur||Math.max(1200,(CFG.secPerChar||.09)*1000*text.length+900);
+ setTimeout(()=>{b.classList.remove('on');setTimeout(()=>b.remove(),250)},dur);
+ if(a.char.type==='pinkchan-mirror'&&window.Pinkchan&&a.char.canSpeak!==false)window.Pinkchan.talk(Math.min(dur,6000)/1000);
+ return dur;
+}
+
+/* ---------- 台本の実行 ---------- */
+// 1行（step）の種類：say / enter / exit / move / act / swarm / wait / react / escalate はなし（場面の when で段階を組む）
+async function runSteps(steps,token){
+ for(const s of steps){if(token!==runToken)return;let entered=null;
+  if(s.wait!=null){await sleep(s.wait*1000);continue}
+  if(s.enter){const base=s.enter.replace(/\d+$/,'');const id=s.as||(actors.has(s.enter)?newId(base):s.enter);enter(id,{char:s.char||base,at:s.at,scale:s.scale,flip:s.flip,tint:s.tint});if(s.say==null){await sleep(250);continue}entered=id}
+  if(s.swarm){const n=s.count||6;for(let i=0;i<n&&token===runToken;i++){const base=s.swarm;const ch=charOf(base);const tints=s.tints||(ch&&ch.tints)||[0];enter(newId(base),{char:base,at:s.at||pick(['overText','screen','screen','textTop','textBottom']),scale:s.scale||rnd(.7,1.25),tint:pick(tints)});await sleep((s.every||.25)*1000)}
+   if(s.say){const ids=[...actors.keys()].filter(k=>k.startsWith(s.swarm));const dur=s.say?bubble(actors.get(pick(ids))||actors.values().next().value,fill(Array.isArray(s.say)?pick(s.say):s.say),{style:s.style}):0;await sleep(dur)}continue}
+  if(s.exit){if(s.exit==='all')exitAll();else if(s.exit==='others'){for(const id of [...actors.keys()])if(id!==s.keep)exit(id)}else exit(s.exit);await sleep(300);continue}
+  if(s.react){if(window.Pinkchan)window.Pinkchan.react(s.react);if(s.say==null){await sleep(400);continue}}
+  const talkers=[...actors.values()].filter(x=>x.char.canSpeak!==false).map(x=>x.id);
+  const who=s.who==='any'?(talkers.length?pick(talkers):[...actors.keys()][0]):(s.who||entered);
+  let a=who&&actors.get(who);
+  if(!a&&who&&(s.say!=null||s.act||s.move))a=enter(who,{char:s.char,at:s.at});
+  if(!a)continue;
+  if(s.move){move(a,s.move,s.sec);if(s.say==null&&!s.act){await sleep((s.sec||.6)*1000);continue}}
+  if(s.act)act(a,s.act);
+  if(s.say!=null){const t=fill(Array.isArray(s.say)?pick(s.say):s.say);const dur=bubble(a,t,{style:s.style,dur:s.dur&&s.dur*1000});await sleep(s.async?150:dur*.85)}
+  else if(s.act)await sleep(450);
+ }
+}
+function scenesFor(trigger){const own=CARD_SCENES.filter(s=>s.when&&s.when.trigger===trigger);return own.length?own:SCENES.filter(s=>s.when&&s.when.trigger===trigger)}
+async function play(scene,{preempt}={}){
+ if(!scene)return;
+ if(running&&!preempt){queue.push(scene);return}
+ const token=++runToken;running=scene;
+ try{await runSteps(scene.steps||[],token)}catch(e){console.warn('寸劇の実行で失敗',e)}
+ if(token===runToken){running=null;if(scene.clearAfter)exitAll();const next=queue.shift();if(next)play(next)}
+}
+function fire(trigger){if(!enabled||!CFG)return;const list=scenesFor(trigger);if(!list.length)return;
+ const fresh=list.filter(s=>!s.once||!playedOnce.has(s.id||s._src+trigger));const sc=pick(fresh.length?fresh:list);if(sc.once)playedOnce.add(sc.id||sc._src+trigger);play(sc)}
+
+/* ---------- 追い払う ---------- */
+async function dismiss(reason){
+ if(!enabled||!actors.size)return;
+ queue=[];const token=++runToken;running=null;
+ const list=scenesFor('dismiss').filter(s=>!s.when.reason||s.when.reason===reason);
+ if(list.length){running=pick(list);try{await runSteps(running.steps||[],token)}catch(e){}if(token!==runToken)return;running=null}
+ exitAll();restartClock((CFG.cooldownAfterDismiss||45)*1000);
+}
+function restartClock(delay){clock0=performance.now()+(delay||0);firedIdle=new Set()}
+
+/* ---------- 時間で段階を上げる（when.trigger="idle" の after 秒） ---------- */
+setInterval(()=>{if(!enabled||!CFG||document.hidden||running)return;const t=(performance.now()-clock0)/1000;if(t<0)return;
+ const groups={};for(const s of [...SCENES,...CARD_SCENES])if(s.when&&s.when.trigger==='idle')(groups[s.when.after]=groups[s.when.after]||[]).push(s);
+ for(const k of Object.keys(groups).map(Number).sort((a,b)=>a-b)){if(t>=k&&!firedIdle.has(k)){firedIdle.add(k);const own=groups[k].filter(s=>s._src==='card');play(pick(own.length?own:groups[k]));break}}
+},1000);
+
+/* ---------- 分身の描画：ピンクちゃんの絵を写す ---------- */
+function mirrorLoop(){requestAnimationFrame(mirrorLoop);if(!actors.size||document.hidden)return;
+ const src=window.Pinkchan&&window.Pinkchan.canvas&&window.Pinkchan.canvas();if(!src||!src.width)return;
+ for(const a of actors.values()){if(!a.canvas)continue;const c=a.canvas,g=c.getContext('2d');g.clearRect(0,0,c.width,c.height);
+  const s=Math.min(c.width/src.width,c.height/src.height),w=src.width*s,h=src.height*s;g.drawImage(src,(c.width-w)/2,c.height-h,w,h)}}
+requestAnimationFrame(mirrorLoop);
+
+/* ---------- 本文の動きを拾う ---------- */
+function onCardMaybeChanged(){const info=readCard();if(!info.sentence)return;
+ if(info.no===cardNo){cardInfo={...info,word:cardInfo.word||info.word};return}
+ cardNo=info.no;cardInfo=info;exitAll(true);queue=[];runToken++;running=null;playedOnce=new Set();
+ loadCardScenes(info.no).then(()=>{if(!enabled)return;restartClock((CFG.openDelay||2)*1000);setTimeout(()=>{if(enabled&&cardNo===info.no)fire('cardOpen')},(CFG.openDelay||2)*1000)})}
+function watch(){const c=document.getElementById('content');if(c)new MutationObserver(onCardMaybeChanged).observe(c,{childList:true});onCardMaybeChanged()}
+// 音読ボタン・読み上げの終わりで追い払う（config.json の dismissOn）
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-act]');if(!b)return;
+ if(b.dataset.act==='read'&&(CFG&&(CFG.dismissOn||[]).includes('read')))dismiss('read');
+ if(b.dataset.act==='speak')speakWatch=true},true);
+let speakWatch=false,wasSpeaking=false;
+setInterval(()=>{const ss=window.speechSynthesis;if(!ss)return;const sp=ss.speaking;if(speakWatch&&wasSpeaking&&!sp){speakWatch=false;if(CFG&&(CFG.dismissOn||[]).includes('speechEnd'))dismiss('speechEnd')}wasSpeaking=sp},300);
+stopBtn.onclick=e=>{e.stopPropagation();dismiss('button')};
+function syncStop(){stopBtn.classList.toggle('sk-hide',!enabled||actors.size<(CFG&&CFG.stopButtonFrom||1))}
+
+/* ---------- オン・オフ ---------- */
+function renderToggle(){toggle.textContent='🎭 寸劇：'+(enabled?'オン':'オフ');toggle.setAttribute('aria-pressed',String(enabled));toggle.title='キャラが本文の横で寸劇を始めて、だんだん邪魔をしてきます'}
+function setEnabled(v){enabled=v;try{localStorage.setItem(KEY,v?'1':'0')}catch(e){}renderToggle();
+ if(window.Pinkchan&&window.Pinkchan.keepAlive)window.Pinkchan.keepAlive(v);
+ if(!v){queue=[];runToken++;running=null;exitAll(true)}else{cardNo=null;onCardMaybeChanged()}syncStop()}
+toggle.onclick=()=>setEnabled(!enabled);
+
+async function mount(){
+ document.body.appendChild(layer);document.body.appendChild(stopBtn);
+ const nav=document.querySelector('nav[aria-label="読書コンテンツ"]')||document.querySelector('header');
+ renderToggle();if(nav)nav.appendChild(toggle);
+ try{await loadAll()}catch(e){console.warn('寸劇の設定を読めませんでした',e);toggle.remove();return}
+ if(window.Pinkchan&&window.Pinkchan.keepAlive)window.Pinkchan.keepAlive(enabled);
+ watch();
+}
+window.Skit={on:()=>setEnabled(true),off:()=>setEnabled(false),fire,dismiss,enter,exit,exitAll,reload:async()=>{await loadAll();await loadCardScenes(cardNo)},actors:()=>[...actors.keys()],play:steps=>play({steps},{preempt:true})};
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount);else mount();
+})();

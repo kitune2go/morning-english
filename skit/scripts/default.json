@@ -1,0 +1,96 @@
+{
+  "id": "default",
+  "title": "基本の台本：分身ピンクちゃんと黒猫",
+  "scenes": [
+    {
+      "id": "open-a",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textRight" },
+        { "who": "pink", "say": "おはよ。今日の動詞は {coreVerb} だって" },
+        { "who": "pink", "say": "…ふーん。読む？ 読まない？" },
+        { "enter": "pink2", "at": "textLeft", "flip": true },
+        { "who": "pink2", "say": "読まないに一票", "act": "bounce" },
+        { "who": "pink", "say": "ちょっと、勝手に出てこないで", "act": "shake" }
+      ]
+    },
+    {
+      "id": "open-b",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textTop" },
+        { "who": "pink", "say": "テーマは「{theme}」。いいね、朝っぽい" },
+        { "who": "pink", "say": "ところで {word} って、なんか強そうじゃない？" },
+        { "enter": "pink2", "at": "textBottom", "tint": 25 },
+        { "who": "pink2", "say": "強くはないと思う", "style": "whisper" },
+        { "who": "pink", "say": "誰！？", "act": "hop", "style": "shout" }
+      ]
+    },
+    {
+      "id": "cat-walk",
+      "when": { "trigger": "idle", "after": 25 },
+      "steps": [
+        { "enter": "cat", "at": "offLeft" },
+        { "who": "cat", "move": "overText", "sec": 2.4 },
+        { "who": "cat", "act": "sleep" },
+        { "who": "pink", "say": "あっ、そこ本文…" },
+        { "who": "pink", "say": "どいてって言っても聞かないんだよね、この子", "act": "shake" }
+      ]
+    },
+    {
+      "id": "argue",
+      "when": { "trigger": "idle", "after": 50 },
+      "steps": [
+        { "enter": "pink3", "at": "overText", "tint": -25 },
+        { "who": "pink3", "say": "{firstWords}… の続き、私が読もうか？" },
+        { "who": "pink2", "say": "いや私が読む", "act": "bounce" },
+        { "who": "pink", "say": "本体は私なんだけど", "act": "shake" },
+        { "enter": "pink4", "at": "textTop", "flip": true },
+        { "who": "pink4", "say": "本体とかないよ。全員同じ絵だし", "style": "whisper" },
+        { "who": "cat", "act": "poke" }
+      ]
+    },
+    {
+      "id": "swarm-1",
+      "when": { "trigger": "idle", "after": 80 },
+      "steps": [
+        { "who": "pink", "say": "…なんか増えてない？", "act": "shake" },
+        { "swarm": "pink", "count": 10, "every": 0.2, "say": ["呼んだ？", "来ちゃった", "{word}！", "読んでないの？"] },
+        { "enter": "cat2", "at": "overText" },
+        { "who": "any", "say": "音読すれば帰るよ", "style": "whisper" }
+      ]
+    },
+    {
+      "id": "swarm-2",
+      "when": { "trigger": "idle", "after": 120 },
+      "steps": [
+        { "swarm": "pink", "count": 16, "every": 0.12, "at": "screen" },
+        { "swarm": "cat", "count": 3, "every": 0.3, "at": "overText" },
+        { "who": "any", "say": "全員集合〜！", "style": "shout" },
+        { "who": "any", "say": "{coreVerb}！ {coreVerb}！", "style": "shout" }
+      ]
+    },
+    {
+      "id": "bye-read",
+      "when": { "trigger": "dismiss", "reason": "read" },
+      "steps": [
+        { "who": "any", "say": "チッ、音読された", "act": "shake" },
+        { "who": "any", "say": "撤収〜" }
+      ]
+    },
+    {
+      "id": "bye-speech",
+      "when": { "trigger": "dismiss", "reason": "speechEnd" },
+      "steps": [
+        { "who": "any", "say": "…ちゃんと聞いてるじゃん", "style": "whisper" }
+      ]
+    },
+    {
+      "id": "bye-button",
+      "when": { "trigger": "dismiss", "reason": "button" },
+      "steps": [
+        { "who": "any", "say": "はーい、またあとでね" }
+      ]
+    }
+  ]
+}
