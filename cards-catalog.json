@@ -129,7 +129,8 @@
     "cards-extra-20261121.json",
     "cards-extra-20261122.json",
     "cards-extra-20261123.json",
-    "cards-extra-20261124.json"
+    "cards-extra-20261124.json",
+    "cards-extra-20261125.json"
   ],
   "cards": [
     {
@@ -1851,6 +1852,30 @@
       "theme": "AI開発を継続実行する指示・実行・検査役を置く",
       "_generatedAt": "2026-11-24T02:00:00+09:00",
       "_sourceFile": "cards-extra-20261124.json"
+    },
+    {
+      "_no": 216,
+      "sentence": "Facts can describe what happens, but they cannot by themselves establish what ought to happen; a normative conclusion requires an additional value or principle.",
+      "coreVerb": "establish",
+      "theme": "事実の記述と規範的結論を分ける",
+      "_generatedAt": "2026-11-25T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261125.json"
+    },
+    {
+      "_no": 217,
+      "sentence": "Visual presentation can enhance a meal through plates and arrangement, but when performance shifts attention from the food to the chef, spectacle begins to replace service.",
+      "coreVerb": "enhance",
+      "theme": "料理を引き立てる演出と主役を奪う演出を分ける",
+      "_generatedAt": "2026-11-25T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261125.json"
+    },
+    {
+      "_no": 218,
+      "sentence": "Content-addressed caching reuses unchanged data even after the active release changes, while parallel loading shortens the critical path by fetching independent resources at the same time.",
+      "coreVerb": "reuse",
+      "theme": "内容ハッシュ型キャッシュと並行読み込みの役割を分ける",
+      "_generatedAt": "2026-11-25T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261125.json"
     }
   ]
 }
