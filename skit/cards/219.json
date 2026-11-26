@@ -1,0 +1,47 @@
+{
+  "id": "card-219",
+  "title": "No.219 数えたがり選手権（resist / measurement）",
+  "scenes": [
+    {
+      "id": "219-open",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textRight" },
+        { "who": "pink", "say": "本日のテーマ、数えられない体験です" },
+        { "enter": "pink2", "at": "textLeft", "flip": true },
+        { "who": "pink2", "say": "じゃあ私が数えます。いーち、にーい", "act": "bounce" },
+        { "who": "pink", "say": "開始3秒で趣旨に抵抗された" }
+      ]
+    },
+    {
+      "id": "219-count",
+      "when": { "trigger": "idle", "after": 12 },
+      "steps": [
+        { "swarm": "pink", "count": 7, "every": 0.15, "say": ["来場者です", "一票です", "勝者です", "敗者です"] },
+        { "who": "pink", "say": "人数が出た瞬間、ランキング始めないで" },
+        { "who": "any", "say": "comparison becomes easy！", "style": "shout" },
+        { "who": "pink", "say": "簡単になっても、正しくなったとは限らないよ" }
+      ]
+    },
+    {
+      "id": "219-resistant",
+      "when": { "trigger": "idle", "after": 27 },
+      "steps": [
+        { "enter": "cat", "at": "offLeft" },
+        { "who": "cat", "move": "overText", "sec": 1.4 },
+        { "who": "cat", "act": "sleep" },
+        { "who": "pink2", "say": "猫の満足度、何点？" },
+        { "who": "pink", "say": "寝て測定を拒否してる。resists measurement のプロ" },
+        { "swarm": "pink", "count": 10, "every": 0.09, "at": "screen", "say": ["採点！", "順位！", "同点！"] }
+      ]
+    },
+    {
+      "id": "219-bye",
+      "when": { "trigger": "dismiss", "reason": "read" },
+      "steps": [
+        { "who": "any", "say": "音読1回。これは数えていいやつ" },
+        { "who": "any", "say": "でも勝敗はつけずに帰ります" }
+      ]
+    }
+  ]
+}
