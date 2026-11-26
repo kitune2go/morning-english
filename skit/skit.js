@@ -154,25 +154,28 @@ function act(a,name){const cls='sk-'+name;if(name==='flip'){a.el.classList.toggl
 
 /* ---------- 寸劇の音声（本文を優先） ---------- */
 const SS=window.speechSynthesis, voiceSupported=!!(SS&&window.SpeechSynthesisUtterance);
-let voiceEnabled=true, ownSpeech=null, studyUntil=0, externalSpeech=null;
+let voiceEnabled=true, ownSpeech=null, studyUntil=0, externalSpeech=null, voiceStatus='未確認';
+const voiceTest=document.createElement('button');voiceTest.type='button';voiceTest.className='btn sk-toggle';voiceTest.textContent='🔈 音声テスト';
+const voiceInfo=document.createElement('span');voiceInfo.setAttribute('role','status');voiceInfo.style.cssText='font-size:11px;max-width:100%;overflow-wrap:anywhere';
+function reportVoice(status){voiceStatus=status;voiceInfo.textContent='寸劇音声：'+status;}
 try{voiceEnabled=localStorage.getItem('skit-voice')!=='0'}catch(e){}
 const ownUtterances=new WeakSet();
 function renderVoice(){voiceToggle.textContent='🔊 寸劇音声：'+(voiceEnabled?'オン':'オフ');voiceToggle.setAttribute('aria-pressed',String(voiceEnabled));voiceToggle.disabled=!voiceSupported;voiceToggle.title=voiceSupported?'寸劇だけの音声を切り替え':'この端末は音声合成に非対応'}
 function stopSkitVoice(){const own=ownSpeech;if(!own)return;own.finish();if(!externalSpeech&&SS)SS.cancel()}
 function yieldToStudy(){studyUntil=performance.now()+900;stopSkitVoice()}
-function speakLine(a,text){
- if(!voiceSupported||!voiceEnabled||!enabled||a.char.canSpeak===false||!text.trim()||externalSpeech||performance.now()<studyUntil||SS.speaking||SS.pending)return null;
+function speakLine(a,text,test=false){
+ if(!voiceSupported||!voiceEnabled||(!test&&!enabled)||a.char.canSpeak===false||!text.trim()||externalSpeech||(!test&&performance.now()<studyUntil)||SS.speaking||SS.pending)return null;
  const v=a.char.voice||{},u=new SpeechSynthesisUtterance(text),jp=/[\u3040-\u30ff\u4e00-\u9fff]/.test(text);
  u.lang=v.lang||(jp?'ja-JP':'en-US');u.rate=cl(Number(v.rate)||1.05,.5,2);
  const n=Number(a.id.match(/\d+$/)?.[0]||1);u.pitch=cl((Number(v.pitch)||1.15)+((n-1)%5-2)*.07,0,2);u.volume=cl(v.volume==null?.85:Number(v.volume),0,1);
- const voices=SS.getVoices(),lang=u.lang.toLowerCase();
- const chosen=voices.find(x=>v.name&&x.name===v.name&&x.lang.toLowerCase().startsWith(lang.split('-')[0]))||voices.find(x=>x.lang.toLowerCase()===lang)||voices.find(x=>x.lang.toLowerCase().startsWith(lang.split('-')[0]));if(chosen)u.voice=chosen;
+ const voices=SS.getVoices(),normalize=x=>String(x||'').toLowerCase().replace(/_/g,'-'),lang=normalize(u.lang);
+ const chosen=voices.find(x=>v.name&&x.name===v.name&&normalize(x.lang).startsWith(lang.split('-')[0]))||voices.find(x=>normalize(x.lang)===lang)||voices.find(x=>normalize(x.lang).startsWith(lang.split('-')[0]));if(chosen)u.voice=chosen;
  ownUtterances.add(u);
  return new Promise(resolve=>{let timer,finished=false;
  const finish=()=>{if(finished)return;finished=true;clearTimeout(timer);if(ownSpeech?.u===u)ownSpeech=null;resolve()};
- ownSpeech={u,finish};u.addEventListener('end',finish,{once:true});u.addEventListener('error',finish,{once:true});
- timer=setTimeout(()=>{if(ownSpeech?.u===u)stopSkitVoice();else finish()},Math.max(8000,text.length*260+4000));
- try{SS.speak(u)}catch(e){finish()}
+ ownSpeech={u,finish};reportVoice('再生要求');u.addEventListener('start',()=>reportVoice('再生中'),{once:true});u.addEventListener('end',()=>{if(ownSpeech?.u===u)reportVoice('再生完了');finish()},{once:true});u.addEventListener('error',e=>{if(ownSpeech?.u===u)reportVoice('失敗：'+(e.error||'unknown'));finish()},{once:true});
+ timer=setTimeout(()=>{if(ownSpeech?.u===u){reportVoice('応答なし／タイムアウト');stopSkitVoice()}else finish()},Math.max(8000,text.length*260+4000));
+ try{SS.speak(u)}catch(e){reportVoice('例外：'+e.message);finish()}
  });
 }
 function installSpeechPriority(){if(!voiceSupported)return;
@@ -180,7 +183,9 @@ function installSpeechPriority(){if(!voiceSupported)return;
  SS.speak=function(u){if(!ownUtterances.has(u)){yieldToStudy();externalSpeech=u;const done=e=>{if(externalSpeech===u){externalSpeech=null;studyUntil=performance.now()+500;if(e?.type==='end'&&!LIT&&CFG&&(CFG.dismissOn||[]).includes('speechEnd'))dismiss('speechEnd')}};u.addEventListener('end',done,{once:true});u.addEventListener('error',done,{once:true});try{return speak(u)}catch(e){done();throw e}}return speak(u)};
  SS.cancel=function(){const own=ownSpeech;if(own)own.finish();externalSpeech=null;return cancel()};
 }
-voiceToggle.onclick=()=>{voiceEnabled=!voiceEnabled;try{localStorage.setItem('skit-voice',voiceEnabled?'1':'0')}catch(e){}if(!voiceEnabled)stopSkitVoice();renderVoice()};
+function testVoice(){if(!voiceSupported){reportVoice('非対応');return}if(externalSpeech||(SS.speaking&&!ownSpeech)||(SS.pending&&!ownSpeech)){reportVoice('本文読み上げ中');return}stopSkitVoice();if(!voiceEnabled){voiceEnabled=true;try{localStorage.setItem('skit-voice','1')}catch(e){}renderVoice()}const a={id:'pink',char:CHARS.pink||{}};const result=speakLine(a,'ピンクちゃんです。寸劇の音声テストです。',true);if(!result)reportVoice('再生できません：音声エンジン使用中');}
+voiceTest.onclick=testVoice;
+voiceToggle.onclick=()=>{voiceEnabled=!voiceEnabled;try{localStorage.setItem('skit-voice',voiceEnabled?'1':'0')}catch(e){}if(!voiceEnabled){stopSkitVoice();reportVoice('消音')}renderVoice();if(voiceEnabled)testVoice()};
 async function sayLine(a,text,o={}){if(!a)return;const audio=speakLine(a,text);const display=bubble(a,text,{...o,audio:!!audio});if(audio){await Promise.all([audio,sleep(display.dur*.85)]);display.close()}else await sleep(o.async?150:display.dur*.85)}
 /* ---------- 吹き出し ---------- */
 function bubble(a,text,o={}){
@@ -285,8 +290,8 @@ toggle.onclick=()=>setEnabled(!enabled);
 async function mount(){
  document.body.appendChild(layer);document.body.appendChild(stopBtn);
  const nav=(LIT&&document.querySelector('header .nav'))||document.querySelector('nav[aria-label="読書コンテンツ"]')||document.querySelector('header');
- renderToggle();renderVoice();if(nav){nav.appendChild(toggle);nav.appendChild(voiceToggle)}installSpeechPriority();
- try{await loadAll()}catch(e){console.warn('寸劇の設定を読めませんでした',e);toggle.remove();voiceToggle.remove();return}
+ renderToggle();renderVoice();if(nav){nav.appendChild(toggle);nav.appendChild(voiceToggle);nav.appendChild(voiceTest);nav.appendChild(voiceInfo)}installSpeechPriority();reportVoice(voiceSupported?(voiceEnabled?'未確認（音声テストを押してください）':'消音'):'非対応');
+ try{await loadAll()}catch(e){console.warn('寸劇の設定を読めませんでした',e);toggle.remove();voiceToggle.remove();voiceTest.remove();voiceInfo.remove();return}
  if(window.Pinkchan&&window.Pinkchan.keepAlive)window.Pinkchan.keepAlive(enabled);
  watch();
 }
