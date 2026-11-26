@@ -1,0 +1,45 @@
+{
+  "id": "card-220",
+  "title": "No.220 図面に書いてない選手権（clarify / datum）",
+  "scenes": [
+    {
+      "id": "220-open",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textRight" },
+        { "who": "pink", "say": "基準線、どこ？" },
+        { "enter": "pink2", "at": "textLeft", "flip": true },
+        { "who": "pink2", "say": "心の目で見て", "act": "wobble" },
+        { "who": "pink", "say": "検査に心眼を導入しないで" }
+      ]
+    },
+    {
+      "id": "220-stop",
+      "when": { "trigger": "idle", "after": 11 },
+      "steps": [
+        { "who": "pink2", "say": "止まった位置は見えた。つまり設計意図も見えた" },
+        { "who": "pink", "say": "stop position alone では確認できないって本文にある" },
+        { "enter": "pink3", "at": "textTop", "tint": 20 },
+        { "who": "pink3", "say": "不足仕様、現場でいい感じに決めといて" },
+        { "who": "pink", "say": "責任まで現場へ投げないで！", "style": "shout" }
+      ]
+    },
+    {
+      "id": "220-clarify",
+      "when": { "trigger": "idle", "after": 25 },
+      "steps": [
+        { "swarm": "pink", "count": 8, "every": 0.12, "say": ["基準は？", "公差は？", "合否は？", "誰が決める？"] },
+        { "who": "pink", "say": "質問が増えた。人数じゃなく仕様を増やして" },
+        { "who": "any", "say": "must be clarified！", "style": "shout" },
+        { "who": "pink", "say": "そう、推測ではなく明確化" }
+      ]
+    },
+    {
+      "id": "220-bye",
+      "when": { "trigger": "dismiss", "reason": "button" },
+      "steps": [
+        { "who": "any", "say": "撤収基準だけは明確でした" }
+      ]
+    }
+  ]
+}
