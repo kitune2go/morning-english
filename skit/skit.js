@@ -54,6 +54,7 @@ const st=document.createElement('style');st.textContent=css;document.head.append
 const layer=document.createElement('div');layer.className='sk-layer';layer.setAttribute('aria-hidden','true');
 const stopBtn=document.createElement('button');stopBtn.type='button';stopBtn.className='sk-stop sk-hide';stopBtn.textContent='📖 勉強に戻る';
 const toggle=document.createElement('button');toggle.type='button';toggle.className='btn sk-toggle';
+const voiceToggle=document.createElement('button');voiceToggle.type='button';voiceToggle.className='btn sk-toggle';
 
 /* ---------- 状態 ---------- */
 let CFG=null,CHARS={},SCENES=[],CARD_SCENES=[],enabled=false;
@@ -151,6 +152,36 @@ function act(a,name){const cls='sk-'+name;if(name==='flip'){a.el.classList.toggl
  a.el.classList.remove(cls);void a.el.offsetWidth;a.el.classList.add(cls);
  if(!/^(wobble|sleep)$/.test(name))setTimeout(()=>a.el.classList.remove(cls),1600)}
 
+/* ---------- 寸劇の音声（本文を優先） ---------- */
+const SS=window.speechSynthesis, voiceSupported=!!(SS&&window.SpeechSynthesisUtterance);
+let voiceEnabled=true, ownSpeech=null, studyUntil=0, externalSpeech=null;
+try{voiceEnabled=localStorage.getItem('skit-voice')!=='0'}catch(e){}
+const ownUtterances=new WeakSet();
+function renderVoice(){voiceToggle.textContent='🔊 寸劇音声：'+(voiceEnabled?'オン':'オフ');voiceToggle.setAttribute('aria-pressed',String(voiceEnabled));voiceToggle.disabled=!voiceSupported;voiceToggle.title=voiceSupported?'寸劇だけの音声を切り替え':'この端末は音声合成に非対応'}
+function stopSkitVoice(){const own=ownSpeech;if(!own)return;own.finish();if(!externalSpeech&&SS)SS.cancel()}
+function yieldToStudy(){studyUntil=performance.now()+900;stopSkitVoice()}
+function speakLine(a,text){
+ if(!voiceSupported||!voiceEnabled||!enabled||a.char.canSpeak===false||!text.trim()||externalSpeech||performance.now()<studyUntil||SS.speaking||SS.pending)return null;
+ const v=a.char.voice||{},u=new SpeechSynthesisUtterance(text),jp=/[\u3040-\u30ff\u4e00-\u9fff]/.test(text);
+ u.lang=v.lang||(jp?'ja-JP':'en-US');u.rate=cl(Number(v.rate)||1.05,.5,2);
+ const n=Number(a.id.match(/\d+$/)?.[0]||1);u.pitch=cl((Number(v.pitch)||1.15)+((n-1)%5-2)*.07,0,2);u.volume=cl(v.volume==null?.85:Number(v.volume),0,1);
+ const voices=SS.getVoices(),lang=u.lang.toLowerCase();
+ const chosen=voices.find(x=>v.name&&x.name===v.name&&x.lang.toLowerCase().startsWith(lang.split('-')[0]))||voices.find(x=>x.lang.toLowerCase()===lang)||voices.find(x=>x.lang.toLowerCase().startsWith(lang.split('-')[0]));if(chosen)u.voice=chosen;
+ ownUtterances.add(u);
+ return new Promise(resolve=>{let timer,finished=false;
+ const finish=()=>{if(finished)return;finished=true;clearTimeout(timer);if(ownSpeech?.u===u)ownSpeech=null;resolve()};
+ ownSpeech={u,finish};u.addEventListener('end',finish,{once:true});u.addEventListener('error',finish,{once:true});
+ timer=setTimeout(()=>{if(ownSpeech?.u===u)stopSkitVoice();else finish()},Math.max(8000,text.length*260+4000));
+ try{SS.speak(u)}catch(e){finish()}
+ });
+}
+function installSpeechPriority(){if(!voiceSupported)return;
+ const speak=SS.speak.bind(SS),cancel=SS.cancel.bind(SS);
+ SS.speak=function(u){if(!ownUtterances.has(u)){yieldToStudy();externalSpeech=u;const done=()=>{if(externalSpeech===u){externalSpeech=null;studyUntil=performance.now()+500}};u.addEventListener('end',done,{once:true});u.addEventListener('error',done,{once:true});try{return speak(u)}catch(e){done();throw e}}return speak(u)};
+ SS.cancel=function(){const own=ownSpeech;if(own)own.finish();externalSpeech=null;return cancel()};
+}
+voiceToggle.onclick=()=>{voiceEnabled=!voiceEnabled;try{localStorage.setItem('skit-voice',voiceEnabled?'1':'0')}catch(e){}if(!voiceEnabled)stopSkitVoice();renderVoice()};
+async function sayLine(a,text,o={}){if(!a)return;const audio=speakLine(a,text);const dur=bubble(a,text,{...o,audio:!!audio});if(audio)await Promise.all([audio,sleep(dur*.85)]);else await sleep(o.async?150:dur*.85)}
 /* ---------- 吹き出し ---------- */
 function bubble(a,text,o={}){
  const b=document.createElement('div');b.className='sk-bubble'+(o.style?' '+o.style:'');b.textContent=text;b.style.setProperty('--sk-c',a.char.color||'#ff8fbf');
@@ -161,7 +192,7 @@ function bubble(a,text,o={}){
  requestAnimationFrame(()=>b.classList.add('on'));
  const dur=o.dur||Math.max(1200,(CFG.secPerChar||.09)*1000*text.length+900);
  setTimeout(()=>{b.classList.remove('on');setTimeout(()=>b.remove(),250)},dur);
- if(a.char.type==='pinkchan-mirror'&&window.Pinkchan&&a.char.canSpeak!==false)window.Pinkchan.talk(Math.min(dur,6000)/1000);
+ if(!o.audio&&a.char.type==='pinkchan-mirror'&&window.Pinkchan&&a.char.canSpeak!==false)window.Pinkchan.talk(Math.min(dur,6000)/1000);
  return dur;
 }
 
@@ -172,7 +203,7 @@ async function runSteps(steps,token){
   if(s.wait!=null){await sleep(s.wait*1000);continue}
   if(s.enter){const base=s.enter.replace(/\d+$/,'');const id=s.as||(actors.has(s.enter)?newId(base):s.enter);enter(id,{char:s.char||base,at:s.at,scale:s.scale,flip:s.flip,tint:s.tint});if(s.say==null){await sleep(250);continue}entered=id}
   if(s.swarm){const n=s.count||6;for(let i=0;i<n&&token===runToken;i++){const base=s.swarm;const ch=charOf(base);const tints=s.tints||(ch&&ch.tints)||[0];enter(newId(base),{char:base,at:s.at||pick(['overText','screen','screen','textTop','textBottom']),scale:s.scale||rnd(.7,1.25),tint:pick(tints)});await sleep((s.every||.25)*1000)}
-   if(s.say){const ids=[...actors.keys()].filter(k=>k.startsWith(s.swarm));const dur=s.say?bubble(actors.get(pick(ids))||actors.values().next().value,fill(Array.isArray(s.say)?pick(s.say):s.say),{style:s.style}):0;await sleep(dur)}continue}
+   if(s.say&&token===runToken){const ids=[...actors.keys()].filter(k=>k.startsWith(s.swarm));await sayLine(actors.get(pick(ids))||actors.values().next().value,fill(Array.isArray(s.say)?pick(s.say):s.say),{style:s.style})}continue}
   if(s.exit){if(s.exit==='all')exitAll();else if(s.exit==='others'){for(const id of [...actors.keys()])if(id!==s.keep)exit(id)}else exit(s.exit);await sleep(300);continue}
   if(s.react){if(window.Pinkchan)window.Pinkchan.react(s.react);if(s.say==null){await sleep(400);continue}}
   const talkers=[...actors.values()].filter(x=>x.char.canSpeak!==false).map(x=>x.id);
@@ -182,14 +213,14 @@ async function runSteps(steps,token){
   if(!a)continue;
   if(s.move){move(a,s.move,s.sec);if(s.say==null&&!s.act){await sleep((s.sec||.6)*1000);continue}}
   if(s.act)act(a,s.act);
-  if(s.say!=null){const t=fill(Array.isArray(s.say)?pick(s.say):s.say);const dur=bubble(a,t,{style:s.style,dur:s.dur&&s.dur*1000});await sleep(s.async?150:dur*.85)}
+  if(s.say!=null){const t=fill(Array.isArray(s.say)?pick(s.say):s.say);await sayLine(a,t,{style:s.style,dur:s.dur&&s.dur*1000,async:s.async})}
   else if(s.act)await sleep(450);
  }
 }
 function scenesFor(trigger){const own=CARD_SCENES.filter(s=>s.when&&s.when.trigger===trigger);return own.length?own:SCENES.filter(s=>s.when&&s.when.trigger===trigger)}
 async function play(scene,{preempt}={}){
  if(!scene)return;
- if(running&&!preempt){queue.push(scene);return}
+ if(running&&!preempt){queue.push(scene);return}if(preempt)stopSkitVoice();
  const token=++runToken;running=scene;
  try{await runSteps(scene.steps||[],token)}catch(e){console.warn('寸劇の実行で失敗',e)}
  if(token===runToken){running=null;if(scene.clearAfter)exitAll();const next=queue.shift();if(next)play(next)}
@@ -200,7 +231,7 @@ function fire(trigger){if(!enabled||!CFG)return;const list=scenesFor(trigger);if
 /* ---------- 追い払う ---------- */
 async function dismiss(reason){
  if(!enabled||!actors.size)return;
- queue=[];const token=++runToken;running=null;
+ stopSkitVoice();queue=[];const token=++runToken;running=null;
  const list=scenesFor('dismiss').filter(s=>!s.when.reason||s.when.reason===reason);
  if(list.length){running=pick(list);try{await runSteps(running.steps||[],token)}catch(e){}if(token!==runToken)return;running=null}
  exitAll();restartClock((CFG.cooldownAfterDismiss||45)*1000);
@@ -231,14 +262,14 @@ function mirrorLoop(){requestAnimationFrame(mirrorLoop);if(!actors.size||documen
 requestAnimationFrame(mirrorLoop);
 
 /* ---------- 本文の動きを拾う ---------- */
-function onCardMaybeChanged(){const info=readCard();if(!info.sentence){if(cardNo!==null){cardNo=null;cardLoadVersion++;loadingCard=false;CARD_SCENES=[];queue=[];runToken++;running=null;exitAll(true)}return;}
+function onCardMaybeChanged(){const info=readCard();if(info.no!==cardNo)stopSkitVoice();if(!info.sentence){if(cardNo!==null){cardNo=null;cardLoadVersion++;loadingCard=false;CARD_SCENES=[];queue=[];runToken++;running=null;exitAll(true)}return;}
  if(info.no===cardNo){cardInfo={...info,word:cardInfo.word||info.word};return}
  cardNo=info.no;cardInfo=info;exitAll(true);queue=[];runToken++;running=null;playedOnce=new Set();
  loadingCard=true;const pending=loadCardScenes(info.no),version=cardLoadVersion;pending.then(()=>{if(version!==cardLoadVersion)return;loadingCard=false;if(!enabled)return;restartClock((CFG.openDelay||2)*1000);setTimeout(()=>{if(enabled&&cardNo===info.no&&version===cardLoadVersion)fire('cardOpen')},(CFG.openDelay||2)*1000)})}
 function watch(){const c=document.getElementById('content');if(c)new MutationObserver(onCardMaybeChanged).observe(c,{childList:true});if(LIT){let timer;const refresh=()=>{clearTimeout(timer);timer=setTimeout(onCardMaybeChanged,120)};window.addEventListener('scroll',refresh,{passive:true});window.addEventListener('resize',refresh)}onCardMaybeChanged()}
 // 音読ボタン・読み上げの終わりで追い払う（config.json の dismissOn）
 document.addEventListener('literature:speech-end',()=>{if(LIT&&CFG&&(CFG.dismissOn||[]).includes('speechEnd'))dismiss('speechEnd')});
-document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-act]');if(!b)return;
+document.addEventListener('click',e=>{if(e.target.closest?.('.speech-action,[data-act="speak"],[data-act="read"]'))yieldToStudy();const b=e.target.closest&&e.target.closest('[data-act]');if(!b)return;
  if(b.dataset.act==='read'&&(CFG&&(CFG.dismissOn||[]).includes('read')))dismiss('read');
  if(b.dataset.act==='speak')speakWatch=true},true);
 let speakWatch=false,wasSpeaking=false;
@@ -250,14 +281,14 @@ function syncStop(){stopBtn.classList.toggle('sk-hide',!enabled||actors.size<(CF
 function renderToggle(){toggle.textContent='🎭 寸劇：'+(enabled?'オン':'オフ');toggle.setAttribute('aria-pressed',String(enabled));toggle.title='キャラが本文の横で寸劇を始めて、だんだん邪魔をしてきます'}
 function setEnabled(v){enabled=v;try{localStorage.setItem(KEY,v?'1':'0')}catch(e){}renderToggle();
  if(window.Pinkchan&&window.Pinkchan.keepAlive)window.Pinkchan.keepAlive(v);
- if(!v){queue=[];runToken++;running=null;exitAll(true)}else{cardNo=null;onCardMaybeChanged()}syncStop()}
+ if(!v){stopSkitVoice();queue=[];runToken++;running=null;exitAll(true)}else{cardNo=null;onCardMaybeChanged()}syncStop()}
 toggle.onclick=()=>setEnabled(!enabled);
 
 async function mount(){
  document.body.appendChild(layer);document.body.appendChild(stopBtn);
  const nav=(LIT&&document.querySelector('header .nav'))||document.querySelector('nav[aria-label="読書コンテンツ"]')||document.querySelector('header');
- renderToggle();if(nav)nav.appendChild(toggle);
- try{await loadAll()}catch(e){console.warn('寸劇の設定を読めませんでした',e);toggle.remove();return}
+ renderToggle();renderVoice();if(nav){nav.appendChild(toggle);nav.appendChild(voiceToggle)}installSpeechPriority();
+ try{await loadAll()}catch(e){console.warn('寸劇の設定を読めませんでした',e);toggle.remove();voiceToggle.remove();return}
  if(window.Pinkchan&&window.Pinkchan.keepAlive)window.Pinkchan.keepAlive(enabled);
  watch();
 }
