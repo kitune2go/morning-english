@@ -1,0 +1,95 @@
+{
+  "id": "card-DE-20261126-003",
+  "title": "数えると列ができる：基準線のない数字",
+  "scenes": [
+    {
+      "id": "de-1126-003-open",
+      "when": {
+        "trigger": "cardOpen"
+      },
+      "steps": [
+        {
+          "enter": "pink",
+          "at": "textRight"
+        },
+        {
+          "who": "pink",
+          "say": "基準線はどこですか"
+        },
+        {
+          "enter": "pink2",
+          "at": "overText",
+          "scale": 1.15
+        },
+        {
+          "who": "pink2",
+          "say": "半分くらい入ったのでヨシ！",
+          "act": "wobble"
+        },
+        {
+          "who": "pink",
+          "say": "datumなしで合格にしないで",
+          "style": "shout"
+        }
+      ]
+    },
+    {
+      "id": "de-1126-003-check",
+      "when": {
+        "trigger": "idle",
+        "after": 13
+      },
+      "steps": [
+        {
+          "swarm": "pink",
+          "count": 7,
+          "every": 0.18,
+          "at": "screen",
+          "say": [
+            "基準？",
+            "角度？",
+            "ゲージ？",
+            "誰が判定？"
+          ]
+        },
+        {
+          "enter": "cat",
+          "at": "offLeft"
+        },
+        {
+          "who": "cat",
+          "move": "textBottom",
+          "sec": 1.3
+        },
+        {
+          "who": "cat",
+          "act": "sleep"
+        },
+        {
+          "who": "pink",
+          "say": "猫を基準線にするのも禁止です"
+        }
+      ]
+    },
+    {
+      "id": "de-1126-003-bye",
+      "when": {
+        "trigger": "dismiss",
+        "reason": "speechEnd"
+      },
+      "steps": [
+        {
+          "who": "pink2",
+          "say": "測れたので判定も済んだことに……"
+        },
+        {
+          "who": "pink",
+          "say": "なりません"
+        },
+        {
+          "exit": "all"
+        }
+      ]
+    }
+  ]
+}
