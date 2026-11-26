@@ -1,0 +1,87 @@
+{
+  "id": "card-DE-20261126-002",
+  "title": "数えると列ができる：頭数から降りる",
+  "scenes": [
+    {
+      "id": "de-1126-002-open",
+      "when": {
+        "trigger": "cardOpen"
+      },
+      "steps": [
+        {
+          "enter": "pink",
+          "at": "textLeft"
+        },
+        {
+          "who": "pink",
+          "say": "頭数に含めないでください"
+        },
+        {
+          "enter": "pink2",
+          "at": "textRight",
+          "flip": true
+        },
+        {
+          "who": "pink2",
+          "say": "承知しました。欠席者1名として数えます",
+          "act": "hop"
+        },
+        {
+          "who": "pink",
+          "say": "数え方だけ変えて追ってくるな",
+          "style": "shout"
+        }
+      ]
+    },
+    {
+      "id": "de-1126-002-line",
+      "when": {
+        "trigger": "idle",
+        "after": 14
+      },
+      "steps": [
+        {
+          "swarm": "pink",
+          "count": 10,
+          "every": 0.12,
+          "at": "textBottom",
+          "say": [
+            "参加者です",
+            "支持者です",
+            "動員数です",
+            "列はこちら"
+          ]
+        },
+        {
+          "enter": "cat",
+          "at": "offRight"
+        },
+        {
+          "who": "cat",
+          "move": "edgeLeft",
+          "sec": 1.6
+        },
+        {
+          "who": "pink",
+          "say": "猫だけ列から降りるのがうまい"
+        }
+      ]
+    },
+    {
+      "id": "de-1126-002-bye",
+      "when": {
+        "trigger": "dismiss",
+        "reason": "button"
+      },
+      "steps": [
+        {
+          "who": "any",
+          "say": "退場者数には入れないで！"
+        },
+        {
+          "exit": "all"
+        }
+      ]
+    }
+  ]
+}
