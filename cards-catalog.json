@@ -130,7 +130,8 @@
     "cards-extra-20261122.json",
     "cards-extra-20261123.json",
     "cards-extra-20261124.json",
-    "cards-extra-20261125.json"
+    "cards-extra-20261125.json",
+    "cards-extra-20261126.json"
   ],
   "cards": [
     {
@@ -1876,6 +1877,30 @@
       "theme": "内容ハッシュ型キャッシュと並行読み込みの役割を分ける",
       "_generatedAt": "2026-11-25T02:00:00+09:00",
       "_sourceFile": "cards-extra-20261125.json"
+    },
+    {
+      "_no": 219,
+      "sentence": "Once an experience is reduced to attendance figures, comparison becomes easy, but what resists measurement also resists being ranked as a winner or a loser.",
+      "coreVerb": "resist",
+      "theme": "数えられる体験と順位づけを拒む体験を分ける",
+      "_generatedAt": "2026-11-27T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261126.json"
+    },
+    {
+      "_no": 220,
+      "sentence": "When a drawing omits the datum and acceptance criteria, an operator cannot confirm design intent from a stop position alone; the missing specification must be clarified by the responsible designer.",
+      "coreVerb": "clarify",
+      "theme": "測定結果と設計責任の境界を明確にする",
+      "_generatedAt": "2026-11-27T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261126.json"
+    },
+    {
+      "_no": 221,
+      "sentence": "A media-rich interface may feel lively, but on a limited mobile plan it should delay large assets, reuse cached files, and let users choose when media loads.",
+      "coreVerb": "delay",
+      "theme": "にぎやかな画面と通信量への配慮を両立する",
+      "_generatedAt": "2026-11-27T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261126.json"
     }
   ]
 }
