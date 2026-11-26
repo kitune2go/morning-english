@@ -144,7 +144,7 @@ function enter(id,o={}){
 }
 function exit(id,quick){const a=actors.get(id);if(!a)return;actors.delete(id);a.el.classList.add('sk-exit');setTimeout(()=>a.el.remove(),quick?250:480);syncStop()}
 function exitAll(quick){for(const id of [...actors.keys()])exit(id,quick)}
-function pop(id){const a=actors.get(id);if(!a)return;const line=a.char.popLines&&a.char.popLines.length?pick(a.char.popLines):null;if(line)bubble(a,fill(line),{dur:900});setTimeout(()=>exit(id),line?350:0)}
+function pop(id){const a=actors.get(id);if(!a)return;const line=a.char.popLines&&a.char.popLines.length?pick(a.char.popLines):null;if(line)void sayLine(a,fill(line),{dur:900});setTimeout(()=>exit(id),line?350:0)}
 function move(a,at,sec){const p=place(at,a.w,a.h);a.el.style.setProperty('--sk-mv',(sec||.6)+'s');a.x=p.x;a.y=p.y;a.el.style.left=p.x+'px';a.el.style.top=p.y+'px';
  if(at==='offRight'||at==='edgeRight')a.el.classList.remove('flip');else if(at==='offLeft'||at==='edgeLeft')a.el.classList.add('flip')}
 function act(a,name){const cls='sk-'+name;if(name==='flip'){a.el.classList.toggle('flip');return}
@@ -177,11 +177,11 @@ function speakLine(a,text){
 }
 function installSpeechPriority(){if(!voiceSupported)return;
  const speak=SS.speak.bind(SS),cancel=SS.cancel.bind(SS);
- SS.speak=function(u){if(!ownUtterances.has(u)){yieldToStudy();externalSpeech=u;const done=()=>{if(externalSpeech===u){externalSpeech=null;studyUntil=performance.now()+500}};u.addEventListener('end',done,{once:true});u.addEventListener('error',done,{once:true});try{return speak(u)}catch(e){done();throw e}}return speak(u)};
+ SS.speak=function(u){if(!ownUtterances.has(u)){yieldToStudy();externalSpeech=u;const done=e=>{if(externalSpeech===u){externalSpeech=null;studyUntil=performance.now()+500;if(e?.type==='end'&&!LIT&&CFG&&(CFG.dismissOn||[]).includes('speechEnd'))dismiss('speechEnd')}};u.addEventListener('end',done,{once:true});u.addEventListener('error',done,{once:true});try{return speak(u)}catch(e){done();throw e}}return speak(u)};
  SS.cancel=function(){const own=ownSpeech;if(own)own.finish();externalSpeech=null;return cancel()};
 }
 voiceToggle.onclick=()=>{voiceEnabled=!voiceEnabled;try{localStorage.setItem('skit-voice',voiceEnabled?'1':'0')}catch(e){}if(!voiceEnabled)stopSkitVoice();renderVoice()};
-async function sayLine(a,text,o={}){if(!a)return;const audio=speakLine(a,text);const dur=bubble(a,text,{...o,audio:!!audio});if(audio)await Promise.all([audio,sleep(dur*.85)]);else await sleep(o.async?150:dur*.85)}
+async function sayLine(a,text,o={}){if(!a)return;const audio=speakLine(a,text);const display=bubble(a,text,{...o,audio:!!audio});if(audio){await Promise.all([audio,sleep(display.dur*.85)]);display.close()}else await sleep(o.async?150:display.dur*.85)}
 /* ---------- 吹き出し ---------- */
 function bubble(a,text,o={}){
  const b=document.createElement('div');b.className='sk-bubble'+(o.style?' '+o.style:'');b.textContent=text;b.style.setProperty('--sk-c',a.char.color||'#ff8fbf');
@@ -191,9 +191,9 @@ function bubble(a,text,o={}){
  b.style.left=cl(x,v.left+6,v.left+v.width-bw-6)+'px';b.style.top=y+'px';
  requestAnimationFrame(()=>b.classList.add('on'));
  const dur=o.dur||Math.max(1200,(CFG.secPerChar||.09)*1000*text.length+900);
- setTimeout(()=>{b.classList.remove('on');setTimeout(()=>b.remove(),250)},dur);
+ const close=()=>{b.classList.remove('on');setTimeout(()=>b.remove(),250)};if(!o.audio)setTimeout(close,dur);
  if(!o.audio&&a.char.type==='pinkchan-mirror'&&window.Pinkchan&&a.char.canSpeak!==false)window.Pinkchan.talk(Math.min(dur,6000)/1000);
- return dur;
+ return {dur,close};
 }
 
 /* ---------- 台本の実行 ---------- */
@@ -271,9 +271,7 @@ function watch(){const c=document.getElementById('content');if(c)new MutationObs
 document.addEventListener('literature:speech-end',()=>{if(LIT&&CFG&&(CFG.dismissOn||[]).includes('speechEnd'))dismiss('speechEnd')});
 document.addEventListener('click',e=>{if(e.target.closest?.('.speech-action,[data-act="speak"],[data-act="read"]'))yieldToStudy();const b=e.target.closest&&e.target.closest('[data-act]');if(!b)return;
  if(b.dataset.act==='read'&&(CFG&&(CFG.dismissOn||[]).includes('read')))dismiss('read');
- if(b.dataset.act==='speak')speakWatch=true},true);
-let speakWatch=false,wasSpeaking=false;
-setInterval(()=>{const ss=window.speechSynthesis;if(!ss)return;const sp=ss.speaking;if(speakWatch&&wasSpeaking&&!sp){speakWatch=false;if(CFG&&(CFG.dismissOn||[]).includes('speechEnd'))dismiss('speechEnd')}wasSpeaking=sp},300);
+},true);
 stopBtn.onclick=e=>{e.stopPropagation();dismiss('button')};
 function syncStop(){stopBtn.classList.toggle('sk-hide',!enabled||actors.size<(CFG&&CFG.stopButtonFrom||1))}
 
