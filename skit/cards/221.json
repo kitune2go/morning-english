@@ -1,0 +1,49 @@
+{
+  "id": "card-221",
+  "title": "No.221 通信量を食べる画面（delay / cached）",
+  "scenes": [
+    {
+      "id": "221-open",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textRight" },
+        { "who": "pink", "say": "メディア豊富な画面へようこそ。まず私を1体読み込みました" },
+        { "enter": "pink2", "at": "textLeft", "flip": true },
+        { "who": "pink2", "say": "キャッシュから来ました。たぶん", "act": "bounce" },
+        { "who": "pink", "say": "たぶんで通信設計しないで" }
+      ]
+    },
+    {
+      "id": "221-heavy",
+      "when": { "trigger": "idle", "after": 10 },
+      "steps": [
+        { "swarm": "pink", "count": 6, "every": 0.18, "say": ["画像です", "音声です", "動画です", "自動再生です"] },
+        { "who": "pink", "say": "limited mobile plan に全員で突撃しない！", "style": "shout" },
+        { "who": "any", "say": "lively でしょ？", "act": "spin" },
+        { "who": "pink", "say": "活気と通信量は別会計です" }
+      ]
+    },
+    {
+      "id": "221-choice",
+      "when": { "trigger": "idle", "after": 24 },
+      "steps": [
+        { "enter": "cat", "at": "offRight" },
+        { "who": "cat", "move": "overText", "sec": 1.5 },
+        { "who": "cat", "act": "sleep" },
+        { "who": "pink2", "say": "猫動画、自動で再生しとく？" },
+        { "who": "pink", "say": "let users choose when media loads。選ばせて" },
+        { "swarm": "pink", "count": 12, "every": 0.08, "at": "screen", "say": ["今読む？", "あとで？", "Wi-Fiで？"] },
+        { "who": "pink", "say": "選択肢そのものが画面を埋めた！" }
+      ]
+    },
+    {
+      "id": "221-bye",
+      "when": { "trigger": "dismiss", "reason": "speechEnd" },
+      "steps": [
+        { "who": "any", "say": "本文音声は読み込み済み。私たちは遅延退場します" },
+        { "wait": 1 },
+        { "exit": "all" }
+      ]
+    }
+  ]
+}
