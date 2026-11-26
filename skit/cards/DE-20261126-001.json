@@ -1,0 +1,94 @@
+{
+  "id": "card-DE-20261126-001",
+  "title": "数えると列ができる：数字の前に立つ",
+  "scenes": [
+    {
+      "id": "de-1126-001-open",
+      "when": {
+        "trigger": "cardOpen"
+      },
+      "steps": [
+        {
+          "enter": "pink",
+          "at": "textRight"
+        },
+        {
+          "who": "pink",
+          "say": "今日は数えない物語です。なので私を数えないでください"
+        },
+        {
+          "enter": "pink2",
+          "at": "textLeft",
+          "flip": true
+        },
+        {
+          "who": "pink2",
+          "say": "いち、に、ピンクちゃん2体",
+          "act": "bounce"
+        },
+        {
+          "who": "pink",
+          "say": "もう比較可能にした！",
+          "style": "shout"
+        }
+      ]
+    },
+    {
+      "id": "de-1126-001-scale",
+      "when": {
+        "trigger": "idle",
+        "after": 12
+      },
+      "steps": [
+        {
+          "swarm": "pink",
+          "count": 8,
+          "every": 0.16,
+          "at": "screen",
+          "say": [
+            "一票です",
+            "一人です",
+            "閲覧1です",
+            "順位つける？"
+          ]
+        },
+        {
+          "enter": "cat",
+          "at": "offLeft"
+        },
+        {
+          "who": "cat",
+          "move": "overText",
+          "sec": 1.4
+        },
+        {
+          "who": "cat",
+          "act": "sleep"
+        },
+        {
+          "who": "pink",
+          "say": "猫は目盛りの外で寝ています"
+        }
+      ]
+    },
+    {
+      "id": "de-1126-001-bye",
+      "when": {
+        "trigger": "dismiss",
+        "reason": "read"
+      },
+      "steps": [
+        {
+          "who": "pink2",
+          "say": "既読1回。はい、数えました"
+        },
+        {
+          "wait": 0.8
+        },
+        {
+          "exit": "all"
+        }
+      ]
+    }
+  ]
+}
