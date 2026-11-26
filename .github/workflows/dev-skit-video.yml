@@ -1,0 +1,117 @@
+name: MorningEnglish development skit video
+on:
+  push:
+    branches: [video/dev-skit-20261126]
+    paths: ['.github/workflows/dev-skit-video.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-noto-cjk python3-pil python3-requests
+          docker run -d --name voicevox -p 127.0.0.1:50021:50021 voicevox/voicevox_engine:cpu-latest
+          for i in $(seq 1 90); do curl -fsS http://127.0.0.1:50021/version && exit 0; sleep 3; done
+          docker logs voicevox
+          exit 1
+      - name: Render vertical skit
+        run: |
+          /usr/bin/python3 - <<'PY'
+          import json, math, pathlib, subprocess, wave, requests, struct
+          from PIL import Image, ImageDraw, ImageFont, ImageEnhance
+          root=pathlib.Path('assets/pinkchan')
+          work=pathlib.Path('/tmp/morning-video');work.mkdir(exist_ok=True)
+          out=pathlib.Path('video-output');out.mkdir(exist_ok=True)
+          W,H=720,1280
+          font='/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc'
+          def f(n):return ImageFont.truetype(font,n)
+          model=json.loads((root/'model.json').read_text())
+          def sprite(openmouth):
+              im=Image.new('RGBA',tuple(model['size']))
+              for p in model['parts']:
+                  n=p['n']
+                  if n.startswith('eyeClosed') or n.startswith('lid') or n==('mouthClosed' if openmouth else 'mouthOpen'):continue
+                  part=Image.open(root/'parts'/ (n+'.png')).convert('RGBA')
+                  if part.size!=(p['w'],p['h']):part=part.resize((p['w'],p['h']),Image.Resampling.LANCZOS)
+                  im.alpha_composite(part,(p['x'],p['y']))
+              return im.crop((195,0,570,735)).resize((245,480),Image.Resampling.LANCZOS)
+          sprites=[sprite(False),sprite(True)]
+          api='http://127.0.0.1:50021'
+          r=requests.get(api+'/speakers',timeout=60);r.raise_for_status()
+          speakers=r.json()
+          def speaker(name):
+              person=next(p for p in speakers if p['name']==name)
+              return next(s['id'] for s in person['styles'] if s['name']=='ノーマル')
+          ids=[speaker('四国めたん'),speaker('ずんだもん')]
+          lines=[
+              (0,'文学版にも寸劇が進出しました！','文学版、寸劇解禁'),
+              (1,'これで英語だけでなく、文学の邪魔もできるのだ。','学習妨害の拡大'),
+              (0,'しかも、ついに音声を実装しました！','音声読み上げ実装'),
+              (1,'マージしたのに、全然しゃべらないのだ。','無音事件'),
+              (0,'音声テストを追加！ ピンクちゃんです。聞こえますか？','再生診断を追加'),
+              (1,'しゃべったのだ！ でも、まだ勉強していないのだ。','音声再生成功'),
+              (0,'今日はボイスボックスで開発日誌を動画化しました！','VOICEVOXで動画化'),
+              (1,'で、英語の勉強はいつするのだ？','本日の結論'),
+              (0,'明日からも、毎朝邪魔しに来ます。','ウザいMorningEnglish')]
+          def wrap(draw,text,font,width):
+              rows=[];line=''
+              for ch in text:
+                  if line and draw.textlength(line+ch,font=font)>width:rows.append(line);line=ch
+                  else:line+=ch
+              if line:rows.append(line)
+              return rows
+          def frame(idx,who,caption,tag,t,active):
+              im=Image.new('RGB',(W,H),'#f5f0df');d=ImageDraw.Draw(im)
+              for x in range(0,W,32):
+                  for y in range(0,H,32):d.ellipse((x,y,x+2,y+2),fill='#e6ded0')
+              d.rectangle((0,0,W,130),fill='#201b21')
+              d.text((34,27),'MORNING ENGLISH',font=f(36),fill='#fff5e8')
+              d.text((36,82),'開発日誌  /  2026.11.26',font=f(24),fill='#ffd3e4')
+              d.rounded_rectangle((30,165,690,315),18,fill='#fff',outline='#292128',width=3)
+              d.text((55,182),'EP.01   声を手に入れた分身たち',font=f(25),fill='#a41f58')
+              d.text((55,233),tag,font=f(39),fill='#201b21')
+              d.rounded_rectangle((32,335,688,850),22,fill='#fbe5ef',outline='#292128',width=3)
+              for k in range(2):
+                  spr=sprites[int(active and k==who and int(t*8)%2==0)]
+                  if k==1:spr=ImageEnhance.Color(spr.transpose(Image.Transpose.FLIP_LEFT_RIGHT)).enhance(.55)
+                  y=350+int(5*math.sin(t*5+k))
+                  im.paste(spr,(78+320*k,y),spr)
+              d=ImageDraw.Draw(im)
+              d.rounded_rectangle((32,875,688,1160),20,fill='#fff',outline='#292128',width=3)
+              d.text((57,895),'ピンクちゃん' if who==0 else '分身２号',font=f(28),fill='#a41f58')
+              for k,row in enumerate(wrap(d,caption,f(38),600)):d.text((57,950+k*52),row,font=f(38),fill='#201b21')
+              d.text((35,1190),'VOICEVOX:四国めたん / VOICEVOX:ずんだもん',font=f(19),fill='#62545b')
+              d.rectangle((35,1240,685,1249),fill='#dfd0d6');d.rectangle((35,1240,35+int(650*(idx+1)/len(lines)),1249),fill='#ba376f')
+              return im
+          def run(args):subprocess.run(args,check=True)
+          segments=[]
+          for i,(who,caption,tag) in enumerate(lines):
+              params={'speaker':ids[who],'text':caption.replace('VOICEVOX','ボイスボックス')}
+              r=requests.post(api+'/audio_query',params=params,timeout=60);r.raise_for_status();q=r.json()
+              q.update(speedScale=1.04 if who==0 else 1.09,intonationScale=1.15,postPhonemeLength=.25,prePhonemeLength=.12)
+              r=requests.post(api+'/synthesis',params={'speaker':ids[who]},json=q,timeout=180);r.raise_for_status()
+              wav=work/f'{i}.wav';wav.write_bytes(r.content)
+              with wave.open(str(wav)) as w: duration=w.getnframes()/w.getframerate()
+              seg=work/f'{i}.mp4';fps=24;frames=math.ceil((duration+.45)*fps)
+              proc=subprocess.Popen(['ffmpeg','-y','-loglevel','error','-f','rawvideo','-pix_fmt','rgb24','-s',f'{W}x{H}','-r',str(fps),'-i','-','-i',str(wav),'-af','apad','-t',str(frames/fps),'-c:v','libx264','-preset','fast','-crf','21','-pix_fmt','yuv420p','-c:a','aac','-ar','48000','-ac','1',str(seg)],stdin=subprocess.PIPE)
+              for n in range(frames):proc.stdin.write(frame(i,who,caption,tag,n/fps,n/fps<duration).tobytes())
+              proc.stdin.close()
+              if proc.wait():raise RuntimeError('ffmpeg failed')
+              segments.append(seg)
+          listing=work/'concat.txt';listing.write_text(''.join("file '"+str(p)+"'\n" for p in segments))
+          video=out/'MorningEnglish-dev-20261126.mp4'
+          run(['ffmpeg','-y','-loglevel','error','-f','concat','-safe','0','-i',str(listing),'-c','copy','-movflags','+faststart',str(video)])
+          run(['ffprobe','-v','error','-show_entries','stream=codec_name,width,height:format=duration,size','-of','json',str(video)])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MorningEnglish-dev-20261126
+          path: video-output/*.mp4
+          retention-days: 7
+          if-no-files-found: error
