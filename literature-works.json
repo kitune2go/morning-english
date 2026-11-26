@@ -605,5 +605,13 @@
     "manifest": "literature/daily-essay-20261125/manifest.json",
     "mode": "essay-translation",
     "addedAt": "2026-11-25T22:26:04+09:00"
+  },
+  {
+    "workId": "daily-essay-20261126",
+    "title": "数えると列ができる",
+    "description": "数えられることで生まれる比較と序列、頭数や動員数から降りる拒否、加工現場で数値を判定へ変える基準、増殖する画面と約5GB後の帯域制限を通して、数字が説明だけでなく人を動かす力になる過程を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261126/manifest.json",
+    "mode": "essay-translation",
+    "addedAt": "2026-11-27T02:30:00+09:00"
   }
 ]
