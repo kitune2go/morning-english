@@ -1,0 +1,717 @@
+[
+  {
+    "_no": 219,
+    "_generatedAt": "2026-11-27T02:00:00+09:00",
+    "sentence": "Once an experience is reduced to attendance figures, comparison becomes easy, but what resists measurement also resists being ranked as a winner or a loser.",
+    "phonetic": "ワンス アン イクスピアリエンス イズ リデュースト トゥ アテンダンス フィギャーズ、コンパリスン ビカムズ イージー、バット ワット リジスツ メジャメント オールソウ リジスツ ビーイング ランクト アズ ア ウィナー オア ア ルーザー。",
+    "japaneseTranslation": "体験が来場者数に還元されると、比較は容易になります。しかし、測定を拒むものは、勝者や敗者として順位づけされることにも抗います。",
+    "theme": "数えられる体験と順位づけを拒む体験を分ける",
+    "coreVerb": "resist",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Some experiences resist measurement.",
+        "translation": "測定を拒む体験もあります。"
+      },
+      "phase2": {
+        "sentence": "Some experiences resist measurement and ranking.",
+        "translation": "測定と順位づけを拒む体験もあります。",
+        "addedChunks": "対象(measurement and ranking)を追加"
+      },
+      "phase3": {
+        "sentence": "Figures enable comparison, but some experiences resist measurement.",
+        "translation": "数値は比較を可能にしますが、測定を拒む体験もあります。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Attendance figures are easier to compare than unmeasured experiences.",
+        "translation": "来場者数は、測定されない体験より比較しやすいものです。",
+        "comparison": "easier to compare than"
+      },
+      "phase5": {
+        "sentence": "Once an experience is reduced to attendance figures, comparison becomes easy, but what resists measurement also resists being ranked as a winner or a loser",
+        "translation": "体験が来場者数に還元されると、比較は容易になります。しかし、測定を拒むものは、勝者や敗者として順位づけされることにも抗います。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Once an experience is reduced",
+          "function": "時間",
+          "translation": "体験が還元されると"
+        },
+        {
+          "text": "to attendance figures,",
+          "function": "対象",
+          "translation": "来場者数に"
+        },
+        {
+          "text": "comparison becomes easy,",
+          "function": "結果",
+          "translation": "比較は容易になります"
+        },
+        {
+          "text": "but what resists measurement",
+          "function": "接続",
+          "translation": "しかし、測定を拒むものは"
+        },
+        {
+          "text": "also resists being ranked",
+          "function": "行動",
+          "translation": "順位づけされることにも抗います"
+        },
+        {
+          "text": "as a winner or a loser.",
+          "function": "状態",
+          "translation": "勝者または敗者として"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "once節",
+          "where": "Once an experience is reduced",
+          "explanation": "ある変換が起きた時点で生じる結果を示す。",
+          "rule": "Once + 主語 + 動詞, 主節"
+        },
+        {
+          "category": "受動態",
+          "name": "be reduced to",
+          "where": "is reduced to attendance figures",
+          "explanation": "複雑な体験が数値だけで表されることを示す。",
+          "rule": "be reduced to + 名詞"
+        },
+        {
+          "category": "補語",
+          "name": "become + 形容詞",
+          "where": "comparison becomes easy",
+          "explanation": "比較が容易な状態へ変化することを表す。",
+          "rule": "become + 形容詞"
+        },
+        {
+          "category": "名詞節",
+          "name": "what節",
+          "where": "what resists measurement",
+          "explanation": "測定を拒むもの全体を主語にする。",
+          "rule": "what + 動詞"
+        },
+        {
+          "category": "動名詞",
+          "name": "resist + -ing",
+          "where": "resists being ranked",
+          "explanation": "順位づけされる行為への抵抗を表す。",
+          "rule": "resist + 動名詞"
+        },
+        {
+          "category": "受動態",
+          "name": "being + 過去分詞",
+          "where": "being ranked",
+          "explanation": "順位を付けられる側を示す。",
+          "rule": "being + 過去分詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Once an experience reduced to figures, comparison becomes easy.",
+          "correct": "Once an experience is reduced to figures, comparison becomes easy.",
+          "why": "受動態にはbe動詞が必要。"
+        },
+        {
+          "wrong": "what resist measurement",
+          "correct": "what resists measurement",
+          "why": "what節内の単数扱いの主語にresistsを使う。"
+        },
+        {
+          "wrong": "resists to be ranked",
+          "correct": "resists being ranked",
+          "why": "resistの目的語には動名詞を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Numbers make events comparable, but they do not capture every kind of value.",
+          "translation": "数値は出来事を比較可能にしますが、あらゆる価値を捉えるわけではありません。"
+        },
+        {
+          "text": "An experience can matter even when it cannot be placed on a scoreboard.",
+          "translation": "点数表に載せられなくても、体験には意味があり得ます。"
+        },
+        {
+          "text": "Counting attendance answers one question, not every question about success.",
+          "translation": "来場者を数えることが答えるのは、成功に関する一つの問いであり、すべての問いではありません。"
+        }
+      ],
+      "parseTree": "[Adv Once [S an experience [VP is reduced to attendance figures]]], [S comparison [VP becomes easy]], but [S [NP what resists measurement] [VP also resists [Gerund being ranked as a winner or a loser]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "comparison becomes easy",
+          "expanded": "because attendance figures place different events on a shared numerical scale",
+          "nuance": "比較が容易になる理由。"
+        },
+        {
+          "original": "what resists measurement",
+          "expanded": "since some qualities cannot be represented adequately by a single count",
+          "nuance": "単一指標の限界。"
+        },
+        {
+          "original": "resists being ranked",
+          "expanded": "therefore, refusing the metric can also refuse the winner-loser frame built from it",
+          "nuance": "測定拒否と順位拒否の関係。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "An experience may be reduced to attendance figures before it is ranked.",
+          "translation": "体験は、順位づけされる前に来場者数へ還元されることがあります。",
+          "note": "数値化される体験を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reduced to a single count, an experience becomes easy to compare.",
+          "translation": "単一の数に還元されると、体験は比較しやすくなります。",
+          "note": "条件を過去分詞句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The quantification of experience enables comparison and ranking.",
+          "translation": "体験の数量化は比較と順位づけを可能にします。",
+          "note": "quantify・compare・rankを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "reduce A to B",
+            "alternatives": [
+              "express A as B",
+              "compress A into B",
+              "treat A as B"
+            ],
+            "nuance": "reduce A to Bは複雑さをBだけに絞る含意がある。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "数量化と抵抗",
+            "sentence": "Once X is reduced to Y, A becomes easy, but what resists B also resists C.",
+            "translation": "XがYに還元されるとAは容易になりますが、Bを拒むものはCも拒みます。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A count is easier to rank than an unmeasured experience.",
+            "translation": "数値は、測定されない体験より順位づけしやすいものです。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If attendance is the only metric, smaller events may appear less valuable than they are.",
+            "translation": "来場者数だけを指標にすると、小規模な催しは実際より価値が低く見える場合があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What cannot be counted should not automatically be treated as worthless.",
+            "translation": "数えられないものを、自動的に無価値と扱うべきではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Count carefully; rank cautiously.",
+            "translation": "数えるなら丁寧に、順位づけるなら慎重に。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "once節とwhat節で、数量化が比較を可能にする一方、測定不能な価値は順位枠にも抗うことを示した。"
+    }
+  },
+  {
+    "_no": 220,
+    "_generatedAt": "2026-11-27T02:00:00+09:00",
+    "sentence": "When a drawing omits the datum and acceptance criteria, an operator cannot confirm design intent from a stop position alone; the missing specification must be clarified by the responsible designer.",
+    "phonetic": "ウェン ア ドローイング オミッツ ザ デイタム アンド アクセプタンス クライテリア、アン オペレイター キャノット コンファーム デザイン インテント フロム ア ストップ ポジション アロウン；ザ ミッシング スペシフィケイション マスト ビー クラリファイド バイ ザ リスポンシブル デザイナー。",
+    "japaneseTranslation": "図面に基準と合否判定基準が欠けている場合、作業者は停止位置だけから設計意図を確認できません。不足する仕様は、設計に責任を持つ人が明確にしなければなりません。",
+    "theme": "測定結果と設計責任の境界を明確にする",
+    "coreVerb": "clarify",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The designer clarifies the specification.",
+        "translation": "設計者が仕様を明確にします。"
+      },
+      "phase2": {
+        "sentence": "The responsible designer clarifies the missing specification.",
+        "translation": "設計に責任を持つ人が不足する仕様を明確にします。",
+        "addedChunks": "責任主体(responsible designer)と対象(missing specification)を追加"
+      },
+      "phase3": {
+        "sentence": "The operator can measure the part, but the designer must clarify the intent.",
+        "translation": "作業者は部品を測定できますが、設計者が意図を明確にしなければなりません。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "A defined datum is more reliable than an inferred reference.",
+        "translation": "定義された基準は、推測された参照より信頼できます。",
+        "comparison": "more reliable than"
+      },
+      "phase5": {
+        "sentence": "When a drawing omits the datum and acceptance criteria, an operator cannot confirm design intent from a stop position alone; the missing specification must be clarified by the responsible designer",
+        "translation": "図面に基準と合否判定基準が欠けている場合、作業者は停止位置だけから設計意図を確認できません。不足する仕様は、設計に責任を持つ人が明確にしなければなりません。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "When a drawing omits",
+          "function": "時間",
+          "translation": "図面に欠けている場合"
+        },
+        {
+          "text": "the datum and acceptance criteria,",
+          "function": "対象",
+          "translation": "基準と合否判定基準が"
+        },
+        {
+          "text": "an operator cannot confirm design intent",
+          "function": "行動",
+          "translation": "作業者は設計意図を確認できません"
+        },
+        {
+          "text": "from a stop position alone;",
+          "function": "様態",
+          "translation": "停止位置だけからは"
+        },
+        {
+          "text": "the missing specification must be clarified",
+          "function": "結果",
+          "translation": "不足する仕様は明確にされなければなりません"
+        },
+        {
+          "text": "by the responsible designer.",
+          "function": "行動",
+          "translation": "設計に責任を持つ人によって"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "接続",
+          "name": "when節",
+          "where": "When a drawing omits",
+          "explanation": "設計情報が不足する条件を示す。",
+          "rule": "When + 主語 + 動詞, 主節"
+        },
+        {
+          "category": "主語動詞一致",
+          "name": "単数主語 drawing",
+          "where": "drawing omits",
+          "explanation": "単数主語にomitsを使う。",
+          "rule": "単数主語 + 三人称単数動詞"
+        },
+        {
+          "category": "助動詞",
+          "name": "cannot + 動詞原形",
+          "where": "cannot confirm",
+          "explanation": "確認できない能力上・情報上の限界を表す。",
+          "rule": "cannot + 動詞原形"
+        },
+        {
+          "category": "限定",
+          "name": "aloneの後置",
+          "where": "a stop position alone",
+          "explanation": "停止位置だけでは不十分だと限定する。",
+          "rule": "名詞句 + alone"
+        },
+        {
+          "category": "助動詞",
+          "name": "mustによる必要",
+          "where": "must be clarified",
+          "explanation": "仕様の明確化が必要であることを示す。",
+          "rule": "must + 動詞原形"
+        },
+        {
+          "category": "受動態",
+          "name": "must be + 過去分詞",
+          "where": "must be clarified",
+          "explanation": "明確化される仕様を主語にする。",
+          "rule": "must be + 過去分詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "When a drawing omit the datum,",
+          "correct": "When a drawing omits the datum,",
+          "why": "単数主語drawingにomitsを使う。"
+        },
+        {
+          "wrong": "an operator cannot confirms design intent",
+          "correct": "an operator cannot confirm design intent",
+          "why": "助動詞cannotの後は動詞原形にする。"
+        },
+        {
+          "wrong": "the specification must clarified",
+          "correct": "the specification must be clarified",
+          "why": "受動態にはbe動詞が必要。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A measurement can verify a stated requirement, but it cannot invent a missing one.",
+          "translation": "測定は明記された要求を確認できますが、欠けた要求を作り出すことはできません。"
+        },
+        {
+          "text": "The operator should not be asked to infer the designer’s acceptance rule.",
+          "translation": "作業者に設計者の合否判定規則を推測させるべきではありません。"
+        },
+        {
+          "text": "Ambiguous requirements should return to the person responsible for the design.",
+          "translation": "曖昧な要求は、設計に責任を持つ人へ戻すべきです。"
+        }
+      ],
+      "parseTree": "[Adv When [S a drawing [VP omits the datum and acceptance criteria]]], [S an operator [VP cannot confirm design intent from a stop position alone]]; [S the missing specification [VP must be clarified by the responsible designer]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "cannot confirm design intent",
+          "expanded": "because the drawing does not define the reference and pass-fail rule needed for confirmation",
+          "nuance": "設計情報不足が確認を妨げる理由。"
+        },
+        {
+          "original": "from a stop position alone",
+          "expanded": "since one observed position does not by itself supply every missing design requirement",
+          "nuance": "単一の測定結果の限界。"
+        },
+        {
+          "original": "must be clarified by the responsible designer",
+          "expanded": "therefore, the unresolved requirement should return to the role authorized to define it",
+          "nuance": "責任を測定者へ移さない帰結。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Design intent cannot be confirmed from a stop position alone when acceptance criteria are missing.",
+          "translation": "合否判定基準が欠けていると、停止位置だけから設計意図を確認できません。",
+          "note": "確認される設計意図を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Lacking a defined datum, the drawing leaves the operator without a complete basis for acceptance.",
+          "translation": "定義された基準を欠くため、その図面は作業者に完全な合否判定根拠を与えません。",
+          "note": "不足条件を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Clarification of the specification remains a design responsibility.",
+          "translation": "仕様の明確化は設計責任のままです。",
+          "note": "clarifyを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "acceptance criteria",
+            "alternatives": [
+              "pass-fail criteria",
+              "acceptance requirements",
+              "conformance criteria"
+            ],
+            "nuance": "acceptance criteriaは合否判定の条件、conformance criteriaは適合性判断を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "条件と責任",
+            "sentence": "When X omits A, B cannot confirm C from D alone; E must be clarified by F.",
+            "translation": "XがAを欠くと、BはDだけからCを確認できず、EはFが明確にしなければなりません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "An explicit datum is safer than an operator’s assumption.",
+            "translation": "明記された基準は、作業者の推測より安全です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the acceptance rule is not documented, the result should be escalated rather than guessed.",
+            "translation": "合否判定規則が文書化されていなければ、推測せず上位へ確認すべきです。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the operator can confirm is compliance with a stated requirement, not an unstated intention.",
+            "translation": "作業者が確認できるのは、明記された要求への適合であって、明記されていない意図ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Measure the part; clarify the requirement.",
+            "translation": "部品は測定し、要求は明確にします。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "when節と受動態で、測定者が確認できる範囲と設計側が明確化すべき責任を分離した。専門語を含むため柔軟性と効率性は8。"
+    }
+  },
+  {
+    "_no": 221,
+    "_generatedAt": "2026-11-27T02:00:00+09:00",
+    "sentence": "A media-rich interface may feel lively, but on a limited mobile plan it should delay large assets, reuse cached files, and let users choose when media loads.",
+    "phonetic": "ア メディア リッチ インターフェイス メイ フィール ライヴリー、バット オン ア リミテッド モウバイル プラン イット シュッド ディレイ ラージ アセッツ、リユーズ キャッシュト ファイルズ、アンド レット ユーザーズ チューズ ウェン メディア ロウズ。",
+    "japaneseTranslation": "メディアを多用する画面は活気があるように感じられますが、容量の限られたモバイルプランでは、大きな素材の読み込みを遅らせ、キャッシュ済みファイルを再利用し、メディアをいつ読み込むかユーザーが選べるようにすべきです。",
+    "theme": "にぎやかな画面と通信量への配慮を両立する",
+    "coreVerb": "delay",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "The interface delays assets.",
+        "translation": "その画面は素材の読み込みを遅らせます。"
+      },
+      "phase2": {
+        "sentence": "The interface delays large media assets.",
+        "translation": "その画面は大きなメディア素材の読み込みを遅らせます。",
+        "addedChunks": "対象(large media assets)を追加"
+      },
+      "phase3": {
+        "sentence": "The interface feels lively, but it limits unnecessary transfers.",
+        "translation": "その画面は活気がありますが、不要な転送を抑えます。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Cached files use less mobile data than repeated downloads.",
+        "translation": "キャッシュ済みファイルは、繰り返すダウンロードよりモバイル通信量を抑えます。",
+        "comparison": "less mobile data than"
+      },
+      "phase5": {
+        "sentence": "A media-rich interface may feel lively, but on a limited mobile plan it should delay large assets, reuse cached files, and let users choose when media loads",
+        "translation": "メディアを多用する画面は活気があるように感じられますが、容量の限られたモバイルプランでは、大きな素材の読み込みを遅らせ、キャッシュ済みファイルを再利用し、メディアをいつ読み込むかユーザーが選べるようにすべきです。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A media-rich interface may feel lively,",
+          "function": "状態",
+          "translation": "メディアを多用する画面は活気があるように感じられます"
+        },
+        {
+          "text": "but on a limited mobile plan",
+          "function": "接続",
+          "translation": "しかし容量の限られたモバイルプランでは"
+        },
+        {
+          "text": "it should delay large assets,",
+          "function": "行動",
+          "translation": "大きな素材の読み込みを遅らせるべきです"
+        },
+        {
+          "text": "reuse cached files,",
+          "function": "行動",
+          "translation": "キャッシュ済みファイルを再利用し"
+        },
+        {
+          "text": "and let users choose",
+          "function": "行動",
+          "translation": "そしてユーザーが選べるようにし"
+        },
+        {
+          "text": "when media loads.",
+          "function": "時間",
+          "translation": "メディアをいつ読み込むかを"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "複合形容詞",
+          "name": "media-rich",
+          "where": "A media-rich interface",
+          "explanation": "メディアを多く含む画面を表す。",
+          "rule": "名詞 + rich"
+        },
+        {
+          "category": "助動詞",
+          "name": "may + 動詞原形",
+          "where": "may feel",
+          "explanation": "そう感じられる可能性を控えめに示す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "接続",
+          "name": "butによる制約",
+          "where": "but on a limited mobile plan",
+          "explanation": "活気という利点から通信制約へ転換する。",
+          "rule": "節, but + 節"
+        },
+        {
+          "category": "助動詞",
+          "name": "should + 動詞原形",
+          "where": "should delay",
+          "explanation": "設計上の推奨を表す。",
+          "rule": "should + 動詞原形"
+        },
+        {
+          "category": "並列",
+          "name": "動詞句の三項並列",
+          "where": "delay..., reuse..., and let...",
+          "explanation": "三つの対策を同じ文法形式で並べる。",
+          "rule": "V1, V2, and V3"
+        },
+        {
+          "category": "使役",
+          "name": "let + 人 + 動詞原形",
+          "where": "let users choose",
+          "explanation": "ユーザーに選択権を与える。",
+          "rule": "let + 目的語 + 動詞原形"
+        },
+        {
+          "category": "名詞節",
+          "name": "when節",
+          "where": "when media loads",
+          "explanation": "選択する読み込み時点を表す。",
+          "rule": "choose + when節"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "An interface may feels lively.",
+          "correct": "An interface may feel lively.",
+          "why": "助動詞mayの後は動詞原形にする。"
+        },
+        {
+          "wrong": "It should delays large assets.",
+          "correct": "It should delay large assets.",
+          "why": "助動詞shouldの後は動詞原形にする。"
+        },
+        {
+          "wrong": "let users to choose when media loads",
+          "correct": "let users choose when media loads",
+          "why": "使役動詞letの後はtoを置かず動詞原形を使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Load decorative media only when the user asks for it.",
+          "translation": "装飾的なメディアは、ユーザーが求めたときだけ読み込みます。"
+        },
+        {
+          "text": "A lively interface should not silently consume a user’s limited data allowance.",
+          "translation": "活気ある画面でも、ユーザーの限られた通信容量を黙って消費すべきではありません。"
+        },
+        {
+          "text": "Caching and explicit controls can preserve both personality and restraint.",
+          "translation": "キャッシュと明示的な操作手段は、個性と節度の両方を保てます。"
+        }
+      ],
+      "parseTree": "[S A media-rich interface [VP may feel lively]], but [PP on a limited mobile plan] [S it [VP should delay A, reuse B, and let users choose [CP when media loads]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "delay large assets",
+          "expanded": "because large images, audio, or video can consume limited mobile data before the user needs them",
+          "nuance": "遅延読み込みが通信量を守る理由。"
+        },
+        {
+          "original": "reuse cached files",
+          "expanded": "since already downloaded content need not be transferred again when it is unchanged",
+          "nuance": "キャッシュ再利用の効果。"
+        },
+        {
+          "original": "let users choose when media loads",
+          "expanded": "therefore, the interface can remain expressive without taking control of the data budget away from the user",
+          "nuance": "選択権と表現性の両立。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Large media assets should be loaded only when they are needed.",
+          "translation": "大きなメディア素材は、必要なときだけ読み込まれるべきです。",
+          "note": "読み込まれる素材を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Reusing cached files, the interface avoids repeated transfers.",
+          "translation": "キャッシュ済みファイルを再利用することで、その画面は繰り返す転送を避けます。",
+          "note": "手段を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Deferred loading and cache reuse reduce unnecessary data consumption.",
+          "translation": "遅延読み込みとキャッシュ再利用は、不要なデータ消費を減らします。",
+          "note": "delay・reuse・consumeを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "media-rich",
+            "alternatives": [
+              "media-heavy",
+              "visually dense",
+              "multimedia-intensive"
+            ],
+            "nuance": "media-richは肯定的、media-heavyは負荷の重さ、visually denseは視覚密度を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "利点と制約下の対策",
+            "sentence": "X may feel A, but on B it should V1, V2, and let users V3.",
+            "translation": "XはAに感じられますが、BではV1、V2を行い、ユーザーがV3できるようにすべきです。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Deferred loading uses less data upfront than loading every asset immediately.",
+            "translation": "遅延読み込みは、すべての素材を即座に読むより初期通信量を抑えます。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the user enables media, the interface can load richer assets on demand.",
+            "translation": "ユーザーがメディアを有効にすれば、画面は要求時に豊かな素材を読み込めます。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What the interface should preserve is the user’s control over the data budget.",
+            "translation": "画面が守るべきなのは、通信量に対するユーザーの制御です。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Animate by choice, not by surprise.",
+            "translation": "不意打ちではなく、選択によって動かします。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "butと三項並列で、にぎやかさを保ちつつ通信量を制御する具体策を示した。情報量が多いため効率性は8。"
+    }
+  }
+]
