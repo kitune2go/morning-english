@@ -53554,5 +53554,640 @@
         }
       ]
     }
+  ],
+  "DE-20261126-001": [
+    {
+      "words": {
+        "the": {
+          "ja": "その"
+        },
+        "phrase": {
+          "ja": "言葉・表現"
+        },
+        "a": {
+          "ja": "一つの"
+        },
+        "story": {
+          "ja": "物語"
+        },
+        "beyond": {
+          "ja": "〜を越えて"
+        },
+        "even": {
+          "ja": "〜すら"
+        },
+        "being": {
+          "ja": "〜されること"
+        },
+        "counted": {
+          "ja": "数えられる"
+        },
+        "pointed to": {
+          "ja": "〜を指していた"
+        },
+        "place": {
+          "ja": "場所"
+        },
+        "before": {
+          "ja": "〜より前に"
+        },
+        "numbers": {
+          "ja": "数字になる前という概念"
+        },
+        "pointed": {
+          "ja": "指していた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a story beyond even being counted",
+          "pattern": "beyond + 動名詞の受動態",
+          "ja": "数えられることすら越えた物語",
+          "note": "「数えられるのすら」を even で残し、数値化の外へ出た物語を表す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "ひとたび〜すると"
+        },
+        "something": {
+          "ja": "あるもの"
+        },
+        "counted": {
+          "ja": "数えられた"
+        },
+        "ranked": {
+          "ja": "順位づけされた"
+        },
+        "compared": {
+          "ja": "比較された"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Once something is counted",
+          "pattern": "Once + 受動態",
+          "ja": "何かがひとたび数えられると",
+          "note": "数える行為を、その後の序列化と比較が始まる条件として置く。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "headcounts": {
+          "ja": "人数の集計"
+        },
+        "scores": {
+          "ja": "得点"
+        },
+        "view counts": {
+          "ja": "閲覧数"
+        },
+        "separate": {
+          "ja": "別々の"
+        },
+        "experiences": {
+          "ja": "経験"
+        },
+        "one scale": {
+          "ja": "一つの目盛り"
+        }
+      },
+      "phrases": [
+        {
+          "en": "place separate experiences on one scale",
+          "pattern": "place + 目的語 + on + 場所",
+          "ja": "別々の経験を一つの目盛りへ載せる",
+          "note": "異質な経験を共通尺度へ移す比喩。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "that": {
+          "ja": "そのこと（＝共通尺度へ載せる便利さ）"
+        },
+        "convenience": {
+          "ja": "便利さ"
+        },
+        "whatever": {
+          "ja": "目盛りの外にあるものすべて"
+        },
+        "falls outside": {
+          "ja": "範囲外になる"
+        },
+        "scale": {
+          "ja": "目盛り"
+        },
+        "vanished": {
+          "ja": "消えた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "whatever falls outside the scale has not vanished",
+          "pattern": "whatever節 + 現在完了の否定",
+          "ja": "目盛りの外にあるものが消えたわけではない",
+          "note": "比較できない部分の存在を否定しない留保。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "number": {
+          "ja": "一つの数字"
+        },
+        "shorten": {
+          "ja": "短く要約する"
+        },
+        "without becoming": {
+          "ja": "〜そのものにはならずに"
+        },
+        "itself": {
+          "ja": "物語そのもの"
+        }
+      },
+      "phrases": [
+        {
+          "en": "without becoming the story itself",
+          "pattern": "without + 動名詞",
+          "ja": "物語そのものになることなく",
+          "note": "要約する機能と、物語そのものになることを分ける。"
+        }
+      ]
+    }
+  ],
+  "DE-20261126-002": [
+    {
+      "words": {
+        "at times": {
+          "ja": "ときに"
+        },
+        "a": {
+          "ja": "一つの"
+        },
+        "headcount": {
+          "ja": "人数の集計"
+        },
+        "turns into": {
+          "ja": "〜へ変わる"
+        },
+        "an": {
+          "ja": "一つの"
+        },
+        "order": {
+          "ja": "命令"
+        },
+        "before": {
+          "ja": "〜するより先に"
+        },
+        "it": {
+          "ja": "人数の集計"
+        },
+        "becomes": {
+          "ja": "〜になる"
+        },
+        "explanation": {
+          "ja": "説明"
+        }
+      },
+      "phrases": [
+        {
+          "en": "turns into an order before it becomes an explanation",
+          "pattern": "turn into A before B",
+          "ja": "説明になるより先に命令へ変わる",
+          "note": "人数が中立な説明より先に人を動かす命令へ変わる順序を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "once": {
+          "ja": "ひとたび〜すると"
+        },
+        "person": {
+          "ja": "一人の人"
+        },
+        "counted as": {
+          "ja": "〜として数えられる"
+        },
+        "participant": {
+          "ja": "参加者"
+        },
+        "worker": {
+          "ja": "働き手"
+        },
+        "supporter": {
+          "ja": "支持者"
+        },
+        "individual circumstances": {
+          "ja": "一人ひとりの事情"
+        },
+        "folded into": {
+          "ja": "〜の内側へ畳み込まれる"
+        },
+        "mobilization figure": {
+          "ja": "動員数"
+        },
+        "circumstances": {
+          "ja": "事情"
+        },
+        "folded": {
+          "ja": "畳み込まれた"
+        },
+        "gathering": {
+          "ja": "集会の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "individual circumstances are folded into a mobilization figure",
+          "pattern": "受動態 + into",
+          "ja": "個々の事情が動員数へ畳み込まれる",
+          "note": "一人の事情が集計値の内側で見えにくくなる比喩。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "do not count me in": {
+          "ja": "私を頭数に含めないでください"
+        },
+        "me": {
+          "ja": "私（＝集計への参加を拒む人）"
+        },
+        "erase": {
+          "ja": "存在を消す"
+        }
+      },
+      "phrases": [
+        {
+          "en": "“Do not count me in” does not mean “erase me.”",
+          "pattern": "does not mean + 引用",
+          "ja": "「私を頭数に含めないで」は「私を消して」という意味ではない",
+          "note": "参加拒否を存在否定と取り違えないための対比。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "その言葉（＝私を頭数に含めないで）"
+        },
+        "refusing": {
+          "ja": "拒むこと"
+        },
+        "treated as if": {
+          "ja": "あたかも〜したかのように扱われる"
+        },
+        "as if": {
+          "ja": "あたかも〜したかのように"
+        },
+        "one": {
+          "ja": "その人"
+        },
+        "had agreed": {
+          "ja": "同意していた"
+        },
+        "purpose": {
+          "ja": "目的"
+        },
+        "line": {
+          "ja": "人を並べる列"
+        }
+      },
+      "phrases": [
+        {
+          "en": "as if one had agreed to the purpose of the line",
+          "pattern": "as if + 仮定法過去完了",
+          "ja": "その人が列の目的に同意していたかのように",
+          "note": "実際には同意していないことを仮定法過去完了で示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "leaving": {
+          "ja": "離れること"
+        },
+        "count": {
+          "ja": "集計の列"
+        },
+        "not the same as": {
+          "ja": "〜と同じではない"
+        },
+        "world": {
+          "ja": "世界"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Leaving the count is not the same as leaving the world",
+          "pattern": "A is not the same as B",
+          "ja": "集計から離れることは世界から離れることと同じではない",
+          "note": "数から降りる拒否と、存在そのものの消失を明確に分ける結論。"
+        }
+      ]
+    }
+  ],
+  "DE-20261126-003": [
+    {
+      "words": {
+        "machining": {
+          "ja": "機械加工"
+        },
+        "number": {
+          "ja": "測定された数値"
+        },
+        "cannot decide": {
+          "ja": "合否を決められない"
+        },
+        "acceptance": {
+          "ja": "合格判定"
+        },
+        "reference": {
+          "ja": "判定の基準"
+        }
+      },
+      "phrases": [
+        {
+          "en": "cannot decide acceptance without a reference",
+          "pattern": "cannot + 動詞 + without",
+          "ja": "基準なしには合否を決められない",
+          "note": "数値の存在と判定基準の存在を分ける。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "length": {
+          "ja": "長さ"
+        },
+        "diameter": {
+          "ja": "直径"
+        },
+        "tapered pipe thread": {
+          "ja": "管用テーパねじ"
+        },
+        "measurable": {
+          "ja": "測定可能な"
+        },
+        "without a datum line": {
+          "ja": "基準線なしでは"
+        },
+        "proper gauge": {
+          "ja": "適切なゲージ"
+        },
+        "its": {
+          "ja": "そのねじの"
+        },
+        "stopping position": {
+          "ja": "ねじが止まる位置"
+        },
+        "alone": {
+          "ja": "それだけでは"
+        },
+        "verify": {
+          "ja": "確認する"
+        },
+        "angle": {
+          "ja": "テーパ角度"
+        },
+        "sealing performance": {
+          "ja": "密封性能"
+        },
+        "proper": {
+          "ja": "適切な"
+        },
+        "sealing": {
+          "ja": "密封の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "without a datum line and the proper gauge",
+          "pattern": "without + 並列名詞",
+          "ja": "基準線と適切なゲージがなければ",
+          "note": "合否確認に欠けている二つの条件を具体化する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "asking": {
+          "ja": "尋ねること"
+        },
+        "operator": {
+          "ja": "作業者"
+        },
+        "whether": {
+          "ja": "〜かどうか"
+        },
+        "halfway": {
+          "ja": "半分ほど入った状態"
+        },
+        "good enough": {
+          "ja": "十分に良い"
+        },
+        "turns": {
+          "ja": "変えてしまう"
+        },
+        "missing design decision": {
+          "ja": "欠けた設計判断"
+        },
+        "shop-floor responsibility": {
+          "ja": "加工現場の責任"
+        },
+        "shop-floor": {
+          "ja": "加工現場の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "turns a missing design decision into shop-floor responsibility",
+          "pattern": "turn A into B",
+          "ja": "欠けた設計判断を加工現場の責任へ変える",
+          "note": "基準の欠落が作業者の責任へ転嫁される構造。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "measurement": {
+          "ja": "測定値"
+        },
+        "not a substitute for": {
+          "ja": "〜の代わりにはならない"
+        },
+        "judgment criterion": {
+          "ja": "判定基準"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not a substitute for a judgment criterion",
+          "pattern": "not a substitute for + 名詞",
+          "ja": "判定基準の代わりではない",
+          "note": "測れることと判定できることを区別する最終文。"
+        }
+      ]
+    }
+  ],
+  "DE-20261126-004": [
+    {
+      "words": {
+        "on the same day": {
+          "ja": "同じ日に"
+        },
+        "one idea": {
+          "ja": "一つの案"
+        },
+        "fill the screen": {
+          "ja": "画面を埋める"
+        },
+        "multiplying characters": {
+          "ja": "増殖するキャラクター"
+        },
+        "while": {
+          "ja": "その一方で"
+        },
+        "mobile data": {
+          "ja": "モバイル通信"
+        },
+        "hitting": {
+          "ja": "到達しつつあった"
+        },
+        "bandwidth limit": {
+          "ja": "帯域制限"
+        },
+        "after about five gigabytes": {
+          "ja": "約5ギガバイト使用した後で"
+        },
+        "multiplying": {
+          "ja": "増殖する"
+        },
+        "mobile": {
+          "ja": "モバイルの"
+        },
+        "bandwidth": {
+          "ja": "帯域の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while mobile data was hitting a bandwidth limit after about five gigabytes",
+          "pattern": "while + 過去進行形",
+          "ja": "一方でモバイル通信は約5ギガバイト使用後に帯域制限へ達しつつあった",
+          "note": "増殖演出の案と通信制限の話が同じ日に並んだことを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "pleasure": {
+          "ja": "楽しさ"
+        },
+        "adding more": {
+          "ja": "さらに増やすこと"
+        },
+        "shares a screen with": {
+          "ja": "〜と同じ画面に同居する"
+        },
+        "connection": {
+          "ja": "通信回線"
+        },
+        "narrowed by counting": {
+          "ja": "使用量の計測によって狭められた"
+        },
+        "narrowed": {
+          "ja": "狭められた"
+        }
+      },
+      "phrases": [
+        {
+          "en": "a connection narrowed by counting",
+          "pattern": "名詞 + 過去分詞句",
+          "ja": "使用量を数えられて狭められた回線",
+          "note": "計測された使用量による帯域制限を比喩的に表す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "numbers": {
+          "ja": "数字"
+        },
+        "guardrails": {
+          "ja": "遊びを守る柵"
+        },
+        "play": {
+          "ja": "遊び"
+        },
+        "walls": {
+          "ja": "遊びを止める壁"
+        },
+        "stop": {
+          "ja": "止める"
+        },
+        "it": {
+          "ja": "遊び"
+        }
+      },
+      "phrases": [
+        {
+          "en": "guardrails for play or walls that stop it",
+          "pattern": "A or B + that関係節",
+          "ja": "遊びを守る柵にも、それを止める壁にも",
+          "note": "上限が保護と制限の両方に働く二面性を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "each limit": {
+          "ja": "一つひとつの上限"
+        },
+        "therefore": {
+          "ja": "だから"
+        },
+        "what": {
+          "ja": "何を"
+        },
+        "it": {
+          "ja": "その上限"
+        },
+        "protects": {
+          "ja": "守る"
+        },
+        "who": {
+          "ja": "誰が"
+        },
+        "judges": {
+          "ja": "判定する"
+        },
+        "how": {
+          "ja": "どのように"
+        },
+        "someone": {
+          "ja": "人が"
+        },
+        "step out of": {
+          "ja": "〜から降りる"
+        },
+        "line": {
+          "ja": "数えるための列"
+        }
+      },
+      "phrases": [
+        {
+          "en": "what it protects, who judges it, and how someone can step out of the line",
+          "pattern": "間接疑問の三項並列",
+          "ja": "何を守るのか、誰が判定するのか、どう列から降りられるのか",
+          "note": "上限に添えるべき目的・判定者・退出方法を列挙する。"
+        }
+      ]
+    }
   ]
 }
