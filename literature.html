@@ -383,7 +383,7 @@ function clearBookmark(){setBookmarkId('');renderCards();}
 function scrollToCard(cardId,behavior='smooth'){const el=document.getElementById('card-'+cardId);if(el)el.scrollIntoView({behavior,block:'start'});}
 function renderImageBlock(card){const imageUrl=card.imageUrl||card.image||'',caption=card.imageCaption||card.caption||'',prompt=card.imagePrompt||'';let html='';if(imageUrl){html+=`<div class="scene-image-wrap"><img class="scene-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(caption||card.title||'scene image')}" loading="lazy">`;if(caption)html+=`<div class="scene-caption">${escapeHtml(caption)}</div>`;html+='</div>';}if(prompt){html+=`<details class="image-prompt-box"><summary>Image Prompt</summary><div class="image-prompt-text">${escapeHtml(prompt)}</div></details>`;}return html;}
 function speakFromButton(button){speakText(button,button.dataset.speakText||'',button.dataset.lang||'en-US');}
-function speakText(button,text,lang){if(!('speechSynthesis'in window)){alert('このブラウザは音声読み上げに対応していません。');return;}const clean=String(text||'').replace(/\s+/g,' ').trim();if(!clean)return;stopSpeech();const utterance=new SpeechSynthesisUtterance(clean);utterance.lang=lang||'en-US';utterance.rate=lang==='ja-JP'?.95:.82;utterance.pitch=1;utterance.onstart=()=>{speakingButton=button;button.classList.add('speaking');button.textContent='■ '+(button.dataset.label||(lang==='ja-JP'?'日本語':'英語'));};utterance.onend=resetSpeakingButton;utterance.onerror=resetSpeakingButton;speechTimer=setTimeout(()=>{speechTimer=null;window.speechSynthesis.speak(utterance);},180);}
+function speakText(button,text,lang){if(!('speechSynthesis'in window)){alert('このブラウザは音声読み上げに対応していません。');return;}const clean=String(text||'').replace(/\s+/g,' ').trim();if(!clean)return;stopSpeech();const utterance=new SpeechSynthesisUtterance(clean);utterance.lang=lang||'en-US';utterance.rate=lang==='ja-JP'?.95:.82;utterance.pitch=1;utterance.onstart=()=>{speakingButton=button;button.classList.add('speaking');button.textContent='■ '+(button.dataset.label||(lang==='ja-JP'?'日本語':'英語'));};utterance.onend=()=>{if(speakingButton!==button)return;resetSpeakingButton();document.dispatchEvent(new Event("literature:speech-end"));};utterance.onerror=resetSpeakingButton;speechTimer=setTimeout(()=>{speechTimer=null;window.speechSynthesis.speak(utterance);},180);}
 function stopSpeech(){if(speechTimer){clearTimeout(speechTimer);speechTimer=null;}if('speechSynthesis'in window)window.speechSynthesis.cancel();resetSpeakingButton();}
 function resetSpeakingButton(){if(speakingButton){const label=speakingButton.dataset.label||'再生';speakingButton.classList.remove('speaking');speakingButton.textContent='▶ '+label;speakingButton=null;}}
 function escapeHtml(str){return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');}
@@ -456,5 +456,6 @@ document.getElementById('content').addEventListener('click',async event=>{
 loadLiterature();
 </script>
 <script src="pinkchan.js" defer></script>
+<script src="skit/skit.js" defer></script>
 </body>
 </html>
