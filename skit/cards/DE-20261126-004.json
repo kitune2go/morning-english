@@ -1,0 +1,97 @@
+{
+  "id": "card-DE-20261126-004",
+  "title": "数えると列ができる：五ギガと増える窓",
+  "scenes": [
+    {
+      "id": "de-1126-004-open",
+      "when": {
+        "trigger": "cardOpen"
+      },
+      "steps": [
+        {
+          "enter": "pink",
+          "at": "textRight"
+        },
+        {
+          "who": "pink",
+          "say": "画面をキャラで埋める実験、開始！"
+        },
+        {
+          "enter": "pink2",
+          "at": "textLeft",
+          "flip": true
+        },
+        {
+          "enter": "pink3",
+          "at": "textTop"
+        },
+        {
+          "enter": "pink4",
+          "at": "textBottom"
+        },
+        {
+          "who": "pink",
+          "say": "5GBに全員で突撃するな",
+          "style": "shout"
+        }
+      ]
+    },
+    {
+      "id": "de-1126-004-heavy",
+      "when": {
+        "trigger": "idle",
+        "after": 9
+      },
+      "steps": [
+        {
+          "swarm": "pink",
+          "count": 12,
+          "every": 0.08,
+          "at": "screen",
+          "say": [
+            "画像です",
+            "音声です",
+            "動画です",
+            "自動再生です"
+          ]
+        },
+        {
+          "enter": "cat",
+          "at": "offRight"
+        },
+        {
+          "who": "cat",
+          "move": "overText",
+          "sec": 1.5
+        },
+        {
+          "who": "cat",
+          "act": "spin"
+        },
+        {
+          "who": "pink",
+          "say": "上限の目的より先に画面が限界！"
+        }
+      ]
+    },
+    {
+      "id": "de-1126-004-bye",
+      "when": {
+        "trigger": "dismiss",
+        "reason": "read"
+      },
+      "steps": [
+        {
+          "who": "any",
+          "say": "通信量だけ置いて帰ります"
+        },
+        {
+          "wait": 0.7
+        },
+        {
+          "exit": "all"
+        }
+      ]
+    }
+  ]
+}
