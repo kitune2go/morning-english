@@ -1,0 +1,206 @@
+[
+  {
+    "id": "DE-20261126-001",
+    "sourceTitle": "『数えると列ができる』",
+    "workId": "daily-essay-20261126",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "数字の前に立つ",
+    "jp": "「数えられるのすらやめた物語」という言葉は、数になる前の場所を指していた。数えられたものは並べられ、並べられたものは比較される。人数、得点、閲覧数は、ばらばらの経験を同じ目盛りへ載せる。その便利さは否定できない。しかし目盛りに載らない部分まで消えたわけではない。数字は物語を短くするが、物語そのものにはならない。",
+    "translationLiteral": "The phrase “a story that has even stopped being countable” pointed to a place before becoming a number. What is counted is arranged, and what is arranged is compared. Headcounts, scores, and view counts place separate experiences on the same scale. That convenience cannot be denied. However, the parts that do not fit on the scale have not disappeared. Numbers shorten a story, but they do not become the story itself.",
+    "translationNatural": "The phrase “a story beyond even being counted” pointed to a place before numbers. Once something is counted, it can be ranked and compared. Headcounts, scores, and view counts place separate experiences on one scale. That convenience is real, but whatever falls outside the scale has not vanished. A number can shorten a story without becoming the story itself.",
+    "imageUrl": "",
+    "imageCaption": "一つの目盛りの前に、形の違う物語が並べられている。",
+    "imagePrompt": "A quiet literary illustration of differently shaped stories being placed before a single measuring scale, some details remaining outside the marks, muted ink and paper texture, no text, no logos.",
+    "chunks": [
+      {
+        "en": "The phrase “a story beyond even being counted” pointed to a place before numbers.",
+        "ja": "「数えられることすら越えた物語」という言葉は、数字になる前の場所を指していた。"
+      },
+      {
+        "en": "Once something is counted, it can be ranked and compared.",
+        "ja": "何かが数えられると、それは順位づけされ、比較されうる。"
+      },
+      {
+        "en": "Headcounts, scores, and view counts place separate experiences on one scale.",
+        "ja": "人数、得点、閲覧数は、別々の経験を一つの目盛りへ載せる。"
+      },
+      {
+        "en": "That convenience is real, but whatever falls outside the scale has not vanished.",
+        "ja": "その便利さは確かにあるが、目盛りの外へ落ちるものが消えたわけではない。"
+      },
+      {
+        "en": "A number can shorten a story without becoming the story itself.",
+        "ja": "数字は物語そのものにならずに、物語を短くできる。"
+      }
+    ],
+    "grammar": [
+      "The phrase ... pointed to は、冒頭の言葉が指した概念を原文に合わせて過去形で置く。",
+      "Once something is counted は、数えられた時点で後続の変化が始まる条件を表す。",
+      "can be ranked and compared は受動態を並列し、数えられた対象に起こる二つの操作を示す。",
+      "whatever falls outside the scale は、目盛りに載らない不特定の部分をまとめて指す。",
+      "without becoming the story itself は、圧縮できることと物語そのものになることを分ける。"
+    ],
+    "translationNote": "直訳は「数えられるのすらやめた」を has even stopped being countable と追った。自然訳では beyond even being counted として「数えられることすら越えた」という含意を保ち、過去形 pointed も原文に合わせた。比較の過程、数字の利便性を認める留保、目盛りの外が消えないこと、数字は物語そのものではないという結論は維持した。",
+    "readingPoint": "導入。数える行為を中立な記録ではなく、並べ替えと比較を可能にする入口として示し、数字と物語を分ける。",
+    "keywords": [
+      "数字",
+      "比較",
+      "目盛り",
+      "物語",
+      "頭数"
+    ]
+  },
+  {
+    "id": "DE-20261126-002",
+    "sourceTitle": "『数えると列ができる』",
+    "workId": "daily-essay-20261126",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "頭数から降りる",
+    "jp": "人数は、ときに説明より先に命令へ変わる。集会の参加者、働き手、支持者として数えられれば、一人の事情は「動員数」の内側へ畳まれる。「頭数に含めないでください」という言葉は、存在を消してほしいという願いではない。列の目的へ同意したことにしないでほしい、という拒否である。数から降りることは、世界から消えることとは違う。",
+    "translationLiteral": "A headcount sometimes changes into an order before it becomes an explanation. When someone is counted as a participant in a gathering, a worker, or a supporter, that person's circumstances are folded inside a mobilization figure. “Please do not include me in the headcount” is not a wish to have one's existence erased. It is a refusal to be treated as having agreed to the purpose of the line. Stepping out of the count is different from disappearing from the world.",
+    "translationNatural": "At times, a headcount turns into an order before it becomes an explanation. Once a person is counted as a gathering participant, a worker, or a supporter, individual circumstances are folded into a mobilization figure. “Do not count me in” does not mean “erase me.” It means refusing to be treated as if one had agreed to the purpose of the line. Leaving the count is not the same as leaving the world.",
+    "imageUrl": "",
+    "imageCaption": "番号の付いた列から一人が横へ出ても、その姿は消えていない。",
+    "imagePrompt": "A restrained editorial illustration of one person stepping sideways out of a numbered line while remaining fully visible, emphasizing refusal without disappearance, muted colors, no text, no logos.",
+    "chunks": [
+      {
+        "en": "At times, a headcount turns into an order before it becomes an explanation.",
+        "ja": "ときに、人数は説明になるより先に命令へ変わる。"
+      },
+      {
+        "en": "Once a person is counted as a gathering participant, a worker, or a supporter, individual circumstances are folded into a mobilization figure.",
+        "ja": "ひとたび集会の参加者、働き手、支持者として数えられると、個人の事情は動員数へ畳み込まれる。"
+      },
+      {
+        "en": "“Do not count me in” does not mean “erase me.”",
+        "ja": "「私を頭数に入れないで」は、「私を消して」という意味ではない。"
+      },
+      {
+        "en": "It means refusing to be treated as if one had agreed to the purpose of the line.",
+        "ja": "それは、その列の目的に同意したかのように扱われることを拒む、という意味だ。"
+      },
+      {
+        "en": "Leaving the count is not the same as leaving the world.",
+        "ja": "数から降りることは、世界から去ることと同じではない。"
+      }
+    ],
+    "grammar": [
+      "At times は「ときに」を文頭に置き、常に起こるという一般化を避ける。",
+      "before it becomes an explanation は、説明より命令が先行する順序を明示する。",
+      "Once a person is counted as A は、役割として数えられた後の帰結を導く。",
+      "as if one had agreed は仮定法過去完了で、実際には同意していないことを示す。",
+      "not the same as は、数から降りることと世界から消えることを区別する。"
+    ],
+    "translationNote": "直訳では「ときに」「集会の参加者」「頭数」「動員数」「列」をそれぞれ sometimes、a participant in a gathering、headcount、mobilization figure、line と保った。自然訳でも At times と a gathering participant を残し、短い対句 “Do not count me in” / “erase me” に整えた。参加拒否と存在否定を区別する論理は変えていない。",
+    "readingPoint": "展開。数が比較だけでなく参加や同意を代理する危険を示し、「数から降りても存在は消えない」という作品の倫理的な軸を置く。",
+    "keywords": [
+      "頭数",
+      "動員",
+      "同意",
+      "拒否",
+      "存在"
+    ]
+  },
+  {
+    "id": "DE-20261126-003",
+    "sourceTitle": "『数えると列ができる』",
+    "workId": "daily-essay-20261126",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "基準線のない数字",
+    "jp": "加工現場では、数字があっても基準がなければ合否にならない。管用テーパねじの長さや直径を測れても、図面に基準線がなく、正しいゲージもなければ、止まり位置だけで角度や密封性までは確認できない。それでも「半分くらい入ればよいのか」と作業者へ判断を戻せば、設計の空白が現場の責任へ変換される。測定値は、判定基準の代わりにはならない。",
+    "translationLiteral": "In machining, even when there are numbers, they do not become acceptance criteria without a reference. Even if the length and diameter of a tapered pipe thread can be measured, if the drawing has no reference line and the correct gauge is unavailable, the stopping position alone cannot confirm the angle or sealing performance. If the question of whether halfway is enough is still returned to the operator, a blank in the design is converted into responsibility on the shop floor. A measured value cannot replace a criterion for judgment.",
+    "translationNatural": "In machining, a number cannot decide acceptance without a reference. The length and diameter of a tapered pipe thread may be measurable, but without a datum line and the proper gauge, its stopping position alone cannot verify the angle or sealing performance. Asking the operator whether halfway is good enough turns a missing design decision into shop-floor responsibility. A measurement is not a substitute for a judgment criterion.",
+    "imageUrl": "",
+    "imageCaption": "ねじの測定値の横に、描かれていない基準線だけが空白で残る。",
+    "imagePrompt": "A technical yet literary illustration of a tapered pipe thread with measured dimensions, while a missing datum line remains as a visible blank and responsibility shifts toward the operator, clean drafting style, no labels, no logos.",
+    "chunks": [
+      {
+        "en": "In machining, a number cannot decide acceptance without a reference.",
+        "ja": "加工では、基準がなければ数字だけで合否を決められない。"
+      },
+      {
+        "en": "The length and diameter of a tapered pipe thread may be measurable, but without a datum line and the proper gauge, its stopping position alone cannot verify the angle or sealing performance.",
+        "ja": "管用テーパねじの長さと直径は測れても、基準線と適切なゲージがなければ、止まり位置だけでは角度や密封性を確認できない。"
+      },
+      {
+        "en": "Asking the operator whether halfway is good enough turns a missing design decision into shop-floor responsibility.",
+        "ja": "半分ほど入れば十分かを作業者へ尋ねることは、欠けた設計判断を現場の責任へ変える。"
+      },
+      {
+        "en": "A measurement is not a substitute for a judgment criterion.",
+        "ja": "測定値は判定基準の代わりにはならない。"
+      }
+    ],
+    "grammar": [
+      "cannot decide acceptance は、数字そのものを判定主体にせず、基準不足を示す。",
+      "may be measurable, but ... cannot verify は、測定可能性と合否確認を対比する。",
+      "without a datum line and the proper gauge は、確認できない二つの不足条件を列挙する。",
+      "turns A into B は、設計判断の欠落が現場責任へ変換される構造を示す。",
+      "not a substitute for は、測定値と判定基準が代替関係にないことを明示する。"
+    ],
+    "translationNote": "直訳は「基準線」を reference line、「正しいゲージ」を correct gauge とした。自然訳では加工文脈に合わせて datum line と proper gauge を採用し、stopping position はねじの止まり位置を指す。長さ・直径が測れても角度や密封性の合否までは決まらないこと、設計の空白を作業者責任へ変えてはならないことを保った。",
+    "readingPoint": "転換。抽象的な頭数から具体的な加工検査へ移り、数字の不足ではなく、基準と責任主体の不足が問題になることを示す。",
+    "keywords": [
+      "加工",
+      "基準線",
+      "ゲージ",
+      "合否",
+      "責任"
+    ]
+  },
+  {
+    "id": "DE-20261126-004",
+    "sourceTitle": "『数えると列ができる』",
+    "workId": "daily-essay-20261126",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "五ギガと増える窓",
+    "jp": "同じ日、画面をキャラクターで埋め尽くす演出を考える一方で、モバイル通信は五ギガほどで帯域制限に達するという話もあった。増やす楽しさと、数えられて狭くなる回線は、同じ画面に同居する。数字は遊びを支える柵にも、遊びを止める壁にもなる。だから数字には、何を守るための上限か、誰が判定するのか、列からどう降りられるのかまで添えたい。",
+    "translationLiteral": "On the same day, while an effect that fills the screen with characters was being considered, there was also talk of mobile data reaching a bandwidth restriction at around five gigabytes. The pleasure of adding more and a connection narrowed by counting coexist on the same screen. A number can become both a fence that supports play and a wall that stops it. That is why a number should be accompanied by what its limit protects, who makes the judgment, and how one can leave the line.",
+    "translationNatural": "On the same day, one idea was to fill the screen with multiplying characters, while mobile data was hitting a bandwidth limit after about five gigabytes. The pleasure of adding more shares a screen with a connection narrowed by counting. Numbers can be guardrails for play or walls that stop it. Each limit should therefore say what it protects, who judges it, and how someone can step out of the line.",
+    "imageUrl": "",
+    "imageCaption": "増殖する小さなキャラクターの背後で、通信量の目盛りが壁へ変わる。",
+    "imagePrompt": "A playful literary illustration of many small characters multiplying across a screen while a five-gigabyte data meter turns from a guardrail into a wall, comic but restrained, no readable text, no logos.",
+    "chunks": [
+      {
+        "en": "On the same day, one idea was to fill the screen with multiplying characters, while mobile data was hitting a bandwidth limit after about five gigabytes.",
+        "ja": "同じ日、画面を増殖するキャラクターで埋める案があった一方、モバイル通信は約5ギガバイト使用後に帯域制限へ達しつつあった。"
+      },
+      {
+        "en": "The pleasure of adding more shares a screen with a connection narrowed by counting.",
+        "ja": "増やす楽しさは、数えられることで狭くなった回線と同じ画面を共有する。"
+      },
+      {
+        "en": "Numbers can be guardrails for play or walls that stop it.",
+        "ja": "数字は遊びのための防護柵にも、それを止める壁にもなりうる。"
+      },
+      {
+        "en": "Each limit should therefore say what it protects, who judges it, and how someone can step out of the line.",
+        "ja": "だから各上限は、何を守るのか、誰が判定するのか、どうすれば列から降りられるのかまで示すべきだ。"
+      }
+    ],
+    "grammar": [
+      "one idea was to fill は、その日に検討された演出案を不定詞で示す。",
+      "while mobile data was hitting a bandwidth limit は、演出の増殖と帯域制限を同時進行の対比にする。",
+      "narrowed by counting は過去分詞句で、計量によって回線が狭められることを表す。",
+      "can be A or B は、数字が柵にも壁にもなる二面性を示す。",
+      "what ..., who ..., and how ... は三つの間接疑問を並べ、数字に必要な説明を列挙する。"
+    ],
+    "translationNote": "直訳は「柵」と「壁」の比喩を fence / wall とした。自然訳では遊びを支える柵を guardrails とし、帯域制限は a bandwidth limit と明示した。約五ギガバイト使用後という数量、増殖演出との同時性、上限の目的・判定者・退出方法を求める結論は維持した。",
+    "readingPoint": "結び。数字を拒絶せず、遊びを支える柵にも止める壁にもなる二面性を示し、上限には目的・判定者・退出経路が必要だという余韻へ戻す。",
+    "keywords": [
+      "通信量",
+      "五ギガ",
+      "増殖演出",
+      "上限",
+      "退出"
+    ]
+  }
+]
