@@ -8,6 +8,8 @@
 if(window.__skit)return;window.__skit=true;
 const BASE=(document.currentScript&&document.currentScript.src)?new URL('./',document.currentScript.src).href:'skit/';
 const KEY='skit-mode';
+const LIT=!!document.getElementById('workSelect');
+let activeArticle=null, cardLoadVersion=0, loadingCard=false;
 const cl=(v,a,b)=>Math.max(a,Math.min(b,v));
 const rnd=(a,b)=>a+Math.random()*(b-a);
 const pick=a=>a[Math.floor(Math.random()*a.length)];
@@ -67,12 +69,20 @@ async function loadAll(){
  SCENES=[];for(const p of CFG.scripts||[]){try{const s=await getJson(p);for(const sc of s.scenes||[])SCENES.push({...sc,_src:p})}catch(e){console.warn('寸劇の台本を読めませんでした',p,e)}}
 }
 async function loadCardScenes(no){
- CARD_SCENES=[];if(!CFG||!CFG.perCard||no==null)return;
- try{const s=await getJson(CFG.perCard.replace('{no}',encodeURIComponent(no)));CARD_SCENES=(s.scenes||[]).map(sc=>({...sc,_src:'card'}))}catch(e){/* カード別の台本は無くてよい */}
+ const version=++cardLoadVersion;CARD_SCENES=[];if(!CFG||!CFG.perCard||no==null)return;
+ try{const s=await getJson(CFG.perCard.replace('{no}',encodeURIComponent(no)));if(version===cardLoadVersion)CARD_SCENES=(s.scenes||[]).map(sc=>({...sc,_src:'card'}))}catch(e){/* カード別の台本は無くてよい */}
 }
 
 /* ---------- 本文から拾う情報（台本の {coreVerb} などに入る） ---------- */
+function literatureArticle(){
+ const cards=[...document.querySelectorAll('#content article.card[id^="card-"]')];
+ if(!cards.length)return null;
+ const target=innerHeight*.35;
+ return cards.reduce((best,el)=>{const distance=e=>{const r=e.getBoundingClientRect();return Math.max(r.top-target,target-r.bottom,0)};return distance(el)<distance(best)?el:best},cards[0]);
+}
 function readCard(){
+ if(LIT){activeArticle=literatureArticle();if(!activeArticle)return {no:null,sentence:''};const get=sel=>(activeArticle.querySelector(sel)?.textContent||'').trim();const sent=get('.en-main'),words=sent.match(/[A-Za-z][A-Za-z’'-]+/g)||[],long=words.filter(w=>w.length>=6);return {no:activeArticle.id.slice(5),sentence:sent,theme:get('.title'),coreVerb:'',word:pick(long.length?long:words.length?words:['English']),firstWords:words.slice(0,3).join(' '),trans:get('.jp')};}
+
  const sent=(document.querySelector('.hero-sentence')||{}).textContent||'';
  const tag=((document.querySelector('.hero .tag-mini.gray')||{}).textContent||'').split('·').map(s=>s.trim());
  const words=sent.match(/[A-Za-z][A-Za-z'’-]+/g)||[];
@@ -83,7 +93,7 @@ function readCard(){
 const fill=t=>String(t).replace(/\{(\w+)\}/g,(m,k)=>cardInfo[k]!=null&&cardInfo[k]!==''?cardInfo[k]:m==='{word}'?'これ':'');
 
 /* ---------- 立ち位置 ---------- */
-function textRect(){const el=document.querySelector('.hero-sentence')||document.querySelector('.hero')||document.getElementById('content');
+function textRect(){const el=(LIT&&activeArticle?.querySelector('.en-main'))||document.querySelector('.hero-sentence')||document.querySelector('.hero')||document.getElementById('content');
  if(!el)return{left:20,top:scrollY+120,width:innerWidth-40,height:120};const r=el.getBoundingClientRect();return{left:r.left+scrollX,top:r.top+scrollY,width:r.width,height:r.height}}
 function viewRect(){const w=document.documentElement.clientWidth||innerWidth;return{left:scrollX,top:scrollY,width:w,height:innerHeight}}
 function place(at,w,h){
@@ -199,7 +209,7 @@ let lastGrow=0;
 function restartClock(delay){clock0=performance.now()+(delay||0);firedIdle=new Set();lastGrow=0}
 
 /* ---------- 時間で段階を上げる（when.trigger="idle" の after 秒） ---------- */
-setInterval(()=>{if(!enabled||!CFG||document.hidden||running)return;const t=(performance.now()-clock0)/1000;if(t<0)return;
+setInterval(()=>{if(!enabled||!CFG||document.hidden||running||loadingCard||cardNo==null)return;const t=(performance.now()-clock0)/1000;if(t<0)return;
  const groups={};for(const s of [...SCENES,...CARD_SCENES])if(s.when&&s.when.trigger==='idle')(groups[s.when.after]=groups[s.when.after]||[]).push(s);
  for(const k of Object.keys(groups).map(Number).sort((a,b)=>a-b)){if(t>=k&&!firedIdle.has(k)){firedIdle.add(k);const own=groups[k].filter(s=>s._src==='card');play(pick(own.length?own:groups[k]));return}}
  // 最後の段階のあとも止まらずに増え続ける（config.json の growth）
@@ -221,12 +231,13 @@ function mirrorLoop(){requestAnimationFrame(mirrorLoop);if(!actors.size||documen
 requestAnimationFrame(mirrorLoop);
 
 /* ---------- 本文の動きを拾う ---------- */
-function onCardMaybeChanged(){const info=readCard();if(!info.sentence)return;
+function onCardMaybeChanged(){const info=readCard();if(!info.sentence){if(cardNo!==null){cardNo=null;cardLoadVersion++;loadingCard=false;CARD_SCENES=[];queue=[];runToken++;running=null;exitAll(true)}return;}
  if(info.no===cardNo){cardInfo={...info,word:cardInfo.word||info.word};return}
  cardNo=info.no;cardInfo=info;exitAll(true);queue=[];runToken++;running=null;playedOnce=new Set();
- loadCardScenes(info.no).then(()=>{if(!enabled)return;restartClock((CFG.openDelay||2)*1000);setTimeout(()=>{if(enabled&&cardNo===info.no)fire('cardOpen')},(CFG.openDelay||2)*1000)})}
-function watch(){const c=document.getElementById('content');if(c)new MutationObserver(onCardMaybeChanged).observe(c,{childList:true});onCardMaybeChanged()}
+ loadingCard=true;const pending=loadCardScenes(info.no),version=cardLoadVersion;pending.then(()=>{if(version!==cardLoadVersion)return;loadingCard=false;if(!enabled)return;restartClock((CFG.openDelay||2)*1000);setTimeout(()=>{if(enabled&&cardNo===info.no&&version===cardLoadVersion)fire('cardOpen')},(CFG.openDelay||2)*1000)})}
+function watch(){const c=document.getElementById('content');if(c)new MutationObserver(onCardMaybeChanged).observe(c,{childList:true});if(LIT){let timer;const refresh=()=>{clearTimeout(timer);timer=setTimeout(onCardMaybeChanged,120)};window.addEventListener('scroll',refresh,{passive:true});window.addEventListener('resize',refresh)}onCardMaybeChanged()}
 // 音読ボタン・読み上げの終わりで追い払う（config.json の dismissOn）
+document.addEventListener('literature:speech-end',()=>{if(LIT&&CFG&&(CFG.dismissOn||[]).includes('speechEnd'))dismiss('speechEnd')});
 document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-act]');if(!b)return;
  if(b.dataset.act==='read'&&(CFG&&(CFG.dismissOn||[]).includes('read')))dismiss('read');
  if(b.dataset.act==='speak')speakWatch=true},true);
@@ -244,7 +255,7 @@ toggle.onclick=()=>setEnabled(!enabled);
 
 async function mount(){
  document.body.appendChild(layer);document.body.appendChild(stopBtn);
- const nav=document.querySelector('nav[aria-label="読書コンテンツ"]')||document.querySelector('header');
+ const nav=(LIT&&document.querySelector('header .nav'))||document.querySelector('nav[aria-label="読書コンテンツ"]')||document.querySelector('header');
  renderToggle();if(nav)nav.appendChild(toggle);
  try{await loadAll()}catch(e){console.warn('寸劇の設定を読めませんでした',e);toggle.remove();return}
  if(window.Pinkchan&&window.Pinkchan.keepAlive)window.Pinkchan.keepAlive(enabled);
