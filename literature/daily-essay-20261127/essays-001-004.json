@@ -1,0 +1,202 @@
+[
+  {
+    "id": "DE-20261127-001",
+    "sourceTitle": "『改札の内側だけ暖かい』",
+    "workId": "daily-essay-20261127",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "朝の葬列",
+    "jp": "朝の電車は黒に近かった。スーツ姿の男性と学生服がドア前に並び、誰もが無言でスマートフォンを覗くと、その列は葬式の参列のように見えた。だが待合室には、白いニット帽をかぶり、キャリーケースを置いて、研究や旅先の夜を話す二人の女性がいた。同じ車両が全員を運んでも、想像している行き先まで同じではない。悲しさは列の色より、別の朝を想像しにくくなった側にあった。",
+    "translationLiteral": "The morning train was close to black. Men in suits and students in uniform stood in line before the doors, and when everyone silently looked into a smartphone, the line looked like people attending a funeral. But in the waiting room were two women wearing white knit caps, with carry-on cases beside them, talking about research and nights at their travel destination. Though the train carried the same kind of human beings, their imagined destinations were not the same. The sadness was less in the color of the line than on the side that had become unable to imagine a different morning.",
+    "translationNatural": "The morning train was nearly all black. Men in suits and students in uniform lined up at the doors, silently looking into their phones, and the queue resembled a funeral procession. Yet in the waiting room, two women in white knit caps stood beside suitcases, talking about research and nights on their travels. The train carried them all, but not toward the same imagined destination. The sadness lay less in the color of the line than in how difficult it had become to imagine another morning.",
+    "imageUrl": "",
+    "imageCaption": "黒い通勤の列と、白い帽子と旅行鞄を持つ二人が同じ駅にいる。",
+    "imagePrompt": "A literary morning station scene, a nearly black line of commuters in suits and school uniforms looking at phones, contrasted with two women in white knit caps beside suitcases, muted winter light, ink and watercolor, no text, no logos.",
+    "chunks": [
+      {
+        "en": "The morning train was nearly all black.",
+        "ja": "朝の電車は、ほとんど黒一色だった。"
+      },
+      {
+        "en": "Men in suits and students in uniform lined up at the doors, silently looking into their phones, and the queue resembled a funeral procession.",
+        "ja": "スーツ姿の男性と学生服の生徒がドア前に並び、無言でスマートフォンを覗くと、その列は葬式の参列のように見えた。"
+      },
+      {
+        "en": "Yet in the waiting room, two women in white knit caps stood beside suitcases, talking about research and nights on their travels.",
+        "ja": "だが待合室では、白いニット帽の女性二人が旅行鞄のそばに立ち、研究や旅先の夜について話していた。"
+      },
+      {
+        "en": "The train carried them all, but not toward the same imagined destination.",
+        "ja": "電車は全員を運んでいたが、同じ想像上の行き先へ向かっていたわけではない。"
+      },
+      {
+        "en": "The sadness lay less in the color of the line than in how difficult it had become to imagine another morning.",
+        "ja": "悲しさは列の色そのものより、別の朝を想像することが難しくなった側にあった。"
+      }
+    ],
+    "grammar": [
+      "The morning train was nearly all black は、色の印象を nearly all で限定し、完全な黒一色とは断定しない。",
+      "lined up ... looking ... は、整列した動作に現在分詞句を重ね、無言で画面を見る同時動作を示す。",
+      "resemble + 名詞 は「〜に似ている」で、like を使わず比喩を置く。",
+      "not toward the same ... は、同じ車両にいても想像上の行き先は同じでないという対比を作る。",
+      "less A than B は、悲しさの所在を列の色から想像力の狭まりへ移す。"
+    ],
+    "translationNote": "直訳では「葬式の参列」を people attending a funeral と説明的に追った。自然訳では funeral procession と短くし、白いニット帽・旅行鞄・研究・旅先の夜という対照素材をすべて残した。最終文の less A than B は、悲しさを群衆そのものではなく別の朝を想像しにくい側へ返す原文の転換を維持する。",
+    "readingPoint": "導入。同じ駅にある黒い通勤の列と旅行へ向かう二人を対置し、物理的には同じ入口でも、そこで想像される行き先は一つではないと示す。",
+    "keywords": [
+      "通勤電車",
+      "朝の葬列",
+      "想像",
+      "旅行",
+      "改札"
+    ]
+  },
+  {
+    "id": "DE-20261127-002",
+    "sourceTitle": "『改札の内側だけ暖かい』",
+    "workId": "daily-essay-20261127",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "包摂の温度",
+    "jp": "「市場に包摂されているうちだけ気持ちいい」という言葉は、安心の条件を短く言い当てる。賃金、役職、顧客、評価が続くあいだ、参加していることは価値の証明に見える。だが入口を管理する側が変われば、昨日までの有用さも急に外へ押し出される。市場の内側にいる快さは本物でも、それを人そのものの価値と取り違えると、退出は敗北に見えてしまう。",
+    "translationLiteral": "The words “it feels good only while one is included in the market” briefly state the condition of security. While wages, positions, customers, and evaluations continue, participating looks like possessing value. But if the party controlling the entrance changes, even usefulness up to yesterday is suddenly pushed outside. Even if the comfort of being inside the market is real, if it is mistaken for the value of the person, exit comes to look like defeat.",
+    "translationNatural": "The remark that market inclusion feels good only while it lasts names the condition of that comfort. As long as wages, positions, customers, and ratings continue, participation can look like proof of worth. But when control of the entrance changes, even yesterday’s usefulness can be pushed outside. The comfort of being inside the market is real; confusing it with a person’s value makes every exit look like defeat.",
+    "imageUrl": "",
+    "imageCaption": "市場の入口の内側だけが暖色で、外側へ押し出された札が冷たい床にある。",
+    "imagePrompt": "A symbolic literary illustration of a market entrance glowing warmly inside while a useful pass is pushed onto a cold floor outside, restrained geometric shapes, muted colors, no text, no logos.",
+    "chunks": [
+      {
+        "en": "The remark that market inclusion feels good only while it lasts names the condition of that comfort.",
+        "ja": "市場への包摂は続いている間だけ心地よい、という言葉は、その安心の条件を言い当てる。"
+      },
+      {
+        "en": "As long as wages, positions, customers, and ratings continue, participation can look like proof of worth.",
+        "ja": "賃金、役職、顧客、評価が続くかぎり、参加していることは価値の証明に見えうる。"
+      },
+      {
+        "en": "But when control of the entrance changes, even yesterday’s usefulness can be pushed outside.",
+        "ja": "しかし入口の管理主体が変われば、昨日までの有用さでさえ外へ押し出されうる。"
+      },
+      {
+        "en": "The comfort of being inside the market is real; confusing it with a person’s value makes every exit look like defeat.",
+        "ja": "市場の内側にいる快さは本物だが、それを人の価値と混同すると、あらゆる退出が敗北に見えてしまう。"
+      }
+    ],
+    "grammar": [
+      "The remark that ... は that関係節で remark の内容を限定する。",
+      "only while it lasts は「それが続く間だけ」で、快さに時間的条件を付ける。",
+      "As long as は「〜であるかぎり」を表し、後続の見え方が成立する条件を示す。",
+      "can be pushed outside は受動態で、評価される側が入口の管理によって排除されうることを表す。",
+      "confusing A with B makes C look D は、AとBの混同がCをDに見せる因果を一文で示す。"
+    ],
+    "translationNote": "直訳は「気持ちいい」「市場の内側」「退出」を feels good、inside the market、exit と追った。自然訳では「包摂されているうち」を only while it lasts とし、条件の継続性を明示した。市場内の快さを否定せず、それと人の価値を混同したとき退出が敗北に見える、という但し書きと因果は変えていない。",
+    "readingPoint": "展開。駅の入口を市場の入口へ置き換え、参加中に得られる安心は本物でも、参加資格と人間の価値は同じではないと論点を進める。",
+    "keywords": [
+      "市場包摂",
+      "参加",
+      "有用性",
+      "退出",
+      "人の価値"
+    ]
+  },
+  {
+    "id": "DE-20261127-003",
+    "sourceTitle": "『改札の内側だけ暖かい』",
+    "workId": "daily-essay-20261127",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "働く者への出口",
+    "jp": "勤勉を美徳として働かせながら、資産所得で働かなくて済む状態を成功と呼ぶ社会には、二つの教訓が同居する。働くことは尊いが、十分に所有した者だけは労働から解放されてよい。問題は休むことではなく、休む権利が所有の量で配られることだ。労働倫理は全員に向けて語られるのに、その出口だけが株券や家賃収入の持ち主へ狭く開く。",
+    "translationLiteral": "In a society that makes people work by treating diligence as a virtue while calling the state of not needing to work because of asset income success, two lessons coexist. Working is noble, but only those who own enough may be freed from labor. The problem is not resting, but that the right to rest is distributed by the amount of ownership. Although the work ethic is spoken to everyone, only its exit opens narrowly to holders of shares or rental income.",
+    "translationNatural": "A society that praises diligence while calling freedom from work through asset income success teaches two lessons at once. Work is noble, yet only those who own enough are permitted to leave it. The problem is not rest; it is that the right to rest is distributed according to ownership. The work ethic addresses everyone, but its exit opens narrowly for those who hold shares or receive rent.",
+    "imageUrl": "",
+    "imageCaption": "全員へ向けた勤労の標語の奥で、所有者だけに細い出口が開いている。",
+    "imagePrompt": "A literary allegory of a broad hall directing everyone toward work while a narrow exit opens only for holders of asset papers, subtle shares and rent symbols, solemn ink drawing, no text, no logos.",
+    "chunks": [
+      {
+        "en": "A society that praises diligence while calling freedom from work through asset income success teaches two lessons at once.",
+        "ja": "勤勉を称賛しながら、資産所得による労働からの自由を成功と呼ぶ社会は、同時に二つの教訓を与える。"
+      },
+      {
+        "en": "Work is noble, yet only those who own enough are permitted to leave it.",
+        "ja": "労働は尊いとされるが、十分に所有する者だけがそこから離れることを許される。"
+      },
+      {
+        "en": "The problem is not rest; it is that the right to rest is distributed according to ownership.",
+        "ja": "問題は休むことではなく、休む権利が所有に応じて配られることだ。"
+      },
+      {
+        "en": "The work ethic addresses everyone, but its exit opens narrowly for those who hold shares or receive rent.",
+        "ja": "労働倫理は全員へ語りかけるが、その出口は株式を持つ者や家賃を受け取る者にだけ狭く開く。"
+      }
+    ],
+    "grammar": [
+      "that praises ... teaches ... は that関係節で society を限定し、主節の動詞 teaches へつなぐ。",
+      "while calling A B は「AをBと呼ぶ一方で」で、勤労称賛と労働からの自由の称賛を同居させる。",
+      "only those who own enough は those who で「十分に所有する者」をまとめる。",
+      "not A; it is that B は、問題の所在を休息そのものから休息権の配分へ修正する。",
+      "those who hold ... or receive ... は二つの所有形態を or で並列する。"
+    ],
+    "translationNote": "直訳では「資産所得」「労働から解放」「所有の量」を asset income、be freed from labor、the amount of ownership と対応させた。自然訳は freedom from work と according to ownership に整えたが、勤労を全員へ要求しながら所有者だけに退出を許すという主体・対比・配分条件は維持した。",
+    "readingPoint": "転換。市場の外へ出ることを敗北とみなす視線を反転し、社会が実際には所有者の退出を成功として称賛している矛盾を示す。",
+    "keywords": [
+      "勤労倫理",
+      "資産所得",
+      "所有",
+      "休む権利",
+      "退出"
+    ]
+  },
+  {
+    "id": "DE-20261127-004",
+    "sourceTitle": "『改札の内側だけ暖かい』",
+    "workId": "daily-essay-20261127",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "売るための扉",
+    "jp": "PPVが売るのは、複製できる映像の一部ではなく、決められた時間に扉を開ける権利である。生中継には同時性や結果の未知という価値があるが、保存済みの映像まで供給困難な財のように装うなら、希少性は作品の中ではなく入口に作られる。「希少だから有料」なのか、「有料にするため希少に見せる」のか。改札は価格を作れても、通過後の価値までは証明しない。",
+    "translationLiteral": "What pay-per-view sells is not a part of reproducible video, but the right to open a door at a decided time. A live broadcast has the value of simultaneity and an unknown result, but if even a recorded video is made to look like a good that is difficult to supply, scarcity is created not inside the work but at the entrance. Is it paid because it is scarce, or is it made to look scarce in order to make it paid? Even if a gate can create a price, it does not prove the value after passage.",
+    "translationNatural": "Pay-per-view sells the right to open a door at a set time, not a piece of a reproducible video. A live broadcast offers simultaneity and an unknown outcome; when a recorded work is presented as if supply were difficult, scarcity is created at the entrance rather than within the work. Is it paid because it is scarce, or made to look scarce so that it can be sold? A gate can create a price, but it cannot prove the value beyond it.",
+    "imageUrl": "",
+    "imageCaption": "複製可能な映像の手前に、有料の改札だけが希少な入口として立っている。",
+    "imagePrompt": "A conceptual literary illustration of a reproducible film existing beyond a single paid gate, scarcity located at the entrance rather than in the work, subtle ticket and screen motifs, restrained ink and watercolor, no text, no logos.",
+    "chunks": [
+      {
+        "en": "Pay-per-view sells the right to open a door at a set time, not a piece of a reproducible video.",
+        "ja": "PPVが売るのは、複製可能な映像の一部ではなく、決められた時間に扉を開ける権利である。"
+      },
+      {
+        "en": "A live broadcast offers simultaneity and an unknown outcome; when a recorded work is presented as if supply were difficult, scarcity is created at the entrance rather than within the work.",
+        "ja": "生中継は同時性と結果の未知を提供するが、保存済みの作品が供給困難であるかのように提示されると、希少性は作品内ではなく入口に作られる。"
+      },
+      {
+        "en": "Is it paid because it is scarce, or made to look scarce so that it can be sold?",
+        "ja": "それは希少だから有料なのか、それとも売れるように希少に見せられているのか。"
+      },
+      {
+        "en": "A gate can create a price, but it cannot prove the value beyond it.",
+        "ja": "改札は価格を作れても、その先にある価値を証明することはできない。"
+      }
+    ],
+    "grammar": [
+      "A, not B は、販売対象をアクセス権として先に示し、複製可能な映像の一部ではないと訂正する。",
+      "at a set time は「決められた時間に」で、アクセス権の時間条件を示す。",
+      "as if supply were difficult は仮定法過去で、実際の供給困難を事実として断定しない。",
+      "rather than は、希少性が作品内ではなく入口に作られる対比を示す。",
+      "because ... or ... so that ... は、希少性が原因なのか販売のための手段なのかを問う。"
+    ],
+    "translationNote": "直訳は「決められた時間」「供給困難な財」「通過後」を at a decided time、a good difficult to supply、after passage と追った。自然訳では set time、live broadcast、presented as if supply were difficult、beyond it と整えた。生中継固有の価値を認める留保、希少性が入口に作られる条件、原因と販売手段を問う二者択一は省略していない。",
+    "readingPoint": "余韻。市場の入口を作品への有料改札へ移し、入口は価格と排除可能性を作れても、作品そのものの価値までは保証しないと結ぶ。",
+    "keywords": [
+      "PPV",
+      "アクセス権",
+      "希少性",
+      "排除可能性",
+      "価格"
+    ]
+  }
+]
