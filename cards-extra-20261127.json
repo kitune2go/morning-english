@@ -1,0 +1,700 @@
+[
+  {
+    "_no": 222,
+    "_generatedAt": "2026-11-28T02:00:00+09:00",
+    "sentence": "A market may include people while they can produce, buy, or attract attention, but social inclusion cannot depend entirely on whether they remain profitable.",
+    "phonetic": "ア マーケット メイ インクルード ピープル ワイル ゼイ キャン プロデュース、バイ、オア アトラクト アテンション、バット ソウシャル インクルージョン キャノット ディペンド インタイアリー オン ウェザー ゼイ リメイン プロフィタブル。",
+    "japaneseTranslation": "市場は、人々が生産し、購入し、または注目を集められる間は彼らを包摂することがあります。しかし、社会的包摂は、彼らが利益を生み続けるかどうかだけに依存してはなりません。",
+    "theme": "市場への包摂と社会的包摂を分ける",
+    "coreVerb": "depend",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Social inclusion matters.",
+        "translation": "社会的包摂は重要です。"
+      },
+      "phase2": {
+        "sentence": "Social inclusion matters beyond market participation.",
+        "translation": "社会的包摂は市場参加を超えて重要です。",
+        "addedChunks": "範囲(beyond market participation)を追加"
+      },
+      "phase3": {
+        "sentence": "Markets reward participation, but society must protect people beyond it.",
+        "translation": "市場は参加に報いますが、社会はその外側でも人を守らなければなりません。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Social membership is broader than market value.",
+        "translation": "社会の成員であることは、市場価値より広い概念です。",
+        "comparison": "broader than"
+      },
+      "phase5": {
+        "sentence": "A market may include people while they can produce, buy, or attract attention, but social inclusion cannot depend entirely on whether they remain profitable",
+        "translation": "市場は、人々が生産し、購入し、または注目を集められる間は彼らを包摂することがあります。しかし、社会的包摂は、彼らが利益を生み続けるかどうかだけに依存してはなりません。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A market may include people",
+          "function": "行動",
+          "translation": "市場は人々を包摂することがあります"
+        },
+        {
+          "text": "while they can produce, buy,",
+          "function": "時間",
+          "translation": "彼らが生産し、購入できる間は"
+        },
+        {
+          "text": "or attract attention,",
+          "function": "接続",
+          "translation": "または注目を集められる間は"
+        },
+        {
+          "text": "but social inclusion cannot depend entirely",
+          "function": "接続",
+          "translation": "しかし社会的包摂は全面的に依存してはなりません"
+        },
+        {
+          "text": "on whether they remain profitable.",
+          "function": "内容",
+          "translation": "彼らが利益を生み続けるかどうかに"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "may + 動詞原形",
+          "where": "may include",
+          "explanation": "市場が包摂する場合があることを断定せず示す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "接続",
+          "name": "whileによる期間",
+          "where": "while they can produce",
+          "explanation": "市場参加能力が続く期間を表す。",
+          "rule": "while + 主語 + 動詞"
+        },
+        {
+          "category": "並列",
+          "name": "動詞の三項並列",
+          "where": "produce, buy, or attract",
+          "explanation": "三種類の市場価値を同じ形で並べる。",
+          "rule": "V1, V2, or V3"
+        },
+        {
+          "category": "助動詞",
+          "name": "cannot + 動詞原形",
+          "where": "cannot depend",
+          "explanation": "依存してはならないという制限を表す。",
+          "rule": "cannot + 動詞原形"
+        },
+        {
+          "category": "語法",
+          "name": "depend on",
+          "where": "depend entirely on",
+          "explanation": "何を条件として成り立つかを示す。",
+          "rule": "depend on + 名詞句"
+        },
+        {
+          "category": "名詞節",
+          "name": "whether節",
+          "where": "whether they remain profitable",
+          "explanation": "利益を生む状態が続くかどうかを表す。",
+          "rule": "whether + 主語 + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A market may includes people.",
+          "correct": "A market may include people.",
+          "why": "助動詞mayの後は動詞原形にする。"
+        },
+        {
+          "wrong": "depend entirely whether they remain profitable",
+          "correct": "depend entirely on whether they remain profitable",
+          "why": "dependは前置詞onを伴う。"
+        },
+        {
+          "wrong": "whether they remains profitable",
+          "correct": "whether they remain profitable",
+          "why": "複数主語theyにはremainを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "Market participation is one form of inclusion, not the whole of social membership.",
+          "translation": "市場参加は包摂の一形態であり、社会の成員であることのすべてではありません。"
+        },
+        {
+          "text": "A person does not lose social standing merely by losing purchasing power.",
+          "translation": "購買力を失っただけで、人が社会的地位まで失うわけではありません。"
+        },
+        {
+          "text": "Protection matters most when market recognition disappears.",
+          "translation": "市場からの承認が消えるときこそ、保護が最も重要になります。"
+        }
+      ],
+      "parseTree": "[S A market [VP may include people [Adv while they can produce, buy, or attract attention]]], but [S social inclusion [VP cannot depend entirely on [CP whether they remain profitable]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "may include people",
+          "expanded": "because production, purchasing, and attention can make participation valuable to the market",
+          "nuance": "市場内で包摂が生じる条件。"
+        },
+        {
+          "original": "cannot depend entirely",
+          "expanded": "since social membership includes needs and rights that are not measured by profitability",
+          "nuance": "市場価値だけでは不十分な理由。"
+        },
+        {
+          "original": "whether they remain profitable",
+          "expanded": "therefore, institutions should remain usable when a person loses market recognition",
+          "nuance": "市場外でも制度が必要になる帰結。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "People may be included by markets only while their participation remains profitable.",
+          "translation": "人々は、参加が利益を生む間だけ市場に包摂されることがあります。",
+          "note": "包摂される人を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Separating social membership from profitability, institutions can protect people beyond market participation.",
+          "translation": "社会の成員資格と収益性を分けることで、制度は市場参加の外側でも人を守れます。",
+          "note": "分離条件を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Dependence on profitability makes social inclusion conditional.",
+          "translation": "収益性への依存は、社会的包摂を条件付きにします。",
+          "note": "dependをdependenceへ名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "social inclusion",
+            "alternatives": [
+              "social membership",
+              "civic inclusion",
+              "participation in society"
+            ],
+            "nuance": "social inclusionは社会参加全般、civic inclusionは市民的制度への参加を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "条件付き包摂と規範",
+            "sentence": "X may include people while A, but B cannot depend entirely on whether C.",
+            "translation": "XはAの間は人々を包摂することがありますが、BはCかどうかだけに依存できません。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Social membership is more durable than market recognition.",
+            "translation": "社会の成員であることは、市場からの承認より持続的です。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If protection ends with profitability, the people who need it most may lose access first.",
+            "translation": "保護が収益性とともに終わるなら、それを最も必要とする人が先にアクセスを失う可能性があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What markets recognize is value in exchange, not the whole value of a person.",
+            "translation": "市場が認めるのは交換上の価値であり、人の価値のすべてではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Markets price; societies include.",
+            "translation": "市場は値を付け、社会は包摂します。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "whileとwhether節で市場内の条件付き包摂を示し、butで社会的包摂の規範へ転換した。三項並列のため効率性は8。"
+    }
+  },
+  {
+    "_no": 223,
+    "_generatedAt": "2026-11-28T02:00:00+09:00",
+    "sentence": "A hierarchy that preserves senior status by demanding loyalty from younger members may accelerate their exit, undermining the very base that keeps the hierarchy alive.",
+    "phonetic": "ア ハイアラーキー ザット プリザーヴズ シニア ステイタス バイ ディマンディング ロイヤルティ フロム ヤンガー メンバーズ メイ アクセラレイト ゼア エグジット、アンダーマイニング ザ ヴェリー ベイス ザット キープス ザ ハイアラーキー アライヴ。",
+    "japaneseTranslation": "若い構成員に忠誠を求めることで年長者の地位を保つ序列は、彼らの退出を早め、その序列を存続させる土台そのものを弱める可能性があります。",
+    "theme": "序列維持が若い構成員の退出を促す逆説",
+    "coreVerb": "undermine",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Pressure undermines the hierarchy.",
+        "translation": "圧力は序列を弱めます。"
+      },
+      "phase2": {
+        "sentence": "Loyalty pressure undermines the hierarchy over time.",
+        "translation": "忠誠を求める圧力は、時間とともに序列を弱めます。",
+        "addedChunks": "圧力の種類(loyalty pressure)と時間(over time)を追加"
+      },
+      "phase3": {
+        "sentence": "Seniority may preserve status, but pressure can drive younger members away.",
+        "translation": "年功は地位を保つことがありますが、圧力は若い構成員を遠ざけます。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Earned trust is more stable than demanded loyalty.",
+        "translation": "得られた信頼は、要求された忠誠より安定しています。",
+        "comparison": "more stable than"
+      },
+      "phase5": {
+        "sentence": "A hierarchy that preserves senior status by demanding loyalty from younger members may accelerate their exit, undermining the very base that keeps the hierarchy alive",
+        "translation": "若い構成員に忠誠を求めることで年長者の地位を保つ序列は、彼らの退出を早め、その序列を存続させる土台そのものを弱める可能性があります。",
+        "relativizer": "that"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "A hierarchy that preserves senior status",
+          "function": "修飾",
+          "translation": "年長者の地位を保つ序列は"
+        },
+        {
+          "text": "by demanding loyalty",
+          "function": "様態",
+          "translation": "忠誠を求めることで"
+        },
+        {
+          "text": "from younger members",
+          "function": "対象",
+          "translation": "若い構成員に"
+        },
+        {
+          "text": "may accelerate their exit,",
+          "function": "結果",
+          "translation": "彼らの退出を早める可能性があり"
+        },
+        {
+          "text": "undermining the very base",
+          "function": "結果",
+          "translation": "土台そのものを弱めます"
+        },
+        {
+          "text": "that keeps the hierarchy alive.",
+          "function": "修飾",
+          "translation": "その序列を存続させる"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "関係詞",
+          "name": "thatによる主語修飾",
+          "where": "hierarchy that preserves",
+          "explanation": "どのような序列かを後ろから説明する。",
+          "rule": "名詞 + that + 動詞"
+        },
+        {
+          "category": "手段",
+          "name": "by + -ing",
+          "where": "by demanding loyalty",
+          "explanation": "地位を保つ手段を示す。",
+          "rule": "by + 動名詞"
+        },
+        {
+          "category": "語法",
+          "name": "demand A from B",
+          "where": "demanding loyalty from younger members",
+          "explanation": "BにAを要求する関係を表す。",
+          "rule": "demand + 目的語 + from + 人"
+        },
+        {
+          "category": "助動詞",
+          "name": "may + 動詞原形",
+          "where": "may accelerate",
+          "explanation": "退出を早める可能性を示す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "分詞構文",
+          "name": "結果のundermining",
+          "where": "undermining the very base",
+          "explanation": "前の作用がもたらす結果を追加する。",
+          "rule": "主節, -ing句"
+        },
+        {
+          "category": "関係詞",
+          "name": "thatによるbase修飾",
+          "where": "base that keeps",
+          "explanation": "序列を存続させる土台を限定する。",
+          "rule": "名詞 + that + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "A hierarchy that preserve senior status",
+          "correct": "A hierarchy that preserves senior status",
+          "why": "先行詞hierarchyは単数なのでpreservesを使う。"
+        },
+        {
+          "wrong": "by demand loyalty",
+          "correct": "by demanding loyalty",
+          "why": "前置詞byの後は動名詞にする。"
+        },
+        {
+          "wrong": "may accelerates their exit",
+          "correct": "may accelerate their exit",
+          "why": "助動詞mayの後は動詞原形にする。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A status system can destroy itself when it makes continued membership too costly.",
+          "translation": "地位制度は、所属し続ける費用を高くしすぎると自壊することがあります。"
+        },
+        {
+          "text": "Respect that must be enforced is less stable than trust that is freely given.",
+          "translation": "強制しなければならない敬意は、自発的に与えられる信頼より不安定です。"
+        },
+        {
+          "text": "When younger members leave, seniority loses the audience and labor that sustain it.",
+          "translation": "若い構成員が去ると、年功序列はそれを支える受け手と労働力を失います。"
+        }
+      ],
+      "parseTree": "[S A hierarchy [Rel that preserves senior status [Adv by demanding loyalty from younger members]]] [VP may accelerate their exit], [Part undermining the very base [Rel that keeps the hierarchy alive]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "demanding loyalty",
+          "expanded": "because senior status is maintained through recognition and compliance from junior members",
+          "nuance": "地位維持が他者の承認に依存する構造。"
+        },
+        {
+          "original": "may accelerate their exit",
+          "expanded": "since pressure raises the cost of remaining inside the hierarchy",
+          "nuance": "退出が早まる理由。"
+        },
+        {
+          "original": "undermining the very base",
+          "expanded": "therefore, preserving status too aggressively can remove the people who reproduce that status",
+          "nuance": "地位維持が存立条件を壊す逆説。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Younger members may be driven out by loyalty demands that protect senior status.",
+          "translation": "若い構成員は、年長者の地位を守る忠誠要求によって退出へ追いやられることがあります。",
+          "note": "退出へ追いやられる側を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Demanding loyalty from younger members, the hierarchy weakens its own foundation.",
+          "translation": "若い構成員に忠誠を求めることで、序列は自らの土台を弱めます。",
+          "note": "原因となる行為を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The acceleration of exit threatens the reproduction of hierarchy.",
+          "translation": "退出の加速は、序列の再生産を脅かします。",
+          "note": "accelerateとreproduceを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "undermine",
+            "alternatives": [
+              "weaken",
+              "erode",
+              "destabilize"
+            ],
+            "nuance": "undermineは土台から弱める、erodeは徐々に損なう、destabilizeは安定を崩す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "自己破壊的維持",
+            "sentence": "A hierarchy that preserves A by doing B may accelerate C, undermining the base that keeps it alive.",
+            "translation": "BによってAを保つ序列はCを早め、それを存続させる土台を弱める可能性があります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Voluntary trust lasts longer than loyalty enforced by rank.",
+            "translation": "自発的な信頼は、地位で強制された忠誠より長く続きます。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If junior members can exit, excessive status demands may shrink the hierarchy.",
+            "translation": "後輩が退出できるなら、過剰な地位要求は序列を縮小させる可能性があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What preserves hierarchy is continued participation, not senior status alone.",
+            "translation": "序列を保つのは継続的な参加であり、年長者の地位だけではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Demand loyalty; invite exit.",
+            "translation": "忠誠を求めれば、退出を招きます。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "二つのthat節と結果の分詞構文で、地位維持が退出を通じて存立基盤を壊す逆説を表した。構造が重いため柔軟性と効率性は8。"
+    }
+  },
+  {
+    "_no": 224,
+    "_generatedAt": "2026-11-28T02:00:00+09:00",
+    "sentence": "Digital content can remain abundant while access is deliberately limited; in that case, scarcity is a sales rule rather than a physical shortage.",
+    "phonetic": "ディジタル コンテント キャン リメイン アバンダント ワイル アクセス イズ デリバレットリー リミテッド；イン ザット ケース、スケアシティ イズ ア セイルズ ルール ラザー ザン ア フィジカル ショーテッジ。",
+    "japaneseTranslation": "デジタルコンテンツは、アクセスが意図的に制限されていても豊富なままであり得ます。その場合の希少性は、物理的な不足ではなく販売上の規則です。",
+    "theme": "デジタル供給量とアクセス制限による希少性を分ける",
+    "coreVerb": "limit",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "A rule limits access.",
+        "translation": "規則がアクセスを制限します。"
+      },
+      "phase2": {
+        "sentence": "A sales rule limits access to digital content.",
+        "translation": "販売上の規則がデジタルコンテンツへのアクセスを制限します。",
+        "addedChunks": "規則の種類(sales)と対象(digital content)を追加"
+      },
+      "phase3": {
+        "sentence": "Content remains abundant, but access is limited.",
+        "translation": "コンテンツは豊富なままですが、アクセスは制限されます。",
+        "connector": "but"
+      },
+      "phase4": {
+        "sentence": "Access scarcity is more artificial than physical.",
+        "translation": "アクセスの希少性は、物理的というより人為的です。",
+        "comparison": "more artificial than physical"
+      },
+      "phase5": {
+        "sentence": "Digital content can remain abundant while access is deliberately limited; in that case, scarcity is a sales rule rather than a physical shortage",
+        "translation": "デジタルコンテンツは、アクセスが意図的に制限されていても豊富なままであり得ます。その場合の希少性は、物理的な不足ではなく販売上の規則です。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Digital content can remain abundant",
+          "function": "状態",
+          "translation": "デジタルコンテンツは豊富なままであり得ます"
+        },
+        {
+          "text": "while access is deliberately limited;",
+          "function": "接続",
+          "translation": "アクセスが意図的に制限されていても"
+        },
+        {
+          "text": "in that case,",
+          "function": "接続",
+          "translation": "その場合"
+        },
+        {
+          "text": "scarcity is a sales rule",
+          "function": "状態",
+          "translation": "希少性は販売上の規則です"
+        },
+        {
+          "text": "rather than a physical shortage.",
+          "function": "比較",
+          "translation": "物理的な不足ではなく"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can + 動詞原形",
+          "where": "can remain",
+          "explanation": "豊富な状態が続き得ることを示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "補語",
+          "name": "remain + 形容詞",
+          "where": "remain abundant",
+          "explanation": "豊富な状態が継続することを表す。",
+          "rule": "remain + 形容詞"
+        },
+        {
+          "category": "接続",
+          "name": "whileによる対照",
+          "where": "while access is deliberately limited",
+          "explanation": "供給の豊富さとアクセス制限を同時に対照する。",
+          "rule": "節 + while + 節"
+        },
+        {
+          "category": "受動態",
+          "name": "be + 過去分詞",
+          "where": "access is deliberately limited",
+          "explanation": "制限されるアクセスを主語にする。",
+          "rule": "be + 過去分詞"
+        },
+        {
+          "category": "句読法",
+          "name": "セミコロン",
+          "where": "limited; in that case",
+          "explanation": "観察とその解釈を独立節として結ぶ。",
+          "rule": "独立節; 独立節"
+        },
+        {
+          "category": "対比",
+          "name": "rather than",
+          "where": "rather than a physical shortage",
+          "explanation": "販売規則を物理的不足と区別する。",
+          "rule": "A rather than B"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Digital content can remains abundant.",
+          "correct": "Digital content can remain abundant.",
+          "why": "助動詞canの後は動詞原形にする。"
+        },
+        {
+          "wrong": "access is deliberately limit",
+          "correct": "access is deliberately limited",
+          "why": "受動態には過去分詞limitedを使う。"
+        },
+        {
+          "wrong": "rather then a physical shortage",
+          "correct": "rather than a physical shortage",
+          "why": "対比表現はrather thanであり、thenではない。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A limited viewing window restricts access without reducing the number of possible copies.",
+          "translation": "期間限定の視聴窓は、作成可能な複製数を減らさずにアクセスを制限します。"
+        },
+        {
+          "text": "Pay-per-view charges for permission to watch, not for a scarce physical object.",
+          "translation": "ペイ・パー・ビューが課金するのは視聴許可であり、希少な物体ではありません。"
+        },
+        {
+          "text": "Sellers can create access scarcity even when reproduction is inexpensive.",
+          "translation": "複製が安価でも、販売者はアクセスの希少性を作れます。"
+        }
+      ],
+      "parseTree": "[S Digital content [VP can remain abundant [Adv while access is deliberately limited]]]; [Adv in that case], [S scarcity [VP is a sales rule rather than a physical shortage]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "can remain abundant",
+          "expanded": "because digital copies can often be reproduced without consuming the original file",
+          "nuance": "供給が物理的に減りにくい理由。"
+        },
+        {
+          "original": "access is deliberately limited",
+          "expanded": "since contracts, time windows, or payment rules can control permission to view",
+          "nuance": "アクセス制限を作る手段。"
+        },
+        {
+          "original": "a sales rule rather than a physical shortage",
+          "expanded": "therefore, the price may reflect controlled access instead of material scarcity",
+          "nuance": "販売上の希少性の意味。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Access to abundant digital content can be limited by a sales rule.",
+          "translation": "豊富なデジタルコンテンツへのアクセスは、販売規則によって制限され得ます。",
+          "note": "制限されるアクセスを主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Limiting the viewing window, a seller can create access scarcity.",
+          "translation": "視聴期間を制限することで、販売者はアクセスの希少性を作れます。",
+          "note": "制限手段を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The restriction of access creates scarcity without a shortage of copies.",
+          "translation": "アクセスの制限は、複製の不足なしに希少性を作ります。",
+          "note": "restrictをrestrictionへ名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "scarcity",
+            "alternatives": [
+              "shortage",
+              "limited availability",
+              "restricted access"
+            ],
+            "nuance": "scarcityは広い希少性、shortageは供給不足、restricted accessは許可や規則による制限を表す。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "供給とアクセスの分離",
+            "sentence": "X can remain abundant while Y is limited; scarcity is A rather than B.",
+            "translation": "Xは豊富なままYが制限され得ます。希少性はBではなくAです。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Digital scarcity depends more on access rules than on material supply.",
+            "translation": "デジタルな希少性は、物質的供給よりアクセス規則に強く依存します。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If copying remains inexpensive, a limited release mainly restricts permission to view.",
+            "translation": "複製が安価なままなら、限定配信が主に制限するのは視聴許可です。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What is scarce is access, not necessarily the content itself.",
+            "translation": "希少なのはアクセスであって、必ずしもコンテンツ自体ではありません。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Copies abound; access is rationed.",
+            "translation": "複製は豊富でも、アクセスは配分されます。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "whileとrather thanで、デジタル供給の豊富さと販売規則によるアクセス希少性を簡潔に分離した。"
+    }
+  }
+]
