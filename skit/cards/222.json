@@ -1,0 +1,48 @@
+{
+  "id": "card-222",
+  "title": "No.222 市場の入場スタンプ（market / social inclusion）",
+  "scenes": [
+    {
+      "id": "222-open",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textRight" },
+        { "who": "pink", "say": "市場の入口です。produce、buy、attract attention のどれか見せてください" },
+        { "enter": "cat", "at": "textLeft" },
+        { "who": "pink", "say": "猫さん、購買力は？" },
+        { "who": "cat", "act": "sleep" },
+        { "who": "pink", "say": "寝顔で attention を獲得。入場です" }
+      ]
+    },
+    {
+      "id": "222-stamp",
+      "when": { "trigger": "idle", "after": 11 },
+      "steps": [
+        { "swarm": "pink", "count": 7, "every": 0.16, "at": "screen", "say": ["PROFITABLE", "まだ有用", "注目あり", "購入済み"] },
+        { "who": "pink", "say": "人に値札みたいなスタンプを押さない！", "style": "shout" },
+        { "who": "any", "say": "でも全員あなたです", "act": "wobble" },
+        { "who": "pink", "say": "社会的包摂の審査員を市場だけに任せない、が本題です" }
+      ]
+    },
+    {
+      "id": "222-after-close",
+      "when": { "trigger": "idle", "after": 25 },
+      "steps": [
+        { "who": "pink", "say": "市場、閉店でーす" },
+        { "who": "pink2", "move": "offRight", "sec": 1.2 },
+        { "who": "cat", "act": "poke" },
+        { "who": "pink", "say": "閉店しても社会から退場させない。そこ、whether節より大事" },
+        { "swarm": "pink", "count": 5, "every": 0.12, "say": ["残ります", "包摂します", "値札は外します"] }
+      ]
+    },
+    {
+      "id": "222-bye",
+      "when": { "trigger": "dismiss", "reason": "speechEnd" },
+      "steps": [
+        { "who": "any", "say": "利益は退場条件にしません。私たちは普通に退場します" },
+        { "wait": 1 },
+        { "exit": "all" }
+      ]
+    }
+  ]
+}
