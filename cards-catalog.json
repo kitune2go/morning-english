@@ -131,7 +131,8 @@
     "cards-extra-20261123.json",
     "cards-extra-20261124.json",
     "cards-extra-20261125.json",
-    "cards-extra-20261126.json"
+    "cards-extra-20261126.json",
+    "cards-extra-20261127.json"
   ],
   "cards": [
     {
@@ -1901,6 +1902,30 @@
       "theme": "にぎやかな画面と通信量への配慮を両立する",
       "_generatedAt": "2026-11-27T02:00:00+09:00",
       "_sourceFile": "cards-extra-20261126.json"
+    },
+    {
+      "_no": 222,
+      "sentence": "A market may include people while they can produce, buy, or attract attention, but social inclusion cannot depend entirely on whether they remain profitable.",
+      "coreVerb": "depend",
+      "theme": "市場への包摂と社会的包摂を分ける",
+      "_generatedAt": "2026-11-28T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261127.json"
+    },
+    {
+      "_no": 223,
+      "sentence": "A hierarchy that preserves senior status by demanding loyalty from younger members may accelerate their exit, undermining the very base that keeps the hierarchy alive.",
+      "coreVerb": "undermine",
+      "theme": "序列維持が若い構成員の退出を促す逆説",
+      "_generatedAt": "2026-11-28T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261127.json"
+    },
+    {
+      "_no": 224,
+      "sentence": "Digital content can remain abundant while access is deliberately limited; in that case, scarcity is a sales rule rather than a physical shortage.",
+      "coreVerb": "limit",
+      "theme": "デジタル供給量とアクセス制限による希少性を分ける",
+      "_generatedAt": "2026-11-28T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261127.json"
     }
   ]
 }
