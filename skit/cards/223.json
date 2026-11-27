@@ -1,0 +1,49 @@
+{
+  "id": "card-223",
+  "title": "No.223 忠誠を求める先輩会（hierarchy / exit）",
+  "scenes": [
+    {
+      "id": "223-open",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textTop" },
+        { "who": "pink", "say": "先輩なので、まず無条件の loyalty を要求します" },
+        { "enter": "pink2", "at": "textLeft", "flip": true },
+        { "who": "pink2", "say": "条件は『無条件』ですか" },
+        { "who": "pink", "say": "質問したので忠誠度マイナス1", "act": "bounce" }
+      ]
+    },
+    {
+      "id": "223-exit",
+      "when": { "trigger": "idle", "after": 10 },
+      "steps": [
+        { "swarm": "pink", "count": 8, "every": 0.15, "at": "screen", "say": ["先輩です", "敬って", "序列です", "忠誠まだ？"] },
+        { "who": "pink", "say": "若手が exit に向かって加速しています！", "style": "shout" },
+        { "who": "pink2", "move": "offRight", "sec": 1.1 },
+        { "who": "pink3", "move": "offLeft", "sec": 1.1 },
+        { "who": "pink", "say": "待って、土台まで退出しないで" }
+      ]
+    },
+    {
+      "id": "223-base",
+      "when": { "trigger": "idle", "after": 23 },
+      "steps": [
+        { "enter": "cat", "at": "textBottom" },
+        { "who": "cat", "act": "poke" },
+        { "who": "pink", "say": "that keeps the hierarchy alive。猫が土台を指しています" },
+        { "who": "cat", "move": "offLeft", "sec": 1.2 },
+        { "who": "pink", "say": "土台にも退出された！ demanding loyalty の逆効果です" },
+        { "who": "pink", "act": "wobble" }
+      ]
+    },
+    {
+      "id": "223-bye",
+      "when": { "trigger": "dismiss", "reason": "speechEnd" },
+      "steps": [
+        { "who": "any", "say": "先輩会は解散。退出経路は開けたままにします" },
+        { "wait": 1 },
+        { "exit": "all" }
+      ]
+    }
+  ]
+}
