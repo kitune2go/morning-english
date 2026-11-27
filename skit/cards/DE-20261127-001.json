@@ -1,0 +1,90 @@
+{
+  "id": "card-DE-20261127-001",
+  "title": "改札の内側だけ暖かい：朝の葬列",
+  "scenes": [
+    {
+      "id": "de-1127-001-open",
+      "when": {
+        "trigger": "cardOpen"
+      },
+      "steps": [
+        {
+          "enter": "pink",
+          "at": "textRight"
+        },
+        {
+          "who": "pink",
+          "say": "喪服ではありません。通勤服です"
+        },
+        {
+          "enter": "pink2",
+          "at": "textLeft",
+          "flip": true
+        },
+        {
+          "who": "pink2",
+          "say": "白いニット帽なので別の朝へ行きます",
+          "act": "hop"
+        },
+        {
+          "who": "pink",
+          "say": "行き先の想像力でマウントを取るな"
+        }
+      ]
+    },
+    {
+      "id": "de-1127-001-platform",
+      "when": {
+        "trigger": "idle",
+        "after": 11
+      },
+      "steps": [
+        {
+          "swarm": "pink",
+          "count": 9,
+          "every": 0.14,
+          "at": "textBottom",
+          "say": [
+            "ドア前です",
+            "無言です",
+            "スマホです",
+            "整列します"
+          ]
+        },
+        {
+          "enter": "cat",
+          "at": "offRight"
+        },
+        {
+          "who": "cat",
+          "move": "overText",
+          "sec": 1.5
+        },
+        {
+          "who": "cat",
+          "act": "spin"
+        },
+        {
+          "who": "pink2",
+          "say": "猫は旅行鞄の代役ではありません"
+        }
+      ]
+    },
+    {
+      "id": "de-1127-001-bye",
+      "when": {
+        "trigger": "dismiss",
+        "reason": "read"
+      },
+      "steps": [
+        {
+          "who": "any",
+          "say": "別の朝を想像してから退場します"
+        },
+        {
+          "exit": "all"
+        }
+      ]
+    }
+  ]
+}
