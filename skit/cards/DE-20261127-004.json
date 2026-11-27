@@ -1,0 +1,97 @@
+{
+  "id": "card-DE-20261127-004",
+  "title": "改札の内側だけ暖かい：売るための扉",
+  "scenes": [
+    {
+      "id": "de-1127-004-open",
+      "when": {
+        "trigger": "cardOpen"
+      },
+      "steps": [
+        {
+          "enter": "pink",
+          "at": "textRight"
+        },
+        {
+          "who": "pink",
+          "say": "この吹き出しはPPVです。読むたび課金します"
+        },
+        {
+          "enter": "pink2",
+          "at": "textLeft",
+          "flip": true
+        },
+        {
+          "who": "pink2",
+          "say": "でも同じ台詞は無限に複製できます",
+          "act": "bounce"
+        },
+        {
+          "who": "pink",
+          "say": "アクセス権だけ希少にするな"
+        }
+      ]
+    },
+    {
+      "id": "de-1127-004-gate",
+      "when": {
+        "trigger": "idle",
+        "after": 9
+      },
+      "steps": [
+        {
+          "swarm": "pink",
+          "count": 12,
+          "every": 0.09,
+          "at": "screen",
+          "say": [
+            "視聴権です",
+            "期間限定です",
+            "今だけです",
+            "入口はこちら"
+          ]
+        },
+        {
+          "who": "pink2",
+          "say": "希少だから有料？ 有料だから希少？"
+        },
+        {
+          "enter": "cat",
+          "at": "offLeft"
+        },
+        {
+          "who": "cat",
+          "move": "overText",
+          "sec": 1.4
+        },
+        {
+          "who": "cat",
+          "act": "wobble"
+        },
+        {
+          "who": "pink",
+          "say": "猫は改札を通らず画面を横切りました"
+        }
+      ]
+    },
+    {
+      "id": "de-1127-004-bye",
+      "when": {
+        "trigger": "dismiss",
+        "reason": "read"
+      },
+      "steps": [
+        {
+          "who": "any",
+          "say": "価格は作りました。価値の証明は別窓口です"
+        },
+        {
+          "wait": 0.8
+        },
+        {
+          "exit": "all"
+        }
+      ]
+    }
+  ]
+}
