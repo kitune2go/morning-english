@@ -1,0 +1,91 @@
+{
+  "id": "card-DE-20261127-002",
+  "title": "改札の内側だけ暖かい：包摂の温度",
+  "scenes": [
+    {
+      "id": "de-1127-002-open",
+      "when": {
+        "trigger": "cardOpen"
+      },
+      "steps": [
+        {
+          "enter": "pink",
+          "at": "textLeft"
+        },
+        {
+          "who": "pink",
+          "say": "市場の内側、あったか〜い"
+        },
+        {
+          "enter": "pink2",
+          "at": "textRight",
+          "flip": true
+        },
+        {
+          "who": "pink2",
+          "say": "本日の有用性パスを確認します",
+          "act": "poke"
+        },
+        {
+          "who": "pink",
+          "say": "人間の価値を改札で読むな",
+          "style": "shout"
+        }
+      ]
+    },
+    {
+      "id": "de-1127-002-expire",
+      "when": {
+        "trigger": "idle",
+        "after": 12
+      },
+      "steps": [
+        {
+          "swarm": "pink",
+          "count": 10,
+          "every": 0.12,
+          "at": "screen",
+          "say": [
+            "賃金あり",
+            "役職あり",
+            "顧客あり",
+            "評価更新中"
+          ]
+        },
+        {
+          "who": "pink2",
+          "say": "入口の管理者が変わりました。全員いったん外へ"
+        },
+        {
+          "enter": "cat",
+          "at": "offLeft"
+        },
+        {
+          "who": "cat",
+          "move": "edgeRight",
+          "sec": 1.7
+        },
+        {
+          "who": "pink",
+          "say": "猫だけ退出を敗北だと思ってない"
+        }
+      ]
+    },
+    {
+      "id": "de-1127-002-bye",
+      "when": {
+        "trigger": "dismiss",
+        "reason": "button"
+      },
+      "steps": [
+        {
+          "who": "any",
+          "say": "快さは返却、人の価値は持ち帰ります"
+        },
+        {
+          "exit": "all"
+        }
+      ]
+    }
+  ]
+}
