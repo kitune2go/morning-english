@@ -1,0 +1,95 @@
+{
+  "id": "card-DE-20261127-003",
+  "title": "改札の内側だけ暖かい：働く者への出口",
+  "scenes": [
+    {
+      "id": "de-1127-003-open",
+      "when": {
+        "trigger": "cardOpen"
+      },
+      "steps": [
+        {
+          "enter": "pink",
+          "at": "textRight"
+        },
+        {
+          "who": "pink",
+          "say": "勤勉は美徳！ 休まず本文を読んで！"
+        },
+        {
+          "enter": "pink2",
+          "at": "textTop",
+          "scale": 1.15
+        },
+        {
+          "who": "pink2",
+          "say": "私は資産所得がある設定なので休みます",
+          "act": "sleep"
+        },
+        {
+          "who": "pink",
+          "say": "設定だけで出口を独占するな",
+          "style": "shout"
+        }
+      ]
+    },
+    {
+      "id": "de-1127-003-owners",
+      "when": {
+        "trigger": "idle",
+        "after": 13
+      },
+      "steps": [
+        {
+          "swarm": "pink",
+          "count": 8,
+          "every": 0.15,
+          "at": "screen",
+          "say": [
+            "株式あります",
+            "家賃あります",
+            "休む権利あります",
+            "労働倫理は皆さまへ"
+          ]
+        },
+        {
+          "enter": "cat",
+          "at": "offRight"
+        },
+        {
+          "who": "cat",
+          "move": "textBottom",
+          "sec": 1.4
+        },
+        {
+          "who": "cat",
+          "act": "sleep"
+        },
+        {
+          "who": "pink",
+          "say": "猫は所有量ゼロでも休む権利を行使中"
+        }
+      ]
+    },
+    {
+      "id": "de-1127-003-bye",
+      "when": {
+        "trigger": "dismiss",
+        "reason": "speechEnd"
+      },
+      "steps": [
+        {
+          "who": "pink2",
+          "say": "退出は所有者専用口からどうぞ"
+        },
+        {
+          "who": "pink",
+          "say": "その出口を広げる話です"
+        },
+        {
+          "exit": "all"
+        }
+      ]
+    }
+  ]
+}
