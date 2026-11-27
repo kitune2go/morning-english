@@ -5,6 +5,11 @@
     "note": "本作品の文脈では「加速する」として用いる。"
   },
   {
+    "word": "according",
+    "ja": "〜に応じて",
+    "note": "according to ownership で所有に応じて。"
+  },
+  {
     "word": "accumulated",
     "ja": "蓄積した",
     "note": "本作品の文脈では「蓄積した」として用いる。"
@@ -63,6 +68,11 @@
     "word": "address",
     "ja": "アドレス・入口となる場所",
     "note": "この作品では固定URLが示す入口"
+  },
+  {
+    "word": "addresses",
+    "ja": "語りかける",
+    "note": "倫理が全員を対象に提示されること。"
   },
   {
     "word": "adjust",
@@ -570,6 +580,11 @@
     "note": "複数の条件が同時に成立すること"
   },
   {
+    "word": "comfort",
+    "ja": "安心感",
+    "note": "市場の内側にいることで得る快さ。"
+  },
+  {
     "word": "commercial-service",
     "ja": "商用サービスの",
     "note": "本作品の文脈では「商用サービスの」として用いる。"
@@ -663,6 +678,11 @@
     "word": "confront",
     "ja": "直面させる・向き合わせる",
     "note": "本文では条件が利用者に繰り返し現れること"
+  },
+  {
+    "word": "confusing",
+    "ja": "混同すること",
+    "note": "confuse A with B の動名詞形。"
   },
   {
     "word": "congestion",
@@ -1030,6 +1050,11 @@
     "note": "本作品の文脈では「差分」として用いる。"
   },
   {
+    "word": "diligence",
+    "ja": "勤勉",
+    "note": "働き続けることを美徳とする倫理。"
+  },
+  {
     "word": "directing",
     "ja": "演出の・方向づける",
     "note": "directing authority で演出権限"
@@ -1078,6 +1103,11 @@
     "word": "dividing",
     "ja": "分けること",
     "note": "仕事を測定可能な動作へ分けること。"
+  },
+  {
+    "word": "doors",
+    "ja": "ドア",
+    "note": "電車の乗降口。"
   },
   {
     "word": "drafted",
@@ -1258,6 +1288,11 @@
     "word": "estimated",
     "ja": "推定された",
     "note": "直接測定ではなく推定で得られた"
+  },
+  {
+    "word": "ethic",
+    "ja": "倫理",
+    "note": "work ethic で労働倫理。"
   },
   {
     "word": "evaluate",
@@ -1558,6 +1593,11 @@
     "word": "fully",
     "ja": "十分に",
     "note": "本作品の文脈では「十分に」として用いる。"
+  },
+  {
+    "word": "funeral",
+    "ja": "葬式の",
+    "note": "funeral procession で葬式の参列。"
   },
   {
     "word": "gaining",
@@ -1970,6 +2010,11 @@
     "note": "上限や基準について誰が判定主体かを示す。"
   },
   {
+    "word": "knit",
+    "ja": "編み物の",
+    "note": "knit cap でニット帽。"
+  },
+  {
     "word": "knot",
     "ja": "結び目",
     "note": "2026年11月22日の日次エッセイでは「結び目」の文脈で用いる。"
@@ -1993,6 +2038,11 @@
     "word": "large-scale",
     "ja": "大規模な",
     "note": "範囲や規模が大きいこと。"
+  },
+  {
+    "word": "lasts",
+    "ja": "続く",
+    "note": "市場への包摂が継続すること。"
   },
   {
     "word": "latest",
@@ -2025,6 +2075,11 @@
     "note": "重量計算の入力値"
   },
   {
+    "word": "lessons",
+    "ja": "教訓",
+    "note": "同じ社会が同時に与える相反する教え。"
+  },
+  {
     "word": "lexical",
     "ja": "語彙の",
     "note": "今回の作品では「語彙の」の文脈で用いる。"
@@ -2033,6 +2088,11 @@
     "word": "lighting-corrected",
     "ja": "照明補正済みの",
     "note": "今回の作品では「照明補正済みの」の文脈で用いる。"
+  },
+  {
+    "word": "lined",
+    "ja": "並んだ",
+    "note": "line up の過去形で整列したこと。"
   },
   {
     "word": "linked",
@@ -2320,6 +2380,16 @@
     "note": "通信回線が使用量の計測によって制限された状態。"
   },
   {
+    "word": "narrowly",
+    "ja": "狭く",
+    "note": "出口が限られた人だけに開くさま。"
+  },
+  {
+    "word": "nearly",
+    "ja": "ほとんど",
+    "note": "完全ではないが、その状態に近いこと。"
+  },
+  {
     "word": "needing",
     "ja": "必要とする",
     "note": "本作品の文脈では「必要とする」として用いる。"
@@ -2343,6 +2413,11 @@
     "word": "nine",
     "ja": "九",
     "note": "数量を表す"
+  },
+  {
+    "word": "noble",
+    "ja": "尊い",
+    "note": "労働に与えられる道徳的評価。"
   },
   {
     "word": "node",
@@ -2545,6 +2620,11 @@
     "note": "本作品では集会の参加者として数えられる人。"
   },
   {
+    "word": "participation",
+    "ja": "参加",
+    "note": "市場の内側にいること。"
+  },
+  {
     "word": "passages",
     "ja": "文章",
     "note": "日次エッセイの文脈では「文章」として用いる。"
@@ -2558,6 +2638,11 @@
     "word": "path",
     "ja": "経路",
     "note": "本作品の文脈では「経路」として用いる。"
+  },
+  {
+    "word": "pay-per-view",
+    "ja": "ペイ・パー・ビュー",
+    "note": "視聴ごとに料金を払う配信方式。"
   },
   {
     "word": "payday",
@@ -2600,9 +2685,19 @@
     "note": "線や印を付ける道具"
   },
   {
+    "word": "permitted",
+    "ja": "許される",
+    "note": "be permitted to で〜することを許される。"
+  },
+  {
     "word": "phone",
     "ja": "スマートフォン",
     "note": "今回の作品では「スマートフォン」の文脈で用いる。"
+  },
+  {
+    "word": "phones",
+    "ja": "スマートフォン",
+    "note": "their phones で各人が見ている端末。"
   },
   {
     "word": "pictured",
@@ -2660,6 +2755,11 @@
     "note": "本作品の文脈では「力」として用いる。"
   },
   {
+    "word": "praises",
+    "ja": "称賛する",
+    "note": "社会が勤勉を価値あるものとして扱う。"
+  },
+  {
     "word": "precisely",
     "ja": "まさに・正確に",
     "note": "precisely when で逆説が現れる時点を強調する。"
@@ -2713,6 +2813,11 @@
     "word": "process",
     "ja": "工程",
     "note": "本作品の文脈では「工程」として用いる。"
+  },
+  {
+    "word": "procession",
+    "ja": "参列",
+    "note": "列をなして進む人々。本作品では葬式の参列の比喩。"
   },
   {
     "word": "production",
@@ -2833,6 +2938,11 @@
     "word": "questioned",
     "ja": "問い直した",
     "note": "本作品の文脈では「問い直した」として用いる。"
+  },
+  {
+    "word": "queue",
+    "ja": "列",
+    "note": "ドア前に整列した通勤者の列。"
   },
   {
     "word": "quiet",
@@ -3043,6 +3153,11 @@
     "word": "rendered",
     "ja": "描画された",
     "note": "今回の作品では「描画された」の文脈で用いる。"
+  },
+  {
+    "word": "rent",
+    "ja": "家賃収入",
+    "note": "receive rent で所有物から家賃を受け取る。"
   },
   {
     "word": "reopen",
@@ -3290,6 +3405,11 @@
     "note": "日次エッセイの文脈では「〜になる」として用いる。"
   },
   {
+    "word": "sadness",
+    "ja": "悲しさ",
+    "note": "黒い列ではなく別の朝を想像しにくい側へ返される感情。"
+  },
+  {
     "word": "saleable",
     "ja": "販売可能な",
     "note": "作品名によって商品として売れる状態。"
@@ -3368,6 +3488,11 @@
     "word": "self-surveillance",
     "ja": "自己監視",
     "note": "自分の言動・状態を自ら監視すること"
+  },
+  {
+    "word": "sells",
+    "ja": "売る",
+    "note": "PPVがアクセス権を販売すること。"
   },
   {
     "word": "sense",
@@ -3483,6 +3608,11 @@
     "word": "simplify",
     "ja": "簡略化する",
     "note": "検査経路を短くする目的を表す。"
+  },
+  {
+    "word": "simultaneity",
+    "ja": "同時性",
+    "note": "生中継を同じ時刻に経験する価値。"
   },
   {
     "word": "site",
@@ -3680,6 +3810,11 @@
     "note": "本作品の文脈では「構造化された」として用いる。"
   },
   {
+    "word": "students",
+    "ja": "学生",
+    "note": "本作品では学生服を着た生徒。"
+  },
+  {
     "word": "stupid",
     "ja": "愚かな",
     "note": "makes people stupid という単純化された批判の表現。"
@@ -3698,6 +3833,16 @@
     "word": "suddenly",
     "ja": "急に",
     "note": "今回の作品では「急に」の文脈で用いる。"
+  },
+  {
+    "word": "suitcases",
+    "ja": "旅行鞄",
+    "note": "旅行者が待合室に置いた複数の鞄。"
+  },
+  {
+    "word": "suits",
+    "ja": "スーツ",
+    "note": "men in suits でスーツ姿の男性。"
   },
   {
     "word": "supporter",
@@ -3898,6 +4043,11 @@
     "word": "traffic-light",
     "ja": "信号機の",
     "note": "traffic-light diagram で信号機を使った条件図"
+  },
+  {
+    "word": "train",
+    "ja": "電車",
+    "note": "本作品では朝の通勤電車。"
   },
   {
     "word": "trained",
@@ -4150,6 +4300,11 @@
     "note": "本作品の文脈では「弱い立場の」として用いる。"
   },
   {
+    "word": "wages",
+    "ja": "賃金",
+    "note": "市場参加が続いている徴の一つ。"
+  },
+  {
     "word": "wanted",
     "ja": "求められていた",
     "note": "今回の作品では「求められていた」の文脈で用いる。"
@@ -4253,6 +4408,11 @@
     "word": "worlds",
     "ja": "世界（複数）",
     "note": "world の複数形。比喩的に異なる世界観を指すことも"
+  },
+  {
+    "word": "worth",
+    "ja": "価値",
+    "note": "proof of worth で価値の証明。"
   },
   {
     "word": "writer's",
