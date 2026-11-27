@@ -1,0 +1,48 @@
+{
+  "id": "card-224",
+  "title": "No.224 無限在庫の有料ゲート（abundant / limited access）",
+  "scenes": [
+    {
+      "id": "224-open",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textRight" },
+        { "who": "pink", "say": "デジタル在庫は abundant。入場券は限定3枚です" },
+        { "enter": "pink2", "at": "textLeft", "flip": true },
+        { "who": "pink2", "say": "私、複製できましたけど" },
+        { "who": "pink", "say": "コンテンツではなく access を絞っています。堂々と言うな私" }
+      ]
+    },
+    {
+      "id": "224-paywall",
+      "when": { "trigger": "idle", "after": 10 },
+      "steps": [
+        { "swarm": "pink", "count": 10, "every": 0.1, "at": "screen", "say": ["コピーです", "在庫です", "まだあります", "無限ではないけど多い"] },
+        { "who": "pink", "say": "増えすぎ！でもゲートは一人ずつ！", "style": "shout" },
+        { "who": "pink2", "say": "scarcity is a sales rule。販売規則が渋滞を作りました" },
+        { "who": "pink", "act": "shake" }
+      ]
+    },
+    {
+      "id": "224-rather-than",
+      "when": { "trigger": "idle", "after": 24 },
+      "steps": [
+        { "enter": "cat", "at": "offRight" },
+        { "who": "cat", "move": "overText", "sec": 1.3 },
+        { "who": "cat", "act": "poke" },
+        { "who": "pink", "say": "猫はゲートを通らず本文へ。physical shortage ではありません" },
+        { "swarm": "pink", "count": 6, "every": 0.12, "say": ["rather than！", "規則です", "アクセスです"] },
+        { "who": "pink", "say": "対比を六人で叫ぶ必要はありません" }
+      ]
+    },
+    {
+      "id": "224-bye",
+      "when": { "trigger": "dismiss", "reason": "speechEnd" },
+      "steps": [
+        { "who": "any", "say": "在庫は残して、出演者だけ品切れになります" },
+        { "wait": 1 },
+        { "exit": "all" }
+      ]
+    }
+  ]
+}
