@@ -54189,5 +54189,622 @@
         }
       ]
     }
+  ],
+  "DE-20261127-001": [
+    {
+      "words": {
+        "morning train": {
+          "ja": "朝の通勤電車"
+        },
+        "nearly all black": {
+          "ja": "ほとんど黒一色"
+        },
+        "train": {
+          "ja": "電車"
+        },
+        "nearly": {
+          "ja": "ほとんど"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The morning train was nearly all black.",
+          "pattern": "主語 + be動詞 + nearly all + 色",
+          "ja": "朝の電車はほとんど黒一色だった",
+          "note": "nearly が完全な黒一色という断定を避け、観察上の印象を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "men in suits": {
+          "ja": "スーツ姿の男性"
+        },
+        "students in uniform": {
+          "ja": "学生服の生徒"
+        },
+        "lined up": {
+          "ja": "整列した"
+        },
+        "at the doors": {
+          "ja": "ドア前に"
+        },
+        "their": {
+          "ja": "それぞれの"
+        },
+        "queue": {
+          "ja": "整列した列"
+        },
+        "resembled": {
+          "ja": "〜のように見えた"
+        },
+        "funeral procession": {
+          "ja": "葬式の参列"
+        },
+        "suits": {
+          "ja": "スーツ"
+        },
+        "students": {
+          "ja": "学生"
+        },
+        "lined": {
+          "ja": "並んだ"
+        },
+        "doors": {
+          "ja": "ドア"
+        },
+        "phones": {
+          "ja": "スマートフォン"
+        },
+        "funeral": {
+          "ja": "葬式の"
+        },
+        "procession": {
+          "ja": "参列"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the queue resembled a funeral procession",
+          "pattern": "resemble + 名詞",
+          "ja": "その列は葬式の参列のように見えた",
+          "note": "実際の葬式ではなく、黒い服と沈黙から生じた視覚的比喩。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "yet": {
+          "ja": "だが"
+        },
+        "waiting room": {
+          "ja": "待合室"
+        },
+        "two women": {
+          "ja": "女性二人"
+        },
+        "white knit caps": {
+          "ja": "白いニット帽"
+        },
+        "suitcases": {
+          "ja": "旅行鞄"
+        },
+        "research": {
+          "ja": "研究"
+        },
+        "nights on their travels": {
+          "ja": "旅先で過ごす夜"
+        },
+        "knit": {
+          "ja": "編み物の"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Yet in the waiting room",
+          "pattern": "Yet + 場所の前置詞句",
+          "ja": "だが待合室では",
+          "note": "黒い通勤の列から、白い帽子と旅行の会話がある場面へ転換する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "the train": {
+          "ja": "同じ車両"
+        },
+        "them all": {
+          "ja": "その場の全員"
+        },
+        "not toward": {
+          "ja": "〜へ向かうのではない"
+        },
+        "same imagined destination": {
+          "ja": "同じ想像上の行き先"
+        },
+        "train": {
+          "ja": "電車"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not toward the same imagined destination",
+          "pattern": "not + 前置詞句",
+          "ja": "同じ想像上の行き先へ向かっていたわけではない",
+          "note": "物理的に同じ列車へ乗ることと、思い描く行き先が同じことを分ける。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "sadness": {
+          "ja": "観察者が感じた悲しさ"
+        },
+        "lay": {
+          "ja": "〜にあった"
+        },
+        "less in": {
+          "ja": "〜そのものよりも小さく"
+        },
+        "than in": {
+          "ja": "むしろ〜に"
+        },
+        "how difficult": {
+          "ja": "どれほど難しくなったか"
+        },
+        "it": {
+          "ja": "別の朝を想像すること"
+        },
+        "another morning": {
+          "ja": "別のありうる朝"
+        }
+      },
+      "phrases": [
+        {
+          "en": "less in the color of the line than in how difficult it had become to imagine another morning",
+          "pattern": "less A than B",
+          "ja": "列の色そのものより、別の朝を想像する難しさに",
+          "note": "悲しさの原因を群衆から観察者側の想像力へ返す結論。"
+        }
+      ]
+    }
+  ],
+  "DE-20261127-002": [
+    {
+      "words": {
+        "remark": {
+          "ja": "「市場に包摂されている間だけ心地よい」という言葉"
+        },
+        "market inclusion": {
+          "ja": "市場への包摂"
+        },
+        "only while": {
+          "ja": "〜している間だけ"
+        },
+        "it": {
+          "ja": "市場への包摂"
+        },
+        "lasts": {
+          "ja": "続く"
+        },
+        "names": {
+          "ja": "言い当てる"
+        },
+        "that comfort": {
+          "ja": "その安心感"
+        },
+        "comfort": {
+          "ja": "安心感"
+        }
+      },
+      "phrases": [
+        {
+          "en": "only while it lasts",
+          "pattern": "only while + 主語 + 動詞",
+          "ja": "それが続いている間だけ",
+          "note": "市場への参加に伴う快さが無条件ではなく、継続期間に依存することを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "as long as": {
+          "ja": "〜が続くかぎり"
+        },
+        "wages": {
+          "ja": "賃金"
+        },
+        "positions": {
+          "ja": "役職"
+        },
+        "customers": {
+          "ja": "顧客"
+        },
+        "ratings": {
+          "ja": "評価"
+        },
+        "participation": {
+          "ja": "市場へ参加していること"
+        },
+        "proof of worth": {
+          "ja": "価値の証明"
+        },
+        "worth": {
+          "ja": "価値"
+        }
+      },
+      "phrases": [
+        {
+          "en": "participation can look like proof of worth",
+          "pattern": "can look like + 名詞",
+          "ja": "参加していることが価値の証明に見えうる",
+          "note": "参加資格と人間そのものの価値をまだ同一視せず、「見える」と限定する。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "but": {
+          "ja": "しかし"
+        },
+        "control of the entrance": {
+          "ja": "入口の管理権"
+        },
+        "changes": {
+          "ja": "変わる"
+        },
+        "even": {
+          "ja": "〜でさえ"
+        },
+        "yesterday's usefulness": {
+          "ja": "昨日までの有用さ"
+        },
+        "pushed outside": {
+          "ja": "外へ押し出される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "when control of the entrance changes",
+          "pattern": "when + 主語 + 動詞",
+          "ja": "入口の管理主体が変わると",
+          "note": "排除が本人の性質だけでなく入口を管理する側の変化で起こる条件を示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "comfort": {
+          "ja": "市場の内側にいる快さ"
+        },
+        "inside the market": {
+          "ja": "市場の内側"
+        },
+        "it": {
+          "ja": "市場内にいる快さ"
+        },
+        "person's value": {
+          "ja": "人そのものの価値"
+        },
+        "every exit": {
+          "ja": "あらゆる退出"
+        },
+        "defeat": {
+          "ja": "敗北"
+        },
+        "confusing": {
+          "ja": "混同すること"
+        }
+      },
+      "phrases": [
+        {
+          "en": "confusing it with a person’s value makes every exit look like defeat",
+          "pattern": "動名詞主語 + make + 目的語 + 補語",
+          "ja": "それを人の価値と混同すると、すべての退出が敗北に見える",
+          "note": "参加中の快さと人の価値の混同が、退出の意味を歪める因果。"
+        }
+      ]
+    }
+  ],
+  "DE-20261127-003": [
+    {
+      "words": {
+        "society": {
+          "ja": "勤労と所有を異なる規則で評価する社会"
+        },
+        "praises diligence": {
+          "ja": "勤勉を称賛する"
+        },
+        "while calling": {
+          "ja": "〜と呼ぶ一方で"
+        },
+        "freedom from work": {
+          "ja": "労働からの自由"
+        },
+        "through asset income": {
+          "ja": "資産所得によって"
+        },
+        "success": {
+          "ja": "成功"
+        },
+        "two lessons": {
+          "ja": "相反する二つの教訓"
+        },
+        "at once": {
+          "ja": "同時に"
+        },
+        "praises": {
+          "ja": "称賛する"
+        },
+        "diligence": {
+          "ja": "勤勉"
+        },
+        "lessons": {
+          "ja": "教訓"
+        }
+      },
+      "phrases": [
+        {
+          "en": "while calling freedom from work through asset income success",
+          "pattern": "while + 動名詞句",
+          "ja": "資産所得による労働からの自由を成功と呼ぶ一方で",
+          "note": "勤労の称賛と、所有者の労働離脱の称賛が同居することを示す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "work": {
+          "ja": "労働"
+        },
+        "noble": {
+          "ja": "尊い"
+        },
+        "yet": {
+          "ja": "それでも"
+        },
+        "only those who": {
+          "ja": "〜する者だけ"
+        },
+        "own enough": {
+          "ja": "十分な資産を所有する"
+        },
+        "permitted": {
+          "ja": "許される"
+        },
+        "it": {
+          "ja": "労働"
+        }
+      },
+      "phrases": [
+        {
+          "en": "only those who own enough are permitted to leave it",
+          "pattern": "only + those who + 受動態",
+          "ja": "十分に所有する者だけが労働を離れることを許される",
+          "note": "退出の条件が勤勉さではなく所有量に置かれる。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "problem": {
+          "ja": "問題の所在"
+        },
+        "not rest": {
+          "ja": "休息そのものではない"
+        },
+        "right to rest": {
+          "ja": "休む権利"
+        },
+        "distributed": {
+          "ja": "配られる"
+        },
+        "according to ownership": {
+          "ja": "所有に応じて"
+        },
+        "according": {
+          "ja": "〜に応じて"
+        }
+      },
+      "phrases": [
+        {
+          "en": "The problem is not rest; it is that the right to rest is distributed according to ownership.",
+          "pattern": "not A; it is that B",
+          "ja": "問題は休むことではなく、休む権利が所有に応じて配られることだ",
+          "note": "休息への道徳的非難を避け、権利の配分条件へ論点を移す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "work ethic": {
+          "ja": "労働倫理"
+        },
+        "addresses": {
+          "ja": "語りかける"
+        },
+        "everyone": {
+          "ja": "全員"
+        },
+        "its": {
+          "ja": "労働倫理が示す制度の"
+        },
+        "exit": {
+          "ja": "労働から離れる出口"
+        },
+        "narrowly": {
+          "ja": "狭く"
+        },
+        "those who": {
+          "ja": "〜する人々"
+        },
+        "shares": {
+          "ja": "株式"
+        },
+        "receive rent": {
+          "ja": "家賃収入を受け取る"
+        },
+        "ethic": {
+          "ja": "倫理"
+        },
+        "rent": {
+          "ja": "家賃収入"
+        }
+      },
+      "phrases": [
+        {
+          "en": "its exit opens narrowly for those who hold shares or receive rent",
+          "pattern": "those who + 動詞の並列",
+          "ja": "その出口は株式を持つ者や家賃を受け取る者に狭く開く",
+          "note": "全員向けの倫理と所有者に限られた出口を対比する。"
+        }
+      ]
+    }
+  ],
+  "DE-20261127-004": [
+    {
+      "words": {
+        "pay-per-view": {
+          "ja": "視聴ごとに料金を払う方式"
+        },
+        "not": {
+          "ja": "〜ではなく"
+        },
+        "piece": {
+          "ja": "一部"
+        },
+        "reproducible video": {
+          "ja": "複製可能な映像"
+        },
+        "but": {
+          "ja": "〜ではなく"
+        },
+        "right to open": {
+          "ja": "開く権利"
+        },
+        "door": {
+          "ja": "アクセスの扉"
+        },
+        "set time": {
+          "ja": "決められた時間"
+        },
+        "sells": {
+          "ja": "売る"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the right to open a door at a set time, not a piece of a reproducible video",
+          "pattern": "A, not B",
+          "ja": "決められた時間に扉を開ける権利であり、複製可能な映像の一部ではない",
+          "note": "PPVの販売対象をコンテンツそのものから時間付きアクセス権へ移す。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "simultaneity": {
+          "ja": "同時性"
+        },
+        "unknown outcome": {
+          "ja": "まだ分からない結果"
+        },
+        "recorded work": {
+          "ja": "保存済みの作品"
+        },
+        "presented as if": {
+          "ja": "あたかも〜であるかのように提示される"
+        },
+        "as if": {
+          "ja": "あたかも〜であるかのように"
+        },
+        "supply": {
+          "ja": "供給"
+        },
+        "scarcity": {
+          "ja": "希少性"
+        },
+        "at the entrance": {
+          "ja": "アクセスの入口に"
+        },
+        "rather than": {
+          "ja": "〜ではなく"
+        },
+        "within the work": {
+          "ja": "作品そのものの内側に"
+        },
+        "live broadcast": {
+          "ja": "生中継"
+        }
+      },
+      "phrases": [
+        {
+          "en": "scarcity is created at the entrance rather than within the work",
+          "pattern": "A rather than B",
+          "ja": "希少性は作品内ではなく入口に作られる",
+          "note": "複製可能な作品と、販売者が制限できるアクセス権を分ける。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "it": {
+          "ja": "対象となる作品やアクセス"
+        },
+        "paid": {
+          "ja": "有料の"
+        },
+        "because": {
+          "ja": "〜だから"
+        },
+        "scarce": {
+          "ja": "希少な"
+        },
+        "made to look": {
+          "ja": "〜に見せられる"
+        },
+        "so that": {
+          "ja": "〜するために"
+        },
+        "sold": {
+          "ja": "販売される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Is it paid because it is scarce, or made to look scarce so that it can be sold?",
+          "pattern": "because A, or ... so that B",
+          "ja": "希少だから有料なのか、売るために希少に見せるのか",
+          "note": "希少性が価格の原因なのか、価格を作るための演出なのかを問う。"
+        }
+      ]
+    },
+    {
+      "words": {
+        "gate": {
+          "ja": "有料アクセスの改札"
+        },
+        "create a price": {
+          "ja": "価格を作る"
+        },
+        "it": {
+          "ja": "その改札"
+        },
+        "cannot prove": {
+          "ja": "証明できない"
+        },
+        "value beyond it": {
+          "ja": "改札の先にある作品の価値"
+        }
+      },
+      "phrases": [
+        {
+          "en": "A gate can create a price, but it cannot prove the value beyond it.",
+          "pattern": "can A, but cannot B",
+          "ja": "改札は価格を作れても、その先の価値は証明できない",
+          "note": "排除可能性が価格を成立させても、作品価値の証明にはならないという余韻。"
+        }
+      ]
+    }
   ]
 }
