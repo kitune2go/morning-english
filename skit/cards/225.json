@@ -1,0 +1,37 @@
+{
+  "id": "card-225",
+  "title": "No.225 将来世代へ回る請求書",
+  "scenes": [
+    {
+      "id": "225-open",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textRight" },
+        { "who": "pink", "say": "便益は保存しました。請求書はfuture generationへ転送します" },
+        { "enter": "cat", "at": "textLeft" },
+        { "who": "pink", "say": "猫さん、決定会議には？" },
+        { "who": "cat", "act": "sleep" },
+        { "who": "pink", "say": "不参加なのに支払担当です。時間差が強い" }
+      ]
+    },
+    {
+      "id": "225-bill",
+      "when": { "trigger": "idle", "after": 11 },
+      "steps": [
+        { "swarm": "pink", "count": 8, "every": 0.12, "at": "screen", "say": ["決めました", "払いません", "未来へ", "preserve！"] },
+        { "who": "pink", "say": "決める人と払う人を分身で分離するな！", "style": "shout" },
+        { "who": "any", "say": "でも全員あなたです", "act": "wobble" },
+        { "who": "pink", "say": "だから制度では世代をまたぐ監査が必要です" }
+      ]
+    },
+    {
+      "id": "225-bye",
+      "when": { "trigger": "dismiss", "reason": "speechEnd" },
+      "steps": [
+        { "who": "any", "say": "出演料は次世代へ回さず、今ここで精算してください" },
+        { "wait": 1 },
+        { "exit": "all" }
+      ]
+    }
+  ]
+}
