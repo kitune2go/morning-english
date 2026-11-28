@@ -1,0 +1,710 @@
+[
+  {
+    "_no": 225,
+    "_generatedAt": "2026-11-29T02:00:00+09:00",
+    "sentence": "Institutions can preserve benefits created under favorable demographics while shifting their long-term costs to a smaller future generation, widening the gap between those who decide and those who pay.",
+    "phonetic": "インスティテューションズ キャン プリザーヴ ベネフィッツ クリエイテッド アンダー フェイヴァラブル デモグラフィックス ワイル シフティング ゼア ロングターム コスツ トゥ ア スモーラー フューチャー ジェネレーション、ワイドニング ザ ギャップ ビトウィーン ゾウズ フー ディサイド アンド ゾウズ フー ペイ。",
+    "japaneseTranslation": "制度は、人口構成が有利だった時期に作られた便益を維持しながら、長期的な費用をより小さな将来世代へ移し、決める人と支払う人の隔たりを広げることがあります。",
+    "theme": "制度の便益と将来世代への費用移転を捉える",
+    "coreVerb": "shift",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Institutions shift costs.",
+        "translation": "制度は費用を移します。"
+      },
+      "phase2": {
+        "sentence": "Institutions shift long-term costs to future generations.",
+        "translation": "制度は長期的な費用を将来世代へ移します。",
+        "addedChunks": "時間(long-term)と移転先(to future generations)を追加"
+      },
+      "phase3": {
+        "sentence": "Current members receive benefits, while future members bear costs.",
+        "translation": "現在の構成員が便益を受ける一方、将来の構成員が費用を負担します。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "A smaller generation may bear more cost per person than a larger one.",
+        "translation": "小さい世代は、大きい世代より一人当たり多くの費用を負担する可能性があります。",
+        "comparison": "more cost per person than"
+      },
+      "phase5": {
+        "sentence": "Institutions can preserve benefits created under favorable demographics while shifting their long-term costs to a smaller future generation, widening the gap between those who decide and those who pay",
+        "translation": "制度は、人口構成が有利だった時期に作られた便益を維持しながら、長期的な費用をより小さな将来世代へ移し、決める人と支払う人の隔たりを広げることがあります。",
+        "relativizer": "who"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Institutions can preserve benefits",
+          "function": "行動",
+          "translation": "制度は便益を維持することがあります"
+        },
+        {
+          "text": "created under favorable demographics",
+          "function": "修飾",
+          "translation": "人口構成が有利だった時期に作られた"
+        },
+        {
+          "text": "while shifting their long-term costs",
+          "function": "接続",
+          "translation": "長期的な費用を移しながら"
+        },
+        {
+          "text": "to a smaller future generation,",
+          "function": "対象",
+          "translation": "より小さな将来世代へ"
+        },
+        {
+          "text": "widening the gap",
+          "function": "結果",
+          "translation": "隔たりを広げます"
+        },
+        {
+          "text": "between those who decide and those who pay.",
+          "function": "比較",
+          "translation": "決める人と支払う人の間の"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "can + 動詞原形",
+          "where": "can preserve",
+          "explanation": "制度が便益を維持し得ることを示す。",
+          "rule": "can + 動詞原形"
+        },
+        {
+          "category": "分詞",
+          "name": "過去分詞による後置修飾",
+          "where": "benefits created under favorable demographics",
+          "explanation": "どのような便益かをcreated以下で説明する。",
+          "rule": "名詞 + 過去分詞句"
+        },
+        {
+          "category": "接続",
+          "name": "while + -ing",
+          "where": "while shifting",
+          "explanation": "便益維持と費用移転が同時に進むことを示す。",
+          "rule": "while + 現在分詞"
+        },
+        {
+          "category": "語法",
+          "name": "shift A to B",
+          "where": "shifting their long-term costs to",
+          "explanation": "費用Aを世代Bへ移す関係を表す。",
+          "rule": "shift + 目的語 + to + 移転先"
+        },
+        {
+          "category": "分詞構文",
+          "name": "結果のwidening",
+          "where": "widening the gap",
+          "explanation": "前の作用によって隔たりが広がる結果を示す。",
+          "rule": "主節, -ing句"
+        },
+        {
+          "category": "関係詞",
+          "name": "whoによるthoseの修飾",
+          "where": "those who decide / those who pay",
+          "explanation": "決定者と負担者を人の役割で区別する。",
+          "rule": "those who + 動詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Institutions can preserves benefits.",
+          "correct": "Institutions can preserve benefits.",
+          "why": "助動詞canの後は動詞原形にする。"
+        },
+        {
+          "wrong": "while shift their long-term costs",
+          "correct": "while shifting their long-term costs",
+          "why": "省略されたwhile節では現在分詞を使う。"
+        },
+        {
+          "wrong": "between those who decides and those who pay",
+          "correct": "between those who decide and those who pay",
+          "why": "先行詞thoseは複数なのでdecideを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A policy can outlive the demographic conditions that originally supported it.",
+          "translation": "政策は、それを当初支えた人口条件より長く存続することがあります。"
+        },
+        {
+          "text": "Future taxpayers may inherit obligations they did not help design.",
+          "translation": "将来の納税者は、自分たちが設計に関与していない義務を引き継ぐ可能性があります。"
+        },
+        {
+          "text": "Long-lived institutions need rules for reviewing how costs are shared across generations.",
+          "translation": "長く続く制度には、世代間の費用分担を見直す規則が必要です。"
+        }
+      ],
+      "parseTree": "[S Institutions [VP can preserve benefits [Part created under favorable demographics] [Adv while shifting their long-term costs to a smaller future generation]]], [Part widening the gap between those [Rel who decide] and those [Rel who pay]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "preserve benefits",
+          "expanded": "because institutions often continue after the demographic conditions that supported their creation have changed",
+          "nuance": "制度が前提条件より長く残る理由。"
+        },
+        {
+          "original": "shift their long-term costs",
+          "expanded": "since later cohorts may inherit obligations without participating in the original decision",
+          "nuance": "費用移転が生じる仕組み。"
+        },
+        {
+          "original": "widening the gap",
+          "expanded": "therefore, periodic review is needed to reconnect decision-making with responsibility for payment",
+          "nuance": "見直しが必要になる帰結。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "Long-term costs can be shifted to a smaller future generation while earlier benefits are preserved.",
+          "translation": "以前の便益が維持される一方、長期的費用はより小さな将来世代へ移されることがあります。",
+          "note": "移される費用を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Preserving earlier benefits, institutions may transfer growing obligations to later cohorts.",
+          "translation": "以前の便益を維持しながら、制度は増大する義務を後の世代へ移すことがあります。",
+          "note": "便益維持を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The transfer of costs creates a separation between decision and payment.",
+          "translation": "費用の移転は、決定と支払いの分離を生みます。",
+          "note": "shiftをtransferという名詞へ置き換える。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "shift costs",
+            "alternatives": [
+              "transfer burdens",
+              "pass on obligations",
+              "externalize costs"
+            ],
+            "nuance": "shift costsは費用移転一般、pass on obligationsは義務の継承、externalize costsは負担を外部へ押し出すことを強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "便益維持と費用移転",
+            "sentence": "X can preserve A while shifting B to C, widening the gap between D and E.",
+            "translation": "XはAを維持しながらBをCへ移し、DとEの隔たりを広げることがあります。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A smaller cohort may face a heavier per-person burden than the generation that designed the system.",
+            "translation": "小さい世代は、制度を設計した世代より重い一人当たり負担に直面する可能性があります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If institutions are not reviewed, outdated assumptions can determine future obligations.",
+            "translation": "制度が見直されなければ、古い前提が将来の義務を決めかねません。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What is transferred is not only money but also responsibility for choices made earlier.",
+            "translation": "移転されるのは金銭だけでなく、以前の選択に対する責任でもあります。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Earlier choices, later bills.",
+            "translation": "以前の選択、後から来る請求。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 8,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "二つの分詞句と二つのwho節で制度の時間差を明示した。役割関係が多いため柔軟性と効率性は8。"
+    }
+  },
+  {
+    "_no": 226,
+    "_generatedAt": "2026-11-29T02:00:00+09:00",
+    "sentence": "Care for elderly parents may be harder to divide when families have fewer siblings, lifespans are longer, and inherited property provides less compensation than it once did.",
+    "phonetic": "ケア フォー エルダリー ペアレンツ メイ ビー ハーダー トゥ ディヴァイド ウェン ファミリーズ ハヴ フューアー シブリングズ、ライフスパンズ アー ロンガー、アンド インヘリテッド プロパティ プロヴァイズ レス コンペンセイション ザン イット ワンス ディド。",
+    "japaneseTranslation": "高齢の親の扶養は、きょうだいが少なく、寿命が長く、相続財産による補償も以前ほど大きくない場合、分担することがより難しくなり得ます。",
+    "theme": "親扶養の負担を人数・期間・相続条件から考える",
+    "coreVerb": "divide",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Families divide care.",
+        "translation": "家族は扶養を分担します。"
+      },
+      "phase2": {
+        "sentence": "Families divide long-term care among siblings.",
+        "translation": "家族は長期の扶養をきょうだい間で分担します。",
+        "addedChunks": "期間(long-term)と分担範囲(among siblings)を追加"
+      },
+      "phase3": {
+        "sentence": "Care lasts longer, while fewer siblings share it.",
+        "translation": "扶養期間は長くなる一方、分担するきょうだいは少なくなります。",
+        "connector": "while"
+      },
+      "phase4": {
+        "sentence": "The burden may be harder to divide than it was before.",
+        "translation": "その負担は以前より分担しにくい可能性があります。",
+        "comparison": "harder to divide than"
+      },
+      "phase5": {
+        "sentence": "Care for elderly parents may be harder to divide when families have fewer siblings, lifespans are longer, and inherited property provides less compensation than it once did",
+        "translation": "高齢の親の扶養は、きょうだいが少なく、寿命が長く、相続財産による補償も以前ほど大きくない場合、分担することがより難しくなり得ます。",
+        "relativizer": "when"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "Care for elderly parents",
+          "function": "対象",
+          "translation": "高齢の親の扶養は"
+        },
+        {
+          "text": "may be harder to divide",
+          "function": "比較",
+          "translation": "分担することがより難しくなり得ます"
+        },
+        {
+          "text": "when families have fewer siblings,",
+          "function": "時間",
+          "translation": "家族のきょうだいが少ない場合"
+        },
+        {
+          "text": "lifespans are longer,",
+          "function": "状態",
+          "translation": "寿命が長く"
+        },
+        {
+          "text": "and inherited property offers less compensation",
+          "function": "接続",
+          "translation": "相続財産による補償も小さく"
+        },
+        {
+          "text": "than it once did.",
+          "function": "比較",
+          "translation": "以前よりも"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "助動詞",
+          "name": "may + 動詞原形",
+          "where": "may be",
+          "explanation": "負担増を一律の事実とせず可能性として示す。",
+          "rule": "may + 動詞原形"
+        },
+        {
+          "category": "比較",
+          "name": "harder to + 動詞",
+          "where": "harder to divide",
+          "explanation": "分担の難しさが増すことを示す。",
+          "rule": "比較級 + to不定詞"
+        },
+        {
+          "category": "関係詞",
+          "name": "whenによる条件提示",
+          "where": "when families have fewer siblings",
+          "explanation": "負担を分けにくくする条件を導く。",
+          "rule": "when + 主語 + 動詞"
+        },
+        {
+          "category": "並列",
+          "name": "三つの条件の並列",
+          "where": "fewer siblings, lifespans are longer, and ...",
+          "explanation": "人数・期間・相続条件を並べる。",
+          "rule": "A, B, and C"
+        },
+        {
+          "category": "比較",
+          "name": "less + 名詞 + than",
+          "where": "less compensation than",
+          "explanation": "補償が以前より小さいことを表す。",
+          "rule": "less + 不可算名詞 + than"
+        },
+        {
+          "category": "代動詞",
+          "name": "didによる反復回避",
+          "where": "than it once did",
+          "explanation": "provides compensationの繰り返しをdidで避ける。",
+          "rule": "than + 主語 + did"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "Care may be harder dividing.",
+          "correct": "Care may be harder to divide.",
+          "why": "harderの後はto不定詞で難しさの対象を示す。"
+        },
+        {
+          "wrong": "families has fewer siblings",
+          "correct": "families have fewer siblings",
+          "why": "複数主語familiesにはhaveを使う。"
+        },
+        {
+          "wrong": "less compensations than before",
+          "correct": "less compensation than before",
+          "why": "compensationはここでは不可算名詞として使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "A longer period of care can place more pressure on each available caregiver.",
+          "translation": "扶養期間が長いと、各介護者への圧力が大きくなることがあります。"
+        },
+        {
+          "text": "Fewer siblings leave fewer people among whom the burden can be divided.",
+          "translation": "きょうだいが少なければ、負担を分けられる人数も少なくなります。"
+        },
+        {
+          "text": "Inheritance does not always offset the time and money required for care.",
+          "translation": "相続が扶養に必要な時間と費用を常に相殺するとは限りません。"
+        }
+      ],
+      "parseTree": "[S Care for elderly parents [VP may be harder to divide [Adv when families have fewer siblings, lifespans are longer, and inherited property offers less compensation than it once did]]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "harder to divide",
+          "expanded": "because fewer siblings leave fewer people available to share the work and cost",
+          "nuance": "分担人数が減る影響。"
+        },
+        {
+          "original": "lifespans are longer",
+          "expanded": "since a longer period of dependency can increase the total time required for care",
+          "nuance": "扶養期間が延びる影響。"
+        },
+        {
+          "original": "less compensation",
+          "expanded": "therefore, inherited assets may offset less of the burden than they did in some earlier family arrangements",
+          "nuance": "相続条件が変わる帰結。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The care burden may be shared by fewer siblings over a longer period.",
+          "translation": "扶養負担は、より長い期間にわたり、より少ないきょうだいで分けられる可能性があります。",
+          "note": "分担される負担を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Facing longer periods of care, smaller families may find the burden harder to divide.",
+          "translation": "より長い扶養期間に直面し、小さい家族は負担を分けにくいと感じる可能性があります。",
+          "note": "直面する条件を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "The reduction in siblings can increase the concentration of caregiving responsibility.",
+          "translation": "きょうだい数の減少は、扶養責任の集中を強めることがあります。",
+          "note": "reduceとconcentrateを名詞化する。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "divide care",
+            "alternatives": [
+              "share caregiving",
+              "distribute responsibility",
+              "split the burden"
+            ],
+            "nuance": "share caregivingは作業分担、distribute responsibilityは責任配分、split the burdenは負担の分割を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "複合条件",
+            "sentence": "A may be harder to B when C, D, and E.",
+            "translation": "C・D・Eの場合、AをBすることはより難しくなり得ます。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "A long care period can be harder to share than a short one, especially in a small family.",
+            "translation": "長い扶養期間は、特に小さい家族では短い期間より分担しにくいことがあります。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If one caregiver must bear most of the work, family support can become fragile.",
+            "translation": "一人の介護者が大半を担わなければならないなら、家族の支援は不安定になり得ます。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What matters is not only the total burden but also how many people can share it.",
+            "translation": "重要なのは負担総額だけでなく、何人で分担できるかでもあります。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Fewer siblings, longer care.",
+            "translation": "きょうだいは少なく、扶養は長く。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 8,
+      "comment": "when節内に人数・期間・相続の三条件を並べ、負担分担の変化を断定しすぎず表した。条件が多いため効率性は8。"
+    }
+  },
+  {
+    "_no": 227,
+    "_generatedAt": "2026-11-29T02:00:00+09:00",
+    "sentence": "If someone wants to be heard, paying for the listener’s time treats attention as labor, whereas charging the listener treats the speaker’s performance as the service.",
+    "phonetic": "イフ サムワン ウォンツ トゥ ビー ハード、ペイイング フォー ザ リスナーズ タイム トリーツ アテンション アズ レイバー、ウェアアズ チャージング ザ リスナー トリーツ ザ スピーカーズ パフォーマンス アズ ザ サービス。",
+    "japaneseTranslation": "誰かが自分の話を聞いてほしいなら、聞き手の時間に対価を払うことは注意を労働として扱います。一方、聞き手に料金を請求することは、話し手の演目をサービスとして扱います。",
+    "theme": "聞いてほしい需要と聞きたい需要の対価を区別する",
+    "coreVerb": "treat",
+    "generateLayer": {
+      "phase1": {
+        "sentence": "Payment defines the service.",
+        "translation": "支払いがサービスを定義します。"
+      },
+      "phase2": {
+        "sentence": "Payment defines whose time is being purchased.",
+        "translation": "支払いは、誰の時間が購入されているかを定義します。",
+        "addedChunks": "購入対象(whose time)を追加"
+      },
+      "phase3": {
+        "sentence": "A listener may provide attention, whereas a performer provides a show.",
+        "translation": "聞き手は注意を提供することがあり、一方で演者は演目を提供します。",
+        "connector": "whereas"
+      },
+      "phase4": {
+        "sentence": "Listening on request is closer to paid labor than to buying entertainment.",
+        "translation": "依頼されて聞くことは、娯楽を買うことより有償労働に近いものです。",
+        "comparison": "closer to A than to B"
+      },
+      "phase5": {
+        "sentence": "If someone wants to be heard, paying for the listener’s time treats attention as labor, whereas charging the listener treats the speaker’s performance as the service",
+        "translation": "誰かが自分の話を聞いてほしいなら、聞き手の時間に対価を払うことは注意を労働として扱います。一方、聞き手に料金を請求することは、話し手の演目をサービスとして扱います。",
+        "relativizer": "none"
+      }
+    },
+    "explainLayer": {
+      "chunks": [
+        {
+          "text": "If someone wants to be heard,",
+          "function": "理由",
+          "translation": "誰かが自分の話を聞いてほしいなら"
+        },
+        {
+          "text": "paying for the listener’s time",
+          "function": "行動",
+          "translation": "聞き手の時間に対価を払うことは"
+        },
+        {
+          "text": "treats attention as labor,",
+          "function": "内容",
+          "translation": "注意を労働として扱います"
+        },
+        {
+          "text": "whereas charging the listener",
+          "function": "接続",
+          "translation": "一方、聞き手に料金を請求することは"
+        },
+        {
+          "text": "treats the speaker’s performance",
+          "function": "行動",
+          "translation": "話し手の演目を扱います"
+        },
+        {
+          "text": "as the service.",
+          "function": "内容",
+          "translation": "サービスとして"
+        }
+      ],
+      "grammarPoints": [
+        {
+          "category": "条件",
+          "name": "if節",
+          "where": "If someone wants to be heard",
+          "explanation": "話し手側に聞いてもらう需要がある条件を示す。",
+          "rule": "If + 主語 + 動詞"
+        },
+        {
+          "category": "受動態",
+          "name": "want to be + 過去分詞",
+          "where": "wants to be heard",
+          "explanation": "話を聞かれることを望むと表す。",
+          "rule": "want to be + 過去分詞"
+        },
+        {
+          "category": "動名詞",
+          "name": "動名詞主語",
+          "where": "paying for the listener’s time",
+          "explanation": "支払う行為全体を主語にする。",
+          "rule": "動名詞句 + 単数動詞"
+        },
+        {
+          "category": "語法",
+          "name": "treat A as B",
+          "where": "treats attention as labor",
+          "explanation": "注意を労働として位置づける。",
+          "rule": "treat + 目的語 + as + 補語"
+        },
+        {
+          "category": "接続",
+          "name": "whereasによる対照",
+          "where": "whereas charging the listener",
+          "explanation": "支払う相手が逆の場合を対照する。",
+          "rule": "節, whereas 節"
+        },
+        {
+          "category": "所有格",
+          "name": "人を表す所有格",
+          "where": "listener’s time / speaker’s performance",
+          "explanation": "時間と演目の提供主体を明確にする。",
+          "rule": "名詞’s + 名詞"
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "wants to heard",
+          "correct": "wants to be heard",
+          "why": "聞かれるという受動の意味にはbe + 過去分詞が必要。"
+        },
+        {
+          "wrong": "paying for the listener’s time treat attention",
+          "correct": "paying for the listener’s time treats attention",
+          "why": "動名詞句主語は単数扱いなのでtreatsを使う。"
+        },
+        {
+          "wrong": "treats attention like labor",
+          "correct": "treats attention as labor",
+          "why": "役割として位置づける場合はtreat A as Bを使う。"
+        }
+      ],
+      "variants": [
+        {
+          "text": "When the speaker seeks an audience, the listener may be the person providing the service.",
+          "translation": "話し手が聴衆を求めるときは、聞き手がサービスの提供者である場合があります。"
+        },
+        {
+          "text": "Charging admission makes sense when the audience is buying a performance.",
+          "translation": "聴衆が演目を買う場合には、入場料の請求は理にかないます。"
+        },
+        {
+          "text": "The direction of payment reveals whose demand the exchange is serving.",
+          "translation": "支払いの方向は、その交換が誰の需要に応えているかを示します。"
+        }
+      ],
+      "parseTree": "[Adv If someone wants to be heard], [S paying for the listener’s time [VP treats attention as labor]], whereas [S charging the listener [VP treats the speaker’s performance as the service]]."
+    },
+    "expandLayer": {
+      "causalExpansion": [
+        {
+          "original": "wants to be heard",
+          "expanded": "because the speaker, rather than the listener, is asking for attention",
+          "nuance": "需要が話し手側にある条件。"
+        },
+        {
+          "original": "treats attention as labor",
+          "expanded": "since listening requires another person’s time and concentration",
+          "nuance": "注意を労働とみなす理由。"
+        },
+        {
+          "original": "treats the speaker’s performance as the service",
+          "expanded": "therefore, charging the audience fits exchanges in which the audience wants the performance",
+          "nuance": "聞き手課金が成立する場合。"
+        }
+      ],
+      "structuralShift": [
+        {
+          "type": "受動態",
+          "sentence": "The listener can be paid when attention is the service being requested.",
+          "translation": "求められているサービスが注意である場合、聞き手に対価を払うことができます。",
+          "note": "対価を受ける聞き手を主語にする。"
+        },
+        {
+          "type": "分詞構文",
+          "sentence": "Seeking an audience, a speaker may need to pay for the listener’s time.",
+          "translation": "聴衆を求めるなら、話し手は聞き手の時間に対価を払う必要があるかもしれません。",
+          "note": "話し手側の需要を-ing句で示す。"
+        },
+        {
+          "type": "名詞化",
+          "sentence": "Payment direction identifies the provider and recipient of the service.",
+          "translation": "支払いの方向は、サービスの提供者と受益者を特定します。",
+          "note": "payとprovideを名詞化した表現にする。"
+        }
+      ],
+      "expressionNetwork": {
+        "vocabulary": [
+          {
+            "original": "attention as labor",
+            "alternatives": [
+              "paid listening",
+              "compensated attention",
+              "listening work"
+            ],
+            "nuance": "paid listeningは行為、compensated attentionは対価、listening workは労働性を強調する。"
+          }
+        ],
+        "sentencePatterns": [
+          {
+            "type": "需要主体の対照",
+            "sentence": "If X wants A, paying Y treats B as labor, whereas charging Y treats C as the service.",
+            "translation": "XがAを望むなら、Yへの支払いはBを労働として扱い、Yへの請求はCをサービスとして扱います。"
+          }
+        ],
+        "comparison": [
+          {
+            "sentence": "Requested listening resembles hired labor more than purchased entertainment.",
+            "translation": "依頼された傾聴は、購入された娯楽より雇用された労働に似ています。"
+          }
+        ],
+        "conditional": [
+          {
+            "sentence": "If the audience wants the performance, charging admission may be appropriate.",
+            "translation": "聴衆が演目を望むなら、入場料を取ることは適切な場合があります。"
+          }
+        ],
+        "emphasis": [
+          {
+            "sentence": "What determines the service is whose demand initiates the exchange.",
+            "translation": "サービスを決めるのは、誰の需要が交換を始めたかです。"
+          }
+        ],
+        "compression": [
+          {
+            "sentence": "Want attention? Pay the listener.",
+            "translation": "注意を求めるなら、聞き手に払う。"
+          }
+        ]
+      }
+    },
+    "scores": {
+      "naturalness": 9,
+      "clarity": 9,
+      "flexibility": 9,
+      "focus": 9,
+      "efficiency": 9,
+      "comment": "if節とwhereasで二つの需要方向を対照し、treat A as Bを反復して支払いの論理を明確にした。"
+    }
+  }
+]
