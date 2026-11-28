@@ -54803,5 +54803,517 @@
         }
       ]
     }
+  ],
+  "DE-20261128-001": [
+    {
+      "words": {
+        "legal boundary": {
+          "ja": "法的な適用境界"
+        },
+        "old age": {
+          "ja": "老い・高齢期"
+        },
+        "to a later age": {
+          "ja": "より後の年齢へ"
+        },
+        "qualifies for support": {
+          "ja": "支援の対象資格を得る"
+        },
+        "bears certain burdens": {
+          "ja": "特定の負担を担う"
+        },
+        "moving": {
+          "ja": "動かすこと"
+        },
+        "qualifies": {
+          "ja": "対象資格を得る"
+        },
+        "bears": {
+          "ja": "担う"
+        },
+        "burdens": {
+          "ja": "負担"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Moving the legal boundary of old age to a later age",
+          "ja": "老いの法的境界をより後の年齢へ動かすこと",
+          "note": "高齢者の基準年齢を引き上げる方向を明示する。",
+          "pattern": "move A to B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "postpone": {
+          "ja": "延期する"
+        },
+        "biological aging": {
+          "ja": "生物学的な加齢"
+        },
+        "aging": {
+          "ja": "加齢"
+        }
+      },
+      "phrases": [
+        {
+          "en": "does not postpone biological aging",
+          "ja": "生物学的な加齢を延期しない",
+          "note": "定義変更の効果が身体時間には及ばないことを明示する否定。",
+          "pattern": "does not + 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "calendar line": {
+          "ja": "暦上の境界線"
+        },
+        "redrawn": {
+          "ja": "引き直される"
+        },
+        "keeps time": {
+          "ja": "時間を重ね続ける"
+        },
+        "without waiting for": {
+          "ja": "〜を待たずに"
+        },
+        "resolution": {
+          "ja": "決議"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the body keeps time without waiting for a resolution",
+          "ja": "身体は決議を待たずに時間を重ねる",
+          "note": "制度上の決定と身体の進行が同期しないことを表す。",
+          "pattern": "without + 動名詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "definitions": {
+          "ja": "制度上の定義"
+        },
+        "alter": {
+          "ja": "変える"
+        },
+        "eligibility": {
+          "ja": "受給・適用資格"
+        },
+        "accounting categories": {
+          "ja": "会計上の分類"
+        },
+        "farther away": {
+          "ja": "より遠くへ"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Definitions alter eligibility and accounting categories; they do not move old age farther away.",
+          "ja": "定義は資格と会計分類を変えるが、老いを遠ざけはしない",
+          "note": "変更可能な制度効果と変更不能な加齢をセミコロンで対比する。",
+          "pattern": "A; they do not B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "policy": {
+          "ja": "政策・制度"
+        },
+        "a stretch of time": {
+          "ja": "ある一定の期間"
+        },
+        "remains with": {
+          "ja": "〜の側に残る"
+        },
+        "living through": {
+          "ja": "その時間を実際に生きる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "that time remains with the person living through it",
+          "ja": "その時間は、それを生きる本人の側に残る",
+          "note": "制度から見えなくなっても、経験される時間は消えないという結論。",
+          "pattern": "remain with + 人"
+        }
+      ]
+    }
+  ],
+  "DE-20261128-002": [
+    {
+      "words": {
+        "support for parents": {
+          "ja": "親の扶養"
+        },
+        "private duty": {
+          "ja": "私的な義務"
+        },
+        "burden carried by each person": {
+          "ja": "一人ひとりが担う負担"
+        },
+        "calling": {
+          "ja": "〜と呼ぶこと"
+        }
+      },
+      "phrases": [
+        {
+          "en": "can hide the burden carried by each person",
+          "ja": "一人ひとりが担った負担を隠しうる",
+          "note": "扶養総額ではなく一人当たりの重さを見る論点。",
+          "pattern": "can hide + 名詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "siblings": {
+          "ja": "きょうだい"
+        },
+        "divide the work": {
+          "ja": "世話の負担を分ける"
+        },
+        "inheritance": {
+          "ja": "相続"
+        },
+        "provide a return": {
+          "ja": "見返りを与える"
+        },
+        "period of care": {
+          "ja": "扶養・介護の期間"
+        }
+      },
+      "phrases": [
+        {
+          "en": "inheritance could provide a return",
+          "ja": "相続が見返りになりえた",
+          "note": "扶養と財産承継の交換関係を示す。",
+          "pattern": "could provide + 名詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "one or two people": {
+          "ja": "一人か二人の担い手"
+        },
+        "inherited property": {
+          "ja": "相続した家や土地"
+        },
+        "liability": {
+          "ja": "負動産・負担となる資産"
+        },
+        "longer lives": {
+          "ja": "長寿"
+        },
+        "years of support": {
+          "ja": "扶養する年数"
+        }
+      },
+      "phrases": [
+        {
+          "en": "longer lives extend the years of support",
+          "ja": "長寿が扶養年数を延ばす",
+          "note": "寿命の延伸が支援期間を長くする因果。",
+          "pattern": "主語 + extend + 目的語"
+        }
+      ]
+    },
+    {
+      "words": {
+        "institutions": {
+          "ja": "制度"
+        },
+        "older family form": {
+          "ja": "古い家族形態"
+        },
+        "caring for a parent": {
+          "ja": "親を看ること"
+        },
+        "growing cost": {
+          "ja": "増大する費用"
+        },
+        "fewer shoulders": {
+          "ja": "より少ない担い手"
+        }
+      },
+      "phrases": [
+        {
+          "en": "places a growing cost on fewer shoulders",
+          "ja": "増える費用をより少ない担い手へ載せる",
+          "note": "肩を担い手の比喩として用い、費用集中を示す。",
+          "pattern": "place A on B"
+        }
+      ]
+    }
+  ],
+  "DE-20261128-003": [
+    {
+      "words": {
+        "assigned to individuals": {
+          "ja": "個人へ割り当てられる"
+        },
+        "duties": {
+          "ja": "義務"
+        },
+        "attached to families": {
+          "ja": "家族に結びついた"
+        },
+        "two ledgers": {
+          "ja": "公私二つの帳簿"
+        }
+      },
+      "phrases": [
+        {
+          "en": "rights are assigned to individuals but duties remain attached to families",
+          "ja": "権利は個人単位だが、義務は家族単位に残る",
+          "note": "権利と義務で異なる配分単位を対比する。",
+          "pattern": "A but B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "caregiving": {
+          "ja": "介護"
+        },
+        "support": {
+          "ja": "扶養"
+        },
+        "partly socialized": {
+          "ja": "部分的に社会化された"
+        },
+        "fully releasing": {
+          "ja": "完全に解除すること"
+        },
+        "responsibility": {
+          "ja": "責任"
+        }
+      },
+      "phrases": [
+        {
+          "en": "without fully releasing families from responsibility",
+          "ja": "家族を責任から十分には解放せずに",
+          "note": "社会化が私的責任の完全解除を伴わなかったという留保。",
+          "pattern": "without + 動名詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "fund public programs": {
+          "ja": "公的制度へ資金を出す"
+        },
+        "insurance premiums": {
+          "ja": "保険料"
+        },
+        "households": {
+          "ja": "家庭"
+        },
+        "absorb": {
+          "ja": "引き受ける"
+        },
+        "unpaid time and care": {
+          "ja": "無償の時間と世話"
+        },
+        "spill beyond": {
+          "ja": "制度の外へこぼれる"
+        }
+      },
+      "phrases": [
+        {
+          "en": "households absorb the unpaid time and care that spill beyond them",
+          "ja": "家庭が制度外へこぼれる無償の時間と世話を引き受ける",
+          "note": "them は public programs を指す。",
+          "pattern": "関係節 that spill ..."
+        }
+      ]
+    },
+    {
+      "words": {
+        "old norms": {
+          "ja": "古い家族規範"
+        },
+        "survive": {
+          "ja": "残り続ける"
+        },
+        "costless": {
+          "ja": "費用がない"
+        }
+      },
+      "phrases": [
+        {
+          "en": "do not survive because they are costless",
+          "ja": "費用がないから残るのではない",
+          "note": "規範の存続理由について単純な無費用説を否定する。",
+          "pattern": "do not ... because ..."
+        }
+      ]
+    },
+    {
+      "words": {
+        "look cheap": {
+          "ja": "安く見える"
+        },
+        "transferred to": {
+          "ja": "〜へ移される"
+        },
+        "least able to exit": {
+          "ja": "最も退出しにくい"
+        },
+        "payment": {
+          "ja": "実際に負担した費用"
+        },
+        "public ledger": {
+          "ja": "公の帳簿"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the cost is transferred to those least able to exit",
+          "ja": "費用が最も退出しにくい人へ移される",
+          "note": "費用消滅ではなく、交渉力の弱い人への転嫁を表す。",
+          "pattern": "transfer A to B"
+        }
+      ]
+    }
+  ],
+  "DE-20261128-004": [
+    {
+      "words": {
+        "institutions": {
+          "ja": "制度"
+        },
+        "revised": {
+          "ja": "改訂される"
+        },
+        "human age": {
+          "ja": "人間の年齢"
+        },
+        "rolled back": {
+          "ja": "巻き戻される"
+        }
+      },
+      "phrases": [
+        {
+          "en": "Institutions can be revised, but human age cannot be rolled back.",
+          "ja": "制度は改訂できるが、人間の年齢は巻き戻せない",
+          "note": "制度と人間時間の可逆性の違いを一文で示す。",
+          "pattern": "can A, but cannot B"
+        }
+      ]
+    },
+    {
+      "words": {
+        "built on": {
+          "ja": "〜を前提に作られた"
+        },
+        "failed population forecast": {
+          "ja": "外れた人口予測"
+        },
+        "benefit conditions": {
+          "ja": "給付条件"
+        },
+        "contribution rates": {
+          "ja": "負担率"
+        },
+        "restore the years": {
+          "ja": "年月を取り戻す"
+        },
+        "giving birth": {
+          "ja": "産むこと"
+        },
+        "providing care": {
+          "ja": "世話をすること"
+        },
+        "old rules": {
+          "ja": "旧制度"
+        }
+      },
+      "phrases": [
+        {
+          "en": "it cannot restore the years people spent working, giving birth, and providing care under the old rules",
+          "ja": "旧制度の下で働き、産み、世話をした年月は取り戻せない",
+          "note": "制度変更後も回復不能な三つの行為時間を列挙する。",
+          "pattern": "spend + 時間 + 動名詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "forecasting errors": {
+          "ja": "予測誤差"
+        },
+        "passed forward": {
+          "ja": "後の世代へ送られる"
+        },
+        "bill": {
+          "ja": "請求書・転嫁された費用"
+        },
+        "future date": {
+          "ja": "未来の日付"
+        }
+      },
+      "phrases": [
+        {
+          "en": "the bill simply arrives with a future date",
+          "ja": "請求書だけが未来の日付で届く",
+          "note": "予測誤差の費用が消えずに後代へ届く比喩。",
+          "pattern": "arrive with + 名詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "future generations": {
+          "ja": "将来世代"
+        },
+        "fulfill": {
+          "ja": "履行する"
+        },
+        "yesterday's population estimates": {
+          "ja": "過去の人口推計"
+        }
+      },
+      "phrases": [
+        {
+          "en": "do not exist to fulfill yesterday’s population estimates",
+          "ja": "過去の人口推計を履行するために存在するのではない",
+          "note": "将来世代を過去の制度予測の手段とみなす考えを否定する。",
+          "pattern": "do not exist to + 動詞"
+        }
+      ]
+    },
+    {
+      "words": {
+        "every revision": {
+          "ja": "改訂のたび"
+        },
+        "not only": {
+          "ja": "〜だけでなく"
+        },
+        "preserve the system": {
+          "ja": "制度を維持する"
+        },
+        "whose ledger": {
+          "ja": "誰の帳簿"
+        },
+        "carries its cost": {
+          "ja": "その費用を担う"
+        }
+      },
+      "phrases": [
+        {
+          "en": "not only how to preserve the system, but whose ledger carries its cost now",
+          "ja": "制度をどう維持するかだけでなく、今誰の帳簿が費用を担うか",
+          "note": "制度の存続手段から負担の帰属へ問いを広げる。",
+          "pattern": "not only A, but B"
+        }
+      ]
+    }
   ]
 }
