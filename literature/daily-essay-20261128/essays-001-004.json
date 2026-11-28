@@ -1,0 +1,129 @@
+[
+  {
+    "id": "DE-20261128-001",
+    "sourceTitle": "『請求書は未来の日付で届く』",
+    "workId": "daily-essay-20261128",
+    "mode": "essay-translation",
+    "chapter": 1,
+    "sentence": 1,
+    "title": "動かせる境界",
+    "jp": "高齢者と呼ぶ年齢を後ろへ動かせば、法律が支援や負担を割り当てる範囲は変わる。だが、生物としての加齢まで延期されるわけではない。暦の線は会議で引き直せても、身体は決議を待たずに時間を重ねる。定義の変更が現実を変えるのは、入口の資格や帳簿の分類においてである。その線を動かしただけで老いが遠ざかったように語れば、制度が見なくなった時間だけが本人の側へ残る。",
+    "translationLiteral": "If the age at which someone is called elderly is moved to a later age, the range in which law assigns support and burdens changes. But biological aging itself is not postponed. Even if a line on the calendar can be redrawn in a meeting, the body accumulates time without waiting for a resolution. A change of definition changes reality in eligibility at the entrance and classification in the ledger. If moving only that line is described as though old age had moved away, the time the system has stopped seeing remains with the person.",
+    "translationNatural": "Moving the legal boundary of old age to a later age changes who qualifies for support and who bears certain burdens. It does not postpone biological aging. A calendar line can be redrawn in a meeting, but the body keeps time without waiting for a resolution. Definitions alter eligibility and accounting categories; they do not move old age farther away. When policy stops seeing a stretch of time, that time remains with the person living through it.",
+    "imageUrl": "",
+    "imageCaption": "会議室の暦の線だけが動き、その外で身体の時計は進み続ける。",
+    "imagePrompt": "A literary illustration of officials moving a line on a calendar while a human body's quiet clock continues outside the meeting room, restrained ink and watercolor, no text, no logos.",
+    "chunks": [
+      {"en": "Moving the legal boundary of old age to a later age changes who qualifies for support and who bears certain burdens.", "ja": "老いの法的境界をより後の年齢へ動かすことは、誰が支援の対象となり、誰が特定の負担を担うかを変える。"},
+      {"en": "It does not postpone biological aging.", "ja": "それは生物学的な加齢を延期しない。"},
+      {"en": "A calendar line can be redrawn in a meeting, but the body keeps time without waiting for a resolution.", "ja": "暦の線は会議で引き直せるが、身体は決議を待たずに時間を重ねる。"},
+      {"en": "Definitions alter eligibility and accounting categories; they do not move old age farther away.", "ja": "定義は資格と会計上の分類を変えるが、老いそのものを遠ざけはしない。"},
+      {"en": "When policy stops seeing a stretch of time, that time remains with the person living through it.", "ja": "政策がある期間を見なくなっても、その時間はそれを生きる本人の側に残る。"}
+    ],
+    "grammar": [
+      "Moving ... は動名詞句を主語にし、境界を動かす行為そのものを論題にする。",
+      "who qualifies ... and who bears ... は二つの間接疑問節を並列し、支援対象と負担主体を分ける。",
+      "does not postpone は、法的定義の変更が生物学的加齢を遅らせないという否定を明示する。",
+      "can be redrawn ... but ... は、変更可能な制度上の線と進み続ける身体を対比する。",
+      "the person living through it の living は現在分詞で、時間を実際に経験する本人を限定する。"
+    ],
+    "translationNote": "直訳は『後ろへ動かす』『帳簿の分類』『制度が見なくなった時間』を逐語的に追った。自然訳では legal boundary、accounting categories、a stretch of time と整理したが、変更されるのは法的適用範囲であって生物学的加齢ではないという否定、会議と身体の対比、見えなくなった時間が本人へ残る結論を維持した。",
+    "readingPoint": "導入。制度が操作できる分類線と、操作できない身体時間を分け、後の負担論を『定義から消えた費用は消滅しない』という視点へ導く。",
+    "keywords": ["高齢者定義", "法的境界", "生物学的加齢", "資格", "身体時間"]
+  },
+  {
+    "id": "DE-20261128-002",
+    "sourceTitle": "『請求書は未来の日付で届く』",
+    "workId": "daily-essay-20261128",
+    "mode": "essay-translation",
+    "chapter": 2,
+    "sentence": 2,
+    "title": "一人分の重さ",
+    "jp": "昔の親扶養を、今より重い私的責任だったとだけ語ると、一人分の重さが抜け落ちる。きょうだいが多ければ負担は割れ、家や田畑の相続が見返りになり、扶養期間も今より短かった。現代では、担い手が一人か二人に減り、受け継ぐ家が負動産になることもあり、長寿によって支える期間は延びる。制度が家族の形を古いまま想定すれば、同じ『親を看る』という言葉の中で、一人に載る費用だけが膨らむ。",
+    "translationLiteral": "If past support for parents is described only as a heavier private duty than today, the weight per person drops out. With many siblings, the burden could be divided, inheritance of a house or fields could be a return, and the period of support was shorter than now. Today, caregivers have decreased to one or two, an inherited house may become a liability, and longevity extends the period of support. If the system assumes an old family form, only the cost placed on one person expands inside the same words, ‘caring for a parent.’",
+    "translationNatural": "Calling past support for parents a heavier private duty can hide the burden carried by each person. More siblings could divide the work, inheritance could provide a return, and the period of care was often shorter. Today one or two people may carry the task, inherited property may be a liability, and longer lives extend the years of support. If institutions keep assuming an older family form, the same phrase—caring for a parent—places a growing cost on fewer shoulders.",
+    "imageUrl": "",
+    "imageCaption": "同じ扶養の荷物が、多人数の肩から一人か二人の肩へ移っている。",
+    "imagePrompt": "A literary balance showing one family-care burden once shared by many shoulders now resting on one or two, with a house changing from inheritance to liability, muted ink drawing, no text, no logos.",
+    "chunks": [
+      {"en": "Calling past support for parents a heavier private duty can hide the burden carried by each person.", "ja": "昔の親扶養をより重い私的義務と呼ぶだけでは、一人ひとりが担った重さを隠しうる。"},
+      {"en": "More siblings could divide the work, inheritance could provide a return, and the period of care was often shorter.", "ja": "きょうだいが多ければ仕事を分けられ、相続が見返りになり、介護期間もしばしば短かった。"},
+      {"en": "Today one or two people may carry the task, inherited property may be a liability, and longer lives extend the years of support.", "ja": "現在では一人か二人がその役目を担い、相続財産が負債になり、長寿が支援年数を延ばすことがある。"},
+      {"en": "If institutions keep assuming an older family form, the same phrase—caring for a parent—places a growing cost on fewer shoulders.", "ja": "制度が古い家族形態を想定し続ければ、同じ『親を看る』という言葉が、より少ない肩へ増大する費用を載せる。"}
+    ],
+    "grammar": [
+      "Calling ... は動名詞句を主語にし、過去の扶養をどう呼ぶかという説明行為を扱う。",
+      "can hide は断定を避けつつ、集計が一人当たり負担を覆い隠す可能性を示す。",
+      "could divide / could provide / was ... は過去の条件を三項で並列する。",
+      "may ... and ... extend ... は現代の三条件を、可能性を保ったまま並べる。",
+      "If institutions keep assuming ... は条件節で、古い家族像の継続と費用集中の因果を限定する。"
+    ],
+    "translationNote": "直訳は『一人分の重さ』『負動産』『同じ言葉の中』を weight per person、liability、inside the same words と追った。自然訳では care、inherited property、fewer shoulders へ整えた。多子・相続・短い期間と、少子・負動産・長寿の対比を一つも省かず、昔と今の優劣ではなく一人当たり負担を比較する論旨を保った。",
+    "readingPoint": "展開。扶養を公私の総額で比べず、担い手数・見返り・期間へ分解し、同じ義務名の下で一人分の費用が変わることを示す。",
+    "keywords": ["親扶養", "一人当たり負担", "相続", "負動産", "長寿"]
+  },
+  {
+    "id": "DE-20261128-003",
+    "sourceTitle": "『請求書は未来の日付で届く』",
+    "workId": "daily-essay-20261128",
+    "mode": "essay-translation",
+    "chapter": 3,
+    "sentence": 3,
+    "title": "二つの帳簿",
+    "jp": "権利は個人単位になったのに、義務だけが家族単位に残ると、制度には二つの帳簿ができる。介護や扶養の責任は社会化されたが、家族の責任は十分には解除されなかった。税や保険料で公的制度を支えたうえで、制度からこぼれた時間と世話を家庭が無償で引き受ける。古い規範は費用がないから残るのではない。費用を退出しにくい人へ渡し、支払った記録を公の帳簿へ載せないから、安く見えるのである。",
+    "translationLiteral": "When rights have become individual but only duties remain family-based, the system acquires two ledgers. Responsibility for care and support has been socialized, but family responsibility has not been fully released. After supporting public systems through taxes and insurance premiums, households take on, without pay, the time and care that spill out of the system. Old norms do not remain because they have no cost. They look cheap because costs are passed to people who find it hard to exit, while the record of payment is not entered in the public ledger.",
+    "translationNatural": "When rights are assigned to individuals but duties remain attached to families, the system keeps two ledgers. Caregiving and support have been partly socialized without fully releasing families from responsibility. People fund public programs through taxes and insurance premiums, then households absorb the unpaid time and care that spill beyond them. Old norms do not survive because they are costless. They look cheap because the cost is transferred to those least able to exit, and their payment never enters the public ledger.",
+    "imageUrl": "",
+    "imageCaption": "公的制度の帳簿の外で、家庭が無償の時間と世話を別帳簿へ記している。",
+    "imagePrompt": "A literary illustration of two ledgers, one public and clean, one hidden in a household recording unpaid hours of care, with costs sliding toward people unable to exit, subdued ink and watercolor, no text, no logos.",
+    "chunks": [
+      {"en": "When rights are assigned to individuals but duties remain attached to families, the system keeps two ledgers.", "ja": "権利は個人へ割り当てられる一方で義務が家族に結びついたままだと、制度は二つの帳簿を持つ。"},
+      {"en": "Caregiving and support have been partly socialized without fully releasing families from responsibility.", "ja": "介護と扶養は部分的に社会化されたが、家族は責任から十分には解放されていない。"},
+      {"en": "People fund public programs through taxes and insurance premiums, then households absorb the unpaid time and care that spill beyond them.", "ja": "人々は税と保険料で公的制度を支え、そのうえ家庭が制度の外へこぼれる無償の時間と世話を吸収する。"},
+      {"en": "Old norms do not survive because they are costless.", "ja": "古い規範は、費用がないから生き残るのではない。"},
+      {"en": "They look cheap because the cost is transferred to those least able to exit, and their payment never enters the public ledger.", "ja": "費用が最も退出しにくい人へ移され、その支払いが公の帳簿に記載されないため、安く見えるのである。"}
+    ],
+    "grammar": [
+      "When A but B は、個人化された権利と家族に残る義務が同時に存在する条件を示す。",
+      "has been socialized は現在完了の受動態で、過去から現在まで進んだ制度化を表す。",
+      "without fully releasing ... は、社会化が家族責任の完全解除を伴わなかったという留保を置く。",
+      "that spill beyond them は関係節で、them が public programs を指し、制度外へこぼれる時間と世話を限定する。",
+      "those least able to exit は those + 形容詞句で、退出能力が最も低い人々を指す。"
+    ],
+    "translationNote": "直訳では socialized、released、public ledger を制度語として維持した。自然訳では『社会化されたが解除されない』を partly ... without fully ... と一続きにし、公的支払いの後に家庭が無償労働を吸収する順序を then で明示した。費用が消えるのではなく退出困難な人へ移り、記録されないため安く見えるという因果は変えていない。",
+    "readingPoint": "転換。家族規範を価値観ではなく二重会計として読み替え、公的負担と私的な無償負担が重なる構造を可視化する。",
+    "keywords": ["権利と義務", "家族責任", "二重負担", "無償労働", "片道会計"]
+  },
+  {
+    "id": "DE-20261128-004",
+    "sourceTitle": "『請求書は未来の日付で届く』",
+    "workId": "daily-essay-20261128",
+    "mode": "essay-translation",
+    "chapter": 4,
+    "sentence": 4,
+    "title": "戻らない時計",
+    "jp": "制度の版は改訂できるが、人間の年齢は戻せない。人口予測を外した制度は、給付条件や負担率を書き換えられる。しかし、その旧版を信じて働き、産み、世話をしてきた時間まで巻き戻すことはできない。予測誤差の費用を後の世代へ送れば、請求書だけが未来の日付で届く。将来世代は、過去の人口推計を履行するために存在するのではない。改訂のたびに問うべきなのは、制度をどう延命するかだけでなく、その費用がいま誰の帳簿に載っているかである。",
+    "translationLiteral": "A version of a system can be revised, but a person's age cannot be returned. A system that missed its population forecast can rewrite benefit conditions and contribution rates. However, it cannot rewind the time during which people worked, gave birth, and provided care while trusting that old version. If the cost of forecasting errors is sent to later generations, only the invoice arrives with a future date. Future generations do not exist to fulfill past population estimates. At each revision, we must ask not only how to prolong the system, but also whose ledger now carries its cost.",
+    "translationNatural": "Institutions can be revised, but human age cannot be rolled back. A system built on a failed population forecast can rewrite benefit conditions and contribution rates; it cannot restore the years people spent working, giving birth, and providing care under the old rules. When forecasting errors are passed forward, the bill simply arrives with a future date. Future generations do not exist to fulfill yesterday’s population estimates. Every revision should ask not only how to preserve the system, but whose ledger carries its cost now.",
+    "imageUrl": "",
+    "imageCaption": "改訂版の制度文書の横で、戻らない時計と未来の日付の請求書が置かれている。",
+    "imagePrompt": "A literary still life of revised policy documents beside an irreversible clock and an invoice dated in the future, quiet generational silhouettes in the background, ink and watercolor, no text, no logos.",
+    "chunks": [
+      {"en": "Institutions can be revised, but human age cannot be rolled back.", "ja": "制度は改訂できるが、人間の年齢を巻き戻すことはできない。"},
+      {"en": "A system built on a failed population forecast can rewrite benefit conditions and contribution rates; it cannot restore the years people spent working, giving birth, and providing care under the old rules.", "ja": "外れた人口予測を基にした制度は給付条件と負担率を書き換えられるが、旧制度の下で人々が働き、産み、世話をした年月は取り戻せない。"},
+      {"en": "When forecasting errors are passed forward, the bill simply arrives with a future date.", "ja": "予測誤差が先へ送られると、請求書だけが未来の日付で届く。"},
+      {"en": "Future generations do not exist to fulfill yesterday’s population estimates.", "ja": "将来世代は、過去の人口推計を履行するために存在するのではない。"},
+      {"en": "Every revision should ask not only how to preserve the system, but whose ledger carries its cost now.", "ja": "改訂のたび、制度をどう維持するかだけでなく、その費用を今どの帳簿が担っているかも問うべきだ。"}
+    ],
+    "grammar": [
+      "can be revised / cannot be rolled back は受動態を対置し、制度と人間時間の可逆性の差を示す。",
+      "built on ... は過去分詞句で system を限定し、制度の前提となった予測を示す。",
+      "the years people spent ... は関係詞が省略され、spent の目的語 years を後続の動名詞列が説明する。",
+      "When forecasting errors are passed forward は条件・時間節で、誤差移転と請求到来の関係を示す。",
+      "not only how ... but whose ... は二つの間接疑問を並列し、制度維持から費用負担者へ問いを広げる。"
+    ],
+    "translationNote": "直訳は『版』『履行』『延命』『誰の帳簿』を version、fulfill、prolong、whose ledger と追った。自然訳では制度の版を institutions としたが、『産み、世話をする』は giving birth and providing care と行為を変えずに残した。改訂可能な制度と不可逆な年齢、誤差費用の世代移転、将来世代を過去予測の履行者にしないという結論をすべて保持した。",
+    "readingPoint": "余韻。制度の修正可能性を認めつつ、過去に費やされた人間時間は戻らないと結び、持続可能性の問いを費用の現在の受取人へ向け直す。",
+    "keywords": ["時間的非対称性", "人口予測", "世代間負債", "不可逆性", "費用負担"]
+  }
+]
