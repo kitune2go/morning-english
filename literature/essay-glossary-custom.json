@@ -480,6 +480,11 @@
     "note": "日次エッセイの文脈では「カード」として用いる。"
   },
   {
+    "word": "caregiving",
+    "ja": "介護",
+    "note": "家族や専門職が日常的な世話を担うこと。"
+  },
+  {
     "word": "cargo",
     "ja": "貨物・荷台の",
     "note": "cargo bed でトラックの荷台"
@@ -965,6 +970,11 @@
     "note": "正面画像が見える輪郭を決めること。"
   },
   {
+    "word": "definitions",
+    "ja": "定義",
+    "note": "制度が適用範囲を決める複数の定義。"
+  },
+  {
     "word": "degree",
     "ja": "程度",
     "note": "to some degreeで『ある程度』。"
@@ -1168,6 +1178,11 @@
     "word": "duplicated",
     "ja": "複製した",
     "note": "同じ部品を増やした"
+  },
+  {
+    "word": "duties",
+    "ja": "義務",
+    "note": "rights と対比される家族単位の義務。"
   },
   {
     "word": "dxf",
@@ -1640,6 +1655,11 @@
     "note": "本作品の文脈では「燃料」として用いる。"
   },
   {
+    "word": "fulfill",
+    "ja": "履行する",
+    "note": "人口推計が暗黙に求める条件を満たす。"
+  },
+  {
     "word": "fully",
     "ja": "十分に",
     "note": "本作品の文脈では「十分に」として用いる。"
@@ -1865,6 +1885,11 @@
     "note": "重量計算から除外された形状"
   },
   {
+    "word": "households",
+    "ja": "家庭",
+    "note": "制度外の無償時間と世話を引き受ける単位。"
+  },
+  {
     "word": "humanity's",
     "ja": "人類の",
     "note": "humanity の所有格。"
@@ -1928,6 +1953,11 @@
     "word": "infinite",
     "ja": "無限の",
     "note": "日次エッセイの文脈では「無限の」として用いる。"
+  },
+  {
+    "word": "inheritance",
+    "ja": "相続",
+    "note": "親扶養に対する財産上の見返りになりうるもの。"
   },
   {
     "word": "inner",
@@ -2153,6 +2183,11 @@
     "word": "lexical",
     "ja": "語彙の",
     "note": "今回の作品では「語彙の」の文脈で用いる。"
+  },
+  {
+    "word": "liability",
+    "ja": "負担となる資産",
+    "note": "inherited property may be a liability で負動産になりうる。"
   },
   {
     "word": "lighting-corrected",
@@ -2825,6 +2860,11 @@
     "note": "位置を決めて置いた"
   },
   {
+    "word": "postpone",
+    "ja": "延期する",
+    "note": "biological aging を遅らせること。"
+  },
+  {
     "word": "postwar",
     "ja": "戦後の",
     "note": "戦争終結後を示す形容詞。本作品では場所依存の時間名として扱う。"
@@ -3025,6 +3065,11 @@
     "note": "本文では単体テストに用いたプログラミング言語"
   },
   {
+    "word": "qualifies",
+    "ja": "資格を得る",
+    "note": "qualifies for support で支援対象となる。"
+  },
+  {
     "word": "quantity",
     "ja": "本数",
     "note": "本作品の文脈では「本数」として用いる。"
@@ -3173,6 +3218,11 @@
     "word": "redistribute",
     "ja": "再配分する",
     "note": "注意の総量ではなく向け先や時間配分を変える。"
+  },
+  {
+    "word": "redrawn",
+    "ja": "引き直された",
+    "note": "境界線が制度上引き直される。"
   },
   {
     "word": "reenacting",
@@ -3343,6 +3393,11 @@
     "word": "resident",
     "ja": "常駐の",
     "note": "別のパソコンで待機を続ける実行系を修飾。"
+  },
+  {
+    "word": "resolution",
+    "ja": "決議",
+    "note": "会議で採択される制度上の決定。"
   },
   {
     "word": "resource",
@@ -3703,6 +3758,11 @@
     "word": "shrink",
     "ja": "減る",
     "note": "本作品の文脈では「減る」として用いる。"
+  },
+  {
+    "word": "siblings",
+    "ja": "きょうだい",
+    "note": "親扶養を分担しうる複数のきょうだい。"
   },
   {
     "word": "sign",
