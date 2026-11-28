@@ -132,7 +132,8 @@
     "cards-extra-20261124.json",
     "cards-extra-20261125.json",
     "cards-extra-20261126.json",
-    "cards-extra-20261127.json"
+    "cards-extra-20261127.json",
+    "cards-extra-20261128.json"
   ],
   "cards": [
     {
@@ -1926,6 +1927,30 @@
       "theme": "デジタル供給量とアクセス制限による希少性を分ける",
       "_generatedAt": "2026-11-28T02:00:00+09:00",
       "_sourceFile": "cards-extra-20261127.json"
+    },
+    {
+      "_no": 225,
+      "sentence": "Institutions can preserve benefits created under favorable demographics while shifting their long-term costs to a smaller future generation, widening the gap between those who decide and those who pay.",
+      "coreVerb": "shift",
+      "theme": "制度の便益と将来世代への費用移転を捉える",
+      "_generatedAt": "2026-11-29T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261128.json"
+    },
+    {
+      "_no": 226,
+      "sentence": "Care for elderly parents may be harder to divide when families have fewer siblings, lifespans are longer, and inherited property provides less compensation than it once did.",
+      "coreVerb": "divide",
+      "theme": "親扶養の負担を人数・期間・相続条件から考える",
+      "_generatedAt": "2026-11-29T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261128.json"
+    },
+    {
+      "_no": 227,
+      "sentence": "If someone wants to be heard, paying for the listener’s time treats attention as labor, whereas charging the listener treats the speaker’s performance as the service.",
+      "coreVerb": "treat",
+      "theme": "聞いてほしい需要と聞きたい需要の対価を区別する",
+      "_generatedAt": "2026-11-29T02:00:00+09:00",
+      "_sourceFile": "cards-extra-20261128.json"
     }
   ]
 }
