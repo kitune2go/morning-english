@@ -10,6 +10,11 @@
     "note": "according to ownership で所有に応じて。"
   },
   {
+    "word": "accounting",
+    "ja": "会計上の",
+    "note": "accounting categories で会計上の分類。"
+  },
+  {
     "word": "accumulated",
     "ja": "蓄積した",
     "note": "本作品の文脈では「蓄積した」として用いる。"
@@ -235,6 +240,11 @@
     "note": "assume の三人称単数形"
   },
   {
+    "word": "assuming",
+    "ja": "想定し続ける",
+    "note": "keep assuming で想定を継続する。"
+  },
+  {
     "word": "assumption",
     "ja": "前提",
     "note": "2026年11月22日の日次エッセイでは「前提」の文脈で用いる。"
@@ -338,6 +348,11 @@
     "word": "binds",
     "ja": "縛りつける",
     "note": "2026年11月22日の日次エッセイでは「縛りつける」の文脈で用いる。"
+  },
+  {
+    "word": "biological",
+    "ja": "生物学的な",
+    "note": "biological aging で生物学的な加齢。"
   },
   {
     "word": "blender",
@@ -470,6 +485,11 @@
     "note": "cargo bed でトラックの荷台"
   },
   {
+    "word": "caring",
+    "ja": "世話をすること",
+    "note": "caring for a parent で親を看ること。"
+  },
+  {
     "word": "catastrophe",
     "ja": "惨禍",
     "note": "大規模な破壊や被害を伴う災厄。"
@@ -490,6 +510,11 @@
     "note": "本作品の文脈では「センチメートル」として用いる。"
   },
   {
+    "word": "certain",
+    "ja": "特定の",
+    "note": "certain burdens で特定の負担。"
+  },
+  {
     "word": "certificate",
     "ja": "証明書",
     "note": "2026年11月22日の日次エッセイでは「証明書」の文脈で用いる。"
@@ -508,6 +533,11 @@
     "word": "chat",
     "ja": "チャット",
     "note": "今回の作品では「チャット」の文脈で用いる。"
+  },
+  {
+    "word": "cheap",
+    "ja": "安く",
+    "note": "look cheap で安く見える。"
   },
   {
     "word": "chorus",
@@ -748,6 +778,11 @@
     "word": "contours",
     "ja": "輪郭",
     "note": "今回の作品では「輪郭」の文脈で用いる。"
+  },
+  {
+    "word": "contribution",
+    "ja": "拠出・負担",
+    "note": "contribution rates で制度への負担率。"
   },
   {
     "word": "controlling",
@@ -1290,6 +1325,11 @@
     "note": "直接測定ではなく推定で得られた"
   },
   {
+    "word": "estimates",
+    "ja": "推計",
+    "note": "population estimates で人口推計。"
+  },
+  {
     "word": "ethic",
     "ja": "倫理",
     "note": "work ethic で労働倫理。"
@@ -1388,6 +1428,11 @@
     "word": "expression",
     "ja": "表現",
     "note": "本作品の文脈では「表現」として用いる。"
+  },
+  {
+    "word": "extend",
+    "ja": "延ばす",
+    "note": "支援期間を長くする。"
   },
   {
     "word": "extended",
@@ -1545,6 +1590,11 @@
     "note": "本作品の文脈では「力」として用いる。"
   },
   {
+    "word": "forecasting",
+    "ja": "予測の",
+    "note": "forecasting errors で予測誤差。"
+  },
+  {
     "word": "form",
     "ja": "フォーム",
     "note": "本作品の文脈では「フォーム」として用いる。"
@@ -1593,6 +1643,11 @@
     "word": "fully",
     "ja": "十分に",
     "note": "本作品の文脈では「十分に」として用いる。"
+  },
+  {
+    "word": "fund",
+    "ja": "資金を出して支える",
+    "note": "fund public programs で公的制度へ資金を出す。"
   },
   {
     "word": "funeral",
@@ -1850,6 +1905,11 @@
     "note": "本作品の文脈では「字下げ」として用いる。"
   },
   {
+    "word": "individuals",
+    "ja": "個人",
+    "note": "rights are assigned to individuals で権利の配分単位。"
+  },
+  {
     "word": "industry",
     "ja": "業界",
     "note": "本文では声優業界の制度・条件"
@@ -1898,6 +1958,11 @@
     "word": "insufficient",
     "ja": "不十分な",
     "note": "切り抜きだけでは必要条件を満たさない。"
+  },
+  {
+    "word": "insurance",
+    "ja": "保険の",
+    "note": "insurance premiums で保険料。"
   },
   {
     "word": "integrate",
@@ -2068,6 +2133,11 @@
     "word": "leak",
     "ja": "漏洩",
     "note": "本作品の文脈では「漏洩」として用いる。"
+  },
+  {
+    "word": "least",
+    "ja": "最も〜でない",
+    "note": "least able to exit で最も退出しにくい。"
   },
   {
     "word": "length",
@@ -2615,6 +2685,11 @@
     "note": "2026年11月22日の日次エッセイでは「親の」の文脈で用いる。"
   },
   {
+    "word": "parents",
+    "ja": "親",
+    "note": "support for parents で親扶養。"
+  },
+  {
     "word": "participant",
     "ja": "参加者",
     "note": "本作品では集会の参加者として数えられる人。"
@@ -2623,6 +2698,11 @@
     "word": "participation",
     "ja": "参加",
     "note": "市場の内側にいること。"
+  },
+  {
+    "word": "partly",
+    "ja": "部分的に",
+    "note": "完全ではない程度を示す。"
   },
   {
     "word": "passages",
@@ -2765,6 +2845,11 @@
     "note": "precisely when で逆説が現れる時点を強調する。"
   },
   {
+    "word": "premiums",
+    "ja": "保険料",
+    "note": "insurance premiums で保険料。"
+  },
+  {
     "word": "preparation",
     "ja": "準備",
     "note": "本作品の文脈では「準備」として用いる。"
@@ -2840,6 +2925,11 @@
     "note": "本作品の文脈では「形状」として用いる。"
   },
   {
+    "word": "programs",
+    "ja": "制度・事業",
+    "note": "public programs で公的制度。"
+  },
+  {
     "word": "progressed",
     "ja": "進行した",
     "note": "作業が先へ進んだ"
@@ -2893,6 +2983,11 @@
     "word": "protruded",
     "ja": "突出した",
     "note": "今回の作品では「突出した」の文脈で用いる。"
+  },
+  {
+    "word": "providing",
+    "ja": "提供すること",
+    "note": "providing care で世話をすること。"
   },
   {
     "word": "public",
@@ -2968,6 +3063,11 @@
     "word": "range",
     "ja": "航続",
     "note": "本作品の文脈では「航続」として用いる。"
+  },
+  {
+    "word": "rates",
+    "ja": "率",
+    "note": "contribution rates で負担率。"
   },
   {
     "word": "reactions",
@@ -3133,6 +3233,11 @@
     "word": "releases",
     "ja": "リリース",
     "note": "本作品の文脈では「リリース」として用いる。"
+  },
+  {
+    "word": "releasing",
+    "ja": "解放すること",
+    "note": "release A from responsibility でAの責任を解除する。"
   },
   {
     "word": "relocates",
@@ -3365,6 +3470,11 @@
     "note": "本作品の文脈では「危険」として用いる。"
   },
   {
+    "word": "rolled",
+    "ja": "巻き戻された",
+    "note": "be rolled back で巻き戻される。"
+  },
+  {
     "word": "rome",
     "ja": "ローマ",
     "note": "地域・歴史対象の固有名"
@@ -3575,6 +3685,11 @@
     "note": "shorten の過去分詞。歴史が圧縮・要約されたことを表す。"
   },
   {
+    "word": "shoulders",
+    "ja": "肩・担い手",
+    "note": "fewer shoulders でより少ない担い手の比喩。"
+  },
+  {
     "word": "showa",
     "ja": "昭和",
     "note": "本作品の文脈では「昭和」として用いる。"
@@ -3675,6 +3790,11 @@
     "note": "今回の作品では「より遅く」の文脈で用いる。"
   },
   {
+    "word": "socialized",
+    "ja": "社会化された",
+    "note": "責任や費用を公的制度へ移した状態。"
+  },
+  {
     "word": "socks",
     "ja": "ルーズソックス",
     "note": "seventeen と結び、青春の記号として用いる。"
@@ -3708,6 +3828,11 @@
     "word": "spiky",
     "ja": "刺さったような",
     "note": "今回の作品では「刺さったような」の文脈で用いる。"
+  },
+  {
+    "word": "spill",
+    "ja": "こぼれる",
+    "note": "spill beyond で制度の外へこぼれる。"
   },
   {
     "word": "split",
@@ -3923,6 +4048,11 @@
     "word": "tapered",
     "ja": "テーパーの",
     "note": "先細り形状を持つ側や部分。"
+  },
+  {
+    "word": "taxes",
+    "ja": "税",
+    "note": "公的制度を支える税負担。"
   },
   {
     "word": "terror",
