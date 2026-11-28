@@ -1,0 +1,36 @@
+{
+  "id": "card-227",
+  "title": "No.227 聞き手の時給窓口",
+  "scenes": [
+    {
+      "id": "227-open",
+      "when": { "trigger": "cardOpen" },
+      "steps": [
+        { "enter": "pink", "at": "textRight" },
+        { "who": "pink", "say": "話を聞いてほしいです。ではlistener’s timeを購入します" },
+        { "enter": "pink2", "at": "textLeft", "flip": true },
+        { "who": "pink2", "say": "時給を提示してから三時間の自慢話をどうぞ" },
+        { "who": "pink", "say": "先に三時間を宣言するの、交渉が誠実すぎる" }
+      ]
+    },
+    {
+      "id": "227-counter",
+      "when": { "trigger": "idle", "after": 10 },
+      "steps": [
+        { "swarm": "pink", "count": 9, "every": 0.1, "at": "screen", "say": ["聞きます", "課金します", "attention！", "whereas！"] },
+        { "who": "pink", "say": "聞き手が増えたので料金を九倍にします", "style": "shout" },
+        { "who": "pink2", "say": "同じ人の分身です" },
+        { "who": "pink", "say": "注意資源の水増しが発覚しました", "act": "shake" }
+      ]
+    },
+    {
+      "id": "227-bye",
+      "when": { "trigger": "dismiss", "reason": "speechEnd" },
+      "steps": [
+        { "who": "any", "say": "聞いてほしい側なので、出演者が支払って帰ります" },
+        { "wait": 1 },
+        { "exit": "all" }
+      ]
+    }
+  ]
+}
