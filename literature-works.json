@@ -621,5 +621,13 @@
     "manifest": "literature/daily-essay-20261127/manifest.json",
     "mode": "essay-translation",
     "addedAt": "2026-11-28T02:30:00+09:00"
+  },
+  {
+    "workId": "daily-essay-20261128",
+    "title": "請求書は未来の日付で届く",
+    "description": "高齢者定義を動かしても変わらない身体時間、親扶養の一人当たり負担、個人単位の権利と家族単位の義務が作る二重会計、人口予測の誤差を後代へ送る制度を通して、改訂できる制度と戻せない人間時間の非対称性を考える日次エッセイ。",
+    "manifest": "literature/daily-essay-20261128/manifest.json",
+    "mode": "essay-translation",
+    "addedAt": "2026-11-29T02:30:00+09:00"
   }
 ]
